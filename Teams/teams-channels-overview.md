@@ -24,7 +24,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
 ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
 ms.locfileid: "48534951"
@@ -39,7 +39,7 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 - **Teams** regroupe des personnes, du contenu et des outils autour d'un projet ou d'une tâche spécifique au sein d'une organisation.
 
     - Teams peut être créé pour être privé, accessible uniquement aux utilisateurs invités.
-    - Les équipes peuvent également être créées pour être publiques et ouvertes, et tout le monde au sein de l’organisation peut participer (jusqu’à 10 000 membres).
+    - Teams peut également être créé pour être publique et ouvert à tous les utilisateurs d’une organisation (jusqu'à 10 000 membres).
     
     Une équipe est conçue pour réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
@@ -61,7 +61,7 @@ Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques po
 
 Lorsque Microsoft Teams est activé pour l'ensemble de votre organisation, les propriétaires d'équipe désignés peuvent inviter les employés avec lesquels ils travaillent à rejoindre leur équipe. Microsoft Teams permet aux propriétaires d’équipe d’ajouter facilement des personnes de l’organisation selon leur nom. En fonction des paramètres de votre organisation, des invités qui sont membres d’une équipe mais externes à votre organisation peuvent également être ajoutés à vos équipes. Reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md) pour plus d’informations. 
 
-Les propriétaires d’équipe peuvent également créer une équipe en fonction d’un groupe Microsoft 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. La création d’une équipe en fonction d’un groupe Microsoft 365 existant ne simplifie pas seulement le processus d’invitation et de gestion des membres, mais également la synchronisation des fichiers de groupe au sein de Microsoft Teams.
+Les propriétaires d’équipe peuvent également créer une équipe basée sur un groupe Microsoft 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. Créer une équipe basée sur un groupe Microsoft 365 existant simplifie non seulement le processus d’invitation et de gestion des membres, mais synchronise également les fichiers du groupe au sein de Microsoft Teams.
 
 **Rôles de l’équipe**
 
@@ -80,9 +80,9 @@ Prenez trois minutes à examiner cette vidéo guide de déplacement pour les pro
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Si vous êtes un administrateur de Microsoft teams dans Microsoft 365 ou Office 365, vous avez accès aux paramètres système dans le centre d’administration Microsoft Teams. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal « Général » par défaut, pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
+Si vous êtes un administrateur de Microsoft Teams dans Microsoft 365 ou Office 365, vous avez accès aux paramètres à l’échelle du système dans le centre d’administration Microsoft Teams. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal « Général » par défaut, pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
-Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams (pour modifier ces autorisations, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md). Les utilisateurs d’un groupe Microsoft 365 existant peuvent également améliorer leurs autorisations grâce aux fonctionnalités d’équipe.
+Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams (pour modifier ces autorisations, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md). Les utilisateurs d'un groupe Microsoft 365 existant peuvent également améliorer leurs autorisations avec la fonctionnalité Teams.
 
 Pour faire adopter Microsoft Teams par les utilisateurs, l’une des première activités de planification consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Teams. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée. Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
 

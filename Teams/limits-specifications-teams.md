@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420924"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611468"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -45,6 +45,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
 |Nombre de canaux privés par équipe    |30| 200 (y compris les canaux supprimés)&sup3;
 |Nombre de membres dans un canal privé    |250|
+|Taille maximale de liste de distribution, groupe de sécurité ou groupe Office 365 pouvant être importé dans une équipe    |3 500|
 |Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000<sup>5</sup>     |
 |Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
 
@@ -127,7 +128,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
 |Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 350 |
-|Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
+|Nombre de personnes dans un appel vidéo ou audio démarré à partir de l’onglet conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
 
@@ -179,7 +180,7 @@ La présence Teams dans Outlook est prise en charge sur l’application de burea
 Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online, et chaque canal d'une équipe reçoit un dossier dans la bibliothèque de documents par défaut du site de l'équipe. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité de fichier définies dans SharePoint sont automatiquement appliquées à Teams.
 
 > [!NOTE]
-> Chaque [canal privé](https://docs.microsoft.com/microsoftteams/private-channels) possède sa propre collection de sites SharePoint.
+> Chaque [canal privé](https://docs.microsoft.com/microsoftteams/private-channels) possède son propre site SharePoint (anciennement appelé « collection de sites »).
 
 Si SharePoint n’est pas activé dans le client, les utilisateurs de Microsoft Teams n’ont pas toujours accès au partage des fichiers dans les équipes. Les utilisateurs de conversations privées n’ont pas également accès au partage des fichiers parce que OneDrive Entreprise (lié à la licence SharePoint) est obligatoire pour cette fonctionnalité.
 
@@ -190,10 +191,10 @@ Etant donné que Teams est exécuté sur le serveur principal de SharePoint Onl
 |Fonctionnalité                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Stockage                 |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée   |1 To par organisation, plus 10 Go par licence achetée |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation           |
-|Espace de stockage pour fichiers Teams |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |
+|Espace de stockage pour fichiers Teams |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |
 |Limite de taille de fichiers :    |2 Go    |2 Go    |2 Go    |2 Go    |2 Go    |2 Go    |
 
-Les canaux sont associés à des dossiers au sein de la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets de fichiers des canaux sont soumis aux limites de stockage de l’équipe à laquelle ils appartiennent.
+Les canaux sont sauvegardés dans un site SharePoint Online (auparavant appelé « collection de sites ») créé pour l’équipe. les onglets de fichier au sein des canaux partagent ainsi les limites de stockage de l’équipe à laquelle ils appartiennent.
 
 Pour plus d’informations, voir [Limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
