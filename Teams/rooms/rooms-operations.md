@@ -1,7 +1,7 @@
 ---
 title: Maintenance et opérations des salles de Microsoft teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: a6ab68200002035632314ac976cd45a2ee4ff714
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552292"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662459"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -26,7 +26,7 @@ Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous 
   
 Microsoft teams est la solution de conférence la plus récente de Microsoft conçue pour transformer votre salle de réunion en une expérience riche et collaborative. Les utilisateurs apprécieront l’interface familière de Microsoft teams ou Skype entreprise et les administrateurs informatiques apprécieront une application de réunion Skype facilement déployée et gérée dans Windows 10. Les salles de Microsoft teams sont conçues pour exploiter les équipements existants tels que les écrans LCD pour faciliter l’installation de Microsoft teams ou de Skype entreprise dans votre salle de réunion.
   
-Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion [Manage Microsoft Teams Rooms devices with Azure Monitor](azure-monitor-deploy.md)des [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la gestion de [Microsoft teams pour](azure-monitor-deploy.md)Microsoft teams Vous pouvez également [gérer les paramètres de la console de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md), qui inclut l’application d’un thème d’affichage personnalisé. 
+Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion [](azure-monitor-deploy.md)des [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la gestion de [Microsoft teams pour](azure-monitor-deploy.md)Microsoft teams Vous pouvez également [gérer les paramètres de la console de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md), qui inclut l’application d’un thème d’affichage personnalisé. 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Collecte de journaux sur les salles de Microsoft teams
 <a name="Logs"> </a>
@@ -65,8 +65,8 @@ Le tableau suivant récapitule les opérations distantes possibles et les métho
 |:-----|:-----|:-----|
 |Redémarrer  <br/> |Bureau distant  <br/> Powershell distant  <br/> |Bureau à distance (nécessite une configuration supplémentaire)  <br/> PowerShell distant (nécessite une configuration supplémentaire)  <br/> Configuration Manager  <br/> |
 |Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|Mise à jour de l';application  <br/> |	Windows Store  <br/> |	Windows Store  <br/> Configuration Manager  <br/> |
-|Configuration du compte Skype  <br/> |Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
+|Mise à jour de l';application  <br/> |	Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
+|Configuration du compte Skype  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
 |Accès aux journaux  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configuration d’une stratégie de groupe pour les salles Microsoft teams
@@ -105,16 +105,16 @@ Par exemple, vous pouvez activer PowerShell à distance comme suit :
   
 1. Connectez-vous en tant qu’administrateur sur un appareil Microsoft Teams.
 2. Ouvrez une invite de commandes PowerShell avec élévation de privilèges.
-3. Entrez la commande suivante :`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Ouvrez la stratégie de sécurité locale et ajoutez le groupe de sécurité *administrateurs* aux **paramètres de sécurité**  >  **stratégies locales**d'  >  **attribution des droits d’utilisateur**pour accéder à  >  **cet ordinateur à partir du réseau**.
+3. Entrez la commande suivante : `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. Ouvrez la stratégie de sécurité locale et ajoutez le groupe de sécurité *administrateurs* aux **paramètres de sécurité**  >  **stratégies locales** d'  >  **attribution des droits d’utilisateur** pour accéder à  >  **cet ordinateur à partir du réseau**.
 
 Pour effectuer une opération de gestion :
   
 1. Connectez-vous à un PC à l’aide d’informations d’identification de compte disposant des autorisations d’exécution des commandes PowerShell sur un appareil Microsoft Teams.
 2. Ouvrez une invite de commandes PowerShell normale sur le PC.
 3. Copiez le texte de commande du tableau ci-dessous, puis collez-le à l’invite.
-4. Remplacez les `<Device fqdn>` champs par des valeurs FQDN appropriées à votre environnement.
-5. Remplacez *\<path\>* par le nom de fichier et le chemin d’accès local du fichier de configuration du SkypeSettings.xml principal (ou de l’image de thème).
+4. Remplacez les  `<Device fqdn>` champs par des valeurs FQDN appropriées à votre environnement.
+5. Remplacez  *\<path\>*  par le nom de fichier et le chemin d’accès local du fichier de configuration du SkypeSettings.xml principal (ou de l’image de thème).
     
 Pour obtenir des appareils connectés
   
@@ -188,7 +188,7 @@ Certaines fonctions de gestion (par exemple, l’installation manuelle d’un ce
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Basculement en mode administrateur et retour lors de l’exécution de l’application Microsoft teams
 
 1. Raccrochez tout appel en cours et retournez sur l’écran d’accueil.
-2. Sélectionner l’icône d’engrenage et afficher le menu (les options sont **paramètres**, **accessibilité**et **redémarrage** de l’appareil).
+2. Sélectionner l’icône d’engrenage et afficher le menu (les options sont **paramètres**, **accessibilité** et **redémarrage** de l’appareil).
 3. Sélectionnez **Paramètres**.
 4. Entrez le mot de passe de l’administrateur. L’écran d’installation s’affiche.  Si l’appareil n’est pas joint à un domaine, le compte d’administrateur local (nom d’utilisateur « administrateur ») est utilisé par défaut. Le mot de passe par défaut de ce compte est « marketing », modifiez le mot de passe dès que possible. Si l’ordinateur est joint à un domaine, vous pouvez vous connecter à l’aide d’un compte de domaine à privilèges appropriés. 
 5. Dans la colonne de gauche, sélectionnez **Paramètres Windows** .

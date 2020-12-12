@@ -1,7 +1,7 @@
 ---
 title: Configurer une console des salles Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer et configurer la console de Microsoft Teams, ainsi que ses périphériques.
-ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a36ed93f370c0aeb302da246b223732383719fb
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905446"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662059"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console des salles Microsoft Teams
 
@@ -51,15 +51,15 @@ L’installation de l’application Microsoft teams salle console nécessite un 
 > [!IMPORTANT]
 > Sur un ordinateur Windows 10, le média d’installation de Microsoft teams se trouve sur la même version ou une version ultérieure.
   
-1. Téléchargez le [script CreateSrsMedia. ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Téléchargez le [ script deCreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
 3. Suivez les instructions du script pour créer un disque de configuration USB Microsoft Teams.
 
 
 > [!TIP]
-> Chaque fois que le script CreateSrsMedia. ps1 démarre, la sortie écran inclut le nom d’un fichier journal ou d’une transcription de la session. Si vous rencontrez des problèmes lors de l’exécution du script, assurez-vous qu’une copie de cette transcription est disponible lors de la demande d’assistance. 
+> Chaque fois que le script de CreateSrsMedia.ps1 démarre, la sortie de l’écran inclut le nom d’un fichier journal ou d’une transcription de la session. Si vous rencontrez des problèmes lors de l’exécution du script, assurez-vous qu’une copie de cette transcription est disponible lors de la demande d’assistance. 
 
-Le script CreateSrsMedia. ps1 automatise les tâches suivantes :
+Le script CreateSrsMedia.ps1 automatise les tâches suivantes :
 
 1. Téléchargez la dernière version du programme d’installation MSI pour les salles de Microsoft Teams.
 2. Déterminez la version de Windows que l’utilisateur doit fournir. Les versions les plus récentes sont susceptibles de ne pas être testées et prises en charge pour une utilisation avec des appareils Microsoft Teams.
@@ -101,7 +101,7 @@ Une fois le système arrêté, il est sûr de supprimer le disque de configurati
 
 ### <a name="selecting-a-language"></a>Sélectionner une langue 
 
-Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage. ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en anglais).
+Dans la mise à jour du créateur, vous devez utiliser le script de ApplyCurrentRegionAndLanguage.ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne procure pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en anglais).
   
 > [!NOTE]
 > Les instructions suivantes ne fonctionnent pas pour les consoles créées à l’aide de la mise à jour du créateur Windows. Les systèmes traditionnels/inactifs qui n’ont pas été configurés à l’aide de médias avec le nouveau système de mise en service ne seront pas en mesure d’utiliser ces instructions, mais qui ne font pas partie du problème initial qui nécessite cette intervention manuelle (édition anniversaire).

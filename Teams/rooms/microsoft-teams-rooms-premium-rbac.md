@@ -1,7 +1,7 @@
 ---
 title: Contrôle d’accès basé sur les rôles avec le service Microsoft teams Premium
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Apprenez-en davantage sur le contrôle d’accès basé sur les rôles grâce au service géré par Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
+ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300288"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662599"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Contrôle d’accès basé sur un rôle avec le service géré Microsoft teams
 
@@ -34,7 +34,7 @@ Pour créer, modifier ou affecter des rôles, votre compte doit avoir une des au
 
 ## <a name="what-is-a-role"></a>Qu’est-ce qu’un rôle ?
 
-Un rôle définit le jeu d’autorisations accordé aux utilisateurs attribués à ce rôle. Pour le moment, le service géré en salle Microsoft teams comporte trois rôles intégrés : **administrateur de service géré**, **site Web**et **site Tech**. Ils couvrent certains scénarios courants liés aux utilisateurs de votre organisation qui peuvent être impliqués dans la gestion de vos salles.
+Un rôle définit le jeu d’autorisations accordé aux utilisateurs attribués à ce rôle. Pour le moment, le service géré en salle Microsoft teams comporte trois rôles intégrés : **administrateur de service géré**, **site Web** et **site Tech**. Ils couvrent certains scénarios courants liés aux utilisateurs de votre organisation qui peuvent être impliqués dans la gestion de vos salles.
 
 Pour afficher les rôles, dans le volet de navigation de gauche du portail de service géré de Microsoft Teams, accédez à **rôles**, puis sélectionnez l’un des rôles pour afficher les propriétés, les autorisations et les affectations du rôle.  
 
@@ -78,7 +78,7 @@ Le tableau suivant récapitule ce que chaque rôle peut faire.
 
 Pour attribuer des rôles, vous devez être un administrateur général ou un administrateur de service géré.
 
-1. Dans le volet de navigation de gauche du portail de service géré de Microsoft Teams, accédez à **paramètres**  >  **Roles**.
+1. Dans le volet de navigation de gauche du portail de service géré de Microsoft Teams, accédez à **paramètres**  >  .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Capture d’écran de la page de contrôle d’accès montrant les rôles":::
 
@@ -87,11 +87,11 @@ Pour attribuer des rôles, vous devez être un administrateur général ou un ad
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Capture d’écran de l’option Ajouter pour ajouter un rôle.":::
 
-4. Dans la page **paramètres généraux** , sous **Propriétés**de l’affectation, entrez un nom pour ce devoir. La description est facultative. Cliquez sur **suivant.**
+4. Dans la page **paramètres généraux** , sous **Propriétés** de l’affectation, entrez un nom pour ce devoir. La description est facultative. Cliquez sur **suivant.**
 5. Dans la page **membres** , dans la zone **Rechercher un utilisateur ou un groupe de sécurité** , entrez le nom d’un utilisateur ou d’un groupe de sécurité de votre client auquel vous voulez accorder des autorisations, puis terminez la sélection. Cliquez sur **suivant**. 
 6. Dans la page **étendue** , dans la zone de **recherche de salle ou de groupe** , tapez le nom d’une salle ou d’un groupe de pièces que l’utilisateur est autorisé à gérer. Cliquez sur **suivant**.
 7. Dans la page **Terminer** , passez en revue les détails de votre devoir. Si vous êtes satisfait de la configuration, sélectionnez **Ajouter une affectation**. Si vous voulez modifier une section, utilisez le bouton **précédent** ou sélectionnez l’étape dans le volet de navigation de gauche.  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Service géré en salle Microsoft teams](microsoft-teams-rooms-premium.md)

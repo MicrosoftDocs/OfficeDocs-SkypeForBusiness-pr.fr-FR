@@ -1,7 +1,7 @@
 ---
 title: Authentification dans les salles de Microsoft teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Découvrir comment configurer l’authentification moderne pour les salles Microsoft teams
-ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 41a65743e5da851dd8e0197e9382deaf696cd9ec
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308257"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662579"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans les salles de Microsoft teams
 

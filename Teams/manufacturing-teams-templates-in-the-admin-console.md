@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800597"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662219"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Utiliser les modèles de fabrication d’équipes dans le centre d’administration
 
@@ -42,7 +42,7 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [commencer �
 
 Centralisez la communication, l’accès aux ressources et aux opérations d’usines avec une équipe de production. Incluez des documents de stratégie et de procédure, des vidéos de formation, des avis de sécurité, des processus de transfert de Shift.
 
-| Type de modèle de base|baseTemplateId | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base|baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-|Qualité et sécurité|`com.microsoft.teams.template.QualitySafety` |Canaux <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Technologique</li><li>Formation</li><li>Tarification</li><li>Outils amusants</li></ul> Logiciels <ul><li>Wiki</li></ul>|
+|Qualité et sécurité|`com.microsoft.teams.template.QualitySafety` |Canaux <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Technologique</li><li>Formation</li><li>Tarification</li><li>Outils amusants</li></ul> Logiciels <ul><li>Wiki</li><li>Planificateur</li></ul>|
 ||||

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24e1f440702f10785e42b83c39a53cb14da8739
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800577"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662639"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>Utiliser les modèles commerciaux teams dans le centre d’administration
 
@@ -44,7 +44,7 @@ Rassemblez vos collaborateurs au sein d’une interface centralisée pour gérer
 
 | Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-|Organiser un Store| `retailStore`|Canaux <ul><li>Général<li>Remise du Shift</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
+|Organiser un Store|`retailStore`|Canaux <ul><li>Général<li>Remise du Shift</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="manager-collaboration"></a>Collaboration avec les responsables

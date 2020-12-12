@@ -1,7 +1,7 @@
 ---
 title: Préparer votre environnement
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Apprenez-en davantage sur la préparation de votre infrastructure pour le déploiement de Microsoft Teams, afin de pouvoir tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
-ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
+ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529177"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662429"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -41,12 +41,12 @@ Cette section fournit une vue d’ensemble des étapes nécessaires pour prépar
   
 3. Pour améliorer votre expérience, Microsoft collecte des données. Pour permettre à Microsoft de recueillir des données, autorisez les sites suivants :
 
-   - Point de terminaison du client de télémétrie :https://vortex.data.microsoft.com/
-   - Point de terminaison des paramètres de télémétrie :https://settings.data.microsoft.com/
+   - Point de terminaison du client de télémétrie : https://vortex.data.microsoft.com/
+   - Point de terminaison des paramètres de télémétrie : https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Création et test d’un compte d’appareil
 
-Un *compte d’appareil* est un compte qu’utilise le client Microsoft teams pour accéder aux fonctions à partir d’Exchange, comme le calendrier et pour activer Skype entreprise. Pour plus d’informations, voir [déployer des salles Microsoft teams](rooms-deploy.md) .
+Un  *compte d’appareil*  est un compte qu’utilise le client Microsoft teams pour accéder aux fonctions à partir d’Exchange, comme le calendrier et pour activer Skype entreprise. Pour plus d’informations, voir [déployer des salles Microsoft teams](rooms-deploy.md) .
   
 ### <a name="check-network-availability"></a>Vérification de la disponibilité du réseau
 
@@ -86,7 +86,7 @@ Les salles de Microsoft teams sont conçues pour hériter des paramètres de pro
 
 7. Vous serez invité à entrer un nom de clé pour votre nouvelle ruche. Entrez dans Skype (les paramètres de registre de l’utilisateur Skype apparaissent désormais).
  
-8. Ouvrez la clé Skype et naviguez jusqu’à HKEY_USERS paramètres \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet, puis vérifiez que les paramètres suivants sont renseignés : 
+8. Ouvrez la clé Skype et naviguez jusqu’à HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings puis assurez-vous que les paramètres suivants sont renseignés : 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -157,9 +157,9 @@ Le mot de passe de l’administrateur local n’est pas inclus comme alternative
 
 Comme n’importe quel appareil Windows, le nom de l’ordinateur peut être renommé en cliquant avec le bouton droit sur les paramètres relatifs au changement de \> \> nom du PC.
   
- Si vous souhaitez renommer l’ordinateur après l’avoir rejointe à un domaine, utilisez la commande PowerShell d’ordinateur renommé suivie du nouveau nom de l’ordinateur.
+ Si vous souhaitez renommer l’ordinateur après l’avoir rejointe à un domaine, utilisez la commande Rename-Computer PowerShell suivie du nouveau nom de l’ordinateur.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Planifier les salles de Microsoft teams](rooms-plan.md)
 

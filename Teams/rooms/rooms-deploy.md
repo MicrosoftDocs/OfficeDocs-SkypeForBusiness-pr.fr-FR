@@ -1,7 +1,7 @@
 ---
 title: Déployer les Salles Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 53c4c94717f10dadbad802cff3f233a3a771d166
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085960"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662249"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -90,7 +90,7 @@ _Exemple de tableau de planification de compte de service de Microsoft teams_
 
 Pour vous permettre de gérer et de créer des rapports sur les comptes d’ordinateur et de service de Microsoft Teams, préparez votre Active Directory local ou Azure Active Directory (Azure AD). 
 
-Définissez une communauté locale Active Directory ou Azure AD pour ajouter tous les comptes de service de Microsoft Teams (utilisateur), puis créez des rapports d’utilisation à l’aide de l’applet de commande PowerShell Get-CSUserSession sur votre déploiement de Microsoft Teams. Par exemple, créez un groupe intitulé SkypeRoomSystemsv2-Service-Accounts. 
+Définissez une communauté locale Active Directory ou Azure AD pour ajouter tous les comptes de service de Microsoft Teams (utilisateur), puis créez des rapports d’utilisation à l’aide de l’applet de commande PowerShell Get-CSUserSession sur le déploiement de Microsoft Teams. Par exemple, créez un groupe intitulé SkypeRoomSystemsv2-Service-Accounts. 
 
 
 Définissez une unité d’organisation dans votre hiérarchie locale Active Directory ou Azure AD pour contenir tous les comptes d’ordinateur de Microsoft Teams (s’ils sont joints au domaine) et une unité d’organisation pour contenir tous les comptes d’utilisateurs de Microsoft Teams. Si vous créez une unité d’organisation pour les comptes d’ordinateur de Microsoft Teams, envisagez de désactiver l’héritage de façon à ce que vous appliquiez uniquement les stratégies que vous souhaitez appliquer à l’équipe Microsoft teams dans le domaine. 
@@ -119,7 +119,7 @@ La planification de la configuration et du déploiement englobe les principales 
 
 Chaque appareil de salle Microsoft teams nécessite un compte de ressources dédié et unique qui doit être activé pour Microsoft teams ou Skype entreprise et Exchange. Ce compte doit avoir une boîte aux lettres de salle hébergée sur Exchange et être activé comme salle de réunion dans le déploiement teams ou Skype entreprise. Dans le cas d’Exchange, le traitement du calendrier doit être configuré de manière à ce que l’appareil puisse automatiquement accepter les demandes de réunion entrantes. Pour plus d’informations sur la création de comptes, reportez-vous à [configurer des comptes pour les salles Microsoft teams](rooms-configure-accounts.md). 
 
-**Conseil Pro** : rendez les noms d’affichage de ces comptes descriptifs et faciles à comprendre. Il s’agit des noms que les utilisateurs verront lors de la recherche et de l’ajout de systèmes de salle Microsoft teams à des réunions. Certaines organisations utilisent le nom de la salle de *site* - *Room Name*(*capacité maximale*de la salle)-RS, par exemple Curie, une salle de conférence de 12 personnes à Londres, peut présenter le nom d’affichage lon-Curie (12)-RS. 
+**Conseil Pro** : rendez les noms d’affichage de ces comptes descriptifs et faciles à comprendre. Il s’agit des noms que les utilisateurs verront lors de la recherche et de l’ajout de systèmes de salle Microsoft teams à des réunions. Certaines organisations utilisent le nom de la salle de *site* - (*capacité maximale* de la salle)-RS, par exemple Curie, une salle de conférence de 12 personnes à Londres, peut présenter le nom d’affichage lon-Curie (12)-RS. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Lors de la planification du déploiement des salles de Microsoft Teams, vous ave
 | Déploiement de plus de 50 équipements de salles de Microsoft Teams, déploiement de périphériques auprès de plusieurs fournisseurs ou demandant des agents spécifiques à une organisation dans le cadre du déploiement. | Utilisez une plateforme de build et de distribution de logiciels basée sur une séquence de tâches, telle que [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de développer une convention d’affectation de noms pour les déploiements de Microsoft Teams, ce qui permet au personnel de support de retrouver facilement les salles de Microsoft teams pour lesquelles il y a eu une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la salle de*site* - *Room Name* (MTR-lon-Curie). 
+**Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de développer une convention d’affectation de noms pour les déploiements de Microsoft Teams, ce qui permet au personnel de support de retrouver facilement les salles de Microsoft teams pour lesquelles il y a eu une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la salle de *site* -  (MTR-lon-Curie). 
 
 Dans le cadre du déploiement, vous devez également prendre en considération votre stratégie de gestion et de configuration des [comptes locaux](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) créés par le programme d’installation de l’application Microsoft Teams.
 

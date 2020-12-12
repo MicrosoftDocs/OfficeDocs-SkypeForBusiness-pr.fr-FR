@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650877"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661899"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -124,6 +124,8 @@ Voici quelques éléments supplémentaires à prendre en considération lors de 
 - Si votre organisation a des exigences en matière de conformité afin de vous assurer que toutes les discussions de réunion soient détectables, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, reportez-vous à [autoriser la planification de réunions privées](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - Dans le cas d’un déploiement hybride Exchange, le contenu des messages instantanés peut être recherché, même si les participants possédant une boîte aux lettres basée sur le Cloud ou une boîte aux lettres locale. Pour en savoir plus, consultez [recherche de boîtes aux lettres sur le nuage pour les utilisateurs locaux](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Microsoft Teams, voir [recherche de contenu dans le centre de conformité Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
+- Pour le statut de présence, Microsoft teams doit vérifier si la boîte aux lettres est hébergée sur Exchange Online ou sur site. Le service décide alors de l’accès à la boîte aux lettres. Pour permettre au service teams de vérifier l’emplacement de la boîte aux lettres par le biais de l’appel d’API REST au service Exchange Online, vous devez déployer un environnement hybride Exchange en exécutant l’Assistant Configuration hybride Exchange, comme décrit dans la rubrique [créer un déploiement hybride avec l’Assistant Configuration hybride](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid).
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 

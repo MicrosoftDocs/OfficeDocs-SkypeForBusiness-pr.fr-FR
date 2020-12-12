@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: Cet article décrit les fonctionnalités de Microsoft teams disponibles aux utilisateurs invités.
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Cet article décrit les fonctionnalités de Microsoft teams disponibles aux invités.
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030290"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661889"
 ---
 # <a name="guest-experience-in-teams"></a>Convivialité dans teams
 
@@ -44,7 +44,7 @@ Regardez ces vidéos sur l’interface de l’invité dans teams :
 
 Le tableau suivant compare les fonctionnalités d’équipes disponibles pour les membres de l’équipe d’une organisation et ses invités. Les administrateurs d’équipes contrôlent les fonctionnalités disponibles pour les invités.
 
-|**Fonctionnalité dans Teams**|**Utilisateur de Teams dans l'organisation**|**Utilisateur invité**|
+| Fonctionnalité dans Teams | Utilisateur de Teams dans l'organisation | Dactylo |
 |:-----|:-----|:-----|
 |Créer un canal  <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> |&#x2713;|&#x2713;|
 |Participer à une conversation privée  <br/> |&#x2713;|&#x2713;|
@@ -52,7 +52,7 @@ Le tableau suivant compare les fonctionnalités d’équipes disponibles pour le
 |Publier, supprimer et modifier des messages  <br/> |&#x2713;|&#x2713;|
 |Partager un fichier dans un canal  <br/> |&#x2713;|&#x2713;|
 |Accéder aux fichiers SharePoint<br/> |&#x2713;|&#x2713;|
-|Joindre des fichiers<br/> |&#x2713;|&#x2713;|
+|Joindre des fichiers<br/> |&#x2713;|Discussions d’équipe uniquement|
 |Télécharger des fichiers de conversation privée<br/> |&#x2713;|&#x2713;|
 |Effectuer une recherche dans les fichiers<br/> |&#x2713;||
 |Partager un fichier dans une conversation  <br/> |&#x2713;||
@@ -107,6 +107,6 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 >
 >Pour plus d’informations, voir [Quelles sont les autorisations par défaut de l’utilisateur dans Azure Active Directory ?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Laisser une organisation en tant qu’utilisateur invité](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Quitter une organisation en tant qu’invité](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

@@ -1,7 +1,7 @@
 ---
 title: Service géré en salle Microsoft teams
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur le service géré Microsoft teams services.
 f1keywords: ''
-ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031400"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662659"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Service géré en salle Microsoft teams
 
@@ -130,7 +130,7 @@ Le service géré en salle Microsoft teams est disponible dans les pays et régi
 |Les investigations initiales sont effectuées pour des périphériques certifiés, tels que des appareils photo, des microphones et des haut-parleurs. La prise en charge du fabricant d’ordinateurs OEM pour le fabricant doit répondre à la demande de remplacement ou de garantie.    |Achat, expédition ou installation de remplacements.         |Support OEM         |
 |**Analyse de la cause initiale**     |         |         |
 |Toutes les causes racines correspondant aux problèmes rencontrés dans le cadre de la salle de réunion sont fournies lorsqu’elles sont disponibles, mais sont effectuées de façon optimale.     |L’analyse des causes premières pour les problèmes logiciel tiers n’est pas incluse.         |Canaux d’assistance standard de tiers         |
-|**Découverte des réunions**   |         |         |
+|**Expérience de réunion**   |         |         |
 |L’examen des problèmes dans les paramètres de la réunion dans l’application et les recommandations en matière de configuration de la qualité de service sur l’appareil est fourni à la demande.      |L’analyse des causes premières ou les recherches de problèmes de qualité d’appel ou de problèmes liés au réseau sont exclus de cette étendue.         |Support technique Microsoft         |
 |**Correction, intégration et poursuite**     |         |         |
 |Les clients reçoivent des conseils pour amener leurs salles aux normes recommandées par le service géré par Microsoft teams services à l’intégration    |Des enquêtes relatives aux images logicielles personnalisées internes ou aux recommandations en matière de versions logicielles recommandées à partir de Microsoft teams services gérées ne sont pas à portée de main.          |         |
@@ -141,6 +141,6 @@ Le service géré par Microsoft teams services surveille les appareils, collecte
 
 Les données collectées sont spécifiques à un compte de salle, et non à un utilisateur individuel. Il est possible que les références manuelles à un utilisateur individuel apparaissent dans le journal d’activité lors de l’utilisation de l’appareil. Les données recueillies sont traitées par Microsoft conformément à la [déclaration de confidentialité de Microsoft](https://aka.ms/privacy).  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Service géré en salle Microsoft teams](https://rooms.microsoft.com)

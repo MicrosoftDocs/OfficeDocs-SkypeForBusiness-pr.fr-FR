@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
-ms.translationtype: HT
+ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49476993"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662039"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Les invités dans Teams bénéficient de la même protection en matière de conf
 L’expérience des invités comporte des limitations de par sa conception. Pour consulter la liste complète de ce qu’un invité peut et ne peut pas faire dans Teams, consultez [comparaison des fonctionnalités des membres d’équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
-> Les utilisateurs invités suivent les paramètres de niveau organisation Teams pour le mode de mise à niveau de coexistence. Il n’est pas possible de modifier cela.
+> Les invités suivent les paramètres à l’échelle de l’Organisation pour le mode de mise à niveau de coexistence. Il n’est pas possible de modifier cela.
 
 Pour configurer l’accès invité, consultez [Collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
@@ -57,10 +57,10 @@ L'accès invité dans Teams est un paramètre qui s'applique à toute l'organisa
 1. Un propriétaire d'équipe ou un administrateur Microsoft 365 [ajoute un invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. L'invité reçoit un e-mail de bienvenue de la part du propriétaire de l’équipe, ainsi que des informations sur l’équipe et sur ce à quoi s'attendre en tant que membre.
 3. L'invité accepte l'invitation.
-  Les utilisateurs invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code d’accès unique pour valider leur identité ([Authentification à code secret unique](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) obligatoire).
+  Les invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code d’accès unique pour valider leur identité ([Authentification à code secret unique](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) obligatoire).
 4. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir et répondre à des messages de canal, [accéder aux fichiers dans les canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer aux conversations, rejoindre des réunions, collaborer sur des documents, etc. 
 
-Dans Teams, les invités sont clairement identifiés. Le nom d'utilisateur d'un invité comprend l'étiquette **(Invité)**, et un canal inclut une icône indiquant qu’il y a des invités dans l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
+Dans Teams, les invités sont clairement identifiés. Le nom d’un invité inclut l’étiquette **(invité)** et un canal inclut une icône pour indiquer qu’il existe des invités sur l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
   
 Les invités peuvent quitter l’équipe Teams à tout moment. Pour plus d'informations, reportez-vous à l'article [Comment quitter une équipe ?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
@@ -84,7 +84,7 @@ Vous pouvez effectuer une révision de l’accès invité vous-même, demander a
 
 [Collaborer avec des personnes extérieures à votre organisation](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[Bloquer des utilisateurs invités d’un groupe Microsoft 365 spécifique ou d’une équipe Microsoft Teams](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Bloquer des invités d’un groupe Microsoft 365 spécifique ou d’une équipe Microsoft teams](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Créer un environnement de partage sécurisé avec des invités](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 

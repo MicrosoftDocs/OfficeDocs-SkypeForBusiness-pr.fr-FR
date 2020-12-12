@@ -1,5 +1,5 @@
 ---
-title: Utiliser les modèles teams pour créer une équipe
+title: Utiliser les modèles teams dans le centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e195b4d233fe0b23558e29fb4545e4c6b52031e6
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 7ad35b874f3f11a7e71d61c63cb90a1945c7cc85
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800557"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662649"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Commencer à utiliser les modèles teams dans le centre d’administration
 
@@ -47,7 +47,7 @@ La plupart des propriétés d’une équipe sont incluses et prises en charge pa
 | Type de modèle de base | Appartenance à une équipe |
 | Nom de l’équipe | Image d’équipe |
 | Description de l’équipe | Paramètres du canal |
-| Visibilité de l’équipe (publique ou privée) | Connecteurs |
+| Visibilité de l’équipe (publique ou privée) | Lien |
 | Paramètres d’équipe (par exemple, membre, invité, @ mentions) | Fichiers et contenu |
 | Canal de favoris | |
 | Application installée | |
@@ -68,18 +68,18 @@ Une fois qu’un type de modèle de base est défini, vous pouvez étendre ou re
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Adopter Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canaux <ul><li>Général</li> <li>Annonces</li> <li>Coin des champions</li> <li>Formulaires d’équipe</li></ul> Logiciels <ul><li>Wiki</li>  <li>Calendrier</li> |
-| Gérer un projet |`com.microsoft.teams.template.ManageAProject`| Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gérer un projet |`com.microsoft.teams.template.ManageAProject`| Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li><li>Planificateur</li><li>Reprend</li>  </ul> |
 | Gérer un événement|`com.microsoft.teams.template.ManageAnEvent` | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Budget</li> <li>Contenu</li><li>Logistique</li> <li>Planification</li> <li> Marketing et PR</li></ul> Logiciels<ul><li>Wiki</li><li>Associates</li> <li>YouTube</li> <li>Planificateur</li> <li>OneNote</li></ul> |
-|Utilisateurs intégrés|`com.microsoft.teams.template.OnboardEmployees` | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Discussions des employés</li> <li>Formation</li></ul>Logiciels<ul><li>Wiki</li><li>Civile</li></ul>|
-|Organiser le support technique| `com.microsoft.teams.template.OrganizeHelpDesk`|Canaux<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Collaborer sur les soins du patient| `healthcareWard `| Canaux<ul><li>Général</li><li>Annonces</li><li>Huddles</li><li>Négative</li><li>Spécifient</li><li>Formation</li></ul> Logiciels <ul><li>Wiki</li>|
-| Collaborer sur une crise générale ou un événement |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canaux <ul><li>Général<li>Annonces</li><li>Actualité du monde</li><li>Continuité de l’activité</li><li>Travail distant</li><li>Commes internes</li><li>Commes externes</li><li>Réclamations de clients</li><li>Complimenter</li><li>Mise à jour de la direction</li></ul>Logiciels <ul><li>Éloge</li><li>Wiki</li><li>Associates</li></ul>|
-|Collaborer au sein d’une succursale bancaire| `com.microsoft.teams.template.CollaborateWithinABankBranch `|Canaux <ul><li>Général<li>Annonces</li><li>Huddles</li><li>Réunions des clients</li><li>Conseils</li><li>Développement de compétences</li><li>Traitement des prêts</li><li>Réclamations de clients</li><li>Complimenter</li><li>Outils amusants</li><li>Conformité</li></ul>|
+|Utilisateurs intégrés|`com.microsoft.teams.template.OnboardEmployees` | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Discussions des employés</li> <li>Formation</li></ul>Logiciels<ul><li>Wiki</li><li>Civile</li><li>Planificateur</li></ul>|
+|Organiser le support technique| `com.microsoft.teams.template.OrganizeHelpDesk`|Canaux<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Logiciels<ul><li>Wiki</li><li>OneNote</li><li>Planificateur </li><li>Éloge</li></ul> |
+| Collaborer sur les soins du patient| `healthcareWard`| Canaux<ul><li>Général</li><li>Annonces</li><li>Huddles</li><li>Négative</li><li>Spécifient</li><li>Formation</li></ul> Logiciels <ul><li>Wiki</li><li>Reprend  </li></ul>|
+| Collaborer sur une crise générale ou un événement |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canaux <ul><li>Général<li>Annonces</li><li>Actualité du monde</li><li>Continuité de l’activité</li><li>Travail distant</li><li>Commes internes</li><li>Commes externes</li><li>Demande d’approbation</li><li>Réclamations de clients</li><li>Complimenter</li><li>Mise à jour de la direction</li></ul>Logiciels <ul><li>Éloge</li><li>Wiki</li><li>Associates</li><li>Planificateur</li></ul>|
+|Collaborer au sein d’une succursale bancaire| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canaux <ul><li>Général<li>Annonces</li><li>Huddles</li><li>Réunions des clients</li><li>Demande d’approbation </li><li>Conseils</li><li>Développement de compétences</li><li>Traitement des prêts</li><li>Réclamations de clients</li><li>Complimenter</li><li>Outils amusants</li><li>Conformité</li></ul>Logiciels<ul><li>Éloge </li></ul>|
 |Coordonnées de la réponse d’incident| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canaux <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Restaurer</li><li>Examiné</li></ul> Logiciels <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
-|Hôpital| `healthcareHospita`compt |Canaux <ul><li>Général<li>Annonces</li><li>Conformité</li><li>Privatives de Troie</li><li>Ressources humaines</li><li>Pharmaceutiques</li></ul> Logiciels <ul><li>Wiki</li></ul>|
-|Organiser un Store| `retailStore` |Canaux <ul><li>Général<li>Remise du Shift</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
-|Qualité et sécurité |`com.microsoft.teams.template.QualitySafety`|Canaux <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Technologique</li><li>Formation</li><li>Tarification</li><li>Outils amusants</li></ul> Logiciels <ul><li>Wiki</li></ul>|
-|Collaboration avec le responsable commercial| `retailManagerCollaboration` |Canaux <ul><li>Général<li>Opérations</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
+|Hôpital| `healthcareHospital` |Canaux <ul><li>Général</li><li>Annonces</li><li>Conformité</li><li>Privatives de Troie</li><li>Ressources humaines</li><li>Pharmaceutiques</li></ul> Logiciels <ul><li>Wiki</li><li>Reprend  </li></ul>|
+|Organiser un Store| `retailStore` |Canaux <ul><li>Général<li>Remise du Shift</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li><li>Planificateur</li></ul>|
+|Qualité et sécurité |`com.microsoft.teams.template.QualitySafety`|Canaux <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Technologique</li><li>Formation</li><li>Tarification</li><li>Outils amusants</li></ul> Logiciels <ul><li>Wiki</li><li>Planificateur</li></ul>|
+|Collaboration avec le responsable commercial| `retailManagerCollaboration` |Canaux <ul><li>Général<li>Opérations</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li><li>Planificateur</li></ul>|
 ||||
 
 Pour plus d’informations sur les catégories de modèles, voir les catégories suivantes :

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424604"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662509"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-center"></a>Utiliser les modèles financiers d’équipes dans le centre d’administration
 
@@ -44,7 +44,7 @@ Centralisation de la collaboration pour votre équipe de crise sur différentes 
 
 | Type de modèle de base|baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-| Collaborer sur une crise générale ou un événement|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux <ul><li>Général<li>Annonces</li><li>Actualité du monde</li><li>Continuité de l’activité</li><li>Travail distant</li><li>Commes internes</li><li>Commes externes</li><li>Réclamations de clients</li><li>Complimenter</li><li>Mise à jour de la direction</li></ul>Logiciels <ul><li>Éloge</li><li>Wiki</li><li>Associates</li></ul>|
+| Collaborer sur une crise générale ou un événement|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux <ul><li>Général<li>Annonces</li><li>Actualité du monde</li><li>Continuité de l’activité</li><li>Travail distant</li><li>Commes internes</li><li>Commes externes</li><li>Demande d’approbation</li><li>Réclamations de clients</li><li>Complimenter</li><li>Mise à jour de la direction</li></ul>Logiciels <ul><li>Éloge</li><li>Wiki</li><li>Associates</li><li>Planificateur</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>Collaborer au sein d’une succursale bancaire
@@ -53,6 +53,6 @@ Centralisation de la collaboration pour les employés de votre succursale dans h
 
 | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------ |--|----------------------------------------------------- |
-|Collaborer au sein d’une succursale bancaire|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canaux <ul><li>Général<li>Annonces</li><li>Huddles</li><li>Réunions des clients</li><li>Conseils</li><li>Développement de compétences</li><li>Traitement des prêts</li><li>Réclamations de clients</li><li>Complimenter</li><li>Outils amusants</li><li>Conformité</li></ul>|
+|Collaborer au sein d’une succursale bancaire|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canaux <ul><li>Général<li>Annonces</li><li>Huddles</li><li>Réunions des clients</li><li>Demande d’approbation</li><li>Conseils</li><li>Développement de compétences</li><li>Traitement des prêts</li><li>Réclamations de clients</li><li>Complimenter</li><li>Outils amusants</li><li>Conformité</li></ul>Logiciels<ul><li>Éloge</li></ul>|
 ||||
 

@@ -1,7 +1,7 @@
 ---
 title: Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit le déploiement de la gestion des appareils Microsoft teams salles de manière intégrée et complète grâce à l’utilisation de moniteur Azure.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c1ecb3906eec551ddaed9a2c748a66c9da7ac9a
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b05c490c157c9f6530ca79ecdd8df19f15d94c68
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766878"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662099"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Déploiement :::no-loc text="Microsoft Teams Rooms"::: de la gestion avec :::no-loc text="Azure Monitor":::
 
@@ -68,7 +68,7 @@ Pour configurer :::no-loc text="Log Analytics"::: la collecte des :::no-loc text
 ![Capture d’écran des paramètres du journal des événements](../media/Deploy-Azure-Monitor-2.png "Paramètres du journal des événements")
 
 > [!IMPORTANT]
-> Configurez :::no-loc text="Windows"::: les paramètres du journal des événements **:::no-loc text="Skype Room System":::** , entrez comme nom du journal des événements, puis activez les cases à cocher **erreur**, **Avertissement**et **informations** .
+> Configurez :::no-loc text="Windows"::: les paramètres du journal des événements **:::no-loc text="Skype Room System":::** , entrez comme nom du journal des événements, puis activez les cases à cocher **erreur**, **Avertissement** et **informations** .
 
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Configurer des appareils de test pour la surveillance d’Azure
 <a name="configure_test_devices"> </a>
@@ -77,7 +77,7 @@ Vous devez vous préparer :::no-loc text="Log Analytics"::: à pouvoir surveille
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Installer des :::no-loc text="Microsoft Monitoring"::: agents sur les appareils de test
 
-Déployez l' :::no-loc text="Microsoft Monitoring"::: agent sur les appareils de test en suivant les instructions fournies dans la rubrique [connecter des :::no-loc text="Windows"::: ordinateurs au :::no-loc text="Log Analytics"::: service :::no-loc text="Azure"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). Cet article fournit des informations détaillées sur les étapes nécessaires au déploiement :::no-loc text="Microsoft Monitoring"::: de l’agent :::no-loc text="Windows"::: , des instructions pour l’obtention de l' :::no-loc text="Log Analytics"::: ***ID d’espace de travail*** et de la ***clé primaire*** pour l’obtention de :::no-loc text="Microsoft Teams Rooms"::: périphériques connectés à votre :::no-loc text="Azure Monitor"::: déploiement, ainsi que la procédure de vérification de la connectivité de l’agent à l' :::no-loc text="Log Analytics"::: instance.
+Déployez l' :::no-loc text="Microsoft Monitoring"::: agent sur les appareils de test en suivant les instructions fournies dans la rubrique [connecter des :::no-loc text="Windows"::: ordinateurs au :::no-loc text="Log Analytics"::: service :::no-loc text="Azure"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). Cet article fournit des informations détaillées sur les étapes nécessaires au déploiement :::no-loc text="Microsoft Monitoring"::: de l’agent :::no-loc text="Windows"::: , des instructions pour l’obtention de l' :::no-loc text="Log Analytics":::  * *_ID d’espace de travail_* _ et de la _*_clé primaire_*_ pour l’obtention de :::no-loc text="Microsoft Teams Rooms"::: périphériques connectés à votre :::no-loc text="Azure Monitor"::: déploiement, ainsi que la procédure de vérification de la connectivité de l’agent à l' :::no-loc text="Log Analytics"::: instance.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Générer des exemples d' :::no-loc text="Microsoft Teams Rooms"::: événements
 
@@ -89,7 +89,7 @@ Une fois l' :::no-loc text="Microsoft Monitoring"::: agent déployé sur les app
 1.  Connectez-vous au [ :::no-loc text="Microsoft Azure"::: portail](https://portal.azure.com) et :::no-loc text="Log Analytics"::: Sélectionnez votre espace de travail.
 
 2.  Répertorier les événements de pulsation générés par un :::no-loc text="Microsoft Teams Rooms"::: appareil :
-    1.  Sélectionnez votre espace de travail, accédez aux **journaux** , puis utilisez une requête pour récupérer les enregistrements de pulsation pour lesquels les champs personnalisés seront disponibles :::no-loc text="Microsoft Teams Rooms"::: .
+    1.  Sélectionnez votre espace de travail et accédez à _ *journaux**, puis utilisez une requête pour récupérer les enregistrements de pulsation pour lesquels les champs personnalisés seront disponibles :::no-loc text="Microsoft Teams Rooms"::: .
     2.  Exemple de requête : `Event | where Source == "SRS-App" and EventID == 2000`
 
 3.  Assurez-vous que la requête renvoie les enregistrements du journal qui incluent les événements générés par l' :::no-loc text="Microsoft Teams Rooms"::: application réunions.
@@ -122,7 +122,7 @@ Pour extraire vos champs personnalisés des journaux des événements capturés,
 
 3. Sélectionnez l’un des enregistrements, cliquez sur le bouton situé à gauche, puis démarrez l’Assistant extraction de champ.
 4. Mettez en surbrillance les données que vous souhaitez extraire du RenderedDescription et indiquez un titre de champ. Les noms des champs que vous devez utiliser sont indiqués dans le tableau 1.
-5. Utilisez les mappages indiqués dans le *tableau 1*. :::no-loc text="Log Analytics":::ajoute automatiquement la chaîne ** \_ CF** lorsque vous définissez le nouveau champ.
+5. Utilisez les mappages indiqués dans le *tableau 1*. :::no-loc text="Log Analytics":::ajoute automatiquement la chaîne **\_ CF** lorsque vous définissez le nouveau champ.
 
 > [!IMPORTANT]
 > Gardez à l’esprit que tous les champs JSON et respectent la :::no-loc text="Log Analytics"::: casse.
@@ -169,7 +169,7 @@ Vous pouvez importer un :::no-loc text="Microsoft Teams Rooms"::: tableau de bor
 2.  Connectez-vous au [ :::no-loc text="Microsoft Azure"::: portail](https://portal.azure.com) et :::no-loc text="Log Analytics"::: Sélectionnez votre espace de travail.
 3.  Ouvrez le **Concepteur de vues**.
 4.  Cliquez sur **Importer**, puis sélectionnez le fichier **SkypeRoomSystems_v2. omsview** .
-5.  Sélectionnez **Save (enregistrer**).
+5.  Sélectionnez **Enregistrer**.
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Créer un tableau de bord de salles Microsoft teams manuellement
 
@@ -197,7 +197,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Nouveau groupe :** Sélectionné
 4.  Définissez les propriétés de la **vignette** :<br>
     **Légende :** Appareils actifs (pulsation envoyés au cours des dernières 20 minutes)<br>
-    **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **Requête de mosaïque :** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Définissez les propriétés de la **liste** :<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Définir les **titres des colonnes**:<br>
@@ -215,7 +215,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Nouveau groupe :** Non sélectionnée
 3.  Définissez les propriétés de la **vignette** :<br>
     **Légende :** Appareils inactifs (aucun message Heartbeat envoyé au cours des dernières 20 minutes)<br>
-    **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **Requête de mosaïque :** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Définissez les propriétés de la **liste** :<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Définir les **titres des colonnes**:<br>
@@ -233,7 +233,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Nouveau groupe :** Sélectionné
 3.  Définissez les propriétés de la **vignette** :<br>
     **Légende :** Appareils ayant rencontré une erreur matérielle lors de la dernière heure<br>
-    **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Requête de mosaïque :** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Définissez les propriétés de la **liste** :<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Définir les **titres des colonnes**:<br>
@@ -299,7 +299,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Nouveau groupe :** Non sélectionnée
 3.  Définissez les propriétés de la **vignette** .<br>
     **Légende :** Appareils ayant rencontré une erreur d’application au cours de la dernière heure<br>
-    **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Requête de mosaïque :** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Définissez les propriétés de **liste** .<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Définissez des **titres de colonnes**.<br>
@@ -317,7 +317,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Nouveau groupe :** Non sélectionnée
 3.  Définissez les propriétés de la **vignette** .<br>
     **Légende :** Appareils dans lesquels l’application a été redémarrée au cours des dernières 24 heures et nombre de redémarrages<br>
-    **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **Requête de mosaïque :** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Définissez les propriétés de **liste** .<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Définissez des **titres de colonnes**.<br>
@@ -411,7 +411,7 @@ Lors de la génération d’une alerte, vous recevez un courrier électronique q
 ! [Message d’exemple d' :::no-loc text="Azure Monitor"::: alerte] (... /Media/Deploy-Azure-Monitor-6.png "exemple de :::no-loc text="Azure Monitor"::: message d’alerte")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Configurer tous les appareils pour :::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"> </a> Une fois les tableaux de bord et les alertes configurés, vous pouvez configurer et configurer :::no-loc text="Microsoft Monitoring"::: l’agent sur tous les :::no-loc text="Microsoft Teams Rooms"::: appareils pour terminer le déploiement de votre analyse.
+<a name="configure_all_devices"></a> Une fois les tableaux de bord et les alertes configurés, vous pouvez configurer et configurer :::no-loc text="Microsoft Monitoring"::: l’agent sur tous les :::no-loc text="Microsoft Teams Rooms"::: appareils pour terminer le déploiement de votre analyse.
 
 Même si vous pouvez installer et configurer l' :::no-loc text="Microsoft Monitoring"::: agent manuellement sur chaque appareil, nous vous conseillons vivement d’utiliser les outils et méthodes de déploiement de logiciels existants.
 

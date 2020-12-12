@@ -1,7 +1,7 @@
 ---
 title: Configurer des comptes pour les salles de Microsoft teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Consultez cette rubrique pour en savoir plus sur la configuration des comptes pour les salles Microsoft teams dans Exchange et Skype entreprise.
-ms.openlocfilehash: 98507b3c5fb2b2d9383bcbff6ddcbdda0de19b9f
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262481"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662519"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles de Microsoft teams
  
@@ -60,7 +60,7 @@ Vous pouvez considérer un compte d’appareil comme le compte de ressources rec
   
 Si vous disposez déjà d’un compte de boîte aux lettres de ressources configuré pour l’espace de réunion dans lequel vous installez les salles de Microsoft Teams, vous pouvez changer ce compte en compte d’appareil. Une fois cette opération terminée, il vous suffit d’ajouter le compte de l’appareil à un appareil Microsoft Teams. Voir exemples de configuration de compte d’appareil fourni ci-dessous.
   
-Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion des [Manage Microsoft Teams Rooms devices with Azure Monitor](azure-monitor-manage.md) [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la [gestion des salles Microsoft](azure-monitor-deploy.md) 
+Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion des [](azure-monitor-manage.md) [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la [gestion des salles Microsoft](azure-monitor-deploy.md) 
   
 ## <a name="basic-configuration"></a>Configuration de base
 

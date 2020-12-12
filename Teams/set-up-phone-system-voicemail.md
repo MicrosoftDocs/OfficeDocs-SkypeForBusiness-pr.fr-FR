@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031070"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662209"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -60,7 +60,7 @@ Pour configurer les utilisateurs de Skype entreprise Server pour la boîte vocal
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Activation de la boîte vocale protégée au sein de votre organisation
 
-Lorsqu’un utilisateur quitte un message vocal pour un utilisateur de votre organisation, le message vocal est remis dans la boîte aux lettres de l’utilisateur sous la forme d’une pièce jointe de message électronique. À l’aide de règles de flux de messagerie pour appliquer le chiffrement des messages, vous pouvez empêcher que les messages vocaux soient renvoyés aux autres destinataires. Lorsque vous activez la boîte vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en les appelant dans leur boîte vocale ou en ouvrant le message dans Outlook, Outlook sur le Web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Skype entreprise.
+Lorsqu’un utilisateur quitte un message vocal pour un utilisateur de votre organisation, le message vocal est remis dans la boîte aux lettres de l’utilisateur sous la forme d’une pièce jointe de message électronique. À l’aide de règles de flux de messagerie pour appliquer le chiffrement des messages, vous pouvez empêcher que les messages vocaux soient renvoyés aux autres destinataires. Lorsque vous activez la boîte vocale protégée, les utilisateurs peuvent écouter les messages vocaux protégés en les appelant dans leur boîte vocale ou en ouvrant le message dans Outlook, Outlook sur le Web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Skype entreprise ou Microsoft Teams.
 
 Pour plus d’informations sur le chiffrement des messages, voir [chiffrement](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)des messages.
 
@@ -68,10 +68,10 @@ Pour configurer la boîte vocale protégée, procédez comme suit :
 
 1. Accédez à https://admin.microsoft.com , puis connectez-vous en utilisant un compte doté des autorisations d’administrateur général.
 2. Sélectionnez **Afficher tout** , puis accédez à **Centre d’administration**  >  **Exchange**.
-3. Dans le centre d’administration Exchange, sélectionnez règles de **flux de courrier**  >  **Rules**.
-4. Cliquez **+** sur **Ajouter** , puis sélectionnez **appliquer le chiffrement des messages Office 365 et les droits de protection des messages**.
-5. Attribuez un nom à la nouvelle règle de flux de courrier, puis sous **appliquer cette règle si** , sélectionnez **les propriétés du message**  >  **incluent le type de message**  >  **messagerie vocale**. Sélectionnez **OK**.
-6. Sous **effectuer les opérations suivantes** , activez la case à cocher **appliquer le chiffrement et la protection des messages Office 365 au message avec** , puis sélectionnez **Sélectionner**. Sous **modèle RMS** , sélectionnez **ne pas transférer**. Sélectionnez **OK** , puis **Enregistrer**.
+3. Dans le centre d’administration Exchange, sélectionnez règles de **flux de courrier**  >  .
+4. Cliquez **+** sur **Ajouter**, puis sélectionnez **appliquer le chiffrement des messages Office 365 et les droits de protection des messages**.
+5. Attribuez un nom à la nouvelle règle de flux de courrier, puis sous **appliquer cette règle si**, sélectionnez **les propriétés du message**  >  **incluent le type de message**  >  **messagerie vocale**. Sélectionnez **OK**.
+6. Sous **effectuer les opérations suivantes**, activez la case à cocher **appliquer le chiffrement et la protection des messages Office 365 au message avec** , puis sélectionnez **Sélectionner**. Sous **modèle RMS**, sélectionnez **ne pas transférer**. Sélectionnez **OK** , puis **Enregistrer**.
     > [!NOTE]
     > Si la liste de **modèles RMS** est vide, vous devez configurer le chiffrement des messages. Pour plus d’informations sur la configuration du chiffrement des messages, voir les articles suivants :
     > - [Configurer de nouvelles fonctionnalités de chiffrement de messages](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)

@@ -1,8 +1,8 @@
 ---
 title: Salle de réunion virtuelle de Microsoft teams
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Découvrez comment configurer des salles de Microsoft Teams, y compris la planification, le déploiement et la gestion du système pour créer votre salle de réunion virtuelle idéale.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 12a6fadbf320768aca4ce2f5af314f13d22b8c9d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 85c3da4b1c39c60454c4530a7e45ca0695eb70b5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031410"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662029"
 ---
 # <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 

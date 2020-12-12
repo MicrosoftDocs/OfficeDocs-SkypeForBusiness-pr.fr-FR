@@ -17,12 +17,12 @@ description: Découvrez ce que vous pouvez faire lorsque vous devez effectuer un
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570823"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661909"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -54,10 +54,10 @@ Le contenu de toutes les équipes n’est pas eDiscoverable. Le tableau suivant 
 | Offres | Oui | Le contenu mentionné peut être recherché. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été placé entre guillemets. |
 | Enregistrements audio | Non | |
 
-<sup>1</sup> les métadonnées de réunion incluent les éléments suivants :
+<sup>1</sup> les métadonnées de réunion (et d’appel) incluent les éléments suivants :
 
-- Heures de début et de fin d’appel et durée
-- Appel/réunion et conservation des événements pour chaque participant
+- Heures de début et de fin de la réunion, et durée
+- Événements de participation à une réunion et de départ pour chaque participant
 - Connexion/appels VOIP
 - Jointure anonyme
 - Affiliation d’utilisateur fédéré
@@ -75,7 +75,7 @@ Voici un exemple de conversation par messagerie instantanée entre participants 
 > [!div class="mx-imgBorder"]
 > ![Conversation entre participants dans les résultats de recherche eDiscovery.](media/MeetingImConversation2.png)
 
-Pour effectuer une enquête eDiscovery avec le contenu Microsoft Teams, passez à l’étape 1 de la rubrique mise [en route de](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)Microsoft teams eDiscovery.
+Pour plus d’informations sur la réalisation d’une analyse eDiscovery, voir [commencer à utiliser le système eDiscovery principal](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
 Les données de Microsoft teams s’affichent sous forme de messages instantanés ou de conversations dans la sortie d’exportation eDiscovery d’Excel. Vous pouvez ouvrir le `.pst` fichier dans Outlook pour afficher ces messages après l’exportation.
 
@@ -89,7 +89,7 @@ Les discussions privées de la boîte aux lettres d’un utilisateur sont stock�
 
 Les enregistrements pour les messages envoyés dans un canal privé sont distribués dans la boîte aux lettres de tous les membres du canal privé, plutôt que dans une boîte aux lettres de groupe. Les titres des enregistrements sont mis en forme de façon à indiquer le canal privé à partir duquel ils ont été envoyés.
 
-Étant donné que chaque canal privé dispose de sa propre collection de sites SharePoint séparée du site d’équipe parent, les fichiers d’un canal privé sont gérés indépendamment de l’équipe parente.
+Étant donné que chaque canal privé dispose d’un site SharePoint différent du site d’équipe parent, les fichiers d’un canal privé sont gérés indépendamment de l’équipe parente.
 
 Microsoft Teams ne prend pas en charge la recherche eDiscovery d’un seul canal au sein d’une équipe, de sorte que l’ensemble de l’équipe doit être recherché. Pour effectuer une recherche eDiscovery du contenu d’un canal privé, effectuez une recherche sur l’équipe, la collection de sites associée au canal privé (pour inclure les fichiers) et les boîtes aux lettres des membres du canal privé (pour inclure des messages).
 
@@ -136,7 +136,58 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche eDiscovery.
+3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre [requête de recherche eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery).
+
+## <a name="search-for-content-for-guest-users"></a>Recherche de contenu pour les utilisateurs invités
+
+Vous pouvez utiliser les outils eDiscovery pour rechercher du contenu d’équipes lié aux utilisateurs invités de votre organisation. Le contenu de chat associé à un utilisateur invité est conservé dans un emplacement de stockage dans le Cloud et peut être recherché pour l’utilisation de eDiscovery. Cela inclut la recherche de contenu dans 1:1 et 1 : N discussions par le biais desquelles un utilisateur invité est un participant à des utilisateurs de votre organisation. Vous pouvez également rechercher des messages de canal privé pour lesquels un utilisateur invité est un participant et rechercher du contenu dans *Guest :* conversations de discussion invité lorsque seuls les participants sont invités.
+
+Pour rechercher du contenu destiné aux utilisateurs invités :
+
+1. Connectez-vous à Azure AD PowerShell. Pour obtenir des instructions, reportez-vous à la section « se connecter avec Azure Active Directory PowerShell » dans [connexion à Microsoft 365 avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Veillez à suivre les étapes 1 et 2 de la rubrique précédente.
+
+2. Après vous être connecté à Azure AD PowerShell, exécutez la commande suivante pour afficher le nom d’utilisateur principal (UPN) pour tous les utilisateurs invités de votre organisation. Vous devez utiliser le nom d’utilisateur principal de l’utilisateur invité lors de la création de la recherche à l’étape 4.
+
+   ```powershell
+   Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
+   ```
+
+   > [!TIP]
+   > Au lieu d’afficher la liste des noms d’utilisateur principal sur l’écran de l’ordinateur, vous pouvez rediriger la sortie de la commande vers un fichier texte. Pour cela, il vous suffit `> filename.txt` d’ajouter à la commande précédente. Le fichier texte avec le nom d’utilisateur principal sera enregistré dans le dossier actif.
+
+3. Dans une autre fenêtre Windows PowerShell, connectez-vous à la sécurité & Centre de conformité PowerShell. Pour obtenir des instructions, voir [se connecter au PowerShell du centre de sécurité & de conformité PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). Vous pouvez vous connecter avec ou sans l’authentification multifacteur.
+
+4. Créer une recherche de contenu qui recherche tout le contenu (par exemple, les messages de discussion et les courriers électroniques) dans lesquels l’utilisateur invité spécifié a participé en exécutant la commande suivante.
+
+   ```powershell
+   New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+   Par exemple, pour rechercher du contenu associé à l’utilisateur invité Sara Davis, exécutez la commande suivante.
+
+   ```powershell
+   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+    Pour plus d’informations sur l’utilisation de PowerShell pour créer des recherches de contenu, voir [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch).
+
+5. Exécutez la commande suivante pour démarrer la recherche de contenu que vous avez créée à l’étape 4 :
+
+   ```powershell
+   Start-ComplianceSearch <search name>
+   ```
+
+6. Accédez à [https://compliance.microsoft.com](https://compliance.microsoft.com) , puis cliquez sur **afficher la totalité** de la recherche de  >  **contenu**.
+
+7. Dans la liste des recherches, sélectionnez la recherche que vous avez créée à l’étape 4 pour afficher la page volante.
+
+8. Sur la page flyout, vous pouvez effectuer les actions suivantes :
+
+   - Cliquez sur **afficher les résultats** pour afficher les résultats de la recherche et afficher un aperçu du contenu.
+
+   - En regard du champ de **requête** , cliquez sur **modifier** pour modifier, puis relancez la recherche. Par exemple, vous pouvez ajouter une requête de recherche pour affiner les résultats.
+
+   - Cliquez sur **Exporter les résultats** pour exporter et télécharger les résultats de la recherche.
 
 ## <a name="advanced-ediscovery"></a>eDiscovery avancée
 
@@ -144,13 +195,13 @@ Le contenu de Microsoft teams peut également être exploré et conservé à l�
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Flux de travail du dépositaire de découverte avancée pour le contenu d’équipes
 
-Les dépositaires peuvent être membres de diverses équipes. Vous pouvez capturer du contenu d’équipes pertinent pour ces dépositaires. Pour plus d’informations et des instructions sur le flux de travail de dépositaire, voir [flux de travail de découverte électronique avancé](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
+Les dépositaires peuvent être membres de diverses équipes. Vous pouvez capturer du contenu d’équipes pertinent pour ces dépositaires. Pour obtenir des instructions sur le flux de travail de dépositaire, voir [Ajouter des dépositaires à un cas de découverte électronique avancée](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
 
 Après avoir ajouté un dépositaire, cliquez sur le bouton **suivant** , puis sur le bouton **Ajouter** . Une fenêtre s’affiche et vous invite à sélectionner des emplacements supplémentaires pour afficher l’ensemble des membres du dépositaire ainsi que les emplacements des sites SharePoint correspondants pour leurs données. À partir de l’ensemble de ces sources de données et équipes, vous pouvez sélectionner le contenu que vous voulez utiliser pour la découverte électronique, puis placer cet utilisateur et toutes les sources de données que vous avez identifiées en attente.
 
 Vous pouvez indiquer si vous souhaitez inclure le contenu Exchange, le contenu de OneDrive ou les deux. Le contenu Exchange inclut tout le contenu de l’application dans les boîtes aux lettres de l’utilisateur, tel qu’un message électronique, le contenu de l’équipe qui est stocké dans sa boîte aux lettres, etc. Le contenu OneDrive inclut non seulement le contenu de l’utilisateur, mais aussi tout le contenu de l’équipe qui est stocké dans OneDrive, par exemple, les discussions 1:1, 1 : N discussions et les fichiers partagés dans les discussions.
 
-Vous avez également la possibilité d’associer une équipe dont le dépositaire est membre de telle sorte que les messages et les fichiers auxquels le dépositaire a accès soient inclus. De plus, les autres membres de l’équipe peuvent être associés à un dépositaire. Pour plus d’informations, reportez-vous [à ajouter des dépositaires à un cas de découverte électronique avancée](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
+Vous avez également la possibilité d’associer une équipe dont le dépositaire est membre de telle sorte que les messages et les fichiers auxquels le dépositaire a accès soient inclus. De plus, les autres membres de l’équipe peuvent être associés à un dépositaire.
 
 > [!NOTE]
 > la découverte électronique des messages et fichiers dans des [canaux privés](private-channels.md) fonctionne différemment de celles des canaux standard. Pour en savoir plus, voir [découverte électronique des canaux privés](#ediscovery-of-private-channels).
@@ -204,7 +255,7 @@ En plus des documents, vous pouvez ajouter des messages électroniques, des équ
 
 Le bouton **gérer les ensembles de révisions** fournit des options supplémentaires telles que l’analyse, le rapport de synthèse, le nombre de jeux de charges qui ont été ajoutés, etc.
 
-Pour accéder aux visualisations et graphiques de vos données, cliquez sur le mode d’affichage profil de recherche de **résultats individuels** \> **Search profile view** dans le coin supérieur droit. Vous pouvez cliquer sur des pentaèdres dans ces graphiques pour sélectionner le type de contenu que vous souhaitez interroger. Par exemple, vous pouvez choisir d’interroger uniquement le contenu d’une équipe. Vous pouvez également enregistrer ces requêtes de la même manière que les requêtes que vous rédigez manuellement.
+Pour accéder aux visualisations et graphiques de vos données, cliquez sur le mode d’affichage profil de recherche de **résultats individuels** \>  dans le coin supérieur droit. Vous pouvez cliquer sur des pentaèdres dans ces graphiques pour sélectionner le type de contenu que vous souhaitez interroger. Par exemple, vous pouvez choisir d’interroger uniquement le contenu d’une équipe. Vous pouvez également enregistrer ces requêtes de la même manière que les requêtes que vous rédigez manuellement.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Affichage de synthèse, affichage texte et affichage annoter
 
@@ -225,7 +276,7 @@ En bas de l’onglet **affichage d’annotation** figure le bouton **balise docu
 
 #### <a name="action-menu"></a>Menu d’action
 
-Dans la fenêtre réviser les jeux, vous pouvez exporter le contenu en cliquant sur exportation d' **action** \> **Export**. De nombreuses options sont disponibles lors de l’exportation.
+Dans la fenêtre réviser les jeux, vous pouvez exporter le contenu en cliquant sur exportation d' **action** \> . De nombreuses options sont disponibles lors de l’exportation.
 
 Pour exporter un fichier qui contient toutes les métadonnées de tous les messages Teams, activez la case à cocher **charger le fichier** . Pour inclure dans votre fichier toutes les balises que vous avez appliquées au contenu, activez la case à cocher **balises** .
 
@@ -242,7 +293,7 @@ Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur 
 > [!NOTE]
 > L’exportation peut prendre un certain temps. Pour effectuer le suivi de l’état du processus d’exportation, quittez l’onglet **révision** , puis cliquez sur l’onglet **exportations** .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [eDiscovery dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

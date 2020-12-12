@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles Microsoft teams dans le centre d’administration pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800667"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662229"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Utiliser les modèles de santé des équipes dans le centre d’administration
 
@@ -43,7 +43,7 @@ Pour l’instant, nous proposons deux modèles de soins de santé que vous pouve
 
 | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------ |---|----------------------------------------------------- |
-| Collaborer sur les soins du patient |`healthcareWard` | Canaux<ul><li>Général</li><li>Annonces</li><li>Huddles</li><li>Négative</li><li>Spécifient</li><li>Formation</li></ul> Logiciels <ul><li>Wiki</li>|
+| Collaborer sur les soins du patient |`healthcareWard` | Canaux<ul><li>Général</li><li>Annonces</li><li>Huddles</li><li>Négative</li><li>Spécifient</li><li>Formation</li></ul> Logiciels <ul><li>Wiki</li><li>Reprend</li></ul>|
 ||||
 
 ## <a name="hospital"></a>Hôpital
@@ -52,7 +52,7 @@ Simplifiez la communication et la collaboration entre les différents services, 
 
 | Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-|Hôpital|`healthcareHospital`|Canaux <ul><li>Général<li>Annonces</li><li>Conformité</li><li>Privatives de Troie</li><li>Ressources humaines</li><li>Pharmaceutiques</li></ul> Logiciels <ul><li>Wiki</li></ul>|
+|Hôpital|`healthcareHospital`|Canaux <ul><li>Général</li><li>Annonces</li><li>Conformité</li><li>Privatives de Troie</li><li>Ressources humaines</li><li>Pharmaceutiques</li></ul> Logiciels <ul><li>Wiki</li><li>Reprend </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Sujets associés

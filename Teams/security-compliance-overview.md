@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878488"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662499"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
 > [!IMPORTANT]
-> Pour plus d’informations sur la façon de garantir **la sécurité de tous les utilisateurs de chez vous lors de l’épidémie de COVID-19** , lisez les articles suivants :
+> Pour plus d’informations sur la façon de garantir **la sécurité de tous les utilisateurs de chez vous lors de l’épidémie de COVID-19**, lisez les articles suivants :
 >  - [12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [Optimiser la connectivité de Microsoft 365 ou Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Mise à jour du 2 avril 2020 : Guide sur la [sécurité teams](teams-security-guide.md)
@@ -181,8 +181,7 @@ La figure suivante indique le flux d’intégration des réunions teams et des d
 
 En ce qui concerne les capacités de protection des informations, les abonnements Microsoft 365, les abonnements Office 365 et les licences autonomes associées déterminent l’ensemble des fonctionnalités disponibles.
 
-Pour plus d’informations sur la façon de déterminer les fonctionnalités de gestion des licences requises pour la sécurité et la conformité, consultez la rubrique [licences pour Office 365 ou Microsoft 365](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf).
-
+Pour plus d’informations sur la façon de déterminer les fonctionnalités de gestion des licences pour la sécurité et la conformité, consultez les [conditions de licence applicables](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) aux fonctionnalités de sécurité et de conformité.
 > [!NOTE]
 > La recherche de contenu et eDiscovery n’ont pas besoin d’être activées dans le centre de sécurité & conformité pour fonctionner.
 
@@ -190,7 +189,7 @@ Pour plus d’informations sur la façon de déterminer les fonctionnalités de 
 
 Les données dans Teams se situent dans la région géographique associée à votre organisation Microsoft 365 ou Office 365. Pour connaître les régions prises en charge pour le moment, veuillez vérifier [l’emplacement des données dans Microsoft teams](location-of-data-in-teams.md).
 
-Si vous avez besoin de voir la région qui abrite les données pour votre client, accédez au profil d’organisation paramètres du [Centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home)  >  **Settings**  >  **Organization profile**. Faites défiler vers le bas jusqu’à **Emplacement des données**.
+Si vous avez besoin de voir la région qui abrite les données pour votre client, accédez au profil d’organisation paramètres du [Centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home)  >    >  . Faites défiler vers le bas jusqu’à **Emplacement des données**.
 
 ![Capture d’écran de la table d’emplacements des données, y compris équipes dans le centre d’administration](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
@@ -200,7 +199,7 @@ Teams utilise les normes suivantes : [iso 27001](https://docs.microsoft.com/mic
 
 Vous trouverez plus d’informations sur les [ressources de protection des données](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Sécurité Microsoft 365](https://docs.microsoft.com/microsoft-365/security/)
 

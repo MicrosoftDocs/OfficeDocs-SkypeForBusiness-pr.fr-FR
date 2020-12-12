@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a158850a70a0410c9be7cb434d6f0868d68218f5
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: caef10a4e9b659ce18e05df65bf2a441248ec493
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655501"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662069"
 ---
 # <a name="use-general-teams-templates-in-the-admin-center"></a>Utiliser les modèles d’équipes généraux dans le centre d’administration
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
 
@@ -46,7 +44,7 @@ Centralisation de la collaboration pour votre équipe de crise sur différentes 
 
 | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------ |--|----------------------------------------------------------|
-| Collaborer sur une crise générale ou un événement |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux <ul><li>Général<li>Annonces</li><li>Actualité du monde</li><li>Continuité de l’activité</li><li>Travail distant</li><li>Commes internes</li><li>Commes externes</li><li>Réclamations de clients</li><li>Complimenter</li><li>Mise à jour de la direction</li></ul>Logiciels <ul><li>Éloge</li><li>Wiki</li><li>Associates</li></ul>|
+| Collaborer sur une crise générale ou un événement |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux <ul><li>Général<li>Annonces</li><li>Actualité du monde</li><li>Continuité de l’activité</li><li>Commes externes</li><li>Demande d’approbation</li><li>Travail distant</li><li>Commes internes</li><li>Commes externes</li><li>Réclamations de clients</li><li>Complimenter</li><li>Mise à jour de la direction</li></ul>Logiciels <ul><li>Éloge</li><li>Wiki</li><li>Associates</li><li>Planificateur</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>Adopter Office 365
@@ -64,7 +62,7 @@ Gérer les tâches, partager des documents, organiser des réunions et documente
 
 | Type de modèle de base| baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------|--|-----------------------------------------------------------|
-| Gérer un projet| com. Microsoft. Teams. template. ManageAProject  | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gérer un projet| `com.microsoft.teams.template.ManageAProject`  | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Logiciels<ul><li>Wiki</li><li>OneNote</li><li>Planificateur</li><li>Reprend</li> </ul> |
 ||||
 
 ## <a name="manage-an-event"></a>Gérer un événement
@@ -84,7 +82,7 @@ Améliorez votre culture et rationalisez l’intégration de votre employé à c
 
 | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------|--|-----------------------------------------------------------|
-|Utilisateurs intégrés|`com.microsoft.teams.template.OnboardEmployees`  | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Discussions des employés</li> <li>Formation</li></ul>Logiciels<ul><li>Wiki</li><li>Civile</li></ul>|
+|Utilisateurs intégrés|`com.microsoft.teams.template.OnboardEmployees`  | Canaux <ul><li>Général</li> <li>Annonces</li> <li>Discussions des employés</li> <li>Formation</li></ul>Logiciels<ul><li>Wiki</li><li>Civile</li><li>Planificateur</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>Organiser un support technique
@@ -93,5 +91,5 @@ Collaborez sur des documents, des politiques et des processus qui prennent en ch
 
 | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------|--|------------------------------------------------------------|
-|Organiser le support technique|`com.microsoft.teams.template.OrganizeHelpDesk`| Canaux<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Logiciels<ul><li>Wiki</li><li>OneNote</li></ul> |
+|Organiser le support technique|`com.microsoft.teams.template.OrganizeHelpDesk`| Canaux<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Logiciels<ul><li>Wiki</li><li>OneNote</li><li>Planificateur </li><li>Éloge </li></ul> |
 ||||
