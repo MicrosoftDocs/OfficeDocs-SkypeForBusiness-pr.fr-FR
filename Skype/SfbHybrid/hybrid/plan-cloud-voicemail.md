@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique Configuring Cloud vocaux.
-ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359130"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662089"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux
 
@@ -95,8 +95,8 @@ L’interopérabilité des versions et les topologies prises en charge pour la m
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype Entreprise Server 2019 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
-| Skype Entreprise Server 2015 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
+| Skype Entreprise Server 2019 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale cloud | Messagerie vocale cloud |
+| Skype Entreprise Server 2015 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Non pris en charge | Messagerie vocale cloud |
 | Lync Server 2013 <br>  | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Non pris en charge | Messagerie vocale cloud |
 
 Microsoft recommande les chemins de migration suivants :

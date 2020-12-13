@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
 ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/14/2020
 ms.locfileid: "47652470"
@@ -27,7 +27,7 @@ ms.locfileid: "47652470"
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
 ============================================
 
-Le partage de bureau permet aux utilisateurs d'afficher un écran ou une application pendant une réunion ou une conversation. Les administrateurs peuvent configurer le partage d’écran dans Microsoft Teams pour autoriser les utilisateurs à partager l'ensemble d'un écran, d'une application ou d'un fichier. Vous pouvez permettre aux utilisateurs d’attribuer ou de demander le contrôle, d'autoriser le partage PowerPoint, d'ajouter un tableau blanc et d'autoriser les notes partagées. Vous pouvez également préciser si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé. Les participants externes aux réunions teams peuvent être classés comme suit :
+Le partage de bureau permet aux utilisateurs d'afficher un écran ou une application pendant une réunion ou une conversation. Les administrateurs peuvent configurer le partage d’écran dans Microsoft Teams pour autoriser les utilisateurs à partager l'ensemble d'un écran, d'une application ou d'un fichier. Vous pouvez permettre aux utilisateurs d’attribuer ou de demander le contrôle, d'autoriser le partage PowerPoint, d'ajouter un tableau blanc et d'autoriser les notes partagées. Vous pouvez également préciser si les utilisateurs anonymes ou externes peuvent demander le contrôle de l’écran partagé. Les participants externes aux réunions Teams peuvent être classés comme suit :
 
 - Utilisateur anonyme
 - Utilisateurs invités
@@ -40,11 +40,11 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
 
 1. Sélectionnez **Réunions** > **Stratégies de réunion**.
 
-    ![Stratégies de réunion sélectionnées](media/configure-desktop-sharing-image1.png)
+    ![Stratégies de Réunion sélectionnées](media/configure-desktop-sharing-image1.png)
 
-2. Dans la page stratégies de la **réunion** , sélectionnez **Ajouter**.
+2. Sur la page **Stratégies de réunion**, sélectionnez **Ajouter**.
 
-    ![Le message stratégies de réunion](media/addMeeting.png)
+    ![Le message des stratégies de réunion](media/addMeeting.png)
 
 3. Donnez un titre unique à votre stratégie, puis entrez une brève description.
 
@@ -54,15 +54,15 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
    - **Application Unique** : permet aux utilisateurs de limiter le partage d’écran à une seule application active.
    - **Désactivé** : désactive le partage d’écran.
 
-    ![Options du mode de partage](media/configure-desktop-sharing-image3.png)
+    ![Les options du mode Partage](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > Vous n’avez pas besoin d’activer la stratégie d’appel pour que les utilisateurs puissent utiliser le partage d’écran à partir de la discussion. Toutefois, leur son est désactivé tant qu’il n’est pas activé. Par ailleurs, l’utilisateur qui partage l’écran peut cliquer sur **Ajouter du son** pour activer l’audio. Si la stratégie d’appel est désactivée, les utilisateurs ne seront pas en mesure d’ajouter de l’audio au partage d’écran à partir d’une session de conversation.
+  > Vous ne pouvez pas activer la stratégie d’appel pour que les utilisateurs utilisent le partage d’écran à partir de la conversation. Toutefois, leur audio est désactivé jusqu’à ce qu’ils activent le son eux-mêmes. En outre, l’utilisateur partageant l’écran peut cliquer sur **Ajouter l’audio** pour activer l’audio. Si la stratégie d’appel est désactivée, les utilisateurs ne pourront pas ajouter l’audio au partage d’écran à partir de la session de conversation.
 
 5. Activer ou désactiver les paramètres suivants :
 
     - **Autoriser un participant à donner ou demander le contrôle** : permet aux membres de l’équipe de donner ou de demander le contrôle du bureau ou de l'application du présentateur.
-    - **Autoriser un participant externe à attribuer ou demander le contrôle** – il s’agit d’une stratégie par utilisateur. La présence d’une organisation pour un utilisateur ne contrôle pas ce qu’il est possible de faire, quels que soient les participants externes qu’il a définis. Ce paramètre détermine si les participants externes peuvent recevoir le contrôle ou demander le contrôle de l’écran du partage, en fonction de ce que le partage a défini dans les stratégies de la réunion de leur organisation.
+    - **Autoriser un participant externe à donner ou demander le contrôle** – Il s’agit d’une stratégie par utilisateur. Le fait qu’une organisation ait cette définition pour un utilisateur ne contrôle pas ce que les participants externes peuvent effectuer, quel que soit l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation.
     - **Autoriser le partage de PowerPoint** : permet aux utilisateurs de créer des réunions autorisant le téléchargement et le partage de présentations PowerPoint.
     - **Autoriser le tableau blanc** : permet aux utilisateurs de partager un tableau blanc.
     - **Autoriser les notes partagées** : permet aux utilisateurs de prendre des notes partagées.

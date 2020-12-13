@@ -1,5 +1,5 @@
 ---
-title: Gérer le tableau blanc dans Microsoft teams
+title: Gérer le tableau blanc dans Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir comment gérer et utiliser l’application Web tableau blanc collaboratif dans Microsoft Teams.
+description: Dans cet article, vous découvrirez comment gérer et utiliser l’application web du tableau blanc dans Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -22,28 +22,28 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43904956"
 ---
-<a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft teams
+<a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft Teams
 ==========================================
 
-Le tableau blanc collaboratif Microsoft est une toile numérique qui vous permet de regrouper des personnes, du contenu et des idées. L’intégration de tableau blanc collaboratif dans les réunions Microsoft teams est gérée par l’application Web tableau blanc, qui permet aux participants d’une réunion de dessiner, d’esquisser et d’écrire ensemble sur une toile partagée.
+Le tableau blanc collaboratif Microsoft est une surface de dessin libre numérique sur laquelle se réunissent des personnes, du contenu et des idées. L’intégration du Tableau blanc dans les réunions en ligne Microsoft Teams est optimisée par l’application web Tableau blanc, qui permet aux participants des réunions Teams de dessiner, faire des croquis et écrire ensemble dans une zone de dessin numérique partagée.
 
-Les utilisateurs peuvent partager un tableau blanc pour le mettre à la disposition de tous les participants d’une réunion Teams. Ce même tableau blanc est disponible simultanément dans toutes les applications de tableau blanc collaboratif sur Windows 10, iOS et l’application Web.
+Les utilisateurs peuvent partager un tableau blanc pour le rendre accessible à tous les participants d’une réunion Microsoft Teams. Ce même tableau blanc est simultanément disponible dans toutes les applications de tableau blanc sur Windows 10, iOS et l’application web.
 
-Pour activer ou désactiver l’application tableau blanc collaboratif, voir [activer le tableau blanc collaboratif Microsoft pour votre organisation](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Gardez à l’esprit que ce paramètre active ou désactive le tableau blanc pour l’ensemble de votre organisation, et pas seulement pour les équipes.
+Pour activer ou désactiver le tableau blanc, voir[Activer Tableau blanc collaboratif Microsoft votre organisation](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). N’oubliez pas que ce paramètre activera ou désactivera le tableau blanc pour votre organisation dans sa totalité, pas seulement pour Teams.
 
-## <a name="whiteboard-on-surface-hub"></a>Tableau blanc sur surface Hub
+## <a name="whiteboard-on-surface-hub"></a>Tableau blanc collaboratif sur Surface Hub
 
-Avant d’essayer d’utiliser le tableau blanc collaboratif Microsoft, assurez-vous que l’application tableau blanc collaboratif est installée sur votre appareil surface Hub. Si le tableau blanc n’est pas installé, sur l’appareil surface Hub, accédez à l’application Microsoft Store et obtenez le [tableau blanc Microsoft](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). Pour plus d’informations, voir [activer le tableau blanc collaboratif Microsoft sur surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+Avant de tenter d’utiliser le tableau blanc Microsoft, vérifiez que l’application tableau blanc est installée sur l’appareil Surface Hub. Si le tableau blanc n’est pas installé, sur l’appareil Surface Hub, accédez à l’application Microsoft Store, puis téléchargez [Tableau blanc Microsoft](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). Pour plus d’informations, consultez [Activer Tableau blanc collaboratif Microsoft sur Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
 
 ## <a name="more-information"></a>Plus d’informations
 
 Pour plus d’informations, consultez :
 
-- [Utiliser le tableau blanc collaboratif dans Microsoft teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
-- [Activer tableau blanc collaboratif Microsoft pour votre organisation](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
-- [Activer tableau blanc collaboratif Microsoft sur surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
+- [Utiliser le tableau blanc dans Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
+- [Activer le tableau blanc Microsoft pour votre organisation](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
+- [Activer le tableau blanc collaboratif Microsoft sur Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
