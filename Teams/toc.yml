@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Disponibilité de l’application approbations de teams
+      href: approval-admin.md
 - name: Réunions et conférences
   items:
     - name: "Démarrage rapide\_: réunions et événements en direct"
@@ -242,7 +244,7 @@
       items:
         - name: Vue d’ensemble
           href: rooms/index.md
-        - name: Prévision
+        - name: Planification
           items:
             - name: Présentation de la planification des Salles Microsoft Teams
               href: rooms/rooms-plan.md
@@ -1037,7 +1039,7 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
     - name: Intégration avec Exchange et SharePoint
       href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-- name: "Téléphonie Microsoft\_365 Business"
+- name: Microsoft 365 Business Voice
   items:
     - name: "Qu’est-ce que Microsoft 365 pour les PME\_?"
       href: business-voice/whats-business-voice.md
@@ -1081,7 +1083,7 @@
       items:
         - name: Créer un ou plusieurs utilisateurs
           href: business-voice/create-users.md
-        - name: gérer les appareils
+        - name: Gestion des appareils
           href: business-voice/manage-devices.md
         - name: Surveiller la qualité des appels
           href: business-voice/monitor-quality.md
