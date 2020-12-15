@@ -57,7 +57,7 @@ Les types d’accès suivants déterminent qui peut rejoindre l’équipe :
 
 Les types d’utilisateurs de l’équipe déterminent le niveau de contrôle dont dispose un membre :
 
--   Le *créateur de l’équipe* dispose d’autorisations pour créer un groupe ou une équipe dans le répertoire. L’administrateur peut restreindre ce type d’utilisateurs à un sous-ensemble d’administrateurs ou utilisateurs. Si vous souhaitez obtenir davantage d’informations, consultez l’article [Gérer les personnes autorisées à créer des groupes Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Les créateurs d’équipe deviennent automatiquement propriétaires d’équipe.
+-   Le *créateur de l’équipe* dispose d’autorisations pour créer un groupe ou une équipe dans le répertoire. L’administrateur peut restreindre ce type d’utilisateurs à un sous-ensemble d’administrateurs ou utilisateurs. Si vous souhaitez en savoir plus, consultez l’article [Gérer qui peut créer des groupes Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Les créateurs d’équipe deviennent automatiquement propriétaires d’équipe.
 -   Un *propriétaire d’équipe* gère l’appartenance et les paramètres de l’équipe. Une équipe peut comporter jusqu’à 100 propriétaires.
 -   Un *membre de l'équipe* est un membre de votre organisation qui participe à une équipe.
 -   Un *invité* est un utilisateur qui est externe à votre organisation. N’importe quelle personne ayant une adresse de messagerie peut être invitée si votre organisation a activé l’[accès invité](guest-access.md).
@@ -188,7 +188,7 @@ Les équipes étant des organismes vivants, elles peuvent avoir parfois besoin d
 
 |    |     |
 |-----------|------------|
-| ![Icône représentant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
 | ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Implémentez un processus pour contrôler l’intégrité des équipes individuelles.</li></ul>|
 
 ### <a name="stage-3-end"></a>Stade 3: fin

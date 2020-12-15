@@ -28,7 +28,7 @@ ms.locfileid: "48852145"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel et Microsoft Teams
 
-Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée, non seulement lorsqu’il s’agit de *le repérage dans les journaux* , mais également dans *la surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
+Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée, non seulement lorsqu’il s’agit de *le repérage dans les journaux*, mais également dans *la surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
 
 > [!NOTE]
 > Vous avez besoin d’un rappel sur Azure Sentinel ? [Cet article](https://docs.microsoft.com/azure/sentinel/overview) est exactement ce qu'il faut.
@@ -55,7 +55,7 @@ Cette section se compose de trois parties :
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Inscrire une application dans Microsoft Azure pour la collecte des journaux
 
 > [!TIP]
-> Avant de commencer, vous devez vous enregistrer votre **ID d’application/ID client** , et votre **ID du locataire** pour une utilisation ultérieure. Veillez à les capturer au fur et à mesure que vous parcourez les étapes d’inscription ci-dessous. Les deux ID s’affichent.
+> Avant de commencer, vous devez vous enregistrer votre **ID d’application/ID client**, et votre **ID du locataire** pour une utilisation ultérieure. Veillez à les capturer au fur et à mesure que vous parcourez les étapes d’inscription ci-dessous. Les deux ID s’affichent.
 >- Une fois que vous avez créé votre application, cliquez sur inscription de l’application dans la barre latérale de lancement rapide > Recherchez le nom complet de votre nouvelle application > Copiez l’ID de l’application (client).
 >- Cliquez sur vue d’ensemble sur la barre de lancement rapide > copier l’ID d’annuaire (locataire).
 
@@ -72,13 +72,13 @@ Authentifiez et autorisez une application Azure Active Directory (Azure AD) pour
 9. Dans la fenêtre Nouvelle clé secrète client, entrez une description pour la nouvelle clé secrète client, assurez-vous de choisir « Jamais » pour l’expiration, puis cliquez sur *Ajouter*.
 
 > [!IMPORTANT]
-> Il est **critique** de copier la nouvelle clé secrète client dans une entrée du gestionnaire de mots de passe qui s’affiche sous le nom de l’application nouvellement créée. Vous ne serez pas en mesure de revenir sur ce secret une fois la fermeture du panneau Azure ( *Panneau* étant le terme azur pour fenêtre).
+> Il est **critique** de copier la nouvelle clé secrète client dans une entrée du gestionnaire de mots de passe qui s’affiche sous le nom de l’application nouvellement créée. Vous ne serez pas en mesure de revenir sur ce secret une fois la fermeture du panneau Azure (*Panneau* étant le terme azur pour fenêtre).
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Inscrire l’API avec PowerShell pour collecter les journaux Teams
 
 La dernière étape de l’installation consiste à collecter et enregistrer l’abonnement API de sorte que vous puissiez recueillir vos données de journal. Pour ce faire, vous pouvez effectuer des appels PowerShell REST à l'API d'activité de gestion M365.
 
-Vous êtes prêt à fournir **ID d’application (client)** , la nouvelle **clé secrète client** votre **domaine d’URL pour M365** et **ID d’annuaire (locataire)** les valeurs dans l’applet de commande PowerShell ci-dessous.
+Vous êtes prêt à fournir **ID d’application (client)**, la nouvelle **clé secrète client** votre **domaine d’URL pour M365** et **ID d’annuaire (locataire)** les valeurs dans l’applet de commande PowerShell ci-dessous.
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
@@ -154,7 +154,7 @@ Lorsque le connecteur (selon les options ci-dessus choisi) est en cours d’exé
 
 ## <a name="step-3-use-sentinel-to-monitor-microsoft-teams"></a>Étape 3 : utiliser Sentinel pour surveiller Microsoft Teams
 
-L’identité est un vecteur d’attaque important pour surveiller le moment auquel Microsoft Teams est destiné. Dans la mesure où Azure Active Directory (Azure AD) est le fondement de l’annuaire de Microsoft 365, notamment Teams, la collecte et le repérage de menaces dans les journaux Azure AD autour de l’authentification est utile pour capturer les comportements suspects autour de l’identité. Vous pouvez utiliser le connecteur intégré pour extraire les données Azure AD dans Azure Sentinel, et utiliser ces requêtes [détection](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) et [repérage](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) pour rechercher les problèmes.
+L’identité est un vecteur d’attaque important pour surveiller le moment auquel Microsoft Teams est destiné. Dans la mesure où Azure Active Directory (Azure AD) sous-tend le répertoire de Microsoft 365 (qui inclut Teams), il est utile de collecter et de repérer les menaces figurant dans les journaux Azure AD concernant l’authentification, afin de détecter les comportements suspects relatifs à l’identité. Vous pouvez utiliser le connecteur intégré pour extraire les données Azure AD dans Azure Sentinel, et utiliser ces requêtes [détection](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) et [repérage](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) pour rechercher les problèmes.
 
 En ce qui concerne les attaques propres à Microsoft Teams, les menaces pesant sur les données (par exemple, Azure Sentinel) permettent également de contrôler celles-ci et de les repérer.
 
@@ -182,7 +182,7 @@ O365API_CL
 ```
  Enregistrez l’analyseur sous la forme d’une fonction KQL, avec un alias de TeamsData. Elle sera utilisée pour les requêtes à suivre. Pour plus d’informations sur la configuration et l’utilisation d’une fonction KQL comme analyseur, consultez cet [Article de la communauté technique](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-## <a name="helpful-hunting-kql-queries"></a>Requêtes KQL de repérage utile
+## <a name="helpful-hunting-kql-queries"></a>Requêtes KQL utiles pour le repérage
 
 Utilisez ces requêtes pour vous familiariser avec vos données et l’environnement Teams. Il est recommandé de connaître l’apparence et le comportement de l’environnement afin de reconnaître les activités suspectes. À partir de là, vous pouvez vous brancher au repérage de menaces.
 
