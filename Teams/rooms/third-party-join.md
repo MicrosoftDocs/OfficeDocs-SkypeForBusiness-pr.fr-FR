@@ -13,22 +13,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article explique comment configurer les appareils de votre organisation et celle de votre équipe pour qu’elle prenne en charge la participation à des réunions à l’aide de Cisco WebEx et de zoom.
-ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 82369c534a616796382b1de69e37c64f15392f9b
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662359"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682383"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Permettre aux appareils de salle d’équipe de rejoindre des réunions tierces
 
-Les appareils de salle Microsoft teams prennent en charge une interface utilisateur pour joindre des réunions en ligne tierces. Lorsque cette option est activée, vous pouvez utiliser un appareil de salle d’équipe pour rejoindre des réunions hébergées sur Cisco WebEx et zoom<sup>1</sup> tout aussi facilement que vous pouvez rejoindre des réunions hébergées dans Microsoft Teams.
+Les appareils de salle Microsoft teams prennent en charge une interface utilisateur pour joindre des réunions en ligne tierces, également appelées invité direct Join. Lorsque cette option est activée, vous pouvez utiliser un appareil de salle d’équipe pour participer à des réunions hébergées sur Cisco WebEx et zoomer tout aussi facilement que vous pouvez participer à des réunions hébergées dans Microsoft Teams.
 
 Pour pouvoir participer à des réunions tierces à partir d’un appareil de salle d’équipe, vous devez procéder comme suit :
 
-1. Configurer la boîte aux lettres Exchange Online de la salle de réunion pour les invitations aux réunions tierces
-2. Vérifiez que votre organisation n’a pas de stratégies qui vous empêchent de vous connecter à des services de réunion tiers
-3. Configurer les appareils de salles de votre équipe pour permettre aux réunions tierces
+1. Configurez la boîte aux lettres Exchange Online de la salle de réunion pour les invitations aux réunions tierces.
+2. Assurez-vous que votre organisation n’a pas de stratégies qui vous empêchez de vous connecter à des services de réunion tiers.
+3. Configurez les appareils de salles de votre équipe pour autoriser les réunions tierces.
 
 Les sections suivantes vous expliquent comment effectuer chacune de ces étapes.
 
@@ -43,6 +43,7 @@ La première chose à faire pour activer une fonction de participation à une se
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
+    
 3. Recherchez le nom de la boîte aux lettres de salle associée à votre appareil de salle d’équipe et notez son UPN.
 
 4. Une fois que vous avez trouvé le nom d’utilisateur principal de la boîte aux lettres de salle, exécutez la commande suivante. Remplacez `<UserPrincipalName>` par le nom d’utilisateur principal de la boîte de réception de la salle :
@@ -77,11 +78,11 @@ La dernière étape consiste à autoriser chaque appareil de salle d’équipe �
 
 Pour configurer le périphérique de salle d’équipe à l’aide de son écran tactile, procédez comme suit :
 
-1. Sur l’appareil Microsoft Teams, sélectionnez **autres...**
+1. Sur l’appareil Microsoft Teams, sélectionnez **autres...**.
 2. Sélectionnez **paramètres**, puis entrez le nom d’utilisateur et le mot de passe de l’administrateur de l’appareil.
-3. Accédez à l’onglet **réunions** , puis sélectionnez **Cisco Webex**, **Zoom**<sup>1</sup>ou les deux
-4. Si vous souhaitez participer à des réunions avec le nom d’utilisateur et l’adresse de messagerie associés à la boîte aux lettres de salle, sélectionnez **participer à des informations de salle** .
-5. Si vous souhaitez participer à des réunions avec un nom d’utilisateur et une adresse de messagerie de secours, sélectionnez **participer avec des informations personnalisées** , entrez le nom d’utilisateur et l’adresse de courrier que vous voulez utiliser.
+3. Accédez à l’onglet **réunions** , puis sélectionnez **Cisco Webex**, **Zoom**, ou les deux.
+4. Si vous souhaitez participer à des réunions avec le nom d’utilisateur et l’adresse de messagerie associés à la boîte aux lettres de salle, sélectionnez **participer à des informations de salle**.
+5. Si vous souhaitez participer à des réunions avec un nom d’utilisateur et une adresse de messagerie de secours, sélectionnez **participer avec des informations personnalisées** , puis entrez le nom d’utilisateur et l’adresse de messagerie que vous voulez utiliser.
 6. Sélectionnez **enregistrer et quitter**. Votre appareil va redémarrer.
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>Utiliser le fichier de configuration SkypeSettings.xml
@@ -94,7 +95,7 @@ Pour activer les réunions Cisco WebEx, définissez l' `WebExMeetingsEnabled` é
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Pour activer les réunions de zoom <sup>1</sup> , définissez l' `ZoomMeetingsEnabled` élément XML sur **true**, comme suit.
+Pour activer les réunions de zoom, définissez l' `ZoomMeetingsEnabled` élément XML sur **true**, comme suit.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
@@ -113,4 +114,3 @@ Vous pouvez éventuellement spécifier un nom d’utilisateur et une adresse de 
 > [!NOTE]
 > Pour participer à une réunion Cisco WebEx à partir d’un appareil d’équipe, la réunion Cisco doit être hébergée à l’aide de la version WBS 40,7 ou d’une version ultérieure de l’application Web Cisco.
 
-<sup>1</sup> la participation à des réunions avec zoom est actuellement disponible uniquement pour sélectionner des clients de Microsoft teams via le programme d’accès aux technologies.

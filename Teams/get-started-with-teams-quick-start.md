@@ -29,7 +29,7 @@ ms.locfileid: "49030430"
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
 > [!IMPORTANT]
-> Si vous déployez rapidement des Microsoft Teams en réponse à une demande accrue de prise en charge du **travail à distance** , utilisez ce guide de démarrage pour déployer Teams dans toute votre organisation. Ces conseils sont valables, même lorsque Teams constitue votre première charge de travail pour Microsoft 365 ou Office 365.
+> Si vous déployez rapidement des Microsoft Teams en réponse à une demande accrue de prise en charge du **travail à distance**, utilisez ce guide de démarrage pour déployer Teams dans toute votre organisation. Ces conseils sont valables, même lorsque Teams constitue votre première charge de travail pour Microsoft 365 ou Office 365.
 
 Pour commencer rapidement avec Teams, nous vous recommandons de créer deux ou trois équipes et canaux pour un groupe de premiers utilisateurs. Avec un premier déploiement de Teams à petite échelle, vous allez apprendre Teams en utilisant Teams. Vous obtenez des informations précieuses sur la façon dont vous pouvez déployer Teams au sein de toute votre organisation. Si vous êtes une petite entreprise, ce guide de démarrage rapide est suffisant pour déployer Teams auprès de toute l’organisation.
 
@@ -47,7 +47,7 @@ Voici comment mettre en place votre première série d’équipes et canaux pour
 
 Si vous êtes une grande organisation, si vous avez une configuration hybride ou Skype Entreprise en local, si vous avez des exigences réglementaires ou de conformité strictes, ou si vous voulez mettre en place des réunions ou des fonctionnalités vocales (par exemple, plans d’appel ou système téléphonique), commencez par lire [ Comment mettre en place Teams](how-to-roll-out-teams.md). Nous vous recommandons de toujours commencer avec cette section **Prise en main** pour développer vos compétences et commencer à planifier le déploiement à l’échelle de l’organisation. « Planifiez Teams avec Teams. » Commencez modestement en déployant Teams avec les conversations, les équipes, les canaux et les applications, puis développez-les. Ces expériences initiales vous permettront de faire passer le mot sur Teams et susciter de l'enthousiasme dans l'ensemble de l'organisation pour la phase de lancement suivante. 
 
-Si vous êtes une petite entreprise, ou si **vous déployez rapidement Teams pour prendre en charge un nouveau personnel à distance** , utilisez ce guide de démarrage pour déployer pleinement Teams dans votre organisation. N’hésitez pas à consulter les modèles destinés aux petites entreprises pour simplifier et rationaliser le déploiement dans votre organisation. Voir [Prise en main des modèles Teams pour les petites et moyennes entreprises](https://docs.microsoft.com/microsoftteams/smb-templates).
+Si vous êtes une petite entreprise, ou si **vous déployez rapidement Teams pour prendre en charge un nouveau personnel à distance**, utilisez ce guide de démarrage pour déployer pleinement Teams dans votre organisation. N’hésitez pas à consulter les modèles destinés aux petites entreprises pour simplifier et rationaliser le déploiement dans votre organisation. Voir [Prise en main des modèles Teams pour les petites et moyennes entreprises](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Avant de commencer
 

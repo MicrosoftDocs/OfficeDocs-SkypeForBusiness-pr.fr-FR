@@ -1,5 +1,5 @@
 ---
-title: Conversation, équipes, canaux et applications dans Microsoft Teams
+title: Chat, équipes, canaux et applications dans Microsoft Teams
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -28,7 +28,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031230"
 ---
-# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Conversation, équipes, canaux et applications dans Microsoft Teams
+# <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
 Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) vous pouvez configurer en fonction des besoins de votre organisation.
 

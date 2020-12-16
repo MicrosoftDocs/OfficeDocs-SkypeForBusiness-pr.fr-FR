@@ -30,7 +30,7 @@ ms.locfileid: "49031810"
 
 Lorsque vous avez besoin de communiquer et de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux solutions. La première est l’**accès externe** (fédération) qui permet de rechercher, d’appeler et de discuter avec des utilisateurs dans d’autres domaines (comme, par exemple, contoso.com). La deuxième, l’**accès invité**, vous permet d’ajouter des utilisateurs à vos équipes en tant qu’invités, à l’aide de leur adresse de messagerie. Vous pouvez collaborer avec des invités comme vous le feriez avec d’autres utilisateurs au sein de votre organisation.
 
-Si vous le souhaitez, vous pouvez utiliser l’accès externe et l’accès invité en même temps, l’un n’exclut pas l’autre.
+Si vous le souhaitez, vous pouvez utiliser l’accès externe et l’accès invité ; l’un n’exclut pas l’autre.
 
 À un niveau élevé, voici comment choisir (pour une comparaison détaillée, voir [Comparer l’accès externe et l’accès invité](#compare-external-and-guest-access)) :
 
@@ -40,7 +40,7 @@ Utilisez l’**accès externe** (fédération) lorsque vous avez besoin de perme
 
 L’accès externe est activé par défaut dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. L’administrateur Teams peut le désactiver ou spécifier les domaines à inclure (ou à exclure). Pour plus d’informations, consultez [Gérer les accès externes](manage-external-access.md). 
 
-Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, l’[accès invité](#guest-access) sera sans doute préférable. 
+Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, [l’accès invité](#guest-access) sera sans doute préférable. 
 
 
 ## <a name="guest-access"></a>Accès invité
@@ -49,7 +49,7 @@ Utilisez l’**accès invité** pour ajouter un utilisateur individuel (quel que
 
 - Les invités sont ajoutés dans l’annuaire Active Directory de votre organisation.
 - Pour communiquer avec un invité, celui-ci doit être connecté à Teams à l’aide de son compte invité. L’invité devra donc peut-être se déconnecter de son compte Teams pour pouvoir se connecter à votre compte Teams, ou changer d’organisation s’il s’agit du même compte.
-- Les utilisateurs invités ont accès à davantage de ressources dans Teams, par exemple, des fichiers, des équipes ou des canaux, que des utilisateurs disposant d’un accès externe (fédéré).
+- Les utilisateurs invités ont accès à davantage de ressources dans Teams, par exemple, des fichiers, des équipes et des canaux, que des utilisateurs disposant d’un accès externe (fédéré).
 - L’administrateur Teams contrôle tout ce qu’un invité peut faire (ou ne peut pas faire) dans le centre d’administration Teams. Pour plus d’informations, consultez [Gérer l’accès invité](manage-guests.md).
 
 Si vous êtes prêt à activer l’accès invité au sein de votre organisation, commencez par [Collaborer avec des invités au sein d’une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).

@@ -83,7 +83,7 @@ Chaque équipe est différente, il n’existe pas une seule et même approche su
 
 Lorsque vous choisissez les applications et services Microsoft 365 ou Office 365 que vous allez utiliser, pensez au travail que fait votre organisation et aux types de conversations que doivent avoir vos équipes. 
 
-- **Teams** , un nœud central pour le travail d’équipe où des personnes qui travaillent en étroite collaboration sur des projets centraux, y compris de l’extérieur de votre organisation, peuvent communiquer et collaborer activement en temps réel. Ayez une conversation directement où le travail se fait, qu’il s’agisse de rédiger en commun un document, d’avoir une réunion ou de travailler ensemble dans d’autres applications et services. Teams est l’endroit où avoir des conversations informelles, retravailler rapidement sur un projet, travailler avec les fichiers d'une équipe et collaborer sur des produits partagés. 
+- **Teams**, un nœud central pour le travail d’équipe où des personnes qui travaillent en étroite collaboration sur des projets centraux, y compris de l’extérieur de votre organisation, peuvent communiquer et collaborer activement en temps réel. Ayez une conversation directement où le travail se fait, qu’il s’agisse de rédiger en commun un document, d’avoir une réunion ou de travailler ensemble dans d’autres applications et services. Teams est l’endroit où avoir des conversations informelles, retravailler rapidement sur un projet, travailler avec les fichiers d'une équipe et collaborer sur des produits partagés. 
 
 - **Outlook** pour collaborer dans l’environnement de messagerie familier et d’une manière plus formelle et structurée ou lorsqu’une communication ciblée et directe est nécessaire.
 

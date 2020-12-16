@@ -61,14 +61,14 @@ Pour commencer, nous vous recommandons de créer des équipes privées et d’aj
 
 ### <a name="create-a-team"></a>Créer une équipe
 
-Sur le côté gauche de l’écran de Teams, cliquez sur **Équipes** , puis, en bas de la liste des équipes, cliquez sur **Rejoindre ou créer une équipe** , puis sur **Créer une équipe**.
+Sur le côté gauche de l’écran de Teams, cliquez sur **Équipes**, puis, en bas de la liste des équipes, cliquez sur **Rejoindre ou créer une équipe**, puis sur **Créer une équipe**.
 
 Une fois que vous avez créé l’équipe, invitez des personnes à la rejoindre. Vous pouvez ajouter des utilisateurs individuels, des groupes et même des groupes complets de contacts (anciennement appelés des « listes de distribution »). 
 
 ![Capture d’écran d’un exemple d’équipe, affichant le nom de l’équipe et une description](media/get-started-with-teams-create-team.png "Capture d’écran d’un exemple d’équipe Découvrir Teams, montrant le nom de l’équipe et la description") 
 
 ### <a name="add-a-team-owner"></a>Ajouter un propriétaire à l’équipe
-Recherchez l’équipe que vous avez créée, cliquez sur **Plus options ˙˙˙** > **Gérer l’équipe**. Accédez à l’onglet **Membres**. Recherchez les personnes que vous voulez désigner comme propriétaires de l’équipe. Sous **Rôle** , cliquez sur **Propriétaire**.
+Recherchez l’équipe que vous avez créée, cliquez sur **Plus options ˙˙˙** > **Gérer l’équipe**. Accédez à l’onglet **Membres**. Recherchez les personnes que vous voulez désigner comme propriétaires de l’équipe. Sous **Rôle**, cliquez sur **Propriétaire**.
 
 ### <a name="create-a-channel-in-a-team"></a>Créer un canal dans une équipe
 Recherchez l’équipe que vous avez créée, puis cliquez sur **Autres options...** > **Ajouter un canal**. Vous pouvez également cliquer sur **Gérer l’équipe** et ajouter un canal dans l’onglet **Canaux**. 

@@ -26,7 +26,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 11/18/2020
 ms.locfileid: "49130625"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et évènements en direct dans Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
 Deux méthodes s’offrent à vous pour rencontrer Microsoft Teams : réunions et événements en direct. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements dynamiques pour votre organisation.
 

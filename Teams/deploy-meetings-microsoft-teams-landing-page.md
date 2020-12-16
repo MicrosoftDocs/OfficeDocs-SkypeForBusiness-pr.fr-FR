@@ -41,9 +41,9 @@ Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vo
 Pour en savoir plus sur l’expérience des réunions pour vos utilisateurs, consultez[Réunions et appels](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
 
-*Nouveautés d’avril 2020*  : les organisateurs de réunion peuvent mettre fin à une réunion pour tous les participants à la réunion Teams en cliquant sur **Mettre fin à la réunion** dans les contrôles de réunion au sein de la réunion.  
+*Nouveautés d’avril 2020* : les organisateurs de réunion peuvent mettre fin à une réunion pour tous les participants à la réunion Teams en cliquant sur **Mettre fin à la réunion** dans les contrôles de réunion au sein de la réunion.  
 
-*Nouveautés en novembre 2019* : vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams, y compris les réunions et conférences. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer les réunions et conférences dans Teams.
+*Nouveautés en novembre 2019*: vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams, y compris les réunions et conférences. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer les réunions et conférences dans Teams.
 
  > [!Note]
 > Pour plus d’informations sur les réunions et conférences Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -151,7 +151,7 @@ La planification de la bande passante permet aux organisations d’estimer la ba
 Les utilisateurs peuvent enregistrer leurs réunions et appels de groupe pour capturer l’audio, la vidéo et le partage des activités à l’écran. Il existe également une option pour les enregistrements qui permet une transcription automatique, afin que les utilisateurs puissent regarder les enregistrements de réunion avec des sous-titres et rechercher des éléments de discussion importants dans la transcription. L’enregistrement se passe dans le nuage et est enregistré avec Microsoft Stream, pour que les utilisateurs puissent le partager en toute sécurité au sein de leur organisation. Pour rechercher l’enregistrement d’une réunion, accédez à la conversation de réunion.
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive. Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
+> Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 Pour plus d’informations, voir [Enregistrement de réunion Teams dans le nuage](cloud-recording.md).
 

@@ -84,7 +84,7 @@ Accédez à <your Slack workspace>. slack.com/apps/manage pour obtenir la liste 
 
 \* Si votre administrateur a utilisé des applications restreintes, il est possible que vous ne puissiez pas voir la liste complète des applications disponibles.
 
-### <a name="users"></a>Utilisateurs
+### <a name="users"></a>Users
 Il se peut que les schémas d’identité que vous avez utilisés dans Slack ne s’intègrent pas directement à Microsoft 365 ou Office 365. Par exemple, il est possible que les adresses de messagerie de Slack ne correspondent pas aux comptes Microsoft 365 ou Office 365 professionnels ou scolaires. Vous devez créer un mappage ID utilisateur avant de commencer à planifier le déploiement de Teams.
 
 Si vous utilisez une offre de service Slack payante, vous pouvez accéder à *<your Slack workspace>. slack.com/admin/stats#members* pour obtenir des informations sur les membres, telles que l’adresse de messagerie et le type de compte pour chaque utilisateur (par exemple, un invité à un ou plusieurs canaux).
