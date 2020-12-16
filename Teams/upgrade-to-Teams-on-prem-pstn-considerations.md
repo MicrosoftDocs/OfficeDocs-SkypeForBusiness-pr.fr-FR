@@ -1,14 +1,13 @@
 ---
-title: Effectuer une mise à niveau vers teams à partir d’un déploiement local de Skype entreprise-Microsoft teams
-author: CarolynRowe
-ms.author: crowe
+title: Considérations RTC lors de la mise à niveau vers teams à partir d’un déploiement local de Skype entreprise
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Mise à niveau de Skype entreprise vers considérations relatives à la voix dans teams
+description: Considérations vocales pour la mise à niveau de Skype entreprise vers teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,23 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 8a9783f5d60e5a595d548bbfc83ee013500934ed
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772215"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686430"
 ---
-# <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Considérations RTC lors de la mise à niveau vers teams &mdash; pour les administrateurs informatiques
+# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considérations RTC pour la mise à niveau vers teams depuis Skype entreprise en local
 
-Cet article décrit les aspects du réseau téléphonique public commuté (RTC) lors de la mise à niveau vers Teams. Cet article est le sixième d’entre eux qui décrivent des concepts et une implémentation de mise à niveau pour les administrateurs informatiques.  
+Cet article décrit les aspects du réseau téléphonique public commuté (RTC) lors de la mise à niveau vers Teams.   
 
-- [Vue d’ensemble](upgrade-to-teams-on-prem-overview.md)
-- [Méthodes de mise à niveau](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Outils de gestion de votre mise à niveau](upgrade-to-teams-on-prem-tools.md)
-- [Autres considérations concernant les organisations avec Skype entreprise en local](upgrade-to-teams-on-prem-considerations.md)
-- [Implémenter votre mise à niveau](upgrade-to-teams-on-prem-implement.md)
-- **Considérations relatives au réseau téléphonique commuté (PSTN)** (cet article)
 
 De plus, les articles suivants décrivent des concepts importants de mise à niveau et des comportements de coexistence :
 
@@ -46,6 +39,7 @@ De plus, les articles suivants décrivent des concepts importants de mise à niv
  > [!NOTE]
  > - L’utilisation du système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
  > - Le transfert d’appel, le groupe d’appel d’équipe et les paramètres de délégation de Skype entreprise ne sont pas migrés et devront être recréés pour Teams.
+ > - Pour obtenir une vue d’ensemble des fonctionnalités de voix Cloud de Microsoft Teams, et pour choisir la solution vocale Microsoft adaptée à votre organisation, reportez-vous à [la rubrique planification de votre solution vocale teams](cloud-voice-landing-page.md).
 
 
 ## <a name="pstn-calling-scenarios"></a>Scénarios d’appel RTC
@@ -168,6 +162,8 @@ Qu’il s’agisse de l’utilisation d’un routage direct ou d’un plan d’a
   ```
 
 ## <a name="related-links"></a>Liens connexes
+
+[Planifier votre solution vocale teams](cloud-voice-landing-page.md)
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
 

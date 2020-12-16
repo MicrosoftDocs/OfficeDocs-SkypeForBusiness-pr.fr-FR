@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimisation du contenu multimédia local pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
-ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
+ms.openlocfilehash: 886dd4d14d8393764f3c939991a8959ed4726aa3
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950788"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686460"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Optimisation du contenu multimédia local pour le routage direct
 
@@ -49,23 +49,23 @@ Cet article décrit les fonctionnalités de fonctionnalité, et les scénarios e
 
 Pour cette discussion, supposez que contoso exécute plusieurs entreprises sur le globe comme suit. (Notez que les régions Europe et APAC ne sont utilisées qu’à titre d’exemple. Une société peut avoir plusieurs régions différentes ayant des exigences similaires.)
  
-- **En Europe** , contoso dispose de bureaux dans approximativement 30 pays. Chaque succursale possède son propre échange de succursale privée. 
+- **En Europe**, contoso dispose de bureaux dans approximativement 30 pays. Chaque succursale possède son propre échange de succursale privée. 
 
   Contoso a offert une option de centralisation des Trunks au sein d’un emplacement--Amsterdam--pour les 30 bureaux européens. Contoso a déployé l’SBC dans Amsterdam, à condition de disposer d’une bande passante suffisante pour exécuter les appels par le biais de l’emplacement centralisé, connecté un Trunk SIP central à l’emplacement centralisé et commencé à utiliser tous les emplacements d’Amsterdam. 
 
-- **Dans la région APAC** , Contoso possède plusieurs bureaux dans différents pays. 
+- **Dans la région APAC**, Contoso possède plusieurs bureaux dans différents pays. 
 
   Dans de nombreux pays, l’entreprise dispose toujours de lignes de multiplexage de répartition du temps dans les succursales locales. La centralisation des lignes de TDM n’est pas une option disponible dans la région de l’APAC, donc le passage à SIP n’est pas possible. Supposez qu’il y a plus de 50 de succursales Contoso dans la région APAC avec des centaines de passerelles (SBCs). Dans ce scénario, il n’est pas possible de jumeler toutes les passerelles vers l’interface de routage directe en raison d’un manque d’adresses IP publiques et/ou de points de suite Internet locaux. De plus, certains pays imposent des exigences réglementaires qui ne peuvent pas être satisfaites sans connexion réseau PSTN locale.
 
 Selon les besoins de votre entreprise, Contoso a implémenté deux solutions avec une optimisation de média locale pour le routage direct :
 
-- **En Europe** , toutes les lignes sont centralisées et multimédias entre le SBC central et les utilisateurs, en fonction de l’emplacement de l’utilisateur. 
+- **En Europe**, toutes les lignes sont centralisées et multimédias entre le SBC central et les utilisateurs, en fonction de l’emplacement de l’utilisateur. 
 
   - Si un utilisateur est connecté au sous-réseau local d’un réseau d’entreprise (c’est-à-dire, l’utilisateur est interne), le contenu multimédia est transmis entre l’adresse IP interne de l’SBC central et du client teams de l’utilisateur. 
   
   - Si un utilisateur ne se trouve pas dans les limites du réseau d’entreprise, par exemple, si l’utilisateur utilise une connexion Internet sans fil publique, l’utilisateur est considéré comme externe. Dans ce cas, les éléments multimédias sont acheminés entre l’adresse IP externe de la SBC centrale et celle du client Teams.
 
-- **Dans la région APAC** , un proxy centralisé SBC est associé au routage direct Microsoft, qui transmet les éléments multimédias entre l’interface de routage directe et l’interface de routage directe en aval dans les agences locales. 
+- **Dans la région APAC**, un proxy centralisé SBC est associé au routage direct Microsoft, qui transmet les éléments multimédias entre l’interface de routage directe et l’interface de routage directe en aval dans les agences locales. 
 
   L’intérieur de l’intérieur des bureaux de succursales locaux n’est pas directement visible pour le routage direct au sein de l’Asie de l’est, mais il est couplé en utilisant l’applet de connexion Set-CSOnlinePSTNGateway pour créer une topologie de réseau virtuel dans le système Microsoft Phone. Le contenu multimédia reste toujours local dans la mesure du possible. Les utilisateurs externes disposent de contenus multimédias entre le client teams et l’adresse IP publique du proxy SBC.
 
@@ -74,7 +74,7 @@ Selon les besoins de votre entreprise, Contoso a implémenté deux solutions ave
 
 Pour créer une solution dans laquelle les services RTC sont fournis à toutes les succursales locales par le biais d’un SBC central unique avec un Trunk SIP centralisé connecté, l’administrateur client de contoso associe un SBC (centralsbc.contoso.com) au service. un Trunk SIP centralisé est connecté à l’SBC. 
 
-- Lorsqu’un utilisateur se trouve sur le réseau interne de l’entreprise, l’SBC fournit l’adresse IP interne de l’SBC pour le média.
+- Lorsqu’un utilisateur se trouve sur le réseau interne de l’entreprise, l’SBC fournit l’adresse IP interne de l’SBC pour le média. 
 
 - Lorsqu’un utilisateur se trouve en dehors du réseau d’entreprise, l’SBC fournit la adresse IP externe (publique) de l’SBC.
 
@@ -182,16 +182,19 @@ Diagramme 4. Flux de trafic lorsque l’utilisateur est externe avec un SBC prox
 
 L’optimisation des éléments multimédias locaux prend en charge deux modes :
 
-- **Mode 1 : toujours contournement**. Dans le cas présent, si l’utilisateur est interne, le média passe par l’adresse IP interne de l’SBC en aval local, quel que soit l’emplacement réel de l’utilisateur interne ; par exemple, au sein de la même succursale où se trouve l’SBC en aval ou dans une autre succursale.
+- **Mode 1 : toujours contournement**. Dans le cas présent, si l’utilisateur est interne, le média passe par l’adresse IP interne de l’SBC en aval local, quel que soit l’emplacement réel de l’utilisateur interne ; par exemple, au sein de la même succursale où se trouve l’SBC en aval ou dans une autre succursale.  
 
 - **Mode 2 : uniquement pour les utilisateurs locaux**. Dans ce mode, les éléments multimédias seront acheminés directement vers l’adresse IP interne de l’SBC en aval uniquement en cas de génération par l’utilisateur interne situé dans la même succursale que l’SBC aval. 
 
 Pour faire la distinction entre les modes d’optimisation des éléments multimédias locaux, l’administrateur client doit définir le paramètre-BypassMode sur « toujours » ou « OnlyForLocalUsers » pour chaque SBC à l’aide de l’applet de Set-CSonlinePSTNGateway. Pour plus d’informations, voir [configurer l’optimisation des éléments multimédias locaux](direct-routing-media-optimization-configure.md).  
 
+ > [!NOTE]
+  > Lorsque les utilisateurs sont internes, la connectivité multimédia entre l’utilisateur et l’SBC sur l’adresse IP interne est **requise**. Dans le cas présent, il n’y a pas de recours aux relais de transport public pour le contenu multimédia, car l’SBC fournira une adresse IP interne pour la connectivité multimédia. 
+
 ### <a name="mode-1-always-bypass"></a>Mode 1 : toujours contournement
 
 Si vous avez une bonne connexion entre les succursales, le mode recommandé est toujours contournement.
-
+ 
 Par exemple, supposons qu’une entreprise dispose d’un Trunk SIP centralisé dans Amsterdam, qui dessert 30 pays et qui dispose d’une bonne connectivité entre les 30 sites et les utilisateurs locaux. Il existe également une branche en Allemagne qui déploie un SBC local.
 
 L’SBC en Allemagne peut être configuré en mode « toujours contournement ». Les utilisateurs, quel que soit leur lieu, se connectent directement à la SBC par le biais de l’adresse IP interne de l’SBC (par exemple, de France à Allemagne ; Voir le diagramme ci-dessous pour référence).

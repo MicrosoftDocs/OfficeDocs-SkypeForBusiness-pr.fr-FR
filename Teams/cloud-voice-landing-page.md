@@ -1,5 +1,5 @@
 ---
-title: Voix dans Microsoft teams
+title: Planifier votre solution vocale dans Microsoft teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,16 +23,19 @@ search.appverid: MET150
 description: En savoir plus sur les fonctionnalités de voix sur le Cloud de Microsoft teams et les décisions de déploiement que vous allez apporter à votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611716"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686450"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution vocale teams 
 
-Cet article vous aide à déterminer la solution Microsoft Voice adaptée à votre organisation. Après avoir décidé, l’article fournit une introduction au contenu qui vous permettra d’implémenter la solution que vous avez choisie. 
+Cet article vous aide à déterminer la solution Microsoft Voice adaptée à votre organisation. Après avoir décidé, l’article fournit une introduction au contenu qui vous permettra d’implémenter la solution que vous avez choisie.
+
+> [!NOTE]
+> Pour obtenir des instructions sur la planification d’une solution vocale d’équipes dans le cadre de la mise à niveau vers teams depuis Skype entreprise Server, voir [considérations RTC pour la mise à niveau vers teams depuis Skype entreprise local](upgrade-to-Teams-on-prem-pstn-considerations.md).
 
 Vous voudrez peut-être utiliser le système téléphonique de la solution la plus simple &mdash; avec le plan d’appels. Il s’agit de la solution tout-en-Cloud de Microsoft qui fournit les fonctionnalités de PBX et les appels au réseau téléphonique public commuté (RTC), comme indiqué dans le schéma suivant. Avec cette solution, Microsoft est votre opérateur PSTN.
 
