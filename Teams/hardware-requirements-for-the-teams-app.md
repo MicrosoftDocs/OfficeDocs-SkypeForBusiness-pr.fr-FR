@@ -12,7 +12,7 @@ ms.collection:
 - m365initiative-deployteams
 localization_priority: Normal
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir la configuration matérielle requise pour l’installation et l’exécution de Microsoft Teams.
+description: Dans cet article, vous découvrirez la configuration matérielle requise pour installer et exécuter Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,7 +22,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 90d59bb7753cfd26cf6d0b90835cf8cf27661641
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030270"
@@ -33,49 +33,49 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 
 ## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Configuration matérielle requise pour les équipes sur un PC Windows
 
-| Composant | Condition requise |
+| Composant | Configuration requise |
 |---------|---------|
-|Ordinateur et processeur    | Minimum 1,6 GHz (ou plus), 2 cœurs        |
-|Mémoire     |    4,0 GO DE MÉMOIRE VIVE (RAM)     |
+|Ordinateur et processeur    | Minimum 1,6 GHz (ou plus), 2 cœurs        |
+|Mémoire     |    4.0 GB de RAM     |
 |Disque dur    | 3,0 Go d’espace disque disponible        |
 |Affichage    |   Résolution d’écran 1024 x 768 |
-|Matériel graphique |  Système d’exploitation Windows : l’accélération graphique matérielle nécessite DirectX 9 ou version ultérieure, avec le WDDM 2,0 ou une version ultérieure pour Windows 10 (ou WDDM 1,3 ou version ultérieure pour Windows 10, mettre à jour les créateurs)
-|Système d’exploitation  |    Windows 10, Windows 10 sur ARM, Windows 8,1, Windows Server 2019, Windows Server 2016|
+|Matériel graphique |  Système d’exploitation Windows : l’accélération matérielle graphique nécessite DirectX 9 ou une version ultérieure, avec WDDM 2.0 ou une version ultérieure pour Windows 10 (ou WDDM 1.3 ou une version ultérieure pour Windows 10 Fall Creators Update)
+|Système d’exploitation  |    Windows 10, Windows 10 sur ARM, Windows 8.1, Windows Server 2019, Windows Server 2016|
 |Version de .NET    |  Requiert .NET 4.5 CLR ou version ultérieure.       |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    |
-|Appels vidéo et réunions|<ul><li>Nécessite le processeur 2 cœur. Pour une résolution de partage et une fréquence d’images plus élevée, il est recommandé de disposer d’un processeur 4 cœurs ou d’une meilleure qualité.</li> <li>Les effets vidéo en arrière-plan requièrent Windows 10 ou un processeur avec l’instruction AVX2 définie.</li> <li>Voir [Recommandations relatives le pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs matériels non pris en charge.</li><li>La participation à une réunion à l’aide d’une détection de proximité dans une salle Microsoft teams nécessite la technologie Bluetooth LE, qui nécessite l’activation de la technologie Bluetooth sur le périphérique client, et pour les clients Windows, le client teams 64 est également requis. Cette fonctionnalité n’est pas disponible pour les clients d’équipes 32 bits.</li></ul> |
-|Événements en direct Teams | Si vous produisez un événement en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake, d’une RAM de 4,0 Go (ou d’une version ultérieure) et d’un codeur matériel. Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs **non pris en charge** . |
+|Appels vidéo et réunions|<ul><li>Nécessite un processeur 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé.</li> <li>Les effets vidéo d’arrière-plan nécessitent Windows 10 ou un processeur avec le jeu d’instructions AVX2.</li> <li>Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs non pris en charge.</li><li>Participer à une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams nécessite le Bluetooth LE, qui nécessite l’activation du Bluetooth sur l’appareil client. Pour les clients Windows, le client Teams 64 bits est nécessaire. Cette fonctionnalité n’est pas disponible sur les clients Teams 32 bits.</li></ul> |
+|Événements en direct Teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur Kaby Lake Core i5, d’une RAM de 4,0 Go (ou plus) et d’un codeur matériel. Consultez l’article [Recommandations relatives au pilote matériel décodeur et encodeur](hardware-decoders-and-encoders.md) pour consulter la liste des décodeurs et encodeurs **non pris en charge**. |
 
-## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur un Mac
+## <a name="hardware-requirements-for-teams-on-a-mac"></a>Configuration matérielle requise pour Teams sur Mac
 
-| Composant | Condition requise |
+| Composant | Configuration requise |
 |---------|---------|
 |Ordinateur et processeur    | Processeur Intel Core Duo |
-|Mémoire     |   4,0 GO DE MÉMOIRE VIVE (RAM)      |
+|Mémoire     |   4.0 GB de RAM      |
 |Disque dur    |   1,5 Go d’espace disque disponible      |
 |Affichage    | 1280 x 800 ou résolution supérieure    |
-|Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez des informations sur les versions les plus récentes de macOS et sur la mise à niveau de votre version de [MacOS.](https://support.apple.com/en-us/HT201260) Par exemple, lorsque vous relâchez une nouvelle version de macOS, la nouvelle version et les deux qui la précèdent immédiatement deviennent les versions prises en charge.      |
+|Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez des informations sur les dernières versions de macOS et comment mettre à jour votre version de macOS [ici](https://support.apple.com/fr-FR/HT201260). Par exemple, lorsqu’une nouvelle version de macOS est publiée, la nouvelle version et les deux versions qui la précèdent deviennent les versions prises en charge.      |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Nécessite le processeur 2 cœur. Pour une résolution de partage et une fréquence d’images plus élevée, il est recommandé de disposer d’un processeur 4 cœurs ou d’une meilleure qualité. </li><li>La participation à une réunion à l’aide de la détection de proximité dans une salle Microsoft teams n’est pas disponible sur macOS.</li></ul>
+|Appels vidéo et réunions | <ul><li>Nécessite un processeur 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé. </li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Configuration matérielle requise pour Teams sur Linux
 
-| Composant | Condition requise |
+| Composant | Configuration requise |
 |---------|---------|
-|Ordinateur et processeur    | 1,6 GHz (ou plus) (32 bits ou 64 bits), 2 cœurs        |
-|Mémoire     |    4,0 GO DE MÉMOIRE VIVE (RAM)     |
+|Ordinateur et processeur    | 1,6 GHz (ou plus) (32 bits ou 64 bits), 2 cœurs        |
+|Mémoire     |    4.0 GB de RAM     |
 |Disque dur    | 3,0 Go d’espace disque disponible        |
 |Affichage    |   Résolution d’écran 1024 x 768 |
-|Matériel graphique |  128 Mo de mémoire graphique
+|Matériel graphique |  Mémoire graphique de 128 Mo
 |Système d’exploitation  | Distribution Linux capable d’installer les applications DEB ou RPM. |
 |Vidéo    |  Caméra vidéo USB 2.0       |
 |Appareils    |   Caméra d’ordinateur portable standard, microphone et haut-parleurs    |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
-|Appels vidéo et réunions | <ul><li>Nécessite le processeur 2 cœur. Pour une résolution de partage et une fréquence d’images plus élevée, il est recommandé de disposer d’un processeur 4 cœurs ou d’une meilleure qualité.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
-|Distributions Linux prises en charge | Ubuntu 18,04 LTS, 20,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation CentOS 8       |
+|Appels vidéo et réunions | <ul><li>Nécessite un processeur 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé.</li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>
+|Distributions Linux prises en charge | Ubuntu 18.04 LTS, 20.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8       |
 |Environnement de bureau pris en charge | GNOME, KDE       |
 |Serveur d’affichage pris en charge | X11       |
 
@@ -85,11 +85,11 @@ Vous pouvez utiliser Teams sur ces plateformes mobiles :
 
 - Android : compatible avec les téléphones et tablettes Android.
 
-  La prise en charge est limitée aux **quatre dernières** versions d’Android. Par exemple, quand une nouvelle version majeure de Android est publiée, l’exigence Android correspond à la nouvelle version et aux trois versions les plus récentes qui la précèdent.
+  La prise en charge est limitée aux **quatre dernières** versions majeures d’Android. Par exemple, lorsqu’une nouvelle version majeure d’Android est publiée, la configuration requise pour Android est la nouvelle version et les trois versions les plus récentes qui l’ont précédée.
 
-- iOS : compatible avec iPhone, iPad et iPod touch.
+- iOS : compatible avec iPhone, iPad et iPod touch.
 
-  La prise en charge est limitée aux **deux** dernières versions principales d’iOS. Par exemple, quand une nouvelle version majeure d’iOS est publiée, l’exigence d’iOS est la nouvelle version et les versions les plus récentes qui la précèdent. L’effet de **flou facultatif mon arrière-plan** sur iOS nécessite un système d’exploitation d’IOS 12 ou d’une version ultérieure compatible avec les appareils suivants : iPhone 7 ou version ultérieure, iPad 2018 (sixième génération) ou version ultérieure, et l’iPod effleure 2019 (7e génération).
+  La prise en charge est limitée aux **deux** versions majeures d’iOS les plus récentes. Par exemple, lorsqu’une nouvelle version majeure d’iOS est publiée, la configuration requise pour iOS est la nouvelle version et les versions les plus récentes qui l’ont précédée. L’effet vidéo facultatif **Flouter mon arrière-plan** sur iOS nécessite un système d’exploitation iOS 12 ou une version ultérieure, compatible avec les appareils suivants : iPhone 7 ou une version ultérieure, iPad 2018 (6e génération) ou une version ultérieure et iPod touch 2019 (7e génération).
 
 > [!Note]
 > Pour une expérience optimale de Teams, utilisez la dernière version de votre système d’exploitation iOS et Android.

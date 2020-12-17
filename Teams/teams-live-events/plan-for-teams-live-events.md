@@ -1,7 +1,7 @@
 ---
 title: Planifier des événements en direct dans Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
-ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
+ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49372248"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682403"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -105,13 +105,13 @@ Le tableau suivant souligne les capacités et fonctionnalités essentielles prop
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
+> **Pour continuer à répondre aux besoins de nos clients, jusqu'au 30 juin 2021, nous prolongerons les augmentations temporaires des limites pour les événements en direct, notamment** :
 >
->- Jusqu’à 20 000 participants par événement
->- Jusqu’à 50 événements simultanés par client Teams
->- Jusqu’à 16 heures par diffusion
+>- Soutien aux événements accueillant jusqu'à 20 000 participants
+>- 50 événements à la fois peuvent être hébergés chez un client
+>- Durée de l'événement : 16 heures par diffusion
 >
-> En plus des Événements en direct avec jusqu’à 100 000 participants peuvent être planifiés à travers le programme d’assistance des événements en direct Microsoft 365. L’équipe évalue chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions) **Après le 1 janvier 2021, les clients qui souhaitent une augmentation de cette limite devront acheter le [module complémentaire Communications Avancés](../teams-add-on-licensing/advanced-communications.md).**
+> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance aux événements en direct de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | Fonctionnalité | Diffusion de réunion Skype | Événements générés dans Teams | Événements générés dans une application ou un appareil externe |
 |---------|---------|---------|---------|

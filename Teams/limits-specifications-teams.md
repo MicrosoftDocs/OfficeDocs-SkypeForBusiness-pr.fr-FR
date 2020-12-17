@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611468"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682353"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -117,13 +117,13 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
+> **Pour continuer à répondre aux besoins de nos clients, jusqu'au 30 juin 2021, nous prolongerons les augmentations temporaires des limites pour les événements en direct, notamment** :
 >
->- Jusqu’à 20 000 participants par événement
->- Jusqu’à 50 événements simultanés par client Teams
->- Jusqu’à 16 heures par diffusion
+>- Soutien aux événements accueillant jusqu'à 20 000 participants
+>- 50 événements à la fois peuvent être hébergés chez un client
+>- Durée de l'événement : 16 heures par diffusion
 >
-> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions) **Après le 1 janvier 2021, les clients qui souhaitent une amélioration des limites devront acheter [les compléments de Communications Avancés](teams-add-on-licensing/advanced-communications.md).**
+> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
@@ -163,13 +163,13 @@ Pour plus d’informations sur les événements en direct et une comparaison des
 > [!IMPORTANT]
 > **Augmentation de la limite d’événements en direct Microsoft 365**
 >
-> **Pour aider nos clients, jusqu’au 1er janvier 2021, nous allons étendre les augmentations de limite temporaires pour les événements en direct hébergés dans Teams, Stream et Yammer, y compris** :
+> **Pour continuer à répondre aux besoins de nos clients, jusqu'au 30 juin 2021, nous prolongerons les augmentations temporaires des limites pour les événements en direct, notamment** :
 >
-> - Jusqu’à 20 000 participants par événement
-> - Jusqu’à 50 événements simultanés par client Teams
-> - Jusqu’à 16 heures par diffusion
+>- Soutien aux événements accueillant jusqu'à 20 000 participants
+>- 50 événements à la fois peuvent être hébergés chez un client
+>- Durée de l'événement : 16 heures par diffusion
 >
-> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions) **Après le 1 janvier 2021, les clients qui souhaitent une amélioration des limites devront acheter [les compléments de Communications Avancés](teams-add-on-licensing/advanced-communications.md).**
+> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Présence dans Outlook
 
@@ -192,7 +192,7 @@ Etant donné que Teams est exécuté sur le serveur principal de SharePoint Onl
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Stockage                 |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée   |1 To par organisation, plus 10 Go par licence achetée |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation           |
 |Espace de stockage pour fichiers Teams |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |Jusqu’à 25 To par site ou groupe |
-|Limite de taille de fichiers :    |2 Go    |2 Go    |2 Go    |2 Go    |2 Go    |2 Go    |
+|Limite de taille de fichiers :    |100 Go    |100 Go    |100 Go    |100 Go    |100 Go    |100 Go    |
 
 Les canaux sont sauvegardés dans un site SharePoint Online (auparavant appelé « collection de sites ») créé pour l’équipe. les onglets de fichier au sein des canaux partagent ainsi les limites de stockage de l’équipe à laquelle ils appartiennent.
 
