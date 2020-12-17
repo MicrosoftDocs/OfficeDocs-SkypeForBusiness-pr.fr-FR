@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa8e733aeb3828bb1815001ba0299a9ee1aaf78
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852145"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701232"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel et Microsoft Teams
 
@@ -300,7 +300,7 @@ TeamsData
 
 #### <a name="user-accounts-who-are-owners-of-large-numbers-of-teams"></a>Comptes d’utilisateur propriétaires d’un grand nombre d’équipes
 
-Les intrus cherchant à élever leur privilège peuvent attribuer eux-mêmes les privilèges de propriétaire d’un grand nombre Teams, lorsque, généralement, les utilisateurs créent et possèdent un petit nombre d’équipes autour de sujets spécifiques. Cette requête KQL recherche un comportement suspect.
+Les attaquants cherchant à élever leur privilège s’attribuent généralement les privilèges de propriétaire de nombreuses équipes, tandis que, généralement, les utilisateurs normaux créent et possèdent un petit nombre d’équipes centrées sur certains sujets. Cette requête KQL recherche un comportement suspect.
 
 ```kusto
 // Adjust this value to change how many teams a user is made owner of before detecting 
