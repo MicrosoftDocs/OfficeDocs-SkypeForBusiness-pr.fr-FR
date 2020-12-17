@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477033"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701312"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft teams
 
@@ -31,7 +31,7 @@ Ces notes de publication fournissent des informations sur les nouvelles fonction
 
 ### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le composant additionnel de réunion Microsoft teams pour Google Workspace
 
-L’utilisation du composant additionnel réunion Microsoft teams permet aux utilisateurs du calendrier Google de programmer et de rejoindre une réunion Microsoft teams directement dans Google Workspace. Les utilisateurs pourront accéder aux fonctionnalités de réunion en équipe, notamment les conférences vidéo et audio, le partage d’écran, les discussions de la réunion, les tableaux blancs numériques, etc. Restez connecté et organisé pour une collaboration plus approfondie au sein de votre entreprise, de votre école et de votre vie.
+L’utilisation du composant additionnel réunion Microsoft teams permet aux utilisateurs du calendrier Google de programmer et de rejoindre une réunion Microsoft teams directement dans Google Workspace. Les utilisateurs pourront accéder aux fonctionnalités de réunion en équipe, notamment les conférences vidéo et audio, le partage d’écran, les discussions de la réunion, les tableaux de dessin numériques, etc. Restez connecté et organisé pour une collaboration plus approfondie au sein de votre entreprise, de votre école et de votre vie.
 
 Pour pouvoir accéder à l’application, le composant additionnel de réunion Microsoft teams pour Google Workspace doit être activé par un administrateur d’équipes. [En savoir plus](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
@@ -103,7 +103,7 @@ Nous avons récemment ajouté une assistance téléphonique pour l’Autriche, l
 
 ## <a name="september-29-2020"></a>29 septembre 2020
 
-### <a name="meeting-policy-settings"></a>Paramètres de la stratégie de réunion
+### <a name="meeting-policy-settings"></a>Paramètres de stratégie de réunion
 
 L’ajout de deux paramètres de stratégie pour l’audio IP et la vidéo IP dans les stratégies de réunions d’équipe : mode pour le mode audio et le mode IP pour la vidéo IP. Vous pouvez désormais définir le son IP entrant et sortant dans les stratégies de réunion Teams. [En savoir plus](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
@@ -363,7 +363,7 @@ En plus de l’analyse d’équipe, vous pouvez également afficher les mesures 
 
 ### <a name="enable-organizers-to-change-lobby-settings-for-dial-in-participants"></a>Permettre aux organisateurs de modifier les paramètres de la salle d’attente pour les participants rendez-vous
 
-Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** .
+Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**.
 
 ## <a name="april-8-2020"></a>8 avril 2020
 

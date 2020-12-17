@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Découvrez comment essayer ou acheter des licences de services d’audioconférence pour Microsoft 365 ou Office 365 pour configurer des conférences téléphoniques auxquelles les utilisateurs peuvent se connecter. '
-ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031270"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701202"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayez ou achetez une audioconférence dans Microsoft 365 pour Microsoft teams
 
@@ -47,11 +47,11 @@ Pour effectuer ces étapes, vous devez être administrateur [général ou admini
 
 1. Découvrez si l' **audioconférence** est disponible dans votre pays/région. [Disponibilité des pays et des régions pour les conférences audio et les offres d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-2. Obtenir vos licences d’ **Audioconférence**. Si vous souhaitez :
+2. Obtenir vos licences d’**Audioconférence**. Si vous souhaitez :
 
    - **Testez-le** avant de procéder à l’achat : vous pouvez vous inscrire à une version d’évaluation gratuite d’Office 365 entreprise E5 incluant des conférences audio. Voir l’[Essai d’Office 365 Entreprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Acheter** : voir [licences de complément Microsoft teams] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
+   - **Acheter**: consultez la rubrique [licences de compléments Microsoft teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 3. [Attribuez des licences aux utilisateurs](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) de votre organisation qui vont planifier ou animer des réunions.
 
@@ -63,7 +63,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
   
 1. Découvrez si l' **audioconférence** est disponible dans votre pays/région. [Disponibilité du pays et de la région pour les offres d’appels audio et de services d’audioconférence](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-2. Obtenir vos licences d’ **Audioconférence**. Afin d’acquérir des licences de facturation à la minute, veuillez contactez votre responsable de compte.
+2. Obtenir vos licences d’**Audioconférence**. Afin d’acquérir des licences de facturation à la minute, veuillez contactez votre responsable de compte.
 
 3. [Configurez des crédits de communication pour votre](set-up-communications-credits-for-your-organization.md) Organisation pour votre organisation. Pour configurer les crédits de communication, consulter [Que sont les crédits de communication ?](what-are-communications-credits.md)
 
@@ -83,7 +83,7 @@ Si des utilisateurs sont activés avec un fournisseur de services d’audioconf�
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 
-Les étapes suivantes sont **facultatives** , mais un grand nombre d’administrateurs préfèrent les effectuer :
+Les étapes suivantes sont **facultatives**, mais un grand nombre d’administrateurs préfèrent les effectuer :
 
 1. [Personnaliser les invitations aux réunions](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
 

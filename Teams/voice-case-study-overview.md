@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365solution-voice
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ f1.keywords:
 description: Étude de cas de voix dans teams pour les entreprises à plusieurs nationaux
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100889bacffdb9de722bd2e1e7295905876dab2e
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 3a964075dfae514759309a81a7d7140cddd10220
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786015"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701222"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Étude de cas contoso : vue d’ensemble de la migration teams Voice
 
@@ -66,7 +67,7 @@ Pour migrer leurs utilisateurs locaux vers des équipes de communication, de col
 
 - Routage géodépendant 
 
-  Dans les pays réglementés par la téléphonie, Contoso a besoin de recréer le routage sur la base de l’emplacement disponible dans Skype entreprise pour le déploiement de votre système téléphonique. Pour plus d’informations, consultez l' [étude de cas contoso : routage de géolocalisation](voice-case-study-location-based-routing.md).
+  Dans les pays réglementés par la téléphonie, Contoso a besoin de recréer le routage Location-Based présent dans Skype entreprise pour le déploiement de votre système téléphonique. Pour plus d’informations, reportez-vous à la rubrique [étude de cas contoso : Location-Based routage](voice-case-study-location-based-routing.md).
 
 - Appel d’urgence 
 

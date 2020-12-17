@@ -12,6 +12,7 @@ ms.collection:
 - M365-voice
 - m365initiative-voice
 - m365solution-voice
+- m365solution-scenario
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -23,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les fonctionnalités de voix sur le Cloud de Microsoft teams et les décisions de déploiement que vous allez apporter à votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
-ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
+ms.openlocfilehash: e16a2aea0d367c720cf36c8010670a34472ab43a
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49686450"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701332"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution vocale teams 
 

@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365solution-voice
+- m365solution-scenario
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Familiarisez-vous avec les offres d’appels, y compris les plans d’affichage disponibles dans votre région, l’achat & l’attribution de licences, l’obtention de numéros de téléphone et l’ajout d’adresses de secours & emplacements.
-ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 9e4e48bc2d9efcc0ff4cb1891949de4add6f559d
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788448"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701322"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -57,12 +59,12 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration teams ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Étape 4 : ajouter les adresses de secours et les emplacements d’urgence pour votre organisation
-<a name="bkmk_add_addresses"> </a> Une adresse de secours doit être associée à un numéro de téléphone. Une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d’urgence au numéro de téléphone lorsque vous récupérez les numéros de téléphone de Microsoft 365 ou Office 365, ou lorsque vous transférez des numéros de téléphone à partir de votre fournisseur de services actuel. 
+<a name="bkmk_add_addresses"></a> Une adresse de secours doit être associée à un numéro de téléphone. Une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d’urgence au numéro de téléphone lorsque vous récupérez les numéros de téléphone de Microsoft 365 ou Office 365, ou lorsque vous transférez des numéros de téléphone à partir de votre fournisseur de services actuel. 
 
 Pour plus d’informations sur les appels d’urgence et la gestion des adresses d’urgence, reportez-vous à la rubrique [gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) et [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md).
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Étape 5 : affecter une adresse de secours et un numéro de téléphone à un utilisateur
-<a name="bkmk_add_addresses"> </a> Lorsque vous configurez des forfaits d’appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur.  Pour plus d’informations, reportez-vous à la section [affectation ou modification d’une adresse de secours](assign-change-emergency-location-user.md).
+<a name="bkmk_add_addresses"></a> Lorsque vous configurez des forfaits d’appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur.  Pour plus d’informations, reportez-vous à la section [affectation ou modification d’une adresse de secours](assign-change-emergency-location-user.md).
 
 
 > [!TIP]

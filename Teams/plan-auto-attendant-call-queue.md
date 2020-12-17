@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur les standards automatiques et les files d’attente d’appels et sur leur utilisation pour permettre aux appelants de se déplacer dans un système de menus pour joindre des personnes ou des services au sein de votre organisation.
-ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
+ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031560"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49697903"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Plan pour les standards automatiques d’équipe et les files d’attente d’appels
 
@@ -49,13 +49,13 @@ Chaque standard automatique dispose d’une langue et d’un fuseau horaire spé
 
 Pour chaque standard automatique, vous pouvez configurer un opérateur. Même si vous pouvez configurer les appels d’opérateur pour qu’ils accèdent à un large éventail de destinations, la fonctionnalité opérateur est conçue pour permettre aux appelants de parler à une personne spécifique de votre organisation qui peut les aider.
 
-Les standards automatiques peuvent être configurés pour permettre aux appelants de rechercher dans l’annuaire de votre organisation, par nom ou par numéro de poste. Dans un standard automatique, vous pouvez spécifier les personnes disponibles pour la recherche dans l’annuaire en choisissant des groupes d’utilisateurs à inclure ou à exclure. (Connu sous le nom de *étendue de numérotation* )
+Les standards automatiques peuvent être configurés pour permettre aux appelants de rechercher dans l’annuaire de votre organisation, par nom ou par numéro de poste. Dans un standard automatique, vous pouvez spécifier les personnes disponibles pour la recherche dans l’annuaire en choisissant des groupes d’utilisateurs à inclure ou à exclure. (Connu sous le nom de *étendue de numérotation*)
 
 Les appelants peuvent atteindre un standard automatique par numéro de téléphone direct, s’il est configuré ou en effectuant une redirection à partir d’un autre standard automatique ou d’une file d’attente d’appels.
 
 ## <a name="call-queues"></a>Files d'attente des appels
 
-Une file d’attente d’appels est analogue à une salle d’attente dans un bâtiment physique. Les appelants sont patienter pendant que les appels sont routés vers les agents de la file d’attente dès qu’ils sont disponibles. Les files d’attente d’appels sont couramment utilisées pour les fonctions ventes et service. En revanche, il est possible d’utiliser les files d’attente d’appels dans toutes les situations où le nombre d’appels est supérieur à votre capacité interne, par exemple une réceptionniste dans une salle de disponibilité.
+Une file d’attente d’appels est analogue à une salle d’attente dans un bâtiment physique. Les appelants sont en attente pendant que les appels sont routés vers les agents dans la file d’attente. Les files d’attente d’appels sont couramment utilisées pour les fonctions ventes et service. En revanche, il est possible d’utiliser les files d’attente d’appels dans toutes les situations où le nombre d’appels est supérieur à votre capacité interne, par exemple une réceptionniste dans une salle de disponibilité.
 
 Les files d’attente d’appels permettent d’acheminer des appels en particulier dans les cas où le nombre total d’appels dans la file d’attente ou le temps d’attente dépasse les limites que vous spécifiez. Les appels peuvent être routés vers des personnes spécifiques, une boîte vocale, d’autres files d’attente d’appels ou des standards automatiques.
 
