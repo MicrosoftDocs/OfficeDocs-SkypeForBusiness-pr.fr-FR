@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625100"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712302"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -74,10 +74,11 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 ## <a name="certified-devices"></a>Appareils certifiés
 
-*Tableau mis à jour 2020 octobre*
+*Tableau mise à jour 2020 décembre*
 
 | Fabricant        | Sous                                                     | Complète      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Casque 65t évoluant                                         |10/31/2020      |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |Jabra                |Casque 80 d’évolution                                          |8/23/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |

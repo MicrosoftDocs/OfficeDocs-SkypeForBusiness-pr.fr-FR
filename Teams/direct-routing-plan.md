@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session fourni par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130635"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712322"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -159,7 +159,7 @@ Microsoft vous recommande de demander le certificat pour la SBC en générant un
   > [!NOTE]
   > La plupart des autorités de certification doivent avoir une taille de clé privée d’au moins 2048. Gardez à l’esprit ce qui suit lors de la génération du conseiller.
 
-Le certificat doit comporter le nom de domaine complet SBC en tant que nom commun (CN) dans le champ Subject.
+Le certificat doit comporter le nom de domaine complet SBC en tant que nom commun (CN) dans le champ Subject. Le certificat doit être émis directement auprès d’une autorité de certification et non d’un fournisseur intermédiaire.
 
 Par ailleurs, le routage direct prend en charge un caractère générique dans le SAN et le caractère générique doit se conformer au standard [RFC http sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Par exemple, l’utilisation \* de. contoso.com dans le San, qui correspondait à l’élément de nom de domaine complet SBC SBC.contoso.com, mais ne correspondait pas à SBC.test.contoso.com.
 

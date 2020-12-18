@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: L’administrateur peut en savoir plus sur les contrôleurs de bordure de session (SBCs) qui ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
-ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
+ms.openlocfilehash: ef74ecae93602939e0cdd902b1599ef79c5303c9
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561040"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712292"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -81,6 +81,7 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    CI-dessus netmatch-S     |     &#10004;     |           |       5,0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2,16     |     &#10004;     |           |              |     |    | 
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Lien Orchid    |     &#10004;     |           |      3,1        |     |    | 
 
 <br/>
 <br/>

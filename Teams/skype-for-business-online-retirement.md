@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578487"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712312"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -48,7 +48,7 @@ Teams est disponible dans la plupart des offres Microsoft 365 pour les entrepris
 
 Le service grand public Skype et le serveur Skype entreprise ne sont pas concernés par le retrait de Skype entreprise online.
 
-[Lisez le Forum aux questions](faq-journey.md) sur le processus de mise à niveau vers équipes et l’introduction aux fonctionnalités de teams.
+[Lisez le Forum aux questions](FAQ-journey.yml) sur le processus de mise à niveau vers équipes et l’introduction aux fonctionnalités de teams.
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>Qu’est-ce que Microsoft effectue pour aider les clients à passer à teams ?
 
