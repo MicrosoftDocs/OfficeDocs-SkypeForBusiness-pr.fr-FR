@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur les périphériques et périphériques USB, tels que les casques, les téléphones à haut-parleur, les webcams et les écrans, sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712302"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718578"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft teams
 
@@ -78,6 +78,13 @@ Si vous êtes un fabricant et que vous souhaitez rejoindre le programme de certi
 
 | Fabricant        | Sous                                                     | Complète      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Casque 75e évoluant                                         |12/16/2020      |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Jabra                |Casque 65e évoluant                                         |12/16/2020      |Skype entreprise avec la mise à niveau vers Microsoft teams      |
+|Ordinateurs                 |Moniteur C3422WE                                            |12/11/2020      |Certifiés pour Microsoft teams                           |
+|Ordinateurs                 |Moniteur C2722DE                                            |12/11/2020      |Certifiés pour Microsoft teams                           |
+|Ordinateurs                 |Moniteur C2422HE                                            |12/11/2020      |Certifiés pour Microsoft teams                           |
+|Poly                 |Synchronisation de 20 + haut-parleurs avec dongle USB poly BT600          |11/9/2020       |Certifiés pour Microsoft teams                           |
+|Poly                 |Synchroniser 20 haut-parleurs                                       |11/9/2020       |Certifiés pour Microsoft teams                           |
 |Jabra                |Casque 65t évoluant                                         |10/31/2020      |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype entreprise avec la mise à niveau vers Microsoft teams      |

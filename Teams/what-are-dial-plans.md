@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Apprenez-en davantage sur les types de plans d’appel d’appels RTC disponibles avec les équipes et en choisissant une pour votre organisation.  '
-ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9e6b9930c5106ec143563e0f69dd61ccb30d550c
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031370"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718588"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
@@ -117,6 +117,10 @@ Pour plus d’informations sur l’utilisation des expressions régulières du .
 
 Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer des règles de normalisation pour vos plans de numérotation client.
 
+> [!NOTE]
+> Les règles de normalisation avec le premier jeton comme facultatif ne sont actuellement pas prises en charge sur les appareils 3pip (par exemple, Polycom VVX 601 modèle). Si vous voulez appliquer des règles de normalisation avec le mode facultatif sur les appareils 3pip, vous devez créer deux règles de normalisation au lieu d’une seule. Par exemple, la règle ^ 0 ? (999) $ doit être remplacé par les deux règles suivantes : (999) $ (traduction : $1) et ^ 0 (999) $ (traduction : $1).
+
+
 ### <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 
 Le tableau ci-dessous illustre des exemples de règles de normalisation écrites sous la forme d'expressions régulières .NET Framework. Il s'agit uniquement d'exemples qui ne doivent pas être considérés comme une référence normative pour la création de règles de normalisation.
@@ -149,7 +153,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 > [!NOTE]
 > Les noms des règles de normalisation indiquées dans le tableau précédent n’incluent aucun espace, mais il s’agit d’une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 

@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant politique de Microsoft teams pour l’éducation pour appliquer facilement des stratégies aux étudiants et aux enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 6480eb0ea698a783bbd231bacf2d6d1c23c7b2be
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616918"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718608"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant politique de Microsoft teams pour l’éducation pour appliquer facilement des stratégies pour un environnement d’apprentissage sûr
 
@@ -86,7 +86,7 @@ Pour exécuter l’Assistant, procédez comme suit.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Capture d’écran de la page de l’Assistant pour vérifier les sélections":::
 
-5. Sélectionnez **appliquer** pour appliquer vos modifications. Cette opération risque de nécessiter quelques minutes.<br/><br/>Les définitions de stratégies globales par défaut de l’organisation sont immédiatement appliquées aux étudiants. Pour les enseignants et les membres du personnel, il peut s’écouler jusqu’à 48 heures pour que les stratégies personnalisées soient affectées à chaque membre du groupe sélectionné, en fonction de la taille du groupe. Cela se produit en arrière-plan, une fois que vous avez terminé cette étape.
+5. Sélectionnez **appliquer** pour appliquer vos modifications. Cette opération risque de nécessiter quelques minutes.<br/><br/>Les définitions de stratégies globales par défaut de l’organisation sont immédiatement appliquées aux étudiants. Pour les enseignants et les membres du personnel, il est possible que les stratégies personnalisées soient affectées à chaque membre du groupe sélectionné en fonction de la taille du groupe. Cela se produit en arrière-plan, une fois que vous avez terminé cette étape.
 6. Vous n’avez pas encore terminé votre travail. Plusieurs éléments sont à prendre en compte. Suivez ensuite les étapes décrites dans la section [que faire après avoir exécuté l’Assistant](#what-to-do-after-running-the-wizard) de cet article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Capture d’écran de la page de l’Assistant pour les étapes suivantes":::
@@ -202,32 +202,30 @@ Vous trouverez ci-dessous une liste des définitions de stratégies globales (pa
 |Zone de stratégie |Sous-zone  |Paramètre de stratégie  |Principal ou secondaire |Enseignement supérieur |
 |---------|---------|---------|---------|---------|
 |Stratégie Teams   |         |Créer des canaux privés         |Désactivé       |Activé|
-|Stratégie de réunion    |Général         |Autoriser la Conférence maintenant dans les canaux         |Désactivé      |Activé|
+|Stratégie de réunion    |Général         |Autoriser la conférence maintenant dans les canaux         |Désactivé      |Activé|
 |  |        |Autoriser le complément Outlook         |Désactivé       |Activé|
-|  |        |Autoriser la planification des réunions de canal        |Désactivé      |Activé|
-|  |        |Autoriser la planification de réunions privées       |Désactivé      |Activé|
+|  |        |Autoriser la planification des réunions pour les canaux        |Désactivé      |Activé|
+|  |        |Autoriser la planification des réunions privées       |Désactivé      |Activé|
 |  |Audio & vidéo        |Autoriser la transcription        |Activé       |Activé|
-|  |        |Autoriser l’enregistrement Cloud         |Désactivé      |Activé|
-|  |        |Mode pour le son IP       |Audio entrant et sortant activé        |Audio entrant et sortant activé|
-|  |        |Mode pour la vidéo IP         |Vidéo sortante et entrante activée     |Vidéo sortante et entrante activée|
+|  |        |Autoriser l’enregistrement dans le Cloud         |Désactivé      |Activé|
+|  |        |Mode pour l’audio sur IP       |Audio sortant et entrant activé        |Audio sortant et entrant activé|
+|  |        |Mode pour la vidéo sur IP         |Vidéo sortante et entrante activée     |Vidéo sortante et entrante activée|
 |  |       |Autoriser la vidéo sur IP         |Activé         |Activé|
 |  |       |Autoriser NDI streaming         |Désactivé         |Désactivé|
-|  |       |Taux d’échantillonnage du support (Ko)         |50 000         |50 000|
-|  |Partage de contenu       |Mode de partage d’écran         |Tout l’écran         |Tout l’écran|
-|  |       |Autoriser un participant à céder ou demander le contrôle         |Activé         |Activé|
-|  |       |Autoriser un participant externe à céder ou demander le contrôle         |Activé         |Activé|
-|  |       |Autoriser le partage PowerPoint        |Activé         |Activé|
+|  |       |Vitesse de transmission du média (Ko)         |50 000         |50 000|
+|  |Partage de contenu       |Mode de partage d’écran         |Écran entier         |Écran entier|
+|  |       |Autoriser un participant à donner ou demander le contrôle         |Activé         |Activé|
+|  |       |Autoriser un participant externe à donner ou demander le contrôle         |Activé         |Activé|
+|  |       |Autoriser le partage de PowerPoint        |Activé         |Activé|
 |  |       |Autoriser le tableau blanc         |Activé         |Activé|
 |  |       |Autoriser les notes partagées         |Activé        |Activé|
-|  |Participants & invités       |Permettre aux utilisateurs anonymes de démarrer une réunion       |Désactivé         |Activé|
+|  |Participants & invités       |Autoriser les personnes anonymes à démarrer une réunion       |Désactivé         |Activé|
 |  |       |Rôles possédant des droits de présentateur pour les réunions        |EveryoneUserOverride         |EveryoneUserOverride|
-|  |       |Admettre automatiquement des personnes        |EveryoneInCompany|EveryoneInCompany|
-|  |       |Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente        |Désactivé         |Désactivé|
+|  |       |Admettre les personnes automatiquement        |EveryoneInCompany|EveryoneInCompany|
+|  |       |Autoriser les utilisateurs entrants à éviter la salle d’attente        |Désactivé         |Désactivé|
 |  |       |Autoriser la Conférence maintenant dans les réunions privées        |Désactivé         |Activé|
 |  |       |Activer les légendes dynamiques       |Désactivé mais peut être substitué         |Désactivé mais peut être substitué|
-|  |       |Autoriser la discussion dans les réunions         |Activé         |Activé|
-|  |Mode de filtres vidéo       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
-|  |Rapport présence sur une réunion       |AllowEngagementReport         |Désactivé         |Activé|
+|  |       |Autoriser la conversation en réunion         |Activé         |Activé|
 |Stratégie d’événements en direct  |       |Autoriser la planification         |Désactivé         |Désactivé|
 |  |       |Autoriser la transcription pour les participants          |Activé       |Activé|
 |  |       |Qui peut participer aux événements en direct planifiés        |Tout le monde au sein de l’Organisation        |Tout le monde au sein de l’Organisation|
@@ -248,7 +246,6 @@ Vous trouverez ci-dessous une liste des définitions de stratégies globales (pa
 |  |       |Créer des messages vocaux         |Autorisé dans les conversations et les canaux         |Autorisé dans les conversations et les canaux|
 |  |       |Sur les appareils mobiles, afficher les canaux préférés au-dessus des discussions récentes     |Activé         |Activé|
 |  |       |Supprimer des utilisateurs d’une discussion de groupe         |Désactivé         |Activé|
-|  |       |Suggestions de réponses         |Activé         |Activé|
 |Stratégie d’autorisation d’application  |       |Applications Microsoft         |Bloquer des applications spécifiques et permettre à tous les autres > de dialoguer sur le blocage         |Autoriser toutes les applications|
 |  |       |Applications tierces         |Autoriser toutes les applications         |Autoriser toutes les applications|
 |  |       |Applications personnalisées         |Autoriser toutes les applications         |Autoriser toutes les applications|
@@ -273,32 +270,30 @@ Vous trouverez ci-dessous la liste des définitions de stratégie personnalisée
 |Zone de stratégie |Sous-zone  |Paramètre de stratégie  |Principal ou secondaire |Enseignement supérieur |
 |---------|---------|---------|---------|---------|
 |Stratégie Teams   |         |Créer des canaux privés         |Activé       |Activé|
-|Stratégie de réunion    |Général         |Autoriser la Conférence maintenant dans les canaux         |Activé      |Activé|
+|Stratégie de réunion    |Général         |Autoriser la conférence maintenant dans les canaux         |Activé      |Activé|
 |  |        |Autoriser le complément Outlook         |Activé       |Activé|
-|  |        |Autoriser la planification des réunions de canal        |Activé      |Activé|
-|  |        |Autoriser la planification de réunions privées       |Activé      |Activé|
+|  |        |Autoriser la planification des réunions pour les canaux        |Activé      |Activé|
+|  |        |Autoriser la planification des réunions privées       |Activé      |Activé|
 |  |Audio & vidéo        |Autoriser la transcription        |Activé       |Activé|
-|  |        |Autoriser l’enregistrement Cloud         |Activé      |Activé|
-|  |        |Mode pour le son IP       |Audio entrant et sortant activé        |Audio entrant et sortant activé|
-|  |        |Mode pour la vidéo IP         |Vidéo sortante et entrante activée     |Vidéo sortante et entrante activée|
+|  |        |Autoriser l’enregistrement dans le Cloud         |Activé      |Activé|
+|  |        |Mode pour l’audio sur IP       |Audio sortant et entrant activé        |Audio sortant et entrant activé|
+|  |        |Mode pour la vidéo sur IP         |Vidéo sortante et entrante activée     |Vidéo sortante et entrante activée|
 |  |       |Autoriser la vidéo sur IP         |Activé         |Activé|
 |  |       |Autoriser NDI streaming         |Désactivé         |Désactivé|
-|  |       |Taux d’échantillonnage du support (Ko)         |50 000         |50 000|
-|  |Partage de contenu       |Mode de partage d’écran         |Tout l’écran         |Tout l’écran|
-|  |       |Autoriser un participant à céder ou demander le contrôle         |Activé         |Activé|
-|  |       |Autoriser un participant externe à céder ou demander le contrôle         |Activé         |Activé|
-|  |       |Autoriser le partage PowerPoint        |Activé         |Activé|
+|  |       |Vitesse de transmission du média (Ko)         |50 000         |50 000|
+|  |Partage de contenu       |Mode de partage d’écran         |Écran entier         |Écran entier|
+|  |       |Autoriser un participant à donner ou demander le contrôle         |Activé         |Activé|
+|  |       |Autoriser un participant externe à donner ou demander le contrôle         |Activé         |Activé|
+|  |       |Autoriser le partage de PowerPoint        |Activé         |Activé|
 |  |       |Autoriser le tableau blanc         |Activé         |Activé|
 |  |       |Autoriser les notes partagées         |Activé        |Activé|
-|  |Participants & invités       |Permettre aux utilisateurs anonymes de démarrer une réunion       |Activé        |Activé|
+|  |Participants & invités       |Autoriser les personnes anonymes à démarrer une réunion       |Activé        |Activé|
 |  |       |Rôles possédant des droits de présentateur pour les réunions        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
-|  |       |Admettre automatiquement des personnes        |Organisateur : seule|Organisateur : seule|
-|  |       |Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente        |Désactivé         |Désactivé|
+|  |       |Admettre les personnes automatiquement        |Organisateur : seule|Organisateur : seule|
+|  |       |Autoriser les utilisateurs entrants à éviter la salle d’attente        |Désactivé         |Désactivé|
 |  |       |Autoriser la Conférence maintenant dans les réunions privées        |Activé         |Activé|
 |  |       |Activer les légendes dynamiques       |Désactivé mais peut être substitué         |Désactivé mais peut être substitué|
-|  |       |Autoriser la discussion dans les réunions         |Activé         |Activé|
-|  |Mode de filtres vidéo       |VideoFiltersMode         |AllFilters|AllFilters|
-|  |Rapport présence sur une réunion       |AllowEngagementReport         |Activé         |Activé|
+|  |       |Autoriser la conversation en réunion         |Activé         |Activé|
 |Stratégie d’événements en direct  |       |Autoriser la planification         |Activé         |Activé|
 |  |       |Autoriser la transcription pour les participants          |Activé       |Activé|
 |  |       |Qui peut participer aux événements en direct planifiés        |Tout le monde au sein de l’Organisation        |Tout le monde au sein de l’Organisation|
@@ -319,7 +314,6 @@ Vous trouverez ci-dessous la liste des définitions de stratégie personnalisée
 |  |       |Créer des messages vocaux         |Autorisé dans les conversations et les canaux         |Autorisé dans les conversations et les canaux|
 |  |       |Sur les appareils mobiles, afficher les canaux préférés au-dessus des discussions récentes     |Activé         |Activé|
 |  |       |Supprimer des utilisateurs d’une discussion de groupe         |Activé        |Activé|
-|  |       |Suggestions de réponses         |Activé         |Activé|
 |Stratégie d’Appel  |       |Passer des appels privés         |Activé       |Activé|
 |  |       |Transfert d’appel et sonnerie simultanée pour les membres de votre organisation         |Activé        |Activé|
 |  |       |Transfert d’appel et sonnerie simultanée sur les numéros de téléphone externes         |Activé        |Activé|
@@ -332,7 +326,7 @@ Vous trouverez ci-dessous la liste des définitions de stratégie personnalisée
 
 * * *
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Stratégies d’équipe et packages de stratégie pour l’éducation](policy-packages-edu.md)
 - [Attribution de stratégies à de grands ensembles d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

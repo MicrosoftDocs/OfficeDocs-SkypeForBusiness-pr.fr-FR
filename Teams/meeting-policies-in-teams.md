@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
-ms.translationtype: HT
+ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611778"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718628"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
 
@@ -117,9 +117,9 @@ Lorsque vous sélectionnez une stratégie existante dans la page **Stratégies d
 
 ### <a name="allow-meet-now-in-channels"></a>Autoriser la conférence maintenant dans les canaux
 
-Autoriser **Conférence maintenant** est une stratégie par utilisateur et s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion non planifiée dans un canal Teams. Si vous activez ce paramètre, les utilisateurs peuvent sélectionner le bouton **se réunir** pour démarrer une réunion non planifiée ou planifier une réunion dans le canal. La valeur par défaut est True.
+Autoriser **Conférence maintenant** est une stratégie par utilisateur et s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion non planifiée dans un canal Teams. Si vous activez ce paramètre, les utilisateurs peuvent sélectionner le bouton de **rencontre** pour démarrer une réunion non planifiée ou planifier une réunion dans le canal. La valeur par défaut est True.
 
-![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png) 
+![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
@@ -359,7 +359,7 @@ Si ce paramètre est activé pour l’utilisateur, l’option **Attribuer un con
 
 ![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
 
-Si les paramètres sont désactivés pour l’utilisateur, l’option **Attribuer un contrôle** n’est pas disponible.
+Si ce paramètre est désactivé pour l’utilisateur, l’option **donner le contrôle** n’est pas disponible.
 
 ![Capture d’écran montrant que l’option attribuer le contrôle n’est pas disponible](media/meeting-policies-give-control-not-available.png)
 
@@ -455,7 +455,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 
 ![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
 
- Les organisateurs de réunion peuvent cliquer sur **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion qu’ils planifient.
+ Les organisateurs de la réunion peuvent sélectionner les **options de réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
 
 > [!NOTE]
 > Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
@@ -469,7 +469,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**. Par défaut, ce paramètre est désactivé. Lorsque ce paramètre est désactivé, les utilisateurs des appels entrants patientent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client Teams et les admet. Lorsque ce paramètre est activé, les utilisateurs des appels entrants joignent automatiquement la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
+Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**. Par défaut, ce paramètre est désactivé. Lorsque cette option est désactivée, les utilisateurs rendez-vous attendent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client teams et les autorise. Lorsque ce paramètre est activé, les utilisateurs des appels entrants joignent automatiquement la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
 
 > [!NOTE]
 > Si un utilisateur connecté rejoint une réunion avant qu'un utilisateur de l'organisation ne la rejoigne, il sera placé dans la salle d'attente jusqu'à ce qu'un utilisateur de l'organisation rejoigne la réunion à l'aide d'un client Teams et l'admette. Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
