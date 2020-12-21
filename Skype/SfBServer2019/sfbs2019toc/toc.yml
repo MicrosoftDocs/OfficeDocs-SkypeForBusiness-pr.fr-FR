@@ -1,4 +1,4 @@
-- name: "Skype Entreprise\_Server\_2019"
+- name: Skype Entreprise Server 2019
   href: ../skype-for-business-server-2019.yml
   items:
     - name: Nouveautés
