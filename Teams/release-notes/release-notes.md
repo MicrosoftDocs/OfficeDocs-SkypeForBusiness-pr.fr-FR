@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701312"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728164"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft teams
 
 Ces notes de publication fournissent des informations sur les nouvelles fonctionnalités d’administration de Microsoft Teams.
 
-## <a name="november-25-2020"></a>25 novembre 2020
+## <a name="december-21-2020"></a>21 décembre 2020
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le composant additionnel de réunion Microsoft teams pour Google Workspace
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Tarifs et couvertures pris en charge pour les offres d’appels
 
-L’utilisation du composant additionnel réunion Microsoft teams permet aux utilisateurs du calendrier Google de programmer et de rejoindre une réunion Microsoft teams directement dans Google Workspace. Les utilisateurs pourront accéder aux fonctionnalités de réunion en équipe, notamment les conférences vidéo et audio, le partage d’écran, les discussions de la réunion, les tableaux de dessin numériques, etc. Restez connecté et organisé pour une collaboration plus approfondie au sein de votre entreprise, de votre école et de votre vie.
+Un centre de taux est le terme du secteur géographique qui définit traditionnellement les frontières pour les appels locaux, les taux de facturation et les affectations de numéros de téléphone pour le réseau téléphonique public commuté (RTC). [En savoir plus](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
 
-Pour pouvoir accéder à l’application, le composant additionnel de réunion Microsoft teams pour Google Workspace doit être activé par un administrateur d’équipes. [En savoir plus](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
+## <a name="december-18-2020"></a>18 décembre 2020
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>Stratégies des paramètres de réunion mises à jour pour les salles de branchement
+
+ Les salles de dérivation dans Teams sont utilisées pour répartir les réunions dans des salles de réunion distinctes et de plus petite taille. Ce paramètre détermine si les organisateurs de la réunion ont la possibilité de créer et de gérer les salles de dérivation dans les réunions qu’ils planifient ou commencent. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant. [En savoir plus](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms).
+
+## <a name="december-9-2020"></a>9 décembre 2020
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Conseiller en équipe avec des chemins d’apprentissage Microsoft 365
+
+Les parcours d’apprentissage de Microsoft 365 est une solution d’apprentissage à la demande que vous pouvez personnaliser pour former vos utilisateurs, et améliorer l’utilisation et l’adoption des équipes au sein de votre organisation. Utilisez les parcours d’apprentissage avec conseiller pour Teams afin de permettre à vos utilisateurs d’être rapidement opérationnels et de stimuler l’adoption.
+
+La fonctionnalité parcours d’apprentissage vous permet de créer un modèle de site SharePoint Online et de créer facilement un site de formation pour vos utilisateurs. Vous pouvez personnaliser le portail d’apprentissage sur les parcours d’apprentissage pour y inclure une formation et du contenu de support propre aux besoins de vos utilisateurs. Utilisez les playlists Teams à partir du catalogue Microsoft Online et ajoutez les vôtres. [En savoir plus](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways).
 
 ## <a name="october-28-2020"></a>28 octobre 2020
 
@@ -127,9 +139,9 @@ En tant qu’administrateur, vous pouvez contrôler si les utilisateurs peuvent 
 
 ## <a name="september-19-2020"></a>19 septembre 2020
 
-### <a name="sharing-files-in-microsoft-teams"></a>Partager des fichiers dans Microsoft teams
+### <a name="sharing-files-in-microsoft-teams"></a>Partage de fichiers dans Microsoft Teams
 
-Dans Microsoft Teams, les utilisateurs peuvent partager du contenu avec d’autres utilisateurs d’équipes au sein de leur organisation et en dehors. Le partage dans teams repose sur les paramètres configurés dans SharePoint et OneDrive, de sorte que ce que vous configurez pour SharePoint et OneDrive contrôle le partage dans teams également. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
+Dans Microsoft Teams, les utilisateurs peuvent partager du contenu avec d’autres utilisateurs Teams à l’intérieur et à l’extérieur de leur organisation. Le partage dans Microsoft Teams dépend des paramètres configurés dans SharePoint et OneDrive, de sorte que ce que vous configurez pour SharePoint et OneDrive contrôle le partage dans Teams également. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
 
 ## <a name="september-16-2020"></a>16 septembre 2020
 

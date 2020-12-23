@@ -3,18 +3,20 @@ title: Utiliser des salles de rééquipe dans teams
 author: ricardo-msft
 ms.author: riwilki
 ms.topic: article
+manager: serdars
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Les utilisateurs finaux peuvent apprendre à utiliser des salles de dérivation dans Microsoft teams
-ms.openlocfilehash: 280cd493049da3bd91e4fdd8e1995e75c4710cb9
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 820380517a7f56a8a9738e02705ba68a5b6f8048
+ms.sourcegitcommit: 99bd62ea8a11b0068231e7b8335790323912cb9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698712"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49727710"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>Utiliser des salles de coupe dans Microsoft teams
 
