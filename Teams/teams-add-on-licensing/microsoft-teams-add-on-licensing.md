@@ -1,7 +1,7 @@
 ---
 title: Licences de compléments Microsoft teams
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: En savoir plus sur les licences de compléments pour Microsoft teams ainsi que les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328263"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731142"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licences de compléments Microsoft teams
 
@@ -115,7 +115,7 @@ Voici un résumé en fonction du plan de gestion des licences.
 
   <sup>1</sup> disponible uniquement pour les organisations possédant moins de 300 utilisateurs.
 
-Pour en savoir plus, consultez la rubrique [Microsoft 365 éducation](https://www.microsoft.com/education/buy-license/microsoft365) et les [offres Office 365 éducation](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
+Pour en savoir plus, consultez la rubrique [Microsoft 365 éducation](https://www.microsoft.com/education/buy-license/microsoft365) et les [offres Office 365 éducation](https://www.microsoft.com/education/products/office).
 
 > [!NOTE]
 > Si vous devez utiliser un service téléphonique tiers, le [routage direct](../direct-routing-landing-page.md) est déployé au sein de votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
@@ -177,7 +177,7 @@ Vous trouverez ci-dessous un résumé des offres d’évaluation de la fonction 
 
   ![Options basées sur une version d’évaluation](../media/licensing-trial-offers.png)
 
- Par le biais de votre plan de base, vous n’avez pas besoin d’une offre d’évaluation pour utiliser les fonctions vocales. Vous pouvez utiliser un plan Microsoft 365 Business ou un plan d’entreprise, de secteur public, d’éducation ou d’établissement d’activités avec les offres d’évaluation pour les fonctionnalités vocales. Pour afficher les offres d’évaluation disponibles et les modules complémentaires, dans le centre d’administration 365 Microsoft **Billing**, accédez à  >  **services d’achat**de facturation, sélectionnez d' **autres catégories susceptibles de vous intéresser**, puis sélectionnez **composants**additionnels.
+ Par le biais de votre plan de base, vous n’avez pas besoin d’une offre d’évaluation pour utiliser les fonctions vocales. Vous pouvez utiliser un plan Microsoft 365 Business ou un plan d’entreprise, de secteur public, d’éducation ou d’établissement d’activités avec les offres d’évaluation pour les fonctionnalités vocales. Pour afficher les offres d’évaluation disponibles et les modules complémentaires, dans le centre d’administration 365 Microsoft , accédez à  >  **services d’achat** de facturation, sélectionnez d' **autres catégories susceptibles de vous intéresser**, puis sélectionnez **composants** additionnels.
 
   Pour chacune de ces options de voix et de conférence, des [crédits de communication](../set-up-communications-credits-for-your-organization.md) sont requis si vous disposez de numéros sans frais ou si vous avez besoin d’ajouter des minutes supplémentaires aux utilisateurs pour passer des appels RTC nationaux et internationaux.
 

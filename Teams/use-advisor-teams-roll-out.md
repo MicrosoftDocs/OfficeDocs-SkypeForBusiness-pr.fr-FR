@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilisez Advisor for Teams pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616928"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731132"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -200,7 +200,7 @@ Utilisez les ressources de votre site de parcours d’apprentissage pour intégr
 
 Pour obtenir des instructions et des ressources sur la préparation de votre support et de vos champions pour Teams, consultez [Former votre organisation](https://adoption.microsoft.com/microsoft-teams/#train-your-org) et [Créer des champions](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-En tant que contact pour vos utilisateurs pour les questions de type « Comment faire », votre support et vos champions peuvent utiliser le site des parcours d’apprentissage pour former les utilisateurs et en guise d’alternative à la création de tickets de support. Encouragez votre support et vos champions à [personnaliser votre site de parcours d’apprentissage](https://docs.microsoft.comoffice365/customlearning/custom_overview) en créant une page de formation et de support, puis [l’ajouter comme onglet à un canal](#add-your-site-to-teams) dans une équipe pour permettre aux utilisateurs d’être autonomes.
+En tant que contact pour vos utilisateurs pour les questions de type « Comment faire », votre support et vos champions peuvent utiliser le site des parcours d’apprentissage pour former les utilisateurs et en guise d’alternative à la création de tickets de support. Encouragez votre support et vos champions à [personnaliser votre site de parcours d’apprentissage](https://docs.microsoft.com/office365/customlearning/) en créant une page de formation et de support, puis [l’ajouter comme onglet à un canal](#add-your-site-to-teams) dans une équipe pour permettre aux utilisateurs d’être autonomes.
 
 ### <a name="drive-adoption"></a>Favoriser l’adoption
 

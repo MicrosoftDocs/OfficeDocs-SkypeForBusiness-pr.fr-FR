@@ -1,7 +1,7 @@
 ---
 title: Opérations pour Microsoft teams | Gestion des services | Supérieure
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085910"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731162"
 ---
 # <a name="operate-your-service"></a>Exploiter votre service
 
@@ -145,7 +145,7 @@ Ces groupes peuvent inclure les propriétaires de service, les support technique
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Surveiller des scénarios avancés
 
-Vous pouvez surveiller l’état du service et les changements à venir en tirant parti de l’API de communications de service pour accéder à l’état du service et aux modifications par programme. Utilisez cette API pour créer votre propre outil de surveillance ou connecter vos outils d’analyse existants aux communications des services Microsoft 365 ou Office 365, tout en simplifiant le contrôle de votre environnement. Pour plus d’informations, consultez [Microsoft 365 ou Office 365 pour les développeurs d’entreprise](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Vous pouvez surveiller l’état du service et les changements à venir en tirant parti de l’API de communications de service pour accéder à l’état du service et aux modifications par programme. Utilisez cette API pour créer votre propre outil de surveillance ou connecter vos outils d’analyse existants aux communications des services Microsoft 365 ou Office 365, tout en simplifiant le contrôle de votre environnement. Pour plus d’informations, consultez [Microsoft 365 ou Office 365 pour les développeurs d’entreprise](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidienne/hebdomadaire/mensuelle/selon les besoins
 
@@ -257,7 +257,7 @@ Les deux autres rapports sont spécifiques aux équipes et fournissent des infor
 
 #### <a name="required-permissions"></a>Autorisations requises
 
-Les rapports d’utilisation du centre d’administration sont accessibles aux personnes qui ont été affectées d’un rôle d' **administrateur général** ou à un rôle d’administrateur spécifique à un produit (**administrateur Exchange**, **administrateur Skype entreprise**ou **administrateur SharePoint**).
+Les rapports d’utilisation du centre d’administration sont accessibles aux personnes qui ont été affectées d’un rôle d' **administrateur général** ou à un rôle d’administrateur spécifique à un produit (**administrateur Exchange**, **administrateur Skype entreprise** ou **administrateur SharePoint**).
 
 De plus, le rôle de **lecteur de rapports** est disponible pour les utilisateurs qui ont besoin d’accéder aux rapports, mais n’effectue pas de tâches qui nécessitent des autorisations au niveau de l’administrateur. Vous attribuez ce rôle pour fournir des rapports d’utilisation à toute personne qui est une partie prenante, surveiller et conduire une adoption. Pour plus d’informations sur les différents rôles disponibles, voir [à propos des rôles d’administrateur Microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -421,7 +421,7 @@ Les pare-feu côté client peuvent influer sur la qualité des appels et même e
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Les pilotes Wi-Fi peuvent poser problème. Par exemple, un pilote peut présenter des comportements d’itinérance très agressives entre des points d’accès qui peuvent provoquer un changement de points d’accès inutiles en entraînant une mauvaise qualité d’appel. Un pilote Wi-Fi d’une qualité médiocre peut être détecté par le biais d’un examen de qualité de l’apprentissage (voir [améliorer et surveiller la qualité des appels pour les équipes](monitor-call-quality-qos.md) pour plus d’informations). Il est essentiel de mettre en œuvre un processus piloté par la qualité qui analyse les nouveaux pilotes Wi-Fi et vérifie qu’ils sont testés avant d’être déployés dans la population des utilisateurs généraux.
+Wi-Fi pilotes peuvent poser problème. Par exemple, un pilote peut présenter des comportements d’itinérance très agressives entre des points d’accès qui peuvent provoquer un changement de points d’accès inutiles en entraînant une mauvaise qualité d’appel. Il est possible que le pilote le plus performant Wi-Fi soit détecté par le biais d’un examen de qualité de l’apprentissage (voir [améliorer et surveiller la qualité des appels pour les équipes](monitor-call-quality-qos.md) pour plus d’informations). Il est essentiel de mettre en œuvre un processus piloté par la qualité qui surveille de nouvelles Wi-Fi pilotes et vérifie qu’ils sont testés avant d’être déployés dans la population d’utilisateurs généraux.
 
 ### <a name="endpoint-management"></a>Gestion des points de terminaison
 
@@ -447,7 +447,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 |---|---|---|---|
 | Exigences relatives aux points de terminaison | Assurez-vous que le point de terminaison teams continue de respecter toutes les configurations logicielles requises pour les équipes répertoriées dans la liste [obtenir des clients pour Microsoft teams](get-clients.md). | Mois | |
 | Pare-feu des points de terminaison | Conservez les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations contenues dans les [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips). Votre fournisseur tiers disposera d’instructions spécifiques pour vous permettre de gérer les exclusions. Abonnez-vous au [flux RSS](https://support.office.com/o365ip/rss) pour être informé automatiquement des modifications. | Selon vos besoins | |
-| Pilotes Wi-Fi | Testez et mettez à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de bord ([améliorer et surveiller la qualité d’appel pour teams](monitor-call-quality-qos.md)). | Selon vos besoins | |
+| Pilotes Wi-Fi | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de bord ([améliorer et surveiller la qualité d’appel pour teams](monitor-call-quality-qos.md)). | Selon vos besoins | |
 | Gestion des points de terminaison | Tenir à jour le catalogue des points de terminaison et des appareils d’interface pris en charge (comme les casques). Gestion des contrats de fournisseur, de garantie, de distribution, de remplacement et de réparation. | Mois | |
 | Résolution des problèmes de point de terminaison | Les tâches de dépannage permettent de vérifier la connectivité, de consulter la liste des problèmes connus, de collecter, d’analyser et de réaffectation de journaux au support Microsoft ou aux fournisseurs tiers. | Selon vos besoins | |
 
@@ -463,7 +463,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 
 [Vérifier l’état du service Microsoft Teams](service-health.md)
 
-[Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Contacter le support relatif aux produits d’entreprises - Aide de l’administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Contacter le support premier](https://support.microsoft.com/premier/contacts)
 

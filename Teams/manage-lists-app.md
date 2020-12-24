@@ -1,7 +1,7 @@
 ---
 title: Gérer l’application listes de votre organisation
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: anach,v-jasuk
 manager: serdars
 ms.topic: article
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 56197394d4b4edbe714b5edab62f905e1c520ede
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 8ba05b4922b25cc6294fc85f1264a44bdb031660
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790476"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731122"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application listes de votre organisation dans Microsoft teams
 
@@ -34,13 +34,13 @@ ms.locfileid: "48790476"
 
 L’application listes de Microsoft teams permet aux utilisateurs de votre organisation de suivre les informations, d’organiser le travail et de gérer les flux de travail. Les listes permettent aux utilisateurs de suivre des données telles que des problèmes, des ressources, des routines, des contacts, des stocks, des incidents, des prêts, des patients et bien plus encore en utilisant des affichages, des règles et des alertes personnalisés pour permettre à tous les membres de l’équipe de rester synchronisés.
 
-Dans Teams, les utilisateurs accèdent aux listes en tant qu’onglet dans un canal. Cliquez sur **+** pour ouvrir la Galerie d’onglets et ajouter une nouvelle instance de l’onglet application de listes à un canal pour commencer. 
+Dans Teams, les utilisateurs accèdent aux listes en tant qu’onglet dans un canal. Cliquez sur **+** pour ouvrir la Galerie d’onglets et ajouter une nouvelle instance de l’onglet application de listes à un canal pour commencer.
 
-![Capture d’écran de l’application listes dans la Galerie d’onglets](media/lists-tab.png)
+![Application listes dans la Galerie d’onglets](media/lists-tab.png)
 
 Les utilisateurs peuvent créer de nouvelles listes ou épingler des listes existantes à partir d’une même équipe ou d’un autre site SharePoint auquel ils ont accès. Les nouvelles listes peuvent être créées à partir de zéro, de modèles prédéfinis en fonction de la structure d’une liste existante ou en important des données à partir d’un classeur Excel. L’application listes est disponible dans les applications de bureau, Web et mobiles Teams.
 
-![Capture d’écran de la création d’une liste dans l’application listes](media/lists-create-list.png)
+![créer une liste dans l’application listes](media/lists-create-list.png)
 
 ## <a name="templates"></a>Modèles
 
@@ -95,8 +95,8 @@ La liste est activée par défaut pour tous les utilisateurs d’équipes de vot
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams**  >  **Manage** apps.
 2. Effectuez l’une des opérations suivantes :
 
-    - Pour désactiver les listes de votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **bloquer** .
-    - Pour activer les listes pour votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **autoriser** .
+    - Pour désactiver les listes de votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **bloquer**.
+    - Pour activer les listes pour votre organisation, recherchez l’application listes, sélectionnez-la, puis cliquez sur **autoriser**.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Activer ou désactiver des listes pour des utilisateurs spécifiques de votre organisation
 
@@ -112,11 +112,11 @@ Pour pouvoir effectuer une recherche dans le journal d’audit, vous devez d’a
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Gestion de l’alimentation, applications Power et API Graph
 
-Les listes prennent en charge l' [automate Power](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) up pour les flux de travail et les [applications Power](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) pour les formulaires de liste. Les développeurs peuvent utiliser l' [API lists](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) pour lier les données de liste sous forme de sources via Microsoft Graph.
+Les listes prennent en charge l' [automate Power](https://docs.microsoft.com/power-automate/flow-types) up pour les flux de travail et les [applications Power](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) pour les formulaires de liste. Les développeurs peuvent utiliser l' [API lists](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) pour lier les données de liste sous forme de sources via Microsoft Graph.
 
 ## <a name="give-feedback-or-report-an-issue"></a>Envoyer des commentaires ou signaler un problème
   
-Pour nous envoyer des commentaires ou signaler un problème, cliquez sur **aide** en bas de la barre de navigation gauche dans équipes, puis sélectionnez **signaler un problème** . Sélectionnez **listes** , puis entrez vos commentaires ou détails sur le problème que vous rencontrez.
+Pour nous envoyer des commentaires ou signaler un problème, cliquez sur **aide** en bas de la barre de navigation gauche dans équipes, puis sélectionnez **signaler un problème**. Sélectionnez **listes**, puis entrez vos commentaires ou détails sur le problème que vous rencontrez.
 
 ## <a name="related-topics"></a>Sujets associés
 
