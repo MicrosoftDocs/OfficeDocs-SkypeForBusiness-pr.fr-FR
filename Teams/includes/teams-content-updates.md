@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-december-21-2020"></a>Semaine du 21 décembre 2020
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 12/22/2020 | [Notes de publication de Microsoft teams](/MicrosoftTeams/release-notes/release-notes) | modifié |
+| 12/22/2020 | [Utiliser des salles de rééquipe dans teams](/MicrosoftTeams/using-breakout-rooms) | modifié |
+| 12/23/2020 | [Connecter l’application coordination des soins à l’API Azure pour FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modifié |
+| 12/23/2020 | [Gérer l’application listes de votre organisation](/MicrosoftTeams/manage-lists-app) | modifié |
+| 12/23/2020 | [Liste de contrôle d’intégration-configurer les charges de travail vocales dans le Cloud-Microsoft teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modifié |
+| 12/23/2020 | [Utiliser l’API de soumission d’applications teams pour soumettre et approuver vos applications personnalisées](/MicrosoftTeams/submit-approve-custom-apps) | modifié |
+| 12/23/2020 | [Licences de compléments Microsoft teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modifié |
+| 12/23/2020 | [Créer une application de portail intranet Teams à partir d’un site ou d’une page SharePoint Online](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modifié |
+| 12/23/2020 | [Opérations pour Microsoft Teams\| Gestion du service \| Qualité](/MicrosoftTeams/upgrade-operate-my-service) | modifié |
+| 12/23/2020 | [Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modifié |
+
+
 ## <a name="week-of-december-14-2020"></a>Semaine du 14 décembre 2020
 
 
@@ -102,48 +119,3 @@
 | 11/25/2020 | [Configurer le robot de rappel pour le routage direct](/MicrosoftTeams/direct-routing-ringback-bot) | modifié |
 | 11/25/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
 | 11/25/2020 | [Gérer les stratégies de réunion](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
-
-
-## <a name="week-of-november-16-2020"></a>Semaine du 16 novembre 2020
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 11/16/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 11/16/2020 | [Centre de contacts teams](/MicrosoftTeams/teams-contact-center) | modifié |
-| 11/16/2020 | [Utiliser OneDrive entreprise et les enregistrements SharePoint pour les réunions](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
-| 11/16/2020 | [Utiliser Power BI pour analyser des données bord pour Microsoft teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modifié |
-| 11/16/2020 | [Utilisation de bord dans le rapport Power BI pour afficher le standard automatique & rapport historique de la file d’attente des appels](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modifié |
-| 11/16/2020 | [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](/MicrosoftTeams/assign-policies) | modifié |
-| 11/16/2020 | [Créer une file d’attente d’appels dans Microsoft teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 11/16/2020 | [Microsoft 365 gouvernementale-déploiements de GCC](/MicrosoftTeams/plan-for-government-gcc) | modifié |
-| 11/16/2020 | [Que sont les événements en direct Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modifié |
-| 11/16/2020 | [Intégration de teams avec Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | modifié |
-| 11/17/2020 | [Utilisation de bord dans le rapport Power BI pour afficher le standard automatique & rapport historique de la file d’attente des appels](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modifié |
-| 11/17/2020 | [Le standard automatique & rapport historique de la file d’attente des appels](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modifié |
-| 11/17/2020 | [Forfaits d’appels pour Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modifié |
-| 11/17/2020 | [Créer une file d’attente d’appels dans Microsoft teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 11/17/2020 | [Contrôleurs de bordure de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
-| 11/17/2020 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
-| 11/17/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 11/17/2020 | [Gestion des numéros de téléphone pour le Canada](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | modifié |
-| 11/17/2020 | [Gestion des numéros de téléphone pour les États-Unis](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modifié |
-| 11/17/2020 | [Gérer l’application tâches pour votre organisation dans Microsoft teams](/MicrosoftTeams/manage-tasks-app) | modifié |
-| 11/17/2020 | [Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modifié |
-| 11/17/2020 | [Stratégies de conservation dans Microsoft Teams](/MicrosoftTeams/retention-policies) | modifié |
-| 11/17/2020 | [Extension Advanced Communications pour Microsoft teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modifié |
-| 11/17/2020 | [Rapport de présence de la réunion Microsoft teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modifié |
-| 11/17/2020 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
-| 11/17/2020 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
-| 11/17/2020 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
-| 11/17/2020 | [Que sont les événements en direct Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modifié |
-| 11/17/2020 | [Restrictions de numérotation gratuit en Égypte](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | modifié |
-| 11/18/2020 | [Disponibilité au Guatemala](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | modifié |
-| 11/18/2020 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 11/18/2020 | [Équipes pour les visites virtuelles](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modifié |
-| 11/18/2020 | [Se connecter à Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modifié |
-| 11/18/2020 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
-| 11/19/2020 | [Équipes pour les visites virtuelles](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modifié |
-| 11/19/2020 | [Utiliser OneDrive entreprise et les enregistrements SharePoint pour les réunions](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
-| 11/20/2020 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
-| 11/20/2020 | [Se connecter à Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modifié |

@@ -20,16 +20,16 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e7036a8ba15719df50d609e7b1ca499cf5edf328
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
+ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030590"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734262"
 ---
 # <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
 
-Vous pouvez modifier les informations invité à partir du centre d’administration 365 Microsoft ou du portail Azure Directory.
+Vous pouvez modifier les informations invité à partir du centre d’administration 365 Microsoft ou du portail Azure Active Directory.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Utilisateurs invités de l’administrateur 365 Microsoft
 
@@ -43,7 +43,7 @@ Vous pouvez modifier les informations invité à partir du centre d’administra
 
    ![Gérer les informations de contact ](media/guest-user-data1.png)
 
-4. Modifiez les champs de votre choix à l’exception du **nom d’affichage** dans gérer les **informations de contact** , puis sélectionnez **enregistrer les modifications**.
+4. Modifiez les champs de votre choix à l’exception du **nom d’affichage** dans gérer les **informations de contact**, puis sélectionnez **enregistrer les modifications**.
 
    ![Modifier les informations de contact de l’utilisateur invité](media/manage-guest-contact.png)
 

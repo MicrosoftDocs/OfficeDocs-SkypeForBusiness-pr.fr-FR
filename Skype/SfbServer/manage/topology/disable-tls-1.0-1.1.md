@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé : Préparez et implémentez la désactivation de TLS 1,0 et 1,1 dans vos environnements.'
-ms.openlocfilehash: 0a25060463ed3b67db8ca523171c2bc48660293d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 06ebc3f5821e8daa1c80633b25140a852f72097d
+ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42012747"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734292"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactivation de TLS 1.0/1.1 dans Skype entreprise Server 2015
 
@@ -29,7 +29,7 @@ L’objectif de cet article est de fournir les instructions nécessaires pour vo
 - [Conditions préalables et processus](#prerequisites-and-process)
 - [Scénarios de déploiement avancés](#advanced-deployment-scenarios)
 
-## <a name="background"></a>Arrière-plan
+## <a name="background"></a>Contexte
 
 Les principaux pilotes permettant de fournir TLS 1,0 et 1,1 désactivent la prise en charge de Skype entreprise Server en local sont les exigences en matière de normes de sécurité PCI (Security Card Industry) et de normes de traitement des informations fédérales. Vous trouverez plus d’informations sur les exigences PCI [ici](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Microsoft ne peut pas indiquer si votre organisation doit respecter ces exigences ou d’autres. Vous devez déterminer s’il est nécessaire de désactiver TLS 1,0 et/ou 1,1 dans vos environnements.
 
@@ -45,17 +45,17 @@ L' *étendue* fait référence aux limites de prise en charge. *Entièrement tes
 - Skype entreprise Server 2015 CU9 6.0.9319.548 (2019) ou version ultérieure sur Windows Server 2012 (avec KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) ou remplacement de mise à jour), 2012 R2 ou 2016.
 - Mise à niveau sur place de Skype entreprise Server 2015 avec CU9 6.0.9319.548 (2019) ou version ultérieure sur Windows Server 2008 R2, 2012 (avec KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) ou remplacement de mise à jour) ou 2012 R2.
 - Exchange Connectivity and Outlook Web App avec Exchange Server 2010 SP3 RU19 ou supérieur, conseils [ici](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
-- Survivable Branch Appliance (SBA) avec Skype entreprise Server 2015 CU6 HF2 ou version ultérieure (vérifiez auprès de votre fournisseur qu’il a empaqueté les mises à jour appropriée et qu’il a été mis à disposition pour votre appliance)
+- Survivable Branch Appliance (SBA) avec Skype entreprise Server 2015 CU6 HF2 ou version ultérieure (vérifiez auprès de votre fournisseur qu’il a empaqueté les mises à jour appropriées et qu’il a été mis à disposition pour votre appliance)
 - Survivable Branch Server (SBS) avec Skype entreprise Server 2015 CU6 HF2 ou version ultérieure
-- **Rôle Edge**Lync Server 2013 uniquement, cela est dû au fait que le rôle Edge n’a pas de dépendance sur Windows Fabric 1,0.
+- **Rôle Edge** Lync Server 2013 uniquement, cela est dû au fait que le rôle Edge n’a pas de dépendance sur Windows Fabric 1,0.
 
 ### <a name="fully-tested-and-supported-clients"></a>Clients entièrement testés et pris en charge
 
 - Client de bureau Lync 2013 (Skype entreprise), MSI et C2R, y compris Basic [15.0.5023.1000 ou version ultérieure](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Client de bureau Skype entreprise 2016, MSI [16.0.4678.1000 ou version ultérieure](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323), y compris Basic
 - Skype entreprise 2016 cliquez pour exécuter les mises à jour d' [avril 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) : 
-    - Mensuel et semi-annuel ciblé, 16\.0\.9126\.2152 ou supérieur
-    - Canal semi-annuel et différé, 16\.0\.8431\.2242 ou supérieur
+    - Tous les mois et Semi-Annual ciblés, 16 \. 0 \. 9126 \. 2152 ou supérieur
+    - Semi-Annual et canal différé, 16 \. 0 \. 8431 \. 2242 ou supérieur
 - Skype entreprise sur Mac 16,15 ou version ultérieure
 - Skype entreprise pour iOS et Android 6,19 ou version ultérieure
 - Microsoft teams rooms (précédemment appelé Skype Room System v2 SRS v2) 4.0.64.0 (2018 décembre) ou version ultérieure
@@ -91,11 +91,15 @@ Lync Server 2013 prend une dépendance vis-à-vis de la version 1,0 de Windows f
 
 Malheureusement, Windows Fabric 1,0 **ne prend pas en charge TLS 1,2.  Toutefois, nous allons mettre à jour Lync Server 2013 pour qu’il fonctionne avec TLS 1,2**. La prochaine mise à jour cumulative de Lync Server 2013.  Nous fournissons la prise en charge du protocole TLS 1,2 pour permettre la coexistence, la migration, la Fédération et les scénarios hybrides.
 
-Si votre organisation est requise pour désactiver TLS 1,0 et 1,1, et que vous utilisez actuellement Lync Server 2013, nous vous recommandons de commencer votre processus de planification, avec la possibilité d’effectuer une mise à niveau sur place ou une migration côte à côte (nouveaux pools, déplacer des utilisateurs) vers Skype Business Server 2015 ou version ultérieure.  Vous pouvez également accélérer la migration vers Skype entreprise online.
+Si votre organisation est requise pour désactiver TLS 1,0 et 1,1, et que vous utilisez actuellement Lync Server 2013, nous vous recommandons de commencer votre processus de planification, avec la possibilité d’effectuer une mise à niveau sur place ou une migration côte à côte (nouveaux pools, déplacer des utilisateurs) vers Skype entreprise Server 2015 ou version ultérieure.  Vous pouvez également accélérer la migration vers Skype entreprise online.
 
-#### <a name="call-quality-dashboard"></a>Tableau de bord de qualité des appels
+#### <a name="call-quality-dashboard"></a>Tableau de bord de la qualité des appels
 
 Le tableau de bord de qualité des appels sur site a une dépendance vis-à-vis du TLS 1,0 lors de la nouvelle installation (première exécution de l’installation dans vos environnements locaux).  Nous étudions actuellement ce problème et nous prévoyons de publier un correctif dans un futur proche.  Si vous envisagez d’installer CQD et que vous désactivez également TLS 1,0, nous vous recommandons d’effectuer d’abord l’installation de CQD, puis de procéder à la désactivation de TLS 1,0.
+
+#### <a name="skype-for-business-sdn-manager"></a>Gestionnaire de SDN Skype entreprise
+
+Skype entreprise SDN Manager utilisant SQL une base de données a une dépendance vis-à-vis du TLS 1,0 lors de la nouvelle installation. Si vous envisagez d’installer Skype entreprise SDN Manager à l’aide de SQL une base de données et désactivez TLS 1,0, nous vous recommandons de commencer par le gestionnaire SDN de Skype entreprise, puis de procéder à la désactivation de TLS 1,0. Si TLS 1,0 a été désactivé avant l’installation, vous devez temporairement activer TLS 1,0 à nouveau dans le serveur principal SQL Server qui sera utilisé pour héberger la base de données SQL du gestionnaire Skype entreprise SDN.
 
 #### <a name="third-party-devices"></a>Appareils tiers
 
@@ -117,7 +121,7 @@ PIC (Public IM Connectivity) vers le service de grand public Skype : nous ne pr
 
 Sauf mention contraire ci-dessus, une fois que TLS 1,0 et 1,1 sont désactivés, les clients et les appareils ne fonctionnent plus correctement, ou du tout. Cela peut signifier que vous devez suspendre et attendre des conseils mis à jour de Microsoft. Une fois que vous êtes satisfait du respect de toutes les exigences et que vous avez l’intention de traiter les lacunes, continuez.
 
-À un niveau élevé, tandis que Skype entreprise Server 2019 est prêt pour la procédure d’installation, Skype entreprise Server 2015 nécessite l’installation de CU9, l’application de mises à jour préalables à .NET et SQL, le déploiement de clés de Registre prérequises, et enfin d’une autre les mises à jour de la configuration du système d’exploitation (par exemple, la désactivation de TLS 1,0 et 1,1 via importation de fichier de registre). Il est très important que vous terminiez l’installation de tous les éléments prérequis, notamment Skype entreprise Server 2015 CU6 HF2, avant de désactiver TLS 1,0 et 1,1 sur n’importe quel serveur de votre environnement. Chaque serveur Skype entreprise Server, y compris le rôle Edge et les serveurs SQL-ends, nécessite les mises à jour. Assurez-vous également que tous les clients pris en charge (dans l’étendue) ont été mis à jour avec les versions minimales requises. N’oubliez pas de mettre à jour les stations de travail de gestion.
+À un niveau élevé, tandis que Skype entreprise Server 2019 est prêt pour la procédure d’installation, Skype entreprise Server 2015 nécessite l’installation de CU9, l’application de mises à jour préalables à .NET et SQL, le déploiement de clés de Registre prérequises, et enfin une série de mises à jour de configuration de système d’exploitation (par exemple, la désactivation de TLS 1,0 et 1,1 via Il est très important que vous terminiez l’installation de tous les éléments prérequis, notamment Skype entreprise Server 2015 CU6 HF2, avant de désactiver TLS 1,0 et 1,1 sur n’importe quel serveur de votre environnement. Chaque serveur Skype entreprise Server, y compris le rôle Edge et les serveurs SQL-ends, nécessite les mises à jour. Assurez-vous également que tous les clients pris en charge (dans l’étendue) ont été mis à jour avec les versions minimales requises. N’oubliez pas de mettre à jour les stations de travail de gestion.
 
 Nous souhaitons suivre l’ordre habituel des opérations « Inside Out » pour la mise à niveau des serveurs Skype entreprise. Traitez les pools de directeurs, la conversation permanente et les pools couplés comme vous le feriez normalement. L’ordre et les méthodes de mise à niveau sont présentés [ici](topology.md) et [ici](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
@@ -155,39 +159,39 @@ Une mise à jour étendue de la dépendance est requise avant de commencer à d�
     2. Mettez à jour les bases de données conformément aux procédures documentées. Pour Skype entreprise Server 2015, voir KB [3061064](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
     3. Validez les fonctionnalités du produit dans le déploiement avant de passer à d’autres modifications.
 2. Téléchargez .NET 4,7 Offline Installer. 
-    1. Aide[https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
+    1. Aide [https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
     2. Assurez-vous que les services Skype entreprise Server 2015 sont arrêtés sur le serveur frontal.
-    3. Aide[https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
-    4. Ex (Standard Edition) :```Stop-CsWindowsService```
-    5. Ex (Enterprise Edition) :```Invoke-CsComputerFailover```
+    3. Aide [https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    4. Ex (Standard Edition) : ```Stop-CsWindowsService```
+    5. Ex (Enterprise Edition) : ```Invoke-CsComputerFailover```
     6. Exécutez le package d’installation.
     7. Redémarrez le serveur.
 3. Mettez à jour SQL Express 2014 sur tous les serveurs. 
-    1. Aide[https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
+    1. Aide [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
     2. Télécharger SQL 2014 SP2 
-        - Aide[https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/download/details.aspx?id=53168)
+        - Aide [https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/download/details.aspx?id=53168)
     3. Copiez le support d’installation dans un dossier sur le serveur (par exemple : C:\ 01_2014SqlSp2)
     4. Vérifier que les services Skype entreprise Server 2015 sont arrêtés sur le serveur frontal 
-        - Ex (Standard Edition) :```Stop-CsWindowsService```
-        - Ex (Enterprise Edition) :```Invoke-CsComputerFailover```
+        - Ex (Standard Edition) : ```Stop-CsWindowsService```
+        - Ex (Enterprise Edition) : ```Invoke-CsComputerFailover```
     5. Ouvrir une invite de commandes d’administration et mettre à niveau tous les composants et les instances installés 
-        - Exemple : C:\ 01_2014SqlSp2 \SQLServer2014SP2-KB3171021-x64-ENU.exe/QS/IAcceptSQLServerLicenseTerms/action = patch/AllInstances
+        - Exemple : C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe/QS/IAcceptSQLServerLicenseTerms/action = patch/AllInstances
 4. Mettre à jour SQL Native Client. 
-    1. Référence : [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server).
-    2. Télécharger à partir de[https://www.microsoft.com/download/details.aspx?id=50402](https://www.microsoft.com/download/details.aspx?id=50402)
+    1. Référence : [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server) .
+    2. Télécharger à partir de [https://www.microsoft.com/download/details.aspx?id=50402](https://www.microsoft.com/download/details.aspx?id=50402)
     3. Vérifiez que les services Skype entreprise Server 2015 sont arrêtés sur le serveur frontal. 
-        - Ex (Standard Edition) :```Stop-CsWindowsServices```
-        - Ex (Enterprise Edition) :```Invoke-CsComputerFailover```
+        - Ex (Standard Edition) : ```Stop-CsWindowsServices```
+        - Ex (Enterprise Edition) : ```Invoke-CsComputerFailover```
     4. Arrêter l’exécution des instances SQL installées 
-        - Ex```Get-Service 'MSSQL$RTCLOCAL' | Stop-Service```
-        - Ex```Get-Service 'MSSQL$LYNCLOCAL' | Stop-Service```
-        - Ex (Standard Edition uniquement) :```Get-Service 'MSSQL$RTC' | Stop-Service```
+        - Ex ```Get-Service 'MSSQL$RTCLOCAL' | Stop-Service```
+        - Ex ```Get-Service 'MSSQL$LYNCLOCAL' | Stop-Service```
+        - Ex (Standard Edition uniquement) : ```Get-Service 'MSSQL$RTC' | Stop-Service```
     5. Installez la mise à jour.
 5. Mettez à jour le pilote ODBC 11 pour SQL Server afin d’inclure la prise en charge de TLS 1,2 (KB [3135244](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)).
     1. Téléchargez [le pilote ODBC 11 pour SQL Server-Windows](https://www.microsoft.com/download/confirmation.aspx?id=36434).
     2. Assurez-vous que les services Skype entreprise Server 2015 sont arrêtés sur le serveur frontal.
-        - Exemple (Standard Edition) :```Stop-CsWindowsService```
-        - Exemple (Enterprise Edition) :```Invoke-CsComputerFailover```
+        - Exemple (Standard Edition) : ```Stop-CsWindowsService```
+        - Exemple (Enterprise Edition) : ```Invoke-CsComputerFailover```
     3. Installez la mise à jour.
 6. Déployer des clés de Registre prérequises.
 
@@ -237,7 +241,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Pour les serveurs SQL back-end des pools Enterprise Edition, les conditions préalables et la désactivation TLS doivent être traitées comme les mises à jour SQL ou OS ; reportez-vous à :[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Pour les serveurs SQL back-end des pools Enterprise Edition, les conditions préalables et la désactivation TLS doivent être traitées comme les mises à jour SQL ou OS ; reportez-vous à : [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
 
 Bien que l’application prérequise et la procédure de désactivation TLS puissent être combinées, nous vous recommandons vivement d’appliquer toutes les conditions préalables avant de désactiver TLS 1,0 et 1,1 au niveau du système d’exploitation. L’approche recommandée consiste à préparer l’environnement en déployant tous les éléments prérequis, en validant que toutes les charges de travail fonctionnent correctement et comme prévu, puis en poursuivant la désactivation de TLS 1.0/1.1 ultérieurement.
 
@@ -452,7 +456,7 @@ Demandez à votre équipe de sécurité d’effectuer un nouvel audit du trafic 
 Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS aux services Web à partir de Skype entreprise Server 2015 après que TLS 1,0 et TLS 1,1 ont été désactivés.
 
 1. Lancez Internet Explorer.
-2. Sélectionnez **Outils** > **Internet options**.
+2. Sélectionnez **Outils**  >  **Internet options**.
 3. Sélectionnez l’onglet **avancé** .
 4. Sous **paramètres**, faites défiler vers le bas.
 5. Vérifiez que TLS 1,0, TLS 1,1 et TLS 1,2 sont activés.
@@ -464,7 +468,7 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 
 ## <a name="advanced-deployment-scenarios"></a>Scénarios de déploiement avancés
 
-Étant donné que certaines conditions préalables de dépendance sont requises pour prendre en charge TLS 1,2 dans Skype entreprise ser 2015, l’installation à partir de médias RTM échouera sur tous les systèmes où TLS 1,0 et 1,1 ont été désactivés.
+Étant donné que certains éléments prérequis de dépendance sont requis pour prendre en charge TLS 1,2 dans Skype entreprise Server 2015, l’installation à partir de médias RTM échouera sur tous les systèmes où TLS 1,0 et 1,1 ont été désactivés.
 
 **Le déploiement de nouveaux serveurs Standard Edition ou pools Enterprise Edition une fois les protocoles TLS 1,0 et 1,1 ont été désactivés dans votre environnement.**
 
@@ -472,14 +476,14 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 
 **Option 2 :** Pré-installer des instances SQL locales (RTCLOCAL et LYNCLOCAL)
 
-1. Téléchargez et copiez SQL Express 2014 SP2 (SQLEXPR_x64. exe) dans le dossier local sur FE. Supposons que le chemin d’accès au dossier <SQL_FOLDER_PATH>.
+1. Téléchargez et copiez SQL Express 2014 SP2 (SQLEXPR_x64.exe) dans le dossier local sur FE. Supposons que le chemin d’accès au dossier <SQL_FOLDER_PATH>.
 2. Lancez PowerShell ou l’invite de commandes et accédez à <SQL_FOLDER_PATH>.
-3. Créez l’instance SQL RTCLOCAL en exécutant la commande ci-dessous. Patientez jusqu’à ce que SQLEXPR_x64. exe se termine avant de procéder comme suit :
+3. Créez l’instance SQL RTCLOCAL en exécutant la commande ci-dessous. Patientez jusqu’à ce qu' SQLEXPR_x64.exe se termine avant de poursuivre :
 
-    SQLEXPR_x64. exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE/ACTION = install/FEATURES = SQLEngine, Tools/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin\Administrators"/BROWSERSVCSTARTUPTYPE = "Automatic"/AGTSVCACCOUNT = "NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = AUTOi
-1. Créez l’instance SQL LYNCLOCAL en exécutant la commande ci-dessous. Patientez jusqu’à ce que SQLEXPR_x64. exe se termine avant de passer à l’étape suivante :
+    SQLEXPR_x64.exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE/ACTION = install/FEATURES = SQLEngine, Tools/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin\Administrators"/BROWSERSVCSTARTUPTYPE = "Automatic"/AGTSVCACCOUNT = "NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = AUTOi
+1. Créez l’instance SQL LYNCLOCAL en exécutant la commande ci-dessous. Patientez jusqu’à ce qu' SQLEXPR_x64.exe se termine avant de passer à l’étape suivante :
 
-    SQLEXPR_x64. exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE/ACTION = install/FEATURES = SQLEngine, Tools/INSTANCENAME = LYNCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin\Administrators"/BROWSERSVCSTARTUPTYPE = "Automatic"/AGTSVCACCOUNT = "NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = Automatic
+    SQLEXPR_x64.exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE/ACTION = install/FEATURES = SQLEngine, Tools/INSTANCENAME = LYNCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin\Administrators"/BROWSERSVCSTARTUPTYPE = "Automatic"/AGTSVCACCOUNT = "NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = Automatic
 1. Exécutez le programme d’installation de Skype entreprise Server 2015 RTM.
 2. Suivez les étapes restantes de la section conditions préalables ci-dessus.
 
@@ -488,32 +492,32 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 1. [Installer les composants requis pour Skype entreprise Server](../../deploy/install/install-prerequisites.md)  
 2. Installez .NET 4,7 : 
       - **Remarque :** Nous avons introduit pour la première fois la prise en charge de .NET 4,7 dans Skype entreprise Server 2015 CU5 (6.0.9319.281). Par conséquent, dans les étapes suivantes, nous allons mettre à jour les composants principaux avant l’installation principale.
-      - Téléchargement : https://www.microsoft.com/download/details.aspx?id=55167. 
+      - Téléchargement : https://www.microsoft.com/download/details.aspx?id=55167 . 
       - Référence : [logiciels devant être installés avant un déploiement de Skype entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. Copier les fichiers/dossiers ISO : 
-    - Une fois Skype entreprise Server 2015 ISO attaché, ouvrez le répertoire racine du lecteur auquel il est attaché en tant que (par exemple :\) D : dans l’Explorateur de fichiers.
+    - Une fois Skype entreprise Server 2015 ISO attaché, ouvrez le répertoire racine du lecteur auquel il est attaché en tant que (par exemple : D : \) dans l’Explorateur de fichiers.
     - Copiez tous les dossiers et les fichiers dans un dossier sur un disque local (par exemple : C:\SkypeForBusiness2015ISO).
     - **Remarque :** Avant d’installer les composants, certains fichiers devront être mis à jour pour prendre en charge TLS 1,2.
 4. Remplacez les packages MSI/EXE : 
     - Remplacez les packages MSI et EXE existants dans le dossier/Setup/amd64/du support d’installation sur l’ordinateur local.
-    - SQL 2014 SP2 Express :https://www.microsoft.com/download/details.aspx?id=53167 
+    - SQL 2014 SP2 Express : https://www.microsoft.com/download/details.aspx?id=53167 
         - Renommez-le en SQLEXPR_x64 sur l’ordinateur local et remplacez le fichier existant dans le dossier Setup/amd64/du support d’installation.
-    - SQL Native Client :https://www.microsoft.com/download/details.aspx?id=50402 
-        - **Remarque :** Renommez-le, si nécessaire, sqlncli. msi, puis remplacez le fichier existant qui existe dans le dossier Setup/amd64/du support d’installation.
-    - Objets de gestion SQL :https://www.microsoft.com/download/details.aspx?id=53164 
-        - **Remarque :** Le Feature Pack aura un grand nombre d’éléments qui peuvent être téléchargés. Sélectionnez cette option pour télécharger SharedManagementObjects. msi uniquement.
+    - SQL Native Client : https://www.microsoft.com/download/details.aspx?id=50402 
+        - **Remarque :** Renommez-le si nécessaire pour sqlncli.msi, puis remplacez le fichier existant qui existe dans le dossier Setup/amd64/du support d’installation.
+    - Objets de gestion SQL : https://www.microsoft.com/download/details.aspx?id=53164 
+        - **Remarque :** Le Feature Pack aura un grand nombre d’éléments qui peuvent être téléchargés. Sélectionnez cette option pour télécharger SharedManagementObjects.msi uniquement.
         - **Remarque :** Remplacez le fichier existant qui existe dans le dossier Setup/amd64/du support d’installation.
-    - Types CLR SQL :https://www.microsoft.com/download/details.aspx?id=53164 
-        - **Remarque :** Le Feature Pack aura un grand nombre d’éléments qui peuvent être téléchargés. Sélectionnez pour télécharger CQLSysClrTypes. msi uniquement
+    - Types CLR SQL : https://www.microsoft.com/download/details.aspx?id=53164 
+        - **Remarque :** Le Feature Pack aura un grand nombre d’éléments qui peuvent être téléchargés. Sélectionnez pour télécharger uniquement les CQLSysClrTypes.msi
         - **Remarque**: remplacez le fichier existant qui existe dans le dossier Setup/amd64/du support d’installation.
 5. Installer les composants principaux : 
-    - Exécutez setup. exe à partir du dossier Setup/amd64/du support d’installation. Suivez les instructions pour installer les composants principaux
+    - Exécutez Setup.exe à partir du dossier Setup/amd64/du support d’installation. Suivez les instructions pour installer les composants principaux
     - Fermez les composants principaux.
 6. Mettre à jour les composants principaux : 
     - Téléchargez le programme d’installation de la mise à jour de Skype entreprise.
     - Exécutez le programme d’installation pour mettre à jour les composants principaux et installer les compteurs de performance.
     - **Remarque :** À partir de la version d’CU6HF2, la fonctionnalité de mise à jour automatique est actuellement uniquement installée sur CU6. Par conséquent, l’utilitaire de mise à jour doit être exécuté séparément pour mettre à jour les composants principaux vers 6.0.9319.516.
-    - Aidehttps://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
+    - Aide https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. Installer les outils d’administration (facultatif) : 
     - Cette opération installe le client natif Microsoft SQL Server 2012, les objets de gestion SQL Server 2014 (x64) et les types CLR du système Microsoft pour SQL Server 2014 (x64) à l’aide des fichiers mis à jour. De plus, le générateur de topologies Skype entreprise Server 2015 et le panneau de configuration sont disponibles sur l’ordinateur local.
 8. Installer le magasin de configurations local (étape 1) : 
@@ -522,11 +526,11 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
      ![Boîte de dialogue installer le magasin de configurations local](../../media/local-configuration-store.png)
      - Examinez les résultats et assurez-vous que l’état de la tâche est terminé. Consultez le fichier journal résultant en cliquant sur **afficher le journal**.
      ![L’état de la tâche indique terminé](../../media/local-configuration-task-completed.png)
-     - Cliquez sur**Terminer**.
+     - Cliquez sur **Terminer**.
 9. Configurez ou supprimez les composants Skype entreprise Server (étape 2) :
     - Ouvrez l’Assistant Déploiement, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**, puis cliquez sur **exécuter** à l’étape 2 : configurer ou supprimer des composants Skype entreprise Server
     - Cliquez sur **suivant** dans la boîte de dialogue Configurer les composants de Skype entreprise Server.
     ![fenêtre Configurer les composants de Skype entreprise Server](../../media/set-up-skype-for-business-server-components-window.png)
     - Examinez le journal à l’aide du journal d’affichage et vérifiez que l’installation s’est effectuée sans problèmes. 
-    - Cliquez sur**Terminer**.
+    - Cliquez sur **Terminer**.
 10. Poursuivez l’installation et la configuration supplémentaires, si nécessaire (vous pouvez reprendre les procédures d’installation normales à ce stade).
