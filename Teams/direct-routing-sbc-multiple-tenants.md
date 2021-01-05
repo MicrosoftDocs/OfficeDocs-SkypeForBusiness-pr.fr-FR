@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients pour les partenaires Microsoft et/ou les opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655521"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750584"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -87,13 +87,13 @@ Le diagramme suivant récapitule les exigences relatives aux domaines de base, s
 
 ![Diagramme présentant les exigences relatives aux domaines et en-tête de contact](media/direct-routing-1-sbc-requirements.png)
 
-L’SBC nécessite un certificat pour authentifier les connexions. Pour le scénario d’hébergement SBC, l’opérateur doit demander un certificat avec le SAN * \* .base_domain (par exemple, \* . Customers.adatum.biz)*. Ce certificat peut être utilisé pour authentifier les connexions à plusieurs clients desservis à partir d’un SBC unique.
+L’SBC nécessite un certificat pour authentifier les connexions. Pour le scénario d’hébergement SBC, l’opérateur doit demander un certificat avec le SAN *\* .base_domain (par exemple, \* . Customers.adatum.biz)*. Ce certificat peut être utilisé pour authentifier les connexions à plusieurs clients desservis à partir d’un SBC unique.
 
 
 Le tableau suivant illustre une configuration.
 
 
-|Nouveau nom de domaine |Tapez|Enregistrement  |Certificat SAN pour SBC  |Domaine par défaut du client dans l’exemple  |Nom de domaine complet que SBC doit présenter dans l’en-tête de contact lors de l’envoi d’appels aux utilisateurs|
+|Nouveau nom de domaine |Type|Enregistrement  |Certificat SAN pour SBC  |Domaine par défaut du client dans l’exemple  |Nom de domaine complet que SBC doit présenter dans l’en-tête de contact lors de l’envoi d’appels aux utilisateurs|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    Assiette     |     Client du transporteur  |    \*. customers.adatum.biz  |   adatum.biz      |NA, il s’agit d’un client de service, sans utilisateurs. |
 |sbc1.customers.adatum.biz|    Sous-domaine  |    Dans un client client  |    \*. customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -120,7 +120,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Ajouter un domaine de base au client et le vérifier
 
-1. Dans le centre d’administration Microsoft 365, accédez à **configuration**des  >  **domaines**  >  **Ajouter un domaine**.
+1. Dans le centre d’administration Microsoft 365, accédez à **configuration** des  >  **domaines**  >  **Ajouter un domaine**.
 2. Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *Customers.adatum.biz*.
 
     ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
@@ -160,7 +160,7 @@ Pour valider le rôle dont vous disposez, connectez-vous au centre d’administr
 Pour plus d’informations sur les rôles d’administrateur et comment attribuer un rôle dans Microsoft 365 ou Office 365, voir [à propos des rôles d’administrateur](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Ajouter un sous-domaine au locataire du client et le vérifier
-1. Dans le centre d’administration Microsoft 365, accédez à **configuration**des  >  **domaines**  >  **Ajouter un domaine**.
+1. Dans le centre d’administration Microsoft 365, accédez à **configuration** des  >  **domaines**  >  **Ajouter un domaine**.
 2. Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du sous-domaine de ce client. Dans l’exemple ci-dessous, le sous-domaine est sbc1.customers.adatum.biz.
 
     ![Capture d’écran de la page Ajouter un domaine](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -196,6 +196,9 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 11. Assurez-vous que le paramètre statut est **terminé**. 
     
     ![Capture d’écran de la page indiquant l’état du programme d’installation terminé](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> L’URL de base et le sous-domaine du client individuel doivent se trouver sur le même client pour vous permettre d’ajouter un Trunk de _routage direct_ .
 
 ### <a name="activate-the-subdomain-name"></a>Activer le nom de sous-domaine
 
@@ -215,7 +218,7 @@ Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes 
  
 - **Gestion des frais d’administration**. Par exemple, si vous déchargez ou déchargez un SBC, vous modifiez des paramètres, par exemple, en activant ou en désactivant la dérivation multimédia. Le changement de port nécessite la modification des paramètres de plusieurs clients (en exécutant Set-CSOnlinePSTNGateway), mais il est en fait le même SBC. 
 
--  **Traitement**de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
+-  **Traitement** de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
  
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
 
@@ -264,4 +267,3 @@ Pour configurer le basculement dans un environnement multi-locataire, vous devez
 [Planifier le routage direct](direct-routing-plan.md)
 
 [Configurer le routage direct](direct-routing-configure.md)
-

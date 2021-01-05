@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques pour Microsoft Teams.
-ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
+ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49530582"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49751796"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un standard automatique
 
@@ -107,9 +107,9 @@ Si vous affectez des clés de numérotation aux destinations, nous vous recomman
 
 Si vous n’avez pas affecté de touches de numérotation, sélectionnez une option pour la recherche dans l' **Annuaire**.
 
-**Composer par nom** : Si vous activez cette option, les appelants peuvent prononcer le nom de l’utilisateur ou le taper sur le clavier du téléphone. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
+**Composer par nom** : Si vous activez cette option, les appelants peuvent prononcer le nom de l’utilisateur ou le taper sur le clavier du téléphone. Les utilisateurs en ligne ou les utilisateurs hébergés sur site utilisant Skype entreprise Server sont éligibles et peuvent être identifiés avec la numérotation par nom. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
 
-**Composer par poste** : Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en composant leur numéro de poste. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la **numérotation par poste**. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
+**Composer par poste** : Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en composant leur numéro de poste. Les utilisateurs en ligne ou les utilisateurs hébergés sur site utilisant Skype entreprise Server sont éligibles et peuvent être identifiés par **numéro de** téléphone. (Vous pouvez définir qui est et qui n’est pas inclus dans le répertoire de la page de [portée de numérotation](#dial-scope) ).
 
 Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste doivent avoir une extension spécifiée dans le cadre de l’un des attributs de téléphone suivants définis dans Active Directory ou Azure Active Directory (voir [Ajouter des utilisateurs individuellement ou en bloc](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) pour plus d’informations).
 
@@ -119,8 +119,15 @@ Les utilisateurs que vous souhaitez rendre disponibles pour composer par poste d
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur est : *+ \<phone number> ext = \<extension>* ou *+ \<phone number> ; x \<extension>*.
-Par exemple : Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678 ; ext = 5678".
+Le format requis pour entrer une extension dans le champ numéro de téléphone de l’utilisateur est le suivant :
+
+- *+\<phone number>; ext =\<extension>*
+- *+\<phone number>x.x.x.\<extension>*
+- *x.x.x.\<extension>*
+
+- Exemple 1 : Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678 ; ext = 5678"
+- Exemple 2 : Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678x5678"
+- Exemple 3 : Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "x5678"
 
 Vous pouvez définir l’extension dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou dans le [Centre d’administration Azure Active Directory](https://aad.portal.azure.com). Il faut parfois jusqu’à 12 heures pour que les modifications soient disponibles aux standards automatiques et aux files d’attente d’appels.
 
@@ -175,7 +182,7 @@ Lorsque vous avez ajouté tous vos jours fériés, cliquez sur **suivant**.
 
 ![Capture d’écran des options d’inclusion et d’exclusion de l’étendue de numérotation](media/auto-attendant-dial-scope.png)
 
-L' *étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire quand un appelant utilise la numérotation par nom ou par numéro de poste par extension. La valeur par défaut de **tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne disposant d’une licence de système téléphonique ou hébergés en local à l’aide de Skype entreprise Server.
+L' *étendue de numérotation* définit les utilisateurs disponibles dans l’annuaire quand un appelant utilise la numérotation par nom ou par numéro de poste par extension. La valeur par défaut de **tous les utilisateurs en ligne** inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés en local à l’aide de Skype entreprise Server.
 
 Vous pouvez inclure ou exclure des utilisateurs spécifiques en sélectionnant **groupe d’utilisateurs personnalisé** sous **inclure** ou **exclure** et en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité. Par exemple, vous souhaiterez peut-être exclure les dirigeants de votre organisation du répertoire de numérotation. (Si l’utilisateur figure dans les deux listes, il est exclu de l’annuaire.)
 
