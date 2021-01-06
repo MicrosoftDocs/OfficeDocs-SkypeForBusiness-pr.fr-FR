@@ -1,7 +1,7 @@
 ---
 title: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,17 +18,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: af9981b1f3cd95d80a72a9e4fa536835d662382d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ff18a0645f81d1892e246ee7432d58a1c728f3ad
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581085"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757779"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 
 > [!Tip]
-> Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint et OneDrive entreprise : [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
+> Visionnez la session suivante pour découvrir comment Microsoft Teams interagit avec Azure Active Directory (AAD), les groupes Microsoft 365, Exchange, SharePoint and OneDrive Entreprise : [Fondements de Microsoft Teams](https://aka.ms/teams-foundations)
 
 Dans Microsoft Teams, chaque équipe dispose d’un site d’équipe dans SharePoint Online et chaque canal standard d’une équipe obtient un dossier au sein de la bibliothèque de documents du site d’équipe par défaut. Les fichiers partagés au sein d’une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et les options de sécurité des fichiers définies dans SharePoint sont automatiquement reflétées dans Teams. Pour constater l’incidence de la modification d’une adresse de site dans SharePoint, voir [modifier une adresse de site](https://docs.microsoft.com/sharepoint/change-site-address).
 
@@ -37,7 +37,7 @@ Dans Microsoft Teams, chaque équipe dispose d’un site d’équipe dans ShareP
 
 Les fichiers de conversation privée sont stockés dans le dossier OneDrive entreprise de l’expéditeur, et les autorisations sont automatiquement accordées à tous les participants dans le cadre du processus de partage de fichiers.
 
-Si les utilisateurs ne sont pas assignés et activés pour les licences SharePoint Online, ils n’ont pas de stockage OneDrive entreprise dans Microsoft 365 ou Office 365. Le partage de fichiers continue de fonctionner dans les canaux standard, mais les utilisateurs ne peuvent pas partager des fichiers dans les conversations sans espace de stockage OneDrive entreprise dans Microsoft 365 ou Office 365.
+Si des licences SharePoint Online ne sont pas affectées et activées pour les utilisateurs, ceux-ci ne disposent pas d'un stockage OneDrive Entreprise dans Microsoft 365 ou Office 365. Le partage de fichiers continue de fonctionner dans les canaux standard, mais les utilisateurs ne peuvent pas partager des fichiers dans les conversations sans espace de stockage OneDrive entreprise dans Microsoft 365 ou Office 365.
 
 En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées. 
 
@@ -73,7 +73,7 @@ L’onglet **fichiers** de teams ressemble étroitement à la vue documents Shar
 
 - Voir d’autres options dans le menu **nouveau** fichier.
 - Synchroniser des fichiers sur leur disque local.
-- Dans le **menu tous les documents** , passez du mode liste **au mode** **vignettes** . **List**
+- Dans le **menu tous les documents** , passez du mode liste **au mode** **vignettes** . 
 - Identifiez les fichiers qui nécessitent d’être attentifs ou qui ont des logiciels malveillants.
 - Déterminez immédiatement s’il s’agit d’un fichier en lecture seule ou extrait.
 - Extraire et archiver des fichiers.

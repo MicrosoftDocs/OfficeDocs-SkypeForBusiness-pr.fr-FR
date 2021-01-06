@@ -1,8 +1,8 @@
 ---
 title: Amélioration des groupes Microsoft 365 existants
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582301"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757689"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Utiliser Microsoft teams pour améliorer les groupes Microsoft 365
 =======================================================
 
 Les utilisateurs de Microsoft teams peuvent améliorer un groupe Microsoft 365 existant avec la fonctionnalité Teams. Lorsque vous examinez l’amélioration d’un groupe Microsoft 365 public, les utilisateurs peuvent le faire si le nombre de membres est inférieur ou égal à 5 000.
 
-Pour ce faire, les utilisateurs doivent suivre le processus de création d’une nouvelle équipe à partir du client Microsoft Teams. Sélectionnez **créer à partir d'**  >  un**groupe Microsoft 365**, puis choisissez le groupe que vous voulez améliorer avec Teams. Les membres existants du groupe seront ajoutés automatiquement en tant que membres à l’équipe.
+Pour ce faire, les utilisateurs doivent suivre le processus de création d’une nouvelle équipe à partir du client Microsoft Teams. Sélectionnez **créer à partir d'**  >  un **groupe Microsoft 365**, puis choisissez le groupe que vous voulez améliorer avec Teams. Les membres existants du groupe seront ajoutés automatiquement en tant que membres à l’équipe.
 
 > [!IMPORTANT]
 > Seuls les propriétaires de groupe Microsoft 365 ont l’autorisation d’améliorer un groupe existant avec Teams, et ce groupe doit contenir moins de 5 000 utilisateurs. Les équipes qui ont déjà été améliorées ne s’afficheront pas dans la liste.

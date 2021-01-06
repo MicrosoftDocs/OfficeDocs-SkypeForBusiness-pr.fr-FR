@@ -16,17 +16,17 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
+ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650827"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49761092"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
 
-Il existe trois types de fichiers journaux générés par le client et qui peuvent être utilisés pour le dépannage de Microsoft Teams.
+Il existe trois types de fichiers journaux créés automatiquement par le client, qui peuvent être utilisés pour aider à résoudre les problèmes liés à Microsoft teams :
 
 -   Journaux de débogage
 
@@ -34,9 +34,12 @@ Il existe trois types de fichiers journaux générés par le client et qui peuve
 
 -   Journaux du bureau
 
-Lors de la création d'une demande de support auprès du Support Microsoft, l'ingénieur de support sollicitera les journaux de débogage. Préparer ces journaux avant de créer la demande de support permet à Microsoft de résoudre rapidement le problème. Les journaux des médias ou du bureau sont requis uniquement sur demande de Microsoft.
+Lors de la création d’une demande de support auprès du support technique Microsoft, l’ingénieur du support technique doit avoir les journaux de débogage. Le fait de disposer des journaux de débogage avant de créer une demande de support permet à Microsoft de commencer rapidement à résoudre le problème. Les journaux de **médias** ou de **Bureau** ne sont obligatoires que si vous en êtes invité par Microsoft.
 
-Le tableau suivant présente les différents clients et les journaux associés. Les fichiers journaux sont stockés dans des emplacements spécifiques au client et au système d'exploitation.
+> [!NOTE]
+> Dans cet article, le terme **journaux de débogage** fait référence aux journaux utilisés pour la résolution des problèmes. Toutefois, les fichiers générés pour ces journaux contiennent le terme journaux de **diagnostic** dans leur nom.  
+
+Le tableau suivant présente les différents clients et leurs journaux associés. Les fichiers journaux sont stockés dans des emplacements spécifiques au client et au système d’exploitation.
 
 
 |Client |Debug|Bureau|Media|
@@ -53,17 +56,17 @@ Pour obtenir la liste complète des systèmes d’exploitation et navigateurs pr
 <a name="debug-logs"></a>Journaux de débogage
 ---------------------------
 
-Il s’agit des journaux les plus courants. Ils sont requis pour tous les cas de support Microsoft. Les journaux de débogage sont générés par les clients de bureau Windows et Mac, ainsi que par les clients reposant sur un navigateur. Il s’agit de fichiers texte qui sont lus de bas en haut. Ils peuvent être lus à l’aide de n’importe quel éditeur de texte. En outre, des journaux sont créés lors de la connexion au client.
+Il s’agit des journaux les plus courants. Ils sont requis pour tous les cas de support Microsoft. Les journaux de débogage sont générés par les clients de bureau Windows et Mac, ainsi que par les clients basés sur un navigateur. Les journaux sont basés sur du texte et sont lus du haut vers le bas. Ils peuvent être lus à l’aide d’un éditeur de texte et de nouveaux journaux lors de la connexion au client.
 
 Les journaux de débogage contiennent les flux de données suivants :
 
 -   Connexion
 
--   Demandes de connexion à des services de niveau intermédiaire
+-   Demandes de connexion aux services de couche intermédiaire
 
 -   Appel/conversation
 
-Les journaux de débogage sont générés à l'aide des méthodes propres aux systèmes d'exploitation suivantes :
+Les journaux de débogage sont générés à l’aide des méthodes spécifiques au système d’exploitation suivantes :
 
 -   Windows :
 
@@ -77,7 +80,7 @@ Les journaux de débogage sont générés à l'aide des méthodes propres aux sy
 
       Raccourci clavier : Ctrl + Alt + Maj + 1
 
-Les journaux de débogage sont automatiquement téléchargés dans les dossiers suivants.
+Les journaux de débogage sont automatiquement téléchargés dans les dossiers suivants :
 
 -   Windows : %userprofile%\\Téléchargements
 
@@ -92,9 +95,9 @@ Les journaux de débogage sont automatiquement téléchargés dans les dossiers 
 
 Les journaux multimédias contiennent des données de diagnostic sur l’audio, la vidéo et le partage d’écran dans les réunions Teams. Ils sont requis pour les cas de support liés aux problèmes liés aux appels.
 
-La journalisation multimédia est désactivée par défaut. Pour consigner les données de diagnostic pour les réunions d’équipes, les utilisateurs doivent activer l’option dans le client Teams. Accédez à **paramètres**  >  **généraux**, activez la case à cocher **activer la journalisation des diagnostics de réunion (nécessite le redémarrage de l’équipe**), puis redémarrez teams et reproduisez le problème. 
+La journalisation multimédia est désactivée par défaut. Pour consigner les données de diagnostic pour les réunions d’équipes, les utilisateurs doivent activer l’option dans le client Teams. Accédez à **paramètres**  >  **généraux**, activez la case à cocher **activer la journalisation des diagnostics de réunion (nécessite le redémarrage d’équipes**), redémarrez Teams, puis reproduisez le problème. 
 
-Le tableau suivant présente les emplacements du journal multimédia. Lorsque vous envoyez les fichiers journaux au support Microsoft, vérifiez l’horodatage des fichiers journaux pour vous assurer que les journaux dépassent la plage de temps pendant laquelle vous avez reproduire le problème.
+Le tableau suivant présente les emplacements du journal multimédia. Lorsque vous envoyez les fichiers journaux au support Microsoft, veuillez vérifier l’horodatage des fichiers journaux pour vous assurer que les journaux dépassent la période pendant laquelle vous reproduisez le problème.
 
 |Client |Lieu |
 |---------|---------|
@@ -119,19 +122,19 @@ Vous trouverez ci-dessous la liste des fichiers journaux générés ainsi que le
 <a name="desktop-logs"></a>Journaux du bureau
 ---------------------
 
-Les journaux du bureau, également appelés journaux de programme d'amorçage, contiennent des données d'événements survenant entre le client de bureau et le navigateur. À l'instar des journaux des médias, ces journaux sont requis uniquement sur demande de Microsoft. Il s'agit de journaux texte qui peuvent être affichés à l'aide d'un éditeur de texte et lus de haut en bas.
+Les journaux de bureau, également appelés journaux de programme d’amorçage, contiennent les données de journalisation qui se produisent entre le client de bureau et le navigateur. Comme les journaux multimédias, ces journaux sont uniquement nécessaires si Microsoft est demandé. Les journaux sont basés sur du texte et peuvent être lus à l’aide d’un éditeur de texte dans un format de haut en bas.
 
 Windows :
 
-1.  Cliquez avec le bouton droit sur l’icône **Microsoft teams** dans votre barre d’état système, sélectionnez **obtenir les journaux**
+ - Cliquez avec le bouton droit sur l’icône **Microsoft teams** dans votre barre d’état système, puis sélectionnez **obtenir les journaux**.
 
 Mac OsX :
 
-1.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
+ - Dans le menu déroulant **aide** , sélectionnez **obtenir les journaux** .
 
 *
 
-1.  Cliquez sur l’icône **Microsoft teams** dans votre barre d’état système, puis sélectionnez **obtenir les journaux**
+ - Cliquez sur l’icône **Microsoft teams** dans votre barre d’état système, puis sélectionnez **obtenir les journaux**.
 
 |Client |Lieu |
 |---------|---------|
