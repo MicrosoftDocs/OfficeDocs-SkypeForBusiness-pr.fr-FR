@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées envoyées à l’aide de l’API de soumission d’applications teams dans Microsoft Teams.
-ms.openlocfilehash: 5b6c8512943527a82b3477579e535bcc151331c0
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731092"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776885"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée soumise par le biais de l’API de soumission d’applications teams
 
@@ -47,7 +47,7 @@ La plateforme de développement Microsoft teams permet aux développeurs d’int
 
 ### <a name="submit-the-app"></a>Envoi de l’application
 
-Lorsque l’application est prête à être utilisée en production, le développeur peut soumettre l’application à l’aide de l’API de soumission d’application Teams, qui peut être appelée à partir de l' <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">API de Graph</a>, d’un environnement de développement intégré (IDE) tel que le code Visual Studio ou d’une plateforme telle que les applications Power et les agents de la gestion des applications virtuelles. Pour cela, l’application est disponible dans la page <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gérer les applications</a> du centre d’administration Microsoft Teams, où vous, l’administrateur, pouvez la consulter et l’approuver.
+Lorsque l’application est prête à être utilisée en production, le développeur peut soumettre l’application à l’aide de l’API de soumission d’application Teams, qui peut être appelée à partir de l' <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">API de Graph</a>, d’un environnement de développement intégré (IDE) tel que le code Visual Studio ou d’une plateforme telle que les applications Power et les agents de la gestion des applications virtuelles. Pour cela, l’application est disponible dans la page <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gérer les applications</a> du centre d’administration Microsoft Teams, où vous, l’administrateur, pouvez la consulter et l’approuver.
 
 L’API de soumission d’application Teams, <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">conçue sur Microsoft Graph</a>, permet à votre organisation de se développer sur la plateforme de votre choix et d’automatiser le processus de soumission à approbation des applications personnalisées sur Teams.
 
@@ -149,7 +149,7 @@ Dans la plupart des cas, une fois que vous avez publié une mise à jour de l’
 
 ![option de mise à niveau pour une application](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Publier une application personnalisée en chargeant un package d’application](upload-custom-apps.md)
 - [Gérer vos applications dans le centre d’administration Microsoft teams](manage-apps.md)
