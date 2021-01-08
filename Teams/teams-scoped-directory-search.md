@@ -12,51 +12,51 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser la recherche dans l’annuaire d’étendues de Microsoft teams pour fournir des vues personnalisées de l’annuaire.
+description: Découvrez comment utiliser la recherche dans l’annuaire dans l’étendue de Microsoft Teams pour fournir des affichages personnalisés de l’annuaire.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4152a2ac9ee50372dbc0fdb423d0d85c3026433
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e4f478bba8c396f0f20b95f69f56c2ded556224d
+ms.sourcegitcommit: 2300595db7779da7a127ae9ee16e474452df02d3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584073"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49779928"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
-La fonction de recherche dans l’arborescence de Microsoft teams permet aux organisations de créer des frontières virtuelles qui contrôlent la façon dont les utilisateurs peuvent trouver et communiquer avec d’autres utilisateurs de leur organisation. 
+La recherche dans l’annuaire dans l’étendue de Microsoft Teams permet aux organisations de créer des limites virtuelles qui contrôlent la façon dont les utilisateurs peuvent trouver et communiquer avec d’autres utilisateurs de leur organisation. 
 
-Microsoft teams permet aux organisations d’offrir des vues personnalisées de l’annuaire à leurs utilisateurs. Microsoft teams utilise des [stratégies de barrage des informations](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour lancer une discussion ou ajouter des membres à une équipe) seront définis dans l’étendue conformément aux stratégies configurées. Les utilisateurs ne seront pas en mesure de rechercher ou de découvrir les équipes lorsque la recherche avec l’étendue est en vigueur. 
+Microsoft Teams permet aux organisations de fournir des affichages personnalisés de l’annuaire à leurs utilisateurs. Microsoft Teams utilise la [barrière de l’information](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour démarrer une conversation ou pour ajouter des membres à une équipe) seront étendues en fonction des stratégies configurées. Les utilisateurs ne pourront pas rechercher ou découvrir des équipes lorsque la recherche étendue est en vigueur. 
 
 > [!NOTE]
-> Dans les environnements Exchange hybrides, cette fonctionnalité fonctionne uniquement avec les boîtes aux lettres Exchange Online, et non avec les boîtes aux lettres locales.
+> Dans les environnements Exchange hybrides, cette fonctionnalité fonctionne uniquement avec les boîtes aux lettres Exchange Online, et non avec les boîtes aux lettres locaux.
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>Quand utiliser les recherches dans l’annuaire avec une application ?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Quand devez-vous utiliser des recherches dans l’annuaire dans l’étendue ?
 
-Les scénarios qui s’offrent à vous pour les recherches dans l’annuaire sont similaires aux scénarios de stratégie de carnet d’adresses. Par exemple, vous pouvez utiliser la recherche dans l’annuaire avec l’étendue dans les situations suivantes :
+Les scénarios qui viennent s’en tirer profit sont similaires aux scénarios de stratégie de carnet d’adresses. Par exemple, vous pouvez utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
 
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
  
-Pour plus d’informations sur l’utilisation des stratégies de carnet d’adresses, voir [stratégies de protection des informations dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
+Pour découvrir comment utiliser les stratégies du carnet d’adresses, lisez la barrière des [informations dans Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
 
 > [!IMPORTANT]
-> Les politiques du carnet d’adresses fournissent uniquement une séparation virtuelle des utilisateurs du point de vue du répertoire. Les utilisateurs peuvent toujours lancer des communications avec d’autres personnes en leur fournissant des adresses de messagerie complètes. Il est également important de noter que toutes les données utilisateur qui ont déjà été mises en cache avant d’appliquer les stratégies de carnet d’adresses nouvelles ou mises à jour restent disponibles pour les utilisateurs pendant 30 jours maximum.
+> Les stratégies de carnet d’adresses offrent une séparation virtuelle des utilisateurs du point de vue de l’annuaire. Il est également important de noter que toutes les données des utilisateurs qui avaient déjà été mises en cache avant l’application de stratégies de carnet d’adresses nouvelles ou mises à jour resteront disponibles aux utilisateurs pendant 30 jours.
 
-## <a name="turn-on-scoped-directory-search"></a>Activez la recherche dans l’annuaire avec étendue
+## <a name="turn-on-scoped-directory-search"></a>Activer la recherche dans l’annuaire étendue
 
-1. Utiliser des stratégies de cloisonnement des informations pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, consultez [définir des stratégies de barrière des informations](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
+1. Utilisez des stratégies de barrière des informations pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, voir [Définir les stratégies de barrière de l’information.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)
 
-2. Dans le centre d’administration de Microsoft Teams, sélectionnez Paramètres d’équipe **des paramètres à l’échelle de l’organisation**  >  **Teams settings**.
+2. Dans le Centre d’administration Microsoft Teams, sélectionnez **les paramètres** Teams à l’échelle  >  **de l’organisation.**
 
-3. Sous **recherche**, en regard de la **zone Rechercher dans l’annuaire dans teams à l’aide d’une stratégie de carnet d’adresses Exchange (ABP)**, activez le bouton **bascule.**
+3. Sous **Recherche,** en face de la recherche dans l’annuaire Scope dans Teams à l’aide d’une stratégie de carnet d’adresses **Exchange (ABP),** activer le **basculement.**
 
-    ![Recherche dans l’annuaire dans l’étendue dans le centre d’administration Microsoft teams](media/teams-scoped-directory-search-image1.png)
+    ![Recherche dans l’annuaire étendue dans le Centre d’administration Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]
-> La réplication de cette modification peut prendre quelques heures.
+> La réplique de cette modification peut prendre quelques heures.
