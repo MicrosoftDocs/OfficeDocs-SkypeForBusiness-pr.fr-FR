@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682403"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757759"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -91,12 +91,12 @@ Nous vous recommandons de créer un canal pour les fabricants et présentateurs 
 | Visibilité des participants | Production Teams | Production appareil ou application externe |
 |------------------------------|-----------------|----------------------|
 |Public (utilisateurs anonymes)      |  Oui            |  Non                  |
-|Utilisateurs invités                   |  Oui            |  Non                  |
+|Utilisateurs invités                   |  Oui <sup>1</sup>            |  Non                  |
 |Tout membre d’une entreprise ayant un accès externe (fédération)  |  Oui <sup>1</sup>|  Non                  |
 |Tous les membres de l’entreprise           |  Oui            |  Oui                 |
 |Des groupes / personnes spécifiques      |  Oui            |  Oui                 |
 
-<sup>1</sup> Il est possible d’inviter des participants avec accès externe (fédération) uniquement via Personnes & Groupe <br>
+<sup>1</sup> peuvent uniquement être invités via des contacts et groupe <br>
 
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct Teams et Diffusion de réunion Skype
 
