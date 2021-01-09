@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: siunies
 description: Cet article présente les limites, spécifications et autres exigences qui s’appliquent à Microsoft Teams.
 localization_priority: Priority
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682353"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776845"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -69,16 +69,18 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 
 |Fonctionnalité  | Limite maximale  |
 |---------|---------|
-|Nombre de personnes dans une conversation privée<sup>1</sup>  | 250 |
+|Nombre de personnes dans une conversation privée<sup>1</sup>  | 250<sup>2</sup> |
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
-|Nombre de pièces jointes<sup>2</sup>  |10     |
-|Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
+|Nombre de pièces jointes<sup>3</sup>  |10     |
+|Taille de la conversation | Environ 28 Ko par billet<sup>4</sup> |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
+<sup>2</sup> Uniquement 200 membres à la fois peuvent être ajoutés à une conversation de groupe. [Si vous souhaitez plus d’informations, consultez cet article](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions et les réactions.
+<sup>3</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
+
+<sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
 ### <a name="emailing-a-channel"></a>Envoi d’un message électronique à un canal
 
@@ -127,7 +129,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 350 |
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300 |
 |Nombre de personnes dans un appel vidéo ou audio démarré à partir de l’onglet conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
@@ -169,7 +171,7 @@ Pour plus d’informations sur les événements en direct et une comparaison des
 >- 50 événements à la fois peuvent être hébergés chez un client
 >- Durée de l'événement : 16 heures par diffusion
 >
-> En outre, des événements en direct réunissant jusqu'à 100 000 participants peuvent être planifiés grâce au programme d'assistance de Microsoft 365. L’équipe évalue chaque demande et travaille avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Présence dans Outlook
 
