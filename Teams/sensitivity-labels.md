@@ -1,7 +1,7 @@
 ---
-title: Étiquettes de confidentialité de Microsoft teams
-author: lanachin
-ms.author: v-lanac
+title: Étiquettes de sensibilité pour Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: abgupta
 ms.topic: article
@@ -17,110 +17,111 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment définir et utiliser des étiquettes de sensibilité dans Microsoft Teams.
-ms.openlocfilehash: 21d70bf48448ccef5555078e4aba65bb10d5d6a2
-ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
+ms.openlocfilehash: d021954a32cc2d93fb7b17726720396e66b4fd39
+ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48476719"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49795772"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de confidentialité de Microsoft teams
+# <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de sensibilité pour Microsoft Teams
 
-Les [étiquettes de sensibilité](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permettent aux administrateurs d’équipes de réguler l’accès au contenu d’organisation sensible créé lors de la collaboration au sein d’équipes. Vous pouvez définir des étiquettes de sensibilité et leurs politiques associées dans le [Centre de sécurité & conformité](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center). Celles-ci s’appliquent automatiquement aux équipes au sein de votre organisation.  
+[Les étiquettes de sensibilité](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permettent aux administrateurs Teams de réguler l’accès au contenu d’organisation sensible créé lors de la collaboration au sein d’équipes. Vous pouvez définir des étiquettes de confidentialité et les stratégies associées dans [le Centre de conformité.](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center) Ces étiquettes et stratégies sont automatiquement appliquées aux équipes de votre organisation.  
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Quelle est la différence entre les étiquettes de sensibilité et les étiquettes de classification d’équipe ?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Quelle est la différence entre les étiquettes de sensibilité et les étiquettes de classification Teams ?
 
-Les étiquettes de sensibilité diffèrent des étiquettes de classification qui nécessitent que vous les créez à l’aide de PowerShell. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe, mais qui ne sont associées à aucune stratégie réelle. Vous utilisez des étiquettes de classification en tant que métadonnées pour appliquer manuellement des stratégies par le biais d’outils et de scripts internes.
+Les étiquettes de sensibilité sont différentes des étiquettes de classification. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui ne sont associées à aucune stratégie réelle. Les étiquettes de classification sont des métadonnées qui vous aideront à appliquer manuellement les stratégies au moyen d’outils et de scripts internes.
 
-En revanche, les étiquettes de sensibilité et leurs politiques sont automatiquement appliquées de bout en bout par le biais d’une combinaison de la plateforme de groupes, du centre de sécurité & de conformité et des services d’équipe. Les étiquettes de sensibilité fournissent un puissant support d’infrastructure pour la sécurisation des données sensibles de votre organisation.  
+En revanche, les étiquettes de confidentialité et leurs stratégies sont automatiquement appliquées de bout en bout via une combinaison de la plateforme Groups, du Centre de sécurité & conformité et des services Teams. Les étiquettes de sensibilité fournissent une prise en charge puissante de l’infrastructure pour sécuriser les données sensibles de votre organisation.  
 
-Pour migrer vos groupes existants de l’utilisation d’étiquettes de classification à l’aide d’étiquettes de sensibilité, utilisez les instructions dans les [étiquettes classification et confidentialité d’Azure Active Directory pour les groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
-## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Créer, gérer et publier des étiquettes de confidentialité pour teams
+Pour migrer vos groupes existants de l’utilisation d’étiquettes de classification à l’utilisation d’étiquettes de sensibilité, utilisez les instructions dans la classification et les étiquettes de sensibilité Azure Active Directory pour les groupes [Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels)
 
-Pour plus d’informations sur l’activation, la création et la publication d’étiquettes de confidentialité pour les équipes, voir [étiquettes de classification et de sensibilité dans Azure Active Directory pour les groupes Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Créer, gérer et publier des étiquettes de sensibilité pour Teams
+
+Pour savoir comment activer, créer et publier des étiquettes de sensibilité pour Teams, voir Utiliser des étiquettes de sensibilité pour protéger le contenu dans Microsoft Teams, des groupes [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)et des sites SharePoint.
 
 >[!IMPORTANT]
->La création, la mise à jour et la suppression d’étiquettes de sensibilité nécessitent un séquençage rigoureux avec des étiquettes de publication aux utilisateurs. Tout écart dans la séquence peut entraîner des erreurs de création d’équipe persistantes pour tous les utilisateurs. Par conséquent, il est essentiel de procéder comme suit pour <a href="#createpublishlabels">créer et publier des étiquettes</a>, <a href="#modifydeletelabels">modifier et supprimer des étiquettes publiées</a>et <a href="#manageerrors">gérer les erreurs de création d’équipe</a>.
+>La création, la mise à jour et la suppression d’étiquettes de sensibilité nécessitent une planification minutieuse des étiquettes de publication auprès des utilisateurs. Tout écart de la séquence peut entraîner des erreurs permanentes de création d’équipe pour tous les utilisateurs. Par conséquent, il est essentiel de <a href="#createpublishlabels"></a>suivre les étapes suivantes lorsque vous créez et publiez des étiquettes, modifiez et supprimez les étiquettes publiées, <a href="#modifydeletelabels"></a>et gérez les erreurs de création <a href="#manageerrors">d’équipe.</a>
 
-**Créer et publier des étiquettes** <a name="createpublishlabels"> </a>
+**Créer et publier des étiquettes** <a name="createpublishlabels"></a>
 
-Lors de la création et de la publication d’une étiquette dans le centre de sécurité & conformité, 10 minutes peuvent être nécessaires pour que l’étiquette s’affiche dans l’interface de création d’équipes. Procédez comme suit pour publier l’étiquette de tous les utilisateurs du client :
+Lorsqu’une étiquette est créée et publiée dans le Centre de conformité, jusqu’à 10 minutes peuvent être avant d’être visibles dans l’interface de création d’équipes. Pour publier l’étiquette pour tous les utilisateurs du client, utilisez les étapes suivantes :
 1. Créez l’étiquette et publiez-la pour quelques comptes d’utilisateurs sélectionnés dans le client.
-2. Une fois l’étiquette publiée, attendez 10 minutes.
-3. Après 10 minutes, essayez de créer une équipe avec l’étiquette à l’aide de l’un des comptes d’utilisateurs qui ont accès à l’étiquette.
-4. Si l’équipe a été créée à l’étape 3, continuez et publiez l’étiquette pour les utilisateurs restants dans le client.
+2. Une fois l’étiquette publiée, patientez 10 minutes.
+3. Après 10 minutes, essayez de créer une équipe avec l’étiquette à l’aide de l’un des comptes d’utilisateur qui ont accès à l’étiquette.
+4. Si l’équipe a été créée à l’étape 3, publiez l’étiquette pour les autres utilisateurs du client.
 
-**Modification et suppression d’étiquettes publiées** <a name="modifydeletelabels"> </a>
+**Modifier et supprimer les étiquettes publiées** <a name="modifydeletelabels"></a>
 
-La suppression ou la modification de l’étiquette alors qu’elle est associée aux stratégies de confidentialité peut entraîner des échecs de création d’équipe sur le client. Par conséquent, avant de supprimer ou de modifier une étiquette, vous devez d’abord dissocier l’étiquette de ses stratégies associées. Procédez comme suit  
-pour supprimer ou modifier une étiquette :
-1. Supprimez l’étiquette de toutes les stratégies utilisant l’étiquette. Vous pouvez également supprimer les stratégies eux-mêmes.
-2. Lorsque l’étiquette est supprimée des stratégies ou que les stratégies lui-même sont supprimées, attendez 10 minutes avant de continuer.
+La suppression ou la modification de l’étiquette associée à des stratégies de confidentialité peut entraîner des échecs de création d’équipe dans le client. Par conséquent, avant de supprimer ou de modifier une étiquette, vous devez d’abord dissocier l’étiquette des stratégies associées. Utilisez les étapes suivantes  
+pour supprimer ou modifier une étiquette :
+1. Supprimez l’étiquette de toutes les stratégies qui l’utilisent. Vous pouvez également supprimer les stratégies elles-mêmes.
+2. Lorsque l’étiquette est supprimée des stratégies ou des stratégies elles-mêmes, attendez 10 minutes avant de poursuivre.
 3. Après 10 minutes, lancez l’interface de création d’équipe et assurez-vous que l’étiquette n’est plus visible pour les utilisateurs du client.
-4. Vous pouvez maintenant supprimer ou modifier l’étiquette en toute sécurité.
+4. Vous pouvez désormais supprimer ou modifier l’étiquette en toute sécurité.
 
-**Gérer les erreurs** <a name="manageerrors"> </a> de création d’équipe
+**Gérer les erreurs de création d’équipe** <a name="manageerrors"></a>
 
-Si la création d’une équipe commence à échouer à tout moment pendant la préversion publique, deux options s’offrent à vous :
- - Assurez-vous que les étiquettes de sensibilité ne sont pas obligatoires pour les utilisateurs lors de la création d’une équipe.
- - Désactivez les étiquettes de sensibilité en utilisant les scripts de l’option [activer cet aperçu](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview).
+Si la création d’équipe commence à échouer à tout moment pendant la prévisualisation publique, vous avez deux options :
+ - Assurez-vous que les étiquettes de sensibilité ne sont pas obligatoires pour les utilisateurs lors de la création de l’équipe.
+ - Désactiver les étiquettes de sensibilité à l’aide des scripts [dans Activer cette prévisualisation.](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)
 
-Notez que le paramètre EnableMIPLabels doit être défini sur false comme suit :
+Notez que le paramètre EnableMIPLabels doit être réglé sur false comme suit :
 
 ```console
 $setting["EnableMIPLabels"] = "False"
 ```
 
-## <a name="using-sensitivity-labels-with-teams"></a>Utilisation d’étiquettes de sensibilité avec teams
+## <a name="using-sensitivity-labels-with-teams"></a>Utilisation d’étiquettes de sensibilité avec Teams
 
-Voici quelques exemples illustrant comment utiliser les étiquettes de sensibilité avec les équipes au sein de votre organisation.
+Voici quelques exemples d’utilisation d’étiquettes de sensibilité avec Teams dans votre organisation.
 
-### <a name="privacy-setting-of-teams"></a>Paramètre de confidentialité de teams
+### <a name="privacy-setting-of-teams"></a>Paramètre de confidentialité des équipes
 
-Vous pouvez créer une étiquette de critère de diffusion qui, lorsqu’elle est appliquée au cours de la création d’une équipe, permet aux utilisateurs de créer des équipes ayant un paramètre de confidentialité (privée ou privée) spécifique.
+Vous pouvez créer une étiquette de confidentialité qui, lorsqu’elle est appliquée lors de la création de l’équipe, permet aux utilisateurs de créer des équipes avec un paramètre de confidentialité spécifique (public ou privé).
 
-Par exemple, vous créez une étiquette nommée « confidentiel » dans le centre de sécurité & conformité et vous configurez des équipes de sorte que toutes les équipes créées avec cette étiquette doivent être une équipe privée. Lorsqu’un utilisateur crée une nouvelle équipe et sélectionne l’étiquette **confidentiel** , la seule option de confidentialité disponible pour l’utilisateur est **privée**. D’autres options de protection de la vie privée, telles que le public et l’organisation, sont désactivées pour l’utilisateur.
+Par exemple, vous créez une étiquette nommée « Confidentiel » dans le Centre de conformité & de sécurité et vous configurez Teams de telle sorte que toute équipe créée avec cette étiquette soit une équipe privée. Lorsqu’un utilisateur crée une équipe  et sélectionne l’étiquette Confidentiel, la seule option de confidentialité disponible pour l’utilisateur est **Privé.** D’autres options de confidentialité, telles que Publique et À l’échelle de l’organisation, sont désactivées pour l’utilisateur.
 
-![Capture d’écran d’une étiquette de confidentialité confidentiel](media/sensitivity-labels-confidential-example.png)
+![Capture d’écran de l’étiquette confidentiel](media/sensitivity-labels-confidential-example.png)
 
-De même, si l’utilisateur sélectionne **général** lors de la création d’une équipe, il peut uniquement créer des équipes publiques ou à l’échelle de l’organisation.
+De même, si l’utilisateur sélectionne Général lorsqu’il crée une équipe, il peut uniquement créer des équipes publiques ou à l’échelle de l’organisation. 
 
-![Capture d’écran d’une étiquette de critère de diffusion générale](media/sensitivity-labels-general-example.png)
+![Capture d’écran de l’étiquette de sensibilité Général](media/sensitivity-labels-general-example.png)
 
-Lors de la création de l’équipe, l’étiquette de sensibilité est visible dans le coin supérieur droit de la page canaux de l’équipe.
+Lorsque l’équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe.
 
-![Capture d’écran d’une étiquette de critère de diffusion dans un canal d’équipe](media/sensitivity-labels-channel.png)
+![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe](media/sensitivity-labels-channel.png)
 
-Le propriétaire d’une équipe peut changer l’étiquette de diffusion et le paramètre de confidentialité de l’équipe à tout moment en accédant à l’équipe et en cliquant sur **modifier l’équipe**.
+Un propriétaire d’équipe peut modifier l’étiquette de confidentialité et le paramètre de confidentialité de l’équipe à tout moment en se rendre à l’équipe, puis en cliquant sur **Modifier l’équipe.**
 
-![Capture d’écran d’une étiquette de critère de diffusion dans un canal d’équipe](media/sensitivity-labels-edit-team.png)
+![Capture d’écran de l’étiquette de sensibilité dans les propriétés de l’équipe](media/sensitivity-labels-edit-team.png)
 
 ### <a name="guest-access-to-teams"></a>Accès invité aux équipes
 
-Vous pouvez spécifier si une équipe créée avec une étiquette spécifique autorise l’accès invité. Les équipes créées avec une étiquette qui ne permet pas l’accès invité ne sont accessibles qu’aux utilisateurs de votre organisation. Les personnes externes à votre organisation ne peuvent pas être ajoutées à l’équipe.
+Vous pouvez spécifier si une équipe créée avec une étiquette spécifique autorise l’accès invité. Les équipes créées avec une étiquette qui n’autorise pas l’accès invité sont uniquement disponibles pour les utilisateurs de votre organisation. Des personnes extérieures à votre organisation ne peuvent pas être ajoutées à l’équipe.
 
-### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Étiquettes de sensibilité dans le centre d’administration Microsoft teams
+### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Étiquettes de sensibilité dans le Centre d’administration Microsoft Teams
 
-Vous pouvez définir des étiquettes de sensibilité lors de la création ou de la modification d’une équipe dans le centre d’administration Microsoft Teams. Les étiquettes de sensibilité sont également visibles dans les propriétés d’équipe et dans la colonne **classification** de la page gérer les équipes du centre d’administration Microsoft Teams.
+Vous pouvez définir des étiquettes de sensibilité lorsque vous créez ou modifiez une équipe dans le Centre d’administration Microsoft Teams. Les étiquettes de sensibilité sont également visibles dans les propriétés des équipes et dans la colonne **Classification** de la page Gérer les équipes du Centre d’administration Microsoft Teams.
 
 ## <a name="known-issues"></a>Problèmes connus
 
-**Prise en charge des étiquettes de sensibilité dans les API du graphique Teams, les cmdlets PowerShell et les modèles**
+**Prise en charge des étiquettes de sensibilité dans les API Teams Graph, les cmdlets PowerShell et les modèles**
 
-Pour le moment, les utilisateurs ne seront pas en mesure d’appliquer des étiquettes de sensibilité aux équipes créées directement par le biais d’API de graphique, de cmdlets PowerShell et de modèles.
+Actuellement, les utilisateurs ne peuvent pas appliquer d’étiquettes de sensibilité sur les équipes qui sont créées directement via des API Graph, des cmdlets PowerShell et des modèles.
 
-**Support pour les étiquettes de sensibilité dans teams EDU**
+**Prise en charge des étiquettes de sensibilité dans les S SKU Teams EDU**
 
-Pour l’instant, les étiquettes de sensibilité ne sont pas prises en charge pour les clients qui utilisent des références SKU éducation Teams.
+Les étiquettes de sensibilité ne sont actuellement pas pris en compte pour les clients qui utilisent les S SKUs Teams Éducation.
 
-**Modification directe des étiquettes de sensibilité sur une collection de sites SharePoint pour les canaux privés**
+**Modification des étiquettes de sensibilité directement sur une collection de sites SharePoint pour les canaux privés**
 
-Les canaux privés créés dans une équipe héritent de l’étiquette de sensibilité appliquée au sein d’une équipe. Par ailleurs, la même étiquette est appliquée automatiquement sur la collection de sites SharePoint pour le canal privé.
+Les canaux privés créés dans une équipe héritent de l’étiquette de sensibilité appliquée à une équipe. Par ailleurs, la même étiquette est appliquée automatiquement sur la collection de sites SharePoint pour le canal privé.
 
-Si un utilisateur met à jour directement l’étiquette de critère de diffusion sur une collection de sites SharePoint pour un canal privé, cette étiquette n’est pas mise à jour dans le client Teams. Dans ce scénario, les utilisateurs continuent de voir l’étiquette de sensibilité appliquée à une équipe dans l’en-tête de canal privé.
+Si un utilisateur met directement à jour l’étiquette de sensibilité sur une collection de sites SharePoint pour un canal privé, cette étiquette n’est pas mise à jour dans le client Teams. Dans ce scénario, les utilisateurs continueront à voir l’étiquette de sensibilité appliquée à une équipe dans l’en-tête d’un canal privé.
 
-**Temps de propagation des modifications appliquées aux étiquettes de sensibilité en dehors de l’application teams**
+**Temps de propagation des modifications appliquées aux étiquettes de sensibilité en dehors de l’application Teams**
 
-Les modifications apportées aux étiquettes de sensibilité en dehors de l’application teams peuvent prendre jusqu’à 24 heures pour refléter dans l’application Teams. Cela s’applique aux modifications apportées à l’activation ou à la désactivation d’étiquettes pour un client, aux modifications apportées aux noms des étiquettes, aux paramètres et aux stratégies.
+La prise en compte des modifications apportées aux étiquettes de sensibilité en dehors de l’application Teams peut prendre jusqu’à 24 heures dans l’application Teams. Cela s’applique aux modifications apportées pour activer ou désactiver les étiquettes d’un client, les modifications apportées aux noms d’étiquettes, aux paramètres et aux stratégies.
 
-De plus, les modifications apportées à une étiquette apportées directement à un groupe ou une collection de sites SharePoint qui stocke l’équipe peuvent prendre jusqu’à 24 heures avant d’être propagées à l’application Teams.
+En outre, toutes les modifications apportées à une étiquette qui ont été apportées directement à un groupe ou à une collection de sites SharePoint qui dos l’équipe peuvent prendre jusqu’à 24 heures pour être propagées à l’application Teams.
