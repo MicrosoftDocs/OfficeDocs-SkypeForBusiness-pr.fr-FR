@@ -1,8 +1,8 @@
 ---
-title: Chemin d’accès de l’Assistant déploiement au programme d’installation MSI
+title: Chemin d’accès de l’Assistant Déploiement au programme d’installation MSI
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server, reportez-vous à la rubrique installation de Skype entreprise Server.
-ms.openlocfilehash: 3b4684f4c93d591abc52090dafafe4a2cc387aae
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir Install Skype for Business Server.
+ms.openlocfilehash: c63b3bc1dde6fb156c06d84fa9f90a083bf7e052
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798381"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825084"
 ---
-# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="b7cde-103">Assistant Déploiement : chemin d’accès du fichier d’installation MSI</span><span class="sxs-lookup"><span data-stu-id="b7cde-103">Deployment Wizard: Path to MSI installer</span></span>
+# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="e13f2-103">Assistant Déploiement : chemin d’accès du fichier d’installation MSI</span><span class="sxs-lookup"><span data-stu-id="e13f2-103">Deployment Wizard: Path to MSI installer</span></span>
  
-<span data-ttu-id="b7cde-104">Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server, reportez-vous à la rubrique [installation de Skype entreprise Server](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="b7cde-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="e13f2-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir [Installer Skype Entreprise Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="e13f2-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
-title: Règle de traduction création d’un nouveau ou modification existante
+title: 'Règle de traduction : création d’une règle ou modification d’une règle existante'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3edb5c99ccc0dbbf89bef058d24c87b56502ac18
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: fb4f96cf64896aa30b027c59a747828cd6021ccb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795375"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824524"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="f68ab-104">Règle de conversion : en créer une autre ou en modifier une existante</span><span class="sxs-lookup"><span data-stu-id="f68ab-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="f56c9-104">Règle de traduction : création d’une nouvelle ou modification d’une règle existante</span><span class="sxs-lookup"><span data-stu-id="f56c9-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="f68ab-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="f68ab-105">What do you want to do?</span></span> <span data-ttu-id="f68ab-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="f68ab-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f56c9-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="f56c9-105">What do you want to do?</span></span> <span data-ttu-id="f56c9-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="f56c9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f68ab-107">Création ou modification d’une règle de traduction pour appeler une présentation dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="f68ab-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="f56c9-107">Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="f56c9-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="f68ab-108">Création ou modification manuelle d’une règle de traduction</span><span class="sxs-lookup"><span data-stu-id="f68ab-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="f56c9-108">Créer ou modifier manuellement une règle de traduction</span><span class="sxs-lookup"><span data-stu-id="f56c9-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

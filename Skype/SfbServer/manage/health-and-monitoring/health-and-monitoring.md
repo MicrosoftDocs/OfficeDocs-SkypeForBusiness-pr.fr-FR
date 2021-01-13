@@ -1,8 +1,8 @@
 ---
-title: Gestion de l’intégrité et de la surveillance dans Skype entreprise Server
+title: Gérer l’état d’santé et la surveillance dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,35 +11,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Résumé : Découvrez les tâches de surveillance et de configuration de l’intégrité dans Skype entreprise Server.'
-ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez les tâches de configuration de la surveillance et de l’état dans Skype Entreprise Server.'
+ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817934"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823514"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a><span data-ttu-id="2d09c-103">Gestion de l’intégrité et de la surveillance dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2d09c-103">Manage health and monitoring in Skype for Business Server</span></span>
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a><span data-ttu-id="04329-103">Gérer l’état d’santé et la surveillance dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="04329-103">Manage health and monitoring in Skype for Business Server</span></span>
 
-<span data-ttu-id="2d09c-104">**Résumé :** En savoir plus sur les tâches de surveillance et de configuration de l’intégrité dans Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="2d09c-104">**Summary:** Learn about monitoring and health configuration tasks in Skype for Business Server.</span></span>
+<span data-ttu-id="04329-104">**Résumé :** Découvrez les tâches de configuration d’analyse et d’état dans Skype Entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="04329-104">**Summary:** Learn about monitoring and health configuration tasks in Skype for Business Server.</span></span>
 
-<span data-ttu-id="2d09c-105">Les rubriques de cette section fournissent des procédures pas à pas pour la surveillance et les tâches de configuration de l’intégrité que vous pouvez effectuer dans le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="2d09c-105">Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Skype for Business Server Control Panel and Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="04329-105">Les rubriques de cette section fournissent des procédures pas à pas pour les tâches de configuration de la surveillance et de l’état que vous pouvez effectuer dans le Panneau de configuration de Skype Entreprise Server et Skype Entreprise Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="04329-105">Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Skype for Business Server Control Panel and Skype for Business Server Management Shell.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="2d09c-106">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="2d09c-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="04329-106">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="04329-106">In this section</span></span>
 
-- [<span data-ttu-id="2d09c-107">Enregistrement des détails des appels (CDR) dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2d09c-107">Call detail recording (CDR) in Skype for Business Server</span></span>](call-detail-recording-cdr.md)
+- [<span data-ttu-id="04329-107">Enregistrement des détails des appels (CDR) dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="04329-107">Call detail recording (CDR) in Skype for Business Server</span></span>](call-detail-recording-cdr.md)
 
-- [<span data-ttu-id="2d09c-108">Qualité de l’expertise dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2d09c-108">Quality of Experience (QoE) in Skype for Business Server</span></span>](quality-of-experience.md)
+- [<span data-ttu-id="04329-108">Qualité de l’expérience (QoE) dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="04329-108">Quality of Experience (QoE) in Skype for Business Server</span></span>](quality-of-experience.md)
 
-- [<span data-ttu-id="2d09c-109">Surveiller la mobilité des performances dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2d09c-109">Monitor mobility for performance in Skype for Business Server</span></span>](monitor-mobility-performance.md)
+- [<span data-ttu-id="04329-109">Surveiller les performances de la mobilité dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="04329-109">Monitor mobility for performance in Skype for Business Server</span></span>](monitor-mobility-performance.md)
 
-- [<span data-ttu-id="2d09c-110">Utilisation de rapports de surveillance dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2d09c-110">Using Monitoring Reports in Skype for Business Server</span></span>](monitoring-reports.md)
+- [<span data-ttu-id="04329-110">Utilisation des rapports de surveillance dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="04329-110">Using Monitoring Reports in Skype for Business Server</span></span>](monitoring-reports.md)
 
-## <a name="see-also"></a><span data-ttu-id="2d09c-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2d09c-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04329-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="04329-111">See also</span></span>
 
 
 
-[<span data-ttu-id="2d09c-112">Planification de la surveillance</span><span class="sxs-lookup"><span data-stu-id="2d09c-112">Plan for monitoring</span></span>](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[<span data-ttu-id="04329-112">Planifier la surveillance</span><span class="sxs-lookup"><span data-stu-id="04329-112">Plan for monitoring</span></span>](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[<span data-ttu-id="2d09c-113">Déployer la surveillance</span><span class="sxs-lookup"><span data-stu-id="2d09c-113">Deploy monitoring</span></span>](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[<span data-ttu-id="04329-113">Déployer la surveillance</span><span class="sxs-lookup"><span data-stu-id="04329-113">Deploy monitoring</span></span>](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

@@ -1,8 +1,8 @@
 ---
 title: Ajouter des fonctionnalités frontales 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
-description: Sélectionnez chaque fonctionnalité à activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée, qui est toujours activée et ne peut être désélectionnée. Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que les conférences, la voix entreprise et le contrôle d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: dc89ee19c9dbed0193a57133e545c82139dd06f0
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée, qui est toujours activée et ne peut être désélectionnée. Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que les conférences, les Voix Entreprise et le contrôle d’admission des appels(CAC). Certaines fonctionnalités dépendent de votre topologie.
+ms.openlocfilehash: d6e272d2ec936991399493041b42f36db952e012
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218365"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824164"
 ---
-# <a name="add-front-end-features-2010"></a><span data-ttu-id="7c442-106">Ajouter des fonctionnalités frontales 2010</span><span class="sxs-lookup"><span data-stu-id="7c442-106">Add Front End Features 2010</span></span>
+# <a name="add-front-end-features-2010"></a><span data-ttu-id="39541-106">Ajouter des fonctionnalités frontales 2010</span><span class="sxs-lookup"><span data-stu-id="39541-106">Add Front End Features 2010</span></span>
 
-<span data-ttu-id="7c442-107">Sélectionnez chaque fonctionnalité à activer pour le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="7c442-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="7c442-108">Au minimum, vous devez déployer la messagerie instantanée, qui est toujours activée et ne peut être désélectionnée.</span><span class="sxs-lookup"><span data-stu-id="7c442-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="7c442-109">Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que les conférences, la voix entreprise et le contrôle d’admission des appels (CAC).</span><span class="sxs-lookup"><span data-stu-id="7c442-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="7c442-110">Certaines fonctionnalités dépendent de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="7c442-110">Some features are dependent on your topology.</span></span>
+<span data-ttu-id="39541-107">Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="39541-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="39541-108">Au minimum, vous devez déployer la messagerie instantanée, qui est toujours activée et ne peut être désélectionnée.</span><span class="sxs-lookup"><span data-stu-id="39541-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="39541-109">Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que les conférences, les Voix Entreprise et le contrôle d’admission des appels(CAC).</span><span class="sxs-lookup"><span data-stu-id="39541-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="39541-110">Certaines fonctionnalités dépendent de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="39541-110">Some features are dependent on your topology.</span></span>
 
-<span data-ttu-id="7c442-111">Pour plus d’informations sur la spécification des fonctionnalités pour un serveur Standard Edition ou un pool Enterprise Edition, voir [define and Configure a front end pool or Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="7c442-111">For details about specifying features for a Standard Edition server or Enterprise Edition pool, see [Define and Configure a Front End Pool or Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="39541-111">Pour plus d’informations sur la spécification de fonctionnalités pour un serveur Standard Edition ou un pool Enterprise Edition, voir Définir et configurer un pool frontal ou un serveur [Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="39541-111">For details about specifying features for a Standard Edition server or Enterprise Edition pool, see [Define and Configure a Front End Pool or Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
 
 
