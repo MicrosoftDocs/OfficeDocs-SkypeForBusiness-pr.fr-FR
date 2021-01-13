@@ -1,7 +1,7 @@
 ---
-title: Utiliser config. xml pour effectuer des tâches d’installation dans les clients Skype entreprise
-ms.author: v-lanac
-author: lanachin
+title: Utiliser Config.xml pour effectuer des tâches d’installation dans les clients Skype Entreprise
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -11,53 +11,53 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Résumé : comment utiliser le fichier Config.xml pour fournir des instructions d’installation supplémentaires.'
-ms.openlocfilehash: a935e3623e99324eb24caef4e7e232d2311c5cfb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Comment utiliser le fichier Config.xml pour spécifier des instructions d’installation supplémentaires.'
+ms.openlocfilehash: 1b8aeeb16e061e7816e475f01c9cd9a9146306ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768647"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825184"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Utiliser config. xml pour effectuer des tâches d’installation dans les clients Skype entreprise
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Utiliser Config.xml pour effectuer des tâches d’installation dans les clients Skype Entreprise
 
-**Résumé :** comment utiliser le fichier Config.xml pour fournir des instructions d’installation supplémentaires.
+**Résumé :** Utilisation du fichier Config.xml pour spécifier des instructions d’installation supplémentaires.
 
-Même si l’outil de personnalisation Office est le principal outil pour l’installation personnalisée, les administrateurs peuvent utiliser le fichier Config.xml pour spécifier des instructions d’installation non disponibles dans cet outil. Les personnalisations ci-dessous ne peuvent être effectuées qu’avec le fichier Config.xml :
+Bien que l’outil de personnalisation Office soit le principal outil pour l’installation personnalisée, les administrateurs peuvent utiliser le fichier Config.xml pour spécifier des instructions d’installation non disponibles dans cet outil. Les personnalisations suivantes ne peuvent être effectuées qu’avec le fichier Config.xml :
 
-- Spécifiez le chemin d’accès au point d’installation réseau.
+- spécifier le chemin d’accès au point d’installation réseau ;
 
-- Sélectionnez les produits à installer.
+- sélectionner les produits à installer ;
 
-- Configurez la journalisation et l’emplacement du fichier de personnalisation de l’installation et les mises à jour des logiciels.
+- configurer la journalisation et l’emplacement du fichier de personnalisation de l’installation et les mises à jour des logiciels ;
 
-- Spécifiez les options d’installation, comme le nom d’utilisateur.
+- spécifier les options d’installation telles que le nom de l’utilisateur ;
 
-- Copiez la source d’installation locale sur l’ordinateur de l’utilisateur sans installer Office.
+- copier la source d’installation locale sur l’ordinateur de l’utilisateur sans installer Office ;
 
-- Ajoutez ou supprimez des langues dans l’installation.
+- ajouter ou supprimer des langues de l’installation.
 
-Nous vous recommandons d’utiliser le fichier config. xml pour configurer l’installation silencieuse de Skype entreprise. 
+Nous vous recommandons d’utiliser le fichier Config.xml pour configurer l’installation silencieuse de Skype Entreprise. 
 
-Par défaut, le fichier config. XML qui est stocké dans le dossier de produit principal (par exemple, \ _Product_). WW) envoie le programme d’installation de ce produit. Par exemple, le fichier config. xml dans le dossier suivant installe Skype entreprise :
+Par défaut, le fichier Config.xml qui est stocké dans le dossier principal du produit (par exemple, \ _produit_). WW) dirige le programme d’installation pour installer ce produit. Par exemple, le Config.xml dans le dossier suivant installe Skype Entreprise :
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
-Le tableau suivant répertorie les éléments config. xml fréquemment utilisés pour l’installation de Skype entreprise.
+Les Config.xml les plus couramment utilisés pour l’installation de Skype Entreprise sont répertoriés dans le tableau suivant.
 
 **Éléments de Config.xml**
 
 
 | **Élément**              | **Description**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configuration  <br/>     | Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync (cela fonctionne pour les clients Skype Entreprise)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui inclut les composants partagés qui interfèrent avec Outlook : <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| Display  <br/>           | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice = "Yes"                                                                                                                                                                                |
-| Journalisation  <br/>           | Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants : <br/>  Type = "désactivé"                                                                                                                                                                                       |
-| Paramètre  <br/>           | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Définition de l’ID = " *nom*" (le nom de la propriété du programme d’installation de Windows)  <br/>  Value = " *value*" (valeur à attribuer à la propriété)  <br/>                                                             |
-| DistributionPoint  <br/> | Chemin d’accès complet du point d’installation réseau à partir duquel l’installation doit s’exécuter. Comprend l’attribut Location :<br/>  Emplacement = " *path*"  <br/>                                                                                                                                     |
+| Configuration  <br/>     | Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync (cela fonctionne pour les clients Skype Entreprise)  <br/>                                                                                                                                                          |
+| OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées pendant l’installation. Utilisez les attributs suivants pour empêcher l’installation de Services Business Connectivity, qui inclut des composants partagés qui interfèrent avec Outlook : <br/>  Id="LOBiMain » <br/>  State="Absent » <br/>  Children="Force » <br/> |
+| Afficher  <br/>           | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice="Yes »                                                                                                                                                                                |
+| Logging  <br/>           | Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants : <br/>  Type ="Off »                                                                                                                                                                                       |
+| Setting  <br/>           | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Setting Id= » *name*" (nom de la propriété Windows Installer)  <br/>  Value= » *value*" (valeur à affecter à la propriété)  <br/>                                                             |
+| DistributionPoint  <br/> | Chemin d’accès complet du point d’installation réseau à partir duquel l’installation doit s’exécuter. Comprend l’attribut Location :<br/>  Location= » *path*»  <br/>                                                                                                                                     |
 
-L’exemple suivant montre un fichier config. xml pour une installation silencieuse standard du client Skype entreprise. 
+L’exemple suivant montre un fichier Config.xml pour une installation silencieuse classique du client Skype Entreprise. 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,15 +69,15 @@ L’exemple suivant montre un fichier config. xml pour une installation silencie
 </Configuration>
 ```
 
-Des informations détaillées sur l’utilisation du fichier config. xml pour effectuer des tâches d’installation et de [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514)maintenance d’Office sont disponibles à l’adresse.
+Des informations détaillées sur l’utilisation du fichier Config.xml pour effectuer les tâches d’installation et de maintenance d’Office sont disponibles sur [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514) .
 
 ## <a name="to-customize-the-configxml-file"></a>Pour personnaliser le fichier Config.xml
 
-1. Ouvrez le fichier Config.xml avec un éditeur de texte, comme le Bloc-notes.
+1. Ouvrez le fichier Config.xml avec un éditeur de texte, tel que le Bloc-notes.
 
-2. Recherchez les lignes qui contiennent les éléments à modifier.
+2. Recherchez les lignes qui contiennent les éléments que vous voulez changer.
 
-3. Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les séparateurs de commentaires, «\<!-- » et « --\>». Par exemple, utilisez la syntaxe suivante :
+3. Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les délimiteur de commentaires « \<!--" and "--\> ». Par exemple, utilisez la syntaxe suivante :
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

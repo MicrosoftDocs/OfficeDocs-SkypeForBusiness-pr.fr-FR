@@ -1,8 +1,8 @@
 ---
-title: Rapport Détails des appels dans Skype entreprise Server
+title: Rapport détaillé des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Résumé : en savoir plus sur le rapport sur les détails des appels utilisé dans Skype entreprise Server.'
-ms.openlocfilehash: a700bf9969c921db2d36a816579ee36ff59cb3b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.'
+ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818145"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826514"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Rapport Détails des appels dans Skype entreprise Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le rapport Détails des appels utilisé dans Skype entreprise Server.
+**Résumé :** Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.
   
-Le rapport Détails de l’appel fournit un examen détaillé d’un appel individuel. ce rapport inclut presque toutes les mesures de qualité d’exploitation et les statistiques collectées par Skype entreprise Server, divisées en sections de rapport telles que :
+Le rapport détaillé de l’appel fournit une analyse détaillée d’un appel individuel . Le rapport inclut presque toutes les mesures et statistiques de qualité de l’expérience collectées par Skype Entreprise Server, divisées en sections de rapport telles que :
   
 - Informations d’appel 
     
@@ -43,7 +43,7 @@ Le rapport Détails de l’appel fournit un examen détaillé d’un appel indiv
     
 - Flux de données vidéo (de l’appelé vers l’appelant)
     
-Gardez à l’esprit que les catégories et les mesures qui figurent dans un rapport donné dépendent de deux facteurs : du type de session et du type des points de terminaison utilisés dans la session. Par exemple, un appel audio ne fait l’objet d’aucune mesure de flux de données vidéo, car il n’en comporte pas. De même, il peut arriver qu’un rapport répertorie des statistiques sur l’appelant mais pas sur l’appelé. En règle générale, cela est dû au fait que l’appelé utilise un appareil non compatible SIP. La génération de statistiques à la fin d’un appel est une tâche qui incombe aux points de terminaison. Or, un téléphone cellulaire (qui n’a pas connaissance de SIP ni des statistiques SIP) n’est pas capable de fournir ce type d’information. Si vous appelez une personne et qu’elle vous répond sur son téléphone cellulaire, vous n’obtiendrez pas de rapport de ce téléphone à la fin de l’appel.
+Gardez à l’esprit que les catégories et les mesures qui figurent dans un rapport donné dépendent de deux facteurs : du type de session et du type des systèmes d’extrémité utilisés dans la session. Par exemple, un appel audio ne fait l’objet d’aucune mesure de flux de données vidéo, car il n’en comporte pas. De même, il peut arriver qu’un rapport répertorie des statistiques sur l’appelant mais pas sur l’appelé. En règle générale, cela est dû au fait que l’appelé utilise un appareil non compatible SIP. La génération de statistiques à la fin d’un appel est une tâche qui incombe aux systèmes d’extrémité. Or, un téléphone cellulaire (qui n’a pas connaissance de SIP ni des statistiques SIP) n’est pas capable de fournir ce type d’information. Si vous appelez une personne et qu’elle vous répond sur son téléphone cellulaire, vous n’obtiendrez pas de rapport de ce téléphone à la fin de l’appel.
   
 Le rapport sur le détail de l’appel s’avère particulièrement utile pour identifier les causes exactes des problèmes de qualité des médias rencontrés lors d’un appel donné.
   
@@ -51,17 +51,17 @@ Le rapport sur le détail de l’appel s’avère particulièrement utile pour i
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
   
-- Le rapport [location» dans Skype entreprise Server (location-report.md) (en cliquant sur le volume d’appel ou la métrique de faible pourcentage d’appels)
+- [Rapport d’emplacement dans Skype Entreprise Server (location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Le rapport synthèse sur la qualité multimédia dans Skype entreprise Server (summary.md) (en cliquant sur le volume des appels ou sur le pourcentage d’appels médiocre)
+- [Media Quality Summary Report in Skype for Business Server (summary.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- [Rapport de comparaison de qualité multimédia dans Skype entreprise Server](comparison.md) (en cliquant sur le [rapport liste d’appels dans Skype entreprise Server](call-list-report-0.md) , puis en cliquant sur la métrique de détail).
+- Le [rapport comparatif de](comparison.md) la qualité des médias dans Skype Entreprise Server (en cliquant sur le rapport de liste d’appels dans Skype Entreprise [Server,](call-list-report-0.md) puis sur la mesure Détail).
     
-- [Rapport sur les performances du serveur dans Skype entreprise Server](server-performance.md) (en cliquant sur le volume de l’appel ou en utilisant une métrique de pourcentage médiocre)
+- Rapport [sur les performances du serveur dans Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- [Rapport de liste d’appels dans Skype entreprise Server](call-list-report-0.md) (en cliquant sur la métrique de détail)
+- Rapport [des listes d’appels dans Skype Entreprise Server](call-list-report-0.md) (en cliquant sur la mesure Détails)
     
-Dans le rapport Détails de l’appel, vous pouvez accéder au [rapport sur les appareils dans Skype entreprise Server](device-report.md) en cliquant sur l’une des mesures suivantes :
+À partir du rapport détaillé des appels, vous pouvez accéder au rapport de périphérique dans Skype Entreprise [Server](device-report.md) en cliquant sur l’une des mesures suivantes :
   
 - Périphérique de capture
     
@@ -73,9 +73,9 @@ Vous pouvez aussi accéder au Rapport de tendance générale de la qualité des 
 
 En règle générale, le rapport sur le détail de l’appel comprend plus de 250 mesures différentes, avec notamment les éléments Dérive d’horodatage du microphone, Durée du SNR faible et Durée de l’écho au point de terminaison. Si vous ne vous rappelez pas de la fonction de l’une de ces nombreuses mesures, placez le curseur de la souris sur l’étiquette de la mesure ; vous devriez obtenir une info-bulle décrivant cette mesure.
   
-Si vous avez des difficultés à retrouver une mesure, tapez une partie de son nom dans la zone de recherche et cliquez sur **Rechercher**. Par exemple, si vous ne trouvez pas la mesure Durée du SNR faible, tapez SNR dans la zone de recherche, puis cliquez sur **Rechercher**.
+Si vous avez des difficultés à trouver une mesure, tapez une partie de l’étiquette de mesure dans la zone de recherche, puis cliquez sur **Rechercher.** Par exemple, si vous ne trouvez pas la mesure Durée du SNR faible, tapez SNR dans la zone de recherche, puis cliquez sur **Rechercher.**
   
-Notez que le rapport effectue uniquement le suivi des informations concernant un appel. L’appel proprement dit n’est pas enregistré.
+Notez que le rapport suit uniquement les informations sur un appel. L’appel proprement dit n’est pas enregistré.
   
 ## <a name="filters"></a>Filtres
 
@@ -83,18 +83,18 @@ Aucun. Vous ne pouvez pas filtrer le rapport sur le détail de l’appel.
   
 ## <a name="metrics"></a>Mesures
 
-Le tableau ci-dessous liste les informations fournies dans le rapport sur le détail de l’appel pour chaque appel.
+Le tableau suivant liste les informations fournies dans le rapport sur le détail de l’appel pour chaque appel.
   
 **Mesures du rapport sur le détail de l’appel**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**PAI de l’appelant** <br/> |Non  <br/> |PAI (P-Asserted-Identity) de l’utilisateur qui a initié l’appel. La PAI sert à transmettre l’identité prouvée d’un utilisateur au sein d’un réseau approuvé.  <br/> |
 |**URI de l’appelant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur qui a initié l’appel.  <br/> |
-|**Point de terminaison de l’appelant** <br/> |Non  <br/> |Appareil utilisé pour passer l’appel.  <br/> |
+|**Système d’extrémité de l’appelant** <br/> |Non  <br/> |Appareil utilisé pour passer l’appel.  <br/> |
 |**Agent utilisateur de l’appelant** <br/> |Non  <br/> |Logiciel utilisé sur l’appareil utilisé pour passer l’appel.  <br/> |
 |**Début de l’appel** <br/> |Non  <br/> |Date et heure où l’appel a été passé.  <br/> |
-|**Appel de contournement du serveur de médiation** <br/> |Non  <br/> |Indique si l’appel connecté à une passerelle vocale RTC ou IP-PBX qualifié sans passer par le serveur de médiation.  <br/> |
+|**Appel de contournement du serveur de médiation** <br/> |Non  <br/> |Indique si l’appel connecté à une passerelle vocale PSTN ou IP-PBX qualifié sans passer par le serveur de médiation.  <br/> |
 |**SE de l’appelant** <br/> |Non  <br/> |Système d’exploitation de l’ordinateur de l’appelant.  <br/> |
 |**UC de l’appelant** <br/> |Non  <br/> |UC installée dans l’ordinateur de l’utilisateur qui a passé l’appel.  <br/> |
 |**Numéro principal de l’UC de l’appelant** <br/> |Non  <br/> |Numéro de processeur dans l’ordinateur utilisé par la personne qui a passé l’appel.  <br/> |
@@ -102,10 +102,10 @@ Le tableau ci-dessous liste les informations fournies dans le rapport sur le dé
 |**Virtualisation de l’UC de l’appelant** <br/> |Non  <br/> |Virtualisation (le cas échéant) utilisée sur l’ordinateur utilisé par la personne qui a initié l’appel.  <br/> |
 |**PAI de l’appelé** <br/> |Non  <br/> |PAI (P-Asserted-Identity) de l’utilisateur qui a été invité à participer à l’appel. La PAI sert à transmettre l’identité prouvée d’un utilisateur au sein d’un réseau approuvé.  <br/> |
 |**URI de l’appelé** <br/> |Non  <br/> |Adresse SIP de l’utilisateur appelé.  <br/> |
-|**Point de terminaison de l’appelé** <br/> |Non  <br/> |Appareil utilisé pour recevoir l’appel.  <br/> |
+|**Système d’extrémité de l’appelé** <br/> |Non  <br/> |Appareil utilisé pour recevoir l’appel.  <br/> |
 |**Agent utilisateur de l’appelé** <br/> |Non  <br/> |Logiciel utilisé sur l’appareil qui a reçu l’appel.  <br/> |
-|**Durée** <br/> |Non  <br/> |Durée de l’appel.  <br/> |
-|**Indicateur d’avertissement de déviation du trafic multimédia** <br/> |Non  <br/> |Avertissement paru quand le serveur de médiation a été contourné.  <br/> |
+|**Duration** <br/> |Non  <br/> |Durée de l’appel.  <br/> |
+|**Indicateur d’avertissement de contournement de média** <br/> |Non  <br/> |Avertissement paru quand le serveur de médiation a été contourné.  <br/> |
 |**SE de l’appelé** <br/> |Non  <br/> |Système d’exploitation de l’ordinateur de l’appelé.  <br/> |
 |**UC de l’appelé** <br/> |Non  <br/> |UC installée dans l’ordinateur de l’utilisateur qui a été appelé.  <br/> |
 |**Numéro principal de l’UC de l’appelé** <br/> |Non  <br/> |Numéro de processeur dans l’ordinateur utilisé par la personne qui a été appelée.  <br/> |

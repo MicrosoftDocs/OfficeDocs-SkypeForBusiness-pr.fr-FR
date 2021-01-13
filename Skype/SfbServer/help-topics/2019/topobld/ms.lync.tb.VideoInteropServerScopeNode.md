@@ -1,8 +1,8 @@
 ---
 title: Serveur d’interopérabilité vidéo - Étendue du nœud
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Les étapes nécessaires pour définir une nouvelle passerelle vidéo ou une nouvelle passerelle vidéo dans le générateur de topologie sont décrites en ligne dans créer un pool de ressources dans Skype entreprise Server.
-ms.openlocfilehash: 7bf3e752bf501292f321bee3ed79f3477ea523ea
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
+ms.openlocfilehash: 4c1ff1d61be0b13153537eb3c2e10d4590527f5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795245"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824444"
 ---
 # <a name="video-interop-server---scope-the-node"></a>Serveur d’interopérabilité vidéo - Étendue du nœud
  
-Les étapes nécessaires pour définir une nouvelle passerelle vidéo ou une nouvelle passerelle vidéo dans le générateur de topologie sont décrites en ligne dans [créer un pool de ressources dans Skype entreprise Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un [pool vis dans Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-Les étapes nécessaires à l’affectation d’un rôle serveur du serveur d’interopérabilité sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans [la section déploiement du rôle serveur dans Skype entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) .
+Les étapes nécessaires à l’attribution d’un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur VIS dans [Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Les étapes de configuration d’un nouveau serveur vidéo à l’aide de Windows PowerShell sont décrites en ligne dans [configurer le serveur Video Interop dans Skype entreprise Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
+Les étapes de configuration d’un nouveau serveur d’interopation vidéo utilisant Windows PowerShell sont décrites en ligne à l’adresse [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
- Les paramètres d’une passerelle vidéo qui doivent être définis dans l’interface utilisateur Cisco pour l’interopérabilité avec une VIS sont décrits en ligne à l’adresse [configurer CUCM pour l’interopérabilité avec Skype entreprise Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ Les paramètres d’une passerelle vidéo qui doivent être configurés dans l’interface utilisateur graphique de Cisco pour l’interopérabilité avec un VIS sont décrits en ligne dans la zone Configurer CUCM pour l’interopérabilité avec [Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   
- Les paramètres d’un VTC qui doivent être définis dans l’interface utilisateur Cisco pour l’interopérabilité avec une passerelle vidéo et une VIS sont décrits en ligne sur la [configuration d’un VTC pour l’interopérabilité avec Skype entreprise Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ Les paramètres d’un VTC qui doivent être configurés dans l’interface utilisateur graphique de Cisco pour l’interopération avec une passerelle vidéo et un vis sont décrits en ligne dans Configurer un VTC pour l’interopération avec [Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier le serveur Video Interop dans Skype entreprise Server](../../../plan-your-deployment/video-interop-server.md)
+[Planifier le serveur d’opation vidéo dans Skype Entreprise Server](../../../plan-your-deployment/video-interop-server.md)

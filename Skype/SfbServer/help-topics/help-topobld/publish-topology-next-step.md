@@ -1,8 +1,8 @@
 ---
 title: Étape ultérieure à la publication de la topologie
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Une fois la topologie publiée, la page Assistant Publication achevé s’affiche.
-ms.openlocfilehash: 663e7534bc8ae4ed61a060140d673acae6613eef
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 1974ac4e9c2e6d6f617e85af7743a620f3cb6c07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217285"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823684"
 ---
 # <a name="publish-topology-next-step"></a>Étape ultérieure à la publication de la topologie
 

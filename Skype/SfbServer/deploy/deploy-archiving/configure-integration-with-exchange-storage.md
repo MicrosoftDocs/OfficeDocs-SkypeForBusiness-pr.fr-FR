@@ -1,8 +1,8 @@
 ---
-title: Configurer l’intégration avec le stockage Exchange pour Skype entreprise Server
+title: Configurer l’intégration avec le stockage Exchange pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
-description: 'Résumé : cette rubrique vous explique comment configurer l’intégration avec le stockage Exchange dans Skype entreprise Server.'
-ms.openlocfilehash: cee41a52593a90490ec8da90637ee4ec5de33d03
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’intégration avec le stockage Exchange dans Skype Entreprise Server.'
+ms.openlocfilehash: 05a0c65aaca54e469f30dd5e732565f6ec0bbb4b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768887"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825064"
 ---
-# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec le stockage Exchange pour Skype entreprise Server
+# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec le stockage Exchange pour Skype Entreprise Server
  
-**Résumé :** Pour plus d’informations sur la configuration de l’intégration avec le stockage Exchange dans Skype entreprise Server, reportez-vous à cette rubrique.
+**Résumé :** Lisez cette rubrique pour découvrir comment configurer l’intégration avec le stockage Exchange dans Skype Entreprise Server.
   
-Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer les stratégies d’archivage de Skype entreprise Server pour vos utilisateurs. Au lieu de cela, vous configurez les stratégies de conservation inaltérable pour la prise en charge de l’archivage pour les utilisateurs hébergés sur Exchange, et leurs boîtes aux lettres sont placées dans la conservation inaltérable. Avant de configurer l’intégration avec le stockage Exchange, voir [plan d’archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur les stratégies de conservation inaltérable d’Exchange, voir la documentation du produit Exchange. 
+Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer des stratégies d’archivage Skype Entreprise Server pour vos utilisateurs. Au lieu de cela, vous configurez les stratégies de In-Place Exchange pour prendre en charge l’archivage pour les utilisateurs d’Exchange, dont les boîtes aux lettres sont In-Place archive. Avant de configurer l’intégration avec le stockage Exchange, lisez [Planifier l’archivage dans Skype Entreprise Server.](../../plan-your-deployment/archiving/archiving.md) Pour plus d’informations sur les stratégies de In-Place Exchange, consultez la documentation du produit Exchange. 
   
-## <a name="configure-integration-with-microsoft-exchange-storage"></a>Configurer l’intégration avec Microsoft Exchange Storage
+## <a name="configure-integration-with-microsoft-exchange-storage"></a>Configurer l’intégration avec le stockage Microsoft Exchange
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
-4. Cliquez sur le nom de la configuration de site, de pool ou globale appropriée dans la liste des configurations d’archivage, puis sur **Modifier**, sur **Afficher les détails** et procédez comme suit :
+4. Cliquez sur le nom de la configuration de site, de pool ou globale appropriée dans la liste des configurations d’archivage, puis sur **Modifier**, sur **Afficher les détails** et procédez comme suit : .
     
-   - Pour activer l’intégration à Exchange Storage, activez la case à cocher **intégration Microsoft Exchange** .
+   - Pour activer l’intégration avec le stockage Exchange, activez la case à cocher **Intégration de Microsoft Exchange.**
     
-   - Pour désactiver l’intégration à Exchange Storage, décochez la case **intégration de Microsoft Exchange** .
+   - Pour désactiver l’intégration avec le stockage Exchange, désactivez la case à cocher **Intégration de Microsoft Exchange.**
     
 5. Cliquez sur **Valider**.
     
-## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Lorsque Skype entreprise Server et Microsoft Exchange sont déployés dans différentes forêts
+## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Quand Skype Entreprise Server et Microsoft Exchange sont déployés dans des forêts différentes
 
-Si vous utilisez l’intégration de Microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype entreprise Server, vous devez vous assurer que les attributs d’annuaire Active Directory suivants sont synchronisés avec la forêt où Skype pour Le déploiement d’Business Server est le suivant :
+Si vous utilisez l’intégration Microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype Entreprise Server, vous devez vous assurer que les attributs Exchange Active Directory suivants sont synchronisés avec la forêt où Skype Entreprise Server est déployé :
   
 - msExchUserHoldPolicies
     

@@ -1,8 +1,8 @@
 ---
-title: Choisir un fournisseur de services E9-1-1 pour Skype entreprise Server
+title: Choisir un fournisseur de services E9-1-1 pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
-description: Sélection de votre fournisseur de services pour un déploiement E9-1-1 dans Skype entreprise Server voix entreprise.
-ms.openlocfilehash: 81df2723a256106957c1cd747817b4036ff38d9e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Choix de votre fournisseur de services pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: fe4816a4bd9b30d6939e885dc7c8ed8ae5b43007
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42026165"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825884"
 ---
-# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Choisir un fournisseur de services E9-1-1 pour Skype entreprise Server
+# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Choisir un fournisseur de services E9-1-1 pour Skype Entreprise Server
  
-Sélection de votre fournisseur de services pour un déploiement E9-1-1 dans Skype entreprise Server voix entreprise.
+Choix de votre fournisseur de services pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
   
-Le fournisseur de services E9-1-1 achemine les appels d’urgence provenant de Skype entreprise Server vers le point de réponse de sécurité publique (PSAPI) approprié en fonction des informations d’emplacement contenues dans l’appel. 
+Le fournisseur de services E9-1-1 approvisionnement les appels d’urgence provenant de Skype Entreprise Server vers le centre d’appels de sécurité publique (PSAP) en fonction des informations d’emplacement contenues dans l’appel. 
   
-Pour prendre en charge E9-1-1 dans le cadre d’un déploiement de Skype entreprise Server, vous devez obtenir un service de routage E9-1-1 à partir d’un fournisseur de services E9-1-1 de Lync Open Interoperability Program. Choisissez le fournisseur qui répond le mieux aux besoins de votre organisation.
+Pour prendre en charge E9-1-1 dans le cadre d’un déploiement Skype Entreprise Server, vous devez obtenir le service de routage E9-1-1 auprès d’un fournisseur de services E9-1-1 qualifié du programme d’interopérabilité Open Lync. Choisissez le fournisseur qui répond le mieux aux besoins de votre organisation.
 
-Pour afficher la liste des services de routage E9-1-1 pour Lync, reportez-vous à la rubrique [E-911 Services Qualified for Lync](https://docs.microsoft.com/skypeforbusiness/lync-cert/e-911-service-providers).
+Pour consulter la liste des services de routage E9-1-1 pour Lync, voir [Services E-911 qualifiés pour Lync.](https://docs.microsoft.com/skypeforbusiness/lync-cert/e-911-service-providers)
   
 

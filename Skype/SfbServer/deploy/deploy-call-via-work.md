@@ -1,8 +1,8 @@
 ---
-title: Déploiement d’un appel via le travail dans Skype entreprise Server
+title: Déployer l’appel via le travail dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,85 +14,85 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Résumé : Découvrez comment déployer un appel via le travail dans Skype entreprise Server pour tout ou partie de vos utilisateurs.'
-ms.openlocfilehash: 9b77207d6618e4a869ae369697bc8395aba81673
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Découvrez comment déployer l’appel via le travail dans Skype Entreprise Server pour tout ou partie de vos utilisateurs.'
+ms.openlocfilehash: 41a0ae8462b12cabf735a2501e5b22eac64abe42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791082"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825004"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déploiement d’un appel via le travail dans Skype entreprise Server
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déployer l’appel via le travail dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment déployer un appel via votre travail dans Skype entreprise Server pour tout ou partie de vos utilisateurs.
+**Résumé :** Découvrez comment déployer appel via le travail dans Skype Entreprise Server pour tout ou partie de vos utilisateurs.
   
-Suivez ces étapes pour déployer l’appel via le Bureau pour vos utilisateurs. Les considérations en matière de planification sont décrites dans la rubrique [planifier un appel via le travail dans Skype entreprise Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes du contrôle d’appel distant de Lync Server est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype entreprise Server, cette fonction a été remplacée par un appel via le travail. 
+Utilisez ces étapes pour déployer Appel via le travail pour vos utilisateurs. Les considérations de planification sont abordées dans [Plan for Call Via Work in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes de Lync Server, le contrôle d’appel distant était une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype Entreprise Server, cette fonctionnalité a été remplacée par Appel via le travail. 
   
-## <a name="prerequisites-for-call-via-work"></a>Prérequis pour les appels via le Bureau
+## <a name="prerequisites-for-call-via-work"></a>Conditions préalables pour l’appel via le travail
 
-L’appel par le biais de l’utilisation utilise Unified Communications Web API (UCWA), qui est automatiquement installé sur tous les serveurs frontaux Skype entreprise Server. Pour permettre aux utilisateurs d’effectuer des appels par le biais de leur bureau, vous devez également disposer de la configuration requise suivante : 
+L’appel via le travail utilise l’API web de communications unifiées (UCWA), qui est automatiquement installée sur tous les serveurs frontux Skype Entreprise Server. Pour activer les utilisateurs pour l’appel via le travail, vous devez également avoir les conditions préalables suivantes en place : 
   
-- Un serveur de médiation doit être déployé par le biais d’un serveur frontal ou d’un rôle autonome. Vous devez également déployer une passerelle IP-PBX.
+- Vous devez avoir déployé un serveur de médiation, soit dans le cadre d’un serveur frontal, soit en tant que rôle autonome. Vous devez également déployer une passerelle IP-PBX.
     
-- Tous les utilisateurs qui seront activés pour les appels via le professionnel doivent disposer d’une numérotation directe vers l’intérieur du système téléphonique PBX. 
+- Tous les utilisateurs qui seront activés pour l’appel via le travail doivent avoir un SDN (Direct Inward Dialing) sur le système téléphonique PBX. 
     
-- Vous devez activer tous les appels via les utilisateurs professionnels pour voix entreprise. Lorsque vous procédez ainsi, vous devez configurer le numéro Skype entreprise pour chaque utilisateur sur le numéro de téléphone PBX correspondant au système PBX correspondant. 
+- Vous devez activer tous les utilisateurs de l’appel via le Voix Entreprise. Lorsque vous faites cela, vous devez configurer le numéro DID de Skype Entreprise pour chaque utilisateur sur le numéro DID correspondant pour le système téléphonique PBX correspondant. 
     
-- La **configuration automatique** de tous les utilisateurs qui utiliseront un appel via le Bureau doit être sélectionnée dans l’option de **connexion avancée** du client Skype entreprise. Cela permet au client de découvrir les URL UCWA. **Configuration automatique** est sélectionné par défaut.
+- La **configuration** automatique doit être sélectionnée dans l’option Connexions avancées de leur client Skype Entreprise pour tous les **utilisateurs** qui utiliseront l’appel via le travail. Cela permet au client de découvrir les URL UCWA. **La sélection automatique** est la sélection par défaut.
     
-- Pour chaque appel via l’utilisateur de votre entreprise, activez le transfert d’appel et la sonnerie simultanée. 
+- Pour chaque utilisateur Appel via le travail, activez le forwarding d’appel et la sonnerie simultanée. 
     
-- Pour chaque appel par le biais de l’utilisateur travaillant, assurez-vous que les appels entrants et les conférences rendez-vous sont activés. Cela permet aux utilisateurs d’accéder à des conférences Skype entreprise et de les se déconnecter.
+- Pour chaque utilisateur Appel via le travail, assurez-vous que les appels sortants et de conférences sont activés. Cela permet à ces utilisateurs d’entrer et de sortir des conférences Skype Entreprise.
     
-- Assurez-vous que la délégation, l’appel d’équipe et le groupe de réponse sont désactivés pour chaque appel via l’utilisateur de travail.
+- Assurez-vous que la délégation, l’appel d’équipe et le groupe Response Group sont désactivés pour chaque utilisateur Appel via le travail.
     
 ## <a name="deploy-call-via-work"></a>Déployer l’appel via le bureau
 
-Une fois les conditions préalables remplies, procédez comme suit :
+Une fois les conditions préalables en place, faites les étapes suivantes :
   
-- Créez un numéro de téléphone global pour votre déploiement, que Skype entreprise affiche sur l’IDENTIFIant de l’appelant PBX des utilisateurs effectuant un appel par le biais d’appels professionnels. 
+- Créez un numéro de téléphone global pour votre déploiement, que Skype Entreprise affiche sur l’ID d’appelant PBX des utilisateurs qui effectuent des appels via le réseau téléphonique. 
     
-- Créer un ou plusieurs appels via une stratégie de bureau
+- Créer une ou plusieurs stratégies d’appel via le travail
     
-- Assigner un appel via une stratégie de bureau à chaque utilisateur qui sera activé pour appel via le Bureau
+- Affecter une stratégie Appel via le travail à chaque utilisateur qui sera activé pour l’appel via le travail
     
-### <a name="create-the-call-via-work-global-phone-number"></a>Créez le numéro de téléphone global d’appel via le bureau
+### <a name="create-the-call-via-work-global-phone-number"></a>Créer le numéro de téléphone global Appel via le travail
 
-- Saisissez l’applet de commande suivant
+- Tapez l’cmdlet suivante
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
-    Par exemple, l’applet de commande suivant définit le numéro de téléphone global sur 1-555-123-4567.
+    Par exemple, l’cmdlet suivante définit le numéro de téléphone global sur 1-555-123-4567.
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
-### <a name="create-a-call-via-work-policy"></a>Créez une stratégie d’appel via le bureau
+### <a name="create-a-call-via-work-policy"></a>Créer une stratégie Appel via le travail
 
-- Saisissez l’applet de commande suivant
+- Tapez l’cmdlet suivante
     
   ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    Par exemple, l’applet de commande suivante crée un appel via une stratégie de bureau appelée ContosoUser1CvWP, exige que l’utilisateur utilise un numéro de rappel d’administration et définit ce numéro de rappel sur 1-555-789-1234.
+    Par exemple, l’cmdlet suivante crée une stratégie Appel via le bureau appelée ContosoUser1CvWP, oblige l’utilisateur à utiliser un numéro de rappel d’administrateur et définit ce numéro de rappel sur 1-555-789-1234.
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>Assigner un appel via une stratégie de bureau à un utilisateur
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>Affecter une stratégie Appel via le travail à un utilisateur
 
-- Saisissez l’applet de commande suivant
+- Tapez l’cmdlet suivante
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Par exemple, l’applet de commande suivante affecte l’appel via la stratégie de bureau « ContosoUser1CvWP » à l’utilisateur nommé **ContosoUser1**.
+    Par exemple, l’cmdlet suivante affecte la stratégie Appel via le travail « ContosoUser1CvWP » à l’utilisateur nommé **ContosoUser1**.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
@@ -100,5 +100,5 @@ Une fois les conditions préalables remplies, procédez comme suit :
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier un appel via le travail dans Skype entreprise Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Planifier l’appel via le travail dans Skype Entreprise Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

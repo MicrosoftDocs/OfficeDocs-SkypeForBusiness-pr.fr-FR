@@ -1,8 +1,8 @@
 ---
 title: Assignation de certificat (à partir d’une demande)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: La page Assignation de certificat démarre le processus d’assignation d’un certificat aux utilisations requises sur le serveur de rôle. Cliquez sur Afficher les détails du certificat pour afficher le certificat. Vous pouvez sélectionner l’onglet général, l’onglet Détails ou le chemin de certification. L’onglet général affiche des informations de base sur le certificat, par exemple l’autorité de certification émettrice et l’état d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. L’onglet chemin d’accès de certification affiche le CertificateChain de trustfrom le certificat par le biais des autorités de certification émettrices ou intermédiaires (s’ils sont présents) auprès de l’autorité de certification racine.
-ms.openlocfilehash: 994b3f3c215b7b887730077437e4922a95760354
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La page Affectation de certificat démarre le processus d’attribution d’un certificat aux utilisations demandées sur le serveur de rôles. Cliquez sur Afficher les détails du certificat pour afficher le certificat. Vous pouvez sélectionner l’onglet Général, Détails ou Chemin d’accès de certification. L’onglet Général affiche des informations de base sur le certificat, telles que l’autorité de certification émettrice et l’état d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. L’onglet Chemin d’accès de certification affiche la certification de confiance à partir du certificat via les autorités de certification émettrices ou intermédiaires (si elles sont présentes) à l’autorité de certification racine.
+ms.openlocfilehash: f2f7e520720aba1872fc56696c87ef717ac1c6be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823968"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824414"
 ---
 # <a name="certificate-assignment-from-request"></a>Assignation de certificat (à partir d’une demande)
  
-La page **Assignation de certificat** démarre le processus d’assignation d’un certificat aux utilisations requises sur le serveur de rôle. Cliquez sur **Afficher les détails du certificat** pour afficher le certificat. Vous pouvez sélectionner l’onglet **Général**, **Détails** ou **Chemin d’accès de certification**. L’onglet **Général** affiche des informations de base sur le certificat, telles que l’autorité de certification émettrice et le statut d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. L’onglet **Chemin d’accès de certification** affiche la « chaîne d’approbation » du certificat, incluant toutes les autorités de certification émettrices ou intermédiaires (le cas échéant) jusqu’à l’autorité de certification racine.
+La page **Affectation de** certificat démarre le processus d’attribution d’un certificat aux utilisations demandées sur le serveur de rôles. Cliquez sur **Afficher les détails du certificat** pour afficher le certificat. Vous pouvez sélectionner **l’onglet Général,** **Détails** ou Chemin **d’accès** de certification. **L’onglet** Général affiche des informations de base sur le certificat, telles que l’autorité de certification émettrice et l’état d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. **L’onglet** Chemin d’accès de certification affiche la « chaîne d’autorisation » du certificat via les autorités de certification émettrices ou intermédiaires (si elles sont présentes) à l’autorité de certification racine.
   
 Cliquez sur **Suivant** pour continuer.
   

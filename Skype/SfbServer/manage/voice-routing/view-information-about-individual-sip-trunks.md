@@ -1,8 +1,8 @@
 ---
-title: Afficher des informations sur des jonctions SIP individuelles dans Skype entreprise Server
+title: Afficher des informations sur des trunks SIP individuelles dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,34 +10,34 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Dans Skype entreprise Server, plusieurs jonctions peuvent être attribuées à une seule passerelle PSTN ; Cela signifie que les passerelles et les jonctions ne sont pas un et que les administrateurs doivent utiliser la cmdlet Get-CsTrunk pour afficher des informations sur une jonction SIP individuelle.
-ms.openlocfilehash: c5288e676f546e07504f4d8609fcea63913b6457
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Dans Skype Entreprise Server, plusieurs branches peuvent être affectées à une seule passerelle PSTN . Cela signifie que les passerelles et les trunks ne sont pas identiques et que les administrateurs doivent utiliser l'Get-CsTrunk cmdlet pour afficher des informations sur une seule trunk SIP.
+ms.openlocfilehash: b49846ed7244dec2f51f51f262becc440662026c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048177"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826174"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur des jonctions SIP individuelles dans Skype entreprise Server
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur des trunks SIP individuelles dans Skype Entreprise Server
 
-Dans Skype entreprise Server, plusieurs jonctions peuvent être attribuées à une seule passerelle PSTN ; Cela signifie que les passerelles et les jonctions ne sont pas une seule et même, et que les administrateurs doivent utiliser la cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) pour afficher des informations sur une jonction SIP individuelle.
+Dans Skype Entreprise Server, plusieurs branches peuvent être affectées à une seule passerelle PSTN . Cela signifie que les passerelles et les trunks ne sont pas identiques et que les administrateurs doivent utiliser l';cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) pour afficher des informations sur une seule trunk SIP.
 
-La cmdlet Get-CsTrunk peut être exécutée à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell.
+La cmdlet Get-CsTrunk peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell.
 
-**Pour afficher les informations de toutes vos jonctions SIP**
+**Pour afficher des informations pour toutes vos trunks SIP**
 
-La commande suivante retourne des informations sur toutes les jonctions SIP utilisées dans votre organisation :
+La commande suivante retourne des informations sur toutes les trunks SIP en cours d’utilisation dans votre organisation :
 
 `Get-CsTrunk`
 
-**Pour afficher les informations d’une jonction SIP spécifique**
+**Pour afficher les informations d’une trunk SIP spécifique**
 
-Cette commande renvoie des informations uniquement pour la jonction SIP avec l’identité PstnGateway : 192.168.0.240 :
+Cette commande retourne des informations uniquement pour la trunk SIP dont l’identité est PstnGateway:192.168.0.240 :
 
 `Get-CsTrunk -Identity "PstnGateway:192.168.0.240"`
 
-**Affichage des informations pour toutes les jonctions SIP affectées à un pool**
+**Affichage des informations pour toutes les trunks SIP affectées à un pool**
 
-Dans cet exemple, les informations sont renvoyées pour toutes les jonctions SIP affectées au pool atl-cs-001.litwareinc.com :
+Dans cet exemple, les informations sont retournées pour toutes les trunks SIP affectées au pool atl-cs-001.litwareinc.com :
 
 `Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"`

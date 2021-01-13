@@ -1,8 +1,8 @@
 ---
-title: Concevoir le Trunk SIP pour E9-1-1 dans Skype entreprise Server
+title: Conception de la trunk SIP pour E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,46 +15,46 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
-description: Planification de vos topologies de trunking SIP pour un déploiement E9-1-1 qui utilise des fournisseurs de trunking SIP dans Skype entreprise Server Voice.
-ms.openlocfilehash: bd310b39affbea9b4d9328c66b54712c0d388b8d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planification de vos topologies de trunking SIP pour un déploiement E9-1-1 qui utilise des fournisseurs de trunking SIP dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: ef30d721b59f29885004ee948055a91ca8af9490
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803074"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825794"
 ---
-# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Concevoir le Trunk SIP pour E9-1-1 dans Skype entreprise Server
+# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Conception de la trunk SIP pour E9-1-1 dans Skype Entreprise Server
  
-Planification de vos topologies de trunking SIP pour un déploiement E9-1-1 qui utilise des fournisseurs de trunking SIP dans Skype entreprise Server Voice.
+Planification de vos topologies de trunking SIP pour un déploiement E9-1-1 qui utilise des fournisseurs de trunking SIP dans Skype Entreprise Server Voix Entreprise.
   
-Skype entreprise Server utilise des lignes SIP pour connecter un appel d’urgence au fournisseur de services E9-1-1. Vous pouvez configurer des jonctions SIP de services d’urgence pour le service E9-1-1 au niveau d’un site central, de plusieurs sites centraux ou de chaque site de succursale. Toutefois, si la liaison WAN entre le site de l’appelant et le site qui héberge le service d’urgence SIP Trunk n’est pas disponible, un appel placé par un utilisateur sur le site déconnecté aura besoin d’un enregistrement d’utilisation du téléphone spécial dans la stratégie vocale de l’utilisateur, qui dirigera l’appel vers le ECRC par le biais de la passerelle RTC (réseau téléphonique commuté) locale. Il en va de même si les limites relatives aux appels simultanés du service Contrôle d’admission des appels sont appliquées.
+Skype Entreprise Server utilise des connexions SIP pour connecter un appel d’urgence au fournisseur de services E9-1-1. Vous pouvez configurer des jonctions SIP de services d’urgence pour le service E9-1-1 au niveau d’un site central, de plusieurs sites centraux ou de chaque site de succursale. Toutefois, si la liaison de réseau wan entre le site de l’appelant et le site qui héberge la ligne SIP du service d’urgence n’est pas disponible, un appel passé par un utilisateur sur le site déconnecté aura besoin d’un enregistrement d’utilisation téléphonique spécial dans la stratégie de voix de l’utilisateur qui routera l’appel vers la ECRC via la passerelle PSTN locale. Il en va de même si les limites relatives aux appels simultanés du service Contrôle d’admission des appels sont appliquées.
   
-Il existe deux façons d’implémenter une ligne SIP dans un environnement Skype entreprise Server :
+Il existe deux façons d’implémenter une trunk SIP dans un environnement Skype Entreprise Server :
   
-- Utiliser des serveurs de médiation multi-résidents qui utilisent leurs interfaces routées vers l’extérieur pour communiquer avec le fournisseur de Trunks SIP.
+- Utilisez des serveurs de médiation multi-accueil qui utilisent leurs interfaces acheminées publiquement vers l’extérieur pour communiquer avec le fournisseur de la liaison SIP.
     
-- Utilisez un contrôleur de bordure de session (SBC) local pour fournir un point de délimitation sécurisé entre les serveurs de médiation et les services du fournisseur de Trunks SIP.
+- Utilisez un contrôleur SBC (Session Border Controller) local pour fournir un point de délimitation sécurisé entre les serveurs de médiation et les services du fournisseur de services de la session SIP.
     
-Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels parviennent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur la certification SBCs, voir [« infrastructure Qualified pour Microsoft Lync »](https://go.microsoft.com/fwlink/p/?LinkId=248425) et [« infrastructure de téléphonie pour Skype entreprise »](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
+Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les SCS certifiés, voir « Infrastructure qualifiée pour   [Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) » et « Infrastructure téléphonique pour [Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)». 
   
-Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration de l’acheminement des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
+Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
   
-Pour plus d’informations sur le déploiement d’un Trunk SIP dans Skype entreprise Server, reportez-vous à la rubrique [SIP Trunking dans Skype entreprise Server](sip-trunking.md). Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
+Pour plus d’informations sur le déploiement d’une trunk SIP dans Skype Entreprise Server, voir [la trunking SIP dans Skype Entreprise Server.](sip-trunking.md) Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
   
  **Devez-vous déployer la jonction SIP sur une connexion en bail dédiée ou une connexion Internet partagée ?**
   
 > Il est important que les appels d’urgence se connectent en permanence. Une ligne dédiée fournit une connexion qui n’est pas préemptée par un autre trafic réseau. En outre, elle permet d’implémenter la qualité de service (QoS). N’oubliez pas que si vous vous connectez à des fournisseurs de services d’urgence via le réseau Internet public et si vous devez garantir la confidentialité des appels d’urgence, un chiffrement IPsec est nécessaire. 
     
- **Votre déploiement E9-1-1 est-il conçu pour la tolérance au désastre ?**
+ **Votre déploiement E9-1-1 est-il conçu pour la tolérance aux sinistres ?**
   
-> Puisqu’il s’agit d’une solution d’urgence, la résistance est importante. Déployez vos serveurs de médiation principaux et secondaires et les Trunks SIP dans les emplacements tolérants aux sinistres. Il peut s’avérer utile de déployer votre serveur de médiation principal le plus proche des utilisateurs qu’il prend en charge, et d’acheminer les appels de basculement par le biais du serveur de médiation secondaire (situé dans un autre emplacement géographique). 
+> Puisqu’il s’agit d’une solution d’urgence, la résilience est importante. Déployez vos serveurs de médiation principaux et secondaires et vos trunks SIP dans des emplacements à tolérance d’urgence. Il est bon de déployer votre serveur de médiation principal le plus proche des utilisateurs qu’il est en charge et d’router les appels deover via le serveur de médiation secondaire (situé dans un autre emplacement géographique). 
     
- **Devez-vous déployer une jonction SIP (Session Initiation Protocol) distincte pour chaque succursale ?**
+ **Devez-vous déployer une jonction SIP distincte pour chaque succursale ?**
   
-> Skype entreprise Server offre plusieurs stratégies de gestion de la résilience de la voix dans les bureaux de succursales, notamment : disposer de réseaux de données résilients, le déploiement d’une ligne SIP dans chaque succursale ou le transfert d’appels vers la passerelle locale lors des pannes. Pour plus d’informations, reportez-vous à la rubrique [SIP Trunking dans Skype entreprise Server](sip-trunking.md).
+> Skype Entreprise Server fournit plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels vers la passerelle locale en cas de panne. Pour plus d’informations, [voir la trunking SIP dans Skype Entreprise Server.](sip-trunking.md)
     
- **Le contrôle d’admission des appels est-il activé ?**
+ **Le contrôle d’admission des appels (CAC) est-il activé ?**
   
-> Skype entreprise Server ne gère pas les appels d’urgence de la même manière que les appels ordinaires. Pour cette raison, la gestion de la bande passante ou le service Contrôle d’admission des appels peut avoir un impact négatif sur une configuration E9-1-1. Les appels d’urgence sont bloqués ou acheminés vers la passerelle RTC locale si un service Contrôle d’admission des appels est activé et si la limite configurée est dépassée sur une liaison où les appels d’urgence sont acheminés. Comme indiqué précédemment dans cette rubrique, ce type d’appel ne dispose pas de données d’emplacement et doit être acheminé manuellement vers le centre d’intervention en cas d’appels d’urgence.
+> Skype Entreprise Server ne gère pas les appels d’urgence différemment d’un appel ordinaire. Pour cette raison, la gestion de la bande passante ou le service Contrôle d’admission des appels peut avoir un impact négatif sur une configuration E9-1-1. Les appels d’urgence sont bloqués ou acheminés vers la passerelle PSTN locale si un service Contrôle d’admission des appels est activé et si la limite configurée est dépassée sur une liaison où les appels d’urgence sont acheminés. Comme indiqué précédemment dans cette rubrique, ce type d’appel ne dispose pas de données d’emplacement et doit être acheminé manuellement vers le centre d’intervention en cas d’appels d’urgence.
     
 

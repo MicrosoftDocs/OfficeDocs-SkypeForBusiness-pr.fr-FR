@@ -1,8 +1,8 @@
 ---
-title: Certificat en attente (appel)
+title: Certificat en attente (Invoke)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: La page commandes en cours d’exécution affiche l’état des commandes qui récupèrent le certificat en attente. Lorsque la tâche est achevée, le fichier journal d’extraction des certificats en attente est disponible. Cliquez sur Afficher le journal pour consulter l’état du traitement et de l’achèvement des tâches. Cliquez sur suivant pour continuer.
-ms.openlocfilehash: e424e18c65803c082b187d5a41ecf8133cfa6679
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La page Exécution de commandes affiche le statut des commandes qui récupèrent le certificat en attente. Une fois la tâche achevée, le fichier journal Récupérer les certificats en attente est disponible. Cliquez sur Afficher le journal pour passer en revue le statut du traitement et de l’achèvement de la tâche. Cliquez sur Suivant pour continuer.
+ms.openlocfilehash: 238c4c39c5e7ae1b54b37c2e6536c71bf604e102
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823588"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827094"
 ---
-# <a name="pending-certificate-invoke"></a>Certificat en attente (appel)
+# <a name="pending-certificate-invoke"></a>Certificat en attente (appeler)
  
-La page **commandes en cours d’exécution** affiche l’état des commandes qui récupèrent le certificat en attente. Lorsque la tâche est achevée, le fichier journal d' **extraction des certificats en attente** est disponible. Cliquez sur **afficher le journal** pour consulter l’état du traitement et de l’achèvement des tâches. Cliquez sur **Suivant** pour continuer.
+La page **Exécution de commandes** affiche le statut des commandes qui récupèrent le certificat en attente. Une fois la tâche achevée, le fichier journal **Récupérer les certificats en attente** est disponible. Cliquez sur **Afficher le journal** pour passer en revue le statut du traitement et de l’achèvement de la tâche. Cliquez sur **Suivant** pour continuer.
   
 > [!IMPORTANT]
-> Si le certificat n’a pas encore été approuvé par l’administrateur de l’autorité de certification, le fichier journal de demande de récupération d’attente indique qu’il y a des demandes en attente. Si l’administrateur de l’autorité de certification a refusé la demande, le fichier journal indique un échec et signale l’erreur, indiquant que la demande a été refusée et le nom d’utilisateur de la personne qui a refusé la demande. 
+> Si le certificat n’a pas encore été approuvé par l’administrateur de l’autorité de certification, le fichier journal Récupérer les certificats en attente indiquera que des demandes sont en attente. Si l’administrateur de l’autorité de certification a rejeté la demande, le fichier journal mentionnera un échec et rapportera l’erreur en précisant que la demande a été rejetée ainsi que le nom d’utilisateur de la personne qui a rejeté la demande. 
   
 

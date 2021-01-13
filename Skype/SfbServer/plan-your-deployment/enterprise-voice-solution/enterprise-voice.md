@@ -1,8 +1,8 @@
 ---
-title: Planifier l’entreprise voix dans Skype entreprise Server
+title: Planifier la Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: Notions de base de la planification vocale d’entreprise dans Skype entreprise Server, y compris les sites, les régions, les liens réseau entre sites et l’estimation du trafic d’utilisation de la voix.
-ms.openlocfilehash: 7ef2a37a1ab39dd9c2e40544e06cfb995e846f7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Voix Entreprise base de la planification dans Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation vocale.
+ms.openlocfilehash: 8f10eed8dfcfa7a8878b673ab76fd4d1fd40cc29
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825674"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planifier l’entreprise voix dans Skype entreprise Server
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planifier la Voix Entreprise dans Skype Entreprise Server
  
-Notions de base de la planification vocale d’entreprise dans Skype entreprise Server, y compris les sites, les régions, les liens réseau entre sites et l’estimation du trafic d’utilisation de la voix.
+Voix Entreprise base de la planification dans Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation vocale.
   
-Le processus de déploiement d’Enterprise Voice dépend de votre topologie existante, de l’infrastructure et de la fonctionnalité voix entreprise que vous voulez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
+Le processus de déploiement Voix Entreprise dépend de votre topologie, de votre infrastructure et de la Voix Entreprise que vous souhaitez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
   
-En règle générale, tenez compte du type et du nombre de sites que vous voulez déployer et de leur emplacement géographique, du volume d’appels sur chaque site, des types de liens réseaux qui relient les sites, si vous souhaitez offrir la redondance et le basculement pour la fonctionnalité voix pour chaque site, et enfin si vous voulez utiliser l’équipement PBX existant. Certaines considérations peuvent être prises en compte dans le cadre de la planification de Skype entreprise Server (par exemple, haute disponibilité). Ces considérations sont traitées dans les rubriques de cette section, selon les besoins.
+En règle générale, tenez compte du type et du nombre de sites que vous voulez déployer et de leur emplacement géographique, du volume d’appels sur chaque site, des types de liens réseaux qui relient les sites, si vous souhaitez offrir la redondance et le basculement pour la fonctionnalité voix pour chaque site, et enfin si vous voulez utiliser l’équipement PBX existant. Il existe certaines considérations, telles que la haute disponibilité, que vous devez prendre en considération lorsque vous planifiez Skype Entreprise Server dans son ensemble. Ces considérations sont traitées dans les rubriques de cette section, selon les besoins.
   
 ## <a name="sites-and-regions"></a>Sites et régions
 
-Tout d’abord, identifiez les sites de votre topologie dans lesquels vous déploierez Enterprise Voice et les régions réseau auxquelles ces sites appartiennent. En particulier, pensez à la façon dont vous allez assurer la connectivité PSTN (réseau téléphonique commuté) vers chaque site. Pour des raisons pratiques et logistiques, les régions auxquelles ces sites appartiennent peuvent être un facteur déterminant. Déterminez l’emplacement de déploiement local des passerelles (SBAs) pour le déploiement des passerelles () et l’endroit où vous pouvez configurer les Trunks SIP (localement ou sur le site central) vers un fournisseur de services de téléphonie Internet (ITSP).
+Tout d’abord, identifiez les sites de votre topologie où vous allez déployer Voix Entreprise et les régions réseau à laquelle ces sites appartiennent. En particulier, pensez à la façon dont vous allez assurer la connectivité PSTN (réseau téléphonique commuté) vers chaque site. Pour des raisons pratiques et logistiques, les régions auxquelles ces sites appartiennent peuvent être un facteur déterminant. Décidez où les passerelles seront déployées localement, où les Survivable Branch Appliances (SBA) seront déployés et où vous pouvez configurer des trunks SIP (localement ou sur le site central) vers un fournisseur de services de téléphonie Internet (ITSP).
   
-## <a name="network-links-between-sites"></a>Liaisons réseau entre sites
+## <a name="network-links-between-sites"></a>Liaisons réseau entre les sites
 
-Vous devez également tenir compte de l’utilisation de la bande passante que vous attendez sur les liens réseau entre votre site central et ses sites de succursale. Si vous avez, ou envisagez de déployer, des liens WAN résilients entre les sites, nous vous conseillons de déployer une passerelle sur chaque site de succursale afin de fournir une résiliation directe à l’intérieur de ces sites. Si vous disposez de liaisons de réseau étendu résistantes, alors que la bande passante de l’une d’elles risque d’être limitée, configurez la fonctionnalité de contrôle d’admission des appels sur celle-ci. Si vous n’avez pas de liens WAN résilients, l’hébergement est inférieur à 1000 utilisateurs sur votre site de succursale et ne disposent pas des administrateurs Skype entreprise Server accessibles en local, nous vous conseillons de déployer une application de succursale Survivable sur le site de la succursale. Si vous hébergez des utilisateurs de 1000 et 5000 sur votre site de succursale, que vous n’avez pas de connexion WAN fiable et que vous avez reçu des administrateurs Skype entreprise Server, nous vous conseillons de déployer un serveur de succursales Survivables avec une petite passerelle sur le site de la succursale. Envisagez aussi d’activer la déviation du trafic multimédia sur les liaisons limitées si vous disposez d’un homologue de passerelle qui prend en charge cette fonctionnalité.
+Vous devez également prendre en compte l’utilisation de la bande passante que vous attendez sur les liaisons réseau entre votre site central et ses sites de succursale. Si vous avez ou envisagez de déployer des liaisons wan résilientes entre des sites, nous vous recommandons de déployer une passerelle sur chaque site de succursale pour fournir un arrêt SDN (direct inward dial) local pour les utilisateurs de ces sites. Si vous disposez de liaisons de réseau étendu résistantes, alors que la bande passante de l’une d’elles risque d’être limitée, configurez la fonctionnalité de contrôle d’admission des appels sur celle-ci. Si vous ne disposez pas de liaisons réseau wan résistantes, si vous hébergez moins de 1 000 utilisateurs sur votre site de succursale et que vous n’avez pas d’administrateurs Skype Entreprise Server formés en local, nous vous recommandons de déployer un Survivable Branch Appliance sur le site de succursale. Si vous hébergez entre 1 000 et 5 000 utilisateurs sur votre site de succursale, que vous ne disposez pas d’une connexion WAN résiliente et que des administrateurs Skype Entreprise Server formés sont disponibles, nous vous recommandons de déployer un serveur Survivable Branch Server avec une petite passerelle sur le site de succursale. Envisagez aussi d’activer le contournement de média sur les liaisons limitées si vous disposez d’un homologue de passerelle qui prend en charge cette fonctionnalité.
   
-## <a name="estimating-voice-usage-and-traffic"></a>Estimation du trafic et de l’utilisation de la voix
+## <a name="estimating-voice-usage-and-traffic"></a>Estimation de l’utilisation et du trafic des voix
 
-L’outil de planification de Microsoft Lync Server 2013 utilise la métrique suivante pour estimer le trafic utilisateur sur chaque site, ainsi que le nombre de ports requis pour prendre en charge ce trafic.
+L’outil de planification Microsoft Lync Server 2013 utilise la mesure suivante pour estimer le trafic utilisateur sur chaque site et le nombre de ports requis pour prendre en charge ce trafic.
   
 > Pour **Faible trafic** (1 appel PSTN par utilisateur et par heure), 15 utilisateurs par port.
 > 
@@ -49,32 +49,32 @@ L’outil de planification de Microsoft Lync Server 2013 utilise la métrique su
 > 
 > Pour **Trafic important** (au moins 3 appels PSTN par utilisateur et par heure), 5 utilisateurs par port.
     
-Le nombre de ports à son tour détermine le nombre de serveurs de médiation et de passerelles qui seront nécessaires. La taille des passerelles de réseau téléphonique commuté (PSTN) que la plupart des organisations envisagent de déployer peut aller de 2 à 960 ports. (Il existe des passerelles encore plus importantes, mais celles-ci sont principalement utilisées par des fournisseurs de services téléphoniques.)
+Le nombre de ports détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. La taille des passerelles de réseau téléphonique commuté (PSTN) que la plupart des organisations envisagent de déployer peut aller de 2 à 960 ports. (Il existe des passerelles encore plus importantes, mais celles-ci sont principalement utilisées par des fournisseurs de services téléphoniques.)
   
 Par exemple, une organisation comportant 10 000 utilisateurs et dont le trafic est moyen requiert 1 000 ports. Le nombre de passerelles requis est égal au nombre total de ports requis, qui est déterminé par la capacité totale des passerelles.
   
-## <a name="components-features-and-options-of-enterprise-voice"></a>Composants, fonctionnalités et options de voix entreprise
+## <a name="components-features-and-options-of-enterprise-voice"></a>Composants, fonctionnalités et options de Voix Entreprise
 
-Pour plus d’informations sur la planification de votre déploiement de voix entreprise, consultez les sections suivantes.
+Consultez les sections suivantes pour plus d’informations sur la planification de Voix Entreprise déploiement.
   
-- [Composants requis pour l’entreprise voix dans Skype entreprise Server](components-required-for-enterprise-voice.md)
+- [Composants requis pour Voix Entreprise dans Skype Entreprise Server](components-required-for-enterprise-voice.md)
     
-- [Planifier la connectivité PSTN dans Skype entreprise Server](pstn-connectivity-0.md)
+- [Planifier la connectivité PSTN dans Skype Entreprise Server](pstn-connectivity-0.md)
     
-- [Paramètres réseau pour les fonctions avancées de voix entreprise dans Skype entreprise Server](network-settings-for-advanced-features.md)
+- [Paramètres réseau pour les fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server](network-settings-for-advanced-features.md)
     
-- [Planifier le contrôle d’admission des appels dans Skype entreprise Server](call-admission-control.md)
+- [Planifier le contrôle d’admission des appels dans Skype Entreprise Server](call-admission-control.md)
     
-- [Planifier des services d’urgence dans Skype entreprise Server](emergency-services.md)
+- [Planifier les services d’urgence dans Skype Entreprise Server](emergency-services.md)
     
-- [Plan de contournement de médias dans Skype entreprise](media-bypass.md)
+- [Planifier le contournement de média dans Skype Entreprise](media-bypass.md)
     
-- [Planifier des lignes téléphoniques privées avec Skype entreprise](private-telephone-lines.md)
+- [Planifier des lignes téléphoniques privées avec Skype Entreprise](private-telephone-lines.md)
     
-- [Planifier le routage sur la base de l’emplacement dans Skype entreprise](location-based-routing.md)
+- [Planifier le Location-Based routage des appels dans Skype Entreprise](location-based-routing.md)
     
-- [Planifier les fonctionnalités de gestion des appels dans Skype entreprise](call-management-features.md)
+- [Planifier les fonctionnalités de gestion des appels dans Skype Entreprise](call-management-features.md)
     
-- [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md)
+- [Planifier la résilience Voix Entreprise dans Skype Entreprise Server](enterprise-voice-resiliency.md)
     
 

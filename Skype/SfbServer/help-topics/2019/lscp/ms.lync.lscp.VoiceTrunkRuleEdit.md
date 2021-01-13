@@ -1,8 +1,8 @@
 ---
-title: Règle de traduction création d’un nouveau ou modification existante
+title: 'Règle de traduction : création d’une règle ou modification d’une règle existante'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3edb5c99ccc0dbbf89bef058d24c87b56502ac18
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: fb4f96cf64896aa30b027c59a747828cd6021ccb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795375"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824524"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a>Règle de conversion : en créer une autre ou en modifier une existante
+# <a name="translation-rule-create-new-or-edit-existing"></a>Règle de traduction : création d’une nouvelle ou modification d’une règle existante
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification d’une règle de traduction pour appeler une présentation dans Skype entreprise Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Création ou modification manuelle d’une règle de traduction](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Créer ou modifier manuellement une règle de traduction](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

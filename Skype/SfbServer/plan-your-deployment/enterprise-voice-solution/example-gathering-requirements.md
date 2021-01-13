@@ -1,8 +1,8 @@
 ---
-title: Exemple de rassemblement des exigences de contrôle d’admission des appels dans Skype entreprise Server
+title: Exemple de collecte des conditions requises pour le contrôle d’admission des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Fournit un exemple détaillé de la planification du contrôle d’admission des appels dans la voix Skype entreprise Server entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
-ms.openlocfilehash: bf33c70120adb65c88a6be05d2c04bf55e989b72
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
+ms.openlocfilehash: a51ffe9248a8d5daf1e21a9c20bb753ddb26898f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802884"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825684"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : rassemblement des exigences de contrôle d’admission des appels dans Skype entreprise Server
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : collecte des conditions requises pour le contrôle d’admission des appels dans Skype Entreprise Server
 
-Fournit un exemple détaillé de la planification du contrôle d’admission des appels dans la voix Skype entreprise Server entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
+Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
 
 Cet exemple indique comment planifier et implémenter le contrôle d’admission des appels (CAC). Globalement, il s’agit des activités suivantes :
 
 1. Identifiez l’ensemble de vos concentrateurs réseau et dorsales principales (connues aussi sous le nom de régions réseau).
 
-2. Identifiez le site central Skype entreprise Server qui gère le CAC pour chaque région du réseau.
+2. Identifiez le site central Skype Entreprise Server qui gérera le contrôle d’accès au contrôle d’accès pour chaque région réseau.
 
 3. Identifiez et définissez les sites réseau connectés à chaque région réseau.
 
-4. Pour chaque site réseau pour lequel la connexion au réseau étendu (WAN) est soumise à une bande passante, décrivez la capacité de bande passante utilisée par la connexion WAN et les limites de bande passante pour le trafic multimédia de Skype entreprise Server, le cas échéant. Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.
+4. Pour chaque site réseau dont la connexion au réseau wan est limitée par la bande passante, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante définies par l’administrateur réseau pour le trafic multimédia Skype Entreprise Server, le cas échéant. Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.
 
 5. Associez chaque sous-réseau de votre réseau à un site réseau.
 
-6. Mappez les liaisons entre régions réseau. Pour chaque lien, décrivez la capacité de la bande passante et les limites que l’administrateur réseau a placées sur le trafic multimédia de Skype entreprise Server.
+6. Mappez les liaisons entre régions réseau. Pour chaque lien, décrivez sa capacité de bande passante et les limites que l’administrateur réseau a placées sur le trafic multimédia Skype Entreprise Server.
 
 7. Définissez un itinéraire entre chaque paire de régions réseau.
 
@@ -53,20 +53,20 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
     Notre exemple de topologie comporte trois régions réseau : Amérique du Nord, EMEA et APAC. Une région réseau contient une collection de sites réseau. Définissez les régions réseau de votre entreprise avec l’administrateur réseau.
 
-2. Identifiez le site central associé de chaque région du réseau. Un site central comporte au moins un serveur frontal et est le déploiement de Skype entreprise Server qui gère le CAC pour l’ensemble du trafic multimédia transmis par le biais de la connexion WAN de la région du réseau.
+2. Identifiez le site central associé à chaque région réseau. Un site central contient au moins un serveur frontal et est le déploiement Skype Entreprise Server qui gère le contrôle d’accès au contrôle d’accès pour tout le trafic multimédia transitant par la connexion WAN de la région réseau.
 
    **Exemple de réseau d’entreprise divisé en trois régions réseau**
 
      ![Exemple de topologie réseau avec 3 régions réseau](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, reportez-vous à la rubrique [composants et topologies pour le contrôle d’admission des appels dans Skype entreprise](components-and-topologies.md). 
+    > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, [voir Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
 
-    Dans la topologie réseau de l’exemple précédent, il existe trois régions réseau, chacune avec un site central Skype entreprise Server qui gère CAC. Le site central approprié pour une région de réseau est choisi par le voisinage géographique. Dans la mesure où le trafic multimédia sera le plus lourd dans les régions du réseau, la propriété de l’élément géographique voisin le rend autonome et restera opérationnel même si d’autres sites centraux deviennent indisponibles. 
+    Dans l’exemple de topologie réseau précédent, il existe trois régions réseau, chacune avec un site central Skype Entreprise Server qui gère le contrôle d’accès au contrôle d’accès. Le site central approprié pour une région réseau est choisi par le périmètre géographique. Étant donné que le trafic multimédia sera le plus important au sein des régions réseau, la propriété par secteur géographique le rend autonome et continuera à fonctionner même si d’autres sites centraux deviennent indisponibles. 
 
-    Dans cet exemple, un déploiement Skype entreprise appelé Chicago est le site central pour la région Amérique du Nord.
+    Dans cet exemple, un déploiement Skype Entreprise nommé Chicago est le site central de la région Amérique du Nord.
 
-    Tous les utilisateurs Skype entreprise en Amérique du Nord sont hébergés sur des serveurs dans le déploiement de Chicago. Le tableau ci-dessous répertorie les sites centraux pour les trois régions réseau.
+    Tous les utilisateurs de Skype Entreprise en Amérique du Nord sont situés sur des serveurs du déploiement Chicago. Le tableau suivant répertorie les sites centraux pour les trois régions réseau.
 
     **Régions réseau et leur site central associé**
 
@@ -74,32 +74,32 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     |:-----|:-----|
     |Amérique du Nord  <br/> |Chicago  <br/> |
     |EMEA  <br/> |Londres  <br/> |
-    |APAC  <br/> |Pékin  <br/> |
+    |APAC  <br/> |Beijing  <br/> |
 
     > [!NOTE]
-    > En fonction de votre topologie de Skype entreprise Server, le même site central peut être attribué à plusieurs zones du réseau. 
+    > Selon votre topologie Skype Entreprise Server, le même site central peut être affecté à plusieurs régions réseau. 
 
-3. Pour chaque région réseau, identifiez tous les sites réseau (bureaux ou emplacements) dont les connexions au réseau étendu ne sont pas soumises à une limite de bande passante. Comme ces sites disposent de liaisons réseau dont la bande passante n’est pas limitée, il n’est pas nécessaire de leur appliquer des stratégies de bande passante CAC.
+3. Pour chaque région réseau, identifiez tous les sites réseau (bureaux ou emplacements) dont les connexions au WAN ne sont pas soumises à une limite de bande passante. Comme ces sites disposent de liaisons réseau dont la bande passante n’est pas limitée, il n’est pas nécessaire de leur appliquer des stratégies de bande passante CAC.
 
     Dans l’exemple présenté dans le tableau suivant, trois sites réseau disposent de liaisons réseau dont la bande passante n’est pas limitée : New York, Chicago et Détroit.
 
-   **Sites réseau non limités par la bande passante de la connexion de réseau étendu**
+   **Sites réseau non limités par la bande passante de la connexion WAN**
 
 
    | **Site réseau** | **Région réseau**   |
    |:-----------------|:---------------------|
    | New York  <br/>  | Amérique du Nord  <br/> |
    | Chicago  <br/>   | Amérique du Nord  <br/> |
-   | Detroit  <br/>   | Amérique du Nord  <br/> |
+   | Détroit  <br/>   | Amérique du Nord  <br/> |
 
 
-4. Pour chaque région réseau, identifiez tous les sites réseau se connectant à la région réseau via des liaisons de réseau étendu dont la bande passante est limitée.
+4. Pour chaque région réseau, identifiez tous les sites réseau se connectant à la région réseau via des liaisons WAN dont la bande passante est limitée.
 
-    Pour garantir la qualité de l’audio et de la vidéo, nous recommandons de surveiller les réseaux de réseau étendu des sites dont la bande passante est limitée et d’imposer des stratégies de bande passante CAC limitant le flux multimédia (vocal ou vidéo) à partir de et vers la région réseau.
+    Pour garantir la qualité de l’audio et de la vidéo, nous recommandons de surveiller les réseaux WAN des sites dont la bande passante est limitée et d’imposer des stratégies de bande passante CAC limitant le flux multimédia (vocal ou vidéo) depuis et vers la région réseau.
 
-    Dans l’exemple présenté dans le tableau suivant, trois sites réseaux sont limités par la bande passante du réseau étendu : Portland, Reno et Albuquerque.
+    Dans l’exemple présenté dans le tableau suivant, trois sites réseaux sont limités par la bande passante du WAN : Portland, Reno et Albuquerque.
 
-   **Sites réseau limités par la bande passante de la connexion de réseau étendu**
+   **Sites réseau limités par la bande passante de la connexion WAN**
 
    |**Site réseau**|**Région réseau**|
    |:-----|:-----|
@@ -107,56 +107,56 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
    |Reno  <br/> |Amérique du Nord  <br/> |
    |Portland  <br/> |Amérique du Nord  <br/> |
 
-   **Région réseau CAC Amérique du Nord et trois sites réseau non limités par la bande passante (Chicago, New York et Détroit) et trois sites réseau limités par la bande passante de la liaison de réseau étendu (Portland, Reno et Albuquerque)**
+   **Région réseau CAC Amérique du Nord et trois sites réseau non limités par la bande passante (Chicago, New York et Détroit) et trois sites réseau limités par la bande passante de la liaison WAN (Portland, Reno et Albuquerque)**
 
-     ![Exemples de sites réseau limités par la bande passante de la connexion WAN](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Exemples de sites réseau limités par la bande passante wan](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
-5. Pour chaque liaison de réseau étendu dont la bande passante est limitée, déterminez les points suivants :
+5. Pour chaque liaison WAN dont la bande passante est limitée, déterminez les points suivants :
 
-   - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne la dépassement de cette limite, Skype entreprise Server n’autorise pas le démarrage de la session.
+   - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
    - Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.
 
-   - Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées. Si une nouvelle session vidéo ne sera pas dépassée, Skype entreprise Server n’autorise pas le démarrage de la session.
+   - Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées. Si une nouvelle session vidéo entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
    - Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.
 
-     **Sites réseau et informations de restriction de bande passante de réseau étendu (bande passante en Kbits/s)**
+     **Sites réseau et informations de restriction de bande passante WAN (bande passante en Kbits/s)**
 
 
      | **Site réseau**   | **Région réseau**   | **Limite BP**      | **Limite audio**   | **Limite de session audio** | **Limite vidéo**   | **Limite de session vidéo** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
-     | Albuquerque  <br/> | Amérique du Nord  <br/> | 5 000  <br/>      | 2 000  <br/>      | 175  <br/>              | 1 400  <br/>      | 700  <br/>              |
-     | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              |
-     | Portland  <br/>    | Amérique du Nord  <br/> | 5 000  <br/>      | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              |
+     | Albuquerque  <br/> | Amérique du Nord  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              |
+     | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
+     | Portland  <br/>    | Amérique du Nord  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
      | New York  <br/>    | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
      | Chicago  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
-     | Detroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
+     | Détroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
 
 
 6. Pour chaque sous-réseau du réseau, indiquez son site réseau associé.
 
     > [!IMPORTANT]
-    > Chaque sous-réseau doit être associé à un site réseau, même si le site réseau n’est pas soumis à une limite de bande passante. Cela est dû au fait que le contrôle d’admission des appels utilise les informations relatives aux sous-réseaux pour déterminer sur quel site réseau un point de terminaison doit se situer. Lorsque les emplacements de chaque partie de la session sont déterminés, le contrôle d’admission des appels peut déterminer si la bande passante est suffisante pour établir l’appel. Lorsqu’une session est établie sur une liaison dont la bande passante n’est pas limitée, une alerte est générée. 
+    > Chaque sous-réseau doit être associé à un site réseau, même si le site réseau n’est pas soumis à une limite de bande passante. Cela est dû au fait que le contrôle d’admission des appels utilise les informations relatives aux sous-réseaux pour déterminer sur quel site réseau un système d’extrémité doit se situer. Lorsque les emplacements de chaque partie de la session sont déterminés, le contrôle d’admission des appels peut déterminer si la bande passante est suffisante pour établir l’appel. Lorsqu’une session est établie sur une liaison dont la bande passante n’est pas limitée, une alerte est générée. 
 
     > [!IMPORTANT]
-    > Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé. Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32. Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux. Pour plus d’informations sur les adresses IP publiques, reportez-vous à [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé. Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32. Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux. Pour plus d’informations sur les adresses IP publiques, voir [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md). 
 
     Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :
 
-    **Source** : Service de stratégie de bande passante (principal) CS 
+    **Source** : service de stratégie de bande passante CS (principal) 
 
     **Numéro d’événement** : 36034
 
     **Niveau** : 2
 
-    **Description**: les sous-réseaux pour les adresses IP suivantes \<: une liste d'\> adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau. 
+    **Description**: les sous-réseaux pour les adresses IP suivantes : ne sont pas configurés ou les sous-réseaux ne sont pas \<List of IP Addresses\> associés à un site réseau. 
 
     **Cause** : les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau. 
 
     **Résolution** : ajoutez les sous-réseaux pour les adresses IP correspondantes aux paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.
 
-    Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit :
+    Par exemple, si la liste d’adresses IP qui apparaît dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit :
 
     a. Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.
 
@@ -167,21 +167,21 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    | **Site réseau**   | **Région réseau**   | **Limite BP**      | **Limite audio**   | **Limite de session audio** | **Limite vidéo**   | **Limite de session vidéo** | **Sous-réseaux**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
-   | Albuquerque  <br/> | Amérique du Nord  <br/> | 5 000  <br/>      | 2 000  <br/>      | 175  <br/>              | 1 400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-   | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
-   | Portland  <br/>    | Amérique du Nord  <br/> | 5 000  <br/>      | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | Albuquerque  <br/> | Amérique du Nord  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
+   | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
+   | Portland  <br/>    | Amérique du Nord  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | New York  <br/>    | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
-   | Detroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
+   | Détroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. Dans le contrôle d’admission des appels de Skype entreprise Server, les connexions entre les régions réseau sont appelées liaisons de région. Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :
+7. Dans le contrôle d’admission des appels Skype Entreprise Server, les connexions entre les régions réseau sont appelées liens de région. Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :
 
-   - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne la dépassement de cette limite, Skype entreprise Server n’autorise pas le démarrage de la session.
+   - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
    - Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.
 
-   - Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées. Si une nouvelle session vidéo ne sera pas dépassée, Skype entreprise Server n’autorise pas le démarrage de la session.
+   - Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées. Si une nouvelle session vidéo entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
    - Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.
 
@@ -194,8 +194,8 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    | **Nom de la liaison réseau**  | **Première région**     | **Seconde région** | **Limite BP**  | **Limite audio** | **Limite de session audio** | **Limite vidéo** | **Limite de session vidéo** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
-   | NA-EMEA-LINK  <br/>   | Amérique du Nord  <br/> | EMEA  <br/>       | 50 000  <br/> | 20 000  <br/>   | 175  <br/>              | 14 000  <br/>   | 700  <br/>              |
-   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10 000  <br/>   | 175  <br/>              | 7 000  <br/>    | 700  <br/>              |
+   | NA-EMEA-LINK  <br/>   | Amérique du Nord  <br/> | EMEA  <br/>       | 50 000  <br/> | 20,000  <br/>   | 175  <br/>              | 14,000  <br/>   | 700  <br/>              |
+   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10 000  <br/>   | 175  <br/>              | 7,000  <br/>    | 700  <br/>              |
 
 
 8. Définissez un itinéraire entre chaque paire de régions réseau.
@@ -215,29 +215,29 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 9. Pour chaque paire de sites réseau directement connectée à une seule liaison (appelée liaison intersite), déterminez ce qui suit :
 
-     - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne la dépassement de cette limite, Skype entreprise Server n’autorise pas le démarrage de la session.
+     - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
      - Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.
 
-     - Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées. Si une nouvelle session vidéo ne sera pas dépassée, Skype entreprise Server n’autorise pas le démarrage de la session.
+     - Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées. Si une nouvelle session vidéo entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
      - Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.
 
    **Région réseau CAC Amérique du Nord avec les capacités et les limites de bande passante de la liaison intersite entre Reno et Albuquerque**
 
-     ![Exemple de sites réseau limités par la bande passante de la connexion WAN](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Exemple de sites réseau limités par la bande passante wan](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Information de bande passante d’une liaison intersite entre deux sites réseau (bande passante en Kbits/s)**
 
    |**Nom de la liaison intersite**|**Premier site**|**Second site**|**Limite BP**|**Limite audio**|**Limite de session audio**|**Limite vidéo**|**Limite de session vidéo**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20 000  <br/> |12 000  <br/> |175  <br/> |5 000  <br/> |700  <br/> |
+   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20,000  <br/> |12,000  <br/> |175  <br/> |5,000  <br/> |700  <br/> |
 
 ### <a name="next-steps"></a>Étapes suivantes
 
-Après avoir recueilli les informations requises, vous pouvez effectuer le déploiement CAC à l’aide de Skype entreprise Server Management Shell ou du panneau de configuration Skype entreprise Server.
+Une fois que vous avez collecté les informations requises, vous pouvez effectuer le déploiement du contrôle d’accès au contrôle d’accès en utilisant Skype Entreprise Server Management Shell ou le Panneau de contrôle Skype Entreprise Server.
 
 > [!NOTE]
-> Même si vous pouvez effectuer la plupart des tâches de configuration réseau en utilisant le panneau de configuration Skype entreprise Server, pour créer des sous-réseaux et des liaisons intersites, vous devez utiliser Skype entreprise Server Management Shell. Pour plus d’informations, reportez-vous aux rubriques [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
+> Bien que vous pouvez effectuer la plupart des tâches de configuration réseau à l’aide du Panneau de configuration de Skype Entreprise Server, pour créer des sous-réseaux et des liens intersite, vous devez utiliser Skype Entreprise Server Management Shell. Pour plus d’informations, voir [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
 
 

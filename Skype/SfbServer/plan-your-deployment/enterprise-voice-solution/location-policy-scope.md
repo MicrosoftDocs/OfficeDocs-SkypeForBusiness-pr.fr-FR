@@ -1,8 +1,8 @@
 ---
-title: Affectation de l’étendue de la stratégie d’emplacement dans Skype entreprise Server
+title: Attribution d’une étendue de stratégie d’emplacement dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
-description: Planification de stratégies d’emplacement pour un déploiement E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: 3865db146676ed64da9422d2a8731e44451ec6ac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planification des stratégies d’emplacement pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 586aabe919ea4236dc724446da717b5f300d88e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802754"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825524"
 ---
-# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Affectation de l’étendue de la stratégie d’emplacement dans Skype entreprise Server
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Attribution d’une étendue de stratégie d’emplacement dans Skype Entreprise Server
  
-Planification de stratégies d’emplacement pour un déploiement E9-1-1 dans Skype entreprise Server Voice.
+Planification des stratégies d’emplacement pour un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
   
-Comme avec d’autres stratégies serveur Skype entreprise, des stratégies d’emplacement peuvent être affectées à plusieurs niveaux d’étendue : global, site et utilisateur. Toutefois, l’étendue des stratégies d’emplacement utilisateur se comporte de manière légèrement différente de celle des autres stratégies serveur Skype entreprise. Les stratégies d’emplacement par utilisateur ne peuvent pas seulement être appliquées aux objets de point de terminaison (par exemple, les utilisateurs et les objets de contact de zone commune), ils peuvent également être appliqués aux sites du réseau Skype entreprise Server. Les sites réseau sont des regroupements de sous-réseaux clients associés à un emplacement géographique (mais pas nécessairement tous les sous-réseaux dans un site central ou un site de succursale). Tous les clients connectés aux sous-réseaux dans un site réseau utilisent automatiquement la stratégie d’emplacement affectée à ce site réseau. Dans les cas où une stratégie d’emplacement de niveau utilisateur est affectée à un utilisateur et à un site réseau, la stratégie d’emplacement de site réseau remplace les paramètres de stratégie par utilisateur.
+Comme avec d’autres stratégies Skype Entreprise Server, les stratégies d’emplacement peuvent être affectées à plusieurs niveaux d’étendue : global, site et utilisateur. Toutefois, l’étendue des stratégies d’emplacement au niveau de l’utilisateur se comporte un peu différemment des autres stratégies Skype Entreprise Server. Non seulement les stratégies d’emplacement par utilisateur peuvent être appliquées aux objets de point de terminaison (tels que les objets contact Utilisateurs et Téléphone de partie commune), mais elles peuvent également être appliquées aux sites réseau Skype Entreprise Server. Les sites réseau sont des regroupements de sous-réseaux clients associés à un emplacement géographique (mais pas nécessairement tous les sous-réseaux dans un site central ou un site de succursale). Tous les clients connectés aux sous-réseaux dans un site réseau utilisent automatiquement la stratégie d’emplacement affectée à ce site réseau. Dans les cas où une stratégie d’emplacement de niveau utilisateur est affectée à un utilisateur et à un site réseau, la stratégie d’emplacement de site réseau remplace les paramètres de stratégie par utilisateur.
   
 Une stratégie d’emplacement est affectée à chaque site réseau. Différentes valeurs d’utilisations PSTN, d’URI de notification et d’URI de conférence sont affectées à chaque stratégie.
   

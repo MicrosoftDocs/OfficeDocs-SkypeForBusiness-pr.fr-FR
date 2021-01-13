@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’une application externe
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
-description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du tronçon suivant pour ce pool d’applications approuvées. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: e913a227b3d5a16384b7f7503ae6e7be693c1736
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 7520b70515c6134555652d0314c44ea05b1671f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218825"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823924"
 ---
 # <a name="external-application-scope-node"></a>Nœud d’étendue d’une application externe
  
-Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du tronçon suivant pour ce pool d’applications approuvées. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes :
   
-- **Nouveau serveur**. Lance l’Assistant définition d’un **nouveau serveur** , que vous pouvez utiliser pour ajouter un autre serveur à ce pool d’applications approuvées.
+- **Nouveau serveur**. Démarre **l’Assistant Définir un** nouveau serveur, que vous pouvez utiliser pour ajouter un autre serveur à ce pool d’applications fiables.
     
-- **Modifier les propriétés** Ouvre la page **modifier les propriétés** de ce serveur, dans laquelle vous pouvez définir le nom de domaine complet et le port du pool externe, activer et désactiver la Fédération et la traduction d’adresses réseau (NAT) et spécifier le pool du tronçon suivant.
+- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce serveur, dans laquelle vous pouvez définir le nom de pool interne et externe et le port, activer et désactiver la fédération et la traduction d’adresses réseau (NAT) et spécifier le pool du saut suivant.
     
 - **Supprimer**. Supprime le pool de la topologie.
     

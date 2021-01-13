@@ -1,8 +1,8 @@
 ---
-title: Planifier les fonctionnalités de gestion des appels dans Skype entreprise
+title: Planifier les fonctionnalités de gestion des appels dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: Présentation des fonctionnalités de gestion des appels prises en charge dans Skype entreprise Server Voice.
-ms.openlocfilehash: e987f2c004c3ef5583a673a87f3b7acdb9f83ddf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Vue d’ensemble des fonctionnalités de gestion des appels pris en charge dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 506ffa9dca87544be8798f2bf98dc6a24cb2d7c9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803214"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825944"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planifier les fonctionnalités de gestion des appels dans Skype entreprise
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planifier les fonctionnalités de gestion des appels dans Skype Entreprise
 
-Présentation des fonctionnalités de gestion des appels prises en charge dans Skype entreprise Server Voice.
+Vue d’ensemble des fonctionnalités de gestion des appels pris en charge dans Skype Entreprise Server Voix Entreprise.
 
-Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent. Skype entreprise Server inclut les fonctionnalités de gestion des appels suivantes :
+Les fonctionnalités de gestion des appels Voix Entreprise contrôlent la façon dont le système achemine les appels entrants et y répond. Skype Entreprise Server offre les fonctionnalités de gestion des appels suivantes :
 
-- **Parc d’appels**: permet aux utilisateurs de la voix de parcer temporairement un appel et de le décrocher du même numéro ou d’un autre téléphone.
+- **Parc d’appel**: permet aux utilisateurs vocaux de parquer temporairement un appel, puis de le reprendre à partir du même téléphone ou d’un autre téléphone.
 
-- **Enlèvement de groupe**: permet aux utilisateurs de la voix de décrocher les appels qui sonnent pour d’autres utilisateurs vocaux disposant de groupes de cueillette d’appel.
+- **Prise de groupe**: permet aux utilisateurs vocaux de reprendre les appels qui sonnent pour d’autres utilisateurs qui sont affectés à des groupes de prise d’appel.
 
-- **Response Group**: route les appels entrants vers des groupes d’agents en utilisant des groupes de recherche ou des questions et réponses de réponse vocale interactives.
+- **Response Group :** approvisionnement des appels entrants vers des groupes d’agents à l’aide de groupements de recherche ou de questions et réponses interactives de réponse vocale (IVR).
 
 - **Annonce** : lit un message pour les appels passés à un numéro non attribué et/ou achemine l’appel vers un autre emplacement.
 
@@ -41,12 +41,12 @@ Si vous prévoyez de déployer Voix Entreprise, vous pouvez choisir d’implém
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Planning for Call Parking](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
+- [Planification du parc d’appel](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
 
-- [Planning for Group Pickup](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
+- [Planification de la prise de groupe](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
 
-- [Planning for Response Groups](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
+- [Planification pour les groupes Response Group](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
 
-- [Planning for Announcements](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
+- [Planification des annonces](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
 
 

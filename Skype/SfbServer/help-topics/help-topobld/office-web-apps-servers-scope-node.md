@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des serveurs Office Web Apps Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Cliquez avec le bouton droit sur serveurs Office Web Apps Server, puis sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
-ms.openlocfilehash: 6cc31249f2ac7245fd279dc562f61ac5ad24cd1a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Cliquez avec le bouton droit sur Serveurs Office Web Apps Server et sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
+ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216095"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823894"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nœud d’étendue des serveurs Office Web Apps Server
 
-Cliquez avec le bouton droit sur **serveurs Office Web Apps** Server, puis sélectionnez **nouveau serveur Office Web Apps Server** pour ouvrir l’Assistant.
+Cliquez avec le bouton **droit sur Serveurs Office Web Apps Server** et sélectionnez Nouveau serveur Office Web Apps **Server** pour ouvrir l’Assistant.
 
 ![Nœud d’étendue des serveurs OfficeWebApps](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner les composants des versions précédentes ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions précédentes ou supprimer le déploiement.
 
 - **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
 

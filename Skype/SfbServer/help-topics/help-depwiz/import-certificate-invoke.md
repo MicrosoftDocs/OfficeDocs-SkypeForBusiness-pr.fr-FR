@@ -1,8 +1,8 @@
 ---
-title: Importer un certificat (appel)
+title: Importer un certificat (Invoke)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
-description: Dans la page exécution des commandes, passez en revue les informations de synthèse relatives au certificat importé. Dans la liste déroulante, sélectionnez le fichier du journal d’importation. Vérifiez que le fichier journal d’importation est visible dans la liste déroulante. Cliquez sur Afficher le journal pour passer en revue les détails de l’importation du certificat. Lorsque vous avez fini de consulter le résumé et le fichier journal, cliquez sur Terminer.
-ms.openlocfilehash: b4b3194ecd9abbf4c99a22f5ca90ea6fa296fe9a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Dans la page Exécution des commandes, passez en revue les informations récapitulatives relatives au certificat importé. Dans la liste déroulante, sélectionnez le fichier journal Importer un certificat. Assurez-vous que ce fichier journal figure dans la liste déroulante. Cliquez sur Afficher le journal pour passer en revue les détails de l’importation de certificat. Lorsque vous avez terminé de passer en revue le récapitulatif et le fichier journal, cliquez sur Terminer.
+ms.openlocfilehash: 907342d422f71d84fab9e2e4bcf2cce5fa46ce49
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823658"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827254"
 ---
-# <a name="import-certificate-invoke"></a>Importer un certificat (appel)
+# <a name="import-certificate-invoke"></a>Importer un certificat (appeler)
  
-Dans la page **exécution des commandes** , passez en revue les informations de synthèse relatives au certificat importé. Dans la liste déroulante, sélectionnez le fichier du journal d’importation. Vérifiez que le fichier journal d’importation est visible dans la liste déroulante. Cliquez sur **afficher le journal** pour passer en revue les détails de l’importation du certificat. Lorsque vous avez fini de consulter le résumé et le fichier journal, cliquez sur **Terminer**.
+Dans la page **Exécution des commandes**, passez en revue les informations récapitulatives relatives au certificat importé. Dans la liste déroulante, sélectionnez le fichier journal Importer un certificat. Assurez-vous que ce fichier journal figure dans la liste déroulante. Cliquez sur **Afficher le journal** pour passer en revue les détails de l’importation de certificat. Lorsque vous avez terminé de passer en revue le récapitulatif et le fichier journal, cliquez sur **Terminer**.
   
 

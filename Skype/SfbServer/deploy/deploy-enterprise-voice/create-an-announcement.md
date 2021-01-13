@@ -1,8 +1,8 @@
 ---
-title: Création ou suppression d’une annonce dans Skype entreprise Server
+title: Créer ou supprimer une annonce dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,62 +15,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Créez ou supprimez des annonces pour une application d’annonce dans Skype entreprise Server Voice. Cela affecte le traitement des appels à des numéros non attribués.
-ms.openlocfilehash: 7cde8c268c66d19e6806a4b6c3e585a7271ef2ff
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Créez ou supprimez des annonces pour l’application d’annonce dans Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
+ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767957"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824904"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Création ou suppression d’une annonce dans Skype entreprise Server
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Créer ou supprimer une annonce dans Skype Entreprise Server
 
-Créez ou supprimez des annonces pour une application d’annonce dans Skype entreprise Server Voice. Cela affecte le traitement des appels à des numéros non attribués.
+Créez ou supprimez des annonces pour l’application d’annonce dans Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
 
-Lorsque vous configurez des annonces, vous configurez vraiment la manière dont vous voulez que les appels à des numéros non attribués soient traités. Vous pouvez lire une invite, qui peut être un fichier audio ou un fichier de synthèse vocale (TTS) ou vous contenter de transférer l’appel vers une destination spécifiée sans lire d’invite.
+Lorsque vous configurez des annonces, vous configurez vraiment la manière dont vous voulez que les appels à des numéros non attribués soient traités. Vous pouvez lire une invite, qui peut être un fichier audio ou un fichier de synthèse vocale (TTS), ou bien vous contenter de transférer l’appel vers une destination spécifiée sans lire d’invite.
 
-Vous devez créer des annonces avant de définir le tableau des numéros non attribués. Vous devez effectuer cette étape pour toutes les annonces utilisant une invite sous forme de fichier audio, de fichier de synthèse vocale (TTS) ou n’utilisant aucune invite.
+Vous devez créer des annonces avant de définir le tableau des numéros non attribués. Vous devez effectuer cette étape pour toutes les annonces utilisant une invite sous forme de fichier audio, de fichier de synthèse vocale (TTS), ou n’utilisant aucune invite.
 
-Cette rubrique décrit comment importer et créer des annonces. Pour plus d’informations sur l’attribution d’annonces dans la table des numéros non attribués, reportez-vous à la rubrique [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
+Cette rubrique décrit comment importer et créer des annonces. Pour plus d’informations sur l’affectation d’annonces dans la table des chiffres non attribués, voir Configurer la [table Desassigned Number](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
 
-## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Création d’une annonce pour les numéros non attribués
+## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Créer une annonce pour les numéros non signés
 
-Pour créer une annonce, vous devez effectuer les tâches suivantes :
+Pour créer une annonce, vous devez effectuer les étapes suivantes :
 
-1. Pour des invites audio, enregistrez le fichier audio à l’aide de votre application d’enregistrement audio favorite.
+1. Pour les invites audio, enregistrez le fichier audio à l’aide de votre application d’enregistrement audio favorite.
 
-2. Pour des invites audio, exécutez l’applet de commande **Import-CsAnnouncementFile** pour importer les contenus du fichier audio vers le magasin de fichiers.
+2. Pour les invites audio, exécutez l’cmdlet **Import-CsAnnouncementFile** pour importer le contenu du fichier audio dans le magasin de fichiers.
 
-3. Exécutez l’applet de commande **New-CsAnnouncement** pour créer et nommer l’annonce. Effectuez cette étape pour créer des annonces avec une invite audio, une invite TTS ou sans invite.
+3. Exécutez **l’cmdlet New-CsAnnouncement** pour créer et nommer l’annonce. Effectuez cette étape pour créer des annonces avec une invite audio, une invite de reconnaissance vocale (TTS) ou sans invite.
 
     > [!TIP]
-    > Vous pouvez créer une annonce sans invite (par exemple, si vous voulez transférer des appels vers une destination spécifiques sans lire d’invite).
+    > Vous pouvez créer une annonce sans invite (par exemple, si vous souhaitez transférer des appels vers une destination spécifique sans lire de message).
 
-4. Affectez la nouvelle annonce à une plage de numéros dans la table des numéros non attribués.
+4. Affectez la nouvelle annonce à une plage de numéro dans la table des chiffres non attribués.
 
 ### <a name="to-create-a-new-announcement"></a>Pour créer une annonce
 
-1. Pour des invites audio, créez le fichier audio.
+1. Pour les invites audio, créez le fichier audio.
 
-2. Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans **autorisations de configuration de délégué**.
+2. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-3. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+3. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
 
-4. Pour des invites audio, exécutez :
+4. Pour les invites audio, exécutez :
 
    ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Exécutez :
+5. Exécutez :
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    Pour transférer des appels vers la messagerie vocale, tapez SIPAddress au format sip:nomutilisateur@nomdomaine;opaque=app:voicemail (par exemple, sip:bob@contoso.com;opaque=app:voicemail). Pour transférer des appels vers un numéro de téléphone, tapez SIPAddress au format sip:number@nomdomaine;user=phone (par exemple, sip:+ 14255550121@contoso.com;user=phone).
+    Pour transférer des appels vers la messagerie vocale, tapez SIPAddress au format sip:username@domainname;opaque=app:voicemail (par exemple, sip:bob@contoso.com;opaque=app:voicemail). Pour transférer des appels vers un numéro de téléphone, tapez SIPAddress au format sip:number@domainname;user=phone (par exemple, sip:+ 14255550121@contoso.com;user=phone).
 
-    Par exemple, pour spécifier une invite audio :
+    Par exemple, pour spécifier une invite audio :
 
    ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
@@ -78,21 +78,21 @@ Pour créer une annonce, vous devez effectuer les tâches suivantes :
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
 
-    Par exemple, pour spécifier une invite TTS :
+    Par exemple, pour spécifier une invite TTS :
 
    ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Pour plus d’informations sur ces cmdlets et afficher la liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt** , voir [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Pour plus d’informations sur ces cmdlets et pour obtenir la liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt,** voir [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
 
-## <a name="delete-an-announcement-for-unassigned-numbers"></a>Suppression d’une annonce pour les numéros non attribués
+## <a name="delete-an-announcement-for-unassigned-numbers"></a>Supprimer une annonce pour les numéros non signés
 
 ### <a name="to-delete-an-announcement"></a>Pour supprimer une annonce
 
-1. Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans **autorisations de configuration de délégué**.
+1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
 
 3. Répertoriez toutes les annonces de votre organisation. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -100,28 +100,28 @@ Pour créer une annonce, vous devez effectuer les tâches suivantes :
    Get-CsAnnouncement
    ```
 
-4. Dans la liste obtenue, recherchez l’annonce à supprimer et copiez le GUID. À partir de la ligne de commande, exécutez la commande suivante :
+4. Dans la liste obtenue, recherchez l’annonce que vous voulez supprimer et copiez le GUID. À partir de la ligne de commande, exécutez la commande suivante :
 
    ```powershell
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    Exemple :
+    Par exemple :
 
    ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 
     > [!NOTE]
-    > Pour plus d’informations sur les autres options, voir [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) et [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Pour plus d’informations sur d’autres options, voir [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) et [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>Voir aussi
 
-[Création ou suppression d’une annonce dans Skype entreprise Server](create-an-announcement.md)
+[Créer ou supprimer une annonce dans Skype Entreprise Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[Nouveau-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 

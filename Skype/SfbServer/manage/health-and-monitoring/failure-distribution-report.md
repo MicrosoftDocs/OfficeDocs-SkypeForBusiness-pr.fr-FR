@@ -1,8 +1,8 @@
 ---
-title: Rapport de distribution des échecs dans Skype entreprise Server
+title: Rapport de répartition des défaillances dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Résumé : en savoir plus sur le rapport de distribution des échecs dans Skype entreprise Server.'
-ms.openlocfilehash: cc5f0747a5e1f1dd3be913c43fbc286bf95778a6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.'
+ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817954"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823524"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de distribution des échecs dans Skype entreprise Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition des défaillances dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le rapport de distribution des échecs dans Skype entreprise Server.
+**Résumé :** Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.
   
-Le rapport de répartition des défaillances classe les sessions ayant échoué selon les catégories suivantes :
+Le rapport de répartition des défaillances classe les sessions qui ont échoué dans les catégories suivantes :
   
-- Motifs de diagnostic principaux
+- Principales raisons de diagnostic
     
 - Modalités principales
     
@@ -33,27 +33,27 @@ Le rapport de répartition des défaillances classe les sessions ayant échoué 
     
 - Sources principales
     
-- Composants principaux
+- Principaux composants
     
-- Utilisateurs émetteurs principaux
+- Utilisateurs les plus à l’avant
     
-- Utilisateurs destinataires principaux
+- Utilisateurs les plus à l’avant
     
-- Agents utilisateurs émetteurs principaux
+- Agents utilisateurs de niveau supérieur
     
-Vous pouvez utiliser ces catégories pour rechercher exactement le problème et, dans certains cas, déterminer la raison de ce problème. Par exemple, supposons que vous avez enregistré 242 sessions audio/vidéo ayant échoué au cours d’une journée donnée. Si vous examinez le rapport de répartition des défaillances, il peut indiquer que 237 de ces sessions ont eu lieu dans le pool Dublin. C’est un bon point de départ pour rechercher et diagnostiquer les causes à l’origine de ces défaillances. Si vous cliquez sur le pool Dublin sous la catégorie **Pools principaux**, vous y trouverez un rapport de répartition des défaillances spécifique à ce pool. Vous pouvez ensuite commencer à analyser les raisons qui ont entraîné autant de difficultés dans le pool.
+Vous pouvez utiliser ces catégories pour déterminer exactement où un problème se produit et, dans certains cas, pourquoi le problème se produit. Par exemple, supposons que vous avez enregistré 242 sessions audio/vidéo en échec au cours d’une journée donnée. Si vous regardez le rapport de répartition des défaillances, il peut montrer que 237 de ces sessions ont échoué dans votre pool de Dublin. Cela vous permet de commencer à suivre et diagnostiquer les causes de ces échecs. Si vous cliquez sur le pool de Dublin sous la catégorie **Pools** principaux, vous verrez un rapport de répartition des défaillances pour ce pool. Vous pouvez ensuite commencer à analyser la raison pour laquelle le pool de Dublin a connu autant de difficultés.
   
 ## <a name="viewing-the-failure-distribution-report"></a>Affichage du rapport de répartition des défaillances
 
-Vous pouvez accéder au rapport de répartition des défaillances à partir de n’importe lequel des rapports suivants en cliquant sur la mesure **Nombre d’échecs attendus** ou **Nombre d’échecs inattendus** :
+Vous pouvez accéder au rapport de répartition des défaillances à partir de l’un des rapports suivants en cliquant sur le **volume** d’échec attendu ou sur la mesure Du **volume** d’échec inattendu :
   
-- [Rapport sur les principaux échecs dans Skype entreprise Server](top-failures-report.md)
+- [Rapport des principales défaillances dans Skype Entreprise Server](top-failures-report.md)
     
-- [Rapport de diagnostic de conférence dans Skype entreprise Server](conference-diagnostic-report.md)
+- [Rapport de diagnostic de conférence dans Skype Entreprise Server](conference-diagnostic-report.md)
     
-- [Rapport de diagnostic d’activité d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-diagnostic-report.md)
+- [Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md)
     
-Dans le rapport de distribution des échecs, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le [rapport de liste d’échecs dans Skype entreprise Server](failure-list-report.md):
+Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes [d’échecs dans Skype Entreprise Server](failure-list-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -73,123 +73,123 @@ Dans le rapport de distribution des échecs, vous pouvez cliquer sur l’une des
     
 ## <a name="using-the-failure-distribution-report"></a>Utilisation du rapport de répartition des défaillances
 
-Selon la taille de votre moniteur et sa résolution d’écran, il est possible que certaines des données indiquées dans le rapport de répartition des défaillances soient tronquées à l’écran. Cela se vérifie en particulier pour les mesures comme les agents utilisateurs qui ont des libellés très longs. Par exemple, un agent utilisateur dont le nom est « UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013) » peut ne s’afficher que partiellement à l’écran : 
+Selon la taille et la résolution de l’écran de votre moniteur, il est possible que certaines données affichées dans le rapport de répartition des défaillances soient tronquées lorsque vous les visualisez à l’écran. Cela est particulièrement vrai pour les mesures telles que les agents utilisateur, qui peuvent avoir des étiquettes très longues. Par exemple, un agent utilisateur dont le nom est « UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013) » peut apparaître partiellement à l’écran : 
   
 UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
   
-Fort heureusement, vous pouvez voir le libellé en entier en maintenant votre souris au-dessus de la valeur tronquée.
+Heureusement, vous pouvez voir l’étiquette entière simplement en maintenant la souris au-dessus de la valeur tronquée.
   
-L’ID de diagnostic est une mesure intéressante sur laquelle vous pouvez filtrer dans le rapport de répartition des défaillances. Si le même ID de diagnostic s’affiche dans d’autres rapports, vous pouvez filtrer sur cet ID dans le rapport de répartition des défaillances et obtenir des informations très détaillées sur l’emplacement exact où a été signalé cet ID pendant une session ayant échoué et sa fréquence.
+L’ID de diagnostic est une mesure intéressante que vous pouvez filtrer à l’aide du rapport de répartition des défaillances. Si le même ID de diagnostic s’insérez dans d’autres rapports, vous pouvez filtrer sur cet ID dans le rapport de répartition des défaillances et obtenir une analyse très détaillée de l’endroit exact où, et à quelle fréquence, cet ID a été signalé au cours d’une session qui a échoué.
   
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport de répartition des défaillances vous permet de filtrer sur des critères tels que le type d’activité (session entre homologues ou session de conférence) ou à l’aide de l’ID de diagnostic qui a accompagné chaque session ayant échoué.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, le rapport de répartition des problèmes vous permet de filtrer sur des éléments tels que le type d’activité (session d’égal à égal ou session de conférence) ou l’ID de diagnostic qui a accompagné chaque session qui a échoué.
   
-Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de répartition des défaillances.
+Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapport de répartition des défaillances.
   
 **Filtres du rapport de répartition des défaillances**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|**De** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**À** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.<br/> |
-|**Type d’activité** <br/> | Type d’activité sur laquelle filtrer. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Égal à égal <br/>  Conférence <br/> |
-|**Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
-|**ID de diagnostic** <br/> |Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs. Les en-têtes de diagnostic sont facultatifs (il est possible que des sessions SIP n’incluent pas ces en-têtes) et les ID de diagnostic sont uniquement signalés pour les sessions qui ont rencontré des problèmes, quels qu’ils soient.  <br/> |
+|**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool individuel ou cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement en fonction des enregistrements de la base de données.<br/> |
+|**Type d’activité** <br/> | Type d’activité à filtrer. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Pair à pair <br/>  Programme <br/> |
+|**Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut en Ne pas déranger, vous attendez que tout appel à cette personne échoue. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
+|**ID de diagnostic** <br/> |Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles au dépannage des erreurs. Les en-têtes de diagnostic sont facultatifs (il est possible d’avoir des sessions SIP sans ces en-têtes), et ne sont signalés que pour les sessions ayant rencontré des problèmes d’un type ou d’un autre.  <br/> |
    
-## <a name="metrics-for-top-diagnostic-reasons"></a>Mesures pour les motifs de diagnostic principaux
+## <a name="metrics-for-top-diagnostic-reasons"></a>Mesures pour les principales raisons de diagnostic
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base de l’ID de diagnostic le plus fréquemment signalé.
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction de l’ID de diagnostic le plus fréquemment signalé.
   
-**Mesures pour les motifs de diagnostic principaux**
+**Mesures pour les principales raisons de diagnostic**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué sur la base des ID de diagnostic. Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles à l’identification et à la résolution des erreurs.  <br/> |
-|**Motifs de diagnostic principaux** <br/> |Non  <br/> |ID de diagnostic généré dans une session.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué où l’ID de diagnostic spécifié a été généré.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction des ID de diagnostic. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles pour la résolution des erreurs.  <br/> |
+|**Principales raisons de diagnostic** <br/> |Non  <br/> |ID de diagnostic généré dans une session.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué lorsque l’ID de diagnostic spécifié a été généré.  <br/> |
    
-## <a name="metrics-for-top-modalities"></a>Mesures pour les modalités principales
+## <a name="metrics-for-top-modalities"></a>Mesures des modalités principales
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base des modalités de session ayant rencontré le plus d’échecs.
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des modalités de session qui ont connu le plus d’échecs.
   
-**Mesures pour les modalités principales**
+**Mesures des modalités principales**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué sur la base du type de session (par exemple, une conférence audio/vidéo ou une session de transfert de fichiers entre homologues).  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif basé sur les sessions qui ont échoué en fonction du type de session (par exemple, une conférence audio/vidéo ou une session de transfert de fichiers d’égal à égal).  <br/> |
 |**Modalités principales** <br/> |Non  <br/> |Type de session.  <br/> |
 |**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué impliquant la modalité spécifiée.  <br/> |
    
 ## <a name="metrics-for-top-pools"></a>Mesures pour les pools principaux
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base des pools ayant rencontré le plus d’échecs.
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des pools qui ont connu le plus d’échecs.
   
 **Mesures pour les pools principaux**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif de sessions ayant échoué en fonction du pool d’inscriptions ou du serveur Edge sur lequel la session a été effectuée.  <br/> |
-|**Pools principaux** <br/> |Non  <br/> |Nom du pool d’inscriptions ou du serveur Edge.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par pool d’inscriptions ou serveur Edge.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du pool de serveurs d’inscriptions ou du serveur Edge sur lequel la session a été menée.  <br/> |
+|**Pools principaux** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par pool de serveurs d’inscriptions ou serveur Edge.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Mesures pour les sources principales
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base des ordinateurs ayant rencontré le plus d’échecs.
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des ordinateurs qui ont connu le plus d’échecs.
   
 **Mesures pour les sources principales**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué par ordinateur.  <br/> |
-|**Sources principales** <br/> |Non  <br/> |Nom de l’ordinateur impliqué dans la session ayant échoué.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par ordinateur.  <br/> |
+|**Rank** <br/> |Non  <br/> |Le classement relatif des sessions a échoué par ordinateur.  <br/> |
+|**Sources principales** <br/> |Non  <br/> |Nom de l’ordinateur impliqué dans la session qui a échoué.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par ordinateur.  <br/> |
    
-## <a name="metrics-for-top-components"></a>Mesures pour les composants principaux
+## <a name="metrics-for-top-components"></a>Mesures des principaux composants
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base des composants ayant rencontré le plus d’échecs.
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des composants qui ont connu le plus d’échecs.
   
-**Mesures pour les composants principaux**
+**Mesures des principaux composants**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif de sessions ayant échoué en fonction du composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
-|**Composants principaux** <br/> |Non  <br/> |Nom du composant impliqué dans la session ayant échoué.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par composant.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction d’un composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
+|**Principaux composants** <br/> |Non  <br/> |Nom du composant impliqué dans la session qui a échoué.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par composant.  <br/> |
    
-## <a name="metrics-for-top-from-users"></a>Mesures pour les utilisateurs émetteurs principaux
+## <a name="metrics-for-top-from-users"></a>Mesures pour les utilisateurs de premier niveau
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base des utilisateurs ayant connu le plus d’échecs en essayant d’appeler quelqu’un d’autre (dénommés utilisateurs « De »).
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des utilisateurs qui ont connu le plus d’échecs lorsqu’ils ont tenté d’appeler quelqu’un d’autre (appelé utilisateurs « De »).
   
-**Mesures pour les utilisateurs émetteurs principaux**
+**Mesures pour les utilisateurs de premier niveau**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué sur la base de l’utilisateur qui a été invité à se joindre à la session.  <br/> |
-|**Utilisateurs émetteurs principaux** <br/> |Non  <br/> |Adresse SIP de l’utilisateur invité à se joindre à la session.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par utilisateur.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a été invité à participer à la session.  <br/> |
+|**Utilisateurs les plus à l’avant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur invité à rejoindre la session.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par utilisateur.  <br/> |
    
-## <a name="metrics-for-top-to-users"></a>Mesures pour les utilisateurs destinataires principaux
+## <a name="metrics-for-top-to-users"></a>Mesures pour les utilisateurs les plus à l’échelle
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base des utilisateurs ayant connu le plus d’échecs après avoir été appelés par quelqu’un d’autre (dénommés utilisateurs « À »).
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des utilisateurs qui ont connu le plus d’échecs lorsqu’un autre utilisateur a tenté de les appeler (appelés utilisateurs « À »).
   
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué sur la base de l’utilisateur qui a initié la session.  <br/> |
-|**Utilisateurs destinataires principaux** <br/> |Non  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par utilisateur.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a initié la session.  <br/> |
+|**Utilisateurs les plus à l’avant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par utilisateur.  <br/> |
    
-## <a name="metrics-for-top-user-agents"></a>Mesures pour les principaux agents d’utilisateur
+## <a name="metrics-for-top-user-agents"></a>Mesures pour les principaux agents utilisateurs
 
-Le tableau ci-dessous liste les informations fournies dans le rapport de répartition des défaillances sur la base du logiciel de point de terminaison ayant rencontré le plus d’échecs.
+Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction du logiciel de point de terminaison qui a connu le plus d’échecs.
   
-**Mesures pour les principaux agents d’utilisateur**
+**Mesures pour les principaux agents utilisateurs**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué sur la base de l’agent d’utilisateur (logiciel) impliqué dans la session. Par exemple : RTCC/4.0.0.0 Inbound Routing/4.0.0.0.  <br/> |
-|**Principaux agents d’utilisateurs** <br/> |Non  <br/> |Nom de l’agent d’utilisateur impliqué dans la session ayant échoué.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par agent.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction de l’agent utilisateur (logiciel) impliqué dans la session. Par exemple : RTCC/4.0.0.0 Routage entrant/4.0.0.0.  <br/> |
+|**Principaux agents utilisateurs** <br/> |Non  <br/> |Nom de l’agent utilisateur impliqué dans la session qui a échoué.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par agent utilisateur.  <br/> |
    
 

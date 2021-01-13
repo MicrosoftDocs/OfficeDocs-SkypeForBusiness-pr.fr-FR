@@ -1,8 +1,8 @@
 ---
-title: Sous-état synthèse de la Conférence dans Skype entreprise Server
+title: Sous-rapport de synthèse de conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Résumé : en savoir plus sur le sous-état synthèse de la Conférence dans Skype entreprise Server.'
-ms.openlocfilehash: 0d0b8fdc3971d60e326e59dd5417458533a10a31
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le sous-rapport de synthèse de conférence dans Skype Entreprise Server.'
+ms.openlocfilehash: 9a42e16bc22f01f196274f1e25396d8516e26af2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818064"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826474"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sous-état synthèse de la Conférence dans Skype entreprise Server
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sous-rapport de synthèse de conférence dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le sous-état synthèse de la Conférence dans Skype entreprise Server.
+**Résumé :** Découvrez le sous-rapport de synthèse de conférence dans Skype Entreprise Server.
   
 Le sous-rapport de synthèse de conférence fournit une vision générale des sessions de conférence ayant échoué. Ces échecs de session sont répartis par type de session : sessions Focus et les sessions MCU.
   
@@ -31,11 +31,11 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
   
 **Filtres du sous-rapport de synthèse de conférence**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|**De** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**À** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.<br/> |
+|**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool individuel ou cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement en fonction des enregistrements de la base de données.<br/> |
    
 ## <a name="metrics"></a>Mesures
 
@@ -43,13 +43,13 @@ Le tableau suivant répertorie les informations fournies dans le sous-rapport de
   
 **Mesures du sous-rapport de synthèse de conférence**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre total de conférences** <br/> |Non  <br/> |Nombre total de conférences ayant eu lieu.  <br/> |
 |**Nombre total de sessions de conférence** <br/> |Non  <br/> |Nombre total de sessions de conférence. Une seule conférence peut avoir plusieurs sessions : par exemple, elle peut inclure à la fois une session Focus et une session MCU.  <br/> |
-|**Taux d’échec de session global** <br/> |Non  <br/> |Pourcentage de tous les échecs de conférence.  <br/> |
+|**Taux d’échec global des sessions** <br/> |Non  <br/> |Pourcentage de tous les échecs de conférence.  <br/> |
 |**Sessions Focus** <br/> |Non  <br/> |Nombre total de sessions Focus.  <br/> |
-|**Taux d’échec de focus** <br/> |Non  <br/> |Pourcentage d’échec des sessions Focus.  <br/> |
+|**Taux d’échec Focus** <br/> |Non  <br/> |Pourcentage d’échec des sessions Focus.  <br/> |
 |Sessions MCU  <br/> |Non  <br/> |Nombre total de sessions MCU.  <br/> |
 |**Taux d’échec MCU** <br/> |Non  <br/> |Pourcentage d’échec des sessions MCU.  <br/> |
 |**Sessions MCU par modalité** <br/> |Non  <br/> |Nombre total de sessions MCU, groupées par modalité (par exemple, les conférences de messagerie instantanée).  <br/> |

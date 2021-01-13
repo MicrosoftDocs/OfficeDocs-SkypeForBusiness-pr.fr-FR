@@ -1,8 +1,8 @@
 ---
 title: Tableau de bord de la qualité des appels pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: 'Résumé : Découvrez le tableau de bord de qualité des appels, un outil de création de rapports pour Skype entreprise Server.'
-ms.openlocfilehash: 142e172fd4c9a9444df4ac0713c03d18e5f07a39
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le tableau de bord de qualité des appels, qui est un outil de rapports pour Skype Entreprise Server.'
+ms.openlocfilehash: de0985f1da2e201896b3f67c9fffff8f71f5f1e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816893"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826124"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Tableau de bord de la qualité des appels pour Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le tableau de bord de qualité des appels, un outil de création de rapports pour Skype entreprise Server.
+**Résumé :** Découvrez le tableau de bord de qualité des appels, qui est un outil de rapports pour Skype Entreprise Server.
  
-Le tableau de bord de qualité des appels de Skype entreprise Server (bord) est une couche de rapport en haut de la base de données de qualité de l’interface dans le serveur de surveillance de Skype entreprise Server et Lync Server 2013. BORD utilise Microsoft SQL Server Analysis Services pour fournir des informations sur l’utilisation agrégée et la qualité des appels, ainsi que sur le filtrage et le glissement du jeu de données.
+Le Tableau de bord de qualité des appels (CQD) de Skype Entreprise Server est une couche de rapports qui se trouve au-dessus de la base de données de qualité de l’expérience dans le serveur de surveillance de Skype Entreprise Server et de Lync Server 2013. Le tableau de bord de qualité des appels Microsoft SQL Server Analysis Services pour fournir des informations agrégées sur l’utilisation et la qualité des appels, ainsi que pour filtrer et pivoter sur le jeu de données.
   
-Les rubriques suivantes sont incluses dans cette section et doivent être examinées avant le déploiement du tableau de bord de qualité des appels.
+Les rubriques suivantes sont incluses dans cette section et doivent être examinées avant de déployer le Tableau de bord de qualité des appels.
   
-- [Planifier le tableau de bord de qualité des appels pour Skype entreprise Server](plan.md)
-- [Déploiement du tableau de bord de qualité des appels pour Skype entreprise Server](deploy-0.md)
-- [Utiliser le tableau de bord de qualité des appels pour Skype entreprise Server](use.md)
-- [Développement du tableau de bord de qualité des appels pour Skype entreprise Server](develop.md)
+- [Planifier le tableau de bord de qualité des appels pour Skype Entreprise Server](plan.md)
+- [Déployer le tableau de bord de qualité des appels pour Skype Entreprise Server](deploy-0.md)
+- [Utiliser le tableau de bord de qualité des appels pour Skype Entreprise Server](use.md)
+- [Développer le tableau de bord de qualité des appels pour Skype Entreprise Server](develop.md)
