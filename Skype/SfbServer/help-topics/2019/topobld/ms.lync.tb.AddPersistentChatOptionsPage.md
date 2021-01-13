@@ -1,8 +1,8 @@
 ---
 title: Définir les propriétés et les options de pool de conversations permanentes
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes :'
-ms.openlocfilehash: 30135d3d71aea104aa43a4561490a1ca3b100366
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Vous configurez les options de votre serveur de conversation permanente ou pool de serveurs de conversation permanente en définissant les propriétés suivantes :'
+ms.openlocfilehash: 354c3d50293ca1bec19f2d7c13af3aa26de918a5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41787794"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830114"
 ---
-# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="224f5-103">Définir les propriétés et les options de pool de conversations permanentes</span><span class="sxs-lookup"><span data-stu-id="224f5-103">Define Properties and Options for Persistent Chat Pool</span></span>
+# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="c05e6-103">Définir les propriétés et les options de pool de conversations permanentes</span><span class="sxs-lookup"><span data-stu-id="c05e6-103">Define Properties and Options for Persistent Chat Pool</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="224f5-104">La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="224f5-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="224f5-105">La même fonctionnalité est disponible dans Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="224f5-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="224f5-106">Pour plus d’informations, reportez-vous à la rubrique [mise à niveau de Skype entreprise vers Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="224f5-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="224f5-107">Si vous avez besoin d’utiliser une conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.</span><span class="sxs-lookup"><span data-stu-id="224f5-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="c05e6-104">La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="c05e6-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="c05e6-105">La même fonctionnalité est disponible dans Teams.</span><span class="sxs-lookup"><span data-stu-id="c05e6-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="c05e6-106">Pour plus d’informations, voir [mise à niveau de Skype Entreprise vers Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="c05e6-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="c05e6-107">Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.</span><span class="sxs-lookup"><span data-stu-id="c05e6-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

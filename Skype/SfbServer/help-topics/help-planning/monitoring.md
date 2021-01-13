@@ -1,8 +1,8 @@
 ---
 title: Monitoring (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: Dans Skype entreprise Server 2015, la surveillance est utilisée pour recueillir les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent.
-ms.openlocfilehash: baf24091cb2c50914eb413dde142c92fb5d1d20e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Dans Skype Entreprise Server 2015, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.
+ms.openlocfilehash: 85398b80d982fdd443e920af9c50b212afe4cb90
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821386"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828934"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="48d08-103">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="48d08-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="7cbcd-103">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cbcd-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="48d08-104">Dans Skype entreprise Server 2015, la surveillance est utilisée pour recueillir les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent.</span><span class="sxs-lookup"><span data-stu-id="48d08-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="7cbcd-104">Dans Skype Entreprise Server 2015, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.</span><span class="sxs-lookup"><span data-stu-id="7cbcd-104">In Skype for Business Server 2015, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="48d08-105">Pour plus d’informations sur la planification de l’analyse du serveur, voir [planification de l’analyse](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span><span class="sxs-lookup"><span data-stu-id="48d08-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+<span data-ttu-id="7cbcd-105">Pour plus d’informations sur la planification du serveur de surveillance, voir [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span><span class="sxs-lookup"><span data-stu-id="7cbcd-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
 
 

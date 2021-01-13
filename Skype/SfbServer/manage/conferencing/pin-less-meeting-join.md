@@ -1,8 +1,8 @@
 ---
-title: Configuration d’une participation aux réunions sans code confidentiel dans Skype Entreprise Server
+title: Configurer la réunion sans code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,58 +11,58 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Résumé : Découvrez comment configurer l’option de participation à une réunion sans punaise dans Skype entreprise Server.'
-ms.openlocfilehash: a52738f2ca679838ab7687cde2c017e3364542a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.'
+ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818485"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827984"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a><span data-ttu-id="c5b91-103">Configuration d’une participation aux réunions sans code confidentiel dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="c5b91-103">Configure PIN-less meeting join in Skype for Business Server</span></span>
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a><span data-ttu-id="4cb5b-103">Configurer la réunion sans code confidentiel dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="4cb5b-103">Configure PIN-less meeting join in Skype for Business Server</span></span>
  
-<span data-ttu-id="c5b91-104">**Résumé :** Découvrez comment configurer l’option de participation à une réunion sans punaise dans Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="c5b91-104">**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server.</span></span>
+<span data-ttu-id="4cb5b-104">**Résumé :** Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-104">**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server.</span></span>
   
-<span data-ttu-id="c5b91-105">Lorsqu’un appelant rendez-vous tente de participer à une réunion, le service de la Conférence automatique (CAA) place l’appelant dans un stylet qui est différent de la salle d’attente &#x2014; si un présentateur n’est pas en cours d’appel, et si l’appelant rendez-vous n’a pas encore entré de code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="c5b91-105">When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN.</span></span> <span data-ttu-id="c5b91-106">L’option de participation à une réunion sans code confidentiel autorise les appelants à participer à une téléconférence sans entrer de code d’organisateur même s’ils sont les premiers à rejoindre un appel.</span><span class="sxs-lookup"><span data-stu-id="c5b91-106">The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call.</span></span> 
+<span data-ttu-id="4cb5b-105">Lorsqu’un appelant tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en appel et que l’appelant n’a pas entré de code confidentiel d’leader.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-105">When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN.</span></span> <span data-ttu-id="4cb5b-106">L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-106">The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call.</span></span> 
   
-<span data-ttu-id="c5b91-107">Lors de la configuration de cette fonctionnalité, rappelez-vous des points suivants :</span><span class="sxs-lookup"><span data-stu-id="c5b91-107">Keep the following in mind when configuring this feature:</span></span>
+<span data-ttu-id="4cb5b-107">Gardez à l’esprit les questions suivantes lors de la configuration de cette fonctionnalité :</span><span class="sxs-lookup"><span data-stu-id="4cb5b-107">Keep the following in mind when configuring this feature:</span></span>
   
-- <span data-ttu-id="c5b91-108">Cette option n’est valable que pour les réunions privées.</span><span class="sxs-lookup"><span data-stu-id="c5b91-108">Applies to private meetings only.</span></span>
+- <span data-ttu-id="4cb5b-108">S’applique uniquement aux réunions privées.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-108">Applies to private meetings only.</span></span>
     
-- <span data-ttu-id="c5b91-109">Elle permet aux appelants RTC de rester dans des réunions privées sans qu’un utilisateur authentifié ne soit présent.</span><span class="sxs-lookup"><span data-stu-id="c5b91-109">Allows PSTN callers to stay in private meetings without the presence of authenticated users.</span></span>
+- <span data-ttu-id="4cb5b-109">Permet aux appelants PSTN de rester dans des réunions privées sans la présence d’utilisateurs authentifiés.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-109">Allows PSTN callers to stay in private meetings without the presence of authenticated users.</span></span>
     
-- <span data-ttu-id="c5b91-110">Une fois le paramètre modifié, il s’applique à toutes les nouvelles réunions privées et aux réunions privées existantes.</span><span class="sxs-lookup"><span data-stu-id="c5b91-110">After the setting is changed, it applies to all existing and new private meetings.</span></span>
+- <span data-ttu-id="4cb5b-110">Une fois le paramètre modifié, il s’applique à toutes les réunions privées existantes et nouvelles.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-110">After the setting is changed, it applies to all existing and new private meetings.</span></span>
     
-- <span data-ttu-id="c5b91-111">Il peut être activé sur le site de l’organisateur ou au niveau global.</span><span class="sxs-lookup"><span data-stu-id="c5b91-111">Can be enabled either at the site of the organizer or at the global level.</span></span>
+- <span data-ttu-id="4cb5b-111">Peut être activé au niveau du site de l’organisateur ou au niveau global.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-111">Can be enabled either at the site of the organizer or at the global level.</span></span>
     
-- <span data-ttu-id="c5b91-112">Les options permettant de définir qui peut contourner la salle d’attente sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="c5b91-112">Options for who can bypass the lobby can be set for either of the following:</span></span> 
+- <span data-ttu-id="4cb5b-112">Les options qui peuvent contourner la salle d’entrée peuvent être définies pour l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="4cb5b-112">Options for who can bypass the lobby can be set for either of the following:</span></span> 
     
-  - <span data-ttu-id="c5b91-113">**Tous les appelants venant de mon organisation sont admis directement**</span><span class="sxs-lookup"><span data-stu-id="c5b91-113">**Anyone from my Organization with Callers get in directly**</span></span>
+  - <span data-ttu-id="4cb5b-113">**Tous les membres de mon organisation avec des appelants entrent directement**</span><span class="sxs-lookup"><span data-stu-id="4cb5b-113">**Anyone from my Organization with Callers get in directly**</span></span>
     
-  - <span data-ttu-id="c5b91-114">**N’importe quel autre appelant (aucune restriction) est admis directement** (il s’agit du paramètre par défaut).</span><span class="sxs-lookup"><span data-stu-id="c5b91-114">**Anyone (no restrictions) with Callers get in directly** (This is the default setting.)</span></span>
+  - <span data-ttu-id="4cb5b-114">**Tout le monde (aucune restriction) avec** les appelants entre directement (il s’agit du paramètre par défaut.)</span><span class="sxs-lookup"><span data-stu-id="4cb5b-114">**Anyone (no restrictions) with Callers get in directly** (This is the default setting.)</span></span>
     
-- <span data-ttu-id="c5b91-115">Lorsque la participation sans code confidentiel est activée, le service CAA invite quand même à entrer un code d’organisateur.</span><span class="sxs-lookup"><span data-stu-id="c5b91-115">When configured to enable PIN-less join, the CAA service still prompts for a leader PIN.</span></span> <span data-ttu-id="c5b91-116">Les utilisateurs peuvent participer à la réunion en saisissant ou non un code.</span><span class="sxs-lookup"><span data-stu-id="c5b91-116">Users can join the meeting whether or not a PIN is entered.</span></span> <span data-ttu-id="c5b91-117">Néanmoins, si nécessaire, le maintien de la possibilité d’entrer un code confidentiel permet à un appelant rendez-vous de s’authentifier en tant que leader et de gérer la réunion si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="c5b91-117">However, retaining the ability to enter a leader PIN allows a dial-in caller to authenticate as a leader and manage the meeting if necessary.</span></span>
+- <span data-ttu-id="4cb5b-115">Lorsqu’il est configuré pour activer la jointeur sans code confidentiel, le service CAA demande toujours un code confidentiel d’leader.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-115">When configured to enable PIN-less join, the CAA service still prompts for a leader PIN.</span></span> <span data-ttu-id="4cb5b-116">Les utilisateurs peuvent participer à la réunion, qu’un code confidentiel soit entré ou non.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-116">Users can join the meeting whether or not a PIN is entered.</span></span> <span data-ttu-id="4cb5b-117">Toutefois, le fait de conserver la possibilité d’entrer un code confidentiel d’leader permet à un appelant de s’authentifier en tant qu’dirigeant et de gérer la réunion si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="4cb5b-117">However, retaining the ability to enter a leader PIN allows a dial-in caller to authenticate as a leader and manage the meeting if necessary.</span></span>
     
-## <a name="configure-pin-less-meeting-join"></a><span data-ttu-id="c5b91-118">Configurer la participation à la réunion sans code confidentiel</span><span class="sxs-lookup"><span data-stu-id="c5b91-118">Configure PIN-less meeting join</span></span>
+## <a name="configure-pin-less-meeting-join"></a><span data-ttu-id="4cb5b-118">Configurer la réunion sans code confidentiel</span><span class="sxs-lookup"><span data-stu-id="4cb5b-118">Configure PIN-less meeting join</span></span>
 
-<span data-ttu-id="c5b91-119">Pour activer la fonction de réunion sans punaise pour vos utilisateurs, utilisez l’applet de connexion [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) avec le paramètre AllowAnonymousPstnActivation comme suit :</span><span class="sxs-lookup"><span data-stu-id="c5b91-119">To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:</span></span>
+<span data-ttu-id="4cb5b-119">Pour activer la réunion sans code confidentiel pour vos utilisateurs, utilisez l’cmdlet [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) avec le paramètre AllowAnonymousPstnActivation comme suit :</span><span class="sxs-lookup"><span data-stu-id="4cb5b-119">To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:</span></span>
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-<span data-ttu-id="c5b91-120">Par exemple, la commande suivante active une participation sans code confidentiel pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="c5b91-120">For example, the following command enables PIN-less meeting join for the site Redmond:</span></span>
+<span data-ttu-id="4cb5b-120">Par exemple, la commande suivante active la réunion sans code confidentiel pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="4cb5b-120">For example, the following command enables PIN-less meeting join for the site Redmond:</span></span>
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-<span data-ttu-id="c5b91-121">Pour des raisons de sécurité, lorsque la participation sans code confidentiel est activée, vous souhaiterez peut être empêcher les utilisateurs anonymes d’appeler, en vous assurant que la ConferencingPolicy est définie comme suit :</span><span class="sxs-lookup"><span data-stu-id="c5b91-121">For security purposes, when PIN-less meeting join is turned on, you might want to restrict anonymous users from dialing out by ensuring the ConferencingPolicy is set as follows:</span></span>
+<span data-ttu-id="4cb5b-121">Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est désactivée, vous pouvez limiter la numérotation des utilisateurs anonymes en vous assurant que conferencingPolicy est définie comme suit :</span><span class="sxs-lookup"><span data-stu-id="4cb5b-121">For security purposes, when PIN-less meeting join is turned on, you might want to restrict anonymous users from dialing out by ensuring the ConferencingPolicy is set as follows:</span></span>
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-<span data-ttu-id="c5b91-122">Pour plus d’informations, consultez la rubrique [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="c5b91-122">For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="4cb5b-122">Pour plus d’informations, [voir Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="4cb5b-122">For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span></span>
   
 
