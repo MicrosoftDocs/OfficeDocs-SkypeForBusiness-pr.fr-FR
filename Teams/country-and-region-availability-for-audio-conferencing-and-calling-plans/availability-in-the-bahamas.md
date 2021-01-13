@@ -1,7 +1,7 @@
 ---
-title: Disponibilité des Bahamas
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité aux Bahamas
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour les Bahamas.
-ms.openlocfilehash: d051b9e7148225b9745db3784ec00ac69cc93350
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les Bahamas.
+ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230752"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831314"
 ---
-# <a name="availability-in-the-bahamas"></a>Disponibilité des Bahamas
+# <a name="availability-in-the-bahamas"></a>Disponibilité aux Bahamas
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour les Bahamas.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les Bahamas.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -62,7 +62,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
 
-Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’utiliser le [routage direct](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Si les forfaits d’appels ne sont pas disponibles à l’achat, envisagez d’utiliser [le routage direct.](../direct-routing-landing-page.md) Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
