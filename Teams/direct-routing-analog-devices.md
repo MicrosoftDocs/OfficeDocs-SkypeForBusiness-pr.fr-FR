@@ -1,5 +1,5 @@
 ---
-title: Routage direct-connexion de périphériques analogiques
+title: Routage direct - Connexion de périphériques analogiques
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,102 +15,103 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lisez cet article pour découvrir comment utiliser des appareils analogiques avec le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 0c6531a29e23e736a84db9bf8571abab2e13942a
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+description: Lisez cet article pour découvrir comment utiliser des périphériques analogiques avec le routage direct de Microsoft Phone System.
+ms.openlocfilehash: 855bf0dd21659c43037b6171f523983d67c4e755
+ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369189"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841485"
 ---
-# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Utilisation de périphériques analogiques avec le routage direct du système téléphonique
+# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Comment utiliser des dispositifs analogiques avec le routage direct du système téléphonique
 
-Cet article décrit comment utiliser les appareils analogiques avec le routage direct du système téléphonique. Pour connecter des appareils analogiques au routage direct, vous devez utiliser une carte de téléphonie analogique (ATA), et cette carte doit être prise en charge par le fournisseur de services de technologie SBC. 
+Cet article explique comment utiliser des périphériques analogiques avec le routage direct du système téléphonique. Pour connecter des périphériques analogiques au routage direct, vous devez utiliser un adaptateur téléphonique analogique (ATA), qui doit être pris en charge par le fournisseur de contrôleur de bordure de session certifié (SBC). 
 
-Lorsqu’un utilisateur effectue un appel à partir d’un appareil analogique, le signalement et le flux multimédia sont acheminés par l’intermédiaire de la carte de téléphonie analogique (ATA) vers l’SBC.  La SBC envoie l’appel à un point de terminaison Microsoft teams ou au réseau téléphonique public commuté (RTC) en fonction de la table de routage interne.  Lorsqu’un appareil effectue un appel, l’itinéraire qu’il utilise dépend des stratégies de routage créées pour l’appareil.
+Lorsqu’un utilisateur effectue un appel à partir d’un périphérique analogique, le trafic de signalisation et le trafic de médias circulent entre la carte téléphonique analogique (ATA) et le SBC.  Le SBC envoie l’appel à un point de terminaison Microsoft Teams ou au réseau téléphonique public commuté (RSTN) sur la base de la table de routage interne.  Quand un appareil effectue un appel, l’itinéraire qu’il prend dépend des stratégies de routage créées pour l’appareil.
 
-Dans le schéma suivant, le routage direct est configuré de manière à ce que toutes les équipes appelées vers et à partir des numéros compris entre + 1425 4XX XX XX et + 1425 5XX XX XX doivent prendre l’itinéraire rouge (ligne pointillée), et n’importe quel autre numéro à l’exception du 1425 numéro + 1425. 
+Dans le diagramme suivant, le routage direct est configuré de façon à ce que tout appel Teams vers et à partir des numéros entre +1425 4XX XX XX et +1425 5XX XX XX doit prendre le routage rouge (ligne en pointillés), et que tout appel PSTN entre +1425 4XX XX XX et tout autre nombre à l’exception de la plage de numéros +1425 5XX XX XX doit prendre le itinéraire bleu (trait plein). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagramme montrant une configuration de routage directe](media/direct-routing-analog-device.png)
+> ![Diagramme montrant la configuration du routage direct](media/direct-routing-analog-device.png)
 
-## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>Exemple : configuration de l’utilisation de périphériques analogiques avec le routage direct
+## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>Exemple : configuration de l’utilisation de dispositifs analogiques avec le routage direct
 
-Pour configurer l’utilisation de périphériques analogiques avec le routage direct, vous devez connecter la carte de téléphonie analogique à l’SBC et configurer l’SBC pour qu’il fonctionne avec le routage direct. 
+Pour configurer l’utilisation de dispositifs analogiques avec un routage direct, vous devez connecter la carte téléphonique analogique au SBC et configurer ce dernier pour qu’il fonctionne avec le routage direct. 
 
-Cet exemple vous guide à travers les étapes suivantes :
+Cet exemple vous fait suivre les étapes suivantes :
 
-1. Connectez l’SBC au routage direct.
-2. Créer une utilisation PSTN ;
-3. Créez un itinéraire et associez-le à l’utilisation de PSTN.
-4. Attribuez l’itinéraire de la voix à l’utilisation RTC.
+1. Connectez le SBC au routage direct.
+2. Créez l’utilisation PSTN.
+3. Créez un itinéraire vocal et associez-le à l’utilisation PSTN.
+4. Affectez l’itinéraire vocal à l’utilisation PSTN.
 5. Activez l’utilisateur en ligne.
-6. Affectez la stratégie d’itinéraire vocale à l’utilisateur.
-7. Créer un itinéraire vocal pour un appareil analogique.
+6. Affectez la stratégie de route vocale à l’utilisateur.
+7. Créez une route vocale pour un appareil analogique.
 
-Pour plus d’informations sur la connexion d’un disque ATA à un SBC et sur la configuration de l’SBC, voir le Guide de configuration de votre fabricant SBC :
+Pour plus d’informations sur la connexion d’un contrôle d’accès (ATA) à un SBC et la configuration de ce dernier, consultez le guide de configuration du fabricant SBC :
 
-- [Documentation de configuration de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Documentation sur la configuration de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
 
-- [Documentation de configuration du ruban](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
+- [Documentation sur la configuration du ruban](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
+- [Documentation sur la configuration d’Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Étape 1.  Connecter l’SBC au routage direct
+## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Étape 1.  Connecter le SBC au routage direct
 
-La commande suivante configure la connexion SBC comme suit :
+La commande suivante configure la connexion SBC comme suit :
 
-- Nom de domaine complet sbc.contoso.com
+- Sbc.contoso.com de sbc.contoso.com
 - Port de signalisation 5068
-- Mode de contournement de média
-- Informations de l’historique des appels transmises à l’SBC-
-- En-tête P-assertion-Identity (PAI) transmis en même temps que l’appel 
+- Mode de dérivation média
+- Informations de l’historique des appels transmis au dossier SBC-
+- En-tête P-Ed-Identity (NT) transmis avec l’appel 
 
 ```powershell
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
 ```
 
-## <a name="step-2--create-the-pstn-usage"></a>Étape 2 : créer une utilisation PSTN 
+## <a name="step-2--create-the-pstn-usage"></a>Étape 2 : créer l’utilisation PSTN 
 
-La commande Next crée une utilisation PSTN vide. Les utilisations RTC en ligne sont des valeurs de chaîne utilisées pour l’autorisation d’appels. Une utilisation RTC en ligne relie une politique vocale en ligne à un itinéraire. Dans cet exemple, la chaîne « Interop » est ajoutée à la liste actuelle des utilisations RTC disponibles. 
+La commande suivante crée une utilisation PSTN vide. Les utilisations PSTN en ligne sont des valeurs de chaîne utilisées pour l’autorisation d’appel. Une utilisation PSTN en ligne lie une stratégie vocale en ligne à un itinéraire. Cet exemple ajoute la chaîne « Interop » à la liste actuelle des utilisations PSTN disponibles. 
 
 ```powershell
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
 ```
 
-## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>Étape 3 : créez un itinéraire vocal et associez-le à l’utilisation de PSTN :
+## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>Étape 3 : créez un itinéraire vocal et associez-le à l’utilisation PSTN :
 
-Cette commande crée un nouvel itinéraire vocal en ligne avec l’identité « Analog-Interop » pour la plage de numéros + 1425 XXX XX XX.  L’itinéraire vocal s’applique à une liste de passerelles en ligne sbc.contoso.com et associe l’itinéraire avec l' « interopérabilité » de l’utilisation RTC en ligne. Un itinéraire vocal inclut une expression régulière qui identifie les numéros de téléphone qui doivent être routés par le biais d’un itinéraire vocal donné :
+Cette commande crée une nouvelle route vocale en ligne avec l’identité « analogique-interop » pour la plage de nombres +1425 XXX XX XX.  L’itinéraire vocal est applicable à une liste de passerelles en sbc.contoso.com et associe l’itinéraire à l’utilisation PSTN en ligne « Interop ». Une route vocale inclut une expression régulière qui identifie les numéros de téléphone qui seront acheminés via une route vocale donnée :
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
-## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>Étape 4 : affecter l’itinéraire vocal à l’utilisation RTC :
+## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>Étape 4 : affecter la route vocale à l’utilisation PSTN :
 
-Cette commande crée une stratégie de routage vocale par utilisateur en utilisant l’identité « AnalogInteropPolicy ». Une utilisation RTC en ligne unique est affectée à cette stratégie : « interopérabilité ».
+Cette commande crée une stratégie de routage voix en ligne par utilisateur avec l’identité « AnalogInteropPolicy ». Cette stratégie n’a qu’une utilisation PSTN en ligne : « Interop ».
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
 ```
 
-## <a name="step-5-enable-the-online-user"></a>Étape 5 : activer l’utilisateur en ligne
+## <a name="step-5-enable-the-online-user"></a>Étape 5 : activer l’utilisateur en ligne
 
-Cette commande modifie le compte d’utilisateur avec l’identité exampleuser@contoso.com. Dans ce cas, le compte est modifié de façon à activer voix entreprise, l’implémentation Microsoft de VoIP, avec la messagerie vocale activée et attribue le numéro + 14255000000 à cet utilisateur.  Cette commande doit être exécutée pour chaque utilisateur Teams (à l’exception des utilisateurs d’appareils ATA) dans le client de l’entreprise.
+Cette commande modifie le compte d’utilisateur avec le groupe de exampleuser@contoso.com. Dans ce cas, le compte est modifié pour activer Voix Entreprise, implémentation Microsoft de VoIP, avec la messagerie vocale activée et affecte le numéro +1425500000 à cet utilisateur.  Cette commande doit être exécuté pour chaque utilisateur de Teams (à l’exception des utilisateurs d’appareils ATA) dans le client de l’entreprise.
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
 ```
 
-## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>Étape 6 : affecter la stratégie d’itinéraire vocale à un utilisateur
+## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>Étape 6 : affecter la stratégie de route vocale à un utilisateur
 
-Cette commande affecte la stratégie de routage vocale AnalogInteropPolicy en ligne par utilisateur à l’utilisateur avec l’identité exampleuser@contoso.com.  Cette commande doit être exécutée pour chaque utilisateur Teams (à l’exception des utilisateurs d’appareils ATA) dans le client de l’entreprise.
+Cette commande affecte la stratégie de routage vocal en ligne per-user AnalogInteropPolicy à l’utilisateur ayant le exampleuser@contoso.com.  Cette commande doit être exécuté pour chaque utilisateur de Teams (à l’exception des utilisateurs d’appareils ATA) dans le client de l’entreprise.
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Étape 7 : créer un itinéraire vocal pour un appareil analogique
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Étape 7 : créer une route vocale pour un appareil analogique
 
-Cette commande crée un itinéraire vocal en ligne avec identité « Analog-Interop » pour le numéro de série + 1425 4XX XX XX applicable à une liste de passerelles sbc.contoso.com et l’associe à l’utilisation RTC en ligne.  Cette commande doit être exécutée pour chaque appareil analogique dont le modèle de numéro de téléphone est approprié. Par ailleurs, il est possible d’utiliser un modèle de nombre approprié pour les appareils analogiques lorsque vous configurez l’itinéraire vocal en ligne au cours de l’une des étapes précédentes.
+Cette commande crée un itinéraire vocal en ligne avec l’identité « analogique-interop » pour la plage de nombres +1425 4XX XX XX applicable à une liste de passerelles en ligne sbc.contoso.com et l’associe à l’utilisation PSTN en ligne « Interop ».  Cette commande doit être exécuté pour chaque appareil analogique ayant un modèle de numéro de téléphone approprié. Vous pouvez également utiliser un modèle de nombre approprié pour les dispositifs analogiques lors de la configuration de la route vocale en ligne au cours de l’une des étapes précédentes.
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
@@ -118,9 +119,9 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 
 ## <a name="considerations"></a>Considérations
 
-- Sauf indication contraire, un dispositif analogique est un appareil qui peut envoyer des chiffres DTMF pour effectuer un appel. Par exemple, les téléphones analogiques, les télécopieurs et les recharges du temps.
+- Sauf indication contraire, un appareil analogique est tout appareil qui peut envoyer des chiffres DTMF pour passer un appel. Par exemple, des téléphones analogiques, des télécopieurs et des pages généraux.
 
-- Les téléphones analogiques connectés à un disque ATA ne peuvent pas être recherchés par Teams. Les utilisateurs d’équipes doivent entrer manuellement le numéro de téléphone associé à l’appareil pour appeler cet appareil.  
+- Les téléphones analogiques connectés à un ata ne sont pas accessibles à partir de Teams. Les utilisateurs de Teams doivent entrer manuellement le numéro de téléphone associé à l’appareil pour appeler cet appareil.  
  
 
 ## <a name="see-also"></a>Voir aussi
