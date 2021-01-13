@@ -1,8 +1,8 @@
 ---
 title: Préparer la forêt actuelle (introduction)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour commencer la tâche Préparer la forêt, cliquez sur Suivant. L’exécution de la tâche préparer la forêt crée des paramètres globaux et crée des groupes universels à utiliser avec Skype entreprise Server.
-ms.openlocfilehash: 4810cd7b5ce162f782f90d0542b31dcfec22e631
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour commencer la tâche Préparer la forêt, cliquez sur Suivant. L’exécution de la tâche Préparer la forêt crée des paramètres globaux et des groupes universels pour une utilisation par Skype Entreprise Server.
+ms.openlocfilehash: 2e4b2838d8a863c6c17a75b70395dffaec6bfe14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798401"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836744"
 ---
-# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="7cc7c-104">Préparer la forêt actuelle (introduction)</span><span class="sxs-lookup"><span data-stu-id="7cc7c-104">Prepare Current Forrest (Intro)</span></span>
+# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="8d18a-104">Préparer la forêt actuelle (introduction)</span><span class="sxs-lookup"><span data-stu-id="8d18a-104">Prepare Current Forrest (Intro)</span></span>
  
-<span data-ttu-id="7cc7c-105">Pour commencer la tâche **Préparer la forêt**, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7cc7c-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="7cc7c-106">L’exécution de la tâche **préparer la forêt** crée des paramètres globaux et crée des groupes universels à utiliser avec Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="7cc7c-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.</span></span>
+<span data-ttu-id="8d18a-105">Pour commencer la tâche **Préparer la forêt**, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="8d18a-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="8d18a-106">L’exécution de la tâche **Préparer la** forêt crée des paramètres globaux et des groupes universels pour une utilisation par Skype Entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="8d18a-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.</span></span>
   
 

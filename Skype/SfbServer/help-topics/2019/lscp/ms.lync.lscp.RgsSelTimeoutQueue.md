@@ -1,8 +1,8 @@
 ---
 title: Sélectionner une file d’attente d’expiration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
-description: Utilisez la boîte de dialogue Sélectionner une file d’attente pour sélectionner une file d’attente dans laquelle les appels sont transférés lors du délai d’expiration.
-ms.openlocfilehash: a86c1bd8c84f96ecd4ef4f736cc8dc9ba3f55d12
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Utilisez la boîte de dialogue Sélectionner une file d’attente d’expiration pour sélectionner une file d’attente dans laquelle les appels seront transférés à leur expiration.
+ms.openlocfilehash: 67296bc7197393b85b2569b7643643f3d3848e18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793442"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836514"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="0849c-103">Sélectionner une file d’attente d’expiration</span><span class="sxs-lookup"><span data-stu-id="0849c-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="82b72-103">Sélectionner une file d’attente d’expiration</span><span class="sxs-lookup"><span data-stu-id="82b72-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="0849c-104">Utilisez la boîte de dialogue **Sélectionner une file d’attente** pour sélectionner une file d’attente dans laquelle les appels sont transférés lors du délai d’expiration.</span><span class="sxs-lookup"><span data-stu-id="0849c-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="82b72-104">Utilisez la boîte de dialogue **Sélectionner une file d’attente d’expiration** pour sélectionner une file d’attente dans laquelle les appels seront transférés à leur expiration.</span><span class="sxs-lookup"><span data-stu-id="82b72-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="0849c-105">Dans la zone de recherche, tapez tout ou partie du nom de la file d’attente que vous voulez utiliser.</span><span class="sxs-lookup"><span data-stu-id="0849c-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="0849c-106">Pour renvoyer toutes les files d’attente disponibles, laissez la zone Rechercher vide, puis cliquez sur l’icône Rechercher.</span><span class="sxs-lookup"><span data-stu-id="0849c-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="82b72-p101">Dans la zone de recherche, tapez entièrement ou partiellement le nom de la file d’attente que vous souhaitez utiliser. Pour revenir à l’ensemble des files d’attente disponibles, laissez la zone de recherche vide et cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="82b72-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="0849c-107">Dans la liste des files d’attente renvoyées par la recherche, sélectionnez la file d’attente à utiliser pour les appels expirés.</span><span class="sxs-lookup"><span data-stu-id="0849c-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="82b72-107">Dans la liste des files d’attente retournées par la recherche, sélectionnez la file d’attente que vous souhaitez utiliser pour les appels ayant expiré.</span><span class="sxs-lookup"><span data-stu-id="82b72-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 

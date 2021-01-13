@@ -1,8 +1,8 @@
 ---
-title: Rôles d’administration et panneau de configuration Skype entreprise Server
+title: Rôles d’administration et Panneau de contrôle Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour vous permettre de déléguer des tâches administratives tout en préservant la sécurité, Skype entreprise Server prend en charge le contrôle d’accès basé sur les rôles (RBAC).
-ms.openlocfilehash: 172e88cfcf15872552baf1ef6fdb75bcf07ce252
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour vous permettre de déléguer des tâches administratives tout en maintenant des normes de sécurité élevées, Skype Entreprise Server prend en charge le contrôle d’accès basé sur les rôles (RBAC).
+ms.openlocfilehash: f24f55a262c7dafe297956435b94ba51112c3249
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797625"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836604"
 ---
-# <a name="administrative-roles-and-skype-for-business-server-control-panel"></a><span data-ttu-id="0fda8-103">Rôles d’administration et panneau de configuration Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="0fda8-103">Administrative Roles and Skype for Business Server Control Panel</span></span>
+# <a name="administrative-roles-and-skype-for-business-server-control-panel"></a><span data-ttu-id="dc4d9-103">Rôles d’administration et Panneau de contrôle Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="dc4d9-103">Administrative Roles and Skype for Business Server Control Panel</span></span>
 
-<span data-ttu-id="0fda8-104">Pour vous permettre de déléguer des tâches administratives tout en préservant la sécurité, Skype entreprise Server prend en charge le contrôle d’accès basé sur les rôles (RBAC).</span><span class="sxs-lookup"><span data-stu-id="0fda8-104">To enable you to delegate administrative tasks while maintaining high standards for security, Skype for Business Server supports role-based access control (RBAC).</span></span> <span data-ttu-id="0fda8-105">Avec le contrôle d’accès basé sur un rôle, les droits d’administrateur sont accordés en affectant des rôles administratifs prédéfinis aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="0fda8-105">With RBAC, you grant administrative privilege by assigning users to predefined administrative roles.</span></span> <span data-ttu-id="0fda8-106">Skype entreprise Server inclut un ensemble étendu de rôles d’administrateur intégrés, et vous permet également de créer de nouveaux rôles et de spécifier une liste personnalisée d’applets de construction pour chaque nouveau rôle.</span><span class="sxs-lookup"><span data-stu-id="0fda8-106">Skype for Business Server includes a rich set of built-in administrative roles, and also enables you to create new roles and specify a custom list of cmdlets for each new role.</span></span> <span data-ttu-id="0fda8-107">Vous pouvez également ajouter des scripts d’applets de commande aux tâches autorisées des rôles RBAC prédéfinis et personnalisés.</span><span class="sxs-lookup"><span data-stu-id="0fda8-107">You can also add scripts of cmdlets to the allowed tasks of both predefined and custom RBAC roles.</span></span> <span data-ttu-id="0fda8-108">Pour plus d’informations, y compris les rôles d’administration prédéfinis disponibles dans Skype entreprise Server, voir [contrôle d’accès basé sur un rôle](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).</span><span class="sxs-lookup"><span data-stu-id="0fda8-108">For details, including the predefined administrative roles available in Skype for Business Server, see [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).</span></span>
+<span data-ttu-id="dc4d9-104">Pour vous permettre de déléguer des tâches administratives tout en maintenant des normes de sécurité élevées, Skype Entreprise Server prend en charge le contrôle d’accès basé sur les rôles (RBAC).</span><span class="sxs-lookup"><span data-stu-id="dc4d9-104">To enable you to delegate administrative tasks while maintaining high standards for security, Skype for Business Server supports role-based access control (RBAC).</span></span> <span data-ttu-id="dc4d9-105">Avec le contrôle d’accès basé sur un rôle, le privilège administratif est accordé en affectant des rôles administratifs prédéfinis aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="dc4d9-105">With RBAC, you grant administrative privilege by assigning users to predefined administrative roles.</span></span> <span data-ttu-id="dc4d9-106">Skype Entreprise Server inclut un riche ensemble de rôles d’administration intégrés et vous permet également de créer des rôles et de spécifier une liste personnalisée d’cmdlets pour chaque nouveau rôle.</span><span class="sxs-lookup"><span data-stu-id="dc4d9-106">Skype for Business Server includes a rich set of built-in administrative roles, and also enables you to create new roles and specify a custom list of cmdlets for each new role.</span></span> <span data-ttu-id="dc4d9-107">Vous pouvez également ajouter des scripts d’applets de commande aux tâches autorisées des rôles RBAC prédéfinis et personnalisés.</span><span class="sxs-lookup"><span data-stu-id="dc4d9-107">You can also add scripts of cmdlets to the allowed tasks of both predefined and custom RBAC roles.</span></span> <span data-ttu-id="dc4d9-108">Pour plus d’informations, notamment sur les rôles d’administration prédéfincis disponibles dans Skype Entreprise Server, voir Contrôle d’accès [basé sur les rôles.](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)</span><span class="sxs-lookup"><span data-stu-id="dc4d9-108">For details, including the predefined administrative roles available in Skype for Business Server, see [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).</span></span>
 
 

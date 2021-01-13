@@ -1,8 +1,8 @@
 ---
 title: Media Bypass (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
-description: La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation. Pour plus d’informations, reportez-vous à la rubrique planification de la dérivation de médias dans Skype entreprise.
-ms.openlocfilehash: 7e28c5f699be99319d77753b6463a9733375ba83
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Le contournement de média fait référence à la suppression du serveur de médiation du chemin d’accès des médias, dans la mesure du possible, pour les appels dont la signalisation traverse le serveur de médiation. Pour plus d’informations, voir Plan for media bypass in Skype for Business.
+ms.openlocfilehash: c20a755a150ee4755b0b3805b6999e0386936456
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797145"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836074"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="378d5-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="378d5-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="51d09-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="51d09-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="378d5-105">La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="378d5-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="378d5-106">Pour plus d’informations, reportez-vous à la rubrique [planification de la dérivation de médias dans Skype entreprise](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="378d5-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="51d09-105">Le contournement de média fait référence à la suppression du serveur de médiation du chemin d’accès des médias, dans la mesure du possible, pour les appels dont la signalisation traverse le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="51d09-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="51d09-106">Pour plus d’informations, voir [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="51d09-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 

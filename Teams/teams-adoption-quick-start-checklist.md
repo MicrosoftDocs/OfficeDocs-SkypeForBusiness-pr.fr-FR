@@ -1,7 +1,7 @@
 ---
 title: Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Utilisez cette liste de vérification de démarrage rapide pour vous assurer que votre organisation commence à adopter Microsoft Teams.
+description: Utilisez cette liste de vérification pour assurer la réussite de l’adoption de Microsoft Teams par votre organisation.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,49 +21,49 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cdea5f7e6bce5e348fa2a85feb93f733bf46c24
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 49cf3656b5ea48f8c23c33ac2ccc3b57de5bdb58
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905086"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809314"
 ---
-# <a name="microsoft-teams-adoption-quick-start-checklist"></a><span data-ttu-id="97c63-103">Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="97c63-103">Microsoft Teams adoption quick start checklist</span></span>
+# <a name="microsoft-teams-adoption-quick-start-checklist"></a><span data-ttu-id="b7f95-103">Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b7f95-103">Microsoft Teams adoption quick start checklist</span></span>
 
-[<span data-ttu-id="97c63-104">Télécharger une copie de la liste de vérification</span><span class="sxs-lookup"><span data-stu-id="97c63-104">Download a copy of the checklist</span></span>](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
+[<span data-ttu-id="b7f95-104">Télécharger une copie de la liste de vérification</span><span class="sxs-lookup"><span data-stu-id="b7f95-104">Download a copy of the checklist</span></span>](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
 
-## <a name="get-started-driving-adoption-of-microsoft-teams"></a><span data-ttu-id="97c63-105">Commencer à faire adopter Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="97c63-105">Get started driving adoption of Microsoft Teams</span></span>
+## <a name="get-started-driving-adoption-of-microsoft-teams"></a><span data-ttu-id="b7f95-105">Commencer à faire adopter Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b7f95-105">Get started driving adoption of Microsoft Teams</span></span>
 
-- [<span data-ttu-id="97c63-106">Conditions préalables à l’adoption</span><span class="sxs-lookup"><span data-stu-id="97c63-106">Adoption prerequisites</span></span>](teams-adoption-get-started.md)
+- [<span data-ttu-id="b7f95-106">Conditions préalables à l’adoption</span><span class="sxs-lookup"><span data-stu-id="b7f95-106">Adoption prerequisites</span></span>](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a><span data-ttu-id="97c63-107">Étape 1 : démarrage</span><span class="sxs-lookup"><span data-stu-id="97c63-107">Phase 1 - Start</span></span>
+## <a name="phase-1---start"></a><span data-ttu-id="b7f95-107">Étape 1 : démarrage</span><span class="sxs-lookup"><span data-stu-id="b7f95-107">Phase 1 - Start</span></span>
 
-- [<span data-ttu-id="97c63-108">Présentation des équipes et des canaux</span><span class="sxs-lookup"><span data-stu-id="97c63-108">Understand teams and channels</span></span>](teams-adoption-understand-teams-and-channels.md)
-- [<span data-ttu-id="97c63-109">Créer votre première équipe</span><span class="sxs-lookup"><span data-stu-id="97c63-109">Create your first teams</span></span>](teams-adoption-your-first-teams.md)
-- [<span data-ttu-id="97c63-110">Êtes-vous prêt pour Microsoft teams ?</span><span class="sxs-lookup"><span data-stu-id="97c63-110">Are you ready for Teams?</span></span>](teams-adoption-assess-readiness.md)
-- [<span data-ttu-id="97c63-111">Réunion avec les parties prenantes</span><span class="sxs-lookup"><span data-stu-id="97c63-111">Meet with stakeholders</span></span>](teams-adoption-assess-readiness.md#assess-your-stakeholders)
-- [<span data-ttu-id="97c63-112">Identifier les premiers décideurs</span><span class="sxs-lookup"><span data-stu-id="97c63-112">Identify early adopters</span></span>](teams-adoption-assess-readiness.md#identify-early-adopters)
+- [<span data-ttu-id="b7f95-108">Présentation des équipes et des canaux</span><span class="sxs-lookup"><span data-stu-id="b7f95-108">Understand teams and channels</span></span>](teams-adoption-understand-teams-and-channels.md)
+- [<span data-ttu-id="b7f95-109">Créer votre première équipe</span><span class="sxs-lookup"><span data-stu-id="b7f95-109">Create your first teams</span></span>](teams-adoption-your-first-teams.md)
+- [<span data-ttu-id="b7f95-110">Êtes-vous prêt pour Teams ?</span><span class="sxs-lookup"><span data-stu-id="b7f95-110">Are you ready for Teams?</span></span>](teams-adoption-assess-readiness.md)
+- [<span data-ttu-id="b7f95-111">Rencontrer les parties prenantes</span><span class="sxs-lookup"><span data-stu-id="b7f95-111">Meet with stakeholders</span></span>](teams-adoption-assess-readiness.md#assess-your-stakeholders)
+- [<span data-ttu-id="b7f95-112">Identifier les premiers utilisateurs</span><span class="sxs-lookup"><span data-stu-id="b7f95-112">Identify early adopters</span></span>](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a><span data-ttu-id="97c63-113">Étape 2 : expérimentation</span><span class="sxs-lookup"><span data-stu-id="97c63-113">Phase 2 - Experiment</span></span>
+## <a name="phase-2---experiment"></a><span data-ttu-id="b7f95-113">Étape 2 : expérimentation</span><span class="sxs-lookup"><span data-stu-id="b7f95-113">Phase 2 - Experiment</span></span>
 
-- [<span data-ttu-id="97c63-114">Créer votre programme de champions</span><span class="sxs-lookup"><span data-stu-id="97c63-114">Create your champions program</span></span>](teams-adoption-create-champions-program.md)
-- [<span data-ttu-id="97c63-115">Terminer le démarrage rapide de la gouvernance</span><span class="sxs-lookup"><span data-stu-id="97c63-115">Complete the governance quick start</span></span>](teams-adoption-governance-quick-start.md)
-- [<span data-ttu-id="97c63-116">Définir les scénarios d’utilisation</span><span class="sxs-lookup"><span data-stu-id="97c63-116">Define the usage scenarios</span></span>](teams-adoption-define-usage-scenarios.md)
-- [<span data-ttu-id="97c63-117">Interview des parties prenantes</span><span class="sxs-lookup"><span data-stu-id="97c63-117">Interview business stakeholders</span></span>](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [<span data-ttu-id="97c63-118">Mapper et classer par priorité les scénarios d’entreprise</span><span class="sxs-lookup"><span data-stu-id="97c63-118">Map and prioritize business scenarios</span></span>](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [<span data-ttu-id="97c63-119">Intégration des utilisateurs précoces et collecte de commentaires</span><span class="sxs-lookup"><span data-stu-id="97c63-119">Onboard early adopters and gather feedback</span></span>](teams-adoption-onboard-early-adopters.md)
-- [<span data-ttu-id="97c63-120">Prise en charge de l’intégration</span><span class="sxs-lookup"><span data-stu-id="97c63-120">Onboard support</span></span>](teams-adoption-onboard-support.md)
+- [<span data-ttu-id="b7f95-114">Créer votre programme de champions</span><span class="sxs-lookup"><span data-stu-id="b7f95-114">Create your champions program</span></span>](teams-adoption-create-champions-program.md)
+- [<span data-ttu-id="b7f95-115">Effectuer le démarrage rapide de la gouvernance</span><span class="sxs-lookup"><span data-stu-id="b7f95-115">Complete the governance quick start</span></span>](teams-adoption-governance-quick-start.md)
+- [<span data-ttu-id="b7f95-116">Définir les scénarios d’utilisation</span><span class="sxs-lookup"><span data-stu-id="b7f95-116">Define the usage scenarios</span></span>](teams-adoption-define-usage-scenarios.md)
+- [<span data-ttu-id="b7f95-117">Interview avec les parties prenantes</span><span class="sxs-lookup"><span data-stu-id="b7f95-117">Interview business stakeholders</span></span>](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [<span data-ttu-id="b7f95-118">Ma carte et hiérarchisation des scénarios d’entreprise</span><span class="sxs-lookup"><span data-stu-id="b7f95-118">Map and prioritize business scenarios</span></span>](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [<span data-ttu-id="b7f95-119">Intégration des utilisateurs précoces et collecte de commentaires</span><span class="sxs-lookup"><span data-stu-id="b7f95-119">Onboard early adopters and gather feedback</span></span>](teams-adoption-onboard-early-adopters.md)
+- [<span data-ttu-id="b7f95-120">Prise en charge de l’intégration</span><span class="sxs-lookup"><span data-stu-id="b7f95-120">Onboard support</span></span>](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a><span data-ttu-id="97c63-121">Étape 3 : mise à l’échelle</span><span class="sxs-lookup"><span data-stu-id="97c63-121">Phase 3 - Scale</span></span>
+## <a name="phase-3---scale"></a><span data-ttu-id="b7f95-121">Étape 3 : mise à l’échelle</span><span class="sxs-lookup"><span data-stu-id="b7f95-121">Phase 3 - Scale</span></span>
 
-- [<span data-ttu-id="97c63-122">Définir des résultats et des mesures de réussite</span><span class="sxs-lookup"><span data-stu-id="97c63-122">Define outcomes and success measures</span></span>](teams-adoption-define-outcomes.md)
-- [<span data-ttu-id="97c63-123">Sélectionner une stratégie d’activation du service</span><span class="sxs-lookup"><span data-stu-id="97c63-123">Select a service enablement strategy</span></span>](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [<span data-ttu-id="97c63-124">Faire appel aux parties prenantes</span><span class="sxs-lookup"><span data-stu-id="97c63-124">Engage stakeholders</span></span>](teams-adoption-define-outcomes.md#engage-stakeholders)
-- [<span data-ttu-id="97c63-125">Développez votre équipe d’implémentation</span><span class="sxs-lookup"><span data-stu-id="97c63-125">Expand your implementation team</span></span>](teams-adoption-define-outcomes.md#expand-your-implementation-team)
-- [<span data-ttu-id="97c63-126">Développez vos stratégies de gouvernance et de gestion des informations</span><span class="sxs-lookup"><span data-stu-id="97c63-126">Expand your governance and information management policies</span></span>](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
-- [<span data-ttu-id="97c63-127">Optimiser les commentaires et la création de rapports</span><span class="sxs-lookup"><span data-stu-id="97c63-127">Optimize feedback and reporting</span></span>](teams-adoption-optimize-feedback-and-reporting.md)
-- [<span data-ttu-id="97c63-128">Faire connaître et implémenter une formation</span><span class="sxs-lookup"><span data-stu-id="97c63-128">Drive awareness and implement training</span></span>](teams-adoption-drive-awareness.md)
-- [<span data-ttu-id="97c63-129">Planifier des révisions de service</span><span class="sxs-lookup"><span data-stu-id="97c63-129">Schedule service reviews</span></span>](teams-adoption-schedule-service-health-reviews.md)
+- [<span data-ttu-id="b7f95-122">Définir des résultats et des mesures de réussite</span><span class="sxs-lookup"><span data-stu-id="b7f95-122">Define outcomes and success measures</span></span>](teams-adoption-define-outcomes.md)
+- [<span data-ttu-id="b7f95-123">Sélectionner une stratégie d’enablement de service</span><span class="sxs-lookup"><span data-stu-id="b7f95-123">Select a service enablement strategy</span></span>](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [<span data-ttu-id="b7f95-124">Impliquer les parties prenantes</span><span class="sxs-lookup"><span data-stu-id="b7f95-124">Engage stakeholders</span></span>](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [<span data-ttu-id="b7f95-125">Développer votre équipe d’implémentation</span><span class="sxs-lookup"><span data-stu-id="b7f95-125">Expand your implementation team</span></span>](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [<span data-ttu-id="b7f95-126">Développer vos stratégies de gouvernance et de gestion des informations</span><span class="sxs-lookup"><span data-stu-id="b7f95-126">Expand your governance and information management policies</span></span>](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [<span data-ttu-id="b7f95-127">Optimiser les commentaires et la création de rapports</span><span class="sxs-lookup"><span data-stu-id="b7f95-127">Optimize feedback and reporting</span></span>](teams-adoption-optimize-feedback-and-reporting.md)
+- [<span data-ttu-id="b7f95-128">Faire connaître et implémenter une formation</span><span class="sxs-lookup"><span data-stu-id="b7f95-128">Drive awareness and implement training</span></span>](teams-adoption-drive-awareness.md)
+- [<span data-ttu-id="b7f95-129">Planifier les avis sur le service</span><span class="sxs-lookup"><span data-stu-id="b7f95-129">Schedule service reviews</span></span>](teams-adoption-schedule-service-health-reviews.md)
 
 
 

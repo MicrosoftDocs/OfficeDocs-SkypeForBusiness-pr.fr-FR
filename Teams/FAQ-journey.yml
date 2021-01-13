@@ -21,20 +21,22 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712622"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841475"
 title: FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 summary: ''
 sections:
-- name: Ignorance
+- name: Ignoré
   questions:
   - question: Les clients doivent-ils passer de Skype Entreprise Online à Teams à une date précise ?
     answer: >
       Oui. [Skype Entreprise Online](skype-for-business-online-retirement.md) sera supprimé le 31 juillet 2021. À partir de cette date, il ne sera plus accessible ni pris en charge. Nous encourageons les clients Skype Entreprise Online à commencer à utiliser Teams et à commencer à planifier leurs mises à niveau dès maintenant afin de pouvoir terminer la mise à niveau avant la date de retrait.
+  - question: La diffusion de réunion Skype va-t-elle être mise à l’abandon en même temps que Skype Entreprise Online ?
+    answer: "Oui. Teams Live Events est la solution qui remplacera la diffusion de réunion Skype.    \n"
   - question: Combien de temps prendra la transition vers Teams de mon organisation ?
     answer: >
       Vous pouvez définir le parcours de mise à niveau de Skype Entreprise vers Teams de votre organisation. Pour vous aider dans le cadre de la planification et de l’exécution, nous avons développé des conseils de mise à niveau complets basés sur un cadre éprouvé conçu pour vous aider à naviguer dans les éléments techniques et organisationnels de la modification. Commencez votre parcours en vous familiarisant avec notre [infrastructure de réussite de la mise à niveau](upgrade-framework.md) et des ressources associées qui constituent l’élément central de votre navigation entre Skype Entreprise et Teams.
@@ -44,7 +46,7 @@ sections:
   - question: Où puis-je en savoir plus sur les modes de coexistence dans le centre d’administration Microsoft Teams ?
     answer: >
       Dans le centre d'administration Microsoft Teams, des modes de coexistence supplémentaires apparaîtront, afin que votre organisation puisse gérer la transition de Skype Entreprise vers Teams qui lui convient. En savoir plus [sur les modes de coexistence et de mise à niveau](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
-  - question: Que dois-je faire pour préparer ma mise à niveau ?
+  - question: Que dois-je faire pour me préparer à la mise à niveau ?
     answer: >
       Une mise à niveau réussie inclut la validation de la préparation technique, outre la préparation de l’acceptation par l’utilisateur. Même si vous déterminez que votre organisation n’est pas tout à fait prête pour la mise à niveau vers Teams, vous pouvez commencer le processus de planification dès aujourd’hui. De plus, vous pouvez commencer à vous rendre compte de la valeur de Teams en activant Teams parallèlement à Skype Entreprise. Prise en main de votre [chemin Skype vers Teams[(https://aka.ms/skypetoteams-home) aujourd’hui.
 

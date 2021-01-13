@@ -1,8 +1,8 @@
 ---
 title: Certificat en attente (retourné)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page État de la demande de certificat en ligne renvoie l’état actuel du certificat. Si le certificat reste dans un état d’approbation en attente avec l’administrateur de l’autorité de certification (c’est-à-dire s’il n’a pas encore été approuvé), l’état indique que le certificat est toujours en cours de traitement.
-ms.openlocfilehash: 16950c61193051b9ae590ef3bc61c40b298cdb21
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page État de la demande de certificat en ligne renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.
+ms.openlocfilehash: 7ba807b8e4309c9614df66b7c727a7e964dcea74
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796805"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836954"
 ---
-# <a name="pending-certificate-returned"></a><span data-ttu-id="7ccb0-104">Certificat en attente (retourné)</span><span class="sxs-lookup"><span data-stu-id="7ccb0-104">Pending Certificate (Returned)</span></span>
+# <a name="pending-certificate-returned"></a><span data-ttu-id="b1ad6-104">Certificat en attente (retourné)</span><span class="sxs-lookup"><span data-stu-id="b1ad6-104">Pending Certificate (Returned)</span></span>
  
-<span data-ttu-id="7ccb0-105">La page État de la **demande de certificat en ligne** renvoie l’état actuel du certificat.</span><span class="sxs-lookup"><span data-stu-id="7ccb0-105">The **Online Certificate Request Status** page returns the current status of the certificate.</span></span> <span data-ttu-id="7ccb0-106">Si le certificat reste dans un état d’approbation en attente avec l’administrateur de l’autorité de certification (c’est-à-dire s’il n’a pas encore été approuvé), l’état indique que le certificat est toujours en cours de traitement.</span><span class="sxs-lookup"><span data-stu-id="7ccb0-106">If the certificate is still in a pending approval state with the certification authority administrator—that is, if it has not yet been approved—the status will indicate that the certificate is still being processed.</span></span>
+<span data-ttu-id="b1ad6-p102">La page **État de la demande de certificat en ligne** renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.</span><span class="sxs-lookup"><span data-stu-id="b1ad6-p102">The **Online Certificate Request Status** page returns the current status of the certificate. If the certificate is still in a pending approval state with the certification authority administrator—that is, if it has not yet been approved—the status will indicate that the certificate is still being processed.</span></span>
   
-<span data-ttu-id="7ccb0-107">S’il s’agit d’une demande d’approbation et que la récupération du certificat est réussie, l’état indique qu’un certificat a été affecté au magasin de certificats local et que le volet d’état affiche également l’empreinte numérique du certificat.</span><span class="sxs-lookup"><span data-stu-id="7ccb0-107">If the pending request has been approved and the retrieval of the certificate is successful, the status will indicate that a certificate has been assigned to the local certificate store, and the status pane will also display the certificate thumbprint.</span></span>
+<span data-ttu-id="b1ad6-107">Si la demande en attente a été approuvée et que la récupération du certificat a abouti, le statut indiquera qu’un certificat a été assigné au magasin de certificats local, et le volet de statut affichera également l’empreinte de certificat.</span><span class="sxs-lookup"><span data-stu-id="b1ad6-107">If the pending request has been approved and the retrieval of the certificate is successful, the status will indicate that a certificate has been assigned to the local certificate store, and the status pane will also display the certificate thumbprint.</span></span>
   
-<span data-ttu-id="7ccb0-108">Si l’administrateur de l’autorité de certification refuse la demande de certificat, le volet d’État indique que la demande du certificat en attente avec un ID donné (géré par l’autorité de certification) est refusée.</span><span class="sxs-lookup"><span data-stu-id="7ccb0-108">If the certification authority administrator denies the certificate request, the status pane will report that the request of the pending certificate with a given ID (maintained by the certification authority) is denied.</span></span>
+<span data-ttu-id="b1ad6-108">Si l’administrateur de l’autorité de certification rejette la demande de certificat, le volet de statut indiquera que la demande de certificat en attente avec un ID donné (géré par l’autorité de certification) est rejetée.</span><span class="sxs-lookup"><span data-stu-id="b1ad6-108">If the certification authority administrator denies the certificate request, the status pane will report that the request of the pending certificate with a given ID (maintained by the certification authority) is denied.</span></span>
   
-<span data-ttu-id="7ccb0-109">Cliquez sur **Terminer** pour terminer le traitement de certificat en attente.</span><span class="sxs-lookup"><span data-stu-id="7ccb0-109">Click **Finish** to complete the pending certificate processing.</span></span>
+<span data-ttu-id="b1ad6-109">Cliquez sur **Terminer** pour terminer le traitement du certificat en attente.</span><span class="sxs-lookup"><span data-stu-id="b1ad6-109">Click **Finish** to complete the pending certificate processing.</span></span>
   
 
