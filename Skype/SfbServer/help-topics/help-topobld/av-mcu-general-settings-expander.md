@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du service MCU audio/vidéo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 'Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, procédez comme suit :'
-ms.openlocfilehash: 5ad0ff4f855c5a2f06655cc231eff4937fb7cb0b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 386d53c50958f1e2ffba240426ef84100f305382
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216295"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835424"
 ---
-# <a name="av-mcu-general-settings-expander"></a>Expanseur des paramètres généraux du service MCU audio/vidéo
+# <a name="av-mcu-general-settings-expander"></a>Expandeur des paramètres généraux du service MCU audio/vidéo
  
 Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, procédez comme suit :
   
@@ -35,7 +35,7 @@ Mettez à jour le nom de domaine complet (FQDN) du pool de serveurs de conféren
 Pour associer un pool de serveurs de conférence A/V, sélectionnez le ou les pools frontaux à associer au pool de serveurs de conférence A/V.
   
 > [!NOTE]
-> Si aucun pool frontal ne figure dans le volet **Sélectionnez les pools frontaux à associer à ce pool de conférence A/V**, vous avez colocalisé le serveur de conférence A/V avec le pool frontal ou vous n’avez pas choisi d’ajouter la conférence à la section **Composants et fonctionnalités ** des propriétés du pool frontal.
+> Si aucun pool frontal ne figure dans le volet **Sélectionnez les pools frontaux à associer à ce pool de conférence A/V**, vous avez colocalisé le serveur de conférence A/V avec le pool frontal ou vous n’avez pas choisi d’ajouter la conférence à la section **Composants et fonctionnalités** des propriétés du pool frontal.
   
 
 

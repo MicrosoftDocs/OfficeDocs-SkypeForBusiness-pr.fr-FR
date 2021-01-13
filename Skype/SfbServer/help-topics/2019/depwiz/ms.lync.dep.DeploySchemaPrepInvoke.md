@@ -1,8 +1,8 @@
 ---
-title: Préparer un schéma (Invoke)
+title: Préparer un schéma (appeler)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page de commandes d’exécution affiche un récapitulatif des commandes émises pour prolonger le schéma de Skype entreprise Server.
-ms.openlocfilehash: a7d6f6d609222e692334dec7d1ec778a37aa4e1b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Exécution de commandes affiche un résumé des commandes émises pour étendre le schéma pour Skype Entreprise Server.
+ms.openlocfilehash: 2e9b2c059d0793c0bb4814840d8a249ba8c15486
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794643"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836704"
 ---
-# <a name="prepare-schema-invoke"></a>Préparer un schéma (Invoke)
+# <a name="prepare-schema-invoke"></a>Préparer un schéma (appeler)
  
-La page de **commandes d’exécution** affiche un récapitulatif des commandes émises pour prolonger le schéma de Skype entreprise Server. Lorsque les tâches sont terminées, le volet Résumé indique si elles ont réussi ou échoué. Consultez l’écran Résumé et assurez-vous que **Statut de la tâche : Terminée** s’affiche dans le volet Résumé. La liste déroulante sous le volet Résumé vous permet de sélectionner et de visualiser le fichier journal Préparer le schéma. Cliquez sur **Afficher le journal** pour consulter le fichier journal. Si vous avez obtenu des erreurs pendant la préparation du schéma, elles y sont répertoriées. Vous pouvez alors prendre les mesures nécessaires pour corriger les erreurs et exécuter de nouveau la préparation du schéma.
+La page **Exécution de commandes** affiche un résumé des commandes émises pour étendre le schéma pour Skype Entreprise Server. Une fois les tâches terminées, le volet récapitulatif indique si les tâches ont réussi ou ont échoué. Examinez l’écran récapitulatif  et assurez-vous que l’état de la tâche : Terminé est affiché sous le volet récapitulatif. La liste récapitulatif sous le volet récapitulatif vous permet de sélectionner et d’afficher le fichier journal, Préparer le schéma. Cliquez **sur Afficher le journal** pour examiner le fichier journal. Si vous avez reçu des erreurs pendant la préparation du schéma, les erreurs rencontrées par la tâche sont consignées ici. Vous pouvez ensuite prendre des mesures pour corriger toute erreur et ré-exécuter la préparation du schéma.
   
 Cliquez sur **Terminer** pour terminer la tâche.
   

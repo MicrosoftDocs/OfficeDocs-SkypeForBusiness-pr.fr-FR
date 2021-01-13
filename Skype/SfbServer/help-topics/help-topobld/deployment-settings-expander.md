@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres de déploiement
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-description: 'Vous pouvez modifier les propriétés d’un déploiement existant à l’aide des sections suivantes :'
-ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :'
+ms.openlocfilehash: c7a360146f91c2e411ff48f52d92a3c69b0a2e11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219065"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835364"
 ---
-# <a name="deployment-settings-expander"></a>Expanseur des paramètres de déploiement
+# <a name="deployment-settings-expander"></a>Expandeur des paramètres de déploiement
 
-Vous pouvez modifier les propriétés d’un déploiement existant à l’aide des sections suivantes :
+Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :
 
 - Domaine SIP
 
@@ -73,7 +73,7 @@ Le serveur de gestion centralisée peut être changé d’un pool frontal défin
 > [!IMPORTANT]
 > Après avoir défini, publié et déployé le magasin central de gestion pour l’infrastructure, vous ne pouvez pas modifier son emplacement sans redéfinir l’emplacement du magasin central de gestion sur un autre serveur frontal par le biais d’un processus externe.
 
-Pour plus d’informations sur le déplacement du magasin central de gestion, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence de l’applet de commande Windows PowerShell.
+Pour plus d’informations sur le déplacement du magasin central de gestion, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la Windows PowerShell cmdlet.
 
 ## <a name="see-also"></a>Voir aussi
 

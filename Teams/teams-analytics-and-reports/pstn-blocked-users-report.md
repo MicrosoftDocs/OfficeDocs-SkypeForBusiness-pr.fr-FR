@@ -1,7 +1,7 @@
 ---
-title: Rapport sur les utilisateurs bloqués RTC de Microsoft teams
-author: LanaChin
-ms.author: v-lanac
+title: Rapport sur le blocage d’utilisateurs dans La conférence PSTN de Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,36 +13,36 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Utilisez le rapport RTC blocage des utilisateurs dans le centre d’administration de Microsoft teams pour obtenir une vue d’ensemble des utilisateurs d’équipes de votre organisation qui ne peuvent pas passer d’appels RTC.
+description: Utilisez le rapport sur le blocage d’utilisateurs PSTN dans le Centre d’administration Microsoft Teams pour obtenir une vue d’ensemble des utilisateurs Teams de votre organisation qui sont bloqués et ne peuvent plus passer d’appels PSTN.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ed775c3796e40a775b3be2b78f22e162a047bf78
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904906"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809334"
 ---
-# <a name="microsoft-teams-pstn-blocked-users-report"></a>Rapport sur les utilisateurs bloqués RTC de Microsoft teams
+# <a name="microsoft-teams-pstn-blocked-users-report"></a>Rapport sur le blocage d’utilisateurs dans La conférence PSTN de Microsoft Teams
 
-Le rapport sur les utilisateurs bloqués RTC dans le centre d’administration Microsoft teams vous indique les utilisateurs de votre organisation qui ne peuvent pas passer d’appels RTC dans Teams. Vous pouvez afficher des informations supplémentaires sur chaque utilisateur bloqué, y compris son numéro de téléphone et la raison pour laquelle il a été bloqué.
+Le rapport sur le blocage d’utilisateurs PSTN dans le Centre d’administration Microsoft Teams affiche les utilisateurs de votre organisation qui sont bloqués et ne peuvent plus effectuer d’appels PSTN dans Teams. Vous pouvez afficher plus d’informations sur chaque utilisateur bloqué, y compris son numéro de téléphone affecté et la raison pour laquelle il a été bloqué.
 
-## <a name="view-the-pstn-blocked-users-report"></a>Afficher le rapport sur les utilisateurs bloqués RTC
+## <a name="view-the-pstn-blocked-users-report"></a>Afficher le rapport sur le blocage d’utilisateurs PSTN
 
-Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l' **onglet Afficher les rapports** , sous **rapport**, sélectionnez **utilisateurs bloqués RTC**, puis cliquez sur **exécuter un rapport**.
+Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Analyse pour & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Utilisateurs PSTN** bloqués, puis cliquez sur **Exécuter le rapport.**
 
-![Capture d’écran du rapport de rapport sur les utilisateurs bloqués RTC dans le centre d’administration](../media/teams-reports-pstn-blocked-users-with-callouts.png "Capture d’écran du rapport sur les utilisateurs bloqués RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
+![Rapport sur le blocage d’utilisateurs PSTN dans le Centre d’administration](../media/teams-reports-pstn-blocked-users-with-callouts.png "Rapport sur le blocage d’utilisateurs PSTN dans le Centre d’administration Microsoft Teams avec des appels numéroés")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
 |Légende |Description  |
 |--------|-------------|
-|**1**   |Date de génération de chaque rapport. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
-|**2**   |L’axe X correspond à la date. L’axe Y indique le nombre d’utilisateurs. <br>Pointez sur le point d’une date donnée pour afficher le nombre d’utilisateurs bloqués à cette date. |
-|**3**   |Le tableau fournit une répartition de tous les utilisateurs qui ne peuvent pas passer d’appels RTC.  Il affiche tous les utilisateurs disposant d’un système téléphonique ou d’une audioconférence attribué et vous donne des informations supplémentaires sur chaque utilisateur. <ul><li>**Nom complet** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour accéder à la page de paramètres de l’utilisateur dans le centre d’administration Microsoft Teams. </li> <li>**Téléphone** correspond au numéro attribué à l’utilisateur.</li> <li>**Raison du blocage** est la raison pour laquelle l’utilisateur est empêché d’effectuer des appels.</li><li>L' **action bloqué** vous indique si l’utilisateur est bloqué ou débloqué pour passer des appels RTC dans Teams.</li> <li>Le **temps bloqué** est la date et l’heure (UTC) auxquelles l’utilisateur a été empêché de passer des appels.</li></li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**1**   |Chaque rapport indique la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
+|**2**   |L’axe X est la date. L’axe Y est le nombre d’utilisateurs. <br>Pointez sur le point à une date donnée pour voir le nombre d’utilisateurs bloqués à cette date. |
+|**3**   |Le tableau détailne tous les utilisateurs bloqués et ne peuvent plus effectuer d’appels PSTN.  Il affiche tous les utilisateurs à qui sont attribués le système téléphonique ou l’audioconférence et vous donne des informations supplémentaires sur chaque utilisateur. <ul><li>**Le nom d’affichage** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour afficher la page de paramètres de l’utilisateur dans le Centre d’administration Microsoft Teams. </li> <li>**Le** numéro de téléphone est affecté à l’utilisateur.</li> <li>**La raison du blocage** est la raison pour laquelle l’utilisateur est bloqué et ne peut plus effectuer d’appels.</li><li>**L’action**  bloquée vous indique si l’utilisateur est bloqué ou débloqué contre les appels PSTN dans Teams.</li> <li>**L’heure** bloquée est la date et l’heure (UTC) à laquelle l’utilisateur a été bloqué.</li></li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**4**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
-|**5**   |Pour afficher le rapport en mode plein écran, sélectionnez **plein écran** .|
+|**5**   |Sélectionnez **Plein écran** pour afficher le rapport en mode Plein écran.|
 
 ## <a name="related-topics"></a>Voir aussi
 

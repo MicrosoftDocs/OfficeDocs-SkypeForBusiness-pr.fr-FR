@@ -1,8 +1,8 @@
 ---
-title: Assistant hybride-modifier des utilisateurs
+title: Utilisateurs de modification de l’Assistant hybride
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
-description: Utilisez l’Assistant Modification des utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement. Pour plus d’informations, voir Use the Hybrid Manageability wizard.
-ms.openlocfilehash: cdea63adb2a5899fdd5d10e5da6c72bb996e0e03
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Utilisez l’Assistant Modifier les utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement. Pour plus d’informations, voir l’Assistant Gestion hybride.
+ms.openlocfilehash: 1dc7c62c5f10032df5b2915972f1ac9a4bfa6c75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796473"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836564"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Assistant hybride : modification des utilisateurs
 
-Utilisez l’Assistant Modification des utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement. Pour plus d’informations, voir [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+Utilisez l’Assistant Modifier les utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement. Pour plus d’informations, [voir Utiliser l’Assistant Gestion hybride.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
 
 

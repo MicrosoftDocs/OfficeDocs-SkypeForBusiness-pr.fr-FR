@@ -1,8 +1,8 @@
 ---
-title: Demande de certificat (appel)
+title: Demande de certificat (appeler)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page d’exécution de commandes affiche un volet d’état de la tâche, à mesure que les commandes s’exécutent pour la génération de la demande de certificat. Une fois les tâches terminées, la liste déroulante située sous le volet de synthèse contient une liste des fichiers journaux. Utilisez la liste déroulante pour sélectionner un fichier journal à afficher, puis cliquez sur Afficher le journal. Internet Explorer démarre et affiche le fichier journal. En cas d’échec d’une requête, vous devez examiner le ou les fichiers journaux pour déterminer la cause du problème. Vous pouvez réexécuter la demande de certificat pour résoudre le problème en corrigeant le problème indiqué dans le fichier journal. Continuez malgré les pages de demande de certificat et sollicitez de nouveau le certificat.
-ms.openlocfilehash: 983ebce3a26429706a5518817e81b42cdc22cfd9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Exécution de commandes affiche un volet de statut de la tâche tandis que les commandes s’exécutent pour la génération de la demande de certificat. Une fois les tâches achevées, la liste déroulante située sous le volet de résumé contient la liste des fichiers journaux. Utilisez la liste de listes pour sélectionner un fichier journal à afficher, puis cliquez sur Afficher le journal. Internet Explorer démarre et affiche le fichier journal. Si une demande a échoué, vous devez passer en revue les fichiers journaux afin de déterminer la cause de l’échec. Vous pouvez réexécuter la demande de certificat pour résoudre le problème, en corrigeant le problème indiqué dans le fichier journal. Continuez à l’aide des pages de demande de certificat et demandez à nouveau le certificat.
+ms.openlocfilehash: 0f2f1dd8c23e5c0fb36a0cabc4dca022277141c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796695"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836844"
 ---
-# <a name="certificate-request-invoke"></a>Demande de certificat (appel)
+# <a name="certificate-request-invoke"></a>Demande de certificat (appeler)
  
-La page d' **exécution de commandes** affiche un volet d’état de la tâche, à mesure que les commandes s’exécutent pour la génération de la demande de certificat. Une fois les tâches terminées, la liste déroulante située sous le volet de synthèse contient une liste des fichiers journaux. Utilisez la liste déroulante pour sélectionner un fichier journal à afficher, puis cliquez sur **afficher le journal**. Internet Explorer démarre et affiche le fichier journal. En cas d’échec d’une requête, vous devez examiner le ou les fichiers journaux pour déterminer la cause du problème. Vous pouvez réexécuter la demande de certificat pour résoudre le problème en corrigeant le problème indiqué dans le fichier journal. Continuez malgré les pages de demande de certificat et sollicitez de nouveau le certificat.
+La page **Exécution de commandes** affiche un volet de statut de la tâche tandis que les commandes s’exécutent pour la génération de la demande de certificat. Une fois les tâches achevées, la liste déroulante située sous le volet de résumé contient la liste des fichiers journaux. Utilisez la liste de listes pour sélectionner un fichier journal à afficher, puis cliquez sur **Afficher le journal.** Internet Explorer démarre et affiche le fichier journal. Si une demande a échoué, vous devez passer en revue les fichiers journaux afin de déterminer la cause de l’échec. Vous pouvez réexécuter la demande de certificat pour résoudre le problème, en corrigeant le problème indiqué dans le fichier journal. Continuez à l’aide des pages de demande de certificat et demandez à nouveau le certificat.
   
 

@@ -1,8 +1,8 @@
 ---
 title: Importer un certificat (résumé)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sur la page importer le résumé du certificat, un résumé du nom de fichier, du chemin d’accès et de la présence d’une clé privée s’affiche. Après avoir consulté le résumé, cliquez sur suivant pour continuer.
-ms.openlocfilehash: 74166ed709a3e8dd0a5b5ebaf5a4e0df3ab2564b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Dans la page Importer le résumé du certificat, vous découvrez un résumé mentionnant le nom de fichier, le chemin d’accès et la présence d’une clé privée. Lorsque vous avez terminé de passer en revue le résumé, cliquez sur Suivant pour continuer.
+ms.openlocfilehash: f2300d19f68fcf4f9b5c3cc6d0e376ebe7d769e0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796845"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837014"
 ---
 # <a name="import-certificate-summary"></a>Importer un certificat (résumé)
  
-Sur la page **importer le résumé du certificat** , un résumé du nom de fichier, du chemin d’accès et de la présence d’une clé privée s’affiche. Après avoir consulté le résumé, cliquez sur **suivant** pour continuer.
+Dans la page **Importer le résumé du certificat**, vous découvrez un résumé mentionnant le nom de fichier, le chemin d’accès et la présence d’une clé privée. Lorsque vous avez terminé de passer en revue le résumé, cliquez sur **Suivant** pour continuer.
   
 

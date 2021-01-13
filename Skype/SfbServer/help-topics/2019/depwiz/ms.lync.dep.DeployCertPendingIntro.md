@@ -1,8 +1,8 @@
 ---
 title: Certificat en attente (introduction)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour traiter une demande de certificat en ligne en attente (c’est-à-dire, une demande qui a été émise pour votre autorité de certification en ligne), mais qui est configurée de manière administrative pour exiger un processus d’approbation manuel, cliquez sur suivant.
-ms.openlocfilehash: cb896b3dc6fbed4377a16b8f7ba8c8dab2ed5da3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour traiter une demande de certificat en ligne en attente, c'est-à-dire une requête déposée auprès de votre autorité de certification en ligne mais qui, de par sa configuration, requiert un processus d'approbation manuel, cliquez sur Suivant.
+ms.openlocfilehash: e42817eb4dbca56298ddd8c2268e2cbaee7325bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796825"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837004"
 ---
 # <a name="pending-certificate-intro"></a>Certificat en attente (introduction)
  
-Pour traiter une demande de certificat en ligne en attente (c’est-à-dire, une demande qui a été émise pour votre autorité de certification en ligne), mais qui est configurée de manière administrative pour exiger un processus d’approbation manuel, cliquez sur **suivant**.
+Pour traiter une demande de certificat en ligne en attente, c'est-à-dire une requête déposée auprès de votre autorité de certification en ligne mais qui, de par sa configuration, requiert un processus d'approbation manuel, cliquez sur **Suivant**.
   
 

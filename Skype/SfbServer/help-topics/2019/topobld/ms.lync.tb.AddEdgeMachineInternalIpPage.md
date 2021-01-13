@@ -1,8 +1,8 @@
 ---
-title: Ajouter l’adresse IP interne de l’ordinateur Edge
+title: Ajouter l’adresse IP interne de l’ordinateur Edge
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
-description: Utilisez cette page pour spécifier l’adresse IP interne et le nom de domaine complet (FQDN) interne du serveur Edge.
-ms.openlocfilehash: fba327a08d8998056c42a39190fd8b3bf44ff08b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Utilisez cette page pour préciser l'adresse IP interne et le nom de domaine complet (FQDN) interne du serveur Edge.
+ms.openlocfilehash: db8ed184a89b75d696333d62661218902fb87a75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798241"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835974"
 ---
-# <a name="add-edge-machine-internal-ip"></a>Ajouter l’adresse IP interne de l’ordinateur Edge
+# <a name="add-edge-machine-internal-ip"></a>Ajouter l’adresse IP interne de l’ordinateur Edge
 
-Utilisez cette page pour spécifier l’adresse IP interne et le nom de domaine complet (FQDN) interne du serveur Edge.
+Utilisez cette page pour préciser l’adresse IP interne et le nom de domaine complet (FQDN) interne du serveur Edge.
 
-Le nom de domaine complet que vous spécifiez doit être identique à celui configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, et non un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Par conséquent, vous devez configurer un suffixe DNS (Domain Name System) sur le nom de l’ordinateur à déployer en tant que serveur Edge qui n’est pas joint à un domaine. Pour plus d’informations sur l’ajout d’un suffixe DNS à un nom d’ordinateur, voir [configurer la prise en charge de DNS pour les périphériques](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)
+Le nom de domaine complet que vous spécifiez doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, non un nom de domaine complet. Le Générateur de topologies utilise des noms de domaine complets (FQDN), non des noms courts. Vous devez donc configurer un suffixe DNS (Domain Name System) sur le nom de l'ordinateur à déployer en tant que serveur Edge non joint à un domaine. Pour plus d’informations sur l’ajout d’un suffixe DNS à un nom d’ordinateur, voir [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx).
 
 

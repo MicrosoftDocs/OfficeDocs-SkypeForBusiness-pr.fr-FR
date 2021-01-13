@@ -1,8 +1,8 @@
 ---
-title: Déploiement de fonctionnalités avancées d’entreprise voix dans Skype entreprise Server
+title: Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: Déploiement de fonctionnalités avancées de voix entreprise dans Skype entreprise Server.
-ms.openlocfilehash: 27d09f842555d008edc96d5b61838508df6836a8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server.
+ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767677"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836894"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Déploiement de fonctionnalités avancées d’entreprise voix dans Skype entreprise Server
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server
  
-Déploiement de fonctionnalités avancées de voix entreprise dans Skype entreprise Server.
+Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server.
   
-Après avoir configuré Voix Entreprise dans votre organisation, vous pouvez déployer une ou plusieurs fonctionnalités Voix Entreprise plus avancées en procédant comme indiqué dans cette section. 
+Après avoir configuré les fonctionnalités de Voix Entreprise de base pour votre organisation, vous pouvez éventuellement déployer une ou plusieurs fonctionnalités Voix Entreprise avancées en suivant les procédures de cette section. 
   
-- [Plan de contournement de médias dans Skype entreprise](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Planifier le contournement de média dans Skype Entreprise](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Planifier le contrôle d’admission des appels dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Planifier le contrôle d’admission des appels dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planifier des services d’urgence dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planifier les services d’urgence dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Déploiement de régions, de sites et de sous-réseaux réseau dans Skype entreprise](deploy-network.md)
+- [Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise](deploy-network.md)
     
-- [Déploiement du contournement multimédia dans Skype entreprise Server](deploy-media-bypass.md)
+- [Déploiement du contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)
     
-- [Déployer le contrôle d’admission des appels dans Skype entreprise Server](deploy-call-admission-control.md)
+- [Déployer le contrôle d’admission des appels dans Skype Entreprise Server](deploy-call-admission-control.md)
     
-- [Déploiement de services d’urgence dans Skype entreprise Server](deploy-emergency-services.md)
+- [Déployer des services d’urgence dans Skype Entreprise Server](deploy-emergency-services.md)
     
 

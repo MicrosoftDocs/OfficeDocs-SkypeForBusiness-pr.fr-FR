@@ -1,8 +1,8 @@
 ---
 title: Certificat en attente (retourné)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page État de la demande de certificat en ligne renvoie l’état actuel du certificat. Si le certificat reste dans un état d’approbation en attente avec l’administrateur de l’autorité de certification (c’est-à-dire s’il n’a pas encore été approuvé), l’état indique que le certificat est toujours en cours de traitement.
-ms.openlocfilehash: 16950c61193051b9ae590ef3bc61c40b298cdb21
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page État de la demande de certificat en ligne renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.
+ms.openlocfilehash: 7ba807b8e4309c9614df66b7c727a7e964dcea74
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796805"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836954"
 ---
 # <a name="pending-certificate-returned"></a>Certificat en attente (retourné)
  
-La page État de la **demande de certificat en ligne** renvoie l’état actuel du certificat. Si le certificat reste dans un état d’approbation en attente avec l’administrateur de l’autorité de certification (c’est-à-dire s’il n’a pas encore été approuvé), l’état indique que le certificat est toujours en cours de traitement.
+La page **État de la demande de certificat en ligne** renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.
   
-S’il s’agit d’une demande d’approbation et que la récupération du certificat est réussie, l’état indique qu’un certificat a été affecté au magasin de certificats local et que le volet d’état affiche également l’empreinte numérique du certificat.
+Si la demande en attente a été approuvée et que la récupération du certificat a abouti, le statut indiquera qu’un certificat a été assigné au magasin de certificats local, et le volet de statut affichera également l’empreinte de certificat.
   
-Si l’administrateur de l’autorité de certification refuse la demande de certificat, le volet d’État indique que la demande du certificat en attente avec un ID donné (géré par l’autorité de certification) est refusée.
+Si l’administrateur de l’autorité de certification rejette la demande de certificat, le volet de statut indiquera que la demande de certificat en attente avec un ID donné (géré par l’autorité de certification) est rejetée.
   
-Cliquez sur **Terminer** pour terminer le traitement de certificat en attente.
+Cliquez sur **Terminer** pour terminer le traitement du certificat en attente.
   
 

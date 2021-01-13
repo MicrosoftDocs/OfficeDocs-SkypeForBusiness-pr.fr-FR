@@ -1,8 +1,8 @@
 ---
 title: Importer un certificat (introduction)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour importer un certificat, vous devez fournir un chemin d’accès au fichier de certificat. Dans la zone de texte sélectionner un fichier de certificat, tapez le chemin d’accès complet et le nom de fichier, ou cliquez sur le bouton Parcourir, puis accédez à l’emplacement du chemin d’accès et au nom du fichier (en général, un fichier. p7b,. pfx ou. cer).
-ms.openlocfilehash: 36a14b9ca95a87c34f5268eee01411eeaf712fb4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour importer un certificat, vous devez fournir un chemin d’accès au fichier de certificat. Dans la zone de texte Sélectionner un fichier de certificat, vous pouvez au choix entrer le chemin d’accès complet et le nom de fichier ou cliquer sur le bouton Parcourir et accéder à l’emplacement du chemin d’accès et du nom de fichier (généralement un fichier .p7b, .pfx ou .cer).
+ms.openlocfilehash: ec0eb1593c628e44fcbe5cfb8d47a381b9281406
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796865"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837104"
 ---
 # <a name="import-certificate-intro"></a>Importer un certificat (introduction)
  
-Pour importer un certificat, vous devez fournir un chemin d’accès au fichier de certificat. Dans la zone de texte **Sélectionner un fichier de certificat** , tapez le chemin d’accès complet et le nom de fichier, ou cliquez sur le bouton **Parcourir** , puis accédez à l’emplacement du chemin d’accès et au nom du fichier (en général, un fichier. p7b,. pfx ou. cer).
+Pour importer un certificat, vous devez fournir un chemin d’accès au fichier de certificat. Dans la zone de texte **Sélectionner un fichier de certificat**, vous pouvez au choix entrer le chemin d’accès complet et le nom de fichier ou cliquer sur le bouton **Parcourir** et accéder à l’emplacement du chemin d’accès et du nom de fichier (généralement un fichier .p7b, .pfx ou .cer).
   
-Si le certificat contient une clé privée, activez la case à cocher le **fichier de certificat contient la clé privée du certificat**. Lorsque cette case est cochée, l’entrée de texte du **mot de passe** est activée. Si vous disposez d’un certificat auquel est associée une clé privée, un mot de passe est généralement placé sur la clé privée lors de la création du certificat. Entrez le mot de passe de la clé privée pour permettre l’importation du certificat et de la clé privée dans le magasin de certificats. Lorsque vous avez fourni les informations du chemin d’accès au fichier de certificat et éventuellement le mot de passe de la clé privée, le cas échéant, cliquez sur **suivant**.
+Si le certificat contient une clé privée, cochez la case Le fichier de certificat contient **la clé privée du certificat.** Lorsque cette case à cochée est activée, la saisie de texte **Mot de passe** est activée. Si vous avez un certificat qui est associé à une clé privée, un mot de passe est généralement placé sur la clé privée lors de la création du certificat. Saisissez le mot de passe de la clé privée afin d’autoriser l’importation du certificat et de la clé privée dans le magasin de certificats. Lorsque vous avez fourni les informations pour le chemin d’accès au fichier de certificat, et éventuellement le mot de passe de la clé privée, si nécessaire, cliquez sur **Suivant**.
   
 > [!IMPORTANT]
-> Si vous ne connaissez pas le mot de passe de la clé privée, l’importation échoue. 
+> Si vous ne connaissez pas le mot de passe de la clé privée, l’importation échouera. 
   
 

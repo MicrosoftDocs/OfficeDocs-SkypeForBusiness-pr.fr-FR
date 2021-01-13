@@ -1,8 +1,8 @@
 ---
-title: CLS Logger pour Skype Entreprise Server 2015
+title: CLS Logger pour Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -13,133 +13,133 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Résumé : Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.'
-ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment utiliser l’enregistreur CLS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: a24cdbffc4b7601d325cd132afb5a7cf137b54f4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816613"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835234"
 ---
-# <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
+# <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment utiliser l’enregistreur CLS (Centralized Logging Service) dans Skype Entreprise Server 2015.
   
-CLS Logger est un outil qui vous permet de gérer les journauxdu Service de journalisation centralisée (CLS).
+ClS Logger est un outil qui vous permet de gérer les journaux générés par le service de journalisation centralisée.
   
-## <a name="prerequisites"></a>Conditions requises
+## <a name="prerequisites"></a>Conditions préalables
 
-Afin de pouvoir utiliser CLS Logger, veillez à ce que les conditions suivantes soient remplies :
+Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs suivantes sont vraies :
   
-- Vous utilisez l’outil sur un ordinateur qui est membre du domaine dans lequel le Service de journalisation centralisée (CLS) s’exécute. Pour le moment, l’outil n’est pas compatible avec les sessions PowerShell à distance.
+- Vous utilisez l’outil sur un ordinateur membre du domaine dans lequel le SERVICE de journalisation centralisée (CLS) est en cours d’exécution. L’outil n’est actuellement pas pris en charge dans les sessions PowerShell à distance.
     
-- Le fichier Default.tmx issu du dossier de suivi (où résident les données de suivi capturées pour le CLS) et de Snooper doit être copié dans le dossier de l’outil CLS Logger.
+- Le fichier Default.tmx du dossier de suivi (dossier dans lequel les données de suivi sont capturées pour le CLS) et Snooper doit être copié dans le dossier où l’outil CLS Logger est installé.
     
-## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Vérification du statut de journalisation d’un ensemble de pools/ordinateurs
+## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Vérifier l’état de journalisation d’un ensemble de pools/ordinateurs
 
-Utiliser les commandes suivantes pour vérifier le statut de journalisation :
+Utilisez les commandes suivantes pour vérifier l’état de la journalisation :
   
-1. Dans l’onglet « démarrer/arrêter les scénarios », sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence de la topologie.
     
-2. Cliquez sur le bouton Statut de journalisation.
+2. Cliquez sur le bouton État de la journalisation.
     
-3. Consultez la sortie de la commande dans la zone de sortie de commande PowerShell contenant les informations spécifiques relatives au statut de journalisation des pools et/ou ordinateurs sélectionnés.
+3. Affichez la sortie de commande dans la zone sortie de commande PowerShell pour plus d’informations sur l’état de journalisation des pools et/ou ordinateurs sélectionnés.
     
-## <a name="start-an-existing-scenario"></a>Début d’un scénario existant
+## <a name="start-an-existing-scenario"></a>Démarrer un scénario existant
 
-Pour lancer un scénario existant :
+Pour démarrer un scénario existant :
   
-1. Dans l’onglet « démarrer/arrêter les scénarios », sélectionnez un scénario existant dans le menu déroulant scénarios.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un scénario existant dans le menu déroulant Scénarios.
     
-2. Sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence Topologie.
+2. Sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence topologie.
     
-3. Cliquez sur le bouton Lancer le scénario. L’interface utilisateur est alors désactivée jusqu’à la fin de l’opération. Celle-ci peut durer un certain temps pour les déploiements de grande envergure.
+3. Cliquez sur le bouton Démarrer le scénario. L’interface utilisateur est désactivée jusqu’à la fin de l’opération. Cela peut être lent sur les déploiements de grande taille.
     
-4. L’interface utilisateur est réactivée à l’issue du lancement réussi du scénario ; de plus, la zone de sortie de commande PowerShell comporte les informations détaillées relatives à l’action.
+4. L’interface utilisateur est de nouveau activée une fois le scénario démarré, les détails de l’action sont également affichés dans la zone de sortie de commande PowerShell.
     
-5. Il peut s’écouler un certain temps avant que le CLS se connecte à la journalisation et que de nouvelles données issues de ce scénario soient collectées.
+5. La tâche peut prendre un certain temps avant que la journalisation soit reprise par le CLS avant toute nouvelle donnée de ce scénario.
     
-## <a name="stop-an-existing-scenario"></a>Arrêt d’un scénario existant
+## <a name="stop-an-existing-scenario"></a>Arrêter un scénario existant
 
-Pour arrêter un scénario existant :
+Pour arrêter un scénario existant :
   
-1. Dans l’onglet « démarrer/arrêter les scénarios », sélectionnez un scénario existant dans le menu déroulant scénarios.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un scénario existant dans le menu déroulant Scénarios.
     
-2. Sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence Topologie.
+2. Sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence topologie.
     
-3. Cliquez sur le bouton Arrêter le scénario. L’interface utilisateur est alors désactivée jusqu’à la fin de l’opération. Celle-ci peut durer un certain temps pour les déploiements de grande envergure.
+3. Cliquez sur le bouton Arrêter le scénario. L’interface utilisateur est désactivée jusqu’à la fin de l’opération. Cela peut être lent sur les déploiements de grande taille.
     
-4. L’interface utilisateur est réactivée à l’issue de l’arrêt du scénario ; de plus, la zone de sortie de commande PowerShell comporte les informations détaillées relatives à l’action.
+4. L’interface utilisateur est de nouveau activée une fois que le scénario s’est arrêté, les détails de l’action sont également affichés dans la zone de sortie de commande PowerShell.
     
-![Arrêt et démarrage du journal CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Démarrage et arrêt de CLS Logger](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
-## <a name="search-for-logs"></a>Recherche dans les journaux
+## <a name="search-for-logs"></a>Rechercher des journaux
 
-Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journaux CLS » et cliquez sur le bouton « Rechercher dans les journaux » après avoir rempli les champs affichés comme décrit ci-dessous :
+Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journaux CLS », puis cliquez sur le bouton « Journaux de recherche » après avoir rempli les champs affichés, comme décrit ci-dessous :
   
-> **Dossier des fichiers journaux** Dossier d’enregistrement des résultats de la recherche de journaux (obligatoire).
+> **Dossier du fichier journal** Dossier pour enregistrer les résultats de la recherche dans le journal. (Obligatoire)
 > 
-> **Niveau des journaux** Détermine le niveau le plus bas qui sera représenté dans les résultats. Par exemple, si vous sélectionnez Warning, seuls Warning, Error et Fatal seront affichés. Par défaut sur Débogage.
+> **Niveau du journal** Cette valeur détermine le niveau le plus bas qui s’affichera dans les résultats. Par exemple, si Avertissement est sélectionné, seuls Avertissement, Erreur et Fatal s’afficheront. Par défaut: Débogage.
 > 
-> **Pools** Pools d’ordinateurs sur lesquels effectuer la recherche. Il s’agit des nœuds parents dans l’arborescence (obligatoire).
+> **Pools** Pools d’ordinateurs pour effectuer la recherche de journal par rapport à, il s’est s’il s’t des nodes parents de l’arborescence. (Obligatoire)
 > 
-> **Ordinateurs** Ordinateurs individuels sur lesquels effectuer la recherche. Il s’agit des nœuds enfants dans l’arborescence (obligatoire).
+> **Ordinateurs** Ordinateurs individuels pour effectuer la recherche dans le journal : il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
 > 
-> **Heure de départ** Heure à partir de laquelle le CLS interrogera les journaux (obligatoire).
+> **Heure de début** Période à partir de laquelle clS interrogera les journaux. (Obligatoire)
 > 
-> **Heure de fin** Heure à partir de laquelle le CLS cessera d’interroger les journaux (obligatoire).
+> **Heure de fin** Période à partir de laquelle le CLS cessera d’interroger les journaux. (Obligatoire)
 > 
-> **Composants** Permet de sélectionner les composants à ajouter à la requête (facultatif).
+> **Composants** Permet de sélectionner les composants à ajouter à la requête. (Facultatif)
 > 
-> **Identifiant de l’appel** Identifiant de l’appel de n’importe quel dialogue SIP sur lequel effectuer le filtrage des informations. Attention, ce champ utilise uniquement des correspondances exactes (facultatif).
+> **ID d’appel** ID d’appel de toutes les boîtes de dialogue SIP qui doivent être filtrées. Remarque : ce champ utilise une correspondance exacte. (Facultatif)
 > 
-> **de la conférence** Identifiant de n’importe quelle conférence sur lequel effectuer le filtrage des informations. Attention, ce champ utilise uniquement des correspondances exactes (facultatif).
+> **ID de conférence** ID de conférence de toutes les conférences à filtrer. Remarque : ce champ utilise une correspondance exacte. (Facultatif)
 > 
-> **Adresse IP** Adresse IP sur laquelle effectuer le filtrage des informations. Attention, ce champ utilise uniquement des correspondances exactes (facultatif).
+> **Adresse IP** Adresse IP qui doit être filtrée. Remarque : ce champ utilise une correspondance exacte. (Facultatif)
 > 
-> **Identifiants de corrélation** Instructions de suivi qui sont associées les unes aux autres de manière logique par cet identifiant (facultatif).
+> **ID de corrélation** Instructions de suivi liées logiquement par cet ID. (Facultatif)
 > 
-> **Numéro de téléphone** Filtrage par numéro de téléphone (facultatif).
+> **Numéro de téléphone** Filtrer par numéro de téléphone. (Facultatif)
 > 
-> **URI SIP** Filtrage par URI SIP (facultatif).
+> **URI SIP** Filtrez par URI SIP. (Facultatif)
 > 
-> **Contenu de message SIP** Filtrage par contenu de message SIP, ce qui implique la recherche de chaîne partielle dans ce champ (facultatif).
+> **Contenu des messages SIP** Filtrer par contenu de message SIP, cela sous-stre la recherche dans ce champ. (Facultatif)
 > 
-> **Correspondre à tous** La recherche utilise l’opérateur logique lorsque cette option est sélectionnée. Définie sur Correspondance exacte pour tous les paramètres.
+> **Match Any** Recherche à l’aide d’un ou logique s’il est vérifié. Par défaut, correspond exactement à tous les paramètres.
 > 
-> **Sauter les journaux réseau** La recherche ignore les journaux réseau lorsque cette option est sélectionnée.
+> **Ignorer les journaux réseau** Ignore la recherche dans les journaux réseau s’il est vérifié.
     
-![Journaux de recherche CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Journaux de recherche CLS Logger](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
-## <a name="create-a-scenario"></a>Création d’un scénario
+## <a name="create-a-scenario"></a>Créer un scénario
 
-1. Dans l’onglet **modifier les scénarios** , cliquez sur le bouton créer un **scénario** .
+1. Dans **l’onglet Modifier les scénarios,** cliquez sur **le bouton Créer un** scénario.
     
     > [!NOTE]
-    > La création d’un scénario duplique la configuration du scénario actuellement sélectionné. Si vous cliquez sur **Effacer les paramètres** avant de créer un scénario, l’opération est effectuée sans que des composants et des indicateurs soient sélectionnés.
+    > La création d’un scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer les paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
   
-2. Entrez le nom du scénario à créer et appuyez sur Entrée ou cliquez sur le bouton OK.
+2. Entrez le nom du scénario que vous créez et appuyez sur Entrée ou cliquez sur le bouton Ok.
     
-3. Le nouveau scénario doit à présent être créé. Lorsque la création réussit, la liste déroulante Scénarios est sélectionnée avec le nouveau scénario.
+3. Le nouveau scénario sera désormais créé. Une fois la création réussie, la drop-down Scenarios est sélectionnée avec le scénario nouvellement créé.
     
-## <a name="modify-a-scenario"></a>Modification d’un scénario
+## <a name="modify-a-scenario"></a>Modifier un scénario
 
-![Capture d’écran représentant un journal CLS pour la modification de scénarios](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Capture d’écran CLS Logger, scénarios de modification](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. Sous l’onglet **Modifier les scénarios**, recherchez le scénario à modifier.
+1. Dans **l’onglet Modifier les scénarios,** recherchez le scénario souhaité à modifier.
     
-2. Apportez les modifications souhaitées aux composants, niveaux et indicateurs.
+2. A apporté les modifications souhaitées aux composants, niveaux et indicateurs.
     
-3. Cliquez sur **Enregistrer le scénario**.
+3. Cliquez sur **le bouton Enregistrer le scénario.**
     
-4. Lorsque le scénario est enregistré, il actualise le volet d’informations du scénario avec la configuration mise à jour.
+4. Une fois le scénario correctement enregistrer, il actualisera le volet d’informations du scénario avec la configuration mise à jour.
     
-## <a name="delete-a-scenario"></a>Suppression d’un scénario
+## <a name="delete-a-scenario"></a>Supprimer un scénario
 
-1. Sous l’onglet **Modifier des scénarios**, sélectionnez un scénario existant dans le menu déroulant Scénarios.
+1. Dans **l’onglet Modifier les scénarios,** sélectionnez un scénario existant dans le menu déroulant Scénarios.
     
-2. Cliquez sur **Supprimer scénario** pour supprimer le scénario.
+2. Cliquez **sur Supprimer le scénario** pour supprimer le scénario.
     
-3. Une fois que vous avez confirmé l’action, le scénario est supprimé.
+3. Une fois l’action confirmée, le scénario est supprimé.
     
 

@@ -1,8 +1,8 @@
 ---
-title: Développeur des paramètres du service MCU audio/vidéo
+title: Expanseur des paramètres du service MCU audio/vidéo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,27 +15,27 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, procédez comme suit :'
-ms.openlocfilehash: ce06468396ed936ffe47fa5848f6c3128ce390b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: d3e725b1905726272df515ee93a402cb488a6652
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793912"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835774"
 ---
-# <a name="av-mcu-settings-expander"></a>Développeur des paramètres du service MCU audio/vidéo
+# <a name="av-mcu-settings-expander"></a>Expandeur des paramètres du service MCU audio/vidéo
  
 Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, procédez comme suit :
   
 ## <a name="general-settings"></a>Paramètres généraux
 
-Pour mettre à jour le nom de domaine complet (FQDN) du pool de serveurs de conférence A/V, entrez le nom du pool tel qu’il est défini dans le DNS (Domain Name System). Vous devez disposer d’un enregistrement DNS (A) qui correspond au nom du pool de serveurs de conférence A/V.
+Pour mettre à jour le nom de domaine complet (FQDN) du pool de serveurs de conférence A/V, tapez le nom du pool tel qu’il est défini dans le DNS (Domain Name System). Vous devez disposer d’un enregistrement d’hôte DNS (A) correspondant au nom du pool de serveurs de conférence A/V.
   
-## <a name="av-conferencing-service"></a>Service de conférence A/V
+## <a name="av-conferencing-service"></a>Service de conférence A/V
 
-Pour associer un pool de serveurs de conférence A/V, sélectionnez le ou les pools frontaux que vous devez associer au pool de serveurs de conférence A/V.
+Pour associer un pool de serveurs de conférence A/V, sélectionnez le ou les pools frontaux à associer au pool de serveurs de conférence A/V.
   
 > [!NOTE]
-> Si aucun pool frontal ne s’affiche dans le volet **Sélectionner les pools frontaux à associer à ce pool de conférence a/v** , vous avez colocalisé le serveur de conférence a/v avec le pool frontal, ou n’avez pas choisi d’ajouter des conférences dans la section **fonctionnalités et fonctionnalités** des propriétés du pool frontal.
+> Si aucun pool frontal ne figure dans le volet **Sélectionnez les pools frontaux à associer à ce pool de conférence A/V**, vous avez colocalisé le serveur de conférence A/V avec le pool frontal ou vous n’avez pas choisi d’ajouter la conférence à la section **Composants et fonctionnalités** des propriétés du pool frontal.
   
 
 Lorsque vous avez terminé, cliquez sur **OK** pour achever la modification des paramètres du pool de serveurs de conférence A/V. Cliquez sur **Annuler** pour annuler les modifications.

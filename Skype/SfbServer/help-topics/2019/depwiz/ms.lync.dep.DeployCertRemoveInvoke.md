@@ -1,8 +1,8 @@
 ---
-title: Supprimer un certificat (appel)
+title: Supprimer un certificat (appeler)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page d’exécution des commandes fournit des détails sur la suppression du certificat. Passez en revue les informations de synthèse à partir de la suppression du certificat. Assurez-vous que le fichier de suppression du journal de certificat est visible dans la liste déroulante, puis cliquez sur Afficher le journal pour passer en revue les détails de la suppression du certificat. Lorsque vous avez fini de consulter le résumé et le fichier journal, cliquez sur Terminer.
-ms.openlocfilehash: d955114e027becda41e8c91b144d2ed75082cb50
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Exécution de commandes fournit des détails sur la suppression du certificat. Consultez les informations de synthèse sur la suppression du certificat. Assurez-vous que le fichier journal Supprimer le certificat est visible dans la liste, puis cliquez sur Afficher le journal pour passer en revue les détails de la suppression du certificat. Lorsque vous avez terminé de consulter le résumé et le fichier journal, cliquez sur Terminer.
+ms.openlocfilehash: f1e33b15b5ebf3b451c31b262458ae41e5bb0ec8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796795"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836944"
 ---
-# <a name="remove-certificate-invoke"></a>Supprimer un certificat (appel)
+# <a name="remove-certificate-invoke"></a>Supprimer un certificat (appeler)
  
-La page d' **exécution des commandes** fournit des détails sur la suppression du certificat. Passez en revue les informations de synthèse à partir de la suppression du certificat. Assurez-vous que le fichier de suppression du journal de certificat est visible dans la liste déroulante, puis cliquez sur **afficher le journal** pour passer en revue les détails de la suppression du certificat. Lorsque vous avez fini de consulter le résumé et le fichier journal, cliquez sur **Terminer**.
+La page **Exécution de commandes** fournit des détails sur la suppression du certificat. Consultez les informations de synthèse sur la suppression du certificat. Assurez-vous que le fichier journal Supprimer le certificat est visible dans la liste, puis cliquez sur **Afficher** le journal pour passer en revue les détails de la suppression du certificat. Lorsque vous avez terminé de consulter le résumé et le fichier journal, cliquez sur **Terminer.**
   
 

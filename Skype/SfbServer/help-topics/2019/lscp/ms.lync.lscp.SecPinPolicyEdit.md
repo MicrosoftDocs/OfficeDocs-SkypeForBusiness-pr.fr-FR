@@ -1,8 +1,8 @@
 ---
-title: Code confidentiel création d’une nouvelle stratégie ou modification existante
+title: 'Stratégie de code confidentiel : création d’une stratégie de code confidentiel ou modification d’une stratégie existante'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 95459ed516095b00aeb620abc65f93a4557b79b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: abfdafb3d51a2ecbfff542e5e0476fc2730dc01c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797505"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836494"
 ---
-# <a name="pin-policy-create-new-or-edit-existing"></a>Stratégie de code confidentiel : en créer une autre ou en modifier une existante
+# <a name="pin-policy-create-new-or-edit-existing"></a>Stratégie de code confidentiel : création d’une nouvelle ou modification d’une stratégie existante
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Créer une nouvelle stratégie de code confidentiel dans Skype entreprise Server](../../../manage/authentication/create-a-new-pin-policy.md)
+- [Créer une stratégie de code confidentiel dans Skype Entreprise Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [Modification d’une stratégie de code confidentiel existante dans Skype entreprise Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Modifier une stratégie de code confidentiel existante dans Skype Entreprise Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [Supprimer une stratégie de code confidentiel dans Skype entreprise Server](../../../manage/authentication/delete-a-pin-policy.md)
+- [Supprimer une stratégie de code confidentiel dans Skype Entreprise Server](../../../manage/authentication/delete-a-pin-policy.md)
 
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Créer ou modifier les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modifier les paramètres de code confidentiel des conférence rendez-vous par défaut](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 

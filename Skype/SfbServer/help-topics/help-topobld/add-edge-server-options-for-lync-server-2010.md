@@ -1,8 +1,8 @@
 ---
 title: Ajouter des options de serveur Edge pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
-description: 'Vous définissez un nouveau serveur Edge ou un pool de serveurs Edge et vous avez la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Vous pouvez choisir parmi les options suivantes :'
-ms.openlocfilehash: 273b2543fc3eea1373817ab38eab39379ec59132
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Vous définissez un nouveau serveur Edge ou pool de serveurs Edge et vous avez la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Vous pouvez choisir parmi les options suivantes :'
+ms.openlocfilehash: b6f6e07c3555101103aeaad7f1c45f4449c25078
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216595"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835514"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Ajouter des options de serveur Edge pour Lync Server 2010
 
-Vous définissez un nouveau serveur Edge ou un pool de serveurs Edge et vous avez la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Vous pouvez choisir parmi les options suivantes :
+Vous définissez un nouveau serveur Edge ou pool de serveurs Edge et vous avez la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Vous pouvez choisir parmi les options suivantes :
 
 - **Utiliser un seul nom de domaine complet (FQDN) et une seule adresse IP** : activez cette case à cocher afin d’utiliser une seule adresse IPv4 ou IPv6 (si vous choisissez d’utiliser IPv4 et IPv6, vous devrez définir chacun des types d’adresse IP) et le nom de domaine complet (FQDN) des interfaces Edge externes.
 
@@ -33,7 +33,7 @@ Vous définissez un nouveau serveur Edge ou un pool de serveurs Edge et vous ave
 
 - **Activer la fédération pour ce pool Edge (port 5061)**  : activez cette case à cocher si vous avez l’intention de fédérer avec d’autres fournisseurs, fédérations SIP ou offres hébergées utilisant le protocole SIP.
 
-- **L’adresse IP externe de ce pool de serveurs Edge est traduite par nat**: activez cette case à cocher si vous utilisez des adresses IP privées pour les interfaces externes de serveur Edge et que vous fournirez un périphérique de traduction d’adresses réseau (NAT) pour placer le serveur Edge ou le pool de serveurs Edge de manière logique derrière.
+- L’adresse IP externe de ce **pool edge** est traduite par NAT : cochez cette case si vous utilisez des adresses IP privées pour les interfaces externes Edge et fournissez un périphérique de traduction d’adresses réseau (NAT) pour placer le serveur Edge ou le pool edge logiquement derrière.
 
 ## <a name="see-also"></a>Voir aussi
 

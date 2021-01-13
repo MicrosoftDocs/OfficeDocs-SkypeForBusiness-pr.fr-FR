@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du directeur
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un directeur existant :'
-ms.openlocfilehash: 261593cd7b1f8f79588462cb57eb8ecc517dd4a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: b7478779e54a7860726ae967eb1e203625c8b17b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218985"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835334"
 ---
-# <a name="director-general-settings-expander"></a>Expanseur des paramètres généraux du directeur
+# <a name="director-general-settings-expander"></a>Expandeur des paramètres généraux du directeur
  
 Les sections suivantes vous permettent de modifier les paramètres d’un directeur existant :
   
@@ -38,7 +38,7 @@ Nom de domaine complet (FQDN) du pool directeur. Modifiez le nom de domaine comp
   
 Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
   
-Partage de fichiers utilisé par le pool directeur. Sélectionnez un partage de fichiers existant qui a déjà été défini dans le générateur de topologie, ou cliquez sur **nouveau** pour créer une définition de partage de fichiers.
+Partage de fichiers utilisé par le pool directeur. Sélectionnez un partage de fichiers existant qui a déjà été défini dans le Générateur de topologie, ou cliquez sur **Nouveau** pour créer une définition de partage de fichiers.
   
 Magasin SQL Server de surveillance
   
@@ -52,7 +52,7 @@ Pour modifier ou spécifier des paramètres supplémentaires pour les services w
 Dans le cas des **Services web internes**, vous pouvez spécifier les éléments suivants :
   
 > [!CAUTION]
-> Si vous avez plusieurs pools frontaux ou serveurs frontaux, le nom de domaine complet (FQDN) des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour tout directeur ou pool directeur doit être unique à partir d’un autre directeur ou pool Directeur, ainsi que d’un pool frontal ou d’un serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet indépendant, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
+> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de tout autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
   
 Si vous sélectionnez Remplacer le nom de domaine complet, vous pouvez indiquer un nom de domaine complet différent pour l’identité des services web sur le pool. Par défaut, le paramètre est le nom de pool actuel comme défini pour le pool directeur.
   

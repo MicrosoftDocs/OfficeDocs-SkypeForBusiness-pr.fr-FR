@@ -1,8 +1,8 @@
 ---
 title: Ajouter les détails du site de succursale
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
-description: 'Pour spécifier les détails du site d’un site, procédez comme suit :'
-ms.openlocfilehash: 30e4629332b732d7a873b2b39b33d64b3c70d7a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Pour spécifier les détails d’un site, vous pouvez :'
+ms.openlocfilehash: acc33e2a08ae4c0232ccff92f8ce1e800178b1c0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217365"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835550"
 ---
 # <a name="add-branch-site-details"></a>Ajouter les détails du site de succursale
 
-Pour spécifier les détails du site d’un site, procédez comme suit :
+Pour spécifier les détails d’un site, vous pouvez :
 
 Un nom de ville pour le nouveau site de succursale. La valeur Ville est facultative.
 

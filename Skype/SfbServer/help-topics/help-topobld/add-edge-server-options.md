@@ -1,8 +1,8 @@
 ---
 title: Ajouter des options de serveur Edge
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
-description: 'Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :'
-ms.openlocfilehash: dfcaafce36d525b676a606db4f164dfdd05f26ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool edge prend en charge les utilisateurs distants de votre organisation qui se connectent depuis l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :'
+ms.openlocfilehash: f653f6a5b2c242416d6c644d5c7a5fc4daffc441
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216565"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835494"
 ---
 # <a name="add-edge-server-options"></a>Ajouter des options de serveur Edge
 
-Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :
+Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool edge prend en charge les utilisateurs distants de votre organisation qui se connectent depuis l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :
 
 - Utilisation d'un nom de domaine complet (FQDN) et adresse IP uniques pour tous les services Edge, notamment le service Edge d'accès, le service Edge de conférence Web et le service Edge A/V. Si vous ne sélectionnez pas l'option d'utiliser un nom de domaine complet et une adresse IP uniques, il vous faudra spécifier un nom de domaine complet et une adresse IP séparés pour chacun de ces trois services Edge dans le processus de déploiement. Pour plus d'informations sur les services Edge, voir [Composants requis pour l'accès des utilisateurs externes](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) dans la documentation de planification.
 

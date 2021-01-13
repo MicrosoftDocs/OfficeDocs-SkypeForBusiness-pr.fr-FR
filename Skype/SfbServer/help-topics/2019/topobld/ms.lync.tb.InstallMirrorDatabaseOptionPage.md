@@ -1,8 +1,8 @@
 ---
 title: Page des options Installer une base de données miroir
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous pouvez configurer les paramètres de la base de données miroir en définissant les éléments suivants :'
-ms.openlocfilehash: 33c9cb7daea7d17f58c0de3d375c1c71441ccdb0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Vous configurez Paramètres de base de données miroir en définissant les éléments suivants :'
+ms.openlocfilehash: 99dab88ecadc52d021531e03a0d6aea904cc4ce8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793582"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835694"
 ---
 # <a name="install-mirror-database-option-page"></a>Page des options Installer une base de données miroir
  
 > [!NOTE]
-> La mise en miroir SQL est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de clusters de basculement AlwaysOn (ICF) et les méthodes de regroupement de relais SQL sont préférés dans Skype entreprise Server 2019.
+> SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus pris en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.

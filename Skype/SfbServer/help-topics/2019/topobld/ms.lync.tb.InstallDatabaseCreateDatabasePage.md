@@ -1,8 +1,8 @@
 ---
 title: Installer et créer des bases de données
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,31 +14,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur le serveur SQL Server défini dans le site défini et déploie et configure automatiquement les fichiers de base de données en fonction du serveur SQL sur lequel vous positionnez les bases de données.
-ms.openlocfilehash: 4bd69f1caa3322dbbf2d91a67caef54b72ece200
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur le SQL Server défini dans le site défini, et déploie et configure automatiquement les fichiers de base de données en fonction de la SQL Server sur qui vous placez les bases de données.
+ms.openlocfilehash: 4d7a6e4f67dd6b97c8f5f837589af7b096da50b5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793612"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835714"
 ---
 # <a name="install-and-create-databases"></a>Installer et créer des bases de données
 
-Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur le serveur SQL Server défini dans le site défini et déploie et configure automatiquement les fichiers de base de données en fonction du serveur SQL sur lequel vous positionnez les bases de données.
+Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur le SQL Server défini dans le site défini, et déploie et configure automatiquement les fichiers de base de données en fonction de la SQL Server sur qui vous placez les bases de données.
 
- **Sélectionnez les bases de données que vous voulez créer**: activez la case à cocher des bases de données que vous souhaitez déployer et configurer. Activez les cases à cocher de toutes les bases de données que vous voulez déployer.
+ **Sélectionnez les bases de données que vous souhaitez créer** : activez la case à cocher de toutes les bases de données que vous envisagez de déployer et de configurer. Activez la case à cocher de certaines ou de toutes les bases de données que vous déploierez.
 
 > [!CAUTION]
-> Le serveur SQL doit déjà avoir été configuré pour l’instance (le cas échéant) et les ports de pare-feu doivent être ouverts pour accepter l’instance vers laquelle vous déployez les bases de données. Pour plus d’informations, reportez-vous à [configurer SQL Server](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> Le SQL Server doit déjà avoir été configuré pour l’instance (le cas besoin) et les ports de pare-feu doivent être ouverts pour prendre en charge l’instance vers qui vous déployez les bases de données. Pour plus d’informations, [voir Configure SQL Server](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
 
- **Avancé**: cliquez sur le serveur SQL et cliquez sur le bouton **avancé** pour sélectionner les options correspondant aux emplacements des fichiers de base de données sur votre serveur SQL Server. Pour plus d’informations sur l’emplacement du fichier de base de données avancé, voir [installation de la base de données avec Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
+ **Avancé**: cliquez sur le SQL Server  cliquez sur le bouton Avancé pour choisir les options des emplacements des fichiers de base de données sur votre SQL Server. Pour plus d’informations sur l’emplacement du fichier de base de données avancé, voir [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
 
- **Retour**: Si vous cliquez sur ce bouton, vous revenez à l’écran précédent (il est possible que vous ne soyez pas toujours disponible en fonction de la manière dont vous êtes parvenu à cette boîte de dialogue).
+ **Précédent** : le fait de cliquer sur ce bouton vous permet de revenir à l’écran précédent (il n’est peut-être pas toujours disponible, selon la façon dont vous avez atteint cette boîte de dialogue).
 
- **Suivant**: lorsque vous cliquez sur ce bouton, la sélection est validée dans la boîte de dialogue active et vous pouvez accéder à la boîte de dialogue suivante de configuration des informations supplémentaires.
+ **Suivant** : le fait de cliquer sur ce bouton valide votre sélection sur la boîte de dialogue active et vous permet d’accéder à la boîte de dialogue suivante pour configurer des informations supplémentaires
 
- **Annuler**: lorsque vous cliquez sur ce bouton, les modifications sont ignorées. Certains écrans de configuration ne vous invitent pas à vous demander si vous souhaitez quitter et annuler vos modifications. Lorsque vous sélectionnez **Oui** , vous fermez la configuration actuelle et vous revenez au générateur de topologie. Si vous sélectionnez **non** , la boîte de dialogue Configuration actuelle s’affiche pour vous permettre de poursuivre la configuration.
+ **Annuler** : le fait de cliquer sur ce bouton vous fera quitter cette étape de configuration et annulera vos modifications. Certains écrans, mais pas tous, vous inviteront à quitter et à annuler vos modifications. La sélection **de Oui** ferme la configuration actuelle, ferme la configuration actuelle et vous retourne au Générateur de topologies. En sélectionnant **Non**, vous reviendrez dans la boîte de dialogue active où vous pourrez poursuivre la configuration.
 
- **Aide**: cliquez sur le bouton **aide** pour afficher les informations d’aide associées à la boîte de dialogue Configuration actuelle.
+ **Aide** : en cliquant sur le bouton **Aide**, vous affichez les informations d’aide associées à la boîte de dialogue de configuration active.
 
 
