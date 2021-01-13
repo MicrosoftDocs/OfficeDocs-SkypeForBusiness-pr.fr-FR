@@ -1,8 +1,8 @@
 ---
-title: Déplacement d’un utilisateur
+title: Déplacer un utilisateur
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dans la boîte de dialogue Déplacer des utilisateurs, vous pouvez sélectionner un pool de destination vers lequel déplacer l’utilisateur sélectionné.
-ms.openlocfilehash: 24686f522eb38c1d2fb13e02d1a96fbc01a54701
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Dans la page Déplacer des utilisateurs, vous pouvez sélectionner un pool de destination vers qui déplacer l’utilisateur sélectionné.
+ms.openlocfilehash: 33013a231b3de5fdfaf5fc6dc6cca0a11c36799c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794983"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820224"
 ---
-# <a name="move-user"></a><span data-ttu-id="ae63f-103">Déplacement d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="ae63f-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="fe051-103">Déplacer un utilisateur</span><span class="sxs-lookup"><span data-stu-id="fe051-103">Move User</span></span>
 
-<span data-ttu-id="ae63f-104">Dans la boîte de dialogue **Déplacer des utilisateurs**, vous pouvez sélectionner un pool de destination vers lequel déplacer l’utilisateur sélectionné.</span><span class="sxs-lookup"><span data-stu-id="ae63f-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="fe051-104">Dans la page **Déplacer des** utilisateurs, vous pouvez sélectionner un pool de destination vers qui déplacer l’utilisateur sélectionné.</span><span class="sxs-lookup"><span data-stu-id="fe051-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
 
-<span data-ttu-id="ae63f-105">Pour plus d’informations sur le déplacement des utilisateurs, reportez-vous à la rubrique [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="ae63f-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="fe051-105">Pour plus d’informations sur le déplacement d’utilisateurs, voir [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="fe051-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
 
 

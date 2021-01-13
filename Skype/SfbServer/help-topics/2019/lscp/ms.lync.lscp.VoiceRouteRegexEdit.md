@@ -1,8 +1,8 @@
 ---
-title: La règle de normalisation type une expression régulière
+title: Règle de normalisation Tapez une expression régulière
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 ROBOTS: NOINDEX, NOFOLLOW
-description: Entrez une expression régulière .NET Framework pour spécifier le modèle correspondant aux numéros de téléphone de destination auxquels l’itinéraire est appliqué.
-ms.openlocfilehash: 4afcf766fd6229cecd010d93f05346dec053bf25
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Tapez une expression régulière .NET Framework pour spécifier le modèle correspondant pour les numéros de téléphone de destination auxquels l’itinéraire s’applique.
+ms.openlocfilehash: fd66e36018276ac1373c2b5392c44f6052fdd458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793532"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819994"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="5e21a-103">Règle de normalisation : saisir une expression régulière</span><span class="sxs-lookup"><span data-stu-id="5e21a-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="616f5-103">Règle de normalisation : taper une expression régulière</span><span class="sxs-lookup"><span data-stu-id="616f5-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="5e21a-104">Entrez une expression régulière .NET Framework pour spécifier le modèle correspondant aux numéros de téléphone de destination auxquels l’itinéraire est appliqué.</span><span class="sxs-lookup"><span data-stu-id="5e21a-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="616f5-104">Tapez une expression régulière .NET Framework pour spécifier le modèle correspondant pour les numéros de téléphone de destination auxquels l’itinéraire s’applique.</span><span class="sxs-lookup"><span data-stu-id="616f5-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
  
   

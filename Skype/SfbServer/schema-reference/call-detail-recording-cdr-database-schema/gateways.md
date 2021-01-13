@@ -1,8 +1,8 @@
 ---
-title: Tableau passerelles dans Skype entreprise Server 2015
+title: Table Gateways dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-description: Le tableau passerelles est une table de prise en charge. Chaque enregistrement stocke des informations sur une passerelle impliquée dans les appels de réseau téléphonique commuté (PSTN) qui comportent des enregistrements dans la base de données.
-ms.openlocfilehash: ce85b36d5ad587a096c99ca3f3f496642d3a3dd5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table Gateways est une table de prise en charge. Chaque enregistrement stocke des informations sur une passerelle impliquée dans des appels de réseau téléphonique commuté (PSTN) qui ont des enregistrements dans la base de données.
+ms.openlocfilehash: e945e5464093eb0eb58965fa1ef8a734ea0afa75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815162"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821584"
 ---
-# <a name="gateways-table-in-skype-for-business-server-2015"></a><span data-ttu-id="4e888-104">Tableau passerelles dans Skype entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="4e888-104">Gateways table in Skype for Business Server 2015</span></span>
+# <a name="gateways-table-in-skype-for-business-server-2015"></a><span data-ttu-id="af671-104">Table Gateways dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="af671-104">Gateways table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="4e888-105">Le tableau passerelles est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="4e888-105">The Gateways table is a supporting table.</span></span> <span data-ttu-id="4e888-106">Chaque enregistrement stocke des informations sur une passerelle impliquée dans les appels de réseau téléphonique commuté (PSTN) qui comportent des enregistrements dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="4e888-106">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
+<span data-ttu-id="af671-105">La table Gateways est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="af671-105">The Gateways table is a supporting table.</span></span> <span data-ttu-id="af671-106">Chaque enregistrement stocke des informations sur une passerelle impliquée dans des appels de réseau téléphonique commuté (PSTN) qui ont des enregistrements dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="af671-106">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
   
-|<span data-ttu-id="4e888-107">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="4e888-107">**Column**</span></span>|<span data-ttu-id="4e888-108">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="4e888-108">**Data Type**</span></span>|<span data-ttu-id="4e888-109">**Clé/Index**</span><span class="sxs-lookup"><span data-stu-id="4e888-109">**Key/Index**</span></span>|<span data-ttu-id="4e888-110">**Détails**</span><span class="sxs-lookup"><span data-stu-id="4e888-110">**Details**</span></span>|
+|<span data-ttu-id="af671-107">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="af671-107">**Column**</span></span>|<span data-ttu-id="af671-108">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="af671-108">**Data Type**</span></span>|<span data-ttu-id="af671-109">**Clé/Index**</span><span class="sxs-lookup"><span data-stu-id="af671-109">**Key/Index**</span></span>|<span data-ttu-id="af671-110">**Details**</span><span class="sxs-lookup"><span data-stu-id="af671-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="4e888-111">**GatewayId**</span><span class="sxs-lookup"><span data-stu-id="4e888-111">**GatewayId**</span></span> <br/> |<span data-ttu-id="4e888-112">int</span><span class="sxs-lookup"><span data-stu-id="4e888-112">int</span></span>  <br/> |<span data-ttu-id="4e888-113">Principal</span><span class="sxs-lookup"><span data-stu-id="4e888-113">Primary</span></span>  <br/> |<span data-ttu-id="4e888-114">Numéro unique identifiant cette passerelle.</span><span class="sxs-lookup"><span data-stu-id="4e888-114">Unique number identifying this gateway.</span></span>  <br/> |
-|<span data-ttu-id="4e888-115">**Passerelle**</span><span class="sxs-lookup"><span data-stu-id="4e888-115">**Gateway**</span></span> <br/> |<span data-ttu-id="4e888-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="4e888-116">nvarchar(256)</span></span>  <br/> | <br/> |<span data-ttu-id="4e888-117">Nom de la passerelle.</span><span class="sxs-lookup"><span data-stu-id="4e888-117">Gateway name.</span></span>  <br/> |
+|<span data-ttu-id="af671-111">**GatewayId**</span><span class="sxs-lookup"><span data-stu-id="af671-111">**GatewayId**</span></span> <br/> |<span data-ttu-id="af671-112">int</span><span class="sxs-lookup"><span data-stu-id="af671-112">int</span></span>  <br/> |<span data-ttu-id="af671-113">Primaire</span><span class="sxs-lookup"><span data-stu-id="af671-113">Primary</span></span>  <br/> |<span data-ttu-id="af671-114">Numéro unique identifiant cette passerelle.</span><span class="sxs-lookup"><span data-stu-id="af671-114">Unique number identifying this gateway.</span></span>  <br/> |
+|<span data-ttu-id="af671-115">**Passerelle**</span><span class="sxs-lookup"><span data-stu-id="af671-115">**Gateway**</span></span> <br/> |<span data-ttu-id="af671-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="af671-116">nvarchar(256)</span></span>  <br/> | <br/> |<span data-ttu-id="af671-117">Nom de la passerelle.</span><span class="sxs-lookup"><span data-stu-id="af671-117">Gateway name.</span></span>  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres de la passerelle PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les paramètres d’une passerelle réseau téléphonique commuté (RTC), modifiez les champs suivants :'
-ms.openlocfilehash: 7b0d823a21f2e0e9eb1e75a37365095877885cac
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Pour éditer les paramètres d’une passerelle réseau téléphonique commuté (PSTN), modifiez les champs suivants :'
+ms.openlocfilehash: c54acc930400f66bb04009a6c40dbcf0a1233100
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794172"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822304"
 ---
-# <a name="pstn-gateway-settings-expander"></a><span data-ttu-id="2feb5-103">Expanseur des paramètres de la passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="2feb5-103">PSTN Gateway Settings Expander</span></span>
+# <a name="pstn-gateway-settings-expander"></a><span data-ttu-id="7ca8e-103">Expandeur des paramètres de la passerelle PSTN</span><span class="sxs-lookup"><span data-stu-id="7ca8e-103">PSTN Gateway Settings Expander</span></span>
  
-<span data-ttu-id="2feb5-104">Pour modifier les paramètres d’une passerelle réseau téléphonique commuté (RTC), modifiez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="2feb5-104">To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:</span></span>
+<span data-ttu-id="7ca8e-104">Pour éditer les paramètres d’une passerelle réseau téléphonique commuté (PSTN), modifiez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="7ca8e-104">To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:</span></span>
   
-<span data-ttu-id="2feb5-105">Le nom de domaine complet (FQDN) ou l’adresse IP de la passerelle doit être renseigné. Il détermine si le **nom de domaine complet (FQDN)** de la passerelle du réseau téléphonique commuté (RTC) est défini par l’enregistrement d’hôte DNS (A), une entrée de fichier HÔTE statique ou par l’adresse IP de la passerelle RTC.</span><span class="sxs-lookup"><span data-stu-id="2feb5-105">Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.</span></span>
+<span data-ttu-id="7ca8e-105">Nom de domaine complet (FQDN) ou l’adresse IP de la passerelle est une entrée requise. Elle détermine si le **Nom de domaine complet (FQDN)** de la passerelle du réseau téléphonique commuté (PSTN) est défini par l’enregistrement DNS hôte (A), une entrée de fichier HÔTE statique, ou par l’adresse IP de la passerelle PSTN.</span><span class="sxs-lookup"><span data-stu-id="7ca8e-105">Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.</span></span>
   
-<span data-ttu-id="2feb5-p101">Le protocole de transport SIP est le protocole  TCP (Transmission Control Protocol) ou le protocole TLS (Transport Layer Security). Le protocole TLS est le protocole par défaut. Pour connaître la prise en charge de la passerelle, reportez-vous à la documentation du fournisseur. Le protocole par défaut, le protocole TLS, est un choix plus sécurisé si la passerelle le prend en charge.</span><span class="sxs-lookup"><span data-stu-id="2feb5-p101">The SIP Transport Protocol can either be Transmission Control Protocol (TCP) or Transport Layer Security (TLS). TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
+<span data-ttu-id="7ca8e-p101">Le protocole de transport SIP est soit TCP (Transmission Control Protocol), soit TLS (Transport Layer Security). TLS est le protocole par défaut. Consultez la documentation du fournisseur de la passerelle pour connaître la prise en charge de la passerelle. TLS, protocole par défaut, représente un choix plus sécurisé si la passerelle le prend en charge.</span><span class="sxs-lookup"><span data-stu-id="7ca8e-p101">The SIP Transport Protocol can either be Transmission Control Protocol (TCP) or Transport Layer Security (TLS). TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
   
-<span data-ttu-id="2feb5-110">Choisissez d’activer IPv4 et IPv6 pour la passerelle.</span><span class="sxs-lookup"><span data-stu-id="2feb5-110">Select whether to enable IPv4 and IPv6 for the gateway.</span></span>
+<span data-ttu-id="7ca8e-110">Choisissez d’activer IPv4 et IPv6 pour la passerelle.</span><span class="sxs-lookup"><span data-stu-id="7ca8e-110">Select whether to enable IPv4 and IPv6 for the gateway.</span></span>
   
-<span data-ttu-id="2feb5-111">L' **adresse IP de remplacement** peut être une définition du serveur de médiation pour lequel la passerelle RTC déployée a une adresse IP différente pour le trafic multimédia et l’adresse IP configurée par défaut, qui est généralement dédiée au trafic SIP.</span><span class="sxs-lookup"><span data-stu-id="2feb5-111">The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic.</span></span> <span data-ttu-id="2feb5-112">Si vous définissez ce paramètre, la passerelle RTC prend en charge une interface réseau ou un chemin d’accès aux médias différent.</span><span class="sxs-lookup"><span data-stu-id="2feb5-112">If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media.</span></span> <span data-ttu-id="2feb5-113">Si cette adresse n’est pas renseignée, la passerelle RTC ne prend pas en charge un autre chemin d’accès des médias.</span><span class="sxs-lookup"><span data-stu-id="2feb5-113">If this address is left blank, then the PSTN gateway does not support the alternate path for media.</span></span>
+<span data-ttu-id="7ca8e-p102">L’**Adresse IP média de remplacement** définit le serveur de médiation : la passerelle PSTN déployée dispose d’une adresse IP différente pour le trafic multimédia par rapport à l’adresse IP configurée par défaut, généralement dédiée au trafic SIP. Si vous définissez ce paramètre, la passerelle PSTN prend en charge une interface réseau ou un chemin d’accès des médias différent. Si cette adresse n’est pas remplie, la passerelle PSTN ne prend pas en charge un autre chemin d’accès des médias.</span><span class="sxs-lookup"><span data-stu-id="7ca8e-p102">The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic. If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media. If this address is left blank, then the PSTN gateway does not support the alternate path for media.</span></span>
   
 

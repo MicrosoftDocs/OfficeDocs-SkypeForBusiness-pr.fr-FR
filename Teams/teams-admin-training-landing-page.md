@@ -1,8 +1,8 @@
 ---
 title: Formation à Microsoft Teams pour les administrateurs
 ms.reviewer: ''
-description: Obtenez une formation et une assistance pour les administrateurs dont vous avez besoin pour gérer Microsoft teams au sein de votre organisation.
-author: lanachin
+description: Obtenez la formation et le support pour les administrateurs dont vous avez besoin pour gérer Microsoft Teams dans votre organisation.
+author: cichur
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-lanac
-ms.openlocfilehash: 8fac3f019a4fb5379e11c6afd09c51363f598ad7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.author: v-cichur
+ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535172"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822714"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
-Découvrez comment gérer teams pour votre organisation.
+Découvrez comment gérer Teams au nom de votre organisation.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ Découvrez comment gérer teams pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NOUVEAUTÉ : formation dirigée par un instructeur pour teams</h3>
+                        <h3>NOUVEAU : Formation dirigée par un instructeur pour Teams</h3>
                     </div>
                 </div>
             </div>
