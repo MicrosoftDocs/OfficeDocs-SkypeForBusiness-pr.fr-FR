@@ -29,9 +29,9 @@ ms.locfileid: "49799944"
 
 Un emplacement d’urgence doit être associé à un numéro de téléphone, mais lorsque cela se produit, cette situation peut varier d’un pays ou d’une région à l’autre. Par exemple, aux États-Unis, vous devez associer un emplacement d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer un emplacement d’urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone de Microsoft 365 ou Office 365, ou transférez des numéros de téléphone à partir de votre fournisseur de services actuel.
 
-Quel que soit le pays ou la région dans lesquels vous vous trouvez, vous pouvez ajouter un ou plusieurs emplacements à un emplacement d’urgence et supprimer un emplacement d’urgence. Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez créer des lieux pour des bâtiments, des étages et des bureaux. Voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
+Quel que soit le pays ou la région dans lesquels vous vous trouvez, vous pouvez ajouter un ou plusieurs emplacements à un emplacement d’urgence et supprimer un emplacement d’urgence. Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez créer des bâtiments, des étages et des bureaux. Voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Pour savoir comment obtenir un forfait d’appels et combien cela coûte, consultez la gestion des [licences de module supplémentaire Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Pour savoir comment obtenir un plan d’appels et connaître son prix, consultez la gestion des [licences de module supplémentaire Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
 Vous gérez les emplacements d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
   
@@ -45,7 +45,7 @@ Vous gérez les emplacements d’urgence pour votre organisation dans le Centre 
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
-   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer correctement un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisé pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
+   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer avec succès un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisé pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
 
 5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, activer la modification **manuelle de l’adresse.**
 6. Cliquez sur **Enregistrer**.

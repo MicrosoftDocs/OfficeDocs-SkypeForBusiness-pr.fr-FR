@@ -39,7 +39,7 @@ ms.locfileid: "49815614"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 0 800 XX XXX <br>|
 |Code ISO de pays/région  <br/> |AT  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> | Non applicable  <br/>  |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |

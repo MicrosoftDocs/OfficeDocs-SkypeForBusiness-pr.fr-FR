@@ -29,7 +29,7 @@ ms.locfileid: "49799864"
 ---
 # <a name="messaging-policies-licensing"></a>Gestion des licences des stratégies de messagerie
 
-Des clients du monde entier nous ont fait part de la façon dont l’équipe COVID-19 (Coronavirus) a créé de nouveaux défis, car elle gère des changements drastiques au quotidien. La possibilité de communiquer directement et rapidement avec des collègues pendant des conditions à l’évolution rapide est essentielle pour assurer la continuité de l’activité pendant la réponse à la situation de crise et autant d’entre nous revenir sur l’espace de travail.
+Des clients du monde entier nous ont fait part de la façon dont l’équipe COVID-19 (Coronavirus) a créé de nouveaux défis, car elle gère des changements drastiques au quotidien. La possibilité de communiquer directement et rapidement avec des collègues pendant des conditions à changement rapide est essentielle pour assurer la continuité de l’activité pendant la réponse à la situation de crise et autant d’entre nous revenir sur l’espace de travail.
 
 Initialement annoncées en juin 2019, les notifications de priorité pour Microsoft Teams offrent aux [utilisateurs](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) la possibilité d’envoyer continuellement des notifications qui se répètent toutes les deux minutes pendant 20 minutes sur tous les messages marqués comme urgents. Des notifications de priorité ont été rendues disponibles en tant que promotion pour tous les clients Teams jusqu’au deuxième semestre 2020.
 

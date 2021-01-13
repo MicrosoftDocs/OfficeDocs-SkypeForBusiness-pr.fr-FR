@@ -29,7 +29,7 @@ ms.locfileid: "49815714"
 
 ## <a name="resources-for-remote-learning"></a>Ressources pour l’apprentissage à distance
 
-Votre école ou université doit-elle activer Microsoft Teams pour l’apprentissage à distance ? De lancez-vous rapidement avec la page Mise en place d’une [page](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) et les documents d’adoption suivants .
+Votre école ou université doit-elle activer Microsoft Teams pour l’apprentissage à distance ? De lancez-vous rapidement avec le document d’une [page](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) Mise en place et les documents d’adoption suivants.
 
 ## <a name="adoption-content"></a>Contenu d'adoption
 

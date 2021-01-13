@@ -25,7 +25,7 @@ ms.locfileid: "49823014"
 # <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Gérer l’accès basé sur une équipe pour les employés de première ligne dans Teams
 
 > [!IMPORTANT]
-> Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront opérationnelles au fil du temps. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir StaffHub s’afficheront un message les en dirigerant pour télécharger Teams. Pour en savoir plus, [voir Microsoft StaffHub a été retiré.](microsoft-staffhub-to-be-retired.md)  
+> Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployer au fil du temps. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir StaffHub s’afficheront un message les en dirigerant pour télécharger Teams. Pour en savoir plus, [voir Microsoft StaffHub a été retiré.](microsoft-staffhub-to-be-retired.md)  
 
 ## <a name="overview"></a>Vue d’ensemble
 

@@ -29,9 +29,9 @@ ms.locfileid: "49809064"
 
 ![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase d’excellence opérationnelle")
 
-Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau qui commence dès que vous avez terminé la mise à niveau de Skype Entreprise vers Teams.
+Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype Entreprise vers Teams.
 
-Cet article donne une vue d’ensemble des conditions requises pour exploiter au mieux Teams après votre mise à niveau. En contrôleant en permanence les fonctionnalités du service Teams, vous êtes sûr d’offrir le plus de valeurs possible à votre organisation.
+Cet article donne une vue d’ensemble des conditions requises pour exploiter au mieux Teams après votre mise à niveau. En assurent la surveillance continue des fonctionnalités de service Teams, vous êtes sûr d’offrir le plus de valeurs possible à votre organisation.
 
 ## <a name="enhance-your-service-overview"></a>Améliorer la vue d’ensemble de votre service
 

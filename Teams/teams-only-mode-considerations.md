@@ -49,7 +49,7 @@ Bien que des milliers de clients ont réussi la mise à niveau vers Microsoft Te
 
  - Office 365 géré par 21Vianet
  - Office 365 Germany
- - Le client Skype Entreprise est hébergé en Corée du **Sud** et l’organisation exige que les données Teams soient stockées en Corée du Sud. Actuellement, les organisations qui disposent de données Skype Entreprise stockées en Corée du Sud et qui font la mise à niveau vers Teams ont leurs données Teams stockées dans la région du centre de données Asie, et non dans la région du centre de données en Corée du Sud.
+ - Le client Skype Entreprise est hébergé en Corée du **Sud** et l’organisation exige que les données teams soient stockées en Corée du Sud. Actuellement, les organisations qui disposent de données Skype Entreprise stockées en Corée du Sud et qui font la mise à niveau vers Teams ont leurs données Teams stockées dans la région du centre de données Asie, et non dans la région du centre de données en Corée du Sud.
 
 **Considérations spécifiques** à l’utilisateur : Certains scénarios d’utilisateurs évoluent toujours et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs dans l’organisation. En particulier, nous travaillons toujours sur la recherche de scénarios pour les utilisateurs dont l’appareil principal est VDI. Surveillez le site de feuille [de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) pour les annonces.
 

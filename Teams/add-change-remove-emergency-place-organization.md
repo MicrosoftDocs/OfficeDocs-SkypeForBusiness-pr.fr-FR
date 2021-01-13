@@ -53,7 +53,7 @@ Voir [New-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/sky
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur  >  **Adresses d’urgence d’emplacements.**
 2. Dans la liste, cliquez sur le nom de l’emplacement pour lequel vous souhaitez modifier un emplacement.
 3. Sous **l’onglet** Espaces, sélectionnez l’endroit que vous voulez modifier, puis cliquez sur **Modifier.**
-4. Mettez à jour les informations sur l’endroit, puis cliquez **sur Appliquer.**
+4. Mettez à jour les informations sur l’endroit, puis cliquez sur **Appliquer.**
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 

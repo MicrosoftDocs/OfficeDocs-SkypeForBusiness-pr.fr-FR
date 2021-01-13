@@ -33,14 +33,14 @@ ms.locfileid: "49812904"
 
 Pour éviter les noms inappropriés ou trompeurs, ou simplement pour donner une structure plus complexe au nom des équipes, vous pouvez utiliser la stratégie de noms de groupes Microsoft 365 (actuellement en prévisualisation) :
 
--   **Stratégie de nommage Prefix-Suffix** Vous pouvez utiliser des préfixes ou des suffixes pour définir la convention d’appellation des équipes (groupes), **par exemple, GRP_US_My Group_Engineering.** Les préfixes et suffixes peuvent être des chaînes fixes ou des attributs d’utilisateur (tels que **[Service]**) qui sont ajoutés au nom en fonction de l’utilisateur qui crée l’équipe.
+-   **Stratégie de nommage Prefix-Suffix** Vous pouvez utiliser des préfixes ou des suffixes pour définir la convention d’appellation des équipes (groupes), par **exemple, GRP_US_My Group_Engineering.** Les préfixes et suffixes peuvent être des chaînes fixes ou des attributs d’utilisateur (tels que **[Service]**) qui sont ajoutés au nom en fonction de l’utilisateur qui crée l’équipe.
 -   **Mots bloqués personnalisés** Vous pouvez télécharger un ensemble de mots que les utilisateurs d’une organisation spécifique ne peuvent pas utiliser dans les noms d’équipes qu’ils créent. Par exemple, vous pouvez empêcher le **pdg,** les salaires et les ressources **humaines** d’être utilisés dans les noms d’équipe pour les groupes qu’ils ne s’appliquent pas.
 -   **Classification** Vous pouvez créer des classifications que les utilisateurs de votre organisation peuvent définir lorsqu’ils créent un groupe Microsoft 365. 
 
 > [!IMPORTANT]
 > L’utilisation de la stratégie de noms de groupes Microsoft 365 nécessite des licences Azure Active Directory Premium P1 ou des licences Azure AD Basic EDU pour chaque utilisateur unique membre d’un ou plusieurs groupes Microsoft 365.
 
-Pour obtenir des instructions détaillées, consultez [la stratégie de noms de groupes Office.](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+Pour obtenir des instructions détaillées, voir stratégie [de noms de groupes Office.](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 > [!Note]
 > Si des équipes sont créées automatiquement à l’aide de l’entrée d’un autre système (par exemple, School Data Sync), vérifiez que les données d’entrée sont conformes à la stratégie de noms que vous avez configurée ; si ce n’est pas le cas, la création d’équipe échouera.
@@ -53,7 +53,7 @@ Pour savoir qui a créé une équipe spécifique, consultez le journal d’audit
 
 En règle générale, nous vous déconseillons d’empêcher tout le monde de créer des équipes. Si tout le monde peut créer des équipes, Teams sera probablement largement adoptée. Les enseignants, les enseignants ou les étudiants peuvent utiliser Teams pour créer des groupes d’étude ou des groupes d’intérêt spéciaux. Cela permettra d’accepter Teams à l’intérieur et à l’extérieur de la classe.
 
-Dans notre expérience, la formation des utilisateurs garantit l’utilisation responsable de Teams. Dès que les utilisateurs comprennent que la création d’équipes n’est pas anonyme, ils comprennent les conséquences de leur création inerte et ont tendance à ne pas utiliser mal l’outil.
+Dans notre expérience, la formation des utilisateurs garantit l’utilisation responsable de Teams. Dès que les utilisateurs comprennent que la création d’équipes n’est pas anonyme, ils comprennent les conséquences de leur création incurce et ont tendance à ne pas utiliser mal l’outil.
 
 Si vous êtes sûr de vouloir contrôler les personnes qui peuvent créer des équipes, voir Gérer qui peut créer des groupes [Microsoft 365.](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)
 
@@ -62,20 +62,20 @@ Si vous êtes sûr de vouloir contrôler les personnes qui peuvent créer des é
 Au début de chaque semestre ou trimestre, vous avez besoin d’un certain nombre de nouvelles équipes. Il peut être logique d’utiliser une approche automatisée pour créer ces équipes automatiquement, les remplir avec les utilisateurs autorisés et définir les autorisations qui s’offrent à vous :
 
 -   School Data Sync peut créer des groupes Microsoft 365 pour Exchange Online et SharePoint Online, des équipes de classe pour les blocs-notes Microsoft Teams et OneNote pour la classe, des groupes scolaires pour Intune pour l’éducation, ainsi que l’intégration de la liste et de l’ingération unique (SSO) pour de nombreuses autres applications tierces. En savoir plus sur [la vue d’ensemble de School Data Sync.](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)
--   PowerShell vous permet de créer des équipes et des canaux, et de configurer automatiquement les paramètres. Pour [plus d’informations, consultez Microsoft Teams PowerShell.](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+-   PowerShell vous permet de créer des équipes et des canaux, et de configurer automatiquement les paramètres. Pour [plus d’informations, voir Microsoft Teams PowerShell.](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 -   Vous pouvez utiliser l’API Microsoft Graph (actuellement en version bêta) pour créer, configurer, cloner et archiver des équipes. Pour [plus d’informations, voir Utiliser l’API Microsoft Graph](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) pour travailler avec Microsoft Teams.
 
 > [!TIP]
 > School Data Sync crée un groupe Microsoft 365 pour chaque classe synchronisé et autorise l’appartenance masquée aux groupes de sorte que seuls les [enseignants](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) et étudiants au sein de la classe peuvent voir les membres de cette classe. Si vous utilisez un autre processus pour créer des groupes de classe, utilisez le paramètre HiddenGroupMembershipEnabled de l'New-UnifiedGroup pour répondre aux mêmes exigences de confidentialité.
 
-## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Comment gérer mes équipes à la fin du semestre ou du trimestre ?
+## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Comment gérer les équipes à la fin du semestre ou du trimestre ?
 
 Nous vous recommandons de réfléchir à la façon dont vous souhaitez gérer les données Teams au terme du semestre ou trimestre scolaire : supprimez-les ou conservez-les disponibles pour les étudiants même après avoir terminé le cours. Vous devez garder le calendrier scolaire à l’esprit afin que les stratégies que vous définissez ne entrent pas en conflit avec les jours fériés. Vous pouvez utiliser les outils suivants pour implémenter votre stratégie :
 
 -   **Stratégie de rétention :** Utilisez cette ligne pour supprimer toutes les données plus anciennes qu’un âge que vous spécifiez afin de vous assurer que les anciennes données sont supprimées des conversations (pour l’ensemble ou certains utilisateurs) et les canaux. Vous pouvez également configurer Teams pour conserver le contenu afin qu’il ne puisse pas être supprimé. Pour plus d’informations, voir [Stratégies de rétention pour Microsoft Teams.](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)
 -   **Politique d’expiration :** Configurez les équipes de manière à ce qu’ils expirent après un certain nombre de jours. Trente jours avant l’expiration, tous les propriétaires d’une équipe sont informés de la nécessite de leur renouvellement, faute de quoi ils sont supprimés (même si un administrateur peut récupérer les équipes supprimées pendant 30 jours supplémentaires). Ce paramètre est très utile pour s’assurer que les équipes inutilisées sont en coucher de soleil. En savoir plus sur la stratégie d’expiration des groupes [Microsoft 365.](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)
 
--   **Équipe d’archivage :** Ce paramètre place les équipes en mode lecture seule. Ils peuvent toujours être parcourus et recherchés, mais personne ne peut ajouter de nouvelles publications. [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) décrit comment les propriétaires d’équipe peuvent archiver une équipe . Les propriétaires d’équipe peuvent également utiliser [l’API Graph (bêta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) pour archiver ou restaurer une équipe.
+-   **Équipe d’archivage :** Ce paramètre place les équipes en mode lecture seule. Ils peuvent toujours être parcourus et recherchés, mais personne ne peut ajouter de nouvelles publications. [L’archivage ou la restauration d’une](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) équipe décrit la manière dont les propriétaires d’équipe peuvent archiver une équipe . Les propriétaires d’équipe peuvent également utiliser [l’API Graph (bêta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) pour archiver ou restaurer une équipe.
  
 > [!IMPORTANT]
 > L’utilisation de la stratégie d’expiration des groupes Microsoft 365 nécessite des licences Azure Active Directory Premium P1 pour chaque utilisateur unique membre d’un ou plusieurs groupes Microsoft 365.
@@ -92,8 +92,8 @@ Oui. Les utilisateurs peuvent sélectionner Créer une équipe à partir d’un 
 -   Ajoutez des membres et des propriétaires.
 -   Ajouter des canaux.
 -   Ajoutez des applications.
--   Raccourcissez ces étapes en cloneant une équipe existante et obtenez également ses onglets.
--   Donnez à l’utilisateur un lien vers l’équipe que vous vient de créer.
+-   Pour raccourcir ces étapes, clonez une équipe existante et obtenez également ses onglets.
+-   Donnez à l’utilisateur un lien vers l’équipe que vous viens de créer.
 -   Supprimez des membres, des propriétaires, des canaux et des applications lorsque vous n’en avez plus besoin.
 -   Archivez l’équipe quand elle n’est plus active. 
 -   Supprimez l’équipe.
@@ -108,14 +108,14 @@ Oui. Les utilisateurs peuvent sélectionner Créer une équipe à partir d’un 
 -   Supprimez l’équipe.
 
 > [!TIP]
-> Les cmdlets PowerShell et API Graph ajoutent constamment des fonctionnalités. Veillez à vérifier souvent les [articles Microsoft Graph API (bêta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) et [PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour améliorer les fonctionnalités.  
+> L’API Graph et les cmdlets PowerShell ajoutent constamment des fonctionnalités. Veillez à vérifier souvent les [articles Microsoft Graph API (bêta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) et [PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) pour améliorer les fonctionnalités.  
 
 
 ## <a name="can-i-control-what-teams-features-my-faculty-and-students-have-access-to"></a>Puis-je contrôler les fonctionnalités de Teams accessibles aux enseignants et aux étudiants ?
 
-Oui. Vous pouvez utiliser des stratégies pour contrôler des fonctionnalités spécifiques de messagerie, de réunion, d’appel et d’événement en direct accessibles à vos utilisateurs. Vous pouvez utiliser les paramètres à l’échelle du client pour appliquer les mêmes paramètres à tous, ou appliquer des stratégies au niveau utilisateur si nécessaire. 
+Oui. Vous pouvez utiliser des stratégies pour contrôler des fonctionnalités spécifiques de messagerie, de réunion, d’appel et d’événement en direct accessibles à vos utilisateurs. Vous pouvez utiliser des paramètres à l’échelle du client pour appliquer les mêmes paramètres à tous, ou appliquer des stratégies au niveau utilisateur si nécessaire. 
 
-Pour plus d’informations sur les stratégies teams, voir [Gérer les paramètres de Microsoft Teams pour votre organisation.](enable-features-office-365.md)
+Pour plus d’informations sur les stratégies teams, [consultez Gérer les paramètres de Microsoft Teams pour votre organisation.](enable-features-office-365.md)
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>Puis-je contrôler les parties externes avec qui mes enseignants et étudiants collaborent ?
 

@@ -1,14 +1,14 @@
 ---
-title: Configurer les paramètres réseau-routage en fonction de l’emplacement
-author: LanaChin
-ms.author: v-lanac
+title: Configurer les paramètres réseau - Routage basé sur l’emplacement
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment créer et configurer des zones, des sites et des sous-réseaux réseau pour le routage direct.
+description: Découvrez comment créer et configurer des régions, des sites et des sous-réseaux réseau pour Location-Based routage direct.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,45 +17,45 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: a7dd707a6066cfe9a8dfcbcc9b3ae36d450d1dd1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372054"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822944"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
-Si vous ne l’avez pas encore fait, lisez [la section routage en fonction de l’emplacement pour le routage direct](location-based-routing-plan.md) pour réviser les autres étapes que vous devez effectuer avant de configurer les paramètres réseau pour le routage en fonction de l’emplacement.
+Si vous ne l’avez pas déjà fait, lisez [Plan Location-Based Routage](location-based-routing-plan.md) du routage direct pour examiner les autres étapes à suivre avant de configurer les paramètres réseau pour Location-Based routage.
 
-Cet article décrit comment configurer les paramètres réseau pour le routage sur site. Après avoir déployé le routage direct du système téléphonique au sein de votre organisation, les étapes suivantes permettent de créer et de configurer les zones du réseau, les sites réseau et les sous-réseaux réseau.
+Cet article décrit comment configurer les paramètres réseau pour le Location-Based routage. Après avoir déployé le routage direct du système téléphonique dans votre organisation, les étapes suivantes vont à créer et à configurer des régions réseau, des sites réseau et des sous-réseaux.
 
-## <a name="define-network-regions"></a>Définir des régions réseau
+## <a name="define-network-regions"></a>Définir les régions réseau
 
-Une région réseau contient une collection de sites du réseau et interconnecte diverses parties d’un réseau à différentes zones géographiques. Pour plus d’informations sur la configuration des zones du réseau, voir [gérer la topologie de votre réseau pour les fonctionnalités du Cloud dans teams](manage-your-network-topology.md).
+Une région réseau contient un ensemble de sites réseau et interconnecte différentes parties d’un réseau sur plusieurs zones géographiques. Pour savoir comment configurer les régions du réseau, voir Gérer votre topologie de réseau pour les fonctionnalités [cloud dans Teams.](manage-your-network-topology.md)
 
 ## <a name="define-network-sites"></a>Définir des sites réseau
 
-Un site réseau correspond à un emplacement où votre organisation a une place physique, par exemple un bureau, un ensemble de bâtiments ou un campus. Vous devez associer chaque site réseau dans votre topologie à une région réseau. Pour plus d’informations sur la façon de configurer les sites réseau, voir [gérer les fonctionnalités de réseau pour le Cloud dans teams](manage-your-network-topology.md).
+Un site réseau représente un emplacement où votre organisation dispose d’un lieu physique, tel qu’un bureau, un ensemble de bâtiments ou un campus. Vous devez associer chaque site réseau de votre topologie à une région réseau. Pour savoir comment configurer des sites réseau, voir Gérer votre topologie de réseau pour les fonctionnalités [cloud dans Teams.](manage-your-network-topology.md)
 
-Il est recommandé de créer un site distinct pour chaque emplacement ayant une connectivité PSTN unique. Vous pouvez créer un site activé pour le routage de géolocalisation ou un site qui n’est pas activé pour le routage sur site. Par exemple, vous souhaiterez peut-être créer un site qui n’est pas activé pour le routage géolocalisation pour permettre aux utilisateurs qui sont activés pour le routage de l’emplacement d’effectuer des appels RTC lors de l’itinérance de ce site.
+Une meilleure pratique en matière Location-Based routage de réseaux consiste à créer un site distinct pour chaque emplacement dispose d’une connectivité RSTN unique. Vous pouvez créer un site activé pour le Location-Based routage ou un site non activé pour l'Location-Based routage. Par exemple, vous pouvez créer un site non activé pour le routage Location-Based afin d’autoriser les utilisateurs activés pour le routage Location-Based à effectuer des appels RSTN lorsqu’ils sont en itinérance vers ce site.
 
 ## <a name="define-network-subnets"></a>Définir des sous-réseaux réseau
 
-Chaque sous-réseau doit être associé à un site réseau spécifique. Vous pouvez associer plusieurs sous-réseaux avec le même site réseau, mais vous ne pouvez pas associer plusieurs sites au même sous-réseau. Pour plus d’informations sur la configuration des sous-réseaux du réseau, voir [gérer la topologie de votre réseau pour les fonctionnalités du Cloud dans teams](manage-your-network-topology.md).
+Chaque sous-réseau doit être associé à un site réseau spécifique. Vous pouvez associer plusieurs sous-réseaux au même site réseau, mais vous ne pouvez pas associer plusieurs sites au même sous-réseau. Pour savoir comment configurer des sous-réseaux, voir Gérer votre topologie de réseau pour les fonctionnalités [cloud dans Teams.](manage-your-network-topology.md)
 
-Pour le routage basé sur l’emplacement, les sous-réseaux IP situés à l’emplacement où les points de terminaison d’équipe peuvent se connecter au réseau doivent être définis et associés à un réseau défini pour l’application du contournement du numéro. Cette association de sous-réseaux permet le routage de géolocalisation pour localiser les points de terminaison géographiquement pour déterminer si un appel RTC donné doit être autorisé. Les sous-réseaux IPv6 et IPv4 sont pris en charge. Lorsque vous déterminez si un point de terminaison d’équipes est situé sur un site, le routage en fonction de l’emplacement vérifie une adresse IPv6 correspondante. Si aucune adresse IPv6 n’est présente, le routage sur la base de l’emplacement vérifie la présence d’une adresse IPv4.
+Pour Location-Based routage, les sous-réseaux IP à l’emplacement où les points de terminaison Teams peuvent se connecter au réseau doivent être définis et associés à un réseau défini pour appliquer la dérivation toll. Cette association de sous-réseaux permet Location-Based routage des points de terminaison pour localiser les points de terminaison géographiquement et déterminer si un appel PSTN donné doit être autorisé. Les sous-réseaux IPv6 et IPv4 sont pris en charge. Pour déterminer si un point de terminaison Teams est situé sur un site, un Location-Based routage vérifie d’abord la recherche d’une adresse IPv6 correspondante. Si une adresse IPv6 n’est pas présente, Location-Based routage recherche une adresse IPv4.
 
-## <a name="define-trusted-ip-addresses-external-subnets"></a>Définir des adresses IP approuvées (sous-réseaux externes)
+## <a name="define-trusted-ip-addresses-external-subnets"></a>Définir des adresses IP fiables (sous-réseaux externes)
 
-Les adresses IP approuvées correspondent aux adresses IP externes Internet du réseau d’entreprise et permettent de déterminer si le point de terminaison de l’utilisateur se trouve à l’intérieur du réseau d’entreprise. Pour plus d’informations sur la configuration des adresses IP approuvées, voir [gérer la topologie de votre réseau pour les fonctionnalités du Cloud dans teams](manage-your-network-topology.md).
+Les adresses IP fiables sont les adresses IP externes Internet du réseau d’entreprise et sont utilisées pour déterminer si le point de terminaison de l’utilisateur se trouve dans le réseau d’entreprise. Pour savoir comment configurer des adresses IP fiables, voir Gérer votre topologie de réseau pour les fonctionnalités [cloud dans Teams.](manage-your-network-topology.md)
 
-Si l’adresse IP de l’utilisateur correspond à une adresse IP figurant dans la liste d’adresses IP autorisées, le routage sur la base de l’emplacement vérifie le sous-réseau interne sur lequel se trouve le point de terminaison de l’utilisateur. Si l’adresse IP de l’utilisateur ne correspond pas à une adresse IP définie dans la liste d’adresses IP autorisées, le point de terminaison est considéré comme qui se trouve à un emplacement inconnu et tout appel RTC à ou à partir d’un utilisateur qui est autorisé à utiliser le routage de géolocalisation est bloqué.
+Si l’adresse IP externe de l’utilisateur correspond à une adresse IP qui se trouve dans la liste d’adresses IP fiables, le routage Location-Based vérifie le sous-réseau interne où se trouve le point de terminaison de l’utilisateur. Si l’adresse IP externe de l’utilisateur ne correspond à aucune adresse IP définie dans la liste d’adresses IP de confiance, le point de terminaison est considéré comme étant à un emplacement inconnu et tous les appels PSTN entre un utilisateur activé pour le routage Location-Based sont bloqués.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Accédez à [activer le routage en fonction de l’emplacement pour le routage direct](location-based-routing-enable.md).
+Allez à [Activer Location-Based routage pour le routage direct.](location-based-routing-enable.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-- [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)
+- [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

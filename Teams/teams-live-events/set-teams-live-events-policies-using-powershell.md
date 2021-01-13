@@ -56,13 +56,13 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 ### <a name="user-scenarios"></a>Scénarios utilisateur
-**Vous voulez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
+**Vous souhaitez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
 
 Si la stratégie globale est affectée aux utilisateurs, exécutez et vérifiez que *AllowBroadcastScheduling* *est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast* est définie sur *True*:
+Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast est* définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Vous souhaitez qu’un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de les planifier**
 
-Exécutez et vérifiez que *la planification AllowBroadcast* est définie sur *True*:
+Exécutez et vérifiez que *La planification AllowBroadcast* est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```

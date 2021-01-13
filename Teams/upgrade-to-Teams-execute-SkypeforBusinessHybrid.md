@@ -29,7 +29,7 @@ ms.locfileid: "49802344"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mettre à niveau à partir d’un déploiement Skype Entreprise hybride vers Teams
 
-![Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
+![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
@@ -59,6 +59,6 @@ Une fois que vous avez déplacé vos utilisateurs vers Skype Entreprise Online, 
 
 ## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau de Phone System et Teams
 
-Si vous effectuez la transition de votre déploiement skype entreprise hybride vers Phone System avec des forfaits d’appels et que Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN), et en supposant que vous avez effectué le transfert de numéro de téléphone, la mise à niveau de vos utilisateurs vers Teams fera automatiquement passer les appels PSTN entrants vers Teams.
+Si vous effectuez la transition de votre déploiement skype entreprise hybride vers Phone System avec des forfaits d’appels et que Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN) public (et en supposant que vous avez effectué le transfert de numéro de téléphone), la mise à niveau de vos utilisateurs vers Teams fera automatiquement la transition des appels PSTN entrants vers Teams.
 
 Si les forfaits d’appels ne sont pas disponibles ou si vous avez l’intention d’utiliser votre fournisseur de connectivité RST existant, vous devez transition votre déploiement voix d’entreprise, ou déploiement vocal hybride qui utilise votre déploiement local existant ou la version Cloud Connector, vers le routage direct du système Microsoft Phone. Pour mettre à niveau vos utilisateurs vers Teams, consultez les autres considérations en relation avec [le routage direct du](2-envision-make-my-service-decisions-direct-routing.md)système téléphonique.

@@ -1,5 +1,5 @@
 ---
-title: Modèles d’e-mail de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
+title: Modèles de courrier électronique de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
 author: cichur
 ms.author: v-cichur
 manager: serdars

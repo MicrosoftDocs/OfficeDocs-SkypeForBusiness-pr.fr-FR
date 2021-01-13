@@ -1,7 +1,7 @@
 ---
-title: Gérer les balises dans Microsoft teams
-author: lanachin
-ms.author: v-lanac
+title: Gérer les balises dans Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: acolonna, salu
 ms.topic: article
@@ -15,105 +15,105 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Apprenez à gérer l’utilisation des indicateurs au sein de votre organisation dans Microsoft Teams.
-ms.openlocfilehash: 718a2401aa8e015a6dec2b6a4c6116a567aaf82d
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+description: Découvrez comment les balises sont utilisées dans votre organisation dans Microsoft Teams.
+ms.openlocfilehash: 9d9ba4584572ad1e1707c250ee92c49e9aaec7fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919056"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831234"
 ---
-# <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft teams
+# <a name="manage-tags-in-microsoft-teams"></a>Gérer les balises dans Microsoft Teams
 
 > [!NOTE]
-> L’une des fonctionnalités décrites dans cet article, **balisage par Shift** , n’a pas encore été publiée. Il a été annoncé et est bientôt disponible. Si vous êtes un administrateur, vous pouvez en savoir plus sur le lancement de cette fonctionnalité dans le centre de messagerie (dans le [Centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home)). Pour rester au courant des nouvelles fonctionnalités de teams, consultez la [documentation Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Une des fonctionnalités abordées dans cet article, la balise par **shift,** n’a pas encore été publiée. Cette annonce a été annoncée et sera bientôt disponible. Si vous êtes un administrateur, vous pouvez découvrir quand cette fonctionnalité sera publiée dans le Centre de messages (dans le Centre d’administration [Microsoft 365).](https://portal.office.com/adminportal/home) Pour rester à jour sur les fonctionnalités de Teams à venir, consultez la feuille [de route Microsoft 365.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Dans Microsoft Teams, les indicateurs permettent aux utilisateurs de se connecter facilement et rapidement avec un sous-ensemble de personnes d’une équipe. Vous pouvez créer des balises personnalisées et les affecter pour classer des personnes en fonction d’attributs tels que le rôle, le projet, la qualification ou l’emplacement. Vous pouvez également attribuer automatiquement des indicateurs aux personnes en fonction de leur planning et des informations de décalage dans l' [application Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (bientôt disponible). Dès lors que vous avez ajouté une balise à un ou plusieurs membres d’une équipe, vous pouvez l’utiliser dans @mentions par n’importe quel membre de l’équipe dans un billet de canal ou pour démarrer une conversation avec uniquement les personnes auxquelles cette balise est affectée.
+Les balises dans Microsoft Teams offrent aux utilisateurs un accès rapide et facile à un sous-ensemble de membres d’une équipe. Vous pouvez créer et attribuer des balises personnalisées pour catégoriser des personnes en fonction d’attributs, tels que le rôle, le projet, les compétences ou l’emplacement. Les balises peuvent également être automatiquement attribuées à des personnes en fonction de leurs informations de planning et de shift dans [l’application Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (bientôt disponible). Une fois qu’un mot-balise est ajouté à un ou plusieurs membres de l’équipe, il peut être utilisé dans @mentions par n’importe qui de l’équipe dans un billet de canal ou pour démarrer une conversation avec les seuls membres à qui cette balise est attribuée.
 
-Comme mentionné plus haut, il existe deux types de balises dans Teams.
+Comme mentionné précédemment, il existe deux types d’balises dans Teams.
 
-- **Balises personnalisées** : les propriétaires d’équipe et les membres de l’équipe (si la fonctionnalité est activée pour eux) peuvent créer et attribuer manuellement des indicateurs aux personnes. Par exemple, une balise « Designer » ou « radiologist » permettra aux membres de l’équipe d’entrer leurs noms.
-- **Balisage par Shift** (bientôt disponible) : cette fonctionnalité permet aux utilisateurs d’affecter automatiquement des balises correspondant au nom de leur planning et au groupe de décalage dans l' [application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) dans Teams. Par exemple, la balise « EngineerOnCall » atteint toutes les équipes programmées dans des équipes pour fonctionner lors de l’utilisation de la balise dans une conversation ou un billet de canal. En fonction du balisage par Shift, teams n’accepte pas de savoir le nom du personnel en déplacement lorsque les utilisateurs ont besoin de transférer rapidement des informations. Le balisage par Shift peut également être sauvegardé par des systèmes de gestion de main-d’œuvre importants tels que JDA, Kronos et AMiON en les intégrant aux équipes. Pour en savoir plus sur la configuration de cette fonctionnalité, consultez la rubrique [configurer le balisage par Shift](#set-up-tagging-by-shift-coming-soon).
+- **Balises personnalisées**: les propriétaires d’équipe et les membres de l’équipe (si la fonctionnalité est activée pour eux) peuvent créer et attribuer manuellement des balises à des personnes. Par exemple, une balise « Concepteur » ou « Tous les membres d’une équipe sans avoir à taper leur nom » s’identifient.
+- **Marquage par shift** (bientôt disponible) : cette fonctionnalité permet aux personnes de se voir automatiquement attribuer des balises qui correspondent à leur planning et au nom du groupe shift dans l’application [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) dans Teams. Par exemple, la balise « EngineerOnCall » atteint tous les ingénieurs qui sont programmés dans Shifts pour travailler au moment où la balise est utilisée dans une conversation ou un billet de canal. Grâce au balisage par shift, Teams permet de ne pas connaître le nom du personnel sur les équipes lorsque les utilisateurs ont besoin de relayer rapidement des informations. La balise par shift peut également être prise en charge par les principaux systèmes de gestion du personnel comme JDA, Kronos et AMiON en les intégrant à Shifts dans Teams. Pour plus d’informations sur la façon de configurer cette fonctionnalité, voir [Configurer le marquage par shift.](#set-up-tagging-by-shift-coming-soon)
 
 > [!NOTE]
-> Les balises ne sont pas encore prises en charge dans les canaux privés. Les balises ne sont pas encore disponibles dans les organisations du secteur public américain de la communauté américaine (GCC), des États-Unis ou du ministère de la défense des États-Unis. 
+> Les balises ne sont pas encore pris en charge dans les canaux privés. Les balises ne sont pas encore disponibles dans les organisations Cloud de la communauté du gouvernement des États-Unis (GCC), GCC High ou Department of Defense (DoD). 
 
-## <a name="how-tags-work"></a>Fonctionnement des indicateurs
+## <a name="how-tags-work"></a>Fonctionnement des balises
 
-Une balise peut être ajoutée manuellement ou attribuée automatiquement à une personne d’une équipe spécifique. Elle peut ensuite être utilisée dans @mentions sur la ligne **à** d’une discussion ou dans un billet sur n’importe quel canal standard de l’équipe. Voici quelques exemples de la manière dont les indicateurs peuvent être utilisés dans teams :
+Un balise peut être ajoutée manuellement ou attribuée automatiquement à une personne d’une équipe spécifique. Elle peut ensuite être utilisée dans  @mentions ligne À dans une conversation ou dans une publication sur n’importe quel canal standard de l’équipe. Voici quelques exemples de la façon dont les balises peuvent être utilisées dans Teams :
 
-- Un responsable du Windows Store publie une annonce dans un canal pour avertir tous les caissiers.
-- Un administrateur d’hôpital envoie un message à toutes les Radiologists dans un canal.
-- Un responsable marketing commence une discussion de groupe avec tous les concepteurs.
-- Une infirmier envoie un message à tous les appels cardiologists. (prochainement)
-- Un ingénieur système publie une annonce dans un canal pour avertir tous les ingénieurs en déplacement. (prochainement)
+- Un responsable de magasin publie une annonce sur un canal pour informer tous les encaissements.
+- Un administrateur de l’hôpital envoie un message à tous les directeurs dans un canal.
+- Un responsable marketing démarre une conversation de groupe avec tous les concepteurs.
+- Une infirmière envoie un message à tous les appelants. (prochainement)
+- Un ingénieur système publie une annonce sur un canal pour informer tous les ingénieurs sur les champs sur shift. (prochainement)
 
-Quand une balise n’est @mentioned dans une conversation de canal, les membres de l’équipe associés à la balise seront avertis, comme tout autre @mention.
+Lorsqu’une balise est @mentioned dans une conversation de canal, les membres de l’équipe associés à la balise sont avertis, comme toute autre @mention.
 
 ## <a name="manage-custom-tags-for-your-organization"></a>Gérer les balises personnalisées pour votre organisation
 
-En tant qu’administrateur, vous pouvez contrôler la façon dont les balises sont utilisées au sein de votre organisation dans le centre d’administration Microsoft Teams. Pour l’instant, vous ne pouvez pas utiliser PowerShell pour gérer les balises.
+En tant qu’administrateur, vous pouvez contrôler la façon dont les balises sont utilisées dans votre organisation dans le Centre d’administration Microsoft Teams. Actuellement, vous ne pouvez pas utiliser PowerShell pour gérer les balises.
 
-![Capture d’écran des paramètres de marquage dans le centre d’administration Microsoft teams](media/manage-tags-admin-settings.png)
+![Capture d’écran des paramètres de marquage dans le Centre d’administration Microsoft Teams](media/manage-tags-admin-settings.png)
 
-Une équipe peut avoir jusqu’à 100 indicateurs, jusqu’à 100 membres de l’équipe peuvent être attribuées à une balise et 25 balises peuvent être affectées à un utilisateur unique. 
+Une équipe peut avoir jusqu’à 100 balises, jusqu’à 100 membres peuvent être affectés à un balise et jusqu’à 25 balises peuvent être affectées à un seul utilisateur. 
 
-### <a name="set-who-can-add-custom-tags"></a>Définir qui peut ajouter des indicateurs personnalisés
+### <a name="set-who-can-add-custom-tags"></a>Définir qui peut ajouter des balises personnalisées
 
-Par défaut, les propriétaires d’équipe peuvent ajouter des balises personnalisées. Vous pouvez modifier ce paramètre pour autoriser les propriétaires d’équipe et les membres de l’équipe à créer, modifier, supprimer et gérer des indicateurs, ou désactiver les indicateurs de votre organisation.
+Par défaut, les propriétaires d’équipe peuvent ajouter des balises personnalisées. Vous pouvez modifier ce paramètre pour autoriser les propriétaires d’équipe et les membres de l’équipe à créer, modifier, supprimer et gérer des balises, ou désactiver les balises pour votre organisation.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur paramètres des équipes des **paramètres à l’échelle de l’organisation**  >  **Teams settings**.
-2. Sous **marquage** , en regard de l’option **balises gérées par** , sélectionnez l’une des options suivantes :
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Paramètres** Teams à  >  **l’échelle de l’organisation.**
+2. Sous **Balise,** en dessous de **Balises,** sélectionnez l’une des options suivantes :
 
-    - **Propriétaires d’équipe et membres** : autoriser les propriétaires d’équipe et les membres à gérer les indicateurs.
-    - **Propriétaires d’équipe** : autoriser les propriétaires d’équipe à gérer les balises.
-    - **Désactivé** : désactiver les balises.
+    - **Propriétaires et membres d’équipe**: autoriser les propriétaires et membres d’équipe à gérer les balises.
+    - **Propriétaires d’équipe**: autoriser les propriétaires d’équipe à gérer les balises.
+    - **Désactivé :** désactiver les balises.
 
 ### <a name="configure-custom-tags-settings"></a>Configurer les paramètres de balises personnalisées
 
-Vous pouvez configurer les paramètres de balises suivants pour contrôler l’utilisation des balises personnalisées au sein de votre organisation.
+Vous pouvez configurer les paramètres d’balise suivants pour contrôler la manière dont les balises personnalisées sont utilisées dans votre organisation.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur paramètres des équipes des **paramètres à l’échelle de l’organisation**  >  **Teams settings**.
-2. Sous **marquage** , définissez les éléments suivants selon les besoins de votre organisation.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Paramètres** Teams à  >  **l’échelle de l’organisation.**
+2. Sous **Marquage,** définissez ce qui suit, selon les besoins de votre organisation.
 
-    - **Permettre aux propriétaires d’équipe de remplacer qui peut gérer les balises** : lorsque vous activez ce paramètre, les propriétaires d’équipe peuvent définir si les membres d’une équipe peuvent créer et gérer des balises au sein d’une équipe et que la valeur des **balises est gérée en** définissant la valeur par défaut de chaque équipe. Si vous désactivez ce paramètre, les **balises gérées par** équipe ne peuvent pas être modifiées.
-    - **Balises par défaut suggérées** : utilisez cet indicateur pour ajouter un ensemble de balises par défaut. Vous pouvez ajouter jusqu’à 25 indicateurs et chaque balise peut contenir un maximum de 25 caractères. Les propriétaires d’équipe et les membres (si la fonctionnalité est activée pour eux) peuvent utiliser ces suggestions, y ajouter ou créer un ensemble de balises.
-    - **Permettre la création de balises personnalisées** : activez ce paramètre pour permettre aux utilisateurs d’ajouter des balises autres que les balises par défaut suggérées. Si cette option est désactivée, les utilisateurs peuvent uniquement utiliser les balises par défaut suggérées. Si vous désactivez ce paramètre, veillez à ajouter une ou plusieurs balises par défaut.
+    - Laissez les propriétaires d’équipe remplacer les personnes responsables de la gestion des balises : lorsque vous définissez ce paramètre, les propriétaires d’équipe peuvent définir si les membres de l’équipe peuvent créer et gérer des balises au sein d’une équipe, et que la valeur des balises est gérée par le paramètre est la valeur par défaut de chaque équipe.  Si vous la désactiver, le paramètre **Balises** ne peut pas être modifié par équipe.
+    - **Balises par défaut suggérées**: utilisez cette option pour ajouter un ensemble d’balises par défaut. Vous pouvez ajouter jusqu’à 25 balises, et chaque balise peut contenir un maximum de 25 caractères. Les propriétaires d’équipe et les membres (si la fonctionnalité est activée pour eux) peuvent utiliser ces suggestions, y ajouter ou créer un ensemble d’balises.
+    - **Laisser les balises** personnalisées être créées : activer ce paramètre pour que les personnes ajoutent des balises autres que les balises par défaut suggérées que vous définissez. Si cette option est désactivée, les personnes peuvent uniquement utiliser les balises par défaut suggérées. Si vous la désactiver, veillez à ajouter un ou plusieurs balises par défaut.
 
-## <a name="manage-custom-tags-settings-for-a-team"></a>Gérer les paramètres de balises personnalisés pour une équipe
+## <a name="manage-custom-tags-settings-for-a-team"></a>Gérer les paramètres de balises personnalisées pour une équipe
 
-Si vous avez activé la paramètre permettre aux propriétaires de l' **équipe de remplacer qui peut gérer les indicateurs** dans le centre d’administration de Microsoft Teams, les propriétaires d’équipe peuvent définir si les membres peuvent ajouter des balises au niveau de l’équipe. Pour ce faire, dans l’onglet **paramètres** d’une équipe, accédez à **balises** , puis sélectionnez qui peut ajouter des indicateurs.
+Si vous avez  désactivé le paramètre Laisser les propriétaires d’équipe remplacer les utilisateurs qui peuvent gérer les balises dans le Centre d’administration Microsoft Teams, les propriétaires d’équipe peuvent définir si les membres peuvent ajouter des balises au niveau de l’équipe. Pour ce faire, sous l’onglet **Paramètres** d’une équipe, sélectionnez **Balises,** puis choisissez qui peut ajouter des balises.
 
 ![Capture d’écran du paramètre balises au niveau de l’équipe](media/manage-tags-team-settings.png)
 
-## <a name="use-tags"></a>Utiliser des indicateurs
+## <a name="use-tags"></a>Utiliser des balises
 
-Pour ajouter des balises personnalisées et configurer le balisage par Shift (si vous utilisez l’application Shifts dans Teams), procédez comme suit. Pour en savoir plus, voir [utilisation de balises dans teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
+Voici comment ajouter des balises personnalisées et configurer le marquage par shift (si vous utilisez l’application Shifts dans Teams). Pour en savoir plus, consultez [l’aide des balises dans Teams.](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
-### <a name="create-and-assign-custom-tags"></a>Création et affectation de balises personnalisées
+### <a name="create-and-assign-custom-tags"></a>Créer et attribuer des balises personnalisées
 
-Pour créer et affecter des balises personnalisées, sélectionnez **équipes** dans la partie gauche de l’application, puis recherchez votre équipe dans la liste. Sélectionnez **̇ ̇ ̇ plus d’options** , puis cliquez sur **gérer les balises**. Ici, vous pouvez créer des balises et les affecter à des personnes de votre équipe.
+Pour créer et attribuer des balises personnalisées, sélectionnez **Teams** sur le côté gauche de l’application, puis recherchez votre équipe dans la liste. Sélectionnez **s s s Autres options,** puis **sélectionnez Gérer les balises.** Ici, vous pouvez créer des balises et les affecter à des membres de votre équipe.
 
-![Capture d’écran de l’application de balises dans le client teams ](media/manage-tags-teams.png)
+![Capture d’écran de l’application de balises dans le client Teams ](media/manage-tags-teams.png)
 
-Pour supprimer un indicateur, sélectionnez **̇ ̇ ̇ plus d’options** en regard de la balise, puis sélectionnez **Supprimer la balise**.
+Pour supprimer un mot-balise, **sélectionnez y s s Autres options** en côté de l’balise, puis Supprimer **la balise.**
 
-### <a name="set-up-tagging-by-shift-coming-soon"></a>Configurer le balisage par le biais du changement (bientôt disponible)
+### <a name="set-up-tagging-by-shift-coming-soon"></a>Configurer le marquage par shift (bientôt disponible)
 
-1. Dans Teams, accédez à l' [application Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
-2. Créez des [groupes Shift](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) et nommez-les après un attribut tel qu’un rôle. Par exemple, EngineerOnCall. Le nom du groupe de décalage sera le nom de la balise.
-3. [Remplissez un échéancier](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) en attribuant des Shifts aux membres de votre équipe. Lorsque vous avez terminé, dans le coin supérieur droit de l’application Shifts, sélectionnez **partager avec l’équipe**.
-4. Attendez 15 minutes pour que les équipes planifiées remplissent le service de balisage.
-5. Utilisez l’indicateur partout où vous utilisez des balises dans Teams.
+1. Dans Teams, allez à [l’application Shifts.](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)
+2. Créez [des groupes de shifts](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) et nommez-les d’après un attribut tel qu’un rôle. Par exemple, EngineerOnCall. Le nom du groupe de shifts sera le nom de l’balise.
+3. [Remplissez un planning en](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) attribuant des shifts aux membres de vos équipes. Lorsque vous avez terminé, dans le coin supérieur droit de l’application Shifts, sélectionnez **Partager avec l’équipe.**
+4. Patientez 15 minutes pour que les shifts programmés remplissent le service de marquage.
+5. Utilisez les balises où que vous soyez dans Teams.
 
-Le marquage par Shift permet aux utilisateurs d’accéder aux personnes en déplacement en temps réel. Les notifications ne sont envoyées qu’aux personnes qui se trouvent sur la touche Maj au moment où une balise est utilisée pour démarrer une discussion ou dans un billet de canal.
+Le marquage par shift permet à vos utilisateurs de joindre les personnes sur shift en temps réel. Les notifications sont envoyées uniquement aux personnes qui sont en shift au moment où une balise est utilisée pour démarrer une conversation ou une publication de canal.
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Utilisation de balises dans teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
+[Utilisation de balises dans Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
 [Gérer l’application Shifts pour votre organisation dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-[Documentation d’aide sur les Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+[Documentation d’aide sur Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

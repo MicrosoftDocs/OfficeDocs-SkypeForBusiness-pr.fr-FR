@@ -30,20 +30,20 @@ ms.locfileid: "49815734"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
-Teams offre aux employés de première ligne de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement et donner le meilleur de lui-même. Vous y trouverez les conseils d’administration dont vous avez besoin pour configurer et gérer Shifts, l’outil de gestion des plannings, dans Teams.
+Teams offre aux employés de première ligne de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement et donner le meilleur de leur travail. Vous y trouverez les conseils d’administration dont vous avez besoin pour configurer et gérer Shifts, l’outil de gestion des plannings, dans Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurer et gérer Shifts pour votre organisation
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Gérer shifts dans votre organisation](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![conception](../media/Help-small.svg)  | **[Aide shifts pour les employés de première ligne](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Gérer Shifts dans votre organisation](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![conception](../media/Help-small.svg)  | **[Aide shifts pour les employés de première ligne](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Extensions Shifts
 
 |               |               |
 | ------------- | ------------- |
 | ![api](../media/api-small.svg) | **[API Shift Graph](/graph/api/resources/shift?view=graph-rest-1.0)** Les API Shifts Graph vous permettent d’intégrer des données Shifts aux systèmes de gestion du personnel externe, ce qui vous offre la flexibilité de créer des expériences Shifts personnalisées en arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
-| ![api](../media/api-small.svg) | **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes de gestion du personnel de tiers, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement aux API et SDK Shifts Graph avec les intégrations open source. |
+| ![api](../media/api-small.svg) | **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes de gestion du personnel de tiers, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement aux API et SDK Shifts Graph avec des intégrations open source. |
 | ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts+ Power Automate vous permet de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles permettent de prendre en charge divers scénarios, tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
 
 ## <a name="featured-training"></a>Formation proposée

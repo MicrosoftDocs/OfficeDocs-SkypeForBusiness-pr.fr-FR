@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - enabler-strategic
-description: Configurer des événements en direct dans Teams, notamment configurer votre réseau, attribuer des licences, activer les fonctionnalités et la planification d’événements en direct et des solutions de distribution de vidéos.
+description: Configurer des événements en direct dans Teams, notamment configurer votre réseau, attribuer des licences, activer les fonctionnalités et la planification d’événements en direct et des solutions de distribution vidéo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -79,7 +79,7 @@ Si vous avez créé une stratégie d’événements en direct personnalisée, at
 
 Pour que les utilisateurs planifier des événements produits avec une application ou un appareil externe, vous devez également suivre les étapes suivantes :
 
-1. Activer Microsoft Stream pour les utilisateurs de votre organisation. La diffusion en continu est disponible dans le cadre d’abonnements Microsoft 365 ou Office 365 éligibles ou en tant que service autonome. Stream n’est pas inclus dans les offres Business Essentials ou Business Premium. Pour plus d’informations, consultez [Vue d’ensemble des licences Stream](https://docs.microsoft.com/stream/license-overview).
+1. Activer Microsoft Stream pour les utilisateurs de votre organisation. Stream est disponible dans le cadre d’abonnements Microsoft 365 ou Office 365 éligibles ou en tant que service autonome. Stream n’est pas inclus dans les offres Business Essentials ou Business Premium. Pour plus d’informations, consultez [Vue d’ensemble des licences Stream](https://docs.microsoft.com/stream/license-overview).
 
    >[!Note]
    > Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) auront une approche progressive. Au démarrage, vous serez en mesure d’opter pour cette expérience, en novembre vous devrez annuler votre abonnement si vous souhaitez continuer à utiliser Stream, et début 2021, tous les clients devront utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion. Découvrez comment attribuer des licences aux [**utilisateurs**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) pour leur donner accès à Stream. Assurez-vous que stream n’est pas bloqué pour les utilisateurs comme défini [**dans cet article.**](https://docs.microsoft.com/stream/disable-user-organization)

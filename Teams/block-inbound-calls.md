@@ -25,7 +25,7 @@ ms.locfileid: "49799904"
 
 Les plans de routage et d’appel directs du système téléphonique (PHONE System Direct Routing and Calling) prisent en charge le blocage des appels entrants à partir du réseau téléphonique commuté (PSTN). Cette fonctionnalité permet de définir une liste globale de modèles de numéro afin que l’ID d’appelant de chaque appel PSTN entrant vers le client puisse être vérifié par rapport à la liste pour une correspondance. En cas de correspondance, un appel entrant est rejeté.
 
-Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants provenant du réseau PSTN et fonctionne uniquement au niveau global du client. Elle n’est pas disponible par utilisateur.  
+Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants provenant du réseau PSTN et fonctionne uniquement sur une base globale du client. Elle n’est pas disponible par utilisateur.  
 
 >[!NOTE]
 > Les appelants bloqués peuvent avoir des comportements légèrement différents lorsqu’ils sont bloqués. Le comportement est basé sur la façon dont l’opérateur de l’appelant bloqué gère la notification de non-réussite de l’appel. Il peut s’agir, par exemple, d’un message de l’opérateur indiquant que l’appel ne peut pas être effectué comme un appel composé, ou un simple abandon de l’appel.
@@ -38,7 +38,7 @@ Les contrôles d’administration pour le blocage des numéros sont fournis à l
 
 Vous gérez les modèles de nombres à l’aide des cmdlets **New,** **Get,** **Set,** **Remove**  - **CsInboundBlockedNumberPattern.** Vous pouvez gérer un modèle donné à l’aide de ces cmdlets, y compris la possibilité d’activer un modèle donné.
 
-- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de numéro bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
+- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de nombres bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
 - [New-CsInboundBlockedNumberPattern ajoute](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) un modèle de numéro bloqué à la liste des locataires.
 - [Remove-CsInboundBlockedNumberPattern supprime](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) un modèle de numéro bloqué de la liste des locataires.
 - [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) modifie un ou plusieurs paramètres d’un modèle de nombre bloqué dans la liste des locataires.
@@ -60,7 +60,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 La création d’un modèle ajoute le modèle comme étant activé par défaut. La description est un champ facultatif pour fournir des informations supplémentaires.
 
-Nous vous recommandons de fournir un nom significatif pour comprendre facilement pourquoi le modèle a été ajouté. Si vous bloquez simplement les numéros de courrier indésirable, vous pouvez nommer la règle de la même façon que le modèle de nombres qui correspond et ajouter des informations supplémentaires dans la description si nécessaire.
+Nous vous recommandons de fournir un nom significatif pour comprendre facilement pourquoi le modèle a été ajouté. Si vous bloquez simplement les numéros de courrier indésirable, envisagez d’nommer la règle de la même façon que le modèle de nombre qui correspond et d’ajouter des informations supplémentaires dans la description si nécessaire.
 
 Les modèles sont assortis à l’aide d’expressions régulières (Regex). Autorisez le temps de réplication avant de tester et de valider.
 
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 Utilisez **l’cmdlet Test-CsInboundBlockedNumberPattern** pour vérifier si un nombre est bloqué dans le client.
  
-Dans cet exemple, les **paramètres PhoneNumber** **et Tenant** sont obligatoires. Le **paramètre PhoneNumber** doit être une chaîne numérique sans caractères supplémentaires tels que + ou -. Dans le TRPS, le **paramètre client** est facultatif. Le paramètre **isNumberBlocked** qui en résulte renvoie la valeur True si le nombre est bloqué dans le client et False s’il n’est pas bloqué.
+Dans cet exemple, les **paramètres PhoneNumber** et **Tenant** sont obligatoires. Le **paramètre PhoneNumber** doit être une chaîne numérique sans caractères supplémentaires tels que + ou -. Dans le TRPS, le **paramètre client** est facultatif. Le paramètre **isNumberBlocked** qui en résulte renvoie la valeur True si le nombre est bloqué dans le client et False s’il n’est pas bloqué.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

@@ -29,7 +29,7 @@ Dans Microsoft Teams, les utilisateurs peuvent afficher les analyses des équipe
 
 - **L’analyse entre** équipes offre aux utilisateurs une vue d’ensemble des données d’utilisation de toutes les équipes dont ils sont membres ou propriétaires dans un affichage de liste unique.
 - **L’analyse par équipe offre** aux utilisateurs une vue plus précise et présente les données d’utilisation d’une équipe spécifique.
-- **L’analyse par canal offre** aux utilisateurs une vue encore plus granulaire, affichant les données d’utilisation d’un canal spécifique.
+- **L’analyse par canal offre** aux utilisateurs une vue encore plus précise, montrant les données d’utilisation d’un canal spécifique.
 
 Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une période spécifiée.
 
@@ -44,8 +44,8 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
     |Option |Description  |
     |--------|-------------|
     |**Nom**   |Nom de l’équipe. |
-    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance au cours de la période spécifiée.
-    |**Personnes**   |Nombre total de membres de l’équipe pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
+    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance pendant la période spécifiée.
+    |**Personnes**   |Nombre total de membres de l’équipe au cours de la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Invités**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
     |**Billets**   |Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée. |
     |**Réponses**   |Nombre de réponses dans la conversation d’équipe pendant la période spécifiée. |
@@ -87,7 +87,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 > Vous pouvez également afficher les analyses par canal en sélectionnant un canal dans la zone de liste de liste dans l’affichage d’analyse par [équipe.](#view-per-team-analytics)
     
 > [!NOTE]
-> Nous définissons les utilisateurs actifs comme utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client web. Il peut s’agir, par exemple, de démarrer une conversation, d’appeler, de partager un fichier, de modifier un document au sein d’une équipe, de participer à une réunion, etc. Nous masons les actions passives telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. Nous dédicions également toutes les actions au sein d’un ID utilisateur unique.
+> Nous définissons les utilisateurs actifs comme utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client web. Il peut s’agir, par exemple, de démarrer une conversation, d’appeler, de partager un fichier, de modifier un document au sein d’une équipe, de participer à une réunion, etc. Nous masons les actions passives telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. De plus, nous désuppions toutes les actions au sein d’un ID utilisateur unique.
 
 ## <a name="related-topics"></a>Sujets associés
 

@@ -1,7 +1,7 @@
 ---
-title: Disponibilité dans les îles Caïmans
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité aux îles Caïmans
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour les îles Caïmans.
-ms.openlocfilehash: 06d83dc2f9d33a02e3d68301446186ca89370052
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Caïmans.
+ms.openlocfilehash: 8394e4f211b71ae9664896e759b697399fcbe9fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230742"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822974"
 ---
-# <a name="availability-in-the-cayman-islands"></a>Disponibilité dans les îles Caïmans
+# <a name="availability-in-the-cayman-islands"></a>Disponibilité aux îles Caïmans
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour les îles Caïmans.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Caïmans.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

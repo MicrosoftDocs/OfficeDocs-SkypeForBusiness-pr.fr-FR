@@ -26,7 +26,7 @@ Cet article vous donne une vue d’ensemble des fonctionnalités d’interopéra
 
 Les utilisateurs de Teams dans votre organisation peuvent discuter avec les utilisateurs de Skype et les appeler à l’aide de leur adresse e-mail et inversement.
 
-- Les utilisateurs de Teams peuvent rechercher et démarrer une conversation par SMS ou un appel audio/vidéo en tête-à-tête avec un utilisateur Skype.
+- Les utilisateurs de Teams peuvent rechercher et démarrer une conversation en tête-à-tête par SMS ou un appel audio/vidéo avec un utilisateur Skype.
 - Les utilisateurs de Skype peuvent rechercher et démarrer une conversation par SMS ou un appel audio/vidéo en tête-à-tête avec un utilisateur de Teams.
 
 Ces fonctionnalités sont disponibles sur les clients de bureau, web et mobiles (Android et iOS) pour Teams et Skype. Pour une expérience optimale, nous vous recommandons d’utiliser Skype version 8.58 et ultérieures.
@@ -53,7 +53,7 @@ Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec 
 - Si l’utilisateur de Teams sélectionne Afficher **les messages,** le message s’affiche dans Teams, ce qui aide l’utilisateur à décider s’il accepte ou bloque la conversation.
 
 > [!NOTE]
-> Si vous avez mis à niveau Skype Entreprise vers Teams et que vos utilisateurs sont en mode Teams uniquement, les conversations et appels des utilisateurs de Skype vers les utilisateurs de Teams sont remis à Teams. Si vos utilisateurs sont en mode Îles, les conversations et appels des utilisateurs de Skype aux utilisateurs de Teams sont remis à Skype Entreprise.
+> Si vous avez mis à niveau Skype Entreprise vers Teams et que vos utilisateurs sont en mode Teams uniquement, les conversations et appels des utilisateurs de Skype vers des utilisateurs de Teams sont remis à Teams. Si vos utilisateurs sont en mode Îles, les conversations et appels des utilisateurs de Skype aux utilisateurs de Teams sont remis à Skype Entreprise.
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Un utilisateur de Teams bloque ou débloque un utilisateur Skype
 
@@ -64,7 +64,7 @@ Les utilisateurs Skype bloqués, ainsi que d’autres personnes et les numéros 
 ## <a name="limitations"></a>Limitations
 
 - Les conversations sont en texte seul. Cela signifie qu’il n’existe pas de mise en forme enrichie, de @mentions, d’emojis ou d’autres fonctionnalités de conversation disponibles dans une expérience de conversation [Teams native.](native-chat-for-external-users.md)
-- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas pris en charge.
+- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas prise en charge.
 - Les utilisateurs de Teams et de Skype ne peuvent pas voir la présence des autres utilisateurs.
 - La recherche d’utilisateurs Skype à l’aide de leur ID Skype ou de leur numéro de téléphone n’est pas prise en charge.
 - Les utilisateurs de Skype ne peuvent pas appeler les utilisateurs de Teams qui ont installé le forwarding d’appel vers le numéro d’un autre utilisateur, un numéro de délégué ou un numéro de réseau téléphonique commuté (PSTN).  Seul la messagerie vocale est prise en charge.

@@ -55,7 +55,7 @@ Voir [Set-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/sky
     
 ## <a name="related-topics"></a>Sujets associés
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-description: Découvrez comment utiliser le bot Ringback pour le routage direct afin d’éviter des silences inattendus lorsqu’un appel est établi.
+description: Découvrez comment utiliser le Bot Ringback pour le routage direct afin d’éviter des silences inattendus lors de l’établi d’un appel.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:

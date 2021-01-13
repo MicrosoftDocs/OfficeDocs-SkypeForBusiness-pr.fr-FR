@@ -33,13 +33,13 @@ Ce script PowerShell crée deux groupes de sécurité, un pour le personnel et l
 Ce script suit :
 
 - Identifie le personnel et les enseignants affectés à une référence SKU pour les enseignants, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
-- Identifie les étudiants à qui une référence SKU est attribuée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
-- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction du fait qu’ils ont ou non une licence.
+- Identifie les étudiants affectés à une référence SKU étudiant, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
+- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction de leur licence.
 
 Vous devrez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
 
 > [!IMPORTANT]
-> Il est important [](../assign-policies.md#precedence-rules) de comprendre les règles de priorité et le [classement d’affectation](../assign-policies.md#group-assignment-ranking) de groupe lors de l’attribution de stratégies à des groupes. Veillez à lire et à comprendre les concepts de ce que vous devez savoir sur l’affectation de [stratégies à des groupes.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> Il est important [](../assign-policies.md#precedence-rules) de comprendre les règles de priorité et le classement [d’affectation](../assign-policies.md#group-assignment-ranking) de groupe lors de l’attribution de stratégies à des groupes. Veillez à lire et à comprendre les concepts de ce que vous devez savoir sur l’affectation de [stratégies à des groupes.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>Avant de commencer
 

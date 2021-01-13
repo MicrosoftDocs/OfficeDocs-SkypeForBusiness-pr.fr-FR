@@ -60,7 +60,7 @@ Vous n’êtes pas familiarisé avec Teams ? Découvrez comment [Teams](https://
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Les cadres supérieurs sont responsables du succès de l’entreprise. assurez-vous de les tenir au courant des changements technologiques. Étant donné que toutes les personnes n’ont pas reçu ou lu la notification d’éligibilité à la mise à niveau, vous devez en informer les parties prenantes (par exemple, PDG, professionnels de l’informatique, responsables marketing et intervenants) avant de commencer à planifier votre mise à niveau.
+Les cadres supérieurs sont responsables du succès de l’entreprise. assurez-vous de les tenir au courant des changements technologiques. Étant donné que toutes les personnes n’ont pas reçu ou lu la notification d’éligibilité à la mise à niveau, vous devez en informer les parties prenantes (par exemple, PDG, professionnels de l’informatique, responsables marketing et du service d’aide) avant de commencer à planifier votre mise à niveau.
 
 **Ressources :**
 

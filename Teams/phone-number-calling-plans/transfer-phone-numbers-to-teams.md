@@ -40,7 +40,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Créer une demande de transfert et transférer vos numéros de téléphone vers Teams
 
 > [!NOTE]
-> Pour l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le **Royaume-Uni, les États-Unis et le Canada.** Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [envoyer manuellement une demande de port.](manually-submit-port-order.md) Pour obtenir le formulaire dont vous avez besoin pour envoyer manuellement une demande de port, sélectionnez votre pays ou région dans la liste de listes de listes dans Gérer les numéros de téléphone [pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+> Pour l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le **Royaume-Uni, les États-Unis et le Canada.** Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [envoyer manuellement une demande de port.](manually-submit-port-order.md) Pour obtenir le formulaire que vous devez envoyer manuellement une demande de port, sélectionnez votre pays ou région dans la liste de listes de listes dans Gérer les numéros de téléphone [pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur **Numéros**  >  **de téléphone vocal.** Cliquez **sur Numéros,** puis sur **Port** pour démarrer l’Assistant Port.
 2. Consultez les informations de **la** page Commencer, puis cliquez sur Suivant lorsque vous **êtes prêt.**
@@ -50,7 +50,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     - **Type de numéro de** téléphone : type de numéro, par exemple des numéros géographiques ou gratuits.
     - **Nombres affectés** à : ce à quoi sont affectés les nombres. Par exemple, les utilisateurs, les fonctionnalités de conférence ou de voix.
 
-4. Dans la page **Ajouter des informations de** compte, complétez les étapes suivantes, puis cliquez sur **Suivant.**
+4. Dans la page **Ajouter des informations de compte,** complétez les étapes suivantes, puis cliquez sur **Suivant.**
 
     > [!IMPORTANT]
     > Les informations affichées sur cette page sont déterminées par le pays ou la région et le type de numéro. Chaque pays et région a des réglementations différentes sur les informations requises pour les numéros de port. Ce que vous voyez sur cette page peut être différent de ce qui est décrit ici.
@@ -67,7 +67,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
         - Numéro de téléphone de facturation **(BTN)**: votre numéro de téléphone au format E.164, qui nécessite un signe + pour prédépender le numéro. Par exemple, pour un numéro en Amérique du Nord, utilisez le format +1XXXYYYZZZZ.
         - Autres informations, notamment le nom de votre fournisseur de services actuel, votre numéro de compte et votre adresse de service.
             
-5. Dans **la** page Ajouter des numéros, cliquez sur Sélectionner un **fichier,** recherchez et sélectionnez le fichier CSV contenant les numéros de téléphone à transférer, puis cliquez sur **Suivant.**  
+5. Dans la page **Ajouter** des numéros, cliquez sur Sélectionner un **fichier,** recherchez et sélectionnez le fichier CSV contenant les numéros de téléphone à transférer, puis cliquez sur **Suivant.**  
 
     > [!NOTE]
     > Le fichier CSV ne doit avoir qu’une colonne dont l’en-tête est PhoneNumber. Chaque numéro de téléphone doit se trouver sur une ligne distincte et ne peut être que des chiffres ou au format E.164.
@@ -82,7 +82,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     4. Numérisez le courrier d’autorisation signé, puis cliquez sur Télécharger une lettre **d’autorisation** signée pour la charger.
 
     > [!NOTE]
-    > Après avoir chargé votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
+    > Une fois que vous avez transféré votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
 
 7. Examinez les détails de votre commande, puis cliquez sur **Envoyer.**
 
@@ -91,7 +91,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
 
 Lorsque nous recevrons votre demande de port, vous recevrez un courrier électronique qui vérifie votre demande. Votre demande est vérifiée et mise à jour quotidiennement, et vous êtes informé de son état et de son avancement par courrier électronique. Si votre demande de port est refusée par l’opérateur d’appel, contactez [le service PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-Pour afficher l’état de votre demande de port, dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur > **Commandes** de port voice, puis cliquez sur  >  Historique **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut. Pour en savoir plus, [consultez le statut de vos commandes de ports.](port-order-status.md)
+Pour afficher l’état de votre demande de port, dans le navigation gauche du Centre d’administration Microsoft Teams, allez à > **Voice** Port orders , puis cliquez sur  >  Historique **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut. Pour en savoir plus, [consultez le statut de vos commandes de ports.](port-order-status.md)
 
 ## <a name="related-topics"></a>Sujets associés
 

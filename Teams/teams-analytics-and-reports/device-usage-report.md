@@ -26,7 +26,7 @@ ms.locfileid: "49815644"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
-Le rapport Utilisation de Teams sur des appareils du Centre d’administration Microsoft Teams vous fournit des informations sur la connexion des utilisateurs à Teams. Vous pouvez utiliser le rapport pour voir les appareils utilisés dans votre organisation, notamment le nombre d’appareils utilisés par Teams depuis leurs appareils mobiles lorsque vous êtes en cours.  
+Le rapport Utilisation de Teams sur des appareils du Centre d’administration Microsoft Teams fournit des informations sur la connexion des utilisateurs à Teams. Vous pouvez utiliser le rapport pour voir les appareils utilisés dans votre organisation, y compris le nombre d’appareils mobiles utilisés par Teams lorsque vous êtes en cours.  
 
 ## <a name="view-the-device-usage-report"></a>Afficher le rapport utilisation des appareils
 

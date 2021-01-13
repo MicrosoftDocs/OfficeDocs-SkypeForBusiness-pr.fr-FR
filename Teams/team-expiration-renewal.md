@@ -25,7 +25,7 @@ ms.locfileid: "49809404"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement des équipes dans Microsoft Teams
 
-Les organisations avec un grand nombre d’équipes ont souvent des équipes qui ne sont jamais utilisées. Cela peut se produire pour diverses raisons, notamment l’expérimentation du produit, la collaboration à court terme de l’équipe ou le départ des propriétaires d’équipe de l’organisation. Au fil du temps, de telles équipes peuvent accumuler et créer une charge sur les ressources client.  
+Les organisations avec un grand nombre d’équipes ont souvent des équipes qui ne sont jamais utilisées. Cela peut se produire pour diverses raisons, notamment l’expérimentation du produit, la collaboration à court terme de l’équipe ou le départ des propriétaires d’équipe de l’organisation. Au fil du temps, ces équipes peuvent accumuler et créer une charge sur les ressources client.  
 
 Pour resserrez le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la stratégie d’expiration des groupes [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont dosées par des groupes, les stratégies d’expiration des groupes s’appliquent automatiquement aux équipes également.
 

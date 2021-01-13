@@ -74,9 +74,9 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
 
 > [!NOTE]
-> Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Vérifiez donc à nouveau si vous avez besoin des informations les plus à jour.  
+> Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Consultez à nouveau les informations les plus à jour.  
 
-Chaque stratégie individuelle est associée au nom du package de stratégies, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
+Le nom du package de stratégies est donné à chaque stratégie individuelle, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
 
 ![Capture d’écran du package de stratégie Éducation (enseignant)](media/policy-packages-education_teacher.png)
@@ -85,7 +85,7 @@ Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseigna
 
 **Cette fonctionnalité est en mode privé (préversion)**
 
-Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires dans votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
+Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
 
 Pour créer un package de stratégie personnalisé :
 
@@ -102,7 +102,7 @@ L’exemple suivant explique comment utiliser des packages de stratégie dans vo
 
 ![Vue d’ensemble de l’utilisation des packages de stratégie](media/manage-policy-packages-overview.png)
 
-- **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant de l’affecter. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
+- **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant d’affecter le package. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
 
     Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous attribuez le package de stratégie.
 

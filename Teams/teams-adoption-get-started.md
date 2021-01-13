@@ -1,7 +1,7 @@
 ---
 title: Commencer à faire adopter Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir les phases de démarrage, d’expérimentation et d’activation de Microsoft Teams.
+description: Dans cet article, vous allez découvrir les phases de démarrage, d’expérimentation et d’adoption de Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,42 +21,42 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47b391fa734b06ba9ffbab9cea3d049322bfc034
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 7fc3d2deea06e7502884741470aec7e58660eeb0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350118"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834144"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Commencer à faire adopter Microsoft Teams
 
-En tirant parti de Microsoft Teams, vous pouvez offrir une excellente utilisation de l’utilisateur et augmenter votre valeur commerciale au sein de votre entreprise. Notre objectif est de faire en sorte que vous soyez rapidement opérationnel pour pouvoir commencer à utiliser Teams. Ce guide porte sur l’adoption des utilisateurs d’équipes et dispose de dépendances sur le niveau de compatibilité technique de votre environnement, qui est abordée dans d’autres sections de notre documentation.
+L’adoption de Microsoft Teams vous permet d’offrir une expérience utilisateur excellente et une valeur accrue au sein de votre entreprise. Notre objectif est de vous rendre rapidement opérationnel afin que vous pouvez commencer votre voyage avec Teams. Ce guide traite de l’adoption de Teams par les utilisateurs et dépend de la préparation technique de votre environnement, qui est traitée dans d’autres sections de notre documentation.
 
 ## <a name="adoption-prerequisites"></a>Conditions préalables à l’adoption
 
-Avant de commencer, assurez-vous que :
+Avant de commencer, assurez-vous que :
 
-- [Teams est installé](get-clients.md) et les [licences sont affectées](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) dans votre environnement. Les licences minimales doivent être attribuées à votre équipe principale et aux premiers décideurs qui participeront à cette phase initiale du projet.
+- [Teams est installé et](get-clients.md) [des licences sont attribuées](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) dans votre environnement. Au minimum, des licences doivent être attribuées à votre équipe principale et aux premiers utilisateurs qui participeront à cette phase initiale du projet.
 
 - Vous avez téléchargé les applications de bureau et mobiles. 
 
-## <a name="adoption-framework"></a>Infrastructure d’adoption
+## <a name="adoption-framework"></a>Infrastructure Adoption
 
-Microsoft 365 et Office 365 disposent d’une infrastructure d’adoption qui s’applique aux charges de travail majeures du service. Cette infrastructure répond aux étapes principales qu’une organisation doit prendre pour prendre en charge les services Cloud. Pour en savoir plus sur l’infrastructure d’adoption globale, voir [documentation et ressources pour Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
+Microsoft 365 et Office 365 ont une infrastructure d’adoption qui s’applique aux charges de travail importantes dans le service. Cette infrastructure aborde les principales étapes que toute organisation doit suivre pour prendre en charge les services cloud. Pour en savoir plus sur le cadre d’adoption global, consultez la [documentation et les ressources de Microsoft Entreprise.](https://aka.ms/O365AdoptionHub) 
 
-Dans le cadre de ce plan d’adoption d’équipes, nous avons organisé les étapes en phases et fourni des conseils spécifiques pour les équipes, comme décrit dans la rubrique [phases d’adoption](#adoption-phases).
+Dans ce plan d’adoption de Teams, nous avons organisé les étapes de phase et fourni des instructions spécifiques pour Teams, comme indiqué dans les [phases d’adoption,](#adoption-phases)ci-après.
 
 ## <a name="adoption-phases"></a>Phases d’adoption 
 
-La taille et la complexité de chaque projet d’adoption varient en fonction de votre environnement, mais les premières étapes sont identiques sur le tableau. Nous pensons que la Division du processus en trois phases distinctes (démarrage, expérimentation et activation) permettra de rationaliser l’adoption de tout le monde.  
+La taille et la complexité de chaque projet d’adoption varient en fonction de votre environnement, mais les étapes initiales sont identiques dans le tableau. Nous pensons que la rupture du processus en trois phases distinctes (démarrage, expérimentation et activer) simplifiera l’adoption pour tout le monde.  
 
-- **Début** dans cette première phase, vous rassemblez votre équipe, vous configurez vos équipes initiales et vous utilisez teams pour commencer à planifier l’adoption des équipes. Cette approche permet d’améliorer la familiarité technique avec le produit et de vous aider à créer les compétences nécessaires à la réalisation de phases ultérieures. 
+- **Début** - Dans cette première phase, vous allez rassembler votre équipe, configurer vos équipes initiales et utiliser Teams pour commencer à planifier l’adoption de Teams. Cette approche permettra d’améliorer votre connaissance technique du produit et vous aidera à acquérir les compétences nécessaires pour effectuer les phases suivantes. 
 
-- **Expérimentation** -dans cette phase de croissance maîtrisée, vous mettrez en place vos champions internes et vos premiersateurs. Vous parlez avec les utilisateurs de votre entreprise pour identifier les scénarios qui vous aideront à tirer le meilleur parti des fonctionnalités de collaboration et de communication offertes par Teams. Vous recueillerez des commentaires qui vous informeront de votre phase d’adoption à grande échelle et vous prendrez des décisions de service concernant la gouvernance et la gestion du cycle de vie qui garantiront un déploiement réussi.
+- **Expérimentation** - Dans cette phase de croissance contrôlée, vous allez faire resserrez vos champions internes et les premiers utilisateurs. Vous allez parler à vos utilisateurs professionnels afin d’identifier des scénarios qui pourraient bénéficier immédiatement des fonctionnalités de collaboration et de communication de Teams. Vous recueillirez des commentaires qui informeront votre phase d’adoption à grande échelle, et vous prendrez des décisions de service sur la gouvernance et la gestion du cycle de vie afin de garantir la réussite du déploiement.
 
-- **Scale** -il s’agit de la phase de déploiement à grande échelle dans laquelle vous activez les fonctionnalités d’équipes pour tous vos employés. Au cours de cette phase, la taille de votre organisation déterminera s’il s’agit d’un projet « Go Big » qui permettra d’activer les équipes pour tous les employés simultanément, ou si vous allez aborder cette fonction par région, unité d’entreprise ou tout autre moyen de segmenter votre population d’employés. Dans cette phase, vous basculerez vers un modèle de remise continue. Les employés, les leaders et les unités d’entreprise doivent développer leur utilisation des équipes et nécessiter une formation et votre engagement pour comprendre la manière dont vous pouvez utiliser au mieux les équipes et d’autres fonctionnalités de Microsoft 365 ou Office 365.
+- **Mise** à l’échelle : il s’agit de la phase de déploiement à grande échelle dans laquelle vous allez activer les fonctionnalités de Teams pour tous vos employés. Au cours de cette phase, la taille de votre organisation déterminera s’il s’agit d’un projet « aller à grande » qui activera Teams pour tous les employés simultanément ou si vous devez vous y prendre en fonction de votre région, de votre unité d’entreprise ou d’une autre méthode de segment de votre population d’employés. Dans cette phase, vous allez passer à un modèle de livraison continue. Les employés, les chefs d’entreprise et les unités commerciales souhaiteront développer leur utilisation de Teams et auront besoin d’une formation et de votre engagement pour comprendre comment utiliser au mieux Teams et d’autres fonctionnalités de Microsoft 365 ou d’Office 365.
 
-Chacune de ces phases d’adoption dépend de votre compatibilité technique et environnementale pour Teams. C’est parti !
+Chacune de ces phases d’adoption dépend de votre préparation technique et environnemental pour Teams. Commençons !
 
 
-![Une icône représentant l’étape suivante, à ](media/teams-adoption-next-icon.png) côté de [Microsoft Teams, phase 1 : début](teams-adoption-phase1.md)|
+![Icône représentant l’étape suivante ](media/teams-adoption-next-icon.png) :        [Phase d’adoption de Microsoft Teams 1 : Démarrer](teams-adoption-phase1.md)|

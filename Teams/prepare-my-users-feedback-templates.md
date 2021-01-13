@@ -25,13 +25,13 @@ ms.locfileid: "49812614"
 ---
 # <a name="user-feedback-surveys"></a>Enquêtes de commentaires des utilisateurs 
 
-Utilisez les enquêtes de commentaires pour capturer l’expérience des utilisateurs et les analyses après votre déploiement. Les questions doivent susciter des commentaires sur l’inéité des utilisateurs à modifier, l’efficacité des ressources de formation, le niveau de préparation du plan de support et l’expérience globale des utilisateurs. Évaluez les réponses aux enquêtes à mesurer par rapport aux objectifs SMART (spécifiques, mesurables, personnalisables, pertinents, liés au temps) que vous avez définis lors de la planification de votre projet, et déterminez toute action supplémentaire requise.
+Utilisez les enquêtes de commentaires pour capturer l’expérience des utilisateurs et les informations après votre déploiement. Les questions doivent susciter l’avis sur l’inéité des utilisateurs à modifier, l’efficacité des ressources de formation, le niveau de préparation du plan de support et l’expérience globale des utilisateurs. Évaluez les réponses aux enquêtes à mesurer par rapport aux objectifs SMART (spécifiques, mesurables, personnalisables, pertinents, liés au temps) que vous avez définis lors de la planification de votre projet, et déterminez toute action supplémentaire requise.
 
 Personnalisez les questions ci-dessous, puis transférez-les vers un outil d’enquête tel que SharePoint afin d’en faciliter la distribution et l’analyse.
 
-Aux fins de ces  enquêtes, un nouveau système téléphonique fait référence à l’utilisation des fonctionnalités d’appel de Microsoft Teams ou de Skype Entreprise, ainsi que des appareils tels qu’un téléphone multimédia ou un téléphone mobile. Toutes les références à Microsoft Teams dans ces enquêtes s’appliquent également à Skype Entreprise.
+Aux fins de ces  enquêtes, le nouveau système téléphonique fait référence à l’utilisation des fonctionnalités d’appel de Microsoft Teams ou de Skype Entreprise, en plus de périphériques tels qu’un téléphone multimédia ou un téléphone mobile. Toutes les références à Microsoft Teams dans ces enquêtes s’appliquent également à Skype Entreprise.
 
-Indiquez votre niveau d’accord avec les déclarations suivantes en relation avec l’utilisation de Teams comme votre téléphone. 
+Indiquez votre niveau d’accord avec les déclarations suivantes en relation avec l’utilisation de Teams comme téléphone. 
 
 |     &nbsp;                              | Tout à fait d’accord | Assez d’accord | Neutre | Assez peu d’accord | Pas du tout d’accord | N/A ou n’a pas utilisé |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
@@ -52,9 +52,9 @@ Indiquez votre niveau d’accord avec les déclarations suivantes, en relation a
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
 | Mon organisation m’a fourni suffisamment d’informations (communication, ressources et appels à l’action) pour que je commence à utiliser le nouveau système téléphonique. |                      |                    |             |                       |                         |                        |
 | J’avais des ressources de formation suffisantes pour m’intégrer rapidement au nouveau système téléphonique.                                                          |                      |                    |             |                       |                         |                        |
-| Notre aide-conseil pourrait répondre à toutes mes questions sur le nouveau système téléphonique.                                                           |                      |                    |             |                       |                         |                        |
+| Notre équipe d’aide pourrait répondre à toutes mes questions sur le nouveau système téléphonique.                                                           |                      |                    |             |                       |                         |                        |
 
-Si vous choisissez **N’êtes pas d’accord** **ou** totalement pas d’accord avec l’une des déclarations ci-dessus, veuillez l’expliquer. (Texte ouvert)
+Si vous choisissez **N’êtes pas d’accord** ou pas **du tout** d’accord avec l’une des déclarations ci-dessus, veuillez l’expliquer. (Texte ouvert)
 
 Allez-vous recommander l’utilisation de Teams comme téléphone à un ami ou un collègue ? (0=Pas du tout... 10=Très probable)
 
