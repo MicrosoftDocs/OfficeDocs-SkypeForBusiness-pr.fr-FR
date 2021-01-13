@@ -1,8 +1,8 @@
 ---
 title: Assistant Certificat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: Pour Demander, Assigner, Supprimer ou Afficher des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à partir de l’infrastructure à clé publique (PKI) de votre organisation, vous devez vérifier ce qu’il vous faut (le cas échéant). Lors de la demande, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat à partir de l’autorité de certification émettrice de votre PKI.
-ms.openlocfilehash: f37b4edae379ac96bc8b4854da891ef223192fa4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour Demander, Assigner, Supprimer ou Afficher des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à partir d’une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à l’infrastructure à clé publique (PKI) de votre organisation, vous devez confirmer les appartenances de groupe supplémentaires, le cas cas nécessaire. Au cours de la tâche Demander, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat auprès de l’ac émettrice de votre PKI.
+ms.openlocfilehash: f8c21cf141d2145e7592a0615a32eafdfa8de10e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823758"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805084"
 ---
 # <a name="certificate-wizard"></a>Assistant Certificat
  
-Pour **Demander**, **Assigner**, **Supprimer** ou **Afficher** des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à partir de l’infrastructure à clé publique (PKI) de votre organisation, vous devez vérifier ce qu’il vous faut (le cas échéant). Lors de la demande, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat à partir de l’autorité de certification émettrice de votre PKI.
+Pour **Demander**, **Assigner**, **Supprimer** ou **Afficher** des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à partir d’une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à l’infrastructure à clé publique (PKI) de votre organisation, vous devez confirmer les appartenances de groupe supplémentaires, le cas cas nécessaire. Au cours de la tâche Demander, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat auprès de l’ac émettrice de votre PKI.
   
 Pour demander un nouveau certificat, cliquez sur **Demander**.
   
@@ -33,20 +33,20 @@ Pour assigner un certificat qui n’a pas encore été assigné, cliquez sur **A
 Pour supprimer un certificat que vous avez précédemment assigné, cliquez sur **Supprimer**.
   
 > [!NOTE]
-> Le bouton **Supprimer** est disponible uniquement si un certificat a été précédemment assigné. Si le bouton **Supprimer** n’est pas disponible (grisé), cela signifie qu’aucun certificat n’a été assigné.
+> Le bouton **Supprimer** sera disponible uniquement si un certificat a été précédemment assigné. Si le bouton **Supprimer** n’est pas disponible (grisé), cela signifie qu’aucun certificat n’a été assigné.
   
 Pour afficher un certificat assigné, cliquez sur **Afficher**.
   
 > [!NOTE]
-> Le bouton **Afficher** est disponible uniquement si un certificat a été précédemment assigné. Si le bouton **Afficher** est grisé, cela signifie qu’aucun certificat n’a été assigné.
+> Le bouton **Afficher** sera disponible uniquement si un certificat a été précédemment assigné. Si le bouton **Afficher** est grisé, cela signifie qu’aucun certificat n’a été assigné.
   
 Pour actualiser l’écran d’assignation du certificat actuel, cliquez sur **Actualiser**.
   
 Pour importer un certificat qui n’est pas présent dans le magasin de certificats, cliquez sur **Importer un certificat**.
   
 > [!NOTE]
-> L’option **Importer un certificat** est généralement utilisée pour traiter un certificat qui est reçu par le biais d’un processus autre qu’une demande de l’Assistant Certificat. Par exemple, l’administrateur de votre infrastructure à clé publique crée un certificat et vous permet d’y accéder. Utilisez l’application **importer le certificat** pour importer le certificat dans le magasin de certificats de l’ordinateur et le mettre à la disposition de Skype entreprise Server.
+> L’option **Importer un certificat** est généralement utilisée pour traiter un certificat qui est reçu par le biais d’un processus autre qu’une demande de l’Assistant Certificat. Par exemple, l’administrateur de votre infrastructure à clé publique crée un certificat et vous permet d’y accéder. Utilisez **le certificat d’importation** pour importer le certificat dans le magasin de certificats de l’ordinateur et le mettre à la disposition de Skype Entreprise Server à affecter.
   
-Pour terminer le processus de demande de certificat auprès d’une autorité de certification de votre organisation qui nécessite l’approbation de l’administrateur de l’autorité de certification, cliquez sur **Traiter une demande en attente**. La demande de certificat affiche un statut en attente, ainsi que le numéro d’identification de la demande en attente. Pour poursuivre le traitement d’un certificat dont le statut est en attente, cliquez sur **Actualiser** pour activer le bouton **Traiter une demande en attente**. Le bouton **Traiter une demande en attente** n’est plus inaccessible (grisé). Vous pouvez ensuite essayer de récupérer la demande en attente, mais le statut de la demande restera en attente tant que le certificat n’aura pas été émis ou rejeté par l’administrateur de l’autorité de certification. Le bouton est inaccessible si aucune demande en attente valide n’a été créée par l’Assistant Certificat.
+Pour achever le processus de demande de certificat auprès d’une autorité de certification de votre organisation qui nécessite l’approbation de l’administrateur de l’autorité de certification, cliquez sur **Traiter une demande en attente**. La demande de certificat affichera un statut en attente, ainsi que le numéro d’identification de la demande en attente. Pour poursuivre le traitement d’un certificat dont le statut est en attente, cliquez sur **Actualiser** pour activer le bouton **Traiter une demande en attente**. Le bouton **Traiter une demande en attente** ne sera plus inaccessible (grisé). Vous pourrez ensuite essayer de récupérer la demande en attente, mais le statut de la demande restera en attente tant que le certificat n’aura pas été émis ou rejeté par l’administrateur de l’autorité de certification. Le bouton sera inaccessible si aucune demande en attente valide n’a été créée par l’Assistant Certificat.
   
 

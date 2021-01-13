@@ -1,8 +1,8 @@
 ---
-title: Déploiement de la messagerie instantanée et de la présence dans Skype entreprise Server
+title: Déployer la messagerie instantanée et la présence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
-description: 'Résumé : Découvrez les étapes de déploiement pour la messagerie instantanée et la présence dans Skype entreprise Server.'
-ms.openlocfilehash: e45761ce80c46a39467f2f1c57249a0ceee48a92
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Découvrez les étapes de déploiement de la messagerie instantanée et de la présence dans Skype Entreprise Server.'
+ms.openlocfilehash: 730cedcea9b4635f0352a18afca2193f065b89b8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795315"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801934"
 ---
-# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Déploiement de la messagerie instantanée et de la présence dans Skype entreprise Server
+# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Déployer la messagerie instantanée et la présence dans Skype Entreprise Server
  
-**Résumé :** Découvrez les étapes de déploiement pour la messagerie instantanée et la présence dans Skype entreprise Server.
+**Résumé :** Découvrez les étapes de déploiement pour la messagerie instantanée et la présence dans Skype Entreprise Server.
   
-## <a name="deployment-steps-for-instant-messaging-and-presence"></a>Étapes du déploiement de la messagerie instantanée et de la présence
+## <a name="deployment-steps-for-instant-messaging-and-presence"></a>Étapes de déploiement pour la messagerie instantanée et la présence
 
-L'article relatif à la planification de la messagerie instantanée et de la présence fournit des informations pour vous aider à planifier votre déploiement. La messagerie instantanée et la présence sont activées lors de l’installation de Skype entreprise Server. Pour en savoir plus sur la planification de la messagerie instantanée et de la présence, voir [planifier la messagerie instantanée et la présence dans Skype entreprise Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+L’article de planification de la messagerie instantanée et de la présence vous présente les informations nécessaires à la planification de votre déploiement. La messagerie instantanée et la présence sont activées lorsque vous installez Skype Entreprise Server. Pour en savoir plus sur la planification de la messagerie instantanée et de la présence, voir Planifier la messagerie instantanée et [la présence dans Skype Entreprise Server.](../../plan-your-deployment/instant-messaging-and-presence.md)
   
-Dans cette section, vous découvrirez quelques-unes des étapes de déploiement que vous pouvez personnaliser pour ajuster votre messagerie instantanée et vos scénarios de présence.
+Dans cette section, vous allez découvrir certaines des étapes de déploiement que vous pouvez personnaliser pour affiner vos scénarios de messagerie instantanée et de présence.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-> [Activation ou désactivation de la messagerie instantanée hors connexion dans Skype entreprise Server](enable-or-disable-offline-im.md)
+> [Activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server](enable-or-disable-offline-im.md)
     
 

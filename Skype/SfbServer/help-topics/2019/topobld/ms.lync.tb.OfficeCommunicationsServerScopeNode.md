@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’Office Communications Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
-description: Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
-ms.openlocfilehash: 55b044d679551ed7aceda0572b8090ebbb017468
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
+ms.openlocfilehash: 092229f6e84b7c4094355b7330c71aa6f8baf7c6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796143"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804124"
 ---
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
 
-Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
+Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 
-Vous cliquez sur **Office Communications Server 2007 R2** pour développer les sections du nœud ou vous cliquez avec le bouton droit pour accéder aux options de **topologie** , ou vous pouvez accéder à cette page **d’aide** .
+Vous cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder aux **options** de topologie ou pour accéder à cette page **d’aide.**
 
 ## <a name="see-also"></a>Voir aussi
 
-[Fusionner à l’aide de l’Assistant Fusion du générateur de topologie](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Fusion à l’aide de l’Assistant Fusion du Générateur de topologies](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
-[Vérifier les informations de topologie](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[Vérifier les informations de la topologie](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

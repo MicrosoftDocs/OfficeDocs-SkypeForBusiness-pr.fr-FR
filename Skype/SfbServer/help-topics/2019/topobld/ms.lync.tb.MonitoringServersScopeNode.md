@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des serveurs de surveillance
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Le nœud analyse des serveurs recense les serveurs de surveillance de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 01e93df586ffc422ea86f635b0829652108cba1e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Le nœud Serveurs de surveillance répertorie les serveurs de surveillance de votre topologie. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 3c4b0338de7bb33c2488bbe140f0c374bd98d095
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796163"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804134"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nœud d’étendue des serveurs de surveillance
  
-Le nœud **analyse des serveurs** recense les serveurs de surveillance de votre topologie. Vous pouvez effectuer l’action suivante :
+Le nœud **Serveurs de surveillance** répertorie les serveurs de surveillance de votre topologie. Vous pouvez effectuer l’action suivante :
   
-- **Nouvelle analyse serveur**. Démarre l’Assistant **définir un nouveau serveur de surveillance** , que vous utilisez pour ajouter un nouveau serveur de surveillance à la topologie.
+- **Nouveau serveur de surveillance**. Lance l’assistant **Définir un nouveau serveur de surveillance** qui permet d’ajouter un nouveau serveur de surveillance à la topologie.
     
-Outre les options de surveillance du serveur, vous pouvez effectuer les tâches générales suivantes :
+Outre les options du serveur de surveillance, vous pouvez effectuer les tâches générales suivantes :
   
-- **Topologie** Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier une base de données, fusionner des composants à partir de versions précédentes d’Office Communications Server ou supprimer le développement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie en cours, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures d’Office Communications Server ou supprimer le déploiement.
     
-- **Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+- **Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

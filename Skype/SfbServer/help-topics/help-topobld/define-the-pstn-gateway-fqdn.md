@@ -1,8 +1,8 @@
 ---
 title: Définir le nom complet de la passerelle PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle de réseau téléphonique commuté (PSTN) qui connectera vos composants voix entreprise à un système RTC ou PBX (Private Branch Exchange).
-ms.openlocfilehash: 52fe8eabfc41e8acc183f7dc3d02a7233734f275
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
+ms.openlocfilehash: 39715f807c65914ab75815cbeffd072686e87f15
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218305"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804864"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom complet de la passerelle PSTN
 
-Vous spécifiez le nom de domaine complet (FQDN) de la passerelle de réseau téléphonique commuté (PSTN) qui connectera vos composants voix entreprise à un système RTC ou PBX (Private Branch Exchange).
+Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
 
-Pour plus d’informations, reportez-vous à la rubrique [PSTN Connectivity Components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Pour plus d’informations, voir [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Voir aussi
 

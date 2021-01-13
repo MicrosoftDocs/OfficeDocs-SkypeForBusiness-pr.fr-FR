@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (retournée)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/1/2015
 audience: ITPro
@@ -14,29 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
-description: 'La page État de la demande de certificat en ligne présente des informations importantes qui résultent de la création réussie et de l’envoi de la demande de certificat en ligne. Cette page fournit l’empreinte numérique du certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher affecter ce certificat aux utilisations des certificats de Skype entreprise Server est activée. Si vous cliquez sur terminer, le certificat est automatiquement attribué à Lync Server 2013 conformément aux étapes de création de la demande de certificat. Par défaut, le certificat est affecté par défaut :'
-ms.openlocfilehash: 7b4ee3d615de0d0d58e041ba1860cc1cd2d34219
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'La page État de la demande de certificat en ligne vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à cocher Affecter ce certificat aux utilisations de certificat Skype Entreprise Server est sélectionnée. Si vous cliquez sur Terminer, le certificat est automatiquement affecté à Lync Server 2013 aux fins que vous avez définies lors des étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :'
+ms.openlocfilehash: 41695f37da725816be6858f0de639bca95a09438
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823808"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805144"
 ---
 # <a name="certificate-request-returned"></a>Demande de certificat (retournée)
  
-La page État de la **demande de certificat en ligne** présente des informations importantes qui résultent de la création réussie et de l’envoi de la demande de certificat en ligne. Cette page fournit l’empreinte numérique du certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher **affecter ce certificat aux utilisations des certificats de Skype entreprise Server** est activée. Si vous cliquez sur **Terminer**, le certificat est automatiquement attribué à Lync Server 2013 conformément aux étapes de création de la demande de certificat. Par défaut, le certificat est affecté par défaut :
+La page **État de la demande de certificat en ligne** vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à **cocher Affecter ce** certificat aux utilisations de certificat Skype Entreprise Server est sélectionnée. Si vous cliquez sur **Terminer,** le certificat est automatiquement affecté à Lync Server 2013 aux fins que vous avez définies lors des étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :
   
-- Serveur par défaut de Mutual Transport Layer Security (MTLS)-connexions aux clients et autres serveurs
+- Serveur par défaut pour MTLS (Mutual Transport Layer Security) : connexions aux clients et autres serveurs
     
-- Services Web internes-client et connexions serveur sur le site des services Web interne pour le protocole TLS/SSL (Transport Layer Security/Secure Sockets Layer)
+- Services Web internes : connexions client et serveur sur le site des services Web internes pour TLS/SSL (Transport Layer Security/Secure Sockets Layer)
     
-- Services Web externes-client et connexions serveur sur le site des services Web externes pour TLS/SSL
+- Services Web externes : connexions client et serveur sur le site de services Web externes pour TLS/SSL
     
-Cliquez sur le bouton **afficher les détails du certificat** pour afficher le certificat pour vérifier que les propriétés du certificat vous conviennent et que le certificat est prêt à être appliqué et mis en place sur le serveur.
+Cliquez sur **Afficher les détails du certificat** pour voir le certificat et confirmer que ses propriétés correspondent à vos souhaits et qu’il est prêt à être appliqué et utilisé sur le serveur.
   
-Cliquez sur **Terminer** pour terminer le processus de demande de certificat en ligne. Si vous avez coché la case **affecter ce certificat aux utilisations des certificats de Skype entreprise Server**, le certificat est automatiquement attribué. Si vous avez choisi de désactiver cette case à cocher, vous devez affecter le certificat dans une étape distincte. 
+Cliquez sur **Terminer** pour achever le processus de demande de certificat en ligne. Si vous avez cocher la case Affecter ce certificat aux utilisations de certificat Skype Entreprise **Server,** le certificat sera automatiquement attribué. Si vous choisissez de ne pas activer cette case à cocher, vous devez assigner le certificat lors d’une étape différente. 
   
 > [!IMPORTANT]
-> Si le certificat racine de l’autorité de certification émettrice ne se trouve pas dans le magasin d’autorités de certification de confiance de l’ordinateur ou s’il ne se trouve pas dans le magasin approprié, vous verrez le statut de synthèse, comme illustré dans l’image suivante. Vous n’avez pas la possibilité d’attribuer le certificat. Pour finaliser le processus d’attribution de certificats, vous devez importer le certificat racine de l’autorité de certification émettrice et les certificats d’autorité de certification intermédiaires, puis attribuer le certificat en cliquant sur **affecter** dans la page de l’Assistant certificat principal.
+> Si le certificat racine de l’autorité de certification émettrice ne se trouve pas dans le magasin de l’autorité de certification racine de confiance de l’ordinateur, ou si les certificats d’autorité de certification intermédiaires ne sont pas dans le magasin approprié, vous verrez l’état récapitulatif, comme illustré dans l’image suivante. Vous n’avez pas l’option d’assigner le certificat. Pour terminer le processus d’affectation de certificat, vous devez importer le certificat racine de l’autorité de certification ainsi que tous les certificats intermédiaires de l’autorité de certification, puis assigner le certificat en cliquant sur **Assigner** dans la page principale de l’Assistant Certificat.
   
 

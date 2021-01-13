@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (demande de signature de certificat)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour créer une requête en mode hors connexion, vous devez d’abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom de fichier pour le conseiller dans la zone de texte nom de fichier. Vous pouvez cliquer sur Parcourir pour sélectionner un emplacement pour créer le conseiller. Cliquez sur suivant pour continuer.
-ms.openlocfilehash: e0111b9af90eb9aa76d35477f63eae8a881ec419
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la zone de texte Nom de fichier. Vous pouvez cliquer sur Parcourir afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur Suivant pour continuer.
+ms.openlocfilehash: b100737e230a5ea627cfbe1759d010da88fb3eca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796735"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801894"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Demande de certificat (demande de signature de certificat)
  
-Pour créer une requête en mode hors connexion, vous devez d’abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom de fichier pour le conseiller dans la zone de texte **nom de fichier** . Vous pouvez cliquer sur **Parcourir** pour sélectionner un emplacement pour créer le conseiller. Cliquez sur **Suivant** pour continuer.
+Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la **zone de** texte Nom de fichier. Vous pouvez cliquer sur **Parcourir** afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur **Suivant** pour continuer.
   
-Cliquez sur **précédent** pour revenir à l’écran précédent. Cliquez sur **Annuler** pour quitter sans apporter de modifications au système.
+Cliquez sur **Précédent** pour revenir à l'écran antérieur. Cliquez sur **Annuler** pour quitter sans apporter de modifications au système.
   
 > [!IMPORTANT]
-> Le fichier créé au cours de cette étape est envoyé à votre autorité de certification publique (CA), à votre autorité de certification hors connexion interne ou soumise à votre administrateur d’autorité de certification à des fins de traitement. Notez l’emplacement et le nom du fichier afin de pouvoir le récupérer et le transmettre à l’autorité de certification. L’emplacement par défaut est le répertoire documents de la personne exécutant l’Assistant certificat. 
+> Le fichier qui est créé à cette étape est envoyé à votre autorité de certification publique, à votre autorité de certification hors connexion interne, ou à votre administrateur de l'autorité de certification pour son traitement. Annotez l'emplacement du fichier et le nom, de façon à pouvoir le récupérer, puis envoyez la demande de signature de certificat à l'autorité de certification. L'emplacement par défaut est le répertoire de documents de l'utilisateur ayant lancé l'Assistant Certificat. 
   
 

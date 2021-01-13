@@ -1,8 +1,8 @@
 ---
 title: Stratégie d’utilisation de la voix
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration de Skype entreprise Server, consultez la rubrique Manage Skype for Business Server.
-ms.openlocfilehash: 075068b924c009df1d142c4c16253d38826f974a
-ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir Manage Skype for Business Server.
+ms.openlocfilehash: df247a40669eb02a4ff151c792e641ca12875dce
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189196"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801284"
 ---
-# <a name="voice-usage-policy"></a>Stratégie d’utilisation de la voix
+# <a name="voice-usage-policy"></a>Politique d’utilisation de la voix
  
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration de Skype entreprise Server, voir Manage Articles in [Skype for Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir les articles Gérer dans Skype Entreprise [Server 2019.](../../../../SfBServer2019/skype-for-business-server-2019.yml)
   
 

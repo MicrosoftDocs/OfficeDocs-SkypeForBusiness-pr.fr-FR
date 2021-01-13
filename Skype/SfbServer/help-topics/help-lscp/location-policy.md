@@ -1,8 +1,8 @@
 ---
 title: Stratégie d’emplacement
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,70 +14,70 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
-description: Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: 00c0635e6833c5cb4f356de2914abb50eb4ddafc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
+ms.openlocfilehash: 948fb5cb6a5457b512af3fc7d230adf27c304bd2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822697"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803954"
 ---
 # <a name="location-policy"></a>Stratégie d’emplacement
 
-Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
+Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
 
-Les stratégies d’emplacement incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :
+Les stratégies d’emplacement incluent la stratégie globale et, éventuellement, une ou plusieurs stratégies de site et d’utilisateur :
 
-- **Politique globale :** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
+- **Stratégie globale :** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale mais vous ne pouvez pas la supprimer. Si vous essayez de supprimer la stratégie globale, toutes les valeurs par défaut des paramètres sont réinitialisées.
 
-- **Stratégies de site (facultatif) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
+- **Stratégies de site (facultatives) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement de site, chacune s’applique à un site spécifique. Les stratégies de site remplacent la stratégie globale.
 
-- **Stratégies utilisateur (facultatif) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement utilisateur, qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
+- **Stratégies utilisateur (facultatives) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement utilisateur, chacune s’applique à un utilisateur ou à un groupe d’utilisateurs spécifique. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
 > [!NOTE]
-> Vous pouvez également attribuer des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement aux sites réseau à l’aide d’applets de connexion, voir [Ajouter une stratégie d’emplacement à un site réseau dans Skype entreprise Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l’utilisation du panneau de configuration Skype entreprise Server pour assigner une stratégie d’emplacement à un site réseau, voir [configurer les sites réseau](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
+> Vous pouvez également affecter des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement à des sites réseau à l’aide d’cmdlets, voir [Add a location policy to a network site in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l’utilisation du Panneau de configuration de Skype Entreprise Server pour affecter une stratégie d’emplacement à un site réseau, voir [Configuring Network Sites](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
 
 La page **Stratégie d’emplacement** affiche la liste de toutes les stratégies d’emplacement définies pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Stratégie d’emplacement**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes à partir de la page **Stratégie d’emplacement** :
 
-- Création d’une stratégie d’emplacement de site ou d’une stratégie d’emplacement utilisateur
+- Créer une stratégie d’emplacement de site ou une stratégie d’emplacement utilisateur
 
-- Modification de la stratégie globale, d’une stratégie de site ou d’une stratégie utilisateur existante
+- Modifier la stratégie globale ou une stratégie de site ou stratégie utilisateur existante
 
-- Suppression d’une stratégie de site ou d’une stratégie utilisateur
+- Supprimer une stratégie de site ou une stratégie utilisateur
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste ci-dessous décrit les commandes de la page.
+La liste suivante décrit les commandes de la page.
 
-- **Nouvelle** Démarre une nouvelle stratégie d’emplacement du site ou une nouvelle stratégie d’emplacement utilisateur.
+- **Nouveau** Démarre une nouvelle stratégie d’emplacement de site ou une nouvelle stratégie d’emplacement utilisateur.
 
-- **Modifier** Ouvre la stratégie d’emplacement sélectionnée pour la modifier, sélectionne toutes les stratégies d’emplacement dans la liste, ou supprime la stratégie de site ou la stratégie d’utilisateur sélectionnée.
+- **Modifier** Ouvre la stratégie d’emplacement sélectionnée pour la modifier, sélectionne toutes les stratégies d’emplacement dans la liste ou supprime la stratégie de site ou la stratégie utilisateur sélectionnée.
 
     > [!NOTE]
-    > Pour la stratégie globale, l’option **Supprimer** restaure les valeurs par défaut des paramètres.
+    > Pour la stratégie globale, **Supprimer** rétablit les valeurs par défaut des paramètres.
 
-- **Actualiser** Actualise la liste des stratégies d’emplacement.
+- **Actualiser** Actualisation de la liste des stratégies d’emplacement.
 
-La liste ci-dessous décrit les champs de la page.
+La liste suivante décrit les champs de la page.
 
 - **Nom** Identifie la stratégie d’emplacement.
 
-- **Scope** Identifie l’étendue de la stratégie d’emplacement : global, site ou utilisateur.
+- **Étendue** Identifie l’étendue de la stratégie d’emplacement : globale, de site ou utilisateur.
 
-- **E9-1-1** Activé si les utilisateurs auxquels cette stratégie d’emplacement est affectée sont activés pour E9-1-1.
+- **E9-1-1** Vérifié si les utilisateurs affectés à cette stratégie d’emplacement sont activés pour E9-1-1.
 
-- **Emplacement** Spécifie si les utilisateurs sont invités à entrer des informations d’emplacement lorsque le client s’inscrit à Skype entreprise Server à un nouvel emplacement, et qu’ils voient une exclusion de responsabilité s’ils ignorent l’invite sans entrer d’informations d’emplacement.
+- **Emplacement** Spécifie si les utilisateurs sont invités à entrer des informations d’emplacement lorsque leur client s’inscrit auprès de Skype Entreprise Server à un nouvel emplacement, et s’ils voient une clause d’exclusion de responsabilité s’ils font disparaître l’invite sans entrer d’informations d’emplacement.
 
-- **Utilisation PSTN** Spécifie l’utilisation de réseau téléphonique commuté (PSTN) qui est utilisée pour déterminer l’itinéraire vocal utilisé pour diriger les appels d’urgence de clients à l’aide de ce profil.
+- **Utilisation PSTN** Spécifie l’utilisation du réseau téléphonique commuté (PSTN) utilisée pour déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de ce profil.
 
-- **E9-1-1 nombre** Spécifie le numéro numéroté pour contacter les services d’urgence.
+- **Numéro E9-1-1** Spécifie le numéro composé pour joindre les services d’urgence.
 
-- **E9-1-1 Mask** Spécifie un numéro qu’un utilisateur compose puis traduit par le numéro de téléphone d’urgence.
+- **Masque E9-1-1** Spécifie un numéro qu’un utilisateur compose puis converti en numéro de numéro d’urgence.
 
-Pour plus d’informations sur les fonctionnalités et les fonctionnalités du service d’urgence entreprise voix entreprise, voir [vue d’ensemble de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies d’emplacement, reportez-vous à la rubrique [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) de la documentation des opérations.
+Pour plus d’informations Voix Entreprise fonctionnalités des services d’urgence, voir Vue d’ensemble du [service E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies d’emplacement, voir [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) dans la documentation des opérations.
 
 

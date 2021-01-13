@@ -1,8 +1,8 @@
 ---
-title: Déploiement du rôle serveur sur Skype entreprise Server
+title: Déployer le rôle serveur VIS dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
-description: 'Résumé : déploiement du rôle serveur d’interopérabilité vidéo (à) dans Skype entreprise Server.'
-ms.openlocfilehash: 1fadab718a37dba2ffee5338d4dc898316b4d24d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Déployez le rôle vis (Video Interop Server) dans Skype Entreprise Server.'
+ms.openlocfilehash: 773e2ddf790aa1b6c36ff6926d8bc4d16ea613f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798041"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801964"
 ---
-# <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Déploiement du rôle serveur sur Skype entreprise Server
+# <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Déployer le rôle serveur VIS dans Skype Entreprise Server
  
-**Résumé :** Déploiement du rôle serveur d’interopérabilité de vidéo dans Skype entreprise Server.
+**Résumé :** Déployez le rôle VIS (Video Interop Server) dans Skype Entreprise Server.
   
-Pour configurer le service à l’aide du service sur le serveur que vous venez de créer dans le générateur de topologie, démarrez l’Assistant Déploiement de Skype entreprise, appuyez sur **installer ou mettre à jour le système Skype entreprise Server** et suivez les étapes de l’Assistant :
+Pour configurer le service VIS sur le serveur qui vient d’être créé dans le Générateur de topologie, démarrez l’Assistant Déploiement de Skype Entreprise Server, appuyez sur Installer ou mettre à jour le système Skype Entreprise **Server** et suivez les étapes suivantes dans l’Assistant :
   
-1.  Sélectionnez **Installer le magasin de configurations local**.
+1.  Sélectionnez **Installer le magasin de configurations local.**
     
-2. Sélectionnez **configurer ou supprimer les composants Skype entreprise Server**.
+2. Sélectionnez **Le programme d’installation ou supprimez les composants Skype Entreprise Server.**
     
-3. Sélectionnez **Demander, installer ou assigner les certificats**.
+3. Select **Request, Install or Assign Certificates**.
     
-4. Sélectionnez **Démarrer les services**.
+4. Sélectionnez **Démarrer les services.**
     
-The software for this service is now installed and running. Vous pouvez ouvrir l’outil MMC services pour vérifier si le service **serveur vidéo Interop de Skype entreprise Server** s’exécute avec d’autres services Skype entreprise Server. Next, you must configure the VIS server or pool.
+Le logiciel de ce service est maintenant installé et en cours d’exécution. Vous pouvez ouvrir l’outil MMC Services pour voir si le service **Skype Entreprise Server Video Interop Server** est en cours d’exécution avec d’autres services Skype Entreprise Server. Ensuite, vous devez configurer le serveur VIS ou le pool.
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer le serveur Video Interop dans Skype entreprise Server](configure-the-vis.md)
+[Configurer le serveur d’opation vidéo dans Skype Entreprise Server](configure-the-vis.md)

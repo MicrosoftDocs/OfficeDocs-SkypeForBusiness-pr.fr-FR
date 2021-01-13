@@ -1,8 +1,8 @@
 ---
-title: Déploiement d’un serveur de technologie d’interopérabilité vidéo dans Skype entreprise Server
+title: Déployer le serveur d’opation vidéo dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: 'Résumé : déploiement du rôle serveur sur Skype entreprise Server.'
-ms.openlocfilehash: 51db16a115871f7720379157aa1b97ae89e9031f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Déployez le rôle serveur VIS dans Skype Entreprise Server.'
+ms.openlocfilehash: 7b3ee96b1ff2e6c633efa9e1cc98aa14bb5babc3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798031"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801954"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Déploiement d’un serveur de technologie d’interopérabilité vidéo dans Skype entreprise Server
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Déployer le serveur d’opation vidéo dans Skype Entreprise Server
  
-**Résumé :** Déploiement du rôle serveur sur Skype entreprise Server.
+**Résumé :** Déployez le rôle serveur VIS dans Skype Entreprise Server.
   
-Skype entreprise Server peut désormais être intégré aux systèmes de visioconférence Cisco (VTCs) tels que Cisco C60 ou Cisco MX300. Pour cela, vous devez disposer d’un nouveau rôle de serveur appelé Video Interop Server (à) et d’une configuration correcte de l’écran et de l’équipement avec lesquels il fonctionne. Un VTC s’inscrit auprès de l’infrastructure Cisco existante, telle que le Cisco Unified Communication Manager (CUCM), et une jonction SIP vidéo est utilisée entre le CUCM et le pool VIS.
+Skype Entreprise Server peut désormais s’intégrer directement aux systèmes de téléconférence Cisco (VTC) tels que Cisco C60 ou Cisco MX300. Cela nécessite l’introduction d’un nouveau rôle serveur appelé serveur d’interopérabilité vidéo (VIS) et la configuration correcte du VIS et de l’équipement avec qui il interaérable. Un VTC s’inscrit auprès d’une infrastructure Cisco existante telle que Cisco Unified Communication Manager (CUCM) et une trunk SIP vidéo est utilisée entre CUCM et le pool VIS.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-La configuration de l’interopérabilité entre un serveur ou un pool VIS et des systèmes VTC requiert la réalisation des cinq procédures suivantes : 
+La configuration de l’interopérabilité entre un serveur VIS ou un pool et des systèmes VTC nécessite d’effectuer les cinq procédures suivantes : 
   
-- [Créer un pool d’objets dans Skype entreprise Server](create-a-vis-pool.md)
+- [Créer un pool VIS dans Skype Entreprise Server](create-a-vis-pool.md)
     
-- [Déploiement du rôle serveur sur Skype entreprise Server](deploy-the-vis-server-role.md)
+- [Déployer le rôle serveur VIS dans Skype Entreprise Server](deploy-the-vis-server-role.md)
     
-- [Configurer le serveur Video Interop dans Skype entreprise Server](configure-the-vis.md)
+- [Configurer le serveur d’opation vidéo dans Skype Entreprise Server](configure-the-vis.md)
     
-- [Configurer CUCM pour l’interopérabilité avec Skype entreprise Server](configure-cucm-for-interoperation.md)
+- [Configurer CUCM pour l’interopération avec Skype Entreprise Server](configure-cucm-for-interoperation.md)
     
-- [Configurer une VTC pour l’interopérabilité avec Skype entreprise Server](configure-a-vtc-for-interoperation.md)
+- [Configurer un VTC pour l’interopération avec Skype Entreprise Server](configure-a-vtc-for-interoperation.md)
     
 ## <a name="related-sections"></a>Sections connexes
 
-[Planifier le serveur Video Interop dans Skype entreprise Server](../../plan-your-deployment/video-interop-server.md)
+[Planifier le serveur d’opation vidéo dans Skype Entreprise Server](../../plan-your-deployment/video-interop-server.md)
   
 

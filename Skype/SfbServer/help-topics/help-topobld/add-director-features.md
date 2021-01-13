@@ -1,8 +1,8 @@
 ---
 title: Ajouter des fonctionnalités de directeur
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
-description: Si vous souhaitez que le pool directeur comprenne le serveur de surveillance, sélectionnez surveillance (CDR et valeurs QoE).
-ms.openlocfilehash: c03536edfac8173efdc708f3ea4bb341eeee1b6a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Si vous souhaitez que le pool directeur inclue le serveur de surveillance, sélectionnez Surveillance (cdr et mesures QoE).
+ms.openlocfilehash: e154e0c7603b414d023a8c5f0b7afcda7acff94a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217315"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804884"
 ---
 # <a name="add-director-features"></a>Ajouter des fonctionnalités de directeur
 
-Si vous souhaitez que le pool directeur comprenne le serveur de surveillance, sélectionnez **surveillance (CdR et valeurs QoE)**.
+Si vous souhaitez que le pool directeur inclue le serveur de surveillance, sélectionnez **Surveillance (cdr et mesures QoE).**
 
-Pour plus d’informations sur l’ajout d’un pool Directeur, consultez la rubrique [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) et [Setting up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).
+Pour plus d’informations sur l’ajout d’un pool directeur, voir [Scénarios](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) pour le directeur et [Configuration du directeur.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)
 
 

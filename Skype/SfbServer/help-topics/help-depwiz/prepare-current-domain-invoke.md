@@ -1,8 +1,8 @@
 ---
-title: Préparer le domaine actuel (appel)
+title: Préparer le domaine actuel (appeler)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
-description: 'La page d’exécution de commandes affiche une synthèse des tâches au fur et à mesure qu’elles s’exécutent. Passez en revue l’écran Résumé et assurez-vous que les tâches aboutissent et qu’il n’y a pas d’erreurs. Passez en revue les avertissements pour vérifier qu’ils sont attendus. Dans le volet Résumé, vous devez voir état de la tâche : terminé. Dans la liste déroulante, le domaine préparer le fichier journal doit être visible. Si ce n’est pas le cas, sélectionnez le fichier journal, puis cliquez sur Afficher le journal pour passer en revue les actions et les résultats détaillés des tâches. Cliquez sur Terminer pour achever la préparation du domaine.'
-ms.openlocfilehash: 7265731e1c748014761c08731cd8da3769fdd510
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'La page Exécution de commandes affiche un résumé des tâches qui s’exécutent. Passez en revue l’écran de résumé et assurez-vous de la réussite des tâches et de l’absence d’erreurs. Passez en revue les avertissements pour vous assurer qu’ils s’affichent comme prévu. Sous le volet de résumé, vous devriez voir Statut de la tâche : Terminée. Dans la liste déroulante, le fichier journal Préparer le domaine devrait être visible. Si ce n’est pas le cas, sélectionnez le fichier journal puis cliquez sur Afficher le journal pour passer en revue les actions détaillées ainsi que le résultat des tâches. Cliquez sur Terminer pour terminer la préparation du domaine.'
+ms.openlocfilehash: 16720d2c4091215ce4922d17321560097450e02a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823558"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804954"
 ---
-# <a name="prepare-current-domain-invoke"></a>Préparer le domaine actuel (appel)
+# <a name="prepare-current-domain-invoke"></a>Préparer le domaine actuel (appeler)
  
-La page d' **exécution de commandes** affiche une synthèse des tâches au fur et à mesure qu’elles s’exécutent. Passez en revue l’écran Résumé et assurez-vous que les tâches aboutissent et qu’il n’y a pas d’erreurs. Passez en revue les avertissements pour vérifier qu’ils sont attendus. Dans le volet Résumé, vous devez voir **État de la tâche : terminé**. Dans la liste déroulante, le **domaine préparer** le fichier journal doit être visible. Si ce n’est pas le cas, sélectionnez le fichier journal, puis cliquez sur **afficher le journal** pour passer en revue les actions et les résultats détaillés des tâches. Cliquez sur **Terminer** pour achever la préparation du domaine.
+La page **Exécution de commandes** affiche un résumé des tâches qui s’exécutent. Passez en revue l’écran de résumé et assurez-vous de la réussite des tâches et de l’absence d’erreurs. Passez en revue les avertissements pour vous assurer qu’ils s’affichent comme prévu. Sous le volet du résumé, vous devriez voir **Statut de la tâche : Terminée**. Dans la liste déroulante, le fichier journal **Préparer le domaine** devrait être visible. Si ce n’est pas le cas, sélectionnez le fichier journal, puis cliquez sur **Afficher le journal** pour passer en revue les actions détaillées ainsi que le résultat des tâches. Cliquez sur **Terminer** pour terminer la préparation du domaine.
   
 

@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (autres noms du sujet)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page nom de l’objet/noms de remplacement de l’objet présente un résumé du nom de l’objet et de tous les noms de remplacement de sujet qui remplissent le certificat. Les noms présentés pour nom de sujet et noms de remplacement de l’objet sont collectés à partir du document de définition, tel qu’il a été créé lors de la définition du déploiement dans le générateur de topologie.
-ms.openlocfilehash: 656439cca7676714ae141ec3184f3101963a4bc1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Nom du sujet/Autres noms du sujet présente un résumé du nom du sujet et de tous les autres noms du sujet que contiendra le certificat. Les noms présentés pour le nom du sujet et les autres noms du sujet sont collectés à partir du document de définition, tel qu’il a été créé lorsque vous avez défini le déploiement dans le Générateur de topologies.
+ms.openlocfilehash: b0c9acd2c0da3dfbc542c0ad17ee4325c60050c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794282"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801794"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Demande de certificat (autres noms du sujet)
  
-La page nom de l’objet **/noms de remplacement** de l’objet présente un résumé du nom de l’objet et de tous les noms de remplacement de sujet qui remplissent le certificat. Les noms présentés pour nom de sujet et noms de remplacement de l’objet sont collectés à partir du document de définition, tel qu’il a été créé lors de la définition du déploiement dans le générateur de topologie.
+La page **Nom du sujet/Autres noms du sujet** présente un résumé du nom du sujet et de tous les autres noms du sujet que contiendra le certificat. Les noms présentés pour le nom du sujet et les autres noms du sujet sont collectés à partir du document de définition, tel qu’il a été créé lorsque vous avez défini le déploiement dans le Générateur de topologies.
   
-Si vous devez apporter des modifications au nom du sujet ou à l’un des autres noms d’objet, cliquez sur **Annuler** pour quitter l’Assistant demande de certificat et réexécuter le générateur de topologie. Ensuite, republiez la nouvelle configuration avec les noms d’objet et d’objet bien définis.
+Si vous devez apporter des modifications au nom du sujet ou à l’un des autres noms du sujet, cliquez sur **Annuler** pour quitter l’Assistant Demande de certificat et réexécuter le Générateur de topologies. Ensuite, publiez à nouveau la nouvelle configuration avec le sujet et les autres noms du sujet correctement définis.
   
 

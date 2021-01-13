@@ -1,8 +1,8 @@
 ---
 title: Table User
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-description: La table utilisateur est une table qui contient une liste des différents utilisateurs ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
-ms.openlocfilehash: fcb6c4d45f1392c31ba87637d6e3a1a697f7be9e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table User est une table de prise en charge qui stocke la liste des divers utilisateurs ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
+ms.openlocfilehash: 5c84f0b947199fa497964cb1689dccc571a98d14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805092"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800074"
 ---
 # <a name="user-table"></a>Table User
  
-La table utilisateur est une table qui contient une liste des différents utilisateurs ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
+La table User est une table de prise en charge qui stocke la liste des divers utilisateurs ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**UserKey** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cet utilisateur.  <br/> |
-|**SPAMMEUR** <br/> |nvarchar (450)  <br/> |Différent  <br/> |Chaîne d’URI.  <br/> |
-|**URIType** <br/> |int  <br/> ||1 est un type d’URI inconnu.  <br/> 2 est l’URI de l’utilisateur.  <br/> 4 est un URI de conférence.  <br/> 8 est un URI de téléphone.  <br/> |
-|**TenantKey** <br/> |int  <br/> |Externes  <br/> |Client de l’utilisateur, référencé dans la table locataire.  <br/> |
-|**LastPoorCallTime** <br/> |DateHeure  <br/> ||Horodatage le plus récent lorsque l’utilisateur avait un appel audio médiocre.  <br/> |
-|**NextUpdateTS** <br/> |DateHeure  <br/> ||Pour un usage interne uniquement.  <br/> |
+|**UserKey** <br/> |int  <br/> |Primaire  <br/> |Nombre unique identifiant cet utilisateur.  <br/> |
+|**URI** <br/> |nvarchar(450)  <br/> |Uniques  <br/> |Chaîne URI.  <br/> |
+|**URIType** <br/> |int  <br/> ||1 est type URI inconnu.  <br/> 2 est URI d’utilisateur.  <br/> 4 est URI de conférence.  <br/> 8 est URI de téléphone.  <br/> |
+|**TenantKey** <br/> |int  <br/> |Étranger  <br/> |Locataire de l’utilisateur, référencé depuis la table de locataires.  <br/> |
+|**LastPoorCallTime** <br/> |DateHeure  <br/> ||Horodatage le plus récent du moment où l’utilisateur avait un appel de mauvaise qualité audio.  <br/> |
+|**NextUpdateTS** <br/> |DateHeure  <br/> ||À usage interne uniquement.  <br/> |
    
 

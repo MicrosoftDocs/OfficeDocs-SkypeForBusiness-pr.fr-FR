@@ -1,8 +1,8 @@
 ---
 title: StartServices (introduction)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
-description: Pour démarrer des services sur le serveur de rôles Skype entreprise Server 2015 que vous déployez, consultez l’écran de présentation. Remarquez que les commandes émises pour démarrer Skype entreprise Server n’attendent pas que le service démarre. Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows. Cliquez sur Suivant pour lancer la tâche Démarrer les services.
-ms.openlocfilehash: fec6fd5ed6212e6c0cb71ca606ff8ddc4e561036
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour démarrer les services sur le serveur de rôles Skype Entreprise Server 2015 que vous déployez, examinez l’écran d’introduction. Notez que les commandes émises pour démarrer Skype Entreprise Server n’attendent pas le démarrage du service. Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows. Cliquez sur Suivant pour lancer la tâche Démarrer les services.
+ms.openlocfilehash: ce23db017922b2c12384172f07bb13b5113c9e59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823298"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800654"
 ---
 # <a name="startservices-intro"></a>StartServices (introduction)
  
-Pour démarrer des services sur le serveur de rôles Skype entreprise Server 2015 que vous déployez, consultez l’écran de présentation. Remarquez que les commandes émises pour démarrer Skype entreprise Server n’attendent pas que le service démarre. Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows. Cliquez sur **Suivant** pour lancer la tâche **Démarrer les services**.
+Pour démarrer les services sur le serveur de rôles Skype Entreprise Server 2015 que vous déployez, examinez l’écran d’introduction. Notez que les commandes émises pour démarrer Skype Entreprise Server n’attendent pas le démarrage du service. Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows. Cliquez sur **Suivant** pour lancer la tâche **Démarrer les services**.
   
 

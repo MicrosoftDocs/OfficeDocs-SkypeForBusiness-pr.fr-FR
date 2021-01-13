@@ -1,8 +1,8 @@
 ---
 title: Table MonitoredUserSiteLink
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: La table MonitoredUserSiteLink est une table de prise en charge. Chaque enregistrement représente un lien entre deux sites d’utilisateurs.
-ms.openlocfilehash: 2cf229947da143fb01b3009020cfa432a4b558a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 88b4d385f3c96dc93a519274c584e1f99584982f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807792"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806354"
 ---
 # <a name="monitoredusersitelink-table"></a>Table MonitoredUserSiteLink
  
 La table MonitoredUserSiteLink est une table de prise en charge. Chaque enregistrement représente un lien entre deux sites d’utilisateurs.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**UserSite1Key** <br/> |int  <br/> |Etranger principal  <br/> |Fait référence à partir de la [table UserSite](usersite.md).  <br/> |
-|**UserSite2Key** <br/> |int  <br/> |Etranger principal  <br/> |Référence à partir de la [table UserSite](usersite.md).  <br/> |
+|**UserSite1Key** <br/> |int  <br/> |Primaire, étrangère  <br/> |Référencé à partir de [la table UserSite](usersite.md).  <br/> |
+|**UserSite2Key** <br/> |int  <br/> |Primaire, étrangère  <br/> |Référence à partir de [la table UserSite](usersite.md).  <br/> |
    
 

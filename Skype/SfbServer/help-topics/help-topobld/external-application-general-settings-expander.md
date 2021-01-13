@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux d’une application externe
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
-ms.openlocfilehash: 9a9ed62040724d08ebcd711551cd1ce6e831d683
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218135"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804764"
 ---
-# <a name="external-application-general-settings-expander"></a>Expanseur des paramètres généraux d’une application externe
+# <a name="external-application-general-settings-expander"></a>Expandeur des paramètres généraux d’une application externe
  
 Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
   
@@ -40,10 +40,10 @@ Sélectionnez **Activer la réplication des données de configuration sur ce poo
   
 ## <a name="next-hop-settings"></a>Paramètres du tronçon suivant
 
-Vous pouvez spécifier le serveur du tronçon suivant du pool de serveurs d’applications approuvées en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste déroulante. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
+Vous pouvez spécifier le serveur du saut suivant du pool de serveurs d’applications approuvé en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste liste. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
   
 
 
-Cliquez sur **OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.
+Cliquez **sur OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.
   
 

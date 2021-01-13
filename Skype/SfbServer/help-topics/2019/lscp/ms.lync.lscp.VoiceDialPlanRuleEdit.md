@@ -1,8 +1,8 @@
 ---
-title: Règle de normalisation création d’une nouvelle ou modification existante
+title: 'Règle de normalisation : création d’une règle ou modification d’une règle existante'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: b59ca267e29a31ab9e459782bfaac2eac53e120c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: c6d8026bf8f34fb7a55a9fc2fcc1bef05b9222c3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797841"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801334"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : en créer une autre ou en modifier une existante
+# <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : en créer une nouvelle ou en modifier une existant
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification d’une règle de normalisation dans Skype entreprise](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Créer ou modifier une règle de normalisation dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [Création ou modification manuelle d’une règle de normalisation](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [Créer ou modifier manuellement une règle de normalisation](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

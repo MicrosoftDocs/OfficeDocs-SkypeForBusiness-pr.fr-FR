@@ -1,8 +1,8 @@
 ---
 title: Définir une nouvelle jonction
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,32 +14,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour définir un nouveau Trunk SIP (Session Initiation Protocol), vous devez fournir les informations suivantes :'
-ms.openlocfilehash: 17f6b72f1234813e717cfc72be60bb5f0352134a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Vous définissez une nouvelle jonction (SIP) en fournissant les informations suivantes :'
+ms.openlocfilehash: db98c6d6f6aacf31b4e0b228dbe499f40ea01bdf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794313"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800894"
 ---
 # <a name="define-a-new-trunk"></a>Définir une nouvelle jonction
 
-Pour définir un nouveau Trunk SIP (Session Initiation Protocol), vous devez fournir les informations suivantes :
+Vous définissez une nouvelle jonction (SIP) en fournissant les informations suivantes :
 
-- **Nom du Trunk**: nom unique dans votre topologie qui identifie ce Trunk
+- **Nom de la jonction** : nom unique dans votre topologie qui identifiera cette jonction
 
-- **Passerelle RTC associée**: sélectionnez une passerelle PSTN déployée et configurée dans votre déploiement à partir de la liste.
+- **Passerelle PSTN associée** : sélectionnez dans la liste une passerelle PSTN déployée et configurée dans votre déploiement
 
-- **Port d’écoute pour la passerelle IP/PSTN**: port sur lequel le PBX IP ou la passerelle RTC écoutera. Doit être unique à partir de tous les autres ports d’écoute de Trunk configurés dans votre déploiement
+- **Port d’écoute pour la passerelle IP/PSTN** : port que le système IP-PBX ou la passerelle PSTN écoutera. Doit être différent de tous les autres ports d’écoute de jonction configurés dans votre déploiement
 
-- **Protocole de transport SIP**: effectuez une sélection dans la liste TCP ou TLS
+- **Protocole de transport SIP** : sélectionnez dans la liste soit TCP, soit TLS
 
-- **Serveur de médiation associé**: sélectionnez dans la liste un serveur de médiation déployé et configuré dans votre déploiement.
+- **Serveur de médiation associé**: sélectionnez dans la liste un serveur de médiation qui est déployé et configuré dans votre déploiement
 
-- **Port du serveur de médiation associé**: définissez la valeur de port égale à la valeur de port TCP ou TLS du serveur de médiation que ce Trunk SIP utilisera.
+- **Port du serveur** de médiation associé : définissez la valeur de port sur la valeur du port TCP ou TLS du serveur de médiation que cette trunk SIP utilisera
 
 ## <a name="see-also"></a>Voir aussi
 
-[M :N Trunk dans Skype entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[M:N trunk in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[Comment implémenter le trunking SIP ?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[Comment implémenter une trunking SIP ?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
