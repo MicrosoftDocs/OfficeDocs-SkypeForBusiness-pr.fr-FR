@@ -1,8 +1,8 @@
 ---
 title: Ajouter un tronçon suivant pour le serveur de médiation
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour définir le tronçon suivant d’un serveur de médiation que vous définissez, faites votre choix dans la liste déroulante de la liste déroulante de l’ensemble des tronçons du serveur Enterprise Edition Server ou Standard Edition Server qui fera office de tronçon suivant pour le serveur de médiation. Cliquez sur suivant pour continuer.
-ms.openlocfilehash: 08f3f94229131f10d4528e915888baf48bf2ba82
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour définir le saut suivant pour un serveur de médiation que vous définissez, sélectionnez, dans la liste de listes suivantes du pool du saut suivant, le serveur Enterprise Edition ou le serveur Standard Edition Server qui fera le saut suivant pour le serveur de médiation. Cliquez sur Suivant pour continuer.
+ms.openlocfilehash: a85a298d8cd607866a3e2893e74525272152ce8c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798481"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811524"
 ---
-# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="7b749-104">Ajouter un tronçon suivant pour le serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="7b749-104">Add Mediation Server NextHop</span></span>
+# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="994d4-104">Ajouter un tronçon suivant pour le serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="994d4-104">Add Mediation Server NextHop</span></span>
  
-<span data-ttu-id="7b749-105">Pour définir le tronçon suivant d’un serveur de médiation que vous définissez, faites votre choix dans la liste déroulante de la liste déroulante de l' **ensemble des tronçons** du serveur Enterprise Edition Server ou Standard Edition Server qui fera office de tronçon suivant pour le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="7b749-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="7b749-106">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="7b749-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="994d4-105">Pour définir le saut suivant pour un serveur de médiation que vous définissez, sélectionnez, dans la liste de listes suivantes du pool du **saut** suivant, le serveur Enterprise Edition ou le serveur Standard Edition Server qui fera le saut suivant pour le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="994d4-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="994d4-106">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="994d4-106">Click **Next** to continue.</span></span>
   
 
