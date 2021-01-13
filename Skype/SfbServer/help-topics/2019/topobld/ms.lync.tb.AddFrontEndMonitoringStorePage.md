@@ -1,8 +1,8 @@
 ---
 title: Page Ajouter un magasin d’analyse frontal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,40 +14,40 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour définir la gestion SQL Server Store, vous devez configurer les propriétés suivantes :'
-ms.openlocfilehash: 1d6e9d4bbc795707105a6282ac004dde5c264171
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Vous pouvez définir le magasin SQL Server pour la surveillance en configurant les propriétés suivantes :'
+ms.openlocfilehash: e867ec998e1380e70125d0ad743f83b06737758e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798531"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811664"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Page Ajouter un magasin d’analyse frontal
  
-Pour **définir la gestion SQL Server Store** , vous devez configurer les propriétés suivantes :
+Vous pouvez **définir le magasin SQL Server pour la surveillance** en configurant les propriétés suivantes :
   
-- **Surveiller SQL Server Store**: sélectionnez un nom de domaine complet SQL Server (et éventuellement une instance) dans la liste.
+- **Surveillance SQL Server magasin :** sélectionnez un SQL Server de domaine complet (et éventuellement une instance) dans la liste.
     
-    Cliquez sur **nouveau** pour créer une nouvelle définition de nom de domaine complet SQL Server et éventuellement sur un nom d’instance pour le magasin du serveur de surveillance.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin du serveur de surveillance.
     
-- Activez la case à cocher **activer la mise en miroir du magasin SQL Server** si vous souhaitez ajouter la mise en miroir de la base de données pour le serveur de surveillance.
+- Activez **la case à SQL Server la** mise en miroir du magasin si vous souhaitez ajouter la mise en miroir de base de données pour le serveur de surveillance.
     
-    Sélectionnez une **image miroir SQL Server Store** existante dans la liste.
+    Sélectionnez un **Miroir du magasin SQL Server de surveillance** existant dans la liste.
     
-    Cliquez sur **nouveau** pour créer une nouvelle définition de nom de domaine complet SQL Server et éventuellement sur le nom d’instance du magasin en miroir.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin miroir.
     
-- Si vous avez sélectionné **activer la mise en miroir du magasin SQL Server**, sélectionnez éventuellement **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** pour sélectionner un magasin témoin de mise en miroir SQL Server dans la liste.
+- Si vous avez sélectionné Activer la mise en **miroir** du magasin SQL Server, sélectionnez éventuellement Utiliser le témoin de mise en miroir **SQL Server** pour activer le fait de faire échouer automatiquement la sélection d’un magasin de témoins de mise en miroir SQL Server dans la liste.
     
-    Cliquez sur **nouveau** pour créer une nouvelle définition de nom de domaine complet SQL Server et éventuellement sur le nom d’instance du magasin témoin de mise en miroir.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin témoin de mise en miroir.
     
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   
-Cliquez sur **suivant** lorsque vous avez fini d’entrer les options de cette boîte de dialogue pour poursuivre la configuration.
+Après avoir défini les options de cette boîte de dialogue, cliquez sur **Suivant** pour poursuivre la configuration.
   
-Cliquez sur **Annuler** pour ignorer toutes les modifications et arrêter l’Assistant.
+Cliquez sur **Annuler** pour ignorer toutes les modifications et quitter l’Assistant.
   
-Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active.
+Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active, par exemple.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Associez un magasin d’analyse à un pool frontal dans Skype entreprise Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Associer un magasin d’analyse à un pool frontal dans Skype Entreprise Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

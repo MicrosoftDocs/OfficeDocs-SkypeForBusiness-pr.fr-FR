@@ -1,8 +1,8 @@
 ---
 title: Ajouter le nom du site de succursale
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
-description: 'Pour définir un nouveau site de succursale, spécifiez les éléments suivants :'
-ms.openlocfilehash: 0d94b426cf9b43819bedf45849d660fb6cacdf49
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Pour définir un nouveau site de succursale, spécifiez ce qui suit :'
+ms.openlocfilehash: d8416006b80bff3c146dd6a694e04bd6df2f9c99
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217358"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810344"
 ---
 # <a name="add-branch-site-name"></a>Ajouter le nom du site de succursale
 
-Pour définir un nouveau site de succursale, spécifiez les éléments suivants :
+Pour définir un nouveau site de succursale, spécifiez ce qui suit :
 
 Un nom pour le nouveau site de succursale. Le nom que vous choisissez doit être unique dans votre déploiement. Vous pouvez utiliser la convention d'affectation de noms de votre choix. En règle générale, les recommandations préconisent de mentionner la ville, le nom d'emplacement, le nom de succursale. La valeur du nom est une entrée obligatoire.
 

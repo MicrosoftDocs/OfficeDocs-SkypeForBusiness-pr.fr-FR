@@ -1,8 +1,8 @@
 ---
 title: Associer un pool frontal à un serveur d’archivage
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
-description: Chaque grappe frontale et chaque unité de branchement Survivable ne peut être associée qu’à un seul serveur d’archivage. Lorsque l’archivage est activé pour le site, le serveur d’archivage collecte et enregistre le contenu des messages instantanés et les conférences Web à partir de conversations, qui implique que les utilisateurs sont hébergés sur les listes associées et les appareils de succursales Survivables.
-ms.openlocfilehash: a372ef7cdb3bc94d9effac1fbea83b2db0de019e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Chaque pool frontal et serveur Survivable Branch Appliance ne peut être associé qu’à un seul serveur d’archivage. Une fois l’archivage activé pour le site, le serveur d’archivage collecte et enregistre le contenu des messages instantanés et des conférences web à partir des conversations impliquant les utilisateurs hébergés dans les pools et sur les Survivable Branch Appliances associés.
+ms.openlocfilehash: 544f1da8d69903209e44bdd4cbc378aa727c64f6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794012"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811454"
 ---
 # <a name="associate-front-end-with-archiving"></a>Associer un pool frontal à un serveur d’archivage
  
-Chaque grappe frontale et chaque unité de branchement Survivable ne peut être associée qu’à un seul serveur d’archivage. Lorsque l’archivage est activé pour le site, le serveur d’archivage collecte et enregistre le contenu des messages instantanés et les conférences Web à partir de conversations, qui implique que les utilisateurs sont hébergés sur les listes associées et les appareils de succursales Survivables. 
+Chaque pool frontal et serveur Survivable Branch Appliance ne peut être associé qu’à un seul serveur d’archivage. Une fois l’archivage activé pour le site, le serveur d’archivage collecte et enregistre le contenu des messages instantanés et des conférences web à partir des conversations impliquant les utilisateurs hébergés dans les pools et sur les Survivable Branch Appliances associés. 
   
-Toutes les listes sur un site et les pools de plusieurs sites centraux peuvent utiliser le même serveur d’archivage, si l’utilisation ne dépasse pas la capacité du serveur d’archivage. 
+Tous les pools d’un site et les pools de sites centraux multiples peuvent utiliser le même serveur d’archivage, si l’utilisation ne dépasse pas la capacité du serveur d’archivage. 
   
 

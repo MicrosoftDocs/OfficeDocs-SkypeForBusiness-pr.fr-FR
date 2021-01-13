@@ -1,8 +1,8 @@
 ---
 title: Détails de la table des serveurs de conversation permanente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-description: Les rubriques suivantes décrivent en détail les colonnes dans chaque table de schéma de base de données de chat permanent.
-ms.openlocfilehash: f9dbc6a4633b48c384cbea36eaffb3c7f1d074f8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les rubriques suivantes détaillent les colonnes dans chacune des tables de schéma de base de données de conversation permanente.
+ms.openlocfilehash: 71cec482d5b799eefc1817b84993a9fbe3ca884a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814732"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812994"
 ---
 # <a name="persistent-chat-server-table-details"></a>Détails de la table des serveurs de conversation permanente
  
-Les rubriques suivantes décrivent en détail les colonnes dans chaque table de schéma de base de données de chat permanent.
+Les rubriques suivantes détaillent les colonnes dans chacune des tables de schéma de base de données de conversation permanente.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 

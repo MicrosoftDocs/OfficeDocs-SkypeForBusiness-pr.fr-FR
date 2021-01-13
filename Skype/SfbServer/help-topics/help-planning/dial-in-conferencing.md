@@ -1,8 +1,8 @@
 ---
 title: Dial-in Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,20 +15,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Les conférences rendez-vous Skype entreprise Server 2015 permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server 2015 à l’aide d’un téléphone réseau téléphonique commuté (PSTN) sans nécessiter un fournisseur de services d’audioconférence tiers.
-ms.openlocfilehash: d8a812cac494d14f353207ac28e06ffac7ecef1b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Entreprise Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.
+ms.openlocfilehash: 4b14193144dc8f1323fbc8ccdebf08409a8cfdaa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821526"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810564"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  
-Les conférences rendez-vous Skype entreprise Server 2015 permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server 2015 à l’aide d’un téléphone réseau téléphonique commuté (PSTN) sans nécessiter un fournisseur de services d’audioconférence tiers.
+Skype Entreprise Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.
   
-Pour des informations sur la planification de l’activation de la conférence rendez-vous dans votre organisation, consultez la rubrique suivante et les rubriques auxquelles elle renvoie : 
+Pour plus d’informations sur la planification de l’activation de la conférence rendez-vous pour votre organisation, consultez les rubriques suivantes et les rubriques vers qui il est lié : 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planifier la conférence dans Skype Entreprise Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

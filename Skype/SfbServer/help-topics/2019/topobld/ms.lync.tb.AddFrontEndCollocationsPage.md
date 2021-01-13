@@ -1,8 +1,8 @@
 ---
 title: Ajouter des colocalisations du serveur frontal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également collocate du serveur de médiation sur le pool frontal ou vous pouvez le déployer en tant que serveur autonome. Le service de conférence A/V est toujours localisé si la Conférence est activée.
-ms.openlocfilehash: f651a206529ee968fc32bf86b6314c004f82c3bd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou le déployer comme un serveur autonome. Le service de conférence A/V est toujours colocalisé si la conférence est activée.
+ms.openlocfilehash: 8dd984f52740d38689ec123cc51e5cdb2901f440
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794883"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811724"
 ---
 # <a name="add-front-end-server-collocations"></a>Ajouter des colocalisations du serveur frontal
 
-Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également collocate du serveur de médiation sur le pool frontal ou vous pouvez le déployer en tant que serveur autonome. Le service de conférence A/V est toujours localisé si la Conférence est activée.
+Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou le déployer comme un serveur autonome. Le service de conférence A/V est toujours colocalisé si la conférence est activée.
 
 > [!NOTE]
-> Un service de conférence A/V est requis si la **Conférence** est sélectionnée dans la page **Sélectionner des fonctionnalités** . Un pool frontal Enterprise Edition utilise un service de conférence A/V colocalisé. Si l’option conférences n’a pas été sélectionnée, le service de conférence A/V Collocate ne sera pas disponible.
+> Un service de conférence A/V est nécessaire si **Conférence** a été sélectionné dans la page **Sélectionner les fonctionnalités**. Un pool frontal Enterprise Edition utilise un service de conférence A/V colocalisé. Si Conférence n’était pas sélectionné, l’option Colocaliser le service de conférence A/V ne sera pas disponible.
 
-Vous pouvez collocate le rôle de serveur de médiation sur un pool frontal Standard Edition Server ou Enterprise Edition. Si vous déployez des connexions SIP directes vers une passerelle de réseau téléphonique commuté (PSTN) qui prend en charge la fonctionnalité de contournement du contenu multimédia et l’équilibrage de charge DNS (Domain Name System), il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonome. Il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonomes, car les passerelles qualifiées sont en mesure d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool. Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie :
+Vous pouvez céquequer le rôle serveur de médiation sur un serveur frontal Standard Edition ou un pool frontal Enterprise Edition. Si vous déployez des connexions SIP directes sur une passerelle de réseau téléphonique commuté (PSTN) qualifiée qui prend en charge le contournement de média et l’équilibrage de charge DNS (Domain Name System), un pool de serveurs de médiation autonome n’est pas nécessaire. Si vous déployez des connexions Direct SIP sur une passerelle multimédia PSTN qualifiée prenant en charge le contournement du média et l‘équilibrage de charge DNS, un pool de serveurs de médiation autonome n‘est pas nécessaire, car les passerelles qualifiées sont capables d‘effectuer l‘équilibrage de charge DNS sur un pool de serveurs de médiation et recevoir du trafic provenant d‘un des serveurs du pool. Nous vous recommandons également de céqueifier le serveur de médiation sur un pool frontal lorsque vous avez déployé IP-PBXs ou de vous connecter au contrôleur SBC (Session Border Controller) d’un fournisseur de serveur de téléphonie Internet, à condition que l’une des conditions suivantes soit remplie :
 
-- Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
+- Le système IP-PBX ou le contrôleur SBC est configuré pour recevoir du trafic de n’importe quel serveur de médiation du pool et peut acheminer les données de ce trafic de manière uniforme sur tous les serveurs de médiation du pool.
 
-- Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
+- Le système IP-PBX ou le contrôleur SBC est configuré pour recevoir du trafic de n’importe quel serveur de médiation du pool et peut acheminer les données de ce trafic de manière uniforme sur tous les serveurs de médiation du pool.
 
-Vous pouvez utiliser l’outil de planification pour déterminer si le pool frontal sur lequel vous voulez collocate le serveur de médiation peut gérer le chargement. Si votre environnement ne peut pas répondre à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
+Vous pouvez utiliser l’outil de planification pour évaluer si le pool frontal sur lequel vous souhaitez céqueriser le serveur de médiation peut gérer la charge. Si votre environnement ne satisfait pas les conditions requises, vous devez déployer un pool de serveurs de médiation autonome.
 
-En règle générale, la colocalisation du serveur de médiation n’est pas recommandée si votre organisation a des exigences de disponibilité élevée et de mise à l’échelle. Pour plus d’informations sur collocating ces rôles de serveur dans un pool frontal dans un déploiement Enterprise Edition, voir [définir et configurer un pool frontal](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement. Pour plus d’informations sur les composants et la fonctionnalité de conférence A/V, voir [planification des conférences](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) dans la documentation de planification. Pour plus d’informations sur les fonctionnalités et les composants voix d’entreprise, notamment sur les serveurs de médiation, voir [plan pour Enterprise Voice dans Skype entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) dans la documentation de planification.
+En règle générale, la colocalisation du serveur de médiation n’est pas recommandée si votre organisation a des exigences élevées en matière de disponibilité et d’extensibilité. Pour plus d’informations sur la colocalisation de ces rôles serveur dans un pool frontal dans un déploiement Enterprise Edition, voir [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement. Pour plus d’informations sur la fonction de conférence A/V et ses composants, voir [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) dans la documentation de déploiement. Pour plus d’informations sur Voix Entreprise et les composants, y compris le serveur de médiation, voir [Plan for Voix Entreprise in Skype for Business Server in](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) the Planning documentation.
 
 

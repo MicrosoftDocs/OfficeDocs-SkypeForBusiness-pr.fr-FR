@@ -1,8 +1,8 @@
 ---
 title: Parcage d’appel
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,50 +14,50 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
-description: Lorsqu’un appel est engagé, il est transféré vers un numéro temporaire pour lequel l’appel est maintenu jusqu’à ce qu’une personne le récupère ou qu’il arrive à expiration. Vous devez configurer un tableau avec les plages de numéros d’extension que vous réservez pour les appels en stationnement. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est affecté). Chaque liste qui exécute l’application de parc d’appels peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
-ms.openlocfilehash: 7f4a660c3fdd1dbba5080b93bec0aac116d453ea
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Lorsqu’un appel est paré, il est transféré vers un numéro temporaire où l’appel est maintenu jusqu’à ce que quelqu’un le récupère ou qu’il n’sorte pas. Vous devez configurer un tableau avec les plages de numéros de poste que vous réservez pour les appels par parcés. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est assigné). Chaque pool qui exécute l’application de parcage d’appel peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
+ms.openlocfilehash: 679e13cdeb6ef6cf614f5703f5711e86fa1c8c59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797811"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812164"
 ---
-# <a name="call-park"></a>parcage d’appel
+# <a name="call-park"></a>Parcage d’appel
 
-Lorsqu’un appel est engagé, il est transféré vers un numéro temporaire pour lequel l’appel est maintenu jusqu’à ce qu’une personne le récupère ou qu’il arrive à expiration. Vous devez configurer un tableau avec les plages de numéros d’extension que vous réservez pour les appels en stationnement. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est affecté). Chaque liste qui exécute l’application de parc d’appels peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
+Lorsqu’un appel est paré, il est transféré vers un numéro temporaire où l’appel est maintenu jusqu’à ce que quelqu’un le récupère ou qu’il n’sorte pas. Vous devez configurer un tableau avec les plages de numéros de poste que vous réservez pour les appels par parcés. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est assigné). Chaque pool qui exécute l’application de parcage d’appel peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
 
-La page de **parc d’appels** affiche la liste de toutes les plages de numéros de parking définis pour votre organisation.
+La page **Parcer** des appels affiche la liste de toutes les plages de numéro de parc d’appel définies pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Parcage d’appel**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes dans la page **Parcage d’appel** :
 
-- Création d’une plage de numéros
+- Créer une nouvelle plage de numéros
 
-- Modification d’une plage de numéros existante
+- Modifier une plage de numéros existante
 
-- Suppression d’une plage de numéros
+- Supprimer une plage de numéros
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste ci-dessous décrit les commandes de la page.
+La liste suivante décrit les commandes de la page.
 
-- **Nouvelle** Lance une nouvelle plage de numéros de parc d’appels.
+- **Nouveau** Démarre une nouvelle plage de numéro de parcier d’appel.
 
-- **Modifier** Ouvre la plage de nombres sélectionnée pour modification, sélectionne toutes les plages de nombres de la liste, ou supprime la plage de nombres sélectionnée.
+- **Modifier** Ouvre la plage de nombres sélectionnée pour modification, sélectionne toutes les plages de numéro dans la liste ou supprime la plage de nombres sélectionnée.
 
-- **Actualiser** Actualise la liste de plages de nombres.
+- **Actualiser** Actualise la liste des plages de nombres.
 
-La liste ci-dessous décrit les champs de la page.
+La liste suivante décrit les champs de la page.
 
-- **Nom** Nom unique identifiant la plage de nombres.
+- **Nom** Nom unique qui identifie la plage de nombres.
 
-- **Plage de début** Le nombre de début de la plage.
+- **Plage de début** Numéro de début de la plage.
 
-- **Plage de fin** Le numéro de fin de la plage.
+- **Plage de fin** Numéro de fin de la plage.
 
-- **Destination (destination** ) Nom de domaine complet (FQDN) ou ID de service du service d’application qui héberge l’application de parc d’appels pour la plage de nombres.
+- **Destination** Nom de domaine complet (FQDN) ou ID de service du service d’application qui héberge l’application de parcage d’appel pour la plage de numéro.
 
-Pour plus d’informations sur les fonctionnalités et les fonctionnalités de stationnement d’appels, reportez-vous à la rubrique [planification du parc d’appels dans Skype entreprise](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Pour plus d’informations sur l’utilisation des plages de numéros de parc d’appels, voir [configurer les extensions de numéro de téléphone pour les appels en stationnement](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
+Pour plus d’informations sur les fonctionnalités et fonctionnalités de parcier d’appel, voir [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Pour plus d’informations sur l’working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
 
 

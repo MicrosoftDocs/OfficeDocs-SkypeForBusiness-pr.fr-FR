@@ -1,8 +1,8 @@
 ---
 title: Ajouter la passerelle PSTN pour le Survivable Branch Appliance
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,31 +14,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour définir la passerelle RTC (réseau téléphonique commuté) pour une branche Survivable sur un site de succursale, spécifiez les éléments suivants :'
-ms.openlocfilehash: da6a87bf3a4e68f88ef47c7ea4dd31ac544350eb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Pour définir la passerelle de réseau téléphonique commuté (PSTN) pour un Survivable Branch Appliance sur un site de succursale, spécifiez les éléments suivants :'
+ms.openlocfilehash: 30b5922e3d18b4dfe57bef23ddb0f00a25df7f9f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796655"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811944"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Ajouter la passerelle PSTN pour le Survivable Branch Appliance
  
-Pour définir la passerelle RTC (réseau téléphonique commuté) pour une branche Survivable sur un site de succursale, spécifiez les éléments suivants : 
+Pour définir la passerelle de réseau téléphonique commuté (PSTN) pour un Survivable Branch Appliance sur un site de succursale, spécifiez les éléments suivants : 
   
-- Le nom de domaine complet (FQDN) ou l’adresse IP de l’homologue de la passerelle qui est associé à l’unité de messagerie ou au serveur de succursales survivant est associé pour le routage des appels RTC entrants et sortants.
+- Un nom de domaine complet (FQDN) ou une adresse IP pour l’homologue de passerelle qui est associé au Survivable Branch Appliance ou au serveur Survivable Branch Server pour le routage des appels PSTN entrants et sortants.
     
     > [!IMPORTANT]
-    > S’il s’agit de la définition d’une unité de branchement survivant, il s’agit de la passerelle à laquelle le serveur de médiation de l’appareil de branchement survivant se connecte pour la connectivité PSTN. 
+    > Si vous définissez un Survivable Branch Appliance, il s’agit de la passerelle à laquelle le serveur de médiation qui se trouve à l’intérieur du Survivable Branch Appliance se connectera pour la connectivité PSTN. 
   
-- Le port d’écoute à utiliser pour les messages SIP (Session Initiation Protocol). Par défaut, il s’agit des ports 5066 pour le protocole TCP (Transmission Control Protocol) et 5067 pour le protocole TLS (Transport Layer Security) sur une passerelle, un PBX (Private Branch Exchange) ou un contrôleur SBC. Sur un Survivable Branch Appliance sur un site de succursale, les ports par défaut sont le port 5081 pour le protocole TCP et le port 5082 pour le protocole TLS.
+- Le port d’écoute à utiliser pour les messages SIP (Session Initiation Protocol). Par défaut, il s’agit des ports 5066 pour TCP (Transmission Control Protocol) et 5067 pour TLS (Transport Layer Security) sur une passerelle, un PBX (Private Branch Exchange) ou un contrôleur SBC. Sur un Survivable Branch Appliance sur un site de succursale, les ports par défaut sont 5081 pour TCP et 5082 pour TLS.
     
-- Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser le protocole TLS. Si vous définissez une application branche Survivable, consultez la documentation fournie par le fabricant de votre appareil pour vérifier que votre application de branchement Survivable prend en charge le protocole TLS.
+- Pour des raisons de sécurité, nous vous recommandons fortement d’utiliser TLS. Si vous définissez un Survivable Branch Appliance, consultez la documentation du fournisseur de votre Survivable Branch Appliance pour vérifier que ce dernier prend en charge le protocole TLS.
     
     > [!IMPORTANT]
-    > Pour des raisons de sécurité, nous vous recommandons vivement de déployer une passerelle pouvant utiliser le protocole TLS. 
+    > Pour des raisons de sécurité, nous vous recommandons fortement de déployer une passerelle pouvant utiliser TLS. 
   
 > [!NOTE]
-> Si vous souhaitez ajouter une passerelle RTC, vous pouvez la configurer ultérieurement, mais son fonctionnement reste limité tant qu’elle n’a pas été définie et configurée. 
+> Si vous souhaitez ajouter une passerelle PSTN, vous pouvez la configurer ultérieurement, mais son fonctionnement reste limité tant qu’elle n’a pas été définie et configurée. 
   
 

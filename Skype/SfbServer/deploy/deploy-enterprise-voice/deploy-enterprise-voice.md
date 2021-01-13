@@ -1,8 +1,8 @@
 ---
-title: Déploiement de voix entreprise dans Skype entreprise Server
+title: Déployer Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,52 +15,52 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: 'Résumé : Découvrez comment déployer Enterprise Voice pour Skype entreprise Server sur un site central.'
-ms.openlocfilehash: 1b1b1d0f79d1730bd491314f4f4e97b43b0acb62
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Découvrez comment déployer Voix Entreprise pour Skype Entreprise Server sur un site central.'
+ms.openlocfilehash: 246c1e5c03401b885b297ada08677fb40faad60d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767547"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812494"
 ---
-# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Déploiement de voix entreprise dans Skype entreprise Server
+# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Déployer Voix Entreprise dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment déployer Enterprise Voice pour Skype entreprise Server sur un site central.
+**Résumé :** Découvrez comment déployer Voix Entreprise pour Skype Entreprise Server sur un site central.
 
-Utilisez cette rubrique pour déployer Enterprise Voice sur un site central. Pour déployer Enterprise Voice sur une succursale, passez à la partie [déploiement de sites de succursales](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
+Utilisez cette rubrique pour déployer des Voix Entreprise sur un site central. Pour déployer Voix Entreprise site de succursale, passez [au déploiement des sites de succursale.](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)
 
-Cette section contient des procédures pour les déploiements dans lesquels un serveur de médiation est colocalisé sur chaque serveur frontal ou serveur Standard Edition, selon les recommandations et également pour les déploiements avec un pool de serveurs de médiation autonome. Vous pouvez ignorer le contenu suivant si vous avez utilisé le générateur de topologie pour définir et publier une topologie qui collocates un serveur de médiation sur chaque serveur frontal ou serveur Standard Edition, car l’Assistant déploiement a déjà installé automatiquement les fichiers pour Serveur de médiation lors de l’installation de fichiers pour votre pool de serveurs principal ou votre serveur Standard Edition :
+Cette section comprend des procédures pour les déploiements dans lesquels un serveur de médiation est coqueté sur chaque serveur frontal ou serveur Standard Edition Server, comme recommandé, ainsi que pour les déploiements avec un pool de serveurs de médiation autonome. Vous pouvez ignorer le contenu suivant si vous avez utilisé le Générateur de topologie pour définir et publier une topologie qui colocate un serveur de médiation sur chaque serveur frontal ou serveur Standard Edition Server, car l’Assistant Déploiement a déjà installé automatiquement les fichiers pour le serveur de médiation lorsque vous avez installé des fichiers pour votre pool de serveurs frontaux ou votre serveur Standard Edition Server :
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Conditions préalables à la sécurité et à la configuration d’Enterprise voix dans Skype entreprise Server](enterprise-voice-security.md)
+- [Conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server](enterprise-voice-security.md)
 
-- [Déploiement d’un serveur de médiation dans le générateur de topologies dans Skype entreprise Server](deploy-a-mediation-server.md)
+- [Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server](deploy-a-mediation-server.md)
 
-- [Définir une passerelle dans le générateur de topologies dans Skype entreprise Server](define-a-gateway.md)
+- [Définir une passerelle dans le Générateur de topologies dans Skype Entreprise Server](define-a-gateway.md)
 
-- [Définition de lignes supplémentaires dans le générateur de topologies de Skype entreprise Server](define-additional-trunks.md)
+- [Définir des branches supplémentaires dans le Générateur de topologies dans Skype Entreprise Server](define-additional-trunks.md)
 
-- [Installer les fichiers du serveur de médiation dans Skype entreprise Server](install-mediation-server.md)
+- [Installer les fichiers pour le serveur de médiation dans Skype Entreprise Server](install-mediation-server.md)
 
-- [Configuration de Trunks dans Skype entreprise Server](configure-trunks.md)
+- [Configurer des trunks dans Skype Entreprise Server](configure-trunks.md)
 
-- [Création ou modification d’une règle de traduction pour une présentation d’identification d’appelant dans Skype entreprise Server](caller-id-presentation-rules.md)
+- [Créer ou modifier une règle de traduction pour la présentation de l’ID d’appelant dans Skype Entreprise Server](caller-id-presentation-rules.md)
 
-- [Création ou modification d’une règle de traduction pour appeler une présentation dans Skype entreprise Server](called-id-presentation-rules.md)
+- [Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server](called-id-presentation-rules.md)
 
-- [Création ou modification d’une règle de normalisation dans Skype entreprise](normalization-rules.md)
+- [Créer ou modifier une règle de normalisation dans Skype Entreprise](normalization-rules.md)
 
-- [Création ou modification d’un plan de numérotation dans Skype entreprise Server](dial-plans.md)
+- [Créer ou modifier un plan de numérotation dans Skype Entreprise Server](dial-plans.md)
 
-- [Configuration des stratégies de voix, des enregistrements d’utilisation RTC et des itinéraires vocaux dans Skype entreprise](voice-and-pstn.md)
+- [Configurer des stratégies de voix, des enregistrements d’utilisation PSTN et des itinéraires de voix dans Skype Entreprise](voice-and-pstn.md)
 
-- [Activer les utilisateurs pour voix entreprise dans Skype entreprise Server](enable-users-for-enterprise-voice.md)
+- [Activer les utilisateurs Voix Entreprise dans Skype Entreprise Server](enable-users-for-enterprise-voice.md)
 
-- [Déploiement de fonctionnalités avancées d’entreprise voix dans Skype entreprise Server](deploy-advanced-enterprise-voice-features.md)
+- [Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server](deploy-advanced-enterprise-voice-features.md)
 
-- [Déploiement de fonctionnalités de gestion des appels dans Skype entreprise](deploy-call-management-features.md)
+- [Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise](deploy-call-management-features.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier l’entreprise voix dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+[Planifier la Voix Entreprise dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
