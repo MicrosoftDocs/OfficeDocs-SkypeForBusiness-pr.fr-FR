@@ -1,14 +1,14 @@
 ---
 title: Configurer la fonctionnalité M’appeler pour vos utilisateurs
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: macai, phedry
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Découvrez comment configurer la fonctionnalité m’appeler dans teams pour permettre aux utilisateurs d’accéder à la partie audio par téléphone lors de l’utilisation de leur ordinateur pour le son.
+description: Découvrez comment configurer la fonctionnalité M’appeler dans Teams afin que les utilisateurs ne peuvent pas rejoindre la partie audio par téléphone lorsqu’ils utilisent leur ordinateur pour l’audio.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -17,60 +17,60 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 6b78edc01f68df19e850a85eb0ffa99163b9edae
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138014"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821094"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
-Dans Microsoft Teams, la fonctionnalité **m’appeler** permet aux utilisateurs d’accéder à la partie audio d’une réunion par téléphone. C’est pratique dans les situations où l’utilisation d’un ordinateur pour l’audio peut ne pas être possible. Les utilisateurs peuvent accéder à la partie audio de la réunion par le biais du téléphone portable ou de la ligne fixe et de la partie du contenu de la réunion &mdash; , par exemple lorsqu’un autre participant à une réunion partage son écran ou lit une vidéo &mdash; par le biais de leur ordinateur.
+Dans Microsoft Teams, la fonctionnalité **M’appeler** permet aux utilisateurs de rejoindre la partie audio d’une réunion par téléphone. Cela est utile dans les cas où l’utilisation d’un ordinateur pour l’audio n’est peut-être pas possible. Les utilisateurs peuvent obtenir la partie audio de la réunion via leur téléphone portable ou leur ligne téléphonique ainsi que la partie contenu de la réunion, par exemple lorsqu’un autre participant partage son écran ou lit une vidéo sur leur &mdash; &mdash; ordinateur.
 
 > [!IMPORTANT]
 > 
-> Pendant les périodes de forte réunion (que nous avons rencontrées en conjonction avec l’COVID-19), nous recommandons aux utilisateurs de participer à des réunions en cliquant sur le bouton participer à la <strong>réunion</strong> et en utilisant <strong>appeler à</strong>. Cela permet de garantir une qualité audio optimale lorsque le volume de la réunion est à l’origine du congestion du réseau PSTN. 
+> Pendant les périodes de forte affluence de réunions (que nous avons connues en liaison avec l'épidémie COVID-19), il est recommandé aux utilisateurs de rejoindre les réunions en cliquant sur le bouton <strong>Rejoindre une réunion Teams</strong> plutôt que de se connecter en utilisant les numéros de conférence RTC ou l’option <strong>M’appeler au</strong>. Cela contribuera à garantir la qualité audio pendant les heures au cours desquelles le grand nombre de réunions entraîne une congestion du réseau PSTN. 
 
 > [!IMPORTANT]
 > Pendant la durée de l’épidémie COVID-19, il est recommandé aux utilisateurs de rejoindre les réunions en cliquant sur le bouton **Rejoindre une réunion Teams** plutôt que de se connecter en utilisant les numéros de conférence RTC ou l’option **M’appeler au**</strong>. Cela est principalement dû à l’encombrement des infrastructures téléphonique des pays touchés par le COVID-19. En évitant les appels RTC, vous bénéficierez probablement d’une meilleure qualité audio. 
 
-## <a name="the-user-experience"></a>L’interface utilisateur
+## <a name="the-user-experience"></a>Expérience utilisateur
 
-### <a name="join-a-meeting-by-using-phone-for-audio"></a>Participer à une réunion à l’aide du téléphone pour le son
+### <a name="join-a-meeting-by-using-phone-for-audio"></a>Participer à une réunion en utilisant un téléphone pour le son
 
-Cliquez sur **rejoindre** pour participer à une réunion, puis cliquez sur **audio du téléphone** dans l’écran **choisir vos paramètres audio et vidéo** . À partir de là, les utilisateurs peuvent participer à la réunion et les rejoindre manuellement.
+Cliquez **sur** Rejoindre pour participer à une réunion, puis sur **Audio** sur l’écran Choisir vos  **paramètres audio et** vidéo. À partir de là, les utilisateurs peuvent avoir l’appel de réunion et les rejoindre, ou se joindre manuellement à la réunion.
 
-![Capture d’écran de l’option audio du téléphone](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![Capture d’écran de l’option Audio du téléphone](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
-**Permettre à la réunion teams d’appeler**
+**Laisser la réunion Teams appeler**
 
-Sur l’écran **utiliser le téléphone pour l’audio** , l’utilisateur entre son numéro de téléphone, puis clique sur **m’appeler**. La réunion appelle l’utilisateur et l’associe à la réunion.
+Sur **l’écran Utiliser le téléphone pour l’audio,** l’utilisateur entre son numéro de téléphone, puis clique sur **M’appeler.** La réunion appelle l’utilisateur et l’intègre à la réunion.
 
-![Capture d’écran de l’option m’appeler sur l’écran utiliser le téléphone pour l’audio](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![Capture d’écran de l’option M’appeler sur l’écran Utiliser le téléphone pour l’audio](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
-**Composer manuellement**
+**Se composer manuellement**
 
-Une autre méthode consiste à se connecter directement à la réunion. Sur l’écran **utiliser le téléphone pour l’audio** , cliquez sur **composer manuellement** pour obtenir la liste des numéros de téléphone à utiliser pour vous connecter à la réunion.
+Vous pouvez également rejoindre la réunion par numérotation directe. Dans **l’écran Utiliser le téléphone pour la partie audio,** cliquez sur Composer manuellement pour obtenir la liste des numéros de téléphone à utiliser pour se rendre à la réunion. 
 
-![Capture d’écran de l’option composer en manuel](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![Capture d’écran de l’option Composer manuellement](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
-### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>Recevez un appel en cas de problème de l’audio pendant une réunion
+### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>Recevez un appel en cas de problème audio pendant une réunion
 
-Si un utilisateur rencontre des problèmes audio lors de l’utilisation de son ordinateur au cours d’une réunion, l’utilisateur peut facilement basculer vers son téléphone pour l’audio. Teams détecte l’affichage d’un problème audio ou de périphérique, et redirige l’utilisateur pour qu’il utilise son téléphone en affichant une option **me rappeler** .
+Si un utilisateur rencontre des problèmes audio lors de l’utilisation de son ordinateur au cours d’une réunion, il peut facilement passer à son téléphone pour l’audio. Teams détecte un problème audio ou d’appareil et redirige l’utilisateur vers son téléphone en affichant une option **Me** rappeler.
 
-Voici un exemple de message et l’option **retour m’appeler** qui s’affiche lorsque Microsoft Teams ne détecte pas de micro.
+Voici un exemple du message  et de l’option Me rappeler qui s’affiche lorsque Teams ne détecte pas de microphone.
 
-![Capture d’écran de l’option me rappeler](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![Capture d’écran de l’option Me rappeler](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-L’utilisateur clique sur **me**rappeler, ce qui fait apparaître l’écran **utiliser le téléphone pour l’audio** . À partir de cet emplacement, ils peuvent entrer leur numéro de téléphone et participer à la réunion teams et les rejoindre manuellement.
+L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran Utiliser **le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone, lancer l’appel de la réunion Teams et le joindre à la réunion ou se joindre manuellement à la réunion.
 
-## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité m’appeler
+## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité M’appeler
 
-Pour activer la fonctionnalité appeler pour les utilisateurs de votre organisation, les informations suivantes doivent être configurées :
+Pour activer la fonctionnalité M’appeler pour les utilisateurs de votre organisation, les configurations suivantes doivent être configurées :
 
-- L’option audioconférence est activée pour les utilisateurs de votre organisation qui planifient des réunions (organisateurs de la réunion). Pour en savoir plus, consultez la rubrique [configurer l’audioconférence pour les équipes](set-up-audio-conferencing-in-teams.md) et [gérer les paramètres de l’audioconférence pour un utilisateur dans teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
+- L’audioconférence est activé pour les utilisateurs dans votre organisation qui planifier des réunions (organisateurs de réunions). Pour en savoir plus, consultez Configurer l’audioconférence pour [Teams](set-up-audio-conferencing-in-teams.md) et gérer les paramètres d’audioconférence pour [un utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-- Les utilisateurs peuvent se connecter aux réunions. Pour en savoir plus, voir [gérer les paramètres d’audioconférence pour un utilisateur dans teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
+- Les utilisateurs peuvent appeler à partir des réunions. Pour en savoir plus, [consultez Gérer les paramètres d’audioconférence d’un utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-Si un utilisateur n’a pas accès à la Conférence rendez-vous pour les réunions activées, l’option **m’appeler** n’est pas disponible et l’utilisateur ne reçoit pas d’appel pour le joindre à la réunion. Au lieu de cela, l’utilisateur voit la liste des numéros de téléphone de l’écran **utiliser le téléphone pour l’audio** qu’il peut utiliser pour se connecter manuellement à la réunion sur son téléphone.
+Si un utilisateur n’a pas activé les  appels sortants des réunions, l’option M’appeler n’est pas disponible et l’utilisateur ne recevra pas d’appel pour participer à la réunion. À la place, l’utilisateur voit sur l’écran Utiliser le téléphone pour **l’audio** une liste qui lui permet de se composer manuellement de la réunion sur son téléphone.

@@ -1,13 +1,13 @@
 ---
-title: Première réunion-Microsoft teams
-author: lanachin
-ms.author: v-lanac
+title: Réunion en premier - Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: francoid
-description: Apprenez d’abord sur les réunions, pour permettre aux utilisateurs de créer leur réunion dans Teams, tout en continuant à utiliser Skype entreprise pour la messagerie instantanée, les appels et la présence.
+description: Découvrez tout d’abord les réunions dans laquelle les utilisateurs peuvent créer leurs réunions dans Teams, tout en continuant à utiliser Skype Entreprise pour les discussions, les appels et la présence.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,106 +19,106 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809504"
 ---
 # <a name="meetings-first"></a>Commencer par les réunions
 
-« Les réunions d’abord » est ciblée et optimisée pour les organisations de serveurs Skype entreprise sur site qui souhaitent commencer à utiliser les réunions d’équipes le plus rapidement possible. Pour ces organisations, d’abord les réunions sont une alternative à l’utilisation du mode **îlot** qui accorde la priorité à l’utilisation des réunions Teams.
+La fonction « Réunions en premier » est ciblée et optimisée pour les organisations Skype Entreprise Server ayant des Voix Entreprise locales qui souhaitent commencer à utiliser les réunions Teams aussi rapidement que possible. Pour ces organisations, l’option Réunions en premier est une alternative à l’utilisation du mode **Îles** qui donne la priorité à l’expérience de réunions Teams.
 
-## <a name="what-is-meetings-first"></a>Qu’est-ce que les réunions d’abord ?
+## <a name="what-is-meetings-first"></a>Qu’est-ce que l’étape Réunions en premier ?
 
-Les réunions sont d’abord basées sur le mode de coexistence **SfBWithTeamsCollabAndMeetings** . Les réunions ne sont pas des produits ou des fonctionnalités : il s’agit d’une configuration qui exploite les fonctionnalités d’équipes et de Skype entreprise pour proposer une interface de coexistence unique et personnalisée.
+Les réunions sont basées sur le mode de coexistence **SfBWithTeamsCollabAndMeetings.** L’option Réunions en premier n’est pas un produit ni une fonctionnalité. Il s’agit d’une configuration qui tire parti des fonctionnalités de Teams et de Skype Entreprise pour offrir une expérience de coexistence personnalisée.
 
-Pour commencer, les utilisateurs créent leur réunion dans Teams, tout en continuant à utiliser Skype entreprise pour la messagerie instantanée, les appels et la présence. Il n’y a pas de chevauchements de modalités entre teams et Skype entreprise. Les discussions, appels et présence sont activés dans Skype entreprise et désactivés dans Teams. Cela permet de mettre en place des scénarios « réunis » uniques entre Skype entreprise et teams qui améliorent l’expérience utilisateur pendant la coexistence, ainsi que des scénarios d’interopérabilité avec les utilisateurs de **teams uniquement** .
+Dans Réunions, les utilisateurs créent d’abord leurs réunions dans Teams, tout en continuant à utiliser Skype Entreprise pour les discussions, les appels et la présence. Il n’existe aucun chevauchement des qualités entre Teams et Skype Entreprise. Les discussions, les appels et la présence sont en cours dans Skype Entreprise et sont en cours dans Teams. Cela permet des scénarios uniques de « meilleur ensemble » entre Skype Entreprise et Teams qui améliorent l’expérience de l’utilisateur lors de la coexistence, ainsi que des scénarios d’interopérabilité avec les utilisateurs de **Teams uniquement.**
 
-![Capture d’écran illustrant un scénario de meilleure collaboration avec teams et Skype entreprise](media/meetings-first-meeting-in-meeting.png)
+![Capture d’écran du scénario Meilleur ensemble avec Teams et Skype Entreprise](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
-> Les réunions sont d’abord plus adaptées aux organisations qui n’ont pas le plus d’utilisateurs de chat en équipe actif. Discussions d’équipes actives les utilisateurs ne doivent pas être basculés vers le premier mode réunions, car ils perdront la possibilité de discuter en équipe et d’accéder à leur historique des conversations. Ces utilisateurs doivent être précédés du mode **îlot** , et les réunions sont d’abord accordées uniquement aux utilisateurs qui ne sont pas encore actives dans la conversation dans Teams.
+> Réunions Constitue un meilleur point de départ pour les organisations qui n’ont pas ou peu d’utilisateurs actifs de la conversation Teams. Les utilisateurs d’une conversation Teams actives ne doivent pas passer en mode Réunions en premier, car ils perdraient la possibilité de discuter dans Teams et d’accéder à leur historique des discussions. Ces utilisateurs doivent être en **mode** Îles et les réunions ne doivent être accordées qu’aux utilisateurs qui ne sont pas encore actifs dans la conversation dans Teams.
 
-## <a name="who-should-consider-meetings-first"></a>Qui doit envisager d’abord les réunions ?
+## <a name="who-should-consider-meetings-first"></a>Qui doit d’abord envisager les réunions ?
 
-Les réunions d’abord ont été conçues pour des organisations qui utilisent Skype entreprise Server avec voix entreprise qui souhaitent accélérer le passage aux réunions d’équipes, en particulier celles dont le niveau de discipline est important et qui souhaitent un chemin de mise à niveau géré et déterministe vers Teams.
+L’application Réunions d’abord a été conçue pour les organisations qui utilisent Skype Entreprise Server avec Voix Entreprise et qui souhaitent accélérer leur déplacement vers les réunions Teams, en particulier celles qui ont besoin d’une discipline informatique robuste, qui souhaitent obtenir un chemin de mise à niveau géré et déterminant pour Teams.
 
-Dans le cas d’organisations complexes ou de grande taille, les migrations vocales sont généralement effectuées en fonction du site et peuvent prendre un certain temps, peut-être quelques années, ce qui peut entraîner des scénarios de coexistence étendus. Si cette coexistence est en mode **îlot** , les utilisateurs auront toujours le choix entre deux solutions de réunion (Skype entreprise et Teams), ce qui peut entraîner des situations confuses ou déconseillées. Contrairement aux migrations vocales, les migrations de réunions peuvent généralement être effectuées au sein de l’ensemble de la société dans une durée courte. Les organisations qui souhaitent basculer totalement vers les réunions teams aussi rapidement que possible (et sans attendre la fin de leur migration vocale) doivent envisager d’abord des réunions.
+Pour les organisations complexes ou de grande taille, les migrations voix sont généralement réalisées site par site et peuvent prendre beaucoup de temps( plusieurs années), ce qui entraîne des scénarios de coexistence étendus. Si cette coexistence est en **mode** îles, les utilisateurs auront toujours la choix entre deux solutions de réunion (Skype Entreprise et Teams), ce qui peut se résultatr à des situations déroutantes ou sous-optimales. Contrairement aux migrations vocales, les migrations de réunions peuvent généralement être effectuées dans l’ensemble de l’entreprise dans un délai court. Les organisations qui souhaitent basculer complètement vers les réunions Teams le plus rapidement possible (sans attendre la fin de leur migration vocale) doivent d’abord envisager de tenir compte des réunions.
 
-Les réunions peuvent d’abord ne pas être utiles aux organisations qui n’ont pas d’utilisateurs voix entreprise. Ces organisations doivent être en mesure de procéder à une mise à niveau vers **équipes uniquement** dès qu’elles sont en mesure d’adopter des réunions d’équipe. Ils doivent commencer par ignorer les réunions.
+Les réunions peuvent d’abord ne pas être utiles aux organisations qui n’ont pas d’Voix Entreprise utilisateurs. Ces organisations ne doivent pouvoir mettre à niveau **vers Teams que** dès qu’elles sont en mesure d’adopter les réunions Teams. Il doit d’abord envisager d’ignorer l’étape Réunions.
 
-De plus, les réunions sont d’abord utiles pour les organisations dont l’étendue est une solution de réunion à lecture pure, par exemple lorsqu’un appel d’offre « réunions uniquement » est émis.
+De plus, l’outil Réunions en premier s’avère utile pour les organisations dont l’étendue est une solution de réunion en lecture seule, par exemple lors de l’émission d’un appel d’offres « réunions uniquement ».
 
-## <a name="capabilities-in-meetings-first"></a>Fonctionnalités des réunions en premier
+## <a name="capabilities-in-meetings-first"></a>Fonctionnalités de Réunions en premier
 
-La réunion commence par commencer conjointement les fonctionnalités suivantes :
+La réunion rassemble tout d’abord les fonctionnalités suivantes :
 
-- [Approvisionner un utilisateur Skype entreprise Server (en local)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) avec l' [audioconférence teams](tutorial-audio-conferencing.yml).
-- [Service de migration des réunions](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): les réunions organisées par l’utilisateur sont déplacées vers le Cloud et converties en réunions Teams, car l’utilisateur est promu d’abord pour les réunions (nécessite Exchange Online).
-- Une interface utilisateur rationalisée dans Teams, centrée sur les réunions d’équipe et les équipes et les canaux (qui peuvent éventuellement être masqués à l’aide de la [stratégie d’autorisations des applications](teams-app-permission-policies.md)); La [discussion privée, les appels et la présence automatique d’équipes](teams-client-experience-and-conformance-to-coexistence-modes.md) ne sont pas exposés dans les réunions en premier, ce qui permet à l’effort de déploiement et d’adoption de se concentrer entièrement sur les réunions.
-- Amélioration de l' [interaction des réunions teams](tutorial-meetings-in-teams.yml).
-- « Collaborez » entre teams et Skype entreprise : 
-  - Mise en attente automatique : lorsque vous êtes dans une réunion dans Teams, la mise en place d’un appel dans Skype entreprise met en attente la réunion Teams, et inversement. Cela empêche les utilisateurs d’avoir leurs appels privés préappelé par les participants à la réunion.
-    ![Capture d’écran illustrant un scénario de meilleure collaboration avec teams et Skype entreprise](media/meetings-first-better-together-hold.png)
-  - Réconciliation de présence : l’activité dans teams est reflétée dans la présence de l’utilisateur, qui est la présence de Skype entreprise dans Skype entreprise. En particulier, lors de la réunion d’équipes d’équipes, leur présence est mise à jour afin de refléter celle-ci. Lorsqu’ils présentent leur écran, leur présence est mise à jour afin de ne pas déranger (en fonction des paramètres de Skype entreprise).
-  - Division de contrôle HID de périphérique USB (également disponible sur Mac) : les contrôles HID sont honorés par teams pendant les réunions d’équipes et par Skype entreprise dans les autres circonstances.
-  - Sauf indication contraire, de meilleures capacités de regroupement nécessitent des clients de bureau Windows récents pour le moment.
+- Mettre en service un utilisateur [Skype Entreprise Server (sur site)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) avec [l’audioconférence Teams.](tutorial-audio-conferencing.yml)
+- [Service de migration](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)de réunions : les réunions organisées par l’utilisateur sont migrées vers le cloud et converties en réunions Teams au cours de la promotion de l’utilisateur en Réunions d’abord (nécessite Exchange Online).
+- Expérience utilisateur rationalisée dans Teams, centrée sur les réunions et équipes et canaux Teams (qui peuvent éventuellement être masqués à l’aide de la stratégie [Autorisations d’application)](teams-app-permission-policies.md); [Les discussions privées, les](teams-client-experience-and-conformance-to-coexistence-modes.md) appels et la présence autonome d’Équipes ne sont pas exposés dans Les réunions en premier, ce qui permet aux efforts de déploiement et d’adoption de se concentrer entièrement sur les réunions.
+- Expérience [de réunion Teams supérieure.](tutorial-meetings-in-teams.yml)
+- « Better Together » entre Teams et Skype Entreprise : 
+  - Mise en attente automatique : lors d’une réunion dans Teams, la prise d’un appel dans Skype Entreprise place la réunion Teams en attente, et inversement. Cela empêche les utilisateurs de faire entendre leurs appels privés entendus par les participants à la réunion.
+    ![Capture d’écran du scénario Meilleur ensemble avec Teams et Skype Entreprise](media/meetings-first-better-together-hold.png)
+  - Rapprochement des informations de présence : l’activité dans Teams est reflétée dans la présence de l’utilisateur, qui est la présence de Skype Entreprise étant donné que les appels et les discussions sont dans Skype Entreprise. Plus précisément, lorsque les premiers utilisateurs de Réunions se retrouvent dans une réunion Teams, leur présence est mise à jour pour refléter cela. Lorsqu’il présente son écran, sa présence est mise à jour pour afficher ne pas déranger (d’après les paramètres de Skype Entreprise).
+  - Rapprochement des contrôles HID d’appareil USB (également disponible sur Mac) : les contrôles HID sont honorés par Teams pendant les réunions Teams et par Skype Entreprise dans toutes les autres circonstances.
+  - Sauf mention contraire, les fonctionnalités Better Together nécessitent actuellement des clients de bureau Windows récents.
 
-## <a name="prerequisites-for-meetings-first"></a>Prérequis pour les réunions d’abord
+## <a name="prerequisites-for-meetings-first"></a>Conditions préalables pour les réunions en premier
 
-Les seules configurations matérielles requises pour les réunions sont les mêmes que celles requises pour les équipes disposant d’Active Directory local et d’un déploiement local de Skype entreprise :
+Les seules conditions difficiles à utiliser pour les réunions En premier sont les mêmes que pour Teams avec Active Directory local et un déploiement local de Skype Entreprise :
 
-- [Conditions générales d’une équipe](upgrade-plan-journey-prerequisites.md), notamment
-- [Identité et authentification dans teams](identify-models-authentication.md) et
-- [Configurez Azure Active Directory pour teams et Skype entreprise](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect).
+- [Conditions préalables générales pour Teams,](upgrade-plan-journey-prerequisites.md)notamment
+- [Identité et authentification dans Teams](identify-models-authentication.md) et
+- [Configurez Azure Active Directory pour Teams et Skype Entreprise.](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)
 
-Une [topologie hybride Skype entreprise](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) n’est pas requise, mais nous vous recommandons de le faire. Certaines fonctionnalités telles que le service de migration des réunions et l’interopérabilité s’appuient sur cette topologie.
+Une [topologie Skype Entreprise hybride](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) n’est pas nécessaire, mais elle est recommandée. Certaines fonctionnalités, telles que le service de migration de réunions et l’interopérabilité, dépendent de cette topologie.
 
-Les réunions sont d’abord prises en charge avec n’importe quelle version de Skype entreprise Server (et connues de l’utilisation du serveur Lync non pris en charge). Ce service est pris en charge avec n’importe quel client Skype entreprise pris en charge, mais les fonctionnalités de meilleure ensemble nécessitent un client récent.
+Meetings First est pris en charge avec n’importe quelle version de Skype Entreprise Server (et est connu pour fonctionner avec le serveur Lync non pris en charge). Il est pris en charge avec n’importe quel client Skype Entreprise, mais les fonctionnalités Better Together nécessitent un client récent.
 
-Une fois ces exigences satisfaites (et non antérieures), les utilisateurs peuvent être [titulaires d’une licence pour Microsoft 365 ou Office 365 et équipes](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
+Une fois ces conditions remplies (et non antérieures), les utilisateurs peuvent être titulaires d’une licence [pour Microsoft 365 ou Office 365 et Teams.](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)
 
-Pour la première utilisation de réunions, les utilisateurs doivent être activés pour [Exchange Online](exchange-teams-interact.md), [SharePoint Online et OneDrive entreprise](sharepoint-onedrive-interact.md), et la création de groupes Microsoft 365. Les réunions sont tout d’abord prises en charge pour les utilisateurs dont la boîte aux lettres est située en local, ou qui n’ont pas SharePoint Online ou OneDrive entreprise, ou la création de groupes Microsoft 365. Toutefois, leur interface sera moins complète. Par exemple, dans le cas d’organisations utilisant Exchange Server en local, il est possible (en fonction de la version d’Exchange Server) certaines limitations de création et d’affichage de réunions à partir du client Teams, ainsi que des fonctionnalités de conformité.
+Pour une première expérience de réunion la meilleure possible, les utilisateurs doivent être activés pour créer des groupes [Exchange Online,](exchange-teams-interact.md) [SharePoint Online, OneDrive](sharepoint-onedrive-interact.md)Entreprise et Microsoft 365. Meetings First est pris en charge pour les utilisateurs dont la boîte aux lettres se trouve sur Exchange en local, qui n’ont pas SharePoint Online, OneDrive Entreprise ou la création de groupes Microsoft 365. Leur expérience sera toutefois moins complète. En particulier, pour les organisations qui utilisent Exchange Server localement, il peut y avoir (selon la version d’Exchange Server) certaines limitations à la création et à l’affichage des réunions à partir du client Teams, ainsi qu’au niveau des fonctionnalités de conformité.
 
-Pour le moment, les utilisateurs doivent disposer [d’une licence pour teams](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users). De plus, ils peuvent être dotés d’une licence pour les [conférences audio](set-up-audio-conferencing-in-teams.md), si nécessaire.
+Au minimum, les utilisateurs doivent être [titulaires d’une licence pour Teams.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) En outre, elles peuvent être titulaires d’une licence [d’audioconférence,](set-up-audio-conferencing-in-teams.md)si nécessaire.
 
-Nous vous recommandons d' [octroyer le mode **SfBOnly** ou **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) comme client par défaut au moment où vous attribuez une licence aux utilisateurs. Cela permet de garantir que les utilisateurs ne peuvent pas utiliser les équipes par défaut dans le mode par défaut de l' **îlot** avant de pouvoir lancer des réunions en premier.
+Nous vous recommandons [d’accorder le mode **client SfBOnly** ou **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) par défaut au moment où vous accordez une licence aux utilisateurs. Cela garantit que les utilisateurs ne commenceraient pas à utiliser Teams par eux-mêmes en **mode** Îles par défaut avant que vous ne soyez prêt à lancer les réunions tout d’abord.
 
-Les réunions sont d’abord prises en charge sur les clients de bureau complets (Windows et Mac), sur les clients de navigateur et sur les clients mobiles. Il est également compatible avec les [salles de Microsoft teams](https://docs.microsoft.com/microsoftteams/room-systems/). L’utilisation conjointe nécessite le client de bureau complet.
+Meetings First est pris en charge sur les clients de bureau complets (Windows et Mac), sur les clients de navigateur et sur les clients mobiles. Il est également compatible avec [les salles Microsoft Teams.](https://docs.microsoft.com/microsoftteams/room-systems/) Better Together nécessite le client de bureau complet.
 
-## <a name="prepare-for-teams-meetings-in-meetings-first"></a>Commencer par organiser des réunions teams
+## <a name="prepare-for-teams-meetings-in-meetings-first"></a>Préparer les réunions Teams dans Réunions tout d’abord
 
-Pour permettre à vos utilisateurs d’avoir la meilleure utilisation possible dans les réunions d’équipe, vous devez :
+Pour que vos utilisateurs ont la meilleure expérience possible dans les réunions Teams, vous devez :
 
-- Pour plus d’informations, suivez les étapes décrites dans [réunions et conférences pour Microsoft teams](deploy-meetings-microsoft-teams-landing-page.md).
-- [Évaluez votre environnement](3-envision-evaluate-my-environment.md).
-- [Préparez le réseau de votre organisation à Microsoft teams](prepare-network.md).
-- Effectuez la mise à niveau de vos salles de réunion avec les [appareils et les solutions de salle de réunion](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)compatibles avec Teams, ou utilisez la fonction [Cloud Video Interop pour Microsoft teams](cloud-video-interop.md) pour permettre à vos salles et périphériques tiers d’accéder à des réunions d’équipe.
-- Équiper vos utilisateurs de [périphériques audio et vidéo USB certifiés](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
-- Préparer la prise en charge de la [sensibilisation et de l’adoption des réunions teams](adopt-microsoft-teams-landing-page.md).
-- [Planifiez la gestion de votre service](4-envision-plan-my-service-management.md).
-- Familiarisez-vous avec les rapports d’analyse des appels enrichis pour [résoudre les problèmes de mauvaise qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+- Suivez notamment les étapes des réunions et [conférences pour Microsoft Teams.](deploy-meetings-microsoft-teams-landing-page.md)
+- [Évaluez votre environnement.](3-envision-evaluate-my-environment.md)
+- [Préparez le réseau de votre organisation pour Microsoft Teams.](prepare-network.md)
+- Mettre à niveau vos salles de réunion avec des [solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)et des appareils de salle de réunion capables de Teams, ou utiliser [Cloud Video Interop](cloud-video-interop.md) pour Microsoft Teams pour permettre à vos salles et appareils tiers existants de participer à des réunions Teams.
+- Équipez vos utilisateurs [de périphériques audio et vidéo USB certifiés.](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- Préparer les [réunions Teams pour les sensibilisations et l’adoption.](adopt-microsoft-teams-landing-page.md)
+- [Planifiez votre gestion des services.](4-envision-plan-my-service-management.md)
+- Familiarisez-vous avec les rapports d’analyse des appels [enrichis pour résoudre les problèmes de qualité des appels.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-Vous pouvez envisager d’exécuter un pilote de production à échelle modérée à ce stade.
+À ce stade, vous pouvez envisager d’exécutez un pilote prêt pour la production d’échelle modérée.
 
 ## <a name="configure-users-for-meetings-first"></a>Configurer d’abord les utilisateurs pour les réunions
 
-Une fois que vous avez fourni une licence aux utilisateurs et que vous avez préparé votre organisation pour les réunions Teams, il est temps de commencer par activer vos utilisateurs pour les réunions. C’est facile : un seul paramètre est le tout.
+Une fois que vous avez autorisé vos utilisateurs et préparé votre organisation pour les réunions Teams, il est temps d’activer d’abord vos utilisateurs pour les réunions. Nous avons fait en sorte que tout soit facile : un seul paramètre vous permettra d’y voir plus facilement.
 
-Toutes les fonctionnalités et les expériences utilisateur des réunions d’abord, y compris la configuration du client teams et la [conformité automatique](teams-client-experience-and-conformance-to-coexistence-modes.md) de l’expérience utilisateur, du service de migration des réunions et de l’ensemble des fonctionnalités, sont configurées en accordant l’utilisateur (ou groupe d’utilisateurs, ou par défaut) le [mode de coexistence SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) dans le [Centre d’administration Microsoft teams](manage-teams-in-modern-portal.md) ou en utilisant [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Toutes les fonctionnalités et expériences utilisateur dans Les réunions en premier, y compris la configuration du client Teams et la [conformité](teams-client-experience-and-conformance-to-coexistence-modes.md) automatique de l’expérience utilisateur, le service de migration de réunions et les fonctionnalités Better Together, sont configurées en octroyant à l’utilisateur (ou au groupe d’utilisateurs ou au client par défaut) le mode de [coexistence SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) dans le Centre d’administration [Microsoft Teams](manage-teams-in-modern-portal.md) ou à l’aide [de PowerShell.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-![Capture d’écran des paramètres d’administration permettant d’activer d’abord des réunions](media/teams-meeting-admin-settings.png)
+![Capture d’écran des paramètres d’administration permettant d’activer d’abord les réunions](media/teams-meeting-admin-settings.png)
 
-Si vous le souhaitez, vous pouvez également masquer l’application équipes et canaux à partir du volet de navigation gauche du client teams de vos utilisateurs afin de concentrer davantage sur l’utilisation des réunions à l’aide de la [stratégie d’autorisation des applications](teams-app-permission-policies.md).
+Si vous le souhaitez, si vous souhaitez masquer l’application Équipes et canaux dans le navigation gauche du [](teams-app-permission-policies.md)client Teams de vos utilisateurs, afin de concentrer leur expérience sur les réunions, qui peuvent être obtenues à l’aide de la stratégie d’autorisation d’application.
 
-## <a name="reporting-and-call-analytics"></a>Création de rapports et analyse des appels
+## <a name="reporting-and-call-analytics"></a>Rapports et analyse des appels
 
-La création de rapports et l’analyse des appels pour les réunions teams dans les réunions ne sont pas modifiées par rapport aux autres modes.
+Les rapports et les données d’analyse des appels pour les réunions Teams dans les réunions sont tout d’abord inchangées par rapport à ce qu’elles sont dans les autres modes.
 
 ## <a name="related-links"></a>Liens connexes
 
-Après avoir examiné cet article, vous souhaiterez peut-être vous reporter à la rubrique choix de votre guide de [mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), de la [migration et de l’interopérabilité](migration-interop-guidance-for-teams-with-skype.md), et de la [coexistence avec Skype entreprise](coexistence-chat-calls-presence.md) pour plus d’informations.
+Après avoir consulté cet article, vous souhaiterez peut-être consulter les recommandations de mise à [niveau,](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)de migration et [d’interopérabilité,](migration-interop-guidance-for-teams-with-skype.md)et de [coexistence](coexistence-chat-calls-presence.md) avec Skype Entreprise pour plus d’informations.
 
 

@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue du serveur Edge
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud indique le nom de domaine complet (FQDN) du pool et d’autres paramètres standard pour ce pool de serveurs Edge. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 7195e3d43d175ceef26756341cca3c1e3fc59da3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: "Ce nœud indique le nom de domaine complet (FQDN) du pool et d'autres paramètres basiques pour ce pool de serveurs Edge.  Vous pouvez effectuer les actions suivantes :"
+ms.openlocfilehash: f2563ffa0700aa8633d2288223185060530fa130
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793772"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822514"
 ---
 # <a name="edge-server-scope-node"></a>Nœud d’étendue du serveur Edge
  
-Ce nœud indique le nom de domaine complet (FQDN) du pool et d’autres paramètres standard pour ce pool de serveurs Edge. Vous pouvez effectuer les actions suivantes :
+Ce nœud indique le nom de domaine complet (FQDN) du pool et d'autres paramètres basiques pour ce pool de serveurs Edge.  Vous pouvez effectuer les actions suivantes :
   
-- **Nouveau serveur** : lance l’Assistant **Définition d’un nouveau serveur** que vous pouvez utiliser pour ajouter un autre serveur Edge à ce pool.
+- **Nouveau serveur**. Démarre l’Assistant **Définir un nouveau serveur** que vous pouvez utiliser pour ajouter un autre serveur Edge à ce pool.
     
-- **Modifier les propriétés** : affiche la page **Modifier les propriétés** pour ce serveur, dans laquelle vous pouvez configurer le port et le nom de domaine complet (FQDN) interne et externe du pool, activer et désactiver la fédération et le convertisseur d’adresses réseau (NAT) et spécifier le pool du tronçon suivant.
+- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** pour ce serveur, où vous pouvez configurer le port et le nom de domaine complet (FQDN) interne et externe du pool, activer et désactiver la fédération et le traducteur d’adresses réseau (NAT), et préciser le pool du tronçon suivant.
     
-- **Supprimer** : supprime le pool de la topologie.
+- **Supprimer**. Supprime le pool de la topologie.
     
 Outre ces options, vous pouvez effectuer les tâches générales suivantes :
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
     
-- **Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+- **Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

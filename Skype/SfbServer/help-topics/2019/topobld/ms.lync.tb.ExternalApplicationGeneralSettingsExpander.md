@@ -1,8 +1,8 @@
 ---
-title: Développeur des paramètres généraux d’une application externe
+title: Expanseur des paramètres généraux d’une application externe
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour modifier les propriétés d’un serveur d’application de confiance qui a déjà été défini, suivez les instructions ci-dessous.
-ms.openlocfilehash: eacc0c854290fcf24196a8e4c58829231dc725c4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
+ms.openlocfilehash: 8cdf27598c916f84e96b11d8acfaeb115a0575dd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793742"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822424"
 ---
-# <a name="external-application-general-settings-expander"></a>Développeur des paramètres généraux d’une application externe
+# <a name="external-application-general-settings-expander"></a>Expandeur des paramètres généraux d’une application externe
  
-Pour modifier les propriétés d’un serveur d’application de confiance qui a déjà été défini, suivez les instructions ci-dessous.
+Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
   
-Vous pouvez modifier deux sections :
+Deux sections peuvent être modifiées :
   
 > Paramètres généraux
 > 
@@ -34,15 +34,15 @@ Vous pouvez modifier deux sections :
     
 ## <a name="general-settings"></a>Paramètres généraux
 
-Vous pouvez modifier l’actuel nom de domaine complet (FQDN) du pool de serveurs d’applications de confiance. Modifiez le nom du nom de domaine complet (FQDN) du pool. Les enregistrements d’hôte DNS (Domain Name System) doivent exister pour la nouvelle entrée avant qu’un client ou un serveur puisse se connecter au nouveau nom du pool.
+Vous pouvez modifier le nom de domaine complet actuel du pool de serveurs d’applications approuvées. Modifiez le nom de domaine complet du pool. Les enregistrements d’hôte DNS (Domain Name System) (A) doivent exister pour la nouvelle entrée pour que les clients ou les serveurs puissent se connecter au nouveau nom de pool.
   
-Pour pouvoir répliquer les données de configuration vers ce pool, sélectionnez **activer la réplication des données de configuration** . Supprimez la coche si vous ne souhaitez pas répliquer les données de configuration.
+Sélectionnez **Activer la réplication des données de configuration sur ce pool** si les données de configuration doivent être répliquées sur ce pool. Désactivez la case à cocher si vous ne voulez pas répliquer les données de configuration.
   
-## <a name="next-hop-settings"></a>Paramètres de saut suivant
+## <a name="next-hop-settings"></a>Paramètres du tronçon suivant
 
-Dans la liste déroulante, vous pouvez spécifier le serveur tronçon suivant du pool de serveurs d’applications de confiance en sélectionnant le serveur frontal Enterprise Edition défini dans la liste déroulante. Un réalisateur ou un pool de réalisateurs n’est pas une sélection valide pour le tronçon suivant d’un serveur d’applications de confiance et n’apparaîtra pas dans la liste.
+Vous pouvez spécifier le serveur du saut suivant du pool de serveurs d’applications approuvé en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste liste. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
   
 
-Cliquez sur **OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.
+Cliquez **sur OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.
   
 

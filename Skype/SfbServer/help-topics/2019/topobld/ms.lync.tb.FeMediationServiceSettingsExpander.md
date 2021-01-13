@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres du service de médiation
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Dans Serveur de médiation, vous pouvez spécifier les éléments suivants :'
-ms.openlocfilehash: fe3fe13cc5e6ca27ac8eb561b7d328db8744025b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Pour le serveur de médiation, vous pouvez spécifier les données suivantes :'
+ms.openlocfilehash: b3b22cfbe4b85a237dfffbce1c22da3abde75f57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793702"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819504"
 ---
-# <a name="mediation-service-settings-expander"></a>Expanseur des paramètres du service de médiation
+# <a name="mediation-service-settings-expander"></a>Expandeur des paramètres du service de médiation
 
-Dans **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
+Pour **Serveur de médiation**, vous pouvez spécifier les éléments suivants :
 
-Si vous êtes collocating du serveur de médiation sur le pool frontal ou sur le serveur Standard Edition Server, activez la case à cocher Activer le **serveur de médiation**. Si vous choisissez de ne pas collocater le serveur de médiation, il n’y a aucun paramètre définissable dans cette section.
+Si vous coloquez le serveur de médiation sur le pool frontal ou le serveur Standard Edition Server, activez la case à cocher Serveur de médiation **cochez la case .** Si vous choisissez de ne pas colocaliser le serveur de médiation, cette section ne comporte aucun paramètre définissable.
 
-Si vous avez activé la colocalisation du serveur de médiation, vous devez définir la plage de port d’écoute sur le serveur pour le protocole TLS (Transport Layer Security). Par défaut, il s’agit du port 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif, et vous devez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est le port 5068.
+Si vous avez activé la colocalisation du serveur de médiation, vous devez définir la plage de ports d’écoute du serveur pour le protocole TLS (Transport Layer Security). Par défaut, ce port est 5067. Si vous sélectionnez **Activer le port TCP**, vous devez définir un protocole TCP (Transmission Control Protocol) pour le serveur de médiation colocalisé. Il s’agit d’un paramètre facultatif et vous devez vous reporter aux conditions requises de votre passerelle ou de votre réseau public commuté pour déterminer si vous en avez besoin. Par défaut, la valeur du port TCP est 5068.
 
-Vous définissez des passerelles RTC associées au serveur de médiation colocalisé. Si vous avez déjà défini des passerelles, celles-ci sont disponibles pour être associées au serveur de médiation.
+Vous définissez les passerelles PSTN qui sont associées au serveur de médiation colocalisé. Si vous avez déjà défini des passerelles, ces dernières pourront être associées au serveur de médiation.
 
-Si vous avez plusieurs passerelles associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez sélectionner une autre passerelle comme passerelle par défaut, sélectionnez la passerelle à utiliser par défaut, puis cliquez sur **Utiliser par défaut**. Pour désélectionner la passerelle par défaut, cliquez sur **Annuler par défaut**.
+Si plusieurs passerelles sont associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez choisir une autre passerelle comme passerelle par défaut, sélectionnez la passerelle que vous souhaitez utiliser par défaut, puis cliquez sur **Utiliser par défaut**. Pour désélectionner la passerelle par défaut, cliquez sur **Annuler Par défaut**.
 
-Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal Enterprise Edition ou du serveur Standard Edition Server, voir [définition et configuration de la topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [déploiement de serveurs de médiation et définition d’homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal Enterprise Edition ou du serveur Standard Edition, voir [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 

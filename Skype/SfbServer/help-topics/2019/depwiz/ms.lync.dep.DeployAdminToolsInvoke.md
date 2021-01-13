@@ -1,8 +1,8 @@
 ---
-title: Assistant déploiement à l’aide des outils d’administration
+title: Assistant Déploiement à l’aide des outils d’administration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server, reportez-vous à la rubrique installation de Skype entreprise Server.
-ms.openlocfilehash: d10e5898744e08d70e532fc17924c17830b7bd3a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir Install Skype for Business Server.
+ms.openlocfilehash: 406a28868ceb7eb38b68dd282d94b27df9014c1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796945"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820554"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>Assistant Déploiement : utilisation des outils d’administration
  
-Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server, reportez-vous à la rubrique [installation de Skype entreprise Server](../../../deploy/install/install.md).
+Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir [Installer Skype Entreprise Server.](../../../deploy/install/install.md)
   
 

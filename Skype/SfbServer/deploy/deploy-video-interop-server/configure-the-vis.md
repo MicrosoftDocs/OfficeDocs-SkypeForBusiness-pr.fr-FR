@@ -1,8 +1,8 @@
 ---
-title: Configurer le serveur Video Interop dans Skype entreprise Server
+title: Configurer le serveur d’opation vidéo dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,53 +12,53 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Résumé : configurez le rôle serveur d’interopérabilité vidéo (a) dans Skype entreprise Server.'
-ms.openlocfilehash: 2618a7829fde79bd63eb2c3c91dbe921530e3b04
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Configurez le rôle serveur d’accès vidéo (VIS) dans Skype Entreprise Server.'
+ms.openlocfilehash: 84ab821249ae388bc1ba0dc41cb980c90d4f0853
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798061"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820694"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurer le serveur Video Interop dans Skype entreprise Server
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurer le serveur d’opation vidéo dans Skype Entreprise Server
  
-**Résumé :** Configurez le rôle serveur d’interopérabilité vidéo (a) dans Skype entreprise Server.
+**Résumé :** Configurez le rôle VIS (Video Interop Server) dans Skype Entreprise Server.
   
- Configurez les paramètres qui seront associés aux Trunks vidéo à l’aide de Windows PowerShell. Une configuration de Trunk vidéo avec étendue globale est créée une fois le service à l’aide de l’installation. Cette configuration de Trunk vidéo est appliquée par le biais de tous les Trunks qui n’ont pas de configuration de Trunk vidéo avec une étendue plus spécifique. Notez que la configuration de Trunk vidéo est une collection de paramètres applicables aux Trunks vidéo.
+ Configurez les paramètres que le VIS associera aux trunks vidéo à l’aide de Windows PowerShell. Une fois le service VIS installé, une configuration de trunk vidéo avec une étendue globale est créée. Cette configuration de trunk vidéo est appliquée par le VIS à toutes les trunks qui n’ont pas de configuration de trunk vidéo avec une portée plus spécifique. Notez que la configuration de la vidéoconférente est une collection de paramètres applicables aux trunks vidéo.
   
-## <a name="configure-video-trunk-and-dial-plan"></a>Configurer le tronçon vidéo et le plan de numérotation
+## <a name="configure-video-trunk-and-dial-plan"></a>Configurer le plan de numérotation et le système de numérotation de la vidéo
 
-Utilisez les commandes Windows PowerShell suivantes pour spécifier la configuration de Trunk vidéo et le plan de numérotation à associer aux liaisons nouvellement définies définies dans le document topologique entre le VIS et toutes les passerelles vidéo. Tous ces paramètres sont configurables aux niveaux global, du site ou du service (passerelle vidéo). 
+Utilisez les commandes de Windows PowerShell suivantes pour spécifier la configuration de la vidéo et le plan de numérotation à associer aux nouvelles connexions définies dans le document de topologie entre le VIS et toutes les passerelles vidéo. Tous ces paramètres peuvent être définies aux niveaux global, site ou service (passerelle vidéo). 
   
-Un plan de numérotation avec étendue globale est créé par déploiement de Skype entreprise Server. Ce plan de numérotation est appliqué par tous les ISL qui n’ont pas de plan de numérotation ayant une étendue plus précise. 
+Un plan de numérotation avec une étendue globale est créé par déploiement Skype Entreprise Server. Ce plan de numérotation est appliqué par le VIS à toutes les connexions qui n’ont pas de plan de numérotation avec une étendue plus spécifique. 
   
-### <a name="configure-the-vis-using-windows-powershell"></a>Configurer l’utilisation de Windows PowerShell
+### <a name="configure-the-vis-using-windows-powershell"></a>Configurer le VIS à l’aide Windows PowerShell
 
-1. Créez une nouvelle configuration de Trunk vidéo (collection de paramètres) à utiliser sur le Trunk entre le directeur des communications unifiées (CallManager ou CUCM), à l’aide de l’applet de commande Windows PowerShell suivante :
+1. Créez une configuration de trunk vidéo (collection de paramètres) à utiliser sur la ligne entre le VIS et Cisco Unified Communications Manager (CallManager, ou CUCM), à l’aide de l’Windows PowerShell suivante :
     
    ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    S’il existe déjà un Trunk vidéo qui doit être modifié, utilisez l’applet de commande Windows PowerShell suivante :
+    Si une trunk vidéo existante doit être modifiée, utilisez l’Windows PowerShell suivante :
     
    ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
-    Pour afficher les paramètres associés à une configuration de Trunk vidéo particulière, utilisez l’applet de commande Windows PowerShell suivante :
+    Pour afficher les paramètres associés à une configuration de trunk vidéo particulière, utilisez l’Windows PowerShell suivante :
     
    ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    Pour supprimer une configuration de Trunk vidéo particulière, utilisez l’applet de commande Windows PowerShell suivante (Notez que la configuration de Trunk vidéo avec étendue globale) est appliquée si une configuration de Trunk vidéo de niveau supérieur n’est pas spécifiquement définie pour un Trunk particulier.
+    Pour supprimer une configuration de vidéoconférente particulière, utilisez l’cmdlet Windows PowerShell suivante (notez que la configuration de la trunk vidéo de portée globale sera appliquée s’il n’existe pas de configuration de trunk vidéo plus spécifique pour une trunke particulière) :
     
    ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-2. Établissez un plan de numérotation à associer au Trunk, à l’aide des applets de commande Windows PowerShell suivantes :
+2. Établissez un plan de numérotation à associer à la trunk, à l’aide des cmdlets Windows PowerShell suivantes :
     
    ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
@@ -67,25 +67,25 @@ Un plan de numérotation avec étendue globale est créé par déploiement de Sk
    Remove-CsVoiceNormalizationRule -Identity  "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/Keep All"
    ```
 
-La commande **Remove-CsVoiceNormalizationRule** est nécessaire pour remplacer une règle par défaut afin qu’elle n’interfère pas avec l’interaction CUCM ou du VIS attendue.
+La **commande Remove-CsVoiceNormalizationRule** est nécessaire pour remplacer une règle par défaut qui interfère avec l’interaction VIS et CUCM attendue.
 > [!NOTE]
 > [Remove-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-csdialplan?view=skype-ps) peut être utilisé pour supprimer un plan de numérotation.
   
-Dans le cas d’un appel vidéo en ligne SIP à partir d’une passerelle vidéo dont l’URI de la demande contient un numéro non-E. 164, l’accent lira le nom du plan de numérotation associé au Trunk associé et inclura le nom du plan de numérotation dans la partie contexte du téléphone de l’URI de la requête S envoie au premier plan. L’application de traduction sur le front end extrait et applique les règles de normalisation associées au plan de numérotation à l’URI de requête.
-## <a name="trunk-configuration-options"></a>Options de configuration de tronçon
+Pour un appel de connexion SIP vidéo à partir d’une passerelle vidéo dont l’URI de demande contient un numéro autre que E.164, le VIS lit le nom du plan de numérotation associé à la connexion associée et inclut le nom du plan de numérotation dans le composant de contexte téléphonique de l’URI de demande dans l’invitation que le VIS envoie au frontal. L’application de traduction sur le frontal extrait et applique les règles de normalisation associées au plan de numérotation à l’URI de demande.
+## <a name="trunk-configuration-options"></a>Options de configuration de la trunk
 
-Les applets de décision Windows PowerShell pour la configuration de Trunk vidéo mentionnées précédemment étaient nouvelles dans Skype entreprise Server 2015. Les paramètres associés à la configuration de tronçon vidéo requièrent une brève explication.
+Les Windows PowerShell cmdlets pour la configuration de la vidéoconférente mentionnées précédemment étaient nouvelles dans Skype Entreprise Server 2015. Les paramètres associés à la configuration de la vidéoconférente nécessitent une brève explication.
   
- **GatewaySendsRtcpForActiveCalls** Ce paramètre détermine si les paquets RTCP sont envoyés à partir du VTC à l’envers pour les appels actifs. Un appel actif dans ce contexte désigne un appel qui est autorisé à voyager dans au moins une direction. Si le paramètre GatewaySendsRtcpForActiveCalls est défini sur True, le serveur d’interopérabilité vidéo (VIS) peut mettre fin à un appel s’il ne reçoit aucun paquet RTCP dans un délai de plus de 30 secondes. La valeur par défaut est **True**.
+ **GatewaySendsRtcpForActiveCalls** Ce paramètre détermine si des paquets RTCP sont envoyés du VTC au VIS pour les appels actifs. Un appel actif dans ce contexte désigne un appel qui est autorisé à voyager dans au moins une direction. Si GatewaySendsRtcpForActiveCalls est définie sur True, le VIS peut mettre fin à un appel s’il ne reçoit pas de paquets RTCP pendant une période supérieure à 30 secondes. La valeur par défaut est **True**.
   
- **GatewaySendsRtcpForCallsOnHold** Ce paramètre détermine si les paquets RTCP continuent d’être envoyés sur le Trunk pour les appels placés en attente et qu’aucun flux de paquets ne devait être acheminé dans chaque direction. Le serveur d’interopérabilité vidéo (VIS) peut mettre fin à l’appel s’il ne reçoit aucun paquet RTCP du système de vidéoconférence (VTC) lorsque l’appel est en attente. La valeur par défaut est **True**. Lorsque le protocole SIPTransport est défini sur TCP, ce paramètre est ignoré.
+ **GatewaySendsRtcpForCallsOnHold** Ce paramètre détermine si les paquets RTCP continuent d’être envoyés sur le secteur pour les appels qui ont été mis en attente et si aucun paquet multimédia n’est censé circuler dans les deux sens. Le VIS peut mettre fin à l’appel s’il n’y a aucun paquet RTCP qui circule du VTC au VIS pendant l’attente de l’appel. La valeur par défaut est **True**. Lorsque le protocole SIPTransport est définie sur TCP, ce paramètre est ignoré.
   
- **EnableMediaEncryptionForSipOverTls** Ce paramètre active ou désactive SRTP pour le média lorsque le protocole SIPTransport est défini sur TLS. La valeur par défaut est **True**. Lorsque le protocole SIPTransport est défini sur TCP, ce paramètre est ignoré.
+ **EnableMediaEncryptionForSipOverTls** Ce paramètre active ou désactive SRTP pour les médias lorsque le protocole SIPTransport est paramétrant sur TLS. La valeur par défaut est **True**. Lorsque le protocole SIPTransport est définie sur TCP, ce paramètre est ignoré.
   
- **EnableSessionTimer** Ce paramètre active ou désactive les minuteurs de session à l’extrémité de chaque boîte de dialogue SIP associée au Trunk vidéo SIP. La valeur par défaut est **False**.
+ **EnableSessionTimer** Ce paramètre active ou désactive les timers de session côté VIS pour chaque boîte de dialogue SIP associée à la session SIP vidéo. La valeur par défaut est **False**.
   
- **ForwardErrorCorrectionType** Ce paramètre est utilisé pour déterminer si la correction d’erreur de transfert (FEC) pour les flux vidéo doit être appliquée sur la jambe entre le serveur Video Interop et une passerelle vidéo. La définition de ForwardErrorCorrectionType sur « None » désactive la fonction FEC entre et la passerelle vidéo/VTC. La définition de ForwardErrorCorrectionType sur « Cisco » autorise la compatibilité FEC avec les passerelles vidéo de Cisco, telles que Cisco Unified Communications Manager (CUCM). La valeur par défaut est **Aucun**.
+ **ForwardErrorCorrectionType** Ce paramètre permet de déterminer si la correction des erreurs de retour (FEC) pour les flux vidéo doit être appliquée sur la partie entre le serveur d’opation vidéo et une passerelle vidéo. La définition de ForwardErrorCorrectionType sur « None » dés éteint le FEC entre le VIS et la passerelle vidéo/VTC. La définition de ForwardErrorCorrectionType sur « Cisco » active la compatibilité FEC avec les passerelles vidéo de Cisco, telles que Cisco Unified Communications Manager (CUCM). La valeur par défaut **est Aucun**.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer CUCM pour l’interopérabilité avec Skype entreprise Server](configure-cucm-for-interoperation.md)
+[Configurer CUCM pour l’interopération avec Skype Entreprise Server](configure-cucm-for-interoperation.md)

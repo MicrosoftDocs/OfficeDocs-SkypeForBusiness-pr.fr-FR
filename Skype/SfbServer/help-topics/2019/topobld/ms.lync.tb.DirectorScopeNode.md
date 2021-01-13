@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue du directeur
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud affiche le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 4f86767d92552f2651a44c9e439b6d7efdceadfe
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Ce nœud montre le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 20a806a22d941f1cc6e2f2199e9198fbddeb450c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793842"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822634"
 ---
 # <a name="director-scope-node"></a>Nœud d’étendue du directeur
  
-Ce nœud affiche le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :
+Ce nœud montre le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :
   
-- **Nouveau serveur** : charge la page **Définir un nouveau serveur** que vous pouvez utiliser pour ajouter un autre directeur à ce pool.
+- **Nouveau serveur**. Charge la page **Définir un nouveau serveur** que vous pouvez utiliser pour ajouter un autre directeur à ce pool.
     
-- **Modifier les propriétés** : affiche la page  **Modifier les propriétés** de ce serveur, dans laquelle vous pouvez modifier le nom de domaine complet, les ports et le magasin de fichiers associé pour ce pool directeur.
+- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce serveur dans laquelle vous pouvez modifier le nom de domaine complet, les ports et le magasin de fichiers associé pour ce pool directeur.
     
-- **Supprimer** : supprime le pool de la topologie.
+- **Supprimer**. Supprime le pool de la topologie.
     
 Outre ces options, vous pouvez effectuer les tâches générales suivantes :
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.
     
-- **Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+- **Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

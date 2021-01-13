@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des directeurs
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,25 +15,25 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pools directeurs répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: e1275b3cf6862fc9d065d992f953c383a843fd78
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 86a52e6016d6449e49eb067fe9ad9c3e51be896d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793822"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822614"
 ---
 # <a name="directors-scope-node"></a>Nœud d’étendue des directeurs
  
 Le nœud **Pools directeurs** répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :
   
-- **Nouveau pool directeur** : lance l’Assistant **Définition d’un nouveau pool directeur**, qui permet d’ajouter un nouveau pool directeur à votre topologie.
+- **Nouveau pool directeur**. Démarre l’Assistant **Définir un nouveau pool directeur** qui permet d’ajouter un nouveau pool directeur à votre topologie.
     
-Outre les options de pool directeur, vous pouvez effectuer les tâches générales suivantes :
+Outre les options de pool directeur, vous pouvez réaliser les tâches générales suivantes :
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions précédentes ou supprimer le déploiement.
     
-- **Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
+- **Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

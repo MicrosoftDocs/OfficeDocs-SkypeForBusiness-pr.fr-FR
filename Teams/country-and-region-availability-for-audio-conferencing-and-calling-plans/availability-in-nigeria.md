@@ -1,7 +1,7 @@
 ---
-title: Disponibilité au Nigeria
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité au Nigéria
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Nigeria.
-ms.openlocfilehash: 5831103a3e7f0d28497edd80d2483a5e6b90bad7
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Nigéria.
+ms.openlocfilehash: bd624c3b61fb29d5eb5bcdd795fc4c1abe217976
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231003"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809534"
 ---
-# <a name="availability-in-nigeria"></a>Disponibilité au Nigeria
+# <a name="availability-in-nigeria"></a>Disponibilité au Nigéria
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Nigeria.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Nigéria.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -68,7 +68,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | , Lagos <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Sy <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    

@@ -1,8 +1,8 @@
 ---
-title: Table ErrorDef dans Skype entreprise Server 2015
+title: Table ErrorDef dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
-description: La table ErrorDef stocke des informations sur chaque type d’erreur pouvant se produire. Chaque enregistrement correspond à un type d’erreur.
-ms.openlocfilehash: f686692bee334c0927b6e8342cfb7152b3e54f0c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table ErrorDef stocke des informations sur chaque type d’erreur qui peut se produire. Chaque enregistrement est un type d’erreur.
+ms.openlocfilehash: 50d7b76e1fc7edb53fbe0b299673b7281a394463
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815232"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821724"
 ---
-# <a name="errordef-table-in-skype-for-business-server-2015"></a>Table ErrorDef dans Skype entreprise Server 2015
+# <a name="errordef-table-in-skype-for-business-server-2015"></a>Table ErrorDef dans Skype Entreprise Server 2015
  
-La table ErrorDef stocke des informations sur chaque type d’erreur pouvant se produire. Chaque enregistrement correspond à un type d’erreur.
+La table ErrorDef stocke des informations sur chaque type d’erreur qui peut se produire. Chaque enregistrement est un type d’erreur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ErrorId** <br/> |int  <br/> |Principal  <br/> |Numéro d’identification unique identifiant ce type d’erreur.  <br/> |
+|**ErrorId** <br/> |int  <br/> |Primaire  <br/> |Numéro d’identification unique identifiant ce type d’erreur.  <br/> |
 |**ResponseCode** <br/> |int  <br/> | <br/> |Code de réponse SIP standard associé à cette erreur.  <br/> |
 |**MsDiagId** <br/> |int  <br/> | <br/> |ID de diagnostic Microsoft.  <br/> |
-|**CallTypeId** <br/> |Ent  <br/> |Externes  <br/> |Type de l’appel. Pour plus d’informations, reportez-vous [à la table CallType dans Skype entreprise Server 2015](calltype.md) . <br/> |
-|**RequestType** <br/> |varbinary (33)  <br/> | <br/> |Type de requête ayant échoué.  <br/> Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante :  <br/>  `cast(cast(RequestType as varbinary(max)) as varchar(max))` <br/> |
-|**Indiquez** <br/> |varbinary (257)  <br/> | <br/> |Type de contenu de la requête qui a échoué.  <br/> Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante :  <br/>  `cast(cast(ContentType as varbinary(max)) as varchar(max))` <br/> |
+|**CallTypeId** <br/> |Int  <br/> |Étranger  <br/> |Type de l’appel. Pour plus d’informations, voir la table CallType dans Skype Entreprise [Server 2015.](calltype.md) <br/> |
+|**RequestType** <br/> |varbinary(33)  <br/> | <br/> |Type de la demande ayant échoué.  <br/> Ces données peuvent être converties au format texte à l’aide de cette syntaxe :  <br/>  `cast(cast(RequestType as varbinary(max)) as varchar(max))` <br/> |
+|**ContentType** <br/> |varbinary(257)  <br/> | <br/> |Type de contenu de la demande ayant échoué.  <br/> Ces données peuvent être converties au format texte à l’aide de cette syntaxe :  <br/>  `cast(cast(ContentType as varbinary(max)) as varchar(max))` <br/> |
    
 

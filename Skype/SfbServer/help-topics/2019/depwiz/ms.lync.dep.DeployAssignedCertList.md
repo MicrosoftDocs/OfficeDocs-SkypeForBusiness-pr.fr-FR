@@ -1,8 +1,8 @@
 ---
 title: Afficher le certificat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dans la page afficher le certificat, il existe un volet qui vous permet de sélectionner n’importe quel certificat valide dans le magasin de certificats local. Vous pouvez sélectionner un certificat, puis cliquer sur Afficher les détails du certificat. Le certificat est affiché dans un nouveau volet. Dans le volet certificat, vous pouvez afficher les informations générales sur le certificat. Cliquez sur l’onglet Détails pour afficher des informations détaillées sur le certificat, par exemple le nom de l’objet et le nom de l’autre objet. Le chemin d’accès de certification affiche le chemin d’accès de l’thechain de trustfor le certificat. Lorsque vous avez terminé de vérifier les informations sur le certificat, cliquez sur OK.
-ms.openlocfilehash: 4820252bb979ffe8daf94d4e2985b8c1c0d4862a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Afficher le certificat présente un volet permettant de sélectionner un certificat valide dans le magasin de certificats local. Vous pouvez sélectionner un certificat, puis cliquer sur Afficher les détails du certificat. Le certificat sera affiché dans un nouveau volet. Dans le volet Certificat, vous pouvez consulter les informations générales du certificat. Cliquez sur l’onglet Détails pour afficher des informations détaillées sur le certificat, comme le nom du sujet et l’autre nom du sujet. Le chemin d’accès de certification affiche le chemin d’accès de lachain de confiance pour le certificat. Lorsque vous avez terminé de consulter les informations du certificat, cliquez sur OK.
+ms.openlocfilehash: 8ca79694c6d4b46b407012102d9af2dd977b15d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796935"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820544"
 ---
 # <a name="view-certificate"></a>Afficher le certificat
  
-Dans la page **afficher le certificat** , il existe un volet qui vous permet de sélectionner n’importe quel certificat valide dans le magasin de certificats local. Vous pouvez sélectionner un certificat, puis cliquer sur **afficher les détails du certificat**. Le certificat est affiché dans un nouveau volet. Dans le volet **certificat** , vous pouvez afficher les informations générales sur le certificat. Cliquez sur l’onglet **Détails** pour afficher des informations détaillées sur le certificat, par exemple le nom de l’objet et le nom de l’autre objet. Le chemin d’accès de certification affiche le chemin de la « chaîne de confiance » pour le certificat. Lorsque vous avez terminé de vérifier les informations sur le certificat, cliquez sur **OK**.
+La page **Afficher le certificat** présente un volet permettant de sélectionner un certificat valide dans le magasin de certificats local.  Vous pouvez sélectionner un certificat, puis cliquer sur **Afficher les détails du certificat**. Le certificat sera affiché dans un nouveau volet. Dans le volet **Certificat**, vous pouvez consulter les informations générales du certificat. Cliquez sur l’onglet **Détails** pour afficher des informations détaillées sur le certificat, comme le nom du sujet et l’autre nom du sujet. Le chemin de certification indique le chemin de la « chaîne d’approbation » du certificat. Lorsque vous avez terminé de consulter les informations du certificat, cliquez sur **OK**.
   
 

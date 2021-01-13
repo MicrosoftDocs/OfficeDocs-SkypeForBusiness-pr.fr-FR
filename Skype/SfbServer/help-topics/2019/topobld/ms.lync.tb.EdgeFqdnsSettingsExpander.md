@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres de noms de domaine complets du serveur Edge
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour modifier ou spécifier les paramètres externes des serveurs Edge, vous devez d’abord déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP (Session Initiation Protocol), le service Edge de conférence web et le service Edge audio/vidéo.
-ms.openlocfilehash: 4cf7d04ed94a867dcf1e351868cc205aac2439b0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour modifier ou spécifier des paramètres externes pour les serveurs Edge, vous devez d’abord déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP (Session Initiation Protocol), le service Edge de conférence Web et le service Edge audio/vidéo.
+ms.openlocfilehash: 11b8ea534a332e756e8effc89fcefcf4a3197832
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793812"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822574"
 ---
-# <a name="edge-server-fqdns-settings-expander"></a>Expanseur des paramètres de noms de domaine complets du serveur Edge
+# <a name="edge-server-fqdns-settings-expander"></a>Expandeur des paramètres de noms de domaine complets du serveur Edge
 
-Pour modifier ou spécifier les **paramètres externes** des serveurs Edge, vous devez d’abord déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP (Session Initiation Protocol), le service Edge de conférence web et le service Edge audio/vidéo.
+Pour modifier ou spécifier des **paramètres externes** pour les serveurs Edge, vous devez d’abord déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP (Session Initiation Protocol), le service Edge de conférence Web et le service Edge audio/vidéo.
 
-Si vous envisagez d’utiliser des adresses IP distinctes chaque fois, activez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Chaque service doit disposer d’un enregistrement d’hôte DNS (A) correspondant créé à cette fin.
+Si vous envisagez d’utiliser des adresses IP distinctes à chaque fois, activez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence Web et A/V**. Chaque service doit disposer d’un enregistrement d’hôte DNS (A) correspondant créé pour cela.
 
-Pour chacun des services côté externe, spécifiez un nom de domaine complet (FQDN) et un port associé. Par exemple, pour **Accès SIP**, vous pouvez utiliser sip.contoso.com avec le port 5061 associé.
-
-> [!IMPORTANT]
-> Si vous sélectionnez des noms de domaine complets distincts pour chaque service côté externe, une valeur de port unique doit être associée à chacun de ces services. Par défaut, le SIP est associé au port 5061/TLS, le service Edge de conférence web, au port 444/TLS et le service Edge de conférence A/V, au port 443/TLS. Si vous apportez des modifications à l’un de ces paramètres, y compris en utilisant un nom de domaine complet et d’adresses IP ou des ports distincts, vous devez mettre à jour tous les autres services qui dépendent des valeurs configurées initialement.
-
-Si vous déterminez que votre organisation utilisera un nom de domaine complet et une adresse IP uniques pour les services côté externe, désactivez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Vous pouvez ensuite modifier les valeurs du nom de domaine complet du pool et du port **Accès SIP**, si nécessaire.
+Pour chacun des services côté externe, spécifiez un nom de domaine complet (FQDN) et un port associé. Par exemple, pour **Accès SIP**, vous pouvez utiliser sip.contoso.com avec un port 5061 associé.
 
 > [!IMPORTANT]
-> Si vous apportez des modifications à l’un de ces paramètres, y compris en utilisant un nom de domaine complet et des adresses IP ou des ports distincts, vous devez mettre à jour tous les autres services qui dépendent des valeurs configurées initialement.
+> Si vous sélectionnez des noms de domaine complets distincts pour chaque service côté externe, chacun de ces services devra avoir une valeur de port unique associée. Par défaut, SIP se situe sur le port 5061/TLS, le service Edge de conférence web se situe sur le port 444/TLS et le service Edge de conférence A/V se situe sur le port 443/TLS. Si vous apportez des modifications à l’un de ces paramètres, y compris l’utilisation d’un nom de domaine complet et d’adresses IP ou de ports distincts, vous devez mettre à jour tous les autres services qui s’appuient sur les valeurs initialement configurées.
 
-Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, reportez-vous à la rubrique [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)
+Si vous déterminez que votre organisation utilisera un nom de domaine complet et une adresse IP uniques pour les services côté externe, désactivez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Vous pouvez ensuite modifier les valeurs du nom de domaine complet du port et du pool **Accès SIP**, si nécessaire.
+
+> [!IMPORTANT]
+> Si vous apportez des modifications à l’un de ces paramètres, y compris l’utilisation d’un nom de domaine complet et d’adresses IP ou de ports distincts, vous devez mettre à jour tous les autres services qui s’appuient sur les valeurs initialement configurées.
+
+Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, voir [Définir votre topologie Edge.](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)
 
 

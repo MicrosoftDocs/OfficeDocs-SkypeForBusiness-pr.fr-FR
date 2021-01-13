@@ -1,8 +1,8 @@
 ---
-title: Sélection des règles de normalisation
+title: Sélectionner des règles de normalisation
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
-description: Les règles de normalisation utilisent des expressions régulières .NET Framework pour convertir des numéros de téléphone composés au format E.164. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: d5e8e01d318082199919b193fa48aea0cbe1b355
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Les règles de normalisation utilisent des expressions régulières .NET Framework pour traduire les numéros de téléphone composés au format E.164. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
+ms.openlocfilehash: dda49bb8ae3a1ebce7eeb5b63877bd2cea323e86
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797831"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820104"
 ---
-# <a name="select-normalization-rules"></a>Sélection des règles de normalisation
+# <a name="select-normalization-rules"></a>Sélectionner des règles de normalisation
  
-Les règles de normalisation utilisent des expressions régulières .NET Framework pour convertir des numéros de téléphone composés au format E.164. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
+Les règles de normalisation utilisent des expressions régulières .NET Framework pour traduire les numéros de téléphone composés au format E.164. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
   
-Pour utiliser une règle de normalisation existante, sélectionnez une règle dans la liste, puis cliquez sur **OK**.
+Pour utiliser une règle de normalisation existante, cliquez sur une règle dans la liste, puis sur **OK**.
   
  
   

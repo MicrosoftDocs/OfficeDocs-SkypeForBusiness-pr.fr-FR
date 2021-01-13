@@ -1,13 +1,13 @@
 ---
-title: Exemple de script PowerShell-nettoyage du déploiement d’équipes
-author: LanaChin
-ms.author: v-lanac
+title: Exemple de script PowerShell - Nettoyage du déploiement de Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour désinstaller teams et supprimer le dossier teams pour les utilisateurs.
+description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le dossier Teams pour les utilisateurs.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7245e3cfee88beb51389f20bc99bbcc312f55b0
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: f4b0bac09e18a9c6378623066889d6b1a891a4a2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778910"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809484"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell-nettoyer le déploiement d’équipes
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - Nettoyage du déploiement teams
 
-Utilisez ce script pour supprimer Teams. Ce script désinstalle teams et supprime le dossier teams d’un utilisateur. Exécutez ce script pour chaque profil utilisateur dans lequel teams a été installée sur un ordinateur.
+Utilisez ce script pour supprimer Teams. Ce script désinstalle Teams et supprime le dossier Teams d’un utilisateur. Exécutez ce script pour chaque profil utilisateur dans lequel Teams a été installé sur un ordinateur.
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>Sujets associés
 
 - [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Déploiement d’équipes avec les applications Microsoft 365](https://docs.microsoft.com/deployoffice/teams-install)
+- [Déployer Teams avec les applications Microsoft 365](https://docs.microsoft.com/deployoffice/teams-install)

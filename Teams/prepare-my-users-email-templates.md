@@ -1,14 +1,14 @@
 ---
-title: Modèles de courrier électronique de notification des utilisateurs pour le lancement d’un système téléphonique en ligne
-author: lanachin
-ms.author: v-lanac
+title: Modèles d’e-mail de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Les modèles vous permettent d’envoyer des courriers électroniques aux utilisateurs lors de la mise en œuvre de fonctionnalités vocales Cloud dans teams ou Skype entreprise.
+description: Utilisez les modèles pour envoyer des e-mails aux utilisateurs lorsque vous implémentez les fonctionnalités vocales cloud dans Teams ou Skype Entreprise.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,28 +16,28 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137514"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812644"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Simplification de l’adoption par les utilisateurs de votre nouveau système téléphonique en ligne
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Faciliter l’adoption par les utilisateurs de votre nouveau système téléphonique en ligne
 
-Un téléphone peut être une ligne de vie d’un utilisateur. Le passage d’un système téléphonique traditionnel à un système téléphonique en ligne représente une modification importante du mode de fonctionnement des utilisateurs et peut affecter la productivité. Le temps d’informer, de guider et de prendre en charge les utilisateurs par le biais de ce changement peut vous aider à garantir une utilisation positive et à optimiser votre retour sur investissement.
+Un téléphone peut être la ligne de vie d’un utilisateur. Le basculement d’un système téléphonique traditionnel vers un système de téléphonie en ligne représente un changement significatif dans le mode de travail des utilisateurs et peut affecter négativement la productivité. Prendre le temps d’informer, de guider et de prendre en charge les utilisateurs tout au long de cette modification peut contribuer à garantir une expérience utilisateur positive et optimiser votre retour sur investissement.
 
-Cet article contient des modèles de courrier personnalisables permettant d’informer les utilisateurs de leur nouveau système téléphonique. Personnalisez et envoyez les messages électroniques appropriés pour les aligner sur votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections à des fins de personnalisation simplifiées, mais nous vous recommandons d’ajouter une messagerie spécifique à l’Organisation pour rendre l’annonce la plus pertinente pour vos utilisateurs. Le cas échéant, remplacez toutes les références à « teams » par « Skype entreprise ».
+Cet article contient des modèles de courrier électronique personnalisables pour aider les utilisateurs à se tenir informés de leur nouveau système téléphonique. Personnalisez et envoyez les e-mails appropriés pour les adapter à votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections afin de faciliter la personnalisation, mais nous vous recommandons d’ajouter une messagerie spécifique à l’organisation pour rendre l’annonce plus pertinente pour vos utilisateurs. Le cas échéant, remplacez toutes les références à « Teams » par « Skype Entreprise ».
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>E-mail numéro 1 : envoi de trois semaines avant le lancement
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Numéro d’e-mail 1 : Envoyer trois semaines avant le lancement
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +94,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>E-mail numéro 2 : envoi d’une semaine avant le lancement
+## <a name="email-number-2-send-one-week-before-launch"></a>Numéro de courrier 2 : envoyer une semaine avant le lancement
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +138,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Adresse e-mail numéro 3 : envoyer lors du lancement le jour
+## <a name="email-number-3-send-on-launch-day"></a>Numéro de courrier 3 : Envoyer le jour de lancement
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +175,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Adresse de messagerie numéro 4 : envoi de deux semaines après le lancement
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Numéro de courrier 4 : Envoyer deux semaines après le lancement
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

@@ -1,8 +1,8 @@
 ---
 title: tblADUpdates
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
-description: tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les étapes ultérieures de synchronisation Active Directory.
-ms.openlocfilehash: 6d50e065bd10e11383f606b2a4dfed0d5584cd1e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les étapes de synchronisation Active Directory ultérieures.
+ms.openlocfilehash: 16bb393eb57e7aaf8d3fea7001157eaabbe70c52
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814682"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821384"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  
-tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les étapes ultérieures de synchronisation Active Directory.
+tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les étapes de synchronisation Active Directory ultérieures.
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|prinGuid  <br/> |GUID, pas null  <br/> |GUID principal de l’objet qui a changé.  <br/> |
-|prinADPath  <br/> |nvarchar (384), pas null  <br/> |Nom unique de l’objet.  <br/> |
-|prinAttributesChanged  <br/> |bit, pas null  <br/> |Vrai si au moins un attribut de l’objet a changé.  <br/> |
-|prinMembersChanged  <br/> |bit, pas null  <br/> |True si l’appartenance a changé.  <br/> |
-|prinAffiliationsChanged  <br/> |bit, pas null  <br/> |Non utilisé.  <br/> |
-|prinDeleted  <br/> |bit, pas null  <br/> |True si l’objet a été supprimé.  <br/> |
-|lastUpdated  <br/> |DATEHEURE, pas null  <br/> |Horodatage de la date d’insertion de la ligne.  <br/> |
+|prinGuid  <br/> |GUID, non null  <br/> |GUID de principal de l’objet qui a changé.  <br/> |
+|prinADPath  <br/> |nvarchar (384), non null  <br/> |Nom unique de l’objet.  <br/> |
+|prinAttributesChanged  <br/> |bit, non null  <br/> |True si au moins un attribut de l’objet a changé.  <br/> |
+|prinMembersChanged  <br/> |bit, non null  <br/> |True si l’appartenance a changé.  <br/> |
+|prinAffiliationsChanged  <br/> |bit, non null  <br/> |Inutilisé.  <br/> |
+|prinDeleted  <br/> |bit, non null  <br/> |True si l’objet a été supprimé.  <br/> |
+|lastUpdated  <br/> |datetime, non null  <br/> |Horodatage de l’insertion de la ligne.  <br/> |
    
 

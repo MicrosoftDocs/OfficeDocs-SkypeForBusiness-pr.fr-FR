@@ -1,8 +1,8 @@
 ---
 title: Sélectionner le standard automatique de la messagerie unifiée Exchange
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
-description: Utilisez la boîte de dialogue Sélectionner le standard automatique de messagerie unifiée Exchange pour sélectionner un standard automatique de messagerie unifiée qui gérera les appels entrants dans une plage de numéros non attribués.
-ms.openlocfilehash: a6814133c60b57dadb73da0cd9b49fc2997c4ac0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Utilisez la boîte de dialogue Sélectionner le standard automatique de la messagerie unifiée Exchange pour sélectionner un standard automatique de la messagerie unifiée Exchange qui gèrera les appels entrants destinés à une plage de numéros non attribués.
+ms.openlocfilehash: 668e0fe6158c6767d0176536f621cbdae20a0000
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822227"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821914"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Sélectionner le standard automatique de la messagerie unifiée Exchange
  
-Utilisez la boîte de dialogue **Sélectionner le standard automatique de messagerie unifiée Exchange** pour sélectionner un standard automatique de messagerie unifiée qui gérera les appels entrants dans une plage de numéros non attribués.
+Utilisez la boîte de dialogue **Sélectionner le standard automatique de la messagerie unifiée Exchange** pour sélectionner un standard automatique de la messagerie unifiée Exchange qui gèrera les appels entrants destinés à une plage de numéros non attribués.
   
-Dans la zone de recherche, tapez tout ou partie du nom du standard automatique Exchange UM que vous souhaitez utiliser. Pour rétablir tous les standards automatiques de messagerie unifiée disponibles, laissez vide la zone de recherche et cliquez sur l’icône Rechercher.
+Dans la zone de recherche, tapez entièrement ou partiellement le nom du standard automatique de la messagerie unifiée Exchange que vous souhaitez utiliser. Pour retourner tous les standards automatiques de la messagerie unifiée Exchange disponibles, laissez la zone de recherche vide et cliquez sur l’icône de recherche.
   
-Dans la liste des standards automatiques de messagerie unifiée retournés par la recherche, sélectionnez le standard automatique que vous voulez utiliser pour gérer les appels entrants de la plage de numéros non attribués.
+Dans la liste des standards automatiques de la messagerie unifiée Exchange retournés par la recherche, sélectionnez le standard automatique que vous souhaitez utiliser pour gérer les appels entrants destinés à la plage de numéros non attribués.
   
 

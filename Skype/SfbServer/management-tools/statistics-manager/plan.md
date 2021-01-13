@@ -1,8 +1,8 @@
 ---
-title: Planifier le gestionnaire de statistiques pour Skype Entreprise Server
+title: Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Résumé : cette rubrique vous explique en savoir plus sur le gestionnaire de statistiques pour Skype entreprise Server.'
-ms.openlocfilehash: 0bf7a5366047a0f4435a98cd8bca75eeb3ebc8d7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype Entreprise Server.'
+ms.openlocfilehash: cdc536abcbd1bd98c4a3c7ce974247a716865582
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816233"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821824"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le gestionnaire de statistiques pour Skype Entreprise Server
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 
-**Résumé :** Consultez cette rubrique pour en savoir plus sur le gestionnaire de statistiques pour Skype entreprise Server.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype Entreprise Server.
 
- Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui permet de consulter Skype pour l’état et les performances des données entreprise Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques.
+ Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui vous permet d’afficher les données d’état et de performances de Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques.
 
-Vous pouvez utiliser le gestionnaire de statistiques pour identifier les problèmes de performances en cours, afficher les résultats d’un changement planifié pour votre environnement, suivre la résolution des pannes et bien plus encore. Le gestionnaire de statistiques est configuré à l’aide des seuils d’indicateur d’intégrité clé (KHI) et peut être personnalisé pour répondre aux besoins uniques de votre déploiement.
+Vous pouvez utiliser le Gestionnaire de statistiques pour identifier les problèmes de performances en cours, afficher les résultats d’une modification planifiée de votre environnement, suivre la résolution des pannes et bien plus encore. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment’s unique needs.
 
-Vous pouvez déployer le gestionnaire de statistiques dans un déploiement local dans lequel un serveur unique héberge tous les composants gestionnaires de statistiques côté serveur. Pour plus d’informations sur le déploiement du gestionnaire de statistiques, voir [déploiement de statistiques pour Skype entreprise Server](deploy.md). Si vous disposez déjà d’un déploiement de Statistics Manager, mais que vous n’avez pas encore effectué la mise à niveau vers la version 2,0, voir [Nouveautés de la version 2,0](plan.md#BKMK_WhatsNew) et [mise à niveau du gestionnaire de statistiques pour Skype entreprise Server](upgrade.md).
+Vous pouvez déployer le Gestionnaire de statistiques dans un déploiement local dans lequel un seul serveur héberge tous les composants du gestionnaire de statistiques côté serveur. Pour plus d’informations sur le déploiement du Gestionnaire de statistiques, voir [Deploy Statistics Manager for Skype for Business Server](deploy.md). Si vous avez déjà un déploiement existant du Gestionnaire de statistiques, mais que vous n’avez pas encore mis à niveau vers la version 2.0, consultez Les nouveautés de la version [2.0](plan.md#BKMK_WhatsNew) et le Gestionnaire de statistiques de mise à niveau pour [Skype Entreprise Server.](upgrade.md)
 
-Cette rubrique contient les sections suivantes :
+Cette rubrique comprend les sections suivantes :
 
-- [Fonctionnalités et fonctionnalités](plan.md#BKMK_Features)
+- [Fonctionnalités et fonctions](plan.md#BKMK_Features)
 
-- [Nouveautés de la version 2,0](plan.md#BKMK_WhatsNew)
+- [Nouveautés de la version 2.0](plan.md#BKMK_WhatsNew)
 
 - [Composants](plan.md#BKMK_Components)
 
@@ -42,92 +42,92 @@ Cette rubrique contient les sections suivantes :
 
 - [Configuration requise](plan.md#BKMK_Requirements)
 
-- [Considérations en matière de sécurité](plan.md#BKMK_Security)
+- [Considérations relatives à la sécurité](plan.md#BKMK_Security)
 
-## <a name="features-and-capabilities"></a>Fonctionnalités et fonctionnalités
+## <a name="features-and-capabilities"></a>Fonctionnalités et fonctions
 <a name="BKMK_Features"> </a>
 
-Le gestionnaire de statistiques vous permet d’effectuer les opérations suivantes :
+Le Gestionnaire de statistiques vous permet de :
 
-- Affichez des données brutes pour tous les serveurs en temps réel. (Les données sont échantillonnées à un tarif très élevé et envoyées au site Web en moins d’une seconde.)
+- Afficher les données brutes de tous les serveurs en temps réel. (Les données sont échantillon données à un taux très élevé et envoyées au site web en moins d’une seconde.)
 
-- Afficher des données agrégées pour un rôle spécifique ; par exemple, serveur frontal, serveur de médiation, serveur Edge, etc.
+- Afficher les données agrégées pour un rôle spécifique ; par exemple, serveur frontal, serveur de médiation, serveur Edge, etc.
 
-- Explorez les données vers le bas pour afficher les données de sites spécifiques, des pools spécifiques au sein du site, puis des serveurs spécifiques au sein de la liste.
+- Descendre pour afficher les données pour des sites spécifiques, des pools spécifiques au sein du site, puis des serveurs spécifiques au sein du pool.
 
-- Créez des graphiques personnalisés de telle sorte que les compteurs sélectionnés apparaissent par défaut.
+- Créez des graphiques personnalisés afin que les compteurs choisis soient affichés par défaut.
 
-- Effectuer un zoom et un panoramique sur les axes x et y ou sur l’axe x uniquement.
+- Zoom et panoramique sur les axes x et y ou sur l’axe x uniquement.
 
-- Utiliser des plages de dates ou des points dans le temps pour filtrer des données.
+- Utilisez des plages de dates ou des points dans l’heure pour filtrer les données.
 
-- Affichez les performances du serveur sur la base des indicateurs d’État clés (KHIs). KHIs représenter une collection de compteurs de performance avec une plage correcte définie.
+- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage d’état d’santé définie.
 
-- Affichez des mesures détaillées pour chaque compteur.
+- Afficher des mesures détaillées pour chaque compteur.
 
-- Comparer les données entre plusieurs populations ou serveurs.
+- Comparez les données entre plusieurs populations ou serveurs.
 
-- Afficher les rapports de compteurs latent pour identifier les agents qui ne signalent pas de données actuelles au service de tableau de bord.
+- Afficher les rapports de compteur latents pour identifier les agents qui ne signalent pas les données actuelles au service de tableau de bord.
 
 - Enregistrez une instance particulière de données de graphique dans un fichier.
 
-- Affichez KHIs en temps réel, y compris les mises à jour. Si la vue historique est activée, seules les nouvelles erreurs sont affichées.
+- Afficher les KHIs en temps réel, y compris les mises à jour. Si l’affichage Historique est activé, seuls les nouveaux échecs sont affichés.
 
-  - Afficher tous les KHIs en une seule fois
+  - Afficher toutes les khis en même temps
 
-  - Afficher KHIs par serveur (vue paysage)
+  - Afficher les KHIs par serveur (mode Paysage)
 
   - Afficher les définitions KHI
 
-## <a name="whats-new-in-release-20"></a>Nouveautés de la version 2,0
+## <a name="whats-new-in-release-20"></a>Nouveautés de la version 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-Les rubriques suivantes décrivent les nouveautés de la version 2,0. Si vous avez un déploiement de Statistics Manager et que vous n’avez pas encore effectué la mise à niveau, reportez-vous à la rubrique [mise à niveau du gestionnaire de statistiques pour Skype entreprise Server](upgrade.md).
+Ce qui suit décrit les nouveautés de la version 2.0. Si vous avez un déploiement existant du Gestionnaire de statistiques et que vous n’avez pas encore mis à niveau, voir [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
-- Des affichages de scénario ont été ajoutés pour des scénarios de média, d’intégrité de fabrique et de basculement de pool.
+- Des affichages de scénario ont été ajoutés pour les scénarios edge media, Fabric Health, Pool Failover et Registration.
 
-- De nombreux nouveaux compteurs ont été ajoutés pour les serveurs SQL Server, d’autres compteurs d’utilisation Skype entreprise, etc.
+- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs d’utilisation de Skype Entreprise, etc.
 
-- Intégration de nœud d’observateur pour l’agent gestionnaire de statistiques-si l’agent est installé sur un nœud de l’observateur, il signalera les statistiques de transaction synthétique en tant que compteurs aux statistiques Manager.
+- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au Gestionnaire de statistiques.
 
-- De nombreuses améliorations liées à la fiabilité et aux performances.
+- De nombreuses améliorations en matière de fiabilité et de performances.
 
-Pour vérifier la version du site Web du gestionnaire de statistiques que vous exécutez :
+Pour vérifier la version du site web du Gestionnaire de statistiques que vous exécutez :
 
-- Dans l’Explorateur de fichiers, ouvrez (répertoire par défaut) C:\Program Files\Skype entreprise Server Stats WebSite\bin
+- Dans l’Explorateur de fichiers, ouvrez (répertoire par défaut) C:\Program Files\Skype for Business Server StatsMan WebSite\bin
 
-- Cliquer avec le bouton droit sur StatsManHubWebSite. dll et afficher ses propriétés
+- Cliquez avec le bouton droit StatsManHubWebSite.dll et affichez ses propriétés
 
-- La version du produit s’affiche dans les détails de la description.
+- La version du produit s’affiche dans les détails de description.
 
 ## <a name="components"></a>Composants
 <a name="BKMK_Components"> </a>
 
-Le gestionnaire de statistiques comprend les composants suivants :
+Le Gestionnaire de statistiques se compose des composants suivants :
 
-- **Représentant.** Un agent léger qui s’exécute sur chaque serveur surveillé. L’agent autorise une interrogation de haut débit configurable des compteurs de performance avec une agrégation locale.
+- **Agent.** Agent léger qui s’exécute sur chaque serveur surveillé. L’agent permet l’interrogation à taux élevé configurable des compteurs de performance avec l’agrégation locale.
 
-- **Écouteur.** API côté serveur qui reçoit les données de tous les agents et agrège les données entre les populations.
+- **Listener.** API côté serveur qui reçoit des données de tous les agents et regroupe les données entre les populations.
 
-- **Raccord.** Sert d’API client pour le système, s’exécute sur le ou des serveurs Web et fournit des mises à jour de données en temps réel aux clients connectés via le site Web. (Le concentrateur est automatiquement installé en même temps que le site Web msi.)
+- **Hub.** Sert d’API cliente pour le système, s’exécute sur les serveurs web et fournit des mises à jour de données en temps réel aux clients connectés via le site web. (Le Hub est automatiquement installé dans le cadre du site web msi.)
 
-- **Associates.** Une interface utilisateur qui rassemble toutes les fonctionnalités disponibles dans le système.
+- **Site web.** Interface utilisateur qui rassemble toutes les fonctionnalités disponibles dans le système.
 
-De plus, le gestionnaire de statistiques nécessite des **ReDim**, un serveur de structure de données en source d’ouverture pour la mise en cache en mémoire. Pour plus d’informations sur le téléchargement de ReDim, voir [déploiement de statistiques](deploy.md#BKMK_Deploy) .
+En outre, le gestionnaire de statistiques requiert **Redis**, un serveur de structure de données open source pour la mise en cache en mémoire. Pour plus d’informations sur le téléchargement de Redis, voir [Deploy Statistics Manager](deploy.md#BKMK_Deploy) .
 
-## <a name="on-premises-deployment"></a>Déploiement local
+## <a name="on-premises-deployment"></a>Déploiement sur site
 <a name="BKMK_DeploymentOptions"> </a>
 
-Dans un déploiement local, un serveur unique héberge tous les composants du gestionnaire de statistiques côté serveur.
+Dans un déploiement local, un seul serveur héberge tous les composants du Gestionnaire de statistiques côté serveur.
 
-Le diagramme suivant illustre un déploiement local, dans lequel le site Web du gestionnaire de statistiques, le concentrateur, l’écouteur et le système de mise en cache de ReDim sont hébergés sur un seul ordinateur. Le gestionnaire de statistiques analyse trois serveurs Skype entreprise, chacun d’eux disposant d’un seul agent pour transmettre des données à l’écouteur. Les utilisateurs se connectent à un site Web unique pour afficher toutes les données agrégées par le gestionnaire de statistiques :
+Le diagramme suivant illustre un déploiement local, dans lequel le site web du gestionnaire de statistiques, le système de mise en cache Hub, Listener et Redis sont hébergés sur un seul ordinateur. Le Gestionnaire de statistiques surveille trois serveurs Skype Entreprise, chacun d’entre eux avec un seul agent transmettant des données à l’écoute. Les utilisateurs se connectent à un site web unique pour afficher toutes les données agrégées par le Gestionnaire de statistiques :
 
-![Déploiement sur site du gestionnaire de statistiques](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Déploiement local du gestionnaire des statistiques](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 <a name="BKMK_Requirements"> </a>
 
-Avant de déployer Statistics Manager, vous devez tenir compte des éléments suivants concernant le logiciel, la mise en réseau et la configuration matérielle requise.
+Vous devez prendre en compte les configurations logicielle, réseau et matérielle suivantes avant de déployer le Gestionnaire de statistiques.
 
 ### <a name="software-requirements"></a>Configuration logicielle requise
 
@@ -135,49 +135,49 @@ Avant de déployer Statistics Manager, vous devez tenir compte des éléments su
 
 - IIS (installé automatiquement)
 
-- Redis géré
+- Redis
 
-- Services du gestionnaire de statistiques (installés automatiquement)
+- Services du Gestionnaire de statistiques (installé automatiquement)
 
-- PSExec-requis pour le déploiement d’agent distant
+- PSExec - Obligatoire pour le déploiement d’agent distant
 
-- .NET 4,5 (inclus avec 2012 R2)-requis pour les agents et les composants côté serveur
-- Télécharger [Skype entreprise Server, gestionnaire de statistiques en temps réel (64)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- .NET 4.5 (inclus avec 2012 R2) : requis pour les agents et les composants côté serveur
+- Télécharger [skype entreprise server, Real-Time statistiques (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
-### <a name="networking-requirements"></a>Configuration réseau requise
+### <a name="networking-requirements"></a>Configuration de réseau requise
 
 
-|**Serveur d’hébergement**|**Agents**|**Écouteur**|
+|**Serveur d’hébergement**|**Agents**|**Listener**|
 |:-----|:-----|:-----|
-|Mise en réseau Gigabit duplex intégral minimum.  <br/> |Port TCP sortant 8443 (numéro de Port personnalisable) pour communiquer avec l’écouteur.  <br/> |Le port d’écoute doit être le même sur tous les serveurs.  <br/> |
-|Port TCP entrant 80 ou 443 ouvert pour héberger le site Web.  <br/> |||
-|Port TCP entrant 8443 (numéro de Port personnalisable) pour que les agents puissent communiquer avec lui.  <br/> |||
+|Réseau duplex complet gigabit minimum.  <br/> |Port TCP sortant 8443 (numéro de port personnalisable) pour communiquer avec l’port d’écoute.  <br/> |Le port d’écoute doit être le même sur tous les serveurs.  <br/> |
+|Le port TCP entrant 80 ou 443 s’ouvre pour héberger le site web.  <br/> |||
+|Port TCP entrant 8443 (numéro de port personnalisable) pour que les agents communiquent avec lui.  <br/> |||
 
-Lors de l’installation, les ports de pare-feu pour l’écouteur et le site Web sont automatiquement créés. Pour les agents, l’installation part du principe que les connexions TCP sortantes sont autorisées par défaut.
+Pendant l’installation, les ports de pare-feu pour l’port d’écoute et le site web sont automatiquement créés. Pour les agents, l’installation suppose que les connexions TCP sortantes sont autorisées par défaut.
 
 ### <a name="hardware-requirements"></a>Configuration matérielle requise
 
-Dans un déploiement local, dans lequel un serveur unique héberge tous les composants gestionnaires de statistiques côté serveur, un serveur doté de 16 Go de mémoire vive (RAM) et de 4 UC doit être en mesure de prendre en charge des exemples de 150 par seconde en moyenne. Pour déterminer le nombre de compteurs/agents pris en charge, procédez comme suit :
+Dans un déploiement local, dans lequel un seul serveur héberge tous les composants du gestionnaire de statistiques côté serveur, un serveur avec 16 Go de RAM et 4 processeurs doit pouvoir prendre en charge environ 150 échantillons par seconde en moyenne. Pour déterminer le nombre de compteurs/agents que vous pouvez prendre en charge, utilisez le calcul suivant :
 
-100 serveurs \*80 compteurs \* 1 exemple par minute de chaque agent/60 secondes = ~ 133 exemples par seconde.
+100 serveurs 80 compteurs 1 échantillon par minute de chaque \* \* agent / 60 secondes = ~ 133 échantillons par seconde.
 
 ## <a name="security-considerations"></a>Considérations en matière de sécurité
 <a name="BKMK_Security"> </a>
 
-Tout le trafic entre les serveurs est crypté.
+Tout le trafic entre les serveurs est chiffré.
 
-- Le trafic HTTPs chiffré sera envoyé via le port 8443 (par défaut) de l’agent au serveur d’écouteur.
+- Le trafic HTTPS chiffré sera envoyé sur le port 8443 (par défaut) de l’agent vers le serveur d’écoute.
 
-- L’agent vérifie l’empreinte SSL du serveur pour vérifier que le serveur de l’écouteur est le destinataire attendu. Notez que l’agent utilise la vérification de l’empreinte de certificat (au lieu de la vérification de la chaîne). Il n’effectue pas de validation de certificat complète, car il est possible d’utiliser des certificats auto-signés.
+- L’agent vérifie l’empreinte SSL sur le serveur pour s’assurer que le serveur d’écoute est le destinataire attendu. Notez que l’agent utilise la vérification de l’empreinte numérique du certificat (au lieu de la vérification de chaîne). Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.
 
-- Dès lors que l’agent est satisfait, l’écouteur est authentifié et un mot de passe est présenté par l’agent qui est ensuite vérifié par l’écouteur.
+- Une fois que l’agent est satisfait que l’écoute est authentifiée, un mot de passe est présenté par l’agent qui est ensuite vérifié par l’écoute.
 
-- L’agent commence à transmettre les données de performances par le biais de la connexion à l’écouteur.
+- L’agent commence à transmettre les données de performances sur la connexion à l’écoute.
 
 ## <a name="for-more-information"></a>Pour plus d'informations
 <a name="BKMK_Security"> </a>
 
-Pour plus d'informations, voir les articles suivants :
+Pour plus d'informations, consultez les articles suivants :
 
 - [Déploiement du gestionnaire de statistiques pour Skype Entreprise Server](deploy.md)
 

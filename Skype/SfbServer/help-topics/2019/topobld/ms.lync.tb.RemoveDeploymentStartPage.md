@@ -1,8 +1,8 @@
 ---
 title: Assistant Suppression du déploiement
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
-description: Exécutez l’Assistant Suppression du déploiement uniquement si vous souhaitez désactiver tout votre déploiement. Cet Assistant crée une topologie vide composée d’un serveur frontal unique. Après avoir exécuté cet Assistant et publié la topologie vide, vous ne pouvez pas revenir à votre topologie d’origine.
-ms.openlocfilehash: d5724dacfb4ec1f13b7e2a2f5a5350e9d6f87366
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: N’exécutez l’Assistant Suppression du déploiement que si vous souhaitez désactiver l’intégralité de votre déploiement. Cet Assistant crée une topologie vide qui comprend un seul serveur frontal. Après avoir exécuté cet Assistant et publié la topologie vide, vous ne pouvez pas rétablir votre topologie d’origine.
+ms.openlocfilehash: 3aaba62ae445cb0be9f674cdba21dfc14d9b61be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797215"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822084"
 ---
 # <a name="remove-deployment-introduction"></a>Assistant Suppression du déploiement
  
-Exécutez l' **Assistant Suppression du déploiement** uniquement si vous souhaitez désactiver tout votre déploiement. Cet Assistant crée une topologie vide composée d’un serveur frontal unique. Après avoir exécuté cet Assistant et publié la topologie vide, vous ne pouvez pas revenir à votre topologie d’origine.
+N’exécutez l’**Assistant Suppression du déploiement** que si vous souhaitez désactiver l’intégralité de votre déploiement. Cet Assistant crée une topologie vide qui comprend un seul serveur frontal. Après avoir exécuté cet Assistant et publié la topologie vide, vous ne pouvez pas rétablir votre topologie d’origine.
   
 > [!IMPORTANT]
-> Avant de cliquer sur **suivant**, veillez à supprimer les ordinateurs inactifs, tous les utilisateurs et points de terminaison des communications unifiées, et supprimez tous les répertoires de conférences tels qu’ils sont indiqués dans la première page de l’Assistant. 
+> Avant de cliquer sur **Suivant**, assurez-vous de supprimer tous les ordinateurs inactifs, de désactiver tous les utilisateurs et les systèmes d’extrémité des communications unifiées, et de supprimer tous les annuaires de conférence tel qu’indiqué sur la première page de l’Assistant. 
   
 

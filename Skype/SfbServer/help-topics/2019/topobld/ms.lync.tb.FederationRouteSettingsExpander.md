@@ -1,8 +1,8 @@
 ---
-title: Développeur des paramètres d’itinéraire de fédération
+title: Expanseur des paramètres d’itinéraire de fédération
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour définir une affectation de routage de Fédération de site, vous devez d’abord disposer de la Fédération sur le serveur Edge ou le pool de serveurs Edge. Si la Fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’attribution de l’itinéraire de Fédération pour le site ne seront pas disponibles à des fins de modification.
-ms.openlocfilehash: fafc576e3fd3a3c33d17728437c8472eaf1a57e9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour configurer l’affectation d’itinéraire de fédération d’un site, vous devez d’abord activer la fédération sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur ou pool de serveurs Edge, il ne sera pas possible de modifier les paramètres d’affectation de l’itinéraire de fédération du site.
+ms.openlocfilehash: 9e453eae2ca44b0e6f406aa6767bc44b741bd3b6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793692"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819464"
 ---
-# <a name="federation-route-settings-expander"></a>Développeur des paramètres d’itinéraire de fédération
+# <a name="federation-route-settings-expander"></a>Expandeur des paramètres d’itinéraire de fédération
  
-Pour définir une affectation de routage de Fédération de site, vous devez d’abord disposer de la Fédération sur le serveur Edge ou le pool de serveurs Edge. Si la Fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’attribution de l’itinéraire de Fédération pour le site ne seront pas disponibles à des fins de modification.
+Pour configurer l’affectation d’itinéraire de fédération d’un site, vous devez d’abord activer la fédération sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur ou pool de serveurs Edge, il ne sera pas possible de modifier les paramètres d’affectation de l’itinéraire de fédération du site.
 
-Si le paramètre de Fédération sur le serveur Edge ou le pool a été configuré, vous pouvez configurer les options suivantes : 
+Si le paramètre de fédération du serveur Edge ou pool de serveurs Edge a été configuré, vous pouvez configurer les options suivantes : 
   
-- **Autoriser les affectations de routage de Fédération à tous les sites** Ce paramètre affecte tous les sites. Assurez-vous que le paramètre que vous configurez sur ce site est approprié pour tous les sites.
+- **Autoriser les affectations d’itinéraires de fédération à tous les sites** Ce paramètre affectera tous les sites. Assurez-vous que le paramètre que vous configurez pour ce site s’adapte à tous les sites.
     
-- **Activer la Fédération SIP** Sélectionnez cette option pour activer un itinéraire de Fédération SIP, puis sélectionnez un directeur ou un pool d’arêtes en tant qu’itinéraire de Fédération.
+- **Activer la fédération SIP** Sélectionnez cette option pour activer un itinéraire de fédération SIP, puis sélectionnez un directeur ou un pool edge comme itinéraire de fédération.
     
-- **Activer la Fédération XMPP** Sélectionnez cette option pour activer un itinéraire de Fédération XMPP, puis sélectionnez un réalisateur ou un pool d’arêtes en tant qu’itinéraire de Fédération.
+- **Activer la fédération XMPP** Sélectionnez cette option pour activer un itinéraire de fédération XMPP, puis sélectionnez un directeur ou un pool edge comme itinéraire de fédération.
 - 
   > [!NOTE]
-  > Les passerelles et les proxys XMPP sont disponibles dans Skype entreprise Server 2015, mais ne sont plus pris en charge dans Skype entreprise Server 2019. Pour plus d’informations, consultez la section migration de la [Fédération XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+  > Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour [plus d’informations, voir](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) Migration de la fédération XMPP.
     
 

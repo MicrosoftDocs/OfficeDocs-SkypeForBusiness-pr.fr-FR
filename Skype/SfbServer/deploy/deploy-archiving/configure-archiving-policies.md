@@ -1,8 +1,8 @@
 ---
-title: Configuration de stratégies d’archivage pour Skype entreprise Server
+title: Configurer des stratégies d’archivage pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,47 +11,47 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
-description: 'Résumé : cette rubrique vous explique comment configurer les stratégies d’archivage initial pour les utilisateurs de Skype entreprise Server.'
-ms.openlocfilehash: ff946fe2fde2fcd8aae842e809a89bffb7852bca
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer les stratégies d’archivage initiales pour les utilisateurs de Skype Entreprise Server.'
+ms.openlocfilehash: ab737305561aa20c873bbce6e0f075d17fedd0d6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769207"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820854"
 ---
-# <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configuration de stratégies d’archivage pour Skype entreprise Server
+# <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurer des stratégies d’archivage pour Skype Entreprise Server
  
-**Résumé :** Pour plus d’informations sur la configuration des stratégies d’archivage initial pour les utilisateurs de Skype entreprise Server, reportez-vous à cette rubrique.
+**Résumé :** Lisez cette rubrique pour découvrir comment configurer les stratégies d’archivage initiales pour les utilisateurs de Skype Entreprise Server.
   
-Dans Skype entreprise Server, vous utilisez des stratégies pour activer et désactiver l’archivage des communications internes et des communications externes pour les utilisateurs qui sont hébergés sur Skype entreprise Server. Il s’agit notamment de ce qui suit :
+Dans Skype Entreprise Server, vous utilisez des stratégies pour activer et désactiver l’archivage des communications internes et externes pour les utilisateurs qui sont homed sur Skype Entreprise Server. Les voici :
   
-- Politique globale créée par défaut lors du déploiement de Skype entreprise Server
+- Stratégie globale créée par défaut lorsque vous déployez Skype Entreprise Server
     
-- Stratégies facultatives au niveau site qui définissent de quelle manière l’archivage est implémenté pour un site spécifique
+- Stratégies facultatives au niveau du site qui spécifient la façon dont l’archivage est implémenté pour un site spécifique
     
-- Stratégies de niveau utilisateur facultatives qui spécifient la façon dont l’archivage est implémenté pour des utilisateurs spécifiques
+- Stratégies facultatives au niveau de l’utilisateur qui spécifient la façon dont l’archivage est implémenté pour des utilisateurs spécifiques
     
-Vous définissez les stratégies d’archivage lors du déploiement initial de l’archivage, mais vous pouvez modifier et supprimer des stratégies existantes, ou en ajouter de nouvelles, à tout moment après le déploiement. Dans le panneau de configuration Skype entreprise Server, vous pouvez utiliser la page de **stratégie d’archivage** du groupe **archivage et surveillance** pour gérer les stratégies aux niveaux global, site et utilisateur.
+Vous définissez initialement les stratégies d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des stratégies après le déploiement. Dans le Panneau de contrôle Skype Entreprise Server, vous  pouvez utiliser la **page** Stratégie d’archivage du groupe Archivage et surveillance pour gérer les stratégies au niveau global, du site et de l’utilisateur.
   
 > [!NOTE]
-> Pour contrôler l’implémentation de l’archivage, vous devez définir certaines options, notamment spécifier si les messages instantanés ou les conférences doivent être archivés, si le mode critique est utilisé et les options de vidage. Par défaut, aucune option n’est activée dans la configuration de l’archivage global ni dans la configuration de l’archivage de site ou de pool. Vous devez définir toutes les options appropriées avant d’activer l’archivage des communications internes ou externes. Pour plus d’informations, reportez-vous à [configurer les options d’archivage de Skype entreprise Server](configure-archiving-options.md). 
+> Pour contrôler l’implémentation de l’archivage, vous devez spécifier des options, telles que l’archivage de la messagerie instantanée ou de la conférence, l’utilisation du mode critique et les options de purge. Par défaut, aucune option n’est activée dans la configuration de l’archivage global ou dans toute configuration d’archivage de site ou de pool. Vous devez spécifier toutes les options appropriées avant d’activer l’archivage pour les communications internes ou externes. Pour plus d’informations, [voir Configurer les options d’archivage pour Skype Entreprise Server.](configure-archiving-options.md) 
   
 > [!NOTE]
-> Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, Exchange stratégies de conservation inaltérable déterminent si l’archivage est activé pour les utilisateurs hébergés sur Exchange et que leurs boîtes aux lettres sont placées dans la conservation inaltérable. 
+> Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, les stratégies d’archive In-Place Exchange contrôlent si l’archivage est activé pour les utilisateurs qui sont homed on Exchange et dont les boîtes aux lettres sont mises en In-Place archive. 
   
-Pour plus d’informations sur le fonctionnement des stratégies d’archivage, y compris la hiérarchie des stratégies globales, de site et d’utilisateur, reportez-vous à la rubrique [planification de l’archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur la gestion des stratégies après le déploiement, voir [gérer les stratégies d’archivage dans Skype entreprise Server](../../manage/archiving/policies.md).
+Pour plus d’informations sur le fonctionnement des stratégies d’archivage, notamment la hiérarchie des stratégies globales, de site et utilisateur, voir Planifier l’archivage dans [Skype Entreprise Server.](../../plan-your-deployment/archiving/archiving.md) Pour plus d’informations sur la gestion des stratégies après le déploiement, voir Gérer les stratégies [d’archivage dans Skype Entreprise Server.](../../manage/archiving/policies.md)
   
 ## <a name="global-policy"></a>Stratégie globale
 
-Lorsque vous déployez vos serveurs frontaux, Skype entreprise Server crée une stratégie globale d’archivage. Par défaut, l’archivage est désactivé dans la stratégie globale. La stratégie globale contrôle l’activation de l’archivage pour les communications internes et externes pour votre déploiement complet, sauf si vous configurez des stratégies de site ou d’utilisateur qui remplacent la stratégie globale ou si vous utilisez l’intégration de Microsoft Exchange pour tout ou partie de vos utilisateurs. Si vous utilisez l’intégration de Microsoft Exchange, la stratégie global ne s’applique pas aux utilisateurs hébergés sur Exchange et ayant recours à des boîtes aux lettres en conservation inaltérable.
+Lorsque vous déployez vos serveurs frontux, Skype Entreprise Server crée une stratégie globale pour l’archivage. Par défaut, l’archivage est désactivé dans la stratégie globale. La stratégie globale contrôle si l’archivage est activé pour les communications internes et externes pour l’ensemble de votre déploiement, sauf si vous avez mis en place des stratégies de site ou d’utilisateur, qui remplacent la stratégie globale, ou si vous utilisez l’intégration de Microsoft Exchange pour une partie ou la totalité de vos utilisateurs. Si vous utilisez l’intégration Microsoft Exchange, la stratégie globale ne s’applique pas aux utilisateurs qui sont homed on Exchange et dont les boîtes aux lettres sont In-Place en attente.
   
-### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Configurer la politique globale de l’archivage pour les bases de données d’archivage de Skype entreprise Server
+### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Configurer la stratégie globale pour l’archivage des bases de données d’archivage Skype Entreprise Server
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     
 4. Dans la page **Stratégie d’archivage**, cliquez sur **Global**, sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -59,7 +59,7 @@ Lorsque vous déployez vos serveurs frontaux, Skype entreprise Server crée une 
     
    - Dans **Nom**, si vous ne souhaitez pas utiliser le nom par défaut Global, spécifiez un nouveau nom pour la stratégie globale. 
     
-   - Dans **Description**, entrez les informations relatives à la stratégie (par exemple, stratégie générale pour *divisionName* ).
+   - Dans **description,** fournissez des informations sur la stratégie (par exemple, stratégie globale pour  *divisionName*  .
     
    - Afin de contrôler l’archivage des communications internes pour tous les sites et utilisateurs qui ne sont pas spécifiquement contrôlés via une stratégie de site ou une stratégie utilisateur, activez ou désactivez la case à cocher **Archiver les communications internes**.
     
@@ -69,19 +69,19 @@ Lorsque vous déployez vos serveurs frontaux, Skype entreprise Server crée une 
     
 ## <a name="site-policies"></a>Stratégies de site
 
-Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en créant une stratégie d’archivage pour chacun de ces sites. Une stratégie de site remplace la stratégie globale, mais les stratégies utilisateur remplacent les stratégies de site. Les stratégies d’archivage ne s’appliquent que si vous n’utilisez pas l’intégration de Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais que certains utilisateurs ne sont pas hébergés sur Exchange et que leurs boîtes aux lettres sont placées sur le blocage sur place.
+Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en créant une stratégie d’archivage pour chacun de ces sites. Une stratégie de site remplace la stratégie globale, mais les stratégies utilisateur remplacent les stratégies de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou, si vous utilisez l’intégration Microsoft Exchange, mais que certains utilisateurs ne sont pas dos à exchange et dont les boîtes aux lettres sont mises en In-Place.
   
 ### <a name="create-an-archiving-policy-for-a-site"></a>Créer une stratégie d’archivage pour un site
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     
-    Pour plus d’informations sur le fonctionnement des stratégies d’archivage, y compris la hiérarchie des stratégies globales, de site et d’utilisateur, reportez-vous à la rubrique [planification de l’archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md).
+    Pour plus d’informations sur le fonctionnement des stratégies d’archivage, notamment la hiérarchie des stratégies globales, de site et utilisateur, voir Planifier l’archivage dans [Skype Entreprise Server.](../../plan-your-deployment/archiving/archiving.md)
     
-4. Cliquez sur **Créer**, puis sur **Stratégie de site**.
+4. Cliquez sur **Nouveau**, puis sur **Stratégie de site**.
     
 5. Dans **Sélectionner un site**, cliquez sur le site auquel la stratégie doit s’appliquer.
     
@@ -99,17 +99,17 @@ Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en 
     
 ## <a name="user-policies"></a>Stratégies utilisateur
 
-Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiques en créant et en configurant une stratégie d’archivage pour les utilisateurs, puis en appliquant la stratégie à des utilisateurs spécifiques ou à des groupes d’utilisateurs. Les stratégies utilisateur remplacent les stratégies globales ou de site. Les stratégies d’archivage ne s’appliquent que si vous n’utilisez pas l’intégration de Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais que certains utilisateurs ne sont pas hébergés sur Exchange et que leurs boîtes aux lettres sont placées sur le blocage sur place.
+Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiques en créant et en configurant une stratégie d’archivage pour les utilisateurs, puis en appliquant la stratégie à des utilisateurs ou groupes d’utilisateurs spécifiques. Les stratégies utilisateur remplacent les stratégies globales ou de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou, si vous utilisez l’intégration Microsoft Exchange, mais que certains utilisateurs ne sont pas dos à exchange et dont les boîtes aux lettres sont mises en In-Place.
   
-### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurer une stratégie d’archivage pour les utilisateurs hébergés sur Skype entreprise Server
+### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurer une stratégie d’archivage pour les utilisateurs sur Skype Entreprise Server
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     
-4. Cliquez sur **Créer**, puis sur **Stratégie utilisateur**.
+4. Cliquez sur **Nouvelle**, puis sur **Stratégie utilisateur**.
     
 5. Dans **Nouvelle stratégie d’archivage**, procédez comme suit :
     
@@ -124,20 +124,20 @@ Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiq
 6. Cliquez sur **Valider**.
     
 Une stratégie utilisateur ne s’applique qu’aux utilisateurs auxquels vous affectez la stratégie.
-### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a>Appliquer une stratégie d’archivage de Skype entreprise Server à un utilisateur
+### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a>Appliquer une stratégie d’archivage Skype Entreprise Server à un utilisateur
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur que vous souhaitez configurer.
     
 4. Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans **modifier l’utilisateur de Skype entreprise Server** sous **stratégie d’archivage**, sélectionnez la stratégie de l’utilisateur d’archivage que vous voulez appliquer.
+5. Dans **Modifier l’utilisateur Skype Entreprise Server sous** stratégie d’archivage, sélectionnez la stratégie d’utilisateur d’archivage à appliquer. 
     
     > [!NOTE]
-    > Les ** \<paramètres\> automatiques** appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
+    > Les **\<Automatic\>** paramètres appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     

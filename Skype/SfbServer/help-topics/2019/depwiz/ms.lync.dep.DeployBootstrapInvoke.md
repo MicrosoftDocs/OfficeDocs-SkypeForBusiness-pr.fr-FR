@@ -1,8 +1,8 @@
 ---
 title: Installer ou supprimer des composants Skype Entreprise Server (appel)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
-description: Les commandes exécuter permettent d’afficher un résumé des tâches exécutées pour déployer le rôle de serveur. Une fois les tâches terminées (déploiement et activation, ou désactivation et désinstallation), un résumé est affiché. Par ailleurs, dans la liste déroulante, vous pouvez sélectionner n’importe quel fichier journal créé lors de l’exécution des commandes. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher, puis cliquez sur Afficher le journal.
-ms.openlocfilehash: 6c8e19b353c7aeceddfdc780a8e92cb001afb82a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Exécution de commandes affiche un résumé de l’exécution des tâches qui sont exécutées pour déployer le rôle serveur. Une fois les tâches terminées (déploiement et activation, désactivation et désinstallation), un résumé s’affiche. Par ailleurs, dans la liste déroulante, vous pouvez sélectionner n’importe quel fichier journal créé à l’exécution des commandes. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher et cliquez sur Afficher le journal.
+ms.openlocfilehash: 0e6638e9eaf8fc9d6f17bb204a5e97d386d8956e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796915"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820514"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Installer ou supprimer des composants Skype Entreprise Server (appel)
  
-Les **commandes exécuter** permettent d’afficher un résumé des tâches exécutées pour déployer le rôle de serveur. Une fois les tâches terminées (déploiement et activation, ou désactivation et désinstallation), un résumé est affiché. Par ailleurs, dans la liste déroulante, vous pouvez sélectionner n’importe quel fichier journal créé lors de l’exécution des commandes. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher, puis cliquez sur **afficher le journal**.
+La page **Exécution de commandes** affiche un résumé de l’exécution des tâches qui sont exécutées pour déployer le rôle serveur. Une fois les tâches terminées (déploiement et activation, désactivation et désinstallation), un résumé s’affiche. Par ailleurs, dans la liste déroulante, vous pouvez sélectionner n’importe quel fichier journal créé à l’exécution des commandes. Utilisez la liste déroulante pour sélectionner le fichier journal que vous souhaitez afficher et cliquez sur **Afficher le journal**.
   
-Lorsque vous avez fini de consulter le résumé et les fichiers journaux, cliquez sur **Terminer**.
+Lorsque vous avez terminé de passer en revue le résumé et les fichiers journaux, cliquez sur **Terminer**.
   
 

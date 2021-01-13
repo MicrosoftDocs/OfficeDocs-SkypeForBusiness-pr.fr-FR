@@ -1,8 +1,8 @@
 ---
-title: Table FocusJoinsAndLeaves dans Skype entreprise Server 2015
+title: Table FocusJoinsAndLeaves dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
-description: Chaque enregistrement de cette table contient les informations CDR relatives à la jointure d’un utilisateur et laisse des informations pour une seule conférence. Chaque conférence est représentée dans ce tableau par un seul enregistrement pour chaque fois qu’un utilisateur rejoint et quitte la Conférence.
-ms.openlocfilehash: ac5e2b7316dd7d3477d76675d3a3960154b90f35
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Chaque enregistrement de cette table contient les informations d’enregistrement des détails des détails des opérations sur la rejoindre et quitter des informations pour une conférence. Chaque conférence est représentée dans ce tableau par un enregistrement chaque fois qu’un utilisateur rejoint et quitte la conférence.
+ms.openlocfilehash: ea3af4da259fe4186a3fa3937fd2977779dafeaa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815182"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821624"
 ---
-# <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Table FocusJoinsAndLeaves dans Skype entreprise Server 2015
+# <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Table FocusJoinsAndLeaves dans Skype Entreprise Server 2015
  
-Chaque enregistrement de cette table contient les informations CDR relatives à la jointure d’un utilisateur et laisse des informations pour une seule conférence. Chaque conférence est représentée dans ce tableau par un seul enregistrement pour chaque fois qu’un utilisateur rejoint et quitte la Conférence.
+Chaque enregistrement de cette table contient les informations d’enregistrement des détails des détails des opérations sur la rejoindre et quitter des informations pour une conférence. Chaque conférence est représentée dans ce tableau par un enregistrement chaque fois qu’un utilisateur rejoint et quitte la conférence.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Etranger principal  <br/> |Durée de l’instance de conférence. Utilisé conjointement avec **SessionIdSeq** pour identifier de manière unique une instance de conférence. Pour plus d’informations, consultez le [tableau conférences dans Skype entreprise Server 2015](conferences.md) . <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Etranger principal  <br/> |Numéro d’identification pour identifier l’instance de conférence. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une instance de conférence. Pour plus d’informations, consultez le [tableau conférences dans Skype entreprise Server 2015](conferences.md) . <br/> |
-|**DialogSessionIdTime** <br/> |DateHeure  <br/> |Etranger principal  <br/> |Durée de la demande de session. Utilisé conjointement avec **SessionIdSeq** pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |Etranger principal  <br/> |IDENTIFIant de la session. Utilisé conjointement avec **SessionIdTime** pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
-|**UserId** <br/> |int  <br/> |Externes  <br/> |Numéro unique identifiant cet utilisateur, référencé dans la [table utilisateurs](users.md).  <br/> |
-|**FocusUserInstance** <br/> |int  <br/> ||Si un utilisateur ouvre une session sur plusieurs ordinateurs ou appareils en même temps, **UserInstance** est utilisé pour identifier de façon unique la combinaison utilisateur/appareil. <br/> |
-|**IsUserInternal** <br/> |bit  <br/> | <br/> |Si l’utilisateur s’est connecté à partir d’une connexion interne ou non.  <br/> |
-|**Rôleutilisateur** <br/> |int  <br/> | <br/> |Le rôle de cet utilisateur dans la Conférence, comme le présentateur ou le participant.  <br/> |
-|**UserJoinTime** <br/> |DateHeure  <br/> | <br/> |Heure à laquelle l’utilisateur rejoint la Conférence.  <br/> |
-|**UserLeaveTime** <br/> |DateHeure  <br/> | <br/> |Heure à laquelle l’utilisateur quitte la Conférence.  <br/> |
-|**ClientVerId** <br/> |int  <br/> |Externes  <br/> |Version du logiciel client de l’utilisateur, référencée dans la [table ClientVersions dans Skype entreprise Server 2015](clientversions.md).  <br/> |
-|**UserEndpointId** <br/> |Identificateur  <br/> ||Identifiant unique global (GUID) du point de terminaison utilisé dans la Conférence.  <br/> Ce champ a été présenté dans Microsoft Lync Server 2013.  <br/> |
-|**LastModifiedTime** <br/> |Valeur  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Skype entreprise Server 2015.  <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de l’instance de conférence. Utilisé conjointement avec **SessionIdSeq** pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification de l’instance de conférence. Utilisé conjointement avec **SessionIdTime pour** identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |
+|**DialogSessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Pour plus d’informations, voir la table Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
+|**UserId** <br/> |int  <br/> |Étranger  <br/> |Numéro unique identifiant cet utilisateur, référencé à partir de la [table Utilisateurs](users.md).  <br/> |
+|**FocusUserInstance** <br/> |int  <br/> ||Si un utilisateur est connecté à plusieurs ordinateurs ou appareils en même temps, **UserInstance** est utilisé pour identifier de manière unique la combinaison utilisateur/appareil. <br/> |
+|**IsUserInternal** <br/> |bit  <br/> | <br/> |Que l’utilisateur se soit connecté en interne ou non.  <br/> |
+|**UserRole** <br/> |int  <br/> | <br/> |Rôle de cet utilisateur dans la conférence, tel que présentateur ou participant.  <br/> |
+|**UserJoinTime** <br/> |DateHeure  <br/> | <br/> |Heure à où cet utilisateur rejoint la conférence.  <br/> |
+|**UserLeaveTime** <br/> |DateHeure  <br/> | <br/> |Heure à partir de la fin de la conférence pour cet utilisateur.  <br/> |
+|**ClientVerId** <br/> |int  <br/> |Étranger  <br/> |Version du logiciel client de l’utilisateur, référencé à la [table ClientVersions dans Skype Entreprise Server 2015](clientversions.md).  <br/> |
+|**UserEndpointId** <br/> |uniqueIdentifier  <br/> ||Identificateur global unique (GUID) du point de terminaison utilisé dans la conférence.  <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||Réservé à un usage interne par le service de surveillance.  <br/> Ce champ a été introduit dans Skype Entreprise Server 2015.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Créer des itinéraires réseau interrégionals dans Skype entreprise Server
+title: Créer des itinéraires interrégion réseau dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: Créez ou modifiez des itinéraires interrégions réseau qui sont utilisés par le contrôle d’admission des appels vocaux d’entreprise dans Skype entreprise Server.
-ms.openlocfilehash: 2a55e3e2028494a8bc9dc25164eaa67b08d35f83
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Créez ou modifiez des itinéraires interrégion réseau, qui sont utilisés par Voix Entreprise d’admission des appels dans Skype Entreprise Server.
+ms.openlocfilehash: 86b7cf9e41cb20d82f0c3c6edd6bcbd74331d553
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767927"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822494"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Créer des itinéraires réseau interrégionals dans Skype entreprise Server
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Créer des itinéraires interrégion réseau dans Skype Entreprise Server
  
-Créez ou modifiez des itinéraires interrégions réseau qui sont utilisés par le contrôle d’admission des appels vocaux d’entreprise dans Skype entreprise Server. 
+Créez ou modifiez des itinéraires interrégion réseau, qui sont utilisés par Voix Entreprise d’admission des appels dans Skype Entreprise Server. 
   
 Un itinéraire interrégion réseau définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels nécessite un itinéraire interrégion réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
   
-Alors que les liens de région définissent les limitations de bande passante sur les connexions entre les régions, un itinéraire interrégion détermine le chemin lié emprunté par la connexion pour aller d’une région à l’autre.
+Alors que les liaisons de région définissent des restrictions de bande passante sur les connexions entre les régions, un itinéraire interrégion détermine le chemin d’accès lié que la connexion traversera d’une région à une autre.
   
-Dans l’exemple de topologie, les itinéraires interrégion réseau doivent être définis pour chacune des trois paires de régions : Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC. 
+Dans l’exemple de topologie, des itinéraires interrégion réseau doivent être définis pour chacune des trois paires de régions : Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Pour créer des itinéraires interrégions du réseau à l’aide de Skype entreprise Server Management Shell
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Pour créer des itinéraires interrégion réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
 2. Exécutez l’applet de commande **New-CsNetworkInterRegionRoute** pour définir les itinéraires nécessaires. Par exemple, exécutez :
     
@@ -52,11 +52,11 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
    ```
 
     > [!NOTE]
-    > L’itinéraire interrégion réseau Amérique du Nord/APAC nécessite deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles. 
+    > L’itinéraire interrégion réseau Amérique du Nord/APAC nécessite deux liaisons de région réseau, car il n’existe aucun lien de région réseau direct entre elles. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Pour créer des itinéraires interrégions du réseau à l’aide de Skype entreprise Server panneau de configuration
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Pour créer des itinéraires interrégion réseau à l’aide du Panneau de contrôle Skype Entreprise Server
 
-1. Ouvrez le panneau de configuration Skype entreprise Server.
+1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
@@ -64,20 +64,20 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
     
 4. Cliquez sur **Nouveau**.
     
-5. Dans la page **Nouvel itinéraire de région**, cliquez sur **Nom**, puis tapez un nom pour l’itinéraire interrégion réseau.
+5. Dans la page **Nouvel itinéraire de** région, cliquez sur **Nom,** puis tapez un nom pour l’itinéraire interrégion réseau.
     
-6. Cliquez sur **Région réseau n° 1**, puis, dans la liste, cliquez sur une région réseau à router vers la région réseau n° 2.
+6. Cliquez sur **Région réseau n° 1**, puis cliquez dans la liste sur une région réseau que vous souhaitez acheminer vers la région réseau n° 2.
     
-7. Cliquez sur **Région réseau n° 2**, puis, dans la liste, cliquez sur une région réseau à router vers la région réseau n° 1.
+7. Cliquez sur **Région réseau n° 2**, puis cliquez dans la liste sur une région réseau que vous souhaitez acheminer vers la région réseau n° 1.
     
-8. Cliquez sur **Ajouter** en regard du champ **Liens de région réseau**, puis ajoutez un lien de région réseau qui sera utilisé dans l’itinéraire interrégion réseau.
+8. Cliquez **sur Ajouter** en **dehors** du champ Liens de région réseau, puis ajoutez un lien de région réseau qui sera utilisé dans l’itinéraire interrégion réseau.
     
     > [!NOTE]
-    > Si vous créez un itinéraire pour deux régions réseau qui n’ont pas de lien de région réseau direct entre elles, vous devez ajouter tous les liens nécessaires pour terminer l’itinéraire. Par exemple, l’itinéraire interrégion réseau Amérique du Nord/APAC nécessite deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles. 
+    > Si vous créez un itinéraire pour deux régions réseau qui n’ont pas de lien de région réseau direct entre elles, vous devez ajouter tous les liens nécessaires pour terminer l’itinéraire. Par exemple, l’itinéraire interrégion réseau Amérique du Nord/APAC nécessite deux liaisons de région réseau, car il n’existe aucun lien de région réseau direct entre elles. 
   
 9. Cliquez sur **Valider**.
     
-10. Pour terminer la création des itinéraires interrégion réseau pour votre topologie, répétez les étapes 4 à 9 en spécifiant les paramètres correspondant à d’autres itinéraires interrégion réseau.
+10. Pour terminer la création d’itinéraires interrégion réseau pour votre topologie, répétez les étapes 4 à 9 avec les paramètres d’autres itinéraires interrégion réseau.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres du pool de serveurs Edge
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :'
-ms.openlocfilehash: cce6358779371d45b6db3707d01987b189a344af
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Les sections suivantes vous permettent de modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples :'
+ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793752"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822434"
 ---
-# <a name="edge-settings-expander"></a>Expanseur des paramètres du pool de serveurs Edge
+# <a name="edge-settings-expander"></a>Expandeur des paramètres du pool de serveurs Edge
 
-Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :
+Les sections suivantes vous permettent de modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples :
 
 - Paramètres généraux
 
@@ -37,32 +37,32 @@ Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs 
 
 Nom de domaine complet (FQDN) du pool interne pour le pool de serveurs Edge. Modifiez le nom de domaine complet du pool pour changer ce paramètre.
 
-Activez la case à cocher **activer la Fédération pour ce pool Edge (Port 5061)** si vous configurez la Fédération avec un serveur 2015 de Skype entreprise Server.
+Activez la case à cocher Activer la fédération pour ce **pool Edge (port 5061)** si vous allez configurer la fédération avec un serveur Skype Entreprise Server 2015.
 
 Spécifiez le numéro de port pour **Port de réplication de configuration interne (HTTPS)**.
 
 ## <a name="next-hop-selection-settings"></a>Paramètres de sélection du tronçon suivant
 
-Pour configurer ou modifier le **pool du tronçon suivant** utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontaux dans la zone de liste déroulante. Seuls les directeurs ou les extrémités prédéfinis qui ont été configurés dans le générateur de topologie s’afficheront pour le choix.
+Pour définir ou modifier le **pool** du saut suivant que les serveurs Edge utiliseront pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontux dans la zone de liste liste. Seuls les directeurs ou les fronts qui ont été configurés dans le Générateur de topologies s’affichent pour la sélection.
 
 ## <a name="edge-server-configuration"></a>Configuration du serveur Edge
 
-Pour modifier ou spécifier des paramètres pour les **paramètres externes** des serveurs Edge, vous devez déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP, la conférence web et le service audio/vidéo.
+Pour modifier ou spécifier des paramètres pour les **Paramètres externes** des serveurs Edge, vous devez déterminer si vous allez utiliser des adresses IP séparées pour l’accès SIP, la conférence web et le service audio/vidéo.
 
-Si vous envisagez d’utiliser des adresses IP distinctes chaque fois, activez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Un enregistrement d’hôte DNS (A) doit avoir été créé pour chaque service.
+Si vous envisagez d’utiliser des adresses IP distinctes à chaque fois, activez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Un enregistrement DNS A (hôte) doit avoir été créé pour chaque service.
 
-Pour chaque service externe, vous spécifiez un nom de domaine complet et un port associé. Par exemple, l’**accès SIP** utilise SIP.contoso.com avec le port 5061 associé.
-
-> [!IMPORTANT]
-> Si vous sélectionnez des noms de domaine complets distincts pour chaque service externe, chacun de ces services doit être associé à une valeur de port unique. Par défaut, le SIP utilise le port 5061/TLS, le service Edge de conférence web, le port 444/TLS et le serveur de conférence A/V, le port 443/TLS. Si vous apportez des modifications à l’un de ces paramètres, y compris en utilisant un nom de domaine complet et des adresses IP ou des ports distincts, vous devez mettre à jour tous les autres services qui dépendent de valeurs configurées initialement.
-
-Si vous déterminez que votre organisation utilisera un nom de domaine complet et une adresse IP uniques pour les services côté externe, désactivez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Vous pouvez ensuite modifier les valeurs du nom de domaine complet du pool et du port **Accès SIP**, si nécessaire.
+Pour chaque service externe, vous spécifiez un nom de domaine complet et un port associé. Par exemple, l’**Accès SIP** utilise sip.contoso.com avec un port associé de 5061.
 
 > [!IMPORTANT]
-> Si vous apportez des modifications à l’un de ces paramètres, y compris en utilisant un nom de domaine complet et des adresses IP ou des ports distincts, vous devez mettre à jour tous les autres services qui dépendent des valeurs configurées initialement.
+> Si vous sélectionnez des noms de domaine complets distincts pour chaque service côté externe, chacun de ces services devra avoir une valeur de port unique associée. Par défaut, le SIP est sur le port 5061/TLS, le service Edge de conférence web est sur le port 444/TLS et le serveur de conférence A/V sur le port 443/TLS. Si vous apportez des modifications à l’un de ces paramètres, y compris l’utilisation d’un nom de domaine complet et d’adresses IP ou de ports distincts, vous devez mettre à jour tous les autres services qui s’appuient sur les valeurs initialement configurées.
+
+Si vous déterminez que votre organisation utilisera un nom de domaine complet et une adresse IP uniques pour les services côté externe, désactivez la case à cocher **Activer un nom de domaine complet et une adresse IP distincts pour la conférence web et les fonctionnalités audio/vidéo**. Vous pouvez ensuite modifier les valeurs du nom de domaine complet du pool et du port **Accès SIP**, si nécessaire.
+
+> [!IMPORTANT]
+> Si vous apportez des modifications à l’un de ces paramètres, y compris l’utilisation d’un nom de domaine complet et d’adresses IP ou de ports distincts, vous devez mettre à jour tous les autres services qui s’appuient sur les valeurs initialement configurées.
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, reportez-vous à la rubrique[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, voir [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)
 
 

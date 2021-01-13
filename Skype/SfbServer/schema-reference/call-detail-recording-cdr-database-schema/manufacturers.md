@@ -1,8 +1,8 @@
 ---
-title: Tableau constructeurs dans Skype entreprise Server 2015
+title: Table Manufacturers in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke les informations relatives à un fabricant de périphériques (téléphone de bureau).
-ms.openlocfilehash: 9d7c23db061e5c307340c9a2d93a53d715de3b2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke des informations sur un fabricant d’appareils (téléphone de bureau).
+ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815102"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821484"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tableau constructeurs dans Skype entreprise Server 2015
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Table Manufacturers in Skype for Business Server 2015
  
-La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke les informations relatives à un fabricant de périphériques (téléphone de bureau).
+La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke des informations sur un fabricant d’appareils (téléphone de bureau).
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ManufacturerId** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant ce fabricant.  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce fabricant.  <br/> |
 |**Fabricant** <br/> |nvarchar(256)  <br/> | <br/> |Nom du fabricant.  <br/> |
    
 

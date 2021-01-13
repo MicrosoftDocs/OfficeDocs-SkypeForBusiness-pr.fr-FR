@@ -1,8 +1,8 @@
 ---
-title: Sélection des contacts à partir d’Active Directory
+title: Sélectionner des contacts à partir d’Active Directory
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
-description: Utilisez la boîte de dialogue Sélectionner à partir d’Active Directory pour rechercher les contacts que vous souhaitez activer pour Skype entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage du contact recherché. Pour extraire tous les contacts disponibles, ne tapez rien dans la zone de recherche.
-ms.openlocfilehash: ad36cbe1577d0e8594bf41dba4e6512988b2ac24
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Utilisez la boîte de dialogue Sélectionner à partir d’Active Directory pour rechercher les contacts que vous souhaitez activer pour Skype Entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage du contact que vous souhaitez trouver. Pour récupérer tous les contacts disponibles, ne tapez rien dans la zone de recherche.
+ms.openlocfilehash: 641b5f85cbabe06242cadbcdf3506452d272d3fd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822267"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821974"
 ---
-# <a name="select-contacts-from-active-directory"></a>Sélection des contacts à partir d’Active Directory
+# <a name="select-contacts-from-active-directory"></a>Sélectionner des contacts à partir d’Active Directory
  
-Utilisez la boîte de dialogue **Sélectionner à partir d’Active Directory** pour rechercher les contacts que vous souhaitez activer pour Skype entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage du contact recherché. Pour extraire tous les contacts disponibles, ne tapez rien dans la zone de recherche.
+Utilisez la boîte de dialogue Sélectionner à **partir d’Active Directory** pour rechercher les contacts que vous souhaitez activer pour Skype Entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage du contact que vous souhaitez trouver. Pour récupérer tous les contacts disponibles, ne tapez rien dans la zone de recherche.
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

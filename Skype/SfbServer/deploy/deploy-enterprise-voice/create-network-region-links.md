@@ -1,8 +1,8 @@
 ---
-title: Création de liens vers les régions de réseau dans Skype entreprise Server
+title: Créer des liens de région réseau dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Créer ou modifier des liens de région réseau qui sont utilisés par le contrôle d’admission des appels voix entreprise dans Skype entreprise Server.
-ms.openlocfilehash: 20fdbca9eb56fad9b69c6299177301e82fbf115a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Créez ou modifiez des liaisons de région réseau, qui sont utilisées par Voix Entreprise d’admission des appels dans Skype Entreprise Server.
+ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767907"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822464"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>Création de liens vers les régions de réseau dans Skype entreprise Server
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Créer des liens de région réseau dans Skype Entreprise Server
  
-Créer ou modifier des liens de région réseau qui sont utilisés par le contrôle d’admission des appels voix entreprise dans Skype entreprise Server. 
+Créez ou modifiez des liaisons de région réseau, qui sont utilisées par Voix Entreprise d’admission des appels dans Skype Entreprise Server. 
   
-Au sein d’un réseau, les régions sont liées par une connectivité au réseau étendu physique. Un lien de région réseau crée un lien entre deux régions configurées pour le contrôle d’admission des appels et définit les restrictions de bande passante sur le trafic audio et vidéo entre ces régions.
+Les régions au sein d’un réseau sont liées par le biais d’une connectivité WAN physique. Un lien de région réseau crée un lien entre deux régions configurées pour le contrôle d’admission des appels (CAC) et définit les limites de bande passante sur le trafic audio et vidéo entre ces régions.
   
-L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens de région est limité par la bande passante WAN, comme décrit dans la table des informations de bande passante pour les liaisons de zone, comme [le montre l’exemple ci-dessous : collecter les exigences de contrôle d’admission des appels dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC et un lien entre les régions EMEA et APAC. Chacune de ces liaisons de région est limitée par la bande passante de réseau wan, comme décrit dans le tableau Informations sur la bande passante du lien de région dans l’exemple : Collecte des exigences pour le contrôle d’admission des appels dans [Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Pour créer des liaisons de région réseau à l’aide de Skype entreprise Server Management Shell
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Pour créer des liens de région réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-2. Exécutez l’applet de commande New-CsNetworkRegionLink pour créer des liens de région et appliquer des profils de stratégie de bande passante appropriés. Par exemple, exécutez :
+2. Exécutez la cmdlet New-CsNetworkRegionLink pour créer des liens de région et appliquer des profils de stratégie de bande passante appropriés. Par exemple, exécutez :
     
    ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -45,9 +45,9 @@ L’exemple de topologie possède un lien entre les régions Amérique du Nord e
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Pour créer des liaisons de région réseau à l’aide du panneau de configuration Skype entreprise Server
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Pour créer des liens de région réseau à l’aide du Panneau de contrôle Skype Entreprise Server
 
-1. Ouvrez le panneau de configuration Skype entreprise Server.
+1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
@@ -55,16 +55,16 @@ L’exemple de topologie possède un lien entre les régions Amérique du Nord e
     
 4. Cliquez sur **Nouveau**.
     
-5. Dans la page **Nouveau lien de région**, cliquez sur **Nom**, puis tapez le nom du lien de région réseau.
+5. Sur la page **Nouveau lien de région**, cliquez sur **Nom**, puis tapez le nom du lien de région réseau.
     
-6. Cliquez sur **Région réseau n° 1**, puis, dans la liste, cliquez sur la région réseau à lier à la Région réseau n° 2.
+6. Cliquez sur **Région réseau n° 1**, puis sur la région réseau dans la liste que vous voulez lier à la Région réseau n° 2.
     
-7. Cliquez sur **Région réseau n° 2**, puis, dans la liste, cliquez sur la région réseau à lier à la Région réseau n° 1.
+7. Cliquez sur **Région réseau n° 2**, puis sur la région réseau dans la liste que vous voulez lier à la Région réseau n° 1.
     
-8. Si vous le souhaitez, vous pouvez cliquer sur **Stratégie de bande passante**, puis sélectionner le profil de stratégie de bande passante à appliquer au lien de région réseau.
+8. Si vous le souhaitez, vous pouvez cliquer sur **Stratégie de bande passante**, puis sélectionner le profil de stratégie de bande passante que vous souhaitez appliquer au lien de région réseau.
     
     > [!NOTE]
-    > N’appliquez une stratégie de bande passante que si le lien de région réseau est contraint par la bande passante et que vous souhaitez utiliser le contrôle d’admission des appels pour contrôler le trafic multimédia sur ce lien. 
+    > Appliquez une stratégie de bande passante uniquement si le lien de région réseau est contraint par la bande passante et que vous souhaitez utiliser le contrôle d’admission des appels pour contrôler le trafic multimédia sur ce lien. 
   
 9. Cliquez sur **Valider**.
     

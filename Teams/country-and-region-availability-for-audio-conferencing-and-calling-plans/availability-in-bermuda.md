@@ -1,7 +1,7 @@
 ---
-title: Disponibilité des Bermudes
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité aux Bermudes
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour les Bermudes.
-ms.openlocfilehash: d29f8c011415fbdb29ad9f3dc96de3ef24ea7513
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les Bermudes.
+ms.openlocfilehash: 0cda0c3a8d688859bd3c2766f26901f24b1cbb64
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229243"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821184"
 ---
-# <a name="availability-in-bermuda"></a>Disponibilité des Bermudes
+# <a name="availability-in-bermuda"></a>Disponibilité aux Bermudes
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour les Bermudes.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les Bermudes.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
