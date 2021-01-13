@@ -1,8 +1,8 @@
 ---
-title: Load Balancer (Planning Tool)
+title: Équilibrage de charge (outil de planification)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -15,20 +15,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 'Si vous disposez de pools de serveurs frontaux, de pools de directeurs ou de serveurs de périphérie, vous devez déployer l’équilibrage de charge pour ces pools. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool. Pour plus d’informations, consultez :'
-ms.openlocfilehash: 0dd33cfc30fef6612472a5edb5cc4468037a0aef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Si vous avez des pools frontux, des pools directeurs ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool. Pour obtenir des informations détaillées, voir :'
+ms.openlocfilehash: 4c33afcb5666e889214ba1603be5b078141053e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821416"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828994"
 ---
-# <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
+# <a name="load-balancer-planning-tool"></a>Équilibrage de charge (outil de planification)
  
-Si vous disposez de pools de serveurs frontaux, de pools de directeurs ou de serveurs de périphérie, vous devez déployer l’équilibrage de charge pour ces pools. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool. Pour plus d’informations, consultez :
+Si vous avez des pools frontux, des pools directeurs ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool. Pour obtenir des informations détaillées, voir :
   
-- [Configuration requise pour l’équilibrage de charge pour Skype Entreprise](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Exigences d’équilibrage de charge pour Skype Entreprise](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [Conditions préalables des DNS pour Skype Entreprise Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+- [DNS requirements for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
     
 

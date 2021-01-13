@@ -1,8 +1,8 @@
 ---
-title: Liste des tables CDR dans Skype entreprise Server 2015
+title: Liste des tables cdr dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,130 +12,130 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
-description: Le schéma de base de données d’enregistrement des détails des appels (CDR) se compose des tableaux suivants.
-ms.openlocfilehash: a35636333366bbfd55d4337fadfec68af681db6f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Le schéma de base de données de l’enregistrement des détails des appels comprend les tables suivantes.
+ms.openlocfilehash: 7bd76a4cf374e72582c585908309605c4845454e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815132"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827594"
 ---
-# <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste des tables CDR dans Skype entreprise Server 2015
+# <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste des tables cdr dans Skype Entreprise Server 2015
  
-Le schéma de base de données d’enregistrement des détails des appels (CDR) se compose des tableaux suivants. 
+Le schéma de base de données de l’enregistrement des détails des appels comprend les tables suivantes. 
   
-## <a name="static-tables"></a>Tableaux statiques
+## <a name="static-tables"></a>Tables statiques
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Table CallPriorities dans Skype entreprise Server 2015](callpriorities.md) <br/> |Cette liste contient les différentes priorités d’appels (par exemple, l’urgence, le standard, le standard, les non urgentes, etc.).  <br/> |
-|[Table ConferenceJoinTimeThresholds dans Skype entreprise Server 2015](conferencejointimethresholds.md) <br/> |Stocke les limites de classification utilisées par le rapport de synthèse des heures de participation à la Conférence.  <br/> |
-|[Table DeRegisterType dans Skype entreprise Server 2015](deregistertype.md) <br/> |Stocke la liste des raisons possibles de registre de l’utilisateur, telles que « initié par le client », « inscription expirée », « blocage du client » et plus encore.  <br/> |
-|[Table MediaList](medialist.md) <br/> |Stocke la liste de types de médias qui peuvent générer des entrées dans la base de données (par exemple, messagerie instantanée, audio, vidéo et transfert de fichiers).  <br/> |
-|[Table PurgeSettings](purgesettings.md) <br/> |Stocke les informations qui spécifient si les enregistrements de détails des appels obsolètes sont automatiquement supprimés de la base de données CDR.  <br/> |
-|[Table Roles](roles.md) <br/> |Stocke la liste des rôles de conférences possibles (par exemple, participants et présentateur).  <br/> |
-|[Table SIPResponseMetaData](sipresponsemetadata.md) <br/> |Stocke une liste des codes de réponse SIP et la classification et la définition de chacun de ces codes.  <br/> |
+|[Table CallPriorities dans Skype Entreprise Server 2015](callpriorities.md) <br/> |Stocke la liste des priorités d’appel possibles, telles que les appels très urgents, urgents, normaux, non urgents, etc.  <br/> |
+|[Table ConferenceJoinTimeThresholds dans Skype Entreprise Server 2015](conferencejointimethresholds.md) <br/> |Stocke les limites de classification utilisées par le rapport du temps de connexion à la conférence.  <br/> |
+|[Table DeRegisterType dans Skype Entreprise Server 2015](deregistertype.md) <br/> |Stocke la liste des raisons possibles de désinscription des utilisateurs, telles que « initiative du client », « expiration de l’inscription », « blocage du client », etc.  <br/> |
+|[Table MediaList](medialist.md) <br/> |Stocke la liste des types de médias qui peuvent générer des entrées dans la base de données (par exemple, la messagerie instantanée, l’audio, la vidéo et le transfert de fichiers).  <br/> |
+|[Table PurgeSettings](purgesettings.md) <br/> |Stocke les informations qui indiquent si (et quand) les enregistrements des détails des appels obsolètes seront automatiquement supprimés de la base de données d’enregistrement des détails des appels.  <br/> |
+|[Table Roles](roles.md) <br/> |Stocke la liste possible des rôles de conférence (par exemple, participant et présentateur).  <br/> |
+|[Table SIPResponseMetaData](sipresponsemetadata.md) <br/> |Stocke une liste des codes de réponse SIP ainsi que la classification et la définition de chacun de ces codes.  <br/> |
    
-## <a name="supporting-tables"></a>Tableaux pris en charge
+## <a name="supporting-tables"></a>Tables de prise en charge
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Table ClientVersions dans Skype entreprise Server 2015](clientversions.md) <br/> |Stocke les clients (le type de client et le numéro de version) de chaque client impliqué dans un appel et les informations capturées dans cette base de données.  <br/> |
-|[Table ConferenceUris dans Skype entreprise Server 2015](conferenceuris.md) <br/> |Stocke une liste de ConferenceURIs utilisés dans les appels liés à la Conférence.  <br/> |
-|[Table ContentTypes dans Skype entreprise Server 2015](contenttypes.md) <br/> |Stocke une liste de types de contenu SIP (Session Initiation Protocol) qui sont utilisés dans les appels d’égal à égal et les téléconférences.  <br/> |
-|[Tableau des appareils dans Skype entreprise Server 2015](devices.md) <br/> |Stocke une liste d’appareils, dont le fabricant, la version matérielle et l’adresse MAC.  <br/> |
-|[Tableau boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) <br/> |Stocke les informations sur l’ID de boîte de dialogue de chaque session dans la base de données.  <br/> |
-|[Table EdgeServers dans Skype entreprise Server 2015](edgeservers.md) <br/> |Stocke une liste de serveurs Edge utilisés pour les appels externes.  <br/> |
-|[Tableau passerelles dans Skype entreprise Server 2015](gateways.md) <br/> |Stocke une liste des passerelles utilisées pour les appels voix sur IP (VoIP).  <br/> |
-|[Table HardwareVersions dans Skype entreprise Server 2015](hardwareversions.md) <br/> |Stocke une liste de versions matérielles d’appareils (téléphone de bureau).  <br/> |
-|[Tableau constructeurs dans Skype entreprise Server 2015](manufacturers.md) <br/> |Stocke une liste de fabricants de périphériques (téléphone de bureau).  <br/> |
-|[Table MCU dans Skype entreprise Server 2015](mcus.md) <br/> |Stocke des informations sur les divers serveurs de conférence A/V et leurs URI.  <br/> |
+|[Table ClientVersions dans Skype Entreprise Server 2015](clientversions.md) <br/> |Stocke les clients (à la fois le type de client et le numéro de version) de chaque client impliqué dans un appel comprenant des informations capturées dans cette base de données.  <br/> |
+|[Table ConferenceUris dans Skype Entreprise Server 2015](conferenceuris.md) <br/> |Stocke une liste de ConferenceURI qui sont utilisés dans les appels relatifs à la conférence.  <br/> |
+|[Table ContentTypes dans Skype Entreprise Server 2015](contenttypes.md) <br/> |Stocke une liste de types de contenus SIP (Session Initiation Protocol) qui sont utilisés à la fois dans les appels d’égal à égal et les appels de conférence.  <br/> |
+|[Table Devices dans Skype Entreprise Server 2015](devices.md) <br/> |Stocke une liste d’appareils, notamment leur fabricant, la version du matériel et l’adresse MAC.  <br/> |
+|[Table Dialogs in Skype for Business Server 2015](dialogs.md) <br/> |Stocke des informations sur les ID de dialogue pour chaque session dans la base de données.  <br/> |
+|[Table EdgeServers dans Skype Entreprise Server 2015](edgeservers.md) <br/> |Stocke une liste de serveurs Edge qui sont utilisés pour les appels externes.  <br/> |
+|[Table Gateways dans Skype Entreprise Server 2015](gateways.md) <br/> |Stocke une liste de passerelles qui sont utilisées pour les appels VoIP (Voice over Internet Protocol).  <br/> |
+|[Table HardwareVersions dans Skype Entreprise Server 2015](hardwareversions.md) <br/> |Stocke une liste de versions matérielles d’appareils (téléphone de bureau).  <br/> |
+|[Table Manufacturers in Skype for Business Server 2015](manufacturers.md) <br/> |Stocke une liste de fabricants et d’appareils (téléphone de bureau).  <br/> |
+|[Table Mcus dans Skype Entreprise Server 2015](mcus.md) <br/> |Stocke des informations sur les différents serveurs de conférence A/V et leurs URI.  <br/> |
 |[Table MediationServers](mediationservers.md) <br/> |Stocke une liste de serveurs de médiation qui sont utilisés pour les appels VoIP.  <br/> |
-|[Table !Phones](phones.md) <br/> |Stocke tous les numéros de téléphone utilisés pour les appels VoIP archivés ou dont les détails des appels ont été enregistrés.  <br/> |
-|[Table Pools](pools.md) <br/> |Stocke les noms de la liste des messages INSTANTANÉs capturés.  <br/> |
-|[Table Servers](servers.md) <br/> |Stocke le nom des serveurs impliqué dans les appels.  <br/> |
-|[Table Tenants](tenants.md) <br/> |Stocke les locataires pris en charge par le déploiement actuel. Il s’agit de clients intégrés d’entreprise, d’utilisateurs fédérés, d’utilisateurs de la connectivité de messagerie instantanée publique et d’utilisateurs anonymes.  <br/> |
-|[Table UserAgentDef](useragentdef.md) <br/> |Mappe des identificateurs d’agent utilisateur aux noms descriptifs de l’agent.  <br/> |
-|[Table Users](users.md) <br/> |Stocke les URI utilisateur des utilisateurs qui ont participé à des sessions enregistrées ou archivées dans cette base de données.  <br/> |
-|[Table UserStatistics](userstatistics.md) <br/> |Stocke des informations sur l’utilisation individuelle du système par un utilisateur.  <br/> |
+|[Table Phones](phones.md) <br/> |Stocke tous les numéros de téléphone utilisés dans les appels VoIP qui ont été archivés ou dont les détails des appels ont été enregistrés.  <br/> |
+|[Table Pools](pools.md) <br/> |Stocke les noms du pool sur lequel les messages instantanés ont été capturés.  <br/> |
+|[Table Servers](servers.md) <br/> |Stocke le nom des serveurs impliqués dans les appels.  <br/> |
+|[Table Tenants](tenants.md) <br/> |Stocke les clients pris en charge par le déploiement en cours. Il existe des clients intégrés pour les utilisateurs d’entreprise, les utilisateurs fédérés, les utilisateurs de connectivité de messagerie instantanée publique et les utilisateurs anonymes.  <br/> |
+|[Table UserAgentDef](useragentdef.md) <br/> |Mase les identificateurs d’agent utilisateur aux noms descriptifs de l’agent.  <br/> |
+|[Table Users](users.md) <br/> |Stocke les URI des utilisateurs qui ont participé à des sessions enregistrées ou archivées dans cette base de données.  <br/> |
+|[Table UserStatistics](userstatistics.md) <br/> |Stocke des informations sur l’utilisation du système par un utilisateur individuel.  <br/> |
    
-## <a name="tables-specific-to-conference-cdr-records"></a>Tableaux spécifiques aux enregistrements de la Conférence CDR
+## <a name="tables-specific-to-conference-cdr-records"></a>Tables spécifiques aux enregistrements des détails des appels de conférence
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Tableau conférences dans Skype entreprise Server 2015](conferences.md) <br/> |Stocke des informations sur toutes les conférences archivées ou dont les détails ont été enregistrés, y compris ConferenceURI et les heures de début et de fin.  <br/> |
-|[Table ConferenceSessionDetails dans Skype entreprise Server 2015](conferencesessiondetails-0.md) <br/> |Stocke des informations sur chaque session de conférence SIP, y compris l’heure de début et de fin, l’ID d’utilisateur, le code de réponse et l’ID de diagnostic de chaque session.  <br/> |
-|[Table FocusJoinsAndLeaves dans Skype entreprise Server 2015](focusjoinsandleaves.md) <br/> |Stocke des informations sur les joints et les feuilles de conférence, y compris le rôle et la version du client.  <br/> |
-|[Table McuJoinsAndLeaves dans Skype entreprise Server 2015](mcujoinsandleaves.md) <br/> |Stocke des informations sur les serveurs de téléconférence A/V qui participent à une conférence et l’utilisateur a rejoint et laisse des heures.  <br/> |
+|[Table Conferences in Skype for Business Server 2015](conferences.md) <br/> |Stocke des informations sur toutes les conférences qui ont été archivées ou dont les détails ont été enregistrés, notamment le ConferenceURI, et l’heure de début et de fin.  <br/> |
+|[Table ConferenceSessionDetails dans Skype Entreprise Server 2015](conferencesessiondetails-0.md) <br/> |Stocke des informations sur chaque session de conférence fondée sur le protocole SIP, notamment l’heure de début et de fin, l’ID utilisateur, le code de réponse et l’ID de diagnostic pour chaque session.  <br/> |
+|[Table FocusJoinsAndLeaves dans Skype Entreprise Server 2015](focusjoinsandleaves.md) <br/> |Stocke des informations sur les participants et les départs de conférence, y compris le rôle et la version du client des utilisateurs.  <br/> |
+|[Table McuJoinsAndLeaves dans Skype Entreprise Server 2015](mcujoinsandleaves.md) <br/> |Stocke des informations sur les serveurs de conférence A/V qui sont impliqués dans une conférence et les heures de départ et d’arrivée de l’utilisateur.  <br/> |
    
-## <a name="tables-for-messages-in-im-conferences"></a>Tableaux de messages dans les conférences de messagerie instantanée
+## <a name="tables-for-messages-in-im-conferences"></a>Tables des messages dans les conférences de messagerie instantanée
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Table ConferenceMessageCount dans Skype entreprise Server 2015](conferencemessagecount.md) <br/> |Pour chaque conférence par messagerie instantanée, stocke le nombre de messages envoyés par chaque utilisateur.  <br/> |
-|[Table IMReportSummary dans Skype entreprise Server 2015](imreportsummary.md) <br/> |Fournit un rapport global sur les sessions de messagerie instantanée tenues au sein d’une organisation.  <br/> |
+|[Table ConferenceMessageCount dans Skype Entreprise Server 2015](conferencemessagecount.md) <br/> |Pour chaque conférence de messagerie instantanée, stocke le nombre de messages qui ont été envoyés par chaque utilisateur.  <br/> |
+|[Table IMReportSummary dans Skype Entreprise Server 2015](imreportsummary.md) <br/> |Fournit un rapport global sur les sessions de messagerie instantanée ouvertes dans une organisation.  <br/> |
    
-## <a name="tables-for-peer-to-peer-sessions"></a>Tables pour les sessions d’égal à égal
+## <a name="tables-for-peer-to-peer-sessions"></a>Tables des sessions d’égal à égal
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Table SessionDetails](sessiondetails.md) <br/> |Stocke des informations sur chaque session d’égal à égal, y compris l’heure de début et de fin, l’ID d’utilisateur, le code de réponse et le nombre de messages pour chaque utilisateur.  <br/> |
-|[Table FileTransfers dans Skype entreprise Server 2015](filetransfers-0.md) <br/> |Stocke les informations sur les sessions de transfert de fichiers, y compris le nom de fichier et le résultat (accepté, rejeté ou annulé).  <br/> |
-|[Table Media](media.md) <br/> |Stocke les informations sur les différents types de médias impliqués dans les sessions d’égal à égal.  <br/> |
+|[Table SessionDetails](sessiondetails.md) <br/> |Stocke des informations sur chaque session d’égal à égal, notamment l’heure de début et de fin, l’ID utilisateur, le code de réponse et le nombre de messages pour chaque utilisateur.  <br/> |
+|[Table FileTransfers dans Skype Entreprise Server 2015](filetransfers-0.md) <br/> |Stocke des informations sur les sessions de transfert de fichiers, notamment le nom de fichier et le résultat (accepté, rejeté ou annulé).  <br/> |
+|[Table Media](media.md) <br/> |Stocke des informations sur les différents types de médias impliqués dans les sessions d’égal à égal.  <br/> |
    
-## <a name="table-for-voip-call-details"></a>Tableau des détails des appels VoIP
+## <a name="table-for-voip-call-details"></a>Table des détails des appels VoIP
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Table VoipDetails](voipdetails-0.md) <br/> |Pour chaque appel VoIP/PSTN à deux tiers, enregistre les informations relatives à l’appel, telles que l’ID de téléphone du téléphone VoIP, la passerelle utilisée et la partie déconnectée. Fait référence à la [table SessionDetails](sessiondetails.md) pour les heures de début et de fin d’appel et le code de réponse. <br/> |
-   
-> [!NOTE]
-> S’il s’agit d’un utilisateur VoIP ou d’un serveur de médiation qui intervient dans le cas d’un appel, un enregistrement est créé dans ce tableau. Les informations sur les appels VoIP/VoIP qui n’impliquent pas de téléphone commuté (RTC) (réseau téléphonique commuté) sont capturées dans la [table SessionDetails](sessiondetails.md). 
-  
-## <a name="table-for-e9-1-1-call-auditing"></a>Tableau pour l’audit d’appels E9-1-1
-
-|**Table**|**Description**|
-|:-----|:-----|
-|[Tableau emplacements dans Skype entreprise Server 2015](locations.md) <br/> |Pour chaque appel d’urgence, par exemple un appel 9-1-1 amélioré (E9-1-1), stocke les informations d’emplacement relatives à l’appel. Fait référence à la [table SessionDetails](sessiondetails.md) pour les heures de début et de fin d’appel et le code de réponse. <br/> |
+|[Table VoipDetails](voipdetails-0.md) <br/> |Pour chaque appel VoIP/PSTN à deux utilisateurs, stocke des informations sur l’appel, telles que l’ID téléphonique du téléphone VoIP, la passerelle utilisée, et quel participant a été déconnecté. Fait référence à la [table SessionDetails pour les](sessiondetails.md) heures de début/fin des appels et le code de réponse. <br/> |
    
 > [!NOTE]
-> Ce tableau contient uniquement l’objet blob d’emplacement pour l’appel E9-1-1. Fait référence à la table SessionDetails pour obtenir d’autres informations détaillées sur l’appel. 
+> Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations sur les appels VoIP/VoIP n’impliquant pas de téléphone PSTN (réseau téléphonique commuté) sont capturées dans la [table SessionDetails](sessiondetails.md). 
   
-## <a name="tables-for-troubleshooting"></a>Tableaux pour la résolution des problèmes
+## <a name="table-for-e9-1-1-call-auditing"></a>Table pour l’audit d’appel E9-1-1
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[Tableau d’application dans Skype entreprise Server 2015](application.md) <br/> |Stocke les informations relatives à divers processus dans Skype entreprise Server 2015 qui participent au routage et aux connexions.  <br/> |
-|[CallType table dans Skype entreprise Server 2015](calltype.md) <br/> |Stocke des informations sur les types de l’appel (par exemple, « audio », « messages instantanés », « audio et vidéo » et « partage d’application »).  <br/> |
-|[Table ErrorCategory dans Skype entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification de diagnostic 2015 de Skype entreprise Server.  <br/> |
-|[Table ErrorDef dans Skype entreprise Server 2015](errordef.md) <br/> |Stocke des informations sur les types d’erreurs et leurs définitions.  <br/> |
-|[Table ErrorReport dans Skype entreprise Server 2015](errorreport.md) <br/> |Stocke les informations sur les erreurs qui se sont produites.  <br/> |
-|[Table ProgressReport](progressreport.md) <br/> |Stocke des informations sur les rapports de progression de diverses étapes associées aux processus de 2015 de Skype entreprise Server.  <br/> |
+|[Table Locations dans Skype Entreprise Server 2015](locations.md) <br/> |Pour chaque appel très urgents, tel que l’appel Enhanced 9-1-1 (E9-1-1), stocke les informations d’emplacement concernant l’appel. Fait référence à la [table SessionDetails pour les](sessiondetails.md) heures de début/fin des appels et le code de réponse. <br/> |
    
-Les tables de la liste suivante sont utilisées en interne par Skype entreprise Server 2015. Leurs détails ne sont pas décrits dans ce document.
+> [!NOTE]
+> Cette table ne contient que le blob d’emplacement pour l’appel E9-1-1. Fait référence à la table SessionDetails pour d’autres informations détaillées concernant l’appel. 
   
-## <a name="tables-for-internal-use-by-lync-server"></a>Tables pour une utilisation interne par Lync Server
+## <a name="tables-for-troubleshooting"></a>Tables de dépannage
 
 |**Table**|**Description**|
 |:-----|:-----|
-|**DbConfigDateTime** <br/> |Pour un usage interne uniquement.  <br/> |
-|**DbConfigInt** <br/> |Pour un usage interne uniquement.  <br/> |
-|**DbErrorMessage** <br/> |Pour un usage interne uniquement.  <br/> |
-|**Table frontale** <br/> |Pour un usage interne uniquement.  <br/> |
-|**Table MSMQProcessing** <br/> |Pour un usage interne uniquement.  <br/> |
-|**SummaryTableConfiguration** <br/> |Pour un usage interne uniquement.  <br/> |
-|**Table syndicators** <br/> |Pour un usage interne uniquement.  <br/> |
-|**Table SyndicatorsTenantMap** <br/> |Pour un usage interne uniquement.  <br/> |
-|**Tableau de tâches** <br/> |Pour un usage interne uniquement.  <br/> |
-|**UserStatistics** <br/> |Pour un usage interne uniquement.  <br/> |
-|**UsageSummary_UQ** <br/> |Pour un usage interne uniquement.  <br/> |
-|**UsageSummary** <br/> |Pour un usage interne uniquement.  <br/> |
-|**DaylightSavingYears** <br/> |Pour un usage interne uniquement.  <br/> |
-|**TimeZoneConfiguration** <br/> |Pour un usage interne uniquement.  <br/> |
-|**Fuseau** <br/> |Pour un usage interne uniquement.  <br/> |
-|**FailureSummary_UQ** <br/> |Pour un usage interne uniquement.  <br/> |
-|**FailureSummary** <br/> |Pour un usage interne uniquement.  <br/> |
-|**ServerSummary** <br/> |Pour un usage interne uniquement.  <br/> |
-|**MsDiagMetaData** <br/> |Pour un usage interne uniquement.  <br/> |
+|[Table Application dans Skype Entreprise Server 2015](application.md) <br/> |Stocke des informations sur les différents processus de Skype Entreprise Server 2015 impliqués dans le routage et les connexions.  <br/> |
+|[Table CallType dans Skype Entreprise Server 2015](calltype.md) <br/> |Stocke des informations sur les types d’appel, tels que « audio », « Messagerie instantanée », « audio et vidéo » et « partage d’application ».  <br/> |
+|[Table ErrorCategory dans Skype Entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification de diagnostic Skype Entreprise Server 2015.  <br/> |
+|[Table ErrorDef dans Skype Entreprise Server 2015](errordef.md) <br/> |Stocke des informations sur les types d’erreurs et leurs définitions.  <br/> |
+|[Table ErrorReport dans Skype Entreprise Server 2015](errorreport.md) <br/> |Stocke des informations sur les erreurs qui se sont produites.  <br/> |
+|[Table ProgressReport](progressreport.md) <br/> |Stocke des informations sur les rapports d’avancement des différentes étapes impliquées dans les processus Skype Entreprise Server 2015.  <br/> |
+   
+Les tableaux de la liste suivante sont utilisés en interne par Skype Entreprise Server 2015. Elles ne sont pas détaillées dans ce document.
+  
+## <a name="tables-for-internal-use-by-lync-server"></a>Tables destinées à une utilisation interne par Lync Server
+
+|**Table**|**Description**|
+|:-----|:-----|
+|**DbConfigDateTime** <br/> |À usage interne uniquement.  <br/> |
+|**DbConfigInt** <br/> |À usage interne uniquement.  <br/> |
+|**DbErrorMessage** <br/> |À usage interne uniquement.  <br/> |
+|**Table FrontEnd** <br/> |À usage interne uniquement.  <br/> |
+|**Table MSMQProcessing** <br/> |À usage interne uniquement.  <br/> |
+|**SummaryTableConfiguration** <br/> |À usage interne uniquement.  <br/> |
+|**Table Syndicators** <br/> |À usage interne uniquement.  <br/> |
+|**Table SyndicatorsTenantMap** <br/> |À usage interne uniquement.  <br/> |
+|**Table Task** <br/> |À usage interne uniquement.  <br/> |
+|**UserStatistics** <br/> |À usage interne uniquement.  <br/> |
+|**UsageSummary_UQ** <br/> |À usage interne uniquement.  <br/> |
+|**UsageSummary** <br/> |À usage interne uniquement.  <br/> |
+|**DaylightSavingYears** <br/> |À usage interne uniquement.  <br/> |
+|**TimeZoneConfiguration** <br/> |À usage interne uniquement.  <br/> |
+|**TimeZones** <br/> |À usage interne uniquement.  <br/> |
+|**FailureSummary_UQ** <br/> |À usage interne uniquement.  <br/> |
+|**FailureSummary** <br/> |À usage interne uniquement.  <br/> |
+|**ServerSummary** <br/> |À usage interne uniquement.  <br/> |
+|**MsDiagMetaData** <br/> |À usage interne uniquement.  <br/> |
    
 

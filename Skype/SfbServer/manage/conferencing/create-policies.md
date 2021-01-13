@@ -1,8 +1,8 @@
 ---
-title: Créer des stratégies de conférence dans Skype entreprise Server
+title: Créer des stratégies de conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: 6fc8145e5f7c4dc0ee4b824a92248e365df56213
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.'
+ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818615"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828234"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype entreprise Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment créer des stratégies de conférence dans Skype entreprise Server.
+**Résumé :** Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.
   
-Vous pouvez créer des stratégies de conférence en utilisant le panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
+Vous pouvez créer des stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence à l’aide du panneau de configuration Skype entreprise Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server
 
-1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez le panneau de configuration Skype entreprise Server.
+2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -40,13 +40,13 @@ Vous pouvez créer des stratégies de conférence en utilisant le panneau de con
    - Pour créer une stratégie au niveau site, cliquez sur **Stratégie de site**. Dans la zone de recherche **Sélectionner un site**, tapez entièrement ou partiellement le nom du site pour lequel vous voulez créer une stratégie. Dans la liste des sites, cliquez sur le site voulu, puis sur **OK**.
     
      > [!NOTE]
-     > Le nom du site devient le nom de la stratégie de conférence. Il ne peut pas être modifié. 
+     > Le nom du site devient le nom de la stratégie de conférence . il ne peut pas être modifié. 
   
 5. Dans **Description**, tapez la description de la stratégie.
     
 6. Sous **Stratégie de l’organisateur**, dans **Taille maximale de la réunion**, tapez le nombre maximal d’utilisateurs autorisés à participer à une réunion. Par défaut, la taille maximale de la réunion est définie sur 250.
     
-7. Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas des informations d’identification dans les services de domaine Active Directory de votre organisation et qui, par conséquent, ne sont pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
+7. Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui n’ont pas d’informations d’identification dans les services de domaine Active Directory de votre organisation et qui, par conséquent, ne sont pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
     
 8. Dans **Enregistrement**, effectuez l’une des opérations suivantes :
     
@@ -66,11 +66,11 @@ Vous pouvez créer des stratégies de conférence en utilisant le panneau de con
     
 11. Si vous avez choisi d’autoriser l’utilisation de l’audio dans **Audio/vidéo**, procédez comme suit :
     
-    - Pour empêcher les utilisateurs de rejoindre la réunion via un appel à distance, désactivez la case à cocher **Activer la conférence rendez-vous RTC**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).
+    - Pour empêcher les utilisateurs de rejoindre la réunion via un appel à distance, désactivez la case à cocher **Activer la conférence rendez-vous PSTN**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).
     
     - Si vous autorisez les utilisateurs à accéder aux réunions à distance et que vous souhaitez autoriser les utilisateurs non authentifiés (anonymes) à rejoindre une réunion via un appel téléphonique sortant, activez la case à cocher **Autoriser l’accès sortant des participants anonymes**. Avec l’appel téléphonique sortant, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour rejoindre la réunion. Par défaut, les utilisateurs anonymes ne peuvent pas rejoindre une réunion via un appel téléphonique sortant.
     
-12. Si vous décidez d’autoriser l’utilisation de la vidéo dans **Audio/vidéo**, activez la case à cocher **Autoriser plusieurs flux vidéo**.
+12. Si vous avez choisi d’autoriser l’utilisation de la vidéo dans **l’audio/vidéo,** cochez **Autoriser plusieurs flux vidéo.**
     
 13. Dans **Collaboration de données**, effectuez l’une des opérations suivantes :
     
@@ -84,7 +84,7 @@ Vous pouvez créer des stratégies de conférence en utilisant le panneau de con
     
     - Pour interdire les transferts de fichiers, désactivez la case à cocher **Autoriser les participants à transférer des fichiers**. Par défaut, les utilisateurs peuvent transférer des fichiers.
     
-    - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour autoriser l’utilisation des annotations dans les présentations PowerPoint partagées, désactivez la case à cocher **Activer les annotations PowerPoint**. Par défaut, les annotations sont autorisées.
+    - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour utiliser des annotations dans des présentations PowerPoint partagées, clear the **Enable PowerPoint annotations**. Par défaut, les annotations sont autorisées.
     
     - Pour interdire l’utilisation des sondages, désactivez la case à cocher **Activer les sondages**. Par défaut, les sondages sont autorisés.
     
@@ -100,7 +100,7 @@ Vous pouvez créer des stratégies de conférence en utilisant le panneau de con
     
     - Si vous avez choisi d’autoriser les participants à la réunion à prendre le contrôle du partage d’application, activez la case à cocher **Autoriser les participants fédérés et anonymes à prendre le contrôle** pour autoriser les utilisateurs externes à prendre le contrôle du partage d’application. Par défaut, les utilisateurs externes ne peuvent pas prendre le contrôle du partage d’application.
     
-17. Sous **Stratégie de participant**, effectuez l’une des opérations suivantes :
+17. Sous **Stratégie du participant**, effectuez l’une des opérations suivantes :
     
     - Pour interdire le partage d’application et le partage du Bureau, cliquez sur **Désactiver le partage d’application et de Bureau**.
     
@@ -116,16 +116,16 @@ Vous pouvez créer des stratégies de conférence en utilisant le panneau de con
     
 21. Cliquez sur **Valider**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de conférence à l’aide de Skype entreprise Server Management Shell
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de conférence à l’aide de Skype Entreprise Server Management Shell
 
-Pour créer des stratégies de conférence, utilisez l’applet de commande **New-Cs ConferencingPolicy**.
+Pour créer des stratégies de conférence, utilisez l’cmdlet **New-CsConferencingPolicy.**
   
-L’exemple suivant crée une nouvelle stratégie de conférence avec le SalesConferencingPolicy d’identité. Cette stratégie utilise toutes les valeurs par défaut d’une stratégie de conférence, à l’exception de la valeur suivante : MaxMeetingSize. Dans cet exemple, la taille maximale d’une réunion sera définie sur 50 plutôt que sur 250, soit la valeur par défaut :
+L’exemple suivant crée une stratégie de conférence avec l’identité SalesConferencingPolicy. Cette stratégie utilise toutes les valeurs par défaut pour une stratégie de conférence à l’exception d’une seule : MaxMeetingSize. Dans cet exemple, la taille maximale d’une réunion sera définie sur 50 au lieu de la valeur par défaut de 250 :
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Pour plus d’informations, y compris une description de syntaxe complète et une liste de paramètres, voir [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

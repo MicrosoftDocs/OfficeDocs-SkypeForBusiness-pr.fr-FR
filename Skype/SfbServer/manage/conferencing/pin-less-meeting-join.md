@@ -1,8 +1,8 @@
 ---
-title: Configuration d’une participation aux réunions sans code confidentiel dans Skype Entreprise Server
+title: Configurer la réunion sans code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,58 +11,58 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Résumé : Découvrez comment configurer l’option de participation à une réunion sans punaise dans Skype entreprise Server.'
-ms.openlocfilehash: a52738f2ca679838ab7687cde2c017e3364542a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.'
+ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818485"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827984"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configuration d’une participation aux réunions sans code confidentiel dans Skype Entreprise Server
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurer la réunion sans code confidentiel dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment configurer l’option de participation à une réunion sans punaise dans Skype entreprise Server.
+**Résumé :** Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.
   
-Lorsqu’un appelant rendez-vous tente de participer à une réunion, le service de la Conférence automatique (CAA) place l’appelant dans un stylet qui est différent de la salle d’attente &#x2014; si un présentateur n’est pas en cours d’appel, et si l’appelant rendez-vous n’a pas encore entré de code confidentiel. L’option de participation à une réunion sans code confidentiel autorise les appelants à participer à une téléconférence sans entrer de code d’organisateur même s’ils sont les premiers à rejoindre un appel. 
+Lorsqu’un appelant tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
   
-Lors de la configuration de cette fonctionnalité, rappelez-vous des points suivants :
+Gardez à l’esprit les questions suivantes lors de la configuration de cette fonctionnalité :
   
-- Cette option n’est valable que pour les réunions privées.
+- S’applique uniquement aux réunions privées.
     
-- Elle permet aux appelants RTC de rester dans des réunions privées sans qu’un utilisateur authentifié ne soit présent.
+- Permet aux appelants PSTN de rester dans des réunions privées sans la présence d’utilisateurs authentifiés.
     
-- Une fois le paramètre modifié, il s’applique à toutes les nouvelles réunions privées et aux réunions privées existantes.
+- Une fois le paramètre modifié, il s’applique à toutes les réunions privées existantes et nouvelles.
     
-- Il peut être activé sur le site de l’organisateur ou au niveau global.
+- Peut être activé au niveau du site de l’organisateur ou au niveau global.
     
-- Les options permettant de définir qui peut contourner la salle d’attente sont les suivantes : 
+- Les options qui peuvent contourner la salle d’entrée peuvent être définies pour l’une des options suivantes : 
     
-  - **Tous les appelants venant de mon organisation sont admis directement**
+  - **Tous les membres de mon organisation avec des appelants entrent directement**
     
-  - **N’importe quel autre appelant (aucune restriction) est admis directement** (il s’agit du paramètre par défaut).
+  - **Tout le monde (aucune restriction) avec** les appelants entre directement (il s’agit du paramètre par défaut.)
     
-- Lorsque la participation sans code confidentiel est activée, le service CAA invite quand même à entrer un code d’organisateur. Les utilisateurs peuvent participer à la réunion en saisissant ou non un code. Néanmoins, si nécessaire, le maintien de la possibilité d’entrer un code confidentiel permet à un appelant rendez-vous de s’authentifier en tant que leader et de gérer la réunion si nécessaire.
+- Lorsqu’il est configuré pour activer la jointeur sans code confidentiel, le service CAA demande toujours un code confidentiel d’leader. Les utilisateurs peuvent participer à la réunion, qu’un code confidentiel soit entré ou non. Toutefois, le fait de conserver la possibilité d’entrer un code confidentiel d’leader permet à un appelant de s’authentifier en tant qu’dirigeant et de gérer la réunion si nécessaire.
     
-## <a name="configure-pin-less-meeting-join"></a>Configurer la participation à la réunion sans code confidentiel
+## <a name="configure-pin-less-meeting-join"></a>Configurer la réunion sans code confidentiel
 
-Pour activer la fonction de réunion sans punaise pour vos utilisateurs, utilisez l’applet de connexion [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) avec le paramètre AllowAnonymousPstnActivation comme suit :
+Pour activer la réunion sans code confidentiel pour vos utilisateurs, utilisez l’cmdlet [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) avec le paramètre AllowAnonymousPstnActivation comme suit :
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-Par exemple, la commande suivante active une participation sans code confidentiel pour le site Redmond :
+Par exemple, la commande suivante active la réunion sans code confidentiel pour le site Redmond :
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-Pour des raisons de sécurité, lorsque la participation sans code confidentiel est activée, vous souhaiterez peut être empêcher les utilisateurs anonymes d’appeler, en vous assurant que la ConferencingPolicy est définie comme suit :
+Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est désactivée, vous pouvez limiter la numérotation des utilisateurs anonymes en vous assurant que conferencingPolicy est définie comme suit :
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-Pour plus d’informations, consultez la rubrique [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+Pour plus d’informations, [voir Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

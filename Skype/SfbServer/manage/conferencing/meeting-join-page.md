@@ -1,8 +1,8 @@
 ---
-title: Configuration de la page de participation à une réunion dans Skype entreprise Server
+title: Configurer la page de réunion dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,29 +11,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
-description: 'Résumé : Découvrez comment configurer la page de participation à une réunion dans Skype entreprise Server.'
-ms.openlocfilehash: 7381db4983b5a2c1ec6dccf474f0b381e079e222
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment configurer la page de réunion dans Skype Entreprise Server.'
+ms.openlocfilehash: 247664a3ff4bbc4ee055775d26f1d077b662752b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818515"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828034"
 ---
-# <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configuration de la page de participation à une réunion dans Skype entreprise Server
+# <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configurer la page de réunion dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur la configuration de la page de participation à une réunion dans Skype entreprise Server.
+**Résumé :** Découvrez comment configurer la page de rejoindre une réunion dans Skype Entreprise Server.
   
-Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à la réunion détecte si un client Skype entreprise est déjà installé sur l’ordinateur de l’utilisateur. Si un client est déjà installé, le client ouvre et joint la réunion. Si un client n’est pas installé, le client Skype entreprise s’ouvre par défaut. 
+Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de réunion détecte si un client Skype Entreprise est déjà installé sur l’ordinateur de l’utilisateur. Si c’est le cas, ce client s’ouvre et se joint à la réunion. Si un client n’est pas installé, le client Skype Entreprise s’ouvre par défaut. 
   
 ## <a name="configure-the-meeting-join-page"></a>Configuration de la page de participation à une réunion
 
-Vous pouvez modifier le comportement de la page de participation à une réunion si vous voulez permettre aux utilisateurs de participer à des réunions avec d’autres versions du client. Ces options de configuration ont été supprimées du panneau de configuration Skype entreprise Server, mais vous les configurez à l’aide de l’applet de commande Set-CsWebServiceConfiguration.
+Vous pouvez modifier le comportement de la page de rejoindre la réunion si vous souhaitez autoriser les utilisateurs à participer à des réunions avec d’autres versions du client. Ces options de configuration ont été supprimées du Panneau de configuration de Skype Entreprise Server, mais vous les configurez à l’aide de lSet-CsWebServiceConfiguration de commande.
   
-**Ensemble de pages de participation à une réunion-paramètres de CsWebServiceConfiguration**
+**Paramètres de la page de Set-CsWebServiceConfiguration réunion**
 
-|**Paramètre SET-CsWebServiceConfiguration**|**Description**|
+|**Paramètre Set-CsWebServiceConfiguration**|**Description**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |Ce paramètre a été déconseillé pour une utilisation avec la version locale de Skype entreprise Server.  <br/> Si elle est définie sur true, les utilisateurs qui rejoignent une réunion à l’aide d’une application client autre que Skype entreprise seront en mesure de rejoindre la réunion à l’aide de leur application client actuelle. La valeur par défaut est False.  <br/> |
-|ShowAlternateJoinOptionsExpanded  <br/> |Ce paramètre a été déconseillé pour une utilisation avec la version locale de Skype entreprise Server.  <br/>  Si elle a la valeur true, d’autres options de participation à une conférence en ligne sont automatiquement développées et affichées aux utilisateurs. Si elle a la valeur false (valeur par défaut), les options suivantes sont disponibles, mais l’utilisateur doit afficher la liste des options pour eux-mêmes.  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |Ce paramètre a été supprimé pour une utilisation avec la version sur site de Skype Entreprise Server.  <br/> Si la valeur est True, les utilisateurs qui rejoignent une réunion à l’aide d’une application cliente autre que Skype Entreprise auront la possibilité de participer à la réunion à l’aide de leur application cliente actuelle. La valeur par défaut est False.  <br/> |
+|ShowAlternateJoinOptionsExpanded  <br/> |Ce paramètre a été supprimé pour une utilisation avec la version sur site de Skype Entreprise Server.  <br/>  Si la valeur est True, les autres options de rejoindre une conférence en ligne sont automatiquement étendues et affichées aux utilisateurs. Si la valeur est False (valeur par défaut), ces options seront disponibles, mais l’utilisateur devra afficher la liste des options pour lui-même.  <br/> |
    
 

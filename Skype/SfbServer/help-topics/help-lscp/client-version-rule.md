@@ -1,8 +1,8 @@
 ---
 title: Règle de version du client
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,91 +14,91 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
-description: Une stratégie de version de client est composée d’un ensemble de règles de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.
-ms.openlocfilehash: 870f0d46ff50b4fabab9b4f098cb569ae2c9ee82
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
+ms.openlocfilehash: 14e9c0d14ce988ec89d8bb13410272c4734ae882
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823057"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829494"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
-Une stratégie de version de client est composée d’un ensemble de règles de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.
+Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Nouvelle configuration de version du client** ou **Modifier la configuration de version du client**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes dans la page **Nouvelle configuration de version du client** ou **Modifier la configuration de version du client** :
 
-- Ajout de nouvelles règles à une stratégie de version de client
+- Ajoutez de nouvelles règles à une stratégie de version du client.
 
-- Modification des règles composant une stratégie de version de client existante
+- Modifier les règles qui font une stratégie de version du client existante
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
+Les listes suivantes décrivent les menus, commandes, champs et propriétés de la page.
 
-- **Agent utilisateur** Vous pouvez sélectionner un type de client dans la liste. Le tableau suivant définit les codes des agents utilisateurs.
+- **Agent utilisateur** Vous pouvez sélectionner un type de client dans la liste. Le tableau suivant définit les codes d’agent utilisateur.
 
 |**Nom du client**|**Agent utilisateur**|
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, téléphone Office Communicator  <br/> |OCPhone  <br/> |
+|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition Platform  <br/> |CPE  <br/> |
-|Unified Communications Platform  <br/> |UCCP  <br/> |
-|Lync 2010 participant  <br/> |AOC  <br/> |
-|Complément Live Meeting  <br/> |LiveMeetingAddins  <br/> |
+|Plateforme de communications unifiées  <br/> |UCCP  <br/> |
+|Lync 2010 Attendee  <br/> |AOC  <br/> |
+|Live Meeting Add-In  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
 |Windows Messenger  <br/> |WM  <br/> |
-|Client Real-time Communications  <br/> |RTC  <br/> |
+|Client communications en temps réel  <br/> |RTC  <br/> |
 |Lync 2010 pour iPad  <br/> |iPadLync  <br/> |
 |Lync 2010 pour iPhone  <br/> |iPhoneLync  <br/> |
 |Lync 2010 pour Windows Phone  <br/> |WPLync  <br/> |
-|Lync 2010 pour Nokia  <br/> |NokiaLync  <br/> |
+|Lync 2010 pour Nokia  <br/> |NokiaLync  <br/> |
 |Lync 2010 pour Android  <br/> |AndroidLync  <br/> |
-|Mobility Service  <br/> |McxService  <br/> |
+|Service de mobilité  <br/> |McxService  <br/> |
 
 - **Numéro de version** Vous pouvez spécifier les numéros de version pour les champs suivants ou utiliser des caractères génériques pour indiquer le numéro de version du client.
 
-  - **Version principale** Spécifie le numéro qui correspond à la version majeure du client.
+  - **Version principale** Spécifie le nombre qui correspond à la version majeure du client.
 
-  - **Version mineure** Spécifie le numéro qui correspond à la version mineure du client.
+  - **Version mineure** Spécifie le nombre qui correspond à la version mineure du client.
 
-  - **Créer** Spécifie le numéro de build qui correspond à la version majeure et mineure du client.
+  - **Build** Spécifie le numéro de build qui correspond à la version principale et mineure du client.
 
-  - **Mise à jour** Spécifie le numéro qui correspond à la version mise à jour du client.
+  - **Mettre à jour** Spécifie le numéro qui correspond à la version mise à jour du client.
 
-- **Opération de comparaison** Vous pouvez spécifier l’opération correspondante pour la version du client spécifiée dans les étapes précédentes. Les opérations suivantes sont disponibles :
+- **Opération de comparaison** Vous pouvez spécifier l’opération de correspondance pour la version du client que vous avez spécifiée dans les étapes précédentes. Les opérations suivantes sont disponibles :
 
   - **Identique à**
 
-  - **Différent de**
+  - **N’est pas**
 
-  - **Antérieur à**
+  - **Plus récent que**
 
-  - **Antérieur ou simultané**
+  - **Plus récent ou identique**
 
-  - **Postérieur à**
+  - **Plus ancien que**
 
-  - **Postérieur ou simultané**
+  - **Plus ancien ou identique**
 
-- **Action** Vous pouvez spécifier l’action à exécuter lorsque les critères spécifiés dans les étapes précédentes sont remplis. Les actions suivantes sont disponibles :
+- **Action** Vous pouvez spécifier l’action à effectuer lorsque les critères des étapes précédentes sont satisfaits. Les actions suivantes sont disponibles :
 
   - **Autoriser** Permet au client de se connecter.
 
-  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour de Windows Server Update service ou de Microsoft Update. Cette action est disponible uniquement en cas de sélection de l’agent utilisateur **OC** .
+  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour à partir de Windows Server Update Service ou De Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
 
     > [!NOTE]
-    > La sélection de cette action entraîne l’affichage d’une notification lors de la prochaine connexion de l’utilisateur à Skype entreprise. La notification indique qu’une mise à jour est disponible, même si des mises à jour n’ont pas encore été publiées dans Windows Server Update service ou Microsoft Update. Pour éviter toute confusion, ne sélectionnez cette action qu’après que les mises à jour sont disponibles.
+    > La sélection de cette action entraîne l’affichage d’une notification la prochaine fois que les utilisateurs se connectent à Skype Entreprise. La notification indique qu’une mise à jour est disponible, même si les mises à jour n’ont pas encore été publiées sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.
 
-  - **Allow with URL** Permet au client de se connecter et d’afficher un message permettant de télécharger une autre version du client. Vous devez spécifier l’URL dans le champ **URL**.
+  - **Autoriser avec une URL** Permet au client de se connecter et affiche un message sur l’endroit où télécharger une autre version du client. Vous spécifiez l’URL dans le **champ URL.**
 
   - **Bloquer** Empêche le client de se connecter.
 
-  - **Bloquer et mettre à niveau** Empêche le client de se connecter et permet au client de recevoir des mises à jour de Windows Server Update service ou de Microsoft Update. Cette action est disponible uniquement en cas de sélection de l’agent utilisateur **OC** .
+  - **Bloquer et mettre à niveau** Empêche le client de se connecter et permet au client de recevoir des mises à jour à partir de Windows Server Update Service ou de Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
 
-  - **Bloquer avec une URL** : empêche le client de se connecter et affiche un message à l’emplacement de téléchargement d’une autre version du client. Vous devez spécifier l’URL dans le champ **URL**.
+  - **Bloquer avec une URL** empêche le client de se connecter et affiche un message sur l’endroit où télécharger une autre version du client. Vous spécifiez l’URL dans le **champ URL.**
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, reportez-vous à la rubrique [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, reportez-vous à la rubrique [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) de la documentation des opérations.
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
 

@@ -1,8 +1,8 @@
 ---
 title: Définir l’adresse IP de la passerelle IP ou PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour définir les adresses IPv4 ou IPv6 de la passerelle RTC (réseau téléphonique commuté), sélectionnez l’option Activer IPv4 ou activer IPv6. Vous pouvez choisir d’utiliser toutes les adresses IP configurées ou les services limités aux adresses IP sélectionnées.
-ms.openlocfilehash: c55c5aea5659845fc0ad4e519e3382065ae9371e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Vous définissez les adresses IPv4 ou IPv6 pour la passerelle IP ou PSTN en sélectionnant Activer IPv4 ou Activer IPv6. Vous pouvez choisir soit Utiliser toutes les adresses IP configurées, soit Limiter l’utilisation des services aux adresses IP sélectionnées.
+ms.openlocfilehash: 850e5dcc0553047ea951a4b07b9cc3f86e4d67e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794373"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830044"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
 
-Pour définir les adresses IPv4 ou IPv6 de la passerelle RTC (réseau téléphonique commuté), sélectionnez l’option **activer IPv4** ou **activer IPv6**. Vous pouvez choisir d' **utiliser toutes les adresses IP configurées ou les** **services limités aux adresses IP sélectionnées**.
+Vous définissez les adresses IPv4 ou IPv6 pour la passerelle IP ou PSTN en sélectionnant **Activer IPv4** ou **Activer IPv6**. Vous pouvez choisir soit **Utiliser toutes les adresses IP configurées**, soit **Limiter l’utilisation des services aux adresses IP sélectionnées**.
 
-Si vous sélectionnez **utiliser toutes les adresses IP configurées**, toutes les adresses configurées sur la passerelle seront utilisées. Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées**, ce qui active l’entrée d' **adresse IP PSTN** . Entrez l’adresse IPv4 ou IPv6 qui a été attribuée pour cette passerelle.
+Si vous sélectionnez **Utiliser toutes les adresses IP configurées**, toutes les adresses configurées sur la passerelle seront utilisées. Sélectionnez éventuellement **Limiter l’utilisation des services aux adresses IP sélectionnées**, qui active l’entrée **Adresse IP PSTN**. Entrez l’adresse IPv4 ou IPv6 qui a été affectée à cette passerelle.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Exigences relatives aux conférences rendez-vous](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[Conditions requises pour les conférences téléphoniques](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)

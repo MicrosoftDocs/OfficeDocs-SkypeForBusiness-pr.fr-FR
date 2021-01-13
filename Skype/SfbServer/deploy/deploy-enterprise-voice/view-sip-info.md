@@ -1,8 +1,8 @@
 ---
-title: Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
+title: Afficher des informations sur des trunks SIP individuelles dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,41 +15,41 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Résumé : Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.'
-ms.openlocfilehash: f67fe998408b9c99311f1a86c35e08200de99431
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Découvrez comment afficher des informations sur les trunks SIP dans Skype Entreprise Server.'
+ms.openlocfilehash: 29a5a025589f4df7d99b8bf708bf8bd67d0f138f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766927"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830524"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur des trunks SIP individuelles dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.
+**Résumé :** Découvrez comment afficher des informations sur les trunks SIP dans Skype Entreprise Server.
   
-Les circuits SIP sont utilisés pour connecter le réseau téléphonique commuté de Skype entreprise Server à l’aide du réseau téléphonique public commuté (RTC). Dans la version précédente du produit, les Trunks permettaient le routage des appels sortants d’un serveur de médiation vers une passerelle RTC et chaque passerelle était limitée à un seul Trunk. Par conséquent, une passerelle RTC et un Trunk SIP étaient essentiellement identiques. Pour les administrateurs, cela signifie qu’ils pouvaient afficher les informations relatives à une ligne SIP individuelle en consultant les informations relatives à la passerelle RTC associée.
+Les connexions SIP (Public Switched Telephone Network) sont utilisées pour connecter Skype Entreprise Server Voice via un réseau téléphonique IP au réseau téléphonique commuté (PSTN). Dans la version précédente du produit, les trunks étaient utilisées pour router les appels sortants d’un serveur de médiation vers une passerelle PSTN et chaque passerelle était limitée à une seule. Par conséquent, une passerelle PSTN et une trunk SIP étaient essentiellement identiques. Pour les administrateurs, cela signifie qu’ils peuvent afficher des informations sur une trunk SIP individuelle simplement en visualisant les informations sur la passerelle PSTN associée.
   
-Dans Skype entreprise Server, il est désormais possible d’attribuer plusieurs Trunks à une seule passerelle PSTN. Cela signifie que les passerelles et les liaisons ne sont plus une seule et même. Cela signifie que les administrateurs doivent utiliser la nouvelle applet de commande [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) pour afficher des informations sur un Trunk SIP individuel.
+Dans Skype Entreprise Server, toutefois, plusieurs branches peuvent désormais être affectées à une seule passerelle PSTN . Cela signifie que les passerelles et les trunks ne sont plus identiques. Cela signifie que les administrateurs doivent utiliser la nouvelle cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) pour afficher des informations sur une trunk SIP individuelle.
   
-### <a name="to-view-information-for-all-your-sip-trunks"></a>Pour afficher des informations sur toutes vos jonctions SIP
+### <a name="to-view-information-for-all-your-sip-trunks"></a>Pour afficher des informations pour toutes vos trunks SIP
 
-- La commande suivante retourne des informations relatives à toutes les jonctions SIP utilisées dans votre organisation :
+- La commande suivante retourne des informations sur toutes les trunks SIP en cours d’utilisation dans votre organisation :
     
   ```powershell
   Get-CsTrunk
   ```
 
-### <a name="to-view-information-for-a-specific-sip-trunk"></a>Pour afficher les informations relatives à une jonction SIP spécifique
+### <a name="to-view-information-for-a-specific-sip-trunk"></a>Pour afficher les informations d’une trunk SIP spécifique
 
-- La commande suivante retourne uniquement les informations relatives à la jonction SIP ayant l’identité PstnGateway 192.168.0.240 :
+- Cette commande retourne des informations uniquement pour la trunk SIP dont l’identité est PstnGateway:192.168.0.240 :
     
   ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
-### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>Affichage des informations relatives à toutes les jonctions SIP affectées à un pool
+### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>Afficher les informations de toutes les trunks SIP affectées à un pool
 
-- Dans cet exemple, les informations relatives à toutes les jonctions SIP affectées au pool atl-cs-001.litwareinc.com sont retournées :
+- Dans cet exemple, les informations sont retournées pour toutes les trunks SIP affectées au pool atl-cs-001.litwareinc.com :
     
   ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"

@@ -1,8 +1,8 @@
 ---
-title: Créer des paramètres de configuration de réunion dans Skype entreprise Server
+title: Créer des paramètres de configuration de réunion dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Résumé : Découvrez comment créer des paramètres de configuration de réunion dans Skype entreprise Server.'
-ms.openlocfilehash: cd3d207816f352a33fb3fd228e7249d9e5d836b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment créer des paramètres de configuration de réunion dans Skype Entreprise Server.'
+ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818605"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828204"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de réunion dans Skype entreprise Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de réunion dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment créer des paramètres de configuration de réunion dans Skype entreprise Server.
+**Résumé :** Découvrez comment créer des paramètres de configuration de réunion dans Skype Entreprise Server.
   
-Vous pouvez créer des paramètres de configuration de la réunion à l’aide du panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
+Vous pouvez créer des paramètres de configuration de réunion à l’aide du Panneau de configuration de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Créer des paramètres de configuration de la réunion à l’aide du panneau de configuration Skype entreprise Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Créer des paramètres de configuration de réunion à l’aide du Panneau de configuration de Skype Entreprise Server
 
-1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le panneau de configuration Skype entreprise Server.
+2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Configuration de la réunion**.
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
     
 4. Dans la page **Configuration de la réunion**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -39,7 +39,7 @@ Vous pouvez créer des paramètres de configuration de la réunion à l’aide d
     
     - Pour créer une stratégie au niveau du pool, cliquez sur **Configuration du pool**. Dans le champ de recherche **Sélectionner un service**, tapez le nom du service de pool (en totalité ou partiellement) pour lequel vous souhaitez définir des paramètres de participation aux réunions. Dans la liste des services obtenus, cliquez sur le pool de votre choix, puis sur **OK**.
     
-5. Pour acheminer les participants qui appellent à partir du réseau téléphonique commuté (RTC) via la salle d’attente, désactivez la case à cocher **Les appelants RTC ignorent la salle d’attente**. Par défaut, les participants qui appellent d’un réseau RTC accèdent directement à la réunion.
+5. Pour acheminer les participants qui appellent depuis le réseau téléphonique commuté (RTC) via la salle d’attente, désactivez la case à cocher **Les appelants PSTN ignorent la salle d’attente**. Par défaut, les participants qui appellent depuis un réseau RTC accèdent directement à la réunion.
     
 6. Pour désigner le présentateur de la réunion, dans **Désigné comme présentateur**, effectuez l’une des opérations suivantes :
     
@@ -49,27 +49,27 @@ Vous pouvez créer des paramètres de configuration de la réunion à l’aide d
     
    - Pour autoriser tous les participants à être présentateur, cliquez sur **Tout le monde**.
     
-7. Pour permettre à l’organisateur de sélectionner un type de conférence lors de la planification d’une réunion, désactivez la case à cocher **Type de conférence affecté par défaut**. Par défaut, le type de conférence est affecté automatiquement.
+7. Pour permettre à l’organisateur de sélectionner un type de conférence lors de la planification d’une réunion, désactivez la case à cocher **Type de conférence affecté par défaut**. Par défaut, le type de conférence est automatiquement affecté.
     
 8. Pour empêcher les utilisateurs anonymes (non identifiés) d’être automatiquement admis, désactivez la case à cocher **Admettre les utilisateurs anonymes par défaut**. Par défaut, les utilisateurs anonymes sont automatiquement admis aux réunions.
     
-9. Pour personnaliser l’invitation à la réunion envoyée aux participants, procédez comme suit. Notez que la longueur maximale des URL et du texte de pied de page personnalisé est de 1 Ko. Sauf pour l’**URL de l’aide**, si vous ne spécifiez pas une valeur pour les personnalisations, elles ne seront pas incluses dans la réunion. Si vous n’incluez pas d’URL d’aide personnalisée, l’URL d’aide par défaut de Skype entreprise s’affichera dans l’invitation. 
+9. Pour personnaliser l’invitation à la réunion envoyée aux participants, procédez comme suit. Notez que la longueur maximale des URL et du texte de pied de page personnalisé est de 1 Ko. Sauf pour l’**URL de l’aide**, si vous ne spécifiez pas une valeur pour les personnalisations, elles ne seront pas incluses dans la réunion. Si vous n’incluez pas d’URL d’aide personnalisée, l’URL d’aide par défaut pour Skype Entreprise s’affiche dans l’invitation. 
     
-   - Pour personnaliser le logo qui figure sur l’invitation à la réunion, dans **URL du logo**, entrez l’emplacement du logo. Le logo doit être une image GIF ou JPG d’une taille de 188 x 30 pixels. 
+   - Pour personnaliser le logo qui apparaît dans l’invitation à la réunion, dans **URL du logo**, entrez l’emplacement du logo. Le logo doit être une image GIF ou JPG d’une taille de 188 par 30 pixels. 
     
-   - Pour personnaliser le texte d’aide qui figure sur l’invitation à la réunion, dans **URL de l’aide**, entrez l’emplacement du texte d’aide.
+   - Pour personnaliser le texte d’aide qui apparaît dans l’invitation à la réunion, dans **URL de l’aide**, entrez l’emplacement du texte d’aide.
     
-   - Pour personnaliser les informations légales qui figurent sur l’invitation à la réunion, dans **URL des informations légales**, entrez l’emplacement des informations légales.
+   - Pour personnaliser les informations légales qui apparaissent dans l’invitation à la réunion, dans **URL des informations légales**, entrez l’emplacement des informations légales.
     
-   - Pour personnaliser le texte de pied de page qui figure sur l’invitation à la réunion, dans **Texte de pied de page personnalisé**, entrez le texte.
+   - Pour personnaliser le texte de pied de page qui apparaît dans l’invitation à la réunion, dans **Texte de pied de page personnalisé**, entrez le texte.
     
 10. Cliquez sur **Valider**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Créer des paramètres de configuration de la réunion à l’aide de Skype entreprise Server Management Shell
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Créer des paramètres de configuration de réunion à l’aide de Skype Entreprise Server Management Shell
 
-Pour créer des paramètres de configuration de réunion, utilisez l’applet de commande **New-CsMeetingConfiguration**.
+Pour créer des paramètres de configuration de réunion, utilisez l’cmdlet **New-CsMeetingConfiguration.**
   
-La commande ci-dessous crée un ensemble de paramètres de configuration de réunion pour le site de Redmond :
+La commande suivante crée un nouvel ensemble de paramètres de configuration de réunion pour le site Redmond :
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
@@ -83,12 +83,12 @@ Pour créer des paramètres qui utilisent différentes valeurs de propriété, i
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Plusieurs valeurs de propriété peuvent être définies en incluant plusieurs paramètres. Par exemple, la commande suivante admet tout le monde à une réunion comme présentateur et force aussi les utilisateurs RTC à attendre dans la salle d’attente jusqu’à ce qu’ils soient officiellement admis à la réunion :
+Plusieurs valeurs de propriété peuvent être définies en incluant plusieurs paramètres. Par exemple, la commande suivante admet tout le monde à une réunion en tant que présentateur et force également les utilisateurs PSTN à attendre dans la salle d’attente jusqu’à ce qu’ils soient officiellement admis à la réunion :
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Pour plus d’informations, y compris une liste complète des paramètres, consultez la rubrique [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
+Pour plus d’informations, y compris une liste complète des paramètres, voir [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
   
 

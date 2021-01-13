@@ -1,8 +1,8 @@
 ---
-title: Vérifier les règles de normalisation du parc d’appels dans Skype entreprise
+title: Vérifier les règles de normalisation pour le parcier d’appel dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-description: En savoir plus sur les règles de normalisation du parc d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: 769d9f9becccf4df24a33a11e8814350cfb091e8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: En savoir plus sur les règles de normalisation pour le parcier d’appel dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: d1bcd6817b1f59f73a8c4ef1562e90253a99bd30
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766887"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830574"
 ---
-# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Vérifier les règles de normalisation du parc d’appels dans Skype entreprise
+# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Vérifier les règles de normalisation pour le parcier d’appel dans Skype Entreprise
  
-En savoir plus sur les règles de normalisation du parc d’appels dans Skype entreprise Server Voice.
+En savoir plus sur les règles de normalisation pour le parcier d’appel dans Skype Entreprise Server Voix Entreprise.
   
-Le parking des orbites ne doit pas être normalisé. Vérifiez dans vos plans de numérotation que vos numéros orbites ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure décrite dans la rubrique [créer ou modifier un plan de numérotation dans Skype entreprise Server](dial-plans.md) pour définir une nouvelle règle de normalisation, de sorte que le **modèle à faire correspondre** identifie la plage d’orbite et le **modèle de translation** est **$1**. Par exemple, si la plage de votre stationnement d’appels est 7000-7999, le **modèle à faire correspondre** est **^ ({3}7 \ d) $** et le **modèle de traduction** est **$1**.
+Les orbites de parcier d’appel ne doivent pas être normalisées. Vérifiez vos plans de numérotation pour vous assurer que vos numéros d’orbite ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure de création ou de modification d’un plan de numérotation dans Skype Entreprise [Server](dial-plans.md) pour définir une nouvelle règle de normalisation, afin que le modèle à suivre **identifie** la plage d’orbites et que le modèle de traduction soit **de 1 $**.  Par exemple, si votre plage d’orbites de parc automatique est  de 7 000 à  7 999, le modèle à suivre est **^(7\d {3} )$** et le modèle de traduction est **de 1 $**.
   
 > [!IMPORTANT]
-> Vérifiez que la règle de normalisation par défaut de vos plans de numérotation ne contient pas **^\*(\d)**. Dans le cas contraire, votre règle de normalisation de parc d’appels ne sera jamais exécutée.
+> Assurez-vous que la règle de normalisation par défaut dans vos plans de numérotation ne contient **pas ^(\d \* )**. Dans le cas contraire, votre règle de normalisation du parc d’appel ne s’exécutera jamais.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Création ou modification d’un plan de numérotation dans Skype entreprise Server](dial-plans.md)
+[Créer ou modifier un plan de numérotation dans Skype Entreprise Server](dial-plans.md)
 

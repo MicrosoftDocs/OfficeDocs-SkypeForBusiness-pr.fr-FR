@@ -1,7 +1,7 @@
 ---
 title: Phase 1 de l’adoption de Microsoft Teams - Démarrer
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir les activités menées lors de la phase de démarrage de Microsoft Teams. Découvrez les meilleures pratiques en matière de configuration de Microsoft teams et de planification d’équipe.
+description: Dans cet article, vous découvrirez les activités de la phase de démarrage de l’adoption de Microsoft Teams. Comprendre les meilleures pratiques en matière de configuration de Microsoft Teams et de planification d’équipe.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,56 +21,56 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c9f8e7ca96ea239caa05452ce821e4c66319091
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 53fdf891bf491b8b641b07ad4851d3763c0505c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416854"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806124"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Phase 1 de l’adoption de Microsoft Teams - Démarrer
 
-Vous entamerez votre adoption d’équipes avec les activités suivantes :
+Vous démarrerez l’adoption de Teams avec les activités suivantes :
 
-- [Valider les conditions préalables](#validate-adoption-prerequisites)à l’adoption.
-- [Assembler votre équipe](#assemble-your-team).
-- [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md).
-- [Configurez votre première équipe sur teams](teams-adoption-your-first-teams.md) pour créer vos connaissances techniques.
-- [Évaluez la disponibilité de votre organisation pour le changement](teams-adoption-assess-readiness.md).
+- [Valider les conditions préalables à l’adoption.](#validate-adoption-prerequisites)
+- [Assemblez votre équipe.](#assemble-your-team)
+- [Comprendre les équipes et les canaux.](teams-adoption-understand-teams-and-channels.md)
+- [Configurer vos premières équipes sur Teams pour](teams-adoption-your-first-teams.md) développer vos connaissances techniques.
+- [Évaluez la disponibilité de votre organisation en cas de modification.](teams-adoption-assess-readiness.md)
 
-L’objectif principal de cette phase est de garantir la préparation de la phase d’expérimentation. Vous pouvez également déterminer si vous avez besoin d’aide de Microsoft ou de notre réseau de partenaires qualifiés.  
+L’objectif principal de cette phase est de s’assurer de votre préparation pour la phase de expérimentation. Vous déterminerez également si vous avez besoin d’aide de Microsoft ou de notre réseau de partenaires qualifiés.  
 
 ## <a name="validate-adoption-prerequisites"></a>Valider les conditions préalables à l’adoption
 
-Consultez nos [conditions préalables](teams-adoption-get-started.md#adoption-prerequisites) à l’adoption et collaborez avec l’équipe technique pour les présenter si nécessaire. Nous répondrons aux exigences techniques plus détaillées dans chaque scénario d’adoption.
+Examinez nos [conditions préalables à l’adoption](teams-adoption-get-started.md#adoption-prerequisites) et travaillez avec l’équipe technique pour les rencontrer si nécessaire. Nous aborderons des exigences techniques plus approfondies dans chaque scénario d’adoption.
 
-## <a name="assemble-your-team"></a>Assembler votre équipe
+## <a name="assemble-your-team"></a>Assemblez votre équipe
 
-Le tableau ci-dessous répertorie les rôles principaux de votre équipe de projet. Dans une organisation plus petite, certains de ces rôles pourront être exécutés par la même personne.
+Le tableau ci-dessous répertorie les principaux rôles de votre équipe de projet. Dans une plus petite organisation, certains de ces rôles peuvent être exécutés par la même personne.
 
-| Rôle | Vis | Service |
+| Rôle | Responsabilités | Service |
 | ---- | ---------------- | ---------- |
-| Commanditaire d’encadrement<sup>1</sup> | Communiquez la vision de haut niveau. Connexion de l’implémentation des équipes aux initiatives principales de mission et de priorité au sein de l’entreprise. | Leadership exécutif |
-| Propriétaire du succès<sup>1</sup> | Assurez-vous que les objectifs de votre entreprise sont réalisés dans le déploiement d’équipes. | Tout service |
-| Gestionnaire de programmes<sup>1</sup> | Supervise le processus d’exécution et de lancement de l’ensemble des équipes. | NE |
-| Champions<sup>1</sup> | Contribuez à la sensibilisation des équipes, au développement de compétences et à la fourniture de perspectives d’utilisation. | Départements multiples |
-| Responsable de formation | Gérer et communiquer du contenu de formation sur Teams. | IL ou autre |
-| Leads de service (parties prenantes)<sup>2</sup> | Identifiez le mode d’utilisation des équipes par les services et encourager l’engagement. | Tout service (gestion) |
-| Spécialistes informatiques<sup>1</sup> | Supervisez tous les aspects techniques de l’implémentation, y compris les intégrations. | NE |
-| Communication<sup>2</sup> | Surveiller les communications à l’échelle de l’entreprise concernant Teams. | Communications d’entreprise, informatiques ou autres |
-| Responsable de la communauté | Gérer les activités quotidiennes du réseau Yammer. Fournir des recommandations et des meilleures pratiques. | Départements multiples |
+| Cadres<sup>délégués 1</sup> | Communiquez une vision de haut niveau. Connectez l’implémentation Teams à des initiatives de mission et de priorité essentielles au niveau de l’entreprise. | Direction |
+| Success Owner<sup>1</sup> | Assurez-vous que les objectifs professionnels sont réalisé à partir du déploiement de Teams. | N’importe quel service |
+| Gestionnaire de programme<sup>1</sup> | Superviser l’ensemble du processus d’exécution et de déploiement de Teams. | IT |
+| Champions<sup>1</sup> | Permet de créer des équipes, de soutenir la création de compétences et de fournir des informations sur l’utilisation. | Plusieurs services |
+| Lead de formation | Gérez et communiquez du contenu de formation sur Teams. | It or other |
+| Responsables de département (parties prenantes)<sup>2</sup> | Identifiez la manière dont certains services utiliseront Teams et encourageront l’engagement. | N’importe quel service (gestion) |
+| Spécialistes de<sup>l’informatique 1</sup> | Superviser tous les aspects techniques de l’implémentation, y compris les intégrations. | IT |
+| Communication Lead<sup>2</sup> | Superviser les communications à l’échelle de l’entreprise sur Teams. | Communications d’entreprise, IT ou autres |
+| Community Manager | Gérez l’activité quotidienne Yammer réseau. Fournir des conseils et des recommandations. | Plusieurs services |
 
-<sup>1</sup> Ces rôles sont essentiels au succès de votre projet.</br>
-<sup>2</sup> Ces rôles sont importants pour le succès global du programme.
+<sup>1</sup> Ces rôles sont essentiels pour la réussite de votre projet.</br>
+<sup>2</sup> Ces rôles sont importants pour la réussite globale du programme.
 
-Dans la plupart des cas, cette équipe initiale doit être un petit groupe de personnes qui aiment les équipes et peut également être responsable de son implémentation. Lorsque votre plan d’adoption passe à d’autres phases, vous inclurez davantage de personnes dans votre équipe. Nous vous suggérons également de tirer parti des ressources Microsoft disponibles pour vous aider. 
+Dans la plupart des cas, cette équipe initiale doit être un petit groupe de personnes de la même façon qui s’intéressent à Teams et peuvent également être responsables de son implémentation. À mesure que votre plan d’adoption passe à des phases supplémentaires, vous incluez davantage de personnes dans votre équipe. Nous vous suggérons également de tirer parti des ressources Microsoft disponibles pour vous aider. 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-La [communauté technique Microsoft](https://aka.ms/TechCommunity) fournit des informations d’approbation fournies par l’homologue en adoptant et en problèmes techniques pour de nombreux produits Microsoft 365 et Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
+La [communauté technique Microsoft](https://aka.ms/TechCommunity) fournit des informations fournies par des pairs sur l’adoption et les problèmes techniques pour de nombreux produits Microsoft 365 et Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
 
-- [Communauté technique Microsoft teams](https://aka.ms/TeamsCommunity) : Obtenez des réponses à vos questions sur le produit, apprenez auprès des clients d’autres équipes et suivez notre blog pour vous tenir au courant des nouvelles fonctionnalités et des cas d’utilisation pour Teams. 
-- [Programme de champions](https://aka.ms/O365Champions) et communauté d’adoption du pilotage : Apprenez auprès de vos homologues comment procéder à l’adoption d’une charge de travail Microsoft 365 ou Office 365 par le biais d’équipes, de SharePoint, de Yammer et d’autres produits. Ce service est destiné aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et aux personnes qui souhaitent adopter les services Cloud.  
+- [Communauté technique Microsoft Teams](https://aka.ms/TeamsCommunity) : obtenez des réponses aux questions sur les produits, apprenez auprès d’autres clients de Teams et suivez notre blog pour vous tenir au courant des nouvelles fonctionnalités et des cas d’utilisation de Teams. 
+- [Programme Champions](https://aka.ms/O365Champions) et communauté Adoption en tête - Découvrez auprès de vos pairs comment piloter au mieux l’adoption des charges de travail Microsoft 365 ou Office 365 telles que Teams, SharePoint, Yammer et d’autres produits. Ouvrez-la aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et à toute personne intéressé par l’adoption des services cloud.  
 
 
-![Une icône représentant la prochaine étape suivante ](media/teams-adoption-next-icon.png) : [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)
+![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) Comprendre [les équipes et les canaux](teams-adoption-understand-teams-and-channels.md)

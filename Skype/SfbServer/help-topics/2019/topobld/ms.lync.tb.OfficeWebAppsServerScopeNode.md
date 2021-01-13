@@ -1,8 +1,8 @@
 ---
-title: Expanseur du nœud d’étendue du serveur Office Web Apps
+title: Expanseur du nœud d’étendue du serveur Office Web Apps Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous pouvez cliquer avec le bouton droit sur serveurs Office Web Apps dans le générateur de topologie pour effectuer les opérations suivantes :'
-ms.openlocfilehash: f863773c1cbf80f48886285e972e42f2642ec955
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Cliquez avec le bouton droit sur les serveurs Office Web Apps dans le Générateur de topologies pour effectuer les choses suivantes :'
+ms.openlocfilehash: 0828535293e2293971208f86dc293c6757ff0a0d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793422"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829944"
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a>Expanseur du nœud d’étendue du serveur Office Web Apps
+# <a name="office-web-apps-server-scope-node-expander"></a>Expandeur du nœud d’étendue du serveur Office Web Apps Server
  
-Vous pouvez cliquer avec le bouton droit sur **serveurs Office Web Apps** dans le générateur de topologie pour effectuer les opérations suivantes :
+Cliquez avec le bouton droit **sur les serveurs Office Web Apps dans** le Générateur de topologies pour effectuer les choses suivantes :
   
-- **Nouveau serveur Office Web Apps**: démarre l’Assistant **définir un nouveau serveur Office Web Apps** utilisé pour définir un nouveau serveur Office Web Apps.
+- **Nouveau Serveur Office Web Apps Server**: démarre l’Assistant Définir un nouveau serveur Office Web Apps **Server** utilisé pour définir un nouveau serveur Office Web Apps Server.
     
-Outre la nouvelle option serveur Office Web Apps, vous pouvez effectuer les tâches générales suivantes :
+Outre l’option Nouveau serveur Office Web Apps Server, vous pouvez effectuer les tâches générales suivantes :
   
-![Nœud d’étendue d’Office WebApps Server](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nœud d’étendue du serveur Office WebApps](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions précédentes ou supprimer le déploiement.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

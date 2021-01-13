@@ -1,8 +1,8 @@
 ---
 title: Configuration du périphérique
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,43 +14,43 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Une configuration d’appareil est une collection de paramètres utilisée pour gérer les appareils Skype entreprise Phone Edition, qu’il s’agisse d’un site global ou d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: dd6caaa1695e3250e48bf839f56edf47ff2dbcfb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Phone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+ms.openlocfilehash: dc44a176a5dbef7c1df5e957867f30b27b47e95b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796493"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830164"
 ---
-# <a name="device-configuration"></a>Configuration du périphérique
+# <a name="device-configuration"></a>Configuration de l’appareil
  
-Une configuration d’appareil est une collection de paramètres utilisée pour gérer les appareils Skype entreprise Phone Edition, qu’il s’agisse d’un site global ou d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée. 
+Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Phone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée. 
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Configuration de l’appareil**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes dans la page **Configuration du périphérique** :
   
-- Ajout d’une configuration d’appareil au niveau global ou pour un site particulier
+- Ajouter une configuration de périphérique globalement ou pour un site particulier
     
-- Modification des options d’une configuration d’appareil existante
+- Modifier les options d’une configuration de périphérique existante
     
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
+Les listes suivantes décrivent les menus, commandes, champs et propriétés de la page.
   
-- **Nouvelle** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante :
+- **Nouveau** Vous pouvez ajouter une nouvelle configuration d’appareil avec l’étendue suivante :
     
   - Globale
     
   - Site
     
-- **Modifier** Vous pouvez modifier les options de configuration d’un périphérique dans la liste. Cette option vous permet d’effectuer les opérations suivantes :
+- **Modifier** Vous pouvez modifier les options d’une configuration d’appareil dans la liste. À l’aide de cette option, vous pouvez effectuer les opérations suivantes :
     
-  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration d’un appareil.
+  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options d’une configuration d’appareil.
     
-  - **Tout sélectionner** Cette option sélectionne toutes les configurations d’appareils dans la liste.
+  - **Sélectionner tout** Cette option sélectionne toutes les configurations d’appareil dans la liste.
     
-  - **Supprimer** Cette option supprime toutes les configurations d’appareils sélectionnées.
+  - **Supprimer** Cette option supprime toutes les configurations d’appareil sélectionnées.
     
 - **Actualiser** Vous pouvez actualiser la liste de configuration des appareils pour vérifier l’état des options de toutes les configurations d’appareil.
     

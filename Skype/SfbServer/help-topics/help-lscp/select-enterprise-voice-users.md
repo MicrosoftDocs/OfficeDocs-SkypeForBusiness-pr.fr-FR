@@ -1,8 +1,8 @@
 ---
 title: Sélectionner des utilisateurs Voix Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
-description: Utilisez la boîte de dialogue Sélectionner des utilisateurs voix entreprise pour rechercher les utilisateurs activés pour voix entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous voulez rechercher, puis cliquez sur Rechercher. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de la recherche, puis cliquez sur OK. Si vous ne trouvez pas l’utilisateur que vous cherchez, il est possible que l’utilisateur ne soit pas activé pour voix entreprise.
-ms.openlocfilehash: c4976d03f716044ee5a8c518ef32f6e7d90c0720
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Utilisez la boîte de dialogue Sélectionner Voix Entreprise utilisateurs pour rechercher les utilisateurs activés pour Voix Entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous souhaitez trouver, puis cliquez sur Rechercher. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de la recherche, puis cliquez sur OK. Si vous ne trouvez pas l’utilisateur que vous recherchez, il se peut que cet utilisateur ne soit pas activé pour Voix Entreprise.
+ms.openlocfilehash: 2819a7e400191fa0bd2abf0108ca61d05d01c009
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822237"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829124"
 ---
 # <a name="select-enterprise-voice-users"></a>Sélectionner des utilisateurs Voix Entreprise
  
-Utilisez la boîte de dialogue **Sélectionner des utilisateurs voix entreprise** pour rechercher les utilisateurs activés pour voix entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous voulez rechercher, puis cliquez sur **Rechercher**. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de la recherche, puis cliquez sur **OK**. Si vous ne trouvez pas l’utilisateur que vous cherchez, il est possible que l’utilisateur ne soit pas activé pour voix entreprise. 
+Utilisez la **boîte de dialogue Sélectionner Voix Entreprise utilisateurs** pour rechercher les utilisateurs activés pour Voix Entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous souhaitez trouver, puis cliquez sur **Rechercher**. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de la recherche, puis cliquez sur **OK**. Si vous ne trouvez pas l’utilisateur que vous recherchez, il se peut que cet utilisateur ne soit pas activé pour Voix Entreprise. 
   
 > [!NOTE]
-> Pour récupérer tous les utilisateurs activés pour voix entreprise, n’entrez rien dans la zone de recherche. Vous pouvez également rechercher tous les utilisateurs pour lesquels le nom complet ou l’adresse SIP commence par une certaine chaîne. Par exemple, pour rechercher tous les utilisateurs dont l’adresse SIP commence par Ken, tapez SIP : Ken. Les utilisateurs tels que sip :kenmyer@fabrikam.com, SIP :kenkwok. fabrikam. com et sip :kenmallit@fabrikam.com. 
+> Pour récupérer tous les utilisateurs activés pour Voix Entreprise, ne tapez rien dans la zone de recherche. Vous pouvez également trouver tous les utilisateurs dont les noms d’affichage ou les adresses SIP commencent par une chaîne définie. Par exemple, pour trouver tous les utilisateurs dont les adresses SIP commencent par ken, tapez sip:ken. Ceci retournera des utilisateurs comme sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com et sip:kenmallit@fabrikam.com. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

@@ -1,8 +1,8 @@
 ---
-title: Configuration de l’appareil création ou modification existante
+title: 'Configuration de l’appareil : création d’une configuration ou modification d’un périphérique existant'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,53 +14,53 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dans la page nouvelle configuration de l’appareil ou modifier la configuration de l’appareil, vous pouvez créer ou modifier un ensemble de paramètres permettant de gérer Skype entreprise Phone Edition. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 772463b5816c4ce40b70be8cb38af2fee8daa0bf
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Dans la page Nouvelle configuration d’appareil ou Modifier la configuration de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Phone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+ms.openlocfilehash: 0b330212c8dc050bb618f28ea6444b1c8e58f040
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794483"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830194"
 ---
-# <a name="device-configuration-create-new-or-edit-existing"></a>Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant
+# <a name="device-configuration-create-new-or-edit-existing"></a>Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante
  
-Dans la page **nouvelle configuration** de l’appareil ou **modifier la configuration** de l’appareil, vous pouvez créer ou modifier un ensemble de paramètres permettant de gérer Skype entreprise Phone Edition. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+Dans la page **Nouvelle configuration d’appareil** ou Modifier la **configuration** de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Phone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Nouvelle configuration de l’appareil** ou **Modifier la configuration de l’appareil**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes dans la page **Nouvelle configuration de l’appareil** ou **Modifier la configuration de l’appareil** :
   
-- Ajout d’une nouvelle configuration de l’appareil
+- Ajouter une nouvelle configuration de l’appareil
     
-- Modification des propriétés d’une configuration d’appareil existante
+- Modifier les propriétés d’une configuration d’appareil existante
     
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
+Les listes suivantes décrivent les menus, commandes, champs et propriétés de la page.
   
-- **Scope** Identifie l’étendue (globale ou site) de la configuration de l’appareil.
+- **Étendue** Identifie l’étendue (globale ou site) de la configuration de l’appareil.
     
 - **Nom** Vous pouvez ajouter ou modifier le nom de la configuration de l’appareil.
     
-- **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les appareils Skype entreprise Phone Edition. Vous pouvez sélectionner l’une des options suivantes :
+- **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les appareils Skype Entreprise Phone Edition. Vous pouvez sélectionner l’une des options suivantes :
     
   - **Faible** Autorisez tout type d’autorisation ou de transport.
     
-  - **Moyenne** NTLM ou Kerberos est requis pour l’authentification des utilisateurs.
+  - **Moyen** NTLM ou Kerberos est requis pour l’authentification des utilisateurs.
     
-  - **Elevé** NTLM ou Kerberos est requis pour l’authentification des utilisateurs et TLS est requis pour les connexions SIP.
+  - **Élevé** NTLM ou Kerberos est requis pour l’authentification des utilisateurs et TLS est requis pour les connexions SIP.
     
-- **Niveau de journalisation** Vous pouvez activer la journalisation sur l’appareil UC. Valeurs valides : désactivé ; Faiblesse PME et élevée. La valeur par défaut est désactivé.
+- **Niveau de journalisation** Vous pouvez activer la journalisation sur le périphérique UC. Les valeurs valides sont : Off; Faible ; Moyen ; et Élevé. La valeur par défaut est Off.
     
-- **Qualité de service (QoS) de qualité vocale** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal émis à partir d’un appareil Skype entreprise Phone Edition. Cependant, 40 n’est pas la valeur généralement utilisée pour le trafic audio. À la place, le trafic audio est presque toujours marqué avec le le code DSCP 46. Pour maintenir une cohérence sur l’ensemble de votre réseau, vous pouvez remplacer cette valeur par 46.
+- **Qualité de service vocale (QoS)** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal provenant d’un appareil Skype Entreprise Phone Edition. La valeur par défaut est 40. Toutefois, 40 n’est pas la valeur généralement utilisée pour le trafic audio ; au lieu de cela, le trafic audio est presque toujours marqué avec le code DSCP 46. Afin de maintenir la cohérence dans l’ensemble de votre réseau, vous pouvez modifier cette valeur sur 46.
     
-- **Verrouillage du téléphone** Vous pouvez spécifier si les téléphones de communications unifiées se verrouillent automatiquement après une période d’inactivité spécifiée. Vous pouvez configurer les paramètres suivants :
+- **Verrouillage du téléphone** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Les paramètres que vous pouvez configurer sont les suivants :
     
-  - **Mettre** en place le verrouillage d’appareil Vous pouvez mettre en place le verrouillage de l’appareil en cochant cette case.
+  - **Appliquer le verrouillage de l’appareil** Vous pouvez appliquer le verrouillage de l’appareil en cocher cette case.
     
-  - **Longueur minimale du code confidentiel** Vous pouvez spécifier la longueur minimale de votre code confidentiel (PIN) qui est utilisée pour déverrouiller le téléphone. La plage de la longueur du code confidentiel doit être comprise entre 4 et 15 chiffres. La longueur par défaut est de six chiffres.
+  - **Longueur minimale du code confidentiel** Vous pouvez spécifier la longueur minimale du code confidentiel utilisé pour déverrouiller le téléphone. Ce code peut être constitué de quatre à quinze chiffres. La longueur par défaut est six chiffres.
     
-  - **Délai de verrouillage du téléphone** Vous pouvez spécifier la durée minimale avant le verrouillage du téléphone. La valeur par défaut est de 10 minutes. Le format de cette valeur est HH:MM:SS.
+  - **Délai d’verrouillage du téléphone** Vous pouvez spécifier la durée minimale avant que le téléphone ne se verrouille lui-même. Ce délai est compris entre 0 et 60 minutes ; la valeur par défaut est 10 minutes. Le format de cette valeur est HH:MM:SS.
     
 ## <a name="see-also"></a>Voir aussi
 

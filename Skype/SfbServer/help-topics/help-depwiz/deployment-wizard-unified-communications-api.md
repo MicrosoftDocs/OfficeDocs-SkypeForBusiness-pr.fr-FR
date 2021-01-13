@@ -1,8 +1,8 @@
 ---
-title: API de communications unifiées de l’Assistant Déploiement
+title: API communications unifiées de l’Assistant Déploiement
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
-description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server 2015, voir Installer Skype entreprise Server 2015.
-ms.openlocfilehash: 1e1025aae1c737f372a3076e3fb722013c1b36cf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir Install Skype for Business Server 2015.
+ms.openlocfilehash: 35c27279cd532ad0ae6fecb101780f23ed2b8264
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823708"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827314"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Assistant Déploiement : API web Communications unifiées
  
-Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server 2015, voir [Installer Skype entreprise server 2015](../../deploy/install/install.md).
+Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir [Install Skype for Business Server 2015](../../deploy/install/install.md).
   
 

@@ -1,8 +1,8 @@
 ---
-title: Mise en file d’attente de groupes de réponse créer un nouveau ou modifier un groupe existant
+title: 'File d’attente Response Groups : création d’une file d’attente ou modification d’une file d’attente existante'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,64 +14,64 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
-description: Les files d’attente de groupe de réponse contiennent les appels d’un groupe de réponse tant qu’un agent ne répond pas à l’appel.
-ms.openlocfilehash: cd948c145033cf3d4f6a3e79a0c4d0c36f6f70fe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
+ms.openlocfilehash: cfe2d212f90f8dcdf83b8f827ebf470245ce87fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822377"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829314"
 ---
-# <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente Response Group : création d’une file d’attente ou modification d’une file d’attente existante
+# <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente des services Response Groups : création d’une nouvelle ou modification d’une file existante
 
-Les files d’attente de groupe de réponse contiennent les appels d’un groupe de réponse tant qu’un agent ne répond pas à l’appel.
+Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste ci-dessous décrit les champs de la page.
+La liste suivante décrit les champs de la page.
 
 - **Nom** Chaque file d’attente doit avoir un nom. Tapez un nom descriptif pour la file d’attente.
 
-- **Description** Ce champ est facultatif. Utilisez-la pour fournir des informations supplémentaires sur la file d’attente.
+- **Description** Ce champ est facultatif. Utilisez-le pour fournir des détails supplémentaires sur la file d’attente.
 
-- **Groupes** Sélectionnez les groupes d’agents que vous voulez affecter à la file d’attente. Cliquez sur **Sélectionner** pour ajouter des groupes d’agents à la liste. Cliquez sur **supprimer** pour supprimer le groupe d’agents sélectionné de la liste.
+- **Groupes** Sélectionnez les groupes d’agents que vous souhaitez affecter à la file d’attente. Cliquez **sur Sélectionner** pour ajouter des groupes d’agents à la liste. Cliquez **sur Supprimer** pour supprimer le groupe d’agents sélectionné de la liste.
 
-    Les flèches vers le haut et vers le bas déplacent un groupe d’agents sélectionné vers le haut et vers le bas de la liste. L’ordre des groupes d’agents affecte l’ordre dans lequel le serveur Skype entreprise recherche un agent disponible. Ainsi, un agent disponible est recherché en premier dans le premier groupe répertorié, puis dans le deuxième groupe, etc.
+    Les flèches vers le haut et vers le bas déplacent un groupe d’agents sélectionné vers le haut et vers le bas dans la liste. L’ordre des groupes d’agents affecte l’ordre dans lequel Skype Entreprise Server recherche un agent disponible. Ainsi, un agent disponible est recherché en premier dans le premier groupe répertorié, puis dans le deuxième groupe, etc.
 
-- **Temps d’activation de la file d’attente** Activez cette case à cocher pour spécifier un délai maximal pendant lequel l’appelant doit patienter avant d’avoir répondu à l’appel. Si vous sélectionnez cette option, vous devez également spécifier les éléments suivants :
+- **Activer le délai d’attente de file d’attente** Cochez cette case pour spécifier une durée maximale pendant combien de temps un appelant doit attendre en attente avant qu’un agent réponde à l’appel. Si vous sélectionnez cette option, vous devez également spécifier les options suivantes :
 
-  - **Période de délai (secondes)** Sélectionnez ou tapez le nombre maximal de secondes qu’un appelant peut patienter avant qu’un agent réponde à l’appel.
+  - **Délai d’attente (secondes)** Sélectionnez ou tapez le nombre maximal de secondes qu’un appelant peut attendre avant qu’un agent réponde à l’appel.
 
-  - **Action appeler** Sélectionner l’action qui se produit lorsqu’un appel arrive à expiration. Les choix possibles sont les suivants :
+  - **Action d’appel** Sélectionnez l’action qui se produit à l’attente d’un appel. Vous avez le choix entre :
 
-  - **Déconnexion**
+  - **Disconnect**
 
-  - **Transférer vers la messagerie vocale** Si vous sélectionnez cette option, dans **adresse SIP**, tapez une adresse de messagerie vocale au format SIP :<username> @ <domainname> (par exemple, SIP :Bob@contoso.com).
+  - **Forward to voice mail** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez une adresse de messagerie vocale au format sip ( par <username> @ <domainname> exemple, sip:bob@contoso.com).
 
-  - **Transférer vers le numéro de téléphone** Si vous sélectionnez cette option, dans **adresse SIP** , tapez le numéro de téléphone au format SIP<number> @ <domainname> : (par exemple, SIP :+14255550121@contoso.com).
+  - **Forward to telephone number** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez le numéro de téléphone au format sip ( par <number> @ <domainname> exemple, sip:+14255550121@contoso.com).
 
-  - **Transférer vers l’adresse SIP** Sélectionnez cette option pour transférer l’appel vers un autre utilisateur. Dans **adresse SIP**, tapez l’URI de l’utilisateur au format SIP :<username>@<domainname>.
+  - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: <username> @ <domainname> .
 
-  - **Transférer vers une autre file d’attente** Si vous sélectionnez cette option, naviguez jusqu’à la file d’attente pour recevoir des appels lorsque le délai d’appels est écoulé.
+  - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir des appels au moment où les appels ont été mis à l’heure d’attente.
 
-- **Activer le dépassement de la file d’attente** Activez cette case à cocher pour spécifier un nombre maximal d’appels que la file d’attente peut contenir. Si vous sélectionnez cette option, vous devez également spécifier les éléments suivants :
+- **Activer le dépassement de la file d’attente** Cochez cette case pour spécifier un nombre maximal d’appels que la file d’attente peut contenir. Si vous sélectionnez cette option, vous devez également spécifier les options suivantes :
 
-  - **Nombre maximum d’appels** Sélectionnez ou tapez le nombre maximal d’appels que la file d’attente peut contenir.
+  - **Nombre maximal d’appels** Sélectionnez ou tapez le nombre maximal d’appels que la file d’attente peut contenir.
 
-  - **Transférer l’appel** Sélectionnez l’appel qui doit agir lorsque le seuil de dépassement de la file d’attente est atteint.
+  - **Forward the call** Sélectionnez l’appel à prendre en compte lorsque le seuil de dépassement de la file d’attente est atteint.
 
-  - **Action appeler** Sélectionnez l’action qui se produit lorsque le seuil de dépassement de la file d’attente est atteint. Les choix possibles sont les suivants :
+  - **Action d’appel** Sélectionnez l’action qui se produit lorsque le seuil de dépassement de la file d’attente est atteint. Vos choix est les suivants :
 
-  - **Déconnexion**
+  - **Disconnect**
 
-  - **Transférer vers la messagerie vocale** Si vous sélectionnez cette option, dans **adresse SIP**, tapez une adresse de messagerie vocale au format SIP :<username> @ <domainname> (par exemple, SIP :Bob@contoso.com).
+  - **Forward to voice mail** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez une adresse de messagerie vocale au format sip ( par <username> @ <domainname> exemple, sip:bob@contoso.com).
 
-  - **Transférer vers le numéro de téléphone** Si vous sélectionnez cette option, dans **adresse SIP** , tapez le numéro de téléphone au format SIP<number> @ <domainname> : (par exemple, SIP :+14255550121@contoso.com).
+  - **Forward to telephone number** Si vous sélectionnez cette option, dans l’adresse **SIP,** tapez le numéro de téléphone au format sip ( par <number> @ <domainname> exemple, sip:+14255550121@contoso.com).
 
-  - **Transférer vers l’adresse SIP** Sélectionnez cette option pour transférer l’appel vers un autre utilisateur. Dans **adresse SIP**, tapez l’URI de l’utilisateur au format SIP :<username>@<domainname>.
+  - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: <username> @ <domainname> .
 
-  - **Transférer vers une autre file d’attente** Si vous sélectionnez cette option, naviguez jusqu’à la file d’attente pour recevoir des appels lorsque le seuil de dépassement de la file d’attente est atteint.
+  - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir des appels lorsque le seuil de dépassement de la file d’attente est atteint.
 
-Pour plus d’informations sur les fonctionnalités et les fonctionnalités des groupes de réponse, voir [planifier l’application Response Group dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente, reportez-vous à la rubrique [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) de la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
 
 

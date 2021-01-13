@@ -1,7 +1,7 @@
 ---
 title: Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Pour en savoir plus, consultez la procédure à suivre pour prendre en charge une large gamme d’équipes pour votre organisation.
+description: Lisez une vue d’ensemble des étapes dont vous aurez besoin pour prendre en charge l’enablement à grande échelle de Teams pour votre organisation.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904599"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806104"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
 
-Au cours de cette phase, vous allez utiliser vos connaissances, votre équipe de projet douée et vos relations avec les parties prenantes, les champions et les premiers décideurs pour soutenir une large gamme d’équipes au sein de votre organisation. Suivez les étapes ci-dessous pour vous préparer à la poursuite de l’engagement pour les entreprises concernant l’utilisation de Microsoft teams :
+Dans cette phase, vous allez utiliser vos apprentissages, équipe de projet talentueux et les relations avec les parties prenantes, les champions et les premiers utilisateurs pour prendre en charge l’enablement à grande échelle de Teams pour votre organisation. Vous effectuerez les étapes suivantes lorsque vous vous préparerez à l’engagement continu de l’entreprise concernant l’utilisation de Microsoft Teams par vos organisations :
 
-1. Définir des résultats et des mesures de réussite.
-2. Sélectionnez stratégie de service.
-3. Faire appel aux parties prenantes.
-4. Concevoir et lancer une campagne de sensibilisation.
+1. Définissez les résultats et les mesures de réussite.
+2. Sélectionnez une stratégie de service.
+3. Impliquez les parties prenantes.
+4. Créez et lancez une campagne de sensibilisation.
 5. Concevoir et lancer un programme de formation.
-6. Comprendre les outils de création de rapports.
-7. Préparez-vous à l’engagement professionnel.
-8. Préparez-vous à l’examen continu de l’adoption des services &.
+6. Comprendre les outils de rapport.
+7. Préparez l’engagement continu de l’entreprise.
+8. Préparez les examens d’adoption et d’état & service en cours.
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [définir les résultats et réussite](teams-adoption-define-outcomes.md)
+![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) définir les résultats et le [succès](teams-adoption-define-outcomes.md)

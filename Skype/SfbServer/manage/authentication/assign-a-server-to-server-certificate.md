@@ -1,8 +1,8 @@
 ---
-title: Affecter un certificat d’authentification de serveur à serveur à Skype entreprise Server
+title: Affecter un certificat d’authentification de serveur à serveur à Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,69 +12,69 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
-description: 'Résumé : affectez un certificat d’authentification serveur à serveur pour Skype entreprise Server.'
-ms.openlocfilehash: 4689306e0fb8cd7b7c8ce67f74c6ddb65db44f13
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Affectez un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.'
+ms.openlocfilehash: 122c2a1783fe4370027b4412ae5be8058e4914ce
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818856"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828504"
 ---
-# <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Affecter un certificat d’authentification de serveur à serveur à Skype entreprise Server
-**Résumé :** Assignez un certificat d’authentification serveur à serveur pour Skype entreprise Server.
+# <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Affecter un certificat d’authentification de serveur à serveur à Skype Entreprise Server
+**Résumé :** Affecter un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.
   
-Pour déterminer si un certificat d’authentification de serveur à serveur est déjà attribué à Skype entreprise Server, exécutez la commande suivante à partir de Skype entreprise Server Management Shell :
+Pour déterminer si un certificat d’authentification de serveur à serveur a déjà été affecté à Skype Entreprise Server, exécutez la commande suivante à partir de Skype Entreprise Server Management Shell :
   
 ```PowerShell
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-Si aucune information de certificat n’est renvoyée, vous devez attribuer un certificat de l’émetteur de jeton pour pouvoir utiliser l’authentification de serveur à serveur. En règle générale, tout certificat Skype entreprise Server peut être utilisé comme certificat OAuthTokenIssuer ; par exemple, votre certificat par défaut Skype entreprise Server peut également être utilisé comme certificat OAuthTokenIssuer. (Le certificat OAUthTokenIssuer peut également être un certificat de serveur Web incluant le nom de votre domaine SIP dans le champ Subject.) Les deux conditions principales requises pour le certificat utilisé pour l’authentification de serveur à serveur sont les suivantes : 1) le même certificat doit être configuré en tant que certificat OAuthTokenIssuer sur tous les serveurs frontaux. et 2) le certificat doit comporter au moins 2048 bits.
+Si aucune information de certificat n’est renvoyée, vous devez attribuer un certificat d’émetteur de jeton avant de pouvoir utiliser l’authentification de serveur à serveur. En règle générale, tout certificat Skype Entreprise Server peut être utilisé comme certificat OAuthTokenIssuer ; Par exemple, votre certificat Skype Entreprise Server par défaut peut également être utilisé comme certificat OAuthTokenIssuer. (Le certificat OAUthTokenIssuer peut également être n’importe quel certificat de serveur Web qui inclut le nom de votre domaine SIP dans le champ Objet.) Les deux principales conditions requises pour le certificat utilisé pour l’authentification de serveur à serveur sont les mêmes : 1) le même certificat doit être configuré en tant que certificat OAuthTokenIssuer sur tous vos serveurs frontaux ; et, 2) le certificat doit être au moins 2 048 bits.
   
-Si vous n’avez pas de certificat à même de servir pour l’authentification de serveur à serveur, vous pouvez obtenir un nouveau certificat, l’importer, puis l’utiliser pour l’authentification de serveur à serveur. Après avoir demandé et obtenu le nouveau certificat, vous pouvez vous connecter à l’un de vos serveurs frontaux et utiliser une commande Windows PowerShell similaire à celle-ci pour importer et attribuer ce certificat :
+Si vous n’avez pas de certificat à même de servir pour l’authentification de serveur à serveur, vous pouvez obtenir un nouveau certificat, l’importer, puis l’utiliser pour l’authentification de serveur à serveur. Après avoir demandé et obtenu le nouveau certificat, vous pouvez ensuite ouvrir une session sur l’un de vos serveurs frontaux et passer par une commande Windows PowerShell semblable à celle-ci pour importer et affecter le certificat :
   
 ```PowerShell
 Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 ```
 
-Dans la commande précédente, le paramètre Path représente le chemin d’accès complet au fichier du certificat et le paramètre Password correspond au mot de passe affecté au certificat. Cette procédure doit être exécutée une seule fois : le service de réplication de Skype entreprise Server créera automatiquement un ensemble de tâches planifiées déchiffrées et déployant le certificat sur tous vos serveurs frontaux.
+Dans la commande précédente, le paramètre Path représente le chemin d’accès complet au fichier du certificat et le paramètre Password correspond au mot de passe ayant été affecté au certificat. Cette procédure ne doit être exécuté qu’une seule fois : le service de réplication Skype Entreprise Server crée ensuite automatiquement un ensemble de tâches programmées qui déchiffre et déploie le certificat sur tous vos serveurs frontux.
   
-Une autre solution consiste à utiliser un certificat existant comme certificat pour votre authentification de serveur à serveur. (Comme indiqué, le certificat par défaut peut être utilisé en tant que certificat d’authentification de serveur à serveur.) La paire de commandes Windows PowerShell suivantes récupère la valeur de la propriété d’empreinte du certificat par défaut, puis utilise cette valeur pour définir le certificat par défaut du certificat d’authentification serveur à serveur :
+Une autre solution consiste à utiliser un certificat existant comme certificat pour votre authentification de serveur à serveur. (Comme indiqué avant, le certificat par défaut peut être utilisé comme certificat d’authentification de serveur à serveur.) Les deux commandes Windows PowerShell suivantes récupèrent la valeur de la propriété Thumbprint du certificat par défaut, puis utilise la valeur pour faire du certificat par défaut le certificat d’authentification de serveur à serveur :
   
 ```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
 
-Dans la commande précédente, le certificat récupéré est configuré pour fonctionner en tant que certificat d’authentification serveur à serveur global ; Cela signifie que le certificat sera répliqué vers et utilisé par tous vos serveurs frontaux. Là encore, cette commande ne doit être exécutée qu’une seule fois et sur l’un de vos serveurs frontaux. Même si tous les serveurs front-end doivent utiliser le même certificat, vous ne devez pas configurer le certificat OAuthTokenIssuer sur chaque serveur frontal. Au lieu de cela, configurez le certificat une seule fois, puis laissez le serveur de réplication de Skype entreprise Server prendre soin de copier ce certificat sur chaque serveur.
+Dans la commande précédente, le certificat récupéré est configuré pour fonctionner comme certificat global d’authentification de serveur à serveur, c’est-à-dire que le certificat est répliqué sur, et utilisé par, tous vos serveurs frontaux. Là encore, cette commande ne doit être exécutée qu’une seule fois et seulement sur l’un de vos serveurs frontaux. Bien que tous les serveurs frontaux doivent utiliser le même certificat, ne configurez pas le certificat OAuthTokenIssuer sur chacun des serveurs frontaux. Au lieu de cela, configurez le certificat une seule fois, puis laissez le serveur de réplication Skype Entreprise Server se charge de copier ce certificat sur chaque serveur.
   
-La cmdlet Set-CsCertificate prend le certificat en question et configure immédiatement ce certificat pour agir en tant que certificat OAuthTokenIssuer actuel. (Skype entreprise Server conserve deux copies d’un type de certificat : le certificat actuel et le certificat précédent.) Si vous avez besoin que le nouveau certificat commence immédiatement à fonctionner en tant que certificat OAuthTokenIssuer, vous devez utiliser l’applet de certification Set-CsCertificate.
+LSet-CsCertificate cmdlet prend le certificat en question et configure immédiatement ce certificat pour qu’il agisse en tant que certificat OAuthTokenIssuer actuel. (Skype Entreprise Server conserve deux copies d’un type de certificat : le certificat actuel et le certificat précédent.) Si vous avez besoin que le nouveau certificat commence immédiatement à agir en tant que certificat OAuthTokenIssuer, vous devez utiliser l'Set-CsCertificate cmdlet.
   
-Vous pouvez également utiliser l’applet de commande Set-CsCertificate pour « transmettre » un nouveau certificat. « Transmettre » un certificat revient simplement à configurer un nouveau certificat pour qu’il devienne le certificat OAuthTokenIssuer actif à un moment précis. Par exemple, la commande ci-dessous extrait le certificat par défaut, puis le configure pour prendre la suite en tant que certificat OAuthTokenIssuer actif à partir du 1er juillet 2015 :
+Vous pouvez aussi passer par l’applet de commande Set-CsCertificate pour « transmettre » un nouveau certificat. « Transmettre » un certificat revient simplement à configurer un nouveau certificat pour qu’il devienne le certificat OAuthTokenIssuer actif à un moment précis. Par exemple, cette commande récupère le certificat par défaut, puis configure ce certificat pour qu’il prenne le relais en tant que certificat OAuthTokenIssuer actuel à partir du 1er juillet 2015 :
   
 ```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```
 
-Le 1er juillet, 2015, le nouveau certificat sera configuré comme le certificat OAuthTokenIssuer actuel et le certificat OAuthTokenIssuer "Old" sera configuré comme certificat précédent.
+Le 1er juillet 2015, le nouveau certificat sera configuré en tant que certificat OAuthTokenIssuer actuel et le certificat OAuthTokenIssuer « ancien » sera configuré comme certificat précédent.
   
-Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez également utiliser la console MMC Certificats pour exporter un certificat à partir d’un serveur frontal, puis importer ce certificat sur tous les autres serveurs front-end. En pareil cas, veillez à exporter la clé privée en plus du certificat proprement dit.
+Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel à la console MMC Certificats pour exporter un certificat d’un serveur frontal puis l’importer sur tous vos autres serveurs frontaux. Assurez-vous dans ce cas d’exporter la clé privée en plus du certificat même.
   
 > [!CAUTION]
-> Dans ce cas, la procédure doit être effectuée sur chaque serveur frontal. Lorsque vous exportez et importez des certificats de cette manière, Skype entreprise Server ne répliquera pas ce certificat sur chaque serveur frontal. 
+> Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Lors de l’exportation et de l’importation de certificats de cette manière, Skype Entreprise Server ne réplique pas ce certificat sur chaque serveur frontal. 
   
-Après l’importation du certificat sur l’ensemble de vos serveurs frontaux, ce certificat peut ensuite être attribué en utilisant l’Assistant Déploiement de Skype entreprise Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez la procédure ci-dessous sur un ordinateur sur lequel l’Assistant est installé :
+Une fois que le certificat a été importé sur tous vos serveurs frontux, ce certificat peut être affecté à l’aide de l’Assistant Déploiement de Skype Entreprise Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :
   
-1. Cliquez sur Démarrer, sur tous les programmes, sur **Skype entreprise Server**, puis sur **Assistant Déploiement de Skype entreprise Server**.
+1. Cliquez sur Démarrer, sur Tous les programmes, sur Skype Entreprise **Server,** puis sur Assistant Déploiement de **Skype Entreprise Server.**
     
-2. Dans l’Assistant Déploiement, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**.
+2. Dans l’Assistant Déploiement, cliquez sur **Installer ou mettre à jour le système Skype Entreprise Server.**
     
-3. Dans la page Skype entreprise Server, cliquez sur le bouton **exécuter** sous le titre **étape 3 : demander, installer ou affecter des certificats**. (Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
+3. Dans la page Skype Entreprise  Server, cliquez sur le bouton Exécuter sous l’en-tête **Étape 3 : Demander,** installer ou attribuer des certificats. (Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
     
 4. Dans l’Assistant Certificat, sélectionnez le certificat **OAuthTokenIssuer**, puis cliquez sur **Affecter**.
     
-5. Dans l’Assistant Assignation de certificat, dans la page **Affectation de certificat**, cliquez sur **Suivant**.
+5. Dans l’Assistant Assignation de certificat, dans la page **Assignation de certificat**, cliquez sur **Suivant**.
     
 6. Dans la page **Magasin de certificats**, sélectionnez le certificat à utiliser pour l’authentification de serveur à serveur, puis cliquez sur **Suivant**.
     

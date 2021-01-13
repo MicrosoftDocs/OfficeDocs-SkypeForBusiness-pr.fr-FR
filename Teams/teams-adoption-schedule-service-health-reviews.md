@@ -1,7 +1,7 @@
 ---
 title: Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser les avis sur l’état du service dans votre adoption d’équipes pour partager des informations sur l’utilisation, le niveau d’intégrité, les plans de projet et d’autres mises à jour.
+description: Découvrez comment utiliser les révisions d’état du service dans votre adoption de Teams pour partager des informations sur l’utilisation, l’état d’santé, les fonctionnalités/feuille de route de projet et d’autres mises à jour.
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -20,20 +20,20 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 6447404b0fe7944808e02b2a73ebee03c2393f53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905076"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806094"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
 
-En collaboration avec votre équipe de mise en œuvre technique, prévoyez de tenir compte des avis sur le fonctionnement du service mensuel pour les équipes. Dans ces avis, vous allez partager des informations sur les mesures suivantes :
+En collaboration avec votre équipe de mise en œuvre technique, planifiez la tenue d’examens mensuels de l’état du service pour Teams. Dans ces révisions, vous allez partager des informations sur les mesures suivantes :
 
-- **Utilisation du service** : données d’utilisation actives et peuvent inclure des informations sur les services déconseillés ou la consommation réduite suite à un changement d’équipe. Généralement dirigé par le gestionnaire de services ou le propriétaire du produit pour les services de collaboration.
-- **État du service** -qualité des appels, état de la réunion et état global du service. Examen de tout incident de support et de niveau de ticket de support. Rubriques de sécurité et de gouvernance. En règle générale, ces équipes de protection des informations et de support technique. 
-- **Plan des fonctionnalités/du projet** – quel est le planning des projets d’intégration de l’employé restant ou des projets d’amélioration de la collaboration ? Quelles sont les fonctionnalités supplémentaires que votre organisation va activer ? En règle générale, le responsable de service ou le propriétaire du produit pour les services de collaboration en collaboration avec les principales parties prenantes de l’entreprise.
-- **Mise à jour des campagnes de sensibilisation et de réussite des formations** -inclut les thèmes joindre, participer, commentaires clés et problèmes d’ouverture. Incluez les témoignages clés de réussite et de réussite. 
+- **Utilisation du service** – Données d’utilisation actives, et peut inclure des informations sur les services supprimés ou la consommation réduite suite au déplacement vers Teams. Généralement dirigé par le gestionnaire de services ou le propriétaire du produit pour les services de collaboration.
+- **État du service** : qualité des appels, état des réunions et état global du service. Passer en revue les incidents de support et les niveaux de ticket de support technique. Rubriques sur la sécurité et la gouvernance. Il est généralement dirigé par des équipes de support et de protection des informations. 
+- **Feuille de route des fonctionnalités/projets** : quel est le planning d’intégration des employés restants ou de projets d’amélioration de la collaboration ? Quelles sont les fonctionnalités supplémentaires que votre organisation va activer ? Généralement dirigé par le gestionnaire de services ou le propriétaire du produit pour les services de collaboration en collaboration avec les principales parties prenantes pour l’entreprise.
+- Mise à jour des mesures de réussite **d’une campagne** et d’une formation – Inclut la participation, la participation, les thèmes de commentaires clés et l’ouverture des problèmes. Incluez les principales victoires et les succès. 
 
-Ce contrôle mensuel peut être formel dans de grandes organisations ou virtuellement dans des entreprises de plus petite taille. Il est important de partager et de surveiller ces données pour garantir une implémentation saine et constante de Microsoft Teams. 
+Cette révision mensuelle peut être assez formelle dans de grandes organisations ou virtuelles dans des entreprises de plus petite taille. Il est important de partager et de surveiller ces données pour assurer une implémentation saine et dynamique de Microsoft Teams. 

@@ -1,8 +1,8 @@
 ---
 title: Ajouter un magasin d’analyse de directeur
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Vous pouvez définir le magasin SQL Server pour la surveillance en configurant les propriétés suivantes :'
-ms.openlocfilehash: 48a626483da0dd69f46eca9740b0a9b224218f4d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 100142faf2f9e552e5ad289fde6df0607669a09d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215495"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828914"
 ---
 # <a name="add-director-monitoring"></a>Ajouter un magasin d’analyse de directeur
  
 Vous pouvez **définir le magasin SQL Server pour la surveillance** en configurant les propriétés suivantes :
   
-- **Magasin SQL Server de surveillance**: sélectionnez un nom de domaine complet SQL Server (et éventuellement une instance SQL Server nommée) dans la liste.
+- **Surveillance SQL Server magasin**: sélectionnez un SQL Server de domaine complet (FQDN) (et, éventuellement, une instance SQL Server nommée) dans la liste.
     
-    Cliquez sur **nouveau** pour créer une définition de nom de domaine complet SQL Server et éventuellement un nom d’instance pour le magasin du serveur de surveillance.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin du serveur de surveillance.
     
-- Activez la case à cocher **activer la mise en miroir du magasin SQL Server** si vous voulez ajouter la mise en miroir de base de données pour le serveur de surveillance.
+- Activez **la case à SQL Server la** mise en miroir du magasin si vous souhaitez ajouter la mise en miroir de base de données pour le serveur de surveillance.
     
     Sélectionnez un **Miroir du magasin SQL Server de surveillance** existant dans la liste.
     
-    Cliquez sur **nouveau** pour créer une définition de nom de domaine complet SQL Server et éventuellement un nom d’instance pour le magasin miroir.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin miroir.
     
-- Si vous avez sélectionné **activer la mise en miroir du magasin SQL Server**, sélectionnez éventuellement **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** afin de sélectionner un magasin de témoins de mise en miroir SQL Server dans la liste.
+- Si vous avez sélectionné Activer la mise en **miroir** du magasin SQL Server, sélectionnez éventuellement Utiliser le témoin de mise en miroir **SQL Server** pour activer le fait de faire échouer automatiquement la sélection d’un magasin de témoins de mise en miroir SQL Server dans la liste.
     
-    Cliquez sur **nouveau** pour créer une définition de nom de domaine complet SQL Server et éventuellement un nom d’instance pour le magasin de témoins de mise en miroir.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin témoin de mise en miroir.
     
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   
