@@ -1,8 +1,8 @@
 ---
-title: Configuration requise pour l’équilibrage de charge pour Skype Entreprise
+title: Exigences d’équilibrage de charge pour Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,85 +15,85 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 'Résumé : prenez connaissance des considérations relatives à l’équilibrage de charge avant d’implémenter Skype entreprise Server.'
-ms.openlocfilehash: 199c93528d89786573bdac16077f1e32feb1fe6f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Examinez les considérations d’équilibrage de charge avant d’implémenter Skype Entreprise Server.'
+ms.openlocfilehash: 5790ef1ba0d32774ced45be5af257f70fc4cf594
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802044"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834374"
 ---
-# <a name="load-balancing-requirements-for-skype-for-business"></a>Configuration requise pour l’équilibrage de charge pour Skype Entreprise
+# <a name="load-balancing-requirements-for-skype-for-business"></a>Exigences d’équilibrage de charge pour Skype Entreprise
  
-**Résumé :** Prenez connaissance des considérations relatives à l’équilibrage de charge avant d’implémenter Skype entreprise Server.
+**Résumé :** Examinez les considérations d’équilibrage de charge avant d’implémenter Skype Entreprise Server.
   
-L’équilibrage de la charge répartit le trafic entre les serveurs d’un pool. Si vous avez des pools front-end, des pools de serveurs de médiation ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools.
+L’équilibrage de charge distribue le trafic entre les serveurs d’un pool. Si vous avez des pools frontux, des pools de serveurs de médiation ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools.
   
-Skype entreprise Server prend en charge deux types de solutions d’équilibrage de charge pour le trafic client à serveur : l’équilibrage de charge DNS (Domain Name System) et l’équilibrage de charge matérielle (souvent abrégé comme HLB). Le service d’équilibrage de la charge DNS offre plusieurs avantages : une administration plus simple, un dépannage plus efficace et la possibilité d’isoler une grande partie du trafic de votre serveur Skype entreprise par rapport aux problèmes potentiels de l’équilibrage de charge matérielle.
+Skype Entreprise Server prend en charge deux types de solutions d’équilibrage de charge pour le trafic client à serveur : l’équilibrage de charge DNS (Domain Name System) et l’équilibrage de la charge matérielle (souvent abrégé en Équilibrage de la charge matérielle). L’équilibrage de la charge DNS offre plusieurs avantages, notamment une administration plus simple, un dépannage plus efficace et la possibilité d’isoler la plus grande partie de votre trafic Skype Entreprise Server de tout problème potentiel d’équilibrage de la charge matérielle.
   
-Déterminez à vous-même quelle solution d’équilibrage de charge est appropriée pour chaque pool dans votre déploiement, tout en gardant à l’esprit les restrictions suivantes : 
+Déterminez par vous-même la solution d’équilibrage de charge appropriée pour chaque pool de votre déploiement, mais gardez à l’esprit les restrictions suivantes : 
   
-- Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de charge. Vous ne pouvez pas utiliser l’équilibrage de charge DNS sur une interface et l’équilibrage de charge matérielle sur l’autre.
+- Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface et l’équilibrage de la charge matérielle sur l’autre.
     
-- Certains types de trafic nécessitent un programme dʼéquilibrage de charge matérielle. Par exemple, le trafic HTTP requiert un équilibrage de charge matérielle plutôt que l’équilibrage de charge DNS. Celui-ci ne fonctionne pas avec le trafic web client à serveur.
+- Certains types de trafic nécessitent un programme d’équilibrage de la charge matérielle. Par exemple, le trafic HTTP requiert un programme d’équilibrage de la charge matérielle plutôt que l’équilibrage de la charge DNS. Celui-ci ne fonctionne pas avec le trafic web client-à-serveur.
     
-Si vous décidez d’utiliser l’équilibrage de la charge DNS pour un pool mais que vous souhaitez quand même implémenter des équilibreurs de la charge matérielle pour certains types de trafics, tels que le trafic HTTP, l’administration des équilibreurs de la charge matérielle est grandement simplifiée. Par exemple, l’équilibreur de charge matérielle sera plus simple car il ne gérera que le trafic HTTP et HTTPS, alors que tous les autres protocoles seront gérés par l’équilibrage de charge DNS. Pour plus d’informations, voir [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
+Si vous décidez d’utiliser l’équilibrage de la charge DNS pour un pool mais que vous souhaitez quand même implémenter des programmes d’équilibrage de la charge matérielle pour certains types de trafics, tels que le trafic HTTP, l’administration des programmes d’équilibrage de la charge matérielle est grandement simplifiée. Par exemple, la configuration de l’équilibrage de la charge matérielle sera plus simple, car elle gérera uniquement le trafic HTTP et HTTPS, tandis que tous les autres protocoles seront gérés par l’équilibrage de charge DNS. Pour plus de détails, voir [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
-Pour le trafic de serveur à serveur, Skype entreprise Server utilise l’équilibrage de charge prenant en charge la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir les noms de domaine complets des serveurs dans la topologie et distribuent automatiquement le trafic entre les serveurs. Les administrateurs n’ont pas besoin de configurer ou de gérer ce type d’équilibrage de charge. 
+Pour le trafic de serveur à serveur, Skype Entreprise Server utilise l’équilibrage de charge pris en charge par la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir le FQDN des serveurs de la topologie et distribuent automatiquement le trafic entre les serveurs. Les administrateurs n’ont pas besoin de configurer ou de gérer ce type d’équilibrage de charge. 
   
-Si vous utilisez l’équilibrage de charge DNS et que vous voulez bloquer le trafic vers un ordinateur particulier, vous devez supprimer les adresses IP dans le nom de domaine complet du pool, mais également l’entrée DNS associée à l’ordinateur. 
+Si vous utilisez l’équilibrage de charge DNS et que vous devez bloquer le trafic vers un ordinateur spécifique, il ne suffit pas de supprimer simplement les entrées d’adresse IP du FQDN du pool. Vous devez également supprimer l’entrée DNS de l’ordinateur. 
   
-## <a name="hardware-load-balancer-requirements"></a>Configuration requise pour l’équilibreur de charge matérielle
+## <a name="hardware-load-balancer-requirements"></a>Configuration requise pour l’équilibrage de la charge matérielle
 
-La topologie de périphérie consolidée de Skype entreprise Server est optimisée pour l’équilibrage de charge DNS pour les nouveaux déploiements qui se fédère principalement avec d’autres organisations à l’aide de Skype entreprise Server ou de Lync Server. S’il est nécessaire de disposer d’une haute disponibilité pour l’un des scénarios suivants, un équilibreur de charge matérielle doit être utilisé sur les pools de serveurs Edge pour les éléments suivants : 
+La topologie Edge consolidée mise à l’échelle de Skype Entreprise Server est optimisée pour l’équilibrage de charge DNS pour les nouveaux déploiements fédérés principalement avec d’autres organisations utilisant Skype Entreprise Server ou Lync Server. Si, dans l’un des scénarios suivants, la haute disponibilité est requise, vous devez utiliser un programme d’équilibrage de la charge matérielle sur les pools de serveurs Edge pour prendre en charge ce qui suit : 
   
-- Fédération avec des organisations qui utilisent Office Communications Server 2007 R2 ou Office Communications Server 2007
+- Fédération avec des organisations utilisant Office Communications Server 2007 R2 ou Office Communications Server 2007
     
-- Messagerie unifiée Exchange pour les utilisateurs distants utilisant la messagerie unifiée Exchange antérieure à Exchange 2010 avec SP1
+- Exchange UM for remote users using Exchange UM prior to Exchange 2010 with SP1
     
-- Connectivité avec les utilisateurs de messagerie instantanée publique
+- connectivité avec les utilisateurs de messagerie instantanée publique.
     
 > [!IMPORTANT]
-> L’utilisation de l’équilibrage de charge DNS sur une interface et de l’équilibrage de charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser l’équilibrage de charge matérielle ou l’équilibrage de charge DNS. 
+> L’utilisation de l’équilibrage de la charge DNS sur une interface et de l’équilibrage de la charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser soit l’équilibrage de la charge matérielle, soit l’équilibrage de la charge DNS. 
   
 > [!NOTE]
 > Si vous utilisez un équilibreur de la charge matérielle, celui qui est déployé pour les connexions au réseau interne doit être configuré pour équilibrer uniquement la charge liée au trafic en direction de serveurs exécutant le service d’accès Edge et le service Edge A/V. Il ne peut pas équilibrer la charge du trafic vers le service Edge de conférence web ou le service de proxy XMPP interne. 
   
 > [!NOTE]
-> Le moteur de traduction d’adresses du serveur direct (DSR) n’est pas pris en charge avec Skype entreprise Server. 
+> La nat de retour direct du serveur (DSR) n’est pas prise en charge avec Skype Entreprise Server. 
   
-Pour savoir si votre équilibreur de charge matérielle prend en charge les fonctionnalités nécessaires requises par Skype entreprise Server, voir [infrastructure pour Skype entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
+Pour déterminer si votre programme d’équilibrage de la charge matérielle prend en charge les fonctionnalités nécessaires requises par Skype Entreprise Server, voir [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Configuration requise pour l’équilibreur de la charge matérielle des serveurs Edge exécutant le service Edge A/V
 
-Vous trouverez ci-après les exigences relatives à l’équilibrage de charge matérielle pour les serveurs Edge exécutant le service Edge A/V :
+Les conditions requises pour l’équilibrage de la charge matérielle pour les serveurs Edge exécutant le service Edge A/V sont les suivantes :
   
-- Désactivez le nagling TCP pour les ports 443 interne et externe. Le nagling est le processus qui consiste à combiner plusieurs petits paquets en un seul paquet plus volumineux afin de rendre la transmission plus efficace.
+- Désactivez le nagling TCP pour les ports 443 interne et externe. Le nagling est le processus qui consiste à combiner plusieurs petits paquets en un seul paquet plus volumineux, afin de rendre la transmission plus efficace.
     
-- Désactivez TCP nagling pour la plage de ports externes 50 000-59 999. 
+- Désactiver le nagling TCP pour la plage de ports externes 50 000 à 59 999. 
     
 - N’utilisez pas NAT sur le pare-feu interne ou externe. 
     
-- L’interface interne Edge doit être située sur un autre réseau que l’interface externe du serveur Edge et le routage entre ces derniers doit être désactivé. 
+- L’interface interne Edge doit se trouver sur un autre réseau que l’interface externe Edge Server, et le routage entre elles doit être désactivé. 
     
-- L’interface externe du serveur de périphérie exécutant le service Edge A/V doit utiliser les adresses IP routables publiquement et aucune traduction NAT ou de port sur les adresses IP externes du bord. 
+- L’interface externe du serveur Edge qui exécute le service Edge A/V doit utiliser des adresses IP publiquement routables et aucune traduction nat ou de port sur l’une des adresses IP externes Edge. 
     
-- L’équilibreur de la charge ne doit pas modifier lʼadresse source du client.
+- L’équilibreur de charge ne doit pas modifier l’adresse source du client.
     
-### <a name="other-hardware-load-balancer-requirements"></a>Autres exigences de l’équilibrage de charge matérielle
+### <a name="other-hardware-load-balancer-requirements"></a>Autres exigences relatives au programme d’équilibrage de la charge matérielle
 
-Les exigences d’affinité basées sur les cookies sont considérablement réduites dans Skype entreprise Server pour les services Web. Si vous déployez Skype entreprise Server et ne conservera aucun serveur frontal ou pool frontal Lync Server 2010, vous n’avez pas besoin d’une persistance basée sur les cookies. Toutefois, si vous conservez temporairement ou définitivement tout serveur frontal ou pool frontal de Lync Server 2010, vous utiliserez quand même le niveau de persistance de cookie tel qu’il sera déployé et configuré pour Lync Server 2010. 
+Les exigences en matière d’affinité basée sur les cookies sont considérablement réduites dans Skype Entreprise Server pour les services Web. Si vous déployez Skype Entreprise Server et que vous ne conservez aucun serveur frontal ou pools frontux Lync Server 2010, vous n’avez pas besoin de persistance basée sur les cookies. Toutefois, si vous conservez temporairement ou définitivement des serveurs frontux ou des pools frontux Lync Server 2010, vous utilisez toujours la persistance basée sur les cookies lorsqu’elle est déployée et configurée pour Lync Server 2010. 
   
 > [!NOTE]
 > **Si vous décidez d’utiliser l’affinité basée sur les cookies même si votre déploiement n’en a pas besoin**, aucun impact négatif n’en résultera. 
   
-Pour les déploiements qui **nʼutiliseront pas** lʼaffinité basée sur les cookies :
+Pour les déploiements qui **n’utiliseront pas** l’affinité basée sur les cookies :
   
-- Sur la règle de publication de proxy inverse pour le port 4443, définissez **Forward Header Header** sur true. Cela permet de s’assurer que l’URL d’origine est transférée.
+- Dans la règle de publication du proxy inverse pour le port 4443, définissez **Forward host header** sur la valeur True. Cela garantit que l’URL d’origine sera transférée.
     
-Pour des déploiements qui **utiliseront** lʼaffinité basée sur les cookies :
+Pour les déploiements qui **utiliseront** l’affinité basée sur les cookies :
   
-- Dans la règle de publication du proxy inverse pour le port 4443, définissez **Forward host header** sur True afin de vous assurer que lʼURL dʼorigine est envoyée.
+- Dans la règle de publication du proxy inverse pour le port 4443, définissez **Forward host header** sur la valeur True. Cela garantit que l’URL d’origine sera transférée.
     
 - Le cookie de l’équilibreur de la charge matérielle NE DOIT PAS être marqué httpOnly
     
@@ -104,23 +104,23 @@ Pour des déploiements qui **utiliseront** lʼaffinité basée sur les cookies 
 - Le cookie de l’équilibreur de la charge matérielle DOIT être défini dans chaque réponse HTTP pour laquelle la requête HTTP entrante ne possédait pas de cookie, qu’une réponse HTTP précédente ait déjà obtenu ou non un cookie sur cette même connexion TCP. Si l’équilibreur de la charge optimise l’insertion de cookies afin qu’elle se produise une seule fois par connexion TCP, cette optimisation NE DOIT PAS être utilisée
     
 > [!NOTE]
-> Les configurations standard du programme d’équilibrage de la charge matérielle utilisent l’affinité adresse source et une durée de vie de session de 20 minutes, qui convient aux clients Lync Server et Lync 2013, car l’état de session est maintenu par le biais de l’utilisation du client et/ou de l’interaction avec l’application. 
+> Les configurations d’équilibrage de la charge matérielle classiques utilisent l’affinité d’adresse source et une durée de vie de session TCP de 20 minutes, ce qui est bien pour les clients Lync Server et Lync 2013, car l’état de session est maintenu par le biais de l’utilisation du client et/ou de l’interaction avec les applications. 
   
 Si vous déployez des appareils mobiles, votre équilibreur de la charge matérielle doit être capable d’équilibrer la charge d’une requête individuelle au sein d’une session TCP (en effet, vous devez être en mesure d’équilibrer la charge d’une requête individuelle en fonction de l’adresse IP cible).
   
 > [!CAUTION]
-> Si vous déployez des appareils mobiles, votre dispositif d’équilibrage de la charge matérielle doit être en mesure de charger individuellement chaque demande au sein d’une connexion TCP. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security).  
+> Si vous déployez des appareils mobiles, votre programme d’équilibrage de la charge matérielle doit pouvoir équilibrer individuellement la charge de chaque demande au sein d’une connexion TCP. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security).  
   
 > [!CAUTION]
-> Pour plus d’informations sur les équilibreurs de charge matérielle tierce, voir [infrastructure pour Skype entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Pour plus d’informations sur les équilibreurs de la charge matérielle tiers, voir [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 La configuration requise de l’équilibreur de la charge matérielle des services web du directeur et du pool de serveurs frontaux est la suivante :
   
-- Pour les adresses IP virtuelles (VIP) des services web internes, définissez la persistance Source_addr (port interne 80, 443) sur l’équilibreur de la charge matérielle. Dans le cas d’une connexion Skype entreprise Server, Source_addr persistance vous permet d’envoyer des connexions multiples à partir d’une seule adresse IP vers un serveur pour conserver l’état de la session.
+- Pour les adresses IP virtuelles (VIP) des services web internes, définissez la persistance Source_addr (port interne 80, 443) sur l’équilibreur de la charge matérielle. Pour Skype Entreprise Server, Source_addr persistance signifie que plusieurs connexions provenant d’une seule adresse IP sont toujours envoyées à un serveur pour maintenir l’état de session.
     
 - Utilisez un délai d’inactivité TCP de 1 800 secondes.
     
-- Sur le pare-feu entre le proxy inverse et le service d’équilibrage de charge matérielle du pool de sauts suivant, créez une règle pour autoriser https : trafic sur le port 4443, à partir du proxy inverse vers l’équilibrage de charge matérielle. L’équilibreur de la charge matérielle doit être configuré pour écouter sur les ports 80, 443 et 4443.
+- Sur le pare-feu entre le proxy inverse et l’équilibreur de la charge matérielle du pool du saut suivant, créez une règle pour autoriser le trafic https: sur le port 4443, du proxy inverse au équilibreur de charge matérielle. L’équilibreur de la charge matérielle doit être configuré pour écouter sur les ports 80, 443 et 4443.
     
 ### <a name="summary-of-hardware-load-balancer-affinity-requirements"></a>Synthèse des conditions requises en termes d’affinité pour l’équilibreur de la charge matérielle
 
@@ -132,44 +132,44 @@ La configuration requise de l’équilibreur de la charge matérielle des servic
    
 ### <a name="port-monitoring-for-hardware-load-balancers"></a>Surveillance des ports pour les programmes d’équilibrage de la charge matérielle
 
-Vous définissez la surveillance des ports sur les équilibreurs de la charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles suite à des échecs matériel ou de communication. Par exemple, si le service serveur frontal (RTCSRV) s’arrête en raison d’un dysfonctionnement du serveur frontal ou du pool frontal, la surveillance de HLB doit également arrêter la réception du trafic sur les services Web. Vous implémentez la surveillance des ports sur le programme d’équilibrage de la charge matérielle pour surveiller les éléments suivants :
+Vous définissez la surveillance des ports sur les équilibreurs de la charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles suite à des échecs matériel ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison d’une panne du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous implémentez la surveillance des ports sur le programme d’équilibrage de la charge matérielle pour surveiller les éléments suivants :
   
-**Pool d’utilisateurs du serveur frontal-interface interne de HLB**
+**Pool d’utilisateurs du serveur frontal - Interface interne HLB**
 
-|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<site\>Web de pool-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
-|\<site\>Web de pool-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
+|\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
+|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
-**Pool d’utilisateurs du serveur frontal-interface externe HLB**
+**Pool d’utilisateurs du serveur frontal - Interface externe HLB**
 
-|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<web_mco_443_vs\>de réserve  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTPS  <br/> |
-|\<web_mco_80_vs\>de réserve  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTP  <br/> |
    
-## <a name="dns-load-balancing"></a>DNS Load Balancing
+## <a name="dns-load-balancing"></a>Équilibrage de charge DNS
 <a name="BKMK_DNSLoadBalancing"> </a>
 
-Le service d’équilibrage de charge DNS de Skype entreprise Server peut réduire considérablement la surcharge d’administration de votre réseau. L’équilibrage de charge DNS équilibre le trafic réseau propre à Skype entreprise Server, comme le trafic SIP et le trafic multimédia.
+Skype Entreprise Server permet l’équilibrage de charge DNS, une solution logicielle qui peut considérablement réduire la charge d’administration pour l’équilibrage de charge sur votre réseau. L’équilibrage de charge DNS équilibre le trafic réseau propre à Skype Entreprise Server, tel que le trafic SIP et le trafic multimédia.
   
-Si vous déployez l’équilibrage de charge DNS, la surcharge d’administration de votre organisation pour les équilibreurs de charge matérielle est réduite. Par ailleurs, le dépannage complexe des problèmes liés à la configuration incompatibilité des équilibreurs de charge pour le trafic SIP sera éliminé. Vous pouvez également empêcher les connexions au serveur pour pouvoir mettre en ligne des serveurs. L’équilibrage de charge DNS vérifie également que les problèmes liés à l’équilibrage de charge matérielle n’affectent pas les éléments du trafic SIP tels que le routage des appels de base.
+Si vous déployez l’équilibrage de la charge DNS, la charge d’administration de votre organisation pour les équilibreurs de charge matérielle sera réduite. De plus, le travail ardu de dépannage qu’imposent les problèmes découlant d’une mauvaise configuration des programmes d’équilibrage de la charge pour le trafic SIP sera évité. Vous pouvez aussi empêcher les connexions serveur afin de mettre les serveurs hors connexion. L’équilibrage de la charge DNS permet également d’éviter que des problèmes liés aux programmes d’équilibrage de la charge matérielle n’aient une incidence sur des éléments du trafic SIP, notamment le routage de base des appels.
 
-Le schéma suivant illustre un exemple incluant l’équilibrage de charge DNS interne et externe : 
+Le diagramme suivant illustre un exemple qui inclut l’équilibrage de charge DNS interne et externe : 
   
-**Diagramme réseau Edge utilisant des adresses IPv4 publiques**
+**Diagramme réseau Edge utilisant des adresses IPv4 publiques**
 
 ![exemple de diagramme réseau DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Si vous utilisez l’équilibrage de charge DNS, vous pouvez également être en mesure d’acheter des équilibreurs de charge matérielle économiques que si vous utilisiez les équilibreurs de charge matérielle pour tous les types de trafic. Vous devez utiliser des équilibreurs de charge qui ont passé des tests de compétences d’interopérabilité avec Skype entreprise Server. Pour plus d’informations sur la vérification de l’interopérabilité de l’équilibrage de charge, consultez la rubrique partenaires de l’équilibrage de [charge Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452). Le contenu s’applique à Skype entreprise Server.
+En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des équilibreurs de charge qui ont réussi des tests de qualification d’interopérabilité avec Skype Entreprise Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibrage de charge, voir [Lync Server 2010 Load Balancer Partners](https://go.microsoft.com/fwlink/p/?linkId=202452). Le contenu s’applique à Skype Entreprise Server.
   
-Le service d’équilibrage de la charge DNS est pris en charge pour les pools front-end, les pools de serveurs Edge, les pools de directeurs et les pools de serveurs de médiation autonome
+L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools directeurs et les pools de serveurs de médiation autonomes.
   
-L’équilibrage de charge DNS est généralement implémenté au niveau de l’application. L’application (par exemple, un client exécutant Skype entreprise) essaie de se connecter à un serveur dans un pool en vous connectant à l’une des adresses IP renvoyées à partir de l’adresse DNS A et de la requête d’enregistrement de noms de domaine complets (si l’adressage IPv6 est utilisé). 
+L’équilibrage de la charge DNS est généralement implémenté au niveau de l’application. L’application (par exemple, un client exécutant Skype Entreprise) tente de se connecter à un serveur dans un pool en se connectant à l’une des adresses IP renvoyées par la requête d’enregistrement DNS A et AAAA (si l’adressace IPv6 est utilisé) pour le nom de domaine complet (FQDN) du pool. 
   
-Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool01.contoso.com, les informations suivantes se produisent :
+Si par exemple il existe trois serveurs frontaux dans un pool appelé pool01.contoso.com, voilà ce qui se produit :
   
-- Clients exécutant la requête DNS de Skype entreprise pour pool01.contoso.com. La requête renvoie trois adresses IP et les met en cache comme suit (pas nécessairement dans cet ordre) :
+- Les clients exécutant Skype Entreprise interrogent le DNS pool01.contoso.com. La requête renvoie trois adresses IP et les met en cache comme suit (pas nécessairement dans cet ordre) :
     
     pool01.contoso.com 192.168.10.90
     
@@ -177,118 +177,118 @@ Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool0
     
     pool01.contoso.com 192.168.10.92
     
-- Le client tente d’établir une connexion TCP (Transmission Control Protocol) vers l’une des adresses IP. En cas d’échec, le client tente l’adresse IP suivante dans le cache.
+- Le client tente d’établir une connexion TCP (Transmission Control Protocol) à l’une des adresses IP. En cas d’échec, le client essaie l’adresse IP suivante dans le cache.
     
-- Si la connexion TCP aboutit, le client négocie le protocole TLS pour se connecter au serveur d’inscriptions principal sur pool1.contoso.com.
+- Si la connexion TCP réussit, le client négocie TLS pour se connecter au bureau d’enregistrement principal sur pool01.contoso.com.
     
-- Si le client tente d’accéder à toutes les entrées du cache sans connexion réussie, l’utilisateur est prévenu qu’aucun serveur exécutant Skype entreprise Server n’est disponible pour le moment.
+- Si le client tente toutes les entrées mises en cache sans connexion réussie, l’utilisateur est informé qu’aucun serveur exécutant Skype Entreprise Server n’est disponible pour le moment.
     
 > [!NOTE]
-> Le service d’équilibrage de charge DNS est différent de l’équilibrage de charge DNS (RR) qui fait généralement référence à l’équilibrage de charge en fonction du système DNS, qui fournit un ordre différent d’adresses IP correspondant aux serveurs d’un pool. En règle générale, le RR DNS active uniquement la distribution de charge, mais n’autorise pas le basculement. Par exemple, si la connexion à une adresse IP renvoyée par la requête DNS A et AAAA (si vous utilisez l’adressage IPv6) échoue, la connexion échoue. C’est la raison pour laquelle le tourniquet DNS est plutôt moins fiable que le service d’équilibrage de charge DNS. Vous pouvez utiliser le tourniquet DNS conjointement avec l’équilibrage de charge DNS. 
+> L’équilibrage de la charge DNS est différent du tourniquet (round robin) DNS (DNS RR) qui fait généralement référence à l’équilibrage de charge en s’appuyant sur DNS pour fournir un ordre d’adresses IP différent correspondant aux serveurs d’un pool. DNS RR active en général uniquement la distribution de la charge, mais n’active pas le basculement. Par exemple, si la connexion à l’adresse IP renvoyée par les requêtes DNS A et AAAA (si vous utilisez l’adressaing IPv6) échoue, la connexion échoue. Par conséquent, le tourniquet DNS (round robin) seul est moins fiable que l’équilibrage de la charge DNS. Vous pouvez utiliser le tourniquet DNS (round robin) conjointement avec l’équilibrage de la charge DNS. 
   
-L’équilibrage de charge DNS est utilisé pour les éléments suivants :
+L’équilibrage de la charge DNS est utilisé dans les cas suivants :
   
-- Équilibrage de la charge de serveur à serveur SIP aux serveurs de périphérie
+- Équilibrage de charge SIP de serveur à serveur sur les serveurs Edge
     
-- Les applications UCAS (Unified Communications application Services) de répartition de charge telles que le standard automatique des conférences, le groupe de réponse et le parc d’appels
+- Équilibrage de la charge des applications des services d’applications de communications unifiées (UCAS) telles que le Standard automatique de conférence, Response Group et le parcage d’appel.
     
-- Interdiction de nouvelles connexions aux applications UCAS (également appelées « drainage »)
+- Empêcher les nouvelles connexions aux applications UCAS (également appelé « drainage »)
     
-- Équilibrage de la charge de tout le trafic client à serveur entre les clients et les serveurs de périphérie
+- Équilibrage de la charge de l’ensemble du trafic client-serveur entre les clients et les serveurs Edge
     
-L’équilibrage de charge DNS ne peut pas être utilisé pour les éléments suivants :
+L’équilibrage de la charge DNS ne peut pas être utilisé dans les cas suivants :
   
-- Trafic Web de client à serveur vers le directeur ou les serveurs frontaux
+- Trafic web client à serveur vers les serveurs directeurs ou frontux
     
-Équilibrage de charge DNS et trafic fédéré :
+Équilibrage de la charge DNS et trafic fédéré :
   
-Si plusieurs enregistrements DNS sont renvoyés par une requête DNS SRV, le service Edge d’accès sélectionne toujours l’enregistrement SRV DNS avec la priorité numérique la plus basse et la pondération numérique la plus élevée. Le document « Engineering Task Task » « un RR DNS pour spécifier l’emplacement de services (DNS SRV) » [RFC 2782, RR SRV](https://www.ietf.org/rfc/rfc2782.txt) spécifie que, si plusieurs enregistrements DNS SRV sont définis, la priorité est d’abord utilisée, puis l’épaisseur. Par exemple, l’enregistrement SRV DNS a a une épaisseur de 20 et une priorité de 40 et de l’enregistrement SRV DNS B a une épaisseur de 10 et de Priority 50. L’enregistrement SRV DNS A avec la priorité 40 est sélectionnée. Les règles suivantes s’appliquent à la sélection d’enregistrements SRV DNS :
+Si plusieurs enregistrements DNS sont renvoyés par une requête DNS SRV, le service Edge d’accès sélectionne toujours l’enregistrement SRV DNS ayant la priorité numérique la plus faible et le poids numérique le plus élevé. Le document « A DNS RR for specifying the location of services (DNS SRV) » [RFC 2782, DNS SRV RR](https://www.ietf.org/rfc/rfc2782.txt) spécifie que si plusieurs enregistrements SRV DNS sont définis, la priorité est d’abord utilisée, puis la pondération. Par exemple, l’enregistrement SRV DNS A a un poids de 20 et une priorité de 40 et l’enregistrement DNS SRV B a une pondération de 10 et une priorité de 50. L’enregistrement DNS SRV A avec la priorité 40 est sélectionné. Les règles suivantes s’appliquent à la sélection d’enregistrement DNS SRV :
   
-- Priority est considéré comme premier. Un client doit tenter de contacter l’hôte cible défini par l’enregistrement SRV DNS dont la priorité numéro faible peut être atteinte. Les cibles de même priorité doivent être essayées dans un ordre défini par le champ pondération.
+- La priorité est considérée comme prioritaire. Un client DOIT tenter de contacter l’hôte cible défini par l’enregistrement DNS SRV avec la priorité numéroée la plus faible qu’il peut atteindre. Les cibles ayant la même priorité DOIVENT être essayées dans un ordre défini par le champ de pondération.
     
-- Le champ poids spécifie une pondération relative pour les entrées ayant la même priorité. Le plus grand nombre de pondérations doit être proportionnel à la sélection. Les administrateurs DNS doivent utiliser le poids 0 quand il n’y a pas de sélection de serveur à effectuer. En présence d’enregistrements contenant des pondérations supérieures à 0, les enregistrements de poids 0 doivent avoir une très petite chance d’être sélectionnés.
+- Le champ de pondération spécifie une pondération relative pour les entrées ayant la même priorité. Les pondérations plus importantes doivent avoir une probabilité proportionnellement plus élevée d’être sélectionnées. Les administrateurs DNS doivent utiliser le poids 0 lorsqu’il n’y a aucune sélection de serveur à faire. En présence d’enregistrements contenant des poids supérieurs à 0, les enregistrements de poids 0 ont très peu de chances d’être sélectionnés.
     
-Si plusieurs enregistrements SRV DNS ayant une priorité et un poids identiques sont retournés, le service Edge d’accès sélectionne l’enregistrement SRV reçu en premier du serveur DNS.
+Si plusieurs enregistrements SRV DNS de même priorité et de même poids sont renvoyés, le service Edge d’accès sélectionne l’enregistrement SRV qui a été reçu en premier à partir du serveur DNS.
   
-### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Équilibrage de charge DNS pour les pools front-end et les pools de directeurs
+### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Équilibrage de la charge DNS dans les pools frontaux et les pools directeurs
 
-Vous pouvez utiliser l’équilibrage de charge DNS pour le trafic SIP sur les listes frontales et les pools de Director. Après le déploiement de l’équilibrage de charge DNS, vous devez également utiliser des équilibreurs de charge matérielle pour ces pools, mais uniquement pour le trafic HTTPs de client à serveur. L’équilibrage de charge matérielle est utilisé pour le trafic HTTPs des clients sur les ports 443 et 80. 
+Vous pouvez désormais utiliser l’équilibrage de la charge DNS pour le trafic SIP dans les pools frontaux et les pools directeurs. Avec l’équilibrage de charge DNS déployé, vous devrez quand même toujours utiliser les programmes d’équilibrage de la charge matérielle pour ces pools, mais seulement pour le trafic HTTPS du client vers le serveur. Le programme d’équilibrage de la charge matérielle est utilisé pour le trafic HTTPS venant des clients sur les ports 443 et 80. 
   
-Même si vous avez encore besoin d’équilibreurs de charge matérielle pour ces pools, leur configuration et leur administration s’adresseront essentiellement au trafic HTTPs, que les administrateurs des équilibreurs de charge matérielle sont habitués.
+Bien que le recours à des programmes d’équilibrage de la charge matérielle soit toujours nécessaire pour ces pools, leur configuration et leur administration concernera avant tout le trafic HTTPS avec lequel les administrateurs des programmes d’équilibrage de la charge matérielle sont familiarisés.
   
-#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Équilibrage de charge DNS et prise en charge de clients et de serveurs plus anciens
+#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Équilibrage de charge DNS et prise en charge d’anciens clients et serveurs
 
-L’équilibrage de charge DNS prend en charge le basculement automatique uniquement pour les serveurs exécutant Skype entreprise Server ou Lync Server 2010, ainsi que pour les clients Lync 2013 et Skype entreprise. Les versions antérieures de clients et d’Office Communications Server peuvent toujours se connecter aux pools exécutant l’équilibrage de charge DNS, mais, si elles ne peuvent pas établir une connexion au premier serveur auquel l’équilibrage de charge DNS fait référence, elles ne peuvent pas basculer sur un autre serveur du pool. . 
+L’équilibrage de charge DNS prend en charge leover automatique uniquement pour les serveurs exécutant Skype Entreprise Server ou Lync Server 2010, ainsi que pour les clients Lync 2013 et Skype Entreprise. Les versions antérieures des clients et d’Office Communications Server peuvent toujours se connecter à des pools exécutant l’équilibrage de charge DNS, mais s’ils ne parviennent pas à établir une connexion au premier serveur vers qui l’équilibrage de charge DNS les fait référencer, ils ne peuvent pas effectuer le pas vers un autre serveur du pool. 
   
-Par ailleurs, si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir de l’aide sur l’équilibrage de charge DNS de Skype entreprise Server. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs ne disposent pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
+En outre, si vous utilisez la messagerie unée Exchange, vous devez utiliser au moins Exchange 2010 SP1 pour obtenir la prise en charge de l’équilibrage de charge DNS Skype Entreprise Server. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs n’auront pas de fonctionnalités deover pour ces scénarios de um Exchange :
   
-- Lecture de leurs messages vocaux d’entreprise sur leur téléphone
+- Lecture de sa messagerie vocale Entreprise sur son téléphone
     
-- Transfert d’appels à partir d’un standard automatique de messagerie unifiée Exchange
+- Transfert d’appels à partir d’un standard automatique de la messagerie unifiée Exchange
     
-Tous les autres scénarios Exchange UM fonctionnent correctement.
+Tous les autres scénarios de messagerie unifiée Exchange fonctionneront normalement.
   
-#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Déploiement de l’équilibrage de charge DNS pour les pools front-end et les pools de directeurs
+#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Déploiement de l’équilibrage de la charge DNS dans les pools frontaux et les pools directeurs
 <a name="BK_FE_Dir"> </a>
 
-Le déploiement de l’équilibrage de charge DNS pour les pools principaux et les pools de directeurs nécessite que vous effectuiez quelques étapes supplémentaires avec les noms de domaine complets et les enregistrements DNS.
+Le déploiement de l’équilibrage de la charge DNS dans les pools frontaux et les pools directeurs vous oblige à effectuer quelques étapes supplémentaires avec les enregistrements de noms de domaine complets et les enregistrements DNS.
   
-- Un pool qui utilise l’équilibrage de charge DNS doit avoir deux noms de domaine complets (FQDN) du pool standard utilisés par l’équilibrage de charge DNS (par exemple, pool01.contoso.com), et est résolu sur l’IPs physique des serveurs du pool et un autre nom de domaine complet pour les services Web du pool (par exemple, web01.contoso.com), qui est résolue en adresse IP virtuelle du pool. 
+- Un pool qui utilise l’équilibrage de charge DNS doit avoir deux FQDN : le nom de pool normal utilisé par l’équilibrage de charge DNS (tel que pool01.contoso.com) et résolu en adresses IP physiques des serveurs du pool, et un autre nom de groupe pour les services Web du pool (tel que web01.contoso.com), qui est résolu en adresse IP virtuelle du pool. 
     
-    Dans le générateur de topologie, si vous voulez déployer l’équilibrage de charge DNS pour un pool, pour créer ce nom de domaine complet supplémentaire pour les services Web du pool, vous devez activer la case à cocher **ignorer le nom de domaine complet du pool de services Web internes** , puis taper le nom de domaine complet (FQDN) dans la page **spécifier les URL des services Web pour ce pool** .
+    Dans le Générateur de topologie, si vous souhaitez déployer l’équilibrage de charge DNS pour un pool, pour créer ce FQDN supplémentaire pour les services Web du pool, vous devez cocher la case Remplacer le **FQDN** du pool de services web internes et taper le FQDN dans la page Spécifier les URL des services Web pour ce **pool.**
     
-- Pour prendre en charge le FQDN utilisé par l’équilibrage de charge DNS, vous devez configurer le système DNS pour résoudre le nom de domaine complet (par exemple, pool01.contoso.com) pour les adresses IP de tous les serveurs du pool (par exemple, 192.168.1.1, 192.168.1.2, etc.). Vous ne devez inclure que les adresses IP des serveurs actuellement déployés.
+- Pour prendre en charge le nom de domaine complet utilisé par l’équilibrage de la charge DNS, vous devez mettre en service DNS pour résoudre le nom de domaine complet du pool (par exemple, pool01.contoso.com) en adresse IP pour chaque serveur dans le pool (par exemple, 192.168.1.1, 192.168.1.2, etc.). Veillez à inclure uniquement les adresses IP des serveurs en cours de déploiement.
     
     > [!CAUTION]
-    > Si vous avez plusieurs pools front-end ou serveur frontal, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool de réalisateur doit être unique à partir d’un autre directeur ou pool de directeurs, ainsi que sur n’importe quel pool frontal ou serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet autonome, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool de réalisateur.
+    > Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de tout autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
   
-### <a name="dns-load-balancing-on-edge-server-pools"></a>Équilibrage de charge DNS sur les pools de serveurs Edge
+### <a name="dns-load-balancing-on-edge-server-pools"></a>Équilibrage de charge DNS dans les pools de serveurs Edge
 <a name="BK_Edge"> </a>
 
-Vous pouvez déployer l’équilibrage de charge DNS sur les pools de serveurs de périphérie. Dans le cas contraire, vous devez tenir compte de certaines considérations.
+Vous pouvez déployer l’équilibrage de charge DNS dans les pools de serveurs Edge. Dans ce cas, vous devez tenir compte de certaines considérations.
   
-L’utilisation de l’équilibrage de charge DNS sur votre serveur Edge entraîne une perte de fonctionnalité de basculement dans les cas suivants :
+L’utilisation de l’équilibrage de charge DNS sur vos serveurs Edge entraîne une perte des capacités de basculement dans les scénarios suivants :
   
-- Fédération avec des organisations qui utilisent des versions de Skype entreprise Server mises en service avant Lync Server 2010.
+- Fédération avec les organisations qui exécutent des versions de Skype Entreprise Server publiées avant Lync Server 2010.
     
-- Échangez des messages instantanés avec des utilisateurs de services de messagerie instantanée publique AOL et Yahoo !, en plus des fournisseurs et des serveurs utilisant la fonction de messagerie instantanée, tels que Google Talk, pour le moment, le seul partenaire XMPP pris en charge.
+- Échange de messages instantanés avec les utilisateurs des services de messagerie instantanée publics AOL et Yahoo!, en plus des fournisseurs et serveurs XMPP, tels que Google Talk, actuellement le seul partenaire XMPP pris en charge.
     
-Ces scénarios fonctionneront tant que tous les serveurs Edge du pool seront opérationnels, mais si un serveur Edge n’est pas disponible, toutes les demandes de ces scénarios qui y sont envoyés échoueront au lieu d’être routés vers un autre serveur Edge.
+Ces scénarios fonctionneront tant que tous les serveurs Edge dans le pool sont opérationnels, mais si un serveur Edge est indisponible, toutes les demandes envoyées à ces scénarios échoueront au lieu d’être routées vers un autre serveur Edge.
   
- Si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum d’Exchange 2013 pour obtenir une prise en charge de l’équilibrage de charge DNS de Skype entreprise Server sur Edge. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs distants ne disposent pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
+ Si vous utilisez la messagerie unée Exchange, vous devez utiliser au minimum Exchange 2013 pour obtenir la prise en charge de l’équilibrage de charge DNS Skype Entreprise Server sur Edge. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs distants n’auront pas de fonctionnalités deover pour ces scénarios de um Exchange :
   
-- Lecture de leurs messages vocaux d’entreprise sur leur téléphone
+- Lecture de sa messagerie vocale Entreprise sur son téléphone
     
-- Transfert d’appels à partir d’un standard automatique de messagerie unifiée Exchange
+- Transfert d’appels à partir d’un standard automatique de la messagerie unifiée Exchange
     
-Tous les autres scénarios Exchange UM fonctionnent correctement.
+Tous les autres scénarios de messagerie unifiée Exchange fonctionneront normalement.
   
-L’interface Edge interne et l’interface Edge externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
+Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
   
-#### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Déploiement de l’équilibrage de charge DNS sur les pools de serveurs de périphérie
+#### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Déploiement de l’équilibrage de charge DNS dans les pools de serveurs Edge
 
 Pour déployer l’équilibrage de charge DNS sur l’interface externe de votre pool de serveurs Edge, vous avez besoin des entrées DNS suivantes :
   
-- Pour le service Edge d’accès, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le nom de domaine complet du service Edge d’accès (par exemple, sip.contoso.com) en adresse IP du service Edge d’accès sur l’un des serveurs Edge du pool.
+- Pour le service Edge d’accès, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le FQDN du service Edge d’accès (par exemple, sip.contoso.com) en adresse IP du service Edge d’accès sur l’un des serveurs Edge du pool.
     
-- Pour le service Edge de conférence Web, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le nom de domaine complet (par exemple, webconf.contoso.com) de l’adresse IP du service Edge de conférence Web sur l’un des serveurs Edge du pool.
+- Pour le service Edge de conférence Web, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le FQDN du service Edge de conférence Web (par exemple, webconf.contoso.com) en adresse IP du service Edge de conférence Web sur l’un des serveurs Edge du pool.
     
-- Pour le service Edge audio/vidéo, vous avez besoin d’une entrée pour chaque serveur dans le pool. Chaque entrée doit résoudre le nom de domaine complet (par exemple, av.contoso.com) de l’adresse IP du service Edge A/V sur l’un des serveurs Edge du pool.
+- Pour le service Edge audio/vidéo, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le FQDN du service Edge audio/vidéo (par exemple, av.contoso.com) en adresse IP du service Edge A/V sur l’un des serveurs Edge du pool.
     
-Pour déployer l’équilibrage de charge DNS sur l’interface interne de votre pool de serveurs Edge, vous devez ajouter un enregistrement DNS A, qui résout le nom de domaine complet (FQDN) du pool de serveurs Edge, à l’adresse IP de chaque serveur du pool.
+Pour déployer l’équilibrage de la charge DNS sur l’interface interne de votre pool de serveurs Edge, vous devez ajouter un enregistrement DNS A qui résout le nom de domaine complet interne du pool de serveurs Edge en adresse IP pour chaque serveur dans le pool.
   
-### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Utilisation de l’équilibrage de charge DNS sur les pools de serveurs de médiation
+### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Utilisation de l’équilibrage de charge DNS dans les pools de serveurs de médiation
 <a name="BK_Mediation"> </a>
 
-Vous pouvez utiliser l’équilibrage de charge DNS sur les pools de serveurs de médiation autonomes. Le trafic SIP et de média est équilibré par l’équilibrage de charge DNS.
+Vous pouvez utiliser l’équilibrage de charge DNS sur des pools de serveurs de médiation autonomes. Tout le trafic SIP et multimédia est équilibré par l’équilibrage de charge DNS.
   
-Pour déployer l’équilibrage de charge DNS sur un pool de serveurs de médiation, vous devez configurer le DNS pour résoudre le nom de domaine complet (par exemple, mediationpool1.contoso.com) pour les adresses IP de tous les serveurs du pool (par exemple, 192.168.1.1, 192.168.1.2, etc.).
+Pour déployer l’équilibrage de la charge DNS sur un pool de serveurs de médiation, vous devez mettre en service DNS pour résoudre le nom de domaine complet du pool (par exemple, mediationpool1.contoso.com) en adresse IP pour chaque serveur dans le pool (par exemple, 192.168.1.1, 192.168.1.2, etc.).
   
-### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blocage du trafic vers un serveur avec l’équilibrage de charge DNS
+### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blocage du trafic vers un serveur avec équilibrage de charge DNS
 <a name="BK_Mediation"> </a>
 
-Si vous utilisez l’équilibrage de charge DNS et que vous voulez bloquer le trafic vers un ordinateur particulier, vous devez supprimer les adresses IP dans le nom de domaine complet du pool, mais également l’entrée DNS associée à l’ordinateur. 
+Si vous utilisez l’équilibrage de charge DNS et que vous devez bloquer le trafic vers un ordinateur spécifique, il ne suffit pas de supprimer simplement les entrées d’adresse IP du FQDN du pool. Vous devez également supprimer l’entrée DNS de l’ordinateur. 
   
-Notez que pour le trafic serveur à serveur, Skype entreprise Server utilise l’équilibrage de charge prenant en charge la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir les noms de domaine complets des serveurs dans la topologie et distribuent automatiquement le trafic entre les serveurs. Pour empêcher un serveur de recevoir du trafic de serveur à serveur, vous devez supprimer le serveur de la topologie. 
+Notez que pour le trafic de serveur à serveur, Skype Entreprise Server utilise l’équilibrage de charge pris en charge par la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir le FQDN des serveurs de la topologie et distribuent automatiquement le trafic entre les serveurs. Pour empêcher un serveur de recevoir du trafic de serveur à serveur, vous devez supprimer le serveur de la topologie. 
   
 

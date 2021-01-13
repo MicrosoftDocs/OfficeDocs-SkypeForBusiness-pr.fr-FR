@@ -1,8 +1,8 @@
 ---
-title: Activer le parc d’appels pour les utilisateurs de Skype entreprise
+title: Activer le parc d’appel pour les utilisateurs dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Autorisez les utilisateurs à utiliser le parc d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: 6642af2a7af698a1127ff2a9bb4e45df73d18c50
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Activez les utilisateurs pour le parc d’appel dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767277"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830954"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>Activer le parc d’appels pour les utilisateurs de Skype entreprise
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Activer le parc d’appel pour les utilisateurs dans Skype Entreprise
  
-Autorisez les utilisateurs à utiliser le parc d’appels dans Skype entreprise Server Voice.
+Activez les utilisateurs pour le parc d’appel dans Skype Entreprise Server Voix Entreprise.
   
-Par défaut, le parc d’appels est désactivé pour tous les utilisateurs. Les utilisateurs ne peuvent pas parcer les appels ou récupérer les appels en stationnement tant qu’ils sont activés pour le parc d’appels dans la politique vocale.
+Par défaut, le parc d’appel est désactivé pour tous les utilisateurs. Les utilisateurs ne peuvent pas parer des appels ou récupérer des appels par parcés tant qu’ils n’ont pas été activés pour le parcier d’appel dans la stratégie de voix.
   
-Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à l’étendue du site ou l’étendue de l’utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies vocales, passez en revue toutes les stratégies pour activer le parc d’appels, pas seulement la politique globale.
+Vous pouvez activer le parc d’appel au niveau de l’étendue globale, de l’étendue Site ou utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies de voix, examinez toutes les stratégies pour activer le parcier d’appel, pas seulement la stratégie globale.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Pour utiliser le panneau de configuration Skype entreprise Server pour activer le parc d’appels pour les utilisateurs
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Pour utiliser le Panneau de contrôle Skype Entreprise Server pour activer le parc d’appel pour les utilisateurs
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe **RTCUniversalServerAdmins** ou membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou **CsAdministrator**.
     
-2. Ouvrez le panneau de configuration Skype entreprise Server.
+2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
     
@@ -47,19 +47,19 @@ Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à 
     
 7. Cliquez sur **OK** pour enregistrer la stratégie de voix.
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Utiliser des cmdlets pour activer le parc d’appels pour les utilisateurs
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Pour utiliser des cmdlets pour activer le parcier d’appel pour les utilisateurs
 
-1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
+1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins, ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
     
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-3. Exécutez :
+3. Exécutez :
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    Par exemple, pour activer le parc d’appels pour la stratégie vocale globale par défaut :
+    Par exemple, pour activer le parc d’appel pour la stratégie de voix globale par défaut :
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
@@ -69,5 +69,5 @@ Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à 
 
 
 
-[Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype entreprise](voice-policy-and-pstn-usage-records.md)
+[Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
 

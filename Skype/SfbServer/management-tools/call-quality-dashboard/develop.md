@@ -1,8 +1,8 @@
 ---
-title: Développement du tableau de bord de qualité des appels pour Skype entreprise Server
+title: Développer le tableau de bord de qualité des appels pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
-description: 'Résumé : Découvrez comment développer des solutions pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 02504c129f566ee98c8dfc0a49f6ab65be3d366f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment développer des solutions pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: 246a88654438ce4f4fd6138d17b9c53f9fdedf32
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816843"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832674"
 ---
-# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Développement du tableau de bord de qualité des appels pour Skype entreprise Server
+# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Développer le tableau de bord de qualité des appels pour Skype Entreprise Server
  
-**Résumé :** Apprenez à développer des solutions pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Découvrez comment développer des solutions pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-Cette rubrique fournit une documentation de développement pour le tableau de bord de qualité des appels pour Skype entreprise Server (bord).
+Cette rubrique fournit une documentation de développement pour le tableau de bord de qualité des appels (CQD) pour Skype Entreprise Server.
   
-## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Développement du tableau de bord de qualité des appels pour Skype entreprise Server
+## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Développer le tableau de bord de qualité des appels pour Skype Entreprise Server
 
-BORD peut être étendu et intégré à votre environnement de création de rapports à l’aide du développement personnalisé. 
+Le CQD peut être étendu et intégré à votre environnement de création de rapports à l’aide d’un développement personnalisé. 
   
-Deux jeux d’API Web sont disponibles, un pour l’accès aux données du cube (via les API de données) et l’autre pour l’accès aux métadonnées du rapport (via l’API du référentiel). 
+Deux ensembles d’API web sont disponibles : un pour accéder aux données du cube (via les API de données) et un autre pour accéder aux métadonnées du rapport (via l’API référentiel). 
   
-- [API de données pour le tableau de bord de qualité des appels (bord) dans Skype entreprise Server](data-api.md)
+- [API de données pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server](data-api.md)
     
-- [API du référentiel pour le tableau de bord de qualité des appels (bord) dans Skype entreprise Server](repository-api.md)
+- [API de référentiel pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server](repository-api.md)
     
 - [Exemples de développement du tableau de bord de qualité des appels](cqd-development-samples.md)
     

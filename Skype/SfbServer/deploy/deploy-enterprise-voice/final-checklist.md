@@ -1,8 +1,8 @@
 ---
-title: Liste de vérification de déploiement des contrôles d’admission des appels pour Skype entreprise Server
+title: Liste de vérification finale du déploiement du contrôle d’admission des appels pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
-description: Liste de vérification finale pour le déploiement du contrôle d’admission des appels (CAC) dans Skype entreprise Server Voice.
-ms.openlocfilehash: 5d5e4f6f40143bfec2a215e6bc9a54817d53da1b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Liste de vérification finale pour le déploiement du contrôle d’admission des appels (CAC) dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: d3a6484e35225627c8f22002823eff7fd5939694
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767227"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830834"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de vérification finale pour Skype entreprise Server
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de vérification finale pour Skype Entreprise Server
  
-Liste de vérification finale pour le déploiement du contrôle d’admission des appels (CAC) dans Skype entreprise Server Voice. 
+Liste de vérification finale pour le déploiement du contrôle d’admission des appels (CAC) dans Skype Entreprise Server Voix Entreprise. 
   
-Servez-vous de la liste de contrôle suivante pour vérifier que vous avez exécuté toutes les tâches de configuration nécessaires au déploiement du contrôle d’admission des appels (CAC).
+Utilisez la liste de vérification suivante pour vérifier que vous avez effectué toutes les tâches de configuration nécessaires au déploiement du contrôle d’admission des appels (CAC).
   
-- Si au moins un serveur Edge est déployé, chaque adresse IP de l’interface externe doit être ajoutée à la liste des sous-réseaux dans les paramètres de configuration du réseau, avec un masque de bits de 32. Vous devez également associer ce sous-réseau (adresse IP) à l’ID de site réseau pour l’emplacement géographique auquel le service Edge A/V est déployé.
+- Si un ou plusieurs serveurs Edge sont déployés, chaque adresse IP de l’interface externe doit être ajoutée à la liste de sous-réseaux dans les paramètres de configuration réseau, avec un masque de 32 bits. Vous devez également associer ce sous-réseau (adresse IP) à l’ID de site réseau pour l’emplacement géographique où est déployé le service Edge A/V.
     
     > [!NOTE]
-    > Il n’est pas nécessaire de mettre en place des serveurs de périphérie pour le CAC. 
+    > Les serveurs Edge ne sont pas requis pour implémenter le service Cac. 
   
-- Assurez-vous que le contrôle CAC est activé, tel qu’il est spécifié dans [activer le contrôle d’admission des appels dans Skype entreprise Server](enable-call-admission-control.md).
+- Assurez-vous que le contrôle d’admission des appels est activé, comme indiqué dans Activer le contrôle d’admission des [appels dans Skype Entreprise Server.](enable-call-admission-control.md)
     
-- Vérifiez que le contrôle d’admission des appels est activé sur tous les sites centraux. Cette opération peut être réalisée par le biais du générateur de topologie. Si un message d’avertissement est généré lors de la publication, ne l’ignorez *pas* .
+- Vérifiez que le contrôle d’admission des appels est activé sur tous les sites centraux. Pour ce faire, vous pouvez utiliser le Générateur de topologies. Si un avertissement est généré lors de la publication,  *ne l’ignorez*  pas.
     
-- Vérifiez que tous les sous-réseaux gérés dans le réseau d’entreprise sont configurés dans les paramètres de configuration réseau. Il est également essentiel que chaque sous-réseau soit associé à un site réseau, comme décrit dans la rubrique [déploiement de régions réseau, de sites et de sous-réseaux dans Skype entreprise](deploy-network.md).
+- Vérifiez que tous les sous-réseaux qui sont gérés dans le réseau d’entreprise sont configurés dans les paramètres de configuration réseau. Il est également essentiel que chaque sous-réseau soit associé à un site réseau, comme expliqué dans Déployer des régions réseau, des sites et des sous-réseaux [dans Skype Entreprise.](deploy-network.md)
     
-- Vérifiez que les adresses IP ou de sous-réseau de tous les serveurs frontaux, SBA (Survivable Branch Appliances), serveurs de conférence audio/vidéo (s’ils figurent dans un pool distinct) et serveurs de médiation sont configurées dans les paramètres de configuration réseau.
+- Vérifiez que les adresses IP ou de sous-réseau de tous les serveurs frontaux, SBA (Survivable Branch Appliances), serveurs de conférence Audio/Vidéo (s’ils figurent dans un pool distinct) et serveurs de médiation sont configurées dans les paramètres de configuration réseau.
     
 

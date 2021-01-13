@@ -1,8 +1,8 @@
 ---
 title: Créer des bases de données
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
-description: Le générateur de topologies offre un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server ou le cluster SQL Server spécifié. C’est le seul type d’installation de base de données disponible par le biais du Générateur de topologie. Si vous devez installer une base de données spécifique sur un ordinateur spécifique ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et la cmdlet install-applet csdatabase à la place.
-ms.openlocfilehash: ea7daab44c6075e40e3f8a1b900fe43b84048ed5
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Le Générateur de topologie permet d’installer des bases de données sur SQL Server magasin. Lorsque vous installez des bases de données à l’aide du Générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server ou le cluster SQL Server spécifié. C’est le seul type d’installation de base de données disponible par le biais du Générateur de topologie. Si vous devez installer une base de données spécifique sur un ordinateur spécifique, ou si vous devez installer une base de données c collocée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et l’cmdlet Install-CsDatabase à la place.
+ms.openlocfilehash: 0ba463ed2995aae2a31890633b7a959cf889837c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219505"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833084"
 ---
-# <a name="create-database"></a>Créer des bases de données
+# <a name="create-database"></a>Création de base de données
  
-Le générateur de topologies offre un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server ou le cluster SQL Server spécifié. C’est le seul type d’installation de base de données disponible par le biais du Générateur de topologie. Si vous devez installer une base de données spécifique sur un ordinateur spécifique ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et la cmdlet [install-applet csdatabase à](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) la place.
+Le Générateur de topologie permet d’installer des bases de données sur SQL Server magasin. Lorsque vous installez des bases de données à l’aide du Générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server ou le cluster SQL Server spécifié. C’est le seul type d’installation de base de données disponible par le biais du Générateur de topologie. Si vous avez besoin d’installer une base de données spécifique sur un ordinateur spécifique, ou si vous devez installer une base de données CsDatabase, vous devez utiliser l’interface de ligne de commande Windows PowerShell et l’cmdlet [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) à la place.
   
 ### <a name="creating-a-database"></a>Création d’une base de données
 
-1. Cliquez sur le nœud Skype entreprise Server 2015, puis sur **installer la base de données**.
+1. Cliquez sur le nœud Skype Entreprise Server 2015, puis cliquez sur Installer la base **de données.**
     
-2. Dans la boîte de dialogue **installer des bases** de données, dans la page créer une **base de données** , sélectionnez le nom de domaine complet (FQDN) du magasin SQL Server où les nouvelles bases de données doivent être créées.
+2. Dans  la boîte de dialogue Installer des bases de données, dans la **page** Créer une base de données, sélectionnez le nom de domaine complet (FQDN) du magasin SQL Server où les nouvelles bases de données doivent être créées.
     
 3. Cliquez sur **Avancé**. Dans la boîte de dialogue **Sélectionner un emplacement de fichier de base de données**, sélectionnez l’une des options suivantes :
     

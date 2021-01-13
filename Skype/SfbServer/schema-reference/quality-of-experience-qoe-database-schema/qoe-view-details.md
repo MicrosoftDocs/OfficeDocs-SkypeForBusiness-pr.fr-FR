@@ -1,8 +1,8 @@
 ---
-title: Vue détaillée de la qualité de l’expérience
+title: Vue détaillée de la qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
-description: Les vues couvrent les cas les plus courants de retour de données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés plutôt que d’accéder directement aux tables de la base de données. en effet, les vues sont plus susceptibles de garantir la compatibilité descendante avec les versions ultérieures.
-ms.openlocfilehash: d207c2cff86c398fed62023b30d193e974cbca7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les vues couvrent les scénarios les plus courants pour renvoyer des données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des vues pour créer des rapports personnalisés au lieu d’accéder directement aux tables de base de données . Cela est dû au fait que les affichages sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
+ms.openlocfilehash: cabe483da624d801b9b87d51ba61caed7a22f7d4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807172"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834474"
 ---
-# <a name="qoe-view-details"></a>Vue détaillée de la qualité de l’expérience
+# <a name="qoe-view-details"></a>Vue détaillée de la qualité de l’expérience (QoE)
  
-Les vues couvrent les cas les plus courants de retour de données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés plutôt que d’accéder directement aux tables de la base de données. en effet, les vues sont plus susceptibles de garantir la compatibilité descendante avec les versions ultérieures.
+Les vues couvrent les scénarios les plus courants pour renvoyer des données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des vues pour créer des rapports personnalisés au lieu d’accéder directement aux tables de base de données . Cela est dû au fait que les affichages sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
   
 |**Nom de la vue**|**Description**|
 |:-----|:-----|
-|[Affichage AudioStreamDetail](audiostreamdetail.md) <br/> |Stocke les informations relatives à chaque flux audio dans la base de données.  <br/> |
-|[Affichage MediaLine](medialine.md) <br/> |Stocke les informations relatives à chaque ligne multimédia dans la base de données. Une seule session audio contient généralement une ligne multimédia audio. Une session audio et vidéo (A/V) contient généralement une seule ligne de médias audio et une seule ligne de média vidéo. Toutefois, la session peut contenir deux lignes de média vidéo si un appareil de conférence est utilisé ou si la vue Galerie est utilisée.  <br/> |
+|[Affichage AudioStreamDetail](audiostreamdetail.md) <br/> |Stocke les informations sur chaque flux audio dans la base de données.  <br/> |
+|[Affichage MediaLine](medialine.md) <br/> |Stocke des informations sur chaque ligne de média dans la base de données. Une session audio contient généralement une ligne de média audio. Une session audio et vidéo (A/V) contient généralement une ligne de média audio et une ligne de média vidéo ; toutefois, la session peut contenir deux lignes de média vidéo si un périphérique de conférence ou la Vue Galerie est utilisé.  <br/> |
 |[Affichage NetworkConfigurationSettings](networkconfigurationsettings.md) <br/> |Stocke des informations sur la configuration du réseau.  <br/> |
-|[Affichage de session](session-0.md) <br/> |Stocke les informations sur les sessions contenant des enregistrements dans la base de données.  <br/> |
-|[Affichage UserAgent](useragent-0.md) <br/> |Stocke les informations sur les agents utilisateur impliqués dans les sessions contenant des enregistrements dans la base de données.  <br/> |
-|[Affichage VideoStreamDetail](videostreamdetail.md) <br/> |Stocke des informations sur chaque flux vidéo dans la base de données.  <br/> |
+|[Affichage de session](session-0.md) <br/> |Stocke des informations sur les sessions disposant d’enregistrements dans la base de données.  <br/> |
+|[Affichage UserAgent](useragent-0.md) <br/> |Stocke des informations sur les agents utilisateurs qui ont participé à des sessions disposant d’enregistrements dans la base de données.  <br/> |
+|[Vue VideoStreamDetail](videostreamdetail.md) <br/> |Stocke des informations sur chaque flux vidéo dans la base de données.  <br/> |
    
 

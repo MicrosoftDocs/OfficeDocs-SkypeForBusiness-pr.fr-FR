@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres du site du serveur Lync
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Pour modifier les propriétés d’un site existant, procédez comme suit :'
-ms.openlocfilehash: 69555a04be4125e213ba2eca7afd7255100c0444
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217565"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832914"
 ---
-# <a name="lync-server-site-settings-expander"></a>Expanseur des paramètres du site du serveur Lync
+# <a name="lync-server-site-settings-expander"></a>Expandeur des paramètres du site du serveur Lync
 
 Pour modifier les propriétés d’un site existant, procédez comme suit :
 

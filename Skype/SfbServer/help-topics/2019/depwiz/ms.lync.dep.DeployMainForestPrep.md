@@ -1,8 +1,8 @@
 ---
 title: Préparer la forêt actuelle
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour préparer la forêt services de domaine Active Directory (AD FS), vous devez prolonger le schéma comme décrit dans la rubrique exécution de la préparation du schéma et vérifier que le schéma a été répliqué.
-ms.openlocfilehash: 0458fee54814f7f48382709a0509494e770d3e2b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour préparer la forêt des services de domaine Active Directory, vous devez étendre correctement le schéma, comme décrit dans la rubrique Exécution de la préparation du schéma, et vous assurer que le schéma a été répliqué.
+ms.openlocfilehash: 4881cb85134fef81cd741d834f319a76d4028e59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798311"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833824"
 ---
 # <a name="prepare-current-forest"></a>Préparer la forêt actuelle
 
-Pour préparer la forêt services de domaine Active Directory (AD FS), vous devez prolonger le schéma comme décrit dans la rubrique exécution de la [préparation du schéma](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)et vérifier que le schéma a été répliqué.
+Pour préparer la forêt des services de domaine Active Directory, vous devez étendre correctement le schéma, comme décrit dans la rubrique Exécution de la préparation du [schéma,](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)et vous assurer que le schéma a été répliqué.
 
-Après avoir rempli ces conditions préalables, vous pouvez passer à l’**Étape 3 : Préparer la forêt actuelle**. Pour préparer la forêt, connectez-vous à un ordinateur dans la racine de la forêt en tant que membre du groupe Administrateurs du domaine ou en tant que membre du groupe Administrateurs d’entreprise dans la forêt que vous préparez.
+Après avoir terminé ces conditions préalables, vous pouvez commencer **l’étape 3 : Préparer la forêt actuelle**. Pour préparer la forêt, connectez-vous à un ordinateur à la racine de la forêt en tant que membre des administrateurs de domaine à la racine de la forêt ou en tant que membre des administrateurs d’entreprise pour la forêt que vous préparez.
 
-1. Dans l’Assistant Déploiement, à l’**Étape 3 : Préparer la forêt actuelle**, cliquez sur **Exécuter**.
+1. Dans l'Assistant Déploiement, à l'**Étape 3 : Préparer la forêt actuelle**, cliquez sur **Exécuter**.
 
-2. Dans la page **Préparer la forêt**, cliquez sur **Suivant**.
+2. Sur la page **Préparer la forêt**, cliquez sur **Suivant**.
 
     > [!NOTE]
-    > La préparation de la forêt vous permet de choisir l’emplacement des groupes universels pour Skype entreprise Server. Sélectionnez un emplacement conforme aux besoins de votre organisation.
+    > La préparation de la forêt vous permet de choisir où placer les groupes universels pour Skype Entreprise Server. Choisissez un emplacement cohérent avec les conditions requises de votre organisation.
 
-3. Dans la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**. Assurez-vous qu’il n’y a pas d’erreurs. Consultez les avertissements pour vous assurer qu’ils sont ordinaires et conformes à votre infrastructure.
+3. Sur la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**. Assurez-vous qu’il n’y a aucune erreur. Examinez les avertissements pour déterminer s’ils sont attendus et typiques pour votre infrastructure.
 
-4. Dans la colonne **action** du journal, développez **Forest PREP**, recherchez un ** \<\> ** résultat d’exécution réussie à la fin de chaque tâche pour vérifier que la préparation de la forêt s’est déroulée correctement, fermez le journal, puis cliquez sur **Terminer**.
+4. Sous la colonne **Action** du journal, développez Préparation de la **forêt,** recherchez un résultat d’exécution à la fin de chaque tâche pour vérifier que la préparation de la forêt s’est correctement terminée, fermez le journal, puis cliquez sur **\<Success\>** **Terminer.**
 
-5. Attendez la fin de la réplication des services de domaine Active Directory, ou forcez la réplication vers tous les contrôleurs de domaine figurant dans le composant logiciel enfichable **sites et services Active Directory** pour le contrôleur de domaine racine de la forêt avant d’exécuter la préparation du domaine. Forcez la réplication entre les contrôleurs de domaine dans tous les sites Active Directory pour que la réplication au sein des sites se produise en quelques minutes.
+5. Attendez que la réplication des services de domaine Active Directory soit terminée ou forcez la réplication vers tous les contrôleurs de domaine répertoriés dans le logiciel en ligne Sites et **services Active Directory** pour le contrôleur de domaine racine de la forêt, avant d’effectuer la préparation du domaine. Forcez la réplication entre les contrôleurs de domaine sur tous les sites Active Directory pour faire en sorte que la réplication au sein de ces sites se produise en quelques minutes.
 
     > [!TIP]
-    > Si vous avez besoin de passer en revue les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur de services de domaine Active Directory (AD FS) qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp
+    > Si vous devez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype Entreprise Server, vous pouvez les trouver sur l’ordinateur sur lequel l’Assistant Déploiement a été exécuté, dans l’annuaire Utilisateurs de l’utilisateur des services de domaine Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur s’est connecté en tant qu’administrateur de domaine dans le Contoso.net de domaine, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp
 
 

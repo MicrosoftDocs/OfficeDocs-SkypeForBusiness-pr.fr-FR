@@ -1,8 +1,8 @@
 ---
-title: Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise
+title: (Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.
-ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767317"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830984"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
  
-Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.
+Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.
   
-Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés, qui s’applique à un groupe Response Group.
+Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés qui s’applique à un groupe Response Group.
   
 > [!NOTE]
 > Si un flux de travail est défini en tant que flux de travail géré, tout utilisateur auquel est affecté le rôle CsResponseGroupManager peut définir et modifier les congés des flux de travail dont il assure la gestion. 
   
-### <a name="to-create-a-holiday-set"></a>Pour créer une période de congés
+### <a name="to-create-a-holiday-set"></a>Pour créer une période de congé
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
 3. Pour chaque congé que vous souhaitez définir, exécutez :
     
@@ -41,13 +41,13 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
-    Pour créer la période de congés contenant les congés définis, exécutez :
+    Pour créer la période de congé contenant les congés définis, exécutez :
     
    ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
-    L’exemple ci-dessous présente une période de congés incluant deux congés :
+    L’exemple suivant présente une période de congé incluant deux congés :
     
    ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
@@ -57,8 +57,8 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Conception et création de flux de travail de groupe de réponse dans Skype entreprise](designing-and-creating-response-group-workflows.md)
+[Conception et création de flux de travail Response Group dans Skype Entreprise](designing-and-creating-response-group-workflows.md)
 
-[Nouveau-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

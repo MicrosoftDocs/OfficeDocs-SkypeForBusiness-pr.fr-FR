@@ -1,7 +1,7 @@
 ---
-title: Configuration requise pour les clients Skype entreprise sur Mac
-ms.author: v-lanac
-author: lanachin
+title: 'Skype Entreprise sur Mac : exigences en matière de client'
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -15,71 +15,71 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
-description: Lisez cette rubrique pour en savoir plus sur les exigences en matière de matériel, de logiciel et d’infrastructure pour l’exécution de Skype entreprise sur Mac.
-ms.openlocfilehash: f4f62246a86dabeb628755d3c75a10bc285ede12
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et d’infrastructure requise pour l’exécution de Skype Entreprise sur un Mac.
+ms.openlocfilehash: 5f967bab3a5dcc41a3419324c9fe09b48a8fb674
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013457"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832164"
 ---
-# <a name="skype-for-business-on-mac-client-requirements"></a>Configuration requise pour les clients Skype entreprise sur Mac
+# <a name="skype-for-business-on-mac-client-requirements"></a>Skype Entreprise sur Mac : exigences en matière de client
  
-Lisez cette rubrique pour en savoir plus sur les exigences en matière de matériel, de logiciel et d’infrastructure pour l’exécution de Skype entreprise sur Mac.
+Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et d’infrastructure requise pour l’exécution de Skype Entreprise sur un Mac.
   
-Le [client Skype entreprise sur Mac](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac) est disponible en téléchargement.
+Le [client Skype Entreprise sur Mac](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac) est disponible en téléchargement.
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Configuration matérielle et logicielle requise pour Skype entreprise sur Mac
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Configuration matérielle et logicielle requise pour Skype Entreprise sur Mac
 
-Le client Skype entreprise sur Mac requiert Mac OS X El Capitan et les versions ultérieures, et utilise au moins 100 Mo d’espace disque. Nous prenons en charge l’utilisation de tous les périphériques audio et vidéo intégrés. Les périphériques externes doivent se trouver dans le [catalogue de solutions Skype entreprise](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
+Le client Skype Entreprise sur Mac nécessite Mac OS X El Capitan et des niveaux supérieurs, et utilise au moins 100 Mo d’espace disque. Nous supportons l’utilisation de tous les périphériques audio et vidéo intégrés. Les appareils externes doivent se trouver dans le [catalogue de solutions Skype Entreprise.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
   
 > [!NOTE]
-> Cette liste est préliminaire et certains appareils peuvent être qualifiés pour Lync, mais ne sont pas pris en charge par Skype entreprise sur Mac. Reportez-vous à la [Configuration système requise](https://products.office.com/office-system-requirements) pour la configuration matérielle minimale requise.
+> Cette liste est préliminaire et certains appareils peuvent être qualifiés pour Lync, mais ne sont pas pris en charge sur Skype Entreprise sur Mac. Reportez-vous [à la configuration système](https://products.office.com/office-system-requirements) requise pour le matériel minimal requis.
   
-### <a name="legacy-mac-clients"></a>Clients hérités Mac
+### <a name="legacy-mac-clients"></a>Clients Mac hérités
 
-Skype entreprise Server 2015 prend également en charge les clients hérités suivants sur des ordinateurs exécutant le système d’exploitation Mac OS 10.5.8 ou version plus récente (le système d’exploitation Mac OS 10,9 n’est actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités prises en charge, consultez la rubrique [Desktop Client Feature Comparison for Skype for Business](desktop-feature-comparison.md).
+Skype Entreprise Server 2015 prend également en charge les clients hérités suivants sur les ordinateurs exécutant Mac OS 10.5.8 ou les systèmes d’exploitation ou version de service les plus récents (basés sur Intel) (le système d’exploitation Mac OS 10.9 n’est actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités prise en charge, voir Comparaison des fonctionnalités client de [bureau pour Skype Entreprise.](desktop-feature-comparison.md)
   
-- Microsoft Lync pour Mac 2011 (voir le [Guide de déploiement de Lync pour Mac 2011](https://go.microsoft.com/fwlink/p/?LinkId=268786))
+- Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](https://go.microsoft.com/fwlink/p/?LinkId=268786)
     
-- Microsoft Communicator pour Mac 2011 (voir le [Guide de déploiement de Communicator pour mac 2011](https://go.microsoft.com/fwlink/p/?LinkId=268787))
+- Microsoft Communicator pour Mac 2011 (voir Communicator guide de déploiement [pour Mac 2011)](https://go.microsoft.com/fwlink/p/?LinkId=268787)
  
-Ces clients ne sont pas pris en charge par Skype entreprise Server 2019.
+Ces clients ne sont pas pris en charge par Skype Entreprise Server 2019.
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Configuration requise pour l’infrastructure pour Skype entreprise sur Mac
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Conditions d’infrastructure requises pour Skype Entreprise sur Mac
 <a name="Infrastructure"> </a>
 
-Le client Skype entreprise sur Mac tire parti de la plateforme de gestion des communications unifiées (UCMP) et de l’API Web Unified Communications (UCWA) que nos clients de mobilité utilisent.
+Le client Skype Entreprise sur Mac tire parti de la plateforme de gestion des communications unifiées (UCMP) et de l’API web de communications unifiées (UCWA) que nos clients de mobilité utilisent.
   
-Le client a les mêmes exigences que nos clients de mobilité, car vous devez disposer d’un serveur Edge d’accès et d’un proxy inverse déployé dans une configuration prise en charge. 
+Le client a les mêmes exigences que nos clients de mobilité dans la mesure où vous devez avoir un serveur Edge d’accès et un proxy inverse déployés dans une configuration prise en charge. 
   
 ### <a name="authentication"></a>Authentification
 
-Le client Skype entreprise sur Mac prend en charge l’authentification basée sur le certificat, l’authentification moderne Microsoft et l’authentification multifacteur lors du déploiement et de l’activation de l’authentification multifacteur.
+Le client Skype Entreprise sur Mac prend en charge l’authentification basée sur les certificats, l’authentification moderne Microsoft et l’authentification multifacteur lorsqu’elles sont déployées et activées.
   
 > [!NOTE]
-> En raison d’une limite actuelle, les informations d’identification Exchange de l’utilisateur doivent être identiques à leurs informations d’identification Skype entreprise. 
+> En raison d’une limitation actuelle, les informations d’identification Exchange de l’utilisateur doivent être identiques à leurs informations d’identification Skype Entreprise. 
   
 ### <a name="certificates"></a>Certificats
 
-Les certificats en cours d’utilisation sur le serveur Edge d’accès, le proxy inverse et les serveurs frontaux ne doivent pas utiliser l’algorithme de hachage SHA-512.
+Les certificats utilisés sur le serveur Edge d’accès, le proxy inverse et le serveur frontal ne doivent pas utiliser l’algorithme de hachage SHA-512.
   
 La liste de révocation de certificats HTTP doit être définie et accessible par le client. Par exemple, nous ne prenons pas en charge une entrée LDAP dans le certificat en tant que liste de révocation de certificats.
   
 ### <a name="dns"></a>DNS
 
-La mobilité doit être correctement déployée pour que Skype entreprise sur le client Mac fonctionne correctement. Un scénario d’échec courant consiste à faire en sorte que les deux entrées DNS suivantes soient réactivées sur le réseau interne :
+La mobilité doit être correctement déployée pour que le client Skype Entreprise sur Mac fonctionne correctement. Un scénario d’échec courant consiste à résoudre les deux entrées DNS suivantes sur le réseau interne :
   
-- lyncdiscoverinternal. \<sipdomain\>
+- lyncdiscoverinternal.\<sipdomain\>
     
-- lyncdiscover. \<sipdomain\>
+- lyncdiscover.\<sipdomain\>
     
-Pour plus d’informations, reportez-vous à la rubrique suivante : [Deploying Mobility in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224)et le [Guide de mobilité de Microsoft Lync Server 2010](https://go.microsoft.com/fwlink//p/?LinkId=798226).
+Pour plus d’informations, voir : [Deploying Mobility in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Infrastructure"> </a>
 
-[Configuration DNS requise pour Skype entreprise Server](../../plan-your-deployment/network-requirements/dns.md)
+[Exigences relatives au DNS pour Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md)
 
 [Forum Aux Questions](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   

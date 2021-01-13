@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMeta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,35 +12,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta contient les principaux qui doivent être actualisés à partir des services de domaine Active Directory (AD FS).
-ms.openlocfilehash: c76f4a74b3f627d360a2d745e46b6f2dac26bff0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalMeta contient les principaux qui doivent être actualisé à partir des services de domaine Active Directory.
+ms.openlocfilehash: e10b56a8a3a1c25f73cd1a07f4fdcde18c6f1215
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831544"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta contient les principaux qui doivent être actualisés à partir des services de domaine Active Directory (AD FS).
+tblPrincipalMeta contient les principaux qui doivent être actualisé à partir des services de domaine Active Directory.
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|prinID  <br/> |ent, non null  <br/> |ID du principal.  <br/> |
-|prinAffiliationsDirty  <br/> |bit, pas null  <br/> |True si les affiliations principales doivent être actualisées.  <br/> |
-|prinAttributesDirty  <br/> |bit, pas null  <br/> |True si les attributs principaux doivent être actualisés.  <br/> |
-|prinDeleted  <br/> |bit, pas null  <br/> |True si l’objet principal a été supprimé.  <br/> |
-|tryCount  <br/> |int  <br/> |Nombre de tentatives d’actualisation du principal à partir d’AD DS qui est déjà en passe.  <br/> |
-|lastTry  <br/> |DateHeure  <br/> |Horodatage de la dernière tentative d’actualisation du principal. Il peut s’agir de la valeur null s’il n’y a pas encore de tentative d’actualisation.  <br/> |
-|nextTry  <br/> |DateHeure  <br/> |Horodatage de la prochaine actualisation planifiée. Peut être null s’il n’y a pas de planification ultérieure.  <br/> |
+|prinID  <br/> |int, non null  <br/> |ID de principal.  <br/> |
+|prinAffiliationsDirty  <br/> |bit, non null  <br/> |True si les affiliations de principaux doivent être actualisées.  <br/> |
+|prinAttributesDirty  <br/> |bit, non null  <br/> |True si les attributs de principaux doivent être actualisés.  <br/> |
+|prinDeleted  <br/> |bit, non null  <br/> |True si le principal doit être supprimé.  <br/> |
+|tryCount  <br/> |int  <br/> |Nombre de tentatives d’actualisation à partir des services AD DS ayant eu lieu jusqu’à maintenant.  <br/> |
+|lastTry  <br/> |DateHeure  <br/> |Horodatage de la dernière tentative d’actualisation du principal. Peut être null si aucune actualisation n’a encore été tentée.  <br/> |
+|nextTry  <br/> |DateHeure  <br/> |Horodatage de la prochaine actualisation planifiée. Peut être null si aucune actualisation supplémentaire n’a été planifiée.  <br/> |
    
-**Permettent**
+**Keys**
 
 |**Colonne**|**Description**|
 |:-----|:-----|
 |prinID  <br/> |Clé primaire.  <br/> |
-|prinID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal. prinID.  <br/> |
+|prinID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal.prinID.  <br/> |
    
 

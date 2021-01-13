@@ -1,8 +1,8 @@
 ---
-title: Gestion des paramètres du groupe de réponse au niveau de l’application dans Skype entreprise
+title: Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Gestion des paramètres du groupe de réponse au niveau de l’application, tels que les paramètres de musique et de rappel, dans Skype entreprise Server voix entreprise.
-ms.openlocfilehash: 99a3d6bc82cffd39608d2da0be013d4fbb8389e8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767107"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830784"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres du groupe de réponse au niveau de l’application dans Skype entreprise
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise
  
-Gestion des paramètres du groupe de réponse au niveau de l’application, tels que les paramètres de musique et de rappel, dans Skype entreprise Server voix entreprise.
+Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, dans Skype Entreprise Server Voix Entreprise.
   
-Les paramètres au niveau de l’application de l’application Response Group incluent la configuration par défaut de l’attente de musique, le fichier audio de musique par défaut, la période de grâce aux retours de l’agent et la configuration du contexte d’appel. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration**. Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration**.
+Les paramètres au niveau de l’application Response Group incluent la configuration de l’attente musicale par défaut, le fichier audio d’attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration du contexte de l’appel. Vous pouvez définir un seul jeu de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration**. Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration**.
   
 L’attente musicale par défaut est lue lorsqu’un appel est mis en attente uniquement si aucune attente musicale personnalisée n’est définie. Le contexte de l’appel est disponible uniquement pour les files d’attentes assignées à des flux de travail interactifs. Si le contexte de l’appel est activé, un agent peut afficher des informations telles que le délai d’attente de l’appelant ou des questions et réponses de flux de travail lorsqu’un appel est reçu.
   
-### <a name="to-modify-response-group-application-level-settings"></a>Pour modifier les paramètres au niveau de l’application de Response Group
+### <a name="to-modify-response-group-application-level-settings"></a>Pour modifier les paramètres au niveau de l’application Response Group
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-3. Dans la ligne de commande, exécutez la commande suivante :
+3. À partir de la ligne de commande, exécutez la commande suivante :
     
    ```powershell
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]
    ```
 
-    Exemple :
+    Par exemple :
     
    ```powershell
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
@@ -62,4 +62,4 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
   
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Importation-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

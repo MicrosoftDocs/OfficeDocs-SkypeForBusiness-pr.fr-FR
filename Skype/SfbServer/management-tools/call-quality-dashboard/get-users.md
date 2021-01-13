@@ -1,8 +1,8 @@
 ---
 title: Obtenir les utilisateurs
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: 'Résumé : en savoir plus sur l’opération obtenir les utilisateurs, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 81d261a49798ef49d4a1d693681b4497652cf395
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez l’opération Obtenir des utilisateurs, qui fait partie du service utilisateur. Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: a830663fc97d8fda727d1ebb008d97407796cc7c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816723"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832424"
 ---
 # <a name="get-users"></a>Obtenir les utilisateurs
  
-**Résumé :** En savoir plus sur l’opération obtenir les utilisateurs, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Découvrez l’opération Obtenir des utilisateurs, qui fait partie du service utilisateur. Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’opération obtenir les utilisateurs fait partie du service utilisateur dans l’API du référentiel pour le tableau de bord de qualité des appels.
+L’opération Obtenir des utilisateurs fait partie du service utilisateur dans l’API référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="get-users"></a>Obtenir les utilisateurs
 
-L’accès aux utilisateurs renvoie une liste d’utilisateurs du référentiel.
+Obtenir les utilisateurs renvoie une liste d’utilisateurs dans le référentiel.
   
-|**Méthode**|**URI de la requête**|**Version HTTP**|
+|**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<Portal\>/QoERepositoryService/Repository/User  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** -aucun.
+ **Paramètres d’URI** - Aucun.
   
- **En-têtes de requête** -aucun en-tête supplémentaire.
+ **En-têtes de requête** : aucun en-tête supplémentaire.
   
- Le corps de la **requête** .
+ **Corps de la** demande - Aucun.
   
- **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
- **Code d’État** -une opération réussie renvoie le code d’état 200 (OK).
+ **Code d’état** : une opération réussie renvoie le code d’état 200 (OK).
   
  **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
+ **Corps de la** réponse : voici un exemple de charge utile de réponse dans JSON.
   
 > [!NOTE]
-> Un tableau d’objets utilisateur est retourné. Pour plus d’informations sur l’objet utilisateur, voir obtenir de l’utilisateur. 
+> Un tableau d’objets User est renvoyé. Pour plus d’informations sur l’objet User, voir Get User. 
   
 ```json
 [{

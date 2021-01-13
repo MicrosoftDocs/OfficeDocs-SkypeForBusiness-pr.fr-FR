@@ -1,8 +1,8 @@
 ---
-title: Exemples de requête de base de données QoE
+title: Exemples de requêtes de base de données de qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: Cette section contient des exemples de requêtes pour la base de données de qualité de l’expertise (QoE).
-ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Cette section contient des exemples de requêtes pour la base de données QoE (Quality of Experience).
+ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888653"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834364"
 ---
-# <a name="sample-qoe-database-queries"></a>Exemples de requête de base de données QoE
+# <a name="sample-qoe-database-queries"></a>Exemples de requêtes de base de données de qualité de l’expérience (QoE)
  
-Cette section contient des exemples de requêtes pour la base de données de qualité de l’expertise (QoE). 
+Cette section contient des exemples de requêtes pour la base de données QoE (Quality of Experience). 
   
-Utilisez l’exemple suivant pour obtenir le taux de gigue et de perte de paquets pour tous les flux audio.
+Utilisez l’exemple suivant pour obtenir la moyenne de la gigue et de la perte de paquets pour tous les flux audio.
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-Pour connaître le nombre total de conférences à l’aide de la console de réunion, procédez comme suit.
+Utilisez l’exemple suivant pour trouver le nombre total de conférences qui ont utilisé la console de réunion.
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-Pour obtenir ConversstionalMOS, SendingMOS et ListendingMOS par appareil de capture, utilisez l’exemple suivant.
+Utilisez l’exemple suivant pour obtenir ConversstionalMOS, SendingMOS et ListendingMOS par appareil capturé.
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS

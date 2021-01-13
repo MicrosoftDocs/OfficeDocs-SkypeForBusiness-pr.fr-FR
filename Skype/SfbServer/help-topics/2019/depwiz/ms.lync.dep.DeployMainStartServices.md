@@ -1,8 +1,8 @@
 ---
 title: Démarrer les services
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour démarrer les services sur le rôle serveur déployé, cliquez sur exécuter à l’étape 4 : démarrer les services. Vous devez être connecté en tant que membre du groupe d’administrateurs locaux ou d’un équivalent.'
-ms.openlocfilehash: 2f80e613d79613fb3e03837a9059306196638b84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Pour démarrer les services sur le rôle serveur déployé, cliquez sur Exécuter à l’Étape 4 : démarrer les services. Vous devez être connecté en tant que membre du groupe Administrateurs local ou en tant qu’équivalent.'
+ms.openlocfilehash: 73dd906ff5cc86a5c3606d82ca665bb6c689a928
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794783"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833764"
 ---
 # <a name="start-services"></a>Démarrer les services
  
-Pour démarrer les services sur le rôle serveur déployé, cliquez sur **exécuter** à l' **étape 4 : démarrer les services**. Vous devez être connecté en tant que membre du groupe d’administrateurs locaux ou d’un équivalent. 
+Pour démarrer les services sur le rôle serveur déployé, cliquez sur **Exécuter** à l’**Étape 4 : démarrer les services**. Vous devez être connecté en tant que membre du groupe Administrateurs local ou en tant qu’équivalent. 
   
 > [!NOTE]
-> Si les **services de démarrage** sont exécutés, vous pouvez relancer la commande en cliquant sur **réexécuter**. 
+> Si **Start Services** a été exécuté, vous pouvez réexécuter la commande en cliquant sur **Réexécuter .** 
   
 

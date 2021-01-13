@@ -1,8 +1,8 @@
 ---
-title: Conditions préalables à la sécurité et à la configuration d’Enterprise voix dans Skype entreprise Server
+title: Conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,54 +15,54 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Résumé : Obtenez des informations sur la sécurité et la configuration requise pour Enterprise Voice dans Skype entreprise Server.'
-ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.'
+ms.openlocfilehash: 77efbf231f83c6d3c31254c9ab742de7e2b226e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767237"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830844"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables à la sécurité et à la configuration d’Enterprise voix dans Skype entreprise Server
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur la sécurité et la configuration requise pour Enterprise Voice dans Skype entreprise Server.
+**Résumé :** Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.
   
-Avant de déployer Enterprise Voice, assurez-vous que votre infrastructure répond à la configuration requise en matière de sécurité, de configuration utilisateur et de matériel spécifique. 
+Avant de déployer Voix Entreprise, vérifiez que votre infrastructure répond aux conditions préalables suivantes en matière de sécurité, de configuration utilisateur et de matériel spécifique au scénario. 
   
 ## <a name="administrative-rights-and-certificate-infrastructure"></a>Droits d’administration et infrastructure de certificats
 
-Avant de procéder au déploiement, vérifiez les points suivants :
+Avant de déployer, vérifiez ce qui suit :
   
-- Le déploiement d’Enterprise Voice par les administrateurs doit être membre du groupe RTCUniversalServerAdmins.
+- Les administrateurs déployant Voix Entreprise doivent être membres du groupe RTCUniversalServerAdmins.
     
 - Les administrateurs doivent disposer des droits appropriés pour effectuer les tâches de configuration :
     
-  - **CsVoiceAdministrator :** ce rôle permet à l’administrateur d’effectuer des tâches de configuration vocale, de gérer les applications vocales et d’affecter des stratégies vocales aux utilisateurs finaux.
+  - **CsVoiceAdministrator :** Ce rôle permet à l’administrateur d’effectuer des tâches de configuration vocale, de gérer les applications vocales et d’affecter des stratégies vocales aux utilisateurs finaux.
     
-  - **CsUserAdministrator :** ce rôle permet à l’administrateur de gérer les propriétés des utilisateurs, par exemple, pour activer Voix Entreprise pour un utilisateur. Ce rôle permet également à l’administrateur d’affecter des stratégies par utilisateur, à l’exception de la stratégie d’archivage, et de gérer les téléphones de partie commune et les périphériques analogiques.
+  - **CsUserAdministrator :** Ce rôle permet à l’administrateur de gérer les propriétés des utilisateurs, par exemple, pour activer Voix Entreprise pour un utilisateur. Ce rôle permet également à l’administrateur d’affecter des stratégies par utilisateur, à l’exception de la stratégie d’archivage, et de gérer les téléphones de partie commune et les périphériques analogues.
     
-  - **CsAdministrator :** ce rôle permet à l’utilisateur d’effectuer toutes les tâches des rôles CsVoiceAdministrator et CsUserAdministrator.
+  - **CsAdministrator :** Ce rôle permet à l’utilisateur d’effectuer toutes les tâches des rôles CsVoiceAdministrator et CsUserAdministrator.
     
-- L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
+- L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée, à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
     > [!NOTE]
-    > Pour plus d’informations sur les exigences relatives aux certificats dans Skype entreprise Server, voir [configuration environnementale requise pour Skype entreprise server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
+    > Pour plus d’informations sur les certificats requis dans Skype Entreprise Server, voir [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Configuration utilisateur
 
-Si vous avez localisé le serveur de médiation avec chaque pool frontal ou serveur Standard Edition au cours du déploiement frontal, les paramètres utilisateur nécessaires à l’utilisation d’Enterprise Voice étaient configurés automatiquement lors de l’installation des fichiers pour ces rôles de serveur.
+Si vous avez coqueté le serveur de médiation avec chaque pool frontal ou serveur Standard Edition Server lors du déploiement frontal, les paramètres utilisateur nécessaires pour Voix Entreprise ont été configurés automatiquement lors de l’installation des fichiers pour ces rôles serveur.
   
-Si vous venez de déployer la charge de travail voix entreprise pour le moment, avant de commencer le processus de déploiement, spécifiez le numéro de téléphone principal de chaque utilisateur que vous envisagez d’activer pour voix entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principal doivent être normalisés (correctement mis en forme) et copiés sur les propriétés d' **URI de ligne** de chaque utilisateur à l’aide de Skype entreprise Server Control Panel.
+Si vous procédez à un nouveau déploiement de la charge de travail de Voix Entreprise, avant de commencer le processus de déploiement, désignez un numéro de téléphone principal pour chaque utilisateur pour lequel vous envisagez d’activer Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principaux doivent être normalisés (correctement formatés) et copiés dans la propriété **d’URI** de ligne de chaque utilisateur à l’aide du Panneau de contrôle Skype Entreprise Server.
   
 > [!NOTE]
-> Pour obtenir des exemples des numéros de téléphone principaux requis pour le déploiement de Voix Entreprise, reportez-vous à la rubrique [Sample Normalization Rules](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
+> Pour obtenir des exemples de numéros de téléphone principaux requis pour Voix Entreprise déploiement, voir [exemples de règles de normalisation.](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules) 
   
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installation des fichiers ou configuration de la connectivité RTC
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installer des fichiers ou configurer la connectivité PSTN
 
-Après vérification de la configuration logicielle et environnementale requise pour Enterprise Voice, vous pouvez effectuer l’une des opérations suivantes :
+Après avoir vérifié les conditions préalables logicielles et environnementales pour Voix Entreprise vous pouvez :
   
-- Installez le serveur de médiation, comme décrit dans la rubrique [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](deploy-a-mediation-server.md), mais uniquement si vous voulez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés dans le cadre du processus de déploiement de la liste frontale ou du serveur Standard Edition lorsqu’il est localisé.
+- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise [Server,](deploy-a-mediation-server.md)mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement du pool frontal ou du serveur Standard Edition lors de la cocation.
     
-- Vous pouvez aussi commencer à configurer des paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans la rubrique [configurer des Trunks dans Skype entreprise Server](configure-trunks.md).
+- Vous pouvez également commencer à configurer les paramètres pour router les appels pour Voix Entreprise utilisateurs, comme décrit dans La configuration des [trunks dans Skype Entreprise Server.](configure-trunks.md)
     
 

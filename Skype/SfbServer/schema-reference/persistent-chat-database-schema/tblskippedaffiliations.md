@@ -1,8 +1,8 @@
 ---
 title: tblSkippedAffiliations
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison des erreurs d’accès aux services de domaine Active Directory).
-ms.openlocfilehash: 8a138993e12a49f72842808d720a5f778195c6ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison d’erreurs d’accès aux services de domaine Active Directory).
+ms.openlocfilehash: 3061a399de804898d3dc2c616fb3766206c2d624
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812012"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831424"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison des erreurs d’accès aux services de domaine Active Directory).
+tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison d’erreurs d’accès aux services de domaine Active Directory).
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|prinID  <br/> |ent, non null  <br/> |ID du principal.  <br/> |
-|affDescription  <br/> |nvarchar (256), pas null  <br/> |Chaîne identifiant l’affiliation.  <br/> Le format est : GUID : _{0}_ uri : _{1}_> ID :_{2}_ <br/> |
-|updatedBy  <br/> |ent, non null  <br/> |ID de l’objet principal qui a mis à jour cette ligne. Il est toujours 1 (utilisateur système), car la synchronisation Active Directory est la seule source de ces entrées.  <br/> |
+|prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
+|affDescription  <br/> |nvarchar (256), non null  <br/> |Chaîne identifiant l’affiliation.  <br/> Le format est : guid:  _{0}_ uri : _{1}_> id :  _{2}_ <br/> |
+|updatedBy  <br/> |int, non null  <br/> |ID du principal qui a mis à jour cette ligne. Il s’agit toujours d’1 (utilisateur système) car la synchronisation Active Directory est la seule source pour ces entrées.  <br/> |
    
-**Permettent**
+**Keys**
 
-|**Colonne (s)**|**Description**|
+|**Colonne(s)**|**Description**|
 |:-----|:-----|
 |\<prinID, affDescription\>  <br/> |Clé primaire.  <br/> |
-|prinID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal. prinID.  <br/> |
+|prinID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal.prinID.  <br/> |
    
 

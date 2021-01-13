@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’un Branch Office Appliance
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Ce nœud affiche le nom de domaine complet (FQDN), les pools et les serveurs associés, ainsi que des informations de résilience concernant ce Survivable Branch appliance. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 4ea58b26a3afa6dd2a96479d878aa043b0633f6c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Ce nœud affiche le nom de domaine complet (FQDN), les pools et serveurs associés, ainsi que les informations de résilience sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 5a8d23759d7cec93f606fed91e5bba869abf1399
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216105"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833174"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nœud d’étendue d’un Branch Office Appliance
  
-Ce nœud affiche le nom de domaine complet (FQDN), les pools et les serveurs associés, ainsi que des informations de résilience concernant ce Survivable Branch appliance. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN), les pools et serveurs associés, ainsi que les informations de résilience sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la page **modifier les propriétés** de ce Survivable Branch appliance, dans laquelle vous pouvez modifier le nom de domaine complet (si la topologie n’est pas encore publiée), les associations et les paramètres de résilience.
+- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce Survivable Branch Appliance, dans laquelle vous pouvez modifier le nom de famille (si la topologie n’est pas encore publiée), les associations et les paramètres de résilience.
     
 - **Supprimer**. Supprime le serveur de la topologie.
     

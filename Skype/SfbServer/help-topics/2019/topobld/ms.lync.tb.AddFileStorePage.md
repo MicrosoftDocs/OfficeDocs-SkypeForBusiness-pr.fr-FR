@@ -1,8 +1,8 @@
 ---
 title: Ajouter un magasin de fichiers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,19 +15,19 @@ localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un nouveau magasin de fichiers, spécifiez les éléments suivants :'
-ms.openlocfilehash: 5dbd01dd767e9815811c13487c233f5bae38d839
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 413885ffb60e1308fef2984252edc8690917019d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798571"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833544"
 ---
 # <a name="add-file-store"></a>Ajouter un magasin de fichiers
  
 Pour définir un nouveau magasin de fichiers, spécifiez les éléments suivants :
   
-- Nom de domaine complet (FQDN) du serveur qui héberge le nouveau magasin de fichiers. Le nom de domaine complet (FQDN) du serveur doit exister dans le DNS (Domain Name System) avant de publier la topologie.
+- Le nom de domaine complet (FQDN) du serveur qui hébergera le nouveau magasin de fichiers. Le nom de domaine complet du serveur doit exister dans le DNS (Domain Name System) avant de publier la topologie.
     
-- Nom du partage de fichiers sur le serveur hôte. Le partage de fichiers doit exister avant de publier la topologie. 
+- Le nom du partage de fichiers sur le serveur hôte. Le nom du partage de fichiers doit exister pour pouvoir publier la topologie. 
     
 

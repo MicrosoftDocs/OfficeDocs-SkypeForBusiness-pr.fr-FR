@@ -1,8 +1,8 @@
 ---
 title: Ajouter un magasin SQL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-description: Pour définir un nouveau magasin SQL, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server, soit une instance par défaut, soit une instance nommée, vous spécifiez ce qui suit.
-ms.openlocfilehash: 261cc9ca3b0f792c9ab6566ba24f1d4d7236937a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
+ms.openlocfilehash: 79429b596eef1ed0695aeb24594ea08ce12093be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217125"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833304"
 ---
 # <a name="add-sql-store"></a>Ajouter un magasin SQL
 
-Pour définir un nouveau magasin SQL, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server, soit une instance par défaut, soit une instance nommée, vous spécifiez ce qui suit.
+Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
 
-Spécifiez le nom de domaine complet (FQDN) du serveur SQL Server qui doit héberger l’instance de base de données que vous définissez.
+Spécifiez le nom de domaine complet (FQDN) de la SQL Server qui hébergera l’instance de base de données que vous définissez.
 
 Spécifiez l’instance de SQL Server qui hébergera les données. Vous pouvez spécifier l’instance par défaut ou une instance nommée.
 

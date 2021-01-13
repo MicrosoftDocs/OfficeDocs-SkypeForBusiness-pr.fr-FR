@@ -1,8 +1,8 @@
 ---
 title: tblServerIdentity
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: tblServerIdentity contient les serveurs de chat actifs dans le pool de serveurs de chat permanent.
-ms.openlocfilehash: 4f6389f21c35da914b4943a279d8d485b6ec1eae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblServerIdentity contient les serveurs de conversation actifs dans le pool de serveurs de conversation permanente.
+ms.openlocfilehash: 7fa8c1b804432b3a9368785682f45e9ce8d7898e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812272"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831494"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-tblServerIdentity contient les serveurs de chat actifs dans le pool de serveurs de chat permanent.
+tblServerIdentity contient les serveurs de conversation actifs dans le pool de serveurs de conversation permanente.
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|serverID  <br/> |ent, non null  <br/> |ID du serveur. Correspond à l’ID de l’instance du magasin central de gestion.  <br/> |
-|serverAddress  <br/> |nvarchar (256), pas null  <br/> |Adresse du serveur à l’aide de l’adresse Windows Communication Foundation.  <br/> |
-|serverLastPingTime  <br/> |DateHeure  <br/> |Dernière mise à jour de cette ligne par le serveur de canal pour indiquer qu’il est en cours d’exécution.  <br/> |
+|serverID  <br/> |int, non null  <br/> |ID de serveur. Correspond à l’ID d’instance du magasin central de gestion.  <br/> |
+|serverAddress  <br/> |nvarchar (256), non null  <br/> |Adresse de serveur utilisant l’adresse WCF (Windows Communication Foundation).  <br/> |
+|serverLastPingTime  <br/> |DateHeure  <br/> |Dernière fois où le serveur de canal a mis à jour cette ligne pour faire la preuve de son exécution.  <br/> |
    
 **Clé**
 

@@ -1,8 +1,8 @@
 ---
-title: Exclusions de l’analyse antivirus pour Skype entreprise Server
+title: Exclusions de l’analyse antivirus pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Vue d’ensemble de l’interopérabilité avec le scanner antivirus avec Skype entreprise Server.
-ms.openlocfilehash: 10d296e36324fdbc8bca8f7da48370d619774501
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Vue d’ensemble de l’interopérabilité du scanneur antivirus avec Skype Entreprise Server.
+ms.openlocfilehash: b59a5c474a96d312ebe3a648536ebe827e684931
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815692"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832264"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions de l’analyse antivirus pour Skype entreprise Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions de l’analyse antivirus pour Skype Entreprise Server
 
-Vue d’ensemble de l’interopérabilité avec le scanner antivirus avec Skype entreprise Server.
+Vue d’ensemble de l’interopérabilité du scanneur antivirus avec Skype Entreprise Server.
 
-Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnement de Skype entreprise Server, vous devez exclure des processus spécifiques et des annuaires pour chaque rôle serveur ou serveur Skype entreprise Server sur lequel vous exécutez un scanneur antivirus. Vous devez exclure les processus et les répertoires suivants :
+Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionnement de Skype Entreprise Server, vous devez exclure des processus et des répertoires spécifiques pour chaque serveur ou rôle serveur Skype Entreprise Server sur lequel vous exécutez un scanneur antivirus. Les répertoires et processus suivants doivent être exclus :
 
 > [!NOTE]
-> Dossiers et emplacements de fichiers indiqués ci-dessous sont les emplacements par défaut de Skype entreprise Server. Pour les emplacements pour lesquels vous n’avez pas utilisé la valeur par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut spécifiés dans cette rubrique.
+> Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Skype Entreprise Server. Pour tout emplacement pour lequel vous n’avez pas utilisé le paramètre par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut mentionnés dans cette rubrique.
 
 > [!IMPORTANT]
-> Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, non relatifs, pour leur liste d’exclusions.
+> Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, et non relatifs, pour leur liste d’exclusions.
 
-- Processus du serveur Skype entreprise :
+- Processus Skype Entreprise Server :
 
   - ABServer.exe
 
@@ -56,7 +56,7 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
 
   - IMMCUSvc.exe
   
-  - LyncBackupService. exe
+  - LyncBackupService.exe
 
   - LysSvc.exe
 
@@ -82,7 +82,7 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
 
   - XmppTGW.exe
 
-- Processus du service d’hôte Windows Fabric :
+- Processus du service hôte Windows Fabric :
 
   - Fabric.exe
 
@@ -90,30 +90,30 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
 
   - FabricHost.exe
 
-- Processus d’IIS :
+- Processus IIS :
 
   - %systemroot%\system32\inetsrv\w3wp.exe
 
   - %systemroot%\SysWOW64\inetsrv\w3wp.exe
 
-- Processus du serveur dorsal SQL Server :
+- SQL Server Back-End processus :
 
     > [!NOTE]
-    > Notez que ces chemins d’accès sont spécifiques à la version de SQL Server.
+    > Notez que ces chemins d’accès sont spécifiques SQL Server version.
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe
 
-  - %ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+  - %ProgramFiles%\Microsoft SQL Server\MSRS11. MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
 
   - %ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe
 
-- Processus du serveur SQL Server frontal :
+- SQL Server Front-End processus :
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Instance RTC de l’installation de Standard Edition
+  - Instance RTC d’installation Standard Edition
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,22 +126,22 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Notez que ces chemins sont spécifiques à la version de Skype entreprise Server.
+    > Notez que ces chemins d’accès sont spécifiques à la version de Skype Entreprise Server.
 
-  - %programfiles%\Skype Entreprise Server 2015
+  - %programfiles%\Skype Entreprise Server 2015
 
-  - %programfiles%\Common Files\Skype Entreprise Server 2015\Watcher Node
+  - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
 
-  - %programfiles%\Common Files\Skype Entreprise Server 2015
+  - %programfiles%\Common Files\Skype for Business Server 2015
 
   - %programfiles%\Common Files\Skype Entreprise Online
 
   - %SystemDrive%\RtcReplicaRoot
 
-  - Magasin de partage de fichiers (spécifié dans le générateur de topologies). Les magasins de fichiers sont spécifiés dans le générateur de topologies.
+  - Magasin de partages de fichiers (spécifié dans le Générateur de topologies). Les magasins de fichiers sont spécifiés dans le Générateur de topologies.
 
-  - Fichiers journaux et de données SQL Server, dont ceux pour la base de données principale, le magasin d’utilisateurs, le magasin d’archivage, le magasin de surveillance et le magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le générateur de topologies. Pour plus d’informations sur les fichiers journaux et de données pour chaque base de données, dont les noms par défaut, reportez-vous à la rubrique [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) dans la documentation relative au déploiement.
+  - Données et fichiers journaux de SQL server, y compris ceux de la base de données principale, magasin utilisateur, magasin d’archivage, magasin de surveillance et magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le Générateur de topologies. Pour plus de détails sur les données et fichiers journaux pour chaque base de données, y compris les noms par défaut, voir [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) dans la documentation de déploiement.
 
-  - Les fichiers de données et les fichiers journaux de SQL Server, y compris ceux de la base de données frontale, Skype entreprise Store et RtcDatabase Store. Ils se trouvent normalement sous %localdrive%\CSData.
+  - SQL Server données et fichiers journaux, y compris ceux de la base de données frontale, du magasin Skype Entreprise et du magasin RtcDatabase. Ils sont normalement sous %localdrive%\CSData.
 
 

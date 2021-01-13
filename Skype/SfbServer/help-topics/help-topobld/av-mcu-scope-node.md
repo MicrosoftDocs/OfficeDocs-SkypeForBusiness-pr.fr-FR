@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue du service MCU audio/vidéo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Ce nœud montre le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: d9ee37e34ec11319ea93223969471fd75fb47a9f
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6c74485692a7eaafde3c2b2079c4db2a3ee15c5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216195"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833294"
 ---
 # <a name="av-mcu-scope-node"></a>Nœud d’étendue du service MCU audio/vidéo
  
@@ -28,7 +28,7 @@ Ce nœud montre le nom de domaine complet (FQDN) et les pools frontaux associés
   
 - **Nouveau serveur**. Démarre l'Assistant **Définir un nouveau serveur** que vous pouvez utiliser pour ajouter un autre serveur de périphérie à ce pool.
     
-- **Modifier les propriétés** Ouvre la page **Modifier les propriétés **de ce serveur dans laquelle vous pouvez modifier le nom de domaine complet du pool et les pools frontaux associés.
+- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce serveur dans laquelle vous pouvez modifier le nom de domaine complet du pool et les pools frontaux associés.
     
 - **Supprimer**. Supprime le pool de la topologie.
     

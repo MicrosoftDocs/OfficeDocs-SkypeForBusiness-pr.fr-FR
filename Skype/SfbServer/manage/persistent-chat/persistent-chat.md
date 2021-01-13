@@ -1,8 +1,8 @@
 ---
-title: Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015
+title: Gérer le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,54 +12,54 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
-description: 'Résumé : Découvrez comment gérer le serveur Chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 97cce8adedbb4dea932084497006e3c17bfdd7d8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment gérer le serveur de conversation permanente dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: 9a97511f9b4c2adae7ead816e86876f05dd39790
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817320"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832884"
 ---
-# <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015
+# <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer le serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment gérer le serveur Chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment gérer le serveur de conversation permanente dans Skype Entreprise Server 2015.
   
-Lorsque vous configurez le serveur de chat permanent pour votre organisation, vous spécifiez la configuration initiale lors du déploiement. Toutefois, il peut arriver que vous souhaitiez modifier le mode de mise en œuvre d’une prise en charge du serveur de chat permanent. Par exemple, vous pouvez avoir besoin de configurer une prise en charge et des contrôles permanents pour une équipe ou un groupe spécifique au sein de votre organisation. Cette section fournit des informations et des procédures pour vous aider à personnaliser le déploiement de votre serveur Chat permanent. Pour plus d’informations sur les fonctionnalités que vous pouvez configurer pour le serveur de chat permanent, voir [planifier pour le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Pour plus d’informations sur le déploiement d’un serveur de chat permanent, voir [déployer un serveur Chat permanent dans Skype entreprise server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+Lorsque vous définissez le serveur de conversation permanente pour votre organisation, vous spécifiez la configuration initiale pendant le déploiement. Toutefois, il peut se peut que vous vouliez modifier la façon dont vous implémentez la prise en charge du serveur de conversation permanente. Par exemple, vous devrez peut-être configurer différemment la prise en charge et les contrôles du serveur de conversation permanente pour une équipe ou un groupe spécifique au sein de votre organisation. Cette section fournit des informations et des procédures pour vous aider à personnaliser votre déploiement de serveur de conversation permanente. Pour plus d’informations sur les fonctionnalités que vous pouvez configurer pour le serveur de conversation permanente, voir [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Pour plus d’informations sur le déploiement d’un serveur de conversation permanente, voir [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
 
 > [!NOTE]
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
   
-Vous pouvez gérer le serveur Chat permanent en utilisant le panneau de configuration ou en utilisant des applets de commande Windows PowerShell. 
+Vous pouvez gérer le serveur de conversation permanente à l’aide du Panneau de Windows PowerShell cmdlets. 
   
-Pour utiliser le Panneau de configuration :
+Pour utiliser le Panneau de contrôle :
   
-1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est affecté, connectez-vous à n’importe quel un ordinateur de votre déploiement interne.
+1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer** , sélectionnez le panneau de configuration Skype entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
-3. Dans la barre de navigation de gauche, cliquez sur **conversation permanente**.
+3. Dans la barre de navigation de gauche, cliquez **sur Conversation permanente.**
     
-Le tableau suivant récapitule les applets de commande Windows PowerShell disponibles pour vous aider à gérer le serveur de chat permanent. Pour plus de détails sur la syntaxe, notamment tous les paramètres disponibles, voir [Skype for Business Server 2015 Management Shell](../management-shell.md).
+Le tableau suivant récapitule les cmdlets Windows PowerShell disponibles pour vous aider à gérer le serveur de conversation permanente. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, voir [Skype Entreprise Server 2015 Management Shell](../management-shell.md).
   
 
 |**Applet de commande**|**Description**|
 |:-----|:-----|
 |New-CsPersistentChatCategory  <br/> |Crée une catégorie  <br/> |
-|Set-CsPersistentChatCategory  <br/> |Configure des paramètres pour une catégorie existante  <br/> |
+|Set-CsPersistentChatCategory  <br/> |Configure les paramètres d’une catégorie existante  <br/> |
 |Get-CsPersistentChatCategory  <br/> |Récupère des informations sur les catégories  <br/> |
 |Remove-CsPersistentChatCategory  <br/> |Supprime une catégorie  <br/> |
 |New-CsPersistentChatRoom  <br/> |Crée une salle de conversation  <br/> |
-|Set-CsPersistentChatRoom  <br/> |Configure des paramètres pour une salle existante ; affecter des utilisateurs et des groupes d’utilisateurs à la salle  <br/> |
-|Get-CsPersistentChatRoom  <br/> |Récupère les informations sur les salles.  <br/> |
-|Clear-CsPersistentChatRoom  <br/> |Efface une salle et les messages d’une salle  <br/> |
+|Set-CsPersistentChatRoom  <br/> |Configure les paramètres d’une salle existante ; affecter des utilisateurs et des groupes d’utilisateurs à la salle  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Récupère des informations sur les salles  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |Effacer une salle ou des messages d’une salle  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |Supprime une salle  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Supprime les messages d’une salle  <br/> |
-|New-CsPersistentChatAddin  <br/> |Crée un complément  <br/> |
-|Set-CsPersistentChatAddin  <br/> |Configure des paramètres pour un complément existant  <br/> |
-|Get-CsPersistentChatAddin  <br/> |Récupère des informations sur les compléments  <br/> |
-|Remove-CsPersistentChatAddin  <br/> |Supprime un complément  <br/> |
-|Set-CsPersistentChatComplianceConfiguration  <br/> |Modifie une collection existante des paramètres de configuration de conformité  <br/> |
-|Export-CsPersistentChatData  <br/> |Exporte les données d’une base de données de conversation permanente.  <br/> |
-|Import-CsPersistentChatData  <br/> |Importe les données qui avaient été exportées d’une version précédente de Lync Server  <br/> |
+|New-CsPersistentChatAddin  <br/> |Crée un nouveau add-in  <br/> |
+|Set-CsPersistentChatAddin  <br/> |Configure les paramètres d’un add-in existant  <br/> |
+|Get-CsPersistentChatAddin  <br/> |Récupère des informations sur les modules complémentaires  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |Supprime un add-in  <br/> |
+|Set-CsPersistentChatComplianceConfiguration  <br/> |Modifie une collection existante de paramètres de configuration de conformité  <br/> |
+|Export-CsPersistentChatData  <br/> |Exporte des données à partir d’une base de données de conversation permanente  <br/> |
+|Import-CsPersistentChatData  <br/> |Importe les données exportées à partir d’une version précédente de Lync Server  <br/> |
    
 

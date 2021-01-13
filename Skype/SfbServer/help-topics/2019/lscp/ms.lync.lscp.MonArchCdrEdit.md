@@ -1,8 +1,8 @@
 ---
-title: Enregistrement des détails de l’appel créer nouveau ou modifier existant
+title: 'Enregistrement des détails des appels : création d’un enregistrement ou modification d’un enregistrement existant'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 21f31565093c842265d52e8383de8314798e68b4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: 4cc910c8278c42c39bafc053130fdc0589e4bada
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796393"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833674"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a>Enregistrement des détails des appels : en créer un autre ou en modifier un existant
+# <a name="call-detail-recording-create-new-or-edit-existing"></a>Enregistrement des détails des appels : création d’un nouveau ou modification d’un enregistrement existant
  
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
   
-- [Activer l’enregistrement des détails des appels dans Skype entreprise Server](../../../manage/health-and-monitoring/enable-cdr.md)
+- [Activer l’enregistrement des détails des appels dans Skype Entreprise Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Spécifier la conservation des données CDR dans Skype entreprise Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Spécifier la conservation des données d’cdr dans Skype Entreprise Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

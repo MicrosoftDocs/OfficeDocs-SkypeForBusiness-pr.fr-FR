@@ -1,8 +1,8 @@
 ---
 title: Table Region
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
-description: La table Region est une table de prise en charge. Chaque enregistrement représente un pays ou une région défini dans les paramètres de configuration réseau.
-ms.openlocfilehash: 8e3a0bbe37b1197bae1f35b8fc2ac05f54c5846d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table Region est une table de prise en charge. Chaque enregistrement représente une région ou un pays défini dans les paramètres de configuration réseau.
+ms.openlocfilehash: fe38d71c433e540a381e87d7952a8eb6d57ecb5b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806222"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834404"
 ---
 # <a name="region-table"></a>Table Region
  
-La table Region est une table de prise en charge. Chaque enregistrement représente un pays ou une région défini dans les paramètres de configuration réseau.
+La table Region est une table de prise en charge. Chaque enregistrement représente une région ou un pays défini dans les paramètres de configuration réseau.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**RegionKey** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant le pays ou la région.  <br/> |
-|**RegionName** <br/> |nvarchar(128  <br/> |Différent  <br/> |Le nom du pays/de la région.  <br/> |
+|**RegionKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification de ce pays ou cette région.  <br/> |
+|**RegionName** <br/> |nvarchar(128)  <br/> |Uniques  <br/> |Nom de ce pays ou cette région.  <br/> |
    
 

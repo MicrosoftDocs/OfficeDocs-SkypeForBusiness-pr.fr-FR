@@ -1,8 +1,8 @@
 ---
-title: Configuration des scénarios du service de journalisation centralisée dans Skype Entreprise Server 2015
+title: Configurer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -13,53 +13,53 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-description: 'Résumé : Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisé dans Skype entreprise Server 2015.'
-ms.openlocfilehash: b7cfcbc85df7d66374d2bf33d572b9e91b30edde
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: 8778530826cdbd0c3ecc5128385644f2191a858e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816593"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835184"
 ---
-# <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configuration des scénarios du service de journalisation centralisée dans Skype Entreprise Server 2015
+# <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisé dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015.
   
-Les scénarios définissent l’étendue (c’est-à-dire, le site, le pool ou l’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisé. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Si vous constatez qu’un scénario doit être modifié en fonction de vos besoins en matière de résolution des problèmes et de journalisation, les outils de débogage de Skype entreprise Server 2015 vous fournissent un module Windows PowerShell intitulé ClsScenarioEdit. psm1 qui contient une fonction namedEdit-CsClsScenario. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Téléchargez les [outils de débogage](https://go.microsoft.com/fwlink/p/?LinkId=285257) de Skype entreprise Server 2015 avant d’aller plus loin.
+Les scénarios définissent l’étendue (globale, de site, de pool ou d’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisée. À l’aide de scénarios, vous activez ou désactivez le suivi des fournisseurs (par exemple, S4, SIPStack, messagerie instantanée et présence). En configurant un scénario, vous pouvez regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique. Si vous trouvez qu’un scénario doit être modifié pour répondre à vos besoins de dépannage et de journalisation, les outils de débogage de Skype Entreprise Server 2015 vous fournissent un module Windows PowerShell nommé ClsScenarioEdit.psm1 qui contient une fonction nomméeEdit-CsClsScenario. Grâce à ce module, vous pouvez modifier les propriétés du scénario nommé. Des exemples d’utilisation de ce module sont fournis dans cette rubrique. Téléchargez les outils de débogage de Skype Entreprise Server 2015 [](https://go.microsoft.com/fwlink/p/?LinkId=285257) avant d’aller plus loin.
   
 > [!IMPORTANT]
-> Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios actuellement en cours d’exécution, utilisez Windows PowerShell et [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). L’utilisation de Windows PowerShell et [de Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)vous permet de changer dynamiquement les scénarios qui s’exécutent. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues. 
+> Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). En utilisant Windows PowerShell [et Set-CsClsScenario,](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues. 
   
-Pour exécuter les fonctions de service de journalisation centralisées à l’aide de Skype entreprise Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande, y compris les rôles RBAC personnalisés que vous avez créés vous-même, exécutez la commande suivante à partir de Skype entreprise Server Management Shell ou de l’invite Windows PowerShell :
+Pour exécuter les fonctions du service de journalisation centralisée à l’aide de Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet, y compris les rôles RBAC personnalisés que vous avez créés vous-même, exécutez la commande suivante à partir de Skype Entreprise Server Management Shell ou de l’invite Windows PowerShell :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-Exemple :
+Par exemple :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-Le reste de cette rubrique porte sur la façon de définir, de modifier, de supprimer un scénario, de récupérer des scénarios en cours dʼexécution et de spécifier les éléments dʼun scénario afin dʼoptimiser la résolution de problèmes. Vous pouvez utiliser Skype entreprise Server Management Shell pour exécuter les commandes Windows PowerShell. Lorsque vous utilisez Windows PowerShell, vous pouvez définir de nouveaux scénarios à utiliser dans vos sessions de journalisation.
+Le reste de cette rubrique met l’accent sur la définition d’un scénario, la modification d’un scénario, la récupération des scénarios en cours d’exécution, la suppression d’un scénario et la spécification du contenu d’un scénario afin d’optimiser votre dépannage. Vous pouvez utiliser Skype Entreprise Server Management Shell pour émettre Windows PowerShell commandes. Lorsque vous utilisez Windows PowerShell, vous pouvez définir de nouveaux scénarios à utiliser dans vos sessions de journalisation.
   
-Comme nous l’avons introduit dans le [service de journalisation centralisée de Skype entreprise 2015](centralized-logging-service.md), les éléments d’un scénario sont les suivants :
+Comme introduit dans le service de journalisation centralisée dans Skype Entreprise [2015,](centralized-logging-service.md)les éléments d’un scénario sont les suivants :
   
-- **Fournisseurs** Si vous avez l’habitude d’utiliser OCSLogger, les fournisseurs sont les composants que vous choisissez pour indiquer à OCSLogger ce sur quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques du rôle serveur, que le service de journalisation centralisé peut collecter dans les journaux. Pour plus d’informations sur la configuration des fournisseurs, voir [configurer des fournisseurs pour le service de journalisation centralisé dans Skype entreprise Server 2015](configure-providers.md).
+- **Fournisseurs** Si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez d’indiquer à OCSLogger à partir de quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques au rôle de serveur à partir desse que le service de journalisation centralisée peut collecter des journaux. Pour plus d’informations sur la configuration des fournisseurs, voir [Configure providers for Centralized Logging Service in Skype for Business Server 2015](configure-providers.md).
     
-- **Identité** Le paramètre-Identity définit l’étendue et le nom du scénario. Par exemple, vous pouvez définir une étendue de « global » et identifier le scénario avec « LyssServiceScenario ». Lorsque vous combinez les deux, vous définissez l’identité (par exemple, « Global/LyssServiceScenario »).
+- **Identité** Le paramètre -Identity définit l’étendue et le nom du scénario. Par exemple, vous pouvez définir une étendue « globale » et identifier le scénario avec « LyssServiceScenario ». Lorsque vous combinez les deux, vous définissez l’identité (par exemple, « global/LyssServiceScenario »).
     
-    Vous pouvez également utiliser les paramètres-nom et parent. Le paramètre Name permet d’identifier le scénario de manière unique. Si vous utilisez Name, vous devez également utiliser Parent pour ajouter le scénario à global ou site. 
+    Si vous le souhaitez, vous pouvez utiliser les paramètres -Name et -Parent. Le paramètre Name permet d’identifier le scénario de manière unique. Si vous utilisez Name, vous devez également utiliser Parent pour ajouter le scénario à global ou site. 
     
     > [!IMPORTANT]
-    > Si vous utilisez les paramètres nom et parent, vous ne pouvez pas utiliser le paramètre **-Identity** .
+    > Si vous utilisez les paramètres Name et Parent, vous ne pouvez pas utiliser le **paramètre -Identity.**
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Pour créer un scénario avec l’applet de commande New-CsClsScenario
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-2. Pour créer un nouveau scénario pour une session de journalisation, utilisez [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) et définissez le nom du scénario (cʼest-à-dire comment il va être identifié de manière unique). Choisissez un type de format de journalisation dans WPP (cʼest-à-dire le préprocesseur de suivi Windows défini par défaut), EventLog (format de journal des événements Windows) ou IISLog (fichier au format ASCII basé sur le format de fichier journal IIS). Ensuite, définissez Level (voir la définition sous Niveaux de journalisation de cette rubrique) et Flags (voir la définition sous Indicateurs dans cette rubrique).
+2. Pour créer un scénario pour une session de journalisation, utilisez [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) et définissez le nom du scénario (c’est-à-dire comment il va être identifié de manière unique). Choisissez un type de format de journalisation : vous avez le choix entre WPP (préprocesseur de suivi de logiciel Windows ; la valeur par défaut), EventLog (format de journal des événements Windows) et IISLog (fichier au format ASCII basé sur le format du fichier journal IIS). Ensuite, définissez Level (voir la définition sous Niveaux de journalisation dans cette rubrique) et Flags (voir la définition sous Indicateurs dans cette rubrique).
     
     Dans cet exemple de scénario, nous utilisons LyssProvider comme exemple de variable de fournisseur.
     
@@ -69,13 +69,13 @@ Comme nous l’avons introduit dans le [service de journalisation centralisée d
    New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
    ```
 
-    Exemple :
+    Par exemple :
     
    ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
-    Le format alternatif utilise-Name et-parent :
+    Autre format utilisant -Name et -Parent :
     
    ```PowerShell
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
@@ -83,22 +83,22 @@ Comme nous l’avons introduit dans le [service de journalisation centralisée d
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>Pour créer un scénario avec plusieurs fournisseurs à l’aide de l’applet de commande New-CsClsScenario
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-2. Vous êtes limité à deux scénarios par étendue. Cependant, le nombre de fournisseurs n’est pas limité. Dans cet exemple, supposons que vous avez créé trois fournisseurs et que vous souhaitez les affecter tous les trois au scénario que vous définissez. Les noms des variables de fournisseur sont LyssProvider, ABServerProvider et SIPStackProvider. Pour définir et affecter plusieurs fournisseurs à un scénario, tapez ce qui suit dans une invite de commandes Skype entreprise Server Management Shell ou Windows PowerShell :
+2. Vous êtes limité à deux scénarios par étendue. Cependant, le nombre de fournisseurs n’est pas limité. Dans cet exemple, supposons que vous avez créé trois fournisseurs et que vous souhaitez les affecter tous les trois au scénario que vous définissez. Les noms des variables de fournisseur sont LyssProvider, ABServerProvider et SIPStackProvider. Pour définir et affecter plusieurs fournisseurs à un scénario, tapez ce qui suit à l’invite de commandes Skype Entreprise Server Management Shell ou Windows PowerShell commande suivante :
     
    ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
     > [!NOTE]
-    > Comme il est connu dans Windows PowerShell, la Convention de création d’une table de hachage de `@{<variable>=<value1>, <value2>, <value>…}` valeurs à l’aide de assplatting est connue. Pour plus d’informations sur la projection dans Windows PowerShell, [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760)reportez-vous à la rubrique. 
+    > Comme il est connu dans Windows PowerShell, la convention de création d’une table de hachage de valeurs à l’aide est appelée  `@{<variable>=<value1>, <value2>, <value>…}` « platting ». Pour plus d’informations sur la splatting dans Windows PowerShell, voir [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760) . 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Pour modifier un scénario existant avec l’applet de commande Set-CsClsScenario
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-2. Vous êtes limité à deux scénarios par étendue. Vous pouvez modifier les scénarios qui s’ exécutent à tout moment, même lorsqu’une session de capture de journalisation est en cours. Si vous redéfinissez les scénarios en cours d’exécution, la session de journalisation actuelle cesse d’utiliser le scénario qui a été supprimé et utilise ensuite le nouveau scénario. Toutefois, les informations de journalisation qui ont été capturées avec le scénario supprimé sont conservées dans les journaux capturés. Pour définir un nouveau scénario, procédez comme suit (en partant du principe que l’ajout d’un fournisseur déjà défini appelé « S4Provider ») :
+2. Vous êtes limité à deux scénarios par étendue. Vous pouvez modifier les scénarios qui s’ exécutent à tout moment, même lorsqu’une session de capture de journalisation est en cours. Si vous redéfinissez les scénarios en cours d’exécution, la session de journalisation actuelle cesse d’utiliser le scénario qui a été supprimé et utilise ensuite le nouveau scénario. Toutefois, les informations de journalisation qui ont été capturées avec le scénario supprimé sont conservées dans les journaux capturés. Pour définir un nouveau scénario, faites ce qui suit (autrement dit, en supposant l’ajout d’un fournisseur déjà défini nommé « S4Provider » ) :
     
    ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
@@ -130,7 +130,7 @@ Comme nous l’avons introduit dans le [service de journalisation centralisée d
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Pour supprimer un scénario existant avec l’applet de commande Remove-CsClsScenario
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
 2. Si vous souhaitez supprimer un scénario précédemment défini, tapez ce qui suit :
     
@@ -145,21 +145,21 @@ Comme nous l’avons introduit dans le [service de journalisation centralisée d
    ```
 
 L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié, mais vous pouvez toujours accéder aux suivis capturés dans les journaux et lancer des recherches dans ceux-ci.
-### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Pour charger et décharger l’applet de commande Edit-CsClsScenario à l’aide du module ClsScenarioEdit.psm1
+### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Pour charger et décharger lEdit-CsClsScenario cmdlet à l’aide du module ClsScenarioEdit.psm1
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
     > [!IMPORTANT]
-    > Le module ClsScenarioEdit.psm1 est fourni sous forme d’un téléchargement web distinct. Le module fait partie des outils de débogage de Skype entreprise Server 2015. Par défaut, les outils de débogage sont installés dans le répertoire C:\Program Files\Skype for Business Server 2015\Debugging Tools. 
+    > Le module ClsScenarioEdit.psm1 est fourni en tant que téléchargement Web distinct. Le module fait partie des outils de débogage de Skype Entreprise Server 2015. Par défaut, les outils de débogage sont installés dans le répertoire C:\Program Files\Skype for Business Server 2015\Debugging Tools. 
   
-2. Dans Windows PowerShell, tapez :
+2. Dans la Windows PowerShell, tapez :
     
    ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
     > [!TIP]
-    > Le chargement réussi du module vous renvoie à l’invite de commandes Windows PowerShell. Pour vérifier que le module est chargé et que Edit-CsClsScenario est disponible, tapez `Get-Help Edit-CsClsScenario`. Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître. 
+    > Le chargement réussi du module vous renvoie à l’invite Windows PowerShell commande. Pour confirmer que le module est chargé et que Edit-CsClsScenario est disponible, tapez  `Get-Help Edit-CsClsScenario` . Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître. 
   
 3. Pour décharger les modules, tapez :
     
@@ -168,20 +168,20 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
    ```
 
     > [!TIP]
-    > Le déchargement réussi du module revient à l’invite de commandes Windows PowerShell. Pour vérifier que le module est déchargé, tapez `Get-Help Edit-CsClsScenario`. Windows PowerShell tente de Rechercher l’aide de l’applet de cmdlet et échoue. 
+    > Le déchargement réussi du module vous renvoie à l’invite Windows PowerShell commande. Pour confirmer que le module est déchargé, tapez  `Get-Help Edit-CsClsScenario` . Windows PowerShell tenteront de trouver l’aide de la cmdlet et échoueront. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Pour supprimer un fournisseur existant d’un scénario avec le module Edit-ClsController
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-2. Dans Windows PowerShell, tapez :
+2. Dans la Windows PowerShell, tapez :
     
    ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
     > [!TIP]
-    > Le chargement réussi du module vous renvoie à l’invite de commandes Windows PowerShell. Pour vérifier que le module est chargé et que Edit-CsClsScenario est disponible, tapez `Get-Help Edit-CsClsScenario`. Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître. 
+    > Le chargement réussi du module vous renvoie à l’invite Windows PowerShell commande. Pour confirmer que le module est chargé et que Edit-CsClsScenario est disponible, tapez  `Get-Help Edit-CsClsScenario` . Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître. 
   
 3. Pour supprimer un fournisseur du scénario AlwaysOn, tapez :
     
@@ -201,11 +201,11 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
-   La mise en place de valeurs de paramètres ne s’applique qu’aux fournisseurs. Tous les autres paramètres doivent être définis explicitement.
+   Le placement positionnel des valeurs de paramètre s’applique uniquement à -Scenario et -Provider. Tous les autres paramètres doivent être définis explicitement.
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Pour ajouter un fournisseur à un scénario avec le module Edit-ClsController
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
 2. Pour ajouter un fournisseur au scénario AlwaysOn, tapez :
     
@@ -219,7 +219,7 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    -Loglevel peut être du type Fatal, Error, Warning, Info, Verbose, Debug ou All. -Les indicateurs peuvent être tout indicateur pris en charge par le fournisseur (par exemple, TF_COMPONENT TF_DIAG. -LES indicateurs peuvent également être de valeurs
+    -Loglevel peut être du type Fatal, Error, Warning, Info, Verbose, Debug ou All. -Flags peut être l’un des indicateurs que le fournisseur prend en charge, tels que TF_COMPONENT, TF_DIAG. -Flags peut également être de valeur ALL
     
    Il est aussi possible de taper l’exemple précédent à l’aide de la fonctionnalité positionnelle de l’applet de commande. Par exemple, pour ajouter le fournisseur ChatServer au scénario AlwaysOn, tapez :
     
