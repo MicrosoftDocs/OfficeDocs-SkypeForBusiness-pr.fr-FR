@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’ordinateur
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,27 +15,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Ce nœud indique le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: b14b3a03a5ac1d7fe9432e169e885c51231a92e6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 13661a59712bb59c608cb706e0e5592d3800da1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217578"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803274"
 ---
-# <a name="machine-scope-node"></a><span data-ttu-id="105a1-104">Nœud d’étendue d’ordinateur</span><span class="sxs-lookup"><span data-stu-id="105a1-104">Machine Scope Node</span></span>
+# <a name="machine-scope-node"></a><span data-ttu-id="e4aaf-104">Nœud d’étendue d’ordinateur</span><span class="sxs-lookup"><span data-stu-id="e4aaf-104">Machine Scope Node</span></span>
  
-<span data-ttu-id="105a1-p102">Ce nœud indique le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="105a1-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
+<span data-ttu-id="e4aaf-p102">Ce nœud indique le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="e4aaf-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="105a1-p103">**Modifier les propriétés** Ouvre la page **Modifier les propriétés** pour ce serveur, où vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas encore publiée), et la configuration de l’adresse IP du serveur.</span><span class="sxs-lookup"><span data-stu-id="105a1-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
+- <span data-ttu-id="e4aaf-p103">**Modifier les propriétés** Ouvre la page **Modifier les propriétés** pour ce serveur, où vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas encore publiée), et la configuration de l’adresse IP du serveur.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
     
-- <span data-ttu-id="105a1-p104">**Supprimer**. Supprime le serveur de la topologie.</span><span class="sxs-lookup"><span data-stu-id="105a1-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="e4aaf-p104">**Supprimer**. Supprime le serveur de la topologie.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="105a1-111">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="105a1-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="e4aaf-111">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="e4aaf-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="105a1-112">**Topologie**.</span><span class="sxs-lookup"><span data-stu-id="105a1-112">**Topology**.</span></span> <span data-ttu-id="105a1-113">Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="105a1-113">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="e4aaf-112">**Topologie**.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-112">**Topology**.</span></span> <span data-ttu-id="e4aaf-113">Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-113">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="105a1-p106">**Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="105a1-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="e4aaf-p106">**Afficher**. Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="105a1-p107">**Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.</span><span class="sxs-lookup"><span data-stu-id="105a1-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="e4aaf-p107">**Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.</span><span class="sxs-lookup"><span data-stu-id="e4aaf-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

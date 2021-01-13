@@ -1,8 +1,8 @@
 ---
 title: Ajouter le nom du site
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a996f35-96e0-4370-ac28-869631611e03
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour définir le premier site dans votre déploiement, spécifiez le nom du premier site. Vous pouvez également spécifier une description pour le premier site.
-ms.openlocfilehash: 4305156f56e7b5a18b0fa5007e5b8f0b21b4c9ed
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour définir le premier site dans votre déploiement, spécifiez son nom. Vous pouvez éventuellement ajouter une description du premier site.
+ms.openlocfilehash: f03938d6d9df6feb40b572de3f8901787e544e27
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798001"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807594"
 ---
-# <a name="add-site-name"></a><span data-ttu-id="b7ffc-104">Ajouter le nom du site</span><span class="sxs-lookup"><span data-stu-id="b7ffc-104">Add Site Name</span></span>
+# <a name="add-site-name"></a><span data-ttu-id="7d870-104">Ajouter le nom du site</span><span class="sxs-lookup"><span data-stu-id="7d870-104">Add Site Name</span></span>
  
-<span data-ttu-id="b7ffc-105">Pour définir le premier site dans votre déploiement, spécifiez le nom du premier site.</span><span class="sxs-lookup"><span data-stu-id="b7ffc-105">To define the first site in your deployment, specify the name of the first site.</span></span> <span data-ttu-id="b7ffc-106">Vous pouvez également spécifier une description pour le premier site.</span><span class="sxs-lookup"><span data-stu-id="b7ffc-106">Optionally, you can specify a description for the first site.</span></span>
+<span data-ttu-id="7d870-p102">Pour définir le premier site dans votre déploiement, spécifiez son nom. Vous pouvez éventuellement ajouter une description du premier site.</span><span class="sxs-lookup"><span data-stu-id="7d870-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
   
 

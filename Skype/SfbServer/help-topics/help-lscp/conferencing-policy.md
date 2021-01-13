@@ -1,8 +1,8 @@
 ---
 title: Stratégie de conférence
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,69 +14,69 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
-description: La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion).
+ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823027"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807394"
 ---
-# <a name="conferencing-policy"></a><span data-ttu-id="7ed48-103">Stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="7ed48-103">Conferencing Policy</span></span>
+# <a name="conferencing-policy"></a><span data-ttu-id="6c0dc-103">Stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="6c0dc-103">Conferencing Policy</span></span>
 
-<span data-ttu-id="7ed48-104">La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).</span><span class="sxs-lookup"><span data-stu-id="7ed48-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
+<span data-ttu-id="6c0dc-104">Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion).</span><span class="sxs-lookup"><span data-stu-id="6c0dc-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
 
-<span data-ttu-id="7ed48-105">Les stratégies de conférence incluent la stratégie globale et, si vous le souhaitez, une ou plusieurs stratégies de site et d’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="7ed48-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
+<span data-ttu-id="6c0dc-105">Les stratégies de conférence incluent la stratégie globale, ainsi qu’éventuellement une ou plusieurs stratégies de site et utilisateur :</span><span class="sxs-lookup"><span data-stu-id="6c0dc-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
 
-- <span data-ttu-id="7ed48-106">**Politique globale :** La stratégie globale est créée par défaut.</span><span class="sxs-lookup"><span data-stu-id="7ed48-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="7ed48-107">Vous pouvez modifier la stratégie globale sans pouvoir la supprimer.</span><span class="sxs-lookup"><span data-stu-id="7ed48-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="7ed48-108">Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.</span><span class="sxs-lookup"><span data-stu-id="7ed48-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
+- <span data-ttu-id="6c0dc-106">**Stratégie globale :** La stratégie globale est créée par défaut.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="6c0dc-107">Vous pouvez modifier la stratégie globale mais vous ne pouvez pas la supprimer.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="6c0dc-108">Si vous essayez de supprimer la stratégie globale, toutes les valeurs par défaut des paramètres sont réinitialisées.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
 
-- <span data-ttu-id="7ed48-109">**Stratégies de site (facultatif) :** Vous pouvez créer une ou plusieurs stratégies de conférences de site qui s’appliquent à un site spécifique.</span><span class="sxs-lookup"><span data-stu-id="7ed48-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="7ed48-110">Les stratégies de site remplacent la stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="7ed48-110">Site policies override the global policy.</span></span>
+- <span data-ttu-id="6c0dc-109">**Stratégies de site (facultatives) :** Vous pouvez créer une ou plusieurs stratégies de conférence de site, chacune s’applique à un site spécifique.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="6c0dc-110">Les stratégies de site remplacent la stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-110">Site policies override the global policy.</span></span>
 
-- <span data-ttu-id="7ed48-111">**Stratégies utilisateur (facultatif) :** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="7ed48-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="7ed48-112">Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.</span><span class="sxs-lookup"><span data-stu-id="7ed48-112">User policies override the global policy and site policies.</span></span>
+- <span data-ttu-id="6c0dc-111">**Stratégies utilisateur (facultatives) :** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur, chacune s’applique à un utilisateur ou à un groupe d’utilisateurs spécifique.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="6c0dc-112">Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-112">User policies override the global policy and site policies.</span></span>
 
-<span data-ttu-id="7ed48-113">La page **stratégie de conférence** affiche la liste de toutes les stratégies de conférence définies pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="7ed48-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
+<span data-ttu-id="6c0dc-113">La page **Stratégie de conférence** affiche la liste de toutes les stratégies de conférence définies pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="7ed48-114">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="7ed48-114">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="6c0dc-114">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="6c0dc-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="7ed48-115">Dans la page **Stratégie d’emplacement**, vous pouvez effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="7ed48-115">You can perform the following tasks from the **Location Policy** page:</span></span>
+<span data-ttu-id="6c0dc-115">Vous pouvez effectuer les tâches suivantes à partir de la page **Stratégie d’emplacement** :</span><span class="sxs-lookup"><span data-stu-id="6c0dc-115">You can perform the following tasks from the **Location Policy** page:</span></span>
 
-- <span data-ttu-id="7ed48-116">Créer une stratégie de conférence de sites ou une stratégie de conférence utilisateur</span><span class="sxs-lookup"><span data-stu-id="7ed48-116">Create a new site conferencing policy or user conferencing policy</span></span>
+- <span data-ttu-id="6c0dc-116">Créer une nouvelle stratégie de conférence de site ou stratégie de conférence utilisateur</span><span class="sxs-lookup"><span data-stu-id="6c0dc-116">Create a new site conferencing policy or user conferencing policy</span></span>
 
-- <span data-ttu-id="7ed48-117">Modification de la stratégie globale, d’une stratégie de site ou d’une stratégie utilisateur existante</span><span class="sxs-lookup"><span data-stu-id="7ed48-117">Change the global policy or an existing site policy or user policy</span></span>
+- <span data-ttu-id="6c0dc-117">Modifier la stratégie globale ou une stratégie de site ou stratégie utilisateur existante</span><span class="sxs-lookup"><span data-stu-id="6c0dc-117">Change the global policy or an existing site policy or user policy</span></span>
 
-- <span data-ttu-id="7ed48-118">Suppression d’une stratégie de site ou d’une stratégie utilisateur</span><span class="sxs-lookup"><span data-stu-id="7ed48-118">Delete a site policy or user policy</span></span>
+- <span data-ttu-id="6c0dc-118">Supprimer une stratégie de site ou une stratégie utilisateur</span><span class="sxs-lookup"><span data-stu-id="6c0dc-118">Delete a site policy or user policy</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="7ed48-119">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="7ed48-119">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="6c0dc-119">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="6c0dc-119">UI Reference</span></span>
 
-<span data-ttu-id="7ed48-120">La liste ci-dessous décrit les commandes de la page.</span><span class="sxs-lookup"><span data-stu-id="7ed48-120">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="6c0dc-120">La liste suivante décrit les commandes de la page.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-120">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="7ed48-121">**Nouvelle** Démarre une nouvelle stratégie de conférence de sites ou une stratégie de conférence utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7ed48-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
+- <span data-ttu-id="6c0dc-121">**Nouveau** Démarre une nouvelle stratégie de conférence de site ou de conférence utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
 
-- <span data-ttu-id="7ed48-122">**Modifier** Permet d’ouvrir la stratégie de conférence sélectionnée et de la modifier, de sélectionner toutes les stratégies de conférence dans la liste, ou de supprimer la stratégie de site ou la stratégie d’utilisateur sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="7ed48-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
+- <span data-ttu-id="6c0dc-122">**Modifier** Ouvre la stratégie de conférence sélectionnée pour la modifier, sélectionne toutes les stratégies de conférence dans la liste ou supprime la stratégie de site ou la stratégie utilisateur sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="7ed48-123">Pour la stratégie globale, l’option **Supprimer** restaure les valeurs par défaut des paramètres.</span><span class="sxs-lookup"><span data-stu-id="7ed48-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
+    > <span data-ttu-id="6c0dc-123">Pour la stratégie globale, **Supprimer** rétablit les valeurs par défaut des paramètres.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
 
-- <span data-ttu-id="7ed48-124">**Actualiser** Actualise la liste des stratégies de conférence.</span><span class="sxs-lookup"><span data-stu-id="7ed48-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
+- <span data-ttu-id="6c0dc-124">**Actualiser** Actualise la liste des stratégies de conférence.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
 
-<span data-ttu-id="7ed48-125">La liste ci-dessous décrit les champs de la page.</span><span class="sxs-lookup"><span data-stu-id="7ed48-125">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="6c0dc-125">La liste suivante décrit les champs de la page.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-125">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="7ed48-126">**Nom** Identifie la stratégie de conférence.</span><span class="sxs-lookup"><span data-stu-id="7ed48-126">**Name** Identifies the conferencing policy.</span></span>
+- <span data-ttu-id="6c0dc-126">**Nom** Identifie la stratégie de conférence.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-126">**Name** Identifies the conferencing policy.</span></span>
 
-- <span data-ttu-id="7ed48-127">**Scope** Identifie l’étendue de la stratégie de conférence : global, site ou utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7ed48-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
+- <span data-ttu-id="6c0dc-127">**Étendue** Identifie l’étendue de la stratégie de conférence : globale, de site ou d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
 
-- <span data-ttu-id="7ed48-128">**Collaboration** sur les données Activé si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="7ed48-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
+- <span data-ttu-id="6c0dc-128">**Collaboration de données** Vérifié si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
 
-- <span data-ttu-id="7ed48-129">**Partage d’application** Activé si la stratégie de conférence spécifie que le partage d’application est autorisé lors de conférences.</span><span class="sxs-lookup"><span data-stu-id="7ed48-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
+- <span data-ttu-id="6c0dc-129">**Partage d’application** Cette vérification indique si la stratégie de conférence spécifie que le partage d’application est autorisé dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
 
-- <span data-ttu-id="7ed48-130">**Audio** Activé si la stratégie de conférence spécifie que le son est autorisé lors des conférences.</span><span class="sxs-lookup"><span data-stu-id="7ed48-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
+- <span data-ttu-id="6c0dc-130">**Audio** Cette vérification est vérifiée si la stratégie de conférence spécifie que l’audio est autorisé dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
 
-- <span data-ttu-id="7ed48-131">**Vidéo** Activé si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="7ed48-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
+- <span data-ttu-id="6c0dc-131">**Vidéo** Cette vérification est vérifiée si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
 
-- <span data-ttu-id="7ed48-132">**RTC** Activé si la stratégie de conférence spécifie que la Conférence rendez-vous RTC est autorisée.</span><span class="sxs-lookup"><span data-stu-id="7ed48-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
+- <span data-ttu-id="6c0dc-132">**PSTN** Cette vérification indique si la stratégie de conférence indique que la conférence d’accès PSTN est autorisée.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
 
-- <span data-ttu-id="7ed48-133">**Enregistrement** en Activé si la stratégie de conférence spécifie que l’enregistrement est autorisé lors de conférences.</span><span class="sxs-lookup"><span data-stu-id="7ed48-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
+- <span data-ttu-id="6c0dc-133">**Enregistrement** Cette vérification indique si la stratégie de conférence spécifie que l’enregistrement est autorisé dans les conférences.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
 
-<span data-ttu-id="7ed48-p104">Pour plus d’informations sur les fonctionnalités et les fonctions de conférence, reportez-vous à la rubrique [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, reportez-vous à la rubrique [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) de la documentation des opérations.</span><span class="sxs-lookup"><span data-stu-id="7ed48-p104">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation. For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="6c0dc-134">Pour plus d’informations sur les fonctionnalités de conférence, voir [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-134">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation.</span></span> <span data-ttu-id="6c0dc-135">Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) dans la documentation des opérations.</span><span class="sxs-lookup"><span data-stu-id="6c0dc-135">For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
 
 

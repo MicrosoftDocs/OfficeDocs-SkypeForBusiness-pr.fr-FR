@@ -1,8 +1,8 @@
 ---
 title: Ajouter un serveur de surveillance
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour incorporer un serveur de surveillance dans votre conception topologique, vous devez spécifier le nom de domaine complet (FQDN) du serveur sur lequel vous voulez déployer le serveur de surveillance. Avant de publier une topologie incluant le serveur de surveillance et l’installation de Skype entreprise Server sur le serveur, vous devez effectuer toutes les conditions préalables pour le déploiement de la surveillance. Pour plus d’informations sur ces conditions préalables, reportez-vous à la rubrique Deploying Monitoring de la documentation de déploiement.
-ms.openlocfilehash: af923f66ced706e7123c9537ada2716a786d3886
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour incorporer un serveur de surveillance dans la conception de votre topologie, vous devez spécifier le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez déployer le serveur de surveillance. Avant de publier une topologie qui inclut le serveur de surveillance et d’installer Skype Entreprise Server sur le serveur, vous devez remplir toutes les conditions préalables au déploiement de la surveillance. Pour plus d'informations sur ces conditions requises, voir Déploiement de la surveillance dans la documentation de déploiement.
+ms.openlocfilehash: d820b9e757eec084d0d09b12bbf68268b46d0492
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807714"
 ---
-# <a name="add-monitoring-server"></a><span data-ttu-id="70b37-105">Ajouter un serveur de surveillance</span><span class="sxs-lookup"><span data-stu-id="70b37-105">Add Monitoring Server</span></span>
+# <a name="add-monitoring-server"></a><span data-ttu-id="dbe6f-105">Ajouter un serveur de surveillance</span><span class="sxs-lookup"><span data-stu-id="dbe6f-105">Add Monitoring Server</span></span>
 
-<span data-ttu-id="70b37-106">Pour incorporer un serveur de surveillance dans votre conception topologique, vous devez spécifier le nom de domaine complet (FQDN) du serveur sur lequel vous voulez déployer le serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="70b37-106">To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server.</span></span> <span data-ttu-id="70b37-107">Avant de publier une topologie incluant le serveur de surveillance et l’installation de Skype entreprise Server sur le serveur, vous devez effectuer toutes les conditions préalables pour le déploiement de la surveillance.</span><span class="sxs-lookup"><span data-stu-id="70b37-107">Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring.</span></span> <span data-ttu-id="70b37-108">Pour plus d’informations sur ces conditions préalables, reportez-vous à la rubrique [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) de la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="70b37-108">For details about these prerequisites, see [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="dbe6f-106">Pour incorporer un serveur de surveillance dans la conception de votre topologie, vous devez spécifier le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez déployer le serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="dbe6f-106">To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server.</span></span> <span data-ttu-id="dbe6f-107">Avant de publier une topologie qui inclut le serveur de surveillance et d’installer Skype Entreprise Server sur le serveur, vous devez remplir toutes les conditions préalables au déploiement de la surveillance.</span><span class="sxs-lookup"><span data-stu-id="dbe6f-107">Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring.</span></span> <span data-ttu-id="dbe6f-108">Pour plus d'informations sur ces conditions requises, voir [Déploiement de la surveillance](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="dbe6f-108">For details about these prerequisites, see [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in the Deployment documentation.</span></span>
 
 

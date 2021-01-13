@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (géographie)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page informations géographiques demande des informations supplémentaires sur la demande de certificat. Dans cette page, sélectionnez Country (pays), puis tapez State/Province et City/localization dans une zone de texte. Notez que vous ne devez pas utiliser d’abréviations et que vous devez indiquer le nom complet de l’état/la région et la ville/localité.
-ms.openlocfilehash: a23a7398479378d8289f139795c1e6cc5bec1047
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La page Informations géographiques  demande des informations supplémentaires pour la demande de certificat. Sur cette page, sélectionnez Pays, puis tapez votre Département/province et votre Ville/localité dans une zone de texte. Notez que vous ne devez pas utiliser des abréviations mais devez écrire le nom complet du département/de la province et de la ville/localité.
+ms.openlocfilehash: 64e110126cac5a5e192f5d04383f3a85fcac58e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796715"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808834"
 ---
-# <a name="certificate-request-geography"></a><span data-ttu-id="f192d-105">Demande de certificat (géographie)</span><span class="sxs-lookup"><span data-stu-id="f192d-105">Certificate Request (Geography)</span></span>
+# <a name="certificate-request-geography"></a><span data-ttu-id="7e6d5-105">Demande de certificat (géographie)</span><span class="sxs-lookup"><span data-stu-id="7e6d5-105">Certificate Request (Geography)</span></span>
  
-<span data-ttu-id="f192d-106">La page **informations géographiques** demande des informations supplémentaires sur la demande de certificat.</span><span class="sxs-lookup"><span data-stu-id="f192d-106">The **Geographical Information** page requests additional information for the certificate request.</span></span> <span data-ttu-id="f192d-107">Dans cette page, sélectionnez **Country (pays**), puis tapez **State/Province** et **City/localization** dans une zone de texte.</span><span class="sxs-lookup"><span data-stu-id="f192d-107">On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box.</span></span> <span data-ttu-id="f192d-108">Notez que vous ne devez pas utiliser d’abréviations et que vous devez indiquer le nom complet de l’état/la région et la ville/localité.</span><span class="sxs-lookup"><span data-stu-id="f192d-108">Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
+<span data-ttu-id="7e6d5-p102">La page **Informations géographiques** demande des informations supplémentaires pour la demande de certificat. Sur cette page, sélectionnez **Pays**, puis tapez votre **Département/province** et votre **Ville/localité** dans une zone de texte. Notez que vous ne devez pas utiliser des abréviations mais devez écrire le nom complet du département/de la province et de la ville/localité.</span><span class="sxs-lookup"><span data-stu-id="7e6d5-p102">The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
   
 

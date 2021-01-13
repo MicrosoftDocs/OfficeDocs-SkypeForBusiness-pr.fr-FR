@@ -1,8 +1,8 @@
 ---
 title: Schéma de base de données de conversation permanente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,41 +12,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: Ce document décrit le schéma de la base de données de conversation permanente dans Skype entreprise Server.
-ms.openlocfilehash: b042f4490648760f4750e45fa1e35e032a8bf8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.
+ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814742"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809874"
 ---
-# <a name="persistent-chat-database-schema"></a><span data-ttu-id="bece3-103">Schéma de base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="bece3-103">Persistent Chat database schema</span></span>
+# <a name="persistent-chat-database-schema"></a><span data-ttu-id="1d8fa-103">Schéma de base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="1d8fa-103">Persistent Chat database schema</span></span>
  
-<span data-ttu-id="bece3-104">Ce document décrit le schéma de la base de données de conversation permanente dans Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="bece3-104">This documents the schema of the Persistent Chat database in Skype for Business Server.</span></span>
+<span data-ttu-id="1d8fa-104">Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-104">This documents the schema of the Persistent Chat database in Skype for Business Server.</span></span>
   
-<span data-ttu-id="bece3-105">La base de données de chat permanent fait référence à la base de données qui correspond au rôle de serveur principal de Skype entreprise Server **PersistentChatStore** (correspondant à la base de données MGC) et **PersistentChatComplianceStore** (qui correspond à la base de données mgccomp).</span><span class="sxs-lookup"><span data-stu-id="bece3-105">The Persistent Chat database refers to the database corresponding to the Skype for Business Server Back End Server roles **PersistentChatStore** (corresponding to the mgc database) and **PersistentChatComplianceStore** (corresponding to the mgccomp database).</span></span> <span data-ttu-id="bece3-106">L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.</span><span class="sxs-lookup"><span data-stu-id="bece3-106">The goal of publishing this schema is to enable you to build queries and gain some insights into building useful reporting around chat usage, active rooms, top posters, and so on.</span></span>
+<span data-ttu-id="1d8fa-105">La base de données de conversation permanente fait référence à la base de données correspondant aux rôles serveur principal Skype Entreprise Server **PersistentChatStore** (correspondant à la base de données mgc) et **PersistentChatComplianceStore** (correspondant à la base de données mgccomp).</span><span class="sxs-lookup"><span data-stu-id="1d8fa-105">The Persistent Chat database refers to the database corresponding to the Skype for Business Server Back End Server roles **PersistentChatStore** (corresponding to the mgc database) and **PersistentChatComplianceStore** (corresponding to the mgccomp database).</span></span> <span data-ttu-id="1d8fa-106">Le but de la publication de ce schéma est de vous permettre de créer des requêtes et d’obtenir des informations sur la création de rapports pertinents en matière de conversation instantanée, de salles actives, de contributeurs les plus productifs, etc.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-106">The goal of publishing this schema is to enable you to build queries and gain some insights into building useful reporting around chat usage, active rooms, top posters, and so on.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="bece3-107">Nous nous réservons le droit d’évolutionr ce schéma.</span><span class="sxs-lookup"><span data-stu-id="bece3-107">We reserve the right to evolve this schema.</span></span> <span data-ttu-id="bece3-108">Microsoft n’apporte aucune garantie de conservation de la compatibilité descendante avec ce schéma publié.</span><span class="sxs-lookup"><span data-stu-id="bece3-108">Microsoft does not make any guarantees to maintain full backward compatibility with this published schema.</span></span> 
+> <span data-ttu-id="1d8fa-p102">Nous nous réservons le droit de faire évoluer ce schéma. Microsoft ne donne aucune garantie en matière de conservation de la rétrocompatibilité avec le schéma publié.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-p102">We reserve the right to evolve this schema. Microsoft does not make any guarantees to maintain full backward compatibility with this published schema.</span></span> 
   
-<span data-ttu-id="bece3-109">Suivez ces meilleures pratiques :</span><span class="sxs-lookup"><span data-stu-id="bece3-109">Follow these best practices:</span></span>
+<span data-ttu-id="1d8fa-109">Respectez les meilleures pratiques suivantes :</span><span class="sxs-lookup"><span data-stu-id="1d8fa-109">Follow these best practices:</span></span>
   
-- <span data-ttu-id="bece3-110">Aucune sélection\* //est prise en charge, car la liste de colonnes peut grandir.</span><span class="sxs-lookup"><span data-stu-id="bece3-110">No SELECT\* // is supported because the column list can grow.</span></span>
+- <span data-ttu-id="1d8fa-110">Aucun select \* // n’est pris en charge, car la liste des colonnes peut croître.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-110">No SELECT\* // is supported because the column list can grow.</span></span>
     
-- <span data-ttu-id="bece3-111">Aucune modification de schéma générée par l’utilisateur n’est prise en charge.</span><span class="sxs-lookup"><span data-stu-id="bece3-111">No user-generated schema modifications are supported.</span></span>
+- <span data-ttu-id="1d8fa-111">Aucune modification de schéma générée par l’utilisateur n’est prise en charge.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-111">No user-generated schema modifications are supported.</span></span>
     
-- <span data-ttu-id="bece3-112">Aucune opération d’écriture n’est prise en charge.</span><span class="sxs-lookup"><span data-stu-id="bece3-112">No write operations are supported.</span></span>
+- <span data-ttu-id="1d8fa-112">Aucune opération d’écriture n’est prise en charge.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-112">No write operations are supported.</span></span>
     
-- <span data-ttu-id="bece3-113">Testez toutes les requêtes que vous créez sur des bases de données de taille représentative pour vous assurer que les requêtes peuvent être effectuées à un niveau en fonction de vos besoins.</span><span class="sxs-lookup"><span data-stu-id="bece3-113">Test any queries that you build on representatively-sized databases to be sure that the queries can perform at a level to meet your needs.</span></span>
+- <span data-ttu-id="1d8fa-113">Testez les requêtes que vous créez sur des bases de données représentatives en matière de taille afin d’avoir la garantie que ces requêtes peuvent répondre à vos besoins.</span><span class="sxs-lookup"><span data-stu-id="1d8fa-113">Test any queries that you build on representatively-sized databases to be sure that the queries can perform at a level to meet your needs.</span></span>
     
-## <a name="in-this-section"></a><span data-ttu-id="bece3-114">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="bece3-114">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1d8fa-114">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="1d8fa-114">In this section</span></span>
 
-- [<span data-ttu-id="bece3-115">Liste des tables de serveur de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="bece3-115">List of Persistent Chat Server tables</span></span>](list-of-persistent-chat-server-tables.md)
+- [<span data-ttu-id="1d8fa-115">Liste des tables de serveur de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="1d8fa-115">List of Persistent Chat Server tables</span></span>](list-of-persistent-chat-server-tables.md)
     
-- [<span data-ttu-id="bece3-116">Liste des tables de conformité serveur Chat permanent dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="bece3-116">List of Persistent Chat Server compliance tables in Skype for Business Server</span></span>](list-of-persistent-chat-server-compliance-tables.md)
+- [<span data-ttu-id="1d8fa-116">Liste des tables de conformité du serveur de conversation permanente dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="1d8fa-116">List of Persistent Chat Server compliance tables in Skype for Business Server</span></span>](list-of-persistent-chat-server-compliance-tables.md)
     
-- [<span data-ttu-id="bece3-117">Détails de la table des serveurs de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="bece3-117">Persistent Chat Server table details</span></span>](persistent-chat-server-table-details.md)
+- [<span data-ttu-id="1d8fa-117">Détails de la table des serveurs de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="1d8fa-117">Persistent Chat Server table details</span></span>](persistent-chat-server-table-details.md)
     
-- [<span data-ttu-id="bece3-118">Exemples de requêtes de base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="bece3-118">Sample Persistent Chat database queries</span></span>](sample-persistent-chat-database-queries.md)
+- [<span data-ttu-id="1d8fa-118">Exemples de requêtes de base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="1d8fa-118">Sample Persistent Chat database queries</span></span>](sample-persistent-chat-database-queries.md)
     
 

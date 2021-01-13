@@ -1,8 +1,8 @@
 ---
-title: Configurer une région de réseau créer une nouvelle ou modifier un existant
+title: Configurer une région réseau en créer une autre ou en modifier une existante
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0dff5481fd80423b3e7cdab8d274f817a29f3c76
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: 1ae2af9fc4a2e34131879c0ce35a5157331b0a7f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823017"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807334"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="49cc0-104">Configuration d’une région de réseau : en créer une autre ou en modifier une existante</span><span class="sxs-lookup"><span data-stu-id="49cc0-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="33de4-104">Configuration d’une région de réseau : création d’une nouvelle ou modification d’une configuration existante</span><span class="sxs-lookup"><span data-stu-id="33de4-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="49cc0-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="49cc0-105">What do you want to do?</span></span> <span data-ttu-id="49cc0-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="49cc0-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="33de4-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="33de4-105">What do you want to do?</span></span> <span data-ttu-id="33de4-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="33de4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="49cc0-107">Configuration des régions réseau</span><span class="sxs-lookup"><span data-stu-id="49cc0-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="33de4-107">Configuration des régions réseau</span><span class="sxs-lookup"><span data-stu-id="33de4-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
-<span data-ttu-id="49cc0-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="49cc0-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="33de4-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="33de4-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
