@@ -1,8 +1,8 @@
 ---
-title: Reprise après sinistre de la liste frontale dans Skype entreprise Server
+title: Récupération d’urgence du pool frontal dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,93 +12,93 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Dans le cadre d’une reprise après sinistre, Skype entreprise Server propose le jumelage de pools avec basculement en cas de panne du pool.
-ms.openlocfilehash: cacc1609094cba06c311a40f2502b4453013941e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec le failover en cas de panne d’un pool.
+ms.openlocfilehash: d77a0d56c7a3e3d80c6e735fd6eff178606f667a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815942"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802914"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Reprise après sinistre de la liste frontale dans Skype entreprise Server
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Récupération d’urgence du pool frontal dans Skype Entreprise Server
  
-Dans le cadre d’une reprise après sinistre, Skype entreprise Server propose le jumelage de pools avec basculement en cas de panne du pool.
+Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec le failover en cas de panne d’un pool.
   
-Pour les options de reprise après sinistre les plus performantes dans Skype entreprise Server, déployez des paires de pools frontal sur deux sites géographiquement dispersés. Chaque site possède un pool frontal couplé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs, et le service de sauvegarde assure la réplication des données en temps réel pour garder les pools synchronisés. Pour implémenter le jumelage de pools frontal [, voir déployer des pools frontaux couplés pour la reprise après sinistre dans Skype entreprise Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) .
+Pour les options de récupération d’urgence les plus robustes dans Skype Entreprise Server, déployez des paires de pools frontaux sur deux sites géographiquement dispersés. Chaque site possède un pool frontal associé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde fournit une réplication des données en temps réel pour maintenir la synchronisation des pools. Si [vous souhaitez](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) implémenter le jumelage de pools frontux, voir Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server.
   
-![Montre les pools frontaux sur deux sites différents, couplés](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Affiche les pools frontux sur deux sites différents, associés l’un à l’autre](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Si le pool dans un site échoue, vous pouvez basculer les utilisateurs de ce pool vers le pool dans l’autre site, qui fournit alors les services à tous les utilisateurs dans les deux pools. À des fins de planification de capacité, vous devez concevoir chaque pool pour gérer la charge de travail de tous les utilisateurs dans les deux pools en cas de sinistre.
+Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
   
-La distance séparant deux centres de données qui comprennent des pools frontaux associés l’un à l’autre n’est pas limitée. Nous vous recommandons de relier deux centres de données qui se trouvent dans la même région du monde par des connexions haut débit. 
+Deux centres de données qui incluent des pools frontaux associés l’un à l’autre peuvent être séparés à n’importe quelle distance. Nous vous recommandons de coupler deux centres de données dans la même région du monde, avec des liens haut débit entre eux. 
   
-Il est possible d’avoir deux centres de données situés dans des régions du monde différentes, mais cette situation peut entraîner une perte de données plus importante en cas de sinistre en raison de la latence de la réplication de données.
+Il est possible d’avoir deux centres de données dans des régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence de la réplication des données.
   
-Quand vous préparez le jumelage des pools, gardez à l’esprit que seuls les jumelages suivants sont pris en charge :
+Lorsque vous planifiez les pools à jumeler, vous devez garder à l’esprit que seuls les jumelages suivants sont pris en charge :
   
 - Les pools Enterprise Edition peuvent uniquement être jumelés avec d’autres pools Enterprise Edition. De même, les pools Standard Edition peuvent uniquement être jumelés avec d’autres pools Standard Edition.
     
 - Les pools physiques peuvent uniquement être jumelés avec d’autres pools physiques. De même, les pools virtuels peuvent uniquement être jumelés avec d’autres pools virtuels.
     
-- Les pools associés doivent exécuter le même système d’exploitation de base.
+- Les pools associés doivent fonctionner sur le même système d’exploitation de base.
     
-Ni le générateur de topologie, ni la validation des topologies n’empêcheront le jumelage de deux pools qui ne suit pas ces recommandations. Par exemple, le générateur de topologie vous permet de jumeler un pool Enterprise Edition avec un pool Standard Edition. Cependant, ces types de jumelages ne sont pas pris en charge.
+Ni le Générateur de topologie, ni la validation des topologies n’empêcheront le jumelage de deux pools qui ne suit pas ces recommandations. Par exemple, le Générateur de topologie vous permet de jumeler un pool Enterprise Edition avec un pool Standard Edition. Toutefois, ces types de jumelages ne sont pas pris en charge.
   
-## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Sauvegarder les relations du Bureau d’enregistrement et les appareils de succursales Survivables
+## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Relations du bureau d’enregistrement de sauvegarde et Survivable Branch Appliances
 
-En plus de fournir une fonctionnalité de récupération d’urgence, deux pools associés jouent le rôle de serveur d’inscriptions de sauvegarde l’un pour l’autre. Chaque liste peut être la sauvegarde d’un seul autre pool frontal.
+En plus de fournir une fonctionnalité de récupération d’urgence, deux pools associés jouent le rôle de serveur d’inscriptions de sauvegarde l’un pour l’autre. Chaque pool peut être la sauvegarde d’un seul autre pool frontal.
   
-Même si les relations de sauvegarde entre deux pools frontaux doivent être 1:1 et symétriques, chaque pool frontal peut également être le serveur d’inscriptions de sauvegarde de plusieurs Survivable Branch Appliances.
+Même si les relations de sauvegarde entre deux pools frontux doivent être 1:1 et symétriques, chaque pool frontal peut toujours être le bureau d’enregistrement de sauvegarde pour n’importe quel nombre de Survivable Branch Appliances.
   
-Remarquez que Skype Entreprise n’étend pas la prise en charge de la récupération d’urgence aux utilisateurs hébergés sur un Survivable Branch Appliance. Si un pool frontal qui joue le rôle de sauvegarde pour un Survivable Branch Appliance ne fonctionne plus, les utilisateurs connectés au Survivable Branch Appliance passent en mode résilience même après le basculement des utilisateurs hébergés sur le pool frontal vers le pool frontal de sauvegarde.
+Notez que Skype Entreprise n’étend pas la prise en charge de la récupération d’urgence aux utilisateurs d’un Survivable Branch Appliance. Si un pool frontal qui sert de sauvegarde pour un Survivable Branch Appliance tombe en panne, les utilisateurs qui se sont inscrits au Survivable Branch Appliance tombent en mode résistance même si les utilisateurs qui sont homed on the Front End pool are failed over to the backup Front End pool.
   
-## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Temps de récupération nécessaire pour basculer et restaurer les pools
+## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Temps de récupération pour le failover et la restauration du pool
 
-Pour le basculement de pool et la restauration de pool, le but à atteindre pour la durée maximale d’interruption admissible (RTO) est de 15-20 minutes. Il s’agit de la durée nécessaire pour que le basculement ait lieu, une fois que les administrateurs ont identifié une panne et lancé les procédures de basculement. Cette durée ne comprend pas le temps nécessaire aux administrateurs pour évaluer la situation et prendre une décision, ni le temps nécessaire aux utilisateurs pour se connecter une fois le basculement terminé.
+Pour leover de pool et la restauration de pool, la cible d’ingénierie pour l’objectif de temps de récupération (RTO) est de 15 à 20 minutes. Il s’agit du temps nécessaire pour que le failover se produise, une fois que les administrateurs ont déterminé qu’il y avait un sinistre et démarré les procédures deover. Cette durée ne comprend pas le temps nécessaire aux administrateurs pour évaluer la situation et prendre une décision, ni le temps nécessaire aux utilisateurs pour se connecter une fois le basculement terminé.
   
-Pour le basculement de pool et la restauration de pool, le but à atteindre pour la perte de données maximale admissible (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est arrêté à 10:00 AM et que le RPO est de 5 minutes, les données écrites dans le pool entre 9:55 AM Il est possible que la 10:00 A n’ayant pas été répliquée vers le pool de sauvegarde et qu’elle soit perdue.
+Pour le failover et la restauration de pool, la cible d’ingénierie pour l’objectif de point de récupération (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est en panne à 10 h 00 et que le RPO est de 5 minutes, les données écrites dans le pool entre 9 h 55 et 09 h 55. et 10:00 A.M.might not have replicated to the backup pool, and would be lost.
   
-Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites. Ces numéros sont mesurés pour une réserve avec des utilisateurs actifs de 40 000 et de 200 000 actuellement activés pour Skype entreprise par rapport à un modèle utilisateur prédéfini où il n’y a pas de backlog dans la réplication des données. Ces chiffres peuvent changer en fonction du test et de la validation des performances.
+Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites. Ces nombres sont mesurés pour un pool avec 40 000 utilisateurs actifs simultanément et 200 000 utilisateurs activés pour Skype Entreprise par rapport à un modèle utilisateur prédéfiny où il n’existe aucun journal des travaux en souffrance dans la réplication des données. Ces chiffres peuvent changer en fonction du test et de la validation des performances.
   
-## <a name="central-management-store-failover"></a>Basculement du magasin central de gestion
+## <a name="central-management-store-failover"></a>Failover du magasin central de gestion
 
-Le magasin central de gestion contient des données de configuration relatives aux serveurs et aux services dans votre déploiement. Chaque déploiement de Skype entreprise Server inclut un magasin de gestion central, hébergé par le serveur principal d’un pool frontal.
+Le magasin central de gestion contient des données de configuration sur les serveurs et les services de votre déploiement. Chaque déploiement Skype Entreprise Server comprend un magasin central de gestion, qui est hébergé par le serveur principal d’un pool frontal.
   
-Si vous associez le pool qui héberge le magasin central de gestion, une base de données de sauvegarde du magasin central de gestion est configurée dans le pool de sauvegarde. L’une des deux bases de données du magasin central de gestion est toujours active tandis que l’autre constitue la base de données de secours. Le contenu est répliqué par le service de sauvegarde de la base de données active vers la base de données de secours.
+Si vous associez le pool qui héberge le magasin central de gestion, une base de données du magasin central de gestion de sauvegarde est définie dans le pool de sauvegarde. À tout moment, l’une des deux bases de données du magasin central de gestion est active et l’autre est une base de données de veille. Le contenu est répliqué par le service de sauvegarde de la base de données active vers la base de données de secours.
   
-![Montre deux pools frontaux, un avec le magasin CMS actif et l’autre avec le magasin CMS passif](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Affiche deux pools frontaux, l’un avec le magasin CMS actif et l’autre avec le magasin CMS de sauvegarde passive](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
-Durant un basculement de pool impliquant les pools hébergeant le magasin central de gestion, vous devez faire basculer le magasin central de gestion avant le basculement du pool frontal.
+Lors d’un changement de pool qui implique le pool hébergeant le magasin central de gestion, vous devez faire échouer le magasin central de gestion avant de faire échouer le pool frontal.
   
-Une fois la récupération d’urgence effectuée, il n’est pas nécessaire de rebasculer le magasin central de gestion. Le magasin central de gestion peut rester dans le pool vers lequel vous avez effectué le basculement.
+Une fois l’urgence réparée, il n’est pas nécessaire de faire échouer le magasin central de gestion. Le magasin central de gestion peut rester dans le pool vers qui vous l’avez fait échouer.
   
-Les objectifs d’ingénierie du basculement du magasin central de gestion sont les suivants : un objectif de durée de reprise (RTO) de 5 minutes et 5 minutes pour chaque objectif de point de reprise (RPO).
+Les objectifs d’ingénierie pour le failover du magasin central de gestion sont de 5 minutes pour l’objectif de temps de récupération (RTO) et de 5 minutes pour l’objectif de point de récupération (RPO).
   
-## <a name="front-end-pool-pairing-data-security"></a>Sécurité des données d’appariement de pools frontaux
+## <a name="front-end-pool-pairing-data-security"></a>Sécurité des données de jumelage de pool frontal
 
-Le service de sauvegarde transfère les données utilisateur et le contenu de conférence entre deux pools frontaux associés de manière continue. Les données utilisateur contiennent des URI SIP d’utilisateur, ainsi que des paramètres et listes de contacts. Le contenu de conférence inclut des téléchargements Microsoft PowerPoint ainsi que les tableaux blancs utilisés lors des conférences.
+Le service de sauvegarde transfère en continu les données utilisateur et le contenu des conférences entre deux pools frontux couplés. Les données utilisateur contiennent des UR SIP utilisateur, ainsi que des planifications de conférence, des listes de contacts et des paramètres. Le contenu des conférences inclut les téléchargements Microsoft PowerPoint, ainsi que les tableaux blancs utilisés dans les conférences.
   
-Dans le pool source, ces données sont exportées à partir du stockage local, compressées, transférées au pool cible, où elles sont décompressées, et importées vers le stockage local. Le service de sauvegarde part du principe que le lien de communication entre les deux centres de données est à l’intérieur du réseau d’entreprise qui est protégé d’Internet. Il ne chiffre pas les données transférées entre les deux centres de données, et n’est pas non plus encapsulé de manière native dans un protocole sécurisé, tel que HTTPS. Par conséquent, il est possible d’avoir une attaque par le biais du milieu intermédiaire d’une équipe du réseau d’entreprise.
+À partir du pool source, ces données sont exportées à partir du stockage local, compressées, puis transférées vers le pool cible, où elles sont décompressées et importées vers le stockage local. Le service de sauvegarde suppose que le lien de communications entre les deux centres de données se trouve dans le réseau d’entreprise protégé contre Internet. Il ne chiffre pas les données transférées entre les deux centres de données, et les données ne sont pas encapsulées en natif dans un protocole sécurisé, tel que HTTPS. Par conséquent, une attaque de l’intermédiaire de la part du personnel interne au sein du réseau d’entreprise est possible.
   
-Toute entreprise qui déploie Skype entreprise Server sur plusieurs centres de données et utilise la fonctionnalité de reprise après sinistre doit garantir que le trafic entre les centres de données est protégé par l’intranet de l’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données. Cette exigence standard permet également de protéger de nombreux autres types de données professionnelles confidentielles transférées entre ces centres de données.
+Toute entreprise qui déploie Skype Entreprise Server sur plusieurs centres de données et utilise la fonctionnalité de récupération d’urgence doit s’assurer que le trafic entre les centres de données est protégé par son intranet d’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données. Il s’agit d’une exigence standard qui permet également aux protech de nombreux autres types de données sensibles d’entreprise transférées entre des centres de données.
   
-Si le risque d’attaques de l’intercepteur (« man-in-the-middle ») sur le réseau d’entreprise existe, il est relativement contrôlé en comparaison de l’exposition du trafic sur Internet. Plus précisément, les données utilisateur exposées par le service de sauvegarde (tels les URI SIP) sont généralement disponibles pour tous les employés de l’entreprise via d’autres moyens tels que le carnet d’adresses global ou un autre logiciel de répertoire. Votre attention doit donc être portée sur la sécurisation du réseau étendu (WAN) entre les deux centres de données lorsque le service de sauvegarde est utilisé pour copier les données entre les deux pools associés.
+Bien que le risque d’attaques de l’intermédiaire au sein du réseau d’entreprise existe, il est relativement contenu par rapport à l’exposition du trafic vers Internet. Plus précisément, les données utilisateur exposées par le service de sauvegarde (telles que les UR SIP) sont généralement disponibles pour tous les employés au sein de l’entreprise via d’autres moyens tels que le carnet d’adresses global ou d’autres logiciels d’annuaire. Par conséquent, vous devez vous concentrer sur la sécurisation du WAN entre les deux centres de données lorsque le service de sauvegarde est utilisé pour copier des données entre les deux pools couplés.
   
-### <a name="mitigating-security-risks"></a>Réduction des risques de sécurité
+### <a name="mitigating-security-risks"></a>Atténuation des risques de sécurité
 
-Il existe de nombreuses façons d’améliorer la protection de la sécurité du trafic du service de sauvegarde. Il s’agit de limiter l’accès aux centres de données pour sécuriser le transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises qui déploient Skype entreprise Server peuvent déjà disposer de l’infrastructure de sécurité requise. Pour les entreprises recherchant des recommandations, Microsoft fournit une solution comme exemple de création d’une infrastructure informatique sécurisée. Pour plus d’informations [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544), reportez-vous à. 
+Vous avez plusieurs façons d’améliorer la protection de la sécurité pour le trafic du service de sauvegarde. Cela va de la restriction de l’accès aux centres de données à la sécurisation du transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises déployant Skype Entreprise Server peuvent déjà avoir l’infrastructure de sécurité requise. Pour les entreprises qui recherchent des conseils, Microsoft fournit une solution qui illustre comment créer une infrastructure informatique sécurisée. Pour plus d’informations, voir [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544) . 
   
-Nous n’avons pas d’implique qu’il s’agit de la seule solution, et qu’il s’agit de la solution préférée pour Skype entreprise Server. Nous recommandons aux clients professionnels de choisir la solution qui répond à leurs besoins spécifiques en fonction de leur infrastructure et de leurs exigences en matière de sécurité informatique. La solution exemple de Microsoft a recours à IPSec et la Stratégie de groupe pour l’isolation de serveur et de domaine.
+Nous ne voulons pas dire qu’il s’agit de la seule solution, ni qu’il s’agit de la solution préférée pour Skype Entreprise Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques, en fonction de leurs besoins et de leur infrastructure de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine.
   
-Une autre solution possible consiste à utiliser IPSec simplement pour sécuriser les données envoyées par le service de sauvegarde proprement dit. Si vous choisissez cette méthode, vous devez configurer les règles IPSec du protocole SMB pour les serveurs ci-dessous, où le pool A et le pool B sont deux pools frontaux associés.
+Une autre solution possible consiste à utiliser IPSec uniquement pour sécuriser les données envoyées par le service de sauvegarde lui-même. Si vous choisissez cette méthode, vous devez configurer les règles IPSec pour le protocole SMB pour les serveurs suivants, où le pool A et le pool B sont deux pools frontaux couplés.
   
-- Service SMB (TCP/445) de chaque serveur frontal dans le pool A vers le magasin de fichiers utilisé par le pool B.
+- Service SMB (TCP/445) de chaque serveur frontal du pool A vers le magasin de fichiers utilisé par le pool B.
     
-- Service SMB (TCP/445) de chaque serveur frontal dans le pool B vers le magasin de fichiers utilisé par le pool A.
+- Service SMB (TCP/445) de chaque serveur frontal du pool B vers le magasin de fichiers utilisé par le pool A.
     
 > [!CAUTION]
->  IPsec n’est pas destiné à remplacer la sécurité au niveau de l’application, comme SSL/TLS. L’intérêt d’utiliser IPsec est qu’il peut assurer la sécurité du trafic réseau pour les applications existantes sans avoir à les modifier. Les entreprises qui souhaitent simplement sécuriser le transport entre les deux centres de données doivent consulter leurs fournisseurs de matériel réseau pour savoir comment configurer les connexions WAN sécurisées à l’aide de l’équipement du fournisseur.
+>  IPsec n’est pas destiné à remplacer la sécurité au niveau de l’application, telle que SSL/TLS. L’un des avantages de l’utilisation d’IPsec est qu’il peut assurer la sécurité du trafic réseau pour les applications existantes sans avoir à les modifier. Les entreprises qui souhaitent simplement sécuriser le transport entre les deux centres de données doivent consulter leurs fournisseurs de matériel réseau respectifs pour savoir comment configurer des connexions WAN sécurisées à l’aide de l’équipement du fournisseur.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Déploiement de pools frontaux couplés pour une reprise après sinistre dans Skype entreprise Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

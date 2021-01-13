@@ -1,8 +1,8 @@
 ---
-title: Planifier la Conférence rendez-vous dans Skype entreprise Server
+title: Planifier les conférences téléphoniques dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,134 +11,134 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Résumé : pour plus d’informations sur la planification de conférences rendez-vous dans Skype entreprise Server, voir les rubriques suivantes.'
-ms.openlocfilehash: f78f5dcea5ce26bdfeb0ba52a6eeaf046ae6965b
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification des conférences téléphoniques dans Skype Entreprise Server.'
+ms.openlocfilehash: 31e422a07c34eaf17c09157c2e12ad843dbacb03
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888543"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814004"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier la Conférence rendez-vous dans Skype entreprise Server
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier les conférences téléphoniques dans Skype Entreprise Server
  
-**Résumé :** Pour plus d’informations sur la planification de conférences rendez-vous dans Skype entreprise Server, reportez-vous à la rubrique.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur la planification des conférences téléphoniques dans Skype Entreprise Server.
   
-La fonction de conférence rendez-vous est une fonctionnalité facultative de Skype entreprise Server qui permet aux participants d’une réunion de rejoindre la partie audio d’une réunion en appelant la réunion à partir d’un téléphone. Une conférence rendez-vous est un sous-ensemble d’une conférence audio nécessitant une configuration supplémentaire. Cette rubrique décrit la préparation du déploiement de la conférence rendez-vous pour votre organisation. 
+La conférence rendez-vous est une fonctionnalité facultative de Skype Entreprise Server qui permet aux participants de la réunion de participer à la partie audio d’une réunion en appelant à la réunion à partir d’un téléphone. Une conférence rendez-vous est un sous-ensemble d’une audioconférence et nécessite une configuration supplémentaire. Cette rubrique décrit ce à quoi vous devez penser avant de déployer la conférence téléphonique pour votre organisation. 
   
-Certains des composants requis pour les conférences rendez-vous sont spécifiques aux conférences rendez-vous, et certains sont des composants voix entreprise. Même si la conférence rendez-vous utilise une partie des mêmes composants que Voix Entreprise, vous pouvez la déployer même si vous ne déployez pas Voix Entreprise. Cette section présente les composants nécessaires pour la conférence rendez-vous. Pour plus d’informations sur la planification d’une solution voix entreprise complète, voir [planifier votre solution vocale d’entreprise dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Certains des composants requis pour les conférences téléphoniques sont spécifiques à la conférence téléphonique et d’autres Voix Entreprise composants. Bien que la conférence dial-in utilise certains des mêmes composants que Voix Entreprise, vous pouvez déployer la conférence dial-in même si vous ne déployez pas Voix Entreprise. Cette section décrit les composants nécessaires pour les conférences téléphoniques. Pour plus d’informations sur la planification d’une solution Voix Entreprise complète, voir [Plan your Voix Entreprise solution in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
-La conférence rendez-vous implique que vous indiquiez la connexion au réseau téléphonique commuté (RTC) en déployant un serveur de médiation. Vous devez également autoriser la conférence rendez-vous pour votre organisation :
+La conférence à numérotation nécessite que vous fournissiez une connectivité au réseau téléphonique commuté (PSTN) en déployant un serveur de médiation. Outre le déploiement d’un serveur de médiation, vous devez tenir compte des considérations suivantes pour autoriser les conférences téléphoniques pour votre organisation :
   
-- Préparation de la connexion au réseau téléphonique commuté (RTC)
+- Votre plan de connexion au réseau téléphonique commuté (PSTN)
     
-- Préparation des plans de numérotation, des numéros d’accès et des régions de conférence
+- Votre plan pour les plans de numérotation, les numéros d’accès et les régions de conférence
     
-- Préparation de la création des annuaires de conférences
+- Votre plan de création d’annuaires de conférence
     
-- Stratégie de conférence pour autoriser l’accès à la conférence rendez-vous
+- Votre stratégie de conférence pour autoriser l’accès à la conférence
     
-- Prise en charge des utilisateurs d’entreprise et des utilisateurs anonymes
+- Prise en charge des utilisateurs d’entreprise et anonymes
     
 > [!NOTE]
-> Si vous déployez la Conférence rendez-vous, vous devez la déployer dans chaque liste de déploiement de Skype entreprise Server Conferencing. Il n’est pas nécessaire d’attribuer des numéros d’accès (numéros appelés par les participants à une conférence) à chaque pool, mais vous devez déployer la fonctionnalité Conférence rendez-vous dans chaque pool. Cette obligation prend en charge la fonctionnalité de nom enregistré quand un utilisateur appelle un numéro d’accès à partir d’un pool pour participer à une conférence Skype entreprise Server dans un autre pool. 
+> Si vous déployez la conférence téléphonique, vous devez la déployer dans chaque pool où vous déployez la conférence Skype Entreprise Server. Il n’est pas nécessaire d’affecter des numéros d’accès (les numéros appelés par les participants pour participer à une conférence) dans chaque pool, mais vous devez déployer la fonctionnalité de numérotation dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer à une conférence Skype Entreprise Server dans un autre pool. 
   
-## <a name="plan-for-pstn-connectivity"></a>Planification de la connectivité RTC
+## <a name="plan-for-pstn-connectivity"></a>Planifier la connectivité PSTN
 
-La conférence rendez-vous nécessite au moins un serveur de médiation et une passerelle de réseau téléphonique commuté (RTC). 
+La conférence téléphonique nécessite au moins un serveur de médiation et au moins une passerelle de réseau téléphonique commuté (PSTN). 
   
-Vous pouvez déployer un serveur de médiation dans un site central ou dans un site de succursale. Dans un site central, vous pouvez colocaliser un serveur de médiation sur un pool frontal ou un serveur Standard Edition ou vous pouvez le déployer sur un serveur ou un pool autonome. Dans un site de succursale, vous pouvez déployer un serveur de médiation sur un serveur autonome ou comme composant du serveur Survivable Branch Appliance.
+Vous pouvez déployer un serveur de médiation dans un site central ou dans un site de succursale. Dans un site central, vous pouvez céquequer un serveur de médiation sur un pool frontal ou un serveur Standard Edition Server, ou vous pouvez le déployer sur un serveur ou un pool autonome. Dans un site de succursale, vous pouvez déployer un serveur de médiation sur un serveur autonome ou en tant que composant du Survivable Branch Appliance.
   
-Vous pouvez déployer une passerelle RTC dans un site central ou dans un site de succursale. Dans un site de succursale, la passerelle RTC peut être autonome ou un composant Survivable Branch Appliance.
+Vous pouvez déployer une passerelle PSTN dans un site central ou dans un site de succursale. Dans un site de succursale, la passerelle PSTN peut être autonome ou un composant du Survivable Branch Appliance.
   
-Pour plus d’informations sur la configuration requise du serveur de médiation et de la passerelle RTC, consultez le [composant serveur de médiation dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)et [définition d’une passerelle dans le générateur de topologie de Skype entreprise Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Pour plus d’informations sur les conditions requises pour le serveur de médiation et la passerelle PSTN, voir Composant de serveur de médiation dans Skype Entreprise [Server,](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)Déployer un serveur de médiation dans le Générateur de [topologies dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)et Définir une passerelle dans le Générateur de topologies dans Skype Entreprise [Server.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
   
-## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Préparation des plans de numérotation, des numéros d’accès et des régions de conférence
+## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planifier les plans de numérotation, les numéros d’accès et les régions de conférence
 
-Pour configurer la conférence rendez-vous, vous créez des plans de numérotation et des numéros d’accès à des conférences rendez-vous. Vous indiquez également des régions de numérotation qui associent un numéro d’accès de conférence rendez-vous avec ses plans de numérotation. En particulier :
+Pour configurer la conférence téléphonique, vous devez créer des plans de numérotation et des numéros d’accès aux conférences. Vous spécifiez également les régions de numérotation qui associent un numéro d’accès de conférence à ses plans de numérotation. Plus particulièrement :
   
-- Les plans de numérotation représentent des ensembles de règles de normalisation qui spécifient le nombre et la séquence de chiffres d’un numéro de téléphone et qui transposent ce numéro au format E.164 standard requis pour le routage des appels.
+- Les plans de numérotation sont des ensembles de règles de normalisation qui spécifient le numéro et le modèle de chiffres dans un numéro de téléphone et traduisent le numéro de téléphone au format E.164 standard requis pour le routage des appels.
     
-- Les numéros d’accès aux conférences rendez-vous sont les numéros que les participants composent pour accéder à une conférence.
+- Les numéros d’accès aux conférences téléphoniques sont les numéros que les participants appellent pour participer à une conférence.
     
-- Tout numéro d’accès à une conférence rendez-vous doit être associé à au moins un plan de numérotation. 
+- Chaque numéro d’accès aux conférences téléphoniques doit être associé à au moins un plan de numérotation. 
     
 - Chaque plan de numérotation est associé à une région de conférence.
     
-Lorsque vous créez un plan de numérotation, vous spécifiez la région de conférence rendez-vous qui s’applique au plan de numérotation. Quand vous créez le numéro d’accès à la conférence rendez-vous, vous sélectionnez les régions qui associent le numéro d’accès aux plans de numérotation appropriés.
+Lorsque vous créez un plan de numérotation, vous spécifiez la région de conférence qui s’applique au plan de numérotation. Lorsque vous créez le numéro d’accès, vous sélectionnez les régions qui associent le numéro d’accès aux plans de numérotation appropriés.
   
-Vous pouvez également spécifier son étendue : utilisateur, pool ou site. Chaque utilisateur est associé au plan de numérotation dans l’étendue la plus restreinte applicable à son cas. Par exemple, un utilisateur est affecté à un plan de numérotation de niveau utilisateur, le cas échéant. Si aucun plan de numérotation de niveau utilisateur ne s’applique, l’utilisateur est affecté à un plan de numérotation au niveau du pool. Si aucun plan de numérotation au niveau du pool ne s’applique, l’utilisateur est affecté à un plan de numérotation au niveau du site. Si aucun plan de numérotation au niveau du site ne s’applique, l’utilisateur est affecté à un plan de numérotation global. 
+Vous spécifiez également l’étendue du plan de numérotation : étendue utilisateur, étendue du pool ou étendue du site. Le plan de numérotation de l’étendue la plus étroite qui s’applique à l’utilisateur est attribué à chaque utilisateur. Par exemple, un plan de numérotation au niveau de l’utilisateur est affecté à un utilisateur, si un plan s’applique. Si un plan de numérotation au niveau de l’utilisateur ne s’applique pas, un plan de numérotation au niveau du pool est attribué à l’utilisateur. Si un plan de numérotation au niveau du pool ne s’applique pas, un plan de numérotation au niveau du site est affecté à l’utilisateur. Si un plan de numérotation au niveau du site ne s’applique pas, le plan de numérotation global est attribué à l’utilisateur. 
   
-Avant de configurer les plans de numérotation, il est important de planifier le mode d’attribution de nom des régions et l’utilisation des régions. Les considérations suivantes s’appliquent aux régions de conférence rendez-vous :
+Avant de configurer les plans de numérotation, il est important de planifier le nom et l’utilisation des régions. Les considérations suivantes s’appliquent aux régions de conférences téléphoniques :
   
-- Une région constitue généralement une zone géographique associée à un bureau ou à un groupe de bureaux.
+- Une région est généralement une zone géographique associée à un bureau ou à un groupe de bureaux.
     
-- Des langues sont associées aux numéros d’accès aux conférences rendez-vous. Si vous prenez en charge des zones géographiques comprenant plusieurs langues, vous devez déterminer le mode de définition des régions pour prendre en charge les différentes langues. Par exemple, vous pouvez définir différentes régions en associant une zone géographique et une langue ou définir une seule région en fonction de la zone géographique et disposer de différents numéros d’accès aux conférences rendez-vous pour chaque langue.
+- Les langues sont associées aux numéros d’accès aux appels. Si vous prisez en charge des zones géographiques qui ont plusieurs langues, vous devez décider de la façon dont vous souhaitez définir des régions pour prendre en charge les langues multiples. Par exemple, vous pouvez définir plusieurs régions en fonction d’une combinaison de géographie et de langue, ou vous pouvez définir une région unique en fonction de la géographie et avoir des numéros d’accès à l’accès pour chaque langue.
     
-- Lorsqu’un utilisateur programme une réunion, par défaut, cette dernière utilise la région spécifiée dans le plan de numérotation de cet utilisateur.
+- Lorsqu’un utilisateur planifie une réunion, la réunion utilise par défaut la région spécifiée par le plan de numérotation de cet utilisateur.
     
-- Par défaut, tous les numéros d’accès aux conférences rendez-vous de la région sont inclus dans l’invitation à la réunion.
+- Par défaut, tous les numéros d’accès pour la région sont inclus dans l’invitation à la réunion.
     
-- Il est important de nommer les régions de manière explicite. L’utilisateur peut recourir aux noms pour modifier une région de réunion afin que les différents numéros d’accès soient inclus dans l’invitation. (Lorsque les utilisateurs utilisent Outlook pour planifier une réunion, l’utilisateur utilise le complément réunion en ligne pour Skype entreprise pour modifier la région).
+- Il est important de nommer des régions afin qu’elles soient clairement reconnaissables. L’utilisateur peut utiliser les noms des régions pour modifier la région d’une réunion afin que différents numéros d’accès soient inclus dans l’invitation. (Lorsque les utilisateurs utilisent Outlook pour planifier une réunion, l’utilisateur utilise le add-in de réunion en ligne pour Skype Entreprise pour modifier la région).
     
-- Les régions doivent être désignées de sorte que tout invité souhaitant accéder à une conférence puisse visualiser un numéro d’accès local dans l’invitation.
+- Les régions doivent être conçues pour que tous les invités qui souhaitent participer à une conférence voient un numéro d’accès local dans l’invitation à la conférence.
     
-- Vous pouvez configurer l’ordre dans lequel les numéros d’accès au sein d’une région apparaissent sur la page Paramètres de conférence rendez-vous (et, par conséquent, l’ordre dans lequel ils apparaissent dans l’invitation à la Conférence) à l’aide des applets de commande Skype entreprise Server Management Shell.
+- Vous pouvez configurer l’ordre dans lequel les numéros d’accès au sein d’une région apparaissent dans la page Paramètres de conférence conférence (et, par conséquent, l’ordre dans lequel ils apparaissent dans l’invitation à la conférence) à l’aide des cmdlets Skype Entreprise Server Management Shell.
     
-- Un utilisateur peut composer un numéro d’accès pour participer à une conférence rendez-vous en tout point du globe.
+- Tout utilisateur de n’importe quel emplacement peut appeler n’importe quel numéro d’accès pour participer à une conférence.
     
-Pour plus d’informations sur la création d’un plan de numérotation, reportez-vous à la rubrique [création ou modification d’un plan de numérotation dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/dial-plans.md) et [création ou modification d’une règle de normalisation dans Skype entreprise](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Pour plus d’informations sur la création d’un plan de numérotation, voir Créer ou modifier un plan de numérotation dans Skype Entreprise [Server](../../deploy/deploy-enterprise-voice/dial-plans.md) et Créer ou modifier une règle de normalisation dans [Skype Entreprise.](../../deploy/deploy-enterprise-voice/normalization-rules.md) 
   
-## <a name="plan-for-conference-directories"></a>Planification des annuaires des conférences
+## <a name="plan-for-conference-directories"></a>Planifier les annuaires des conférences
 
-Les annuaires de conférences maintiennent un mappage entre l’ID de réunion alphanumérique qu’un participant utilise pour participer à une conférence lorsque vous utilisez Skype entreprise et l’ID de conférence numérique uniquement utilisé par un participant à la Conférence rendez-vous pour participer à la Conférence. Le format de l’ID de conférence est le suivant :
+Les annuaires des conférences conservent un mappage entre l’ID de réunion alphanumérique qu’un participant utilise pour participer à une conférence lors de l’utilisation de Skype Entreprise et l’ID de conférence numérique uniquement qu’un participant à une conférence rendez-vous utilise pour participer à la conférence. Le format de l’ID de conférence est le suivant :
   
 
-\<chiffre de la Conférence (le nombre\>\<de numéros\>\<à 1 chiffre) (\>\<généralement 1-2 chiffres) Numéro de conférence (nombre variable de chiffres vérifier le chiffre (1 chiffre)\>
+\<housekeeping digit (1 digit)\>\<conference directory (usually 1-2 digits)\>\<conference number (variable number of digits\>\<check digit (1 digit)\>
 
 
-La création de différents annuaires des conférences permet de s’assurer que les ID de conférences restent courts jusqu’à ce qu’une quantité importante de conférences ait été créée. Dans une organisation avec un nombre type de conférences par utilisateur, il est recommandé de créer un annuaire des conférences ne dépassant pas 999 utilisateurs dans le pool. Le respect de cette consigne permet en général de limiter le nombre des ID de conférences. Cependant, lorsque le nombre d’annuaires de conférences (tous pools confondus) dépasse 9, la longueur de l’ID de conférence augmente pour permettre la prise en charge de conférences supplémentaires.
+La création de plusieurs annuaires des conférences garantit que les ID de conférence resteront courts jusqu’à ce qu’une quantité importante de conférences soit créée. Dans une organisation avec un nombre typique de conférences par utilisateur, nous vous recommandons de créer un annuaire de conférences pour 999 utilisateurs dans le pool. À l’aide de cette recommandation, les ID de conférence peuvent généralement rester petits. Toutefois, une fois que le nombre d’annuaires des conférences (dans les pools) dépasse 9, le numéro d’ID de conférence augmente pour prendre en charge des conférences supplémentaires.
   
-## <a name="plan-for-a-conferencing-policy-that-allows-dial-in-access"></a>Planification d’une stratégie de conférence qui autorise les accès
+## <a name="plan-for-a-conferencing-policy-that-allows-dial-in-access"></a>Planifier une stratégie de conférence qui autorise l’accès à la conférence
 
-Les conférences doivent être activées pour l’accès rendez-vous lorsque vous configurez des stratégies de conférence. Par défaut, l’invitation à une conférence pour les conférences activées pour les accès par modem comporte les informations suivantes :
+Les conférences doivent être activées pour l’accès aux conférences lorsque vous configurez des stratégies de conférence. Par défaut, les conférences activées pour l’accès à la conférence incluent les informations suivantes dans l’invitation à la conférence :
   
-- ID numérique de conférence identifiant la conférence
+- Un ID de conférence numérique qui identifie la conférence
     
-- Un ou plusieurs numéros d’accès RTC
+- Un ou plusieurs numéros d’accès PSTN
     
-- Lien vers une page Paramètres de conférence rendez-vous qui contient la liste complète des numéros d’accès avec leurs langues associées, un emplacement pour créer, réinitialiser ou débloquer les codes confidentiels et d’autres informations, comme les contrôles DTMF (numérotation en fréquences vocales)
+- Lien vers une page Paramètres de conférence conférence, qui contient la liste complète des numéros d’accès avec leurs langues associées ; un endroit où créer, réinitialiser ou débloquer des numéros d’identification personnelle ; et autres informations, telles que les contrôles DTMF (dual-tone multi-frequency)
     
-Pour plus d’informations sur les stratégies de conférence, voir [configurer des conférences rendez-vous dans Skype entreprise Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) et [gérer des stratégies de conférence dans Skype entreprise Server](../../manage/conferencing/conferencing-policies.md).  
+Pour plus d’informations sur les stratégies de conférence, voir [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) and Manage [conferencing policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).  
 
-## <a name="support-for-enterprise-and-anonymous-users"></a>Prise en charge des utilisateurs d’entreprise et des utilisateurs anonymes
+## <a name="support-for-enterprise-and-anonymous-users"></a>Prise en charge des utilisateurs d’entreprise et anonymes
 
-La fonction de conférence rendez-vous est prise en charge pour les utilisateurs d’entreprise et les utilisateurs anonymes. Les utilisateurs d’entreprise ont accès aux informations d’identification des services de domaine Active Directory et aux comptes Skype entreprise Server au sein de leur organisation. Les utilisateurs anonymes ne disposent pas d’informations d’identification dans votre organisation. Dans le contexte de conférence rendez-vous, un utilisateur dans une organisation de partenaire fédéré qui utilise le RTC pour se connecter à une conférence est considéré comme un utilisateur anonyme. Pour la conférence rendez-vous, contrairement aux autres contextes, les utilisateurs fédérés ne sont pas authentifiés.
+La conférence téléphonique prend en charge à la fois les utilisateurs d’entreprise et les utilisateurs anonymes. Les utilisateurs d’entreprise ont des informations d’identification des services de domaine Active Directory et des comptes Skype Entreprise Server au sein de leur organisation. Les utilisateurs anonymes n’ont pas d’informations d’identification d’entreprise au sein de votre organisation. Dans le contexte de conférence rendez-vous, un utilisateur de l’organisation d’un partenaire fédéré qui utilise le réseau téléphonique local (RST) pour se connecter à une conférence est traité comme un utilisateur anonyme. Pour les conférences téléphoniques, contrairement à d’autres contextes, les utilisateurs fédérés ne sont pas authentifiés.
   
-Les utilisateurs d’entreprise ou les organisateurs de conférence qui participent à une conférence activée pour l’accès par modem composent un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Si un organisateur n’a pas encore rejoint la réunion, les utilisateurs peuvent entrer leur extension de communications unifiées (ou leur numéro de téléphone complet) et leur code confidentiel ou attendre d’être admis par l’organisateur. L’organisateur de la réunion peut participer à la réunion en tant que tel en entrant seulement son code confidentiel. Le serveur frontal utilise l’association de l’extension du numéro de téléphone complet et du code confidentiel pour mapper de manière unique les utilisateurs d’entreprise à leurs informations d’identification Active Directory. Ils sont ainsi authentifiés et identifiés à l’aide de leur nom dans la conférence. Ils peuvent également adopter un rôle de conférence prédéfini par l’organisateur.
+Les utilisateurs d’entreprise ou les responsables de conférence qui rejoignent une conférence qui est activée pour l’accès entrant composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Si un responsable n’a pas encore rejoint la réunion, les utilisateurs peuvent entrer leur poste de communications unifiées (ou leur numéro de téléphone complet) et leur code confidentiel ou attendre d’être admis par un responsable. L’organisateur de la réunion peut participer à la réunion en tant qu’organisateur en entrant simplement son code confidentiel. Le serveur frontal utilise la combinaison d’un numéro de téléphone complet ou d’une extension, et d’un code confidentiel, pour ma propres aux utilisateurs d’entreprise à leurs informations d’identification Active Directory. Par conséquent, les utilisateurs d’entreprise sont authentifiés et identifiés par leur nom dans la conférence. Les utilisateurs d’entreprise peuvent également assumer un rôle de conférence prédéféré par l’organisateur.
   
 > [!NOTE]
-> Les utilisateurs d’entreprise qui se connectent à partir d’un téléphone IP Office ou de Skype entreprise Server attendant ne sont pas invités à entrer leur numéro de téléphone, car ils sont déjà authentifiés. 
+> Les utilisateurs d’entreprise qui appellent à partir d’un téléphone IP de bureau ou de skype entreprise Server Attendant ne sont pas invités à composer leur numéro de téléphone, car ils sont déjà authentifiés. 
   
-Les utilisateurs anonymes qui souhaitent participer à une conférence composent un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non identifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés au sein de la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un organisateur ou utilisateur authentifié ne l’a pas rejointe. Aucun rôle prédéfini ne peut leur être attribué.
+Les utilisateurs anonymes qui souhaitent participer à une conférence entrante composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non authentifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés dans la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un dirigeant ou un utilisateur authentifié n’a pas rejoint la conférence et ne peuvent pas se voir attribuer un rôle prédéféré.
   
 > [!NOTE]
-> Les utilisateurs d’entreprise qui décident de ne pas entrer leur numéro de téléphone ni leur code confidentiel ne sont pas considérés comme authentifiés. Ils sont invités à enregistrer leur nom et traités comme des utilisateurs anonymes dans la conférence. 
+> Les utilisateurs d’entreprise qui choisissent de ne pas entrer leur numéro de téléphone et leur code confidentiel ne sont pas authentifiés. Ils sont invités à enregistrer leur nom et sont traités comme des utilisateurs anonymes dans la conférence. 
   
-Lors de la planification d’une réunion, l’organisateur de la réunion peut décider de restreindre l’accès à la réunion en la fermant ou en la verrouillant. Dans ce cas, les utilisateurs appelants sont invités à s’authentifier. 
+Lors de la planification d’une réunion, l’organisateur de la réunion peut choisir de restreindre l’accès à la réunion en la rendant fermée ou verrouillée. Dans ce cas, les utilisateurs de connexion sont invités à s’authentifier. 
   
-- S’ils échouent ou décident de ne pas s’authentifier, ils sont transférés vers la salle d’attente jusqu’à ce qu’un responsable les acceptent ou les refusent, ou jusqu’à ce qu’ils arrivent à expiration et soient déconnectés.
+- Si les utilisateurs de connexion échouent ou choisissent de ne pas s’authentifier, ils sont transférés vers la salle d’accueil où ils sont transférés jusqu’à ce qu’un responsable les accepte ou les rejette, ou qu’ils délai d’authentification et soient déconnectés.
     
-- Une fois admis dans une conférence, les utilisateurs d’appels entrants peuvent participer à la portion audio de la conférence et exécuter des commandes de numérotation en fréquences vocales (DTMF) à partir du clavier du téléphone.
+- Une fois admis à une conférence, les utilisateurs d’appels peuvent participer à la partie audio de la conférence et peuvent utiliser des commandes DTMF (numérotation en fréquences vocales) à l’aide du clavier du téléphone.
     
-- Les responsables de conférences rendez-vous peuvent exécuter des commandes DTMF pour admettre des personnes de la salle d’attente, activer ou désactiver le micro des participants, verrouiller ou déverrouiller la conférence et activer ou désactiver les annonces d’entrée et de sortie.
+- Les chefs d’accès peuvent utiliser des commandes DTMF pour activer ou désactiver la fonction d’entrée et de sortie des participants, verrouiller ou déverrouiller la conférence, admettre des personnes de la salle d’accueil et activer ou désactiver les annonces d’entrée et de sortie.
     
-- Les organisateurs peuvent également utiliser une commande DTMF pour admettre toutes les personnes de la salle d’attente, ce qui a pour effet de modifier les autorisations de la réunion en autorisant toute personne qui rejoint ultérieurement la réunion. 
+- Les responsables peuvent également utiliser une commande DTMF pour admettre tout le monde dans la salle d’accueil, ce qui modifie les autorisations de la réunion pour autoriser toute personne qui rejoint ensuite la réunion. 
     
-- Tous les participants d’appels entrants peuvent exécuter des commandes DTMF pour écouter l’aide, lire la liste de conférence ou désactiver eux-mêmes leur micro.
+- Tous les participants à la conférence peuvent utiliser des commandes DTMF pour écouter l’aide, écouter la liste des conférences et désactiver eux-mêmes le son.
     
-- Les participants d’appels entrants (qu’ils composent le numéro ou non à partir du RTC) entendent des annonces personnelles pendant la conférence, par exemple, si leur micro a été désactivé ou non, si la réunion est enregistrée ou si une personne attend dans la salle d’attente.
+- Les participants à la conférence rendez-vous (c’est-à-dire, qu’ils viennent ou non du PSTN) entendent des annonces personnelles pendant la conférence, par exemple s’ils ont été mis en sourdine ou non, si la réunion est enregistrée ou si quelqu’un attend dans la salle d’attente.
     
     > [!NOTE]
-    > Les participants qui rejoignent la conférence en cliquant sur un lien au lieu de composer un numéro n’entendent pas les annonces personnelles. 
+    > Les participants qui rejoignent la conférence en cliquant sur un lien au lieu d’appeler n’entendent pas les annonces personnelles. 
   
 

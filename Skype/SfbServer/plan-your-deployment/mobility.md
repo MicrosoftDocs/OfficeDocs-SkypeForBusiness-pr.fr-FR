@@ -1,8 +1,8 @@
 ---
-title: Plan de mobilité pour Skype entreprise Server
+title: Planifier la mobilité pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -13,75 +13,75 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: Planifiez le déploiement de votre mobilité pour Skype entreprise Server.
-ms.openlocfilehash: dd57da19a935ce1a8713cc856d553b81f4f7cd6b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planifiez l’implémentation de mobility for Skype for Business Server.
+ms.openlocfilehash: 6452154db1047cfe91a7c8ceaf6ee6c63b94ee6b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815852"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810074"
 ---
-# <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan de mobilité pour Skype entreprise Server
+# <a name="plan-for-mobility-for-skype-for-business-server"></a>Planifier la mobilité pour Skype Entreprise Server
  
-Planifiez le déploiement de votre mobilité pour Skype entreprise Server.
+Planifiez l’implémentation de mobility for Skype for Business Server.
   
-Skype entreprise Server vous permet de déployer la fonction de mobilité pour proposer une fonctionnalité de Skype entreprise Server sur les appareils mobiles. Cet article fournit des détails sur la fonctionnalité de mobilité et vous aide à planifier votre déploiement.
+Avec Skype Entreprise Server, vous pouvez déployer la fonctionnalité mobilité pour fournir la fonctionnalité Skype Entreprise Server sur les appareils mobiles. Cet article fournit des détails sur la fonctionnalité de mobilité et vous aide à planifier votre déploiement.
   
-La fonctionnalité de mobilité de Skype entreprise Server est capable de prendre en charge les clients mobiles pour Skype entreprise, ainsi que les clients Lync revenons à 2010. Après le déploiement, vos utilisateurs peuvent se connecter à votre déploiement Skype entreprise Server à l’aide d’appareils mobiles iOS, Android et Windows Phone, pour tirer parti de diverses fonctionnalités, notamment les fonctionnalités d’entreprise voix. Nous avons inclus une liste partielle ci-dessous et vous pouvez également consulter la [comparaison des fonctionnalités du client de bureau pour Skype entreprise](clients-and-devices/desktop-feature-comparison.md) pour plus d’informations :
+La fonctionnalité de mobilité pour Skype Entreprise Server est en mesure de prendre en charge les clients mobiles pour Skype Entreprise, ainsi que les clients Lync qui remontent à 2010. Une fois qu’il est déployé, vos utilisateurs peuvent se connecter à votre déploiement Skype Entreprise Server à l’aide des appareils mobiles iOS, Android et Windows Phone pris en charge pour tirer parti de différentes fonctionnalités, notamment les fonctionnalités Voix Entreprise. Nous avons inclus une liste partielle ci-dessous, et vous pouvez également consulter la comparaison des fonctionnalités client de bureau pour [Skype](clients-and-devices/desktop-feature-comparison.md) Entreprise pour plus d’informations :
   
 - Envoyer et recevoir des messages
     
-- Afficher les informations de présence
+- Afficher la présence
     
 - Afficher les contacts
     
-- Cliquer pour participer à une conférence
+- Cliquez pour participer à une conférence
     
-- Appel via le bureau
+- Appel via le travail
     
-- Numéro unique
+- Portée du nombre unique
     
 - Messagerie vocale
     
-- Notification des appels manqués
+- Notification d’appel manqué
     
-- VoIP
+- Voix sur IP (VoIP)
     
-- Vidéo des participants (H.264)
+- Vidéo du participant (H.264)
     
-- Affichage du contenu de la réunion (Partage de PowerPoint et de bureau/d'application)
+- Affichage du contenu de réunion (PowerPoint et partage de bureau/application)
     
-Tout cela est accompli par le biais de l’API Web de communications unifiées, ou UCWA. UCWA a été introduit pour la première fois dans Lync Server 2013 et est toujours utilisé avec Skype entreprise Server. Il existe une fonctionnalité supplémentaire permettant de communiquer avec les clients 2010 Lync et ce service de mobilité (MCX). Il s’agit de services gratuits, qui permettent aux clients Lync Server 2010 et 2013 ainsi qu’aux clients Skype entreprise d’accéder aux déploiements de Skype entreprise Server.
+Tout cela est réalisé par le biais de l’API Web communications unifiées ou UCWA. UCWA a été introduit pour la première fois dans Lync Server 2013 et est toujours en cours d’utilisation pour Skype Entreprise Server. Il existe une fonctionnalité supplémentaire pour communiquer avec les clients Lync 2010, à l’aide du service de mobilité (MCX). Ces services complémentaires permettent aux clients Lync Server 2010 et 2013, ainsi qu’aux clients Skype Entreprise, d’accéder aux déploiements de Skype Entreprise Server avec succès.
   
 > [!NOTE]
-> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-Il est important de noter que si toutes ces fonctionnalités sont disponibles une fois la mobilité mise en œuvre, elles peuvent fonctionner différemment sur certains appareils. Nous disposons d’un site Web qui décrit les fonctionnalités qui sont compatibles avec les appareils, lors de la [comparaison des fonctionnalités du client mobile pour Skype entreprise](clients-and-devices/mobile-feature-comparison.md). Nous avons également des informations de périphériques et de systèmes d’exploitation exceptionnelles au [plan pour les clients et les appareils](clients-and-devices/clients-and-devices.md).
+Il est important de noter que même si toutes ces fonctionnalités sont disponibles une fois la mobilité implémentée, elles peuvent fonctionner un peu différemment sur certains appareils. Nous avons un site web qui décrit les fonctionnalités qui fonctionnent sur quels appareils, à l’adresse de comparaison des fonctionnalités client mobiles [pour Skype Entreprise.](clients-and-devices/mobile-feature-comparison.md) Nous avons également d’excellentes informations sur les appareils et le système d’exploitation sur [la façon de planifier les clients et les appareils.](clients-and-devices/clients-and-devices.md)
   
-La mobilité tire une utilisation de la fonctionnalité de découverte automatique, qui permet aux clients de rechercher automatiquement les services Web de Skype entreprise Server sans que les utilisateurs aient besoin d’entrer dans une URL (ils n’ont pas besoin de les connaître). En cas de résolution de problèmes, la saisie manuelle d'URL est toujours prise en charge.
+La mobilité utilise la fonctionnalité de découverte automatique, qui permet aux clients de localiser automatiquement les services web Skype Entreprise Server sans que les utilisateurs n’ont besoin d’entrer d’URL (ils n’ont même pas besoin de les connaître). Si vous devez résoudre certains problèmes, l’entrée manuelle des URL est toujours prise en charge.
   
-Les notifications de transmission sont également prises en charge, lorsque l’application Skype entreprise n’est pas en cours d’exécution en arrière-plan (ou pour les appareils mobiles qui ne prennent pas en charge les applications qui s’exécutent en arrière-plan). Une notification push est envoyée à un appareil mobile lorsqu'un événement survient alors que l'application ou l'appareil est inactif. Par exemple, vous avez manqué un message instantané alors que votre téléphone était éteint, une notification push est alors envoyée (présentée sous forme de toast ou de notification, comme dans le cas d'une exécution de l'application en arrière-plan). Grâce aux notifications push, les utilisateurs ne manqueront plus aucun message instantané ni appel audio.
+Les notifications Push sont également pris en charge lorsque l’application Skype Entreprise n’est pas en cours d’exécution en arrière-plan (ou pour les appareils mobiles qui ne supportent pas les applications qui s’exécutent en arrière-plan). Une notification Push est envoyée à un appareil mobile à propos d’un événement qui se produit lorsque l’appareil ou l’application est inactif. Un bon exemple est l’absence d’un message instantané lorsque votre téléphone n’est pas actif, ce qui entraînerait l’envoi d’une notification Push (présentée comme un toast ou une notification, comme lorsque l’application s’exécute en arrière-plan). Avec les notifications Push, les utilisateurs ne manqueront pas de messages instantanés ou d’appels vocaux.
   
-Pour plus d’informations, consultez les sections suivantes :
+Pour plus d’informations, nous avons les sections suivantes :
   
 - [Composants de mobilité](mobility.md#MobilityComponents)
     
 - [Topologies prises en charge](mobility.md#SupportedTopos)
     
-- [Configuration technique requise](mobility.md#TechRequirements)
+- [Exigences techniques](mobility.md#TechRequirements)
     
-- [Définition de vos besoins en termes de mobilité](mobility.md#MobilityNeeds)
+- [Définition de vos besoins en matière de mobilité](mobility.md#MobilityNeeds)
     
 ## <a name="mobility-components"></a>Composants de mobilité
 <a name="MobilityComponents"> </a>
 
-Il existe quatre services qui comprennent la mobilité de Skype entreprise Server :
+Il existe quatre services qui comprennent la mobilité pour Skype Entreprise Server :
   
-- **API web Communications unifiées (UCWA)**
+- **API web Unified Communications (UCWA)**
     
-    Fournit des services pour communiquer en temps réel avec des clients mobiles et Web pour Skype entreprise Server. Lorsque Skype entreprise Server est déployé, un répertoire virtuel UCWA est créé dans les services Web internes et externes. Composant virtuel de cet annuaire virtuel qui accepte les appels provenant de clients UCWA. Les applications clientes communiquent par le biais d’une interface de transfert d’état de la présentation pour :
+    Fournit des services pour les communications en temps réel avec les clients mobiles et web pour Skype Entreprise Server. Lorsque Skype Entreprise Server est déployé, un répertoire virtuel UCWA est créé dans les services web internes et externes. Composant virtuel dans ce répertoire virtuel qui accepte les appels de clients activés pour UCWA. Les applications clientes communiquent sur une interface REST (Representational State Transfer) pour :
     
-  - informations de présence
+  - présence
     
   - contacts
     
@@ -89,178 +89,178 @@ Il existe quatre services qui comprennent la mobilité de Skype entreprise Serve
     
   - VoIP
     
-  - vidéoconférences
+  - vidéoconférence
     
   - collaboration
     
-    UCWA utilise un canal basé sur P-GET pour envoyer des événements tels qu’un appel entrant, un message instantané entrant ou un message à l’application cliente.
+    UCWA utilise un canal P-GET pour envoyer des événements, tels qu’un appel entrant, un message instantané entrant ou un message à l’application cliente.
     
 - **Service de mobilité (MCX)**
     
-    Prend en charge la fonctionnalité de Skype entreprise Server, telle que la messagerie instantanée, la présence et les contacts, sur les appareils mobiles. Le service de mobilité est installé sur chaque serveur frontal de chaque liste conçue pour prendre en charge les fonctionnalités de Skype entreprise Server sur les appareils mobiles. Lors de l’installation de Skype entreprise Server 2015, un nouveau répertoire virtuel (MCX) est créé sous le site Web interne et externe sur votre serveur frontal.
+    Prend en charge les fonctionnalités de Skype Entreprise Server, telles que la messagerie instantanée, la présence et les contacts, sur les appareils mobiles. Le service de mobilité est installé sur chaque serveur frontal de chaque pool destiné à prendre en charge les fonctionnalités de Skype Entreprise Server sur les appareils mobiles. Lorsque vous installez Skype Entreprise Server 2015, un nouveau répertoire virtuel (Mcx) est créé sous les sites web internes et externes sur vos serveurs frontux.
     
     > [!NOTE]
-    > La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
+    > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
 - **Service de découverte automatique**
     
-    Identifie l’emplacement de l’utilisateur et permet aux appareils mobiles et autres clients Skype entreprise de rechercher des ressources (par exemple, les URL internes et externes pour les services Web Skype entreprise Server, l’URL MCX ou l’URL UCWA), quel que soit l’emplacement réseau. La découverte automatique utilise des noms d’hôtes codés en dur (lyncdiscoverinternal pour les utilisateurs qui se trouvent sur le réseau et lyncdiscover pour les utilisateurs en dehors du réseau) et le domaine SIP de l’utilisateur. Elle prend en charge les connexions clientes qui utilisent le protocole HTTP ou HTTPS. 
+    Identifie l’emplacement de l’utilisateur et permet aux appareils mobiles et autres clients Skype Entreprise de localiser des ressources (telles que les URL internes et externes pour les services web Skype Entreprise Server, l’URL Mcx ou l’URL UCWA) quel que soit l’emplacement réseau. La découverte automatique utilise des noms d’hôtes codés en dur (lyncdiscoverinternal pour les utilisateurs au sein du réseau, lyncdiscover pour les utilisateurs en dehors du réseau) et le domaine SIP de l’utilisateur. Il prend en charge les connexions clientes qui utilisent HTTP ou HTTPS. 
     
-    Le service de découverte automatique est installé sur chaque serveur frontal et sur tous les directeurs de chaque liste conçue pour prendre en charge les fonctionnalités de Skype entreprise Server sur les appareils mobiles. Lorsque vous installez le service, un nouveau répertoire virtuel (découverte automatique) est créé sous les sites Web internes et externes sur vos serveurs et directeurs frontaux.
+    Le service de découverte automatique est installé sur chaque serveur frontal et sur chaque directeur de chaque pool destiné à prendre en charge les fonctionnalités de Skype Entreprise Server sur les appareils mobiles. Lorsque vous installez le service, un nouveau répertoire virtuel (découverte automatique) est créé sous les sites web internes et externes sur vos serveurs frontux et directeurs.
     
-- **Service de notifications Push**
+- **Service de notification Push**
     
-    Un service basé sur le Cloud qui se trouve dans votre centre de données Skype entreprise online. Sur les téléphones pour lesquels le client Skype entreprise s’exécute en arrière-plan alors qu’un nouvel événement se produit, la notification d’un événement manqué (appelé notification de transmission) est envoyée à la place à l’appareil mobile. Le service de mobilité envoie une notification au service de notifications de transmission (MPNS), qui l’envoie ensuite à l’appareil mobile. L'utilisateur peut alors répondre sur son téléphone pour activer l'application. Un serveur Edge est requis pour cette fonctionnalité.
+    Service basé sur le cloud qui se trouve dans votre centre de données Skype Entreprise Online. Sur les téléphones dont le client Skype Entreprise n’est pas en cours d’exécution en arrière-plan, lorsqu’un nouvel événement se produit, la notification d’un événement manqué (appelé notification Push) est envoyée à l’appareil mobile à la place. Le service de mobilité envoie une notification au service de notification push (MPNS), qui l’envoie ensuite à l’appareil mobile. L’utilisateur peut ensuite répondre à la notification sur son appareil mobile pour activer l’application. Un serveur Edge est requis pour cette fonctionnalité.
     
 ## <a name="supported-topologies"></a>Topologies prises en charge
 <a name="SupportedTopos"> </a>
 
-Nous avons pris en charge les applications Skype entreprise Server suivantes pour votre planification topologique :
+Nous avons pris en charge les applications Skype Entreprise Server suivantes pour la planification de votre topologie :
   
 - Mobility Standard Edition
     
 - Mobility Enterprise Edition
     
-Vous devriez être en mesure d’utiliser cette fonctionnalité avec les serveurs Edge de Skype entreprise Server ou les serveurs Edge Lync Server 2013.
+Vous devriez être en mesure d’utiliser cette fonctionnalité avec les serveurs Edge Skype Entreprise Server ou Lync Server 2013.
   
-Le service de mobilité est pris en charge sur les serveurs frontaux lorsqu’il est colocalisé avec le rôle serveur de médiation, avec deux interfaces réseau, mais vous devez suivre les étapes nécessaires pour configurer ces interfaces. Vous devez attribuer des adresses IP à l’interface spécifique qui communiquera en tant que serveur de médiation et à l’interface IP réseau qui communiquera en tant que serveur frontal. Pour cela, vous pouvez sélectionner l’adresse IP correcte pour chaque service au lieu d’utiliser la sélection par défaut **utiliser toutes les adresses IP configurées** .
+Le service de mobilité est pris en charge sur les serveurs frontaux lorsqu’il est coqueté avec le rôle serveur de médiation, avec deux interfaces réseau, mais vous devez prendre les mesures appropriées pour configurer ces interfaces. Vous devez affecter des adresses IP à l’interface spécifique qui communiquera en tant que serveur de médiation et à l’interface IP réseau qui communiquera en tant que serveur frontal. Vous pouvez le faire dans le Générateur de topologie en sélectionnant l’adresse IP correcte pour chaque service, au lieu d’utiliser la sélection par défaut Utiliser toutes les **adresses IP** configurées.
   
-## <a name="technical-requirements"></a>Configuration technique requise
+## <a name="technical-requirements"></a>Exigences techniques
 <a name="TechRequirements"> </a>
 
-Il est important de planifier les différents scénarios d’application mobiles que vos utilisateurs mobiles peuvent rencontrer. Par exemple, une personne peut commencer à utiliser une application mobile en dehors du travail en se connectant par le biais d’un réseau 3G, puis basculez vers le réseau Wi-Fi d’entreprise lorsqu’il atteint son travail. Ils peuvent basculer vers 4G lorsque vous quittez leur bâtiment. La planification vous permettra désormais de prendre en charge ces transitions réseau et de garantir une utilisation homogène de l’utilisateur.
+Il est important de planifier les différents scénarios d’application mobile que vos utilisateurs mobiles peuvent rencontrer. Par exemple, une personne peut commencer à utiliser une application mobile en dehors du travail en se connectant via un réseau 3G, puis basculer vers le réseau Wi-Fi d’entreprise lorsqu’elle atteint le travail. Ils peuvent basculer vers la 4G lorsqu’ils quittent leur bâtiment. La planification maintenant vous permettra de prendre en charge ces transitions réseau et de garantir une expérience utilisateur cohérente.
   
-### <a name="dns-configuration"></a>Configuration DNS
+### <a name="dns-configuration"></a>Configuration du DNS
 
-Les services de mobilité MCX et UCWA utilisent la même méthode DNS. Grâce à la découverte automatique, les appareils mobiles utilisent le système DNS pour rechercher des ressources. Lors de la recherche DNS, une tentative de connexion est effectuée vers le nom de domaine complet associé à l’enregistrement DNS interne (lyncdiscoverinternal.[internal domain name]). Si aucune connexion ne peut être établie à l’aide de l’enregistrement DNS interne, une seconde tentative de connexion est effectuée à l’aide de l’enregistrement DNS externe (lyncdiscover.[sipdomain]). Pourquoi disposer des deux ? Un appareil mobile interne à votre réseau pourra utiliser l'URL interne de découverte automatique. Les appareils mobiles externes utiliseront l'URL externe de découverte automatique. Dans les deux cas, le service de découverte automatique renvoie toutes les URL de service Web pour le pool de domicile de l’utilisateur, y compris le service de mobilité (MCX et UCWA).
+Les services de mobilité Mcx et UCWA utilisent DNS de la même manière. Avec la découverte automatique, les appareils mobiles utilisent DNS pour localiser des ressources. Lors de la recherche DNS, une tentative de connexion au FQDN associée à l’enregistrement DNS interne (lyncdiscoverinternal.[ nom de domaine interne]). Si l’enregistrement DNS interne ne peut pas être utilisé pour établir cette connexion, une deuxième tentative de connexion est tentée, cette fois vers l’enregistrement DNS externe (lyncdiscover.[ sipdomain]). Pourquoi en avoir deux ? Un appareil mobile interne à votre réseau pourra utiliser l’URL de découverte automatique interne. Les appareils mobiles externes utiliseront l’URL de découverte automatique externe. Dans les deux cas, le service de découverte automatique retourne toutes les URL de service Web pour le pool d’accueil de l’utilisateur, qui inclut le service de mobilité (Mcx et UCWA).
   
-Les requêtes de découverte automatique externes sont censées traverser le proxy inverse que vous avez configuré pour Skype entreprise Server. Toutefois, l’URL du service de mobilité interne et l’URL du service de mobilité externe sont associées au nom de domaine complet des services Web externes. Par conséquent, qu’il s’agisse d’un appareil mobile ou d’une connexion interne ou externe à votre réseau, l’appareil se connecte toujours au service de mobilité Skype entreprise Server en externe, par le biais de votre proxy inverse.
+Il est prévu que les demandes de découverte automatique externes passeront par le proxy inverse que vous avez configuré pour Skype Entreprise Server. Toutefois, l’URL du service de mobilité interne et l’URL du service de mobilité externe sont associées au FQDN des services web externes. Par conséquent, qu’un appareil mobile soit interne ou externe à votre réseau, il se connecte toujours au service Skype Entreprise Server Mobility en externe, via votre proxy inverse.
   
 > [!NOTE]
-> Comme nous l’avons remarqué, le trafic de service de mobilité (interne et externe) passera par votre proxy inverse. Cependant, une erreur se produit parfois lorsque le trafic interne sort par une interface, pour ensuite tenter de revenir vers cette même interface. Cela peut entraîner une violation de vos règles de sécurité appelée usurpation d'identité (usurpation d’identité de paquet TCP). Vous devez permettre aux **cheveux** d’avoir une fonction de mobilité.
+> Comme nous venons de le noter, tout le trafic du service de mobilité (interne et externe) passe par votre proxy inverse. Mais parfois, un problème survient lorsque le trafic interne quitte une interface, uniquement pour essayer de revenir sur la même interface. Cela peut enfreindre vos règles de sécurité d’usurpation (officiellement appelée usurpation de paquetS TCP). Vous devez autoriser l’épinglage **des épingles** à avoir une fonction de mobilité.
   
 > [!NOTE]
-> Si vous êtes prêt à effectuer cette opération, vous pouvez également choisir d’utiliser un proxy inverse différent de votre pare-feu (à des fins de sécurité, la prévention de l’usurpation d’identité doit toujours être appliquée au pare-feu). De cette façon, le cheveux peut se produire à l’interface externe de votre proxy inverse, plutôt qu’à l’interface externe de votre pare-feu. Cela vous permet de détecter les tentatives d’usurpation d’identité au niveau de votre pare-feu lors de la délâchement de la règle sur votre proxy inverse, et de bénéficier de la fonctionnalité de mobilité. 
+> Si vous êtes prêt à le faire, vous pouvez également choisir d’utiliser un proxy inverse distinct de votre pare-feu (à des fins de sécurité, la prévention de l’usurpation d’identification doit toujours être appliquée à votre pare-feu). Ainsi, l’épingle peut se produire dans l’interface externe de votre proxy inverse, plutôt que dans l’interface externe de votre pare-feu. Cela vous permet de détecter l’usurpation correctement au niveau de votre pare-feu pendant que vous relâchez la règle au niveau de votre proxy inverse et que vous obtenez vos fonctionnalités de mobilité. 
   
 > [!NOTE]
-> Si vous naviguez dans le routage, veillez à utiliser l’hôte DNS ou les enregistrements CNAMe pour définir le proxy inverse du comportement de cheveux (pas le pare-feu), dans la mesure du possible. 
+> Si vous utilisez cet itinéraire, n’oubliez pas d’utiliser l’hôte DNS ou les enregistrements CNAME pour définir le proxy inverse pour le comportement d’épingle (et non le pare-feu), si possible. 
   
-Certains éléments devront être configurés pour prendre en charge les utilisateurs situés à l'intérieur comme l’extérieur du réseau de votre société.
+Vous devez configurer certains éléments pour prendre en charge les utilisateurs à l’intérieur et à l’extérieur de votre réseau d’entreprise.
   
-Voici les règles applicables aux noms de domaine complets web internes et externes :
+Voici les règles pour les FQDN web internes et externes :
   
-- nouveaux enregistrements DNS CNAME ou A (hôte, si IPv6, AAAA) pour la découverte automatique ;
+- Nouveaux enregistrements DNS CNAME ou A (hôte, si IPv6, AAAA) pour la découverte automatique.
     
-- nouvelle règle de pare-feu, si vous souhaitez prendre en charge les notifications push à travers votre réseau Wi-Fi ;
+- Nouvelle règle de pare-feu, si vous souhaitez prendre en charge les notifications push via Wi-Fi réseau.
     
-- Les autres noms d’objet des certificats de serveur internes et des certificats de proxy inverse, pour la découverte automatique.
+- Autres noms du sujet sur les certificats de serveur interne et les certificats de proxy inverse, pour la découverte automatique.
     
-- La configuration de l’équilibrage de charge matérielle du serveur frontal a changé d’affinité de source.
+- La configuration avec charge matérielle équilibrée du serveur frontal modifie l’affinité de la source.
     
-Voici les exigences de topologie nécessaires à la prise en charge du service de mobilité et du service de découverte automatique :
+Voici la topologie requise pour prendre en charge le service de mobilité et le service de découverte automatique :
   
-- Le nom de domaine complet (FQDN) du pool frontal doit être différent du FQDN Web de la liste frontale.
+- Le FQDN web interne du pool frontal doit être distinct du FQDN web externe du pool frontal.
     
-- Le nom de domaine complet web interne doit uniquement être résolu vers et accessible depuis l’intérieur du réseau d’entreprise.
+- Le FQDN web interne doit uniquement résoudre et être accessible à partir du réseau d’entreprise.
     
-- Le nom de domaine complet web externe doit uniquement être résolu vers et accessible depuis Internet.
+- Le FQDN web externe doit uniquement résoudre et être accessible à partir d’Internet.
     
-- S’il s’agit d’un utilisateur au sein du réseau d’entreprise, l’URL du service de mobilité doit être adressée au FQDN Web externe. Cette obligation est appliquée au service de mobilité et ne s’applique qu’à cette URL.
+- Pour un utilisateur au sein du réseau d’entreprise, l’URL du service de mobilité doit être adressée au nom de domaine complet web externe. Cette exigence concerne le service de mobilité et s’applique uniquement à cette URL.
     
-- S’il s’agit d’un utilisateur en dehors du réseau d’entreprise, la requête doit accéder au nom de domaine complet (FQDN) Web externe du pool frontal ou du réalisateur.
+- Pour un utilisateur en dehors du réseau d’entreprise, la demande doit être au nom de groupe web externe du pool frontal ou du directeur.
     
-Si vous prenez en charge la découverte automatique, vous devrez créer les enregistrements DNS suivants pour chaque domaine SIP :
+Si vous prendre en charge la découverte automatique, vous devez effectuer les enregistrements DNS suivants pour chaque domaine SIP :
   
-- un enregistrement DNS interne afin de prendre en charge les utilisateurs qui se connectent depuis l'intérieur de votre réseau de votre organisation.
+- Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent depuis l’intérieur du réseau de votre organisation.
     
-- un enregistrement DNS externe, ou public, afin de prendre en charge les utilisateurs mobiles qui se connectent depuis Internet.
+- Un enregistrement DNS externe ou public pour prendre en charge les utilisateurs mobiles qui se connectent à partir d’Internet.
     
-L’URL de découverte automatique interne ne doit pas être adressable depuis l’extérieur de votre réseau interne. L’URL de découverte automatique externe ne doit pas être adressable depuis l'intérieur de votre réseau. Toutefois, si cette condition ne peut pas être remplie pour l’URL externe, la fonctionnalité de votre client mobile ne sera probablement pas affectée, car la première tentative portera toujours sur l’URL interne.
+L’URL de découverte automatique interne ne doit pas être adressaçable depuis l’extérieur de votre réseau interne. L’URL de découverte automatique externe ne doit pas être adressaçable à partir de votre réseau. Toutefois, si cela n’est pas possible pour l’URL externe, vos fonctionnalités de client mobile ne seront probablement pas affectées, car l’URL interne sera toujours essayée en premier.
   
-### <a name="port-and-firewall-requirements"></a>Exigences relatives aux ports et aux pare-feu
+### <a name="port-and-firewall-requirements"></a>Exigences en matière de port et de pare-feu
 
-Nous avons parlé de la plupart de ces éléments dans notre autre documentation, mais en particulier pour la mobilité, il est préférable que les ports suivants s’ouvrent sur votre réseau Wi-Fi d’entreprise, si vous avez des utilisateurs hébergés sur une unité Survivable (SBA) :
+Nous avons abordé la plupart de ces questions dans notre autre documentation, mais en particulier pour la mobilité, vous souhaitez que les ports suivants s’ouvrent sur votre réseau Wi-Fi d’entreprise si vous avez des utilisateurs sur un Survivable Branch Appliance (SBA) :
   
-- UcwaSipExternalListeningPort requiert le port 5088.
+- UcwaSipExternalListeningPort requiert 5088.
     
-- UcwaSipPrimaryListeningPort requiert le port 5089.
+- UcwaSipPrimaryListeningPort requiert 5089.
     
-### <a name="certificate-requirements"></a>Exigences en matière de certificats
+### <a name="certificate-requirements"></a>Spécifications des certificats
 
-Si vous utilisez la fonctionnalité de découverte automatique pour vos clients mobiles Skype entreprise, vous devez modifier les listes de remplacement de l’objet SAN sur vos certificats pour prendre en charge des connexions sécurisées à partir de vos clients mobiles. Si vous avez déjà des certificats sur place, vous devez demander et affecter de nouveaux certificats avec les entrées du SAN décrites ici. Cette opération doit être réalisée pour chaque serveur frontal et directeur (dans votre environnement) qui exécute le service de découverte automatique. Nous vous conseillons également de modifier les listes SAN sur vos certificats de proxy inverse, en ajoutant des entrées SAN pour chaque domaine SIP de votre organisation.
+Si vous utilisez la découverte automatique pour vos clients mobiles Skype Entreprise, vous devez modifier les listes SAN (autre nom de l’objet) sur vos certificats pour prendre en charge les connexions sécurisées à partir de vos clients mobiles. Si vous avez déjà des certificats en place, vous devez demander et affecter de nouveaux certificats avec les entrées SAN décrites ici. Cette étape doit être effectuée pour chaque serveur frontal et directeur (dans votre environnement) qui exécute le service de découverte automatique. Nous vous recommandons également de modifier les listes SAN sur vos certificats de proxy inverse, en ajoutant des entrées SAN pour chaque domaine SIP de votre organisation.
   
-Ce processus doit être simple si vous demandez la remise de nouveaux certificats à partir d’une autorité de certification interne (autorité de certification), mais les certificats publics sont plus complexes, et, dans la plupart des cas, ils peuvent s’avérer coûteux d’ajouter un grand nombre de domaines SIP à un nouveau certificat public. Dans cette situation, il existe une approche qui est prise en charge, mais elle **n’est pas recommandée**. Vous pouvez configurer votre proxy inverse pour que la demande de service de découverte automatique initiale sur le port 80, qui utilise HTTP plutôt que le port 443, qui est HTTPs (et 443, la configuration par défaut). Cette demande entrante sera redirigée vers le port 8080 sur votre pool frontal ou directeur. De cette façon, il ne sera pas nécessaire de modifier vos certificats, car ce trafic n'utilise pas le protocole HTTPS pour les demandes. Nous voulons cependant insister sur le fait que nous ne recommandons pas cette approche, bien qu'elle fonctionnera dans votre cas.
+Ce processus doit être simple si vous demandez les nouveaux certificats à une autorité de certification interne, mais les certificats publics sont plus complexes et potentiellement beaucoup plus coûteux à demander, sans compter qu’ajouter un grand nombre de domaines SIP à un nouveau certificat public peut être coûteux. Dans ce cas, il existe une approche prise en charge, mais **non recommandée.** Vous pouvez configurer votre proxy inverse pour effectuer la demande initiale du service de découverte automatique sur le port 80, qui utilisera HTTP, plutôt que le port 443, qui est HTTPS (et 443 est la configuration par défaut). Cette demande entrante sera redirigée vers le port 8080 sur votre pool frontal ou directeur. En faisant cela, vous n’aurez pas besoin d’apporter des modifications de certificat, car ce trafic n’utilise pas HTTPS pour les demandes. Mais là encore, nous ne le recommandons pas, bien que cela fonctionne pour vous.
   
-### <a name="windows-and-iis-requirements"></a>Configuration requise pour Windows et les services Internet (IIS)
+### <a name="windows-and-iis-requirements"></a>Conditions requises pour Windows et IIS
 
-Vous devez disposer d’une version de Windows Server compatible pour votre environnement Skype entreprise Server. Par conséquent, vous devez disposer également de IIS 8 ou IIS 8.5 pour vos besoins en termes de mobilité. Vous devrez apporter quelques modifications aux paramètres de ASP.NET par défaut, mais le programme d’installation du service de mobilité le fera automatiquement.
+Vous devez avoir une version de Windows Server prise en charge pour votre environnement Skype Entreprise Server. Par conséquent, vous devez également avoir IIS 8 ou IIS 8.5 pour vos besoins de mobilité. Certaines modifications devront être apportées aux paramètres de ASP.NET par défaut, mais le programme d’installation du service de mobilité le fera automatiquement.
   
-### <a name="hlb-requirements"></a>Configuration requise pour l’équilibreur de charge matérielle
+### <a name="hlb-requirements"></a>Conditions requises pour l’programme d’programme d
 
-Si vous utilisez une topologie pour Skype entreprise Server incluant un HLB pour votre réserve frontale (qui correspond à une topologie incluant plusieurs serveurs frontaux), il est nécessaire de configurer l’IPs virtuel des services Web externes (VIP) pour le trafic des services Web. pour source. L'affinité source permet d'assurer l'envoi de plusieurs connexions provenant d'un seul client vers le même serveur pour maintenir l’état de la session.
+Si vous utilisez une topologie pour Skype Entreprise Server qui inclut un programme d’hlb pour votre pool frontal (qui serait une topologie comprenant plusieurs serveurs frontaux), les adresses IPS virtuelles (VIP) des services web externes pour le trafic des services Web doivent être configurées pour la source. L’affinité de source permet de s’assurer que plusieurs connexions à partir d’un seul client sont envoyées au même serveur pour maintenir l’état de session.
   
-Si vous envisagez de prendre en charge des clients mobiles Skype entreprise uniquement sur votre réseau Wi-Fi interne, vous devez configurer vos VIP de services Web internes pour la source, comme décrit pour les VIP de services Web externes. Dans ce cas, vous devez utiliser l’affinité source_addr (ou TCP) pour les VIP des services Web internes sur le HLB.
+Si vous envisagez de prendre en charge les clients mobiles Skype Entreprise uniquement sur votre réseau Wi-Fi interne, vous devez configurer vos adresses VIP internes des services web pour la source, comme décrit pour les adresses VIP des services web externes. Dans ce cas, vous devez utiliser l’affinité source_addr (ou TCP) pour les adresses IP ip ip (VIP) des services web internes sur l’programme d’programmes d’hlb.
   
-Pour plus d’informations, reportez-vous à la documentation de [Load balancing requirements for Skype for Business](network-requirements/load-balancing.md).
+Pour plus d’informations sur tout cela, consultez les exigences d’équilibrage de charge pour la documentation [de Skype](network-requirements/load-balancing.md) Entreprise.
   
 ### <a name="reverse-proxy-requirements"></a>Exigences relatives au proxy inverse
 
-Pour prendre en charge la découverte automatique pour les clients mobiles Skype entreprise, vous devez mettre à jour la règle de publication actuelle comme suit :
+Pour prendre en charge la découverte automatique pour les clients mobiles Skype Entreprise, vous devez mettre à jour la règle de publication actuelle comme suit :
   
-- Si vous décidez de mettre à jour les listes de SAN sur vos certificats de proxy inverse et que vous utilisez HTTPs pour la demande de service de découverte automatique initiale, vous devez mettre à jour la règle de publication Web pour lyncdiscover. \<sipdomain\>. En règle générale, ce problème est associé au RUL de publication pour l’URL des services Web externes sur le pool frontal.
+- Si vous décidez de mettre à jour les listes SAN sur vos certificats de proxy inverse et que vous utilisez HTTPS pour la demande initiale du service de découverte automatique, vous devez mettre à jour la règle de publication web pour lyncdiscover. \<sipdomain\> Cela est généralement combiné avec la rul de publication pour l’URL des services web externes sur le pool frontal.
     
-- Si vous avez décidé d’utiliser HTTP pour la demande de service de découverte automatique initiale afin d’éviter de mettre à jour la liste des SAN pour vos certificats de proxy inverse (ce que nous ne recommandons pas), vous devez créer une nouvelle règle de publication sur le Web pour le port HTTP/TCP 80, le cas échéant. S’il existe une règle, mettez-la à jour pour inclure une lyncdiscover. \<entrée\> sipdomain.
+- Si vous avez décidé d’utiliser HTTP pour la demande initiale du service de découverte automatique afin d’éviter d’avoir à mettre à jour la liste SAN pour vos certificats de proxy inverse (ce que nous ne recommandons pas), vous devrez créer une règle de publication web pour le port HTTP/TCP 80, s’il n’en existe pas déjà une. Si cette règle existe, mettez-la à jour pour inclure un lyncdiscover.\<sipdomain\> entrée.
     
-## <a name="defining-your-mobility-needs"></a>Définition de vos besoins en termes de mobilité
+## <a name="defining-your-mobility-needs"></a>Définition de vos besoins en matière de mobilité
 <a name="MobilityNeeds"> </a>
 
-Maintenant que nous avons examiné les topologies, les composants et les spécifications techniques, examinons ce que votre organisation peut en faire en termes de mise en œuvre de mobilité.
+Maintenant que nous avons examiné les topologies, les composants et les exigences techniques, examinons ce dont votre organisation peut avoir besoin en termes d’implémentation de la mobilité.
   
-### <a name="do-you-want-to-use-automatic-discovery-for-skype-for-business-mobile-clients"></a>Souhaitez-vous utiliser la découverte automatique pour les clients mobiles Skype Entreprise ?
+### <a name="do-you-want-to-use-automatic-discovery-for-skype-for-business-mobile-clients"></a>Souhaitez-vous utiliser la découverte automatique pour les clients mobiles Skype Entreprise ?
 
-Nous vous recommandons vivement d'utiliser la découverte automatique. La création d'enregistrements DNS internes et externes sera requise, tel que décrit dans la section de configuration technique requise plus haut. La découverte automatique permet aux clients Skype entreprise de retrouver automatiquement les services Web de Skype entreprise Server depuis n’importe quel emplacement, sans avoir besoin d’une URL à entrer manuellement.
+Nous vous recommandons vivement d’utiliser la découverte automatique. Il nécessitera la création de nouveaux enregistrements DNS internes et externes, comme documenté dans la section Technical Requirements ci-dessus. Avec la découverte automatique, les clients Skype Entreprise peuvent localiser automatiquement les services Web Skype Entreprise Server à partir de n’importe quel emplacement, sans qu’une URL soit saisie manuellement.
   
-Vous pouvez utiliser les paramètres manuels si besoin est. Ces URL devront être saisies par les utilisateurs dans leurs appareils mobiles :
+Vous pouvez utiliser les paramètres manuels si nécessaire. Ces URL doivent être entrées par les utilisateurs sur leurs appareils mobiles :
   
-- **https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/root** pour l’accès externe.
+- **https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** pour l’accès externe.
     
-- **https://\<IntPoolFQDN\>/Autodiscover/autodiscoverservice.svc/root** pour l’accès interne.
+- **https:// \<IntPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** pour l’accès interne.
     
-Nous vous recommandons à nouveau d'utiliser la découverte automatique. Les paramètres manuels vous seront peut-être utiles lors de la résolution de problèmes.
+Là encore, nous vous recommandons d’utiliser la découverte automatique. Vous trouverez peut-être des paramètres manuels utiles à des fins de dépannage.
   
-### <a name="are-you-going-to-support-push-notifications"></a>Allez-vous prendre en charge les notifications push ?
+### <a name="are-you-going-to-support-push-notifications"></a>Allez-vous prendre en charge les notifications Push ?
 
-Les notifications push sont utilisées pour les applications mobiles qui prennent en charge cette fonctionnalité pour notifier un utilisateur d'un événement survenu alors que l'application était inactive. Votre serveur Edge doit avoir une relation de Fédération avec votre service de notifications de transmission Skype entreprise Server sur le Cloud, qui se trouve dans le centre de donnees Skype entreprise online. Vous devrez exécuter un applet de commande pour activer les notifications push.
+Les notifications Push sont utilisées pour les applications mobiles qui utilisent cette fonctionnalité pour informer un utilisateur des événements alors que l’application n’est pas active. Votre serveur Edge doit avoir une relation de fédération avec votre service de notification push Skype Entreprise Server basé sur le cloud, qui se trouve dans le centre de données Skype Entreprise Online. Vous devez exécuter une cmdlet pour activer les notifications Push.
   
 > [!NOTE]
-> Si vous avez des utilisateurs de Lync Server 2010, ils doivent disposer d’un port TCP 5223 ouvert sur le réseau WiFi de votre entreprise. 
+> Si des personnes utilisent toujours des clients Lync Server 2010, elles auront besoin du port TCP 5223 pour ouvrir le trafic sortant sur votre réseau WiFi d’entreprise. 
   
-### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>Souhaitez-vous que tous vos utilisateurs accèdent à toutes les fonctionnalités de mobilité ou vous souhaitez spécifier les utilisateurs qui peuvent accéder à ces fonctionnalités à la place ?
+### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>Voulez-vous que tous vos utilisateurs accèdent à toutes les fonctionnalités de mobilité ou spécifiez-vous plutôt les utilisateurs qui peuvent accéder à ces fonctionnalités ?
 
-Nous avons un tableau pour vous aider à effectuer certaines des fonctionnalités qui sont disponibles pour tous les utilisateurs, et qu’ils soient définis ou non par défaut. Pour obtenir une liste complète, veuillez consulter la rubrique [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+Nous avons un tableau pour vous aider avec certaines des fonctionnalités disponibles pour tous les utilisateurs, et pour savoir si elles sont définies de cette façon ou non par défaut. Pour obtenir la liste complète, consultez [New-CsMobilityPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)
   
 > [!NOTE]
-> Les étendues pour l'ensemble de ces fonctions sont Globale/Site/Utilisateur. 
+> Les étendues de toutes ces fonctionnalités sont Global/Site/User. 
   
 |**Fonctionnalité**|**Nom du paramètre**|**Description**|**Paramètre par défaut**|
 |:-----|:-----|:-----|:-----|
-|Activer la mobilité  <br/> |EnableMobility  <br/> |Contrôle les utilisateurs d’une étendue donnée sur laquelle le client mobile Skype entreprise est installé. Si la stratégie est définie sur False, vos utilisateurs ne seront pas en mesure de se connecter à l'aide de leur client.  <br/> |Vrai  <br/> |
-|Voix extérieure  <br/> |EnableOutsideVoice  <br/> |Permet à un utilisateur d'utiliser l’Appel via le bureau, une fonctionnalité qui lui permet d’effectuer et de recevoir des appels à l’aide de son numéro professionnel au lieu de son numéro de téléphone mobile. Si ce paramètre est défini sur False, vos utilisateurs ne pourront pas effectuer ou recevoir d’appel à l’aide de leur numéro professionnel depuis leur téléphone mobile.  <br/> |Vrai  <br/> |
-|Activer l’audio/la vidéo IP  <br/> |EnableIPAudioVideo  <br/> |Défini sur la valeur par défaut, ce paramètre permet à un utilisateur d'utiliser VoIP pour effectuer ou recevoir des appels sur son appareil mobile. Si ce paramètre est défini sur False, vos utilisateurs ne pourront pas utiliser leur appareil mobile pour effectuer ces actions.  <br/> |True  <br/> |
-|Exiger WiFi pour l’audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Détermine si un client devra passer et recevoir les appels sur VoIP sur Wi-Fi plutôt que sur le réseau de données cellulaire. Si ce paramètre est défini sur True, vos utilisateurs pourront passer et recevoir des appels VoIP uniquement lorsqu’ils sont connectés à un réseau WiFi.  <br/> |False  <br/> |
-|Exiger WiFi pour la vidéo IP  <br/> |RequireWiFiForIPVideo  <br/> |Détermine si un client devra passer et recevoir les appels vidéo sur VoIP sur Wi-Fi plutôt que sur le réseau de données cellulaire. Si ce paramètre est défini sur True, vos utilisateurs pourront passer et recevoir des appels VoIP uniquement lorsqu’ils sont connectés à un réseau WiFi.  <br/> |False  <br/> |
+|Activer la mobilité  <br/> |EnableMobility  <br/> |Contrôle les utilisateurs dans une étendue donnée qui ont installé le client mobile Skype Entreprise. Si la stratégie est définie sur False, vos utilisateurs ne pourront pas se connecter avec leur client.  <br/> |Vrai  <br/> |
+|Voix extérieure  <br/> |EnableOutsideVoice  <br/> |Permet à un utilisateur d’utiliser l’appel via le lieu de travail, ce qui permet aux utilisateurs d’envoyer et de recevoir des appels à l’aide de leur numéro de travail au lieu de leur numéro de téléphone mobile. Si elle est définie sur False, vos utilisateurs ne pourront pas effectuer ou recevoir d’appels sur leur téléphone mobile lors de l’utilisation de leur numéro de téléphone professionnels.  <br/> |Vrai  <br/> |
+|Activer l’audio et la vidéo IP  <br/> |EnableIPAudioVideo  <br/> |Définie sur la valeur par défaut, elle permet à un utilisateur d’utiliser voIP pour effectuer ou recevoir des appels téléphoniques ou vidéo sur son appareil mobile. S’il a été définie sur False, vos utilisateurs ne pourront pas utiliser leur appareil mobile pour faire l’une ou l’autre de ces choses.  <br/> |Vrai  <br/> |
+|Exiger le WiFi pour l’audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Définit si un client doit effectuer et recevoir des appels via VoIP sur WiFi au lieu d’un réseau de données cellulaire. Si la valeur est True, vos utilisateurs pourront uniquement effectuer et recevoir des appels VoIP lorsqu’ils sont connectés via WiFi.  <br/> |False  <br/> |
+|Exiger le WiFi pour la vidéo IP  <br/> |RequireWiFiForIPVideo  <br/> |Définit si un client doit effectuer et recevoir des appels vidéo sur Le WiFi au lieu d’un réseau de données cellulaire. Si la valeur est True, vos utilisateurs pourront uniquement effectuer et recevoir des appels VoIP lorsqu’ils sont connectés via WiFi.  <br/> |False  <br/> |
    
-### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>Les utilisateurs qui ne sont pas activés pour Voix Entreprise doivent-ils pouvoir utiliser la fonctionnalité Cliquez pour participer afin de rejoindre des conférences ?
+### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>Les utilisateurs qui ne sont pas activés pour Voix Entreprise peuvent-ils utiliser Click to Join pour participer à des conférences ?
 
-Pour que les utilisateurs puissent accéder aux fonctionnalités de mobilité et aux appels via le bureau, ils doivent être activés pour voix entreprise. Si ce n'est toutefois pas le cas, ils peuvent toujours participer aux conférences en cliquant sur un lien sur leur appareil mobile, mais une stratégie de voix appropriée devra leur être affectée. Vous pouvez procéder de l'une des manières suivantes :
+Pour que les utilisateurs accèdent aux fonctionnalités de mobilité et d’appel via le travail, ils doivent être activés pour Voix Entreprise. Toutefois, même s’ils ne sont pas activés, ils peuvent toujours participer à des conférences en cliquant sur un lien sur leur appareil mobile, mais uniquement s’ils ont une stratégie de voix appropriée qui leur est affectée. Vous pouvez :
   
-- affectez une stratégie de voix spécifique pour ces utilisateurs ; ou,
+- affecter une stratégie de voix spécifique à ces utilisateurs, ou,
     
-- assurez-vous qu'une stratégie globale ou de niveau site existe et qu'elle leur est appliquée.
+- assurez-vous qu’une stratégie globale ou une stratégie au niveau du site existe et qu’elle s’applique à ces stratégies.
     
-Dans un cas comme dans l'autre, la stratégie de voix que vous assignez doit avoir des enregistrements d’utilisation PSTN (Public Switched Telephone Network) et des itinéraires qui définiront les zones à partir desquelles les utilisateurs peuvent téléphoner pour rejoindre une conférence.
+Dans les deux cas, la stratégie de voix que vous affectez doit avoir des enregistrements d’utilisation du réseau téléphonique commuté (PSTN) et des itinéraires qui définissent l’endroit où vos utilisateurs pourront composer un numéro pour participer à des conférences.
   
 > [!NOTE]
-> Les utilisateurs mobiles qui souhaitent utiliser le Cliquer pour participer peuvent utiliser une stratégie vocale, ainsi que les enregistrements d’utilisation RTC et les itinéraires vocaux correspondants, car lorsque ces derniers cliquent sur le lien sur leur appareil mobile, un appel sortant de Skype entreprise Server est obtenu. 
+> Les utilisateurs mobiles qui souhaitent utiliser Click to Join nécessitent une stratégie de voix, ainsi que les enregistrements d’utilisation PSTN et les itinéraires de voix associés, car lorsqu’ils cliquent sur ce lien sur leurs appareils mobiles, un appel sortant de Skype Entreprise Server en résulte. 
   
 

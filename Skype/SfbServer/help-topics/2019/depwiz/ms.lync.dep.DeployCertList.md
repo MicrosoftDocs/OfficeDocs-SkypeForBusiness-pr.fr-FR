@@ -1,8 +1,8 @@
 ---
 title: Liste de certificats
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour attribuer un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur suivant pour continuer.
-ms.openlocfilehash: 23c1da1554b05e04c1491ea43f759b0918ce9d74
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour affecter un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur Suivant pour continuer.
+ms.openlocfilehash: 0165afc7a90983855dab8f5a0a2d1c7e44385318
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796835"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808914"
 ---
 # <a name="certificate-list"></a>Liste de certificats
  
-Pour assigner un certificat, sélectionnez un certificat dans le magasin de certificats local, puis liquez sur **Suivant** pour continuer.
+Pour affecter un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur **Suivant** pour continuer.
   
 Le ou les certificats pouvant être sélectionnés dans le volet **Sélectionner un certificat dans le magasin de certificats local** sont des certificats valides qui peuvent être assignés à l’utilisation du certificat dont vous avez besoin. Vous pouvez confirmer que le certificat que vous sélectionnez est le bon certificat en cliquant sur le bouton **Afficher les détails du certificat**. Sous l’onglet **Détails**, vous pouvez voir le nom du sujet et les autres noms du sujet désignés comme configurés sur le certificat.
   

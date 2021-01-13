@@ -1,8 +1,8 @@
 ---
-title: API du référentiel pour le tableau de bord de qualité des appels (bord) dans Skype entreprise Server
+title: API de référentiel pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,51 +12,51 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 'Résumé : en savoir plus sur l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 283ef7544435c3954898b2d5ae9e5f5b38762f3c
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Résumé : Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: 982ec0932f0a57958e1929a6ae2413ada0b5c9fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888783"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803124"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API du référentiel pour le tableau de bord de qualité des appels (bord) dans Skype entreprise Server
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de référentiel pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’API du référentiel fournit un accès par programmation pour le tableau de bord de qualité des appels pour Skype entreprise Server.
+L’API Repository fournit un accès par programmation pour le Tableau de bord de qualité des appels pour Skype Entreprise Server.
   
-## <a name="repository-api-for-call-quality-dashboard"></a>API du référentiel pour le tableau de bord de qualité des appels
+## <a name="repository-api-for-call-quality-dashboard"></a>API de référentiel pour le tableau de bord de qualité des appels
 
-L’API du référentiel offre une interface d’accès aux données à la base de données du référentiel. Le référentiel permet d’organiser le contenu dans une arborescence ou une structure de graphique de telle sorte que les utilisateurs puissent les regrouper selon les besoins des utilisateurs. Le référentiel prend en charge deux types d’utilisateurs généraux : l’utilisateur système, qui est un utilisateur intégré représentant le référentiel, et les utilisateurs normaux qui représentent les utilisateurs autorisés du référentiel.
+L’API repository offre une interface d’accès aux données à la base de données du référentiel. Le référentiel permet d’organiser le contenu dans une arborescence ou une structure graphique afin que les utilisateurs peuvent les grouper de la manière qui leur semble logique. Le référentiel prend en charge deux types d’utilisateurs généraux : l’utilisateur système, qui est un utilisateur intégré représentant le référentiel, et les utilisateurs réguliers qui représentent les utilisateurs autorisés du référentiel.
   
-L’API du référentiel se compose de trois services généraux : 
+L’API de référentiel se compose de trois services généraux : 
   
-- [Service utilisateur pour bord](user-service.md) -pour accéder aux utilisateurs.
+- [Service utilisateur pour le CQD](user-service.md) - pour accéder aux utilisateurs.
     
-- [Service d’article pour le tableau de bord de qualité des appels (bord)](item-service.md) -pour accéder aux éléments et au contenu stocké dans les éléments.
+- Service d’élément pour le tableau de bord de qualité des appels [(CQD)](item-service.md) : pour accéder aux éléments et au contenu stocké dans les éléments.
     
-- [Service de paramètres utilisateur pour le tableau de bord de qualité des appels (bord)](user-settings-service.md) -pour accéder aux paramètres de l’utilisateur.
+- Service de paramètres utilisateur pour le tableau de bord de qualité des appels [(CQD)](user-settings-service.md) : pour accéder aux paramètres utilisateur.
     
-Le tableau de bord de qualité des appels utilise l’API du référentiel pour gérer les informations suivantes : 
+Le tableau de bord de qualité des appels utilise l’API référentiel pour gérer les informations suivantes : 
   
-- Représentation **utilisateur** des utilisateurs qui ont accès au référentiel.
+- **User** : représentation des utilisateurs qui ont accès au référentiel.
     
-- **Rapport** -contient une liste de requêtes, stockée en tant que contenu dans les éléments du référentiel.
+- **Rapport** : contient une liste de requêtes, stockées en tant que contenu dans des éléments de référentiel.
     
-- **Requête** utilisée pour récupérer les données à partir de l’API de données, stockées en tant que contenu dans les éléments du référentiel.
+- **Requête :** utilisée pour récupérer des données à partir de l’API de données, stockées en tant que contenu dans des éléments de référentiel.
     
-- **Paramètre utilisateur** -décrit un comportement d’application facultatif pour l’utilisateur.
+- **Paramètre utilisateur** : décrit un comportement d’application facultatif pour l’utilisateur.
     
-  **Prise en charge du partage de ressources intersession pour l’API du référentiel**
+  **Prise en charge du partage de ressources d’origine croisée (CORS) pour l’API de référentiel**
   
-L’API du référentiel prend en charge le partage de ressources de traversée. CORS est une fonctionnalité HTTP qui permet à une application Web exécutée sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs Web mettent en œuvre une restriction de sécurité connue sous le nom de stratégie de [même origine qui](https://www.w3.org/Security/wiki/Same_Origin_Policy) empêche une page Web d’appeler des API dans un domaine différent. CORS fournit un moyen sécurisé pour permettre à un domaine (domaine d’origine) d’appeler des API dans un autre domaine. Pour plus d’informations sur l’affichage de l’une des [caractéristiques](https://www.w3.org/TR/cors/) de cors.
+L’API de référentiel prend en charge le partage de ressources d’origine croisée (CORS). CORS est une fonctionnalité HTTP qui permet à une application web s’exécutant sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs web implémentent une restriction de sécurité appelée stratégie de même origine qui empêche une page web d’appeler des API dans un autre domaine. [](https://www.w3.org/Security/wiki/Same_Origin_Policy) CORS offre un moyen sécurisé d’autoriser un domaine (le domaine d’origine) à appeler des API dans un autre domaine. Pour plus [d’informations sur CORS,](https://www.w3.org/TR/cors/) voir la spécification CORS.
   
- **Activation de CORS pour l’API du référentiel**
+ **Activation de CORS pour l’API référentiel**
   
- Voici un extrait de l’API du référentiel Web. config, montrant deux domaines répertoriés dans les paramètres de l’application corsTrustedOrigin. Toutes les demandes effectuées par les scripts chargés à partir de ces serveurs sont approuvées par l’API du référentiel.
+ Voici un extrait de l’api web.config référentiel, montrant deux domaines répertoriés dans les paramètres de l’application corsTrustedOrigin. Toutes les demandes faites par les scripts chargés à partir de ces serveurs sont fiables par l’API du référentiel.
   
-N’oubliez pas d’inclure le protocole, le nom d’hôte et le port exacts (le cas échéant). Ne placez aucun caractère barre oblique (/) à la fin. Plusieurs entrées peuvent être spécifiées en les séparant par des virgules.
+N’oubliez pas d’inclure le protocole exact, le nom d’hôte et le port (le cas contraire). Ne placez pas de barre oblique (/) à la fin. Plusieurs entrées peuvent être spécifiées en les séparant par des virgules.
   
 ```xml
 <repositoryConfiguration>

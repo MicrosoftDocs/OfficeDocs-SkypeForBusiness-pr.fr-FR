@@ -1,8 +1,8 @@
 ---
-title: Configurer l’exclusion de médias dans Skype entreprise Server pour ignorer toujours le serveur de médiation
+title: Configurer le contournement de média dans Skype Entreprise Server pour toujours contourner le serveur de médiation
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: Activez le contournement multimédia pour ignorer toujours le serveur de médiation dans Skype entreprise Server Voice.
-ms.openlocfilehash: cde2a1bff41016e05ac6c74978fa65b45f11a1e7
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Activez le contournement de média pour qu’il contourne toujours le serveur de médiation dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 23d3100e355d100e3dea1932639d70f9290e7ea4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768267"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804214"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurer l’exclusion de médias dans Skype entreprise Server pour ignorer toujours le serveur de médiation
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurer le contournement de média dans Skype Entreprise Server pour toujours contourner le serveur de médiation
  
-Activez le contournement multimédia pour ignorer toujours le serveur de médiation dans Skype entreprise Server Voice. 
+Activez le contournement de média pour qu’il contourne toujours le serveur de médiation dans Skype Entreprise Server Voix Entreprise. 
   
- Si vous suivez les étapes décrites dans cette rubrique pour configurer des paramètres globaux pour le contournement du média multimédia, il est supposé que vous disposez d’une bonne connectivité entre les points de terminaison Skype entreprise et les homologues pour lesquels vous avez configuré une contournement multimédia sur la connexion Trunk.
+ Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux du contournement de média, nous partons du principe que vous avez une bonne connectivité entre les points de terminaison Skype Entreprise et tout homologue pour lequel vous avez configuré le contournement de média sur la connexion de liaison.
   
-Si vous n’avez pas de bonne connectivité entre les points de terminaison Skype entreprise et tous les homologues sur le serveur de médiation pour lesquels une connexion de ligne respective a été activée pour la dérivation de média, vous devez configurer des paramètres globaux de contournement de médias pour utiliser les informations relatives au site et à la région. lors de l’utilisation d’une dérivation de média. Cela permet d’augmenter le contrôle lors du contournement du serveur de médiation par le média. Pour cela, suivez les étapes décrites dans l’article [configurer les paramètres globaux de contournement de médias dans Skype entreprise Server pour utiliser les informations sur les sites et les régions](use-site-and-region-information.md) et [associer un sous-réseau à un site réseau](deploy-network.md#BKMK_AssociateSubnets) .
+Si vous n’avez pas une bonne connectivité entre les points de terminaison Skype Entreprise et tous les homologues du serveur de médiation dont les connexions de liaison respectives ont été activées pour le contournement de média, vous devez configurer les paramètres globaux de déviation du média pour utiliser les informations de site et de région lors de l’utilisation de la déviation du média. Cela permet de déterminer plus précisément le moment auquel le média contourne le serveur de médiation. Pour ce faire, utilisez les étapes de configuration des [paramètres](use-site-and-region-information.md) globaux de déviation du média dans Skype Entreprise Server pour utiliser les informations de site et de région, puis associez un sous-réseau à un [site](deploy-network.md#BKMK_AssociateSubnets) réseau à la place.
   
-### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Pour activer la déviation du trafic multimédia au niveau global pour qu’il contourne toujours le serveur de médiation
+### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Pour activer le contournement de média au niveau global pour qu’il contourne toujours le serveur de médiation
 
-1. Ouvrez le panneau de configuration Skype entreprise Server.
+1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
 3. Double-cliquez sur la configuration **Globale** dans la liste.
     
-4. Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer la déviation du trafic multimédia**.
+4. Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contournement de média**.
     
 5. Cliquez sur **Toujours ignorer**.
     
@@ -47,7 +47,7 @@ Si vous n’avez pas de bonne connectivité entre les points de terminaison Skyp
     
 ## <a name="see-also"></a>Voir aussi
 
-[Plan de contournement de médias dans Skype entreprise](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[Planifier le contournement de média dans Skype Entreprise](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[Déploiement du contournement multimédia dans Skype entreprise Server](deploy-media-bypass.md)
+[Déploiement du contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)
 

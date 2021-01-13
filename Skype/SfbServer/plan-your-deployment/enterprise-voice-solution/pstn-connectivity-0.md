@@ -1,8 +1,8 @@
 ---
-title: Planifier la connectivité PSTN dans Skype entreprise Server
+title: Planifier la connectivité PSTN dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,40 +15,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Planifiez la connectivité PSTN dans voix entreprise dans Skype entreprise Server.
-ms.openlocfilehash: 12c18ba0be3f01651fb72ff325d7e51566da86ae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
+ms.openlocfilehash: 492f4e2cc71644cb1e9957f407a549cce5dbc31d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802544"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813564"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planifier la connectivité PSTN dans Skype entreprise Server
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planifier la connectivité PSTN dans Skype Entreprise Server
  
-Planifiez la connectivité PSTN dans voix entreprise dans Skype entreprise Server.
+Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
   
-Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (RTC) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas être informés de la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure voix entreprise et le RTC devrait paraître un appel téléphonique.
+Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (PSTN) doit se faire comme un simple appel téléphonique.
   
-Skype entreprise Server fournit une connectivité PSTN fiable et évolutive en utilisant les options suivantes :
+Skype Entreprise Server offre une connectivité PSTN fiable et évolutive à l’aide des options suivantes :
   
-- Les **jonctions SIP** vers un fournisseur de services de téléphonie Internet (ITSP)
+- **Des trunks SIP vers** un fournisseur de services de téléphonie Internet (ITSP)
     
-- Les **connexions SIP directes** à une passerelle RTC
+- **Connexions SIP directes** à une passerelle PSTN
     
-- Les **connexions SIP directes** à un système PBX
+- **Connexions SIP directes** à un PBX
     
-Selon la taille, la couverture géographique et l’infrastructure vocale existante, une entreprise peut utiliser une ou deux des options, voire les trois, à divers emplacements. Pour plus d’informations sur ces options, consultez les sections suivantes.
+En fonction de sa taille, de sa couverture géographique et de son infrastructure vocale existante, une entreprise peut utiliser une, deux ou même les trois options à différents emplacements. Pour plus d’informations sur ces options, voir les sections suivantes.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Trunking SIP dans Skype entreprise Server](sip-trunking.md)
+- [Une trunking SIP dans Skype Entreprise Server](sip-trunking.md)
     
-- [Connexions SIP directes dans Skype entreprise Server](direct-sip.md)
+- [Connexions SIP directes dans Skype Entreprise Server](direct-sip.md)
     
-- [M :N Trunk dans Skype entreprise Server](m-n-trunk.md)
+- [M:N trunk in Skype for Business Server](m-n-trunk.md)
     
-- [Règles de traduction dans Skype entreprise Server](translation-rules.md)
+- [Règles de traduction dans Skype Entreprise Server](translation-rules.md)
     
-- [Planifier le routage des communications sortantes dans Skype entreprise Server](outbound-voice-routing.md)
+- [Planifier le routage des voix sortantes dans Skype Entreprise Server](outbound-voice-routing.md)
     
 

@@ -1,8 +1,8 @@
 ---
-title: Prévoir une disponibilité élevée et une reprise après sinistre dans Skype entreprise Server
+title: Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,42 +14,42 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: Skype entreprise Server offre une grande disponibilité grâce à la mise en pool de serveurs, une reprise après sinistre avec le jumelage de pools, ainsi que plusieurs modes de haute disponibilité du serveur principal, y compris les groupes d’attribution de la base de données, la mise en miroir de la base de données et le basculement SQL.
-ms.openlocfilehash: 521ddaa9878ba660e509f248d2f2ffb944608d87
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Entreprise Server offre une haute disponibilité avec la mise en pool de serveurs, la récupération d’urgence avec le jumelage de pool et plusieurs modes de haute disponibilité du serveur principal, notamment les groupes de disponibilité AlwaysOn, la mise en miroir de bases de données et le clustering de SQL.
+ms.openlocfilehash: 61b720bc9dce5bc8dc54a6c493429b0a3c9b27d2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815922"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802814"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Prévoir une disponibilité élevée et une reprise après sinistre dans Skype entreprise Server
+# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server
  
-Skype entreprise Server offre une grande disponibilité grâce à la mise en pool de serveurs, une reprise après sinistre avec le jumelage de pools, ainsi que plusieurs modes de haute disponibilité du serveur principal, y compris les groupes d’attribution de la base de données, la mise en miroir de la base de données et le basculement SQL. 
+Skype Entreprise Server offre une haute disponibilité avec la mise en pool de serveurs, la récupération d’urgence avec le jumelage de pool et plusieurs modes de haute disponibilité du serveur principal, notamment les groupes de disponibilité AlwaysOn, la mise en miroir de bases de données et le clustering de SQL. 
   
-La haute disponibilité désigne la disponibilité des services Skype entreprise Server même en cas de panne d’un ou de plusieurs serveurs. Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.
+La haute disponibilité fait référence à la mise à disposition des services Skype Entreprise Server même si un ou plusieurs serveurs sont en panne. La récupération d’urgence fait référence au maintien des services en cours en cas d’urgence naturelle ou humaine, et à la conservation de la plus grande quantité de données possible avant la catastrophe.
   
-Comme dans les versions précédentes de Lync Server, la principale fonctionnalité de haute disponibilité pour la plupart des rôles de serveur dans Skype entreprise Server est la redondance du serveur via le regroupement. Si un serveur exécutant un rôle serveur particulier rencontre une défaillance, les autres serveurs du pool qui exécutent le même rôle assument la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
+Comme dans les versions précédentes de Lync Server, la fonctionnalité de haute disponibilité principale pour la plupart des rôles serveur dans Skype Entreprise Server est la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
   
-Skype entreprise Server fournit également des options de reprise après sinistre pour les pools front-end. Vous pouvez configurer deux pools dans des zones géographiques différentes qui jouent le rôle de sauvegardes l’un pour l’autre. Ainsi, en cas de panne d’un pool ou d’un site, le pool de sauvegarde continue à fournir un service aux utilisateurs des deux sites.
+Skype Entreprise Server fournit également des options de récupération d’urgence pour les pools frontux. Vous pouvez configurer deux pools dans différentes zones géographiques pour qu’ils servent de sauvegardes l’un pour l’autre. Ensuite, si l’intégralité d’un pool ou d’un site est en panne, le pool de sauvegarde peut continuer à fournir un service aux utilisateurs des deux sites.
   
-Skype entreprise Server prend également en charge quatre modes de haute disponibilité pour votre serveur principal : la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de reprise AlwaysOn (ICF) et la mise en cluster de basculement SQL.
+Skype Entreprise Server prend également en charge quatre modes de haute disponibilité pour vos serveurs principaux : la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de point de SQL AlwaysOn et le clustering de SQL.
   
 > [!NOTE]
-> La mise en miroir SQL est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de clusters de basculement AlwaysOn (ICF) et les méthodes de regroupement de relais SQL sont préférés dans Skype entreprise Server 2019.
+> SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus pris en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
 
 > [!NOTE]
-> Les groupes de disponibilité AlwaysOn ne sont pas pris en charge par les serveurs de chat permanents. 
+> Les groupes de disponibilité AlwaysOn ne sont pas pris en charge avec les serveurs de conversation permanente. 
   
-Cette section décrit en détail ces fonctionnalités et aborde également les mesures que vous pouvez prendre dans le cadre de la haute disponibilité et de la récupération d’urgence pour certains autres rôles serveur. 
+Cette section explique ces fonctionnalités et explique également les étapes que vous pouvez suivre pour la haute disponibilité et la récupération d’urgence pour certains de vos autres rôles serveur. 
   
 ## <a name="see-also"></a>Voir aussi
 
 [Haute disponibilité et gestion du pool frontal](high-availability.md)
   
-[Reprise après sinistre de la liste frontale dans Skype entreprise Server](disaster-recovery.md)
+[Récupération d’urgence du pool frontal dans Skype Entreprise Server](disaster-recovery.md)
   
-[Utilisation de l’interface utilisateur en cas d’échec de la mise en réserve dans Skype entreprise Server](user-experience.md)
+[Expérience utilisateur en cas de défaillance d’un pool dans Skype Entreprise Server](user-experience.md)
   
-[Haute disponibilité du serveur principal dans Skype entreprise Server](back-end-server.md)
+[Haute disponibilité du serveur principal dans Skype Entreprise Server](back-end-server.md)
   
-[Forte disponibilité du partage de fichiers dans Skype entreprise Server](file-sharing.md)
+[Haute disponibilité du partage de fichiers dans Skype Entreprise Server](file-sharing.md)

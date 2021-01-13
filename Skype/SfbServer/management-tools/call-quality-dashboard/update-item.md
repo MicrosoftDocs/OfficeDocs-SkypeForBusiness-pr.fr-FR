@@ -1,8 +1,8 @@
 ---
 title: Mettre à jour un élément
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,36 +11,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: 'Résumé : Découvrez l’opération de mise à jour des éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 460e6b26375bba28887d170c9827864bfc600138
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez l’opération Mettre à jour l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: 78da2fa414b4ba266f9e6aba4feac5ff73150062
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816673"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803084"
 ---
 # <a name="update-item"></a>Mettre à jour un élément
  
-**Résumé :** En savoir plus sur l’opération de mise à jour des éléments, qui fait partie de l’élément service. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Découvrez l’opération Mettre à jour l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’opération de mise à jour des éléments fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
+L’opération Mettre à jour un élément fait partie du service d’élément dans l’API de référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="update-item"></a>Mettre à jour un élément
 
-Mettre à jour l’élément met à jour un élément spécifique du référentiel.
+L’élément de mise à jour met à jour un élément spécifique dans le référentiel.
   
 
-|**Méthode**|**URI de la requête**|**Version HTTP**|
+|**Méthode**|**URI de demande**|**HTTP Version**|
 |:-----|:-----|:-----|
-|PORT  <br/> |https://\<Portal\>/QoERepositoryService/Repository/Item/{ItemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** -aucun.
+ **Paramètres d’URI** - Aucun.
   
- **En-têtes de requête** -type de contenu : application/JSON.
+ **En-têtes de requête** -Content-Type: application/json.
   
- **Demander le corps** JSON.
+ **Corps de la** demande - JSON.
   
-Exemple de charge utile de requête :
+Exemple de charge utile de demande :
   
 ```json
 {
@@ -49,17 +49,17 @@ Exemple de charge utile de requête :
 }
 ```
 
- *content (contenu* )  Les données au format JSON doivent être stockées en tant que nouveau contenu d’un sous-élément existant. Techniquement, un référentiel peut stocker tout contenu de tout schéma, mais lorsqu’il est utilisé pour le tableau de bord de qualité des appels, il doit s’agir d’un État ou d’une requête. *taper*  Spécifiez toujours « application/JSON » pour le tableau de bord de qualité des appels.
+ *content*  Données au format JSON à stocker en tant que nouveau contenu d’un sous-élément existant. Techniquement, un référentiel peut stocker n’importe quel contenu de n’importe quel schéma, mais lorsqu’il est utilisé pour le Tableau de bord de qualité des appels, il doit s’agit d’un rapport ou d’une requête. *type*  Spécifiez toujours « application/json » pour le Tableau de bord de qualité des appels.
   
- **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
   
- **Code d’État** -une opération réussie renvoie le code d’État 204 (sans contenu). Si aucun ID d’élément spécifié n’est trouvé, il renvoie le code d’État 404 (introuvable).
+ **Code d’état** : une opération réussie renvoie le code d’état 204 (Aucun contenu). Si un ID d’élément spécifié est in trouvé, il renvoie le code d’état 404 (In trouvé).
   
 > [!IMPORTANT]
-> Le message « aucun contenu » n’est pas un état d’erreur. Cela signifie que la réponse n’a rien retourné dans le corps (en revanche, 200 OK renvoie du contenu dans corps). Le message indiquant que l’élément a été correctement mis à jour s’affiche. 
+> « Aucun contenu » n’est pas un état d’erreur. Cela signifie qu’une réponse n’a rien renvoyé dans le corps (en revanche, 200 OK renvoie du contenu dans le corps). Il indique que l’élément a été mis à jour avec succès. 
   
- **En-têtes de réponse** -aucun.
+ **En-têtes de réponse** - Aucun.
   
- **Corps** de la réponse : aucun.
+ **Corps de la** réponse - Aucun.
   
 

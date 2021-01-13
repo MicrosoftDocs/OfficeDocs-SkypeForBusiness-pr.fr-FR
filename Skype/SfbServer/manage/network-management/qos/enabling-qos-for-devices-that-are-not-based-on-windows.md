@@ -1,12 +1,12 @@
 ---
-title: Activation de la qualité de service pour les périphériques non basés sur Windows
+title: Activation de la qualité de service pour les appareils non basés sur Windows
 ms.reviewer: ''
 ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Découvrez comment activer la qualité de service (QoS) pour les appareils utilisés au sein de votre organisation qui utilisent un système d’exploitation autre que Windows.
-ms.openlocfilehash: 74f964f6156c8b2f2d7a7359193b5dbffe95a011
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Découvrez comment activer la QoS pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.
+ms.openlocfilehash: c22f9c98c796ee11d06e3d58a02a36befef4539e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817413"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814174"
 ---
-# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Activation de la qualité de service (QoS) dans Skype entreprise Server pour les appareils qui ne sont pas basés sur Windows
+# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Activation de la QoS dans Skype Entreprise Server pour les appareils qui ne sont pas basés sur Windows
 
 
-Lorsque vous installez Skype entreprise Server, la qualité de service (QoS) n’est pas activée pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows. Vous pouvez vérifier ceci en exécutant la commande suivante à partir de l’interpréteur de commandes de Skype entreprise ServerManagement :
+Lorsque vous installez Skype Entreprise Server, la qualité de service (QoS) n’est activée pour aucun appareil utilisé dans votre organisation qui utilise un système d’exploitation autre que Windows. Vous pouvez le vérifier en exécutant la commande suivante à partir de Skype Entreprise ServerManagement Shell :
 
     Get-CsMediaConfiguration
 
-Si vous avez apporté des modifications à vos paramètres de configuration de média, vous devez obtenir des informations similaires à ce qui suit :
+En supposant que vous n’avez pas apporté de modifications à vos paramètres de configuration multimédia, vous devez obtenir des informations semblables à ceci :
 
     Identity                          : Global
     EnableQoS                         : False
@@ -40,36 +40,36 @@ Si vous avez apporté des modifications à vos paramètres de configuration de m
     EnableH264Codec                   : True
     EnableAdaptiveBandwidthEstimation : True
 
-Si la propriété EnableQoS est définie sur false (comme dans la sortie précédente), cela signifie que la qualité de service n’est pas activée pour les ordinateurs et appareils utilisant un système d’exploitation autre que Windows.
+Si la propriété EnableQoS a la valeur False (comme dans la sortie précédente), cela signifie que la qualité de service n’est pas activée pour les ordinateurs et les appareils qui utilisent un système d’exploitation autre que Windows.
 
-Pour activer la qualité de service sur l’étendue globale, exécutez la commande suivante à partir de Skype entreprise Server Management Shell :
+Pour activer la qualité de service au niveau global, exécutez la commande suivante à partir de Skype Entreprise Server Management Shell :
 
     Set-CsMediaConfiguration -EnableQoS $True
 
-La commande précédente autorise la qualité de service (QoS) au niveau de l’étendue globale. Néanmoins, il est important de noter que les paramètres de configuration de média peuvent également être appliqués à l’étendue du site. Si vous devez activer la qualité de service pour un site, vous devez inclure l’identité des paramètres de configuration lors de l’appel de Set-CsMediaConfiguration. Par exemple, cette commande active QoS pour le site de Redmond :
+La commande précédente active la QoS au niveau global, mais notez que les paramètres de configuration multimédia peuvent aussi être appliqués au niveau du site. Si vous devez activer la qualité de service pour un site, vous devez inclure l’identité des paramètres de configuration lors de l’appel de Set-CsMediaConfiguration. Cette commande, par exemple, active la QoS pour le site de Redmond :
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
 
 
 > [!NOTE]  
-> Avez-vous besoin d’activer la qualité de service (QoS) sur l’étendue du site ? Cela dépend. Les paramètres assignés à l’étendue du site sont prioritaires sur les paramètres attribués à l’étendue globale. Supposez que la qualité de service (QoS) soit activée sur l’étendue globale mais désactivée sur l’étendue du site (pour le site de Redmond). Dans ce cas, la qualité de service est désactivée pour le site de Redmond ; ce n’est pas parce que les paramètres du site sont prioritaires. Pour activer la qualité de service (QoS) pour le site de Redmond, vous devez le faire à l’aide des paramètres de configuration de média appliqués au site.
+> Est-il nécessaire d’activer la QoS au niveau du site ? Cela dépend. Les paramètres affectés au site sont prioritaires sur ceux affectés à l’étendue globale. Supposons que la QoS soit activée au niveau de l’étendue globale, mais désactivée au niveau de l’étendue Site (pour le site redmond). Dans ce cas, la qualité de service est désactivée pour le site redmond ; En raison du fait que les paramètres du site sont prioritaire. Pour activer la QoS pour le site Redmond, vous devez utiliser les paramètres de configuration multimédia appliqués à ce site.
 
 
-Si vous souhaitez activer simultanément la qualité de service (QoS) pour tous les paramètres de configuration de média (quelle que soit l’étendue), exécutez la commande suivante à partir de LSkype pour Business Server Management Shell :
+Si vous souhaitez activer simultanément QoS pour tous vos paramètres de configuration multimédia (quelle que soit l’étendue), exécutez cette commande à partir de LSkype for Business Server Management Shell :
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-Vous pouvez désactiver la qualité de service (QoS) pour les appareils qui utilisent un système d’exploitation différent de Windows en définissant la valeur de la propriété EnableQoS sur false. Par exemple :
+Vous pouvez désactiver la qualité de service pour les appareils qui utilisent un système d’exploitation autre que Windows en fixant la valeur de la propriété EnableQoS sur False. Par exemple :
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 
-Cette fonctionnalité vous permet d’implémenter la qualité de service (QoS) sur certaines parties de votre réseau (par exemple, sur le site de Redmond) tout en laissant la qualité de service désactivée sur d’autres parties de votre réseau.
+Cela vous donne la possibilité d’implémenter la QoS sur des parties de votre réseau (par exemple, sur le site de Redmond), tout en la gardant désactivée sur d’autres.
 
-La qualité de service (QoS) peut uniquement être activée et désactivée à l’aide de Windows PowerShell. Ces options ne sont pas disponibles dans le panneau de configuration Skype entreprise Server.
+La QoS ne peut être activée et désactivée qu’à l’aide Windows PowerShell. Ces options ne sont pas disponibles dans le Panneau de contrôle Skype Entreprise Server.
 
 > [!NOTE]
-> Les clients Skype entreprise pour iOS version 6,17 et ultérieure prennent désormais en charge la qualité de service (QoS).  Cette fonctionnalité de qualité de service (QoS) ne s’applique qu’aux clients Skype entreprise et aux appareils mobiles qui sont enregistrés directement sur un serveur de pool Skype entreprise ou Lync de réseaux géré. La qualité de service (QoS) n’est pas applicable au trafic acheminé via Internet.
+> Les clients Skype Entreprise pour iOS version 6.17 et ultérieures utilisent désormais QoS.  Cette fonctionnalité de QoS s’applique uniquement aux clients Skype Entreprise et aux périphériques téléphoniques IP qui sont enregistrés directement sur un serveur de pool Skype Entreprise ou Lync interne sur des réseaux gérés. La QoS n’est pas applicable pour le trafic acheminé sur Internet.
 
 
 

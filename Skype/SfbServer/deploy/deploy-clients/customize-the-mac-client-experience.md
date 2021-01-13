@@ -1,7 +1,7 @@
 ---
-title: Personnaliser l'expérience de client Mac dans Skype Entreprise
-ms.author: v-lanac
-author: lanachin
+title: Personnaliser l’expérience client Mac dans Skype Entreprise
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: Cet article décrit les préférences et valeurs par défaut disponibles pour le client Skype Entreprise sur un client Mac ainsi que leur modification hors de l'application.
-ms.openlocfilehash: 796ccdc7d876547e38482a853dc9f89c38bcf53d
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et explique comment les modifier à partir de l’extérieur de l’application.
+ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768827"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805754"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l'expérience de client Mac dans Skype Entreprise
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l’expérience client Mac dans Skype Entreprise
  
-Cet article décrit les préférences et valeurs par défaut disponibles pour le client Skype Entreprise sur un client Mac ainsi que leur modification hors de l'application.
+Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et explique comment les modifier à partir de l’extérieur de l’application.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Paramètres des préférences clients de Skype Entreprise sur Mac
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Paramètres de préférence client Skype Entreprise sur Mac
 
-Certaines fonctionnalités et comportements disponibles pour les clients Skype entreprise sur Mac sont déterminés par les paramètres de préférence sur le client. Les préférences de Skype entreprise sur Mac se trouvent dans un fichier qui se trouve sur un Mac ayant installé le client Skype entreprise à l’emplacement suivant : 
+Certains comportements et fonctionnalités disponibles pour les clients Skype Entreprise sur Mac sont déterminés par les paramètres de préférence sur le client. Les préférences Skype Entreprise sur Mac se trouvent dans un fichier situé sur Mac qui a installé le client Skype Entreprise situé à l’emplacement suivant : 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Pour définir ces préférences, accédez à une invite de terminal sur le Mac du client et, si nécessaire, entrez les valeurs par défaut dans les options écrire com. Microsoft. SkypeForBusiness à l’aide des touches de préférence décrites dans le tableau suivant.
+Pour définir ces préférences, accéder à une invite de terminal sur le Mac du client et, si nécessaire, entrez les commandes de touches d’écriture com.microsoft.SkypeForBusiness par défaut à l’aide des clés de préférence décrites dans le tableau suivant.
   
 **Clés de préférence client**
 
 
-| Clé | Type | Valeur | Description% |
+| Clé | Type | Valeur | Description |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique du serveur (par défaut)    |Spécifiez la manière dont Skype entreprise identifie le transport et le serveur à utiliser lors de la connexion. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique de serveur (par défaut)    |Spécifiez comment Skype Entreprise identifie le transport et le serveur à utiliser lors de la signature. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique interne    |
 |externalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique externe    |
-|httpProxyDomain    |String    ||Domaine HTTP proxy    |
-|httpProxyUserName    |String    ||Nom d'utilisateur HTTP proxy    |
-|httpProxyPassword    |Chaîne    ||Mot de passe HTTP proxy    |
-|trustedDomainList    |Tableau    ||Liste de domaines approuvés pour les redirections HTTP.    |
-|autoAcceptTimeout    |Numéro    |300 (valeur par défaut)    |Délai d'expiration de l'acceptation automatique pour les utilisateurs ne disposant pas d'historique des conversations côté serveur    |
-|warnWhenUnknownLocationForE911    |Bool    |0 = Désactivé  <br/> 1 = Activé    |Avertit l'utilisateur lorsqu'un numéro d'urgence est composé à partir d'un emplacement inconnu.    |
-|sipAddress    |String    ||Adresse SIP (adresse E-mail) utilisée pour la connexion à Skype entreprise.    |
-|userName    |Chaîne    ||Nom d’utilisateur principal (UPN) utilisé pour vous connecter à Skype entreprise.    |
-|userNameInAdvancedOnly    |Bool    |0 = afficher le champ nom d’utilisateur sur l’écran de connexion principal et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher uniquement le champ nom d’utilisateur dans la boîte de dialogue Propriétés avancées (par défaut)    |Indiquer l’endroit où le champ nom d’utilisateur est affiché lors de la connexion.    |
+|httpProxyDomain    |String    ||Domaine proxy HTTP    |
+|httpProxyUserName    |String    ||Nom d’utilisateur proxy HTTP    |
+|httpProxyPassword    |String    ||Mot de passe de proxy HTTP    |
+|trustedDomainList    |Tableau    ||Liste des domaines de confiance pour les redirections HTTP.    |
+|autoAcceptTimeout    |Nombre    |300 (par défaut)    |Accepter automatiquement le délai d’accès pour les utilisateurs sans historique des conversations côté serveur.    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = Désactivé  <br/> 1 = Activé    |Avertit l’utilisateur lorsque vous composez un numéro d’urgence à partir d’un emplacement inconnu.    |
+|sipAddress    |String    ||Adresse SIP (e-mail) utilisée pour se connecter à Skype Entreprise.    |
+|userName    |String    ||UpN (UserName) utilisé pour se connecter à Skype Entreprise.    |
+|userNameInAdvancedOnly    |Bool    |0 = afficher le champ Nom d’utilisateur sur l’écran de signature principal et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher le champ Nom d’utilisateur uniquement dans la boîte de dialogue Propriétés avancées (par défaut)    |Spécifiez l’endroit où le champ Nom d’utilisateur s’affiche lors de la signature.    |
    
-### <a name="usage-examples"></a>Exemples d'utilisation
+### <a name="usage-examples"></a>Exemples d’utilisation
 
-Pour ajouter un domaine (Contoso.com) à la liste de domaines approuvés, vous devez utiliser la clé trustedDomainList, comme illustré ci-dessous :
+Pour ajouter un domaine unique (Contoso.com) à la liste des domaines de confiance, utilisez la clé trustedDomainList comme indiqué :
   
-par défaut, écrivez com. Microsoft. SkypeForBusiness trustedDomainList-Array-Add "Contoso.com"
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add « Contoso.com »
   
-Pour ajouter plusieurs domaines à la liste des domaines approuvés, utilisez la clé trustedDomainList comme suit :
+Pour ajouter plusieurs domaines à la liste des domaines de confiance, vous devez utiliser la clé trustedDomainList comme indiqué :
   
-par défaut, écrivez com. Microsoft. SkypeForBusiness trustedDomainList-Array-Add "sfb.com" "abc.com" "test.org"
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add « sfb.com » « abc.com » « test.org »
   
-### <a name="sample-unedited-settings"></a>Exemples de paramètres non modifiés
+### <a name="sample-unedited-settings"></a>Exemples de paramètres non mis à l’état
 
-À titre de référence, voici un exemple de fichier de paramètres incluant uniquement des paramètres par défaut :  
+Pour référence, voici un exemple de fichier de paramètres utilisant uniquement les paramètres par défaut : 
   
 ```console
 {

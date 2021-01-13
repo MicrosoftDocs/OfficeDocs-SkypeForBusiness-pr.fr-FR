@@ -1,8 +1,8 @@
 ---
-title: Service utilisateur pour bord
+title: Service utilisateur pour le CQD
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 'Résumé : Découvrez le service utilisateur, qui fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 439df99c1c9d66547e681fdea90b33c6295344db
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le service utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: d9f4b771a1bf5efeece4f8fb87195d8567f0426e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816653"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803074"
 ---
-# <a name="user-service-for-cqd"></a>Service utilisateur pour bord
+# <a name="user-service-for-cqd"></a>Service utilisateur pour le CQD
  
-**Résumé :** Découvrez le service utilisateur, qui fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Découvrez le service utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels.
+Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="user-service"></a>Service destiné aux utilisateurs
 
-L’API du référentiel fournit un modèle de gestion des utilisateurs simplifié dans lequel la mise en service des utilisateurs (création de nouveaux comptes d’utilisateur) est automatique et implicite. Lorsqu’un utilisateur effectue une demande concernant l’API du référentiel pour la première fois, le référentiel crée un nouvel enregistrement utilisateur. 
+L’API de référentiel fournit un modèle de gestion des utilisateurs simplifié dans lequel la mise en service des utilisateurs (création de comptes d’utilisateurs) est automatique et implicite. Lorsqu’un utilisateur fait une demande par rapport à l’API du référentiel pour la première fois, le référentiel crée un nouvel enregistrement d’utilisateur. 
   
-Le tableau de bord de qualité des appels crée automatiquement un élément dédié aux utilisateurs pour le nouvel utilisateur. Le nouvel utilisateur éléments dédiés sont des clones complète des éléments de l’utilisateur système. De cette façon, les utilisateurs commencent par leurs propres copies de rapports et de requêtes qu’ils peuvent lancer immédiatement. 
+Le Tableau de bord de qualité des appels crée également automatiquement des éléments dédiés par l’utilisateur pour le nouvel utilisateur. Les nouveaux éléments dédiés aux utilisateurs sont des clones complets des éléments de l’utilisateur système. Ainsi, les utilisateurs commencent par leurs propres copies des rapports et des requêtes qu’ils peuvent immédiatement personnaliser. 
   
 > [!NOTE]
-> Le tableau de bord de qualité des appels permet aux utilisateurs de réinitialiser leurs éléments dédiés à tout moment. 
+> À l’aide du Tableau de bord de qualité des appels, les utilisateurs peuvent réinitialiser leurs éléments dédiés à tout moment. 
   
  **ID d’utilisateur spéciaux**
   
-L’API du référentiel inclut des URI REST qui attendent une valeur entière pour spécifier un utilisateur particulier. Par exemple `https://<portal>/QoERepositoryService/repository/user/{userId}`:. Dans cet exemple, {Id_utilisateur} doit être remplacé par une valeur de type entier (par exemple, 0, 1, etc.).
+L’API de référentiel inclut les UR DE L’API REST qui s’attendent à ce qu’une valeur d’ensemble spécifie un utilisateur particulier. Exemple :  `https://<portal>/QoERepositoryService/repository/user/{userId}` . Ici, {userId} doit être remplacé par une valeur de type 0, 1, etc.
   
-Par ailleurs, l’API du référentiel accepte deux ID utilisateur spéciaux à la fois à l’adresse de l’URI.
+En outre, l’API de référentiel accepte deux ID d’utilisateur spéciaux sur {userId} dans les UR.
   
--  *par défaut* : représente l’utilisateur qui interagit actuellement avec l’API. Cela permet aux applications d’accéder au contenu actuel de l’utilisateur sans suivre la valeur de l’IDENTIFIant utilisateur réel. Par exemple `https://<portal>/QoERepositoryService/repository/user/default`:.
+-  *par*  défaut : représente l’utilisateur qui interagit actuellement avec l’API. Cela permet aux applications d’accéder au contenu de l’utilisateur actuel sans suivre la valeur réelle de l’ID utilisateur. Exemple : `https://<portal>/QoERepositoryService/repository/user/default`.
     
--  *System* -correspond à l’utilisateur système. Cela permet aux applications d’accéder au contenu de l’utilisateur système sans connaître la valeur de l’IDENTIFIant utilisateur réel. Par exemple `https://<portal>/QoERepositoryService/repository/user/system`:.
+-  *system*  - représente l’utilisateur système. Cela permet aux applications d’accéder au contenu de l’utilisateur système sans connaître la valeur réelle de l’ID utilisateur. Exemple : `https://<portal>/QoERepositoryService/repository/user/system`.
     
-Sauf indication contraire, il est possible d’utiliser les ID d’utilisateur spéciaux au niveau de {Id_utilisateur} dans les URI. 
+Sauf indication contraire, les ID d’utilisateur spéciaux peuvent être utilisés à l’adresse {userId} dans les UR. 
   
-Les opérations REST sont comprises dans le tableau suivant.
+Les opérations REST sont incluses dans le tableau suivant.
   
 |**Opération**|**Description**|
 |:-----|:-----|
-|[Obtenir les utilisateurs](get-users.md) <br/> |Renvoie une liste des utilisateurs du référentiel.  <br/> |
+|[Obtenir les utilisateurs](get-users.md) <br/> |Renvoie une liste d’utilisateurs dans le référentiel.  <br/> |
 |[Obtenir un utilisateur](get-user.md) <br/> |Renvoie un enregistrement utilisateur.  <br/> |
    
 

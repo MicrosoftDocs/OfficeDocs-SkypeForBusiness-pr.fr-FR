@@ -1,7 +1,7 @@
 ---
-title: Compatibilité de Skype entreprise avec les applications Office
-ms.author: v-lanac
-author: lanachin
+title: Compatibilité de Skype Entreprise avec les applications Office
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -15,62 +15,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-description: Découvrez les différentes façons d’accéder aux fonctionnalités de Skype entreprise à partir d’Outlook et d’autres applications Microsoft Office.
-ms.openlocfilehash: e91174850cb82d325eb9a3f75577d3aaeb3b90f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Comprendre les méthodes d’accès aux fonctionnalités Skype Entreprise à partir d’Outlook et d’Microsoft Office applications.
+ms.openlocfilehash: b3d792d5e6376e4d845aa74f0585acf7d9a70d81
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803684"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802734"
 ---
-# <a name="skype-for-business-compatibility-with-office-apps"></a>Compatibilité de Skype entreprise avec les applications Office
+# <a name="skype-for-business-compatibility-with-office-apps"></a>Compatibilité de Skype Entreprise avec les applications Office
  
-Découvrez les différentes façons d’accéder aux fonctionnalités de Skype entreprise à partir d’Outlook et d’autres applications Microsoft Office.
+Comprendre les méthodes d’accès aux fonctionnalités Skype Entreprise à partir d’Outlook et d’Microsoft Office applications.
   
-Cette rubrique décrit la compatibilité de Skype entreprise avec différentes versions de la suite Microsoft Office. 
+Cette rubrique décrit la compatibilité de Skype Entreprise avec différentes versions de Microsoft Office suites. 
   
-## <a name="office-and-skype-for-business"></a>Office et Skype entreprise
+## <a name="office-and-skype-for-business"></a>Office et Skype Entreprise
 
-Le tableau suivant décrit les fonctionnalités de Skype entreprise prises en charge par les différentes versions d’Office une fois qu’Exchange est déployé et intégré comme décrit dans [intégration de Skype entreprise Server à Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Le tableau suivant décrit les fonctionnalités de Skype Entreprise qui sont pris en charge par différentes versions d’Office une fois Qu’Exchange est déployé et intégré comme décrit dans [Intégrer Skype](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)Entreprise Server à Exchange Server .
   
-**Compatibilité avec Skype entreprise et Microsoft Office**
+**Compatibilité de Skype Entreprise Microsoft Office entreprise**
 
-|**Fonctionnalité**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 et 2016**|&#x2776; **Office 2016 pour Mac** |
+|**Fonctionnalité**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 et 2016**|**Office 2016 pour Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
 |**Fonctionnalités Outlook** ||||
-|Personnaliser les invitations aux réunions Outlook (ajouter un logo, une URL d’aide, une clause d’exclusion de responsabilité ou un texte de pied de page)  |Non  |Oui   |Oui|
-|Configurer une option de réunion pour désactiver le micro et la vidéo par défaut    |Non    |Oui    |Non    |
-|Magasin de contacts unifié pour gérer les listes de contacts dans Office et Skype entreprise    |Non    |Oui (nécessite Exchange 2013 ou version supérieure)    |Oui    |
-|Images de profil haute résolution    |Non    |Oui (nécessite Exchange 2013 ou version supérieure)    |Oui    |
-|Statut de présence dans les champs Microsoft Outlook de, à et CC    |Oui     |Oui     |Oui     |
-|Répondre par un message instantané ou un appel dans le menu de disponibilité    |Oui (depuis la carte de visite)    |Oui (depuis la carte de visite)    |Oui (depuis la carte de visite)    |
-|Statut de présence dans une demande de réunion sous l’onglet Assistant Planification.    |Oui     |Oui    |Non    |
-|Répondre par un message instantané ou un appel à partir de la barre d’outils ou du ruban dans un message électronique reçu    |Oui     |Oui     |Oui     |
+|Personnaliser les invitations aux réunions Outlook (ajouter un logo, une URL d’aide, une clause d’exclusion de responsabilité, un texte de pied de page)  |Non  |Oui   |Oui|
+|Configurer l’option de réunion pour désactiver le son et la vidéo des participants par défaut    |Non    |Oui    |Non    |
+|Magasin de contacts unifié pour la gestion des listes de contacts dans Office et Skype Entreprise    |Non    |Oui (nécessite Exchange 2013 ou une ultérieure)    |Oui    |
+|Images de profil haute résolution    |Non    |Oui (nécessite Exchange 2013 ou une ultérieure)    |Oui    |
+|Statut de présence dans les champs Microsoft Outlook From, To et Cc    |Oui    |Oui    |Oui    |
+|Répondre par messagerie instantanée ou appel à partir du menu de disponibilité    |Oui (à partir de la carte de visite)    |Oui (à partir de la carte de visite)    |Oui (à partir de la carte de visite)    |
+|Statut de présence dans une demande de réunion sous l’onglet Assistant Planification.    |Oui    |Oui    |Non    |
+|Répondre par messagerie instantanée ou appel à partir de la barre d’outils ou du ruban dans un message électronique reçu    |Oui    |Oui    |Oui    |
 |**Autres applications Office**   ||||
 |Notes partagées OneNote    |Non    |Oui    |Non    |
-|Configuration intégrée au programme d’installation d’Office    |Non    |Oui    |Non    |
+|Installation intégrée au programme d’installation d’Office    |Non    |Oui    |Non    |
 |Contenu de présentation PowerPoint    |Oui    |Oui (VBSS également disponible)    |Oui    |
 |Messagerie instantanée et présence dans les fichiers Microsoft Word et Microsoft Excel (balises actives activées)    |Microsoft Word uniquement    |Microsoft Word uniquement    |Non    |
 |Messagerie instantanée et présence sur les sites Microsoft SharePoint (Outlook doit être installé)    |Oui    |Oui    |Non    |
    
-&#x2776;-suppose que vous avez installé et que vous exécutez actuellement un client Skype entreprise sur Mac ou le client Lync 2011 pour Mac.
+&#x2776; : suppose que vous avez installé et que vous exécutez actuellement un client Skype Entreprise sur Mac ou le client Lync 2011 pour Mac.
   
-## <a name="exchange-server-and-skype-for-business"></a>Exchange Server et Skype entreprise
+## <a name="exchange-server-and-skype-for-business"></a>Exchange Server et Skype Entreprise
 
-Le tableau suivant décrit la prise en charge de Skype entreprise pour différentes versions d’Exchange Server. Outlook doit être installé sur l’ordinateur client pour traiter les appels d’interface MAPI étendue et certaines fonctionnalités nécessitent l’utilisation d’Exchange Web Services (EWS).
+Le tableau suivant décrit la prise en charge de Skype Entreprise pour différentes versions de Exchange Server. Outlook doit être installé sur l’ordinateur client pour traiter les appels d’interface MAPI étendue et certaines fonctionnalités nécessitent l’utilisation d’Exchange Web Services (EWS).
   
-**Compatibilité avec Skype entreprise et Exchange Server**
+**Compatibilité de Skype Entreprise Exchange Server entreprise**
 
-|**Version d’Exchange Server**|**Support Skype entreprise**|
+|**Version d’Exchange Server**|**Prise en charge de Skype Entreprise**|
 |:-----|:-----|
-|Exchange Server 2019 (Skype entreprise Server 2019 uniquement) |Identique à la prise en charge d’Exchange Server 2013    |
-|Exchange Server 2016    |Identique à la prise en charge d’Exchange Server 2013  <br/> |
-|Exchange Server 2013  <br/> |Comme la prise en charge d’Exchange Server 2010, en plus de  <br/>&bull;&nbsp;&nbsp;Magasin de contacts unifié  <br/>&bull;&nbsp;&nbsp;Images haute résolution  <br/>&bull;&nbsp;&nbsp;Intégration de l’archivage  <br/> **Remarque :** Pour plus d’informations, reportez-vous à la rubrique [intégration de Skype entreprise Server à Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
-|Exchange Server 2010  <br/>(Skype entreprise Server 2015 uniquement) |Les fonctionnalités suivantes sont disponibles uniquement par l’intermédiaire d’EWS :  <br/>&bull;&nbsp;&nbsp;Lecture ou suppression d’éléments dans le dossier historique des conversations  <br/>&bull;&nbsp;&nbsp;Lecture ou suppression d’éléments de messagerie vocale  <br/>&bull;&nbsp;&nbsp;Afficher les informations de disponibilité étendues et l’objet et l’emplacement de la réunion  <br/>&bull;&nbsp;&nbsp;Synchronisation de contacts Exchange  <br/> Les dossiers publics sont une option dans Exchange Server 2010.  <br/> |
+|Exchange Server 2019 (Skype Entreprise Server 2019 uniquement) |Identique à Exchange Server 2013    |
+|Exchange Server 2016    |Identique à Exchange Server 2013  <br/> |
+|Exchange Server 2013  <br/> |Identique à Exchange Server 2010, avec l’ajout de  <br/>&bull;&nbsp;&nbsp;Magasin de contacts unifié  <br/>&bull;&nbsp;&nbsp;Images haute résolution  <br/>&bull;&nbsp;&nbsp;Intégration de l’archivage  <br/> **Remarque :** Pour plus d’informations, voir [Intégrer Skype Entreprise Server à Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Exchange Server 2010  <br/>(Skype Entreprise Server 2015 uniquement) |Les fonctionnalités suivantes sont disponibles uniquement par l’intermédiaire d’EWS :  <br/>&bull;&nbsp;&nbsp;Lire ou supprimer des éléments dans le dossier Historique des conversations  <br/>&bull;&nbsp;&nbsp;Lire ou supprimer des éléments de messagerie vocale  <br/>&bull;&nbsp;&nbsp;Afficher des informations de libre/occupé étendues, l’objet et l’emplacement de la réunion  <br/>&bull;&nbsp;&nbsp;Synchronisation des contacts Exchange  <br/> Les dossiers publics sont facultatifs Exchange Server 2010.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
  
-[Configuration requise pour le client Windows et prise en charge logicielle](windows-requirements.md)
+[Exigences du client Windows et prise en charge des logiciels](windows-requirements.md)
   
-[Planifier pour les clients de conférences (application Web et application réunions)](meetings-clients.md)
+[Planifier les clients Meetings (application Web et application réunions)](meetings-clients.md)
 

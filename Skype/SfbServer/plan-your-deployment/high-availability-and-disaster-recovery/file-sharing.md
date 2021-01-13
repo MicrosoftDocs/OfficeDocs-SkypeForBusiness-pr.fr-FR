@@ -1,8 +1,8 @@
 ---
-title: Forte disponibilité du partage de fichiers dans Skype entreprise Server
+title: Haute disponibilité du partage de fichiers dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: En savoir plus sur la façon de garantir une haute disponibilité des partages de fichiers dans Skype entreprise Server, à l’aide du système de fichiers DFS.
-ms.openlocfilehash: c04c3acd009dd59a3894a62d08395db19c6d2368
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Découvrez comment garantir la haute disponibilité de vos partages de fichiers dans Skype Entreprise Server, à l’aide de DFS.
+ms.openlocfilehash: 4d443425f453d63694511d13c6d3a84893058daa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815932"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802894"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Forte disponibilité du partage de fichiers dans Skype entreprise Server
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Haute disponibilité du partage de fichiers dans Skype Entreprise Server
  
-En savoir plus sur la façon de garantir une haute disponibilité des partages de fichiers dans Skype entreprise Server, à l’aide du système de fichiers DFS.
+Découvrez comment garantir la haute disponibilité de vos partages de fichiers dans Skype Entreprise Server, à l’aide de DFS.
   
-Pour garantir une haute disponibilité du partage de fichiers dans votre déploiement Skype entreprise Server, vous pouvez utiliser le système de fichiers DFS. DFS prend en charge le basculement d’un serveur de fichiers vers un autre dans le même centre de données. Pour un déploiement à grande échelle, il est recommandé d’utiliser des serveurs de fichiers dédiés associés à l’aide de DFS. Pour plus d’informations sur le système de fichiers DFS dans [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384)Windows Server 2012, voir. Pour plus d’informations sur le système de fichiers DFS [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385)sur Windows Server 2008, voir.
+Pour garantir la haute disponibilité du partage de fichiers dans votre déploiement Skype Entreprise Server, vous pouvez utiliser le système de fichiers distribués (DFS). DFS prend en charge le basculement d’un serveur de fichiers vers un autre dans le même centre de données. Pour un déploiement à grande échelle, il est recommandé d’utiliser des serveurs de fichiers dédiés qui sont associés à l’aide de DFS. Pour plus d’informations sur DFS dans Windows Server 2012, voir [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384) . Pour plus d’informations sur DFS sur Windows Server 2008, voir [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385) .
   
-En fonction de la taille de votre réseau et de la capacité de résilience souhaitée, vous pouvez utiliser une paire de serveurs pour héberger tous les partages de fichiers dans un site, ou utiliser une paire par pool frontal.
+En fonction de la taille de votre réseau et du niveau de résistance souhaité, vous pouvez utiliser une paire de serveurs pour héberger tous les partages de fichiers d’un site, ou utiliser une paire de serveurs par pool frontal.
   
-DFS est un mécanisme de réplication de fichiers recommandé, sans engagement d’objectif de temps de récupération (RTO, Recovery Time Objective) ou d’objectif de point de récupération (RPO, Recovery Point Objective) publié. Un basculement entre serveurs DFS doit être effectué rapidement, mais un délai de réplication des données peut empêcher les utilisateurs de continuer à travailler en cours lorsque le basculement a lieu.
+DFS est un mécanisme de réplication de fichiers recommandé, sans engagement d’objectif de temps de récupération (RTO, Recovery Time Objective) ou d’objectif de point de récupération (RPO, Recovery Point Objective) publié. Un failover entre des serveurs DFS doit être effectué rapidement, mais le délai de réplication des données peut empêcher les utilisateurs de poursuivre le travail en cours lorsque le retentage se produit.
   
-Si vous utilisez DFS et que le magasin de données sur le partage de fichiers est crucial, vous devez sauvegarder fréquemment les partages de fichiers, par exemple toutes les 4 à 8 heures. Lorsqu’un partage de fichiers ne fonctionne pas et que la réplication n’est pas à jour, vous pouvez utiliser la sauvegarde pour restaurer le contenu du serveur défaillant sur l’autre serveur associé à ce serveur à présent indisponible.
+Si vous utilisez DFS et que le magasin de données sur le partage de fichiers est essentiel, vous devez les stocker fréquemment, par exemple toutes les 4 à 8 heures. Lorsqu’un partage de fichiers tombe en panne et que la réplication n’est pas à jour, vous pouvez utiliser la sauvegarde pour restaurer le contenu du serveur défaillant sur l’autre serveur qui est associé à ce serveur à présent indisponible.
   
 

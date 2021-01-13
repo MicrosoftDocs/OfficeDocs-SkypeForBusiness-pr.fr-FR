@@ -1,8 +1,8 @@
 ---
-title: Table ErrorCategory dans Skype entreprise Server 2015
+title: Table ErrorCategory dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
-description: 'La table ErrorCategory contient le nom convivial de chaque classification de diagnostic Skype entreprise Server 2015. Par défaut, Skype entreprise Server 2015 utilise les classifications suivantes :'
-ms.openlocfilehash: f3ad3f86a382b900d53c5e86140a46d7f32ca1c1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Le tableau ErrorCategory contient le nom convivial de chaque classification de diagnostic Skype Entreprise Server 2015. Par défaut, Skype Entreprise Server 2015 utilise les classifications suivantes :'
+ms.openlocfilehash: ca3719f6d284cf715be1a87b1c7a5dc04ae84b04
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815252"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813144"
 ---
-# <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Table ErrorCategory dans Skype entreprise Server 2015
+# <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Table ErrorCategory dans Skype Entreprise Server 2015
  
-La table ErrorCategory contient le nom convivial de chaque classification de diagnostic Skype entreprise Server 2015. Par défaut, Skype entreprise Server 2015 utilise les classifications suivantes :
+Le tableau ErrorCategory contient le nom convivial de chaque classification de diagnostic Skype Entreprise Server 2015. Par défaut, Skype Entreprise Server 2015 utilise les classifications suivantes :
   
-- 0--succès
+- 0 : réussite
     
-- 1-échec imprévu
+- 1 - Échec attendu
     
-- 2-échec inattendu
+- 2 - Échec inattendu
     
-Ce tableau a été présenté dans Microsoft Lync Server 2013.
+Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**RéfCatégorie** <br/> |tinyint  <br/> |Principal  <br/> |Identificateur unique de la classification.  <br/> |
-|**Nom** <br/> |nvarchar(256)  <br/> || Valeur et nom convivial attribués à la classification. Les valeurs autorisées sont les suivantes : <br/>  0--succès <br/>  1-échec imprévu <br/>  2-échec inattendu <br/> |
+|**CategoryId** <br/> |tinyint  <br/> |Primaire  <br/> |Identificateur unique pour la classification.  <br/> |
+|**Name** <br/> |nvarchar(256)  <br/> || Valeur et nom convivial attribués à la classification. Les valeurs autorisées sont les suivantes : <br/>  0 : réussite <br/>  1 - Échec attendu <br/>  2 - Échec inattendu <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Modifications de schéma dans Skype entreprise Server
+title: Modifications apportées au schéma dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,66 +12,66 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Avant de déployer et d’utiliser Skype entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype entreprise Server.
-ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Avant de déployer et d’exploiter Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
+ms.openlocfilehash: 4ca18b0ccfde6b247f1c29e140004804462d0f56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815482"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813574"
 ---
-# <a name="schema-changes-in-skype-for-business-server"></a>Modifications de schéma dans Skype entreprise Server
+# <a name="schema-changes-in-skype-for-business-server"></a>Modifications apportées au schéma dans Skype Entreprise Server
  
-Avant de déployer et d’utiliser Skype entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype entreprise Server.
+Avant de déployer et d’exploiter Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
 
 > [!NOTE]
-> Si vous effectuez une mise à niveau de Lync Server 2013 vers Skype entreprise Server 2015, il n’y a aucune modification de schéma et c’est pourquoi cet article ne s’applique pas.
+> Si vous faites une mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015, aucune modification de schéma n’est apportée et, par conséquent, cet article ne s’applique pas.
   
-Skype entreprise Server nécessite plusieurs nouvelles classes et attributs, et modifie les classes et attributs existants. De plus, de nombreuses informations de configuration pour Skype entreprise Server sont stockées dans le magasin de gestion central plutôt que dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Skype entreprise Server :
+Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et modifie certaines classes et attributs existants. En outre, de nombreuses informations de configuration pour Skype Entreprise Server sont stockées dans le magasin central de gestion et non dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Skype Entreprise Server :
   
-- **Extensions de schéma**:
+- **Extensions de schéma** :
     
   - Extensions de l’objet utilisateur
     
-  - Extensions de classes permettant de maintenir la compatibilité descendante avec les versions précédentes de Lync Server prises en charge.
+  - Extensions pour les classes afin de maintenir la compatibilité ascendante avec les versions précédentes de Lync Server.
     
-- **Données** (stockées dans le schéma étendu de Skype entreprise Server et dans les classes de schéma existantes) :
+- **Données** (stockées dans le schéma étendu Skype Entreprise Server et dans les classes de schéma existantes) :
     
-  - URL (Uniform Resource Identifier) de l’utilisateur SIP et autres paramètres utilisateur
+  - URI (Uniform Resource Identifier) SIP de l’utilisateur et autres paramètres utilisateur
     
-  - Objets de contact pour des applications telles que Response Group et attendant
+  - Objets contact pour des applications telles que le service Response Group et l’Intendant Conférence
     
-  - Pointeur vers le magasin de gestion central
+  - Pointeur vers le magasin central de gestion
     
-  - Compte d’authentification Kerberos (objet facultatif de l’ordinateur)
+  - Compte d’authentification Kerberos (un objet ordinateur facultatif)
     
-Cette rubrique décrit les modifications de schéma Active Directory requises par Skype entreprise Server. Elle ne décrit pas les modifications de schéma introduites par des versions antérieures d’Office Communications Server. Pour obtenir la liste des classes et leurs descriptions, voir [classes et descriptions de schéma dans Skype entreprise Server](schema-classes-and-descriptions.md). Pour obtenir la liste des attributs et leur description, voir [attributs et descriptions de schéma dans Skype entreprise Server](schema-attributes-and-descriptions.md). Pour obtenir la liste des classes avec les attributs qu’ils peuvent contenir, voir [attributs de schéma par classe dans Skype entreprise Server](schema-attributes-by-class.md).
+Cette rubrique décrit les modifications de schéma Active Directory requises par Skype Entreprise Server. Il ne décrit pas les modifications de schéma introduites par les versions précédentes d’Office Communications Server. Pour obtenir la liste des classes et leurs descriptions, voir Classes de schéma [et descriptions dans Skype Entreprise Server.](schema-classes-and-descriptions.md) Pour obtenir la liste des attributs et leurs descriptions, voir [Schema attributes and descriptions in Skype for Business Server](schema-attributes-and-descriptions.md). Pour obtenir la liste des classes avec les attributs qu’elles peuvent contenir, voir Attributs de schéma par classe [dans Skype Entreprise Server.](schema-attributes-by-class.md)
   
-Le préfixe msRTCSIP identifie les classes et attributs spécifiques à Skype entreprise Server.
+Le préfixe msRTCSIP identifie les classes et les attributs spécifiques de Skype Entreprise Server.
   
 ## <a name="new-active-directory-attributes"></a>Nouveaux attributs Active Directory
 
-Le tableau suivant décrit les attributs Active Directory ajoutés par Skype entreprise Server.
+Le tableau suivant décrit les attributs Active Directory ajoutés par Skype Entreprise Server.
   
-**Attributs ajoutés par Skype entreprise Server**
+**Attributs ajoutés par Skype Entreprise Server**
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|msExchUserHoldPolicies  <br/> |Cet attribut à plusieurs valeurs contient des identificateurs pour les stratégies de conservation qui s’appliquent à l’utilisateur. Les stratégies de blocage préservent les éléments de boîte aux lettres de l’utilisateur pendant la durée de la conservation. Cet attribut est partagé avec Exchange 2013.  <br/> |
-|msRTCSIP-UserRoutingGroupId  <br/> |Il s’agit de l’ID du groupe de routage SIP. Les utilisateurs du même groupe seront enregistrés sur le même serveur principal.  <br/> |
-|msRTCSIP-MirrorBackEndServer  <br/> |Cet attribut est utilisé pour stocker le serveur principal SQL Server utilisé par le pool frontal.  <br/> |
+|msExchUserHoldPolicies  <br/> |Cet attribut à valeurs multiples contient les stratégies d’archive qui s’appliquent à l’utilisateur. Les stratégies d’archive conservent les éléments de boîte aux lettres de l’utilisateur pendant la durée de la suspension. Cet attribut est partagé avec Exchange 2013.  <br/> |
+|msRTCSIP-UserRoutingGroupId  <br/> |Il s’agit de l’ID de groupe de groupe de routage SIP. Les utilisateurs du même groupe seront inscrits au même serveur frontal.  <br/> |
+|msRTCSIP-MirrorBackEndServer  <br/> |Cet attribut est utilisé pour stocker le pool SQL Server miroir utilisé par le pool frontal.  <br/> |
    
 ## <a name="modified-active-directory-classes"></a>Classes Active Directory modifiées
 
-Le tableau suivant décrit les classes Active Directory modifiées par Skype entreprise Server.
+Le tableau suivant décrit les classes Active Directory modifiées par Skype Entreprise Server.
   
-**Classes modifiées par Skype entreprise Server**
+**Classes modifiées par Skype Entreprise Server**
 
-|**Cours**|**Modification**|**Classe ou attribut**|
+|**Classe**|**Remplacez**|**Classe ou attribut**|
 |:-----|:-----|:-----|
-|Utilisateur  <br/> |Ajouter : mayContain  <br/> Ajouter : mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|Locuteur  <br/> |Ajouter : mayContain  <br/> Ajouter : mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|Mail-destinataire  <br/> |Ajouter : mayContain  <br/> |msExchUserHoldPolicies  <br/> |
-|msRTCSIP-GlobalTopologySetting  <br/> |Ajouter : mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |
+|Utilisateur  <br/> |ajouté : mayContain  <br/> ajouté : mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Contact  <br/> |ajouté : mayContain  <br/> ajouté : mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
+|msRTCSIP-GlobalTopologySetting  <br/> |ajouté : mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |
    
 

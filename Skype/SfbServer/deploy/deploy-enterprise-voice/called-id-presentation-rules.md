@@ -1,8 +1,8 @@
 ---
-title: Création ou modification d’une règle de traduction pour appeler une présentation dans Skype entreprise Server
+title: Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,43 +15,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de l’outil créer une règle de traduction dans Skype entreprise Server.'
-ms.openlocfilehash: 1a1f363ad157775395f77ef3e3c2915e9226bfd5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de l’outil Créer une règle de traduction dans Skype Entreprise Server.'
+ms.openlocfilehash: b93d271abd0ade1b178e859f2a0599464a6759e5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768197"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804194"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Création ou modification d’une règle de traduction pour appeler une présentation dans Skype entreprise Server
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment définir une règle de traduction à l’aide de l’outil créer une règle de traduction dans Skype entreprise Server.
+**Résumé :** Découvrez comment définir une règle de traduction à l’aide de l’outil Créer une règle de traduction dans Skype Entreprise Server.
 
-Suivez ces étapes si vous voulez définir une règle de traduction en entrant un ensemble de valeurs dans l’outil **créer une règle de traduction** et en activant le panneau de configuration Skype entreprise Server pour générer les modèles correspondants et les règles de traduction correspondants. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, voir [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entrant un ensemble de valeurs dans l’outil Créer une règle de traduction et en permettant au Panneau de configuration de Skype Entreprise Server de générer le modèle correspondant et la règle de traduction pour vous. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, voir [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Pour définir une règle à l’aide de l’outil Créer une règle de traduction
 
-1. Ouvrez le panneau de configuration Skype entreprise Server.
+1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
 
-2. Pour commencer à définir une règle de traduction, suivez les étapes décrites dans l’article [configurer un Trunk with Media bypass dans Skype entreprise Server via l'](configure-trunk-with-media-bypass.md) étape 10 ou [configurer un Trunk sans dérivation multimédia dans Skype entreprise Server à l'](configure-trunk-without-media-bypass.md) étape 9.
+2. Pour commencer à définir une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk avec déviation du média dans Skype Entreprise [Server](configure-trunk-with-media-bypass.md) jusqu’à l’étape 10 ou configurez une trunk sans déviation du média dans Skype [Entreprise Server](configure-trunk-without-media-bypass.md) jusqu’à l’étape 9.
 
 3. Sous **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 
-4. Facultatif Sous **Description**, tapez la description de la règle de traduction (par exemple, la numérotation internationale pour les appels longue distance).
+4. (Facultatif) Sous **Description**, tapez une description de la règle de traduction, par exemple la numérotation longue distance US International.
 
 5. Dans la section **Créer une règle de traduction** de la boîte de dialogue, entrez des valeurs dans les champs suivants :
 
-   - **Chiffres de début** : (Facultatif) précisez les premiers chiffres des numéros que vous souhaitez faire correspondre avec le modèle. Par exemple, entrez + dans ce champ pour faire correspondre les numéros au format E.164 (commençant par un signe +).
+   - **Chiffres de début** : (Facultatif) Précisez les premiers chiffres des numéros que vous souhaitez faire correspondre avec le modèle. Par exemple, entrez + dans ce champ pour faire correspondre les numéros au format E.164 (commençant par un signe +).
 
-   - **Longueur** : précisez le nombre de chiffres dans le modèle correspondant et choisissez si vous souhaitez que le modèle corresponde exactement à des numéros de cette longueur, à cette longueur au minimum et ou à une longueur quelconque. Par exemple, entrez 11 et selectAt moins dans la liste déroulante pour faire correspondre les nombres dont la longueur est d’au moins 11 chiffres.
+   - **Longueur** : précisez le nombre de chiffres dans le modèle correspondant et choisissez si vous souhaitez que le modèle corresponde exactement à des numéros de cette longueur, à cette longueur au minimum et ou à une longueur quelconque. Par exemple, entrez 11 et sélectionnez Au moins dans la liste de listes listes pour faire correspondre les numéros d’au moins 11 chiffres.
 
-   - **Chiffres à supprimer** : (Facultatif) précisez le nombre de chiffres de début à supprimer. Par exemple, entrez 1 pour enlever le signe + du début du numéro.
+   - **Chiffres à supprimer** : (Facultatif) Précisez le nombre de chiffres de début à supprimer. Par exemple, entrez 1 pour sortir le + du début du nombre.
 
-   - **Chiffres à ajouter** : (Facultatif) précisez les chiffres à ajouter aux numéros traduits. Par exemple, entrez 011 si vous souhaitez ajouter 011 aux numéros traduits au moment d’appliquer la règle.
+   - **Chiffres à ajouter** : (Facultatif) Précisez les chiffres à ajouter aux numéros traduits. Par exemple, entrez 011 si vous souhaitez ajouter 011 aux numéros traduits au moment d’appliquer la règle.
 
      Les valeurs saisies dans ces champs sont reproduites dans les champs **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous appliquez les valeurs de l’exemple précédent, l’expression régulière obtenue dans le champ **Modèle à suivre** est :
 
-     ^\+(\d{9}\d +) $
+     ^\+(\d {9} \d+)$
 
      Le champ **Règle de traduction** spécifie un modèle pour le format des numéros traduits. Ce modèle comprend deux parties :
 
@@ -70,17 +70,17 @@ Suivez ces étapes si vous voulez définir une règle de traduction en entrant u
 8. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
 
    > [!NOTE]
-   > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, reportez-vous [à la rubrique publier des modifications en attente sur la configuration de la messagerie dans Skype entreprise](voice-route-config-changes.md) dans la documentation sur les opérations.
+   > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md) des voix dans Skype Entreprise dans la documentation des opérations.
 
 ### <a name="to-define-a-translation-rule-manually"></a>Pour définir une règle de traduction manuellement
 
-1. Ouvrir le panneau de configuration Skype entreprise Server
+1. Ouvrir le Panneau de contrôle Skype Entreprise Server
 
-2. Pour commencer à définir une règle de traduction, suivez les étapes décrites dans l’article [configurer un Trunk with Media bypass dans Skype entreprise Server via l'](configure-trunk-with-media-bypass.md) étape 10 ou [configurer un Trunk sans dérivation multimédia dans Skype entreprise Server à l'](configure-trunk-without-media-bypass.md) étape 9.
+2. Pour commencer à définir une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk avec déviation du média dans Skype Entreprise [Server](configure-trunk-with-media-bypass.md) jusqu’à l’étape 10 ou configurez une trunk sans déviation du média dans Skype [Entreprise Server](configure-trunk-without-media-bypass.md) jusqu’à l’étape 9.
 
 3. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 
-4. Facultatif Dans **Description**, tapez la description de la règle de traduction (par exemple, la numérotation internationale internationale pour les appels longue distance).
+4. (Facultatif) Dans **Description,** tapez une description de la règle de traduction, par exemple la numérotation longue distance us-international.
 
 5. Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.
 
@@ -90,7 +90,7 @@ Suivez ces étapes si vous voulez définir une règle de traduction en entrant u
 
    - Dans **Règle de traduction**, spécifiez un modèle pour le format des numéros traduits.
 
-     Par exemple, si vous entrez ^\+(\d{9}\d +) $ dans **respecter ce modèle** and011 $1 dans la **règle de traduction**, la règle traduira + 441235551010 en 011441235551010.
+     Par exemple, si vous entrez ^ (\d \d+)$ dans Suivre ce modèle et 011$1 dans la règle de traduction, la règle traduit \+ {9} +441235551010 en 011441235551010.  
 
 7. Cliquez sur **OK** pour enregistrer la règle de traduction.
 
@@ -99,15 +99,15 @@ Suivez ces étapes si vous voulez définir une règle de traduction en entrant u
 9. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
 
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, reportez-vous [à la rubrique publier des modifications en attente sur la configuration de la messagerie dans Skype entreprise](voice-route-config-changes.md) dans la documentation sur les opérations.
+    > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md) des voix dans Skype Entreprise dans la documentation des opérations.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration d’une Trunk with Media bypass dans Skype entreprise Server](configure-trunk-with-media-bypass.md)
+[Configuration d’une trunk avec déviation du média dans Skype Entreprise Server](configure-trunk-with-media-bypass.md)
 
-[Configurer un Trunk sans dérivation multimédia dans Skype entreprise Server](configure-trunk-without-media-bypass.md)
+[Configurer une trunk sans déviation du média dans Skype Entreprise Server](configure-trunk-without-media-bypass.md)
 
-[Les modifications en attente apportées à la configuration de l’acheminement vocal dans Skype entreprise](voice-route-config-changes.md)
+[Publication des modifications en attente de la configuration du routage des voix dans Skype Entreprise](voice-route-config-changes.md)
 
-[Déploiement du contournement multimédia dans Skype entreprise Server](deploy-media-bypass.md)
+[Déploiement du contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)
 

@@ -1,8 +1,8 @@
 ---
-title: Inclure le centre de sécurité dans Skype entreprise Server
+title: Inclure le service de sécurité dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: Planification de l’inclusion du centre de sécurité de votre organisation dans un déploiement E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: 19fc8a01fcb51be3ce36435a5a657c3253716b2c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planification de l’utilisation du service de sécurité de votre organisation dans un déploiement E9-1-1, dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 756af940eb327bc4744454e9ed9ef7a7fbfd517d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802454"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813404"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>Inclure le centre de sécurité dans Skype entreprise Server
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Inclure le service de sécurité dans Skype Entreprise Server
  
-Planification de l’inclusion du centre de sécurité de votre organisation dans un déploiement E9-1-1 dans Skype entreprise Server Voice.
+Planification de l’utilisation du service de sécurité de votre organisation dans un déploiement E9-1-1, dans Skype Entreprise Server Voix Entreprise.
   
 Votre entreprise est susceptible de demander au service de sécurité de prendre part au traitement d’un appel d’urgence. Pour vous aider à décider comment intégrer le service de sécurité dans votre déploiement E9-1-1, répondez aux questions suivantes.
   
 **Souhaitez-vous que le service de sécurité soit averti en cas d’appel d’urgence ?**
   
-Vous pouvez configurer la stratégie d’emplacement de sorte que Skype entreprise Server envoie des alertes de messagerie instantanée aux adresses SIP de Skype entreprise d’un ou plusieurs membres du personnel de sécurité. Ces alertes contiennent le nom, le numéro et l’emplacement de la personne qui met l’appel d’urgence, et facilitent le personnel de sécurité en aidant à la situation d’urgence.
+Vous pouvez configurer la stratégie d’emplacement de sorte que Skype Entreprise Server envoie des alertes de messagerie instantanée aux adresses SIP Skype Entreprise d’un ou plusieurs membres du personnel de sécurité. Ces alertes contiennent le nom, le numéro et l’emplacement de la personne qui passe l’appel d’urgence et facilitent l’assistance du personnel de sécurité en cas d’urgence.
     
 **Souhaitez-vous établir une conférence avec le service de sécurité pour chaque appel d’urgence ?**
   
