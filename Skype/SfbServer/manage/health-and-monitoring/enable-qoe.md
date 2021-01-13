@@ -1,8 +1,8 @@
 ---
-title: Profitez d’une qualité d’expertise dans Skype entreprise Server
+title: Activer la qualité de l’expérience dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 'Résumé : Découvrez comment activer la qualité de l’utilisation (QoE) dans Skype entreprise Server.'
-ms.openlocfilehash: bc757748e9d95c92405a7dc9a72f87b869165825
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment activer la qualité de l’expérience (QoE) dans Skype Entreprise Server.'
+ms.openlocfilehash: 67b752df3791d3ba0493a7e3575f25c58231ad26
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817964"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816854"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Profitez d’une qualité d’expertise dans Skype entreprise Server
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Activer la qualité de l’expérience dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment activer la qualité de l’utilisation (QoE) dans Skype entreprise Server.
+**Résumé : Découvrez** comment activer la qualité de l’expérience (QoE) dans Skype Entreprise Server.
 
 La qualité de l’expérience (QoE) enregistre des données numériques qui indiquent la qualité du média, ainsi que les informations sur les participants, les noms des appareils, les pilotes, les adresses IP et les types de point de terminaison impliqués dans les appels et les sessions. Pour plus d’informations, voir [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) dans la documentation de planification.
 
@@ -30,19 +30,19 @@ Procédez comme suit pour activer la QoE dans toute l’entreprise ou dans chacu
 > [!NOTE]
 > Pour activer la qualité de l’expérience, vous devez commencer par configurer la surveillance et une base de données principale de surveillance. Pour plus d’informations, voir [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
-### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Pour activer le QoE à l’aide du panneau de configuration Skype entreprise Server
+### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Pour activer la qualité de l’expérience à l’aide du Panneau de contrôle Skype Entreprise Server
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. .
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
 
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.
 
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis cliquez sur **Données de qualité de l’expérience**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Données de qualité de l’expérience**.
 
 4. Dans la page **Données de qualité de l’expérience**, cliquez sur la collection appropriée dans le tableau, sur **Action**, puis sur **Activer QoE**.
 
-## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Activation de QoE à l’aide d’applets de cmdlet Windows PowerShell
+## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Activation de la QoE à l’aide Windows PowerShell cmdlets
 
-Vous pouvez activer le QoE en utilisant Windows PowerShell et l’applet **de cmdlet Set-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez activer la QoE à l’Windows PowerShell et à l’aide de l';cmdlet **Set-CsQoEConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>Pour activer la qualité de l’expérience pour un emplacement
 
@@ -68,11 +68,11 @@ Vous pouvez activer le QoE en utilisant Windows PowerShell et l’applet **de cm
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 
-Pour plus d’informations, consultez la rubrique [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps).
+Pour plus d’informations, [voir Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps).
 
 ## <a name="see-also"></a>Voir aussi
 
 [Planification de la surveillance](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Déploiement du serveur de surveillance](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

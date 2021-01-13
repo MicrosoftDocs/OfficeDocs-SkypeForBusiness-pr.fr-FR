@@ -1,8 +1,8 @@
 ---
-title: Table DeRegisterType dans Skype entreprise Server 2015
+title: Table DeRegisterType dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
-description: La table DeRegisterType est une table statique qui stocke la liste de types de déregistreurs d’utilisateurs possibles, par exemple « client lancé », « inscription expirée » ou « le client a cessé de répondre ».
-ms.openlocfilehash: ae9afafe91336b1e5c74fd0a854e2975a3b4ba8e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table DeRegisterType est une table statique qui stocke la liste des types d’utilisateurs dé-inscrits possibles, tels que « initié par le client » ou « l’inscription a expiré » ou « le client a cessé de répondre ».
+ms.openlocfilehash: 388aebc1ac180e1298addd54859cff6759b28be0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815292"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816074"
 ---
-# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Table DeRegisterType dans Skype entreprise Server 2015
+# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Table DeRegisterType dans Skype Entreprise Server 2015
  
-La table DeRegisterType est une table statique qui stocke la liste de types de déregistreurs d’utilisateurs possibles, par exemple « client lancé », « inscription expirée » ou « le client a cessé de répondre ».
+La table DeRegisterType est une table statique qui stocke la liste des types d’utilisateurs dé-inscrits possibles, tels que « initié par le client » ou « l’inscription a expiré » ou « le client a cessé de répondre ».
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |Principal  <br/> ||
-|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || Valeurs autorisées : <br/>  0--Inconnu <br/>  1--le client a démarré la suppression <br/>  2--inscription expirée <br/>  3-client bloqué <br/>  4--attributs utilisateur modifiés <br/>  5-Bureau d’enregistrement préféré modifié <br/>  6--client hérité en mode de survie <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |Primaire  <br/> ||
+|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || Valeurs autorisées : <br/>  0 -- Inconnu <br/>  1 -- Désinscription à l’initiative du client <br/>  2 -- Expiration de l’inscription <br/>  3 - Le client s’est crashé <br/>  4 -- Modification des attributs de l’utilisateur <br/>  5 - Bureau d’enregistrement préféré modifié <br/>  6 -- Client hérité en mode survie <br/> |
    
 

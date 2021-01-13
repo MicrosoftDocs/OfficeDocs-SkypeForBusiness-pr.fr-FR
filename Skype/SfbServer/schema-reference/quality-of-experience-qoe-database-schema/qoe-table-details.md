@@ -1,8 +1,8 @@
 ---
-title: Détails des tables QoE
+title: Détails des tables de qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: Les sections suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données de qualité de l’interface (QoE).
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Ces sections détaillent les colonnes de chacune des tables de schéma de base de données de qualité de l’expérience (QoE).
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807192"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815754"
 ---
-# <a name="qoe-table-details"></a>Détails des tables QoE
+# <a name="qoe-table-details"></a>Détails des tables de qualité de l’expérience (QoE)
  
-Les sections suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données de qualité de l’interface (QoE).
+Ces sections détaillent les colonnes de chacune des tables de schéma de base de données de qualité de l’expérience (QoE).
   
 - [Table AppliedBandwidthSource](appliedbandwidthsource.md)
     
@@ -44,7 +44,7 @@ Les sections suivantes décrivent en détail les colonnes dans chaque table de s
     
 - [Table DeviceDriver](devicedriver.md)
     
-- [Table Dialog](dialog.md)
+- [Table de dialogue](dialog.md)
     
 - [Table Endpoint](endpoint.md)
     
@@ -66,7 +66,7 @@ Les sections suivantes décrivent en détail les colonnes dans chaque table de s
     
 - [Table Pool](pool.md)
     
-- [Table PurgeSettings](purgesettings-qoe.md)
+- [Table PurgeSettings (QoE)](purgesettings-qoe.md)
     
 - [Table Region](region.md)
     
@@ -84,7 +84,7 @@ Les sections suivantes décrivent en détail les colonnes dans chaque table de s
     
 - [Table UserAgent](useragent.md)
     
-- [Table UserAgentDef](useragentdef-qoe.md)
+- [Table UserAgentDef (QoE)](useragentdef-qoe.md)
     
 - [Table UserSite](usersite.md)
     

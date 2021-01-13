@@ -1,8 +1,8 @@
 ---
-title: Utilisateurs nouvel utilisateur de Lync Server
+title: Utilisateurs Nouvel utilisateur Lync Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,43 +14,43 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0576b2471777bedf227c6d9b8117ac0752ac6848
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: c251ec8aea243487c0e2614ef8cf2e9373d553f3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821806"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815324"
 ---
 # <a name="users-new-lync-server-user"></a>Utilisateurs : nouvel utilisateur Lync Server
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
 - [Ajouter un nouvel utilisateur à Lync Server 2010](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
 
-- [Enable or Disable Users for Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Activer ou désactiver des utilisateurs pour Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [Affectation d’une stratégie de conférence pour modifier l’utilisation de la réunion par défaut d’un utilisateur](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [Affecter une stratégie de conférence pour modifier l’expérience de réunion par défaut d’un utilisateur](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-- [Spécifier les versions du client prises en charge pour la connexion par un utilisateur](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [Spécifier les versions des clients pris en charge pour la signature par un utilisateur](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [Affectation d’une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Affectation d’une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Configuration de l’archivage des communications d’un utilisateur](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [Configurer l’archivage des communications d’un utilisateur](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [Assigner une stratégie d’emplacement à un utilisateur](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [Affecter une stratégie d’emplacement à un utilisateur](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Activer les utilisateurs Voix Entreprise dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configurer la téléphonie pour les utilisateurs](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
-- [Affectation d’une stratégie de mobilité par utilisateur](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [Attribution d’une stratégie de mobilité par utilisateur](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
-- [Assigner une stratégie de discussion persistante par utilisateur](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [Attribution d’une stratégie de conversation permanente par utilisateur](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
 

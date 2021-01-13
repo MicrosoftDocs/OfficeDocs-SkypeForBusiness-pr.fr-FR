@@ -1,8 +1,8 @@
 ---
 title: Teams pour la santé publique
-description: En savoir plus sur les ressources d’administration disponibles pour gérer teams pour les équipes de santé au sein de votre organisation.
-author: lanachin
-ms.author: v-lanac
+description: Découvrez les ressources d’administration disponibles pour gérer Teams pour les équipes médicales de votre organisation.
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e77bd388dd2d852c23fb05e6e54f265065fc1a1a
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 8e7de4f3a91375aee8d58d2a5164f995fee54f22
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766867"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815704"
 ---
 # <a name="teams-for-healthcare"></a>Teams pour la santé publique
 
-Teams fournit aux équipes sanitaires et aux professionnels de la santé un moyen sécurisé de communiquer, coordonner les soins du patient et améliorer l’efficacité opérationnelle. Vous trouverez ci-dessous les ressources d’administration dont vous avez besoin pour gérer teams au sein de votre organisation.
+Teams offre aux équipes de santé et aux professionnels de santé un moyen sécurisé de communiquer, coordonner les soins des patients et améliorer l’efficacité opérationnelle. Vous y trouverez les ressources d’administration dont vous avez besoin pour gérer Teams pour les équipes médicales de votre organisation.
 
 |               |               |
 | ------------- | ------------- |
-| ![débutant-teams](../media/get-started-teams.svg)  |  [Prise en main de Teams pour les organismes de santé](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
-| ![Walkthrough-Map-teams](../media/walkthrough-map-teams.svg) | [Démarrage avec les modèles Teams pour les organismes de santé](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
-| ![salons](../media/chat.svg)  |  [Démarrage avec la messagerie sécurisée pour les organismes de santé](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
+| ![get-started-teams](../media/get-started-teams.svg)  |  [Prise en main de Teams pour les organismes de santé](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [Démarrage avec les modèles Teams pour les organismes de santé](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
+| ![bavarder](../media/chat.svg)  |  [Démarrage avec la messagerie sécurisée pour les organismes de santé](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |

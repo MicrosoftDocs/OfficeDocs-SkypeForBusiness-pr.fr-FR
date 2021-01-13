@@ -1,8 +1,8 @@
 ---
-title: Enregistrement des détails des appels (CDR) dans Skype entreprise Server
+title: Enregistrement des détails des appels (CDR) dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,32 +11,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-description: 'Résumé : en savoir plus sur les enregistrements d’enregistrements des détails des appels utilisés dans Skype entreprise Server.'
-ms.openlocfilehash: 2a8a20ba6c02bb51d3f2ec79f8392f57a935e557
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez les enregistrements des détails des appels utilisés dans Skype Entreprise Server.'
+ms.openlocfilehash: 566a345cb48cd318976c4653abc74cbb5d4c9747
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818155"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817104"
 ---
-# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Enregistrement des détails des appels (CDR) dans Skype entreprise Server
+# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Enregistrement des détails des appels (CDR) dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur les enregistrements d’enregistrements des détails des appels utilisés dans Skype entreprise Server.
+**Résumé :** Découvrez les enregistrements des détails des appels utilisés dans Skype Entreprise Server.
   
-L’enregistrement des détails des appels permet d’enregistrer les informations de diagnostic et d’utilisation relatives aux activités P2P, notamment la messagerie d’instance, les appels VoIP (protocole voix sur IP), le partage d’application, le transfert de fichiers et les réunions. Les données d’utilisation permettent de calculer le retour sur investissement alors que les données de diagnostic permettent de résoudre les problèmes spécifiques aux activités et réunions P2P. Lorsque vous installez Skype entreprise Server, vous devez également installer une collection prédéfinie de paramètres de configuration globale pour CDR. Utilisez les rubriques de cette section pour configurer l’enregistrement des détails des appels.
+L’enregistrement des détails des appels permet d’enregistrer les informations de diagnostic et d’utilisation relatives aux activités P2P, notamment la messagerie d’instance, les appels VoIP (protocole voix sur IP), le partage d’application, le transfert de fichiers et les réunions. Les données d’utilisation permettent de calculer le retour sur investissement alors que les données de diagnostic permettent de résoudre les problèmes spécifiques aux activités et réunions P2P. Lorsque vous installez Skype Entreprise Server, vous installez également un ensemble prédéféré de paramètres de configuration globaux pour l’cdr. Utilisez les rubriques de cette section pour configurer l’enregistrement des détails des appels.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Afficher les informations de configuration de CDR dans Skype entreprise Server](view-configuration-information.md)
+- [Afficher les informations de configuration de l’cdr dans Skype Entreprise Server](view-configuration-information.md)
     
-- [Activer l’enregistrement des détails des appels dans Skype entreprise Server](enable-cdr.md)
+- [Activer l’enregistrement des détails des appels dans Skype Entreprise Server](enable-cdr.md)
     
-- [Créer ou modifier un ensemble de paramètres de configuration de CDR dans Skype entreprise Server](create-or-modify-a-collection-of-settings.md)
+- [Créer ou modifier une collection de paramètres de configuration cdR dans Skype Entreprise Server](create-or-modify-a-collection-of-settings.md)
     
-- [Suppression d’une collection de paramètres de configuration de CDR dans Skype entreprise Server](delete-configuration-settings.md)
+- [Supprimer une collection existante de paramètres de configuration cdR dans Skype Entreprise Server](delete-configuration-settings.md)
     
-- [Effacement manuel des bases de données de l’enregistrement des détails des appels et de la qualité de l’activité dans Skype entreprise Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [Vider manuellement les bases de données d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer les paramètres d’enregistrement des détails des appels et de qualité de l’expertise dans Skype entreprise Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[Configurer les paramètres d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

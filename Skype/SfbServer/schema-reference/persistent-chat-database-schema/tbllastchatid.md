@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: tblLastChatId contient le dernier ID de chat qui a été généré (et utilisé dans la table tblChat) pour chaque utilisateur.
-ms.openlocfilehash: 95498f077948e1b400d0a370762c121def703e8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblLastChatId contient le dernier ID de conversation généré (et utilisé dans la table tblChat) pour chaque utilisateur.
+ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814582"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816004"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-tblLastChatId contient le dernier ID de chat qui a été généré (et utilisé dans la table tblChat) pour chaque utilisateur.
+tblLastChatId contient le dernier ID de conversation généré (et utilisé dans la table tblChat) pour chaque utilisateur.
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|ID  <br/> |ent, non null  <br/> |ID de nœud (salle de conversation-type uniquement).  <br/> |
-|lastChatID  <br/> |bigint, pas null  <br/> |Dernier ID de conversation utilisé.  <br/> |
+|nodeID  <br/> |int, non null  <br/> |ID de nœud (type de salle de conversation seulement).  <br/> |
+|lastChatID  <br/> |bigint, non null  <br/> |ID de conversation le plus récemment utilisé.  <br/> |
    
-**Permettent**
+**Keys**
 
 |**Colonne**|**Description**|
 |:-----|:-----|
-|\<nodeID, lastChatID\>  <br/> |Clé primaire (uniquement nodeID est suffisante pour le traitement).  <br/> |
-|ID  <br/> |Clé étrangère avec recherche dans la table tblNode. nodeID.  <br/> |
+|\<nodeID, lastChatID\>  <br/> |Clé principale (nodeID est suffisant pour le traitement).  <br/> |
+|nodeID  <br/> |Clé étrangère avec recherche dans la table tblNode.nodeID.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

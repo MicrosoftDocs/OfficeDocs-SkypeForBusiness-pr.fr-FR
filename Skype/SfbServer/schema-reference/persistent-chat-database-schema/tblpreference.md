@@ -1,8 +1,8 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: tblPreference contient les préférences client de l’utilisateur. Il est généralement utilisé par les clients antérieurs à Lync 2013.
-ms.openlocfilehash: 426a9f6aebe6cc6e510e2a75093b9210d3a0ba46
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPreference contient les préférences client des utilisateurs. Il est généralement utilisé par les clients antérieurs à Lync 2013.
+ms.openlocfilehash: 96cd017dd67a05f3240269f5bdcbd23f30fffd28
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814552"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815904"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-tblPreference contient les préférences client de l’utilisateur. Il est généralement utilisé par les clients antérieurs à Lync 2013.
+tblPreference contient les préférences client des utilisateurs. Il est généralement utilisé par les clients antérieurs à Lync 2013.
 
-**Celles**
+**Columns**
 
 
 | **Colonne**            | **Type**                        | **Description**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| prefLabel  <br/>      | nvarchar (255), pas null  <br/> | Étiquette avec un format tel que : \<URI SIP utilisateur\>                   |
-| prefSeqID  <br/>      | ent, non null  <br/>            | Un numéro séquentiel (par étiquette) à des fins de contrôle de version.  <br/> |
-| prefContent  <br/>    | nvarchar (max)  <br/>           | Contenu encodé.  <br/>                                         |
-| lastModifiedBy  <br/> | ent, non null  <br/>            | ID de l’objet principal qui a mis à jour la préférence.  <br/>         |
+| prefLabel  <br/>      | nvarchar (255), non null  <br/> | Étiquette avec un format tel que : \<user sip uri\>                   |
+| prefSeqID  <br/>      | entier, non null  <br/>            | Numéro séquentiel (par étiquette) à des fins de contrôle de version.  <br/> |
+| prefContent  <br/>    | nvarchar (max)  <br/>           | Contenu codé.  <br/>                                         |
+| lastModifiedBy  <br/> | entier, non null  <br/>            | ID du principal qui à mis à jour la préférence.  <br/>         |
 
 **Clé**
 

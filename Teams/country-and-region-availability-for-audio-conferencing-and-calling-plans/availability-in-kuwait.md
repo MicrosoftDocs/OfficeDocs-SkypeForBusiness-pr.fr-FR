@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Koweït
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Koweït.
-ms.openlocfilehash: 53c1771ea78e70c8ae15cb34a56bc19c39999a9d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Koweït.
+ms.openlocfilehash: a92bfe300f4920d0121fc66207b4ccf4e8bdfe33
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231103"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814664"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilité au Koweït
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Koweït.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Koweït.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

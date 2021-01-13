@@ -1,8 +1,8 @@
 ---
 title: Itinéraire des communications vocales
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 82241a76c32bfc283d1a26f9d8b16135b5448b8e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: 728c7d7da3625f04fe0df37bc3a3729e0ceb25bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821636"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814474"
 ---
 # <a name="voice-route"></a>Itinéraire des communications vocales
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification d’un itinéraire de communications vocales dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Création ou modification d’un itinéraire de messagerie vocale dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [Modification d’un itinéraire vocal](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
 

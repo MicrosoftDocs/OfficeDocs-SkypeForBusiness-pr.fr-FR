@@ -1,8 +1,8 @@
 ---
-title: Planifier un magasin de contacts unifié dans Skype entreprise Server
+title: Planifier le magasin de contacts unifié dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 6/8/2017
 audience: ITPro
@@ -13,35 +13,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: 'Résumé : consultez cette rubrique lors de la planification de l’intégration de Skype entreprise Server à Exchange 2013.'
-ms.openlocfilehash: fbc361dab4414ea2add286144be48b922a9d9247
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Examinez cette rubrique lors de la planification de l’intégration de Skype Entreprise Server à Exchange 2013.'
+ms.openlocfilehash: 3ce06118f8225e78c5c84a8f9124e4815f79d593
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815872"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816254"
 ---
-# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planification d’un magasin de contacts unifié dans Skype Entreprise Server 2015
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planifier le magasin de contacts unifié dans Skype Entreprise Server 2015
  
-**Résumé :** Consultez cette rubrique lors de la planification de l’intégration de Skype entreprise Server à Exchange 2013 ou 2016.
+**Résumé :** Examinez cette rubrique lors de la planification de l’intégration de Skype Entreprise Server à Exchange 2013 ou 2016.
   
-Le magasin de contacts unifié fournit une interface de contact homogène entre les produits Microsoft Office et permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013, mais permet aux informations d’être disponibles dans le monde entier avec Skype entreprise, Exchange, Outlook et Outlook Web Access.
+Le magasin de contacts unifié offre une expérience de contact cohérente entre les produits Microsoft Office et permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013, mais permet aux informations d’être disponibles globalement dans Skype Entreprise, Exchange, Outlook et Outlook Web Access.
   
-## <a name="requirements-for-unified-contact-store"></a>Configuration requise pour le magasin de contacts unifié
+## <a name="requirements-for-unified-contact-store"></a>Conditions requises pour le magasin de contacts unifié
 
-Pour implémenter un magasin de contacts unifié dans Skype entreprise Server, procédez comme suit :
+Pour implémenter un magasin de contacts unifié dans Skype Entreprise Server :
   
-- Vous devez exécuter Skype entreprise Server et Exchange 2013 ou 2016.
+- Vous devez utiliser Skype Entreprise Server et Exchange 2013 ou 2016.
     
-- Les utilisateurs doivent utiliser Skype entreprise pour migrer leurs contacts de Skype entreprise Server vers Exchange 2013 ou 2016.
+- Les utilisateurs doivent utiliser Skype Entreprise pour migrer leurs contacts de Skype Entreprise Server vers Exchange 2013 ou 2016.
     
-- Les boîtes aux lettres d’utilisateur doivent être déplacées vers Exchange 2013.
+- Les boîtes aux lettres utilisateur doivent être migrées vers Exchange 2013.
     
-- Vous devez disposer de l’authentification serveur à serveur configurée entre Skype entreprise Server et Exchange 2013 ou 2016.
+- L’authentification de serveur à serveur doit être configurée entre Skype Entreprise Server et Exchange 2013 ou 2016.
     
     > [!NOTE]
-    > Pour plus d’informations sur la configuration de l’authentification entre Skype entreprise Server et Exchange 2013 ou 2016, voir [gérer l’authentification de serveur à serveur (OAuth) et les applications de partenariat dans Skype entreprise Server](../../manage/authentication/server-to-server-and-partner-applications.md) dans la documentation opérations.
+    > Pour plus d’informations sur la configuration de l’authentification entre Skype Entreprise Server et Exchange 2013 ou 2016, voir [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server in](../../manage/authentication/server-to-server-and-partner-applications.md) the Operations documentation.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Déploiement d’un magasin de contacts unifié dans Skype entreprise Server](../../deploy/deploy-unified-contact-store.md)
+[Déployer un magasin de contacts unifié dans Skype Entreprise Server](../../deploy/deploy-unified-contact-store.md)

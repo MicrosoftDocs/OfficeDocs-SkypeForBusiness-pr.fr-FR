@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Nicaragua
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Nicaragua.
-ms.openlocfilehash: b365fcc906ee685caffdcbd742347c168c8d474f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour nicaragua.
+ms.openlocfilehash: 64b4070d446bfdfa64593aa0222a62071918601f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230362"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814604"
 ---
 # <a name="availability-in-nicaragua"></a>Disponibilité au Nicaragua
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Nicaragua.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour nicaragua.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -68,7 +68,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Managua ([à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Mans[(sur demande)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    

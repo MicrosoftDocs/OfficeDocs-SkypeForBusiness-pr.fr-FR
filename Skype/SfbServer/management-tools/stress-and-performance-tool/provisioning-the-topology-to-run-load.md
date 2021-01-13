@@ -1,8 +1,8 @@
 ---
-title: Approvisionnement de la topologie pour exécuter des scénarios de stress et de performance
+title: Mise en service de la topologie pour exécuter la charge dans les scénarios de contrainte et de performances
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -13,46 +13,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: Les modifications ou la mise en service de la topologie de Skype entreprise Server 2015 pour permettre aux utilisateurs d’exécuter avec succès l’outil de stress et de performance.
-ms.openlocfilehash: 2156616fac98d1e6fad08d2036f4bc2def3e98b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Modifications ou approvisionnement de la topologie de Skype Entreprise Server 2015 pour permettre aux utilisateurs d’exécuter correctement l’outil Stress and Performance.
+ms.openlocfilehash: 8d422497d11c9e56e4d5b205269a09f96dffc136
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816163"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814934"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Approvisionnement de la topologie pour exécuter des scénarios de stress et de performance
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Mise en service de la topologie pour exécuter la charge dans les scénarios de contrainte et de performances
  
-Les modifications ou la mise en service de la topologie de Skype entreprise Server 2015 pour permettre aux utilisateurs d’exécuter avec succès l’outil de stress et de performance.
+Modifications ou approvisionnement de la topologie de Skype Entreprise Server 2015 pour permettre aux utilisateurs d’exécuter correctement l’outil Stress and Performance.
   
-Selon vos paramètres et votre configuration existants pour votre déploiement de Skype entreprise Server 2015, vous devrez peut-être apporter quelques modifications à votre environnement. Voici une liste de ces modifications :
+En fonction de vos paramètres existants et de la configuration de votre déploiement de Skype Entreprise Server 2015, vous devrez peut-être apporter des modifications à votre environnement. Voici une liste de ces modifications :
   
-1. Définissez la stratégie d’exécution Windows PowerShell sur non restreinte. Si vous n’êtes pas sûr de l’option définie pour le moment, vous pouvez ouvrir Skype entreprise Server Management Shell et exécuter cette commande :
+1. Définissez la stratégie Windows PowerShell’exécution sur Non restreint. Si vous ne savez pas exactement ce qu’il est actuellement, vous pouvez ouvrir Skype Entreprise Server Management Shell et exécuter la commande ci-après :
     
    ```PowerShell
    Get-ExecutionPolicy
    ```
 
-   Si la valeur Unrestricted n’est pas renvoyée, vous devez l’exécuter suivante :
+   Si la valeur Unrestricted n’est pas renvoyée, vous devez exécuter cette suivante :
     
    ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. Pour configurer efficacement Skype entreprise Server, vous devez :
+2. Pour configurer Efficacement Skype Entreprise Server, vous devez :
     
-    - Familiarisez-vous avec la topologie de Skype entreprise Server 2015 (par exemple, les noms d’ordinateurs, les instances de service, les noms de sites et les stratégies).
+    - Familiarisez-vous avec votre topologie Skype Entreprise Server 2015 (par exemple, les noms d’ordinateur, les instances de service, les noms de site et les stratégies).
     
-    - Assignez certains utilisateurs créés à des groupes, tels que les groupes de recherche de Response Group (par exemple, URI SIP).
+    - Attribuez certains des utilisateurs créés à des groupes, tels que des groupements de recherche Response Group (par exemple, des URI SIP).
     
-3. Pour exécuter le script à partir de la ligne de commande, vous pouvez utiliser les éléments suivants :
+3. Pour exécuter un script à partir d’une ligne de commande, vous pouvez utiliser :
     
    ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 
-4. En règle générale, une fois que vous avez exécuté un script depuis ce package, les traces obtenues seront stockées dans un fichier dans le même chemin à partir duquel le script est exécuté. Il existe également un format d’appellation \<scriptname\>$h $ m $ s. txt. Par conséquent, si vous avez exécuté ArchivingPolicy. ps1 au 12:15 PM, vous obtiendrez un fichier journal nommé ArchivingPolicy121500. txt.
+4. En règle générale, une fois que vous avez exécuté un script à partir de ce package, les suivis qui en résultent sont stockés dans un fichier dans le même chemin d’accès à partir de l’endroit où le script a été exécuté. Il existe également un format d’attribution de noms, \<scriptname\> $h$m$s.txt. Ainsi, si vous avez ArchivingPolicy.ps1 à 12:15 PM, vous obtenez un fichier journal nommé ArchivingPolicy121500.txt.
     
-5. Même si vous avez fourni ces exemples pour la configuration de votre serveur, vous devez modifier votre configuration et le restaurer ou le réactiver une fois que vous avez terminé d’exécuter le test de charge.
+5. Même si nous avons fourni ces exemples pour la configuration de votre serveur, il vous revient à la fois de modifier votre configuration et de la restaurer ou de la restaurer une fois que vous avez terminé l’exécution du test de charge.
     
 

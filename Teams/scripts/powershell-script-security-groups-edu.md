@@ -1,13 +1,13 @@
 ---
-title: Exemple de script PowerShell-créer des groupes de sécurité pour les enseignants et les étudiants dans votre établissement scolaire
-author: LanaChin
-ms.author: v-lanac
+title: Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour créer des groupes de sécurité dont vous avez besoin pour gérer les stratégies d’équipe pour les enseignants et les étudiants de votre établissement scolaire.
+description: Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies Teams pour les enseignants et les étudiants de votre établissement scolaire.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,35 +17,35 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534093"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809464"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell-créer des groupes de sécurité pour les enseignants et les étudiants dans votre établissement scolaire
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
-Utilisez ce script PowerShell pour créer des groupes de sécurité dont vous avez besoin pour gérer les politiques de Microsoft teams dans votre établissement scolaire. La fonction [affectation de stratégie aux groupes](../assign-policies.md#assign-a-policy-to-a-group) dans teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectation de stratégie est propagée aux membres du groupe conformément aux règles de priorité. Les membres étant ajoutés ou supprimés d’un groupe, leurs affectations de stratégie héritées sont mises à jour en conséquence.
+Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies Microsoft Teams dans votre établissement scolaire. [L’affectation de stratégie à des](../assign-policies.md#assign-a-policy-to-a-group) groupes dans Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
-Ce script PowerShell crée deux groupes de sécurité, l’un pour le personnel et pour les enseignants, et l’autre pour les étudiants de votre établissement scolaire, en fonction du type de licence. Vous pouvez ensuite attribuer des stratégies aux groupes de sécurité que vous avez créés. Pour plus d’informations sur l’utilisation de ce script, voir [attribuer des stratégies à d’importants ensembles d’utilisateurs de votre établissement scolaire](../batch-group-policy-assignment-edu.md).
+Ce script PowerShell crée deux groupes de sécurité, un pour le personnel et les enseignants, et l’autre pour les étudiants de votre établissement, sur la base du type de licence. Vous pouvez ensuite affecter des stratégies aux groupes de sécurité que vous avez créés. Pour plus d’informations sur l’utilisation de ce script, voir Attribuer des stratégies à un grand nombre [d’utilisateurs de votre établissement scolaire.](../batch-group-policy-assignment-edu.md)
 
-Ce script effectue les actions suivantes :
+Ce script suit :
 
-- Identifie le personnel et les enseignants qui reçoivent une référence pour les enseignants, crée un groupe de sécurité, puis ajoute du personnel et des enseignants au groupe.
-- Identifie les étudiants auxquels une référence SKU d’étudiant est affectée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
-- Il met à jour l’appartenance de chaque groupe de sécurité pour ajouter ou supprimer des membres du personnel, des enseignants et des étudiants selon qu’ils disposent ou non d’une licence.
+- Identifie le personnel et les enseignants affectés à une référence SKU pour les enseignants, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
+- Identifie les étudiants à qui une référence SKU est attribuée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
+- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction du fait qu’ils ont ou non une licence.
 
-Vous devez exécuter ce script régulièrement pour que les groupes de sécurité restent à jour.
+Vous devrez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
 
 > [!IMPORTANT]
-> Il est important de comprendre les [règles de précédence](../assign-policies.md#precedence-rules) et le classement des [affectations de groupe](../assign-policies.md#group-assignment-ranking) lors de l’attribution de stratégies à des groupes. Vérifiez que vous avez bien lu et compris les concepts décrits dans [ce que vous devez savoir sur l’attribution de stratégies à des groupes](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+> Il est important [](../assign-policies.md#precedence-rules) de comprendre les règles de priorité et le [classement d’affectation](../assign-policies.md#group-assignment-ranking) de groupe lors de l’attribution de stratégies à des groupes. Veillez à lire et à comprendre les concepts de ce que vous devez savoir sur l’affectation de [stratégies à des groupes.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>Avant de commencer
 
-Téléchargez et installez le [module PowerShell de Skype entreprise Online](https://www.microsoft.com/download/details.aspx?id=39366), puis redémarrez l’ordinateur si vous y êtes invité.
+Téléchargez et installez [le module PowerShell Skype](https://www.microsoft.com/download/details.aspx?id=39366)Entreprise Online, puis redémarrez votre ordinateur si vous y êtes invité.
 
-Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et [teams PowerShell Overview](../teams-powershell-overview.md).
+Pour en savoir plus, voir [Gérer Skype Entreprise Online avec PowerShell Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et Teams [PowerShell.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Attribuer des stratégies à vos utilisateurs dans teams](../assign-policies.md)
+[Attribuer des stratégies à vos utilisateurs](../assign-policies.md)

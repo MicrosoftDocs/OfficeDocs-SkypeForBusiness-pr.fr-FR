@@ -1,7 +1,7 @@
 ---
-title: Afficher les données d’analyse dans teams
-author: LanaChin
-ms.author: v-lanac
+title: Afficher les données d’analyse dans Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,83 +13,83 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: Apprenez-en davantage sur l’analyse interéquipe, l’analyse par équipe et l’analyse par canal dans Teams, qui permettent aux utilisateurs de voir les données d’utilisation des équipes ou des canaux auxquelles ils appartiennent.
+description: Découvrez l’analyse multi-équipe, l’analyse par équipe et l’analyse par canal dans Teams, qui permet aux utilisateurs de voir les données d’utilisation des équipes ou canaux dont ils font partie.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9261678848589028155d58449bf84d083ff756c2
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 00ac44638a3f1b79ba98d1b2ebc6cf3645ef44bd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940933"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809174"
 ---
-# <a name="view-analytics-in-teams"></a>Afficher les données d’analyse dans teams
+# <a name="view-analytics-in-teams"></a>Afficher les données d’analyse dans Teams
 
-Dans Microsoft Teams, les utilisateurs peuvent afficher les données d’analyse des équipes et des canaux auxquels ils font partie. Ces informations fournissent aux utilisateurs des informations détaillées sur les modèles d’utilisation et l’activité dans leurs équipes. Les utilisateurs peuvent afficher des données, comme le nombre d’utilisateurs actifs, de publications, de réponses, etc.
+Dans Microsoft Teams, les utilisateurs peuvent afficher les analyses des équipes et canaux dont ils font partie. Ces informations donnent aux utilisateurs des informations sur les modèles d’utilisation et l’activité de leurs équipes. Les utilisateurs peuvent voir des données telles que le nombre d’utilisateurs actifs, des publications, des réponses, etc. à trois niveaux.
 
-- L' **analyse interéquipe** donne aux utilisateurs une vue d’ensemble des données d’utilisation pour toutes les équipes dont elles sont membres ou propriétaires dans un seul affichage de liste.
-- L' **analyse par équipe** donne aux utilisateurs une vue plus fine, montrant les données d’utilisation pour une équipe spécifique.
-- L' **analyse par canal** donne aux utilisateurs un affichage encore plus précis, en montrant les données d’utilisation pour un canal spécifique.
+- **L’analyse entre** équipes offre aux utilisateurs une vue d’ensemble des données d’utilisation de toutes les équipes dont ils sont membres ou propriétaires dans un affichage de liste unique.
+- **L’analyse par équipe offre** aux utilisateurs une vue plus précise et présente les données d’utilisation d’une équipe spécifique.
+- **L’analyse par canal offre** aux utilisateurs une vue encore plus granulaire, affichant les données d’utilisation d’un canal spécifique.
 
-Les utilisateurs peuvent filtrer l’un de ces affichages pour afficher les données pour une période spécifiée.
+Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une période spécifiée.
 
-## <a name="view-cross-team-analytics"></a>Affichage de l’analyse interéquipe
+## <a name="view-cross-team-analytics"></a>Afficher les analyses entre équipes
 
-1. Dans Teams, en bas de la liste d’équipes, en regard de **rejoindre ou créer une équipe**, cliquez sur **gérer les équipes**.
-2. Cliquez sur l’onglet **analyse** .
-3. Sélectionnez une plage de dates pour afficher les données d’utilisation pour toutes les équipes dont vous êtes membre ou propriétaire.
+1. Dans Teams, en bas de la liste des équipes, à côté de Rejoindre ou créer une **équipe,** cliquez **sur Gérer les équipes.**
+2. Cliquez sur **l’onglet** Analyse.
+3. Sélectionnez une plage de dates pour afficher les données d’utilisation de toutes les équipes dont vous êtes membre ou propriétaire.
 
-    ![Capture d’écran de l’affichage d’analyse entre les équipes](../media/view-analytics-cross-team.png)
+    ![Capture d’écran de l’affichage Analyse entre équipes](../media/view-analytics-cross-team.png)
 
     |Option |Description  |
     |--------|-------------|
     |**Nom**   |Nom de l’équipe. |
-    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs dans l’équipe et courbe de tendance de l’activité de l’équipe pendant la période spécifiée.
-    |**Personnes**   |Nombre total de personnes de l’équipe pendant la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
-    |**Personnes**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
-    |**Poteau**   |Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée. |
-    |**Contraire**   |Nombre de réponses dans la conversation d’équipe pendant la période spécifiée. |
-    |**Type**   |S’il s’agit d’une équipe privée ou d’une équipe publique.|
+    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance au cours de la période spécifiée.
+    |**Personnes**   |Nombre total de membres de l’équipe pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
+    |**Invités**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
+    |**Billets**   |Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée. |
+    |**Réponses**   |Nombre de réponses dans la conversation d’équipe pendant la période spécifiée. |
+    |**Type**   |Que l’équipe soit privée ou publique.|
 
-## <a name="view-per-team-analytics"></a>Afficher les données d’analyse par équipe
+## <a name="view-per-team-analytics"></a>Afficher les analyses par équipe
 
-1. Dans Teams, accédez à l’équipe de votre choix, cliquez sur **plus d’options (...)**, puis sur **gérer l’équipe**.
-2. Cliquez sur l’onglet **analyse** .
+1. Dans Teams, allez à l’équipe de votre choix, cliquez sur Autres **options (...)**, puis cliquez sur **Gérer l’équipe.**
+2. Cliquez sur **l’onglet** Analyse.
 4. Sélectionnez une plage de dates pour afficher les données d’utilisation de l’équipe.  
 
-    ![Capture d’écran d’un affichage d’analyse par équipe](../media/view-analytics-per-team.png)
+    ![Capture d’écran de l’affichage Analyse par équipe](../media/view-analytics-per-team.png)
 
     |Option |Description  |
     |--------|-------------|
-    |**Résumé**   |Résumé de l’activité de l’équipe, à savoir :<ul><li>**Utilisateurs**: nombre total d’utilisateurs dans la durée spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Billets**: nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses**: nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions**: nombre de réunions d’équipes organisées au niveau de l’équipe.</li> </ul> |
+    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** Nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
     |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs et inactifs.|
     |**Rôle**   |Nombre d’utilisateurs par rôle, y compris les propriétaires d’équipe, les membres de l’équipe et les invités.|
-    |Graphique **utilisateurs actifs**  |Nombre de jours actifs. Pointez sur le point d’une date donnée pour afficher le nombre d’utilisateurs actifs à cette date.|
-    |Graphique **messages**  |Nombre total de messages publiés dans une conversation en équipe par date. Pointez sur le point d’une date donnée pour afficher le nombre de nouvelles publications et réponses publiées à cette date.|
+    |**Graphique Utilisateurs actifs**  |Nombre d’activités quotidiennes actives. Pointez sur le point sur une date donnée pour voir le nombre d’utilisateurs actifs à cette date.|
+    |**Graphique messages**  |Nombre total de messages publiés par date dans une conversation d’équipe. Pointez sur le point à une date donnée pour voir le nombre de nouvelles publications et réponses publiées à cette date.|
 
 > [!TIP]
-> Vous pouvez également afficher les données d’analyse par équipe en cliquant sur une équipe dans la liste de l' [affichage analyse interéquipe](#view-cross-team-analytics).
+> Vous pouvez également afficher les analyses par équipe en cliquant sur une équipe dans la liste de l’affichage Analyse [entre équipes.](#view-cross-team-analytics)
 
 ## <a name="view-per-channel-analytics"></a>Afficher les données d’analyse par canal
 
-1. Dans Teams, accédez au canal de votre choix, cliquez sur **plus d’options (...)**, puis sur **gérer le canal**.
-2. Cliquez sur l’onglet **analyse** .
+1. Dans Teams, allez sur le canal de votre choix, cliquez sur Autres **options (...)**, puis cliquez sur Gérer **le canal.**
+2. Cliquez sur **l’onglet** Analyse.
 3. Sélectionnez une plage de dates pour afficher les données d’utilisation du canal.  
 
-    ![Capture d’écran de l’affichage d’analyse par canal](../media/view-analytics-per-channel.png)
+    ![Capture d’écran de l’affichage analyse par canal](../media/view-analytics-per-channel.png)
 
     |Option |Description  |
     |--------|-------------|
-    |**Résumé**   |Résumé de l’activité du canal incluant les éléments suivants :<ul><li>**Utilisateurs**: nombre total d’utilisateurs dans la durée spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Billets**: nombre de nouveaux messages publiés sur le canal pendant la période spécifiée.</li><li>**Réponses**: nombre de réponses du canal pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées au canal.</li> </ul> |
-    |Graphique **messages**  |Nombre total de messages publiés dans la conversation du canal par date. Pointez sur le point d’une date donnée pour afficher le nombre de nouvelles publications et réponses publiées à cette date.|
+    |**Résumé**   |Résumé de l’activité d’un canal, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés sur le canal pendant la période spécifiée.</li><li>**Réponses :** nombre de réponses dans le canal pendant la période spécifiée.</li> <li>**Applications**: Nombre d’applications ajoutées au canal.</li> </ul> |
+    |**Graphique messages**  |Nombre total de messages publiés par date dans la conversation de canal. Pointez sur le point à une date donnée pour voir le nombre de nouvelles publications et réponses publiées à cette date.|
 
 > [!TIP]
-> Vous pouvez également afficher les données d’analyse par canal en sélectionnant un canal dans la zone de liste déroulante dans l' [affichage analyse par équipe](#view-per-team-analytics).
+> Vous pouvez également afficher les analyses par canal en sélectionnant un canal dans la zone de liste de liste dans l’affichage d’analyse par [équipe.](#view-per-team-analytics)
     
 > [!NOTE]
-> Nous définissons les utilisateurs actifs en tant qu’utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client Web. Voici quelques exemples d’action intentionnelle : commencer une discussion, passer un appel, partager un fichier, modifier un document dans Teams, participer à une réunion, et ainsi de suite. Nous Répartissez les actions passives, telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. Nous allons également dédupliquer toutes les actions sur un seul IDENTIFIant utilisateur.
+> Nous définissons les utilisateurs actifs comme utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client web. Il peut s’agir, par exemple, de démarrer une conversation, d’appeler, de partager un fichier, de modifier un document au sein d’une équipe, de participer à une réunion, etc. Nous masons les actions passives telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. Nous dédicions également toutes les actions au sein d’un ID utilisateur unique.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-- [Afficher les données d’analyse pour vos équipes](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
+- [Afficher les données d’analyse de vos équipes](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Analyses et rapports Teams](teams-reporting-reference.md)

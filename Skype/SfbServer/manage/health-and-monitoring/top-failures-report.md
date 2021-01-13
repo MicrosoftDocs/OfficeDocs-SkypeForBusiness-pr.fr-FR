@@ -1,8 +1,8 @@
 ---
-title: Rapport sur les principaux échecs dans Skype entreprise Server
+title: Rapport des principales défaillances dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Résumé : en savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.'
-ms.openlocfilehash: c1c7d5617581a004501568edc995871032e5cb5b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le rapport des principales défaillances dans Skype Entreprise Server.'
+ms.openlocfilehash: bd03dc921e8df122f4e1ac3ca5cf15195a84b13e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817633"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816684"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Rapport sur les principaux échecs dans Skype entreprise Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>Rapport des principales défaillances dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.
+**Résumé :** Découvrez le rapport des principales défaillances dans Skype Entreprise Server.
   
 Le rapport des principales défaillances expose les défaillances les plus fréquentes et leur évolution dans le temps. Les défaillances sont basées sur une combinaison des deux métriques suivantes :
   
 - **ID de diagnostic**. Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP. Les ID de diagnostic fournissent des informations utiles pour résoudre les problèmes liés aux appels.
     
-- **Code de réponse**. Les codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande d’invitation à Pilar Arès (autrement dit, il appelle Ken Myer Pilar Arès). Si Pilar répond, son numéro envoie le code de réponse 200 (OK), en laissant le téléphone de Ken savoir que Pilar a répondu. Le rapport pannes principales inclut uniquement les codes de réponse envoyés en réponse à un échec de l’appel. Skype entreprise Server ne permet pas d’effectuer le suivi de tous les codes de réponse émis pendant un appel.
+- **Code de réponse**. Les codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande INVITE à Pilar Ackerman (autrement dit, supposons que Ken Myer appelle Pilar Ackerman). Si Pilar répond, son téléphone envoie le code de réponse 200 (OK), en laissant le téléphone de Ken savoir que Pilar a répondu. Le rapport des principales défaillances inclut uniquement les codes de réponse qui ont été envoyés en réponse à un échec d’appel . Skype Entreprise Server ne fait pas le suivi de tous les codes de réponse émis au cours d’un appel.
     
 Les informations sont signalées pour le nombre total de sessions où une défaillance s’est produite, ainsi que pour le nombre total d’utilisateurs affectés par la panne.
   
 ## <a name="accessing-the-top-failures-report"></a>Accès au rapport des principales défaillances
 
-Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. Le fait de cliquer sur la métrique de sessions signalées vous permet d’atteindre le [rapport de distribution des échecs dans Skype entreprise Server](failure-distribution-report.md).
+Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. Cliquer sur la mesure Sessions signalées vous permet d’obtenir le rapport de répartition des [défaillances dans Skype Entreprise Server.](failure-distribution-report.md)
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Optimisation de l’utilisation du rapport des principales défaillances
 
-Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous pouvez uniquement filtrer sur un élément (par exemple, adresse SIP de l’utilisateur). Pour filtrer sur plusieurs ID de diagnostics, il suffit d’entrer chacun d’eux dans la boîte de réception ID de diagnostic en séparant les ID à l’aide de virgules. (Si vous le souhaitez, vous pouvez laisser un espace après chaque virgule.) Par exemple :
+Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous ne pouvez filtrer qu’un seul élément (par exemple, une adresse SIP d’utilisateur) à la fois.) Pour filtrer sur plusieurs ID de diagnostic, entrez simplement chaque ID dans la zone ID de diagnostic, en séparant les ID par des virgules. (Si vous le souhaitez, vous pouvez laisser un espace vide après chaque virgule.) Par exemple :
   
 1011, 2412, 1033, 52116, 1008
   
@@ -49,22 +49,22 @@ Occupé ici.
   
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’activité de l’utilisateur vous permet de filtrer les données renvoyées sur la base d’éléments tels que le type d’activité (session P2P ou session de conférence) ou le code de réponse SIP qui accompagnait la session en échec. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les utilisations sont groupées par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, le rapport d’activité de l’utilisateur vous permet de filtrer les données retournées sur la base d’éléments tels que le type d’activité (session d’égal à égal ou session de conférence) ou le code de réponse SIP qui accompagnait la session en échec. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les utilisations sont groupées par heure, jour, semaine ou mois.
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport des principales défaillances.
   
 **Filtres du rapport des principales défaillances**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|**De** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**À** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Type d’activité** <br/> | Type d’activité. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Égal à égal <br/>  Conférence <br/> |
+|**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/> |
+|**Type d’activité** <br/> | Type d’activité. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Pair à pair <br/>  Programme <br/> |
 |**Modalité** <br/> |À ce stade, la seule option disponible est **[Tous]**.  <br/> |
-|**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.<br/> |
-|**Catégorie** <br/> | Type de défaillance rencontrée. Sélectionnez l’une des options suivantes : <br/>  Échecs attendus et inattendus <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
-|**Code de réponse** <br/> |Code de réponse SIP envoyé lors de l’échec de la conférence. Entrez le code de réponse entier. Par exemple :  <br/> 400  <br/> |
-|**ID de diagnostic** <br/> |Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs. Les en-têtes de diagnostic sont facultatifs (il est possible que des sessions SIP n’incluent pas ces en-têtes) et les ID de diagnostic sont uniquement signalés pour les sessions qui ont rencontré des problèmes, quels qu’ils soient.  <br/> |
+|**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou serveur Edge. Vous pouvez sélectionner un pool donné ou cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement pour vous sur la base des enregistrements de la base de données.<br/> |
+|**Catégorie** <br/> | Type de défaillance rencontrée. Sélectionnez l’une des options suivantes : <br/>  Échecs attendus et inattendus <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut en Ne pas déranger, vous attendez que tout appel à cette personne échoue. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
+|**Code de réponse**. <br/> |Code de réponse SIP envoyé lors de l’échec de la conférence. Entrez le code de réponse entier. Par exemple :  <br/> 400  <br/> |
+|**ID de diagnostic** <br/> |Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles au dépannage des erreurs. Les en-têtes de diagnostic sont facultatifs (il est possible d’avoir des sessions SIP sans ces en-têtes), et ne sont signalés que pour les sessions ayant rencontré des problèmes d’un type ou d’un autre.  <br/> |
    
 ## <a name="metrics"></a>Mesures
 
@@ -72,9 +72,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport des pr
   
 **Mesures du rapport des principales défaillances**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Oui  <br/> |Classement relatif sur la base du nombre de sessions signalées.  <br/> |
+|**Rank** <br/> |Oui  <br/> |Classement relatif sur la base du nombre de sessions signalées.  <br/> |
 |**Sessions signalées** <br/> |Oui  <br/> |Nombre total de sessions en échec sur la base de l’ID de diagnostic et du code de réponse SIP.  <br/> |
 |**Utilisateurs affectés** <br/> |Oui  <br/> |Nombre total d’utilisateurs affectés par l’échec de la session.  <br/> |
 |**Informations sur l’échec** <br/> |Non  <br/> |Informations détaillées sur l’échec, notamment ID de diagnostic, code de réponse SIP et description de la cause de l’échec de la session.  <br/> |

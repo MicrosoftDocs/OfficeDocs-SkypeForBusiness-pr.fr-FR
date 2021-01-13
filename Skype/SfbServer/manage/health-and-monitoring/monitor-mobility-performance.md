@@ -1,8 +1,8 @@
 ---
-title: Surveiller la mobilité des performances dans Skype entreprise Server
+title: Surveiller les performances de la mobilité dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,45 +11,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 'Résumé : en savoir plus sur le service de mobilité (MCX) et l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.'
-ms.openlocfilehash: 4d604c46704881a055385336f8b1ff32862d929a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.'
+ms.openlocfilehash: d7473d22f2de0576bf6214ae43719c8bfc70d49a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817833"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816834"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Surveiller la mobilité des performances dans Skype entreprise Server
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Surveiller les performances de la mobilité dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le service de mobilité (MCX) et l’API Unified Communications Web API (UCWA) dans Skype entreprise Server.
+**Résumé :** Découvrez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.
   
-Le service de mobilité de Skype entreprise Server (MCX) et l’API Web de communications unifiées (UCWA) augmentent la charge sur les serveurs frontaux et les listes frontales. Les appareils mobiles qui maintiennent une connexion au serveur, même lorsque l’application mobile est réduite (par exemple, les appareils Android et Nokia exécutant Lync 2010 mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 mobile, imposent un chargement supérieur aux appareils mettre fin à sa connexion au serveur lorsque l’application mobile est réduite ; À mesure que votre utilisation mobile augmente, vous devez surveiller les performances de mobilité afin d’identifier toute nécessité d’augmentation de la capacité.
+Le service de mobilité de Skype Entreprise Server (Mcx) et l’API web de communications unifiées (UCWA) augmentent la charge sur les serveurs frontux et les pools frontux. Les appareils mobiles qui maintiennent une connexion au serveur même lorsque l’application mobile est réduite, comme les appareils Android et Nokia exécutant Lync 2010 Mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 Mobile, imposent une charge plus élevée que les appareils qui terminent leur connexion au serveur lorsque l’application mobile est réduite. À mesure que votre utilisation de la mobilité augmente, vous devez surveiller les performances de mobilité pour déterminer quand vous devez augmenter votre capacité.
 
 > [!NOTE]
-> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-Plusieurs limites influencent les performances de mobilité : 
+Plusieurs limites influencent les performances de mobilité : 
   
-- mémoire disponible ;
+- Mémoire disponible
     
-- limite de file d’attente des demandes ;
+- Limite de file d’attente des demandes
     
-- connexions simultanées ;
+- Connexions simultanées
     
-- longueur de la file d’attente des services Internet (IIS).
+- Longueur de file d’attente IIS
     
-Il existe d’autres limites sur les serveurs susceptibles d’avoir un impact sur les performances de mobilité : un maximum de douze connexions, authentifications, renouvellements et fins de sessions. Il n’est pas nécessaire de modifier ces valeurs maximales pour la plupart des déploiements.
+Les autres limites sur les serveurs qui peuvent influencer les performances de mobilité sont un maximum de 12 ouvertures de session, authentifications, renouvellements de session et résiliations simultanées. Ces valeurs maximales n’ont pas besoin d’être modifiées pour la plupart des déploiements.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Surveiller les limites de capacité de mémoire serveur dans Skype entreprise Server](server-memory-capacity-limits.md)
+- [Surveiller les limites de capacité de mémoire des serveurs dans Skype Entreprise Server](server-memory-capacity-limits.md)
     
-- [Surveiller l’utilisation du service de mobilité et de UCWA dans Skype entreprise Server](service-and-ucwa-usage.md)
+- [Surveiller l’utilisation du service de mobilité et de l’UCWA dans Skype Entreprise Server](service-and-ucwa-usage.md)
     
-- [Configurer le service de mobilité pour des performances élevées dans Skype entreprise Server](configure-service.md)
+- [Configurer le service de mobilité pour des performances élevées dans Skype Entreprise Server](configure-service.md)
     
-- [Surveiller les fichiers journaux de suivi de requête IIS dans Skype entreprise Server](iis-request-tracing-log-files.md)
+- [Surveillance des fichiers journaux de suivi des demandes IIS dans Skype Entreprise Server](iis-request-tracing-log-files.md)
     
-- [Compteurs de performance de mobilité dans Skype entreprise Server](performance-counters.md)
+- [Compteurs de performances de mobilité dans Skype Entreprise Server](performance-counters.md)
     
 

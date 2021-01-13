@@ -1,8 +1,8 @@
 ---
-title: Gestion de la reprise après sinistre, haute disponibilité et service de sauvegarde
+title: Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Apprenez-en davantage sur les procédures d’opérations de récupération d’urgence, ainsi que pour la gestion du service de sauvegarde, qui synchronise les données dans des listes frontales couplées.
-ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Découvrez les procédures relatives aux opérations de récupération d’urgence, ainsi que la maintenance du service de sauvegarde, qui synchronise les données dans des pools frontaux couplés.
+ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818335"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817154"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion de la reprise après sinistre de Skype entreprise Server, haute disponibilité et service de sauvegarde
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Skype Entreprise Server
 
-Cette section contient des procédures pour les opérations de reprise après sinistre, ainsi que pour la gestion du service de sauvegarde, qui synchronise les données dans des listes frontales couplées.
+Cette section contient des procédures pour les opérations de récupération d’urgence, ainsi que pour la maintenance du service de sauvegarde, qui synchronise les données dans des pools frontaux couplés.
 
-Les procédures de reprise après sinistre, à la fois de basculement et de restauration automatique, sont manuelles. En cas de sinistre, l’administrateur doit appeler manuellement les procédures de basculement. Il en va de même pour la restauration après la réparation du pool.
+Les procédures de récupération d’urgence, qu’il s’agisse du basculement ou de la restauration automatique, sont manuelles. En cas d’urgence, l’administrateur doit appeler manuellement les procédures de basculement. Il en est de même pour la restauration automatique, après la réparation du pool.
 
-Les procédures de reprise après sinistre dans cette section sont supposées comme suit :
+Les procédures de récupération d’urgence de cette section supposent les opérations suivantes :
 
-  - Vous disposez d’un déploiement avec des plages frontales couplées dans les différents sites, comme décrit dans la section [planifier une disponibilité élevée et une reprise après sinistre](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). Le service de sauvegarde est en cours d’exécution sur ces pools couplés pour qu’ils soient synchronisés.
+  - Vous avez un déploiement avec des pools frontux couplés, situés dans différents sites, comme décrit dans Planifier la haute disponibilité et la récupération [d’urgence.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) Le service de sauvegarde a été exécuté sur ces pools couplés pour maintenir leur synchronisation.
 
-  - Si le magasin central de gestion est hébergé sur l’un ou l’autre pool, il est installé et en cours d’exécution sur les deux pools couplés, avec l’un de ces pools hébergeant la forme de base active et l’autre réserve hébergeant la réserve.
+  - Si le magasin central de gestion est hébergé sur l’un ou l’autre des pools, il est installé et s’exécute sur les deux pools couplés, l’un de ces pools hébergeant le maître actif et l’autre pool hébergeant le pool de veille.
 
 > [!IMPORTANT]
-> Dans les procédures suivantes, le paramètre *PoolFQDN* fait référence au nom de domaine complet (FQDN) du pool affecté par un sinistre, et non à partir du pool sur lequel les utilisateurs concernés sont redirigés. Pour le même ensemble d’utilisateurs concernés, il fait référence au même pool dans les applets de service de basculement et de restauration automatique (autrement dit, le pool qui a d’abord hébergé les utilisateurs avant le basculement).<BR><br>Par exemple, supposons que l’ensemble des utilisateurs hébergés sur un pool P1 aient pu basculer vers le pool de sauvegardes P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement desservis par P2 pour être desservi par P1, l’administrateur doit procéder comme suit : 
+> Dans les procédures suivantes, le paramètre *PoolFQDN* se réfère au nom de domaine complet (FQDN) du pool affecté par la situation d’urgence et non pas le pool depuis lequel les utilisateurs affectés sont redirigés. Dans le cas d’un ensemble d’utilisateurs identique, le paramètre se réfère au même pool, dans les cmdlets de basculement et de récupération automatique (c’est-à-dire, le pool ayant hébergé les utilisateurs avant le basculement).<BR><br>Par exemple, supposons que tous les utilisateurs hébergés sur un pool P1 ont été basculés sur le pool de sauvegarde, P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement traités par les services de P2 pour qu’ils soient traités par les services de P1, l’administrateur doit procéder comme ceci : 
 > <OL>
 > <LI>
-> <P>Basculez vers la page d’accueil de tous les utilisateurs à l’origine de l’appel P1 sur P1 à l’aide de l’applet de la cmdlet failback. Dans le cas présent, le *PoolFQDN* est P1's FQDN.</P>
+> <P>Il doit restaurer automatiquement tous les utilisateurs hébergés à l’origine sur P1 de P2 à P1 en utilisant la cmdlet de restauration automatique. Dans ce cas, le *PoolFQDN* est le nom de domaine complet (FQDN) de P1.</P>
 > <LI>
-> <P>Faire basculer tous les utilisateurs de la page d’origine de la page de base sur l’applet de contrôle Dans le cas présent, le PoolFQDN est P2's FQDN.</P>
+> <P>Il doit ensuite basculer tous les utilisateurs hébergés à l’origine sur P2 vers P1 en utilisant la cmdlet de basculement. Dans ce cas, le PoolFQDN est le nom de domaine complet (FQDN) de P2.</P>
 > <LI>
-> <P>Si l’administrateur souhaite plus tard régulariser les utilisateurs de P2, le PoolFQDN est P2's FQDN.</P></LI></OL><br>Notez que l’étape 1 ci-dessus doit être effectuée avant l’étape 2 de conservation de l’intégrité du pool. Si vous essayez l’étape 2 avant l’étape 1, l’applet de la cmdlet Step 2 ne fonctionne pas.
+> <P>Si l’administrateur souhaite ultérieurement restaurer automatiquement les utilisateurs de P2 vers P2, le PoolFQDN est le nom de domaine complet FQDN de P2.</P></LI></OL><br>Remarquez que l’étape 1 ci-dessus doit être effectuée avant l’étape 2 pour préserver l’intégrité du pool. Si vous essayez l’étape 2 avant l’étape 1, la cmdlet de l’étape 2 ne fonctionnera pas.
 
 
 ## <a name="see-also"></a>Voir aussi

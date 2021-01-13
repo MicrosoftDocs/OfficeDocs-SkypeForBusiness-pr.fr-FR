@@ -1,8 +1,8 @@
 ---
-title: Événements UCWA dans Skype entreprise Server
+title: Événements UCWA dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,50 +11,50 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Résumé : en savoir plus sur l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.'
-ms.openlocfilehash: db6aee15564fe9fca05c33ec5a6dd37988195956
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.'
+ms.openlocfilehash: d8426418bf01954137a1bbed25d5fef93443dc5c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817623"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816664"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype entreprise Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur l’API Unified Communications Web API (UCWA) dans Skype entreprise Server.
+**Résumé :** Découvrez l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.
   
-Skype entreprise Server utilise l’API Unified Communications Web API (UCWA) à diverses fins, d’un point de vue de l’accès à Microsoft Exchange pour les recherches de contacts pour la mise à jour de la présence pour les clients mobiles.
+Skype Entreprise Server utilise l’API web de communications unifiées (UCWA) à plusieurs fins, de l’accès à Microsoft Exchange pour les recherches de contacts à la mise à jour de la présence pour les clients mobiles.
   
-L’API UCWA écrit les enregistrements liés aux opérations en tant qu’événements de type information, avertissement ou erreur. Le tableau suivant décrit les événements pouvant être écrits par les composants de l’API UCWA.
+UCWA écrit des enregistrements de comportement opérationnel en tant qu’événements de types Informationnel, Avertissement et Erreur. Le tableau suivant décrit les événements qui peuvent être écrits par les composants UCWA.
   
-|**ID d’événement**|**Type d’événement**|**Résumé**|**Cause et solution**|
+|**ID d’évènement**|**Type d’événement**|**Summary**|**Cause et résolution**|
 |:-----|:-----|:-----|:-----|
-|20001  <br/> |Information  <br/> |API UCWA initialisée  <br/> |N/D  <br/> N/D  <br/> |
-|20002  <br/> |Erreur  <br/> |L’API UCWA a rencontré une exception inattendue pendant son initialisation.  <br/> |Une erreur inattendue s’est produite pendant l’initialisation.  <br/> Examinez les détails de l’exception dans l’entrée correspondante du journal des événements pour déterminer la cause possible.  <br/> |
-|20003  <br/> |Erreur  <br/> |L’API UCWA a rencontré une exception non traitée.  <br/> |Une exception non traitée s’est produite.  <br/> Redémarrez le serveur. Si le problème persiste, contactez le support technique.  <br/> |
-|20004  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la photo HD  <br/> |La connexion à Exchange n’est pas disponible.  <br/> Vérifiez que la connexion à Exchange est disponible.  <br/> |
-|20005  <br/> |Information  <br/> |Récupération de l’échec de l’accès à Exchange pour la photo HD  <br/> |N/A  <br/> |
-|20006  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la recherche de contact  <br/> |La connexion à Exchange n’est pas disponible.  <br/> Vérifiez que la connexion à Exchange est disponible.  <br/> |
-|20007  <br/> |Information  <br/> |Récupération de l’échec de la recherche de contact dans Exchange  <br/> |N/A  <br/> |
-|20008  <br/> |Avertissement  <br/> |Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par application  <br/> |Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par application  <br/> Vérifiez si les clients possèdent des abonnements superflus.  <br/> |
-|20009  <br/> |Avertissement  <br/> |Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par lot  <br/> |Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par lot  <br/> Vérifiez si les clients possèdent des abonnements superflus.  <br/> |
-|20010  <br/> |Erreur  <br/> |Impossible de récupérer les données de la bande entrante  <br/> |Impossible de récupérer les données de la bande entrante  <br/> Si le problème persiste, contactez le support technique.  <br/> |
-|20011  <br/> |Erreur  <br/> |Impossible de s’abonner aux informations de présence  <br/> |Impossible de s’abonner aux informations de présence  <br/> Si le problème persiste, contactez le support technique.  <br/> |
-|20012  <br/> |Erreur  <br/> |Échec de l’enregistrement du point de terminaison  <br/> |Échec de l’enregistrement du point de terminaison  <br/> Si le problème persiste, contactez le support technique.  <br/> |
-|20013  <br/> |Erreur  <br/> |Le MCU de messagerie instantanée n’est pas disponible.  <br/> |Le MCU de messagerie instantanée n’est pas disponible.  <br/> Vérifiez si le MCU de messagerie instantanée est en cours d’exécution.  <br/> |
-|20014  <br/> |Information  <br/> |Récupération de l’échec de la connexion au MCU de messagerie instantanée  <br/> |N/A  <br/> |
-|20015  <br/> |Erreur  <br/> |Le MCU AV n’est pas disponible.  <br/> |Le MCU AV n’est pas disponible.  <br/> Vérifiez si le MCU AV est en cours d’exécution.  <br/> |
-|20016  <br/> |Information  <br/> |Récupération de l’échec de la connexion au MCU AV  <br/> |N/A  <br/> |
-|20017  <br/> |Erreur  <br/> |Le MCU AS n’est pas disponible.  <br/> |Le MCU AS n’est pas disponible.  <br/> Vérifiez si le MCU AS est en cours d’exécution.  <br/> |
-|20018  <br/> |Information  <br/> |Récupération de l’échec de la connexion au MCU AS  <br/> |N/A  <br/> |
-|20019  <br/> |Erreur  <br/> |Le MCU de données n’est pas disponible.  <br/> |Le MCU de données n’est pas disponible.  <br/> Vérifiez si le MCU de données est en cours d’exécution.  <br/> |
-|20020  <br/> |Information  <br/> |Récupération de l’échec de la connexion au MCU de données  <br/> |N/A  <br/> |
-|20021  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU de messagerie instantanée  <br/> |Impossible de rejoindre le MCU de messagerie instantanée  <br/> Vérifiez si le MCU de messagerie instantanée est en cours d’exécution.  <br/> |
-|20022  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU AV  <br/> |Impossible de rejoindre le MCU AV  <br/> Vérifiez si le MCU AV est en cours d’exécution.  <br/> |
-|20023  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU AS  <br/> |Impossible de rejoindre le MCU AS  <br/> Vérifiez si le MCU AS est en cours d’exécution.  <br/> |
-|20024  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU de données  <br/> |Impossible de rejoindre le MCU de données  <br/> Vérifiez si le MCU de données est en cours d’exécution.  <br/> |
-|20025  <br/> |Erreur  <br/> |Impossible d’accéder à Active Directory pour la photo  <br/> |La connexion à Active Directory n’est pas disponible.  <br/> Vérifiez que la connexion à Active Directory est disponible.  <br/> |
-|20026  <br/> |Information  <br/> |Récupération de l’échec de l’accès à Active Directory pour la photo  <br/> |N/A  <br/> |
-|20027  <br/> |Avertissement  <br/> |Impossible d’effectuer la désérialisation  <br/> |Impossible d’effectuer la désérialisation  <br/> Si le problème persiste, contactez le support technique.  <br/> |
+|20001  <br/> |Informationnel  <br/> |Initialisation d’UCWA  <br/> |N/A  <br/> N/A  <br/> |
+|20002  <br/> |Erreur  <br/> |UCWA a rencontré une exception inattendue lors de l’initialisation  <br/> |Une erreur inattendue s’est produite lors de l’initialisation  <br/> Examiner les détails de l’exception dans l’entrée du journal des événements associée pour déterminer la cause possible  <br/> |
+|20003  <br/> |Erreur  <br/> |UCWA a rencontré une exception non  <br/> |Une exception nonmenée s’est produite  <br/> Redémarrez le serveur. Si le problème persiste, contactez le support technique  <br/> |
+|20004  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la photo HD  <br/> |La connexion à Exchange n’est pas disponible  <br/> Assurez-vous que la connexion à Exchange est disponible  <br/> |
+|20005  <br/> |Informationnel  <br/> |Récupération de l’échec de l’accès à Exchange pour la photo HD  <br/> |S/O  <br/> |
+|20006  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la recherche de contact  <br/> |La connexion à Exchange n’est pas disponible  <br/> Assurez-vous que la connexion à Exchange est disponible  <br/> |
+|20007  <br/> |Informationnel  <br/> |Récupération de l’échec de la recherche de contact dans Exchange  <br/> |S/O  <br/> |
+|20008  <br/> |Avertissement  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par application  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par application  <br/> Vérifier les clients pour les abonnements inutiles  <br/> |
+|20009  <br/> |Avertissement  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par lot  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par lot  <br/> Vérifier les clients pour les abonnements inutiles  <br/> |
+|20010  <br/> |Erreur  <br/> |Impossible de récupérer les données inbandes  <br/> |Impossible de récupérer les données inbandes  <br/> Si le problème persiste, contactez le support technique  <br/> |
+|20011  <br/> |Erreur  <br/> |Impossible de s’abonner à la présence  <br/> |Impossible de s’abonner à la présence  <br/> Si le problème persiste, contactez le support technique  <br/> |
+|20012  <br/> |Erreur  <br/> |Échec de l’inscription du point de terminaison  <br/> |Échec de l’inscription du point de terminaison  <br/> Si le problème persiste, contactez le support technique  <br/> |
+|20013  <br/> |Erreur  <br/> |Le MCU de messagerie instantanée n’est pas disponible  <br/> |Le MCU de messagerie instantanée n’est pas disponible  <br/> Vérifier si le MCU de messagerie instantanée est en cours d’exécution  <br/> |
+|20014  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU de messagerie instantanée  <br/> |S/O  <br/> |
+|20015  <br/> |Erreur  <br/> |Le MCU antivirus n’est pas disponible  <br/> |Le MCU antivirus n’est pas disponible  <br/> Vérifier si le MCU antivirus est en cours d’exécution  <br/> |
+|20016  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU antivirus  <br/> |S/O  <br/> |
+|20017  <br/> |Erreur  <br/> |AS MCU n’est pas disponible  <br/> |AS MCU n’est pas disponible  <br/> Vérifier si le MCU AS est en cours d’exécution  <br/> |
+|20018  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU AS  <br/> |S/O  <br/> |
+|20019  <br/> |Erreur  <br/> |Le MCU de données n’est pas disponible  <br/> |Le MCU de données n’est pas disponible  <br/> Vérifier si le MCU de données est en cours d’exécution  <br/> |
+|20020  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU de données  <br/> |S/O  <br/> |
+|20021  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU de messagerie instantanée  <br/> |Impossible de rejoindre le MCU de messagerie instantanée  <br/> Vérifier si le MCU de messagerie instantanée est en cours d’exécution  <br/> |
+|20022  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU av  <br/> |Impossible de rejoindre le MCU av  <br/> Vérifier si le MCU antivirus est en cours d’exécution  <br/> |
+|20023  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU AS  <br/> |Impossible de rejoindre le MCU AS  <br/> Vérifier si le MCU AS est en cours d’exécution  <br/> |
+|20024  <br/> |Erreur  <br/> |Impossible de joindre le MCU de données  <br/> |Impossible de joindre le MCU de données  <br/> Vérifier si le MCU de données est en cours d’exécution  <br/> |
+|20025  <br/> |Erreur  <br/> |Impossible d’accéder à Active Directory pour la photo  <br/> |La connexion à Active Directory n’est pas disponible  <br/> Assurez-vous que la connexion à Active Directory est disponible  <br/> |
+|20026  <br/> |Informationnel  <br/> |Récupération de l’échec de l’accès à Active Directory pour la photo  <br/> |S/O  <br/> |
+|20027  <br/> |Avertissement  <br/> |Impossible de désérialiser  <br/> |Impossible de désérialiser  <br/> Si le problème persiste, contactez le support technique  <br/> |
    
 

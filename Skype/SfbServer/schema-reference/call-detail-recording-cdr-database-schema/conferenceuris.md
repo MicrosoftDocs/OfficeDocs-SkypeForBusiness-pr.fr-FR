@@ -1,8 +1,8 @@
 ---
-title: Table ConferenceUris dans Skype entreprise Server 2015
+title: Table ConferenceUris dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-description: La table ConfereneUris est une table qui contient une liste des différents URI de conférence ayant participé à des sessions de conférence enregistrées dans la base de données. Chaque enregistrement de la table représente un URI de conférence.
-ms.openlocfilehash: f1e95cce4fedf26477973a4fba6a9d3a32288f92
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table ConferenceUris est une table de prise en charge qui stocke une liste des différentes URI de conférence qui ont participé aux sessions de conférence enregistrées dans la base de données. Chaque enregistrement dans le tableau représente une URI de conférence.
+ms.openlocfilehash: f439c828460f06067105f8f2da493616c223ed85
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815312"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816134"
 ---
-# <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>Table ConferenceUris dans Skype entreprise Server 2015
+# <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>Table ConferenceUris dans Skype Entreprise Server 2015
  
-La table ConfereneUris est une table qui contient une liste des différents URI de conférence ayant participé à des sessions de conférence enregistrées dans la base de données. Chaque enregistrement de la table représente un URI de conférence.
+La table ConferenceUris est une table de prise en charge qui stocke une liste des différentes URI de conférence qui ont participé aux sessions de conférence enregistrées dans la base de données. Chaque enregistrement dans le tableau représente une URI de conférence.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**NextUpdateTS** <br/> |DateHeure  <br/> |Principal  <br/> |Date et heure d’utilisation internes.  <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cet URI de conférence.  <br/> |
-|**ConferenceUri** <br/> |nvarchar (450)  <br/> ||URI de conférence.  <br/> |
-|**1018** <br/> |int  <br/> ||Checksum de ConferenceUri. Permet d’augmenter la vitesse de recherche de la base de données.  <br/> |
-|**UriTypeId** <br/> |int  <br/> |Externes  <br/> |Type d’URI (par exemple, conf : chat pour une conférence par messagerie instantanée, ou conf : audio-vidéo pour les conférences audio/vidéo). Pour plus d’informations, voir la table [UriTypes table](uritypes.md) . <br/> |
+|**NextUpdateTS** <br/> |DateHeure  <br/> |Primaire  <br/> |Horodatage pour utilisation interne.  <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant cette URI de conférence.  <br/> |
+|**ConferenceUri** <br/> |nvarchar(450)  <br/> ||URI de la conférence.  <br/> |
+|**Somme de contrôle** <br/> |int  <br/> ||Checksum de ConferenceUri. Sert à augmenter la vitesse des recherches dans les bases de données.  <br/> |
+|**UriTypeId** <br/> |int  <br/> |Étranger  <br/> |Type d’URI, tel que conf:chat pour une conférence de messagerie instantanée ou conf:audio-video pour une conférence audio/vidéo. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
    
 

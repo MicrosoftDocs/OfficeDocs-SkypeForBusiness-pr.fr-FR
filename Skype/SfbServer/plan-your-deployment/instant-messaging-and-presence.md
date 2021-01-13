@@ -1,8 +1,8 @@
 ---
-title: Planifier la messagerie instantanée et la présence dans Skype entreprise Server
+title: Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,67 +11,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 'Résumé : Découvrez comment planifier la messagerie instantanée et la présence dans Skype entreprise Server.'
-ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment planifier la messagerie instantanée et la présence dans Skype Entreprise Server.'
+ms.openlocfilehash: a29d68cc66e0ac4a70fc759283646fc3ce49cdf5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815902"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816274"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype entreprise Server
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment planifier la messagerie instantanée et la présence dans Skype entreprise Server.
+**Résumé :** Découvrez comment planifier la messagerie instantanée et la présence dans Skype Entreprise Server.
   
-Planifiez la messagerie instantanée et la présence dans Skype entreprise Server. Pour en savoir plus sur les options de déploiement spécifiques, telles que l’activation ou la désactivation de la messagerie instantanée en mode hors connexion, reportez-vous à la rubrique [déploiement de la messagerie instantanée et de la présence dans Skype entreprise Server](../deploy/im-and-presence/im-and-presence.md).
+Planifiez la messagerie instantanée et la présence dans Skype Entreprise Server. Pour en savoir plus sur les options de déploiement spécifiques, telles que l’activation ou la désactivation de la messagerie instantanée hors connexion, voir Déployer la messagerie instantanée et la présence dans [Skype Entreprise Server.](../deploy/im-and-presence/im-and-presence.md)
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype entreprise Server
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
 
-Les serveurs frontaux fournissent des fonctionnalités principales de Skype entreprise Server, telles que la messagerie instantanée (mi) et la présence, et qui sont inclus dans chaque déploiement de Skype entreprise Server. Il existe deux éditions disponibles : Skype entreprise Server Enterprise Edition, principalement conçu pour les grandes organisations et Skype entreprise Server Standard Edition, conçu par le biais de petites organisations plus petites. investissement matériel et ne nécessitent pas d’options de haute disponibilité complètes. Les deux éditions prennent en charge toutes les charges de travail de Skype entreprise Server, notamment la messagerie instantanée, la présence, les conférences et l’voix entreprise.
+Les serveurs frontux fournissent les fonctionnalités principales de Skype Entreprise Server, telles que la messagerie instantanée et la présence, et sont inclus dans chaque déploiement de Skype Entreprise Server. Deux éditions sont disponibles : Skype Entreprise Server Enterprise Edition, qui est conçu principalement pour les grandes organisations, et Skype Entreprise Server Standard Edition, qui est principalement conçu pour les petites organisations qui souhaitent un plus petit investissement matériel et ne nécessitent pas d’options de haute disponibilité complètes. Les deux éditions prisent en charge toutes les charges de travail Skype Entreprise Server, notamment la messagerie instantanée, la présence, les conférences et les Voix Entreprise.
   
-La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. Un participant à une conversation de messagerie instantanée peut ajouter un troisième participant à la conversation à tout moment. Lorsque cela arrive, la fenêtre Conversation change pour prendre en charge des fonctionnalités de conférence.
+La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels.. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. Un participant à une conversation de messagerie instantanée peut ajouter un troisième participant à la conversation à tout moment. Lorsque cela arrive, la fenêtre Conversation change pour prendre en charge des fonctionnalités de conférence.
   
-La présence fournit aux utilisateurs des informations sur l’état de présence des autres utilisateurs sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour aider les autres à déterminer s’il doit contacter l’utilisateur, et si vous souhaitez utiliser la messagerie instantanée, le téléphone ou le courrier électronique. La présence permet une communication instantanée lorsque cela est possible, mais fournit aussi des informations indiquant si un utilisateur est en réunion ou hors du bureau, indiquant que la communication instantanée n’est pas possible. L’état de présence est indiqué sous la forme d’une icône dans Skype Entreprise et d’autres applications de présence, notamment le client de messagerie et de collaboration Microsoft Outlook et les logiciels Microsoft SharePoint et Microsoft Office. L’icône de présence représente la disponibilité actuelle et la volonté de communication de l’utilisateur. 
+La présence fournit des informations aux utilisateurs sur l’état d’autres personnes sur le réseau. L’état de présence d’un utilisateur fournit des informations pour aider les autres utilisateurs à décider s’ils doivent essayer de contacter l’utilisateur et s’ils doivent utiliser la messagerie instantanée, le téléphone ou le courrier électronique. La présence permet une communication instantanée lorsque cela est possible, mais fournit aussi des informations indiquant si un utilisateur est en réunion ou hors du bureau, indiquant que la communication instantanée n’est pas possible. Cet état de présence s’affiche sous la forme d’une icône de présence dans Skype Entreprise et dans d’autres applications sensibles à la présence, notamment le client de messagerie et de collaboration Microsoft Outlook, les technologies Microsoft SharePoint et les Microsoft Office. L’icône de présence représente la disponibilité actuelle de l’utilisateur et sa volonté de communiquer. 
   
-### <a name="technical-requirements"></a>Configuration technique requise
+### <a name="technical-requirements"></a>Exigences techniques
 
-La messagerie instantanée et la présence s’exécutent en permanence sur les pools des serveurs frontaux Enterprise Edition et Standard Edition. Pour plus d’informations sur les matériels, systèmes d’exploitation et logiciels de base de données compatibles, reportez-vous à la rubrique [passerelles certifiées](../../SfbPartnerCertification/certification/infra-gateways.md), [Configuration requise pour votre environnement Skype entreprise 2015](requirements-for-your-environment/requirements-for-your-environment.md)et [exigences d’Infrastructure pour Skype entreprise Server 2019](../../SfBServer2019/plan/system-requirements.md).
+La messagerie instantanée et la présence s’exécutent toujours sur les pools frontux Enterprise Edition et les serveurs Standard Edition. Pour plus d’informations sur le matériel, les systèmes d’exploitation et les logiciels de base de données pris en charge, voir [Passerelles certifiées,](../../SfbPartnerCertification/certification/infra-gateways.md)Configuration requise pour votre environnement Skype Entreprise [2015](requirements-for-your-environment/requirements-for-your-environment.md)et Configuration requise pour l’infrastructure pour Skype Entreprise [Server 2019.](../../SfBServer2019/plan/system-requirements.md)
   
-### <a name="enabling-communication-with-external-users"></a>Activation des communications avec les utilisateurs externes
+### <a name="enabling-communication-with-external-users"></a>Activation de la communication avec des utilisateurs externes
 
-Vous pouvez considérablement augmenter les avantages de votre investissement dans Skype entreprise Server en permettant aux utilisateurs de communiquer avec des utilisateurs externes. Exemples d’utilisateurs externes :
+Vous pouvez clairement accroître les avantages de votre investissement dans Skype Entreprise Server en permettant à vos utilisateurs de communiquer avec des utilisateurs externes. Les utilisateurs externes peuvent inclure les catégories suivantes :
   
-- Utilisateurs distants : les utilisateurs de votre organisation qui travaillent à l’extérieur de votre pare-feu et qui utilisent leur ordinateur portable ou d’autres appareils Skype entreprise Server.
+- Utilisateurs distants : les utilisateurs de votre organisation, lorsqu’ils travaillent en dehors de vos pare-feu et utilisent leur ordinateur portable ou d’autres appareils Skype Entreprise Server.
     
-- Utilisateurs fédérés : les utilisateurs des entreprises avec lesquelles vous travaillez utilisent également Skype entreprise Server. Pour autoriser vos utilisateurs à communiquer facilement avec ces utilisateurs externes, créez des relations fédérées avec ces entreprises. 
+- Utilisateurs fédérés : utilisateurs des entreprises avec qui vous travaillez et qui exécutent également Skype Entreprise Server. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises. 
     
-- Utilisateurs Skype : Les utilisateurs Skype Entreprise peuvent entrer en contact avec des centaines de millions d’utilisateurs Skype à l’aide des fonctionnalités vocales, vidéo et de messagerie instantanée.
+- Utilisateurs Skype : les utilisateurs de Skype Entreprise peuvent atteindre des centaines de millions d’utilisateurs sur Skype avec la messagerie instantanée, la voix et la vidéo.
     
 > [!NOTE]
 > AOL, Yahoo et Google Talk ne sont plus pris en charge. 
   
 > [!NOTE]
-> Pour pouvoir utiliser l’un ou l’ensemble de ces scénarios, vous devez déployer un serveur Edge pour sécuriser les communications entre le déploiement de Skype entreprise Server et les utilisateurs externes. Les utilisateurs et utilisateurs distants de votre organisation dans les organisations fédérées pourront voir leur présence et communiquer par messagerie instantanée. 
+> Pour activer tout ou partie de ces scénarios, vous devez déployer un serveur Edge pour permettre des communications sécurisées entre votre déploiement Skype Entreprise Server et des utilisateurs externes. Les utilisateurs distants et les utilisateurs d’organisations fédérées de votre organisation pourront voir la présence des autres utilisateurs et communiquer à l’aide de la messagerie instantanée. 
   
 > [!NOTE]
-> Le protocole XMPP (Extensible Messaging and Presence Protocol) est pris en charge uniquement pour les scénarios de certification JITC (Joint Interoperability Test Command) UCCP (Unified Capabilities Collaboration Platform). 
+> Le protocole XMPP (Extensible Messaging and Presence Protocol) est uniquement pris en charge pour les scénarios de certification JITC (Joint Interoperability Test Command) de la plateforme de collaboration de fonctionnalités unifiées (UCCP). 
   
-### <a name="archiving-im-content"></a>Archivage du contenu de la messagerie instantanée
+### <a name="archiving-im-content"></a>Archivage du contenu de messagerie instantanée
 
-Skype entreprise Server fournit des fonctionnalités que vous pouvez utiliser si votre organisation doit respecter les règles de conformité. Vous pouvez utiliser la fonctionnalité d’archivage pour archiver le contenu des messages instantanés soit pour tous les utilisateurs de votre organisation, soit uniquement pour ceux que vous indiquez. Pour plus d’informations, reportez-vous à la rubrique [planification de l’archivage dans Skype entreprise Server](archiving/archiving.md). 
+Skype Entreprise Server offre des fonctionnalités que vous pouvez utiliser si votre organisation doit respecter les réglementations de conformité. Vous pouvez utiliser l’archivage pour archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation ou uniquement pour certains utilisateurs que vous spécifiez. Pour plus d’informations, [voir Plan for archiving in Skype for Business Server](archiving/archiving.md). 
   
-Si Microsoft Exchange Server 2013 est également déployé, vous pouvez intégrer l’archivage de données Exchange avec l’archivage des données de Skype entreprise Server et utiliser un seul outil pour effectuer une recherche dans les deux types de données archivées. Pour plus d’informations, reportez-vous [à configurer Skype entreprise Server pour l’utilisation de l’archivage Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Si vous avez également déployé Microsoft Exchange Server 2013, vous pouvez intégrer l’archivage des données Exchange à l’archivage des données Skype Entreprise Server et utiliser un seul outil pour rechercher les deux types de données archivées. Pour plus d’informations, [voir Configure Skype for Business Server to use Exchange Server archiving](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologies et composants
 
-Les seuls composants requis pour la messagerie instantanée et la présence sont :
+Les seuls composants requis pour la messagerie instantanée et la présence sont :
   
-- Les serveurs front-end de votre organisation (appelés pool) ou un serveur Standard Edition Server. Les fonctionnalités de messagerie instantanée et de présence sont toujours activées sur ces serveurs. Pour plus d’informations sur les topologies de pool frontal et la gestion, voir la [disponibilité et la gestion du pool frontal](high-availability-and-disaster-recovery/high-availability.md).
+- Serveurs frontux de votre organisation (appelés pool) ou serveur Standard Edition. Les fonctionnalités de messagerie instantanée et de présence sont toujours activées sur ces serveurs. Pour plus d’informations sur les topologies et la gestion des pool frontaux, voir la haute disponibilité et la gestion [du pool frontal.](high-availability-and-disaster-recovery/high-availability.md)
     
-- Un programme d’équilibrage de la charge, si vous avez un pool frontal Enterprise Edition.
+- Un équilibreur de charge, si vous avez un pool frontal Enterprise Edition.
     
-### <a name="supported-collocation"></a>Colocalisation prise en charge
+### <a name="supported-collocation"></a>C cocation prise en charge
 
-La colocalisation est définie comme étant un serveur unique ou un groupe de serveurs avec plusieurs rôles installés. Pour plus d’informations sur la colocalisation, voir [notions de base de la topologie pour Skype entreprise Server](topology-basics/topology-basics.md). 
+La cocation est définie comme ayant un serveur unique, ou un groupe de serveurs, avec plusieurs rôles installés. Pour plus d’informations sur la cocation, voir [Topology Basics for Skype for Business Server](topology-basics/topology-basics.md). 
   
 

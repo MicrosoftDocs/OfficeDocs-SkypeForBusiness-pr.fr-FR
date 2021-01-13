@@ -1,8 +1,8 @@
 ---
-title: Rapport audio et vidéo d’égal à égal dans Skype entreprise Server
+title: Rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Résumé : Découvrez le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.'
-ms.openlocfilehash: 1f67cb4de6f5980afa2fc2393160ffc854a7e94f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server.'
+ms.openlocfilehash: 7e07c5778f43c3a0cac4ff162ed3d7dd1108eb43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817583"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816614"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Rapport audio et vidéo d’égal à égal dans Skype entreprise Server
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server
  
-**Résumé :** En savoir plus sur le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.
+**Résumé :** Découvrez le rapport vocal et vidéo d’égal à égal dans Skype Entreprise Server.
   
 Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la distribution des appels vocaux et vidéo sur une période donnée (par exemple, les appels par heure ou par jour). Il vous offre également la possibilité de voir tous les appels vocaux et vidéo émis, ou de voir uniquement les appels ayant abouti ou échoué. Le rapport fournit les informations d’appels réparties dans les sections suivantes :
   
 - Appels par pool
     
-- Appels par type d’appel (par exemple, appel Skype entreprise vers Skype entreprise et appel Skype entreprise vers une personne du réseau PSTN)
+- Appels par type d’appel (par exemple, un appel de Skype Entreprise à Skype Entreprise ou un appel Skype Entreprise à une personne sur le réseau PSTN)
     
 - Appels par type d’accès (utilisateurs connectés au réseau interne par opposition aux utilisateurs connectés au réseau externe)
     
@@ -37,11 +37,11 @@ Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la d
 
 Vous pouvez accéder au rapport vocal et vidéo d’égal-à-égal en ouvrant simplement le rapport de synthèse d’activité d’égal-à-égal, puis en cliquant sur l’une des mesures suivantes :
   
-- Nombre total de sessions audio P2P
+- Nombre total de sessions d’égal-à-égal
     
 - Nombre total de minutes audio d’égal-à-égal
     
-- Nombre total de sessions vidéo P2P
+- Nombre total de sessions vidéo d’égal-à-égal
     
 - Nombre total de minutes vidéo d’égal-à-égal
     
@@ -51,62 +51,62 @@ Vous pouvez filtrer le rapport vocal et vidéo d’égal-à-égal de différente
   
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données de différentes manières. Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport vocal et vidéo P2P.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données de différentes manières. Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport vocal et vidéo d’égal à égal.
   
 **Filtres du rapport vocal et vidéo d’égal-à-égal**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|**De** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**À** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Intervalle** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 07/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours compris entre le 07/08/2015 12:00 AM et le 07/09/2015 12:00 AM (c’est-à-dire, un total de 31 jours de données). <br/> |
+|**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
 |**Type de média** <br/> | Indique le type de média utilisé dans la session. Sélectionnez l’une des options suivantes : <br/>  Les deux <br/>  Audio <br/>  Vidéo <br/> |
 |**Distribution des appels** <br/> | Indique la réussite ou l’échec de la session. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Appels ayant abouti <br/>  Appels n’ayant pas abouti <br/> |
 |**Établir un rapport par** <br/> | Indique les valeurs à utiliser dans le rapport. Sélectionnez l’une des options suivantes : <br/>  Nombre de sessions <br/>  Minutes d’appel <br/> |
    
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Mesures de l’activité vocale et vidéo P2P par pool
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Mesures de l’activité vocale et vidéo d’égal à égal par pool
 
-Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque pool.
+Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo d’égal à égal pour chaque pool.
   
-**Mesures de l’activité vocale et vidéo P2P par pool**
+**Mesures de l’activité vocale et vidéo d’égal à égal par pool**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Non  <br/> |Nom du pool d’inscriptions ou du serveur Edge utilisés pour l’appel.  <br/> |
+|**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge utilisé pour l’appel.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Mesures de l’activité vocale et vidéo P2P par type d’appel
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Mesures de l’activité vocale et vidéo d’égal à égal par type d’appel
 
-Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque type d’appel émis.
+Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo d’égal à égal pour chaque type d’appel émis.
   
-**Mesures de l’activité vocale et vidéo P2P par type d’appel**
+**Mesures de l’activité vocale et vidéo d’égal à égal par type d’appel**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Type d’appel** <br/> |Non  <br/> | Indique le type d’appel émis. Les valeurs correspondent à l’une des options suivantes : <br/>  UC à UC <br/>  UC à RTC <br/>  RTC à UC <br/>  RTC à RTC <br/> |
+|**Type d’appel** <br/> |Non  <br/> | Indique le type d’appel émis. Les valeurs correspondent à l’une des options suivantes : <br/>  UC-à-UC <br/>  UC à PSTN <br/>  PSTN-à-UC <br/>  PSTN à PSTN <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Mesures de l’activité vocale et vidéo P2P par type d’accès
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Mesures de l’activité vocale et vidéo d’égal à égal par type d’accès
 
-Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque type d’accès réseau.
+Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo d’égal à égal pour chaque type d’accès réseau.
   
-**Mesures de l’activité vocale et vidéo P2P par type d’accès**
+**Mesures de l’activité vocale et vidéo d’égal à égal par type d’accès**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’activité** <br/> |Non  <br/> | Indique si les clients étaient connectés au réseau interne ou au réseau externe au moment de passer l’appel. Les valeurs correspondent généralement à l’une des options suivantes : <br/>  Interne <br/>  Externe <br/>  Mixte <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Mesures de l’activité vocale et vidéo P2P par serveur de médiation
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Mesures de l’activité vocale et vidéo d’égal à égal par serveur de médiation
 
-Le tableau suivant répertorie les informations fournies dans le rapport audio et vidéo d’égal à égal pour chaque serveur de médiation.
+Le tableau suivant répertorie les informations fournies dans le rapport vocal et vidéo d’égal à égal pour chaque serveur de médiation.
   
-**Mesures de l’activité vocale et vidéo P2P par serveur de médiation**
+**Mesures de l’activité vocale et vidéo d’égal à égal par serveur de médiation**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Serveur de médiation** <br/> |Non  <br/> |Nom du serveur de médiation.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |

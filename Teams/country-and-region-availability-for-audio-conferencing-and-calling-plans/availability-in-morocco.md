@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Maroc
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible au Maroc.
-ms.openlocfilehash: af7c23039571f072b9c5a030d02eabe76c990f02
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Maroc.
+ms.openlocfilehash: c35db0e95e53b441d07af6397d1ec0dd765f73e4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230372"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814644"
 ---
 # <a name="availability-in-morocco"></a>Disponibilité au Maroc
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible au Maroc.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Maroc.
   
 ## <a name="audio-conferencing"></a>Audioconférence,
 

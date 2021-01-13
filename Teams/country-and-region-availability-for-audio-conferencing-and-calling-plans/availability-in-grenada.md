@@ -1,7 +1,7 @@
 ---
-title: Disponibilité en Grenade
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité dans Quada
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour la Grenade.
-ms.openlocfilehash: 50e5814eb22e365a9de4523ac733ec5b80b8827d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Quada.
+ms.openlocfilehash: aa0aa40bbf37b2b2da64547a6a7916d566b8d945
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230792"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814724"
 ---
-# <a name="availability-in-grenada"></a>Disponibilité en Grenade
+# <a name="availability-in-grenada"></a>Disponibilité dans Quada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour la Grenade.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Quada.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

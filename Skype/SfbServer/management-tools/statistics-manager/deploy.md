@@ -1,8 +1,8 @@
 ---
-title: Déployer du gestionnaire de statistiques pour Skype Entreprise Server
+title: Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,217 +12,217 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Résumé : consultez cette rubrique pour connaître la procédure de déploiement du gestionnaire de statistiques de Skype Entreprise Serveur.'
-ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.'
+ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888423"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814814"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
-**Résumé:** consultez cette rubrique pour connaître la procédure de déploiement du gestionnaire de statistiques de Skype Entreprise Server .
+**Résumé :** Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.
   
- Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui permet de consulter Skype pour l’état et les performances des données entreprise Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques.
+ Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui vous permet d’afficher les données d’état et de performances de Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques.
   
-Avant de procéder à l’installation du Gestionnaire de Statistiques, veillez à vous familiariser avec la configuration logicielle, matérielle et les spécifications réseau requises. Pour plus d’informations,[Planifier le Gestionnaire de Statistiques pour Skype Entreprise Server](plan.md).
-  
-> [!NOTE]
-> Si vous procédez à la mise à niveau à partir d’une version précédente de Gestionnaire des Statistiques, reportez-vous à la rubrique[ Mettre à niveau le Gestionnaire de Statistiques dans Skype Entreprise Server Business Server](upgrade.md). 
+Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec les logiciels, la mise en réseau et la configuration matérielle requise. Pour plus d’informations, [voir Plan for Statistics Manager for Skype for Business Server](plan.md).
   
 > [!NOTE]
-> Le site Web du gestionnaire de statistiques a été testé et fonctionne correctement sur Internet Explorer 11+, Microsoft Edge 20.10240+ et Chrome 46+ (version Evergreen actuelle). 
+> Si vous êtes en cours de mise à niveau à partir d’une version précédente du Gestionnaire de statistiques, voir [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
   
-Vous trouverez le Gestionnaire de statistiques téléchargeable en [ https://aka.ms/StatsManDownload ](https://aka.ms/StatsManDownload). 
+> [!NOTE]
+> Le site web du Gestionnaire de statistiques a été testé et fonctionne correctement sur Internet Explorer 11+, Edge 20.10240+ et Chrome 46+ (version persistante actuelle). 
   
-Cette rubrique contient les sections suivantes :
+Vous pouvez trouver le Gestionnaire de statistiques téléchargeable sur [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) . 
   
-- [Déploiement du gestionnaire de statistiques](deploy.md#BKMK_Deploy)
+Cette rubrique comprend les sections suivantes :
+  
+- [Déployer le Gestionnaire de statistiques](deploy.md#BKMK_Deploy)
     
-- [Dépannage de votre déploiement](deploy.md#BKMK_Troubleshoot)
+- [Résoudre les problèmes de votre déploiement](deploy.md#BKMK_Troubleshoot)
     
-- [Création d’un certificat auto-signé](deploy.md#BKMK_SelfCert)
+- [Créer un certificat auto-signé](deploy.md#BKMK_SelfCert)
     
-## <a name="deploy-statistics-manager"></a>Déploiement du gestionnaire de statistiques
+## <a name="deploy-statistics-manager"></a>Déployer le Gestionnaire de statistiques
 <a name="BKMK_Deploy"> </a>
 
-Pour déployer le Gestionnaire de Statistiques, procédez comme suit :
+Pour déployer le Gestionnaire de statistiques, suivez les étapes suivantes :
   
-1. Préparez l’ordinateur hôte de l’écouteur en installant le système de mise en cache en mémoire Redis et vérifiez que les certificats appropriés sont installés.
+1. Préparez l’ordinateur hôte d’écoute en installant le système de mise en cache redis en mémoire et en vous assurant que vous avez installé les certificats appropriés.
     
 2. Installez le service d’écoute sur l’ordinateur hôte. 
     
-3. Installez le site Web sur l’ordinateur hôte.
+3. Installez le site web sur l’ordinateur hôte.
     
 4. Installez un agent sur chaque ordinateur Skype Entreprise Server que vous souhaitez surveiller.
     
-5. Importez la topologie des serveurs que vous surveillez.
+5. Importez la topologie pour les serveurs que vous surveillez.
     
 > [!NOTE]
-> Le système Redis, le service d’écoute et le site Web doivent être installés sur le même ordinateur hôte. N’oubliez pas de que l’ordinateur hôte n’a pas Skype Entreprise Server installé. 
+> Redis, le service d’écoute et le site web doivent tous être installés sur le même ordinateur hôte. Assurez-vous que Skype Entreprise Server n’est pas installé sur l’ordinateur hôte. 
   
-### <a name="prepare-the-listener-host-machine"></a>Préparation de l’ordinateur hôte
+### <a name="prepare-the-listener-host-machine"></a>Préparer l’ordinateur hôte d’écoute
 
-Pour préparer l’ordinateur hôte, vous devrez installer le système de mise en cache en mémoire Redis et vous assurer qu’un certificat valide est installé sur l’ordinateur. Microsoft recommande d’installer la dernière version stable de Redis 3.0. Le Gestionnaire de Statistiques version 2.0 a été testé avec Redis 3.2.100. 
+Pour préparer l’ordinateur hôte, vous devez installer le système de mise en cache redis en mémoire et vous assurer qu’un certificat valide se trouve sur l’ordinateur. Microsoft recommande d’installer la dernière version stable de Redis 3.0. La version 2.0 du Gestionnaire de statistiques a été testée avec Redis 3.2.100. 
   
-1. Télécharger Redis à partir du site suivant : [ https://github.com/MSOpenTech/redis ](https://github.com/MSOpenTech/redis). 
+1. Téléchargez Redis à partir du site suivant : [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
     
-    Les programmes d’installation non signés peuvent être téléchargés à partir de [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
+    Les programme d’installation non signés peuvent être téléchargés à partir de [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Si nécessaire, les fichiers binaires signés sont accessibles via les responsables de package populaires : [Nuget](https://www.nuget.org/packages/Redis-64/) et [Choclatey](https://chocolatey.org/packages/redis-64).
+    Si nécessaire, les binaires signés sont disponibles par le biais de gestionnaires de packages populaires [: Nuget](https://www.nuget.org/packages/Redis-64/) et [Atomlatey](https://chocolatey.org/packages/redis-64).
     
-   - Exécutez le fichier .msi fourni et suivez les invites.
+   - Exécutez le msi fourni et suivez les invites.
     
-   - Ne sélectionnez pas la case à cocher pour ajouter une règle de pare-feu.
+   - Ne cochez pas la case pour ajouter une règle de pare-feu.
     
-2. Le service d’écoute requiert un certificat. Microsoft recommande vivement que votre certificat signé provienne d’une autorité de certification approuvée. 
+2. Le service d’écoute requiert un certificat. Microsoft recommande vivement la signature d’un certificat par une autorité de certification de confiance. 
     
-    Si vous souhaitez utiliser un certificat auto-signé, par exemple à des fins de test au sein d’un laboratoire, reportez-vous à l’article [Création d’un certificat auto-signé](deploy.md#BKMK_SelfCert).
+    Si vous souhaitez utiliser un certificat auto-signé à des fins de test dans un atelier, par exemple, voir Créer un certificat [auto-signé.](deploy.md#BKMK_SelfCert)
     
-    Notez que l’agent utilise la vérification de l’empreinte de certificat (au lieu de la vérification de la chaîne). Il n’effectue pas de validation de certificat complète, car il est possible d’utiliser des certificats auto-signés.
+    Notez que l’agent utilise la vérification de l’empreinte numérique du certificat (au lieu de la vérification de chaîne). Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.
     
-### <a name="install-the-listener-service"></a>Installation du service de l’écouteur
+### <a name="install-the-listener-service"></a>Installer le service d’écoute
 
-Pour installer le service d’écoute sur l’ordinateur hôte, exécutez le fichier StatsManPerfAgentListener.msi et spécifiez les informations suivantes :
+Installez le service d’écoute sur l’ordinateur hôte en exécutant le StatsManPerfAgentListener.msi et en spécifiant ce qui suit :
   
-1. Passez en revue le Contrat de Licence Utilisateur Final et si vous êtes d’accord, sélectionnez **J’accepte les termes du contrat de licence**, puis cliquez sur **Suivant**.  
+1. Examinez le contrat de licence et, si vous acceptez, sélectionnez **J’accepte** les termes du contrat de licence, puis cliquez sur **Suivant**. 
     
-2. Dans la page suivante, spécifiez les informations suivantes :
+2. Sur la page suivante, spécifiez les informations suivantes :
     
-   - **Mot de passe du service :** il s’agit du mot de passe que les agents distants utiliseront pour s’authentifier auprès du service d’écoute.
+   - **Mot de passe du service :** Il s’agit du mot de passe que les agents distants utiliseront pour s’authentifier au service d’écoute.
     
-   - **Port du service :** il s’agit du numéro de port HTTPS que l’écouteur utilisera pour communiquer avec les agents. Lors de l’installation, ce port pourra traverser le pare-feu local, une ACL d’URL sera créée et un certificat SSL sera lié à ce port. La valeur par défaut est 8443.
+   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Lors de l’installation, ce port est autorisé à passer par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
     
-   - **Empreinte de certificat :** il s’agit de l’empreinte de certificat que l’écouteur utilisera pour chiffrer le protocole HTTPS. Le service réseau doit disposer d’un accès en lecture à la clé privée.
+   - **Empreinte numérique de certificat :** Il s’agit de l’empreinte numérique du certificat que l’écoute utilisera pour chiffrer le protocole HTTPS. Le service réseau doit avoir un accès en lecture à la clé privée.
     
-     Cliquez sur le bouton **Sélectionner...** pour choisir l’empreinte.
+     Cliquez sur **le bouton Sélectionner...** pour choisir l’empreinte numérique.
     
-     Vous pouvez trouver l’empreinte de certificat à l’aide du gestionnaire de certificats ou de la commande PowerShell :
+     Vous pouvez trouver l’empreinte de certificat à l’aide du Gestionnaire de certificats ou à l’aide de la commande PowerShell suivante :
     
        ```PowerShell
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **Répertoire d’installation: ** il s’agit du répertoire dans lequel les fichiers binaires seront installés. Vous pouvez modifier le répertoire par défaut à l’aide du bouton **Parcourir...**.
+   - **Installer Dir :** Il s’agit du répertoire dans lequel les binaires seront installés. Vous pouvez modifier la valeur par défaut à l’aide du **bouton Parcourir...**
     
-   - **Répertoire AppData :** il s’agit du répertoire dans lequel le dossier Journaux et d’autres données seront stockés. Vous pouvez modifier le répertoire par défaut. Il ne sera pas supprimé lors de la désinstallation.
+   - **AppData Dir :** Il s’agit du répertoire dans lequel le dossier Logs et d’autres données sont stockés. Vous pouvez la modifier par défaut. Il ne sera pas supprimé lors de la désinstallation.
     
 3. Cliquez sur **Installer**.
     
-Pour valider l’installation, procédez comme suit :
+Pour valider l’installation, effectuez les étapes suivantes :
   
-1. Ouvrez un navigateur et accédez à https://localhost:\<service-port\>/healthcheck/.
+1. Ouvrez un navigateur et accédez https://localhost: \<service-port\> à /healthcheck/
     
-    Par défaut, le port du service est 8443 (sauf si vous spécifiez un autre port).
+    Par défaut, le port de service est 8443 (sauf si vous avez spécifié un autre port).
     
-2. Pour vérifier l’installation correcte de l’écouteur, procédez comme suit :
+2. Pour vous assurer que l’écoute a été correctement installée, recherchez ce qui suit :
     
-   - Si la page de vérification d’intégrité s’affiche, l’écouteur a été correctement installé.
+   - Si la page de contrôle d’état s’affiche, l’installation de l’écoute a réussi.
     
-   - Si KnownServerCount est supérieur ou défini à 1, la connexion à ReDim est établie.
+   - Si knownServerCount est supérieur ou supérieur à 1, la connexion à Redis est établie.
     
-   - Après l’installation d’au moins un agent, patientez quelques minutes et vérifiez que le compteur ValuesWritten augmente.
+   - Après quelques minutes d’attente et après avoir installé au moins un agent, vérifiez que le compteur ValuesWritten est incrémenté.
     
-### <a name="install-the-website"></a>Installation du site Web
+### <a name="install-the-website"></a>Installer le site web
 
-Installer le site Web de l’ordinateur hôte en exécutant le StatsManWebSite.msi (inclus avec [Skype Entreprise Server, en temps réel statistiques Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) et en spécifiant des opérations suivantes :
+Installez le site web sur l’ordinateur hôte en exécutant le StatsManWebSite.msi (inclus dans Skype Entreprise [Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)et en spécifiant les informations suivantes :
   
-1. Passez en revue le Contrat de Licence Utilisateur Final et si vous êtes d’accord, sélectionnez **J’accepte les termes du contrat de licence**, puis cliquez sur **Suivant**.  
+1. Examinez le contrat de licence et, si vous acceptez, sélectionnez **J’accepte** les termes du contrat de licence, puis cliquez sur **Suivant**. 
     
-2. Dans la page suivante, spécifiez les informations suivantes :
+2. Sur la page suivante, spécifiez les informations suivantes :
     
-   - **Port du service :** il s’agit du numéro de port que le site Web écoutera. Vous pouvez le modifier ultérieurement à l’aide de la liaison du gestionnaire IIS. Lors de l’installation, ce port pourra traverser le pare-feu local.
+   - **Port de service :** Il s’agit du numéro de port que le site web écoutera. Vous pouvez le modifier ultérieurement à l’aide de la liaison de gestionnaire IIS. Pendant l’installation, ce port est autorisé par le pare-feu local.
     
-   - **Répertoire d’installation :** Il s’agit du répertoire dans lequel les fichiers binaires seront installés. Vous pouvez modifier le répertoire par défaut à l’aide du bouton **Parcourir...**.
+   - **Installer Dir :** Il s’agit du répertoire dans lequel les binaires seront installés. Vous pouvez modifier la valeur par défaut à l’aide du **bouton Parcourir...**
     
-   - **Répertoire AppData :** il s’agit du répertoire dans lequel le dossier Journaux et d’autres données seront stockés. Vous pouvez modifier le répertoire par défaut. Il ne sera pas supprimé lors de la désinstallation.
+   - **AppData Dir :** Il s’agit du répertoire dans lequel le dossier Logs et d’autres données sont stockés. Vous pouvez la modifier par défaut. Il ne sera pas supprimé lors de la désinstallation.
     
 3. Cliquez sur **Installer**.
     
-Pour afficher le site Web, ouvrez un navigateur et accédez à:http://localhost,webport\>/.
+Pour afficher le site Web, ouvrez un navigateur et accédez à : http://localhost ,webport \> /.
   
-Pour afficher uniquement les informations d’intégrité, ouvrez un navigateur et accédez à :http://localhost:\<webport\>/healthcheck/.
+Pour afficher uniquement les informations d’état, ouvrez un navigateur et accédez à : http://localhost: \<webport\> /healthcheck/.
   
-Par défaut, le numéro de port Web est 8080. Vous pouvez modifier la liaison de port du site Web à l’aide du gestionnaire IIS.
+Par défaut, le numéro de port web est 8080. Vous pouvez modifier la liaison de port du site web à l’aide du Gestionnaire des iis.
   
-Le programme d’installation Web ajoute un groupe de sécurité local appelé StatsManWebSiteUsers. Vous pouvez ajouter des comptes à ce groupe de sécurité pour accorder l’accès au site Web. 
+Le programme d’installation web ajoute un groupe de sécurité local, appelé StatsManWebSiteUsers. Vous pouvez ajouter des comptes à ce groupe de sécurité pour accorder l’accès au site web. 
   
-### <a name="install-the-agents"></a>Installation des agents
+### <a name="install-the-agents"></a>Installer les agents
 
-Pour installer un agent sur chaque Skype Entreprise Server que vous souhaitez surveiller, exécutez le fichier StatsManPerfAgent.msi et spécifiez les informations suivantes :
+Installez un agent sur chaque serveur Skype Entreprise que vous souhaitez surveiller en exécutant le StatsManPerfAgent.msi et en spécifiant les étapes suivantes :
   
-1. Passez en revue le Contrat de Licence Utilisateur Final et si vous êtes d’accord, sélectionnez **J’accepte les termes du contrat de licence**, puis cliquez sur **Suivant**.  
+1. Examinez le contrat de licence et, si vous acceptez, sélectionnez **J’accepte** les termes du contrat de licence, puis cliquez sur **Suivant**. 
     
-2. Dans la page suivante, spécifiez les informations suivantes :
+2. Sur la page suivante, spécifiez les informations suivantes :
     
-   - **Mot de passe du service :** il s’agit du mot de passe que l’agent distant utilisera pour s’authentifier auprès du service d’écoute.
+   - **Mot de passe du service :** Il s’agit du mot de passe que l’agent distant utilisera pour s’authentifier au service d’écoute.
     
-   - **URI du service :** il s’agit de l’URI où réside l’écouteur. Elle doit utiliser le formathttps://name:port.
+   - **URI de service :** Il s’agit de l’URI où réside l’écoute. Il doit utiliser le https://name:port format.
     
-     Vous pouvez utiliser un nom NETBIOS ou un nom de domaine complet. Vous pouvez utiliser le nom qui est également spécifié comme **Objet** ou **Autres noms de l’objet** du certificat sur le service d’écoute, mais cela n’est pas obligatoire.
+     Vous pouvez utiliser un nom NETBIOS ou un nom de domaine complet. Vous pouvez utiliser le nom qui  est  également spécifié en tant que sujet ou autre nom du sujet du certificat sur le service d’écoute, mais ce n’est pas obligatoire.
     
-   - **Empreinte du service :** il s’agit de l’empreinte du certificat SSL utilisé par l’écouteur. L’agent utilisera cette empreinte pour s’authentifier auprès de l’écouteur. (Il n’effectue pas de validation de certificat complète, car il est possible d’utiliser des certificats auto-signés.)
+   - **Empreinte de service :** Il s’agit de l’empreinte numérique du certificat SSL utilisé par l’écoute. L’agent utilisera cette empreinte numérique pour s’authentifier sur l’écoute. (Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.)
     
-   - **Répertoire d’installation: ** il s’agit du répertoire dans lequel les fichiers binaires seront installés. Vous pouvez modifier le répertoire par défaut à l’aide du bouton **Parcourir...**.
+   - **Installer Dir :** Il s’agit du répertoire dans lequel les binaires seront installés. Vous pouvez modifier la valeur par défaut à l’aide du **bouton Parcourir...**
     
-   - **Répertoire AppData :** Il s’agit du répertoire dans lequel le dossier Journaux et le fichier password.txt chiffré seront stockés. Vous pouvez le modifier à partir du répertoire par défaut. Il ne sera pas supprimé lors de la désinstallation.
+   - **AppData Dir :** Il s’agit du répertoire dans lequel le dossier Logs et le fichier password.txt chiffré seront stockés. Vous pouvez le modifier par défaut. Il ne sera pas supprimé lors de la désinstallation.
     
 3. Cliquez sur **Installer**.
     
-Si vous installez un agent sur différents ordinateurs, vous souhaitez peut-être le faire en mode sans assistance. Par exemple : 
+Si vous installez un agent sur de nombreux ordinateurs, vous voudrez probablement le faire en mode sans surveillance. Par exemple : 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
 ```
 
-### <a name="import-the-topology"></a>Importation de la topologie
+### <a name="import-the-topology"></a>Importer la topologie
 <a name="BKMK_ImportTopology"> </a>
 
-Lorsque le Gestionnaire de Statistiques est installé et en cours d’exécution, vous devez importer la topologie Skype Entreprise Server de manière à ce que le Gestionnaire de Statistiques puisse connaître le site, le pool et le rôle de chaque serveur. Pour importer votre topologie Skype Entreprise Server, utilisez l’applet de commande[Obtenir-CSPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) pour récupérer les informations relatives à chaque pool utilisé dans votre organisation, puis importez-les dans le Gestionnaire de Statistiques.
+Une fois le Gestionnaire de statistiques installé et en cours d’exécution, vous devez importer la topologie Skype Entreprise Server afin que le gestionnaire de statistiques connaisse le site, le pool et le rôle de chaque serveur. Pour importer votre topologie Skype Entreprise Server, vous utiliserez l';cmdlet [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) pour récupérer des informations sur chaque pool utilisé dans votre organisation, puis importez ces informations dans le Gestionnaire de statistiques.
   
-Pour importer a topologie de Skype Entreprise Server, procédez comme suit :
+Pour importer la topologie Skype Entreprise Server, suivez les étapes suivantes :
   
-1. Sur un hôte qui a Skype Entreprise Server pour les applets de commande PowerShell:
+1. Sur un hôte qui possède les cmdlets PowerShell de Skype Entreprise Server :
     
     a. Exécutez la commande suivante : 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
-    b. Copiez le fichier «mypoolinfo.xml» sur le serveur exécutant l’Écouteur.
+    b. Copiez le fichier « mypoolinfo.xml » sur le serveur qui exécute l’écoute.
     
-2. Sur l’hôte exécutant l’Écouteur :
+2. Sur l’hôte qui exécute l’écoute :
     
    a. Exécutez PowerShell.
     
-   b. Accédez au répertoire dans lequel l’écouteur est installé. Valeur par défaut : 
+   b. Accédez au répertoire sur lequel l’écoute est installé. La valeur par défaut est : 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-3. Pour confirmer les serveurs qui sont ajoutés et mis à jour, exécutez la commande suivante :
+3. Pour vérifier quels serveurs sont ajoutés et mis à jour, exécutez la commande suivante :
     
    ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
-La commande suivante permet d’afficher toutes les options :
+La commande suivante vous permet d’afficher toutes les options :
   
 ```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Pour consulter les informations du serveur importé, exécutez le script suivant : 
+Pour voir les informations de votre serveur actuellement importé, exécutez le script suivant : 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
-Si vous souhaitez surveiller des serveurs qui ne font pas partie de votre topologie Skype Entreprise Server, par exemple un serveur Exchange, vous pouvez effectuer une importation de serveur unique vers l’hôte qui exécute l’écouteur. Pour effectuer une importation de serveur , procédez comme suit :
+Si vous souhaitez surveiller des serveurs qui ne sont pas dans votre topologie Skype Entreprise Server (une Exchange Server, par exemple), vous pouvez importer un serveur unique sur l’hôte qui exécute l’écoute. Pour importer un serveur unique, suivez les étapes suivantes :
   
-1. Accédez au répertoire dans lequel l’écouteur est installé. Valeur par défaut : 
+1. Accédez au répertoire sur lequel l’écoute est installé. La valeur par défaut est : 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
@@ -234,75 +234,75 @@ Si vous souhaitez surveiller des serveurs qui ne font pas partie de votre topolo
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
-## <a name="troubleshoot-your-deployment"></a>Dépannage de votre déploiement
+## <a name="troubleshoot-your-deployment"></a>Résoudre les problèmes de votre déploiement
 <a name="BKMK_Troubleshoot"> </a>
 
-Si un agent ne démarre pas, vérifiez les points suivants : 
+Si un agent ne parvient pas à démarrer, recherchez ce qui suit : 
   
-- L’agent est-il enregistré auprès du Gestionnaire de Statistiques?
+- L’agent est-il inscrit dans le Gestionnaire de statistiques ?
     
-    1. 	Assurez-vous que vous avez suivi les instructions pour importer la topologie. Consultez la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).  
+    1. Assurez-vous que vous avez suivi les instructions d’importation de la topologie. Voir [Importer la topologie.](deploy.md#BKMK_ImportTopology)
         
-    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, nœuds dans un cluster SQL AlwaysOn), vous devrez ajouter l’agent manuellement en suivant les instructions de la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).
+    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un [](deploy.md#BKMK_ImportTopology)cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’importation de la topologie.
     
-- L’agent peut-il contacter l’écouteur ?
+- L’agent peut-il contacter l’écoute ?
     
-    1. Vérifiez que le service d’écoute est exécuté. 
+    1. Assurez-vous que le service d’écoute est en cours d’exécution. 
         
-        Si ce n’est pas le cas, vérifiez que le système Redis est en cours d’exécution, puis essayez de redémarrer l’écouteur.
+        S’il n’est pas en cours d’exécution, assurez-vous que Redis est en cours d’exécution, puis essayez de redémarrer l’écoute.
         
-    2. Assurez-vous que le port est ouvert sur le service d’écoute et que l’ordinateur de l’agent peut communiquer avec le port.
+    2. Assurez-vous que le port est ouvert au service d’écoute et que l’ordinateur de l’agent peut communiquer avec le port.
     
-- Pour vérifier que le Gestionnaire de Statistiques collecte des données, vous pouvez consulter le fichier CSV comme suit.  
+- Pour vous assurer que le Gestionnaire de statistiques collecte des données, vous pouvez vérifier le fichier CSV comme suit. 
     
-    La commande suivante récupère les noms de stockage de compteur : 
+    La commande suivante récupère les noms de stockage des compteurs : 
     
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
-    La commande suivante récupère les valeurs des compteurs spécifiés : 
+    La commande suivante récupère les valeurs des compteurs spécifiés : 
     
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Pour plus d’informations sur l’ensemble des événements qui peuvent figurer dans le journal d’événements de l’application, reportez-vous à la rubrique [Résolution de Gestionnaire de Statistiques dans Skype Entreprise Server](troubleshoot.md).
+Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements d’application, voir [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md).
   
-## <a name="create-a-self-signed-certificate"></a>Création d’un certificat auto-signé
+## <a name="create-a-self-signed-certificate"></a>Créer un certificat auto-signé
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft recommande vivement d’utiliser un certificat signé par une autorité de certification approuvée. Toutefois, si vous souhaitez utiliser un certificat auto-signé à des fins de test, procédez comme suit : 
+Microsoft recommande vivement d’utiliser un certificat signé par une autorité de certification de confiance. Toutefois, si vous souhaitez utiliser un certificat auto-signé à des fins de test, faites les choses suivantes : 
   
-1. Connectez-vous à une console PowerShell en tant qu’administrateur, et tapez les informations suivantes :
+1. À partir d’une console PowerShell lorsque vous êtes connecté en tant qu’administrateur, tapez ce qui suit :
     
    ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Type `certlm.msc`. Le Gestionnaire de Certificat s’ouvrira pour l’ordinateur local.
+2. Type  `certlm.msc` . Cela ouvre le Gestionnaire de certificats pour l’ordinateur local.
     
-3. Accédez à **Personnel** et ouvrez**Certificats**.
+3. Accédez **à Personnel,** puis ouvrez **Certificats.**
     
-4. Cliquez à l’aide du bouton droit de la souris sur **StatsManListener-\>Toutes les Tâches-\>Gérer les clés privées Keys…**
+4. Cliquez avec le bouton **droit sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
     
 5. Cliquez sur **Ajouter**.
     
-6. Dans la zone **Entrer les noms d’objets à sélectionner**, tapez Service réseau.
+6. Dans la **zone Entrer les noms des objets à sélectionner,** tapez ce qui suit : Service réseau
     
 7. Cliquez sur **OK**.
     
-8. Sous **Contrôle total**, désactivez la case à cocher **Autoriser**. Seul un accès en lecture est nécessaire.
+8. Sous **Contrôle total,** désochez **la** case Autoriser. (Seul l’accès en lecture est nécessaire.)
     
 9. Cliquez sur **OK**.
     
 ## <a name="for-more-information"></a>Pour plus d'informations
 <a name="BKMK_SelfCert"> </a>
 
-Pour plus d'informations, voir les articles suivants :
+Pour plus d'informations, consultez les articles suivants :
   
 - [Planifier le gestionnaire de statistiques pour Skype Entreprise Server](plan.md)
     
 - [Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server](upgrade.md)
     
-- [Dépannage du gestionnaire de statistiques pour Skype Entreprise Server](troubleshoot.md)ß
+- [Résoudre les problèmes du Gestionnaire de statistiques pour Skype Entreprise Server](troubleshoot.md) ß

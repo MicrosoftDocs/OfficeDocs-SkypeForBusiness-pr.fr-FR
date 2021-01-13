@@ -1,8 +1,8 @@
 ---
 title: tblNode
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,49 +12,49 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou de salle de conversation) qui est gérée dans les applets de commande du panneau de configuration et d’administration.
-ms.openlocfilehash: 99300b6e26a0c173a13e6187680fd150ffa90e0a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblNode contient l’arborescence d’objets (avec les nodes de catégorie ou de salle de conversation) telle qu’elle est gérée dans le panneau de contrôle et les cmdlets d’administration.
+ms.openlocfilehash: cd2353d768ef61787b81efcdfe35f9c57409cc12
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814562"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815924"
 ---
 # <a name="tblnode"></a>tblNode
  
-tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou de salle de conversation) qui est gérée dans les applets de commande du panneau de configuration et d’administration.
+tblNode contient l’arborescence d’objets (avec les nodes de catégorie ou de salle de conversation) telle qu’elle est gérée dans le panneau de contrôle et les cmdlets d’administration.
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|ID  <br/> |ent, non null  <br/> |ID de nœud (numéro unique).  <br/> |
-|nodeGuid  <br/> |GUID, pas null  <br/> |GUID du nœud.  <br/> |
-|Parent  <br/> |int  <br/> |ID de nœud du parent. Le nœud racine (avec l’ID 1) s’intègre également en tant que parent.  <br/> |
-|nodeType  <br/> |bit, pas null  <br/> |True si le nœud est une catégorie.  <br/> Faux si le nœud est une salle de conversation.  <br/> |
-|nodeName  <br/> |nvarchar (256), pas null  <br/> |Nom du nœud.  <br/> |
-|nodeDesc  <br/> |nvarchar (256), pas null  <br/> |Description du nœud.  <br/> |
-|inviter  <br/> |bit  <br/> | Pour les catégories : <br/>  True si les invitations sont activées. <br/>  Faux si les invitations sont désdésactivées. <br/>  Pour les salles : <br/>  Faux si les invitations sont désactivées (ignore la catégorie parent). <br/>  NULL si le paramètre d’invitations est hérité de la catégorie parent. <br/> |
-|utilisé  <br/> |bit  <br/> | Pour les catégories : <br/>  True si l’historique des conversations est activé. <br/>  Faux si l’historique des conversations est désactivé. <br/>  Pour les salles : <br/>  Valeur. <br/> |
-|filePost  <br/> |bit  <br/> | Pour les catégories : <br/>  True si les téléchargements de fichiers sont autorisés. <br/>  False si les téléchargements de fichiers ne le sont pas. <br/>  Pour les salles : <br/>  Valeur. <br/> |
-|désactivé  <br/> |bit, pas null  <br/> |True si la salle de conversation est désactivée. S’applique uniquement aux salles de conversation. (Faux pour les catégories.)  <br/> |
-|fonctionnement  <br/> |smallint, pas null  <br/> | Comportement (recherché dans la table EnumValue) : <br/>  4 : normal (salles de conversation normales). <br/>  5 : Auditorium (salles de conversation d’Auditorium ; seuls les présentateurs peuvent collaborer). <br/>  S’applique uniquement aux salles de conversation. <br/> |
-|notoriété  <br/> |smallint, pas null  <br/> | Visibility (recherché sur la table EnumValue) : <br/>  2 : privé <br/>  3 : étendue <br/>  6 : ouvrir <br/>  S’applique uniquement aux salles de conversation. <br/> |
-|siopID  <br/> |GUID  <br/> |GUID du complément si un complément est associé à cette salle de conversation. (Les catégories n’ont pas de compléments.)  <br/> Les informations de complément sont recherchées dans la table SiopWhiteList.  <br/> |
-|nodeAddedBy  <br/> |ent, non null  <br/> |ID de l’élément principal qui a créé ce nœud.  <br/> |
-|nodeAddedOn  <br/> |bigint, pas null  <br/> |Horodatage de la création du nœud.  <br/> |
-|nodeUpdatedBy  <br/> |ent, non null  <br/> |ID de l’entité de l’utilisateur qui a effectué la dernière mise à jour de ce nœud.  <br/> |
-|nodeUpdatedOn  <br/> |bigint, pas null  <br/> |Horodatage de la dernière mise à jour de ce nœud.  <br/> |
-|purgedOn  <br/> |DateHeure  <br/> |Heure de la dernière opération de purge (la suppression des étendues de la table tblScopedPrincipal et des rôles de la table tblPrincipalRole) qui ont affecté ce nœud. Ce mode est utilisé par le mécanisme de mise à jour du cache interne du service de conversation.  <br/> |
+|nodeID  <br/> |int, non null  <br/> |ID de nœud (numéro unique).  <br/> |
+|nodeGuid  <br/> |GUID, non null  <br/> |GUID de nœud.  <br/> |
+|parentID  <br/> |int  <br/> |ID de nœud du parent. Le nœud racine (avec l’ID 1) s’inclut lui-même comme parent.  <br/> |
+|nodeType  <br/> |bit, non null  <br/> |True si le nœud est une catégorie.  <br/> False si le nœud est une salle de conversation.  <br/> |
+|nodeName  <br/> |nvarchar (256), non null  <br/> |Nom du nœud.  <br/> |
+|nodeDesc  <br/> |nvarchar (256), non null  <br/> |Description du nœud.  <br/> |
+|invite  <br/> |bit  <br/> | Pour les catégories : <br/>  True si les invitations sont activées. <br/>  False si les invitations sont désactivées. <br/>  Pour les salles : <br/>  False si les invitations sont désactivées (remplace la catégorie parente). <br/>  Null si le paramètre d’invitation est hérité de la catégorie parente. <br/> |
+|journalisé  <br/> |bit  <br/> | Pour les catégories : <br/>  True si l’historique des conversations est activé. <br/>  False si l’historique des conversations est désactivé. <br/>  Pour les salles : <br/>  Null. <br/> |
+|filePost  <br/> |bit  <br/> | Pour les catégories : <br/>  True si les téléchargements de fichiers sont autorisés. <br/>  False si les téléchargements de fichiers sont interdits. <br/>  Pour les salles : <br/>  Null. <br/> |
+|désactivé  <br/> |bit, non null  <br/> |True si la salle de conversation est désactivée. S’applique uniquement aux salles de conversation. (False pour les catégories.)  <br/> |
+|comportement  <br/> |smallint, non null  <br/> | Comportement (tiré de la table EnumValue) : <br/>  4 : normal (salles de conversation normales). <br/>  5 : auditorium (salles de conversation de type auditorium, seuls les présentateurs peuvent contribuer). <br/>  S’applique uniquement aux salles de conversation. <br/> |
+|visibility  <br/> |smallint, non null  <br/> | Visibilité (tirée de la table EnumValue) : <br/>  2 : privée <br/>  3 : limitée par une étendue <br/>  6 : ouvert <br/>  S’applique uniquement aux salles de conversation. <br/> |
+|siopID  <br/> |GUID  <br/> |GUID de complément si un complément est associé à cette salle de conversation. (Les catégories n’ont pas de complément.)  <br/> Les informations relatives aux compléments sont recherchées dans la table SiopWhiteList.  <br/> |
+|nodeAddedBy  <br/> |int, non null  <br/> |ID du principal ayant créé ce nœud.  <br/> |
+|nodeAddedOn  <br/> |bigint, non null  <br/> |Horodatage de la création de nœud.  <br/> |
+|nodeUpdatedBy  <br/> |int, non null  <br/> |ID du principal ayant effectué la dernière mise à jour de ce nœud.  <br/> |
+|nodeUpdatedOn  <br/> |bigint, non null  <br/> |Horodatage de la dernière mise à jour de ce nœud.  <br/> |
+|purgedOn  <br/> |DateHeure  <br/> |Heure de la dernière opération de vidage (suppression des étendues de la table tblScopedPrincipal et des rôles de la table tblPrincipalRole) ayant affecté ce nœud. Il est utilisé par le mécanisme de mise à jour du cache interne du service de conversation.  <br/> |
    
-**Permettent**
+**Keys**
 
 |**Colonne**|**Description**|
 |:-----|:-----|
-|ID  <br/> |Clé primaire.  <br/> |
-|fonctionnement  <br/> |Clé étrangère avec recherche dans la table tblEnumValue. valueID.  <br/> |
-|notoriété  <br/> |Clé étrangère avec recherche dans la table tblEnumValue. valueID.  <br/> |
-|Parent  <br/> |Clé étrangère avec recherche dans la table tblNode. nodeID.  <br/> |
-|siopID  <br/> |Clé étrangère avec recherche dans la table tblSiopWhiteList. siopId.  <br/> |
+|nodeID  <br/> |Clé primaire.  <br/> |
+|comportement  <br/> |Clé étrangère avec recherche dans la table tblEnumValue.valueID.  <br/> |
+|visibility  <br/> |Clé étrangère avec recherche dans la table tblEnumValue.valueID.  <br/> |
+|parentID  <br/> |Clé étrangère avec recherche dans la table tblNode.nodeID.  <br/> |
+|siopID  <br/> |Clé étrangère avec recherche dans la table tblSiopWhiteList.siopId.  <br/> |
    
 

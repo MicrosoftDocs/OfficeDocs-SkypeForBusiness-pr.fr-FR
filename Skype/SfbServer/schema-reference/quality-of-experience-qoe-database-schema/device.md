@@ -1,8 +1,8 @@
 ---
 title: Table Device
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
-description: La table Device est une table qui contient des informations sur les différents périphériques de capture ou de rendu. Chaque enregistrement de la table représente un appareil.
-ms.openlocfilehash: 93e6b2215fa1e20b930d678c45f10e26feffd351
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table Device est une table de prise en charge qui stocke des informations sur les différents périphériques de capture ou de rendu. Chaque enregistrement de la table représente un périphérique.
+ms.openlocfilehash: 818458e41c71398f3df11ac9a47eeee0841c6dca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41810152"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814744"
 ---
 # <a name="device-table"></a>Table Device
  
-La table Device est une table qui contient des informations sur les différents périphériques de capture ou de rendu. Chaque enregistrement de la table représente un appareil.
+La table Device est une table de prise en charge qui stocke des informations sur les différents périphériques de capture ou de rendu. Chaque enregistrement de la table représente un périphérique.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**DeviceKey** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cet appareil.  <br/> |
-|**Périphérique** <br/> |nvarchar(256)  <br/> |Nom_unité + DeviceType est unique  <br/> |Nom de l’appareil.  <br/> |
-|**DeviceType** <br/> |bit  <br/> |Nom_unité + DeviceType est unique  <br/> |Type d’appareil. 1 est un appareil de capture ; 0 est un périphérique de rendu.  <br/> |
+|**DeviceKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique qui identifie ce périphérique.  <br/> |
+|**DeviceName** <br/> |nvarchar(256)  <br/> |DeviceName + DeviceType est unique  <br/> |Nom du périphérique.  <br/> |
+|**DeviceType** <br/> |bit  <br/> |DeviceName + DeviceType est unique  <br/> |Type de périphérique. 1 correspond à un périphérique de capture, 0 à un périphérique de rendu.  <br/> |
    
 
