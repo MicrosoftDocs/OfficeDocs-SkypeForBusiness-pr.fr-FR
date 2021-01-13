@@ -1,8 +1,8 @@
 ---
 title: test
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ''
-description: Insérez l’introduction ici.
-ms.openlocfilehash: f98e0c40a9c0d3f9a2f087bd1dc3a214a8895bfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Placer l'introduction ici.
+ms.openlocfilehash: afc20fda33d92ac58ae77154d6890d7354dfbed6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819016"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817794"
 ---
-# <a name="testing-sfb-csh"></a><span data-ttu-id="9d358-103">Test de marketing CSH</span><span class="sxs-lookup"><span data-stu-id="9d358-103">Testing SfB CSH</span></span>
+# <a name="testing-sfb-csh"></a><span data-ttu-id="0a09c-103">Test du CSH SfB</span><span class="sxs-lookup"><span data-stu-id="0a09c-103">Testing SfB CSH</span></span>
 
-<span data-ttu-id="9d358-104">Il s’agit d’un sujet CSH qui n’est pas visible dans la recherche.</span><span class="sxs-lookup"><span data-stu-id="9d358-104">This would be a CSH topic that's hidden from search.</span></span>
+<span data-ttu-id="0a09c-104">Il s’agit d’une rubrique CSH qui est masquée dans la recherche.</span><span class="sxs-lookup"><span data-stu-id="0a09c-104">This would be a CSH topic that's hidden from search.</span></span>
 
 

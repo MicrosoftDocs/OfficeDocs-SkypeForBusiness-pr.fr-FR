@@ -1,9 +1,9 @@
 ---
 title: Teams pour les organismes de vente au détail
-description: En savoir plus sur les ressources d’administration disponibles pour gérer et tirer le meilleur parti des équipes destinées aux magasins et au personnel.
+description: Découvrez les ressources d’administration disponibles pour gérer et tirer le meilleur enseignement de Teams pour vos magasins de détail et votre personnel.
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 f1.keywords:
@@ -16,17 +16,17 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c343dec360a910019a46dd7741ea28bc36dcd48d
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576896"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802584"
 ---
-# <a name="teams-for-retail"></a><span data-ttu-id="11482-103">Teams pour les organismes de vente au détail</span><span class="sxs-lookup"><span data-stu-id="11482-103">Teams for Retail</span></span>
+# <a name="teams-for-retail"></a><span data-ttu-id="62084-103">Teams pour les organismes de vente au détail</span><span class="sxs-lookup"><span data-stu-id="62084-103">Teams for Retail</span></span>
 
-<span data-ttu-id="11482-104">Utilisez les ressources d’administration ici pour gérer et tirer le meilleur parti des équipes destinées aux magasins et au personnel.</span><span class="sxs-lookup"><span data-stu-id="11482-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
+<span data-ttu-id="62084-104">Utilisez les ressources d’administration ici pour gérer et utiliser au mieux Teams pour vos magasins de détail et votre personnel.</span><span class="sxs-lookup"><span data-stu-id="62084-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![Walkthrough-Map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="11482-106">Démarrage avec les modèles Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="11482-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="62084-106">Démarrage avec les modèles Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="62084-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
