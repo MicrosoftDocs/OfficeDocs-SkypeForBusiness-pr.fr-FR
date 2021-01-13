@@ -1,8 +1,8 @@
 ---
-title: Nœud d’étendue du site Lync Server
+title: Test - Nœud d’étendue de site Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud affiche l’un des sites définis dans votre topologie. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 94d9d1a893fa52d1dcf4f85f461360412e087e2a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 015176937b37c8d13d4ebdbbf39c90af1e08668f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795183"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805574"
 ---
-# <a name="test---skype-for-business-server-site-scope-node"></a><span data-ttu-id="7c975-104">Nœud d’étendue du site Lync Server</span><span class="sxs-lookup"><span data-stu-id="7c975-104">Test - Skype for Business Server Site Scope Node</span></span>
+# <a name="test---skype-for-business-server-site-scope-node"></a><span data-ttu-id="022f6-104">Test - Nœud d’étendue de site Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="022f6-104">Test - Skype for Business Server Site Scope Node</span></span>
  
-<span data-ttu-id="7c975-p102">Ce nœud affiche l’un des sites définis dans votre topologie. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="7c975-p102">This node shows one of the sites defined on your topology. You can perform the following actions:</span></span> 
+<span data-ttu-id="022f6-p102">Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="022f6-p102">This node shows one of the sites defined on your topology. You can perform the following actions:</span></span> 
   
-- <span data-ttu-id="7c975-p103">**Nouveau.**  : ajoute un nouveau pool ou serveur au site.</span><span class="sxs-lookup"><span data-stu-id="7c975-p103">**New.** Add a new pool or server to the site.</span></span>
+- <span data-ttu-id="022f6-p103">**Nouveau.** Ajoute un nouveau pool ou serveur au site.</span><span class="sxs-lookup"><span data-stu-id="022f6-p103">**New.** Add a new pool or server to the site.</span></span>
     
-- <span data-ttu-id="7c975-p104">**Modifier les propriétés** : modifie les propriétés du site, comme le nom et l’emplacement, et spécifie si le site utilise le contrôle d’admission des appels pour la gestion de la bande passante et si un pool de directeurs ou un pool de serveurs Edge sur ce site est utilisé comme itinéraire de fédération.</span><span class="sxs-lookup"><span data-stu-id="7c975-p104">**Edit Properties.** Edit site properties, such as name and location, and specify whether the site uses call admission control for bandwidth management, and whether a Director pool or Edge pool at this site is used as a federation route.</span></span>
+- <span data-ttu-id="022f6-p104">**Modifier les propriétés.** Modifie les propriétés du site comme le nom et l’emplacement, et spécifie si le site utilise le contrôle d’admission des appels pour la gestion de la bande passante, et si un pool de directeurs ou un pool de serveurs Edge sur ce site est utilisé comme itinéraire de fédération.</span><span class="sxs-lookup"><span data-stu-id="022f6-p104">**Edit Properties.** Edit site properties, such as name and location, and specify whether the site uses call admission control for bandwidth management, and whether a Director pool or Edge pool at this site is used as a federation route.</span></span>
     
-- <span data-ttu-id="7c975-p105">**Supprimer.**  : supprime ce site de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="7c975-p105">**Delete.** Remove this site from your topology.</span></span>
+- <span data-ttu-id="022f6-p105">**Supprimer.** Supprime ce site de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="022f6-p105">**Delete.** Remove this site from your topology.</span></span>
     
-<span data-ttu-id="7c975-113">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="7c975-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="022f6-113">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="022f6-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="7c975-p106">**Topologie.**  : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="7c975-p106">**Topology.** You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="022f6-114">**Topologie.**</span><span class="sxs-lookup"><span data-stu-id="022f6-114">**Topology.**</span></span> <span data-ttu-id="022f6-115">Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="022f6-115">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="7c975-p107">**Afficher.**  : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="7c975-p107">**View.** You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="022f6-p107">**Afficher.** Vous pouvez utiliser cette option pour personnaliser l’affichage du Générateur de topologies en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="022f6-p107">**View.** You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="7c975-p108">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="7c975-p108">**Help.** You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="022f6-p108">**Aide.** Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.</span><span class="sxs-lookup"><span data-stu-id="022f6-p108">**Help.** You can use this option to access Help for the active node.</span></span>
     
 

@@ -1,7 +1,7 @@
 ---
-title: Déploiements locaux de plusieurs forêts Skype Room System
-ms.author: v-lanac
-author: lanachin
+title: Déploiements locaux à forêts multiples de Skype Room System
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
-description: Consultez cette rubrique pour apprendre à déployer Skype Room System dans un environnement local à plusieurs forêts.
-ms.openlocfilehash: ac9a5edac94d182812aefaf9eb817765c7af6444
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêts multiples.
+ms.openlocfilehash: 168244033a681b9aa9dc6e4c9697b7e3c7e89127
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768817"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805744"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a><span data-ttu-id="af820-103">Déploiements locaux de plusieurs forêts Skype Room System</span><span class="sxs-lookup"><span data-stu-id="af820-103">Skype Room System multiple forest on-premises deployments</span></span>
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a><span data-ttu-id="3cb7e-103">Déploiements locaux à forêts multiples de Skype Room System</span><span class="sxs-lookup"><span data-stu-id="3cb7e-103">Skype Room System multiple forest on-premises deployments</span></span>
  
-<span data-ttu-id="af820-104">Consultez cette rubrique pour apprendre à déployer Skype Room System dans un environnement local à plusieurs forêts.</span><span class="sxs-lookup"><span data-stu-id="af820-104">Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment.</span></span>
+<span data-ttu-id="3cb7e-104">Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêts multiples.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-104">Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="af820-105">Pour effectuer un déploiement dans plusieurs forêts, le système de salle Skype nécessite Exchange Server 2013 CU6 publiée le 26 août 2014.</span><span class="sxs-lookup"><span data-stu-id="af820-105">In order to deploy in multiple forests, Skype Room System requires Exchange Server 2013 CU6 released on August 26, 2014.</span></span> <span data-ttu-id="af820-106">Évitez d’utiliser une boîte aux lettres existante pour le système de salle Skype.</span><span class="sxs-lookup"><span data-stu-id="af820-106">Avoid re-using an existing mailbox for Skype Room System.</span></span> <span data-ttu-id="af820-107">Utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et recréer) pour les systèmes de salle Skype.</span><span class="sxs-lookup"><span data-stu-id="af820-107">Use a new (delete old mailbox and re-create) resource mailbox for Skype Room System.</span></span> <span data-ttu-id="af820-108">Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir [connecter ou restaurer une boîte aux lettres supprimée](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="af820-108">To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx).</span></span> 
+> <span data-ttu-id="3cb7e-105">Pour pouvoir être déployé dans plusieurs forêts, Skype Room System nécessite Exchange Server 2013 CU6 publiée le 26 août 2014.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-105">In order to deploy in multiple forests, Skype Room System requires Exchange Server 2013 CU6 released on August 26, 2014.</span></span> <span data-ttu-id="3cb7e-106">Évitez de ré-utiliser une boîte aux lettres existante pour Skype Room System.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-106">Avoid re-using an existing mailbox for Skype Room System.</span></span> <span data-ttu-id="3cb7e-107">Utilisez une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-107">Use a new (delete old mailbox and re-create) resource mailbox for Skype Room System.</span></span> <span data-ttu-id="3cb7e-108">Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir Connecter ou [restaurer une boîte aux lettres supprimée.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3cb7e-108">To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx).</span></span> 
   
-<span data-ttu-id="af820-109">Après la création de la boîte aux lettres, vous pouvez utiliser Set-CalendarProcessing pour configurer la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="af820-109">After creating the mailbox, you can use Set-CalendarProcessing to configure the mailbox.</span></span> <span data-ttu-id="af820-110">Reportez-vous aux étapes 3 à 6 sous Déploiements locaux dans une forêt unique pour plus d’informations.</span><span class="sxs-lookup"><span data-stu-id="af820-110">Refer to steps 3 through 6 under Single forest on-premises deployments for more details.</span></span> <span data-ttu-id="af820-111">Après la création d’une boîte aux lettres de ressources Exchange pour le système de salle Skype, activez le compte pour Skype entreprise en suivant les étapes de la rubrique activation de comptes de votre système de salle Skype pour Skype entreprise dans le cadre de déploiements locaux d’une seule forêt.</span><span class="sxs-lookup"><span data-stu-id="af820-111">After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.</span></span>
+<span data-ttu-id="3cb7e-109">Après avoir créé la boîte aux lettres, vous pouvez utiliser Set-CalendarProcessing pour configurer la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-109">After creating the mailbox, you can use Set-CalendarProcessing to configure the mailbox.</span></span> <span data-ttu-id="3cb7e-110">Pour plus d’informations, reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-110">Refer to steps 3 through 6 under Single forest on-premises deployments for more details.</span></span> <span data-ttu-id="3cb7e-111">Après avoir créé une boîte aux lettres de ressources Exchange pour Skype Room System, activez le compte pour Skype Entreprise en suivant les étapes de la procédure d’activation des comptes Skype Room System pour Skype Entreprise dans le cadre de déploiements locaux à forêt unique.</span><span class="sxs-lookup"><span data-stu-id="3cb7e-111">After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.</span></span>
   
-## <a name="option-1-create-a-new-resource-mailbox"></a><span data-ttu-id="af820-112">Option 1 : créer une nouvelle boîte aux lettres de ressources</span><span class="sxs-lookup"><span data-stu-id="af820-112">Option 1: Create a new resource mailbox</span></span>
+## <a name="option-1-create-a-new-resource-mailbox"></a><span data-ttu-id="3cb7e-112">Option 1 : Créer une boîte aux lettres de ressources</span><span class="sxs-lookup"><span data-stu-id="3cb7e-112">Option 1: Create a new resource mailbox</span></span>
 
-<span data-ttu-id="af820-113">Pour déployer le système de salle Skype dans un environnement multiforêt :</span><span class="sxs-lookup"><span data-stu-id="af820-113">To deploy Skype Room System in a multi-forest environment:</span></span>
+<span data-ttu-id="3cb7e-113">Pour déployer Skype Room System dans un environnement à forêts multiples :</span><span class="sxs-lookup"><span data-stu-id="3cb7e-113">To deploy Skype Room System in a multi-forest environment:</span></span>
   
-1. <span data-ttu-id="af820-114">Créez un utilisateur lié (LinkedRoomTest) dans Active Directory (forêt d’authentification).</span><span class="sxs-lookup"><span data-stu-id="af820-114">Create a Linked User (LinkedRoomTest) in Active Directory (Authentication Forest).</span></span>
+1. <span data-ttu-id="3cb7e-114">Créez un utilisateur lié (LinkedRoomTest) dans Active Directory (forêt d’authentification).</span><span class="sxs-lookup"><span data-stu-id="3cb7e-114">Create a Linked User (LinkedRoomTest) in Active Directory (Authentication Forest).</span></span>
     
-2. <span data-ttu-id="af820-115">Exécutez les commandes suivantes dans le Exchange Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="af820-115">Run the following commands in the Exchange Server Management Shell:</span></span>
+2. <span data-ttu-id="3cb7e-115">Exécutez les commandes suivantes dans Exchange Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="3cb7e-115">Run the following commands in the Exchange Server Management Shell:</span></span>
     
    ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a><span data-ttu-id="af820-116">Option 2 : remplacer une boîte aux lettres de salle existante par une boîte aux lettres de ressources liée au système de salle Skype</span><span class="sxs-lookup"><span data-stu-id="af820-116">Option 2: Change an existing room mailbox to Skype Room System (linked) resource mailbox</span></span>
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a><span data-ttu-id="3cb7e-116">Option 2 : Modifier une boîte aux lettres de salle existante en boîte aux lettres de ressources Skype Room System (liée)</span><span class="sxs-lookup"><span data-stu-id="3cb7e-116">Option 2: Change an existing room mailbox to Skype Room System (linked) resource mailbox</span></span>
 
 ```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1

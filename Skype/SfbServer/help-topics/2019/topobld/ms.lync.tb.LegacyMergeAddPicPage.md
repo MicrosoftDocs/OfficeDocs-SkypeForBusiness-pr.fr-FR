@@ -1,8 +1,8 @@
 ---
 title: Fusion héritée
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
-description: Le nom de domaine complet pour les conférences Web autorise les utilisateurs externes à participer à des réunions locales. Entrez le nom de domaine complet (FQDN) de l’interface externe de conférence Web du serveur Edge hérité.
-ms.openlocfilehash: 8572436ac1f72b5aed611dbaee53e93b68e98e81
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Le Nom de domaine complet externe de conférence Web permet à des utilisateurs externes de participer à des réunions sur site. Entrez le nom de domaine complet (FQDN) de l'interface de conférence Web externe du serveur Edge hérité.
+ms.openlocfilehash: bd259179ea61e20efec2fca81bddd40b0c53f97f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795365"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805704"
 ---
-# <a name="legacy-merge"></a><span data-ttu-id="91f32-104">Fusion héritée</span><span class="sxs-lookup"><span data-stu-id="91f32-104">Legacy Merge</span></span>
+# <a name="legacy-merge"></a><span data-ttu-id="4d315-104">Fusion héritée</span><span class="sxs-lookup"><span data-stu-id="4d315-104">Legacy Merge</span></span>
 
-<span data-ttu-id="91f32-105">Le **nom de domaine complet pour les conférences Web** autorise les utilisateurs externes à participer à des réunions locales.</span><span class="sxs-lookup"><span data-stu-id="91f32-105">The **Web Conferencing external FQDN** permits external users to join on-premises meetings.</span></span> <span data-ttu-id="91f32-106">Entrez le nom de domaine complet (FQDN) de l’interface externe de conférence Web du serveur Edge hérité.</span><span class="sxs-lookup"><span data-stu-id="91f32-106">Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server.</span></span>
+<span data-ttu-id="4d315-p102">Le **Nom de domaine complet externe de conférence Web** permet à des utilisateurs externes de participer à des réunions sur site. Entrez le nom de domaine complet (FQDN) de l'interface de conférence Web externe du serveur Edge hérité.</span><span class="sxs-lookup"><span data-stu-id="4d315-p102">The **Web Conferencing external FQDN** permits external users to join on-premises meetings. Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server.</span></span>
 
-<span data-ttu-id="91f32-107">La valeur de **port externe de conférence Web externe** de **443** est le port SIP (Session Initiation Protocol) par défaut configuré pour les clients de conférence.</span><span class="sxs-lookup"><span data-stu-id="91f32-107">The **External Web Conferencing external port** value of **443** is the default Transmission Control Protocol (TCP) Session Initiation Protocol (SIP) port configured for conferencing clients.</span></span> <span data-ttu-id="91f32-108">Si la valeur par défaut n’a pas été utilisée, mettez à jour la valeur **port externe de conférence Web externe** .</span><span class="sxs-lookup"><span data-stu-id="91f32-108">If the default value was not used, update the **External Web Conferencing external port** value.</span></span>
+<span data-ttu-id="4d315-p103">La valeur **443** du **Port externe de conférence Web externe** est le port TCP SIP (Transmission Control Protocol Session Initiation Protocol) configuré par défaut pour les clients de conférences. Si la valeur par défaut n'est pas utilisée, mettez à jour la valeur du **Port externe de conférence Web externe**.</span><span class="sxs-lookup"><span data-stu-id="4d315-p103">The **External Web Conferencing external port** value of **443** is the default Transmission Control Protocol (TCP) Session Initiation Protocol (SIP) port configured for conferencing clients. If the default value was not used, update the **External Web Conferencing external port** value.</span></span>
 
-<span data-ttu-id="91f32-109">Activez la case à cocher **ce pool Edge est utilisé pour la connectivité de Fédération et de messagerie instantanée publique** si vous prévoyez d’utiliser ce serveur Edge pour la Fédération.</span><span class="sxs-lookup"><span data-stu-id="91f32-109">Select the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use this Edge Server for federation.</span></span> <span data-ttu-id="91f32-110">Si vous avez déployé plusieurs serveurs Edge, seul l’un d’eux sera activé pour la Fédération.</span><span class="sxs-lookup"><span data-stu-id="91f32-110">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="91f32-111">Si vous n’activez pas cette case à cocher et que vous décidez par la suite d’activer la Fédération, vous devez exécuter de nouveau l’Assistant Fusion du générateur de topologie, et publier votre topologie.</span><span class="sxs-lookup"><span data-stu-id="91f32-111">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard again, as well as publish your topology.</span></span> <span data-ttu-id="91f32-112">Pour plus d’informations, voir [phase 4 : fusionner des topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span><span class="sxs-lookup"><span data-stu-id="91f32-112">For details, see [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span></span>
+<span data-ttu-id="4d315-109">Activez la case à cocher **Ce serveur Edge d’accès est utilisé pour la fédération et la solution PIC** si vous planifiez d’utiliser ce serveur Edge pour la fédération.</span><span class="sxs-lookup"><span data-stu-id="4d315-109">Select the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use this Edge Server for federation.</span></span> <span data-ttu-id="4d315-110">Si vous disposez d’un déploiement de plusieurs serveurs Edge, un seul d’entre eux sera activé pour la fédération.</span><span class="sxs-lookup"><span data-stu-id="4d315-110">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="4d315-111">Si vous n’activez pas cette case à cocher et que vous décidez d’activer une fédération ultérieurement, vous devez exécuter de nouveau l’Assistant Fusion du Générateur de topologies et publier votre topologie.</span><span class="sxs-lookup"><span data-stu-id="4d315-111">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard again, as well as publish your topology.</span></span> <span data-ttu-id="4d315-112">Pour plus d’informations, voir [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span><span class="sxs-lookup"><span data-stu-id="4d315-112">For details, see [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span></span>
 
 

@@ -1,7 +1,7 @@
 ---
-title: Installation et test de Skype Entreprise pour iOS
-ms.author: v-lanac
-author: lanachin
+title: Installer et tester Skype Entreprise pour iOS
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -11,64 +11,64 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 'Résumé : comment installer et tester l’application Skype entreprise pour iOS.'
-ms.openlocfilehash: b494048a3502f668062ab63435ba7ffeaecbb4ab
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Résumé : Comment installer et tester l’application Skype Entreprise pour iOS.'
+ms.openlocfilehash: d05c95230d23e3b223fb79edb0bc88b9dcf944bd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768937"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805814"
 ---
-# <a name="install-and-test-skype-for-business-for-ios"></a><span data-ttu-id="21b65-103">Installation et test de Skype Entreprise pour iOS</span><span class="sxs-lookup"><span data-stu-id="21b65-103">Install and test Skype for Business for iOS</span></span>
+# <a name="install-and-test-skype-for-business-for-ios"></a><span data-ttu-id="4dbb5-103">Installer et tester Skype Entreprise pour iOS</span><span class="sxs-lookup"><span data-stu-id="4dbb5-103">Install and test Skype for Business for iOS</span></span>
  
-<span data-ttu-id="21b65-104">**Résumé :** Comment installer et tester l’application Skype entreprise pour iOS.</span><span class="sxs-lookup"><span data-stu-id="21b65-104">**Summary:** How to install and test the Skype for Business for iOS app.</span></span>
+<span data-ttu-id="4dbb5-104">**Résumé :** Comment installer et tester l’application Skype Entreprise pour iOS.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-104">**Summary:** How to install and test the Skype for Business for iOS app.</span></span>
   
-<span data-ttu-id="21b65-105">L’application Skype entreprise pour iOS permet de bénéficier de la présence, de la messagerie instantanée (mi) et des appels audio et vidéo de Skype entreprise sur les appareils iOS.</span><span class="sxs-lookup"><span data-stu-id="21b65-105">The Skype for Business for iOS app brings Skype for Business presence, instant messaging (IM), and voice and video calling to iOS devices.</span></span> <span data-ttu-id="21b65-106">Les utilisateurs de Lync 2013 obtiendront l’application mise à jour automatiquement ou seront invités à faire la mise à jour manuellement, selon leurs paramètres utilisateur.</span><span class="sxs-lookup"><span data-stu-id="21b65-106">Users with Lync 2013 will either get the updated app automatically or be prompted to update it manually, depending on their user settings.</span></span> <span data-ttu-id="21b65-107">Les nouveaux utilisateurs peuvent la télécharger sur l’App Store d’Apple.</span><span class="sxs-lookup"><span data-stu-id="21b65-107">New users can download it from the Apple App Store.</span></span> <span data-ttu-id="21b65-108">L’application Skype entreprise pour iOS n’est disponible que sur les versions iOS 8,0 et ultérieures.</span><span class="sxs-lookup"><span data-stu-id="21b65-108">The Skype for Business for iOS app is only available on iOS versions 8.0 and later.</span></span>
+<span data-ttu-id="4dbb5-105">L’application Skype Entreprise pour iOS présente Skype Entreprise, la messagerie instantanée et les appels vocaux et vidéo aux appareils iOS.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-105">The Skype for Business for iOS app brings Skype for Business presence, instant messaging (IM), and voice and video calling to iOS devices.</span></span> <span data-ttu-id="4dbb5-106">Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-106">Users with Lync 2013 will either get the updated app automatically or be prompted to update it manually, depending on their user settings.</span></span> <span data-ttu-id="4dbb5-107">Les nouveaux utilisateurs peuvent le télécharger à partir de l’App Store d’Apple.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-107">New users can download it from the Apple App Store.</span></span> <span data-ttu-id="4dbb5-108">L’application Skype Entreprise pour iOS est disponible uniquement sur les versions iOS 8.0 et ultérieures.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-108">The Skype for Business for iOS app is only available on iOS versions 8.0 and later.</span></span>
   
-## <a name="installing-skype-for-business-for-ios"></a><span data-ttu-id="21b65-109">Installation de Skype entreprise pour iOS</span><span class="sxs-lookup"><span data-stu-id="21b65-109">Installing Skype for Business for iOS</span></span>
+## <a name="installing-skype-for-business-for-ios"></a><span data-ttu-id="4dbb5-109">Installation de Skype Entreprise pour iOS</span><span class="sxs-lookup"><span data-stu-id="4dbb5-109">Installing Skype for Business for iOS</span></span>
 
-1. <span data-ttu-id="21b65-110">Sur votre appareil iOS, appuyez sur **App Store**et recherchez **Skype entreprise pour iOS**.</span><span class="sxs-lookup"><span data-stu-id="21b65-110">From your iOS device, tap **App Store**, and search for **Skype for Business for iOS**.</span></span>
+1. <span data-ttu-id="4dbb5-110">À partir de votre appareil iOS, appuyez **sur App Store** et recherchez Skype Entreprise pour **iOS.**</span><span class="sxs-lookup"><span data-stu-id="4dbb5-110">From your iOS device, tap **App Store**, and search for **Skype for Business for iOS**.</span></span>
     
-2. <span data-ttu-id="21b65-111">Appuyez sur **Télécharger** > **ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="21b65-111">Tap **Download** > **Open**.</span></span> 
+2. <span data-ttu-id="4dbb5-111">Appuyez **sur**  >  **Télécharger Ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-111">Tap **Download** > **Open**.</span></span> 
     
-3. <span data-ttu-id="21b65-112">Connectez-vous à l’application.</span><span class="sxs-lookup"><span data-stu-id="21b65-112">Sign in to the app.</span></span>
+3. <span data-ttu-id="4dbb5-112">Connectez-vous à l’application.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-112">Sign in to the app.</span></span>
     
-## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="21b65-113">Vérification de l’installation du client mobile</span><span class="sxs-lookup"><span data-stu-id="21b65-113">Verifying mobile client installation</span></span>
+## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="4dbb5-113">Vérification de l’installation du client mobile</span><span class="sxs-lookup"><span data-stu-id="4dbb5-113">Verifying mobile client installation</span></span>
 
-<span data-ttu-id="21b65-114">Après vous être connecté, utilisez les tests suivants pour vérifier le fonctionnement correct de votre installation de Skype entreprise sur votre appareil iOS.</span><span class="sxs-lookup"><span data-stu-id="21b65-114">After you sign in successfully, use the following tests to verify that your Skype for Business installation is working correctly on your iOS device.</span></span> 
+<span data-ttu-id="4dbb5-114">Une fois que vous êtes connecté, utilisez les tests suivants pour vérifier que votre installation de Skype Entreprise fonctionne correctement sur votre appareil iOS.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-114">After you sign in successfully, use the following tests to verify that your Skype for Business installation is working correctly on your iOS device.</span></span> 
   
-### <a name="search-for-a-contact-in-the-corporate-directory"></a><span data-ttu-id="21b65-115">Recherche d’un contact dans l’annuaire d’entreprise</span><span class="sxs-lookup"><span data-stu-id="21b65-115">Search for a contact in the corporate directory</span></span>
+### <a name="search-for-a-contact-in-the-corporate-directory"></a><span data-ttu-id="4dbb5-115">Rechercher un contact dans l’annuaire d’entreprise</span><span class="sxs-lookup"><span data-stu-id="4dbb5-115">Search for a contact in the corporate directory</span></span>
 
-1. <span data-ttu-id="21b65-116">Dans la liste Contacts, tapez dans la barre de recherche affichée en haut et commencez à taper le nom d’un contact qui existe uniquement dans la liste d’adresses global.</span><span class="sxs-lookup"><span data-stu-id="21b65-116">In the Contacts list, tap inside the search bar at the top, and begin typing the name of a contact that exists only in the global address list (GAL).</span></span> 
+1. <span data-ttu-id="4dbb5-116">Dans la liste Contacts, tapez dans la barre de recherche affichée en haut et commencez à taper le nom d’un contact qui existe uniquement dans la liste d’adresses global.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-116">In the Contacts list, tap inside the search bar at the top, and begin typing the name of a contact that exists only in the global address list (GAL).</span></span> 
     
-2. <span data-ttu-id="21b65-117">Vérifiez que le nom du contact figure dans les résultats de la recherche.</span><span class="sxs-lookup"><span data-stu-id="21b65-117">Verify that the contact name appears in the search results.</span></span> 
+2. <span data-ttu-id="4dbb5-117">Vérifiez que le nom du contact figure dans les résultats de la recherche.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-117">Verify that the contact name appears in the search results.</span></span> 
     
-### <a name="test-instant-messaging-and-presence"></a><span data-ttu-id="21b65-118">Test de la messagerie instantanée et de la présence</span><span class="sxs-lookup"><span data-stu-id="21b65-118">Test instant messaging and presence</span></span>
+### <a name="test-instant-messaging-and-presence"></a><span data-ttu-id="4dbb5-118">Tester la messagerie instantanée et la présence</span><span class="sxs-lookup"><span data-stu-id="4dbb5-118">Test instant messaging and presence</span></span>
 
-1. <span data-ttu-id="21b65-119">Dans la liste Contacts, tapez sur un contact.</span><span class="sxs-lookup"><span data-stu-id="21b65-119">In the Contacts list, tap a contact.</span></span> 
+1. <span data-ttu-id="4dbb5-119">Dans la liste Contacts, tapez sur un contact.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-119">In the Contacts list, tap a contact.</span></span> 
     
-2. <span data-ttu-id="21b65-120">Vérifiez qu’une fenêtre de messagerie instantanée apparaît et que vous pouvez taper et envoyer un message instantané.</span><span class="sxs-lookup"><span data-stu-id="21b65-120">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span> 
+2. <span data-ttu-id="4dbb5-120">Vérifiez qu’une fenêtre de messagerie instantanée s’affiche et que vous pouvez taper et envoyer un message instantané.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-120">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span> 
     
-### <a name="test-dial-out-conferencing"></a><span data-ttu-id="21b65-121">Test de la conférence rendez-vous</span><span class="sxs-lookup"><span data-stu-id="21b65-121">Test dial-out conferencing</span></span>
+### <a name="test-dial-out-conferencing"></a><span data-ttu-id="4dbb5-121">Tester la conférence rendez-vous</span><span class="sxs-lookup"><span data-stu-id="4dbb5-121">Test dial-out conferencing</span></span>
 
-1. <span data-ttu-id="21b65-122">Dans Outlook, planifiez une réunion Skype entreprise.</span><span class="sxs-lookup"><span data-stu-id="21b65-122">In Outlook, schedule a Skype for Business meeting.</span></span> 
+1. <span data-ttu-id="4dbb5-122">Dans Outlook, planifier une réunion Skype Entreprise.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-122">In Outlook, schedule a Skype for Business meeting.</span></span> 
     
-2. <span data-ttu-id="21b65-123">Sur l’appareil mobile, ouvrez l’invitation à la réunion.</span><span class="sxs-lookup"><span data-stu-id="21b65-123">On the mobile device, open the meeting invitation.</span></span> 
+2. <span data-ttu-id="4dbb5-123">Sur l’appareil mobile, ouvrez l’invitation à la réunion.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-123">On the mobile device, open the meeting invitation.</span></span> 
     
-3. <span data-ttu-id="21b65-124">Cliquez sur le bouton **Rejoindre la réunion**.</span><span class="sxs-lookup"><span data-stu-id="21b65-124">Click the **Join Meeting** button.</span></span>
+3. <span data-ttu-id="4dbb5-124">Cliquez sur le **bouton Rejoindre la** réunion.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-124">Click the **Join Meeting** button.</span></span>
     
-4. <span data-ttu-id="21b65-125">Répondez à l’appel du service de conférence et vérifiez que vous êtes connecté au système audio de la réunion.</span><span class="sxs-lookup"><span data-stu-id="21b65-125">Answer the call from the conference service and verify that you are connected to the meeting audio.</span></span> 
+4. <span data-ttu-id="4dbb5-125">Répondez à l’appel du service de conférence et vérifiez que vous êtes connecté à la réunion audio.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-125">Answer the call from the conference service and verify that you are connected to the meeting audio.</span></span> 
     
-### <a name="test-push-notifications"></a><span data-ttu-id="21b65-126">Test des notifications Push</span><span class="sxs-lookup"><span data-stu-id="21b65-126">Test push notifications</span></span>
+### <a name="test-push-notifications"></a><span data-ttu-id="4dbb5-126">Tester les notifications de type push</span><span class="sxs-lookup"><span data-stu-id="4dbb5-126">Test push notifications</span></span>
 
-1. <span data-ttu-id="21b65-127">Sur l’appareil mobile de l’utilisateur, connectez-vous à Skype entreprise avec le compte de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="21b65-127">On user A's mobile device, sign in to Skype for Business with user A's account.</span></span> 
+1. <span data-ttu-id="4dbb5-127">Sur l’appareil mobile de l’utilisateur A, connectez-vous à Skype Entreprise avec le compte de l’utilisateur A.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-127">On user A's mobile device, sign in to Skype for Business with user A's account.</span></span> 
     
-2. <span data-ttu-id="21b65-128">Ouvrez une autre application sur l’appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="21b65-128">Open another application on the mobile device.</span></span> 
+2. <span data-ttu-id="4dbb5-128">Ouvrez une autre application sur l’appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-128">Open another application on the mobile device.</span></span> 
     
-3. <span data-ttu-id="21b65-129">Sur un autre client, connectez-vous à Skype entreprise avec le compte de l’utilisateur B.</span><span class="sxs-lookup"><span data-stu-id="21b65-129">On a different client, sign in to Skype for Business with user B's account.</span></span> 
+3. <span data-ttu-id="4dbb5-129">Sur un autre client, connectez-vous à Skype Entreprise avec le compte de l’utilisateur B.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-129">On a different client, sign in to Skype for Business with user B's account.</span></span> 
     
-4. <span data-ttu-id="21b65-130">Envoyez un message instantané de l’utilisateur B à l’utilisateur A.</span><span class="sxs-lookup"><span data-stu-id="21b65-130">Send an IM from user B to user A.</span></span> 
+4. <span data-ttu-id="4dbb5-130">Envoyez un message instantané de l’utilisateur B à l’utilisateur A.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-130">Send an IM from user B to user A.</span></span> 
     
-5. <span data-ttu-id="21b65-131">Vérifiez que la notification de message instantané apparaît sur l’appareil mobile de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="21b65-131">Verify that the IM notification appears on user A's mobile device.</span></span> 
+5. <span data-ttu-id="4dbb5-131">Vérifiez que la notification de messagerie instantanée s’affiche sur l’appareil mobile de l’utilisateur A.</span><span class="sxs-lookup"><span data-stu-id="4dbb5-131">Verify that the IM notification appears on user A's mobile device.</span></span> 
     
 
