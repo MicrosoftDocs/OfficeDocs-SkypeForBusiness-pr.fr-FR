@@ -1,8 +1,8 @@
 ---
-title: Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise
+title: (Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,42 +12,42 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.
-ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767317"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830984"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a><span data-ttu-id="62259-103">Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise</span><span class="sxs-lookup"><span data-stu-id="62259-103">(Optional) Define Response Group holiday sets in Skype for Business</span></span>
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a><span data-ttu-id="1c9c1-103">(Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="1c9c1-103">(Optional) Define Response Group holiday sets in Skype for Business</span></span>
  
-<span data-ttu-id="62259-104">Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.</span><span class="sxs-lookup"><span data-stu-id="62259-104">Create or modify Response Group holiday sets, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="1c9c1-104">Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.</span><span class="sxs-lookup"><span data-stu-id="1c9c1-104">Create or modify Response Group holiday sets, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="62259-p101">Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés, qui s’applique à un groupe Response Group.</span><span class="sxs-lookup"><span data-stu-id="62259-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
+<span data-ttu-id="1c9c1-p101">Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés qui s’applique à un groupe Response Group.</span><span class="sxs-lookup"><span data-stu-id="1c9c1-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="62259-107">Si un flux de travail est défini en tant que flux de travail géré, tout utilisateur auquel est affecté le rôle CsResponseGroupManager peut définir et modifier les congés des flux de travail dont il assure la gestion.</span><span class="sxs-lookup"><span data-stu-id="62259-107">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span> 
+> <span data-ttu-id="1c9c1-107">Si un flux de travail est défini en tant que flux de travail géré, tout utilisateur auquel est affecté le rôle CsResponseGroupManager peut définir et modifier les congés des flux de travail dont il assure la gestion.</span><span class="sxs-lookup"><span data-stu-id="1c9c1-107">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span> 
   
-### <a name="to-create-a-holiday-set"></a><span data-ttu-id="62259-108">Pour créer une période de congés</span><span class="sxs-lookup"><span data-stu-id="62259-108">To create a holiday set</span></span>
+### <a name="to-create-a-holiday-set"></a><span data-ttu-id="1c9c1-108">Pour créer une période de congé</span><span class="sxs-lookup"><span data-stu-id="1c9c1-108">To create a holiday set</span></span>
 
-1. <span data-ttu-id="62259-109">Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.</span><span class="sxs-lookup"><span data-stu-id="62259-109">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1. <span data-ttu-id="1c9c1-109">Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.</span><span class="sxs-lookup"><span data-stu-id="1c9c1-109">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
     
-2. <span data-ttu-id="62259-110">Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="62259-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="1c9c1-110">Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**</span><span class="sxs-lookup"><span data-stu-id="1c9c1-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="62259-111">Pour chaque congé que vous souhaitez définir, exécutez :</span><span class="sxs-lookup"><span data-stu-id="62259-111">For each holiday you want to define, run:</span></span>
+3. <span data-ttu-id="1c9c1-111">Pour chaque congé que vous souhaitez définir, exécutez :</span><span class="sxs-lookup"><span data-stu-id="1c9c1-111">For each holiday you want to define, run:</span></span>
     
    ```powershell
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
-    <span data-ttu-id="62259-112">Pour créer la période de congés contenant les congés définis, exécutez :</span><span class="sxs-lookup"><span data-stu-id="62259-112">To create the holiday set that contains the holidays you defined, run:</span></span>
+    <span data-ttu-id="1c9c1-112">Pour créer la période de congé contenant les congés définis, exécutez :</span><span class="sxs-lookup"><span data-stu-id="1c9c1-112">To create the holiday set that contains the holidays you defined, run:</span></span>
     
    ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
-    <span data-ttu-id="62259-113">L’exemple ci-dessous présente une période de congés incluant deux congés :</span><span class="sxs-lookup"><span data-stu-id="62259-113">The following example shows a holiday set that includes two holidays:</span></span>
+    <span data-ttu-id="1c9c1-113">L’exemple suivant présente une période de congé incluant deux congés :</span><span class="sxs-lookup"><span data-stu-id="1c9c1-113">The following example shows a holiday set that includes two holidays:</span></span>
     
    ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
@@ -55,10 +55,10 @@ ms.locfileid: "41767317"
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a><span data-ttu-id="62259-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="62259-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1c9c1-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1c9c1-114">See also</span></span>
 
-[<span data-ttu-id="62259-115">Conception et création de flux de travail de groupe de réponse dans Skype entreprise</span><span class="sxs-lookup"><span data-stu-id="62259-115">Designing and creating response group workflows in Skype for Business</span></span>](designing-and-creating-response-group-workflows.md)
+[<span data-ttu-id="1c9c1-115">Conception et création de flux de travail Response Group dans Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="1c9c1-115">Designing and creating response group workflows in Skype for Business</span></span>](designing-and-creating-response-group-workflows.md)
 
-[<span data-ttu-id="62259-116">Nouveau-CsRgsHoliday</span><span class="sxs-lookup"><span data-stu-id="62259-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[<span data-ttu-id="1c9c1-116">New-CsRgsHoliday</span><span class="sxs-lookup"><span data-stu-id="1c9c1-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[<span data-ttu-id="62259-117">New-CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="62259-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[<span data-ttu-id="1c9c1-117">New-CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="1c9c1-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

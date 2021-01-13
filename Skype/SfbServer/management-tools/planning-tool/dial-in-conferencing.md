@@ -1,31 +1,32 @@
 ---
 title: Dial-in Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Dialin
+- ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Les conférences rendez-vous Skype entreprise Server 2015 permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server 2015 à l’aide d’un téléphone réseau téléphonique commuté (PSTN) sans nécessiter un fournisseur de services d’audioconférence tiers.
-ms.openlocfilehash: e8116ed6379746f246169f11bf00010e0a9b7d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Entreprise Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.
+ms.openlocfilehash: c8dad384bb09dfe511cb875846ada1fcd7fb784f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816483"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834944"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="8e7ef-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8e7ef-103">Dial-in Conferencing (Planning Tool)</span></span>
+# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="3710b-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="3710b-103">Dial-in Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="8e7ef-104">Les conférences rendez-vous Skype entreprise Server 2015 permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server 2015 à l’aide d’un téléphone réseau téléphonique commuté (PSTN) sans nécessiter un fournisseur de services d’audioconférence tiers.</span><span class="sxs-lookup"><span data-stu-id="8e7ef-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
+<span data-ttu-id="3710b-104">Skype Entreprise Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span><span class="sxs-lookup"><span data-stu-id="3710b-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
   
-<span data-ttu-id="8e7ef-105">Pour des informations sur la planification de l’activation de la conférence rendez-vous dans votre organisation, consultez la rubrique suivante et les rubriques auxquelles elle renvoie :</span><span class="sxs-lookup"><span data-stu-id="8e7ef-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
+<span data-ttu-id="3710b-105">Pour plus d’informations sur la planification de l’activation de la conférence rendez-vous pour votre organisation, consultez les rubriques suivantes et les rubriques vers qui il est lié :</span><span class="sxs-lookup"><span data-stu-id="3710b-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
   
-- [<span data-ttu-id="8e7ef-106">Plan for conferencing in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="8e7ef-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="3710b-106">Planifier la conférence dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="3710b-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 

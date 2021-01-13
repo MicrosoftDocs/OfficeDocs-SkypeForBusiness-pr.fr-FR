@@ -1,8 +1,8 @@
 ---
-title: Tableau de tâches
+title: Tableau des tâches
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
-description: La table de tâches est réservée à un usage interne. Ce tableau a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: e72cf75fbff2574695632125c6f593b83fdf3d7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table Task est réservée à un usage interne. Ce tableau a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 3d27a0e3d9ba1eb4acb25b493dc268279dbad105
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814862"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831724"
 ---
-# <a name="task-table"></a><span data-ttu-id="2b7f8-104">Tableau de tâches</span><span class="sxs-lookup"><span data-stu-id="2b7f8-104">Task table</span></span>
+# <a name="task-table"></a><span data-ttu-id="c66a5-104">Tableau des tâches</span><span class="sxs-lookup"><span data-stu-id="c66a5-104">Task table</span></span>
  
-<span data-ttu-id="2b7f8-105">La table de tâches est réservée à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="2b7f8-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="2b7f8-106">Ce tableau a été présenté dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2b7f8-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="c66a5-105">La table Task est réservée à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="c66a5-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="c66a5-106">Ce tableau a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c66a5-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
-title: Résoudre les problèmes de votre infrastructure de base pour Skype entreprise Server
+title: Gestion des menaces pour votre infrastructure principale pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: En plus des meilleures pratiques en matière de déploiement de Skype entreprise Server, vous pouvez vous assurer que vous devez vous assurer de la sécurité en passant en revue, en maîtrisant et en répondant aux besoins spécifiques de votre déploiement.
-ms.openlocfilehash: f48eac3393875c7ffbd7be93ca5f1e4568e0021f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En plus de suivre les meilleures pratiques pour votre déploiement de Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en examiner, comprendre et répondre à tous les besoins dans des domaines spécifiques de votre déploiement.
+ms.openlocfilehash: d959b20bed51e5c496f70cb107f5bd32670b8449
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815702"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832274"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="5066d-103">Résoudre les problèmes de votre infrastructure de base pour Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="5066d-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="3b7f1-103">Gestion des menaces pour votre infrastructure principale pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="3b7f1-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="5066d-104">En plus des meilleures pratiques en matière de déploiement de Skype entreprise Server, vous pouvez vous assurer que vous devez vous assurer de la sécurité en passant en revue, en maîtrisant et en répondant aux besoins spécifiques de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="5066d-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="3b7f1-104">En plus de suivre les meilleures pratiques pour votre déploiement de Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en examiner, comprendre et répondre à tous les besoins dans des domaines spécifiques de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="3b7f1-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="5066d-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="5066d-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3b7f1-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="3b7f1-105">In this section</span></span>
 
-- [<span data-ttu-id="5066d-106">Recommandations en matière d’infrastructure principale dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="5066d-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
+- [<span data-ttu-id="3b7f1-106">Meilleures pratiques pour votre infrastructure principale dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="3b7f1-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 
