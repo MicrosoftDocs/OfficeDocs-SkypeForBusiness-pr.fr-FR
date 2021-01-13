@@ -1,8 +1,8 @@
 ---
-title: Règle de traduction création d’un nouveau ou modification existante
+title: 'Règle de traduction : création d’une règle ou modification d’une règle existante'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: ea8445ec6512a8a9f04e6fd967c67bca370d8866
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: 3e516775ea9b8d0feaf35b32e84d6656aab59a2f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821946"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818864"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a>Règle de conversion : en créer une autre ou en modifier une existante
+# <a name="translation-rule-create-new-or-edit-existing"></a>Règle de traduction : création d’une nouvelle ou modification d’une règle existante
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Création ou modification manuelle d’une règle de traduction](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Créer ou modifier manuellement une règle de traduction](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
 

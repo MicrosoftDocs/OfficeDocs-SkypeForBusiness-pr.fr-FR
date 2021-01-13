@@ -1,8 +1,8 @@
 ---
 title: Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,35 +14,35 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
-description: Vous configurez les magasins SQL Server de conformité de sauvegarde qui fourniront des bases de données de sauvegarde pour le serveur de conversation permanente ou les magasins SQL Server de conformité du serveur de conversation permanente.
-ms.openlocfilehash: 9251c322560d06652c4eefe80b6c05a51aa9f922
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Vous configurez les magasins de conformité SQL Server sauvegarde qui fourniront des bases de données de sauvegarde pour les magasins de conformité du serveur de conversation permanente ou du serveur de SQL Server de conversation permanente.
+ms.openlocfilehash: 9b380091978d62294c6ea16ffa8586b9f8d9d322
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218695"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818714"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
  
-Vous configurez les magasins SQL Server de conformité de sauvegarde qui fourniront des bases de données de sauvegarde pour le serveur de conversation permanente ou les magasins SQL Server de conformité du serveur de conversation permanente.
+Vous configurez les magasins de conformité SQL Server sauvegarde qui fourniront des bases de données de sauvegarde pour les magasins de conformité du serveur de conversation permanente ou du serveur de SQL Server de conversation permanente.
   
- **Magasin SQL Server**: sélectionnez un serveur SQL Server existant et, éventuellement, une instance pour la conversation permanente.
+ **SQL Server :** sélectionnez un SQL Server existant et éventuellement une instance pour la conversation permanente.
   
-Cliquez sur **nouveau** pour définir un nouveau serveur SQL Server et éventuellement une nouvelle instance pour les données de conformité de la sauvegarde de conversation permanente.
+Cliquez **sur Nouveau** pour définir une nouvelle SQL Server et éventuellement une nouvelle instance pour les données de conformité de sauvegarde de conversation permanente.
   
-Activez la case à cocher **activer la mise en miroir du magasin SQL Server** pour configurer une base de données SQL Server et une instance facultative qui fournira une base de données mise en miroir pour les données de conformité de la sauvegarde de conversation permanente.
+Activez la case **à cocher Activer SQL Server** de mise en miroir pour configurer une base de données SQL Server et une instance facultative qui fournira une base de données en miroir pour les données de conformité de sauvegarde de conversation permanente.
   
-Dans la liste **magasin SQL Server de mise en miroir** , sélectionnez un serveur SQL Server et une instance facultative pour agir en tant que miroir SQL Server pour le serveur SQL Server de conformité de la sauvegarde de conversation permanente.
+Dans la liste Mise en **miroir, SQL Server** stockez une instance SQL Server et facultative pour agir en tant que miroir SQL Server pour le service de conformité de la SQL Server.
   
-Cliquez sur **nouveau** pour définir un nouveau serveur SQL Server et éventuellement une nouvelle instance pour la mise en miroir SQL Server de conversation permanente.
+Cliquez **sur** Nouveau pour définir une nouvelle SQL Server et éventuellement une nouvelle instance pour la mise en miroir SQL Server conversation permanente.
   
-Sélectionnez la liste **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** un serveur SQL qui fera office de serveur témoin dans les scénarios de basculement. Le serveur témoin ne met pas en miroir ou n’héberge pas de données pour les serveurs de conversation permanente, mais garantit qu’un seul serveur SQL Server dans une configuration mise en miroir est le serveur SQL actif à tout moment.
+Sélectionnez la liste Utiliser **SQL Server** témoin de mise en miroir pour activer le SQL Server automatique qui agit en tant que serveur témoin dans les scénarios de failover. Le serveur témoin ne reflète pas ou n’héberge pas de données pour les serveurs de conversation permanente, mais s’assure qu’une seule SQL Server dans une configuration en miroir est la SQL Server active à tout moment.
   
-Cliquez sur **nouveau** pour définir un nouveau témoin SQL Server, éventuellement une instance pour le témoin de mise en miroir SQL Server de la sauvegarde de la conversation permanente.
+Cliquez **sur Nouveau** pour définir un nouveau témoin SQL Server éventuellement une instance pour le témoin de mise en miroir de la SQL Server de conversation permanente.
   
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   
-Une fois que vous avez terminé d’entrer les options pour la configuration du magasin SQL Server de sauvegarde de ce pool, cliquez sur **suivant** pour continuer la définition du pool de serveurs de conversation permanente.
+Cliquez **sur** Suivant une fois que vous avez terminé d’entrer les options pour la configuration du magasin de SQL Server de sauvegarde de ce pool et pour passer à la définition du pool de serveurs de conversation permanente.
   
 Cliquez sur **Annuler** pour ignorer toutes les modifications et mettre fin à l’Assistant **Définir un nouveau pool de conversations permanentes**.
   
@@ -50,12 +50,12 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier le serveur de conversation permanente dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planifier le serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Configuration requise pour le serveur pour Skype entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configurer le service de conformité pour le serveur de conversation permanente dans Skype entreprise Server 2015](../../manage/persistent-chat/configure-compliance.md)
+[Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../manage/persistent-chat/configure-compliance.md)
   
-[Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

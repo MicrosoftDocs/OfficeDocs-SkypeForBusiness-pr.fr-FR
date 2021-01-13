@@ -1,7 +1,7 @@
 ---
-title: Gérer les stratégies d’équipes dans Microsoft teams
-author: lanachin
-ms.author: v-lanac
+title: Gérer les stratégies teams dans Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,49 +23,49 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Découvrez comment utiliser et gérer les stratégies d’équipe dans votre organisation pour contrôler ce que les utilisateurs peuvent faire dans les équipes et les canaux.
-ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+description: Découvrez comment utiliser et gérer les stratégies d’équipes dans votre organisation pour contrôler ce que les utilisateurs peuvent faire dans les équipes et les canaux.
+ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772024"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802364"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft teams
+# <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies teams dans Microsoft Teams
 
-En tant qu’administrateur, vous pouvez utiliser les stratégies d’équipe de Microsoft teams pour contrôler ce que peuvent faire les utilisateurs de votre organisation dans les équipes et les canaux. Par exemple, vous pouvez définir si les utilisateurs sont autorisés à créer des canaux privés.
+En tant qu’administrateur, vous pouvez utiliser les stratégies Teams dans Microsoft Teams pour contrôler ce que les utilisateurs de votre organisation peuvent faire dans les équipes et les canaux. Par exemple, vous pouvez définir si les utilisateurs sont autorisés à créer des canaux privés.
 
-Pour gérer les stratégies d’équipe, **accédez à stratégies teams teams**  >   dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
+Pour gérer les stratégies d’équipe, vous devez vous rendre **sur**  >  **Stratégies Teams** dans le Centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
-Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie personnalisée. Après avoir modifié la stratégie globale ou affecté une stratégie, plusieurs heures peuvent être nécessaires pour que les modifications prennent effet.
+Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie personnalisée. Une fois que vous avez modifié la stratégie globale ou attribué une stratégie, l’application des modifications peut prendre quelques heures.
 
 ## <a name="create-a-custom-teams-policy"></a>Créer une stratégie d’équipe personnalisée
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à  >  **Stratégies Teams.**
 2. Cliquez sur **Ajouter**.
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 
-    ![Capture d’écran des paramètres de stratégie d’équipe](media/teams-policies.png)
-4. Activez ou désactivez l’option créer des <a name="createchannels"></a> **canaux privés**, selon que vous souhaitez autoriser les utilisateurs à créer des canaux privés.
+    ![Capture d’écran des paramètres de stratégie Teams](media/teams-policies.png)
+4. Activer ou désactiver la création <a name="createchannels"></a> de canaux **privés,** selon que vous voulez autoriser ou non les utilisateurs à créer des canaux privés.
 
 5. Cliquez sur **Enregistrer**.
 
-## <a name="edit-a-teams-policy"></a>Modifier une stratégie d’équipe
+## <a name="edit-a-teams-policy"></a>Modifier une stratégie Teams
 
 Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à**  >  **stratégies teams**.
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
-3. Activez ou désactivez les paramètres souhaités, puis cliquez sur **Enregistrer**.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à  >  **Stratégies Teams.**
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **Modifier.**
+3. Activer ou désactiver les paramètres de votre souhaitez, puis cliquez sur **Enregistrer.**
 
-## <a name="assign-a-custom-teams-policy-to-users"></a>Attribuer une stratégie d’équipe personnalisée aux utilisateurs
+## <a name="assign-a-custom-teams-policy-to-users"></a>Affecter une stratégie d’équipe personnalisée aux utilisateurs
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Canaux privés dans teams](private-channels.md)
+[Canaux privés dans Teams](private-channels.md)
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
 
-[Nouveau-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

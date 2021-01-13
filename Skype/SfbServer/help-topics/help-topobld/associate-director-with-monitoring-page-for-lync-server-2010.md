@@ -1,8 +1,8 @@
 ---
 title: Page Associer un directeur au serveur de surveillance pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
-description: 'Pour configurer un serveur de surveillance et l’associer au directeur ou au pool Directeur :'
-ms.openlocfilehash: dc9344066376666e1c5ed33197f570f12374d20e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Pour configurer un serveur de surveillance et l’associer au directeur ou au pool directeur :'
+ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217805"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818574"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Page Associer un directeur au serveur de surveillance pour Lync Server 2010
  
-Pour configurer un serveur de surveillance et l’associer au directeur ou au pool Directeur :
+Pour configurer un serveur de surveillance et l’associer au directeur ou au pool directeur :
   
-Sous **serveur de surveillance** , sélectionnez dans la liste un serveur de surveillance.
+Sous **Serveur de surveillance,** sélectionnez un serveur de surveillance dans la liste.
   
-S’il n’y a pas de serveur de surveillance et que vous souhaitez créer un serveur de surveillance maintenant, cliquez sur **nouveau**.
+S’il n’existe aucun serveur de surveillance et que vous souhaitez créer un serveur de surveillance maintenant, cliquez sur **Nouveau**.
   
  **Précédent** : renvoie à la boîte de dialogue précédente
   

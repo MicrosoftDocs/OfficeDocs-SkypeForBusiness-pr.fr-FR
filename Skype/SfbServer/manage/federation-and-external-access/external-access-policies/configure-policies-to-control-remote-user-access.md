@@ -1,12 +1,12 @@
 ---
-title: Configuration des stratégies de contrôle d’accès des utilisateurs distants
+title: Configuration des stratégies pour contrôler l’accès des utilisateurs distants
 ms.reviewer: ''
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,56 +14,56 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs distants peuvent collaborer avec des utilisateurs de Skype entreprise Server internes. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau du site, du site et de l’utilisateur.
-ms.openlocfilehash: 7735f15e61654f55a70f18ca032cd6b1613fec58
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs distants peuvent collaborer avec des utilisateurs internes de Skype Entreprise Server. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau global, du site et de l’utilisateur.
+ms.openlocfilehash: 0fd24f7c57cfaa4a131bcd1648cb1b6e6eb5f05a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818295"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817294"
 ---
-# <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Skype entreprise Server
+# <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Skype Entreprise Server
 
-Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs distants peuvent collaborer avec des utilisateurs de Skype entreprise Server internes. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau du site, du site et de l’utilisateur. Les stratégies de site remplacent la stratégie globale et les stratégies d’utilisateur remplacent les stratégies de site et globales. Pour plus d’informations sur les types de stratégies que vous pouvez configurer, voir gestion de la [Fédération et accès externe à Skype entreprise Server](../managing-federation-and-external-access.md). Les paramètres de stratégie de Skype entreprise Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de Skype entreprise Server est le suivant : la stratégie de l’utilisateur (la plus influence) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
-
-> [!NOTE]  
-> Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs distants, même si vous n’avez pas activé l’accès des utilisateurs distants pour votre organisation. Toutefois, les stratégies que vous configurez ne s’appliquent que si l’accès des utilisateurs distants est activé pour votre organisation. Par ailleurs, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs distants, la stratégie s’applique uniquement aux utilisateurs qui sont activés pour Skype entreprise Server et qui sont configurés pour utiliser cette stratégie. Pour plus d’informations sur la spécification des utilisateurs qui peuvent se connecter à Skype entreprise Server à partir d’emplacements distants, voir [affecter une stratégie d’accès des utilisateurs externes](assign-an-external-user-access-policy.md).
-
-Utilisez la procédure suivante pour configurer chaque stratégie d’accès externe à utiliser pour contrôler l’accès des utilisateurs distants.
-
+Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs distants peuvent collaborer avec des utilisateurs internes de Skype Entreprise Server. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau global, du site et de l’utilisateur. Les stratégies de site remplacent la stratégie globale, et les stratégies utilisateur remplacent les stratégies de site et globale. Pour plus d’informations sur les types de stratégies que vous pouvez configurer, voir Gestion de la fédération et de l’accès externe [à Skype Entreprise Server.](../managing-federation-and-external-access.md) Les paramètres de stratégie Skype Entreprise Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Skype Entreprise Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
 
 > [!NOTE]  
-> Cette procédure décrit comment configurer une stratégie uniquement pour activer les communications avec les utilisateurs distants, mais chaque stratégie que vous configurez pour prendre en charge l’accès des utilisateurs distants peut également configurer l’accès des utilisateurs fédérés et l’accès des utilisateurs publics. Pour plus d’informations sur la configuration des stratégies pour la prise en charge des utilisateurs fédérés, voir [configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Skype entreprise Server](configure-policies-to-control-federated-user-access.md). Pour plus d’informations sur la configuration des stratégies permettant de prendre en charge les utilisateurs publics, voir [gérer les fournisseurs fédérés SIP pour votre organisation dans Skype entreprise Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+> Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs distants, même si vous n’avez pas activé l’accès des utilisateurs distants pour votre organisation. Toutefois, les stratégies que vous configurez sont effectives uniquement quand vous activez l’accès des utilisateurs distants pour votre organisation. En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs distants, la stratégie s’applique uniquement aux utilisateurs activés pour Skype Entreprise Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la spécification des utilisateurs qui peuvent se connecter à Skype Entreprise Server à partir d’emplacements distants, voir Affecter une stratégie d’accès des utilisateurs [externes.](assign-an-external-user-access-policy.md)
+
+Utilisez la procédure suivante pour configurer chaque stratégie d’accès externe que vous comptez utiliser pour contrôle l’accès des utilisateurs distants.
 
 
-## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>Pour configurer une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs distants
+> [!NOTE]  
+> Cette procédure décrit comment configurer une stratégie uniquement pour activer les communications avec les utilisateurs distants, mais chaque stratégie que vous configurez pour prendre en charge l’accès des utilisateurs distants peut également configurer l’accès des utilisateurs fédérés et des utilisateurs publics. Pour plus d’informations sur la configuration des stratégies de prise en charge des utilisateurs fédérés, voir Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés [dans Skype Entreprise Server.](configure-policies-to-control-federated-user-access.md) Pour plus d’informations sur la configuration des stratégies de prise en charge des utilisateurs publics, voir Gérer les fournisseurs fédérés SIP pour votre organisation [dans Skype Entreprise Server.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>Pour configurer une stratégie d’accès externe permettant de prendre en charge l’accès des utilisateurs distants
 
-3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes :
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+
+3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis sur **Stratégie d’accès externe**.
+
+4.  Dans la page **Stratégie d’accès externe**, effectuez l’une des opérations suivantes :
     
-      - Pour configurer la stratégie globale de manière à prendre en charge l’accès des utilisateurs distants, cliquez sur la stratégie globale, cliquez sur **modifier**, puis sur **afficher les détails**.
+      - Pour configurer la stratégie globale permettant la prise en charge de l’accès des utilisateurs distants, cliquez sur la stratégie globale, sur **Modifier**, puis sur **Afficher les détails**.
     
-      - Pour créer une stratégie de site, cliquez sur **nouveau**, puis cliquez sur **stratégie de site**. Dans **Sélectionner un site**, cliquez sur le site approprié dans la liste, puis cliquez sur **OK**.
+      - Pour créer une nouvelle stratégie de site, cliquez sur **Nouveau**, puis sur **Stratégie du site**. Dans **Sélectionner un site**, cliquez sur le site approprié dans la liste, puis cliquez sur **OK**.
     
-      - Pour créer une nouvelle stratégie d’utilisateur, cliquez sur **nouveau**, puis cliquez sur stratégie de l' **utilisateur**. Dans **nouvelle stratégie d’accès externe**, créez un nom unique dans le champ **nom** qui indique le texte de la stratégie de l’utilisateur (par exemple, **EnableRemoteUsers** pour une stratégie utilisateur qui autorise les communications pour les utilisateurs distants).
+      - Pour créer une nouvelle stratégie utilisateur, cliquez sur **Nouveau**, puis sur **Stratégie de l’utilisateur**. Dans **Nouvelle stratégie d’accès externe**, créez dans le champ **Nom** un nom unique qui indique ce que couvre la stratégie utilisateur (par exemple, **EnableRemoteUsers** pour une stratégie utilisateur qui permet les communications des utilisateurs distants).
     
-      - Pour modifier une stratégie existante, cliquez sur la stratégie appropriée répertoriée dans le tableau, cliquez sur **modifier**, puis sur **afficher les détails**.
+      - Pour modifier une stratégie existante, cliquez sur la stratégie appropriée dans le tableau, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
 
-5.  Facultatif Si vous souhaitez ajouter ou modifier une description, spécifiez les informations relatives à la stratégie dans **Description**.
+5.  (Facultatif) Si vous souhaitez ajouter ou modifier une description, spécifiez les informations relatives à la stratégie dans **Description**.
 
-6.  Effectuez l’une des actions suivantes :
+6.  Effectuez l’une des opérations suivantes :
     
-      - Pour autoriser l’accès des utilisateurs distants à la stratégie, activez la case à cocher **activer les communications avec les utilisateurs distants** .
+      - Afin d’activer l’accès des utilisateurs distants pour la stratégie, activez la case à cocher **Autoriser les communications avec des utilisateurs distants**.
     
-      - Pour désactiver l’accès des utilisateurs distants de la stratégie, décochez la case **activer les communications avec les utilisateurs distants** .
+      - Afin de désactiver l’accès des utilisateurs distants pour la stratégie, désactivez la case à cocher **Autoriser les communications avec des utilisateurs distants**.
 
 7.  Cliquez sur **Valider**.
 
-Pour autoriser l’accès des utilisateurs distants, vous devez également activer la prise en charge de l’accès des utilisateurs distants au sein de votre organisation. Pour plus d’informations, voir [activer ou désactiver la connectivité de Fédération et de messagerie instantanée publique](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
+Pour activer l’accès des utilisateurs distants, vous devez aussi activer la prise en charge de l’accès des utilisateurs distants dans votre organisation. Pour plus d’informations, [voir Activer ou désactiver la fédération et la connectivité DE messagerie instantanée publique.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-S’il s’agit d’une stratégie de l’utilisateur, vous devez également appliquer la stratégie aux utilisateurs auxquels vous voulez vous connecter à distance. Pour plus d’informations, voir [affecter une stratégie d’accès utilisateur externe](assign-an-external-user-access-policy.md).
+S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la stratégie aux utilisateurs que vous souhaitez autoriser à se connecter à distance. Pour plus d’informations, voir [Attribuer une stratégie d’accès des utilisateurs externes.](assign-an-external-user-access-policy.md)

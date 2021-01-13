@@ -1,8 +1,8 @@
 ---
-title: Activation ou désactivation de l’archivage dans Skype entreprise Server
+title: Activer ou désactiver l’archivage dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 'Résumé : Découvrez comment activer ou désactiver l’archivage dans Skype entreprise Server.'
-ms.openlocfilehash: 8c970dba9a76abdb0c9417a5da5c7aa642fa059c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment activer ou désactiver l’archivage dans Skype Entreprise Server.'
+ms.openlocfilehash: 6d8f6f24bd4b10f7d33a00e218a494d6e8a823d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818916"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817594"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Activation ou désactivation de l’archivage dans Skype entreprise Server
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Activer ou désactiver l’archivage dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment activer ou désactiver l’archivage dans Skype entreprise Server.
+**Résumé :** Découvrez comment activer ou désactiver l’archivage dans Skype Entreprise Server.
   
-## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Activer ou désactiver l’archivage à l’aide du panneau de configuration
+## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Activer ou désactiver l’archivage à l’aide du Panneau de contrôle
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
 4. Sélectionnez la configuration de pool, de site ou globale appropriée dans la liste des configurations d’archivage, cliquez sur **Modifier**, sur **Afficher les détails**, puis procédez comme suit :
     
-   - Afin d’activer l’archivage seulement pour les sessions de messagerie instantanée, cliquez sur **Archiver les sessions de messagerie instantanée**.
+   - Pour activer l’archivage uniquement pour les sessions de messagerie instantanée, cliquez sur **Archiver les sessions de messagerie instantanée**.
     
    - Pour activer l’archivage à la fois pour les sessions de messagerie instantanée et les conférences, cliquez sur **Archiver les sessions de messagerie instantanée et de conférence web**.
     
-   - Afin de désactiver l’archivage pour la configuration, cliquez sur **Désactiver l’archivage**.
+   - Pour désactiver l’archivage pour la configuration, cliquez **sur Désactiver l’archivage.**
     
 5. Cliquez sur **Valider**.
     
 ## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Activer ou désactiver l’archivage à l’aide de Windows PowerShell
 
-Vous pouvez activer ou désactiver l’archivage à l’aide de l’applet de commande **Set-CsArchivingConfiguration**. Par exemple, la commande suivante modifie tous les paramètres de configuration de l’archivage pour que seules les sessions de messagerie instantanée soient archivées. Pour cela, la commande appelle d’abord l’applet de commande **Get-CsArchivingConfiguration** sans paramètre afin de retourner une collection de tous les paramètres de configuration de l’archivage utilisés dans l’organisation. Cette collection est alors redirigée vers l’applet de commande **Where-Object** qui sélectionne uniquement les paramètres dont la propriété EnableArchiving est égale à (-eq) « ImAndWebConf ». La collection filtrée est ensuite redirigée vers l’applet de commande **Set-CsArchivingConfiguration** qui extrait chaque élément de la collection et définit la valeur de la propriété EnableArchiving sur « ImOnly » :
+Vous pouvez également activer ou désactiver l’archivage à l’aide de l’cmdlet **Set-CsArchivingConfiguration.** Par exemple, la commande suivante modifie tous les paramètres de configuration de l’archivage afin que seules les sessions de messagerie instantanée soient archivées. La commande appelle l’cmdlet **Get-CsArchivingConfiguration** sans aucun paramètre afin de retourner tous les paramètres de configuration d’archivage actuellement utilisés dans l’organisation. Cette collection est ensuite canaliser vers l’cmdlet **Where-Object,** qui sélectionne uniquement les paramètres pour lesquels la propriété EnableArchiving est égale à (-eq) « ImAndWebConf ». La collection filtrée est ensuite canalë vers l';cmdlet **Set-CsArchivingConfiguration** qui prend chaque élément de la collection et modifie la valeur de EnableArchiving en « ImOnly » :
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

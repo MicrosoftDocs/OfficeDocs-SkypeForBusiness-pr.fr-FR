@@ -1,8 +1,8 @@
 ---
-title: Numéro de téléphone non affecté création d’un nouveau ou modification existant
+title: Unassigned Phone Number Create New or Edit Existing
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,47 +14,47 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
-description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation, mais qui ne sont pas attribués à un utilisateur ou à un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: 27977490b1cd55af9ae3011cfeb56878a5da6876
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
+ms.openlocfilehash: 741068fc16c60e6cd253057a8b1487680dc32266
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821906"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818794"
 ---
-# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribué : en créer un autre ou en modifier un existant
+# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribué : créer un nouveau ou modifier un numéro existant
 
-Les numéros non attribués sont des numéros de téléphone valides pour votre organisation, mais qui ne sont pas attribués à un utilisateur ou à un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
+Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
 
 > [!IMPORTANT]
-> Lorsque vous avez terminé de créer une nouvelle plage de numéros non attribués ou d’en modifier une, cliquez sur **OK** pour revenir à la page **numéro non affecté** qui recense toutes les plages de nombres. Les modifications que vous avez effectuées dans la page **nouvelle plage de numéros non attribués** ou la page **modifier le numéro non affecté** ne sont pas validées dans la base de données tant que vous n’avez pas cliqué sur **valider tout** dans la page **numéro non attribué** .
+> Lorsque vous avez terminé de créer une nouvelle plage de numéros non affectés ou d’en modifier une existante, cliquez sur **OK** pour retourner à la page **Numéro non attribué** qui répertorie toutes les plages de numéros. Les modifications que vous avez apportées dans la page **Nouvelle plage de numéros non attribués** et la page **Modifier la plage de numéros non attribués** sont validées dans la base de données seulement lorsque vous cliquez sur **Valider tout** dans la page **Numéro non attribué**.
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste ci-dessous décrit les champs de la page.
+La liste suivante décrit les champs de la page.
 
-- **Nom** Tapez un nom descriptif identifiant la plage de nombres non attribués. Ce nom ne peut pas être modifié après enregistrement de la plage.
+- **Nom** Tapez un nom descriptif qui identifie la plage de numéro non assignés. Une fois que vous avez enregistrez la plage, ce nom ne peut pas être modifié.
 
-- **Plage de nombres** Dans le premier champ, tapez le numéro de début de la plage de nombres non attribués. Dans le deuxième champ, tapez le nombre de fin de la plage.
+- **Plage de nombres** Dans le premier champ, tapez le numéro de début de la plage de numéro non assignés. Dans le deuxième champ, tapez le numéro de fin de la plage.
 
-  - Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de cette plage.
+  - Le numéro de début de la plage doit être inférieur ou égal au numéro de fin.
 
   - Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.
 
-  - Le numéro doit correspondre à l’expression régulière (tel :) ? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Cela signifie que le numéro peut commencer par la chaîne « tel : » (si vous ne spécifiez pas cette chaîne, il sera automatiquement ajouté pour vous), un signe plus (+) et un chiffre 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
+  - Le numéro doit correspondre à l’expression régulière (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Cela signifie que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
 
-- **Service d’annonce** Sélectionner **annonce** pour que l’application d’annonce gère l’appel entrant ou la **messagerie unifiée Exchange** pour qu’un standard automatique de messagerie unifiée Exchange gère l’appel entrant.
+- **Service d’annonce** Sélectionnez **Annonce** pour que l’application Annonce gère l’appel entrant ou la um **Exchange** pour qu’une Standard automatique exchange gère l’appel entrant.
 
-- Si vous avez sélectionné **annonce** pour le **service d’annonce**:
+- Si vous avez sélectionné **Annonce** comme **Service d’annonce** :
 
-  - **Nom de domaine complet du serveur de destination** Sélectionnez l’ID du service d’application qui exécute l’application d’annonce qui traitera les appels entrants de cette plage de numéros non attribués.
+  - **FQDN du serveur de destination** Sélectionnez l’ID de service du service d’application qui exécute l’application d’annonce qui gérera les appels entrants vers cette plage de numéros non assignés.
 
-  - **Annonce** Sélectionnez l’annonce à lire pour cette série de numéros non attribués.
+  - **Annonce** Sélectionnez l’annonce à lire pour cette plage de numéros non assignés.
 
-- Si vous avez sélectionné **Exchange um** pour le **service d’annonce**:
+- Si vous avez sélectionné **Messagerie unifiée Exchange** comme **Service d’annonce** :
 
-  - **Numéro de téléphone du standard automatique** Sélectionnez le numéro de téléphone du standard automatique de messagerie unifiée Exchange.
+  - **Standard automatique numéro de téléphone** Sélectionnez le numéro de téléphone de la Standard automatique de la Standard automatique.
 
-Pour plus d’informations sur les fonctionnalités et fonctionnalités d’annonce, voir [planifier l’application d’annonce dans Skype entreprise 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, reportez-vous à la rubrique [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) de la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités d’annonce, voir [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, voir [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) dans la documentation des opérations.
 
 

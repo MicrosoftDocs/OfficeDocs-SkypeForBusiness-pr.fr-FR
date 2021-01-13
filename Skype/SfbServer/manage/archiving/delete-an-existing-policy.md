@@ -1,8 +1,8 @@
 ---
-title: Supprimer une stratégie d’archivage existante dans Skype entreprise Server
+title: Supprimer une stratégie d’archivage existante dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,52 +11,52 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype entreprise Server.'
-ms.openlocfilehash: 8e2a2c21f6d137fcdb87e69c041cf08143092be1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype Entreprise Server.'
+ms.openlocfilehash: 7d71fd9ca03f743cd51e0161cd1a3b437be43cb2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818926"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817614"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Supprimer une stratégie d’archivage existante dans Skype entreprise Server
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Supprimer une stratégie d’archivage existante dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment supprimer une stratégie d’archivage de Skype entreprise Server.
+**Résumé :** Découvrez comment supprimer une stratégie d’archivage pour Skype Entreprise Server.
   
-Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site mais la stratégie globale ne peut pas être supprimée. Si vous supprimez la politique globale, Skype entreprise Server réinitialise automatiquement la stratégie aux valeurs par défaut.
+Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site, mais pas la stratégie globale. Si vous supprimez la stratégie globale, Skype Entreprise Server réinitialise automatiquement la stratégie aux valeurs par défaut.
   
-## <a name="delete-a-policy-by-using-the-control-panel"></a>Supprimer une stratégie via le Panneau de configuration
+## <a name="delete-a-policy-by-using-the-control-panel"></a>Supprimer une stratégie à l’aide du Panneau de contrôle
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
+1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     
-4. Dans la liste des stratégies d’archivage, cliquez sur la stratégie utilisateur ou la stratégie de site que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
+4. Dans la liste des stratégies d’archivage, cliquez sur la stratégie d’utilisateur ou de site à supprimer, cliquez sur **Modifier,** puis sur **Supprimer.**
     
 5. Cliquez sur **Valider**.
     
-## <a name="delete-a-policy-by-using-windows-powershell"></a>Supprimer une stratégie via Windows PowerShell
+## <a name="delete-a-policy-by-using-windows-powershell"></a>Supprimer une stratégie à l’aide de Windows PowerShell
 
-Vous pouvez également supprimer des stratégies d’archivage via l’applet de commande **Remove-CsArchivingPolicy**.
+Vous pouvez également supprimer des stratégies d’archivage à l’aide de l’cmdlet **Remove-CsArchivingPolicy.**
   
-Par exemple, la commande suivante supprime la stratégie avec la syntaxe Identity site:Redmond. Lorsqu’une stratégie configurée au niveau du site est supprimée, les utilisateurs précédemment gérés par cette stratégie utilisent automatiquement à la place la stratégie d’archivage globale :
+Par exemple, la commande suivante supprime la stratégie dont l’identité est site:Redmond. Lorsqu’une stratégie configurée au niveau du site est supprimée, les utilisateurs précédemment gérés par la stratégie de site sont automatiquement régis par la stratégie d’archivage globale à la place :
   
 ```PowerShell
 Remove-CsArchivingPolicy -Identity site:Redmond
 ```
 
-Cette commande permet de supprimer toutes les stratégies d’archivage appliquées au niveau Utilisateur :
+Cette commande supprime toutes les stratégies d’archivage appliquées au niveau utilisateur :
   
 ```PowerShell
 Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 ```
 
-Cette commande permet de supprimer toutes les stratégies d’archivage où l’archivage interne a été désactivé :
+Cette commande supprime toutes les stratégies d’archivage pour laquelle l’archivage interne a été désactivé :
   
 ```PowerShell
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) .
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Remove-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps)

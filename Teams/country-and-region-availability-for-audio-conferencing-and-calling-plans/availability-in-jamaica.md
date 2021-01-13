@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Jamaïque
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Jamaïque.
-ms.openlocfilehash: a2282aad83c7e07411010416b4a40b8dd280542c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Jamaïque.
+ms.openlocfilehash: 28cf9fb50c2fec8e40087bb38e11914fd934b8f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229226"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799884"
 ---
 # <a name="availability-in-jamaica"></a>Disponibilité en Jamaïque
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Jamaïque.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Jamaïque.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

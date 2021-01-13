@@ -1,8 +1,8 @@
 ---
-title: Gérer les 9-1-1 améliorés et le service de localisation
+title: Gérer enhanced 9-1-1 et le service d’emplacement
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,119 +10,119 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype entreprise Server prend en charge les appels 9-1-1 de meilleure qualité (E9-1-1) à partir des clients Skype entreprise. Lorsque vous configurez Skype entreprise Server pour E9-1-1, les appels d’urgence placés dans Skype entreprise incluent des informations de lieu de réponse d’urgence de la base de données de service des informations de géolocalisation.
-ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) à partir des clients Skype Entreprise. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement.
+ms.openlocfilehash: c5b626763de78495a2feaa5ecb1ba77e367bd77d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818425"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817474"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gestion du 9-1-1 amélioré et du service de localisation dans Skype pour entreprise Server
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gérer enhanced 9-1-1 et le service d’emplacement dans Skype Entreprise Server
 
-Skype entreprise Server prend en charge les appels 9-1-1 de meilleure qualité (E9-1-1) à partir des clients Skype entreprise. Lorsque vous configurez Skype entreprise Server pour E9-1-1, les appels d’urgence placés dans Skype entreprise incluent des informations de lieu de réponse d’urgence de la base de données de service des informations de géolocalisation. Suivez les procédures décrites dans cet article pour gérer la stratégie d’emplacement.
+Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) à partir des clients Skype Entreprise. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement. Utilisez les procédures de cet article pour gérer la stratégie d’emplacement.
 
 > [!Note]
-> Pour plus d’informations sur le déploiement de fonctionnalités avancées d’entreprise voix, telles que E9-1-1 et le service d’information d’emplacement, voir [déployer les fonctionnalités avancées d’Enterprise Voice](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
+> Pour plus d’informations sur le déploiement de fonctionnalités Voix Entreprise avancées, telles que E9-1-1 et le service Informations d’emplacement, voir Déployer les fonctionnalités Voix Entreprise [avancées.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
 
-Dans Skype entreprise Server, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres relatifs à la fonctionnalité améliorée 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur est activé pour E9-1-1 et, si oui, le comportement d’un appel d’urgence. Par exemple, vous pouvez utiliser la stratégie d’emplacement pour définir le numéro constituant un appel d’urgence (par exemple, 911 aux États-Unis), si la sécurité d’entreprise doit être automatiquement notifiée et la manière dont l’appel doit être routé.
+Dans Skype Entreprise Server, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres liés à la fonctionnalité Enhanced 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur peut avoir recours au système E9-1-1 et, le cas échéant, le comportement d’un appel d’urgence. Par exemple, la stratégie d’emplacement permet de définir le numéro d’appel d’urgence (par exemple 911 aux États-Unis, 15 en France), de déterminer si le service de sécurité de l’entreprise doit être automatiquement averti et comment l’appel doit être acheminé.
 
-Vous pouvez configurer des stratégies d’emplacement à partir du groupe de **Configuration réseau** dans le panneau de configuration Skype entreprise Server. Le panneau de configuration Skype entreprise Server vous permet d’afficher, de créer, de modifier ou de supprimer des stratégies d’emplacement. Pour afficher des informations sur les stratégies d’emplacement, procédez comme suit. 
+Vous pouvez configurer des stratégies d’emplacement à partir du groupe **Configuration** réseau dans le Panneau de configuration de Skype Entreprise Server. À partir du Panneau de contrôle Skype Entreprise Server, vous pouvez afficher, créer, modifier ou supprimer des stratégies d’emplacement. Utilisez les procédures suivantes pour afficher des informations sur les stratégies d’emplacement. 
 
 
 ## <a name="view-location-policy-information"></a>Afficher les informations de stratégie d’emplacement 
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **stratégie d’emplacement**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
 
-4.  Dans la page de **stratégie d’emplacement** , sélectionnez la stratégie d’emplacement que vous voulez modifier.
+4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
  
     > [!NOTE]  
-    > Vous pouvez uniquement afficher des informations sur une stratégie d’emplacement à la fois.
+    > Vous ne pouvez afficher des informations que sur une seule stratégie d’emplacement à la fois.
 
-Une stratégie unique, appelée global, existe par défaut et ne peut pas être supprimée ou renommée. Toutefois, vous pouvez modifier la stratégie globale. Ce paramètre s’applique à tous les utilisateurs et contacts, sauf si vous créez des stratégies de site ou des stratégies par utilisateur. Les stratégies par utilisateur doivent être appliquées à des utilisateurs spécifiques.
+Une stratégie unique, appelée Globale, existe par défaut. Il n’est pas possible de supprimer ou de renommer cette stratégie. Vous pouvez cependant la modifier. Cette stratégie s’applique à tous les utilisateurs et contacts, sauf si vous créez des stratégies de site ou par utilisateur. Les stratégies par utilisateur doivent être appliquées à des utilisateurs spécifiques.
 
 
 ## <a name="create-or-modify-a-location-policy"></a>Créer ou modifier une stratégie d’emplacement 
 
-Dans Skype entreprise Server, vous pouvez remplacer la durée par défaut entre les demandes de client pour une mise à jour d’emplacement du service d’informations d’emplacement. La valeur par défaut est 4 heures. Utilisez l’applet de cmdlet **Set-CsLocationPolicy** avec le paramètre LocationRefreshInterval pour remplacer la valeur par défaut.
+Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre les demandes des clients pour une mise à jour d’emplacement à partir du service Informations d’emplacement. La valeur par défaut est 4 heures. Utilisez l’applet de commande **Set-CsLocationPolicy** avec le paramètre LocationRefreshInterval pour remplacer la valeur par défaut.
 
 
-### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Pour créer une nouvelle stratégie d’emplacement dans le panneau de configuration Skype entreprise Server
+### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Pour créer une stratégie d’emplacement dans le Panneau de contrôle Skype Entreprise Server
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **stratégie d’emplacement**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
 
-4.  Dans la page de **stratégie d’emplacement** , cliquez sur **nouveau** , puis sélectionnez le type de stratégie que vous voulez créer :
+4.  Dans la page **Stratégie d’emplacement**, cliquez sur **Nouveau**, puis sélectionnez le type de stratégie que vous souhaitez créer :
     
-      - Pour créer une stratégie de site, cliquez sur **stratégie de site**. Dans **Sélectionner un site**, sélectionnez le site auquel vous voulez appliquer la stratégie, puis cliquez sur **OK**. Dans la page **nouvelle stratégie d’emplacement** , le champ **étendue** contient la valeur **site**et le champ **nom** contient le nom du site que vous avez choisi. Vous ne pouvez pas modifier l’un de ces champs. Une stratégie de site est appliquée automatiquement à tous les utilisateurs du site spécifié et remplace la politique globale de ces utilisateurs.
+      - Pour créer une stratégie de site, cliquez sur **Stratégie du site**. Dans **Sélectionner un site**, choisissez le site auquel vous souhaitez appliquer la stratégie et cliquez sur **OK**. Dans la page **Créer une stratégie d’emplacement**, le champ **Étendue** contient la valeur **Site** et le champ **Nom** contient le nom du site que vous avez choisi. Vous ne pouvez modifier aucun de ces champs. Une stratégie de site est automatiquement appliquée à tous les utilisateurs sur le site spécifié et remplace la stratégie globale qui leur était appliquée.
     
-      - Pour créer une **stratégie d’utilisateur**, cliquez sur stratégie de l' **utilisateur**. Dans la **nouvelle stratégie d’emplacement**, le champ **étendue** contient la valeur **utilisateur**. Vous ne pouvez pas modifier cette valeur. Dans le champ **nom** , entrez le nom que vous souhaitez attribuer à cette stratégie. Une stratégie d’utilisateur ne s’applique pas automatiquement à tous les utilisateurs. Après la création de la stratégie de l’utilisateur, vous devez l’octroyer manuellement aux utilisateurs ou aux sites du réseau auxquels vous voulez appliquer la stratégie.
+      - Pour créer une **stratégie de l’utilisateur**, cliquez sur **Stratégie de l’utilisateur**. Dans la page **Créer une stratégie d’emplacement**, le champ **Étendue** contient la valeur **Utilisateur**. Vous ne pouvez pas modifier cette valeur. Dans le champ **Nom**, tapez le nom que vous souhaitez donner à cette stratégie. Une stratégie de l’utilisateur ne s’applique pas automatiquement aux utilisateurs. Après avoir créé la stratégie de l’utilisateur, vous devez manuellement octroyer la stratégie aux utilisateurs ou aux sites réseau auxquels vous souhaitez que la stratégie s’applique.
 
-5.  Complétez les champs restants comme suit :
+5.  Renseignez les champs restants, comme suit :
     
-      - **Activer les services**   d’urgence améliorés activez cette case à cocher pour autoriser les utilisateurs associés à cette stratégie pour E9-1-1. Lorsque les services d’urgence sont activés, les clients Skype entreprise Server récupèrent les informations d’emplacement sur l’inscription et incluent ces informations lors de l’appel d’urgence.
+      - **Activer les services d’urgence améliorés**   Activez cette case à cocher pour activer les utilisateurs associés à cette stratégie pour E9-1-1. Lorsque les services d’urgence sont activés, les clients Skype Entreprise Server récupèrent les informations d’emplacement lors de l’inscription et incluent ces informations lorsqu’un appel d’urgence est effectué.
     
-      - **Emplacement**   spécifiez l’une des valeurs suivantes :
+      - **Emplacement**   Spécifiez l’une des valeurs suivantes :
         
-          - **Requis**   l’utilisateur est invité à entrer les informations d’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans entrer d’information. Si les informations sont entrées, un appel d’urgence est d’abord traité par le fournisseur de services d’urgence pour vérifier l’emplacement avant d’être routé vers l’opérateur de sécurité publique (PSAPI) (c’est-à-dire, l’opérateur 911).
+          - **Obligatoire**   L’utilisateur est invité à entrer les informations d’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans fournir aucune information. S’il fournit des informations, le fournisseur de services d’urgence répond d’abord à l’appel d’urgence pour vérifier l’emplacement, puis l’appel est transmis à l’opérateur du centre d’appels de la sécurité publique (c’est-à-dire l’opérateur des services d’urgence).
         
-          - **Non requis**   l’utilisateur n’est pas invité à entrer un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le prestataire de services d’urgence répond à l’appel et demande un emplacement.
+          - **Non requis**   L’utilisateur ne sera pas invité à se faire un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
         
-          - **Exclusion de responsabilité**   cette option est identique à la **condition requise** , sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer d’informations d’emplacement. L’utilisateur peut toujours terminer un appel d’urgence, mais aucun autre appel ne peut être effectué sans entrer les informations. De plus, le texte de renonciation est affiché à l’utilisateur qui peut les informer des conséquences du refus d’entrer les informations d’emplacement. Pour définir le texte de l’exclusion de responsabilité, vous devez utiliser Skype entreprise Server Management Shell pour exécuter l’applet de cmdlet **Set-CsLocationPolicy** ou l’applet de **nouvelle-CsLocationPolicy** à l’aide du paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, consultez la rubrique [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
+          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire,** sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer les informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser Skype Entreprise Server Management Shell pour exécuter l’cmdlet **Set-CsLocationPolicy** ou l’cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
           
     
-      - **Utiliser l’emplacement pour les services d’urgence uniquement** Skype entreprise peut utiliser les informations de géolocalisation pour différentes raisons (par exemple, pour informer les membres de votre emplacement actuel). Activez cette case à cocher pour vous assurer que les informations d’emplacement ne sont disponibles que pour les appels d’urgence.
+      - **Utiliser l’emplacement pour les services d’urgence uniquement** Skype Entreprise peut utiliser les informations d’emplacement pour diverses raisons (par exemple, pour informer vos collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
     
-      - **Utilisation PSTN utilisation**   de réseau téléphonique commuté (PSTN) qui sera utilisée pour déterminer le numéro de téléphone à utiliser pour diriger les appels d’urgence de clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer vers un Trunk SIP dédié aux appels d’urgence ou à une passerelle ELIN (Emergency Identification Number) qui route les appels d’urgence vers le point de réponse de sécurité publique le plus proche (PSAPI).
+      - **Utilisation PSTN**   Utilisation du réseau téléphonique commuté (PSTN) qui sera utilisée pour déterminer l’itinéraire des communications vocales qui sera utilisé pour router les appels d’urgence des clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche.
     
-      - **Numéro**   de téléphone d’urgence le numéro numéroté pour joindre les services d’urgence. Aux États-Unis, cette valeur est 911. La chaîne doit être effectuée sur les chiffres 0 à 9 et comporter entre 1 et 10 chiffres.
+      - **Numéro de numéro d’urgence**   Numéro composé pour joindre les services d’urgence. Aux États-Unis, cette valeur est 911. La chaîne doit être composée des chiffres 0 à 9 et peut avoir une longueur comprise entre 1 et 10 chiffres.
     
-      - **Masque de numérotation d’urgence**   il s’agit d’un numéro que vous souhaitez traduire en valeur de la valeur numéro de téléphone d’urgence lors de la numérotation. Par exemple, si vous entrez une valeur 212 dans ce champ et que le champ numéro de téléphone d’urgence a la valeur 911, si un utilisateur compose le numéro 212, l’appel est effectué sur 911. Cela permet d’appeler d’autres numéros d’urgence et de toujours avoir accès aux services d’urgence (par exemple, si un membre d’un pays ou d’une région dont le numéro de téléphone est différent pour composer le numéro de votre pays ou de votre région, et non le numéro de la pays ou région dans lequel ils se trouvent actuellement). Vous pouvez définir plusieurs masques de numérotation d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212 ; 414. La longueur maximale de la chaîne est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+      - **Masque de numérotation d’urgence**   Numéro que vous souhaitez traduire en valeur de numéro d’urgence lorsqu’il est composé. Par exemple, si vous entrez 212 dans ce champ et si la valeur du champ Numéro d’urgence est 911, le numéro appelé sera le 911 si un utilisateur compose le 212. Cela permet de composer d’autres numéros d’urgence et de pouvoir joindre quand même les services d’urgence (par exemple, si une personne provenant d’un pays où le numéro d’urgence est différent tente de composer ce numéro au lieu du numéro du pays dans lequel elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La longueur maximale de la chaîne est 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
       
 
         > [!IMPORTANT]  
-        > Assurez-vous que la valeur de masque de numérotation spécifiée n’est pas identique à un nombre dans une plage de stationnement d’appel. Le routage du parc d’appels est prioritaire par rapport à la conversion des chaînes de numérotation d’urgence. Pour afficher les plages d’orbites du parc d’appels, cliquez sur **fonctionnalités vocales** dans la barre de navigation gauche, puis cliquez sur **parc d’appels**. 
+        > Assurez-vous que la valeur du masque d’appel n’est pas identique à un numéro figurant dans une plage de numéros d’appels parqués. Le routage du parcage d’appels aura priorité sur la conversion des chaînes d’appel d’urgence. Pour afficher les plages de numéros d’appels parqués, cliquez sur **Fonctionnalités vocales** dans la barre de navigation de gauche, puis cliquez sur **Parcage d’appel**. 
 
     
-      - **URI de notification URI**   (Uniform Resource Identifiers) SIP pour être averti en cas d’appel d’urgence. Par exemple, le Bureau de sécurité de la société peut être notifié par un message instantané dès qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, il sera inclus dans la notification. Plusieurs URI SIP peuvent être inclus en tant que liste séparée par des virgules. Par exemple, « SIP : security@litwareinc. com », « SIP : kmyer@litwareinc. com ». Les listes de distribution sont prises en charge. La chaîne doit contenir entre 1 et 256 caractères et doit commencer par le préfixe « SIP : ». Avant de cliquer dans le champ URI de notification, un exemple s’affiche.
+      - **URI de notification**   Un ou plusieurs URI (Uniform Resource Identifier) SIP à être avertis lors d’un appel d’urgence. Par exemple, le service de sécurité de la société peut être informé via un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, celui-ci sera inclus dans la notification. Plusieurs URI SIP peuvent être insérés dans une liste dans laquelle ils sont séparés par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». Les listes de distribution sont prises en charge. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Avant que vous ne cliquiez dans le champ URI de notification un exemple est affiché.
     
-      - **URI de conférence**   il s’agit du numéro de téléphone d’un fournisseur de services de conférence rendez-vous pour les appels d’urgence. Par exemple, le Bureau de sécurité de la société peut recevoir un appel lors de la mise en place d’un appel d’urgence et écouter ou participer à cet appel (en fonction de la valeur fournie dans le champ **mode de conférence** ). La chaîne doit avoir entre 1 et 256 caractères de longueur et doit commencer par le préfixe SIP :. Un exemple s’affiche jusqu’à ce que vous cliquiez dans ce champ.
+      - **URI de conférence**   L’URI SIP, dans ce cas, le numéro de téléphone d’un tiers qui sera téléconférence à tous les appels d’urgence effectués. Par exemple, le service de sécurité de l’entreprise peut recevoir un appel l’invitant à écouter ou à participer à un appel d’urgence (en fonction de la valeur fournie dans le champ **Mode conférence**). La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe sip:. Un exemple est affiché avant que vous ne cliquiez dans ce champ.
     
-      - **Mode**   Conférence si vous spécifiez une valeur dans le champ **URI de conférence** , le **mode conférence** détermine si une tierce personne peut participer à l’appel ou si elle peut uniquement écouter. Spécifiez l’une des options suivantes :
+      - **Mode conférence**   Si vous spécifiez une valeur dans le champ **URI** de conférence, le **mode** Conférence détermine si un tiers peut participer à l’appel ou seulement écouter. Spécifiez une des options suivantes :
         
-          - **Une personne tierce peut**écouter uniquement la conversation entre l’appelant et l’opérateur PSAPI.   
+          - **Unidirectionnel**   La personne tierce peut uniquement écouter la conversation entre l’appelant et l’opérateur du centre d’appels de la sécurité publique.
         
-          - **Deux sens**   de la partie tierce peuvent écouter l’appel et y participer entre l’appelant et l’opérateur PSAPI.
+          - **Bidirectionnel**   Une tierce personne peut écouter et participer à l’appel entre l’appelant et l’opérateur du centre d’appels de la sécurité publique.
 
 6.  Cliquez sur **Valider**.
 
 
     > [!IMPORTANT]  
-    > Lorsque vous créez une stratégie d’utilisateur, elle ne s’applique initialement à aucun utilisateur ou site réseau. Pour appliquer la stratégie à un utilisateur, cliquez sur **utilisateurs** dans la barre de navigation gauche. Recherchez l’utilisateur auquel vous voulez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans la page **modifier l’utilisateur du serveur** , sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante Stratégie d' **emplacement** , puis cliquez sur **valider**.<BR>Pour appliquer la stratégie à un site réseau, cliquez sur **configuration du réseau** dans la barre de navigation gauche, puis cliquez sur **site**. Recherchez le site réseau auquel vous voulez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans **modifier le site**, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante **stratégie d’emplacement** , puis cliquez sur **valider**.
+    > Lorsque vous créez une stratégie utilisateur, cette stratégie ne s’applique initialement à aucun utilisateur ou site réseau. Pour appliquer la stratégie à un utilisateur, cliquez sur **Utilisateurs** dans la barre de navigation de gauche. Recherchez l’utilisateur auquel vous souhaitez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans la page **Modifier l’utilisateur du**  serveur, sélectionnez la nouvelle stratégie d’emplacement dans la liste modifiable Stratégie d’emplacement, puis cliquez sur **Valider**.<BR>Pour appliquer la stratégie à un site réseau, cliquez sur **Configuration réseau** dans la barre de navigation de gauche et cliquez sur **Site**. Recherchez le site réseau auquel vous souhaitez appliquer la stratégie. Dans le menu **Edition**, cliquez sur **Afficher les détails**. Dans **Modifier le site**, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante **Stratégie d’emplacement**, puis cliquez sur **Valider**.
 
 
-### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Pour modifier une stratégie d’emplacement dans le panneau de configuration Skype entreprise Server
+### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Pour modifier une stratégie d’emplacement dans le Panneau de contrôle Skype Entreprise Server
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **stratégie d’emplacement**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
 
-4.  Dans la page de **stratégie d’emplacement** , sélectionnez la stratégie d’emplacement que vous voulez modifier.
+4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **modifier la stratégie d’emplacement** , modifiez les champs comme vous le souhaitez (pour plus d’informations, reportez-vous à l’étape 5 de la section « pour créer une stratégie d’emplacement » plus haut dans cette rubrique).
+6.  Dans la page **Modifier la stratégie d’emplacement**, modifiez les champs comme il convient (pour plus d’informations, voir l’étape 5 dans la procédure de création d’une stratégie d’emplacement plus haut dans cette rubrique).
 
 7.  Cliquez sur **Valider**.
 
@@ -130,31 +130,31 @@ Dans Skype entreprise Server, vous pouvez remplacer la durée par défaut entre 
 ## <a name="delete-a-location-policy"></a>Supprimer une stratégie d’emplacement
 
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **stratégie d’emplacement**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur **Stratégie d’emplacement.**
 
-4.  Dans la page de **stratégie d’emplacement** , sélectionnez la stratégie d’emplacement que vous voulez supprimer.
+4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez supprimer.
    
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs stratégies tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les **stratégies dans le** menu **Edition** .
+    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs stratégies. Ou, pour sélectionner toutes les stratégies, cliquez sur **Sélectionner tout** dans le menu **Edition**.
 
 
-5.  Dans le menu **modifier** , cliquez sur **supprimer**.
+5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
 
     > [!IMPORTANT]  
-    > La stratégie d’emplacement global ne peut pas être supprimée. Si vous tentez de supprimer la stratégie globale, vous recevez un message d’avertissement indiquant que la stratégie sera réinitialisée à ses valeurs par défaut.
+    > Vous ne pouvez pas supprimer la stratégie d’emplacement globale. Si vous tentez de supprimer cette stratégie vous obtiendrez un message d’erreur et les valeurs par défaut de cette stratégie seront rétablies.
 
 
 ## <a name="see-also"></a>Voir aussi
 
 [Créer ou modifier des sites réseau](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[Nouveau-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
 
 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
  

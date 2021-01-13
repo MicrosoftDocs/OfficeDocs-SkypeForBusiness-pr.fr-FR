@@ -1,8 +1,8 @@
 ---
 title: État de la topologie
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
@@ -14,30 +14,30 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
-description: 'La page Topologie : Statut affiche le statut des serveurs dans votre topologie Skype Entreprise.'
-ms.openlocfilehash: 7959cf45cdde4d7e4841d72f71b60e8425780cd6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'La page Topologie : État affiche l’état des serveurs dans votre topologie Skype Entreprise.'
+ms.openlocfilehash: df79805492d5bf6cfe0772b6c64f43b0c3923ee5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822006"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818994"
 ---
-# <a name="topology-status"></a>Topologie : statut
+# <a name="topology-status"></a>Topologie : état
 
-La page **Topologie** : **Statut** affiche le statut des serveurs dans votre topologie Skype Entreprise.
+La **page Topologie**: **État** affiche l’état des serveurs dans votre topologie Skype Entreprise.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Topologie** : **Statut**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes dans la page **Topologie** : **Statut** :
 
-- [View a List of Computers Running Lync Server 2010](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [Afficher la liste des ordinateurs exécutant Lync Server 2010](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
-- [View Details About a Service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [Afficher les détails d’un service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 
-- [Start or Stop Lync Server 2010 Services](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [Démarrer ou arrêter les services Lync Server 2010](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
 
-- [Prevent New Connections to Services](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [Empêcher les nouvelles connexions aux services](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
 
 

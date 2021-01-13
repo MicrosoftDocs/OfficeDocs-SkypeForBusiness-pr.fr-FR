@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du serveur frontal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: 6f66fadbc722f59bdc7bcb54b149bf05fa322afb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 2560c07e8e9a59259bcf9dbfd1af385fdb18845d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215505"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818384"
 ---
-# <a name="front-end-general-settings-expander"></a>Expanseur des paramètres généraux du serveur frontal
+# <a name="front-end-general-settings-expander"></a>Expandeur des paramètres généraux du serveur frontal
 
 Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :
 
@@ -42,7 +42,7 @@ Pour un pool frontal, vous pouvez configurer les paramètres généraux, de rés
 
 Vous pouvez configurer les paramètres généraux suivants :
 
-- **Nom de domaine complet (FQDN) **. Modifiez le nom de domaine complet du pool pour le changer.
+- **Nom de domaine complet (FQDN)**. Modifiez le nom de domaine complet du pool pour le changer.
 
 - **Activer le port de surveillance de l’équilibreur de la charge matérielle**. Activez la case à cocher et entrez le numéro de port que votre équilibreur de la charge matérielle utilisera pour surveiller l’état des serveurs du pool.
 
@@ -50,7 +50,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence**. Inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner Conférence rendez-vous (PSTN). Vous spécifiez et définissez une passerelle de réseau téléphonique commuté (PSTN) dans une sous-section ultérieure relative aux paramètres du serveur de médiation.
 
-  - **Voix Entreprise**. Active les appels vocaux internes sur IP vers les combinés et appareils et les clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
+  - **Voix Entreprise**. Active les appels voix sur IP internes vers des combinés et appareils qualifiés et des clients Skype Entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
 
 - Dans **Associations**, modifiez ou définissez les éléments suivants :
 
@@ -103,7 +103,7 @@ Pour modifier ou spécifier un paramètre supplémentaire pour les services Web 
 Dans **Services Web internes**, spécifiez les éléments suivants :
 
 > [!CAUTION]
-> Si vous avez plusieurs pools frontaux ou serveurs frontaux, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour tout directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool Directeur, ainsi qu’à partir d’un pool frontal ou d’un serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet indépendant, chaque nom de domaine complet doit être unique à partir d’un autre pool frontal, directeur ou pool directeur.
+> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
 - Si vous sélectionnez **Remplacer le nom de domaine complet**, vous pouvez indiquer un nom de domaine complet différent pour l’identité des **Services web internes** sur le pool. Par défaut, le paramètre est le nom du pool actuel tel que défini pour le pool frontal.
 
@@ -113,7 +113,7 @@ Dans **Services web externes**, spécifiez les éléments suivants :
 
 - Le nom de domaine complet des services Web externes. Le nom de domaine complet spécifié ici sera généralement défini par les exigences de votre connexion externe, comme le proxy inverse.
 
-- Ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut du port 8080 pour HTTP et du port 4443 pour HTTPS sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences pour votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour HTTP et le port 443 pour HTTPS. Ces valeurs déterminent quels seront les ports d’écoute du pool pour les demandes entrantes. En règle générale, ils n’ont pas besoin d’être modifiés, sauf en cas de conflit entre les exigences de port sur le pool. Les ports publiés internes et externes utilisant les mêmes valeurs de port sont attendus. Il ne s’agit pas d’un conflit.
+- Ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut du port 8080 pour HTTP et du port 4443 pour HTTPS sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences pour votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour HTTP et le port 443 pour HTTPS. Ces valeurs déterminent quels seront les ports d’écoute du pool pour les demandes entrantes. En règle générale, elles n’ont pas besoin d’être modifiées, sauf en cas de conflit entre les exigences de port sur le pool. Les ports publiés internes et externes utilisant les mêmes valeurs de port sont attendus. Il ne s’agit pas d’un conflit.
 
 ### <a name="mediation-server"></a>Serveur de médiation
 
@@ -125,7 +125,7 @@ Dans **Serveur de médiation**, spécifiez les éléments suivants :
 
 - Jonctions associées au serveur de médiation colocalisé. Si vous avez déjà défini des jonctions, elles pourront être associées au serveur de médiation.
 
-- Si plusieurs jonctions sont associées à un serveur de médiation, vous pouvez spécifier une jonction par défaut en sélectionnant la passerelle et en cliquant sur**Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler Par défaut**.
+- Si plusieurs jonctions sont associées à un serveur de médiation, vous pouvez spécifier une jonction par défaut en sélectionnant la passerelle et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler Par défaut**.
 
 Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal, voir [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
@@ -137,7 +137,7 @@ Pour un serveur Standard Edition, vous pouvez configurer des paramètres génér
 
 Vous pouvez configurer les paramètres généraux suivants :
 
-- **Nom de domaine complet**. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition Server pour modifier le nom de domaine complet qui lui est associé.
+- **FQDN**. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition Server pour modifier le nom de domaine complet qui lui est associé.
 
 - Choisissez **Utiliser toutes les adresses IP configurées** ou **Limiter l’utilisation des services aux adresses IP sélectionnées**. Si vous choisissez de limiter le service aux adresses IP définies, vous définirez l’adresse IP principale que le serveur utilisera pour toutes les communications, à l’exception du réseau téléphonique commuté (PSTN). Vous pouvez aussi sélectionner **Activer IPv6** pour activer IPv6 pour ce serveur.
 
@@ -147,7 +147,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence**. Inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner **Conférence rendez-vous (PSTN)**. Vous pouvez spécifier et définir une passerelle PSTN ultérieurement dans les paramètres du serveur de médiation.
 
-  - **Voix Entreprise**. Active les appels vocaux internes sur IP vers les combinés et appareils et les clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
+  - **Voix Entreprise**. Active les appels voix sur IP internes vers des combinés et appareils qualifiés et des clients Skype Entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
 
 - Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
 
@@ -204,7 +204,7 @@ Pour **Serveur de médiation**, vous pouvez spécifier les éléments suivants 
 
 - Jonctions associées au serveur de médiation colocalisé. Si vous avez déjà défini des jonctions, elles pourront être associées au serveur de médiation.
 
-- Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier une passerelle par défaut en sélectionnant la passerelle et en cliquant sur**Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler Par défaut**.
+- Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier une passerelle par défaut en sélectionnant la passerelle et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler Par défaut**.
 
 Pour plus d’informations sur la définition et la configuration des paramètres du serveur Standard Edition, voir [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 

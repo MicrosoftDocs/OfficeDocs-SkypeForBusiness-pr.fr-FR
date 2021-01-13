@@ -1,13 +1,13 @@
 ---
-title: Messages et enquêtes de transition de Microsoft teams | Mise à niveau de base
-author: lanachin
-ms.author: v-lanac
+title: E-mails et enquêtes sur Microsoft Teams Transition | Mise à niveau de base
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Exemples de messages électroniques et d’enquêtes à utiliser dans conjunciton avec le plan d’action en dix étapes accéléré pour la mise à niveau de Skype entreprise vers équipes
+description: Exemples d’e-mails et d’enquêtes à utiliser en conjunciton avec le plan d’action en dix étapes accélérée pour la mise à niveau de Skype Entreprise vers Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,28 +18,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31dfb96d4ad883593e49b71aa8ec86a86b25e660
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665946"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809074"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de messages électroniques et d’enquêtes pour la mise à niveau des communications de base
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base de mise à niveau
 
-## <a name="sample-emails"></a>Exemples de messages électroniques
+## <a name="sample-emails"></a>Exemples de courriers électroniques
 
 <a name="step-1-email"></a>
 
 ### <a name="stakeholder-email-for-step-1"></a>Courrier des parties prenantes, pour l’étape 1
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -53,15 +53,15 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Informer les utilisateurs de la messagerie électronique, à l’étape 4
+### <a name="notify-users-email-for-step-4"></a>Informer les utilisateurs du courrier électronique à l’étape 4
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -82,15 +82,15 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Rappel du courrier des utilisateurs, à l’étape 6
+### <a name="remind-users-email-for-step-6"></a>Rappeler aux utilisateurs de recevoir un courrier électronique à l’étape 6
 
-Ligne d’objet : rappel : Préparez-vous à la mise à niveau vers teams
+Ligne d’objet : RAPPEL : Préparez votre mise à niveau vers Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -113,15 +113,15 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Bienvenue aux utilisateurs de la messagerie électronique du commanditaire du cadre de l’étape 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Courrier de bienvenue des utilisateurs du sponsor exécutif, pour l’étape 7
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -148,15 +148,15 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>Message d’archivage, pour l’étape 9
+### <a name="check-in-email-for-step-9"></a>E-mail d’enregistrement, pour l’étape 9
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -170,15 +170,15 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Courrier électronique pour demander aux utilisateurs de donner à des équipes et des canaux une tentative, pour l’étape 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Courrier électronique pour demander aux utilisateurs d’essayer les équipes et les canaux, à l’étape 10
 
-Ligne d’objet :
+Ligne d’objet :
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-Corps du message électronique :
+Corps de l’e-mail :
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -201,31 +201,31 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Exemples d’enquêtes
 
-Indiquez la façon dont vous souhaitez effectuer les activités suivantes dans Microsoft teams et si vous souhaitez en savoir plus sur les activités suivantes.
+Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et si une ou plusieurs activités sont à découvrir.
 
-| &nbsp; | Très expérimenté | Assez expérimenté | Pas du tout | Pour en savoir plus | N/A | Non familier | | | | |
+| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | N/A | Vous ne savez pas ou ne vous connaissez pas | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Utiliser teams pour la messagerie instantanée et les conversations avec d’autres personnes | | | | | | | | | | |
-| Utiliser teams pour les réunions en ligne | | | | | | | | | | |
-| Utiliser teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
-| Utiliser teams sur mon appareil mobile | | | | | | | | | | |
+| Utiliser Teams pour la messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
+| Utiliser Teams pour les réunions en ligne | | | | | | | | | | |
+| Utiliser Teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
+| Utiliser Teams sur mon appareil mobile | | | | | | | | | | |
 
-| **Quels sont les éléments qui vous empêchent d’utiliser Microsoft teams ?** | **Sélectionnez toutes les réponses qui s’appliquent.** |
+| **Quelles sont les choses qui vous empêchent d’utiliser Microsoft Teams ?** | **Sélectionner toutes les sélections applicables** |
 |---|---|
-| Je n’ai jamais entendu parler | &#9744; |
-| Il n’est pas installé sur mon ordinateur | &#9744; |
-| Je ne comprends pas le fonctionnement des personnes avec lesquelles je travaille | &#9744; |
-| J’ai eu le temps de l’évaluer en fonction de mes besoins | &#9744; |
-| J’utilise déjà d’autres applications qui répondent à vos besoins en matière de communication et de collaboration | &#9744; |
-| J’aurais besoin d’une formation avant de l’utiliser | &#9744; |
-| J’ai essayé de l’utiliser mais j’ai rencontré des problèmes techniques ou une mauvaise interface | &#9744; |
+| Je n’en ai jamais entendu parler | &#9744; |
+| Je ne l’ai pas installée sur mon ordinateur | &#9744; |
+| Je ne comprends pas à quoi cela pourrait être bénéfique pour moi ou pour les personnes avec qui je travaille | &#9744; |
+| Je n’ai pas eu le temps de l’évaluer pour mes besoins | &#9744; |
+| J’utilise déjà d’autres applications qui répondent à mes besoins en matière de communication et de collaboration | &#9744; |
+| J’ai besoin d’une formation avant de l’utiliser | &#9744; |
+| J’ai essayé de l’utiliser, mais j’ai eu des problèmes techniques ou une mauvaise expérience | &#9744; |
 | Notre support technique n’a pas pu m’aider avec mes questions | &#9744; |
 | Rien, je l’utilise actuellement | &#9744; |
-| Other (spécifier) | &#9744; |
+| Autre (veuillez spécifier) | &#9744; |
 
-**Dans quelle mesure êtes-vous susceptible de recommander Microsoft teams à un ami/collègue ? (0 = sans doute... 10 = très probable)**
+**Allez-vous recommander Microsoft Teams à un ami ou un collègue ? (0=Pas du tout... 10=Très probable)**
 
-| 0,4 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
