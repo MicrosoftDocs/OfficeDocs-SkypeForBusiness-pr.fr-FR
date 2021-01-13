@@ -1,8 +1,8 @@
 ---
-title: Modification de la configuration du journal des appareils
+title: Modification de la configuration du journal des périphériques
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,44 +14,44 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
-description: Vous pouvez ajouter une configuration du journal de périphériques à la page modifier le paramètre du journal qui détermine la taille maximale du cache, la taille maximale du fichier journal ou la durée de conservation du fichier journal avant sa suppression définitive. Vous pouvez modifier ces paramètres en fonction de la configuration requise de votre organisation.
-ms.openlocfilehash: 3ea368c0f3bccd7655d1bca3cb93a98a86b99c47
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page Modifier les paramètres de journalisation qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
+ms.openlocfilehash: 694729b74209715bd87bed0c3bd59d80f31fff59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822907"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807314"
 ---
-# <a name="device-log-configuration-edit"></a>Configuration du fichier journal du périphérique : modifier
+# <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
  
-Vous pouvez ajouter une configuration du journal de périphériques à la page **modifier le paramètre du journal** qui détermine la taille maximale du cache, la taille maximale du fichier journal ou la durée de conservation du fichier journal avant sa suppression définitive. Vous pouvez modifier ces paramètres en fonction de la configuration requise de votre organisation.
+Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page **Modifier les paramètres de journalisation** qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
   
 > [!CAUTION]
-> Cette suppression les supprime définitivement du système de fichiers. Une fois qu’un fichier est supprimé définitivement, vous ne pouvez pas le récupérer. 
+> Cette suppression les élimine définitivement du système de fichiers. Après avoir supprimé définitivement un fichier, vous ne pouvez pas le récupérer. 
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **modifier le paramètre journal** , vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes dans la page **Modifier les paramètres de journalisation** :
   
-- Ajoutez une configuration du journal de périphériques globalement ou pour un site particulier.
+- Ajouter une configuration de fichier journal de périphérique globalement ou pour un site particulier
     
-- Modification des options d’une configuration de fichier journal d’appareil existante
+- Modifier les options d’une configuration de fichier journal de périphérique existante
     
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
+Les listes suivantes décrivent les menus, commandes, champs et propriétés de la page.
   
-- **Scope** Identifie l’étendue (globale ou site) de la configuration du journal des appareils.
+- **Étendue** Identifie l’étendue (globale ou site) de la configuration du journal de l’appareil.
     
-- **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de périphériques.
+- **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de l’appareil.
     
-- **Taille de fichier maximale (octets)** Vous pouvez spécifier la taille maximale d’un fichier journal avant sa suppression définitive. La valeur par défaut est 1 024 000 octets (1 Mo).
+- **Taille de fichier maximale (octets)** Vous pouvez spécifier la taille maximale qu’un fichier journal peut atteindre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
     
-- **Taille maximale du cache (octets)** Vous pouvez spécifier la quantité maximale d’informations (en octets) qui peut être stockée dans le cache du fichier journal avant que ce cache ne doit être vidé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
+- **Taille maximale du cache (octets)** Vous pouvez spécifier la quantité maximale d’informations (en octets) qui peut être détenue dans le cache de fichiers journaux avant que ce cache ne soit effacé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
     
-- **Minutes pour vider le cache (1-60)** Vous pouvez spécifier la fréquence à laquelle les informations stockées dans le cache du fichier journal sont écrites dans le fichier journal réel. Lorsque les données sont enregistrées, le cache est vidé. La valeur par défaut est 5 minutes.
+- **Minutes de purge du cache (1-60)** Vous pouvez spécifier la fréquence à quelle fréquence les informations stockées dans le cache des fichiers journaux sont écrites dans le fichier journal réel. Une fois les données enregistrées, le cache est effacé. La valeur par défaut est cinq minutes.
     
-- **Jours de conservation des fichiers journaux (1-365)** Vous pouvez spécifier le nombre de jours pendant lequel les fichiers journaux sont conservés avant d’être supprimés. La valeur par défaut est 10 jours.
+- **Jours de conserver les fichiers journaux (1-365)** Vous pouvez spécifier le nombre de jours pendant combien de jours les fichiers journaux sont conservés avant leur purge. La valeur par défaut est 10 jours.
     
 ## <a name="see-also"></a>Voir aussi
 

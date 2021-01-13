@@ -1,8 +1,8 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
-description: tblComplianceParticipant contient les participants actuels par canal et par serveur.
-ms.openlocfilehash: 8f4b90cd7e8949451c2b6c1b9bc3cfabbab826e9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceParticipant contient les participants actifs, par canal et par serveur.
+ms.openlocfilehash: c6aae3c1e7b13456708034512c6b68d67d6d1f92
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814642"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809744"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
-tblComplianceParticipant contient les participants actuels par canal et par serveur.
+tblComplianceParticipant contient les participants actifs, par canal et par serveur.
   
-**Celles**
+**Columns**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|channelUri  <br/> |nvarchar (255), pas null  <br/> |URI (Uniform Resource Identifier) de canal.  <br/> |
-|userId  <br/> |ent, non null  <br/> |ID principal du participant (correspondant à la table tblPrincipal. prinID).  <br/> |
-|joinedAt  <br/> |bigint, pas null  <br/> |Date et heure de l’événement de jointure.  <br/> |
-|partedAt  <br/> |bigint  <br/> |NULL si le participant reste connecté. Horodatage du canal quittant l’événement s’il n’a pas la valeur null.  <br/> Ces entrées sont finalement supprimées lorsque tous les traducteurs traitent l’événement.  <br/> |
-|userUri  <br/> |nvarchar (255), pas null  <br/> |URI de l’utilisateur.  <br/> |
-|serverID  <br/> |int  <br/> |Identité du serveur (comme dans la table tblServerIdentity. serverID).  <br/> |
-|ID  <br/> |bigint  <br/> |Session du serveur. Il s’agit d’un nombre aléatoire généré chaque fois qu’un service de conversation démarre. Il est utilisé pour différencier les sessions à des fins d’identification de participants orphelins.  <br/> |
+|channelUri  <br/> |nvarchar (255), non null  <br/> |URI (Uniform Resource Identifier) du canal.  <br/> |
+|userId  <br/> |int, non null  <br/> |ID Principal du participant (correspondant à la table tblPrincipal.prinID).  <br/> |
+|joinedAt  <br/> |bigint, non null  <br/> |Horodatage de l’événement qui se joint.  <br/> |
+|partedAt  <br/> |bigint  <br/> |Null si le participant est encore joint. Horodatage de l’événement qui quitte le canal s’il n’est pas null.  <br/> Ces entrées finissent par être supprimées lorsque tous les traducteurs traitent l’événement.  <br/> |
+|userUri  <br/> |nvarchar (255), non null  <br/> |URI de l’utilisateur.  <br/> |
+|serverID  <br/> |int  <br/> |Identité du serveur (comme dans tblServerIdentity.serverID table).  <br/> |
+|sessionId  <br/> |bigint  <br/> |Session du serveur. Il s’agit d’un nombre aléatoire généré chaque fois que le service de conversation démarre. Il sert à différencier les sessions dans le but d’identifier les participants orphelins.  <br/> |
    
 **Clé**
 

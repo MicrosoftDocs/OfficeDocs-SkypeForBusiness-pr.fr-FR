@@ -1,8 +1,8 @@
 ---
-title: Gestion de l’authentification à deux facteurs dans Skype entreprise Server
+title: Gérer l’authentification à deux facteurs dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,74 +12,74 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 'Résumé : gestion de l’authentification à deux facteurs dans Skype entreprise Server.'
-ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Gérez l’authentification à deux facteurs dans Skype Entreprise Server.'
+ms.openlocfilehash: 415eb23779450bc09cdaa25ea2e60b6cf3526e40
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818716"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806538"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gestion de l’authentification à deux facteurs dans Skype entreprise Server
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gérer l’authentification à deux facteurs dans Skype Entreprise Server
  
-**Résumé :** Gestion de l’authentification à deux facteurs dans Skype entreprise Server.
+**Résumé :** Gérer l’authentification à deux facteurs dans Skype Entreprise Server.
   
-L’authentification à deux facteurs améliore la sécurité en exigeant que les utilisateurs fournissent deux formes d’authentification ou d’identification, à savoir un nom d’utilisateur/mot de passe et un jeton ou un certificat. Ce problème est également connu sous le nom de « ce que vous connaissez ». 
+L’authentification à deux facteurs améliore la sécurité en exigeant que les utilisateurs fournissent deux formes d’authentification ou d’identification, à savoir une combinaison nom d’utilisateur/mot de passe et un jeton ou un certificat. C’est également ce que l’on appelle « quelque chose que vous avez, quelque chose que vous savez ». 
   
-Un exemple type d’authentification à deux facteurs avec un certificat est l’utilisation de cartes à puce. Une carte à puce contient un certificat associé au compte d’utilisateur. Elle peut être validée à partir d’informations utilisateur et de certificat stockées sur un serveur. En comparant les informations de l’utilisateur (nom et mot de passe d’utilisateur) au certificat fourni, le serveur valide les informations d’identification et authentifie l’utilisateur.
+L’utilisation de cartes à puce est un exemple classique d’authentification à deux facteurs avec un certificat. Une carte à puce contient un certificat associé au compte d’utilisateur et peut être validée par rapport aux informations utilisateur et de certificat stockées sur un serveur. En comparant les informations utilisateur (nom d’utilisateur et mot de passe) au certificat fourni, le serveur valide les informations d’identification et authentifier l’utilisateur.
   
-Prenez en compte les sujets suivants lorsque vous configurez un environnement Skype entreprise Server pour prendre en charge l’authentification à deux facteurs.
+Prenez en compte les sujets suivants lors de la configuration d’un environnement Skype Entreprise Server pour prendre en charge l’authentification à deux facteurs.
   
-## <a name="client-support"></a>Prise en charge des clients
+## <a name="client-support"></a>Prise en charge du client
 
-Les mises à jour cumulatives de Lync Server 2013 : le client de bureau 2013 de juillet et le client Skype entreprise sont les seuls clients qui prennent actuellement en charge l’authentification à deux facteurs.
+Les mises à jour cumulatives pour le client de bureau Lync Server 2013 de juillet 2013 et le client Skype Entreprise sont les seuls clients qui actuellement la prise en charge de l’authentification à deux facteurs.
   
 ## <a name="topology-requirements"></a>Conditions requises pour la topologie
 
-Les clients sont fortement encouragés à déployer l’authentification à deux facteurs à l’aide de Skype entreprise Server dédié avec Edge, directeur et pools d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs, les autres méthodes d’authentification doivent être désactivées pour les autres rôles et services, dont les suivantes :
+Les clients sont vivement encouragés à déployer l’authentification à deux facteurs à l’aide de Skype Entreprise Server dédié avec edge, directeur et pools d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs, d’autres méthodes d’authentification doivent être désactivées pour d’autres rôles et services, notamment :
   
-|**Type de configuration**|**Type de service**|**Rôle du serveur**|**Type d’authentification à désactiver**|
+|**Configuration Type**|**Type de service**|**Rôle serveur**|**Type d’authentification à désactiver**|
 |:-----|:-----|:-----|:-----|
-|Service web  <br/> |WebServer  <br/> |Directeur  <br/> |Kerberos, NTLM et par certificat  <br/> |
-|Service web  <br/> |WebServer  <br/> |Serveur frontal  <br/> |Kerberos, NTLM et par certificat  <br/> |
-|Proxy  <br/> |EdgeServer  <br/> |Edge  <br/> |Kerberos et NTLM  <br/> |
-|Proxy  <br/> |Serveur d’inscriptions avancé  <br/> |Serveur frontal  <br/> |Kerberos et NTLM  <br/> |
+|Service Web  <br/> |WebServer  <br/> |Directeur  <br/> |Kerberos, NTLM et certificat  <br/> |
+|Service Web  <br/> |WebServer  <br/> |Serveur frontal  <br/> |Kerberos, NTLM et certificat  <br/> |
+|Proxy  <br/> |EdgeServer  <br/> |Microsoft Edge  <br/> |Kerberos et NTLM  <br/> |
+|Proxy  <br/> |Registrar  <br/> |Serveur frontal  <br/> |Kerberos et NTLM  <br/> |
    
-Sauf si ces types d’authentifications sont désactivés au niveau du service, toutes les autres versions du client ne pourront pas se connecter correctement une fois l’authentification à deux facteurs activée dans votre déploiement.
+À moins que ces types d’authentification ne soient désactivés au niveau du service, toutes les autres versions du client ne pourront pas se connecter correctement une fois l’authentification à deux facteurs activée dans votre déploiement.
   
-## <a name="skype-for-business-service-discovery"></a>Fonction de découverte automatique de Skype Entreprise
+## <a name="skype-for-business-service-discovery"></a>Découverte de service Skype Entreprise
 
-Les enregistrements DNS utilisés par les clients internes et/ou externes pour détecter les services Skype entreprise doivent être configurés pour s’authentifier auprès d’un serveur Skype entreprise qui n’est pas activé pour l’authentification à deux facteurs. Dans le cadre de cette configuration, les utilisateurs des groupes Skype entreprise qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas obligés d’entrer un code confidentiel pour s’authentifier, tandis que les utilisateurs de groupes Skype entreprise activés pour l’authentification à deux facteurs seront requis pour entrer son code confidentiel pour s’authentifier.
+Les enregistrements DNS utilisés par les clients internes et/ou externes pour découvrir les services Skype Entreprise doivent être configurés pour être résolus en un serveur Skype Entreprise qui n’est pas activé pour l’authentification à deux facteurs. Avec cette configuration, les utilisateurs des pools Skype Entreprise qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas obligés d’entrer un code confidentiel pour s’authentifier, tandis que les utilisateurs des pools Skype Entreprise activés pour l’authentification à deux facteurs devront entrer leur code confidentiel pour s’authentifier.
   
 ## <a name="exchange-authentication"></a>Authentification Exchange
 
-Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent constater que certaines fonctionnalités du client ne sont pas disponibles. Cette fonction est actuellement à l’étude, car le client Skype entreprise ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de l’intégration d’Exchange.
+Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent découvrir que certaines fonctionnalités du client ne sont pas disponibles. Il s’agit de la conception actuelle, car le client Skype Entreprise ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de l’intégration d’Exchange.
   
 ## <a name="contacts"></a>Contacts
 
-Les utilisateurs de Skype entreprise qui sont configurés pour tirer parti de la fonctionnalité de magasin de contacts unifiée pourront constater que leurs contacts ne sont plus disponibles une fois que vous êtes connecté à l’aide de l’authentification à deux facteurs.
+Les utilisateurs de Skype Entreprise qui sont configurés pour tirer parti de la fonctionnalité magasin de contacts unifié trouveront que leurs contacts ne sont plus disponibles après la signature avec l’authentification à deux facteurs.
   
-Pour activer l’authentification à deux facteurs, vous devez utiliser l’applet de passe **Invoke-CsUcsRollback** pour supprimer les contacts des utilisateurs existants du magasin de contacts unifié et les stocker dans Skype entreprise Server.
+Vous devez utiliser l’cmdlet **Invoke-CsUcsRollback** pour supprimer les contacts utilisateur existants du magasin de contacts unifié et les stocker dans Skype Entreprise Server avant d’activer l’authentification à deux facteurs.
   
 ## <a name="skill-search"></a>Recherche de compétences
 
-Les clients qui ont configuré la fonction de recherche de compétences dans leur environnement Skype entreprise constateront que cette fonctionnalité n’est pas compatible avec l’authentification à deux facteurs dans Skype entreprise. Ce comportement est normal, car Microsoft SharePoint ne prend pas en charge l’authentification à deux facteurs pour le moment.
+Les clients qui ont configuré la fonctionnalité Recherche de compétences dans leur environnement Skype Entreprise trouveront que cette fonctionnalité ne fonctionne pas lorsque Skype Entreprise est activé pour l’authentification à deux facteurs. Il s’agit d’une conception, car Microsoft SharePoint ne prend actuellement pas en charge l’authentification à deux facteurs.
   
-## <a name="credentials"></a>Informations d’identification
+## <a name="credentials"></a>Identifiants
 
-Diverses considérations de déploiement impliquent des informations d’identification Skype entreprise enregistrées qui peuvent avoir un impact sur les utilisateurs qui sont configurés pour utiliser l’authentification à deux facteurs.
+Plusieurs considérations de déploiement impliquant des informations d’identification Skype Entreprise enregistrées peuvent avoir un impact sur les utilisateurs configurés pour utiliser l’authentification à deux facteurs.
   
 ### <a name="deleting-saved-credentials"></a>Suppression des informations d’identification enregistrées
 
-Les utilisateurs doivent utiliser l’option **Supprimer mes informations de connexion** dans le client Skype entreprise et supprimer leur dossier de profil SIP de%LocalAppData%\Microsoft\Office\15.0\Skype entreprise avant d’essayer de vous connecter pour la première fois à l’aide de l’authentification à deux facteurs.
+Les utilisateurs doivent utiliser l’option Supprimer mes informations de **sign-in** dans le client Skype Entreprise et supprimer leur dossier de profil SIP de %localappdata%\Microsoft\Office\15.0\Skype Entreprise avant d’essayer de se signer pour la première fois à l’aide de l’authentification à deux facteurs.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-À l’aide de la méthode d’authentification Kerberos ou NTLM, les informations d’identification Windows de l’utilisateur sont automatiquement utilisées pour l’authentification. Dans le cas d’un déploiement standard de Skype entreprise Server sur lequel Kerberos et/ou NTLM est activé pour l’authentification, l’utilisateur ne doit pas entrer ses informations d’identification chaque fois qu’il se connecte.
+Avec la méthode d’authentification Kerberos ou NTLM, les informations d’identification Windows de l’utilisateur sont utilisées automatiquement pour l’authentification. Dans un déploiement Skype Entreprise Server classique où Kerberos et/ou NTLM sont activés pour l’authentification, les utilisateurs ne doivent pas avoir à entrer leurs informations d’identification chaque fois qu’ils se connectent.
   
-Si les utilisateurs sont invités à entrer leurs informations d’identification avant leur code confidentiel, la clé de Registre **DisableNTCredentials** est peut être configurée involontairement sur les ordinateurs clients, éventuellement par le biais de la stratégie de groupe.
+Si les utilisateurs sont involontairement invités à entrer leurs informations d’identification avant d’être invités à entrer leur code confidentiel, la clé de Registre **DisableNTCredentials** peut être involontairement configurée sur les ordinateurs clients, éventuellement par le biais de la stratégie de groupe.
   
-Pour éviter l’invite supplémentaire pour les informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration de Skype entreprise pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe :
+Pour empêcher l’invite supplémentaire d’informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise pour l’appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
   
     HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
@@ -89,9 +89,9 @@ Pour éviter l’invite supplémentaire pour les informations d’identification
   
 ### <a name="savepassword"></a>SavePassword
 
-Lorsqu’un utilisateur se connecte à Skype entreprise pour la première fois, l’utilisateur est invité à enregistrer son mot de passe. Si cette option est sélectionnée, le certificat client de l’utilisateur doit être stocké dans le magasin de certificats personnels et les informations d’identification Windows de l’utilisateur doivent être stockées dans le gestionnaire d’informations d’identification de l’ordinateur local.
+Lorsqu’un utilisateur se signe à Skype Entreprise pour la première fois, il est invité à enregistrer son mot de passe. Si elle est sélectionnée, cette option permet de stocker le certificat client de l’utilisateur dans le magasin de certificats personnels et les informations d’identification Windows de l’utilisateur dans le Gestionnaire d’informations d’identification de l’ordinateur local.
   
-Le paramètre de Registre **SavePassword** doit être désactivé lorsque Skype entreprise est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration de Skype entreprise pour appliquer à tous les utilisateurs pour un pool donné via une stratégie de groupe :
+Le paramètre de Registre **SavePassword** doit être désactivé lorsque Skype Entreprise est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise pour l’appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
   
     HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
@@ -99,17 +99,17 @@ Le paramètre de Registre **SavePassword** doit être désactivé lorsque Skype 
   
     Value: 0x0
   
-## <a name="ad-fs-20-token-replay"></a>Relecture des jetons d’AD FS 2.0
+## <a name="ad-fs-20-token-replay"></a>Relecture de jeton AD FS 2.0
 
-La fonctionnalité d’AD FS 2.0 de détection de relecture des jetons détecte et rejette les demandes de jeton multiples effectuées à l’aide d’un même jeton. Lorsqu’elle est activée, elle protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil SAML WebSSO en vérifiant que le même jeton n’est pas utilisé plusieurs fois.
+AD FS 2.0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis ignorées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil SAML WebSSO en vous assurez que le même jeton n’est jamais utilisé plusieurs fois.
   
-Cette fonctionnalité doit être activée dans les cas dans lesquels la sécurité constitue un aspect essentiel, par exemple, dans le cadre de l’utilisation des kiosques. Pour plus d’informations sur la détection de relecture de jeton, voir recommandations en matière [de planification et de déploiement sécurisés d’AD FS 2,0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Cette fonctionnalité doit être activée dans les situations où la sécurité est un problème très important, par exemple lors de l’utilisation de bornes. Pour plus d’informations sur la détection de relecture de jeton, voir [Best Practices for Secure Planning and Deployment of AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Accès des utilisateurs externes
 
-La configuration d’un proxy ADFS ou d’un proxy inverse pour la prise en charge de l’authentification à deux facteurs de Skype entreprise par le biais de réseaux externes n’est pas abordée dans les rubriques suivantes.
+La configuration d’un proxy ADFS ou d’un proxy inverse pour prendre en charge l’authentification à deux facteurs Skype Entreprise à partir de réseaux externes n’est pas couverte dans ces rubriques.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer l’authentification à deux facteurs dans Skype entreprise Server](configure-two-factor.md)
+[Configurer l’authentification à deux facteurs dans Skype Entreprise Server](configure-two-factor.md)
   

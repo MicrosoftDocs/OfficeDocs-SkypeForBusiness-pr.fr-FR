@@ -1,8 +1,8 @@
 ---
-title: Configuration d’une voie vocale E9-1-1 dans Skype entreprise Server
+title: Configurer un itinéraire de voix E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,48 +15,48 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
-description: Configurez des itinéraires vocaux E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: ca45ac924ce987113e5b88729dc074b112668caf
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Configurez les itinéraires de communication vocale E9-1-1 dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: b5f3d12bb586a65fc1c553a021c1a27efb0c7f77
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768147"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804174"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configuration d’une voie vocale E9-1-1 dans Skype entreprise Server
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurer un itinéraire de voix E9-1-1 dans Skype Entreprise Server
  
-Configurez des itinéraires vocaux E9-1-1 dans Skype entreprise Server Voice. 
+Configurez les itinéraires de communication vocale E9-1-1 dans Skype Entreprise Server Voix Entreprise. 
   
-Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des communications vocales pour les appels d’urgence. Pour plus d’informations sur la création d’itinéraires vocaux, voir [créer ou modifier un itinéraire vocal dans Skype entreprise](create-or-modify-a-voice-route.md). Vous pouvez définir plusieurs itinéraires si, par exemple, votre déploiement comporte une jonction SIP (Session Initiation Protocol) principale et une jonction SIP secondaire. 
+Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des communications vocales pour les appels d’urgence. Pour plus d’informations sur la création d’itinéraires de communication vocale, voir [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md). Vous pouvez définir plusieurs itinéraires si, par exemple, votre déploiement comporte une jonction SIP principale et une jonction SIP secondaire. 
   
 > [!NOTE]
-> Pour inclure des informations d’emplacement dans une invitation E9-1-1, vous devez configurer le Trunk SIP qui se connecte au fournisseur de services E9-1-1 pour diriger les appels d’urgence par le biais de la passerelle. Pour ce faire, définissez l’indicateur EnablePIDFLOSupport sur la cmdlet **Set-CsTrunkConfiguration** sur true. La valeur par défaut de EnablePIDFLOSupport est false. Par exemple : `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` il n’est pas nécessaire d’activer les emplacements de réception pour les passerelles de réseau téléphonique commuté (RTC) et les passerelles d’identification d’emplacement d’urgence (Elin).
+> Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande **Set-CsTrunkConfiguration** la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple : il n’est pas nécessaire d’activer la réception d’emplacements pour les passerelles de réseau téléphonique commuté (PSTN) de secours et les `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` passerelles ELIN (Emergency Location Identification Number).
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>Pour configurer un itinéraire des communications vocales E9-1-1
 
 1. Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’administration CsVoiceAdministrator.
     
-2.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2.  Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-3. Exécutez l’applet de commande ci-dessous pour créer un enregistrement d’utilisation RTC. 
+3. Exécutez l’applet de commande suivante pour créer un nouvel enregistrement d’utilisation PSTN. 
     
-    Ce nom doit être identique à celui que vous utiliserez pour le paramètre **RTC** de la stratégie d’emplacement. Si votre déploiement comporte plusieurs enregistrements d’utilisation téléphonique, l’exemple ci-dessous ajoute « Emergency Usage » (Utilisation d’urgence) à la liste actuelle des utilisations RTC disponibles. Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies vocales, des enregistrements d’utilisation RTC et des itinéraires vocaux dans Skype entreprise](voice-and-pstn.md).
+    Ce nom doit être identique à celui que vous utiliserez pour le paramètre **PSTN** de la stratégie d’emplacement. Si votre déploiement comporte plusieurs enregistrements d’utilisation téléphonique, l’exemple suivant ajoute « Emergency Usage » (Utilisation d’urgence) à la liste actuelle des utilisations PSTN disponibles. Pour plus d’informations, voir [Configure voice policies, PSTN usage records, and voice routes in Skype for Business](voice-and-pstn.md).
     
    ```powershell
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
    ```
 
-4. Exécutez l’applet de commande ci-dessous pour créer un itinéraire des communications vocales à l’aide de l’enregistrement d’utilisation RTC créé lors de l’étape précédente.
+4. Exécutez l’applet de commande suivante pour créer un itinéraire des communications vocales à l’aide de l’enregistrement d’utilisation PSTN créé à l’étape précédente.
     
-    Le modèle de numéro doit être identique à celui utilisé dans le paramètre **Chaîne de numérotation d’urgence** de la stratégie d’emplacement. Le signe "+" est requis, car Skype entreprise ajoute "+" aux appels d’urgence. « Co1-pstngateway-1 » est l’ID du service de jonction SIP (Session Initiation Protocol) pour le fournisseur de services E9-1-1 ou l’ID du service de passerelle ELIN. L’exemple ci-dessous utilise « EmergencyRoute » comme nom de l’itinéraire des communications vocales.
+    Le modèle de numéro doit être identique à celui utilisé dans le paramètre **Chaîne de numérotation d’urgence** de la stratégie d’emplacement. Un signe « + » est nécessaire, car Skype Entreprise ajoute « + » aux appels d’urgence. « Co1-pstngateway-1 » est l’ID du service de jonction SIP pour le fournisseur de services E9-1-1 ou l’ID du service de passerelle ELIN. L’exemple suivant utilise « EmergencyRoute » comme nom de l’itinéraire des communications vocales.
     
    ```powershell
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
-5. Si vous le souhaitez, pour les connexions SIP Trunk, nous vous conseillons d’exécuter l’applet de commande suivante pour créer un itinéraire local pour les appels qui ne sont pas gérés par le Trunk SIP du fournisseur de services E9-1-1. Cet itinéraire est utilisé si la connexion au fournisseur de services E9-1-1 n’est pas disponible. 
+5. Si vous le souhaitez, pour les connexions de trunk SIP, nous vous recommandons d’exécuter l’cmdlet suivante pour créer un itinéraire local pour les appels qui ne sont pas gérés par la liaison SIP du fournisseur de services E9-1-1. Cet itinéraire est utilisé si la connexion au fournisseur de services E9-1-1 n’est pas disponible. 
     
-    L’exemple ci-dessous part du principe que l’utilisateur a une utilisation « locale » dans sa stratégie de voix.
+    L’exemple suivant part du principe que l’utilisateur a une utilisation « locale » dans sa stratégie de voix.
     
    ```powershell
    New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}

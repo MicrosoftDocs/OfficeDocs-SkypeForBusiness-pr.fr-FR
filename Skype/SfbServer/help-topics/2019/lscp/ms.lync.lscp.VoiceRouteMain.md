@@ -1,8 +1,8 @@
 ---
 title: Itinéraire des communications vocales
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 52349cac5dde908bfd23869e18f89e0601cb9942
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: fa1fa8f1013596aa74c80faba6aaa4dd9dc09a35
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793552"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807884"
 ---
 # <a name="voice-route"></a>Itinéraire des communications vocales
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification d’un itinéraire vocal dans Skype entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Créer ou modifier un itinéraire de voix dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [Modification d’un itinéraire vocal](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 

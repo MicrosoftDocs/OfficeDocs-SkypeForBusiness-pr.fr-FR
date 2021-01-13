@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du serveur de médiation
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: bd3047832b23604f87a1e298a42798b13bb6822a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a00573b06c1900718fd670c96a21ffab069b491e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215165"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806724"
 ---
-# <a name="mediation-server-general-settings-expander"></a>Expanseur des paramètres généraux du serveur de médiation
+# <a name="mediation-server-general-settings-expander"></a>Expandeur des paramètres généraux du serveur de médiation
  
 
 
@@ -29,13 +29,13 @@ ms.locfileid: "48215165"
 
 Nom de domaine complet (FQDN) du serveur de médiation ou du pool de serveurs de médiation. Modifiez le nom de domaine complet du serveur pour changer la valeur. Vous devez disposer d’un enregistrement DNS A (hôte) qui corresponde à la nouvelle valeur.
   
-Dans la section **Associations**, sélectionnez un serveur Edge ou un pool de serveurs Edge à associer au serveur de médiation ou au pool de serveurs de médiation. Vous sélectionnez le serveur Edge que les composants multimédias du serveur de médiation utiliseront pour la voix entreprise de l’utilisateur externe.
+Dans la section **Associations**, sélectionnez un serveur Edge ou un pool de serveurs Edge à associer au serveur de médiation ou au pool de serveurs de médiation. Vous sélectionnez le serveur Edge que les composants multimédias du serveur de médiation utiliseront pour les utilisateurs Voix Entreprise.
   
 Si vous ne disposez pas de serveur Edge actuellement défini et que vous avez besoin d’associer le serveur de médiation à un serveur Edge, cliquez sur **Nouveau** et définissez le nouveau serveur Edge ou le pool de serveurs Edge dans l’Assistant Définir le nouveau pool Edge.
   
 ## <a name="next-hop-settings"></a>Paramètres du tronçon suivant
 
-Vous spécifiez le pool de serveurs de médiation ou le tronçon suivant du serveur de médiation en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste déroulante. Un directeur ou un pool directeur n’est pas une sélection valide pour le pool de serveurs de médiation ou le tronçon suivant du serveur de médiation, et ils n’apparaîtront pas dans la liste. Cliquez sur **OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.
+Vous spécifiez le pool de serveurs de médiation ou le tronçon suivant du serveur de médiation en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste déroulante. Un directeur ou un pool directeur n’est pas une sélection valide pour le pool de serveurs de médiation ou le tronçon suivant du serveur de médiation, et ils n’apparaîtront pas dans la liste. Cliquez **sur OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.
   
 ## <a name="pstn-gateway-settings"></a>Paramètres de la passerelle PSTN
 
@@ -43,6 +43,6 @@ Vous spécifiez le pool de serveurs de médiation ou le tronçon suivant du serv
     
 2. Jonctions associées au serveur de médiation colocalisé. Si vous avez déjà défini des jonctions, elles pourront être associées au serveur de médiation. 
     
-3. Si plusieurs jonctions sont associées à un serveur de médiation, vous pouvez spécifier une jonction par défaut en sélectionnant la jonction et en cliquant sur**Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler Par défaut**. 
+3. Si plusieurs jonctions sont associées à un serveur de médiation, vous pouvez spécifier une jonction par défaut en sélectionnant la jonction et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler Par défaut**. 
     
 

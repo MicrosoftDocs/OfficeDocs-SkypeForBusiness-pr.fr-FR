@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue du serveur de médiation
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 'Ce nœud montre les ports d’écoute et les passerelles PSTN associées pour ce pool de médiation. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: c6ea328bb595b3d669278d34aeacaf2b1910f24e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ed3565f32b7f620320c8dd0e5153625a50866dfe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215175"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806694"
 ---
 # <a name="mediation-server-scope-node"></a>Nœud d’étendue du serveur de médiation
  

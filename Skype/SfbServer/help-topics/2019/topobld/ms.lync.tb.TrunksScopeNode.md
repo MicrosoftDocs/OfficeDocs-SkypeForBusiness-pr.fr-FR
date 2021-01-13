@@ -1,8 +1,8 @@
 ---
-title: Nœud d'étendue des jonctions
+title: Nœud d’étendue des jonctions
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Cliquez avec le bouton droit sur les lignes dans le générateur de topologie pour effectuer les opérations suivantes :'
-ms.openlocfilehash: 0eecf29f8037f78ee35fe392d375d388b448ff75
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Cliquez avec le bouton droit sur Trunks dans le Générateur de topologie pour effectuer les choses suivantes :'
+ms.openlocfilehash: fdef7e2fa020692ba8132ede221629a715278fd9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797395"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807544"
 ---
-# <a name="trunks-scope-node"></a>Nœud d'étendue des jonctions
+# <a name="trunks-scope-node"></a>Nœud d’étendue des jonctions
  
-Cliquez avec le bouton droit sur les **lignes** dans le générateur de topologie pour effectuer les opérations suivantes :
+Cliquez avec le bouton **droit sur Trunks** dans le Générateur de topologie pour effectuer les choses suivantes :
   
-- **Nouvelle jonction** : lance l’Assistant **Définition d’une nouvelle jonction** utilisé pour définir une nouvelle jonction SIP.
+- **Nouvelle jonction** : démarre l’Assistant **Définir une nouvelle jonction** utilisé pour définir une nouvelle jonction SIP.
     
 Outre l’option Nouvelle jonction, vous pouvez effectuer les tâches générales suivantes :
   
-![Nœud d'étendue des jonctions](../../../media/Trunks_Scope_Node.jpg)
+![Nœud d’étendue des jonctions](../../../media/Trunks_Scope_Node.jpg)
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions précédentes ou supprimer le déploiement.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

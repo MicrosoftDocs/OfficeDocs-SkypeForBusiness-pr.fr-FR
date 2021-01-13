@@ -1,8 +1,8 @@
 ---
-title: Utilisateurs voir ou configurer une stratégie d’emplacement
+title: Affichage ou configuration de la stratégie d’emplacement par les utilisateurs
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 989d69e08dedb1d826087439d3edddad4c5ab5ee
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: d8ba7ebd3b509992b8f4194d0e2b135aaae144c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797941"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808114"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’emplacement
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Assigner une stratégie d’emplacement à un utilisateur](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [Affecter une stratégie d’emplacement à un utilisateur](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
 
 

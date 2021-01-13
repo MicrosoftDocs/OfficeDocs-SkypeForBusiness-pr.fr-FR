@@ -1,8 +1,8 @@
 ---
 title: Schéma de base de données de conversation permanente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,38 +12,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: Ce document décrit le schéma de la base de données de conversation permanente dans Skype entreprise Server.
-ms.openlocfilehash: b042f4490648760f4750e45fa1e35e032a8bf8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.
+ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814742"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809874"
 ---
 # <a name="persistent-chat-database-schema"></a>Schéma de base de données de conversation permanente
  
-Ce document décrit le schéma de la base de données de conversation permanente dans Skype entreprise Server.
+Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.
   
-La base de données de chat permanent fait référence à la base de données qui correspond au rôle de serveur principal de Skype entreprise Server **PersistentChatStore** (correspondant à la base de données MGC) et **PersistentChatComplianceStore** (qui correspond à la base de données mgccomp). L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.
+La base de données de conversation permanente fait référence à la base de données correspondant aux rôles serveur principal Skype Entreprise Server **PersistentChatStore** (correspondant à la base de données mgc) et **PersistentChatComplianceStore** (correspondant à la base de données mgccomp). Le but de la publication de ce schéma est de vous permettre de créer des requêtes et d’obtenir des informations sur la création de rapports pertinents en matière de conversation instantanée, de salles actives, de contributeurs les plus productifs, etc.
   
 > [!IMPORTANT]
-> Nous nous réservons le droit d’évolutionr ce schéma. Microsoft n’apporte aucune garantie de conservation de la compatibilité descendante avec ce schéma publié. 
+> Nous nous réservons le droit de faire évoluer ce schéma. Microsoft ne donne aucune garantie en matière de conservation de la rétrocompatibilité avec le schéma publié. 
   
-Suivez ces meilleures pratiques :
+Respectez les meilleures pratiques suivantes :
   
-- Aucune sélection\* //est prise en charge, car la liste de colonnes peut grandir.
+- Aucun select \* // n’est pris en charge, car la liste des colonnes peut croître.
     
 - Aucune modification de schéma générée par l’utilisateur n’est prise en charge.
     
 - Aucune opération d’écriture n’est prise en charge.
     
-- Testez toutes les requêtes que vous créez sur des bases de données de taille représentative pour vous assurer que les requêtes peuvent être effectuées à un niveau en fonction de vos besoins.
+- Testez les requêtes que vous créez sur des bases de données représentatives en matière de taille afin d’avoir la garantie que ces requêtes peuvent répondre à vos besoins.
     
 ## <a name="in-this-section"></a>Contenu de cette section
 
 - [Liste des tables de serveur de conversation permanente](list-of-persistent-chat-server-tables.md)
     
-- [Liste des tables de conformité serveur Chat permanent dans Skype entreprise Server](list-of-persistent-chat-server-compliance-tables.md)
+- [Liste des tables de conformité du serveur de conversation permanente dans Skype Entreprise Server](list-of-persistent-chat-server-compliance-tables.md)
     
 - [Détails de la table des serveurs de conversation permanente](persistent-chat-server-table-details.md)
     

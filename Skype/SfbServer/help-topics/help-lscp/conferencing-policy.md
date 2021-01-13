@@ -1,8 +1,8 @@
 ---
 title: Stratégie de conférence
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,69 +14,69 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
-description: La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion).
+ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823027"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807394"
 ---
 # <a name="conferencing-policy"></a>Stratégie de conférence
 
-La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
+Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion).
 
-Les stratégies de conférence incluent la stratégie globale et, si vous le souhaitez, une ou plusieurs stratégies de site et d’utilisateur :
+Les stratégies de conférence incluent la stratégie globale, ainsi qu’éventuellement une ou plusieurs stratégies de site et utilisateur :
 
-- **Politique globale :** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
+- **Stratégie globale :** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale mais vous ne pouvez pas la supprimer. Si vous essayez de supprimer la stratégie globale, toutes les valeurs par défaut des paramètres sont réinitialisées.
 
-- **Stratégies de site (facultatif) :** Vous pouvez créer une ou plusieurs stratégies de conférences de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
+- **Stratégies de site (facultatives) :** Vous pouvez créer une ou plusieurs stratégies de conférence de site, chacune s’applique à un site spécifique. Les stratégies de site remplacent la stratégie globale.
 
-- **Stratégies utilisateur (facultatif) :** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
+- **Stratégies utilisateur (facultatives) :** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur, chacune s’applique à un utilisateur ou à un groupe d’utilisateurs spécifique. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
-La page **stratégie de conférence** affiche la liste de toutes les stratégies de conférence définies pour votre organisation.
+La page **Stratégie de conférence** affiche la liste de toutes les stratégies de conférence définies pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **Stratégie d’emplacement**, vous pouvez effectuer les tâches suivantes :
+Vous pouvez effectuer les tâches suivantes à partir de la page **Stratégie d’emplacement** :
 
-- Créer une stratégie de conférence de sites ou une stratégie de conférence utilisateur
+- Créer une nouvelle stratégie de conférence de site ou stratégie de conférence utilisateur
 
-- Modification de la stratégie globale, d’une stratégie de site ou d’une stratégie utilisateur existante
+- Modifier la stratégie globale ou une stratégie de site ou stratégie utilisateur existante
 
-- Suppression d’une stratégie de site ou d’une stratégie utilisateur
+- Supprimer une stratégie de site ou une stratégie utilisateur
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste ci-dessous décrit les commandes de la page.
+La liste suivante décrit les commandes de la page.
 
-- **Nouvelle** Démarre une nouvelle stratégie de conférence de sites ou une stratégie de conférence utilisateur.
+- **Nouveau** Démarre une nouvelle stratégie de conférence de site ou de conférence utilisateur.
 
-- **Modifier** Permet d’ouvrir la stratégie de conférence sélectionnée et de la modifier, de sélectionner toutes les stratégies de conférence dans la liste, ou de supprimer la stratégie de site ou la stratégie d’utilisateur sélectionnée.
+- **Modifier** Ouvre la stratégie de conférence sélectionnée pour la modifier, sélectionne toutes les stratégies de conférence dans la liste ou supprime la stratégie de site ou la stratégie utilisateur sélectionnée.
 
     > [!NOTE]
-    > Pour la stratégie globale, l’option **Supprimer** restaure les valeurs par défaut des paramètres.
+    > Pour la stratégie globale, **Supprimer** rétablit les valeurs par défaut des paramètres.
 
 - **Actualiser** Actualise la liste des stratégies de conférence.
 
-La liste ci-dessous décrit les champs de la page.
+La liste suivante décrit les champs de la page.
 
 - **Nom** Identifie la stratégie de conférence.
 
-- **Scope** Identifie l’étendue de la stratégie de conférence : global, site ou utilisateur.
+- **Étendue** Identifie l’étendue de la stratégie de conférence : globale, de site ou d’utilisateur.
 
-- **Collaboration** sur les données Activé si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.
+- **Collaboration de données** Vérifié si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.
 
-- **Partage d’application** Activé si la stratégie de conférence spécifie que le partage d’application est autorisé lors de conférences.
+- **Partage d’application** Cette vérification indique si la stratégie de conférence spécifie que le partage d’application est autorisé dans les conférences.
 
-- **Audio** Activé si la stratégie de conférence spécifie que le son est autorisé lors des conférences.
+- **Audio** Cette vérification est vérifiée si la stratégie de conférence spécifie que l’audio est autorisé dans les conférences.
 
-- **Vidéo** Activé si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.
+- **Vidéo** Cette vérification est vérifiée si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.
 
-- **RTC** Activé si la stratégie de conférence spécifie que la Conférence rendez-vous RTC est autorisée.
+- **PSTN** Cette vérification indique si la stratégie de conférence indique que la conférence d’accès PSTN est autorisée.
 
-- **Enregistrement** en Activé si la stratégie de conférence spécifie que l’enregistrement est autorisé lors de conférences.
+- **Enregistrement** Cette vérification indique si la stratégie de conférence spécifie que l’enregistrement est autorisé dans les conférences.
 
-Pour plus d’informations sur les fonctionnalités et les fonctions de conférence, reportez-vous à la rubrique [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, reportez-vous à la rubrique [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) de la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de conférence, voir [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) dans la documentation des opérations.
 
 

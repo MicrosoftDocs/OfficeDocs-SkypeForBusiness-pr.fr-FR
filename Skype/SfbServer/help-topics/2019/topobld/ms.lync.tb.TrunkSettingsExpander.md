@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres de la jonction
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,37 +14,37 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
-ms.openlocfilehash: 97c1578418fdf46ad39256312d7aa15abd44ff84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
+ms.openlocfilehash: 43cce7d0e61cf2e2c4f5fa6e4bcb845fd63fbc03
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797405"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807534"
 ---
-# <a name="trunk-settings-expander"></a>Expanseur des paramètres de la jonction
+# <a name="trunk-settings-expander"></a>Expandeur des paramètres de la jonction
 
-Pour modifier les paramètres d’une jonction SIP, procédez comme suit :
+Pour modifier les paramètres d’une jonction SIP, procédez comme suit :
 
- **Nom de la jonction** : entrée requise, qui identifie de manière unique la jonction SIP dans le déploiement.
+ **Nom de la jonction** est une entrée requise et qui identifie de manière unique la jonction SIP dans le déploiement.
 
- **Passerelle RTC associée** : sélectionnez une passerelle RTC existante définie dans le déploiement.
+ **Passerelle PSTN associée** : sélectionnez une passerelle PSTN existante qui a été définie dans le déploiement.
 
- **Port d’écoute pour la passerelle IP/RTC** : indique le port TCP/IP de la passerelle sur lequel les requêtes seront écoutées. La valeur obligatoire peut différer en fonction du fournisseur de la passerelle, mais le port par défaut est le port 5067.
+ **Port d’écoute pour la passerelle IP/PSTN** : indique que le port TCP/IP de la passerelle écoutera les requêtes. Il se peut que la valeur requise diffère, en fonction du fournisseur de la passerelle, mais le port par défaut est 5067.
 
- **Protocole de transport SIP** : le protocole utilisé est le protocole TCP ou le protocole TLS. Le protocole TLS est le protocole par défaut. Pour connaître la prise en charge de la passerelle, reportez-vous à la documentation du fournisseur de la passerelle. Le protocole par défaut, le protocole TLS, est un choix plus sécurisé si la passerelle le prend en charge.
+ **Protocole de transport SIP** : le protocole utilisé est soit TCP, soit TLS. TLS est le protocole par défaut. Consultez la documentation du fournisseur de la passerelle pour connaître la prise en charge de la passerelle. TLS, protocole par défaut, représente un choix plus sécurisé si la passerelle le prend en charge.
 
- **Serveur de médiation associé**: sélectionnez un serveur de médiation existant du déploiement à associer à la ligne SIP.
+ **Serveur de médiation associé**: sélectionnez un serveur de médiation existant dans le déploiement à associer à la ligne SIP.
 
 > [!NOTE]
-> Seul le Trunk racine peut être associé à un serveur de médiation.
+> Seule la troncation racine peut être associée à un serveur de médiation.
 
- **Port du serveur de médiation associé**: une valeur requise, qui est définie sur la valeur sur laquelle le serveur de médiation est configuré pour l’écoute.
+ **Port du serveur de médiation** associé : valeur requise, définie sur la valeur que le serveur de médiation est configuré pour écouter.
 
-![Expanseur des paramètres de la jonction](../../../media/Trunk_Settings_Expander.jpg)
+![Expandeur des paramètres de la jonction](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Liste de vérification du déploiement SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Liste de vérification du déploiement de la trunking SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Composants et topologies pour le trunking SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Composants et topologies pour la jonction SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

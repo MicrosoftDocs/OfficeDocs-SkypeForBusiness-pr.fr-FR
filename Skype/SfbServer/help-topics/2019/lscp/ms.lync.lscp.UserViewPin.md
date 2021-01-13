@@ -1,8 +1,8 @@
 ---
-title: Affichage de l’état de la broche pour les utilisateurs
+title: Utilisateurs afficher l’état du code confidentiel
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0f4d30860560150d3988a85dffafcd0c85e5f9c3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: 06a9fbf6411747c43213a5490fde3358ed6e798c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797911"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808074"
 ---
-# <a name="users-view-pin-status"></a>Utilisateurs : afficher le statut du code confidentiel
+# <a name="users-view-pin-status"></a>Utilisateurs : Afficher le statut du code confidentiel
  
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
   
-- [Définir le code confidentiel de conférence rendez-vous d’un utilisateur dans Skype entreprise Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Définir le code confidentiel de conférence d’un utilisateur dans Skype Entreprise Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

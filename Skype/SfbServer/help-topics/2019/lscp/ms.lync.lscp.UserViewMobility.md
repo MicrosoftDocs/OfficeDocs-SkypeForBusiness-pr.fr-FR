@@ -1,8 +1,8 @@
 ---
-title: Les utilisateurs peuvent consulter la stratégie de mobilité
+title: Utilisateurs afficher la stratégie de mobilité
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
-description: La boîte de dialogue d’affichage de la stratégie de mobilité affiche les propriétés de la stratégie de mobilité sélectionnée.
-ms.openlocfilehash: 32625a69cab3aa7e0ccc5c0ec984f885f6862d93
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La boîte de dialogue Affichage – Stratégie de mobilité affiche les propriétés de la stratégie de mobilité sélectionnée.
+ms.openlocfilehash: ef40fa67f1762ed67439aef55ec38e19dfb5dbcc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797931"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808094"
 ---
 # <a name="users-view-mobility-policy"></a>Utilisateurs : afficher une stratégie de mobilité
 
-La boîte de dialogue d’affichage de la **stratégie** de mobilité affiche les propriétés de la stratégie de mobilité sélectionnée.
+La boîte de dialogue **Affichage – Stratégie de mobilité** affiche les propriétés de la stratégie de mobilité sélectionnée.
 
-Pour plus d’informations sur l’attribution de stratégies de mobilité, voir [affecter une stratégie de mobilité par utilisateur](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) et [configurer une stratégie de mobilité](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+Pour plus d’informations sur l’attribution de stratégies de mobilité, voir [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) et [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
 ## <a name="see-also"></a>Voir aussi
 
 [Planification de la mobilité](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[Déploiement de mobilité](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Déploiement de la mobilité](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
 
-[Politiques de mobilité](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
+[Stratégies de mobilité](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)

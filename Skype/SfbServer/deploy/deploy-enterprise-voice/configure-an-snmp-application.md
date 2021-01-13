@@ -1,8 +1,8 @@
 ---
-title: Configurer une application SNMP dans Skype entreprise Server
+title: Configurer une application SNMP dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Configurer une application SNMP pour qu’elle fonctionne avec E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: fd8db117f590343d3e2f5a0194a0f6d8c3bcfb39
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Configurez une application SNMP pour qu’elle fonctionne avec E9-1-1 dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768137"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804154"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurer une application SNMP dans Skype entreprise Server
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurer une application SNMP dans Skype Entreprise Server
  
-Configurer une application SNMP pour qu’elle fonctionne avec E9-1-1 dans Skype entreprise Server Voice. 
+Configurez une application SNMP pour qu’elle fonctionne avec E9-1-1 dans Skype Entreprise Server Voix Entreprise. 
   
-Skype entreprise Server inclut une interface de service Web standard que vous pouvez utiliser pour connecter le service d’information d’emplacement aux applications SNMP (simple Network Management Protocol) qui correspondent aux adresses MAC et aux informations sur les ports et aux commutateurs. 
+Skype Entreprise Server inclut une interface de service web standard que vous pouvez utiliser pour connecter le service Informations d’emplacement aux applications SNMP (Simple Network Management Protocol) qui correspondent aux adresses MAC avec les informations de port et de commutateur. 
   
-Si une application SNMP est installée et que le service des informations de géolocalisation ne trouve pas de correspondance dans la base de données de localisation, le service d’information d’emplacement interroge automatiquement l’application à l’aide de l’adresse MAC fournie par le client. Le service d’information d’emplacement utilise alors le port et les informations de commutation renvoyées par l’application SNMP pour interroger de nouveau la base de données d’emplacement.
+Si une application SNMP est installée et que le service Informations d’emplacement ne parvient pas à trouver de correspondance dans la base de données d’emplacements, le service Informations d’emplacement interroge automatiquement l’application à l’aide de l’adresse MAC fournie par le client. Le service Informations d’emplacement utilise ensuite les informations de port et de commutateur renvoyées par l’application SNMP pour interroger à nouveau la base de données d’emplacements.
   
 > [!NOTE]
 > Les adresses MAC ne sont pas disponibles sur les ordinateurs exécutant Windows 8. 
   
 ### <a name="to-configure-the-snmp-application-url"></a>Pour configurer l’URL de l’application SNMP
 
-1.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1.  Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
 2. Exécutez l’applet de commande suivante pour configurer l’URL de l’application SNMP. 
     

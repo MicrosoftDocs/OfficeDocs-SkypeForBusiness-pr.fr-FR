@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue de la jonction
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous pouvez cliquer avec le bouton droit sur un Trunk SIP existant dans le générateur de topologie pour effectuer les opérations suivantes :'
-ms.openlocfilehash: cae913dadf25a9931c626be6d15b839eb4520c3c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Cliquez avec le bouton droit sur une trunk SIP existante dans le Générateur de topologie pour effectuer les choses suivantes :'
+ms.openlocfilehash: 3b1d27e08c947d8558c888f2dd0ee5d2b59f1a66
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795083"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807524"
 ---
 # <a name="trunk-scope-node"></a>Nœud d’étendue de la jonction
  
-Vous pouvez cliquer avec le bouton droit sur un Trunk SIP existant dans le générateur de topologie pour effectuer les opérations suivantes :
+Cliquez avec le bouton droit sur une trunk SIP existante dans le Générateur de topologie pour effectuer les choses suivantes :
   
-- **Modifier les propriétés** : lance l’Assistant **Modifier les propriétés** utilisé pour modifier ou redéfinir la configuration d’une jonction SIP existante
+- **Modifier les propriétés** : Démarre l’Assistant **Modifier les propriétés** utilisé pour modifier ou redéfinir la configuration d’une jonction SIP existante
     
 Outre l’option Modifier les propriétés, vous pouvez effectuer les tâches générales suivantes :
   
-- **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures de Lync Server ou supprimer le déploiement.
+- **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants de versions antérieures de Lync Server ou supprimer le déploiement.
     
-- **Supprimer** : utilisez cette sélection pour supprimer l’élément actuellement sélectionné. D’autres dépendances peuvent empêcher cette suppression. Une boîte de dialogue indiquera les services et les dépendances à résoudre avant de pouvoir supprimer cet élément.
+- **Supprimer** Vous utilisez cette sélection pour supprimer l’élément en cours de sélection. D’autres dépendances peuvent empêcher cette suppression. Une boîte de dialogue indiquera les services et dépendances à résoudre avant de pouvoir procéder à la suppression de cet élément.
     
-- **Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.
+- **Aide**. Vous pouvez utiliser cette option pour accéder à l’aide du nœud actif.
     
 

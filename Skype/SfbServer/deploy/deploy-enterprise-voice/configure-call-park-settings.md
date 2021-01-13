@@ -1,8 +1,8 @@
 ---
-title: Configurer les paramètres de parc d’appels dans Skype entreprise
+title: Configurer les paramètres de parcment d’appel dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Modifiez les paramètres de parc d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: e9410d3b088e5978588de991aeaa9da73327f50a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Modifier les paramètres de parcier d’appel dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768127"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804114"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parc d’appels dans Skype entreprise
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parcment d’appel dans Skype Entreprise
 
-Modifiez les paramètres de parc d’appels dans Skype entreprise Server Voice.
+Modifier les paramètres de parcier d’appel dans Skype Entreprise Server Voix Entreprise.
 
-Si vous ne voulez pas utiliser les paramètres de parc d’appels par défaut, vous pouvez les personnaliser. Lorsque vous installez l’application de parc d’appels, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres généraux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
+Si vous ne souhaitez pas utiliser les paramètres de parcment d’appel par défaut, vous pouvez les personnaliser. Lorsque vous installez l’application de parcage d’appel, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres globaux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
 
 > [!NOTE]
 > Nous vous recommandons de configurer au moins l’option **OnTimeoutURI** pour la destination de remplacement à utiliser lorsqu’un appel parqué échoue.
@@ -35,25 +35,25 @@ Si vous ne voulez pas utiliser les paramètres de parc d’appels par défaut, v
 Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration** permettent de configurer les paramètres suivants :
 
 
-| **Cette option :**                     | **Spécifie cet élément :**                                                                                                                                                                                                                                                                                                                   |
+| **Cette option :**                     | **Définit ceci :**                                                                                                                                                                                                                                                                                                                   |
 |:-------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **CallPickupTimeoutThreshold** <br/> | Période qui s’écoule entre le moment où un appel est parqué et le moment où il sonne de nouveau sur le téléphone auquel il était destiné.  <br/> La valeur doit être entrée au format hh:mm:ss (heures, minutes, secondes). La valeur minimale est de 10 secondes et la valeur maximale, de 10 minutes. La valeur par défaut est 00:01:30.  <br/> |
-| **EnableMusicOnHold** <br/>          | Si une musique est diffusée pour l’appelant pendant le parcage d’un appel.  <br/> Les valeurs sont True ou False. La valeur par défaut est True.  <br/>                                                                                                                                                                                                                 |
-| **MaxCallPickupAttempts** <br/>      | Nombre de sonnerie de rappel d’un appel parqué avant qu’il soit transféré vers l’URI de remplacement spécifié pour le paramètre **OnTimeoutURI**. La valeur par défaut est 1.<br/>                                                                                                                         |
-| **OnTimeoutURI** <br/>               | Adresse SIP (Session Initiation Protocol) de l’utilisateur ou groupe Response Group vers laquelle l’appel parqué sans réponse est routé lorsque la valeur **MaxCallPickupAttempts** est atteinte. <br/> La valeur doit être une URI SIP (Session Initiation Protocol) et commencer par la chaîne « sip: ». Par exemple, sip:bob@contoso.com. La valeur par défaut est aucune adresse de transfert.<br/>                                                   |
+| **CallPickupTimeoutThreshold** <br/> | Laps de temps qui s’écoule entre le moment où un appel est parqué et le moment où il sonne de nouveau sur le téléphone auquel il était destiné.  <br/> La valeur doit être entrée au format hh:mm:ss (heures, minutes, secondes). La valeur minimale est de 10 secondes et la valeur maximale est de 10 minutes. La valeur par défaut est 00:01:30.  <br/> |
+| **EnableMusicOnHold** <br/>          | Si une musique est diffusée pour l’appelant pendant le parcage d’un appel.  <br/> Les valeurs sont True ou False. La valeur par défaut est True.  <br/>                                                                                                                                                                                                                 |
+| **MaxCallPickupAttempts** <br/>      | Nombre de sonnerie de rappel d’un appel parqué avant qu’il ne soit transféré vers l’URI de remplacement spécifié pour le paramètre **OnTimeoutURI**. La valeur par défaut est 1.<br/>                                                                                                                         |
+| **OnTimeoutURI** <br/>               | Adresse SIP de l’utilisateur ou groupe Response Group vers laquelle l’appel parqué sans réponse est routé lorsque la valeur **MaxCallPickupAttempts** est atteinte. <br/> La valeur doit être une URI SIP et commencer par la chaîne « sip: ». Par exemple, sip:bob@contoso.com. La valeur par défaut est aucune adresse de transfert.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres du parc d’appels
+### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres du parcier d’appel
 
-1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
 
-2. Exécutez :
+2. Exécutez :
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > L’applet de commande **Get-CsSite** permet d’identifier le site. Pour plus d’informations, reportez-vous à la documentation Skype entreprise Server Management Shell.
+   > L’applet de commande **Get-CsSite** permet d’identifier le site. Pour plus d’informations, voir la documentation de Skype Entreprise Server Management Shell.
 
     Par exemple :
 
@@ -63,9 +63,9 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnalisation de l’attente musicale du parcage d’appel dans Skype Entreprise 2015](customize-call-park-music-on-hold.md)
+[Personnalisation de l’attente musicale du parc d’appel dansSkype for Business 2015](customize-call-park-music-on-hold.md)
 
-[Nouveau-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 

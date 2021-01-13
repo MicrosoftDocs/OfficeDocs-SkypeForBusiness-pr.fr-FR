@@ -1,8 +1,8 @@
 ---
-title: Effacement manuel des bases de données de l’enregistrement des détails des appels et de la qualité de l’activité dans Skype entreprise Server
+title: Vider manuellement les bases de données d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 'Résumé : Découvrez comment purger manuellement les enregistrements de la base de données CDR et de la base de données QoE utilisée par Skype entreprise Server.'
-ms.openlocfilehash: c5d0eb31ad00d0e8636f5c151240c54df7320bbc
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Découvrez comment vider manuellement les enregistrements de l’enregistrement des détails des appels et des bases de données QoE utilisées par Skype Entreprise Server.'
+ms.openlocfilehash: 2d36af2d06b6d6951e436ea456d4036478278600
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41787694"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802144"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Effacement manuel des bases de données de l’enregistrement des détails des appels et de la qualité de l’activité dans Skype entreprise Server
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Vider manuellement les bases de données d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment purger manuellement les enregistrements de la base de données CDR et de la base de données QoE utilisée par Skype entreprise Server.
+**Résumé :** Découvrez comment vider manuellement les enregistrements de l’enregistrement des détails des appels et des bases de données QoE utilisées par Skype Entreprise Server.
   
-Les bases de données d’enregistrement des détails des appels (CDR) et de qualité de l’expérience (QoE) peuvent être manuellement ou automatiquement vidées des enregistrements. La purge des enregistrements peut s’avérer importante afin que les données ne deviennent pas obsolètes ou lorsque que l’on doit réinitialiser des rapports à partir d’un planning de référence initial.
+Les bases de données CDR et QoE peuvent être purgées manuellement ou automatiquement des enregistrements. La purge des enregistrements peut être importante afin que les données ne deviennent pas obsolètes ou lorsque vous avez besoin de réinitialiser les rapports à partir d’une ligne de base de départ.
   
-## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Vider manuellement des enregistrements à partir de bases de données CDR et QoE
+## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Vider manuellement les enregistrements des bases de données CDR et QoE
 
-Les administrateurs peuvent configurer les bases de données d’enregistrement des détails des appels (CDR) et/ou de qualité de l’expérience (QoE) pour vider automatiquement la base de données des enregistrements anciens. Cette opération se produit si le vidage a été activé pour la base de données spécifiée (CDR ou QoE) et si celle-ci contient des enregistrements dont l’ancienneté dépasse la durée spécifiée. Par exemple, les administrateurs peuvent configurer le système pour que tous les jours à 1:00 les enregistrements QoE de plus de 60 jours soient supprimés de la base de données QoE.
+Les administrateurs peuvent configurer l’enregistrement des détails des appels (CDR) et/ou les bases de données de qualité de l’expérience (QoE) pour vider automatiquement les anciens enregistrements de la base de données. Cela se produit si le purge a été activé pour la base de données spécifiée (CDR ou QoE) et si des enregistrements ont été dans la base de données plus longtemps que la durée spécifiée. Par exemple, tous les jours à 13h00, les administrateurs peuvent configurer le système afin que les enregistrements QoE de plus de 60 jours soient supprimés de la base de données QoE.
   
-Outre la purge automatique, deux nouvelles cmdlets &#x2014; Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge &#x2014; ont été ajoutées à Skype entreprise Server. ces applets de applet permettent aux administrateurs de purger manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour purger manuellement tous les enregistrements de plus de 10 jours de la base de données CDR, vous pouvez utiliser une commande similaire à celle-ci :
+En plus de ce purge automatique, deux nouvelles cmdlets &#x2014; Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge &#x2014; ont été ajoutées à Skype Entreprise Server ; Ces cmdlets permettent aux administrateurs de vider manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour vider manuellement tous les enregistrements de plus de 10 jours de la base de données cdr, vous pouvez utiliser une commande semblable à celle-ci :
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-Dans la commande précédente, les enregistrements de détail des appels et les enregistrements de données de diagnostic de plus de 10 jours sont supprimés de la base de données de surveillance sur atl-sql-001.litwareinc.com. (Les enregistrements de détail des appels sont des rapports d’utilisateur ou de session. Les enregistrements de données de diagnostic sont des journaux de diagnostic téléchargés par des applications clientes telles que Skype entreprise Server.)
+Dans la commande précédente, les enregistrements de détail des appels et les enregistrements de données de diagnostic de plus de 10 jours sont supprimés de la base de données de surveillance sur atl-sql-001.litwareinc.com. (Les enregistrements de détail des appels sont des rapports d’utilisateur ou de session. Les enregistrements de données de diagnostic sont des journaux de diagnostic téléchargés par des applications clientes telles que Skype Entreprise Server.)
   
-Comme le montre l’exemple précédent, au moment d’exécuter l’applet de commande Invoke-CsCdrDatabasePurge, vous devez inclure les paramètres PurgeCallDetaiDataOlderThanDays et PurgeDiagnosticDataOlderThanDays. Cependant, ces paramètres ne doivent pas avoir la même valeur. Par exemple, il est possible de vider les enregistrements de détail des appels de plus de 10 jours tout en conservant l’ensemble des enregistrements de données de diagnostic dans la base de données. Pour cela, définissez PurgeCallDetailDataOlderThanDays sur 10 et PurgeDiagnosticDataOlderThanDays sur 0. Par exemple :
+Comme le montre l’exemple précédent, au moment d’exécuter l’applet de commande Invoke-CsCdrDatabasePurge, vous devez inclure les paramètres PurgeCallDetaiDataOlderThanDays et PurgeDiagnosticDataOlderThanDays. Cependant, ces paramètres ne doivent pas avoir la même valeur. Par exemple, il est possible de vider les enregistrements de détail des appels de plus de 10 jours tout en conservant l’ensemble des enregistrements de données de diagnostic dans la base de données. Pour ce faire, définissez PurgeCallDetailDataOlderThanDays sur 10 et PurgeDiagnosticDataOlderThanDays sur 0. Par exemple :
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
@@ -58,7 +58,7 @@ Vous devez taper Y (pour Oui) ou A (pour Oui pour tout) avant que le vidage de l
 -Confirm:$False
 ```
 
-Exemple :
+Par exemple :
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10 -Confirm:$False

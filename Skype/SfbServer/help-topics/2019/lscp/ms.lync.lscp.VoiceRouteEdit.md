@@ -1,8 +1,8 @@
 ---
-title: Trajectoire vocale création d’un nouveau ou modification existante
+title: 'Itinéraire des voix : création d’un itinéraire de messagerie vocale ou modification d’un itinéraire existant'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 187a8d9eb4696bb37ee9854b9b5134349a35ea31
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: ad75670f67e22bf1eaa47a02d8c5eb2c905340ce
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791772"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807894"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a>Itinéraire des communications vocales : en créer un autre ou en modifier un existant
+# <a name="voice-route-create-new-or-edit-existing"></a>Itinéraire des communications vocales : créer un nouveau ou modifier un itinéraire existant
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification d’un itinéraire vocal dans Skype entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Créer ou modifier un itinéraire de voix dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [Modification d’un itinéraire vocal](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 

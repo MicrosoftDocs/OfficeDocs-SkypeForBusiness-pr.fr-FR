@@ -1,8 +1,8 @@
 ---
-title: Configurer un site réseau créer une nouvelle ou modifier un site existant
+title: Configurer un site réseau en créer un nouveau ou en modifier un existant
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
-description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 2719bebe7c3f5a73ffd4b41f7a8c4024ebb63813
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
+ms.openlocfilehash: 49ed9b9867cd5ace760c655ee77ad274d2fd229b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795295"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808494"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a>Configuration d’un site réseau : en créer une autre ou en modifier une existant
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a>Configuration d’un site réseau : création d’une nouvelle ou modification d’une configuration existante
 
-Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
+Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
 - [Configuration des sites réseau](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
