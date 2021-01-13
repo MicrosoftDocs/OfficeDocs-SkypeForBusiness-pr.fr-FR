@@ -1,8 +1,8 @@
 ---
-title: Table ContentTypes dans Skype entreprise Server 2015
+title: Table ContentTypes dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
-description: La table ContentTypes est une table qui contient une liste des types de contenu utilisés dans les sessions d’égal à égal et de conférences. Chaque enregistrement de la table représente un type de contenu.
-ms.openlocfilehash: 6dadf7de0107005cca751e27f0c0250bc8f9f03a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La table ContentTypes est une table annexe qui stocke la liste des types de contenu utilisés dans les sessions d’égal à égal et dans les sessions de conférence. Chaque enregistrement de la table représente un type de contenu.
+ms.openlocfilehash: 461631c8fc824a23f0e4b22b65a3cbc8cf6a2c73
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815302"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816084"
 ---
-# <a name="contenttypes-table-in-skype-for-business-server-2015"></a><span data-ttu-id="8e68a-104">Table ContentTypes dans Skype entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="8e68a-104">ContentTypes table in Skype for Business Server 2015</span></span>
+# <a name="contenttypes-table-in-skype-for-business-server-2015"></a><span data-ttu-id="f7c7c-104">Table ContentTypes dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="f7c7c-104">ContentTypes table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="8e68a-105">La table ContentTypes est une table qui contient une liste des types de contenu utilisés dans les sessions d’égal à égal et de conférences.</span><span class="sxs-lookup"><span data-stu-id="8e68a-105">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="8e68a-106">Chaque enregistrement de la table représente un type de contenu.</span><span class="sxs-lookup"><span data-stu-id="8e68a-106">Each record in the table represents one content type.</span></span>
+<span data-ttu-id="f7c7c-p102">La table ContentTypes est une table annexe qui stocke la liste des types de contenu utilisés dans les sessions d’égal à égal et dans les sessions de conférence. Chaque enregistrement de la table représente un type de contenu.</span><span class="sxs-lookup"><span data-stu-id="f7c7c-p102">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions. Each record in the table represents one content type.</span></span>
   
-|<span data-ttu-id="8e68a-107">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="8e68a-107">**Column**</span></span>|<span data-ttu-id="8e68a-108">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="8e68a-108">**Data Type**</span></span>|<span data-ttu-id="8e68a-109">**Clé/Index**</span><span class="sxs-lookup"><span data-stu-id="8e68a-109">**Key/Index**</span></span>|<span data-ttu-id="8e68a-110">**Détails**</span><span class="sxs-lookup"><span data-stu-id="8e68a-110">**Details**</span></span>|
+|<span data-ttu-id="f7c7c-107">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="f7c7c-107">**Column**</span></span>|<span data-ttu-id="f7c7c-108">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="f7c7c-108">**Data Type**</span></span>|<span data-ttu-id="f7c7c-109">**Clé/Index**</span><span class="sxs-lookup"><span data-stu-id="f7c7c-109">**Key/Index**</span></span>|<span data-ttu-id="f7c7c-110">**Details**</span><span class="sxs-lookup"><span data-stu-id="f7c7c-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="8e68a-111">**ContentTypeId**</span><span class="sxs-lookup"><span data-stu-id="8e68a-111">**ContentTypeId**</span></span> <br/> |<span data-ttu-id="8e68a-112">int</span><span class="sxs-lookup"><span data-stu-id="8e68a-112">int</span></span>  <br/> |<span data-ttu-id="8e68a-113">Principal</span><span class="sxs-lookup"><span data-stu-id="8e68a-113">Primary</span></span>  <br/> |<span data-ttu-id="8e68a-114">Numéro unique identifiant le type de contenu.</span><span class="sxs-lookup"><span data-stu-id="8e68a-114">Unique number identifying the content type.</span></span>  <br/> |
-|<span data-ttu-id="8e68a-115">**Indiquez**</span><span class="sxs-lookup"><span data-stu-id="8e68a-115">**ContentType**</span></span> <br/> |<span data-ttu-id="8e68a-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="8e68a-116">nvarchar(256)</span></span>  <br/> ||<span data-ttu-id="8e68a-117">Nom du type de contenu.</span><span class="sxs-lookup"><span data-stu-id="8e68a-117">Content type name.</span></span>  <br/> |
+|<span data-ttu-id="f7c7c-111">**ContentTypeId**</span><span class="sxs-lookup"><span data-stu-id="f7c7c-111">**ContentTypeId**</span></span> <br/> |<span data-ttu-id="f7c7c-112">int</span><span class="sxs-lookup"><span data-stu-id="f7c7c-112">int</span></span>  <br/> |<span data-ttu-id="f7c7c-113">Primaire</span><span class="sxs-lookup"><span data-stu-id="f7c7c-113">Primary</span></span>  <br/> |<span data-ttu-id="f7c7c-114">Numéro unique d’identification du type de contenu.</span><span class="sxs-lookup"><span data-stu-id="f7c7c-114">Unique number identifying the content type.</span></span>  <br/> |
+|<span data-ttu-id="f7c7c-115">**ContentType**</span><span class="sxs-lookup"><span data-stu-id="f7c7c-115">**ContentType**</span></span> <br/> |<span data-ttu-id="f7c7c-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="f7c7c-116">nvarchar(256)</span></span>  <br/> ||<span data-ttu-id="f7c7c-117">Nom du type de contenu.</span><span class="sxs-lookup"><span data-stu-id="f7c7c-117">Content type name.</span></span>  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: Outils d’administration de l’Assistant Déploiement
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server 2015, voir Installer Skype entreprise Server 2015.
-ms.openlocfilehash: c99936a4ab9dbef0c8da5b079337f8323d6a18ef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir Install Skype for Business Server 2015.
+ms.openlocfilehash: 41b8130b3d49e7175b361495d170bab644304c13
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823738"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815454"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="1d99b-103">Assistant Déploiement : outils d’administration</span><span class="sxs-lookup"><span data-stu-id="1d99b-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="085e1-103">Assistant Déploiement : outils d’administration</span><span class="sxs-lookup"><span data-stu-id="085e1-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="1d99b-104">Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype entreprise Server 2015, voir [Installer Skype entreprise server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="1d99b-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="085e1-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir [Install Skype for Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="085e1-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

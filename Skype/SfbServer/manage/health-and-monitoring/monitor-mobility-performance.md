@@ -1,8 +1,8 @@
 ---
-title: Surveiller la mobilité des performances dans Skype entreprise Server
+title: Surveiller les performances de la mobilité dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,45 +11,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 'Résumé : en savoir plus sur le service de mobilité (MCX) et l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.'
-ms.openlocfilehash: 4d604c46704881a055385336f8b1ff32862d929a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.'
+ms.openlocfilehash: d7473d22f2de0576bf6214ae43719c8bfc70d49a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817833"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816834"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a><span data-ttu-id="10a77-103">Surveiller la mobilité des performances dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="10a77-103">Monitor mobility for performance in Skype for Business Server</span></span>
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a><span data-ttu-id="b3835-103">Surveiller les performances de la mobilité dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b3835-103">Monitor mobility for performance in Skype for Business Server</span></span>
  
-<span data-ttu-id="10a77-104">**Résumé :** En savoir plus sur le service de mobilité (MCX) et l’API Unified Communications Web API (UCWA) dans Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="10a77-104">**Summary:** Learn about the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server.</span></span>
+<span data-ttu-id="b3835-104">**Résumé :** Découvrez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="b3835-104">**Summary:** Learn about the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server.</span></span>
   
-<span data-ttu-id="10a77-105">Le service de mobilité de Skype entreprise Server (MCX) et l’API Web de communications unifiées (UCWA) augmentent la charge sur les serveurs frontaux et les listes frontales.</span><span class="sxs-lookup"><span data-stu-id="10a77-105">The Skype for Business Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA) increase the load on Front End Servers and Front End pools.</span></span> <span data-ttu-id="10a77-106">Les appareils mobiles qui maintiennent une connexion au serveur, même lorsque l’application mobile est réduite (par exemple, les appareils Android et Nokia exécutant Lync 2010 mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 mobile, imposent un chargement supérieur aux appareils mettre fin à sa connexion au serveur lorsque l’application mobile est réduite ;</span><span class="sxs-lookup"><span data-stu-id="10a77-106">Mobile devices that maintain a connection to the server even when the mobile application is minimized, such as Android and Nokia devices running Lync 2010 Mobile, as well as Android and Apple devices running Lync 2013 Mobile, impose a greater load than devices that terminate their connection to the server when the mobile application is minimized.</span></span> <span data-ttu-id="10a77-107">À mesure que votre utilisation mobile augmente, vous devez surveiller les performances de mobilité afin d’identifier toute nécessité d’augmentation de la capacité.</span><span class="sxs-lookup"><span data-stu-id="10a77-107">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span></span>
+<span data-ttu-id="b3835-105">Le service de mobilité de Skype Entreprise Server (Mcx) et l’API web de communications unifiées (UCWA) augmentent la charge sur les serveurs frontux et les pools frontux.</span><span class="sxs-lookup"><span data-stu-id="b3835-105">The Skype for Business Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA) increase the load on Front End Servers and Front End pools.</span></span> <span data-ttu-id="b3835-106">Les appareils mobiles qui maintiennent une connexion au serveur même lorsque l’application mobile est réduite, comme les appareils Android et Nokia exécutant Lync 2010 Mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 Mobile, imposent une charge plus élevée que les appareils qui terminent leur connexion au serveur lorsque l’application mobile est réduite.</span><span class="sxs-lookup"><span data-stu-id="b3835-106">Mobile devices that maintain a connection to the server even when the mobile application is minimized, such as Android and Nokia devices running Lync 2010 Mobile, as well as Android and Apple devices running Lync 2013 Mobile, impose a greater load than devices that terminate their connection to the server when the mobile application is minimized.</span></span> <span data-ttu-id="b3835-107">À mesure que votre utilisation de la mobilité augmente, vous devez surveiller les performances de mobilité pour déterminer quand vous devez augmenter votre capacité.</span><span class="sxs-lookup"><span data-stu-id="b3835-107">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="10a77-108">La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="10a77-108">MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019.</span></span> <span data-ttu-id="10a77-109">Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts.</span><span class="sxs-lookup"><span data-stu-id="10a77-109">All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="10a77-110">Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.</span><span class="sxs-lookup"><span data-stu-id="10a77-110">Users with legacy clients using MCX will need to upgrade to a current client.</span></span>
+> <span data-ttu-id="b3835-108">La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="b3835-108">MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019.</span></span> <span data-ttu-id="b3835-109">Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts.</span><span class="sxs-lookup"><span data-stu-id="b3835-109">All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="b3835-110">Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.</span><span class="sxs-lookup"><span data-stu-id="b3835-110">Users with legacy clients using MCX will need to upgrade to a current client.</span></span>
   
-<span data-ttu-id="10a77-111">Plusieurs limites influencent les performances de mobilité :</span><span class="sxs-lookup"><span data-stu-id="10a77-111">Several limits influence mobility performance:</span></span> 
+<span data-ttu-id="b3835-111">Plusieurs limites influencent les performances de mobilité :</span><span class="sxs-lookup"><span data-stu-id="b3835-111">Several limits influence mobility performance:</span></span> 
   
-- <span data-ttu-id="10a77-112">mémoire disponible ;</span><span class="sxs-lookup"><span data-stu-id="10a77-112">Available memory</span></span>
+- <span data-ttu-id="b3835-112">Mémoire disponible</span><span class="sxs-lookup"><span data-stu-id="b3835-112">Available memory</span></span>
     
-- <span data-ttu-id="10a77-113">limite de file d’attente des demandes ;</span><span class="sxs-lookup"><span data-stu-id="10a77-113">Request queue limit</span></span>
+- <span data-ttu-id="b3835-113">Limite de file d’attente des demandes</span><span class="sxs-lookup"><span data-stu-id="b3835-113">Request queue limit</span></span>
     
-- <span data-ttu-id="10a77-114">connexions simultanées ;</span><span class="sxs-lookup"><span data-stu-id="10a77-114">Concurrent connections</span></span>
+- <span data-ttu-id="b3835-114">Connexions simultanées</span><span class="sxs-lookup"><span data-stu-id="b3835-114">Concurrent connections</span></span>
     
-- <span data-ttu-id="10a77-115">longueur de la file d’attente des services Internet (IIS).</span><span class="sxs-lookup"><span data-stu-id="10a77-115">IIS queue length</span></span>
+- <span data-ttu-id="b3835-115">Longueur de file d’attente IIS</span><span class="sxs-lookup"><span data-stu-id="b3835-115">IIS queue length</span></span>
     
-<span data-ttu-id="10a77-p103">Il existe d’autres limites sur les serveurs susceptibles d’avoir un impact sur les performances de mobilité : un maximum de douze connexions, authentifications, renouvellements et fins de sessions. Il n’est pas nécessaire de modifier ces valeurs maximales pour la plupart des déploiements.</span><span class="sxs-lookup"><span data-stu-id="10a77-p103">Other limits on servers that can influence mobility performance are a maximum of 12 concurrent sign-ins, authentications, session renewals, and terminations. These maximums do not need to be modified for most deployments.</span></span>
+<span data-ttu-id="b3835-116">Les autres limites sur les serveurs qui peuvent influencer les performances de mobilité sont un maximum de 12 ouvertures de session, authentifications, renouvellements de session et résiliations simultanées.</span><span class="sxs-lookup"><span data-stu-id="b3835-116">Other limits on servers that can influence mobility performance are a maximum of 12 concurrent sign-ins, authentications, session renewals, and terminations.</span></span> <span data-ttu-id="b3835-117">Ces valeurs maximales n’ont pas besoin d’être modifiées pour la plupart des déploiements.</span><span class="sxs-lookup"><span data-stu-id="b3835-117">These maximums do not need to be modified for most deployments.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="10a77-118">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="10a77-118">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b3835-118">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="b3835-118">In this section</span></span>
 
-- [<span data-ttu-id="10a77-119">Surveiller les limites de capacité de mémoire serveur dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="10a77-119">Monitor for server memory capacity limits in Skype for Business Server</span></span>](server-memory-capacity-limits.md)
+- [<span data-ttu-id="b3835-119">Surveiller les limites de capacité de mémoire des serveurs dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b3835-119">Monitor for server memory capacity limits in Skype for Business Server</span></span>](server-memory-capacity-limits.md)
     
-- [<span data-ttu-id="10a77-120">Surveiller l’utilisation du service de mobilité et de UCWA dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="10a77-120">Monitor Mobility Service and UCWA usage in Skype for Business Server</span></span>](service-and-ucwa-usage.md)
+- [<span data-ttu-id="b3835-120">Surveiller l’utilisation du service de mobilité et de l’UCWA dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b3835-120">Monitor Mobility Service and UCWA usage in Skype for Business Server</span></span>](service-and-ucwa-usage.md)
     
-- [<span data-ttu-id="10a77-121">Configurer le service de mobilité pour des performances élevées dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="10a77-121">Configure Mobility Service for high performance in Skype for Business Server</span></span>](configure-service.md)
+- [<span data-ttu-id="b3835-121">Configurer le service de mobilité pour des performances élevées dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b3835-121">Configure Mobility Service for high performance in Skype for Business Server</span></span>](configure-service.md)
     
-- [<span data-ttu-id="10a77-122">Surveiller les fichiers journaux de suivi de requête IIS dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="10a77-122">Monitoring IIS request tracing log files in Skype for Business Server</span></span>](iis-request-tracing-log-files.md)
+- [<span data-ttu-id="b3835-122">Surveillance des fichiers journaux de suivi des demandes IIS dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b3835-122">Monitoring IIS request tracing log files in Skype for Business Server</span></span>](iis-request-tracing-log-files.md)
     
-- [<span data-ttu-id="10a77-123">Compteurs de performance de mobilité dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="10a77-123">Mobility performance counters in Skype for Business Server</span></span>](performance-counters.md)
+- [<span data-ttu-id="b3835-123">Compteurs de performances de mobilité dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b3835-123">Mobility performance counters in Skype for Business Server</span></span>](performance-counters.md)
     
 
