@@ -1,7 +1,7 @@
 ---
-title: Zones du pays et de la région pour les conférences audio
-ms.author: v-lanac
-author: lanachin
+title: Zones de pays et de région pour l’audioconférence
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: Répertorie les zones de l’audioconférence et le pays et les régions dans chaque zone.
-ms.openlocfilehash: cf3e1df5b89fcf287d1c5c79faa8d1c6a48914d5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+description: Répertorie les zones de l’audioconférence ainsi que le pays et les régions de chaque zone.
+ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908767"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821274"
 ---
-# <a name="country-and-region-zones-for-audio-conferencing"></a>Zones du pays et de la région pour les conférences audio
+# <a name="country-and-region-zones-for-audio-conferencing"></a>Zones de pays et de région pour l’audioconférence
 
-Cet article répertorie les zones du pays et de la région pour les conférences audio.
+Cet article répertorie les zones de pays et de région pour l’audioconférence.
 
-## <a name="zone-a-countries-and-regions"></a>Zones A pays et régions
+## <a name="zone-a-countries-and-regions"></a>Zone A pays et régions
 
 |Pays ou région    |
 |-----|
@@ -84,6 +84,6 @@ Cet article répertorie les zones du pays et de la région pour les conférences
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Période complémentaire pour la numérotation de l'audioconférence](complimentary-dial-out-period.md)
-- [Abonnement à la conférence audio « dial-out »/«appelez-moi au](audio-conferencing-subscription-dial-out.md)
+- [Audio conferencing subscription « Dial-Out"/"Call Me At » minutes benefit](audio-conferencing-subscription-dial-out.md)
 - [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](outbound-calling-restriction-policies.md)
 - [Qu’est-ce que les crédits de communication ?](what-are-communications-credits.md)

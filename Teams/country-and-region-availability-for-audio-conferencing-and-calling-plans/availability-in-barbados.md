@@ -1,7 +1,7 @@
 ---
-title: Disponibilité dans la Barbade
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilité en Barbade
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Barbade.
-ms.openlocfilehash: 551275b6cd17bacbce836e03d1b981ef9fd897af
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour la Barbade.
+ms.openlocfilehash: bce1458ce3506e5c09f466c48f4b1d88d2cadb45
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230973"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821194"
 ---
-# <a name="availability-in-barbados"></a>Disponibilité dans la Barbade
+# <a name="availability-in-barbados"></a>Disponibilité en Barbade
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Barbade.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour la Barbade.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

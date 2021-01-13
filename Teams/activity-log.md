@@ -1,14 +1,14 @@
 ---
-title: Afficher vos affectations de stratégie dans le journal d’activité dans le centre d’administration Microsoft teams
-author: LanaChin
-ms.author: v-lanac
+title: Afficher vos affectations de stratégie dans le journal d’activité du Centre d’administration Microsoft Teams
+author: cichur
+ms.author: v-cichur
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Découvrez comment afficher les activités d’affectation de stratégie dans le journal d’activité dans le centre d’administration Microsoft Teams.
+description: Découvrez comment afficher vos activités d’affectation de stratégie dans le journal d’activité du Centre d’administration Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -18,37 +18,37 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f85899869a8578df59516d0e0d702f8e36bd951
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 2a8d1d49d187808b768b4a92c64c4e667ca0ea8f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374292"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821314"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Afficher vos affectations de stratégie dans le journal d’activité
 
-Lorsque vous attribuez des stratégies aux utilisateurs dans le centre d’administration Microsoft Teams, vous pouvez afficher l’état de ces affectations de stratégie dans le journal d’activité. Le journal d’activité affiche les affectations de stratégie aux lots de plus de 20 utilisateurs par le biais du centre d’administration Microsoft teams depuis les 30 derniers jours. Gardez à l’esprit que le journal d’activité ne montre pas les affectations de packages de stratégie, les affectations de stratégie aux lots de moins de 20 utilisateurs via le centre d’administration Microsoft teams ou les affectations de stratégie via PowerShell.
+Lorsque vous attribuez des stratégies à des utilisateurs dans le Centre d’administration Microsoft Teams, vous pouvez afficher l’état de ces affectations de stratégie dans le journal d’activité. Le journal d’activité affiche les affectations de stratégie à des lots de plus de 20 utilisateurs via le Centre d’administration Microsoft Teams au cours des 30 derniers jours. Gardez à l’esprit que le journal d’activité n’affiche pas les affectations de packages de stratégie, les affectations de stratégies à des lots de moins de 20 utilisateurs via le Centre d’administration Microsoft Teams ou les affectations de stratégies via PowerShell.
 
-![Capture d’écran de la page Journal d’activité](media/activity-log.png)
+![Capture d’écran de la page du journal d’activité](media/activity-log.png)
 
-## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Afficher vos activités d’attribution de stratégie dans le journal d’activité
+## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Afficher vos activités d’affectation de stratégie dans le journal d’activité
 
-Pour afficher vos affectations de stratégie dans le journal d’activité :
+Pour afficher vos affectations de stratégie dans le journal d’activité :
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au **tableau de bord**, puis sous **Journal d’activité**, sélectionnez Afficher les **Détails**.
-2. Vous pouvez afficher toutes les affectations de stratégie ou filtrer la liste par État pour afficher uniquement les affectations **non commencées**, **en cours**ou **achevées**. Les informations suivantes s’affichent sur chaque affectation :
-    - **Nom**: nom de l’affectation de stratégie. Cliquez sur le lien pour afficher plus de détails. Il s’agit du nombre d’utilisateurs auxquels la stratégie a été affectée et du nombre d’affectations achevées, en cours et non démarrées. Vous pouvez également afficher la liste des utilisateurs dans le lot et l’État et le résultat de chaque utilisateur. Voici un exemple :
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Tableau de **bord,** puis sous Journal d’activité, sélectionnez Afficher les **détails.**
+2. Vous pouvez afficher toutes les affectations de stratégie ou filtrer la liste par état pour afficher uniquement les affectations non **commencées,** en cours **ou** **terminées.** Vous verrez les informations suivantes sur chaque devoir :
+    - **Nom**: nom de l’affectation de stratégie. Cliquez sur le lien pour afficher plus de détails. Cela inclut le nombre d’utilisateurs à qui la stratégie a été attribuée, ainsi que le nombre d’affectations terminées, en cours et non démarrées. Vous verrez également la liste des utilisateurs dans le lot, ainsi que l’état et le résultat pour chaque utilisateur. Voici un exemple :
 
         ![Capture d’écran du](media/activity-log-policy-assignment-detail.png)
 
-    - **Envoyé**: date et heure de soumission de l’affectation de stratégie.
-    - **Heure de fin**: date et heure de fin de l’affectation de stratégie.
+    - **Soumis**: Date et heure de soumettre l’affectation de stratégie.
+    - **Heure d’achèvement**: date et heure d’achèvement de l’affectation de stratégie.
     - **Impact sur**: nombre d’utilisateurs du lot.
     - **État global**: état de l’affectation de stratégie.
 
 > [!NOTE]
-> Vous pouvez également accéder au Journal d’activité à partir de la page **utilisateurs** . Après avoir cliqué sur **appliquer** pour valider une affectation de stratégie en bloc, une bannière apparaît en haut de la page. Cliquez sur le lien **Journal d’activité** dans la bannière.
+> Vous pouvez également ouvrir le journal d’activité à partir de la page **Utilisateurs.** Après avoir **cliqué sur Appliquer** pour envoyer une affectation de stratégie en bloc, une bannière s’affiche en haut de la page. Cliquez sur le **lien Journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-- [Attribution de stratégies aux utilisateurs](assign-policies.md)
+- [Attribuer des stratégies aux utilisateurs](assign-policies.md)
