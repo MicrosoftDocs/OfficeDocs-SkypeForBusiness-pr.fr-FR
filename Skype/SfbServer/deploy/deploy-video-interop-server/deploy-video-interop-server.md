@@ -1,8 +1,8 @@
 ---
-title: Déploiement d’un serveur de technologie d’interopérabilité vidéo dans Skype entreprise Server
+title: Déployer le serveur d’opation vidéo dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: 'Résumé : déploiement du rôle serveur sur Skype entreprise Server.'
-ms.openlocfilehash: 51db16a115871f7720379157aa1b97ae89e9031f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Résumé : Déployez le rôle serveur VIS dans Skype Entreprise Server.'
+ms.openlocfilehash: 7b3ee96b1ff2e6c633efa9e1cc98aa14bb5babc3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798031"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801954"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a><span data-ttu-id="476e4-103">Déploiement d’un serveur de technologie d’interopérabilité vidéo dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-103">Deploy Video Interop Server in Skype for Business Server</span></span>
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a><span data-ttu-id="2260c-103">Déployer le serveur d’opation vidéo dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-103">Deploy Video Interop Server in Skype for Business Server</span></span>
  
-<span data-ttu-id="476e4-104">**Résumé :** Déploiement du rôle serveur sur Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="476e4-104">**Summary:** Deploy the VIS server role in Skype for Business Server.</span></span>
+<span data-ttu-id="2260c-104">**Résumé :** Déployez le rôle serveur VIS dans Skype Entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="2260c-104">**Summary:** Deploy the VIS server role in Skype for Business Server.</span></span>
   
-<span data-ttu-id="476e4-105">Skype entreprise Server peut désormais être intégré aux systèmes de visioconférence Cisco (VTCs) tels que Cisco C60 ou Cisco MX300.</span><span class="sxs-lookup"><span data-stu-id="476e4-105">Skype for Business Server can now integrate directly with Cisco teleconferencing systems (VTCs) such as the Cisco C60 or Cisco MX300.</span></span> <span data-ttu-id="476e4-106">Pour cela, vous devez disposer d’un nouveau rôle de serveur appelé Video Interop Server (à) et d’une configuration correcte de l’écran et de l’équipement avec lesquels il fonctionne.</span><span class="sxs-lookup"><span data-stu-id="476e4-106">This requires the introduction of a new server role called the Video Interop Server (VIS), and correct configuration of both the VIS and the equipment it will interoperate with.</span></span> <span data-ttu-id="476e4-107">Un VTC s’inscrit auprès de l’infrastructure Cisco existante, telle que le Cisco Unified Communication Manager (CUCM), et une jonction SIP vidéo est utilisée entre le CUCM et le pool VIS.</span><span class="sxs-lookup"><span data-stu-id="476e4-107">A VTC registers with existing Cisco infrastructure such as Cisco Unified Communication Manager (CUCM), and a video SIP trunk is used between CUCM and the VIS pool.</span></span>
+<span data-ttu-id="2260c-105">Skype Entreprise Server peut désormais s’intégrer directement aux systèmes de téléconférence Cisco (VTC) tels que Cisco C60 ou Cisco MX300.</span><span class="sxs-lookup"><span data-stu-id="2260c-105">Skype for Business Server can now integrate directly with Cisco teleconferencing systems (VTCs) such as the Cisco C60 or Cisco MX300.</span></span> <span data-ttu-id="2260c-106">Cela nécessite l’introduction d’un nouveau rôle serveur appelé serveur d’interopérabilité vidéo (VIS) et la configuration correcte du VIS et de l’équipement avec qui il interaérable.</span><span class="sxs-lookup"><span data-stu-id="2260c-106">This requires the introduction of a new server role called the Video Interop Server (VIS), and correct configuration of both the VIS and the equipment it will interoperate with.</span></span> <span data-ttu-id="2260c-107">Un VTC s’inscrit auprès d’une infrastructure Cisco existante telle que Cisco Unified Communication Manager (CUCM) et une trunk SIP vidéo est utilisée entre CUCM et le pool VIS.</span><span class="sxs-lookup"><span data-stu-id="2260c-107">A VTC registers with existing Cisco infrastructure such as Cisco Unified Communication Manager (CUCM), and a video SIP trunk is used between CUCM and the VIS pool.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="476e4-108">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="476e4-108">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2260c-108">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="2260c-108">In this section</span></span>
 
-<span data-ttu-id="476e4-109">La configuration de l’interopérabilité entre un serveur ou un pool VIS et des systèmes VTC requiert la réalisation des cinq procédures suivantes :</span><span class="sxs-lookup"><span data-stu-id="476e4-109">Configuring interoperability between a VIS server or pool and VTC systems requires performing the following five procedures:</span></span> 
+<span data-ttu-id="2260c-109">La configuration de l’interopérabilité entre un serveur VIS ou un pool et des systèmes VTC nécessite d’effectuer les cinq procédures suivantes :</span><span class="sxs-lookup"><span data-stu-id="2260c-109">Configuring interoperability between a VIS server or pool and VTC systems requires performing the following five procedures:</span></span> 
   
-- [<span data-ttu-id="476e4-110">Créer un pool d’objets dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-110">Create a VIS pool in Skype for Business Server</span></span>](create-a-vis-pool.md)
+- [<span data-ttu-id="2260c-110">Créer un pool VIS dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-110">Create a VIS pool in Skype for Business Server</span></span>](create-a-vis-pool.md)
     
-- [<span data-ttu-id="476e4-111">Déploiement du rôle serveur sur Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-111">Deploy the VIS server role in Skype for Business Server</span></span>](deploy-the-vis-server-role.md)
+- [<span data-ttu-id="2260c-111">Déployer le rôle serveur VIS dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-111">Deploy the VIS server role in Skype for Business Server</span></span>](deploy-the-vis-server-role.md)
     
-- [<span data-ttu-id="476e4-112">Configurer le serveur Video Interop dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-112">Configure the Video Interop Server in Skype for Business Server</span></span>](configure-the-vis.md)
+- [<span data-ttu-id="2260c-112">Configurer le serveur d’opation vidéo dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-112">Configure the Video Interop Server in Skype for Business Server</span></span>](configure-the-vis.md)
     
-- [<span data-ttu-id="476e4-113">Configurer CUCM pour l’interopérabilité avec Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-113">Configure CUCM for Interoperation with Skype for Business Server</span></span>](configure-cucm-for-interoperation.md)
+- [<span data-ttu-id="2260c-113">Configurer CUCM pour l’interopération avec Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-113">Configure CUCM for Interoperation with Skype for Business Server</span></span>](configure-cucm-for-interoperation.md)
     
-- [<span data-ttu-id="476e4-114">Configurer une VTC pour l’interopérabilité avec Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-114">Configure a VTC for Interoperation with Skype for Business Server</span></span>](configure-a-vtc-for-interoperation.md)
+- [<span data-ttu-id="2260c-114">Configurer un VTC pour l’interopération avec Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-114">Configure a VTC for Interoperation with Skype for Business Server</span></span>](configure-a-vtc-for-interoperation.md)
     
-## <a name="related-sections"></a><span data-ttu-id="476e4-115">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="476e4-115">Related sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="2260c-115">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="2260c-115">Related sections</span></span>
 
-[<span data-ttu-id="476e4-116">Planifier le serveur Video Interop dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="476e4-116">Plan for Video Interop Server in Skype for Business Server</span></span>](../../plan-your-deployment/video-interop-server.md)
+[<span data-ttu-id="2260c-116">Planifier le serveur d’opation vidéo dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="2260c-116">Plan for Video Interop Server in Skype for Business Server</span></span>](../../plan-your-deployment/video-interop-server.md)
   
 

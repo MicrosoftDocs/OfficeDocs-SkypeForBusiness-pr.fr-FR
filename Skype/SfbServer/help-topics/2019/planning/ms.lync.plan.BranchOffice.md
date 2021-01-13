@@ -1,8 +1,8 @@
 ---
 title: Branch Sites (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour plus d’informations sur la résilience des sites de succursales, voir Planification de la résilience vocale dans les sites de succursales.
-ms.openlocfilehash: 3d25f86086f305de3aba7e57682539c859a3ad09
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pour plus d’informations sur la résistance des sites de succursale, voir Planning for Branch-Site Voice Resiliency.
+ms.openlocfilehash: 070ce04459d774ceb5838ce5d2889750af4586ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797375"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801144"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="d6b87-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="d6b87-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="336a4-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="336a4-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="d6b87-104">Pour plus d’informations sur la résilience des sites de succursales, voir [planification de la résilience vocale dans](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)les sites de succursales.</span><span class="sxs-lookup"><span data-stu-id="d6b87-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="336a4-104">Pour plus d’informations sur la résistance des sites de succursale, voir [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span><span class="sxs-lookup"><span data-stu-id="336a4-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 
