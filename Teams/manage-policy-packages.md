@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégies dans Microsoft Teams pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839458"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862585"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft Teams
 
@@ -64,8 +64,8 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Éducation (enseignant)    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux enseignants.      |
 |Éducation (enseignant du primaire utilisant l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux enseignants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
 |Éducation (étudiant du primaire à l’aide de l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux étudiants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
-|Gestionnaire de première ligne |Crée un ensemble de stratégies et applique ces paramètres aux responsables de première ligne de votre organisation. |
-|Employé de première ligne |Crée un ensemble de stratégies et applique ces paramètres aux employés de première ligne de votre organisation. |
+|Gestionnaire en ligne |Crée un ensemble de stratégies et applique ces paramètres aux responsables fronttline de votre organisation. |
+|Employé de fronttline |Crée un ensemble de stratégies et applique ces paramètres aux employés de fronttline de votre organisation. |
 |Travailleur clinique de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs cliniques, comme des infirmières inscrites, des infirmières et des travailleurs sociaux un accès complet aux discussions, aux appels, à la gestion des shifts et aux réunions. |
 |Travailleur de l’information sur les soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui donnent aux travailleurs de l’information, tels que le personnel de l’information, le personnel en informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui s’appliquent aux salles des patients de votre organisation de soins de santé.|
@@ -85,7 +85,7 @@ Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseigna
 
 **Cette fonctionnalité est en mode privé (préversion)**
 
-Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
+Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires dans votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin.
 
 Pour créer un package de stratégie personnalisé :
 
@@ -102,9 +102,9 @@ L’exemple suivant explique comment utiliser des packages de stratégie dans vo
 
 ![Vue d’ensemble de l’utilisation des packages de stratégie](media/manage-policy-packages-overview.png)
 
-- **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant d’affecter le package. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
+- **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant de l’affecter. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
 
-    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous attribuez le package de stratégie.
+    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous affectez le package de stratégie.
 
 - **[Personnaliser](#customize-policies-in-a-policy-package)**: personnalisez les paramètres des stratégies dans le package de stratégies pour répondre aux besoins de votre organisation.
 
@@ -126,7 +126,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **packages**
 
 1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, faites l’une des choses suivantes :
     - Cliquez **sur Packages de stratégie,** puis sélectionnez le package de stratégie en cliquant à gauche du nom du package.
-    - Cliquez sur le type de stratégie.  Par exemple, cliquez sur **Stratégies de messagerie.**
+    - Cliquez sur le type de stratégie.  Par exemple, cliquez **sur Stratégies de messagerie.**
 2. Sélectionnez la stratégie à modifier. Les stratégies liées à un package de stratégies ont le même nom que le package de stratégies.
 3. A apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
