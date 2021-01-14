@@ -57,14 +57,14 @@ Si vous vous demandez quel est le coût des appels pour les forfaits d’appels,
   
 ## <a name="what-is-it"></a>Description
 
-Pour utiliser des numéros gratuits, les crédits de communication sont requis car ces appels sont facturés par minute. Par ailleurs, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de votre forfait d’appels et de l’audioconférence qui ont besoin d’appeler vers n’importe quelle **destination PSTN.** De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre offre d’appels ou dans vos abonnements à l’audioconférence. Si vous ne définissez pas les crédits de communication ou si vous n’attribuez pas de licence à vos utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (selon votre plan d’appels, votre forfait d’audioconférence ou votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’une conférence audio en ligne.
+Pour utiliser des numéros gratuits, les crédits de communication sont requis car ces appels sont facturés par minute. Par ailleurs, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de votre forfait d’appels et de l’audioconférence qui ont besoin de pouvoir appeler vers n’importe quelle **destination PSTN.** De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre plan d’appels ou votre abonnement à l’audioconférence. Si vous ne définissez pas les crédits de communication ou si vous n’attribuez pas de licence à vos utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (selon votre plan d’appels, votre forfait d’audioconférence ou votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’une conférence audio en ligne.
   
 > [!NOTE]
 > Vous devez configurer les crédits de communication, puis affecter une licence Crédits de communication pour chaque utilisateur dans le Centre d’administration **Microsoft 365**  >  **Utilisateurs**  >  actifs. Les licences de crédit de communication apparaissent comme illimitées en quantité, car elles sont utilisées pour octroyer l’accès au solde des crédits de communication pour tout utilisateur auquel vous attribuez la licence Crédits de communication.
   
-Nous vous recommandons d’évaluer avec soin l’utilisation du service PSTN dans votre organisation afin de déterminer la meilleure configuration des crédits de communication. Pour en savoir plus sur les services PSTN, lisez les questions courantes sur [Phone System, les forfaits](calling-plan-landing-page.md) d’appels et les [audioconférences.](Audio-Conferencing-common-questions.md)
+Il est recommandé d’évaluer avec soin l’utilisation du service PSTN dans votre organisation afin de déterminer la meilleure configuration des crédits de communication. Pour en savoir plus sur les services PSTN, consultez les questions courantes sur [Phone System, les forfaits](calling-plan-landing-page.md) d’appels et les [audioconférences.](Audio-Conferencing-common-questions.md)
   
-Vous pouvez configurer la  facturation de la consommation à  l’aide d’un financement unique du solde déjà payé OU en fixant un montant de **recharge** automatique **(recommandé)** avec un solde minimum qui déclenchera un achat pour ce montant de recharge. Initialement, il est suggéré de définir des montants de recharge automatique qui vous permettent de surveiller l’utilisation réelle et de rechercher les seuils de recharge automatique qui répondent à vos besoins et à vos modèles d’utilisation. Les crédits de communication doivent être contrôlés au fil du temps, puis ajuster le solde minimum et les montants de recharge en fonction des besoins de chaque organisation.
+Vous pouvez configurer la  facturation de la consommation à  l’aide d’un financement unique du solde déjà payé OU en fixant un montant de **recharge** automatique **(recommandé)** avec un solde minimum qui déclenchera un achat pour ce montant de recharge. Au début, il est suggéré de définir des montants de recharge automatique qui vous permettent de surveiller l’utilisation réelle et de rechercher les seuils de recharge automatique qui répondent à vos besoins et à vos modèles d’utilisation. Les crédits de communication doivent être contrôlés au fil du temps, puis ajuster le solde minimum et les montants de recharge en fonction des besoins de chaque organisation.
   
 > [!NOTE]
 > Vous pouvez consulter les plans et les prix en vous inscrivant au Centre d’administration [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en vous inscrivant à l’abonnements de facturation  >    >  **Ajouter des abonnements.** 
@@ -124,7 +124,7 @@ Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctio
   
 ## <a name="related-topics"></a>Sujets associés
 
-[Rapport d’utilisation PSTN Teams](teams-analytics-and-reports/pstn-usage-report.md)
+[Rapport d’utilisation de la réseau PSTN Teams](teams-analytics-and-reports/pstn-usage-report.md)
 
   
  
