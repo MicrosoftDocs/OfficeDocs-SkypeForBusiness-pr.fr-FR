@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06244553c051677533d275ad6cd47052775d01f7
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865248"
+ms.locfileid: "49868339"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer votre hiérarchie de ciblage d’équipe
 
-La configuration d’une hiérarchie de ciblage d’équipe permet à votre organisation de publier du contenu sur un ensemble important d’équipes. La hiérarchie de ciblage d’équipe définit la relation entre les équipes dans votre hiérarchie, sur lesquelles les utilisateurs peuvent publier des tâches et sur les équipes sur lesquelles les utilisateurs sont autorisés à publier des données. Les fonctionnalités de publication sont désactivées pour tous les utilisateurs, sauf si une hiérarchie de ciblage d’équipe est définie pour votre organisation. Pour configurer une hiérarchie de ciblage d’équipe, vous devez créer un fichier qui définit la hiérarchie, puis charger celle-ci dans Teams pour l’appliquer à votre organisation. Une fois le schéma téléchargé, les applications de Teams peuvent l’utiliser. Vous pouvez vous entraîner à créer une hiérarchie et à la télécharger dans votre client Teams à l’aide d’un script [ici.](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy)
+La configuration d’une hiérarchie de ciblage d’équipe permet à votre organisation de publier du contenu sur un ensemble important d’équipes. La hiérarchie de ciblage d’équipe définit la relation entre les équipes dans votre hiérarchie, sur lesquelles les utilisateurs peuvent publier des tâches et sur les équipes sur lesquelles les utilisateurs sont autorisés à publier des données. Les fonctionnalités de publication sont désactivées pour tous les utilisateurs, sauf si une hiérarchie de ciblage d’équipe est définie pour votre organisation. Pour configurer une hiérarchie de ciblage d’équipe, vous devez créer un fichier qui définit la hiérarchie, puis charger celle-ci dans Teams pour l’appliquer à votre organisation. Une fois le schéma téléchargé, les applications de Teams peuvent l’utiliser.
 
 > [!IMPORTANT]
-> Pour la version initiale, seule l’application Tâches prend en charge les équipes hiérarchiques.  L’application d’une hiérarchie de ciblage d’équipe à votre organisation activera [la publication](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) des tâches dans l’application Tâches. Vous ne verrez pas de hiérarchie d’équipes dans d’autres parties de Microsoft Teams.
+> Pour la version initiale, seule l’application Tâches prend en charge les équipes hiérarchiques.  L’application d’une hiérarchie de ciblage d’équipe à votre organisation activera [la publication](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) des tâches dans l’application Tâches. Vous ne verrez pas une hiérarchie d’équipes dans d’autres parties de Microsoft Teams.
 
 Voici un exemple de la manière dont la hiérarchie est représentée dans l’application Tâches dans Teams. Une fois qu’une liste de tâches est créée, les membres de l’équipe de publication peuvent sélectionner les équipes de destinataires à qui envoyer (publier) la liste de tâches. Lors de la sélection d’équipes, l’équipe de publication peut filtrer par hiérarchie, par attributs ou une combinaison des deux.<br>
 
@@ -38,7 +38,7 @@ Voici un exemple de la manière dont la hiérarchie est représentée dans l’a
 Les termes suivants seront importants lorsque vous naviguerez dans les hiérarchies. Teams sera appelé **« nodes**».
 
 * **Les nodes racines** sont les plus élevés dans la hiérarchie. Dans l’exemple, Retail Communications est un nœud racine.
-* **Les nodes parents** et **les nodes enfants** sont des termes qui représentent une relation entre deux nod connectés. Dans l’exemple, le District 01 est un nœud enfant de la Zone 1.
+* **Les nodes parent** et **enfant sont** des termes qui représentent une relation entre deux nod connectés. Dans l’exemple, le District 01 est un nœud enfant de la Zone 1.
 * Plusieurs niveaux d’enfants sont appelés **descendants.** District 01, Store 01, Store 03, Store 07, District 02 et District 03 sont tous descendants de la Région 1.
 * Un nœud sans enfants est appelé **nœud de feuilles.** Ils se placent au bas d’une hiérarchie.
 * **Les équipes** de destinataires sont des équipes qui ont été sélectionnées pour recevoir un ensemble spécifique de contenu à publier. Ce doivent être des nodes de feuilles.
@@ -74,11 +74,11 @@ Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent 
 ## <a name="create-your-hierarchy"></a>Créer votre hiérarchie
 
 > [!NOTE]
-> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. [Reportez-vous à l’application](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) Gérer les tâches pour votre organisation dans Teams pour obtenir une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
+> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. [Reportez-vous à l’application](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) Gérer les tâches pour votre organisation dans Teams pour obtenir une vue d’ensemble de l’application Tâches, où la publication des tâches apparaît lorsqu’elle est activée.
 
 Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
 
-Vous pouvez également définir les **compartiments,** qui sont les catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
+Vous pouvez également définir des **compartiments,** qui sont des catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
 
 ### <a name="add-required-columns"></a>Ajouter des colonnes requises
 
@@ -99,7 +99,7 @@ Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonn
 
 |Méthodes d’ajout d’attributs|Description |Exemple  |
 |---|---------|---------|
-|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut au filtre des magasins par disposition, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
+|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
 |Si vous devez indiquer plusieurs valeurs pour un attribut et que ces valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
 
 Lorsque vous ajoutez une colonne d’attribut, gardez les éléments suivants à l’esprit :
@@ -173,7 +173,7 @@ La commande retourne les champs suivants :
 Champ|Description
 -----|------------
 ID | ID unique pour le téléchargement.
-État | Statut de téléchargement. Les valeurs **sont Démarrage,** **Validation,** **Réussite** et **Échec**
+Statut | Statut de téléchargement. Les valeurs **sont Démarrage,** **Validation,** **Réussite** et **Échec**
 ErrorDetails | Détails en cas d’erreur de téléchargement. Pour plus d’informations sur les détails des erreurs, voir la section de dépannage. S’il n’y a pas d’erreur, ce champ est vide.
 LastUpdatedAt | Date et heure de la dernière mise à jour du fichier.
 LastModifiedBy | ID du dernier utilisateur qui a modifié le fichier.
@@ -181,7 +181,7 @@ FileName | Nom du fichier CSV.
 
 ## <a name="remove-your-hierarchy"></a>Supprimer votre hiérarchie
 
-Si vous souhaitez désactiver  immédiatement l’onglet Listes publiées pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs n’ont pas accès à l’onglet **Listes** publiées ou à l’une des fonctionnalités de l’onglet.  Cela inclut la possibilité de créer des listes des tâches à publier, d’accéder à des brouillons de listes, de publier, de republier et de dupliquer des listes, et d’afficher les rapports. La suppression de la hiérarchie ne supprime pas les tâches publiées précédemment. Ces tâches restent disponibles pour les équipes de destinataires.
+Si vous souhaitez désactiver  immédiatement l’onglet Listes publiées pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs n’ont pas accès à l’onglet **Listes** publiées ou à l’une des fonctionnalités de l’onglet.  Cela inclut la possibilité de créer des listes des tâches pour publier, accéder à des brouillons de listes, publier, republier et dupliquer des listes, et afficher les rapports. La suppression de la hiérarchie ne supprime pas les tâches publiées précédemment. Ces tâches restent disponibles pour les équipes de destinataires.
 
 Pour supprimer votre hiérarchie, exécutez la commande suivante. Vous devez être un administrateur pour effectuer cette étape.
 
@@ -189,7 +189,7 @@ Pour supprimer votre hiérarchie, exécutez la commande suivante. Vous devez êt
 Remove-TeamTargetingHierarchy
 ```
 
-Lors de la confirmation de la suppression, le message d’état affiche toujours le schéma précédent présent, même si la tentative de suppression renvoie une erreur qui a pour effet que l’objet est Null.
+Lors de la confirmation de la suppression, le message d’état affiche toujours le schéma précédent, même si la tentative de suppression renvoie une erreur qui a pour effet que l’objet est Null.
 
 ## <a name="create-a-sample-hierarchy"></a>Créer un exemple de hiérarchie
 
@@ -264,7 +264,7 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichier CSV de schéma. L’ID d’équipe doit être identique à l’ID de groupe du groupe Microsoft 365 qui est à la place de l’équipe. Vous pouvez rechercher l’ID de groupe de l’équipe dans le Centre d’administration Microsoft Teams.
+Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichier CSV de schéma. L’ID d’équipe doit être identique à l’ID de groupe du groupe Microsoft 365 qui a pour fond l’équipe. Vous pouvez rechercher l’ID de groupe de l’équipe dans le Centre d’administration Microsoft Teams.
 
 1. Dans le navigation gauche du Centre d’administration [Microsoft Teams,](https://admin.teams.microsoft.com/)allez dans **Teams**  >  **Gérer les équipes.**
 2. Si la **colonne ID** de groupe n’est  pas affichée dans la table, sélectionnez Modifier les colonnes dans le coin supérieur droit du tableau, puis activer **l’ID de groupe.**

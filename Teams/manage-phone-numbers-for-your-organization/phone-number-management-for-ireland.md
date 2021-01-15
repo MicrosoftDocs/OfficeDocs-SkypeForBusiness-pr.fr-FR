@@ -19,27 +19,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Irlande pour Microsoft Teams.
-ms.openlocfilehash: 6380f10cec804e56ad17b233868ff72936634037
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Irlande pour Microsoft Teams.
+ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361404"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868289"
 ---
 # <a name="phone-number-management-for-ireland"></a>Gestion des numéros de téléphone pour l'Irlande
 
-Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Irlande pour Microsoft Teams. 
+Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Irlande pour Microsoft Teams. 
   
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros d’utilisateur ou de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams. <br/> |En Irlande, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l’aide du centre d’administration Microsoft Teams. Vous devez envoyer une demande de nouveaux numéros de téléphone. <br/><br/>Télécharger ce formulaire.<br/>[Nouvelle demande de numéro de téléphone pour l’Irlande (v. 5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Remplissez-le et [envoyez-le](mailto:ptneu@microsoft.com).  <br/> |
-|Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Télécharger ce formulaire. <br/>[Lettre d’autorisation (LOA) pour l’Irlande (tous les numéros) (v. 5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
-|Publiez/annulez le ou les numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Effectuer des mises à jour du service d’annuaire pour appeler des numéros de file d’attente ou de standard automatique|Pour ajouter ou modifier des numéros de files d’attente d’appels ou de standards automatiques, contactez [le service d’assistance PSTN](contact-pstn-service-desk.md). |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. <br/> |En Irlande, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l’aide du Centre d’administration Microsoft Teams. Vous devez envoyer une demande de nouveaux numéros de téléphone. <br/><br/>Téléchargez ce formulaire.<br/>[Nouvelle demande de numéro de téléphone pour l’Irlande (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Remplissez-le et [envoyez-le-nous.](mailto:ptneu@microsoft.com)  <br/> |
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Courrier d’autorisation (LOA) pour l’Irlande (tous les numéros) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
+|Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
+|Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -49,4 +49,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
   
-[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

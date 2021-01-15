@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804404"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871013"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
-Vous gérez l’accès à Teams au niveau de l’utilisateur en attribuant ou en supprimant une licence de produit Microsoft Teams. À l’exception de participer à des réunions Teams de manière anonyme, chaque utilisateur de votre organisation doit avoir une licence Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams pour les nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou pour les utilisateurs ayant des comptes existants.
+Vous gérez l’accès à Teams au niveau de l’utilisateur en attribuant ou en supprimant une licence de produit Microsoft Teams. Sauf pour rejoindre des réunions Teams de manière anonyme, chaque utilisateur de votre organisation doit avoir une licence Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams pour les nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou pour les utilisateurs ayant des comptes existants.
 
 Par défaut, lorsqu’un plan de gestion des licences (par exemple, Microsoft 365 Entreprise E3 ou Microsoft 365 Business Premium) est attribué à un utilisateur, une licence Teams est attribuée automatiquement et l’utilisateur est activé pour Teams. Vous pouvez désactiver ou activer Teams pour un utilisateur en supprimant ou en attribuant une licence à tout moment.
 
@@ -66,7 +66,7 @@ Lorsque vous supprimez la licence Teams d’un utilisateur, Teams est désactiv�
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez PowerShell pour gérer les licences Teams pour les utilisateurs en bloc. Vous activez et désactivez Teams via PowerShell de la même façon que pour toute autre licence de plan de service. Vous aurez besoin des identificateurs pour les plans de service pour Teams, qui sont les suivants :
+Utilisez PowerShell pour gérer les licences Teams pour les utilisateurs en bloc. Vous activez et désactivez Teams via PowerShell de la même façon que pour toute autre licence de plan de service. Vous aurez besoin des identificateurs des plans de service teams, qui sont les suivants :
 
 - Microsoft Teams : TEAMS1
 - Microsoft Teams pour le GCC : TEAMS_GOV
@@ -85,7 +85,7 @@ Pour obtenir la procédure détaillée, voir Désactiver l’accès aux services
 Voici un exemple d’utilisation des [cmdlets New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) et [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) pour désactiver Teams pour les utilisateurs qui ont un plan de licence spécifique. Par exemple, suivez ces étapes pour désactiver d’abord Teams pour tous les utilisateurs qui ont un plan de gestion des licences particulier. Activez ensuite Teams pour chaque utilisateur individuel qui doit avoir accès à Teams.
 
 > [!IMPORTANT]
-> La [cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) active tous les services précédemment désactivés, sauf s’ils sont explicitement identifiés dans votre script personnalisé. Par exemple, si vous voulez laisser Exchange et Sway désactivés tout en désactivant Teams, vous devez l’inclure dans le script, sinon Exchange et Sway seront activés pour les utilisateurs que vous avez identifiés.
+> La [cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) active tous les services précédemment désactivés à moins d’être explicitement identifiés dans votre script personnalisé. Par exemple, si vous voulez laisser Exchange et Sway désactivés tout en désactivant Teams, vous devez l’inclure dans le script, sinon Exchange et Sway seront activés pour les utilisateurs que vous avez identifiés.
 
 Exécutez la commande suivante pour afficher tous les plans de licence disponibles dans votre organisation. Pour en savoir plus, [consultez Afficher les licences et services avec PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 
@@ -106,10 +106,6 @@ Exécutez la commande suivante pour désactiver Teams pour tous les utilisateurs
 ```powershell
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
-
-## <a name="manage-teams-at-the-organization-level"></a>Gérer les équipes au niveau de l’organisation
-
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 ## <a name="related-topics"></a>Sujets associés
 
