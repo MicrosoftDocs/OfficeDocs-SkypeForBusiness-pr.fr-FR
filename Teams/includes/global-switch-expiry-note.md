@@ -1,6 +1,3 @@
  Le contrôle au niveau du locataire pour Teams a été supprimé à partir du mois d’août 2018. Pour contrôler l’accès à Teams dans votre organisation, utilisez la gestion des licences côté utilisateur. Pour en savoir plus, reportez-vous à la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](../user-access.md).
 
-L’exception à cette modification est Microsoft Teams pour l’Éducation (EDU). Vous pouvez tout de même gérer les équipes au niveau de l’organisation si vous avez une licence de la UDE. Pour ce faire, accédez au Centre d’administration Microsoft 365 > **Paramètres** > **Services et compléments** > **Microsoft Teams**. Si vous utilisez le nouveau centre d’administration Teams, vous devrez désactiver **Découvrez le nouveau centre d’administration** pour rechercher les **services et compléments**. 
 
-> [!IMPORTANT]
-> Il est possible que les modifications ne prennent effet qu'après 24 heures. 
