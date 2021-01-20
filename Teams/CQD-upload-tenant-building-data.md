@@ -1,5 +1,5 @@
 ---
-title: Télécharger le client et générer des données dans le tableau de bord de qualité des appels (bord)
+title: Charger des données client et bâtiment dans le tableau de bord de qualité des appels
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,225 +20,224 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Découvrez comment télécharger un client et générer des données dans le tableau de bord de qualité des appels (bord).
-ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+description: Découvrez comment charger des données client et bâtiment dans le tableau de bord de qualité des appels.
+ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385631"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909348"
 ---
-# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Télécharger le client et générer des données dans le tableau de bord de qualité des appels (bord)
+# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Charger des données client et de bâtiment dans le tableau de bord de qualité des appels
 
 
-Pour tirer le meilleur parti du tableau de bord de qualité des appels (bord), nous vous recommandons de charger votre locataire et de créer des données. Il existe deux types de fichiers de données client, de [construction](#upload-building-data-file) et de [point de terminaison](#endpoint-data-file).
+Pour obtenir le meilleur enseignement du tableau de bord de qualité des appels, nous vous recommandons de charger les données de votre client et de créer des données. Il existe 2 types de fichiers de données client ( [Bâtiment](#upload-building-data-file) et [Point de terminaison).](#endpoint-data-file)
 
-Vous pouvez télécharger un exemple de modèle de données de locataire [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true). Pour obtenir de l’aide sur le mappage de création, voir [créer une carte de construction pour bord](CQD-building-mapping.md).
+Vous pouvez télécharger un exemple de modèle de données client [ici.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true) Pour obtenir de l’aide sur le mappage des bâtiments, voir Créer un mappage des bâtiments [pour le CQD.](CQD-building-mapping.md)
 
-Dans le tableau de bord des rapports de synthèse de bord, sélectionnez **chargement des données du client** dans le menu **paramètres** de bord (icône d’engrenage en haut de bord). À partir de cet emplacement, les administrateurs peuvent charger les informations de construction et de point de terminaison de votre organisation, telles que le mappage d’adresses IP et d’informations géographiques, le mappage de chaque point d’accès sans fil et son adresse MAC, etc.
+Dans le tableau de bord des  rapports de synthèse du tableau de bord de qualité des clients, sélectionnez Charger les données client dans le menu **Paramètres** du tableau de bord (icône engrenage en haut du tableau de bord). À partir de cet emplacement, les administrateurs peuvent charger les informations de bâtiment et de point de terminaison de leur organisation, telles que le mappage des adresses IP et des informations géographiques, le mappage de chaque point d’accès sans fil et de son adresse MAC, etc.
 
-1. Ouvrez bord (à partir du centre d’administration teams [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) ), puis sélectionnez l’icône d’engrenage dans le coin supérieur droit et choisissez **Télécharger les données du client** dans la page **rapports de synthèse** .
+1. Ouvrez le tableau de qualité des appels (dans le Centre d’administration Teams ou dans l’angle supérieur droit), puis sélectionnez l’icône d’engrenage dans le coin supérieur droit, puis choisissez Transfert des données client dans la page Rapports de [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) synthèse.  
 
-   ![Capture d’écran de la boîte de dialogue qui s’affiche lorsque les données sont en cours de téléchargement](media/qerguide-image-tenantdataupload.png)
+   ![Capture d’écran de la boîte de dialogue qui s’affiche pendant le chargement des données](media/qerguide-image-tenantdataupload.png)
     
-2. Si c’est la première fois que vous visitez bord, vous serez invité à télécharger les données de bâtiment. Vous pouvez sélectionner **Télécharger maintenant** pour accéder rapidement à la page **téléchargement de données du client** .
+2. Si c’est la première fois que vous consultez le CQD, vous êtes invité à télécharger les données bâtiment. Vous pouvez sélectionner Charger **maintenant pour** accéder rapidement à la page Transfert des **données client.**
 
-   ![Capture d’écran d’une bannière permettant à un utilisateur de télécharger des données de bâtiment](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Capture d’écran de la bannière qui informe un utilisateur du chargement des données bâtiment](media/qerguide-image-buildingdatauploadbanner.png)
 
-3. Sur la page **téléchargement de données du client** , sélectionnez **Parcourir** pour choisir un fichier de données.
+3. Sur la page **Transfert des données client,** **sélectionnez Parcourir** pour choisir un fichier de données.
 
-4. Après avoir sélectionné un fichier de données, spécifiez la **Date de début** et, éventuellement, spécifiez une date de fin.
+4. Après avoir sélectionné un fichier de données, spécifiez une **date de début** et, éventuellement, une date de fin.
 
-5. Après avoir sélectionné la **Date de début**, sélectionnez **Télécharger** pour télécharger le fichier sur bord. <br><br>Le fichier est validé avant d’être chargé. En cas d’échec de la validation, un message d’erreur s’affiche et vous demande de corriger le fichier. La figure suivante illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
+5. Après avoir sélectionné la **date de début,** **sélectionnez Charger** pour charger le fichier dans le fichier du fichier du même nom. <br><br>Avant de charger le fichier, celui-ci doit être validé. En cas d’échec de la validation, un message d’erreur s’affiche pour vous demander de corriger le fichier. La figure suivante illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
 
-   ![Exemple de boîte de dialogue affichant une erreur de chargement de données en bâtiment](media/qerguide-image-buildingdatauploaderror.png)
+   ![Exemple de boîte de dialogue affichant une erreur de chargement des données du bâtiment](media/qerguide-image-buildingdatauploaderror.png)
  
-6. S’il n’y a aucune erreur lors de la validation, le chargement du fichier réussit. Vous pouvez ensuite voir le fichier de données chargé dans la table **Mes téléchargements** , qui affiche la liste complète des fichiers téléchargés pour le client actuel en bas de cette page.
+6. En l’absence d’erreur lors de la validation, le téléchargement du fichier aboutra. Vous pouvez alors voir le fichier de données téléchargé dans le tableau Mes **téléchargements,** qui affiche la liste complète de tous les fichiers transférés pour le client actuel au bas de cette page.
 
 > [!NOTE]
-> Il faut parfois jusqu’à quatre heures pour terminer le traitement du fichier de construction. <br><br> Si vous avez déjà chargé un fichier de construction et que vous avez besoin d’ajouter des sous-réseaux qui peuvent avoir été manqués ou exclus, modifiez le fichier d’origine en ajoutant le nouveau sous-réseau, supprimez le fichier actif, puis rechargez le fichier que vous venez de modifier. Il ne peut y avoir qu’un seul fichier de données de bâtiment actif dans bord. 
+> Le traitement du fichier de bâtiment peut prendre jusqu’à quatre heures. <br><br> Si vous avez déjà téléchargé un fichier de bâtiment et que vous avez besoin d’ajouter des sous-réseaux manqués ou exclus, modifiez le fichier d’origine en ajoutant les nouveaux sous-réseaux, supprimez le fichier actuel et téléchargez à nouveau le fichier modifié. Il ne peut y avoir qu’un seul fichier de données bâtiment actif dans le fichier de qualité des fichiers. 
 
 
 ## <a name="upload-building-data-file"></a>Télécharger un fichier de données bâtiment
 
-Le premier type de fichier de données client dans bord est le fichier de données de **bâtiment** . La colonne de sous-réseau repose sur le développement de la colonne Network + plage du réseau, puis sur la colonne de sous-réseau pour le premier sous-réseau de l’enregistrement d’appel ou sur le second sous-réseau. Pour que le format du fichier de données réussisse le contrôle de validation avant le téléchargement, il doit respecter les critères suivants.
+Le premier type de fichier de données client du fichier de qualité des droits client est le **fichier de données** Bâtiment. La colonne Sous-réseau est dérivée en agrandissant la colonne Network+NetworkRange, puis en joignant la colonne Sous-réseau à la colonne First Subnet ou Second Subnet de l’enregistrement d’appel pour afficher les informations bâtiment, ville, pays ou région. Le format du fichier de données que vous téléchargez doit répondre aux critères suivants pour réussir la vérification de validation avant le téléchargement :
   
-- Il doit s’agir d’un fichier. TSV (les colonnes sont séparées par une tabulation) ou d’un fichier. csv (les colonnes sont séparées par une virgule).
+- Le fichier doit être de fichier .tsv (les colonnes sont séparées par une tabulation) ou d’un fichier .csv (les colonnes sont séparées par une virgule).
 
-- Le fichier de données n’inclut pas de ligne d’en-tête de tableau. La première ligne du fichier de données est censée être de véritables données, pas d’étiquettes d’en-tête comme « réseau ».
+- Le fichier de données n’inclut pas de ligne d’en-tête de tableau. La première ligne du fichier de données doit être une donnée réelle, et non des étiquettes d’en-tête telles que « Réseau ».
 
-- Les types de données dans le fichier ne peuvent être que des chaînes, des entiers ou des valeurs booléennes. Pour le type de données Integer, la valeur doit être une valeur numérique. Les valeurs booléennes doivent être égales à 0 ou 1.
+- Les types de données dans le fichier peuvent uniquement être de type Chaîne, Integer ou Booléen. Pour ce type de données, la valeur doit être une valeur numérique. Les valeurs boolé européennes doivent être 0 ou 1.
 
-- Si une colonne utilise le type de données chaîne, un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
+- Si une colonne utilise le type de données Chaîne, un champ de données peut être vide, mais doit tout de même être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
 
-- Il doit y avoir 15 colonnes pour chaque ligne, chaque colonne doit avoir le type de données approprié, et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant (délimité par des virgules ou des tabulations) :
+- Il doit y avoir 15 colonnes pour chaque ligne, chaque colonne doit avoir le type de données approprié et les colonnes doivent être dans l’ordre répertorié dans le tableau suivant (délimité par des virgules ou des tabulations) :
 
-  **Créer un format de fichier de données**
+  **Format de fichier de données du bâtiment**
   
-  | Nom de la colonne        | Type de données | Exemple                   | Aide              |
+  | Nom de colonne        | Type de données | Exemple                   | Aide              |
   |--------------------|-----------|---------------------------|-----------------------|
   | NetworkIP          | String    | 192.168.1.0               | Obligatoire              |
-  | Nom réseau        | String    | États-Unis/Seattle/SEATTLE-SEA-1 | Obligatoire<sup>1</sup>  |
-  | NetworkRange       | Numéro    | 26/08/03                        | Obligatoire              |
+  | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Obligatoire<sup>1</sup>  |
+  | NetworkRange       | Numéro    | 26                        | Obligatoire              |
   | BuildingName       | String    | SEATTLE-SEA-1             | Obligatoire<sup>1</sup>  |
-  | Type de propriété      | String    | Chez                   | Facultatif              |
-  | Type de bâtiment       | String    | Arrêt            | Facultatif              |
-  | BuildingOfficeType | String    | Ingénieur               | Facultatif              |
+  | Type de propriété      | String    | Contoso                   | Facultatif              |
+  | Type de bâtiment       | String    | Résiliation de l’it            | Facultatif              |
+  | BuildingOfficeType | String    | Ingénierie               | Facultatif              |
   | Ville               | String    | Seattle                   | Recommandation           |
   | ZipCode            | String    | 98001                     | Recommandation           |
-  | Pays            | String    | Nous                        | Recommandation           |
+  | Pays            | String    | États-Unis                        | Recommandation           |
   | État              | String    | WA                        | Recommandation           |
   | Région             | String    | MSUS                      | Recommandation           |
-  | Dans l’entreprise<sup>2</sup>         | Bool      | 1             | Obligatoire              |
-  | ExpressRoute<sup>3</sup>       | Bool      | 0,4             | Obligatoire              |
-  | VPN                | Bool      | 0,4                         | Facultatif              |
+  | InsideCorp<sup>2</sup>         | Bool      | 1             | Obligatoire              |
+  | ExpressRoute<sup>3</sup>       | Bool      | 0             | Obligatoire              |
+  | VPN                | Bool      | 0                         | Facultatif              |
 
-  <sup>1</sup> sans être requis par bord, les modèles sont configurés pour afficher les noms de bâtiment et de réseau.
+  <sup>1 Sans</sup> être requis par le CQD, les modèles sont configurés pour afficher les noms de bâtiment et de réseau.
 
-  <sup>2</sup> ce paramètre peut être utilisé pour indiquer si le sous-réseau se trouve ou non dans le réseau d’entreprise. Vous pouvez personnaliser l’utilisation à d’autres fins.
+  <sup>2</sup> Ce paramètre peut être utilisé pour déterminer si le sous-réseau se trouve ou non à l’intérieur du réseau d’entreprise. Vous pouvez personnaliser l’utilisation à d’autres fins.
 
-  <sup>3</sup> ce paramètre peut être utilisé pour indiquer si le réseau utilise ou non Azure ExpressRoute. Vous pouvez personnaliser l’utilisation à d’autres fins.  
+  <sup>3</sup> Ce paramètre peut être utilisé pour déterminer si le réseau utilise Azure ExpressRoute ou non. Vous pouvez personnaliser l’utilisation à d’autres fins.  
 
-  **Ligne d’exemple :**
+  **Exemple de ligne :**
 
   `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> La plage réseau peut être utilisée pour représenter un super-réseau (combinaison de plusieurs sous-réseaux avec un seul préfixe de routage). Les nouveaux chargements de construction seront examinés pour toutes les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le télécharger à nouveau. Tout chevauchement dans les fichiers précédemment téléchargés risque de provoquer des mappages incorrects de sous-réseaux sur les bâtiments dans les rapports. Certaines implémentations de réseau privé virtuel n’indiquent pas exactement les informations de sous-réseau. 
+> La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez précédemment téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le charger à nouveau pour identifier les chevauchements et résoudre le problème avant de le charger à nouveau. Tout chevauchement dans les fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports. Certaines implémentations VPN n’indiquent pas précisément les informations sur le sous-réseau. 
 >
-> La colonne RPV est facultative et utilise par défaut la valeur 0. Si la valeur de la colonne VPN est définie sur 1, le sous-réseau représenté par cette ligne sera entièrement étendu pour correspondre à toutes les adresses IP au sein du sous-réseau.  N’hésitez pas à utiliser cette fonction et uniquement pour les sous-réseaux VPN dans la mesure où le développement complet de ces sous-réseaux aura un impact négatif sur les requêtes de création de données.
+> La colonne VPN est facultative et utilise la valeur 0 par défaut. Si la valeur de la colonne VPN est définie sur 1, le sous-réseau représenté par cette ligne sera entièrement développé pour correspondre à toutes les adresses IP au sein du sous-réseau.  Utilisez-la avec parcimonie et uniquement pour les sous-réseaux VPN, car le développement complet de ces sous-réseaux aura un impact négatif sur les temps de requête pour les requêtes impliquant la création de données.
 
 
-### <a name="supernetting"></a>Le Super-réseautage
+### <a name="supernetting"></a>Supernetting
 
-Vous pouvez utiliser le Super-réseautage, couramment appelé routage de Inter-Domain de classe (CIDR) au lieu de définir chaque sous-réseau. Un *super-réseau* est une combinaison de plusieurs sous-réseaux partageant un seul préfixe de routage. Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse superréseau. Le Super-réseautage est pris en charge, mais nous ne recommandons pas son utilisation.
+Vous pouvez utiliser la supernetting, communément appelée Inter-Domain routage des Inter-Domain (CIDR), au lieu de définir chaque sous-réseau. Un *supernet* est une combinaison de plusieurs sous-réseaux qui partagent un préfixe de routage unique. Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse de supernet. La supernetting est prise en charge, mais nous vous déconseillons de l’utiliser.
 
-Par exemple, le bâtiment marketing de contoso se compose des sous-réseaux suivants :
+Par exemple, le bâtiment marketing de Contoso est composé des sous-réseaux ci-dessous :
 
--   10.1.0.0/24-premier étage
--   10.1.1.0/24-second étage
--   10.1.2.0/24 : troisième étage
--   10.1.3.0/24-quatrième étage
+-   10.1.0.0/24 : premier étage
+-   10.1.1.0/24 : deuxième étage
+-   10.1.2.0/24 :troisième étage
+-   10.1.3.0/24 : quatrième étage
 
-Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse de super-réseau (dans cet exemple, 10.1.0.0/22).
+Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse de supernetted (dans cet exemple, 10.1.0.0/22).
 
 -   Réseau = 10.1.0.0
--   Plage de réseaux = 22
+-   Plage réseau = 22
 
-Voici quelques éléments à prendre en compte avant d’implémenter le super-réseau :
+Voici quelques éléments à prendre en compte avant d’implémenter la supernetting :
 
--   Le Super-réseautage ne peut être utilisé que dans un mappage de sous-réseau doté d’un masque de 8 bits à 28 bits.
+-   La supernetisation ne peut être utilisée que dans un mappage de sous-réseau avec un masque 8 bits à 28 bits.
 
--   Le Super-affichage prend moins de temps, mais il s’agit du coût de la réduction de la richesse de vos données. Imaginons qu’il y a un problème de qualité lié au sous-réseau 10.1.2.0. Si vous avez implémenté le super-réseau, vous ne savez pas où se trouve dans le bâtiment le sous-réseau ou quel type de réseau il est (par exemple, un laboratoire). Si vous avez défini tous les sous-réseaux pour les informations d’emplacement du étage, vous pouvez voir cette distinction.
+-   L’utilisation de la supernetting prend moins de temps au premier plan, mais elle a pour effet de réduire la richesse de vos données. Supposons qu’un problème de qualité se soit produit au niveau du sous-réseau 10.1.2.0. Si vous avez implémenté la supernetting, vous ne savez pas où se trouve le sous-réseau ou quel type de réseau il s’agit (par exemple, un laboratoire). Si vous avez défini tous les sous-réseaux pour un bâtiment et des informations d’emplacement d’étage chargés, vous pourrez voir cette distinction.
 
--   Il est important de veiller à ce que l’adresse du superréseau soit correcte et qu’elle ne soit pas interceptée.
+-   Il est important de s’assurer que l’adresse supernette est correcte et n’attire pas les sous-réseaux indésirables.
 
--   Il est relativement courant de Rechercher 192.168.0.0 dans les données. Dans de nombreuses organisations, cela signifie que l’utilisateur est à la maison. Pour d’autres, il s’agit du schéma d’adresse IP d’un bureau satellite. Si votre organisation dispose de bureaux qui utilisent cette configuration, n’incluez pas celle-ci dans votre fichier de bâtiment, car il est difficile de distinguer les réseaux domestiques et internes à l’aide de [sous-réseaux communs](quality-of-experience-review-guide.md#common-subnets). 
+-   Il est assez courant de trouver la valeur 192.168.0.0 dans les données. Pour de nombreuses organisations, cela indique que l’utilisateur est à la maison. Pour d’autres, il s’agit du modèle d’adresses IP d’un bureau satellitaire. Si votre organisation a des bureaux qui utilisent cette configuration, ne l’incluez pas dans votre fichier de construction, car il est difficile de faire la distinction entre les réseaux internes et d’accueil à l’aide de [sous-réseaux communs.](quality-of-experience-review-guide.md#common-subnets) 
 
 > [!IMPORTANT]
-> La plage réseau peut être utilisée pour représenter une super-réseau. Les nouveaux téléchargements de fichiers de données de bâtiment seront examinés pour les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devriez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème. Tout chevauchement dans les fichiers précédemment téléchargés peut entraîner des mappages incorrects de sous-réseaux vers les bâtiments dans les rapports.
+> La plage réseau peut être utilisée pour représenter un supernet. Tous les téléchargements de fichiers de données du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez déjà téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème. Tout chevauchement dans les fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports.
 
 ### <a name="vpn"></a>VPN
 
-Les données de qualité de l’expertise que les clients envoient à Microsoft 365 ou Office 365, à partir duquel les données bord sont sources, incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Utilisez la colonne VPN décrite plus haut pour marquer et identifier précisément les sous-réseaux VPN. Il est également conseillé d’étiqueter vos réseaux VPN pour faciliter l’identification de vos rapports. Vous trouverez ci-dessous deux exemples d’attribution de libellés à vos sous-réseaux VPN :
+Les données de qualité de l’expérience (QoE) que les clients envoient à Microsoft 365 ou Office 365, d’où viennent les données du CQD, incluent un indicateur VPN. Celui-ci s’agit des dimensions First VPN et Second VPN. Toutefois, cet indicateur s’appuie sur les rapports des fournisseurs VPN auprès de Windows, que la carte réseau VPN enregistrée est une carte d’accès à distance. Tous les fournisseurs VPN n’enregistrent pas correctement les cartes d’accès à distance. De ce fait, vous ne pourrez peut-être pas utiliser les filtres de requête VPN intégrés. Utilisez la colonne VPN évoquée ci-dessus pour marquer et identifier précisément les sous-réseaux VPN. Il est également pratique d’étiqueter vos réseaux VPN pour faciliter l’identification dans vos rapports. Voici deux exemples d’étiquetage de vos sous-réseaux VPN :
 
-- Définissez un **nom de réseau** en entrant « VPN » dans ce champ pour les sous-réseaux VPN.
+- Définissez **un nom de réseau** en entrant « VPN » dans ce champ pour les sous-réseaux VPN.
 
-  ![Capture d’écran de rapport QCD montrant un VPN utilisant le nom du réseau](media/qerguide-image-vpnnetworkname.png)
+  ![Capture d’écran du rapport REPORTINGD montrant un VPN utilisant un nom de réseau](media/qerguide-image-vpnnetworkname.png)
 
-- Définissez un **nom de bâtiment** en entrant « VPN » dans ce champ pour les sous-réseaux VPN.
+- Définissez **un nom de** bâtiment en entrant « VPN » dans ce champ pour les sous-réseaux VPN.
 
-  ![Capture d’écran de rapport QCD montrant un VPN utilisant le nom de bâtiment](media/qerguide-image-vpnbuildingname.png)
+  ![Capture d’écran du rapport REPORTINGD montrant un VPN avec le nom du bâtiment](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
-> Les connexions VPN ont été connues pour identifier le type de connexion réseau comme filaire Lorsque la connexion sous-jacente est sans fil. Lorsque vous examinez la qualité de connexions VPN, vous ne pouvez pas supposer que le type de connexion a été correctement identifié.
+> Les connexions VPN ont été connues pour avoir malide le type de connexion réseau câblé lorsque la connexion sous-jacente est sans fil. Lors de l’évaluation de la qualité sur des connexions VPN, vous ne pouvez pas supposer que le type de connexion a été identifié avec précision.
 
-## <a name="endpoint-data-file"></a>Fichier de données du point de terminaison
+## <a name="endpoint-data-file"></a>Fichier de données Point de terminaison
 
-L’autre type de fichier de données client bord est le fichier de données de **point de terminaison** . Les valeurs de colonne sont utilisées dans la première colonne nom du point de terminaison du client ou deuxième nom du point de terminaison du client pour afficher les informations de point de terminaison, de modèle ou de type. Pour que le format du fichier de données réussisse le contrôle de validation avant le téléchargement, il doit respecter les critères suivants.
+L’autre type de fichier de données client du point de terminaison est celui du **point** de terminaison. Les valeurs de colonne sont utilisées dans la colonne First Client Endpoint Name ou Second Client Endpoint Name de l’enregistrement d’appel pour afficher les informations Marque de point de terminaison, Modèle ou Type de l’enregistrement d’appel. Le format du fichier de données que vous téléchargez doit répondre aux critères suivants pour réussir la vérification de validation avant le téléchargement :
 
-- Il doit s’agir d’un fichier. TSV (les colonnes sont séparées par une tabulation) ou d’un fichier. csv (les colonnes sont séparées par une virgule).
+- Le fichier doit être de fichier .tsv (les colonnes sont séparées par une tabulation) ou d’un fichier .csv (les colonnes sont séparées par une virgule).
 
-- Le contenu du fichier de données ne comporte pas d’en-têtes de tableau. La première ligne du fichier de données est censée être une véritable donnée, et non une étiquette d’en-tête telle que « EndpointName ».
+- Le contenu du fichier de données n’inclut pas d’en-têtes de tableau. La première ligne du fichier de données doit être une donnée réelle, et non une étiquette d’en-tête telle que « EndpointName ».
 
-- Les sept colonnes utilisent uniquement le type de données chaîne. La longueur maximale autorisée est de 64 caractères.
+- Les sept colonnes utilisent le type de données Chaîne uniquement. La longueur maximale autorisée est de 64 caractères.
 
-- Un champ de données peut être vide, mais doit toujours être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
+- Un champ de données peut être vide, mais doit tout de même être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
 
-- EndpointName doit être unique, sinon le téléchargement échoue. S’il existe une ou deux lignes en double utilisant la même EndpointName, le conflit provoquera une jointure incorrecte.
+- EndpointName doit être unique, faute de quoi le téléchargement échoue. S’il existe une ou deux lignes en double qui utilisent le même nom de point de terminaison, le conflit provoquera une jointation incorrecte.
 
-- EndpointLabel1, EndpointLabel2 et EndpointLabel3 sont des étiquettes personnalisables. Il peut s’agir de chaînes vides ou de valeurs telles que « service informatique de l’ordinateur portable 2018 » ou « indicateur de ressources 5678 ».
+- EndpointLabel1, EndpointLabel2 et EndpointLabel3 sont des étiquettes personnalisables. Il peut s’désignés comme des chaînes vides ou des valeurs telles que « Service informatique désigné 2018 Laptop » ou « Asset Tag 5678 ».
 
-- Il doit y avoir sept colonnes pour chaque ligne et les colonnes doivent être dans l’ordre suivant :
+- Il doit y avoir sept colonnes pour chaque ligne et les colonnes doivent être dans l’ordre suivant :
 
-  **Ordre des champs :**
+  **Ordre de champ :**
 
   EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
-  **Ligne d’exemple :**
+  **Exemple de ligne :**
 
   `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
+## <a name="update-a-building-file"></a>Mettre à jour un fichier de bâtiment
 
-## <a name="update-a-building-file"></a>Mettre à jour un fichier de construction
-
-Lors du rassemblement des informations de construction et de sous-réseau, les administrateurs chargent souvent le fichier de construction dans plusieurs itérations, en ajoutant de nouveaux sous-réseaux et leurs informations de bâtiment dès qu’il devient disponible. Lorsque cela se produit, vous devez recharger votre fichier de construction. Ce processus est comme le téléchargement initial comme décrit dans la section précédente, à quelques exceptions près, comme indiqué dans la section suivante.
+Lors de la collecte des informations sur le bâtiment et le sous-réseau, les administrateurs téléchargent souvent le fichier de bâtiment dans plusieurs itérations au fil du temps, en ajoutant de nouveaux sous-réseaux et les informations de bâtiment lorsqu’elles deviennent disponibles. Lorsque cela se produit, vous devez télécharger à nouveau votre fichier de bâtiment. Ce processus est comme le téléchargement initial, comme décrit dans la section précédente, à quelques exceptions près, comme indiqué dans la section suivante.
 
 > [!Important]
-> Un seul fichier de construction peut être actif à la fois. Les fichiers de construction multiples ne sont pas cumulés.
+> Un seul fichier de bâtiment peut être actif à la fois. Plusieurs fichiers de construction ne sont pas cumulés.
 
-## <a name="add-net-new-subnets"></a>Ajouter des sous-réseaux personnels
+## <a name="add-net-new-subnets"></a>Ajouter de nouveaux sous-réseaux nets
 
-Il peut arriver que vous deviez ajouter des sous-réseaux de nouveaux réseaux aux bord qui n’étaient pas à l’origine dans la topologie de votre réseau. Pour ajouter de nouveaux sous-réseaux, effectuez l’une des opérations suivantes à partir de la page **téléchargement de données de client** dans bord :
+Il peut parfois vous être nécessaire d’ajouter de nouveaux sous-réseaux nets au sous-réseau de qualité des contenu qui ne faisait pas partie de votre topologie de réseau à l’origine. Pour ajouter de nouveaux sous-réseaux  nets, dans le tableau de qualité des données client, vous pouvez suivre les informations suivantes :
 
 1.  Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
 
-1.  Supprimez le fichier actif dans bord.
+1.  Supprimez le fichier actuel dans le fichier du groupe de travail.
 
-1.  Modifiez le fichier de construction d’origine et indiquez une date de fin au moins un jour avant l’acquisition des sous-réseaux.
+1.  Modifiez le fichier de construction d’origine et fournissez une date de fin au moins un jour avant l’acquisition des nouveaux sous-réseaux.
 
-1.  Ajoutez les nouveaux sous-réseaux personnels au fichier de construction d’origine.
+1.  Append the net new subnets to the original building file.
 
-1.  Téléchargez le fichier de construction qui vient d’être modifié, puis définissez la date de début pour un jour après la fin du fichier de construction précédent.
+1.  Téléchargez le fichier de construction nouvellement modifié et définissez la date de début pour un jour après la fin du fichier de construction précédent.
 
 ## <a name="add-missing-subnets"></a>Ajouter des sous-réseaux manquants
 
-Une fois que vous avez chargé les informations de bâtiment pour les réseaux gérés, chaque réseau géré doit avoir une association de bâtiment. Toutefois, ce n’est pas toujours le cas. en règle générale, un petit nombre de sous-réseaux est manqué. Pour trouver ces réseaux manquants, examinez le **rapport de sous-réseau manquant** sur la page **rapports de qualité de l’interface** dans bord. Tous les sous-réseaux avec 10 flux audio ou plus qui ne sont pas définis dans le fichier de données de bâtiment sont marqués comme extérieurs. Assurez-vous qu’il n’y a pas de réseaux gérés dans cette liste. Si des sous-réseaux ne sont pas disponibles, utilisez la procédure suivante pour mettre à jour le fichier de données de construction d’origine et le télécharger à nouveau sur bord.
+Une fois les informations de bâtiment téléchargées pour les réseaux gérés, chaque réseau géré doit avoir une association de bâtiments. Toutefois, ce n’est pas toujours le cas ; en règle générale, quelques sous-réseaux sont manqués. Pour rechercher ces réseaux manquants, examinez le rapport **Sous-réseau** manquant sur la page Rapports de qualité de **l’expérience** du CQD. Cela présente tous les sous-réseaux avec 10 flux audio ou plus qui ne sont pas définis dans le fichier de données du bâtiment et sont marqués comme externes. Assurez-vous qu’il n’y a pas de réseaux gérés dans cette liste. Si des sous-réseaux sont manquants, utilisez la procédure suivante pour mettre à jour le fichier de données du bâtiment d’origine et le charger à nouveau dans le tableau de qualité des fichiers.
 
-1. Accédez à la page **Télécharger les données du client** dans bord.
+1. Dans le DQD, **allez** à la page Transfert des données client.
 
 1. Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
 
-1. Supprimez le fichier actif dans bord.
+1. Supprimez le fichier actuel dans le fichier du groupe de travail.
 
-1. Ajoutez les nouveaux sous-réseaux au fichier d’origine.
+1. Append the new subnets to the original file.
 
-1. Téléchargez le fichier de construction. Veillez à définir la date de début sur au moins huit mois avant que bord ne traitera les données historiques.
+1. Téléchargez le fichier du bâtiment. Veillez à définir la date de début sur au moins huit mois avant de sorte que le CQD puisse traiter les données historiques.
 
 
 > [!IMPORTANT]
-> Vous devez ajouter votre ID de locataire comme filtre de requête pour le **deuxième ID de client** à ce rapport afin de filtrer le rapport pour afficher uniquement les données client de votre organisation. Dans le cas contraire, le rapport va afficher des sous-réseaux fédérés.
+> Vous devez ajouter votre ID de client comme filtre de requête second **ID** client à ce rapport pour filtrer l’état et afficher uniquement les données client de votre organisation. Dans le cas contraire, le rapport affiche des sous-réseaux fédérés.
 
 > [!NOTE] 
-> Veillez à ajuster le filtre de rapport mois par année au mois en cours. Sélectionnez **modifier**, puis ajustez le filtre de rapport **mois-année** pour enregistrer le nouveau mois par défaut.
+> N’oubliez pas d’ajuster le filtre du rapport Month Year au mois en cours. Sélectionnez Modifier, puis ajustez le **filtre du rapport Month Year** pour enregistrer le nouveau mois par défaut. 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Créer une carte de bâtiment pour bord](CQD-building-mapping.md)
+[Créer une carte de bâtiment pour le CQD](CQD-building-mapping.md)
 
-[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md)
+[Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 
-[Qu’est-ce que bord ?](CQD-what-is-call-quality-dashboard.md)
+[Qu’est-ce que le CQD ?](CQD-what-is-call-quality-dashboard.md)
 
-[Configurer le tableau de bord de qualité des appels (bord)](turning-on-and-using-call-quality-dashboard.md)
+[Configurer le tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 
-[Rapports et données bord](CQD-data-and-reports.md)
+[Données et rapports du CQD](CQD-data-and-reports.md)
 
-[Utiliser bord pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
+[Utiliser le CQD pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
 
-[Dimensions et mesures disponibles dans bord](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans bord](stream-classification-in-call-quality-dashboard.md)
+[Classification des flux dans le DQD](stream-classification-in-call-quality-dashboard.md)
 
-[Utiliser Power BI pour analyser des données de bord](CQD-Power-BI-query-templates.md)
+[Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)
