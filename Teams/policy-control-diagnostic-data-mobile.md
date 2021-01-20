@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136018"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909148"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
@@ -77,7 +77,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **anonymousMeetingToggleMuted** : nombre de fois que le bouton bascule de désactivation du son a été sélectionné.
 - **anonymousMeetingToggleVideo** : nombre de fois que le bouton bascule de désactivation de l’image a été sélectionné.
 - **appKilled** : l’application est interrompue.
-- **approveTimeOffRequest** : une demande de congé d’un employé de terrain est approuvée par le manager des employés de terrain (FLW).
+- **approveTimeOffRequest** : Lorsqu’une demande de congé d’un travailleur de première ligne est approuvée par le manager des travailleurs de première ligne.
 - **assigneeChange** : une nouvelle personne affectée est ajoutée à un élément de tâche.
 - **assignmentPickerClicked** : appui sur **Affecter à**, ce qui ouvre une page de sélecteur de personnes à affecter à un élément de tâche.
 - **assignmentRemoved** : une personne affectée est retirée d’un élément de tâche par l’appui sur **x** (ce qui est la seule façon de retirer une personne affectée).
@@ -133,7 +133,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **callControlsManualInvoke** : les contrôles d'appel sont invoqués manuellement.
 - **callHistoryItemExpand** : un élément d’historique d’appels est développé.
 - **callHistory** - appui sur l’onglet **Historique d’appels** dans Appels.
-- **callInProgressShown** : une bannière **Appel en cours** est affichée.
+- **callInProgressShown** : une bannière **_Appel en cours_* est affichée.
 - **callMePSTNConnected** - réussite de **M’appeler**.
 - **callOrMeetUpAddParticipants** se déclenche lorsque :
   - Ajouter un participant est appuyé sur un écran d’appel à deux ;
@@ -445,7 +445,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **dialOutCallAAD** : un numéro est sélectionné depuis **Mes numéros** dans la feuille d’action.
 - **dialOutCallRecent** : un numéro est sélectionné depuis les derniers numéros dans la feuille d’action.
 - **dialOutCancel** - appui sur **Annuler** sur la fenêtre contextuelle **Me rappeler**.
-- **dialOutDialog** - appui sur **Nouveau numéro** dans la feuille d’action.
+- **dialOutDialog** - **Nouveau numéro** est sélectionné sur la feuille d’action.
 - **dialOutFailRetry** - appui sur **Réessayer** depuis une bannière d’échec.
 - **dialPad** : appui sur **Pavé numérique** depuis la liste d’appels.
 - **disableCategory** : Désactiver un type de notification ou Désactiver les notifications d’appels entrants.
@@ -514,7 +514,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **endFileShare** - appui sur **Retour** dans une boîte de dialogue de partage de fichiers.
 - **endMyShift** : nombre d’appareils en mode partagé, ou nombre de déconnexions.
 - **endPhotoShare** - appui sur **x** pour sortir du partage de photos.
-- **entryPointClicked** : appui sur **Demandes** dans l’onglet **Planification**. Les demandes concernent les heures de shift des employés de terrain (FLW), etc.
+- **entryPointClicked** : sélection des **Demandes** dans l’onglet **Planification**. Les demandes concernent les heures de shift des travailleurs de première ligne, etc.
 - **endPSTNCallSelected** : l’utilisateur termine un appel RTCP ou de contenu.
 - **endPSTNCallShown** : l’utilisateur est invité à terminer un appel RTCP ou de contenu.
 - **endVideoShare** - appui sur **x** pour sortir du partage de vidéo.
@@ -576,7 +576,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **image** : image.
 - **immediateCallForward** : la cible de transfert d’appel immédiat est définie, ou le transfert d’appel immédiat est activé (Sonnerie d’appel est désactivé).
 - **importanceToggleClicked** : le champ **!** est basculé dans les détails de l’élément de tâche.
-- **importantMessage_select** : un message important est sélectionné depuis le menu contextuel Priorité.
+- **importantMessage_select** : un message important est sélectionné depuis le menu contextuel de priorité par un utilisateur.
 - **importantMessageSend** : l’utilisateur envoie un message important.
 - **inCallDialOut** : appui sur **Me rappeler** depuis les options Plus lors d’un appel en cours.
 - **initiatePhotoShare** : Commencer un partage de photo.
@@ -913,8 +913,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **replyViaMsgOptions** : l’utilisateur commence une réponse via le menu contextuel.
 - **replyViaSwipe** : l’utilisateur commence une réponse via un balayage.
 - **requestActedOn** : un manager agit sur des demandes de shifts ouverts.
-- **requestActionClicked** : l’utilisateur demande une action, comme Demander un shift (que l’affichage soit celui d’un employé de terrain (FLW) ou d’un manager d’employés de terrain).
-- **requestDetailsClicked** : l’utilisateur demande un shift (que l’affichage soit celui d’un employé de terrain (FLW) ou d’un manager d’employés de terrain).
+- **requestActionClicked** : Lorsque l’utilisateur demande une action, comme la sélection d’une demande de shift (que l’affichage soit celui d’un manager de travailleurs de première ligne(FLW) ou d’un travailleur de première ligne).
+- **requestDetailsClicked** : Lorsque la demande de shift est sélectionnée (que l’affichage soit celui d’un manager  de travailleurs de première ligne(FLW) ou d’un travailleur de première ligne).
 - **requestJoinTeam** - appui sur **Demande**.
 - **requestSent** : une demande a été envoyée.
 - **requestToJoinTeam** : Demander à rejoindre l’équipe (publique ou privée).
