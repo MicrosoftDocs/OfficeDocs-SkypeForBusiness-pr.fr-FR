@@ -1,5 +1,5 @@
 ---
-title: Classification des flux dans le tableau de bord de qualité des appels (bord)
+title: Classification des flux dans le tableau de bord de qualité des appels
 ms.author: serdars
 author: lolaj
 manager: serdars
@@ -19,114 +19,114 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+description: Découvrez comment la qualité du flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
+ms.openlocfilehash: 400dcd953805595b4457b4ca9443c31b66f7425d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526351"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909038"
 ---
-# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels (bord)
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels
 
-Le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise Online vous permet d’accéder à des informations sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux multimédias. Pour en savoir plus sur bord et la configuration, voir Configurer le [tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md).
+Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide de Microsoft Teams et des services Skype Entreprise. Cette rubrique fournit des informations détaillées sur la classification de la qualité des flux multimédias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir Configurer le tableau de [bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 
-Dans bord, les flux sont classés comme _bon_, _médiocre_ou non _classés_ en fonction des valeurs des mesures de qualité clé disponibles. Les mesures et conditions utilisées pour classifier le flux sont indiquées dans les tableaux suivants. Les dimensions de type « médiocre à la suite de » d’bord peuvent être utilisées pour comprendre quelle mesure est responsable d’une _mauvaise_ classification. Pour plus d’informations sur ces dimensions, voir [dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Les flux du même nom sont classés comme _Bons,_ Médiocres ou _Non_ classés selon les valeurs des mesures de qualité clés disponibles. Les mesures et conditions utilisées pour classifier le flux sont présentées dans les tableaux qui suivent. Les dimensions « Poor Due To » du CQD peuvent être utilisées pour comprendre quelle mesure est responsable d’une _classification_ médiocre. Pour plus d’informations sur ces dimensions, voir Dimensions et mesures disponibles dans le [tableau de bord de qualité des appels.](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 ### <a name="audio-classifier"></a>Classificateur audio
 
-Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est marqué comme _médiocre_:
+Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est marqué comme _Médiocre_:
 
-|Mesure|Condition|Explication|
-|:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Dégradation moyenne d’avis du réseau pour le flux. Le niveau de perte et de scintillation du réseau a affecté la qualité audio de la réception.|
-|Round Trip|> 500|Temps moyen de propagation du réseau en boucle arrondi, calculé en millisecondes. Détails disponibles dans [le document rfc3550](https://tools.ietf.org/html/rfc3550).|
-|Packet Loss Rate|> 0,1|Taux moyen de perte de paquets pour le flux.|
-|Jitter|> 30|Gigue moyenne pour le flux, en millisecondes.|
-|Ratio Concealed Samples Avg|> 0,07|Rapport moyen du nombre de trames audio et d’échantillons masqués générés par la correction de perte de paquets sur le nombre total de trames audio.|
+|Mesure|Scénario|Condition|Explication|
+|:-----|:-----|:-----|:-----|
+|Audio Degradation Avg|La description de charge utile n’est pas ANS|> 1,0|Dégradation moyenne de la note moyenne d'opinion réseau pour le flux. L’impact de la perte et de la gigue réseau sur la qualité de l’audio reçu.|
+|Round Trip|ALL|> 500|Durée moyenne de propagation sur le réseau d’aller-retour, calculée en millisecondes. Détails disponibles dans [le RFC3550.](https://tools.ietf.org/html/rfc3550)|
+|Packet Loss Rate|ALL|> 0,1|Taux moyen de perte de paquets pour le flux.|
+|Jitter|ALL|> 30|Gigue moyenne pour le flux, en millisecondes.|
+|Ratio Concealed Samples Avg|La description de la charge utile n’est pas AUT|> 0,07|Rapport moyen du nombre de trames audio avec échantillons masqués générés par la perte de paquets par rapport au nombre total de trames audio.|
 ||||
 
-### <a name="video-classifier-due-to-freeze"></a>Classificateur vidéo en raison de gel
+### <a name="video-classifier-due-to-freeze"></a>Classificateur vidéo dû au gel
 
-Le flux vidéo est marqué comme  _bon_ ou _médiocre_ en fonction de la valeur du score de classifieur généré pour évaluer la vidéo de l’utilisateur final. Ce classificateur est disponible uniquement pour le produit Microsoft Teams.
+Le flux vidéo est  _marqué_ « Bon ou Médiocre » sur la base de la valeur d’un score de classificateur généré pour estimer que l’utilisateur final a été bloqué par une vidéo. Ce classificateur est disponible uniquement pour le produit Microsoft Teams.
 
 |N° d’étape|Mesure|Scénario|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|1|Vidéo médiocre à cause du gel du classificateur |Est-ce que la paire de serveurs est client : serveur|>0,246|_Poor_|_Good_|_Unclassified_|Score compris entre 0 et 1, généré en fonction d’une combinaison d’utilisation de l’utilisateur, de statistiques de durée de gel et de l’utilisation globale des appels |
-|2|Vidéo médiocre à cause du gel du classificateur |Est-ce que la paire de serveurs est client :|>0,524|_Poor_|_Good_|_Unclassified_|Score compris entre 0 et 1, généré en fonction d’une combinaison d’utilisation de l’utilisateur, de statistiques de durée de gel et de l’utilisation globale des appels |
+|1|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Server|>0,246|_Poor_|_Good_|_Unclassified_|Note entre 0 et 1 générée sur la base d’une combinaison d’expérience utilisateur, statistiques de durée figée et expérience d’appel globale |
+|2|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Client|>0,524|_Poor_|_Good_|_Unclassified_|Note entre 0 et 1 générée sur la base d’une combinaison d’expérience utilisateur, statistiques de durée figée et expérience d’appel globale |
 |  |  |  |  |  |  |  |
 
 ### <a name="video-classifier"></a>Classificateur vidéo
-Un flux vidéo est marqué comme _bon_ ou _médiocre_ en fonction de la valeur de la première métrique disponible dans l’ordre suivant :
+Un flux vidéo est marqué comme _Bon_ ou _Médiocre_ en fonction de la valeur de la première mesure disponible dans l’ordre suivant :
 
 |N° d’étape|Mesure|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les trames récupérées à partir d’une perte du réseau.|
+|1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les images récupérées après des pertes de réseau.|
 |2|Video Frame Rate Avg|< 7|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
-|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
+|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC agrégé sur tous les flux et les codecs vidéo.|
 |  |  |  |  |  |  |  |
 
 ### <a name="vbss-classifier"></a>Classificateur VBSS
 
-Un flux VBSS est marqué comme _bon_ ou _médiocre_ en fonction de la valeur de la première métrique disponible dans l’ordre suivant :
+Un flux VBSS  est  marqué comme bon ou médiocre selon la valeur de la première métrique disponible dans l’ordre suivant :
 
 |N° d’étape |Mesure |Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les trames récupérées à partir d’une perte du réseau.|
+|1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les images récupérées après des pertes de réseau.|
 |2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
-|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
+|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC agrégé sur tous les flux et les codecs vidéo.|
 | |  | | | |  ||
 
 ### <a name="application-sharing-classifier"></a>Classificateur de partage d'applications
 
-Un flux de partage d’application est marqué comme _médiocre_ si une ou plusieurs des conditions suivantes sont remplies :
+Un flux de partage d’application est marqué comme _Médiocre_ si une ou plusieurs des conditions suivantes sont remplies :
 
 | Mesure     | Condition | Explication |
 |:---        |:---       | :--- |
-| Spoiled Tile Percent Total | > 36 | Pourcentage de vignettes ignorées au lieu d’être envoyées à un homologue distant (par exemple, de la MCU vers une visionneuse). Les vignettes annulées (ou abîmées) peuvent être dues à des restrictions de bande passante entre le client et le serveur. |
+| Spoiled Tile Percent Total | > 36 | Pourcentage de vignettes rejetées au lieu d’être envoyées à un homologue distant (par exemple du MCU à une visionneuse). Les vignettes rejetées (ou spoilées) peuvent être provoquées par des restrictions de bande passante entre le client et le serveur. |
 | AppSharing RDP Tile Processing Latency Average | > 400 | Latence moyenne en millisecondes du traitement des vignettes sur la pile RDP du serveur de téléconférence. |
-| AppSharing Relative OneWay Average | > 1,75 | Moyenne de retard relatif à sens unique entre les points de terminaison en secondes pour les flux de partage d’application. |
+| AppSharing Relative OneWay Average | > 1,75 | Retard à sens sensé relatif moyen entre les points de terminaison en secondes pour les flux de partage d’application. |
 | | | |
 
 ## <a name="unclassified-streams"></a>Flux non classifiés
 
-Dans bord, un flux est marqué comme n’étant pas _classé_ lorsque la connectivité de l’établissement de la connexion interactives échoue ou lorsque toutes les mesures requises pour calculer la classification du flux ne sont pas communiquées.
+Dans le tableau de performance  général, un flux est marqué comme non classé en cas d’échec de la connectivité ICE (Interactive Connectivity Connectivity) ou lorsque toutes les mesures requises pour calculer la classification des flux ne sont pas signalées.
 
-Pour vérifier les échecs de la connectivité ICE, examinez les dimensions « First Connectivity Ice » et « Second Connectivity Ice » pour une valeur « FAILED ». Si l’une des valeurs indique un échec, le flux est marqué comme non _classé_.
+Pour vérifier les échecs de la connectivité ICE, examinez les dimensions « First Connectivity Ice » et « Second Connectivity Ice » pour une valeur « FAILED ». Si l’une ou l’autre des valeurs indique un échec, le flux est marqué comme _non classé._
 
-Si la connectivité ICE a réussi pour un flux non _classé_ , le flux est probablement considéré comme non _classé_ car les métriques de flux de clés n’ont pas été communiquées. Il existe plusieurs raisons pour lesquelles ces métriques ne peuvent pas être rapportées :
+Si la connectivité ICE  a réussi pour un flux non classé, le flux est probablement considéré comme _non_ classé, car les métriques de flux clés n’ont pas été signalées. Il existe plusieurs raisons pour lesquelles ces métriques ne peuvent pas être rapportées :
 
-- Les **rapports QoE n’ont pas été reçus** : les métriques utilisées pour la classification sont communiquées dans un rapport QoE envoyé à la fin d’un appel. Si ce rapport n’est pas fourni (par exemple, parce que certains points de terminaison tiers ne peuvent pas envoyer le nombre d’éléments de type QoE) ou ne peuvent pas être envoyés (par exemple, en raison d’une défaillance du réseau), bord ne peut pas classifier le flux.
+- **Aucun rapport QoE n’a** été reçu. Les mesures utilisées pour la classification sont signalées dans un rapport QoE envoyé à la fin d’un appel. Si ce rapport n’est pas produit (par exemple, parce que certains points de terminaison tiers peuvent ne pas envoyer QoE) ou ne peuvent pas être envoyés (par exemple, en raison d’une panne du réseau), le CQD ne peut pas classifier le flux.
 
-> [!TIP]
-> La dimension « QoE Record Available » peut être utilisée pour déterminer si un rapport QoE a été reçu pour un flux. Notez que cette dimension aura la valeur « True » si un rapport QoE a été reçu de chaque point de terminaison. Un rapport QoE des deux points de terminaison est requis pour un compte-rendu plus précis des métriques.
+  > [!TIP]
+  > La dimension « QoE Record Available » peut être utilisée pour déterminer si un rapport QoE a été reçu pour un flux. Notez que cette dimension aura la valeur « True » si un rapport QoE a été reçu de chaque point de terminaison. Un rapport QoE des deux points de terminaison est requis pour un compte-rendu plus précis des métriques.
 
-- **Appels courts** : il est possible que les appels courts ne disposent pas de suffisamment d’activité multimédia pour calculer les métriques de flux clé. Sans ces métriques, le TBQA est incapable de classifier le flux.
+- **Appels courts** : les appels courts risquent de ne pas avoir assez d’activité multimédia pour calculer les mesures clés de flux. Sans ces métriques, le TBQA est incapable de classifier le flux.
 
-> [!TIP]
-> Les dimensions « Durée (Secondes) », « Durée (Minutes) », « Durée 5 secondes ou moins » et « Durée 60 secondes ou plus » peuvent être utilisées pour déterminer la durée d'un flux. La mesure « durée moyenne d'appel » peut également être utilisée pour calculer la durée moyenne d'un ensemble de flux.
+  > [!TIP]
+  > Les dimensions « Durée (Secondes) », « Durée (Minutes) », « Durée 5 secondes ou moins » et « Durée 60 secondes ou plus » peuvent être utilisées pour déterminer la durée d'un flux. La mesure « durée moyenne d'appel » peut également être utilisée pour calculer la durée moyenne d'un ensemble de flux.
 
-- **Faible utilisation des paquets** (par exemple, le scénario « appel court »), une utilisation suffisante des paquets est nécessaire pour le calcul des métriques de flux clé. Sans ces métriques, le TBQA est incapable de classifier le flux.
-  - Un scénario courant d’utilisation faible des paquets se produit lorsqu’un participant rejoint une réunion pour écouter le présentateur, mais jamais (le micro est coupé pour la plupart des appels). Ici, le flux audio entrant sur le client a une forte utilisation du paquet alors que le flux audio sortant du client a une faible utilisation du paquet. La durée du flux peut être d’une heure ou plus, mais l’utilisation du paquet sur le flux du client vers le serveur est faible, car le microphone a été coupé et un résultat de flux non _classé_ .
+- **Faible utilisation des paquets** : comme dans le scénario « appel court », une utilisation suffisante des paquets est requise pour le calcul des métriques de flux clés. Sans ces métriques, le TBQA est incapable de classifier le flux.
+  - Un scénario courant de faible utilisation des paquets se produit lorsqu’un participant participe à une réunion pour écouter le présentateur, mais ne parle jamais (le micro est muet pendant la plupart des appels). Ici, l’utilisation des paquets dans le flux audio entrant au client est élevée, tandis que le flux audio sortant du client a peu ou pas d’utilisation des paquets. La durée du flux peut être d’une heure ou plus, mais l’utilisation du paquet sur  le flux entre le client et le serveur est faible depuis que le microphone a été muet et qu’un flux non classé en résulte.
 
-> [!TIP]
-> La dimension « Utilisation des paquets » et la mesure « Utilisation moyenne des paquets » peuvent être utilisées pour déterminer l’activité des paquets d’un flux.
+  > [!TIP]
+  > La dimension « Utilisation des paquets » et la mesure « Utilisation moyenne des paquets » peuvent être utilisées pour déterminer l’activité des paquets d’un flux.
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md)
+[Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 
-[Qu’est-ce que bord ?](CQD-what-is-call-quality-dashboard.md)
+[Qu’est-ce que le CQD ?](CQD-what-is-call-quality-dashboard.md)
 
-[Configurer le tableau de bord de qualité des appels (bord)](turning-on-and-using-call-quality-dashboard.md)
+[Configurer le tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 
-[Télécharger le client et générer des données](CQD-upload-tenant-building-data.md)
+[Charger des données client et bâtiment](CQD-upload-tenant-building-data.md)
 
-[Rapports et données bord](CQD-data-and-reports.md)
+[Données et rapports du CQD](CQD-data-and-reports.md)
 
-[Utiliser bord pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
+[Utiliser le CQD pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
 
-[Dimensions et mesures disponibles dans bord](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Utiliser Power BI pour analyser des données de bord](CQD-Power-BI-query-templates.md)
+[Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)

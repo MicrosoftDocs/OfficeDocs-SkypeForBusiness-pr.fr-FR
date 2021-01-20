@@ -1,5 +1,5 @@
 ---
-title: Gérer l’accès basé sur une équipe pour les employés de première ligne dans Teams
+title: Gérer l’accès en équipe pour les employés en ligne en ligne dans Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -8,42 +8,42 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment gérer l’accès par équipes dans Teams pour les employés de première ligne de votre organisation.
+description: Découvrez comment gérer l’accès en équipes en libre-service dans Teams pour les employés en ligne de votre organisation.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b73fe9b3c4b39e7d3fa7b31427f563c47e5a737
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823014"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909468"
 ---
-# <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Gérer l’accès basé sur une équipe pour les employés de première ligne dans Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Gérer l’accès en équipe pour les employés en ligne en ligne dans Teams
 
 > [!IMPORTANT]
-> Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployer au fil du temps. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir StaffHub s’afficheront un message les en dirigerant pour télécharger Teams. Pour en savoir plus, [voir Microsoft StaffHub a été retiré.](microsoft-staffhub-to-be-retired.md)  
+> Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront opérationnelles au fil du temps. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir StaffHub s’afficheront un message les en directe pour télécharger Teams. Pour en savoir plus, [voir Microsoft StaffHub a été retiré.](microsoft-staffhub-to-be-retired.md)  
 
 ## <a name="overview"></a>Vue d’ensemble
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-La présence dans Microsoft Teams indique la disponibilité et le statut actuel d’un utilisateur pour les autres utilisateurs. La présence des employés de première ligne est souvent moins prévisible que les autres employés, car leurs heures de travail ne sont généralement pas les mêmes chaque jour. En tant qu’administrateur, vous pouvez configurer Teams de façon à afficher un ensemble d’états de présence basés sur l’horaire pour que les employés de première ligne de votre organisation indiquent quand ils sont en déplacement.
+La présence dans Microsoft Teams indique la disponibilité et le statut actuel d’un utilisateur pour les autres utilisateurs. La présence des employés en ligne est souvent moins prévisible que les autres employés, car leurs heures de travail ne sont généralement pas les mêmes chaque jour. En tant qu’administrateur, vous pouvez configurer Teams de façon à afficher un ensemble d’états de présence en fonction de l’horaire pour les employés en ligne de votre organisation qui indiquent quand ils sont en déplacement.
 
-Ces états de présence basés sur un shift sont une coche verte pleine, indique Sur shift, Cercle gris avec x, indique Décalage décalé, Cercle rouge plein, indique Occupé(se) sont séparés de l’ensemble par défaut d’états de présence dans &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) Avec ces deux ensembles d’états de présence, vous pouvez configurer des expériences différentes pour les membres de votre organisation en fonction de leur rôle.
+Ces états de présence basés sur un shift sont une coche verte pleine, indique Sur shift, Cercle gris avec x, indique Décalage décalé, Cercle rouge plein, indique Occupé(se) sont séparés de l’ensemble par défaut des états de présence dans &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) Avec ces deux ensembles d’états de présence, vous pouvez configurer des expériences différentes pour les membres de votre organisation en fonction de leur rôle.
 
-Avec un accès en équipe, vous pouvez gérer l’accès à Teams lorsque les employés de première ligne sont en congé. Par exemple, vous pouvez configurer Teams pour qu’elle affiche un message que les employés de première ligne doivent prendre en compte avant qu’ils ne peuvent utiliser Teams lorsqu’ils ne sont pas sur un shift programmé.  
+Avec un accès basé sur un shift, vous pouvez gérer l’accès à Teams lorsque les employés en ligne sont en congé. Par exemple, vous pouvez configurer Teams pour qu’elle affiche un message que les employés en ligne doivent prendre en compte pour pouvoir utiliser Teams lorsqu’ils ne sont pas sur une équipe prévue.  
 
 ## <a name="scenario"></a>Scénario
 
 Voici un exemple de la façon dont votre organisation peut gérer l’accès basé sur des shifts.
 
-Vous avez des employés de première ligne dans votre organisation qui ne doivent être payés que pour les heures pendant qui ils travaillent sur un shift que leur responsable a prévu et approuvé. Ils ne doivent pas être payés pour le temps passé à travailler en dehors d’une équipe prévue, ce qui inclut l’utilisation de l’application Teams. Vous définissez un message personnalisé qui indique « Votre temps sur Teams lorsque vous êtes en congé ne sera pas comptabilisé dans le nombre d’heures payables », qui s’affiche lorsque les employés de première ligne essaient d’accéder à Teams lorsqu’ils sont en congé. S’ils choisissent d’utiliser Teams, ils cliquent sur **J’accepte,** en comprendre qu’ils ne seront pas payés pour le moment.
+Vous avez des employés en ligne de votre organisation qui ne doivent être payés que pendant les heures pendant des heures sur un shift que leur responsable a prévu et approuvé. Ils ne doivent pas être payés pour le temps passé à travailler en dehors d’une équipe prévue, ce qui inclut l’utilisation de l’application Teams. Vous définissez un message personnalisé qui indique « Votre temps sur Teams lorsque vous êtes en congé ne compte pas vers les heures payables », qui s’affiche lorsque les employés en première ligne essaient d’accéder à Teams lorsqu’ils sont en congé. S’ils choisissent d’utiliser Teams, ils cliquent sur **J’accepte,** en comprendre qu’ils ne seront pas payés pour le moment.
 
-Vous avez également dans votre organisation des travailleurs de l’information qui sont salariés et qui ne travaillent pas en équipe. Vous configurez vos travailleurs de l’information de manière à utiliser les états de présence par défaut dans Teams tout en offrant à vos employés de première ligne une présence basée sur les shifts.
+Vous avez également dans votre organisation des travailleurs de l’information qui sont salariés et qui ne travaillent pas en équipe. Vous configurez vos travailleurs de l’information de façon à utiliser les états de présence par défaut dans Teams tout en offrant à vos employés en ligne une présence basée sur une équipe.
 
 ## <a name="shift-based-presence-states"></a>Présence basée sur les shifts
 
@@ -53,11 +53,11 @@ Voici les états de présence en fonction de l’horaire.
 |---------|---------|---------|
 |![Coche vert plein, indique Au shift](../../media/flw-presence-on-shift.png) Sur shift     |         |Définir automatiquement au début d’un shift         |
 |![Cercle gris avec x, indique Décalage décalé](../../media/flw-presence-off-shift.png) Congé     |         |Définir automatiquement à la fin d’un shift         |
-|![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé      | ![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé         |Définir automatiquement. Peut également être manuellement définie lorsque le employé de première ligne est en shift.|
+|![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé      | ![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé         |Définir automatiquement. Peut également être manuellement définie lorsque le collègue en première ligne est en shift.|
 
 ## <a name="off-shift-access-to-teams"></a>Accès par shift non autorisé à Teams
 
-Cette fonctionnalité vous permet de gérer l’accès à Teams lorsque les employés de première ligne sont en congé. Vous pouvez configurer Teams pour qu’elle affiche un message aux employés de première ligne s’ils accèdent à Teams lorsqu’ils sont en congé. Les employés de première ligne doivent cliquer **sur J’accepte** pour que le message soit pris en compte pour pouvoir utiliser Teams.
+Cette fonctionnalité vous permet de gérer l’accès à Teams lorsque vos employés en ligne sont en congé. Vous pouvez configurer Teams pour qu’elle affiche un message aux employés en première ligne s’ils accèdent à Teams en dehors de leur shift. Les employés en ligne doivent cliquer **sur J’accepte** pour que le message soit pris en compte avant qu’ils ne peuvent utiliser Teams.
 
 Vous pouvez utiliser le message par défaut, faire votre choix parmi un ensemble de messages prédéfin définis ou personnaliser le message pour afficher le texte de votre choix. Voici le message par défaut :
 
@@ -67,7 +67,7 @@ Vous pouvez également définir la fréquence d’affichage du message et défin
 
 ## <a name="manage-shift-based-access"></a>Gérer l’accès en fonction des shifts
 
-En tant qu’administrateur, vous utilisez des stratégies pour contrôler la présence basée sur les shifts pour les employés de première ligne de votre organisation. Vous gérez ces stratégies à l’aide des cmdlets PowerShell suivantes :
+En tant qu’administrateur, vous utilisez des stratégies pour contrôler la présence basée sur les shifts pour les employés en ligne de votre organisation. Vous gérez ces stratégies à l’aide des cmdlets PowerShell suivantes :
 
 - [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)
@@ -77,7 +77,7 @@ En tant qu’administrateur, vous utilisez des stratégies pour contrôler la pr
 
 Utilisez l'New-CsTeamsShiftsPolicy cmdlet pour créer une stratégie, définissez les paramètres de stratégie de votre souhaitez, puis utilisez l'Grant-CsTeamsShiftsPolicy de cmdlet Grant-CsTeamsShiftsPolicy pour affecter la stratégie aux utilisateurs.
 
-Voici quelques exemples. Pour plus d’informations sur chaque paramètre et paramètre de stratégie, y compris la liste des messages de shift prédéfinie parmi lesquels vous pouvez faire votre choix, consultez [New-CsTeamsShiftsPolicy.](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+Voici quelques exemples. Pour plus d’informations sur chaque paramètre et paramètre de stratégie, y compris la liste des messages de shift prédéfinie parmi lesquels vous pouvez choisir, voir [New-CsTeamsShiftsPolicy.](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-1"></a>Exemple 1
 
@@ -105,9 +105,9 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 
 Dans cet exemple, nous créons une stratégie nommée Off Shift Teams Access Message1. Dans cette stratégie, la présence basée sur les shifts est désactivée et le message prédéféré suivant s’affiche chaque fois qu’un utilisateur affecté à cette stratégie accède à Teams lorsqu’il est en congé.
 
-  « Votre employeur n’autorise ou n’approuve pas l’utilisation de son réseau, de ses applications, de ses systèmes ou de ses outils par des employés non exemptés ou par heure pendant leurs heures non travaillées. En l’acceptant, vous reconnaissez que l’utilisation de Teams pendant un shift n’est pas autorisée et vous ne serez pas rémunéré. » 
+  « Votre employeur n’autorise ou n’approuve pas l’utilisation de son réseau, de ses applications, de ses systèmes ou de ses outils par des employés non exemptés ou toutes les heures pendant leurs heures non travaillées. En l’acceptant, vous reconnaissez que l’utilisation de Teams pendant un shift n’est pas autorisée et vous ne serez pas rémunéré. » 
 
-L’utilisateur peut utiliser Teams lorsqu’il est en congé s’il accepte le message et la période de grâce entre le début du premier shift ou la fin du dernier shift et lorsque l’accès est restreint est de trois minutes.  
+L’utilisateur peut utiliser Teams lorsqu’il est en congé s’il accepte le message et la période de grâce entre le début du premier shift ou la fin du dernier shift et quand l’accès est restreint est de trois minutes.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3

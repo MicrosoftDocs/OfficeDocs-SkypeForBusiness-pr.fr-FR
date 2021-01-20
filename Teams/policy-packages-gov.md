@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les packages de stratégie Teams pour votre organisation gouvernementale.
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812884"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909078"
 ---
 # <a name="teams-policy-packages-for-government"></a>Packages de stratégie Teams pour le gouvernement
 
@@ -46,8 +46,8 @@ Teams inclut actuellement les packages de stratégie suivants pour le gouverneme
 |Nom du package dans le Centre d’administration Microsoft Teams|Idéal pour|Description |
 |---------|---------|---------|
 |Responsable de la sécurité publique  |Responsables de la sécurité publique dans votre organisation publique  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation. |
-|Gestionnaire de première ligne  |Responsables de première ligne dans votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux responsables de première ligne de votre organisation.|
-|Employé de première ligne  |Employés de première ligne dans votre organisation publique |Crée un ensemble de stratégies et applique ces paramètres aux employés de première ligne de votre organisation.|
+|Gestionnaire en ligne  |Responsables en ligne au niveau de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation.|
+|Employé en ligne  |Employés en ligne de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation.|
 
 ![Capture d’écran des packages de stratégies de santé](media/policy-packages-gov.png)
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: Vue d’ensemble du centre de contacts intégré en tant que solution de service (CCaaS) pour Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820994"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909488"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du Centre de contacts pour Microsoft Teams
 
@@ -26,7 +26,7 @@ L’intégration des solutions de centre de contacts populaires à Microsoft Tea
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Qu’est-ce qu’une intégration du Centre de contacts pour Microsoft Teams ?
 
-Aujourd’hui, les centres de contacts offrent bien plus que du support: ils font partie des principaux véhicules d’interaction et de commentaires non filtrés sur l’expérience d’un client avec une marque. En raison de l’éventail des canaux que les clients aujourd’hui préfèrent utiliser :téléphone, messagerie électronique, texte, réseaux sociaux, et le volume développé de points tactiles associés aux processus d’achat actuels, de nombreuses organisations ont réalisé deux réalités supplémentaires :
+Aujourd’hui, les centres de contacts offrent bien plus que du support: ils font partie des principaux utilitaires d’interaction et de commentaires non filtrés sur l’expérience d’un client avec une marque. En raison de l’éventail des canaux que les clients aujourd’hui préfèrent s’impliquer :téléphone, courrier électronique, texte, réseaux sociaux, et le volume développé de points tactiles associés aux processus d’achat actuels. De nombreuses organisations ont fait l’expérience de deux réalités supplémentaires :
 
 1. Chaque membre de l’organisation peut participer directement à l’implication d’un client et doit donc être équipé des outils appropriés.
 
@@ -60,7 +60,6 @@ Les partenaires suivants sont en train de certifier leur solution pour Microsoft
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-
 Cette liste est mise à jour à mesure que de nouveaux partenaires rejoignent et répondent aux critères de certification.
 
 ## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Comment fonctionnent les solutions du Centre de contacts dans Microsoft Teams ?
@@ -85,9 +84,9 @@ Ensemble, ces fonctionnalités permettent trois modèles d’intégration :
 
 ### <a name="connect"></a>Connecter
 
-Ce modèle connecte les partenaires CCaaS à l’infrastructure du système téléphonique de Microsoft Teams, ce qui permet d’améliorer le routage, la configuration et les informations système. Dans ce modèle, la solution partenaire du Centre de contacts peut également fournir des services de téléphonie pour certains numéros et utilisateurs.
+Ce modèle connecte les partenaires CCaaS à l’infrastructure du système téléphonique de Microsoft Teams, ce qui permet d’améliorer le routage, la configuration et les informations système. Dans ce modèle, la solution partenaire du Centre de contacts peut également fournir des services téléphoniques pour certains numéros et utilisateurs.
 
-Les agents utilisant des solutions intégrées au modèle Connect peuvent recueillir des informations & d’informations et, si nécessaire, transférer des appels à des experts sur ce sujet directement, en utilisant la présence du SME dans Teams pour garantir leur disponibilité.
+Les agents utilisant des solutions intégrées au modèle & Connect peuvent recueillir des informations et obtenir des informations et, si nécessaire, transférer des appels à des experts sur ce sujet directement, en utilisant la présence du SME dans Teams pour garantir leur disponibilité.
 
 Les organisations peuvent router les appels vers l’agent optimal en mettant en place des assistants virtuels automatisés et des files d’attente de routage basées sur les compétences.
 
@@ -111,7 +110,7 @@ Bien que les points suivants ne sont pas une liste exhaustive des fonctionnalit�
 
 ### <a name="connect-and-extend"></a>Se connecter et prolonger
 
-Ce modèle étend les expériences du personnel et de l’agent du centre de contacts en l’intégrant au client Teams à l’aide de la plateforme [du client Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)des [API Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) et de l’API de communications cloud dans Microsoft [Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) et utilise le système téléphonique de Teams pour tous les appels du centre de contacts et les expériences de contrôle d’appel. Dans ce modèle, le partenaire du centre de contacts agit en tant qu’opérateur téléphonique en parallèle de Microsoft 365.
+Ce modèle étend les expériences du personnel et de l’agent du centre de contacts en l’intégrant au client Teams à l’aide de la plateforme [du client Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)des [API Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) et de l’API de communications cloud dans Microsoft [Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) et utilise le système téléphonique de Teams pour tous les appels du centre de contacts et les expériences de contrôle d’appel. Dans ce modèle, le partenaire du Centre de contacts agit en tant qu’opérateur téléphonique en parallèle de Microsoft 365.
 
 L’utilisation de solutions de connexion et étendues permet aux agents de tirer parti de notes dynamiques et contextuelles qui correlent les données de plusieurs systèmes avant de commencer un engagement, et évitent ainsi un changement de contexte coûteux en travaillant en mode natif dans Teams pour la collaboration interne et les communications externes.
 
@@ -135,15 +134,15 @@ Bien que la liste suivante ne soit pas exhaustive des fonctionnalités de ce mod
 
   - Les expériences de conversation et de collaboration intégrées aux clients Teams 
 
-  - Préserver les performances et la qualité des expériences clientes teams dans toutes les applications  
+  - Préserver les performances et la qualité des expériences clientes de Teams dans toutes les applications  
 
 ### <a name="extend-and-power"></a>Étendre et alimenter
 
-Ce modèle permet aux partenaires de créer des applications vocales azure natives à l’aide de l’infrastructure d’appels Teams et de la plateforme cliente pour offrir des solutions modernes et intelligentes pour une connexion client et agent collaborative. L’objectif d’Étendre et de Power est de stimuler la créativité des développeurs et de stimuler la productivité du client.
+Ce modèle permet aux partenaires de créer des applications vocales azure natives à l’aide de l’infrastructure d’appels Teams et de la plateforme cliente pour offrir des solutions modernes et intelligentes pour une connexion client et agent collaborative. L’objectif de Développer et de Power est de stimuler la créativité des développeurs et de stimuler la productivité des clients.
 
 En construisant directement sur Azure, les partenaires peuvent rapidement déployer et déployer leur solution dans toutes les régions et régions géographiques de Teams, en profitant de notre réseau de communications partagé et global, tout en profitant des services cognitifs &, de calcul, d’analyse et de stockage Azure.
 
-Grâce au modèle d’intégration extend et Power, les partenaires peuvent fournir aux agents du centre de contacts des expériences de communication sur l’ensemble des canaux, tout en intégrant l’intelligence artificielle pour personnaliser la façon dont les participants, ou d’autres services, participent à un appel appliquant l’API de communication cloud dans [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+Avec le modèle d’intégration extend et Power, les partenaires peuvent fournir aux agents des centres de contacts des expériences de communication sur l’ensemble des canaux, tout en intégrant l’intelligence artificielle pour personnaliser la façon dont les participants, ou d’autres services, participent à un appel appliquant l’API de communications cloud dans [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 
 **Principales caractéristiques de la fonctionnalité :**
 
@@ -225,4 +224,4 @@ Le tableau ci-dessous présente une vue d’ensemble des modèles d’intégrati
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Si vous êtes un fournisseur désireux de participer au programme de certification, envoyez un <Teamscategorypartner@microsoft.com> e-mail.
+Si vous êtes un vendeur désireux de participer au programme de certification, envoyez un <Teamscategorypartner@microsoft.com> e-mail.

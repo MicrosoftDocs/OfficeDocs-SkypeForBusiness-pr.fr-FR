@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806214"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903565"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -51,6 +51,26 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 
 > [!CAUTION]
 > Si vous ne voulez pas que les utilisateurs anonymes joignent des réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre.
+
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Autoriser les utilisateurs anonymes à interagir avec les applications dans les réunions
+
+Les utilisateurs anonymes héritent désormais de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ce contrôle permet ensuite aux utilisateurs anonymes d’interagir avec les applications dans les réunions Teams tant que la stratégie d’autorisation au niveau utilisateur a activé l’application. Notez que les utilisateurs anonymes ne peuvent interagir qu’avec des applications déjà disponibles lors d’une réunion et ne peuvent pas acquérir et/ou gérer ces applications. 
+
+> [!IMPORTANT]
+> Par défaut, le paramètre permettant aux utilisateurs anonymes d’interagir avec les applications pendant les réunions est activé.
+
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+
+Vous devez être un administrateur de service Teams pour accéder à ce paramètre. Pour en [savoir plus sur l’obtention](https://docs.microsoft.com/microsoftteams/using-admin-roles) de rôles et d’autorisations d’administrateur, voir Utiliser les rôles d’administrateur Teams pour gérer Teams.
+
+1. Allez au Centre d’administration.
+
+2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
+
+3. Sous **Participants,** le paramètre qui permet aux utilisateurs **anonymes** d’interagir avec les applications dans les réunions peut être modifié.
+
+> [!CAUTION]
+> Si vous ne souhaitez pas que les utilisateurs anonymes interagissent avec les applications dans les réunions prévues par les utilisateurs de votre organisation, désactiver ce paramètre.
 
 ## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
