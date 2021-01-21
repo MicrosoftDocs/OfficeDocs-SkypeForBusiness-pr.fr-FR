@@ -1,5 +1,5 @@
 ---
-title: Mise en service de Microsoft Teams à grande échelle pour les employés de terrain
+title: Mise en service de Microsoft Teams à grande échelle pour les employés de bureau
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: Instructions sur l’utilisation d’un script pour déployer ou mettre en service Microsoft Teams pour les employés de terrain.
+description: Instructions sur l’utilisation d’un script pour déployer ou mettre en service Microsoft Teams pour les employés de bureau.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028170"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909368"
 ---
-# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de terrain
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
 Avez-vous besoin d’intégrer rapidement un grand nombre d’utilisateurs à Microsoft Teams et de configurer une expérience uniformisée pour eux ? Vous pouvez mettre rapidement en service des identités et des équipes, et attribuer toutes les stratégies appropriées pour contrôler l’expérience des utilisateurs finaux en suivant les instructions suivantes.
 
@@ -132,11 +132,11 @@ Vous devez installer plusieurs modules PowerShell et vous y connecter, y compris
 
 ## <a name="create-and-set-up-teams"></a>Créer et configurer des équipes
 
-Pour communiquer et collaborer avec vos employés de terrain, vous devez tout d’abord établir une série d’équipes et ajouter des canaux standard à celles-ci. C’est ce que nous aborderons par la suite.
+Pour communiquer et collaborer avec vos employés de bureau, vous devez tout d’abord établir une série d’équipes et ajouter des canaux standard à celles-ci. C’est ce que nous aborderons par la suite.
 
 ### <a name="create-teams"></a>Créer des équipes
 
-Les équipes sont un ensemble de personnes, de contenu et d’outils au sein de votre organisation. Pour la plupart des organisations axées sur les employés de terrain, nous vous conseillons d’implanter une équipe dans un emplacement physique. Par exemple, une équipe pour chacun des éléments suivants :
+Les équipes sont un ensemble de personnes, de contenu et d’outils au sein de votre organisation. Pour la plupart des organisations axées sur les employés de bureau, nous vous conseillons d’implanter une équipe dans un emplacement physique. Par exemple, une équipe pour chacun des éléments suivants :
 
 - Magasin
 - Centre de distribution
@@ -172,26 +172,26 @@ Les canaux sont des sections dédiées dans une équipe pour organiser les conve
 
 1. Recherchez le fichier **TeamsChannels.csv** dans le dossier scripts du référentiel.
 1. Mettez à jour le fichier **TeamsChannels.csv** avec les informations propres à votre organisation. Gardez à l’esprit nos meilleures pratiques mentionnées ci-dessus.
-1. Recherchez le script**CreateTeamsChannels.ps1** dans le dossier scripts du référentiel.
+1. Recherchez le script **CreateTeamsChannels.ps1** dans le dossier scripts du référentiel.
 1. À partir de PowerShell, exécutez le script **CreateTeamsChannels.ps1**.
 
 ## <a name="create-teams-policies"></a>Créer des stratégies d’équipes
 
 En tant qu’administrateur, vous pouvez utiliser les stratégies d’équipes dans Microsoft Teams pour contrôler ce que les utilisateurs peuvent voir et peuvent faire au sein de votre organisation. Par exemple, vous pouvez contrôler les applications qui sont épinglées dans la partie gauche de votre navigateur de bureau ou de votre navigateur Web, ou dans la barre inférieure sur les appareils mobiles, afin de simplifier l’expérience des utilisateurs finaux lors de l’intégration d’un grand nombre d’utilisateurs. Certaines de ces stratégies peuvent être créées à l’aide de PowerShell, tandis que d’autres doivent être créées manuellement dans la console d’administration de Teams.
 
-*Discussion sur les meilleures pratiques* : pour chacune des stratégies suivantes, nous cherchons à créer deux stratégies : une pour les employés de terrain et une pour les responsables de terrain. Vous pouvez décider d’en créer autant que vous le souhaitez. Pour la plupart des clients, deux stratégies constituent un bon point de départ, même si, au début, vous attribuez les mêmes paramètres à chaque groupe. Au fur et à mesure que vous acquerrez de l’expérience avec Teams, vous pourrez choisir de différencier davantage l’expérience des utilisateurs et le fait d’avoir déjà créé deux stratégies distinctes peut simplifier les choses.
+*Discussion sur les meilleures pratiques* : pour chacune des stratégies suivantes, nous cherchons à créer deux stratégies : une pour les employés de bureau et une pour les responsables de bureau. Vous pouvez décider d’en créer autant que vous le souhaitez. Pour la plupart des clients, deux stratégies constituent un bon point de départ, même si, au début, vous attribuez les mêmes paramètres à chaque groupe. Au fur et à mesure que vous acquerrez de l’expérience avec Teams, vous pourrez choisir de différencier davantage l’expérience des utilisateurs et le fait d’avoir déjà créé deux stratégies distinctes peut simplifier les choses.
 
 ### <a name="create-teams-message-policies"></a>Créer des stratégies de message d’équipes
 
 Les stratégies de messagerie permettent de contrôler la disponibilité des fonctionnalités de conversation et de messagerie de canal pour les utilisateurs de Microsoft Teams.
 
-*Discussion sur les meilleures pratiques* : bien que vous puissiez utiliser la stratégie globale par défaut créée automatiquement, nous avons choisi de créer une stratégie personnalisée à l’aide des étapes ci-dessous pour offrir une expérience plus sécurisée, simple et diversifiée pour les responsables et les employés de terrain.
+*Discussion sur les meilleures pratiques* : bien que vous puissiez utiliser la stratégie globale par défaut créée automatiquement, nous avons choisi de créer une stratégie personnalisée à l’aide des étapes ci-dessous pour offrir une expérience plus sécurisée, simple et diversifiée pour les responsables et les employés de bureau.
 
 #### <a name="steps-to-create-teams-message-policies"></a>Étapes de création de stratégies de message d’équipes
 
 1. Recherchez le fichier **TeamsMessagingPolicies.csv** dans le dossier scripts du référentiel.
 1. Mettez à jour le fichier **TeamsMessagingPolicies.csv** avec les informations propres à votre organisation. Pour plus d’informations sur les différentes options, cliquez [ici](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings).
-1. Recherchez le script**CreateTeamsMessagePolicies.ps1** dans le dossier scripts du référentiel.
+1. Recherchez le script **CreateTeamsMessagePolicies.ps1** dans le dossier scripts du référentiel.
 1. À partir de PowerShell, exécutez le script **CreateTeamsMessagePolicies.ps1**.
 
 ### <a name="create-teams-app-setup-policies"></a>Créer des stratégies de configuration d’application d’équipes
@@ -207,16 +207,16 @@ Les applications sont épinglées à la barre de l’application. Il s’agit de
 |---------|---------|---------|
 |![Capture d’écran du client de bureau Teams avec les applications épinglées à la barre de *l’application*.](media/FLW-Teams-Desktop-Client.png)         |         |![Capture d’écran du client de bureau Teams avec les applications épinglées à la barre *inférieure*.](media/FLW-Teams-Mobile-Client.png) |
 
-*Discussion sur les meilleures pratiques* : vous gérez les stratégies de configuration d’application dans le Centre d’administration Microsoft Teams. Elles ne peuvent pas être créées à l’aide de PowerShell. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer à des utilisateurs. La stratégie globale sera automatiquement attribuée aux utilisateurs de votre organisation, sauf si vous créez et leur attribuez une stratégie personnalisée. Dans notre cas, nous créons deux nouvelles stratégies pour les employés et les responsables de terrain afin de leur offrir une expérience plus simple et plus uniformisée qui facilite l’intégration simultanée d’un grand nombre d’utilisateurs. Vous pouvez choisir de personnaliser l’expérience en fonction des besoins de votre entreprise.
+*Discussion sur les meilleures pratiques* : vous gérez les stratégies de configuration d’application dans le Centre d’administration Microsoft Teams. Elles ne peuvent pas être créées à l’aide de PowerShell. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer à des utilisateurs. La stratégie globale sera automatiquement attribuée aux utilisateurs de votre organisation, sauf si vous créez et leur attribuez une stratégie personnalisée. Dans notre cas, nous créons deux nouvelles stratégies pour les employés et les responsables de bureau afin de leur offrir une expérience plus simple et plus uniformisée qui facilite l’intégration simultanée d’un grand nombre d’utilisateurs. Vous pouvez choisir de personnaliser l’expérience en fonction des besoins de votre entreprise.
 
-#### <a name="create-the-firstline-manager-app-setup-policy"></a>Créer la stratégie de configuration de l’application du responsable de terrain
+#### <a name="create-the-frontline-manager-app-setup-policy"></a>Créer la stratégie de configuration de l’application du responsable de bureau
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
 2. Cliquez sur  **Ajouter**.  
-3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : **la stratégie de configuration de l’application du responsable de terrain**.
-![Image de la stratégie de configuration de l’application du responsable de terrain.](media/FLW-FLM-App-Setup-Policy.png)
+3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : **la stratégie de configuration de l’application du responsable de bureau**.
+![Image de la stratégie de configuration de l’application du responsable de bureau.](media/FLW-FLM-App-Setup-Policy.png)
 
 4. Désactivez l’option **Charger des applications personnalisées**.
 5. Désactivez l’option **Autoriser l’épinglage de l’utilisateur**.
@@ -233,14 +233,14 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
     1. Calendrier
     1. Shifts ![Capture d’écran de la liste des applications du responsable dans l’ordre.](media/FLW-Manager-Pinned-Apps.png)
 
-#### <a name="create-the-firstline-worker-app-setup-policy"></a>Créer la stratégie de configuration de l’application de l’employé de terrain
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>Créer la stratégie de configuration de l’application de l’employé de bureau
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
 2. Cliquez sur  **Ajouter**.
-3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : **la stratégie de configuration de l’application de l’employé de terrain**.
-![Image de la stratégie de configuration de l’application de l’employé de terrain.](media/FLW-FLW-App-Setup-Policy.png)
+3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : **la stratégie de configuration de l’application de l’employé de bureau**.
+![Image de la stratégie de configuration de l’application de l’employé de bureau.](media/FLW-FLW-App-Setup-Policy.png)
 
 4. Désactivez l’option **Charger des applications personnalisées**.
 5. Désactivez l’option **Autoriser l’épinglage de l’utilisateur**.
@@ -260,9 +260,9 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler les applications auxquelles les utilisateurs de Microsoft Teams peuvent accéder au sein de votre organisation. Vous pouvez autoriser ou bloquer toutes les applications ou des applications spécifiques publiées par Microsoft, par des tiers et par votre organisation. Lorsque vous bloquez une application, les utilisateurs qui disposent de la stratégie ne peuvent pas l’installer à partir de la boutique d’applications Teams. Vous devez être un administrateur général ou un administrateur du service Teams pour gérer ces stratégies.
 
-*Discussion sur les meilleures pratiques* : vous gérez les stratégies de configuration d’application dans le Centre d’administration Microsoft Teams. Elles ne peuvent pas être créées à l’aide de PowerShell. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer à des utilisateurs. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Dans notre cas, nous créons deux nouvelles stratégies pour les employés et les responsables de terrain afin de leur offrir une expérience sécurisée et plus uniformisée qui facilite l’intégration simultanée d’un grand nombre d’utilisateurs. Bien évidemment, vous pouvez choisir de personnaliser l’expérience en fonction des besoins de votre entreprise.
+*Discussion sur les meilleures pratiques* : vous gérez les stratégies de configuration d’application dans le Centre d’administration Microsoft Teams. Elles ne peuvent pas être créées à l’aide de PowerShell. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer à des utilisateurs. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Dans notre cas, nous créons deux nouvelles stratégies pour les employés et les responsables de bureau afin de leur offrir une expérience sécurisée et plus uniformisée qui facilite l’intégration simultanée d’un grand nombre d’utilisateurs. Bien évidemment, vous pouvez choisir de personnaliser l’expérience en fonction des besoins de votre entreprise.
 
-#### <a name="create-the-firstline-manager-app-permission-policy"></a>Créer la stratégie d’autorisation de l’application du responsable de terrain
+#### <a name="create-the-frontline-manager-app-permission-policy"></a>Créer la stratégie d’autorisation de l’application du responsable de bureau
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Voici quelques options recommandées en fonction des meilleures pratiques qui peuvent améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](teams-app-permission-policies.md).
 
@@ -270,13 +270,13 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 2. Cliquez sur  **Ajouter**.
 ![Affiche la page d’ajout de stratégie d’autorisation d’application, avec des sections pour Microsoft, des applications tierces et des applications clientes.](media/FLW-add-app-permission-policy.png)
 
-3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : la stratégie d’autorisation de l’application du responsable de terrain.
+3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : la stratégie d’autorisation de l’application du responsable de bureau.
 4. Sous les applications Microsoft, sélectionnez **Autoriser toutes les applications**.
 5. Sous les applications tierces, sélectionnez **Autoriser toutes les applications**.
 6. Sous les applications clientes, sélectionnez **Autoriser toutes les applications**.
 7. Cliquez sur  **Enregistrer**.
 
-#### <a name="create-the-firstline-worker-app-permission-policy"></a>Créer la stratégie d’autorisation de l’application de l’employé de terrain
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>Créer la stratégie d’autorisation de l’application de l’employé de bureau
 
 Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Voici quelques options recommandées en fonction des meilleures pratiques qui peuvent améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](teams-app-permission-policies.md).
 
@@ -284,7 +284,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 2. Cliquez sur  **Ajouter**.
 ![Affiche la page d’ajout de stratégie d’autorisation d’application, avec des sections pour Microsoft, des applications tierces et des applications clientes.](media/FLW-add-app-permission-policy.png)
 
-3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : la stratégie d’autorisation de l’application de l’employé de terrain.
+3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple : la stratégie d’autorisation de l’application de l’employé de bureau.
 4. Sous les applications Microsoft, sélectionnez **Autoriser toutes les applications**.
 5. Sous les applications tierces, sélectionnez **Bloquer toutes les applications**.
 6. Sous les applications clientes, sélectionnez **Autoriser toutes les applications**.
@@ -301,7 +301,7 @@ Pour utiliser un grand nombre d’utilisateurs dans Teams, vous devez d’abord 
   - Workday – [Didacticiel : configurer Workday pour attribuer automatiquement des utilisateurs](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - Si vos informations utilisateur sont présentes dans d’autres systèmes, procédez comme suit.
 
-Pour gérer ces utilisateurs de façon plus efficace, vous devez créer deux groupes de sécurité pour les employés et les responsables de terrain, et mettre en service ces utilisateurs directement dans les groupes de sécurité en procédant comme suit :
+Pour gérer ces utilisateurs de façon plus efficace, vous devez créer deux groupes de sécurité pour les employés et les responsables de bureau, et mettre en service ces utilisateurs directement dans les groupes de sécurité en procédant comme suit :
 
 1. Recherchez le fichier **Users.csv** dans le dossier scripts du référentiel.
 1. Mettez à jour le fichier **Users.csv** avec les informations propres à votre organisation.
@@ -349,7 +349,7 @@ Lorsque vous disposez d’une licence Azure AD P1 ou version ultérieure, vous a
 
 1. Recherchez le fichier **migrateGroups.csv** dans le dossier data du référentiel.
 1. Mettez à jour le fichier CSV **migrateGroups.csv** avec les groupes qui seront migrés, ainsi que la règle pour l’appartenance dynamique.
-1. Recherchez le fichier**ConvertGroupMembershipType.ps1** dans le dossier scripts du référentiel.
+1. Recherchez le fichier **ConvertGroupMembershipType.ps1** dans le dossier scripts du référentiel.
 1. À partir de PowerShell, exécutez le script **ConvertGroupMembershipType.ps1**
 
 ## <a name="test-and-validate"></a>Tester et valider
@@ -363,7 +363,7 @@ Maintenant que vous avez effectué toutes les étapes, il est temps de vérifier
 1. Vérifiez que l’utilisateur est dans la bonne équipe. Si ce n’est pas le cas, passez en revue les sections **Création et configuration d’utilisateurs** et **Affecter des utilisateurs à des équipes**.
 
 > [!NOTE]
-> Si la mise en service des employés terrain est gérée au sein de votre équipe de gestion des identités et des accès, vous devez suivre leur processus pour leur fournir leurs informations d’identification.
+> Si la mise en service des employés bureau est gérée au sein de votre équipe de gestion des identités et des accès, vous devez suivre leur processus pour leur fournir leurs informations d’identification.
 
 ### <a name="check-for-errors"></a>Rechercher des erreurs
 

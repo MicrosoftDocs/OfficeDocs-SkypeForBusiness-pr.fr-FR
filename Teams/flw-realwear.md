@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262511"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909388"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams pour RealWear
 
-Cet article traite du client Microsoft Teams pour les casques ou lunettes wearable RealWear. Les employés de terrain utilisant RealWear HMT-1 et HMT-1Z1 peuvent désormais collaborer avec un expert à distance grâce à l’utilisation des appels vidéo sur Teams. Par l’intermédiaire d’une interface utilisateur vocale, Teams pour RealWear permet aux employés de conserver leurs mains libres à 100 %, tout en gardant une idée précise de la situation dans des environnements bruyants et dangereux. Avec l’affichage en temps réel de ce qu’ils voient, les employés de terrain peuvent réduire le temps nécessaire pour résoudre des problèmes et limiter les risques d’interruption de service.
+Cet article traite du client Microsoft Teams pour les casques ou lunettes wearable RealWear. Les employés de bureau utilisant RealWear HMT-1 et HMT-1Z1 peuvent désormais collaborer avec un expert à distance grâce à l’utilisation des appels vidéo sur Teams. Par l’intermédiaire d’une interface utilisateur vocale, Teams pour RealWear permet aux employés de conserver leurs mains libres à 100 %, tout en gardant une idée précise de la situation dans des environnements bruyants et dangereux. Avec l’affichage en temps réel de ce qu’ils voient, les employés de terrain peuvent réduire le temps nécessaire pour résoudre des problèmes et limiter les risques d’interruption de service.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Comment déployer Microsoft Teams pour RealWear
 
