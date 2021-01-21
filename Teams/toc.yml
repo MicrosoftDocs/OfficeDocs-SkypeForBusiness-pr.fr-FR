@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: Créer des utilisateurs supplémentaires
           href: business-voice/create-users.md
-        - name: "Exemple\_: configurer une file d’attente des appels"
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Configuration de files d’attente d’appels
-          href: business-voice/set-up-call-queues.md
-        - name: "Exemple\_: configurer un standard automatique"
-          href: tutorial-org-aa.yml
-        - name: Configurer vos standards automatiques
-          href: business-voice/set-up-auto-attendants.md
+        - name: Configurer une file d'attente d'appels
+          href: business-voice/create-a-phone-system-call-queue-smb.md
+        - name: Configurer un standard automatique
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: Gérer votre configuration
       items:
         - name: Créer un ou plusieurs utilisateurs
@@ -1175,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: Référence SKU pour l’éducation
           href: sku-reference-edu.md
-    - name: Teams pour les employés de terrain
+    - name: Teams pour les travailleurs de première ligne
       items:
-        - name: Démarrage rapide pour les employés de terrain
-          href: firstline-workers-quickstart.yml
-        - name: Déploiement par script pour les employés terrain
+        - name: Démarrage rapide pour les travailleurs de première ligne
+          href: flw-quickstart.yml
+        - name: Déploiement par script pour les travailleurs de première ligne
           href: flw-scripted-deployment.md
-        - name: Gérer l’accès shift pour les employés de terrain
+        - name: Gérer l'accès par quart de travail pour les travailleurs de première ligne
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear pour Microsoft Teams
           href: flw-realwear.md
