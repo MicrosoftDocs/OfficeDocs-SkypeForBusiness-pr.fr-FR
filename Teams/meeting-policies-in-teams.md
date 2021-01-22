@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718628"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918910"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
 
@@ -45,7 +45,7 @@ Vous pouvez implémenter des stratégies de plusieurs manières, ce qui affecte 
 |---------|---------|
 |Par organisateur    |Lorsque vous appliquez une stratégie par organisateur, tous les participants à la réunion héritent de la stratégie de l’organisateur. Par exemple, le paramètre **Admettre automatiquement des personnes** est une stratégie par organisateur. Elle permet de contrôler si les utilisateurs rejoignent directement la réunion ou attendent dans la salle d’attente pour les réunions planifiées par l’utilisateur auquel la stratégie est attribuée.          |
 |Par utilisateur    |Lorsque vous appliquez une stratégie par utilisateur, seule la stratégie par utilisateur s’applique pour restreindre certaines fonctionnalités pour l’organisateur et/ou les participants à la réunion. Par exemple, le paramètre **Autoriser la conférence maintenant dans les canaux** est une stratégie par utilisateur.     |
-|Par organisateur et par utilisateur     |Lorsque vous appliquez une combinaison d’une stratégie par organisateur et par utilisateur, certaines fonctionnalités sont limitées aux participants à la réunion en fonction de leur stratégie et celle de l’organisateur. Par exemple, le paramètre **Autoriser l’enregistrement dans le Cloud** est une stratégie par organisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants à démarrer et arrêter un enregistrement.
+|Par organisateur et par utilisateur     |Lorsque vous appliquez une combinaison d’une stratégie par organisateur et par utilisateur, certaines fonctionnalités sont limitées aux participants à la réunion en fonction de leur stratégie et celle de l’organisateur. Par exemple, le paramètre **Autoriser l’enregistrement dans le Cloud** est une stratégie par organisateur et par utilisateur. Activer ce paramètre pour autoriser les utilisateurs à démarrer et arrêter un enregistrement.
 
 Vous pouvez modifier les paramètres dans la stratégie globale ou créer et affecter une ou plusieurs stratégies personnalisées. Les utilisateurs recevront automatiquement la stratégie par défaut, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
@@ -117,7 +117,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page **Stratégies d
 
 ### <a name="allow-meet-now-in-channels"></a>Autoriser la conférence maintenant dans les canaux
 
-Autoriser **Conférence maintenant** est une stratégie par utilisateur et s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion non planifiée dans un canal Teams. Si vous activez ce paramètre, les utilisateurs peuvent sélectionner le bouton de **rencontre** pour démarrer une réunion non planifiée ou planifier une réunion dans le canal. La valeur par défaut est True.
+Autoriser **Conférence maintenant** est une stratégie par utilisateur et s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion non planifiée dans un canal Teams. Si vous activer ce paramètre,  les utilisateurs peuvent sélectionner le bouton Conférence pour démarrer une réunion non planifiée ou planifier une réunion dans le canal. La valeur par défaut est True.
 
 ![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
 
@@ -197,7 +197,7 @@ Notez que la transcription pour les réunions enregistrées est prise en charge 
 
 ### <a name="allow-cloud-recording"></a>Autoriser l’enregistrement dans le Cloud
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si les réunions de cet utilisateur peuvent être enregistrées. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant à la réunion si le paramètre de stratégie est activé pour le participant et s’il s’agit d’un utilisateur authentifié de la même organisation.
+Cette stratégie est contrôlée par utilisateur. Ce paramètre contrôle si un utilisateur peut enregistrer. L’enregistrement peut être démarré par l’organisateur de la réunion ou un autre participant si son paramètre de stratégie spécifique est désactivé et s’il s’agit d’un utilisateur authentifié de la même organisation que l’organisateur.
 
 Les personnes extérieures à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent ni démarrer ni arrêter l’enregistrement.
 
@@ -211,7 +211,7 @@ Examinons l’exemple suivant.
 |Geneviève | Location1MeetingPolicy | Activé|
 |John (utilisateur externe) | Non applicable | Non applicable|
 
-Les réunions organisées par Daniela ne peuvent pas être enregistrées et Amanda, dont le paramètre de stratégie est activé, ne peut pas enregistrer les réunions organisées par Daniela. Les réunions organisées par Amanda peuvent être enregistrées, toutefois, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peuvent pas enregistrer les réunions organisées par Amanda.
+Daniela, même si elle était l’organisateur ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions même celles organisées par Daniela. Si Contrôle organisait une réunion, elle pourra toutefois enregistrer cette réunion, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peut pas enregistrer cette réunion.
 
 Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
@@ -329,8 +329,8 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 
 ### <a name="screen-sharing-mode"></a>Mode de partage d’écran
 
-> [!Note]
-> Cette fonctionnalité est en cours de développement. Le partage d’écran est une stratégie par participant.
+> [!NOTE]
+> Cette fonctionnalité est en cours de développement. Le partage d’écran est une stratégie par participant, mais elle peut être affectée par les paramètres de partage d’écran de l’organisateur, comme décrit dans cette section.
 
 Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé dans la réunion de l’utilisateur. Les participants à la réunion qui n'ont pas de stratégie attribuée (par exemple, les participants anonymes, invités, B2B et fédérés) héritent de la stratégie de l'organisateur de la réunion.
 
@@ -359,7 +359,7 @@ Si ce paramètre est activé pour l’utilisateur, l’option **Attribuer un con
 
 ![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
 
-Si ce paramètre est désactivé pour l’utilisateur, l’option **donner le contrôle** n’est pas disponible.
+Si le paramètre est désactivé pour  l’utilisateur, l’option Donner un contrôle n’est pas disponible.
 
 ![Capture d’écran montrant que l’option attribuer le contrôle n’est pas disponible](media/meeting-policies-give-control-not-available.png)
 
@@ -418,7 +418,7 @@ Amanda ne peut pas partager le tableau blanc pendant une réunion, même si elle
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** n’est pas pris en charge pour l’instant pour les réunions ayant moins de 20 participants.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. **L’onglet Notes** de réunion est pris en charge dans les réunions qui comptent jusqu’à 100 participants.
 
 Examinons l’exemple suivant.
 
@@ -455,7 +455,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 
 ![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
 
- Les organisateurs de la réunion peuvent sélectionner les **options de réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient.
+ Les organisateurs de réunion peuvent sélectionner **des options de** réunion dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils programment.
 
 > [!NOTE]
 > Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
@@ -469,7 +469,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**. Par défaut, ce paramètre est désactivé. Lorsque cette option est désactivée, les utilisateurs rendez-vous attendent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client teams et les autorise. Lorsque ce paramètre est activé, les utilisateurs des appels entrants joignent automatiquement la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
+Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui utilisent le téléphone rejoignent directement la réunion ou attendent dans la salle d’attente, quel que soit le paramètre **Autoriser les personnes automatiquement**. Par défaut, ce paramètre est désactivé. Lorsque ce paramètre est désactivé, les utilisateurs rendez-vous patientent dans la salle d’attente jusqu’à ce qu’un utilisateur de l’organisation rejoigne la réunion avec un client Teams et les admette. Lorsque ce paramètre est activé, les utilisateurs des appels entrants joignent automatiquement la réunion lorsqu’un utilisateur de l’organisation rejoint la réunion.
 
 > [!NOTE]
 > Si un utilisateur connecté rejoint une réunion avant qu'un utilisateur de l'organisation ne la rejoigne, il sera placé dans la salle d'attente jusqu'à ce qu'un utilisateur de l'organisation rejoigne la réunion à l'aide d'un client Teams et l'admette. Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
@@ -547,20 +547,13 @@ Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de l
 |**NoFilters**     |L'utilisateur ne peut pas personnaliser l'arrière-plan vidéo.|
 |**BlurOnly**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo. |
 |**BlurandDefaultBackgrounds**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo ou de choisir parmi l'ensemble d'images par défaut à utiliser comme arrière-plan. |
-|**AllFilters**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo, de choisir parmi l'ensemble d'images par défaut ou de télécharger des images personnalisées à utiliser comme arrière-plan. |
+|**AllFilters**     |L’utilisateur a la possibilité de flouter l’arrière-plan de sa vidéo, de choisir parmi l’ensemble d’images par défaut ou de télécharger des images personnalisées à utiliser comme arrière-plan. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > Les images chargées par les utilisateurs ne sont pas filtrées par Teams. Lorsque vous utilisez le paramètre de **AllFilters**, vous devez disposer de stratégies d’organisation interne pour empêcher les utilisateurs de télécharger des images choquantes ou inappropriées, ou des images que votre organisation n’a pas le droit d’utiliser pour Teams.
 
-## <a name="meeting-policy-settings---allow-breakout-rooms"></a>Paramètres de stratégie de réunion : autoriser les salles de dérivation
-
-Il s’agit d’une stratégie par utilisateur. [Les salles de dérivation](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d) dans Teams sont utilisées pour répartir les réunions dans des salles de réunion distinctes et de plus petite taille. Ce paramètre détermine si les organisateurs de la réunion ont la possibilité de créer et de gérer les salles de dérivation dans les réunions qu’ils planifient ou commencent. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant.
-
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
-
-Par défaut, le paramètre **AllowBreakOutRooms** est défini sur **True** et les utilisateurs auxquels cette stratégie ont la possibilité de créer et de gérer les salles de dérivation dans les réunions qu’elles planifient ou commencent. Les utilisateurs peuvent également affecter des participants aux salles et déplacer des participants entre les salles. N’oubliez pas que la création et la gestion de salles de dérivation au sein de réunions est actuellement uniquement disponible dans le client de bureau Teams. Pour plus d’informations, consultez [Créer et gérer des salles de dérivation pendant les réunions de cours](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d).
-
-Pour empêcher les utilisateurs de créer des salles de dérivation, définissez le paramètre **AllowBreakOutRooms** sur **False**. Les utilisateurs auxquels cette stratégie est attribuée n’ont pas la possibilité de créer ou de gérer les salles de dérivation.
+> [!NOTE]
+> Ces fonctionnalités ne sont pas disponibles pour tous les clients Teams. Pour plus d’informations, consultez le titre _Vidéo et arrière-plans_ dans [Réunions et événements en direct.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
 
 ## <a name="related-topics"></a>Sujets associés
 

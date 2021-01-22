@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Prenez un site ou une page SharePoint Online et créez un onglet statique autonome pouvant être utilisé comme portail intranet pour votre organisation.
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731112"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923806"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Créer une application de portail intranet Teams à partir d’un site ou d’une page SharePoint Online
 
@@ -100,9 +100,6 @@ Pour afficher l’onglet nouveau sur le bureau Teams, accédez aux points de sus
 Si vous souhaitez que la nouvelle application soit disponible dans le menu de gauche à une position supérieure, vous devez utiliser un paramètre de stratégie d’application. Ce paramètre se trouve dans la section administrateur Teams > stratégie d’application > Ajouter une application épinglée. Lorsque vous attribuez la politique à un utilisateur pour le test, le changement apparaîtra quelques heures plus tard. À cet esprit, n’hésitez pas à choisir l’emplacement dans lequel l’application doit apparaître à votre guise pour éviter les retards.
 
 Pour afficher et tester la nouvelle application sur un appareil mobile, ouvrez le tiroir de l’application en appuyant sur le chevron (**^**) au-dessus de la barre d’onglets située en bas de l’écran. Recherchez votre application et accédez-y sur votre appareil mobile.
-
-> [!CAUTION]
-> La prise en charge des appareils mobiles est actuellement disponible dans Aperçu pour les développeurs. Pour activer l’Aperçu pour les développeurs, accédez à Paramètres > À propos, puis activez le mode Aperçu pour les développeurs.
 
 ## <a name="a-sample-manifestjson-file"></a>Exemple de fichier Manifest.JSON
 

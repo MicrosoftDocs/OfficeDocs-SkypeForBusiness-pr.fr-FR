@@ -1,5 +1,5 @@
 ---
-title: Mise en attente des appels et de la reconnaissance vocale
+title: Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,40 +21,40 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: En savoir plus sur le standard automatique et les options de numérotation de la file d’attente et de reconnaissance vocale dans Teams.
-ms.openlocfilehash: 4ff2e60a1d785a035ee20c6547108f1b8916bcfb
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale des files d’attente dans Teams.
+ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749443"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918960"
 ---
-# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Mise en attente des appels et de la reconnaissance vocale
+# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels
 
-La numérotation par nom est une fonctionnalité d’un standard automatique qui est également connu sous le nom de recherche dans l’annuaire. Elle permet aux personnes qui appellent votre standard automatique d’utiliser la reconnaissance vocale ou leur clavier téléphonique (DTMF) d’entrer un nom complet ou partiel pour rechercher dans l’annuaire de la société, de localiser la personne, puis de lui transférer l’appel. Vous avez configuré la numérotation par nom lorsque vous [configurez les paramètres du flux d’appels dans un standard automatique](create-a-phone-system-auto-attendant.md#call-flow).
+La numérotation par nom est une fonctionnalité d’un service de service automatique également appelé recherche dans l’annuaire. Elle permet aux appelants d’utiliser la reconnaissance vocale ou leur clavier téléphonique (DTMF) pour saisir un nom complet ou partiel afin de rechercher dans l’annuaire de l’entreprise, de rechercher la personne et de lui transférer l’appel. Vous configurez la numérotation par nom lorsque vous configurez les paramètres du flux [d’appels dans un attendant automatique.](create-a-phone-system-auto-attendant.md#call-flow)
 
-## <a name="searching-for-users"></a>Rechercher des utilisateurs
+## <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-Les utilisateurs que vous souhaitez avoir localisés et pris en charge à l’aide de la numérotation par nom **n’ont pas besoin d’un numéro de téléphone ou d’un plan d’appels attribués, mais ils doivent être activés pour les utilisateurs de Skype entreprise Server**. La numérotation par nom sera même capable de rechercher et transférer des appels à des utilisateurs de Microsoft teams hébergés dans des pays ou des régions différents pour des organisations multinationales. En fonction des éléments requis, vous activez explicitement la numérotation par nom dans un standard automatique.
+Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à **l’aide** de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
 
-Dial by extension est une fonctionnalité d’un standard automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux personnes qui rejoignent votre standard automatique d’utiliser la reconnaissance vocale (Speech) ou leur clavier téléphonique (DTMF) d’entrer l’extension du téléphone de l’utilisateur que vous essayez de joindre, puis de lui transférer l’appel. Les utilisateurs que vous souhaitez trouver et auxquels il est possible d’accéder à l’aide de la numérotation par poste  **n’ont pas besoin d’un numéro de téléphone ou d’un plan d’appels qui leur est attribué, mais ils doivent être activés pour les utilisateurs de Skype entreprise Server**. Vous devrez également disposer d’un plan de numérotation correctement configuré pour vos utilisateurs. Le numérotation par poste de passe peut même être capable de rechercher et transférer des appels à des utilisateurs de Microsoft teams hébergés dans différents pays ou régions d’organisations multinationales. En fonction des éléments requis concernés, vous activez explicitement Dial par extension dans un standard automatique.
+La numérotation par poste est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à  **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par poste dans un attendant automatique.
 
 ### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n’y a aucune limite au nombre de utilisateurs de la fonction de numérotation par nom et par extension peut prendre en charge quand un appelant recherche une personne spécifique. Un appelant peut entrer des noms partiels ou complets (prénom + nom, et également nom + prénom), mais doit avoir le numéro de poste complet. La taille de liste de noms maximale qu’un standard automatique peut prendre en charge à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
+Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
   
 |Type d'entrée|Format de recherche|Nombre maximal d'utilisateurs dans une organisation|
 |:-----|:-----|:-----|
 |DTMF (entrée de clavier de téléphone) |Partiel  <br/> Prénom + nom  <br/> Nom + prénom |Aucune limite  |
-|Voix (entrée vocale) |Prénom  <br/> Ln  <br/> Prénom + nom  <br/> Nom + prénom  | 80 000 utilisateurs |
+|Voix (entrée vocale) |Prénom  <br/> Nom  <br/> Prénom + nom  <br/> Nom + prénom  | 80 000 utilisateurs |
 
 > [!NOTE]
-> Si vous utilisez la fonction numérotation par nom avec la reconnaissance vocale, mais que le service Active Directory de votre organisation est supérieur à 80 000 utilisateurs et que vous n’avez pas limité l’étendue de la numérotation par nom à l’aide de la fonctionnalité d’étendue de numérotation, la numérotation par nom restera valable pour les autres scénarios. Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
+> Si vous utilisez la fonction Numérotation par nom avec la reconnaissance vocale, mais que l’Active Directory de votre organisation compte plus de 80 000 utilisateurs et que vous n’avez pas limité l’étendue de la numérotation par nom à l’aide de la fonctionnalité de portée de la numérotation, la fonction Numérotation par nom continuera de fonctionner pour vos appelants à l’aide d’un clavier téléphonique et les entrées vocales seront disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
   
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Numérotation par nom - Entrée de clavier téléphonique (DTMF)
-Les personnes appelant peuvent utiliser la numérotation par nom pour joindre les utilisateurs en spécifiant le nom complet ou partiel de la personne que vous essayez de joindre. Vous pouvez utiliser différents formats lorsque le nom est entré.
+Les appelants peuvent utiliser la numérotation par nom pour joindre des utilisateurs en spécifiant leur nom complet ou partiel. Plusieurs formats peuvent être utilisés lorsque le nom est entré.
 
-Lorsqu'ils recherchent dans l'annuaire de votre organisation, les utilisateurs peuvent utiliser la touche 0 (zéro) pour indiquer un espace entre le prénom et le nom ou vice versa. Lorsque vous entrez le nom, il est demandé d’arrêter son entrée au clavier à l’aide de la touche #. Par exemple : « Après avoir saisi le nom de la personne que vous voulez joindre, appuyez sur #. » Si la recherche renvoie plusieurs noms, l'appelant pourra en sélectionner un parmi une liste.
+Lorsqu'ils recherchent dans l'annuaire de votre organisation, les utilisateurs peuvent utiliser la touche 0 (zéro) pour indiquer un espace entre le prénom et le nom ou vice versa. Lorsqu’il entre le nom, il est invité à terminer son entrée de clavier par la touche #. Par exemple : « Après avoir saisi le nom de la personne que vous voulez joindre, appuyez sur #. » Si la recherche renvoie plusieurs noms, l'appelant pourra en sélectionner un parmi une liste.
   
 Les employés peuvent rechercher des noms dans votre organisation à l'aide des formats de recherche suivants sur leur clavier téléphonique :
   
@@ -63,45 +63,45 @@ Les employés peuvent rechercher des noms dans votre organisation à l'aide des 
 |Prénom + nom |Complet  |Amos0Marble# |Amos Marble |
 |Nom + prénom |Complet |Marble0Amos#  |Amos Marble |
 |Prénom  |Complet   |Amos#   |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
-|Ln |Complet |Marble#  |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Mary Marble |
+|Nom |Complet |Marble#  |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Mary Marble |
 |Prénom ou nom |Partiel |Mar# |Appuyez sur 1 pour Mary Marble  <br/> Appuyez sur 2 pour Mary Jones  <br/> Appuyez sur 3 pour Amos Marcus |
 |Prénom + nom |Partiel |Amos0Mar # |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
 |Nom + prénom |Partiel |Mar0Am# |Appuyez sur 1 pour Amos Marble  <br/> Appuyez sur 2 pour Amos Marcus |
 
-Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à l'aide d'un clavier téléphonique. Par exemple, la personne sera invitée à utiliser la touche dièse (#), tandis que la touche zéro (0) est utilisée pour un espace entre les noms. Appuyer sur la touche étoile (*) permet de répéter la liste des correspondances de noms.
+Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à l'aide d'un clavier téléphonique. Par exemple, la personne sera invitée à utiliser la touche di clés (#), tandis que la touche zéro (0) est utilisée pour l’espace entre les noms. Appuyer sur la touche étoile (*) permet de répéter la liste des correspondances de noms.
   
 |Caractère spécial du clavier téléphonique|Signification|
 |:-----|:-----|
 |#   |Caractère de fin de saisie d'un nom |
-|0,4   |Espace entre les noms |
+|0   |Espace entre les noms |
 |*    |Répétition de la liste de correspondances de noms |
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Numérotation par nom - Reconnaissance vocale de nom
 
-Les personnes peuvent effectuer des recherches dans leur organisation par le biais de leur voix (reconnaissance vocale). Ils peuvent également joindre tout le monde dans Active Directory en indiquant le nom complet ou partiel de la personne qu’il essaie de rechercher. L’utilisation des entrées vocales peut reconnaître les noms dans divers formats, dont prénom, nom, prénom + nom ou nom + prénom.
+Les employés peuvent rechercher d’autres personnes dans leur organisation à l’grâce à leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en leur att dit leur nom complet ou partiel. Les entrées vocales peuvent reconnaître les noms dans différents formats, notamment Prénom, Nom, Prénom + Nom, ou Nom + Prénom.
   
-Vous pouvez activer la reconnaissance vocale pour un standard automatique, mais celle-ci n’est pas désactivée. Le clavier numérique peut être utilisé à tout moment, même si la reconnaissance vocale est activée sur le standard automatique.
+Vous pouvez activer la reconnaissance vocale pour un attendant automatique, mais l’entrée de clavier téléphonique (DTMF) n’est pas désactivée. Vous pouvez utiliser une entrée de clavier téléphonique à tout moment, même si la reconnaissance vocale est activée sur le attendant automatique.
   
-Comme avec l’entrée de clavier téléphonique, si plusieurs noms sont trouvés, la personne qui appelle entend une liste de noms parmi lesquels sélectionner.
+Comme pour l’entrée de clavier téléphonique, si plusieurs noms sont trouvés, l’appelant entend une liste de noms parmi qui vous sont demandés.
   
-Les appelants peuvent prononcer les noms dans les formats suivants :
+Les appelants peuvent dire les noms dans les formats suivants :
   
-|Nom avec la reconnaissance vocale|Type de recherche|Exemple|Résultat de recherche|
+|Nom avec reconnaissance vocale|Type de recherche|Exemple|Résultat de recherche|
 |:-----|:-----|:-----|:-----|
 |Prénom + nom |Complet |Amos Marble |Amos Marble |
 |Nom + prénom |Complet  |Marble Amos |Amos Marble |
 |Prénom |Complet |Amos |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Amos Jones |
-|Ln |Complet |Marble |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble |
-|Prénom ou nom |Partiel |Mer |Appuyez sur 1 ou dites 1 pour Mary Marble  <br/> Appuyez sur 2 ou dites 2 pour Mary Jones  <br/> Appuyez ou dites 3 pour Amos Marcus |
-|Prénom + nom |Partiel |Amos mars |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 2 pour Amos Marcus |
+|Nom |Complet |Marble |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble |
+|Prénom ou nom |Partiel |Mars |Appuyez sur 1 ou dites 1 pour Mary Marble  <br/> Appuyez sur 2 ou dites 1 pour Mary Jones  <br/> Appuyez sur 3 ou dites 3 pour AmosMos (Qu’est-ce que vous dites ) ? |
+|Prénom + nom |Partiel |Amos Mar |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour AmosEz |
 
 
 > [!NOTE]
-> Le nom d’un nouvel utilisateur peut nécessiter un délai de 36 heures (par nom) dans l’annuaire pour composer un numéro avec la reconnaissance vocale en raison d’un décalage de réplication Active Directory.
+> Jusqu’à 36 heures peuvent être nécessaire pour que le nom d’un nouvel utilisateur soit répertorié dans l’annuaire pour la numérotation par nom avec une reconnaissance vocale en raison d’un décalage de réplication Active Directory.
   
 ## <a name="language-support"></a>Prise en charge des langues
 
-Les langues suivantes sont disponibles pour la synthèse vocale utilisée avec les invites de courrier :
+Les langues suivantes sont disponibles pour la reconnaissance vocale utilisée avec les invites sortantes :
   
 |-|-|-|
 |:-----|:-----|:-----|
@@ -115,7 +115,7 @@ Les langues suivantes sont disponibles pour la synthèse vocale utilisée avec l
 |Anglais (CA)  |Italien (IT) |Espagnol (MX)|
 |Anglais (IN)  |Japonais (JP) |Suédois (SV)|
 
-L’entrée de reconnaissance vocale pour les standards automatiques est disponible dans les langues suivantes :
+L’entrée de reconnaissance vocale pour les attendants automatiques est disponible dans les langues suivantes :
   
 |-|-|
 |:-----|:-----|
@@ -127,19 +127,19 @@ L’entrée de reconnaissance vocale pour les standards automatiques est disponi
 |Anglais (É.U.)  |Espagnol (ES)  |
 |Français (CA)   |Espagnol (MX)  |
 
-Les commandes vocales suivantes sont disponibles dans les 14 langues prises en charge par la reconnaissance vocale :
+Les commandes vocales suivantes sont disponibles dans les 14 langues prise en charge pour la reconnaissance vocale :
   
 |Commande vocale| Correspond à |
 |:-----|:-----|
-|Oui | Tapez 1 pour Oui. |
-|Non | Tapez 2 pour non. |
-|Répéter |Répète la liste des options. Dans le pavé numérique, appuyez sur * pour répéter la liste des options. |
-|Opérateur | Appuyez sur 0 pour « opérateur ». |
+|Oui | Appuyez sur 1 pour appuyer sur Oui. |
+|Non | Appuyez sur 2 pour non. |
+|Répéter |Répète la liste des options. Appuyez sur * sur le pavé numérique pour répéter la liste des options. |
+|Opérateur | Appuyez sur 0 pour « Opérateur » |
 |Menu principal  |Dirige l'appelant vers le menu principal du standard automatique. |
-|Zéro | Appuyez sur 0 (par défaut, identique à « opérateur »).|
+|Zéro | Appuyez sur 0 (par défaut, identique à « Opérateur »).|
 |Un | Appuyez sur 1. |
-|Deux | Tapez 2. |
-|Trois| Tapez 3.|
+|Deux | Appuyez sur 2. |
+|Trois| Appuyez sur 3.|
 |Quatre | Appuyez sur 4. |
 |Cinq | Appuyez sur 5. |
 |Six  | Appuyez sur 6. |
@@ -154,5 +154,3 @@ Les commandes vocales suivantes sont disponibles dans les 14 langues prises en c
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Exemple de petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa)

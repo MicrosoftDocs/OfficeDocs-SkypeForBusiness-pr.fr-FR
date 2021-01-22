@@ -1,5 +1,5 @@
 ---
-title: Appel sortant d’une audioconférence ou m’appeler à quelques minutes
+title: Audioconférence Appel sortant/M’appeler en minutes
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,77 +21,80 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: Appel sortant et m’appeler en quelques minutes. À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois aux zones de pays.
-ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
-ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
+description: Appel sortant et m’appeler en l’avantage de minutes. À partir du 1er décembre 2019, chaque abonnement d’audioconférence fournit 60 minutes par utilisateur et par mois aux pays de la zone A.
+ms.openlocfilehash: ee309bc579ae1360763ff0d77fad7eb3c22b3c5a
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993460"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918930"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Abonnement à la conférence audio « dial-out »/«appelez-moi au
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audio conferencing subscription « Dial-Out"/"Call Me At » minutes benefit
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft teams et audioconférence RTC Skype entreprise
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Audioconférence PSTN Microsoft Teams et Skype Entreprise
 
-Les clients disposent d’une [fonctionnalité de numérotation](complimentary-dial-out-period.md) supplémentaire qui prendra fin le 30 novembre 2019. À compter du 1er décembre 2019, chaque abonnement audioconférence fournit 60 minutes par utilisateur et par mois, qui peuvent être utilisées pour appeler des numéros non surtaxés dans n’importe quel [pays ou région](audio-conferencing-zones.md). La taille du pool de minutes de numérotation des clients est basée sur des licences *attribuées* et non sur des licences achetées. Cette prestation s’applique uniquement aux licences d' *abonnements mensuels* de conférences audio et ne s’étend pas aux licences payantes de l’audioconférence. 
+Chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois qui peuvent être utilisées pour appeler des numéros non premium dans l’un des pays de la zone A, comme décrit dans le présent document. La taille de votre pool de minutes d’appels sortants client est basée sur *les licences* achetées. Cet avantage s’applique aux  licences d’abonnement mensuel à l’audioconférence et ne s’applique pas aux licences de paiement à la minute d’Audioconférence. 
 
 > [!NOTE]
-> La fin de la période de numérotation gratuite n’aura pas lieu le 30 novembre 2019, pour les pays dans lesquels l’abonnement à l’audioconférence est disponible, mais nous ne proposons pas actuellement la possibilité de configurer des crédits de communication. Il s’agit de pays suivants : Russie, Corée du Sud et Taïwan.
+> Depuis le 22 octobre 2020, la taille du pool de minutes  d’appels sortants de notre client est basée sur le nombre de licences d’abonnement Audioconférence achetées. Auparavant, la taille de la réserve de minutes d’appel sortant était basée sur le nombre de licences *affectées aux* utilisateurs.
 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audioconférence « appeler » à partir d’une réunion & "m’appeler à" détails "
+> [!NOTE]
+> La fin [](complimentary-dial-out-period.md) de la période d’appel sortant complémentaire n’a pas eu lieu le 30 novembre 2019 pour les pays où l’abonnement d’audioconférence est disponible, mais nous ne pouvons pas actuellement configurer les crédits de communication. Ces pays spécifiques sont la Russie, la Corée du Sud et Taïwan.
 
-Pour les clients adoptant notre service d’audioconférence, Microsoft est en mesure d’appeler des réunions organisées par les utilisateurs auxquels une licence a été attribuée par le biais de l’abonnement à la conférence audio. Les appels sortants vers des pays qui ne sont pas inclus dans la liste des [pays et des régions](audio-conferencing-zones.md) sont débités à la minute avec les crédits de communication. Pour les appels sortants facturés à la minute (les appels dépassent le pool de minutes de numérotation client ou les appels vers les destinations qui ne se trouvent pas dans la liste des [pays et régions](audio-conferencing-zones.md) , les appels et leurs tarifs associés sont basés sur la destination de l’appel et non sur le pays de résidence de l’organisateur ou le participant à la réunion lançant l’appel sortant. Par exemple, un appel vers un numéro de téléphone de la Conférence rendez-vous sur un numéro de téléphone en France, qui est une zone dans un pays, sera facturé à un tarif à la minute s’il a été initié par un participant à la réunion aux États-Unis, en France ou au Zimbabwe. 
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Informations sur l’audioconférence « Appeler depuis une réunion » & « M’appeler au »
+
+Pour les clients qui adoptent notre service d’audioconférence, Microsoft offre la possibilité de faire des appels sortants à partir de réunions organisées par des utilisateurs titulaires d’une licence d’abonnement à l’audioconférence. Les appels sortants vers les pays qui ne figurent pas dans la liste des pays et régions de la [zone A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication. Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays et régions de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont basés sur la destination de l’appel et non sur le pays de résidence de l’organisateur ou le participant à la réunion à l’origine de l’appel sortant. Par exemple, un appel sortant pour une audioconférence vers un numéro de téléphone en France, pays de zone A, est facturé au même tarif par minute si un participant à la réunion est aux États-Unis, en France ou au Zimbabwe. 
 
 
-|Emplacement d’utilisation des licences de l’organisateur de la réunion |Destination numérotée |Puis-je utiliser mes minutes de réserve de minutes de connexion ?|Ai-je besoin de crédits de communication ?|
+|Emplacement d’utilisation des licences de l’organisateur de réunion |Numérotation de destination |Puis-je utiliser mes minutes d’appel sortant de la piscine de minutes ?|Ai-je besoin de crédits de communication ?|
 |---------|---------|---------|---------|
-|États-Unis |États-Unis |Oui (zone A pays) |Oui *après* utilisation du pool de minutes de locataire         |
-|États-Unis |Royaume-Uni|Oui (zone A pays) |  Oui *après* utilisation du pool de minutes de locataire       |
-|États-Unis     |Zimbabwe|    Non     |     Oui sur *tous les* appels    |
-|Royaume-Uni     |Royaume-Uni|Oui (zone A pays) |  Oui *après* utilisation du pool de minutes de locataire       |
-|Royaume-Uni     |États-Unis |Oui (zone A pays) |  Oui *après* utilisation du pool de minutes de locataire       |
-|Royaume-Uni     |Zimbabwe|    Non     |   Oui sur *tous les* appels      |
-|Zimbabwe     |Zimbabwe|    Non     |    Oui sur *tous les* appels     |
-|Zimbabwe     |États-Unis | Oui (zone A pays) | Oui *après* utilisation du pool de minutes de locataire        |
-|Zimbabwe     |Royaume-Uni | Oui (zone A pays) | Oui *après* utilisation du pool de minutes de locataire        |
-|Îles Cook     |Îles Cook |   Non      |    Oui sur *tous les* appels     |
-|Îles Cook     |États-Unis  | Oui (zone A pays) |  Oui *après* utilisation du pool de minutes de locataire       |
-|Îles Cook     |Royaume-Uni | Oui (zone A pays) | Oui *après* utilisation du pool de minutes de locataire        |
+|États-Unis |États-Unis |Oui (pays de zone A) |Oui *après avoir* consommé le pool de minutes client         |
+|États-Unis |Royaume-Uni|Oui (pays de zone A) |  Oui *après avoir* consommé le pool de minutes client       |
+|États-Unis     |Zimbabwe|    Non     |     Oui sur *TOUS les* appels    |
+|Royaume-Uni     |Royaume-Uni|Oui (pays de zone A) |  Oui *après avoir* consommé le pool de minutes client       |
+|Royaume-Uni     |États-Unis |Oui (pays de zone A) |  Oui *après avoir* consommé le pool de minutes client       |
+|Royaume-Uni     |Zimbabwe|    Non     |   Oui sur *TOUS les* appels      |
+|Zimbabwe     |Zimbabwe|    Non     |    Oui sur *TOUS les* appels     |
+|Zimbabwe     |États-Unis | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
+|Zimbabwe     |Royaume-Uni | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
+|Îles Cook     |Îles Cook |   Non      |    Oui sur *TOUS les* appels     |
+|Îles Cook     |États-Unis  | Oui (pays de zone A) |  Oui *après avoir* consommé le pool de minutes client       |
+|Îles Cook     |Royaume-Uni | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
 |    |         |         |         |
 
-## <a name="how-are-minute-pools-calculated"></a>Comment calculer les pools de minutes ?
+## <a name="how-are-minute-pools-calculated"></a>Comment les groupes de minutes sont-ils calculés ?
 
-Prenons l’exemple suivant. Un client a acheté des licences de l’abonnement à l’audioconférence 115 et dispose de 10 utilisateurs aux États-Unis, 100 utilisateurs au Royaume-Uni et 5 utilisateurs au Zimbabwe, tous ayant reçu une licence d’abonnement de services d’audioconférence. Tous les utilisateurs d' 115 partagent un pool de (115 utilisateurs x 60 min = 6 900 pour les conférences rendez-vous par mois civil) pour passer des appels sortants vers des numéros non surtaxés dans n’importe quel [pays ou région](audio-conferencing-zones.md), *quelle que* soit la zone de l’organisateur de la réunion. Par exemple, un organisateur de la réunion du Zimbabwe est en mesure de passer d’une zone à l’autre dans [un pays ou une région](audio-conferencing-zones.md) dont le nombre de minutes est maximal.
+Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à AudioConférence et a 10 utilisateurs aux États-Unis, 100 utilisateurs au Royaume-Uni et 5 utilisateurs au Zimbabwe, avec des licences d’abonnement Audioconférence attribuées. Tous les 115 utilisateurs partagent un pool de (115 utilisateurs x 60 min = 6 900 minutes d’appels sortants par mois calendaire) pour placer des appels sortants vers des numéros non premium dans les pays et régions de la zone [A,](audio-conferencing-zones.md)où que l’organisateur de la réunion soit titulaire d’une licence ou physiquement installé.  Par exemple, l’organisateur d’une réunion de Zimbabwe peut appeler n’importe quel pays ou région de la [zone A](audio-conferencing-zones.md) jusqu’à la limite du pool de minutes.
 
-- Tous les appels sortants de plus de 6 900 minutes par mois civil sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination. (Remarque : le client doit configurer le [crédit de communications](what-are-communications-credits.md) et affecter la licence de crédits de communication à l’organisateur de la réunion.)
-- Tous les appels sortants vers des destinations qui ne se trouvent pas dans la liste des [pays et régions](audio-conferencing-zones.md) sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination (à condition que le client ait configuré les crédits de communication et attribué la licence de crédits de communication à l’organisateur de la réunion).
+- Tous les appels sortants supérieurs à 6 900 minutes par mois calendaire sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination. (Remarque : le client doit configurer les [crédits](what-are-communications-credits.md) de communication et affecter la licence Crédits de communication à l’organisateur de la réunion.)
+- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication à nos tarifs publiés vers cette destination (à condition que le client ait réglé les crédits de communication et affecté la licence Crédits de communication à l’organisateur de la réunion).
 
-## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment puis-je contrôler les minutes d’utilisation du pool ?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment surveiller l’utilisation de mes pool de minutes ?
 
-- Vous pouvez surveiller l’utilisation par rapport à votre liste des minutes de numérotation dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à **analyse &** rapports d'  >  **utilisation** des rapports, puis sélectionnez **pools de minutes PSTN**. La zone un pool de minutes de numérotation est libellée dans le rapport en tant qu’appel entrant vers la zone A pays.
-- Des notifications par courrier électronique seront envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes de numérotation de votre organisation aura atteint 80% et 100% :
+- Vous pouvez surveiller l’utilisation de votre pool de minutes d’appels sortants dans le Centre d’administration Microsoft Teams. Dans la barre de navigation de gauche, sélectionnez **Données d’analyse &** rapports d’utilisation des rapports, puis sélectionnez des groupes de minutes  >   **PSTN.** La réserve de minutes d’appels sortants de zone A est étiquetée dans le rapport comme « Appels sortants vers la zone A pays ».
+- Les notifications par courrier électronique seront envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes d’appels sortants de votre organisation atteint les 80 % et 100 % :
 
   - Administrateur de facturation
-  - Administrateur Skype entreprise
+  - Administrateur Skype Entreprise
   - Administrateur de la société
   - Administrateur de compte d’utilisateur
-  - Administrateur du support technique
+  - Administrateur du programme d’aide
   - Administrateur du support technique
   - Administrateurs d’appareils
-  - Administrateur d’applications
-  - Administrateur de licence
-  - Administrateur de périphériques Cloud
+  - Administrateur d’application
+  - Administrateur de licences
+  - Administrateur de périphériques cloud
   - Administrateur d’authentification
-  - Administrateur d’authentification privilégiée
+  - Administrateur Privileged Authentication
   - Administrateur des communications Teams
   - Ingénieur du support technique pour les communications Teams
-  - Spécialiste du support des communications teams
+  - Spécialiste du support pour les communications Dans Teams
   - Administrateur du service Teams
 
-Pour plus d’informations sur les crédits de communication, voir [crédits](what-are-communications-credits.md)de communication.
+Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>Voir aussi
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Zones du pays et de la région pour les conférences audio](audio-conferencing-zones.md)
+- [Zones de pays et de région pour l’audioconférence](audio-conferencing-zones.md)

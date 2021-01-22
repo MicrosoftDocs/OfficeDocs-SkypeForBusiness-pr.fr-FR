@@ -21,12 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802424"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918990"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Présentation des événements en direct Microsoft Teams
 
@@ -60,6 +61,9 @@ Vous pouvez voir sur l’image ci-dessus que cinq composants clés sont utilisé
 Teams permet aux organisateurs de créer un événement avec les autorisations de participant appropriées, de désigner les membres de l’équipe de l’événement, de sélectionner une méthode de production et d’inviter des participants. Si l’événement en direct a été créé à partir d’un groupe Yammer, les participants à l’événement peuvent utiliser la conversation Yammer pour interagir.
 
 ![l’écran Nouveaux événements en direct](../media/teams-live-events-schedule.png "Capture d’écran montrant l’écran Nouvel événement en direct pour créer et programmer un nouvel événement en direct")
+
+> [!IMPORTANT]
+> Teams ne permet pas aux utilisateurs de planifier des réunions ou des événements en direct lorsqu’ils sont hors connexion ou en cours d’exécution avec une bande passante limitée.
 
 ### <a name="production"></a>Production
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Les administrateurs peuvent en savoir plus sur les contrôleurs de session en bordure certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d5d94a2e15ea9e792cd9c8efbfacc53b9f47f92
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: d0617c975b95bdb39c020e57456490621125f459
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909538"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918920"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -32,7 +32,7 @@ Microsoft établit des partenariats avec certains fournisseurs de contrôleurs S
 Microsoft collabore avec chaque fournisseur pour : 
 
 - Travaillez conjointement sur les protocoles d’interconnexion SIP.
-- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les périphériques qui ont réussi les tests sont certifiés. 
+- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les appareils qui ont réussi les tests sont certifiés. 
 - Exécutez des tests quotidiens avec tous les périphériques certifiés dans les environnements de production et de pré-production. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés. 
 - Établissez un processus de support conjointe avec les fournisseurs SBC.
 
@@ -74,11 +74,12 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Prise en charge 3.20 (recommandé 4.0)        |  <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés des séries 1000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1r      |    <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
-|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs De services intégrés de série 4000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1r      |   <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de série 4000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1r      |   <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     Cisco Unified Border Element (CUBE) pour routeur Cloud Services de série 1000V       |     &#10004;   |  |      IOS XE Amsterdam 17.2.1r      |    <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Cisco Unified Border Element (CUBE) pour les routeurs Aggregation Services de série 1000      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1r      |    <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de bordure de session Avaya pour entreprise (ASBCE)    |     &#10004;     |           |       Publication 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    | 
+|                     |    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       20.8       |      <ul> <li> [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
