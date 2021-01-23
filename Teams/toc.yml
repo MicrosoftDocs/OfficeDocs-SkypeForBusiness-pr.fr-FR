@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: Gérer les équipes et les stratégies de canal
       href: teams-policies.md
-    - name: Étiquettes de confidentialité pour Teams
-      href: sensitivity-labels.md
     - name: Configurer la modération des canaux dans teams
       href: manage-channel-moderation-in-teams.md
     - name: Partage de fichiers dans Teams
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: Enregistrement basé sur des stratégies pour les appels et les réunions
           href: teams-recording-policy.md
+        - name: Étiquettes de confidentialité
+          href: sensitivity-labels.md
         - name: Protection contre la perte de données
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
