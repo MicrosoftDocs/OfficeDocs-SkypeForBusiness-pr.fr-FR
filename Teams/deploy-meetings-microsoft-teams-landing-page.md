@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030800"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918680"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Teams offre une expérience prête à l’utilisation pour votre organisation, e
 > Regardez la session suivante pour en savoir plus sur Meetings : [présentation de Meetings dans Microsoft Teams pour les spécialistes des TI](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings-and-conferencing-prerequisites"></a>Prérequis pour les réunions et conférences 
+## <a name="meetings-and-conferencing-prerequisites"></a>Prérequis pour les réunions et conférences
 
 Avant d'étendre le déploiement de vos réunions à l'ensemble de votre organisation, prenez le temps d'examiner et de confirmer que votre environnement est prêt à offrir aux utilisateurs la meilleure expérience possible. Passer en revue les informations suivantes et apportez les modifications nécessaires à votre environnement selon vos besoins.
 
@@ -139,7 +139,10 @@ Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et 
 
 ### <a name="bandwidth-planning"></a>Planification de la bande passante 
 
-La planification de la bande passante permet aux organisations d’estimer la bande passante requise pour prendre en charge des réunions avec leurs réseaux étendus et les liaisons internet afin de confirmer que le réseau est correctement configuré pour prendre en charge une mise à l’échelle des services de réunion. 
+La planification de la bande passante permet aux organisations d’estimer la bande passante requise pour prendre en charge des réunions avec leurs réseaux étendus et les liaisons internet afin de confirmer que le réseau est correctement configuré pour prendre en charge une mise à l’échelle des services de réunion.
+
+> [!IMPORTANT]
+> Teams ne permet pas aux utilisateurs de planifier de réunions ou d’événements en direct lorsqu’ils sont hors connexion ou qu’ils utilisent une bande passante limitée. 
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -157,7 +160,7 @@ Pour plus d’informations, voir [Enregistrement de réunion Teams dans le nuage
 
 | Posez-vous la question | Action |
 |--------------|--------|
-| Est-ce que je vais activer le service de transcription pour la réunion ?|Voir [activer ou désactiver la transcription de l’enregistrement](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
+| Est-ce que je vais activer le service de transcription pour la réunion ?|Voir [activer ou désactiver la transcription de l’enregistrement](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
 |||
 
 
