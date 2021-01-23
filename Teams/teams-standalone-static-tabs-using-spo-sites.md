@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Prenez un site ou une page SharePoint Online et créez un onglet statique autonome pouvant être utilisé comme portail intranet pour votre organisation.
+description: Prenez un site ou une page SharePoint Online et créez un onglet personnel autonome pouvant être utilisé comme portail intranet pour votre organisation.
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923806"
+ms.locfileid: "49937506"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Créer une application de portail intranet Teams à partir d’un site ou d’une page SharePoint Online
 
@@ -37,15 +37,26 @@ N’oubliez pas que le processus présenté **doit utiliser** un site ou page *M
 Avant de commencer :
 
 1. Vous devez connaître l'URL d'un site ou d'une page de communication ou d'équipe moderne SharePoint Online.
-    - Les chemins d’accès de ces sites sont toujours */teams/* ou */sites/*.
+
+   Les chemins d’accès de ces sites sont toujours */teams/* ou */sites/*.
 
 2. Vous devez connaître le sous-domaine de votre client, lequel sera utilisé dans l’espace réservé **{{subdomain}}**.
 
 3. Cet article utilise l’espace réservé **{{siteUrl}}** pour l’*URL* du site ou de la page que vous avez choisi.
-    - Exemple *URL* : `https://contoso.sharepoint.com/teams/Contoso`
-        *ou* `https://contoso.sharepoint.com/sites/Contoso`
+
+   Exemple *URL* :
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*ou*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
 4. De plus, **{{sitePath}}** sera utilisé pour indiquer le *chemin d’accès* de l’URL (par exemple : /teams/Contoso).
-    - Exemples de *chemins d’accès* :  /teams/Contoso   *ou* /sites/Contoso
+
+   Exemple *trajectoires* :
+   
+   - /teams/Contoso
+     <br/>*ou*
+   - /sites/Contoso
 
 Commencez par suivre les étapes ci-dessous :
 
@@ -69,10 +80,13 @@ Commencez par suivre les étapes ci-dessous :
 
 10. Renseignez les **contentURL et URL du site web**.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}}
+    - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **websiteUrl**: {{siteUrl}}
 
-    Exemple **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      Exemple **contentURL** :
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Accédez à la page **Domaines et autorisations**. Assurez-vous que la section domaines valides contient votre nom de domaine SharePoint Online.
 
@@ -80,20 +94,24 @@ Commencez par suivre les étapes ci-dessous :
 
 12. Ajoutez les propriétés **Authentification unique** de l’application web suivante :
 
-     Exemple :  **ID application AAD** : 00000003-0000-0ff1-ce00-000000000000  **URL de ressource** : {{subdomain}}.sharepoint.com
+    Exemple :
+    
+    - **ID de l’application AAD** : 00000003-0000-0ff1-ce00-000000000000
+    
+    - **Url de ressource** : {{subdomain}}.sharepoint.com
 
-    ![Authentification unique de l’application web avec ID et URL.](media/personal-app.png)
+      ![Authentification unique de l’application web avec ID et URL.](media/personal-app.png)
 
 13. **Enregistrez** ces propriétés, puis accédez à **Tester et distribuer**.
 
 14. Installez l’application pour tester l’application personnellement.
 
-> [!IMPORTANT]
-> Si vous n'utilisez pas Teams App Studio, vous devrez compresser le fichier manifest.JSON que vous venez de créer, accédez à l’App Store dans Teams, puis cliquez sur le lien **télécharger l’application personnalisée** (en bas à droite de l’App Store). L’application est alors disponible.
+    > [!IMPORTANT]
+    > Si vous n'utilisez pas Teams App Studio, vous devrez compresser le fichier manifest.JSON que vous venez de créer, accédez à l’App Store dans Teams, puis cliquez sur le lien **télécharger l’application personnalisée** (en bas à droite de l’App Store). L’application est alors disponible.
 
-15. L’application est désormais disponible sous la forme d’un onglet statique que vous pouvez charger et afficher dans Teams.
+15. L’application est désormais disponible sous la forme d’un onglet personnel que vous pouvez charger et afficher dans Teams.
 
-## <a name="test-and-view-your-new-static-tab"></a>Tester et afficher votre nouvel onglet statique
+## <a name="test-and-view-your-new-personal-tab"></a>Tester et afficher votre nouvel onglet personnel
 
 Pour afficher l’onglet nouveau sur le bureau Teams, accédez aux points de suspension (**...**) sur le côté gauche de la barre de l’application. Trouvez votre nouvelle application, chargez-la et testez-la dans Teams.
 
@@ -105,7 +123,7 @@ Pour afficher et tester la nouvelle application sur un appareil mobile, ouvrez l
 
 Le fichier JSON que vous avez généré ressemble à celui ci-dessous.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
