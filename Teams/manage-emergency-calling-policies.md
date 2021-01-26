@@ -20,22 +20,22 @@ description: Découvrez comment utiliser et gérer les stratégies d’appel d�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 1e516252317a0e5f14e705b674255048fb3defb5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e58f428fbaa25b03534ce9f168ecf347b183eda3
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804684"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973138"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence dans Microsoft Teams
 
-Si votre organisation utilise des [plans](set-up-calling-plans.md) d’appels ou un routage direct de système téléphonique [déployé,](direct-routing-landing-page.md)vous pouvez utiliser les stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur de Teams dans votre organisation effectue un appel d’urgence. Vous pouvez définir les personnes à informer et la manière dont ils sont avertis lorsqu’un utilisateur affecté à la stratégie appelle les services d’urgence. Par exemple, vous pouvez configurer les paramètres de stratégie pour avertir automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  
+Si votre organisation utilise des [plans](set-up-calling-plans.md) d’appels ou un routage direct de système téléphonique [déployé,](direct-routing-landing-page.md)vous pouvez utiliser des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur de Teams dans votre organisation effectue un appel d’urgence. Vous pouvez définir les personnes à informer et la manière dont ils sont avertis lorsqu’un utilisateur affecté à la stratégie appelle les services d’urgence. Par exemple, vous pouvez configurer les paramètres de stratégie pour avertir automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  
 
 Pour gérer les stratégies d’appel d’urgence, vous devez utiliser le Centre d’administration Microsoft Teams pour utiliser les stratégies d’urgence vocales  >   Windows PowerShell. Les stratégies peuvent être affectées à des utilisateurs et [à des sites réseau.](cloud-voice-network-settings.md)
 
 Pour les utilisateurs, vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) ou créer et attribuer des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. N’oubliez pas que vous pouvez modifier les paramètres de la stratégie globale, mais que vous ne pouvez pas le renommer ou le supprimer. Pour les sites réseau, vous créez et attribuez des stratégies personnalisées.
 
-Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et à un utilisateur, et si cet utilisateur se trouve sur ce site réseau, la stratégie affectée au site réseau remplace la stratégie qui lui est affectée.
+Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et à un utilisateur, et si cet utilisateur se trouve sur ce site réseau, la stratégie attribuée au site réseau remplace la stratégie qui lui est affectée.
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>Créer une stratégie personnalisée d’appels d’urgence
 
@@ -46,9 +46,9 @@ Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 4. Définissez la façon dont vous voulez avertir les personnes de votre organisation, généralement le service de sécurité, lorsqu’un appel d’urgence est effectué. Pour ce faire, sous **Mode de notification,** sélectionnez l’une des sélections suivantes :
     - **Envoyer une notification uniquement**: un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez.
-    - Conférence en cours, mais muet : un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez et ils peuvent écouter (mais ne peuvent pas participer) à la conversation entre l’appelant et l’opérateur PUBLIC.
-    -  Conférences au téléphone et réactives **(bientôt disponible)**: un message de conversation Teams est envoyé aux utilisateurs et groupes que vous spécifiez, et ils peuvent activer le son pour écouter l’appelant et participer à la conversation entre l’appelant et l’opérateur CENTRE.PUBLIC.
-5.  Si vous avez sélectionné la conférence entrante mais que vous êtes en mode de **notification** muet, dans la zone des **notifications** d’appel d’urgence numérotation pour les numéros de téléphone, vous pouvez entrer le numéro de téléphone PSTN d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. Par exemple, entrez le numéro du service de sécurité de votre organisation, qui recevra un appel lorsqu’un appel d’urgence sera effectué et pourra ensuite écouter l’appel.
+    - Conférence en mode muet impossible d’activer le son **:** Un message de conversation Teams est envoyé aux utilisateurs et aux groupes que vous spécifiez et ils peuvent écouter (mais ne peuvent pas participer) à la conversation entre l’appelant et l’opérateurCONFÉRENCE.
+    - Conférence en mode muet, mais possibilité d’activer le son : Un message de conversation Teams est envoyé aux utilisateurs et aux groupes que vous spécifiez, et ils peuvent activer le son pour écouter l’appelant et participer à la conversation entre l’appelant et l’opérateur CENTRE.PUBLIC.
+5.  Si vous avez sélectionné l’un des modes de **notification** muet, dans la zone Numéros pour appeler les **notifications** d’appel d’urgence, vous pouvez entrer le numéro de téléphone PSTN d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. Par exemple, entrez le numéro du service de sécurité de votre organisation, qui recevra un appel lorsqu’un appel d’urgence sera effectué et pourra ensuite écouter l’appel. Le téléphone PSTN ne peut pas être réactive même lorsque le mode est réglé sur Conférence en mode Muet, mais est en mesure **d’activer le son.**
 6. Recherchez et sélectionnez un ou plusieurs utilisateurs ou groupes, tels que le service de sécurité de votre organisation, pour être informé lorsqu’un appel d’urgence est effectué.  La notification peut être envoyée à des adresses e-mail d’utilisateurs, de groupes de distribution et de groupes de sécurité. Un maximum de 50 utilisateurs peuvent en être informés.
 7. Cliquez sur **Appliquer**.
 
@@ -74,7 +74,7 @@ Voir [Set-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Voir également [Grant-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy)
+Voir aussi [Grant-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy)
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Affecter une stratégie personnalisée d’appel d’urgence à un site réseau
 
@@ -86,7 +86,7 @@ L’exemple suivant montre comment affecter une stratégie appelée Stratégie d
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer les stratégies de routage d’appel d’urgence dans Teams](manage-emergency-call-routing-policies.md)
 

@@ -24,39 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
+  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583281"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "49973158"
 productDirectory:
   items:
   - title: Planifier votre mise à niveau de la version (commencez ici !)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Découvrez tout ce dont vous avez besoin pour faciliter la mise à niveau vers Teams. Public-All (sponsors de l’entreprise, administrateurs informatiques, préparation ou changement du responsable de projet)
+    summary: 'Que vous passiez la mise à niveau vers Teams avant la mise à niveau de Skype Entreprise Online (31 juillet 2021) ou le déplacement de scénarios de votre environnement local Skype Entreprise vers Teams, une transition réussie traite de la disponibilité des utilisateurs et techniques. Découvrez notre infrastructure éprouvée, nos meilleures pratiques et nos ressources conçues pour vous aider à faciliter la réussite d’une transition vers Teams à partir de Skype Entreprise Online, Skype Entreprise Server ou d’un environnement hybride. Public : Tous (sponsors commerciaux, administrateurs informatiques, préparation des utilisateurs/responsable du changement, responsable de projet)'
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: Préparez vos utilisateurs finaux
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Créez une stratégie de préparation des utilisateurs pour aider vos utilisateurs à apprécier et à adopter Teams. Public-disponibilité des utilisateurs/gestionnaire des modifications
-    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-  - title: Identifier votre approche de mise à niveau
+  - title: Implémenter la mise à niveau de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Déterminez l’approche la plus appropriée basée sur vos objectifs actuels de mise à niveau et de mise à niveau de Skype Entreprise. Public-administrateurs informatiques
-    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-  - title: Implémenter votre approche de mise à niveau
-    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-    summary: Exécutez votre approche de mise à niveau définie dans le cadre de votre plan de mise à niveau formel. Public-administrateurs informatiques
-    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+    summary: Rejoignez-nous pour identifier et préparer l’application de la meilleure approche technique pour déplacer toutes les charges de travail vers Teams, en fonction de vos objectifs et de votre environnement Skype Entreprise actuel. La plupart des clients qui ont effectué des transitions réussies ont activé Teams en même temps que leur version actuelle de Skype Entreprise Online, de Skype Entreprise Server ou de leur implémentation hybride. Cette session partagera les principales considérations et les ressources précieuses pour vous aider à définir la meilleure stratégie de migration pour votre organisation. Public - Administrateurs informatiques
+    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: Consultez ces ateliers sur votre propre temps
-      summary: Visitez la page mise à niveau vers Microsoft teams sur YouTube.
+    - title: Visualisez ces ateliers à votre propre moment
+      summary: Visitez la mise à niveau vers Microsoft Teams sur YouTube.
       url: https://aka.ms/UpgradeOnDemand
-    - title: Vous développez vos scénarios d’équipe ?
-      summary: Consultez nos ateliers de craie d’équipes pour professionnels de l’informatique.
+    - title: Développer vos scénarios Teams ?
+      summary: Découvrez nos ateliers Teams Chalk Talk pour les professionnels de l’informatique.
       url: https://aka.ms/TeamsChalkTalks
     - title: Vous débutez avec Teams?
-      summary: En savoir plus sur la mise en route de teams.
+      summary: En savoir plus sur la mise en place de Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview
