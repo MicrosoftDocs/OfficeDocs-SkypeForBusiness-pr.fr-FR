@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786786"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973068"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -39,7 +39,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre de membres dans une équipe. | 10 000<sup>5</sup>     |
 |Nombre de propriétaires par équipe | 100   |
 |Nombre d’équipes à l’échelle de l’organisation autorisées dans un client | 5     |
-|Nombre de membres dans une[équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 5 000       |
+|Nombre de membres dans une[équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 10 000       |
 |Nombre d’équipes qu’un administrateur général peut créer        |  500 000   |
 |Nombre d’équipes qu’une organisation Microsoft 365 ou Office 365 peut avoir    | 500,000&sup2;     |
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
@@ -57,7 +57,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 <sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
-<sup>5</sup> Les équipes du cloud de la communauté du secteur public ne peuvent accueillir que 5 000 membres et celles de GCCH/DoD ne peuvent en accueillir que 2 500.
+<sup>5</sup> Teams du cloud de la communauté du secteur public ne peuvent accueillir que des membres et celles de GCCH/DoD ne peuvent en accueillir que 2 500.
 
 ## <a name="messaging"></a>Messagerie
 
