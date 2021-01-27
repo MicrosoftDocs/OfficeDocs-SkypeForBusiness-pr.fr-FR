@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: Assistant de stratégie Teams pour l'éducation
           href: easy-policy-setup-edu.md
-        - name: Prise en main d’Insights
-          href: class-insights.md
+        - name: Éducation Insights
+          items:
+            - name: Prise en main d’Insights
+              href: class-insights.md
+            - name: Synchronisation des données du système d'informations sur les élèves avec Insights
+              href: education-insights-sis-data-sync.md
         - name: "Devoirs dans Microsoft\_Teams pour l’éducation"
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: "Administrateurs de ressources Microsoft\_Teams pour l’éducation"
