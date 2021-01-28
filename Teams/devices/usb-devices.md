@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et appareils USB (casques, haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 4f473db3cf82e20c71ea22503095adea6df0ec12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
+ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825344"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50033335"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -70,25 +70,25 @@ Parcourez [les appareils certifiés pour Microsoft Teams.](https://products.offi
 - Aucune mise en service requise
 - Tous les appareils supportent les mises à jour du microprogramme pour permettre l’amélioration des nouvelles fonctionnalités et des performances.
 
-Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez [la](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) procédure d’adhésion pour les exigences et les programmes disponibles.
+Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez la procédure d’adhésion pour les exigences et les programmes disponibles. [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 
-*Tableau mis à jour en janvier 2021*
+*Table Updated January 2021*
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |Casque Evolve2 30                                         |12/31/2020      |Certifié pour Microsoft Teams                           |
+|Poly                 |Synchroniser plus de 40 haut-parleurs avec poly BT600 USB Dongle           |1/19/2021       |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque UH34 double/mono                                     |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Téléphone USB MP50                                             |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque DECT WH67                                          |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque DECT à double ou mono WH66                                |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque DECT WH63                                          |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque DECT à double ou mono WH62                                |12/23/2020      |Certifié pour Microsoft Teams                           |
-|COLONS/Sennheiser      |Adapter des casques 100 séries                                  |12/22/2020      |Certifié pour Microsoft Teams                           |
+|COLONS/Sennheiser      |Adapter des casques de série 100                                  |12/22/2020      |Certifié pour Microsoft Teams                           |
 |Dell                 |Casque stéréo Pro - UC350                                 |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Dell                 |Casque stéréo Pro - UC150                                 |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
-|Lenovo               |Casque stéréo VoIP câblé Pro                              |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
+|Lenovo               |Casque stéréo VoIP filaire Pro                              |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Certifié pour Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Certifié pour Microsoft Teams                           |
 |Jabra                |Casque Evolve 75e                                         |12/16/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
@@ -118,7 +118,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 | ILS ONT UN GROUPE D’ÉQUIPES                | Casque Sennheiser Adapt 660                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | ILS ONT UN GROUPE D’ÉQUIPES                | Sennheiser Adapt 560 Headset                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | ILS ONT UN GROUPE D’ÉQUIPES                | Sennheiser Adapt 460T headset                             | 5/15/2020      | Certifié pour Microsoft Teams                          |
-| ILS ONT UN GROUPE D’ÉQUIPES                | Casque Sennheiser Adapt 360                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
+| DONT LE TITRE EST LE PLUS GRAND                | Casque Sennheiser Adapt 360                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | Yealink             | Casque UH36                                              | 5/13/2020      | Certifié pour Microsoft Teams                          |
 | Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype Entreprise avec mise à niveau vers Microsoft Teams     |
 | Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype Entreprise avec mise à niveau vers Microsoft Teams     |

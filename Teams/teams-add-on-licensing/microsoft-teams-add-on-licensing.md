@@ -1,5 +1,5 @@
 ---
-title: Licences de compléments Microsoft teams
+title: Licences de module ajouté Microsoft Teams
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -19,182 +19,182 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: En savoir plus sur les licences de compléments pour Microsoft teams ainsi que les fonctionnalités que vous obtenez avec chaque licence.
-ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+description: En savoir plus sur les licences de modules supplémentaires pour Microsoft Teams et les fonctionnalités que vous obtenez avec chaque licence.
+ms.openlocfilehash: b17e4a15741687414dec94e9f2b4d411490812ae
+ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731142"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032403"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Licences de compléments Microsoft teams
+# <a name="microsoft-teams-add-on-licenses"></a>Licences de module ajouté Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>Qu'est-ce qu'une licence de module complémentaire ?
 
-Les licences de module complémentaire sont des licences Microsoft Teams spécifiques. Ils vous offrent la possibilité d’ajouter des fonctions uniquement aux utilisateurs de votre organisation qui en ont besoin. Pour ajouter une fonctionnalité, achetez une licence de module complémentaire pour chaque utilisateur qui l'utilisera.
+Les licences de module complémentaire sont des licences Microsoft Teams spécifiques. Ils vous donnent la possibilité d’ajouter des fonctionnalités uniquement aux utilisateurs de votre organisation qui en ont besoin. Pour ajouter une fonctionnalité, achetez une licence de module complémentaire pour chaque utilisateur qui l'utilisera.
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quelles fonctionnalités puis-je obtenir avec des licences de module complémentaire ?
 
-Vous trouverez ci-dessous une liste de fonctionnalités que vous pouvez ajouter aux licences de complément d’équipes. Les options de licence d’extension disponibles dépendent de l’offre Microsoft 365 ou Office 365.
+Voici une liste de fonctionnalités que vous pouvez ajouter avec des licences de modules supplémentaires Teams. Les options de licences de modules supplémentaires disponibles dépendent de l’offre Microsoft 365 ou Office 365 dont vous disposez.
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**Fonctionnalité** <br/> |**Description** <br/> |**Petites entreprises (<utilisateurs 300)**|**Grande entreprise (>utilisateurs 300)**|
-**Téléphonie Microsoft 365 pour les PME** <br/> | [Business Voice](../business-voice/whats-business-voice.md) est une solution de téléphonie conçue pour les petites et moyennes entreprises de plus de 300 utilisateurs qui regroupent le système téléphonique, les conférences audio, une offre d’appels nationaux, et bien plus encore. Les fonctionnalités du système téléphonique que vous recevez incluent la boîte vocale, l’ID de l’appelant, le parc d’appels, le transfert d’appel, les standards automatiques et les files d’attente d’appels. <br> Pour savoir si la voix professionnelle est disponible dans votre pays ou région, voir [disponibilité du pays et de la région pour les appels vocaux](../business-voice/country-region-availability.md). Pour plus d’informations sur les tarifs, voir [tarifs pour les appels vocaux](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
-|**Audioconférence** <br/> |Parfois, les membres de votre organisation doivent utiliser un téléphone pour appeler une réunion teams à la place de leur ordinateur. Configurez l' [audioconférence](../audio-conferencing-in-office-365.md) pour les utilisateurs qui planifient ou animent des réunions. <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>S’il s’agit d’une petite entreprise ou d’une petite taille avec des utilisateurs de 300 et que vous ne disposez pas encore de licences audio, vous pouvez bénéficier d’une audioconférence gratuite pendant un an. À compter du 1er octobre 2020, l’offre gratuite de conférence audio est disponible pour les utilisateurs disposant de licences Microsoft 365 entreprise basique, Business standard, Business Premium, Enterprise E1 ou entreprise E3. Pour en savoir plus, consultez la rubrique [configurer l’audioconférence pour les petites et moyennes entreprises](../audio-conferencing-smb.md).|&#x2713;|&#x2713;|
-|**Numéros gratuits** |Si vous souhaitez utiliser des numéros sans frais pour les conférences audio, les standards automatiques ou les files d’attente d’appels, vous devez [configurer des crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
-|**Système téléphonique** <br/> |Le [système téléphonique](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous permet de contrôler les appels et les fonctionnalités de connexion de succursale privée (PBX) grâce aux options de connexion au réseau téléphonique public commuté (RTC). Les fonctionnalités du système téléphonique incluent la boîte vocale Cloud, l’identification de l’appelant, le parc d’appels, le transfert d’appel, les standards automatiques, les files d’attente d’appels, le transfert d’appel, l’identification de l’appelant, etc. <br>Pour en savoir plus, voir [Voici ce que vous obtenez avec le système téléphonique](../here-s-what-you-get-with-phone-system.md). Pour plus d’informations sur les tarifs, voir [tarification du système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Forfaits d’appel** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone à l’extérieur de votre organisation, vous pouvez obtenir un [plan d’appels](../calling-plans-for-office-365.md). Il existe des forfaits d’appels nationaux et des offres d’appels nationaux et internationaux. Pour plus d’informations sur les tarifs, voir [tarifs pour les offres d’appels](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Salles Microsoft Teams** <br/> |Les [salles de Microsoft teams](../rooms/index.md) ne sont pas des composants additionnels, mais une fonctionnalité qui permet de partager des vidéos, des sons et des contenus dans des salles de conférence. Voir gestion des [licences de salle de réunion teams](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
-|**Advanced Communications** <br/> |[Advanced Communications](advanced-communications.md) inclut des fonctionnalités d’appel et de réunion améliorées, telles que des réunions de grande envergure, des réunions de personnalisation, des intégrations de communications et des outils avancés pour la gestion des communications. Joignez des audiences plus importantes avec des événements en direct pour jusqu’à 20 000 participants et réunions interactives pour les participants 1 000. D’autres fonctionnalités incluent une salle d’attente personnalisée pour personnaliser vos réunions, la capacité à intégrer des réunions et des appels vers des flux de travail, ainsi que des outils pour surveiller, suivre et analyser des données sur des utilisateurs et des appareils.   |&#x2713;|&#x2713;|
+|**Fonctionnalité** <br/> |**Description** <br/> |**Petite entreprise (<300 utilisateurs)**|**Grandes entreprises (>300 utilisateurs)**|
+**Téléphonie Microsoft 365 pour les PME** <br/> | [Business Voice](../business-voice/whats-business-voice.md) est une solution téléphonique conçue pour les petites et moyennes entreprises (jusqu’à 300 utilisateurs) qui regroupe Phone System, Audio conferencing, un plan d’appels nationaux, etc. Les fonctionnalités du système téléphonique que vous pouvez obtenir incluent la messagerie vocale, l’ID de l’appelant, le parcage d’appel, le forwarding d’appel, les attendants automatiques et les files d’attente d’appels. <br> Pour savoir si Business Voice est disponible dans votre pays ou région, consultez la disponibilité du pays et [de la région pour Voix Entreprise.](../business-voice/country-region-availability.md) Pour plus d’informations sur [les tarifs, voir Tarification pour Voix Entreprise.](https://go.microsoft.com/fwlink/?linkid=2127221) <br/> |&#x2713;||
+|**Audioconférence** <br/> |Parfois, les membres de votre organisation devront utiliser un téléphone pour se rendre à une réunion Teams à la place de leur ordinateur. Configurer [l’audioconférence pour](../audio-conferencing-in-office-365.md) les utilisateurs qui programment ou dirigent des réunions. <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Si vous êtes une petite ou moyenne entreprise qui compte jusqu’à 300 utilisateurs et que vous n’avez actuellement pas de licences Audioconférence, vous pouvez obtenir l’audioconférence gratuitement pendant un an. À compter du 1er octobre 2020, l’offre gratuite d’audioconférence est disponible pour les utilisateurs titulaires de licences Microsoft 365 Business Basic, Business Standard, Business Premium, Entreprise E1 ou Entreprise E3. Pour plus d’informations, [voir Configurer l’audioconférence](../audio-conferencing-smb.md)pour les petites et moyennes entreprises.|&#x2713;|&#x2713;|
+|**Numéros gratuits** |Si vous souhaitez des numéros gratuits pour l’audioconférence, les files d’attente automatiques ou les files d’attente d’appels, vous devez configurer les [crédits de communication.](../set-up-communications-credits-for-your-organization.md) <br/> |&#x2713;|&#x2713;|
+|**Système téléphonique** <br/> |[Phone System](../what-is-phone-system-in-office-365.md) est un service téléphonique hébergé qui vous offre un contrôle d’appel et des fonctionnalités PBX (Private Branch Exchange), avec des options de connexion au réseau téléphonique commuté (PSTN). Les fonctionnalités du système téléphonique incluent la messagerie vocale cloud, l’ID de l’appelant, le parcage d’appel, le transfert d’appel, les files d’attente automatiques, les files d’attente, le transfert d’appel, l’ID de l’appelant, etc. <br>Pour en savoir plus, [consultez les obtenez avec Phone System.](../here-s-what-you-get-with-phone-system.md) Pour plus d’informations sur [les tarifs, voir Tarification du système téléphonique.](https://go.microsoft.com/fwlink/?linkid=799763)  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Forfaits d’appel** <br/> |Si vous souhaitez que les utilisateurs puissent appeler des numéros de téléphone extérieurs à votre organisation, obtenez un [plan d’appel.](../calling-plans-for-office-365.md) Il existe des forfaits d’appels nationaux et des plans d’appels nationaux et internationaux. Pour plus d’informations sur [les tarifs, voir Tarification des forfaits d’appels.](https://go.microsoft.com/fwlink/?linkid=799761 )  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Salles Microsoft Teams** <br/> |[Salles Microsoft Teams](../rooms/index.md) n’est pas un module ajouté, mais une fonctionnalité qui apporte de la vidéo, de l’audio et du partage de contenu aux salles de conférence. Voir [Licences de salle de réunion Teams.](../rooms/rooms-licensing.md)  <br/> |&#x2713;|&#x2713;|
+|**Advanced Communications** <br/> |[Advanced Communications inclut](advanced-communications.md) des outils et des personnalisations avancées des réunions pour gérer les stratégies de communication de votre organisation. D’autres fonctionnalités incluent une salle d’accueil personnalisée pour personnaliser vos réunions, ainsi que des outils pour surveiller, suivre et analyser les données sur les utilisateurs et appareils.   |&#x2713;|&#x2713;|
 
-<sup>1</sup> si vous êtes une petite ou moyenne entreprise disposant d’une offre Microsoft 365 entreprise, vous pouvez toujours acheter des licences de complément pour ces fonctionnalités vocales, mais nous vous conseillons de prendre en considération un plan d’entreprise [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) et une [voix professionnelle](https://www.microsoft.com/microsoft-365/business/business-voice).
+<sup>1</sup> Si vous êtes une petite ou moyenne entreprise qui dispose d’une offre Microsoft 365 Entreprise, vous pouvez toujours acheter des licences de modules supplémentaires pour ces fonctionnalités vocales. Toutefois, nous vous recommandons d’envisager une offre [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) et [Business Voice.](https://www.microsoft.com/microsoft-365/business/business-voice)
 
-## <a name="what-voice-features-are-available-with-my-plan"></a>Quelles sont les fonctionnalités vocales disponibles avec mon plan ?
+## <a name="what-voice-features-are-available-with-my-plan"></a>Quelles sont les fonctionnalités vocales disponibles avec mon offre ?
 
-Pour connaître les licences de compléments dont vous avez besoin, consultez la rubrique fonctions vocales d’équipes, en fonction de votre plan.
+Découvrez les licences de modules supplémentaires dont vous avez besoin pour obtenir des fonctionnalités vocales dans Teams, selon votre offre.
 
-En fonction des fonctionnalités vocales que vous souhaitez utiliser, nous vous recommandons d’évaluer s’il serait plus rentable pour vous de basculer vers un plan incluant ces fonctionnalités. Par exemple, pour la plupart des organisations de grande taille, l’achat d’une offre groupée de logiciels dans une offre Microsoft 365 entreprise aura pour effet de réduire le coût global. En règle générale, si vous achetez plusieurs licences de compléments individuellement au lieu d’une offre, vous risquez d’obtenir des frais plus élevés.
+En fonction des fonctionnalités vocales que vous souhaitez, nous vous recommandons de comparer l’efficacité en terme de coût pour le passage à une offre qui inclut ces fonctionnalités. Par exemple, pour la plupart des grandes organisations, l’achat d’une offre groupée de logiciels dans le cas d’une offre Microsoft 365 Entreprise entraîne des coûts globaux moindres. En règle générale, lorsque vous achetez plusieurs licences de modules supplémentaires individuellement et non dans le cadre d’un forfait, vous pouvez payer un coût combiné plus élevé.
 
-#### <a name="small-business"></a>[**Petites entreprises**](#tab/small-business/)
+#### <a name="small-business"></a>[**Petite entreprise**](#tab/small-business/)
 
-S’il s’agit d’une petite entreprise ou d’une taille moyenne (moins de 300), vous disposez de quatre méthodes pour obtenir les fonctions vocales :
+Si vous êtes une petite ou moyenne entreprise (moins de 300 utilisateurs), quatre méthodes s’offrent à vous pour obtenir les fonctionnalités vocales :
 
-- Achetez un plan Microsoft 365 Business et Microsoft 365 Business Voice.
-- Achetez un plan entreprise E1 ou E3 et Microsoft 365 Business Voice.
-- Acheter une offre entreprise E1 ou E3 et ajouter des fonctions vocales individuellement.
-- Achetez une offre entreprise E5, qui inclut des fonctionnalités vocales.
+- Achetez une offre Microsoft 365 Business et Microsoft 365 Business Voice.
+- Achetez une offre Entreprise E1 ou E3 et Microsoft 365 Business Voice.
+- Achetez une offre Entreprise E1 ou E3 et ajoutez les fonctionnalités vocales individuellement.
+- Achetez une offre Entreprise E5, qui inclut des fonctionnalités vocales.
 
-Pour Microsoft 365 Business Voice, vous avez le choix entre deux options :
+Pour Microsoft 365 Business Voice, deux options s’offrent à vous :
 
-- **Microsoft 365 Business Voice avec un plan d’appels**: obtenez cette valeur si vous souhaitez que la gestion des numéros de téléphone et la facturation soient gérées par Microsoft.
-- **Microsoft 365 entreprise Voice sans plan d’appels (routage directe)**: Si vous souhaitez que la gestion des numéros de téléphone et la facturation soient gérées par votre fournisseur de services téléphonique tiers. Vous devez configurer et déployer le [routage direct](../direct-routing-landing-page.md) pour connecter vos contrôleurs de bordure de session locale (SBCS) à Microsoft 365 ou Office 365.
+- **Microsoft 365 Business Voice** avec un plan d’appels : Obtenez cette offre si vous souhaitez que toutes les gestion des numéros de téléphone et de la facturation soient gérées par Microsoft.
+- **Microsoft 365 Business Voice** sans forfait d’appels (routage direct) : Obtenez cette commande si vous souhaitez que l’ensemble de la gestion des numéros de téléphone et de la facturation soit géré par votre fournisseur de téléphonie tiers. Vous devrez configurer et déployer le [routage](../direct-routing-landing-page.md) direct pour connecter vos contrôleurs de session en local à Microsoft 365 ou Office 365.
 
-Pour en savoir plus, reportez-vous à la rubrique [que dois-je acheter pour utiliser Microsoft 365 Business Voice ?](../business-voice/what-to-buy.md).
+Pour en savoir plus, consultez l’offre que je dois acheter [pour utiliser Microsoft 365 Business Voice.](../business-voice/what-to-buy.md)
 
-Voici un résumé en fonction du plan de gestion des licences.
+Voici un résumé basé sur le plan de gestion des licences.
 
-  ![Options de l’offre petite entreprise](../media/licensing-smallbusiness-options.png)
+  ![Options de l’offre Petite Entreprise](../media/licensing-smallbusiness-options.png)
 
-Si l’audioconférence n’est pas prise en charge dans votre pays ou région, vous pouvez obtenir une Microsoft 365 entreprise E5 sans plan de conférences audio ou Office 365 entreprise E5 sans plan de conférence audio.
+Si l’audioconférence n’est pas prise en charge dans votre pays ou région, vous avez la possibilité d’obtenir un Microsoft 365 Entreprise E5 sans audioconférence ou un plan Office 365 Entreprise E5 sans audioconférence.
 
-Si vous avez déjà un plan Microsoft 365 entreprise ou Office 365 entreprise, vous pouvez toujours acheter des licences de complément pour les fonctionnalités vocales individuelles. Toutefois, vous avez la possibilité de basculer vers un plan [microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) et [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). Dans certains cas, selon les fonctionnalités que vous souhaitez utiliser, il peut être plus rentable d’obtenir un plan Microsoft 365 Business avec Microsoft 365 Business Voice.
+Si vous avez déjà une offre Microsoft 365 Entreprise ou Office 365 Entreprise, vous pouvez toujours acheter des licences de modules supplémentaires pour les fonctionnalités vocales individuelles. Toutefois, vous avez la possibilité de basculer vers une offre [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) et [Microsoft 365 Business Voice.](https://www.microsoft.com/microsoft-365/business/business-voice) Dans certains cas, en fonction des fonctionnalités que vous souhaitez, il peut être plus rentable d’obtenir une offre Microsoft 365 Business avec Microsoft 365 Business Voice.
 
 > [!NOTE]
-> Si vous devez utiliser un service téléphonique tiers, le [routage direct](../direct-routing-landing-page.md) est déployé au sein de votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
+> Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
 
 #### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
 
-S’il s’agit d’une entreprise ou d’une entreprise de grande envergure (plus de 300), vous pouvez utiliser les fonctionnalités vocales de deux manières :
+Si vous êtes une grande entreprise (plus de 300 utilisateurs), vous disposez de deux façons d’obtenir les fonctionnalités vocales :
 
-- Acheter une offre entreprise E1 ou E3 et ajouter des fonctions vocales individuellement.
-- Achetez une offre entreprise E5, qui inclut des fonctionnalités vocales.
+- Achetez une offre Entreprise E1 ou E3 et ajoutez les fonctionnalités vocales individuellement.
+- Achetez une offre Entreprise E5, qui inclut des fonctionnalités vocales.
 
-Voici un résumé en fonction du plan de gestion des licences.
+Voici un résumé basé sur le plan de gestion des licences.
 
-  ![Options de plan d’entreprise](../media/licensing-enterprise-options.png)
+  ![Options d’offre d’entreprise](../media/licensing-enterprise-options.png)
 
-Si l’audioconférence n’est pas prise en charge dans votre pays ou région, vous pouvez obtenir une Microsoft 365 entreprise E5 sans plan de conférences audio ou Office 365 entreprise E5 sans plan de conférence audio.
+Si l’audioconférence n’est pas prise en charge dans votre pays ou région, vous avez la possibilité d’obtenir un Microsoft 365 Entreprise E5 sans audioconférence ou un plan Office 365 Entreprise E5 sans audioconférence.
 
-Pour en savoir plus, voir [plans Microsoft 365 entreprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) et [offres Office 365 entreprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
+Pour en savoir plus, consultez [les plans Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) Entreprise et [Office 365 Entreprise.](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)
 
 > [!NOTE]
-> Si vous devez utiliser un service téléphonique tiers, le [routage direct](../direct-routing-landing-page.md) est déployé au sein de votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
+> Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
 
-#### <a name="education"></a>[**Expliquer**](#tab/education/)
+#### <a name="education"></a>[**Éducation**](#tab/education/)
 
-Pour les écoles et organisations universitaires, vous disposez de trois méthodes pour obtenir les fonctions vocales.
+Pour les établissements d’enseignement et les autres organisations universitaires, vous disposez de trois façons d’obtenir des fonctionnalités de voix.
 
-- Achetez un plan EDU a1 ou a3 et Microsoft 365 Business Voice.
-- Achetez une offre de l’UDE a1 ou a3 et ajoutez des fonctions vocales individuellement.
-- Souscrivez une offre EDU EDU, qui inclut des fonctionnalités vocales.
+- Achetez une offre EDU A1 ou A3 et Microsoft 365 Business Voice.
+- Achetez un plan EDU A1 ou A3 et ajoutez les fonctionnalités vocales individuellement.
+- Achetez une offre EDU A5, qui inclut des fonctionnalités vocales.
 
-Voici un résumé en fonction du plan de gestion des licences.
+Voici un résumé basé sur le plan de gestion des licences.
 
   ![Options de plan EDU](../media/licensing-education-options.png)
 
-  <sup>1</sup> disponible uniquement pour les organisations possédant moins de 300 utilisateurs.
+  <sup>1</sup> Disponible uniquement pour les organisations de moins de 300 utilisateurs.
 
-Pour en savoir plus, consultez la rubrique [Microsoft 365 éducation](https://www.microsoft.com/education/buy-license/microsoft365) et les [offres Office 365 éducation](https://www.microsoft.com/education/products/office).
-
-> [!NOTE]
-> Si vous devez utiliser un service téléphonique tiers, le [routage direct](../direct-routing-landing-page.md) est déployé au sein de votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
-
-#### <a name="government"></a>[**Nationale**](#tab/government/)
-
-Pour les organisations gouvernementales américaines (GCC uniquement), il existe trois façons d’accéder aux fonctions vocales.
-
-- Achetez une offre GOV G1 ou G3 et Microsoft 365 Business Voice.
-- Achetez une offre GOV G1 ou G3 et ajoutez des fonctionnalités de voix Cloud individuellement.
-- Achetez une offre GOV G5, qui inclut des fonctions vocales.
-
-Voici un résumé en fonction du plan de gestion des licences.
-
-  ![Options de type gov](../media/licensing-government-options.png)
-
-  <sup>1</sup> disponible uniquement pour les organisations possédant moins de 300 utilisateurs.
-
-Pour en savoir plus, consultez la section [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
+Pour en savoir plus, consultez les plans [Microsoft 365 Éducation](https://www.microsoft.com/education/buy-license/microsoft365) et [Office 365 Éducation.](https://www.microsoft.com/education/products/office)
 
 > [!NOTE]
-> Si vous devez utiliser un service téléphonique tiers, le [routage direct](../direct-routing-landing-page.md) est déployé au sein de votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
+> Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
 
-#### <a name="nonprofit"></a>[**Associations**](#tab/nonprofit/)
+#### <a name="government"></a>[**Administration**](#tab/government/)
 
-Si vous êtes un organisme à but non lucratif, vous disposez de quatre méthodes pour obtenir les fonctions vocales.
+Pour les organisations gouvernementales aux États-Unis (GCC uniquement), trois méthodes s’offrent à vous pour obtenir les fonctionnalités vocales.
 
-- Achetez un plan Business standard pour les associations Microsoft 365 ou Microsoft 365 Business standard et Microsoft 365 Business Voice.
-- Achetez une offre pour les associations E1 ou E3 et Microsoft 365 Business Voice.
-- Acheter une offre E1 ou E3 pour les associations et ajouter des fonctions vocales individuellement.
-- Acheter une offre pour les associations E5, qui inclut des fonctionnalités vocales.
+- Achetez un plan GOV G1 ou G3 et Microsoft 365 Business Voice.
+- Achetez un plan GOV G1 ou G3 et ajoutez les fonctionnalités voix cloud individuellement.
+- Achetez un plan GOV G5, qui inclut des fonctionnalités vocales.
 
-Voici un résumé en fonction du plan de gestion des licences.
+Voici un résumé basé sur le plan de gestion des licences.
 
-  ![Options basées sur les associations](../media/licensing-nonprofit-options.png)
+  ![Options basées sur gov](../media/licensing-government-options.png)
 
-  <sup>1</sup> disponible uniquement pour les organisations possédant moins de 300 utilisateurs.
+  <sup>1</sup> Disponible uniquement pour les organisations de moins de 300 utilisateurs.
 
-Pour en savoir plus, consultez l' [offre Microsoft 365 et Office 365](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)pour les associations.
+Pour en savoir plus, consultez les plans [Microsoft 365 pour](https://www.microsoft.com/microsoft-365/government/) les administrations publiques et [Office 365.](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
 
 > [!NOTE]
-> Si vous devez utiliser un service téléphonique tiers, le [routage direct](../direct-routing-landing-page.md) est déployé au sein de votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
+> Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
 
-#### <a name="trial-offers"></a>[**Offres d’évaluation**](#tab/trial/)
+#### <a name="nonprofit"></a>[**Association à but non lucratif**](#tab/nonprofit/)
 
-### <a name="trial-offers-for-licensing-plans"></a>Offres d’évaluation pour les plans de licence
+Si vous êtes une association, quatre possibilités s’offrent à vous pour obtenir des fonctionnalités vocales.
 
-En réponse à une augmentation du nombre de personnes qui travaillent à distance (ou à partir de la maison), Microsoft dispose de plusieurs offres d’essais d’équipe gratuites pour les organisations gouvernementales, éducatives et à but non lucratif. Des essais sont disponibles pour les offres suivantes :
+- Achetez une offre Microsoft 365 Business Basic pour les associations ou Microsoft 365 Business Standard pour les associations et Microsoft 365 Business Voice.
+- Achetez une offre E1 ou E3 pour les associations et Microsoft 365 Business Voice.
+- Achetez une offre E1 ou E3 pour les associations et ajoutez les fonctionnalités vocales individuellement.
+- Achetez une offre E5 pour les associations, qui inclut des fonctionnalités vocales.
 
-- [Version d’évaluation d'](../e1-trial-license.md) Office 365 entreprise E1 (arrêtée à partir du 1er juillet 2020), de la version d’évaluation de E3 et de la période d’évaluation E5
-- [Version d’évaluation d'](../teams-edu-licensing.md) Office 365 éducation a1
-- [Version d’évaluation d'](../g1-trial-license.md) Office 365 pour le gouvernement G1 (arrêtée depuis le 1er juillet 2020)
+Voici un résumé basé sur le plan de gestion des licences.
 
-Pour vous inscrire à une offre d’évaluation, voir s' [inscrire à une offre d’évaluation](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
+  ![Options pour les associations](../media/licensing-nonprofit-options.png)
 
-### <a name="trial-offers-for-voice-features"></a>Offres d’évaluation pour les fonctionnalités vocales
+  <sup>1</sup> Disponible uniquement pour les organisations de moins de 300 utilisateurs.
 
-Vous trouverez ci-dessous un résumé des offres d’évaluation de la fonction vocale.
+Pour en savoir plus, consultez les offres [Microsoft 365 et Office 365 pour les associations.](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
-  ![Options basées sur une version d’évaluation](../media/licensing-trial-offers.png)
+> [!NOTE]
+> Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
 
- Par le biais de votre plan de base, vous n’avez pas besoin d’une offre d’évaluation pour utiliser les fonctions vocales. Vous pouvez utiliser un plan Microsoft 365 Business ou un plan d’entreprise, de secteur public, d’éducation ou d’établissement d’activités avec les offres d’évaluation pour les fonctionnalités vocales. Pour afficher les offres d’évaluation disponibles et les modules complémentaires, dans le centre d’administration 365 Microsoft , accédez à  >  **services d’achat** de facturation, sélectionnez d' **autres catégories susceptibles de vous intéresser**, puis sélectionnez **composants** additionnels.
+#### <a name="trial-offers"></a>[**Offres d’essai**](#tab/trial/)
 
-  Pour chacune de ces options de voix et de conférence, des [crédits de communication](../set-up-communications-credits-for-your-organization.md) sont requis si vous disposez de numéros sans frais ou si vous avez besoin d’ajouter des minutes supplémentaires aux utilisateurs pour passer des appels RTC nationaux et internationaux.
+### <a name="trial-offers-for-licensing-plans"></a>Offres d’essai pour les plans de gestion des licences
 
- Consultez également :
+Pour répondre à un besoin accru de travailler à distance (ou de travailler à domicile), Microsoft propose plusieurs offres d’essai gratuit de Teams pour les organisations gouvernementales, éducatives et à but non lucratif. Des essais sont disponibles pour ces plans :
 
-- [Version gratuite de teams](../manage-freemium.md)
-- [Enseignements](../teams-exploratory.md) d’une équipe : actuellement, il n’existe aucune offre d’évaluation pour les fonctionnalités vocales à utiliser avec l’interface exploratoire Teams.
-- [Système Microsoft Phone-licence utilisateur virtuel](virtual-user.md)
+- Version d’essai d’Office 365 Entreprise [E1](../e1-trial-license.md) (abandonnée à compter du 1er juillet 2020), version d’essai D3 et Version d’essai d’E5
+- Version d’essai d’Office 365 [Éducation A1](../teams-edu-licensing.md)
+- Version d’essai d’Office 365 Service Public [G1](../g1-trial-license.md) (abandonnée à compter du 1er juillet 2020)
+
+Pour vous inscrire à une offre d’essai, voir [S’inscrire pour obtenir une offre d’essai.](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)
+
+### <a name="trial-offers-for-voice-features"></a>Offres d’essai pour les fonctionnalités vocales
+
+Voici un résumé des offres d’essai des fonctionnalités vocales.
+
+  ![Options basées sur la version d’essai](../media/licensing-trial-offers.png)
+
+ Votre plan de base ne doit pas être une offre d’essai pour utiliser l’une de ces essais pour les fonctionnalités vocales. Vous pouvez utiliser une offre Microsoft 365 Business ou une offre Entreprise, Secteur Public, Éducation ou Pour les associations avec l’une des offres d’essai pour les fonctionnalités vocales. Pour consulter les offres d’essai disponibles et les modules add-ons, dans le Centre d’administration Microsoft 365, sélectionnez Services d’achat de facturation, Sélectionnez Autres catégories qui pourraient vous intéresser, puis sélectionnez  >   **Modules add-ons.** 
+
+  Pour chaque option de voix et de conférence, les crédits de communication sont nécessaires si vous avez des numéros gratuits ou si vous avez besoin d’ajouter des minutes supplémentaires pour que les utilisateurs appellent à partir de réunions ou pour que les [utilisateurs](../set-up-communications-credits-for-your-organization.md) appellent des appels PSTN nationaux et internationaux.
+
+ Vous pouvez également consulter les :
+
+- [Version gratuite de Teams](../manage-freemium.md)
+- [Expérience Teams en absence - Il](../teams-exploratory.md) n’existe actuellement aucune offre d’essai pour les fonctionnalités vocales à utiliser avec l’expérience Teams Enr.
+- [Microsoft Phone System - Licence Utilisateur](virtual-user.md) virtuel
 
 * * *
 
 ## <a name="need-help"></a>Vous avez besoin d’aide ?
 
-Vous avez besoin de parler à une personne sur les options d’extension ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Vous devez parler à quelqu’un à propos des options de modules supplémentaires ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Attribution de licences de complément d’équipes](assign-teams-add-on-licenses.md)
+- [Attribuer des licences de modules add-on Teams](assign-teams-add-on-licenses.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)
-- [Description du service teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Description du service Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
