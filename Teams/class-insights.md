@@ -1,5 +1,5 @@
 ---
-title: Informations sur le Guide d’administration informatique pour Teams pour l’éducation
+title: Guide d’administration informatique sur Education Insights dans Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -16,109 +16,211 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b63ea1a1a09a55d9a51fb2a110c024960f23f6f4
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
+ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803522"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49986390"
 ---
-# <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Informations sur le Guide d’administration informatique pour Teams pour l’éducation
+# <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
-Avec Microsoft Teams pour l’éducation, les enseignants et chefs d’établissement peuvent accéder à des données analytiques sur l’engagement numérique, la charge de travail, les notes, la communication, etc. Les principes éthiques qui régissent Insights placent les enseignants et les étudiants en premier, respectent les normes en matière de confidentialité et garantissent la conformité continue de votre établissement.
+Ce document indique les étapes nécessaires pour rendre Education Insights dans Microsoft Teams opérationnel, puis aider les enseignants et responsables de l’éducation à adopter la plateforme et à bien utiliser l’application.
 
-Insights est actif dans les SKU A1, A3 et A5 de Microsoft Office 365 pour l’éducation.
+## <a name="overview"></a>Présentation
+**Chaque élève a une expérience, des compétences et une voix uniques.**<br/>
+**Insights vous permet de comprendre vos élèves, puis de répondre à leurs besoins.**
+
+Insights offre des données d’analyse en temps réel de l’avancement et de l’activité des élèves au sein de leurs cours. Grâce à des visualisations faciles à assimiler, les communautés scolaires peuvent suivre de façon proactive et en toute facilité les expériences des élèves. Les enseignants et les responsables de l’éducation ont accès à des données pertinentes et fiables pour prendre des décisions éclairées concernant leurs équipes de classe. Grâces à ces données, les enseignants disposent des informations nécessaires pour veiller à satisfaire les besoins émotionnels, sociaux et scolaires de leurs élèves.  
+
+Les communautés scolaires peuvent canaliser leurs efforts et avoir un impact plus significatif lorsque les enseignants connaissent les stratégies qui fonctionnent pour leurs élèves. Grâce aux données en temps opportun fournies par Insights, les enseignants et les responsables de l’éducation consacrent leur temps et leur énergie aux actions qui améliorent l’environnement d’apprentissage, contribuent au succès des élèves, puis aident les apprenants à réussir leurs études. 
+
+## <a name="who-uses-insights"></a>Qui utilise Insights ?
+
+### <a name="educators"></a>Enseignants
+Un enseignant est une personne qui détient une équipe de classe. Cette catégorie peut inclure les enseignants du primaire et du secondaire, les chargés de cours et les professeurs d’université. 
+
+Les enseignants accèdent à Insights au niveau de la classe. Ils affichent l’activité des élèves affectés à leurs classes, mais ne peuvent pas accéder aux données d’autres classes. Insights aide les enseignants à comprendre et à aider leurs élèves.
+
+L’utilisation d’Insights ne comporte pas de conditions préalables. Il suffit, pour les enseignants, d’ajouter Insights dans la barre d’application gauche ou sous la forme d’un onglet à chacune de leurs classes dans Teams.
+
+Les enseignants se reconnaissent par les licences du corps professoral. Les enseignants doivent disposer d’une licence du corps professoral et être propriétaires d’une équipe de classe pour accéder aux données dans Insights.
+
+### <a name="education-leaders"></a>Responsables de l’éducation
+Les responsables de l’éducation sont ceux qui, dans l’établissement, jouent tous les rôles nécessitant une vue de l’organisation pour comprendre l’implication des élèves, leur progression, leur bien-être, etc. Les enseignants peuvent également être responsables de l’éducation s’ils sont propriétaires d’une équipe de classe et si la vue de leur classe ne leur suffit pas. Exemple : responsable de département spécialisé dans une matière. 
+
+Les responsables de l’éducation peuvent inclure des directeurs d’études, des responsables de département, des chefs de district, des directeurs d’école, des chefs d’établissement, des conseillers, des chefs de département, des responsables de programmes, des travailleurs sociaux et des psychologues.
+
+Les responsables de l’éducation ont une vue d’organisation qui dépend des autorisations attribuées par l’administrateur informatique. Par exemple, les administrateurs de l’établissement scolaire peuvent voir tous les établissements scolaires accessibles. En revanche, les directeurs d’école ou les surveillants d’établissement ont uniquement accès aux niveaux et aux cours de l’établissement concerné. 
+
+Si l’on suppose que les surveillants sont également enseignants, ils sont considérés comme des enseignants et des responsables de l’éducation. Ils peuvent accéder aux deux vues d’Insights (pour les enseignants et les responsables de l’éducation). Dans notre cas, Insights aide les responsables de l’éducation à soutenir les enseignants et les élèves. Au niveau de l’organisation, l’administrateur informatique doit connecter le système d’information sur les élèves et attribuer à chaque rôle des autorisations d'accès aux établissements scolaires ou aux départements qui les concernent.
+
+Les responsables de l’éducation se reconnaissent également par une licence du corps professoral. En outre, ils ont besoin *d’autorisations explicites* de l’administrateur général en informatique pour afficher les rapports Insights de leur organisation.
+
 
 > [!NOTE]
-> Enseignants, découvrez comment utiliser les informations ici : [Guide Insights pour l’enseignant dans Microsoft Teams](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181).
+> **À propos des élèves :**
+>
+> Insights collecte des données sur l’activité des élèves dans Teams.
+>
+> Les élèves sont membres d’une équipe de classe dans Teams. Ils se reconnaissent par leur licence et  **n’ont pas accès** à l’application ou à l’onglet Insights (même s’ils sont propriétaires de l’équipe).
+>
+> Les invités *ne peuvent* être considérés comme des élèves. 
 
-## <a name="use-insights"></a>Utiliser Insights
 
-### <a name="user-types"></a>Types d'utilisateur
-- Les **étudiants** sont identifiés par leur licence et  _n’ont pas_ accès à l’onglet Insights (même s’ils sont propriétaires de l’équipe). 
-- Les **enseignants** sont définis par les licences du corps professoral. Les enseignants doivent disposer d’une licence pour les enseignants et être le propriétaire d’une équipe de classe pour ajouter et les données affichées dans l’onglet Insights. 
-- Les **chefs d’établissement** sont également identifiés par une licence pour les enseignants, mais, en outre, ils ont besoin des autorisations explicites de l’administrateur général en informatique pour afficher les rapports dans l’application Insights.
-- Les comptes invités _n’ont pas_ l’accès à Insights.
 
-### <a name="entry-points"></a>Points d'entrée
-Les enseignants et leaders ont des points d’entrée différents qui leur permettent de découvrir et d’utiliser Insights.
+## <a name="where-do-users-find-insights"></a>Où les utilisateurs ont-ils accès à Insights ?
+Les enseignants et les responsables de l’éducation peuvent accéder à Insights de plusieurs manières. 
 
-Les **enseignants** peuvent utiliser ces deux points d’entrée :
-- [Onglets](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) : un onglet ajouté depuis le menu de navigation supérieur renferme des informations sur chacune de leurs classes. Insights affiche des données sur les activités de tous les canaux au sein d’une équipe de classe, mais vous pouvez uniquement l’ajouter en tant qu’onglet à des canaux publics. L’onglet reflète les activités de tous les membres de l’équipe de classe qui ne sont pas propriétaires (y compris les enseignants qui ne sont pas propriétaires de l’équipe).
-- [Application personnelle](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) : une vue d’ensemble de toutes leurs classes actives est disponible depuis la barre de l’application Teams située à gauche.
+### <a name="educators"></a>Enseignants
+Les enseignants peuvent utiliser ces deux méthodes :
 
-**Les responsables** peuvent utiliser Insights en tant qu’[application personnelle](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
+*   [Application personnelle](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) : une vue d’ensemble de toutes les classes actives est disponible dans la barre gauche de l’application Teams, avec la possibilité d’explorer au niveau du détail les données de la classe.
+*   [Onglets](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) : un onglet du menu de navigation supérieur d’une équipe de classe renferme des informations sur leurs classes. Cet onglet permet à l’enseignant d’accéder directement aux données pertinentes lorsqu’il se trouve dans la classe en question dans Teams pour consulter les données dans le contexte de la classe. 
 
-### <a name="manage-setup-policy"></a>Gérer la stratégie de configuration
-En tant qu’administrateur, vous pouvez utiliser une [stratégie de configuration d’application](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) pour installer Insights par défaut pour vos enseignants et responsables lorsqu’ils démarrent Teams.
-Avec cette stratégie, vous pouvez personnaliser Teams afin de mettre en évidence Insights, puis l’épingler pour dans la barre d’applications.
+Insights affiche des données sur les activités. Ces données proviennent de tous les canaux au sein d’une équipe de classe. Cependant, vous pouvez uniquement ajouter Insights en tant qu’onglet à des canaux publics. L’onglet prend en compte les activités de tous les membres de l’équipe de classe qui ne sont pas propriétaires (y compris les enseignants qui ne sont pas propriétaires de l’équipe).
+
+Dans les deux vues, les enseignants peuvent accéder aux données sur la classe. À l’aide de l’application personnelle, l’enseignant doit explorer en détail le niveau de la classe, tandis que l’onglet permet d’accéder directement aux données de la classe.
+
+Au niveau de la classe, si un enseignant est propriétaire d’une équipe de classe, Insights est disponible sans aucune autre action de la part de l’administrateur informatique.
+
+### <a name="education-leaders"></a>Responsables de l’éducation
+Les responsables de l’éducation peuvent utiliser Insights comme application personnelle disponible dans la barre gauche de l’application Teams.
+
+Au niveau de l’organisation, l’administrateur informatique doit connecter le système d’information sur les élèves et attribuer à chaque rôle des autorisations d'accès aux établissements scolaires ou aux départements qui les concernent.
+
+Par exemple, un directeur ne voit que les classes de son établissement scolaire. De même, le responsable d’un département ne voit que les classes de ce département. Nous regroupons les données des élèves au niveau de la classe, du département, de l’établissement scolaire et de la région. Nous fournissons des informations à chaque niveau (sur la base des autorisations de chaque utilisateur). Les enseignants et les responsables de l’éducation peuvent effectuer un zoom avant, puis accéder aux données de chaque élève.
+
+**Pour ajouter l’application Insights dans Teams :**
+* Cliquez sur «  **…**  » sur la barre de l’application. 
+* Recherchez, puis sélectionnez **Insights**.
+* Un écran de description s’ouvre. Cliquez sur **Ajouter**.
+
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Ajouter Insights à Teams":::
+
+* Cliquez avec le bouton droit sur l’icône Insights, puis sélectionnez **Épingler**.
+
+:::image type="content" source="media/insights-pin-app.png" alt-text="Épingler l’application Insights":::
+
+## <a name="when-is-insights-used"></a>Quand utiliser Insights ? 
+Insights prend en charge les communautés d’apprentissage pendant tout **le cycle d’apprentissage**. Grâce à des mesures en temps réel à plusieurs dimensions, Insights prend en charge un cycle continu d’identification, de réflexion, de discussion et d’initiatives parmi les membres de la communauté scolaire.
+*   **Déterminez** comment et quand les élèves s’engagent avec les enseignants, les supports de cours et leurs homologues ; évaluez leurs devoirs. 
+*   **Réfléchissez** sur la manière dont les entrées aident les élèves à réussir, à déterminer les domaines où ils peuvent progresser et les domaines nécessitant une assistance.
+*   **Discutez** des résultats avec les élèves et la communauté scolaire pour renforcer les relations, la définition des objectifs, l’auto-évaluation, susciter la collaboration, puis améliorer les résultats.
+*   **Prenez des mesures** pour élaborer des interventions, faites part de vos commentaires sur les domaines à améliorer, modifiez les stratégies d’enseignement, puis déterminez le support supplémentaire nécessaire.
+
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights prend en charge les communautés d’apprentissage pendant tout le cycle d’apprentissage":::
+
+## <a name="how-insights-works"></a>Fonctionnement d’Insights
+Insights produit une analyse efficace pour aider les enseignants à améliorer les résultats de l’apprentissage. Pour ce faire, il analyse l’activité des élèves au sein de Teams et éventuellement en tirant parti des données du système d’information sur les élèves (SIE) que vous fournissez pour faciliter la mise en contexte et le regroupement de cette activité. 
+
+Avant de commencer à déployer Insights pour votre établissement, consultez rapidement les informations sur le fonctionnement d’Insights, sur notre engagement en faveur de l’éthique des données et sur les licences requises.
+
+### <a name="data-collection"></a>Collecte de données
+Les données collectées pour Insight proviennent de l’activité des élèves et enseignants dans Teams. Nous ne collectons pas les données des invités.
+
+Insights *n’affiche pas* de données sur les enseignants. L’analyse des données fournit des informations utilisables pour faciliter l’enseignement et l’apprentissage.
+
+Pour l’instant, ces données proviennent des domaines suivants dans les équipes de classe :
+
+| Composant Teams   | Données collectées |
+|-------------------|-----------------------------|
+| **Devoirs** | Ouverture, remise et notation des devoirs.|
+| **Implication sur les canaux** |  Visiter un canal, créer un billet, répondre à un billet et l'apprécier (à l'exclusion du contenu de conversation).|
+| **Fichiers** |   Charger, télécharger, consulter, modifier, commenter et partager un fichier (à l'exclusion du contenu du fichier).|
+| **Réunions** |    Présence (à l'exclusion du contenu des réunions).|
+
+> [!NOTE]
+> La plupart des données collectées s’affichent dans Insights en quelques minutes. La présence aux réunions de classe (réunions associées à l’un des canaux de classe) apparaît quelques heures après la fin de la réunion, généralement jusqu’à 24 heures plus tard.
+
+### <a name="privacy-and-security"></a>Confidentialité et sécurité
+Les informations collectées et présentées via Insights répondent à [plus de 90 normes réglementaires et sectorielles](https://docs.microsoft.com/compliance/regulatory/offering-home), y compris le [RGPD](https://docs.microsoft.com/compliance/regulatory/gdpr) et la loi [FERPA (Family Educational Rights and Privacy Act)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations axées sur la confidentialité.
+
+Les données appartiennent à l’établissement, et Microsoft se contente de collecter et de stocker les données. Le personnel de Microsoft ne peut ni accéder aux données ni les consulter, sauf lors d’opérations d'audit (impliquant parfois des récupérations de données) requises pour assurer le bon fonctionnement du service, et ce dans le respect des règles de conformité.
+
+> [!NOTE]
+> Si vous souhaitez en savoir plus sur la protection de vos données par Microsoft, veuillez visiter le [Centre de gestion de la confidentialité de Microsoft](https://www.microsoft.com/trust-center).
+
+### <a name="performance-and-reliability"></a>Performances et fiabilité
+Nous avons conçu Insights pour gérer un grand volume de données collectées depuis Teams avec des performances et une fiabilité optimales. Nous ne pouvons pas garantir une disponibilité à 100 %, mais nous essayons d’être disponibles le plus près possible de cet objectif.
+
+Le processus de collecte de données se déroule sur des serveurs distincts de l'installation de l'onglet Insights dans Teams. L'onglet Insights ou l’application personnelle n'affecte pas les performances des applications, ni la bande passante du réseau pour les enseignants et les élèves qui utilisent les autres fonctionnalités de Teams.
 
 > [!TIP]
-> Si vous souhaitez en savoir plus sur les stratégies et les packages de stratégie Teams pour l’éducation, veuillez lire la rubrique [Stratégies et packages de stratégie Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
+> Si vous souhaitez en savoir plus, veuillez lire la rubrique [Aide dans des situations de bande passante faible dans Teams pour l'éducation](edu-remote-low-bandwidth.md).
 
+### <a name="data-storage"></a>Stockage des données
+Nous avons actuellement déployé Insights en Europe et aux États-Unis. Les données des utilisateurs résidant en Europe se trouvent sur des serveurs en Europe. Les données des utilisateurs résidant en Australie et aux États-Unis se trouvent sur des serveurs aux États-Unis. Nous stockerons les données des utilisateurs en dehors de l’Europe, de l’Australie ou des États-Unis dans l’une de nos régions géographiques. 
 
+### <a name="using-data-ethically"></a>Utilisation éthique des données
+Nous nous engageons à utiliser les données de manière responsable et conforme à l’éthique. Insights suit nos principes Microsoft concernant les données responsables et l’IA. En d’autres termes, nous communiquons en toute transparence sur l’utilisation des données, et nous donnons la plus haute priorité aux intérêts des enseignants et des élèves.  Nous utilisons les normes de sécurité et de confidentialité les plus élevées, nous surveillons la fiabilité et l’exactitude constantes, puis garantissons la conformité permanente de votre établissement.
 
-## <a name="compliance"></a>Conformité
+Microsoft a créé Insights à partir de zéro pour garantir la protection des données. Nous sommes conscients du niveau de confidentialité potentiel de l’utilisation de ces données, et nous nous soucions de vos données et du respect de la vie privée des personnes. 
 
-Insights a des engagements de conformité de premier plan, et est considéré comme un service de niveau C de l'infrastructure de conformité d’Office 365.
+#### <a name="data-to-support-learning"></a>Données de support pour l’apprentissage
+Insights met l’accent sur l’apprentissage des élèves et l’engagement numérique. Les données prennent en charge l’apprentissage et montrent le niveau d’implication des élèves sur la plateforme d’apprentissage numérique. Alors que vous pouvez explorer en détail chaque niveau d’activités de classe, Microsoft **n’attribue pas de valeur positive ou négative** à ces actions. Les données collectées ont pour but d’aider les élèves et les enseignants à faire de leur mieux.
+
+Les enseignants connaissent et comprennent parfaitement les élèves. Les informations présentées dans Insights servent à les aider à **fournir un support aux élèves** dans un scénario d’apprentissage numérique. Ces informations répliquent les informations généralement disponibles dans une expérience personnelle. Par exemple, supposons qu’un élève n’a pas été actif pendant une période spécifique ou n’a pas terminé tous ses devoirs en temps et en heure la semaine dernière. Nous communiquons les données à l’enseignant pour lui permettre de fournir les encouragements appropriés ou vérifier le travail de l’élève. Il incombe à l'enseignant d'interagir avec l'élève, sa famille ou ses tuteurs pour déterminer la raison sous-jacente de toute activité ou inactivité détectée.
+
+Nous avons conçu Insights pour prendre en charge les élèves et les enseignants dans l’infrastructure de l’environnement d’apprentissage numérique. Insights **ne capture pas directement de données sur les enseignants**. Outre les données individuelles des élèves, le programme fournit des agrégations de l’activité des élèves et les résultats d’un enseignant spécifique pour permettre aux responsables de l’éducation de prendre en charge les élèves et les enseignants.
+
+### <a name="licensing"></a>Gestion des licences
+L’accès à Insights nécessite une licence Microsoft 365 A1, A3 ou A5 pour les enseignants.
+
+## <a name="student-information-system-sis-integration"></a>Intégration du système d'informations sur les élèves (SIE)
+Plus Insights reçoit de données, plus les enseignants peuvent aider leurs élèves, et plus les responsables de l’éducation peuvent aider les enseignants.
+
+Pour fournir des informations au niveau de l’organisation, nous devons utiliser la [Synchronisation des données scolaires (SDS)](https://docs.microsoft.com/SchoolDataSync) pour nous connecter au système d'informations sur les élèves (SIE). Ainsi, Insights présentera la structure hiérarchique du système d’enseignement correctement mappée. 
+
+L’affichage des informations au niveau de la classe en tant qu’enseignant *ne nécessite pas* cela, car nous utilisons la structure et les autorisations de classe de Teams.
+
+Si vous souhaitez en savoir plus, veuillez lire les [données du système d’information sur les élèves (SIE) avec Education Insights](education-insights-sis-data-sync.md).
+
+## <a name="manage-permissions"></a>Gérer les autorisations
+Vous devez accorder des autorisations aux responsables de l’éducation, aux chefs de district, aux directeurs d’école, aux chefs d’établissement, aux conseillers, aux responsables de domaine d’étude, aux responsables de programmes, aux travailleurs sociaux et aux psychologues. Les enseignants bénéficient automatiquement d’une autorisation lorsqu’ils sont propriétaires d’une équipe de classe.
 
 > [!NOTE]
-> Visitez le [Centre de gestion de la confidentialité de Microsoft](https://www.microsoft.com/trust-center) pour en savoir plus sur la protection de vos données par Microsoft.
+> Accordez uniquement les autorisations aux responsables de l’éducation qui en ont besoin, ainsi qu’aux équipes dont ils sont responsables. Si vous ne savez pas si une autorisation d’utilisateur est nécessaire pour une organisation spécifique, veuillez consulter les experts en matière de confidentialité de votre établissement, tels que le personnel juridique ou celui des ressources humaines.
 
-## <a name="privacy"></a>Confidentialité
+## <a name="manage-the-setup-policy"></a>Gérer la stratégie de configuration
+En tant qu’administrateur informatique, vous pouvez utiliser la stratégie de configuration d’application pour installer Insights par défaut pour vos enseignants et pour vos responsables lorsqu’ils démarrent Teams. Avec cette stratégie, vous pouvez personnaliser Teams pour mettre en évidence Insights, puis l’épingler pour dans la barre d’applications.
 
-Les informations collectées et présentées via Insights répondent à plus de 90 normes réglementaires et sectorielles, y compris le RGPD et la loi FERPA (Family Educational Rights and Privacy Act) pour la sécurité des étudiants et des enfants, ainsi que d’autres réglementations axées sur la confidentialité. Il est important que les administrateurs informatiques sachent que les informations collectées par étudiant sont destinées à être utilisées uniquement dans un contexte de cours, afin de permettre aux enseignants et aux chefs d’établissement de déterminer le comportement des étudiants. Les informations sont collectées pour des activités d'apprentissage utiles, telles que la participation aux réunions de classe, la publication de messages, la réponse aux billets des camarades de classe, le travail sur des devoirs, l'édition de fichiers, etc. Par exemple, nous n’avons pas d’informations sur la conversation privée ou la connexion Teams.
+Si les enseignants souhaitent accéder directement à chaque classe, ils peuvent installer manuellement l’onglet Insights dans le menu de navigation supérieur. Cet onglet permet à l’enseignant d’accéder directement aux données pertinentes lorsqu’il se trouve dans la classe en question dans Teams pour consulter les données dans le contexte de la classe. 
 
-Notre objectif est d’aider les enseignants à comprendre l’implication et à mettre en valeur l’apprentissage des étudiants. Bien que ces activités de cours puissent se concentrer sur des actions au niveau de l'étudiant, aucune valeur positive ou négative n'est attribuée à ces actions par Microsoft Teams, et il n'y a pas de jugement d'identification d'étudiants individuels basé sur des critères. Les informations contenues dans Insights informent un enseignant que, par exemple, un étudiant n'a pas été actif dans l'outil à une certaine période ou a terminé tous ses devoirs de la semaine dernière à temps. Il incombe à l'enseignant d'interagir avec l'étudiant et sa famille ou ses tuteurs pour déterminer la raison sous-jacente de toute activité ou inactivité détectée.
-
-## <a name="data-collection"></a>Collecte de données
-
-- Nous collectons des données pour Class lorsque l'outil Education Analytics est activé pour le client. Les données sont collectées à partir de l’activité Teams afin d’obtenir des informations exploitables pour l’enseignement et l’apprentissage.
-- Les données des invités _ne sont pas_ collectées pour Insights.
-- Par défaut, Education Analytics est **Activée** .
-
-Pour l’instant, ces données sont extraites des domaines suivants de l’activité des étudiants et des enseignants dans les équipes de classe :
-
-|Composant Teams  |Données collectées  |
-|-----------------|------------------------|------------------------|
-|Affectations |Ouverture, remise et notation des devoirs. |
-|Implication sur les canaux |Visiter un canal, créer un billet, répondre à un billet et l'apprécier (à l'exclusion du contenu de conversation). |
-|Fichiers |Charger, télécharger, accéder, modifier, commenter et partager un fichier (à l'exclusion du contenu du fichier). |
-|Réunions |Présence (à l'exclusion du contenu des réunions). |
-
-## <a name="data-location"></a>Emplacement des données
-
-Les données Insights pour les locataires résidant en Europe sont stockées sur des serveurs en Europe. Les données relatives aux locataires résidant aux États-Unis sont stockées sur des serveurs aux États-Unis. Si vous utilisez Insights et que votre locataire Office 365 se trouve dans une région en dehors de l'Europe ou des États-Unis, vos données seront stockées dans la région géographique appropriée.
-
-## <a name="performance-and-reliability"></a>Performances et fiabilité
-
-Insights est conçue pour gérer un grand volume de données collectées dans le cadre de l'activité Teams avec des performances et une fiabilité optimales.
-
-Le processus de collecte des données se déroule sur des serveurs distincts, indépendamment de l'installation de l'onglet Insights dans Teams. L'onglet Insights ou l’application personnelle n'affecte pas les performances des applications ni la bande passante du réseau pour les enseignants et les étudiants qui utilisent les autres fonctionnalités de Teams.
+Dans les deux vues, les enseignants peuvent accéder aux données sur la classe. À l’aide de l’application personnelle, l’enseignant doit explorer en détail le niveau de la classe, tandis que l’onglet permet d’accéder directement aux données de la classe.
 
 > [!TIP]
-> Si vous souhaitez en savoir plus sur l’utilisation de Teams pour l’éducation en cas de bande passante faible, veuillez lire la rubrique [Aide dans des situations de bande passante faible dans Teams pour l'éducation](edu-remote-low-bandwidth.md).
+> Si vous souhaitez en savoir plus, veuillez lire la rubrique [Stratégies et packages de stratégie Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
 
-## <a name="how-to-delete-your-data"></a>Comment supprimer vos données
+## <a name="encourage-the-adoption-of-insights"></a>Encourager l’adoption d’Insights
+Suscitez l’enthousiasme de votre établissement d’enseignement à l’idée d’utiliser Insights.
 
-Les services éducatifs enregistrent les actions des étudiants et des enseignants effectuées dans le cadre d'une équipe de classe. Ces données sont considérées comme un ensemble de données mélangées et ne sont donc pas automatiquement supprimées du service une fois que les comptes d'utilisateur des étudiants ou des enseignants sont supprimés de votre organisation.
+N’hésitez pas à distribuer les ressources suivantes aux **enseignants** :
+*   Si vous souhaitez obtenir de l’aide, veuillez consulter la [page de support d’Insights](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181).
+* Devenez rapidement opérationnel en [affichant le fichier PDF sur Insights (1 page)](https://aka.ms/insights/start).
+*   Lisez le [guide complet au format PDF](https://aka.ms/insights/guide).
+*   Visionnez les [didacticiels détaillés](https://aka.ms/insights/resources) sur l’utilisation d’Insights.
+*   Entraînez-vous avec le [cours gratuit sur Insights](https://aka.ms/insights/course) dans le Centre pour les enseignants de Microsoft.
+*   Enfin, consultez [ce blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) consacré à Insights.
 
-> [!NOTE]
-> La suppression de données a un impact négatif sur la capacité d'Insights à analyser l'implication des équipes de classe au fil du temps.
+Des ressources destinées aux **responsables de l’éducation** vont bientôt paraître.
 
-- Ouvrez un ticket de support à l’adresse [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support) Le ticket de support doit indiquer clairement la demande d'une opération RGPD Supprimer DSR et contenir l'ID de l'objet utilisateur à supprimer. Il n'est pas possible de limiter l'ensemble des données ou la fenêtre temporelle de la suppression.
-- Une fois rempli, le ticket de support attend dans la file d'attente pendant une semaine afin de respecter la stratégie de rétention minimale. Vous avez la possibilité d'annuler l'opération pendant cette période.
-- Après une semaine, l’équipe Education Analytics prend des mesures pour s’assurer que toutes les données associées à l’ID utilisateur sont supprimées du service. Le support de Microsoft surveille le ticket ICM et vous informe une fois le processus de suppression terminé, dans un délai maximum de 28 jours.
+## <a name="turn-insights-off-or-on"></a>Activer ou désactiver Insights
+Insights est activé par défaut. Lorsque vous désactivez Insights, nous *supprimons toutes les données collectées* pour Insights. Si vous réactivez Insights, nous commencerons à collecter des données depuis la date et l’heure de réactivation.
 
-## <a name="turn-insights-off-and-on-using-school-data-sync-sds"></a>Désactiver et activer Insights en utilisant School Data Sync (SDS)
+### <a name="turn-insights-off-using-school-data-sync-sds"></a>Désactiver Insights à l’aide de la Synchronisation des données scolaires (SDS)
+La Synchronisation des données scolaires (SDS) permet d’automatiser l’importation et la synchronisation des données du système d'informations sur les élèves (SIS) avec Teams.
 
-School Data Sync(SDS) permet d’automatiser le processus d’importation et de synchronisation des données du SIS avec Office 365.
+L’utilisation d’Insights *ne nécessite pas* la SDS. Toutefois, vous pouvez choisir de désactiver Insights à tout moment. Ouvrez le Centre d’administration SDS, puis accédez à **Paramètres** > **Manage Education Insights**. Désactivez '**Collect data for Insights**' pour désactiver Insights. 
 
-L’utilisation d’Insights ne nécessite pas l’utilisation de School Data Sync (SDS). Toutefois, vous pouvez choisir de résilier Education Analytics à tout moment en désactivant le bouton bascule dans le Centre d’administration SDS sous **Paramètres** > **Gérer Education Analytics** .
+:::image type="content" source="media/insights-sds-settings.png" alt-text="Le commutateur marche/arrêt permet de activer ou désactiver Insights.":::
 
-:::image type="content" source="media/class-insights-on-off.png" alt-text="Le commutateur marche/arrêt pour activer ou désactiver Insights.":::
+### <a name="turn-insights-on"></a>Activer Insights
+Si vous avez désactivé Insights, vous pouvez l’activer rapidement. Ouvrez le Centre d’administration SDS, puis accédez à **Paramètres** > **Manage Education Insights**. Activez '**Collect data for Insights**' pour activer Insights.
 
-Par défaut, Education Analytics et, par conséquent, Insights, est activée. Lorsque vous choisissez de ne pas participer à Analytics, nous supprimons toutes les données collectées pour l'onglet Insights. Si vous réactivez la fonctionnalité Analytics, nous commençons à collecter des données à partir du moment où elle est réactivée.
-
-## <a name="additional-resources"></a>Ressources supplémentaires
-- [Guide Insights pour les enseignants dans Microsoft Teams](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)
+### <a name="how-to-delete-your-data"></a>Comment supprimer vos données
+Insights enregistre les actions des élèves et des enseignants effectuées dans le cadre d'une équipe de classe. Ces données sont considérées comme un ensemble de données mélangées et ne sont donc pas automatiquement supprimées du service une fois que les comptes d'utilisateur des étudiants ou des enseignants sont supprimés de votre organisation.
+Note : la suppression de données nuit à la capacité d'Insights à analyser l'implication des équipes de classe au fil du temps.
+* [Ouvrez un ticket de support](https://edusupport.microsoft.com/support). Le ticket de support doit indiquer clairement la demande d'une opération RGPD Supprimer DSR et contenir l'ID de l'objet utilisateur à supprimer. Il n'est pas possible de limiter l'ensemble des données ou la fenêtre temporelle de la suppression.
+*   Une fois rempli, le ticket de support attend dans la file d'attente pendant une semaine pour respecter la stratégie de rétention minimale. Vous avez la possibilité d'annuler l'opération pendant cette période.
+*   Après une semaine, l’équipe Education Insights veille à supprimer du service toutes les données associées à l’ID utilisateur. Le support de Microsoft surveille le ticket et vous informe une fois le processus de suppression terminé, dans un délai maximum de 28 jours.
