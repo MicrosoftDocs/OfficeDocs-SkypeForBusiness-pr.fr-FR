@@ -1,7 +1,7 @@
 ---
 title: Teams et Skype interoperability
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Découvrez les fonctionnalités d’interopérabilité entre les utilisateurs de Teams dans votre organisation et les utilisateurs de Skype (grand public).
 localization_priority: Normal
-ms.openlocfilehash: 9063fc0f13bab9d0168296f9e77c5136e760b7a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802354"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055646"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams et Skype interoperability
 
@@ -53,18 +53,18 @@ Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec 
 - Si l’utilisateur de Teams sélectionne Afficher **les messages,** le message s’affiche dans Teams, ce qui aide l’utilisateur à décider s’il accepte ou bloque la conversation.
 
 > [!NOTE]
-> Si vous avez mis à niveau Skype Entreprise vers Teams et que vos utilisateurs sont en mode Teams uniquement, les conversations et appels des utilisateurs de Skype vers des utilisateurs de Teams sont remis à Teams. Si vos utilisateurs sont en mode Îles, les conversations et appels des utilisateurs de Skype aux utilisateurs de Teams sont remis à Skype Entreprise.
+> Si vous avez mis à niveau Skype Entreprise vers Teams et que vos utilisateurs sont en mode Teams uniquement, les conversations et appels des utilisateurs de Skype vers les utilisateurs de Teams sont remis à Teams. Si vos utilisateurs sont en mode Îles, les conversations et appels des utilisateurs de Skype aux utilisateurs de Teams sont remis à Skype Entreprise.
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Un utilisateur de Teams bloque ou débloque un utilisateur Skype
 
-Une fois qu’un utilisateur de Teams accepte ou bloque la demande de conversation initiale d’un utilisateur Skype, il peut décider de bloquer ou de débloquer cette personne à tout moment. Ils peuvent le faire dans la conversation ou dans leurs paramètres de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
+Une fois qu’un utilisateur de Teams accepte ou bloque la demande de conversation initiale d’un utilisateur Skype, il peut choisir de bloquer ou de débloquer cette personne à tout moment. Ils peuvent le faire dans la conversation ou dans leurs paramètres de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
 
 Les utilisateurs Skype bloqués, ainsi que d’autres personnes et les numéros de téléphone commutés (PSTN) qu’un utilisateur de Teams a bloqués, sont répertoriés dans la liste des contacts bloqués de l’utilisateur dans Teams.
 
 ## <a name="limitations"></a>Limitations
 
 - Les conversations sont en texte seul. Cela signifie qu’il n’existe pas de mise en forme enrichie, de @mentions, d’emojis ou d’autres fonctionnalités de conversation disponibles dans une expérience de conversation [Teams native.](native-chat-for-external-users.md)
-- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas prise en charge.
+- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas pris en charge.
 - Les utilisateurs de Teams et de Skype ne peuvent pas voir la présence des autres utilisateurs.
 - La recherche d’utilisateurs Skype à l’aide de leur ID Skype ou de leur numéro de téléphone n’est pas prise en charge.
 - Les utilisateurs de Skype ne peuvent pas appeler les utilisateurs de Teams qui ont installé le forwarding d’appel vers le numéro d’un autre utilisateur, un numéro de délégué ou un numéro de réseau téléphonique commuté (PSTN).  Seul la messagerie vocale est prise en charge.

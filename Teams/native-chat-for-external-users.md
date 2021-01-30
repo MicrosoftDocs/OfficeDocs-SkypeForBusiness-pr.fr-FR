@@ -1,7 +1,7 @@
 ---
-title: Une interface utilisateur native pour les discussions pour les utilisateurs externes de Microsoft teams
-author: SerdarSoysal
-ms.author: serdars
+title: Expérience de conversation native pour les utilisateurs externes (fédérés) dans Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,40 +14,39 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Apprenez-en davantage sur l’interface de chat d’équipe native pour les utilisateurs de Microsoft Teams (fédéré) disponibles entre les utilisateurs externes lorsque les deux utilisateurs sont en mode de mise à niveau TeamsOnly.
-ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Découvrez l’expérience de conversation Teams native pour les utilisateurs à accès externe (fédéré) dans Microsoft Teams où les deux utilisateurs sont dans le mode de mise à niveau TeamsOnly.
+ms.openlocfilehash: df9e1e41992e105937deacf898833995cdfb7714
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030600"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055656"
 ---
-<a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Une interface utilisateur native pour les discussions pour les utilisateurs externes de Microsoft teams
-======================================
+# <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Expérience de conversation native pour les utilisateurs externes (fédérés) dans Microsoft Teams
 
-Lorsqu’un utilisateur de Microsoft teams discute avec un utilisateur externe (fédéré), l’interface de conversation est limitée au texte. En revanche, si vos interlocuteurs et utilisateurs externes se trouvent dans le mode de mise à niveau de TeamsOnly, vous pouvez avoir une « expérience de conversation en équipe Native » incluant une mise en forme enrichie, @mentions et d’autres fonctionnalités de conversation. En d’autres termes, vous pouvez utiliser la même expérience de conversation d’équipe 1:1 avec les utilisateurs externes éligibles, comme vous le faites avec les utilisateurs de votre organisation. Les discussions d’équipe natives avec des utilisateurs externes sont toujours limitées aux discussions 1:1 uniquement (les utilisateurs externes ne peuvent pas faire des discussions de groupe).
+Lorsqu’un utilisateur de Microsoft Teams discute avec un utilisateur externe (fédéré), l’expérience de conversation est limitée au texte. Toutefois, si l’utilisateur de Teams et la personne d’une autre organisation sont en mode de mise à niveau TeamsOnly, vous pouvez avoir une « expérience de conversation Teams native » qui inclut une mise en forme enrichie, des @mentions et d’autres fonctionnalités de conversation. En d’autres termes, vous pouvez avoir la même expérience de conversation Teams en tête-à-tête enrichie avec les personnes éligibles d’autres organisations que vous le feriez avec des utilisateurs de votre organisation. Les conversations Teams natives avec des personnes d’autres organisations sont limitées à des conversations en tête-à-tête uniquement.
 
-L’interface de conversation native pour les utilisateurs externes est activée pour tous les clients Teams, mais tous les utilisateurs ne sont pas éligibles. Pour vous offrir une conversation native, l’expéditeur et le destinataire doivent être configurés pour le mode de mise à niveau TeamsOnly. Pour en savoir plus sur les stratégies de mise à niveau, voir [définir vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md).
+L’expérience de conversation native pour les membres d’autres organisations est désactivée pour tous les locataires Teams, mais toutes les personnes ne sont pas éligibles. Pour obtenir une expérience de conversation native, l’expéditeur et le récepteur doivent être configurés pour le mode de mise à niveau de TeamsOnly. Pour en savoir plus sur les stratégies de mise à niveau, [lisez Définir vos paramètres de coexistence et de mise à niveau.](setting-your-coexistence-and-upgrade-settings.md)
 
-Pour afficher une liste de fonctionnalités pour les utilisateurs d’accès externe dans Teams, voir [comparer des accès externes et invités](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+Pour consulter la liste des fonctionnalités pour les utilisateurs d’accès externe dans Teams, voir [Comparer l’accès externe et invité.](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
 
-## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Comment savoir si je suis en mode conversation ?
+## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Comment savoir si je suis dans une conversation native ?
 
-Si vous ne pouvez échanger uniquement du texte dans votre conversation avec un utilisateur externe, vous êtes dans une conversation à accès externe standard (fédéré). Si vous disposez de toutes les autres fonctionnalités de conversation, y compris la mise en forme, les @mentions, les emoji, etc., vous êtes dans une conversation en équipe native avec votre utilisateur externe. 
+Si vous pouvez uniquement échanger du texte dans votre conversation avec des personnes d’autres organisations, vous êtes dans une conversation standard d’accès externe (fédéré). Si vous avez toutes les autres fonctionnalités de conversation, notamment la mise en forme, les @mentions, les emojis, etc., vous êtes dans une conversation Teams native. 
 
-Teams vérifie régulièrement le mode de mise à niveau pour les utilisateurs externes et, lorsqu’il trouve un utilisateur externe exécutant teams dans le mode de mise à niveau d’TeamsOnly, il vous invite à passer à une discussion d’équipe native et à verrouiller la discussion d’origine.
+Teams vérifie régulièrement le mode de mise à niveau pour les membres d’autres organisations et, lorsqu’elle trouve qu’elles exécutent Teams en mode de mise à niveau TeamsOnly, vous êtes invité à basculer vers une conversation Teams native et à verrouiller la conversation d’origine.
 
-Lorsque vous basculez vers une conversation d’équipe native, Teams ne fusionne pas les deux conversations. À la place, vous verrez les deux discussions dans votre fil de discussion. Le nouveau chat natif-teams est actif, mais l’ancien message texte uniquement est verrouillé.
-
+Lorsque vous basculez vers une conversation Teams native, Teams ne fusionne pas les deux conversations. Au lieu de cela, vous verrez les deux conversations dans votre flux de conversation. La nouvelle conversation Teams native est active, mais l’ancienne conversation uniquement textuelle est verrouillée.
 
 
-## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>Que se passe-t-il si un utilisateur n’est pas en mode uniquement en équipe ?
 
-Si vous avez une conversation d’équipe native avec un utilisateur externe et que vous êtes à l’extérieur du mode de mise à niveau d’TeamsOnly, teams verrouille la discussion d’équipe native et vous donne un lien pour une conversation de texte limitée. Vous ne serez pas en mesure de continuer dans la conversation d’équipe native. Vous pouvez toujours lire les discussions d’équipe natives, mais vous ne pouvez pas continuer la conversation.
+## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>Que se passe-t-il si un utilisateur n’est plus en mode Teams uniquement ?
 
-Si teams recherche une ancienne conversation textuelle uniquement avec cet utilisateur externe, il le réutilisera. Dans le cas contraire, teams crée une discussion de texte uniquement.
+Si vous a eu une conversation Teams native avec des personnes d’autres organisations et que l’une d’entre vous est sorti du mode de mise à niveau TeamsOnly, Teams verrouille la conversation Teams native et vous fournit un lien pour une conversation limitée par SMS uniquement. Vous ne pourrez pas continuer dans la conversation Teams native. Vous pouvez toujours lire la conversation Teams native, mais vous ne pouvez pas poursuivre la conversation dans cette conversation.
+
+Si Teams trouve une ancienne conversation par SMS uniquement avec cette personne, elle l’aura fait. Sinon, Teams crée une conversation par SMS uniquement.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Gérer l’accès externe dans teams](manage-external-access.md)
+[Gérer l’accès externe dans Teams](manage-external-access.md)

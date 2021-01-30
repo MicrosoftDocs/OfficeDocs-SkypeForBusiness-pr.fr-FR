@@ -1,7 +1,7 @@
 ---
-title: Gérer l’accès externe (Fédération)
-author: SerdarSoysal
-ms.author: serdars
+title: Gérer l’accès externe (fédération)
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,22 +21,21 @@ description: Votre administrateur Teams ou informatique peut configurer l’acc�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 9739c35fcd22229f3f1115edf029535f9b23e8f9
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b5d8bb969725507eec54a66c7ccb20b6eb54ec68
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031780"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055746"
 ---
-<a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
-======================================================
+# <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
-L’accès externe permet aux utilisateurs de Microsoft teams de rechercher, appeler, discuter et organiser des réunions en équipe. Vous pouvez également utiliser l’accès externe pour communiquer avec des utilisateurs externes qui utilisent encore Skype entreprise (en ligne et sur site) et Skype (en version préliminaire).
+L’accès externe permet aux utilisateurs de Teams à partir d’un domaine externe entier de rechercher, appeler, discuter et configurer des réunions avec vous dans Teams. Vous pouvez également utiliser l’accès externe pour communiquer avec des personnes d’autres organisations qui utilisent toujours Skype Entreprise (en ligne et sur site) et Skype (en version préliminaire).
 
 > [!NOTE]
-> Les domaines autorisés ou bloqués s’appliquent uniquement aux réunions si l’accès anonyme aux réunions est « désactivé ».
+> Les domaines autorisés ou bloqués s’appliquent uniquement aux réunions si l’accès anonyme aux réunions est « off ».
 
-Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, l’accès invité sera sans doute préférable. Pour plus d’informations sur les différences entre l’accès externe et l’accès invité, voir [Comparer les accès externe et invité](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+Si vous souhaitez que les personnes d’autres organisations ont accès aux équipes et aux canaux, l’accès invité peut être un meilleur moyen de le faire. Pour plus d’informations sur les différences entre l’accès externe et l’accès invité, voir [Comparer les accès externe et invité](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Utilisez l’accès externe dans les situations suivantes :
   
@@ -47,28 +46,28 @@ Utilisez l’accès externe dans les situations suivantes :
 - Ou vous souhaitez que tous les utilisateurs de Teams à travers le monde puissent vous contacter, à l'aide de votre adresse électronique. 
 
 > [!IMPORTANT]
-> Pour pouvoir utiliser le client teams pour communiquer avec un utilisateur externe (qu’il utilise teams ou Skype entreprise), l’utilisateur de teams doit être hébergé dans Skype entreprise online.
+> Pour utiliser le client Teams afin de communiquer avec un utilisateur externe (que cet utilisateur utilise Teams ou Skype Entreprise), l’utilisateur de Teams doit être domicile dans Skype Entreprise Online.
 
 ## <a name="plan-for-external-access"></a>Plan pour l’accès externe
 
-Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. Il existe une exception à cette règle, si les participants anonymes sont autorisés à participer à des réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams ( **Paramètres à l’échelle de l’organisation** > **Accès externe** ) :
+Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. L’exception à cette règle est l’accès autorisé des participants anonymes aux réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
 
-- **Fédération ouverte** : il s’agit du paramètre par défaut dans Teams, qui permet aux membres de votre organisation de rechercher, d’appeler, d’envoyer des messages instantanés/conversations et de configurer des réunions avec des personnes extérieures à votre organisation.
+- **Fédération ouverte**: il s’agit du paramètre par défaut dans Teams, qui permet aux membres de votre organisation de rechercher, d’appeler, d’envoyer des messages instantanés/conversations et de configurer des réunions avec des personnes extérieures à votre organisation.
 
     Lorsque vous optez pour cette configuration, vos utilisateurs peuvent communiquer avec tous les domaines externes exécutant Teams ou Skype Entreprise et utilisant la Fédération ouverte OU ayant ajouté votre domaine à leur liste Autoriser.
 
-- **Autoriser des domaines spécifiques** : en ajoutant des domaines à une liste **Autoriser** , vous limitez l’accès externe uniquement aux domaines autorisés. Une fois que vous avez configuré la liste des domaines autorisés, tous les autres domaines sont bloqués. Pour autoriser certains domaines, cliquez sur **Ajouter un domaine** , ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine** , puis sélectionnez **Autorisé**.
+- **Autoriser des domaines spécifiques**: en ajoutant des domaines à une liste **Autoriser**, vous limitez l’accès externe uniquement aux domaines autorisés. Une fois que vous avez configuré la liste des domaines autorisés, tous les autres domaines sont bloqués. Pour autoriser certains domaines, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine**, puis sélectionnez **Autorisé**.
 
-- **Bloquez des domaines spécifiques** -en ajoutant des domaines à une liste **Bloquer** , vous pouvez communiquer avec tous les domaines externes *à l’exception de* ceux que vous avez bloqués. Pour bloquer certains domaines, cliquez sur **Ajouter un domaine** , ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine** , puis sélectionnez **Bloqué**. Une fois que vous avez configuré la liste des domaines bloqués, tous les autres domaines sont autorisés.
+- **Bloquez des domaines spécifiques**-en ajoutant des domaines à une liste **Bloquer**, vous pouvez communiquer avec tous les domaines externes *à l’exception de* ceux que vous avez bloqués. Pour bloquer certains domaines, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine**, puis sélectionnez **Bloqué**. Une fois que vous avez configuré la liste des domaines bloqués, tous les autres domaines sont autorisés.
 
 > [!NOTE]
-> Si vous désactivez l’accès externe au sein de votre organisation, les utilisateurs externes peuvent tout de même participer à des réunions via une jointure anonyme. Pour en savoir plus, voir [gérer les paramètres de réunion dans teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Si vous désactiver l’accès externe dans votre organisation, les utilisateurs externes peuvent toujours participer à des réunions via une participation anonyme. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
 
 ## <a name="allow-or-block-domains"></a>Autoriser ou bloquer des domaines
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Étape 1 : permettre à votre organisation de communiquer avec d’autres équipes ou des organisations Skype entreprise
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Étape 1 : permettre à votre organisation de communiquer avec d’autres organisations Teams ou Skype Entreprise
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft Teams**  :
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft Teams** :
 
 1. Dans le volet de navigation gauche, accédez à **Paramètres à l’échelle de l’organisation** > **Accès externe**.
 
@@ -80,18 +79,18 @@ Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votr
 
 4. Si vous voulez limiter les organisations pouvant communiquer avec les utilisateurs de votre organisation, vous pouvez autoriser tous les domaines sauf certains, ou autoriser uniquement certains domaines. 
 
-    - Pour autoriser tous les domaines sauf certains, ajoutez les domaines que vous voulez bloquer en cliquant sur **Ajouter un domaine**. Dans le volet **Ajouter un domaine** , tapez le nom de domaine, cliquez sur **Bloqué** , puis sur **Terminé**. 
+    - Pour autoriser tous les domaines sauf certains, ajoutez les domaines que vous voulez bloquer en cliquant sur **Ajouter un domaine**. Dans le volet **Ajouter un domaine**, tapez le nom de domaine, cliquez sur **Bloqué**, puis sur **Terminé**. 
     - Pour limiter les communications à des organisations spécifiques, ajoutez ces domaines à la liste en définissant l’état **Autorisé**. Une fois que vous avez ajouté un domaine à la liste Autoriser, les communications avec d’autres organisations sont limitées aux seules organisations dont les domaines figurent dans la liste Autoriser. 
 
 5. Cliquez sur **Enregistrer**.
 
-6. Assurez-vous que l’administrateur de l’autre organisation Teams effectue les mêmes étapes. Par exemple, dans leur **liste de domaines autorisée** , leur administrateur doit entrer dans le domaine de votre entreprise s’ils limitent les organisations pouvant communiquer avec leurs utilisateurs.
+6. Assurez-vous que l’administrateur de l’autre organisation Teams effectue les mêmes étapes. Par exemple, dans leur **liste de domaines autorisée**, leur administrateur doit entrer dans le domaine de votre entreprise s’ils limitent les organisations pouvant communiquer avec leurs utilisateurs.
 
 ### <a name="step-2---test-it"></a>Étape 2 : tester
 
 Pour tester votre configuration, vous devez disposer d’un contact Teams qui ne soit pas derrière votre pare-feu.
   
-1. Une fois que vous et l’administrateur de l’organisation avez modifié les paramètres d’ **Accès externe** , vous devriez être prêt.
+1. Une fois que vous et l’administrateur de l’organisation avez modifié les paramètres d’**Accès externe**, vous devriez être prêt.
 
 2. Dans l’application Teams, recherchez la personne par adresse de messagerie et envoyez une demande de conversation.
 
@@ -107,7 +106,7 @@ Pour tester votre configuration, vous devez disposer d’un contact Teams qui ne
 
 Pour permettre aux membres Teams de votre organisation de discuter avec et d’appeler des utilisateurs de Skype, procédez comme suit. Les membres de Teams peuvent ensuite rechercher et démarrer une conversation texte privée ou un appel audio/vidéo avec des utilisateurs de Skype, et vice-versa.
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft Teams**  :
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft Teams** :
 
 1. Dans le volet de navigation gauche, accédez à **Paramètres à l’échelle de l’organisation** > **Accès externe**.
 
@@ -119,41 +118,41 @@ Pour en savoir plus sur la manière dont les utilisateurs de Teams et les utilis
 
 ## <a name="common-external-access-scenarios"></a>Scénarios d’accès externe courants
 
-Les sections suivantes décrivent l’activation de la Fédération pour les scénarios courants d’accès externe et la façon dont TeamsUpgradePolicy détermine la remise des conversations et appels entrants.
+Les sections suivantes décrivent comment activer la fédération pour les scénarios d’accès externe courants et comment TeamsUpgradePolicy détermine la remise des conversations et appels entrants.
 
-### <a name="enable-federation"></a>Activer la Fédération
+### <a name="enable-federation"></a>Activer la fédération
 
-Pour permettre aux utilisateurs de votre organisation de communiquer avec des utilisateurs d’une autre organisation, les deux organisations doivent activer la Fédération. Les étapes permettant d’activer la Fédération pour une organisation donnée varient en fonction du mode de connexion, hybride ou purement local de l’organisation.
+Pour permettre aux utilisateurs de votre organisation de communiquer avec des utilisateurs d’une autre organisation, les deux organisations doivent activer la fédération. Les étapes à suivre pour activer la fédération pour une organisation donnée varient selon que l’organisation est purement en ligne, hybride ou purement en local.
 
-|**Si votre organisation est** |**Activer la Fédération comme suit**  |
+|**Si votre organisation est** |**Activer la fédération comme suit**  |
 |:---------|:-----------------------|
-|Connexion sans Skype entreprise locale. Il s’agit d’organisations incluant des utilisateurs de TeamsOnly et/ou des utilisateurs de Skype entreprise online.| Si vous utilisez le centre d’administration teams : <br>-Assurez-vous que les **utilisateurs peuvent communiquer avec d’autres utilisateurs de Skype entreprise et équipes** dans l’accès externe.<br>-Si vous n’utilisez pas la Fédération d’ouverture (qui autorise la Fédération avec n’importe quel autre domaine), ajoutez le domaine externe à la liste autorisée.<br><br>Si vous utilisez PowerShell :<br>-Vérifiez que le client est activé pour la Fédération : `Get-CsTenantFederationConfiguration` doit afficher `AllowFederatedUsers=true` . <br>-Assurez-vous que la valeur effective de l’utilisateur `CsExternalAccessPolicy` est a `EnableFederationAccess=true` .<br>-Si vous n’utilisez pas la Fédération ouverte, assurez-vous que le domaine cible figure dans `AllowedDomains` de `CsTenantFederationConfiguration` . |
-|Locale pure | Dans les outils locaux : <br>-Vérifiez que la Fédération est activée `CsAccessEdgeConfiguration` .<br>-Vérifiez que la Fédération pour l’utilisateur est activée par le biais de `ExternalAccessPolicy` la stratégie globale, de la stratégie de site ou de la stratégie attribuée par l’utilisateur. <br> -Si vous n’utilisez pas la Fédération ouverte, assurez-vous que le domaine cible figure dans la liste `AllowedDomains` . |
-|Hybride avec des utilisateurs en ligne (dans Skype entreprise ou Teams) et certains utilisateurs locaux. | Suivez les étapes ci-dessus pour les organisations en ligne et sur site. |
+|En ligne sans Skype Entreprise sur site. Cela inclut les organisations qui ont des utilisateurs de TeamsOnly et/ou des utilisateurs de Skype Entreprise Online.| Si vous utilisez le Centre d’administration Teams : <br>- Assurez-vous que les **utilisateurs peuvent communiquer** avec les paramètres des autres utilisateurs de Skype Entreprise et Teams dans l’Accès externe.<br>- Si vous n’utilisez pas de fédération ouverte (ce qui autorise la fédération avec un autre domaine), ajoutez le domaine externe à la liste des domaines autorisés.<br><br>Si vous utilisez PowerShell :<br>- Assurez-vous que le client est activé pour la fédération : `Get-CsTenantFederationConfiguration` doit `AllowFederatedUsers=true` afficher. <br>- Assurez-vous que l’utilisateur a une valeur `CsExternalAccessPolicy` `EnableFederationAccess=true` efficace.<br>- Si vous n’utilisez pas de fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` `CsTenantFederationConfiguration` . |
+|Pure en local | Dans les outils locaux : <br>- Assurez-vous que la fédération est activée dans `CsAccessEdgeConfiguration` .<br>- Vérifier que la fédération de l’utilisateur est activée par le biais (à travers la stratégie globale, la stratégie de site ou la stratégie attribuée à `ExternalAccessPolicy` l’utilisateur). <br> - Si vous n’utilisez pas de fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` . |
+|Hybride avec certains utilisateurs en ligne (dans Skype Entreprise ou Teams) et certains utilisateurs sur site. | Suivez les étapes ci-dessus pour les organisations en ligne et locales. |
 
-### <a name="delivery-of-incoming-chats-and-calls"></a>Remise de messages et d’appels entrants 
+### <a name="delivery-of-incoming-chats-and-calls"></a>Remise des conversations et appels entrants 
 
-Les conversations et les appels entrants à partir d’un organisme de Fédération débarqueront dans le client teams ou Skype entreprise, en fonction du mode de l’utilisateur destinataire dans TeamsUpgradePolicy.
+Les conversations et appels entrants d’une organisation de fédération arriveront dans le client Teams ou Skype Entreprise de l’utilisateur en fonction du mode de l’utilisateur destinataire dans TeamsUpgradePolicy.
 
-|**Si vous souhaitez** |**Procédez comme suit :**  |
+|**Si vous souhaitez** |**Pour ce faire :**  |
 |:---------|:-----------------------|
-| Assurez-vous que les discussions fédérées et les appels entrants arrivent dans le client teams de l’utilisateur : | Configurez vos utilisateurs comme TeamsOnly.
-| Assurez-vous que les discussions fédérées et les appels entrants arrivent dans le client Skype entreprise de l’utilisateur | Configurez vos utilisateurs dans un autre mode que TeamsOnly. |
+| Assurez-vous que les conversations et appels fédérés entrants arrivent dans le client Teams de l’utilisateur : | Configurez vos utilisateurs de manière à ce qu’ils utilisent TeamsOnly.
+| S’assurer que les conversations et appels fédérés entrants arrivent dans le client Skype Entreprise de l’utilisateur | Configurez vos utilisateurs pour qu’ils restent dans n’importe quel mode autre que TeamsOnly. |
 
 
-### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Autoriser la Fédération entre les utilisateurs de votre organisation et les utilisateurs de Skype
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Activer la fédération entre les utilisateurs de votre organisation et les utilisateurs grand public de Skype
 
-Pour activer la Fédération entre les utilisateurs de votre organisation et les utilisateurs de Skype :
+Pour permettre la fédération entre les utilisateurs de votre organisation et les utilisateurs grand public de Skype :
 
-|**Si votre organisation est** |**Activez la Fédération consommateur comme suit.**  |
+|**Si votre organisation est** |**Activer la fédération des consommateurs comme suit**  |
 |:---------|:-----------------------|
-| Une connexion pure sans Skype entreprise locale.  Il s’agit d’organisations incluant des utilisateurs de TeamsOnly et/ou des utilisateurs de Skype entreprise online. | Si vous utilisez le centre d’administration teams : <br>-Assurez-vous que **les utilisateurs peuvent communiquer avec des utilisateurs de Skype** sont activés pour l’accès externe.<br><br>Si vous utilisez PowerShell : <br>-Vérifiez que le client est activé pour la Fédération : `Get-CsTenantFederationConfiguration` doit afficher `AllowPublicUsers=true` . <br> -Assurez-vous que la valeur effective de l’utilisateur `CsExternalAccessPolicy` est a `EnablePublicCloudAccess=true` . |
-| Locale pure | Dans les outils locaux : <br> -Vérifiez que Skype est activé en tant que partenaire fédéré. <br> -Assurez-vous que `EnablePublicCloudAccess=true` l’utilisateur passe par le biais d' `ExternalAccessPolicy` une stratégie globale, d’une stratégie de site ou d’une stratégie attribuée par l’utilisateur.|
-| Hybride avec des utilisateurs en ligne (dans Skype entreprise ou Teams) et certains utilisateurs locaux.| Suivez les étapes ci-dessus pour les organisations en ligne et sur site.
+| Pure en ligne sans Skype Entreprise en local.  Cela inclut les organisations qui ont des utilisateurs de TeamsOnly et/ou des utilisateurs de Skype Entreprise Online. | Si vous utilisez le Centre d’administration Teams : <br>-Assurez-vous **que les utilisateurs peuvent communiquer avec les utilisateurs de Skype** est activé dans l’accès externe.<br><br>Si vous utilisez PowerShell : <br>-Vérifier que le client est activé pour la fédération : `Get-CsTenantFederationConfiguration` doit `AllowPublicUsers=true` afficher. <br> - Assurez-vous que l’utilisateur a une valeur `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` efficace. |
+| Pure en local | Dans les outils locaux : <br> - Assurez-vous que Skype est activé en tant que partenaire fédéré. <br> - Assurer pour `EnablePublicCloudAccess=true` l’utilisateur par le biais (via une stratégie globale, une stratégie de site ou une `ExternalAccessPolicy` stratégie attribuée à l’utilisateur).|
+| Hybride avec certains utilisateurs en ligne (dans Skype Entreprise ou Teams) et certains utilisateurs sur site.| Suivez les étapes ci-dessus pour les organisations en ligne et locales.
 
 
 > [!IMPORTANT]
-> Vous n’êtes pas obligé d’ajouter des **domaines Skype** comme domaines autorisés pour permettre aux utilisateurs Teams ou Skype Entreprise Online de communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation. Tous les **domaines Skype** sont des éléments approuvés, ce qui signifie que tous ces domaines sont considérés comme AUTORISÉS.
+> Vous n’êtes pas obligé d’ajouter des **domaines Skype** comme domaines autorisés pour permettre aux utilisateurs Teams ou Skype Entreprise Online de communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation. Tous **les domaines Skype** sont autorisés.
 
 ## <a name="how-does-external-access-compare-with-guest-access"></a>Qu’est-ce que l’accès externe par rapport à l’accès invité ?
 
