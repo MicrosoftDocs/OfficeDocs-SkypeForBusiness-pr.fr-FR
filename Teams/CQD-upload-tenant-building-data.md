@@ -21,14 +21,14 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment charger des données client et bâtiment dans le tableau de bord de qualité des appels.
-ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909348"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067139"
 ---
-# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Charger des données client et de bâtiment dans le tableau de bord de qualité des appels
+# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Charger des données client et bâtiment dans le tableau de bord de qualité des appels
 
 
 Pour obtenir le meilleur enseignement du tableau de bord de qualité des appels, nous vous recommandons de charger les données de votre client et de créer des données. Il existe 2 types de fichiers de données client ( [Bâtiment](#upload-building-data-file) et [Point de terminaison).](#endpoint-data-file)
@@ -61,7 +61,7 @@ Dans le tableau de bord des  rapports de synthèse du tableau de bord de qualit�
 
 ## <a name="upload-building-data-file"></a>Télécharger un fichier de données bâtiment
 
-Le premier type de fichier de données client du fichier de qualité des droits client est le **fichier de données** Bâtiment. La colonne Sous-réseau est dérivée en agrandissant la colonne Network+NetworkRange, puis en joignant la colonne Sous-réseau à la colonne First Subnet ou Second Subnet de l’enregistrement d’appel pour afficher les informations bâtiment, ville, pays ou région. Le format du fichier de données que vous téléchargez doit répondre aux critères suivants pour réussir la vérification de validation avant le téléchargement :
+Le premier type de fichier de données client du fichier de qualité des droits client est le **fichier de données** Bâtiment. La colonne Sous-réseau est dérivée d’un développement de la colonne Network+NetworkRange, puis de la jointation de la colonne Sous-réseau à la colonne First Subnet ou Second Subnet de l’enregistrement d’appel pour afficher les informations bâtiment, ville, pays ou région. Le format du fichier de données que vous téléchargez doit répondre aux critères suivants pour réussir la vérification de validation avant le téléchargement :
   
 - Le fichier doit être de fichier .tsv (les colonnes sont séparées par une tabulation) ou d’un fichier .csv (les colonnes sont séparées par une virgule).
 
@@ -70,6 +70,8 @@ Le premier type de fichier de données client du fichier de qualité des droits 
 - Les types de données dans le fichier peuvent uniquement être de type Chaîne, Integer ou Booléen. Pour ce type de données, la valeur doit être une valeur numérique. Les valeurs boolé européennes doivent être 0 ou 1.
 
 - Si une colonne utilise le type de données Chaîne, un champ de données peut être vide, mais doit tout de même être séparé par une tabulation ou une virgule. Un champ de données vide attribue simplement une valeur de chaîne vide.
+
+- Il existe une limite de 1 000 000 lignes étendues par fichier de données client.
 
 - Il doit y avoir 15 colonnes pour chaque ligne, chaque colonne doit avoir le type de données approprié et les colonnes doivent être dans l’ordre répertorié dans le tableau suivant (délimité par des virgules ou des tabulations) :
 
@@ -106,7 +108,7 @@ Le premier type de fichier de données client du fichier de qualité des droits 
 > [!IMPORTANT]
 > La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez précédemment téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le charger à nouveau pour identifier les chevauchements et résoudre le problème avant de le charger à nouveau. Tout chevauchement dans les fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports. Certaines implémentations VPN n’indiquent pas précisément les informations sur le sous-réseau. 
 >
-> La colonne VPN est facultative et utilise la valeur 0 par défaut. Si la valeur de la colonne VPN est définie sur 1, le sous-réseau représenté par cette ligne sera entièrement développé pour correspondre à toutes les adresses IP au sein du sous-réseau.  Utilisez-la avec parcimonie et uniquement pour les sous-réseaux VPN, car le développement complet de ces sous-réseaux aura un impact négatif sur les temps de requête pour les requêtes impliquant la création de données.
+> La colonne VPN est facultative et utilise la valeur 0 par défaut. Si la valeur de la colonne VPN est définie sur 1, le sous-réseau représenté par cette ligne sera entièrement développé pour correspondre à toutes les adresses IP au sein du sous-réseau. Utilisez-la avec parcimonie et uniquement pour les sous-réseaux VPN, car le développement complet de ces sous-réseaux aura un impact négatif sur les temps de requête pour les requêtes impliquant la création de données. Si l’extension du sous-réseau entraîne un dépassement de la limite de ligne d’extension de 1 000 000 fichiers, le fichier de bâtiment n’est pas accepté.
 
 
 ### <a name="supernetting"></a>Supernetting
@@ -129,7 +131,7 @@ Voici quelques éléments à prendre en compte avant d’implémenter la superne
 
 -   La supernetisation ne peut être utilisée que dans un mappage de sous-réseau avec un masque 8 bits à 28 bits.
 
--   L’utilisation de la supernetting prend moins de temps au premier plan, mais elle a pour effet de réduire la richesse de vos données. Supposons qu’un problème de qualité se soit produit au niveau du sous-réseau 10.1.2.0. Si vous avez implémenté la supernetting, vous ne savez pas où se trouve le sous-réseau ou quel type de réseau il s’agit (par exemple, un laboratoire). Si vous avez défini tous les sous-réseaux pour un bâtiment et des informations d’emplacement d’étage chargés, vous pourrez voir cette distinction.
+-   L’utilisation de la supernetting prend moins de temps au premier plan, mais elle a pour effet de réduire la richesse de vos données. Supposons qu’il y a un problème de qualité impliquant le sous-réseau 10.1.2.0. Si vous avez implémenté la supernetting, vous ne savez pas où se trouve le sous-réseau ou quel type de réseau il s’agit (par exemple, un laboratoire). Si vous avez défini tous les sous-réseaux pour un bâtiment et des informations d’emplacement d’étage chargés, vous pourrez voir cette distinction.
 
 -   Il est important de s’assurer que l’adresse supernette est correcte et n’attire pas les sous-réseaux indésirables.
 
@@ -140,7 +142,7 @@ Voici quelques éléments à prendre en compte avant d’implémenter la superne
 
 ### <a name="vpn"></a>VPN
 
-Les données de qualité de l’expérience (QoE) que les clients envoient à Microsoft 365 ou Office 365, d’où viennent les données du CQD, incluent un indicateur VPN. Celui-ci s’agit des dimensions First VPN et Second VPN. Toutefois, cet indicateur s’appuie sur les rapports des fournisseurs VPN auprès de Windows, que la carte réseau VPN enregistrée est une carte d’accès à distance. Tous les fournisseurs VPN n’enregistrent pas correctement les cartes d’accès à distance. De ce fait, vous ne pourrez peut-être pas utiliser les filtres de requête VPN intégrés. Utilisez la colonne VPN évoquée ci-dessus pour marquer et identifier précisément les sous-réseaux VPN. Il est également pratique d’étiqueter vos réseaux VPN pour faciliter l’identification dans vos rapports. Voici deux exemples d’étiquetage de vos sous-réseaux VPN :
+Les données de qualité de l’expérience (QoE) que les clients envoient à Microsoft 365 ou Office 365, d’où viennent les données du CQD, incluent un indicateur VPN. Ce dernier s’agit des dimensions First VPN et Second VPN. Toutefois, cet indicateur s’appuie sur les rapports des fournisseurs VPN auprès de Windows, qui ont signalé que la carte réseau VPN enregistrée est une carte d’accès à distance. Tous les fournisseurs VPN n’enregistrent pas correctement les cartes d’accès à distance. De ce fait, vous ne pourrez peut-être pas utiliser les filtres de requête VPN intégrés. Utilisez la colonne VPN évoquée ci-dessus pour marquer et identifier précisément les sous-réseaux VPN. Il est également pratique d’étiqueter vos réseaux VPN pour faciliter l’identification dans vos rapports. Voici deux exemples d’étiquetage de vos sous-réseaux VPN :
 
 - Définissez **un nom de réseau** en entrant « VPN » dans ce champ pour les sous-réseaux VPN.
 
@@ -155,7 +157,7 @@ Les données de qualité de l’expérience (QoE) que les clients envoient à Mi
 
 ## <a name="endpoint-data-file"></a>Fichier de données Point de terminaison
 
-L’autre type de fichier de données client du point de terminaison est celui du **point** de terminaison. Les valeurs de colonne sont utilisées dans la colonne First Client Endpoint Name ou Second Client Endpoint Name de l’enregistrement d’appel pour afficher les informations Marque de point de terminaison, Modèle ou Type de l’enregistrement d’appel. Le format du fichier de données que vous téléchargez doit répondre aux critères suivants pour réussir la vérification de validation avant le téléchargement :
+L’autre type de fichier de données client du CQD est le **fichier de données Point** de terminaison. Les valeurs de colonne sont utilisées dans la colonne First Client Endpoint Name ou Second Client Endpoint Name de l’enregistrement d’appel pour afficher les informations Marque de point de terminaison, Modèle ou Type de l’enregistrement d’appel. Le format du fichier de données que vous téléchargez doit répondre aux critères suivants pour réussir la vérification de validation avant le téléchargement :
 
 - Le fichier doit être de fichier .tsv (les colonnes sont séparées par une tabulation) ou d’un fichier .csv (les colonnes sont séparées par une virgule).
 
@@ -181,7 +183,7 @@ L’autre type de fichier de données client du point de terminaison est celui d
 
 ## <a name="update-a-building-file"></a>Mettre à jour un fichier de bâtiment
 
-Lors de la collecte des informations sur le bâtiment et le sous-réseau, les administrateurs téléchargent souvent le fichier de bâtiment dans plusieurs itérations au fil du temps, en ajoutant de nouveaux sous-réseaux et les informations de bâtiment lorsqu’elles deviennent disponibles. Lorsque cela se produit, vous devez télécharger à nouveau votre fichier de bâtiment. Ce processus est comme le téléchargement initial, comme décrit dans la section précédente, à quelques exceptions près, comme indiqué dans la section suivante.
+Lors de la collecte des informations sur le bâtiment et le sous-réseau, les administrateurs téléchargent souvent le fichier de bâtiment dans plusieurs itérations au fil du temps, en ajoutant de nouveaux sous-réseaux et les informations de bâtiment lorsqu’elles deviennent disponibles. Dans ce cas, vous devez charger à nouveau votre fichier de bâtiment. Ce processus est comme le téléchargement initial, comme décrit dans la section précédente, à quelques exceptions près, comme indiqué dans la section suivante.
 
 > [!Important]
 > Un seul fichier de bâtiment peut être actif à la fois. Plusieurs fichiers de construction ne sont pas cumulés.
@@ -222,7 +224,7 @@ Une fois les informations de bâtiment téléchargées pour les réseaux gérés
 > N’oubliez pas d’ajuster le filtre du rapport Month Year au mois en cours. Sélectionnez Modifier, puis ajustez le **filtre du rapport Month Year** pour enregistrer le nouveau mois par défaut. 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Créer une carte de bâtiment pour le CQD](CQD-building-mapping.md)
 
