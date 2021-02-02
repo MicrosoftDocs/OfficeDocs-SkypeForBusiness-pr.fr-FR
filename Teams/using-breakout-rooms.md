@@ -35,7 +35,7 @@ Procédez comme suit pour créer une salle pour petits groupes une fois la réun
     - **Automatiquement** : Teams divise les participants de façon égale entre les salles.
     - **Manuellement** : vous pouvez choisir la salle dans laquelle chaque participant est placé.
 
-4. Sélectionnez **Créer une salle**. Le volet de salle pour petits groupes s’ouvre.
+4. Sélectionnez **Créer des salles**. Le volet de salle pour petits groupes s’ouvre.
 
 ## <a name="start-breakout-rooms"></a>Démarrer les salles pour petits groupes
 
