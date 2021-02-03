@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégies dans Microsoft Teams pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
-ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
+ms.openlocfilehash: 395b0f2c05278224bf024c1cf3e453a2f51bd725
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49862585"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50085182"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft Teams
 
@@ -64,8 +64,8 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Éducation (enseignant)    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux enseignants.      |
 |Éducation (enseignant du primaire utilisant l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux enseignants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
 |Éducation (étudiant du primaire à l’aide de l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux étudiants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
-|Gestionnaire en ligne |Crée un ensemble de stratégies et applique ces paramètres aux responsables Fronttline de votre organisation. |
-|Employé de fronttline |Crée un ensemble de stratégies et applique ces paramètres aux employés de fronttline de votre organisation. |
+|Gestionnaire en ligne |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation. |
+|Employé en ligne |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation. |
 |Travailleur clinique de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs cliniques, comme des infirmières inscrites, des infirmières et des travailleurs sociaux un accès complet aux discussions, aux appels, à la gestion des shifts et aux réunions. |
 |Travailleur de l’information sur les soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui donnent aux travailleurs de l’information, tels que le personnel de l’information, le personnel en informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui s’appliquent aux salles des patients de votre organisation de soins de santé.|
@@ -74,7 +74,7 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
 
 > [!NOTE]
-> Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Consultez à nouveau les informations les plus à jour.  
+> Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Vérifiez donc à nouveau si vous avez besoin des informations les plus à jour.  
 
 Le nom du package de stratégies est donné à chaque stratégie individuelle, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
@@ -102,9 +102,9 @@ L’exemple suivant explique comment utiliser des packages de stratégie dans vo
 
 ![Vue d’ensemble de l’utilisation des packages de stratégie](media/manage-policy-packages-overview.png)
 
-- **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant d’affecter le package. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
+- **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant de l’affecter. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
 
-    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous affectez le package de stratégie.
+    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous attribuez le package de stratégie.
 
 - **[Personnaliser](#customize-policies-in-a-policy-package)**: personnalisez les paramètres des stratégies dans le package de stratégies pour répondre aux besoins de votre organisation.
 
@@ -165,7 +165,7 @@ Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des u
 
 Cela peut se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées correctement. Réattribuez le package de stratégie à vos utilisateurs. Une nouvelle tentative d’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
 
