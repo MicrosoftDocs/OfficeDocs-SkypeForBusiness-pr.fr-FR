@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7570368a6b9bd889bc5ed632cd1d057d70ae791a
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986423"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067119"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights
 Plus [Education Insights](class-insights.md) reçoit de données, plus les enseignants peuvent aider leurs élèves, et plus les responsables de l’éducation peuvent aider les enseignants.
@@ -37,7 +37,7 @@ Insights fonctionne parfaitement avec le [format de fichier SDS V2](https://docs
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Différences entre les formats de fichier SDS V1 et V2
 
-| Type de données |   V1 | V2 (recommandé) |
+| Type de données |   V1 | V2 (recommandé pour les nouveaux clients) |
 |:--- |:--- |:--- |
 | **Utilisateurs** | Le format V1 inclut **uniquement les enseignants**. Par conséquent, pour définir des autorisations au niveau de l’organisation pour vos responsables de l’éducation, vous devez les rechercher, puis définir manuellement les autorisations de chacun d’entre eux. | Le format V2 inclut **tous les rôles**, si bien que vous pouvez attribuer des autorisations basées sur les rôles. |
 | **Organisations** | Le format V1 inclut uniquement **les établissements d’enseignement**, si bien qu’un seul niveau d’agrégation apparaît (tous vos établissements d’). Vous pouvez zoomer sur un établissement à l’aide d’une liste plate. Cependant, cette liste peut comporter un grand nombre ou différents types d’établissements d’enseignement difficiles à comparer (par exemple, l’école primaire et l’école secondaire ou les écoles de sciences et les écoles de lettres).<br/><br/> Lorsqu’une hiérarchie est en place, vous pouvez créer des niveaux qui ont du sens, tels qu’un département des sciences ou des lettres.| Le format V2 contient **la hiérarchie complète de votre secteur ou de votre établissement**, notamment les universités, les établissements d’enseignement supérieur, les facultés, les campus, les régions, les programmes, etc.<br/><br/> Les hiérarchies vous permettent d’afficher le regroupement pertinent selon chaque niveau de la hiérarchie, de comparer rapidement les unités d’organisation à chaque niveau, d’attribuer des autorisations à des niveaux spécifiques, de définir des objectifs par niveau d’organisation, etc.|
@@ -112,7 +112,9 @@ Si l’option *Synchroniser les données organisationnelles à partir de SDS (pr
 ### <a name="deploy-sds"></a>Déployer la SDS
 **Si vous utilisez déjà la SDS**, nous vous recommandons de suivre nos [meilleures pratiques](#best-practices). 
 
-Pour synchroniser vos profils actuels avec Insights, accédez à vos **profils de synchronisation**, cliquez sur **Modifier**, puis sélectionnez **Synchroniser les données organisationnelles à partir de SDS**. Pour la synchronisation initiale, nous vous recommandons d’attendre pendant 24 heures la mise à disposition des rapports soient disponibles une fois les données actualisées depuis votre SIE.  
+Pour synchroniser vos profils actuels avec Insights, allez dans vos **Profil de synchronisation**, cliquez sur **Modifier**, puis sélectionnez **Synchroniser aux Insights**. Pour la synchronisation initiale, nous vous recommandons d’attendre pendant 24 heures la mise à disposition des rapports soient disponibles une fois les données actualisées depuis votre SIE.  
+
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text="Profil de synchronisation avec Insights (boutons à bascule)":::
 
 **Si vous n’utilisez pas encore la SDS**, vous devez à présent [la déployer](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync).
 
@@ -122,7 +124,7 @@ Pendant le processus de déploiement, vous pouvez décider d’utiliser SDS pour
 > Si nous sommes au milieu de l’année et si vous avez déjà créé des équipes manuellement, utilisez la SDS uniquement pour fournir les données à Insights. L’année suivante, nous vous recommandons d’utiliser SDS également pour la configuration des comptes des utilisateurs et des classes dans Teams.
 
 ### <a name="verify-the-sync-process"></a>Vérifier le processus de synchronisation
-Une nouvelle zone d’état apparaît en regard de l’option Synchroniser les données organisationnelles à partir de SDS (préversion) dans la page Paramètres.
+Une nouvelle zone d’état s’affiche en côté des données de l’organisation de synchronisation à partir de SDS (préversion) sur la page Paramètres.
  
 *   Si l’état est **En cours**, patientez jusqu’à 24 heures après le déploiement du profil SDS.
 
