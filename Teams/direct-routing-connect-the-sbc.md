@@ -15,57 +15,57 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Apprenez à configurer et connecter votre SBC au routage direct du système téléphonique.
-ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+description: Découvrez comment configurer et connecter votre SBC au routage direct du système téléphonique.
+ms.openlocfilehash: e20ab921e8f01d8beea15f0b1dd8a50e229f4e91
+ms.sourcegitcommit: 5c33ca450a3215b9bf3c5da8bb3c9ef1a715a1a2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077619"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099444"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connecter votre contrôleur de bordure de session (SBC) au routage direct
 
-Cet article décrit la configuration d’un contrôleur de bordure de session (SBC) et la connexion au routage direct du système téléphonique.  Pour configurer le routage direct, vous devez procéder comme suit :
+Cet article explique comment configurer un contrôleur de session border Controller (SBC) et le connecter au routage direct du système téléphonique.  Voici l’étape 1 des étapes suivantes pour configurer le routage direct :
 
-- **Étape 1. Connectez votre SBC avec votre système téléphonique et validez la connexion** (cet article)
-- Étape 2. [Activer les utilisateurs pour le routage direct](direct-routing-enable-users.md)
+- **Étape 1. Connectez votre SBC au système téléphonique et validez la connexion** (cet article)
+- Étape 2. [Activer le routage direct pour les utilisateurs](direct-routing-enable-users.md)
 - Étape 3. [Configurer le routage des appels](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
 
-Pour plus d’informations sur la procédure à suivre pour configurer le routage direct, voir [configurer le routage direct](direct-routing-configure.md).
+Pour plus d’informations sur la procédure de configuration du routage direct, voir [Configurer le routage direct.](direct-routing-configure.md)
 
-Vous pouvez utiliser le [Centre d’administration Microsoft teams](#using-the-microsoft-teams-admin-center) ou [PowerShell](#using-powershell) pour configurer et connecter un SBC pour le routage direct.
+Vous pouvez utiliser le Centre [d’administration Microsoft Teams](#using-the-microsoft-teams-admin-center) ou [PowerShell](#using-powershell) pour configurer et connecter un SBC au routage direct.
 
-## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le volet de navigation de gauche **Voice**, sélectionnez  >  **routage direct**de la voix, puis cliquez sur l’onglet **SBCS** .
+1. Dans le groupe de navigation de gauche, cliquez sur **l’onglet**  >   **SBCs.**
 2. Cliquez sur **Ajouter**.
-3. Entrez un nom de domaine complet pour l’SBC. <br><br>Assurez-vous que la partie Domain Name du nom de domaine complet correspond à un domaine inscrit dans votre client et gardez à l’esprit que le `*.onmicrosoft.com` nom de domaine n’est pas pris en charge pour le nom de domaine de nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine `contoso.com` et `contoso.onmicrosoft.com` que vous utilisez `sbc.contoso.com` le nom SBC.
-4. Configurez les paramètres suivants pour SBC, en fonction des besoins de votre organisation. Pour plus d’informations sur chacun de ces paramètres, voir [paramètres de SBC](#sbc-settings).
+3. Entrez un FQDN pour le SBC. <br><br>Assurez-vous que la partie nom de domaine du nom de domaine complet correspond à un domaine enregistré dans votre client et gardez à l’esprit que le nom de domaine n’est pas pris en charge pour le nom de domaine `*.onmicrosoft.com` FQDN SBC. Par exemple, si vous avez deux noms de domaine et `contoso.com` `contoso.onmicrosoft.com` , utilisez-le `sbc.contoso.com` comme nom SBC. Si vous utilisez un sous-domaine, assurez-vous que ce sous-domaine est également enregistré dans votre client. Par exemple, si vous voulez l’utiliser, `sbc.service.contoso.com` vous devez être `service.contoso.com` inscrit.
+4. Configurez les paramètres suivants pour le SBC, en fonction des besoins de votre organisation. Pour plus d’informations sur chacun de ces paramètres, voir [les paramètres SBC.](#sbc-settings)
 
-    ![Capture d’écran de la page Ajouter un SBC dans le centre d’administration Microsoft teams](media/direct-routing-add-sbc.png)
+    ![Capture d’écran de l’ajout d’une page SBC dans le Centre d’administration Microsoft Teams](media/direct-routing-add-sbc.png)
 
 5. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
-Pour connecter votre SBC au routage direct, vous devez effectuer les opérations suivantes :
+Pour connecter votre SBC au routage direct, vous devez :
 
-1. [Connectez-vous à Skype entreprise Online à l’aide de PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
-2. [Connectez l’SBC au client](#connect-the-sbc-to-the-tenant).
-3. [Vérifiez la connexion de l’SBC](#verify-the-sbc-connection).
+1. [Connectez-vous à Skype Entreprise Online à l’aide de PowerShell.](#connect-to-skype-for-business-online-by-using-powershell)
+2. [Connectez le SBC au client.](#connect-the-sbc-to-the-tenant)
+3. [Vérifiez la connexion SBC.](#verify-the-sbc-connection)
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Se connecter à Skype entreprise Online à l’aide de PowerShell
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Se connecter à Skype Entreprise Online à l’aide de PowerShell
 
-Vous pouvez utiliser une session PowerShell connectée au client pour jumeler l’interface SBC à l’interface de routage directe. Pour ouvrir une session PowerShell, suivez les étapes décrites dans [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Vous pouvez utiliser une session PowerShell connectée au client pour associer le SBC à l’interface de routage direct. Pour ouvrir une session PowerShell, suivez les étapes décrites dans [configurer votre ordinateur pour Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
  
-Après avoir établi une session PowerShell distante, vérifiez que vous pouvez voir les commandes pour gérer l’SBC. Pour vérifier les commandes, tapez ou copiez-collez la commande suivante dans la session PowerShell, puis appuyez sur entrée : 
+Après avoir établi une session PowerShell distante, vérifiez que vous pouvez voir les commandes pour gérer le SBC. Pour vérifier les commandes, tapez ou copiez-collez la commande suivante dans la session PowerShell, puis appuyez sur Entrée : 
 
 ```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
-La commande renvoie les quatre fonctions indiquées ici pour vous permettre de gérer l’SBC.
+La commande renvoie les quatre fonctions affichées ici pour vous aider à gérer le SBC.
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -76,18 +76,18 @@ Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>
 
-### <a name="connect-the-sbc-to-the-tenant"></a>Connecter l’SBC au client
+### <a name="connect-the-sbc-to-the-tenant"></a>Connecter le SBC au client
 
-Utilisez l’applet de nouvelle applet de [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) pour connecter l’SBC au client. Dans une session PowerShell, tapez ce qui suit, puis appuyez sur entrée :
+Utilisez la [cmdlet New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) pour connecter le SBC au client. Dans une session PowerShell, tapez ce qui suit, puis appuyez sur Entrée :
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
 ```
 
   > [!NOTE]
-  > 1. Nous vous recommandons de définir une limite d’appels maximale dans l’SBC à l’aide d’informations qui figurent dans la documentation SBC. La limite déclenche une notification si l’SBC a le niveau de capacité.
-  > 2. Vous pouvez uniquement connecter l’SBC si la partie Domain de son nom de domaine complet correspond à l’un des domaines inscrits dans votre client, à l’exception de \* . onmicrosoft.com. L’utilisation \* des noms de domaine. onmicrosoft.com n’est pas prise en charge pour le nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine, **contoso**. com et **contoso**. onmicrosoft.com, vous pouvez utiliser SBC. contoso. con pour le nom SBC. Si vous tentez de vous connecter à l’SBC avec un nom tel que SBC. contoso. ABC, le système ne vous permet pas, car le domaine n’est pas détenu par ce client.<br/>
-  > Outre le domaine enregistré dans votre client, il est important de disposer d’un utilisateur avec ce domaine et d’une licence E3 ou E5 affectée. Si ce n’est pas le cas, vous recevez le message d’erreur suivant :<br/>
+  > 1. Nous vous recommandons de définir une limite d’appels maximale dans le SBC à l’aide des informations disponibles dans la documentation SBC. La limite déclenchera une notification si le SBC est au niveau de capacité.
+  > 2. Vous ne pouvez connecter le SBC que si la partie domaine de son nom de domaine (FQDN) correspond à l’un des domaines enregistrés dans votre client, à l’exception de \* .onmicrosoft.com. L’utilisation de onmicrosoft.com noms de domaine n’est pas prise en charge pour le nom de domaine \* complet SBC. Par exemple, si vous avez deux noms de domaine, **contoso**.com et **contoso**.onmicrosoft.com, vous pouvez utiliser sbc.contoso.con pour le nom SBC. Si vous essayez de connecter le code SBC avec un nom tel que sbc.contoso.abc, le système ne vous le permet pas, car le domaine n’est pas propriétaire de ce client.<br/>
+  > Outre le domaine enregistré dans votre client, il est important qu’un utilisateur soit affecté à ce domaine et à une licence E3 ou E5. Si ce n’est pas le cas, le message d’erreur suivant s’agit :<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
 Voici un exemple :
@@ -96,7 +96,7 @@ Voici un exemple :
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 
-Qui renvoie :
+Ce qui renvoie :
 
 <pre>
 Identity              : sbc.contoso.com 
@@ -111,26 +111,26 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> Cet exemple montre uniquement les paramètres obligatoires minimum. D’autres paramètres peuvent être définis à l’aide de l’applet [de nouvelle-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) au cours du processus de connexion. Pour en savoir plus, voir [paramètres de SBC](#sbc-settings).
+> Cet exemple montre uniquement les paramètres minimum requis. Vous pouvez définir d’autres paramètres avec la cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) pendant le processus de connexion. Pour en savoir plus, consultez [les paramètres SBC.](#sbc-settings)
  
-### <a name="verify-the-sbc-connection"></a>Vérifier la connexion au SBC
+### <a name="verify-the-sbc-connection"></a>Vérifier la connexion SBC
 
-Pour vérifier la connexion :
+Pour vérifier la connexion :
 
-- [Vérifiez si la SBC est sur la liste de SBCS couplés](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs).
-- [Valider les options SIP](#validate-sip-options).
+- [Vérifiez si le SBC figure dans la liste des SBC couplés.](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs)
+- [Valider les options SIP.](#validate-sip-options)
  
-#### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>Vérifier si la SBC est sur la liste de SBCs couplés
+#### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>Vérifier si le SBC figure dans la liste des SBC couplés
 
-Une fois que vous avez connecté la SBC, utilisez l’applet de connexion [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) pour vérifier que l’SBC est présent dans la liste de SBCS couplés. Tapez la commande suivante dans une session PowerShell distante, puis appuyez sur entrée :
+Après avoir connecté le SBC, utilisez l’cmdlet [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) pour vérifier qu’il figure dans la liste des SBC couplés. Tapez ce qui suit dans une session Remote PowerShell, puis appuyez sur Entrée :
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 
-La passerelle couplée doit apparaître dans la liste, comme illustré dans l’exemple ci-dessous, et le paramètre **Enabled** doit afficher la valeur **true**.
+La passerelle couplée doit apparaître dans la liste,  comme illustré dans l’exemple ci-dessous, et le paramètre Activé doit afficher la valeur **Vrai.**
 
-Qui renvoie :
+Ce qui renvoie :
 
 <pre>
 Identity              : sbc.contoso.com  
@@ -148,31 +148,31 @@ Enabled               : True
 
 #### <a name="validate-sip-options"></a>Valider les options SIP
 
-Pour valider le jumelage à l’aide des options SIP sortants, utilisez l’interface de gestion des SBC et confirmez que l’SBC reçoit les réponses 200 OK à ses messages d’OPTIONS sortants.
+Pour valider le coupage à l’aide des options SIP sortantes, utilisez l’interface de gestion SBC et confirmez que SBC reçoit 200 réponses OK pour ses messages d’OPTIONS sortants.
 
-Lorsque le routage direct voit les OPTIONS entrantes, il commence à envoyer des messages d’options SIP sortants au nom de domaine complet SBC configuré dans le champ d’en-tête de contact du message OPTIONS entrantes. 
+Lorsque le routage direct voit les options entrantes, il commence à envoyer des messages d’options SIP sortantes vers le FQDN SBC configuré dans le champ d’en-tête Contact du message options entrantes. 
 
-Pour valider le jumelage à l’aide des options SIP entrantes, utilisez l’interface de gestion des SBC et voyez que l’SBC envoie une réponse aux messages d’OPTIONS provenant du routage direct et que le code de réponse qu’il envoie est 200 OK.
+Pour valider le coupage à l’aide des options SIP entrantes, utilisez l’interface de gestion SBC et voyez que SBC envoie une réponse aux messages OPTIONS provenant du routage direct et que le code de réponse envoyé est 200 OK.
 
-## <a name="sbc-settings"></a>Paramètres de SBC
+## <a name="sbc-settings"></a>Paramètres SBC
 
-Le tableau suivant répertorie les options que vous pouvez définir pour l’SBC dans le centre d’administration Microsoft teams et à l’aide de la cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) .
+Ce tableau répertorie les options que vous pouvez définir pour le SBC dans le Centre d’administration Microsoft Teams et à l’aide de la cmdlet [New-CsOnlinePSTNGateway.](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
 
-|Obligatoire?|Paramètre du centre d’administration Microsoft teams|Paramètre PowerShell|Description|Par défaut|Valeurs possibles|Type et restrictions|
+|Obligatoire?|Paramètre du Centre d’administration Microsoft Teams|Paramètre PowerShell|Description|Par défaut|Valeurs possibles|Type et restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Oui|**Ajouter un nom de domaine complet pour l’SBC**|FQDN |Aucun|Nom de domaine complet, limite de 63 caractères|, Voir la liste des caractères autorisés et interdits sur [les conventions d’appellation dans Active Directory pour les ordinateurs, domaines, sites et UO](https://support.microsoft.com/help/909264) .|
-|Non|**Activé**|Activé|Permet d’activer l’SBC pour les appels sortants. Vous pouvez utiliser cette opération pour supprimer temporairement l’SBC du service lors de sa mise à jour ou de sa maintenance. |False|Vrai<br/>False|Boolean|
-|Oui|**Port de signalisation SIP**|SipSignalingPort |Il s’agit du port d’écoute utilisé pour communiquer avec le routage direct via le protocole TLS (Transport Layer).|Aucun|Tout port|entre 0 et 65535 |
-|Non|**Envoyer les options SIP**|SendSIPOptions |Définit si les SBC envoient des messages d’options SIP. Nous vous recommandons vivement d’activer ce paramètre. Lorsque ce paramètre est désactivé, l’SBC est exclu du système de surveillance et d’alerte.|Vrai|Vrai<br/>False|Boolean|
-|Non|**Transférer l’historique des appels**|ForwardCallHistory |Indique si les informations de l’historique des appels sont transmises via le Trunk. Lorsque vous activez cette fonction, le proxy Microsoft 365 ou Office 365 envoie un en-tête de rapport historique et de référence. |False|Vrai<br/>False|Boolean|
-|Non|**Forward P-assertion-Identity (PAI) en-tête**|ForwardPAI|Indique si l’en-tête PAI est transmis en même temps que l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si ce paramètre est activé, l’en-tête de confidentialité : ID est également envoyé.|False|Vrai<br/>False|Boolean|
-|Non|**Capacité d’appel simultanée**|MaxConcurrentSessions |Lorsque vous définissez une valeur, le système d’alerte vous avertit lorsque le nombre de sessions simultanées est de 90% ou une valeur supérieure à celle-ci. Si vous ne définissez pas de valeur, les alertes ne sont pas générées. Toutefois, le système de surveillance rapportera le nombre de sessions simultanées toutes les 24 heures. |Valeur|Valeur<br/>1 à 100 000 ||
-|Non|**Code de réponse de basculement**|FailoverResponseCodes<br>|Si le routage direct reçoit tout code d’erreur SIP 4xx ou 6xx en réponse à une invitation sortante, l’appel est considéré comme complet par défaut. Sortant désigne un appel d’un client teams vers le RTC avec le flux de trafic : client teams-> le routage direct-> le réseau de téléphonie de l’SBC->). Lorsque vous spécifiez un code de réponse de basculement, cela force le routage direct à essayer un autre SBC (si un autre SBC existe dans la stratégie de routage vocale de l’utilisateur) lorsqu’il reçoit les codes spécifiés si la SBC ne peut pas faire un appel en raison de problèmes réseau ou d’autres problèmes. Pour en savoir plus, voir [basculement de codes SIP spécifiques reçus du contrôleur de bordure de session (SBC)](direct-routing-trunk-failover-on-outbound-call.md).|408, 503, 504||Ent|
-|Non|**Temps de basculement (secondes)**|FailoverTimeSeconds |Lorsque vous définissez une valeur, les appels sortants qui ne sont pas traités par la passerelle au cours de la période que vous définissez sont routés vers le Trunk disponible suivant. S’il n’y a pas de lignes supplémentaires, l’appel est automatiquement interrompu. La valeur par défaut est 10 secondes. Dans une organisation avec des réseaux lents et des réponses par passerelle, il est possible que les appels soient interrompus de façon inobligatoire.|0,10|Numéro|Ent|
-|Non|**Pays ou région préférés pour le trafic multimédia**|MediaRelayRoutingLocationOverride |Permet de définir manuellement votre pays ou région préféré pour le trafic multimédia. Nous vous recommandons de définir cette valeur uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de fichiers pour le chemin multimédia n’utilise pas le chemin le plus proche du centre de médias SBC. Par défaut, le routage direct attribue un centre de distribution en fonction de l’adresse IP publique de l’SBC et sélectionne toujours le chemin le plus proche du centre de distribution SBC. Toutefois, dans certains cas, le chemin d’accès par défaut ne sera peut-être pas le chemin optimal. Ce paramètre vous permet de définir manuellement la région préférée pour le trafic multimédia. |Aucun|Codes de pays au format ISO||
-|Non|**Le SBC prend en charge PIDF/LO pour les appels d’urgence**|PidfloSupported|Spécifiez si l’SBC prend en charge l’objet d’emplacement du format de données de présence (PIDF/min) pour les appels d’urgence.||||
-|Non|**Sonnerie du téléphone lors du recherche de l’utilisateur**|GenerateRingingWhileLocatingUser|Définissez si un signal audio est lu pour l’appelant pour indiquer que les équipes sont dans le processus de création de l’appel. Ce paramètre s’applique uniquement au routage direct en mode de contournement non multimédia. Parfois, les appels entrants des clients RTC aux équipes peuvent prendre plus de temps que prévu. Lorsque c’est le cas, l’appelant n’entend rien, le client Teams ne sonne pas et l’appel peut être annulé par certains fournisseurs de télécommunications. Ce paramètre permet d’éviter les silences inattendus qui peuvent se produire dans les cas suivants.|Vrai|Vrai<br/>False|Boolean|
-|Non| - |MediaBypass|Ce paramètre indique si l’SBC prend en charge la dérivation multimédia et si vous voulez l’utiliser pour cet élément SBC. |Aucun|Vrai<br/>False|Boolean|
+|Oui|**Ajouter un FQDN pour le SBC**|FQDN |Aucun|Nom de nom de domaine complet, limite 63 caractères|String, consultez la liste des caractères autorisés et non autorisés dans les conventions d’attribution de noms dans Active Directory pour les [ordinateurs,](https://support.microsoft.com/help/909264) les domaines, les sites et les utils.|
+|Non|**Activé**|Activé|Utilisez cette fonction pour activer le SBC pour les appels sortants. Vous pouvez l’utiliser pour supprimer temporairement le SBC du service pendant la mise à jour ou pendant la maintenance. |False|Vrai<br/>False|Boolean|
+|Oui|**Port de signalisation SIP**|SipSignalingPort |Il s’agit du port d’écoute utilisé pour communiquer avec le routage direct à l’aide du protocole TLS (Transport Layer).|Aucun|N’importe quel port|De 0 à 65 535 |
+|Non|**Envoyer les options SIP**|SendSIPOptions |Définit si le SBC envoie les messages d’options SIP. Il est vivement recommandé d’activer ce paramètre. Lorsque ce paramètre est éteint, le SBC est exclu du système de surveillance et d’alerte.|Vrai|Vrai<br/>False|Boolean|
+|Non|**Historique des appels de avance**|ForwardCallHistory |Indique si les informations de l’historique des appels sont transmis via la ligne. Lorsque vous l’activer, le proxy Microsoft 365 ou Office 365 envoie un en-tête Historique et référent par référence. |False|Vrai<br/>False|Boolean|
+|Non|**En-tête Forward P-Ed-Identity (NT)**|ForwardPAI|Indique si l’en-têteS est transmis en même temps que l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si ce paramètre est sous, l’en-tête Privacy:ID est également envoyé.|False|Vrai<br/>False|Boolean|
+|Non|**Capacité des appels simultanés**|MaxConcurrentSessions |Lorsque vous définissez une valeur, le système d’alerte vous avertit lorsque le nombre de sessions simultanées est supérieur ou de 90 % à cette valeur. Si vous ne définissez pas de valeur, les alertes ne sont pas générées. Toutefois, le système de surveillance signale le nombre de sessions simultanées toutes les 24 heures. |Null|Null<br/>De 1 à 100 000 ||
+|Non|**Codes de réponse deover**|FailoverResponseCodes<br>|Si le routage direct reçoit un code d’erreur 4xx ou 6xx SIP en réponse à une invitation sortante, l’appel est considéré comme terminé par défaut. Sortant signifie un appel d’un client Teams vers le réseau PSTN avec flux de trafic : client Teams -> Routage direct -> SBC -> réseau téléphonique). Lorsque vous spécifiez un code de réponse deover, cela force direct Routing à essayer un autre SBC (si un autre SBC existe dans la stratégie de routage vocal de l’utilisateur) lorsqu’il reçoit les codes spécifiés si le SBC ne peut pas effectuer d’appel en raison de problèmes de réseau ou autres. Pour plus d’informations, voir [Failover de codes SIP spécifiques](direct-routing-trunk-failover-on-outbound-call.md)reçus du contrôleur de bordure de session (SBC).|408, 503, 504||Int|
+|Non|**Heures deover (secondes)**|FailoverTimeSeconds |Lorsque vous définissez une valeur, les appels sortants qui ne répondent pas à la passerelle dans le temps que vous définissez sont acheminés vers la ligne disponible suivante. S’il n’y a pas de ligne supplémentaire, l’appel est automatiquement supprimé. La valeur par défaut est 10 secondes. Dans une organisation qui a des réseaux lents et des réponses aux passerelles, cela peut potentiellement entraîner la chute inutile d’appels.|10|Numéro|Int|
+|Non|**Pays ou région préféré(s) pour le trafic de médias**|MediaRelayRoutingLocationOverride |Utilisez cette option pour définir manuellement le pays ou la région de votre choix pour le trafic de médias. Nous vous recommandons de définir cette option uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin de médias n’utilise pas le chemin le plus proche du centre de données SBC. Par défaut, le routage direct affecte un centre de données basé sur l’adresse IP publique du SBC et sélectionne toujours le chemin d’accès le plus proche du centre de données SBC. Toutefois, dans certains cas, le chemin d’accès par défaut peut ne pas être optimal. Ce paramètre vous permet de définir manuellement la région préférée pour le trafic de médias. |Aucun|Codes de pays au format ISO||
+|Non|**SBC prend en charge piDF/LO pour les appels d’urgence**|Pid pieSupported|Indiquez si le SBC prend en charge l’objet PIDF/LO (Presence Information Data Format Location Object) pour les appels d’urgence.||||
+|Non|**Faire sonner le téléphone lors d’une tentative de recherche de l’utilisateur**|GenerateRingingWhileLocatingUser|Indiquez si un signal audio est envoyé à l’appelant pour indiquer que Teams est en train d’établir l’appel. Ce paramètre s’applique uniquement au routage direct en mode de dérivation non multimédia. Parfois, les appels entrants du PSTN vers les clients Teams peuvent prendre plus de temps que prévu pour être établis. Dans ce cas, il se peut que l’appelant n’entende rien, que le client Teams ne sonne pas et que l’appel soit annulé par certains fournisseurs de télécommunications. Ce paramètre permet d’éviter les silences inattendus qui peuvent se produire dans ces scénarios.|Vrai|Vrai<br/>False|Boolean|
+|Non| - |MediaBypass|Ce paramètre indique si le SBC prend en charge la dérivation média et si vous souhaitez l’utiliser pour ce SBC. |Aucun|Vrai<br/>False|Boolean|
 
 ## <a name="see-also"></a>Voir aussi
 
