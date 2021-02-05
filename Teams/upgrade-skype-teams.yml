@@ -1,0 +1,131 @@
+### YamlMime:Hub
+title: Planifier la mise à niveau de Skype Entreprise vers Microsoft Teams
+summary: Microsoft Teams est conçu pour aider les personnes à rester connectés, à collaborer en toute transparence et à simplifier leur travail de façon sécurisée et conforme, le tout dans un seul et même endroit. Vous y trouverez des conseils, des formations et des ressources pour implémenter une mise à niveau réussie de Skype Entreprise vers Teams.
+brand: teams
+metadata:
+  title: Planifier la mise à niveau de Skype Entreprise vers Microsoft Teams
+  description: Microsoft Teams est conçu pour aider les personnes à rester connectés, à collaborer en toute transparence et à simplifier leur travail de façon sécurisée et conforme, le tout dans un seul et même endroit. Vous y trouverez des conseils, des formations et des ressources pour implémenter une mise à niveau réussie de Skype Entreprise vers Teams.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: SerdarSoysal
+  ms.author: samanro
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110370"
+highlightedContent:
+  items:
+  - title: Tirer parti de notre infrastructure de mise à niveau éprouvée
+    itemType: how-to-guide
+    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+  - title: S’inscrire à des ateliers de planification de mise à niveau gratuits
+    itemType: learn
+    url: https://aka.ms/upgradeworkshops
+  - title: Découvrez comment Black & Veatch est passé à Teams en huit semaines
+    itemType: video
+    url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
+productDirectory:
+  title: Ressources pour la planification d’une mise à niveau réussie de Teams et au-delà
+  summary: Un environnement technique sain, l’adoption par les utilisateurs durable et l’accomplissement de vos objectifs d’entreprise commencent tous par une planification appropriée.
+  items:
+  - title: Le voyage vers Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-enlist-stakeholders
+      text: 1. Inscription des parties prenantes du projet
+    - url: https://aka.ms/SkypetoTeams-Scope
+      text: 2. Définir l’étendue de votre projet
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment
+      text: 3. Préparer votre environnement pour la mise à niveau
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-organization
+      text: 4. Préparer votre organisation pour la mise à niveau
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-to-teams
+      text: 5. Implémenter votre mise à niveau
+    - url: https://docs.microsoft.com/microsoftteams/continue-journey
+      text: 6. Opérer, adopter, optimiser
+  - title: Articles sur la mise à niveau de Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
+      text: Royal DSM – Skype Entreprise Server to Teams
+    - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
+      text: PRINCIPAL – Skype Entreprise Server à Teams
+    - url: https://customers.microsoft.com/story/782385-williams-energy-teams
+      text: Williams – Skype Entreprise Server à Teams
+    - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
+      text: Skype Entreprise Online vers Teams
+    - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
+      text: Networkgis – Skype Entreprise Online pour Teams
+    - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
+      text: Berkrk Healthcare – Skype Entreprise Online pour Teams
+  - title: Ateliers en ligne pour obtenir le meilleur de Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    links:
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+      text: Alors... vous voulez effectuer des appels avec Teams
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+      text: Prise en charge de la qualité audio/vidéo dans Teams
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+      text: Principes de base des applications dans Teams
+    - url: https://aka.ms/ChalkTalkKeyApps
+      text: Charger des flux de travail clés avec des applications dans Teams
+  - title: 'Formation : mise à niveau vers Microsoft Teams'
+    imageSrc: media/upgrade-microsoft-teams.svg
+    summary: Découvrez comment mettre à niveau Skype Entreprise Online et Skype Entreprise en local vers Microsoft Teams.
+    url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
+  - title: Blog Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+    summary: Découvrez les meilleures pratiques, les actualités et les tendances directement de l’équipe derrière Microsoft Teams.
+    url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
+  - title: Impact économique total de Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
+    summary: Après avoir adopté Teams, vous pourz vous plonger dans le rapport Reporting Research qui quantifie les améliorations des performances des employés et de l’entreprise.
+    url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
+  - title: 'Ignite Session : concevoir votre chemin d’accès à Teams'
+    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+    summary: Cette session d’Ignite 2020 vous aide à trouver l’approche la plus adaptée à vos objectifs et implémentations Skype Entreprise.
+    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+  - title: Plans et tarifs Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
+    summary: Trouvez Microsoft Teams pour votre entreprise.
+    url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
+  - title: Kit de réussite de la mise à niveau
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+    summary: Téléchargez les documents de préparation des utilisateurs, notamment des modèles de communications, des enquêtes utilisateur et des exemples de plans de projet et de test pilote.
+    url: https://aka.ms/UpgradeSuccessKit
+additionalContent:
+  sections:
+  - items:
+    - title: Déclassement de Skype Entreprise Online
+      summary: Préparez le retrait du service Skype Entreprise Online du 31 juillet 2021 et découvrez comment planifier une transition réussie vers Teams.
+      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    - title: Présentez votre cours dans Teams
+      summary: Téléchargez cette infographie amusante et utile qui mème les étapes tout au long du voyage de mise à niveau de Teams.
+      url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
+    - title: Engage FastTrack pour obtenir une assistance au déploiement
+      summary: Lorsque des projets de déploiement De Teams nécessitent une assistance plus impliquée, les clients ayant des abonnements éligibles peuvent faire appel à FastTrack pour obtenir de l’aide.
+      url: https://www.microsoft.com/fasttrack
+    - title: Rechercher un partenaire Microsoft
+      summary: Vous avez besoin d’aide supplémentaire ? Les fournisseurs de solutions Microsoft peuvent vous aider à gérer les opérations techniques et logistiques de votre mise à niveau.
+      url: https://www.microsoft.com/solution-providers/home
+    - title: Documentation de l’administrateur teams
+      summary: Découvrez comment déployer et gérer Teams, et préparer vos utilisateurs pour de nouvelles expériences de communication et de collaboration.
+      url: https://docs.microsoft.com/MicrosoftTeams/
+    - title: Formation Teams dirigée par un instructeur
+      summary: Cours de formation en ligne gratuits et en direct conçus pour vous aider à être opérationnel avec Teams.
+      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
