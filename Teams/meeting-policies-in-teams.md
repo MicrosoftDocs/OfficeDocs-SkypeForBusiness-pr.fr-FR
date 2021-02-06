@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 67194f02c92bac390083e3ea3e983e7b8518e595
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918910"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125811"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
 
@@ -197,7 +197,7 @@ Notez que la transcription pour les réunions enregistrées est prise en charge 
 
 ### <a name="allow-cloud-recording"></a>Autoriser l’enregistrement dans le Cloud
 
-Cette stratégie est contrôlée par utilisateur. Ce paramètre contrôle si un utilisateur peut enregistrer. L’enregistrement peut être démarré par l’organisateur de la réunion ou un autre participant si son paramètre de stratégie spécifique est désactivé et s’il s’agit d’un utilisateur authentifié de la même organisation que l’organisateur.
+Cette stratégie est contrôlée par utilisateur. Ce paramètre contrôle si un utilisateur peut enregistrer. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant si son paramètre de stratégie spécifique est désactivé et s’il s’agit d’un utilisateur authentifié de la même organisation que l’organisateur.
 
 Les personnes extérieures à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent ni démarrer ni arrêter l’enregistrement.
 
@@ -211,7 +211,7 @@ Examinons l’exemple suivant.
 |Geneviève | Location1MeetingPolicy | Activé|
 |John (utilisateur externe) | Non applicable | Non applicable|
 
-Daniela, même si elle était l’organisateur ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions même celles organisées par Daniela. Si Contrôle organisait une réunion, elle pourra toutefois enregistrer cette réunion, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peut pas enregistrer cette réunion.
+Daniela, même si elle était l’organisateur ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions même celles organisées par Daniela. Si Tous deux organiseraient une réunion, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne pourra toutefois pas enregistrer cette réunion.
 
 Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
@@ -499,13 +499,17 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de mod
 
 Le paramètre **Qui peut présenter ?** permet aux organisateurs de réunions de choisir qui peuvent être présentateurs pendant une réunion. Pour plus d’informations, consulte [Modifier les paramètres des participants pour une réunion Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) et [Rôles dans une réunion Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
 Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’un des éléments suivants :
 
 - **EveryoneUserOverride**: tous les participants à la réunion peuvent être présentateurs. Ceci est la valeur par défaut. Ce paramètre correspond au paramètre **Tout le monde** dans Teams.
 - **EveryoneInCompanyUserOverride** : les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **Contacts dans mon organisation** dans Teams.
 - **OrganizerOnlyUserOverride** : seul l’organisateur de la réunion peut être présentateur et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **Uniquement moi** dans Teams.
+
+En outre, vous pouvez modifier cette stratégie dans le Centre d’administration Teams. 
+
+![Capture d’écran du Centre d’administration Teams](media/designated-presenter-role.png)
 
 Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de réunion peuvent toujours modifier ce paramètre dans Teams et choisir les personnes pouvant présenter les réunions qu’ils planifient.
 

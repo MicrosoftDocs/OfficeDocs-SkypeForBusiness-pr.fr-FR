@@ -1,5 +1,5 @@
 ---
-title: Expertise dans un environnement multi-géographiques Microsoft 365
+title: Expérience Teams dans un environnement Multi-Geo-enabled Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,22 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-description: Dans cet article, vous allez découvrir comment utiliser teams dans un environnement multi-géographiques Microsoft 365.
-ms.openlocfilehash: 1a1689d78f6ce4e35b2e632e4a46ff0ec23a0d15
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+description: Dans cet article, vous découvrirez comment utiliser Teams dans un environnement Microsoft 365 multigéogé.
+ms.openlocfilehash: 43abe221c6159e6dfed1705f5cbc4839c1ce57db
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757749"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122244"
 ---
-# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>Découverte d’équipes dans une location Microsoft 365 avec plusieurs géo-géographiques
+# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>Expérience Teams dans un client Microsoft 365 Multi-Geo-enabled
 
-Microsoft teams est un logiciel de discussion de groupe, concentrateur pour le travail en équipe dans Microsoft 365. Ce service est fourni par le service groupes Microsoft 365 avec SharePoint et OneDrive pour son utilisation des fichiers. Dans une organisation à plusieurs zones géographiques dans laquelle le locataire est étendu à de nombreux emplacements géographiques tels que l’Amérique du Nord, l’Europe et l’Australie, l’interface de fichiers sous-jacente est compatible avec la géolocalisation, de sorte que l’interface de partage de fichiers est également compatible avec plusieurs géo. Cela permet aux équipes de surfacer les fichiers hébergés sur plusieurs emplacements géographiques dans leur interface de fichiers natives.
+Microsoft Teams est un logiciel de conversation de groupe, qui est le hub pour le travail d’équipe dans Microsoft 365 et Office 365. Il est optimisé par le service Groupes Microsoft 365 ainsi que par SharePoint Online et OneDrive Entreprise pour son expérience des fichiers. Dans un client OneDrive Entreprise/SharePoint Online multigéogé, dans lequel le client est étendu à de nombreux emplacements géographiques tels que l’Amérique du Nord, l’Europe et l’Australie, l’expérience des fichiers sous-jacents est géographiquement multigéoyée, de sorte que l’expérience Teams en ce qui a lieu avec la collaboration de fichiers est également géographiquement multiple. Cette fonctionnalité est une fonctionnalité de pointe pour Teams pour surface des fichiers hébergés dans plusieurs régions géographiques dans son expérience de fichiers natifs. Cela inclut également les fichiers OneNote et Wiki.
 
-Par exemple, dans le cadre d’une location de contoso avec l’Europe comme un satellite de géo et d’Amérique du Nord au sein de la région centrale, un utilisateur de satellite européen verra ses fichiers OneDrive dans le volet gauche, même si les fichiers sont hébergés dans l’emplacement des données Europe et si les États-Unis sont l’emplacement central du client. Par ailleurs, l’utilisateur peut accéder aux derniers fichiers utilisés dans la Blade d’affichage récente. Les fichiers récents peuvent inclure des fichiers partagés à partir des utilisateurs situés dans d’autres emplacements géographiques. 
+Par exemple, dans un client Contoso dont l’Europe est une région géographique satellite et l’Amérique  du Nord comme région centrale, un utilisateur satellitaire européen verra ses fichiers OneDrive sous l’onglet Fichiers dans le volet gauche, bien que les fichiers soient hébergés à l’emplacement de données d’Europe et que les États-Unis d’Amérique soient l’emplacement central du locataire. L’utilisateur peut également accéder aux derniers fichiers utilisés sous le lame **d’affichage** Récent. Les fichiers récents peuvent inclure des fichiers partagés par des utilisateurs à d’autres emplacements géographiques. 
 
-Le site SharePoint d’une équipe donnée prend également en charge la géolocalisation. Autrement dit, si un utilisateur de satellite européen crée une équipe, le site SharePoint correspondant sera créé dans l’emplacement européen et les fichiers associés à cette équipe seront conservés à cet emplacement. Toute expérience ultérieure, telle que le téléchargement d’un nouveau fichier ou la modification du fichier, sera stockée dans cet emplacement européen, afin de garantir la conservation des données pour ces fichiers.
+Le site SharePoint d’une équipe donnée est également géographiquement géographique. Autrement dit, si un utilisateur satellitaire européen crée une équipe, le site SharePoint correspondant est créé en Europe. Les fichiers associés à cette équipe sont conservés au repos à cet emplacement. Les expériences suivantes, telles que le téléchargement d’un nouveau fichier ou sa modification, seront stockées dans cet emplacement européen, ce qui conserve la promesse de résidence de données pour ces fichiers.
 
-Remarque : les conversations dans les conversations et les notes de messagerie instantanée de réunion au sein de l’interface de Teams ne sont pas sensibilisées au sein de l’équipe et ne sont pas tenues uniquement à l’intérieur de l’emplacement central de l’organisation.
+Étant donné qu’un client multigé géographique est un client global unique, durant la mention @ , les utilisateurs satellitaires pourront voir leurs collègues du monde entier, où qu’ils se trouveront.
 
-Pour plus d’informations sur la fonction de géolocalisation, voir [fonctionnalités de Microsoft multi-géo](https://aka.ms/multi-geo).
+Les conversations dans les conversations, les messages de canaux et les notes de messagerie instantanée de réunion/conversations au sein de l’expérience Teams ne sont pas géographiquement multiples et sont toutes conservées uniquement à l’intérieur de l’emplacement central du client. En règle générale, les conversations de conversation ne sont pas appliquées aux besoins de résidence de données. Pour plus d’informations, [voir Localisation des données dans Microsoft Teams.](location-of-data-in-teams.md)
+
+Pour plus d’informations sur Multi-Geo, consultez la [page Microsoft Multi-Geo capabilities.](https://aka.ms/multi-geo)

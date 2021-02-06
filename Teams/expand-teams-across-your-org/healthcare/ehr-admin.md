@@ -17,21 +17,23 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101332"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125777"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams - Intégration à EHR
 
-Microsoft Teams Electronic Health Record (EHR) Connector permet aux uns de lancer facilement la visite d’un patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Conçu sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce aux outils de conversation, vidéo, voix et soins de santé dans une plateforme unique qui prend en charge la conformité avec hipAA, la certification HITECH et bien plus encore.
-La plateforme de communication et de collaboration de Teams permet aux responsables de réduire l’encombrement des systèmes fragmentés et leur permet de consacrer du temps aux meilleurs soins possibles. Microsoft Teams Electronic Health Record (EHR) Connector peut :
+Microsoft Teams Electronic Health Record (EHR) Connector permet aux cartésiens de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Conçu sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce aux outils de conversation, vidéo, voix et soins de santé dans une plateforme unique qui prend en charge la conformité avec hipAA, la certification HITECH et bien plus encore.
+La plateforme de communication et de collaboration de Teams permet aux responsables de réduire facilement l’encombrement des systèmes fragmentés et leur permet de consacrer du temps aux meilleurs soins possibles. Microsoft Teams Electronic Health Record (EHR) Connector peut :
 - Lancez les visites virtuelles Teams à partir des portails des fournisseurs et des patients.
 - Écrivez de nouveau dans les métadonnées EHR sur les événements de connexion et de déconnexion pour activer l’audit automatique et la conservation d’enregistrement.
 - Intégrez-vous aux flux de travail de patient et de patient existants tout en leur permettant d’utiliser Microsoft Teams.
@@ -44,7 +46,7 @@ La plateforme de communication et de collaboration de Teams permet aux responsab
 
 Avant d’intégrer le connecteur EHR, vous devez vous assurer que vous avez les conditions préalables suivantes :
 
-- Accès à l’application Microsoft Teams dans le [marketplace App Marketplace de Android.](https://apporchard.epic.com/Gallery?id=6153)
+- Accès à l’application Microsoft Teams dans [le marketplace App Marketplace de Android.](https://apporchard.epic.com/Gallery?id=6153)
 
 - Abonnement actif à Microsoft Cloud pour les soins de santé ou abonnement à l’offre autonome Microsoft Teams EHR Connector (appliqué uniquement lors des tests de production).
 
@@ -76,40 +78,40 @@ La configuration du connecteur nécessite que vous :
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[Lancer le portail de configuration du connecteur EHR](#launch-the-ehr-connector-configuration-portal)
 
-La configuration de votre organisation de santé pour lancer des visites virtuelles avec Microsoft Teams commence par le portail de configuration du connecteur EHR Connector. Vous configurez une ou plusieurs organisations pour tester l’intégration. Configurez l’URL de test et de production dans le portail de configuration. Testez l’intégration à partir de l’environnement de test DeNs avant de passer à la production.
+La configuration de votre organisation de santé pour lancer des visites virtuelles avec Microsoft Teams commence par le portail de configuration ehr Connector. Vous configurez une ou plusieurs organisations pour tester l’intégration. Configurez l’URL de test et de production dans le portail de configuration. Testez l’intégration à partir de l’environnement de test DeNs avant de passer à la production.
   
 - URL de configuration du connecteur EHR : [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
-L’administrateur Microsoft 365 et l’analyste client Yahoo ! de votre organisation doivent suivre les étapes d’intégration et d’information dans le portail de configuration. Pour plus d’informations sur la configuration du site, contactez la ressource du spécialiste technique Desas qui est affectée à votre organisation.
+L’administrateur Microsoft 365 et l’analyste client Yahoo ! de votre organisation doivent suivre les étapes d’intégration et d’information dans le portail de configuration. Pour plus d’informations sur la configuration de l’organisation, contactez la ressource du spécialiste technique Des Techniciens qui se charge de votre organisation.
 
 ### <a name="configuration-information"></a>[Informations de configuration](#configuration-information)
 
 Cette étape doit être effectuée par **l’administrateur Microsoft 365.** L’administrateur Microsoft 365 doit lancer le portail de configuration des connecteurs et se connecter avec les informations d’identification Microsoft pour démarrer le processus de configuration.
 
-Pour effectuer cette étape, l’administrateur Microsoft 365 doit recevoir une URL de base Fast Health Interoperability Resources (F URL) valide de votre spécialiste technique Ceci et le nom d’utilisateur de l’analyste client Terminée qui approuvera la configuration. L’administrateur Microsoft 365 doit lancer la page de configuration du connecteur et se connecter avec les informations d’identification Microsoft pour démarrer le processus de configuration.
+Pour effectuer cette étape, l’administrateur Microsoft 365 doit recevoir une URL de base Des ressources D’interopérabilité rapide (FEMBA) valides de votre spécialiste technique Ceci et le nom d’utilisateur de l’analyste client Qui approuvera la configuration. L’administrateur Microsoft 365 doit lancer la page de configuration du connecteur et se connecter avec les informations d’identification Microsoft pour démarrer le processus de configuration.
 
 - L’URL de base FEMBA est une adresse statique correspondant au point de terminaison de l’API FEMBA de votre serveur. Par exemple, l’URL `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` est .
 
-- Le nom de l’approbateur de configuration est le nom de l’analyste clientRobien qui sera responsable de l’approbation de la configuration au cours de l’étape suivante. L’analyste client Densoine est une personne de votre organisation qui a accès à La france.
+- Le nom de l’approbateur de configuration est le nom de l’analyste du clientRobateur qui sera responsable de l’approbation de la configuration au cours de l’étape suivante. L’analyste client Densoël est une personne de votre organisation qui a accès à La france.
 
-  ![Le nom de l’approuveur de configuration est sélectionné dans une liste du connecteur EHR.](../../media/teams-ehr-connector.png)
+  ![Le nom de l’approveur de configuration est sélectionné dans une liste du connecteur EHR.](../../media/teams-ehr-connector.png)
 
 ### <a name="approve-or-view-configuration"></a>[Approuver ou afficher la configuration](#approve-or-view-configuration)
 
 L’analyste client de votre organisation médicale qui a été ajoutée en tant qu’approbation doit maintenant utiliser la même URL de connecteur EHR que lors de l’étape précédente pour se connecter à l’aide de ses informations d’identification Microsoft 365. Une fois la validation validée, l’approuveur sera invité à se connecter à l’aide de ses informations d’identification Densique pour valider l’organisation.
 
 > [!Note]
-> L’administrateur Microsoft 365 et l’analyste client Andyh de votre organisation peuvent être la même personne. Dans ce cas, ajoutez votre propre nom d’utilisateur en tant qu’approver. Vous devrez tout de même vous connectez à Ainsi, pour valider votre accès. La validation de la validation de l’URL de base de votre FEMBA est uniquement utilisée. Microsoft ne stocke pas les informations d’identification ou n’accède pas aux données EHR avec cette connexion.
+> L’administrateur Microsoft 365 et l’analyste client Andyh de votre organisation peuvent être la même personne. Dans ce cas, ajoutez votre propre nom d’utilisateur en tant qu’approver. Vous devrez tout de même vous connectez à Ainsi, pour valider votre accès. Le signe adroienne sert uniquement à valider l’URL de base de votre F URL. Microsoft ne stocke pas les informations d’identification ou n’accède pas aux données EHR avec cette connexion.
 
   ![Vérifiez et approuvez la configuration des informations d’identification.](../../media/approve-view-configuration.png)
 
-Après une bonne inscription au service, l’analyste du client Quiz doit **approuver** la configuration. Si la configuration n’est pas correcte, l’administrateur Microsoft 365 aura la possibilité de modifier les configurations d’origine en se connectant à nouveau au portail de connecteur Ehr Microsoft. 
+Une fois la signature réussie, l’analyste du client Analysts **doit** approuver la configuration. Si la configuration n’est pas correcte, l’administrateur Microsoft 365 aura la possibilité de modifier les configurations d’origine en se connectant à nouveau au portail de connecteur Ehr Microsoft. 
 
 ![Confirmez que le connecteur EHR est configuré et l’option de modification de la configuration.](../../media/ehc-approve-3.png)
 
 ### <a name="review-and-finish-the-configuration"></a>[Passer en revue et terminer la configuration](#review-and-finish-the-configuration)
 
-Lorsque les informations de configuration sont approuvées par l’administrateur d’Équipe, des enregistrements d’intégration pour le lancement du patient et du fournisseur s’offrent à vous. Ces enregistrements sont nécessaires pour effectuer la configuration de la visite virtuelle dans Le Monde. Pour plus d’informations, reportez-vous Epic-Microsoft guide d’intégration de la téléhealthe de Teams.
+Lorsque les informations de configuration sont approuvées par l’administrateur d’Équipe, des enregistrements d’intégration pour le lancement du patient et du fournisseur s’offrent à vous. Ces enregistrements sont nécessaires pour effectuer la configuration de la visite virtuelle dans Le Monde. Pour plus d’informations, voir Epic-Microsoft le guide d’intégration de la téléhealthe de Teams.
 
 > [!Note]  
 > L’analyste client Microsoft 365 ou Yahoo! peut à tout moment se connecter au portail de configuration pour afficher les enregistrements d’intégration et modifier la configuration de l’organisation, si nécessaire.
@@ -117,7 +119,7 @@ Lorsque les informations de configuration sont approuvées par l’administrateu
 ![Les informations d’intégration s’affichent.](../../media/finish-configuration.png)
 
 > [!Note]
-> Avant cela, le processus d’approbation doit être effectué par l’analyste client Qun lui-même pour chaque URL F URL configurée par l’administrateur Microsoft.
+> Avant cela, le processus d’approbation doit être effectué par l’analyste client Configurable par l’administrateur Microsoft pour chaque URL F URL configurée par l’administrateur Microsoft.
 
 ![Les informations de configuration sont approuvées.](../../media/approve-configuration-2.png)
 
@@ -125,7 +127,7 @@ Lorsque les informations de configuration sont approuvées par l’administrateu
 
 Une fois que vous avez terminé les étapes du connecteur EHR et la configuration d’Andy, votre organisation est prête à prendre en charge les visites vidéo avec Microsoft Teams.
 
-### <a name="virtual-visit-prerequisites"></a>Conditions préalables pour une visite virtuelle
+### <a name="virtual-visit-prerequisites"></a>Conditions préalables à la visite virtuelle
 
 - Vos systèmes doivent satisfaire toutes les conditions requises pour les [logiciels et les navigateurs.](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)
 
@@ -133,7 +135,7 @@ Une fois que vous avez terminé les étapes du connecteur EHR et la configuratio
 
 ### <a name="provider-experience"></a>Expérience du fournisseur
 
-Les fournisseurs de soins de votre organisation peuvent également participer à des visites virtuelles avec Microsoft Teams à partir de leurs applications fournisseurs de service (Hyperspace,Pérku, Canto). Le **bouton Démarrer la visite** virtuelle est incorporé dans le flux du fournisseur.
+Les fournisseurs de soins de votre organisation peuvent également participer à des visites virtuelles avec Microsoft Teams à partir de leurs applications fournisseurs (Hyperspace,Pérku, Canto). Le **bouton Démarrer la visite** virtuelle est incorporé dans le flux du fournisseur.
 
 Principales fonctionnalités de l’expérience du fournisseur :
 
@@ -170,6 +172,6 @@ Principales fonctionnalités de l’expérience du patient :
 
 ### <a name="privacy-and-location-of-data"></a>Confidentialité et emplacement des données
 
-L’intégration de Teams aux systèmes EHR optimise la quantité de données utilisées et stockées pendant l’intégration et les flux de visites virtuelles. La solution suit les principes généraux de confidentialité et de gestion des données de Teams et les directives décrites dans la politique de confidentialité de Teams.
+L’intégration de Teams aux systèmes EHR optimise la quantité de données utilisées et stockées pendant l’intégration et les flux de visites virtuelles. La solution est adaptée aux principes et directives généraux de confidentialité et de gestion des données de Teams décrits dans la protection des données.
 
-Le connecteur EHR de Microsoft Teams ne stocke ni ne transfère aucune donnée personnelle identifiable ou les dossiers médicaux des patients ou fournisseurs de soins à partir du système EHR. Les seules données stockées par le connecteur EHR sont l’ID unique de l’utilisateur EHR, qui est utilisé lors de la configuration de la réunion Teams. L’ID unique de l’utilisateur EHR est stocké dans l’une des trois régions géographiques décrites dans l’emplacement où sont stockées les données client de votre [client Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) Toutes les discussions, enregistrements et autres données entrées dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Si vous voulez en savoir plus sur l’emplacement des données dans Microsoft Teams, consultez [Emplacement des données dans Teams.](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)
+Le connecteur EHR de Microsoft Teams ne stocke ni ne transfère aucune donnée personnelle identifiable ou les dossiers médicaux des patients ou fournisseurs de soins à partir du système EHR. Les seules données stockées par le connecteur EHR sont l’ID unique de l’utilisateur EHR, qui est utilisé lors de l’installation de la réunion Teams. L’ID unique de l’utilisateur EHR est stocké dans l’une des trois régions géographiques décrites dans l’emplacement où sont stockées les données client de votre [client Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) Toutes les discussions, enregistrements et autres données entrées dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Si vous voulez en savoir plus sur l’emplacement des données dans Microsoft Teams, consultez [Emplacement des données dans Teams.](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)

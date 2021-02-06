@@ -21,23 +21,23 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbf0ededcb1a5f3037bfb896242902daaa2a79b
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 0c400f6f3fdb0c0cf5abce3a34f05c8488909aab
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973078"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122204"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft Teams
 
 > [!IMPORTANT]
-> Pour découvrir comment garantir au mieux la sécurité pendant que tout le monde travaille à domicile pendant **l’épidémie de COVID-19,** lisez les articles suivants :
+> Pour découvrir comment garantir au mieux la sécurité pendant que tout le monde travaille à domicile en cas **d’épidémie de COVID-19,** lisez les articles suivants :
 >  - [12 premières tâches pour les équipes de sécurité qui prennent en charge le travail à domicile](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [Optimiser la connectivité de Microsoft 365 ou Office 365 pour les utilisateurs à distance à l’aide de la segmentation de tunnel VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Mise à jour : 2 avril 2020 : [Guide de sécurité de Teams](teams-security-guide.md)
 
 
-Microsoft Teams est intégré à l’échelle hypertexte de Microsoft 365 et d’Office 365 cloud de qualité entreprise, et offre aux clients les fonctionnalités avancées de sécurité et de conformité que nos clients attendent. Pour plus d’informations sur la planification de la sécurité [](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) dans Microsoft 365 ou Office 365, la feuille de route de sécurité est un bon point de départ. Pour plus d’informations sur la planification de la conformité dans Microsoft 365 ou Office 365, vous pouvez commencer par planifier la conformité des & [sécurité.](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)
+Microsoft Teams est intégré à l’échelle hypertexte de Microsoft 365 et Office 365 cloud de qualité entreprise, et offre aux clients les fonctionnalités avancées de sécurité et de conformité que nos clients attendent. Pour plus d’informations sur la planification de la sécurité [](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) dans Microsoft 365 ou Office 365, la feuille de route de sécurité est un bon point de départ. Pour plus d’informations sur la planification de la conformité dans Microsoft 365 ou Office 365, vous pouvez commencer par planifier la conformité des produits [& sécurité.](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)
 
 
 Cet article vous fournira des informations supplémentaires sur la sécurité et la conformité spécifiques de Teams. Ne manquez pas ces vidéos sur la sécurité et la conformité de Microsoft Mechanics :
@@ -67,11 +67,11 @@ La manière dont le contenu affecté est géré après la détection se limite a
 
 ### <a name="safe-links"></a>Liens sécurisés
 
-Pour l’instant, les liens sécurisés de la protection avancée contre les [](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) menaces ne sont pas disponibles dans Microsoft Teams, mais ils sont désormais en prévisualisation via notre Programme d’adoption des technologies (TAP), et alors qu’une date de publication pour la disponibilité générale n’est pas définie, nous actualiserons cet article lorsque cette date sera disponible. En attendant, pour plus d’informations sur les liens sécurisés Microsoft 365 ou Office 365, consultez liens sécurisés [ATP.](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) Des liens sécurisés atp sont disponibles dans [atp plan 1 et ATP plan 2.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+Si, pour l’instant, les liens sécurisés de protection avancée contre les [](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) menaces ne sont pas disponibles dans Microsoft Teams, ils sont désormais en prévisualisation via notre Programme d’adoption des technologies (TAP), et alors qu’une date de publication pour la disponibilité générale n’est pas définie, nous actualiserons cet article lorsque cette date sera disponible. En attendant, pour plus d’informations sur les liens sécurisés Microsoft 365 ou Office 365, consultez liens sécurisés [ATP.](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) Des liens sécurisés atp sont disponibles dans [atp plan 1 et ATP plan 2.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 
 ### <a name="safe-attachments"></a>Pièces jointes sécurisées
 
-La fonctionnalité Pièces jointes sécurisées est conçue pour renforcer la sécurité des utilisateurs en vérifiant et en détectant des pièces jointes malveillantes. Les administrateurs globaux [](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) ou de sécurité créent des stratégies pour gérer ces pièces jointes malveillantes suspectées afin d’empêcher leur envoi à des utilisateurs, de cliquer dessus et d’agir dessus. La protection par pièce jointe sécurisée est disponible pour SharePoint, OneDrive et Microsoft Teams, et Microsoft 365 ou Office 365 [Advanced Threat Protection Plan 1](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) et 2 disposent de cette fonctionnalité. En savoir plus sur les pièces jointes sécurisées et la manière dont elles peuvent contribuer à protéger votre organisation dans les pièces [jointes sécurisées dans Microsoft Defender pour Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+La fonctionnalité Pièces jointes sécurisées est conçue pour renforcer la sécurité des utilisateurs en vérifiant et en détectant des pièces jointes malveillantes. Les administrateurs globaux [](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) ou de sécurité créent des stratégies pour gérer ces pièces jointes malveillantes suspectées afin d’empêcher leur envoi à des utilisateurs, de cliquer dessus et d’agir dessus. La protection contre les pièces jointes sécurisées est disponible pour SharePoint, OneDrive et Microsoft Teams, et Microsoft 365 ou Office 365 [Advanced Threat Protection Plan 1](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) et 2 disposent de cette fonctionnalité. En savoir plus sur les pièces jointes sécurisées et la manière dont elles peuvent contribuer à protéger votre organisation dans les pièces [jointes sécurisées dans Microsoft Defender pour Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="secure-score"></a>Secure Score
 
@@ -105,7 +105,7 @@ Pour lire davantage d’informations sur ce sujet, voir [La barrière de l’inf
 
 ### <a name="communication-compliance"></a>Conformité des communications
 
-La conformité des communications dans Microsoft 365 vous permet d’ajouter des utilisateurs à des stratégies internes qui peuvent être configurées pour examiner les communications Microsoft Teams en relation avec du langage choquant, des informations sensibles et des informations liées aux normes internes et réglementaires. Les communications de conversation et les pièces jointes associées dans les canaux Teams publics et privés, les conversations individuelles et les pièces jointes peuvent être analysées pour réduire les risques de communication dans votre organisation. Pour plus d’informations sur la configuration des stratégies pour vous aider à détecter, capturer et prendre des mesures pour les communications Teams inappropriées, voir Conformité des communications dans [Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
+La conformité des communications dans Microsoft 365 vous permet d’ajouter des utilisateurs à des stratégies internes qui peuvent être configurées pour examiner les communications Microsoft Teams en relation avec du langage choquant, des informations sensibles et des informations liées aux normes internes et réglementaires. Les communications de conversation et les pièces jointes associées dans les canaux Teams publics et privés, les conversations individuelles et les pièces jointes peuvent être numérisées pour réduire les risques de communication dans votre organisation. Pour plus d’informations sur la configuration des stratégies pour vous aider à détecter, capturer et prendre des mesures pour les communications Teams inappropriées, voir Conformité des communications dans [Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
 
 ### <a name="retention-policies"></a>Stratégies de rétention
 
@@ -119,7 +119,7 @@ Appliquez [des étiquettes de sensibilité](https://docs.microsoft.com/microsoft
 
 Dans Microsoft Teams, la protection contre la perte de données (DLP), ainsi que les informations plus volumineuses relatives à la protection des données et documents sensibles pour Microsoft 365 ou Office 365, concernent la préparation professionnelle pour la protection des documents et des données sensibles. Que vous soyez préoccupé par des informations sensibles dans des messages ou des documents, les stratégies DLP seront en mesure de s’assurer que vos utilisateurs ne partagent pas ces données sensibles avec des personnes erronées.
 
-Pour plus d’informations sur la protection contre la perte de données dans Teams, consultez [la DLP pour Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams) Un bon article concernant les problèmes d’O365 DLP est une vue d’ensemble de [la protection contre la perte de données.](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+Pour plus d’informations sur la protection contre la perte de données dans Teams, consultez [la DLP pour Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams) Un bon article concernant les problèmes DLP dans O365 est une vue d’ensemble de [la protection contre la perte de données.](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
 
 ### <a name="ediscovery"></a>eDiscovery
 
@@ -133,7 +133,7 @@ Pour plus d’informations sur la manière d’effectuer la découverte électro
 
 Nous avons un article spécifique de Teams pour plus d’informations, [eDiscovery des conversations entre invités.](eDiscovery-investigation.md)
 
-Les clients peuvent tirer parti de la découverte électronique ou de la découverte électronique avancée [selon](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) leurs besoins. Le tableau suivant présente les différences entre les deux options :
+Les clients peuvent tirer parti d’eDiscovery ou [advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) selon leurs besoins. Le tableau suivant présente les différences entre les deux options :
 
 | |eDiscovery  |eDiscovery avancée  |
 |---------|---------|---------|
@@ -168,7 +168,19 @@ Si vous souhaitez consulter des informations spécifiques à Teams sur la config
 
 ### <a name="auditing-and-reporting"></a>Audit et rapports
 
-La recherche dans le journal d’audit se branche directement dans le Centre de conformité Microsoft 365 et vous permet de définir des alertes, ainsi que des rapports sur des événements d’audit, en permettant l’exportation de jeux d’événements spécifiques ou génériques de charge de travail à des fin d’utilisation et d’examen par l’administrateur dans le cadre d’une chronologie d’audit illimitée. Vous pouvez configurer des alertes pour toutes les données du journal d’audit dans le Centre de conformité Microsoft 365, et filtrer et exporter ces données pour une analyse approfondie. Reportez-vous à la recherche dans le [journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour en savoir plus sur la façon d’effectuer une recherche dans le journal d’audit pour Microsoft 365 ou Office 365. Pour en savoir plus sur la recherche d’événements Microsoft Teams dans le Centre de conformité Microsoft 365, nous avons également activer [l’audit](audit-log-events.md) dans Teams pour vous aider à le vérifier.
+La recherche dans le journal d’audit se branche directement dans le Centre de conformité Microsoft 365 et vous permet de définir des alertes, ainsi que des rapports sur des événements d’audit, en permettant l’exportation de jeux d’événements spécifiques ou génériques de charge de travail à des fin d’utilisation et d’examen par l’administrateur dans le cadre d’une chronologie d’audit illimitée. Vous pouvez configurer des alertes pour toutes les données du journal d’audit dans le Centre de conformité Microsoft 365, et filtrer et exporter ces données pour une analyse approfondie. Reportez-vous [à la recherche dans](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) le journal d’audit pour en savoir plus sur la façon d’effectuer une recherche dans le journal d’audit pour Microsoft 365 ou Office 365. Pour en savoir plus sur la recherche d’événements Microsoft Teams dans le Centre de conformité Microsoft 365, nous avons également activer [l’audit](audit-log-events.md) dans Teams pour vous aider à le vérifier.
+
+## <a name="customer-key"></a>Clé client
+
+Microsoft 365 offre une couche supplémentaire de chiffrement par-dessus le chiffrement du service pour votre contenu. À l’aide des clés que vous fournissez, la clé client chiffre différents types de données dans Microsoft Teams. À l’aide de la clé client au niveau de l’application, la clé client chiffre les fichiers Teams stockés dans SharePoint Online. Pour plus d’informations, voir [Chiffrement du service avec la clé client.](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview) 
+
+À l’aide de la clé client au niveau du client, la clé client chiffre :
+- Messages de conversation Teams (conversations en tête-à-tête, conversations de groupe, conversations de réunion et conversations de canal)
+- Messages multimédias Teams (images, extraits de code, vidéos et images Wiki)
+- Enregistrements des appels et des réunions Teams stockés dans le stockage Teams
+- Notifications de conversation Teams
+- Suggestions de conversation Teams par Cortana
+- Messages de statut Teams Pour plus d’informations, voir Vue d’ensemble de la clé client pour [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) au niveau du client et lisez le blog Microsoft Teams sur la prise en charge de la clé client [pour Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)désormais en prévisualisation publique. Pour plus d’informations sur la publication Microsoft Information Protection qui incluait la clé Client au niveau du client, lisez Annonce des nouvelles fonctionnalités de Protection des informations Microsoft pour connaître et protéger [vos données sensibles.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
 
 ## <a name="privacy"></a>Confidentialité
 
@@ -193,7 +205,7 @@ La figure suivante indique le flux d’ingestion de réunions Teams et d’appel
 > [!IMPORTANT]
 > Il peut y avoir un délai de 24 heures pour découvrir le contenu de Teams.
 
-## <a name="licensing"></a>Licences
+## <a name="licensing"></a>Gestion des licences
 
 En ce qui concerne les fonctionnalités de protection des informations, les abonnements Microsoft 365, les abonnements Office 365 et les licences autonomes associées déterminent l’ensemble de fonctionnalités disponible.
 

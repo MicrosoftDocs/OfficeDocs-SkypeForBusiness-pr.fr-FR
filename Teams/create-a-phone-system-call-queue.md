@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Découvrez comment configurer phone system pour les files d’attente d’appels avec Microsoft Teams, qui fournissent un message de salutation, de la musique, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+description: Découvrez comment configurer phone system pour les files d’attente avec Microsoft Teams, qui fournissent un message de salutation, de la musique, la redirection d’appels et d’autres fonctionnalités.
+ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919024"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125787"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -45,7 +45,7 @@ Les files d’attente fournissent les services :
 
 - Options de gestion pour le dépassement de capacité et le délai d’attente.
 
-Assurez-vous de lire l’article Plan pour les [](plan-auto-attendant-call-queue.md#getting-started) standard [automatiques teams](plan-auto-attendant-call-queue.md) et les files d’attente d’appels, et suivez les étapes de mise en place avant de suivre les procédures de cet article.
+Assurez-vous de lire l’article Plan pour les [](plan-auto-attendant-call-queue.md#getting-started) standard [automatiques Teams](plan-auto-attendant-call-queue.md) et les files d’attente d’appels, et suivez les étapes de mise en place avant de suivre les procédures de cet article.
 
 Pour configurer une file d’attente d’appels, dans le Centre d’administration Teams, développez **Voix,** cliquez sur Files d’attente d’appels, puis cliquez sur **Ajouter.**
 
@@ -94,9 +94,6 @@ Pour ajouter un groupe à la file d’attente, cliquez sur Ajouter des **groupes
   - Microsoft Teams Phone version 1449/1.0.94.2020051601 ou version ultérieure
   
 Les comptes Teams des agents doivent être réglés en mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne figurent pas dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente d’appels si vos agents utilisent tous des clients compatibles.
-
-> [!NOTE]
-> Occupé(elle) n’est pas pris en charge par le mode conférence. Les agents dans les appels sans appel peuvent toujours être présentés avec un appel de file d’attente si le routage en fonction de la présence n’est pas activé.
 
 **La méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Choisissez l’une des options ci-après :
 
@@ -171,7 +168,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - Application Microsoft Teams pour Android
 
     > [!NOTE]
-    > Les files d’attente à qui un numéro de routage direct est attribué ne peuvent pas être prise en charge par les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
+    > Les files d’attente à qui un numéro de routage direct est affecté ne peuvent pas être prise en charge par les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de file d’attente d’appels
 
