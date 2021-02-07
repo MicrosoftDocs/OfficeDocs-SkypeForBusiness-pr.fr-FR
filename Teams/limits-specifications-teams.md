@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110207"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125626"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -36,28 +36,30 @@ Cet article présente certaines limites, spécifications et autres configuration
 |-----------|---------------|
 |Nombre d’équipes qu’un utilisateur peut créer | Soumis à une limite objet de 250 et sup1 ;         |
 |Nombre d’équipes dont un utilisateur peut-être membre|1 000&sup2 ;|
-|Nombre de membres dans une équipe. | 10 000<sup>5</sup>     |
+|Nombre de membres dans une équipe. | 10 000<sup>6</sup>     |
 |Nombre de propriétaires par équipe | 100   |
 |Nombre d’équipes à l’échelle de l’organisation autorisées dans un client | 5     |
 |Nombre de membres dans une[équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 10 000       |
 |Nombre d’équipes qu’un administrateur général peut créer        |  500 000   |
-|Nombre d’équipes qu’une organisation Microsoft 365 ou Office 365 peut avoir    | 500,000&sup2;     |
-|Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
-|Nombre de canaux privés par équipe    |30| 200 (y compris les canaux supprimés)&sup3;
+|Nombre d’équipes qu’une organisation Microsoft 365 ou Office 365 peut avoir    | 500 000 &sup3 ;     |
+|Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup4;         |
+|Nombre de canaux privés par équipe    |30| (y compris les canaux supprimés)&sup4;
 |Nombre de membres dans un canal privé    |250|
 |Taille maximale de liste de distribution, groupe de sécurité ou groupe Office 365 pouvant être importé dans une équipe    |3 500|
-|Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000<sup>5</sup>     |
-|Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
+|Nombre maximal de membres d’un groupe Office 365 pouvant être convertis en équipe    |10 000<sup>6</sup>     |
+|Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>5</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Cette limite inclut les équipes archivées. Pour dépasser le nombre maximal d’équipes qu’une organisation Microsoft 365 ou Office 365 peut avoir, vous devez contacter le support Microsoft et demander à augmenter le nombre d’objets Azure Active Directory de votre client.
+<sup>2</sup> Cette limite inclut les équipes archivées. 
 
-<sup>3</sup> Les canaux supprimés peuvent être restaurés sous 30 jours. Pendant ces 30 jours, un canal supprimé continue à être compté vers les 200 canaux ou 30 canaux privés selon la limite par équipe. Après 30 jours, un canal supprimé et son contenu sont définitivement supprimés et le canal ne compte plus dans la limite par équipe.
+<sup>3</sup> Pour augmenter davantage le nombre d’équipes, vous devez contacter le support Microsoft et demander à augmenter le nombre d’objets Azure Active Directory de votre client. Une augmentation est réalisée uniquement pour les scénarios de production réels.
 
-<sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
+<sup>4</sup> Les canaux supprimés peuvent être restaurés dans un délai de 30 jours. Pendant ces 30 jours, un canal supprimé continue d’être pris en compte dans la limite des 200 canaux par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de façon définitive et le canal n’est plus pris en compte dans la limite par équipe.
 
-<sup>5</sup> Les équipes du cloud de la communauté du secteur public ne peuvent accueillir que 5 000 membres et celles de GCCH/DoD ne peuvent en accueillir que 2 500.
+<sup>5</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
+
+<sup>6</sup> Les équipes du cloud de la communauté du secteur public ne peuvent accueillir que 5 000 membres et celles de GCCH/DoD ne peuvent en accueillir que 2 500.
 
 ## <a name="messaging"></a>Messagerie
 
