@@ -297,6 +297,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Modèles Teams de la catégorie fabrication
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Créer et gérer des stratégies de modèle
+            href: templates-policies.md
       - name: Communiquer avec des utilisateurs externes
         items:
           - name: Communiquer avec des utilisateurs d’autres organisations
