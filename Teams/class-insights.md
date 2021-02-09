@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067129"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145901"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -102,6 +102,9 @@ Par exemple, un directeur ne voit que les classes de son établissement scolaire
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Épingler l’application Insights":::
 
+> [!TIP]
+> Vous pouvez également localiser l’application Insights via ce lien : [https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>Quand utiliser Insights ? 
 Insights prend en charge les communautés d’apprentissage pendant tout **le cycle d’apprentissage**. Grâce à des mesures en temps réel à plusieurs dimensions, Insights prend en charge un cycle continu d’identification, de réflexion, de discussion et d’initiatives parmi les membres de la communauté scolaire.
 *   **Déterminez** comment et quand les élèves s’engagent avec les enseignants, les supports de cours et leurs homologues ; évaluez leurs devoirs. 
@@ -177,10 +180,9 @@ L’affichage des informations au niveau de la classe en tant qu’enseignant *n
 Si vous souhaitez en savoir plus, veuillez lire les [**données du système d’information sur les élèves (SIE) avec Education Insights**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Gérer les autorisations
-Vous devez accorder des autorisations aux responsables de l’éducation, aux chefs de district, aux directeurs d’école, aux chefs d’établissement, aux conseillers, aux responsables de domaine d’étude, aux responsables de programmes, aux travailleurs sociaux et aux psychologues. Les enseignants bénéficient automatiquement d’une autorisation lorsqu’ils sont propriétaires d’une équipe de classe.
+Vous devez accorder des autorisations aux responsables de l’éducation, aux chefs de district, aux directeurs d’école, aux chefs d’établissement, aux conseillers, aux responsables de domaine d’étude, aux responsables de programmes, aux travailleurs sociaux et aux psychologues. Les enseignants bénéficient *automatiquement* d’une autorisation lorsqu’ils sont propriétaires d’une équipe de classe.
 
-> [!NOTE]
-> Accordez uniquement les autorisations aux responsables de l’éducation qui en ont besoin, ainsi qu’aux équipes dont ils sont responsables. Si vous ne savez pas si une autorisation d’utilisateur est nécessaire pour une organisation spécifique, veuillez consulter les experts en matière de confidentialité de votre établissement, tels que le personnel juridique ou celui des ressources humaines.
+Si vous souhaitez en savoir plus, veuillez lire [**Gérer l’accès des utilisateurs à Education Insights**](education-insights-manage-access.md).
 
 ## <a name="manage-the-setup-policy"></a>Gérer la stratégie de configuration
 En tant qu’administrateur informatique, vous pouvez utiliser la stratégie de configuration d’application pour installer Insights par défaut pour vos enseignants et pour vos responsables lorsqu’ils démarrent Teams. Avec cette stratégie, vous pouvez personnaliser Teams pour mettre en évidence Insights, puis l’épingler pour dans la barre d’applications.

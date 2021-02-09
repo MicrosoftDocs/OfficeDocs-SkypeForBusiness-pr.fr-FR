@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757759"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145911"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -40,10 +40,11 @@ Tout le monde, avec ou sans licence, peut participer à un événement en direct
 
 Les conditions suivantes sont requises pour un utilisateur pour configurer un événement en direct Teams.
 
-Voici les licences qui doivent être attribuées pour produire ou présenter une équipe en direct événement :  
+Voici les licences à attribuer pour organiser, produire ou présenter un événement en direct Teams :  
 
-- Une licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, ou une licence Office 365 Éducation A3 ou A5.L’exception à cette condition est que les utilisateurs invités peuvent se présenter sans licence si les autres critères pour les [utilisateurs invités](plan-for-teams-live-events.md#guest-to-present) sont remplis.
-- Licence Microsoft Teams : elle fait partie des licences répertoriées dans la première puce.
+- **Pour organiser :** licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, **[ou]** licence Microsoft ou Office 365 Éducation A3 ou A5. 
+- **Pour produire ou présenter :** licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, **[ou]** licence Microsoft ou Office 365 Éducation A1, A3 ou A5. L’exception à cette condition est la suivante : les utilisateurs invités peuvent se présenter sans licence s’ils remplissent les autres critères pour les [utilisateurs invités](plan-for-teams-live-events.md#guest-to-present).
+- Licence Microsoft Teams : elle fait partie des licences répertoriées dans les première et seconde puces.
 - Une licence Microsoft Stream est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
   Les utilisateurs n’ont pas besoin de licence Microsoft Stream affecté si vous voulez que les utilisateurs enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais stockés dans Azure Media Services (AMS) avec une limite de 180 jours avant sa suppression. À ce stade, un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
