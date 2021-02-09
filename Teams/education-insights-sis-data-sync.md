@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067119"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145821"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights
 Plus [Education Insights](class-insights.md) reçoit de données, plus les enseignants peuvent aider leurs élèves, et plus les responsables de l’éducation peuvent aider les enseignants.
@@ -59,7 +59,7 @@ Le tableau suivant indique le type de données obligatoire pour tirer le meilleu
 Le mappage précis de la hiérarchie et de la place de chacun dans cette hiérarchie permet à Insights de fournir des données exactes, ainsi que des informations plus précises et plus adaptées aux différents types de responsables de l’éducation.
 
 Plus vous fournirez de détails ici, plus les rapports et les actualités seront adapté et pertinents.
-Voici quelques pratiques recommandées pour garantir le déploiement fluide de SDS, puis permettre ainsi à vos utilisateurs d’utiliser au mieux Insights.
+Voici quelques pratiques recommandées visant à garantir le déploiement fluide de SDS pour permettre à vos utilisateurs d’utiliser au mieux Insights.
 
 ### <a name="users"></a>Utilisateurs
 *   Vérifiez que *tous les utilisateurs* apparaissent dans les fichiers que vous fournissez et que vous avez synchronisés. Cela inclut tous les élèves et membres du personnel qui ont besoin de consulter les données relatives aux unités d’organisation concernées.
