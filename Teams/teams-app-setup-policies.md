@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ffc2f15cdbef49daf36e09ca9676925ebb1ac99e
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909528"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145921"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
-
-> [!NOTE]
-> Si vous avez activé le paramètre de l’application à l’échelle de l’organisation, autoriser **l’interaction** avec les applications personnalisées, vous ne verrez peut-être pas encore les stratégies de configuration d’application dans le Centre d’administration Microsoft Teams. Il est en cours de déployé et sera bientôt disponible dans votre organisation.
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies de configuration d’application pour effectuer les tâches suivantes :
 
@@ -58,7 +55,7 @@ Vous devez modifier les paramètres de la stratégie globale pour inclure les ap
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams pour créer une stratégie personnalisée.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir Stratégies **d’installation des**  >  **applications** Teams.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir **Stratégies d’installation des**  >  **applications** Teams.
 
 2. Sélectionnez **Ajouter**.
 
@@ -77,7 +74,7 @@ Vous pouvez utiliser le Centre d’administration Microsoft Teams pour créer un
 
     1. Sous **Applications installées,** **sélectionnez Ajouter des applications.**
     
-    2. Dans le **volet Ajouter des applications installées,** recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Lorsque vous avez choisi votre liste d’applications, sélectionnez **Ajouter.**
+    2. Dans le **volet Ajouter des applications installées,** recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Une fois que vous avez choisi votre liste d’applications, sélectionnez **Ajouter.**
 
        ![Volet Ajouter des applications installées](media/app-setup-policies-add-installed-apps.png)
 
@@ -97,7 +94,7 @@ Vous pouvez utiliser le Centre d’administration Microsoft Teams pour créer un
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams pour modifier une stratégie, notamment la stratégie globale (à l’échelle de l’organisation par défaut) et les stratégies personnalisées que vous créez.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir Stratégies **d’installation des**  >  **applications** Teams.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir **Stratégies d’installation des**  >  **applications** Teams.
 
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis sélectionnez **Modifier**.
 
@@ -117,7 +114,7 @@ Vous pouvez utiliser le Centre d’administration Microsoft Teams pour modifier 
 
 - **Global (par défaut à l’échelle** de l’organisation) : cette stratégie par défaut s’applique à tous les utilisateurs de votre organisation, sauf si vous attribuez une autre stratégie. Modifiez la stratégie globale pour épingler les applications les plus importantes pour vos utilisateurs.
 
-- **FrontlineWorker**: cette stratégie s’agit pour les employés en ligne. Vous pouvez l’affecter à des employés en ligne de votre organisation. Il est important de savoir que, comme les stratégies personnalisées que vous créez, vous devez affecter la stratégie aux utilisateurs pour que les paramètres soient actifs. Pour plus d’informations, voir la section Affecter une stratégie de configuration d’application personnalisée aux [utilisateurs](#assign-a-custom-app-setup-policy-to-users) de cet article.
+- **FrontlineWorker**: cette stratégie s’agit pour les employés en ligne. Vous pouvez l’affecter à des employés en ligne de votre organisation. Il est important de savoir que, comme pour les stratégies personnalisées que vous créez, vous devez affecter la stratégie aux utilisateurs pour que les paramètres soient actifs. Pour plus d’informations, voir la section Affecter une stratégie de configuration d’application personnalisée aux [utilisateurs](#assign-a-custom-app-setup-policy-to-users) de cet article.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Pourquoi ne puis-je pas trouver une application dans le volet Ajouter des applications épinglées ?
 
@@ -137,7 +134,7 @@ Le nombre d’applications épinglées que vous pouvez ajouter à une stratégie
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Combien de temps faut-il pour que les modifications de stratégie prennent effet
 
-Une fois que vous avez modifié ou attribué une stratégie, l’application des modifications peut prendre quelques heures.
+Après avoir modifié ou attribué une stratégie, l’application des modifications peut prendre quelques heures.
 
 ### <a name="user-experience"></a>Expérience utilisateur
 

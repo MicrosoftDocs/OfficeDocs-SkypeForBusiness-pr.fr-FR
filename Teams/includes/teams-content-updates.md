@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>Semaine du 1er février 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 2/1/2021 | [Charger des données client et bâtiment dans le tableau de bord de qualité des appels](/MicrosoftTeams/cqd-upload-tenant-building-data) | modifié |
+| 2/1/2021 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
+| 2/1/2021 | [Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modifié |
+| 2/1/2021 | [Barrières de l’information dans Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
+| 2/1/2021 | [Gérer et surveiller Teams](/MicrosoftTeams/manage-teams-overview) | ajouté |
+| 2/1/2021 | [Notes de publication de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modifié |
+| 2/2/2021 | [Utiliser Microsoft 365 et des connecteurs personnalisés](/MicrosoftTeams/office-365-custom-connectors) | modifié |
+| 2/2/2021 | [Gérer les packages de stratégie dans Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modifié |
+| 2/2/2021 | [Centre de contacts Teams](/MicrosoftTeams/teams-contact-center) | modifié |
+| 2/3/2021 | [Exporter du contenu avec les API Microsoft Teams Export](/MicrosoftTeams/export-teams-content) | modifié |
+| 2/3/2021 | [Gestion des numéros de téléphone pour la Suisse](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | modifié |
+| 2/3/2021 | [Connecter votre contrôleur de bordure de session (SBC) au routage direct](/MicrosoftTeams/direct-routing-connect-the-sbc) | modifié |
+| 2/3/2021 | Adoption de la \| préparation de l’environnement \| microsoft Teams, découverte | supprimé |
+| 2/3/2021 | [Teams pour les visites virtuelles](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modifié |
+| 2/3/2021 | [Notes de publication](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
+| 2/4/2021 | [Centre de contacts Teams](/MicrosoftTeams/teams-contact-center) | modifié |
+| 2/4/2021 | [Forum aux questions (FAQ) sur le tableau de bord de qualité des appels](/MicrosoftTeams/cqd-frequently-asked-questions) | modifié |
+| 2/4/2021 | [FAQ sur la mise à niveau de Skype Entreprise vers Teams](/MicrosoftTeams/faq-journey) | modifié |
+| 2/4/2021 | [Questions fréquentes à propos de l’audioconférence](/MicrosoftTeams/audio-conferencing-common-questions) | modifié |
+| 2/4/2021 | [Dimensions et mesures - Tableau de bord de qualité des appels](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
+| 2/4/2021 | [Configurer le contrôleur de bordure de session - Plusieurs locataires](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
+| 2/4/2021 | [Documentation de l’administrateur Microsoft Teams # < 60 car](/MicrosoftTeams/index) | modifié |
+| 2/4/2021 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
+| 2/4/2021 | [Utiliser l’API Soumission d’application Teams pour envoyer et approuver vos applications personnalisées](/MicrosoftTeams/submit-approve-custom-apps) | modifié |
+| 2/4/2021 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 2/4/2021 | [Présentation de l’enregistrement de stratégie Teams pour les appels & réunions](/MicrosoftTeams/teams-recording-policy) | modifié |
+| 2/4/2021 | [Configurer le tableau de bord de qualité des appels](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modifié |
+| 2/4/2021 | [Mise à niveau de Skype Entreprise vers Teams](/MicrosoftTeams/upgrade-start-here) | modifié |
+| 2/5/2021 | [Vue d’ensemble de la sécurité et de la conformité](/MicrosoftTeams/security-compliance-overview) | modifié |
+| 2/5/2021 | [Rapport d’utilisation de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modifié |
+| 2/5/2021 | [Expérience Teams dans un environnement Multi-Geo-enabled Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modifié |
+| 2/5/2021 | [Gérer les modèles Teams dans le Centre d’administration](/MicrosoftTeams/templates-policies) | ajouté |
+| 2/5/2021 | [Créer une file d’attente d’appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
+| 2/5/2021 | [Teams pour les visites virtuelles](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modifié |
+| 2/5/2021 | [Mise en place de Teams pour les organisations de soins de santé](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modifié |
+| 2/5/2021 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
+| 2/5/2021 | [Gérer les stratégies de réunion](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
+| 2/5/2021 | [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modifié |
+| 2/5/2021 | [Planifier les files d’attente et les files d’attente automatiques de Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
+
+
 ## <a name="week-of-january-25-2021"></a>Semaine du 25 janvier 2021
 
 
@@ -15,7 +61,7 @@
 | 1/25/2021 | [Planification de la mise à niveau Teams](/MicrosoftTeams/upgrade-workshops-landing-page) | modifié |
 | 1/25/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
 | 1/25/2021 | [Utiliser la recherche de contenu dans Microsoft Teams](/MicrosoftTeams/content-search) | modifié |
-| 1/25/2021 | [Effectuer une enquête eDiscovery sur du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
+| 1/25/2021 | [Effectuer une enquête de découverte électronique sur du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
 | 1/25/2021 | [Mettre un utilisateur de Microsoft Teams ou de l’équipe en conservation légale](/MicrosoftTeams/legal-hold) | modifié |
 | 1/26/2021 | [Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | ajouté |
 | 1/26/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
@@ -81,7 +127,7 @@
 | 1/19/2021 | [Contrôleurs de session en bordure certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
 | 1/19/2021 | [Mise en place de Teams pour les organisations de soins de santé](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modifié |
 | 1/19/2021 | [Shifts pour Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modifié |
-| 1/19/2021 | [Gérer l’accès basé sur un shift pour les employés en ligne dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | modifié |
+| 1/19/2021 | [Gérer l’accès en équipe pour les employés en ligne en ligne dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | modifié |
 | 1/19/2021 | [Gérer l’application Shifts pour votre organisation](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
 | 1/19/2021 | [Microsoft StaffHub a été retiré](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | modifié |
 | 1/19/2021 | [Informations ITAdmin sur le client RealWear pour Microsoft Teams (préversion)](/MicrosoftTeams/flw-realwear) | modifié |
@@ -139,14 +185,14 @@
 | 1/12/2021 | [Opérations pour Microsoft Teams\| Gestion du service \| Qualité](/MicrosoftTeams/upgrade-operate-my-service) | modifié |
 | 1/13/2021 | [Gérer les packages de stratégie dans Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modifié |
 | 1/13/2021 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
-| 1/13/2021 | [Configurer la hiérarchie de ciblage d’équipe](/MicrosoftTeams/set-up-your-team-hierarchy) | modifié |
+| 1/13/2021 | [Configurer votre hiérarchie de ciblage d’équipe](/MicrosoftTeams/set-up-your-team-hierarchy) | modifié |
 | 1/13/2021 | [Qu’est-ce que les crédits de communication ?](/MicrosoftTeams/what-are-communications-credits) | modifié |
 | 1/13/2021 | [Problèmes connus](/MicrosoftTeams/rooms/known-issues) | modifié |
 | 1/13/2021 | [Présentation des équipes et des canaux dans Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modifié |
 | 1/14/2021 | [Gestion des numéros de téléphone pour l'Irlande](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modifié |
 | 1/14/2021 | [Gestion des numéros de téléphone pour l’Italie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | modifié |
 | 1/14/2021 | [Gestion des numéros de téléphone pour le Royaume-Uni](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | modifié |
-| 1/14/2021 | [Configurer la hiérarchie de ciblage d’équipe](/MicrosoftTeams/set-up-your-team-hierarchy) | modifié |
+| 1/14/2021 | [Configurer votre hiérarchie de ciblage d’équipe](/MicrosoftTeams/set-up-your-team-hierarchy) | modifié |
 | 1/14/2021 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
 | 1/14/2021 | [Gérer les paramètres pour votre organisation](/MicrosoftTeams/enable-features-office-365) | modifié |
 | 1/14/2021 | [Réunion en premier - Microsoft Teams](/MicrosoftTeams/meetings-first) | modifié |
@@ -165,7 +211,7 @@
 | 12/15/2020 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
 | 12/15/2020 | [Planifier votre solution vocale dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modifié |
 | 12/15/2020 | [Assistance vocale Cortana dans Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modifié |
-| 12/15/2020 | [Optimisation directe des médias locaux](/MicrosoftTeams/direct-routing-media-optimization) | modifié |
+| 12/15/2020 | [Optimisation directe des médias locaux de routage](/MicrosoftTeams/direct-routing-media-optimization) | modifié |
 | 12/15/2020 | [Considérations en rapport avec la mise à niveau vers Teams à partir d’un déploiement local de Skype Entreprise](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modifié |
 | 12/16/2020 | [Planifier les files d’attente et les files d’attente automatiques de Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
 | 12/16/2020 | [Planifier votre solution vocale dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modifié |

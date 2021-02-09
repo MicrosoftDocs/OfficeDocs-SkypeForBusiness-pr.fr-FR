@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les modèles Teams dans le Centre d’administration
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125879"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145881"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Créer et gérer des modèles Teams dans le Centre d’administration
 
@@ -70,11 +70,11 @@ Affectez différents utilisateurs à différentes stratégies de modèle afin qu
 
 Les utilisateurs affectés à une stratégie pourront uniquement afficher les modèles consultables dans cette stratégie.
 
-1. À partir **de Stratégies de modèles,** sélectionnez une stratégie, puis **sélectionnez Gérer les utilisateurs.**
+1. Dans **Stratégies de modèles,** sélectionnez une stratégie, puis **Sélectionnez Gérer les utilisateurs.**
 
 2. Tapez les utilisateurs à affecter à cette stratégie.
 
-   ![Les modèles sélectionnés avec Masquer mis en évidence](media/template-policies-4.png)
+   ![Modèles sélectionnés avec Masquer mis en évidence](media/template-policies-4.png)
 
 3. Sélectionnez **Appliquer.**
 
@@ -109,7 +109,7 @@ R : Oui.
 
 1. Dans le Centre d’administration, voir **Utilisateurs.**
 1. Dans la table Liste d’utilisateurs, sélectionnez les utilisateurs que vous voulez affecter à une certaine stratégie de modèles.
-1. Sélectionnez Modifier les paramètres, puis modifiez le champ De stratégies Templates.
+1. Sélectionnez Modifier les paramètres, puis modifiez le champ Stratégies templates.
 1. Sélectionnez Appliquer.
    En savoir plus [Sur l’affectation de stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
 
@@ -143,4 +143,4 @@ R : Non, cela n’est pas pris en charge.
 
 - [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Affecter des utilisateurs par lots à une stratégie](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

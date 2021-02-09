@@ -17,19 +17,22 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées soumises à l’aide de l’API Soumission d’application Teams dans Microsoft Teams.
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110227"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145801"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée envoyée via l’API De soumission d’application Teams
 
 ## <a name="overview"></a>Présentation
 
 > [!NOTE]
-> Lorsque vous publiez une application Teams personnalisée, elle est disponible pour les utilisateurs dans le magasin d’applications de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous l’obtenez. Cet article explique comment approuver et publier une application personnalisée qu’un développeur envoie **via l’API Soumission d’application Teams.** L’autre méthode, le téléchargement d’une application personnalisée, est utilisée lorsqu’un développeur vous envoie un package d’application au format .zip. Pour en savoir plus sur cette méthode, voir <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">Publier une application personnalisée en téléchargeant un package d’application.</a> Le widget d’approbation de l’application n’est pas disponible dans les clients du GCC. 
+> Lorsque vous publiez une application Teams personnalisée, elle est disponible pour les utilisateurs dans le magasin d’applications de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous l’obtenez. Cet article explique comment approuver et publier une application personnalisée qu’un développeur envoie **via l’API Soumission d’application Teams.** L’autre méthode, le téléchargement d’une application personnalisée, est utilisée lorsqu’un développeur vous envoie un package d’application au format .zip. Pour en savoir plus sur cette méthode, voir <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">Publier une application personnalisée en téléchargeant un package d’application.</a> Le widget d’approbation de l’application n’est pas disponible dans les clients gcc. 
+
+> [!IMPORTANT]
+> Cette méthode n’est actuellement pas disponible pour les environnements gcc. Vous devez utiliser la *méthode de téléchargement d’une application* personnalisée.
 
 Cet article fournit des conseils de bout en bout sur la façon d’aller du développement à la découverte de votre application Teams. Vous aurez une vue d’ensemble des expériences connectées que Teams offre dans le cycle de vie des applications pour simplifier le développement, le déploiement et la gestion d’applications personnalisées dans le magasin d’applications de votre organisation.
 
@@ -43,7 +46,7 @@ Ces conseils se concentrent sur les aspects Teams de l’application et sont des
 
 ### <a name="create-the-app"></a>Créer l’application
 
-La plateforme de développement Microsoft Teams permet aux développeurs d’intégrer facilement vos propres applications et services afin d’améliorer la productivité, de prendre des décisions plus rapidement et de créer une collaboration autour du contenu existant et des flux de travail. Les applications conçues sur la plateforme Teams sont des ponts entre le client Teams et vos services et flux de travail, ce qui les place directement dans le contexte de votre plateforme de collaboration. Pour plus d’informations, voir la <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">documentation du développeur teams.</a>
+La plateforme de développement Microsoft Teams permet aux développeurs d’intégrer facilement vos propres applications et services afin d’améliorer la productivité, de prendre des décisions plus rapidement et de créer une collaboration autour du contenu et des flux de travail existants. Les applications conçues sur la plateforme Teams sont des ponts entre le client Teams et vos services et flux de travail, ce qui les place directement dans le contexte de votre plateforme de collaboration. Pour plus d’informations, voir la <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">documentation du développeur teams.</a>
 
 ### <a name="submit-the-app"></a>Envoyer l’application
 
@@ -71,13 +74,13 @@ Cliquez sur le nom de l’application pour consulter la page des détails de l�
 
 ![page des détails de l’application pour une application envoyée](media/custom-app-lifecycle-app-details.png)
 
-Pour plus d’informations sur l’utilisation de l’API Graph pour vérifier **l’état de publication,** voir <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-beta&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">ici.</a>
+Pour plus d’informations sur l’utilisation de l’API Graph pour vérifier **l’état** de publication, voir <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-beta&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">ici.</a>
 
 ## <a name="publish"></a>Publier
 
 Lorsque vous êtes prêt à mettre l’application à la disposition des utilisateurs, publiez l’application.
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les **applications Teams**  >  **Gérer les applications.**
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **l’application Teams** Gérer  >  **les applications.**
 2. Cliquez sur le nom de l’application pour aller à la page des détails de l’application, puis dans la zone État de **publication,** sélectionnez **Publier.**
 
     Après avoir publié l’application, le statut **publication** passe à Publié **et** **l’état** passe automatiquement à **Autorisé.**
@@ -94,9 +97,9 @@ Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Rechercher des événements d’application Teams dans le journal d’audit
 
-Vous pouvez effectuer des recherches dans le journal d’audit pour afficher l’activité des applications Teams dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et l’accès à la liste des activités Teams enregistrées dans le journal d’audit, consultez Rechercher des événements dans Teams dans le journal <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">d’audit.</a>
+Vous pouvez effectuer des recherches dans le journal d’audit pour afficher l’activité des applications Teams dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, consultez Rechercher des événements dans Teams dans le journal <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">d’audit.</a>
 
-Avant d’effectuer une recherche dans le journal d’audit, vous devez activer l’audit dans le Centre <a href="https://protection.office.com" target="_blank">& conformité.</a> Pour en savoir plus, voir Activer ou désactiver la recherche dans le <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">journal d’audit.</a> Gardez à l’esprit que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
+Avant d’effectuer des recherches dans le journal d’audit, vous devez activer l’audit dans le Centre <a href="https://protection.office.com" target="_blank">& conformité.</a> Pour en savoir plus, voir Activer ou désactiver la recherche dans le <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">journal d’audit.</a> Gardez à l’esprit que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
 
 ## <a name="discover-and-adopt"></a>Découvrir et adopter
 
@@ -116,7 +119,7 @@ Lorsque le développeur envoie une mise à jour à une application personnalisé
 
 Pour consulter et publier une mise à jour d’application :
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **l’application Teams** Gérer  >  **les applications.**
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les **applications Teams**  >  **Gérer les applications.**
 2. Cliquez sur le nom de l’application pour  aller à la page des détails de l’application, puis sélectionnez Mettre à jour disponible pour passer en revue les détails de la mise à jour.
 
     ![page des détails de l’application](media/custom-app-lifecycle-update-app.png)

@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110370"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150870"
 highlightedContent:
   items:
   - title: Tirer parti de notre infrastructure de mise à niveau éprouvée
@@ -99,7 +99,7 @@ productDirectory:
   - title: 'Ignite Session : concevoir votre chemin d’accès à Teams'
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: Cette session d’Ignite 2020 vous aide à trouver l’approche la plus adaptée à vos objectifs et implémentations Skype Entreprise.
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Plans et tarifs Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: Trouvez Microsoft Teams pour votre entreprise.
@@ -123,7 +123,7 @@ additionalContent:
     - title: Rechercher un partenaire Microsoft
       summary: Vous avez besoin d’aide supplémentaire ? Les fournisseurs de solutions Microsoft peuvent vous aider à gérer les opérations techniques et logistiques de votre mise à niveau.
       url: https://www.microsoft.com/solution-providers/home
-    - title: Documentation de l’administrateur teams
+    - title: Documentation de l’administrateur de Teams
       summary: Découvrez comment déployer et gérer Teams, et préparer vos utilisateurs pour de nouvelles expériences de communication et de collaboration.
       url: https://docs.microsoft.com/MicrosoftTeams/
     - title: Formation Teams dirigée par un instructeur
