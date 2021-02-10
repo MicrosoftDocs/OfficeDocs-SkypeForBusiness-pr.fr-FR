@@ -15,18 +15,18 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et appareils USB (casques, haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
-ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
+ms.openlocfilehash: 21c74ce59830f9cac63200e8e7f4f99cfc54235f
+ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50033335"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173100"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
-Le programme de certification des périphériques garantit que les périphériques USB (tels que les casques, les haut-parleurs, les webcams et les moniteurs) offrent une qualité audio ou vidéo enrichie. Les périphériques certifiés fonctionnent (plug-& lecture) sans configuration supplémentaire et offrent un contrôle d’appel avec Microsoft Teams et Skype Entreprise. Les produits offrent une grande expérience aux utilisateurs finaux et aux administrateurs.
+Le programme de certification des périphériques garantit que les périphériques USB (casques, haut-parleurs, webcams et moniteurs) offrent une qualité audio ou vidéo enrichie. Les périphériques certifiés fonctionnent (plug-& lecture) sans configuration supplémentaire et offrent un contrôle d’appel avec Microsoft Teams et Skype Entreprise. Les produits offrent une grande expérience aux utilisateurs finaux et aux administrateurs.
 
-Pour découvrir les appareils testés et certifiés pour Microsoft Teams, rendez-vous dans [le Magasin Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+Pour découvrir les appareils testés et certifiés pour Microsoft Teams, rendez-vous dans [le Microsoft Store Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 Pour plus d’informations sur le contrôle d’appel dans Teams, consultez les appels de contrôle [à l’aide d’un casque dans Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
@@ -42,7 +42,7 @@ Les utilisateurs n’ont pas besoin de remplacer les appareils précédemment ce
 
 ### <a name="special-usage-designations"></a>Désignations d’utilisation spéciales
 
-- **Microphone Premium pour Ouvrir Office** Tous les casques sont testés pour fournir un son clair, mais le fait d’ouvrir un bureau ou d’autres environnements bruyants pose un défi plus important. Les casques avec cette désignation captent la voix de l’utilisateur du casque mais ne transmettent pas le son de leur voisin.
+- **Microphone Premium pour Ouvrir Office** Tous les casques sont testés pour fournir un son clair, mais le fait d’ouvrir le bureau et d’autres environnements bruyants pose un défi plus important. Les casques avec cette désignation captent la voix de l’utilisateur du casque mais ne transmettent pas le son de leurs voisins.
 - **Taille des salles de réunion** Les appareils partagés tels que les téléphones haut-parleurs et les caméras ont une distance d’utilisation prise en charge. Les distances recommandées peuvent être différentes selon le fabricant. Pour fournir aux clients des conseils clairs, tous les appareils partagés sont testés lors de la certification sur des tailles de salles et des environnements de bruit bien définis.
 
 Parcourez [les appareils certifiés pour Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
@@ -54,7 +54,7 @@ Parcourez [les appareils certifiés pour Microsoft Teams.](https://products.offi
 - Bouton Teams dédié et voyant d’indicateur LED.
 - Notification utilisateur des événements et des alertes du client Teams (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
 - Possibilité d’activer le client Teams ou de répondre à une notification en cliquant sur le bouton (par exemple, pour rejoindre une réunion).
-- Certification conçue pour l’extensibilité (nouvelles fonctionnalités d’appareil/client à fournir via la mise à jour du microprogramme).
+- Certification conçue pour l’extensibilité (nouveaux appareils/fonctionnalités client à fournir via la mise à jour du microprogramme).
 
 ### <a name="core-certification-benefits"></a>Principaux avantages de certification
 
@@ -70,14 +70,15 @@ Parcourez [les appareils certifiés pour Microsoft Teams.](https://products.offi
 - Aucune mise en service requise
 - Tous les appareils supportent les mises à jour du microprogramme pour permettre l’amélioration des nouvelles fonctionnalités et des performances.
 
-Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez la procédure d’adhésion pour les exigences et les programmes disponibles. [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)
+Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez [la](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) procédure d’adhésion pour les exigences et les programmes disponibles.
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 
-*Table Updated January 2021*
+*Tableau mis à jour en janvier 2021*
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Synchroniser 40 haut-parleurs                                       |1/19/2021       |Certifié pour Microsoft Teams                           |
 |Poly                 |Synchroniser plus de 40 haut-parleurs avec poly BT600 USB Dongle           |1/19/2021       |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque UH34 double/mono                                     |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Téléphone USB MP50                                             |12/23/2020      |Certifié pour Microsoft Teams                           |
@@ -85,7 +86,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Yealink              |Casque DECT à double ou mono WH66                                |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque DECT WH63                                          |12/23/2020      |Certifié pour Microsoft Teams                           |
 |Yealink              |Casque DECT à double ou mono WH62                                |12/23/2020      |Certifié pour Microsoft Teams                           |
-|COLONS/Sennheiser      |Adapter des casques de série 100                                  |12/22/2020      |Certifié pour Microsoft Teams                           |
+|COLONS/Sennheiser      |Adapter des casques 100 séries                                  |12/22/2020      |Certifié pour Microsoft Teams                           |
 |Dell                 |Casque stéréo Pro - UC350                                 |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Dell                 |Casque stéréo Pro - UC150                                 |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Lenovo               |Casque stéréo VoIP filaire Pro                              |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
@@ -118,7 +119,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 | ILS ONT UN GROUPE D’ÉQUIPES                | Casque Sennheiser Adapt 660                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | ILS ONT UN GROUPE D’ÉQUIPES                | Sennheiser Adapt 560 Headset                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | ILS ONT UN GROUPE D’ÉQUIPES                | Sennheiser Adapt 460T headset                             | 5/15/2020      | Certifié pour Microsoft Teams                          |
-| DONT LE TITRE EST LE PLUS GRAND                | Casque Sennheiser Adapt 360                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
+| ILS ONT UN GROUPE D’ÉQUIPES                | Casque Sennheiser Adapt 360                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | Yealink             | Casque UH36                                              | 5/13/2020      | Certifié pour Microsoft Teams                          |
 | Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype Entreprise avec mise à niveau vers Microsoft Teams     |
 | Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype Entreprise avec mise à niveau vers Microsoft Teams     |
