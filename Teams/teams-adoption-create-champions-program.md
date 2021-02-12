@@ -45,11 +45,11 @@ La champions doit :
 
 Utilisez notre [Guide du programme Champions pour](https://go.microsoft.com/fwlink/?linkid=854665) créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les autres :
 
-- Participez [au programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur de Teams et d’autres services Microsoft 365 ou Office 365. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
+- Participez au [programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur de Teams et d’autres services Microsoft 365 ou Office 365. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
 
-- Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
+- Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour eux pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
 
-- Organisez des réunions mensuelles régulières : Favorisez l’enthousiasme et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté combinant des champions.
+- Organisez des réunions mensuelles régulières : Favorisez l’intérêt et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté de champions.
 
     > [!TIP]
     > Pour créer vos agendas, planifier vos réunions pour la semaine après l’appel de la communauté publique. 

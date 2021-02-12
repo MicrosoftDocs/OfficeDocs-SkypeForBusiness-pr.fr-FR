@@ -92,7 +92,7 @@ Le contournement de média et le contrôle d’admission des appels (CAC) foncti
 
 - Le cac et le contournement de média sont tous deux activés. La déviation du média doit être définie pour **utiliser les informations de site et de région.** Ces informations de site et de région sont identiques à celles utilisées pour le cac.
 
-    Si vous activez le service Cac, vous ne pouvez pas sélectionner **Always Bypass** et vice-versa, car les deux configurations s’excluent mutuellement. Autrement dit, une seule des deux s’applique à un appel PSTN donné. Tout d’abord, une vérification est réalisée pour déterminer si la déviation du média s’applique à l’appel. Si c’est le cas, le cac n’est pas utilisé. Cela est logique, car si un appel est éligible pour le contournement, il utilise par définition une connexion où le cac n’est pas nécessaire. Si le contournement ne peut pas être appliqué à l’appel (c’est-à-dire, si les ID de contournement du client et de la passerelle ne correspondent pas), le service Cac est appliqué à l’appel.
+    Si vous activez le service Cac, vous ne pouvez pas sélectionner **Always Bypass** et vice-versa, car les deux configurations s’excluent mutuellement. Autrement dit, une seule des deux s’applique à un appel PSTN donné. Tout d’abord, une vérification est réalisée pour déterminer si la déviation du média s’applique à l’appel. Si c’est le cas, le cac n’est pas utilisé. Cela est logique, car si un appel est éligible pour le contournement, il s’agit par définition d’utiliser une connexion où le cac n’est pas nécessaire. Si le contournement ne peut pas être appliqué à l’appel (c’est-à-dire, si les ID de contournement du client et de la passerelle ne correspondent pas), le service Cac est appliqué à l’appel.
 
 - Cac not enabled and Media Bypass set to **Always Bypass**.
 
@@ -116,6 +116,6 @@ Le contournement de média peut être utilisé lorsque les conditions suivantes 
 
 - L’homologue du serveur de médiation doit accepter le trafic multimédia directement à partir des points de terminaison Skype Entreprise. De nombreux itsps autorisent leur SBC à recevoir du trafic uniquement à partir du serveur de médiation. Contactez votre itsp pour déterminer si son SBC accepte le trafic multimédia directement à partir des points de terminaison Skype Entreprise.
 
-- Les clients Skype Entreprise et un homologue de serveur de médiation doivent être bien connectés, ce qui signifie qu’ils sont situés dans la même région réseau ou sur des sites réseau qui se connectent à la région via des liaisons wan sans contrainte de bande passante.
+- Les clients Skype Entreprise et un homologue de serveur de médiation doivent être bien connectés, ce qui signifie qu’ils se trouvent dans la même région réseau ou sur des sites réseau qui se connectent à la région via des liaisons wan sans contrainte de bande passante
 
 

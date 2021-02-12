@@ -29,7 +29,7 @@ ms.locfileid: "49909078"
 > [!NOTE]
 > Les packages de stratégie ne sont actuellement pas disponibles dans les déploiements Microsoft 365 Government GCC High ou DoD.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Un [package de](manage-policy-packages.md) stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Les packages de stratégie simplifient, rationalisent et garantissent la cohérence lors de la gestion des stratégies. Vous pouvez personnaliser les paramètres des stratégies dans le package pour répondre aux besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package de stratégie, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous pouvez gérer des packages de stratégie à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
 

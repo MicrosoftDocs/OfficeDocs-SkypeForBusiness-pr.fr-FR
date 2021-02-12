@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble de l’implémentation de la mise à niveau vers Microsoft teams
+title: Vue d’ensemble de l’implémentation de votre mise à niveau vers Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Déterminez le chemin optimal de mise à niveau de Microsoft teams en fonction de votre déploiement Skype entreprise actuel.
+description: Déterminez le chemin de mise à niveau optimal vers Microsoft Teams en fonction de votre déploiement actuel de Skype Entreprise.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -29,35 +29,35 @@ ms.locfileid: "49578357"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Vue d’ensemble de l’implémentation de votre mise à niveau
 
-![Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
+![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
-Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau. 
+Cet article fait partie de la phase déploiement et implémentation de votre parcours vers la mise à niveau. 
 
 
 
-## <a name="prerequisite-planning-activities"></a>Activités de planification préalable
+## <a name="prerequisite-planning-activities"></a>Activités de planification des conditions préalables
 
 > [!IMPORTANT]
-> Avant de procéder à la mise à niveau de votre application, vérifiez que vous avez lu le contenu planification en commençant par [planifier votre mise à niveau](upgrade-plan-journey.md) afin de vous assurer que vous avez effectué toutes les activités de planification préalable.
+> Avant de poursuivre votre implémentation de la mise à niveau, confirmez que vous avez lu le contenu de planification à partir de [Planifier](upgrade-plan-journey.md) votre mise à niveau afin de vous assurer que vous avez terminé toutes les planifications préalables.
 
 
-- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Planification du pilotage utilisateur](pilot-essentials.md)
+- [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
+- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Pilote d’utilisateur planifié](pilot-essentials.md)
 - [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 
-## <a name="choose-your-upgrade-starting-point"></a>Choisissez le point de départ de la mise à niveau
+## <a name="choose-your-upgrade-starting-point"></a>Choisir le point de départ de la mise à niveau
 
-Les étapes à suivre pour effectuer la mise à niveau vers teams dépendent de votre déploiement actuel de Skype entreprise :
+Les étapes à suivre pour effectuer votre mise à niveau vers Teams dépendent de votre déploiement actuel de Skype Entreprise :
 
-En fonction de votre environnement actuel, choisissez votre point de départ :  
+En fonction de votre environnement actuel, choisissez votre point de départ :  
 
-- **Si vous effectuez une mise à niveau de Skype entreprise Online vers teams**, suivez les étapes de la procédure de [mise à niveau de Skype entreprise Online vers teams](https://aka.ms/SkypeToTeams-UpgradeOnline).
+- **Si vous faites une mise à** niveau de Skype Entreprise Online vers Teams, suivez les étapes de la mise à niveau de Skype Entreprise Online vers [Teams.](https://aka.ms/SkypeToTeams-UpgradeOnline)
 
--  **Si vous effectuez une mise à niveau à partir d’un environnement local Skype entreprise**, vous devez effectuer des étapes supplémentaires pour configurer la connectivité entre votre environnement local et votre environnement en ligne avant de déplacer vos utilisateurs vers Teams. Pour plus d’informations, reportez-vous à la rubrique [mise à niveau de Skype entreprise sur site vers teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+-  Si vous effectuez une mise à niveau à partir d’un environnement local Skype Entreprise, vous devrez effectuer quelques **étapes** supplémentaires pour configurer la connectivité entre vos environnements locaux et en ligne avant de déplacer vos utilisateurs vers Teams. Pour plus d’informations, consultez la mise à niveau de Skype Entreprise en [local vers Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

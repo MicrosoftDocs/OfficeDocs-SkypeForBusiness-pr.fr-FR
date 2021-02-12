@@ -1,5 +1,5 @@
 ---
-title: Planifier la mise à niveau de Skype entreprise vers Microsoft teams
+title: Planifier la mise à niveau de Skype Entreprise vers Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Apprenez-en davantage sur la façon de planifier votre mise à niveau en effectuant les parties prenantes, puis en étendue du projet.
+description: Découvrez comment planifier votre mise à niveau en s’engageant auprès des parties prenantes, puis en détaille le projet.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -27,21 +27,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578437"
 ---
-# <a name="plan-for-your-upgrade"></a>Planifier la mise à niveau
+# <a name="plan-for-your-upgrade"></a>Planifier votre mise à niveau
 
-![Diagramme du parcours de la mise à niveau de teams](media/upgrade-banner-main.png "Assurez-vous que votre projet est configuré pour réussir avec l’équipe de projet appropriée. Définissez l’étendue de votre projet, vos buts et votre chronologie. Confirmez la compatibilité technique et des utilisateurs. Exécutez votre plan de déploiement. Mettez à jour votre dynamisme pour optimiser les résultats.")
+![Diagramme du voyage de mise à niveau de Teams](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
 
-Le bon fonctionnement de l’environnement technique, de l’adoption des utilisateurs et de la réalisation des objectifs de votre entreprise commence par une planification correcte. Un plan solide fournit une structure pour votre projet de mise à niveau et vous permet de vous assurer que toutes les parties prenantes travaillent aux mêmes buts. Lorsque vous prenez le temps de définir correctement le succès, vous pouvez mesurer les résultats au fur et à mesure de l’avancement de votre déploiement et vérifier que vous êtes en mesure d’obtenir les résultats que vous souhaitez. La planification de votre voyage comprend les éléments suivants :
+Un environnement technique sain, l’adoption par les utilisateurs durable et l’accomplissement de vos objectifs d’entreprise commencent tous par une planification appropriée. Un plan solide offre un cadre pour votre projet de mise à niveau et garantit que toutes les parties prenantes travaillent aux mêmes objectifs. En prenant le temps de définir correctement le succès, vous pouvez mesurer les résultats à mesure que vous progressez dans votre déploiement et vérifier que vous atteignez les résultats souhaités. La planification de votre voyage inclut :
 
-- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définir l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Présentation de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choix de votre mise à niveau en fonction des besoins de votre entreprise](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Planification d’un pilote utilisateur](pilot-essentials.md)
+- [S’inscrire aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
+- [Définition de l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Comprendre la coexistence et l’interopérabilité de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Choix de votre voyage de mise à niveau en fonction des besoins de votre entreprise](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Planification d’un pilote d’utilisateur](pilot-essentials.md)
 
-Une fois que vous avez planifié votre voyage, vous devez lire les rubriques relatives à [la préparation de votre environnement](upgrade-prepare-environment.md) et à [la préparation de votre organisation](upgrade-prepare-organization.md) avant d' [implémenter la mise à niveau](upgrade-to-teams.md).  
+Après avoir planifié votre voyage, vous lireez les rubriques sur la préparation de votre environnement et la préparation de votre organisation [avant](upgrade-prepare-organization.md) d’implémenter [votre mise à niveau.](upgrade-to-teams.md) [](upgrade-prepare-environment.md)  
 
 > [!TIP]
-> Rejoignez-nous pour des ateliers en direct et interactifs qui vous aideront à partager des conseils, des meilleures pratiques et des ressources conçues pour lancer la planification et l’implémentation de la mise à niveau.
+> Rejoignez-nous pour des ateliers interactifs en direct où nous partagerons des recommandations, des pratiques et des ressources destinées à démarrer la planification et l’implémentation de la mise à niveau.
 >
-> Participez d’abord à la planification de votre session de [mise à niveau](https://aka.ms/SkypeToTeamsPlanning) pour commencer.
+> Participez à la session de mise [à](https://aka.ms/SkypeToTeamsPlanning) niveau pour commencer.

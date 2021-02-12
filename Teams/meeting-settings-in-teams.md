@@ -109,7 +109,7 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic réseau, vous pouvez activer les marqueurs de qualité de service et définir des plages de ports pour chaque type de trafic multimédia. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
-> Si vous activez QoS ou modifiez les paramètres dans le Centre d’administration Microsoft Teams pour le service Teams, vous devrez également appliquer des [paramètres correspondants](QoS-in-Teams-clients.md) à tous les appareils des utilisateurs et à tous les périphériques de réseau interne pour implémenter complètement les modifications apportées à QoS dans Teams.
+> Si vous activez la QoS ou modifiez les paramètres dans le Centre d’administration Microsoft Teams pour le service Teams, vous devrez également appliquer des [paramètres correspondants](QoS-in-Teams-clients.md) à tous les appareils des utilisateurs et à tous les périphériques de réseau interne pour implémenter complètement les modifications apportées à QoS dans Teams.
 
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 1. Allez au Centre d’administration.
@@ -123,7 +123,7 @@ Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic rése
         > Le balisage DSCP est généralement effectué via les ports sources et le trafic UDP routera vers le relais de transport avec le port de destination 3478 par défaut. Si votre société requiert un marquage sur les ports de destination, contactez le support technique pour activer la communication au relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
     - Pour spécifier des plages de ports, près de **Sélectionner une plage de port par type de trafic média en temps réel**, sélectionnez **Spécifiez les plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est nécessaire pour implémenter QoS. 
         > [!Note]
-        > Si les marqueurs de qualité de **service (QoS)** pour le trafic multimédia en temps réel sont en cours, vous devez gérer vos paramètres de port. Ils ne sont pas gérés automatiquement.
+        > Si les marqueurs de qualité de **service (QoS)** pour le trafic multimédia en temps réel sont en cours, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
         
         > [!IMPORTANT]
         > Si vous sélectionnez **Utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque la Qualité de service n’est pas mise en œuvre.

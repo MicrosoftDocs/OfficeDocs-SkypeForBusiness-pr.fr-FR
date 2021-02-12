@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
-description: Découvrez comment déployer un seul site RTC dans la version Cloud Connector.
+description: Découvrez le déploiement d’un seul site PSTN dans Cloud Connector Edition.
 ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
 ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
@@ -26,27 +26,27 @@ ms.locfileid: "47358930"
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Déployer un seul site dans Cloud Connector
  
 > [!Important]
-> La version Cloud Connector sera déconnectée le 31 juillet 2021 avec Skype entreprise online. Une fois que votre organisation a effectué la mise à niveau vers Teams, Découvrez comment connecter votre réseau téléphonique local à teams à l’aide du [routage direct](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
 
-Découvrez comment déployer un seul site RTC dans la version Cloud Connector.
+Découvrez le déploiement d’un seul site PSTN dans Cloud Connector Edition.
   
-Vous pouvez déployer Skype entreprise, version Cloud Connector avec ou sans prise en charge de la haute disponibilité (HA). Si vous souhaitez activer la haute disponibilité, vous devez déployer au moins deux Appliances au sein d’un site. Vous pouvez également convertir une appliance existante pour prendre en charge la haute disponibilité après son déploiement.
+Vous pouvez déployer Skype Entreprise, version Cloud Connector avec ou sans la prise en charge de la haute disponibilité (HA). Si vous souhaitez activer la ha, vous devez déployer au moins deux appliances au sein d’un site. Vous pouvez également convertir une appliance existante pour prendre en charge la ha après son déploiement.
   
-## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Déployer la première Appliance Skype entreprise, version Cloud Connector
+## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Déployer la première appliance de la version Cloud Connector de Skype Entreprise
 
-Pour déployer la première appliance sur un site, ouvrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour enregistrer l’appliance :
+Pour déployer la première appliance dans un site, ouvrez une console PowerShell en tant qu’administrateur et exécutez l’cmdlet suivante pour inscrire l’appliance :
   
 ```powershell
 Register-CcAppliance
 ```
 
-Suivez les instructions pour indiquer le nom du compte et le mot de passe de l’administrateur client. Utilisez le compte que vous avez créé pour la gestion en ligne de Cloud Connector. Suivez également les instructions pour indiquer le mot de passe du certificat externe, le mot de passe administrateur en mode sans échec, le mot de passe administrateur de domaine et le mot de passe d’administrateur de l’ordinateur virtuel. 
+Suivez les instructions pour fournir le nom et le mot de passe du compte d’administrateur client. Utilisez le compte que vous avez créé pour la gestion en ligne de Cloud Connector. Suivez également les instructions pour fournir le mot de passe du certificat externe, le mot de passe d’administrateur en mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe d’administrateur de la VM. 
   
-Dans la version 1.4.2 et les versions antérieures, suivez également les instructions pour indiquer le mot de passe du certificat externe, le mot de passe administrateur en mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe d’administrateur VM. 
+Dans la version 1.4.2 et antérieure, suivez également les instructions pour fournir le mot de passe du certificat externe, le mot de passe d’administrateur en mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe d’administrateur de la VM. 
   
-Dans la version 2,0 et les versions ultérieures, suivez également les instructions pour indiquer le mot de passe du certificat externe, le mot de passe CceService et le mot de passe CABackupFile.
+Dans la version 2.0 et ultérieure, suivez également les instructions pour fournir le mot de passe du certificat externe, le mot de passe CceService et le mot de passe CABackupFile.
   
-Pour démarrer l’installation, ouvrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante :
+Pour démarrer l’installation, ouvrez une console PowerShell en tant qu’administrateur et exécutez l’cmdlet suivante :
   
 ```powershell
 Install-CcAppliance
@@ -54,42 +54,42 @@ Install-CcAppliance
 
 ## <a name="add-an-appliance-to-an-existing-site"></a>Ajouter une appliance à un site existant
 
-Vous pouvez étendre un site Cloud Connector existant pour prendre en charge la haute disponibilité en ajoutant des appliances supplémentaires au site. 
+Vous pouvez étendre un site Cloud Connector existant pour prendre en charge la haute qualité de l’expérience en ajoutant des appliances supplémentaires au site. 
   
-1. Suivez les étapes de préparation de votre appliance Cloud Connector comme décrit dans [prepare the Cloud Connector Appliance](prepare-your-cloud-connector-appliance.md). Certaines étapes sont requises uniquement pour la première appliance de votre déploiement. Vérifiez que l’annuaire de sites existe et qu’il est correctement configuré pour la prise en charge de la haute disponibilité.
+1. Suivez les étapes pour préparer votre appliance Cloud Connector comme décrit dans [Préparer votre appliance Cloud Connector.](prepare-your-cloud-connector-appliance.md) Notez que certaines étapes sont requises uniquement pour la première appliance de votre déploiement. Confirmez que l’annuaire de sites existe et qu’il est correctement configuré pour la prise en charge de la ha.
     
-2. Exécutez l’applet de commande suivante uniquement sur le serveur hôte nouvellement ajouté afin de mettre à jour les informations de topologie dans la configuration de votre organisation Microsoft 365 ou Office 365. Si vous souhaitez ajouter plusieurs Appliances en même temps, exécutez l’applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
+2. Exécutez l’cmdlet suivante uniquement sur le serveur hôte nouvellement ajouté pour mettre à jour les informations de topologie dans la configuration de votre organisation Microsoft 365 ou Office 365. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l’cmdlet sur chaque serveur hôte nouvellement ajouté un par un :
     
    ```powershell
    Register-CcAppliance
    ```
 
-3. Mettez à jour la topologie sur les appliances existantes en exécutant l’applet de commande suivante sur chaque serveur hôte. N’exécutez l’applet de commande que sur les appliances existantes.
+3. Mettez à jour la topologie sur les appliances existantes en exécutant l’cmdlet suivante sur chaque serveur hôte. Exécutez uniquement l’cmdlet sur les appliances existantes.
     
    ```powershell
    Publish-CcAppliance
    ```
 
-4. Exécutez l’applet de commande suivante uniquement sur les serveurs hôtes nouvellement ajoutés. N’exécutez pas cette applet de commande sur l’appliance existante. Si vous souhaitez ajouter plusieurs Appliances en même temps, exécutez l’applet de commande sur chaque serveur hôte nouvellement ajouté un par un.
+4. Exécutez la cmdlet suivante uniquement sur les serveurs hôtes nouvellement ajoutés. N’exécutez pas cette cmdlet sur l’appliance existante. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l’cmdlet sur chaque serveur hôte nouvellement ajouté un par un.
     
    ```powershell
    Install-CcAppliance
    ```
 
 > [!NOTE]
-> Si l’annuaire de sites a été défini sur un chemin d’accès au dossier local, vous devez définir un partage de fichiers pour ce dossier et utiliser un chemin d’accès UNC pour l’annuaire de sites sur le nouvel appareil. Vous pouvez laisser le premier annuaire de sites de matériel avec le chemin d’accès local ou le modifier pour utiliser le chemin d’accès UNC du partage vers le même dossier. Si l’emplacement de l’annuaire de sites partagé change, les appliances précédemment installées doivent être désinstallées, puis réinstallées. > important : le mot de passe pour le compte CceService et le compte CABackupFile doit être le même sur toutes les appliances déployées au sein du site, afin que les appliances puissent accéder au partage de l’annuaire de sites et au fichier de sauvegarde de l’autorité de certification chiffré dans l’annuaire de sites. 
+> Si l’annuaire de sites a été défini sur un chemin d’accès de dossier local, vous devez définir un partage de fichiers pour ce dossier et utiliser un chemin UNC pour l’annuaire de sites sur la nouvelle appliance. Vous pouvez laisser le premier répertoire de site appliance avec le chemin d’accès local ou le modifier pour utiliser le chemin d’accès UNC pour le partage vers le même dossier. Si l’emplacement de l’annuaire de sites partagés change, toutes les appliances précédemment installées doivent être désinstallées, puis réinstallées. > Important : le mot de passe du compte CceService et du compte CABackupFile doit être le même sur toutes les appliances déployées dans le site, afin que les appliances peuvent accéder au partage d’annuaire de sites et au fichier de sauvegarde de l’autorité de contrôle d’accès chiffré dans l’annuaire de sites. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Supprimer une appliance d’un site existant
 
-Si vous souhaitez supprimer une appliance d’un site existant :
+Si vous souhaitez supprimer une appliance d’un site existant :
   
-1. Exécutez l’applet de commande suivante uniquement sur les serveurs hôtes que vous souhaitez supprimer du site afin de mettre à jour les informations de topologie dans la configuration de votre organisation Microsoft 365 ou Office 365.
+1. Exécutez la cmdlet suivante uniquement sur les serveurs hôtes que vous souhaitez supprimer du site pour mettre à jour les informations de topologie dans la configuration de votre organisation Microsoft 365 ou Office 365.
     
    ```powershell
    Unregister-CcAppliance
    ```
 
-2. Exécutez l’applet de commande suivante uniquement sur les serveurs hôtes dont vous souhaitez supprimer tous les ordinateurs virtuels de l’appliance.
+2. Exécutez la cmdlet suivante uniquement sur les serveurs hôtes dont vous souhaitez supprimer tous les ordinateurs virtuels de l’appliance.
     
    ```powershell
    Uninstall-CcAppliance

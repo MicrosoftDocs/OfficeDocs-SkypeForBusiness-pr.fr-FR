@@ -26,13 +26,13 @@ Avant de déployer le pool pilote, vous devez mettre à jour les entrées d’h�
 
 1. Sur le serveur DNS, cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
     
-2. Dans l’arborescence de la console de votre domaine, développez **zones de recherche directes**, puis cliquez avec le bouton droit sur le domaine dans lequel Skype entreprise Server 2019 sera installé.
+2. Dans l’arborescence de la console de votre domaine, développez **Zones** de recherche avant, puis cliquez avec le bouton droit sur le domaine dans lequel Skype Entreprise Server 2019 sera installé.
     
 3. Cliquez sur **Nouvel hôte (A ou AAAA)**.
     
-4. Cliquez sur **nom**, tapez le nom d’hôte du pool Skype entreprise Server 2019 (le nom de domaine est supposé à partir de la zone dans laquelle l’enregistrement est défini et il n’est pas nécessaire de l’entrer comme partie de l’enregistrement A).
+4. Cliquez sur Nom , tapez le nom d’hôte pour le pool Skype Entreprise Server 2019 (le nom de domaine est supposé dans la zone où l’enregistrement est défini et n’a pas besoin d’être entré dans l’enregistrement A).
     
-5. Cliquez sur **adresse IP**, puis tapez l’adresse IP du pool frontal.
+5. Cliquez **sur Adresse IP,** puis tapez l’adresse IP du pool frontal.
     
 6. Cliquez sur **Ajouter un hôte**, puis sur **OK**. 
     

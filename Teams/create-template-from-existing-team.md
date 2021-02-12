@@ -1,5 +1,5 @@
 ---
-title: Créer un modèle à partir d’une équipe existante dans Microsoft teams
+title: Créer un modèle à partir d’une équipe existante dans Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment utiliser une équipe existante pour créer un nouveau modèle dans Microsoft Teams.
+description: Découvrez comment utiliser une équipe existante pour créer un modèle dans Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,51 +23,51 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 09/30/2020
 ms.locfileid: "48308117"
 ---
-# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Créer un modèle à partir d’une équipe existante dans Microsoft teams
+# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Créer un modèle à partir d’une équipe existante dans Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Les modèles personnalisés ne sont pas encore pris en charge pour les clients de la version EDU.**
+**Les modèles personnalisés ne sont pas encore pris en charge pour les clients EDU.**
 
-Microsoft teams vous permet de créer un modèle à partir d’une équipe existante qui peut être enregistré et modifié en fonction de vos besoins spécifiques de votre organisation.
+Microsoft Teams vous permet de créer un modèle à partir d’une équipe existante qui peut être enregistrée et modifiée pour répondre aux besoins spécifiques de votre organisation.
 
-1. Connectez-vous au centre d’administration Teams.
+1. Connectez-vous au Centre d’administration Teams.
 
-2. Dans le volet de navigation de **Teams**gauche, développez  >  **modèles d’équipe**équipes.
+2. Dans le groupe de navigation de gauche, **développez les modèles Teams**  >  **Team.**
 
-3. Cliquez sur **Ajouter**.
+3. Sélectionnez **Ajouter**.
 
-4. Sélectionnez **utiliser une équipe existante en tant que modèle**, puis sélectionnez **suivant**.
+4. Sélectionnez **Utiliser une équipe existante comme modèle,** puis **Suivant.**
 
- ![Image de l’écran du point de départ des modèles d’équipe avec utiliser une équipe existante comme modèle en surbrillance.](media/team-existing-team-as-template.png)
+ ![Image des modèles d’équipe avec l’écran de départ d’une équipe existante en tant que modèle mis en évidence.](media/team-existing-team-as-template.png)
 
-5. Sélectionnez une équipe à utiliser comme point de départ en sélectionnant en regard du nom de l’équipe, puis sélectionnez **suivant**.
+5. Sélectionnez une équipe à utiliser comme point de départ en sélectionnant en côté du nom de l’équipe, puis sélectionnez **Suivant.**
 
 ![Image de la liste des équipes avec une équipe mise en évidence.](media/team-existing-team-selection.png)
 
-6. Dans la section **paramètres du modèle** , complétez les champs suivants, puis sélectionnez **suivant**:
+6. Dans la section **Paramètres du modèle,** remplissez les champs suivants, puis sélectionnez **Suivant**:
     - Nom du modèle
-    - Descriptions courtes et longues du modèle
+    - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
   
-7. Dans la section **canaux, onglets et applications** , ajoutez les canaux et applications requis par votre équipe.
+7. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
-    1. Dans la section **canaux** , sélectionnez **Ajouter**.
-    2. Dans la boîte de dialogue **Ajouter** , nommez le canal.
+    1. Dans la section **Canaux,** sélectionnez **Ajouter.**
+    2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
     3. Ajoutez une description.
     4. Décidez si le canal doit être affiché par défaut.
-    5. Recherchez le nom d’une application que vous souhaitez ajouter au canal.
-    6. Sélectionnez **appliquer** lorsque vous avez terminé.
+    5. Recherchez un nom d’application que vous souhaitez ajouter au canal.
+    6. Sélectionnez **Appliquer** lorsque vous avez terminé.
 
-8. Sélectionnez **soumission** pour enregistrer vos modifications.
+8. Sélectionnez **Envoyer** pour enregistrer vos modifications.
 
-Votre nouveau modèle s’affiche dans la liste **modèles d’équipe** . Le modèle peut être utilisé pour créer une équipe dans Teams.
+Votre nouveau modèle est affiché dans la liste **des modèles d’équipe.** Le modèle peut être utilisé pour créer une équipe dans Teams.
 
 > [!Note]
-> Il peut s’écouler jusqu’à 24 heures pour que les utilisateurs de teams puissent voir un modèle personnalisé dans la Galerie.
+> 24 heures peuvent être nécessaire pour que les utilisateurs de Teams voient un modèle personnalisé dans la galerie.
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Commencer à utiliser les modèles d’équipe dans le centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
+- [Utiliser des modèles d’équipe dans le Centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer un modèle à partir d’un modèle d’équipe existant](create-template-from-existing-template.md)
 - [Créer un modèle d’équipe](create-a-team-template.md)

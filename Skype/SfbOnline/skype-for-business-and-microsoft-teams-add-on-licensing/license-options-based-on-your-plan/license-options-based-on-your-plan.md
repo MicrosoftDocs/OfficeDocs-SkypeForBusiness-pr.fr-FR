@@ -18,7 +18,7 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.custom: None
-description: En savoir plus sur la boîte vocale Cloud.
+description: En savoir plus sur la messagerie vocale cloud.
 ms.openlocfilehash: 8c5d5cf27a1cf944c8b837168aceae5da62a5495
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT

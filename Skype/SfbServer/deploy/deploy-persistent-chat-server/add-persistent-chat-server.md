@@ -24,7 +24,7 @@ ms.locfileid: "49825104"
  
 **Résumé :** Lisez cette rubrique pour découvrir comment ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015.
   
-Après avoir installé le logiciel prérequis sur chaque serveur sur lequel vous prévoyez de déployer le serveur de conversation permanente, utilisez le Générateur de topologie pour : 
+Après avoir installé le logiciel prérequis sur chaque serveur sur lequel vous prévoyez de déployer le serveur de conversation permanente, vous utilisez le Générateur de topologie pour : 
   
 - Mettre à jour votre topologie pour inclure le serveur de conversation permanente
     

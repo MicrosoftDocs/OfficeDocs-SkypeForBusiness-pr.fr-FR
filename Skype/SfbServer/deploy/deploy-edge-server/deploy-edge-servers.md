@@ -92,7 +92,7 @@ Pour effectuer ces étapes correctement, vous devez avoir suivi les étapes de l
     
 6. La boîte de dialogue Configurer **le réplica local du magasin central de** gestion s’affiche. Vous devez cliquer sur **Importer à partir d’un fichier (recommandé pour les serveurs Edge).**
     
-7. À partir de là, accédez à l’emplacement de la topologie que vous avez exportée précédemment, sélectionnez le fichier .zip, cliquez sur **Ouvrir,** puis cliquez sur **Suivant**.
+7. À partir de là, accédez à l’emplacement de la topologie que vous avez exportée précédemment, sélectionnez le fichier .zip, cliquez sur **Ouvrir,** puis sur **Suivant**.
     
 8. L’Assistant Déploiement lit le fichier de configuration et écrit le fichier de configuration XML sur l’ordinateur local.
     
@@ -273,7 +273,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;l. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide de l’extension **de fichier .pfx**. Le chemin d’accès doit être accessible par les autres serveurs Edge du pool, ou vous devez déplacer le fichier au moyen d’un support externe (par exemple, un lecteur USB). Cliquez **sur Suivant** lorsque vous avez fait votre choix.
     
-&nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue **Fin de** l’Assistant Exportation de certificat, puis cliquez sur **Terminer.**
+&nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue Fin de l’Assistant **Exportation de** certificat, puis cliquez sur **Terminer.**
     
 &nbsp;&nbsp;&nbsp;n. Cliquez **sur OK** dans la boîte de dialogue d’exportation réussie.
     
@@ -356,7 +356,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;c. Dans la page **Tâches de certificats disponibles,** cliquez sur **Importer un certificat à partir d’un . Fichier P7b, .pfx ou .cer**.
     
-&nbsp;&nbsp;&nbsp;d. Dans la page **Importer** un certificat, tapez le chemin d’accès complet et  le nom de fichier du certificat que vous avez obtenu dans la section précédente (ou vous pouvez cliquer sur Parcourir pour rechercher et choisir le fichier de cette façon). Si votre certificat contient une clé privée, veillez à sélectionner Le fichier de certificat contient la clé privée du certificat **et** entrez le mot de passe de la clé privée. Cliquez **sur Suivant** lorsque vous êtes prêt.
+&nbsp;&nbsp;&nbsp;d. Dans la page **Importer** un certificat, tapez le chemin d’accès complet et  le nom de fichier du certificat que vous avez obtenu dans la section précédente (ou vous pouvez cliquer sur Parcourir pour rechercher et choisir le fichier de cette façon). Si votre certificat contient une clé privée, veillez à sélectionner le fichier de certificat contenant la clé privée du **certificat,** puis entrez le mot de passe de la clé privée. Cliquez **sur Suivant** lorsque vous êtes prêt.
     
 &nbsp;&nbsp;&nbsp;e. Dans la page **Résumé de l’importation de** certificat, consultez les informations récapitulatifs, puis cliquez sur **Suivant**.
     
@@ -371,7 +371,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;b. Cliquez **sur Démarrer,** **Exécuter** (ou **ouvrir la** recherche), puis **tapez MMC**.
     
-&nbsp;&nbsp;&nbsp;c. Dans la console MMC, cliquez sur **Fichier,** puis sur **Ajouter/Supprimer un logiciel en snap-in.**
+&nbsp;&nbsp;&nbsp;c. Dans la console MMC, cliquez sur **Fichier,** puis sur **Ajouter/Supprimer un logiciel en snap-in**.
     
 &nbsp;&nbsp;&nbsp;d. Dans la **zone Ajouter ou supprimer des logiciels** en un clin d’œil, cliquez sur **Certificats,** puis cliquez sur **Ajouter**.
     
@@ -404,7 +404,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;l. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide de l’extension **de fichier .pfx**. Le chemin d’accès doit être accessible par les autres serveurs Edge du pool, ou vous devez déplacer le fichier au moyen d’un support externe (par exemple, un lecteur USB). Cliquez **sur Suivant** lorsque vous avez fait votre choix.
     
-&nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue **Fin de** l’Assistant Exportation de certificat, puis cliquez sur **Terminer.**
+&nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue Fin de l’Assistant **Exportation de** certificat, puis cliquez sur **Terminer.**
     
 &nbsp;&nbsp;&nbsp;n. Cliquez **sur OK** dans la boîte de dialogue d’exportation réussie.
     

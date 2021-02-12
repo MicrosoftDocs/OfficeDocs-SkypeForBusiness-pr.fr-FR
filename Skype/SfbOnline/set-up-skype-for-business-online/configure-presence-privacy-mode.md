@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
-description: 'Apprenez à configurer le mode de confidentialité pour vos utilisateurs afin qu’ils puissent mieux contrôler la façon dont les personnes voient leur disponibilité. '
+description: 'Découvrez comment configurer le mode de confidentialité pour vos utilisateurs afin qu’ils contrôlent mieux la façon dont les utilisateurs voient leur disponibilité. '
 ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
 ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
@@ -30,21 +30,21 @@ ms.locfileid: "48753439"
 # <a name="configure-presence-privacy-mode"></a>Configurer le mode de confidentialité de la présence
 
 > [!IMPORTANT]
-> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour pouvoir gérer les fonctionnalités Skype entreprise dans le centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de l’administrateur général ou de l’administrateur Skype entreprise. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le Centre d’administration Microsoft Teams a remplacé le Centre d’administration Skype Entreprise (portail hérité). Tous les paramètres de gestion de Skype Entreprise sont désormais dans le Centre d’administration Teams. Pour gérer les fonctionnalités de Skype Entreprise dans le Centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) d’administrateur global ou d’administrateur Skype Entreprise. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
-Le paramètre de présence de Skype entreprise Online donne aux personnes davantage de contrôle sur qui peut voir si elles sont disponibles, en réunion ou absent (e) du bureau. Pour plus d’informations sur les paramètres de présence et de confidentialité de Skype entreprise, reportez-vous à la rubrique [configuration de la présence dans Skype entreprise Online](configure-presence-in-skype-for-business-online.md). 
+Le paramètre de présence de Skype Entreprise Online donne aux utilisateurs davantage de contrôle sur les personnes qui peuvent voir s’ils sont disponibles, en réunion ou en dehors du bureau. Pour plus d’informations sur les paramètres de présence et de confidentialité de Skype Entreprise, consultez Configurer la [présence dans Skype Entreprise Online.](configure-presence-in-skype-for-business-online.md) 
   
-## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Sélectionner le paramètre de présence en ligne par défaut pour tous les membres de votre organisation
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Choisir le paramètre de présence en ligne par défaut pour tous les membres de votre organisation
 <a name="__top"> </a>
 
-1. Accédez au centre d’administration de Skype entreprise Online > **> général**de l’organisation.
+1. Dans le Centre d’administration Skype Entreprise Online, > **organisation > général.**
     
-2. Sous **mode de confidentialité**de la présence, choisissez le paramètre, puis cliquez sur **Enregistrer**.
+2. Sous **Mode de confidentialité de la** présence, sélectionnez le paramètre, puis cliquez sur **Enregistrer.**
     
-|**Paramètres**|**Qui peut voir la présence d’un utilisateur ?**|
+|**Paramètres**|**Qui peut afficher la présence d’un utilisateur**|
 |:-----|:-----|
-|**Afficher automatiquement des informations de présence** <br/> |Tout utilisateur de Skype entreprise qui n’appartient pas au groupe de confidentialité **externe** ou **bloqué** . <br/> |
-|**Afficher les informations de présence uniquement aux contacts d’un utilisateur** <br/> |Toute personne figurant dans la liste de contacts d’un utilisateur et qui n’appartient pas au groupe de confidentialité **externe** ou **bloqué** . <br/> Les utilisateurs individuels peuvent modifier ce paramètre dans la boîte de dialogue **options** Skype entreprise. <br/> |
+|**Afficher automatiquement des informations de présence** <br/> |Tout utilisateur Skype Entreprise n’appartenant pas au groupe de confidentialité **Externe** **ou** Bloqué. <br/> |
+|**Afficher les informations de présence uniquement aux contacts d’un utilisateur** <br/> |Toute personne dans la liste des contacts d’un utilisateur qui n’appartient pas au groupe de confidentialité **Externe** **ou** Bloqué. <br/> Les utilisateurs individuels peuvent modifier ce paramètre dans la boîte de dialogue **Options** de Skype Entreprise. <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)

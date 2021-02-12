@@ -1,5 +1,5 @@
 ---
-title: Effectuer une mise à niveau vers teams à partir d’un déploiement local de Skype entreprise-Microsoft teams
+title: Mise à niveau vers Teams à partir d’un déploiement local de Skype Entreprise - Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -24,38 +24,38 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578397"
 ---
-# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype entreprise vers teams &mdash; pour les administrateurs informatiques
+# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype Entreprise vers Teams &mdash; pour les administrateurs informatiques
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Lorsque vous procédez à la mise à niveau de Skype entreprise vers équipes, certaines organisations requièrent un lancement progressif qui est planifié et géré par leurs services informatiques. Les Articles de cette section s’appliquent principalement aux administrateurs informatiques au sein d’organisations de grande envergure. Ces organisations sont généralement locales, mais peuvent également être des organisations Skype entreprise Online de grande envergure. Avant de lire cet article, assurez-vous de lire la [mise à niveau de votre équipe](upgrade-start-here.md) et de [l’infrastructure de mise à niveau](upgrade-framework.md).
+Lors de la mise à niveau de Skype Entreprise vers Teams, certaines organisations nécessitent un déploiement progressif planifié et géré par leurs services informatiques. Les articles de cette section s’appliquent principalement aux administrateurs informatiques des grandes organisations. Ces organisations sont généralement locales, mais il peut également s’agit d’organisations Skype Entreprise Online de grande taille. Avant de lire ces articles, n’oubliez pas de lire les articles [Mise](upgrade-start-here.md) à niveau et À propos de l’infrastructure [de mise à niveau de Teams.](upgrade-framework.md)
 
 
-Les articles suivants vous guident tout au long du processus de mise à niveau de votre organisation : 
+Les articles suivants vous guideront tout au long du processus de mise à niveau pour votre organisation : 
 
 - [Méthodes de mise à niveau](upgrade-to-teams-on-prem-upgrade-methods.md)
 - [Outils de gestion de votre mise à niveau](upgrade-to-teams-on-prem-tools.md)
-- [Autres considérations concernant les organisations avec Skype entreprise en local](upgrade-to-teams-on-prem-considerations.md)
+- [Autres éléments à prendre en considération pour les organisations avec Skype Entreprise sur site](upgrade-to-teams-on-prem-considerations.md)
 - [Implémenter votre mise à niveau](upgrade-to-teams-on-prem-implement.md)
-- [Considérations relatives au réseau téléphonique public commuté (RTC)](upgrade-to-teams-on-prem-pstn-considerations.md)
+- [Considérations sur le réseau téléphonique commuté (PSTN)](upgrade-to-teams-on-prem-pstn-considerations.md)
 
-De plus, les articles suivants décrivent des concepts importants de mise à niveau et des comportements de coexistence :
+Par ailleurs, les articles suivants décrivent les concepts de mise à niveau et les comportements de coexistence importants :
 
-- [Coexistence des équipes et de Skype entreprise](upgrade-to-teams-on-prem-coexistence.md)
-- [Modes de coexistence-référence](migration-interop-guidance-for-teams-with-skype.md)
+- [Coexistence de Teams et de Skype Entreprise](upgrade-to-teams-on-prem-coexistence.md)
+- [Modes de coexistence - Référence](migration-interop-guidance-for-teams-with-skype.md)
 - [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 >[!NOTE]
->Les articles suivants utilisent les termes Skype entreprise Online, Skype entreprise Server en local et Skype entreprise. Ce terme fait référence à des versions en ligne et locales.
+>Les articles suivants utilisent les termes Skype Entreprise Online, Skype Entreprise Server en local et Skype Entreprise. Ce dernier terme fait référence à des versions en ligne et en local.
 
-Avant de commencer, sachez qu’un utilisateur qui a migré vers teams n’utilise plus un client Skype entreprise, à l’exception de la participation à une réunion hébergée dans Skype entreprise.  Toutes les conversations et les appels entrants dans le client teams de l’utilisateur, que l’expéditeur utilise teams ou Skype entreprise. Toutes les nouvelles réunions organisées par l’utilisateur migré seront planifiées en tant que réunions d’équipes. Si l’utilisateur tente d’utiliser le client Skype entreprise, l’ouverture de conversations et d’appels est bloquée.  Toutefois, l’utilisateur peut (et doit) toujours utiliser le client Skype entreprise pour participer aux réunions Skype entreprise auxquelles il est invité. (Les anciens clients Skype entreprise livrés avant 2017 ne respectent pas TeamsUpgradePolicy. Vérifiez que vous utilisez la dernière version du client Skype entreprise.)
+Avant de commencer, sachez qu’un utilisateur qui a été migré vers Teams n’utilise plus un client Skype Entreprise sauf pour participer à une réunion hébergée dans Skype Entreprise.  Toutes les conversations et appels entrants arrivent dans le client Teams de l’utilisateur, que l’expéditeur utilise Teams ou Skype Entreprise. Les nouvelles réunions organisées par l’utilisateur migré seront organisées en tant que réunions Teams. Si l’utilisateur tente d’utiliser le client Skype Entreprise, le démarrage de conversations et d’appels est bloqué.  Toutefois, l’utilisateur peut (et doit) continuer à utiliser le client Skype Entreprise pour participer aux réunions Skype Entreprise à qui il est invité. (Les anciens clients Skype Entreprise expédiés avant 2017 n’utilisent pas TeamsUpgradePolicy. Assurez-vous d’utiliser le dernier client Skype Entreprise.)
  
-Vous gérez la transition de votre utilisateur vers teams à l’aide du concept de [mode](migration-interop-guidance-for-teams-with-skype.md), qui est une propriété de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un utilisateur qui a été migré vers teams comme décrit ci-dessus est en mode « TeamsOnly ».  Dans le cas d’une organisation migrant vers Teams, l’objectif ultime consiste à déplacer tous les utilisateurs vers le mode TeamsOnly.
+Vous gérez la transition de vos utilisateurs vers Teams en utilisant le concept de [mode,](migration-interop-guidance-for-teams-with-skype.md)qui est une propriété de [TeamsUpgradePolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) Un utilisateur ayant été migré vers Teams comme décrit ci-dessus est en mode « TeamsOnly ».  Pour une organisation qui migre vers Teams, l’objectif ultime est de déplacer tous les utilisateurs en mode TeamsOnly.
 
 >[!NOTE]
->Les utilisateurs disposant d’un compte Skype entreprise local ne peuvent pas être TeamsOnly. Même si ces utilisateurs peuvent [utiliser teams en mode îlot](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype), cela ne procure pas la fonctionnalité d’équipe complète disponible en mode TeamsOnly. Pour faire en sorte que ces utilisateurs TeamsOnly, ils doivent être déplacés vers le Cloud en utilisant `Move-CsUser` les outils Skype entreprise Server sur site.
+>Les utilisateurs qui ont un compte Skype Entreprise sur site ne peuvent pas être TeamsOnly. Bien que ces utilisateurs peuvent utiliser Teams en [mode Îles,](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)cela ne fournit pas l’ensemble complet de la fonctionnalité Teams disponible en mode TeamsOnly. Pour que ces utilisateurs teamsOnly, ils doivent être déplacés vers le cloud à l’aide des `Move-CsUser` outils Skype Entreprise Server locaux.
 
-Bien. Commençons.  La première étape consiste à comprendre les [méthodes de mise à niveau disponibles](upgrade-to-teams-on-prem-upgrade-methods.md).
+Bien. Commençons.  La première étape consiste à comprendre les [méthodes de mise à niveau à votre disposition.](upgrade-to-teams-on-prem-upgrade-methods.md)
 
 
 
@@ -69,7 +69,7 @@ Bien. Commençons.  La première étape consiste à comprendre les [méthodes de
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurer une connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Déplacer des utilisateurs entre l’environnement local et le cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
@@ -77,5 +77,5 @@ Bien. Commençons.  La première étape consiste à comprendre les [méthodes de
 
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Utiliser le service de migration de réunion (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Utilisation du service Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 

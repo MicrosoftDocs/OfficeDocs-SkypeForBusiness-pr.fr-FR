@@ -104,7 +104,7 @@ Le tableau suivant décrit comment les restrictions de routage Location-Based so
 |Point de terminaison PBX dans n’importe quel site  <br/> |Utilisateur Skype Entreprise dans un site réseau inconnu  <br/> |Le transfert consultatif sera autorisé  <br/> |
 |Point de terminaison PBX dans n’importe quel site  <br/> |Utilisateur Skype Entreprise fédéré  <br/> |Le transfert consultatif sera autorisé  <br/> |
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 L’application de routage Location-Based pour la conférence nécessite que la mise à jour cumulative 2 de Skype Entreprise Server ou Lync Server 2013 soit déployée sur tous les pools Front-End et serveurs Standard Edition Server de votre topologie. Si ces versions de serveur ne sont pas installées sur certains serveurs de votre topologie, les restrictions de routage Location-Based ne peuvent pas être entièrement appliquées aux réunions et aux transferts d’appels consultatifs.
 

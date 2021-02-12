@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits en Arabie saoudite, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+description: En savoir plus sur les numéros gratuits de numérotation en Arabie saoudite, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 5625d4f7ef04ba9365a4c0169d168e0a479fff89
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,21 +33,21 @@ ms.locfileid: "43139823"
 ---
 # <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a>Restrictions de numérotation gratuit en Arabie Saoudite
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> | 800 814 XXXX <br/>  800 850 XXXX <br/> |
-|Code ISO pays/région  <br/> |SA  <br/> |
-|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> | 800 814 XXXX <br/>  800 850 XXXX <br/> |
+|Code ISO de pays/région  <br/> |SA  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Via STC uniquement.  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Via STC uniquement.  <br/> |
 |Disponibilité de réseau mobile  <br/> |Via STC uniquement.  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

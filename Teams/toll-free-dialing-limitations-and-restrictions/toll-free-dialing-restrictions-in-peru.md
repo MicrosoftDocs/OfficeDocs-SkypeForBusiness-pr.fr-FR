@@ -22,7 +22,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
 ms.openlocfilehash: 49c276a925e2cf1458399c6bd3714656fac099e2
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -32,21 +32,21 @@ ms.locfileid: "41693449"
 ---
 # <a name="toll-free-dialing-restrictions-in-peru"></a>Restrictions de numérotation gratuit au Pérou
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
-|**Détails**|**Description**|
+|**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |0 800 XX XXX  <br/> |
-|Code ISO pays/région  <br/> |PE  <br/> |
-|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> |0 800 XX XXX  <br/> |
+|Code ISO de pays/région  <br/> |PE  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

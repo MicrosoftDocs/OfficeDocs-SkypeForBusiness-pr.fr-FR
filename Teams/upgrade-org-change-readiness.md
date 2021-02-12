@@ -38,18 +38,18 @@ Cet article fait partie de la phase User Readiness de votre voyage de mise à ni
 - [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Après avoir sécurisé votre équipe de projet et défini votre vision, votre étendue et vos objectifs, l’étape suivante dans votre démarche de mise à niveau consiste à vous assurer que votre organisation et vos utilisateurs sont prêts pour Teams, une activité que vous pouvez effectuer en parallèle de votre préparation technique. Pour se rendre compte de la valeur de Teams, les utilisateurs doivent l’utiliser. L’activation de Teams ne garantit pas que vous avez atteint votre objectif. Les utilisateurs utilisent des cas d’utilisation et des styles d’apprentissage variés, et s’adaptent à la nouvelle technologie à des vitesses différentes. La bonne nouvelle, c’est que la gestion des changements n’est pas compliquée, mais cela prend des efforts concentrés. Les discussions guidées ci-dessous sont destinées à vous aider à comprendre votre base d’utilisateurs, afin de préparer le niveau d’éducation qui vous permet de faciliter et d’accélérer l’adoption par les utilisateurs. Il existe deux façons d’examiner votre base d’utilisateurs :
+Une fois que vous avez sécurisé votre équipe de projet et défini votre vision, votre étendue et vos objectifs, l’étape suivante dans votre démarche de mise à niveau consiste à vous assurer que votre organisation et vos utilisateurs sont prêts pour Teams, une activité que vous pouvez effectuer en parallèle de votre préparation technique. Pour se rendre compte de la valeur de Teams, les utilisateurs doivent l’utiliser. L’activation de Teams ne garantit pas que vous avez atteint votre objectif. Les utilisateurs utilisent des cas d’utilisation et des styles d’apprentissage variés, et s’adaptent à la nouvelle technologie à des vitesses différentes. La bonne nouvelle, c’est que la gestion des changements n’est pas compliquée, mais cela prend des efforts concentrés. Les discussions guidées ci-dessous sont destinées à vous aider à comprendre votre base d’utilisateurs, afin de préparer le niveau d’éducation qui vous permet de faciliter et d’accélérer l’adoption par les utilisateurs. Il existe deux façons d’examiner votre base d’utilisateurs :
 
-- **Préparation pour les changements d’organisation**: Compréhension du temps (ou non) à quoi les utilisateurs réagit généralement. Ces informations vous aideront à connaître la quantité de sensibilisation, de formation et de vente à vendre dont vous pourriez avoir besoin pour stimuler l’adoption par les utilisateurs.
+- **Préparation pour les changements d’organisation**: Comprendre le temps dont les utilisateurs réagissent généralement aux changements. Ces informations vous aideront à connaître la quantité de sensibilisation, de formation et de vente à vendre dont vous pourriez avoir besoin pour stimuler l’adoption par les utilisateurs.
 - **Scénarios de travail** d’équipe : Le fait de comprendre le fonctionnement des utilisateurs vous permettra d’ma carter Teams à leurs activités professionnelles, en accélérant l’adoption et en facilitant la transition loin de Skype Entreprise.
 
 > [!Note]
-> Vous pouvez adapter les activités d’évaluation ci-dessous à toute initiative de changement de votre organisation. Répondez aux questions en fonction de l’étendue de votre projet. Dans les discussions suivantes, la « nouvelle solution » peut s’appliquer aux appels audio, aux audioconférences ou à la mise à niveau de Skype Entreprise vers Teams.
+> Vous pouvez adapter les activités d’évaluation ci-dessous à toute initiative de changement de votre organisation. Répondez aux questions en fonction de l’étendue de votre projet. Dans les discussions suivantes, la « nouvelle solution » peut s’appliquer aux appels audio, aux audioconférences ou à votre mise à niveau de Skype Entreprise vers Teams.
 
 | | |
 |---|---|
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelle est la culture de votre organisation en matière de changement ?</li><li>Comment la nouvelle technologie peut-elle optimiser la façon dont les utilisateurs travaillent ?</li><li>Quels utilisateurs ont besoin d’une attention particulière pour leur demander de modifier leur mode de travail ?</li></ul> |
-| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les recommandations suivantes et les activités associées pour capturer le profil de préparation utilisateur de votre organisation.</li></ul>|
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les recommandations suivantes et les activités associées pour capturer le profil de disponibilité des utilisateurs de votre organisation.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>Préparation pour les changements d’organisation
 
@@ -97,18 +97,18 @@ Utilisez les démarreurs de conversation suivants pour effectuer une évaluation
 
 Microsoft Teams étend les fonctionnalités de Skype Entreprise et offre une solution complète de communication et de collaboration. Lorsque vous concevez votre plan de mise à niveau des utilisateurs de Skype Entreprise vers Teams, réfléchissez à la puissance de la collaboration en équipe à la fois pour enthousiasmer les utilisateurs et faciliter la transition de Skype Entreprise vers Teams.
 
-Au fond, le travail d’équipe est la manière dont les personnes travaillent ensemble pour être efficace. Il s’agit d’aligner les bonnes personnes avec les outils appropriés d’une manière qui fonctionne pour elles. Teams rassemble les personnes, les conversations, les fichiers et les projets dans un espace de travail commun, créant ainsi un véritable hub pour le travail d’équipe au niveau de votre organisation.
+Le travail d’équipe est essentiel à la manière dont les personnes travaillent ensemble pour être efficace. Il s’agit d’aligner les bonnes personnes avec les outils appropriés d’une manière qui fonctionne pour elles. Teams rassemble les personnes, les conversations, les fichiers et les projets dans un espace de travail commun, créant ainsi un véritable hub pour le travail d’équipe dans votre organisation.
 
 Comprendre le fonctionnement du travail des utilisateurs et la manière dont ils se rassemblent peuvent aider les utilisateurs à comprendre comment ils peuvent utiliser Teams, ce qui facilite l’absence de Skype Entreprise. Il existe deux façons essentielles de penser aux scénarios de travail d’équipe : autour de personnes et de projets.
 
 - **Le travail d’équipe** centré sur des projets est centré sur un projet ou une initiative spécifique (par exemple, la planification d’un événement de lancement de produit). De la planification de l’étendue à la gestion budgétaire, en aux efforts marketing, le travail d’équipe centrée sur les projets aide à aligner les flux de travail des projets, tout en maintenant tout le monde informé.
--  Le travail d’équipe axée sur les personnes se base sur des personnes ayant des responsabilités ou attributs similaires, qui peuvent travailler dans la même équipe (par exemple, équipe commerciale, équipe de terrain) ou entre équipes (par exemple, champions des pairs). Qu’il s’agit de discuter avec un collègue pour obtenir une réponse à une question ou de participer à une réunion d’équipe, les activités centrées sur les personnes incluent le partage d’informations et la création de rapports.
+-  Le travail d’équipe centré sur les personnes est axé sur les personnes ayant des responsabilités ou attributs similaires qui peuvent travailler dans la même équipe (par exemple, équipe commerciale, équipe de terrain) ou entre équipes (par exemple, champions des pairs). Qu’il s’agit de discuter avec un collègue pour obtenir une réponse à une question ou de participer à une réunion d’équipe, les activités centrées sur les personnes incluent le partage d’informations et la création de rapports.
 
-Pour 100%2010 teams, créez une stratégie de travail d’équipe incluant les deux scénarios, aidant les utilisateurs à comprendre comment Teams peut fonctionner pour eux.
+Pour obtenir le meilleur des équipes, créez une stratégie de travail d’équipe qui inclut les deux scénarios, aidant les utilisateurs à comprendre comment Teams peut fonctionner pour eux.
 
 | | |
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Quels scénarios de travail d’équipe liez-vous pour accélérer l’adoption de Teams par les utilisateurs et faciliter la mise à niveau à partir de Skype Entreprise ?</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Quels scénarios de travail d’équipe liez-vous afin d’accélérer l’adoption de Teams par les utilisateurs et de faciliter la mise à niveau à partir de Skype Entreprise ?</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les exemples ci-dessous pour créer vos propres scénarios de travail d’équipe. Documentez-les dans le [workbook de mise à niveau.](https://aka.ms/upgradesuccesskit)</li><li>Pour des scénarios et exemples supplémentaires, voir la [Bibliothèque de productivité](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Exemples
@@ -137,7 +137,7 @@ Travail d’équipe centrée sur les personnes : Équipe commerciale **(par** ex
 
 ### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Conseils pour identifier un « bon ajustement » à votre stratégie de travail d’équipe
 
-Il peut être facile de s’emporter pour former une stratégie de travail d’équipe pour chaque utilisateur, chaque équipe et chaque projet. Chaque projet ou équipe n’a pas besoin d’une stratégie de travail d’équipe entièrement définie. Voici quelques bonnes pratiques pour la mise en place de la gestion des biens :
+Il peut être facile de s’emporter pour former une stratégie de travail d’équipe pour chaque utilisateur, chaque équipe et chaque projet. Chaque projet ou équipe n’a pas besoin d’une stratégie de travail d’équipe entièrement définie. Voici quelques bonnes pratiques pour la mise en place d’une telle mise en place :
 
 - Envisagez les projets entre équipes qui débutent ou sont à venir.
   - Planification d’événements : coordination à partir de plusieurs équipes (budget, logistique, présentations, et ainsi de suite)

@@ -139,7 +139,7 @@ Pour vérifier l’installation du portail Web d’administration de SRS v1, vou
 
 Après avoir déployé SRS sur le serveur, vous pouvez vérifier l’état de toutes les salles SRS en vous inscrivant dans le portail Web d’administration de SRS v1 à partir d’un navigateur.
 
-### <a name="sign-in"></a>Connexion
+### <a name="sign-in"></a>Se connecter
 
 1. Accédez à l’URL suivante :
 
@@ -209,7 +209,7 @@ Il n’existe aucune limite au nombre de salles SRS que vous pouvez sélectionne
 
 Pour effectuer une opération de gestion en bloc, sélectionnez les salles à surveiller, puis cliquez sur le menu Gestion en bloc.
 
-### <a name="frequently-asked-questions"></a>Foire aux questions
+### <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Pourquoi ne puis-je pas me connecter au portail web d’administration ?
 

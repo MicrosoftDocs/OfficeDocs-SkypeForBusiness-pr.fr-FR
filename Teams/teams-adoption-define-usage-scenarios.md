@@ -30,7 +30,7 @@ ms.locfileid: "49804594"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Définir des scénarios d’utilisation de Microsoft Teams
 
-Veillez à comprendre les projets (scénarios) qui seront dans l’étendue de cette phase de votre implémentation. Jetez un coup d’œil à cette liste d’exemples de scénarios qui sont les bons choix pour un programme de l’utilisateur précoce. Vous pouvez gagner facilement des gains, par exemple :
+Veillez à comprendre les projets (scénarios) qui seront dans l’étendue de cette phase de votre implémentation. Jetez un coup d’œil à cette liste d’exemples de scénarios qui sont les bons choix pour un programme de l’utilisateur précoce. Vous pouvez commencer par gagner facilement, par exemple :
 
 - Productivité personnelle
 - Gestion de projet moderne
@@ -53,7 +53,7 @@ Ce scénario est un processus cumulé qui vous permet de réaliser des choses av
 
 Pour confirmer la sélection de ces projets précoces, nous vous recommandons de rencontrer directement les parties prenantes identifiées précédemment dans ce processus. Votre objectif à ce stade est d’écouter et d’en apprendre davantage sur son activité. Prenons les questions suivantes pour conduire la conversation :
 
-- Quels sont les problèmes ou difficultés de l’organisation en relation avec la communication et la collaboration ?
+- Quels sont les problèmes ou difficultés que l’organisation peut surmonter en relation avec la communication et la collaboration ?
 - Quels sont les domaines dans lesquels votre organisation souhaite s’améliorer ?
 - Quels sont les projets stratégiques ou les projets de transformation en cours de l’organisation que Teams peut prendre en charge ?
 - Quelles méthodes de communication et de collaboration sont généralement mieux reçues par votre organisation que les autres ?

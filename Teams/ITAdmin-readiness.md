@@ -54,7 +54,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Routage direct | [Vidéo 1 : Planification du routage direct dans Teams](https://aka.ms/teams-dr-plan)<br>[Vidéo 2 : configuration et gestion du routage direct dans Teams](https://aka.ms/teams-dr-config)<br>[Vidéo 3 : migration vers le routage direct dans Teams](https://aka.ms/teams-dr-migrate)  | [Support de présentation](https://aka.ms/teams-direct-routing-deck) |
 | Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1: Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) </br>[Vidéo 2: Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3: Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4: Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin) | [Support de présentation](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Bases de salle Teams pour les professionnels de l'& av</h2>
+<h2>Bases de salle Teams pour les professionnels de l&'informatique et des professionnels de l’av</h2>
 
 <p>Le tableau suivant contient des liens vers des vidéos de formation complètes, avec des supports de présentation PowerPoint (au format PDF) dans des salles Microsoft Teams.  
 

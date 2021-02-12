@@ -59,7 +59,7 @@ N’oubliez pas qu’après avoir mis à niveau un téléphone Teams vers un pé
 
 3. Dans la boîte de dialogue Afficher la mise à niveau vers **Teams,** sélectionnez **Planifier** la mise à niveau pour définir la date et l’heure de la mise à niveau ou de la mise à **niveau maintenant.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Capture d’écran montrant la boîte de dialogue Afficher la mise à niveau vers Teams":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Capture d’écran montrant la boîte de dialogue d’affichage Mettre à niveau vers Teams":::
 
 > [!NOTE]
 > Si vous recevez un message vous indique que vos téléphones sélectionnés ne peuvent pas être mis à niveau, vérifiez que vous sélectionnez les téléphones qui supportent la mise à [niveau,](#which-teams-phones-can-be-upgraded)puis essayez à nouveau.

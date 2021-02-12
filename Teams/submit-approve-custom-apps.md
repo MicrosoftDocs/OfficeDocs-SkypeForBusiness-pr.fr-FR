@@ -50,7 +50,7 @@ La plateforme de développement Microsoft Teams permet aux développeurs d’int
 
 ### <a name="submit-the-app"></a>Envoyer l’application
 
-Lorsque l’application est prête à être utilisées en production, le développeur peut soumettre l’application à l’aide de l’API Soumission de l’application Teams, qui peut être appelée à partir de <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">l’API Graph</a>, d’un environnement de développement intégré (IDE), tel que code Visual Studio, ou d’une plateforme telle que Power Apps et les agents virtuels Power. Cette faisant, l’application est disponible sur la <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams, où vous, l’administrateur, pouvez l’examiner et l’approuver.
+Lorsque l’application est prête à être utilisées en production, le développeur peut soumettre l’application à l’aide de l’API Soumission de l’application Teams, qui peut être appelée à partir de <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">l’API Graph,</a>d’un environnement de développement intégré tel que code Visual Studio ou d’une plateforme telle que Power Apps et les agents virtuels Power. Cette faisant, l’application est disponible sur la <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams, où vous, l’administrateur, pouvez l’examiner et l’approuver.
 
 L’API Soumission d’application Teams, conçue sur <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph,</a>permet à votre organisation de développer sur la plateforme de votre choix et automatise le processus de soumission d’approbation pour les applications personnalisées sur Teams.
 
@@ -58,15 +58,15 @@ Voici un exemple de l’étape de soumission de l’application dans Visual Stud
 
 ![Envoi d’une application dans Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
-Gardez à l’esprit que cette application ne publie pas encore l’application sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Centre d’administration Microsoft Teams où vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
+N’oubliez pas que l’application n’est pas encore publiée sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Centre d’administration Microsoft Teams où vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
 
 Pour plus d’informations sur l’utilisation de l’API Graph pour envoyer des applications, voir <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">ici.</a>
 
 ## <a name="validate"></a>Validate
 
-La page <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Gérer les</a> applications du Centre d’administration Microsoft Teams (dans le panneau de navigation de gauche, allez à l’application **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams de  >  votre organisation. Le **widget d’approbation** en attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
+La page <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Gérer les</a> applications du Centre d’administration Microsoft Teams (dans le panneau de navigation de gauche, allez à l’application **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams de  >  votre organisation. Le **widget Approbation en** attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
 
-Dans la table, une application nouvellement envoyée affiche automatiquement le **statut** Publication **d’Soumis** et **État** de **Bloqué.** Vous pouvez trier la **colonne État de publication** dans l’ordre décroit pour trouver rapidement l’application.
+Dans la table, une application nouvellement envoyée affiche automatiquement le statut Publication d’Soumis et Le **statut** **Bloqué.**   Vous pouvez trier la **colonne État de publication** dans l’ordre décroit pour trouver rapidement l’application.
 
 ![état de publication ](media/custom-app-lifecycle-validate-app.png)
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur l’utilisation de l’API Graph pour vérifier *
 
 Lorsque vous êtes prêt à mettre l’application à la disposition des utilisateurs, publiez l’application.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **l’application Teams** Gérer  >  **les applications.**
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les **applications Teams**  >  **Gérer les applications.**
 2. Cliquez sur le nom de l’application pour aller à la page des détails de l’application, puis dans la zone État de **publication,** sélectionnez **Publier.**
 
     Après avoir publié l’application, le statut **publication** passe à Publié **et** **l’état** passe automatiquement à **Autorisé.**
@@ -93,13 +93,13 @@ Par défaut, tous les utilisateurs de votre organisation peuvent accéder à l�
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Épingler et installer l’application pour les utilisateurs
 
-Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre de l’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et attribuez-la aux utilisateurs. Pour en savoir plus, consultez <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Gérer les stratégies de configuration d’application dans Teams.</a>
+Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent trouver, ils doivent se rendre dans le magasin d’applications de votre organisation et la parcourir ou la rechercher. Pour faciliter l’accès des utilisateurs à l’application, vous pouvez épingler l’application à la barre de l’application dans Teams. Pour ce faire, créez une stratégie de configuration d’application et affectez-la aux utilisateurs. Pour en savoir plus, consultez <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Gérer les stratégies de configuration d’application dans Teams.</a>
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Rechercher des événements d’application Teams dans le journal d’audit
 
 Vous pouvez effectuer des recherches dans le journal d’audit pour afficher l’activité des applications Teams dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, consultez Rechercher des événements dans Teams dans le journal <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">d’audit.</a>
 
-Avant d’effectuer des recherches dans le journal d’audit, vous devez activer l’audit dans le Centre <a href="https://protection.office.com" target="_blank">& conformité.</a> Pour en savoir plus, voir Activer ou désactiver la recherche dans le <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">journal d’audit.</a> Gardez à l’esprit que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
+Avant d’effectuer une recherche dans le journal d’audit, vous devez activer l’audit dans le Centre <a href="https://protection.office.com" target="_blank">& conformité.</a> Pour en savoir plus, voir Activer ou désactiver la recherche dans le <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">journal d’audit.</a> N’oubliez pas que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
 
 ## <a name="discover-and-adopt"></a>Découvrir et adopter
 
@@ -152,7 +152,7 @@ Dans la plupart des cas, après la publication d’une mise à jour d’applicat
 
 ![option de mise à niveau pour une application](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Publier une application personnalisée en chargeant un package d’application](upload-custom-apps.md)
 - [Gérer vos applications dans le Centre d’administration Microsoft Teams](manage-apps.md)

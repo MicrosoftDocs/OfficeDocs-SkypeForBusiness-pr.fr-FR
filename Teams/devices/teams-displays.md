@@ -36,8 +36,8 @@ Pour en savoir plus, consultez les écrans [Mise en place de Teams.](https://sup
 En plus des fonctionnalités pris en [charge par les téléphones Teams,](phones-for-teams.md#features-supported-by-teams-phones)les fonctionnalités suivantes sont propres aux affichages Teams :
 
 - **Écrans dédiés pour Teams** Les utilisateurs peuvent accéder à toutes les fonctionnalités principales de Teams, notamment les discussions, les réunions, les appels, les équipes et les canaux, les fichiers et bien plus encore.
-- **Expérience ambiant** Les utilisateurs peuvent facilement garder un œil sur leur travail grâce à des affichages toujours actifs et coup d’œil pour voir les activités et notifications importantes sans basculement vers le contexte sur leur appareil professionnel principal. Les utilisateurs peuvent également personnaliser les écrans de Teams en personnalisant l’arrière-plan via les paramètres.
-- **Mains libres avec Cortana** Les utilisateurs peuvent interagir avec les affichages de Teams à l’aide de leur voix pour rejoindre et présenter facilement des réunions, dicter des réponses à une conversation Teams, consulter le calendrier et bien plus encore.
+- **Expérience ambiant** Les utilisateurs peuvent facilement garder un œil sur leur travail grâce à des affichages toujours actifs et coup d’œil pour voir les activités et notifications importantes sans basculement vers le contexte sur leur appareil professionnel principal. Les utilisateurs peuvent également personnaliser les écrans de Teams en personnalisant l’arrière-plan à l’aide des paramètres.
+- **Mains libres avec Cortana** Les utilisateurs peuvent interagir avec les affichages de Teams à l’aide de leur voix pour rejoindre et présenter facilement des réunions, dicter des réponses à une conversation Teams, vérifier le reste du calendrier et bien plus encore.
 - **Laisser une note sur l’écran de verrouillage** Les invités peuvent choisir de laisser des notes audio, vidéo et textuelles, et les utilisateurs peuvent consulter les notes laissés par les invités et voir qui est là.  
 
 ## <a name="required-licenses"></a>Licences requises
@@ -48,7 +48,7 @@ Pour plus d’informations sur l’accès à Teams, consultez comment accéder [
 
 ## <a name="deploy-teams-displays-using-intune"></a>Déployer teams s’affiche à l’aide d’Intune
 
-Pour en savoir plus sur le déploiement des affichages teams à l’aide d’Intune, consultez Déployer les téléphones [et les affichages de Teams.](phones-displays-deploy.md)
+Pour en savoir plus sur le déploiement des affichages de Teams à l’aide d’Intune, consultez Déployer les téléphones [et les affichages de Teams.](phones-displays-deploy.md)
 
 ## <a name="manage-teams-displays-in-your-organization"></a>Gérer les affichages Teams dans votre organisation
 

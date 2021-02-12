@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Cette rubrique contient les étapes de déploiement de clients recommandées avant la migration vers Skype entreprise Server 2019. Ces modifications de configuration doivent être effectuées sur Lync Server 2013 ou Skype entreprise Server 2015.
+description: Cette rubrique contient les étapes de déploiement de client recommandées que vous devez suivre avant de migrer vers Skype Entreprise Server 2019. Ces modifications de configuration doivent être apportées sur Lync Server 2013 ou Skype Entreprise Server 2015.
 ms.openlocfilehash: fd630898d064c8ba079f87ce571e73de8cf0aaf9
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,13 +20,13 @@ ms.locfileid: "44754064"
 ---
 # <a name="configure-clients-for-migration"></a>Configurer les clients pour la migration
 
-Cette rubrique contient les étapes de déploiement de clients recommandées avant la migration vers Skype entreprise Server 2019. Ces modifications de configuration doivent être effectuées sur Lync Server 2013 ou Skype entreprise Server 2015 (la version **à partir de**laquelle vous effectuez la migration).
+Cette rubrique contient les étapes de déploiement de client recommandées que vous devez suivre avant de migrer vers Skype Entreprise Server 2019. Ces modifications de configuration doivent être apportées sur Lync Server 2013 ou Skype Entreprise Server 2015 (la version à partir de la **migration).**
   
 ### <a name="to-configure-clients-before-migration"></a>Pour configurer les clients avant la migration
 
-1. Déployez les mises à jour les plus récentes du serveur, du client et du périphérique (correctifs) pour votre installation existante.
+1. Déployez les mises à jour de serveur, client et périphérique les plus récentes (correctifs logiciels) pour votre installation existante.
     
-2. Sur la version précédente de Skype entreprise Server, utilisez le filtrage de version du client pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées.
+2. Sur la version précédente de Skype Entreprise Server, utilisez le filtrage de version du client pour autoriser uniquement les clients avec les mises à jour les plus récentes installées.
     
 ## <a name="see-also"></a>Voir aussi
 

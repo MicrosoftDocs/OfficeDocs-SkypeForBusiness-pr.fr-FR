@@ -1,5 +1,5 @@
 ---
-title: Gérer et filtrer les balises de périphérique de Microsoft teams
+title: Gérer et filtrer les balises d’appareil Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
-description: Découvrez comment gérer et filtrer des balises sur vos appareils Microsoft Teams.
+description: Découvrez comment gérer et filtrer les balises sur vos appareils Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
@@ -23,79 +23,79 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 09/18/2020
 ms.locfileid: "47962895"
 ---
-# <a name="manage-microsoft-teams-device-tags"></a>Gérer les balises de périphérique de Microsoft teams
+# <a name="manage-microsoft-teams-device-tags"></a>Gérer les balises d’appareil Microsoft Teams
 
-Dans Microsoft Teams, les balises d’appareil vous permettent de regrouper, d’organiser et de gérer plus facilement les appareils que vous avez déployés au sein de votre organisation. Le centre d’administration Microsoft teams vous permet d’ajouter un ou plusieurs indicateurs aux appareils, d’utiliser des filtres pour afficher les appareils qui correspondent à la balise que vous spécifiez, puis d’effectuer des actions sur les appareils qui ont cette balise.
+Les balises d’appareil dans Microsoft Teams vous permet de grouper, d’organiser et de gérer plus facilement les appareils que vous avez déployés dans votre organisation. Le Centre d’administration Microsoft Teams vous permet d’ajouter une ou plusieurs balises à des appareils, d’utiliser des filtres pour afficher les appareils qui correspondent à la balise que vous spécifiez, puis d’effectuer des actions sur les appareils qui y sont associés.
 
-Vous pouvez ajouter une balise d’appareil à plusieurs types d’appareils. Toutefois, lorsque vous ouvrez un volet d’appareil dans le centre d’administration, seuls les appareils de ce type sont renvoyés. Par exemple, vous pouvez affecter la balise « entreprise » aux appareils de bureau et aux salles d’équipes. Si vous recherchez la balise « société » alors que **Devices**vous utilisez des  >  **téléphones**mobiles, seuls les téléphones sont renvoyés. De même, si vous recherchez la balise « entreprise » dans **périphériques**  >  **équipes**, seuls les appareils de salle teams sont renvoyés.
+Vous pouvez ajouter une balise de périphérique à plusieurs types d’appareils. Toutefois, lorsque vous ouvrez un volet d’appareil dans le Centre d’administration, seuls les appareils de ce type sont renvoyés. Par exemple, vous pouvez attribuer la balise « Entreprise » à des téléphones et à des appareils de salles d’équipe. Si vous recherchez la balise « Entreprise » sur **Devices**  >  **Phones,** seuls les téléphones sont renvoyés. De même, si vous recherchez la balise « Entreprise » dans **Salles** Teams sur Appareils, seuls les appareils  >  Salles d’équipe sont renvoyés.
 
-Pour gérer les balises de périphériques, vous devez être un administrateur général, un administrateur de service teams ou un administrateur de périphériques Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
+Pour gérer les balises d’appareil, vous devez être un administrateur global, un administrateur de service Teams ou un administrateur d’appareil Teams. Pour plus d’informations sur les rôles d’administrateur, voir [Utiliser les rôles d’administrateur Microsoft Teams pour gérer Teams.](../using-admin-roles.md)
 
 > [!IMPORTANT]
-> Les balises d’appareil sont affectées au compte de ressources qui est connecté à un appareil. Si vous signez un compte de ressource sur un appareil et que vous l’utilisez pour vous connecter à un autre appareil, les balises d’appareil s’appliquent à un nouvel appareil.
+> Les balises d’appareil sont affectées au compte de ressource connecté à un appareil. Si vous signez un compte de ressource sur un appareil, puis que vous l’utilisez pour vous connectez à un autre appareil, les balises sont appliquées au nouvel appareil.
 
-## <a name="create-remove-or-rename-device-tags"></a>Créer, supprimer ou renommer des balises de périphériques
+## <a name="create-remove-or-rename-device-tags"></a>Créer, supprimer ou renommer des balises d’appareil
 
-À l’aide du volet de gestion des indicateurs de périphériques, vous pouvez :
+À l’aide du panneau de gestion des balises de périphérique, vous pouvez :
 
-- Affichez toutes les balises de votre appareil.
-- Créez facilement plusieurs balises d’appareil, puis affectez-les à des appareils ultérieurement. Les indicateurs peuvent comporter jusqu’à 25 caractères.
-- Supprimer les balises de périphériques qui ne sont plus nécessaires. Avant de pouvoir supprimer une balise d’appareil, vous devez la supprimer de tous les appareils auxquels elle a été ajoutée.
-- Renommer des balises de périphériques. Lorsque vous renommez une balise de périphérique, cette modification est répercutée sur tous les appareils auxquels elle a été ajoutée. Les indicateurs peuvent comporter jusqu’à 25 caractères.
+- Voir toutes les balises de votre appareil.
+- Créez facilement plusieurs balises d’appareil, puis attribuez-les ultérieurement à des appareils. Les balises peuvent avoir un pouvoir de 25 caractères.
+- Supprimez les balises d’appareil qui ne sont plus nécessaires. Avant de pouvoir supprimer une balise d’appareil, vous devez la supprimer de tous les appareils sur qui elle a été ajoutée.
+- Renommer les balises de l’appareil. Lorsque vous renommez une balise d’appareil, cette modification est reflétée sur tous les appareils sur qui elle a été ajoutée. Les balises peuvent avoir un pouvoir de 25 caractères.
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitant le site https://admin.teams.microsoft.com .
-2. Accédez à **périphériques** , puis sélectionnez le volet de l’appareil, tel que **téléphones**.
-3. Sélectionnez **actions** dans le coin supérieur droit de la page, puis sélectionnez **toutes les balises d’appareil**.
-4. Pour créer une balise de périphérique, sélectionnez **+ Ajouter**, indiquez une valeur pour la balise de périphérique, puis sélectionnez l’icône **Enregistrer** .
-5. Pour supprimer une balise de périphérique, sélectionnez les points de suspension **...** en regard de la balise d’appareil que vous voulez supprimer, puis sélectionnez **supprimer**.
+1. Connectez-vous au Centre d’administration Microsoft Teams en visitant https://admin.teams.microsoft.com .
+2. Accédez **à Appareils,** puis sélectionnez un volet de l’appareil, tel que **Téléphones.**
+3. Sélectionnez **Actions** dans le coin supérieur droit de la page, puis **Toutes les balises d’appareil.**
+4. Pour créer une balise d’appareil, sélectionnez **+ Ajouter,** fournissez une valeur pour la balise de l’appareil, puis sélectionnez **l’icône Enregistrer.**
+5. Pour supprimer une balise d’appareil, sélectionnez les ellipses... en côté de la balise de l’appareil que vous voulez supprimer, puis sélectionnez **Supprimer.** 
     > [!NOTE]
-    > Si vous tentez de supprimer une balise de périphérique qui a été ajoutée à des appareils, vous recevez un message vous demandant si vous voulez le supprimer de tous les appareils. Pour cela, puis continuez à supprimer la balise de périphérique, sélectionnez **enlever les appareils**.
-6. Pour renommer une balise de périphérique, sélectionnez les points de suspension **...** en regard de la balise d’appareil que vous voulez renommer, puis sélectionnez **modifier**. Entrez une nouvelle valeur pour la balise Device et sélectionnez l’icône **Save (enregistrer** ).
+    > Si vous tentez de supprimer une balise d’appareil ajoutée aux appareils, vous recevez un message vous demandant si vous souhaitez le supprimer de tous les appareils. Si vous souhaitez le faire et continuer à supprimer la balise de l’appareil, sélectionnez **Supprimer la balise.**
+6. Pour renommer une balise de périphérique, sélectionnez les ellipses... en côté de la balise de l’appareil que vous voulez renommer, puis sélectionnez **Modifier.**  Fournissez une nouvelle valeur pour la balise de l’appareil, puis sélectionnez **l’icône** Enregistrer.
 
 ## <a name="add-or-remove-tags-on-a-single-device"></a>Ajouter ou supprimer des balises sur un seul appareil
 
-Lorsque vous ajoutez des indicateurs à un appareil, vous pouvez sélectionner une balise existante ou en créer une nouvelle. Les indicateurs peuvent comporter jusqu’à 25 caractères.
+Lorsque vous ajoutez des balises à un appareil, vous pouvez soit sélectionner une balise existante, soit en créer une. Les balises peuvent avoir un pouvoir de 25 caractères.
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitant le site https://admin.teams.microsoft.com .
-2. Accédez à **périphériques** , puis sélectionnez le volet de périphériques contenant l’appareil sur lequel vous voulez ajouter ou supprimer des indicateurs.
-3. Activez/désactivez la case à cocher en regard de l’appareil sur lequel vous voulez ajouter ou supprimer des indicateurs, puis sélectionnez **gérer les indicateurs**.
-4. Si vous souhaitez ajouter un indicateur :
-    1. Commencez à taper le nom de l’indicateur que vous voulez ajouter.
-    2. Si la balise existe déjà, sélectionnez-la dans la liste des balises qui sont renvoyées.
-    3. Si la balise n’existe pas, sélectionnez **ajouter «» \<tag name> en tant que nouvelle balise**. Les indicateurs peuvent comporter jusqu’à 25 caractères.
-5. Pour supprimer un indicateur, sélectionnez **X** en regard de la balise que vous voulez supprimer.
-6. Répétez les étapes ci-dessus si vous souhaitez ajouter ou supprimer d’autres indicateurs.
-7. Sélectionnez **appliquer**.
+1. Connectez-vous au Centre d’administration Microsoft Teams en visitant https://admin.teams.microsoft.com .
+2. Accédez **à Appareils,** puis sélectionnez le volet de l’appareil sur qui vous voulez ajouter ou supprimer des balises.
+3. Cochez la cocher en regard de l’appareil sur qui vous voulez ajouter ou supprimer des balises, puis **sélectionnez Gérer les balises.**
+4. Si vous voulez ajouter un balise :
+    1. Commencez à taper le nom de balise que vous voulez ajouter.
+    2. Si l’balise existe déjà, sélectionnez-la dans la liste des balises renvoyées.
+    3. Si l’balise n’existe pas, **sélectionnez Ajouter \<tag name> « » en tant que nouvel balise.** Les balises peuvent avoir un pouvoir de 25 caractères.
+5. Si vous voulez supprimer un balise, sélectionnez **X** en côté de l’balise que vous voulez supprimer.
+6. Répétez les étapes ci-dessus si vous voulez ajouter ou supprimer d’autres balises.
+7. Sélectionnez **Appliquer.**
 
 ## <a name="add-or-remove-tags-on-multiple-devices"></a>Ajouter ou supprimer des balises sur plusieurs appareils
 
-Lorsque vous ajoutez des indicateurs à un appareil, vous pouvez sélectionner une balise existante ou en créer une nouvelle. Les indicateurs peuvent comporter jusqu’à 25 caractères. Si vous souhaitez supprimer une balise de plusieurs appareils, vous devez sélectionner l’utilisateur teams qui est associé à l’appareil et supprimer le mot-clé de l’utilisateur.
+Lorsque vous ajoutez des balises à un appareil, vous pouvez soit sélectionner une balise existante, soit en créer une. Les balises peuvent avoir un pouvoir de 25 caractères. Si vous voulez supprimer une balise de plusieurs appareils, vous devez sélectionner l’utilisateur Teams associé à l’appareil et supprimer la balise de l’utilisateur.
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitant le site https://admin.teams.microsoft.com .
-2. Accédez à **périphériques** , puis sélectionnez le volet de périphériques contenant les appareils sur lesquels vous souhaitez ajouter ou supprimer des indicateurs.
-3. Activez les cases à cocher en regard des appareils sur lesquels vous souhaitez ajouter ou supprimer des indicateurs, puis sélectionnez **gérer les indicateurs**.
-4. Si vous souhaitez ajouter un indicateur :
-    1. Commencez à taper le nom de la balise que vous voulez ajouter dans **gérer les indicateurs pour tous les appareils des utilisateurs de teams**.
-    2. Si la balise existe déjà, sélectionnez-la dans la liste des balises qui sont renvoyées.
-    3. Si la balise n’existe pas, sélectionnez **ajouter «» \<tag name> en tant que nouvelle balise**.
-5. Si vous souhaitez supprimer une balise :
-    1. Développez utilisateurs de la **sélection de équipes**.
-    2. Développez ** \<x> balises** sous le nom de l’utilisateur teams dont vous voulez supprimer les indicateurs.
-    3. Sélectionnez **X** en regard de la balise que vous voulez supprimer.
-6. Répétez les étapes ci-dessus si vous souhaitez ajouter ou supprimer d’autres indicateurs.
-7. Sélectionnez **appliquer**.
+1. Connectez-vous au Centre d’administration Microsoft Teams en visitant https://admin.teams.microsoft.com .
+2. Accédez **à Appareils,** puis sélectionnez le volet de l’appareil qui contient les appareils sur qui vous voulez ajouter ou supprimer des balises.
+3. Cochez les cocher en regard des appareils sur qui vous voulez ajouter ou supprimer des balises, puis sélectionnez **Gérer les balises.**
+4. Si vous voulez ajouter un balise :
+    1. Commencez à taper le nom de balise que vous voulez ajouter dans Gérer les **balises pour tous les appareils des utilisateurs de Teams.**
+    2. Si l’balise existe déjà, sélectionnez-la dans la liste des balises renvoyées.
+    3. Si l’balise n’existe pas, **sélectionnez Ajouter \<tag name> « » en tant que nouvel balise.**
+5. Si vous voulez supprimer un balise :
+    1. Développez **Sélectionner les utilisateurs de Teams.**
+    2. Développez **\<x> les** balises sous le nom de l’utilisateur Teams dont vous souhaitez supprimer les balises.
+    3. Sélectionnez **X** en côté de l’balise à supprimer.
+6. Répétez les étapes ci-dessus si vous voulez ajouter ou supprimer d’autres balises.
+7. Sélectionnez **Appliquer.**
 
-## <a name="use-filters-to-return-devices-with-a-specific-tag"></a>Utiliser des filtres pour renvoyer des appareils avec une balise spécifique
+## <a name="use-filters-to-return-devices-with-a-specific-tag"></a>Utiliser des filtres pour renvoyer les appareils avec une balise spécifique
 
-Si vous avez ajouté des balises d’appareil à vos appareils, vous pouvez les utiliser pour filtrer la liste des appareils de manière à ce qu’elle renvoie uniquement les appareils pour lesquels une balise spécifiée a été ajoutée. Cela peut être utile si vous souhaitez simplement afficher tous les appareils d’une pièce spécifique, tous les appareils d’un type particulier ou tout autre critère que vous avez utilisé lors de l’ajout de vos indicateurs. Vous pouvez également effectuer des actions en bloc sur les appareils renvoyés, par exemple en appliquant des mises à jour dans des ondulations ou en définissant des stratégies de configuration différentes selon les groupes d’appareils identifiés à l’aide de balises de périphériques.
+Si vous avez ajouté des balises d’appareil à vos appareils, vous pouvez les utiliser pour filtrer la liste des appareils afin de renvoyer uniquement les appareils sur qui une balise spécifiée a été ajoutée. Cela peut s’avérer utile si vous souhaitez simplement afficher tous les appareils d’une salle spécifique, tous les appareils d’un certain type ou tout autre critère utilisé lors de l’ajout de vos balises. Vous pouvez également effectuer des actions en bloc sur les appareils renvoyés, comme appliquer des mises à jour par vagues ou définir des stratégies de configuration différentes selon les groupes d’appareils identifiés à l’aide de balises d’appareil.
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitant le site https://admin.teams.microsoft.com .
-2. Accédez à **périphériques** , puis sélectionnez le volet de périphériques contenant les appareils que vous voulez filtrer.
-3. Cliquez sur l’icône de **filtre** .
-4. Si vous ne souhaitez spécifier qu’un seul indicateur, ou si vous souhaitez rechercher les appareils dont vous spécifiez toutes les balises, sélectionnez l’option **respecter toutes les conditions**.
-5. Si vous voulez rechercher des appareils correspondant à une ou plusieurs balises de périphériques, sélectionnez **l’une des conditions suivantes**.
-6. Sélectionnez le champ **balise** , puis spécifiez un nom de balise d’appareil dans le champ **entrer une valeur** .
-7. Si vous souhaitez ajouter d’autres balises d’appareil, sélectionnez **ajouter plus** , puis répétez l’étape 6 pour chaque balise que vous voulez ajouter.
-8. Sélectionnez **appliquer**.
+1. Connectez-vous au Centre d’administration Microsoft Teams en visitant https://admin.teams.microsoft.com .
+2. Accédez **à Appareils,** puis sélectionnez le volet de l’appareil qui contient les périphériques que vous voulez filtrer.
+3. Sélectionnez **l’icône** Filtrer.
+4. Si vous ne souhaitez spécifier qu’une seule balise, ou si vous voulez rechercher les appareils qui ont toutes les balises que vous spécifiez, sélectionnez Faire correspondre **toutes ces conditions.**
+5. Si vous recherchez des appareils qui correspondent à une ou plusieurs balises d’appareil, sélectionnez Faire correspondre **l’une de ces conditions.**
+6. Sélectionnez **le champ Balise,** puis spécifiez un nom de balise de périphérique dans **le champ Entrer une** valeur.
+7. Si vous voulez ajouter d’autres balises d’appareil, sélectionnez Ajouter et répéter l’étape 6 pour chaque balise que vous voulez ajouter. 
+8. Sélectionnez **Appliquer.**
 
-Une fois que vous avez filtré les appareils dans la liste de votre appareil, vous pouvez effectuer des actions comme vous le feriez habituellement. Par exemple, vous pouvez les sélectionner, puis affecter des configurations, modifier leurs paramètres (s’il s’agit d’un appareil d’équipe), et ainsi de suite. Lorsque vous avez terminé, vous pouvez supprimer le filtre en sélectionnant le **X**  en regard de l’entrée de filtre **balise** ou en sélectionnant **Effacer tout** sur le côté droit de la liste.
+Après avoir filtré les appareils de votre liste d’appareils, vous pouvez effectuer des actions sur ces derniers comme vous le faites normalement. Par exemple, vous pouvez les sélectionner, puis leur attribuer des configurations, modifier leurs paramètres (s’il s’il s’est s’il s’hui s’hui sur des appareils Salles Teams), et ainsi de suite. Lorsque vous avez terminé, vous pouvez supprimer le filtre  en sélectionnant le  **X** en face de l’entrée de filtre Balise ou en sélectionnant Effacer tout à droite de la liste.

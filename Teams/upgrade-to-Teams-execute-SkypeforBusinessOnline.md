@@ -1,5 +1,5 @@
 ---
-title: Mise à niveau de Skype entreprise Online vers Microsoft teams
+title: Mettre à niveau Skype Entreprise Online vers Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Découvrez comment mettre à niveau votre organisation vers Microsoft teams via le déploiement de Skype entreprise online.
+description: Découvrez comment mettre à niveau votre organisation vers Microsoft Teams à partir d’un déploiement Skype Entreprise Online.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -29,86 +29,86 @@ ms.locfileid: "49578257"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Mise à niveau de Skype Entreprise Online vers Teams
 
-![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
+![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
-Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau. Avant de continuer, confirmez que vous avez terminé les activités suivantes :
+Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
-- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
+- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
-- [A mené une pilote](https://aka.ms/SkypeToTeams-Pilot)
+- [Conduite d’un pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-Suivez les recommandations de cet article si vous avez entièrement déployé Skype entreprise Online et voulez mettre à niveau vos utilisateurs de Skype entreprise vers Teams. Vous pouvez mettre à niveau les utilisateurs de manière sélective ou sélective, en fonction du parcours de mise à niveau choisi par votre organisation, en attribuant la coexistence et le mode de mise à niveau appropriés à vos utilisateurs.
+Suivez les instructions de cet article si vous avez déployé Skype Entreprise Online et souhaitez mettre à niveau vos utilisateurs de Skype Entreprise vers Teams. Vous pouvez mettre à niveau les utilisateurs de manière sélective ou sur la base du parcours de mise à niveau que votre organisation a choisi, en attribuant le mode de coexistence et de mise à niveau approprié à vos utilisateurs.
 
 > [!IMPORTANT]
-> Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.
+> Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Pour optimiser l’avantage et vous assurer que votre organisation a le temps approprié pour implémenter votre mise à niveau, nous vous encourageons à commencer votre voyage vers Microsoft Teams dès aujourd’hui. N’oubliez pas qu’une mise à niveau réussie aligne les niveaux de préparation technique et utilisateur. N’oubliez pas de tirer parti des conseils qui s’offrent à vous au cours de votre voyage vers Microsoft Teams.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Attribuer le mode de coexistence et de mise à niveau
 
-Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en assignant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du centre d’administration Microsoft teams ou d’une session Windows PowerShell Skype entreprise distante. Vous pouvez effectuer cette opération sur une base par utilisateur ou sur une base d’un client si vous souhaitez mettre à niveau tout le client en une seule étape. 
+Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en attribuant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du Centre d’administration de Microsoft Teams ou d’une session d’Windows PowerShell distante Skype Entreprise. Vous pouvez le faire soit par utilisateur, soit à l’échelle du client si vous voulez mettre à niveau l’intégralité du client en une seule étape. 
 
-Pour plus d’informations, reportez-vous à [définition de votre coexistence et de vos paramètres de mise à](https://aka.ms/SkypeToTeams-SetCoexistence) [TeamsUpgradePolicy : gestion de la migration et de la coexistence](upgrade-to-teams-on-prem-tools.md).
+Pour plus d’informations, voir Définir vos paramètres de [coexistence](https://aka.ms/SkypeToTeams-SetCoexistence) et de mise à niveau et [TeamsUpgradePolicy :](upgrade-to-teams-on-prem-tools.md)gestion de la migration et de la coexistence.
 
-## <a name="upgrade-all-users-to-teams-at-one-time"></a>Mettre à niveau tous les utilisateurs en équipes en même temps
+## <a name="upgrade-all-users-to-teams-at-one-time"></a>Mettre à niveau tous les utilisateurs vers Teams en même temps
 
-Suivez ces étapes pour mettre à niveau tous vos utilisateurs vers teams en même temps.
+Pour mettre à niveau tous vos utilisateurs vers Teams en même temps, suivez ces étapes.
 
-### <a name="step-1-notify-the-users-of-the-change-optional"></a>Étape 1 : informer les utilisateurs de la modification (facultatif)
+### <a name="step-1-notify-the-users-of-the-change-optional"></a>Étape 1 : informer les utilisateurs de la modification (facultatif)
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez **Org-wide settings**  >  **mise à niveau des équipes** des paramètres à l’échelle de l’organisation.
-2. Sous **mode de coexistence**, changez le paramètre **informer les utilisateurs de Skype entreprise qu’une mise à niveau vers teams est disponible** **.**
+1. Dans le Centre d’administration Microsoft Teams, sélectionnez la mise à niveau de Teams **à l’échelle de**  >  **l’organisation.**
+2. En **mode coexistence,** modifiez l’état **d’alerte des** utilisateurs de Skype Entreprise pour leur annoncer qu’une mise à niveau vers Teams est **disponible.**
 
-### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Étape 2 : définir le mode de coexistence sur TeamsOnly pour l’Organisation
+### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Étape 2 : définir le mode de coexistence sur TeamsOnly pour l’organisation
 
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez **paramètres à l’échelle** de l’organisation.
-2. Sélectionner le mode **équipes uniquement** dans la liste déroulante du **mode coexistence** .
+1. Dans le Centre d’administration Microsoft Teams, sélectionnez les paramètres à **l’échelle de l’organisation.**
+2. Sélectionnez Le mode **Équipes** uniquement dans la liste du mode **coexistence.**
 
-## <a name="upgrade-users-in-stages"></a>Mettre à niveau les utilisateurs par étapes
+## <a name="upgrade-users-in-stages"></a>Mettre à niveau les utilisateurs en plusieurs phases
 
-Suivez ces étapes si vous souhaitez mettre à niveau progressivement vos utilisateurs vers TeamsOnly.
+Si vous voulez mettre à niveau progressivement vos utilisateurs vers TeamsOnly, suivez ces étapes.
 
-### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Étape 1 : identifier les groupes d’utilisateurs pour la mise à niveau
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Étape 1 : identifier les groupes d’utilisateurs à mettre à niveau
 
-Il arrive souvent que les organisations choisissent de mettre à niveau leurs organisations en cas d’onde de réussite.  Vous souhaiterez peut-être identifier ces utilisateurs d’abord pour pouvoir les Rechercher dans le centre d’administration Microsoft Teams. Par ailleurs, il est possible que vous souhaitiez utiliser PowerShell pour plus efficacement. Une fois que vous avez identifié le jeu d’utilisateurs pour une vague de mise à niveau donnée, poursuivez les étapes restantes.
+Souvent, les organisations peuvent choisir de mettre à niveau leurs organisations par vagues de réussite d’utilisateurs.  Vous devez d’abord identifier ces utilisateurs afin de pouvoir les rechercher facilement dans le Centre d’administration Microsoft Teams. Vous pouvez également utiliser PowerShell pour le faire plus efficacement. Après avoir identifié l’ensemble des utilisateurs pour une vague de mise à niveau donnée, continuez avec les étapes restantes.
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Étape 2 : définir une notification pour les utilisateurs de l’onde de mise à niveau actuelle (facultatif)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Étape 2 : définir une notification pour les utilisateurs dans la vague de mise à niveau actuelle (facultatif)
 
-Si vous utilisez le centre d’administration de Microsoft Teams, vous pouvez configurer TeamsUpgradePolicy pour 20 utilisateurs à la fois :
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez **utilisateurs**, puis recherchez et activez la case à cocher pour 20 utilisateurs maximum qui doivent être mis à niveau. 
-2. Dans le coin supérieur gauche de ListView, sélectionnez **modifier les paramètres** . 
-3. Dans le **volet modifier les paramètres** à droite, sous **mise à niveau de Microsoft teams**, modifiez l’option demander à **l’utilisateur de Skype entreprise** de **changer.** Remarque : si la valeur du mode de coexistence est « utiliser les paramètres à l’échelle de l’organisation », vous ne verrez pas ce commutateur, vous devez commencer par définir explicitement le mode de coexistence pour ces utilisateurs à la valeur par défaut de l’organisation.
+Si vous utilisez le Centre d’administration Microsoft Teams, vous pouvez configurer TeamsUpgradePolicy pour jusqu’à 20 utilisateurs à la fois :
+1. Dans le Centre d’administration Microsoft Teams, sélectionnez **Utilisateurs,** puis recherchez et sélectionnez plusieurs case à cocher pour jusqu’à 20 utilisateurs qui doivent être mis à niveau. 
+2. Sélectionnez **Modifier les paramètres** dans le coin supérieur gauche de l’écran de liste. 
+3. Dans le **volet Modifier les paramètres** à droite, sous Mise à niveau **de Teams,** modifiez **Notifier** le basculement de l’utilisateur Skype Entreprise sur **On.** Remarque : si la valeur du mode de coexistence est « Utiliser les paramètres à l’échelle de l’organisation », vous ne verrez pas ce commutateur. Vous devez donc définir explicitement le mode de coexistence pour ces utilisateurs sur la valeur par défaut de l’organisation.
 
-Par ailleurs, il est possible que vous puissiez facilement activer les notifications pour les groupes d’utilisateurs à la fois à l’aide de PowerShell. 
+Vous trouverez également peut-être plus facile d’activer les notifications pour des groupes d’utilisateurs à la fois à l’aide de PowerShell. 
 
-### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Étape 3 : définir le mode de coexistence pour les utilisateurs uniquement dans teams
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Étape 3 : définir le mode de coexistence pour les utilisateurs sur Teams uniquement
 
-Lorsque vous êtes prêt à mettre à niveau les utilisateurs de l’onde actuelle pour utiliser teams comme seule application, définissez le mode de coexistence pour les utilisateurs sur équipes uniquement.
+Lorsque vous êtes prêt à mettre à niveau les utilisateurs dans la vague actuelle pour utiliser Teams comme leur seule application, définissez le mode de coexistence pour les utilisateurs sur Teams uniquement.
 
-Si vous utilisez le centre d’administration de Microsoft Teams, vous pouvez configurer TeamsUpgradePolicy pour 20 utilisateurs à la fois :
-1. Dans le centre d’administration de Microsoft Teams, sélectionnez **utilisateurs**, puis cochez la case jusqu’à 20 utilisateurs.
-2. Dans le coin supérieur gauche de ListView, sélectionnez **modifier les paramètres** .
-3. Dans le volet **modifier les paramètres** sur la droite, sous la section **mise à niveau de Microsoft teams** , définissez le mode de coexistence sur **équipes uniquement** dans la liste déroulante.
+Si vous utilisez le Centre d’administration Microsoft Teams, vous pouvez configurer TeamsUpgradePolicy pour jusqu’à 20 utilisateurs à la fois :
+1. Dans le Centre d’administration Microsoft Teams, sélectionnez **Utilisateurs,** puis cochez la case d’un nombre d’utilisateurs jusqu’à 20.
+2. Sélectionnez **Modifier les paramètres** dans le coin supérieur gauche de l’écran de liste.
+3. Dans le **volet Modifier les paramètres** à droite, sous la section Mise à niveau de **Teams,** définissez le mode coexistence sur **Teams** uniquement dans la liste de liste modifiable.
 
-Par ailleurs, il est possible que vous puissiez constater qu’il est plus facile de mettre à niveau des groupes d’utilisateurs à la fois avec PowerShell. 
+Vous trouverez également peut-être plus facile de mettre à niveau des groupes d’utilisateurs à la fois à l’aide de PowerShell. 
 
-### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Étape 4 : répéter les étapes 1-3 pour les vagues successives d’utilisateurs
+### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Étape 4 : répéter les étapes 1 à 3 pour les vagues successives d’utilisateurs
 
-Lorsque vous validez le mode de mise à niveau en équipes uniquement et que vous êtes prêt à développer, répétez les étapes précédentes pour ajouter TeamsOnly à d’autres utilisateurs.  
+Lorsque vous validez votre mise à niveau vers le mode Teams uniquement et que vous êtes prêt à le développer, répétez les étapes précédentes pour appliquer TeamsOnly à davantage d’utilisateurs.  
 
 
-## <a name="phone-system-and-pstn-connectivity-options"></a>Options système téléphonique et connectivité PSTN
+## <a name="phone-system-and-pstn-connectivity-options"></a>Options de connectivité système téléphonique et PSTN
 
-Le système téléphonique avec teams est pris en charge lorsque l’utilisateur est en mode TeamsOnly. (Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise.)  
+Phone System avec Teams est pris en charge lorsque l’utilisateur est en mode TeamsOnly. (Si l’utilisateur est en mode Îles, Phone System n’est pris en charge qu’avec Skype Entreprise.)  
 
 ### <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
-Dans le cadre de la prise en compte des options de connectivité PSTN (réseau téléphonique commuté), il existe deux scénarios possibles lors du passage de Skype entreprise Online au mode TeamsOnly :
+Lorsque vous envisagez d’utiliser des options de connectivité de réseau téléphonique commuté (PSTN), deux scénarios peuvent s’offrent à vous lorsque vous basculez de Skype Entreprise Online vers le mode TeamsOnly :
 
-- Un utilisateur de Skype entreprise Online avec un plan d’appels Microsoft. Suite à la mise à niveau, cet utilisateur aura besoin d’un plan d’appels Microsoft. Il s’agit du scénario le plus simple qui nécessite uniquement quelques étapes. Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec les offres d’appel Microsoft](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
+- Un utilisateur dans Skype Entreprise Online, avec un plan d’appel Microsoft. Lors de la mise à niveau, cet utilisateur continuera à avoir une offre Microsoft Calling. Il s’agit du scénario le plus simple nécessitant seulement quelques étapes. Pour plus d’informations, [voir À partir de Skype Entreprise Online avec les plans d’appel Microsoft.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)
 
-- Un utilisateur de Skype entreprise Online avec la fonction vocale locale via Skype entreprise local ou la version Cloud Connector. La mise à niveau de l’utilisateur vers teams doit être coordonnée avec la migration de l’utilisateur pour diriger le routage afin de garantir que l’utilisateur TeamsOnly dispose de la fonctionnalité RTC.  Pour plus d’informations, reportez-vous à la rubrique [Skype entreprise Online avec voix locale](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice).
+- Un utilisateur dans Skype Entreprise Online, avec des fonctionnalités vocales en local par le biais de Skype Entreprise en local ou édition Cloud Connector. La mise à niveau de l’utilisateur vers Teams doit être coordonnée avec la migration de l’utilisateur vers le routage direct pour s’assurer que l’utilisateur TeamsOnly dispose de la fonctionnalité PSTN.  Pour plus d’informations, voir : À partir de Skype Entreprise Online avec la [voix sur site.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)
 
 

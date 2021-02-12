@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Apprenez-en davantage sur la numérotation des numéros sans frais en Espagne, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile, et les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits en Espagne, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 25e3877ae472d2fb037876713dca054f54d7ac77
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,21 +33,21 @@ ms.locfileid: "43139793"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrictions de numérotation gratuit en Espagne
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |900 XXX XXX  <br/> |
-|Code ISO pays/région  <br/> |ES  <br/> |
-|Île/territoire couvert  <br/> |Îles Baléares et Îles Canaries  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> |900 XXX XXX  <br/> |
+|Code ISO de pays/région  <br/> |ES  <br/> |
+|Île/territoire couvert par  <br/> |Îles Baléares et Îles Canaries  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Identification mobile utilisant des impulsions différentes disponible.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Identification mobile utilisant des impulsions différentes disponible.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

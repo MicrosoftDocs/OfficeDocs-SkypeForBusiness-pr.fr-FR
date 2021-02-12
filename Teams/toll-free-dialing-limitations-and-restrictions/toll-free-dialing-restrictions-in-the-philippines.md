@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits aux Philippines, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits aux Philippines, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 4d38c75a002733fda1874a7aba3a5a1d08a85ba0
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,21 +33,21 @@ ms.locfileid: "43139753"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Restrictions de numérotation gratuit aux Philippines
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |1 800 XXXX XXXX  <br/> |
-|Code ISO pays/région  <br/> |PH  <br/> |
-|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> |1 800 XXXX XXXX  <br/> |
+|Code ISO de pays/région  <br/> |PH  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> | Via PLDT uniquement. <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> | Via PLDT uniquement. <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel mais à tarif surtaxé. Voir les commentaires.  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Disponible via les réseaux Sun Cellular et Smart Mobile.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Disponible via les réseaux Sun Cellular et Smart Mobile.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

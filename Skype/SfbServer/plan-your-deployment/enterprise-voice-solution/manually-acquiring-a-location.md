@@ -35,7 +35,7 @@ Par exemple, si un client se trouve dans un sous-réseau non définie, à la mai
     
 Vous pouvez configurer le paramètre **Emplacement requis** dans la stratégie d’emplacement pour définir le comportement du client. La définition de cette valeur sur Non signifie que l’utilisateur ne sera pas invité à se rendre sur un emplacement. La définition de cette valeur sur Oui signifie que l’utilisateur est invité à se rendre sur un emplacement, mais peut ignorer l’invite. La définition de cette valeur sur Disclaimer signifie que l’utilisateur est invité à se rendre sur un emplacement et qu’une clause d’exclusion de responsabilité s’affiche s’il tente d’ignorer l’invite. Dans tous les cas, l’utilisateur peut continuer à utiliser le client comme d’habitude.
     
-Lorsqu’un utilisateur entre manuellement un emplacement, celui-ci est mappé à l’adresse MAC de la passerelle par défaut du réseau du client et est stocké dans une table par utilisateur située sur le client. Lorsque l’utilisateur retourne à un emplacement stocké précédemment, le client Skype Entreprise se définit automatiquement à cet emplacement. 
+Lorsqu’un utilisateur entre manuellement un emplacement, il est mappé à l’adresse MAC de la passerelle par défaut du réseau du client et stocké dans une table par utilisateur située sur le client. Lorsque l’utilisateur retourne à un emplacement stocké précédemment, le client Skype Entreprise se définit automatiquement à cet emplacement. 
   
 > [!NOTE]
 > Vous pouvez modifier uniquement l’emplacement actuel de votre client, mais vous pouvez également supprimer n’importe quel emplacement stocké dans la table de l’utilisateur local. 

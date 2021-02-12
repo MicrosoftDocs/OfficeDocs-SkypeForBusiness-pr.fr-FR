@@ -32,7 +32,7 @@ ms.locfileid: "49909088"
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams
 
 > [!IMPORTANT]
-> Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployer au fil du temps. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir StaffHub s’afficheront un message les en dirigerant pour télécharger Teams. Pour en savoir plus, [voir Microsoft StaffHub a été retiré.](microsoft-staffhub-to-be-retired.md)  
+> Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployer au fil du temps. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir StaffHub s’afficheront un message les en directe pour télécharger Teams. Pour en savoir plus, [voir Microsoft StaffHub a été retiré.](microsoft-staffhub-to-be-retired.md)  
 
 ## <a name="overview-of-shifts"></a>Vue d’ensemble de Shifts
 
@@ -50,7 +50,7 @@ Il est important de savoir que Shifts ne prend pas en charge les utilisateurs in
 
 Shifts est disponible dans toutes les S SKUS Entreprise où Teams est disponible.
 
-## <a name="location-of-shifts-data"></a>Emplacement des données shifts
+## <a name="location-of-shifts-data"></a>Emplacement des données Shifts
 
 Les données shifts sont actuellement stockées dans Azure dans des centres de données en Amérique du Nord, en Europe de l’ouest et en Asie-Pacifique. Pour plus d’informations sur l’endroit où sont stockées les données, voir [Où se trouve mes données](http://o365datacentermap.azurewebsites.net/)?
 
@@ -72,7 +72,7 @@ Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation 
 
 ### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser la stratégie de configuration de l’application FrontlineWorker pour épingler Shifts à Teams
 
-Les stratégies de configuration d’application vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications définies dans une stratégie sont épinglées à la barre de l’application sur le côté du client de bureau Teams et en bas des clients mobiles Teams où les utilisateurs peuvent y accéder rapidement et &mdash; &mdash; facilement.
+Les stratégies de configuration d’application vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications définies dans une stratégie sont épinglées à la barre de l’application sur le côté du client de bureau Teams et en bas des clients mobiles Teams, où les utilisateurs peuvent y accéder rapidement et &mdash; &mdash; facilement.
  
 Teams inclut une stratégie de configuration d’application FrontlineWorker intégrée que vous pouvez affecter aux employés de votre organisation qui travaillent en ligne. Par défaut, la stratégie inclut les applications Activité, Shifts, Conversation et Appel. 
 
@@ -90,9 +90,9 @@ Pour afficher la stratégie FrontlineWorker, dans le menu de navigation gauche d
 
 Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité Shifts au niveau de votre organisation.  Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités [Shifts enregistrées](../../audit-log-events.md#shifts-in-teams-activities) dans le journal d’audit, consultez Rechercher des événements dans Teams dans le journal d’audit. [](../../audit-log-events.md)
 
-Avant d’effectuer une recherche dans le journal d’audit, vous devez activer l’audit dans le Centre [& conformité.](https://protection.office.com) Pour en savoir plus, voir Activer ou désactiver la recherche dans le [journal d’audit.](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) Gardez à l’esprit que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
+Avant d’effectuer des recherches dans le journal d’audit, vous devez activer l’audit dans le Centre [& conformité.](https://protection.office.com) Pour en savoir plus, voir Activer ou désactiver la recherche dans le [journal d’audit.](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) N’oubliez pas que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Aide shifts pour les employés en avant-première](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Aide shifts pour les employés en ligne en avant-première](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Attribuer des stratégies à vos utilisateurs](../../assign-policies.md)

@@ -26,39 +26,39 @@ ms.locfileid: "48203717"
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
 
-Les onglets permettent aux membres de l’équipe d’accéder aux services et au contenu dans un espace dédié au sein d’un canal ou d’une conversation. Cela permet à l’équipe de travailler directement avec des outils et des données, et d’avoir des conversations sur les outils et données, le tout dans le contexte du canal ou de la discussion.
+Les onglets permettent aux membres d’une équipe d’accéder aux services et au contenu dans un espace dédié au sein d’un canal ou d’une conversation. Cela permet à l’équipe de travailler directement avec des outils et des données, et de discuter des outils et des données, dans le contexte du canal ou de la conversation.
 
-Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Des onglets peuvent être ajoutés pour aider les utilisateurs à accéder aux données et à les gérer plus facilement. Il peut s’agir d’un rapport Power BI, d’un tableau de bord ou même d’un canal vidéo [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) sur lequel vous publiez des vidéos de formation.
+Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Des onglets peuvent être ajoutés pour permettre aux utilisateurs d’accéder et de gérer facilement les données dont ils ont besoin ou avec qui ils interagissent le plus. Il peut s’agit d’un rapport Power BI, d’un tableau de bord ou même d’un canal [vidéo Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) dans lequel vous publiez des vidéos de formation.
 
 ![Trois captures d'écran de différents contenus dans des onglets.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 >[!Note]
-> Les modifications apportées à l’aide de Microsoft Stream to [OneDrive entreprise et de SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) seront une approche progressive. Au moment de l’exécution, vous serez en mesure de vous abonner à cette expérimentation en novembre, si vous voulez continuer à utiliser le flux de travail et que, à un 2021 moment donné, il est nécessaire que tous les clients utilisent OneDrive entreprise et SharePoint pour les nouveaux enregistrements de réunion.
+> Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
-## <a name="work-with-tabs"></a>Utiliser les onglets
+## <a name="work-with-tabs"></a>Travailler avec les onglets
 
-- Avec chaque nouveau canal, deux onglets sont approvisionnés par défaut : les conversations et les fichiers.
+- Avec chaque nouveau canal, deux onglets sont provisionés par défaut : Conversations et Fichiers.
 
     ![Capture d'écran de la section Conversation de l'équipe Marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- Avec chaque discussion privée, quatre onglets sont approvisionnés par défaut : les conversations, les fichiers, l’organisation et l’activité.
+- Pour chaque conversation privée, quatre onglets sont provisionés par défaut : Conversations, Fichiers, Organisation et Activité.
 
-    ![Capture d’écran des onglets d’une discussion.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+    ![Capture d’écran des onglets d’une conversation.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Les propriétaires et les membres de l’équipe peuvent ajouter d’autres onglets à un canal ou une conversation en cliquant sur **Ajouter une** ![ capture d’écran du bouton Ajouter un onglet avec le signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la discussion.
+- Les propriétaires et les membres de l’équipe peuvent  ajouter d’autres onglets à un canal ou une conversation en cliquant sur Ajouter une capture d’écran d’onglet du bouton Ajouter un onglet, avec ![ un signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la conversation.
 
-- Les fichiers Excel, PowerPoint, Word et PDF doivent être téléchargés sur l’onglet **fichiers** pour pouvoir être convertis en onglets. Tout fichier téléchargé existant peut être converti en un onglet d’un simple clic, comme illustré ci-dessous.
+- Pour pouvoir être convertis en onglets, les  fichiers Excel, PowerPoint, Word et PDF doivent être téléchargés dans l’onglet Fichiers. Les fichiers téléchargés existants peuvent être convertis en onglets d’un simple clic, comme illustré ci-dessous.
 
     ![Capture d'écran de l'onglet Fichiers avec un fichier PowerPoint sélectionné.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- Pour ajouter un site Web, l’URL doit commencer par un préfixe **https** , de sorte que les informations échangées restent sécurisées.
+- Pour ajouter un site web, l’URL doit commencer par un **préfixe https** afin que les informations échangées restent sécurisées.
 
-- Des instructions détaillées sont fournies lorsqu’un membre d’une équipe tente d’ajouter un onglet personnalisé à un canal ou une conversation. Lors de l’ajout d’un onglet personnalisé à un canal, une **conversation par onglets** est créée pour permettre aux membres de l’équipe d’avoir des discussions ciblées sur le contenu.
+- Des instructions détaillées sont fournies lorsqu’un membre de l’équipe tente d’ajouter un onglet personnalisé à son canal ou sa conversation. Lorsqu’un onglet personnalisé est ajouté à un canal, une **conversation** par onglets est créée, qui permet aux membres de l’équipe d’avoir des discussions axées sur le contenu.
 
     ![Capture d’écran d’un onglet personnalisé avec une conversation par onglets sur la droite](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>Développer des onglets personnalisés
 
-Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à teams ou partager avec le reste de la communauté. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/tabs/what-are-tabs).
+Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à Teams ou les partager avec le reste de la communauté. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/tabs/what-are-tabs).
 
 ![Capture d'écran d'un onglet personnalisé d'exemple dans Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Mettre à jour les appareils Microsoft teams à distance
+title: Mettre à jour les appareils Microsoft Teams à distance
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
@@ -12,7 +12,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Mise à jour des téléphones et des barres de collaboration de Microsoft teams à l’aide du centre d’administration teams
+description: Mettre à jour les téléphones et les barres de collaboration de Microsoft Teams à distance à l’aide du Centre d’administration Teams
 ms.openlocfilehash: e57ca3f357deeb005f845d37a17c4b20db5d2035
 ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
@@ -20,62 +20,62 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 09/18/2020
 ms.locfileid: "47962885"
 ---
-# <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour les appareils Microsoft teams à distance
+# <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour les appareils Microsoft Teams à distance
 
-À l’aide du centre d’administration de Microsoft Teams, vous pouvez mettre à jour les appareils de votre équipe, tels que les téléphones et les barres de collaboration, et vous pouvez choisir le comportement de mise à jour automatique du microprogramme du périphérique. Vous pouvez mettre à jour les éléments suivants sur vos appareils à l’aide du centre d’administration teams :
+Le Centre d’administration Microsoft Teams vous permet de mettre à jour vos appareils Teams, tels que les téléphones et les barres de collaboration, à distance, et vous pouvez choisir le comportement de mise à jour automatique du microprogramme de l’appareil. Vous pouvez mettre à jour ce qui suit sur vos appareils à l’aide du Centre d’administration Teams :
 
-- Application équipes et agent d’administration des équipes
+- Application Teams et agent d’administration teams
 - Application portail d’entreprise
-- Application OEM agent
-- Microprogramme du périphérique
+- Application agent OEM
+- Microprogramme de l’appareil
 
-Les mises à jour du microprogramme de périphériques peuvent être appliquées automatiquement ou planifiées pour des dates et heures ultérieures. Les autres mises à jour de périphériques disponibles ne s’appliquent pas automatiquement, mais peuvent être appliquées manuellement ou programmées pour des dates et heures ultérieures.
+Les mises à jour du microprogramme de l’appareil peuvent être appliquées automatiquement ou prévues pour une date et une heure futures. Les autres mises à jour disponibles sur les appareils ne sont pas appliquées automatiquement, mais peuvent être appliquées manuellement ou pour une date et une heure futures.
 
 > [!NOTE]
-> Si les mises à jour de microprogramme de périphériques peuvent être planifiées, si la date et l’heure planifiées se trouvent après le délai maximal configuré de 30 ou 90, la mise à jour du microprogramme est appliquée lorsque le délai maximal est atteint. La date et l’heure planifiées ne sont pas prises en compte. En outre, la mise à jour des appareils Microsoft teams à distance est une fonctionnalité qui n’est pas encore disponible pour les clients du Cloud fédéral des États-Unis (GCC-High).
+> Si des mises à jour du microprogramme de l’appareil peuvent être programmées, si la date et l’heure prévues tombent après le délai maximal de 30 ou 90 jours configuré, la mise à jour du microprogramme est appliquée lorsque le délai maximal est atteint. La date et l’heure prévues sont ignorées. En outre, la mise à jour des appareils Microsoft Teams à distance est une fonctionnalité qui n’est pas encore disponible sur les clients Cloud du gouvernement américain (GCC-High).
 
-Pour gérer les appareils, vous devez être un administrateur général, un administrateur de service teams ou un administrateur d’appareil Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
+Pour gérer les appareils, vous devez être administrateur global, administrateur du service Teams ou administrateur de périphériques Teams. Pour plus d’informations sur les rôles d’administrateur, voir [Utiliser les rôles d’administrateur Microsoft Teams pour gérer Teams.](../using-admin-roles.md)
 
-## <a name="choose-automatic-device-firmware-update-behavior"></a>Choisir le comportement de mise à jour automatique du microprogramme de périphérique
+## <a name="choose-automatic-device-firmware-update-behavior"></a>Choisir le comportement de mise à jour automatique du microprogramme de l’appareil
 
-Les mises à jour du microprogramme du périphérique s’appliquent automatiquement. Vous pouvez décider si vous souhaitez appliquer les mises à jour dès qu’une mise à jour est activée (si vous choisissez cette option, les mises à jour sont appliquées le premier week-end après la sortie d’une mise à jour) ou 30 ou 90 jours après la sortie d’une mise à jour. Par défaut, les mises à jour du microprogramme de périphériques s’appliquent 30 jours après la sortie.
+Les mises à jour du microprogramme de l’appareil sont appliquées automatiquement. Vous pouvez choisir d’appliquer les mises à jour dès leur publication (si vous choisissez cette option, les mises à jour sont appliquées le premier week-end suivant la publication d’une mise à jour) ou 30 ou 90 jours après la publication d’une mise à jour. Par défaut, les mises à jour du microprogramme de l’appareil sont appliquées 30 jours après leur publication.
 
 > [!IMPORTANT]
-> La dernière mise à jour du microprogramme n’est pas appliquée sur votre appareil Teams. Au lieu de cela, la mise à jour appliquée automatiquement sur votre appareil est retardée d’une version. Par exemple, supposons que votre appareil dispose de la version « 10 » appliquée et qu’une version « 11 » soit publiée. La version « 11 » n’est pas encore appliquée. Votre appareil est mis à jour à la place de la version « 11 » après la version « 12 ».
+> La dernière version de mise à jour du microprogramme n’est pas appliquée à votre appareil Teams. Au lieu de cela, la mise à jour appliquée automatiquement sur votre appareil est retardée d’une version. Par exemple, supposons que la version « 10 » soit appliquée à votre appareil et que la version « 11 » soit publiée. La version « 11 » ne sera pas encore appliquée. Au lieu de cela, votre appareil sera mis à jour vers la version « 11 » une fois la version « 12 » publiée.
 
 > [!NOTE]
-> Certains appareils ne prennent pas en charge la mise à jour automatique du microprogramme actuellement. L’application des paramètres de mise à jour automatique du microprogramme sur les appareils qui ne prennent pas en charge les mises à jour automatiques n’aura aucun impact sur ces appareils. Pour savoir si votre appareil prend en charge les mises à jour automatiques du microprogramme, contactez le fabricant de votre appareil.
+> Certains appareils ne supportent pas encore la mise à jour automatique du microprogramme. L’application de paramètres de mise à jour automatique du microprogramme sur les appareils qui ne supportent pas les mises à jour automatiques n’aura aucun effet sur ces appareils. Pour plus d’informations sur la prise en charge des mises à jour automatiques du microprogramme par votre appareil, contactez le fabricant de votre appareil.
 
-Pour choisir le comportement de mise à jour automatique de vos appareils, procédez comme suit :
+Pour choisir le comportement de mise à jour automatique pour vos appareils, vous pouvez :
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitant https://admin.teams.microsoft.com
-2. Parcourir les **appareils**  >  **mobiles** ou les **barres de collaboration**
-3. Sélectionner un ou plusieurs appareils, puis sélectionner **mettre à jour**
-4. Sous **mise à jour automatique du microprogramme**, sélectionnez l’une des options suivantes :
-    - Dès **que possible** La seconde mise à jour du microprogramme du périphérique est appliquée le premier week-end après la sortie de la dernière mise à jour.
-    - **Différer de 30 jours** La seconde mise à jour du microprogramme du périphérique est appliquée 30 jours après la sortie de la dernière mise à jour.
-    - **Différer de 90 jours** La seconde mise à jour du microprogramme du périphérique est appliquée 90 jours après la mise à jour de la dernière mise à jour.
-5. Sélectionnez **mettre à jour**
+1. Connectez-vous au Centre d’administration Microsoft Teams en visitant https://admin.teams.microsoft.com
+2. Naviguer dans **les téléphones**  >  **d’appareils** **ou les barres de collaboration**
+3. Sélectionnez un ou plusieurs appareils, puis sélectionnez Mettre **à jour**
+4. Sous **Mise à jour automatique du microprogramme,** sélectionnez l’une des actions suivantes :
+    - **Dès que disponible** La mise à jour du microprogramme de l’appareil le deuxième plus récent est appliquée le premier week-end après la publication de la dernière mise à jour.
+    - **Différer 30 jours** La mise à jour de microprogramme de l’appareil la plus récente est appliquée 30 jours après la publication de la dernière mise à jour.
+    - **Différer 90 jours** La mise à jour de microprogramme de l’appareil la plus récente est appliquée 90 jours après la publication de la dernière mise à jour.
+5. Sélectionnez **Mettre à jour**
 
-Si, pour une raison quelconque, vous devez revenir à une mise à jour de microprogramme de périphérique, vous devez réinitialiser votre appareil à ses paramètres d’usine. Réinitialisez votre appareil à l’aide des instructions du fabricant.  
+Si, pour une raison quelconque, vous devez rétablir la mise à jour d’un microprogramme d’appareil, vous devez rétablir les paramètres par usine de votre appareil. Réinitialisez votre appareil en utilisant les instructions de son fabricant.  
 
-## <a name="manually-update-remote-devices"></a>Mise à jour manuelle des appareils distants
+## <a name="manually-update-remote-devices"></a>Mettre à jour manuellement les appareils distants
 
-Lorsque vous mettez à jour un ou plusieurs appareils à l’aide du centre d’administration, vous pouvez choisir de mettre à jour les appareils immédiatement ou de planifier une mise à jour pour des dates et heures ultérieures.
+Lorsque vous mettez à jour un ou plusieurs appareils à l’aide du Centre d’administration, vous pouvez décider de les mettre à jour immédiatement ou de planifier une mise à jour pour des date et heure ultérieures.
 
-Pour mettre à jour manuellement des appareils distants, procédez comme suit :
+Pour mettre à jour manuellement les appareils distants, vous pouvez :
 
-1. Connectez-vous au centre d’administration Microsoft teams en visitant https://admin.teams.microsoft.com
-2. Parcourir les **appareils**  >  **mobiles** ou les **barres de collaboration**
-3. Sélectionner un ou plusieurs appareils, puis sélectionner **mettre à jour**
-4. Sous **mises à jour manuelles**, sélectionnez **échéancier** si vous souhaitez planifier la mise à jour pour des dates et heures ultérieures. Les mises à jour sont appliquées à la date et l’heure du fuseau horaire sélectionné dans **TimeZone**.
+1. Connectez-vous au Centre d’administration Microsoft Teams en visitant https://admin.teams.microsoft.com
+2. Naviguer dans **les téléphones**  >  **d’appareils** **ou les barres de collaboration**
+3. Sélectionnez un ou plusieurs appareils, puis mettre à **jour**
+4. Sous **Mises à jour manuelles,** **sélectionnez Planifier** si vous voulez planifier la mise à jour pour une date et une heure futures. Les mises à jour sont appliquées à la date et l’heure du fuseau horaire sélectionné dans **le fuseau horaire.**
 
-Ce que vous voyez varie selon que vous avez sélectionné un ou plusieurs appareils. L’image de gauche ci-dessous montre plusieurs appareils sélectionnés alors que l’image de droite montre un seul appareil sélectionné.
+Ce que vous voyez dépend de la sélection d’un ou plusieurs appareils. L’image de gauche ci-dessous montre plusieurs appareils sélectionnés, tandis que l’image de droite affiche un seul appareil sélectionné.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Affichages simples et multiples dans le volet État de la mise à jour de l’appareil":::
+:::image type="content" source="../media/device-update-status.png" alt-text="Affichages d’un ou plusieurs appareils dans le volet d’état de mise à jour de l’appareil":::
 
-Lorsque vous sélectionnez plusieurs appareils, vous pouvez choisir les types de mise à jour à appliquer à chaque périphérique sélectionné. Sélectionnez les types de mise à jour que vous souhaitez appliquer, puis sélectionnez **mettre à jour**.
+Lorsque vous sélectionnez plusieurs appareils, vous pouvez choisir les types de mises à jour à appliquer à chaque périphérique sélectionné. Sélectionnez les types de mises à jour que vous voulez appliquer, puis **sélectionnez Mettre à jour.**
 
-Lorsque vous sélectionnez un périphérique unique, les mises à jour disponibles pour l’appareil sont affichées. S’il existe plusieurs types de mise à jour pour l’appareil, sélectionnez chaque type de mise à jour à appliquer. Vous pouvez afficher la **version actuelle** appliquée à l’appareil et la **nouvelle version** qui sera appliquée. Sélectionnez la ou les mises à jour que vous souhaitez appliquer, puis sélectionnez **mettre à jour**.
+Lorsque vous sélectionnez un seul appareil, les mises à jour disponibles pour l’appareil sont affichées. Si plusieurs types de mises à jour sont disponibles pour l’appareil, sélectionnez chaque type de mise à jour à appliquer. Vous pouvez afficher **la version actuelle appliquée** sur l’appareil et la nouvelle **version** qui sera appliquée. Sélectionnez la ou les mises à jour que vous voulez appliquer, puis sélectionnez **Mettre à jour.**
 
-Après avoir sélectionné **mise à jour**, les mises à jour sont appliquées à vos périphériques à la date et l’heure que vous avez sélectionnées si vous avez planifié une mise à jour. Si vous n’avez pas sélectionné de date et d’heure ultérieures, des mises à jour sont appliquées à vos périphériques en quelques minutes.
+Après avoir sélectionné **Mettre à** jour, les mises à jour sont appliquées à vos appareils à la date et l’heure que vous avez sélectionnées si vous avez prévu une mise à jour. Si vous n’avez pas sélectionné de date et d’heure futures, les mises à jour sont appliquées à vos appareils en quelques minutes.

@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
-description: Apprenez à activer ou désactiver les notifications par téléphone mobile pour permettre aux utilisateurs de recevoir des alertes concernant les messages entrants, les messages vocaux et les messages instantanés manqués.
+description: Découvrez comment activer ou désactiver les notifications par téléphone mobile pour que vos utilisateurs reçoivent des alertes concernant la messagerie vocale et les messages instantanés entrants et manqués.
 ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
 ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "48739212"
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 
 > [!IMPORTANT]
-> Le centre d’administration Microsoft teams a remplacé le centre d’administration Skype entreprise (portail hérité). Tous les paramètres de gestion de Skype entreprise se trouvent désormais dans le centre d’administration Teams. Pour en savoir plus, voir [gérer les paramètres de Skype entreprise dans le centre d’administration Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le Centre d’administration Microsoft Teams a remplacé le Centre d’administration Skype Entreprise (portail hérité). Tous les paramètres de gestion de Skype Entreprise sont désormais dans le Centre d’administration Teams. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
-En tant qu' **[attribution de rôles d’administrateur dans les applications Microsoft 365 pour les entreprises](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de votre organisation, vous pouvez choisir si les utilisateurs de Skype entreprise reçoivent des alertes concernant les messages instantanés entrants et manqués lorsqu’ils se trouvent sur leur téléphone mobile ou tablette.
+En tant qu’administrateur de **[votre](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** organisation, vous pouvez choisir si vos utilisateurs Skype Entreprise reçoivent des alertes concernant les messages instantanés entrants et manqués lorsqu’ils utilisent leur téléphone mobile ou tablette.
   
 Sur les téléphones Android et Windows, les notifications Skype Entreprise s'affichent en temps réel. Pour les appareils Windows Phone, iPhone et iPad, en revanche, des notifications Push sont utilisées pour afficher les alertes lorsque vous n'utilisez pas Skype Entreprise de manière active sur votre téléphone ou votre tablette.
   
@@ -43,7 +43,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 
 1. Connectez-vous à Microsoft 365.
     
-2. Accédez au centre d’administration > **Skype entreprise**.
+2. Allez au Centre d'> **dans Skype Entreprise.**
     
 3. Accédez à **Organisation** > **Général**. 
     
@@ -58,7 +58,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 - Une fois les notifications Push désactivées, les utilisateurs ne peuvent plus les réactiver.
     
 > [!IMPORTANT]
->  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez la [déclaration de confidentialité pour les produits Microsoft Skype entreprise](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez [la Déclaration de confidentialité pour les produits Microsoft Skype Entreprise.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
 ## <a name="related-topics"></a>Voir aussi
 

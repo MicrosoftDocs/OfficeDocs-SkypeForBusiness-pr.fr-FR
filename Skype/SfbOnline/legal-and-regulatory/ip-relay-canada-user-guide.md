@@ -1,5 +1,5 @@
 ---
-title: Guide d’utilisation de IP Relay Canada
+title: Guide de l’utilisateur de IP Relay Canada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Comment utiliser un compte IP Relay pour le Canada.
+description: Comment utiliser un compte relais IP pour le Canada.
 ms.openlocfilehash: fd02fe763c8913a76c5fff6e1cf765a8fce425b5
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -28,60 +28,60 @@ ms.locfileid: "41706679"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>Relais IP au Canada - guide de l’utilisateur
 
-Description du service de relais de messages IP de Microsoft :
+Description du service relais de messages IP de Microsoft :
 
 ## <a name="scenario-a"></a>Scénario A
-Si une personne qui ne s’est pas à l’écoute ou à l’écoute ne souhaite pas contacter une personne qui n’est pas une déficience, elle « discute » par le biais d’un client Web spécial à un agent appelé preneur d’appel.
+Si une personne malentendante ou malentendante souhaite contacter une personne non atteinte, elle « discute » par le biais d’un client web spécial appelé appelant.
 
-Le preneur d’appel communique ensuite avec la personne qui ne se trouve pas dans la session de discussion et contacte la personne non altérée par le biais du réseau téléphonique n’importe où dans le Canada ou les États-Unis, le cas échéant.
+Il communique ensuite avec la personne malentendante ou malentendante par le biais de la session de conversation et contacte la personne non atteinte par le biais du réseau téléphonique, n’importe où au Canada ou aux États-Unis, selon les besoins.
 
 ## <a name="scenario-b"></a>Scénario B
-Si une personne qui ne s’est pas à l’écoute ne souhaite pas parler à un utilisateur qui s’est inscrit à un appel d’audition ou de voix, elle appelle le numéro gratuit tel qu’il est fourni par Microsoft.
+Si une personne non atteinte souhaite parler à un utilisateur malentendant ou malentendant inscrit, elle appelle le numéro gratuit fourni par Microsoft.
 
-Le preneur d’appel communique alors avec la personne qui n’a pas de déficience et contacte la personne qui ne fait pas l’audition ou la voix, et le communique.
+Le responsable d’appel communique ensuite avec la personne non atteinte et contacte la personne malentendante ou malentendante par le biais d’une conversation, et communique avec lui.
 
-Si une personne ne peut pas être connectée dans le programme de discussion, si une adresse e-mail est disponible, le preneur d’appel envoie un courrier électronique à la personne à l’audition ou à la voix, le cas échéant.
+La personne malentendante ou malentendante ne doit-elle pas être en ligne dans le programme de conversation ; si une adresse de messagerie est disponible, la personne en question enverra un courrier électronique à la personne malentendante ou malentendante, si elle le demande.
 
 ## <a name="scenario-c"></a>Scénario C
-Si une personne sourde ou qui a des troubles de la voix nécessite une assistance d’urgence, il est possible qu’elle sélectionne le bouton approprié : 911-police/911-Fire/911-ambulance.
+Si une personne malentendante ou malentendante nécessite une assistance d’urgence, elle peut sélectionner le bouton approprié : 911 – Police / 911 – Feu / 911 – Qu’est-ce que c’est ?
 
-Cette opération envoie une notification d’urgence aux opérateurs de relais IP du Nord, qui accèderont ensuite au compte 911 conçu à cette fin. Lorsque le preneur de l’appel confirme son adresse, il contacte le PSAPI approprié et reste sur la ligne aussi longtemps que nécessaire.
+Une notification d’urgence est alors transmise aux opérateurs de relais IP du Nord, qui accèderont ensuite au compte 911 conçu à cette fin. Une fois que le contacteur a confirmé son adresse, il contacte le compte DUP approprié et reste sur la ligne aussi longtemps que nécessaire.
 
-## <a name="how-to-place-a-text-chat-to-voice-call"></a>Comment passer un appel vidéo à une conversation vocale
+## <a name="how-to-place-a-text-chat-to-voice-call"></a>Comment placer une conversation texte dans un appel vocal
 
 https://aka.ms/IPRelay
 
-Pour envoyer un SMS vers un appel audio, accédez à l’URL ci-dessus et connectez-vous à l’aide du nom d’utilisateur et du mot de passe de votre relais de messages IP.
+Pour initialiser un sms d’appel vocal, allez à l’URL ci-dessus et connectez-vous à l’aide de vos nom d’utilisateur et mot de passe ip Relay.
 
-Une fois connecté, vous verrez les instructions affichées sur le côté gauche de votre écran.
+Une fois connecté, les instructions s’affichent sur le côté gauche de l’écran.
 
-### <a name="how-to-make-a-text-to-voice-call"></a>Comment passer un appel vidéo vers un message vocal :
-1. Dans le coin inférieur droit de l’écran, cliquez sur **conversation**.
-2. Cliquez sur l’utilisateur **IPRelay** .
-3. Dans la partie inférieure de la nouvelle boîte de dialogue qui s’affiche, tapez votre message.
+### <a name="how-to-make-a-text-to-voice-call"></a>Comment effectuer un appel de messagerie vocale :
+1. Dans le coin inférieur droit de l’écran, cliquez sur **Conversation.**
+2. Cliquez sur **l’utilisateur IPRelay.**
+3. Dans la partie inférieure de la nouvelle zone qui apparaît, tapez votre message.
 
-### <a name="how-to-receive-a-voice-to-text-call"></a>Comment recevoir des appels vocaux et de texte :
-- Les utilisateurs de la voix doivent connaître votre nom d’utilisateur de relais de messages IP pour pouvoir passer un appel audio.
-- Les utilisateurs vocaux peuvent appeler (866) 660-8613 pour se connecter à un opérateur de relais de messages IP.
-- Vous devez être connecté au portail de relais de messages IP pour recevoir des appels ou des discussions.
+### <a name="how-to-receive-a-voice-to-text-call"></a>Comment recevoir un appel de voix à texte :
+- Les utilisateurs voix doivent connaître votre nom d’utilisateur de relais de message IP afin de passer un appel de voix à texte.
+- Les utilisateurs Voix peuvent appeler le (866) 660-8613 pour se connecter avec un opérateur de relais de messages IP.
+- Vous devez être connecté au portail Relais de messages IP pour recevoir des appels ou des conversations.
 
-### <a name="how-to-place-a-911-call"></a>Comment passer un appel 911 :
-En cas d’urgence, vous pouvez sélectionner le bouton d’urgence approprié situé en bas de votre écran (comme illustré ci-dessous).
+### <a name="how-to-place-a-911-call"></a>Comment appeler le 911 :
+En cas d’urgence, vous pouvez sélectionner le bouton d’urgence approprié situé en bas de l’écran (comme illustré ci-dessous).
 
 ![Boutons d’urgence](../images/ip-relay-emergency-buttons.png)
 
-L’opérateur de relais de messages IP contacte 911, confirme votre adresse et se traduit par divers centres d’urgence jusqu’à ce qu’il ne soit plus requis et que le service approprié ait été envoyé à votre emplacement.
+L’opérateur de relais de messages IP contactera le 911, confirmera votre adresse et communiquera avec différents centres d’urgence jusqu’à ce qu’il ne soit plus nécessaire et que le service approprié ait été déployé vers votre emplacement.
 
 > [!WARNING]
-> N’hésitez pas à tester ce service, car l’Agence appropriée sera contactée et peut être expédiée même si vous indiquez qu’il s’agit d’un simple test et que vous risquez d’obtenir des frais d’expédition faux de l’organisme d’urgence.
+> Ne testez pas ce service, car l’agence appropriée est contactée et peut-être envoyée, même si vous indiquez qu’il s’agit simplement d’un test. Des frais d’urgence erronés peuvent vous être facturés par les services d’urgence.
 
-#### <a name="customer-support"></a>Service clientèle :
-Veuillez contacter des projets spéciaux sur [SpecialProjects@northern911.com](mailto:specialprojects@northern911.com) ou (705) 222-1733.
+#### <a name="customer-support"></a>Service clientèle :
+Contactez les projets spéciaux à [l specialprojects@northern911.com](mailto:specialprojects@northern911.com) ou au (705) 222-1733.
 
 > [!IMPORTANT]
-> Northern911 gère le service de relais IP de la part de Microsoft.
+> Northern911 gère le service de relais IP pour le compte de Microsoft.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Relais IP au Canada - inscription](ip-relay-canada-email-signup.md)
 

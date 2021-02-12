@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans le Servicea
+title: Disponibilité dans le Télédesponsibilité
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -32,7 +32,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804714"
 ---
-# <a name="availability-in-dominica"></a>Disponibilité dans Servicea
+# <a name="availability-in-dominica"></a>Disponibilité dans Ile-de-France
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 

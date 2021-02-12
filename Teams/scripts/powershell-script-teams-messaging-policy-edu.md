@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Vous pouvez également affecter une stratégie de messagerie directement aux utilisateurs à l’échelle via une affectation de stratégie de lot ou à un groupe dont les utilisateurs sont membres. Pour plus d’informations, voir [Attribuer](../batch-group-policy-assignment-edu.md) des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire et Affecter des stratégies [à vos utilisateurs dans Teams.](../assign-policies.md)
+> Vous pouvez également affecter une stratégie de messagerie directement aux utilisateurs à l’échelle via une affectation de stratégie de lot ou à un groupe dont les utilisateurs sont membres. Pour plus d’informations, voir Attribuer des stratégies à un grand [nombre](../batch-group-policy-assignment-edu.md) d’utilisateurs dans votre établissement scolaire et Attribuer des stratégies [à vos utilisateurs dans Teams.](../assign-policies.md)

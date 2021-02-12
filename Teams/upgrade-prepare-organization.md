@@ -1,5 +1,5 @@
 ---
-title: Préparer votre organisation à la mise à niveau de Skype entreprise vers équipes
+title: Préparer votre organisation pour une mise à niveau de Skype Entreprise vers Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Évaluez le niveau de préparation de votre organisation pour accepter le changement, et préparez un plan pour préparer les utilisateurs à la mise à niveau de Skype entreprise vers Microsoft Teams.
+description: Évaluez la disponibilité de votre organisation à accepter les changements et préparez un plan pour préparer les utilisateurs à la mise à niveau de Skype Entreprise vers Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -29,19 +29,19 @@ ms.locfileid: "49578217"
 ---
 # <a name="prepare-your-organization"></a>Préparer votre organisation
 
-![Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur](media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
+![Étapes du voyage de mise à niveau, avec l’accentuation sur la phase De disponibilité des utilisateurs](media/upgrade-banner-user-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur l’étape De disponibilité des utilisateurs")
 
-Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
+Cet article fait partie de la phase User Readiness de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation technique. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
-- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
+- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Pour tirer le meilleur parti des équipes, les utilisateurs doivent réellement l’utiliser, mais les utilisateurs peuvent changer la façon dont ils ne fonctionnent pas toujours facilement. Le temps de comprendre les utilisateurs et de concevoir le plan de préparation approprié peut vous aider à faciliter les changements et à accélérer l’adoption d’équipes. Ces activités doivent être effectuées parallèlement à votre préparation technique :
+Pour réaliser la valeur maximale de Teams, les utilisateurs doivent l’utiliser, mais obtenir des utilisateurs qu’ils changent leur mode de travail n’est pas toujours facile. Prenez le temps de comprendre vos utilisateurs et de concevoir le plan de préparation qui leur est utile peuvent faciliter le changement et accélérer l’adoption de Teams. Ces activités doivent se terminer en parallèle de votre préparation technique :
 
-- [Évaluation](https://aka.ms/OrgReadiness)de la compatibilité des modifications de l’Organisation : il s’agit de comprendre qui est vos utilisateurs, de la façon dont ils utiliseront la nouvelle technologie et de la facilité d’adaptation. Il s’agit également de l’opportunité d’identifier les profils utilisateur spécifiques qui bénéficieront d’une intégration prioritaire.
-- [Préparation d’un plan de compatibilité utilisateur](https://aka.ms/UserReadinessPlan): il s’agit de formations, de formations et de prises en charge, votre plan de préparation doit répondre à la plupart des utilisateurs et des profils ciblés, comme indiqué dans l’article évaluation de la [compatibilité des modifications](https://aka.ms/OrgReadiness) .
+- [Évaluation de la](https://aka.ms/OrgReadiness)disponibilité en matière de changements d’organisation : il peut s’agit, entre autres, de bien comprendre qui sont vos utilisateurs, comment ils vont utiliser la nouvelle technologie et s’adaptent facilement aux changements. C’est également une opportunité d’identifier des profils utilisateur spécifiques qui pourraient bénéficier d’une intégration axée.
+- Préparation d’un [plan](https://aka.ms/UserReadinessPlan)de préparation des utilisateurs : composé d’activités de sensibilisation, de formation et de support, votre plan de préparation doit prendre en compte votre base d’utilisateurs étendue et les profils ciblés, comme indiqué dans l’article [](https://aka.ms/OrgReadiness) d’évaluation de la préparation au changement.
 
 > [!Tip]
-> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les documents de préparation des utilisateurs de modèles tels que les communications et les enquêtes utilisateur, en plus d’un exemple de plan de projet de mise à niveau et d’un plan de test pilote.
+> Téléchargez le Kit de réussite [de](https://aka.ms/UpgradeSuccessKit) la mise à niveau pour les modèles de matériel de préparation des utilisateurs, tels que des communications et des enquêtes auprès des utilisateurs, ainsi qu’un exemple de plan de projet de mise à niveau et de plan de test pilote.

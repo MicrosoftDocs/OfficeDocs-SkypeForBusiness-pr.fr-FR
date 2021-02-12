@@ -1,5 +1,5 @@
 ---
-title: Désactivation des numéros sans frais pour des utilisateurs spécifiques de Skype entreprise Online
+title: Désactivation des numéros gratuits pour des utilisateurs spécifiques de Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Les administrateurs peuvent contrôler la façon dont les organisateurs peuvent utiliser des numéros sans frais pour leurs réunions.
+description: Les administrateurs peuvent contrôler la façon dont les organisateurs peuvent utiliser des numéros gratuits pour leurs réunions.
 ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -27,35 +27,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41695679"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros sans frais pour des utilisateurs spécifiques de Skype entreprise Online
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros gratuits pour des utilisateurs spécifiques de Skype Entreprise Online
  
 > [!Note]
-> Pour plus d’informations sur la désactivation des numéros sans outils pour les utilisateurs de Microsoft Teams, voir [Désactiver les numéros sans frais pour des utilisateurs de teams spécifiques](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
+> Pour plus d’informations sur la désactivation des numéros gratuits pour les utilisateurs de Teams, voir Désactivation des numéros gratuits [pour certains utilisateurs de Teams.](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)
 
-Si votre organisation utilise des numéros sans frais dans Microsoft audio Conferencing Bridge, vous pouvez autoriser ou empêcher leur utilisation dans les réunions d’organisateurs spécifiques.  
+Si votre organisation dispose de numéros gratuits dans son pont de conférence audio Microsoft, vous pouvez autoriser ou empêcher leur utilisation pendant les réunions d’organisateurs spécifiques.  
 
-Par défaut, tous les utilisateurs de votre organisation sont autorisés à utiliser des numéros sans frais, ce qui signifie que ces numéros, le cas échéant, peuvent être utilisés par les participants pour rejoindre leurs réunions. S’il ne s’agit pas du comportement souhaité pour certains utilisateurs de votre organisation, vous pouvez limiter les utilisateurs spécifiques à l’utilisation de ces numéros dans leurs réunions par le biais d’un contrôle de l’activation d’un numéro gratuit. 
+Par défaut, tous les utilisateurs de votre organisation sont activés pour utiliser des numéros gratuits, ce qui signifie que ces numéros, s’ils sont disponibles, peuvent être utilisés par les participants pour rejoindre leurs réunions. Si ce n’est pas le comportement souhaité pour certains utilisateurs dans votre organisation, vous pouvez restreindre l’utilisation de ces numéros par des utilisateurs spécifiques dans leurs réunions via un contrôle d' enablement de numéro gratuit. 
 
-Lorsque les numéros sans frais sont désactivés pour un organisateur donné : 
+Lorsque les numéros gratuits sont désactivés pour un organisateur donné : 
  - Un numéro gratuit ne sera plus inclus dans ses invitations aux réunions. 
- - Les numéros sans frais ne seront plus indiqués sur la page « Rechercher un numéro local » qui est référencé dans ses invitations aux réunions. 
- - Les participants ne seront pas en mesure de rejoindre la réunion de l’organisateur que vous lui avez fourni s’il compose le numéro sans frais de l’organisation. 
- - Toutes les réunions de l’organisateur seront automatiquement replanifiées et le numéro sans frais sera supprimé.  
+ - Les numéros gratuits ne seront plus répertoriés dans la page « Rechercher un numéro local » référencé dans ses invitations aux réunions. 
+ - Les participants ne pourront pas participer à la réunion de l’organisateur donné s’ils composent un numéro gratuit de l’organisation. 
+ - Toutes les réunions de l’organisateur sont automatiquement reprogrammées et le numéro gratuit leur est supprimé.  
 
     > [!IMPORTANT]
-    > Cette opération permet de renvoyer toutes les invitations par courrier électronique de l’organisateur à tous les participants à la réunion. 
+    > Cela renvoye toutes les invitations par courrier électronique de l’organisateur à tous les participants de ces réunions. 
 
- - Les participants peuvent continuer à participer à des réunions de l’organisateur en utilisant des numéros payants. 
+ - Les participants peuvent continuer à rejoindre les réunions de l’organisateur à l’aide de numéros de téléphone. 
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactiver les numéros gratuits pour des utilisateurs spécifiques 
 
-Dans le **Centre d’administration Microsoft teams**:
+À partir du **Centre d’administration Microsoft Teams**:
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. A côté de **Conférence Audio**, cliquez sur **Modifier**.
 
-3. Définissez **inclure les numéros sans frais dans les demandes de réunion de cet utilisateur** **.** 
+3. Set **Include toll-free numbers in meeting requests from this user** to **Off.** 
 
 4. Cliquez sur **Enregistrer.** 
  
@@ -64,6 +64,6 @@ Dans le **Centre d’administration Microsoft teams**:
  
 **Utiliser PowerShell**  
 
-Vous pouvez utiliser le paramètre AllowTollFreeDialIn de l’applet de commande Set-Csonlinedialinconferencinguser n’affiche pour activer ou désactiver ce contrôle. Par exemple : 
+Vous pouvez utiliser le paramètre AllowTollFreeDialIn de la cmdlet Set-CsOnlineDialInConferencingUser pour activer ou désactiver ce contrôle. Par exemple : 
 
-- Set-Csonlinedialinconferencinguser n’affiche user@contoso.com – AllowTollFreeDialIn $false
+- Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

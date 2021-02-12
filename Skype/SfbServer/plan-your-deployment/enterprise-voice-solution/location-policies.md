@@ -38,7 +38,7 @@ Chaque stratégie d’emplacement contient les informations suivantes :
   
 Lorsque cette valeur est activée, le client est activé pour les services d’urgence améliorés (E9-1-1). Lorsqu’un client s’inscrit, il tente d’acquérir un emplacement auprès du service Informations d’emplacement et inclut les informations d’emplacement dans le cadre d’un appel d’urgence.
   
- **Location**
+ **Emplacement**
   
 Ce paramètre est utilisé uniquement lorsque **l’enable enhanced 9-1-1** est activé.
   

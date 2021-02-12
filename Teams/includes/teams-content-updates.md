@@ -8,7 +8,7 @@
 
 | Publié le |Titre de la rubrique | Modification |
 |------|------------|--------|
-| 2/1/2021 | [Charger des données client et bâtiment dans le tableau de bord de qualité des appels](/MicrosoftTeams/cqd-upload-tenant-building-data) | modifié |
+| 2/1/2021 | [Charger des données client et de bâtiment dans le tableau de bord de qualité des appels](/MicrosoftTeams/cqd-upload-tenant-building-data) | modifié |
 | 2/1/2021 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
 | 2/1/2021 | [Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modifié |
 | 2/1/2021 | [Barrières de l’information dans Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
@@ -61,7 +61,7 @@
 | 1/25/2021 | [Planification de la mise à niveau Teams](/MicrosoftTeams/upgrade-workshops-landing-page) | modifié |
 | 1/25/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
 | 1/25/2021 | [Utiliser la recherche de contenu dans Microsoft Teams](/MicrosoftTeams/content-search) | modifié |
-| 1/25/2021 | [Effectuer une enquête de découverte électronique sur du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
+| 1/25/2021 | [Effectuer une enquête eDiscovery sur du contenu](/MicrosoftTeams/ediscovery-investigation) | modifié |
 | 1/25/2021 | [Mettre un utilisateur de Microsoft Teams ou de l’équipe en conservation légale](/MicrosoftTeams/legal-hold) | modifié |
 | 1/26/2021 | [Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | ajouté |
 | 1/26/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
@@ -145,7 +145,7 @@
 | 1/19/2021 | [Classification des flux dans le tableau de bord de qualité des appels](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | modifié |
 | 1/19/2021 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
 | 1/19/2021 | [Centre de contacts Teams](/MicrosoftTeams/teams-contact-center) | modifié |
-| 1/19/2021 | [Déployer Microsoft Teams en premier](/MicrosoftTeams/teams-first-overview) | modifié |
+| 1/19/2021 | [Déployer Microsoft Teams En premier](/MicrosoftTeams/teams-first-overview) | modifié |
 | 1/19/2021 | [Évaluer la préparation pour les changements d’organisation pour votre mise à niveau de Skype Entreprise vers Teams](/MicrosoftTeams/upgrade-org-change-readiness) | modifié |
 | 1/19/2021 | [Un standard Cloud automatique, qu’est-ce que c’est ?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modifié |
 | 1/22/2021 | [Vue d’ensemble de la sécurité et de la conformité](/MicrosoftTeams/security-compliance-overview) | modifié |

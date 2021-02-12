@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: L’identification de l’appelant peut être contrôlée pour les appels entrants et sortants des utilisateurs du système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
+description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants des utilisateurs de Phone System à l’aide d’une stratégie appelée CallingLineIdentity.
 ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
 ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.locfileid: "47255447"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
-L’identification de l’appelant peut être contrôlée pour les appels entrants et sortants des utilisateurs du système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
+L’ID de l’appelant peut être contrôlé pour les appels entrants et sortants des utilisateurs de Phone System à l’aide d’une stratégie appelée CallingLineIdentity.
   
-La fonctionnalité d’identification de l’appelant est disponible pour tous les utilisateurs du système téléphonique, quelle que soit la connectivité RTC :
+La fonctionnalité d’ID d’appelant est disponible pour tous les utilisateurs du système téléphonique, quelle que soit la connectivité PSTN :
 
-- Plans d’appel Microsoft 
+- Forfaits d’appels Microsoft 
 
 - Routage direct via le système téléphonique 
   
@@ -50,17 +50,17 @@ La fonctionnalité d’identification de l’appelant est disponible pour tous l
   
 ## <a name="outbound-caller-id"></a>ID d'appelant sortant
 
-Trois options sont disponibles pour l’identification de l’appelant RTC sortant :
+Trois options sont disponibles pour l’ID d’appelant PSTN sortant :
   
-- Le numéro de téléphone affecté à l’utilisateur (option par défaut).
+- Numéro de téléphone affecté à l’utilisateur (valeur par défaut).
     
-- Un numéro de téléphone classé comme *service* et numéro *gratuit* dans l’inventaire de vos offres d’appels. Il est généralement attribué à un standard automatique d’organisation ou à une file d’appels.
+- Un numéro de téléphone classé comme *service* et numéro gratuit *dans* l’inventaire de numéros de téléphone de vos forfaits d’appels. Il est généralement attribué à un standard automatique d’organisation ou à une file d’appels.
     
 - Défini sur Anonyme.
     
 Toutefois, vous ne pouvez pas affecter les types de numéros de téléphone suivants à l'ID d'appelant entrant :
   
-- Les numéros de téléphone classés comme  *utilisateur*  dans votre inventaire de numéros de téléphone
+- Numéros de téléphone classés comme  *utilisateurs*  dans l’inventaire des numéros de téléphone de vos forfaits d’appels
     
 - Un numéro de téléphone Skype Entreprise Server local
     
@@ -68,9 +68,9 @@ Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Contrôle de l’ID d’appelant sortant par l’utilisateur final
 
-L’attribut EnableUserOverride permet à un ou plusieurs utilisateurs de changer leur paramètre d’ID d’appelant en **anonyme**. Cela s'applique uniquement lorsqu'une stratégie CallingLineIdentity est configurée avec un paramètre CallingIDSubstitute défini sur LineURI ou Substitute. La valeur par défaut de EnableUserOverride est False.
+L’attribut EnableUserOverride permet à un ou plusieurs utilisateurs de modifier leur paramètre d’ID d’appelant sur **Anonyme.** Cela s'applique uniquement lorsqu'une stratégie CallingLineIdentity est configurée avec un paramètre CallingIDSubstitute défini sur LineURI ou Substitute. La valeur par défaut de EnableUserOverride est False.
   
-Vos utilisateurs finaux peuvent définir leur ID d’appelant sur **anonyme** à l’aide de l’onglet **paramètres** dans le client de bureau Skype entreprise, sélectionner **appelle un utilisateur final** (s’il est activé par l’administrateur), puis sélectionner **Masquer mon numéro de téléphone et les informations de profil de tous les appels**. Dans Teams, les utilisateurs peuvent accéder à leur image de profil dans le coin supérieur droit, sélectionner **paramètres**des  >  **appels**, puis sous identification de l' **appelant**, sélectionner **Masquer mon numéro de téléphone et les informations de profil de tous les appels**.
+Vos utilisateurs finaux peuvent définir  leur ID d’appelant sur Anonyme à l’aide de l’onglet **Paramètres** du client de bureau Skype Entreprise, sélectionnez Appels à un utilisateur final **(si** l’administrateur l’autorise), puis masquez mon numéro de téléphone et mes informations de profil pour tous les **appels.** Dans Teams, les **utilisateurs** peuvent se rendre à leur image de profil dans le coin supérieur droit, sélectionner Paramètres Appels, puis sous  >   **ID** de l’appelant, sélectionner Masquer mon numéro de téléphone et les informations de profil pour tous les **appels.**
   
 ||||
 |:-----|:-----|:-----|
@@ -83,9 +83,9 @@ Vos utilisateurs finaux peuvent définir leur ID d’appelant sur **anonyme** à
    
 ## <a name="inbound-caller-id"></a>ID d’appelant entrant
 
-Le système téléphonique affiche l’ID appelé d’un numéro de téléphone externe si le numéro est associé à un utilisateur dans Azure AD. Si ce n’est pas le cas, le nom d’affichage fourni par l’opérateur de télécommunications est affiché s’il est disponible.
+Le système téléphonique affiche l’ID d’un numéro de téléphone externe si le numéro est associé à un utilisateur dans Azure AD. Si le numéro de téléphone ne se trouve pas dans Azure AD, le nom d’affichage fourni par le telco s’affiche s’il est disponible.
 
-L'attribut BlockIncomingCallerID permet de bloquer l'ID d'appelant dans les appels RTC entrants. Vous pouvez définir cet attribut, mais il n’est pas disponible pour les utilisateurs finaux dans la page Paramètres de l’utilisateur. Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.
+L'attribut BlockIncomingCallerID permet de bloquer l'ID d'appelant dans les appels RTC entrants. Vous pouvez définir cet attribut, mais il n’est pas disponible pour vos utilisateurs finaux sur la page des paramètres utilisateur. Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.
   
 Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](/microsoftteams/set-the-caller-id-for-a-user).
   

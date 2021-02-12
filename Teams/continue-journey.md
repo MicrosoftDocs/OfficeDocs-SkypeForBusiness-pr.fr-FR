@@ -1,5 +1,5 @@
 ---
-title: Utiliser Microsoft teams efficacement
+title: Comment utiliser Microsoft Teams de façon efficace
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: Découvrez comment utiliser Microsoft teams pour surveiller l’état du réseau afin de permettre aux utilisateurs d’être enclenchés et de préparer de nouvelles fonctionnalités.
+description: Découvrez comment utiliser Teams pour surveiller l’état du réseau, maintenir l’engagement des utilisateurs et préparer les nouvelles fonctionnalités.
 localization_priority: Normal
 ms.custom:
 - Teams-upgrade-guidance
@@ -27,37 +27,37 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578047"
 ---
-# <a name="how-to-use-microsoft-teams-effectively"></a>Utiliser Microsoft teams efficacement
+# <a name="how-to-use-microsoft-teams-effectively"></a>Comment utiliser Microsoft Teams de façon efficace
 
-![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
+![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
 
-Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
+Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype Entreprise vers Teams.
 
-La technologie innove à un rythme inégalé. La mise à jour et l’activation d’un environnement de travail moderne constituent une norme en matière de fonctionnement des organisations. En tant que Microsoft Teams, Microsoft 365 et la vision de la communication intelligente de Microsoft continuent de se dérouler, le fait d’avoir mis en place un plan opérationnel permettra de garantir que votre organisation est configurée pour un succès de longue durée. Un plan opérationnel optimal implique de surveiller votre environnement en fonction de l’état d’intégrité et de la qualité, et de planifier la mise en ligne dans le temps de l’utilisateur.
+Les technologies innovent à un rythme inédit. Rester à jour et activer un environnement d’espace de travail moderne est devenu une norme en matière de fonctionnement des organisations. À mesure que Microsoft Teams, Microsoft 365 et la vision intelligente de la communication de Microsoft continuent de s’développer, disposer d’un plan opérationnel permet de s’assurer que votre organisation est opérationnelle pour le succès à long terme. Un plan opérationnel optimal inclut une surveillance de votre environnement pour l’état d’santé et la qualité, une dynamique continue pour optimiser l’adoption et la planification de nouvelles fonctionnalités qui continueront d’être disponibles en ligne au fil du temps.
 
-## <a name="monitor-for-network-health-and-quality"></a>Surveiller l’intégrité et la qualité du réseau
+## <a name="monitor-for-network-health-and-quality"></a>Surveiller l’état et la qualité du réseau
 
-L’état de votre réseau affecte l’utilisation de l’utilisateur. Lorsqu’un utilisateur a une mauvaise utilisation (par exemple, un appel en cas de perte ou de retard lors de la participation à des réunions), il est mis en corrélation avec la technologie lui-même, en laissant l’impression que la technologie ne fonctionne pas et en ouvrant la porte pour des applications non prises en charge. La mise en œuvre d’un plan de surveillance et de réduction de l’intégrité du réseau contribue à garantir une utilisation positive des utilisateurs en plus de réduire les appels vers votre support technique. Pour plus d’informations, consultez :
+L’état de votre réseau affecte l’expérience utilisateur. Lorsqu’un utilisateur a une expérience médiocre (par exemple, le décalage ou la chute d’appel lorsque vous rejoignez une réunion), il met en corrélation cela avec la technologie elle-même, ce qui leur donne l’impression que la technologie ne fonctionne pas et qui ouvre la porte pour les applications non pris en compte. La mise en œuvre d’un plan de surveillance et d’atténuation de l’état du réseau permettra de garantir une expérience utilisateur positive en plus de réduire les appels sur votre support technique. Pour plus d’informations, consultez :
 
 - [Exploiter votre service](upgrade-operate-my-service.md)
 - [Surveiller et améliorer la qualité des appels](monitor-call-quality-qos.md)
 - [Améliorer votre service](upgrade-enhance-my-service.md)
 
-## <a name="drive-user-momentum-and-adoption"></a>Libérer de l’élan et de l’adoption des utilisateurs
+## <a name="drive-user-momentum-and-adoption"></a>Stimuler la dynamique et l’adoption des utilisateurs
 
-Pour profiter au maximum des avantages et des résultats commerciaux avec Teams, les utilisateurs doivent réellement les utiliser. Toutefois, l’excitation initiale tend à wane et les utilisateurs à revenir facilement aux vieilles méthodes de travail. Encourager les utilisateurs à adopter des équipes et à les mettre à jour, notamment :
+Pour tirer le maximum d’avantages et de résultats d’entreprise avec Teams, les utilisateurs doivent réellement l’utiliser. Toutefois, l’enthousiasme initial a tendance à décliner et les utilisateurs revenir facilement aux anciennes méthodes de travail. Encouragez l’adoption par les utilisateurs et favorisez l’enthousiasme chez Teams avec un plan d’adoption continu, qui peut inclure :
 
-- D’en citer des champions pour promouvoir et encourager les utilisateurs.
-- Consulter le [Guide d’adoption de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=859045) pour obtenir des conseils sur la façon d’augmenter l’engagement et d’adopter le moteur.
-- Tirant parti du [Kit de réussite des utilisateurs d’équipes](https://aka.ms/TeamsCustomerSuccess) pour améliorer la sensibilisation et partager les meilleures pratiques.
-- Implémentation d’une [stratégie de gestion et d’adoption](http://www.successwithteams.com/) formelle pour favoriser la croissance de l’adoption.
+- S’inscrire des pairs champions pour aider à réduire et encourager d’autres utilisateurs.
+- Pour obtenir des conseils sur la relance de l’engagement et la conduite de l’adoption, voir le Guide d’adoption de [Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=859045)
+- Tirent parti du [Kit de réussite des](https://aka.ms/TeamsCustomerSuccess) clients de Teams pour améliorer les actions de sensibilisation et de partage des meilleures pratiques.
+- Mise en œuvre d’une stratégie d’adoption formelle et de [gestion des changements](http://www.successwithteams.com/) pour soutenir la croissance de l’adoption.
 
-## <a name="prepare-for-new-functionality"></a>Préparer une nouvelle fonctionnalité
+## <a name="prepare-for-new-functionality"></a>Préparer la nouvelle fonctionnalité
 
-Le cycle de vie d’une technologie donnée a basculé vers un cycle de croissance dynamique. Cela signifie que les équipes et les feuilles de route de Microsoft 365 continuent de se dérouler, avec de nouvelles fonctionnalités qui s’éclairagessent de façon régulière. Le cycle de modification de votre organisation vous permet de vous assurer que vous êtes prêt à gérer les améliorations de la collaboration en continu et à tirer le meilleur parti. Cela peut être le suivant :
+Le cycle de vie d’une technologie donnée a changé de cycle de croissance dynamique. Cela signifie que les feuilles de route de Teams et Microsoft 365 continueront d’être en cours d’utilisation, de nouvelles fonctionnalités s’éclairageant à une cadence régulière. L’établissement d’un cycle de changement au sein de votre organisation garantit que vous êtes prêt à gérer des améliorations continuelles de la collaboration et à apporter une valeur maximale. Cela peut inclure les suivantes :
 
-- Surveiller la présentation [des équipes.](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)
-- Implémentez un formulaire de planification des modifications (comme illustré ci-dessous) pour préparer et implémenter de nouvelles fonctionnalités. Veillez à inclure les activités techniques et de préparation des utilisateurs.
+- Surveiller la feuille de [route](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)De Teams.
+- Implémentez un formulaire de planification des changements (comme illustré ci-dessous) pour préparer et implémenter de nouvelles fonctionnalités. N’oubliez pas d’inclure des activités de préparation technique et utilisateur.
 
 
-![Exemple de formulaire montrant les dates et notes de publication attendues](media/upgrade-change-plan-form.png "Exemple de formulaire montrant les dates de publication attendues et les notes concernant les nouvelles fonctionnalités, répertoriées avec les étapes et les propriétaires suivants")
+![Exemple de formulaire affichant les dates de publication et notes prévues](media/upgrade-change-plan-form.png "Exemple de formulaire affichant les dates de publication prévues et les notes sur les nouvelles fonctionnalités, répertoriées avec les étapes suivantes et les propriétaires")

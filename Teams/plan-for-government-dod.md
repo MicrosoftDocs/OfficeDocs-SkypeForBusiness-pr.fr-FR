@@ -31,7 +31,7 @@ ms.locfileid: "49909158"
 Ces conseils sont adaptés aux professionnels de l’informatique qui conduisent des déploiements d’Office 365 dans des entités gouvernementales fédérale aux États-Unis ou d’autres entités qui gèrent des données soumises à des réglementations gouvernementales et des exigences, où l’utilisation d’Office 365 Secteur Public – DoD est appropriée pour répondre à ces exigences.
 
 > [!NOTE]
-> Si votre organisation a déjà satisfait aux conditions d’éligibilité d’Office 365 Service Public – DD et a postulé et a été acceptée dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
+> Si votre organisation a déjà satisfait aux conditions d’éligibilité d’Office 365 Service Public – DD et a demandé et accepté dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>Étape 1. Déterminer si votre organisation a besoin d’Office 365 Service Public - DoD et satisfait aux conditions d’éligibilité. 
 
@@ -42,13 +42,13 @@ L’environnement Office 365 Secteur Public - DoD fournit la conformité avec le
 - L’accès au contenu client de votre organisation est limité au personnel Microsoft dont l’écran est limité.
 - Office 365 Secteur Public – DoD est conforme aux certifications et aux entreprises requises pour les clients du secteur public américain.
 
-Pour plus d’informations sur l’offre Office 365 Service Public – DoD pour les clients du gouvernement américain, voir les offres [Office 365](https://products.office.com/government/compare-office-365-government-plans)Government, notamment les conditions [d’éligibilité.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
+Pour plus d’informations sur l’offre Office 365 Service Public – DoD pour les clients du gouvernement américain, voir les offres [Office 365 Government,](https://products.office.com/government/compare-office-365-government-plans)notamment les conditions [d’éligibilité.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
-La [description du service Office 365 us Government service](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) décrit les avantages de la plateforme, qui sont centrés sur les conditions de conformité requises aux États-Unis.
+La [description du service Office 365 pour](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) le gouvernement américain décrit les avantages de la plateforme, qui sont centrés sur les conditions de conformité requises aux États-Unis.
 
 
 > [!Tip]
-> Vous pouvez transférer les tables d’informations de la description du service dans un feuille de calcul Excel et ajouter deux colonnes : Pertinentes pour mon organisation **Y/N** et Répondre aux besoins de mon organisation **Y/N.** Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
+> Vous pouvez transférer les tables d’informations de la description du service dans un workbook Excel et ajouter deux colonnes : Pertinentes pour mon organisation **Y/N** et Répondre aux besoins de mon organisation **Y/N.** Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
 
 
 |    |     |
@@ -84,11 +84,11 @@ Déterminez vos exigences de gouvernance et la manière dont vous pouvez les res
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Point de décision |<ul><li>Déterminez et consignez vos exigences de gouvernance, en suivant les recommandations de la politique [de gouvernance de Teams.](plan-teams-governance.md) </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Point de décision |<ul><li>Déterminez et consignez vos exigences de gouvernance, en suivant les recommandations [de la politique de gouvernance de Teams.](plan-teams-governance.md) </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer Teams pour la collaboration
 
-Après avoir été intégré à Office 365 Government – DoD, suivez la voie de déploiement recommandée décrite dans la façon de déployer [Microsoft Teams.](How-to-roll-out-teams.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et les champions teams.
+Après avoir été intégré à Office 365 Service Public – DoD, suivez la voie de déploiement recommandée décrite dans comment déployer [Microsoft Teams.](How-to-roll-out-teams.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et les champions Teams.
 
 Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) ou le partenaire que vous avez choisi pour intégrer le service.
 

@@ -35,15 +35,15 @@ ms.locfileid: "50125767"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Mise en place de Teams pour les organisations de soins de santé
 
-Microsoft Teams propose un certain nombre de fonctionnalités de télédédérisme utiles pour les hôpitals et autres organisations de soins de santé. Des fonctionnalités Teams sont en cours de développement pour aider les hôpitals avec :
+Microsoft Teams propose un certain nombre de fonctionnalités de télédédérisme utiles pour les hôpitals et les autres organisations de soins de santé. Des fonctionnalités Teams sont en cours de développement pour aider les hôpitals avec :
 
 - Visites virtuelles et intégration électronique des dossiers médicaux (EHR)
 - Packages de stratégie Teams
 - Messagerie sécurisée
 - Modèles Teams
-- Coordination et collaboration avec les soins
+- Coordination et collaboration pour les soins
 
-Cette fonctionnalité fait partie de Microsoft Cloud pour les soins de santé. En savoir plus sur l’utilisation de cette solution qui regroupe les fonctionnalités d’Azure, Dynamics 365 et Microsoft 365 sur [Microsoft Cloud for Healthcare.](https://docs.microsoft.com/industry/healthcare)
+Cette fonctionnalité fait partie de Microsoft Cloud pour les soins de santé. Découvrez comment utiliser cette solution qui regroupe les fonctionnalités Azure, Dynamics 365 et Microsoft 365 dans [Microsoft Cloud for Healthcare.](https://docs.microsoft.com/industry/healthcare)
 
 Regardez la vidéo suivante pour en savoir plus sur l’utilisation de la collection de soins de santé pour améliorer la collaboration de l’équipe de santé dans Microsoft Teams.
 
@@ -69,8 +69,8 @@ Les scénarios suivants sont disponibles pour les organismes de santé :
 
 Utilisez la plateforme de réunions complète dans Microsoft Teams pour planifier, gérer et mener des visites virtuelles avec des patients.
 
-- Si votre organisation utilise déjà des dossiers médicaux électroniques (EHR), vous pouvez intégrer Microsoft Teams pour une expérience plus transparente. Microsoft Teams Electronic Health Record (EHR) Connector permet aux cartésiens de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Pour en savoir plus, voir [Visites virtuelles avec Teams - Intégration à EHR.](ehr-admin.md)
-- Si vous n’utilisez pas un ehr pris en charge, vous pouvez utiliser Microsoft Bookings et l’application Bookings dans Teams. Pour en savoir plus, [consultez l’application Bookings et les visites virtuelles dans Microsoft Teams.](../../bookings-app-admin.md)
+- Si votre organisation utilise déjà des dossiers médicaux électroniques (EHR), vous pouvez intégrer Microsoft Teams pour une expérience plus transparente. Microsoft Teams Electronic Health Record (EHR) Connector permet aux uns de lancer facilement la visite d’un patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Pour en savoir plus, voir [Visites virtuelles avec Teams - Intégration à EHR.](ehr-admin.md)
+- Si vous n’utilisez pas un ehR pris en charge, vous pouvez utiliser Microsoft Bookings et l’application Bookings dans Teams. Pour en savoir plus, [consultez l’application Bookings et les visites virtuelles dans Microsoft Teams.](../../bookings-app-admin.md)
 
 ![Visites virtuelles avec Microsoft Teams](../../media/virtual-visits-teams.png)
 
@@ -78,7 +78,7 @@ Utilisez la plateforme de réunions complète dans Microsoft Teams pour planifie
 
 Appliquez des packages de stratégie Teams pour définir ce que les différents rôles peuvent faire dans Teams. Par exemple, spécifiez les stratégies pour :
 
-- Les travailleurs cliniques, comme les infirmières autorisées, les infirmières et les travailleurs sociaux, afin qu’ils ont un accès total aux discussions, aux appels, à la gestion des shifts et aux réunions.
+- Les travailleurs cliniques, comme les infirmières inscrits, les infirmières et les travailleurs sociaux, afin qu’ils ont un accès total aux discussions, aux appels, à la gestion des shifts et aux réunions.
 - Les travailleurs de l’information dans votre organisation de soins de santé, tels que le personnel de l’itatique, le personnel informatique, le personnel financier et les responsables de la mise en conformité, peuvent accéder à un accès total aux discussions, aux appels et aux réunions.
 - Salles des patients, pour contrôler les paramètres des appareils des salles des patients.
 
@@ -136,7 +136,7 @@ Voici un exemple de liste qui a été définie pour l’arrondi des patients.
 
 :::image type="content" source="../../media/lists-patients-example.png" alt-text="Capture d’écran d’une liste d’exemples pour l’arrondi des patients":::
 
-Pour en savoir plus, [voir l’application Gérer les listes pour votre organisation dans Teams.](../../manage-lists-app.md)
+Pour en savoir plus, [consultez l’application Gérer les listes pour votre organisation dans Teams.](../../manage-lists-app.md)
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Effectuer le suivi et le suivi des tâches avec l’application Tâches
 
@@ -146,20 +146,20 @@ Pour en savoir plus, [consultez l’application Gérer les tâches pour votre or
 
 ### <a name="streamline-approvals-with-the-approvals-app"></a>Simplifier les approbations avec l’application Approbations
 
-Utilisez [approbations pour](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) simplifier l’ensemble de vos demandes et processus avec votre équipe. Créez, gérez et partagez des approbations directement à partir de votre hub pour le travail d’équipe. Démarrer un flux d’approbation à partir du même endroit que vous envoyez une conversation, dans une conversation de canal ou à partir de l’application Approbations elle-même. Il vous suffit de sélectionner un type d’approbation, d’ajouter des détails, de joindre des fichiers et de choisir les approuveurs. Une fois soumis, les approbations sont informées et peuvent examiner la demande et agir sur cette demande.
+Utilisez [les approbations](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) pour simplifier l’ensemble de vos demandes et processus avec votre équipe. Créez, gérez et partagez des approbations directement à partir de votre hub pour le travail d’équipe. Démarrer un flux d’approbation à partir du même endroit que vous envoyez une conversation, dans une conversation de canal ou à partir de l’application Approbations elle-même. Il vous suffit de sélectionner un type d’approbation, d’ajouter des détails, de joindre des fichiers et de choisir les approuveurs. Une fois soumis, les approbations sont informées et peuvent examiner la demande et agir sur cette demande.
 
 Vous pouvez autoriser l’application Approbations pour votre organisation et l’ajouter à vos équipes. Pour en savoir plus sur la gestion des applications, voir [Gérer vos applications dans le Centre d’administration Microsoft Teams.](../../manage-apps.md)
 
 ### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-frontline-worker-integration"></a>Créer, gérer et partager des plannings avec l’application Shifts et l’intégration des employés en avant-première
 
-Microsoft Teams est intégré à l’application Shifts et à l’application Frontline Worker, qui peuvent être utilisées pour coordonner les fonctionnalités de shift de personnel, etc. Par exemple, dans Shifts, des infirmières peuvent configurer et coordonner des plannings pour leur personnel, et des infirmières peuvent vérifier les plannings et échanger les shifts. Teams inclut une stratégie de configuration de l’application Employés en avant-première que vous pouvez affecter aux employés en ligne de votre organisation. Par défaut, la stratégie inclut les applications Activité, Shifts, Conversation et Appel. Cette stratégie contrôle le comportement de ces applications, par exemple, en épinglage de l’application Shifts à la barre de l’application pour que l’équipe puisse y accéder rapidement.
+Microsoft Teams est intégré à l’application Shifts et à l’application Frontline Worker, qui peuvent être utilisées pour coordonner les fonctionnalités de shift de personnel, etc. Par exemple, dans Shifts, des infirmières peuvent configurer et coordonner des plannings pour leur personnel, et les infirmières peuvent vérifier les plannings et échanger les shifts. Teams inclut une stratégie de configuration de l’application Employés en avant-première que vous pouvez affecter aux employés en ligne de votre organisation. Par défaut, la stratégie inclut les applications Activité, Shifts, Conversation et Appel. Cette stratégie contrôle le comportement de ces applications, par exemple, en épinglage de l’application Shifts à la barre de l’application pour que l’équipe puisse y accéder rapidement.
 
 Pour en savoir plus, [consultez l’application Gérer shifts pour votre organisation dans Microsoft Teams.](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## <a name="help-your-clinical-and-information-workers-get-going-with-teams"></a>Aider vos collaborateurs cliniques et les travailleurs de l’information à se mettre au travail dans Teams
+## <a name="help-your-clinical-and-information-workers-get-going-with-teams"></a>Aider vos collaborateurs cliniques et les travailleurs de l’information à prendre en aide Teams
 
 De nombreuses ressources sont disponibles pour aider tous les utilisateurs de votre organisation à se sentir à l’aise avec Teams :
 
-- Visitez le [Centre d’adoption](https://adoption.microsoft.com/microsoft-teams/) de Teams pour obtenir des conseils sur le déploiement de Teams si vous débutez le parcours de votre organisation avec Teams ou développez Teams dans d’autres domaines de votre organisation.
+- Visitez le Centre [d’adoption](https://adoption.microsoft.com/microsoft-teams/) de Teams pour obtenir des conseils sur le déploiement de Teams si vous débutez le parcours de votre organisation avec Teams ou développez Teams dans d’autres domaines de votre organisation.
 - Envisagez de mettre en place des parcours [d’apprentissage personnalisés](https://adoption.microsoft.com/microsoft-365-learning-pathways/) pour que vos utilisateurs couvrent uniquement les tâches qu’ils doivent effectuer.
 - Obtenez de l’aide et une formation pour vos utilisateurs sur la façon d’effectuer des tâches de base dans Microsoft Teams sur le site de [support de Teams,](https://support.microsoft.com/teams)y compris des [vidéos de formation rapide.](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) Ce site propose également de l’aide [](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)et une formation pour les applications Teams, notamment Listes, [Tâches,](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) [Approbations,](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) [et Shifts.](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
