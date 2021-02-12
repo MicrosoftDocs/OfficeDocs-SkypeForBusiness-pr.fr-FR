@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: 'Ce contenu doit être publié pour répondre aux exigences d’accessibilité, de conformité et de réglementation de Skype entreprise Online en France. '
+description: 'Il s’agit d’un contenu qui doit être publié conformément aux exigences en matière d’accessibilité, de conformité et de réglementation pour Skype Entreprise Online en France. '
 ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -27,4 +27,4 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41693099"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="6160a-103">Obligations réglementaires et légales</span><span class="sxs-lookup"><span data-stu-id="6160a-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="c7627-103">Obligations réglementaires et légales</span><span class="sxs-lookup"><span data-stu-id="c7627-103">Legal and regulatory</span></span>

@@ -22,14 +22,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804124"
 ---
-# <a name="office-communications-server-scope-node"></a><span data-ttu-id="80911-104">Nœud d’étendue d’Office Communications Server</span><span class="sxs-lookup"><span data-stu-id="80911-104">Office Communications Server Scope Node</span></span>
+# <a name="office-communications-server-scope-node"></a><span data-ttu-id="0d6be-104">Nœud d’étendue d’Office Communications Server</span><span class="sxs-lookup"><span data-stu-id="0d6be-104">Office Communications Server Scope Node</span></span>
 
-<span data-ttu-id="80911-105">Cette documentation est préliminaire et sujette à modification.</span><span class="sxs-lookup"><span data-stu-id="80911-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="80911-106">Des rubriques vides sont incluses comme espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="80911-106">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="0d6be-105">Cette documentation est préliminaire et sujette à modification.</span><span class="sxs-lookup"><span data-stu-id="0d6be-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="0d6be-106">Des rubriques vides sont incluses comme espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="0d6be-106">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="80911-107">Vous cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder aux **options** de topologie ou pour accéder à cette page **d’aide.**</span><span class="sxs-lookup"><span data-stu-id="80911-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
+<span data-ttu-id="0d6be-107">Vous cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder aux **options** de topologie ou pour accéder à cette page **d’aide.**</span><span class="sxs-lookup"><span data-stu-id="0d6be-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="80911-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="80911-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d6be-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0d6be-108">See also</span></span>
 
-[<span data-ttu-id="80911-109">Fusion à l’aide de l’Assistant Fusion du Générateur de topologies</span><span class="sxs-lookup"><span data-stu-id="80911-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[<span data-ttu-id="0d6be-109">Fusion à l’aide de l’Assistant Fusion du Générateur de topologies</span><span class="sxs-lookup"><span data-stu-id="0d6be-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
-[<span data-ttu-id="80911-110">Vérifier les informations de la topologie</span><span class="sxs-lookup"><span data-stu-id="80911-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[<span data-ttu-id="0d6be-110">Vérifier les informations de la topologie</span><span class="sxs-lookup"><span data-stu-id="0d6be-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

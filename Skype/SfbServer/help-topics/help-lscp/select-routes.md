@@ -22,13 +22,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803734"
 ---
-# <a name="select-routes"></a><span data-ttu-id="3d666-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="3d666-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="cfa09-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="cfa09-103">Select Routes</span></span>
  
-<span data-ttu-id="3d666-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="3d666-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="cfa09-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="cfa09-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3d666-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="3d666-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="cfa09-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="cfa09-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="3d666-106">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="3d666-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="cfa09-106">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="cfa09-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
