@@ -34,7 +34,7 @@ Le CQD est un portail web qui permet de créer et d’organiser rapidement des r
 - Liens profonds vers des pages de rapport pour le partage et la publication d’informations
 - Modification et création simplifiées des rapports et métadonnées modifiables pour les descriptions des rapports.
 
-En outre, le tableau de bord de qualité des commandes expose des API web qui donnent aux utilisateurs un accès par programmation aux données de cube à utiliser dans des tableaux de bord personnalisés.
+En outre, le tableau de bord de qualité des applications expose des API web qui donnent aux utilisateurs un accès par programmation aux données de cube à utiliser dans des tableaux de bord personnalisés.
 
 ### <a name="feature-overview"></a>Vue d’ensemble des fonctionnalités
 

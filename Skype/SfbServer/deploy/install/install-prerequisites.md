@@ -1,5 +1,5 @@
 ---
-title: Installation des conditions préalables pour Skype Entreprise Server
+title: Installer les conditions préalables pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -24,7 +24,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801714"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server"></a>Installation des conditions préalables pour Skype Entreprise Server
+# <a name="install-prerequisites-for-skype-for-business-server"></a>Installer les conditions préalables pour Skype Entreprise Server
  
 **Résumé :** Découvrez les serveurs et les rôles serveur que vous devez configurer avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation gratuite de Skype Entreprise Server à partir du [Centre d’évaluation Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
@@ -34,7 +34,7 @@ L’installation des éléments prérequis consiste à installer Windows Server 
   
 ## <a name="setup-windows-server"></a>Configurer Windows Server
 
-Skype Entreprise Server nécessite le système d’exploitation Windows Server et un certain nombre de conditions préalables avant de pouvoir être installé. Pour plus d’informations sur la planification des conditions préalables, voir La liste des conditions requises pour [le serveur pour Skype Entreprise Server.](../../../SfBServer2019/plan/system-requirements.md) 
+Skype Entreprise Server nécessite le système d’exploitation Windows Server et un certain nombre de conditions préalables avant de pouvoir être installé. Pour plus d’informations sur la planification des conditions préalables, consultez la liste des conditions requises pour [le serveur pour Skype Entreprise Server.](../../../SfBServer2019/plan/system-requirements.md) 
   
 > [!TIP]
 > Cette procédure utilise Windows Server 2012 R2. Si vous utilisez une version différente de Windows Server, la procédure peut être légèrement différente. 

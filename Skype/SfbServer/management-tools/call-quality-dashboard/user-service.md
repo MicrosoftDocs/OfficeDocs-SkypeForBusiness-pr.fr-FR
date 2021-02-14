@@ -30,7 +30,7 @@ Le service utilisateur fait partie de l’API référentiel pour le tableau de b
 
 L’API de référentiel fournit un modèle de gestion des utilisateurs simplifié dans lequel la mise en service des utilisateurs (création de comptes d’utilisateurs) est automatique et implicite. Lorsqu’un utilisateur fait une demande par rapport à l’API du référentiel pour la première fois, le référentiel crée un nouvel enregistrement d’utilisateur. 
   
-Le Tableau de bord de qualité des appels crée également automatiquement des éléments dédiés par l’utilisateur pour le nouvel utilisateur. Les nouveaux éléments dédiés aux utilisateurs sont des clones complets des éléments de l’utilisateur système. Ainsi, les utilisateurs commencent par leurs propres copies des rapports et des requêtes qu’ils peuvent immédiatement personnaliser. 
+Le Tableau de bord de qualité des appels crée également automatiquement des éléments dédiés par l’utilisateur pour le nouvel utilisateur. Les nouveaux éléments dédiés aux utilisateurs sont des clones complets des éléments de l’utilisateur système. Ainsi, les utilisateurs commencent par leurs propres copies de rapports et de requêtes qu’ils peuvent immédiatement personnaliser. 
   
 > [!NOTE]
 > À l’aide du Tableau de bord de qualité des appels, les utilisateurs peuvent réinitialiser leurs éléments dédiés à tout moment. 

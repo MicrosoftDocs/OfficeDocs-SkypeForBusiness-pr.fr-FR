@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour Demander, Assigner, Supprimer ou Afficher des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à partir d’une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à l’infrastructure à clé publique (PKI) de votre organisation, vous devez confirmer les appartenances de groupe supplémentaires, le cas cas nécessaire. Au cours de la tâche Demander, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat auprès de l’ac émettrice de votre PKI.
+description: Pour Demander, Assigner, Supprimer ou Afficher des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à partir d’une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat auprès de l’infrastructure à clé publique (PKI) de votre organisation, vous devez confirmer les appartenances de groupe supplémentaires, le cas besoin. Au cours de la tâche Demander, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat auprès de l’ac émettrice de votre PKI.
 ms.openlocfilehash: 21ffd71ab649892b912d139afe5cd295ef5fec61
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49801724"
 ---
 # <a name="certificate-wizard"></a>Assistant Certificat
  
-Pour **Demander**, **Assigner**, **Supprimer** ou **Afficher** des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à partir d’une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à l’infrastructure à clé publique (PKI) de votre organisation, vous devez confirmer les appartenances de groupe supplémentaires, le cas cas nécessaire. Au cours de la tâche Demander, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat auprès de l’ac émettrice de votre PKI.
+Pour **Demander**, **Assigner**, **Supprimer** ou **Afficher** des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à partir d’une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat auprès de l’infrastructure à clé publique (PKI) de votre organisation, vous devez confirmer les appartenances de groupe supplémentaires, le cas besoin. Au cours de la tâche Demander, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat auprès de l’ac émettrice de votre PKI.
   
 Pour demander un nouveau certificat, cliquez sur **Demander**.
   

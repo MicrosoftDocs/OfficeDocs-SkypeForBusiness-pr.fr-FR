@@ -32,7 +32,7 @@ Comme dans les versions précédentes de Lync Server, la fonctionnalité de haut
   
 Skype Entreprise Server fournit également des options de récupération d’urgence pour les pools frontux. Vous pouvez configurer deux pools dans différentes zones géographiques pour qu’ils servent de sauvegardes l’un pour l’autre. Ensuite, si l’intégralité d’un pool ou d’un site est en panne, le pool de sauvegarde peut continuer à fournir un service aux utilisateurs des deux sites.
   
-Skype Entreprise Server prend également en charge quatre modes de haute disponibilité pour vos serveurs principaux : la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de point de SQL AlwaysOn et le clustering de SQL.
+Skype Entreprise Server prend également en charge quatre modes de haute disponibilité pour vos serveurs principaux : la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et le clustering de SQL.
   
 > [!NOTE]
 > SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus pris en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.

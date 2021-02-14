@@ -26,11 +26,11 @@ ms.locfileid: "49802554"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Gérer les stratégies de routage vocal dans Microsoft Teams
 
-Si vous avez [](direct-routing-landing-page.md) déployé le routage direct du système téléphonique dans votre organisation, vous utilisez les stratégies de routage vocal pour permettre aux utilisateurs de Teams et de Skype Entreprise Online de recevoir et d’effectuer des appels téléphoniques vers le réseau téléphonique commuté (PSTN) à l’aide de votre infrastructure téléphonique locale.
+Si vous avez [](direct-routing-landing-page.md) déployé le routage direct du système téléphonique dans votre organisation, vous utilisez les stratégies de routage vocal pour permettre aux utilisateurs de Teams et de Skype Entreprise Online de recevoir et de passer des appels téléphoniques vers le réseau téléphonique commuté (PSTN) à l’aide de votre infrastructure téléphonique locale.
 
-Une stratégie de routage vocal est un conteneur pour les enregistrements d’utilisation PSTN. Pour créer et gérer des stratégies de routage de voix, vous devez vous rendre sur les stratégies de routage de voix dans le Centre d’administration de Microsoft Teams ou à l’aide  >   de Windows PowerShell.
+Une stratégie de routage vocal est un conteneur pour les enregistrements d’utilisation PSTN. Pour créer et gérer des stratégies de routage voix, vous devez vous rendre sur les stratégies de routage de voix dans le Centre d’administration de Microsoft Teams ou à l’aide  >   de Windows PowerShell.
 
-Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) ou créer et attribuer des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. N’oubliez pas que vous pouvez modifier les paramètres de la stratégie globale, mais que vous ne pouvez pas le renommer ou le supprimer.
+Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. N’oubliez pas que vous pouvez modifier les paramètres de la stratégie globale, mais que vous ne pouvez pas le renommer ou le supprimer.
 
 Il est important de savoir que l’affectation d’une stratégie de routage vocal à un utilisateur ne l’autorise pas à effectuer des appels PSTN dans Teams. Vous devrez également activer le routage direct de l’utilisateur pour Phone System et effectuer d’autres étapes de configuration. Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md)
 
@@ -57,7 +57,7 @@ Voir [New-CsOnlineVoiceRoutingPolicy.](https://docs.microsoft.com/powershell/mod
 Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.
 
 1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez aux stratégies de routage de **Voice**  >  **Voice.**
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **Modifier.**
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
 3. Cliquez **sur Ajouter/supprimer des enregistrements d’utilisation PSTN,** a apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
 ### <a name="using-powershell"></a>Utiliser PowerShell

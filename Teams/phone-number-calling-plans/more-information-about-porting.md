@@ -52,7 +52,7 @@ Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte d
 - Nom de la personne autorisée à apporter des modifications au compte
     
     > [!NOTE]
-    > Ce dernier n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Ce qui n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Adresse du service
   
@@ -82,7 +82,7 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je inclure comme numéro de compte ?
 
-En règle générale, vous pouvez trouver le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou vous pouvez vous connecter au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
+En règle générale, vous trouverez le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou connectez-vous au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
   
 > [!CAUTION]
 >  Il est important de ne pas utiliser d’espaces, de tirets ou de tirets lorsque vous entrez le numéro de compte de votre opérateur ou fournisseur de services.

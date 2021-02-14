@@ -24,7 +24,7 @@ ms.locfileid: "49802654"
  
 La table SessionCorrelation est une table de prise en charge. Chaque enregistrement représente un CorrelationID qui est utilisé pour corréler plusieurs sessions. 
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**Somme de contrôle** <br/> |int  <br/> |||
 |**CorrelationKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce serveur de conférence A/V.  <br/> |

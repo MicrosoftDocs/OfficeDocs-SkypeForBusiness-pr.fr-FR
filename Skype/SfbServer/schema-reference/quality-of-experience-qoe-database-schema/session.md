@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: Chaque enregistrement représente une session qui implique de l’audio ou de l’audio et de la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
+description: Chaque enregistrement représente une session qui implique l’audio ou l’audio et la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
 ms.openlocfilehash: cdf639e7360248e02378c66eb68a60d49acb9749
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "49802674"
 ---
 # <a name="session-table"></a>Table Session
  
-Chaque enregistrement représente une session qui implique de l’audio ou de l’audio et de la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
+Chaque enregistrement représente une session qui implique l’audio ou l’audio et la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Référencé à partir de [la table Dialog](dialog.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primaire  <br/> |Référencé à partir de [la table Dialog](dialog.md).  <br/> |

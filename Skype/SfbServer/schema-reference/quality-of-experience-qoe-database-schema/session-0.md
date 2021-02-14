@@ -24,7 +24,7 @@ ms.locfileid: "49802694"
  
 L’affichage Session stocke des informations sur les sessions pour lesquelles il existe des enregistrements dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |ConferenceDateTime  <br/> |DateHeure  <br/> |Référencé depuis la table MediaLine.  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |URI de conférence s’il s’agit d’une conférence, ou DialogID s’il s’agit d’une session d’égal à égal.  <br/> |

@@ -42,7 +42,7 @@ Pour plus d’informations sur l’implémentation des règles de traduction, vo
 
 |**Description**|**Chiffres de début**|**Length**|**Chiffres à supprimer**|**Chiffres à ajouter**|**Modèle de correspondance**|**Traduction**|**Exemple**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Appels longue distance classiques aux États-Unis  <br/> (dénudez le « + » )  <br/> |+1  <br/> |Exactement 12  <br/> |1   <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 devient 14255551010  <br/> |
-|Numérotation longue distance internationale aux États-Unis  <br/> (bandez « + » et ajoutez 011)  <br/> |+  <br/> |Au moins 11  <br/> |1   <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 devient 011441235551010  <br/> |
+|Appels longue distance classiques aux États-Unis  <br/> (dénudez le « + » )  <br/> |+1  <br/> |Exactement 12  <br/> |1   <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 devient 14255551010  <br/> |
+|Numérotation longue distance internationale aux États-Unis  <br/> (bandez « + » et ajoutez 011)  <br/> |+  <br/> |Au moins 11  <br/> |1   <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 devient 011441235551010  <br/> |
 
 

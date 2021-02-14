@@ -65,7 +65,7 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
 - des numéros de téléphone VoIP provenant d'un fournisseur de téléphone, comme Vonage ou RingCentral.
 
-- Numéros de téléphone Skype Entreprise hybrides. Si vous souhaitez transférer ces numéros, envoyez-nous un e-mail à <ptn@microsoft.com> l’adresse .
+- Numéros de téléphone Skype Entreprise hybrides. Si vous voulez transférer ces numéros, envoyez-nous un e-mail à <ptn@microsoft.com> l’adresse .
 
   **Vous ne pouvez pas transférer :**
   
@@ -76,7 +76,7 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
 - des numéros de téléphone dédiés à la télécopie.
 
-    Si vous avez des numéros de téléphone dédiés  existants qui sont utilisés pour la télécopie, vous pouvez transférer ces numéros vers Teams, mais vos services de télécopie ne continueront pas à fonctionner comme prévu. Les services de télécopie ne sont pas disponibles pour les clients Teams, même si vous disposez de licences pour Phone System, Forfait d’appels nationaux ou Forfait d’appels internationaux.
+    Si vous avez déjà des numéros de téléphone dédiés qui sont utilisés pour la télécopie, vous pouvez transférer ces numéros vers Teams, mais vos services de télécopie ne continueront pas à fonctionner comme prévu.  Les services de télécopie ne sont pas disponibles pour les clients Teams, même si vous disposez de licences pour Phone System, Forfait d’appels nationaux ou Forfait d’appels internationaux.
 
     Si vous portez le numéro de téléphone vers Teams, vous pouvez affecter ce numéro de téléphone à un utilisateur de votre organisation au lieu de l’utiliser pour la télécopie.
 
@@ -93,11 +93,11 @@ Lorsque vous transférez des numéros de téléphone vers Teams, vous avez la po
   
 - **Port total** Il s’agit du transfert de tous vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous êtes invité à transférer les numéros  de téléphone, vous devez inclure le numéro de téléphone de facturation (BTN) ainsi que tous les autres numéros de téléphone sur votre compte.
 
-    Par exemple, supposons que votre numéro de téléphone portable (BTN) *est +1 425 555 1234* et que vous voulez faire passer l’ensemble de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
+    Par exemple, supposons que votre numéro de téléphone btn est *+1 425 555 1234* et que vous voulez faire passer l’ensemble de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
 
 - **Port partiel** C’est le cas lorsque vous transférez uniquement certains de vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous souhaitez faire porter certains des numéros de téléphone liés au même réseau btn, **** ne devez pas inclure ** le réseau btn avec tous les autres numéros de téléphone sur votre compte.
 
-    Par exemple, supposons que votre numéro de téléphone btn *est +1 425 555 1234* et que vous voulez uniquement porter 5 de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir **+1 425 555 1235 - +1 425 555 1239**.
+    Par exemple, supposons que votre numéro de téléphone btn est *+1 425 555 1234* et que vous souhaitez uniquement porter 5 de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir **+1 425 555 1235 - +1 425 555 1239**.
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>Puis-je envoyer une demande de transfert de numéro unique pour tous mes numéros à la fois ?
 <a name="bkmk_type_1"> </a>
@@ -129,7 +129,7 @@ Voici plus d’informations sur l’soumission des demandes de portage de numér
 ## <a name="how-long-does-it-take-to-port-numbers"></a>Combien de temps faut-il pour transférer les numéros ?
 <a name="bkmk_type_1"> </a>
 
-Une fois que vous avez terminé la demande de demande de port, son traitement peut prendre entre 7 et 14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois que les numéros de téléphone ont été portés, vous recevez un courrier électronique pour vous aider à vous mettre sur la bonne place.
+Une fois que vous avez terminé la demande de demande de port, son traitement peut prendre entre 7 et 14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois les numéros de téléphone portés, vous recevrez un courrier électronique pour vous dire que vous êtes fin fin sur votre téléphone.
   
 Pour vérifier l’état de votre demande de port, dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez sur Numéros de téléphone vocal, puis cliquez sur  >  Historique **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut.
   
@@ -149,7 +149,7 @@ Lorsque votre nouvel opérateur nous contactera avec la demande de portage, nous
 ## <a name="common-mistakes-to-watch-out-for"></a>Erreurs courantes à surveiller
 <a name="bkmk_type_1"> </a>
 
-Il est facile de transférer un numéro. Toutefois, votre commande peut être en désordre en cas de problème avec le fournisseur de services téléphoniques, si la commande est incomplète, si des informations sont manquantes ou en cas de fautes de frappe.
+Il est facile de transférer un numéro. Cependant, votre commande peut être en désordre en cas de problème avec le fournisseur de services téléphoniques, si la commande est incomplète, si des renseignements sont manquants ou en cas de fautes de frappe.
   
 Voici les erreurs le plus fréquentes commises lors des transferts de numéros. Épargnez-vous un appel au service client et vérifiez qu'il n'y a aucune erreur.
   

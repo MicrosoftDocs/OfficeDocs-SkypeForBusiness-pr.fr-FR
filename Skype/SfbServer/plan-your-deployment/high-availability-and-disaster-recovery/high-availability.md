@@ -45,25 +45,25 @@ La première fois que vous démarrez un nouveau pool frontal, il est essentiel q
   
 |Nombre total de serveurs dans le pool  <br/> |Nombre de serveurs devant être en cours d’exécution pour que le pool soit démarré pour la première fois  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
-|3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
-|8   <br/> |6   <br/> |
-|9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
-|16 **pour Skype Entreprise Server 2019** <br/> |12   <br/> |
+|2   <br/> |1   <br/> |
+|3   <br/> |3   <br/> |
+|4   <br/> |3   <br/> |
+|5   <br/> |4   <br/> |
+|6   <br/> |5   <br/> |
+|7   <br/> |5   <br/> |
+|8   <br/> |6   <br/> |
+|9   <br/> |7   <br/> |
+|10   <br/> |8   <br/> |
+|11   <br/> |9   <br/> |
+|12   <br/> |10   <br/> |
+|16 **pour Skype Entreprise Server 2019** <br/> |12   <br/> |
 
 
    
 Chaque fois que le pool est démarré, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais qu’un nombre suffisant de serveurs peut être démarré afin de ne pas être en perte de quorum au niveau du pool), vous pouvez utiliser la cmdlet pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage et  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` d’avancer. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> Dans les pools avec un nombre de serveurs commun, Skype Entreprise Server utilise la base de données principale SQL comme témoin. Dans un pool comme celui-ci, si vous fermez la base de données principale et que vous basculez vers la copie miroir, et que vous fermez suffisamment de serveurs frontux afin que suffisamment de serveurs ne fonctionnent pas en fonction du tableau précédent, tout le pool est arrêté. Pour plus d’informations, [voir Témoin de mise en miroir de bases de données.](https://go.microsoft.com/fwlink/?LinkId=393672) 
+> Dans les pools avec un nombre de serveurs commun, Skype Entreprise Server utilise la base de données SQL principal comme témoin. Dans un pool comme celui-ci, si vous fermez la base de données principale et que vous basculez vers la copie miroir, et que vous fermez suffisamment de serveurs frontux afin que suffisamment de serveurs ne fonctionnent pas en fonction du tableau précédent, tout le pool est arrêté. Pour plus d’informations, [voir Témoin de mise en miroir de bases de données.](https://go.microsoft.com/fwlink/?LinkId=393672) 
   
 #### <a name="pool-level-quorum-loss"></a>Perte de quorum au niveau du pool
 
@@ -71,10 +71,10 @@ Pour qu’un pool frontal fonctionne, il ne peut pas se trouver dans une perte d
   
 |Nombre total de serveurs frontaux dans le pool  <br/> |Nombre de serveurs devant s’exécuter pour que le pool soit opérationnel  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2   <br/> |1   <br/> |
 |3-4  <br/> |N’importe quel 2  <br/> |
 |5-6  <br/> |N’importe quel 3  <br/> |
-|7   <br/> |N’importe quel 4  <br/> |
+|7   <br/> |N’importe quel 4  <br/> |
 |8-9  <br/> |4 des 7 premiers serveurs  <br/> |
 |10-12  <br/> |5 des 9 premiers serveurs  <br/> |
 |12-16  **pour Skype Entreprise Server 2019**  <br/> |7 des 12 premiers serveurs  <br/> |
@@ -90,7 +90,7 @@ Vous devez surveiller quelques autres facteurs pour vous assurer que vos pools f
   
 - Lorsque vous déplacez des utilisateurs vers le pool pour la première fois, assurez-vous qu’au moins trois serveurs frontaux sont en cours d’exécution.
     
-- Si vous établissez une relation de jumelage entre ce pool et un autre pool à des fins de récupération d’urgence, après avoir établi cette relation, vous devez vous assurer que ce pool dispose de trois serveurs frontaux en cours d’exécution simultanément à un moment donnée pour synchroniser correctement les données avec le pool de sauvegarde. Pour plus d’informations sur les fonctionnalités de jumelage de pool et de récupération d’urgence, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server.](high-availability-and-disaster-recovery.md) 
+- Si vous établissez une relation d’appariement entre ce pool et un autre pool à des fins de récupération d’urgence, après avoir établi cette relation, vous devez vous assurer que ce pool dispose de trois serveurs frontaux en cours d’exécution simultanément à un moment donnée pour synchroniser correctement les données avec le pool de sauvegarde. Pour plus d’informations sur les fonctionnalités de jumelage de pool et de récupération d’urgence, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server.](high-availability-and-disaster-recovery.md) 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Pool frontal avec deux serveurs frontux
 

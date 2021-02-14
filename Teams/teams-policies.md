@@ -35,7 +35,7 @@ ms.locfileid: "49802364"
 
 En tant qu’administrateur, vous pouvez utiliser les stratégies Teams dans Microsoft Teams pour contrôler ce que les utilisateurs de votre organisation peuvent faire dans les équipes et les canaux. Par exemple, vous pouvez définir si les utilisateurs sont autorisés à créer des canaux privés.
 
-Pour gérer les stratégies d’équipe, vous devez vous rendre **sur**  >  **Stratégies Teams** dans le Centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
+Pour gérer les stratégies d’équipe, vous devez vous rendre **sur**  >  **Stratégies Teams** dans le Centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
 Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie personnalisée. Une fois que vous avez modifié la stratégie globale ou attribué une stratégie, l’application des modifications peut prendre quelques heures.
 
@@ -55,7 +55,7 @@ Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie 
 Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.
 
 1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à  >  **Stratégies Teams.**
-2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **Modifier.**
+2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
 3. Activer ou désactiver les paramètres de votre souhaitez, puis cliquez sur **Enregistrer.**
 
 ## <a name="assign-a-custom-teams-policy-to-users"></a>Affecter une stratégie d’équipe personnalisée aux utilisateurs

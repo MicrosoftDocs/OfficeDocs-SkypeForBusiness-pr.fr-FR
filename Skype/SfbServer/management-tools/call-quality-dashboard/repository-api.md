@@ -24,11 +24,11 @@ ms.locfileid: "49803124"
  
 **Résumé :** Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’API Repository fournit un accès par programmation pour le Tableau de bord de qualité des appels pour Skype Entreprise Server.
+L’API Référentiel fournit un accès par programmation pour le Tableau de bord de qualité des appels pour Skype Entreprise Server.
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>API de référentiel pour le tableau de bord de qualité des appels
 
-L’API repository offre une interface d’accès aux données à la base de données du référentiel. Le référentiel permet d’organiser le contenu dans une arborescence ou une structure graphique afin que les utilisateurs peuvent les grouper de la manière qui leur semble logique. Le référentiel prend en charge deux types d’utilisateurs généraux : l’utilisateur système, qui est un utilisateur intégré représentant le référentiel, et les utilisateurs réguliers qui représentent les utilisateurs autorisés du référentiel.
+L’API référentiel propose une interface d’accès aux données pour la base de données du référentiel. Le référentiel permet d’organiser le contenu dans une arborescence ou une structure graphique afin que les utilisateurs peuvent les grouper de la manière qui leur semble logique. Le référentiel prend en charge deux types d’utilisateurs généraux : l’utilisateur système, qui est un utilisateur intégré représentant le référentiel, et les utilisateurs réguliers qui représentent les utilisateurs autorisés du référentiel.
   
 L’API de référentiel se compose de trois services généraux : 
   

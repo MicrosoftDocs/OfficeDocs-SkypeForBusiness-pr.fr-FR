@@ -49,7 +49,7 @@ Vous définissez les régions réseau, les sites réseau et les sous-réseaux so
 4. Pour activer Location-Based routage pour le site, activez le **routage basé sur l’emplacement.**
 5. Pour affecter des stratégies de services d’urgence au site, vous pouvez :
 
-    - Si votre organisation utilise des plans d’appels ou un routage direct du système téléphonique déployé, dans le cadre de la stratégie Appels d’urgence, sélectionnez la stratégie de votre choix.
+    - Si votre organisation utilise des plans d’appels ou un routage direct de système téléphonique déployé, dans le cadre de la stratégie Appels d’urgence, sélectionnez la stratégie de votre choix.
     - Si votre organisation a déployé le routage direct du système téléphonique, sous la stratégie de **routage** des appels d’urgence, sélectionnez la stratégie de votre choix.
 
 6. Pour associer un sous-réseau au site, sous **Sous-réseaux,** cliquez **sur Ajouter des sous-réseaux.** Spécifiez la version IP, l’adresse IP, la plage réseau, ajoutez une description, puis cliquez sur **Appliquer.** Chaque sous-réseau doit être associé à un site spécifique.
@@ -106,7 +106,7 @@ Utilisez [l’cmdlet New-CsTenantNetworkSite](https://docs.microsoft.com/powersh
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-Dans cet exemple, nous créons deux sites réseau, Tous deux dans la région Inde, Ils sont tous deux aux états-Unis.
+Dans cet exemple, nous créons deux sites réseau, Tous les deux dans la région Inde.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
@@ -130,7 +130,7 @@ Utilisez la [cmdlet New-CsTenantNetworkSubnet](https://docs.microsoft.com/powers
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site du réseau Desserr, et entre le sous-réseau 2001:4898:e8:25:844e:926f:85ad:dd8e et le site réseau Centrer network.
+Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site du réseau Premièrement, et entre le sous-réseau 2001:4898:e8:25:844e:926f:85ad:dd8e et le site réseau Centrer network.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
@@ -143,7 +143,7 @@ Le tableau suivant indique les sous-réseaux définis dans cet exemple.
 |---------|---------|---------|
 |ID de sous-réseau   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
 |Masque  |     24    |   120      |
-|Site ID  | Site (So) | Site 2 (Sod) |
+|Site ID  | Site (Syz) | Site 2 (Syz) |
 
 Pour plusieurs sous-réseaux, vous pouvez importer un fichier CSV à l’aide d’un script tel que le suivant.
 

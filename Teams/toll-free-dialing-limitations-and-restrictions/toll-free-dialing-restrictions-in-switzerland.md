@@ -39,7 +39,7 @@ ms.locfileid: "49802334"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 0800 <br>|
 |Code ISO de pays/région  <br/> |CH  <br/> |
-|Île/territoire couvert par  <br/> |Non applicable  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> | Non applicable  <br/>  |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |
