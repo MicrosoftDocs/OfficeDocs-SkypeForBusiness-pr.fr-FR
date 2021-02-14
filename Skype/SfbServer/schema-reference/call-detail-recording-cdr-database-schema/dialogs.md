@@ -24,7 +24,7 @@ ms.locfileid: "49816044"
  
 La table Dialogs est une table de prise en charge qui stocke les informations sur les DialogIDs pour les sessions d’égal à égal.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Heure de la demande de session ; utilisé conjointement avec SessionIDSeq pour identifier de manière unique une session.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire  <br/> |Numéro d’ID identifiant la session. Utilisé conjointement avec SessionIDTime pour identifier de manière unique une session.  <br/> |

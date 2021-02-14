@@ -26,7 +26,7 @@ tblFileToken contient des jetons temporaires pour le transfert de fichiers.
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |fileToken  <br/> |nvarchar (50), non null  <br/> |Jeton unique (un GUID).  <br/> |
 |fileTokenUserID  <br/> |int, non null  <br/> |ID du principal qui transfère le fichier.  <br/> |

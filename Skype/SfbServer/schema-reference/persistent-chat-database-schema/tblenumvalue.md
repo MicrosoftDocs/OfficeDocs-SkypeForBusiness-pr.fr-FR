@@ -26,7 +26,7 @@ tblEnumValue est une table codée en dur qui contient les valeurs Visibilité et
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |valueID  <br/> |smallint, non null  <br/> |ID de la valeur  <br/> |
 |attributeID  <br/> |smallint, non null  <br/> |ID de l’attribut  <br/> |
@@ -43,11 +43,11 @@ tblEnumValue est une table codée en dur qui contient les valeurs Visibilité et
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|2   <br/> |1   <br/> |private  <br/> |
-|3   <br/> |1   <br/> |portée  <br/> |
-|4   <br/> |2   <br/> |normal  <br/> |
-|5   <br/> |2   <br/> |auditorium  <br/> |
-|6   <br/> |1   <br/> |open  <br/> |
+|2   <br/> |1   <br/> |private  <br/> |
+|3   <br/> |1   <br/> |portée  <br/> |
+|4   <br/> |2   <br/> |normal  <br/> |
+|5   <br/> |2   <br/> |auditorium  <br/> |
+|6   <br/> |1   <br/> |open  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

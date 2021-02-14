@@ -24,7 +24,7 @@ ms.locfileid: "49816124"
  
 L’affichage ConfernceUris stocke des informations sur les URI qui ont participé à des sessions de conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Numéro unique identifiant l’URI de conférence.  <br/> |
 |ConferenceUri  <br/> |nvarchar(450)  <br/> |URI de la conférence.  <br/> |

@@ -24,7 +24,7 @@ ms.locfileid: "49816084"
  
 La table ContentTypes est une table annexe qui stocke la liste des types de contenu utilisés dans les sessions d’égal à égal et dans les sessions de conférence. Chaque enregistrement de la table représente un type de contenu.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ContentTypeId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification du type de contenu.  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> ||Nom du type de contenu.  <br/> |

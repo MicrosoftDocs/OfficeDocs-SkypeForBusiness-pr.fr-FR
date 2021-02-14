@@ -27,7 +27,7 @@ tblPreference contient les préférences client des utilisateurs. Il est génér
 **Columns**
 
 
-| **Colonne**            | **Type**                        | **Description**                                                 |
+| **Colonne**            | **Type (Type)**                        | **Description**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
 | prefLabel  <br/>      | nvarchar (255), non null  <br/> | Étiquette avec un format tel que : \<user sip uri\>                   |
 | prefSeqID  <br/>      | entier, non null  <br/>            | Numéro séquentiel (par étiquette) à des fins de contrôle de version.  <br/> |

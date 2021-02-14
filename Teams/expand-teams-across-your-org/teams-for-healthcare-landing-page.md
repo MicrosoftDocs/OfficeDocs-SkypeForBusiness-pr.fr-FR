@@ -25,7 +25,7 @@ ms.locfileid: "49815704"
 ---
 # <a name="teams-for-healthcare"></a>Teams pour la santé publique
 
-Teams offre aux équipes de santé et aux professionnels de santé un moyen sécurisé de communiquer, coordonner les soins des patients et améliorer l’efficacité opérationnelle. Vous y trouverez les ressources d’administration dont vous avez besoin pour gérer Teams pour les équipes de santé de votre organisation.
+Teams offre aux équipes de santé et aux professionnels de santé un moyen sécurisé de communiquer, coordonner les soins des patients et améliorer l’efficacité opérationnelle. Vous y trouverez les ressources d’administration dont vous avez besoin pour gérer Teams pour les équipes médicales de votre organisation.
 
 |               |               |
 | ------------- | ------------- |

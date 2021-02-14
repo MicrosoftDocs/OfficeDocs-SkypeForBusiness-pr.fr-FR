@@ -75,7 +75,7 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 |640 x 360  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
 |1280 x 720  <br/> |1280 x 720  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
 |1280 x 720  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |S/O  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |N/A  <br/> |
    
 **Ordinateur avec DXVA mais sans encodeur matériel accéléré**
 

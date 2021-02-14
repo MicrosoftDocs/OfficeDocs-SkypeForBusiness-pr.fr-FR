@@ -26,7 +26,7 @@ tblPrincipalAffiliations contient les affiliations principales qui décrivent le
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |principalID  <br/> |int, non null  <br/> |ID du principal affilié.  <br/> |
 |affiliationID  <br/> |int, non null  <br/> |ID du principal représentant l’affiliation. Chaque principal (sauf system-user-types) possède également une auto-affiliation.  <br/> |

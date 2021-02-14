@@ -65,11 +65,11 @@ Si plus tard, vous souhaitez empêcher temporairement ou définitivement des uti
 Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs fédérés. Pour plus d’informations, voir [Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés.](../external-access-policies/configure-policies-to-control-federated-user-access.md) Pour contrôler l’accès à des domaines fédérés spécifiques, voir Configurer la prise en [charge des domaines externes autorisés.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
 
 
-## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la fédération et de la connectivité à la messagerie instantanée publique à l’aide Windows PowerShell cmdlets
+## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la fédération et de la connectivité de messagerie instantanée publique à l’aide Windows PowerShell cmdlets
 
 La fédération et la connectivité de messagerie instantanée publique peuvent également être gérées à l’aide Windows PowerShell et de la cmdlet Set-CsAccessEdgeConfiguration public. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
-## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la fédération et la connectivité DE MESSAGERIE INSTANTANÉE publique
+## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la fédération et la connectivité de messagerie instantanée publique
 
   - Pour activer la fédération et la connectivité PIC, définissez la valeur de la propriété **AllowFederatedUsers** à True ($True) :
     

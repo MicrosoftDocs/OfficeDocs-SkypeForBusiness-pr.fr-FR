@@ -26,7 +26,7 @@ tblLastChatId contient le dernier ID de conversation généré (et utilisé dans
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, non null  <br/> |ID de nœud (type de salle de conversation seulement).  <br/> |
 |lastChatID  <br/> |bigint, non null  <br/> |ID de conversation le plus récemment utilisé.  <br/> |

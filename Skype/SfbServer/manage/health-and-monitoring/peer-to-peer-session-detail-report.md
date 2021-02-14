@@ -104,7 +104,7 @@ Le tableau suivant liste les informations fournies dans le Rapport détaillé de
 |:-----|:-----|:-----|
 |**Detail** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport montre le rapport de diagnostic pour la session.  <br/> |
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
-|**Demande** <br/> |Non  <br/> |Type de demande SIP. Par exemple, INVITE ou BYE.  <br/> |
+|**Requête** <br/> |Non  <br/> |Type de demande SIP. Par exemple, INVITE ou BYE.  <br/> |
 |**ID de diagnostic** <br/> |Non  <br/> |Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.  <br/> |
 |**Type de contenu** <br/> |Non  <br/> |Type de contenu multimédia utilisé dans la conférence. Par exemple, Application/sdp est un type de contenu commun. Le protocole SDP (Session Description Protocol) est un protocole Internet standard utilisé pour les annonces de session, les invitations aux sessions et autres formes de démarrage de session multimédia.  <br/> |
 |**Auteur du rapport** <br/> |Non  <br/> |Ordinateur (c’est-à-dire, client ou serveur) qui a signalé le problème.  <br/> |

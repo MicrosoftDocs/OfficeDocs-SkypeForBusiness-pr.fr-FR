@@ -26,7 +26,7 @@ tblNode contient l’arborescence d’objets (avec les nodes de catégorie ou de
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, non null  <br/> |ID de nœud (numéro unique).  <br/> |
 |nodeGuid  <br/> |GUID, non null  <br/> |GUID de nœud.  <br/> |

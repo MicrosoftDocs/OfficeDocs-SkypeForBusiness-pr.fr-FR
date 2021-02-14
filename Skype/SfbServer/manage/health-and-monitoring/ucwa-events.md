@@ -33,28 +33,28 @@ UCWA écrit des enregistrements de comportement opérationnel en tant qu’évé
 |20002  <br/> |Erreur  <br/> |UCWA a rencontré une exception inattendue lors de l’initialisation  <br/> |Une erreur inattendue s’est produite lors de l’initialisation  <br/> Examiner les détails de l’exception dans l’entrée du journal des événements associée pour déterminer la cause possible  <br/> |
 |20003  <br/> |Erreur  <br/> |UCWA a rencontré une exception non  <br/> |Une exception nonmenée s’est produite  <br/> Redémarrez le serveur. Si le problème persiste, contactez le support technique  <br/> |
 |20004  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la photo HD  <br/> |La connexion à Exchange n’est pas disponible  <br/> Assurez-vous que la connexion à Exchange est disponible  <br/> |
-|20005  <br/> |Informationnel  <br/> |Récupération de l’échec de l’accès à Exchange pour la photo HD  <br/> |S/O  <br/> |
+|20005  <br/> |Informationnel  <br/> |Récupération de l’échec de l’accès à Exchange pour la photo HD  <br/> |N/A  <br/> |
 |20006  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la recherche de contact  <br/> |La connexion à Exchange n’est pas disponible  <br/> Assurez-vous que la connexion à Exchange est disponible  <br/> |
-|20007  <br/> |Informationnel  <br/> |Récupération de l’échec de la recherche de contact dans Exchange  <br/> |S/O  <br/> |
+|20007  <br/> |Informationnel  <br/> |Récupération de l’échec de la recherche de contact dans Exchange  <br/> |N/A  <br/> |
 |20008  <br/> |Avertissement  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par application  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par application  <br/> Vérifier les clients pour les abonnements inutiles  <br/> |
 |20009  <br/> |Avertissement  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par lot  <br/> |Tentative d’abonnement à un nombre d’abonnements de présence supérieur aux abonnements de présence autorisés par lot  <br/> Vérifier les clients pour les abonnements inutiles  <br/> |
 |20010  <br/> |Erreur  <br/> |Impossible de récupérer les données inbandes  <br/> |Impossible de récupérer les données inbandes  <br/> Si le problème persiste, contactez le support technique  <br/> |
 |20011  <br/> |Erreur  <br/> |Impossible de s’abonner à la présence  <br/> |Impossible de s’abonner à la présence  <br/> Si le problème persiste, contactez le support technique  <br/> |
 |20012  <br/> |Erreur  <br/> |Échec de l’inscription du point de terminaison  <br/> |Échec de l’inscription du point de terminaison  <br/> Si le problème persiste, contactez le support technique  <br/> |
 |20013  <br/> |Erreur  <br/> |Le MCU de messagerie instantanée n’est pas disponible  <br/> |Le MCU de messagerie instantanée n’est pas disponible  <br/> Vérifier si le MCU de messagerie instantanée est en cours d’exécution  <br/> |
-|20014  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU de messagerie instantanée  <br/> |S/O  <br/> |
+|20014  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU de messagerie instantanée  <br/> |N/A  <br/> |
 |20015  <br/> |Erreur  <br/> |Le MCU antivirus n’est pas disponible  <br/> |Le MCU antivirus n’est pas disponible  <br/> Vérifier si le MCU antivirus est en cours d’exécution  <br/> |
-|20016  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU antivirus  <br/> |S/O  <br/> |
+|20016  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU antivirus  <br/> |N/A  <br/> |
 |20017  <br/> |Erreur  <br/> |AS MCU n’est pas disponible  <br/> |AS MCU n’est pas disponible  <br/> Vérifier si le MCU AS est en cours d’exécution  <br/> |
-|20018  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU AS  <br/> |S/O  <br/> |
+|20018  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU AS  <br/> |N/A  <br/> |
 |20019  <br/> |Erreur  <br/> |Le MCU de données n’est pas disponible  <br/> |Le MCU de données n’est pas disponible  <br/> Vérifier si le MCU de données est en cours d’exécution  <br/> |
-|20020  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU de données  <br/> |S/O  <br/> |
+|20020  <br/> |Informationnel  <br/> |Récupération de l’échec de la connexion au MCU de données  <br/> |N/A  <br/> |
 |20021  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU de messagerie instantanée  <br/> |Impossible de rejoindre le MCU de messagerie instantanée  <br/> Vérifier si le MCU de messagerie instantanée est en cours d’exécution  <br/> |
 |20022  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU av  <br/> |Impossible de rejoindre le MCU av  <br/> Vérifier si le MCU antivirus est en cours d’exécution  <br/> |
 |20023  <br/> |Erreur  <br/> |Impossible de rejoindre le MCU AS  <br/> |Impossible de rejoindre le MCU AS  <br/> Vérifier si le MCU AS est en cours d’exécution  <br/> |
 |20024  <br/> |Erreur  <br/> |Impossible de joindre le MCU de données  <br/> |Impossible de joindre le MCU de données  <br/> Vérifier si le MCU de données est en cours d’exécution  <br/> |
 |20025  <br/> |Erreur  <br/> |Impossible d’accéder à Active Directory pour la photo  <br/> |La connexion à Active Directory n’est pas disponible  <br/> Assurez-vous que la connexion à Active Directory est disponible  <br/> |
-|20026  <br/> |Informationnel  <br/> |Récupération de l’échec de l’accès à Active Directory pour la photo  <br/> |S/O  <br/> |
+|20026  <br/> |Informationnel  <br/> |Récupération de l’échec de l’accès à Active Directory pour la photo  <br/> |N/A  <br/> |
 |20027  <br/> |Avertissement  <br/> |Impossible de désérialiser  <br/> |Impossible de désérialiser  <br/> Si le problème persiste, contactez le support technique  <br/> |
    
 

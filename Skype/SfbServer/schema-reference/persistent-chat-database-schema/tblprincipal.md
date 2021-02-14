@@ -26,7 +26,7 @@ tblPrincipal contient tous les principaux, y compris les utilisateurs, les dossi
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID de principal.  <br/> |
 |prinGuid  <br/> |GUID, non null  <br/> |ID de principal. Il est largement utilisé comme clé primaire de remplacement, car sa signification croise l’espace Services de domaine Active Directory. (Le GUID d’un principal mis en cache est égal au GUID d’objet Active Directory correspondant.)  <br/> |

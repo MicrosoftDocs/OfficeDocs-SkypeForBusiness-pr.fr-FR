@@ -26,7 +26,7 @@ ms.locfileid: "49815674"
 
 L’accord spécifique aux ressources dans Microsoft Teams permet aux propriétaires d’équipe d’accorder leur consentement aux applications pour accéder aux données de l’équipe. Ces accès sont, par exemple, la possibilité de lire des messages de canal, de créer et de supprimer des canaux, et de créer et supprimer des onglets de canal.
 
-En tant qu’administrateur, vous contrôlez si les propriétaires d’équipe de votre organisation peuvent accorder leur accord via les paramètres que vous configurez à l’aide du module PowerShell Azure Active Directory (Azure AD), du portail Azure et du Centre d’administration Microsoft Teams.  
+En tant qu’administrateur, vous contrôlez si les propriétaires d’équipe de votre organisation peuvent accorder leur consentement via les paramètres que vous configurez à l’aide du module PowerShell Azure Active Directory (Azure AD), du portail Azure et du Centre d’administration Microsoft Teams.  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>Définir si les propriétaires d’équipe peuvent accorder leur consentement aux applications
 
@@ -44,7 +44,7 @@ Les deux paramètres suivants déterminent si les propriétaires d’équipe peu
 Ce paramètre contrôle si les utilisateurs de votre organisation peuvent consenter à des applications en leur nom. Pour permettre aux propriétaires d’équipe d’accorder leur consentement, ce paramètre doit être réglé sur **Oui.** Pour gérer ce paramètre, vous pouvez :
 
 1. Dans le portail Azure, allez dans Paramètres utilisateur **des applications**  >  **d’entreprise.**
-2. Dans **les applications d’entreprise,** définissez que les utilisateurs peuvent **consenter** à ce que les applications accèdent aux données de l’entreprise en leur nom sur **Non** ou **Oui.**
+2. Dans **les applications d’entreprise,** définissez Les utilisateurs peuvent **consenter à ce** que les applications accèdent aux données de l’entreprise en leur nom sur **Non** ou **Oui.**
 
 Vous pouvez également gérer ce paramètre à l’aide de PowerShell. Pour en savoir plus, voir [Configurer le contenu utilisateur sur des applications.](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)
 
@@ -63,7 +63,7 @@ Outre les paramètres d’Azure AD, les [paramètres](manage-apps.md#manage-org-
 
 Ce paramètre d’application à l’échelle de l’organisation contrôle si les utilisateurs de votre organisation peuvent utiliser des applications tierces. Ce paramètre doit être activé pour permettre aux propriétaires d’équipe d’accorder leur accord. Pour gérer ce paramètre, vous pouvez :
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à l’application **Teams** Gérer les applications, puis cliquez sur Paramètres de l’application à  >  l’échelle **de l’organisation.**
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez aux applications **Teams** Gérer les applications, puis cliquez sur Paramètres de l’application à  >   **l’échelle de l’organisation.**
 2. Sous **Applications tierces,** désactiver ou activer **Autoriser les applications tierces.**
 
     ![Capture d’écran du paramètre « Autoriser les applications tierces dans Teams »](media/resource-specific-consent-org-wide-setting.png)
@@ -74,8 +74,8 @@ Il est possible que les modifications ne prennent effet qu'après 24 heures.
 
 Lorsque vous bloquez ou autorisez une application sur la [page](manage-apps.md#allow-and-block-apps) Gérer les applications, cette application est bloquée ou autorisée pour tous les utilisateurs de votre organisation. Les propriétaires d’équipe ne peuvent accorder leur consentement à une application que si l’application est autorisée. Pour autoriser ou bloquer une application au niveau de l’organisation, vous pouvez :
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **l’application Teams** Gérer  >  **les applications.**
-2. Dans la page Gérer les applications,  sélectionnez l’application, puis cliquez sur Bloquer pour la bloquer ou cliquez sur Autoriser **pour** l’autoriser.
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les **applications Teams**  >  **Gérer les applications.**
+2. Dans la page Gérer les applications,  sélectionnez l’application, puis cliquez sur Bloquer pour la bloquer ou cliquez sur **Autoriser** pour l’autoriser.
 
     ![Capture d’écran des applications bloquées dans les paramètres à l’échelle de l’organisation](media/resource-specific-consent-allow-block-apps.png)
 

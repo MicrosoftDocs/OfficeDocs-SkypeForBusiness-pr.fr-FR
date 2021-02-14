@@ -47,7 +47,7 @@ Le plug-in d’environnement VDI de Citrix (une fonctionnalité de XenApp et Xen
   
 Vous pouvez trouver la liste complète des fonctionnalités et des technologies pris en charge sur le site Web Citrix à l’adresse [Delivering Microsoft Skype for Business to XenApp and XenDesktop Users](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
-Pour plus d’informations, ez les liens suivants :
+Pour plus d’informations, examinez les liens suivants :
   
 - Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
@@ -71,7 +71,7 @@ Vous pouvez trouver une discussion complète des fonctionnalités et des technol
 ## <a name="microsofts-lync-vdi-plug-in"></a>Plug-in Lync VDI de Microsoft
 <a name="Citrix_RT"> </a>
 
-Avec la solution de plug-in Microsoft Lync VDI, l’utilisateur doit se trouver sur un ordinateur Windows ou un client léger et installer le plug-in Lync VDI de Microsoft pour gérer les flux audio/vidéo du client sur le bureau virtuel. Un utilisateur :
+Avec la solution de plug-in Microsoft Lync VDI, l’utilisateur doit se trouver sur un ordinateur Windows ou un client léger et avoir installé le plug-in Lync VDI de Microsoft pour gérer les flux audio/vidéo du client sur le bureau virtuel. Un utilisateur :
   
 1. Connectez un périphérique audio/vidéo (tel qu’un casque ou un appareil photo) à un ordinateur local.
     
@@ -124,7 +124,7 @@ Dans un environnement VDI, les ordinateurs virtuels et l’ordinateur local de l
   
 Les machines virtuelles doivent être configurées avec Windows 8, Windows 7 ou Windows Server 2008 R2 avec les Derniers Service Packs.
   
-L’ordinateur local de l’utilisateur doit respecter les conditions suivantes :
+L’ordinateur local de l’utilisateur doit répondre aux exigences suivantes :
   
 - L’utilisateur doit être homed sur Skype Entreprise Server ou Lync Server 2013.
     
@@ -132,7 +132,7 @@ L’ordinateur local de l’utilisateur doit respecter les conditions suivantes 
     
 - Si vous utilisez les services Bureau à distance, choisissez le plug-in Lync VDI 32 bits ou 64 bits pour correspondre au système d’exploitation de l’ordinateur local. Il n’est pas nécessaire que l’ordinateur local et la machine virtuelle ont des systèmes d’exploitation 32 bits ou 64 bits. Si vous utilisez une autre solution ou plateforme de virtualisation, reportez-vous aux exigences de votre fournisseur.
     
-- L’ordinateur local doit être en cours d’exécution [de la dernière version du client bureau à distance.](https://go.microsoft.com/fwlink/p/?LinkId=268032) Installez les dernières mises à jour du client Des services Bureau à distance à partir de Microsoft ou le dernier logiciel client bureau à distance à partir de votre fournisseur de solutions de virtualisation. 
+- L’ordinateur local doit être en cours d’exécution [de la dernière version du client bureau à distance.](https://go.microsoft.com/fwlink/p/?LinkId=268032) Installez les dernières mises à jour du client Services Bureau à distance à partir de Microsoft ou le dernier logiciel client bureau à distance à partir de votre fournisseur de solutions de virtualisation. 
     
 - Sur l’ordinateur local, les paramètres du client Bureau à distance doivent être configurés pour que l’audio soit l’écoute sur l’ordinateur local et que l’enregistrement à distance soit désactivé. Pour configurer ces paramètres pour la connexion Bureau à distance dans Windows, consultez la section suivante, « Pour configurer les paramètres de connexion Bureau à distance ». 
     
@@ -164,7 +164,7 @@ Il n’existe pas de prise en charge pour les fonctionnalités suivantes :
 Le plug-in Lync VDI n’est pas pris en charge dans les environnements Microsoft 365 ou Office 365.
   
 > [!NOTE]
-> Le pack d’optimisation Citrix RealTime prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels citrix, examinez la documentation [de](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Présentation technique de Citrix pour obtenir la liste des fonctionnalités et versions pris en charge.
+> Le pack d’optimisation Citrix RealTime prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels Citrix, examinez la documentation [De](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) présentation technique de Citrix pour obtenir la liste des fonctionnalités et versions pris en charge.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Citrix_RT"> </a>

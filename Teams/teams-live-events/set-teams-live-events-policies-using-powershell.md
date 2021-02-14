@@ -37,7 +37,7 @@ Vous pouvez utiliser les cmdlets de Windows PowerShell suivantes pour définir e
 Voici quelques exemples.
 
 > [!NOTE]
-> Avant d’exécuter ces cmdlets, vous devez être connecté à Skype Entreprise Online PowerShell. Pour plus d’informations, consultez Gérer Skype Entreprise Online avec [Microsoft 365 ou Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Avant d’exécuter ces cmdlets, vous devez être connecté à Skype Entreprise Online PowerShell. Pour plus d’informations, [consultez Gérer Skype Entreprise Online avec Microsoft 365 ou Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Autoriser les utilisateurs à planifier des événements en direct 
 
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Vous souhaitez qu’un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de les planifier**
 
-Exécutez et vérifiez que *La planification AllowBroadcast* est définie sur *True*:
+Exécutez et vérifiez que *la planification AllowBroadcast* est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```

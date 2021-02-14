@@ -104,7 +104,7 @@ Le tableau qui suit répertorie les informations fournies dans le Rapport des li
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
-|**Demande** <br/> |Non  <br/> |Type de demande SIP ayant échoué. Par exemple, INVITE ou BYE.  <br/> |
+|**Requête** <br/> |Non  <br/> |Type de demande SIP ayant échoué. Par exemple, INVITE ou BYE.  <br/> |
 |**Code de réponse** <br/> |Non  <br/> |Code de réponse SIP envoyé lors de l’échec de conférence.  <br/> |
 |**ID de diagnostic** <br/> |Non  <br/> |Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.  <br/> |
 |**Coût/temps de connexion (ms)** <br/> |Non  <br/> |Temps (en millisecondes) requis pour que l’utilisateur rejoigne la conférence.  <br/> |

@@ -26,7 +26,7 @@ La table tblLastInviteId contient le dernier ID d’invitation généré (et uti
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
 |lastInviteID  <br/> |int, non null  <br/> |ID d’invitation le plus récemment utilisé.  <br/> |

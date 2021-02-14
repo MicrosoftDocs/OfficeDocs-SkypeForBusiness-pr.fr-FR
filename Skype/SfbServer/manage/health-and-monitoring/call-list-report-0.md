@@ -77,7 +77,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport des lis
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Details** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.  <br/> |
+|**Détails** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.  <br/> |
 |**Caller** <br/> |Oui  <br/> |Adresse SIP de la personne qui a initié l’appel.  <br/> |
 |**Appelé** <br/> |Oui  <br/> |Adresse SIP de la personne qui a été appelée.  <br/> |
 |**Heure de début** <br/> |Oui  <br/> |Date et heure de début de l’appel.  <br/> |

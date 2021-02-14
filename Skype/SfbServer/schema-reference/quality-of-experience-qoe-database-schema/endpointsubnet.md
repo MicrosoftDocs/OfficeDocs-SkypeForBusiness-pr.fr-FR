@@ -24,7 +24,7 @@ ms.locfileid: "49815824"
  
 La table EndpointSubnet est une table de prise en charge. Chaque enregistrement représente un sous-réseau capturé depuis des systèmes d’extrémité. 
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |Primaire, étrangère  <br/> |Représentation entière du sous-réseau.  <br/> |
 |**NextUpdateTS** <br/> |DateHeure  <br/> ||À usage interne uniquement.  <br/> |
