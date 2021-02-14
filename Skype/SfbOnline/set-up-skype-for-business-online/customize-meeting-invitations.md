@@ -20,7 +20,7 @@ ms.custom:
 - Setup
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
-description: 'Personnalisez les invitations aux réunions Skype avec des logos graphiques, de l’aide et des URL juridiques, ainsi que du texte de pied de page. '
+description: 'Personnalisez les invitations aux réunions Skype avec des logos graphiques, de l’aide et des URL juridiques, ainsi que du texte de pied de plan. '
 ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,55 +28,55 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164333"
 ---
-# <a name="customize-meeting-invitations"></a><span data-ttu-id="57b34-103">Personnaliser les invitations aux réunions</span><span class="sxs-lookup"><span data-stu-id="57b34-103">Customize meeting invitations</span></span>
+# <a name="customize-meeting-invitations"></a><span data-ttu-id="aacd5-103">Personnaliser les invitations aux réunions</span><span class="sxs-lookup"><span data-stu-id="aacd5-103">Customize meeting invitations</span></span>
 
-<span data-ttu-id="57b34-104">En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations à une réunion Skype entreprise incluent des informations utiles utiles à vos utilisateurs, telles que des liens vers le site Web de votre support et l’exclusion de responsabilité, le logo de votre entreprise et le texte que vous voulez inclure.</span><span class="sxs-lookup"><span data-stu-id="57b34-104">As an admin, you can ensure that all Skype for Business meeting invitations include some helpful information your users might need, such as links to your support website and legal disclaimer, your company logo, and other text you want to include.</span></span> 
+<span data-ttu-id="aacd5-104">En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations aux réunions Skype Entreprise incluent des informations utiles dont vos utilisateurs peuvent avoir besoin, telles que des liens vers votre site web de support technique et la clause d’exclusion de responsabilité, le logo de votre entreprise et tout autre texte à inclure.</span><span class="sxs-lookup"><span data-stu-id="aacd5-104">As an admin, you can ensure that all Skype for Business meeting invitations include some helpful information your users might need, such as links to your support website and legal disclaimer, your company logo, and other text you want to include.</span></span> 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a><span data-ttu-id="57b34-105">Conseils pour la création d'un logo pour les invitations aux réunions</span><span class="sxs-lookup"><span data-stu-id="57b34-105">Tips for creating a logo for meeting invitations</span></span>
-<span data-ttu-id="57b34-106"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="57b34-106"><a name="__top"> </a></span></span>
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a><span data-ttu-id="aacd5-105">Conseils pour la création d'un logo pour les invitations aux réunions</span><span class="sxs-lookup"><span data-stu-id="aacd5-105">Tips for creating a logo for meeting invitations</span></span>
+<span data-ttu-id="aacd5-106"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="aacd5-106"><a name="__top"> </a></span></span>
 
-1. <span data-ttu-id="57b34-107">Créez une image de plus de 188 pixels de large par 30 pixels de hauteur (c’est assez petit).</span><span class="sxs-lookup"><span data-stu-id="57b34-107">Create an image that is no more than 188 pixels wide by 30 pixels tall (it's quite small).</span></span>
+1. <span data-ttu-id="aacd5-107">Créez une image d’une taille de 188 pixels de largeur par 30 pixels de hauteur (c’est assez petit).</span><span class="sxs-lookup"><span data-stu-id="aacd5-107">Create an image that is no more than 188 pixels wide by 30 pixels tall (it's quite small).</span></span>
     
-2. <span data-ttu-id="57b34-108">Enregistrez l’image au format JPG.</span><span class="sxs-lookup"><span data-stu-id="57b34-108">Save the image in JPG format.</span></span>
+2. <span data-ttu-id="aacd5-108">Enregistrez l’image au format JPG.</span><span class="sxs-lookup"><span data-stu-id="aacd5-108">Save the image in JPG format.</span></span>
     
-3. <span data-ttu-id="57b34-109">Stockez l’image dans un emplacement central accessible par tout le monde dans votre entreprise, par exemple un partage réseau, un dossier OneDrive entreprise partagé, Dropbox, etc.</span><span class="sxs-lookup"><span data-stu-id="57b34-109">Store the image in a central location that everyone in your business can access, such as a network share, shared OneDrive for Business folder, Dropbox, etc.</span></span>
+3. <span data-ttu-id="aacd5-109">Stockez l’image dans un emplacement central accessible à tous les membres de votre entreprise, comme un partage réseau, un dossier OneDrive Entreprise partagé, Dropbox, etc.</span><span class="sxs-lookup"><span data-stu-id="aacd5-109">Store the image in a central location that everyone in your business can access, such as a network share, shared OneDrive for Business folder, Dropbox, etc.</span></span>
     
-    <span data-ttu-id="57b34-110">Vous pouvez désormais l’ajouter à vos invitations à des réunions.</span><span class="sxs-lookup"><span data-stu-id="57b34-110">Now you can add it to your meeting invitations.</span></span> <span data-ttu-id="57b34-111">Passez aux étapes suivantes.</span><span class="sxs-lookup"><span data-stu-id="57b34-111">See the next steps.</span></span>
+    <span data-ttu-id="aacd5-110">Vous pouvez désormais l’ajouter à vos invitations à des réunions.</span><span class="sxs-lookup"><span data-stu-id="aacd5-110">Now you can add it to your meeting invitations.</span></span> <span data-ttu-id="aacd5-111">Passez aux étapes suivantes.</span><span class="sxs-lookup"><span data-stu-id="aacd5-111">See the next steps.</span></span>
     
-## <a name="customize-your-meeting-invitations"></a><span data-ttu-id="57b34-112">Personnalisez vos invitations à des réunions</span><span class="sxs-lookup"><span data-stu-id="57b34-112">Customize your meeting invitations</span></span>
-<span data-ttu-id="57b34-113"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="57b34-113"><a name="__top"> </a></span></span>
+## <a name="customize-your-meeting-invitations"></a><span data-ttu-id="aacd5-112">Personnalisez vos invitations à des réunions</span><span class="sxs-lookup"><span data-stu-id="aacd5-112">Customize your meeting invitations</span></span>
+<span data-ttu-id="aacd5-113"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="aacd5-113"><a name="__top"> </a></span></span>
 
-<span data-ttu-id="57b34-114">![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**</span><span class="sxs-lookup"><span data-stu-id="57b34-114">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="aacd5-114">![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**</span><span class="sxs-lookup"><span data-stu-id="aacd5-114">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="57b34-115">Connectez-vous à l’aide de votre compte professionnel ou scolaire.</span><span class="sxs-lookup"><span data-stu-id="57b34-115">Sign in with your work or school account.</span></span>
+1. <span data-ttu-id="aacd5-115">Connectez-vous avec votre compte scolaire ou scolaire.</span><span class="sxs-lookup"><span data-stu-id="aacd5-115">Sign in with your work or school account.</span></span>
     
-2. <span data-ttu-id="57b34-116">Dans le centre d’administration, choisissez **centres** > **d’administration Skype entreprise**.</span><span class="sxs-lookup"><span data-stu-id="57b34-116">From the admin center, choose **Admin centers** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="aacd5-116">Dans le Centre d’administration, sélectionnez **Centres d’administration**  >  **Skype Entreprise.**</span><span class="sxs-lookup"><span data-stu-id="aacd5-116">From the admin center, choose **Admin centers** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="57b34-117">Dans le centre d’administration de Skype entreprise, sélectionnez **réunions en ligne**.</span><span class="sxs-lookup"><span data-stu-id="57b34-117">In the Skype for Business admin center, choose **online meetings**.</span></span> 
+3. <span data-ttu-id="aacd5-117">Dans le Centre d’administration Skype Entreprise, sélectionnez **Réunions en ligne.**</span><span class="sxs-lookup"><span data-stu-id="aacd5-117">In the Skype for Business admin center, choose **online meetings**.</span></span> 
     
-4. <span data-ttu-id="57b34-118">Complétez les zones suivantes :</span><span class="sxs-lookup"><span data-stu-id="57b34-118">Complete the following boxes:</span></span>
+4. <span data-ttu-id="aacd5-118">Remplissez les zones suivantes :</span><span class="sxs-lookup"><span data-stu-id="aacd5-118">Complete the following boxes:</span></span>
     
-    ![Voici à quoi cela peut ressembler lorsque vous remplissez le formulaire pour personnaliser les invitations aux réunions.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+    ![Voici à quoi il peut ressembler lorsque vous complétez le formulaire pour personnaliser vos invitations aux réunions.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   <span data-ttu-id="57b34-120">**URL du logo :** Entrez l’URL de stockage de votre logo.</span><span class="sxs-lookup"><span data-stu-id="57b34-120">**Logo URL:** Enter the URL where your logo is stored.</span></span> <span data-ttu-id="57b34-121">N’oubliez pas qu’il doit être au format JPG.</span><span class="sxs-lookup"><span data-stu-id="57b34-121">Remember that it must be in JPG format!</span></span> 
+   <span data-ttu-id="aacd5-120">**URL du logo :** Entrez l’URL où votre logo est stocké.</span><span class="sxs-lookup"><span data-stu-id="aacd5-120">**Logo URL:** Enter the URL where your logo is stored.</span></span> <span data-ttu-id="aacd5-121">N’oubliez pas qu’il doit être au format JPG !</span><span class="sxs-lookup"><span data-stu-id="aacd5-121">Remember that it must be in JPG format!</span></span> 
  
-   <span data-ttu-id="57b34-122">**URL de l’aide :** Si votre organisation dispose d’un site Web de support auquel vous souhaitez que les personnes accèdent en cas de problème, entrez l’URL ici.</span><span class="sxs-lookup"><span data-stu-id="57b34-122">**Help URL:** If your organization has a support website you want people to go to if they have problems, enter the URL here.</span></span> 
+   <span data-ttu-id="aacd5-122">**URL de l’aide :** Si votre organisation dispose d’un site web de support que vous souhaitez que les personnes s’y rendre s’ils ont des problèmes, entrez l’URL ici.</span><span class="sxs-lookup"><span data-stu-id="aacd5-122">**Help URL:** If your organization has a support website you want people to go to if they have problems, enter the URL here.</span></span> 
 
-   <span data-ttu-id="57b34-123">**URL légale :** Si votre organisation dispose d’un site Web légal auquel vous souhaitez que les personnes accèdent en cas de problèmes légaux, entrez l’URL ici.</span><span class="sxs-lookup"><span data-stu-id="57b34-123">**Legal URL:** If your organization has a legal website you want people to go to if they have legal concerns, enter the URL here.</span></span>
+   <span data-ttu-id="aacd5-123">**URL juridique :** Si votre organisation dispose d’un site web légal que vous souhaitez que les personnes accéder s’ils ont des problèmes juridiques, entrez l’URL ici.</span><span class="sxs-lookup"><span data-stu-id="aacd5-123">**Legal URL:** If your organization has a legal website you want people to go to if they have legal concerns, enter the URL here.</span></span>
     
-   <span data-ttu-id="57b34-124">**Texte de pied de page :** Entrez une note de bas de page uniquement adaptée à vos utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="57b34-124">**Footer text:** Enter a text-only footnote that will be appropriate for your users.</span></span>  
+   <span data-ttu-id="aacd5-124">**Texte du pied de l’en-tête :** Entrez une note de bas de page uniquement textuelle appropriée pour vos utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="aacd5-124">**Footer text:** Enter a text-only footnote that will be appropriate for your users.</span></span>  
   
    
-5. <span data-ttu-id="57b34-125">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="57b34-125">Choose **Save**.</span></span>
+5. <span data-ttu-id="aacd5-125">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="aacd5-125">Choose **Save**.</span></span>
     
-6. <span data-ttu-id="57b34-126">Attendez une heure pour que les modifications soient renseignées sur tous les services Microsoft 365 ou Office 365.</span><span class="sxs-lookup"><span data-stu-id="57b34-126">Wait an hour or so for the changes to get populated across all Microsoft 365 or Office 365 services.</span></span> <span data-ttu-id="57b34-127">Accédez ensuite à Outlook et planifiez une réunion Skype pour voir l’apparence de vos modifications.</span><span class="sxs-lookup"><span data-stu-id="57b34-127">Then go to Outlook and schedule a Skype meeting to see what your changes look like.</span></span> 
+6. <span data-ttu-id="aacd5-126">Avant que les modifications ne s’inséront dans l’ensemble des services Microsoft 365 ou Office 365, patientez environ une heure.</span><span class="sxs-lookup"><span data-stu-id="aacd5-126">Wait an hour or so for the changes to get populated across all Microsoft 365 or Office 365 services.</span></span> <span data-ttu-id="aacd5-127">Puis allez dans Outlook et planifier une réunion Skype pour voir à quoi ressemblent vos modifications.</span><span class="sxs-lookup"><span data-stu-id="aacd5-127">Then go to Outlook and schedule a Skype meeting to see what your changes look like.</span></span> 
     
-    ![Voici à quoi ressemble une invitation personnalisée sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Voici à quoi ressemble une invitation personnalisée, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a><span data-ttu-id="57b34-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="57b34-129">Related topics</span></span>
-<span data-ttu-id="57b34-130"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="57b34-130"><a name="__top"> </a></span></span>
+## <a name="related-topics"></a><span data-ttu-id="aacd5-129">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="aacd5-129">Related topics</span></span>
+<span data-ttu-id="aacd5-130"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="aacd5-130"><a name="__top"> </a></span></span>
 
-[<span data-ttu-id="57b34-131">Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365</span><span class="sxs-lookup"><span data-stu-id="57b34-131">Try or purchase Audio Conferencing in Microsoft 365 or Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="aacd5-131">Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365</span><span class="sxs-lookup"><span data-stu-id="aacd5-131">Try or purchase Audio Conferencing in Microsoft 365 or Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

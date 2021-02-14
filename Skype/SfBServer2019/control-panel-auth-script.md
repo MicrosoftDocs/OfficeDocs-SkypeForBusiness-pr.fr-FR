@@ -1,5 +1,5 @@
 ---
-title: Script d’authentification du panneau de configuration de Skype entreprise Server 2019
+title: Script d’authentification du panneau de contrôle Skype Entreprise Server 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Script d’assistance permettant de configurer l’authentification du panneau de configuration SFB 2019 avec Microsoft 365 ou Office 365 via le protocole OAuth.
+description: Script d’aide pour configurer l’authentification du panneau de configuration SFB 2019 avec Microsoft 365 ou Office 365 via le protocole OAuth.
 ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
 ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
@@ -20,9 +20,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44232595"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="db155-103">Script d’authentification du panneau de configuration de Skype entreprise Server 2019</span><span class="sxs-lookup"><span data-stu-id="db155-103">Skype for Business Server 2019 control panel authentication script</span></span>
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="38898-103">Script d’authentification du panneau de contrôle Skype Entreprise Server 2019</span><span class="sxs-lookup"><span data-stu-id="38898-103">Skype for Business Server 2019 control panel authentication script</span></span>
 
-<span data-ttu-id="db155-104">Ce script doit être exécuté après l’installation de la mise à jour cumulative 1 de Skype entreprise Server 2019, dans le cadre de la configuration du nouveau panneau de configuration.</span><span class="sxs-lookup"><span data-stu-id="db155-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="db155-105">Ce script crée une application Azure AD sur Azure.</span><span class="sxs-lookup"><span data-stu-id="db155-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="db155-106">Cela vous aidera à vous connecter à Microsoft 365 ou à Office 365 à l’aide de OAuth dans le nouveau panneau de configuration.</span><span class="sxs-lookup"><span data-stu-id="db155-106">This will help in signing into Microsoft 365 or Office 365 using OAuth in the new Control Panel.</span></span>
+<span data-ttu-id="38898-104">Ce script doit être exécuté après l’installation de la mise à jour cumulative 1 de Skype Entreprise Server 2019, dans le cadre de la mise en place du nouveau Panneau de contrôle.</span><span class="sxs-lookup"><span data-stu-id="38898-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="38898-105">Ce script crée une application Azure AD sur Azure.</span><span class="sxs-lookup"><span data-stu-id="38898-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="38898-106">Cela vous aidera à vous inscrire à Microsoft 365 ou Office 365 à l’aide d’OAuth dans le nouveau Panneau de contrôle.</span><span class="sxs-lookup"><span data-stu-id="38898-106">This will help in signing into Microsoft 365 or Office 365 using OAuth in the new Control Panel.</span></span>
 
 ```powershell
 <#
