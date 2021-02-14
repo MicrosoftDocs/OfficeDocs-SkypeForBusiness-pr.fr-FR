@@ -1,5 +1,5 @@
 ---
-title: 'Audit de l’application patients pour les administrateurs informatiques et responsables de la conformité '
+title: 'Audit de l’application Patients pour les administrateurs informatiques et de conformité de Teams '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: En savoir plus sur l’audit de l’application patients pour les administrateurs teams
+description: En savoir plus sur l’audit de l’application Patients pour les administrateurs teams
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: ce1851b6d424203f6a4aed8a871209e3a65ce5f8
 ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
@@ -26,66 +26,66 @@ ms.locfileid: "48803512"
 # <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Toutes les données associées à l’application patients sont conservées dans ce groupe, mais vous ne pouvez plus y accéder par le biais de l’interface utilisateur. Les utilisateurs peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale. Consultez le modèle patients dans les listes pour commencer. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+>Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
 
-Le journal d’audit de l’activité des applications patient permet aux équipes de réponse après incident de passer en revue les modifications apportées aux dossiers médicaux électroniques d’un patient ou aux informations médicales du patient (PHI) et de déterminer si des modifications ou des améliorations apportées à la politique ou la procédure pour l’accès PHI dans les outils de productivité sont nécessaires. Les événements du journal d’audit traitent les actions effectuées par le biais de l’interface utilisateur de l’application patients.
+Un journal d’audit pour l’activité de l’application Patients permet aux équipes de réponse après incident d’examiner les modifications apportées aux dossiers médicaux électroniques (EMR) ou aux informations médicales des patients (PHI) d’un patient, et de déterminer si des modifications ou améliorations de la stratégie ou de la procédure pour l’accès à PHI dans les outils de productivité sont nécessaires. Les événements du journal d’audit couvrent les actions effectuées via l’interface utilisateur de l’application Patients.
 
-## <a name="meet-hipaa-requirements"></a>Respecter la loi HIPAA
+## <a name="meet-hipaa-requirements"></a>Répondre aux exigences de la loi américaine HIPAA
 
-Conformément aux directives du HIPAA, les prestataires de services de santé doivent conserver des enregistrements de tout accès à la norme PHI, de sorte que les modifications soient auditées. Microsoft s’engage à remplir ses clients d’entreprise à l’aide de Microsoft Teams, et de les aider à répondre aux exigences et contrôles HIPAA. L’accès à la fonction PHI par le biais de l’application patients est entièrement suivi et les journaux sont rendus disponibles dans le centre de conformité Microsoft 365, comme décrit dans l’article [fonctionnalité de recherche du journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
+Conformément aux directives de l’HIPAA, les fournisseurs de soins de santé doivent conserver des enregistrements de tout accès à PHI, afin que les modifications soient auditées. Microsoft s’engage pour ses clients d’entreprise à utiliser Microsoft Teams et à les aider à répondre aux exigences et contrôles de la loi américaine HIPAA. L’accès à PHI via l’application Patients est entièrement suivi et les journaux sont [](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) disponibles dans le Centre de conformité Microsoft 365, comme décrit dans l’article sur les fonctionnalités de recherche dans le journal d’audit.
 
 > [!IMPORTANT]
-> La charge de la mise en place de la vie privée du patient est appliquée au service de santé par la Loi. La législation donne lieu à la vie privée et exige qu’un administrateur informatique ou un contrôleur d’HIPAA puisse facilement identifier le niveau d’infirmier, du praticien ou du travailleur social ayant consulté ou modifié les dossiers du patient. L’un des exemples les plus courants d’une violation d’accès PHI est l’accès aux patients VIP. La fonctionnalité du journal d’audit est nécessaire pour effectuer des enquêtes sur une violation d’accès PHI et répondre aux exigences du HIPAA.
+> La charge de la confidentialité des patients est placée par la loi sur le fournisseur de soins de santé. La loi donne droit à la vie privée aux patients et exige qu’un administrateur informatique ou un contrôleur HIPAA puisse déterminer aisément l’infirmière, l’infirmière, l’infirmière ou le travailleur social qui a accédé aux dossiers des patients ou les a modifiés. L’accès aux patients VIP est l’un des exemples les plus courants de violations d’accès PHI. La fonctionnalité du journal d’audit est requise pour effectuer des enquêtes sur toute violation d’accès PHI et pour répondre aux exigences de la loi américaine HIPAA.
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
-## <a name="enable-audit-logs-for-the-patients-app"></a>Activer les journaux d’audit pour l’application patients
+## <a name="enable-audit-logs-for-the-patients-app"></a>Activer les journaux d’audit pour l’application Patients
 
-Un audit dépend de plusieurs configurations antérieures :
+Un audit dépend de plusieurs configurations antérieures :
 
-1. L’administrateur doit collaborer avec son fournisseur de services FHIR pour qu’il utilise EMR dans un format utilisé par l’application patients. Voir [intégration des enregistrements de santé électronique dans Microsoft teams](patients-app.md).
-2. Un administrateur de prestataire de services de santé doit activer l’application patients dans le centre d’administration Teams. Pour plus d’informations, consultez [gérer les stratégies de configuration des applications dans Microsoft teams](../../teams-app-setup-policies.md) et les Articles connexes.
-3. L’administrateur doit activer les audits d’activité, de la même manière qu’il s’agit de l’activation de l’audit du journal d’activité, comme décrit dans la section [avant de commencer](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) et [activer ou désactiver la recherche dans le journal d’audit](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Si la journalisation d’audit est déjà activée, rien de spécial n’est nécessaire pour l’application patients. Chaque fois qu’un fournisseur de services de santé installe et exécute l’application au sein d’une équipe, les journaux d’audit enregistrent l’activité PHI.
-4. L’administrateur doit alors annoncer la disponibilité de l’application patients, et les travailleurs de la santé doivent commencer à générer une activité qui sera incluse dans un audit.
+1. L’administrateur doit travailler avec son fournisseur de services FEMBA pour que EMR utilise un format utilisé par l’application Patients. Voir [Intégration d’enregistrements médicaux électroniques dans Microsoft Teams.](patients-app.md)
+2. Un administrateur de fournisseur de soins doit activer l’application Patients dans le Centre d’administration Teams. Pour plus [d’informations,](../../teams-app-setup-policies.md) voir Gérer les stratégies de configuration d’application dans Microsoft Teams et les articles connexes.
+3. L’administrateur doit activer les audits d’activité de la même [](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) façon qu’ils activent n’importe quel audit du journal d’activité, comme décrit dans la page Avant de commencer et d’activer ou de désactiver la recherche dans le journal [d’audit.](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search) Si l’enregistrement d’audit est déjà en cours, rien de particulier n’est nécessaire pour l’application Patients. Chaque fois qu’un fournisseur de soins de santé installe et exécute l’application au sein d’une équipe, les journaux d’audit enregistrent leur activité PHI.
+4. L’administrateur doit alors annoncer la disponibilité de l’application Patients et les travailleurs de la santé doivent commencer à générer l’activité à inclure dans un audit.
 
 <!-- add link out to client doc when available -->
 
 ## <a name="run-an-audit"></a>Exécuter un audit
 
-Pour obtenir des instructions sur l’exécution d’une recherche du journal d’activité, voir [effectuer une recherche dans le journal d’audit](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
+Pour obtenir des instructions sur l’exécution d’une recherche dans le journal d’activité, voir [Rechercher dans le journal d’audit.](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)
 
-## <a name="logged-activities-for-patients-app"></a>Activités journalisées pour l’application patients
+## <a name="logged-activities-for-patients-app"></a>Activités enregistrées pour l’application Patients
 
-L’application patients possède ses propres activités journalisées, répertoriées dans le tableau suivant :
+L’application Patients possède ses propres activités journalées, répertoriées dans le tableau suivant :
 
 |Nom convivial |Opération|Description|
 |:---|:---|:---|
-| Affichage de la liste des patients | PatientListView | Un utilisateur a consulté une liste de patients.|
+| Liste des patients | PatientListView | Un utilisateur a vu une liste de patients.|
 | Liste des patients supprimés | PatientListDelete | Un utilisateur a supprimé une liste de patients.|
-| Le patient a été ajouté à la liste | PatientListAddPatient | Un patient a été ajouté à une liste de patients. |
-| Note ajoutée pour le patient | PatientNoteAdd | Une note a été ajoutée à un enregistrement patient. |
-| Création du schéma du patient | PatientSchemaCreate | Un ensemble de colonnes utilisé dans l’enregistrement patient a été créé. |
-| L’utilisateur a initié une exportation | ExportInitiation | Les données du patient ont été exportées à partir de l’application patients dans un fichier Excel. Le fichier est enregistré sur le site SharePoint de l’équipe. |
-| Création de la liste des patients | PatientListCreate | Un utilisateur a créé une liste de patients.|
-| Définir la liste de patients par défaut| PatientListDefaultSet| Un utilisateur a défini une liste particulière en tant que liste par défaut.|
-| A supprimé un patient de la liste| PatientListRemovePatient | Un patient a été supprimé d’une liste de patients. |
-| Recherche du patient | PatientSearch | Recherche d’un dossier patient dans le service DMI. |
-| Mise à jour du schéma du patient | PatientSchemaUpdate  | Mise à jour d’un ensemble existant de colonnes utilisées dans l’enregistrement patient. |!--< | Déplacement du patient vers une autre liste| PatientMoved | L’enregistrement du patient a été déplacé d’une liste vers une autre. |-->
-| Liste renommée patient | PatientListRename | Une liste de patients a été renommée. |
-| Colonnes modifiées dans la liste des patients | PatientListEditColumns | Une colonne dans une liste de patients a été modifiée (ajoutée ou supprimée). |
-| Détails du patient consultés | PatientView | Un utilisateur a consulté un dossier patient.|
-| Modification des détails du patient | PatientDetailsEdit | Le détail d’un enregistrement patient a été modifié. |
-| Définir la connexion DMI | EHRConnectionSet | Définissez l’URL utilisée pour la connexion à la connexion au service DMI FHIR. Par exemple : https://<span>API-V8-dstu2.hspconsortium.org/ContosoHospital/Open</span>  |
+| Patient ajouté à la liste | PatientListAddListent | Un patient a été ajouté à la liste des patients. |
+| Ajout d’une note pour un patient | PatientNoteAdd | Une note a été ajoutée à un dossier de patients. |
+| Schéma de patient créé | PatientSchemaCreate | Un ensemble de colonnes utilisées dans l’enregistrement du patient a été créé. |
+| Un utilisateur a initié une exportation | ExportInitiation | Les données des patients ont été exportées de l’application Patients vers un fichier Excel. Le fichier est enregistré sur le site SharePoint de l’équipe. |
+| Liste des patients créée | PatientListCreate | Un utilisateur a créé une liste de patients.|
+| Définir la liste des patients par défaut| PatientListDefaultSet| Un utilisateur a définir une liste particulière en tant que liste par défaut.|
+| Patient supprimé de la liste| PatientListRemoveSent | Un patient a été supprimé de la liste des patients. |
+| Patient recherché | PatientSearch | A recherché un dossier de patient dans le service EHR. |
+| Schéma patient mis à jour | PatientSchemaUpdate  | Mise à jour d’un ensemble existant de colonnes utilisées dans l’enregistrement du patient. |<!-- | Patient déplacé vers une autre liste| PatientMoved | L’enregistrement d’un patient a été déplacé d’une liste à l’autre. |-->
+| Liste des patients renommés | PatientListRename | Une liste de patients a été renommée. |
+| Colonnes modifiées dans la liste des patients | PatientListEditColumns | Une colonne d’une liste de patients a été modifiée (ajoutée ou supprimée). |
+| Détails sur le patient | PatientView | Un utilisateur a vu un dossier de patient.|
+| Détails du patient modifié | PatientDetailsEdit | Les détails d’un dossier de patients ont été modifiés. |
+| Définir la connexion EHR | EHRConnectionSet | Définissez l’URL utilisée pour se connecter à la connexion du service FEMBA. Exemple : https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
 ||||
 
-Vous pouvez personnaliser votre audit selon vos besoins pour effectuer une recherche ou un filtrage sur une de ces activités journalisées.
+Vous pouvez personnaliser votre audit selon vos besoins pour rechercher ou filtrer une de ces activités journalées.
 
-Les activités journalisées de Microsoft teams sont décrites dans [activités de Microsoft teams](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
+Les activités journalées pour Microsoft Teams en général sont décrites [dans les activités de Microsoft Teams.](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Effectuer une recherche dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+[Effectuer des recherches dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 [Intégration des dossiers médicaux électroniques dans Microsoft Teams](patients-app.md)

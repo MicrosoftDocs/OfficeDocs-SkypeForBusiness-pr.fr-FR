@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Portugal.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Portugal.
 ms.openlocfilehash: d6b45ecaf78c57509f69c7904cdb8c94ba0fd7b6
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "48320849"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Portugal.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Portugal.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Lisbonne</ul>Pour obtenir des numéros de téléphone dédiés, consultez la rubrique [réception des numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Lisbonne</ul>Si vous souhaitez des numéros de téléphone dédiés, [consultez Obtenir des numéros de téléphone de service.](/microsoftteams/getting-service-phone-numbers)  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -72,7 +72,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
- Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour les conférences audio, les standards automatiques et les files d’attente d’appels, voir [obtention des numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
+ Si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour l’audioconférence, les postes de service automatique et les files d’attente d’appels, consultez Obtenir des numéros de [téléphone de service.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Crédits de communication
 

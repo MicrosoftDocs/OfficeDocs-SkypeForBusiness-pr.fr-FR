@@ -1,5 +1,5 @@
 ---
-title: Utiliser le planificateur de réseaux pour Microsoft teams
+title: Utiliser le Planificateur réseau pour Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: L’administrateur peut en savoir plus sur l’utilisation du planificateur de réseau pour déterminer la configuration requise pour le réseau de Microsoft Teams.
+description: Les administrateurs peuvent découvrir comment utiliser le Planificateur réseau pour déterminer la exigences réseau pour Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -29,82 +29,82 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/09/2020
 ms.locfileid: "49611798"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le planificateur de réseaux pour Microsoft teams
+# <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le Planificateur réseau pour Microsoft Teams
 
-Le planificateur de réseaux est un nouvel outil disponible dans le centre d’administration Teams. Ce service est disponible en accédant à **Planning**  >  **Network Planner**. En quelques étapes seulement, le planificateur de réseaux peut vous aider à déterminer et organiser les exigences réseau pour la connexion des utilisateurs Microsoft teams au sein de votre organisation. Lorsque vous fournissez les informations relatives à votre réseau et à l’utilisation des équipes, le planificateur réseau calcule la configuration requise pour le déploiement d’équipes et de la voix Cloud dans les emplacements physiques de votre organisation.
+Network Planner est un nouvel outil disponible dans le Centre d’administration Teams. Il est possible de le trouver en vous rendre dans **Planificateur**  >  **Réseau de planification.** En quelques étapes, le Planificateur réseau peut vous aider à déterminer et à organiser la exigences réseau pour connecter les utilisateurs de Microsoft Teams au sein de votre organisation. Lorsque vous fournissez les détails de votre réseau et que vous fournissez l’utilisation de Teams, le Planificateur réseau calcule votre exigences réseau pour déployer Teams et voix cloud sur les emplacements physiques de votre organisation.
 
-![Capture d’écran du planificateur de réseaux](media/network-planner.png)
+![Capture d’écran du Planificateur réseau](media/network-planner.png)
 
-Le planificateur réseau vous permet d’effectuer les opérations suivantes :
+Le Planificateur réseau vous permet d':
 
-- Créer des représentations de votre organisation à l’aide de sites et de personnes recommandées Microsoft (travailleurs Office, travailleurs à distance et systèmes de salle Teams).
+- Créez des représentations de votre organisation à l’aide de sites et de personnage recommandés par Microsoft (employés de bureau, employés à distance et système de salle Teams).
 
     > [!NOTE]
-    > Les personnes recommandées ont été développées en fonction des données des scénarios d’utilisation et de modèles d’utilisation les plus courants. Toutefois, vous pouvez créer jusqu’à trois personnages personnalisés en plus des trois personnages recommandés.
+    > Les personnage recommandés ont été développés sur la base de données de scénarios d’utilisation les plus pratiques dans Teams et de modèles d’utilisation classiques. Toutefois, vous pouvez créer jusqu’à trois personnage personnalisés en plus des trois personnage recommandés.
 
-- Générez des rapports et calculez les besoins en bande passante pour l’utilisation des équipes.
+- Générez des rapports et calculez les besoins en bande passante pour l’utilisation de Teams.
 
-Pour utiliser le planificateur réseau, vous devez être administrateur général, administrateur de service teams ou administrateur de communications Teams.
+Pour utiliser le Planificateur réseau, vous devez être administrateur général, administrateur de services Teams ou administrateur de communications Teams.
 
 ## <a name="create-a-custom-persona"></a>Créer un personnage personnalisé
 
-Pour créer un personnage personnalisé, procédez comme suit :
+Pour créer un personnage personnalisé, suivez ces étapes :
 
-1. Accédez au planificateur de réseau dans le centre d’administration Microsoft Teams.
+1. Dans le Centre d’administration Microsoft Teams, allez au Planificateur réseau.
 
-2. Dans l’onglet **personnages** , cliquez sur **+ personnalisé**. 
+2. Sous **l’onglet Personnage,** cliquez **sur + Personnage personnalisé.** 
 
-3. Dans le **nouveau volet de personnages personnalisé** , ajoutez un nom et une description pour le nouveau personnage.
+3. Dans le **volet Nouveau personnage personnalisé,** ajoutez un nom et une description pour le nouveau personnage.
 
 4. Sélectionnez les autorisations que ce personnage utilisera au sein de l’organisation.
 
 5. Cliquez sur **Enregistrer**.
 
-## <a name="build-your-plan"></a>Créer votre plan
+## <a name="build-your-plan"></a>Créez votre plan
 
-Pour commencer à créer votre plan réseau, procédez comme suit :
+Pour commencer à créer votre plan réseau, suivez les étapes suivantes :
 
-1. Accédez au planificateur de réseau dans le centre d’administration Microsoft Teams.
+1. Dans le Centre d’administration Microsoft Teams, allez au Planificateur réseau.
 
-2. Dans l’onglet **plan réseau** , cliquez sur **Ajouter un plan réseau**.
+2. Sous **l’onglet Plan réseau,** cliquez **sur Ajouter un plan réseau.**
 
-3. Entrez le nom et la description de votre plan réseau. Le plan du réseau doit apparaître dans la liste des offres disponibles.
+3. Entrez un nom et une description pour votre plan réseau. Le plan réseau s’affiche dans la liste des plans disponibles.
 
 4. Cliquez sur le nom du plan pour sélectionner le nouveau plan.
 
 5. Ajoutez des sites pour créer une représentation de la configuration réseau de votre organisation.
 
-    En fonction du réseau de votre organisation, vous souhaiterez peut-être utiliser des sites pour représenter un bâtiment, un emplacement de bureau ou un autre emplacement. Les sites peuvent être connectés par un réseau étendu pour autoriser le partage de connexions Internet et/ou PSTN. Pour obtenir de meilleurs résultats, créez des sites avec des connexions locales avant de créer des sites qui se connectent à distance à Internet ou PSTN.
+    En fonction du réseau de votre organisation, vous pouvez utiliser des sites pour représenter un bâtiment, un emplacement de bureau ou autre chose. Les sites peuvent être connectés par un réseau WAN pour autoriser le partage des connexions Internet et/ou PSTN. Pour de meilleurs résultats, créez des sites avec des connexions locales avant de créer des sites qui se connectent à distance à Internet ou au réseau PSTN.
 
-    Pour créer un site :
+    Pour créer un site :
 
     1. Ajoutez un nom et une description pour votre site.
 
-    2. Sous **paramètres réseau**, ajoutez le nombre d’utilisateurs du réseau sur ce site (obligatoire).
+    2. Sous **Paramètres réseau,** ajoutez le nombre d’utilisateurs réseau sur ce site (obligatoire).
 
-    3. Ajoutez des informations sur le réseau : accès WAN, capacités WAN, sortie Internet (**locale** ou **distante**), sortie PSTN (aucun, local ou distant).
+    3. Ajoutez les détails du réseau : activé pour le réseau WAN, la capacité WAN, la sortie Internet **(locale** ou distante) et la sortie PSTN (aucune, locale ou distante).
 
       > [!NOTE]
-      > Vous devez ajouter des numéros de capacités WAN et Internet pour afficher des recommandations en matière de bande passante spécifiques lors de la génération d’un rapport.
+      > Vous devez ajouter des numéros de réseau WAN et de capacité Internet pour consulter des recommandations spécifiques en matière de bande passante lorsque vous générez un rapport.
 
     4. Cliquez sur **Enregistrer**.
 
-## <a name="create-a-report"></a>Créer un rapport
+## <a name="create-a-report"></a>Créer un état
 
-Après avoir ajouté tous les sites, vous pouvez créer un rapport, comme suit.
+Après avoir ajouté tous les sites, vous pouvez créer un état comme suit.
 
-1. Dans l’onglet **rapports** , cliquez sur **Démarrer un rapport**.
+1. Sous **l’onglet** Rapports, cliquez **sur Démarrer un rapport.**
 
-2. Pour chaque site que vous créez, distribuez le nombre d’utilisateurs au sein des personnages disponibles. Si vous utilisez les personnages recommandés par Microsoft, le numéro sera distribué automatiquement (80% du travailleur et 20% du travailleur distant).
+2. Pour chaque site que vous créez, distribuez le nombre d’utilisateurs aux différents personnage disponibles. Si vous utilisez les personnage recommandés par Microsoft, le numéro est distribué automatiquement (80 % pour les travailleurs du bureau et 20 % pour les employés à distance).
 
-3. Lorsque vous avez terminé la distribution, cliquez sur **générer le rapport**.
+3. Une fois la distribution terminée, cliquez sur **Générer un rapport.**
 
-    Le rapport généré affiche les exigences de bande passante dans plusieurs affichages de sorte que vous puissiez clairement comprendre la sortie :
-    - Une table avec des calculs individuels affichera les exigences de bande passante pour chaque activité autorisée.
-    - Un affichage supplémentaire affiche les recommandations globales en matière de bande passante.
+    Le rapport généré affiche les besoins en bande passante dans plusieurs affichages différents, de sorte que vous pouvez clairement comprendre le résultat :
+    - Une table avec des calculs individuels affiche les besoins en bande passante pour chaque activité autorisée.
+    - Un affichage supplémentaire présente les besoins globaux en bande passante avec des recommandations.
 
 4. Cliquez sur **Enregistrer**. Votre rapport sera disponible dans la liste des rapports pour un affichage ultérieur.
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-Pour obtenir un exemple de l’utilisation du planificateur de réseaux pour configurer un plan réseau et générer un rapport à l’aide de ces étapes, téléchargez le [Planificateur de réseaux How-To présentation PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (en anglais uniquement).
+Pour obtenir un exemple d’utilisation du Planificateur réseau pour configurer un plan réseau et générer un rapport à l’aide de ces étapes, téléchargez le planificateur réseau How-To [présentation PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (en anglais uniquement).

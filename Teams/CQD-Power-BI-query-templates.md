@@ -1,5 +1,5 @@
 ---
-title: Utiliser Power BI pour analyser des données bord pour Microsoft teams
+title: Utiliser Power BI pour analyser les données du CQD pour Microsoft Teams
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Utilisez Power BI pour analyser les données de bord pour Microsoft Teams.
+description: Utilisez Power BI pour analyser les données du CQD pour Microsoft Teams.
 ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
 ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
@@ -23,32 +23,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/08/2020
 ms.locfileid: "49588327"
 ---
-# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser des données bord pour Microsoft teams
+# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser les données du CQD pour Microsoft Teams
 
-Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi pour bord](https://www.microsoft.com/download/details.aspx?id=102291). Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et enregistrer vos données bord.
+Nouveautés de Janvier 2020 : Téléchargez les modèles de requête [Power BI pour CQD.](https://www.microsoft.com/download/details.aspx?id=102291) Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et signaler les données de votre CQD.
 
-Pour les rapports de tableau de bord de qualité d’appel (bord) dans Microsoft Teams, si vous préférez utiliser Power BI pour interroger et créer des rapports sur vos données, téléchargez nos modèles Power BI bord. Lorsque vous ouvrez les modèles dans Power BI, vous êtes invité à vous connecter à l’aide de vos informations d’identification d’administrateur bord. Vous pouvez personnaliser ces modèles de requête et les distribuer à toutes les personnes de votre organisation disposant d’une licence Power BI et d’autorisations d’administrateur bord.
+Pour les rapports de tableau de bord de qualité des appels dans Teams, si vous préférez utiliser Power BI pour interroger et signaler vos données, téléchargez nos modèles Power BI du tableau de bord de qualité des appels. Lorsque vous ouvrez les modèles dans Power BI, vous êtes invité à vous connectez avec vos informations d’identification d’administrateur du CQD. Vous pouvez personnaliser ces modèles de requête et les distribuer à tous les membres de votre organisation qui disposent d’une licence Power BI et d’autorisations d’administrateur du CQD.
 
-Pour pouvoir utiliser ces fichiers PBIT, vous devez [installer le connecteur Power bi pour Microsoft bord](CQD-Power-BI-connector.md) à l’aide du fichier *MicrosoftCallQuality. pqx* inclus dans le [Téléchargement](https://www.microsoft.com/download/details.aspx?id=102291). 
+Pour pouvoir utiliser ces fichiers PBIT, vous devez installer Power BI Connector pour le [CQD Microsoft](CQD-Power-BI-connector.md) à l’aide du fichier *MicrosoftCallQuality.pqx* inclus dans le [téléchargement.](https://www.microsoft.com/download/details.aspx?id=102291) 
 
-Vérifiez que vous avez le [rôle d’accès bord](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) approprié pour accéder aux rapports Power bi. 
+Assurez-vous que vous avez le rôle [d’accès de CQD droit pour](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) accéder aux rapports Power BI. 
 
 |  |  |
 |---------|---------|
-|<strong>(Nouveau !)</strong> Le standard automatique d’équipes de bord & le rapport historique des files d’attente. PBiT     |  Ce modèle fournit les trois rapports suivants :</p><li>Standard automatique : affiche les données d’analyse pour les appels provenant de vos standards automatiques.</li><li>File d’attente des appels : affiche les données d’analyse des appels arrivant dans vos files d’attente d’appels.</li><li>Chronologie de l’agent : affichage de la chronologie des agents actives dans les appels de files d’attente d’appels.</li><br>Pour en savoir plus, voir [standard automatique & rapport historique de la file d’attente d’appels](aa-cq-cqd-historical-reports.md).        |
-|Rapport du support bord. PBiT     |En intégrant les données de bâtiment et de EUII, ce rapport est conçu pour vous permettre d’effectuer un zoom avant d’un utilisateur unique pour rechercher la cause initiale de la mauvaise qualité d’appel pour cet utilisateur (par exemple, l’utilisateur se trouve dans un bâtiment rencontrant des problèmes de réseau).         |
-|Rapport bord emplacement amélioré. PBiT     | Réimaginer les rapports d’emplacement SPD bord. Inclut 9 rapports, offrant une qualité d’appel, des informations de fiabilité et de fréquence d’appel, en créant ou en fonction de l’utilisateur.  Assurez-vous de télécharger les données de bâtiment pour optimiser votre qualité de création de rapports.        |
-|Rapport sur les appareils mobiles bord. PBiT     | Fournit des informations spécifiquement adaptées aux utilisateurs d’appareils mobiles, notamment la qualité des appels, la fiabilité et les tarifs d’appel. Afficher les rapports sur le réseau mobile, le réseau WiFi et le système d’exploitation mobile (Android, iOS).        |
-|Rapport de routage direct RTC de bord. PBiT     |Fournit des informations spécifiques aux appels RTC qui passent par le routage direct. Pour en savoir plus, lisez [utilisation du rapport de routage direct RTC bord](CQD-PSTN-report.md).         |
-|BORD rapport de synthèse. PBiT     |Des visualisations améliorées, une présentation améliorée, une plus grande densité d’information et des dates de roulement. Ces rapports permettent d’identifier plus facilement les valeurs extrêmes. Explorez la qualité des appels à l’aide d’une carte interactive facile à utiliser. 9 nouveaux rapports :</p>-Globalement-qualité<br>– Fiabilité globale<br>-Centre RMC (évaluer mon appel) en général<br>-Qualité de la Conférence<br>-Qualité P2P<br>-Fiabilité des conférences<br>-Fiabilité P2P<br>-Centre d’audioconférence<br>-CENTRE RMC         |
-|<strong>(Nouveau !)</strong> Rapport sur l’utilisation des équipes bord. PBiT     | Décrit la façon dont les utilisateurs de votre organisation utilisent des équipes et combien de temps. Assurez-vous de télécharger les données de bâtiment pour optimiser votre qualité de création de rapports. Pour en savoir plus, voir [utiliser le rapport Power bi bord pour afficher le taux d’utilisation de Microsoft teams](CQD-teams-utilization-report.md).        |
-|Rapport sur les utilisateurs bord (évaluer mon appel). PBiT     | Le mode d’affichage des données d’appel vous permet de classer facilement les appels au sein de votre organisation. Référence croisée avec Verbatim pour identifier les opportunités de la formation des utilisateurs finaux.        |
+|<strong>(Nouveau!)</strong> CQD Teams Standard automatique & Call Queue Historical Report.pbit     |  Ce modèle fournit les trois rapports suivants :</p><li>Standard automatique pour afficher les données d’analyse des appels qui arrivent dans vos attendants automatiques.</li><li>File d’attente d’appels affichant les données d’analyse des appels qui arrivent dans vos files d’attente.</li><li>Chronologie de l’agent : affichage chronologique des agents actifs dans les appels de la file d’attente d’appels.</li><br>Pour en savoir plus, lisez Standard automatique & [historique de la file d’attente d’appels.](aa-cq-cqd-historical-reports.md)        |
+|CQD Helpdesk Report.pbit     |En intégrant les données bâtiment et EUII, ce rapport est conçu pour vous permettre d’aller d’un utilisateur à l’autre afin de trouver la cause première en amont d’une mauvaise qualité des appels pour cet utilisateur (par exemple, l’utilisateur se trouve dans un bâtiment qui rencontre des problèmes de réseau).         |
+|Rapport amélioré.pbit de l’emplacement du CQD     | Re-imaginant les rapports d’emplacement du SPD CQD. Comprend 9 rapports, fournissant des informations sur la qualité des appels, le WiFi du bâtiment, la fiabilité et l’évaluer (RMC) avec des drill-thrus supplémentaires par bâtiment ou par utilisateur.  Veillez à charger les données de création afin d’optimiser votre expérience de création de rapports.        |
+|CQD Mobile Device Report.pbit     | Fournit des informations spécifiquement conçus pour les utilisateurs d’appareils mobiles, notamment la qualité, la fiabilité et la fréquence d’appel. Afficher les rapports sur le réseau mobile, le réseau WiFi et le système d’exploitation mobile (Android, iOS).        |
+|CQD PSTN Direct Routing Report.pbit     |Fournit des informations spécifiques pour les appels RST qui traversent un routage direct. Pour en savoir plus, [lisez l’utilisation](CQD-PSTN-report.md)du rapport de routage RQD direct.         |
+|Rapport.pbit de synthèse du tableau de procédure     |Visualisations améliorées, présentation améliorée, densité d’informations accrue et dates de roulement. Ces rapports facilitent l’identificateur des valeurs hors valeur. Drill into call quality by location with an easy-to-use interactive map. 9 nouveaux rapports :</p>- Qualité globale<br>- Fiabilité globale<br>- RMC (évaluation de l’appel) global<br>- Qualité de la conférence<br>- Qualité P2P<br>- Fiabilité de la conférence<br>- Fiabilité de P2P<br>- Conférence RMC<br>- P2P RMC         |
+|<strong>(Nouveau!)</strong> Rapport.pbit sur l’utilisation des équipes du CQD     | Indique comment les utilisateurs de votre organisation utilisent Teams et le nombre d’utilisations. Veillez à charger les données de création afin d’optimiser votre expérience de création de rapports. Pour en savoir plus, [lisez Utiliser le rapport Power BI du CQD pour afficher l’utilisation de Microsoft Teams.](CQD-teams-utilization-report.md)        |
+|Commentaires des utilisateurs du CQD (rate My Call) Report.pbit     | Affiche les données évaluer mon appel d’une façon que vous pouvez facilement utiliser pour aider à prendre en charge les appels pour votre organisation. Référence croisée avec des verbatims pour identifier les opportunités de formation des utilisateurs finaux.        |
 
 > [!TIP]
-> Une fois que vous avez configuré vos rapports Power BI pour bord données, ajoutez-les comme onglet à un canal. Après avoir sélectionné **+** dans un canal, sélectionnez **Power bi** , puis recherchez votre rapport. Pour en savoir plus, voir [incorporer un rapport avec l’onglet Power bi pour teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). N’oubliez pas que seules les personnes disposant d’une licence Power BI et les informations d’identification d’administrateur bord peuvent accéder à ces rapports.
+> Une fois que vous avez installé vos rapports Power BI pour les données du tableau de qualité des qualités des données, ajoutez-les sous la direction d’un onglet à un canal. Après avoir sélectionné **+** un canal, sélectionnez **Power BI,** puis recherchez votre rapport. Pour en savoir plus, [lisez Incorporer le rapport avec l’onglet Power BI pour Teams.](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams) Rappelez-vous que seules les personnes titulaires d’une licence Power BI et d’informations d’identification d’administrateur du CQD peuvent accéder à ces rapports.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Basculer entre le connecteur Skype entreprise Online et le module PowerShell teams
+title: Passer de Skype Entreprise Online Connector au module Teams PowerShell
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Découvrez comment passer du connecteur Skype entreprise Online au module PowerShell teams pour gérer Teams.
+description: Découvrez comment passer de Skype Entreprise Online Connector au module Teams PowerShell pour gérer Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4e1838540e57cd91578e898818e2ed12e7b63a78
@@ -19,27 +19,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/15/2020
 ms.locfileid: "48469665"
 ---
-# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Basculer entre le connecteur Skype entreprise Online et le module PowerShell teams
+# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Passer de Skype Entreprise Online Connector au module Teams PowerShell
 
-Pour passer de l’utilisation du connecteur Skype entreprise Online au module PowerShell teams pour gérer Teams, vous devez mettre à jour vos scripts PowerShell existants. Cet article explique comment procéder.
+Pour passer de l’utilisation de Skype Entreprise Online Connector au module Teams PowerShell afin de gérer Teams, vous devez mettre à jour vos scripts PowerShell existants. Cet article explique comment faire.
 
-1. Installez le dernier module PowerShell Teams. Pour connaître les étapes à suivre, voir [installer Microsoft teams PowerShell](teams-powershell-install.md).
-2. Désinstaller un connecteur Skype entreprise online. Pour ce faire, dans le panneau de configuration, accédez à **programmes et fonctionnalités**, sélectionnez **Skype entreprise Online, module Windows PowerShell**, puis **désinstaller**. 
-3. Dans vos scripts PowerShell, modifiez le nom du module référencé dans ```Import-Module``` ```SkypeOnlineConnector``` ou ```LyncOnlineConnector``` à ```MicrosoftTeams``` .
+1. Installez le module Teams PowerShell le plus récent. Pour consulter la procédure, [voir Installer Microsoft Teams PowerShell.](teams-powershell-install.md)
+2. Désinstallez Skype Entreprise Online Connector. Pour ce faire, dans le Panneau de contrôle, sélectionnez Programmes et fonctionnalités, Skype Entreprise **Online, Windows PowerShell Module,** puis **Désinstaller.** 
+3. Dans vos scripts PowerShell, modifiez le nom du module référencé. ```Import-Module``` ```SkypeOnlineConnector``` ```LyncOnlineConnector``` ```MicrosoftTeams```
 
-    Par exemple, remplacez ```Import-Module -Name SkypeOnlineConnector``` par ```Import-Module -Name MicrosoftTeams``` .
+    Par exemple, ```Import-Module -Name SkypeOnlineConnector``` changez pour ```Import-Module -Name MicrosoftTeams``` .
 
 > [!NOTE]
-> Les administrateurs doivent continuer à utiliser [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession) et importer la session avant d’utiliser les applets de applet Skype entreprise online. 
+> Les administrateurs doivent continuer à utiliser [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession) et à importer la session avant d’utiliser les cmdlets Skype Entreprise Online. 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-[Installer Microsoft teams PowerShell](teams-powershell-install.md)
+[Installer Microsoft Teams PowerShell](teams-powershell-install.md)
 
-[Gestion des équipes avec PowerShell teams](teams-powershell-managing-teams.md)
+[Gérer Teams avec Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Notes de publication teams PowerShell](teams-powershell-release-notes.md)
+[Notes de publication de Teams PowerShell](teams-powershell-release-notes.md)
 
-[Référence sur les applets de passe Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Référence de l’cmdlet Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-[Référence sur les applets de fonction Skype entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Référence de l’cmdlet Skype Entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

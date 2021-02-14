@@ -16,7 +16,7 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams.
+description: Cet article couvre la liste des téléphones certifiés pour Microsoft Teams et les fonctionnalités qui sont pris en charge sur les téléphones certifiés pour Microsoft Teams.
 ms.openlocfilehash: a4fc3a6516881d6f865b22cbf92d85af6859cb14
 ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
@@ -26,54 +26,54 @@ ms.locfileid: "48787028"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
-Microsoft teams prend en charge un portefeuille de téléphones de bureau pour les utilisateurs qui ont besoin d’une interface téléphonique classique. Cet article fournit une vue d’ensemble complète des téléphones et peut vous aider à planifier, livrer et gérer des téléphones Microsoft teams dans le cadre de votre solution de système téléphonique Microsoft. 
+Microsoft Teams prend en charge un portefeuille de téléphones de bureau pour les utilisateurs qui ont besoin d’une expérience téléphonique traditionnelle. Cet article fournit une vue d’ensemble complète des téléphones Teams et peut vous aider à planifier, fournir et gérer les téléphones Microsoft Teams dans le cadre de votre solution Microsoft Phone System. 
 
-Pour proposer une utilisation fiable de Microsoft teams sur des téléphones, nous nous efforçons de vous aider à Yealink, Crestron, Lenovo, Polycom et AudioCodes à développer et à certifier un large éventail de téléphones de bureau et de salles de conférence. Pour obtenir les dernières informations et informations à jour sur les appareils Teams, accédez à [teams Marketplace](https://office.com/teamsdevices).
+Pour offrir une expérience Microsoft Teams de haute qualité et fiable sur les téléphones, nous travaillons ensemble et travaillons activement avec Yealink, Crestron, Lenovo, Polycom et Audiocodes afin de développer et certifier un large éventail de téléphones de bureau et d’appareils audio de salle de conférence. Pour obtenir les informations les plus récentes et à jour sur les appareils Teams, rendez-vous sur [Teams Marketplace.](https://office.com/teamsdevices)
 
-Pour gérer les téléphones, vous devez être un administrateur général, un administrateur de service teams ou un administrateur d’appareil Teams. Pour plus d’informations sur les rôles d’administrateur, voir [utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](../using-admin-roles.md).
+Pour gérer les téléphones, vous devez être administrateur global, administrateur du service Teams ou administrateur de périphériques Teams. Pour plus d’informations sur les rôles d’administrateur, voir [Utiliser les rôles d’administrateur Microsoft Teams pour gérer Teams.](../using-admin-roles.md)
 
-## <a name="features-supported-by-teams-phones"></a>Fonctionnalités prises en charge par les téléphones teams
+## <a name="features-supported-by-teams-phones"></a>Fonctionnalités prise en charge par les téléphones Teams
 
-Les téléphones certifiés pour les équipes disposent d’une vaste gamme de fonctionnalités qui permettent à vos utilisateurs de faire leur travail et de vous aider à gérer leur utilisation. Vous trouverez ci-dessous un résumé des fonctionnalités disponibles dans les téléphones certifiés par Microsoft teams :
+Les téléphones certifiés Teams offrent un large éventail de fonctionnalités pour aider vos utilisateurs à faire leur travail et vous aider à gérer leur utilisation. Voici un résumé des fonctionnalités disponibles sur les téléphones certifiés Teams :
 
-- **Authentification** Le téléphone utilise l’authentification moderne pour simplifier la connexion et améliorer la sécurité. Les utilisateurs peuvent se connecter en entrant leur nom d’utilisateur et leur mot de passe sur le téléphone ou en vous connectant à partir d’un autre appareil, tel que PC/smartphone.
-- **Historique rapide et historique des appels** Les utilisateurs ont un accès rapide à leurs contacts, l’historique des appels et la messagerie vocale. Ils peuvent facilement gérer leurs contacts et composer des numéros abrégés directement depuis leur téléphone.
-- **Réunions et appels** Les utilisateurs peuvent consulter leur planning et participer facilement à des réunions à l’aide de la fonction de participation en un clic d’équipes.
-- **Groupes d’appels** Les agents de téléphone qui participent aux groupes d’appels peuvent facilement gérer leur disponibilité et accepter ou refuser les appels entrants à partir de la file d’attente d’appels.
-- **Délégation utilisateur** Les administrateurs et les responsables de la direction peuvent gérer les téléphones de leurs dirigeants et intercepter les appels entrants ; passer des appels pour le compte du responsable ; Prenez les appels mis en attente par le dirigeant. et déterminez si le responsable d’un appel est en attente, etc.
-- **Bureau à chaud** Les utilisateurs peuvent obtenir leurs contacts, réunions et autres préférences en vous connectant à un téléphone. Lorsqu’il a terminé, il peut se déconnecter et laisser le téléphone prêt pour l’utilisateur suivant.
-- **Vidéo** Les téléphones dotés d’une prise en charge vidéo permettent aux utilisateurs de participer à des conférences téléphoniques et des conférences vidéo comme sur leur ordinateur. Les utilisateurs peuvent rester en sécurité en utilisant le obturateur de l’appareil photo du téléphone et le commutateur de coupure du micro, le cas échéant.
-- **Ensemble** Les téléphones peuvent être verrouillés et déverrouillés d’une manière intégrée lorsque vous êtes connecté à un PC Windows exécutant un client de bureau 64.
-- **Accessibilité** Les téléphones sont dotés de plusieurs fonctionnalités d’accessibilité, telles que du texte à contraste élevé, qui permettent à quiconque de les utiliser plus facilement.
-- **Support dynamique et amélioré E911** Les utilisateurs connectés qui appellent 911 verront leur emplacement sur le téléphone. 
+- **Authentification** Les téléphones utilisent l’authentification moderne pour simplifier la signature et améliorer la sécurité. Les utilisateurs peuvent se connecter en entrant leurs nom d’utilisateur et mot de passe sur le téléphone ou en se connectant à partir d’un autre appareil tel que PC/smartphone.
+- **Numérotation rapide et historique des appels** Les utilisateurs ont un accès rapide à leurs contacts, à l’historique des appels et à la messagerie vocale. Ils peuvent gérer facilement leurs contacts et accélérer les entrées de numérotation directement à partir de leur téléphone.
+- **Réunions et appels** Les utilisateurs peuvent consulter leur planning et participer facilement à des réunions à l’aide de la jointë un seul contact de Teams.
+- **Groupes d’appels** Les agents téléphoniques qui participent à des groupes d’appels peuvent facilement gérer leur disponibilité et accepter ou refuser les appels entrants depuis la file d’attente d’appels.
+- **Délégation utilisateur** Les assistants exécutifs et les administrateurs peuvent gérer les téléphones de leurs cadres - intercepter les appels entrants ; appeler au nom de l’cadre ; prendre le contrôle des appels que l’cadre a mis en attente ; et surveillez si la direction est en attente, lors d’un appel, etc.
+- **Faire dessking à l’eau** Les utilisateurs peuvent obtenir leurs contacts, réunions et autres préférences, simplement en se signant sur un téléphone. Lorsqu’il a terminé, il peut se préparer pour l’utilisateur suivant.
+- **Vidéo** Les téléphones avec prise en charge vidéo peuvent aider les utilisateurs à participer à des appels et à des visconférences comme sur leurs ordinateurs. Les utilisateurs peuvent conserver leur confidentialité à l’aide de l’obturateur de caméra d’un téléphone et du commutateur muet du micro lorsqu’il est disponible.
+- **La collaboration est meilleure** Les téléphones peuvent se verrouiller et se déverrouiller de manière intégrée lorsqu’ils sont connectés à leur PC Windows exécutant un client de bureau 64 bits Teams.
+- **Accessibilité** Les téléphones disposent de plusieurs fonctionnalités d’accessibilité, telles que le texte à contraste élevé, afin de faciliter leur utilisation par tout le monde.
+- **Prise en charge dynamique et améliorée de la version E911** Les utilisateurs inscrits qui appellent le 911 voient leur emplacement sur le téléphone. 
     > [!IMPORTANT]
-    > Si votre téléphone n’est pas connecté, ou s’il ne dispose pas d’une connexion Internet, les appels 911 ne peuvent pas être placés. Si tel est le cas, une notification s’affiche sur le téléphone.
+    > Si un téléphone n’est pas connecté ou s’il n’a pas de connexion Internet, vous ne pouvez pas appeler le 911. Dans ce cas, une notification s’affiche sur le téléphone.
 
-Outre les fonctionnalités ci-dessus, vous pouvez contrôler les fonctionnalités disponibles en fonction du type de licence et de la stratégie de téléphone qui sont attribuées à l’utilisateur qui se connecte au téléphone. Par exemple, les utilisateurs qui se connectent à un téléphone avec leur compte personnel peuvent accéder à la gamme complète de fonctions (appels, réunions, messages vocaux, etc.). Le compte affecté d’une licence de téléphone commune qui se connecte à un téléphone est toutefois susceptible d’avoir accès à un large éventail de fonctions. l’historique des appels et le planning des réunions ne peuvent pas être conservés (par exemple, pour protéger la confidentialité des utilisateurs).
+Outre les fonctionnalités ci-dessus, vous pouvez contrôler les fonctionnalités disponibles en fonction du type de licence et de stratégie de téléphone affectés à l’utilisateur se inscrivant au téléphone. Par exemple, les utilisateurs qui se connectent à un téléphone avec leur compte personnel peuvent accéder à l’ensemble des fonctionnalités ( appels, réunions, messagerie vocale, etc.). Toutefois, les comptes qui ont attribué une licence Téléphone en zone commune qui se connectent à un téléphone peuvent uniquement accéder à une plage limitée de fonctionnalités. l’historique des appels et les plannings de réunions peuvent ne pas être conservés, par exemple, pour protéger la confidentialité des utilisateurs.
 
 ## <a name="required-licenses"></a>Licences requises
 
-Les licences teams peuvent être achetées dans le cadre de leurs [abonnements Microsoft 365 et Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Pour en savoir plus sur les licences requises pour l’utilisation d’équipes sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
+Les licences Teams peuvent être achetées dans le cadre de leurs [abonnements Microsoft 365 et Office 365.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) Pour en savoir plus sur les licences requises pour utiliser Teams sur les téléphones, consultez les [licences système téléphoniques disponibles.](https://products.office.com/microsoft-teams/voice-calling)
 
 Pour plus d’informations sur l'obtention de Teams, consultez [Comment obtenir l’accès à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="deploy-your-phones-using-intune"></a>Déploiement de votre téléphone à l’aide de Intune
+## <a name="deploy-your-phones-using-intune"></a>Déployer vos téléphones à l’aide d’Intune
 
-Pour en savoir plus sur le déploiement d’équipes à l’aide de Intune, voir [déployer des équipes et les affichages des](phones-displays-deploy.md)équipes.
+Pour en savoir plus sur le déploiement des affichages teams à l’aide d’Intune, consultez Déployer les téléphones [et les affichages de Teams.](phones-displays-deploy.md)
 
 ## <a name="manage-your-phones"></a>Gérer vos téléphones
 
-Gérez et assurez-vous que vos téléphones teams sont à jour à l’aide du centre d’administration Microsoft Teams. Pour plus d’informations, voir [gérer vos appareils dans teams](device-management.md).
+Gérez et gardez vos téléphones Teams à jour à l’aide du Centre d’administration Microsoft Teams. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
 
-## <a name="upgrade-your-phones-to-teams-displays"></a>Mise à niveau de vos téléphones vers teams
+## <a name="upgrade-your-phones-to-teams-displays"></a>Mise à niveau de vos téléphones vers l’affichage Teams
 
-[Microsoft teams](teams-displays.md) est une catégorie de périphériques en équipe dédiée tout-en-un qui disposent d’un écran tactile et d’une expérience mains libres de Cortana. L’affichage équipes permet aux utilisateurs de se servir d’un micro, d’une caméra et de haut-parleurs (ou d’un casque Bluetooth) pour une utilisation fiable des appels et des réunions. Teams s’affiche avec les PC Windows des utilisateurs afin d’offrir une aide complémentaire permettant d’interagir en douceur entre les appareils.
+[Les écrans Microsoft Teams](teams-displays.md) sont une catégorie d’appareils Teams tout-en-un dédiés qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. Avec les écrans de Teams, les utilisateurs peuvent utiliser un microphone, une caméra et des haut-parleurs (ou un casque Bluetooth) pour appeler et rencontrer des utilisateurs de manière fiable. Teams s’intègre aux PC Windows des utilisateurs pour apporter une expérience compagne qui permet une interaction transparente entre les appareils
 
-Vous pouvez mettre à niveau des téléphones teams de votre organisation vers teams dans le centre d’administration Microsoft Teams. Cette option n’est disponible que sur les téléphones prenant en charge la mise à niveau vers Teams. Pour plus d’informations, voir [mettre à niveau des téléphones teams vers teams](upgrade-phones-to-displays.md).
+Vous pouvez mettre à niveau les téléphones Teams de votre organisation vers des affichages Teams dans le Centre d’administration Microsoft Teams. Cette option est disponible uniquement pour les téléphones qui supportent la mise à niveau vers l’affichage Teams. Pour en savoir plus, consultez [La mise à niveau des téléphones Teams vers l’affichage Teams.](upgrade-phones-to-displays.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Marketplace teams](https://office.com/teamsdevices)
+[Place de marché Teams](https://office.com/teamsdevices)
 
 [Téléphones IP certifiés pour Microsoft Teams](teams-ip-phones.md)
 

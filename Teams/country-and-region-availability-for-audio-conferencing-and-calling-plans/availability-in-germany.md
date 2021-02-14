@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Allemagne.
 ms.openlocfilehash: ba3389abd0555db7ff269ec969e216bd40d22bdf
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "48321887"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles en Allemagne.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -60,7 +60,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1200 minutes d’appel national ou 600 minutes d’appels internationaux (selon la première atteinte dans le mois de calendrier)</li></li>|
+|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1 200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (selon ce qui est atteinte en premier au cours d’un mois calendaire)</li></li>|
 |Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
@@ -68,7 +68,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul> <li>Francfort  <li> Munich </ul> <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul> <li>Desso  <li> Munich </ul> <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

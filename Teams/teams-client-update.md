@@ -1,5 +1,5 @@
 ---
-title: Mises à jour de teams
+title: Mises à jour de Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -24,42 +24,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031880"
 ---
-# <a name="teams-update-process"></a>Processus de mise à jour des équipes
+# <a name="teams-update-process"></a>Processus de mise à jour de Teams
 
-Team Web App est mis à jour chaque semaine.
+L’application web Teams est mise à jour chaque semaine.
 
-Les mises à jour du client de bureau teams sont divulguées toutes les deux semaines après un test interne rigoureux et une validation par le biais de notre programme d’adoption de technologie (TAP). Cette opération est généralement effectuée sur un mardi. Si une mise à jour critique est requise, teams ignorera ce planning et libérera la mise à jour dès qu’il sera disponible.
+Les mises à jour du client de bureau Teams sont publiées toutes les deux semaines après un test interne strict et la validation via notre programme d’adoption des technologies (TAP). Cela se produit généralement un mardi. Si une mise à jour critique est requise, Teams contourne ce planning et publie la mise à jour dès qu’elle est disponible.
 
-Le client de bureau est mis à jour automatiquement. Teams vérifie les mises à jour toutes les heures en coulisse, télécharge, puis attend que l’ordinateur soit inactif avant d’installer la mise à jour en silence.
+Le client de bureau se met automatiquement à jour. Teams vérifie les mises à jour toutes les quelques heures en arrière-plan, les télécharge, puis attend que l’ordinateur soit inactif avant d’installer la mise à jour en mode silencieux.
 
-Les utilisateurs peuvent également télécharger manuellement les mises à jour en cliquant sur **Rechercher les mises à jour** dans le menu déroulant **Profil** en haut à droite de l’application. Si une mise à jour est disponible, elle est téléchargée et installée en silence lorsque l’ordinateur est inactif.
+Les utilisateurs peuvent également télécharger  manuellement les mises  à jour en cliquant sur Vérifier les mises à jour dans le menu déroulant Profil dans la partie supérieure droite de l’application. Si une mise à jour est disponible, elle est téléchargée et installée en mode silencieux lorsque l’ordinateur est inactif.
 
-Les utilisateurs doivent être connectés pour pouvoir télécharger les mises à jour. 
+Les utilisateurs doivent être inscrits pour que les mises à jour soient téléchargées. 
 
-À compter du 31 juillet, 2019, les mises à jour du client teams utilisent une bande passante réseau nettement inférieure lors de la mise à jour. Cette option est activée par défaut et ne nécessite aucune action de la part des administrateurs ou des utilisateurs.
+Depuis le 31 juillet 2019, les mises à jour du client Teams utilisent une bande passante réseau sensiblement inférieure pendant la mise à jour. Cette option est désactivée par défaut et ne nécessite aucune action de la part des administrateurs ou des utilisateurs.
 
-## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Que se passe-t-il des mises à jour apportées aux applications Microsoft 365 pour les entreprises ?
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Qu’en est-il des mises à jour des applications Microsoft 365 pour les entreprises ?
 
-Teams est installé par défaut avec de nouvelles installations des applications Microsoft 365 pour les entreprises, comme décrit dans la rubrique [déploiement de Microsoft teams avec les applications microsoft 365 pour les entreprises](https://docs.microsoft.com/DeployOffice/teams-install). 
+Teams est installé par défaut avec de nouvelles installations des applications Microsoft 365 pour les entreprises, comme décrit dans Déployer Microsoft Teams avec les applications [Microsoft 365 pour les entreprises.](https://docs.microsoft.com/DeployOffice/teams-install) 
 
-Teams suit son propre processus de mise à jour, tel que décrit ci-dessus, mais pas le processus de mise à jour des autres applications Office, telles que Word et Excel. Pour en savoir plus, voir [Présentation des canaux de mise à jour pour les applications Microsoft 365 pour les entreprises](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+Teams suit son propre processus de mise à jour, comme indiqué ci-dessus, et non le processus de mise à jour pour les autres applications Office, telles que Word et Excel. Pour en savoir plus, consultez [la présentation des canaux de mise à jour pour les applications Microsoft 365 pour les entreprises](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>À propos des mises à jour apportées aux équipes sur VDI
+## <a name="what-about-updates-to-teams-on-vdi"></a>Qu’en est-il des mises à jour de Teams sur VDI ?
 
-Les clients teams de l’infrastructure de bureau virtuel (VDI) ne sont pas automatiquement mis à jour de manière à ce qu’ils soient. Vous devez mettre à jour l’image de l’ordinateur virtuel en installant un nouveau MSI comme décrit dans les instructions d' [installation d’teams sur VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi). Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
+Les clients Teams sur infrastructure VDI (Virtual Desktop Infrastructure) ne sont pas automatiquement mis à jour comme les clients Teams non VDI. Vous devez mettre à jour l’image VM en installant un nouvel ID MSI, comme décrit dans les instructions d’installation de [Teams sur VDI.](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi) Vous devez désinstaller la version actuelle pour mettre à jour vers une version plus récente.
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>Les administrateurs peuvent-ils déployer des mises à jour au lieu de la mise à jour automatique des équipes ?
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>Les administrateurs peuvent-ils déployer des mises à jour au lieu de la mise à jour automatique de Teams ?
 
-Teams ne donne pas aux administrateurs la possibilité de déployer des mises à jour par le biais d’un mécanisme de remise.
+Teams ne permet pas aux administrateurs de déployer les mises à jour via n’importe quel mécanisme de remise.
 
 ## <a name="servicing-agreement"></a>Contrat de service
 
-En tant que service en ligne moderne, le client teams se met à jour automatiquement toutes les deux semaines. Les équipes étant régies par la politique de cycle de vie moderne, il est probable que les utilisateurs restent dans la version la plus à jour du client de bureau. Cela permet aux utilisateurs de bénéficier des dernières fonctionnalités, des améliorations des performances, de la sécurité et de la fiabilité des services.
+En tant que service en ligne moderne, le client Teams se met à jour automatiquement toutes les deux semaines. Teams étant régi par la stratégie de cycle de vie moderne, les utilisateurs doivent rester sur la version la plus récente du client de bureau. Cela garantit que les utilisateurs ont les fonctionnalités les plus récentes, les améliorations des performances, la sécurité et la fiabilité du service.
 
-Pour vous aider à identifier le moment où les clients de bureau sont obsolètes, une alerte dans l’application s’affiche si la version actuelle de l’utilisateur est située entre 1 et 3 mois et si une nouvelle version est disponible. Ce message in-app encourage les utilisateurs à effectuer une mise à jour vers la version la plus récente d’teams ou, si nécessaire, à communiquer à leur administrateur informatique. Les utilisateurs des clients de bureau teams de plus de trois mois voient s’afficher une page de blocage qui vous permet d’accéder aux options de mise à jour, de communiquer à leur administrateur ou de continuer à utiliser teams sur le Web.
+Pour commencer à identifier le moment où les clients de bureau sont en cours d’utilisation, une alerte dans l’application s’affiche si la version actuelle de l’utilisateur a entre un et trois mois et si une nouvelle version est disponible. Cette messagerie dans l’application encourage les utilisateurs à mettre à jour vers la dernière version de Teams ou, si nécessaire, à s’adresse à leur administrateur informatique pour le faire. Les utilisateurs de clients de bureau Teams de plus de trois mois voient une page de blocage qui propose des options de mise à jour dès maintenant, de consulter leur administrateur informatique ou de continuer à accéder à Teams sur le web.
 
-Les versions de client de bureau âgées de plus de trois mois lors de la première installation et/ou de la première série d’équipes disposent d’une période de grâce de 28 jours avant d’appliquer les informations de maintenance mentionnées ci-dessus. Pendant cette période, le processus de mise à jour automatique met à jour le client Teams. Si ce n’est pas le cas, les utilisateurs verront une alerte dans l’application afin de leur permettre de procéder manuellement à la mise à jour de la version la plus récente d’une équipe ou, le cas échéant, à leur administrateur. Cela inclut les utilisateurs qui utilisent le client de bureau teams dans le cadre de l’ensemble d’applications 365 Microsoft pour les entreprises.
+Les versions du client de bureau de plus de trois mois à la première installation et/ou première version de Teams ont une période de grâce de 28 jours avant de rencontrer les informations de service ci-dessus. Pendant cette période, le processus de mise à jour automatique met à jour le client Teams. S’il n’y a pas de mise à jour, les utilisateurs voient une alerte dans l’application les inciter à se mettre à jour manuellement vers la dernière version de Teams ou, si nécessaire, à s’adresser à leur administrateur informatique pour le faire. Cela inclut les utilisateurs qui utilisent le client de bureau Teams dans le cadre de l’offre groupée Applications Microsoft 365 pour les entreprises.
 
-Pour le moment, les clients de bureau teams sur les clouds gouvernementaux ont une exception à ce contrat de service.
+Les clients de bureau Teams sur les nuages gouvernementaux ont actuellement une exception au présent contrat de service jusqu’à nouvel ordre.
 
-Pour plus d’informations sur les nouvelles versions, consultez le [Centre de messages](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) ou accédez à **aide** sur les nouveautés  >  **What’s new** du client.
+Pour plus d’informations sur les nouvelles versions, consultez le Centre de [messages](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) ou consultez l’aide sur les  >  **nouveautés** dans le client.

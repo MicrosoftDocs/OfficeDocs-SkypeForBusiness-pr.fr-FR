@@ -22,7 +22,7 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits dans un pays ou une région, y compris disponibilité, connexion filaire/fixe et disponibilité du réseau mobile et restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits dans un pays/une région, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.locfileid: "48322303"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant l’appel de numéros verts
 
-Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Après avoir sélectionné le pays ou la région, vous pouvez accéder à une page contenant le numéro de service gratuit, y compris les détails, restrictions et limites spécifiques. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays ou région. Une fois que vous avez sélectionné le pays/la région, vous êtes sur une page qui contient les services gratuits disponibles, y compris des détails spécifiques, des restrictions et des limites. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
   
-Si vous êtes prêt, sélectionnez un pays ou une région :
+Si vous êtes prêt, sélectionnez un pays ou une région :
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Sélectionnez votre pays ou région pour afficher les codes, limitations et restrictions de numérotation.
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Sélectionnez votre pays ou région pour consulter les codes de numérotation, les limitations et les restrictions.
 
 > [!div class="op_single_selector"]    
 > - [Argentine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -105,20 +105,20 @@ Si vous êtes prêt, sélectionnez un pays ou une région :
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Voici quelques points importants dont vous devez tenir compte concernant les numéros gratuits :
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Voici quelques points importants dont vous devez vous souvenir à propos des numéros gratuits :
 
-- **Les numéros gratuits ne fonctionnent que dans chaque pays/région.** Par exemple, vos utilisateurs ne seront pas en mesure d’appeler un numéro gratuit australien en dehors de l’Australie.
+- **Les numéros gratuits fonctionnent uniquement dans chaque pays/région.** Par exemple, vos utilisateurs ne pourront pas appeler un numéro gratuit australien en dehors de l’Australie.
     
-- **L’acquisition ou le portage des numéros de téléphone universel international (UIFN) n’est pas prise en charge.**
+- **L’acquisition ou le portage de numéros de téléphone gratuits internationaux (UIFN) n’est pas pris en charge.**
     
-- **Dans de nombreux pays ou régions, l’organisme régulateur/télécommunication dans le pays/la région exige chaque numéro de téléphone libre pour la conservation d’au moins 100 minutes d’utilisation par mois afin de conserver le numéro.**
+- **Dans de nombreux pays/régions, l’agence de réglementation/télécommunications du pays/de la région exige que chaque numéro de téléphone gratuit conserve au moins 100 minutes d’utilisation par mois afin de conserver ce numéro.**
     
     > [!NOTE]
-    > Si vous obtenez un numéro gratuit et que l’utilisation du numéro ne répond pas à ces exigences minimales, Microsoft est susceptible d’être satisfait par le régulateur et l’organisme de télécommunication pour le récupérer. 
+    > Si vous obtenez un numéro gratuit et que l’utilisation de ce numéro ne répond pas aux conditions minimales requises, l’agence de réglementation/télécommunications risque de se faire chercher par Microsoft pour récupérer ce numéro auprès de vous. 
   
-- **L’accès au téléphone fixe, fixe et mobile aux numéros sans frais sont entièrement ou partiellement limités.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
+- **L’accès câblé, fixe et mobile aux numéros gratuits peut être entièrement ou partiellement restreint.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
     
-- **Plan de numérotation Amérique du Nord : numéro gratuit :** Des tarifs à la minute pour le plan de numérotation des États-Unis sont déterminés par le pays d’origine. Le tarif gratuit à la minute pour les appels provenant de la carte des États-Unis et le taux défini comme « Amérique du Nord ». Toutefois, les appels issus d’autres pays d’Amérique du Nord, tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
+- **Numéros gratuits pour l’Amérique du Nord :** Les tarifs à la minute pour les numéros gratuits du plan de numéroment en Amérique du Nord sont déterminés par le pays d’origine. Le tarif à la minute gratuit pour les appels provenant des États-Unis est map au taux défini comme « Amérique du Nord ». Toutefois, les appels provenant d’autres pays nord-américains tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

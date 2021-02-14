@@ -1,5 +1,5 @@
 ---
-title: Restrictions des appels sortants-audioconférence & appels RTC
+title: Restrictions relatives aux appels sortants - Audioconférence et & appels PSTN
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -34,15 +34,15 @@ En tant qu'administrateur, vous pouvez utiliser les contrôles d'appels sortants
 
 Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
-|Télécommande|Description|Options de contrôle|
+|Contrôle|Description|Options de contrôle|
 |:-----|:-----|:-----|
-|Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|Toute destination (par défaut)</br>Dans le même pays ou la même région que l’organisateur </br> Zonage uniquement dans les [pays ou régions](audio-conferencing-zones.md) </br>Ne pas autoriser|
+|Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|N’importe quelle destination (par défaut)</br>Dans le même pays ou la même région que l’organisateur </br> [Zone A pays ou régions](audio-conferencing-zones.md) uniquement </br>Ne pas autoriser|
 |Appels RTC utilisateur final|Limite le type d'appels </br>qui peuvent être effectués par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
 
-Pour connaître les pays et les régions qui sont considérés comme la zone A, voir [zones du pays et de la région pour les conférences audio](audio-conferencing-zones.md).
+Pour savoir quels pays et quelles régions sont considérés comme zone A, consultez les zones pays et [région pour audioconférence.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > Un appel est considéré comme domestique si le numéro composé est dans le même pays que Microsoft 365 ou Office 365 a été configuré pour l’organisateur de la réunion (dans le cas d’une audioconférence) ou par l’utilisateur final (dans le cas d’appels RTC de l’utilisateur final). 
+   > Un appel est considéré comme national si le numéro composé se trouve dans le même pays que celui où Microsoft 365 ou Office 365 a été créé pour l’organisateur de la réunion (en cas d’audioconférence) ou l’utilisateur final (en cas d’appels PSTN de l’utilisateur final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -51,21 +51,21 @@ Pour connaître les pays et les régions qui sont considérés comme la zone A, 
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs** , puis sur le nom d’affichage de l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le navigateur de gauche, **cliquez** sur Utilisateurs, puis sur le nom d’affichage de l’utilisateur dans la liste des utilisateurs disponibles.
 
-3. A côté de **Conférence Audio** , cliquez sur **Modifier**.
+3. A côté de **Conférence Audio**, cliquez sur **Modifier**.
 
-4. Sous appels sortants pour **les réunions** , sélectionnez l’option de restriction de connexion.
+4. Sous **Appel sortant de réunions,** sélectionnez l’option de restriction d’appel sortant de votre choix.
 
 5. Cliquez sur **Enregistrer**. 
 
 ![Icône affichant le logo Skype Entreprise](media/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Dans le **Centre d’administration de Skype entreprise** , dans le volet de navigation de gauche, sélectionnez utilisateurs de l' **audioconférence**  >  **Users** , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le **Centre d’administration Skype** Entreprise, dans le panneau de navigation de gauche, sélectionnez Utilisateurs de l’audioconférence, puis sélectionnez l’utilisateur dans la liste des   >  utilisateurs disponibles.
 
 2. Dans le volet Action, cliquez sur **Modifier**.
 
-3.  Sous **Restrictions de numérotation des réunions de cet utilisateur** , sélectionnez l’option de restriction d’appel sortant souhaitée.
+3.  Sous **Restrictions de numérotation des réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant souhaitée.
 
       ![Les restrictions aux options de numérotation](media/restrictions-to-dial-outs.png)
       
@@ -79,7 +79,7 @@ Pour connaître les pays et les régions qui sont considérés comme la zone A, 
 
 Les restrictions des appels sortants sont contrôlées par une stratégie unique appelée OnlineDialOutPolicy qui possède un attribut de restriction pour chacun. La stratégie ne peut pas être personnalisée, mais il existe des instances de stratégie prédéfinies pour chaque combinaison de paramètres. 
 
-Vous pouvez utiliser la cmdlet Get-CSOnlineDialOutPolicy pour afficher les stratégies d'appels sortants et les affecter aux utilisateurs à l'aide de la cmdlet Grant-CSDialOutPolicy. (Veuillez noter que la cmdlet Grant ne contient pas le mot « Online » en tant que cmdlet Get.) 
+Vous pouvez utiliser la cmdlet Get-CSOnlineDialOutPolicy pour afficher les stratégies d'appels sortants et les affecter aux utilisateurs à l'aide de la cmdlet Grant-CSDialOutPolicy. (Notez que la cmdlet Grant ne contient pas le mot « En ligne » comme le fait la cmdlet Get.) 
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 
@@ -94,6 +94,6 @@ Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 |    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    L'utilisateur de la conférence peut uniquement composer des numéros nationaux, et cet utilisateur ne peut effectuer aucun appel sortant vers le numéro RTC en dehors des numéros d'urgence.    |
 |    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    L'utilisateur de la conférence ne peut effectuer aucun appel sortant et cet utilisateur peut uniquement effectuer des appels sortants vers des numéros RTC nationaux.    |
 |    Identity='tag:DialoutCPCandPSTNDisabled'    |    L'utilisateur de la conférence ne peut effectuer aucun appel sortant et cet utilisateur ne peut effectuer aucun appel sortant vers le numéro RTC en dehors des numéros d'urgence.    |
-|    Identity = 'tag : DialoutCPCZoneAPSTNInternational'    |    Dans la Conférence, l’utilisateur peut uniquement appeler les [pays et régions d’un pays ou d’une région](audio-conferencing-zones.md), et cet utilisateur peut passer des appels sortants vers des numéros internationaux et nationaux.    |
-|    Identity = 'tag : DialoutCPCZoneAPSTNDomestic'    |    Dans la Conférence, l’utilisateur peut uniquement appeler des [pays et des régions](audio-conferencing-zones.md), et cet utilisateur ne peut émettre des appels sortants que vers son numéro RTC local.    |
-|    Identity = 'tag : DialoutCPCZoneAPSTNDisabled'    |    Dans la Conférence, l’utilisateur peut uniquement appeler des [pays et des régions](audio-conferencing-zones.md), et cet utilisateur ne peut pas passer d’appels sortants au numéro RTC en plus des numéros d’urgence.    |
+|    Identity='tag:DialoutCPCZoneAPSTNInternational'    |    Les utilisateurs de la conférence peuvent uniquement appeler les pays et régions de la zone [A](audio-conferencing-zones.md)et effectuer des appels sortants vers des numéros nationaux et internationaux.    |
+|    Identity='tag:DialoutCPCZoneAPSTN Tagsstic'    |    Les utilisateurs de la conférence peuvent uniquement appeler les pays et régions de la zone [A](audio-conferencing-zones.md)et uniquement effectuer des appels sortants vers un numéro PSTN national.    |
+|    Identity='tag:DialoutCPCZoneAPSTNDisabled'    |    Un utilisateur de la conférence peut uniquement appeler les pays et régions de la zone [A](audio-conferencing-zones.md)et ne peut pas effectuer d’appels sortants vers un numéro PSTN en plus des numéros d’urgence.    |

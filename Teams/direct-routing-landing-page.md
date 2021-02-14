@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: En savoir plus sur le routage direct, tel que la configuration, les décisions de déploiement principales nécessaires et les considérations en matière de routage vocal.
+description: En savoir plus sur le routage direct, comme la configuration, les décisions de déploiement essentielles nécessaires et les considérations relatives au routage vocal.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -30,71 +30,71 @@ ms.locfileid: "49031820"
 ---
 # <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
-Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé des [réunions & des conférences](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes désormais prêt à ajouter des charges de travail audio Cloud et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour une connectivité de réseau téléphonique commuté (PSTN) à l’aide du routage direct du système téléphonique. Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé [des réunions & conférences.](deploy-meetings-microsoft-teams-landing-page.md) Vous êtes maintenant prêt à ajouter des charges de travail vocales dans le cloud, et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour la connectivité de réseau téléphonique public commuté (PSTN) à l’aide du routage direct du système téléphonique. Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
 
-Cet article décrit les décisions de déploiement principales pour le routage direct ainsi que les considérations supplémentaires dont vous pouvez penser en fonction des besoins de votre organisation. Pour plus d’informations sur les services vocaux Cloud de Microsoft, consultez également la [voix Cloud de Microsoft teams](cloud-voice-landing-page.md) .
+Cet article décrit les principales décisions prises en matière de déploiement pour le routage direct, ainsi que des considérations supplémentaires à prendre en considération, en fonction des besoins de votre organisation. Pour plus d’informations sur les offres vocales cloud de Microsoft, vous devez également lire cloud Voice dans [Microsoft Teams.](cloud-voice-landing-page.md)
 
 ## <a name="learn-more-about-direct-routing"></a>En savoir plus sur le routage direct
 
-Les articles suivants fournissent des informations supplémentaires sur la configuration et l’utilisation du routage direct du système téléphonique. La configuration du routage direct nécessite une bonne compréhension de la conception du routage PSTN. Nous vous conseillons de lire tous les articles suivants pour comprendre comment planifier et configurer le routage direct :
+Les articles suivants fournissent des informations supplémentaires sur la configuration et l’utilisation du routage direct du système téléphonique. La configuration du routage direct nécessite une compréhension de la conception du routage PSTN. Vous devez lire tous les articles suivants pour comprendre comment planifier et configurer le routage direct :
 
 - [Planifier le routage direct](direct-routing-plan.md) 
 - [Configurer le routage direct](direct-routing-configure.md)
 - [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
 - [Contrôler et dépanner le routage direct](direct-routing-monitor-and-troubleshoot.md)
 
-Par ailleurs, vous souhaiterez peut-être lire les articles suivants selon vos besoins :
+En outre, vous souhaitez peut-être lire les articles suivants selon vos besoins :
 
 -  [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 -  [Migrer vers un routage direct](direct-routing-migrating.md)
 -  [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- Regardez la session suivante pour en savoir plus sur le routage direct : [routage direct dans Microsoft teams](https://aka.ms/teams-direct-routing)
+- Regardez la session suivante pour en savoir plus sur le routage direct : [routage direct dans Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
 
-Voici les principales décisions à prendre en considération pour le routage direct. 
+Il s’agit des principales décisions à prendre en considération pour le routage direct. 
 
 |Posez-vous la question|Action |
 | :------------|:-------|
-|Pour quels utilisateurs le routage direct est-il activé ? | Pour plus d’informations, voir [activer les utilisateurs pour le service de routage direct](direct-routing-configure.md). |
-Est-ce que je dispose des licences requises pour le routage direct ? | Pour plus d’informations, reportez-vous à la rubrique [licences et autres exigences](direct-routing-plan.md#licensing-and-other-requirements).
+|Pour quels utilisateurs activer le routage direct ? | Pour plus d’informations, voir [Activer le service de routage direct pour les utilisateurs.](direct-routing-configure.md) |
+Ai-je les licences requises pour le routage direct ? | Pour plus d’informations, voir [Licences et autres conditions requises.](direct-routing-plan.md#licensing-and-other-requirements)
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>Considérations en matière de contrôleur de bordure de session (SBC)
+### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de bordure de session (SBC)
 
-Avec le routage direct, vous connectez votre propre contrôleur de bordure de session (SBC) directement au système téléphonique.  Pour obtenir la liste des [contrôleurs de frontière de session, voir prises en charge](direct-routing-border-controllers.md).
+Avec le routage direct, vous connectez votre propre contrôleur de session Border Controller (SBC) directement au système téléphonique.  Pour obtenir la liste des SBCs [certifiés,](direct-routing-border-controllers.md)voir Contrôleurs de session en bordure pris en charge.
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Où et comment dois-je déployer SBCs ? | Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md) | 
-Ai-je besoin de plusieurs clients ? | Pour plus d’informations, consultez [configurer un contrôleur de bordure de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md).|
+| Où et comment puis-je déployer des SBCS ? | Pour plus d’informations, [voir Configurer le routage direct](direct-routing-configure.md) | 
+Ai-je plusieurs locataires ? | Pour plus d’informations, voir [Configurer un contrôleur de session en bordure pour plusieurs locataires.](direct-routing-sbc-multiple-tenants.md)|
 |||
 
-### <a name="voice-routing-considerations"></a>Considérations relatives au routage vocal
+### <a name="voice-routing-considerations"></a>Considérations en cas de routage vocal
 
-Vous devez configurer le système téléphonique pour acheminer les appels vers l’objet SBCs spécifique.
+Vous devrez configurer phone system pour router les appels vers les SBCs spécifiques.
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Quelles sont les stratégies de routage vocal, l’utilisation RTC et les itinéraires vocaux nécessaires ? | Pour plus d’informations sur le routage vocal, voir [configurer le routage](direct-routing-configure.md)de la voix.
-| Quels utilisateurs seront attribués à la stratégie de routage vocale que j’ai définie ? | Pour plus d’exemples, voir [configurer le routage](direct-routing-configure.md)de la voix. |
+| Quelles stratégies de routage vocal, utilisation PSTN et itinéraires vocux dois-je créer ? | Pour plus d’informations sur le routage vocal, voir [Configurer le routage vocal.](direct-routing-configure.md)
+| Quels utilisateurs seront affectés à la stratégie de routage voix que je définisse ? | Consultez les [exemples dans Configurer le routage vocal.](direct-routing-configure.md) |
 |||
 
-### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Faire en sorte que les appels entrants soient dans le client teams à l’aide de TeamsUpgradePolicy
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Assurez-vous que les appels entrants arrivent dans le client Teams à l’aide de TeamsUpgradePolicy
 
-Le routage direct est uniquement pris en charge par Microsoft Teams. Pour recevoir des appels RTC via le routage direct, vous devez configurer TeamsUpgradePolicy pour vous assurer que les appels entrants sont reçus dans Teams. Les utilisateurs doivent être en mode d’équipe uniquement, ce que vous pouvez faire en leur attribuant l’instance « UpgradeToTeams » de TeamsUpgradePolicy. 
+Le routage direct n’est pris en charge qu’avec Microsoft Teams. Pour recevoir des appels PSTN via un routage direct, vous devez configurer TeamsUpgradePolicy pour vous assurer que les appels entrants sont reçus dans Teams. Les utilisateurs doivent être en mode Teams uniquement, ce que vous pouvez faire en leur attribuant l’instance « UpgradeToTeams » de TeamsUpgradePolicy. 
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Que signifie le mode équipes uniquement ? | Pour plus d’informations, reportez-vous à la rubrique [Guide de migration et d’interopérabilité pour les organisations qui utilisent des équipes dans Skype entreprise](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
+|Que signifie le mode Teams uniquement ? | Pour plus d’informations, consultez les conseils sur la [migration et l’interopérabilité](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)pour les organisations qui utilisent Teams avec Skype Entreprise.|
 |||
 
-## <a name="additional-deployment-considerations"></a>Considérations relatives au déploiement supplémentaire
+## <a name="additional-deployment-considerations"></a>Considérations supplémentaires en cas de déploiement
 
-Vous voudrez peut-être prendre en compte les éléments suivants, en fonction des besoins et de la configuration de votre organisation :
+Vous pouvez envisager les considérations suivantes en fonction des besoins et de la configuration de votre organisation :
 
 | Posez-vous la question| Action |
 | :------------|:-------|
-| Avez-vous déjà un déploiement Skype entreprise Server avec connectivité hybride configuré ? |  Pour mieux comprendre comment le déploiement et la gestion des comptes d’utilisateurs dans un environnement hybride, voir [comptes d’utilisateurs dans un environnement hybride avec connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
-| Migrez-vous vers le routage direct à partir d’un plan d’appels ou d’un environnement Skype entreprise local ? | Pour en savoir plus sur la migration vers le routage direct à partir d’un environnement existant, reportez-vous à la rubrique [migration vers le routage direct](direct-routing-migrating.md). |
+| Avez-vous un déploiement Skype Entreprise Server existant avec une connectivité hybride configurée ? |  Pour mieux comprendre la manière dont les comptes d’utilisateur dans un environnement hybride sont provisionés et gérés, consultez Comptes d’utilisateurs dans un environnement hybride avec connectivité [PSTN.](direct-routing-user-accounts-in-a-hybrid-environment.md)| 
+| Migrez-vous vers un routage direct à partir d’un plan d’appels ou d’un environnement Skype Entreprise local ? | Pour plus d’informations sur la migration vers le routage direct à partir d’un environnement existant, voir Migration [vers Un routage direct.](direct-routing-migrating.md) |
 |||

@@ -27,7 +27,7 @@ ms.custom:
 - O365P_ExternalCommDesc
 - O365P_ShareLync
 - LIL_Placement
-description: 'Découvrez comment configurer Skype entreprise pour permettre aux utilisateurs de communiquer avec des utilisateurs d’une autre organisation ou pour permettre à des contacts externes de les contacter. '
+description: 'Découvrez comment configurer Skype Entreprise pour laisser les utilisateurs parler aux utilisateurs d’une autre organisation ou laisser des contacts extérieurs parler à eux. '
 ms.openlocfilehash: d9b3be381432fa95962df7a5a58ea9d81e223fc4
 ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
@@ -43,45 +43,45 @@ Suivez la procédure décrite dans cet article lorsque :
 
 - Vous souhaitez que les personnes de votre organisation utilisent Skype Entreprise pour contacter des membres d'entreprises spécifiques en dehors de votre organisation.
 
-- Vous voulez que les personnes qui utilisent Skype entreprise puissent vous trouver et vous contacter à l’aide de votre adresse e-mail. Si vous utilisez les paramètres par défaut de Skype entreprise, cela va fonctionner automatiquement. Si ce n’est pas le cas, ils doivent s’assurer que leur configuration ne bloque pas votre domaine.
+- Vous souhaitez que les autres utilisateurs de Skype Entreprise à travers le monde puissent vous contacter à l’aide de votre adresse e-mail. S’ils utilisent les paramètres Skype Entreprise par défaut et vous-même, cela fonctionne automatiquement. Si ce n’est pas le cas, ils devront s’assurer que leur configuration ne bloque pas votre domaine.
 
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Autoriser les communications entre entreprises pour vos utilisateurs
 
 <a name="bk_preview"> </a>
 
-Pour effectuer cette communication, vous devez disposer des [autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) dans Microsoft 365 ou Office 365 dans les deux organisations.
+Pour ce faire, vous devez avoir des [autorisations](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) d’administrateur dans Microsoft 365 ou Office 365 dans les deux organisations.
 
-![Icône affichant le logo Microsoft teams ](../images/teams-logo-30x30.png) **avec le centre d’administration teams**
+![Icône montrant le logo Microsoft Teams à ](../images/teams-logo-30x30.png) **l’aide du Centre d’administration Teams**
   
 1. Connectez-vous à l’aide de votre compte d’administrateur Microsoft 365 ou Office 365.
 
-2. Dans le centre d’administration, accédez **à centre d’administration**  >  **teams**.
+2. Dans le Centre d’administration, allez dans **Centres d’administration**  >  **Teams.**
 
-    ![Cliquez sur l’administrateur Teams.](../images/MS-Teams-Admin.png)
+    ![Sélectionnez l’administrateur de Teams.](../images/MS-Teams-Admin.png)
   
-3. Dans le **Centre d’équipes**, **Skype** sélectionnez > **portail hérité**Skype, 
-  ![ puis choisissez le portail hérité marketing.](../images/SFBlegacy-size65.png)
+3. Dans le **Centre Teams,** **sélectionnez portail hérité** >  
+  ![ Skype, choisissez le portail hérité SfB.](../images/SFBlegacy-size65.png)
 
 4. Dans la **Centre d’administration Skype Entreprise**, sélectionnez **Organisation** > **Communications externes**.
 5. Pour configurer une communication avec une entreprise particulière ou avec des utilisateurs ayant un autre domaine, dans le menu déroulant, choisissez **Activé uniquement pour les domaines autorisés**.
 
     Ou, si vous souhaitez activer les communications avec toute personne disposant de stratégies Skype Entreprise ouvertes, sélectionnez **Activer sauf pour les domaines bloqués**. Il s'agit du paramètre par défaut.
 
-6. Sous **domaines bloqués ou autorisés**, sélectionnez **+** et ajoutez le nom du domaine que vous voulez autoriser.
+6. Sous **Domaines bloqués ou autorisés,** choisissez et ajoutez le nom du **+** domaine que vous voulez autoriser.
 
-7. Assurez-vous que l’administrateur de l’autre organisation effectue les mêmes étapes dans le **Centre d’administration Skype entreprise**. Par exemple, dans sa liste de **domaines autorisés**, l'administrateur de l'autre organisation doit entrer le domaine de votre entreprise.
+7. Assurez-vous que l’administrateur de l’autre organisation doit effectuer les mêmes étapes dans le Centre **d’administration Skype Entreprise.** Par exemple, dans sa liste de **domaines autorisés**, l'administrateur de l'autre organisation doit entrer le domaine de votre entreprise.
 
 8. Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires.
 
-    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Cela peut impliquer l’ajout des noms de domaine complets dans la liste des éléments autorisés entrants dans la configuration de votre pare-feu ou de votre infrastructure de proxy : ** \* . API.Skype.com**, \* **. Users.Storage.live.com**et **Graph.Skype.com**. Pour obtenir des instructions sur l’ouverture de ces ports sur votre pare-feu, consultez la documentation qui l’accompagne.
+    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Cela peut nécessiter l’ajout des FQDN à la liste de votre pare-feu ou de votre configuration d’infrastructure proxy : **\* .api.skype.com,** \* **.users.storage.live.com** et **graph.skype.com.** Pour obtenir des instructions sur la façon d’ouvrir ces ports dans votre pare-feu, consultez la documentation qui l’intait.
 
-    Pour obtenir la liste de tous les ports que vous devez ouvrir, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Pour obtenir la liste de tous les ports que vous devez ouvrir, voir URL et [plages d’adresses IP Office 365.](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)
 
 9. Assurez-vous que l’administrateur de l’organisation a également suivi ces étapes.
 
-10. **ATTENDEZ JUSQU’À 24 HEURES POUR EFFECTUER UN TEST**. Lorsque vous modifiez les paramètres de communication externe, le délai de 24 heures peut être nécessaire pour que les modifications apparaissent sur tous les centres de données.
+10. **ATTENDEZ JUSQU’À 24 HEURES POUR EFFECTUER UN TEST**. Lorsque vous modifiez les paramètres de communications externes, jusqu’à 24 heures peuvent être nécessaires avant que les modifications ne s’insérez dans tous les centres de données.
 
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Vous pouvez permettre à vos utilisateurs de rechercher et contacter par messagerie instantanée toute personne utilisant l'application gratuite Skype. Pour en savoir plus, reportez-vous à la rubrique [autoriser les utilisateurs Skype entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Vous pouvez permettre à vos utilisateurs de rechercher et contacter par messagerie instantanée toute personne utilisant l'application gratuite Skype. Pour en savoir plus, voir [Laisser les utilisateurs de Skype Entreprise ajouter des contacts Skype.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>Test et dépannage
 
@@ -95,31 +95,31 @@ Pour tester votre configuration, vous devez disposer d'un contact Skype Entrepri
 
 2. Dans Skype Entreprise, recherchez votre contact dans Skype Entreprise et envoyer une demande de discussion.
 
-    Si vous recevez un message indiquant qu’il n’a pas pu être envoyé en raison d’une stratégie de l’entreprise, vous devez vérifier vos [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Si vous recevez un message vous savez qu’il n’a pas pu être envoyé en raison d’une stratégie d’entreprise, vous devez vérifier à nouveau vos URL et [plages d’adresses IP Office 365.](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)
 
 3. Demandez à votre contact Skype Entreprise de vous envoyer une demande de discussion. Si vous ne la recevez pas, le problème se situe au niveau de vos paramètres de pare-feu (en supposant que votre contact a confirmé que ses paramètres sont corrects).
 
-4. Un autre moyen de tester s’il s’agit d’un problème lié à votre pare-feu consiste à utiliser une connexion WiFi qui n’est pas à l’arrière de votre pare-feu, par exemple un café. Utilisez Skype entreprise pour envoyer une demande de discussion à votre contact. Si le message est correctement envoyé, cela signifie que le problème est lié à votre pare-feu.
+4. Une autre façon de vérifier si le problème se trouve au-de pare-feu consiste à utiliser un emplacement Wifi qui n’est pas derrière votre pare-feu, par exemple un café. Utilisez Skype Entreprise pour envoyer une demande de discussion à votre contact. Si le message est correctement envoyé, cela signifie que le problème est lié à votre pare-feu.
 
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Comment trouver des personnes et être trouvé lors d'une connexion avec une autre entreprise.
 
 <a name="bk_preview"> </a>
 
-Après avoir activé les communications externes avec d’autres utilisateurs Skype entreprise, vos utilisateurs peuvent trouver des utilisateurs Skype entreprise fédérés en recherchant leur nom de connexion. Par exemple, Rob@contoso.com. Ils devront ensuite ajouter la personne à leurs listes de contacts.
+Une fois la communication externe activée avec d’autres utilisateurs de Skype Entreprise, vos utilisateurs peuvent trouver des utilisateurs Skype Entreprise fédérés en recherchant leur nom de signature. C’est le cas, par exemple, Rob@contoso.com. Ils devront ensuite ajouter la personne à leurs listes de contacts.
   
-![Pour retrouver un utilisateur dans une entreprise fédérée, vous devez rechercher son adresse e-mail (il s’agit généralement de son nom de connexion).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![Pour rechercher un utilisateur dans une entreprise fédérée, vous devez rechercher son adresse de messagerie (il s’agit généralement également de son nom de sign in).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Conseils de configuration des communications avec des entreprises fédérées
 
 <a name="bk_preview"> </a>
 
-- Pour configurer la Fédération entre Skype entreprise 2015 et Skype entreprise Online, consultez cet article : [configuration de la Fédération avec Skype entreprise Online](https://technet.microsoft.com/library/jj205126.aspx).
+- Pour configurer la fédération entre Skype Entreprise 2015 et Skype Entreprise Online, consultez cet article : Configurer la fédération avec [Skype Entreprise Online.](https://technet.microsoft.com/library/jj205126.aspx)
 
-- Pour configurer la Fédération entre Lync et Skype entreprise Online, consultez cet article : [configuration de la prise en charge de la Fédération pour un client Lync Online](https://technet.microsoft.com/library/hh202193.aspx).
+- Pour configurer la fédération entre Lync et Skype Entreprise Online, consultez cet article : Configuration de la prise en charge de la fédération pour un client [Lync Online.](https://technet.microsoft.com/library/hh202193.aspx)
 
-- Lorsque deux utilisateurs de Skype entreprise dans Microsoft 365 ou Office 365 communiquent entre eux sur des domaines distincts, ils peuvent uniquement utiliser les fonctionnalités Skype entreprise (par exemple, les conversations vidéo ou le partage du bureau) activées dans les deux organisations.
+- Lorsque deux utilisateurs de Skype Entreprise dans Microsoft 365 ou Office 365 communiquent entre eux sur des domaines distincts, ils peuvent uniquement utiliser les fonctionnalités de Skype Entreprise (par exemple, les conversations vidéo ou le partage de bureau) qui sont sous l’une ou l’autre des deux organisations.
 
-- S’il s’agit d’un utilisateur Skype entreprise de votre organisation en In-Place ou litige, les conversations par messagerie instantanée entre cet utilisateur et les autres utilisateurs Skype entreprise ou Skype seront enregistrées dans les **éléments récupérables** de la boîte aux lettres. Ces conversations ne sont pas enregistrées dans le dossier **Historique des conversations** de leur boîte aux lettres.
+- Si un utilisateur Skype Entreprise de votre organisation est placé en In-Place ou en attente pour litige, toutes les conversations par messagerie instantanée entre cet utilisateur et d’autres utilisateurs Skype Entreprise ou Skype sont enregistrées dans les éléments **récupérables** de leur boîte aux lettres. Ces conversations ne sont pas enregistrées dans le dossier **Historique des conversations** de leur boîte aux lettres.
 
 ## <a name="turn-off-external-communication-for-specific-individuals"></a>Désactiver la communication externe pour des individus spécifiques
 
@@ -129,15 +129,15 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
   
 1. Connectez-vous à l’aide de votre compte d’administrateur Microsoft 365 ou Office 365.
 
-2. Dans le **Centre d’administration, accédez à utilisateurs**  >  **actifs**.
+2. Dans le Centre d’administration, voir **Utilisateurs**  >  **actifs.**
 
 3. Dans la liste des utilisateurs, choisissez l'utilisateur, puis sous **Paramètres supplémentaires**, cliquez sur **Modifier les propriétés de Skype Entreprise**.
 
     ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. Dans le **Centre d’administration de Skype entreprise**, choisissez **communications externes**.
+4. Dans le Centre **d’administration Skype Entreprise,** sélectionnez **Communications externes.**
 
-    Dans la page **options** , tous les choix seront sélectionnés. Effacez les communications que vous souhaitez désactiver. L'image suivante indique que Jakob pourra communiquer avec le personnel d'autres entreprises approuvées, mais pas avec d'autres utilisateurs Skype.
+    Dans la page **Options,** toutes les options sont sélectionnées. Désactivez les communications que vous voulez désactiver. L'image suivante indique que Jakob pourra communiquer avec le personnel d'autres entreprises approuvées, mais pas avec d'autres utilisateurs Skype.
 
     ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
@@ -148,7 +148,7 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 <a name="bk_preview"> </a>
 

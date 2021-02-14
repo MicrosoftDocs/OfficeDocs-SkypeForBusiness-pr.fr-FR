@@ -1,5 +1,5 @@
 ---
-title: Configurer des stratégies au sein de votre organisation
+title: Configurer des stratégies dans votre organisation
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -25,9 +25,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/07/2020
 ms.locfileid: "48376557"
 ---
-# <a name="set-up-policies-in-your-organization"></a>Configurer des stratégies au sein de votre organisation
+# <a name="set-up-policies-in-your-organization"></a>Configurer des stratégies dans votre organisation
 
-Les politiques permettent de déterminer les fonctionnalités de Skype entreprise Online mises à la disposition des utilisateurs. Pour plus d’informations, consultez les articles suivants.
+Les stratégies permettent de déterminer les fonctionnalités de Skype Entreprise Online qui sont accessibles aux utilisateurs. Pour plus d’informations, consultez les articles suivants.
 
 - [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 - [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)

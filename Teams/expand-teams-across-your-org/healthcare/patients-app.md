@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: En savoir plus sur l’intégration d’enregistrements de santé électronique dans l’application patients de Microsoft teams à l’aide des API FHIR.
+description: Découvrez comment intégrer des enregistrements médicaux électroniques dans l’application Patients de Microsoft Teams à l’aide d’API FEMBA.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 594375959a8cd7cbbfc21c6b9d5ceb6c0f8a8dac
@@ -29,58 +29,58 @@ ms.locfileid: "48803542"
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Intégration des dossiers médicaux électroniques dans Microsoft Teams
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Toutes les données associées à l’application patients sont conservées dans ce groupe, mais vous ne pouvez plus y accéder par le biais de l’interface utilisateur. Les utilisateurs peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale. Consultez le modèle patients dans les listes pour commencer. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+>Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
 
-Cet article s’adresse aux développeurs de systèmes d’information aux soins généraux désireux d’utiliser des API FHIR sur un système d’informations médicales pour se connecter à Microsoft Teams. Cela permettrait aux scénarios de coordination de soins qui répondent aux besoins d’un organisme de santé.
+Cet article est destiné à un développeur informatique de santé général intéressé par l’utilisation d’API F AP API sur un système d’informations médicales pour se connecter à Microsoft Teams. Cela permettra des scénarios de coordination des soins qui correspondent aux besoins d’une organisation de soins de santé.
 
-Les Articles liés documentent les spécifications de l’interface FHIR pour l’application Microsoft teams patients et indiquent ce qui est requis pour la configuration d’un serveur FHIR et la connexion à l’application patients dans votre environnement de développement ou client. Vous devrez également connaître la documentation du serveur FHIR que vous avez choisi, qui doit être l’une des options prises en charge :
+Les articles liés documentent les spécifications de l’interface FEMBA pour l’application Patients de Microsoft Teams, et les sections suivantes expliquent ce qui est nécessaire pour la configuration d’un serveur FEMBA et la connexion à l’application Patients dans votre environnement de développement ou client. Vous devez également être familiarisé avec la documentation du serveur F INF que vous avez choisi, laquelle doit être l’une des options prise en charge :
 
-- Datica (par le biais de leur offre [CMI](https://datica.com/compliant-managed-integration/) )
-- Infor Cloverleaf (via [infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
-- Redox (par le biais du [serveur R ^ FHIR](https://www.redoxengine.com/fhir/))
-- DapaSoft (via [Corolar sur FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
+- Datica (via son [offre CMI)](https://datica.com/compliant-managed-integration/)
+- Infor Premierrleaf (via le [pont Infor FEMBA)](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)
+- Red mail (via le [serveur R^FEMBA)](https://www.redoxengine.com/fhir/)
+- Microsoft (par le biais [de Corolar sur FEMBA)](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)
 
 > [!NOTE]
-> Ce processus n’inclut pas les étapes qui utilisent le centre d’administration Microsoft teams ou les cmdlets PowerShell pour activer des fonctionnalités. La configuration est entièrement réalisée sur le côté du serveur/Service FHIR et dans le client de l’application patients.
+> Ce processus n’inclut pas les étapes qui utilisent le Centre d’administration Microsoft Teams ou les cmdlets PowerShell pour activer les fonctionnalités. La configuration est entièrement effectuée sur le côté serveur/service FEMBA et dans le client de l’application Patients.
 
-Voici l’architecture de l’application patients :
+Voici l’architecture de l’application Patients illustrée ci-dessous :
 
-![Diagramme de l’architecture de l’application patients](../../media/patients-app-architecture.png)
+![Diagramme de l’architecture de l’application Patients](../../media/patients-app-architecture.png)
 
-Les sections suivantes décrivent les exigences de la couche d’accès aux données FHIR-only pour l’application patients qu’une API FHIR Server (ou DMI FHIR) doit respecter pour s’intégrer à l’application patients, comme suit :
+Les sections suivantes expliquent les conditions requises de la couche d’accès aux données uniquement pour l’application Patients qu’un serveur FEMBA (ou API F HEP) doit respecter pour s’intégrer à l’application Patients, notamment les suivantes :
 
-- Attentes concernant l’authentification des utilisateurs
+- Attentes en matière d’authentification des utilisateurs
 - Exigences fonctionnelles et techniques de l’interface d’intégration
 - Attentes en matière de performances et de fiabilité
-- Attentes concernant les ressources FHIR devant être prises en charge pour l’application patients
-- Processus d’intégration et modèle d’engagement ATTENDU
-- Commencer à utiliser FHIR et résoudre certains problèmes courants rencontrés avec l’application patients
-- Exigences futures pour l’itération suivante de l’application patients
+- Attentes autour des ressources FEMBA à prendre en charge pour l’application Patients
+- Processus d’intégration et modèle d’engagement attendu
+- Mise en place de la FEMBA et problèmes courants rencontrés avec l’application Patients
+- Conditions requises pour la prochaine itération de l’application Patients
 
 > [!NOTE]
-> Dans les sections suivantes, le mot « partenaire » ou « partenaire d’interopérabilité » est utilisé pour faire référence à toute organisation tierce qui permet l’intégration aux systèmes DMI pour l’application patients via FHIR et implémente un serveur FHIR correspondant aux spécifications indiquées.
+> Dans les sections suivantes, le terme « partenaire » ou « partenaire Interop » est utilisé pour faire référence à n’importe quelle organisation tierce qui autorise l’intégration aux systèmes EHR pour l’application Patients via FEMBA et implémente un serveur FEMBA pour qu’il corresponde aux spécifications répertoriées.
 
 ## <a name="functional-and-technical-requirements"></a>Exigences fonctionnelles et techniques  
 
 ### <a name="authentication"></a>Authentification  
 
-L’autorisation au niveau *de l’application sans support pour l’autorisation au niveau de l’utilisateur* est la façon la plus courante de procéder à des transformations de données et d’exposer les connexions aux données DMI via FHIR, même si le système DMI peut implémenter une autorisation au niveau de l’utilisateur. Le service d’interopérabilité (partenaire) accède aux données DMI, et lorsqu’il expose les mêmes données que les ressources FHIR appropriées, il n’y a aucun contexte d’autorisation transmis au consommateur de services d’interopérabilité (l’application patients) intégré au service d’interopérabilité ou à la plate-forme. L’application patients ne sera pas en mesure de mettre en œuvre l’autorisation de niveau utilisateur, mais elle prend en charge l’authentification des applications entre l’application patients et le service du partenaire d’interopérabilité.
+L’autorisation  au niveau de l’application sans prise en charge de l’autorisation au niveau utilisateur est le moyen le plus souvent pris en charge pour effectuer des transformations de données et exposer les connexions aux données d’un réseau d’entreprise via FEMBA, même si le système EHR peut implémenter l’autorisation au niveau utilisateur. Le partenaire Interop Service obtient un accès élevé aux données EHR et, lorsqu’ils exposent les mêmes données que les ressources FEMBA appropriées, aucun contexte d’autorisation n’est transmis à la clientèle de services Interop (l’application Patients) intégrée au service ou à la plateforme Interop. L’application Patients ne pourra pas appliquer l’autorisation au niveau utilisateur, mais prend en charge l’authentification des applications pour l’authentification des applications entre l’application Patients et le service du partenaire Interop.
 
-Le modèle d’authentification des applications est décrit ci-dessous :
+Le modèle d’authentification d’application à application est décrit ci-dessous :
 
-L’authentification du service au service doit être réalisée par le biais du [flux d’informations d’identification du Client](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)2,0 OAuth. Le service partenaire doit fournir ce qui suit :
+L’authentification de service à service doit être effectuée via le flux d’informations d’identification du [client](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)OAuth 2.0. Le service partenaire doit fournir les services suivants :
 
-1. Le service partenaire permet à l’application patients de créer un compte auprès du partenaire, qui permet à l’application patients de générer client_id et de client_secret, gérée par le biais d’un portail d’inscription d’auth sur le serveur d’authentification du partenaire.
+1. Le service partenaire permet à l’application Patients de créer un compte avec le partenaire, ce qui permet à l’application Patients de générer et de posséder des client_secret et client_id, gérés via un portail d’inscription d’authentification sur le serveur d’authentification du partenaire.
 
-2. Le service partenaire possède le système d’authentification/d’autorisation qui accepte et vérifie (authentifie) les informations d’identification du client fournies et renvoie un jeton d’accès avec l’indicateur de client dans l’étendue, comme décrit ci-dessous.
+2. Le service partenaire est propriétaire du système d’authentification/autorisation, qui accepte et vérifie (authentifier) les informations d’identification client fournies et donne un jeton d’accès avec l’indication du client dans l’étendue, comme décrit ci-dessous.
 
-3. Pour des raisons de sécurité, ou en cas de violation secrète, l’application patients peut régénérer le secret et invalider ou supprimer l’ancien secret (par exemple, il est disponible dans Azure Portal-inscription des applications AAD).
+3. Pour des raisons de sécurité ou en cas de violation secrète, l’application Patients peut générer à nouveau l’information secrète et invalider ou supprimer l’ancien secret (des exemples identiques sont disponibles dans le portail Azure - Inscription d’application AAD).
 
-4. Le point de terminaison de métadonnées qui héberge la déclaration de conformité doit être non authentifié, il doit être accessible sans jeton d’authentification.
+4. Le point de terminaison de métadonnées hébergeant l’instruction de conformité doit être non authentifié, il doit être accessible sans jeton d’authentification.
 
-5. Le service partenaire fournit le point de terminaison jeton de l’application patients pour demander un jeton d’accès à l’aide d’un flux d’informations d’identification du client. L’URL du jeton en tant que serveur d’autorisation doit faire partie intégrante de l’instruction de compatibilité FHIR (Capability) récupérée à partir des métadonnées du serveur FHIR, comme dans cet exemple :
+5. Le service partenaire fournit le point de terminaison de jeton pour l’application Patients afin de demander un jeton d’accès à l’aide d’un flux d’informations d’identification client. L’URL de jeton conformément au serveur d’autorisation doit faire partie de l’instruction de conformité (fonctionnalité) FEMBA récupérée à partir des métadonnées sur le serveur F INF, comme dans l’exemple ci-après :
 
     ```
     {
@@ -126,7 +126,7 @@ L’authentification du service au service doit être réalisée par le biais du
     }
     ```
 
-Une demande de jeton d’accès comprend les paramètres suivants :
+Une demande de jeton d’accès se compose des paramètres suivants :
 
 ```http
 POST /token HTTP/1.1
@@ -137,19 +137,19 @@ grant-type=client_credentials
 &client_secret=xxxxxxxxxx
 ```
 
-Le service partenaire fournit les client_id et les client_secret de l’application patients, gérés par le biais d’un portail d’inscription d’authentification du côté du partenaire. Le service partenaire fournit le point de terminaison pour demander un jeton d’accès à l’aide d’un flux d’informations d’identification client. Une réponse réussie doit inclure les paramètres token_type, access_token et expires_in.
+Le service partenaire fournit les client_id et client_secret Patients, gérées via un portail d’inscription d’erth du côté du partenaire. Le service partenaire fournit le point de terminaison pour demander un jeton d’accès à l’aide d’un flux d’informations d’identification client. Une réponse réussie doit inclure les paramètres token_type, access_token et expires_in réponses.
 
-### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>Routage : mappage du client AAD au point de terminaison du fournisseur
+### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>Routage : mappage du client AAD au point de terminaison fournisseur
 
-L’application patients se connecte à un service partenaire via un point de terminaison unique. Le service partenaire possède et gère un mécanisme pour mapper chaque client Microsoft (ID de client AAD) à un fournisseur de services de santé correspondant (serveur FHIR) sur lequel le service de partenariat travaille.
+L’application Patients se connecte à un service partenaire via un seul point de terminaison. Le service partenaire est le propriétaire et le maintien d’un mécanisme permettant d’associer chaque client Microsoft (ID de locataire AAD) à un fournisseur de soins de santé (FEMBA) approprié avec qui le service partenaire travaille.
 
-Le fait de mapper le client AAD à un point de terminaison fournisseur utilise l’ID de locataire AAD (GUID). L’application patients transmet l’ID de locataire dans l’étendue, lors de la demande d’un jeton d’accès pour chaque demande. Le service partenaire conserve le mappage de l’ID de locataire au point de terminaison fournisseur et redirige les demandes vers un point de terminaison fournisseur en fonction de l’ID de locataire. Pour ce faire, le partenaire prend en charge la configuration à la fin (manuellement ou par le biais d’un portail dans le cadre de l’intégration d’organisations de fournisseur à sa plateforme d’interopérabilité).
+Le mappage du client AAD à un point de terminaison de fournisseur utilise l’ID de locataire AAD (GUID). L’application Patients transmet l’ID de locataire dans l’étendue, lors de la demande d’un jeton d’accès pour chaque demande. Le service partenaire conserve le mappage de l’ID de locataire avec le point de terminaison du fournisseur et redirige les demandes vers un point de terminaison de fournisseur sur la base de l’ID de locataire. Pour ce faire, le partenaire prend en charge la configuration de son côté (manuellement ou via un portail dans le cadre de l’intégration des organisations du fournisseur à leur plateforme Interop).
 
-Le flux de travail d’authentification et de routage est indiqué ci-dessous :
+Le flux de travail d’authentification et de routage s’affiche ci-dessous :
 
 ![Diagramme du flux de travail d’authentification et de routage](../../media/Patient-app-6.png)
 
-1. Demande d’un jeton d’accès d’application en envoyant :
+1. Demandez le jeton d’accès à l’application en envoyant :
  
     ```
     {   grant_type: client_credentials,
@@ -159,7 +159,7 @@ Le flux de travail d’authentification et de routage est indiqué ci-dessous :
     }
     ```
 
-2. Répondez avec un jeton d’application :
+2. Répondre avec un jeton d’application :
 
     ```
     {  access_token: {JWT, with scope: tenant ID},
@@ -168,27 +168,27 @@ Le flux de travail d’authentification et de routage est indiqué ci-dessous :
     }
     ```
 
-3. Demander des données protégées avec un jeton d’accès.
+3. Demander des données protégées avec un jeton Access.
 
-4. Message d’autorisation : sélectionnez le serveur FHIR approprié pour le routage à partir de l’ID de locataire dans l’étendue.
+4. Message d’autorisation : sélectionnez le serveur FEMBA approprié vers qui router à partir de l’ID de client dans l’étendue.
 
-5. Envoie les données protégées de l’application à partir du serveur FHIR autorisé après authentification auprès du jeton de l’application.
+5. Envoie les données protégées par l’application à partir du serveur FEMBA autorisé après l’authentification avec le jeton d’application.
 
-## <a name="interfaces"></a>Implément
+## <a name="interfaces"></a>Interfaces
 
-Les appels et champs spécifiques utilisés par l’application patients sont décrits dans les articles suivants. Sélectionnez l’interface applicable aux API Server/FHIR de votre FHIR.
+Des appels et des champs spécifiques utilisés par l’application Patients sont documentés dans les articles suivants. Sélectionnez l’interface applicable à votre serveur FEMBA/API FEMBA.
 
 - [Spécification de l’interface DSTU2](dstu2-interface.md)
 - [Spécification de l’interface STU3](stu3-interface.md)
 
 ## <a name="performance-and-reliability"></a>Performances et fiabilité
 
-Même si l’application patients est en préversion privée, il n’existe aucune garantie quant aux performances de bout en bout. Les facteurs de performance incluent les latences relatives de tous les tronçons impliqués dans le flux de travail, en partant du DMI dans l’environnement du système d’intégrité, vers le partenaire d’interopérabilité et leur infra, y compris le serveur FHIR et vers l’application Office 365 écosystème et patients.
+Si l’application Patients est en prévisualisation privée, il n’y a aucune garantie pour les performances de bout en bout. Les facteurs de performances comprennent les latencies relatives de tous les sauts impliqués dans le flux de travail, à partir de l’ehr dans l’environnement du système d’santé, au partenaire Interop et à son infrastructure, y compris le serveur FEMBA, puis à l’écosystème d’Office 365 et l’application Patients.
 
-![Illustration des performances des partenaires d’interopérabilité](../../media/FHIR.png)
+![Illustration des performances des partenaires Interop](../../media/FHIR.png)
 
-## <a name="get-started-with-fhir"></a>Commencer à utiliser FHIR  
+## <a name="get-started-with-fhir"></a>Commencer à travailler avec FEMBA  
 
-Si vous débutez sur FHIR et que vous avez besoin d’accéder facilement à un serveur FHIR que vous pouvez exposer à l’interface d’intégration DMI de Microsoft Teams, Microsoft dispose d’un serveur FHIR Open-source disponible pour tous les développeurs. Reportez-vous à l’article [qu’est-ce que FHIR Server pour Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) pour en savoir plus sur le serveur Open source FHIR fourni par Microsoft et le déploiement pour votre organisation.
+Si vous débutez avec FEMBA et avez besoin d’un accès facile à un serveur FEMBA que vous pouvez exposer à l’interface d’intégration EHR de Microsoft Teams, Microsoft dispose d’un serveur FEMBA open source disponible pour tous les développeurs. Consultez [l’article](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) Qu’est-ce que FEMBA Server pour Azure ? Pour en savoir plus sur le serveur open source FEMBA disponible auprès de Microsoft et le déployer pour votre organisation.
 
-Vous pouvez également utiliser l’environnement de bac à sable (sandbox) HSPC ouvert pour créer un DMI qui prend également en charge un serveur Open FHIR Nous vous recommandons de lire la [documentation de bac à sable (sandbox) hspc](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Non seulement le bac à sable (sandbox) offre une méthode simple, orientée interface utilisateur et conviviale pour la création, l’ajout et la modification de patients. 
+Vous pouvez également utiliser l’environnement EHR de bac à sable ouvert HSPC pour créer un ehr qui prend également en charge un serveur FPV ouvert et l’utiliser pour jouer avec l’application Patients. Nous vous recommandons de lire la documentation en bac à sable [HSPC.](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox) Non seulement le bac à sable fournit-il un moyen simple, orienté IU et convivial de créer, d’ajouter et de modifier Patients, mais également de vous fournir plusieurs exemples pour commencer. 

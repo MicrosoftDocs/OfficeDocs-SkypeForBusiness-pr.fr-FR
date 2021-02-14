@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Discussions de craie de Microsoft teams
-summary: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.
+title: Microsoft Teams Chalk Talks
+summary: Conçue pour les professionnels de l’informatique et les décideurs, Teams Chalk Talks offre une opportunité unique de découvrir les meilleures pratiques et des conseils pratiques sur certains des scénarios les plus populaires et attrayants dans Teams.
 brand: teams
 metadata:
-  title: Discussions de craie de Microsoft teams
-  description: Conçu pour les professionnels de l’informatique et les décideurs, les discussions de craie d’équipes constituent une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes. À l’aide d’experts en matière d’expertise, ces ateliers interactifs en ligne vous aideront à utiliser des informations pour améliorer la mise en œuvre de votre équipe et fournir des valeurs supplémentaires aux utilisateurs finaux. Cliquez sur un titre d’atelier ci-dessous pour afficher les dates et heures disponibles, et inscrivez-vous dès aujourd’hui !
+  title: Conférences au pastel de Microsoft Teams
+  description: Conçue pour les professionnels de l’informatique et les décideurs, Teams Chalk Talks offre une opportunité unique de découvrir les meilleures pratiques et des conseils pratiques sur certains des scénarios les plus populaires et attrayants dans Teams. Ces ateliers interactifs en ligne, organisés par des experts techniques, vous fourniront des informations pour améliorer l’implémentation de Teams et apporter des valeurs supplémentaires aux utilisateurs finaux. Cliquez sur un titre d’atelier ci-dessous pour voir les dates et heures disponibles et inscrivez-vous dès aujourd’hui !
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -34,31 +34,31 @@ metadata:
 productDirectory:
   summary: Cliquez sur un titre d’atelier pour vous inscrire.
   items:
-  - title: Ainsi... vous voulez passer des appels avec teams ?
+  - title: Alors... vous voulez appeler Teams ?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Rejoignez-nous pour obtenir une vue d’esprit approfondie de l’ajout de fonctionnalités d’appel RTC à votre déploiement d’équipes. Ensemble, nous allons examiner la terminologie des appels, les principaux concepts et les configurations.
+    summary: Rejoignez-nous pour un examen approfondi de l’ajout de fonctionnalités d’appel PSTN à votre déploiement Teams. Ensemble, nous allons parcourir la terminologie d’appel, les concepts clés et les configurations.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Accès à la qualité audio/vidéo dans teams
+  - title: Prise en charge de la qualité audio/vidéo dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Vous voulez vous assurer que les utilisateurs disposent d’expériences optimales pour les réunions et les fonctions vocales ? Nous allons aborder des outils, des rapports et des pratiques recommandées pour la gestion de la qualité de service (par l’établissement d’une stratégie proactive de résolution des problèmes courants).
+    summary: Vous cherchez à vous assurer que les utilisateurs ont des expériences optimales avec les réunions et les fonctionnalités vocales ? Nous allons discuter des outils, de la création de rapports et des meilleures pratiques pour vous aider à gérer la qualité du service, de l’établissement d’une stratégie proactive à la résolution des problèmes courants.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Applications principales dans teams
+  - title: Principes de base des applications dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: Cette session de base aborde les fonctionnalités de base, notamment la gestion et la sécurité des applications. Découvrez comment intégrer vos flux de travail, applications de productivité et les services que vous utilisez quotidiennement en une seule et même interface unifiée.
+    summary: Cette session de base aborde les fonctionnalités de base, notamment la gestion et la sécurité des applications. Découvrez comment intégrer vos flux de travail, applications de productivité et services que vous utilisez quotidiennement dans une expérience unique et unifiée.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Flux de travail de clé de surcharge avec applications dans Microsoft teams
+  - title: Charger des flux de travail clés avec des applications dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Connectez vos systèmes, augmentez l’automatisation et procurez des expériences améliorées aux utilisateurs en regroupant les applications que votre organisation utilise dans Teams.
+    summary: Connectez vos systèmes, améliorez l’automatisation et offrez aux utilisateurs des expériences améliorées en mettant à la place les applications dont votre organisation dépend dans Teams.
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
-    - title: Vous utilisez toujours Skype entreprise ?
-      summary: Consultez notre série d’ateliers de mise à niveau.
+    - title: Vous utilisez toujours Skype Entreprise ?
+      summary: Découvrez notre série Upgrade Workshop.
       url: upgrade-workshops-landing-page.yml
     - title: Préparer vos utilisateurs
-      summary: Familiarisez-vous avec les formations Teams.
+      summary: Rendre vos utilisateurs opérationnels avec Teams Live Training.
       url: https://aka.ms/TeamsLiveTraining
     - title: Vous débutez avec Teams?
-      summary: En savoir plus sur la mise en route de teams.
+      summary: En savoir plus sur la mise en place de Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview

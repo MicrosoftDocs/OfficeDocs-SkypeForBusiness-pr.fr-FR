@@ -1,5 +1,5 @@
 ---
-title: Application patients et interface STU3 d’intégration DMI
+title: Interface De l’application Patients et de l’intégration EHR
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: En savoir plus sur l’intégration d’enregistrements de santé électronique dans l’application Microsoft teams patients et la spécification de l’interface STU3.
+description: Découvrez comment intégrer des enregistrements d’état d’santé électroniques à l’application Patients de Microsoft Teams et à la spécification de l’interface CENTRE.AU.I.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
@@ -29,75 +29,75 @@ ms.locfileid: "48803492"
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Toutes les données associées à l’application patients sont conservées dans ce groupe, mais vous ne pouvez plus y accéder par le biais de l’interface utilisateur. Les utilisateurs peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale. Consultez le modèle patients dans les listes pour commencer. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+>Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
 
-La configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients nécessite une compréhension des données auxquelles l’application doit accéder. Le serveur FHIR doit prendre en charge les demandes POST à l’aide de bottes pour les ressources suivantes :
+La configuration ou la reconfiguration d’un serveur FEMBA pour qu’il fonctionne avec l’application Patients de Microsoft Teams nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur F POSTER doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
 
 - [Patient](#patient)
-- [Déterminée](#observation)
+- [Observation](#observation)
 - [Condition](#condition)
-- [Connaître](#encounter)
-- [Intolérance des allergies](#allergyintolerance)
-- [Articles](#coverage)
-- [État de médication](#medication-request) (remplace le MedicationOrder dans la version DSTU2 du PatientsApp)
-- Emplacement (les informations requises par cette ressource peuvent être intégrées à la rencontre)
+- [Rencontrer](#encounter)
+- [Erdesses](#allergyintolerance)
+- [Couverture](#coverage)
+- [Relevé de médication](#medication-request) (remplace l’ordre Médication dans la version DSTU2 de l’app Patients)
+- Emplacement (les informations requises pour cette ressource peuvent être incluses dans La rencontre)
 
 > [!NOTE]
-> La ressource patient est la seule ressource obligatoire (sans que l’application ne se charge du tout); Néanmoins, nous vous conseillons de mettre en œuvre la prise en charge de toutes les ressources mentionnées ci-dessus pour une utilisation optimale de l’application Microsoft teams pour les utilisateurs finaux.
+> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas). Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources mentionnées ci-dessus par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
 
-Les requêtes à partir de l’application patients de Microsoft teams pour plusieurs ressources publient une offre (BATCH) de requêtes dans l’URL du serveur FHIR. Le serveur traitera chaque demande et renverra une offre de ressources correspondant à chaque demande. Pour plus d’informations et d’exemples, voir [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
+Les requêtes de l’application Patients de Microsoft Teams pour plusieurs ressources publient une offre groupée (BATCH) de demandes sur l’URL du serveur FEMBA. Le serveur doit traiter chaque demande et renvoyer une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) voir .
 
-## <a name="capability-statement"></a>Instruction Capability
+## <a name="capability-statement"></a>Instruction de fonctionnalité
 
-Voici les champs obligatoires obligatoires :
+Voici les champs minimum requis :
 
- - LAISSER
+ - REST
 
-    - Veille
+    - Mode
     - Interaction
-    - Ressource : type
-    - Sécurité : [extension pour les URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
+    - Ressource : Type
+    - Sécurité : [Extension pour les UR OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - FhirVersion (notre code nécessite cela pour comprendre la version à laquelle nous devons faire pivoter.)
+ - FembaVersion (notre code nécessite que l’on comprenne la version vers laquelle nous devons pivoter).
 
-[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) d’autres informations sur ce jeu de champs.
 
 ## <a name="patient"></a>Patient
 
-Voici les champs requis au minimum, qui sont un sous-ensemble des champs du profil du patient Argonaut :
+Voici les champs minimum requis, qui sont un sous-ensemble des champs de profil du patient Argot :
 
- - Nom. fourni
- - Name. Family
- - Public
- - Anniversaire
- - NRM (identificateur)
+ - Name.Given
+ - Name.Family
+ - Sexe
+ - Date BirthDate
+ - MRN (identificateur)
 
-Outre les [champs Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), pour une bonne utilisation de l’utilisateur, l’application patients peut également lire les champs suivants :
+Outre les champs [Argot,](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)pour une grande expérience utilisateur, l’application Patients peut également lire les champs suivants :
 
- - Name. use
- - Nom. préfixe
- - [GeneralPractitioner] : la référence GeneralPractitioner doit être incluse dans la ressource patient (champ d’affichage uniquement)
+ - Name.Use
+ - Name.Prefix
+ - [GeneralPractitioner] - La référence du generalPractitioner doit être incluse dans la ressource patient (champ d’affichage uniquement)
 
-Une recherche de ressource utilise la méthode POST à/patient/_search et les paramètres suivants :
+Une recherche de ressources utilise la méthode POST à /Patient/_search et les paramètres suivants :
 
- - ID
- - famille = (recherche tous les patients dont le nom de famille contient la valeur)
- - accordé =\<substring>
- - DateNaissance = (correspondance exacte)
- - sexe = (valeurs faisant partie d’un compte d’administrateur-sexe)
- - \_nombre (nombre maximal de résultats à renvoyer) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés comme résultat de la recherche et du \_ comptage qui seront utilisés par le PatientsApp pour limiter le nombre d’enregistrements renvoyés.
- - identificateur =\<mrn>
+ - id
+ - family=(recherche tous les patients dont le nom de famille contient la valeur)
+ - given=\<substring>
+ - birthdate=(correspondance exacte)
+ - gender=(valeurs étant l’un des deux sexes administratifs)
+ - \_nombre (nombre maximal de résultats à retourner) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés suite à la recherche et le nombre sera utilisé par l’App Patients pour limiter le nombre d’enregistrements \_ renvoyés.
+ - identifier=\<mrn>
 
-L’objectif est de pouvoir Rechercher et filtrer un patient en procédant comme suit :
+L’objectif est de pouvoir rechercher et filtrer un patient comme suit :
 
-- ID : il s’agit de l’ID de ressource dont se trouve chaque ressource dans FHIR.
-- NRM : il s’agit de l’identificateur réel du patient que le personnel expérimenté connaîtait. Nous comprenons que ce NRM est basé sur le type d’identificateur figurant à l’intérieur de la ressource d’identificateur dans FHIR.
+- N° : il s’agit de l’ID de ressource dont dispose chaque ressource de l’affectation FEMBA.
+- MRN : il s’agit de l’identificateur réel du patient que le personnel clinique connaît. Nous comprenons que cette fonction MRN est basée sur le type d’identificateur à l’intérieur de la ressource d’identificateur dans FEMBA.
 - Nom
-- Anniversaire
+- Date de naissance
 
-Pour plus d’informations, reportez-vous à l’exemple suivant :
+Consultez l’exemple suivant de l’appel :
 
 ```
 Request:
@@ -237,28 +237,28 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) d’autres informations sur ce jeu de champs.
 
-## <a name="observation"></a>Déterminée
+## <a name="observation"></a>Observation
 
-Il s’agit des champs requis au minimum, qui sont un sous-ensemble de [Argonaut Vital-Signs profil](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil [Vital-Signs argotaïques.](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)
 
- - Effective (heure de date ou période)
- - Code. Coding. code
- - ValueQuantity. Value
+ - Effectif (date ou période)
+ - Code.Coding.Code
+ - ValueQuantity.Value
 
-Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients peut également lire les champs suivants :
+Outre les champs Argot, pour une grande expérience utilisateur, l’application Patients peut également lire les champs suivants :
 
- - Code. Coding. Display
- - ValueQuantity. Unit
+ - Code.Coding.Display
+ - ValueQuantity.Unit
 
-Une recherche de ressource utilise la méthode GET et les paramètres suivants :
+Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 
- - patient =\<patient id>
- - _sort = date
- - Category (nous interrogerons « Category = vitaux-Sign-signes ») pour récupérer la liste des signes vitaux.
+ - patient=\<patient id>
+ - _sort=date
+ - catégorie (nous interrogerons « category=signes vital ») pour récupérer la liste des signes vital.
 
-Reportez-vous à cet exemple de l’appel :
+Reportez-vous à cet exemple d’appel :
 
 ```
 Request:
@@ -309,25 +309,25 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) d’autres informations sur ce jeu de champs.
 
 ## <a name="condition"></a>Condition
 
-Voici les champs requis au minimum, qui sont un sous-ensemble du [profil de condition Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
+Voici les champs minimaux requis, qui sont un sous-ensemble du profil [de condition argotaïques.](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
 
- - Code. Coding [0]. 3D
+ - Code.Coding[0]. Affichage
 
-Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients peut également lire les champs suivants :
+Outre les champs Argot, pour une grande expérience utilisateur, l’application Patients peut également lire les champs suivants :
 
- - AssertedDate
- - Minimal
+ - AréoedDate
+ - Gravité
 
-Une recherche de ressource utilise la méthode GET et les paramètres suivants :
+Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 
- - patient =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-Pour plus d’informations, reportez-vous à l’exemple suivant :
+Consultez l’exemple suivant de cet appel :
 
 ```
 Request:
@@ -372,51 +372,51 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) d’autres informations sur ce jeu de champs.
 
-## <a name="encounter"></a>Connaître
+## <a name="encounter"></a>Rencontrer
 
-Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble des champs du profil de type [rencontrent des États-Unis](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) .
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble des champs « must have » du profil [US Core Encounter).](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html)
 
  - État
- - Tapez [0]. Code [0]. 3D
+ - Tapez[0]. Codage[0]. Affichage
 
-De plus, les champs suivants provenant du cœur Microsoft pour les États-Unis du profil « doivent prendre en charge » :
+De plus, les champs suivants des champs « doivent prendre en charge » du profil US Core Encounter :
 
- - Période. début
- - Emplacement [0]. Emplacement. Display
+ - Point.Début
+ - Emplacement[0]. Location.Display
 
-Une recherche de ressource utilise la méthode GET et les paramètres suivants :
+Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 
- - patient =\<patient id>
- - _sort : DESC =\<field ex. date>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _sort:desc=\<field ex. date>
+ - _count=\<max results>
 
-L’objectif est de pouvoir récupérer le dernier emplacement connu du patient. Chaque rencontre fait référence à une ressource d’emplacement. La référence inclut également le champ d’affichage de l’emplacement.
+L’objectif est de pouvoir récupérer le dernier emplacement connu du patient. Chaque rencontre fait référence à une ressource d’emplacement. La référence doit également inclure le champ d’affichage de l’emplacement.
 
-[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) d’autres informations sur ce jeu de champs.
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>MondeYIntolerance
 
-Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble du profil [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil [ArgotaïquesIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
 
- - Code. Text
- - Code. Coding [0]. 3D
- - ClinicalStatus/VerificationStatus (nous avons lu les deux)
+ - Code.Text
+ - Code.Coding[0]. Affichage
+ - État clinique/État De vérification (nous lisons les deux)
 
-Outre les champs Argonaut, pour optimiser l’utilisation de l’application patients, l’application patients peut également lire le champ suivant :
+Outre les champs Argot, pour une grande expérience utilisateur, l’application Patients peut également lire le champ suivant :
 
- - AssertedDate
- - Remarque. Text
+ - AréoedDate
+ - Note.Text
  - Réaction
     - Substance (un élément de codage)
-    - Manifeste (un élément de codage)
+    - Environ (un élément de codage)
 
-Une recherche de ressource utilise la méthode GET et les paramètres suivants :
+Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 
  - Patient =  \<patient id>
 
-Pour plus d’informations, reportez-vous à l’exemple suivant : 
+Consultez l’exemple suivant de l’appel : 
 
 ```
 Request:
@@ -468,41 +468,41 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) d’autres informations sur ce jeu de champs.
 
 ## <a name="medication-request"></a>Demande de médication
 
-Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble du [profil de demande de médicament principal pour les États-Unis](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
+Voici les champs minimum requis, qui sont un sous-ensemble du profil de demande de médication de base [pour les États-Unis](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
 
- - Médication. Display (Si référence)
- - Médication. Text (si CodableConcept)
+ - Medication.Display (si référence)
+ - Medication.Text (siConceptable)
  - AuthoredOn
- - Demandeur. agent. Display
+ - Requester.Agent.Display
 
-Outre les champs de base américaine, l’application patients peut également lire les champs suivants pour une utilisation optimale :
+Outre les champs du cœur des États-Unis, pour une expérience utilisateur excellente, l’application Patients peut également lire les champs suivants :
 
- - DosageInstruction[..]. Synthèse
- - Synthèse
+ - [.]. Texte
+ - Texte
 
-Une recherche de ressource utilise la méthode GET et les paramètres suivants :
+Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 
- - patient =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) d’autres informations sur ce jeu de champs.
 
-## <a name="coverage"></a>Articles
+## <a name="coverage"></a>Couverture
 
-Il s’agit des champs requis au minimum, qui ne sont pas couverts par les profils Argonaut ou les profils américains suivants :
+Voici les champs requis au minimum, et non couverts par les profils Us Core ou Argot :
 
- - Regroupement d’au moins un élément avec
+ - Regroupement, au moins un élément avec
     - GroupDisplay
     - PlanDisplay
- - Donnée
+ - Point
  - SubscriberId
 
-Une recherche de ressource utilise la méthode GET et les paramètres suivants :
+Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 
  - Patient = \<patient id>
 
-[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)Pour plus d’informations sur ce jeu de champs, voir.
+Consultez [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) d’autres informations sur ce jeu de champs.

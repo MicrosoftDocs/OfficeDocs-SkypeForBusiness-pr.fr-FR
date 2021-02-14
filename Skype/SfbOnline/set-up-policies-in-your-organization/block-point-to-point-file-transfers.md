@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
+description: Dans Skype Entreprise Online, vous pouvez contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet ou bloque les transferts de fichiers pour les utilisateurs, qu’ils transférent ou non des fichiers à un utilisateur de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
 ms.openlocfilehash: 150fb02daa1dcd7486a5bb495c7fd74f8d4736a1
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -28,28 +28,28 @@ ms.locfileid: "47814633"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
-Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
+Dans Skype Entreprise Online, vous pouvez contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet ou bloque les transferts de fichiers pour les utilisateurs, qu’ils transférent ou non des fichiers à un utilisateur de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
   
- Le scénario le plus courant est que vous souhaitez autoriser les utilisateurs internes à utiliser le transfert de fichiers P2P, mais bloquer le transfert de fichiers avec des partenaires fédérés. Pour ce scénario, vous devez effectuer les opérations suivantes :
+ Un scénario très courant est celui où vous voulez autoriser les utilisateurs internes à utiliser le transfert de fichiers P2P mais bloquer le transfert de fichiers avec des partenaires fédérés. Dans ce scénario, vous devez :
   
-- Assigner une stratégie de conférence avec le transfert de fichiers P2P activée (_EnableP2PFileTransfer_ défini sur _true_) aux utilisateurs de votre organisation.
+- Affectez une stratégie de conférence avec le transfert de fichiers P2P activé _(EnableP2PFileTransfer_ définie sur _True)_ aux utilisateurs de votre organisation.
     
-- Créer une stratégie de communication utilisateur externe globale définie pour bloquer les transferts de fichiers P2P externes (_EnableP2PFileTransfer_ défini sur _false_) et l’affecter à un utilisateur de votre organisation. 
+- Créez une stratégie de communication utilisateur externe globale définie pour bloquer les transferts de fichiers P2P externes _(EnableP2PFileTransfer_ définie sur _False)_ et l’affecter à un utilisateur de votre organisation. 
     
-Vous pouvez en savoir plus sur [ces paramètres.](https://technet.microsoft.com/library/mt228132.aspx)
+Pour en savoir plus sur ces paramètres, [cliquez ici.](https://technet.microsoft.com/library/mt228132.aspx)
   
-Si un utilisateur fédéré extérieur à votre organisation tente d’envoyer un fichier à un utilisateur dans lequel la stratégie a été appliquée, il reçoit une erreur de **transfert** . Si un utilisateur tente d’envoyer un fichier, il recevra une erreur de **transfert de fichier** .
+Si un utilisateur fédéré en dehors de votre organisation tente d’envoyer un fichier à un utilisateur pour lequel la stratégie a été appliquée, il reçoit un message d’erreur « Échec **du** transfert ». Et si un utilisateur tente d’envoyer un fichier, il reçoit une erreur de transfert de fichier **désactivée.**
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une application Skype entreprise « démarrer en un clic » de 2016. La version minimum suivante du client « démarrer en un clic » Skype entreprise 2016 est requise :
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une application Skype Entreprise « Exécuter en un clic » 2016 qui la prend en charge. La version minimale suivante du client Skype Entreprise 2016 « Click-to-Run ) est requise :
   
-|**Type**|**Date de publication**|**Version**|**Appui**|
+|**Type**|**Date de publication**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|First Release pour canal actuel  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571,2006)  <br/> |
-|Canal actuel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571,2072)  <br/> |
-|Canal différé  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369,2118)  <br/> |
+|First Release pour Canal actuel  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (build 7571.2006)  <br/> |
+|Canal actuel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (build 7571.2072)  <br/> |
+|Canal différé  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (build 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Les utilisateurs qui utilisent des versions plus anciennes de Skype entreprise Windows ou les clients Mac pourront toujours transférer des fichiers. 
+> Les utilisateurs qui utilisent des versions antérieures des applications Windows skype Entreprise ou des clients Mac pourront toujours transférer des fichiers. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
@@ -57,24 +57,24 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une
     
     1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
         
-    2. Vérifiez la version en entrant _Get-Host_ dans la fenêtre **Windows PowerShell** .
+    2. Vérifiez la version en tapant _Get-Host_ dans la **Windows PowerShell’accueil.**
         
-    3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
+    3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Voir [Windows Management Framework 4.0 pour](https://go.microsoft.com/fwlink/?LinkId=716845) télécharger et mettre à jour Windows PowerShell vers la version 4.0. Redémarrez votre ordinateur lorsque vous y êtes invité.
         
-    4. Vous devrez également installer le module Windows PowerShell pour les équipes qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise online. 
+    4. Vous devrez également installer le module Windows PowerShell teams qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. 
     
-    Pour en savoir plus, voir [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Pour en savoir plus, consultez Se connecter à tous les [services Microsoft 365 ou Office 365](https://technet.microsoft.com/library/dn568015.aspx)dans une Windows PowerShell unique.
     
 - **Démarrez une session Windows PowerShell**
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. Dans la fenêtre **Windows PowerShell** , connectez-vous à Microsoft 365 ou Office 365 en exécutant :
+    2. Dans la **Windows PowerShell,** connectez-vous à votre Microsoft 365 ou Office 365 en exécutant :
     
         > [!NOTE]
-        > Le connecteur Skype entreprise Online fait actuellement partie du dernier module PowerShell Teams.
+        > Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
         >
-        > Si vous utilisez la dernière [version publique de teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), vous n’avez pas besoin d’installer le connecteur Skype entreprise online.
+        > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
        ```PowerShell      
         Import-Module -Name MicrosoftTeams
@@ -83,21 +83,21 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une
         Import-PSSession $session
        ```
 
-   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Microsoft 365 ou Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Pour plus d’informations sur le démarrage d’Windows PowerShell, voir Se connecter à tous les [services Microsoft 365 ou Office 365](https://technet.microsoft.com/library/dn568015.aspx) dans une seule fenêtre Windows PowerShell ou Configurer votre ordinateur pour une [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Désactiver les transferts de fichiers P2P pour votre organisation
 
-Par défaut, _EnableP2PFileTransfer_ est activé sur la politique globale de l’organisation. Lors de la création de ce dernier, vos utilisateurs ont reçu la stratégie _BposSAllModality_ .
+Par défaut, _EnableP2PFileTransfer_ est activé sur la stratégie globale de l’organisation. Lors de sa création, la stratégie _BposSAllModality_ a été affectée à vos utilisateurs.
   
-Pour autoriser les transferts P2P au sein de votre organisation, mais bloquer les transferts de fichiers externes vers une autre organisation, il vous suffit de le modifier à un niveau global. Pour cela, exécutez :
+Pour autoriser les transferts de fichiers P2P au sein de votre organisation, mais bloquer les transferts de fichiers externes vers une autre organisation, vous devez simplement le modifier au niveau global. Pour ce faire, exécutez :
     
   ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
-## <a name="disable-p2p-file-transfers-for-a-user"></a>Désactiver le transfert de fichiers P2P pour un utilisateur
+## <a name="disable-p2p-file-transfers-for-a-user"></a>Désactiver les transferts de fichiers P2P pour un utilisateur
 
-Vous pouvez l’appliquer à un utilisateur en créant une nouvelle stratégie et en l’accordant à cet utilisateur. Pour cela, exécutez : 
+Vous pouvez l’appliquer à un utilisateur en créant une stratégie et en l’octroyant à cet utilisateur. Pour ce faire, exécutez : 
 
 ```powershell
 New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -109,13 +109,13 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 et Skype entreprise Online à l’aide d’un point d’administration unique qui peut vous simplifier le travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 et Skype Entreprise Online depuis un seul point d’administration, ce qui simplifie votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Raisons pour lesquelles vous avez besoin d’utiliser Microsoft 365 ou Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -123,12 +123,12 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
-[Configuration des stratégies de conférence au sein de votre organisation](set-up-conferencing-policies-for-your-organization.md)
+[Configurer des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

@@ -1,5 +1,5 @@
 ---
-title: Découvrir comment configurer les appareils photo de contenu-Microsoft teams
+title: Découvrir comment configurer des caméras de contenu - Microsoft Teams
 ms.author: serdars
 author: serdarsoysal
 ms.reviewer: sohailta
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
-description: Utilisez une caméra de contenu dans une salle de Microsoft Teams, qui interagit avec un logiciel de traitement d’image pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
+description: Utilisez une caméra de contenu dans une salle Microsoft Teams, qui interagit avec un logiciel de traitement des images pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
 ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
 ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
@@ -24,82 +24,82 @@ ms.locfileid: "48508311"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
-Vous pouvez désormais utiliser une caméra de contenu avec un système de salle Microsoft Teams. Une caméra de contenu interagit avec un logiciel spécial de traitement des images et un tableau blanc pour permettre au présentateur de dessiner sur un tableau blanc analogique et de partager le contenu avec des participants distants.
+Vous pouvez désormais utiliser une caméra de contenu avec un système de salle Microsoft Teams. Une caméra de contenu interagit avec un logiciel spécial de traitement des images et un tableau blanc pour permettre à un présentateur de dessiner sur un tableau blanc analogique et de partager le contenu avec des participants distants.
 
-Pour obtenir des exemples de fonctionnalités de caméra de contenu, consultez la vidéo suivante.
+Consultez la vidéo suivante pour obtenir des exemples de fonctionnalités de caméra de contenu.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
 
 ## <a name="set-up-a-content-camera"></a>Configurer une caméra de contenu
 
 > [!NOTE]
-> Restez toujours dans le code de bâtiment de votre pays ou de votre région, qui peut définir une distance minimum entre le plancher ou une prescription pour la sécurisation de l’équipement monté au plafond pour le rafting ou l’autre structure. Suivez les instructions de montage du matériel fourni avec l’appareil photo que vous avez sélectionné. Les kits de montage d’appareil photo OEM incluent une caméra, des extensions USB 2,0 et des câbles nécessaires.
+> Vous pouvez toujours respecter le code de bâtiment de votre pays ou région, qui peut définir une distance minimale par rapport au plancher ou une obligation de sécuriser l’équipement par plafond à un bâtiment ou à une autre structure. Suivez les instructions de montage pour le matériel fourni avec l’appareil photo que vous avez sélectionné. Les kits de montage de caméra OEM incluent un appareil photo, des extensions USB 2.0 et un cabling requis.
 
-La taille du tableau blanc utilisé pour le partage affecte la position de la caméra. Les recommandations en matière de taille de tableau sont les suivantes :
+La taille du tableau blanc utilisé pour le partage affecte la position de l’appareil photo. Les recommandations en matière de taille de tableau sont les suivantes :
 
-- 3 à 6 pieds (0,9-1,8 m)
-- 6 à 9 m (1,8-2,7 m) large, recommandé
-- entre 9 et 12 m (2,7-3,6 m), prise en charge
-- Au-dessus d’une largeur de 12 mètres (3,6), la caméra couvre entre 9 et 12 mètres.
+- 3 à 6 pieds (0,9-1,8 m) de large — Pris en charge
+- 6-9 p. (1,8-2,7 m) de largeur — Recommandé
+- Largeur : 9 à 12 pieds (2,7 à 3,6 m) — Pris en charge
+- Au-dessus de 12 pieds (3,6 m) de large : l’appareil photo couvre 9 à 12 pieds (2,7 à 3,6 m) et fait le reste.
 
-## <a name="camera-location"></a>Emplacement de la caméra
+## <a name="camera-location"></a>Emplacement de l’appareil photo
 
-L’emplacement idéal d’une caméra de contenu est centré verticalement et horizontalement sur le tableau blanc. Les codes de bâtiment locaux peuvent présenter des restrictions de hauteur qui nécessitent une élévation de la caméra supérieure à la partie supérieure du tableau blanc.
+Le placement idéal d’une caméra de contenu est centré verticalement et horizontalement sur le tableau blanc. Les codes de bâtiment locaux peuvent avoir des restrictions de hauteur qui nécessitent que l’appareil photo soit élevé au-dessus du haut du tableau blanc.
 
-Vous pouvez installer la caméra jusqu’à 6. (152 mm) plus haut que le haut du tableau blanc et centré sur le tableau blanc, comme illustré ci-dessous. Assurez-vous que l’image de l’appareil photo comporte au moins 6. (152 mm) bordure sur les deux côtés horizontalement. Vous pouvez utiliser l’aperçu de l’appareil photo dans l’application Microsoft teams pour déterminer l’emplacement final de la caméra.
+Vous pouvez installer l’appareil photo jusqu’à 6 dans. (152 mm) au-dessus du tableau blanc et centré sur le tableau blanc, comme illustré. Assurez-vous que l’image de l’appareil photo en contient au moins 6. (152 mm) bordure horizontale des deux côtés. Vous pouvez utiliser l’aperçu de la caméra dans l’application Salles Microsoft Teams pour déterminer le placement final de l’appareil photo.
 
-![Diagramme de placement d’une caméra de contenu](../media/Magic-whiteboard.png)
+![Diagramme de placement de la caméra de contenu](../media/Magic-whiteboard.png)
 
-### <a name="camera-distances"></a>Distances de caméra
+### <a name="camera-distances"></a>Distances de l’appareil photo
 
-À l’aide de marqueurs de tableau blanc standard, l’utilisation optimale de votre télécommande consiste à partager les traits d’encre dans la plage 1 à 2 mm par pixel dans l’image de l’appareil photo de contenu, et les meilleurs résultats utilisent 1,5 mm par pixel. Toutes les caméras prises en charge garantissent une résolution 1920 x 1080 et certaines peuvent dépasser cette résolution.
+À l’aide de marqueurs de tableau blanc classiques, l’expérience utilisateur à distance optimale consiste à partager des traits d’encre dans la plage de 1 à 2 mm par pixel dans l’image de la caméra de contenu, et les meilleurs résultats utilisent 1,5 mm par pixel. Toutes les caméras prise en charge offrent une résolution 1920 x 1080, et certaines peuvent dépasser cette résolution.
 
-La distance entre l’appareil photo et le tableau blanc est associée à la résolution de l’appareil photo et HFoV pour déterminer la distance du tableau blanc. Le tableau suivant montre des exemples de distances pour différentes tailles de tableaux blancs. Vous pouvez utiliser ces valeurs comme points de départ pour déterminer le positionnement final de l’appareil photo de contenu.
+La distance de l’appareil photo par rapport au tableau blanc se combine avec la résolution de l’appareil photo et le HFoV pour déterminer la distance par rapport au tableau blanc. Le tableau suivant présente des exemples de distances pour différentes tailles de tableau blanc. Vous pouvez utiliser ces valeurs comme points de départ pour déterminer la position finale de la caméra de contenu.
 
-**Distance de l’appareil photo sur le tableau blanc**
+**Distance de l’appareil photo du tableau blanc**
 
-| Caméra HFoV |3 ft (0,91 m)     | 1,80 m (1,8 m)    | 9 ft (2,74 m)        |12:00.  (3,65 m)         | Distance maximum sur le tableau blanc  |
+| Caméra HFoV |3 p. (0,91 m)     | 6 p. (1,8 m)    | 9 p. (2,74 m)        |12 pieds.  (3,65 m)         | Distance maximale du Tableau blanc  |
 |:---         |:---               |:---                |:---                 |:---             | :--- |
-| 80 °         | 1,79 m 0,54. | 3,58 m 1,09.  | 5,36 m 1,6.    |7,15 m 2,17. |7,51 m 2,28. |
-| 90 °         | 1,5 m 0,45. | 3,00 m 0,91.   | 4,5 m 1,37.    |6,0 m 1,82.    |6,3 m 1,92. |
-| 100 °        | 1,26 m 0,38.| 2,52 m 0,77.   | 3,78 m 1,15.   |5,03 m 1,53.   |5,29 m 1,61. |
-| 110 °        | 1,05 m 0,32.| 2,10 m 0,64.   | 3,15 m 0,96.   |4,2 m 1,28.    |4,41 m 1,31. |
-| 120 °        | 0,87 m 0,26.| 1,73 m 0,52.   | 2,60 m 0,79.   |3,46 m 1,05.   |3,64 m 1,10. |
+| 80°         | 1,79 p. (0,54 m) | 3,58 p. (1,09 m)  | 5,36 p. (1,6 m)    |7,15 p. (2,17 m) |7,51 p. (2,28 m) |
+| 90°         | 1,5 pied (0,45 m) | 3,00 M. (0,91 m)   | 4,5 p. (1,37 m)    |6,0 p. (1,82 m)    |6,3 pieds (1,92 m) |
+| 100°        | 1,26 p. (0,38 m)| 2,52 p. (0,77 m)   | 3,78 p. (1,15 m)   |5,03 p. (1,53 m)   |5,29 p. (1,61 m) |
+| 110°        | 1,05 p. (0,32 m)| 2,10 m. (0,64 m)   | 3,15 p. (0,96 m)   |4,2 p. (1,28 m)    |4,41 p. (1,31 m) |
+| 120°        | 0,87 p. (0,26 m)| 1,73 p. (0,52 m)   | 2,60 m. (0,79 m)   |3,46 pieds (1,05 m)   |3,64 p. (1,10 m) |
 |             |               |                  |                  |        |                    |                  |
 
-La distance entre l’appareil photo de contenu et le mur sur lequel est monté le tableau blanc dépend du HFoV de ce modèle de caméra, qui varie. Vous pouvez rapprocher les webcams avec un HFoV plus grand (120, par exemple) plus près du mur et utiliser un HFoV plus étroit pour l’éloigner du mur. Vérifiez le HFoV avant de commencer l’installation de l’appareil photo sélectionné.
+La distance entre la caméra de contenu et le mur sur lequel le tableau blanc est installé dépend du HFoV pour ce modèle de caméra, qui varie. Installez les caméras avec un HFoV plus grand (120 degrés par exemple) plus proche du mur, et les caméras dont le HFoV est plus étroit et plus éloigné du mur. Vérifiez le HFoV avant de commencer à installer l’appareil photo choisi.
 
-Si vous disposez de tableaux blancs dont la taille est supérieure à 12 mètres (3,65 m) ou qu’il n’y a pas de coin (par exemple, tableaux blancs de type mur plein), vous pouvez placer la caméra n’importe où dans le milieu. Le logiciel d’amélioration sélectionne une zone du milieu s’il ne parvient pas à trouver des angles de tableau blanc.
+Si vous avez des tableaux blancs d’une taille supérieure à 12 pieds (3,65 m) ou sans coins (comme les tableaux blancs muraux complets), vous pouvez placer l’appareil photo n’importe où au milieu. Le logiciel d’amélioration sélectionne une zone au milieu s’il ne parvient pas à trouver les coins du tableau blanc.
 
 > [!NOTE]
-> Vous pouvez utiliser une bande de couleur foncée ou d’autres éléments pour créer une zone de caméra de contenu définie sur un tableau blanc mural.
+> Vous pouvez utiliser une bande de couleur foncée ou d’autres éléments pour créer une zone de caméra de contenu définie sur un tableau blanc entièrement muré.
 >
-> Vous pouvez choisir de monter la caméra sur un trépied amovible au lieu d’un montage permanent. Placez le trépied centré sur le tableau blanc. Ce paramétrage peut être temporaire ou utilisé pour lequel il n’y a pas de risque de cogner l’équipement. Si vous utilisez un montage temporaire, n’oubliez pas que l’amélioration du contenu sera affectée si vous déplacez l’appareil photo après le partage initial et que vous devez le repartager pour corriger le mouvement.
+> Vous pouvez choisir que l’appareil photo soit installé sur unpode moveable au lieu d’un montage permanent. Placez lepode centré sur le tableau blanc. Cette installation peut être temporaire ou utilisée lorsqu’il y a peu de risque de couplage sur l’équipement. Si vous utilisez un montage temporaire, n’oubliez pas que l’amélioration du contenu sera impactée si vous déplacez la caméra après le partage initial et que vous devrez partager à nouveau pour corriger le mouvement.
 >
-> Un tableau de rédaction qui n’est pas blanche n’est pas pris en charge.
+> Les tableaux d’écriture non blancs ne sont pas pris en charge.
 
-## <a name="supported-cameras"></a>Caméras prises en charge
+## <a name="supported-cameras"></a>Appareils photo pris en charge
 
-Pour déterminer si vous pouvez utiliser un appareil photo comme caméra de contenu, reportez-vous à la rubrique [versions de microprogramme certifiées pour les périphériques audio et vidéo USB](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+Pour déterminer si vous pouvez utiliser une caméra comme caméra de contenu, reportez-vous aux versions de microprogramme certifiés pour les [périphériques audio et vidéo USB.](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)
 
-Pour plus d’informations, consultez la rubrique Marketplace Microsoft teams Marketplace pour les kits de caméras de contenu pris en charge sur [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+Ou, consultez le marketplace des appareils Microsoft Teams pour obtenir des kits de caméra de contenu pris en charge [aka.ms/teamsdevices.](https://aka.ms/teamsdevices)
 
-## <a name="camera-settings"></a>Paramètres de l’appareil photo
+## <a name="camera-settings"></a>Paramètres de la caméra
 
-Une fois la caméra installée dans la salle, configurez-la sur la console Microsoft teams salles de cette salle :
+Une fois la caméra installée dans la salle, installez-la sur la console Salles Microsoft Teams de cette salle :
 
-1. Sélectionnez **Settings** ![ l’icône paramètres ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) des paramètres, connectez-vous en tant qu’administrateur, puis sélectionnez Paramètres de l' **appareil**.
-2. Dans la section **valeurs par défaut de l’appareil photo** , sélectionnez l’appareil photo de contenu et assurez-vous que l’option **améliorations du contenu** est sélectionnée.
-3. Facultatif Si la caméra a été installée à l’envers, car la caméra a été montée à partir du plafond, activez l’option **faire pivoter l’appareil photo 180 °** .
-4. Sélectionnez **enregistrer et quitter**.
+1. Sélectionnez **l’icône** ![ ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) Paramètres, connectez-vous en tant qu’administrateur, puis **sélectionnez Paramètres de l’appareil.**
+2. Dans la section **Caméra par défaut,** sélectionnez la caméra de contenu et assurez-vous que l’option Améliorations **du** contenu est sélectionnée.
+3. (Facultatif) Si l’appareil photo a été installé à l’envers parce qu’il était installé à partir du plafond, vérifiez l’option Faire pivoter la caméra de contenu **à 180°.**
+4. Sélectionnez **Enregistrer et quitter.**
 
 ![Configuration de la caméra de contenu](../media/content-camera.png)
 
-Vous pouvez également ajuster ces paramètres à distance à l’aide d’un [fichier de configuration XML](xml-config-file.md).
+Vous pouvez également ajuster ces paramètres à distance à l’aide [d’un fichier de configuration XML.](xml-config-file.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md)
+[Gérer les paramètres d’une console salles Microsoft Teams à distance avec un fichier de configuration XML](xml-config-file.md)
 
 [Spécifications des salles Microsoft Teams](requirements.md)
 

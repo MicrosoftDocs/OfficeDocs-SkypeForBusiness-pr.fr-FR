@@ -1,5 +1,5 @@
 ---
-title: Qu’est-ce que le système téléphonique ?
+title: Qu’est-ce que phone system ?
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Dans cet article, vous allez découvrir la technologie du système téléphonique dans Microsoft 365 et Office 365.
+description: Dans cet article, vous allez découvrir la technologie Phone System dans Microsoft 365 et Office 365.
 ms.openlocfilehash: 128ac9a81419c8a071049c8754bc0a920222096e
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -29,48 +29,48 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031590"
 ---
-# <a name="what-is-phone-system"></a>Qu’est-ce que le système téléphonique ?
+# <a name="what-is-phone-system"></a>Qu’est-ce que phone system ?
 
-Un système PBX (Private Branch Exchange) est un système téléphonique au sein d’une entreprise. Le système téléphonique vous permet d’accéder à des fonctionnalités PBX, mais sans l’équipement compliqué et difficile. 
+Un PBX (Private Branch Exchange) est un système téléphonique au sein d’une entreprise. Phone System vous offre des fonctionnalités PBX, mais sans équipement complexe et coûteux. 
 
-Le système téléphonique vous permet de remplacer votre système PBX local existant par un ensemble de fonctionnalités fournies par Microsoft 365 ou Office 365 qui est étroitement intégré à votre environnement Cloud. Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous obtenez avec le système téléphonique](here-s-what-you-get-with-phone-system.md).
+Phone System vous permet de remplacer votre système PBX local par un ensemble de fonctionnalités de Microsoft 365 ou Office 365 étroitement intégrées à votre expérience cloud. Pour plus d’informations sur les fonctionnalités, consultez les fonctionnalités disponibles [avec Phone System.](here-s-what-you-get-with-phone-system.md)
 
-## <a name="phone-system-technology"></a>Technologie du système téléphonique
+## <a name="phone-system-technology"></a>Technologie Phone System
 
-Le système téléphonique active le contrôle d’appel et les fonctionnalités PBX dans le Cloud avec Microsoft teams et Skype entreprise online. 
+Phone System permet le contrôle d’appel et les fonctionnalités PBX dans le cloud avec Microsoft Teams et Skype Entreprise Online. 
   
-Grâce au système téléphonique, les utilisateurs peuvent utiliser teams ou Skype entreprise Online pour passer et recevoir des appels, transférer des appels, activer ou désactiver les appels. Utilisateurs du système téléphonique vous pouvez cliquer sur un nom dans le carnet d’adresses, puis placer les équipes ou les appels Skype entreprise Online de cette personne. Pour passer et recevoir des appels, les utilisateurs du système téléphonique peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP compatibles avec teams et Skype entreprise online. Les administrateurs de système téléphonique peuvent gérer les options d’appel et les paramètres à partir de la même console utilisée pour la messagerie, la collaboration, etc.
+Avec le système téléphonique, les utilisateurs peuvent utiliser Teams ou Skype Entreprise Online pour placer et recevoir des appels, transférer des appels et activer ou désactiver le son. Les utilisateurs du système téléphonique peuvent cliquer sur un nom dans leur carnet d’adresses et appeler Teams ou Skype Entreprise Online à cette personne. Pour placer et recevoir des appels, les utilisateurs de Phone System peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP qui fonctionnent avec Teams et Skype Entreprise Online. Les administrateurs système téléphonique peuvent gérer les options et paramètres d’appel à partir de la même console que la messagerie, la collaboration, etc.
   
-Les appels entre les utilisateurs de votre organisation sont gérés en interne au sein du système téléphonique et ne sont jamais dirigés vers le réseau téléphonique public commuté (RTC). Cela concerne les appels entre les utilisateurs de votre organisation qui se trouvent dans des zones géographiques différentes, en supprimant les coûts de grande distance de ces appels internes.
+Les appels entre utilisateurs de votre organisation sont gérés en interne au sein de Phone System et ne sont jamais passés au réseau téléphonique public commuté (PSTN). Cela s’applique aux appels entre utilisateurs de votre organisation situés dans différentes zones géographiques, en supprimant les coûts longue distance sur ces appels internes.
 
-Pour les appels hors de votre organisation, Microsoft fournit plusieurs options pour connecter le système téléphonique au réseau téléphonique public commuté (RTC).
+Pour les appels en dehors de votre organisation, Microsoft fournit plusieurs options de connexion du système téléphonique au réseau téléphonique commuté (PSTN).
 
-## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Se connecter au réseau téléphonique public commuté (RTC)
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Se connecter au réseau téléphonique commuté (PSTN)
   
-Le système téléphonique peut être connecté au RTC de l’une des deux manières suivantes :
+Le système téléphonique peut être connecté au réseau PSTN de deux façons :
   
-- Achetez un forfait d’appels Microsoft (national ou national et international). Le forfait d’appel Microsoft est une solution tout-en-un-Cloud avec Microsoft comme opérateur PSTN. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md).
+- Achetez un forfait d’appels Microsoft (national ou national et international). Microsoft Calling Plan est une solution complète dans le cloud avec Microsoft comme opérateur PSTN. Pour plus d’informations, [voir Système téléphonique et forfaits d’appels.](calling-plan-landing-page.md)
 
-- Utilisez votre infrastructure de téléphonie existante pour une connectivité PSTN locale.
+- Utilisez votre infrastructure téléphonique existante pour la connectivité PSTN locale.
 
-  Pour les utilisateurs de Microsoft Teams, vous pouvez connecter votre infrastructure de téléphonie locale au système téléphonique en utilisant le routage direct. Pour plus d’informations, voir [routage direct du système téléphonique](direct-routing-landing-page.md).
+  Pour les utilisateurs de Teams, vous pouvez connecter votre infrastructure téléphonique locale à Phone System à l’aide du routage direct. Pour plus d’informations, [voir Routage direct du système téléphonique.](direct-routing-landing-page.md)
 
-  Pour plus d’informations sur toutes les solutions de téléphonie Microsoft, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+  Pour plus d’informations sur toutes les solutions de téléphonie Microsoft, voir [les solutions de téléphonie Microsoft.](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 
 ## <a name="phone-system-with-services"></a>Système téléphonique avec services
 
- Le système téléphonique peut être utilisé pour les services et la messagerie vocale, par exemple :
+ Phone System peut être utilisé pour les services et la messagerie vocale, par exemple :
 
-- **Standards automatiques** : les standards automatiques peuvent être utilisés pour créer un système de menus pour votre organisation, qui permet aux appelants externes et internes de se déplacer dans le système pour localiser et transférer des appels vers des utilisateurs ou services de l’entreprise au sein de votre organisation. Voir [qu’est-ce que les standards automatiques Cloud ?](what-are-phone-system-auto-attendants.md)
+- Les serveurs automatiques - Les serveurs automatiques peuvent être utilisés pour créer un système de menus pour votre organisation qui permet aux **appelants** externes et internes de le faire pour localiser et passer ou transférer des appels à des utilisateurs de l’entreprise ou à des services de votre organisation. Découvrez [ce que sont les attendants automatiques cloud.](what-are-phone-system-auto-attendants.md)
 
-- **Files d’attente** d’appels : les messages d’accueil de la file d’attente peuvent être utilisés lorsque quelqu’un appelle un numéro de téléphone pour votre organisation. Ces messages d’accueil incluent la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui appellent écoutent de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation. Voir [créer une file d’attente des appels Cloud](create-a-phone-system-call-queue.md).
+- **Files d’attente d’appels** : les salutations des files d’attente d’appels peuvent être utilisées lorsque quelqu’un appelle un numéro de téléphone pour votre organisation. Ces salutations incluent la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher l’agent d’appel disponible pour gérer l’appel pendant que l’appelant écoute la musique en attente. Vous pouvez créer une ou plusieurs files d’attente pour votre organisation. Voir [Créer une file d’attente d’appels cloud.](create-a-phone-system-call-queue.md)
 
-- Boîte **vocale** : lorsque vous disposez d’une licence de système téléphonique pour un utilisateur, celui-ci est en mesure d’obtenir la boîte vocale laissée par les appelants. Le message vocal Cloud est configuré automatiquement et approvisionné pour les utilisateurs lorsque vous attribuez une licence de système téléphonique et un numéro de téléphone. Voir [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
+- **Messagerie vocale** : lorsque vous obtenez une licence De système téléphonique pour un utilisateur, cet utilisateur peut obtenir des messages vocaux laissés par les appelants. La messagerie vocale cloud est automatiquement définie et mise en service pour les utilisateurs une fois que vous leur avez attribué une licence phone system et un numéro de téléphone. Voir [Configurer la messagerie vocale cloud.](set-up-phone-system-voicemail.md)
 
-Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous obtenez avec le système téléphonique](here-s-what-you-get-with-phone-system.md). Si vous êtes prêt à commencer, reportez-vous à [la rubrique Configuration de système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
+Pour plus d’informations sur les fonctionnalités, consultez les fonctionnalités disponibles [avec Phone System.](here-s-what-you-get-with-phone-system.md) Si vous êtes prêt à commencer, consultez Configurer le système [téléphonique de votre organisation.](setting-up-your-phone-system.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Fonctionnalités du système téléphonique](here-s-what-you-get-with-phone-system.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

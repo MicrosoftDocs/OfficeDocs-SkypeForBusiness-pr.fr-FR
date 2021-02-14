@@ -1,5 +1,5 @@
 ---
-title: Conformité de la communication avec Microsoft teams
+title: Conformité de la communication avec Microsoft Teams
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: En savoir plus sur la conformité des communications, qui fait partie de la solution de risque Insider de Microsoft Teams (incluse dans la fonctionnalité de conformité des communications M365).
+description: Apprenez-en davantage sur la conformité des communications, qui fait partie du jeu de solutions de risque Insider, du point de vue de Microsoft Teams (cela fait partie de la fonctionnalité de conformité des communications M365).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,47 +23,47 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/01/2020
 ms.locfileid: "48328253"
 ---
-# <a name="communication-compliance-with-microsoft-teams"></a>Conformité de la communication avec Microsoft teams
+# <a name="communication-compliance-with-microsoft-teams"></a>Conformité de la communication avec Microsoft Teams
 
-Le respect de la communication est une solution de risque Insider dans Microsoft 365 qui permet de réduire les risques de communication en vous aidant à détecter, capturer et agir sur des messages inappropriés au sein de votre organisation.
+La conformité des communications est une solution insider à risque dans Microsoft 365 qui permet de minimiser les risques de communication en vous aidant à détecter, capturer et agir sur les messages inappropriés dans votre organisation.
 
-Dans Microsoft Teams, la conformité de la communication permet d’identifier les types de contenus inappropriés [suivants](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) dans les canaux d’équipe ou dans 1:1 et les discussions de groupe :
+Pour Microsoft Teams, la conformité de la communication permet d’identifier les [types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) de contenus inappropriés suivants dans les canaux Teams ou dans les conversations en tête-à-tête et en groupe :
 
-- Langage injurieux, profanes et harceler
-- Images adultes, racy et Gory
+- Langage choquant, choquant et choquant
+- Images pour adultes, racy et gory
 - Partage d’informations sensibles
 
-Pour plus d’informations sur la conformité de la communication et la configuration des stratégies pour votre organisation, voir [conformité de la communication dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
+Pour plus d’informations sur la conformité des communications et la configuration des stratégies pour votre organisation, voir Conformité des [communications dans Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
 
-## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Utilisation de la conformité de la communication dans Microsoft teams
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Comment utiliser la conformité des communications dans Microsoft Teams
 
-Le respect des communications et Microsoft teams sont étroitement intégrés et permettent de limiter les risques de communication au sein de votre organisation. Après avoir configuré votre première stratégie de conformité des communications, vous pouvez gérer activement les messages et le contenu de Microsoft teams inappropriés, qui est automatiquement signalé dans alertes.
+La conformité des communications et Microsoft Teams sont étroitement intégrés et peuvent contribuer à minimiser les risques de communication dans votre organisation. Après avoir configuré vos premières stratégies de conformité aux communications, vous pouvez gérer activement les messages et le contenu inappropriés de Microsoft Teams marqués automatiquement dans les alertes.
 
 ### <a name="getting-started"></a>Prise en main
 
-La mise en route de la conformité de la communication dans Microsoft teams commence par la [planification](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) et la création de stratégies prédéfinies ou personnalisées permettant d’identifier les activités utilisateur inappropriées dans les canaux d’équipe ou dans 1:1 et groupes. Gardez à l’esprit que vous devrez [configurer](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) des autorisations et des conditions préalables de base dans le cadre du processus de configuration.
+La mise en place de la [](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) conformité des communications dans Microsoft Teams commence par la planification et la création de stratégies prédéfinës ou personnalisées permettant d’identifier les activités d’utilisateur inappropriées dans les canaux Teams ou en tête-à-tête et en groupes. N’oubliez pas que [](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) vous devez configurer certaines autorisations et conditions préalables de base dans le cadre du processus de configuration.
 
-Les administrateurs d’équipes peuvent configurer les stratégies de conformité des communications aux niveaux suivants :
+Les administrateurs Teams peuvent configurer les stratégies de conformité aux communications aux niveaux suivants :
 
-- **Niveau utilisateur**: les stratégies à ce niveau s’appliquent à un utilisateur de teams individuel ou peuvent être appliquées à tous les utilisateurs d’équipes au sein de votre organisation. Ces stratégies couvrent les messages que les utilisateurs peuvent envoyer dans 1:1 ou les discussions de groupe. Les communications de conversation pour les utilisateurs sont automatiquement surveillées sur toutes les équipes Microsoft teams dont les utilisateurs sont membres.
-- **Niveau équipes**: les stratégies à ce niveau s’appliquent à un canal d’équipe Microsoft. Ces stratégies couvrent uniquement les messages envoyés uniquement dans le canal Teams.
+- **Niveau utilisateur**: les stratégies de ce niveau s’appliquent à un utilisateur individuel de Teams ou peuvent être appliquées à tous les utilisateurs de Teams dans votre organisation. Ces stratégies couvrent les messages que ces utilisateurs peuvent envoyer dans des conversations à deux ou de groupe. Les communications de conversation pour les utilisateurs sont automatiquement contrôlées dans toutes les équipes Microsoft Teams dont ils sont membres.
+- **Niveau Teams :** les stratégies de ce niveau s’appliquent à un canal Microsoft Team. Ces stratégies couvrent les messages envoyés dans le canal Teams uniquement.
 
-### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir sur des messages indésirables dans Microsoft teams
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir sur les messages inappropriés dans Microsoft Teams
 
-Une fois que vous avez configuré vos stratégies et que vous avez reçu des alertes de conformité de communication pour les messages de Microsoft Teams, il est temps que les réviseurs de conformité de votre organisation effectuent des actions sur ces messages. Les réviseurs peuvent contribuer à la protection de votre organisation en passant en revue les alertes de conformité des communications et en supprimant les messages avec indicateur dans Microsoft Teams.
+Après avoir configuré vos stratégies et reçu des alertes de conformité aux communications pour les messages Microsoft Teams, les réviseurs de conformité de votre organisation doivent agir sur ces messages. Les réviseurs peuvent vous aider à protéger votre organisation en consultant les alertes de conformité aux communications et en supprimant les messages marqués d’un drapeau dans Microsoft Teams.
 
-![Supprimer un message dans teams](./media/communication-compliance-remove-teams-message.png)
+![Supprimer un message dans Teams](./media/communication-compliance-remove-teams-message.png)
 
-Les messages et le contenu supprimés ont été remplacés par les notifications de visionneuses qui décrivent que le message ou le contenu a été supprimé et la stratégie applicable à la suppression. L’expéditeur du message ou du contenu supprimé est également averti de l’état de suppression et est fourni avec le contenu du message d’origine pour le contexte relatif à sa suppression. L’expéditeur peut également afficher la condition de stratégie spécifique qui s’applique à la suppression du message.
+Les messages et le contenu supprimés sont remplacés par des notifications pour les utilisateurs qui leur expliquent que le message ou le contenu ont été supprimés et quelle stratégie s’applique à la suppression. L’expéditeur du message ou du contenu supprimé est également informé de l’état de suppression et fournit le contenu du message d’origine pour le contexte relatif à sa suppression. L’expéditeur peut également afficher la condition de stratégie spécifique qui s’applique à la suppression du message.
 
-Exemple de Conseil de stratégie présenté par l’expéditeur :
+Exemple de conseil de stratégie vu par l’expéditeur :
 
 ![Conseil de stratégie pour l’expéditeur](./media/communication-compliance-warning-1.png)
 
-Exemple de notification de condition de stratégie affichée par l’expéditeur :
+Exemple de notification de condition de stratégie vu par l’expéditeur :
 
-![Informations de conditions de stratégie pour l’expéditeur](./media/communication-compliance-warning-2.png)
+![Informations sur les conditions de stratégie de l’expéditeur](./media/communication-compliance-warning-2.png)
 
-Exemple de Conseil de stratégie présenté par le destinataire :
+Exemple de conseil de stratégie vu par le destinataire :
 
 ![Conseil de stratégie pour le destinataire](./media/communication-compliance-warning-3.png)

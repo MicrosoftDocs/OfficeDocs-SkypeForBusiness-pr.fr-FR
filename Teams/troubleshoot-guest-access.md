@@ -26,7 +26,7 @@ ms.locfileid: "48346355"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résolution des problèmes liés à l’accès invité dans Microsoft Teams
 
-- Pour savoir si le problème persiste, consultez l' [équipe de support au sein de votre organisation](Known-issues.md).
+- Pour savoir si nous sommes au courant de votre problème, consultez les [équipes de support de votre organisation.](Known-issues.md)
 - Pour rechercher les problèmes de prise en charge actuels avec l’accès invité dans Teams, voir [Résolution des problèmes liés à Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
 - Les invités sont des personnes extérieures à votre organisation. Si une personne se trouve à l'intérieur de votre organisation (y compris vos employés et les fournisseurs et agents sur site), elle ne peut pas être ajoutée en tant qu'invité. La même chose s'applique pour les affiliés.
 - Vous trouverez des informations sur les fonctionnalités d'accès invité à venir, nouvelles ou mises à jour, dans la [Feuille de route de Teams](https://aka.ms/teamsroadmap).
@@ -37,12 +37,12 @@ ms.locfileid: "48346355"
 L’accès invité dans Teams utilise Azure Active Directory (Azure AD) Business to Business (B2B) et son modèle de licence. L’accès invité est inclus dans tous les abonnements Microsoft 365 Business Standard, Office 365 Enterprise et Office 365 Éducation. Aucune licence Microsoft 365 ou Office 365 supplémentaire n'est requise.
 
 > [!NOTE]
-> Pour pouvoir se connecter et utiliser les équipes en tant qu’invités sur un autre client (ressource), les équipes doivent être activées sur le client d’origine d’un invité.
+> Teams doit être activé sur le client d’un invité pour que les invités puissent se connecter et utiliser Teams en tant qu’invité sur un autre client (ressource).
 
-Si vous rencontrez des erreurs de gestion des licences, veillez à lire le [modèle de facturation pour les identités externes d’Azure ad](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) afin de déterminer les besoins en matière de licences pour vous permettre d’accéder aux invités de votre organisation.
+Si vous voyez des erreurs de licence, veillez à lire le modèle de facturation pour les [identités externes Azure AD](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) afin de déterminer les conditions de licence requises pour répondre à vos besoins en matière d’accès invité dans votre organisation.
 
 - Les licences invité sont décomptées du nombre existant au sein de l’organisation qui invite. Tenez-en compte au moment de calculer le nombre de licences dont vous avez besoin.
-- Les licences sont comptabilisées au niveau de votre organisation, que les invités invités proviennent d’une autre organisation Microsoft 365 ou utilisent leurs adresses de messagerie personnelles.
+- Les licences sont comptabilisées dans votre organisation, que les invités proviennent d’une autre organisation Microsoft 365 ou utilisent leur adresse e-mail personnelle.
 
 ## <a name="support-for-b2b-user-types"></a>Prise en charge des types d’utilisateur B2B
 

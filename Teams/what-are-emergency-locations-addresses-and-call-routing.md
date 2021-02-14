@@ -24,7 +24,7 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 - seo-marvel-mar2020
-description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
+description: En savoir plus sur les appels d’urgence, y compris les informations sur les adresses de secours, le routage des appels d’urgence et les appels d’urgence dynamiques.
 ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -32,101 +32,101 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031600"
 ---
-# <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
+# <a name="manage-emergency-calling"></a>Gestion des appels d’urgence
 
-Cet article décrit les concepts que vous devez connaître pour gérer les appels d’urgence &mdash; ; il inclut des informations sur les adresses d’urgence, les adresses d’urgence dynamiques et le routage des appels d’urgence. Cet article utilise la terminologie suivante :
+Cet article décrit des concepts que vous devez connaître pour gérer les appels d’urgence, notamment des informations sur les adresses de secours, les adresses de secours dynamiques et le &mdash; routage des appels d’urgence. Cet article utilise la terminologie suivante :
 
-- **Adresse d’urgence** : adresse postale adresse &mdash; physique ou rue d’un lieu d’entreprise pour votre organisation.
+- **Adresse d’urgence** : adresse municipale à l’adresse physique ou &mdash; street street du site d’activité de votre organisation.
 
-  Par exemple, l’adresse  *12345 North rue, Redmond, WA 98052* est utilisée pour diriger les appels d’urgence vers les autorités de répartition compétentes et pour faciliter la localisation de l’appelant d’urgence.
+  Par exemple, l’adresse  *12345 North Main Street, Redmond, WA 98052* est utilisée pour router les appels d’urgence vers les autorités de répartition appropriées et aider à trouver l’appelant.
 
-- **Emplacement** : il s’agit d’un étage, d’un immeuble, d’une aile ou d’un numéro de bureau. La fonction place est associée à une adresse de secours pour fournir un emplacement plus précis au sein d’un bâtiment. Vous pouvez avoir un nombre illimité de lieux associés à une adresse de secours. Par exemple, si votre organisation possède plusieurs immeubles, il est possible que vous souhaitiez inclure des informations de lieu pour chaque bâtiment et pour chaque étage dans chaque bâtiment.  
+- **Lieu** : généralement l’étage, le bâtiment, l’aile ou le numéro du bureau. L’emplacement est associé à une adresse de secours pour donner un emplacement plus exact dans un bâtiment. Vous pouvez avoir un nombre illimité de lieux associés à une adresse de secours. Par exemple, si votre organisation possède plusieurs bâtiments, vous pouvez inclure les informations d’endroit pour chaque bâtiment et pour chaque étage de chaque bâtiment.  
 
-- **Emplacement d’urgence** : un emplacement est une adresse postale &mdash; avec un emplacement facultatif. Si votre entreprise possède plusieurs emplacements physiques, il est probable que vous ayez besoin de plus d’un emplacement d’urgence. 
+- **Emplacement d’urgence** : un emplacement est une adresse géographique &mdash; éventuellement disponible. Si votre entreprise possède plusieurs emplacements physiques, il est probable que vous aurez besoin de plusieurs emplacements d’urgence. 
 
-  Lorsque vous créez une adresse de secours, un ID d’emplacement unique est créé automatiquement pour cette adresse.  Si vous ajoutez un lieu à une adresse &mdash; de secours par exemple, si vous ajoutez un étage à une adresse de bâtiment, &mdash; un ID d’emplacement est créé pour la combinaison de l’adresse de secours et de l’emplacement.  Dans cet exemple, il y a deux ID d’emplacement : l’un pour l’adresse postale ; une pour l’adresse postale jointe et l’emplacement associé.
+  Lorsque vous créez une adresse de secours, un ID d’emplacement unique est automatiquement créé pour cette adresse.  Si vous ajoutez un emplacement à une adresse de secours, par exemple, si vous ajoutez un étage à une adresse de bâtiment, un ID d’emplacement est créé pour la combinaison de l’adresse de secours et &mdash; &mdash; de l’emplacement.  Dans cet exemple, il y a deux ID d’emplacement : l’un pour l’adresse géographique ; un pour l’adresse civile jointe et l’endroit associé.
 
-  Lorsque vous affectez un emplacement d’urgence à un utilisateur ou un site, il s’agit de l’ID d’emplacement unique associé à l’utilisateur ou au site.
+  Lorsque vous affectez un emplacement d’urgence à un utilisateur ou un site, il s’agit de cet ID d’emplacement unique associé à l’utilisateur ou au site.
 
-- **Adresse enregistrée** : adresse de secours attribuée à chaque utilisateur de plan d’appels ; Il est parfois appelé adresse d’urgence statique ou adresse de l’enregistrement.  (Les adresses inscrites ne s’appliquent pas aux utilisateurs de routage direct.)
+- **Adresse enregistrée** - Adresse d’urgence affectée à chaque utilisateur du plan d’appels on parle parfois d’adresse de secours statique ou d’adresse de l’enregistrement.  (Les adresses enregistrées ne s’appliquent pas aux utilisateurs du routage direct.)
 
-Pour créer une adresse d’urgence, vous devez utiliser le centre d’administration Teams.  
+Vous créez des adresses d’urgence pour les utilisateurs du plan d’appels à l’aide du Centre d’administration Teams.  
 
 >[!Note]
->Il existe certaines différences en matière de gestion des appels d’urgence selon que vous utilisez des plans d’appel de système téléphonique ou de téléphone téléphonique directs pour votre connectivité PSTN. Ces considérations sont décrites dans cet article.
+>La gestion des appels d’urgence varie selon que vous utilisez les forfaits d’appels téléphoniques ou le routage direct du système téléphonique pour votre connectivité RSTN. Ces considérations sont décrites dans cet article.
 
-## <a name="emergency-address-validation"></a>Validation d’adresse de secours
+## <a name="emergency-address-validation"></a>Validation d’adresse d’urgence
 
-Pour attribuer une adresse d’urgence à un utilisateur ou à un identifiant réseau, vous devez vous assurer que l’adresse de secours est marquée comme « validée ».  La validation des adresses garantit que l’adresse est légitime et qu’elle ne peut pas être modifiée après son attribution. 
+Pour attribuer une adresse de secours à un utilisateur ou à un identificateur réseau, vous devez vous assurer que l’adresse de secours est marquée comme « validée ».  La validation d’adresse garantit la légitimité de l’adresse et ne peut pas être modifiée une fois qu’elle a été affectée. 
 
-Si vous définissez une adresse d’urgence à l’aide de la fonctionnalité de recherche de carte d’adresse dans le centre d’administration Teams, l’adresse est automatiquement marquée comme validée. Vous ne pouvez pas modifier une adresse de secours validée. Par conséquent, si le format ou la représentation de l’adresse change, vous devez créer une nouvelle adresse au format mis à jour.
+Si vous définissez une adresse de secours à l’aide de la fonctionnalité de recherche de carte d’adresses du Centre d’administration Teams, l’adresse est automatiquement marquée comme validée. Vous ne pouvez pas modifier une adresse de secours validée. Par conséquent, si le format ou la représentation de l’adresse change, vous devez créer une adresse au format mis à jour.
 
 
-## <a name="emergency-address-geo-codes"></a>Codes géographiques d’adresse de secours
+## <a name="emergency-address-geo-codes"></a>Codes géographiques des adresses de secours
 
-Chaque adresse de secours peut être associée à un code géo (Latitude et longitude). Ces codes géographiques sont utilisés dans certains pays pour faciliter le routage des appels d’urgence avec des emplacements dynamiques. 
+Un code géographique (latitude et longitude) peut être associé à chaque adresse de secours. Ces codes géographiques sont utilisés dans certains pays pour aider au routage des appels d’urgence à l’aide d’emplacements dynamiques. 
 
-Si vous définissez une adresse d’urgence à l’aide de la fonctionnalité de recherche de carte d’adresse dans le centre d’administration Teams, le code géographique est automatiquement associé à une adresse de secours. Vous pouvez également associer des codes géographiques à une adresse si vous définissez l’adresse à l’aide de PowerShell. Toutefois, Microsoft vous recommande de créer des adresses de secours pour les plans d’appels à l’aide de la fonctionnalité de recherche de carte dans le centre d’administration Teams, afin de vous assurer que les adresses sont mises en forme, validées et disposant des codes géographiques appropriés.  
+Si vous définissez une adresse de secours à l’aide de la fonctionnalité de recherche de carte d’adresses du Centre d’administration Teams, le code géographique est automatiquement associé à une adresse de secours. Vous pouvez également associer des codes géographiques à une adresse si vous définissez l’adresse à l’aide de PowerShell. Toutefois, Microsoft recommande de créer des adresses d’urgence pour le plan d’appel à l’aide de la fonctionnalité de recherche de carte du Centre d’administration Teams, qui garantit que les adresses sont formatées, validées et disposent des codes géographiques appropriés.  
 
 >[!Important]
->Pour attribuer un emplacement d’urgence à un identifiant réseau pour les appels d’urgence dynamiques, l’adresse de secours doit contenir un code géographique approprié.
+>Pour affecter un emplacement d’urgence à un identificateur réseau pour les appels d’urgence dynamiques, l’adresse de secours doit contenir un code géographique approprié.
 
 
-## <a name="considerations-for-calling-plans"></a>Remarques relatives aux offres d’appels
+## <a name="considerations-for-calling-plans"></a>Considérations pour les forfaits d’appels
 
-Pour savoir si des plans d’appel sont disponibles dans votre région, consultez la rubrique [disponibilité du pays et de la région pour les offres d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Pour savoir si les forfaits d’appels sont disponibles dans votre région, consultez la disponibilité du pays et de [la région pour les forfaits d’appels.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 
-### <a name="emergency-call-enablement"></a>Activation des appels d’urgence
+### <a name="emergency-call-enablement"></a>Enablement d’appel d’urgence
 
-Chaque utilisateur de plan d’appel est automatiquement activé pour les appels d’urgence et est tenu d’avoir une adresse de secours enregistrée associée à son numéro de téléphone. 
+Chaque utilisateur d’un plan d’appels est automatiquement activé pour les appels d’urgence et une adresse d’urgence enregistrée doit être associée à son numéro de téléphone affecté. 
 
-Lorsque l’emplacement doit être associé au numéro de téléphone dépend du pays/de la région :
+Lorsque l’emplacement doit être associé au numéro de téléphone dépend du pays/de la région :
 
-- Aux États-Unis et au Canada, par exemple, un emplacement d’urgence est requis lorsqu’un numéro est attribué à un utilisateur.
+- Aux États-Unis et au Canada, par exemple, un emplacement d’urgence est nécessaire lorsqu’un numéro est attribué à un utilisateur.
 
-- Pour les autres pays (par exemple, en Europe, Moyen Orient et Afrique (EMEA) : un emplacement d’urgence est requis lorsque vous recevez le numéro de téléphone de Microsoft 365 ou Office 365, ou lorsqu’il est transféré à partir d’un autre fournisseur ou opérateur de services.
+- Pour d’autres pays, comme en Europe, au Moyen Orient et en Afrique (EMEA), un emplacement d’urgence est requis lorsque vous obtenez le numéro de téléphone auprès de Microsoft 365 ou d’Office 365, ou lorsqu’il est transféré à partir d’un autre fournisseur de services ou opérateur.
 
 ### <a name="dynamic-emergency-calling"></a>Appels d’urgence dynamiques
 
-Les appels d’urgence dynamiques pour les plans d’appel Microsoft offrent la possibilité de configurer et d’acheminer les appels d’urgence en fonction de l’emplacement actuel du client Teams. La possibilité de procéder au routage automatique vers le point d’accès à la sécurité publique approprié (PSAPI) ou de notifier le personnel de votre support technique dépend du pays d’utilisation de l’utilisateur de teams.  
+Les appels d’urgence dynamiques pour les plans d’appel Microsoft offrent la possibilité de configurer et de router des appels d’urgence en fonction de l’emplacement actuel du client Teams. La possibilité d’assurer un routage automatique vers le point de réponse de sécurité publique approprié (PUBLIC Safety Answering Point) ou d’informer le personnel du service de sécurité varie en fonction du pays d’utilisation de l’utilisateur de Teams.  
 
-Pour les utilisateurs d’un plan d’appels, l’emplacement dynamique pour le routage des appels d’urgence est uniquement pris en charge aux États-Unis comme suit. (Pour plus d’informations sur les appels d’urgence dynamiques et le routage direct, voir [considérations relatives au routage direct](#considerations-for-direct-routing).
+Pour les utilisateurs d’un plan d’appels, l’emplacement dynamique pour le routage des appels d’urgence est pris en charge uniquement aux États-Unis comme suit. (Pour plus d’informations sur les appels d’urgence dynamiques et le routage direct, voir [Considérations pour le routage direct.](#considerations-for-direct-routing)
 
-- Si un client teams pour une offre d’appels vers les États-Unis acquiert dynamiquement une adresse d’urgence à l’intérieur des États-Unis, cette adresse est utilisée pour le routage d’urgence au lieu de l’adresse enregistrée, et l’appel est automatiquement acheminé vers le PSAPI dans la zone de service de l’adresse.
+- Si un client Teams pour un utilisateur du plan d’appels des États-Unis acquiert dynamiquement une adresse d’urgence aux États-Unis, cette adresse est utilisée pour le routage des appels d’urgence au lieu de l’adresse enregistrée et l’appel est automatiquement acheminé vers le service PUBLIC dans la zone de service de l’adresse.
 
-- Si un client teams pour un membre d’un plan d’appels aux États-Unis n’achète pas dynamiquement une adresse d’urgence aux États-Unis, l’adresse d’urgence enregistrée est utilisée pour vous permettre d’effectuer un écran et de diriger l’appel. Toutefois, l’appel s’affiche pour déterminer si une adresse mise à jour est requise avant de connecter l’appelant au PSAPI approprié.
+- Si un client Teams pour un utilisateur du plan d’appels des États-Unis n’acquiert pas dynamiquement une adresse d’urgence aux États-Unis, l’adresse d’urgence enregistrée est utilisée pour écranr et router l’appel. Toutefois, l’appel sera filpé pour déterminer si une adresse mise à jour est requise avant de connecter l’appelant au système TÉLÉPHONIQUE APPROPRIÉ.
 
-Aux États-Unis, vous devez configurer l’adresse civique qui fait partie des emplacements d’urgence attribués aux identifiants réseau &mdash; et inclure les codes géographiques associés. Pour plus d’informations, reportez-vous à [planifier et configurer les appels d’urgence dynamiques](configure-dynamic-emergency-calling.md).
+Aux États-Unis, vous devez configurer l’adresse géographique qui fait partie des emplacements d’urgence affectés aux identificateurs réseau et inclure les &mdash; codes géographiques associés. Pour plus d’informations, voir [Planifier et configurer des appels d’urgence dynamiques.](configure-dynamic-emergency-calling.md)
 
 
-### <a name="emergency-call-routing"></a>Routage des appels d’urgence
+### <a name="emergency-call-routing"></a>Routage d’appel d’urgence
 
-Lorsque l’utilisateur d’une équipe appelle un numéro d’urgence, le routage de l’appel vers le PSAPI dépend des éléments suivants :
+Lorsqu’un utilisateur du plan d’appel Teams compose un numéro d’urgence, la façon dont l’appel est acheminé vers le centre d’appels PUBLIC dépend des informations suivantes :
 
 - Si l’adresse de secours est déterminée dynamiquement par le client Teams.
 
-- Si l’adresse de secours correspond à l’adresse enregistrée associée au numéro de téléphone de l’utilisateur.
+- Si l’adresse de secours est l’adresse enregistrée associée au numéro de téléphone de l’utilisateur.
 
 - Le réseau d’appels d’urgence de ce pays.
 
-  **Aux États-Unis :**
+  **Aux États-Unis :**
 
-  - Si un client teams se trouve dans un emplacement d’urgence dynamique défini par un client, les appels d’urgence de ce client sont automatiquement routés vers le PSAPI qui dessert cet emplacement géographique. 
+  - Si un client Teams se trouve dans un emplacement d’urgence dynamique défini par le client, les appels d’urgence en provenance de ce client sont automatiquement acheminés vers le site PUBLIC PUBLIC de ce lieu géographique. 
 
-  - Si un client Teams ne se trouve pas dans un emplacement d’urgence dynamique défini par le client, les appels d’urgence de ce client sont filtrés par un centre d’appels national pour déterminer l’emplacement de l’appelant avant de transférer l’appel vers le PSAPI qui dessert cet emplacement géographique.
+  - Si un client Teams n’est pas situé dans un emplacement d’urgence dynamique défini par le client, les appels d’urgence en provenance de ce client sont filpés par un centre d’appels national pour déterminer l’emplacement de l’appelant avant de transférer l’appel vers le service PUBLIC au service cet emplacement géographique.
 
-  - Si un appelant n’est pas en mesure de mettre à jour son emplacement d’urgence vers le centre de filtrage, l’appel est transféré vers le PSAPI qui dessert l’adresse d’inscription de l’appelant.
+  - Si un appelant d’urgence ne parvient pas à mettre à jour son emplacement d’urgence dans le centre de sélection, l’appel est transféré vers le centre DE CONTRÔLE au service de l’adresse enregistrée de l’appelant.
 
-  **Au Canada, en Irlande et au Royaume-Uni, les** appels d’urgence sont d’abord prédéfinis pour déterminer l’emplacement actuel de l’utilisateur avant de connecter l’appel au centre de répartition approprié. 
+  **Au Canada, en Irlande** et au Royaume-Uni, les appels d’urgence sont d’abord filés pour déterminer l’emplacement actuel de l’utilisateur avant de le connecter au centre d’urgence approprié. 
 
-  **En France, en Allemagne et en Espagne** , les appels d’urgence sont dirigés directement vers le PSAPI qui dessert l’adresse d’urgence associée au numéro indépendamment de l’emplacement de l’appelant.
+  **En France, en Allemagne** et en Espagne, les appels d’urgence sont acheminés directement vers le centre de données PUBLIC PUBLIC (PUBLICP) et l’adresse d’urgence associée au numéro, quel que soit l’emplacement de l’appelant.
 
-  Aux **Pays-Bas** , les appels d’urgence sont dirigés directement vers le PSAPI pour l’indicatif local du numéro indépendamment de l’emplacement de l’appelant.
+  **Aux Pays-Bas,** les appels d’urgence sont acheminés directement vers le centre CENTRE DNS pour l’code de la zone locale du numéro, quel que soit l’emplacement de l’appelant.
 
-  **En Australie** , les adresses de secours sont configurées et routées par le partenaire de transporteur.
+  **En Australie,** les adresses d’urgence sont configurées et acheminées par le partenaire de l’opérateur.
 
-  **Au Japon** , les appels d’urgence ne sont pas pris en charge.
+  **Au Japon, les** appels d’urgence ne sont pas pris en charge.
 
 
 Pour plus d’informations, consultez :
@@ -135,87 +135,87 @@ Pour plus d’informations, consultez :
 
 - [Différents types de numéros de téléphone utilisés pour les appels d’offre](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-- [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
+- [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-## <a name="considerations-for-direct-routing"></a>Éléments à prendre en compte pour le routage direct
+## <a name="considerations-for-direct-routing"></a>Considérations pour le routage direct
 
-Si les plans d’appel ne sont pas disponibles dans votre région ou si vous souhaitez conserver votre opérateur, envisagez le [routage direct](direct-routing-landing-page.md). Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md) et [gérer les stratégies d’acheminement des appels d’urgence](manage-emergency-call-routing-policies.md).
+Si les forfaits d’appels ne sont pas disponibles dans votre région ou si vous voulez conserver votre opérateur existant, vous pouvez envisager un [routage direct.](direct-routing-landing-page.md) Pour plus d’informations, voir [Configurer le routage direct et](direct-routing-configure.md) Gérer les stratégies de [routage des appels d’urgence.](manage-emergency-call-routing-policies.md)
 
-### <a name="emergency-call-enablement-and-configuration"></a>Activation et configuration des appels d’urgence
+### <a name="emergency-call-enablement-and-configuration"></a>Activer et configuration des appels d’urgence
 
-Vous devez définir des politiques d’appel d’urgence pour le routage direct des utilisateurs en utilisant une stratégie d’acheminement des appels d’urgence (TeamsEmergencyCallRoutingPolicy) pour définir les numéros d’urgence et la destination de routage associée. (Notez que les emplacements d’urgence inscrits ne sont pas pris en charge pour les utilisateurs de routage direct.)
+Vous devez définir des stratégies d’appel d’urgence pour les utilisateurs du routage direct à l’aide d’une stratégie de routage des appels d’urgence teams (TeamsEmergencyCallRoutingPolicy) pour définir les numéros d’urgence et leur destination de routage associée. (Notez que les emplacements d’urgence enregistrés ne sont pas pris en charge pour les utilisateurs du routage direct.)
 
-Vous pouvez affecter une stratégie d’acheminement d’appel d’urgence à un compte d’utilisateur de routage direct de teams, un site réseau ou les deux. Lorsqu’un client teams démarre ou modifie une connexion réseau, teams effectue une recherche sur le site réseau où se trouve le client comme suit :
+Vous pouvez affecter une stratégie de routage des appels d’urgence à un compte d’utilisateur de routage direct Teams, à un site réseau ou aux deux. Lorsqu’un client Teams démarre ou modifie une connexion réseau, Teams effectue une recherche du site réseau où se trouve le client comme suit :
 
-- Si une stratégie d’acheminement des appels d’urgence est associée au site, la stratégie de site est utilisée pour configurer les appels d’urgence.
+- Si une stratégie de routage d’appel d’urgence est associée au site, la stratégie de site est utilisée pour configurer les appels d’urgence.
 
-- S’il n’y a aucune stratégie d’acheminement des appels d’urgence associée au site, ou si le client est connecté à un site non défini, la stratégie d’acheminement des appels d’urgence associée au compte d’utilisateur est utilisée pour configurer les appels d’urgence. 
+- Si aucune stratégie de routage des appels d’urgence n’est associée au site, ou si le client est connecté à un site non indéfini, la stratégie de routage des appels d’urgence associée au compte d’utilisateur est utilisée pour configurer les appels d’urgence. 
 
-- Si le client Teams ne peut pas obtenir de stratégie d’acheminement des appels d’urgence, l’utilisateur n’est pas activé pour les appels d’urgence.
+- Si le client Teams n’est pas en mesure d’obtenir une stratégie de routage des appels d’urgence, l’utilisateur n’est pas activé pour les appels d’urgence.
 
 ### <a name="dynamic-emergency-calling"></a>Appels d’urgence dynamiques
 
-Les clients teams pour le routage direct peuvent acquérir une adresse de secours dynamique, qui peut être utilisée pour acheminer dynamiquement les appels en fonction de l’emplacement de l’appelant. Pour plus d’informations, voir [configurer les appels d’urgence dynamiques](configure-dynamic-emergency-calling.md).
+Les clients Teams pour les utilisateurs du routage direct peuvent acquérir une adresse d’urgence dynamique, qui peut être utilisée pour router dynamiquement les appels en fonction de l’emplacement de l’appelant. Pour plus d’informations, voir [Configurer les appels d’urgence dynamiques.](configure-dynamic-emergency-calling.md)
 
-### <a name="emergency-call-routing"></a>Routage des appels d’urgence
+### <a name="emergency-call-routing"></a>Routage d’appel d’urgence
 
-La stratégie d’acheminement des appels d’urgence fait référence à une utilisation RTC en ligne, qui doit disposer de la configuration de routage directe appropriée pour acheminer correctement les appels d’urgence vers la ou les passerelles RTC appropriées. En particulier, vous devez vous assurer qu’il existe une OnlineVoiceRoute pour la chaîne de numérotation d’urgence. Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md). 
+La stratégie de routage des appels d’urgence fait référence à une utilisation PSTN en ligne, qui doit avoir la configuration de routage direct appropriée pour router correctement les appels d’urgence vers la ou les passerelles RSTN appropriées. En particulier, vous devez vous assurer qu’il existe une chaîne de numérotation d’urgence onlineVoiceRoute. Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md) 
 
-(Remarque : les clients teams peuvent ajouter le signe « + » devant les numéros d’urgence de la même manière que le client Skype entreprise, c’est-à-dire + 911. Ce comportement sera modifié au cours des prochains mois de sorte que les appels d’urgence d’équipes n’envoient plus le numéro « + » précédant le numéro. c’est-à-dire 911.)
+(Remarque : les clients Teams préséront le signe « + » devant les numéros d’urgence de la même manière que le client Skype Entreprise : +911. Ce comportement sera modifié dans les mois à venir afin que les appels d’urgence sur Teams n’envoient plus de « + » avant le numéro . autrement dit, 911.)
 
-La possibilité d’acheminer dynamiquement les appels d’urgence pour les utilisateurs de routage direct varie en fonction du réseau d’appel d’urgence dans un pays donné. Deux solutions sont disponibles :
+La possibilité de router dynamiquement les appels d’urgence pour les utilisateurs du routage direct varie en fonction du réseau d’appels d’urgence au sein d’un pays donné. Deux solutions sont disponibles :
 
-- Prestataires de services de routage d’urgence (US uniquement) 
-- Applications d’identification d’emplacement d’urgence (ELIN)
+- Fournisseurs de services de routage d’urgence (États-Unis uniquement) 
+- Applications de passerelle ELIN (Emergency Location Identification Number)
 
-#### <a name="emergency-routing-service-providers"></a>Prestataires de services de routage d’urgence
+#### <a name="emergency-routing-service-providers"></a>Fournisseurs de services de routage d’urgence
 
-Aux États-Unis, de nombreux fournisseurs de services de routage d’urgence (ERSPs) peuvent automatiquement diriger les appels d’urgence en fonction de l’emplacement de l’appelant.
+Aux États-Unis, il existe de nombreux fournisseurs de services de routage d’urgence certifiés qui peuvent router automatiquement les appels d’urgence en fonction de l’emplacement de l’appelant.
 
-- Si un fournisseur de service de routage d’urgence est intégré à un déploiement de routage directe, les appels d’urgence disposant d’un emplacement d’acquisition dynamique seront automatiquement routés vers le point d’accès de sécurité publique (PSAPI) qui dessert cet emplacement.
+- Si un fournisseur de services de routage d’urgence est intégré à un déploiement de routage direct, les appels d’urgence ayant acquis dynamiquement un emplacement sont automatiquement acheminés vers le point de réponse de sécurité publique (PUBLIC Safety Answering Point) de cet emplacement.
 
--  Les appels d’urgence sans emplacement acquis de manière dynamique sont d’abord prédéfinis pour déterminer l’emplacement actuel de l’utilisateur avant de connecter l’appel au centre de répartition approprié en fonction de l’emplacement mis à jour.
+-  Les appels d’urgence sans emplacement dynamiquement acquis sont d’abord filés pour déterminer l’emplacement actuel de l’utilisateur avant de connecter l’appel au centre d’urgence approprié en fonction de l’emplacement mis à jour.
 
-Pour plus d’informations, reportez-vous à la rubrique [contrôle de bordure de session certifié pour le routage direct](direct-routing-border-controllers.md).
-
-
-#### <a name="emergency-location-identification-number-elin-applications"></a>Applications d’identification d’emplacement d’urgence (ELIN)
-
-Les contrôleurs de frontière de session (SBCs) peuvent inclure des applications d’identification d’emplacement d’urgence (ELIN). Si une application SBC ELIN est intégrée à un déploiement de routage direct, vous devez configurer les adresses d’urgence et les numéros de téléphone associés dans l’application ELIN, puis télécharger les enregistrements ELIN dans la base de données d’appel d’urgence du RTC correspondant.  Les emplacements d’urgence des équipes avec un identificateur ELIN doivent correspondre à ceux de l’application ELIN.
-
-Lorsqu’un appel d’urgence avec un emplacement acquis dynamiquement est routé vers l’SBC appropriée, l’application ELIN :
-
-- Analyse l’emplacement d’urgence de l’appelant.
-- Correspond à l’emplacement de l’enregistrement ELIN.
-- Remplace le numéro d’appel d’urgence par le numéro de téléphone ELIN.
-- Route l’appel vers le PSAPI qui dessert cet emplacement, puis les répartiteurs obtiennent l’emplacement à partir de l’enregistrement ELIN téléchargé.
-
-Lors d’un appel vers le numéro d’urgence, l’application ELIN effectue l’opération inverse de la substitution du numéro par l’appelant initial. 
-
-Pour plus d’informations, reportez-vous à la rubrique [contrôle de bordure de session certifié pour le routage direct](direct-routing-border-controllers.md).
+Pour plus d’informations, [voir Contrôleurs de session en bordure certifiés pour le routage direct.](direct-routing-border-controllers.md)
 
 
-## <a name="security-desk-notification"></a>Notification du centre de sécurité
+#### <a name="emergency-location-identification-number-elin-applications"></a>Applications ELIN (Emergency Location Identification Number)
 
-La notification du support technique est disponible avec les plans d’appel Microsoft et le routage direct du système téléphonique.
+Les contrôleurs de session en bordure peuvent inclure des applications ELIN (Emergency Location Identification Number). Si une application ELIN SBC est intégrée dans un déploiement de routage direct, vous devez configurer les adresses d’urgence et les numéros de téléphone associés dans l’application ELIN, puis charger les enregistrements ELIN dans la base de données d’appels d’urgence dans le réseau PSTN respectif.  Les emplacements d’urgence Teams avec un identificateur ELIN doivent correspondre à ceux de l’application ELIN.
 
-Vous utilisez une politique d’appel d’urgence Teams (TeamsEmergencyCallingPolicy) pour configurer les personnes qui doivent être averties lors d’un appel d’urgence et la façon dont elles sont notifiées : discussions uniquement, conférences et désactivées, ou en mode de conférences et de désactivation du micro.  Vous pouvez également spécifier le numéro RTC externe d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. 
+Lorsqu’un appel d’urgence ayant été acquis dynamiquement est acheminé vers le SBC approprié, l’application ELIN :
 
-Une stratégie d’appel d’urgence peut être accordée à un compte d’utilisateur Teams, affecté à un site réseau, ou les deux.  Lorsqu’un client teams démarre ou modifie une connexion réseau, teams effectue une recherche sur le site réseau où se trouve le client :
+- L’emplacement d’urgence de l’appelant est sondé.
+- Fait correspondance à l’emplacement à un enregistrement ELIN.
+- Remplace le numéro de téléphone de l’appelant par le numéro de téléphone ELIN.
+- Route l’appel vers le service CENTRE.PUBLIC (PUBLICP) dans cet emplacement, puis les régulateurs obtiennent l’emplacement à partir de l’enregistrement ELIN chargé.
 
-- Si une stratégie d’appel d’urgence est associée à un site réseau, la stratégie de site est utilisée pour configurer la notification du support technique.
+Lors d’un appel de retour au numéro d’urgence, l’application ELIN fera l’inverse du remplacement de numéro appelé celui de l’appelant d’urgence d’origine. 
 
-- S’il n’existe aucune stratégie d’appel d’urgence associée au site, ou si le client est connecté à un site non défini, la stratégie d’appel d’urgence associée au compte d’utilisateur est utilisée pour configurer la notification du support technique.  
+Pour plus d’informations, [voir Contrôleurs de session en bordure certifiés pour le routage direct.](direct-routing-border-controllers.md)
 
-- Si le client teams n’est pas en mesure d’obtenir une stratégie d’appel d’urgence, l’utilisateur n’est pas activé pour la notification du support technique.
 
-Au cours d’un appel d’urgence, un support technique est retenu dans le cadre de l’appel et l’utilisateur du support technique est contrôlé en fonction de la stratégie d’appel d’urgence Teams. Une discussion de groupe est lancée pour chaque membre du support technique et l’emplacement de l’appelant d’urgence est partagé par le biais d’une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du support technique peut également être appelé dans le cadre de la Conférence.
+## <a name="security-desk-notification"></a>Notification du service de sécurité
+
+La notification du service de sécurité est disponible avec les plans d’appel Microsoft et le routage direct du système téléphonique.
+
+Vous utilisez une stratégie d’appel d’urgence teams (TeamsEmergencyCallingPolicy) pour configurer les personnes devant être informées pendant un appel d’urgence et la manière dont elles sont informées : conversation uniquement, conférence en conférence et mise en sourdine, ou en mode Muet, mais avec la possibilité d’activer le son.  Vous pouvez également spécifier un numéro PSTN externe d’un utilisateur ou d’un groupe pour appeler et rejoindre l’appel d’urgence. 
+
+Une stratégie d’appel d’urgence peut être octroyée à un compte d’utilisateur Teams, à un site réseau ou aux deux.  Lorsqu’un client Teams démarre ou modifie une connexion réseau, Teams effectue une recherche sur le site réseau où se trouve le client :
+
+- Si une stratégie d’appel d’urgence est associée à un site réseau, la stratégie de site est utilisée pour configurer les notifications du service de sécurité.
+
+- Si aucune stratégie d’appel d’urgence n’est associée au site, ou si le client est connecté à un site non indéfini, la stratégie d’appel d’urgence associée au compte d’utilisateur est utilisée pour configurer les notifications du service de sécurité.  
+
+- Si le client Teams n’est pas en mesure d’obtenir une stratégie d’appel d’urgence, l’utilisateur n’est pas activé pour recevoir une notification du service de sécurité.
+
+Pendant un appel d’urgence, un service de sécurité est téléphoniquement appelé et l’expérience de l’utilisateur du service de sécurité est contrôlée en fonction de la stratégie d’appel d’urgence de Teams. Une conversation de groupe commence avec chaque membre du service de sécurité, et l’emplacement de l’appelant d’urgence est partagé via une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du service de sécurité est appelé en outre dans le cadre de la conférence.
 
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
-- [Gérer les stratégies de routage des appels d’urgence ](manage-emergency-call-routing-policies.md)
+- [Gérer les stratégies de routage d’appel d’urgence ](manage-emergency-call-routing-policies.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Affectation ou modification d’un emplacement d’urgence pour votre utilisateur](assign-change-emergency-location-user.md)
 - [Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)
