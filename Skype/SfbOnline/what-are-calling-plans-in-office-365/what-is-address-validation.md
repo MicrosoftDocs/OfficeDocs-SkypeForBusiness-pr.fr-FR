@@ -29,9 +29,9 @@ ms.locfileid: "44220694"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 
-Lorsque vous configurez des plans d’appel, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs.
+Lorsque vous configurerez les forfaits d’appels, vous devrez affecter un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs.
   
-La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement. Il est possible qu’une adresse de secours partiellement correcte (par exemple, le nom de la ville, par exemple) puisse rester valide. Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié. Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.
+La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement. Il est possible qu’une adresse d’urgence partiellement correcte, telle qu’un nom de ville mal indiqué, passe malgré tout la validation. Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié. Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

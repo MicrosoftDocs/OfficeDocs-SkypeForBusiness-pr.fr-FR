@@ -38,23 +38,23 @@ Le standard automatique d’audioconférence pour Skype Entreprise permet d’ac
 Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
->  Vous pouvez uniquement modifier les langues des numéros de conférence audio qui appartiennent à la catégorie dédiée. Les langues du numéro de conférence audio partagé ne peuvent pas être modifiées.
+>  Vous pouvez uniquement modifier les langues des numéros d’audioconférence de la catégorie Dédié. Les langues du numéro d’audioconférence partagée ne peuvent pas être modifiées.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du standard automatique des conférences
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du attendant automatique de conférence
 
-Pour effectuer cette étape, vous devez être un [administrateur général](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou un [administrateur de Skype entreprise](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
+Vous devez être un [administrateur global ou](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) un administrateur de [Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Entreprise pour effectuer cette étape.
     
-1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à l' **ancien portail**. Dans le portail hérité, sélectionnez **audioconférence**, puis cliquez sur **pont Microsoft**.
+1. Dans le **Centre d’administration Skype Entreprise,** dans le panneau de navigation de gauche, allez sur **le portail hérité.** Une fois dans l’ancien portail, sélectionnez **Audioconférence,** puis cliquez sur **Pont Microsoft.**
     
-2. Sélectionnez le numéro de téléphone de l’audioconférence dans la liste, puis, dans le volet action, cliquez sur **définir les langues**. Il est uniquement possible de modifier les langues des numéros de conférence audio dédiés.  
+2. Sélectionnez le numéro de téléphone de l’audioconférence dans la liste, puis dans le volet Action, cliquez **sur Définir les langues.** Il est uniquement possible de modifier les langues des numéros d’audioconférence dédiés.  
     
-3. Dans la page **définir les langues** , cliquez sur la liste de langues **principales** pour afficher la liste complète des langues disponibles. Le cas échéant, cliquez sur l’une des listes de **langues secondaires** pour sélectionner langue secondaire.
+3. Dans la page **Définir les langues,** cliquez **sur** la liste Langue principale pour afficher la liste complète des langues disponibles. Si nécessaire, cliquez sur chacune des listes de **langues secondaires** pour sélectionner la langue secondaire.
     
     > [!NOTE]
-    > La langue principale et les langues secondaires prises en charge sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes sera l’ordre des langues présentées aux appelants. 
+    > La langue principale et les langues secondaires prises en charge sont répertoriées. L’ordre dans lequel vous les sélectionnez dans les listes est l’ordre des langues présentées aux appelants. 
   
 4. Cliquez sur **Enregistrer**.
     
@@ -64,14 +64,14 @@ Pour effectuer cette étape, vous devez être un [administrateur général](http
     
 - Des langues peuvent être définies pour des numéros dédiés, mais pas pour des numéros de téléphone partagés.
     
-- Pour afficher une liste des pays/régions dans lesquels une audioconférence est disponible dans Microsoft 365 ou Office 365 en utilisant Microsoft comme fournisseur, voir [numéros de téléphone pour les conférences audio](phone-numbers-for-audio-conferencing.md).
+- Pour obtenir la liste des pays et régions dans lesquels l’audioconférence est disponible dans Microsoft 365 ou Office 365 en utilisant Microsoft comme fournisseur, consultez les numéros de téléphone pour [audioconférence.](phone-numbers-for-audio-conferencing.md)
     
 ## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 
-Pour automatiser cette étape, vous pouvez utiliser les applets de action [Set-csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617689) et [get-//go.Microsoft.com/fwlink/](https://go.microsoft.com/fwlink/?LinkId=617684) .
+Pour automatiser cette étape, vous pouvez utiliser les [cmdlets Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) et [Get-CsOnlineDialInConferencingLanguagesSupported.](https://go.microsoft.com/fwlink/?LinkId=617684)
   
-Pour plus d’informations, reportez-vous à la rubrique [utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038) .
+Pour en savoir plus, [consultez Utiliser Windows PowerShell pour effectuer les tâches courantes de gestion de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

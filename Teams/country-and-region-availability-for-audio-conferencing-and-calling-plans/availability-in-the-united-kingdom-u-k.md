@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Royaume-Uni.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Royaume-Uni.
 ms.openlocfilehash: de944b87eca2a68865261c96839863d4d6714963
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230522"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Royaume-Uni.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Royaume-Uni.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -61,14 +61,14 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li> 
-|Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Partiellement pris en charge : les appels vers des numéros de coûts partagés (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de crédits de communication pour payer à la minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
+|Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Partiellement pris en charge : Les appels vers des numéros de coût partagés (préfixes 44843, 44844, 44845, 44870, 44871 et 44872) sont pris en charge en utilisant les crédits de communication pour le paiement par minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Mond <li>  Leeds <li>  Leicester <li>  Lyon <li>  Londres <li>  Tours <li>  Maladie <li>  Nottingham <li>  Plymouth <li>  SDL <li>  Stoke-sur-Trent <li>  Teesside (Middlesbrough) </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournebourne <li>  Desso <li>  Sy <li>  Bristol <li>  Coventry <li>  Desso <li>  Leeds <li>  Desso <li>  Desso <li>  Londres <li>  Manchester <li>  Desso <li>  Sy <li>  Syth <li>  Desso <li>  Anse-on-Nt <li>  Teesside (Middlesbrough) </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

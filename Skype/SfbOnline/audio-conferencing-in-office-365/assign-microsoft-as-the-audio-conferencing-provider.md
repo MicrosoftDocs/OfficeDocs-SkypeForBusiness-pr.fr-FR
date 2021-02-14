@@ -31,7 +31,7 @@ ms.locfileid: "44164516"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Affectation de Microsoft en tant que fournisseur d’audioconférence
 
-Pour utiliser l’audioconférence dans Microsoft 365 ou Office 365 avec Skype entreprise et Microsoft Teams, les utilisateurs de votre organisation doivent disposer d’une licence de conférence audio. Pour plus d’informations sur les licences et son coût, voir [essayer ou acheter une audioconférence dans Microsoft 365 ou Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .
+Pour utiliser l’audioconférence dans Microsoft 365 ou Office 365 avec Skype Entreprise et Microsoft Teams, les utilisateurs de votre organisation doivent avoir une licence d’audioconférence. Pour plus d’informations sur les licences et leur coût, voir Essayer ou acheter l’audioconférence dans [Microsoft 365 ou Office 365.](try-or-purchase-audio-conferencing-in-office-365.md)
 
 Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
 
@@ -40,18 +40,18 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Affectation de Microsoft en tant que fournisseur d’audioconférence
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Icône illustrant le logo Skype entreprise](../images/sfb-logo-30x30.png) Utilisation du centre d'administration Skype Entreprise
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Icône montrant le logo Skype Entreprise](../images/sfb-logo-30x30.png) Utilisation du centre d'administration Skype Entreprise
 
-1. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
+1. Allez sur le **portail hérité du Centre d’administration Microsoft Teams.**  >  
     
-2. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à **audioconférence**.
+2. Dans le **Centre d’administration Skype Entreprise,** dans le panneau de navigation de gauche, allez à **l’audioconférence.**
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. Dans la page de propriétés de l’utilisateur, sous **nom du fournisseur**, sélectionnez **Microsoft** dans la liste déroulante.
+4. Dans la page des propriétés de l’utilisateur, sous **Nom du fournisseur,** **sélectionnez Microsoft** dans la liste de listes de liste.
     
     > [!NOTE]
-    > Dans la mesure où vous utilisez Microsoft comme fournisseur de services d’audioconférence et qu’il existe plusieurs numéros de téléphone, vous pouvez utiliser la liste déroulante **numéro payant par défaut** pour sélectionner le numéro audio par défaut de l’utilisateur.
+    > Étant donné que vous utilisez Microsoft comme fournisseur de services d’audioconférence et qu’il existe plusieurs numéros de téléphone, vous pouvez utiliser la liste de listes des numéros gratuits par défaut pour sélectionner un numéro audio par défaut pour l’utilisateur. 
   
 5. Cliquez sur **Enregistrer**.
 
@@ -60,17 +60,17 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>Utilisation d'un script Windows PowerShell pour un petit nombre d'utilisateurs
 
-Pour gagner du temps ou automatiser cette opération, vous pouvez utiliser le script PowerShell suivant pour définir Microsoft comme fournisseur de services d’audioconférence pour un petit nombre d’utilisateurs.
+Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser le script PowerShell suivant pour définir Microsoft comme fournisseur de services d’audioconférence pour un petit nombre d’utilisateurs.
 
 > [!NOTE]
 > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
 
   
-Pour remplacer le fournisseur par Microsoft pour un petit nombre d’utilisateurs, vous pouvez utiliser l’applet de passe [Enable-csonlinedialinconferencinguser n’affiche](https://technet.microsoft.com/library/mt243813.aspx) .
+Pour faire de Microsoft le fournisseur d’un petit nombre d’utilisateurs, vous pouvez utiliser l’cmdlet [Enable-CsOnlineDialInConferencingUser.](https://technet.microsoft.com/library/mt243813.aspx)
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Utilisation d'un script Windows PowerShell pour un grand nombre d'utilisateurs
-Pour gagner du temps ou automatiser cette opération, vous pouvez utiliser le script PowerShell suivant pour définir Microsoft comme fournisseur de services d’audioconférence pour un grand nombre d’utilisateurs.
+Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser le script PowerShell suivant pour définir Microsoft comme fournisseur de services d’audioconférence pour un grand nombre d’utilisateurs.
 
 When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
   
@@ -90,7 +90,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Exemple 3 :** Dans cet exemple, vous pouvez utiliser ce script pour remplacer le fournisseur de services d’audioconférence par interappel (ou un autre fournisseur) par **Microsoft** pour un grand nombre d’utilisateurs de votre organisation.
+**Exemple 3 :** Dans cet exemple, vous pouvez utiliser ce script pour changer le fournisseur de services d’audioconférence d’Intercall (ou autre fournisseur) en **Microsoft** pour un grand nombre d’utilisateurs dans votre organisation.
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
@@ -195,7 +195,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Pour plus d'informations sur l'utilisation de Windows PowerShell, consultez la rubrique [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise](https://go.microsoft.com/fwlink/?LinkId=525038).
   
-## <a name="related-topics"></a>Voir aussi
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-de[configuration de Skype entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Sujets associés
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+ [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

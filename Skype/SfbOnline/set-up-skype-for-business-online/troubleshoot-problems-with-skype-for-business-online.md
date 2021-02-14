@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Découvrez comment résoudre les problèmes rencontrés par les administrateurs et les utilisateurs de Skype entreprise dans Microsoft 365 et Office 365.
+description: Découvrez comment résoudre les problèmes pour les administrateurs et les utilisateurs de Skype Entreprise dans Microsoft 365 et Office 365.
 ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -32,9 +32,9 @@ Il arrive que les choses ne se déroulent pas comme prévu. Voici une liste de r
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Résolution des problèmes d'administration pour Skype Entreprise Online
 
-Vous pouvez obtenir des réponses pour la plupart de vos questions sur Skype entreprise Online dans l’article [vérifier les causes courantes des erreurs de connexion à Skype entreprise Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). L’article de la base de connaissances suivant inclut également de nombreuses ressources de dépannage et références de codes d’erreur : [résolution des erreurs de connexion à Skype entreprise Online pour les administrateurs](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
+Vous pouvez obtenir des réponses à la plupart de vos questions sur Skype Entreprise Online dans l’article Recherchez les causes courantes des erreurs de inscription [à Skype Entreprise Online.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) L’article suivant de la Mise à jour comprend également de nombreuses ressources de dépannage et références de code d’erreur : résolution des erreurs de sign-in Skype Entreprise Online pour [les administrateurs.](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)
 
-Pour les problèmes liés aux conférences rendez-vous, consultez la rubrique [résolution des problèmes de conférence audio et problèmes connus](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
+Pour les problèmes de conférence rendez-vous, consultez la résolution des problèmes connus et de [l’audioconférence.](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>Aide supplémentaire pour des problèmes d'administration de Skype Entreprise Online
 
@@ -66,7 +66,7 @@ La plupart des problèmes rencontrés par les utilisateurs de Skype Entreprise O
 
 - [Aide pour les réunions Skype Entreprise](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Formation Skype entreprise](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Formation skype entreprise](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [Présenter des programmes dans Skype Entreprise](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 
@@ -75,9 +75,9 @@ La plupart des problèmes rencontrés par les utilisateurs de Skype Entreprise O
 ## <a name="still-need-help-contact-support"></a>Vous avez encore besoin d'aide ? Contactez le support technique.
 <a name="BK_SupportBridge_1"> </a>
 
-En tant qu’administrateur des applications 365 Microsoft pour les entreprises, vous bénéficiez d’un accès gratuit à nos agents de support technique pour la prise en charge des versions antérieures à la vente, des comptes et de la facturation, ainsi que pour l’aide à la résolution des problèmes techniques. Vous pouvez également [contacter le support technique](https://go.microsoft.com/fwlink/p/?LinkID=518322) de la part de Microsoft 365 et des utilisateurs d’Office 365 au sein de votre organisation.
+En tant qu’administrateur des applications Microsoft 365 pour les entreprises, vous pouvez accéder gratuitement à nos agents de support bien informés pour le support avant-vente, les comptes et la facturation, ainsi que pour obtenir de l’aide pour résoudre les problèmes techniques. Vous pouvez également [contacter le support](https://go.microsoft.com/fwlink/p/?LinkID=518322) technique au nom des utilisateurs de Microsoft 365 et Office 365 dans votre organisation.
 
-- [Obtenir de l’aide sur les forums de la communauté Microsoft 365 et Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Obtenir de l’aide des forums de la communauté Microsoft 365 et Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Administrateurs : appeler le support](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 

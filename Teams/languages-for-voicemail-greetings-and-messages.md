@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Découvrez les langues que vous pouvez définir dans Skype entreprise pour les messages système par défaut et le message d’accueil de la boîte vocale.
+description: Découvrez les langues que vous pouvez définir dans Skype Entreprise pour les messages système et les messages d’accueil de la messagerie vocale par défaut.
 ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
 ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
@@ -38,13 +38,13 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Langue** <br/> |**Pays/région** <br/> |**Code langue** <br/> |**Disponible pour qu'un utilisateur la voie dans un courrier électronique ?** <br/> |**Disponible lorsque l'utilisateur appelle ?** <br/> |**Transcription disponible ?** <br/> |
-|Arabe <br/> |Égypte  <br/> |AR-EG  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Arabe <br/> |Égypte  <br/> |ar-EG  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Chinois (Hong Kong R.A.S.)  <br/> |Chine  <br/> |zh-hk  <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> | Oui <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> |
 |Chinois (traditionnel)  <br/> |Taïwan  <br/> |zh-hant  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Croate<br/> |Croatie  <br/> |HR-HR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Tchèque <br/> |République tchèque  <br/> |CS-CZ  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Croate<br/> |Croatie  <br/> |hr-HR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Tchèque <br/> |République tchèque  <br/> |cs-CZ  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Néerlandais  <br/> |Pays-Bas  <br/> |nl-NL  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Anglais  <br/> |Australie  <br/> |en-AU  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
@@ -56,29 +56,29 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |Français  <br/> |Canada  <br/> |fr-CA  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |Oui  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |
 |Français  <br/> |France  <br/> |fr-FR  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Allemand  <br/> |Allemagne  <br/> |de-DE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Grec <br/> |Grèce  <br/> |El-GR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Hongrois <br/> |Hongrie  <br/> |HU-HU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Indonésien <br/> |Indonésie  <br/> |ID-ID  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Grec <br/> |Grèce  <br/> |el-GR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Hongrois <br/> |Hongrie  <br/> |hu-HU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Indonésien <br/> |Indonésie  <br/> |id-ID  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Italien  <br/> |Italie  <br/> |it-IT  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Japonais  <br/> |Japon  <br/> |ja-JP  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Coréen  <br/> |Coréen  <br/> |ko-KR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Norvégien  <br/> |Norvège  <br/> |nb-NO  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |
 |Polonais  <br/> |Pologne  <br/> |pl-PL  <br/> |Oui  <br/> | Oui <br/> |Non  <br/> |
-|Portugais  <br/> |Brésil  <br/> |pt-BR  <br/> |Oui, mais le portugais du Portugal (pt-PT) est utilisé.  <br/> |Oui   <br/> |Oui  <br/> |
-|Portugais  <br/> |Portugal  <br/> |pt-PT  <br/> |Oui   <br/> |Oui  <br/> |Oui, mais le portugais du Brésil (pt-BR) est utilisé.  <br/> |
-|Roumain<br/> |Roumanie  <br/> |RO-RO  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Russe  <br/> |Russie  <br/> |ru-RU  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Slovaque <br/> |Slovaquie  <br/> |SK-SK  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Slovène <br/> |Slovénie  <br/> |SL-SI  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Portugais  <br/> |Brésil  <br/> |pt-BR  <br/> |Oui, mais le portugais du Portugal (pt-PT) est utilisé.  <br/> |Oui  <br/> |Oui  <br/> |
+|Portugais  <br/> |Portugal  <br/> |pt-PT  <br/> |Oui  <br/> |Oui  <br/> |Oui, mais le portugais du Brésil (pt-BR) est utilisé.  <br/> |
+|Roumain<br/> |Roumanie  <br/> |ro-RO  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Russe  <br/> |Russie  <br/> |ru-RU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Slovaque <br/> |Slovaquie  <br/> |sk-SK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Slovène <br/> |Slovénie  <br/> |sl-SI  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |
 |Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Thaï <br/> |Thaïlande  <br/> |th-TH  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Turc  <br/> |Turquie  <br/> |TR-TR  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Vietnamien <br/> |Vietnam  <br/> |vi-VN  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Thaï <br/> |Thaïlande  <br/> |th-TH  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Vietnamien <br/> |Vietnam  <br/> |vi-VN  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
   

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour Porto Rico.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Porto Rico.
 ms.openlocfilehash: e18e6d73f61bd3c3178dff4823bd941c01f31875
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44229282"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour Porto Rico.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Porto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -60,7 +60,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Appels nationaux aux États-Unis comprend les appels vers les États-Unis 50 et Porto Rico. Les utilisateurs affectés de l’emplacement d’utilisation des licences des États-Unis et/ou Porto Rico partagent la même réserve de minutes.  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Les appels nationaux aux États-Unis incluent ceux à l’ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant attribué l’emplacement d’utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.  <br/> |
 |Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    

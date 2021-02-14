@@ -55,7 +55,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  Les **numéros de téléphone dédiés** sont les numéros disponibles uniquement pour les utilisateurs au sein de votre organisation. Vous pouvez modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
   
- Les **numéros de téléphone partagés** sont les numéros de téléphone qui peuvent être partagés avec d’autres comptes Microsoft 365 ou Office 365. Vous ne pouvez pas modifier la langue utilisée lorsque quelqu’un appelle l’un de ces numéros.
+ **Les numéros de téléphone** partagés sont des numéros qui peuvent être partagés avec d’autres comptes Microsoft 365 ou Office 365. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu’un appelle l’un de ces numéros.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
@@ -67,7 +67,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > Vous trouverez l'emplacement du pays ou de la région de votre organisation en vous connectant au Centre d'administration Microsoft 365 et en regardant sous **Profil de l’organisation**. 
   
 > [!CAUTION]
-> En raison d’une disponibilité limitée des numéros de téléphone payants au Venezuela, en Indonésie, au Viêt Nam et aux Émirats Arabes Unis (Émirats Arabes Unis), les organisations de ces pays/régions ne disposent pas d’un numéro de téléphone payant. Les numéros sans frais de ces emplacements sont disponibles en fonction de l’inventaire disponible. 
+> En raison de la disponibilité limitée des numéros de téléphone au Venezuela, en Indonésie, au Vietnam et aux Émirats Arabes Unis, les organisations de ces pays/régions ne se voit pas attribuer automatiquement un numéro d’audioconférence. Les numéros gratuits pour ces lieux sont disponibles en fonction de l’inventaire disponible. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
@@ -75,18 +75,18 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
   
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Pour consulter la liste des langues prises en charge pour les conférences audio, voir [langues prises en charge](/MicrosoftTeams/audio-conferencing-supported-languages)par l’audioconférence.
+- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
-- Vous pouvez utiliser l’applet de passe [Get-csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617691) pour afficher les numéros de téléphone dédiés aux conférences audio pour votre organisation.
+- Vous pouvez utiliser l’cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) pour consulter les numéros de téléphone dédiés pour l’audioconférence pour votre organisation.
     
 - L'applet de commande [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) permet d'afficher la liste des langues qui peuvent être définies sur un numéro de téléphone à composer dédié.
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Pour définir le numéro de téléphone à composer pour un utilisateur, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites.md).
+- Pour définir le numéro de téléphone à composer d’un utilisateur, consultez Définir [les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -32,7 +32,7 @@ Gagnez du temps, évitez d'appeler le support technique et augmentez la satisfac
 
 Voici ce dont vous aurez besoin :
 
-- Au moins trois comptes 365 Microsoft ou Office 365 (le vôtre et au moins deux autres).
+- Au moins trois comptes Microsoft 365 ou Office 365 (le vôtre et au moins deux autres).
 
 - Un ordinateur pour chaque compte test. Configurez-les à l'image d'un ordinateur standard au sein de votre organisation.
 
@@ -51,7 +51,7 @@ Voici ce dont vous aurez besoin :
 ## <a name="set-up-test-accounts"></a>Configurer des comptes test
 <a name="__toc328126910"> </a>
 
-1. Accédez à **administrateur** > **Microsoft 365** ou**utilisateurs et groupes**![ **Office 365** > , puis sélectionnez Ajouter Ajouter](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) et entrez les informations requises.
+1. Allez à **l’administrateur** Microsoft 365 ou aux utilisateurs et groupes  >   **Office 365,** puis sélectionnez Ajouter et  >  entrer les informations ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) requises.
 
 2. Lorsque vous parvenez à l'étape 4 (messagerie électronique), entrez votre propre adresse de messagerie. Vous obtenez alors un enregistrement du nom et du mot de passe du nouvel utilisateur.
 
@@ -62,7 +62,7 @@ Voici ce dont vous aurez besoin :
 
 Sur chaque ordinateur test :
 
-1. Accédez à la page d’accueil de Microsoft 365 ou Office 365, puis connectez-vous à l’aide des informations d’identification de l’un de vos comptes test.
+1. Sur la page d’accueil de Microsoft 365 ou Office 365, connectez-vous à l’aide des informations d’identification de l’un de vos comptes test.
 
 2. Accédez à **Paramètres**![Paramètres : mettre à jour votre profil, installer le logiciel et le connecter au cloud](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), puis cliquez sur **Installer le logiciel et le connecter au cloud**.
 
@@ -79,7 +79,7 @@ Une fois que vous avez configuré vos utilisateurs pour l'audioconférence, ceux
 
  **Pour ajouter des informations d'audioconférence au compte de l'un de vos utilisateurs test**
 
-1. Cliquez sur**utilisateurs**de l' **audioconférence** > .
+1. Cliquez **sur Utilisateurs de l’audioconférence.**  >  
 
 2. Cliquez sur le nom des utilisateurs que vous voulez configurer pour la conférence rendez-vous, puis cliquez sur **Modifier**![Modifier](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 
@@ -114,7 +114,7 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Envoyer un message instantané dans Skype Entreprise](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |La fenêtre de conversation Skype Entreprise s'affiche. Tapez du texte, et la personne que vous avez contactée vous enverra une réponse..  <br/> |
 |[Envoyer un message instantané dans Skype Entreprise](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |La fenêtre de conversation Skype Entreprise s'affiche. Tapez du texte, et toutes les personnes qui participent à la conversation vous enverront une réponse.  <br/> |
 |[Rechercher un contact par son prénom ou son nom](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Les résultats de la recherche apparaissent dès que vous commencez à taper.  <br/> |
-|[Forum aux questions sur Lync pour Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Le contact que vous avez ajouté apparaît dans le groupe de contacts que vous avez choisi.  <br/> |
+|[FAQ sur Lync pour Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Le contact que vous avez ajouté apparaît dans le groupe de contacts que vous avez choisi.  <br/> |
 |[Modification de votre statut de présence dans Skype Entreprise (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Votre nouveau statut de présence est pris en compte dans la liste des contacts des autres personnes.  <br/> |
 |[Utiliser la carte de visite](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |La carte de visite d'une personne apparaît à côté de son nom.  <br/> |
 

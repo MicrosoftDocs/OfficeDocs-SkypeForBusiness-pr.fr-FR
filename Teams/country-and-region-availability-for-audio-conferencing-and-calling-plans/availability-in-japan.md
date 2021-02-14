@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Japon.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Japon.
 ms.openlocfilehash: e198f4b13ddbeddcd7a20814812148b9016125af
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "44229225"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponible pour le Japon.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Japon.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Proposés</ul> Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Tokyo</ul> Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -57,24 +57,24 @@ Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsof
    
 ## <a name="calling-plans"></a>Forfaits d’appel
 > [!IMPORTANT]
-> Disponible uniquement via SoftBank pour les clients japonais. Pour plus d’informations, voir [appels Softbank pour Office 365](https://aka.ms/SoftBankVoicePlan)).
+> Uniquement disponible via SoftBank pour les locataires japonais. Pour plus d’informations, [voir SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [appels Softbank pour Office 365](https://aka.ms/SoftBankVoicePlan).  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |Voir [appels Softbank pour Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> |Voir [appels Softbank pour Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan)  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |Consultez [SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> |Consultez [SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
-> Pour supprimer des numéros d’utilisateur (abonné) au Japon (fournis par SoftBank), contactez SoftBank directement.
-> Pour mettre à jour les informations d’adresse d’urgence pour les numéros d’utilisateur (abonné) au Japon (fournis par SoftBank), contactez SoftBank directement.
-> Pour plus d’informations, voir [appels Softbank pour Office 365](https://aka.ms/SoftBankVoicePlan).
+> Pour supprimer les numéros des utilisateurs (abonnés) au Japon (fournis par SoftBank), contactez directement SoftBank.
+> Pour mettre à jour les informations d’adresse d’urgence des numéros des utilisateurs (abonnés) au Japon (fourni par SoftBank), contactez directement SoftBank.
+> Pour plus d’informations, [voir SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Proposés  <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Tokyo  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

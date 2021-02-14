@@ -17,7 +17,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Les sections suivantes fournissent des instructions sur la configuration d’un environnement possédant plusieurs forêts dans un modèle de forêt de ressources/utilisateur afin de fournir des fonctionnalités Skype entreprise dans un scénario hybride.
+description: Les sections suivantes fournissent des instructions sur la configuration d’un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités Skype Entreprise dans un scénario hybride.
 ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -27,36 +27,36 @@ ms.locfileid: "44221478"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
  
-Les sections suivantes fournissent des instructions sur la configuration d’un environnement possédant plusieurs forêts dans un modèle de forêt de ressources/utilisateur afin de fournir des fonctionnalités Skype entreprise dans un scénario hybride. 
+Les sections suivantes fournissent des instructions sur la configuration d’un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités Skype Entreprise dans un scénario hybride. 
   
 ![Environnement à forêts multiples pour les environnements hybrides](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>Configuration requise pour la topologie
 
-Plusieurs forêts d’utilisateurs sont prises en charge. Gardez les éléments suivants à l’esprit : 
+Plusieurs forêts d’utilisateurs sont pris en charge. Gardez les éléments suivants à l’esprit : 
     
-- Pour les versions de Lync Server et Skype entreprise Server prises en charge dans une configuration hybride, voir [version du serveur requise](plan-hybrid-connectivity.md#server-version-requirements) dans [plan Hybrid Connectivity between Skype for Business server et Microsoft 365 ou Office 365](plan-hybrid-connectivity.md).
+- Pour les versions de Lync Server et Skype Entreprise Server pris en charge dans une configuration hybride, voir La configuration requise pour la [version](plan-hybrid-connectivity.md#server-version-requirements) du serveur dans Planifier la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365.](plan-hybrid-connectivity.md)
     
-- Exchange Server peut être déployé dans une ou plusieurs forêts, qui peuvent inclure ou non la forêt contenant Skype entreprise Server. Assurez-vous que vous avez appliqué la dernière mise à jour cumulative.
+- Exchange Server peuvent être déployés dans une ou plusieurs forêts, qui peuvent inclure ou non la forêt contenant Skype Entreprise Server. Assurez-vous que vous avez appliqué la dernière mise à jour cumulative.
     
-- Pour plus d’informations sur la coexistence avec Exchange Server, notamment les critères de prise en charge et les limites dans les différentes combinaisons de en local et en ligne, voir [prise en charge des fonctionnalités](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) dans [plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+- Pour plus d’informations sur la coexistence avec Exchange Server, notamment sur les critères de prise [](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) en charge et les limitations dans différentes combinaisons de sites locaux et en ligne, voir la prise en charge des fonctionnalités dans Plan d’intégration de Skype Entreprise et [Exchange.](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
   
-## <a name="user-homing-considerations"></a>Considérations relatives à l’hébergement des utilisateurs
+## <a name="user-homing-considerations"></a>Considérations sur l’homeing des utilisateurs
 
-Les utilisateurs de Skype entreprise hébergés sur site peuvent avoir Exchange hébergé sur site ou en ligne. Les utilisateurs de Skype entreprise Online doivent utiliser Exchange Online pour une expérience optimale ; Toutefois, cela n’est pas obligatoire. Exchange sur site n’est pas nécessaire pour mettre en œuvre Skype entreprise dans les deux cas.
+Les utilisateurs de Skype Entreprise sur site peuvent avoir Exchange sur site ou en ligne. Les utilisateurs de Skype Entreprise Online doivent utiliser Exchange Online pour une expérience optimale. toutefois, cela n’est pas obligatoire. Exchange local n’est pas requis pour implémenter Skype Entreprise dans les deux cas.
   
-## <a name="configure-forest-trusts"></a>Configurer des approbations de forêt
+## <a name="configure-forest-trusts"></a>Configurer les trusts de forêt
 
-Dans une topologie de forêt de ressources, les forêts de ressources hébergeant Skype entreprise Server doivent approuver chaque forêt de comptes contenant des comptes d’utilisateurs qui y accéderont. Si vous avez plusieurs forêts d’utilisateurs, pour activer l’authentification entre forêts, il est important que le routage des suffixes de noms soit activé pour chacune de ces approbations de forêt. Pour obtenir des instructions, consultez la rubrique [gestion des approbations de forêt](https://technet.microsoft.com/library/cc772440.aspx). Si Exchange Server est déployé dans une autre forêt et qu’il fournit des fonctionnalités pour les utilisateurs de Skype entreprise, la forêt hébergeant Exchange doit approuver la forêt qui héberge Skype entreprise Server. Par exemple, si Exchange a été déployé dans la forêt de comptes, cela signifie qu’une approbation bidirectionnelle entre le compte et les forêts Skype entreprise est requise dans cette configuration.
+Dans une topologie de forêt de ressources, les forêts de ressources hébergeant Skype Entreprise Server doivent faire confiance à chaque forêt de comptes qui contient les comptes des utilisateurs qui y accèderont. Si vous avez plusieurs forêts d’utilisateurs, pour activer l’authentification entre forêts, il est important que le routage de suffixe de nom soit activé pour chacune de ces bases de données de forêt. Pour obtenir des instructions, voir [Managing Forest Trusts](https://technet.microsoft.com/library/cc772440.aspx). Si vous avez déployé Exchange Server dans une autre forêt et qu’il fournit des fonctionnalités aux utilisateurs de Skype Entreprise, la forêt qui héberge Exchange doit faire confiance à la forêt hébergeant Skype Entreprise Server. Par exemple, si Exchange a été déployé dans la forêt de comptes, cela signifierait effectivement qu’une relation d’confiance double entre le compte et les forêts Skype Entreprise est requise dans cette configuration.
   
-## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser les comptes dans la forêt hébergeant Skype entreprise
+## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser des comptes dans la forêt hébergeant Skype Entreprise
 
-Lorsque Skype entreprise Server est déployé dans une forêt (une forêt de ressources), mais fournit des fonctionnalités aux utilisateurs dans une ou plusieurs autres forêts (forêts de comptes), les utilisateurs des autres forêts doivent être représentés comme des objets utilisateur désactivés dans la forêt où Skype entreprise Server est déployé. Un produit de gestion des identités, tel que Microsoft Identity Manager, doit être déployé et configuré pour mettre en service et synchroniser les utilisateurs des forêts de comptes dans la forêt où Skype entreprise Server est déployé. Les utilisateurs doivent être synchronisés avec la forêt hébergeant Skype entreprise Server en tant qu’objets utilisateur désactivés. Les utilisateurs ne peuvent pas être synchronisés en tant qu’objets contact Active Directory, car Azure Active Directory Connect ne synchronise pas correctement les contacts dans Azure AD pour une utilisation avec Skype.
+Lorsque Skype Entreprise Server est déployé dans une forêt (forêt de ressources), mais fournit des fonctionnalités aux utilisateurs dans une ou plusieurs autres forêts (forêts de comptes), les utilisateurs des autres forêts doivent être représentés en tant qu’objets utilisateur désactivés dans la forêt où Skype Entreprise Server est déployé. Un produit de gestion des identités, tel que Microsoft Identity Manager, doit être déployé et configuré pour mettre en service et synchroniser les utilisateurs des forêts de comptes dans la forêt où Skype Entreprise Server est déployé. Les utilisateurs doivent être synchronisés dans la forêt hébergeant Skype Entreprise Server en tant qu’objets utilisateur désactivés. Les utilisateurs ne peuvent pas être synchronisés en tant qu’objets contact Active Directory, car Azure Active Directory Connect ne synchronise pas correctement les contacts dans Azure AD pour une utilisation avec Skype.
   
-Quelle que soit la configuration à forêts multiples, la forêt qui héberge Skype entreprise Server peut également fournir des fonctionnalités pour les utilisateurs activés qui existent dans la même forêt.
+Quelle que soit la configuration à forêts multiples, la forêt hébergeant Skype Entreprise Server peut également fournir des fonctionnalités à tous les utilisateurs activés qui existent dans la même forêt.
   
-Pour obtenir une synchronisation d’identité correcte, les attributs suivants doivent être synchronisés : 
+Pour obtenir une synchronisation d’identité appropriée, les attributs suivants doivent être synchronisés : 
   
 |**Forêts d’utilisateurs**|**Forêts de ressources**|
 |:-----|:-----|
@@ -65,82 +65,82 @@ Pour obtenir une synchronisation d’identité correcte, les attributs suivants 
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-L' [attribut de lien de compte choisi](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) sera utilisé comme ancre source. Si vous avez un autre attribut non modifiable que vous préférez utiliser, vous pouvez le faire ; Assurez-vous simplement de modifier la règle de revendications AD FS et sélectionnez l’attribut pendant la configuration de AAD Connect.
+[L’attribut de lien de compte](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) choisi sera utilisé comme ancre source. Si vous avez un attribut différent et immuable que vous préférez utiliser, vous pouvez le faire . il vous suffit de modifier la règle de revendications AD FS et de sélectionner l’attribut pendant la configuration AAD Connect.
   
-Ne synchronisez pas les UPN entre les forêts. Nous avons trouvé pendant les tests que nous avions besoin d’utiliser un UPN unique pour chaque forêt d’utilisateurs, car vous ne pouvez pas utiliser le même nom d’utilisateur principal dans plusieurs forêts. Par conséquent, nous avons présenté deux possibilités pour synchroniser l’UPN ou non pour la synchronisation. 
+Ne synchronisez pas les UPN entre les forêts. Lors des tests, nous avons constaté que nous devaient utiliser un UPN unique pour chaque forêt d’utilisateurs, car vous ne pouvez pas utiliser le même UPN dans plusieurs forêts. Par conséquent, deux possibilités s’offrent à nous : synchroniser l’UPN ou ne pas se synchroniser. 
   
-- Si le nom d’utilisateur principal unique de chaque forêt utilisateur n’a pas été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l’authentification unique (SSO) est interrompue au moins lors de la tentative de connexion initiale (en supposant que l’utilisateur a sélectionné l’option Enregistrer le mot de passe). Dans le client Skype entreprise, nous partons du principe que les valeurs SIP/UPN sont identiques. Étant donné que l’adresse SIP dans ce scénario est user@company.com, mais que l’UPN de l’objet activé dans la forêt d’utilisateurs est en fait user@contoso.company.com, la tentative de connexion initiale échoue et l’utilisateur est invité à entrer des informations d’identification. Lors de la saisie de l’UPN correct/réel, la demande d’authentification est exécutée sur les contrôleurs de domaine dans la forêt d’utilisateurs, et la connexion réussit.
+- Si l’UPN unique de chaque forêt d’utilisateurs n’a pas été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l' sign-on unique (SSO) est rompue pour au moins la première tentative de déconnexions (en supposant que l’utilisateur a sélectionné l’option d’enregistrer le mot de passe). Dans le client Skype Entreprise, nous partons du principe que les valeurs SIP/UPN sont identiques. Étant donné que l’adresse SIP dans ce scénario est user@company.com, mais que l’UPN de l’objet activé dans la forêt d’utilisateurs est en fait user@contoso.company.com, la tentative de connexion initiale échouerait et l’utilisateur serait invité à entrer des informations d’identification. Lors de la saisie de leur UPN correct/réel, la demande d’authentification est effectuée sur les contrôleurs de domaine dans la forêt d’utilisateurs et la signature réussit.
     
-- Si le nom d’utilisateur unique (UPN) unique de chaque forêt d’utilisateurs a été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l’authentification AD FS échoue. La règle de correspondance trouve l’UPN sur l’objet dans la forêt de ressources, qui a été désactivée et qui n’a pas pu être utilisée pour l’authentification. 
+- Si l’UPN unique de chaque forêt d’utilisateurs a été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l’authentification AD FS échouerait. La règle correspondante trouve l’UPN sur l’objet dans la forêt de ressources, qui a été désactivé et n’a pas pu être utilisé pour l’authentification. 
     
 ## <a name="create-a-microsoft-365-or-office-365-organization"></a>Créer une organisation Microsoft 365 ou Office 365
 
-Vous devrez ensuite approvisionner une organisation Microsoft 365 ou Office 365 pour l’utiliser avec votre déploiement. Pour plus d’informations, consultez [la rubrique abonnements, licences, comptes et clients pour les offres Cloud de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Vous devrez ensuite mettre en service une organisation Microsoft 365 ou Office 365 à utiliser avec votre déploiement. Pour plus d’informations, voir [Abonnements, licences,](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)comptes et clients pour les offres cloud de Microsoft. 
   
-## <a name="configure-active-directory-federation-services"></a>Configurer les services ADFS (Active Directory Federation Services)
+## <a name="configure-active-directory-federation-services"></a>Configurer les services de fédération Active Directory
 
-Une fois que vous avez un client, vous devez configurer les services ADFS (Active Directory Federation Services) dans chacune des forêts d’utilisateurs. Cela suppose que vous disposiez d’une adresse SIP et SMTP et d’un nom d’utilisateur principal (UPN) uniques pour chaque forêt. AD FS est facultatif et utilisé ici pour obtenir l’authentification unique (SSO). DirSync avec synchronisation de mot de passe est également pris en charge et peut également être utilisé à la place d’AD FS. 
+Une fois que vous avez un client, vous devez configurer les services AD FS (Active Directory Federation Services) dans chacune des forêts d’utilisateurs. Cela suppose que vous avez une adresse SIP et SMTP unique et un nom d’utilisateur principal (UPN) pour chaque forêt. AD FS est facultatif et est utilisé ici pour obtenir l' sign-on unique (SSO). La synchronisation DirSync avec mot de passe est également prise en charge et peut également être utilisée à la place d’AD FS. 
   
-Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. Le fait de ne pas avoir un SIP/SMTP/UPN correspondant peut entraîner des fonctionnalités réduites, telles que des problèmes liés à l’intégration d’Exchange et à l’authentification unique. 
+Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. Le fait de ne pas disposer de correspondances SIP/SMTP/UPN peut entraîner une réduction des fonctionnalités, telles que des problèmes liés à l’intégration d’Exchange et à l' cesso. 
   
-À moins que vous n’utilisiez un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours rencontrer des problèmes d’authentification unique, quel que soit l’endroit où AD FS est déployé : 
+À moins d’utiliser un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours être en butte à des problèmes DSO, quel que soit l’endroit où AD FS est déployé : 
   
-- Approbations à sens unique ou bidirectionnelles entre les forêts de ressources/d’utilisateurs et la batterie de serveurs AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un nom UPN unique pour chaque forêt d’utilisateurs. 
+- Les confiances à sens unique ou double entre les forêts ressource/utilisateur avec une batterie AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
-- Approbations bidirectionnelles entre les forêts de ressources/d’utilisateurs et la batterie de serveurs AD FS déployée uniquement dans la forêt de ressources, tous les utilisateurs partagent un domaine SIP/SMTP commun mais un nom UPN unique pour chaque forêt d’utilisateurs. 
+- Les relations d’confiance entre les forêts ressource/utilisateur avec une batterie AD FS déployée uniquement dans la forêt de ressources, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
-En plaçant une batterie AD FS dans chaque forêt d’utilisateurs et en utilisant un SIP/SMTP/UPN unique pour chaque forêt, nous résolvons les deux problèmes. Seuls les comptes de cette forêt utilisateur spécifique seraient recherchés et mis en correspondance lors des tentatives d’authentification. Cela vous permettra de fournir un processus d’authentification plus transparent. 
+En plaçant une batterie de serveurs AD FS dans chaque forêt d’utilisateurs et en utilisant un SIP/SMTP/UPN unique pour chaque forêt, nous résoudons les deux problèmes. Seuls les comptes de cette forêt d’utilisateurs spécifiques sont recherchés et correspondent lors des tentatives d’authentification. Cela vous permettra de fournir un processus d’authentification plus transparent. 
   
-Il s’agit d’un déploiement standard de Windows Server 2012 R2 AD FS qui doit être opérationnel avant de continuer. Pour obtenir des instructions, consultez [la rubrique installation d’AD FS 2012 R2 pour Microsoft 365 ou Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Il s’agit d’un déploiement standard de Windows Server 2012 R2 AD FS et doit fonctionner avant de continuer. Pour obtenir des instructions, voir Comment installer [AD FS 2012 R2 pour Microsoft 365 ou Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Une fois déployé, vous devez modifier la règle de revendications pour qu’elle corresponde à l’ancre source sélectionnée précédemment. Dans la console MMC AD FS, sous approbations de partie de confiance, cliquez avec le bouton droit sur **plateforme d’identité microsoft 365** ou **plateforme d’identité Microsoft Office 365**, puis sélectionnez **modifier les règles de revendication**. Modifiez la première règle et définissez ObjectSID sur **employeeNumber**. 
+Une fois le déploiement déployé, vous devez modifier la règle de revendications pour qu’elle corresponde à l’ancre source sélectionnée précédemment. Dans la MMC AD FS, sous Trusts de partie de confiance, cliquez avec le bouton droit sur Plateforme d’identités **Microsoft 365** ou plateforme d’identité **Microsoft Office 365,** puis sélectionnez Modifier les règles de **revendication.** Modifiez la première règle et modifiez ObjectSID en **employeeNumber**. 
   
-![Écran des règles de modification à plusieurs forêts](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![Écran Modifier les règles à forêts multiples](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>Configurer AAD Connect
 
-Dans les topologies de forêt de ressources, il est nécessaire que les attributs utilisateur de la forêt de ressources et de toutes les forêts de comptes soient synchronisés avec Azure AD. Pour ce faire, la méthode la plus simple et recommandée est d’avoir Azure AD Connect synchroniser et fusionner les identités des utilisateurs de *toutes les* forêts ayant activé les comptes d’utilisateur et la forêt qui contient Skype entreprise. Pour plus d’informations, reportez-vous à la rubrique [configurer Azure ad Connect pour Skype entreprise et teams](configure-azure-ad-connect.md).
+Dans les topologies de forêt de ressources, il est nécessaire que les attributs utilisateur de la forêt de ressources et de toutes les forêts de comptes soient synchronisés dans Azure AD. La méthode la plus simple et recommandée consiste à faire en sorte  qu’Azure AD Connect synchronise et fusionne les identités des utilisateurs de toutes les forêts qui ont activé les comptes d’utilisateur et la forêt qui contient Skype Entreprise. Pour plus d’informations, [voir Configurer Azure AD Connect pour Skype Entreprise et Teams.](configure-azure-ad-connect.md)
 
-Notez que AAD Connect ne fournit pas de synchronisation sur site entre les forêts de comptes et de ressources. Qui doivent être configurés séparément à l’aide de Microsoft Identity Manager ou d’un produit similaire, comme décrit précédemment.
+Notez qu’AAD Connect ne fournit pas de synchronisation sur site entre le compte et les forêts de ressources. Celui-ci doit être configuré séparément à l’aide de Microsoft Identity Manager ou d’un produit similaire, comme décrit précédemment.
   
-Lorsque vous avez terminé et que la connexion AAD est fusionnée, si vous examinez un objet dans le métaverse, vous devriez voir un résultat semblable à celui-ci : 
+Lorsque vous avez terminé et qu’AAD Connect est en cours de fusion, si vous regardez un objet dans le métaverse, vous devriez voir quelque chose de semblable à ceci : 
   
-![Écran d’objet métaverse multi-Forest](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![Écran d’objet Métaverse à forêts multiples](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-Les attributs verts en surbrillance ont été fusionnés à partir de Microsoft 365 ou Office 365, le jaune sont issus de la forêt d’utilisateurs et le bleu provient de la forêt de ressources. 
+Les attributs en surbrillants verts ont été fusionnés à partir de Microsoft 365 ou Office 365, le jaune est issu de la forêt d’utilisateurs et le bleu est issu de la forêt de ressources. 
   
-Il s’agit d’un utilisateur test, et vous pouvez voir que AAD Connect a identifié le ancre source et le cloudSourceAnchor de l’utilisateur et les objets de forêt de ressources de Microsoft 365 ou Office 365, dans notre cas 1101, qui est le employeeNumber sélectionné précédemment. Il a ensuite pu fusionner cet objet dans ce que vous voyez ci-dessus. 
+Il s’agit d’un utilisateur test et vous pouvez voir qu’AAD Connect a identifié la sourceAnchor et le cloudSourceAnchor de l’utilisateur et les objets de forêt de ressources de Microsoft 365 ou Office 365, dans notre cas 1101, qui est l’employeeNumber sélectionné précédemment. Il a ensuite pu fusionner cet objet dans ce que vous voyez ci-dessus. 
   
-Pour plus d’informations, consultez [la rubrique intégration de vos répertoires locaux à Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
+Pour plus d’informations, voir Intégrer vos annuaires locaux [à Azure Active Directory.](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 
   
-La connexion AAD doit être installée à l’aide des valeurs par défaut, à l’exception des suivantes : 
+AAD Connect doit être installé à l’aide des valeurs par défaut, à l’exception des suivantes : 
   
-1. Authentification unique : les services AD FS sont déjà déployés et fonctionnent : sélectionnez **ne pas configurer**.
+1. Sign-in unique - with AD FS already deployed and working: Select **Do not configure**.
     
-2. Connectez vos annuaires : Ajoutez tous les domaines.
+2. Connectez vos répertoires : ajoutez tous les domaines.
     
-3. Identifier les utilisateurs dans les répertoires locaux : sélectionnez **User Identities EXISTS dans plusieurs répertoires**, puis sélectionnez les attributs **objectSID** et **msExchangeMasterAccountSID.** .
+3. Identifiez les utilisateurs dans les répertoires locaux : sélectionnez les identités des **utilisateurs** dans plusieurs répertoires, puis sélectionnez les attributs **ObjectSID** et **msExchangeMasterAccountSID.**
     
-4. Identifier les utilisateurs dans Azure AD : ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu [sélection d’un attribut ancre source approprié](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), nom d’utilisateur principal- **userPrincipalName**.
+4. Identifiez les utilisateurs dans Azure AD : Ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu Sélectionner un attribut [sourceAnchor](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), Nom d’utilisateur principal - **userPrincipalName**.
     
-5.  Fonctionnalités facultatives : Déterminez si vous avez déployé Exchange hybride.
+5.  Fonctionnalités facultatives : sélectionnez si exchange hybride est déployé.
     
     > [!NOTE]
-    >  Si vous avez uniquement Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAMe. Pour corriger cela, vous devez définir l’URL de découverte automatique Exchange en exécutant l’applet de commande suivante à partir de Skype entreprise Server Management Shell :
+    >  Si vous avez uniquement Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAME. Pour corriger cela, vous devez définir l’URL de découverte automatique Exchange en exécutant la cmdlet suivante à partir de Skype Entreprise Server Management Shell :
     >
     > ```powershell
     > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
     > ```
     
-6.  Batterie de serveurs AD FS : sélectionnez **utiliser une batterie de serveurs Windows Server 2012 R2 AD FS existante** et entrez le nom du serveur AD FS.
+6.  Batterie de serveurs AD FS : sélectionnez Utiliser une batterie de serveurs **Windows Server 2012 R2 AD FS** existante et entrez le nom du serveur AD FS.
     
 7.  Terminez l’Assistant et effectuez les validations nécessaires.
     
-## <a name="configure-hybrid-connectivity-for-skype-for-business-server"></a>Configuration de la connectivité hybride pour Skype entreprise Server
+## <a name="configure-hybrid-connectivity-for-skype-for-business-server"></a>Configurer la connectivité hybride pour Skype Entreprise Server
 
-Suivez les meilleures pratiques en matière de configuration de Skype entreprise hybride. Pour plus d’informations, reportez-vous à [plan Hybrid Connectivity](plan-hybrid-connectivity.md) et [configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
+Suivez les meilleures pratiques pour configurer Skype Entreprise hybride. Pour plus d’informations, voir [Planifier la connectivité hybride](plan-hybrid-connectivity.md) et configurer la connectivité [hybride.](configure-hybrid-connectivity.md) 
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Configurer la connectivité hybride pour Exchange Server
 
-Si nécessaire, suivez les meilleures pratiques en matière de configuration d’Exchange hybride. Pour plus d’informations, consultez la rubrique [déploiements hybrides Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). 
+Si nécessaire, suivez les meilleures pratiques pour configurer Exchange hybride. Pour plus d’informations, [voir Exchange Server déploiements hybrides.](https://docs.microsoft.com/exchange/exchange-hybrid) 
   

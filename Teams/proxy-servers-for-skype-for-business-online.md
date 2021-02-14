@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
-description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec Microsoft teams ou Skype entreprise.
+description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec Microsoft Teams ou Skype Entreprise.
 ms.openlocfilehash: 3d8e2e067cce4214f51ee54ec08bafa1f4100770
 ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.locfileid: "44665956"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online et Teams
 
-Cet article fournit des instructions sur l’utilisation d’un serveur proxy avec teams ou Skype entreprise.
+Cet article fournit des conseils sur l’utilisation d’un serveur proxy avec Teams ou Skype Entreprise.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Il est déconseillé d'utiliser un serveur proxy.
 
-Lorsque le trafic est lié aux équipes ou à Skype entreprise via des proxys, Microsoft recommande de contournement des proxys. Les proxys ne permettent pas de sécuriser les équipes ou Skype entreprise, car le trafic est déjà crypté.
+En ce qui concerne le trafic Teams ou Skype Entreprise, Microsoft recommande d’éviter d’utiliser un proxies. En raison du chiffrement déjà chiffré, le trafic n’assure pas la sécurité de Teams ou de Skype Entreprise.
   
-Un serveur proxy peut poser des problèmes. Les problèmes liés aux performances peuvent être introduits dans l’environnement par le biais d’une latence et d’une perte de paquets. Des problèmes tels que ceux-ci entraînent une utilisation négative de ces équipes ou des scénarios Skype entreprise tels que les flux audio et vidéo, où les flux en temps réel sont essentiels.
+De plus, le fait d’avoir un proxy peut entraîner des problèmes. Des problèmes de performances peuvent s’introduire dans l’environnement par le biais de la latence et de la perte de paquets. De tels problèmes entraînent une expérience négative dans les scénarios Teams ou Skype Entreprise tels que l’audio et la vidéo, pour lequel les flux en temps réel sont essentiels.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>SI vous devez utiliser un serveur proxy
 
-Certaines organisations n’ont aucune option pour contourner un proxy pour le trafic d’équipes ou Skype entreprise. Si tel est le cas, vous devez garder à l’esprit les problèmes mentionnés ci-dessus.
+Certaines organisations n’ont pas d’autres choix que d’utiliser un proxy pour le trafic d’Équipes ou de Skype Entreprise. Si c’est votre cas, vous devez garder à l’esprit les problèmes mentionnés ci-dessus.
   
 Microsoft recommande également :
   
@@ -51,12 +51,12 @@ Microsoft recommande également :
     
 - L'autorisation du trafic UDP
     
-- Suivi des autres recommandations de nos recommandations en matière de réseau : [préparer le réseau de votre organisation aux équipes](prepare-network.md)
+- Suivant les autres recommandations de nos directives en matière de mise en réseau : Préparer le réseau de votre [organisation pour Teams](prepare-network.md)
   
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Principes de connectivité réseau de Microsoft 365 et Office 365](https://aka.ms/pnc)
 

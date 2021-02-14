@@ -33,7 +33,7 @@ ms.locfileid: "44163933"
 > [!Note]
 > Pour plus d’informations sur comment faire des conférences avec des numéros de téléphone inclus sur invite dans Microsoft Teams, voir [Définir les numéros de téléphone inclus sur invite dans les Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
 
-L’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs de votre organisation de créer des réunions Skype entreprise, puis de permettre aux utilisateurs de se connecter à ces réunions à l’aide d’un téléphone. Dans Microsoft 365 et Office 365, vous avez la possibilité d’utiliser un pont Microsoft audio Conferencing ou un pont de conférence audio tiers hébergé par un fournisseur de services d’audioconférence (ACP) approuvé.
+Dans Microsoft 365 ou Office 365, l’audioconférence permet aux utilisateurs de votre organisation de créer des réunions Skype Entreprise et d’y composer le numéro à l’aide d’un téléphone. Dans Microsoft 365 et Office 365, vous avez la possibilité d’utiliser un pont d’audioconférence Microsoft ou un pont d’audioconférence tiers hébergé par un fournisseur de services d’audioconférence agréé.
   
 > [!NOTE]
 > There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
@@ -48,7 +48,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Définir le numéro de téléphone par défaut pour un organisateur de réunion
 
-1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
+1. Connectez-vous avec votre compte scolaire ou scolaire.
     
 2. Sélectionnez **Centres dʼadministration** > **Skype Entreprise**.
     
@@ -56,7 +56,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
     ![Indique les utilisateurs au niveau du centre d’administration Skype Entreprise](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
-4. Sélectionnez les utilisateurs que vous souhaitez modifier :
+4. Sélectionnez les utilisateurs à modifier :
     
    - Pour sélectionner un seul utilisateur, sélectionnez le nom de l’utilisateur.
     
@@ -77,12 +77,12 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
      > [!NOTE]
      > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](/microsoftteams/getting-service-phone-numbers). 
   
-   - **Le fournisseur est un tiers** : utiliser les champs de **Numéro de téléphone payant** et de**Numéro d’appel gratuit** pour indiquer les numéros pour l’utilisateur.
+   - **Le fournisseur est un tiers** : utiliser les champs de **Numéro de téléphone payant** et de **Numéro d’appel gratuit** pour indiquer les numéros pour l’utilisateur.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Réinitialiser les numéros de téléphone des services d’audioconférence
 
-1. Dans le **Centre d’administration de Skype entreprise**, sélectionnez **audioconférence**.
+1. Dans le **Centre d’administration Skype Entreprise,** sélectionnez **Audioconférence.**
     
 2. En haut de la page, choisissez **Utilisateurs**.
     
@@ -108,37 +108,37 @@ By default, when you change a user's conferencing settings, an email is sent to 
 - Utilisez l'applet de commande **Set-CsOnlineDialInConferencingUserDefaultNumber** pour modifier le numéro gratuit ou payant par défaut des utilisateurs en fonction de leur numéro par défaut d'origine ou de leur emplacement.
     
     > [!NOTE]
-    > Pour rechercher le BridgeID, utilisez l’applet **de passe Get-CsOnlineDialInConferencingBridge** .
+    > Pour trouver le BridgeID, utilisez l’cmdlet **Get-CsOnlineDialInConferencingBridge.**
   
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - Pour définir le numéro gratuit par défaut pour tous les utilisateurs ne disposant pas de l’une de + 18005551234, exécutez :
+  - Pour définir sur +18005551234 le numéro gratuit par défaut pour tous les utilisateurs qui n’en ont pas, exécutez :
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui disposent de + 18005551234 comme numéro gratuit par défaut de + 18005551239, exécutez la commande suivante :
+  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui ont +18005551234 comme numéro gratuit par défaut sur +18005551239, exécutez :
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés aux États-Unis sur 18005551234, exécutez :
+  - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés aux États-Unis sur +18005551234, exécutez :
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell ?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell ?
 - Windows PowerShell permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l’aide d’un point d’administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Raisons pour lesquelles vous avez besoin d’utiliser Microsoft 365 ou Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez les avantages suivants dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -146,6 +146,6 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

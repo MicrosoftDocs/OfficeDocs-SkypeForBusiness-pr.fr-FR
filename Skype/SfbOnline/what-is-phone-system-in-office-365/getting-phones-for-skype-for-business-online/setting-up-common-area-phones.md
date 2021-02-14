@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour les téléphones communs.
+description: Découvrez les étapes de déploiement pour obtenir le microprogramme correct, le mettre à jour si nécessaire, attribuer des licences et configurer les paramètres des téléphones de zone commune.
 ms.openlocfilehash: 02cab34b4a1f220e8f28ceeee794470191582704
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -37,10 +37,10 @@ La première chose à faire est de confirmer que vous avez :
 - acheté une licence de téléphone de zone commune et un Forfait d'appels.
 - recherché et acheté des téléphones approuvés (voir la liste [ici](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Polycom VVX téléphones**: **accédez à l'**  >  application**État**de la  >  **plateforme**  >  principale de l'**application**  >  **Main**.
-  - **Numéros**de téléphone Yealink : accédez à **Status (statut** ) sur l’écran principal.
-  - **Téléphones AudioCodes**: accédez à **Menu**  >  l'**État**de  >  **la version du microprogramme** du menu dans l’écran d’accueil.
-  - **Téléphones Lync Phone Edition (LPE)**: accédez à **Menu**  >  **informations** sur le système de menus dans l’écran d’accueil.
+  - **Téléphones Polycom VVX**: go to **Settings**  >  **Status**  >  **Platform**  >  **Application**  >  **Main**.
+  - **Téléphones Yealink :** accès au **statut** sur l’écran principal du téléphone.
+  - **Téléphones AudioCodes :** allez à la version du microprogramme **de** l’état du périphérique  >    >  **du menu** à partir de l’écran d’accueil.
+  - **Téléphones Lync Phone Edition (LPE)**: allez à **Menu** System Information (Informations système) à partir de  >   l’écran d’accueil.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -50,7 +50,7 @@ La première chose à faire est de confirmer que vous avez :
 Vous devrez suivre les étapes suivantes :
 
 ### <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
-1. Dans le centre d’administration, accédez à la **facturation**  >  **services d’achat**et ajoutez d' **autres offres**.
+1. Dans le Centre d’administration, allez aux   >  **services d’achat de** facturation et ajoutez **d’autres plans.**
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Cliquer sur **Téléphone de zone commune** > **Acheter maintenant** > sur la page **Commande** cliquez sur **Acheter maintenant**.
@@ -62,7 +62,7 @@ Vous devrez suivre les étapes suivantes :
 Pour plus d’informations sur les licences, consultez la section [Licences complémentaires pour Skype Entreprise et Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 - Créer un nouveau compte utilisateur pour le téléphone et attribuer les licences
-1. Dans le centre d’administration, accédez à **utilisateurs**  >  **actifs utilisateurs**  >  **Ajouter un utilisateur**.
+1. Dans le Centre d’administration, voir **Utilisateurs**  >  **actifs Ajouter** un  >  **utilisateur.**
 2. Saisissez un **Nom d'utilisateur** comme « Réception » pour le prénom et « Principale » pour le nom.
 3. Saisissez un **Nom d’affichage**, s’il n’est pas généré automatiquement, comme « Reception Principale ».
 4. Saisissez un **Nom d'utilisateur** comme « RéceptionPrincipale » ou « HallPrincipal ».
@@ -82,9 +82,9 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Étape 3 - Attribuer un numéro de téléphone au compte utilisateur du téléphone de zone commune
 
-![Icône indiquant le logo Skype entreprise ](../../images/sfb-logo-30x30.png) attribuez un numéro de téléphone à l’utilisateur à l’aide du **Centre d’administration Skype entreprise**
+![Icône montrant le logo Skype Entreprise - Affecter un numéro de téléphone à l’utilisateur à l’aide ](../../images/sfb-logo-30x30.png) du Centre **d’administration Skype Entreprise**
 
-1. Dans le centre d’administration > Centre d' **administration**  >  **Skype entreprise**.
+1. Dans le Centre d’administration > **centres d’administration**  >  **Skype Entreprise.**
 2. Dans le **Centre d’administration Skype Entreprise** >  **Voix** > **Numéros de téléphone**.
 3. Sélectionnez un numéro dans la liste des numéros de téléphone et cliquez sur **Attribuer**.
 4. Sur la page **Attribuer**, dans la zone **Utilisateur vocal**, entrez le nom de l’utilisateur utilisé pour le téléphone, puis sélectionnez l'utilisateur dans la liste déroulante **Sélectionner un utilisateur vocal**.
@@ -98,7 +98,7 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 Pour plus de détails, reportez-vous à la section [Obtenir des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Si vous vous demandez, vous pouvez également utiliser votre numéro de téléphone avec un autre opérateur et le «*port*», ou le transférer sur Microsoft 365 ou Office 365. Reportez-vous à la section [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Si vous vous demandez, vous pouvez également prendre votre numéro de téléphone avec un autre opérateur et «*transférer*» vers Microsoft 365 ou Office 365. Voir, [Transférer des numéros de téléphone dans Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>Étape 4 - Configuration de votre téléphone
 
@@ -116,7 +116,7 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 - Maintenant que le mode TZC est activé, configurez le téléphone en utilisant l’affichage du téléphone. L’affichage devrait montrer **TZC est activé**. Faites ensuite ceci :
 
     1. Cliquez sur **Paramètres**.
-    2. Sélectionnez **avancé**.
+    2. Sélectionnez **Avancé.**
     3. Entrez le mot de passe.
     4. Dans **Paramètres d’administration**, sélectionnez **Paramètres du téléphone de zone commune**.
     5. Activer **TZC** et **Mode d’administration TZC**.
@@ -125,7 +125,7 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 - Maintenant votre téléphone est prêt pour que vous puissiez vous connecter à partir de l’écran d’accueil.
 
     1. Connectez-vous en sélectionnant **Paramètres** > **Fonctionnalités** > **Skype Entreprises.**
-    2. Sélectionnez **Informations d’identification de l’utilisateur**et sélectionnez **connexion Web (TZC)** pour générer un code.
+    2. Sélectionnez **Informations d’identification de l’utilisateur** et sélectionnez **connexion Web (TZC)** pour générer un code.
     3. Aller sur le [portail de provisionnement](https://aka.ms/skypecap)et connectez-vous en tant qu’**administrateur**.
     4. Entrez le nom d’affichage (par exemple, Réception principale).
 
@@ -138,7 +138,7 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 
 
 > [!NOTE]
-> Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé un Active Directory local vers un environnement AAD et que vous utilisez un contrôle IDP ou ADFS tiers, la mise en service de la stratégie d’approvisionnement échoue. Dans le cas présent, vous devez utiliser un compte Microsoft 365 ou Office 365/Azure Active Directory uniquement (par exemple, un compte avec un domaine **onmicrosoft.com** ) pour que la configuration de la mise en service de l’embout fonctionne.
+> Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé une annuaire Active Directory local avec AAD et que vous utilisez un IDP ou ADFS tiers, la mise en service cap échoue. Dans ce cas, vous devez utiliser un compte Microsoft 365 ou Office 365/Azure Active Directory uniquement (par exemple, un compte avec un domaine **onmicrosoft.com)** pour que la mise en service CAP fonctionne.
 
 
 ### <a name="related-topics"></a>Sujets associés

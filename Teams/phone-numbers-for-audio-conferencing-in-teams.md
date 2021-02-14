@@ -32,7 +32,7 @@ ms.locfileid: "44665886"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
-Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour afficher les numéros de téléphone affectés à votre pont de conférence audio, dans le centre d’administration Microsoft Teams, **accédez à la**section  >  **ponts de conférences**de conférences. Pour plus d’informations, [consultez la liste des numéros de conférence audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour voir les numéros de téléphone **affectés** à votre pont de conférence audio, dans le Centre d’administration Microsoft Teams, consultez des ponts de conférence  >  **Réunions.** Pour plus d’informations, consultez la liste des numéros [d’audioconférence.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarifs de l’audioconférence
@@ -41,7 +41,7 @@ Pour obtenir la liste complète des pays/régions et des villes où l’audiocon
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone de connexion figurant dans l'invitation à participer à une réunion
 
-Lorsqu'un utilisateur de Microsoft Teams planifie une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut défini pour l'utilisateur est inclus dans l'invitation à participer à la réunion. Si vous voulez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez le modifier en accédant à **utilisateurs**, en sélectionnant l’utilisateur et en modifiant les paramètres d’audioconférence de l’utilisateur. Reportez-vous à la section [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md)
+Lorsqu'un utilisateur de Microsoft Teams planifie une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut défini pour l'utilisateur est inclus dans l'invitation à participer à la réunion. Si vous souhaitez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez le modifier en sélectionnant Utilisateurs, en sélectionnant l’utilisateur et en modifiez les paramètres d’audioconférence de l’utilisateur. Reportez-vous à la section [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md)
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Numéros de téléphone d'accès définis sur un pont d’audioconférence
@@ -50,7 +50,7 @@ Deux types de numéros de téléphone d’audioconférence peuvent être attribu
   
 - Les **numéros de téléphone dédiés** sont les numéros disponibles uniquement pour les utilisateurs au sein de votre organisation. Vous pouvez modifier les langues utilisées lorsque quelqu'un appelle l'un de ces numéros.
   
-- Les **numéros de téléphone partagés** sont les numéros de téléphone que vous pouvez partager avec d’autres 365 ou Office 365. Vous ne pouvez pas modifier la langue utilisée lorsque quelqu’un appelle l’un de ces numéros.
+- **Les numéros de téléphone** partagés sont des numéros qui peuvent être partagés avec d’autres Microsoft 365 ou Office 365. Vous ne pouvez pas modifier les langues utilisées lorsque quelqu’un appelle l’un de ces numéros.
   
 Bien que le numéro d’audioconférence par défaut attribué à un organisateur soit uniquement inclus dans l'invitation à participer à la réunion, un appelant peut utiliser n'importe quel numéro de téléphone attribué à votre pont de conférence pour participer à une réunion. La liste des numéros de téléphone qui peuvent être utilisés pour participer à une réunion est disponible en cliquant sur le lien **Trouver un numéro national** figurant sur chaque invitation à la réunion.
   
@@ -78,4 +78,4 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

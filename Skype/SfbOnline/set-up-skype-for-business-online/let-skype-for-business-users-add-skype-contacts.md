@@ -31,13 +31,13 @@ ms.locfileid: "44164473"
 
 Avec Skype Entreprise, vos utilisateurs peuvent rechercher et contacter par messagerie instantanéet toute personne utilisant Skype, l'application gratuite ! Cet article vous indique comment procéder pour leur permettre d'ajouter des contacts Skype. 
   
-Pour cela, vous devez disposer des [autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) dans Microsoft 365 ou Office 365.
+Pour ce [faire, vous](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) devez avoir des autorisations d’administrateur dans Microsoft 365 ou Office 365.
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
   
-1. Connectez-vous à l’aide de votre compte d’administrateur Microsoft [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)365 ou Office 365.
+1. Connectez-vous à l’aide de votre compte d’administrateur Microsoft 365 ou Office 365 sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     
-2. Dans le centre d’administration, accédez à **centres** > d’administration**Skype entreprise**. 
+2. Dans le Centre d’administration, allez dans les **Centres d’administration**  >  **Skype Entreprise.** 
     
     ![Sélectionnez le centre d'administration de Skype Entreprise.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

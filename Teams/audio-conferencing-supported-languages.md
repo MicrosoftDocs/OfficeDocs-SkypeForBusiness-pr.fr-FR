@@ -31,14 +31,14 @@ ms.locfileid: "44610293"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l’audioconférence
 
-Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner les langues principales et secondaires (jusqu’à 4) utilisées lorsque les appelants se connectent à une réunion Skype entreprise ou Microsoft Teams. Voici la liste des langues prises en charge pour les conférences audio : 
+Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou Office 365, vous pouvez sélectionner la langue principale et les langues secondaires (4 au plus) utilisées lorsque les appelants appellent une réunion Skype Entreprise ou Microsoft Teams. Voici la liste des langues prise en charge pour l’audioconférence : 
   
 > [!IMPORTANT]
-> La langue principale et les langues secondaires ne peuvent être modifiées qu’avec des numéros de téléphone de conférence audio spécifiques. 
+> La langue principale et les langues secondaires ne peuvent être modifiées que sur des numéros de téléphone d’audioconférence dédiés. 
   
 ## <a name="currently-supported-languages"></a>Langues actuellement prises en charge
 
-|**Langue**|**Pays/Région**|**ID de culture**|
+|**Langue**|**Pays/Région**|**Culture ID**|
 |:-----|:-----|:-----|
 |Arabe  <br/> |Arabie saoudite  <br/> |ar-SA  <br/> |
 |Bulgare  <br/> |Bulgarie  <br/> |bg-BG  <br/> |
@@ -85,21 +85,21 @@ Lorsque vous configurez et configurez l’audioconférence dans Microsoft 365 ou
 |Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |
 |Ukrainien  <br/> |Ukraine  <br/> |uk-UA  <br/> |
    
-Si vous recherchez des pays ou des régions dans lesquelles vous pouvez acheter des services d’audioconférence, voir [disponibilité du pays et de la région pour les offres de conférence et d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Si vous recherchez des pays ou des régions dans lequel vous pouvez acheter l’audioconférence, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-Si vous recherchez des pays ou des régions ayant des numéros de téléphone pour l’audioconférence, reportez-vous à la rubrique [numéros de téléphone pour les conférences audio de Microsoft teams](phone-numbers-for-audio-conferencing-in-teams.md) ou [des numéros de téléphone pour les conférences audio dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Si vous recherchez des pays ou régions spécifiques qui ont des numéros de téléphone pour l’audioconférence, consultez les numéros de téléphone pour l’audioconférence dans [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) ou les numéros de téléphone pour l’audioconférence dans Skype Entreprise [Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-- Pour gagner du temps ou automatiser cette opération, vous pouvez utiliser les applets de connexion [get-//go.Microsoft.com/fwlink/](https://go.microsoft.com/fwlink/?LinkId=617684) ou [Set-csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617689) .
+- Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser les cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) ou [Set-CsOnlineDialInConferencingServiceNumber.](https://go.microsoft.com/fwlink/?LinkId=617689)
     
-- Windows PowerShell consiste à gérer les utilisateurs et à identifier les utilisateurs autorisés ou interdits. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- Windows PowerShell vous permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à Windows PowerShell, consultez les rubriques ci-après :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -110,8 +110,8 @@ Si vous recherchez des pays ou des régions ayant des numéros de téléphone po
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

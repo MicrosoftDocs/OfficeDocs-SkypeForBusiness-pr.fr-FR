@@ -1,5 +1,5 @@
 ---
-title: Réinitialiser le code confidentiel de l’audioconférence dans Skype entreprise Online
+title: Réinitialiser le code confidentiel de l’audioconférence dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et la manière de les réinitialiser dans Skype entreprise online. '
+description: 'Découvrez ce que vous devez savoir sur les piNs et comment les réinitialiser dans Skype Entreprise Online. '
 ms.openlocfilehash: 21e2742653e72919df0647c0539fdb335585cc84
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164693"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence dans Skype entreprise Online
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence dans Skype Entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur la réinitialisation des codes confidentiels des audioconférences dans Microsoft Teams, consultez la rubrique [Réinitialiser le code confidentiel des audioconférences dans Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
@@ -39,13 +39,13 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
   
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-1. Connectez-vous à l’aide de votre compte professionnel ou scolaire.
+1. Connectez-vous avec votre compte scolaire ou scolaire.
     
-2. Accédez au centre d’administration > **Skype entreprise**, puis, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
+2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
     
-3. Cliquez sur **utilisateurs**, sélectionnez l’utilisateur pour lequel vous souhaitez réinitialiser le code confidentiel.
+3. Cliquez sur **Utilisateurs,** puis sélectionnez l’utilisateur pour qui vous voulez réinitialiser le code confidentiel.
     
-4. Dans le volet action, sous **code confidentiel**, cliquez sur **Réinitialiser**.
+4. Dans le volet Action, sous Code **confidentiel,** cliquez sur **Réinitialiser.**
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -66,13 +66,13 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Lorsqu'une réunion commence, tous les utilisateurs qui se trouvent dans la salle d'attente participent automatiquement à l'événement. Par exemple, si deux participants tentent de participer à une réunion avant qu'elle ait commencé, ils sont placés dans la salle d'attente et entendent de la musique pour patienter. Lorsque l'organisateur saisit son code confidentiel sur le clavier du téléphone, il commence la réunion, ce qui permet aux utilisateurs jusqu'alors en salle d'attente d'y participer.
     
-- Par défaut, les appelants anonymes ne permettent pas de démarrer une réunion.
+- Par défaut, les appelants anonymes ne peuvent pas commencer une réunion.
     
-- Lorsque vous activez un utilisateur pour l’audioconférence, il est envoyé par défaut des messages électroniques qui incluent des informations de conférence et leur code confidentiel. L’utilisateur doit posséder une boîte aux lettres Microsoft 365 ou Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code secret est envoyé à l’utilisateur dans un message électronique à l’adresse SMTP principale (alias) qui est définie pour l’utilisateur.
+- Lorsque vous activez un utilisateur pour l’audioconférence, il est envoyé par défaut pour recevoir des courriers électroniques qui incluent les informations sur la conférence et son code confidentiel. L’utilisateur doit avoir une boîte aux lettres Microsoft 365 ou Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel est envoyé à l’utilisateur par courrier électronique à son adresse SMTP principale (alias) définie pour l’utilisateur.
     
 - When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
-- Par défaut, l’adresse électronique est définie sur l’adresse SMTP principale de Microsoft 365 ou Office 365. Vous pouvez envoyer un courrier électronique à une adresse non Microsoft 365 ou non-Office 365, telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez remplacer l’adresse électronique par défaut à l’aide de Windows PowerShell. Cette fonctionnalité est utile si les utilisateurs ne disposent pas de boîte aux lettres Exchange dans Microsoft 365 ou Office 365.
+- Par défaut, le courrier électronique sera réglé sur l’adresse SMTP principale Microsoft 365 ou Office 365 de l’utilisateur. Vous pouvez envoyer un courrier électronique à une adresse non-Microsoft 365 ou non-Office 365, telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez remplacer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Ceci est utile si les utilisateurs n’ont pas de boîte aux lettres Exchange dans Microsoft 365 ou Office 365.
     
 - To override the default user address where the email is sent, the tenant admin can use the following cmdlet: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". The SendEmail parameter is required to override the email address of the user.
     
@@ -86,13 +86,13 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell consiste à gérer les utilisateurs et à identifier les utilisateurs autorisés ou interdits. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- Windows PowerShell vous permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à Windows PowerShell, consultez les rubriques ci-après :
     
-  - [Raisons pour lesquelles vous avez besoin d’utiliser Microsoft 365 ou Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -103,6 +103,6 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Réinitialiser l’ID de conférence d’un utilisateur](reset-a-conference-id-for-a-user.md)

@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Sélectionnez applications clientes Teams, planifiez la qualité du point de terminaison, obtenez des recommandations pour le déploiement de points de terminaison Wi-Fi et le choix de périphériques audio.
+description: Choisissez les applications clientes Teams, planifiez la qualité du point de terminaison, obtenez des recommandations pour le déploiement de Wi-Fi points de terminaison et le choix d’appareils audio.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -25,52 +25,52 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/08/2020
 ms.locfileid: "44610019"
 ---
-# <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
+# <a name="plan-my-users-experience"></a>Planifier l’expérience de mes utilisateurs
 
-Cet article fournit une vue d’ensemble des exigences relatives à l’identification correcte des éléments de votre déploiement de services vocaux Cloud qui affectent directement l’interface de vos utilisateurs. En préservant ces éléments avant le déploiement, vous augmentez vos chances d’offrir à vos utilisateurs une interface fiable de grande qualité. 
+Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience fiable et de haute qualité aux utilisateurs. 
 
 ## <a name="client-deployment"></a>Déploiement du client
 
-Microsoft teams est disponible pour les clients Web, de bureau (Windows et Mac) et mobiles (Android et iOS). Pour plus d’informations sur l’installation de la version de bureau de bureau (Windows et Mac) et des clients mobiles, voir [obtenir des clients pour Microsoft teams](https://docs.microsoft.com/microsoftteams/get-clients).
+Microsoft Teams propose des clients web, de bureau (Windows et Mac) et mobiles (Android et iOS). Pour plus d’informations sur la façon dont les clients de bureau (Windows et Mac) et mobiles sont installés, consultez Obtenir [des clients pour Microsoft Teams.](https://docs.microsoft.com/microsoftteams/get-clients)
 
 ## <a name="client-updates"></a>Mises à jour du client
 
-L’un des principaux avantages de teams est que le client est automatiquement mis à jour. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive.
+L’un des principaux avantages de Teams est que le client est automatiquement tenu à jour. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive.
 
 <!--ENDOFSECTION-->
 
 ## <a name="plan-for-endpoint-quality"></a>Planifier la qualité des points de terminaison
 
-Comme vous pouvez le voir dans le diagramme ci-dessous, les points de terminaison constituent un bloc de construction important pour offrir une qualité optimale aux utilisateurs.
+Comme le montre le diagramme ci-dessous, les points de terminaison jouent un rôle essentiel dans la fourniture d’une expérience de qualité aux utilisateurs.
 
-![Diagramme décrivant les trois composantes de la qualité](media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
+![Diagramme décrivant les trois composants de la qualité](media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composants de la qualité et la manière dont la gestion des services chevauche les trois composants. Avec le focus sur les points de terminaison.")
 
-Les points de terminaison teams peuvent s’exécuter sur de nombreux appareils, notamment les PC, Mac, tablettes et appareils mobiles. Une partie de l’expérience n’englobe pas uniquement le périphérique, mais le mode de connexion de l’utilisateur à l’appareil (par exemple, à l’aide du micro/haut-parleur intégré du périphérique, de confortables ou d’un casque optimisé). L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
+Les points de terminaison Teams peuvent s’exécuter sur de nombreux appareils, notamment des PC, des Mac, des tablettes et des appareils mobiles. Une partie de l’expérience englobe non seulement l’appareil, mais également la façon dont un utilisateur se connecte à l’appareil, par exemple, en utilisant le micro/haut-parleur intégré de l’appareil, les écouteurs ou un casque optimisé. L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 
 Les conseils suivants sur la planification des points de terminaison vous aideront à vous assurer que votre organisation a une expérience d'intégration réussie avec Teams.
 
 ## <a name="endpoint-capability"></a>Capacité des points de terminaison
 
-Dans la première partie de la planification, vous devez vous assurer que tous les PC et autres appareils de votre organisation peuvent exécuter Teams. Il ne s'agit pas seulement d'examiner les exigences matérielles, mais aussi de comprendre ce que le PC fait d'autre en arrière-plan. De nombreuses organisations utilisent d'autres logiciels, y compris les systèmes de détection d'intrusion et les logiciels antimalware, qui peuvent affecter les performances de base d'un appareil.
+La première partie de la planification consiste à s’assurer que tous les PC et autres appareils de votre organisation peuvent exécuter Teams. Il ne s'agit pas seulement d'examiner les exigences matérielles, mais aussi de comprendre ce que le PC fait d'autre en arrière-plan. De nombreuses organisations utilisent d'autres logiciels, y compris les systèmes de détection d'intrusion et les logiciels antimalware, qui peuvent affecter les performances de base d'un appareil.
 
-Pour plus d’informations sur la configuration logicielle requise pour les clients teams sur chaque plateforme (Web, ordinateur de bureau et appareil mobile), voir [obtenir des clients pour Microsoft teams](https://docs.microsoft.com/microsoftteams/get-clients).
+Pour plus d’informations sur les conditions logicielles requises pour les clients Teams sur chaque plateforme (web, ordinateur de bureau et mobile), voir Obtenir [des clients pour Microsoft Teams.](https://docs.microsoft.com/microsoftteams/get-clients)
 
 ## <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
 Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
-Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu client en fonction des informations contenues dans les [URL et plages d’adresses IP de Microsoft 365 ou Office 365](https://aka.ms/o365ips). Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
+Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations dans les URL et [plages d’adresses IP Microsoft 365 ou Office 365.](https://aka.ms/o365ips) Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
 
 >[!NOTE]
 > Les équipes Microsoft mettront automatiquement à jour le pare-feu Windows avec une configuration de pare-feu appropriée.
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>Recommandations Wi-Fi pour les points de terminaison
 
-Il est important de planifier le déploiement d’un réseau Wi-Fi optimisé pour prendre en charge les charges de travail en temps réel dans Microsoft Teams. Les sections suivantes fournissent des recommandations générales qui peuvent vous aider à éviter des pièges courants lors de la planification de points de terminaison.
+La planification du déploiement d’un réseau Wi-Fi optimisé pour prendre en charge les charges de travail en temps réel dans Microsoft Teams prend beaucoup de temps. Les sections suivantes fournissent des instructions générales qui peuvent vous aider à éviter les pièges courants lors de la planification de points de terminaison.
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Certains pilotes Wi-Fi peuvent poser problème. Par exemple, un pilote peut avoir des comportements d'itinérance très agressifs entre les points d'accès, provoquant une mauvaise qualité d'appel.
-Ce n’est pas une occurrence courante, mais il est important de veiller à ce que les pilotes Wi-Fi sur le PC aient été mis à jour et testés avant de procéder au déploiement.
+Certains Wi-Fi pilotes peuvent être problématiques. Par exemple, un pilote peut avoir des comportements d'itinérance très agressifs entre les points d'accès, provoquant une mauvaise qualité d'appel.
+Cette occurrence n’est pas courante, mais il est important de vous assurer que les pilotes Wi-Fi sur PC ont été mis à jour et testés avant le déploiement.
 
 ### <a name="wi-fi-bands"></a>Bandes Wi-Fi
 
@@ -85,13 +85,13 @@ Prévoyez des appareils qui prennent en charge les nouveaux types de radio Wi-Fi
 
 Certaines organisations préfèrent éviter complètement le Wi-Fi. Parfois, ces conseils sont fournis par le biais d'une recommandation aux utilisateurs de se connecter directement à un réseau câblé. Dans certains cas, l'ordre de liaison réseau peut avoir la préférence pour la connexion sans fil et continuer à utiliser cette connexion même si le PC est connecté à la connexion câblée. Pour éviter ce scénario involontaire, configurez l'ordre de liaison.
 
-### <a name="80211-power-save-protocol"></a>802,11 Power Save Protocol
+### <a name="80211-power-save-protocol"></a>802.11 Protocole Power Save
 
-Si votre organisation utilise des points d’accès sans fil ou des routeurs qui ne prennent pas en charge le protocole Power Save de 802,11, il est possible que vous rencontriez des appels interrompus ou une mauvaise qualité d’appel dans Microsoft teams sur les appareils Windows. Si la mise à niveau de votre point d'accès sans fil ou de vos routeurs est impossible, vous devez mettre à jour les paramètres du plan d'alimentation Windows sur les appareils fonctionnant sur batterie. De plus amples détails et des conseils de configuration sont fournis dans l'[article de support](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you) suivant.
+Si votre organisation utilise des points d’accès sans fil ou des routeurs qui ne supportent pas le protocole Power Save 802.11, vous risquez de vivre des appels supprimés ou de mauvaise qualité d’appel dans Microsoft Teams s’exécutant sur des appareils Windows. Si la mise à niveau de votre point d'accès sans fil ou de vos routeurs est impossible, vous devez mettre à jour les paramètres du plan d'alimentation Windows sur les appareils fonctionnant sur batterie. De plus amples détails et des conseils de configuration sont fournis dans l'[article de support](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you) suivant.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quels clients teams seront déployés au sein de votre organisation ?</li><li>Comment allez-vous déployer initialement les clients teams pour vos utilisateurs ?</li><li>Qui est responsable de l’évaluation des points de terminaison et des appareils pour vérifier qu’ils répondent aux exigences d’une équipe en matière de qualité ?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Document le processus qui sera suivi pour le déploiement de clients Teams.</li><li>Évaluez les points de terminaison et les périphériques, puis effectuez et remédiez aux problèmes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quels clients Teams seront déployés dans votre organisation ?</li><li>Comment allez-vous déployer initialement les clients Teams vers vos utilisateurs ?</li><li>Qui est responsable de l’évaluation des points de terminaison et des appareils afin de vérifier qu’ils répondent aux exigences de Teams pour une expérience de qualité ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le processus qui sera suivi pour déployer les clients Teams.</li><li>Évaluez les points de terminaison et les appareils, et effectuez les corrections requises.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -100,7 +100,7 @@ Si votre organisation utilise des points d’accès sans fil ou des routeurs qui
 
 Microsoft Teams peut être utilisé pour des réunions ou comme système téléphonique. Lors de l'utilisation de ces fonctions, le dispositif d'interface utilisé pour Teams joue un rôle important dans l'expérience utilisateur.
 
-L'utilisation d'un haut-parleur et d'un microphone d’ordinateur portable intégrés peut sembler acceptable pour l'utilisateur qui dispose de cette configuration. En règle générale, ces appareils ne sont pas optimisés pour l’annulation du bruit et tout type de bruit ambiant peut avoir une incidence en aval sur les autres participants. L'utilisation d'appareils optimisés pour ces scénarios contribuera à assurer une expérience de haute qualité.
+L'utilisation d'un haut-parleur et d'un microphone d’ordinateur portable intégrés peut sembler acceptable pour l'utilisateur qui dispose de cette configuration. En règle générale, ces appareils ne sont pas optimisés pour l’annulation du bruit et tout type de bruit ambiant peut avoir un impact en aval sur les autres personnes qui font l’appel. L'utilisation d'appareils optimisés pour ces scénarios contribuera à assurer une expérience de haute qualité.
 
 Chaque appareil doit répondre aux besoins de vos utilisateurs. Vous devrez adapter les appareils tels que les casques pour les différentes personnes et les cas d'utilisation dans votre organisation.
 Un exercice de mappage personne à appareil devrait être effectué dans le cadre du processus de planification.
@@ -108,13 +108,13 @@ Un exercice de mappage personne à appareil devrait être effectué dans le cadr
 Une fois que vous avez sélectionné les appareils, incluez-les dans le plan d'essai pilote pour la validation finale. Tirez parti des sondages pendant le projet pilote pour recueillir des commentaires afin de vous assurer que la stratégie de votre appareil est optimale.
 
 > [!NOTE]
-> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher des périphériques certifiés dans le cadre de ce programme, voir les appareils [Microsoft teams](https://products.office.com/microsoft-teams/across-devices/devices) et les [périphériques audio et vidéo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher les périphériques certifiés dans le cadre de ce programme, consultez les [périphériques Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) et [les périphériques audio et vidéo USB.](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décider de la stratégie d’appareil globale de votre organisation pour les expériences utilisateur et salle de réunion.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Effectuez un exercice de mappage de personne à appareil pour votre organisation.</li><li>Documentez le processus d’obtention d’appareils pour les utilisateurs et les salles de réunion.</li><li>Documentez le processus de déploiement et de configuration des appareils pour les utilisateurs et les salles de réunion.</li><li>Pour commencer votre déploiement, vous pouvez procéder de la sorte.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez la stratégie globale de votre organisation en matière d’appareils pour les utilisateurs et les salles de réunion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Effectuer un exercice de mappage de personnage sur appareil pour votre organisation.</li><li>Documenter le processus d’obtention des périphériques pour les utilisateurs et les salles de réunion.</li><li>Documentez le processus de déploiement et de configuration des appareils pour les utilisateurs et les salles de réunion.</li><li>Procurez-vous les appareils initiaux pour commencer votre déploiement.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

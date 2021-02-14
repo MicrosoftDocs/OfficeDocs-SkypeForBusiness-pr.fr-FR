@@ -1,5 +1,5 @@
 ---
-title: Affichage de la liste des utilisateurs activés pour les conférences audio dans Skype entreprise Online
+title: Consulter la liste des utilisateurs activés pour l’audioconférence dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,12 +28,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44163923"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Affichage de la liste des utilisateurs activés pour les conférences audio dans Skype entreprise Online
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Consulter la liste des utilisateurs activés pour l’audioconférence dans Skype Entreprise Online
 
 > [!NOTE]
-> Pour plus d’informations sur les utilisateurs activés dans Microsoft Teams, reportez-vous à [la liste des utilisateurs activés pour les conférences audio dans Microsoft teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+> Pour plus d’informations sur les utilisateurs activés dans Microsoft Teams, consultez la liste des utilisateurs activés pour [l’audioconférence dans Microsoft Teams.](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)
 
-Une fois que vous avez activé les utilisateurs de Skype entreprise dans votre organisation pour l’audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. Lorsque vous observez la liste, vous pouvez également voir pour chaque utilisateur dans la liste le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone d’accès par défaut de l’utilisateur, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions de conférence audio qu’il organise.
+Une fois que vous avez activé l’audioconférence pour les utilisateurs de Skype Entreprise dans votre organisation, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous voyez également pour chaque utilisateur le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone à composer par défaut, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions d’audioconférence qu’il organise.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -41,21 +41,21 @@ Une fois que vous avez activé les utilisateurs de Skype entreprise dans votre o
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
    
-- Dans le volet de navigation de gauche, accédez à**utilisateurs**de l' **audioconférence** > .
+- Dans le groupe de navigation de gauche, allez à Utilisateurs de **l’audioconférence.**  >  
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur dans la liste et utiliser le volet action pour modifier les paramètres de conférence audio de cet utilisateur.
+- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur dans la liste et utiliser le volet Action pour modifier les paramètres d’audioconférence de cet utilisateur.
     
-- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser Microsoft comme fournisseur de services d’audioconférence, vous pouvez afficher le numéro de téléphone par défaut et savoir si votre organisation est activée pour les ID de conférence dynamiques et vous pouvez réinitialiser l’ID de conférence des réunions que l’utilisateur organise.
+- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser Microsoft comme fournisseur de services d’audioconférence, vous pouvez afficher le numéro de téléphone par défaut et déterminer si votre organisation est activée pour les ID de conférence dynamiques, et vous pouvez réinitialiser l’ID de conférence pour les réunions que l’utilisateur organise.
     
-- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser un fournisseur de services d’audioconférence tiers, vous pouvez afficher le nom du fournisseur de services d’audioconférence, le numéro de téléphone payant et le numéro de téléphone gratuit (le cas échéant).
+- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser un fournisseur de services d’audioconférence tiers, vous pouvez afficher le nom du fournisseur de services d’audioconférence, le numéro de téléphone gratuit et le numéro de téléphone gratuit (s’il est configuré).
     
 - Vous pouvez utiliser les options de filtre pour afficher les utilisateurs :
     
-  - **Audioconférence**
+  - **Audioconférence sur**
     
-  - **Audioconférence désactivé**
+  - **Audioconférences off**
     
   - **Fournisseur de services de conférence - Microsoft**
     
@@ -67,21 +67,21 @@ Une fois que vous avez activé les utilisateurs de Skype entreprise dans votre o
     
   - Sélectionnez un autre numéro par défaut pour ces utilisateurs.
     
-  - Désactivez l’option audioconférence pour l’utilisateur en définissant le fournisseur sur **aucun**.
+  - Pour désactiver l’audioconférence pour l’utilisateur, modifiez le fournisseur en **Fournisseur Aucune.**
     
-  - Basculez vers Microsoft en tant que fournisseur de services d’audioconférence si l’utilisateur a reçu une licence **audioconférence** .
+  - Basculez vers Microsoft comme fournisseur de services d’audioconférence si une licence **d’audioconférence** a été affectée à l’utilisateur.
     
   - Autorisez les utilisateurs anonymes à activer les réunions téléphoniques d'utilisateurs sélectionnés ou interdisez-leur.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 et Skype entreprise Online à l’aide d’un point d’administration unique qui peut vous simplifier le travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 et Skype Entreprise Online depuis un seul point d’administration, ce qui simplifie votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Raisons pour lesquelles vous avez besoin d’utiliser Microsoft 365 ou Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -89,6 +89,6 @@ Une fois que vous avez activé les utilisateurs de Skype entreprise dans votre o
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

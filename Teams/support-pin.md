@@ -1,5 +1,5 @@
 ---
-title: Comment puis-je voir mon code confidentiel d’assistance ?
+title: Comment rechercher mon code pin du support ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: mikedav
 search.appverid: MET150
-description: Découvrez comment trouver votre code confidentiel d’assistance.
+description: Découvrez comment rechercher votre code pin du support.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
@@ -20,17 +20,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44221638"
 ---
-# <a name="how-to-look-up-your-support-pin"></a>Comment trouver le code confidentiel du support technique
+# <a name="how-to-look-up-your-support-pin"></a>Rechercher votre code PIN du support
 
-Pour trouver votre code confidentiel d’assistance, qui permet aux clients de Microsoft par le biais du téléphone, procédez comme suit : 
+Pour rechercher votre code pin du support, qui permet au support client Microsoft par téléphone, suivez ces étapes : 
 
-1. Connectez-vous au [Centre d’administration Office](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage). 
+1. Connectez-vous au [Centre d’administration Office.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
 
 2. Cliquez sur l’icône d’engrenage.
 
-3. Le code confidentiel du support s’affichera dans le volet inférieur droit. Vous pouvez également choisir de régénérer votre code confidentiel le cas échéant.  
+3. Votre code pin du support s’affiche dans le volet inférieur droit. Vous pouvez également choisir de générer à un autre votre code confidentiel si nécessaire.  
 
-   ![Diagramme montrant le code confidentiel de support](media/support-pin.png)
+   ![Diagramme montrant le code confidentiel de prise en charge](media/support-pin.png)
 
 
 

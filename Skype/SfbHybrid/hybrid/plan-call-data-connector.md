@@ -1,5 +1,5 @@
 ---
-title: Planifier le connecteur de données d’appel | Tableau de bord de la qualité des appels analyse hybride
+title: Planifier le connecteur de données d’appel | Analyse hybride du tableau de bord de qualité des appels
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Vue d’ensemble de l’utilisation des outils de télémétrie Skype entreprise Online pour surveiller une implémentation locale dans un scénario hybride.
+description: Vue d’ensemble de l’utilisation des outils de télémétrie Skype Entreprise Online pour surveiller une implémentation sur site dans un scénario hybride.
 ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -23,71 +23,71 @@ ms.locfileid: "44221314"
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Cette rubrique décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du connecteur de données d’appel Skype entreprise Server. Pour plus d’informations sur la configuration du connecteur de données d’appel, voir [configure Call call Data Connector](configure-call-data-connector.md).
+Cette rubrique décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du connecteur de données d’appel Skype Entreprise Server. Pour plus d’informations sur la configuration du connecteur de données d’appel, voir [Configure Call Data Connector](configure-call-data-connector.md).
 
 
-Call Data Connector simplifie grandement la surveillance des appels dans un environnement hybride car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour surveiller la qualité des appels de tous vos utilisateurs. Que vos utilisateurs soient hébergés sur site ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour l’ensemble de votre organisation en ligne.
+Call Data Connector simplifie considérablement la surveillance des appels dans un environnement hybride, car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour surveiller la qualité des appels de tous vos utilisateurs. Que vos utilisateurs soient en local ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour l’ensemble de votre organisation en ligne.
 
-Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un seul ensemble d’outils :
+Avec Le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
 
-- Surveillez votre expérience utilisateur dans Microsoft Teams, Skype entreprise Online et Skype entreprise Server.
+- Surveillez votre expérience utilisateur dans Microsoft Teams, Skype Entreprise Online et Skype Entreprise Server.
 
 - Afficher et résoudre les problèmes sur votre réseau.
 
-- Attribuer des rôles d’assistance technique et d’administrateur pour l’analyse des appels, afin que vous puissiez aider les employés du support technique à consulter et dépanner leur domaine de responsabilité.
+- Attribuez des rôles d’administrateur et de helpdesk pour l’analyse des appels, afin que vous pouvez permettre aux travailleurs du helpdesk d’afficher et de dépanner leurs domaines de responsabilité.
 
-Avec le connecteur de données d’appel, Skype entreprise Server transmet les données d’appel au service Cloud afin que vous puissiez utiliser les outils d’analyse des appels de Skype entreprise Online (CA) et de la qualité des appels (CQD), comme illustré dans le diagramme suivant :
+Avec le connecteur de données d’appel, Skype Entreprise Server fournit des données d’appel au service cloud afin que vous pouvez tirer parti des outils d’analyse des appels de Skype Entreprise Online (CA) et du tableau de bord de qualité des appels( CQD), comme illustré dans le diagramme suivant :
 
-![Messagerie vocale Cloud SfB](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![Messagerie vocale cloud SfB](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
-Le serveur transmet les données de qualité de l’expérience (QoE) et d’enregistrement des détails des appels au service en ligne.
+Le serveur pousse les données de qualité de l’expérience (QoE) et d’enregistrement des détails des appels vers le service en ligne.
 
-Les outils d’analyse et d’CQD d’appels vous permettent de surveiller la qualité des appels et de résoudre les problèmes de connexion avec Microsoft teams et les services Skype entreprise comme suit :
+Les outils Analyse des appels et CQD vous permettent de surveiller la qualité des appels et de résoudre les problèmes de connexion avec Microsoft Teams et les services Skype Entreprise comme suit :
 
-- L’analyse des appels se concentre sur les problèmes de qualité avec des appels spécifiques. Il affiche des informations détaillées sur les appels et les réunions de chaque utilisateur dans un compte Skype entreprise.  Avec l’analyse des appels, vous pouvez attribuer des autorisations à un opérateur de support technique qui peut ensuite surveiller les appels sans avoir accès au reste du centre d’administration de Skype entreprise.
+- L’analyse des appels se concentre sur les problèmes de qualité liés à des appels spécifiques. Il affiche des informations détaillées sur les appels et les réunions pour chaque utilisateur dans un compte Skype Entreprise.  Avec l’analyse des appels, vous pouvez attribuer des autorisations à un opérateur du centre d’administration Skype Entreprise qui peut ensuite surveiller les appels sans avoir accès au reste du Centre d’administration Skype Entreprise.
 
-- Le tableau de bord de qualité des appels se concentre sur les performances et les problèmes réseau au sein d’une organisation. Les administrateurs Skype entreprise et les ingénieurs réseau utilisent cet outil pour dépanner et optimiser les performances du réseau.
+- Le Tableau de bord de qualité des appels se concentre sur les performances et les problèmes du réseau au sein d’une organisation. Les administrateurs skype entreprise et les ingénieurs réseau utilisent cet outil pour résoudre les problèmes et optimiser les performances du réseau.
 
-Pour plus d’informations, consultez la rubrique [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Pour plus d’informations, [voir Analyse des appels et Tableau de bord de qualité des appels.](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
-Bien entendu, vous souhaiterez peut-être conserver certaines données de qualité des appels en local. Cela peut être le cas, par exemple, si vous utilisez une solution tierce avec des rapports et des flux de travail personnalisés.  Le connecteur de données d’appel vous permet de configurer l’envoi de données au service en ligne tout en conservant une copie des données sur votre serveur local, comme illustré dans le diagramme suivant :
+Bien entendu, vous souhaitez peut-être conserver certaines données de qualité des appels en local. Cela peut être le cas, par exemple, si vous utilisez une solution tierce avec des flux de travail et des rapports personnalisés.  Le connecteur de données d’appel vous permet de configurer l’envoi de données au service en ligne tout en conservant une copie des données sur votre serveur local, comme illustré dans le diagramme suivant :
 
-![Messagerie vocale Cloud SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![Messagerie vocale cloud SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>Configuration requise
 
-Les conditions suivantes supposent que vous avez déjà déployé Skype entreprise Server dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype entreprise Server et des topologies prises en charge, consultez la rubrique relative aux [concepts de base](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)de la topologie. Pour configurer le connecteur de données d’appel, vous devez :
+Les conditions suivantes supposent que Skype Entreprise Server est déjà déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype Entreprise Server et les topologies pris en charge, voir [La topologie de base.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics) Pour configurer le connecteur de données d’appel, vous devez :
 
-- Activez la connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que la connectivité hybride est configurée entre votre environnement local et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
+- Activer la connectivité hybride. Si Skype Entreprise Server est déjà déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que la connectivité hybride est définie entre vos environnements locaux et en ligne. Il s’agit parfois d’une configuration de domaine fractionnement.
 
-   Pour plus d’informations, reportez-vous à la rubrique [plan Hybrid Connectivity between Skype for Business Server et microsoft 365 ou office 365](plan-hybrid-connectivity.md) et configuration de la [connectivité hybride entre Skype entreprise server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md).
+   Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365](plan-hybrid-connectivity.md) et configurer la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365.](configure-hybrid-connectivity.md)
 
-- Authentifiez-vous auprès de votre organisation Microsoft 365 ou Office 365 et assurez-vous que les rôles suivants sont activés :
+- Authentifier votre organisation Microsoft 365 ou Office 365 et assurez-vous que les rôles suivants sont activés :
 
-  - Administrateur de Skype entreprise Server
+  - Administrateur Skype Entreprise Server
   - Administrateur général Microsoft 365 ou Office 365
 
-- Si vous ne l’avez pas déjà fait, activez le tableau de bord qualité des appels comme décrit dans [activation et utilisation du tableau de bord de la qualité des appels pour Microsoft teams et Skype entreprise Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
+- Si vous ne l’avez pas déjà fait, appelez le Tableau de bord de qualité des appels comme décrit dans Activer et utiliser le Tableau de bord de qualité des appels pour Microsoft Teams et [Skype Entreprise Online.](/microsoftteams/turning-on-and-using-call-quality-dashboard)
 
-- Activez le pool frontal pour la surveillance, avec les bases de données LCSCdr et QoEMetrics locales. Sans cela, le connecteur de données d’appel n’aura pas de données de mesure à utiliser.
+- Activez le pool frontal pour la surveillance, avec les bases de données LCSCdr et QoEMetrics locales. Sans cela, le connecteur de données d’appel n’aura pas de données de métriques à travailler.
 
 > [!IMPORTANT]
 > Le connecteur de données d’appel ne fonctionne pas si la surveillance n’est pas activée sur le pool frontal.
 
-- [Authentification de serveur à serveur](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)correctement configurée. 
+- Authentification de serveur à [serveur correctement configurée.](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications) 
 
-## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparaison des rapports de tableau de bord de qualité des appels sur site et en ligne (CQD)
+## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparaison des rapports du Tableau de bord de qualité des appels (CQD) local et en ligne
 
-| Rapports de fonctionnalités | Skype Entreprise Online | Skype Entreprise Server   |
+| Rapports sur les fonctionnalités | Skype Entreprise Online | Skype Entreprise Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
-| Mesure de partage d’application |Oui | Peu |
+| Mesure de partage d’application |Oui | Limité |
 | Informations sur la création de clients| Oui | Oui |
-| Analyse approfondie | Oui | Non |
-| Mesures de fiabilité des médias | Oui | Peu |
-| Rapports prédéfinis | Oui | Oui |
+| Analyse de l’analyse d’analyse | Oui | Non |
+| Mesures de fiabilité des médias | Oui | Limité |
+| Rapports pré-présodents | Oui | Oui |
 | Rapports de vue d’ensemble | Oui | Non |
 | Rapports par utilisateur | Oui | Oui |
-| Personnalisation des jeux de rapports <br> (ajouter, supprimer, modifier des rapports) | Oui | Oui |
+| Personnalisation de l’ensemble de rapports <br> (ajouter, supprimer, modifier des rapports) | Oui | Oui |
 | Mesures de partage d’écran vidéo | Oui | Non |
 | API de données pour l’accès par programme <br> vers CQD | Non | Oui |
 ||||

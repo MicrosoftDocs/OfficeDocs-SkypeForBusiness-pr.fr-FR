@@ -1,5 +1,5 @@
 ---
-title: Code de pratique pour le Royaume-Uni -Forfaits d’appels Microsoft 365
+title: Code de pratique pour le Royaume-Uni - Plans d’appel Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Découvrez le code de pratique pour les forfaits d’appels RTC pour Skype entreprise, notamment pour obtenir de l’aide et comment faire des réclamations et résoudre les conflits.
+description: Découvrez le code de pratique des plans d’appel RSTN pour Skype Entreprise (Royaume-Uni), notamment comment obtenir de l’aide, et comment soumettre des réclamations et résoudre les litiges.
 ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/10/2020
 ms.locfileid: "44689760"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Microsoft 365-code de pratique pour le Royaume-Uni
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Microsoft 365 - Code de pratique pour le Royaume-Uni
 
-Ce code s’applique aux clients petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) par rapport au service de plan d’appel Microsoft 365 ou Office 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce Code s’applique aux petites entreprises (organisations ne 10 employés ou moins) du Royaume-Uni en ce qui concerne le service Microsoft 365 ou de plan d’appels Office 365 (le « Service ») conformément à la législation sur les communications du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 
 ## <a name="1-about-skype-for-business"></a>1. À propos de Skype Entreprise
 
@@ -44,7 +44,7 @@ Si vous avez des questions concernant la vente, la facturation ou le support tec
 
 Numéro de téléphone gratuit : 0800 032 6417
 
-En ligne : Connectez-vous au centre d’administration 365 Microsoft et envoyez une demande de service en sélectionnant **nouvelle demande de service** sous **support**.
+En ligne : Connectez-vous au Centre d’administration Microsoft 365 et envoyez une demande de service en sélectionnant Nouvelle demande **de service** sous **Support.**
 
 Les heures d'ouverture normales sont du lundi au vendredi, de 09h00 à 17h00.
 
@@ -52,7 +52,7 @@ Vous trouverez peut-être la réponse à certaines de vos questions en visitant 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Résolution des réclamations et des litiges
 
-Nos priorités numéro sont la satisfaction du client et l'excellence de nos services. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Nos [forfaits d’appels dans Microsoft 365 ou Office 365-code de traitement des réclamations pour la page du Royaume-Uni (r.-u.)](complaint-handling-code-for-the-united-kingdom-u-k.md) les procédures destinées aux petites entreprises de classer une plainte avec nous et notre plan de résolution des litiges indépendant.
+Nos priorités numéro sont la satisfaction du client et l'excellence de nos services. Toutefois, si vous avez une réclamation, nous agirons rapidement pour vous aider à résoudre le problème. Nos forfaits d’appels dans [Microsoft 365 ou Office 365 -](complaint-handling-code-for-the-united-kingdom-u-k.md) Le code de traitement des réclamations pour le Royaume-Uni détaille la procédure que les petites entreprises doivent suivre pour porter réclamation auprès de nos services, ainsi que notre méthode indépendante de résolution des litiges.
   
 ## <a name="4-number-porting"></a>4. Transfert de numéro
 
@@ -60,13 +60,13 @@ Dans certains cas, il se peut que Skype Entreprise ne soit pas en mesure de tran
 
 ## <a name="5-service-reliability"></a>5. Fiabilité du Service
 
-Le plan d’appel Microsoft 365 ou Office 365 repose sur votre connexion haut débit. Si celle-ci est interrompue ou subit une panne de courant, vous n'êtes pas en mesure d'effectuer des appels téléphoniques. Les causes de ces pannes peuvent être hors de notre contrôle.
+Microsoft 365 ou le plan d’appels Office 365 repose sur votre connexion haut débit. Si celle-ci est interrompue ou subit une panne de courant, vous n'êtes pas en mesure d'effectuer des appels téléphoniques. Les causes de ces pannes peuvent être hors de notre contrôle.
 
 ## <a name="6-emergency-calls"></a>6. Appels d'urgence
 
-Skype Entreprise fournit un accès aux services d'appels d'urgence publics du 999/112 pour les clients situés en Angleterre, au Pays de Galles, en Écosse et en Irlande du Nord. Toutefois, les appels d’urgence vers 999 ou 112 fonctionnent différemment avec les services de plan d’appels de Microsoft 365 ou Office 365 que sur les services téléphoniques traditionnels. Les clients sont invités à notifier chaque utilisateur des services de plan d’appel Microsoft 365 ou Office 365 de ces différences.
+Skype Entreprise fournit un accès aux services d'appels d'urgence publics du 999/112 pour les clients situés en Angleterre, au Pays de Galles, en Écosse et en Irlande du Nord. Cependant, les appels d’urgence vers le 999 ou le 112 fonctionnent différemment avec les services Microsoft 365 ou Office 365 Calling Plan et les services téléphoniques traditionnels. Les clients sont tenus d’informer chaque utilisateur des services microsoft 365 ou du plan d’appel Office 365 de ces différences.
 
-Les différences sont les suivantes : (i) Skype entreprise ne connaît peut-être pas l’emplacement réel d’un appelant, ce qui pourrait entraîner l’expédition des services d’urgence au mauvais endroit ; (II) quand un utilisateur de Skype entreprise compose un appel d’urgence, il est possible qu’un opérateur lui demande de fournir son emplacement actuel pour faciliter le routage de l’appel d’urgence et l’expédition des services d’urgence ; (III) si l’appareil de l’utilisateur n’a pas d’alimentation, rencontre une panne d’alimentation ou, pour une raison quelconque, ne peut pas accéder à Internet, l’utilisateur ne peut pas passer d’appel d’urgence par le biais de Microsoft 365 ou d’Office 365 de plan d’appel. vous pouvez également utiliser les services de plan d’appel Microsoft 365 et Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne doivent pas appeler 999 ou 112 en dehors de la planète, le pays de Galles et l’Irlande du Nord, car l’appel ne sera probablement pas acheminé au service d’urgence approprié.
+Il s’agit des différences suivantes : (i) Skype Entreprise peut ne pas connaître l’emplacement réel d’un appelant, ce qui peut entraîner la déspatpatisation des services d’urgence à un emplacement erroné ; (ii) lorsqu’un utilisateur de Skype Entreprise appelle un appel d’urgence, un opérateur peut lui demander de fournir son emplacement actuel afin d’aider à bien router l’appel d’urgence et à déspatpatcher les services d’urgence ; (iii) si l’appareil de l’utilisateur n’a pas de courant, rencontre une panne de courant ou, pour une raison quelconque, ne peut pas accéder à Internet, il ne peut pas passer d’appel d’urgence via les services de plan d’appel Microsoft 365 ou Office 365 ; et (iv) même si les services de Plan d’appels Microsoft 365 et Office 365 peuvent être utilisés n’importe où dans le monde où une connexion Internet est disponible, les utilisateurs ne doivent pas appeler le 999 ou le 112 en dehors de l’Angleterre, du Pays de Galles, de l’Écosse ou de l’Irlande du Nord, car l’appel ne sera probablement pas acheminé vers le service d’urgence approprié.
 
 Il est important que chaque client enregistre l'emplacement de vos utilisateurs et maintienne cette information à jour afin qu'elle puisse être communiquée aux services d'urgence. Vous pouvez modifier les informations d'emplacement en ligne via le portail de l'administrateur de Skype Entreprise.
 
@@ -116,7 +116,7 @@ Tout comme le service TPS, le service de préférence de télécopie (FPS, Fax P
 
 Un numéroteur Internet, similaire à un virus informatique, est un logiciel pouvant être téléchargé vers votre ordinateur et connecter ce dernier à des Services à tarif surtaxé sans votre consentement ou sans que vous le sachiez. Pour protéger votre ordinateur, nous vous invitons à être vigilant lorsque vous cliquez sur des liens ou des fenêtres contextuelles et téléchargez du matériel à partir de sources inconnues. Pour plus de protection, sur demande par téléphone ou e-mail, nous pouvons bloquer l'accès à des Services à tarif surtaxé spécifiques ou à tous ces services pour des raisons financières ou liées au contenu. En outre, nous vous recommandons de télécharger tous les logiciels de sécurité nécessaires pour protéger votre ordinateur et d'installer fréquemment des mises à jour de ces logiciels à mesure qu'elles sont diffusées. Si vous pensez avoir été victime d'un numéroteur Internet, contactez-nous par téléphone ou e-mail.
 
-### <a name="phonepayplus"></a>Auprès PhonepayPlus
+### <a name="phonepayplus"></a>PhonepayPlus
 
 Tous les Fournisseurs de services doivent s'enregistrer auprès de PhonepayPlus, un organisme indépendant approuvé par Ofcom. PhonepayPlus régule les Services à tarif surtaxé et examine les réclamations déposées par les clients. Tous les Fournisseurs de services doivent adhérer au Code de pratique de PhonepayPlus, qui figure sur le site [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Si un Fournisseur viole le Code de pratique, PhonepayPlus peut :
 
@@ -149,5 +149,5 @@ Les Services de traduction nationaux sont des numéros de téléphone commençan
 Les tarifs des Services de traduction nationaux, des Numéros personnels et des numéros 0870 sont spécifiés sur notre [site Web](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809) et peuvent varier selon l'heure de la journée et le jour de la semaine où votre appel est effectué. Les appels vers le 0800 sont gratuits.
 
 
-## <a name="related-topics"></a>Rubriques connexes
-[Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## <a name="related-topics"></a>Voir aussi
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

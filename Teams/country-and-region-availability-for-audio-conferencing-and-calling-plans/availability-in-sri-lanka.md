@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Sri Lanka.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Sri Lanka.
 ms.openlocfilehash: 96a700cfa7917ca4b51c3fd4e65c831f77fd950f
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "44230692"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Sri Lanka.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Sri Lanka.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. Pour obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique[réception de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. Si vous souhaitez des numéros de téléphone dédiés, consultez Obtenir des numéros de[téléphone de service pour Skype Entreprise et Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)  <br/> |
 |Possibilité d'appel sortant à l'aide de la fonctionnalité Appelez-moi  <br/> |Nécessite des crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique

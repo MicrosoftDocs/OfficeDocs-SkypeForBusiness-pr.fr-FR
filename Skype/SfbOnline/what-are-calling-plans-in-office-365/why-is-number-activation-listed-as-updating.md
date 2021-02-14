@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
-description: La validation d’adresse est une partie importante de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
+description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
 ms.openlocfilehash: 2722928d44867547740e4049f9090af683f61824
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -31,10 +31,10 @@ ms.locfileid: "44220654"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant en cours de mise à jour ?
 
-La validation d’adresse est une partie importante de la configuration des forfaits d’appels. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **mise à jour** en raison de la validation de l’adresse, vous devez créer et renvoyer une demande de service. La procédure dépend de la taille de votre organisation.
+La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si, pour une raison quelconque, un numéro de  téléphone n’est pas activé et est répertorié comme étant une mise à jour en raison de la validation de l’adresse, vous devrez créer et envoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
-1. Dans le centre d’administration, sélectionnez **vous avez besoin d’aide**?
+1. Dans le Centre d’administration, sélectionnez **Besoin d’aide**?
 2. Dans le volet **Besoin d'aide ?**, indiquez-nous pour quel élément vous avez besoin d'aide et sélectionnez **Aide**.
 3. Si les résultats dans la section **Afficher les solutions** ne vous apportent aucune aide, sélectionnez une des options suivantes :
     - **Laissez-nous vous appeler (recommandé)**  : confirmez votre numéro de contact et appuyez sur **M'appeler**. Le temps d'attente prévu pour un rappel est indiqué dans le volet **Besoin d'aide ?**.
@@ -42,9 +42,9 @@ La validation d’adresse est une partie importante de la configuration des forf
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations comprenant plus de 150 personnes, créez une demande de service pour valider une adresse d'urgence
 
-1. Connectez-vous 365 365 à votre compte professionnel ou scolaire à l’aide de votre compte professionnel ou scolaire.
+1. Connectez-vous en tant qu’administrateur à Microsoft 365 ou Office 365 à l’aide de votre compte scolaire ou scolaire.
     
-2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge**une  >  **nouvelle demande de service**.
+2. Dans le centre d’administration, dans le panneau de navigation de gauche, cliquez sur **Nouvelle** demande  >  **de service de support.**
     
 3. Sous **Demandes de service**, cliquez sur **Ajouter**.
     
@@ -69,7 +69,7 @@ La validation d’adresse est une partie importante de la configuration des forf
       - Pays ou région
     
      > [!IMPORTANT]
-     > **Indiquez le pays ou la région où nous proposons des offres d’appel auxquelles vous essayez de valider une adresse d’urgence lorsque vous affectez un numéro de téléphone.**
+     > **Placez le pays/la région où nous proposons des plans d’appel dans lequel vous essayez de valider une adresse d’urgence lorsque vous affectez un numéro de téléphone.**
   
       - Code postal
     
@@ -94,7 +94,7 @@ La validation d’adresse est une partie importante de la configuration des forf
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page **demandes de service** du centre d’administration Microsoft 365.
+> Le numéro de référence sera répertorié dans la page Demandes **de service** du Centre d’administration Microsoft 365.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

@@ -33,7 +33,7 @@ ms.locfileid: "44163873"
 > [!Note]
 > Pour plus d’informations sur le démarrage d’une audioconférence sans code confidentiel dans Microsoft Teams, voir [Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Il peut être frustrant pour des utilisateurs qui composent le numéro de téléphone d’une réunion d’être conservés dans la salle d’attente de la réunion, car l’organisateur de la réunion Skype entreprise n’a pas encore commencé la réunion. 
+Il peut être frustrant pour des utilisateurs se composant d’un numéro de téléphone d’être placés dans la salle d’accueil de la réunion, car l’organisateur de la réunion Skype Entreprise n’a pas commencé la réunion. 
   
 If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
@@ -44,17 +44,17 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Autorisation ou refus des appelants anonymes à participer à une réunion
     
-1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**utilisateurs**de l' **audioconférence** > . 
+1. Dans le **Centre d’administration Skype** Entreprise, dans le panneau de navigation de gauche, allez à Utilisateurs de **l’audioconférence.**  >   
     
-2. Dans la liste, sélectionnez l’utilisateur, puis, dans le volet action, cliquez sur **modifier**. 
+2. Dans la liste, sélectionnez l’utilisateur, puis dans le volet Action, cliquez sur **Modifier.** 
     
-3. Sur la page des propriétés de l’utilisateur, sous options de la **réunion**, activez ou désactivez **l’option autoriser les appelants non authentifiés comme premiers participants à une réunion. Si ce n’est pas le cas, il attend dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié y adhère**.
+3. Dans la page Propriétés de l’utilisateur, sous **Options** de réunion, sélectionnez ou désélectisz l’option Autoriser les appelants non authentifiés à être les premiers utilisateurs **d’une réunion. Si ce n’est pas le cas, il attend dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié participe.**
     
 4. Cliquez sur **Enregistrer**. 
 
 
     
- **Utilisation de Windows PowerShell**
+ **Utilisation de Windows Powershell**
   
 - Exécutez la commande suivante : 
     
@@ -64,15 +64,15 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Si vous souhaitez réinitialiser le code confidentiel, reportez-vous à [la rubrique réinitialisation du code confidentiel de l’audioconférence](reset-the-audio-conferencing-pin.md).
+- Si vous voulez réinitialiser le code confidentiel, consultez Réinitialiser le code confidentiel de [l’audioconférence.](reset-the-audio-conferencing-pin.md)
     
-- Si l’accès anonyme ou ne nécessite pas un code confidentiel pour démarrer une réunion, est désactivé :
+- Si l’accès est anonyme ou si vous n’avez pas besoin d’un code confidentiel pour commencer une réunion, est désactivé :
     
-  - Si la réunion n’a pas commencé (il n’y a pas encore de compte dans la réunion) : un appelant sera invité s’il s’agit de l’organisateur ; s’il répond oui, il est invité à entrer son code confidentiel et, après avoir entré son code confidentiel, la réunion démarre et l’utilisateur se connecte à la réunion.
+  - Si la réunion n’a pas commencé (il n’y a pas encore de personne dans la réunion) : un appelant sera invité à s’en faire l’organisateur. S’il répond Oui, il est invité à saisir son code confidentiel. Une fois qu’il entre le code confidentiel, la réunion commence et l’utilisateur rejoint la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
-- Si vous avez accès anonyme ou si vous n’avez pas besoin d’un code confidentiel pour démarrer une réunion, est activé :
+- Si l’accès est anonyme ou si vous n’avez pas besoin d’un code confidentiel pour commencer une réunion, est activé :
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
@@ -82,13 +82,13 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 - Pour gagner du temps ou automatiser cette procédure pour plusieurs utilisateurs, vous pouvez utiliser l'applet de commande [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
-- Dans le cadre de l’utilisation de Windows PowerShell, Skype entreprise Online consiste à gérer les utilisateurs et quels sont les utilisateurs autorisés ou interdits. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+- En ce qui Windows PowerShell, Skype Entreprise Online est seulement pour gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à Windows PowerShell, consultez les rubriques ci-après :
     
-  - [Raisons pour lesquelles vous avez besoin d’utiliser Microsoft 365 ou Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -99,6 +99,6 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
