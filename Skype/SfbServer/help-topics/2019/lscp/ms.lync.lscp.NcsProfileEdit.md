@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824774"
 ---
-# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="3a68f-104">Profil de stratégie de bande passante : création d’un nouveau ou modification d’un profil existant</span><span class="sxs-lookup"><span data-stu-id="3a68f-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
+# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="5fa0d-104">Profil de stratégie de bande passante : création d’un nouveau ou modification d’un profil existant</span><span class="sxs-lookup"><span data-stu-id="5fa0d-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="3a68f-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="3a68f-105">What do you want to do?</span></span> <span data-ttu-id="3a68f-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="3a68f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5fa0d-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="5fa0d-105">What do you want to do?</span></span> <span data-ttu-id="5fa0d-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="5fa0d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3a68f-107">Configuration du profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="3a68f-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="5fa0d-107">Configuration du profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="5fa0d-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 

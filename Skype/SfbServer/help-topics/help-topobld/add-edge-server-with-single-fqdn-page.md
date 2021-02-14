@@ -22,10 +22,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824274"
 ---
-# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="a3d05-103">Page Ajouter un serveur Edge avec un nom de domaine complet (FQDN) unique</span><span class="sxs-lookup"><span data-stu-id="a3d05-103">Add Edge Server With Single FQDN Page</span></span>
+# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="e0917-103">Page Ajouter un serveur Edge avec un nom de domaine complet (FQDN) unique</span><span class="sxs-lookup"><span data-stu-id="e0917-103">Add Edge Server With Single FQDN Page</span></span>
  
-<span data-ttu-id="a3d05-104">Informations sur la page de nom de groupe (FQDN) unique du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="a3d05-104">Information on Edge Server Single FQDN Page.</span></span>
+<span data-ttu-id="e0917-104">Informations sur la page de nom de groupe (FQDN) unique du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="e0917-104">Information on Edge Server Single FQDN Page.</span></span>
   
-<span data-ttu-id="a3d05-105">Pour plus d’informations sur le déploiement Edge, voir [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="a3d05-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
+<span data-ttu-id="e0917-105">Pour plus d’informations sur le déploiement Edge, voir [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="e0917-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
   
 

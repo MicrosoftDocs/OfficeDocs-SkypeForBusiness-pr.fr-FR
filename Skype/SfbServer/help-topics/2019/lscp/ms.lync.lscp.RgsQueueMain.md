@@ -22,40 +22,40 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824674"
 ---
-# <a name="response-groups-queue"></a><span data-ttu-id="26990-104">File d’attente des services Response Groups</span><span class="sxs-lookup"><span data-stu-id="26990-104">Response Groups Queue</span></span>
+# <a name="response-groups-queue"></a><span data-ttu-id="c6042-104">File d’attente des services Response Groups</span><span class="sxs-lookup"><span data-stu-id="c6042-104">Response Groups Queue</span></span>
 
-<span data-ttu-id="26990-105">Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail.</span><span class="sxs-lookup"><span data-stu-id="26990-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="26990-106">Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.</span><span class="sxs-lookup"><span data-stu-id="26990-106">Response Group queues hold calls to a response group until an agent answers the call.</span></span>
+<span data-ttu-id="c6042-105">Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail.</span><span class="sxs-lookup"><span data-stu-id="c6042-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="c6042-106">Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.</span><span class="sxs-lookup"><span data-stu-id="c6042-106">Response Group queues hold calls to a response group until an agent answers the call.</span></span>
 
-<span data-ttu-id="26990-107">La page **File d’attente Response Groups** affiche la liste de toutes les files d’attente Response Group  -   définies pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="26990-107">The **Response Groups** - **Queue** page displays a list of all the Response Group queues that are defined for your organization.</span></span>
+<span data-ttu-id="c6042-107">La page **File d’attente Response Groups** affiche la liste de toutes les files d’attente Response Group  -   définies pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="c6042-107">The **Response Groups** - **Queue** page displays a list of all the Response Group queues that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="26990-108">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="26990-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="c6042-108">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="c6042-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="26990-109">Vous pouvez effectuer les tâches suivantes à partir de la page File **d’attente des groupes Response Groups**  -   :</span><span class="sxs-lookup"><span data-stu-id="26990-109">You can perform the following tasks from the **Response Groups** - **Queue** page:</span></span>
+<span data-ttu-id="c6042-109">Vous pouvez effectuer les tâches suivantes à partir de la page File **d’attente des groupes Response Groups**  -   :</span><span class="sxs-lookup"><span data-stu-id="c6042-109">You can perform the following tasks from the **Response Groups** - **Queue** page:</span></span>
 
-- <span data-ttu-id="26990-110">Créer une file d’attente</span><span class="sxs-lookup"><span data-stu-id="26990-110">Create a new queue</span></span>
+- <span data-ttu-id="c6042-110">Créer une file d’attente</span><span class="sxs-lookup"><span data-stu-id="c6042-110">Create a new queue</span></span>
 
-- <span data-ttu-id="26990-111">Modifier une file d’attente existante</span><span class="sxs-lookup"><span data-stu-id="26990-111">Change an existing queue</span></span>
+- <span data-ttu-id="c6042-111">Modifier une file d’attente existante</span><span class="sxs-lookup"><span data-stu-id="c6042-111">Change an existing queue</span></span>
 
-- <span data-ttu-id="26990-112">Supprimer une file d’attente</span><span class="sxs-lookup"><span data-stu-id="26990-112">Delete a queue</span></span>
+- <span data-ttu-id="c6042-112">Supprimer une file d’attente</span><span class="sxs-lookup"><span data-stu-id="c6042-112">Delete a queue</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="26990-113">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="26990-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="c6042-113">Référence d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="c6042-113">UI Reference</span></span>
 
-<span data-ttu-id="26990-114">La liste suivante décrit les commandes de la page.</span><span class="sxs-lookup"><span data-stu-id="26990-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="c6042-114">La liste suivante décrit les commandes de la page.</span><span class="sxs-lookup"><span data-stu-id="c6042-114">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="26990-115">**Nouveau** Démarre une nouvelle file d’attente.</span><span class="sxs-lookup"><span data-stu-id="26990-115">**New** Starts a new queue.</span></span>
+- <span data-ttu-id="c6042-115">**Nouveau** Démarre une nouvelle file d’attente.</span><span class="sxs-lookup"><span data-stu-id="c6042-115">**New** Starts a new queue.</span></span>
 
-- <span data-ttu-id="26990-116">**Modifier** Ouvre la file d’attente sélectionnée pour la modifier, sélectionne toutes les files d’attente de la liste ou supprime la file d’attente sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="26990-116">**Edit** Opens the selected queue to edit it, selects all queue in the list, or deletes the selected queue.</span></span>
+- <span data-ttu-id="c6042-116">**Modifier** Ouvre la file d’attente sélectionnée pour la modifier, sélectionne toutes les files d’attente de la liste ou supprime la file d’attente sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c6042-116">**Edit** Opens the selected queue to edit it, selects all queue in the list, or deletes the selected queue.</span></span>
 
-- <span data-ttu-id="26990-117">**Actualiser** Actualise la liste des files d’attente.</span><span class="sxs-lookup"><span data-stu-id="26990-117">**Refresh** Refreshes the list of queues.</span></span>
+- <span data-ttu-id="c6042-117">**Actualiser** Actualise la liste des files d’attente.</span><span class="sxs-lookup"><span data-stu-id="c6042-117">**Refresh** Refreshes the list of queues.</span></span>
 
-<span data-ttu-id="26990-118">La liste suivante décrit les champs de la page.</span><span class="sxs-lookup"><span data-stu-id="26990-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="c6042-118">La liste suivante décrit les champs de la page.</span><span class="sxs-lookup"><span data-stu-id="c6042-118">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="26990-119">**Nom** Nom unique qui identifie la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="26990-119">**Name** The unique name that identifies the queue.</span></span>
+- <span data-ttu-id="c6042-119">**Nom** Nom unique qui identifie la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="c6042-119">**Name** The unique name that identifies the queue.</span></span>
 
-- <span data-ttu-id="26990-120">**Service** Service **ApplicationServer** qui héberge la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="26990-120">**Service** The **ApplicationServer** service that hosts the queue.</span></span>
+- <span data-ttu-id="c6042-120">**Service** Service **ApplicationServer** qui héberge la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="c6042-120">**Service** The **ApplicationServer** service that hosts the queue.</span></span>
 
-- <span data-ttu-id="26990-121">**Description** Description de la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="26990-121">**Description** The description for the queue.</span></span>
+- <span data-ttu-id="c6042-121">**Description** Description de la file d’attente.</span><span class="sxs-lookup"><span data-stu-id="c6042-121">**Description** The description for the queue.</span></span>
 
-<span data-ttu-id="26990-122">Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span><span class="sxs-lookup"><span data-stu-id="26990-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="26990-123">Pour plus d’informations sur l’exploitation des files d’attente Response Group, voir [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span><span class="sxs-lookup"><span data-stu-id="26990-123">For details about working with Response Group queues, see [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="c6042-122">Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span><span class="sxs-lookup"><span data-stu-id="c6042-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="c6042-123">Pour plus d’informations sur l’exploitation des files d’attente Response Group, voir [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span><span class="sxs-lookup"><span data-stu-id="c6042-123">For details about working with Response Group queues, see [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
 
 

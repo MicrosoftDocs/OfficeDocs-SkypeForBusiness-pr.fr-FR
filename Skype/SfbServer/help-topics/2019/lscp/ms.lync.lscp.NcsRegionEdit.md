@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824714"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="4b00e-104">Configuration d’une région de réseau : création d’une nouvelle ou modification d’une configuration existante</span><span class="sxs-lookup"><span data-stu-id="4b00e-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="b7f0d-104">Configuration d’une région de réseau : création d’une nouvelle ou modification d’une configuration existante</span><span class="sxs-lookup"><span data-stu-id="b7f0d-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="4b00e-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="4b00e-105">What do you want to do?</span></span> <span data-ttu-id="4b00e-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="4b00e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b7f0d-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="b7f0d-105">What do you want to do?</span></span> <span data-ttu-id="b7f0d-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b7f0d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4b00e-107">Configuration des régions réseau</span><span class="sxs-lookup"><span data-stu-id="4b00e-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="b7f0d-107">Configuration des régions réseau</span><span class="sxs-lookup"><span data-stu-id="b7f0d-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 

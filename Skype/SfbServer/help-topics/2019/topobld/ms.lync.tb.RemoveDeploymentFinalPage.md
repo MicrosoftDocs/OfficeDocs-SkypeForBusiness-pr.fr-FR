@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822104"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="f10d1-103">Supprimer le déploiement</span><span class="sxs-lookup"><span data-stu-id="f10d1-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="b03b8-103">Supprimer le déploiement</span><span class="sxs-lookup"><span data-stu-id="b03b8-103">Remove Deployment</span></span>
  
-<span data-ttu-id="f10d1-104">Cliquez **sur** Terminer pour créer une topologie vide comme première étape de la désaffectation de l’intégralité de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="f10d1-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="b03b8-104">Cliquez **sur** Terminer pour créer une topologie vide comme première étape de la désaffectation de l’intégralité de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="b03b8-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="f10d1-105">Cette action ne peut pas être annulée.</span><span class="sxs-lookup"><span data-stu-id="f10d1-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="b03b8-105">Cette action ne peut pas être annulée.</span><span class="sxs-lookup"><span data-stu-id="b03b8-105">You cannot undo this step.</span></span> 
   
 

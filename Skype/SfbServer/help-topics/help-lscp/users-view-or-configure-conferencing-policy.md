@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824374"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="75942-104">Utilisateurs : afficher ou configurer la stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="75942-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="845d6-104">Utilisateurs : afficher ou configurer la stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="845d6-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="75942-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="75942-105">What do you want to do?</span></span> <span data-ttu-id="75942-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="75942-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="845d6-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="845d6-105">What do you want to do?</span></span> <span data-ttu-id="845d6-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="845d6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="75942-107">Affecter une stratégie de conférence pour modifier l’expérience de réunion par défaut d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="75942-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="845d6-107">Affecter une stratégie de conférence pour modifier l’expérience de réunion par défaut d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="845d6-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-<span data-ttu-id="75942-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="75942-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="845d6-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="845d6-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

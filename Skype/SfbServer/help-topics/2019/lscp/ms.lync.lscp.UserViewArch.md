@@ -22,13 +22,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824564"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="d0537-104">Utilisateurs : afficher ou configurer la stratégie d’archivage</span><span class="sxs-lookup"><span data-stu-id="d0537-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="040b9-104">Utilisateurs : afficher ou configurer la stratégie d’archivage</span><span class="sxs-lookup"><span data-stu-id="040b9-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="d0537-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="d0537-105">What do you want to do?</span></span> <span data-ttu-id="d0537-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="d0537-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="040b9-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="040b9-105">What do you want to do?</span></span> <span data-ttu-id="040b9-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="040b9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d0537-107">Attribution d’une stratégie d’archivage par utilisateur</span><span class="sxs-lookup"><span data-stu-id="d0537-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="040b9-107">Attribution d’une stratégie d’archivage par utilisateur</span><span class="sxs-lookup"><span data-stu-id="040b9-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="d0537-108">Appliquer une stratégie d’archivage à un utilisateur ou à un groupe d’utilisateurs</span><span class="sxs-lookup"><span data-stu-id="d0537-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="040b9-108">Appliquer une stratégie d’archivage à un utilisateur ou à un groupe d’utilisateurs</span><span class="sxs-lookup"><span data-stu-id="040b9-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
 
 

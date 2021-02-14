@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824704"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="02d5c-104">Configuration d’un lien de région réseau : création d’une nouvelle ou modification d’une configuration existante</span><span class="sxs-lookup"><span data-stu-id="02d5c-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="19d88-104">Configuration d’un lien de région réseau : création d’une nouvelle ou modification d’une configuration existante</span><span class="sxs-lookup"><span data-stu-id="19d88-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="02d5c-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="02d5c-105">What do you want to do?</span></span> <span data-ttu-id="02d5c-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="02d5c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="19d88-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="19d88-105">What do you want to do?</span></span> <span data-ttu-id="19d88-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="19d88-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="02d5c-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="02d5c-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="19d88-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="19d88-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

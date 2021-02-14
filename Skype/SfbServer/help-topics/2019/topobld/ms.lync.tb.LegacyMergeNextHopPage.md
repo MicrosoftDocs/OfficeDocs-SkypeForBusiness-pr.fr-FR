@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824484"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="deb06-104">Tronçon suivant de la fusion héritée</span><span class="sxs-lookup"><span data-stu-id="deb06-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="e8a21-104">Tronçon suivant de la fusion héritée</span><span class="sxs-lookup"><span data-stu-id="e8a21-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="deb06-p102">Le **nom de domaine complet du tronçon suivant** identifie le serveur du tronçon suivant vers lequel le serveur Edge hérité achemine le trafic interne. Tapez le nom de domaine complet (FQDN) du serveur du tronçon suivant vers lequel ce serveur Edge achemine le trafic interne, puis déterminez s’il s’agit d’un **pool frontal** ou d’un **directeur**.</span><span class="sxs-lookup"><span data-stu-id="deb06-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="e8a21-p102">Le **nom de domaine complet du tronçon suivant** identifie le serveur du tronçon suivant vers lequel le serveur Edge hérité achemine le trafic interne. Tapez le nom de domaine complet (FQDN) du serveur du tronçon suivant vers lequel ce serveur Edge achemine le trafic interne, puis déterminez s’il s’agit d’un **pool frontal** ou d’un **directeur**.</span><span class="sxs-lookup"><span data-stu-id="e8a21-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

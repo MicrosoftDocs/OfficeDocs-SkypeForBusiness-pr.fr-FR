@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823964"
 ---
-# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="3ad44-104">Ajouter un tronçon suivant pour le serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="3ad44-104">Add Mediation Server NextHop</span></span>
+# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="7a30a-104">Ajouter un tronçon suivant pour le serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="7a30a-104">Add Mediation Server NextHop</span></span>
  
-<span data-ttu-id="3ad44-105">Pour définir le saut suivant pour un serveur de médiation que vous définissez, sélectionnez, dans la liste de listes suivantes du pool du **saut** suivant, le serveur Enterprise Edition ou le serveur Standard Edition Server qui fera le saut suivant pour le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="3ad44-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="3ad44-106">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="3ad44-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="7a30a-105">Pour définir le saut suivant pour un serveur de médiation que vous définissez, sélectionnez, dans la liste de listes suivantes du pool du **saut** suivant, le serveur Enterprise Edition ou le serveur Standard Edition Server qui fera le saut suivant pour le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="7a30a-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="7a30a-106">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="7a30a-106">Click **Next** to continue.</span></span>
   
 

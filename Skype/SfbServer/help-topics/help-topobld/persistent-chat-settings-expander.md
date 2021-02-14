@@ -21,6 +21,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823794"
 ---
-# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="5274b-102">Expandeur des paramètres de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="5274b-102">Persistent Chat Settings Expander</span></span>
+# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="3738d-102">Expandeur des paramètres de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="3738d-102">Persistent Chat Settings Expander</span></span>
  
 

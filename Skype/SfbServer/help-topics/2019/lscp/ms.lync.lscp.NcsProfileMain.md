@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824744"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="1e5be-104">Profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="1e5be-104">Bandwidth Policy Profile</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="a62f4-104">Profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="a62f4-104">Bandwidth Policy Profile</span></span>
 
-<span data-ttu-id="1e5be-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="1e5be-105">What do you want to do?</span></span> <span data-ttu-id="1e5be-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="1e5be-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a62f4-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="a62f4-105">What do you want to do?</span></span> <span data-ttu-id="a62f4-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="a62f4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1e5be-107">Configuration du profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="1e5be-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="a62f4-107">Configuration du profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="a62f4-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 
