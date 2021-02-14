@@ -1,5 +1,5 @@
 ---
-title: Utiliser les modèles du ministère des équipes dans le centre d’administration
+title: Utiliser les modèles Teams du gouvernement dans le Centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Apprenez à utiliser. Les modèles teams permettent de créer des structures d’équipe conçues pour les besoins d’administration grâce aux paramètres prédéfinis, aux canaux et aux applications préinstallées à l’aide du centre d’administration.
+description: Découvrez comment l’utiliser. Modèles Teams pour créer des structures d’équipe conçues pour les besoins du gouvernement en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,23 +26,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662199"
 ---
-# <a name="use-teams-government-templates-in-the-admin-center"></a>Utiliser les modèles du ministère des équipes dans le centre d’administration
+# <a name="use-teams-government-templates-in-the-admin-center"></a>Utiliser les modèles Teams du gouvernement dans le Centre d’administration
 
-Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
+Les modèles Teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfindé de paramètres, de canaux et d’applications préinstallées.
 
-Les modèles d’équipes sont dotés de définitions préconfigurées de structures d’équipe conçues en fonction des besoins gouvernementaux. Vous pouvez également développer les modèles teams pour créer des équipes adaptées aux besoins spécifiques de votre organisation.
+Les modèles Teams ont des définitions pré-intégrées de structures d’équipe conçues autour des besoins gouvernementaux. Vous pouvez également étendre les modèles Teams pour créer des équipes adaptées aux besoins de votre organisation.
 
-Dans cet article, nous allons présenter chacun des modèles d’équipes et nous vous conseillons de les utiliser.
+Dans cet article, nous présentons chacun des modèles Teams et recommandons leur utilisation.
 
-Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation gouvernementale. Vous avez déjà déployé le service teams au sein de votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire la rubrique [comment déployer Microsoft teams](How-to-roll-out-teams.md).
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation gouvernementale. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire comment [déployer Microsoft Teams.](How-to-roll-out-teams.md)
 
-Pour en savoir plus sur les modèles d’équipe en général, voir [commencer à utiliser les modèles](get-started-with-teams-templates-in-the-admin-console.md)Teams.
+Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles Teams.](get-started-with-teams-templates-in-the-admin-console.md)
 
-## <a name="coordinate-incident-response"></a>Coordonnées de la réponse d’incident
+## <a name="coordinate-incident-response"></a>Coordonner la réponse à un incident
 
-Centralisation des communications et des ressources critiques pour votre équipe de gestion des crises ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure de nombreux types de fichiers différents pour créer un emplacement centralisé pour tous vos documents. Utiliser les réunions en ligne pour améliorer la sensibilisation du flux d’informations et de la situation.
+Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure de nombreux types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la connaissance de la flux d’informations et de la situation.
 
-| Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base |baseTemplateId | Propriétés de ce modèle de base |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Coordonnées de la réponse d’incident|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canaux <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Restaurer</li><li>Examiné</li></ul> Logiciels <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
+|Coordonner la réponse à un incident|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
 ||||

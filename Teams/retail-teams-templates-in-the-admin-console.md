@@ -1,5 +1,5 @@
 ---
-title: Utiliser les modèles commerciaux teams dans le centre d’administration
+title: Utiliser les modèles de vente au détail Teams dans le Centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser les modèles teams pour créer des structures d’équipe conçues pour les revendeurs grâce aux paramètres prédéfinis, aux canaux et aux applications préinstallées à l’aide du centre d’administration.
+description: Découvrez comment utiliser les modèles Teams pour créer des structures d’équipe conçues pour les besoins des revendeurs en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,32 +26,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662639"
 ---
-# <a name="use-teams-retail-templates-in-the-admin-center"></a>Utiliser les modèles commerciaux teams dans le centre d’administration
+# <a name="use-teams-retail-templates-in-the-admin-center"></a>Utiliser les modèles de vente au détail Teams dans le Centre d’administration
 
-Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
+Les modèles Teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfindé de paramètres, de canaux et d’applications préinstallées.
 
-Les modèles d’équipes sont dotés de définitions prédéfinies de structures d’équipe conçues en fonction des besoins des détaillants. Vous pouvez utiliser les modèles teams pour créer rapidement des types d’équipes adaptées aux détaillants et à déployer au sein de votre organisation. Vous pouvez également développer les modèles teams pour créer des équipes adaptées aux besoins spécifiques de votre organisation.
+Les modèles Teams ont des définitions pré-intégrées de structures d’équipe conçues autour des besoins des revendeurs. Vous pouvez utiliser les modèles Teams pour créer rapidement les types d’équipes qui fonctionnent bien pour les revendeurs et les déployer dans votre organisation. Vous pouvez également étendre les modèles Teams pour créer des équipes adaptées aux besoins de votre organisation.
 
-Dans cet article, nous allons présenter chacun des modèles d’équipes et la façon dont nous vous conseillons de les utiliser.
+Dans cet article, nous présenterons chacun des modèles Teams et la façon dont nous vous recommandons de les utiliser.
 
-Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation commerciale. Nous partons du principe que vous avez déjà déployé teams service au sein de votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire la rubrique [comment déployer Microsoft teams](How-to-roll-out-teams.md).
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de vente au détail. Nous partons du principe que vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire comment [déployer Microsoft Teams.](How-to-roll-out-teams.md)
 
-Pour en savoir plus sur les modèles d’équipe en général, voir [commencer à utiliser les modèles](get-started-with-teams-templates-in-the-admin-console.md)Teams.
+Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles Teams.](get-started-with-teams-templates-in-the-admin-console.md)
 
-## <a name="organize-a-store"></a>Organiser un Store
+## <a name="organize-a-store"></a>Organiser un magasin
 
-Rassemblez vos collaborateurs au sein d’une interface centralisée pour gérer les tâches, partager des documents et résoudre les problèmes des clients. Intégrez des applications supplémentaires pour rationaliser les processus de début de & de fin de travail.
+Rassemblez vos employés dans le secteur de la vente au détail au cours d’une expérience centrale pour gérer les tâches, partager des documents et résoudre les problèmes des clients. Intégrez des applications supplémentaires pour simplifier les processus de démarrage & fin.
 
-| Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base |baseTemplateId | Propriétés de ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-|Organiser un Store|`retailStore`|Canaux <ul><li>Général<li>Remise du Shift</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
+|Organiser un magasin|`retailStore`|Canaux : <ul><li>Général<li>Transfert des shifts</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="manager-collaboration"></a>Collaboration avec les responsables
 
-Le modèle de collaboration responsable est idéal pour créer une équipe pour un ensemble de responsables pour collaborer entre des boutiques et des régions, etc. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe de collaboration en chef pour la région Californie et inclure tous les responsables du Windows Store de cette région ainsi que le responsable régional de cette région.
+Le modèle Collaboration avec les responsables est idéal pour créer une équipe de responsables collaborant entre plusieurs magasins/régions, etc. Par exemple, si votre organisation possède des régions, vous pouvez créer une équipe de collaboration de responsable pour la région Californie et y inclure tous les responsables de magasin, ainsi que le responsable régional de cette région.
 
-| Type de modèle de base| baseTemplateId | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base| baseTemplateId | Propriétés de ce modèle de base |
 | ------------------|- |----------------------------------------------------- |
-|Collaboration avec le responsable commercial|`retailManagerCollaboration` |Canaux <ul><li>Général<li>Opérations</li><li>LMS</li></ul> Logiciels <ul><li>Wiki</li></ul>|
+|Vente au détail - Collaboration avec les responsables|`retailManagerCollaboration` |Canaux : <ul><li>Général<li>Opérations</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li></ul>|
 ||||

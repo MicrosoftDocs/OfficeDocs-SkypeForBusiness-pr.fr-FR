@@ -14,7 +14,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations relatives aux utilisateurs invités dans le portail Azure Active Directory.
+description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations sur les utilisateurs invités dans le portail Azure Active Directory.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -29,22 +29,22 @@ ms.locfileid: "49734262"
 ---
 # <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
 
-Vous pouvez modifier les informations invité à partir du centre d’administration 365 Microsoft ou du portail Azure Active Directory.
+Vous pouvez modifier les informations des invités à partir du Centre d’administration Microsoft 365 ou du portail Azure Active Directory.
 
-## <a name="guest-users-in-the-microsoft-365-admin"></a>Utilisateurs invités de l’administrateur 365 Microsoft
+## <a name="guest-users-in-the-microsoft-365-admin"></a>Utilisateurs invités dans l’administrateur Microsoft 365
 
-1. Pour modifier les informations invité dans le [Centre d’administration 365 Microsoft](https://admin.microsoft.com), sélectionnez **utilisateurs**  >  **invités**.
+1. Pour modifier les informations sur les invités dans le [Centre d’administration Microsoft 365,](https://admin.microsoft.com)sélectionnez **Utilisateurs**  >  **invités.**
 
-   ![Informations utilisateur invité en cours de modification](media/access-guest-user.png)
+   ![Informations sur l’utilisateur invité en cours de modification](media/access-guest-user.png)
 
-2. Sélectionnez un utilisateur pour **les utilisateurs invités**.
+2. Sélectionnez un utilisateur parmi **les utilisateurs invités.**
 
-3. Dans informations sur l’utilisateur invité, sélectionnez **gérer les informations de contact**.
+3. Dans Les informations de l’utilisateur invité, **sélectionnez Gérer les informations de contact.**
 
    ![Gérer les informations de contact ](media/guest-user-data1.png)
 
-4. Modifiez les champs de votre choix à l’exception du **nom d’affichage** dans gérer les **informations de contact**, puis sélectionnez **enregistrer les modifications**.
+4. Modifiez les champs que vous choisissez à l’exception du nom **complet** dans Gérer les informations **de contact,** puis **sélectionnez Enregistrer les modifications.**
 
    ![Modifier les informations de contact de l’utilisateur invité](media/manage-guest-contact.png)
 
-Vous pouvez également modifier l’utilisateur invité à partir d' [Azure Active Directory Portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).
+Vous pouvez également modifier l’utilisateur invité à partir du [portail Azure Active Directory.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)

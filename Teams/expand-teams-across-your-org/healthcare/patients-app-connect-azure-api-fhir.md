@@ -16,7 +16,7 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Découvrez comment connecter l’application patients dans Microsoft teams à l’API Azure pour FHIR (ressources d’interopérabilité Fast Healthcare).
+description: Découvrez comment connecter l’application Patients de Microsoft Teams à l’API Azure pour FEMBA (Fast Healthcare Interoperability Resources).
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e41b071ef1724043f45c3783b062108d29a5190
 ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
@@ -28,47 +28,47 @@ ms.locfileid: "49731152"
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Connecter l’application coordination des soins à l’API Azure pour FHIR
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application patients a été supprimée et remplacée par l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données d’application patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui fait reculer l’équipe. Toutes les données associées à l’application patients sont conservées dans ce groupe, mais vous ne pouvez plus y accéder par le biais de l’interface utilisateur. Les utilisateurs peuvent recréer leurs listes à l’aide de l' [application listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Dans le cas des listes, les équipes de soins de votre organisation peuvent créer des listes de patients dans le cas de signes et de réunions d’équipe de manière générale. Consultez le modèle patients dans les listes pour commencer. Pour en savoir plus sur la gestion de l’application listes au sein de votre organisation, voir [gérer l’application listes](../../manage-lists-app.md).
+>Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
 
-Suivez ces étapes pour autoriser l’application patients dans Microsoft teams à accéder à une API Azure pour l’instance FHIR. Cet article part du principe que vous disposez d’une [API Azure pour](https://azure.microsoft.com/services/azure-api-for-fhir/) la configuration de l’instance FHIR et qu’elle est configurée dans votre client.  Si vous n’avez pas encore créé d’API Azure pour FHIR dans votre client, reportez-vous à [démarrage rapide : déployer l’API Azure pour FHIR à l’aide d’Azure Portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
+Suivez ces étapes pour autoriser l’application Patients de Microsoft Teams à accéder à une API Azure pour une instance FEMBA. Cet article part du principe qu’une api Azure pour [une instance FEMBA](https://azure.microsoft.com/services/azure-api-for-fhir/) est configurée et configurée dans votre client.  Si vous n’avez pas encore créé d’instance d’API Azure pour FEMBA dans votre client, voir Démarrage rapide : Déployer [l’API Azure](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)pour FEMBA à l’aide du portail Azure.
 
-1. Cliquez [ici](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) pour accorder l’autorisation d’administrateur pour l’application patients. Lorsque vous y êtes invité, connectez-vous à l’aide de vos informations d’identification d’administrateur client ou d’administrateur général, puis cliquez sur **accepter** pour accorder les autorisations requises.
+1. Cliquez [ici pour](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) accorder le consentement de l’administrateur à l’application Patients. À l’invite, connectez-vous à l’aide de  vos informations d’identification d’administrateur client ou d’administrateur global, puis cliquez sur Accepter pour accorder les autorisations requises.
 
-    ![Capture d’écran de la demande d’autorisation pour l’application patients](../../media/patients-app-permissions-request.png)
+    ![Capture d’écran de la demande d’autorisation pour l’application Patients](../../media/patients-app-permissions-request.png)
 
-    Fermez la fenêtre après l’avoir acceptée. Une page peut ressembler à ce qui suit. Vous pouvez ignorer le message d’erreur sur la page. C’est inoffensif et indique que cette autorisation est accordée. (Nous travaillons actuellement sur une page plus conviviale pour cette URL. Restez informé !)
+    Une fois l’acceptation acceptée, fermez la fenêtre. Vous verrez une page qui peut ressembler à ceci. Vous pouvez ignorer le message d’erreur sur la page. Il n’est pas dangereux et indique que le consentement est accordé. (Nous travaillons à une page plus conviviale pour cette URL. Restez connecté !)
 
-    ![Capture d’écran d’une demande d’autorisation pour l’application patients](../../media/patients-app-permissions-request-granted.png)
+    ![Capture d’écran de la demande d’autorisation pour l’application Patients](../../media/patients-app-permissions-request-granted.png)
 
-2. Connectez-vous au [portail Azure](https://portal.azure.com) à l’aide de vos informations d’identification d’administrateur.
+2. Connectez-vous au [portail Azure avec](https://portal.azure.com) vos informations d’identification d’administrateur.
 
-3. Dans le volet de navigation de gauche, cliquez sur **Azure Active Directory**, puis sélectionnez **applications d’entreprise**.
+3. Dans le dossier de navigation de gauche, sélectionnez **Azure Active Directory,** puis **Applications d’entreprise.**
 
-    Recherchez une ligne nommée **patients (dev)**, puis copiez la valeur de la colonne **ID d’objet** dans le presse-papiers.
+    Recherchez une ligne nommée **Patients (dev),** puis copiez la valeur de la colonne **ID** d’objet dans votre Presse-papiers.
 
-    ![Capture d’écran de la ligne patients (dev) dans Azure Portal](../../media/patients-app-azure-portal-object-id.png)
+    ![Capture d’écran de la ligne Patients (dev) dans le portail Azure](../../media/patients-app-azure-portal-object-id.png)
 
-4. Accédez à l’instance d’API Azure pour FHIR à laquelle vous voulez connecter l’application patients (en effectuant une recherche ou en naviguant dans vos ressources), puis ouvrez les paramètres de cette instance.
+4. Allez à l’instance de ressource Api Azure pour FEMBA à laquelle vous voulez connecter l’application Patients (en la recherchant ou en parcourant vos ressources), puis ouvrez les paramètres pour cette instance.
 
-    ![Capture d’écran de l’API Azure pour les paramètres d’instance FHIR dans Azure Portal](../../media/patients-app-azure-portal-instance-settings.png)
+    ![Capture d’écran des paramètres d’instance de l’API Azure pour FEMBA dans le portail Azure](../../media/patients-app-azure-portal-instance-settings.png)
 
-5. Cliquez sur **authentification**, puis collez l’ID d’objet que vous avez copié à l’étape 3 dans la zone **ID d’objet autorisés** . Cela permet à l’application patients d’accéder au serveur FHIR. Après avoir collé l’ID d’objet, Azure Active Directory le valide et une coche verte apparaît à côté de celui-ci.
+5. Cliquez **sur** Authentification, puis collez l’ID d’objet copié à l’étape 3 dans la zone **ID d’objet** autorisé. Cela permet à l’application Patients d’accéder au serveur FEMBA. Une fois que vous avez collé l’ID d’objet, Azure Active Directory la valide et une coche verte apparaît en regard de celui-ci.
 
     ![Capture d’écran des paramètres d’authentification dans le portail Azure](../../media/patients-app-azure-portal-authentication.png)
 
-6. Cliquez sur **Enregistrer**. Cette opération redéploie l’instance, qui peut prendre quelques minutes.
+6. Cliquez sur **Enregistrer**. Cela redéployer l’instance, ce qui peut prendre quelques minutes.
 
-7. Cliquez sur **vue d’ensemble**, puis copiez l’URL à partir du **point de terminaison de métadonnées FHIR**. Supprimez la balise Metadata pour obtenir l’URL du serveur FHIR. Par exemple, `https://test02-teamshealth.azurehealthcareapis.com/` .
+7. Cliquez sur **Vue d’ensemble,** puis copiez l’URL à partir du point de terminaison des **métadonnées FEMBA.** Supprimez la balise de métadonnées pour obtenir l’URL du serveur FEMBA. Par exemple, `https://test02-teamshealth.azurehealthcareapis.com/` .
 
-    ![point de terminaison Metadata dans Azure Portal](../../media/patients-app-azure-portal-metadata-endpoint.png)
+    ![Point de terminaison des métadonnées dans le portail Azure](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
-8. Dans Teams, accédez à l’instance d’application patients qui est chargée dans votre équipe, cliquez sur **paramètres**, puis dans la zone **lien** , entrez l’URL du point de terminaison du serveur FHIR. Cliquez ensuite sur **connexion** pour établir une connexion et Rechercher et ajouter des patients à votre liste.  
+8. Dans Teams, allez à l’instance de l’application Patients chargée dans  votre équipe, cliquez sur **Paramètres,** puis dans la zone Lien, entrez l’URL du point de terminaison du serveur FEMBA. Cliquez ensuite sur **Connexion pour** établir une connexion et rechercher et ajouter des patients à votre liste.  
 
-    ![ Paramètres de l’application patients dans teams](../../media/patients-app-teams.png)
+    ![ Paramètres de l’application Patients dans Teams](../../media/patients-app-teams.png)
 
-    Si vous obtenez un message d’erreur lors de la connexion à teams au cours de cette étape, vous pouvez envoyer une capture d’écran détaillée de l’erreur, des journaux de [Fiddler](https://www.telerik.com/download/fiddler) et de toutes les autres étapes de reproduction dans un courrier électronique avec une ligne d’objet de «application patients – résolution de EMR en mode [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com).
+    Si vous obtenez une erreur lors de la connexion à Teams au cours de cette étape, envoyez une capture d’écran détaillée de l’erreur, les journaux de [Fiddler](https://www.telerik.com/download/fiddler) et toute autre étape de reprotégation dans un e-mail avec la ligne d’objet « Application Patients - Mode EMR résolution des problèmes » à [teamsforhealthcare@service.microsoft.com.](mailto:teamsforhealthcare@service.microsoft.com)
 
 ## <a name="related-topics"></a>Sujets associés
 

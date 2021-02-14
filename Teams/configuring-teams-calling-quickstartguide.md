@@ -36,11 +36,11 @@ Lire l’annonce des plans d’appel dans Teams du 12 décembre 2017 : [Intellig
 > [!NOTE]
 > Nous vous recommandons, en parallèle de ce guide de démarrage rapide, de lire Phone System avec les [plans](calling-plan-landing-page.md) d’appels et [FastTrack](https://aka.ms/cloudvoice) pour planifier et conduire un déploiement réussi.
 
-En ajoutant des forfaits d’appels, une fonctionnalité de Microsoft 365 et Office 365 optimisée par Skype Entreprise, vous pouvez désormais utiliser Teams pour passer et recevoir des appels téléphoniques vers ou depuis des lignes fixes et mobiles via le réseau téléphonique commuté (PSTN).
+En ajoutant des forfaits d’appels, une fonctionnalité de Microsoft 365 et Office 365 optimisée par Skype Entreprise, vous pouvez désormais utiliser Teams pour passer et recevoir des appels téléphoniques vers ou depuis des lignes fixes et des téléphones mobiles via le réseau téléphonique commuté (PSTN).
 
 ![Capture d’écran montrant la page Contacts dans Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Conditions préalables à l’activation de **l’onglet** Appels dans Teams
-Pour activer  l’onglet Appels dans Teams, les utilisateurs doivent avoir des appels en tête-à-tête activés dans Teams et utiliser un client Teams qui prend en charge les appels 1:1 Teams. Pour découvrir comment gérer les appels en tête-à-tête dans Teams, lisez [Set-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Pour connaître les clients qui supportent les appels, consultez les [limites et les spécifications de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)
+Pour activer l’onglet **Appels** dans Teams, les utilisateurs doivent avoir des appels en tête-à-tête activés dans Teams et utiliser un client Teams qui prend en charge les appels 1:1 Teams. Pour découvrir comment gérer les appels en tête-à-tête dans Teams, [lisez Set-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Pour connaître les clients qui supportent les appels, consultez les [limites et spécifications de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)
 
 > [!NOTE]
 > Pour l’instant, la messagerie vocale ne sera pas disponible dans l’onglet Appels, sauf si l’utilisateur est activé pour les appels PSTN. 
@@ -65,7 +65,7 @@ Pour vous assurer que les appels VOIP et PSTN entrants arrivent toujours dans le
 
 **NOTES**
  - Les téléphones IP Skype Entreprise recevront des appels, même si l’utilisateur est en mode TeamsOnly.  
- - Les utilisateurs qui ont été mis en service avec des licences Système téléphonique et Forfaits d’appels pour une utilisation avec Skype Entreprise Online (par exemple, avec une valeur de OnlineVoiceRoutingPolicy) verront l’onglet Appels activé dans Teams et pourront passer des appels RSTN sortants de Teams sans que les administrateurs n’ont à prendre d’action administrative.
+ - Les utilisateurs qui ont été mis en service avec des licences Système téléphonique et Forfaits d’appels pour une utilisation avec Skype Entreprise Online (par exemple, une valeur de OnlineVoiceRoutingPolicy) verront l’onglet Appels activé dans Teams et pourront passer des appels RSTN sortants de Teams sans que les administrateurs n’ont à prendre d’action administrative.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour recevoir tous les appels VOIP et PSTN entrants dans Teams

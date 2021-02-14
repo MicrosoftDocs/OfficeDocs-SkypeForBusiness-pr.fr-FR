@@ -1,5 +1,5 @@
 ---
-title: Tarifs et couvertures pris en charge pour les offres d’appels
+title: Centres de tarifs pris en charge et couverture des forfaits d’appels
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -16,7 +16,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Dresse la liste des centres de tarifs pris en charge pour les offres d’appels.
+description: Répertorie les centres de tarifs pris en charge et la couverture des forfaits d’appels.
 ms.openlocfilehash: dbf0280bf26452d6bfdf40e669f43dbf131cc88b
 ms.sourcegitcommit: 67dac7a8c9c5d0151b94db81c979e2f6bafe28c3
 ms.translationtype: MT
@@ -24,14 +24,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/21/2020
 ms.locfileid: "49724512"
 ---
-# <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Tarifs et couvertures pris en charge pour les offres d’appels
+# <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centres de tarifs pris en charge et couverture des forfaits d’appels
 
-Cet article répertorie les centres de tarification et la couverture prises en charge pour les appels d’offres en Amérique du Nord. Un centre de taux est le terme du secteur géographique qui définit traditionnellement les frontières pour les appels locaux, les taux de facturation et les affectations de numéros de téléphone pour le réseau téléphonique public commuté (RTC). Dans de nombreux cas, le marché étant déplacé vers toutes les offres ou tous les forfaits de minutes, le centre de tarifs est devenu moins important pour la facturation mais reste utilisé par certains.
+Cet article répertorie les centres de tarifs pris en charge et la couverture des forfaits d’appels en Amérique du Nord. Un centre de taux est le terme du secteur pour une zone géographique qui définit traditionnellement les limites des appels locaux, des tarifs de facturation et de l’affectation de numéros de téléphone pour le réseau téléphonique commuté (RSTN). Dans de nombreux cas, le secteur passant à toutes les offres inclusives ou à l’offre groupée de minutes, le centre des taux est devenu moins important pour la facturation, mais il est toujours utilisé par certaines personnes.
 
-La [matrice des tarifs et la matrice de couverture prises en charge pour l’Amérique du Nord](https://www.microsoft.com/download/details.aspx?id=102534) dresse la liste des centres de tarifs pris en charge. Lorsque vous récupérez de nouveaux numéros de téléphone ou que vous transférez des numéros de téléphone de votre fournisseur actuel vers Teams, téléchargez la feuille de calcul et utilisez-la pour chercher des centres de tarifs. Si vous ne connaissez pas votre centre de tarifs, vous pouvez le faire sur Internet en fonction de vos indicatifs (NPAs) et de vos préfixes (NXX).
-Si vous obtenez de nouveaux numéros et que nous n’avons pas le numéro que vous avez demandé, nous vous enverrons des numéros à partir du même centre de tarifs.
+Les centres de taux pris en charge [et la matrice de couverture pour la](https://www.microsoft.com/download/details.aspx?id=102534) feuille de calcul Amérique du Nord répertorient les centres de taux que nous pris en charge. Lorsque vous obtention de nouveaux numéros de téléphone ou lorsque vous transférez des numéros de téléphone de votre fournisseur existant vers Teams, téléchargez la feuille de calcul et utilisez-la pour rechercher des centres de tarifs. Si vous ne connaissez pas votre centre de taux, vous pouvez le rechercher sur Internet en fonction de vos indicatifs régionaux et préfixes (NXX).
+Si vous avez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous allons essayer de vous proposer des numéros à partir du même centre de taux.
 
-Si vous obtenez de nouveaux numéros et que nous n’avons pas le numéro que vous avez demandé, nous vous enverrons des numéros à partir du même centre de tarifs.
+Si vous avez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous vous proposons des numéros dans le même centre de taux.
 
 ## <a name="related-topics"></a>Sujets associés
 

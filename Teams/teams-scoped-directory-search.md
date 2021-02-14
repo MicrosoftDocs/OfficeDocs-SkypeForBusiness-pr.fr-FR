@@ -42,10 +42,10 @@ Les scénarios qui viennent s’en tirer profit sont similaires aux scénarios d
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
  
-Pour découvrir comment utiliser les stratégies du carnet d’adresses, lisez la barrière des [informations dans Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
+Pour découvrir comment utiliser les stratégies du carnet d’adresses, [lisez les stratégies de](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)la barrière des informations dans Exchange Online.
 
 > [!IMPORTANT]
-> Les stratégies de carnet d’adresses offrent une séparation virtuelle des utilisateurs du point de vue de l’annuaire. Il est également important de noter que toutes les données des utilisateurs qui avaient déjà été mises en cache avant l’application de stratégies de carnet d’adresses nouvelles ou mises à jour resteront disponibles aux utilisateurs pendant 30 jours.
+> Les stratégies de carnet d’adresses offrent une séparation virtuelle des utilisateurs du point de vue de l’annuaire. Il est également important de noter que toutes les données des utilisateurs qui avaient déjà été mises en cache avant l’application de stratégies de carnet d’adresses nouvelles ou mises à jour resteront disponibles aux utilisateurs pendant 30 jours au plus.
 
 ## <a name="turn-on-scoped-directory-search"></a>Activer la recherche dans l’annuaire étendue
 

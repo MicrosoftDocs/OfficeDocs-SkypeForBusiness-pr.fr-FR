@@ -34,7 +34,7 @@ Teams prend en charge les stratégies de rétention pour les messages de convers
 
 Pour en savoir plus sur la rétention et la manière d’appliquer des paramètres de rétention à l’aide de stratégies de rétention ou d’étiquettes de rétention pour d’autres charges de travail dans Microsoft 365, voir En savoir plus sur les stratégies de rétention et les étiquettes de [rétention.](https://docs.microsoft.com/microsoft-365/compliance/retention)
 
-La licence minimale requise pour les stratégies de rétention pour Teams est Microsoft 365 E3. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+Microsoft 365 E3 est la licence minimale requise pour les stratégies de rétention. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="how-teams-retention-policies-work"></a>Fonctionnement des stratégies de conservation Teams
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les stratégies de rétention Teams incluses et e
 > Cette page explique pourquoi les stratégies de rétention peuvent parfois retarder la suppression de messages. Par exemple, les messages peuvent être visibles jusqu’à 7 jours après la période d’expiration que vous avez configurée dans la stratégie de rétention.
 
 Si vous avez installé plusieurs stratégies de rétention Teams avec des paramètres de rétention différents, les principes de rétention résolvent les conflits. Par exemple :
-- En cas de conflit entre la rétention et la suppression d’un même contenu, le contenu est toujours conservé.
+- En cas de conflit entre la rétention ou la suppression d’un même contenu, le contenu est toujours conservé.
 - En cas de conflit dans la durée de conservation du même contenu, il est conservé pendant la période de rétention la plus longue.
 
 Ces deux principes de rétention s’adressent à la plupart des conflits qui peuvent survenir lorsque vous avez plusieurs stratégies de rétention pour Teams, mais pour plus d’informations, consultez les principes de rétention ou quelle stratégie prend le pas [?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)

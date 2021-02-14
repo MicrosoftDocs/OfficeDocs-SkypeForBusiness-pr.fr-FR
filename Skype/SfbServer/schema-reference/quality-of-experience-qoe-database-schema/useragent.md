@@ -24,7 +24,7 @@ ms.locfileid: "49799934"
  
 La table UserAgent est une table de prise en charge qui stocke la liste des différents agents utilisateurs qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un agent utilisateur
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**UserAgentKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique qui identifie cet agent utilisateur.  <br/> |
 |**UserAgent** <br/> |nvarchar(256)  <br/> |Uniques  <br/> |Chaîne de l’agent utilisateur.  <br/> |

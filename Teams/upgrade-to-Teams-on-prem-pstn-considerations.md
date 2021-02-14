@@ -1,5 +1,5 @@
 ---
-title: Considérations RTC lors de la mise à niveau vers teams à partir d’un déploiement local de Skype entreprise
+title: Considérations en rapport avec la mise à niveau vers Teams à partir d’un déploiement local de Skype Entreprise
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Considérations vocales pour la mise à niveau de Skype entreprise vers teams
+description: Considérations en rapport avec la voix pour la mise à niveau de Skype Entreprise vers Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -24,138 +24,138 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/16/2020
 ms.locfileid: "49686430"
 ---
-# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considérations RTC pour la mise à niveau vers teams depuis Skype entreprise en local
+# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considérations en rapport avec le réseau PSTN pour la mise à niveau vers Teams à partir de Skype Entreprise en local
 
-Cet article décrit les aspects du réseau téléphonique public commuté (RTC) lors de la mise à niveau vers Teams.   
+Cet article décrit les considérations concernant le réseau téléphonique commuté (PSTN) lors de la mise à niveau vers Teams.   
 
 
-De plus, les articles suivants décrivent des concepts importants de mise à niveau et des comportements de coexistence :
+Par ailleurs, les articles suivants décrivent les concepts de mise à niveau et les comportements de coexistence importants :
 
-- [Coexistence des équipes et de Skype entreprise](upgrade-to-teams-on-prem-coexistence.md)
-- [Modes de coexistence-référence](migration-interop-guidance-for-teams-with-skype.md)
+- [Coexistence de Teams et de Skype Entreprise](upgrade-to-teams-on-prem-coexistence.md)
+- [Modes de coexistence - Référence](migration-interop-guidance-for-teams-with-skype.md)
 - [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 
  > [!NOTE]
- > - L’utilisation du système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
- > - Le transfert d’appel, le groupe d’appel d’équipe et les paramètres de délégation de Skype entreprise ne sont pas migrés et devront être recréés pour Teams.
- > - Pour obtenir une vue d’ensemble des fonctionnalités de voix Cloud de Microsoft Teams, et pour choisir la solution vocale Microsoft adaptée à votre organisation, reportez-vous à [la rubrique planification de votre solution vocale teams](cloud-voice-landing-page.md).
+ > - L’utilisation du système téléphonique avec Teams n’est prise en charge que lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode Îles, Phone System n’est pris en charge qu’avec Skype Entreprise. 
+ > - Les paramètres de forwardage, d’appel d’équipe et de délégation de Skype Entreprise ne sont pas migrés et doivent être recréés pour Teams.
+ > - Pour obtenir une vue d’ensemble des fonctionnalités vocales cloud de Microsoft Teams et aider à déterminer la solution vocale Microsoft appropriée pour votre organisation, consultez Planifier votre [solution vocale Teams.](cloud-voice-landing-page.md)
 
 
-## <a name="pstn-calling-scenarios"></a>Scénarios d’appel RTC
+## <a name="pstn-calling-scenarios"></a>Scénarios d’appel PSTN
 
-Il existe quatre scénarios d’appel possibles lors du passage au mode TeamsOnly :
+Il existe quatre scénarios d’appel possibles lors du passage en mode TeamsOnly :
 
-- [Un utilisateur de Skype entreprise Online avec un plan d’appels Microsoft](#from-skype-for-business-online-with-microsoft-calling-plans). Suite à la mise à niveau, cet utilisateur aura besoin d’un plan d’appels Microsoft.
+- [Un utilisateur dans Skype Entreprise Online, avec un plan d’appel Microsoft.](#from-skype-for-business-online-with-microsoft-calling-plans) Lors de la mise à niveau, cet utilisateur continuera à avoir une offre Microsoft Calling.
 
-- [Un utilisateur de Skype entreprise Online avec la fonction vocale locale](#from-skype-for-business-online-with-on-premises-voice) via Skype entreprise local ou la version Cloud Connector. La mise à niveau de l’utilisateur vers teams doit être coordonnée avec la migration de l’utilisateur pour diriger le routage afin de garantir que l’utilisateur TeamsOnly dispose de la fonctionnalité RTC.
+- [Un utilisateur dans Skype Entreprise Online,](#from-skype-for-business-online-with-on-premises-voice) avec des fonctionnalités vocales en local par le biais de Skype Entreprise en local ou dans la version Cloud Connector. La mise à niveau de l’utilisateur vers Teams doit être coordonnée avec la migration de l’utilisateur vers le routage direct pour s’assurer que l’utilisateur TeamsOnly dispose de la fonctionnalité PSTN.
 
-- [Un utilisateur de Skype entreprise sur site avec voix entreprise](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), qui va basculer vers une connectivité RTC sur site.  La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et le coordination du déplacement avec la migration de celui-ci pour le routage directe. 
+- [Un utilisateur de Skype](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)Entreprise sur site avec Voix Entreprise, qui passe à la connexion en ligne et maintient la connectivité RSTN sur site.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. 
 
-- [Un utilisateur de Skype entreprise sur site avec voix entreprise](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), qui sera déplacé vers en ligne et utilisant un forfait d’appel Microsoft.  La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et la coordination de la migration à l’aide de l’un des numéros de téléphone de l’utilisateur vers un forfait d’appel Microsoft ou B), en attribuant un nouveau numéro d’abonné à partir des régions disponibles.
+- [Un utilisateur de Skype Entreprise sur](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)site avec Voix Entreprise, qui passe au service en ligne et utilise un plan d’appel Microsoft.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination du déplacement avec l’un des A) port du numéro de téléphone de cet utilisateur vers un plan d’appels Microsoft ou B) et l’affectation d’un nouveau numéro d’abonné à partir des régions disponibles.
 
-Cet article fournit une vue d’ensemble de haut niveau. Pour plus d’informations, reportez-vous à la section routage et [appels](calling-plan-landing-page.md) [directs du système téléphonique](direct-routing-landing-page.md) . 
+Cet article fournit une vue d’ensemble générale uniquement. Pour plus d’informations, consultez les plans [de routage et](direct-routing-landing-page.md) d’appel [directs du système téléphonique.](calling-plan-landing-page.md) 
 
-## <a name="from-skype-for-business-online-with-microsoft-calling-plans"></a>À partir de Skype entreprise Online avec les offres d’appel Microsoft 
+## <a name="from-skype-for-business-online-with-microsoft-calling-plans"></a>À partir de Skype Entreprise Online avec les forfaits d’appels Microsoft 
 
-Il s’agit du scénario de mise à niveau le plus simple avec la voix. 
+Il s’agit du scénario de mise à niveau le plus simple impliquant voice. 
 
-1. Vérifiez que les utilisateurs ont reçu une licence d’équipe. Par défaut, lorsque vous attribuez une licence Microsoft 365 ou Office 365, teams est activé, donc sauf si vous avez précédemment désactivé la licence Teams, aucune action n’est nécessaire.
+1. Assurez-vous qu’une licence Teams a été attribuée aux utilisateurs. Par défaut, lorsque vous affectez une licence Microsoft 365 ou Office 365, Teams est activé, donc, sauf si vous avez précédemment désactivé la licence Teams, aucune action ne doit être nécessaire.
 
-2.  Si les utilisateurs ont déjà une offre d’appels Microsoft avec un numéro de téléphone, la seule modification obligatoire consiste à affecter le mode TeamsOnly de l’utilisateur dans TeamsUpgradePolicy.  Avant d’affecter le mode TeamsOnly, les appels RTC entrants apparaissent sur le client Skype entreprise de l’utilisateur. Après la mise à niveau vers le mode TeamsOnly, les appels RTC entrants s’afficheront dans le client teams de l’utilisateur.  
+2.  Si les utilisateurs ont déjà un plan d’appel Microsoft avec un numéro de téléphone, la seule modification requise est d’affecter le mode TeamsOnly de l’utilisateur dans TeamsUpgradePolicy.  Avant d’affecter le mode TeamsOnly, les appels PSTN entrants arriveront dans le client Skype Entreprise de l’utilisateur. Après la mise à niveau vers le mode TeamsOnly, les appels PSTN entrants arriveront dans le client Teams de l’utilisateur.  
 
-## <a name="from-skype-for-business-online-with-on-premises-voice"></a>À partir de Skype entreprise Online avec la voix locale
+## <a name="from-skype-for-business-online-with-on-premises-voice"></a>À partir de Skype Entreprise Online avec voix sur site
 
-Dans ce scénario, l’utilisateur se trouve déjà dans Skype entreprise Online, mais sa connectivité PSTN est locale, soit avec Skype entreprise Server en mode hybride, soit dans la version Cloud Connector. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité RTC implique de les activer pour le routage direct, dans lesquels les Trunks RTC se connectent directement au service de routage direct dans le Cloud, via votre contrôleur de bordure de session (SBC) local.
+Dans ce scénario, l’utilisateur se trouve déjà dans Skype Entreprise Online, mais sa connectivité PSTN est sur site, soit en utilisant Skype Entreprise Server en mode hybride, soit la version Cloud Connector. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité PSTN signifie leur activation pour un routage direct, dans lequel des ligne PSTN se connectent directement au service de routage direct dans le cloud, via votre contrôleur de session en bordure (SBC) local.
 
-Les étapes de base sont décrites ci-dessous.  Les étapes 1-4 sont répertoriées dans la séquence proposée, mais peuvent être effectuées dans n’importe quel ordre. La clé consiste à ce que toutes ces instructions soient achevées avant l’étape 5.
+Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 4 sont répertoriées dans la séquence suggérée, mais elles peuvent être réalisées dans n’importe quel ordre. L’essentiel est que toutes ces étapes soient accomplies avant l’étape 5.
 
-1. Si vous définissez la stratégie à l’échelle du client sur l’un des modes Skype entreprise, veillez à ce que tous les utilisateurs d’îlot existants en leur attribuant explicitement le mode d’attribution, comme décrit précédemment.
+1. Si vous affectez la stratégie à l’échelle du client à l’un des modes Skype Entreprise, veillez à affecter explicitement ce mode à tous les utilisateurs des îles, comme décrit précédemment.
 
-2. Configurer votre client pour le routage direct. Voir [Résumé de la configuration par client du routage direct](#summary-of-per-tenant-configuration-of-direct-routing).
+2. Configurez votre client pour le routage direct. Voir [le résumé de la configuration par client du routage direct.](#summary-of-per-tenant-configuration-of-direct-routing)
 
-3. Si vous le souhaitez, configurez différentes stratégies d’équipes pour ces utilisateurs (par exemple, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Vous pouvez effectuer cette opération à tout moment, mais si vous voulez vous assurer que les utilisateurs disposent de la configuration correcte lors de la mise à niveau, nous vous conseillons de le faire avant de procéder à la mise à niveau vers le mode TeamsOnly.
+3. Si vous le souhaitez, configurez différentes stratégies Teams pour ces utilisateurs (par exemple, TeamsMesspolicy, TeamsMeetingPolicy, etc.). Cette configuration peut être effectuée à tout moment, mais si vous voulez vous assurer que les utilisateurs ont la configuration correcte lors de la mise à niveau, il est préférable de le faire avant que l’utilisateur soit mis à niveau en mode TeamsOnly.
 
-4. Préparer la migration de certains utilisateurs pour la boîte vocale : 
-   - Le cas échéant, attribuez la licence Teams.  En supposant que l’utilisateur est déjà opérationnel dans Skype entreprise Online, l’utilisateur dispose déjà de Skype entreprise plan 2 ainsi que du système Microsoft Phone. Laissez ces offres activées, y compris la licence de plan 2 de Skype entreprise online.  
-   - Assignez la OnlineVoiceRoutingPolicy souhaitée. 
+4. Préparer les utilisateurs sélectionnés pour la migration vocale : 
+   - Si nécessaire, attribuez la licence Teams.  En supposant que l’utilisateur dispose déjà des fonctions vocales dans Skype Entreprise Online sur site, l’utilisateur dispose déjà de Skype Entreprise Plan 2 et de Microsoft Phone System. Laissez ces deux plans activés, y compris la licence Skype Entreprise Online (plan 2).  
+   - Affectez le site OnlineVoiceRoutingPolicy souhaité. 
 
-5. Mise à niveau de l’utilisateur : les étapes suivantes doivent être coordonnées. 
+5. Mettre à niveau l’utilisateur : ces étapes doivent être coordonnées. 
 
-   - Dans Microsoft 365 ou Office 365, procédez à une mise à niveau de l’utilisateur en mode TeamsOnly (Grant-CsTeamsUpgradePolicy).
-   - Sur la SBC, configurez le routage de la voix pour permettre les appels entrants en envoyant des appels vers le routage direct plutôt que vers le serveur de médiation local.
+   - Dans Microsoft 365 ou Office 365, mettre à niveau l’utilisateur en mode TeamsOnly (Grant-CsTeamsUpgradePolicy).
+   - Sur le SBC, configurez le routage vocal pour activer les appels entrants en envoyant des appels vers le routage direct plutôt que vers le serveur de médiation local.
 
 
-## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing"></a>De Skype entreprise Server en local, avec Enterprise Voice, pour le routage direct
+## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing"></a>À partir de Skype Entreprise Server local, avec Voix Entreprise, vers un routage direct
 
-Dans ce scénario, l’utilisateur est toujours hébergé sur site dans Skype entreprise et sa connectivité PSTN est également locale. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité RTC implique de les activer pour le routage direct, puis de déplacer l’utilisateur vers le Cloud. 
+Dans ce scénario, l’utilisateur est toujours homed dans Skype Entreprise sur site, et sa connectivité PSTN est également sur site. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité PSTN implique de les activer pour un routage direct, puis de déplacer l’utilisateur vers le cloud. 
  
-Les étapes de base sont décrites ci-dessous.  Les étapes 1-5 sont répertoriées dans la séquence proposée, mais peuvent être effectuées dans n’importe quel ordre. La clé consiste à ce que toutes ces instructions soient exécutées avant l’étape 6.
+Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 5 sont répertoriées dans la séquence suggérée, mais elles peuvent être réalisées dans n’importe quel ordre. L’essentiel est que toutes ces étapes soient accomplies avant l’étape 6.
 
-1. Si vous définissez la stratégie à l’échelle du client sur l’un des modes Skype entreprise, veillez à ce que les utilisateurs de l’îlot actuel en attribuant explicitement le mode d’îlot, comme décrit précédemment.
+1. Si vous allez définir la stratégie à l’échelle du client sur l’un des modes Skype Entreprise, assurez-vous d’utiliser le mode Îles existant en lui attribuant explicitement le mode Îles, comme décrit précédemment.
 
-2. Si vous ne l’avez pas déjà fait, [configurez l’Organisation pour Skype entreprise hybride](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
+2. Si vous ne l’avez pas déjà fait, [configurez l’organisation pour Skype Entreprise hybride.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-3. Configurer votre client pour le routage direct. Voir [Résumé de la configuration par client du routage direct](#summary-of-per-tenant-configuration-of-direct-routing).
+3. Configurez votre client pour le routage direct. Voir [le résumé de la configuration par client du routage direct.](#summary-of-per-tenant-configuration-of-direct-routing)
 
-4. Si vous le souhaitez, configurez différentes politiques d’équipe pour ces utilisateurs (par exemple, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Vous pouvez effectuer cette opération à tout moment, mais si vous voulez vous assurer que les utilisateurs disposent de la configuration correcte lors de la mise à niveau, nous vous conseillons de le faire avant de procéder à la mise à niveau vers TeamsOnly.
+4. Si vous le souhaitez, configurez différentes stratégies Teams pour ces utilisateurs (par exemple, TeamsMesspolicy, TeamsMeetingPolicy, etc.). Cette configuration peut être effectuée à tout moment, mais si vous voulez vous assurer que les utilisateurs ont la configuration correcte lors de la mise à niveau, il est préférable de le faire avant que l’utilisateur soit mis à niveau vers TeamsOnly.
 
-5. Attribuez les licences Microsoft 365 ou Office 365 le cas échéant.  L’utilisateur doit disposer des équipes et de Skype entreprise Online plan 2, ainsi que du système téléphonique. Si le plan 2 de Skype entreprise Online est désactivé, réactivez-le.  
+5. Attribuez les licences Microsoft 365 ou Office 365 si nécessaire.  L’utilisateur doit avoir Teams et Skype Entreprise Online (plan 2), ainsi que Phone System. Si Skype Entreprise Online (plan 2) est désactivé, réactivez-le.  
 
-6. Mise à niveau de l’utilisateur : les étapes suivantes doivent être coordonnées. 
+6. Mettre à niveau l’utilisateur : ces étapes doivent être coordonnées. 
 
-   - À l’aide des outils Skype entreprise locaux, exécutez Move-CsUser avec le commutateur-MoveToTeams. Si vous utilisez une version de Skype entreprise Server qui ne prend pas en charge le commutateur-MoveToTeams, vous devez d’abord exécuter Move-CsUser puis affecter le mode TeamsOnly dans la console d’administration distante du client.
+   - À l’aide des outils skype entreprise locaux, exécutez-Move-CsUser avec -MoveToTeams switch. Si vous utilisez une version de Skype Entreprise Server qui ne prend pas en charge le commutateur -MoveToTeams, exécutez tout d’abord Move-CsUser puis affectez le mode TeamsOnly dans le client distant PowerShell ou la Console d’administration Teams.
 
-   - Sur la SBC, configurez le routage de la voix pour permettre les appels entrants en envoyant des appels vers le routage direct plutôt que vers le serveur de médiation local. 
+   - Sur le SBC, configurez le routage vocal pour activer les appels entrants en envoyant des appels vers le routage direct plutôt que vers le serveur de médiation local. 
 
-   - Dans Microsoft 365 ou Office 365 : attribuez le OnlineVoiceRoutingPolicy approprié pour autoriser les appels sortants. 
+   - Dans Microsoft 365 ou Office 365 : affectez le service OnlineVoiceRoutingPolicy approprié pour activer les appels sortants. 
 
 
-## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>De Skype entreprise Server en local, avec Enterprise Voice, à l’offre d’appels Microsoft
+## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>De Skype Entreprise Server local, avec Voix Entreprise, au plan d’appel Microsoft
 
-Dans ce scénario, l’utilisateur est toujours hébergé sur site dans Skype entreprise et sa connectivité PSTN est également locale. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité RTC implique le déplacement de l’utilisateur dans le Cloud, en transférant son numéro entre l’ancien opérateur et un plan d’appel Microsoft ou en attribuant un nouveau numéro à l’utilisateur. 
+Dans ce scénario, l’utilisateur est toujours homed dans Skype Entreprise sur site, et sa connectivité PSTN est également sur site. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité PSTN signifie le déplacement de l’utilisateur vers le cloud et le portage de son numéro à partir de l’ancien opérateur vers un plan d’appels Microsoft ou l’attribution d’un nouveau numéro à l’utilisateur. 
 
-Les étapes de base sont décrites ci-dessous.Les étapes 1-5 sont répertoriées dans la séquence proposée, mais peuvent être effectuées dans n’importe quel ordre. La clé consiste à ce que toutes ces instructions soient exécutées avant l’étape 6. 
+Les étapes de base sont répertoriées ci-dessous.Les étapes 1 à 5 sont répertoriées dans la séquence suggérée, mais elles peuvent être réalisées dans n’importe quel ordre. L’essentiel est que toutes ces étapes soient accomplies avant l’étape 6. 
 
-1. Si vous définissez la stratégie à l’échelle du client sur l’un des modes Skype entreprise, veillez à ce que les utilisateurs de l’îlot actuel en attribuant explicitement le mode d’îlot, comme décrit précédemment. 
+1. Si vous allez définir la stratégie à l’échelle du client sur l’un des modes Skype Entreprise, assurez-vous d’utiliser le mode Îles existant en lui attribuant explicitement le mode Îles, comme décrit précédemment. 
 
-2. Si vous ne l’avez pas déjà fait, [configurez l’Organisation pour Skype entreprise hybride](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity). 
+2. Si vous ne l’avez pas déjà fait, [configurez l’organisation pour Skype Entreprise hybride.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
 
-3. Si vous le souhaitez, configurez différentes stratégies d’équipes pour ces utilisateurs (par exemple, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Vous pouvez effectuer cette opération à tout moment, mais si vous voulez vous assurer que les utilisateurs disposent de la configuration correcte lors de la mise à niveau, nous vous conseillons de le faire avant de procéder à la mise à niveau vers TeamsOnly. 
+3. Si vous le souhaitez, configurez différentes stratégies Teams pour ces utilisateurs (par exemple, TeamsMesspolicy, TeamsMeetingPolicy, etc.). Cette configuration peut être effectuée à tout moment, mais si vous voulez vous assurer que les utilisateurs ont la configuration correcte lors de la mise à niveau, il est préférable de le faire avant que l’utilisateur soit mis à niveau vers TeamsOnly. 
 
-4. Attribuez les licences Microsoft 365 ou Office 365 le cas échéant.L’utilisateur doit disposer des équipes et de Skype entreprise Online plan 2, ainsi que du système téléphonique. Si le plan 2 de Skype entreprise Online est désactivé, réactivez-le.  
+4. Attribuez les licences Microsoft 365 ou Office 365 si nécessaire.L’utilisateur doit avoir Teams et Skype Entreprise Online (plan 2), ainsi que Phone System. Si Skype Entreprise Online (plan 2) est désactivé, réactivez-le.  
 
-5. Obtenez des numéros de téléphone pour vos utilisateurs. (Pour plus d’informations, voir [gérer les numéros de téléphone pour votre organisation](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).)
+5. Obtenez des numéros de téléphone pour vos utilisateurs. (Pour plus d’informations, [voir Gérer les numéros de téléphone pour votre organisation.)](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-   - Si vous voulez réutiliser les numéros, envoyez une demande de portage à votre opérateur.  
-   - Vous pouvez aussi acheter de nouveaux numéros directement auprès de Microsoft. 
+   - Si vous comptez utiliser de nouveau les numéros, envoyez une demande de portage à votre opérateur.  
+   - Vous pouvez également acheter de nouveaux numéros directement auprès de Microsoft. 
 
-6. Mettez à jour l’utilisateur et, si nécessaire, attribuez LineUri. À l’aide des outils Skype entreprise locaux, exécutez Move-CsUser avec le commutateur-MoveToTeams.  
+6. Mettre à niveau l’utilisateur et, si nécessaire, affecter LineUri. À l’aide des outils Skype Entreprise locaux, exécutez-Move-CsUser avec le commutateur -MoveToTeams.  
 
-    - Si vous transférez des numéros vers Microsoft, vous devez coordonner le minutage de cette opération pour qu’il se produise lorsque le port intervient. 
+    - Si vous portez des numéros vers Microsoft, vous devez coordonner le minutage de cette opération lorsque le port se produit. 
 
-    - Si vous utilisez de nouveaux numéros de Microsoft, vous devez modifier le LineUri de l’utilisateur. Vous devez effectuer cette opération une fois que l’utilisateur a été déplacé en ligne à l’aide de Set-CsOnlineVoiceUser.  
+    - Si vous utilisez de nouveaux numéros de Microsoft, vous devez modifier l’uri LineUri de l’utilisateur. Cette mise à jour doit être effectuée une fois l’utilisateur déplacé en ligne à l’aide de Set-CsOnlineVoiceUser.  
 
 ## <a name="summary-of-per-tenant-configuration-of-direct-routing"></a>Résumé de la configuration par client du routage direct 
 
-1. Assurez-vous que votre contrôleur de bordure de session (SBC) est compatible avec le routage direct en passant en revue [cette liste](direct-routing-border-controllers.md). Vous devez également vérifier que vous disposez de la version de microprogramme correcte.  
+1. Assurez-vous que votre contrôleur de session border Controller (SBC) est pris en charge avec le routage direct en [](direct-routing-border-controllers.md)l’examiner. Vous devez également vérifier que vous avez la bonne version du microprogramme.  
 
-2. Associez votre SBC local au service de routage direct Teams. Pour plus d’informations, voir [jumeler l’SBC au service de routage direct du système téléphonique](direct-routing-configure.md). 
+2. Associez votre SBC local au service de routage direct Teams. Pour plus d’informations, [voir Associer le SBC au service de routage direct du système téléphonique.](direct-routing-configure.md) 
 
-3. Cette configuration est essentiellement un miroir de la configuration locale. La configuration en ligne se compose des éléments suivants : 
-   - OnlineVoiceRoutingPolicy (sur la base de la VoiceRoutingPolicy locale lors de la migration des utilisateurs de Skype entreprise Online et sur la base d’VoicePolicy lors de la migration des utilisateurs de Skype entreprise à l’aide de la voix entreprise).
-   - Objets OnlinePSTNUsage (sur la base de l’utilisation RTC locale). 
-   - Objets OnlineVoiceRoute (en fonction de VoiceRoute locale). 
+3. Cette configuration est essentiellement un miroir de la configuration en local. La configuration en ligne est composée des : 
+   - OnlineVoiceRoutingPolicy (basé sur VoiceRoutingPolicy sur site si la migration d’utilisateurs à partir de Skype Entreprise Online, et sur VoicePolicy si la migration d’utilisateurs à partir du site avec Voix Entreprise).
+   - Objets OnlinePSTNUsage (selon l’utilisation PSTN en local). 
+   - Objets OnlineVoiceRoute (sur la base de VoiceRoute local). 
 
-Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md). 
+Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md) 
 
 ## <a name="manage-enterprisevoiceenabled-property-during-migration"></a>Gérer la propriété EnterpriseVoiceEnabled lors de la migration 
 
-Qu’il s’agisse de l’utilisation d’un routage direct ou d’un plan d’appels Microsoft, un utilisateur doit avoir EnterpriseVoiceEnabled = true dans Azure AD pour que l’utilisateur dispose de la fonctionnalité RTC.  EnterpriseVoiceEnabled (« EV-Enabled ») est une propriété (pas une stratégie) qui existe dans un répertoire local et dans le Cloud. La valeur du Cloud est le sujet de l’équipe.  La logique exacte de la façon dont le mode EV est défini sur true dépend du scénario suivant : 
+Que ce soit à l’aide du routage direct ou d’un plan d’appel Microsoft, un utilisateur doit avoir EnterpriseVoiceEnabled=true dans Azure AD pour que l’utilisateur utilise les fonctionnalités PSTN.  EnterpriseVoiceEnabled (« Ev-enabled ») est une propriété (et non une stratégie) qui existe à la fois dans un annuaire local et dans le cloud. La valeur du cloud est importante pour Teams.  La logique exacte de la façon dont ev-enabled est définie sur true dépend du scénario suivant : 
 
-- Si l’utilisateur est doté du service EV dans un serveur Skype entreprise local et qu’une licence de système téléphonique est affectée à l’utilisateur avant de le déplacer vers le Cloud grâce à Move-CsUser, l’utilisateur en ligne est configuré avec EV-enabled = true. 
+- Si l’utilisateur est activé sur Skype Entreprise Server sur site et qu’une licence Système téléphonique est attribuée à l’utilisateur avant de le déplacer vers le cloud avec Move-CsUser, l’utilisateur en ligne est fourni avec EV-enabled=true. 
 
-- Si un utilisateur TeamsOnly existant ou Skype entreprise Online dispose d’une licence de système téléphonique, le EV est activé par défaut.  C’est également le cas si un utilisateur local est déplacé vers le Cloud avant d’affecter la licence du système téléphonique. Dans les deux cas, l’administrateur doit spécifier l’applet de commande suivante : 
+- Si une licence Système téléphonique est affectée à un utilisateur teamsOnly ou Skype Entreprise Online existant, la valeur de la licence EV n’est pas définie par défaut sur True.  C’est également le cas si un utilisateur sur site est déplacé vers le cloud avant d’affecter la licence Phone System. Dans les deux cas, l’administrateur doit spécifier l’cmdlet suivante : 
 
   ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
@@ -163,11 +163,11 @@ Qu’il s’agisse de l’utilisation d’un routage direct ou d’un plan d’a
 
 ## <a name="related-links"></a>Liens connexes
 
-[Planifier votre solution vocale teams](cloud-voice-landing-page.md)
+[Planifier votre solution vocale Teams](cloud-voice-landing-page.md)
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurer une connectivité hybride entre Skype entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Déplacer des utilisateurs entre l’environnement local et le cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
@@ -175,5 +175,5 @@ Qu’il s’agisse de l’utilisation d’un routage direct ou d’un plan d’a
 
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Utiliser le service de migration de réunion (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Utilisation du service Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 

@@ -191,6 +191,6 @@ Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP
 
 5.  Cliquez avec le bouton droit sur **QoS**, pointez sur **Nouveau**, puis cliquez sur **Valeur chaîne**. Une fois la nouvelle valeur de Registre créée, tapez Ne pas utiliser **le NLA,** puis appuyez sur Entrée pour renommer la valeur.
 
-6.  Double-cliquez **sur Ne pas utiliser le NLA**. Dans la boîte **de dialogue Modifier**  la chaîne, tapez **1** dans la zone de données Valeur, puis cliquez sur **OK**.
+6.  Double-cliquez **sur Ne pas utiliser le NLA**. Dans la boîte **de dialogue Modifier**  la chaîne, tapez **1** dans la zone Données de la valeur, puis cliquez sur **OK**.
 
 7.  Fermez l’Éditeur du Registre et redémarrez votre ordinateur.

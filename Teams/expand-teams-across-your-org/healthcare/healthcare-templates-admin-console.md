@@ -1,5 +1,5 @@
 ---
-title: Utiliser les modèles de santé des équipes dans le centre d’administration
+title: Utiliser les modèles médicaux Teams dans le Centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,7 +20,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Utilisez les modèles Microsoft teams dans le centre d’administration pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications.
+description: Utilisez les modèles Microsoft Teams dans le Centre d’administration pour créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
@@ -29,30 +29,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662229"
 ---
-# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Utiliser les modèles de santé des équipes dans le centre d’administration
+# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Utiliser les modèles médicaux Teams dans le Centre d’administration
 
-Les modèles Microsoft teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications préinstallées.
+Les modèles Microsoft Teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications préinstallées.
 
-Pour les entreprises de santé, les modèles peuvent être particulièrement puissants, car ils permettent aux utilisateurs de se familiariser avec l’utilisation des équipes efficacement. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leurs organisations. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de santé.
+Pour les organisations de santé, les modèles peuvent être particulièrement puissants, car ils structurent les utilisateurs pour s’orienter dans la manière de tirer le meilleur parti de Teams efficacement. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leur organisation. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation De soins de santé.
 
-Pour l’instant, nous proposons deux modèles de soins de santé que vous pouvez utiliser pour différentes situations. Pour en savoir plus sur les modèles d’équipe en général, voir [utiliser les modèles teams dans le centre d’administration](../../get-started-with-teams-templates-in-the-admin-console.md).
+Nous proposons actuellement deux modèles de soins de santé à usage unique, que vous pouvez utiliser dans différentes situations. Pour en savoir plus sur les modèles d’équipe en général, voir Commencer à utiliser les [modèles Teams dans le Centre d’administration.](../../get-started-with-teams-templates-in-the-admin-console.md)
 
-## <a name="collaborate-on-patient-care"></a>Collaborer sur les soins du patient
+## <a name="collaborate-on-patient-care"></a>Collaborer sur les soins des patients
 
- Simplifiez la communication et la collaboration sur le milieu de santé au sein d’une Pod, d’une pod ou d’un service. Le modèle peut être utilisé pour faciliter la gestion du patient et des besoins opérationnels.
+ Simplifiez la communication et la collaboration au sein d’un service, d’une équipe ou d’un service. Le modèle peut être utilisé pour faciliter la gestion des patients et les besoins opérationnels d’une base de données.
 
-| Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
+| Type de modèle de base |baseTemplateId| Propriétés de ce modèle de base |
 | ------------------ |---|----------------------------------------------------- |
-| Collaborer sur les soins du patient |`healthcareWard` | Canaux<ul><li>Général</li><li>Annonces</li><li>Huddles</li><li>Négative</li><li>Spécifient</li><li>Formation</li></ul> Logiciels <ul><li>Wiki</li><li>Reprend</li></ul>|
+| Collaborer sur les soins des patients |`healthcareWard` | Canaux :<ul><li>Général</li><li>Annonces</li><li>Bldles</li><li>Arrondit</li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li><li>Listes</li></ul>|
 ||||
 
 ## <a name="hospital"></a>Hôpital
 
-Simplifiez la communication et la collaboration entre les différents services, modules et services d’un hôpital. Ce modèle inclut un ensemble de canaux de base pour les opérations d’hôpital et peut être auto-étendu pour inclure les spécialisations, ad hoc.
+Simplifiez la communication et la collaboration entre plusieurs productions, ainsi que des services au sein d’un hôpital. Ce modèle inclut un ensemble de canaux de base pour les opérations dans les hôpital et peut être étendu eux-mêmes de manière à inclure les tâches spéciales, ad hoc.
 
-| Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
+| Type de modèle de base |baseTemplateId | Propriétés de ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-|Hôpital|`healthcareHospital`|Canaux <ul><li>Général</li><li>Annonces</li><li>Conformité</li><li>Privatives de Troie</li><li>Ressources humaines</li><li>Pharmaceutiques</li></ul> Logiciels <ul><li>Wiki</li><li>Reprend </li></ul>|
+|Hôpital|`healthcareHospital`|Canaux : <ul><li>Général</li><li>Annonces</li><li>Conformité</li><li>Adess</li><li>Ressources humaines</li><li>Desse</li></ul> Applications : <ul><li>Wiki</li><li>Listes </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Sujets associés

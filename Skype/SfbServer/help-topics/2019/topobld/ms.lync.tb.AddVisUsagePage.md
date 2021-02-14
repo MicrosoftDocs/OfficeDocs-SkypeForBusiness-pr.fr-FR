@@ -24,7 +24,7 @@ ms.locfileid: "49800754"
 ---
 # <a name="add-vis-usage"></a>Ajout de l’utilisation du serveur d’interopérabilité vidéo (VIS)
  
-Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un [pool vis dans Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
+Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un [pool vis dans Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
 Les étapes nécessaires à l’attribution d’un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur VIS dans [Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
@@ -32,7 +32,7 @@ Les étapes de configuration d’un nouveau serveur d’interopation vidéo util
   
  Les paramètres d’une passerelle vidéo qui doivent être configurés dans l’interface utilisateur graphique de Cisco pour l’interopérabilité avec un VIS sont décrits en ligne dans la zone Configurer CUCM pour l’interopérabilité avec [Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   
- Les paramètres d’un VTC qui doivent être configurés dans l’interface utilisateur graphique de Cisco pour l’interopération avec une passerelle vidéo et un vis sont décrits en ligne dans Configurer un VTC pour l’interopération avec [Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
+ Les paramètres d’un VTC qui doivent être configurés dans l’interface utilisateur graphique de Cisco pour l’interopérabilité avec une passerelle vidéo et un vis sont décrits en ligne à l’adresse [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

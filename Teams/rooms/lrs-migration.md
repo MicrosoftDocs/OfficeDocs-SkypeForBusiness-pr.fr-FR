@@ -1,5 +1,5 @@
 ---
-title: Migrer des appareils de système de salle Lync vers des salles Microsoft teams
+title: Migrer des appareils Lync Room System vers des salles Microsoft Teams
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: Consultez cette rubrique pour découvrir comment migrer des appareils de système de salle Lync pour utiliser le logiciel de salle Microsoft Teams.
+description: Lisez cette rubrique pour découvrir comment migrer des appareils Lync Room System pour utiliser le logiciel Salles Microsoft Teams.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: d8da14f2d5f3ec75c6a9fb9c03a33d7e83cd1aed
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
@@ -22,17 +22,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662619"
 ---
-# <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migration de périphériques LRS (Lync Room System) vers des salles Microsoft teams
+# <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrer des appareils Lync Room System (LRS) vers des salles Microsoft Teams
 
-Les appareils LRS (Lync Room System) avec le logiciel Skype Room System version 1 (SRS v1) ont atteint la [fin de la prise en charge le 9 octobre 2018](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018). Cela signifie que Skype Room Systems v1 ne recevra plus de mises à jour de produit ou de correctifs. Les clients disposant d’appareils de salle Lync utilisant Skype Room v1 sont invités à mettre à niveau leurs appareils vers les salles Microsoft Teams.
+Les appareils Lync Room System (LRS) avec le logiciel Skype Room System version 1 (SRS v1) ont pris fin au support le 9 octobre [2018.](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018) Cela signifie que Skype Room Systems v1 ne recevra plus de mises à jour de produit ou de correctifs. Les clients disposant d’appareils de salle Lync utilisant Skype Room v1 sont invités à mettre à niveau leurs appareils vers les salles Microsoft Teams.
 
-Le logiciel de salle Microsoft teams fonctionne avec Microsoft teams en plus de Skype entreprise Server et services en ligne pour les réunions et les appels sur tous les appareils Microsoft teams compatibles pris en charge.
+Le logiciel Salles Microsoft Teams fonctionne avec Microsoft Teams en plus des services Skype Entreprise Server et Online pour les réunions et les appels sur tous les appareils pris en charge par les salles Microsoft Teams.
 
-Vos **appareils existants** continuent à fonctionner après la fin de la prise en charge des logiciels de la version v1 du système de salle Skype. Toutefois, si ce logiciel rencontre un bogue logiciel qui nécessite Microsoft pour publier un correctif, il ne sera pas pris en charge. SRS v1 utilise TLS 1.0/1,1 qui sera déconseillé par Microsoft dans le futur. Vous pouvez en savoir plus sur la [préparation de la désapprobation TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
+Vos appareils existants **peuvent continuer à** fonctionner après la fin de la prise en charge du logiciel Skype Room System v1. Toutefois, si ce logiciel se produit après un bogue logiciel qui nécessite la publication d’un correctif par Microsoft, il ne sera pas pris en charge. SRS v1 utilise TLS 1.0/1.1 qui sera prochainement supprimé par Microsoft. Vous pouvez en savoir plus sur la préparation du retrait [de TLS 1.0/1.1.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608) 
 
-## <a name="which-devices-are-affected"></a>Quels appareils sont concernés ?
+## <a name="which-devices-are-affected"></a>Quels appareils sont concernés ?
 
-Voici la liste des appareils concernés par ce changement :
+Voici la liste des appareils concernés par ce changement :
 
 - Crestron RL
 - [Crestron RL2](https://www.crestron.com/Products/Featured-Solutions/Crestron-RL-2)
@@ -41,25 +41,25 @@ Voici la liste des appareils concernés par ce changement :
 
 ## <a name="upgrade-options"></a>Options de mise à niveau
 
-Plusieurs options s’offrent à vous pour effectuer la mise à niveau de systèmes de salle Lync vers la nouvelle génération de salles Microsoft Teams.
+Plusieurs options sont disponibles pour mettre à niveau les systèmes de salle Lync vers la nouvelle génération de Salles Microsoft Teams.
 
-### <a name="crestron-hardware-trade-in-program"></a>Programme d’échange de matériel Crestron
+### <a name="crestron-hardware-trade-in-program"></a>Hardware Trade-in program (Matériel de pointe)
 
-Crestron fournira une mise à niveau vers le [système Crestron SR](https://www.crestron.com/products/featured-solutions/crestron-sr) ou équivalent pour tous les clients de systèmes de salle non Crestron (par exemple, intelligent ou Polycom LRS). Consultez les détails de ce programme [ici](https://support.crestron.com/app/answers/answer_view/a_id/1000220) ou <!-- For details, -->[courrier électronique](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
+Crestron proposera une mise à niveau du système [SR de Crestron SR](https://www.crestron.com/products/featured-solutions/crestron-sr) ou un équivalent pour tous les clients Non-Crestron Lync Room System (par exemple, Smart ou Polycom LRS). Consultez les détails de ce [programme ici ou](https://support.crestron.com/app/answers/answer_view/a_id/1000220) <!-- For details, -->[e-mail](mailto:lrsupgrade@crestron.com) Prise en charge de Crestron LRS.  
 
-### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Crestron RL2 mise à niveau vers les salles de Microsoft teams
+### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Mise à niveau de Crestron RL2 vers des salles Microsoft Teams
 
-Les clients Crestron RL2 (également désignés sous le nom de Crestron RL200) peuvent acquérir un kit de mise à niveau pour mettre à niveau le RL2 actuel vers RL3 en utilisant un coût minimal par appareil. Pour plus d’informations sur ce programme, voir [ici](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT).
+Les clients existants de Crestron RL2 (également appelés RL200) peuvent acquérir un kit de mise à niveau pour mettre à niveau la version actuelle de RL2 vers RL3 à l’aide d’un coût minimal par appareil. Consultez les détails de ce [programme ici.](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
 
-### <a name="smart-room-systems-upgrade"></a>Mise à niveau des systèmes de salle intelligente
+### <a name="smart-room-systems-upgrade"></a>Mise à niveau des systèmes de salle SMART Room
 
-Pour les clients intelligents de LRS, à l’exception du programme d’échange de matériel Crestron, intelligent consiste également à proposer une solution de mise à niveau vers Microsoft Teams. Cette mise à niveau sera fournie par SMART Technologies Inc. au client en vertu du support technique. Veuillez en savoir plus à [ce propos.](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)
+Pour les clients SMART LRS, à l’exception du programme de cérité du matériel de Crestron, SMART travaille également à la fourniture d’une solution pour la mise à niveau vers des salles Microsoft Teams. Cette mise à niveau sera fournie par SMART Technologies Inc. au client sous support technique. Consultez plus d’informations à ce [sujet ici.](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)
 
 
-## <a name="what-should-you-do"></a>Que faire ?
+## <a name="what-should-you-do"></a>Que devez-vous faire ?
 
-Nous vous conseillons de planifier la mise à jour des périphériques du système de salle Lync vers les salles de votre application avant TLS 1.0/1.1 à l’aide des options de mise à niveau mentionnées ci-dessus. Par ailleurs, vous pouvez également envisager de remplacer des appareils existants par de nouveaux appareils certifiés pour les salles Microsoft Teams. Pour plus d’informations, consultez la section [périphériques de salle](https://aka.ms/roomdevices) et prenez en revue la [Configuration requise pour Microsoft teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
+Nous vous recommandons de planifier la mise à jour des appareils Lync Room System vers les salles Microsoft Teams avant la dés déconseillation de TLS 1.0/1.1 à l’aide des options de mise à niveau mentionnées ci-dessus. En outre, vous pouvez également envisager de remplacer les appareils existants par de nouveaux appareils certifiés pour les salles Microsoft Teams. Pour [plus d’informations,](https://aka.ms/roomdevices) consultez les appareils de salle et consultez la requise [pour les salles Microsoft Teams.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)  
 
 
 > [!NOTE]
-> Le logiciel de salles de Microsoft teams prend en charge le protocole TLS 1,2 au 14 décembre 2018 avec la version 4.0.64.0. Pour les clients sur site, l’activation de la communication via TLS 1,2 pour les salles Microsoft teams nécessite Skype entreprise Server 2015 cumulative Update 9 (CU9) ou Skype entreprise Server 2019 cumulative update 1 (CU1). Le changement ne devrait pas affecter les clients de Skype entreprise Online, car les modifications apportées au client sont conformes et en amont.
+> Le logiciel Salles Microsoft Teams prend en charge le protocole TLS 1.2 à partir du 14 décembre 2018 avec la version 4.0.64.0 de l’application. Pour les clients locaux, l’activation de la communication via TLS 1.2 pour les salles Microsoft Teams nécessite la mise à jour cumulative 9 (CU9) de Skype Entreprise Server 2015 ou la mise à jour cumulative 1 (CU1) de Skype Entreprise Server 2019. Cette modification ne devrait pas affecter les clients Skype Entreprise Online, car les modifications apportées aux clients sont conformes en conformité avec l’avant et l’arrière.
