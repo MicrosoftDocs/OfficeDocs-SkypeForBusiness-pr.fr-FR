@@ -26,7 +26,7 @@ Les rapports d’avancement sont basés sur les données téléchargées par le 
   
 Les champs ErrorTime, ErrorReportSeq et ProgressReportSeq ne font pas nécessairement référence à des erreurs, mais à des messages qui indiquent l’état des appels ou des messages.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Date et heure du rapport d’erreurs d’avancement qui contient ce rapport d’avancement. Pour plus d’informations, voir le tableau ErrorReport dans Skype Entreprise [Server 2015.](errorreport.md) <br/> |
 |**ErrorId** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification utilisé conjointement avec ErrorTime et ProgressReportSeq pour identifier de manière unique un rapport d’avancement. Pour plus d’informations, voir le tableau ErrorReport dans Skype Entreprise [Server 2015.](errorreport.md) <br/> |

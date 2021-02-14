@@ -39,7 +39,7 @@ Les propriétaires d’équipe peuvent également ajouter des membres de l’éq
 Les modérateurs de canaux peuvent :
 
 - Commencez de nouvelles publications dans le canal. Lorsque la modération est désactivée pour un canal, seuls les modérateurs peuvent commencer de nouvelles publications dans ce canal.
-- Ajoutez et supprimez des membres de l’équipe comme modérateurs d’un canal. Gardez à l’esprit que, par défaut, les propriétaires d’équipe sont des modérateurs de canaux et ne peuvent pas être supprimés.
+- Ajoutez et supprimez des membres de l’équipe en tant que modérateurs d’un canal. Gardez à l’esprit que, par défaut, les propriétaires d’équipe sont des modérateurs de canaux et ne peuvent pas être supprimés.
 - Contrôler si les membres de l’équipe peuvent répondre aux messages de canal existants et si les bots et connecteurs peuvent envoyer des messages de canal.
 
 ## <a name="scenarios"></a>Scénarios
@@ -48,7 +48,7 @@ Voici quelques exemples de la façon dont votre organisation peut utiliser la mo
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Utiliser un canal comme canal d’annonce
 
-L’équipe marketing utilise un canal spécifique pour partager les annonces et livrables clés du projet. Parfois, les membres de l’équipe publient du contenu sur le canal appartenant le mieux à d’autres canaux. Le propriétaire de l’équipe souhaite limiter le partage d’informations dans le canal aux annonces uniquement afin que les membres de l’équipe utilisent ce canal pour rester au fait de ce qui est important.
+L’équipe marketing utilise un canal spécifique pour partager les annonces et livrables clés du projet. Parfois, les membres de l’équipe publient du contenu sur le canal appartenant le mieux à d’autres canaux. Le propriétaire de l’équipe souhaite limiter le partage d’informations dans le canal aux annonces uniquement afin que les membres de l’équipe peuvent utiliser ce canal pour rester au fait de ce qui est important.
 
 Dans ce scénario, le propriétaire de l’équipe ajoute des prospects marketing en tant que modérateurs afin qu’ils peuvent publier des annonces dans le canal et les membres de l’équipe ne peuvent plus répondre aux messages dans ce canal.
 

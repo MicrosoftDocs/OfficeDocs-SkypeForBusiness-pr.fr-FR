@@ -24,7 +24,7 @@ ms.locfileid: "49823094"
  
 L’affichage AudioStreamDetail stocke les informations relatives à chaque flux audio dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |DateHeure  <br/> |Référencé à partir de [la table MediaLine](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |int  <br/> |Référencé à partir de [la table MediaLine](medialine-0.md).  <br/> |

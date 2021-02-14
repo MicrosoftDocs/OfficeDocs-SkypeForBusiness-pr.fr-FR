@@ -103,8 +103,8 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Version du matériel** <br/> |Numéro de version du téléphone IP ; les filtres Fabricant et Version du matériel vous permettent d’identifier de manière unique un type de téléphone particulier. Les valeurs pour ce filtre sont remplies automatiquement pour vous en fonction des téléphones IP actuellement présents dans la base de données.  <br/> |
 |**Agent utilisateur** <br/> |Identifiant du logiciel utilisé par le téléphone IP. Les valeurs pour ce filtre sont remplies automatiquement pour vous en fonction des téléphones IP actuellement présents dans la base de données.  <br/> |
 |**Adresse MAC** <br/> |Identifiant unique de l’interface réseau sur le téléphone IP. L’adresse MAC (Media Access Control) est généralement assignée lors de la fabrication du téléphone ; elle est codée en dur dans le matériel du périphérique.  <br/> Pour rechercher des enregistrements associés à une adresse MAC spécifique, il vous suffit d’entrer cette adresse. Par exemple :  <br/> 00-08-5D-16-16-48  <br/> Vous devez entrer l’adresse complète. Une adresse partielle (par exemple 00-08-5D) ne renvoie aucune donnée.  <br/> |
-|**Dernière activité avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10  <br/>  20 <br/>  30 <br/> |
-|**Heure de la dernière fermeture de session avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10  <br/>  20 <br/>  30 <br/> |
+|**Dernière activité avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10  <br/>  20 <br/>  30 <br/> |
+|**Heure de la dernière fermeture de session avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10  <br/>  20 <br/>  30 <br/> |
 |**Préfixe URI de l’utilisateur** <br/> |Adresse SIP de l’utilisateur qui a utilisé le téléphone IP.  <br/> |
    
 ## <a name="metrics"></a>Mesures

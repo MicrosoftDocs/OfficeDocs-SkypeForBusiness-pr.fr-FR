@@ -32,9 +32,10 @@ Les administrateurs doivent traiter la table PurgeSettings comme étant en lectu
   
 Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**Id** <br/> |int  <br/> |Primaire  <br/> |Identificateur unique de la collection des paramètres de suppression des enregistrements des détails des appels.  <br/> |
+|
+  **Id** <br/> |int  <br/> |Primaire  <br/> |Identificateur unique de la collection des paramètres de suppression des enregistrements des détails des appels.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||Si la valeur est True (1), Skype Entreprise Server 2015 purge régulièrement les enregistrements obsolètes de la base de données d’enregistrement des appels. LA suppression a lieu tous les jours à l’heure indiquée par le paramètre PurgeHour. Si la valeur est False (0), les enregistrements ne sont pas supprimés automatiquement de la base de données. La valeur par défaut est True.  <br/> |
 |**KeepCallDetailForDays** <br/> |int  <br/> ||Indique l’âge des enregistrements des détails des appels (en jours) qui seront supprimés de la base de données : si la suppression est activée, les enregistrements des détails des appels dont l’antériorité est supérieure à cette valeur seront supprimés de la base de données. La valeur par défaut est 60 jours.  <br/> |
 |**KeepErrorReportForDays** <br/> |int  <br/> ||Indique l’âge des enregistrements de rapport d’erreurs (en jours) qui seront supprimés de la base de données : si la suppression est activée, les enregistrements de rapport d’erreurs dont l’antériorité est supérieure à cette valeur seront supprimés de la base de données. La valeur par défaut est 60 jours.  <br/> |

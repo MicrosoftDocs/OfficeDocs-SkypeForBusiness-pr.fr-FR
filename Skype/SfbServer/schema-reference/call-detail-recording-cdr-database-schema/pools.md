@@ -24,7 +24,7 @@ ms.locfileid: "49823214"
  
 La table Pools est une table de prise en charge qui stocke des informations sur les différents pools. Chaque enregistrement dans la table représente un pool.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**PoolId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce pool.  <br/> |
 |**PoolFQDN** <br/> |nvarchar(256)  <br/> | <br/> |Nom de domaine complet du pool.  <br/> |

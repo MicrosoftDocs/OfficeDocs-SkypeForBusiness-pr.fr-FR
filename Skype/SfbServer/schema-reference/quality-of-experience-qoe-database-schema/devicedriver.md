@@ -24,7 +24,7 @@ ms.locfileid: "49823074"
  
 La table DeviceDriver est une table de prise en charge. Chaque enregistrement représente un pilote utilisé par un périphérique de capture ou par un périphérique de rendu.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**DeviceDriverKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification de cet enregistrement de pilote de périphérique.  <br/> |
 |**DeviceDriver** <br/> |varchar(256)  <br/> |unique  <br/> |Nom du pilote de périphérique.  <br/> |

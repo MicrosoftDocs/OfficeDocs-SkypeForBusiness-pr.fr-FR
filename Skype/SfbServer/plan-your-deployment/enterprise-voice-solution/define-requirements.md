@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: Récapitule les étapes nécessaires à l’activation d’E9-1-1 dans Skype Entreprise Server Voix Entreprise, selon que vous avez un fournisseur de services E9-1-1 de la branche SIP ou une passerelle ELIN.
+description: Récapitule les étapes nécessaires pour activer E9-1-1 dans Skype Entreprise Server Voix Entreprise, selon que vous avez un fournisseur de services E9-1-1 de la trunk SIP ou une passerelle ELIN.
 ms.openlocfilehash: 8efd38657a80bee1ecd979e8730feacfb980053e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49825814"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Définir les conditions requises pour les appels d’urgence dans Skype Entreprise Server
  
-Récapitule les étapes nécessaires à l’activation d’E9-1-1 dans Skype Entreprise Server Voix Entreprise, selon que vous avez un fournisseur de services E9-1-1 de la branche SIP ou une passerelle ELIN.
+Récapitule les étapes nécessaires pour activer E9-1-1 dans Skype Entreprise Server Voix Entreprise, selon que vous avez un fournisseur de services E9-1-1 de la trunk SIP ou une passerelle ELIN.
   
 Avant de commencer un déploiement Skype Entreprise Server E9-1-1, vous devez d’abord être en mesure de répondre aux questions détaillées dans les sections suivantes. La planification dont vous avez besoin dépend du type de solution E9-1-1 que vous choisissez de déployer : fournisseur de services E9-1-1 de jonction SIP ou numéro ELIN (Emergency Location Identification Number). Le tableau suivant identifie les sections de ce manuel de planification que vous devrez consulter pour chacune de ces solutions.
   

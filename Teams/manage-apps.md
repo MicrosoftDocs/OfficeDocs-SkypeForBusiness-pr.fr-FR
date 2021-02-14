@@ -42,7 +42,7 @@ Vous pouvez afficher chaque application, y compris les informations suivantes su
 
 ![Capture d’écran de la page Applications gérées](media/manage-apps.png)
 
-- **Nom**: nom de l’application. Cliquez sur le nom de l’application pour consulter les détails de l’application. Il s’agit d’une description de l’application (autorisée ou bloquée), de sa version, de sa politique de confidentialité, de ses conditions d’utilisation, des catégories qui s’appliquent à l’application, de son état de certification, de ses fonctionnalités et de son ID d’application. Voici un exemple :
+- **Nom**: nom de l’application. Cliquez sur le nom de l’application pour consulter les détails de l’application. Ceci inclut une description de l’application (autorisée ou bloquée), sa version, sa politique de confidentialité, ses conditions d’utilisation, ses catégories qui s’appliquent à l’application, son état de certification, ses fonctionnalités pris en charge et son ID d’application. Voici un exemple :
 
   ![Capture d’écran de la page des détails des applications pour une application](media/manage-apps-app-details.png)
   
@@ -55,7 +55,7 @@ Vous pouvez afficher chaque application, y compris les informations suivantes su
     
     - **Bloqué**: l’application est bloquée et n’est pas disponible pour les utilisateurs de votre organisation.
     
-    - **Blocage à l’échelle de** l’organisation : l’application est bloquée dans les paramètres de l’application à l’échelle de l’organisation.
+    - **Blocage à l’échelle de l’organisation**: l’application est bloquée dans les paramètres de l’application à l’échelle de l’organisation.
     
       Il est important de savoir que cette colonne représente l’état autorisé et bloqué des applications qui se bloquaient auparavant dans le volet **Paramètres** de l’organisation. Vous affichez, bloquez et autorisez les applications à l’échelle de l’organisation sur la page **Gérer les applications.** 
 - **Licences**: indique si une application propose un abonnement SaaS (Software as a Service) à l’achat. Cette colonne s’applique uniquement aux applications tierces. Chaque application tierce a l’une des valeurs suivantes :
@@ -80,7 +80,7 @@ Utilisez la page Gérer les applications pour publier des applications spéciale
 
 ###  <a name="approve-a-custom-app"></a>Approuver une application personnalisée
 
-Le widget **Approbations en** attente dans la page Gérer les applications vous avertit lorsqu’un développeur envoie une application à l’aide de l’API Soumission d’application Teams. Une application nouvellement envoyée est répertoriée avec l’état **de publication** **Soumis** et **le statut** **Bloqué.** Allez sur la page des détails de l’application pour voir plus d’informations sur l’application, puis pour la publier, définissez l’état de **publication** **sur Publier.**
+Le widget **Approbations en** attente dans la page Gérer les applications vous avertit lorsqu’un développeur envoie une application à l’aide de l’API Soumission d’application Teams. Une application nouvellement envoyée est répertoriée avec l’état **de publication** **Soumis** et **le statut** **Bloqué.** Allez sur la page des détails de l’application pour voir plus d’informations sur l’application, puis pour la publier, définissez l’état **de publication** sur **Publier.**
 
 Vous êtes également averti lorsqu’un développeur envoie une mise à jour à une application personnalisée. Vous pouvez ensuite consulter et publier (ou refuser) la mise à jour sur la page des détails de l’application. Toutes les stratégies d’autorisation d’application et stratégies de configuration d’application demeurent appliquées pour l’application mise à jour.
 
@@ -92,7 +92,7 @@ Le développeur crée un package d’application Teams à l’aide [de Teams App
 
 Pour télécharger une nouvelle application personnalisée, **sélectionnez Télécharger** pour télécharger le package d’application. L’application n’est pas mise en évidence une fois téléchargée. Vous devrez donc effectuer une recherche dans la liste des applications de la page Gérer les applications pour la trouver.
 
-Pour mettre à jour une application une fois qu’elle a été téléchargée, dans la liste des applications de la page Gérer les applications, cliquez sur le nom de l’application, puis sur Mettre **à jour.** Cette procédure remplace l’application existante, et toutes les stratégies d’autorisation d’application et stratégies de configuration de l’application restent appliquées pour l’application mise à jour.
+Pour mettre à jour une application une fois qu’elle a été téléchargée, dans la liste des applications de la page Gérer les applications, cliquez sur le nom de l’application, puis sur Mettre **à jour.** Cette procédure remplace l’application existante, et toutes les stratégies d’autorisation d’application et stratégies de configuration de l’application demeurent appliquées pour l’application mise à jour.
 
 Pour plus d’informations, [voir Publier une application personnalisée en téléchargeant un package d’application.](upload-custom-apps.md)
 
@@ -109,7 +109,7 @@ Lorsque vous bloquez ou autorisez une application sur la page Gérer les applica
 
 ## <a name="add-an-app-to-a-team"></a>Ajouter une application à une équipe
 
-Vous utilisez le **bouton Ajouter à une équipe** pour installer une application à une équipe. N’oubliez pas que cette application s’agit uniquement des applications qui peuvent être installées dans une étendue d’équipe. Le **bouton Ajouter à une** équipe n’est pas disponible pour les applications qui ne peuvent être installées que dans l’étendue personnelle.
+Vous utilisez le **bouton Ajouter à une équipe** pour installer une application à une équipe. N’oubliez pas que cette application s’agit uniquement des applications qui peuvent être installées dans une étendue d’équipe. Le **bouton Ajouter à l’équipe** n’est pas disponible pour les applications qui ne peuvent être installées que dans l’étendue personnelle.
 
 ![Capture d’écran du bouton Ajouter à l’équipe](media/manage-apps-add-app-team.png)
 
@@ -127,29 +127,29 @@ Vous pouvez consulter et accorder votre consentement aux applications qui demand
 
 ## <a name="view-resource-specific-consent-permissions"></a>Afficher les autorisations de consentement spécifiques aux ressources
 
-Les autorisations de consentement spécifique aux ressources autorisent les propriétaires d’équipe à accorder leur consentement pour qu’une application accède aux données d’une équipe et les modifie. Les autorisations RSC sont précises et spécifiques à Teams qui définissent ce qu’une application peut faire dans une équipe spécifique. Vous pouvez afficher les autorisations RSC sous l’onglet **Autorisations** de la page des détails de l’application pour une application. Pour en savoir plus, consultez [Les autorisations d’affichage des applications et accordez l’autorisation](app-permissions-admin-center.md)de l’administrateur dans le Centre d’administration Microsoft Teams.
+Les autorisations de consentement spécifique aux ressources autorisent les propriétaires d’équipe à accorder leur consentement pour qu’une application accède aux données d’une équipe et les modifie. Les autorisations RSC sont précises et spécifiques à Teams qui définissent ce qu’une application peut faire dans une équipe spécifique. Vous pouvez afficher les autorisations RSC sous l’onglet **Autorisations** de la page des détails de l’application pour une application. Pour en savoir plus, consultez [les autorisations d’application et accordez l’administrateur dans le Centre d’administration Microsoft Teams.](app-permissions-admin-center.md)
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres des applications à l’échelle de l’organisation
 
-Utilisez les paramètres d’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces et si les utilisateurs peuvent télécharger ou interagir avec des applications personnalisées dans votre organisation. Les paramètres d’application à l’échelle de l’organisation régissent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées aux utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
+Utilisez les paramètres d’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces et si les utilisateurs peuvent télécharger ou interagir avec des applications personnalisées dans votre organisation. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 
 > [!NOTE]
 > Pour découvrir comment utiliser les paramètres d’application à l’échelle de l’organisation dans les déploiements Microsoft 365 Government - GCC de Teams, voir Gérer les stratégies d’autorisation d’application [dans Teams.](teams-app-permission-policies.md)
 
 1. Dans la page Gérer les applications, sélectionnez **Paramètres de l’application à l’échelle de l’organisation.** Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
 
-    ![Capture d’écran des paramètres d’application à l’échelle de l’organisation](media/manage-apps-org-wide-app-settings.png)
+    ![Capture d’écran des paramètres de l’application à l’échelle de l’organisation](media/manage-apps-org-wide-app-settings.png)
     
-2. Sous **Applications tierces,** désactiver ou activer ces paramètres pour contrôler l’accès aux applications tierces :
+2. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
 
-    - **Autoriser les applications tierces**: cela contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactiver ce paramètre, vos utilisateurs ne pourront pas installer ou utiliser des applications tierces et l’état de ces applications s’affiche comme bloqué à l’échelle de l’organisation dans le tableau. 
+    - **Autoriser les applications tierces** : cette commande contrôle si les utilisateurs peuvent utiliser des applications tierces. Si vous désactiver ce paramètre, vos utilisateurs ne pourront pas installer ou utiliser des applications tierces et l’état de ces applications s’affiche comme bloqué à l’échelle de l’organisation dans le tableau. 
 
         > [!NOTE]
         > Lorsque **l’autoriser est** désactivé, les sites web sortants sont [désactivés,](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ce qui signifie que les utilisateurs ne peuvent pas les créer. Lorsque ce paramètre est activé, les sites web sortants sont activés pour tous les utilisateurs et vous pouvez les contrôler au niveau de l’utilisateur en permettant ou en bloquant l’application Web sans fil via des stratégies d’autorisation [d’application.](teams-app-permission-policies.md) <br><br>Notez que si [](teams-app-permission-policies.md) vous avez des stratégies  d’autorisation d’application existantes pour les applications **Microsoft** qui utilisent le paramètre Autoriser des applications spécifiques et bloquez tous les autres paramètres, et que vous voulez activer les sites web sortants pour les utilisateurs, ajoutez l’application Web de l’utilisateur sortant à la liste.
-    - **Autoriser toutes les** nouvelles applications tierces publiées sur le Store par défaut : Cela contrôle si les nouvelles applications tierces publiées dans le magasin d’applications Teams deviennent automatiquement disponibles dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
+    - **Autoriser toute nouvelle application tierce publiée sur le magasin par défaut** : cette option contrôle la publication automatique des nouvelles applications tierces publiées dans le magasin d’applications Teams dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
-3. Sous **Applications personnalisées,** désactiver ou activer **l’application Autoriser l’interaction avec les applications personnalisées.** Ce paramètre contrôle si les utilisateurs peuvent interagir avec les applications personnalisées. Pour en savoir plus, [consultez Gérer les stratégies et paramètres d’application personnalisées dans Teams.](teams-custom-app-policies-and-settings.md)
-4. Cliquez **sur Enregistrer** pour que les paramètres d’application à l’échelle de l’organisation prennent effet.
+3. Sous **Applications personnalisées,** désactiver ou activer **l’application Autoriser l’interaction avec les applications personnalisées.** Ce paramètre contrôle si les utilisateurs peuvent interagir avec les applications personnalisées. Pour plus d’informations, consultez [Gérer les stratégies et paramètres d’application personnalisés dans Teams](teams-custom-app-policies-and-settings.md).
+4. Cliquez sur **Enregistrer** pour que les paramètres de l’application à l’échelle de l’organisation prennent effet.
 
 ## <a name="related-topics"></a>Sujets associés
 

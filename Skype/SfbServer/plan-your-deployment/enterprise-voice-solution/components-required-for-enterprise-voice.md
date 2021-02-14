@@ -29,11 +29,11 @@ Résumé des composants Voix Entreprise dans Skype Entreprise Server.
   
 Pour déployer Voix Entreprise, les composants suivants sont requis dans votre topologie. 
   
-- Un ou plusieurs serveurs de médiation, qui traduisent la signalisation et, dans certaines configurations, les médias entre votre infrastructure skype entreprise interne, votre infrastructure Voix Entreprise et une passerelle PSTN (réseau téléphonique commuté) ou une session SIP (Session Initiation Protocol). Les serveurs de médiation sont le composant le plus crucial de votre déploiement Voix Entreprise de médiation. Pour plus d’informations, [voir composant serveur de médiation dans Skype Entreprise Server.](mediation-server.md)
+- Un ou plusieurs serveurs de médiation, qui traduisent la signalisation et, dans certaines configurations, les médias entre votre infrastructure skype entreprise interne, votre infrastructure Voix Entreprise et une passerelle de réseau téléphonique commuté (PSTN) ou une session SIP (Session Initiation Protocol). Les serveurs de médiation sont le composant le plus crucial de votre déploiement Voix Entreprise de médiation. Pour plus d’informations, [voir composant serveur de médiation dans Skype Entreprise Server.](mediation-server.md)
     
     Les serveurs de médiation peuvent être cocalisé avec des serveurs frontaux ou installés en tant que serveurs autonomes.
     
-- Composants de connectivité PSTN, qui peuvent inclure des passerelles SIP ou PSTN. Pour plus d’informations, voir composants de connectivité [PSTN dans Skype Entreprise Server.](pstn-connectivity.md)
+- Composants de connectivité PSTN, qui peuvent inclure des passerelles SIP ou PSTN. Pour plus d’informations, voir composants de [connectivité PSTN dans Skype Entreprise Server.](pstn-connectivity.md)
     
 - Les serveurs Edge, qui permettent à vos utilisateurs d’utiliser Voix Entreprise fonctionnalités de sécurité lorsqu’ils sont en dehors du pare-feu de votre organisation. 
     

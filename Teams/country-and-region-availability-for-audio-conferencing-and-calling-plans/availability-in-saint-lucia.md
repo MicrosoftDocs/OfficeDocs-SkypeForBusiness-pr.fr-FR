@@ -1,5 +1,5 @@
 ---
-title: Disponibilité en Sainte Lucie
+title: Disponibilité à Saint Lucie
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -31,11 +31,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823004"
 ---
-# <a name="availability-in-saint-lucia"></a>Disponibilité en Sainte Lucie
+# <a name="availability-in-saint-lucia"></a>Disponibilité à Saint Lucie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Saint Lucie.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Sainte-Lucie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

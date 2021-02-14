@@ -25,7 +25,7 @@ ms.locfileid: "49825844"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour le contrôle d’admission des appels dans Skype Entreprise
 
-Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une trunk SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
 
 Les rubriques de cette section donnent des informations sur les considérations spécifiques de déploiement du contrôle d’admission des appels (CAC) avec différents types de topologies réseau.
 
@@ -107,7 +107,7 @@ Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et
 
 - Entre le serveur de médiation et le PBX/MTP
 
-Cela fonctionne pour les appels PSTN entrants vers un client du site réseau 1 et les appels PSTN sortants provenant d’un client du Site réseau 1.
+Cela fonctionne à la fois pour les appels PSTN entrants vers un client du site réseau 1 et les appels PSTN sortants provenant d’un client du site réseau 1.
 
 > [!NOTE]
 > Assurez-vous que le sous-réseau IP à qui appartient le MTP est configuré et associé au site réseau 2.
