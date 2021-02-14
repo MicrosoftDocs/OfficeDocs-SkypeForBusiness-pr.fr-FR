@@ -60,10 +60,10 @@ Le tableau suivant indique la capacité et la exigences du système d’exploita
 |:-----|:-----|
 |UC  <br/> |Un des processeurs suivants :  <br/> Processeur 64 bits, quadruple cœur, 2,33 GHz ou supérieur  <br/> Processeur 64 bits 2 voies, bi cœur, 2,33 GHz ou supérieur  <br/> |
 |Mémoire  <br/> |8 Go  <br/> |
-|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Réseau  <br/> |1 carte réseau à 1 Gbps  <br/> |
    
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Configuration requise
 
 Pour exécuter un nœud d’observation de transaction synthétique, vous devez d’abord installer les opérations suivantes :
   
@@ -128,18 +128,18 @@ Les packs d’administration Skype Entreprise Server 2015 offrent une couverture
 
 |Transactions synthétiques prise en charge pour l’inscription, la présence et les contacts|||
 |:-----|:-----|:-----|
-|1   <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|2   <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|3   <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|1   <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|2   <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|3   <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
 |4   <br/> |Présence  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|5   <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et au-delà  <br/> |
+|5   <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et au-delà  <br/> |
 ||||   
 
 |Transactions synthétiques prise en charge pour les services D’égal à égal|||
 |:-----|:-----|:-----|
-|6   <br/> |Messagerie instantanée D’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|7   <br/> |Vidéo audio d’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|8   <br/> |Message instantané D’égal à égal MCX (mobile)  <br/> |Disponible dans la version de septembre 2011 de Lync Server 2010 pour Skype Entreprise 2015  <br/> |
+|6   <br/> |Messagerie instantanée D’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
+|7   <br/> |Vidéo audio d’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
+|8   <br/> |Message instantané D’égal à égal MCX (mobile)  <br/> |Disponible dans la version de septembre 2011 de Lync Server 2010 pour Skype Entreprise 2015  <br/> |
  
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
@@ -147,10 +147,10 @@ Les packs d’administration Skype Entreprise Server 2015 offrent une couverture
 
 |Transactions synthétiques prise en charge pour les conférences et la conversation permanente|||
 |:-----|:-----|:-----|
-|9   <br/> |Conférence audio-vidéo  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|10   <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|11   <br/> |Conférence par message instantané  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|12   <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|9   <br/> |Conférence audio-vidéo  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
+|10   <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|11   <br/> |Conférence par message instantané  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
+|12   <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |13   <br/> |Rejoindre Lanceur (réunions prévues)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |14   <br/> |Conférences téléphoniques  <br/> |Nouveautés de Skype Entreprise Server 2015  <br/> |
 |15   <br/> |Conférence de partage d’application  <br/> |Nouveautés de Skype Entreprise Server 2015  <br/> |

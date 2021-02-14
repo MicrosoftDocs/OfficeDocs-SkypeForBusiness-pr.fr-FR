@@ -24,7 +24,7 @@ ms.locfileid: "49813364"
  
 La table CallType est une table statique qui contient la liste de types d’appels possibles.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**CallTypeId** <br/> |int  <br/> |Primaire  <br/> ||
 |**CallType** <br/> |nvarchar  <br/> || Valeurs autorisées : <br/>  0 - Inconnu <br/>  1 - Messagerie instantanée <br/>  2 -- Partage d’application <br/>  3 - Audio <br/>  4 - Audio et vidéo <br/>  5 - Transfert de fichiers <br/> |

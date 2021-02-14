@@ -31,9 +31,9 @@ Le contrôle d’appel distant était une fonctionnalité des versions précéde
   
 ||**Client Skype Entreprise avec l’interface utilisateur Skype activée**|**Client Skype Entreprise avec l’interface utilisateur Lync activée**|**Client Skype Entreprise 2016**|**Lync 2013 Client**|**Client Lync 2010**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype Entreprise Server <br/> |Appel via le travail  <br/> |1  <br/> |Appel via le travail  <br/> |1  <br/> |1  <br/> |
-| Lync Server 2013 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1  <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
-| Lync Server 2010 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1  <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
+| Skype Entreprise Server <br/> |Appel via le travail  <br/> |1  <br/> |Appel via le travail  <br/> |1  <br/> |1  <br/> |
+| Lync Server 2013 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1  <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
+| Lync Server 2010 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1  <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
    
 1. Aucune des fonctionnalités n’est prise en charge.
   

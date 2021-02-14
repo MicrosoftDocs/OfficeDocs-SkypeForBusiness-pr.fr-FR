@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques d’implémentation et de gestion des grandes réunions dans Skype Entreprise Server.'
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion de grandes réunions dans Skype Entreprise Server.'
 ms.openlocfilehash: 8e982f08b1ff65ac6a4ea6f47a15e57f1eded163
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

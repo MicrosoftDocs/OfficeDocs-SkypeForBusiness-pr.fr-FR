@@ -88,9 +88,9 @@ L’application Response Group est automatiquement activée lorsque vous déploy
 
 L’application Response Group a la même configuration matérielle requise, la même configuration requise pour le système d’exploitation et les mêmes logiciels que les serveurs frontaux.
 
-Si vous utilisez des fichiers Windows Media Audio (.wma) pour la musique et les annonces Response Group, le runtime du format Windows Media doit être installé sur tous les serveurs frontaux ou Standard Editions pour tous les serveurs frontaux ou Standard Editions qui exécutent l’application Response Group. Le runtime du format Windows Media doit être installé pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de l’expérience de bureau Windows.
+Si vous utilisez des fichiers Windows Media Audio (.wma) pour la musique et les annonces Response Group, le runtime du format Windows Media doit être installé sur tous les serveurs frontaux ou Standard Editions sur tous les serveurs qui exécutent l’application Response Group pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de l’expérience de bureau Windows.
 
-Response Group utilise des **packs de langue pour** prendre en charge la reconnaissance vocale et la reconnaissance vocale. Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses d’une réponse vocale interactive, par exemple). Par défaut, les 26 packs de langue pris en charge sont installés lorsque vous déployez Skype Entreprise Server.
+Response Group utilise **des packs de langue** pour prendre en charge la reconnaissance vocale et la reconnaissance vocale. Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses d’une réponse vocale interactive, par exemple). Par défaut, les 26 packs de langue pris en charge sont installés lorsque vous déployez Skype Entreprise Server.
 
 ### <a name="port-requirements"></a>Configuration requise pour les ports
 
@@ -209,10 +209,10 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 
 |**Métrique**|**Par pool Enterprise Edition  <br/> (avec 8 serveurs frontux)**|**Par serveur Standard Edition**|
 |:-----|:-----|:-----|
-|Appels entrants par seconde  <br/> |16   <br/> |2   <br/> |
+|Appels entrants par seconde  <br/> |16   <br/> |2   <br/> |
 |Appels simultanés connectés à la réponse vocale interactive ou à l’attente musicale  <br/> |480  <br/> |60  <br/> |
 |Sessions anonymes simultanées (sans messagerie instantanée)  <br/> |224  <br/> |28  <br/> |
-|Sessions anonymes simultanées (avec messagerie instantanée)  <br/> |64  <br/> |8   <br/> |
+|Sessions anonymes simultanées (avec messagerie instantanée)  <br/> |64  <br/> |8   <br/> |
 |Agents actifs (formels et informels)  <br/> |2400  <br/> |2400  <br/> |
 |Nombre de groupes de recherche  <br/> |800  <br/> |800  <br/> |
 |Nombre de groupes de réponse vocale interactive (utilisation de la reconnaissance vocale)  <br/> |400  <br/> |400  <br/> |

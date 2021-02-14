@@ -36,9 +36,9 @@ La table ConferenceJoinTimeThresholds contient les valeurs de classification 2 
   
 Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ThresholdId** <br/> |int  <br/> |Primaire  <br/> |Identificateur unique de la classification.  <br/> |
-|**ThresholdValue** <br/> |int  <br/> || Limite supérieure de la classification. Les valeurs autorisées sont les suivantes : <br/>  2  <br/>  5  <br/>  10  <br/> |
+|**ThresholdValue** <br/> |int  <br/> || Limite supérieure de la classification. Les valeurs autorisées sont les suivantes : <br/>  2  <br/>  5  <br/>  10  <br/> |
    
 

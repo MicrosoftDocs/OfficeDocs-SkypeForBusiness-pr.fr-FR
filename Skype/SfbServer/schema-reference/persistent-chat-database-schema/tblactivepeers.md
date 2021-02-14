@@ -26,7 +26,7 @@ tblActivePeers contient les connexions pair à pair actuelles entre les services
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |aplServerID  <br/> |int, non null  <br/> |ID du serveur qui a publié l’entrée.  <br/> |
 |aplPeerID  <br/> |int, non null  <br/> |ID de l’homologue à qui le serveur de publication est connecté.  <br/> |

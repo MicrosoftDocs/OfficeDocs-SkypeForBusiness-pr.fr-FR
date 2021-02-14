@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Rassemblez les commentaires des utilisateurs pour améliorer l’implémentation de la voix cloud dans Microsoft Teams ou Skype Entreprise.
+description: Rassemblez les commentaires des utilisateurs pour améliorer l’implémentation de voix cloud dans Microsoft Teams ou Skype Entreprise.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -29,7 +29,7 @@ Utilisez les enquêtes de commentaires pour capturer l’expérience des utilisa
 
 Personnalisez les questions ci-dessous, puis transférez-les vers un outil d’enquête tel que SharePoint afin d’en faciliter la distribution et l’analyse.
 
-Aux fins de ces  enquêtes, le nouveau système téléphonique fait référence à l’utilisation des fonctionnalités d’appel de Microsoft Teams ou de Skype Entreprise, en plus de périphériques tels qu’un téléphone multimédia ou un téléphone mobile. Toutes les références à Microsoft Teams dans ces enquêtes s’appliquent également à Skype Entreprise.
+Aux fins de ces  enquêtes, un nouveau système téléphonique fait référence à l’utilisation des fonctionnalités d’appel de Microsoft Teams ou de Skype Entreprise, ainsi que des appareils tels qu’un téléphone multimédia ou un téléphone mobile. Toutes les références à Microsoft Teams dans ces enquêtes s’appliquent également à Skype Entreprise.
 
 Indiquez votre niveau d’accord avec les déclarations suivantes en relation avec l’utilisation de Teams comme téléphone. 
 

@@ -24,7 +24,7 @@ ms.locfileid: "49813214"
  
 Chaque enregistrement de ce tableau contient des détails d’appel sur une conférence.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Heure de capture de la demande de conférence par l’agent d’cdr. Utilisé uniquement comme clé primaire pour identifier de manière unique une instance de conférence.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire  <br/> |Numéro d’ID identifiant la session. Utilisé conjointement avec **SessionIdTime pour** identifier de manière unique une instance de conférence. * <br/> |

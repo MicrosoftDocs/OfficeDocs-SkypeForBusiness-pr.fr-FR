@@ -30,11 +30,11 @@ Lisez cette rubrique pour découvrir comment déployer le partage de lignes dans
 
 Pour plus d’informations sur cette fonctionnalité, voir [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-Shared Line Appearance (SLA) is a new feature in Skype for Business Server, November 2015 Cumulative Update. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
+Le partage de lignes (SLA) est une nouvelle fonctionnalité de Skype Entreprise Server, mise à jour cumulative de novembre 2015. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
 
 ### <a name="install-shared-line-appearance"></a>Installer l’apparence des lignes partagées
 
-1. Après le déploiement de La mise à jour cumulative de novembre 2015 de Skype Entreprise Server, exécutez le correctif sur chaque serveur  `SkypeServerUpdateInstaller.exe` frontal du pool.
+1. Après le déploiement de Skype Entreprise Server, la mise à jour cumulative de novembre 2015, exécutez le correctif sur chaque serveur  `SkypeServerUpdateInstaller.exe` frontal du pool.
 
 2. Le programme d’installation déploiera la dernière version de l’application SLA, mais l’application n’est pas activée par défaut. Elle est activée en suivant les étapes décrites ci-dessous :
 
@@ -98,7 +98,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
 
 ### <a name="configure-the-sla-group-busy-option"></a>Configurer l’option Occupé du groupe de SLA
 
-- Configurez le groupe SLA Busy Option à l’aide de [l';set-CsSlaConfiguration:](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
+- Configurez l’option Occupé du groupe de SLA à l’aide de l';cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
 
   ```powershell
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]

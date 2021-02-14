@@ -24,7 +24,7 @@ ms.locfileid: "49813504"
  
 Ce tableau stocke des informations sur les différents processus de Skype Entreprise Server 2015 impliqués dans le routage et les connexions.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ApplicationId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant cette application.  <br/> |
 |**Name** <br/> |nvarchar(256)  <br/> | <br/> |Nom du composant serveur.  <br/> |

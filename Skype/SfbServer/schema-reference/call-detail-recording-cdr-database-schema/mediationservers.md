@@ -24,7 +24,7 @@ ms.locfileid: "49814764"
  
 La table MediationServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation impliqué dans les appels qui ont des enregistrements dans la base de données.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**MediationServerId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce serveur de médiation.  <br/> |
 |**MediationServer** <br/> |nvarchar(256)  <br/> | <br/> |Nom du serveur de médiation.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Configurer les paramètres et les utilisateurs de test de nœuds de l’observeur
+title: Configurer les paramètres et les utilisateurs de test du nœud observeur
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -21,7 +21,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814834"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>Configurer les paramètres et les utilisateurs de test de nœuds de l’observeur
+# <a name="configure-watcher-node-test-users-and-settings"></a>Configurer les paramètres et les utilisateurs de test du nœud observeur
  
 **Résumé :** Configurez les paramètres de nœud d’utilisateur test et de nœud d’observation pour les transactions synthétiques Skype Entreprise Server.
   
@@ -76,7 +76,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>Configuration de tests étendus
 
-Si vous souhaitez activer le test PSTN, qui vérifie la connectivité avec le réseau téléphonique commuté public, vous devez faire une configuration supplémentaire lors de la configuration du nœud de l’observeur. Tout d’abord, vous devez associer vos utilisateurs de test au type de test PSTN en exécutant une commande semblable à celle-ci à partir de Skype Entreprise Server Management Shell :
+Si vous souhaitez activer le test PSTN, qui vérifie la connectivité avec le réseau téléphonique commuté, vous devez faire une configuration supplémentaire lors de la configuration du nœud d’observation. Tout d’abord, vous devez associer vos utilisateurs de test au type de test PSTN en exécutant une commande semblable à celle-ci à partir de Skype Entreprise Server Management Shell :
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Les résultats de cette commande doivent être stockés dans une variable. Dans cet exemple, la variable est nommée $pstnTest. 
   
-Ensuite, vous pouvez utiliser l’applet de la cmdlet **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un pool Skype Entreprise Server. Par exemple, la commande suivante crée une configuration de nœud d’observation pour la atl-cs-001.litwareinc.com du pool, en ajoutant les deux utilisateurs de test créés précédemment et en ajoutant le type de test PSTN :
+Ensuite, vous pouvez utiliser l’applet de calcul **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un pool Skype Entreprise Server. Par exemple, la commande suivante crée une configuration de nœud d’observation pour la atl-cs-001.litwareinc.com du pool, en ajoutant les deux utilisateurs de test créés précédemment et en ajoutant le type de test PSTN :
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -99,7 +99,7 @@ Pour tester plusieurs stratégies de voix, vous pouvez créer un test étendu po
   
 Étant donné que la cmdlet **New-CsWatcherNodeConfiguration** a été appelée sans utiliser le paramètre Tests, seules les transactions synthétiques par défaut (et la transaction synthétique étendue spécifiée) seront activées pour le nouveau nœud observateur. Par conséquent, le nœud de l’observation testera les composants suivants :
   
-- Enregistrement
+- Inscription
     
 - IM (Messagerie instantanée)
     
@@ -163,7 +163,7 @@ Set-CsWatcherNodeConfiguration : il existe une séquence de touches en double «
   
 Lorsque cette erreur se produit, aucune modification n’est appliquée. La commande doit être ré-exécuté avec le test dupliqué supprimé.
   
-Pour supprimer une transaction synthétique d’un nœud d’observation, utilisez la méthode Remove. Par exemple, la commande suivante supprime le test ABWQ d’un nœud observateur :
+Pour supprimer une transaction synthétique d’un nœud observeur, utilisez la méthode Remove. Par exemple, la commande suivante supprime le test ABWQ d’un nœud observateur :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
@@ -209,7 +209,7 @@ ExtendedTests : {TestUsers=IList<System.String>; Name=PSTN Test; Te...}<br/>
 TargetFqdn : atl-cs-001.litwareinc.com<br/>
 PortNumber : 5061<br/>
 
-Pour vérifier que le nœud de l’observation a été configuré correctement, tapez la commande suivante à partir de Skype Entreprise Server Management Shell :
+Pour vérifier que le nœud d’observation a été configuré correctement, tapez la commande suivante à partir de Skype Entreprise Server Management Shell :
   
 ```PowerShell
 Test-CsWatcherNodeConfiguration
@@ -259,7 +259,7 @@ Par défaut, les nodes d’observeur utilisent les URL web externes d’une orga
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
-La réinitialisation de cette propriété sur la valeur par défaut false ($False) entraîne une nouvelle utilisation des URL externes par l’observeur :
+La réinitialisation de cette propriété sur la valeur par défaut de False ($False) entraîne une nouvelle utilisation des URL externes par l’observeur :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
@@ -274,7 +274,7 @@ La plupart des transactions synthétiques peuvent s’exécuter sur un nœud d�
 
 Si votre ordinateur de nœud observeur se trouve en dehors de votre réseau de périmètre, vous ne serez probablement pas en mesure d’exécuter la transaction synthétique de conférence de données, sauf si vous désactivez d’abord les paramètres proxy du navigateur Internet Windows Internet Explorer® pour le compte service réseau en effectuant les étapes suivantes :
   
-1. Sur l’ordinateur du nœud observeur, cliquez sur **Démarrer,** cliquez sur Tous les **programmes,** cliquez sur **Accessoires,** cliquez avec le bouton droit sur Invite de **commandes,** puis cliquez sur Exécuter **en tant qu’administrateur.**
+1. Sur l’ordinateur du nœud observeur, cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Accessoires,** sur Invite de **commandes,** puis cliquez sur Exécuter **en tant qu’administrateur.**
     
 2. Dans la fenêtre de console, tapez la commande suivante, puis appuyez sur Entrée. 
     
@@ -385,7 +385,7 @@ Pour plus d’informations sur l’exécuter, reportez-vous à la documentation 
 
 Par défaut, les transactions synthétiques s’exécutent avec les utilisateurs configurés toutes les 15 minutes. Les transactions synthétiques sont exécutés séquentiellement au sein d’un ensemble d’utilisateurs afin d’éviter que deux transactions synthétiques entrent en conflit. Un intervalle plus long est nécessaire pour que toutes les transactions synthétiques se terminent.
   
-S’il est souhaitable d’exécuter des transactions synthétiques plus fréquemment, le nombre de transactions synthétiques qui s’exécutent avec un ensemble donné d’utilisateurs doit être réduit afin que les tests se terminent dans la plage de temps souhaitée avec une certaine mémoire tampon pour les retards occasionnels du réseau. Si l’exécution de plus de transactions synthétiques est souhaitable, créez d’autres jeux d’utilisateurs pour exécuter des transactions synthétiques supplémentaires.
+S’il est souhaitable d’exécuter des transactions synthétiques plus fréquemment, le nombre de transactions synthétiques qui s’exécutent avec un ensemble d’utilisateurs donné doit être réduit afin que les tests se terminent dans la plage de temps souhaitée avec une certaine mémoire tampon pour les retards occasionnels du réseau. Si l’exécution de transactions synthétiques supplémentaires est souhaitable, créez d’autres jeux d’utilisateurs pour exécuter des transactions synthétiques supplémentaires.
   
 Pour modifier la fréquence à laquelle les transactions synthétiques s’exécutent, suivez les étapes suivantes :
   
@@ -433,7 +433,7 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
   
 Lorsque vous exécutez cette commande, vous verrez une sortie semblable à celle-ci :
   
-Fqdn cible : atl-cs-001.litwareinc.com résultat : Latence d’échec : 00:00:00 Message d’erreur : cet ordinateur ne se voit attribuer aucun certificat. Diagnostic : vous pouvez accéder à des informations beaucoup plus détaillées sur cet échec que le simple message d’erreur affiché ici.
+Fqdn cible : atl-cs-001.litwareinc.com résultat : Latence d’échec : 00:00:00 Message d’erreur : cet ordinateur ne atl-cs-001.litwareinc.com aucun certificat affecté. Diagnostic : vous pouvez accéder à des informations beaucoup plus détaillées sur cet échec que le simple message d’erreur affiché ici.
 
 Pour accéder à ces informations au format HTML, utilisez une commande semblable à celle-ci pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
   

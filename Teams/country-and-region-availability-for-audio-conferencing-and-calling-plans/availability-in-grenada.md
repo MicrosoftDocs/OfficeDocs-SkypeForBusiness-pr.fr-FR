@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans Quada
+title: Disponibilité dans Quaïada
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -31,7 +31,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814724"
 ---
-# <a name="availability-in-grenada"></a>Disponibilité dans Quada
+# <a name="availability-in-grenada"></a>Disponibilité dans Quaïada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 

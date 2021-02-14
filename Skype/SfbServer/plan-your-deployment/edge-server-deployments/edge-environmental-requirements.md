@@ -102,19 +102,19 @@ Cela peut être un peu plus compliqué avec des topologies consolidées à l’�
 
 |**Nombre de serveurs Edge par pool**|**Nombre d’adresses IP requises pour l’équilibrage de charge DNS**|**Nombre d’adresses IP requises pour l’équilibrage de la charge matérielle**|
 |:-----|:-----|:-----|
-|2   <br/> |6   <br/> |3 (1 par adresse IP virtuelle) + 6  <br/> |
-|3   <br/> |9   <br/> |3 (1 par adresse IP virtuelle) + 9  <br/> |
-|4   <br/> |12   <br/> |3 (1 par adresse IP virtuelle) + 12  <br/> |
-|5   <br/> |15   <br/> |3 (1 par vip) +15  <br/> |
+|2   <br/> |6   <br/> |3 (1 par adresse IP virtuelle) + 6  <br/> |
+|3   <br/> |9   <br/> |3 (1 par adresse IP virtuelle) + 9  <br/> |
+|4   <br/> |12   <br/> |3 (1 par adresse IP virtuelle) + 12  <br/> |
+|5   <br/> |15   <br/> |3 (1 par vip) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Exigences en matière d’adresse IP pour le edge consolidé à l’échelle (adresse IP unique pour tous les rôles)
 
 |**Nombre de serveurs Edge par pool**|**Nombre d’adresses IP requises pour l’équilibrage de charge DNS**|**Nombre d’adresses IP requises pour l’équilibrage de la charge matérielle**|
 |:-----|:-----|:-----|
-|2   <br/> |2   <br/> |1 (1 par adresse IP virtuelle) + 2  <br/> |
-|3   <br/> |3   <br/> |1 (1 par adresse IP virtuelle) + 3  <br/> |
+|2   <br/> |2   <br/> |1 (1 par adresse IP virtuelle) + 2  <br/> |
+|3   <br/> |3   <br/> |1 (1 par adresse IP virtuelle) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (1 par adresse IP virtuelle) + 4  <br/> |
-|5   <br/> |5  <br/> |1 (1 par adresse IP virtuelle) + 5  <br/> |
+|5   <br/> |5  <br/> |1 (1 par adresse IP virtuelle) + 5  <br/> |
    
 Examinons quelques éléments supplémentaires à prendre en compte lors de la planification.
   
@@ -179,7 +179,7 @@ Les adresses IP publiques edge A/V et de conférence web sont des adresses IP su
     
 - Vous pouvez avoir trois cartes réseau externes au lieu d’une seule et affecter l’une des IP de service à chacune d’elles. Pourquoi faire cela ? Cela séparerait les services et en cas de problème, cela faciliterait la résolution des problèmes et laisserait éventuellement vos autres services continuer à fonctionner pendant que vous résolvez un problème.
     
-|**Location**|**Type**|**Port**|**FQDN ou enregistrement DNS**|**Adresse IP ou FQDN**|**Notes**|
+|**Emplacement**|**Type (Type)**|**Port**|**FQDN ou enregistrement DNS**|**Adresse IP ou FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |sip.contoso.com  <br/> |**public :** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Une interface externe pour votre service Edge d’accès. Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/> |
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |webcon.contoso.com  <br/> |**public :** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Une interface externe pour votre service Edge de conférence Web.  <br/> |
@@ -253,7 +253,7 @@ Il existe d’autres configurations possibles ici :
     
 - Vous pouvez avoir trois cartes réseau externes au lieu d’une seule et affecter l’une des IP de service à chacune d’elles. Pourquoi faire cela ? Cela séparerait les services et en cas de problème, cela faciliterait la résolution des problèmes et laisserait éventuellement vos autres services continuer à fonctionner pendant que vous résolvez un problème.
     
-|**Location**|**Type**|**Port**|**FQDN ou enregistrement DNS**|**Adresse IP ou FQDN**|**Notes**|
+|**Emplacement**|**Type (Type)**|**Port**|**FQDN ou enregistrement DNS**|**Adresse IP ou FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |sip.contoso.com  <br/> |**public :** 131.107.155.10 et 131.107.155.11 <br/> **privé :** 10.45.16.10 et 10.45.16.11 <br/> |Une interface externe pour votre service Edge d’accès. Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/> |
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |webcon.contoso.com  <br/> |**public :** 131.107.155.20 et 131.107.155.21 <br/> **privé :** 10.45.16.20 et 10.45.16.21 <br/> |Une interface externe pour votre service Edge de conférence Web.  <br/> |
@@ -264,13 +264,13 @@ Il existe d’autres configurations possibles ici :
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Enregistrement DNS pour la fédération (tous les scénarios)
 
-|**Location**|**Type**|**Port**|**FQDN**|**Enregistrement d’hôte FQDN**|**Notes**|
+|**Emplacement**|**Type (Type)**|**Port**|**FQDN**|**Enregistrement d’hôte FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Interface externe du edge d’accès SIP requise pour la découverte DNS automatique. Utilisé par vos autres partenaires de fédération potentiels. Il est également appelé « Autoriser les domaines SIP ». Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/><br/> **Remarque :** Vous aurez besoin de cet enregistrement SRV pour la mobilité et le centre d’échange de notifications Push. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Enregistrements DNS pour le protocole de messagerie et de présence extensible
 
-|**Location**|**Type**|**Port**|**FQDN**|**Adresse IP ou enregistrement d’hôte FQDN**|**Notes**|
+|**Emplacement**|**Type (Type)**|**Port**|**FQDN**|**Adresse IP ou enregistrement d’hôte FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Interface proxy XMPP sur votre service Edge d’accès ou pool edge. Vous devez répéter cette procédure si nécessaire pour tous les domaines SIP internes avec des utilisateurs activés pour Skype Entreprise Server, où le contact avec les contacts XMPP est autorisé via :  <br/> • une stratégie globale  <br/> • une stratégie de site dans laquelle l’utilisateur est activé  <br/> • une stratégie utilisateur appliquée à l’utilisateur activé pour Skype Entreprise Server  <br/> Une stratégie XMPP autorisée doit également être configurée dans la stratégie utilisateurs fédérés XMPP.  <br/> |
 |DNS externe  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Adresse IP du service Edge d’accès sur le serveur Edge ou le pool edge hébergeant votre service proxy XMPP  <br/> |Cela pointe vers le service Edge d’accès sur le serveur Edge ou le pool edge qui héberge le service proxy XMPP. En règle générale, l’enregistrement SRV que vous créez pointe vers cet enregistrement hôte (A ou AAAA).  <br/> |
@@ -348,7 +348,7 @@ L’obtention d’une planification pour les ports et les pare-feu pour les dép
 
 Avant d’examiner les tableaux récapitulatifs des pare-feu internes et externes, examinons également le tableau suivant :
   
-|**Transport audio/vidéo**|**Usage**|
+|**Transport audio/vidéo**|**Utilisation**|
 |:-----|:-----|
 |UDP  <br/> |Protocole de couche de transport préféré pour l’audio et la vidéo.  <br/> |
 |TCP  <br/> |Protocole de couche de transport de fallback pour l’audio et la vidéo.  <br/> Protocole de couche transport requis pour le partage d’applications dans Skype Entreprise Server, Lync Server 2013 et Lync Server 2010.  <br/> Protocole de couche transport requis pour le transfert de fichiers vers Skype Entreprise Server, Lync Server 2013 et Lync Server 2010.  <br/> |

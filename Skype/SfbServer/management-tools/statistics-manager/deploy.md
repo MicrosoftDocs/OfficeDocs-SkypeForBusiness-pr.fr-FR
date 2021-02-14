@@ -284,7 +284,7 @@ Microsoft recommande vivement d’utiliser un certificat signé par une autorit�
     
 3. Accédez **à Personnel,** puis ouvrez **Certificats.**
     
-4. Cliquez avec le bouton **droit sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
+4. Cliquez avec le bouton droit **sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
     
 5. Cliquez sur **Ajouter**.
     

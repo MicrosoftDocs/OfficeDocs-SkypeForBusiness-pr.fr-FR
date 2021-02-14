@@ -48,17 +48,17 @@ La stratégie de conférence attribuée au compte Skype Room System doit avoir c
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A pour Skype Room System. Si la valeur est TRUE, une partie distante peut enregistrer  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/A pour Skype Room System. Si la valeur est TRUE, une partie distante peut enregistrer  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |S/O  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |S/O  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Permet au client Skype Room System de participer à des sessions vidéo D’égal à égal  <br/> |
-|AllowLargeMeetings  <br/> |FALSE  <br/> |S/O  <br/> |
+|AllowLargeMeetings  <br/> |FALSE  <br/> |N/A  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignoré par Skype Entreprise Server, Skype Room System utilise HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Voir la remarque à la fin du tableau\*  <br/> |
 |VideoBitRateKb  <br/> |5000  <br/> |Il s’agit de la vitesse de bits vidéo sortante maximale autorisée. Skype Room System peut envoyer un flux de 1 080 avec le volet (si RoundTable est utilisé) à cette vitesse de bits. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Voir la remarque à la fin du tableau\*  <br/> |
-|FileTransferBitRateKb  <br/> |5000  <br/> |S/O  <br/> |
+|FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Nous vous recommandons de définir cette valeur aussi élevée que possible. La bande passante effective dépend des conditions réseau au moment des conférences.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Doit être TRUE pour Skype Room System afin de garantir des flux vidéo à vue multiple  <br/> |
    

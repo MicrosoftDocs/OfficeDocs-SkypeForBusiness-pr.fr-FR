@@ -47,7 +47,7 @@ Le diagramme suivant présente une vue de haut niveau de l’architecture du ser
   
 ![Architecture de haut niveau du serveur de conversation permanente](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-La conversation permanente se compose d’un rôle serveur frontal qui fournit les services de conversation permanente, ainsi qu’un composant de base de données SQL principal. Les composants frontaux et principaux sont inclus dans un pool de conversation permanente dédié. Chaque ordinateur qui héberge le serveur de conversation permanente doit avoir accès à une topologie Skype Entreprise Server 2015 existante. Dans ce diagramme, il existe un pool de serveurs de conversation permanente (A), qui dépend du pool de serveurs Skype Entreprise A pour le routage des messages vers celui-ci.
+La conversation permanente se compose d’un rôle serveur frontal qui fournit les services de conversation permanente, ainsi qu’un composant de base de données SQL principal. Les composants frontaux et principaux sont inclus dans un pool de conversation permanente dédié. Chaque ordinateur qui héberge le serveur de conversation permanente doit avoir accès à une topologie Skype Entreprise Server 2015 existante. Dans ce diagramme, il existe un pool de serveurs de conversation permanente (A), qui dépend du pool A de Skype Entreprise Server pour le routage des messages vers celui-ci.
   
 Vous pouvez déployer un ou plusieurs pools de serveurs de conversation permanente, chacun avec jusqu’à quatre serveurs de conversation permanente actifs qui peuvent prendre en charge jusqu’à 80 000 utilisateurs simultanés.
   

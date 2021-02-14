@@ -58,6 +58,6 @@ La configuration d’un groupe de SLA active les paramètres suivants :
     
 - Vous pouvez configurer un nombre maximal d’appels simultanés pour le numéro partagé. Vous pouvez également définir la façon dont vous souhaitez que les appels supplémentaires soient gérés une fois ce maximum atteint. Les appels superflus peuvent être rejetés avec une signal occupé, transmis à un autre numéro ou transmis à la messagerie vocale.
     
-- Vous pouvez configurer la façon dont vous souhaitez que les appels manqués (appels non pris après un certain temps) soient gérés. Si vous activez la messagerie vocale pour l’identité du groupe, les appels manqués sont automatiquement mis à la messagerie vocale. Si la messagerie vocale n’est pas activée pour l’identité du groupe (numéro partagé), vous pouvez choisir de rejeter les appels manqués avec une signal occupé, de les envoyer à un autre numéro ou de les déconnecter.
+- Vous pouvez configurer la façon dont vous souhaitez que les appels manqués (appels non pris après un certain temps) soient gérés. Si vous activez la messagerie vocale pour l’identité du groupe, les appels manqués sont automatiquement mis à la messagerie vocale. Si la messagerie vocale n’est pas activée pour l’identité du groupe (numéro partagé), vous pouvez choisir de rejeter les appels manqués avec une signal d’occupé, de les envoyer à un autre numéro ou de les déconnecter.
     
 

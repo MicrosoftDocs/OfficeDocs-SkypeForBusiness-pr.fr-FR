@@ -24,7 +24,7 @@ ms.locfileid: "49813204"
  
 La table EdgeServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur Edge impliqué dans les appels qui ont des enregistrements dans la base de données.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**EdgeServerId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce serveur Edge.  <br/> |
 |**EdgeServer** <br/> |nvarchar(256)  <br/> | <br/> |Nom du serveur Edge.  <br/> |

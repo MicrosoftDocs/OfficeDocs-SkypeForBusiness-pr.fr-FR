@@ -42,9 +42,9 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
 > [!NOTE]
 > Pour l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le **Royaume-Uni, les États-Unis et le Canada.** Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [envoyer manuellement une demande de port.](manually-submit-port-order.md) Pour obtenir le formulaire que vous devez envoyer manuellement une demande de port, sélectionnez votre pays ou région dans la liste de listes de listes dans Gérer les numéros de téléphone [pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur **Numéros**  >  **de téléphone vocal.** Cliquez **sur Numéros,** puis sur **Port** pour démarrer l’Assistant Port.
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur **Numéros**  >  **de téléphone vocal.** Cliquez **sur Numéros,** puis sur **Port** pour démarrer l’Assistant De portage.
 2. Consultez les informations de **la** page Commencer, puis cliquez sur Suivant lorsque vous **êtes prêt.**
-3. Dans la page **Sélectionner un emplacement et le type de** numéro, spécifiez ce qui suit, puis cliquez sur **Suivant**:
+3. Dans la page **Sélectionner un emplacement et un type de** numéro, spécifiez ce qui suit, puis cliquez sur **Suivant**:
 
     - **Pays ou région**: pays ou région dans lequel vous avez des numéros.
     - **Type de numéro de** téléphone : type de numéro, par exemple des numéros géographiques ou gratuits.
@@ -53,7 +53,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
 4. Dans la page **Ajouter des informations de compte,** complétez les étapes suivantes, puis cliquez sur **Suivant.**
 
     > [!IMPORTANT]
-    > Les informations affichées sur cette page sont déterminées par le pays ou la région et le type de numéro. Chaque pays et région a des réglementations différentes sur les informations requises pour les numéros de port. Ce que vous voyez sur cette page peut être différent de ce qui est décrit ici.
+    > Les informations affichées sur cette page sont déterminées par le pays ou la région et le type de numéro. Chaque pays et région ont des réglementations différentes sur les informations requises pour les numéros de port. Ce que vous voyez sur cette page peut être différent de ce qui est décrit ici.
 
     - **Détails de la commande**: 
         - **Nom de la** commande : nom de votre commande
@@ -67,7 +67,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
         - Numéro de téléphone de facturation **(BTN)**: votre numéro de téléphone au format E.164, qui nécessite un signe + pour prédépender le numéro. Par exemple, pour un numéro en Amérique du Nord, utilisez le format +1XXXYYYZZZZ.
         - Autres informations, notamment le nom de votre fournisseur de services actuel, votre numéro de compte et votre adresse de service.
             
-5. Dans la page **Ajouter** des numéros, cliquez sur Sélectionner un **fichier,** recherchez et sélectionnez le fichier CSV contenant les numéros de téléphone à transférer, puis cliquez sur **Suivant.**  
+5. Dans **la** page Ajouter des numéros, cliquez sur Sélectionner un **fichier,** recherchez et sélectionnez le fichier CSV contenant les numéros de téléphone à transférer, puis cliquez sur **Suivant.**  
 
     > [!NOTE]
     > Le fichier CSV ne doit avoir qu’une colonne dont l’en-tête est PhoneNumber. Chaque numéro de téléphone doit se trouver sur une ligne distincte et ne peut être que des chiffres ou au format E.164.
@@ -79,10 +79,10 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     1. Cliquez **sur Télécharger le modèle** pour télécharger le LOA de votre pays ou région. 
     2. Imprimez le LOA.
     3. Faire signer la lettre d’autorisation par la personne autorisée à apporter des modifications au compte.
-    4. Numérisez le courrier d’autorisation signé, puis cliquez sur Télécharger une lettre **d’autorisation** signée pour la charger.
+    4. Numérisez le courrier d’autorisation signé, puis **cliquez** sur Télécharger une lettre d’autorisation signée pour la charger.
 
     > [!NOTE]
-    > Une fois que vous avez transféré votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
+    > Après avoir chargé votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
 
 7. Examinez les détails de votre commande, puis cliquez sur **Envoyer.**
 

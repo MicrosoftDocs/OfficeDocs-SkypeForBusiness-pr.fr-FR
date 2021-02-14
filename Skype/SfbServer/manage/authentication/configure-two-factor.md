@@ -87,7 +87,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
 6. À partir de la console de gestion du TPM, vérifiez que la version de spécification du TPM est au moins 1.2
 
     > [!NOTE]
-    > Si vous recevez une boîte de dialogue indiquant qu’un module de plateforme de confiance (TPM) compatible est incohable, vérifiez que l’ordinateur dispose d’un module TPM compatible et qu’il est activé dans le BIOS système.
+    > Si vous recevez une boîte de dialogue indiquant qu’un module de plateforme de confiance compatible (TPM) est incohable, vérifiez que l’ordinateur dispose d’un module TPM compatible et qu’il est activé dans le BIOS système.
 
 7. Fermer la console de gestion du TPM
 
@@ -110,13 +110,13 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
 
 11. Développez **les lecteurs de carte à puce.**
 
-12. Vérifiez que le nouveau lecteur de carte à puce virtuel a bien été créé.
+12. Vérifiez que le nouveau lecteur de carte à puce virtuel a été créé avec succès.
 
 ## <a name="enroll-users-for-smart-card-authentication"></a>Inscrire des utilisateurs pour l’authentification par carte à puce
 
 Il existe généralement deux méthodes pour inscrire des utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire en sorte que les utilisateurs s’inscrivent directement pour l’authentification par carte à puce à l’aide de l’inscription web, tandis que la méthode la plus complexe implique l’utilisation d’un agent d’inscription. Cette rubrique se concentre sur l’inscription automatique pour les certificats de carte à puce.
 
-Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir s’inscrire pour les certificats de la part [d’autres utilisateurs.](https://go.microsoft.com/fwlink/p/?LinkID=313367)
+Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir s’inscrire pour les certificats pour le compte [d’autres utilisateurs.](https://go.microsoft.com/fwlink/p/?LinkID=313367)
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Pour inscrire des utilisateurs pour l’authentification par carte à puce
 
@@ -299,7 +299,7 @@ Les étapes suivantes décrivent comment créer une configuration de service web
   ```
 
     > [!CAUTION]
-    > La valeur du nom de domaine complet WsFedPassiveMetadataUri est le nom de service de fédération de votre serveur AD FS 2.0. La valeur Nom du service de fédération se trouve dans la console de gestion AD FS 2.0 en cliquant avec le bouton droit sur **Service** dans le volet de navigation, puis en sélectionnant Modifier les propriétés du **service** de fédération.
+    > La valeur du nom de domaine complet WsFedPassiveMetadataUri est le nom du service de fédération de votre serveur AD FS 2.0. La valeur Nom du service de fédération se trouve dans la console de gestion AD FS 2.0 en cliquant avec le bouton droit sur **Service** dans le volet de navigation, puis en sélectionnant Modifier les propriétés du **service** de fédération.
 
 4. Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :
 
@@ -327,7 +327,7 @@ Les étapes suivantes décrivent comment créer une configuration de proxy perso
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>Pour créer une configuration de proxy personnalisée
 
-1. À partir de la ligne de commande Skype Entreprise Server Management Shell, créez une configuration de proxy pour chaque pool Edge Skype Entreprise Server, pool d’entreprise et serveur Standard Edition qui sera activé pour l’authentification passive en exécutant les commandes suivantes :
+1. À partir de la ligne de commande Skype Entreprise Server Management Shell, créez une configuration proxy pour chaque pool Edge Skype Entreprise Server, pool d’entreprise et serveur Standard Edition qui sera activé pour l’authentification passive en exécutant les commandes suivantes :
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

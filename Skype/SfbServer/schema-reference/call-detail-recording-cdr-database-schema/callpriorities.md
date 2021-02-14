@@ -24,7 +24,7 @@ ms.locfileid: "49813434"
  
 La table CallPriorities est une table statique qui stocke la liste des priorités d’appels possibles, telles que « urgence » ou « normal ».
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**PriorityId** <br/> |tinyint  <br/> |Primaire  <br/> ||
 |**Priorité** <br/> |nvarchar(256)  <br/> || Valeurs autorisées : <br/>  0 - Inconnu <br/>  1 - Non urgent <br/>  2 - Normal <br/>  3 - Urgent <br/>  4 - Très urgent <br/> |

@@ -26,7 +26,7 @@ Le schéma de base de données de conversation permanente se compose des tableau
   
 ## <a name="active-directory-sync"></a>Synchronisation Active Directory
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[tblADCookie](tbladcookie.md) <br/> |Contient les cookies de synchronisation LDAP (Lightweight Directory Access Protocol) actifs. Chaque ligne correspond à un domaine des services de domaine Active Directory que le serveur de conversation permanente surveille activement pour les modifications. (Seuls les domaines Active Directory pertinents pour le serveur de conversation permanente sont représentés dans ce tableau.)  <br/> |
 |[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |Contient les modifications d’appartenance aux groupes (membres ajoutés et supprimés) qui n’ont pas encore été traitées par les étapes de synchronisation Active Directory ultérieures et qui est l’une des tables temporaires (avec la table tblADUpdates) qui est utilisée lors de la première étape de la synchronisation Active Directory.  <br/> Les modifications d’appartenance sont stockées, traitées ou les deux, uniquement pour les groupes qui sont répertoriés dans la table tblPrincipal ou qui contiennent déjà des membres répertoriés dans cette dernière.  <br/> |
@@ -37,7 +37,7 @@ Le schéma de base de données de conversation permanente se compose des tableau
    
 ## <a name="principals-affiliations-nodes-scopes-and-roles"></a>Principaux, affiliations, nœuds, étendues et rôles
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[tblPrincipalType](tblprincipaltype.md) <br/> |Contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal. Cette table est statique. Elle est configurée lors de la création de la base de données et n’est pas modifiée.  <br/> |
 |[tblPrincipal](tblprincipal.md) <br/> |Contient tous les principaux (utilisateurs, dossiers, groupes, etc.). Le serveur de conversation permanente gère cela comme une liste hétérogène plate. De nombreuses colonnes sont basées sur le type de chaque principal.  <br/> La plupart de ces principaux sont des copies mises en cache d’objets stockés dans Active Directory. La création de la copie mise en cache dans la table Principal de ces objets Active Directory est appelée mise en service.  <br/> Certains principaux sont créés de manière plus agressive que d’autres, et certains objets Active Directory sont complètement ignorés.  <br/> |
@@ -52,7 +52,7 @@ Le schéma de base de données de conversation permanente se compose des tableau
    
 ## <a name="invites-chats-and-other-client-support"></a>Prises en charge des invitations, des conversations et d’autres clients
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[tblPrincipalInvites](tblprincipalinvites.md) <br/> |Contient les invitations de tous les utilisateurs mis en service dans le système pour tous les nœuds ayant la fonction d’invitation automatique activée.  <br/> |
 |[tblChat](tblchat.md) <br/> |Contient tous les messages de conversations.  <br/> |
@@ -63,7 +63,7 @@ Le schéma de base de données de conversation permanente se compose des tableau
    
 ## <a name="server-support"></a>Prise en charge du serveur
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[tblServerIdentity](tblserveridentity.md) <br/> |Contient les serveurs actifs dans le pool de serveurs de conversation permanente.  <br/> |
 |[tblAdminLock](tbladminlock.md) <br/> |Contient le verrou d’administrateur permettant d’exécuter des commandes d’administrateur. L’entrée de révision du système dans la table tblSystemRevision est incrémentée après chaque libération de verrou.  <br/> |

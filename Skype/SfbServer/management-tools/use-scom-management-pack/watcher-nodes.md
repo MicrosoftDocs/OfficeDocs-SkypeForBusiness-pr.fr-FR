@@ -29,7 +29,7 @@ Les numéros d’observation sont des ordinateurs qui exécutent régulièrement
   
 - **Valeur par défaut** Transactions synthétiques qu’un nœud d’observation exécute par défaut. Lorsque vous créez un nœud d’observation, vous pouvez spécifier les transactions synthétiques qui s’exécuteront. (C’est l’objectif du paramètre Tests utilisé par l'New-CsWatcherNodeConfiguration cmdlet.) Si vous n’utilisez pas le paramètre Tests lors de la création du nœud observeur, il exécute automatiquement toutes les transactions synthétiques par défaut et n’exécute aucune des transactions synthétiques non par défaut. Cela signifie, par exemple, que le nœud de l'Test-CsAddressBookService sera configuré pour exécuter le test Test-CsAddressBookService, mais pas pour exécuter le test Test-CsExumConnectivity test.
     
-- **Non par défaut** Teste que les nodes de l’observeur ne s’exécutent pas par défaut. (Pour plus d’informations, voir la description du type Par défaut.) Toutefois, le nœud de l’observation peut être activé pour exécuter l’une des transactions synthétiques autres que les transactions synthétiques par défaut. Vous pouvez le faire lorsque vous créez le nœud d’observation (à l’aide de l'New-CsWatcherNodeConfiguration cmdlet) ou à tout moment après la création du nœud. Notez que de nombreuses transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, voir [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
+- **Non par défaut** Teste que les nodes de l’observeur ne s’exécutent pas par défaut. (Pour plus d’informations, voir la description du type Par défaut.) Toutefois, le nœud de l’observation peut être activé pour exécuter l’une des transactions synthétiques autres que les transactions synthétiques par défaut. Vous pouvez le faire lorsque vous créez le nœud de l’observation (à l’aide de l'New-CsWatcherNodeConfiguration cmdlet) ou à tout moment après la création du nœud. Notez que de nombreuses transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, voir [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     
 - **Étendue** Type spécial de transaction synthétique non par défaut. Contrairement à d’autres transactions synthétiques, les tests étendus peuvent être exécutés plusieurs fois à chaque passage. Cela est utile lors de la vérification du comportement, par exemple, plusieurs itinéraires de communications vocales PSTN (réseau téléphonique commuté) pour un pool. Vous pouvez configurer cela simplement en ajoutant plusieurs instances d’un test étendu à un nœud de l’analyseur.
     
@@ -216,7 +216,7 @@ Pour affecter un certificat par défaut :
 > [!NOTE]
 > Si le bouton Exécuter est désactivé, vous devrez peut-être d’abord cliquer sur Exécuter sous Installer le magasin de configurations local. 
   
-Effectuez l'une des opérations suivantes :
+Effectuez l’une des opérations suivantes :
   
 - Si vous avez déjà un certificat qui peut être utilisé comme certificat par défaut, cliquez sur Par défaut dans l’Assistant Certificat, puis cliquez sur Affecter. Suivez les étapes de l’Assistant permettant d’affecter un certificat pour affecter ce certificat.
     

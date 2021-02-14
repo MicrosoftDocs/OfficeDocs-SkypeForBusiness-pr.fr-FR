@@ -27,7 +27,7 @@ L’affichage ClientVersions stocke des informations sur les différents types e
 > [!NOTE]
 > Il peut y avoir plusieurs enregistrements pour certaines colonnes. 
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Numéro unique identifiant le type et la version de ce client.  <br/> |
 |**Version** <br/> |nvarchar(256)  <br/> |Représente l’agent utilisateur.  <br/> |

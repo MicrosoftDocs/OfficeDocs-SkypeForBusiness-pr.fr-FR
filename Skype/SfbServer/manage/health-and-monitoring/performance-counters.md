@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API UCWA (Unified Communications Web API) et le service de mobilité Mcx de Skype Entreprise Server.'
+description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service de mobilité Mcx de Skype Entreprise Server.'
 ms.openlocfilehash: d711ada11cee9cb12a5cde25cab583f8b174ac50
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

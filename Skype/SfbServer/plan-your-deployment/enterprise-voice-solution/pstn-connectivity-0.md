@@ -27,7 +27,7 @@ ms.locfileid: "49813564"
  
 Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
   
-Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (PSTN) doit se faire comme un simple appel téléphonique.
+Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (PSTN) doit se faire comme un autre appel téléphonique.
   
 Skype Entreprise Server offre une connectivité PSTN fiable et évolutive à l’aide des options suivantes :
   

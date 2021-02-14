@@ -1,5 +1,5 @@
 ---
-title: Modèles de courrier électronique de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
+title: Modèles d’e-mail de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,7 +25,7 @@ ms.locfileid: "49812644"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Faciliter l’adoption par les utilisateurs de votre nouveau système téléphonique en ligne
 
-Un téléphone peut être la ligne de vie d’un utilisateur. Le basculement d’un système téléphonique traditionnel vers un système de téléphonie en ligne représente un changement significatif dans le mode de travail des utilisateurs et peut affecter négativement la productivité. Prendre le temps d’informer, de guider et de prendre en charge les utilisateurs tout au long de cette modification peut contribuer à garantir une expérience utilisateur positive et optimiser votre retour sur investissement.
+Un téléphone peut être la ligne de vie d’un utilisateur. Le basculement d’un système téléphonique traditionnel vers un système de téléphonie en ligne modifie sensiblement le mode de travail des utilisateurs et peut affecter négativement la productivité. Prendre le temps d’informer, de guider et de prendre en charge les utilisateurs tout au long de cette modification peut contribuer à garantir une expérience utilisateur positive et optimiser votre retour sur investissement.
 
 Cet article contient des modèles de courrier électronique personnalisables pour aider les utilisateurs à se tenir informés de leur nouveau système téléphonique. Personnalisez et envoyez les e-mails appropriés pour les adapter à votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections afin de faciliter la personnalisation, mais nous vous recommandons d’ajouter une messagerie spécifique à l’organisation pour rendre l’annonce plus pertinente pour vos utilisateurs. Le cas échéant, remplacez toutes les références à « Teams » par « Skype Entreprise ».
 

@@ -56,7 +56,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
 |URL simple de numérotation  <br/> |A  <br/> |dialin.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple du Programmeur Web  <br/> |A  <br/> |scheduler.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple d’administration  <br/> |A  <br/> |admin.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
-|Découverte héritée  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN du pool (port 5061)  <br/> |S/O  <br/> |
+|Découverte héritée  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN du pool (port 5061)  <br/> |N/A  <br/> |
    
 ### <a name="create-dns-records"></a>Créer des enregistrements DNS
 

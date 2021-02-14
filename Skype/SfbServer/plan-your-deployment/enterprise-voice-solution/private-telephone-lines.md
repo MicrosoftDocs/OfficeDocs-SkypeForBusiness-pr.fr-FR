@@ -27,7 +27,7 @@ ms.locfileid: "49813594"
  
 Planification des lignes téléphoniques privées (secondaires) dans Skype Entreprise Server Voix Entreprise.
   
-Skype Entreprise Server vous permet d’accorder aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées à des cadres et à d’autres personnes qui souhaitent obtenir un numéro de téléphone non listé auquel ils peuvent être joints directement.
+Skype Entreprise Server vous permet d’accorder aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées à des cadres et à d’autres personnes qui souhaitent un numéro de téléphone non listé auquel ils peuvent être joints directement.
   
 Les lignes téléphoniques privées peuvent uniquement être configurées avec Skype Entreprise Server Management Shell. Vous ne pouvez pas configurer de lignes téléphoniques privées avec le Panneau de configuration de Skype Entreprise Server. Les lignes téléphoniques privées doivent être configurées uniquement dans les déploiements de Skype Entreprise Server et non dans les déploiements mixtes.
   

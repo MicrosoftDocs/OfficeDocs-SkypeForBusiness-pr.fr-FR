@@ -202,7 +202,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     
 5. Vérifiez que les serveurs existent dans les services de domaine Active Directory (AD DS). Cela se produit automatiquement lorsque vous joignez les serveurs au domaine.
     
-    Lorsque vous avez vérifié la topologie et qu’aucune erreur de validation n’a été détectée, vous êtes prêt à publier la topologie. S’il existe des erreurs de validation, vous devez les corriger avant de pouvoir publier la topologie.
+    Lorsque vous avez vérifié la topologie et qu’aucune erreur de validation n’a été détectée, vous êtes prêt à publier la topologie. S’il existe des erreurs de validation, vous devez les corriger avant de publier la topologie.
     
 6. Cliquez avec le bouton droit sur le nœud **Skype Entreprise Server,** puis cliquez sur **Publier la topologie.**
     

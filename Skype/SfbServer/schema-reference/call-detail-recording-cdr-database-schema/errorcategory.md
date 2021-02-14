@@ -32,7 +32,7 @@ Le tableau ErrorCategory contient le nom convivial de chaque classification de d
     
 Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**CategoryId** <br/> |tinyint  <br/> |Primaire  <br/> |Identificateur unique pour la classification.  <br/> |
 |**Name** <br/> |nvarchar(256)  <br/> || Valeur et nom convivial attribués à la classification. Les valeurs autorisées sont les suivantes : <br/>  0 : réussite <br/>  1 - Échec attendu <br/>  2 - Échec inattendu <br/> |

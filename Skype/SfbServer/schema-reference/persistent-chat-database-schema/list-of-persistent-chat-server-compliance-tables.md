@@ -26,7 +26,7 @@ Le schéma de base de données de conformité de conversation permanente se comp
   
 ## <a name="list-of-persistent-chat-server-compliance-tables"></a>Liste des tables de serveur de conformité de la conversation permanente
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[tblComplianceData](tblcompliancedata.md) <br/> |Contient les événements de conformité qui n’ont pas encore été traités par la carte configurée.  <br/> Ce tableau inclut les événements de conversation permanente, tels que les messages de conversation et les téléchargements de fichiers. (Les événements des participants sont suivis par la table tblComplianceParticipant.)  <br/> (Les serveurs qui ont traité les événements de cette table sont répertoriés dans la table tblComplianceFanout.)  <br/> |
 |[tblComplianceFanout](tblcompliancefanout.md) <br/> |Contient les serveurs qui ont traité un événement de conformité. Celle-ci est étroitement associée à la table tblComplianceData.  <br/> |
