@@ -24,7 +24,7 @@ ms.locfileid: "49806334"
  
 La table MacAddress est une table de prise en charge. Chaque enregistrement représente une source.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**MacAddressKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant l’adresse MAC.  <br/> |
 |**MacAddress** <br/> |varchar(256)  <br/> |Uniques  <br/> |Chaîne d’adresse MAC.  <br/> |

@@ -29,7 +29,7 @@ ms.locfileid: "49806274"
 
 Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez ajouter des bâtiments, des étages et des bureaux pour créer un emplacement d’urgence plus spécifique. Pour plus [d’informations, voir](what-are-emergency-locations-addresses-and-call-routing.md) Gérer les appels d’urgence.
   
-Pour savoir comment obtenir un forfait d’appels et combien cela coûte, consultez la gestion des [licences de module supplémentaire Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour savoir comment obtenir un plan d’appels et connaître son prix, consultez la gestion des [licences de module supplémentaire Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 Vous gérez les emplacements d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
   
@@ -64,7 +64,7 @@ Voir [Set-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/sky
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur  >  **Adresses d’urgence d’emplacements.**
-2. Dans la liste, cliquez sur le nom de l’emplacement pour lequel vous souhaitez supprimer un emplacement.
+2. Dans la liste, cliquez sur le nom de l’emplacement pour lequel vous souhaitez supprimer un lieu.
 3. Sous **l’onglet** Espaces, sélectionnez l’endroit que vous voulez supprimer, puis cliquez sur **Supprimer.**
 
 ### <a name="using-powershell"></a>Utiliser PowerShell

@@ -26,7 +26,7 @@ ms.locfileid: "49807884"
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Créer ou modifier un itinéraire de voix dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Création ou modification d’un itinéraire de messagerie vocale dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
 - [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 

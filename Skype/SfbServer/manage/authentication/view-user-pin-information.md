@@ -85,10 +85,10 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-Pour plus d’informations, voir la rubrique d’aide de l';cmdlet [Get-CsConferenceDisclaimer.](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsConferenceDisclaimer.](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
   
 ## <a name="see-also"></a>Voir aussi
 
 [Définir le code confidentiel de conférence d’un utilisateur dans Skype Entreprise Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Verrouiller ou déverrouiller un code confidentiel utilisateur dans Skype Entreprise Server](lock-or-unlock-a-user-pin.md)
+[Verrouillage ou déverrouillage du code confidentiel d’un utilisateur dans Skype Entreprise Server](lock-or-unlock-a-user-pin.md)

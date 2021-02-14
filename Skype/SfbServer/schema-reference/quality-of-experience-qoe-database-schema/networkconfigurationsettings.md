@@ -24,7 +24,7 @@ ms.locfileid: "49806314"
  
 L’affichage NetworkConfigurationSettings stocke des informations sur la configuration réseau. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |SubnetIP  <br/> |int  <br/> |Adresse IP de sous-réseau (seules les adresses IPv4 sont pris en charge).  <br/> |
 |UserSiteName  <br/> |nvarchar(128)  <br/> |Nom du site de l’utilisateur.  <br/> |

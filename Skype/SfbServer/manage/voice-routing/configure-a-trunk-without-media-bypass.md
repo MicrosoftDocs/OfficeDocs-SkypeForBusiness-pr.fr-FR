@@ -68,7 +68,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
         3. Cliquez sur **OK**.
 
     > [!Important] 
-    > Il est important d’associer des enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation associé à la trunk en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de la connexion ne soit pas associée à un enregistrement d’utilisation PSTN qui approvisionnement vers une destination PSTN ou tout autre système en aval connecté via Skype Entreprise Server. 
+    > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation associé à la trunk en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de la connexion ne soit pas associée à un enregistrement d’utilisation PSTN qui approvisionnement vers une destination PSTN ou tout autre système en aval connecté via Skype Entreprise Server. 
 
 10. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour changer la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN, puis cliquez sur la flèche vers le haut ou vers le bas.
     > [!Important] 

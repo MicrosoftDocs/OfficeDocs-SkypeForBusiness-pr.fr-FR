@@ -24,7 +24,7 @@ ms.locfileid: "49806354"
  
 La table MonitoredUserSiteLink est une table de prise en charge. Chaque enregistrement représente un lien entre deux sites d’utilisateurs.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**UserSite1Key** <br/> |int  <br/> |Primaire, étrangère  <br/> |Référencé à partir de [la table UserSite](usersite.md).  <br/> |
 |**UserSite2Key** <br/> |int  <br/> |Primaire, étrangère  <br/> |Référence à partir de [la table UserSite](usersite.md).  <br/> |

@@ -59,7 +59,7 @@ Pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs, v
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>Utiliser l'Grant-CsTeamsMeeting de stratégie de gestion des biens
 
-Exécutez la suivante pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs.
+Exécutez ce qui suit pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs.
 
 ```powershell
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}

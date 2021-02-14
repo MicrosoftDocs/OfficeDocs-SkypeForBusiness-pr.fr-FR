@@ -50,7 +50,7 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 | Général | Onglet Web : [Documentation teams](https://aka.ms/SuccessWithTeams) |
 | Sensibilisation et adoption | [Hub d’adoption de Teams](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de réussite des clients de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Engagement commercial | Wiki - Conseils d’engagement<br/>Formulaire – Demander des consultation sur Teams<br/>Liste – Demandes d’engagement |
-|Premiers utilisateurs | Communauté de commentaires épinglés <br/> OneNote pour faq et thèmes courants |
+|Premiers utilisateurs | Communauté de commentaires épinglés <br/> OneNote pour les FAQ et thèmes courants |
 | Commentaires et rapports | Rapport d’utilisation de Microsoft 365 ou Office 365 épinglé (pour les administrateurs Microsoft 365 ou Office 365 uniquement) |
 | Sécurité et conformité | Portail d’aide à la trust Microsoft <br/> [Documentation relative à la sécurité et à la conformité](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Stratégie et planification | Collaboration North Star PowerPoint <br/> Plan de projet Adoption du service |
@@ -66,4 +66,4 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 
 Lorsque vous commencez à utiliser Teams, il est important pour vous et le reste de l’équipe de projet de vous engager à utiliser la conversation Teams, les canaux et les ressources pour exécuter votre projet. Votre propre utilisation de Teams est essentielle pour la qualité de votre projet d’adoption. Nous vous recommandons de résistance à la résistance à la fragmentation de votre projet en continuant à discuter par courrier électronique avec l’équipe de projet de base. En bas de Teams, vous modélisez le comportement que vous souhaitez finalement que vos employés adoptent. Définissez le ton, commencez par vous lancer et commencez à profiter des informations de votre projet dans un seul endroit !  
 
-![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) [Votre organisation est-elle](teams-adoption-assess-readiness.md) prête à prendre en compte Microsoft Teams ?
+![Icône représentant l’étape suivante : Quelle est la préparation ](media/teams-adoption-next-icon.png) de votre organisation pour Microsoft Teams [?](teams-adoption-assess-readiness.md)

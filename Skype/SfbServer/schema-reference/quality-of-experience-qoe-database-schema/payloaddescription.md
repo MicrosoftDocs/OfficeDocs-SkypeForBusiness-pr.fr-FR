@@ -24,7 +24,7 @@ ms.locfileid: "49806294"
  
 La table PayloadDescription est une table de prise en charge. Chaque enregistrement représente un codec utilisé dans une session audio ou vidéo.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**PayloadDescriptionKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant le codec.  <br/> |
 |**PayloadDescription** <br/> |nvarchar(256)  <br/> |Uniques  <br/> |Nom du codec.  <br/> |

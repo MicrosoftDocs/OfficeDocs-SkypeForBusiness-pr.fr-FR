@@ -24,7 +24,7 @@ ms.locfileid: "49806344"
  
 La table MonitoredRegionLink est une table de prise en charge. Chaque enregistrement représente une liaison entre deux pays/régions.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**Region1Key** <br/> |int  <br/> |Primaire, étrangère  <br/> |Référencé à partir de [la table Region](region.md).  <br/> |
 |**Region2Key** <br/> |int  <br/> |Primaire, étrangère  <br/> |Référencé à partir de [la table Region](region.md).  <br/> |

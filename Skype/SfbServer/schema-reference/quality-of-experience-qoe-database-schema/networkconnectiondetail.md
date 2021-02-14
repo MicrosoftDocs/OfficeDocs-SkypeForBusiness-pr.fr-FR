@@ -24,7 +24,7 @@ ms.locfileid: "49806304"
  
 La table NetworkConnectionDetail mappe des types de connexion réseau aux identificateurs de connexion réseau utilisés ailleurs dans la base de données Qualité de l’expérience (QoE). Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Primaire  <br/> |Identificateur unique du type de connexion réseau.  <br/> |
 |**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |Uniques  <br/> |Type de connexion réseau correspondant à la valeur NetworkConnectionDetailKey. Les valeurs autorisées sont les suivantes :

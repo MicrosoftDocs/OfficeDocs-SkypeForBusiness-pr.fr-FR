@@ -28,7 +28,7 @@ Les étapes nécessaires à la définition d’un nouveau vis ou d’une passere
   
 Les étapes nécessaires à l’attribution d’un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur VIS dans [Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Les étapes de configuration d’un nouveau serveur d’interopation vidéo utilisant Windows PowerShell sont décrites en ligne à l’adresse [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
+Les étapes de configuration d’un nouveau serveur d’interopivité à l’aide de Windows PowerShell sont décrites en ligne à l’adresse [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
  Les paramètres d’une passerelle vidéo qui doivent être configurés dans l’interface utilisateur graphique de Cisco pour l’interopérabilité avec un VIS sont décrits en ligne dans la zone Configurer CUCM pour l’interopérabilité avec [Skype Entreprise Server.](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   

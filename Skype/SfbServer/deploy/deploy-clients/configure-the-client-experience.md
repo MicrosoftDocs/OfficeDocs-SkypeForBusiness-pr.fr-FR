@@ -125,19 +125,19 @@ Lync
 
 Vous pouvez activer de nouveau le didacticiel en fixant les données **de la** valeur **sur 1**.
   
-## <a name="default-client-behaviors"></a>Comportements des clients par défaut
+## <a name="default-client-behaviors"></a>Comportements du client par défaut
 
-Si Skype Entreprise Server et Lync Server sont déployés dans votre organisation, l’expérience client varie en fonction des versions du serveur et du paramètre de l’interface utilisateur Skype. Le tableau suivant indique l’expérience client initiale basée sur la version du serveur et le paramètre d’interface utilisateur :
+Si Skype Entreprise Server et Lync Server sont déployés dans votre organisation, l’expérience client varie en fonction des versions du serveur et du paramètre de l’interface utilisateur Skype. Le tableau suivant présente l’expérience client initiale basée sur la version du serveur et le paramètre d’interface utilisateur :
   
 
 |**Version du serveur**|**Paramètre EnableSkypeUI**|**Expérience client**|
 |:-----|:-----|:-----|
 |Skype Entreprise Server |Par défaut  <br/> |Skype Entreprise  <br/> |
 |Skype Entreprise Server  |Vrai  <br/> |Skype Entreprise  <br/> |
-|Skype Entreprise Server  |False  <br/> |Utilisateur invité à basculer en mode Lync (l’utilisateur peut basculer vers Skype Entreprise ultérieurement si vous modifiez le paramètre d’interface utilisateur $true)  <br/> |
+|Skype Entreprise Server  |Faux  <br/> |Utilisateur invité à basculer en mode Lync (l’utilisateur peut basculer vers Skype Entreprise ultérieurement si vous modifiez le paramètre d’interface utilisateur $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |Par défaut  <br/> |Utilisateur invité à basculer en mode Lync (l’utilisateur peut basculer vers Skype Entreprise ultérieurement si vous modifiez le paramètre d’interface utilisateur $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |Vrai  <br/> |Skype Entreprise  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |False  <br/> |Utilisateur invité à basculer en mode Lync (l’utilisateur peut basculer vers Skype Entreprise ultérieurement si vous modifiez le paramètre d’interface utilisateur $true)  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |Faux  <br/> |Utilisateur invité à basculer en mode Lync (l’utilisateur peut basculer vers Skype Entreprise ultérieurement si vous modifiez le paramètre d’interface utilisateur $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sans correctifs)  <br/> |Par défaut  <br/> |Utilisateur invité à basculer en mode Lync (l’utilisateur ne peut pas basculer vers Skype Entreprise ultérieurement)  <br/> |
    
 Le tableau suivant illustre l’expérience client lorsque l’administrateur modifie le paramètre initial de l’expérience d’interface utilisateur Skype :
@@ -146,9 +146,9 @@ Le tableau suivant illustre l’expérience client lorsque l’administrateur mo
 |**Version du serveur**|**Paramètre EnableSkypeUI**|**Interface utilisateur du client = Lync**|**Interface utilisateur du client = Skype Entreprise**|
 |:-----|:-----|:-----|:-----|
 |Skype Entreprise Server |Vrai  <br/> |Utilisateur invité à basculer vers Skype Entreprise  <br/> |Skype Entreprise  <br/> |
-|Skype Entreprise Server |False  <br/> |Mode Lync  <br/> |Utilisateur invité à basculer en mode Lync  <br/> |
+|Skype Entreprise Server |Faux  <br/> |Mode Lync  <br/> |Utilisateur invité à basculer en mode Lync  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |Vrai  <br/> |Utilisateur invité à basculer vers Skype Entreprise  <br/> |Skype Entreprise  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |False  <br/> |Mode Lync  <br/> |Utilisateur invité à basculer en mode Lync  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (avec des correctifs corrects)  <br/> |Faux  <br/> |Mode Lync  <br/> |Utilisateur invité à basculer en mode Lync  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sans correctifs)  <br/> |Par défaut  <br/> |Mode Lync (basculement vers Skype Entreprise impossible)  <br/> |Mode Lync (basculement vers Skype Entreprise impossible)  <br/> |
    
 Les versions de correctif requises pour gérer la configuration du client Skype Entreprise sont :
@@ -181,9 +181,9 @@ La procédure suivante décrit comment modifier le Registre afin que l’expéri
     
 7. Dans la **boîte de dialogue Nouvelles propriétés du** Registre, mettez à jour les informations suivantes :
     
-   |**Champ**|**Valeur à sélectionner ou à entrer**|
+   |**Field**|**Valeur à sélectionner ou à entrer**|
    |:-----|:-----|
-   |**Action** <br/> |**Create** <br/> |
+   |**Action** <br/> |**Créer** <br/> |
    |**Ruche** <br/> | HKEY_CURRENT_USER <br/> |
    |**Chemin d’accès de la touche** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Nom de la valeur** <br/> |EnableSkypeUI  <br/> |
@@ -192,7 +192,7 @@ La procédure suivante décrit comment modifier le Registre afin que l’expéri
    
 8. Cliquez **sur OK** pour enregistrer vos modifications, puis fermez l’GPO.
     
-Ensuite, vous devez lier l’GPO que vous avez créé au groupe d’utilisateurs à qui vous souhaitez affecter la stratégie, tel qu’une ou plusieurs personnes.
+Ensuite, vous devez lier l’GPO que vous avez créé au groupe d’utilisateurs à qui vous souhaitez affecter la stratégie, tel qu’une ou plusieurs.
   
 ### <a name="to-use-the-gpo-to-assign-the-policy"></a>Pour utiliser l’GPO afin d’affecter la stratégie
 

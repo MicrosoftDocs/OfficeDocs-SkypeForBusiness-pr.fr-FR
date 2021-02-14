@@ -41,4 +41,4 @@ Dans cette phase, vous allez utiliser vos apprentissages, équipe de projet tale
 7. Préparez l’engagement continu de l’entreprise.
 8. Préparez les examens d’adoption et d’état & service en cours.
 
-![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) définir les résultats et le [succès](teams-adoption-define-outcomes.md)
+![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) Définir les résultats et le [succès](teams-adoption-define-outcomes.md)

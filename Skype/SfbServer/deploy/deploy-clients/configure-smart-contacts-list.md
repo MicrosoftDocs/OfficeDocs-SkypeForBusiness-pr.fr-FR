@@ -74,7 +74,7 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 Vous devez également définir le paramètre AddressBookAvailability pour la stratégie correspondante sur WebSearchOnly. Pour plus d’informations, [voir Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
 
-### <a name="troubleshoot"></a>Résoudre les problèmes
+### <a name="troubleshoot"></a>Résoudre des problèmes
 
 Si la liste de contacts intelligents ne fonctionne pas comme prévu, vérifiez ce qui suit :
 
