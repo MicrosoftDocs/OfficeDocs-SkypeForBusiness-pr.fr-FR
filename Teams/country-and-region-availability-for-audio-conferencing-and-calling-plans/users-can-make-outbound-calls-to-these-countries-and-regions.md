@@ -1,5 +1,5 @@
 ---
-title: Passer des appels sortants vers les pays/régions suivants
+title: Effectuer des appels sortants vers ces pays/régions
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

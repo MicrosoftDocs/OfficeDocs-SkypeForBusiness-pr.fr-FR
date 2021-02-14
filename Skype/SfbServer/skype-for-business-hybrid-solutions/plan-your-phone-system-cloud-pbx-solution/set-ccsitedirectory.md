@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: L’applet de commande Set-CcSiteDirectory définit le répertoire dans lequel les fichiers de configuration de niveau site pour la version Cloud Connector de Skype Entreprise sont conservés. Le dossier contient les fichiers de configuration de base de VHD et Cloud Connector.
+description: La cmdlet Set-CcSiteDirectory définit l’annuaire dans lequel les fichiers de configuration au niveau du site pour Skype Entreprise, version Cloud Connector seront stockés. Le dossier contient les fichiers de configuration vhD de base et Cloud Connector.
 ms.openlocfilehash: 1e66c735e888fe9d5701b8f71baf462ec449acd4
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41824188"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-L’applet de commande Set-CcSiteDirectory définit le répertoire dans lequel les fichiers de configuration de niveau site pour la version Cloud Connector de Skype Entreprise sont conservés. Le dossier contient les fichiers de configuration de base de VHD et Cloud Connector.
+La cmdlet Set-CcSiteDirectory définit l’annuaire dans lequel les fichiers de configuration au niveau du site pour Skype Entreprise, version Cloud Connector seront stockés. Le dossier contient les fichiers de configuration vhD de base et Cloud Connector.
   
-Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcSiteDirectory [[-Path] <string>]
@@ -35,7 +35,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant définit le répertoire racine du site \\sur SiteShare\CloudConnector :
+L’exemple suivant définit le répertoire racine du site \\ sur SiteShare\CloudConnector :
   
 ```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
@@ -44,23 +44,23 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Pour fournir une affinité et une haute disponibilité de la passerelle, les appareils de connexion Cloud peuvent être combinés dans les sites. Les utilisateurs sont affectés à des sites au lieu de périphériques Cloud Connector. Chaque site possède un dossier partagé dans lequel sont conservés les fichiers d’installation de base de VHD et Cloud Connector. Les appareils utilisent ce dossier lors du déploiement. Ce dossier doit être partagé avec toutes les autres applications dans un site Cloud Connector.
+Pour fournir une affinité de passerelle et une haute disponibilité, les appliances Cloud Connector peuvent être combinées dans des sites. Les utilisateurs sont affectés à des sites au lieu d’appliances Cloud Connector. Chaque site possède un dossier partagé dans lequel sont stockés les fichiers d’installation de base de VHD et Cloud Connector. Les appliances utilisent ce dossier pendant le déploiement. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
   
-Le dossier par défaut est\%C:\Users UserProfile%\CloudConnector\SiteRoot. Le chemin d’accès est visible à l’aide de l’applet de commande Get-CcSiteDirectory.
+Le dossier par défaut est C:\Users \% userprofile%\CloudConnector\SiteRoot. Le chemin d’accès peut être vu à l’aide Get-CcSiteDirectory cmdlet.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|  Path <br/> | Obligatoire <br/> | System.String <br/> |Indique le chemin d’accès du dossier dans lequel les fichiers de site Cloud Connector seront stockés.  <br/> |
+| Path <br/> | Requis <br/> | System.String <br/> |Fournit le chemin d’accès au dossier dans lequel les fichiers de site Cloud Connector seront stockés.  <br/> |
    
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Set-CcSiteDirectory n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Set-CcSiteDirectory n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun

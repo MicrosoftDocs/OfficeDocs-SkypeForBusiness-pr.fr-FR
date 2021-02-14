@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: 'L’applet de connexion de restauration des informations d’identification cc : restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector.'
+description: La cmdlet Restore Cc-Credentials restaure toutes les informations d’identification du déploiement actuel de la version Cloud Connector de Skype Entreprise.
 ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41824240"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-L’applet de connexion de restauration des informations d’identification cc : restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector. 
+La cmdlet Restore Cc-Credentials restaure toutes les informations d’identification du déploiement actuel de la version Cloud Connector de Skype Entreprise. 
   
-Cette cmdlet s’applique à Skype entreprise version Cloud Connector 2,1.
+Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 2.1.
   
 ```powershell
 Restore-CcCredentials 
@@ -32,15 +32,15 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Description détaillée
 
-L’applet de commande Restore-CcCredentials nettoie toutes les informations d’identification et vous invite à entrer à nouveau toutes les informations d’identification utilisées pour le déploiement actuel de Skype entreprise Cloud Connector.
+LRestore-CcCredentials cmdlet nettoie toutes les informations d’identification et vous invite à entrer à nouveau toutes les informations d’identification utilisées pour le déploiement actuel de Skype Entreprise Cloud Connector.
   
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 
-Aucun L’applet de commande Restore-CcCredentials n’accepte pas les entrées pipelines.
+Aucun. La cmdlet Restore-CcCredentials n’accepte pas la saisie de données pipeline.
   
 ## <a name="return-types"></a>Types de retours
 
@@ -48,7 +48,7 @@ Aucun.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant restaure toutes les informations d’identification du déploiement actuel du connecteur Cloud :
+L’exemple suivant restaure toutes les informations d’identification du déploiement Cloud Connector actuel :
   
 ```powershell
     PS C:\>Restore-CcCredentials

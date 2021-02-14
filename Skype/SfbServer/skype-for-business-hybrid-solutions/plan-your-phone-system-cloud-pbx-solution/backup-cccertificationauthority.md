@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: L'applet de commande Backup-CcCertificationAuthority sauvegarde le service d’autorité de certification de la version Cloud Connector de Skype Entreprise sur un fichier et l'enregistre dans le dossier AC sous l’annuaire de sites.
+description: LBackup-CcCertificationAuthority cmdlet sauvegarde le service d’autorité de certification Skype Entreprise, version Cloud Connector, dans un fichier et l’enregistre dans le dossier de l’autorité de certification sous l’annuaire de partage de sites.
 ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41803804"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
-L'applet de commande Backup-CcCertificationAuthority sauvegarde le service d’autorité de certification de la version Cloud Connector de Skype Entreprise sur un fichier et l'enregistre dans le dossier AC sous l’annuaire de sites.
+LBackup-CcCertificationAuthority cmdlet sauvegarde le service d’autorité de certification Skype Entreprise, version Cloud Connector, dans un fichier et l’enregistre dans le dossier de l’autorité de certification sous l’annuaire de partage de sites.
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -35,9 +35,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant sauvegarde le service d’autorité de certification sur un fichier et l’enregistre dans un dossier AC sous l’annuaire de sites :
+L’exemple suivant sauvegarde le service d’autorité de certification dans un fichier et l’enregistre dans le dossier de l’autorité de certification sous l’annuaire de partage de sites :
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -46,14 +46,14 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-La sauvegarde d’une autorité de certification peut être utile si vous envisagez de redéployer un appareil Cloud Connector avec le même certificat en cas de sinistre, ou si vous voulez déplacer l’appareil vers un nouveau matériel. La commande enregistre la copie du service de certification de certification Cloud du serveur AD pour «\<SITEROOTDIRECTORY\>\CA\SfB CCE root. P12 ».
+La sauvegarde de l’autorité de certification peut être utile si vous envisagez de redéployer une appliance Cloud Connector avec le même certificat en cas d’urgence, ou si vous souhaitez déplacer l’appliance vers un nouveau matériel. La commande enregistre la copie du service d’autorité de certification Cloud Connector du serveur AD vers « \< SiteRootDirectory \> \CA\SfB CCE Root.p12 ».
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Backup-CcCertificationAuthority n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Backup-CcCertificationAuthority n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun

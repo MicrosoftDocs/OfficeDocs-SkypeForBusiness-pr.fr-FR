@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment surveiller et résoudre les problèmes liés à la configuration du routage direct, notamment les contrôleurs de frontière de session, les composants de routage direct et les Trunks de télécoms.
+description: Découvrez comment surveiller et résoudre les problèmes de configuration du routage direct, notamment les contrôleurs de bordure de session, les composants de routage direct et les ligne de télécommunications.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 52ab594b901606ccf7c3b43fc8484d989c248fcd
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
@@ -26,63 +26,63 @@ ms.locfileid: "43901909"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
-Cet article décrit comment surveiller et résoudre les problèmes de votre configuration de routage direct. 
+Cet article explique comment surveiller et dépanner votre configuration de routage direct. 
 
-La possibilité de passer et de recevoir des appels à l’aide du routage direct implique les composants suivants : 
+La possibilité d’effectuer et de recevoir des appels à l’aide du routage direct implique les composants suivants : 
 
-- Contrôleurs de frontière de session (SBCs) 
-- Composants de routage directs dans Microsoft Cloud 
-- Circuits de télécoms 
+- Contrôleurs de session en bordure 
+- Composants de routage direct dans Microsoft Cloud 
+- Telecom trunks 
 
-Si vous éprouvez des difficultés à résoudre le problème, vous pouvez ouvrir un dossier de support auprès de votre fournisseur SBC ou Microsoft. 
+Si vous avez des difficultés à résoudre des problèmes, vous pouvez ouvrir un cas de support auprès de votre fournisseur SBC ou de Microsoft. 
 
-Microsoft travaille actuellement à la fourniture de plus d’outils de résolution des problèmes et de surveillance. Consultez régulièrement la documentation pour les mises à jour. 
+Microsoft travaille à la fourniture d’autres outils pour la résolution des problèmes et la surveillance. Consultez régulièrement la documentation pour les mises à jour. 
 
-## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Surveiller la disponibilité des contrôleurs de bordure de session à l’aide de messages d’options SIP (Session Initiation Protocol)
+## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Surveillance de la disponibilité des contrôleurs de session en bordure à l’aide des messages d’options SIP (Session Initiation Protocol)
 
-Le routage direct utilise les options SIP envoyées par les contrôleurs en bordure de session pour contrôler l’intégrité des SBC. Aucune action n’est requise de la part de l’administrateur client pour activer la surveillance des options SIP. Les informations collectées sont prises en compte lors de la prise de décisions de routage. 
+Le routage direct utilise les options SIP envoyées par les contrôleurs de session border pour surveiller l’état du SBC. Aucune action n’est requise de la part de l’administrateur client pour activer la surveillance des options SIP. Les informations collectées sont prises en compte lors des décisions de routage. 
 
-Par exemple, si pour un utilisateur spécifique, il existe plusieurs SBCs disponibles pour diriger un appel, le routage direct considère les informations d’options SIP reçues de chaque SBC pour déterminer le routage. 
+Par exemple, si, pour un utilisateur spécifique, plusieurs SBC sont disponibles pour router un appel, le routage direct examine les informations d’options SIP reçues de chaque SBC pour déterminer le routage. 
 
-Le schéma suivant illustre un exemple de configuration : 
+Le diagramme suivant montre un exemple de configuration : 
 
 ![Exemple de configuration des options SIP](media/sip-options-config-example.png)
 
-Lorsqu’un utilisateur effectue un appel vers le numéro + \<1 425 de sept chiffres>, le routage direct évalue l’itinéraire. Il existe deux éléments SBCs dans l’itinéraire : sbc1.contoso.com et sbc2.contoso.com. Les deux SBCs ont une priorité égale dans l’itinéraire. Avant de sélectionner un SBC, le mécanisme de routage évalue l’état de l’SBCs en fonction du moment où l’SBC a envoyé les options SIP pour la dernière fois. 
+Lorsqu’un utilisateur appelle le numéro 1 425 à sept chiffres>, le routage direct \< évalue l’itinéraire. Il existe deux SBCS dans l’itinéraire : sbc1.contoso.com et sbc2.contoso.com. Les deux SBCS ont la même priorité sur l’itinéraire. Avant de choisir un SBC, le mécanisme de routage évalue l’état des SBC en fonction de la dernière fois que le SBC a envoyé les options SIP. 
 
-Un SBC est considéré comme sain si les statistiques lors de l’envoi de l’appel indiquent que le SBC envoie les options toutes les minutes.  
+Un jeu de données SBC est considéré comme sain si les statistiques au moment de l’envoi de l’appel indiquent que celui-ci envoie des options à chaque minute.  
 
-Lorsqu’un appel est effectué, la logique suivante s’applique :
+Lorsqu’un appel est effectué, la logique suivante s’applique :
 
-- L’SBC a été couplé à 11:00 AM.  
-- Les options d’envoi de SBC envoient à 11:01 AM, 11:02 AM, et ainsi de suite.  
-- Dans 11:15, un utilisateur effectue un appel et le mécanisme de routage sélectionne cet SBC. 
+- Le SBC a été couplé à 11:00.  
+- Le SBC envoie des options à 11:01, 11:02, etc.  
+- À 23:15, un utilisateur effectue un appel et le mécanisme de routage sélectionne ce SBC. 
 
-Le routage direct prend les options d’intervalle normales trois fois (l’intervalle régulier est d’une minute). Si les options étaient envoyées au cours des trois dernières minutes, l’SBC est considéré comme sain.
+Le routage direct prend les options d’intervalle régulier trois fois (l’intervalle régulier est d’une minute). Si des options ont été envoyés au cours des trois dernières minutes, le SBC est considéré comme étant sain.
 
-Si l’SBC dans l’exemple a envoyé des options à n’importe quelle période entre 11:12 AM et 11:15 AM (l’heure de l’appel), il est considéré comme sain. Si ce n’est pas le cas, l’SBC sera abaissé de l’itinéraire. 
+Si la donnée SBC de l’exemple a été envoyée à n’importe quel moment entre 11:12 et 11:15 (heure à l’heure de l’appel), elle est considérée comme saine. Si ce n’est pas le cas, le SBC est rétrogradé de l’itinéraire. 
 
-La rétrogradation signifie que l’SBC ne sera pas essayé en premier. Par exemple, nous avons sbc1.contoso.com et sbc2.contoso.com avec une priorité égale.  
+Demotion signifie que le SBC ne sera pas tenté en premier. Par exemple, nous avons des sbc1.contoso.com et sbc2.contoso.com priorité égale.  
 
-Si sbc1.contoso.com n’envoie pas d’options SIP à un intervalle régulier comme décrit précédemment, il est abaissé. Ensuite, sbc2.contoso.com tente d’appeler. Si sbc2. contoso. con ne peut pas répondre à l’appel, le sbc1.contoso.com (rétrogradé) est essayé de nouveau avant la génération d’une erreur. 
+Si sbc1.contoso.com n’envoie pas les options SIP à intervalles réguliers comme décrit précédemment, elle est rétrogradée. Ensuite, sbc2.contoso.com pour l’appel. Si sbc2.contoso.con ne peut pas donner l’appel, l’sbc1.contoso.com (rétrogradé) fait l’appel à nouveau avant qu’un échec ne soit généré. 
 
-Si deux (ou plusieurs) SBCs dans une même route sont considérés comme sains et égaux, Fisher-Yates est appliqué pour répartir les appels entre le SBCs.
+Si deux (ou plusieurs) SBCs dans un même itinéraire sont considérés comme sains et égaux, un mélange Fisher-Yates est appliqué pour distribuer les appels entre les SBCs.
 
-## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Surveiller les journaux de tableau de bord d’analyse de la qualité des appels 
+## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Surveiller le tableau de bord d’analyse de la qualité des appels et les journaux SBC 
  
-Dans certains cas, en particulier lors du jumelage initial, il est possible qu’il y ait des problèmes liés à la configuration du service de routage SBCs ou du service de routage direct. 
+Dans certains cas, en particulier lors du coupage initial, des problèmes peuvent se trouver liés à une configuration mal configurée des SCS ou du service de routage direct. 
 
-Vous pouvez utiliser les outils suivants pour contrôler votre configuration :  
+Vous pouvez utiliser les outils suivants pour surveiller votre configuration :  
  
 - Tableau de bord de la qualité des appels 
-- Journaux de SBC 
+- Journaux SBC 
 
-Le service de routage direct possède des codes d’erreur très descriptifs signalés aux analyses d’appel ou aux journaux de SBC. 
+Les codes d’erreur très descriptifs du service de routage direct sont signalés aux journaux d’analyse des appels ou SBC. 
 
-Le tableau de bord de qualité des appels fournit des informations sur la qualité et la fiabilité des appels. Pour en savoir plus sur la résolution des problèmes d’analyse des appels, reportez-vous à [activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) et [utilisation de l’analyse des appels pour résoudre les problèmes de mauvaise qualité des appels](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+Le tableau de bord de qualité des appels fournit des informations sur la qualité et la fiabilité des appels. Pour en savoir plus sur la résolution des problèmes à l’aide de l’analyse des appels, voir Mise en place et utilisation du tableau de bord de qualité des appels pour [Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) et Skype Entreprise Online et Utiliser l’analyse des appels pour résoudre les problèmes de qualité des [appels.](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
 
-En cas d’échecs d’appel, l’analyse des appels fournit des codes SIP standard pour vous aider à résoudre les problèmes. 
+En cas d’échec d’appel, l’analyse des appels fournit des codes SIP standard pour vous aider à résoudre les problèmes. 
 
-![Exemple de code SIP pour l’échec d’un appel](media/failed-response-code.png)
+![Exemple de code SIP pour l’échec d’appel](media/failed-response-code.png)
 
-Toutefois, l’analyse des appels ne peut vous aider qu’à accéder aux composants internes du routage direct et à l’échec. En cas de problème avec le jumelage de SBC ou les problèmes liés à un rejet de « invitation » SIP (par exemple, le nom du nom de domaine complet du Trunk est mal configuré), l’analyse des appels ne vous aide pas. Dans ce cas, reportez-vous aux journaux de SBC. Le routage direct envoie une description détaillée des problèmes à l’SBCs ; ces problèmes peuvent être lus dans les journaux de SBC. 
+Toutefois, l’analyse des appels ne peut être utile que lorsque les appels atteignent les composants internes du routage direct et échouent. En cas de problèmes de coupage SBC ou de problèmes de rejet de l’invitation siP (par exemple, le nom de la ligne de nom de domaine complet est mal configuré), l’analyse des appels n’est pas utile. Dans ce cas, consultez les journaux SBC. Le routage direct envoie une description détaillée des problèmes aux SCS. ces problèmes peuvent être lus à partir des journaux SBC. 

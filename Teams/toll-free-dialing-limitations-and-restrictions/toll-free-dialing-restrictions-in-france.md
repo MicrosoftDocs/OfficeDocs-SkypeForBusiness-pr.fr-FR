@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits en France, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile ainsi que les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits en France, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
 ms.openlocfilehash: 5595b8266f78b0b18beb30b9893a09089d56a345
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,21 +33,21 @@ ms.locfileid: "43140423"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Restrictions de numérotation gratuits en France
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |0 800 9XX XXX  <br/> |
-|Code ISO pays/région  <br/> |FR  <br/> |
-|Île/territoire couvert  <br/> | France métropolitaine et Corse <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> |0 800 9XX XXX  <br/> |
+|Code ISO de pays/région  <br/> |FR  <br/> |
+|Île/territoire couvert(s)  <br/> | France métropolitaine et Corse <br/> |
 |Île/territoire non couvert  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

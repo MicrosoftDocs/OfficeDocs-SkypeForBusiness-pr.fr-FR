@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
-description: "L’applet de commande Start-CcLogging crée le journal d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise. "
+description: LStart-CcLogging cmdlet génère le journal des appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
 ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824168"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
-L’applet de commande Start-CcLogging crée le journal d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.  
+LStart-CcLogging cmdlet génère le journal des appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise. 
   
 ```powershell
 Start-CcLogging
@@ -35,9 +35,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L'exemple suivant créé le journal d'appels entrants et sortants :
+L’exemple suivant génère le journal des appels entrants et sortants :
   
 ```powershell
 Start-CcLogging
@@ -46,14 +46,14 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de connexion Start-CcLogging permet aux administrateurs de commencer à enregistrer les appels entrants et sortants sur un appareil de connecteur Cloud. Par défaut, le journal est automatiquement interrompu après quatre heures.
+La cmdlet Start-CcLogging permet aux administrateurs de commencer à consigner les appels entrants et sortants sur une appliance Cloud Connector. Par défaut, la journalisation s’arrête automatiquement après quatre heures.
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Start-CcLogging n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Start-CcLogging n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun

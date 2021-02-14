@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: L’applet de connexion Update-CcCACertificate renouvelle le certificat de l’autorité de certification racine Skype entreprise Cloud Connector qui est proche de l’expiration ou qui est déjà expiré.
+description: LUpdate-CcCACertificate de la cmdlet renouvelle le certificat de l’ac racine de la version Cloud Connector de Skype Entreprise qui est sur le point d’expirer ou qui a déjà expiré.
 ms.openlocfilehash: 9a99e80e166b7c8624867594fa02243d9d70537e
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824118"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-L’applet de connexion Update-CcCACertificate renouvelle le certificat de l’autorité de certification racine Skype entreprise Cloud Connector qui est proche de l’expiration ou qui est déjà expiré. 
+LUpdate-CcCACertificate de la cmdlet renouvelle le certificat de l’ac racine de la version Cloud Connector de Skype Entreprise qui est sur le point d’expirer ou qui a déjà expiré. 
   
 ```powershell
 Update-CcCACertificate
@@ -37,7 +37,7 @@ Aucun.
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant renouvelle le certificat de l’AC racine ::   
+L’exemple suivant renouvelle le certificat d’ac racine : 
   
 ```powershell
 Update-CcCACertificate 
@@ -46,22 +46,22 @@ Update-CcCACertificate
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Le certificat de l’AC racine de Cloud Connector est valide cinq ans à partir de la date d’installation du service d’autorité de certification.
+Le certificat de l’autorité de certification racine Cloud Connector est valide pendant cinq ans à partir de la date d’installation du service d’autorité de certification.
   
-Si le certificat racine est proche de l’expiration ou a déjà expiré, exécutez l’applet de certification Update-CcCACertificate pour renouveler le certificat. Après le renouvellement du certificat racine, le serveur AD, le magasin central de gestion et le serveur Edge fournissent automatiquement de nouveaux certificats.
+Si le certificat racine est sur le point d’expirer ou s’il a déjà expiré, exécutez la cmdlet Update-CcCACertificate pour renouveler le certificat. Une fois le certificat racine renouvelé, le serveur AD, le magasin central de gestion et le serveur Edge sont automatiquement émis.
   
-S’il existe plusieurs applications sur le même site RTC, exécutez l’applet de l’applet de mise à jour-CcCACertificate dans tous les appareils du même site PSTN.
+S’il existe plusieurs appliances dans le même site PSTN, exécutez l'Update-CcCACertificate cmdlet dans toutes les appliances du même site PSTN.
   
-Comme dernière étape, exécutez Export-CcRootCertificate afin d’exporter le certificat racine vers un fichier local dans la première appliance, puis copiez et installez le certificat exporté vers vos passerelles RTC.
+Lors de la dernière étape, exécutez Export-CcRootCertificate pour exporter le certificat racine vers un fichier local dans la première appliance, puis copiez et installez le certificat exporté sur vos passerelles PSTN.
   
-Cette commande remplace l’applet de commande Renew-CcCACertificate dans Cloud Connector 2,0 et les versions ultérieures.
+Cette commande remplace la cmdlet Renew-CcCACertificate dans Cloud Connector 2.0 et les version ultérieures.
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Update-CcCACertificate n’accepte pas les entrées pipelines.
+Aucun. La cmdlet Update-CcCACertificate n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun. 

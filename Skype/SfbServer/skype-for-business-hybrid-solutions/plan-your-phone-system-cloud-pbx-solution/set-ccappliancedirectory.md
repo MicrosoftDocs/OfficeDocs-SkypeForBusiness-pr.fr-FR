@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: L’applet de commande Set-CcApplianceDirectory définit l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont recensés dans cet annuaire.
+description: La cmdlet Set-CcApplianceDirectory définit l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont stockés dans ce répertoire.
 ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824220"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-L’applet de commande Set-CcApplianceDirectory définit l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont recensés dans cet annuaire.
+La cmdlet Set-CcApplianceDirectory définit l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont stockés dans ce répertoire.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -31,9 +31,9 @@ Set-CcApplianceDirectory[[-Path] <string>]
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant définit le répertoire de travail sur le serveur hôte sur c:\cloudconnector\applianceroot :
+L’exemple suivant définit le répertoire de travail sur le serveur hôte sur c:\cloudconnector\applianceroot :
   
 ```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
@@ -44,17 +44,17 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|  Path <br/> | Obligatoire <br/> |System.String  <br/> |  Spécifie le chemin de stockage de tous les fichiers de déploiement. <br/> |
+| Path <br/> | Requis <br/> |System.String  <br/> | Spécifie le chemin d’accès où sont stockés tous les fichiers de déploiement. <br/> |
    
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Set-CcApplianceDirectory n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Set-CcApplianceDirectory n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucune
+Aucun
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec Skype entreprise.
+description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec Skype Entreprise.
 ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
 ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
@@ -27,15 +27,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41863748"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>Serveurs proxy pour Skype entreprise Online
+# <a name="proxy-servers-for-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online
 
-Cet article fournit des instructions sur l’utilisation d’un serveur proxy avec Skype entreprise.
+Cet article fournit des conseils sur l’utilisation d’un serveur proxy avec Skype Entreprise.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Il est déconseillé d'utiliser un serveur proxy.
 
-Lorsqu’il s’agit du trafic de Skype entreprise sur proxy, Microsoft recommande de contournement des proxys. Les proxys ne permettent pas de sécuriser Skype entreprise, car le trafic est déjà crypté.
+En ce qui concerne le trafic Skype Entreprise, Microsoft recommande d’éviter d’utiliser un proxies. En plus, skype Entreprise n’est pas plus sécurisé, car le trafic est déjà chiffré.
   
-Un serveur proxy peut poser des problèmes. Les problèmes liés aux performances peuvent être introduits dans l’environnement par le biais d’une latence et d’une perte de paquets. Des problèmes tels que ceux-ci entraînent une utilisation négative de ces équipes ou des scénarios Skype entreprise tels que les flux audio et vidéo, où les flux en temps réel sont essentiels.
+De plus, le fait d’avoir un proxy peut entraîner des problèmes. Des problèmes de performances peuvent s’introduire dans l’environnement par le biais de la latence et de la perte de paquets. De tels problèmes entraînent une expérience négative dans les scénarios Teams ou Skype Entreprise tels que l’audio et la vidéo, pour lequel les flux en temps réel sont essentiels.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>SI vous devez utiliser un serveur proxy
 
@@ -49,7 +49,7 @@ Microsoft recommande également :
     
 - L'autorisation du trafic UDP
     
-- Suivi des autres recommandations de nos directives relatives à la mise en réseau :
+- En suivant les autres recommandations de nos directives en matière de mise en réseau :
     
   - [Qualité multimédia et performances de connectivité réseau dans Skype Entreprise Online](media-quality-and-network-connectivity-performance.md)
     
@@ -57,7 +57,7 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Optimisation de votre réseau pour Skype Entreprise Online](optimizing-your-network.md)
  

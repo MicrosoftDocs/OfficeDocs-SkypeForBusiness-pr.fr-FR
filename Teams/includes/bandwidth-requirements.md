@@ -1,12 +1,12 @@
-Le tableau suivant décrit le mode d’utilisation de la bande passante par Teams. Teams est toujours prudent quant à l’utilisation de la bande passante et peut livrer une qualité vidéo HD sous 1,2 Mbps. L’utilisation de la bande passante réelle lors de chaque appel audio/vidéo ou de chaque réunion dépend de plusieurs facteurs, tels que la disposition vidéo, la résolution vidéo et les images vidéo par seconde. Lorsque davantage de bande passante est disponible, la qualité et l’utilisation seront de plus en plus performantes.
+Ce tableau décrit la façon dont Teams utilise la bande passante. Teams est toujours le plus à l’état de l’utilisation de la bande passante et peut fournir une qualité vidéo HD en dessous de 1,2 Mps. La consommation réelle de bande passante pour chaque appel audio/vidéo ou chaque réunion varie en fonction de plusieurs facteurs, tels que la disposition de la vidéo, la résolution vidéo et les trames vidéo par seconde. Lorsque davantage de bande passante est disponible, la qualité et l’utilisation augmentent afin d’offrir la meilleure expérience possible.
 
 
 |Bande passante (haut/bas) |Scénarios |
 |---|---|
-|30 kbps |Appels audio d’égal à égal |
-|130 kbps |Appel et partage d’écran d’égal à égal audio |
-|500 kbps |Appels vidéo de qualité d’égal à égal 360p sur 30 ips |
-|1,2 Mbps |Appels vidéo d’égal à égal en HD avec résolution en HD 720p sur 30 ips |
-|1,5 Mbps |Appels vidéo d’égal à égal en HD avec résolution d’HD 1080p sur 30 ips |
-|500 KB/1 MB descendante |Appels vidéo de groupe |
-|1 MB descendante/2 MB |Appels vidéo de groupe HD (vidéos 540p sur l’écran 1080p) |
+|30 Kbits/s |Appels audio D’égal à égal |
+|130 Kbits/s |Appels audio et partage d’écran P2 P2 |
+|500 Kbits/s |Appels vidéo de qualité P2P 360p à 30fps |
+|1,2 Mbits/s |Appel vidéo HD de qualité P2P avec résolution de 720p à 30fps |
+|1,5 Mbits/s |Appels vidéo HD d’égal à égal avec résolution de HD 1080p à 30fps |
+|500 Kbits/s/1 Mbits/s |Appel vidéo de groupe |
+|1 Mps/2 Mps |Appel vidéo de groupe HD (vidéos 540p sur l’écran 1080p) |

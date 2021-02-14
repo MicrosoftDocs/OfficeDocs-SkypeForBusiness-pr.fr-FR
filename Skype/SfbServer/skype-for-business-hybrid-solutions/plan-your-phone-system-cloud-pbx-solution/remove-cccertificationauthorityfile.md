@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: L’applet de connexion Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde de l’autorité de certification dans le dossier autorité de certification sous le répertoire de partage du site pour Skype entreprise version Cloud Connector.
+description: La cmdlet Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde du service d’autorité de certification dans le dossier CA sous l’annuaire de partage de sites pour Skype Entreprise, version Cloud Connector.
 ms.openlocfilehash: 49a8f0f313b4153288ebdf037a41dc92f30e60d6
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824290"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-L’applet de connexion Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde du&lt;service&gt;de l’autorité de certification « SiteRootDirectory \CA\SfB CCE. p12 » dans le dossier ca sous le répertoire de partage de site pour Skype entreprise version Cloud Connector. 
+L'Remove-CcCertificationAuthorityFile cmdlet supprime le fichier de sauvegarde du service d’autorité de certification « &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12 » dans le dossier CA sous l’annuaire de partage de sites pour Skype Entreprise, version Cloud Connector. 
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -37,18 +37,18 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-Dans l’exemple suivant, le fichier de sauvegarde du service&lt;de&gt;l’autorité de certification « SiteRootDirectory \CA\SfB CCE. P12 » est supprimé dans le dossier ca sous le répertoire de partage du site :
+L’exemple suivant supprime le fichier de sauvegarde du service d’autorité de certification « &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12 » dans le dossier CA sous l’annuaire de partage de sites :
   
 ```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Remove-CcCertificationAuthorityFile n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Remove-CcCertificationAuthorityFile n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun

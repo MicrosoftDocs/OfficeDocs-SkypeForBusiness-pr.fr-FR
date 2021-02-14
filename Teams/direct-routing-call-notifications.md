@@ -27,27 +27,27 @@ ms.locfileid: "42341804"
 ---
 # <a name="manage-call-notifications"></a>Gérer les notifications d’appels
 
-Cet article décrit comment gérer les notifications d’appel pour vos utilisateurs. Vous pouvez configurer des points de terminaison d’appel vers les deux équipes et vers un système de contrôle de succursale privée ou un contrôleur de bordure de session (SBC) tiers.  Cette fonction est utile, par exemple, si vous voulez envoyer un appel vers les téléphones mobiles et de bureau d’un utilisateur en même temps.   
+Cet article décrit comment gérer les notifications d’appel pour vos utilisateurs. Vous pouvez configurer des points de terminaison d’appel avec Teams et un système PBX (Private Branch Exchange) ou SBC (Session Border Controller) tiers.  Cela est utile, par exemple, si vous voulez envoyer un appel vers les téléphones mobiles et de bureau d’un utilisateur en même temps.   
 
-Dans le diagramme suivant, l’utilisateur Irena possède deux points de terminaison :
+Dans le diagramme suivant, l’utilisateur Irena a deux points de terminaison :
 
-- Un point de terminaison d’équipes
-- Téléphone SIP connecté à une SBC tierce
+- Un point de terminaison Teams
+- Un téléphone SIP connecté à un SBC tiers
 
-Lorsqu’un appel arrive, le SBC dévie l’appel entre le routage direct du système téléphonique et le SBC tiers.
-
-
-![Diagramme montrant les points de terminaison d’équipes branches](media/direct-routing-call-notification-1.png)
-
-Si l’appel est accepté sur la fourche 2 (par la SBC tierce), teams générera une notification d’appel manqué.  
-
-Vous pouvez empêcher la notification d’appel manqué en configurant l’SBC pour qu’il envoie une annulation sur Fork 1 comme suit :
-
-RAISON : SIP ; cause = 200 ; texte "appel terminé ailleurs" 
-
-Notez que l’appel n’est pas enregistré dans les enregistrements des détails des appels du système Microsoft Phone en tant qu’appel réussi. L’appel sera enregistré en tant que « tentative » avec le code SIP final « 487 », le sous-code final de Microsoft « 540200 » et l’expression de code SIP finale».  (Pour consulter les enregistrements des détails des appels, accédez au portail d’administration Teams, aux analyses et aux rapports, rapports d’utilisation et sélectionnez utilisation PSTN.)
+Lorsqu’un appel arrive, le SBC dus au routage direct Phone System et au SBC tiers.
 
 
-Le diagramme ci-dessous illustre l’échelle SIP pour la fourche 1, décrit le flux d’appels et la raison attendue du message d’annulation. 
+![Diagramme montrant des points de terminaison Teams dus](media/direct-routing-call-notification-1.png)
 
-![Diagramme montrant les points de terminaison d’équipes branches](media/direct-routing-call-notification-2.png)
+Si l’appel est accepté sur la fork 2 (par le SBC tiers), Teams génère une notification « Appel manqué ».  
+
+Vous pouvez empêcher la notification « Appel manqué » en configurant le SBC de manière à envoyer une annulation dans la fork 1 comme suit :
+
+RAISON : SIP; cause=200;texte"Appel effectué ailleurs » 
+
+Notez que l’appel ne sera pas enregistré dans les enregistrements des détails d’appel de Microsoft Phone System en tant qu’appel réussi. L’appel sera inscrit comme une « tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et la phrase du code SIP final « Appel effectué ailleurs ».  (Pour afficher les enregistrements des détails des appels, allez sur le portail d’administration de Teams, les rapports d’analyse et de rapport, les rapports d’utilisation et sélectionnez Utilisation PSTN.)
+
+
+Le diagramme ci-dessous illustre le flux SIP de la fork 1, explique le flux d’appels et la RAISON attendue dans le message Annuler. 
+
+![Diagramme montrant des points de terminaison Teams dus](media/direct-routing-call-notification-2.png)

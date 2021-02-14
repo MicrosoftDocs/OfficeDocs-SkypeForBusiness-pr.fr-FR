@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Apprenez-en davantage sur la numérotation des numéros sans frais en Irlande, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile, et les restrictions.
+description: En savoir plus sur les numéros d’appel gratuits en Irlande, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
 ms.openlocfilehash: d976c670170eee09848fa26fd527178bbf9fc033
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,21 +33,21 @@ ms.locfileid: "43140363"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Restrictions de numérotation gratuit en Irlande
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |1 800 XXX XXX  <br/> |
-|Code ISO pays/région  <br/> |IE  <br/> |
-|Île/territoire couvert  <br/> |Toutes les îles situées au large de la République d'Irlande sont couvertes.  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> |1 800 XXX XXX  <br/> |
+|Code ISO de pays/région  <br/> |IE  <br/> |
+|Île/territoire couvert(s)  <br/> |Toutes les îles situées au large de la République d'Irlande sont couvertes.  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Accessible via les réseaux mobiles Vodafone, O2 Digiphone, Meteor et H3G.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Accessible via les réseaux mobiles O2 Digiphone, Meteor et H3G.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

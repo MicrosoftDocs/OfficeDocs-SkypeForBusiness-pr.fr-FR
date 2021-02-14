@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Apprenez-en davantage sur la numérotation des numéros sans frais en Indonésie, y compris la disponibilité, la disponibilité des lignes filaires/fixes et du réseau mobile ainsi que les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits en Indonésie, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
 ms.openlocfilehash: 3f0c2e00feb99d8c7cf7ccc290593450dfd6fb09
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,21 +33,21 @@ ms.locfileid: "43140373"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Restrictions de numérotation gratuit en Indonésie
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> | 001 803 CCC XXXX <br/>  007 803 CCC XXXX <br/> |
-|Code ISO pays/région  <br/> |ID  <br/> |
-|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> | 001 803 CCC XXXX <br/>  007 803 CCC XXXX <br/> |
+|Code ISO de pays/région  <br/> |ID  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Deux formats de numéro sont fournis pour une meilleure couverture. Le format de nombre 007 803 CCD XXXX est accessible à partir du réseau PT Telkom, notamment Telkomsel et XL mobile. Le format de numéro 001 803 CCC XXXX est accessible via le réseau Indosat. Pour les appareils mobiles : matrice cellulaire (préfixe 0855, 0858, 0815 et 0816) uniquement.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Deux formats de numéro sont fournis pour une meilleure couverture. Le format de nombre 007 803 CCC XXXX est accessible à partir du réseau PT Telkom, y compris Telkomsel et XL Mobile. Le format de numéro 001 803 CCC XXXX est accessible via le réseau Indosat. Pour mobile : Matrice Cellulaire (préfixe 0855, 0858, 0815 et 0816) uniquement.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

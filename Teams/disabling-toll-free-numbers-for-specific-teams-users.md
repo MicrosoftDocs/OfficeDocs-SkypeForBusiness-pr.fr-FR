@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Découvrez comment contrôler la façon dont les organisateurs peuvent utiliser des numéros sans frais pour leurs réunions de pont audio.
+description: Découvrez comment contrôler la façon dont les organisateurs peuvent utiliser des numéros gratuits pour leurs réunions pont de conférence audio.
 ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
@@ -47,13 +47,13 @@ Si les numéros gratuits sont désactivés pour un organisateur spécifique :
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactiver les numéros gratuits pour des utilisateurs spécifiques 
 
-Dans le **Centre d’administration Microsoft teams**:
+À partir du **Centre d’administration Microsoft Teams**:
 
-1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En regard de l’option **Audioconférence**, cliquez sur **Modifier**.
 
-3. Définissez **inclure les numéros sans frais dans les demandes de réunion de cet utilisateur** **.** 
+3. Set **Include toll-free numbers in meeting requests from this user** to **Off.** 
 
 4. Cliquez sur **Enregistrer**. 
 

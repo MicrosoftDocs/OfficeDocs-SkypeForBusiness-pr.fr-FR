@@ -1,5 +1,5 @@
 ---
-title: Ressources pour les partenaires Microsoft 365 Business Voice et Microsoft teams
+title: Ressources de partenaire Microsoft 365 Business Voice et Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,19 +24,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41862844"
 ---
-# <a name="microsoft-365-business-voice-partner-resources"></a>Ressources pour les partenaires vocaux Microsoft 365
+# <a name="microsoft-365-business-voice-partner-resources"></a>Ressources des partenaires Microsoft 365 Business Voice
 
-Utilisez cet article pour faciliter le déploiement et la prise en charge de Microsoft 365 Business Voice. L’article se concentre sur voix et appels commerciaux.
+Utilisez cet article pour déployer et prendre en charge Microsoft 365 Business Voice. L’article se concentre sur voix entreprise et les appels.
 
-Avant de déployer la voix professionnelle, vous devez disposer d’une base dans le déploiement et la prise en charge de Microsoft Teams.
+Avant de déployer Business Voice, vous devez avoir les bases du déploiement et de la prise en charge de Microsoft Teams.
 
-Cet article est une ressource concise pour le personnel de support technique et de support technique qui est une nouveauté de Business Voice. Utilisez ces ressources pour développer vos connaissances de la voix commerciale, y compris les notions de base du déploiement et de la prise en charge.
+Cet article est une ressource concise pour les membres du personnel de support et de distribution technique qui ne sont pas spécialisés dans Business Voice. Utilisez ces ressources pour développer vos connaissances de Business Voice, notamment les principes de base du déploiement et du support.
 
-- [Conseils pratiques de Microsoft teams](../cloud-voice-landing-page.md)
-- [Pré-évaluation et planification](../3-envision-evaluate-my-environment.md)
+- [Conseils pratiques sur Teams](../cloud-voice-landing-page.md)
+- [Évaluation et planification préalables](../3-envision-evaluate-my-environment.md)
 - [Déployer](../3-onboard-deploy-my-service.md)
-- [Activités](../1-drive-value-operate-my-service.md)
+- [Opérer](../1-drive-value-operate-my-service.md)
 - [Support](../prepare-network.md)
 - [Résolution des problèmes](../connectivity-issues.md)
-- [Offres d’assistance pour les partenaires](https://partner.microsoft.com/support/partnersupport)
-- [Guide du prestataire de services teams](https://aka.ms/teamsserviceproviderguide)
+- [Plans de support pour les partenaires](https://partner.microsoft.com/support/partnersupport)
+- [Guide du fournisseur de services Teams](https://aka.ms/teamsserviceproviderguide)

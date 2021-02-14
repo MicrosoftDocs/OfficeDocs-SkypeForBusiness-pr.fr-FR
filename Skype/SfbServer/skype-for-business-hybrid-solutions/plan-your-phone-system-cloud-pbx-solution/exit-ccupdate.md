@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: 'L’applet de commande Exit-CcUpdate effectue un mode maintenance de la mise à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise. '
+description: LExit-CcUpdate cmdlet quitte le mode maintenance des mises à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise.
 ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41801764"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-L’applet de commande Exit-CcUpdate effectue un mode maintenance de la mise à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise.  
+LExit-CcUpdate cmdlet quitte le mode maintenance des mises à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise. 
   
-Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2. 
+Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2. 
   
 ```powershell
 Exit-CcUpdate
@@ -37,9 +37,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-La commande suivante remet l’appliance en mode production :  
+La commande suivante place l’appliance sur laquelle elle s’exécute à nouveau en mode production : 
   
 ```powershell
 Exit-CcUpdate
@@ -48,16 +48,16 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Si vous disposez d’appliances que vous avez mises en mode maintenance en spécifiant l’applet de commande Enter-CcUpdate, l'applet de commande Exit-CcUpdate les mettra à nouveau en mode production.  
+Si vous avez des appliances que vous avez mises en mode maintenance en spécifiant l'Enter-CcUpdate cmdlet, l'Exit-CcUpdate les place en mode production. 
   
-Pour plus d’informations sur la manière de mettre les appliances en mode maintenance, reportez-vous à la rubrique Enter-CcUpdate.
+Pour plus d’informations sur la mise en mode maintenance des appliances, voir Enter-CcUpdate.
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Exit-CcUpdate n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Exit-CcUpdate n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun 

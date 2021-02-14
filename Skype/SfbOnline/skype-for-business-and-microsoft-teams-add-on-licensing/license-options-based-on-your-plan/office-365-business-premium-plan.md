@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business standard '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de complément, les fonctionnalités et l’achat pour les offres Microsoft 365 Business standard. '
+description: 'En savoir plus sur les licences de modules supplémentaires, les fonctionnalités et la façon d’acheter des plans Microsoft 365 Business Standard. '
 ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -28,9 +28,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43777409"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business standard
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
-Si vous avez [Microsoft 365 Business standard](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Skype entreprise pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez vous appeler et vous envoyer des messages instantanés dans Skype entreprise.
+Si vous avez [Microsoft 365 Business Standard,](https://products.office.com/en/business/office-365-business-premium)vous pouvez utiliser Skype Entreprise pour appeler d’autres personnes de votre entreprise qui utilisent votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez vous appeler et vous appeler par messagerie instantanée à l’aide de Skype Entreprise.
 
  **Deux options s'offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
 
@@ -53,20 +53,20 @@ Si vous avez [Microsoft 365 Business standard](https://products.office.com/en/bu
 
 2. Acheter le module complémentaire **Système téléphonique**.
     
-3. Acheter un [plan d’appel pour Office 365](/MicrosoftTeams/calling-plans-for-office-365): vous pouvez l’acheter uniquement après l’acquisition du complément de votre **système téléphonique** .
+3. Achetez un [forfait d’appels pour Office 365](/MicrosoftTeams/calling-plans-for-office-365): vous ne pouvez l’acheter qu’après avoir acheté le **module-système** téléphonique.
     
     Cette option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
 
-## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
+## <a name="how-to-see-prices-and-buy"></a>Comment consulter les prix et acheter
 <a name="bkmk_buypremium"> </a>
 
  **Pour obtenir les Audioconférences et des Crédits de Communication :**
 
-1. Connectez-vous au centre d’administration.
+1. Connectez-vous au centre d'administration.
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
-   ![Pour acheter une licence de complément, sélectionnez acheter des modules complémentaires.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Pour acheter une licence de module add-on, sélectionnez Acheter des modules add-ons.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Vous allez maintenant voir les prix et l’option d’achat d’audioconférence et configurer des Crédits de Communications.
 
@@ -74,8 +74,8 @@ Si vous avez [Microsoft 365 Business standard](https://products.office.com/en/bu
 
 1. Choisissez l'offre E1 ou E3.
 
-2. Accédez au centre d’administration > la **facturation** > **abonnements**.
+2. Dans le Centre d’administration, >   >  **abonnements à la facturation.**
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. Après avoir acheté une licence de **système téléphonique** , vous verrez le prix et l’option d’achat d’un forfait d’appels.
+4. Après avoir acheté une **licence Phone System,** le prix et l’option d’achat d’un forfait d’appels s’offrent à vous.

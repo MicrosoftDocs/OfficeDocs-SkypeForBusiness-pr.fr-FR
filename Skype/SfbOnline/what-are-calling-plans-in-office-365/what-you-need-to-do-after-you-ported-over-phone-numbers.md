@@ -1,5 +1,5 @@
 ---
-title: Quelle est la procédure à suivre une fois vos numéros de téléphone transférés ?
+title: Que devez-vous faire une fois vos numéros de téléphone portés ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: Découvrez ce que vous devez faire ensuite après avoir transféré vos numéros de téléphone vers Skype entreprise.
+description: Découvrez ce que vous devez faire ensuite une fois vos numéros de téléphone portés vers Skype Entreprise.
 ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "41769227"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Quelle est la procédure à suivre une fois vos numéros de téléphone transférés ?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Que devez-vous faire une fois vos numéros de téléphone portés ?
 
-Une fois que vous avez envoyé votre demande de transfert, nous contacterons votre opérateur et nous vous enverrons les détails. Lorsque la date de fin du transfert a été définie, nous vous informons par e-mail. Néanmoins, en attendant votre opérateur d’accepter la commande, vous devez créer les adresses d’urgence requises que vous utiliserez avec ces numéros.
+Une fois que vous avez soumis votre demande de port, nous contacterons votre opérateur et détaillerons les détails avec lui. Une fois la date de transfert final fixée, nous vous en informerons par e-mail. Toutefois, en attendant que votre opérateur accepte la demande, créez les adresses d’urgence requises que vous utiliserez avec ces numéros.
   
-- En savoir plus sur [les emplacements d’urgence, les adresses de secours et le routage des appels ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+- En savoir plus sur [les emplacements d’urgence, les adresses de secours et le routage des appels.](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
     
-- Le cas échéant, vous pouvez [Ajouter ou supprimer une adresse de secours pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) .
+- Vous pouvez [ajouter ou supprimer une adresse de secours pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) si nécessaire.
     
-- Si vos numéros de téléphone ont déjà une adresse d’urgence, [Ajoutez, modifiez ou supprimez un emplacement d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
+- Si vos numéros de téléphone ont déjà une adresse de secours, ajoutez, modifiez ou supprimez un emplacement [d’urgence pour votre organisation.](add-change-or-remove-an-emergency-location-for-your-organization.md)
     
 - [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 

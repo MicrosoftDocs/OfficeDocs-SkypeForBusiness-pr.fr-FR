@@ -1,5 +1,5 @@
 ---
-title: Cette fonctionnalité Skype entreprise Online n’est pas activée
+title: Cette fonctionnalité Skype Entreprise Online n’est pas activée
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
-description: 'Trouvez les causes possibles et les suggestions d’action lorsque vous recevez une fonctionnalité Skype entreprise Online n’est pas activée. '
+description: 'Trouvez les causes possibles et les suggestions d’actions lorsque vous obtenez une fonctionnalité Skype Entreprise Online qui n’est pas activée. '
 ms.openlocfilehash: 7084af14acf32beb102ff7767d3825b1e41a3e20
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -28,17 +28,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "41769557"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Cette fonctionnalité Skype entreprise Online n’est pas activée
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Cette fonctionnalité Skype Entreprise Online n’est pas activée
 
-Désolé, mais il semble que l’utilisateur ne dispose pas de licence pour cette fonctionnalité.
+Désolé, il semble que l’utilisateur ne dispose pas de licence pour cette fonctionnalité.
   
 |**Cause possible**|**Action suggérée**|
 |:-----|:-----|
-|Vous avez des licences disponibles, mais vous n’avez pas activé la fonctionnalité pour cet utilisateur.  <br/> |Accédez au >  **Centre d’administration Microsoft 365****utilisateurs actifs** pour accorder une licence à cet utilisateur. <br/> |
-|L’utilisateur se trouve à un emplacement où cette fonctionnalité n’est pas disponible.  <br/> |Dans la mesure du possible, accédez au >  **Centre d’administration Microsoft 365****utilisateurs actifs** et affectez cet utilisateur à un emplacement où la fonctionnalité est disponible. <br/> |
-|La fonctionnalité n’a pas été activée pour votre organisation.  <br/> |Accédez > au **Centre d’administration Microsoft 365****Skype entreprise** et activez la fonctionnalité pour votre organisation entière. <br/> |
+|Vous avez des licences disponibles, mais vous n’avez pas désactivé la fonctionnalité pour cet utilisateur.  <br/> |Dans le Centre **d’administration Microsoft 365,**  >  **activez les utilisateurs** pour leur licence. <br/> |
+|L’utilisateur se trouve à un emplacement où cette fonctionnalité n’est pas disponible.  <br/> |Si possible, allez dans le Centre d’administration **Microsoft 365** Utilisateurs actifs et affectez cet utilisateur à un emplacement où la fonctionnalité  >   est disponible. <br/> |
+|La fonctionnalité n’a pas été désactivée pour votre organisation.  <br/> |Dans le **Centre d’administration Microsoft 365,** Skype Entreprise et activer la fonctionnalité  >   pour l’ensemble de votre organisation. <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

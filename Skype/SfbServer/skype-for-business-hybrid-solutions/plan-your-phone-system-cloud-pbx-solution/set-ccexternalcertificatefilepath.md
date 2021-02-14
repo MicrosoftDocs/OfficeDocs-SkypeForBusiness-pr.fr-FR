@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
-description: L’applet de commande Set-CcExternalCertificateFilePath spécifie le chemin d’accès dans lequel le certificat pour le serveur de médiation ou le serveur Edge est enregistré.
+description: LSet-CcExternalCertificateFilePath cmdlet spécifie le chemin d’accès où le certificat pour le serveur de médiation ou le serveur Edge est stocké.
 ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,11 +22,11 @@ ms.locfileid: "41824198"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
-L’applet de commande Set-CcExternalCertificateFilePath spécifie le chemin d’accès dans lequel le certificat pour le serveur de médiation ou le serveur Edge est enregistré.
+LSet-CcExternalCertificateFilePath cmdlet spécifie le chemin d’accès où le certificat pour le serveur de médiation ou le serveur Edge est stocké.
   
-Ce certificat est requis pendant le déploiement ou lors de l’ajout de nouvelles appliances de la version Cloud Connector de Skype Entreprise. La commande permet également d’importer un nouveau certificat pour le serveur de médiation après le déploiement.
+Ce certificat est requis lors du déploiement ou lors de l’ajout de nouvelles appliances de Skype Entreprise, version Cloud Connector. La commande permet également d’importer un nouveau certificat pour le serveur de médiation après le déploiement.
   
-Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServer} [-Path] <string> [-Import]  [<CommonParameters>]
@@ -35,25 +35,25 @@ Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServ
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L'exemple suivant configure le chemin d’accès du certificat pour le serveur Edge :
+L’exemple suivant définit le chemin d’accès du certificat pour le serveur Edge :
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Certificates\AdatumPublicEdge.pfx
 ```
 
-### <a name="example-2"></a>Exemple 2
+### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant configure le chemin d’accès du certificat pour le serveur de médiation :
+L’exemple suivant définit le chemin d’accès du certificat pour le serveur de médiation :
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx
 ```
 
-### <a name="example-3"></a>Exemple 3
+### <a name="example-3"></a>Exemple 3
 
-L'exemple suivant met à jour le certificat pour le serveur de médiation :
+L’exemple suivant met à jour le certificat pour le serveur de médiation :
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx -Import
@@ -62,24 +62,24 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Lors du déploiement ou de la modification de la typologie, vous devez spécifier le chemin d’accès pour le certificat du serveur Edge et éventuellement pour le certificat du serveur de médiation. 
+Pendant le déploiement ou lors de la modification de la topologie, vous devez spécifier le chemin d’accès pour le certificat de serveur Edge et éventuellement pour le certificat de serveur de médiation. 
   
-Le certificat pour le serveur de médiation est requis si TLS est utilisé entre la ou les passerelle(s) et le serveur de médiation. Lorsque vous déployez un dispositif de connexion Cloud et que vous souhaitez déployer le protocole TLS, vous ne pouvez spécifier que le chemin d’accès au certificat qui sera déployé sur le serveur de médiation. Cependant, si vous souhaitez mettre à jour le certificat de médiation sur une appliance déjà déployée, vous devez spécifier le chemin d’accès et le paramètre Importation. Pour voir le chemin d’accès, utilisez l’applet de commande Get-CCExternalCertificateFilePath.
+Le certificat pour le serveur de médiation est requis si TLS est utilisé entre la ou les passerelles et le serveur de médiation. Lorsque vous déployez une appliance Cloud Connector et que vous souhaitez déployer TLS, vous ne pouvez spécifier que le chemin d’accès au certificat qui sera déployé sur le serveur de médiation. Toutefois, si vous souhaitez mettre à jour le certificat de médiation sur une appliance déjà déployée, vous devez spécifier le chemin d’accès et le paramètre -Import. Pour voir le chemin d’accès, utilisez Get-CCExternalCertificateFilePath cmdlet.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| Cible <br/> | Obligatoire <br/> |System.String  <br/> |Type de chemin d’accès de fichier requis. Les types comprennent :  <br/> Le serveur Edge (défaut)  <br/> Le serveur de médiation  <br/> |
-|Importation  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Indique que le certificat doit être importé vers le serveur de médiation. Ce paramètre n'est pas requis si vous déployez une appliance pour la première fois. Le paramètre est requis si vous souhaitez changer le certificat existant sur une version déjà déployée.  <br/> |
+| Target <br/> | Requis <br/> |System.String  <br/> |Type de chemin d’accès au fichier demandé. Les types sont les suivants :  <br/> EdgeServer (par défaut)  <br/> MediationServer  <br/> |
+|Importation  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Indique que le certificat doit être importé sur le serveur de médiation. Ce paramètre n’est pas nécessaire si vous déployez une appliance pour la première fois. Le paramètre est obligatoire si vous souhaitez modifier le certificat existant sur une version déjà déployée.  <br/> |
    
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-L’applet de commande Set-CcExternalCertificateFilePath n’accepte pas l’entrée redirigée.
+La cmdlet Set-CcExternalCertificateFilePath n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun

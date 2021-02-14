@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
-description: "	L'applet de commande Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, notamment les machines virtuelles de l’AD, du magasin central de gestion, du serveur de médiation et du serveur Edge, sur le serveur hôte. "
+description: L'Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte.
 ms.openlocfilehash: fe1fab785e2681614f27035714b6ddead22b8707
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41799874"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
-	L'applet de commande Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, notamment les machines virtuelles de l’AD, du magasin central de gestion, du serveur de médiation et du serveur Edge, sur le serveur hôte.  
+L'Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte. 
   
 ```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
@@ -35,7 +35,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 ### <a name="example-1"></a>Exemple 1
 
-Dans l’exemple suivant, une nouvelle application de connecteur Cloud est installée sur le serveur hôte :
+L’exemple suivant installe une nouvelle appliance Cloud Connector sur le serveur hôte :
   
 ```powershell
 Install-CcAppliance
@@ -43,15 +43,15 @@ Install-CcAppliance
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant met à niveau le Cloud Connector vers la version la plus récente :
+L’exemple suivant permet de mettre à niveau Cloud Connector vers la dernière version :
   
 ```powershell
 Install-CcAppliance -Upgrade
 ```
 
-### <a name="example-3"></a>Exemple 3
+### <a name="example-3"></a>Exemple 3
 
-Dans l’exemple suivant, toutes les informations d’identification Cloud Connector sont supprimées sur le serveur hôte, inviter l’utilisateur à spécifier de nouveau toutes les informations d’identification, puis installe Cloud Connector :
+L’exemple suivant supprime toutes les informations d’identification Cloud Connector mises en cache sur le serveur hôte, invite l’utilisateur à spécifier à nouveau toutes les informations d’identification, puis installe Cloud Connector :
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
@@ -59,68 +59,68 @@ Install-CcAppliance -UpdateAllCredentials
 
 ### <a name="example-4"></a>Exemple 4
 
-L'exempe suivant affiche toutes les étapes de déploiement dans la console PowerShell :
+L’exemple suivant affiche toutes les étapes de déploiement dans la console PowerShell :
   
 ```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
-Le paramètre ShowStepsOnly est uniquement dédié à la résolution de problèmes.
+Le paramètre -ShowStepsOnly est uniquement pour la résolution des problèmes.
   
 ### <a name="example-5"></a>Exemple 5
 
-L’exemple suivant crée des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Les fichiers de configuration sont enregistrés \<dans\>le\\ dossier ApplianceRoot\>\Instances<version-default\ExportedConfig sur le serveur hôte :
+L’exemple suivant génère des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Les fichiers de configuration sont enregistrés dans le \< dossier ApplianceRoot \> \Instances \\<Version \> -default\ExportedConfig sur le serveur hôte :
   
 ```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
-Pour déterminer la racine de l’appliance, exécutez l’applet de commande Get-CcApplianceDirectory.  
+Pour déterminer la racine de l’appliance, exécutez Get-CcApplianceDirectory cmdlet. 
   
 ### <a name="example-6"></a>Exemple 6
 
-Dans l’exemple suivant, Cloud Connector exécute les étapes 1,2 et 3 de déploiement pour créer des commutateurs virtuels, une machine virtuelle AD et installer le service de domaine sur le serveur AD. Il passe l’étape si elle a déjà été exécutée :
+Dans l’exemple suivant, Cloud Connector exécute les étapes de déploiement 1, 2 et 3 pour créer des commutateurs virtuels, créer une machine virtuelle AD et installer le service de domaine sur le serveur AD. Il ignore l’étape si l’étape a déjà été exécutée :
   
 ```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 
-Le paramètre SkipExistingObjects doit être utilisé conjointement avec le paramètre Étapes.
+Le paramètre SkipExistingObjects doit être utilisé conjointement avec le paramètre Steps.
   
 > [!NOTE]
-> Le paramètre Étapes est uniquement fourni à des fins de résolution de problèmes. N’utilisez pas ce paramètre pour déployer une appliance ou mettre à niveau une appliance en service. 
+> Le paramètre Steps est uniquement à des fins de dépannage. N’utilisez pas ce paramètre pour déployer une appliance ou mettre à niveau une appliance en service. 
   
-Pour déterminer les étapes du déploiement, exécutez la commande suivante :
+Pour déterminer les étapes du déploiement, exécutez la commande suivante :
   
 Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de contrôle install-CcAppliance est utilisée pour déployer le Cloud Connector sur une nouvelle application ou pour mettre à niveau un appareil existant vers la version la plus récente.
+LInstall-CcAppliance cmdlet est utilisée pour déployer Cloud Connector sur une nouvelle appliance ou pour mettre à niveau une appliance existante vers la dernière version.
   
-Si vous disposez d’une nouvelle appliance, commencez par lire Préparation de votre environnement pour Cloud Connector, exécutez l’applet de commande Register-CcAppliance afin d’enregistrer l’appliance, puis exécutez l’applet de commande Install-CcAppliance. Pour plus d’informations, reportez-vous à la rubrique [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+Si vous avez une nouvelle appliance, lisez d’abord Préparer votre environnement pour Cloud Connector, exécutez l’cmdlet Register-CcAppliance pour inscrire l’appliance, puis exécutez l'Install-CcAppliance cmdlet. Pour plus d’informations, voir [Déployer un seul site dans Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et Déployer plusieurs sites dans Cloud [Connector.](deploy-multiple-sites-in-cloud-connector.md) 
   
-Si vous avez un déploiement de Cloud Connector et que vous souhaitez effectuer une mise à niveau, suivez les instructions de la procédure de [mise à niveau vers une nouvelle version de Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
+Si vous avez un déploiement existant de Cloud Connector et que vous souhaitez mettre à niveau, suivez les instructions de la mise à niveau vers une [nouvelle version de Cloud Connector.](upgrade-to-a-new-version-of-cloud-connector.md)
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|PrepareOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> | Création de fichiers de configuration pour chaque étape de déploiement. Ce paramètre est uniquement fourni à des fins de résolution de problèmes.  <br/> |
-|ShowStepsOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Affichage des noms des étapes de déploiement uniquement. Ce paramètre est uniquement fourni à des fins de résolution de problèmes.  <br/> |
-|SkipExistingObjects  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ce paramètre doit être utilisé conjointement avec le paramètre Étapes. Ce paramètre est uniquement fourni à des fins de résolution de problèmes.  <br/> |
-|Étapes  <br/> |Facultatif  <br/> |System.Array  <br/> |Exécution des étapes de déploiement. Ce paramètre est uniquement fourni à des fins de résolution de problèmes.  <br/> |
-|Mise à niveau  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Mise à niveau du Cloud Connector existant vers la dernière version.  <br/> |
-|Mise à jour de toutes les informations  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Supprimez toutes les informations d’identification Cloud Connector dans le cache. Demandez à l’utilisateur de spécifier de nouvelles informations pour l’installation.  <br/> |
+|PrepareOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> | Générer des fichiers de configuration pour chaque étape de déploiement. Ce paramètre est uniquement pour la résolution des problèmes. <br/> |
+|ShowStepsOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Afficher uniquement les noms des étapes de déploiement. Ce paramètre est uniquement pour la résolution des problèmes.  <br/> |
+|SkipExistingObjects  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ce paramètre doit être utilisé conjointement avec le paramètre Steps. Ce paramètre est uniquement pour la résolution des problèmes.  <br/> |
+|Étapes  <br/> |Facultatif  <br/> |System.Array  <br/> |Exécutez les étapes de déploiement. Ce paramètre est uniquement pour la résolution des problèmes.  <br/> |
+|Mise à niveau  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Mettre à niveau le Cloud Connector existant vers la dernière version.  <br/> |
+|UpdateAllCredentials  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Supprimez toutes les informations d’identification Cloud Connector dans le cache. Invitez l’utilisateur à spécifier de nouvelles informations d’identification pour l’installation.  <br/> |
    
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Install-CcAppliance n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Install-CcAppliance n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun

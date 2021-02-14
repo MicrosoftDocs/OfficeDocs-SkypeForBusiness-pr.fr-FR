@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: L’applet de commande Reset-CcCACertificate réinstalle le serveur AD de service d’autorité de certification afin de créer un nouveau certificat de l’AC racine.
+description: La cmdlet Reset-CcCACertificate réinstalle le serveur AD du service d’autorité de certification pour créer un certificat d’autorité de certification racine.
 ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824250"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-L’applet de commande Reset-CcCACertificate réinstalle le serveur AD de service d’autorité de certification afin de créer un nouveau certificat de l’AC racine.
+La cmdlet Reset-CcCACertificate réinstalle le serveur AD du service d’autorité de certification pour créer un certificat d’autorité de certification racine.
   
 ```powershell
 Reset-CcCACertificate
@@ -37,7 +37,7 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant réinstalle le serveur AD de service d’autorité de certification afin de créer un nouveau certificat de l’AC racine.
+L’exemple suivant réinstalle le serveur AD du service d’autorité de certification pour créer un certificat d’autorité de certification racine :
   
 ```powershell
 Reset-CcCACertificate
@@ -46,16 +46,16 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Si le certificat de l’AC est compromis ou plus sécurisé, vous devez mettre à jour le certificat de l’AC racine ainsi que tous les certificats délivrés par l’AC racine. L’applet de commande Reset-CcCACertificate révoque tous les certificats, désinstalle et réinstalle l’autorité de certification puis nettoie tous les certificats liés à l’ancien service d’autorité de certification. 
+Si le certificat de l’ac racine est compromis ou n’est plus sécurisé, vous devez mettre à jour le certificat de l’ac racine et tous les certificats émis par l’ac racine. La cmdlet Reset-CcCACertificate révoque tous les certificats, désinstalle et réinstalle l’autorité de certification, puis nettoie tous les certificats liés à l’ancien service d’autorité de certification. 
   
-Pour plus d’informations, reportez-vous à la section « certificats d’autorité de certification ou certificats internes émis au SSFM, serveur de médiation et serveur Edge » est proche de la date d’expiration ou de la compromission» dans résolution des problèmes de déploiement de votre Cloud Connector.
+Pour plus d’informations, voir « Les certificats d’autorité de certification ou les certificats internes délivrés à CMS, au serveur de médiation et au serveur Edge sont sur le point d’expirer ou compromis » dans La résolution des problèmes de déploiement de Cloud Connector.
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Reset-CcCACertificate n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Reset-CcCACertificate n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun.
@@ -63,13 +63,13 @@ Aucun.
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Renouveler-CcCACertificate](renew-cccacertificate.md) Version 1.4.2 uniquement
+[Renew-CcCACertificate](renew-cccacertificate.md) Version 1.4.2 uniquement
   
-[Renouveler-CcServerCertificate](renew-ccservercertificate.md) Version 1.4.2 uniquement
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Version 1.4.2 uniquement
   
-[Update-CcCACertificate](update-cccacertificate.md) Version 2,0 et versions ultérieures
+[Update-CcCACertificate](update-cccacertificate.md) Version 2.0 et ultérieures
   
-[Renouveler-CcServerCertificate](renew-ccservercertificate.md) Version 2,0 et versions ultérieures
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Version 2.0 et ultérieures
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

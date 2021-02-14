@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Comment soupir un compte IP Relay pour le Canada.
+description: Recherchez un compte IP Relay pour le Canada.
 ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -28,30 +28,30 @@ ms.locfileid: "43778750"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Relais IP au Canada - inscription
 
-Pour obtenir un compte IP Relay configuré pour le Canada, complétez les informations figurant dans le tableau ci-dessous et envoyez-le par e-mail à [PTN@microsoft.com](mailto:ptn@microsoft.com).
+Pour configurer un compte relais IP pour le Canada, complétez les informations du tableau ci-dessous et envoyez-les par e-mail [à ptn@microsoft.com.](mailto:ptn@microsoft.com)
 
 |||
 |:-----|:-----|
-|Prénom & nom :||
-|Microsoft 365 ou le nom de domaine de l’organisation Office 365 : <br/>(Par exemple : Contoso.com)||
-|Numéro de téléphone de l’utilisateur Microsoft 365 ou Office 365 : <br/>Exemple : + 1 XXX XXX XXXX) ||
-|Mot de passe (entre 8 et 16 caractères) : ||
-|Adresse physique la plus probable <br/>au moment d’une urgence :||
-|Nom & numéro de rue :||
-|Appartement/suite :||
-|Urbains||
-|Province/état :||
-|Code postal :||
-|Numéro de téléphone :||
-|Adresse de messagerie Microsoft 365 ou Office 365 :||
+|Prénom & nom :||
+|Nom de domaine de l’organisation Microsoft 365 ou Office 365 : <br/>(Exemple : Contoso.com)||
+|Numéro de téléphone de l’utilisateur Microsoft 365 ou Office 365 : <br/>Exemple : +1 XXX XXX XXXX) ||
+|Mot de passe (8 à 16 caractères) : ||
+|Adresse physique la plus probable <br/>au moment d’une situation d’urgence :||
+|Numéro de rue & nom :||
+|Appartement / Suite :||
+|Ville :||
+|Région/État :||
+|Code postal / Code postal :||
+|Numéro de téléphone :||
+|Adresse e-mail Microsoft 365 ou Office 365 :||
 |||
 
 > [!NOTE]
-> L’adresse e-mail ci-dessus vous avertit si vous n’êtes pas connecté lorsque vous êtes en ligne. 
+> L’adresse de courrier ci-dessus reçoit les messages qui vous sont laissés si vous n’êtes pas en ligne lorsque quelqu’un vous appelle via un relais IP. 
 
-Lorsque votre compte est prêt (sous 24 heures de travail), nous vous enverrons un e-mail avec le nom d’utilisateur et le mot de passe. 
+Une fois votre compte prêt (dans les 24 heures), nous vous en utiliserons le nom d’utilisateur et le mot de passe par e-mail. 
 
 
-Pour en savoir plus, voir le [Guide de l’utilisateur sur le protocole IP Relay au Canada](ip-relay-canada-user-guide.md) . 
+Consultez ensuite le relais [IP au Canada - Guide de l’utilisateur](ip-relay-canada-user-guide.md) pour commencer. 
 
 

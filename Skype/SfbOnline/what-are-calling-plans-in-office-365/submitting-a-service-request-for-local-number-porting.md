@@ -31,7 +31,7 @@ ms.locfileid: "41769307"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Envoi d'une demande de service concernant le transfert d'un numéro local
 
-Si vous avez besoin de transférer plus de numéros de téléphone 999 (pour les utilisateurs ou les numéros de service, dont les numéros payants ou les numéros gratuits) dans Skype entreprise Online, reportez-vous à [la rubrique gestion des numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
+Si vous devez transférer plus de 999 numéros de téléphone (pour les utilisateurs ou les numéros de service gratuits ou gratuits) vers Skype Entreprise Online, consultez Gérer les numéros de téléphone pour votre [organisation.](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

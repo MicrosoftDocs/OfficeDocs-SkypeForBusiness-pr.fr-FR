@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: L’applet de commande Get-CcApplianceLogDirectory affiche l’annuaire actuel regroupant les journaux de l’appliance de la version Cloud Connector de Skype Entreprise.
+description: LGet-CcApplianceLogDirectory cmdlet affiche l’annuaire actuel dans lequel sont stockés les journaux d’une appliance de la version Cloud Connector de Skype Entreprise.
 ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41800824"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-L’applet de commande Get-CcApplianceLogDirectory affiche l’annuaire actuel regroupant les journaux de l’appliance de la version Cloud Connector de Skype Entreprise.
+LGet-CcApplianceLogDirectory cmdlet affiche l’annuaire actuel dans lequel sont stockés les journaux d’une appliance de la version Cloud Connector de Skype Entreprise.
   
-Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -39,7 +39,7 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant montre le dossier actuel dans lequel sont stockés les journaux de l’appliance actuelle du connecteur Cloud :
+L’exemple suivant montre le dossier actuel dans lequel les journaux de l’appliance actuelle de Cloud Connector sont stockés :
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -48,21 +48,21 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de connexion Get-CcApplianceLogDirectory affiche le répertoire actuel dans lequel se trouvent les journaux pour un appareil de connecteur Cloud. Le dossier par défaut est\%C:\Users UserProfile%\CloudConnector\ApplianceRoot\Logs. 
+LGet-CcApplianceLogDirectory cmdlet affiche le répertoire actuel dans lequel les journaux d’une appliance Cloud Connector sont stockés. Le dossier par défaut est C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs. 
   
-Vous pouvez modifier l’annuaire en utilisant l’applet de commande Set-CcApplianceDirectory.  
+Vous pouvez modifier le répertoire à l’aide de Set-CcApplianceDirectory cmdlet. 
   
-Remarque : Il n’existe aucune applet de commande qui change uniquement l’emplacement du dossier de journal sans modifier l’annuaire d’appliances.
+Remarque : aucune cmdlet ne modifie uniquement l’emplacement du dossier journal sans modifier le répertoire de l’appliance.
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Get-CcApplianceLogDirectory n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Get-CcApplianceLogDirectory n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Cette commande renvoie un chemin d’accès.
+Cette commande renvoie un chemin d’accès au fichier.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

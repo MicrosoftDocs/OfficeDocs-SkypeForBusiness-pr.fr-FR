@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres applications d’un site Cloud Connector.
+description: La cmdlet Get-CcSiteDirectory affiche le répertoire actuel dans lequel les fichiers de configuration au niveau du site sont stockés. Le dossier contient les fichiers d’installation vhD de base et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
 ms.openlocfilehash: 6722b66f6c71feec158adaf442f9e57ef9943c84
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41799864"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres applications d’un site Cloud Connector.
+La cmdlet Get-CcSiteDirectory affiche le répertoire actuel dans lequel les fichiers de configuration au niveau du site sont stockés. Le dossier contient les fichiers d’installation vhD de base et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
   
-Cette applet de commande s’applique à Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique à Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcSiteDirectory
@@ -39,7 +39,7 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant montre le dossier actuel dans lequel se trouvent les fichiers de configuration et d’ordinateurs virtuels des composants Cloud Connector :
+L’exemple suivant montre le dossier actuel dans lequel sont stockés les fichiers de configuration et de machines virtuelles des composants Cloud Connector :
   
 ```powershell
 Get-CcSiteDirectory
@@ -48,17 +48,17 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Pour fournir une affinité et une haute disponibilité de la passerelle, les appareils de connexion Cloud peuvent être combinés dans les sites. Les utilisateurs sont affectés à des sites au lieu de périphériques Cloud Connector. Chaque site possède un dossier partagé dans lequel sont conservés les fichiers d’installation de base de VHD et Cloud Connector. Les appareils utilisent ce dossier lors du déploiement. Le dossier par défaut est\%C:\Users UserProfile%\CloudConnector\SiteRoot. Vous pouvez modifier le chemin d’accès à l’aide de l’applet de commande Set-CcSiteDirectory.
+Pour fournir une affinité de passerelle et une haute disponibilité, les appliances Cloud Connector peuvent être combinées dans des sites. Les utilisateurs sont affectés à des sites au lieu d’appliances Cloud Connector. Chaque site possède un dossier partagé dans lequel sont stockés les fichiers d’installation de base de VHD et Cloud Connector. Les appliances utilisent ce dossier pendant le déploiement. Le dossier par défaut est C:\Users \% userprofile%\CloudConnector\SiteRoot. Vous pouvez modifier le chemin d’accès à l’aide Set-CcSiteDirectory cmdlet.
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Get-CcSiteDirectory n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Get-CcSiteDirectory n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Cette commande renvoie un chemin d’accès.
+Cette commande renvoie un chemin d’accès au fichier.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

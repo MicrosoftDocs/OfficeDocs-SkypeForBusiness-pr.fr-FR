@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: L’applet de connexion Enter-CcUpdate prépare le serveur hôte Cloud Connector Skype entreprise pour le processus de mise à jour en le plaçant en mode de maintenance. L’application arrête immédiatement tous les services, fin des appels en cours et rejette tout nouvel appel.
+description: LEnter-CcUpdate cmdlet prépare le serveur hôte Skype Entreprise, version Cloud Connector, au processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
 ms.openlocfilehash: 25d2fbc56bd4de6a08985de18c178d5a8f993492
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41802174"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
-L’applet de connexion Enter-CcUpdate prépare le serveur hôte Cloud Connector Skype entreprise pour le processus de mise à jour en le plaçant en mode de maintenance. L’application arrête immédiatement tous les services, fin des appels en cours et rejette tout nouvel appel.
+LEnter-CcUpdate cmdlet prépare le serveur hôte Skype Entreprise, version Cloud Connector, au processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
   
 ```powershell
 Enter-CcUpdate
@@ -35,9 +35,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant prépare l’appliance au processus de mise à jour en entrant en mode maintenance.
+L’exemple suivant prépare l’appliance pour le processus de mise à jour en entrant en mode maintenance :
   
 ```powershell
 Enter-CcUpdate 
@@ -46,21 +46,21 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Enter-CcUpdate arrête immédiatement tous les services mettant fin à des appels en cours et l’application refusera tout nouveau appel, qui sont transférés vers d’autres appareils de production. Vous devez vous assurer que les autres appareils de production ne disposent pas de capacités suffisantes pour gérer les appels à partir de l’appareil que vous préparez à mettre à jour.
+La cmdlet Enter-CcUpdate arrêtera immédiatement tous les services mettant fin aux appels en cours et l’appliance rejettera les nouveaux appels transférés vers d’autres appliances de production. Vous devez vous assurer que les appliances de production restantes ont une capacité suffisante pour gérer les appels provenant de l’appliance que vous préparez à mettre à jour.
   
-Le mode maintenance est utile si votre appliance possède une mise à jour automatique, par exemple, et si Microsoft possède un correctif d’intervention. Le mode maintenance est également utile si vous décidez d’interrompre les mises à jour automatiques mais que vous effectuez systématiquement des mises à jour manuelles.
+Le mode maintenance est utile si la mise à jour automatique de votre appliance est activée, par exemple, et que Microsoft libère un correctif logiciel critique. Le mode maintenance est également utile si vous décidez de désactiver les mises à jour automatiques, mais que vous effectuez des mises à jour manuelles de manière cohérente.
   
-Après l’installation des mises à jour, l’application peut être rétablie en mode de production en exécutant l’applet de passe Exit-CcUpdate.
+Après avoir installé les mises à jour, l’appliance peut revenir en mode production en exécutant Exit-CcUpdate cmdlet.
   
 > [!NOTE]
-> Si vous décidez de mettre à jour manuellement un appareil de connexion Cloud, vous devez le mettre à jour dans 60 jours après la publication de la prochaine version par Microsoft. Microsoft prend en charge la version précédemment publiée du Cloud Connector pour 60 jours après la sortie de la nouvelle version 
+> Si vous décidez de mettre à jour manuellement une appliance Cloud Connector, vous devez la mettre à jour dans les 60 jours suivant la publication de la version suivante par Microsoft. Microsoft prend en charge la version précédemment publiée de Cloud Connector pendant 60 jours après la publication de la nouvelle version. 
   
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Enter-CCUpdate n’accepte pas l’entrée redirigée.
+Aucun. La cmdlet Enter-CCUpdate n’accepte pas la saisie de données pipeline.
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
 Aucun 

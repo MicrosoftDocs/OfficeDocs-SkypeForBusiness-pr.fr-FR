@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Apprenez-en davantage sur la numérotation des numéros sans frais en Argentine, y compris la disponibilité, la disponibilité des lignes câblées/fixes et du réseau mobile, et les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits en Argentine, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 02a639ddd0d3008fa1f63278665b09eb95854fe9
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,20 +33,20 @@ ms.locfileid: "43140543"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Restrictions de numérotation gratuit en Argentine
 
-[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
+[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
-|Format (s) de numérotation  <br/> |0800 XXX XXXX  <br/> |
-|Code ISO pays/région  <br/> |AR  <br/> |
-|Île/territoire couvert  <br/> |Non applicable  <br/> |
+|Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Format(s) de numérotation  <br/> |0800 XXX XXXX  <br/> |
+|Code ISO de pays/région  <br/> |AR  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de ligne filaire/fixe  <br/> |Pas d’accès à partir de Telmex (et de filiales)  <br/> |
+|Disponibilité des lignes câblés/fixes  <br/> |Aucun accès de Telmex (et de filiales)  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

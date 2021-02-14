@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
-description: "L'applet de commande Export-CcRootCertificate exporte le certificat de l'AC racine dans un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise. "
+description: La cmdlet Export-CcRootCertificate exporte le certificat d’ac racine vers un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise.
 ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41800914"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
-L'applet de commande Export-CcRootCertificate exporte le certificat de l'AC racine dans un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise.  
+La cmdlet Export-CcRootCertificate exporte le certificat d’ac racine vers un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise. 
   
 ```powershell
 Export-CcRootCertificate [[-Path] <string>]
@@ -31,9 +31,9 @@ Export-CcRootCertificate [[-Path] <string>]
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L'exemple suivant définit le paramètre Path en tant que chemin de répertoire, non chemin de fichier. Il génère le fichier c:\test\CCERootCertificates.p7b.
+L’exemple suivant définit le paramètre Path en tant que chemin d’accès au répertoire, et non en tant que chemin d’accès de fichier. Il génère le fichier c:\test\CCERootCertificates.p7b.
   
 ```powershell
 Export-CcRootCertificate -Path "C:\test" 
@@ -42,24 +42,24 @@ Export-CcRootCertificate -Path "C:\test"
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L'applet de commande Export-CcRootCertificate permet d'enregistrer les certificats racine et intermédiaires sur le chemin de fichier. Ceci peut être utile en cas de récupération d’urgence.  
+LExport-CcRootCertificate cmdlet vous permet d’enregistrer les certificats racine et intermédiaires dans un chemin d’accès au fichier. Cela peut être utile en cas de scénario de récupération d’urgence. 
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| Path  <br/> |Obligatoire  <br/> |System.String  <br/> |Chemin de fichier dans lequel le certificat est stocké.   <br/> |
+|Path  <br/> |Requis  <br/> |System.String  <br/> |Chemin d’accès au fichier où le certificat sera stocké.  <br/> |
    
-## <a name="input-types"></a>Types d’entrées
+## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun. L'applet de commande Export-CcRootCertificate n'accepte pas l'entrée redirigée.  
+Aucun. La cmdlet Export-CcRootCertificate n’accepte pas la saisie de données pipeline. 
   
-## <a name="return-types"></a>Types de retours
+## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucune
+Aucun
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

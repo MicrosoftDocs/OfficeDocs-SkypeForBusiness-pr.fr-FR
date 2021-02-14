@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: 'Apprenez à faire si votre opérateur n’est pas répertorié dans Skype entreprise. '
+description: 'Découvrez ce que vous pouvez faire si votre opérateur téléphonique n’est pas répertorié dans Skype Entreprise. '
 ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -31,13 +31,13 @@ ms.locfileid: "41769287"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Qu’en est-il si mon opérateur de téléphonie n’est pas répertorié en tant qu’opérateur source ?
 
-C’est un peu plus confus lorsque vous constatez que le nom de votre transporteur ne figure pas dans la liste. Dans la plupart des cas, si le fournisseur ou opérateur de services est différent, il est probable que les numéros de téléphone que vous transférez appartiennent à un autre fournisseur ou opérateur de services. Il peut arriver que le fournisseur de services ou l’opérateur qui est répertorié puisse être différent de votre fournisseur de services actuel car votre fournisseur de services actuel peut travailler avec un fournisseur de services tiers. 
+Cela peut être quelque peu déconcertant de constater que le nom de votre opérateur n’est pas répertorié. Dans la plupart des cas, si le fournisseur de services ou l’opérateur est différent, il y a des chances que les numéros de téléphone que vous transférez soient la propriété d’un autre fournisseur de services ou opérateur. Il peut parfois être différent de votre fournisseur de services ou opérateur répertorié, car il est possible que votre fournisseur de services actuel travaille avec un fournisseur de services tiers. 
   
-Par exemple :
+Exemple :
   
-- Si vous transférez un numéro de votre opérateur Skype entreprise, le niveau3 peut apparaître.
+- Si vous portez un numéro à partir de Skype Entreprise en tant qu’opérateur, le niveau 3 peut être répertorié.
     
-  **Pour obtenir des instructions détaillées complètes, reportez-vous à la section [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
+  **Pour obtenir des instructions détaillées complètes, consultez [Transférer des numéros de téléphone dans Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

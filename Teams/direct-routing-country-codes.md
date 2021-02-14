@@ -1,5 +1,5 @@
 ---
-title: Indicatif pays de routage direct
+title: Codes de pays de routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lisez cet article pour rechercher des codes de pays de chemin d’accès multimédia pour le routage direct et sélectionner la trajectoire de média optimale.
+description: Lisez cet article pour identifier les codes de pays de chemin de médias pour le routage direct afin de sélectionner le chemin de médias optimal.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
@@ -24,274 +24,274 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43904806"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Itinéraires directs du pays
+# <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
 
-Lors du choix d’un chemin d’accès de routage pour le média, le routage directe par défaut affecte toujours un centre de contenus en fonction de l’adresse IP publique du contrôleur de bordure de session (SBC) et sélectionne toujours le chemin le plus proche du centre de médias SBC.
+Lorsque vous choisissez un itinéraire de routage pour le média, le routage direct affecte toujours par défaut un centre de données basé sur l’adresse IP publique du contrôleur de session en bordure (SBC), et sélectionne toujours le chemin le plus proche du centre de données SBC.
 
-Toutefois, dans certains cas, il est possible que le chemin multimédia par défaut ne soit pas le chemin optimal pour le média. par exemple, une adresse IP publique d’une plage américaine peut être affectée à une SBC située en Europe. 
+Toutefois, dans certains cas, le chemin de médias par défaut peut ne pas être le chemin multimédia optimal . Par exemple, une adresse IP publique provenant d’une plage aux États-Unis peut être affectée à unbc SBC situé en Europe. 
 
-À l’aide du paramètre-MediaRelayRoutingLocationOverride avec les applets de requête New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway, vous pouvez spécifier la région préférée pour le trafic multimédia. Par exemple, la commande suivante spécifie que la région préférée est Allemagne :
+En utilisant le paramètre -MediaRelayRoutingLocationOverride avec les cmdlets New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway>, vous pouvez spécifier la région préférée pour le trafic de médias. Par exemple, la commande suivante indique que la région préférée est Allemagne :
 
-Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationOverride DE 
+Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Notez que Microsoft recommande uniquement de définir ce paramètre si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de médias pour le chemin d’accès multimédia n’utilise pas le chemin le plus proche du centre de média SBC. 
+Notez que Microsoft recommande de définir ce paramètre uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin de médias n’utilise pas le chemin le plus proche du centre de données SBC. 
  
-## <a name="country-code-reference-table"></a>Tableau de référence de code pays
+## <a name="country-code-reference-table"></a>Table de référence des codes de pays
 
-Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaRelayRoutingLocationOverride :
+Le tableau suivant indique les valeurs de code de pays pour le paramètre -MediaRelayRoutingLocationOverride :
 
-| Pays         | Codage 
+| Pays         | Code 
 |-----------------|--------------------|
 | Afghanistan     | AF |
-| Îles Alanes   | AX100 |
-| Albanie         | & |
+| Îles Aland   | AX |
+| Albanie         | AL |
 | Algérie         | DZ |
-| Samoa américaines  | PLUS |
+| Samoa américaines  | AS |
 | Andorre         | AD |
 | Angola          | AO |
-| Anguilla        | Aï |
-| Antarctique      | CAPTURE | 
-| Antigua-et-Barbuda | GA |
+| Anguilla        | AI |
+| Antarctique      | AQ | 
+| Antigua-et-Barbuda | INSER |
 | Argentine       | AR |
-| Arménie         | 16H00 |
+| Arménie         | AM |
 | Aruba           | AW |
 | Australie       | AU |
-| Autriche         | DÈS |
+| Autriche         | AT |
 | Azerbaïdjan      | AZ |
 | Bahamas         | BS |
-| Bahreïn         | STATU |
-| Bangladesh      | Ray |
-| Barbade        | CONSTRUCTION |
+| Bahreïn         | SO |
+| Bangladesh      | BD |
+| Barbade        | BB |
 | Bélarus         | BY |
 | Belgique         | BE |
 | Belize          | BZ |
 | Bénin           | BJ |
-| Bermudes         | BM |
+| Bermudes         | MBY |
 | Bhoutan          | BT |
-| Bolivie         | OÎTE |
+| Bolivie         | BO |
 | Bonaire         | BQ |
 | Bosnie-Herzégovine | BA |
-| Botswana        | POIDS |
-| Île Bouvet   | BV |
+| Botswana        | NB |
+| Île Bouland   | BV |
 | Brésil          | BR |
-| Territoires britanniques de l’océan Indien | IO |
-| Iles Vierges britanniques | VG |
+| Territoire britannique de l’océan Indien | IO |
+| Îles Vierges britanniques | VG |
 | Brunei          | BN |
 | Bulgarie        | BG |
 | Burkina Faso    | BF |
-| Burundi         | MENSUEL |
-| Cabo-Verde      | VC |
+| Burundi         | BI |
+| Cabo Verde      | VC |
 | Cambodge        | KH |
 | Cameroun        | CM |
 | Canada          | CA |
 | Îles Cayman  | KY |
-| République centrafricaine | FC |
-| Tchad            | ÉQUIPEMENTS |
+| République centrafricaine | CF |
+| Tchad            | TD |
 | Chili           | CL |
 | Chine           | CN |
-| Christmas (île) | CX |
-| Cocos-Keeling (îles) | CP |
+| Île Christmas | CX |
+| Îles Cocos | CC |
 | Colombie        | CO |
-| Comores         | ACCUEILLANT |
+| Comores         | KM |
 | Congo           | CG |
 | Congo (RDC)     | CD |
 | Îles Cook    | CK |
-| Costa Rica      | DM |
+| Costa Rica      | CR |
 | Côte d’Ivoire   | CI |
 | Croatie         | HR |
 | Cuba            | CU |
-| Curaçao (         | ACTUELLE |
+| Curaçao         | CW |
 | Chypre          | CY |
-| Czechia         | CZ |
+| République tchèque         | CZ |
 | Danemark         | DK |
-| Djibouti        | LECTEUR |
-| Dominique        | GD |
-| République dominicaine | ÊTES |
+| Djibouti        | Z |
+| Dominique        | DM |
+| République dominicaine | DO |
 | Équateur         | EC |
 | Égypte           | EG |
-| Salvador     | POURCENTAGE |
+| Salvador     | SV |
 | Guinée Équatoriale | GQ |
-| Érythrée         | QU’er |
+| Érythrée         | ER |
 | Estonie         | EE |
-| Eswatini        | SZ |
-| Éthiopie        | COMPTABILITÉ |
-| Malouines (îles) | ÉTRANGÈRE |
-| Îles Féroé   | DE |
+| Eswa qu’on ne peut pas faire        | SZ |
+| Éthiopie        | ET |
+| Malouines (îles) | FK |
+| Îles Féroé   | FO |
 | Fidji            | FJ |
 | Finlande         | FI |
 | France          | FR |
 | Guyane française   | GF |
 | Polynésie française | PF |
-| Territoires français du Sud | TF |
-| Gabonaise           | GA |
-| Gambie          | GÉNÉTIQUE |
+| Terres australes françaises | TF |
+| Gabon           | GA |
+| Gambie          | GM |
 | Géorgie         | GE |
 | Allemagne         | DE |
-| Ghana           | GH |
-| Gibraltar       | GASTRO |
+| Ghana           | GAND |
+| Gibraltar       | GI |
 | Grèce          | GR |
-| Groenland       | OpenGL |
+| Groenland       | GL |
 | Grenade         | GD |
-| Guadeloupe      | CÂBLES |
-| Guam            | G |
+| Guadeloupe      | GP |
+| Guam            | GU |
 | Guatemala       | GT |
-| Guernesey        | GG |
-| Guinée          | NC |
-| Guinée-Bissau   | Université |
+| Guernsey        | GG |
+| Guinée          | GN |
+| Guinea-Bissau   | GW |
 | Guyane          | GY |
 | Haïti           | Salut |
 | Heard et McDonald (îles) | HM |
 | Honduras        | HN |
 | Hong Kong (R.A.S)   | HK |
 | Hongrie         | HU |
-| Islande         | ASSOCIÉ |
-| Inde           | COMPLÉMENTAIRE |
+| Islande         | EST |
+| Inde           | IN |
 | Indonésie       | ID |
-| Iran            | RÉCEPTEUR |
-| Irak            | MODULES |
+| Iran            | IR |
+| Irak            | IQ |
 | Irlande         | IE |
 | Île de Man     | MI |
 | Israël          | IL |
-| Italie           | NE |
+| Italie           | IT |
 | Jamaïque         | JM |
 | Jan Mayen       | XJ |
 | Japon           | JP |
-| T          | Djé |
-| Jordanie          | Patrice |
+| Jersey          | JE |
+| Jordanie          | JO |
 | Kazakhstan      | KZ |
 | Kenya           | KE |
-| Kiribati        | KI |
+| Kersti        | KI |
 | Corée           | KR |
-| Kosovo          | XK |
-| Koweït          | KILOWATT |
-| Kirghizstan      | MAXIMUM |
-| Laos            | Kanna |
-| Lettonie          | TENSION |
-| Liban         | G |
-| Lesotho         | ! |
-| Libéria         | GD |
+| Monde          | XK |
+| Koweït          | KW |
+| Kirghizstan      | KG |
+| Laos            | LA |
+| Lettonie          | LV |
+| Liban         | LB |
+| Lesotho         | LS |
+| Libéria         | LR |
 | Libye           | LY |
 | Liechtenstein   | LI |
 | Lituanie       | LT |
 | Luxembourg      | LU |
-| Macao (R.A.S.)       | MO |
-| Madagascar      | MG |
-| Malawi          | MW |
+| Macao (R.A.S.       | MO |
+| Madagascar      | Z |
+| Malawi          | Z |
 | Malaisie        | MY |
-| Maldives        | VM |
+| Maldives        | MV |
 | Mali            | ML |
-| Malte           | COMPLÉMENTAIRE |
+| Malte           | MT |
 | Îles Marshall | MH |
 | Martinique      | MQ |
-| Mauritanie      | Monsieur |
+| Algérie      | MR |
 | Maurice       | MU |
 | Mayotte         | YT |
 | Mexique          | MX |
 | Micronésie      | FM |
 | Moldova         | MD |
 | Monaco          | MC |
-| Mongolie        | PORTABLE |
-| Monténégro      | RECEVOIR |
-| Montserrat      | SM |
-| Maroc         | TÉLÉPHONIQUE |
+| Mongolie        | MN |
+| Monténégro      | ME |
+| Montserrat      | MS |
+| Maroc         | MA |
 | Mozambique      | MZ |
-| Myanmar         | HAUTEUR |
+| Myanmar         | MM |
 | Namibie         | S.O. |
 | Nauru           | NR |
-| Népal           | VERROU |
+| Népal           | NP |
 | Pays-Bas     | NL |
 | Nouvelle-Calédonie   | NC |
-| Nouvelle-Zélande     | EXAMINER |
-| Nicaragua       | NICKEL |
-| Niger           | NÉ |
-| Nigéria         | GN |
+| Nouvelle-Zélande     | NZ |
+| Nicaragua       | NI |
+| Niger           | NE |
+| Nigéria         | NG |
 | Niue            | NU |
-| Île Norfolk  | G |
+| ÎleSQuel  | NF |
 | Corée du Nord     | KP |
 | Macédoine du Nord | MK |
-| Îles Mariannes du Nord | VERROU |
-| Norvège          | AUCUN |
+| Îles Mariannes du Nord | NP |
+| Norvège          | NO |
 | Oman            | OM |
-| Pakistan        | PRIMAIRE |
-| Palaos           | P |
-| Autorité palestinienne | RECOURIR |
+| Pakistan        | PK |
+| Palaos           | PW |
+| Autorité palestinienne | PS |
 | Panama          | PA |
-| Papouasie-Nouvelle-Guinée | PRÉC |
+| Papouasie-Nouvelle-Guinée | PG |
 | Paraguay        | PY |
 | Pérou            | PE |
 | Philippines     | PH |
-| Îles Pitcairn | PN+1 |
+| Pitcairn (îles) | PN |
 | Pologne          | PL |
 | Portugal        | PT |
 | Porto Rico     | PR |
 | Qatar           | QA |
-| La Réunion         | INSCRIRE |
+| La Réunion         | RE |
 | Roumanie         | RO |
-| Russie          | Arabie |
-| Rwanda          | INSÉRÉ |
-| Saba            | REMPLACÉ |
-| Saint-Barthelemy | BL |
+| Russie          | RU |
+| Rwanda          | RW |
+| Saba            | XS |
+| SaintSélecmy | BL |
 | Saint-Christophe-et-Niévès | KN |
-| Sainte-Lucie     | EUROS |
-| Saint-Martin    | MF |
-| Saint-Pierre-et-Miquelon | 18H |
+| Sainte-Lucie     | LC |
+| Saint Martin    | PPXT |
+| Saint-Pierre-et-Miquelon | PM |
 | Saint-Vincent-et-les-Grenadines | VC |
-| Hiver           | NOMBRES |
+| Samoa           | WS |
 | Saint-Marin      | SM |
-| Sao Tomé-et-principe | ÈRE |
+| São Tome et Principe | ST |
 | Arabie Saoudite    | SA |
 | Sénégal         | SN |
 | Serbie          | RS |
-| Seychelles      | GAMME |
-| Sierra Leone    | GRESSIF | 
+| Seychelles      | SC |
+| Sierra Leone    | SL | 
 | Singapour       | SG |
-| Saint-Eustache  | CHAMP |
-| Saint--Maarten    | SX |
+| Sint Eustatius  | XE |
+| Saint-Maarten    | SX |
 | Slovaquie        | SK |
-| Slovénie        | GRESSIF |
-| Îles Salomon | Synth |
-| Somalie         | AFIN |
+| Slovénie        | SL |
+| Îles Islands | SB |
+| Somalie         | SO |
 | Afrique du Sud    | ZA |
-| Géorgie du Sud-et-les îles Sandwich du Sud | GS |
-| Soudan du Sud     | SÉCURITÉ |
+| Géorgie du Sud et îles Sandwich du Sud | GS |
+| Soudan du Sud     | SS |
 | Espagne           | ES |
 | Sri Lanka       | LK |
-| Sainte-Hélène, ascension et Tristan da Cunha | & |
-| Soudan           | ARCHITECTURE |
-| Suriname        | TOUCHES SR |
+| Sainte-Hélène, Ascension, Tristan da Cunha | SH |
+| Soudan           | SD |
+| Suriname        | SR |
 | Svalbard        | SJ |
 | Suède          | SE |
-| Suisse     | CHAPITRE |
+| Suisse     | CH |
 | Syrie           | SY |
 | Taïwan          | TW |
 | Tadjikistan      | TJ |
 | Tanzanie        | TZ |
 | Thaïlande        | TH |
-| Timor-oriental     | TL |
-| Togo            | DÉCRITE |
-| Îles Tokelau         | TK |
+| Timor-Leste     | TL |
+| Togo            | TG |
+| Tokelau         | TK |
 | Tonga           | À |
-| Trinité-et-Tobago | IT |
+| Trinité-et-Tobago | TT |
 | Tunisie         | TN |
 | Turquie          | TR |
-| Turkménistan    | TRADUCTION |
+| Turkménistan    | TM |
 | Turks et Caicos (îles) | TC |
-| Îles Tuvalu          | TÉLÉVISEUR |
-| Îles éloignées des États-Unis | UM |
-| Iles Vierges américaines | VI |
-| Ouganda          | G |
-| Ukraine         | AGENT |
+| Tuvalu          | Téléviseur |
+| Îles sortantes des États-Unis | UM |
+| Îles Vierges des États-Unis | VI |
+| Ouganda          | UG |
+| Ukraine         | UA |
 | Émirats arabes unis | AE |
 | Royaume-Uni  | GB |
-| États-Unis   | Nous |
+| États-Unis   | États-Unis |
 | Uruguay         | UY |
 | Ouzbékistan      | UZ |
-| Vanuatu         | VOU |
-| Vatican    | V |
+| Vanuatu         | VU |
+| Cité du Vatican    | VA |
 | Venezuela       | VE |
 | Vietnam         | VN |
 | Wallis-et-Futuna | WF |
-| Yémen           | Yé |
+| Yémen           | YE |
 | Zambie          | ZM |
-| Zimbabwe        | ZW |
+| Zimbabwe        | SYSTÈME D’ÉQUIPES |
 
