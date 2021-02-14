@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808524"
 ---
-# <a name="select-a-region-link"></a><span data-ttu-id="b019e-104">Sélectionner un lien de région</span><span class="sxs-lookup"><span data-stu-id="b019e-104">Select a Region Link</span></span>
+# <a name="select-a-region-link"></a><span data-ttu-id="61092-104">Sélectionner un lien de région</span><span class="sxs-lookup"><span data-stu-id="61092-104">Select a Region Link</span></span>
  
-<span data-ttu-id="b019e-105">Utilisez la **boîte de dialogue Lien** de région pour rechercher les liens de région disponibles dans votre environnement.</span><span class="sxs-lookup"><span data-stu-id="b019e-105">Use the **Region Link** dialog box to find region links available in your environment.</span></span> <span data-ttu-id="b019e-106">Pour utiliser un lien de région existant, cliquez sur un lien de région dans la liste, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b019e-106">To use an existing region link, click a region link in the list and then click **OK**.</span></span>
+<span data-ttu-id="61092-105">Utilisez la **boîte de dialogue Lien** de région pour rechercher les liens de région disponibles dans votre environnement.</span><span class="sxs-lookup"><span data-stu-id="61092-105">Use the **Region Link** dialog box to find region links available in your environment.</span></span> <span data-ttu-id="61092-106">Pour utiliser un lien de région existant, cliquez sur un lien de région dans la liste, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="61092-106">To use an existing region link, click a region link in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b019e-107">Pour récupérer tous les liens de régions disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="b019e-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="61092-107">Pour récupérer tous les liens de régions disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="61092-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   

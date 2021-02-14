@@ -23,22 +23,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810514"
 ---
-# <a name="edge-network-planning-tool"></a><span data-ttu-id="c3ee4-106">Réseau Edge (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="c3ee4-106">Edge Network (Planning Tool)</span></span>
+# <a name="edge-network-planning-tool"></a><span data-ttu-id="38eca-106">Réseau Edge (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="38eca-106">Edge Network (Planning Tool)</span></span>
  
-<span data-ttu-id="c3ee4-107">La plupart des composants Edge sont déployés dans un réseau de périmètre.</span><span class="sxs-lookup"><span data-stu-id="c3ee4-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="c3ee4-108">Les composants suivants font la topologie Edge du réseau de périmètre.</span><span class="sxs-lookup"><span data-stu-id="c3ee4-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="c3ee4-109">Sauf remarque, les composants font partie des scénarios de serveur Edge dans Skype Entreprise [Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouve dans le réseau de périmètre.</span><span class="sxs-lookup"><span data-stu-id="c3ee4-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="c3ee4-110">Ces composants de périphérie sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="c3ee4-110">Edge components include the following:</span></span>
+<span data-ttu-id="38eca-107">La plupart des composants Edge sont déployés dans un réseau de périmètre.</span><span class="sxs-lookup"><span data-stu-id="38eca-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="38eca-108">Les composants suivants font la topologie Edge du réseau de périmètre.</span><span class="sxs-lookup"><span data-stu-id="38eca-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="38eca-109">Sauf remarque, les composants font partie des scénarios de serveur Edge dans Skype Entreprise [Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouve dans le réseau de périmètre.</span><span class="sxs-lookup"><span data-stu-id="38eca-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="38eca-110">Ces composants de périphérie sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="38eca-110">Edge components include the following:</span></span>
   
-- <span data-ttu-id="c3ee4-111">Serveur(s) Edge</span><span class="sxs-lookup"><span data-stu-id="c3ee4-111">Edge Server(s)</span></span>
+- <span data-ttu-id="38eca-111">Serveur(s) Edge</span><span class="sxs-lookup"><span data-stu-id="38eca-111">Edge Server(s)</span></span>
     
-- <span data-ttu-id="c3ee4-112">Proxy inverse</span><span class="sxs-lookup"><span data-stu-id="c3ee4-112">Reverse proxy</span></span>
+- <span data-ttu-id="38eca-112">Proxy inverse</span><span class="sxs-lookup"><span data-stu-id="38eca-112">Reverse proxy</span></span>
     
-- <span data-ttu-id="c3ee4-113">Pare-feu</span><span class="sxs-lookup"><span data-stu-id="c3ee4-113">Firewall</span></span>
+- <span data-ttu-id="38eca-113">Pare-feu</span><span class="sxs-lookup"><span data-stu-id="38eca-113">Firewall</span></span>
     
-- <span data-ttu-id="c3ee4-114">Directeurs (facultatifs et logiquement situés sur le réseau interne)</span><span class="sxs-lookup"><span data-stu-id="c3ee4-114">Directors (optional, and logically located on the internal network)</span></span>
+- <span data-ttu-id="38eca-114">Directeurs (facultatifs et logiquement situés sur le réseau interne)</span><span class="sxs-lookup"><span data-stu-id="38eca-114">Directors (optional, and logically located on the internal network)</span></span>
     
-- <span data-ttu-id="c3ee4-115">Équilibrage de la charge pour les topologies Edge mises à l’échelle (avec charge DNS équilibrée ou un programme d’équilibrage de la charge matérielle)</span><span class="sxs-lookup"><span data-stu-id="c3ee4-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
+- <span data-ttu-id="38eca-115">Équilibrage de la charge pour les topologies Edge mises à l’échelle (avec charge DNS équilibrée ou un programme d’équilibrage de la charge matérielle)</span><span class="sxs-lookup"><span data-stu-id="38eca-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c3ee4-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c3ee4-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38eca-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="38eca-116">See also</span></span>
 
-[<span data-ttu-id="c3ee4-117">Planifier les déploiements de serveurs Edge dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="c3ee4-117">Plan for Edge Server deployments in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[<span data-ttu-id="38eca-117">Planifier les déploiements de serveurs Edge dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="38eca-117">Plan for Edge Server deployments in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[<span data-ttu-id="c3ee4-118">Système de serveur Edge requis dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="c3ee4-118">Edge Server system requirements in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[<span data-ttu-id="38eca-118">Système de serveur Edge requis dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="38eca-118">Edge Server system requirements in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

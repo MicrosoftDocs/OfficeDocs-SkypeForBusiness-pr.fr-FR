@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808484"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="95c4c-104">Configurer un site réseau</span><span class="sxs-lookup"><span data-stu-id="95c4c-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="1adb0-104">Configurer un site réseau</span><span class="sxs-lookup"><span data-stu-id="1adb0-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="95c4c-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="95c4c-105">What do you want to do?</span></span> <span data-ttu-id="95c4c-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="95c4c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1adb0-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="1adb0-105">What do you want to do?</span></span> <span data-ttu-id="1adb0-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="1adb0-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="95c4c-107">Configuration des sites réseau</span><span class="sxs-lookup"><span data-stu-id="95c4c-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="1adb0-107">Configuration des sites réseau</span><span class="sxs-lookup"><span data-stu-id="1adb0-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

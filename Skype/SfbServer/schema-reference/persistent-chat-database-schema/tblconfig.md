@@ -20,22 +20,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809734"
 ---
-# <a name="tblconfig"></a><span data-ttu-id="42d8b-103">tblConfig</span><span class="sxs-lookup"><span data-stu-id="42d8b-103">tblConfig</span></span>
+# <a name="tblconfig"></a><span data-ttu-id="d3d3e-103">tblConfig</span><span class="sxs-lookup"><span data-stu-id="d3d3e-103">tblConfig</span></span>
  
-<span data-ttu-id="42d8b-104">tblConfig contient une configuration non pris en compte du serveur de conversation permanente, sur une ligne.</span><span class="sxs-lookup"><span data-stu-id="42d8b-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
+<span data-ttu-id="d3d3e-104">tblConfig contient une configuration non pris en compte du serveur de conversation permanente, sur une ligne.</span><span class="sxs-lookup"><span data-stu-id="d3d3e-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
   
-<span data-ttu-id="42d8b-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="42d8b-105">**Columns**</span></span>
+<span data-ttu-id="d3d3e-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-105">**Columns**</span></span>
 
-|<span data-ttu-id="42d8b-106">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="42d8b-106">**Column**</span></span>|<span data-ttu-id="42d8b-107">**Type**</span><span class="sxs-lookup"><span data-stu-id="42d8b-107">**Type**</span></span>|<span data-ttu-id="42d8b-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="42d8b-108">**Description**</span></span>|
+|<span data-ttu-id="d3d3e-106">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-106">**Column**</span></span>|<span data-ttu-id="d3d3e-107">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-107">**Type**</span></span>|<span data-ttu-id="d3d3e-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="42d8b-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="42d8b-109">configLabel</span></span>  <br/> |<span data-ttu-id="42d8b-110">nvarchar (255), non null</span><span class="sxs-lookup"><span data-stu-id="42d8b-110">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="42d8b-111">Contient « pool ».</span><span class="sxs-lookup"><span data-stu-id="42d8b-111">Contains "pool."</span></span>  <br/> |
-|<span data-ttu-id="42d8b-112">configContent</span><span class="sxs-lookup"><span data-stu-id="42d8b-112">configContent</span></span>  <br/> |<span data-ttu-id="42d8b-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="42d8b-113">nvarchar (max)</span></span>  <br/> |<span data-ttu-id="42d8b-114">Contenu de configuration.</span><span class="sxs-lookup"><span data-stu-id="42d8b-114">Configuration content.</span></span>  <br/> |
-|<span data-ttu-id="42d8b-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="42d8b-115">configPoolID</span></span>  <br/> |<span data-ttu-id="42d8b-116">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="42d8b-116">GUID, not null</span></span>  <br/> |<span data-ttu-id="42d8b-117">ID unique de l’instance de base de données.</span><span class="sxs-lookup"><span data-stu-id="42d8b-117">Unique ID of the database instance.</span></span>  <br/> |
+|<span data-ttu-id="d3d3e-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="d3d3e-109">configLabel</span></span>  <br/> |<span data-ttu-id="d3d3e-110">nvarchar (255), non null</span><span class="sxs-lookup"><span data-stu-id="d3d3e-110">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="d3d3e-111">Contient « pool ».</span><span class="sxs-lookup"><span data-stu-id="d3d3e-111">Contains "pool."</span></span>  <br/> |
+|<span data-ttu-id="d3d3e-112">configContent</span><span class="sxs-lookup"><span data-stu-id="d3d3e-112">configContent</span></span>  <br/> |<span data-ttu-id="d3d3e-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="d3d3e-113">nvarchar (max)</span></span>  <br/> |<span data-ttu-id="d3d3e-114">Contenu de configuration.</span><span class="sxs-lookup"><span data-stu-id="d3d3e-114">Configuration content.</span></span>  <br/> |
+|<span data-ttu-id="d3d3e-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="d3d3e-115">configPoolID</span></span>  <br/> |<span data-ttu-id="d3d3e-116">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="d3d3e-116">GUID, not null</span></span>  <br/> |<span data-ttu-id="d3d3e-117">ID unique de l’instance de base de données.</span><span class="sxs-lookup"><span data-stu-id="d3d3e-117">Unique ID of the database instance.</span></span>  <br/> |
    
-<span data-ttu-id="42d8b-118">**Clé**</span><span class="sxs-lookup"><span data-stu-id="42d8b-118">**Key**</span></span>
+<span data-ttu-id="d3d3e-118">**Clé**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-118">**Key**</span></span>
 
-|<span data-ttu-id="42d8b-119">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="42d8b-119">**Column**</span></span>|<span data-ttu-id="42d8b-120">**Description**</span><span class="sxs-lookup"><span data-stu-id="42d8b-120">**Description**</span></span>|
+|<span data-ttu-id="d3d3e-119">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-119">**Column**</span></span>|<span data-ttu-id="d3d3e-120">**Description**</span><span class="sxs-lookup"><span data-stu-id="d3d3e-120">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="42d8b-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="42d8b-121">configLabel</span></span>  <br/> |<span data-ttu-id="42d8b-122">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="42d8b-122">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="d3d3e-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="d3d3e-121">configLabel</span></span>  <br/> |<span data-ttu-id="d3d3e-122">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="d3d3e-122">Primary key.</span></span>  <br/> |
    
 

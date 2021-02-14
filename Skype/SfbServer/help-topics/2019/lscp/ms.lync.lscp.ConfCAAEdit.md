@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808704"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="9c69b-104">Numéro d’accès entrant : création d’un nouveau ou modification d’un numéro existant</span><span class="sxs-lookup"><span data-stu-id="9c69b-104">Dial-in Access Number: Create New or Edit Existing</span></span>
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="92686-104">Numéro d’accès entrant : création d’un nouveau ou modification d’un numéro existant</span><span class="sxs-lookup"><span data-stu-id="92686-104">Dial-in Access Number: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="9c69b-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="9c69b-105">What do you want to do?</span></span> <span data-ttu-id="9c69b-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="9c69b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="92686-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="92686-105">What do you want to do?</span></span> <span data-ttu-id="92686-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="92686-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="9c69b-107">Création ou modification d’un numéro d’accès aux conférences téléphoniques</span><span class="sxs-lookup"><span data-stu-id="9c69b-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="92686-107">Création ou modification d’un numéro d’accès aux conférences téléphoniques</span><span class="sxs-lookup"><span data-stu-id="92686-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="9c69b-108">Supprimer un numéro d’accès aux conférences téléphoniques</span><span class="sxs-lookup"><span data-stu-id="9c69b-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="92686-108">Supprimer un numéro d’accès aux conférences téléphoniques</span><span class="sxs-lookup"><span data-stu-id="92686-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 
