@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815364"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="a285a-104">Domaines fédérés</span><span class="sxs-lookup"><span data-stu-id="a285a-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="cde74-104">Domaines fédérés</span><span class="sxs-lookup"><span data-stu-id="cde74-104">Federated Domains</span></span>
 
-<span data-ttu-id="a285a-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="a285a-105">What do you want to do?</span></span> <span data-ttu-id="a285a-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="a285a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cde74-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="cde74-105">What do you want to do?</span></span> <span data-ttu-id="cde74-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="cde74-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a285a-107">Configurer l’accès pour les partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="a285a-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="cde74-107">Configurer l’accès pour les partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="cde74-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="a285a-108">Surveiller et contrôler l’accès des partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="a285a-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="cde74-108">Surveiller et contrôler l’accès des partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="cde74-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 
