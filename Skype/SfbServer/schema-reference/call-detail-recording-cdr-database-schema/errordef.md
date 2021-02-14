@@ -24,7 +24,7 @@ ms.locfileid: "49821724"
  
 La table ErrorDef stocke des informations sur chaque type d’erreur qui peut se produire. Chaque enregistrement est un type d’erreur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ErrorId** <br/> |int  <br/> |Primaire  <br/> |Numéro d’identification unique identifiant ce type d’erreur.  <br/> |
 |**ResponseCode** <br/> |int  <br/> | <br/> |Code de réponse SIP standard associé à cette erreur.  <br/> |

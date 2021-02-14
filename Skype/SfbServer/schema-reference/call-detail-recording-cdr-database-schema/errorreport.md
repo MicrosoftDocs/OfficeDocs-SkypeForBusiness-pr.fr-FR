@@ -24,7 +24,7 @@ ms.locfileid: "49821674"
  
 La table ErrorReport stocke des informations sur les erreurs qui se sont produites. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Date et heure de l’erreur.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Primaire  <br/> |Numéro d’identification pour identifier le rapport d’erreurs. Utilisé conjointement avec **ErrorTime** pour identifier de manière unique un rapport d’erreurs. <br/> |

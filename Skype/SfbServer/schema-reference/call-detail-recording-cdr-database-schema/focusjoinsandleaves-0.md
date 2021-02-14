@@ -24,7 +24,7 @@ ms.locfileid: "49821664"
  
 La vue FocusJoinsAndLeaves stocke des informations sur la participation à une conférence ainsi qu’à son abandon. Chaque conférence est représentée dans cette vue par un enregistrement renseigné chaque fois qu’un utilisateur rejoint et quitte la conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de l’instance de conférence. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de l’instance de conférence. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |

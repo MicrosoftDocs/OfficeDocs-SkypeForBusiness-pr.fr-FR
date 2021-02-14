@@ -82,7 +82,7 @@ Les autres éléments ont été remplis avec les réponses que  vous avez fourni
     
 - **Fédération avec un fournisseur de services XMPP**
     
-    Skype Entreprise Server 2015 a introduit un proxy XMPP entièrement intégré (déployé sur les serveurs Edge) et une passerelle XMPP déployée sur vos serveurs frontux. Vous pouvez déployer l’ajout et la configuration du proxy XMPP et de la passerelle XMPP pour permettre aux utilisateurs de Skype Entreprise Server d’ajouter des contacts de partenaires XMPP pour la messagerie instantanée et la présence.
+    Skype Entreprise Server 2015 a introduit un proxy XMPP entièrement intégré (déployé sur les serveurs Edge) et une passerelle XMPP déployée sur vos serveurs frontux. Vous pouvez déployer l’ajout et la configuration du proxy XMPP et de la passerelle XMPP pour permettre à vos utilisateurs Skype Entreprise Server d’ajouter des contacts de partenaires XMPP pour la messagerie instantanée et la présence.
     
 - **Mobilité**
     

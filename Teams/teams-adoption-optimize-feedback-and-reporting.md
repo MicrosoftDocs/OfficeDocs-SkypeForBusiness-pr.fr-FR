@@ -44,7 +44,7 @@ Au cours de votre phase d’expérimentation, vous allez capturer des informatio
 
 ## <a name="invest-in-your-champions"></a>Investir dans vos champions
 
-Lorsque vous vous préparez à mettre à l’échelle votre utilisation de Microsoft Teams, recrutez des champions supplémentaires dans chaque unité d’entreprise ou groupe que vous développez. Inscrivez ces personnes particulièrement spécialisées à votre programme de formation sur les services et standardisez les rencontres.
+Lorsque vous vous préparez à mettre à l’échelle votre utilisation de Microsoft Teams, recrutez des champions supplémentaires dans chaque unité d’entreprise ou groupe que vous développez. Inscrivez ces personnes particulièrement spécialisées à votre programme de formation et standardisez les procédures et le moment de leur rencontre.
  
 Soyez clair dans la conception de votre programme Champions, ce que vos employés vont obtenir et ce qu’ils sont censés donner s’ils deviennent des champions. Les exigences courantes relatives aux programmes sont la planification des heures d’ouverture des bureaux, la participation à des appels communautaires mensuels et la participation à des communautés en ligne internes pour prendre en charge votre transition vers ces nouvelles expériences.  
 
@@ -58,6 +58,6 @@ Vous devez examiner trois types de rapports à mesure que vous déployez et adop
 
 - [État du](https://status.office365.com/) service : microsoft 365, Office 365 et votre service de support informatique interne.
 - Rapports [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) dans le Centre d’administration : à partir de Microsoft 365 ou Office 365 afficher les rapports [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)dans le Centre d’administration - Activité de l’utilisateur sur Microsoft Teams. Vous pouvez également utiliser des informations provenant d’autres systèmes au sein de votre organisation.
-- Satisfaction du service – Résultats issus de forums de la communauté interne et d’enquêtes sur des expériences spécifiques
+- Satisfaction des services – Résultats issus de forums de la communauté interne et d’enquêtes sur des expériences spécifiques
 
 ![Icône représentant l’étape suivante : sensibilisation et ](media/teams-adoption-next-icon.png) mise en œuvre de la [formation](teams-adoption-drive-awareness.md)

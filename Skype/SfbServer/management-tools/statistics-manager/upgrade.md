@@ -34,7 +34,7 @@ Il existe deux méthodes pour la mise à niveau :
     
 - **Mise à niveau manuelle.** Cette méthode est fournie en tant que plan de sauvegarde dans les cas inhabituels d’échec de la mise à niveau automatisée.
     
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Configuration requise
 
 Avant de mettre à niveau, assurez-vous que vous avez les informations suivantes :
   

@@ -24,7 +24,7 @@ ms.locfileid: "49821464"
  
 L’affichage Mcus stocke les informations relatives aux MCU qui ont participé aux sessions de conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |Nombre unique qui identifie le MCU.  <br/> |
 |**McuUri** <br/> |nvarchar(450)  <br/> |URI du MCU.  <br/> |

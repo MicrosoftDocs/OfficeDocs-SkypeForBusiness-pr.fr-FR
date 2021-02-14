@@ -24,7 +24,7 @@ ms.locfileid: "49821624"
  
 Chaque enregistrement de cette table contient les informations d’enregistrement des détails des détails des opérations sur la rejoindre et quitter des informations pour une conférence. Chaque conférence est représentée dans ce tableau par un enregistrement chaque fois qu’un utilisateur rejoint et quitte la conférence.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de l’instance de conférence. Utilisé conjointement avec **SessionIdSeq** pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification de l’instance de conférence. Utilisé conjointement avec **SessionIdTime pour** identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |

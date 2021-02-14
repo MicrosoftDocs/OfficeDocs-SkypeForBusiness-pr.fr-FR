@@ -24,7 +24,7 @@ ms.locfileid: "49821714"
  
 La vue ErrorReport stocke les informations sur les erreurs signalées. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**ErrorTime** <br/> |DateHeure  <br/> |Heure à laquelle l’erreur s’est produite. Utilisé conjointement à ErrorReportSeq pour identifier une erreur de manière unique.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Numéro d’ID identifiant l’erreur. Utilisé conjointement à ErrorTime pour identifier une erreur de manière unique.  <br/> |

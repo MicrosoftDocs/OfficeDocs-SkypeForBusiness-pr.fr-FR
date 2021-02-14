@@ -25,7 +25,7 @@ ms.locfileid: "49821374"
 La table VideoMetricsThreshold contient des valeurs optimales et acceptables pour les mesures de la qualité de l’expérience utilisées dans les appels vidéo.
   
 
-| **Colonne**                                               | **Type de données**       | **Clé/Index**  | **Details**                          |
+| **Colonne**                                               | **Type de données**       | **Clé/Index**  | **Détails**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
 | **CallType** <br/>                                       | int  <br/>          | Primaire  <br/> | Type d’appel passé.  <br/> |
 | **VideoPostFECPLROptimal** <br/>                         | décimal(5,2)  <br/> |                | La valeur par défaut est 0,05.  <br/>    |

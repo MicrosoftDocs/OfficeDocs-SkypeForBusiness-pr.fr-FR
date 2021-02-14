@@ -31,7 +31,7 @@ ms.locfileid: "49821274"
 
 Cet article répertorie les zones de pays et de région pour l’audioconférence.
 
-## <a name="zone-a-countries-and-regions"></a>Zone A pays et régions
+## <a name="zone-a-countries-and-regions"></a>Pays et régions de la zone A
 
 |Pays ou région    |
 |-----|

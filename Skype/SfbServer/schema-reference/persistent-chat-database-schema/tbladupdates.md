@@ -26,7 +26,7 @@ tblADUpdates contient les modifications des services de domaine Active Directory
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |GUID, non null  <br/> |GUID de principal de l’objet qui a changé.  <br/> |
 |prinADPath  <br/> |nvarchar (384), non null  <br/> |Nom unique de l’objet.  <br/> |

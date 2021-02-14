@@ -24,7 +24,7 @@ ms.locfileid: "49821574"
  
 La table HardwareVersions est une table de prise en charge. Chaque enregistrement stocke des informations sur une version matérielle d’un appareil.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant cette version du matériel.  <br/> |
 |**Version** <br/> |nvarchar(256)  <br/> | <br/> |Version matérielle.  <br/> |

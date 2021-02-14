@@ -54,14 +54,14 @@ Les captures d’écran suivantes illustrent la différence entre le mode **Team
 
 De plus, la présence automatique n’est pas disponible dans les autres modes, comme illustré ici.
 
-![Capture d’écran de l’auto-présence dans Réunions d’abord](media/meetings-first-no-self-presence-general.png)
+![Capture d’écran de l’auto-présence dans Réunions Tout d’abord](media/meetings-first-no-self-presence-general.png)
  
 **Remarque :** 
  <sup>1</sup> Pour le moment, SfBwithTeamsCollab et SfBOnly se comportent à l’identique, mais l’objectif est que le mode SfBOnly désactive également la fonctionnalité Canaux et fichiers dans Teams. Les canaux peuvent être masqués temporairement à l’aide de la stratégie Autorisations d’application.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impact du mode sur les autres paramètres de stratégie
-Comme décrit ci-dessus, le mode de coexistence d’un utilisateur a une incidence sur les fonctionnalités disponibles dans le client Teams de l’utilisateur. Cela signifie que la valeur du mode peut être prioritaire sur la valeur des autres paramètres de stratégie, selon le mode. Plus précisément, le mode coexistence a un impact si les paramètres de stratégie suivants sont respecter :
+Comme décrit ci-dessus, le mode de coexistence d’un utilisateur a une incidence sur la fonctionnalité disponible dans le client Teams de l’utilisateur. Cela signifie que la valeur du mode peut être prioritaire sur la valeur des autres paramètres de stratégie, selon le mode. Plus précisément, le mode de coexistence a un impact si les paramètres de stratégie suivants sont respecter :
 
 |**Modalité (Application)**|**Policy.Setting**|
 |---|---|

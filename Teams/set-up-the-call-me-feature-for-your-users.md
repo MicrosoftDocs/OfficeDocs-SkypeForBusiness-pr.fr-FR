@@ -63,7 +63,7 @@ Voici un exemple du message  et de l’option Me rappeler qui s’affiche lorsqu
 
 ![Capture d’écran de l’option Me rappeler](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran Utiliser **le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone, lancer l’appel de la réunion Teams et le joindre à la réunion ou se joindre manuellement à la réunion.
+L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran **Utiliser le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone, lancer l’appel de la réunion Teams et le joindre à la réunion ou se joindre manuellement à la réunion.
 
 ## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité M’appeler
 

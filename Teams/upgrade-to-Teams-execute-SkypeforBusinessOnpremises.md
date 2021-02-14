@@ -41,7 +41,7 @@ Cet article fait partie de la phase déploiement et implémentation de votre par
 - [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conduite d’un pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-Si vous avez déployé Skype Entreprise ou Microsoft Lync sur site et que votre organisation souhaite mettre à niveau vers Microsoft Teams de manière sélective (à l’aide de plusieurs modes de coexistence), suivez les instructions de cet article. 
+Si vous avez déployé Skype Entreprise ou Microsoft Lync en local et que votre organisation souhaite mettre à niveau vers Microsoft Teams de manière sélective (à l’aide de plusieurs modes de coexistence), suivez les instructions de cet article. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -50,7 +50,7 @@ Si vous avez déployé Skype Entreprise ou Microsoft Lync sur site et que votre 
 
 La principale condition préalable pour la mise à niveau de vos utilisateurs vers Teams consiste à déployer la connectivité hybride.
 
-Pour plus d’informations, [voir Déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+Pour plus d’informations, [consultez Déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Étape 2 : mettre en œuvre le chemin de mise à niveau que vous avez choisi pour votre organisation
 

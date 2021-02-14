@@ -24,7 +24,7 @@ ms.locfileid: "49821584"
  
 La table Gateways est une table de prise en charge. Chaque enregistrement stocke des informations sur une passerelle impliquée dans des appels de réseau téléphonique commuté (PSTN) qui ont des enregistrements dans la base de données.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**GatewayId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant cette passerelle.  <br/> |
 |**Passerelle** <br/> |nvarchar(256)  <br/> | <br/> |Nom de la passerelle.  <br/> |

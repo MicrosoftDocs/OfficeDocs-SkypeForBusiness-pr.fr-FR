@@ -27,7 +27,7 @@ L’affichage FileTransfer stocke des informations sur les sessions de transfert
 > [!NOTE]
 > L’affichage FileTransfers contient toutes les colonnes de l’affichage [SessionDetails](sessiondetails-0.md) en plus des colonnes répertoriées ci-dessous.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar(256)  <br/> |Nom du fichier transféré.  <br/> |
 |**Cookie** <br/> |nvarchar(128)  <br/> |Utilisé pour identifier chaque message de suivi comme étant associé à celui-ci.  <br/> |

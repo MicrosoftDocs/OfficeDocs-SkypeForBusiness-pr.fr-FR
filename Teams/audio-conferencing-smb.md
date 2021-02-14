@@ -39,7 +39,7 @@ La licence du module ajout d’Audioconférence peut être appliquée aux utilis
 > [!NOTE]
 > Si vous avez Entreprise E5 ou Microsoft 365 Business Voice, vous ne pourrez pas utiliser l’offre gratuite d’audioconférence, car ces licences incluent déjà l’audioconférence.
 
-Cet article vous explique comment configurer l’audioconférence. Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui appellent à des réunions n’ont pas besoin de licences ou d’une autre configuration. Pour en savoir plus, [consultez l’audioconférence.](audio-conferencing-in-office-365.md)
+Cet article vous explique comment configurer l’audioconférence. Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui appellent à des réunions n’ont pas besoin de licences ou de toute autre configuration. Pour en savoir plus, [consultez l’audioconférence.](audio-conferencing-in-office-365.md)
 
 ## <a name="set-up-audio-conferencing"></a>Configurer l'audioconférence
 

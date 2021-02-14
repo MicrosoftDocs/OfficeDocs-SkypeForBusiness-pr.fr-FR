@@ -24,7 +24,7 @@ ms.locfileid: "49821324"
  
 Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Référencé à partir de [la table MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primaire  <br/> |R référencé à partir de [la table MediaLine](medialine-0.md).  <br/> |

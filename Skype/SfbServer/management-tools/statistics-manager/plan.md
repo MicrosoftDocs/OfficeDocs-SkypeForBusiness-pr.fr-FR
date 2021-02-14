@@ -124,7 +124,7 @@ Le diagramme suivant illustre un déploiement local, dans lequel le site web du 
 
 ![Déploiement local du gestionnaire des statistiques](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 <a name="BKMK_Requirements"> </a>
 
 Vous devez prendre en compte les configurations logicielle, réseau et matérielle suivantes avant de déployer le Gestionnaire de statistiques.

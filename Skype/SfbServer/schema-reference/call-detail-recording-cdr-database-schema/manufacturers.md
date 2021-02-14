@@ -24,7 +24,7 @@ ms.locfileid: "49821484"
  
 La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke des informations sur un fabricant d’appareils (téléphone de bureau).
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ManufacturerId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce fabricant.  <br/> |
 |**Fabricant** <br/> |nvarchar(256)  <br/> | <br/> |Nom du fabricant.  <br/> |

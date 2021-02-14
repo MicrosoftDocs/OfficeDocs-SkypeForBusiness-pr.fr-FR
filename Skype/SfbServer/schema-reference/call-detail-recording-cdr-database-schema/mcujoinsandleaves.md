@@ -24,7 +24,7 @@ ms.locfileid: "49821494"
  
 Chaque enregistrement de ce tableau contient des détails d’appel sur une combinaison d’un serveur de conférence et de rejoindre ou quitter un utilisateur. Par exemple, si un utilisateur rejoint une conférence qui inclut des conférences web et des éléments audio/vidéo, un enregistrement est créé pour la rejoindre, et un autre est créé pour la jointur de conférence audio/vidéo de l’utilisateur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de l’instance de conférence. Utilisé conjointement avec **SessionIdSeq** pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification de l’instance de conférence. Utilisé conjointement avec **SessionIdTime pour** identifier de manière unique une instance de conférence. Pour plus d’informations, voir le tableau Conférences dans Skype Entreprise [Server 2015.](conferences.md) <br/> |

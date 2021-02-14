@@ -52,7 +52,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
   ```
 
     > [!NOTE]
-    > Si cette modification est faite, l’agent consomme généralement toujours 100 Mo de mémoire, mais il ne sera pas forcément limité à 300 Mo comme c’est le cas par \< défaut. Si cette modification est réalisée, nous vous recommandons de surveiller attentivement l’utilisation de la mémoire pour vous assurer que l’agent ne consomme pas une grande quantité de mémoire sur son ordinateur hôte. 
+    > Si cette modification est réalisée, l’agent consomme généralement toujours 100 Mo de mémoire, mais il ne sera pas forcément limité à 300 Mo comme c’est le cas par \< défaut. Si cette modification est réalisée, nous vous recommandons de surveiller attentivement l’utilisation de la mémoire pour vous assurer que l’agent ne consomme pas une grande quantité de mémoire sur son ordinateur hôte. 
   
 - **2000** — Échec de l’initialisation du client
     
@@ -84,7 +84,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **4003** — Non-matage de l’empreinte numérique du certificat
     
-    L’empreinte numérique de certificat donnée à l’agent au moment de l’installation ne correspond pas à l’empreinte du certificat que l’écoute utilise actuellement et par conséquent, la connexion sera refusée. Désinstallez l’agent et réinstallez-le à l’aide de l’empreinte de certificat correcte.
+    L’empreinte numérique du certificat donnée à l’agent au moment de l’installation ne correspond pas à l’empreinte du certificat que l’écoute utilise actuellement et par conséquent, la connexion sera refusée. Désinstallez l’agent et réinstallez-le à l’aide de l’empreinte de certificat correcte.
     
   - **4004** — Réponse non valide ou HttpStatusCode
     
@@ -145,7 +145,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
 - **22000** : l’initialisation de l’agent du gestionnaire de statistiques a réussi.
     
-- **23000** — Initialisation de EventLogQueryManager réussi (première fois ou après un échec)
+- **23000** : l’initialisation de EventLogQueryManager a réussi (première fois ou après un échec)
     
 - **24000** : l’initialisation de serverinfo a réussi (première fois ou après échec)
     
