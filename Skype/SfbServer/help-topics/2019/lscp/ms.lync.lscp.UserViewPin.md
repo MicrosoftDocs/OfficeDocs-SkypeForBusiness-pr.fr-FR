@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808074"
 ---
-# <a name="users-view-pin-status"></a><span data-ttu-id="058b9-104">Utilisateurs : Afficher le statut du code confidentiel</span><span class="sxs-lookup"><span data-stu-id="058b9-104">Users: View PIN Status</span></span>
+# <a name="users-view-pin-status"></a><span data-ttu-id="eeb44-104">Utilisateurs : Afficher le statut du code confidentiel</span><span class="sxs-lookup"><span data-stu-id="eeb44-104">Users: View PIN Status</span></span>
  
-<span data-ttu-id="058b9-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="058b9-105">What do you want to do?</span></span> <span data-ttu-id="058b9-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="058b9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="eeb44-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="eeb44-105">What do you want to do?</span></span> <span data-ttu-id="eeb44-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="eeb44-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="058b9-107">Définir le code confidentiel de conférence d’un utilisateur dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="058b9-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="eeb44-107">Définir le code confidentiel de conférence d’un utilisateur dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="eeb44-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808154"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="a8908-104">Utilisateurs : afficher ou configurer la stratégie de version du client</span><span class="sxs-lookup"><span data-stu-id="a8908-104">Users: View or Configure Client Version Policy</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="f4c38-104">Utilisateurs : afficher ou configurer la stratégie de version du client</span><span class="sxs-lookup"><span data-stu-id="f4c38-104">Users: View or Configure Client Version Policy</span></span>
 
-<span data-ttu-id="a8908-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="a8908-105">What do you want to do?</span></span> <span data-ttu-id="a8908-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="a8908-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f4c38-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="f4c38-105">What do you want to do?</span></span> <span data-ttu-id="f4c38-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="f4c38-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a8908-107">Spécifier les versions des clients pris en charge pour la signature par un utilisateur</span><span class="sxs-lookup"><span data-stu-id="a8908-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="f4c38-107">Spécifier les versions des clients pris en charge pour la signature par un utilisateur</span><span class="sxs-lookup"><span data-stu-id="f4c38-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
 
 

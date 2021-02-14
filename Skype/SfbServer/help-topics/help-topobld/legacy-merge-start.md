@@ -22,6 +22,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806754"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="da5bd-103">Fusion héritée : démarrage</span><span class="sxs-lookup"><span data-stu-id="da5bd-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="f20e3-103">Fusion héritée : démarrage</span><span class="sxs-lookup"><span data-stu-id="f20e3-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="da5bd-104">Pour commencer à fusionner un déploiement hérité avec Skype Entreprise Server 2015, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="da5bd-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 
+<span data-ttu-id="f20e3-104">Pour commencer à fusionner un déploiement hérité avec Skype Entreprise Server 2015, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="f20e3-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 

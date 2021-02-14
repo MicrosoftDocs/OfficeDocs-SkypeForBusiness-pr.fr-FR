@@ -22,9 +22,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807874"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="aabbf-104">Edition du préfixe</span><span class="sxs-lookup"><span data-stu-id="aabbf-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="778cc-104">Edition du préfixe</span><span class="sxs-lookup"><span data-stu-id="778cc-104">Prefix Edit</span></span>
  
-<span data-ttu-id="aabbf-105">Pour définir des préfixes ou des chiffres de début, ajoutez les préfixes de numéro que cet itinéraire doit gérer, y compris le + si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="aabbf-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="aabbf-106">Par exemple, vous pouvez faire correspondre tous les numéros en commençant par +123.</span><span class="sxs-lookup"><span data-stu-id="aabbf-106">For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="778cc-105">Pour définir des préfixes ou des chiffres de début, ajoutez les préfixes de numéro que cet itinéraire doit gérer, y compris le + si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="778cc-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="778cc-106">Par exemple, vous pouvez faire correspondre tous les numéros en commençant par +123.</span><span class="sxs-lookup"><span data-stu-id="778cc-106">For example, you can match all numbers starting with +123.</span></span>
   
  
   

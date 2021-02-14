@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806674"
 ---
-# <a name="mediation-service-setting-expander"></a><span data-ttu-id="7a66d-103">Expandeur des paramètres du service de médiation</span><span class="sxs-lookup"><span data-stu-id="7a66d-103">Mediation Service Setting Expander</span></span>
+# <a name="mediation-service-setting-expander"></a><span data-ttu-id="dca3f-103">Expandeur des paramètres du service de médiation</span><span class="sxs-lookup"><span data-stu-id="dca3f-103">Mediation Service Setting Expander</span></span>
  
-<span data-ttu-id="7a66d-104">Utilisez cette page pour configurer les ports d’écoute pour ce serveur de médiation, et configurez ses associations avec les passerelles PSTN.</span><span class="sxs-lookup"><span data-stu-id="7a66d-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
+<span data-ttu-id="dca3f-104">Utilisez cette page pour configurer les ports d’écoute pour ce serveur de médiation, et configurez ses associations avec les passerelles PSTN.</span><span class="sxs-lookup"><span data-stu-id="dca3f-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
   
 

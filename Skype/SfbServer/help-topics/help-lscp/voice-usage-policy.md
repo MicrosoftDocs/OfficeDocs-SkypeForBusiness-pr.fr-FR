@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807154"
 ---
-# <a name="voice-usage-policy"></a><span data-ttu-id="1a1df-103">Politique d’utilisation de la voix</span><span class="sxs-lookup"><span data-stu-id="1a1df-103">Voice Usage Policy</span></span>
+# <a name="voice-usage-policy"></a><span data-ttu-id="4a813-103">Politique d’utilisation de la voix</span><span class="sxs-lookup"><span data-stu-id="4a813-103">Voice Usage Policy</span></span>
  
-<span data-ttu-id="1a1df-104">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="1a1df-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="4a813-104">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="4a813-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

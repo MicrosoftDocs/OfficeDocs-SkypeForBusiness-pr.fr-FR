@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808134"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="50f60-104">Utilisateurs : afficher ou configurer la stratégie d’accès externe</span><span class="sxs-lookup"><span data-stu-id="50f60-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="14e65-104">Utilisateurs : afficher ou configurer la stratégie d’accès externe</span><span class="sxs-lookup"><span data-stu-id="14e65-104">Users: View or Configure External Access Policy</span></span>
 
-<span data-ttu-id="50f60-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="50f60-105">What do you want to do?</span></span> <span data-ttu-id="50f60-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="50f60-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="14e65-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="14e65-105">What do you want to do?</span></span> <span data-ttu-id="14e65-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="14e65-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="50f60-107">Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="50f60-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="14e65-107">Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="14e65-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 
 

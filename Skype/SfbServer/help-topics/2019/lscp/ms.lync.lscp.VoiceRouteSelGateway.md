@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807854"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="560cd-103">Sélectionner une jonction</span><span class="sxs-lookup"><span data-stu-id="560cd-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="135ed-103">Sélectionner une jonction</span><span class="sxs-lookup"><span data-stu-id="135ed-103">Select Trunk</span></span>
  
-<span data-ttu-id="560cd-104">Utilisez la boîte de dialogue **Sélectionner la jonction** pour trouver une jonction existante que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="560cd-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="135ed-104">Utilisez la boîte de dialogue **Sélectionner la jonction** pour trouver une jonction existante que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="135ed-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="560cd-105">Pour récupérer toutes les jonctions disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="560cd-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="135ed-105">Pour récupérer toutes les jonctions disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="135ed-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

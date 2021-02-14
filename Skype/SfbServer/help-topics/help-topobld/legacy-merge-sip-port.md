@@ -22,10 +22,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806794"
 ---
-# <a name="legacy-merge-sip-port"></a><span data-ttu-id="2987f-104">Port SIP de la fusion héritée</span><span class="sxs-lookup"><span data-stu-id="2987f-104">Legacy Merge SIP Port</span></span>
+# <a name="legacy-merge-sip-port"></a><span data-ttu-id="a674e-104">Port SIP de la fusion héritée</span><span class="sxs-lookup"><span data-stu-id="a674e-104">Legacy Merge SIP Port</span></span>
  
-<span data-ttu-id="2987f-p102">Le port SIP TCP par défaut pour la communication avec les clients, les pools et serveurs frontaux hérités est 5061. Si la valeur par défaut n’est pas utilisée, sélectionnez **Port SIP pour tous les pools et serveurs** et tapez la nouvelle valeur.</span><span class="sxs-lookup"><span data-stu-id="2987f-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
+<span data-ttu-id="a674e-p102">Le port SIP TCP par défaut pour la communication avec les clients, les pools et serveurs frontaux hérités est 5061. Si la valeur par défaut n’est pas utilisée, sélectionnez **Port SIP pour tous les pools et serveurs** et tapez la nouvelle valeur.</span><span class="sxs-lookup"><span data-stu-id="a674e-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
   
-<span data-ttu-id="2987f-107">Si votre déploiement hérité est configuré pour la signature automatique du client, sélectionnez Découverte automatique de la configuration de **port SIP** pour chaque pool, puis cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="2987f-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
+<span data-ttu-id="a674e-107">Si votre déploiement hérité est configuré pour la signature automatique du client, sélectionnez Découverte automatique de la configuration de **port SIP** pour chaque pool, puis cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="a674e-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
   
 
