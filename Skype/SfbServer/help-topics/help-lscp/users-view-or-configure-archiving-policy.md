@@ -22,13 +22,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800344"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="0b19c-104">Utilisateurs : afficher ou configurer la stratégie d’archivage</span><span class="sxs-lookup"><span data-stu-id="0b19c-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="92f10-104">Utilisateurs : afficher ou configurer la stratégie d’archivage</span><span class="sxs-lookup"><span data-stu-id="92f10-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="0b19c-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="0b19c-105">What do you want to do?</span></span> <span data-ttu-id="0b19c-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="0b19c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="92f10-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="92f10-105">What do you want to do?</span></span> <span data-ttu-id="92f10-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="92f10-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0b19c-107">Attribution d’une stratégie d’archivage par utilisateur</span><span class="sxs-lookup"><span data-stu-id="0b19c-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="92f10-107">Attribution d’une stratégie d’archivage par utilisateur</span><span class="sxs-lookup"><span data-stu-id="92f10-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="0b19c-108">Appliquer une stratégie d’archivage à un utilisateur ou à un groupe d’utilisateurs</span><span class="sxs-lookup"><span data-stu-id="0b19c-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="92f10-108">Appliquer une stratégie d’archivage à un utilisateur ou à un groupe d’utilisateurs</span><span class="sxs-lookup"><span data-stu-id="92f10-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
-<span data-ttu-id="0b19c-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0b19c-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="92f10-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="92f10-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

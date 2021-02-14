@@ -22,24 +22,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800894"
 ---
-# <a name="define-a-new-trunk"></a><span data-ttu-id="75796-103">Définir une nouvelle jonction</span><span class="sxs-lookup"><span data-stu-id="75796-103">Define a New Trunk</span></span>
+# <a name="define-a-new-trunk"></a><span data-ttu-id="a514a-103">Définir une nouvelle jonction</span><span class="sxs-lookup"><span data-stu-id="a514a-103">Define a New Trunk</span></span>
 
-<span data-ttu-id="75796-104">Vous définissez une nouvelle jonction (SIP) en fournissant les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="75796-104">You define a new session initiation protocol (SIP) trunk by providing the following information:</span></span>
+<span data-ttu-id="a514a-104">Vous définissez une nouvelle jonction (SIP) en fournissant les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="a514a-104">You define a new session initiation protocol (SIP) trunk by providing the following information:</span></span>
 
-- <span data-ttu-id="75796-105">**Nom de la jonction** : nom unique dans votre topologie qui identifiera cette jonction</span><span class="sxs-lookup"><span data-stu-id="75796-105">**Trunk name**: unique name in your topology that will identify this trunk</span></span>
+- <span data-ttu-id="a514a-105">**Nom de la jonction** : nom unique dans votre topologie qui identifiera cette jonction</span><span class="sxs-lookup"><span data-stu-id="a514a-105">**Trunk name**: unique name in your topology that will identify this trunk</span></span>
 
-- <span data-ttu-id="75796-106">**Passerelle PSTN associée** : sélectionnez dans la liste une passerelle PSTN déployée et configurée dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="75796-106">**Associated PSTN Gateway**: select a deployed and configured PSTN gateway in your deployment from the list</span></span>
+- <span data-ttu-id="a514a-106">**Passerelle PSTN associée** : sélectionnez dans la liste une passerelle PSTN déployée et configurée dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="a514a-106">**Associated PSTN Gateway**: select a deployed and configured PSTN gateway in your deployment from the list</span></span>
 
-- <span data-ttu-id="75796-p101">**Port d’écoute pour la passerelle IP/PSTN** : port que le système IP-PBX ou la passerelle PSTN écoutera. Doit être différent de tous les autres ports d’écoute de jonction configurés dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="75796-p101">**Listening port for the IP/PSTN gateway**: port that the IP-PBX or PSTN gateway will listen on. Must be unique from all other trunk listening ports configured in your deployment</span></span>
+- <span data-ttu-id="a514a-p101">**Port d’écoute pour la passerelle IP/PSTN** : port que le système IP-PBX ou la passerelle PSTN écoutera. Doit être différent de tous les autres ports d’écoute de jonction configurés dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="a514a-p101">**Listening port for the IP/PSTN gateway**: port that the IP-PBX or PSTN gateway will listen on. Must be unique from all other trunk listening ports configured in your deployment</span></span>
 
-- <span data-ttu-id="75796-109">**Protocole de transport SIP** : sélectionnez dans la liste soit TCP, soit TLS</span><span class="sxs-lookup"><span data-stu-id="75796-109">**SIP Transport Protocol**: select from the list either TCP or TLS</span></span>
+- <span data-ttu-id="a514a-109">**Protocole de transport SIP** : sélectionnez dans la liste soit TCP, soit TLS</span><span class="sxs-lookup"><span data-stu-id="a514a-109">**SIP Transport Protocol**: select from the list either TCP or TLS</span></span>
 
-- <span data-ttu-id="75796-110">**Serveur de médiation associé**: sélectionnez dans la liste un serveur de médiation qui est déployé et configuré dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="75796-110">**Associated Mediation Server**: select from the list a Mediation Server that is deployed and configured in your deployment</span></span>
+- <span data-ttu-id="a514a-110">**Serveur de médiation associé**: sélectionnez dans la liste un serveur de médiation qui est déployé et configuré dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="a514a-110">**Associated Mediation Server**: select from the list a Mediation Server that is deployed and configured in your deployment</span></span>
 
-- <span data-ttu-id="75796-111">**Port du serveur** de médiation associé : définissez la valeur de port sur la valeur du port TCP ou TLS du serveur de médiation que cette trunk SIP utilisera</span><span class="sxs-lookup"><span data-stu-id="75796-111">**Associated Mediation Server port**: set the port value equal to the TCP or TLS port value of the Mediation Server that this SIP trunk will use</span></span>
+- <span data-ttu-id="a514a-111">**Port du serveur** de médiation associé : définissez la valeur de port sur la valeur du port TCP ou TLS du serveur de médiation que cette trunk SIP utilisera</span><span class="sxs-lookup"><span data-stu-id="a514a-111">**Associated Mediation Server port**: set the port value equal to the TCP or TLS port value of the Mediation Server that this SIP trunk will use</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="75796-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="75796-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a514a-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a514a-112">See also</span></span>
 
-[<span data-ttu-id="75796-113">M:N trunk in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="75796-113">M:N trunk in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[<span data-ttu-id="a514a-113">M:N trunk in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a514a-113">M:N trunk in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[<span data-ttu-id="75796-114">Comment implémenter une trunking SIP ?</span><span class="sxs-lookup"><span data-stu-id="75796-114">How do I implement SIP trunking?</span></span>](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[<span data-ttu-id="a514a-114">Comment implémenter une trunking SIP ?</span><span class="sxs-lookup"><span data-stu-id="a514a-114">How do I implement SIP trunking?</span></span>](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800484"
 ---
-# <a name="configure-a-network-region"></a><span data-ttu-id="03965-104">Configurer une région réseau</span><span class="sxs-lookup"><span data-stu-id="03965-104">Configure a Network Region</span></span>
+# <a name="configure-a-network-region"></a><span data-ttu-id="6a066-104">Configurer une région réseau</span><span class="sxs-lookup"><span data-stu-id="6a066-104">Configure a Network Region</span></span>
 
-<span data-ttu-id="03965-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="03965-105">What do you want to do?</span></span> <span data-ttu-id="03965-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="03965-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6a066-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="6a066-105">What do you want to do?</span></span> <span data-ttu-id="6a066-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="6a066-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="03965-107">Configuration des régions réseau</span><span class="sxs-lookup"><span data-stu-id="03965-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="6a066-107">Configuration des régions réseau</span><span class="sxs-lookup"><span data-stu-id="6a066-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
-<span data-ttu-id="03965-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="03965-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="6a066-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="6a066-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

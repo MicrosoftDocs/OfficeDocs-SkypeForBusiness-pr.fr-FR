@@ -23,16 +23,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800314"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="ca231-103">Paramètres de messagerie unifiée Exchange (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="ca231-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
+# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="e7bb6-103">Paramètres de messagerie unifiée Exchange (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="e7bb6-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="ca231-104">Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.</span><span class="sxs-lookup"><span data-stu-id="ca231-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
+<span data-ttu-id="e7bb6-104">Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.</span><span class="sxs-lookup"><span data-stu-id="e7bb6-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
 
-<span data-ttu-id="ca231-105">Pour obtenir des informations détaillées, voir :</span><span class="sxs-lookup"><span data-stu-id="ca231-105">For details, see:</span></span>
+<span data-ttu-id="e7bb6-105">Pour obtenir des informations détaillées, voir :</span><span class="sxs-lookup"><span data-stu-id="e7bb6-105">For details, see:</span></span>
 
-- [<span data-ttu-id="ca231-106">Planification de l’intégration de la messagerie unifiée Exchange</span><span class="sxs-lookup"><span data-stu-id="ca231-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [<span data-ttu-id="e7bb6-106">Planification de l’intégration de la messagerie unifiée Exchange</span><span class="sxs-lookup"><span data-stu-id="e7bb6-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
-- <span data-ttu-id="ca231-107">« Messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="ca231-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
+- <span data-ttu-id="e7bb6-107">« Messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="e7bb6-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
 
-- <span data-ttu-id="ca231-108">« Planification de la messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="ca231-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
+- <span data-ttu-id="e7bb6-108">« Planification de la messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="e7bb6-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
 
 

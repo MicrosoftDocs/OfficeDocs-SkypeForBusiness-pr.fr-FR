@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800904"
 ---
-# <a name="add-site-details"></a><span data-ttu-id="02c0f-104">Ajouter les détails du site</span><span class="sxs-lookup"><span data-stu-id="02c0f-104">Add Site Details</span></span>
+# <a name="add-site-details"></a><span data-ttu-id="49219-104">Ajouter les détails du site</span><span class="sxs-lookup"><span data-stu-id="49219-104">Add Site Details</span></span>
  
-<span data-ttu-id="02c0f-p102">Vous pouvez fournir des renseignements géographiques sur votre site, notamment la ville, le département/la province ou le code du pays/de la région. Tous ces renseignements géographiques sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="02c0f-p102">You can specify location details for your site, including a city, state/province, or country/region code. All of these location details are optional.</span></span>
+<span data-ttu-id="49219-p102">Vous pouvez fournir des renseignements géographiques sur votre site, notamment la ville, le département/la province ou le code du pays/de la région. Tous ces renseignements géographiques sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="49219-p102">You can specify location details for your site, including a city, state/province, or country/region code. All of these location details are optional.</span></span>
   
 
