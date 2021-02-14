@@ -23,12 +23,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801164"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="60416-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="60416-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="0a12a-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="0a12a-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="60416-104">La conférence audio/vidéo (A/V) Skype Entreprise Server permet aux utilisateurs de participer à des conférences audio ou vidéo en temps réel.</span><span class="sxs-lookup"><span data-stu-id="60416-104">Skype for Business Server Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="0a12a-104">La conférence audio/vidéo (A/V) Skype Entreprise Server permet aux utilisateurs de participer à des conférences audio ou vidéo en temps réel.</span><span class="sxs-lookup"><span data-stu-id="0a12a-104">Skype for Business Server Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="60416-105">Pour plus d’informations sur la planification de l’activation de la conférence A/V dans votre organisation, consultez la rubrique suivante et ses sous-rubriques :</span><span class="sxs-lookup"><span data-stu-id="60416-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="0a12a-105">Pour plus d’informations sur la planification de l’activation de la conférence A/V dans votre organisation, consultez la rubrique suivante et ses sous-rubriques :</span><span class="sxs-lookup"><span data-stu-id="0a12a-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="60416-106">Planifier les conférences dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="60416-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="0a12a-106">Planifier les conférences dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="0a12a-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

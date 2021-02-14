@@ -23,10 +23,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802584"
 ---
-# <a name="teams-for-retail"></a><span data-ttu-id="62084-103">Teams pour les organismes de vente au détail</span><span class="sxs-lookup"><span data-stu-id="62084-103">Teams for Retail</span></span>
+# <a name="teams-for-retail"></a><span data-ttu-id="0718a-103">Teams pour les organismes de vente au détail</span><span class="sxs-lookup"><span data-stu-id="0718a-103">Teams for Retail</span></span>
 
-<span data-ttu-id="62084-104">Utilisez les ressources d’administration ici pour gérer et utiliser au mieux Teams pour vos magasins de détail et votre personnel.</span><span class="sxs-lookup"><span data-stu-id="62084-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
+<span data-ttu-id="0718a-104">Utilisez les ressources d’administration ici pour gérer et utiliser au mieux Teams pour vos magasins de détail et votre personnel.</span><span class="sxs-lookup"><span data-stu-id="0718a-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="62084-106">Démarrage avec les modèles Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="62084-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="0718a-106">Démarrage avec les modèles Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="0718a-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |

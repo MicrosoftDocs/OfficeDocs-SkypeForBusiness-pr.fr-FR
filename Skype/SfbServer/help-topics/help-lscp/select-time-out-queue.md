@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803704"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="c21fe-103">Sélectionner une file d’attente d’expiration</span><span class="sxs-lookup"><span data-stu-id="c21fe-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="a843c-103">Sélectionner une file d’attente d’expiration</span><span class="sxs-lookup"><span data-stu-id="a843c-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="c21fe-104">Utilisez la boîte de dialogue **Sélectionner une file d’attente d’expiration** pour sélectionner une file d’attente dans laquelle les appels seront transférés à leur expiration.</span><span class="sxs-lookup"><span data-stu-id="c21fe-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="a843c-104">Utilisez la boîte de dialogue **Sélectionner une file d’attente d’expiration** pour sélectionner une file d’attente dans laquelle les appels seront transférés à leur expiration.</span><span class="sxs-lookup"><span data-stu-id="a843c-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="c21fe-p101">Dans la zone de recherche, tapez entièrement ou partiellement le nom de la file d’attente que vous souhaitez utiliser. Pour revenir à l’ensemble des files d’attente disponibles, laissez la zone de recherche vide et cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="c21fe-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="a843c-p101">Dans la zone de recherche, tapez entièrement ou partiellement le nom de la file d’attente que vous souhaitez utiliser. Pour revenir à l’ensemble des files d’attente disponibles, laissez la zone de recherche vide et cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="a843c-p101">In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="c21fe-107">Dans la liste des files d’attente retournées par la recherche, sélectionnez la file d’attente que vous souhaitez utiliser pour les appels ayant expiré.</span><span class="sxs-lookup"><span data-stu-id="c21fe-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="a843c-107">Dans la liste des files d’attente retournées par la recherche, sélectionnez la file d’attente que vous souhaitez utiliser pour les appels ayant expiré.</span><span class="sxs-lookup"><span data-stu-id="a843c-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 
