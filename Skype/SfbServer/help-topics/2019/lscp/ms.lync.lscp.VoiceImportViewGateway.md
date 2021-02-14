@@ -22,9 +22,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820084"
 ---
-# <a name="view-gateways-import-configuration"></a><span data-ttu-id="d03fb-103">Afficher les passerelles (importer la configuration)</span><span class="sxs-lookup"><span data-stu-id="d03fb-103">View Gateways (Import Configuration)</span></span>
+# <a name="view-gateways-import-configuration"></a><span data-ttu-id="c41ff-103">Afficher les passerelles (importer la configuration)</span><span class="sxs-lookup"><span data-stu-id="c41ff-103">View Gateways (Import Configuration)</span></span>
  
-<span data-ttu-id="d03fb-104">Dans **Passerelle déployée**, cliquez sur la passerelle où vous souhaitez importer le fichier de configuration de la voix que vous avez sélectionné.</span><span class="sxs-lookup"><span data-stu-id="d03fb-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
+<span data-ttu-id="c41ff-104">Dans **Passerelle déployée**, cliquez sur la passerelle où vous souhaitez importer le fichier de configuration de la voix que vous avez sélectionné.</span><span class="sxs-lookup"><span data-stu-id="c41ff-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
   
  
   

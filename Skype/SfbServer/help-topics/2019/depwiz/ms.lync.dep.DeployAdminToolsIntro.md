@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820604"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="ccd4b-103">Assistant Déploiement : outils d’administration</span><span class="sxs-lookup"><span data-stu-id="ccd4b-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="f59ac-103">Assistant Déploiement : outils d’administration</span><span class="sxs-lookup"><span data-stu-id="f59ac-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="ccd4b-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir [Installer Skype Entreprise Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="ccd4b-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="f59ac-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir [Installer Skype Entreprise Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="f59ac-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

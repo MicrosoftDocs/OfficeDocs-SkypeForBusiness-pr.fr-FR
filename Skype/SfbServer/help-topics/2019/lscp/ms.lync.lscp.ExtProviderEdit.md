@@ -22,10 +22,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820304"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="bef27-104">Fournisseurs fédérés SIP : création d’un nouveau ou modification d’un fournisseur existant</span><span class="sxs-lookup"><span data-stu-id="bef27-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="5c449-104">Fournisseurs fédérés SIP : création d’un nouveau ou modification d’un fournisseur existant</span><span class="sxs-lookup"><span data-stu-id="5c449-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="bef27-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="bef27-105">What do you want to do?</span></span> <span data-ttu-id="bef27-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="bef27-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5c449-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="5c449-105">What do you want to do?</span></span> <span data-ttu-id="5c449-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="5c449-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="bef27-107">Gérer les fournisseurs fédérés SIP pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="bef27-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="5c449-107">Gérer les fournisseurs fédérés SIP pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="5c449-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

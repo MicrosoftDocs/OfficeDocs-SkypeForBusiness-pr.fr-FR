@@ -22,22 +22,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819004"
 ---
-# <a name="topology-server-application"></a><span data-ttu-id="44cbd-103">Topologie : serveur d’applications</span><span class="sxs-lookup"><span data-stu-id="44cbd-103">Topology: Server Application</span></span>
+# <a name="topology-server-application"></a><span data-ttu-id="6279e-103">Topologie : serveur d’applications</span><span class="sxs-lookup"><span data-stu-id="6279e-103">Topology: Server Application</span></span>
 
-<span data-ttu-id="44cbd-104">La page **Topologie** : **Application de serveur** affiche les applications de serveur figurant dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="44cbd-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
+<span data-ttu-id="6279e-104">La page **Topologie** : **Application de serveur** affiche les applications de serveur figurant dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="6279e-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="44cbd-105">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="44cbd-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="6279e-105">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="6279e-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="44cbd-106">Vous pouvez effectuer les tâches suivantes dans la page **Topologie** : **Application de serveur** :</span><span class="sxs-lookup"><span data-stu-id="44cbd-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
+<span data-ttu-id="6279e-106">Vous pouvez effectuer les tâches suivantes dans la page **Topologie** : **Application de serveur** :</span><span class="sxs-lookup"><span data-stu-id="6279e-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
 
-- <span data-ttu-id="44cbd-107">Afficher les applications serveur dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="44cbd-107">View the server applications in your deployment</span></span>
+- <span data-ttu-id="6279e-107">Afficher les applications serveur dans votre déploiement</span><span class="sxs-lookup"><span data-stu-id="6279e-107">View the server applications in your deployment</span></span>
 
-- <span data-ttu-id="44cbd-108">Activer ou désactiver une application de serveur</span><span class="sxs-lookup"><span data-stu-id="44cbd-108">Enable or disable a server application</span></span>
+- <span data-ttu-id="6279e-108">Activer ou désactiver une application de serveur</span><span class="sxs-lookup"><span data-stu-id="6279e-108">Enable or disable a server application</span></span>
 
-- <span data-ttu-id="44cbd-109">Sélectionner ou désélectionner une application comme critique</span><span class="sxs-lookup"><span data-stu-id="44cbd-109">Select or unselect an application as critical</span></span>
+- <span data-ttu-id="6279e-109">Sélectionner ou désélectionner une application comme critique</span><span class="sxs-lookup"><span data-stu-id="6279e-109">Select or unselect an application as critical</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="44cbd-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="44cbd-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6279e-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6279e-110">See also</span></span>
 
-[<span data-ttu-id="44cbd-111">Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)</span><span class="sxs-lookup"><span data-stu-id="44cbd-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[<span data-ttu-id="6279e-111">Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)</span><span class="sxs-lookup"><span data-stu-id="6279e-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 
-[<span data-ttu-id="44cbd-112">Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique</span><span class="sxs-lookup"><span data-stu-id="44cbd-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[<span data-ttu-id="6279e-112">Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique</span><span class="sxs-lookup"><span data-stu-id="6279e-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

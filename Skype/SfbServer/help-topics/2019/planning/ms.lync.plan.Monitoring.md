@@ -22,10 +22,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819684"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="b599d-103">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b599d-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="d00f8-103">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="d00f8-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="b599d-104">Dans Skype Entreprise Server, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.</span><span class="sxs-lookup"><span data-stu-id="b599d-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="d00f8-104">Dans Skype Entreprise Server, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.</span><span class="sxs-lookup"><span data-stu-id="d00f8-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="b599d-105">Pour plus d’informations sur la planification du serveur de surveillance, voir [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span><span class="sxs-lookup"><span data-stu-id="b599d-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+<span data-ttu-id="d00f8-105">Pour plus d’informations sur la planification du serveur de surveillance, voir [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span><span class="sxs-lookup"><span data-stu-id="d00f8-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
 
 

@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820024"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="039d5-103">Sélectionner un enregistrement d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="039d5-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="20124-103">Sélectionner un enregistrement d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="20124-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="039d5-104">Utilisez la boîte de dialogue **Sélectionner un enregistrement d’utilisation PSTN** pour trouver un enregistrement d’utilisation du réseau téléphonique commuté (PSTN) existant que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="039d5-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="20124-104">Utilisez la boîte de dialogue **Sélectionner un enregistrement d’utilisation PSTN** pour trouver un enregistrement d’utilisation du réseau téléphonique commuté (PSTN) existant que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="20124-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="039d5-105">Pour récupérer tous les enregistrements d’utilisation PSTN disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="039d5-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="20124-105">Pour récupérer tous les enregistrements d’utilisation PSTN disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="20124-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   
