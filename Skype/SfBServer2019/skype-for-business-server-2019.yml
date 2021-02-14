@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentation sur Skype entreprise Server 2019
-summary: Découvrez comment implémenter Skype entreprise Server 2019.
+title: Documentation Skype Entreprise Server 2019
+summary: Découvrez comment implémenter Skype Entreprise Server 2019.
 metadata:
-  title: Documentation sur Skype entreprise Server 2019
-  description: Découvrez comment implémenter Skype entreprise Server 2019.
+  title: Documentation Skype Entreprise Server 2019
+  description: Découvrez comment implémenter Skype Entreprise Server 2019.
   ms.service: skype-for-business-online
   ms.topic: landing-page
   audience: ITPro
@@ -17,7 +17,7 @@ metadata:
   ms.lasthandoff: 07/21/2020
   ms.locfileid: "45189340"
 landingContent:
-- title: À propos de Skype entreprise Server 2019
+- title: À propos de Skype Entreprise Server 2019
   linkLists:
   - linkListType: whats-new
     links:
@@ -25,23 +25,23 @@ landingContent:
       url: /skypeforbusiness/whats-new
   - linkListType: overview
     links:
-    - text: Configuration requise
+    - text: Configuration requise du système
       url: /skypeforbusiness/plan/system-requirements
     - text: Configuration réseau requise
       url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
   - linkListType: download
     links:
-    - text: Télécharger maintenant !
+    - text: Téléchargez-le maintenant !
       url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
-- title: Offre
+- title: Planification
   linkLists:
   - linkListType: overview
     links:
-    - text: Notions de base de la topologie
+    - text: Informations de base sur la topologie
       url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
     - text: Planifier une connectivité hybride
       url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
-    - text: Planification de voix entreprise
+    - text: Planifier les Voix Entreprise
       url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
 - title: Installer et gérer
   linkLists:
@@ -49,7 +49,7 @@ landingContent:
     links:
     - text: Installer Skype Entreprise Server
       url: /skypeforbusiness/deploy/install/install
-    - text: Migrer vers Skype entreprise 2019
+    - text: Migrer vers Skype Entreprise 2019
       url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
     - text: Déploiement de Voix Entreprise
       url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
@@ -61,7 +61,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Documentation sur Skype entreprise Server 2015
+    - text: Documentation Skype Entreprise Server 2015
       url: /SkypeForBusiness/skype-for-business-server-2015
     - text: Documentation Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013
