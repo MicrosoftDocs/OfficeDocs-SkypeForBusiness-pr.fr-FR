@@ -26,7 +26,7 @@ tblEnumAttribute est une table codée en dur qui contient les attributs Visibili
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |attributeID  <br/> |smallint, non null  <br/> |ID de l’attribut.  <br/> |
 |attributeName  <br/> |nvarchar (256), non null  <br/> |Nom de l’attribut.  <br/> |
@@ -41,8 +41,8 @@ tblEnumAttribute est une table codée en dur qui contient les attributs Visibili
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1   <br/> |Visibilité.  <br/> |
-|2   <br/> |Comportement.  <br/> |
+|1   <br/> |Visibilité.  <br/> |
+|2   <br/> |Comportement.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -30,11 +30,11 @@ ms.locfileid: "49809094"
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Mise à niveau de vos utilisateurs de Skype Entreprise Online vers Microsoft Teams
 
 > [!Note]
-> Les commandes décrites dans cet article sont conçues pour être utilisées dans le cadre de la liste de contrôle [Mise à](https://aka.ms/UpgradeBasic) niveau de base.
+> Les commandes décrites dans cet article sont conçues pour être utilisées dans le cadre de la liste de vérification [Mise à](https://aka.ms/UpgradeBasic) niveau de base.
 
 Les aspects de la migration technique de votre mise à niveau impliquent d’informer vos utilisateurs que Skype Entreprise va mettre à niveau vers Teams, puis les déplacer vers un mode **Teams** uniquement. Ces étapes peuvent être réalisées via une session d’Windows PowerShell à distance Skype Entreprise ou via le Centre d’administration Microsoft Teams.
 
-Nous travaillons activement au déploiement des outils de mise à niveau dans le Centre d’administration [Microsoft Teams.](manage-teams-skypeforbusiness-admin-center.md)Celui-ci devrait bientôt être disponible sur votre client. Dès qu’elle est disponible, vous trouverez des informations sur la migration de vos utilisateurs dans La définition de vos paramètres de coexistence et de mise [à niveau.](https://aka.ms/SkypeToTeams-SetCoexistence)
+Nous travaillons activement au déploiement des outils de mise à niveau dans le Centre d’administration [Microsoft Teams.](manage-teams-skypeforbusiness-admin-center.md)Celui-ci devrait bientôt être disponible sur votre client. Dès qu’elle est disponible, des informations sur la migration de vos utilisateurs sont disponibles dans Paramètres de coexistence et de mise [à niveau.](https://aka.ms/SkypeToTeams-SetCoexistence)
 
 Si vous êtes prêt à mettre à niveau dès aujourd’hui, vous pouvez utiliser les commandes [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) répertoriées dans le tableau suivant.
 

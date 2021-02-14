@@ -26,7 +26,7 @@ tblChat contient tous les messages de conversation.
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |channelId  <br/> |int, non null  <br/> |ID de nœud.  <br/> |
 |chatId  <br/> |bigint, non null  <br/> |Numéro d’ordre unique (par ID de nœud) qui définit l’ordre de la salle de conversation, généré par la table tblLastChatId.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: E-mails et enquêtes sur Microsoft Teams Transition | Mise à niveau de base
+title: E-mails et enquêtes microsoft Teams Transition | Mise à niveau de base
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et si une ou plusieurs activités sont à découvrir.
 
-| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | N/A | Vous ne savez pas ou ne vous connaissez pas | | | | |
+| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | S/O | Vous ne savez pas ou ne vous connaissez pas | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Utiliser Teams pour la messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
 | Utiliser Teams pour les réunions en ligne | | | | | | | | | | |

@@ -24,7 +24,7 @@ ms.locfileid: "49809944"
  
 La table Servers est une table de prise en charge qui stocke des informations sur les différents serveurs. Chaque enregistrement de la table représente un serveur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ServerId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce serveur.  <br/> |
 |**ServerFQDN** <br/> |nvarchar(256)  <br/> | <br/> |Nom deqdn du serveur.  <br/> |

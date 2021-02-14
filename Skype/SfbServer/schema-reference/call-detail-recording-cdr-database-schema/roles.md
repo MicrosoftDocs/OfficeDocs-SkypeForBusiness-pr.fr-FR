@@ -24,7 +24,7 @@ ms.locfileid: "49809974"
  
 La table Roles est une table statique qui stocke la liste des rôles possibles pour les conférences, tels que participant et présentateur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**RoleId** <br/> |tinyint  <br/> |Primaire  <br/> ||
 |**Role** <br/> |nvarchar(256)  <br/> || Valeurs autorisées : <br/>  0 - Inconnu <br/>  1 - Présentateur <br/>  2 - Participant <br/> |

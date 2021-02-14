@@ -26,7 +26,7 @@ tblPrincipalMemberDifference contient les modifications d’appartenance aux gro
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |GUID, non null  <br/> |GUID principal du groupe qui a été modifié.  <br/> |
 |memberADPath  <br/> |nvarchar (256)  <br/> |Nom unique du membre.  <br/> |

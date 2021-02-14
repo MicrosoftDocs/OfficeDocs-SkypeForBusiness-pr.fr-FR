@@ -49,31 +49,31 @@ Vous pouvez gérer la plupart des stratégies de conférence et des paramètres 
   
 - Pour gérer les paramètres de stratégie de conférence :
     
-  - Dans le Panneau de contrôle, **sélectionnez Conférence | Stratégie de conférence.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Stratégie de conférence.**
     
   - Dans PowerShell, recherchez les cmdlets **-CsConferencingPolicy.**
     
 - Pour gérer les paramètres de configuration de réunion :
     
-  - Dans le Panneau de contrôle, **sélectionnez Conférence | Configuration de la réunion.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Configuration de la réunion.**
     
   - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsMeetingConfiguration.**
     
 - Pour gérer les paramètres de numéro d’accès à la connexion :
     
-  - Dans le Panneau de contrôle, **sélectionnez Conférence | Numéro d’accès à la connexion.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Numéro d’accès à la connexion.**
     
   - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsDialInConferencing.**
     
 - Pour gérer les informations d’accès aux appels, telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN : 
     
-  - Dans le Panneau de contrôle, **sélectionnez Conférence | Routage des voix.**
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Routage des voix.**
     
   - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsDialPlan** et **-CsVoice.**
     
 - Pour gérer les paramètres de stratégie de code confidentiel :
     
-  - Dans le Panneau de contrôle, **sélectionnez Conférence | Stratégie de code confidentiel**.
+  - Dans le Panneau de contrôle, sélectionnez **Conférence | Stratégie de code confidentiel**.
     
   - Dans Skype Entreprise Server Management Shell, recherchez les cmdlets **-CsPinPolicy.**
     

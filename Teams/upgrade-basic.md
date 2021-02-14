@@ -1,5 +1,5 @@
 ---
-title: Liste de contrôle de la mise à niveau| Mise à niveau de Skype Entreprise vers Teams | Étapes de base
+title: Liste de vérification de la mise à niveau | Mise à niveau de Skype Entreprise vers Teams | Étapes de base
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -34,7 +34,7 @@ ms.locfileid: "49809084"
 
 <a name="about-upgrade-basic"></a>
 
-Conçue pour les petites organisations ou celles qui utilisent Skype Entreprise Online pour la messagerie instantanée (conversation) et les réunions uniquement, la liste de contrôle Mise à niveau de base est un plan d’action accélérée qui inclut des activités principales et recommandées ainsi que des ressources associées pour la réussite du passage de Skype Entreprise à Teams.
+Conçue pour les petites organisations ou celles qui utilisent Skype Entreprise Online pour la messagerie instantanée (conversation) et les réunions uniquement, la liste de contrôle Mise à niveau de base est un plan d’action accélérée qui inclut des activités principales et recommandées, ainsi que des ressources associées pour la réussite de la mise en œuvre d’un passage de Skype Entreprise à Teams.
 
 Ces dix étapes simples fournissent tout ce dont vous avez besoin pour réussir la mise à niveau. Ces tâches sont conçues pour être effectuées en 30 à 45 jours, mais vous devez ajuster les dates d’achèvement des tâches en fonction du calendrier de mise à niveau de votre organisation.
 
@@ -44,13 +44,13 @@ Ces dix étapes simples fournissent tout ce dont vous avez besoin pour réussir 
 Qu’advient-il de Skype Entreprise après la mise à niveau ? Après la mise à niveau de vos utilisateurs vers Teams (mode **Teams uniquement**) :
 
 - Son client Skype Entreprise est désactivé, et toutes les discussions et appels se placent dans Teams. Notez que cela ne désinstalle pas le client sur son ordinateur de bureau.
-- Toute réunion Skype Entreprise qui a été programmée avant le travail de mise à niveau, mais toutes les nouvelles réunions sont prévues dans Teams. Le plug-in Skype Entreprise ne sera plus disponible dans Outlook. 
+- Toutes les réunions Skype Entreprise qui ont été programmées avant le travail de mise à niveau, mais toutes les nouvelles réunions sont prévues dans Teams. Le plug-in Skype Entreprise ne sera plus disponible dans Outlook. 
 - Si un utilisateur tente de se connecter à Skype Entreprise, il reçoit une notification de la part de son client lui signalant qu’il a été mis à niveau vers Teams.
 - Les utilisateurs doivent désinstaller manuellement le client Skype Entreprise sur leurs appareils mobiles.
 
 Consultez notre [FAQ pour](https://aka.ms/SkypeToTeams-FAQ) d’autres questions sur votre mise à niveau.
 
-Vous n’êtes pas familiarisé avec Teams ? Découvrez comment [Teams](https://products.office.com/microsoft-teams/group-chat-software) regroupe les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en offrant une plateforme unique pour le travail d’équipe dans Microsoft 365 et Office 365.
+Vous n’êtes pas familiarisé avec Teams ? Découvrez comment [Teams](https://products.office.com/microsoft-teams/group-chat-software) regroupe les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, offrant une plateforme unique pour le travail d’équipe dans Microsoft 365 et Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -76,7 +76,7 @@ Les cadres supérieurs sont responsables du succès de l’entreprise. assurez-v
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Teams offre des fonctionnalités compatibles de Skype Entreprise, telles que la messagerie instantanée (conversation) et les réunions, mais elle peut également en faire beaucoup plus. En tant que plateforme pour le travail d’équipe, Teams permet aux groupes de travail de gérer des projets, des fichiers, des conversations et des applications dans un seul emplacement. Par défaut, Teams est activé pour toutes les organisations. Décidez comment votre organisation utilisera Teams et configurez votre environnement pour le succès. 
+Teams offre des fonctionnalités compatibles de Skype Entreprise, telles que la messagerie instantanée (conversation) et les réunions, mais elle peut également en faire beaucoup plus. En tant que plateforme pour le travail d’équipe, Teams permet aux groupes de travail de gérer des projets, des fichiers, des conversations et des applications dans un emplacement unique. Par défaut, Teams est activé pour toutes les organisations. Décidez comment votre organisation utilisera Teams et configurez votre environnement pour le succès. 
 
 > [!Note]
 > En tant que client Skype Entreprise, votre infrastructure réseau actuelle est probablement déjà configurée pour Teams. Pour confirmer cela, vous pouvez suivre les instructions de « Planification technique complète » ci-dessous (facultatives).
@@ -112,7 +112,7 @@ Les utilisateurs qui sont fortement adoptées sur Skype Entreprise peuvent avoir
 
 *(Environ deux à trois semaines avant la mise à niveau)*
 
-Si vous fournissez aé davantage de temps à vos utilisateurs, vous leur donnez le temps de vous familiariser avec Teams sans affecter négativement leur productivité et ainsi une expérience utilisateur plus positive. Envoyez une communication pour lui dire ce qui change, pourquoi elle change et comment elle peut se préparer.
+Si vous fournissez des informations suffisantes à vos utilisateurs, vous leur donnez le temps de vous familiariser avec Teams sans affecter négativement leur productivité, ce qui permet à ces derniers de se familiariser plus positivement avec l’expérience utilisateur. Envoyez une communication pour lui dire ce qui change, pourquoi elle change et comment elle peut se préparer.
 
 > [!Note]
 > Si nécessaire, vous pouvez activer Teams pour vos utilisateurs via le Centre d’administration Microsoft 365 pour le moment.
@@ -164,7 +164,7 @@ Les utilisateurs sont occupés par leurs responsabilités quotidiennes. Le rappe
 
 *(Jour de mise à niveau)*
 
-Aujourd’hui, c’est le jour où votre organisation fait officiellement la mise à niveau vers Teams comme solution de communication et de collaboration. Dans le Centre d’administration Microsoft Teams, activez le commutateur de mise à niveau en activant le mode de coexistence **sur Teams uniquement.** (Dans le Centre d’administration, voir **Paramètres à l’échelle de l’organisation.**  >  **Mise à niveau teams**.) Les utilisateurs reçoivent une notification dans leur client Skype Entreprise leur avertissant qu’ils ont été mis à niveau vers Teams.
+Aujourd’hui, c’est le jour où votre organisation fait officiellement la mise à niveau vers Teams en tant que solution de communication et de collaboration. Dans le Centre d’administration Microsoft Teams, activez le commutateur de mise à niveau en activant le mode de coexistence **sur Teams uniquement.** (Dans le Centre d’administration, voir **Paramètres à l’échelle de l’organisation.**  >  **Mise à niveau teams**.) Les utilisateurs reçoivent une notification dans leur client Skype Entreprise leur avertissant qu’ils ont été mis à niveau vers Teams.
 
 Nous vous recommandons d’envoyer un courrier électronique de bienvenue à Teams après la mise à niveau de tout le monde.
 
@@ -199,7 +199,7 @@ L’ajustement à une nouvelle technologie peut prendre du temps. Vérifiez l’
 
 *(Environ une ou deux semaines après la mise à niveau)*
 
-La satisfaction des employés peut influencer la productivité, la rétention et, finalement, les résultats d’entreprise. Parlez-en à vos utilisateurs pour évaluer les opinions des utilisateurs concernant la mise à niveau et leur satisfaction concernant Teams.
+La satisfaction des employés peut influencer la productivité, la rétention et, finalement, les résultats d’entreprise. Pour évaluer la satisfaction des utilisateurs concernant la mise à niveau et la satisfaction de ces derniers, parlez-en à vos utilisateurs.
 
 **Ressources :**
 
@@ -215,7 +215,7 @@ La satisfaction des employés peut influencer la productivité, la rétention et
 
 *(en cours)*
 
-Une fois que les utilisateurs sont à l’aise avec la messagerie instantanée (conversation) et les réunions dans Teams, encouragez-les à étendre leur cas d’utilisation en utilisant la collaboration et l’intégration des applications Teams, optimiser véritablement leur nouvelle solution et maximiser un retour sur investissement.
+Une fois que les utilisateurs sont à l’aise avec la messagerie instantanée (conversation) et les réunions dans Teams, encouragez-les à étendre leur cas d’utilisation en utilisant la collaboration et l’intégration des applications Teams, réellement optimiser leur nouvelle solution et maximiser un retour sur investissement.
 
 **Ressources :**
 

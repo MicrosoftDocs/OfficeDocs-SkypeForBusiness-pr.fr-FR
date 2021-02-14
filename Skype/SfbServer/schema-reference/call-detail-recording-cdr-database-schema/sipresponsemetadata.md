@@ -26,7 +26,7 @@ La table SIPResponseMetaDataTable contient la liste des codes de réponse SIP et
   
 Ce tableau a été introduit dans Skype Entreprise Server 2015.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ResponseCode** <br/> |int  <br/> |Primaire  <br/> |Valeur numérique qui représente le code de réponse SIP.  <br/> |
 |**Classe** <br/> |int  <br/> || Classification générale pour le code de réponse. Les classifications comprennent : <br/>  1 - Réponses d’information <br/>  2 - Réponses réussies <br/>  3 - Réponses de redirection <br/>  4 - Réponses d’échec du client <br/>  5 -- Réponses de défaillance du serveur <br/>  6 - Réponse d’échec global <br/> |

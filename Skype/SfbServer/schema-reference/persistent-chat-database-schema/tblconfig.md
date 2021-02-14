@@ -26,7 +26,7 @@ tblConfig contient une configuration non pris en compte du serveur de conversati
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |configLabel  <br/> |nvarchar (255), non null  <br/> |Contient « pool ».  <br/> |
 |configContent  <br/> |nvarchar (max)  <br/> |Contenu de configuration.  <br/> |

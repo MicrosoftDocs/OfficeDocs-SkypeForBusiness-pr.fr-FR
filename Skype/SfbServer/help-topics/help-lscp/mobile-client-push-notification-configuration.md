@@ -50,7 +50,7 @@ La création d’une stratégie et la modification d’une stratégie existante 
   
 - **Commit** L’action de validation crée ou met à jour la stratégie et enregistre les modifications
     
-- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, toutes les modifications apportées seront perdues.
+- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, les modifications apportées seront perdues.
     
 Deux paramètres sont possibles pour **Configuration des notifications push**. Les paramètres sont associés aux services de notification push pour Microsoft et Apple. Vous pouvez activer la notification push pour l’un ou l’autre service en activant la case à cocher en regard du nom du service. Vous pouvez désactiver la case à cocher en cliquant dessus à nouveau. Une fois vos sélections effectuées, vous pouvez valider ou annuler. Cliquez sur Valider pour enregistrer les modifications apportées à la stratégie.
   

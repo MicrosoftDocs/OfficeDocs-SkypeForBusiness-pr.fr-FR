@@ -26,7 +26,7 @@ tblComplianceState contient des informations d’état de conformité à l’éc
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |lastProcessedEntryID  <br/> |bigint, non null  <br/> |ID du dernier événement de conformité traitée.  <br/> |
 |activeServerID  <br/> |int, non null  <br/> |ID du serveur de conformité qui détient le verrou exclusif sur la base de données, ou -1 si aucun.  <br/> |

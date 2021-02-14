@@ -26,7 +26,7 @@ La table AppSharingMetricsThreshold contient les valeurs optimales et acceptable
   
 Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**CallType** <br/> |int  <br/> |Primaire  <br/> |Type d’appel passé.  <br/> |
 |**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||Limite de bande passante optimale pour le partage d’application. La valeur par défaut est 1 000 000.  <br/> |

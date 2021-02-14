@@ -24,7 +24,7 @@ ms.locfileid: "49809954"
  
 La vue SessionDetails stocke des informations sur les sessions D’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou un autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Boîtes de dialogue du tableau Skype Entreprise [Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
@@ -72,8 +72,8 @@ La vue SessionDetails stocke des informations sur les sessions D’égal à éga
 |**CallPriority** <br/> |nvarchar(256)  <br/> |Priorité d’appel de la session.  <br/> |
 |**FromUserFlag** <br/> |smallint  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Intégré dans téléphone de bureau  <br/> |
 |**ToUserFlag** <br/> |smallint  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Intégré dans téléphone de bureau  <br/> |
-|**CallFlag** <br/> |smallint  <br/> |Indique les attributs de l’appel. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Nouvelle tentative de session  <br/> 0x02 : appel effectué par l’agent au nom d’un groupe Response Group  <br/> |
-|**Location** <br/> |varchar(max)  <br/> |Emplacement de l’appel d’urgence.  <br/> |
+|**CallFlag** <br/> |smallint  <br/> |Indique les attributs de l’appel. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Nouvelle tentative de session  <br/> 0x02 : appel effectué par un agent au nom d’un groupe Response Group  <br/> |
+|**Emplacement** <br/> |varchar(max)  <br/> |Emplacement de l’appel d’urgence.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> |Réservé à un usage interne par le service de surveillance.  <br/> Ce champ a été introduit dans Skype Entreprise Server 2015.  <br/> |
    
 

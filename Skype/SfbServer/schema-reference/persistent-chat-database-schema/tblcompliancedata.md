@@ -26,7 +26,7 @@ tblComplianceData contient les événements de conformité qui n’ont pas encor
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |cmplEventID  <br/> |bigint, non null  <br/> |ID d’événement.  <br/> |
 |entryDate  <br/> |smalldatetime, non null  <br/> |Moment de l’insertion (peut être éloigné dans le futur pour cmplType=9, car l’entrée est juste un espace réservé dans ce cas).  <br/> |

@@ -26,7 +26,7 @@ La table tblComplianceFanout contient tous les serveurs qui ont traité un évé
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |fanoutEventID  <br/> |int  <br/> |ID d’événement.  <br/> |
 |fanoutServerID  <br/> |int  <br/> |Identité du serveur (correspondant à la table tblServerIdentity.serverID).  <br/> |

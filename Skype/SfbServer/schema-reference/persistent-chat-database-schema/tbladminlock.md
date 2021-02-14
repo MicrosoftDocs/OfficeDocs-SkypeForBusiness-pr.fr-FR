@@ -26,7 +26,7 @@ tblAdminLock contient le verrou d’administrateur nécessaire pour exécuter ce
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |lockExpiresTime  <br/> |datetime, not null  <br/> |Date et heure d’expiration du verrou. Le propriétaire peut étendre cette valeur de manière périodique.  <br/> |
 |lockServerID  <br/> |int, non null  <br/> |ID du serveur qui détient le verrou.  <br/> |

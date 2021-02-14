@@ -106,12 +106,12 @@ Les recommandations et les meilleures pratiques à prendre en compte lors du dé
 
 - Procurez-vous des numéros de téléphone valides pour Outlook Voice Access et le standard automatique.
 
-- Si vous utilisez une version d’Exchange UM antérieure à Microsoft Exchange Server 2010 Service Pack 1 (SP1), les noms de coordonnées des plans de numérotation URI SIP de la Voix Entreprise Exchange.
+- Si vous utilisez une version de la um Exchange antérieure à Microsoft Exchange Server 2010 Service Pack 1 (SP1), les noms de coordonnées pour les plans de numérotation URI SIP de la Voix Entreprise Exchange.
 
 ### <a name="deploying-redundant-exchange-um-servers"></a>Déploiement de serveurs de messagerie unifiée Exchange redondants :
 
 > [!IMPORTANT]
-> Nous vous recommandons de déployer au moins deux serveurs sur lesquels les services de messagerie un jour Exchange sont en cours d’exécution pour chaque plan de numérotation URI SIP de messagerie unie Exchange que vous configurez pour votre organisation. En plus de fournir une capacité étendue, le déploiement de serveurs redondants fournit une haute disponibilité. En cas de défaillance d’un serveur, Skype Entreprise Server peut être configuré pour le faire échouer vers un autre serveur.
+> Nous vous recommandons de déployer au moins deux serveurs sur lesquels les services de messagerie un jour Exchange sont en cours d’exécution pour chaque plan de numérotation URI SIP de messagerie unie Exchange que vous configurez pour votre organisation. En plus de fournir une capacité étendue, le déploiement de serveurs redondants fournit une haute disponibilité. En cas de défaillance d’un serveur, Skype Entreprise Server peut être configuré de manière à ce qu’il soit retenté sur un autre serveur.
 
 Les configurations de l’exemple suivant fournissent la résistance à la messagerie unifiée Exchange.
 

@@ -145,7 +145,7 @@ Pour plus d’informations, voir [la description du service Skype Entreprise Onl
 
  &#x2776; les participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise sur Mac, Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pas non plus pour Skype Entreprise Web App sur Max OSX.
 
- &#x2777; pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence PSTN Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
+ &#x2777; Pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence PSTN Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
 
  &#x2778; Le client Lync pour Mac 2011 ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lorsqu’elles ont été partagées dans une conférence par Skype Entreprise Web App.
 
@@ -180,7 +180,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Parcage d'appel |&#x2714;||&#x2714; &#x2776; |
 |Collecte d'appel de groupe |&#x2714;||&#x2714; &#x2776; |
 |Routage basé sur un emplacement |&#x2714;|&#x2714;|&#x2714;| 
-|Gérer response group/groupe d’appels d’équipe |&#x2714;||&#x2714;|
+|Gérer le groupe d’appels Response Group/Team |&#x2714;||&#x2714;|
 
  &#x2776; cette fonctionnalité n’est pas disponible dans Skype Entreprise Online.
 
@@ -216,7 +216,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de l’enreg
 
 Ce tableau couvre les fonctionnalités nécessitant la prise en charge de l’authentification moderne. 
 
-L’authentification moderne nécessite également une topologie décrite dans les topologies Skype Entreprise pris en [charge avec l’authentification moderne.](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md)
+L’authentification moderne nécessite également une topologie décrite dans les topologies Skype Entreprise pris en charge [avec l’authentification moderne.](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md)
 
 
  | Fonctionnalité/fonctionnalité | Client Skype Entreprise 2015, 2016 ou 2019 | Skype Entreprise sur Mac | Client Lync 2013 | 

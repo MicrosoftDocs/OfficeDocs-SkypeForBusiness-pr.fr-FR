@@ -25,9 +25,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809064"
 ---
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Améliorez votre utilisation de Teams après la mise à niveau
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>1000000000(s) 100000000000(s
 
-![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase d’excellence opérationnelle")
+![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
 
 Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype Entreprise vers Teams.
 
@@ -43,5 +43,5 @@ Si vous voyez des possibilités d’améliorer votre service, prenez le temps de
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez les personnes qui surveilleront les feuilles de route publiques et les autres annonces de service pour les nouvelles fonctionnalités ou services dont votre organisation pourrait bénéficier.</li><li>Décidez de la cadence dans laquelle signaler ces nouvelles fonctionnalités ou services aux principales parties prenantes, via votre comité directeur.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Implémentez une stratégie pour rester à jour avec vos services afin d’obtenir le meilleur prix pour votre organisation.</li><li>Apporter des améliorations au service tout au long d’un cycle de vie de projet complet afin de vous assurer que vous avez pris en compte correctement l’impact qu’ils ont sur votre déploiement.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Implémentez une stratégie pour rester à jour avec vos services afin d’obtenir le meilleur prix pour votre organisation.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ul></td></tr>
 </table>

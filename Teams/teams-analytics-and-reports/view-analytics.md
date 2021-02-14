@@ -44,8 +44,8 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
     |Option |Description  |
     |--------|-------------|
     |**Nom**   |Nom de l’équipe. |
-    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance pendant la période spécifiée.
-    |**Personnes**   |Nombre total de membres de l’équipe au cours de la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
+    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance au cours de la période spécifiée.
+    |**Personnes**   |Nombre total de membres de l’équipe pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Invités**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
     |**Billets**   |Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée. |
     |**Réponses**   |Nombre de réponses dans la conversation d’équipe pendant la période spécifiée. |
@@ -61,7 +61,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
     |Option |Description  |
     |--------|-------------|
-    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** Nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
+    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
     |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs et inactifs.|
     |**Rôle**   |Nombre d’utilisateurs par rôle, y compris les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Graphique Utilisateurs actifs**  |Nombre d’activités quotidiennes actives. Pointez sur le point sur une date donnée pour voir le nombre d’utilisateurs actifs à cette date.|
@@ -76,7 +76,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 2. Cliquez sur **l’onglet** Analyse.
 3. Sélectionnez une plage de dates pour afficher les données d’utilisation du canal.  
 
-    ![Capture d’écran de l’affichage analyse par canal](../media/view-analytics-per-channel.png)
+    ![Capture d’écran de l’affichage Analyse par canal](../media/view-analytics-per-channel.png)
 
     |Option |Description  |
     |--------|-------------|

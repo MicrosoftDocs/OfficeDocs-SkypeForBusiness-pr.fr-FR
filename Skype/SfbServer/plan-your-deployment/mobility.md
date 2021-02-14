@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: Planifiez l’implémentation de mobility for Skype for Business Server.
+description: Planifiez votre implémentation de Mobility for Skype for Business Server.
 ms.openlocfilehash: 6452154db1047cfe91a7c8ceaf6ee6c63b94ee6b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "49810074"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planifier la mobilité pour Skype Entreprise Server
  
-Planifiez l’implémentation de mobility for Skype for Business Server.
+Planifiez votre implémentation de Mobility for Skype for Business Server.
   
 Avec Skype Entreprise Server, vous pouvez déployer la fonctionnalité mobilité pour fournir la fonctionnalité Skype Entreprise Server sur les appareils mobiles. Cet article fournit des détails sur la fonctionnalité de mobilité et vous aide à planifier votre déploiement.
   
@@ -56,7 +56,7 @@ Tout cela est réalisé par le biais de l’API Web communications unifiées ou 
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-Il est important de noter que même si toutes ces fonctionnalités sont disponibles une fois la mobilité implémentée, elles peuvent fonctionner un peu différemment sur certains appareils. Nous avons un site web qui décrit les fonctionnalités qui fonctionnent sur quels appareils, à l’adresse de comparaison des fonctionnalités client mobiles [pour Skype Entreprise.](clients-and-devices/mobile-feature-comparison.md) Nous avons également d’excellentes informations sur les appareils et le système d’exploitation sur [la façon de planifier les clients et les appareils.](clients-and-devices/clients-and-devices.md)
+Il est important de noter que même si toutes ces fonctionnalités sont disponibles une fois la mobilité implémentée, elles peuvent fonctionner un peu différemment sur certains appareils. Nous avons un site web qui décrit les fonctionnalités qui fonctionnent sur quels appareils, sur mobile client comparaison des fonctionnalités [pour Skype Entreprise](clients-and-devices/mobile-feature-comparison.md). Nous avons également d’excellentes informations sur les appareils et le système d’exploitation sur [la façon de planifier les clients et les appareils.](clients-and-devices/clients-and-devices.md)
   
 La mobilité utilise la fonctionnalité de découverte automatique, qui permet aux clients de localiser automatiquement les services web Skype Entreprise Server sans que les utilisateurs n’ont besoin d’entrer d’URL (ils n’ont même pas besoin de les connaître). Si vous devez résoudre certains problèmes, l’entrée manuelle des URL est toujours prise en charge.
   
@@ -246,9 +246,9 @@ Nous avons un tableau pour vous aider avec certaines des fonctionnalités dispon
 |:-----|:-----|:-----|:-----|
 |Activer la mobilité  <br/> |EnableMobility  <br/> |Contrôle les utilisateurs dans une étendue donnée qui ont installé le client mobile Skype Entreprise. Si la stratégie est définie sur False, vos utilisateurs ne pourront pas se connecter avec leur client.  <br/> |Vrai  <br/> |
 |Voix extérieure  <br/> |EnableOutsideVoice  <br/> |Permet à un utilisateur d’utiliser l’appel via le lieu de travail, ce qui permet aux utilisateurs d’envoyer et de recevoir des appels à l’aide de leur numéro de travail au lieu de leur numéro de téléphone mobile. Si elle est définie sur False, vos utilisateurs ne pourront pas effectuer ou recevoir d’appels sur leur téléphone mobile lors de l’utilisation de leur numéro de téléphone professionnels.  <br/> |Vrai  <br/> |
-|Activer l’audio et la vidéo IP  <br/> |EnableIPAudioVideo  <br/> |Définie sur la valeur par défaut, elle permet à un utilisateur d’utiliser voIP pour effectuer ou recevoir des appels téléphoniques ou vidéo sur son appareil mobile. S’il a été définie sur False, vos utilisateurs ne pourront pas utiliser leur appareil mobile pour faire l’une ou l’autre de ces choses.  <br/> |Vrai  <br/> |
-|Exiger le WiFi pour l’audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Définit si un client doit effectuer et recevoir des appels via VoIP sur WiFi au lieu d’un réseau de données cellulaire. Si la valeur est True, vos utilisateurs pourront uniquement effectuer et recevoir des appels VoIP lorsqu’ils sont connectés via WiFi.  <br/> |False  <br/> |
-|Exiger le WiFi pour la vidéo IP  <br/> |RequireWiFiForIPVideo  <br/> |Définit si un client doit effectuer et recevoir des appels vidéo sur Le WiFi au lieu d’un réseau de données cellulaire. Si la valeur est True, vos utilisateurs pourront uniquement effectuer et recevoir des appels VoIP lorsqu’ils sont connectés via WiFi.  <br/> |False  <br/> |
+|Activer l’audio et la vidéo IP  <br/> |EnableIPAudioVideo  <br/> |Définie sur la valeur par défaut, elle permet à un utilisateur d’utiliser voIP pour effectuer ou recevoir des appels téléphoniques ou vidéo sur son appareil mobile. Si la qualité est False, vos utilisateurs ne pourront pas utiliser leur appareil mobile pour faire l’une ou l’autre de ces choses.  <br/> |Vrai  <br/> |
+|Exiger le WiFi pour l’audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Définit si un client doit effectuer et recevoir des appels via VoIP sur WiFi au lieu d’un réseau de données cellulaire. Si la valeur est True, vos utilisateurs pourront uniquement effectuer et recevoir des appels VoIP lorsqu’ils sont connectés via WiFi.  <br/> |Faux  <br/> |
+|Exiger le WiFi pour la vidéo IP  <br/> |RequireWiFiForIPVideo  <br/> |Définit si un client doit effectuer et recevoir des appels vidéo sur Le WiFi au lieu d’un réseau de données cellulaire. Si la valeur est True, vos utilisateurs pourront uniquement effectuer et recevoir des appels VoIP lorsqu’ils sont connectés via WiFi.  <br/> |Faux  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>Les utilisateurs qui ne sont pas activés pour Voix Entreprise peuvent-ils utiliser Click to Join pour participer à des conférences ?
 
