@@ -13,7 +13,7 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Pour obtenir de l’aide dans Microsoft Teams, voir les rubriques d’aide, vidéos, notes de publication et forums de commentaires.
+description: Découvrez les rubriques d’aide, les vidéos, les notes de publication et les forums de commentaires pour obtenir de l’aide dans Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
@@ -27,17 +27,17 @@ ms.locfileid: "46583211"
 <a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
 ============================================
 
-Le bouton aide de Microsoft teams est l’endroit où les utilisateurs et les champions peuvent accéder à toutes les informations dont ils ont besoin lors de l’utilisation d’équipes.
+Le bouton Aide de Microsoft Teams permet à vos utilisateurs et champions de trouver toute l’assistance dont ils auront besoin lors de l’utilisation de Teams.
 
-Teams fournit une prise en charge linguistique localisée pour le contenu d’aide. Pour obtenir la liste actualisée des langues prises en charge, voir [langues prises en charge par Microsoft teams pour le contenu d’aide](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
+Teams fournit un support des langues localisées pour le contenu d’aide. Pour obtenir la liste la plus complète des langues prise en charge, consultez les langues prise en charge par [Microsoft Teams pour le contenu d’aide.](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)
 
- - **Parcourir les rubriques** : cette option vous permet d’accéder au contenu d’aide organisé par Teams. Conseils simples et simples pour aider les utilisateurs à tirer le meilleur parti de teams. 
+ - **Parcourir les rubriques** - Cela permet d’aider le contenu organisé par fonctionnalité Teams. Instructions simples et simples pour aider les utilisateurs à obtenir le meilleur partir de Teams. 
 
- - **Vidéos** : notre contenu vidéo à la demande permet aux utilisateurs d’effectuer des tâches spécifiques en toute rapidité. Comme nous offrons en continu de nouvelles vidéos, consultez-les fréquemment. Un accès Internet est nécessaire, bien évidemment. 
+ - **Vidéos** : notre contenu vidéo à la demande permet aux utilisateurs d’apprendre rapidement des tâches spécifiques. Nous ne cessons de produire de nouvelles vidéos. Par contre, consultez cette vidéo fréquemment. L’accès à Internet est évidemment nécessaire. 
 
  - **Nouveautés** - 
-    Notes de publication périodiques pour les utilisateurs et les propriétaires d’équipe concernant les fonctionnalités des équipes nouvelles ou mises à jour.
+    Notes de publication périodiques pour les utilisateurs et les propriétaires d’équipe concernant les fonctionnalités nouvelles ou mises à jour de Teams.
 
- - **Partager une idée** : nous souhaitons toujours vous entendre sur la manière d’améliorer Teams. Cette option vous permet d’accéder à notre forum de commentaires sur les produits, où vous pouvez envoyer de nouvelles demandes de fonctionnalité ou voter sur des demandes existantes. Nous recherchons constamment ces informations à mesure que nous prévoyons de nouvelles fonctionnalités. 
+ - **Partagez une idée** : nous souhaitons toujours nous faire part de vos informations sur la manière d’améliorer Teams. Cette option vous permet d’utiliser notre forum de commentaires sur les produits, où vous pouvez envoyer des demandes de nouvelles fonctionnalités ou voter pour des demandes existantes. Nous ne cessons de passer en revue ces informations au moment où nous prévoyons de nouvelles fonctionnalités. 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Tableau de bord d’État pour le routage direct
+title: Tableau de bord d’état pour le routage direct
 ms.reviewer: nmurav
 ms.author: crowe
 author: CarolynRowe
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment utiliser le tableau de bord d’état d’intégrité pour contrôler la connexion entre votre contrôleur de bordure de session et le routage direct.
+description: Découvrez comment utiliser le tableau de bord d’état pour surveiller la connexion entre votre contrôleur de session border controller et le routage direct.
 ms.openlocfilehash: a75510340815489921a5dd67a204b6914a9539d4
 ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
@@ -23,89 +23,89 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 07/22/2020
 ms.locfileid: "45229110"
 ---
-# <a name="health-dashboard-for-direct-routing"></a>Tableau de bord d’État pour le routage direct
+# <a name="health-dashboard-for-direct-routing"></a>Tableau de bord d’état pour le routage direct
 
-Le tableau de bord d’intégrité pour le routage direct vous permet d’analyser la connexion entre votre contrôleur de bordure de session et l’interface de routage directe.  Le tableau de bord d’État vous permet d’surveiller les informations relatives à votre SBC, au service de téléphonie et aux paramètres réseau entre votre SBC et l’interface de routage directe. Ces informations peuvent vous aider à identifier les problèmes, notamment le motif des appels interrompus. Par exemple, l’SBC peut arrêter d’envoyer des appels si un certificat sur l’SBC a expiré ou s’il rencontre des problèmes de réseau. Pour plus d’informations sur les personnes autorisées à accéder au tableau de bord d’État, voir [rôles d’administrateur](using-admin-roles.md) .
+Le tableau de bord d’état du routage direct vous permet de surveiller la connexion entre votre contrôleur de session border Controller (SBC) et l’interface de routage directe.  Le tableau de bord d’état vous permet de surveiller des informations sur votre SBC, le service téléphonique et les paramètres réseau entre votre SBC et l’interface de routage directe. Ces informations peuvent vous aider à identifier les problèmes, y compris la raison de l’abandon d’appels. Par exemple, il se peut que SBC cesse d’envoyer des appels si un certificat sur le SBC a expiré ou s’il existe des problèmes de réseau. Consultez les [rôles d’administrateur](using-admin-roles.md) pour savoir qui a accès au tableau de bord d’état d’état.
 
-Le tableau de bord d’état de santé analyse deux niveaux d’information :
+Le tableau de bord d’état surveille deux niveaux d’informations :
 
-- Intégrité globale de l’SBCs connectée
-- Informations détaillées sur la connexion SBCs connectée
+- État global des SBCS connectés
+- Informations détaillées sur les SBCS connectés
 
-Vous pouvez afficher le tableau de bord d’État dans le centre d’administration Microsoft teams et Skype entreprise.
+Vous pouvez afficher le tableau de bord d’état d’état dans Microsoft Teams et dans le Centre d’administration Skype Entreprise.
 
-## <a name="overall-health"></a>Intégrité globale
+## <a name="overall-health"></a>État global
 
-Le tableau de bord de santé fournit les informations suivantes relatives à l’intégrité globale de l’SBCs connectée :
+Le tableau de bord d’état fournit les informations suivantes relatives à l’état global des pc SBE connectés :
 
- ![Statistiques de tableau de bord d’État](media/direct-routing-dashboard-stats1.png)
+ ![Affiche les statistiques du tableau de bord d’état d’état](media/direct-routing-dashboard-stats1.png)
 
-- **Résumé du routage direct** : affiche le nombre total d’inscriptions SBCS inscrites dans le système. L’enregistrement implique que l’administrateur client a ajouté une SBC en utilisant la commande New-CsOnlinePSTNGateway. Si l’SBC a été ajouté dans PowerShell, mais n’est jamais connecté, le tableau de bord d’état de l’affichage affiche son état d’intégrité.
+- **Résumé du routage direct** : affiche le nombre total de PCB inscrits dans le système. L’inscription signifie que l’administrateur client a ajouté un SBC à l’aide de la New-CsOnlinePSTNGateway client. Si le SBC a été ajouté dans PowerShell, mais n’a jamais été connecté, le tableau de bord d’état le montre dans un état défectueux.
 
-- **SBC** -nom de domaine complet de l’SBC couplé.
+- **SBC** - FQDN du SBC couplé.
 
-- **Taux d’efficacité du réseau (ner)** : ner mesure la capacité d’un réseau à remettre des appels en mesurant le nombre d’appels envoyés par rapport au destinataire.  
+- Rapport d’efficacité du réseau **(NER)** - Cette taux mesure la capacité d’un réseau à fournir des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.  
 
-   Le NER mesure la capacité des réseaux à délivrer les appels vers le terminal principal, à l’exception des actions des utilisateurs qui génèrent des rejets d’appel.  Si le destinataire a rejeté un appel ou a envoyé l’appel à la boîte vocale, l’appel est considéré comme une remise réussie. Cela signifie qu’un message de réponse, un signal occupé ou une sonnerie sans réponse sont tous considérés comme des appels réussis.
+   La lettre NER mesure la capacité des réseaux à fournir des appels au terminal final, à l’exception des actions des utilisateurs qui entraînent des refus d’appel.  Si le destinataire a rejeté un appel ou envoyé l’appel vers la messagerie vocale, l’appel est comptabilisé comme une remise réussie. Cela signifie qu’un message de réponse, un signal occupé ou une sonnerie sans réponse sont considérés comme des appels réussis.
   
-   Par exemple, supposons que le routage direct envoie un appel au SBC et que le SBC renvoie le code SIP « 504 Server Time-Out-le serveur tente d’accéder à un autre serveur en essayant de traiter la demande sans recevoir de réponse d’invite ». Cette réponse indique qu’il y a un problème sur le côté de l’SBC et cela diminue le NER sur le tableau de bord d’état de cette SBC.
+   Par exemple, supposons que le routage direct a envoyé un appel au SBC et que celui-ci renvoie le code SIP « 504 Server Time-out - The server attempted to access another server in attempting to process the request and did not receive a prompt response ». Cette réponse indique qu’il existe un problème côté SBC, ce qui diminuera la réponse neR sur le tableau de bord d’état d’santé pour ce tableau de bord SBC.
   
-   Dans la mesure où l’action que vous prenez peut dépendre du nombre d’appels concernés, le tableau de bord d’État du service indique le nombre d’appels analysés pour calculer un paramètre. Si le nombre d’appels est inférieur à 100, le NER peut être très faible, mais rester normal.
+   Étant donné que l’action que vous prenez peut dépendre du nombre d’appels concernés, le Tableau de bord d’état d’état indique le nombre d’appels analysés pour calculer un paramètre. Si le nombre d’appels est inférieur à 100, la ner est peut-être assez faible, mais reste normale.
 
-   La formule utilisée pour calculer NER est la suivante :
+   La formule utilisée pour calculer LA VALEUR.NER est la formule :
 
-   NER = 100 x (appels en réponse + utilisateur occupé + sonne sans réponse + appel de rejet de terminaux)/Total appels
+   NER = 100 x (appels répondus + Occupé(e) + Sonnerie sans réponse + Refus du terminal)/Nombre total d’appels
 
-- **Durée d’appel moyenne** : les informations relatives à la durée d’appel moyenne vous permettent de surveiller la qualité des appels. La durée moyenne d’un appel RTC 1:1 est de quatre à cinq minutes.  Toutefois, pour chaque société, cette moyenne peut varier.  Microsoft recommande d’établir un planning de référence pour la durée d’appel moyenne de votre entreprise. Si ce paramètre est largement inférieur au planning de référence, il est possible que vos utilisateurs rencontrent des problèmes de qualité d’appel ou de fiabilité et qu’ils raccrochent plus tôt que d’habitude. Si vous commencez à afficher une durée d’appel très basse moyenne, par exemple 15 secondes, les appelants peuvent se bloquer, car votre service ne fonctionne pas correctement.
+- **Durée moyenne des appels** : les informations sur la durée moyenne des appels peuvent vous aider à surveiller la qualité des appels. La durée moyenne d’un appel PSTN 1:1 est de 4 à 5 minutes.  Cependant, pour chaque entreprise, cette moyenne peut différer.  Microsoft recommande d’établir un point de comparaison pour la durée moyenne des appels pour votre entreprise. Si ce paramètre passe nettement en dessous du point de comparaison, il peut indiquer que vos utilisateurs ont des problèmes de qualité ou de fiabilité des appels et sont raccrochants plus tôt que d’habitude. Si vous commencez à voir une durée moyenne d’appel extrêmement faible (par exemple, 15 secondes), il se peut que les appelants raccrochent parce que votre service ne fonctionne pas de manière fiable.
 
-   Dans la mesure où l’action que vous prenez peut dépendre du nombre d’appels concernés, le tableau de bord d’État du service indique le nombre d’appels analysés pour calculer un paramètre.
+   Étant donné que l’action que vous prenez peut dépendre du nombre d’appels concernés, le Tableau de bord d’état d’état indique le nombre d’appels analysés pour calculer un paramètre.
 
-- **État de la connectivité TLS** -la connectivité TLS (Transport Layer Security) indique l’état des connexions TLS entre le routage direct et l’SBC. Le tableau de bord d’État analyse également la date d’expiration du certificat et vous avertit si un certificat est configuré pour expirer dans les 30 jours, de sorte que les administrateurs puissent renouveler le certificat avant que le service ne soit interrompu.
+- État de la connectivité **TLS** - La connectivité TLS (Transport Layer Security) indique l’état des connexions TLS entre le routage direct et le SBC. Le tableau de bord d’état analyse également la date d’expiration du certificat et avertit qu’un certificat doit expirer dans les 30 jours de sorte que les administrateurs peuvent renouveler le certificat avant que le service ne soit interrompu.
 
-   En cliquant sur le message d’avertissement, vous pouvez afficher une description détaillée du problème dans une fenêtre contextuelle sur la droite et des recommandations pour résoudre le problème.
+   En cliquant sur le message d’avertissement, vous pouvez voir une description détaillée du problème dans une fenêtre pop-up sur la droite et des recommandations pour la façon de résoudre le problème.
 
-- **État des options SIP** : par défaut, le SBC envoie les messages d’options toutes les minutes. Cette configuration peut varier selon les différents fournisseurs de SBC. Le routage direct avertit si les options SIP ne sont pas envoyées ou ne sont pas configurées. Pour plus d’informations sur la surveillance des options SIP et sur les conditions quand un SBC peut être marqué comme ne fonctionne pas, voir [surveiller et résoudre les problèmes de routage direct](direct-routing-monitor-and-troubleshoot.md).
+- **État des options SIP** : par défaut, le SBC envoie des messages d’options toutes les minutes. Cette configuration peut varier pour différents fournisseurs SBC. Le routage direct vous avertit si les options SIP ne sont pas envoyées ou ne sont pas configurées. Pour plus d’informations sur la surveillance des options SIP et les conditions dans les cas où un SBC peut être marqué comme non fonctionnel, voir Surveiller et dépanner le [routage direct.](direct-routing-monitor-and-troubleshoot.md)
 
-- **État des options SIP détaillées** -en plus de montrer qu’il y a un problème avec le flux d’options SIP, le tableau de bord d’État fournit également une description détaillée des erreurs. Vous pouvez accéder à la description en cliquant sur le message « avertissement ». Une fenêtre contextuelle à droite affiche la description détaillée de l’erreur.
+- État détaillé des options SIP : outre l’affichage d’un problème avec le flux des options **SIP,** le tableau de bord d’état fournit des descriptions détaillées des erreurs. Vous pouvez accéder à la description en cliquant sur le message d’avertissement. Une fenêtre pop-up à droite affiche la description détaillée de l’erreur.
 
-   Les valeurs possibles pour les messages d’état des options SIP sont les suivantes :
+   Les valeurs possibles pour les messages d’état des options SIP sont les suivantes :
 
-    - Actif – le SBC est actif--le service de routage direct Microsoft a accès aux options de flux régulier.
+    - Actif : le service de routage SBC est actif--Microsoft Direct Routing voit les options s’écoulent à intervalles réguliers.
 
-    - Avertissement, aucune option SIP : le contrôleur de bordure de session existe dans la base de données (votre administrateur l’a créée à l’aide de la commande New-CsOnlinePSTNGateway). Il est configuré pour envoyer les options SIP, mais le service de routage direct n’a pas vu les options SIP en retour de cet SBC.
+    - Avertissement : aucune option SIP n’existe dans la base de données (votre administrateur l’a créée à l’aide de la commande New-CsOnlinePSTNGateway). Il est configuré pour envoyer les options SIP, mais le service de routage direct n’a jamais vu les options SIP revenir de ce SBC.
 
-    - Avertissement, les messages SIP ne sont pas configurés le contrôle de Trunking avec les options SIP n’est pas activé. Le système d’appel Microsoft utilise les options SIP et la surveillance du protocole TLS (Transport Layer Security) pour détecter l’état des contrôleurs de frontière de session connectés (SBCs) au niveau de l’application. Vous rencontrez des problèmes si ce Trunk peut être atteint au niveau réseau (par ping), mais que le certificat a expiré ou si la pile SIP ne fonctionne pas. Pour vous aider à identifier ces problèmes, Microsoft recommande l’activation de l’envoi d’options SIP. Consultez la documentation fournie par le fabricant de votre SBC pour configurer l’envoi d’options SIP.
+    - Avertissement : les messages SIP ne sont pas configurés - La surveillance de ligne à l’aide des options SIP n’est pas désactivée. Microsoft Calling System utilise les options SIP et la surveillance de la négociation TLS (Transport Layer Security) pour détecter l’état des contrôleurs de session connectés en bordure (SBCS) au niveau de l’application. Vous aurez des problèmes si cette ligne peut être atteinte au niveau du réseau (par commande ping), mais le certificat a expiré ou la pile SIP ne fonctionne pas. Pour vous aider à identifier précocement de tels problèmes, Microsoft recommande d’activer l’envoi des options SIP. Consultez la documentation du fabricant SBC pour configurer les options SIP d’envoi.
 
-- **Capacité d’appels simultanés** : vous pouvez spécifier la limite d’appels simultanés qu’une SBC peut gérer en utilisant la commande New-or set-CsOnlinePSTNGateway avec le paramètre-MaxConcurrentSessions. Ce paramètre calcule le nombre d’appels envoyés ou reçus par le routage direct à l’aide d’un SBC spécifique et le compare avec la limite définie. Remarque : si l’SBC gère également les appels vers différents PBX, ce numéro ne montre pas les appels simultanés réels.
+- **Capacité des** appels simultanés : vous pouvez spécifier la limite des appels simultanés qu’un SBC peut gérer en utilisant la commande Nouveau ou Set-CsOnlinePSTNGateway avec le paramètre -MaxConcurrentSessions. Ce paramètre calcule le nombre d’appels envoyés ou reçus par routage direct à l’aide d’un SBC spécifique et le compare à la limite définie. Remarque : si le SBC gère également les appels vers différents PBX, ce numéro n’affiche pas les appels simultanés réels.
 
 ## <a name="detailed-information-for-each-sbc"></a>Informations détaillées pour chaque SBC
 
-Vous pouvez également afficher les informations détaillées d’une SBC spécifique, comme illustré dans la capture d’écran suivante :
+Vous pouvez également afficher les informations détaillées d’un SBC spécifique, comme illustré dans la capture d’écran suivante :
 
-![Détails SBC du tableau de bord d’État](media/direct-routing-dashboard-SBC-detail1.png)
+![Détails du tableau de bord d’état d’état (SBC)](media/direct-routing-dashboard-SBC-detail1.png)
 
-L’affichage détaillé affiche les paramètres supplémentaires suivants :
+La vue détaillée affiche les paramètres supplémentaires suivants :
 
-- **État de la connectivité TLS** : il s’agit de la même métrique que sur la page « état global ».
+- État de la connectivité **TLS** : cette valeur est identique à celle de la page « État global » ;
 
-- **État** de la connexion TLS : indique le temps pendant lequel l’SBC a établi une connexion TLS au service de routage direct ;
+- Dernier état de la connectivité **TLS** : indique l’heure à partir de quoi le SBC a établir une connexion TLS au service de routage direct.
 
-- **État des options SIP** : le même indice que sur la page « état global ».
+- **État des options SIP** – identique à celui de la page « État global ».
 
-- **Dernière vérification des options SIP** : temps de réception des options SIP pour la dernière fois.
+- **Les options SIP ont été cochées** pour la dernière fois (heure de réception des options SIP).
 
-- **État SBC** – état global de l’SBC, en fonction de tous les paramètres surveillés.
+- **État SBC** – état global du SBC, en fonction de tous les paramètres surveillés.
 
-- **Appels simultanés**-indique le nombre d’appels simultanés de l’SBC géré par le SBC. Ces informations sont utiles pour prévoir le nombre de canaux simultanés dont vous avez besoin et voir la tendance. Vous pouvez faire glisser les données à l’aide du nombre de jours et de la direction de l’appel (entrant/sortant/tous les flux).
+- **Appel simultané**- Indique le nombre d’appels simultanés gérés par le SBC. Ces informations sont utiles pour prévoir le nombre de canaux simultanés dont vous avez besoin et voir la tendance. Vous pouvez faire glisser les données selon le nombre de jours et l’orientation des appels (flux entrant/sortant/Tous).
 
-- **Paramètres réseau** -tous les paramètres réseau sont mesurés à partir de l’interface de routage directe vers le contrôleur de bordure de session. Pour plus d’informations sur les valeurs recommandées, voir [préparer le réseau de votre organisation à Microsoft teams](https://docs.microsoft.com/microsoftteams/prepare-network), et observez les valeurs recommandées par Microsoft Edge pour le client.
+- **Paramètres réseau** : tous les paramètres réseau sont mesurés à partir de l’interface de routage direct vers le contrôleur de session en bordure. Pour plus d’informations sur les valeurs recommandées, consultez Préparer le réseau de votre organisation pour Microsoft Teams et consultez les valeurs recommandées pour [l’offre](https://docs.microsoft.com/microsoftteams/prepare-network)Edge du client à Microsoft Edge.
 
-   - Gigue : il s’agit de la mesure de milliseconde de la variation du délai de propagation du réseau, calculée entre deux points de terminaison utilisant le protocole RTCP (protocole de contrôle RTP).
+   - Gigue : mesure en millisecondes du retard de propagation réseau calculée entre deux points de terminaison à l’aide du protocole RTCP (RTP Control Protocol).
 
-   - Perte de paquets – est une mesure de paquets qui n’ont pas pu arriver ; Il est calculé entre deux points de terminaison.
+   - Perte de paquets – mesure du nombre de paquets qui n’ont pas réussi à arriver ; elle est calculée entre deux points de terminaison.
 
-   - Latence-(également connue sous le nom de « durée de l’aller-retour) » est la durée de réception d’un signal et la durée de réception de ce signal. Ce délai se compose des temps de propagation entre les deux points d’un signal.
+   - Latence - (également appelée durée des allers-retours) est la durée de l’envoi d’un signal, plus la durée de réception de l’accusé de réception de ce signal. Ce délai est constitué des heures de propagation entre les deux points d’un signal.
 
-   Vous pouvez faire glisser les données à l’aide du nombre de jours et de la direction de l’appel (entrant/sortant/tous les flux).
+   Vous pouvez faire glisser les données selon le nombre de jours et l’orientation des appels (flux entrant/sortant/Tous).
 
-**Taux d’efficacité du réseau** -il s’agit du même paramètre qui s’affiche dans le tableau de bord d’État du service, mais avec la possibilité de segmenter les données par série de temps ou direction d’appel.
+**Rapport d’efficacité** du réseau : il s’agit du même paramètre qui apparaît dans le tableau de bord d’état global, mais avec la possibilité de découper les données par série de temps ou par direction d’appel.

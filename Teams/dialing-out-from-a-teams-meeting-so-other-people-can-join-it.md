@@ -1,5 +1,5 @@
 ---
-title: Appel sortant pour permettre à d’autres personnes de participer à une réunion
+title: Appel sortant d’une réunion pour que d’autres personnes y participent
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Les organisateurs de la réunion peuvent découvrir comment numéroter à l’aide de l’application teams pour permettre à d’autres personnes de participer à la même réunion à l’aide de leur téléphone.
+description: Les organisateurs de réunions peuvent découvrir comment appeler à l’aide de l’application Teams pour laisser d’autres personnes participer à la réunion à l’aide de leur téléphone.
 ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
 ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
@@ -31,36 +31,36 @@ ms.locfileid: "46788758"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
-En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de l’application teams pour permettre à d’autres personnes de participer à la même réunion à l’aide de leur téléphone.
+En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de l’application Teams pour que d’autres personnes participent à la réunion à l’aide de leur téléphone.
 
-Lorsque vous appelez une personne, nous vous conseillons de le faire en utilisant les numéros de téléphone complets (y compris le code de pays/région-E. 164).
+Lorsque vous dial out to someone, we recommend you do so using their full phone numbers (including the country/region code - E.164 format).
   
-  Veuillez noter que :
+  Notez que :
 
-- Vous pouvez appeler uniquement si vous participez à une réunion à l’aide de teams.
-- L’organisateur de la réunion a été activé pour l’audioconférence ou, dans le cas contraire, il est autorisé à effectuer des appels vers le réseau téléphonique commuté en ligne ou via le routage direct.
-- L’organisateur de la réunion est [doté d’une stratégie de numérotation en ligne qui permet la numérotation des conférences activée](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
+- Vous ne pouvez appeler un appel sortant que si vous participez à une réunion à l’aide de Teams.
+- L’organisateur de la réunion a été activé pour l’audioconférence OU, dans le cas où aucune licence d’audioconférence n’est attribuée, est autorisé à passer des appels vers le réseau téléphonique commuté public via des plans d’appel en ligne ou un routage direct.
+- L’organisateur de la réunion se vu accorder une stratégie d’appel sortant en ligne qui autorise l’appel sortant [des conférences](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Pour cela, procédez comme suit :
+Pour que l’appel sortant fonctionne , vous pouvez :
 
- **Étape 1 :** Dans la réunion, utilisez le bouton **Ajouter des personnes** ![ de l’option Ajouter des personnes ](media/add-people-button.png) pour appeler un numéro de téléphone.
- **Étape 2 :** Entrez le numéro de téléphone complet, y compris l’indicatif du pays/de la région dans la zone **inviter une personne ou composer un numéro** .
+ **Étape 1 :** Dans la réunion, utilisez la capture d’écran **Ajouter** des personnes de l’option Ajouter des personnes pour ![ composer un numéro de ](media/add-people-button.png) téléphone.
+ **Étape 2 :** Entrez le numéro de téléphone complet, y compris l’code du pays/de la région dans la zone Inviter une **personne ou composez un** numéro.
   
-![Capture d’écran de la zone inviter une personne ou composer un numéro](media/invite-someone-box.png)
+![Capture d’écran de la zone Inviter une personne ou composer un numéro](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
-La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, voir [disponibilité du pays et de la région pour les offres d’appels et de services d’audioconférence](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, consultez la disponibilité des pays et régions pour les plans [d’audioconférence et d’appel.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="allow-users-to-dial-in"></a>Permettre aux utilisateurs de se connecter
+## <a name="allow-users-to-dial-in"></a>Autoriser les utilisateurs à composer le numéro
 
-Si vous recherchez des instructions sur la façon de permettre à vos utilisateurs de se connecter à une réunion Teams, reportez-vous à la rubrique [numéros de téléphone pour les conférences audio de Microsoft teams](phone-numbers-for-audio-conferencing-in-teams.md).
+Si vous recherchez des instructions sur la manière de laisser vos utilisateurs se composer pour se rendre à une réunion Teams, veuillez consulter les numéros de téléphone pour l’audioconférence [dans Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio ?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur l’audioconférence ?
 
-[Essayez ou achetez une audioconférence](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Essayer ou acheter l’audioconférence](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

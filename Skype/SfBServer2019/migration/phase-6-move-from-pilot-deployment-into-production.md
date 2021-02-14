@@ -1,5 +1,5 @@
 ---
-title: Phase 6 déplacement du déploiement pilote en production
+title: Phase 6 Passer du déploiement pilote à la production
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de faire passer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote à un déploiement au niveau de la production.
+description: Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de déplacer votre déploiement de Skype Entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
 ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,9 +20,9 @@ ms.locfileid: "44752486"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6 : Transition d’un déploiement pilote vers un environnement de production
 
-Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de faire passer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote à un déploiement au niveau de la production.
+Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de déplacer votre déploiement de Skype Entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [Configuration des itinéraires de fédération et du trafic multimédia](configure-federation-routes-and-media-traffic.md)
     
@@ -30,6 +30,6 @@ Les rubriques de cette section décrivent les tâches que vous devez effectuer a
     
 - [Modification des URL simples après la migration](change-simple-urls-after-migration.md)
     
-- [Déplacer les utilisateurs restants vers Skype entreprise Server 2019](move-remaining-users.md)
+- [Déplacer les utilisateurs restants vers Skype Entreprise Server 2019](move-remaining-users.md)
     
 

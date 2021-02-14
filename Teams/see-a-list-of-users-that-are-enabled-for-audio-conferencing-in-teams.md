@@ -1,5 +1,5 @@
 ---
-title: Affichage de la liste des utilisateurs activés pour les conférences audio
+title: Consulter la liste des utilisateurs activés pour l’audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -31,28 +31,28 @@ ms.locfileid: "44691160"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
-Après avoir activé les utilisateurs de Microsoft teams au sein de votre organisation pour les conférences audio, vous pouvez afficher la liste des utilisateurs qui ont été activés. 
+Après avoir activé l’audioconférence pour les utilisateurs de Microsoft Teams dans votre organisation, vous pouvez afficher la liste de ces utilisateurs. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
-- Dans le centre d’administration de Microsoft Teams, dans le volet de navigation de gauche, cliquez sur **utilisateurs**.
+- Dans le Centre d’administration Microsoft Teams, dans le panneau de navigation de gauche, cliquez sur **Utilisateurs.**
 
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur dans la liste pour modifier les paramètres de conférence audio de cet utilisateur.
+- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur dans la liste pour modifier les paramètres d’audioconférence de cet utilisateur.
     
-- Lorsque vous sélectionnez un utilisateur unique, vous pouvez afficher le numéro de téléphone par défaut attribué à l’utilisateur et les paramètres de conférence audio pertinents.    
+- Lorsque vous sélectionnez un seul utilisateur, vous pouvez afficher le numéro de téléphone par défaut qui lui est affecté ainsi que tous les autres paramètres d’audioconférence pertinents.    
    
 - Vous pouvez utiliser le bouton Rechercher pour rechercher un utilisateur dans la liste.
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -62,4 +62,4 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

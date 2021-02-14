@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Administration de Skype Entreprise Online
-summary: La mise à niveau de Skype entreprise Online a été mise en service le 31 juillet 2021, et l’accès au service se termine. Nous encourageons les clients à commencer la mise à niveau de Microsoft Teams, le Hub pour le travail en équipe dans Microsoft 365.
+summary: Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le hub pour le travail d’équipe dans Microsoft 365.
 metadata:
   title: Administration de Skype Entreprise Online
   description: Découvrez comment gérer Skype Entreprise Online pour votre organisation.
@@ -24,11 +24,11 @@ metadata:
   ms.lasthandoff: 07/29/2020
   ms.locfileid: "46522962"
 landingContent:
-- title: À propos de Skype entreprise Online
+- title: À propos de Skype Entreprise Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Mise hors service de Skype entreprise Online dans 2021
+    - text: Mise à la retraite de Skype Entreprise Online en 2021
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -96,7 +96,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Que sont les plans d’appels ?
+    - text: Que sont les forfaits d’appels ?
       url: /MicrosoftTeams/calling-plan-landing-page
     - text: Consulter la disponibilité des offres d'appels dans votre pays/région
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
@@ -108,7 +108,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que le système téléphonique ?
+    - text: Qu’est-ce que phone system ?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: Voici les avantages du système téléphonique
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system

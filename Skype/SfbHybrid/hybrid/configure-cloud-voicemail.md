@@ -1,5 +1,5 @@
 ---
-title: Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
+title: Configurer le service de messagerie vocale cloud pour les utilisateurs locaux
 ms.reviewer: ''
 ms.author: dstrome
 author: dstrome
@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Instructions pour l’implémentation de la messagerie vocale en nuage pour les utilisateurs hébergés sur Skype entreprise Server.
+description: Instructions d’implémentation de la messagerie vocale en nuage pour les utilisateurs sur Skype Entreprise Server.
 ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
 ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
@@ -20,50 +20,50 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/04/2020
 ms.locfileid: "46552580"
 ---
-# <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
+# <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale cloud pour les utilisateurs locaux
 
 ## <a name="overview"></a>Vue d’ensemble 
-Cet article explique comment configurer le service de messagerie vocale Microsoft Cloud pour vos utilisateurs locaux de Skype entreprise.  
+Cet article explique comment configurer le service de messagerie vocale Microsoft Cloud pour vos utilisateurs locaux de Skype Entreprise.  
 
-Dans cet article, nous partons du principe que vous avez déjà déployé Skype entreprise Server dans une topologie prise en charge et que vous respectez les conditions préalables à la configuration de la connectivité hybride.
+Cet article suppose que Skype Entreprise Server est déjà déployé dans une topologie prise en charge et que vous avez satisfait aux conditions préalables à la configuration de la connectivité hybride.
 
-Pour plus d’informations sur les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation de la messagerie vocale Cloud, voir [plan Cloud de messagerie vocale](plan-cloud-voicemail.md).
-
-
+Pour plus d’informations sur les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation de la messagerie vocale cloud, voir [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
 
 
-La configuration de la messagerie vocale Cloud implique les tâches suivantes :
 
-1.  Assurez-vous que vous remplissez les conditions préalables décrites dans [plan Cloud de messagerie vocale](plan-cloud-voicemail.md).
 
-2.  Assurez-vous que vous avez configuré la connectivité hybride comme décrit dans [plan Hybrid Connectivity](plan-hybrid-connectivity.md) et [configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
+La configuration de la messagerie vocale cloud implique les tâches suivantes :
 
-3.  [Configurez le service de messagerie vocale Cloud en tant que fournisseur d’hébergement sur le serveur frontal](#configure-cloud-voicemail-as-the-hosting-provider) comme décrit dans cet article.
+1.  Assurez-vous que vous avez satisfait aux conditions préalables décrites dans planifier le [service de messagerie vocale cloud.](plan-cloud-voicemail.md)
+
+2.  Assurez-vous que vous avez configuré la connectivité hybride comme décrit dans [Planifier](plan-hybrid-connectivity.md) la connectivité hybride et [configurer la connectivité hybride.](configure-hybrid-connectivity.md) 
+
+3.  [Configurez la messagerie vocale cloud](#configure-cloud-voicemail-as-the-hosting-provider) en tant que fournisseur d’hébergement sur le serveur frontal, comme décrit dans cet article.
 
 4.  [Configurez une stratégie de messagerie vocale hébergée](#configure-a-hosted-voicemail-policy) comme décrit dans cet article.
 
-5.  [Affectez une stratégie de messagerie vocale hébergée](#assign-a-hosted-voicemail-policy) , comme décrit dans cet article.
+5.  [Affectez une stratégie de messagerie vocale hébergée](#assign-a-hosted-voicemail-policy) comme décrit dans cet article.
 
-6.  [Activez un utilisateur pour la messagerie vocale Cloud](#enable-a-user-for-cloud-voicemail) comme décrit dans cet article.
+6.  [Activez un utilisateur pour la messagerie vocale cloud,](#enable-a-user-for-cloud-voicemail) comme décrit dans cet article.
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Configuration de la messagerie vocale sur le Cloud en tant que fournisseur d’hébergement 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Configurer la messagerie vocale cloud en tant que fournisseur d’hébergement 
 
-Vous configurez la messagerie vocale Cloud en tant que fournisseur d’hébergement sur un serveur frontal à l’aide de la cmdlet New-CsHostingProvider avec les paramètres suivants :
+Vous configurez la messagerie vocale cloud en tant que fournisseur d’hébergement sur un serveur frontal en utilisant la cmdlet New-CsHostingProvider avec les paramètres suivants :
 
-- **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez ; par exemple, la messagerie vocale Cloud. 
+- **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez ; par exemple, messagerie vocale cloud. 
 
-- **Enabled** indique si la connexion réseau entre votre domaine et le fournisseur d’hébergement est activée. Ce paramètre doit être défini sur true.
+- **Enabled** indique si la connexion réseau entre votre domaine et le fournisseur d’hébergement est activée. Ce paramètre doit avoir la valeur True.
 
-- **EnabledSharedAddressSpace** indique si le fournisseur d’hébergement sera utilisé dans un scénario d’espace d’adressage SIP partagé. Ce paramètre doit être défini sur true.
+- **EnabledSharedAddressSpace** indique si le fournisseur d’hébergement sera utilisé dans un scénario d’espace d’adressage SIP partagé. Ce paramètre doit avoir la valeur True.
 
-- **HostsOCSUsers** indique si le fournisseur d’hébergement est utilisé pour héberger les comptes Skype entreprise Server. Ce paramètre doit avoir la valeur false.
+- **HostsOCSUsers indique** si le fournisseur d’hébergement est utilisé pour héberger des comptes Skype Entreprise Server. Ce paramètre doit avoir la valeur False.
 
-- **ProxyFQDN** spécifie le nom de domaine complet (FQDN) du serveur proxy utilisé par le fournisseur d’hébergement ; par exemple, proxyserver.contoso.com. Demandez cette information au fournisseur d’hébergement. Cette valeur ne peut pas être modifiée. Si le fournisseur d’hébergement modifie son serveur proxy, vous devrez supprimer puis recréer l’entrée pour ce fournisseur.
+- **ProxyFQDN** spécifie le nom de domaine complet (FQDN) du serveur proxy utilisé par le fournisseur d’hébergement ; par exemple, proxyserver.contoso.com. Demandez cette information au fournisseur d’hébergement. Cette valeur ne peut pas être modifiée. Si le fournisseur d’hébergement change de serveur proxy, vous devrez supprimer, puis re-créer l’entrée pour ce fournisseur.
 
-- **IsLocal** indique si le serveur proxy utilisé par le fournisseur d’hébergement est contenu dans votre topologie Skype entreprise Server. Ce paramètre doit avoir la valeur false.
+- **IsLocal indique** si le serveur proxy utilisé par le fournisseur d’hébergement est contenu dans votre topologie Skype Entreprise Server. Ce paramètre doit avoir la valeur False.
 
-Par exemple, dans Skype entreprise Management Shell, l’applet de commande suivante configure la messagerie vocale du Cloud en tant que fournisseur d’hébergement :
+Par exemple, dans Skype Entreprise Management Shell, l’cmdlet suivante configure la messagerie vocale cloud en tant que fournisseur d’hébergement :
 
 
 ```PowerShell
@@ -72,21 +72,21 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 ## <a name="configure-a-hosted-voicemail-policy"></a>Configurer une stratégie de messagerie vocale hébergée
 
-Pour vous assurer que la messagerie vocale de votre organisation est acheminée vers le service de messagerie vocale Cloud, vous devez configurer une stratégie de messagerie vocale hébergée pour votre organisation. Dans de nombreux cas, une seule stratégie de messagerie vocale hébergée est requise et vous pouvez modifier la stratégie globale pour répondre à tous vos besoins. Si votre organisation requiert plusieurs stratégies de messagerie vocale hébergée, vous pouvez ajouter des stratégies à l’aide de la cmdlet New-cshostedvoicemailpolicy.
+Pour vous assurer que la messagerie vocale de votre organisation est acheminée vers le service de messagerie vocale cloud, vous devez configurer une stratégie de messagerie vocale hébergée pour votre organisation. Dans de nombreux cas, une seule stratégie de messagerie vocale hébergée est requise et vous pouvez modifier la stratégie globale pour répondre à tous vos besoins. Si votre organisation nécessite plusieurs stratégies de messagerie vocale hébergée, vous pouvez ajouter des stratégies à l’aide de la cmdlet new-cshostedvoicemailpolicy.
 
-Pour modifier la stratégie globale, exécutez la commande suivante dans Skype entreprise Server Management Shell après avoir mis à jour votre organisation et TenantID :
+Pour modifier la stratégie globale, exécutez la commande suivante dans l’environnement de ligne de commande Skype Entreprise Server après avoir mis à jour votre Organisation et tenantID :
 
 ```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
-- **Destination** : spécifie le nom de domaine complet (FQDN) du service de messagerie vocale hébergée dans le Cloud. Cette valeur doit être définie sur **EXAP.um.Outlook.com**.
+- **La destination** spécifie le nom de domaine complet (FQDN) du service de messagerie vocale cloud hébergé. Cette valeur doit être définie sur **exap.um.outlook.com**.
 
-- **Organization** est le domaine par défaut affecté à votre client. Vous pouvez récupérer ces informations en faisant en sorte que l’administrateur client se connecte à office.com, cliquez sur l’application du centre d’administration, accédez à l' **installation** sur la gauche, puis cliquez sur **domaines**. Par exemple : mytenant.onmicrosoft.com.
+- **L’organisation** est le domaine par défaut affecté à votre client. Vous pouvez récupérer ces informations en ayant l’administrateur client se connecter à office.com, cliquer sur l’application Centre d’administration, accéder au programme d’installation sur la gauche, puis cliquer sur **Domaines**.  Par exemple : mytenant.onmicrosoft.com.
 
     Le nom de l’organisation est également le nom de domaine par défaut dans Microsoft 365 ou Office 365.
 
-Pour vous assurer qu’une stratégie de messagerie vocale hébergée a été correctement créée, exécutez la commande suivante :
+Pour vous assurer qu’une stratégie de messagerie vocale hébergée a été créée correctement, exécutez la commande suivante :
 
 ```PowerShell
 Get-CsHostedVoicemailPolicy
@@ -94,34 +94,34 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>Affecter une stratégie de messagerie vocale hébergée
 
-Par défaut, la stratégie de messagerie vocale hébergée globale est affectée à tous les utilisateurs. Si vous utilisez une autre stratégie, avant d’activer les utilisateurs pour la messagerie vocale hébergée, vous devez d’abord accorder aux utilisateurs la stratégie de messagerie vocale hébergée souhaitée à l’aide de la cmdlet [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
+Par défaut, la stratégie de messagerie vocale hébergée globale est affectée à tous les utilisateurs. Si vous utilisez une stratégie différente, avant d’activer les utilisateurs pour la messagerie vocale hébergée, vous devez d’abord accorder aux utilisateurs la stratégie de messagerie vocale hébergée souhaitée à l’aide de l’cmdlet [Grant-CSHostedVoicemailPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps)
 
-Par exemple, la commande suivante attribue une stratégie de messagerie vocale hébergée non globale à un utilisateur :
+Par exemple, la commande suivante affecte une stratégie de messagerie vocale hébergée non globale à un utilisateur :
 
 
 ```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
-## <a name="enable-a-user-for-cloud-voicemail"></a>Activer un utilisateur pour la messagerie vocale sur le Cloud
+## <a name="enable-a-user-for-cloud-voicemail"></a>Activer un utilisateur pour la messagerie vocale cloud
 
-Pour permettre aux appels de messagerie vocale d’un utilisateur d’être acheminé vers la messagerie vocale Cloud, utilisez la cmdlet [Set-Csuser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) avec le paramètre HostedVoiceMail. 
+Pour router les appels de messagerie vocale d’un utilisateur vers la messagerie vocale cloud, utilisez l’cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) avec le paramètre HostedVoiceMail. 
 
-Par exemple, la commande suivante active un compte d’utilisateur pour la messagerie vocale sur le Cloud : 
+Par exemple, la commande suivante active un compte d’utilisateur pour la messagerie vocale cloud : 
 
 ```powershell
 Set-CsUser -Identity "User1" -HostedVoiceMail $True
 ```
 
-L’applet de commande vérifie qu’une stratégie de messagerie vocale Cloud, au niveau global, site ou utilisateur, s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
+La cmdlet vérifie qu’une stratégie de messagerie vocale cloud (au niveau global, du site ou de l’utilisateur) s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
 
-L’exemple suivant désactive un compte d’utilisateur pour la messagerie vocale sur le Cloud :
+L’exemple suivant désactive un compte d’utilisateur pour la messagerie vocale cloud :
 
 ```powershell
 Set-CsUser -Identity "User1" -HostedVoiceMail $False
 ```
 
-L’applet de commande vérifie qu’aucune stratégie de messagerie vocale hébergée (au niveau global, site ou utilisateur) ne s’applique à cet utilisateur. Si une stratégie s’applique, la cmdlet échoue.
+La cmdlet vérifie qu’aucune stratégie de messagerie vocale hébergée (au niveau global, du site ou de l’utilisateur) ne s’applique à cet utilisateur. Si une stratégie s’applique, la cmdlet échoue.
 
 > [!NOTE]
->  Les utilisateurs doivent être activés pour la voix entreprise pour utiliser le service de messagerie vocale Microsoft Cloud.
+>  Les utilisateurs doivent être activés pour la voix entreprise afin d’utiliser le service de messagerie vocale Microsoft Cloud.

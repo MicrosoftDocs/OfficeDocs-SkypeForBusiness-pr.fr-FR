@@ -1,5 +1,5 @@
 ---
-title: Qu’est-ce que le tableau de bord de qualité des appels (bord) ?
+title: Qu’est-ce que le tableau de bord de qualité des appels ?
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: En savoir plus sur le tableau de bord de qualité des appels (bord) et sur son utilisation pour afficher des rapports sur la réunion et la qualité d’appel dans Microsoft Teams.
+description: Découvrez le tableau de bord de qualité des appels et comment l’utiliser pour consulter des rapports sur la qualité des réunions et des appels dans Microsoft Teams.
 ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
 ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
@@ -30,59 +30,59 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583483"
 ---
-# <a name="what-is-call-quality-dashboard-cqd"></a>Qu’est-ce que le tableau de bord de qualité des appels (bord) ?
+# <a name="what-is-call-quality-dashboard-cqd"></a>Qu’est-ce que le tableau de bord de qualité des appels ?
 
-Le tableau de bord de qualité des appels Microsoft (bord) : [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) affiche la qualité des appels et des réunions, au **niveau**de l’organisation, pour Microsoft Teams, Skype entreprise Online et Skype entreprise Server 2019. 
+Tableau de bord de qualité des appels microsoft (CQD) - Affiche la qualité des appels et des réunions, au niveau de l’organisation, pour Microsoft Teams, Skype Entreprise Online et Skype Entreprise [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) Server 2019.  
 
   
-La version la plus récente de bord comprend un [flux de données en temps réel (NRT)](CQD-data-and-reports.md), ce qui signifie que les enregistrements d’appels sont disponibles dans bord dans les 30 minutes de la fin d’un appel.
+La dernière version du DQD comprend un flux de données en temps quasi réel [(NRT),](CQD-data-and-reports.md)ce qui signifie que les enregistrements d’appel sont disponibles dans le point de qualité des appels dans les 30 minutes après la fin de l’appel.
 
-Partout où bord inclut les données d’identification de l' [utilisateur final (EUII)](CQD-data-and-reports.md#euii-data), il est géré de la même manière que [EUII dans Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
+Chaque fois que le CQD inclut des informations d’identification des utilisateurs finux [(EUII),](CQD-data-and-reports.md#euii-data)il est géré de la même façon que euII dans [Microsoft 365.](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)
 
-BORD est conçu pour permettre aux administrateurs d’équipe, aux administrateurs Skype entreprise et aux ingénieurs réseau de surveiller la qualité des appels et des réunions à l’échelle de l’organisation. Vous pouvez utiliser bord pour **optimiser votre réseau** et renforcer la qualité des performances. Lorsque vous recherchez des informations sur les appels et les réunions pour un **utilisateur spécifique**, utilisez les données bord conjointement avec l' [analyse](use-call-analytics-to-troubleshoot-poor-call-quality.md)par utilisateur.
+Le CQD est conçu pour aider les administrateurs de Teams, les administrateurs Skype Entreprise et les ingénieurs réseau à surveiller la qualité des appels et des réunions à l’échelle de l’organisation. Vous utiliserez le CQD pour optimiser **votre réseau afin** d’optimiser la qualité des performances. Lorsque vous avez besoin d’examiner les informations d’appel et de réunion d’un utilisateur **spécifique,** utilisez les données du CQD conjointement avec l’analyse des appels par [utilisateur.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-Par exemple, en utilisant bord, vous pouvez déterminer si la qualité d’appel d’un utilisateur (que vous avez observé lors d’une analyse d’appel par utilisateur) est due à un problème de réseau qui affecte également de nombreux autres utilisateurs. BORD capture les appels individuels et la qualité générale des appels passés à l’aide d’équipes ou de Skype entreprise. Avec bord, les modèles globaux peuvent devenir évidents, afin que les ingénieurs du réseau puissent effectuer des analyses éclairées de la qualité des appels. BORD fournit des rapports sur les métriques de la qualité d’appel qui vous permettent d’avoir une vue d’ensemble de la qualité des appels, des flux client-client, des flux client-client et du [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)de qualité vocale. 
+Par exemple, vous pouvez déterminer que la qualité des appels d’un utilisateur (observée à l’aide de l’analyse des appels par utilisateur) est due à un problème de réseau qui affecte également de nombreux autres utilisateurs. Le CQD capture à la fois l’expérience d’appel individuelle et la qualité globale des appels effectués à l’aide de Teams ou de Skype Entreprise. Grâce au CQD, des modèles globaux peuvent être mis en évidence pour que les ingénieurs réseau puisse évaluer en connaissance de cause la qualité des appels. Le CQD fournit des rapports sur les mesures de qualité des appels, qui fournissent des informations sur la qualité globale des appels, les flux client-serveur, les flux client et le SLA de [qualité vocale.](https://go.microsoft.com/fwlink/p/?linkid=846252) 
   
 ![Capture d’écran du tableau de bord de qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Dans bord, nous vous encourageons à télécharger des informations sur la création et le point de terminaison, qui vous permet d’utiliser des rapports d’emplacement pour analyser la qualité et la fiabilité des appels au sein d’un immeuble. Les données peuvent être évaluées pour déterminer si le problème est limité à un utilisateur unique ou s’il concerne un plus grand nombre d’utilisateurs. Pour activer le bâtiment ou les vues spécifiques aux points de terminaison dans bord, un administrateur doit [Télécharger les informations de construction ou de point de terminaison](CQD-upload-tenant-building-data.md) sur la page de téléchargement de données du **client** bord.
+Dans le CQD, nous vous encourageons à télécharger les informations de bâtiment et de point de terminaison, qui vous permet d’utiliser des rapports de Location-Enhanced pour analyser la qualité et la fiabilité des appels au sein du bâtiment d’un utilisateur. Les données peuvent être évaluées pour déterminer si le problème est isolé pour un seul utilisateur ou affecte un segment plus important d’utilisateurs. Pour activer les affichages spécifiques du point de [](CQD-upload-tenant-building-data.md) terminaison ou du point de terminaison dans le DQD, un administrateur doit télécharger les informations de bâtiment ou de point de terminaison sur la **page** Transfert des données du client du point de terminaison.
 
-![Capture d’écran des rapports d’emplacement du tableau de bord de qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![Capture d’écran des rapports d’utilisation du tableau de Location-Enhanced qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
-Ne manquez pas notre article [gérer l’appel et la qualité](quality-of-experience-review-guide.md) de la réunion, qui offre des instructions détaillées au sein de l’administrateur teams ou du technicien de support responsable de la gestion de la qualité du service dans Teams.
+Ne manquez pas [notre](quality-of-experience-review-guide.md) article Gérer la qualité des appels et des réunions, qui propose des conseils détaillés pour l’administrateur Teams ou l’ingénieur support responsable de la gestion de la qualité du service dans Teams.
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>Version antérieure de bord (CQD.lync.com)
+## <a name="older-version-of-cqd-cqdlynccom"></a>Version antérieure du CQD (CQD.lync.com)
 
-La version actuelle de bord ( https://CQD.Teams.microsoft.com) remplace l’ancienne version d’bord ( https://CQD.lync.com) . Vous pouvez toujours utiliser CQD.lync.com (disponible dans le centre d’administration Skype entreprise), mais à partir du 1er juillet 2020, il utilise les données de bord. Teams.microsoft.com. Nous désactivons l’accès à CQD.lync.com bientôt, donc vous devez accéder à bord. Teams.microsoft.com si vous ne l’avez pas déjà fait.
+La version actuelle de CQD https://CQD.Teams.microsoft.com) (remplace l’ancienne version du CQD ( https://CQD.lync.com) . Vous pouvez toujours utiliser CQD.lync.com (disponible dans le Centre d’administration Skype Entreprise), mais depuis le 1er juillet 2020, il utilise les données du CQD. Teams.microsoft.com. Nous désactiverons bientôt l’accès CQD.lync.com aux données. Vous devez donc accéder au CQD. Teams.microsoft.com si vous ne l’avez pas déjà fait.
 
 > [!IMPORTANT]
-> À compter du 1er juillet 2020, vous ne pouvez plus afficher ni modifier vos données de bâtiment ou de requête à partir de l’ancien bord (CQD.lync.com). Si vous n’avez pas déjà migré ces données à partir de CQD.lync.com et que vous en avez encore besoin, consignez un ticket de support.
+> À compter du 1er juillet 2020, vous ne pourrez plus afficher ni modifier vos données de bâtiment ou de requête à partir de l’ancien CQD (CQD.lync.com). Si vous n’avez pas encore migré ces données depuis votre CQD.lync.com en avez encore besoin, enregistrez un ticket de support.
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>Utiliser Power BI pour analyser des données de bord
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Utiliser Power BI pour analyser les données du CQD
 
-Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et enregistrer vos données bord.
+Nouveautés de Janvier 2020 : Téléchargez les modèles de requête [Power BI pour CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et signaler les données de votre CQD.
 
-Pour en savoir plus, voir [utiliser Power bi pour analyser les données de bord](CQD-Power-BI-query-templates.md) .
+Lisez [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md) et en savoir plus.
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-[Améliorer et surveiller la qualité des appels pour teams](monitor-call-quality-qos.md)
+[Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 
-[Configurer le tableau de bord de qualité des appels (bord)](turning-on-and-using-call-quality-dashboard.md)
+[Configurer le tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 
-[Télécharger le client et générer des données](CQD-upload-tenant-building-data.md)
+[Charger des données client et bâtiment](CQD-upload-tenant-building-data.md)
 
-[Rapports et données bord](CQD-data-and-reports.md)
+[Données et rapports du CQD](CQD-data-and-reports.md)
 
-[Utiliser bord pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
+[Utiliser le CQD pour gérer la qualité des appels et des réunions](quality-of-experience-review-guide.md)
 
-[Dimensions et mesures disponibles dans bord](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans bord](stream-classification-in-call-quality-dashboard.md)
+[Classification des flux dans le CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Utiliser Power BI pour analyser des données de bord](CQD-Power-BI-query-templates.md)
+[Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)
 
 
 [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype entreprise Server prend en charge les URL simples.
+description: Skype Entreprise Server prend en charge les URL simples.
 ms.openlocfilehash: 1b25dd74f5bdca433554091b3f8ce1c1d2dfa8ce
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,33 +20,33 @@ ms.locfileid: "44753904"
 ---
 # <a name="change-simple-urls-after-migration"></a>Modification des URL simples après la migration
 
-Skype entreprise Server prend en charge trois URL simples :
+Skype Entreprise Server prend en charge trois URL simples :
   
 - **Meet** qui est l’URL de réunion de base pour toutes les conférences dans le site ou l’organisation. Avec l’URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre, à communiquer et à distribuer. 
     
 - **Dial-in** qui permet d’accéder à la page web Paramètres de conférence rendez-vous. L’URL simple Dial-in est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires. 
     
-- L' **administrateur** vous permet d’accéder rapidement au panneau de configuration de Skype entreprise Server. L’URL simple d’administration est interne à votre organisation. 
+- **L’administrateur** permet un accès rapide au Panneau de contrôle Skype Entreprise Server. L’URL simple d’administration est interne à votre organisation. 
     
-Après avoir effectué la migration vers Skype entreprise Server, vous devez savoir comment la modification influe sur vos enregistrements DNS et les certificats pour les URL simples. Si le directeur Skype entreprise Server hérité reste en cours d’utilisation dans la topologie, aucune modification de vos URL simples n’est requise. Si le directeur Skype entreprise Server est supprimé de la topologie après la migration, les enregistrements DNS d’URL simples doivent être mis à jour pour pointer vers l’un des pools de Skype entreprise Server. Cependant, lorsque vous modifiez un nom d’URL simple, vous devez exécuter Enable-CsComputer sur chaque directeur et serveur frontal pour enregistrer la modification.
+Après avoir migré vers Skype Entreprise Server, vous devez connaître l’impact de la modification sur vos enregistrements et certificats DNS pour les URL simples. Si le directeur Skype Entreprise Server hérité reste en cours d’utilisation dans la topologie, aucune modification de vos URL simples n’est requise. Si le directeur de Skype Entreprise Server est supprimé de la topologie après la migration, les enregistrements DNS d’URL simples doivent être mis à jour pour pointer vers l’un des pools Skype Entreprise Server. Cependant, lorsque vous modifiez un nom d’URL simple, vous devez exécuter Enable-CsComputer sur chaque directeur et serveur frontal pour enregistrer la modification.
 
 ## <a name="to-update-the-meet-simple-url"></a>Pour mettre à jour l’URL simple Meet
 
-1. Dans le générateur de topologies, cliquez avec le bouton droit sur le nœud supérieur **Skype entreprise Server**, puis cliquez sur **modifier les propriétés**.
+1. Dans le Générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur Skype Entreprise **Server,** puis cliquez sur **Modifier les propriétés.**
     
-2. Sélectionnez **URL simples** dans le volet de gauche, puis sous URL de la **réunion :** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.
+2. Sélectionnez **URL simples** dans le volet  gauche, puis sous URL de réunion : sélectionnez l’URL de réunion, puis cliquez sur **Modifier l’URL.**
     
 3. Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer. 
     
 ## <a name="to-update-the-admin-simple-url"></a>Pour mettre à jour l’URL simple Admin
 
-1. Dans le générateur de topologies, cliquez avec le bouton droit sur le nœud supérieur **Skype entreprise Server**, puis cliquez sur **modifier les propriétés**.
+1. Dans le Générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur Skype Entreprise **Server,** puis cliquez sur **Modifier les propriétés.**
     
-2. Sélectionnez **URL simples** dans le volet de gauche, puis sous zone **URL d’accès administratif** , entrez l’URL simple souhaitée pour l’accès administratif au panneau de configuration de Skype entreprise Server, puis cliquez sur **OK**.
+2. Sélectionnez **URL** simples dans le volet gauche, puis sous la zone **URL** d’accès administratif, entrez l’URL simple que vous souhaitez pour l’accès administratif au Panneau de contrôle Skype Entreprise Server, puis cliquez sur **OK.**
     
    > [!TIP]
-   > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est https://admin . <em>\<domain\></em> . 
+   > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple https://admin est ... <em>\<domain\></em> 
   
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration DNS requise pour les URL simples dans Skype entreprise Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+[DNS requirements for simple URLs in Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)

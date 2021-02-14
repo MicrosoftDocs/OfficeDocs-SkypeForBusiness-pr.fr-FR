@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Ouganda.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Ouganda.
 ms.openlocfilehash: 1ffab17c3330ff19c24c27f2e840f5ad1856a456
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
@@ -35,13 +35,13 @@ ms.locfileid: "44877998"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Ouganda.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Ouganda.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui. Payez à la minute uniquement.  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui. Paiement à la minute uniquement.  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Non |
 |Possibilité d'appel sortant à l'aide de la fonctionnalité Appelez-moi  <br/> | Nécessite des crédits de communication <br/> |
    
@@ -69,7 +69,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Non géographique. Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Non géographique ([à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Non géographique[(sur demande)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

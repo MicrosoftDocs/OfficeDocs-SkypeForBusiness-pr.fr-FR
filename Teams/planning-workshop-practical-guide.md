@@ -1,5 +1,5 @@
 ---
-title: Outils & séminaires-plan, fourniture & adopter teams
+title: Outils & ateliers - Planifier, livrer, & adopter Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -29,33 +29,33 @@ Téléchargez ces outils pour vous orienter dans la planification, la livraison 
 
 - [Kit de réussite des clients de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)
 
-    Ce kit comporte une large gamme de présentations, de modèles de messages électroniques, de conseils & de conseils et d’affiches que vous pouvez utiliser pour déployer et conduire l’adoption d’équipes au sein de votre organisation. Il inclut deux guides de démarrage rapide pour les administrateurs et les chefs d’équipe, et des exemples de cas d’utilisation pour chaque service. Utilisez ces ressources pour tirer le meilleur parti d’équipes pour différentes fonctions au sein de votre organisation, notamment le marketing, les ventes, le finance, les ressources humaines, l’informatique, l’ingénierie et la gestion de projet.
+    Ce kit contient un large éventail de présentations, de modèles de courrier électronique, de conseils & et d’affiches que vous pouvez utiliser pour déployer et conduire l’adoption de Teams dans votre organisation. Il inclut deux guides de démarrage rapide pour les administrateurs et les chefs d’équipe, et des exemples d’utilisation des cas pour chaque service. Utilisez ces ressources pour utiliser au mieux Teams pour différentes fonctions de votre organisation, telles que Marketing, Ventes, Finances, Ressources humaines, Informatique, Ingénierie et Gestion de projet.
 
 - [Comment déployer Teams](How-to-roll-out-teams.md)
 
-    Suivez notre chemin recommandé pour le déploiement d’équipes.
+    Suivez le chemin recommandé pour déployer Teams.
 
-- [Suivre la formation technique de teams](https://aka.ms/TeamsAcademy)
+- [Obtenir une formation technique sur Teams](https://aka.ms/TeamsAcademy)
 
-    Utilisez les ressources de formation techniques suivantes pour éduquer vous-même, apprendre d’autres personnes ou exécuter des ateliers.
+    Utilisez ces ressources de formation technique pour vous informer, donner des cours à d’autres personnes ou exécuter des ateliers.
 
-- [Clients gouvernementaux Office 365](plan-for-government-gcc.md)
+- [Office 365 Pour les clients du service public](plan-for-government-gcc.md)
 
-   Le processus de développement des équipes est très similaire à celui de ses clients. À mesure que les équipes deviennent disponibles pour vos clients, nous vous encourageons à commencer par notre [plan pour Microsoft 365 Government-article déploiements de GCC](plan-for-government-gcc.md) et [Guide de démarrage rapide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)de l’administrateur. Notre vue d’ensemble de [la sécurité et de la conformité](security-compliance-overview.md) vous aidera à vous familiariser avec les équipes dans votre environnement.
+   Votre parcours vers Teams est très comme l’expérience de nos clients d’entreprise. À mesure que Teams devient disponible pour vos clients, nous vous encourageons à commencer avec notre article sur le plan de déploiement de [Microsoft 365 Government - GCC](plan-for-government-gcc.md) et notre guide de démarrage rapide d’administration. [](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Notre [vue d’ensemble de la](security-compliance-overview.md) sécurité et de la conformité vous permettra de vous sentir en confiance avec Teams dans votre environnement.
 
-- [Teams pour l’éducation-Guide de démarrage rapide pour les administrateurs](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
+- [Teams pour l’éducation - Démarrage rapide pour les administrateurs](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
 
-    Utilisez ce didacticiel pour vous familiariser avec le déploiement d’équipes de votre organisation.
+    Utilisez ce didacticiel pour vous guide dans le déploiement de Teams pour votre organisation d’enseignement.
 
 ### <a name="see-also"></a>Voir aussi
 
-[Formation sur teams](training-microsoft-teams-landing-page.md)
+[Formation teams](training-microsoft-teams-landing-page.md)
 
 [Préparation à Microsoft Teams pour les administrateurs informatiques](ITAdmin-readiness.md)
 
-[Outils d’adoption](adopt-tools-and-downloads.md)
+[Outils pour l’adoption](adopt-tools-and-downloads.md)
 
-[Ateliers de planification de la mise à niveau de Skype entreprise vers teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Atelier de planification de la mise à niveau de Skype Entreprise vers Teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [Déplacer des utilisateurs de l’environnement local vers Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

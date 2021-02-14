@@ -31,7 +31,7 @@ ms.locfileid: "44691580"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils participent à une réunion dans Microsoft Teams
 
-Lorsque vous configurez l’audioconférence dans Microsoft 365 ou Office 365, vous recevez des numéros de téléphone et ce qu’on appelle un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone qui peuvent être dédiés ou partagés.
+Lors de la configuration de l’audioconférence dans Microsoft 365 ou Office 365, vous recevez des numéros de téléphone et un « pont de conférence » audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone qui peuvent être dédiés ou partagés.
   
 Le pont de conférence répond à l’appel d’un utilisateur qui compose un numéro pour accéder à la réunion en utilisant un téléphone. Il répond à l’appelant avec des invites vocales d’un standard automatique puis, en fonction des paramètres, il peut lire des notifications, demander aux appelants d’enregistrer leur nom et définir la sécurité avec un code confidentiel pour les organisateurs de la réunion. Les codes confidentiels sont donnés aux organisateurs de réunions pour leur permettre de démarrer une réunion. Vous pouvez cependant définir les options de telle sorte qu'un code confidentiel ne soit pas nécessaire pour démarrer une réunion.
 
@@ -42,11 +42,11 @@ Le pont de conférence répond à l’appel d’un utilisateur qui compose un nu
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
+2. En haut de la page Ponts **de** conférence, cliquez sur **Paramètres du pont.** 
 
-3. Activer ou désactiver **les notifications d’entrée et de sortie**d’une réunion.
+3. Activer ou désactiver les **notifications d’entrée et de sortie des réunions.**
 
-4. Si vous activez les notifications, sélectionnez les **noms ou les numéros de téléphone** sous **type d’annonce d’entrée/sortie**, puis activez **demander aux appelants d’enregistrer leur nom avant de participer à une réunion.**
+4. Si vous avez  activer les notifications, sélectionnez Noms ou numéros de téléphone sous Type d’annonce d’entrée/sortie, puis sélectionnez Demander aux appelants d’enregistrer leur nom avant de **rejoindre une réunion.** 
 
 6. Cliquez sur **Enregistrer**.
     
@@ -55,7 +55,7 @@ Le pont de conférence répond à l’appel d’un utilisateur qui compose un nu
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -65,4 +65,4 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayez ou achetez une audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

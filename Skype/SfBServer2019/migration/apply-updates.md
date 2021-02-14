@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Avant de migrer les mises à jour, doivent être appliquées à votre environnement. Pour obtenir les informations les plus à jour, consultez la rubrique mises à jour du centre de ressources à l’adresse https://go.microsoft.com/fwlink/p/?linkid=232630 .
+description: Avant de migrer, les mises à jour doivent être appliquées à votre environnement. Pour obtenir les informations les plus à jour, consultez le Centre de ressources mises à jour à https://go.microsoft.com/fwlink/p/?linkid=232630 l’accueil.
 ms.openlocfilehash: 0467d3d17c0fe33ff9e86a5f6aa2f858f9bd085c
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44753176"
 ---
 # <a name="apply-updates"></a>Appliquer des mises à jour
 
-Avant de procéder à la migration, les mises à jour doivent être appliquées à votre environnement. Pour obtenir les informations les plus à jour, reportez-vous à la page **téléchargements et mises à jour de Skype entreprise** à l’adresse [https://go.microsoft.com/fwlink/p/?linkid=232630](https://go.microsoft.com/fwlink/p/?linkid=232630) .
+Avant de migrer, les mises à jour doivent être appliquées à votre environnement. Pour obtenir les informations les plus à jour, consultez les **téléchargements** et mises à jour de Skype Entreprise à l’adresse [https://go.microsoft.com/fwlink/p/?linkid=232630](https://go.microsoft.com/fwlink/p/?linkid=232630) .
 
 
 <!-- To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2493736).  -->

@@ -1,5 +1,5 @@
 ---
-title: Système téléphonique Microsoft 365-licences utilisateur virtuelles
+title: Microsoft 365 Phone System – Licences utilisateur virtuel
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: En savoir plus sur l’affectation d’une licence de système téléphonique à un compte de ressources au sein de votre organisation.
+description: Découvrez comment attribuer gratuitement une licence Système téléphonique –Utilisateur virtuel ou une licence d’utilisateur système téléphonique payant aux comptes de ressources de votre organisation.
 ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
 ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
@@ -27,51 +27,51 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/24/2020
 ms.locfileid: "44868651"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Système téléphonique Microsoft 365-licence utilisateur virtuel
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – Licence utilisateur virtuel
 
-Les organisations disposant d’une licence de système téléphonique peuvent attribuer un système téléphonique Microsoft 365 gratuit-licence utilisateur virtuel ou une licence utilisateur de système téléphonique payant aux comptes de ressources. Un plan d’appels n’est pas obligatoire. Tous les standards automatiques ou files d’attente d’appels nécessitent un compte de ressources associé. Les comptes de ressources qui requièrent un numéro de téléphone doivent disposer d’un système téléphonique Microsoft 365 gratuit-licence d’utilisateur virtuel ou d’une licence utilisateur de système téléphonique payant avant qu’un numéro de téléphone puisse être appliqué au compte de ressources.
+Les organisations titulaires d’une licence Phone System peuvent attribuer gratuitement une licence Microsoft 365 Phone System – Utilisateur virtuel ou une licence d’utilisateur payante Phone System à des comptes de ressources. Un forfait d’appels n’est pas nécessaire. Tous les attendants automatiques ou files d’attente d’appels nécessitent un compte de ressource associé. Les comptes de ressources nécessitant un numéro de téléphone ont besoin d’un système téléphonique Microsoft 365 gratuit – licence utilisateur virtuel ou d’une licence d’utilisateur du système téléphonique payant pour pouvoir appliquer un numéro de téléphone au compte de ressource.
 
 > [!TIP]
-> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des standards automatiques imbriqués ou des files d’attente d’appels sans numéro de téléphone. Pour en savoir plus, consultez le diagramme suivant : 
+> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des attendants automatiques ou des files d’attente d’appels imbrmbrés sans numéro de téléphone. Pour référence, consultez le diagramme suivant : 
 
-![Licences utilisateur virtuelles](../media/resource-account.png)
+![Licences utilisateur virtuel](../media/resource-account.png)
 
-## <a name="virtual-user-license-allocation"></a>Attribution de licence utilisateur virtuel
+## <a name="virtual-user-license-allocation"></a>Attribution de licences utilisateur virtuel
 
-Votre organisation est allouée par le système téléphonique Microsoft 365 : les licences utilisateur virtuelles en fonction de la taille globale. Toute organisation qui dispose d’au moins une licence, y compris système téléphonique ou doté d’un système téléphonique, a 25 licences utilisateur virtuelles disponibles sans frais. Lorsque vous ajoutez 10 licences utilisateur de système téléphonique au sein de votre organisation, un système téléphonique Microsoft 365 supplémentaire est disponible pour les utilisateurs virtuels.
+Votre organisation a attribué des licences Microsoft 365 Phone System – Utilisateurs virtuels en fonction de sa taille globale. Une organisation qui dispose d’au moins une licence, y compris Phone System ou Phone System, a ajouté 25 licences utilisateur virtuels disponibles sans frais. Lorsque vous ajoutez 10 licences utilisateur Phone System dans votre organisation, une nouvelle licence Microsoft 365 Phone System – Une licence utilisateur virtuel devient disponible.
 
 > [!NOTE]
-> Le système téléphonique est une licence de complément disponible avec Microsoft 365 et Office 365 E1 et E3. Le système téléphonique est également fourni dans le cadre de Microsoft 365 E5, Office 365 E5 et des licences Microsoft 365 Business Voice.
+> Phone System est une licence de module ajout disponible avec Microsoft 365 et Office 365 E1 et E3. Phone System est également inclus dans les licences Microsoft 365 E5, Office 365 E5 et Microsoft 365 Business Voice.
 
-Si votre organisation utilise la version gratuite du système téléphonique Microsoft 365, les licences utilisateur virtuelles permettant de créer des nœuds de files d’attente ou de file d’attente d’appels, vous pouvez toujours utiliser les licences du système téléphonique payant avec un compte de ressources. La plupart des organisations disposeront de licences utilisateur virtuelles suffisantes en fonction de l’offre de mise à l’échelle. 
+Si votre organisation utilise les licences Microsoft 365 Phone System gratuites disponibles – Licences utilisateur virtuel pour créer un service automatique ou des numéros de file d’attente d’appels, vous pouvez toujours utiliser les licences Système téléphonique payant avec un compte de ressource. La plupart des organisations auront suffisamment de licences utilisateur virtuel sur la base du plan de mise à l’échelle. 
 
 ### <a name="license-allocation-example"></a>Exemple d’attribution de licence
 
-Contoso, Inc. a acheté des licences 600 incluant un système téléphonique (pour chaque employé). Contoso est associé à un système téléphonique Microsoft 365 60 initial, c’est-à-dire aux licences utilisateur virtuelles, 85 au total. Son organisation dispose d’une file d’attente d’appels 90 et de standards automatiques disposant de numéros de téléphone. Ils doivent affecter tout le système téléphonique Microsoft 365, ainsi que les licences utilisateur virtuelles et obtenir cinq licences de système téléphonique à prix réduit.
+Contoso, Inc. a acheté 600 licences qui incluaient Phone System (une pour chaque employé). Contoso propose un nombre initial de 25 plus 60 licences Microsoft 365 Phone System – Utilisateurs virtuels, 85 au total. Son organisation dispose de 90 files d’attente et de files d’attente automatiques qui disposent de numéros de téléphone. Ils doivent affecter toutes les licences Microsoft 365 Phone System – Utilisateur virtuel et obtenir cinq licences Phone System à tarif normal.
 
-Contoso doit envisager de reconcevoir le standard automatique et le système de files d’attente d’appels. S’ils utilisent moins de numéros de téléphone et des nœuds imbriqués qui n’ont pas besoin d’un numéro de téléphone, ils simplifient l’implémentation et réduisent les coûts.
+Contoso doit envisager de reconfidenter le système de attendant automatique et de file d’attente d’appels. S’ils utilisent moins de numéros de téléphone et plus de numéros imbrmbrés qui n’ont pas besoin de numéro de téléphone, ils simplifient l’implémentation et réduisent les coûts.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Achat du système téléphonique Microsoft 365-licences utilisateur virtuelles
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Acheter Microsoft 365 Phone System – Licences utilisateur virtuel
 
 1. Connectez-vous au Centre d’administration Microsoft 365.
-2. Accédez aux **Billing**  >  **Purchase services**  >  **modules complémentaires** services d’achat de facturation
-3. Faites défiler jusqu’à la fin pour trouver le **système téléphonique Microsoft 365-licence utilisateur virtuel** . Sélectionnez **acheter maintenant**.
+2. Go to **Billing**  >  **Purchase services**  >  **Add-ons**
+3. Faites défiler jusqu’à la fin pour trouver **la licence Microsoft 365 Phone System – Utilisateur** virtuel. Sélectionnez **Acheter maintenant.**
 
 > [!NOTE]
-> Gardez à l’esprit que vous devez toujours **acheter** la licence, même si elle a un coût égal à zéro.
+> N’oubliez pas que vous devez  **toujours acheter** la licence, même si son coût est nul.
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Modification d’un compte de ressources existant pour utiliser un système téléphonique Microsoft 365-licence utilisateur virtuel
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Modifier un compte de ressource existant pour utiliser un système téléphonique Microsoft 365 – Licence utilisateur virtuel
 
-Si vous décidez de basculer la licence sur votre compte de ressources à partir d’une licence de système téléphonique vers un système téléphonique Microsoft 365-licence utilisateur virtuel :
+Si vous décidez de basculer la licence de votre compte de ressource d’une licence Phone System à une licence Microsoft 365 Phone System –Utilisateur virtuel :
 
-1. Téléchargez le nouveau système téléphonique Microsoft 365-licence utilisateur virtuel.
-2. Suivez les étapes liées du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+1. Obtenez la nouvelle licence Microsoft 365 Phone System – Utilisateur virtuel.
+2. Suivez les étapes liées dans le Centre d’administration Microsoft 365 pour déplacer les [utilisateurs vers un autre abonnement.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
-> Supprimez toujours une licence de système téléphonique complet et attribuez-la à une licence d’utilisateur virtuel Microsoft 365. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressources risque de ne plus fonctionner comme prévu. Si tel est le cas, nous vous recommandons de créer un compte de ressources pour le système téléphonique Microsoft 365-licence d’utilisateur virtuel et de supprimer le compte de ressource endommagé. 
+> Supprimez toujours une licence phone system complète et affectez la licence Microsoft 365 Phone System – Utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications apportées au compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un nouveau compte de ressource pour microsoft 365 Phone System ( licence utilisateur virtuel) et de supprimer le compte de ressource rompu. 
 
 ## <a name="related-information"></a>Informations connexes
 
-[Mise à jour du service de files d’attente et de file d’attente automatique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[Standard automatique mise à jour du service des files d’attente et des appels](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [Gérer les comptes de ressources dans Microsoft Teams](../manage-resource-accounts.md)

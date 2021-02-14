@@ -1,5 +1,5 @@
 ---
-title: Préparation de la phase 2 pour la migration
+title: Phase 2 Préparer la migration
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: Avant de commencer la migration vers Skype entreprise Server 2019, suivez les étapes décrites dans cette section.
+description: Avant de commencer la migration vers Skype Entreprise Server 2019, suivez les étapes décrites dans cette section.
 ms.openlocfilehash: 74a59bb9f7617fd02f4b1f714e1f1d96dacac603
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -21,9 +21,9 @@ ms.locfileid: "44752356"
 ---
 # <a name="phase-2-prepare-for-migration"></a>Étape 2 : Préparer la migration
 
-Avant de commencer la migration vers Skype entreprise Server 2019, suivez les étapes décrites dans cette section.
+Avant de commencer la migration vers Skype Entreprise Server 2019, suivez les étapes décrites dans cette section.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [Appliquer des mises à jour](apply-updates.md)
     

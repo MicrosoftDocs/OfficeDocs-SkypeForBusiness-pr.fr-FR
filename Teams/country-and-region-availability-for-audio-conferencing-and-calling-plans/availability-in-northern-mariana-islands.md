@@ -1,5 +1,5 @@
 ---
-title: Disponibilité des îles Mariannes du Nord
+title: Disponibilité aux îles Mariannes du Nord
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour les îles Mariannes du Nord.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Mariannes du Nord.
 ms.openlocfilehash: 0f06d17547b5d4b5367d60dfbcba142730fa8b29
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44877986"
 ---
-# <a name="availability-in-northern-mariana-islands"></a>Disponibilité des îles Mariannes du Nord
+# <a name="availability-in-northern-mariana-islands"></a>Disponibilité aux îles Mariannes du Nord
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype entreprise et Microsoft teams disponibles pour les îles Mariannes du Nord.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les îles Mariannes du Nord.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Details**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui. Payez à la minute uniquement. <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui. Paiement à la minute uniquement. <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Non |
 |Possibilité d'appel sortant à l'aide de la fonctionnalité Appelez-moi  <br/> | Nécessite des crédits de communication <br/> |
    

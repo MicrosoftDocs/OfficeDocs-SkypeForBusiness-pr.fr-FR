@@ -1,5 +1,5 @@
 ---
-title: Exemple de script PowerShell-gestionnaires d’exportation et leurs directs
+title: Exemple de script PowerShell - Responsables de l’exportation et leurs directs
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour exporter une liste de responsables et leurs directs pour votre organisation, en préparation à la création d’une équipe pour chaque responsable avec leurs directs en tant que membres de l’équipe.
+description: Ce script PowerShell permet d’exporter une liste de gestionnaires et leurs directs pour votre organisation, afin de préparer la création d’une équipe pour chaque responsable avec ses directs en tant que membres de l’équipe.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583121"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell-gestionnaires d’exportation et leurs directs
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell - Responsables de l’exportation et leurs directs
 
-Utilisez ce script PowerShell pour exporter une liste de responsables et leurs directs pour votre organisation, en préparation à la création d’une équipe responsable de personnes pour chaque responsable avec leurs directs en tant que membres d’équipe.
+Ce script PowerShell permet d’exporter une liste de gestionnaires et leurs directs pour votre organisation, afin de préparer la création d’une équipe de responsables pour chaque responsable, avec les directs en tant que membres de l’équipe.
 
-Pour en savoir plus sur ce script PowerShell, voir [créer des équipes du gestionnaire de personnes](../create-manager-directs-teams.md).
+Pour en savoir plus sur ce script PowerShell, lisez [Créer des équipes de responsables de personnes.](../create-manager-directs-teams.md)
 
 Si vous débutez avec PowerShell et avez besoin d’aide pour démarrer, reportez-vous à la rubrique [Présentation d’Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## <a name="export-managers-script"></a>Script d’exportation-gestionnaires
+## <a name="export-managers-script"></a>Export-Managers script
 
 ```powershell
 <# 

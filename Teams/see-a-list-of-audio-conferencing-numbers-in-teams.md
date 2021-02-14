@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Découvrez comment trouver les numéros de conférence rendez-vous disponibles pour les conférences audio à partir de Microsoft Teams.
+description: Découvrez comment rechercher les numéros de conférences téléphoniques disponibles pour l’audioconférence à partir de Microsoft Teams.
 ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
 ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
@@ -42,18 +42,18 @@ Pour modifier le numéro de téléphone à composer pour un utilisateur unique, 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher les numéros de téléphone de votre audioconférence
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros de téléphone d’audioconférence
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, accédez à **conférences**  >  **conférences**. 
-2. Affichez les numéros de téléphone disponibles pour les conférences audio.
+1. Dans le navigateur de gauche, allez sur **des ponts de conférence**  >  **Réunions.** 
+2. Affichez les numéros de téléphone disponibles pour l’audioconférence.
 
-- Vous pouvez également afficher l’emplacement et la langue principale qui seront utilisés par le standard automatique de conférence audio.
+- Vous pouvez également afficher l’emplacement et la langue principale qui seront utilisés par le attendant automatique de l’audioconférence.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -63,5 +63,5 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayez ou achetez une audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

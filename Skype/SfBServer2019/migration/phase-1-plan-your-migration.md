@@ -1,5 +1,5 @@
 ---
-title: Phase 1 planifier votre migration
+title: Phase 1 Planifier votre migration
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Cette section traite de la planification des rubriques relatives à la migration vers Skype entreprise Server 2019.
+description: Cette section traite des rubriques de planification pour la migration vers Skype Entreprise Server 2019.
 ms.openlocfilehash: 312a8ef1dcf5beb1a0d23fe0df58a3916d66981f
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,9 +20,9 @@ ms.locfileid: "44752456"
 ---
 # <a name="phase-1-plan-your-migration"></a>Étape 1 : Planifier la migration
 
-Cette section traite de la planification des rubriques relatives à la migration vers Skype entreprise Server 2019. 
+Cette section traite des rubriques de planification pour la migration vers Skype Entreprise Server 2019. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [Migration des utilisateurs](user-migration.md)
     

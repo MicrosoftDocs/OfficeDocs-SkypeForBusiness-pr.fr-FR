@@ -1,5 +1,5 @@
 ---
-title: Options de courrier lorsque les paramètres de conférence audio changent
+title: Options de messagerie électronique en cas de modification des paramètres d’audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -36,7 +36,7 @@ Si vous désactivez l'envoi de courriers électroniques, aucun message d’audio
   
 Voici un exemple de courrier électronique envoyé aux utilisateurs activés pour l’audioconférence :
   
-![Exemple de message électronique de conférence audio](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Exemple de message électronique d’audioconférence](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quand des messages électroniques sont-ils envoyés à vos utilisateurs ?
 
@@ -80,7 +80,7 @@ Pour des informations complémentaires, consultez la rubrique [Microsoft Teams P
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell consiste à gérer les utilisateurs et à identifier les utilisateurs autorisés ou interdits. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
+Windows PowerShell vous permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour commencer à Windows PowerShell, consultez les rubriques ci-après :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     

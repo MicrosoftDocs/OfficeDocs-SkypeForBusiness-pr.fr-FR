@@ -20,8 +20,8 @@ ms.locfileid: "44752476"
 ---
 # <a name="administering-servers-after-migration"></a>Administration des serveurs après la migration
 
-En règle générale, vous devez utiliser les outils d’administration qui correspondent à la version du serveur à gérer. Vous ne pouvez pas installer des outils d’administration à partir de versions différentes sur le même ordinateur.
+En règle générale, vous devez utiliser les outils d’administration qui correspondent à la version du serveur à gérer. Vous ne pouvez pas installer des outils d’administration à partir de différentes version sur le même ordinateur.
   
 > [!IMPORTANT]
-> Une fois qu’un pool pilote Skype entreprise Server est déployé, vous ne pouvez pas utiliser le générateur de topologie ou le panneau de configuration pour gérer les ressources 2019. Vous devez utiliser les outils 2019 pour gérer toutes les ressources de version actuelle et précédente. 
+> Après le déploiement d’un pool pilote Skype Entreprise Server, vous ne pouvez pas utiliser le Générateur de topologie ou le Panneau de contrôle pour gérer les ressources 2019. Vous devez utiliser les outils 2019 pour gérer toutes les ressources de version actuelle et précédente. 
   

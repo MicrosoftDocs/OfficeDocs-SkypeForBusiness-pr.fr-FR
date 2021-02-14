@@ -33,7 +33,7 @@ ms.locfileid: "46662124"
 Un ID de conférence dynamique est inclus dans la partie inférieure des invitations aux réunions avec les numéros de téléphone qui peuvent être utilisés par les appelants pour accéder à une réunion. Lorsque l'utilisateur compose le numéro de téléphone, le standard automatique de la réunion lui demande de saisir cet ID de conférence pour pouvoir assister à la réunion.
   
 > [!NOTE]
-> Les ID de conférence sont générés automatiquement, vont de 7-9 chiffres et sont définis lorsque vous activez l’audioconférence pour un utilisateur. **Les ID de conférence statiques ne sont pas pris en charge.** 
+> Les ID de conférence sont générés automatiquement, ils sont entre 7 et 9 chiffres et sont définies lorsque vous activez l’audioconférence pour un utilisateur. **Les ID de conférence statiques ne sont pas pris en charge.** 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialisation de l’ID de conférence d’un utilisateur
 
@@ -41,7 +41,7 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
 
 1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Cliquez sur **modifier**.
+2. Cliquez **sur Modifier.**
 
 3. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.
 
@@ -49,7 +49,7 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
 
     
 > [!NOTE]
-> Une fois l'ID de conférence réinitialisé, un courrier électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce message est envoyé à l’adresse de messagerie principale, dans de nombreux cas, la boîte aux lettres Microsoft 365 ou Office 365. Le courrier électronique contient le nouvel ID de conférence, le ou les numéros de téléphone et les instructions de mise à jour des réunions existantes. 
+> Une fois l'ID de conférence réinitialisé, un courrier électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce courrier électronique sera envoyé à son adresse de messagerie principale, dans de nombreux cas, à sa boîte aux lettres Microsoft 365 ou Office 365. Le courrier électronique contient le nouvel ID de conférence, le ou les numéros de téléphone et les instructions de mise à jour des réunions existantes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
 
 - Vous pouvez envoyer toutes les informations sur les conférences à l'utilisateur dans un message électronique qui inclut l'ID de conférence et les numéros de téléphone à composer en cliquant sur **Envoyer les informations de la conférence dans un courrier électronique** pour l’utilisateur dans la section **Audioconférence**. Ce courrier ne contient pas le code confidentiel.
     
-- Un ID de conférence à 7-9 chiffres est créé par le service Teams. Vous ne pouvez pas modifier sa longueur.
+- Un ID de conférence à 7 ou 9 chiffres est créé par le service Teams. Vous ne pouvez pas modifier sa longueur.
     
 - Une fois l'ID de conférence réinitialisé, vous pouvez afficher le nouvel ID de conférence sous **ID de conférence**.
     
@@ -66,7 +66,7 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Windows PowerShell vous permet de gérer Microsoft 365 ou Office 365 à l’aide d’un point d’administration unique qui peut simplifier votre travail quotidien lorsque vous avez plusieurs tâches à effectuer. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     

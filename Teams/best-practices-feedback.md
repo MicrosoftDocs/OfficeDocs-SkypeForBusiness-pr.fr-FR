@@ -1,5 +1,5 @@
 ---
-title: Recommandations en matière de méthodes de commentaires des utilisateurs
+title: Meilleures pratiques pour les méthodes de commentaires des utilisateurs
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -30,7 +30,7 @@ ms.locfileid: "46581385"
 
 L'adoption d'une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement du comportement des personnes requiert des formations, des encouragements et des exemples positifs. Il est également essentiel pour les personnes de se sentir écoutées pendant la transition. Si vous avez déjà établi des méthodes de demande de commentaires qui ont fait leurs preuves dans votre organisation, envisagez de les étendre pour inclure votre implémentation de Teams. Si ce n'est pas le cas, envisagez d'appliquer l'une des approches suivantes :
 
--   La création d’une équipe publique au sein de Microsoft Teams, qui permet à un utilisateur de se joindre pour formuler des commentaires sur son utilisation (en gardant à l’esprit que les groupes publics sont limités aux utilisateurs 5000).
+-   Création d’une équipe publique dans Microsoft Teams que tout utilisateur peut rejoindre pour fournir des commentaires sur son expérience (en gardant à l’esprit que les groupes publics sont limités à 5 000 utilisateurs).
 
 -   Utilisation de Yammer pour mettre en place une communauté ouverte pour fournir des meilleures pratique et un support.
 
@@ -39,4 +39,4 @@ Les méthodes de demande de commentaires axées sur la communauté requièrent l
 <a name="showcases"></a>Démonstration
 ---------
 
-À mesure que vous continuez dans le cadre de cette étape, vous allez découvrir des présentation dans votre propre environnement d’employés dont Microsoft teams se étonne et vous enchanta. Nous vous recommandons de partager ces Showcase à grande échelle. Ainsi, vous encouragez les utilisateurs à s’innover, à éduquer les utilisateurs qui se trouvent dans la courbe d’adoption et à récompenser les personnes ayant pris le temps de réfléchir à la meilleure utilisation de Microsoft teams dans leur environnement. La définition d’un objectif mesurable d’identification d’un nombre défini de Showcase chaque trimestre est utile pour la conservation de votre dynamisme d’adoption.
+Au cours de ce voyage, vous trouverez des présentations dans votre propre environnement d’employés dont la créativité avec Microsoft Teams vous surprenne et vous ravira. Nous vous recommandons de partager ces présentations à grande étendue. Cela encourage les autres utilisateurs à être innovants, à informer les utilisateurs qui sont peut-être avant dans la courbe d’adoption et à récompenser ceux qui ont pris le temps de réfléchir à la meilleure utilisation de Microsoft Teams dans leur environnement. La définition d’un objectif mesurable d’identification d’un nombre donné de présentations chaque trimestre est utile pour maintenir une bonne dynamique d’adoption.

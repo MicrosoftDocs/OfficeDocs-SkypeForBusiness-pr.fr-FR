@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Chaque Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert de serveur d’inscriptions de sauvegarde pour le SBA. Lorsque le pool frontal est migré vers Skype entreprise Server 2019, le SBA doit être désactivée du pool frontal pendant la mise à niveau du pool, une fois que le pool a été migré vers Skype entreprise Server 2019, le SBA peut être réassocié au pool frontal mis à niveau. Cela implique de supprimer le SBA de la topologie héritée dans le générateur de topologie, puis d’ajouter le SBA à la topologie Skype entreprise Server 2019. Les utilisateurs hébergés sur le SBA hérité doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois que le SBA est ajouté à la topologie Skype entreprise Server 2019, ces utilisateurs peuvent ensuite être déplacés vers le SBA. Voici un récapitulatif de ces étapes :'
+description: 'Chaque Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert de bureau d’enregistrement de sauvegarde pour le SBA. Lorsque le pool frontal est migré vers Skype Entreprise Server 2019, l’SBA doit être dissocié du pool frontal pendant la mise à niveau du pool. Une fois que le pool a été migré vers Skype Entreprise Server 2019, le SBA peut être réassocié au pool frontal mis à niveau. Cela implique la suppression du SBA de la topologie héritée dans le Générateur de topologie, puis l’ajout du SBA à la topologie Skype Entreprise Server 2019. Les utilisateurs d’un SBA hérité doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois que le SBA est ajouté à la topologie Skype Entreprise Server 2019, ces utilisateurs peuvent ensuite être déplacés vers le SBA. Voici un récapitulatif de ces étapes :'
 ms.openlocfilehash: 23fea7694a754b82ecad684d2ea02b603a6c7299
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,21 +20,21 @@ ms.locfileid: "44751546"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Connexion d’une Survivable Branch Appliance
 
-Chaque Survivable Branch Appliance (SBA) est associé à un pool de serveurs frontaux qui sert de serveur d’inscriptions de sauvegarde pour le SBA. Lorsque le pool frontal est migré vers Skype entreprise Server 2019, le SBA doit être désassocié du pool frontal pendant la mise à niveau du pool. Une fois le pool migré vers Skype entreprise Server 2019, le SBA peut être réassocié au pool frontal mis à niveau. Cela implique de supprimer le SBA de la topologie héritée dans le générateur de topologie, puis d’ajouter le SBA à la topologie Skype entreprise Server 2019. Les utilisateurs hébergés sur le SBA hérité doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois que le SBA est ajouté à la topologie Skype entreprise Server 2019, ces utilisateurs peuvent être déplacés vers le SBA. Voici un récapitulatif de ces étapes :
+Chaque Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert de bureau d’enregistrement de sauvegarde pour le SBA. Lorsque le pool frontal est migré vers Skype Entreprise Server 2019, l’SBA doit être dissocié du pool frontal pendant la mise à niveau du pool. Une fois le pool migré vers Skype Entreprise Server 2019, le SBA peut être ré-associé au pool frontal mis à niveau. Cela implique la suppression du SBA de la topologie héritée dans le Générateur de topologie, puis l’ajout du SBA à la topologie Skype Entreprise Server 2019. Les utilisateurs d’un SBA hérité doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois que le SBA est ajouté à la topologie Skype Entreprise Server 2019, ces utilisateurs peuvent être déplacés vers le SBA. Voici un récapitulatif de ces étapes :
   
-1. Déplacez les utilisateurs de succursale hébergés sur l’SBA hérité dans un autre pool frontal.
+1. Déplacez les utilisateurs de succursales sur le SBA hérité vers un autre pool frontal.
     
-2. Supprimez SBA de la topologie héritée pour déconnecter le pool frontal existant en tant que serveur d’inscriptions de sauvegarde.
+2. Supprimez le SBA de la topologie héritée pour déconnecter le pool frontal existant en tant que bureau d’enregistrement de sauvegarde.
     
-3. Ajoutez SBA à la topologie Skype entreprise Server 2019 et configurez ce nouveau pool frontal comme serveur d’inscriptions de sauvegarde. 
+3. Ajoutez un SBA à la topologie Skype Entreprise Server 2019 et configurez ce nouveau pool frontal en tant que serveur d’inscriptions de sauvegarde. 
     
-4. Déplacez les utilisateurs de succursale vers le nouveau Skype entreprise Server 2019 SBA.
+4. Déplacez les utilisateurs de succursale vers le nouveau SBA Skype Entreprise Server 2019.
     
-### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Ajouter un site de succursale hérité SBA à votre topologie
+### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Ajouter un site de succursale SBA hérité à votre topologie
 
 1. Ouvrez le **Générateur de topologie**.
     
-2. Dans le volet de gauche, cliquez avec le bouton droit sur **sites de succursale**, puis cliquez sur **nouveau site de succursale**.
+2. Dans le volet gauche, cliquez avec le bouton droit sur **Sites de succursale,** puis cliquez **sur Nouveau site de succursale.**
     
 3. Dans la boîte de dialogue **Définir un nouveau site de succursale**, cliquez sur **Nom**, puis tapez le nom du site de succursale.
     
@@ -50,15 +50,15 @@ Chaque Survivable Branch Appliance (SBA) est associé à un pool de serveurs fro
     
     3. Cliquez sur **Code du pays**, puis tapez le code d’appel à deux chiffres du pays ou de la région du site de succursale.
     
-7. Cliquez sur **suivant**, puis, si vous utilisez un Survivable Branch Appliance ou serveur sur ce site, veillez à désactiver la case à cocher **ouvrir l’Assistant Nouveau Survivable** Branch Server à la fermeture de cet Assistant. Cliquez sur**Terminer**.
+7. Cliquez **sur** Suivant, puis, si vous utilisez un Survivable Branch Appliance ou un serveur Survivable Branch Server sur ce site, n’oubliez pas d’ouvrir l’Assistant Nouveau **Survivable Lorsque** cet Assistant ferme la case. Cliquez sur **Terminer**.
     
-8. Pour associer le SBA hérité au pool frontal Skype entreprise Server 2019, procédez comme suit :
+8. Pour associer l’ancien SBA au pool frontal Skype Entreprise Server 2019 :
     
     1. Développez le site de succursale créé. 
     
-    2. Cliquez avec le bouton droit sur version héritée, puis cliquez sur **nouveau**.
+    2. Cliquez avec le bouton droit sur la version héritée, puis cliquez sur **Nouveau.**
     
-    3. Cliquez sur **Survivable Branch Appliance**.
+    3. Cliquez **sur Survivable Branch Appliance**.
     
 9. Suivez les instructions de l’Assistant qui s’ouvre. Pour plus d’informations sur les éléments de l’Assistant, voir    
    <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->

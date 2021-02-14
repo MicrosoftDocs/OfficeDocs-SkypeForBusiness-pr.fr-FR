@@ -1,5 +1,5 @@
 ---
-title: Exemple de script PowerShell-créer de nouvelles équipes du gestionnaire de personnes
+title: Exemple de script PowerShell - Créer de nouvelles équipes de responsables de personnes
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Servez-vous de ce script PowerShell pour créer une équipe pour chaque responsable en tant que membre de l’équipe.
+description: Utilisez ce script PowerShell pour créer une équipe pour chaque responsable avec ses directs en tant que membres de l’équipe.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583111"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Exemple de script PowerShell-créer de nouvelles équipes du gestionnaire de personnes
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Exemple de script PowerShell - Créer de nouvelles équipes de responsables de personnes
 
-Servez-vous de ce script PowerShell pour créer une équipe pour chaque responsable en tant que membre de l’équipe. Avant d’exécuter ce script, exécutez le script d' [exportation de gestionnaires](powershell-script-create-teams-from-managers-export-managers.md) pour exporter (à partir de votre Active Directory) une liste de responsables et leurs directs pour votre organisation.
+Utilisez ce script PowerShell pour créer une équipe pour chaque responsable avec ses directs en tant que membres de l’équipe. Avant d’exécuter ce script, exécutez le [script](powershell-script-create-teams-from-managers-export-managers.md) des gestionnaires d’exportation pour exporter (à partir de votre Active Directory) une liste de responsables et leurs directs pour votre organisation.
 
-Pour en savoir plus sur ce script PowerShell, voir [créer des équipes du gestionnaire de personnes](../create-manager-directs-teams.md).
+Pour en savoir plus sur ce script PowerShell, lisez [Créer des équipes de responsables de personnes.](../create-manager-directs-teams.md)
 
 Si vous débutez avec PowerShell et avez besoin d’aide pour démarrer, reportez-vous à la rubrique [Présentation d’Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## <a name="create-new-people-manager-teams"></a>Créer de nouvelles équipes du gestionnaire de personnes 
+## <a name="create-new-people-manager-teams"></a>Créer des équipes de responsables de personnes 
 
 ```powershell
 <# 

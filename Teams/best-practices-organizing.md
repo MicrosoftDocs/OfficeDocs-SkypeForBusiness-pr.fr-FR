@@ -1,5 +1,5 @@
 ---
-title: Recommandations en matière d’organisation des équipes
+title: Meilleures pratiques pour organiser les équipes
 ms.reviewer: pbethi
 author: SerdarSoysal
 ms.author: serdars
@@ -42,7 +42,7 @@ Lorsque vous déployez Teams pour la première fois, nous vous recommandons de c
 
 ## <a name="create-channels-to-focus-discussions"></a>Créez des canaux pour orienter les discussions
 
-Une fois que vous avez créé votre équipe, il est judicieux de commencer à réfléchir aux différents projets et types de conversations que vous devez prendre en charge. Créez des canaux initiaux pour que les membres sachent où collaborer et trouver les conversations existantes. Utilisez des noms de canaux descriptifs pour permettre aux membres d’identifier facilement l’emplacement de chaque conversation. Ajoutez des outils (par exemple, OneNote, Power BI ou Planner) sous forme d’onglets à un canal, pour que les membres disposent de tout ce dont ils ont besoin, directement dans le canal. Vous pouvez également ajouter à un canal, sous forme d'onglet, une page web couramment utilisée.
+Une fois que vous avez créé votre équipe, il est bon de commencer à réfléchir aux différents projets et types de conversations que vous devez prendre en charge. Créez des canaux initiaux pour que les membres sachent où collaborer et trouver les conversations existantes. Utilisez des noms de canaux descriptifs pour permettre aux membres d’identifier facilement l’emplacement de chaque conversation. Ajoutez des outils (par exemple, OneNote, Power BI ou Planner) sous forme d’onglets à un canal, pour que les membres disposent de tout ce dont ils ont besoin, directement dans le canal. Vous pouvez également ajouter à un canal, sous forme d'onglet, une page web couramment utilisée.
 
 En savoir plus sur le [travail en équipe](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) avec ces conseils rapides pour les utilisateurs finaux.
 

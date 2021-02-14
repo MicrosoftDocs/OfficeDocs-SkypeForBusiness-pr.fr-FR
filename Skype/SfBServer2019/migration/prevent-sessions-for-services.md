@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vous pouvez utiliser le panneau de configuration des installations héritées pour empêcher les nouvelles sessions de tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour empêcher l’exécution de nouvelles sessions pour un service hérité spécifique.
+description: Vous pouvez utiliser le Panneau de contrôle des installation héritées pour empêcher l’exécution de nouvelles sessions pour tous les services hérités sur un ordinateur spécifique ou pour empêcher de nouvelles sessions pour un service hérité spécifique.
 ms.openlocfilehash: c5cc8846febaf690376e01c36b9fa023b8377970
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,13 +20,13 @@ ms.locfileid: "44752286"
 ---
 # <a name="prevent-sessions-for-services"></a>Empêcher l’exécution de sessions de services
 
-Vous pouvez utiliser le panneau de configuration des installations héritées pour empêcher les nouvelles sessions de tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour empêcher l’exécution de nouvelles sessions pour un service hérité spécifique.
+Vous pouvez utiliser le Panneau de contrôle des installation héritées pour empêcher l’exécution de nouvelles sessions pour tous les services hérités sur un ordinateur spécifique ou pour empêcher de nouvelles sessions pour un service hérité spécifique.
   
-## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>Pour empêcher l’activation de nouvelles sessions pour les services sur un ordinateur
+## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>Pour empêcher de nouvelles sessions pour les services sur un ordinateur
 
-1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server 2019.
+1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur du réseau sur lequel vous avez déployé Skype Entreprise Server 2019.
     
-2. Ouvrez le panneau de configuration Skype entreprise.
+2. Ouvrez le Panneau de contrôle Skype Entreprise.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
     
@@ -38,9 +38,9 @@ Vous pouvez utiliser le panneau de configuration des installations héritées po
     
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Pour empêcher l’exécution de nouvelles sessions d’un service spécifique
 
-1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server 2019.
+1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur du réseau sur lequel vous avez déployé Skype Entreprise Server 2019.
     
-2. Ouvrez le panneau de configuration Skype entreprise.
+2. Ouvrez le Panneau de contrôle Skype Entreprise.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
     

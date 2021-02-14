@@ -1,5 +1,5 @@
 ---
-title: 'Phase 7 : effectuer les tâches postérieures à la migration'
+title: Phase 7 Effectuer les tâches post-migration
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir effectué votre migration vers Skype entreprise Server 2019.
+description: Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir effectué votre migration vers Skype Entreprise Server 2019.
 ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,9 +20,9 @@ ms.locfileid: "44752296"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Étape 7 : Exécuter les tâches post-migration
 
-Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir effectué votre migration vers Skype entreprise Server 2019.
+Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir effectué votre migration vers Skype Entreprise Server 2019.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [Migration des réunions existantes et du contenu des réunions](migrate-existing-meetings-and-meeting-content.md)
     
@@ -40,7 +40,7 @@ Les rubriques de cette section décrivent les tâches que vous devrez effectuer 
     
 - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers.md)
     
-- [Déployer les clients Skype entreprise Server 2019](deploy-clients.md)
+- [Déployer des clients Skype Entreprise Server 2019](deploy-clients.md)
     
 - [Connexion d’une Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
     

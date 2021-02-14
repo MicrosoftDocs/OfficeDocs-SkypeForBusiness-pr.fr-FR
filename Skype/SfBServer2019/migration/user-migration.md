@@ -22,7 +22,7 @@ ms.locfileid: "44753276"
 
 Une méthode recommandée et généralement acceptée pour les migrations consiste à créer plusieurs utilisateurs test et à les utiliser pour effectuer des tests du système. Après avoir déplacé et testé ces comptes, vous devez identifier un groupe pilote d’utilisateurs de production, déplacer leurs comptes et effectuer des tests de validation sur ces comptes. Lorsque vous obtenez des résultats satisfaisants, vous pouvez déplacer le reste de vos utilisateurs vers le nouveau déploiement.
   
-Pour plus d’informations sur l’activation des utilisateurs pour Skype entreprise Server 2019, reportez-vous à la documentation sur le déploiement de Skype entreprise Server 2019. 
+Pour plus d’informations sur l’activation des utilisateurs pour Skype Entreprise Server 2019, voir la documentation de déploiement de Skype Entreprise Server 2019. 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
 
