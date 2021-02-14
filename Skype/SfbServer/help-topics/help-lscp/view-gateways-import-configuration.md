@@ -22,10 +22,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814524"
 ---
-# <a name="view-gateways-import-configuration"></a><span data-ttu-id="3ee04-103">Afficher les passerelles (importer la configuration)</span><span class="sxs-lookup"><span data-stu-id="3ee04-103">View Gateways (Import Configuration)</span></span>
+# <a name="view-gateways-import-configuration"></a><span data-ttu-id="81904-103">Afficher les passerelles (importer la configuration)</span><span class="sxs-lookup"><span data-stu-id="81904-103">View Gateways (Import Configuration)</span></span>
  
-<span data-ttu-id="3ee04-104">Dans **Passerelle déployée**, cliquez sur la passerelle où vous souhaitez importer le fichier de configuration de la voix que vous avez sélectionné.</span><span class="sxs-lookup"><span data-stu-id="3ee04-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
+<span data-ttu-id="81904-104">Dans **Passerelle déployée**, cliquez sur la passerelle où vous souhaitez importer le fichier de configuration de la voix que vous avez sélectionné.</span><span class="sxs-lookup"><span data-stu-id="81904-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
   
-<span data-ttu-id="3ee04-105">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="3ee04-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="81904-105">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="81904-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

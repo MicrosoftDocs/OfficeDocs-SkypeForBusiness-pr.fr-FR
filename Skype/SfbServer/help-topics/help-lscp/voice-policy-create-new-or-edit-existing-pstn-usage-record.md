@@ -22,15 +22,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814514"
 ---
-# <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a><span data-ttu-id="57437-103">Stratégie de la voix : créer un nouvel enregistrement d’utilisation PSTN ou en modifier un existant</span><span class="sxs-lookup"><span data-stu-id="57437-103">Voice Policy: Create New or Edit Existing PSTN Usage Record</span></span>
+# <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a><span data-ttu-id="2444d-103">Stratégie de la voix : créer un nouvel enregistrement d’utilisation PSTN ou en modifier un existant</span><span class="sxs-lookup"><span data-stu-id="2444d-103">Voice Policy: Create New or Edit Existing PSTN Usage Record</span></span>
 
-<span data-ttu-id="57437-104">UNRESOLVED_TOKEN_VAL(bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="57437-104">UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)</span></span>
+<span data-ttu-id="2444d-104">UNRESOLVED_TOKEN_VAL(bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="2444d-104">UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)</span></span>
 
-- [<span data-ttu-id="57437-105">Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Skype Entreprise 2015</span><span class="sxs-lookup"><span data-stu-id="57437-105">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="2444d-105">Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Skype Entreprise 2015</span><span class="sxs-lookup"><span data-stu-id="2444d-105">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="57437-106">Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="57437-106">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="2444d-106">Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="2444d-106">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-- [<span data-ttu-id="57437-107">Afficher les enregistrements d’utilisation PSTN dans Skype Entreprise 2015</span><span class="sxs-lookup"><span data-stu-id="57437-107">View PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [<span data-ttu-id="2444d-107">Afficher les enregistrements d’utilisation PSTN dans Skype Entreprise 2015</span><span class="sxs-lookup"><span data-stu-id="2444d-107">View PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-<span data-ttu-id="57437-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="57437-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="2444d-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="2444d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811954"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="b1829-104">Ajouter un pool Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="b1829-104">Add Survivable Branch Appliance Pool</span></span>
+# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="98afc-104">Ajouter un pool Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="98afc-104">Add Survivable Branch Appliance Pool</span></span>
  
-<span data-ttu-id="b1829-105">Pour définir le nom de domaine complet du **Survivable Branch Appliance,** tapez le nom de domaine complet (FQDN) (tel que défini dans le DNS (Domain Name System) du Survivable Branch Appliance ou du Serveur Survivable Branch Server dans la zone de texte **FQDN.**</span><span class="sxs-lookup"><span data-stu-id="b1829-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="b1829-106">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="b1829-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="98afc-105">Pour définir le nom de domaine complet du **Survivable Branch Appliance,** tapez le nom de domaine complet (FQDN) (tel que défini dans le DNS (Domain Name System) du Survivable Branch Appliance ou du Serveur Survivable Branch Server dans la zone de texte **FQDN.**</span><span class="sxs-lookup"><span data-stu-id="98afc-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="98afc-106">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="98afc-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b1829-107">Sauf indication contraire, la définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server est la même procédure.</span><span class="sxs-lookup"><span data-stu-id="b1829-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
+> <span data-ttu-id="98afc-107">Sauf indication contraire, la définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server est la même procédure.</span><span class="sxs-lookup"><span data-stu-id="98afc-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
   
 

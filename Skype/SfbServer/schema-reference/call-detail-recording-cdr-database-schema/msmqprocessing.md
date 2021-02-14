@@ -20,8 +20,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813114"
 ---
-# <a name="msmqprocessing-table"></a><span data-ttu-id="76e60-104">Table MSMQProcessing</span><span class="sxs-lookup"><span data-stu-id="76e60-104">MSMQProcessing table</span></span>
+# <a name="msmqprocessing-table"></a><span data-ttu-id="299a0-104">Table MSMQProcessing</span><span class="sxs-lookup"><span data-stu-id="299a0-104">MSMQProcessing table</span></span>
  
-<span data-ttu-id="76e60-105">La table de traitement MSMQ est réservée à une utilisation interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="76e60-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="76e60-106">Ce tableau a été introduit dans Skype Entreprise Server 2015.</span><span class="sxs-lookup"><span data-stu-id="76e60-106">This table was introduced in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="299a0-105">La table de traitement MSMQ est réservée à une utilisation interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="299a0-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="299a0-106">Ce tableau a été introduit dans Skype Entreprise Server 2015.</span><span class="sxs-lookup"><span data-stu-id="299a0-106">This table was introduced in Skype for Business Server 2015.</span></span>
   
 

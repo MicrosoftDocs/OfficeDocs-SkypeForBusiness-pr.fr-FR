@@ -22,13 +22,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812174"
 ---
-# <a name="network-configuration-global-setting"></a><span data-ttu-id="110a1-104">Configuration du réseau : paramètres globaux</span><span class="sxs-lookup"><span data-stu-id="110a1-104">Network Configuration: Global Setting</span></span>
+# <a name="network-configuration-global-setting"></a><span data-ttu-id="6f4f6-104">Configuration du réseau : paramètres globaux</span><span class="sxs-lookup"><span data-stu-id="6f4f6-104">Network Configuration: Global Setting</span></span>
 
-<span data-ttu-id="110a1-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="110a1-105">What do you want to do?</span></span> <span data-ttu-id="110a1-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="110a1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6f4f6-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="6f4f6-105">What do you want to do?</span></span> <span data-ttu-id="6f4f6-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="110a1-107">Activation du contrôle d’admission des appels</span><span class="sxs-lookup"><span data-stu-id="110a1-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="6f4f6-107">Activation du contrôle d’admission des appels</span><span class="sxs-lookup"><span data-stu-id="6f4f6-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="110a1-108">Activation du contournement de média</span><span class="sxs-lookup"><span data-stu-id="110a1-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="6f4f6-108">Activation du contournement de média</span><span class="sxs-lookup"><span data-stu-id="6f4f6-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
 
 
