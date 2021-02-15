@@ -56,11 +56,11 @@ Pour vérifier que l’application fonctionne correctement dans votre client de 
 
 Pour autoriser les utilisateurs de confiance à télécharger des applications personnalisées, suivez ces étapes :
 
-1. Activer le paramètre **d’application Autoriser l’interaction avec** des applications personnalisées à l’échelle de l’organisation. Pour ce faire :
-    1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez aux applications **Teams** Gérer les applications, puis cliquez sur Paramètres de l’application à  >   **l’échelle de l’organisation.**
+1. Activer le paramètre **d’application Autoriser l’interaction avec des applications** personnalisées à l’échelle de l’organisation. Pour ce faire :
+    1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à l’application **Teams** Gérer les applications, puis cliquez sur Paramètres de l’application à  >  l’échelle **de l’organisation.**
     2. Sous **Applications personnalisées,** activer Autoriser **l’interaction avec** les applications personnalisées, puis cliquez sur **Enregistrer.**
 2. Désactiver le paramètre **Télécharger des applications personnalisées** dans la stratégie de configuration globale de l’application. Pour ce faire :
-    1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez aux stratégies de configuration des applications **Teams,** puis cliquez sur la stratégie Globale (à l’échelle de  >   **l’organisation par** défaut).
+    1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, consultez les stratégies de configuration des applications **Teams,** puis cliquez sur la stratégie Globale (à l’échelle de  >   **l’organisation par** défaut).
     2. Désactiver télécharger **les applications personnalisées,** puis cliquer sur **Enregistrer.**
 3. Créez une stratégie de configuration d’application qui permet de télécharger des applications personnalisées et de les affecter à votre ensemble d’utilisateurs de confiance. Pour ce faire :
     1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez aux stratégies de configuration des applications **Teams,** puis  >  cliquez sur **Ajouter.** Donnez un nom et une description à la nouvelle stratégie, activer **Télécharger les** applications personnalisées, puis cliquez sur **Enregistrer.**
@@ -74,7 +74,7 @@ Pour autoriser les utilisateurs de confiance à télécharger des applications p
 
 Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications de votre organisation, téléchargez l’application. Pour ce faire, vous pouvez le faire sur la page <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Gérer les</a> applications du Centre d’administration Microsoft Teams.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **l’application Teams** Gérer  >  **les applications.**
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les **applications Teams**  >  **Gérer les applications.**
 2. Cliquez **sur** Charger, **sélectionnez un fichier,** puis sélectionnez le package d’application que vous avez reçu du développeur.
 
    ![Capture d’écran du chargement d’une application dans le Centre d’administration](media/manage-your-lob-apps-upload-new-app.png) 
@@ -93,7 +93,7 @@ Par défaut, pour que les utilisateurs trouvent l’application qu’ils doivent
 
 Vous pouvez effectuer des recherches dans le journal d’audit pour afficher l’activité des applications Teams dans votre organisation. Pour en savoir plus sur la recherche dans le journal d’audit et la liste des activités Teams enregistrées dans le journal d’audit, consultez Rechercher des événements dans Teams dans le journal <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">d’audit.</a>
 
-Avant d’effectuer des recherches dans le journal d’audit, vous devez activer l’audit dans le Centre <a href="https://protection.office.com" target="_blank">& conformité.</a> Pour en savoir plus, voir Activer ou désactiver la recherche dans le <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">journal d’audit.</a> Gardez à l’esprit que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
+Avant d’effectuer une recherche dans le journal d’audit, vous devez activer l’audit dans le Centre <a href="https://protection.office.com" target="_blank">& conformité.</a> Pour en savoir plus, voir Activer ou désactiver la recherche dans le <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">journal d’audit.</a> N’oubliez pas que les données d’audit sont uniquement disponibles à partir du moment où vous avez désactivé l’audit.
 
 ## <a name="discover-and-adopt"></a>Découvrir et adopter
 

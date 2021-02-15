@@ -26,7 +26,7 @@ tblSystemRevision contient le numéro de révision utilisé avec la table tblAdm
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |sysRevision  <br/> |bigint, non null  <br/> |Nombre de révisions.  <br/> |
    

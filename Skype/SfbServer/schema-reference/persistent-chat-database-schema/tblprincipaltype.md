@@ -26,7 +26,7 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint, non null  <br/> |ID de type Principal.  <br/> |
 |ptypeDesc  <br/> |nvarchar (256), non null  <br/> |Description du type.  <br/> |
@@ -43,14 +43,14 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 
 |**ID**|**Role**|**Description**|**Utilisateur**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |N’importe lequel  <br/> |Principal générique sans type connu. Inutilisé dans la table tblPrincipal.  <br/> ||
-|2   <br/> |AnyUser  <br/> |Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.  <br/> |Oui  <br/> |
-|3   <br/> |AnyGroup  <br/> |Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.  <br/> ||
+|1   <br/> |N’importe lequel  <br/> |Principal générique sans type connu. Inutilisé dans la table tblPrincipal.  <br/> ||
+|2   <br/> |AnyUser  <br/> |Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.  <br/> |Oui  <br/> |
+|3   <br/> |AnyGroup  <br/> |Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.  <br/> ||
 |4   <br/> |SystemUser  <br/> |Principal utilisé en interne par le serveur de conversation permanente.  <br/> ||
-|5   <br/> |Utilisateur  <br/> |Utilisateur régulier.  <br/> |Oui  <br/> |
-|8   <br/> |DC  <br/> |Contrôleur de domaine des services de domaine Active Directory.  <br/> ||
-|9   <br/> |Group  <br/> |Groupe de sécurité Active Directory.  <br/> ||
-|10   <br/> |Folder  <br/> |Conteneur ou unité d’organisation Active Directory.  <br/> ||
+|5   <br/> |Utilisateur  <br/> |Utilisateur régulier.  <br/> |Oui  <br/> |
+|8   <br/> |DC  <br/> |Contrôleur de domaine des services de domaine Active Directory.  <br/> ||
+|9   <br/> |Group  <br/> |Groupe de sécurité Active Directory.  <br/> ||
+|10   <br/> |Folder  <br/> |Conteneur ou unité d’organisation Active Directory.  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi
 

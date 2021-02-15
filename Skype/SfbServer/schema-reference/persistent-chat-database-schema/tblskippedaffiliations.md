@@ -26,7 +26,7 @@ tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
 |affDescription  <br/> |nvarchar (256), non null  <br/> |Chaîne identifiant l’affiliation.  <br/> Le format est : guid:  _{0}_ uri : _{1}_> id :  _{2}_ <br/> |

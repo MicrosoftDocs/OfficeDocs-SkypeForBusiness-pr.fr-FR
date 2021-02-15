@@ -24,7 +24,7 @@ ms.locfileid: "49831404"
  
 La table AppliedBandwidthSource est une table de prise en charge. Chaque enregistrement représente une source.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification de cette source.  <br/> |
 |**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |Uniques  <br/> |Il s’agit de la source de la capacité de bande passante imposée. Il décrit l’emplacement d’où vient la limite de bande passante (par exemple, « Serveur de stratégie », « SERVEUR TURN » ou « Modalité »).  <br/> |

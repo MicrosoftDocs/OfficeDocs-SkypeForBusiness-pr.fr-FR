@@ -46,7 +46,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Nouveau** Vous pouvez ajouter une nouvelle configuration de journal d’appareil avec l’étendue suivante :
 
-  - Globale
+  - Global
 
   - Site
 

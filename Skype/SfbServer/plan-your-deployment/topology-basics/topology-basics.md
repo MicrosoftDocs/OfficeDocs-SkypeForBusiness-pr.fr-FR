@@ -53,7 +53,7 @@ En plus de vos sites centraux, vous pouvez également avoir un ou plusieurs site
 
 - Survivable Branch Appliance, qui combine une passerelle PSTN (réseau téléphonique commuté) avec certaines fonctionnalités de Skype Entreprise Server.
 
-- Survivable Branch Server, il s’agit d’un serveur exécutant Windows Server sur qui le serveur d’inscriptions Skype Entreprise et le logiciel serveur de médiation sont installés.
+- Survivable Branch Server, il s’agit d’un serveur exécutant Windows Server sur le serveur d’inscriptions Skype Entreprise server et sur le logiciel serveur de médiation.
 
 - Passerelle PSTN autonome (qui ne fait pas partie du Survivable Branch Appliance).
 
@@ -97,7 +97,7 @@ Vous prévoyez peut-être d’avoir plusieurs sites centraux, et si c’est le c
 |Serveur de médiation autonome ou pool de serveurs de médiation  <br/> |Serveur ou pool de serveurs Edge  <br/> |
 |Serveur de conversation permanente ou pool de serveurs de conversation permanente  <br/> |Surveillance  <br/> |
 
-Tout comme pour la dernière liste, nous n’insérons pas le serveur de messagerie un jour Exchange, car il ne fait pas partie du déploiement de Skype Entreprise Server, mais il se situe également dans la même catégorie ici.
+À l’exemple de la dernière liste, nous n’insérons pas le serveur de messagerie un jour Exchange, car il ne fait pas partie du déploiement de Skype Entreprise Server, mais il se situe également dans la même catégorie ici.
 
 D’autres composants et options sont évidemment disponibles dans les déploiements.
 
@@ -149,7 +149,7 @@ En outre, un serveur frontal dans le déploiement exécute également le serveur
 Les serveurs frontaux sont des serveurs de base de données Microsoft SQL Server qui fournissent les services de base de données pour le pool frontal. Les serveurs principaux servent de magasins de sauvegarde pour les données utilisateur et de conférence du pool, et sont les principaux magasins pour d’autres bases de données telles que la base de données Response Group. Vous pouvez avoir un serveur principal unique, mais la haute disponibilité du serveur principal dans Skype Entreprise [Server](../high-availability-and-disaster-recovery/back-end-server.md) est recommandée pour leover. Les serveurs principal n’exécutent aucun logiciel Skype Entreprise Server.
 
 > [!IMPORTANT]
-> Nous vous déconseillons de céquer des bases de données Skype Entreprise Server avec d’autres bases de données. Dans ce cas, la disponibilité et les performances risquent en effet d’être affectées.
+> Nous vous déconseillons de c c céquer des bases de données Skype Entreprise Server avec d’autres bases de données. Dans ce cas, la disponibilité et les performances risquent en effet d’être affectées.
 
 > [!NOTE]
 > SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus pris en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
@@ -212,7 +212,7 @@ Skype Entreprise Server prend également en charge plusieurs options pour la hau
 
 Pour plus d’informations sur le jumelage de pool et la haute disponibilité du serveur principal, voir [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
-## <a name="server-collocation-in-skype-for-business-server"></a>C cocation de serveur dans Skype Entreprise Server
+## <a name="server-collocation-in-skype-for-business-server"></a>C collocation de serveur dans Skype Entreprise Server
 
 Nous avons déjà utilisé le terme cocate, mais qu’est-ce que cela signifie ? Skype Entreprise Server vous permet de localiser certains rôles serveur et fonctionnalités sur le même serveur, c’est-à-dire la c cocation, ou sur des serveurs différents, mais cela peut prêter à confusion lorsque vous démarrez et si vous faites un déploiement de serveur Standard Edition ou Enterprise Edition (ils sont chacun dotés de leurs propres règles). Pour vous aider dans votre planification, nous allons inclure la cocation de serveur dans les déploiements de serveurs Standard Edition et les déploiements de pool frontal Enterprise Edition (dans la plupart des cas, ces informations sont identiques et, lorsqu’elles sont différentes, elles sont appelées spécifiquement).
 
@@ -291,13 +291,13 @@ Le partage de fichiers peut se trouver sur un serveur distinct, ou vous pouvez l
 - Base de données de conformité de conversation permanente
 
 > [!CAUTION]
-> Notez que bien que vous pouvez céquequer le partage de fichiers sur ces serveurs, il est essentiel de noter que nous ne le recommandons pas. Si vous coloquez le partage de fichiers avec un autre rôle serveur, assurez-vous que vous surveillez régulièrement les problèmes d’espace disque et de performances.
+> Notez que bien que vous pouvez céquequer le partage de fichiers sur ces serveurs, il est essentiel de noter que nous ne le recommandons pas. Si vous coloquez le partage de fichiers avec un autre rôle serveur, assurez-vous de surveiller régulièrement les problèmes d’espace disque et de performances.
 
 ### <a name="keep-in-mind"></a>Gardez à l’esprit
 
 - Vous ne pouvez pas c céquener un serveur proxy inverse, qui n’est pas un composant Skype Entreprise Server, et peut même ne pas se trouver dans votre topologie. Vous aurez besoin d’un proxy inverse si vous souhaitez prendre en charge le partage de contenu web pour les utilisateurs fédérés, entre autres choses. Si nécessaire, allez de l’avant et implémentez la prise en charge du proxy inverse pour Skype Entreprise Server en configurant un serveur proxy inverse existant qui se trouverait déjà dans votre organisation et qui est utilisé par d’autres applications.
 
-- Vous ne pouvez céquerer aucun composant de messagerie unie Exchange ou composant SharePoint Server avec un rôle Skype Entreprise Server.
+- Vous ne pouvez c céquerer aucun composant de messagerie unie Exchange ou composant SharePoint Server avec un rôle Skype Entreprise Server.
 
 ## <a name="see-also"></a>Voir aussi
 

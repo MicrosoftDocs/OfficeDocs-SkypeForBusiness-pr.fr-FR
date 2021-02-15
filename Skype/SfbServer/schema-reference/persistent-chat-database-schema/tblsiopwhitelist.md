@@ -26,7 +26,7 @@ tblSiopWhiteList représente la liste des compléments inscrits qui peuvent êtr
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |siopID  <br/> |GUID, non null  <br/> |GUID du complément.  <br/> |
 |siopName  <br/> |nvarchar (50), non null  <br/> |Nom d’affichage du complément.  <br/> |

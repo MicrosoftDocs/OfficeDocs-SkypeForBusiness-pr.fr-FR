@@ -40,7 +40,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Nouveau** Vous pouvez ajouter un nouveau périphérique de test avec l’étendue suivante :
 
-  - Globale
+  - Global
 
   - Site
 

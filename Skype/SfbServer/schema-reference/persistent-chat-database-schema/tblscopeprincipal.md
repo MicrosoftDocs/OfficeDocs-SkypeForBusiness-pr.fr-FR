@@ -26,7 +26,7 @@ tblScopePrincipal contient les étendues assignées aux nœuds.
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |scopeNodeID  <br/> |int, non null  <br/> |ID du nœud auquel s’applique l’étendue.  <br/> |
 |scopePrinID  <br/> |int, non null  <br/> |ID principal.  <br/> |

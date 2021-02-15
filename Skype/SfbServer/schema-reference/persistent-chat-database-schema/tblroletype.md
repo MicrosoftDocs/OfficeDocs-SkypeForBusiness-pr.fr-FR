@@ -26,7 +26,7 @@ tblRoleType est une table de choix statique contenant des types de rôles et leu
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |rtypeID  <br/> |int, non null  <br/> |ID de type de rôle.  <br/> |
 |rtypeDesc  <br/> |nvarchar (256), non null  <br/> | Description de type de rôle. Les quatre rôles disponibles sont : <br/>  Membre : membre de la salle de conversation <br/>  Responsable : responsable de la salle de conversation <br/>  Membre sonore : présentateur de la salle de conversation de type auditorium <br/>  Créateur : peut créer des salles de conversation <br/> |

@@ -26,7 +26,7 @@ tblServerIdentity contient les serveurs de conversation actifs dans le pool de s
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |serverID  <br/> |int, non null  <br/> |ID de serveur. Correspond à l’ID d’instance du magasin central de gestion.  <br/> |
 |serverAddress  <br/> |nvarchar (256), non null  <br/> |Adresse de serveur utilisant l’adresse WCF (Windows Communication Foundation).  <br/> |

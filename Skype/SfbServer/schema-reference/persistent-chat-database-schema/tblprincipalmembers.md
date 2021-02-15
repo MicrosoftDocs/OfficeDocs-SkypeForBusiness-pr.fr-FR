@@ -26,7 +26,7 @@ tblPrincipalMembers contient les appartenances principales.
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
 |memberADPath  <br/> |nvarchar (384), non null  <br/> |Nom d’un membre. Un membre n’a pas besoin d’être un principal (dans la table tblPrincipal).  <br/> |

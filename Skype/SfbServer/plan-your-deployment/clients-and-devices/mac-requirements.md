@@ -31,7 +31,7 @@ Le [client Skype Entreprise sur Mac](https://products.office.com/skype-for-busin
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Configuration matérielle et logicielle requise pour Skype Entreprise sur Mac
 
-Le client Skype Entreprise sur Mac nécessite Mac OS X El Capitan et des niveaux supérieurs, et utilise au moins 100 Mo d’espace disque. Nous supportons l’utilisation de tous les périphériques audio et vidéo intégrés. Les appareils externes doivent se trouver dans le [catalogue de solutions Skype Entreprise.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
+Le client Skype Entreprise sur Mac nécessite Mac OS X El Capitan et une valeur supérieure, et utilise au moins 100 Mo d’espace disque. Nous supportons l’utilisation de tous les périphériques audio et vidéo intégrés. Les appareils externes doivent se trouver dans le [catalogue de solutions Skype Entreprise.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
   
 > [!NOTE]
 > Cette liste est préliminaire et certains appareils peuvent être qualifiés pour Lync, mais ne sont pas pris en charge sur Skype Entreprise sur Mac. Reportez-vous [à la configuration système](https://products.office.com/office-system-requirements) requise pour le matériel minimal requis.
@@ -42,7 +42,7 @@ Skype Entreprise Server 2015 prend également en charge les clients hérités su
   
 - Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](https://go.microsoft.com/fwlink/p/?LinkId=268786)
     
-- Microsoft Communicator pour Mac 2011 (voir Communicator guide de déploiement [pour Mac 2011)](https://go.microsoft.com/fwlink/p/?LinkId=268787)
+- Microsoft Communicator pour Mac 2011 (voir Communicator [pour Mac 2011 Deployment Guide)](https://go.microsoft.com/fwlink/p/?LinkId=268787)
  
 Ces clients ne sont pas pris en charge par Skype Entreprise Server 2019.
    
@@ -81,6 +81,6 @@ Pour plus d’informations, voir : [Deploying Mobility in Lync Server 2013](http
 
 [Exigences relatives au DNS pour Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md)
 
-[Forum Aux Questions](https://go.microsoft.com/fwlink/p/?LinkId=798227)
+[Questions fréquemment posées](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [Problèmes connus](https://go.microsoft.com/fwlink/p/?LinkId=798228)

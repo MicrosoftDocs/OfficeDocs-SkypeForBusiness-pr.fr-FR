@@ -26,7 +26,7 @@ La table tblPrincipalRole contient les rôles explicites affectés à des nœuds
   
 **Columns**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinRoleNodeID  <br/> |entier, non null  <br/> |ID du nœud auquel le rôle s’applique.  <br/> |
 |prinRolePrinID  <br/> |entier, non null  <br/> |ID du principal.  <br/> |

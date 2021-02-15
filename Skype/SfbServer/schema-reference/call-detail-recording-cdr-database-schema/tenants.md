@@ -27,7 +27,7 @@ La table Tenants est une table de prise en charge qui stocke une liste des diff�
 > [!NOTE]
 > Dans les déploiement sur site, CDR utilise l’ID de client intégré pour indiquer différents types d’authentification, tels que la connectivité de messagerie instantanée publique, l’authentification fédérée et l’authentification anonyme. 
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**TenantId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant cet ID de client.  <br/> |
 |**TenantKey** <br/> |nvarchar(256)  <br/> || Valeurs autorisées : <br/>  00000000-0000-0000-0000-000000000000 - Entreprise <br/>  00000000-0000-0000-0000-000000000001 - Fédéré <br/>  00000000-0000-0000-0000-000000000002 - Anonyme <br/>  00000000-0000-0000-0000-000000000003 - Connectivité DE MESSAGERIE INSTANTANÉE publique <br/> |

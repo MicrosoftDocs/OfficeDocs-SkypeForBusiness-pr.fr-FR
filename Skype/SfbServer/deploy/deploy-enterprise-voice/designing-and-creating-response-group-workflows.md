@@ -51,7 +51,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
     > [!NOTE]
     > L’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https:// \<webPoolFqdn\> /RgsConfig.
 
-6. Effectuez l'une des opérations suivantes :
+6. Effectuez l’une des opérations suivantes :
 
    - Sous **Créer un flux de travail**, en regard de **Groupe de recherche**, cliquez sur **Créer**.
 

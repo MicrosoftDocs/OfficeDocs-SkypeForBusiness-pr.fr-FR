@@ -24,7 +24,7 @@ ms.locfileid: "49831694"
  
 La vue User stocke des informations sur les utilisateurs qui ont participé à des appels ou sessions qui possèdent des enregistrements dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |UserId  <br/> |int  <br/> |Numéro unique identifiant cet utilisateur.  <br/> |
 |UserUri  <br/> |nvarchar(450)  <br/> |URI de l’utilisateur.  <br/> |

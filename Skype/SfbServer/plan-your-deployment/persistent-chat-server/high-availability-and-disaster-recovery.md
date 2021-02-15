@@ -27,7 +27,7 @@ ms.locfileid: "49832354"
 La haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente nécessitent des ressources supplémentaires au-delà de ce qui est généralement nécessaire pour un fonctionnement complet. 
   
 > [!NOTE]
-> L’SQL groupes de disponibilité AlwaysOn n’est pas pris en charge avec les bases de données du serveur de conversation permanente. 
+> L’utilisation SQL groupes de disponibilité AlwaysOn n’est pas prise en charge avec les bases de données du serveur de conversation permanente. 
 
 > [!NOTE] 
 > La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
@@ -40,7 +40,7 @@ Avant de configurer le serveur de conversation permanente pour la haute disponib
     
 - Une instance dédiée de la base de données, située dans l’autre centre de données physique. Cette base de données servira de base SQL Server base de données secondaire de livraison des journaux de bord pour la base de données dans le centre de données principal.
     
-- Une instance de base de données dédiée qui sert de miroir SQL Server pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
+- Une instance de base de données dédiée qui sert SQL Server miroir pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
     
 - Si la conformité du serveur de conversation permanente est activée, trois instances de base de données dédiées supplémentaires sont requises. Leur distribution est identique à celle précédemment décrite pour la base de données de conversation permanente. Bien qu’il soit possible pour la base de données de conformité de partager la même instance SQL Server que la base de données de conversation permanente, des instances autonomes pour la haute disponibilité et la récupération d’urgence sont recommandées.
     
