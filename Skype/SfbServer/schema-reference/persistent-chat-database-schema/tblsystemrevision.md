@@ -20,14 +20,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831414"
 ---
-# <a name="tblsystemrevision"></a><span data-ttu-id="8e0a6-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="8e0a6-103">tblSystemRevision</span></span>
+# <a name="tblsystemrevision"></a><span data-ttu-id="3f7f7-103">tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="3f7f7-103">tblSystemRevision</span></span>
  
-<span data-ttu-id="8e0a6-104">tblSystemRevision contient le numéro de révision utilisé avec la table tblAdminLock pour assurer la cohérence entre plusieurs clients administrateur.</span><span class="sxs-lookup"><span data-stu-id="8e0a6-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+<span data-ttu-id="3f7f7-104">tblSystemRevision contient le numéro de révision utilisé avec la table tblAdminLock pour assurer la cohérence entre plusieurs clients administrateur.</span><span class="sxs-lookup"><span data-stu-id="3f7f7-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
   
-<span data-ttu-id="8e0a6-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="8e0a6-105">**Columns**</span></span>
+<span data-ttu-id="3f7f7-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="3f7f7-105">**Columns**</span></span>
 
-|<span data-ttu-id="8e0a6-106">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="8e0a6-106">**Column**</span></span>|<span data-ttu-id="8e0a6-107">**Type**</span><span class="sxs-lookup"><span data-stu-id="8e0a6-107">**Type**</span></span>|<span data-ttu-id="8e0a6-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="8e0a6-108">**Description**</span></span>|
+|<span data-ttu-id="3f7f7-106">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="3f7f7-106">**Column**</span></span>|<span data-ttu-id="3f7f7-107">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="3f7f7-107">**Type**</span></span>|<span data-ttu-id="3f7f7-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="3f7f7-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="8e0a6-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="8e0a6-109">sysRevision</span></span>  <br/> |<span data-ttu-id="8e0a6-110">bigint, non null</span><span class="sxs-lookup"><span data-stu-id="8e0a6-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="8e0a6-111">Nombre de révisions.</span><span class="sxs-lookup"><span data-stu-id="8e0a6-111">Revision number.</span></span>  <br/> |
+|<span data-ttu-id="3f7f7-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="3f7f7-109">sysRevision</span></span>  <br/> |<span data-ttu-id="3f7f7-110">bigint, non null</span><span class="sxs-lookup"><span data-stu-id="3f7f7-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="3f7f7-111">Nombre de révisions.</span><span class="sxs-lookup"><span data-stu-id="3f7f7-111">Revision number.</span></span>  <br/> |
    
 

@@ -20,8 +20,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831789"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="ec812-104">Table Syndicators</span><span class="sxs-lookup"><span data-stu-id="ec812-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="e2f59-104">Table Syndicators</span><span class="sxs-lookup"><span data-stu-id="e2f59-104">Syndicators table</span></span>
  
-<span data-ttu-id="ec812-105">SyndicatorsTable est uniquement utilisé en interne.</span><span class="sxs-lookup"><span data-stu-id="ec812-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="ec812-106">Ce tableau a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ec812-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="e2f59-105">SyndicatorsTable est uniquement utilisé en interne.</span><span class="sxs-lookup"><span data-stu-id="e2f59-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="e2f59-106">Ce tableau a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2f59-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

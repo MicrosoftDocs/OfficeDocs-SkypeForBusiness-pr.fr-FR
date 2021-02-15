@@ -19,12 +19,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832274"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="3b7f1-103">Gestion des menaces pour votre infrastructure principale pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="3b7f1-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="82670-103">Gestion des menaces pour votre infrastructure principale pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="82670-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="3b7f1-104">En plus de suivre les meilleures pratiques pour votre déploiement de Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en examiner, comprendre et répondre à tous les besoins dans des domaines spécifiques de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="3b7f1-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="82670-104">En plus de suivre les meilleures pratiques pour votre déploiement de Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en examiner, comprendre et répondre à tous les besoins dans des domaines spécifiques de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="82670-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="3b7f1-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="3b7f1-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="82670-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="82670-105">In this section</span></span>
 
-- [<span data-ttu-id="3b7f1-106">Meilleures pratiques pour votre infrastructure principale dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="3b7f1-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
+- [<span data-ttu-id="82670-106">Meilleures pratiques pour votre infrastructure principale dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="82670-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 

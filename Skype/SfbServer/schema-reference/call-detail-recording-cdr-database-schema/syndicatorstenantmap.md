@@ -20,8 +20,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831744"
 ---
-# <a name="syndicatorstenantmap-table"></a><span data-ttu-id="7f017-104">Table SyndicatorsTenantMap</span><span class="sxs-lookup"><span data-stu-id="7f017-104">SyndicatorsTenantMap table</span></span>
+# <a name="syndicatorstenantmap-table"></a><span data-ttu-id="06f9b-104">Table SyndicatorsTenantMap</span><span class="sxs-lookup"><span data-stu-id="06f9b-104">SyndicatorsTenantMap table</span></span>
  
-<span data-ttu-id="7f017-105">La table SyndicatorsTenantMap est réservée à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="7f017-105">The SyndicatorsTenantMap table is for internal use only.</span></span> <span data-ttu-id="7f017-106">Ce tableau a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f017-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="06f9b-105">La table SyndicatorsTenantMap est réservée à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="06f9b-105">The SyndicatorsTenantMap table is for internal use only.</span></span> <span data-ttu-id="06f9b-106">Ce tableau a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="06f9b-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

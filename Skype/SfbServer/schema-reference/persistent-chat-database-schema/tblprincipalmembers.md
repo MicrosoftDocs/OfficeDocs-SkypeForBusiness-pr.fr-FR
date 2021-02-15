@@ -20,22 +20,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831594"
 ---
-# <a name="tblprincipalmembers"></a><span data-ttu-id="acd68-103">tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="acd68-103">tblPrincipalMembers</span></span>
+# <a name="tblprincipalmembers"></a><span data-ttu-id="aa491-103">tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="aa491-103">tblPrincipalMembers</span></span>
  
-<span data-ttu-id="acd68-104">tblPrincipalMembers contient les appartenances principales.</span><span class="sxs-lookup"><span data-stu-id="acd68-104">tblPrincipalMembers contains principal memberships.</span></span>
+<span data-ttu-id="aa491-104">tblPrincipalMembers contient les appartenances principales.</span><span class="sxs-lookup"><span data-stu-id="aa491-104">tblPrincipalMembers contains principal memberships.</span></span>
   
-<span data-ttu-id="acd68-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="acd68-105">**Columns**</span></span>
+<span data-ttu-id="aa491-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="aa491-105">**Columns**</span></span>
 
-|<span data-ttu-id="acd68-106">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="acd68-106">**Column**</span></span>|<span data-ttu-id="acd68-107">**Type**</span><span class="sxs-lookup"><span data-stu-id="acd68-107">**Type**</span></span>|<span data-ttu-id="acd68-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="acd68-108">**Description**</span></span>|
+|<span data-ttu-id="aa491-106">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="aa491-106">**Column**</span></span>|<span data-ttu-id="aa491-107">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="aa491-107">**Type**</span></span>|<span data-ttu-id="aa491-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="aa491-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="acd68-109">prinID</span><span class="sxs-lookup"><span data-stu-id="acd68-109">prinID</span></span>  <br/> |<span data-ttu-id="acd68-110">int, non null</span><span class="sxs-lookup"><span data-stu-id="acd68-110">int, not null</span></span>  <br/> |<span data-ttu-id="acd68-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="acd68-111">Principal ID.</span></span>  <br/> |
-|<span data-ttu-id="acd68-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="acd68-112">memberADPath</span></span>  <br/> |<span data-ttu-id="acd68-113">nvarchar (384), non null</span><span class="sxs-lookup"><span data-stu-id="acd68-113">nvarchar (384), not null</span></span>  <br/> |<span data-ttu-id="acd68-114">Nom d’un membre.</span><span class="sxs-lookup"><span data-stu-id="acd68-114">Distinguished name of a member.</span></span> <span data-ttu-id="acd68-115">Un membre n’a pas besoin d’être un principal (dans la table tblPrincipal).</span><span class="sxs-lookup"><span data-stu-id="acd68-115">A member does not have to be a principal (in tblPrincipal table).</span></span>  <br/> |
+|<span data-ttu-id="aa491-109">prinID</span><span class="sxs-lookup"><span data-stu-id="aa491-109">prinID</span></span>  <br/> |<span data-ttu-id="aa491-110">int, non null</span><span class="sxs-lookup"><span data-stu-id="aa491-110">int, not null</span></span>  <br/> |<span data-ttu-id="aa491-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="aa491-111">Principal ID.</span></span>  <br/> |
+|<span data-ttu-id="aa491-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="aa491-112">memberADPath</span></span>  <br/> |<span data-ttu-id="aa491-113">nvarchar (384), non null</span><span class="sxs-lookup"><span data-stu-id="aa491-113">nvarchar (384), not null</span></span>  <br/> |<span data-ttu-id="aa491-114">Nom d’un membre.</span><span class="sxs-lookup"><span data-stu-id="aa491-114">Distinguished name of a member.</span></span> <span data-ttu-id="aa491-115">Un membre n’a pas besoin d’être un principal (dans la table tblPrincipal).</span><span class="sxs-lookup"><span data-stu-id="aa491-115">A member does not have to be a principal (in tblPrincipal table).</span></span>  <br/> |
    
-<span data-ttu-id="acd68-116">**Keys**</span><span class="sxs-lookup"><span data-stu-id="acd68-116">**Keys**</span></span>
+<span data-ttu-id="aa491-116">**Keys**</span><span class="sxs-lookup"><span data-stu-id="aa491-116">**Keys**</span></span>
 
-|<span data-ttu-id="acd68-117">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="acd68-117">**Column**</span></span>|<span data-ttu-id="acd68-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="acd68-118">**Description**</span></span>|
+|<span data-ttu-id="aa491-117">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="aa491-117">**Column**</span></span>|<span data-ttu-id="aa491-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="aa491-118">**Description**</span></span>|
 |:-----|:-----|
-|\<prinID, memberADPath\>  <br/> |<span data-ttu-id="acd68-119">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="acd68-119">Primary key.</span></span>  <br/> |
-|<span data-ttu-id="acd68-120">prinID</span><span class="sxs-lookup"><span data-stu-id="acd68-120">prinID</span></span>  <br/> |<span data-ttu-id="acd68-121">Clé étrangère avec recherche dans tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="acd68-121">Foreign key with lookup in tblPrincipal.prinID.</span></span>  <br/> |
+|\<prinID, memberADPath\>  <br/> |<span data-ttu-id="aa491-119">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="aa491-119">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="aa491-120">prinID</span><span class="sxs-lookup"><span data-stu-id="aa491-120">prinID</span></span>  <br/> |<span data-ttu-id="aa491-121">Clé étrangère avec recherche dans tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="aa491-121">Foreign key with lookup in tblPrincipal.prinID.</span></span>  <br/> |
    
 
