@@ -24,7 +24,7 @@ ms.locfileid: "49834404"
  
 La table Region est une table de prise en charge. Chaque enregistrement représente une région ou un pays défini dans les paramètres de configuration réseau.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**RegionKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification de ce pays ou cette région.  <br/> |
 |**RegionName** <br/> |nvarchar(128)  <br/> |Uniques  <br/> |Nom de ce pays ou cette région.  <br/> |

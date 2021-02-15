@@ -32,10 +32,10 @@ Skype Entreprise Server requiert l’ouverture de ports spécifiques sur les par
   
 Bien que cela puisse sembler un peu difficile au début, la lourde tâche de planification peut être effectuée à l’aide de l’outil de planification de Skype Entreprise [Server 2015.](https://go.microsoft.com/fwlink/p/?LinkID=282725) Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règlesfirewall. Vous pouvez également apporter des ajustements à la plupart des noms et adresses IP utilisés, pour plus d’informations, consultez le rapport de [pare-feu.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul dans le fichier. 
   
-Vous trouverez également les informations dans ces tableaux sous forme de diagramme en reviewant l’affiche Charges de travail de protocole liées à partir de l’article Diagrammes techniques pour Skype Entreprise [Server 2015.](../../technical-diagrams.md)
+Vous pouvez également trouver les informations dans ces tableaux sous forme de diagramme en reviewant l’affiche Charges de travail de protocole liées à partir de l’article Diagrammes techniques pour Skype Entreprise [Server 2015.](../../technical-diagrams.md)
 > [!NOTE]
 > - Si vous implémentez Skype Entreprise Online (Microsoft 365 ou Office 365), reportez-vous aux URL et [plages d’adresses IP Microsoft 365 et Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Les environnements hybrides devront référencer cette rubrique et planifier [la connectivité hybride.](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
-> - Vous pouvez avoir des pare-feu matériels ou logiciels, nous n’avons pas besoin de modèles ou de versions spécifiques. Ce qui importe, c’est les ports qui sont sur la liste blanche afin que le pare-feu n’affecte pas le fonctionnement de Skype Entreprise Server.
+> - Vous pouvez avoir des pare-feu matériels ou logiciels, nous n’avons pas besoin de modèles ou de versions spécifiques. Ce qui importe, c’est les ports qui sont sur liste blanche afin que le pare-feu n’affecte pas le fonctionnement de Skype Entreprise Server.
   
 ## <a name="port-and-protocol-details"></a>Détails des ports et protocoles
 
@@ -50,7 +50,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
   
 **Ports de serveurs requis (par rôle serveur)**
 
-|Rôle serveur|Nom du service|Port|Protocole|Notes|
+|Rôle serveur|Nom du service|Port|Protocole|Remarques|
 |:-----|:-----|:-----|:-----|:-----|
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL navigateur pour la copie répliquée locale de la base de données du magasin central de gestion.  |
 |Serveurs frontaux  |Service d'Front-End Skype Entreprise Server  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
@@ -89,7 +89,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Serveurs frontaux  |Service de stratégie de bande passante Skype Entreprise Server  |5080  |TCP  |Utilisé pour le contrôle d’admission des appels par le service de stratégie de bande passante, lui-même utilisé pour le trafic TURN Edge A/V.  |
 |Serveurs frontaux  |Accès au serveur de partage de fichiers Skype Entreprise Server  |445   |SMB/TCP  | Utilisé pour récupérer le carnet d’adresses, le contenu des réunions et d’autres éléments stockés sur le serveur de partage de fichiers.  |
 |Serveurs frontaux  |Service de stratégie de bande passante Skype Entreprise Server  |448  |TCP  |Utilisé pour le contrôle d’admission des appels par le service de stratégie de bande passante de Skype Entreprise Server.  |
-|Serveurs frontaux où réside le magasin central de gestion  | Service d’agent réplicateur principal Skype Entreprise Server |445  |TCP  |Permet de pousser les données de configuration du magasin central de gestion vers des serveurs exécutant Skype Entreprise Server.  |
+|Serveurs frontaux où réside le magasin central de gestion  | Service d’agent réplicateur principal Skype Entreprise Server |445  |TCP  |Permet de pousser les données de configuration du magasin central de gestion vers les serveurs exécutant Skype Entreprise Server.  |
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL navigateur pour la copie répliquée locale des données du magasin central de gestion dans l’instance SQL Server locale  |
 |Tous les serveurs internes  |Divers  |49152-57500  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui arrêtent l’audio : les serveurs frontux (pour le service Skype Entreprise Server Conferencing Attendant, le service d’annonce de conférence Skype Entreprise Server et le service de conférence audio/vidéo Skype Entreprise Server) et le serveur de médiation.  |
 |Serveurs Office Web Apps  ||443  ||Utilisé par Skype Entreprise Server pour se connecter à Office Web Apps Server.  |
@@ -151,7 +151,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 
 **Ports client requis**
 
-|Composant|Port|Protocole|Notes|
+|Composant|Port|Protocole|Remarques|
 |:-----|:-----|:-----|:-----|
 |Clients  |67/68  |DHCP  |Utilisé par Skype Entreprise Server pour rechercher le nom de domaine complet du serveur d’inscriptions (c’est-à-dire, si DNS SRV échoue et que les paramètres manuels ne sont pas configurés).  |
 |Clients  |443  |TCP (TLS)  |Utilisé pour le trafic SIP client à serveur pour l’accès des utilisateurs externes.  |

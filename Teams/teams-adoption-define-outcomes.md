@@ -34,7 +34,7 @@ Pour chaque scénario ou service d’entreprise que vous modernisez, il est esse
   
 Voici une stratégie recommandée pour ma mappage de ces critères. Il existe de nombreuses approches valides pour cette étape. Vous pouvez suivre notre guide ou le guide du partenaire Microsoft avec qui vous travaillez. Quelle que soit la méthode choisie, assurez-vous que les résultats de votre activité sont pris en charge par l’implémentation technique de vos services et les objectifs globaux de votre organisation.
   
-Quatre catégories de résultats peuvent être hiérarchisées pour votre entreprise. Elles sont interconnectées et constituent les bases de l’interconnexion et de la transformation numérique que les employés individuels peuvent découvrir.  
+Quatre catégories de résultats peuvent être hiérarchisées pour votre entreprise. Elles sont interconnectées et constituent les bases de l’évolution et de la transformation numérique que les employés individuels peuvent découvrir.  
 
 ![Graphique illustrant les quatre catégories de résultats](media/teams-adoption-outcomes.png)
 
@@ -53,7 +53,7 @@ Exemple de résultats dans chaque catégorie :
    - Commentaires des clients
    - Mesures d’innovation (par exemple, contributions de forum d’idées, hackathons, engagements en matière d’innovation des produits)
 
-- **Anses**
+- **Desso**
    - L’expérience client a un impact (rapidité de service, réduction des incidents de service, recommandation client/participation au programme de fidélité)
    - Économies
    - Génération de revenus
@@ -81,7 +81,7 @@ Teams est une technologie de transformation. Ainsi, en fonction de la taille de 
 | Lead cloud deployment with Teams | Lead collaboration scenario enablement with Teams | Tous les employés dans Teams et les équipes à l’échelle de l’organisation | Activer Teams et Skype Entreprise | Migrer des utilisateurs de Skype Entreprise vers Teams |
 | - Applicable aux clients Microsoft 365 ou Office 365 à utilisation nouvelle ou faible <br/>- Diriger avec Teams dans un scénario spécifique au client <br/>- Mettre en évidence l’expérience utilisateur intégrée et accélérer le temps de création de valeur pour Microsoft 365 ou Office 365 <br/>- Planifier ensemble l’enablement de la charge de travail pour éviter l’implémentation en série | - Activer Teams avec OneDrive et SharePoint Online <br/>- Créer un intranet d’entreprise pour partager des ressources d’actualités et des vidéos avec Microsoft Stream<br/>**La collaboration est meilleure**: <br/>Équipes<br/>SharePoint<br/>Yammer<br/>Planificateur<br/>PowerApps |- Pour les clients avec moins de 5 000 sièges (limite actuelle)<br/>- Permettre la collaboration d’organisations croisées avec une équipe pour tous<br/>- Automatiser les tâches courantes (demandes de congés, enquêtes sur les employés, implication des cadres) |- Utilisez les tactiques de base de Teams pour accélérer la collaboration<br/>- Mettre en évidence les conseils de scénarios de réunion en fonction de la taille et de l’ensemble de fonctionnalités requis</br>- Utilisation de Skype Entreprise pour les appels d’entreprise, l’interopérabilité et les scénarios hybrides<br/>- Utiliser une feuille de route publique pour la planification des fonctionnalités. |- Planifier le déplacement de Skype Entreprise vers Teams en créant une feuille de route de stratégie de service pour le client<br/>- Joindre à la planification de la publication des fonctionnalités<br/>- Recommander d’inclure Côte à côte et Teams Core pour faciliter la transition
 
-Voici nos recommandations pour la plupart des organisations client. Il existe toutefois des exceptions. Pour obtenir des instructions pour tout scénario qui n’est pas abordé ici, posez vos questions dans notre communauté Adoption en pilotage ou faites-vous aider l’équipe FastTrack ou le réseau de partenaires Microsoft.
+Voici nos recommandations pour la plupart des organisations client. Il existe toutefois des exceptions. Pour obtenir des instructions pour tout scénario qui n’est pas abordé ici, posez vos questions dans notre communauté Adoption en pilotage ou faites-en parvenir à l’équipe FastTrack ou au réseau de partenaires Microsoft.
 
 - **Choisissez Teams First ou Teams Core**: la plupart des organisations ont déjà un investissement dans la technologie Microsoft. Vous pouvez activer plusieurs charges de travail à la fois, par exemple, Exchange Online, OneDrive Entreprise ou SharePoint. Dans ce cas, il est judicieux de sélectionner Teams First ou Teams Core. Cela permettra à vos utilisateurs de s’utiliser à l’expérience de collaboration améliorée de Teams. Votre équipe de projet de collaboration peut alors planifier le déploiement de fonctionnalités supplémentaires, ainsi que la formation et le support requis pour leur réussite. 
 
@@ -91,7 +91,7 @@ Voici nos recommandations pour la plupart des organisations client. Il existe to
 
 - Choisir Côte à côte : Pour les organisations qui utilisent Skype Entreprise pour l’audioconférence, la prise en charge des périphériques de salle de conférence ou les fonctionnalités vocales cloud, nous vous recommandons d’utiliser Teams et Skype côte à côte pour familiariser vos employés avec les principales fonctionnalités de collaboration, tout en plannalisé votre migration de Skype Entreprise à un moment qui convient pour votre entreprise. Notez que l’exécution des deux clients côte à côte peut créer une confusion au niveau de l’utilisateur concernant l’outil à utiliser. Nous vous recommandons donc de garder cette phase courte dans votre processus d’adoption. 
 
-- **Choisir la migration**: La migration de Skype Entreprise vers Teams présente des composants supplémentaires d’un point de vue technique, mais le parcours de l’adoption par les utilisateurs a les mêmes composants qu’une implémentation Teams Go Big. De plus, vous allez induisant en avant-première l’expérience et l’interface de réunion Teams, le comportement de la nouvelle conversation permanente et d’autres éléments de l’expérience qui sont différents de Skype Entreprise.
+- **Choisir la migration**: La migration de Skype Entreprise vers Teams présente des composants supplémentaires d’un point de vue technique, mais le parcours de l’adoption par les utilisateurs a les mêmes composants qu’une implémentation Teams Go Big. De plus, vous allez inséramenter une grande différent de l’interface et de l’expérience de réunion Teams, du comportement de la nouvelle conversation permanente et d’autres éléments de l’expérience qui sont différents de Skype Entreprise.
 
 Pour chaque stratégie d’enablement, il est essentiel de travailler en étroite collaboration avec votre équipe de préparation technique afin de garantir que votre environnement offre une expérience agréable pour les employés. 
 
@@ -109,7 +109,7 @@ Option : pour créer une base de connaissances continue d’informations sur vot
 
 ## <a name="expand-your-implementation-team"></a>Développer votre équipe d’implémentation
 
-Au sein d’une grande organisation, vous devez essayer d’incorporer de nombreux rôles différents dans votre phase d’enablement large. Cela peut inclure des cadres commerciaux supplémentaires, un personnel de support technique, des membres supplémentaires de votre communauté Champion et, dans certains cas, une gestion formelle des changements ou du personnel de formation. L’illustration ci-dessous montre une équipe d’adoption à grande échelle qui permet une séparation des tâches.
+Dans une grande organisation, vous devez essayer d’incorporer de nombreux rôles différents dans votre phase d’enablement large. Cela peut inclure des cadres commerciaux supplémentaires, un personnel de support technique, des membres supplémentaires de votre communauté Champion et, dans certains cas, une gestion formelle des changements ou du personnel de formation. L’illustration ci-dessous montre une équipe d’adoption à grande échelle qui permet une séparation des tâches.
 
 ![Illustration du modèle d’équipe d’adoption d’entreprise à grande échelle](media/teams-adoption-large-scale-model.png)
 
@@ -123,23 +123,23 @@ Une fois que vous aurez sélectionné votre stratégie d’enablement, vous sere
 |----------- | ------------- | ------------------- | -------- |
 |Niveau 1 | L’équipe faisant autorité pour une division ou une unité commerciale | Généralement limité aux membres officiels de cette division/unité | Durée de vie de la division (par exemple, service informatique, Ressources humaines, Marketing)|
 | Niveau 2 | Équipes de projet, de service ou d’initiative plus limitées |  Normalement entre plusieurs organisations et peut inclure des invités | Tant que le projet ou le service en cours de développement est en cours de développement |
-| Niveau 3 | Pointer dans des projets de temps | Petite équipe étroite avec une étendue individuelle ; peut inclure des invités | Cycle de vie court lié au livrable principal |
+| Niveau 3 | Pointer dans des projets de temps | Petite équipe restreint avec une étendue individuelle ; peut inclure des invités | Cycle de vie court lié au livrable principal |
 
 Exemples de pratiques meilleures en matière de mise en service et de gestion au niveau de l’équipe :
 
 |Niveau d’équipe | Qui crée ? | Niveaux et rétention | Considérations |
 | --------- | ------------ | -------------------- | -------------- |
-| Niveau 1 - Divisional | Il ou champion pour ce groupe pour le nommer correctement | Confidentiel avec stratégie de rétention standard appliquée et stratégie de renouvellement d'1 an | À ceci, il s’agit de réserver un nom de domaine. Vous voulez contrôler la manière dont les équipes de division sont nommées et ce qui est inclus.  Créez l’équipe avant d’ajouter des utilisateurs.|
+| Niveau 1 - Divisional | Il ou champion pour ce groupe pour le nommer correctement | Confidentiel avec stratégie de rétention standard appliquée et stratégie de renouvellement d'1 an | À ceci, il s’agit de réserver un nom de domaine. Vous voulez contrôler la manière dont les équipes de division sont nommées et ce qui est inclus.  Créez l’équipe avant d’ajouter d’autres utilisateurs.|
 | Niveau 2 - Projet/Service | Propriétaire ou champion de projet | Confidentiel ou hautement confidentiel selon le contenu. Peut avoir une stratégie de rétention. Renouvellement pendant 6 mois. | Avant de créer ce projet, pensez simplement au-delà de la limite du projet ou du service sur qui vous travaillez. Est-il plus sensé de combiner des forces avec une autre équipe ? Faites tout votre possible pour réduire le nombre d’équipes que les utilisateurs individuels doivent consulter lorsque vous travaillez sur un même projet ou service.|
 | Niveau 3 : petite équipe de projet à la demande | Tous les membres de l’organisation | Étiquette générale avec rétention standard et renouvellement pendant 6 mois. Peut inclure une convention d’appellation (préfixe/suffixe)| Équipes en libre-service à la demande. Approvisionnement sans frottement. Ils facilitent la collaboration et les communications en douceur pour les petites équipes de projet cherchant à obtenir une valeur immédiate auprès des services fournis par l’entreprise. |
 
 ## <a name="streamline-business-engagement"></a>Simplifier l’engagement de l’entreprise
 
-Un élément essentiel de la transformation numérique et de l’utilisation dans Microsoft Teams consiste à travailler avec vos unités commerciales afin de comprendre les besoins, les opportunités et les difficultés qu’elles présentent. Bien qu’il s’apparente à la conversation classique entre les entreprises et le secteur de l’it, vous devez vous concentrer sur ce qui est nécessaire. Écoutez avant de passer aux exigences techniques. Dans de nombreux cas, les fonctionnalités spécifiques dans Teams répondent aux besoins de votre organisation.   
+Un élément essentiel de la transformation numérique et de l’utilisation dans Microsoft Teams consiste à travailler avec les unités de votre entreprise afin de comprendre les besoins, les opportunités et les difficultés qu’elles présentent. Bien qu’il s’apparente à la conversation classique entre les entreprises et le secteur de l’it, vous devez vous concentrer sur ce qui est nécessaire. Écoutez avant de passer aux exigences techniques. Dans de nombreux cas, les fonctionnalités spécifiques dans Teams répondent aux besoins de votre organisation.   
 
 Meilleure pratique : Avant de envisager le développement d’une solution personnalisée, assurez-vous que votre organisation utilise entièrement les fonctionnalités pré-proposées par Microsoft 365 ou Office 365. Le développement de solutions personnalisées a toujours un coût à long terme pour vos services informatiques et de support.
  
-Pour simplifier votre travail avec des unités d’entreprise, vous avez les procédures suivantes.  Reconnaissez que, pour de grandes entreprises multinationales, ce processus peut se poursuivre bien après votre premier déploiement à grande échelle de Microsoft Teams :
+Pour simplifier votre travail avec les unités d’entreprise, prenez les mesures suivantes.  Reconnaissez que, pour de grandes entreprises multinationales, ce processus peut se poursuivre bien après votre premier déploiement à grande échelle de Microsoft Teams :
 
 1. Rencontrer des influenceurs clés au sein d’une unité d’entreprise avant d’impliquer l’dirigeants afin d’obtenir des informations et un alignement.
 2. Comprenez leurs solutions actuelles pour les scénarios courants (e-mail, SharePoint, Yammer et autres produits).

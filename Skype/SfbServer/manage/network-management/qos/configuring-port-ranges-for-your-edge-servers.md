@@ -85,7 +85,7 @@ Vous pouvez vérifier les paramètres de port actuels de vos serveurs Edge à l�
 
 Là encore, bien que nous fournissions ces options, nous vous recommandons vivement de laisser les éléments tels qu’ils sont pour la configuration du port.
 
-## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie de QoS pour vos serveurs Edge A/V
+## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie QoS pour vos serveurs Edge A/V
 
 En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
 
@@ -127,7 +127,7 @@ Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer un
 
   - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**. Là encore, il doit être configuré comme plage de ports de destination.
 
-Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
+Si vous décidez de créer une stratégie pour la gestion du trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
 
   - Utilisez un nom de stratégie différent (et unique) (par exemple, partage d’application Skype Entreprise **Server).**
 

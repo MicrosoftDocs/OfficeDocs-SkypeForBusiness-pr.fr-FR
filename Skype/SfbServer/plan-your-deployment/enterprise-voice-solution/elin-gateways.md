@@ -62,11 +62,11 @@ Après avoir déterminé comment diviser l’espace de votre bâtiment en emplac
 
 **Exemples d’affectations d’emplacements et de numéros ELIN**
 
-|**Zone de l’immeuble**|**Location**|**ELIN**|
+|**Zone de l’immeuble**|**Emplacement**|**ELIN**|
 |:-----|:-----|:-----|
-|Premier étage  <br/> |1   <br/> |425-555-0100  <br/> |
-|Deuxième étage  <br/> |2   <br/> |425-555-0111  <br/> |
-|Troisième étage  <br/> |3   <br/> |425-555-0123  <br/> |
+|Premier étage  <br/> |1   <br/> |425-555-0100  <br/> |
+|Deuxième étage  <br/> |2   <br/> |425-555-0111  <br/> |
+|Troisième étage  <br/> |3   <br/> |425-555-0123  <br/> |
 
 Les emplacements définis doivent satisfaire les exigences suivantes :
 

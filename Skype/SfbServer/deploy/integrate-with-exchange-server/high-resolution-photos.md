@@ -63,4 +63,4 @@ https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmy
 
 Si l’administrateur peut afficher la photo à l’aide d’Internet Explorer, mais que l’utilisateur ne peut pas afficher sa photo dans Skype Entreprise, il peut y avoir un problème de connectivité avec les services web Exchange ou avec le service de découverte automatique Exchange.
   
-Notez également qu’aucune configuration supplémentaire n’est requise pour rendre cette photo disponible dans Skype Entreprise. Au lieu de cela, la photo sera immédiatement disponible une fois qu’elle a été téléchargée et que la `Set-UserPhoto` cmdlet a été exécuté.
+Notez également qu’aucune configuration supplémentaire n’est requise pour rendre cette photo disponible dans Skype Entreprise. Au lieu de cela, la photo est immédiatement disponible une fois qu’elle a été téléchargée et que la `Set-UserPhoto` cmdlet a été exécuté.

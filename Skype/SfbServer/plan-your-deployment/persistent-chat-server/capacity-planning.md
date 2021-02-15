@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: 'Résumé : Consultez cette rubrique pour en savoir plus sur la planification de la capacité du serveur de conversation permanente dans Skype Entreprise Server 2015.'
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification de la capacité du serveur de conversation permanente dans Skype Entreprise Server 2015.'
 ms.openlocfilehash: d3d166f3b91ef0e7f711441387b4bef3d56f18b8
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49834574"
  
 **Résumé :** Lisez cette rubrique pour en savoir plus sur la planification de la capacité pour le serveur de conversation permanente dans Skype Entreprise Server 2015.
   
-Le serveur de conversation permanente peut effectuer une conversation en temps réel multi-utilisateur qui peut persister pour une récupération et une recherche futures. Contrairement à la messagerie instantanée de groupe enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations est configuré, une session de serveur de conversation permanente reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, fichiers, URL et autres données faisant partie d’une conversation en cours.
+Le serveur de conversation permanente peut effectuer une conversation en temps réel multi-utilisateur qui peut persister pour une récupération et une recherche ultérieures. Contrairement à la messagerie instantanée de groupe enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations est configuré, une session de serveur de conversation permanente reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, fichiers, URL et autres données faisant partie d’une conversation en cours.
   
 La planification de la capacité est un élément important de la préparation du déploiement du serveur de conversation permanente. Cette rubrique fournit des tableaux de planification de la capacité que vous pouvez utiliser pour déterminer la meilleure configuration pour votre déploiement. Il explique également comment gérer au mieux les déploiements de serveurs de conversation permanente qui nécessitent une plus grande capacité aux heures de pointe.
   
@@ -70,30 +70,30 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 ||**Petites salles de conversation**|**Moyennes salles de conversation**|**Grandes salles de conversation**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Taille des salles de conversation (nombre d’utilisateurs connectés)  <br/> |30 par salle  <br/> |150 par salle  <br/> |16 000 par salle  <br/> ||
-|Salles de conversation  <br/> |32,000  <br/> |1,067  <br/> |10   <br/> |33,077  <br/> |
+|Salles de conversation  <br/> |32,000  <br/> |1,067  <br/> |10   <br/> |33,077  <br/> |
 |% de salles auditorium  <br/> |1 %  <br/> |1 %  <br/> |50%  <br/> ||
 |% de salles ouvertes  <br/> |3 %  <br/> |3 %  <br/> |50%  <br/> ||
-|Ouvrir des salles (aucune appartenance explicite)  <br/> |960  <br/> |32  <br/> |5   <br/> |997  <br/> |
-|Salles non ouvertes (salles normales avec appartenance explicite)  <br/> |31,040  <br/> |1.035  <br/> |5   <br/> |32,080  <br/> |
-|Salles auditorium (entrée de présentateurs supplémentaire)  <br/> |0  <br/> |32  <br/> |5   <br/> ||
+|Ouvrir des salles (aucune appartenance explicite)  <br/> |960  <br/> |32  <br/> |5   <br/> |997  <br/> |
+|Salles non ouvertes (salles normales avec appartenance explicite)  <br/> |31,040  <br/> |1.035  <br/> |5   <br/> |32,080  <br/> |
+|Salles auditorium (entrée de présentateurs supplémentaire)  <br/> |0  <br/> |32  <br/> |5   <br/> ||
 |Salles gérées par appartenance directe  <br/> |50%  <br/> |10 %  <br/> |0 %  <br/> ||
 |Salles gérées par groupes d’utilisateurs  <br/> |50%  <br/> |90 %  <br/> |100 %  <br/> ||
 |Groupes d’utilisateurs dans la liste d’appartenance de chaque salle de conversation pour les salles ouvertes (non spécifié explicitement)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
 |Utilisateurs dans la liste des membres de chaque salle de conversation pour les salles non ouvertes  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Groupes d’utilisateurs dans la liste d’appartenance de chaque salle de conversation pour les salles non ouvertes  <br/> |3   <br/> |5   <br/> |10   <br/> ||
-|Utilisateurs et groupes d’utilisateurs dans la liste des responsables de chaque salle de conversation (pour les salles ouvertes et non ouvertes)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Utilisateurs et groupes d’utilisateurs dans la liste des présentateurs de chaque salle de conversation auditorium (pour les salles ouvertes et non ouvertes)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
+|Groupes d’utilisateurs dans la liste d’appartenance de chaque salle de conversation pour les salles non ouvertes  <br/> |3   <br/> |5   <br/> |10   <br/> ||
+|Utilisateurs et groupes d’utilisateurs dans la liste des responsables de chaque salle de conversation (pour les salles ouvertes et non ouvertes)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
+|Utilisateurs et groupes d’utilisateurs dans la liste des présentateurs de chaque salle de conversation auditorium (pour les salles ouvertes et non ouvertes)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Entités d’appartenance basées sur l’utilisateur dans toutes les salles non ouvertes  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
 |Entités d’appartenance basées sur un groupe d’utilisateurs dans toutes les salles non ouvertes  <br/> |46,560  <br/> |4656  <br/> |50  <br/> ||
 |Entités basées sur les utilisateurs et les groupes d’utilisateurs dans toutes les salles de conversation auditorium  <br/> |0  <br/> |192  <br/> |50  <br/> ||
 |Entités de gestionnaire basées sur les utilisateurs et les groupes d’utilisateurs dans toutes les listes de responsables de salles de conversation  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Utilisateurs actifs par salle de conversation  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Salles de conversation par utilisateur  <br/> |12   <br/> |2   <br/> |2   <br/> |16   <br/> |
-|Groupes d’utilisateurs dans la liste des membres de chaque salle de conversation  <br/> |10   <br/> |10   <br/> |15   <br/> ||
+|Salles de conversation par utilisateur  <br/> |12   <br/> |2   <br/> |2   <br/> |16   <br/> |
+|Groupes d’utilisateurs dans la liste des membres de chaque salle de conversation  <br/> |10   <br/> |10   <br/> |15   <br/> ||
 |Salles gérées par groupes d’utilisateurs  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Entités d’appartenance basées sur le groupe d’utilisateurs dans toutes les salles de conversation  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |Entités d’appartenance basées sur l’utilisateur dans toutes les salles de conversation  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
-|Utilisateurs et groupes d’utilisateurs dans chaque liste de gestionnaires, de présentateurs et d’étendue de la salle de conversation  <br/> |6   <br/> |6   <br/> |6   <br/> ||
+|Utilisateurs et groupes d’utilisateurs dans chaque liste de gestionnaires, de présentateurs et d’étendue de la salle de conversation  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Utilisateurs et groupes d’utilisateurs dans toutes les listes de gestionnaire, de présentateur et d’étendue des salles de conversation  <br/> |192,000  <br/> |6400  <br/> |60  <br/> ||
 |Entrées de contrôle d’accès  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
 |Nombre maximum d’entrées de contrôle d’accès  <br/> ||||2,000,000  <br/> |
@@ -128,7 +128,7 @@ Les exemples de données du tableau suivant supposent que, dans la page **Param�
 |:-----|:-----|:-----|:-----|:-----|
 |Utilisateurs qui peuvent accéder à la salle de conversation  <br/> |30 par salle  <br/> |150 par salle  <br/> |16 000 par salle  <br/> ||
 |Pourcentage de salles qui ont des invitations  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
-|Salles de conversation configurées pour envoyer des invitations  <br/> |16,000  <br/> |533  <br/> |5   <br/> ||
+|Salles de conversation configurées pour envoyer des invitations  <br/> |16,000  <br/> |533  <br/> |5   <br/> ||
 |Utilisateurs pouvant accéder à la salle de conversation  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
 |Invitations générées par le serveur de conversation permanente  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
 |Nombre maximal autorisé d’invitations  <br/> ||||2,000,000  <br/> |
@@ -136,7 +136,7 @@ Les exemples de données du tableau suivant supposent que, dans la page **Param�
 |Taux de conversation par salle (par jour)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
 |Taux de conversation (par seconde) dans toutes les salles  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |Modèle 2 : démarrer avec le nombre de messages publiés par utilisateur et par jour  <br/> |||||
-|Taux de conversation par utilisateur et par jour  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
+|Taux de conversation par utilisateur et par jour  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
 |Taux de conversation par salle (par jour)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |Taux de conversation (par seconde) dans toutes les salles  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    
@@ -156,11 +156,11 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 |Nombre total de salles de conversation  <br/> |33,077  <br/> |
 |Nombre de petites salles de conversation  <br/> |32,000  <br/> |
 |Nombre de moyennes salles de conversation  <br/> |1,067  <br/> |
-|Nombre de grandes salles de conversation  <br/> |10   <br/> |
+|Nombre de grandes salles de conversation  <br/> |10   <br/> |
 |Nombre total de salles de conversation par utilisateur  <br/> |16   <br/> |
-|Nombre total de petites salles de conversation par utilisateur  <br/> |12   <br/> |
-|Nombre total de moyennes salles de conversation par utilisateur  <br/> |2   <br/> |
-|Nombre total de grandes salles de conversation par utilisateur  <br/> |2   <br/> |
+|Nombre total de petites salles de conversation par utilisateur  <br/> |12   <br/> |
+|Nombre total de moyennes salles de conversation par utilisateur  <br/> |2   <br/> |
+|Nombre total de grandes salles de conversation par utilisateur  <br/> |2   <br/> |
 |Nombre de salles jointes par utilisateur  <br/> |24  <br/> |
 |Taux maximal d’utilisateurs joints  <br/> |10/seconde  <br/> |
 |Taux de conversation total  <br/> |24/seconde  <br/> |
@@ -178,7 +178,7 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 |Nombre de participants interrogés par intervalle  <br/> |25 par salle de conversation visible  <br/> |
 |Durée de la fréquence d’interrogation  <br/> |5 minutes  <br/> |
 |Nombre de participants interrogés par seconde  <br/> |15 000  <br/> |
-|Nombre de changements du statut de présence par heure et par utilisateur  <br/> |6   <br/> |
+|Nombre de changements du statut de présence par heure et par utilisateur  <br/> |6   <br/> |
 |Nombre de changements du statut de présence par seconde  <br/> |133.33  <br/> |
    
 

@@ -27,7 +27,7 @@ ms.locfileid: "49835234"
   
 ClS Logger est un outil qui vous permet de gérer les journaux générés par le service de journalisation centralisée.
   
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Configuration requise
 
 Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs suivantes sont vraies :
   

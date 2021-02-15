@@ -50,7 +50,7 @@ Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryO
 - TextComment ( \* , caractère générique indiquant que toute commande de texte est autorisée)
     
 > [!NOTE]
-> La création d’un plan de numérotation crée également une stratégie de boîte aux lettres par défaut. 
+> La création d’un nouveau plan de numérotation crée également une stratégie de boîte aux lettres par défaut. 
   
 Après avoir créé et configuré le nouveau plan de numérotation, vous devez ajouter le nouveau plan de numérotation à votre serveur de messagerie unifiée, puis modifier le mode de démarrage de ce serveur . en particulier, vous devez définir le mode de démarrage sur « Double ». Vous pouvez effectuer ces deux tâches à partir de l’Exchange Management Shell :
   
@@ -114,7 +114,7 @@ Pour configurer la messagerie unifiée Exchange afin qu’elle fonctionne Voix E
 - Configurer des certificats sur le serveur exécutant les services de messagerie unifiée Exchange
   > [!NOTE]
   > Ajoutez tous les serveurs d’accès au client et de boîtes aux lettres à tous les plans de numérotation URI SIP de messagerie ungée. Si ce n’est pas le cas, le routage des appels sortants ne fonctionne pas comme prévu. 
-- Créez un ou plusieurs plans de numérotation URI SIP de la um, ainsi que les numéros de téléphone d’accès d’abonné, selon vos besoins, puis créez les plans de numérotation L correspondants.
+- Créez un ou plusieurs plans de numérotation URI SIP de la um, ainsi que les numéros de téléphone d’accès abonné, selon vos besoins, puis créez les plans de numérotation L correspondants.
 
 - Utilisez le script exchucutil.ps1 pour :
     - créer des passerelles IP de messagerie unifiée ;
@@ -153,7 +153,7 @@ Lorsque vous intégrez Microsoft Skype Entreprise Server à la messagerie unifi�
 > Le script ExchUcUtil.ps1 crée une ou plusieurs passerelles IP de messagerie unifiée. Vous devez désactiver les appels sortants sur toutes les passerelles IP de messagerie unifiée à l'exception de celle que le script a créée. Ceci inclut la désactivation des appels sortants sur les passerelles IP de messagerie unifiée qui ont été créées avant l'exécution du script. 
 
 - Il crée un groupement de postes de messagerie unifiée pour chaque passerelle IP de messagerie unifiée. L’identificateur pilote de chaque groupement de recherche spécifie le plan de numérotation URI SIP de messagerie ungée utilisé par le pool frontal Skype Entreprise Server ou le serveur Standard Edition Associé à la passerelle IP de messagerie ungée.
-- Accorde à Skype Entreprise Server l’autorisation de lire les objets conteneur de messagerie unie Active Directory tels que les plans de numérotation de messagerie unie, les attendants automatiques, les passerelles IP de messagerie unie et les groupements de recherche de messagerie unie.
+- Accorde à Skype Entreprise Server l’autorisation de lire les objets conteneur de messagerie unie Active Directory tels que les plans de numérotation, les serveurs automatiques, les passerelles IP de messagerie unie et les groupements de recherche de messagerie unie.
   > [!IMPORTANT]
   > Chaque forêt de messagerie unée doit être configurée de manière à faire confiance à la forêt dans laquelle Skype Entreprise Server est déployé, et la forêt dans laquelle Skype Entreprise Server 2013 est déployé doit être configurée pour faire confiance à chaque forêt de messagerie unée. Si la messagerie unée Exchange est installée dans plusieurs forêts, les étapes d’intégration Exchange Server doivent être effectuées pour chaque forêt de messagerie unée, sinon vous devez spécifier le domaine Skype Entreprise Server. Par exemple, ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
 
@@ -179,7 +179,7 @@ Pour vérifier que le script ExchUcUtul.ps1 a été exécuté correctement, proc
 Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans La planification de l’intégration de la messagerie unifiée Exchange dans Skype Entreprise Server dans la documentation de planification et que vous souhaitez fournir des fonctionnalités de messagerie unifiée Exchange aux utilisateurs Voix Entreprise de votre organisation, vous pouvez utiliser les procédures suivantes pour configurer le certificat sur le serveur exécutant la messagerie unifiée Exchange.
 
 > [!IMPORTANT]
-> Pour les certificats internes, les serveurs exécutant Skype Entreprise Server et les serveurs exécutant Microsoft Exchange doivent avoir des certificats d’autorité racines de confiance mutuellement fiables. L’autorité de certification peut être la même ou une autorité de certification différente, tant que les serveurs ont le certificat racine de l’autorité de certification inscrit dans leur magasin de certificats d’autorité racine de confiance. 
+> Pour les certificats internes, les serveurs exécutant Skype Entreprise Server et les serveurs exécutant Microsoft Exchange doivent avoir des certificats d’autorité racines de confiance mutuellement fiables. L’autorité de certification peut être la même ou une autorité de certification différente, tant que le certificat racine de l’autorité de certification est inscrit dans le magasin de certificats de l’autorité racine de confiance des serveurs. 
 
 Le Exchange Server doit être configuré avec un certificat de serveur pour se connecter à Skype Entreprise Server :
 1. Téléchargez le certificat d’autorité de certification du serveur Exchange Server.

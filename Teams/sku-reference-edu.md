@@ -58,7 +58,7 @@ Cet article répertorie les références (SKU) et ID de référence pour les ens
 |Microsoft 365 Éducation A3 pour les étudiants      |M365EDU_A3_STUDENT         |7cfd9a2b-e110-4c39-bf20-c6a3f36a3121         |
 |Microsoft 365 Éducation A3 pour les étudiants utilise les avantages       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 Éducation A5 pour les étudiants        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
-|Avantages de l’utilisation de Microsoft 365 A5 Pour les étudiants     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
+|Avantages de l’utilisation de Microsoft 365 A5 Student     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
 |Microsoft 365 A5 sans audioconférence pour les étudiants      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
 |Utilisation de Microsoft 365 A5 sans audioconférence pour les étudiants    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 pour les étudiants     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |

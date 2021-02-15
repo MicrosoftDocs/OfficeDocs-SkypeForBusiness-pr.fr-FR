@@ -192,8 +192,8 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 
 |**Media**|**Bande passante maximale RTCP (Kbits/s)**|
 |:-----|:-----|
-|Audio  <br/> |5   <br/> |
-|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> |10   <br/> |
+|Audio  <br/> |5   <br/> |
+|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> |10   <br/> |
 |Vidéo (H.264 et RTVideo envoyé/reçu)  <br/> |15   <br/> |
 
 Pour la planification de la capacité, les deux statistiques suivantes sont d’intérêt :

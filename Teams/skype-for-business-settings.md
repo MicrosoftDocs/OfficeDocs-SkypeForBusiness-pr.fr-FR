@@ -35,9 +35,9 @@ ms.locfileid: "49834214"
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-En tant qu’administrateur, le Centre d’administration Microsoft Teams vous permet de gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise dans votre organisation. Vous pouvez gérer les [paramètres](#manage-skype-for-business-settings-for-your-organization) de votre organisation sur la page **Skype** Entreprise et les [paramètres](#manage-skype-for-business-settings-for-individual-users) des utilisateurs individuels sous l’onglet **Skype** Entreprise des pages de détails de l’utilisateur.
+En tant qu’administrateur, le Centre d’administration Microsoft Teams est l’endroit où vous gérez les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise dans votre organisation. Vous pouvez gérer les [paramètres](#manage-skype-for-business-settings-for-your-organization) de votre organisation sur la page **Skype** Entreprise et les [paramètres](#manage-skype-for-business-settings-for-individual-users) des utilisateurs individuels sous l’onglet **Skype** Entreprise des pages de détails de l’utilisateur.
 
-Vous verrez uniquement la page **Skype** Entreprise si le mode de coexistence pour votre organisation n’est pas réglé sur **Teams uniquement.** De même, vous ne verrez **l’onglet Skype** Entreprise d’un utilisateur que si le mode de coexistence de l’utilisateur n’est pas **Teams uniquement.** Pour en savoir plus sur les modes de coexistence, voir Comprendre la [coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md) et l’interopérabilité de Teams et Skype Entreprise, et Définir vos paramètres de coexistence et [de mise à niveau.](setting-your-coexistence-and-upgrade-settings.md)
+Vous verrez uniquement la page **Skype** Entreprise si le mode de coexistence pour votre organisation n’est pas réglé sur **Teams uniquement.** De même, vous ne verrez l’onglet **Skype** Entreprise d’un utilisateur que si le mode de coexistence de l’utilisateur n’est pas **Seulement Teams.** Pour en savoir plus sur les modes de coexistence, voir Comprendre la [coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md) et l’interopérabilité de Teams et Skype Entreprise, et Définir vos paramètres de coexistence et [de mise à niveau.](setting-your-coexistence-and-upgrade-settings.md)
 
 > [!NOTE]
 > Les paramètres de Skype Entreprise étaient auparavant dans **le portail hérité** du Centre d’administration Microsoft Teams. Avec l’abandon de l’ancien portail, nous avons migré les paramètres vers ces nouveaux emplacements dans le Centre d’administration Teams pour la gestion de Skype Entreprise.
@@ -46,7 +46,7 @@ Pour gérer les fonctionnalités de Skype Entreprise dans le Centre d’administ
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Gérer les paramètres de Skype Entreprise pour votre organisation
 
-Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez dans les paramètres à **l’échelle** de l’organisation  >  **De Skype Entreprise.** À partir de cet écran, vous pouvez configurer et gérer les notifications de diffusion de réunion Skype, de confidentialité des informations de présence et d’appareil mobile pour tous les utilisateurs Skype Entreprise de votre organisation.
+Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez dans les paramètres à **l’échelle** de l’organisation  >  **De Skype Entreprise.** À partir de là, vous pouvez configurer et gérer la diffusion de réunion Skype, la confidentialité des informations de présence et les notifications sur les appareils mobiles pour tous les utilisateurs Skype Entreprise de votre organisation.
 
 ### <a name="skype-meeting-broadcast"></a>Diffusion de réunion Skype
 
@@ -84,7 +84,7 @@ Par défaut, les utilisateurs de Skype Entreprise de votre organisation peuvent 
 
 #### <a name="mobile-notifications"></a>Notifications mobiles
 
-Vous pouvez définir si vos utilisateurs mobiles Skype Entreprise obtiennent des alertes concernant les messages instantanés entrants et manqués, les messages vocaux et les appels manqués via un service de notifications Push. En fonction des appareils mobiles utilisés dans votre organisation, vous pouvez utiliser le service de notifications Push **Microsoft,** le service de **notifications Push Apple,** ou les deux.
+Vous pouvez définir si vos utilisateurs mobiles Skype Entreprise obtiennent des alertes concernant les messages instantanés entrants et manqués, les messages vocaux et les appels manqués via un service de notifications Push. Selon les appareils mobiles utilisés dans votre organisation, vous pouvez utiliser le service de notifications Push **Microsoft,** le service de **notifications Push Apple,** ou les deux.
 
 Tenez compte des points suivants :
 

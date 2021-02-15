@@ -30,7 +30,7 @@ ms.locfileid: "49834204"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Votre organisation est-elle prête pour Microsoft Teams ?
 
-Maintenant que votre équipe de projet s’est rassemblée et que vous commencent à voir ce que Teams peut faire pour votre organisation, il est important d’évaluer la disponibilité de votre organisation pour la transition vers Teams. Pour évaluer votre disponibilité, vous devrez :
+Maintenant que votre équipe de projet a été rassemblée et que vous commencent à voir ce que Teams peut faire pour votre organisation, il est important d’évaluer la disponibilité de votre organisation pour la transition vers Teams. Pour évaluer votre préparation, vous devrez :
 
 1. Évaluez les parties prenantes.
 2. Identifiez les premiers utilisateurs.
@@ -62,7 +62,7 @@ Les premiers utilisateurs partagent certains traits d’caractère, quelle que s
 - Demande d’amélioration
 - Collaborer par nature
 - Souhaitant partager ses observations et apprentissages avec le groupe
-- sont des personnes qui prennent des risques ; autrement dit, ils veulent essayer quelque chose pour voir si cela fonctionne
+- sont des personnes qui prennent des risques ; autrement dit, ils souhaitent essayer quelque chose pour voir si cela fonctionne
 
 Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme de premiers utilisateurs pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou la plupart de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation).](teams-adoption-phase2-experiment.md)
 
@@ -87,10 +87,10 @@ Chaque organisation se rapproche différemment, selon la région, le style de tr
 2. Quelle est la compétence des utilisateurs pour le changement ? *(Formation)*
     - **Les démarrages autonomes** nécessitent uniquement un lien vers une vidéo.
     - **Les créateurs d’équipe** se sont bien passé des formations de groupe.
-    - **Les apprenants un-à-un ont besoin** d’un support personnel.
+    - **Les étudiants un-à-un ont besoin d’un** support personnel.
 
     > [!TIP]
-    > Personas le type et la quantité de formation pour la compétence et les personnage. Continuez à mettre à jour les formations lorsque de nouvelles fonctionnalités sont disponibles en ligne.
+    > Personasz le type et la quantité de formation pour la compétence et les personnage. Continuez à mettre à jour les formations lorsque de nouvelles fonctionnalités sont disponibles en ligne.
 
 3. En plus de ce déploiement de service, combien d’autres modifications sont en cours ? *(Insérabilité)* <br/>Les modifications peuvent inclure les mises à niveau d’Office/Windows, les déplacements d’Office, les fusions, les reorgs, etc.
     - Aucun
@@ -102,6 +102,6 @@ Chaque organisation se rapproche différemment, selon la région, le style de tr
 
 Combinez ces données avec les profils des parties prenantes et les employés qui souhaitent s’associer au programme des premiers utilisateurs. Cela vous permettra d’identifier les groupes prêts à l’utiliser et de les absorber en même temps que leurs tâches existantes. Cette méthode vous permet de créer des partenaires en modification.
 
-Vous pouvez faire appel à des champions internes pour résoudre le problème d’avoir différents types de changements. Ici, les commentaires sont essentiels au succès : encouragez les utilisateurs à partager leurs défis et besoins. Adoptez des perturbateurs et des dissidences en donnant à ces personnes ou à ces groupes un siège sur la table lors de l’expérimentation. Cette meilleure pratique préparera le terrain pour un déploiement plus fluide de vos améliorations de la collaboration.  
+Vous pouvez faire appel à des champions internes pour résoudre le problème d’avoir différents types de changements. Ici, les commentaires sont essentiels au succès : encouragez les utilisateurs à partager leurs défis et besoins. Adoptez des perturbateurs et des dissidences en donnant à ces individus ou groupes un siège à la table lors de l’expérimentation. Cette meilleure pratique préparera le terrain pour un déploiement plus fluide de vos améliorations de la collaboration.  
 
-![Icône représentant l’étape suivante ](media/teams-adoption-next-icon.png) : [Phase d’adoption de Microsoft Teams 2 : Tester](teams-adoption-phase2-experiment.md) 
+![Icône représentant l’étape suivante ](media/teams-adoption-next-icon.png) : [Phase d’adoption de Microsoft Teams 2 : tester](teams-adoption-phase2-experiment.md) 

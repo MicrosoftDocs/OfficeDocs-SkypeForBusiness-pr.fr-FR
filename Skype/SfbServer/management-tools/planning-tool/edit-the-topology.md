@@ -25,7 +25,7 @@ ms.locfileid: "49834884"
 
 Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page **Topologie globale**, double-cliquez sur le site que vous souhaitez modifier.
 
-L’outil de planification affiche la topologie du site sélectionné. Le bas de la page du site comporte quatre onglets :
+L’outil de planification affiche la topologie de site pour le site sélectionné. Le bas de la page du site comporte quatre onglets :
 
 ![Topologie du site de l’outil de planification](../../media/Planning_Tool_Site_Topology.png)
 
@@ -53,7 +53,7 @@ L’outil de planification affiche la topologie du site sélectionné. Le bas de
 ## <a name="edit-the-network-configuration-diagram"></a>Modifier le diagramme de configuration réseau
 <a name="Edit_Network_diagram"> </a>
 
-La majeure partie du travail qu’un concepteur fait dans l’outil de planification de Skype Entreprise Server 2015 consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le diagramme réseau. Les informations entrées sur cette page sont contenues dans les rapports et autres informations contenues dans l’outil de planification.
+La majeure partie du travail qu’un concepteur fait dans l’outil de planification de Skype Entreprise Server 2015 consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le diagramme réseau. Les informations entrées sur cette page sont contenues dans les rapports et les autres informations contenues dans l’outil de planification.
 
 ![Diagramme réseau de l’outil de planification](../../media/Planning_Tool_Network_Diagram.png)
 

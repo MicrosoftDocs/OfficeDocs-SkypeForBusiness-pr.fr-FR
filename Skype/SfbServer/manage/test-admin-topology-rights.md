@@ -53,7 +53,7 @@ AVERTISSEMENT : entrée de contrôle d’accès (ACE) atl-cs-001\RTCUniversalSer
 
 AVERTISSEMENT : les entrées de contrôle d’accès sur l’objet « CN=Computers,DC=litwareinc,DC=com » ne sont pas prêtes. 
 
-False 
+Faux 
 
 AVERTISSEMENT : le traitement « Test-CsSetupPermission » s’est terminé avec des avertissements. « 2 » avertissements ont été enregistrés au cours de cette run. 
 

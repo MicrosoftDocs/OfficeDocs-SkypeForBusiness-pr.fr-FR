@@ -26,7 +26,7 @@ Le schéma de base de données comprend les tables suivantes.
   
 **Tables de prise en charge**
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[Table AppSharingMetricsThreshold](appsharingmetricsthreshold.md) <br/> |Stocke les valeurs optimales et acceptables pour les mesures de qualité de l’expérience utilisées avec le partage d’application.  <br/> |
 |[Table CodecDescription](codecdescription.md) <br/> |Mappe des identificateurs de codec uniques à leur codec correspondant.  <br/> |
@@ -47,7 +47,7 @@ Le schéma de base de données comprend les tables suivantes.
 |[Table PayloadDescription](payloaddescription.md) <br/> |Stocke le Codec utilisé dans les appels audio/vidéo.  <br/> |
 |[Table AppliedBandwidthSource](appliedbandwidthsource.md) <br/> |Stocke la source de la bande passante utilisée dans les appels audio/vidéo.  <br/> |
 |[Table MacAddress](macaddress.md) <br/> |Stocke l’adresse MAC des systèmes d’extrémité participant à des sessions audio et vidéo.  <br/> |
-|[Table de dialogue](dialog.md) <br/> |Stocke l’ID de dialogue des sessions audio et vidéo.  <br/> |
+|[Table dialog](dialog.md) <br/> |Stocke l’ID de dialogue des sessions audio et vidéo.  <br/> |
 |[Table Region](region.md) <br/> |Stocke la région du réseau définie dans le paramètre NCS.  <br/> |
 |[Table UserSite](usersite.md) <br/> |Stocke le site réseau défini dans le paramètre NCS.  <br/> |
 |[Table Subnet](subnet.md) <br/> |Stocke le sous-réseau défini dans le paramètre NCS.  <br/> |
@@ -58,7 +58,7 @@ Le schéma de base de données comprend les tables suivantes.
    
 **Tableaux de données de mesure**
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |[Table AppSharingStream](appsharingstream.md) <br/> |Stocke les mesures de qualité de l’expérience de la transmission réseau utilisée pour le partage d’application. Mesures de qualité de l’expérience de la transmission réseau utilisée pour le partage d’application.  <br/> |
 |[Table Session](session.md) <br/> |Stocke les informations globales sur une session audio ou audio/vidéo. Une session est définie en tant que dialogue SIP audio ou vidéo entre deux points d’extrémité.  <br/> |
@@ -72,7 +72,7 @@ Le schéma de base de données comprend les tables suivantes.
    
 **Tables des données de synthèse**
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |**Table ServerSummary** <br/> |Stocke les données de synthèse pour les serveurs, ces données étant essentiellement utilisées pour les rapports de qualité de l’expérience (QoE).  <br/> |
 |**Table UserSummary** <br/> |Stocke les données de synthèse pour les utilisateurs, ces données étant essentiellement utilisées pour les rapports de qualité de l’expérience (QoE).  <br/> |
@@ -80,7 +80,7 @@ Le schéma de base de données comprend les tables suivantes.
    
 **Tables à utilisation interne par le serveur de surveillance**
 
-|**Table**|**Description**|
+|**Tableau**|**Description**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |À usage interne uniquement.  <br/> |
 |**DbConfigInt** <br/> |À usage interne uniquement.  <br/> |

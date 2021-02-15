@@ -87,7 +87,7 @@ Les autres éléments ont été remplis avec les réponses que  vous avez fourni
     
 - **Mobilité**
     
-    Lorsque vous déployez le service de mobilité de Skype Entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge pour effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence.
+    Lorsque vous déployez le service de mobilité de Skype Entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge pour effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage des contacts et l’affichage de la présence.
     
 - **Boîte aux lettres Exchange W15**
     
@@ -127,7 +127,7 @@ Les autres éléments ont été remplis avec les réponses que  vous avez fourni
     
 - **Intégration de l’archivage Exchange**
     
-    Si des utilisateurs sont homed on Exchange 2013 et que leurs boîtes aux lettres ont été mises en conservation In-Place, vous pouvez sélectionner l’option d’intégration du stockage Skype Entreprise Server 2015 avec le stockage Exchange.
+    Si vous avez des utilisateurs qui sont homed on Exchange 2013 et que leurs boîtes aux lettres ont été mises en conservation In-Place, vous pouvez sélectionner l’option pour intégrer le stockage Skype Entreprise Server 2015 au stockage Exchange.
     
 - **IPv4**
     
@@ -135,7 +135,7 @@ Les autres éléments ont été remplis avec les réponses que  vous avez fourni
     
 - **IPv6**
     
-    Les adresses IPv6 exécutent la même fonction que les adresses IPv4 (avec certaines fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement des adresses 32 bits, les adresses IPv6 utilisent des adresses 128 bits. Cela fournit non seulement un nouvel ensemble d’adresses, mais également un plus grand nombre d’adresses.
+    Les adresses IPv6 exécutent la même fonction que les adresses IPv4 (avec certaines fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement 32 bits, les adresses IPv6 utilisent des adresses 128 bits. Cela fournit non seulement un nouvel ensemble d’adresses, mais également un plus grand nombre d’adresses.
     
 - **service Web de mise à jour des périphériques**
     

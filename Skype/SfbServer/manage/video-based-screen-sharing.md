@@ -130,7 +130,7 @@ Il existe des situations dans lesquelles le partage d’écran passe à RDP, com
 - Si quelqu’un appelle le contrôle d’écran distant pendant la session. 
 - Réunions de plus de 250 participants (où VbSS n’est pas pris en charge actuellement).
 
-N’ignorez pas qu’une fois que la session passe à RDP, elle ne revenira pas à VbSS. Là encore, la transition à partir de VbSS est destinée à être transparente et, espérons-le, ne sera pas facile à détecter dans la plupart des situations.
+N’ignorez pas qu’une fois que la session passe à RDP, elle ne revenira pas à VbSS. Là encore, la transition à partir de VbSS est censée être transparente et, espérons-le, ne sera pas facile à détecter dans la plupart des situations.
     
 > [!NOTE]
 > Il n’est pas pris en charge pour bloquer ou tenter de bloquer la transition de VbSS vers RDP dans le partage d’écran Skype Entreprise. 

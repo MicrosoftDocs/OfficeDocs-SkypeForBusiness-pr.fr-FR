@@ -245,5 +245,5 @@ Le tableau suivant décrit l’état de l’interopération entre la dernière v
 |Lync Mac 2011  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2010  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
 |Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Attendant  <br/> |N/A  <br/> |S/O  <br/> |
+|Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
    
