@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer phone system pour les files d’attente avec Microsoft Teams, qui fournissent un message de salutation, de la musique, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 0253fb15a8672d83e672e3e3e18f8455d292214c
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145891"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196748"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -45,7 +45,7 @@ Les files d’attente fournissent les services :
 
 - Options de gestion pour le dépassement de capacité et le délai d’attente.
 
-Assurez-vous de lire l’article Plan pour les [](plan-auto-attendant-call-queue.md#getting-started) standard [automatiques teams](plan-auto-attendant-call-queue.md) et les files d’attente d’appels, et suivez les étapes de mise en place avant de suivre les procédures de cet article.
+Assurez-vous de lire l’article Plan pour les [](plan-auto-attendant-call-queue.md#getting-started) standard [automatiques Teams](plan-auto-attendant-call-queue.md) et les files d’attente d’appels, et suivez les étapes de mise en place avant de suivre les procédures de cet article.
 
 Pour configurer une file d’attente d’appels, dans le Centre d’administration Teams, développez **Voix,** cliquez sur Files d’attente d’appels, puis cliquez sur **Ajouter.**
 
@@ -53,11 +53,11 @@ Pour configurer une file d’attente d’appels, dans le Centre d’administrati
 
 ![Capture d’écran des paramètres de langue et de compte de ressource](media/call-queue-name-language.png)
 
-1. Tapez un nom pour la file d’attente d’appels. Les agents voient ce nom lorsqu’ils reçoivent un appel entrant de la file d’attente.
+1. Tapez un nom pour la file d’attente d’appels.
 
-2. Cliquez **sur Ajouter des comptes,** recherchez le compte de ressource à utiliser avec cette file d’attente d’appels, cliquez sur Ajouter, puis sur **Ajouter.** 
+2. Cliquez **sur Ajouter des comptes,** recherchez le compte de ressource à utiliser avec cette file d’attente d’appels, cliquez sur Ajouter, puis sur **Ajouter.**  (Les agents voient le nom du compte de ressource lorsqu’ils reçoivent un appel entrant.)
 
-3. Choisissez une langue. Cette langue sera utilisée pour les invites vocales générées par le système et la transcription des messages vocaux (si vous les activez).
+3. Choisissez une [langue prise en charge.](create-a-phone-system-call-queue-languages.md) Cette langue sera utilisée pour les invites vocales générées par le système et la transcription des messages vocaux (si vous les activez).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Salutations et musique en attente dans la file d’attente
 
@@ -135,7 +135,7 @@ Les paramètres suivants sont recommandés :
 
 **Le nombre maximal d’appels dans** la file d’attente indique le nombre maximal d’appels qui peuvent attendre dans la file d’attente à un moment donné. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est traité comme spécifié par le paramètre Lorsque la limite maximale du nombre d’appels **est** atteinte.
 
-Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers une des destinations de routage des appels. Par exemple, l’appelant peut laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux conditions [préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux transferts de numéros de téléphone [externes - détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des numéros.
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers une des destinations de routage des appels. Par exemple, l’appelant peut laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux conditions [préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux transferts de numéros de téléphone [externes ( détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des numéros).
 
 > [!NOTE]
 > Si la valeur maximale du nombre d’appels est définie sur 0, le message d’accueil n’est pas l donné.
@@ -166,12 +166,12 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - iPhone client Skype Entreprise (version 6.16.0 et ultérieures)
   - Client Skype Entreprise pour iPad (version 6.16.0 et ultérieures)
   - Client Windows Microsoft Teams (versions 32 bits et 64 bits)
-  - Client Microsoft Teams Mac
+  - Client Microsoft Teams Pour Mac
   - Application Microsoft Teams pour iPhone
   - Application Microsoft Teams pour Android
 
     > [!NOTE]
-    > Les files d’attente à qui un numéro de routage direct est attribué ne peuvent pas être prise en charge par les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
+    > Les files d’attente à qui un numéro de routage direct est affecté ne peuvent pas être prise en charge par les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de file d’attente d’appels
 
@@ -185,7 +185,7 @@ Vous pouvez également utiliser des Windows PowerShell pour créer et configurer
 
 - [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

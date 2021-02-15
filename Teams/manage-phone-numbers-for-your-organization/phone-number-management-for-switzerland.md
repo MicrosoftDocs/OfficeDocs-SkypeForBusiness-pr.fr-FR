@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Suisse pour Microsoft Teams.
-ms.openlocfilehash: d354b9538ed14bae65016bdbf4f85cecb0b121f3
-ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
+ms.openlocfilehash: 653e943c74bb1bb57aa5d9a1f63b17235b8be23e
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50096937"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196618"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Gestion des numéros de téléphone pour la Suisse
 
@@ -35,10 +35,10 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
 |Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour la Suisse (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[Nouvelle demande de numéro de téléphone pour la Suisse (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[Nouvelle demande de numéro de téléphone pour la Suisse (v.5.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [Nouvelle demande de numéro de téléphone pour la Suisse (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).|
-|Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez l’un de ces formulaires. <br/>[Courrier d’autorisation (LOA) pour la Suisse (tous les numéros) (v.5.0) (de-ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[Courrier d’autorisation (LOA) pour la Suisse (tous les numéros) (v.6.0) (fr-ch)](https://download.microsoft.com/download/c/c/c/cccf5c0b-a838-4d2a-a476-430e4ad79a17/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(fr-ch).pdf)<br/>[Courrier d’autorisation (LOA) pour la Suisse (tous les numéros) (v.6.0) (it-ch)](https://download.microsoft.com/download/c/a/0/ca098e50-9e77-4dd6-9a79-9074421c7652/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(it-ch).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez l’un de ces formulaires. <br/>[Courrier d’autorisation (LOA) pour la Suisse (tous les numéros) (v.5.0) (de-ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[Courrier d’autorisation (LOA) pour la Suisse (tous les numéros) (v.6.0) (fr-ch)](https://download.microsoft.com/download/c/c/c/cccf5c0b-a838-4d2a-a476-430e4ad79a17/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(fr-ch).pdf)<br/>[Courrier d’autorisation (LOA) pour la Suisse (tous les numéros) (v.6.0) (it-ch)](https://download.microsoft.com/download/c/a/0/ca098e50-9e77-4dd6-9a79-9074421c7652/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.6.0)-(it-ch).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour les numéros de files d’attente d’appels ou de service automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,4 +48,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
   
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

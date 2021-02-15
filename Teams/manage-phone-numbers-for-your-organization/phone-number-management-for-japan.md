@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
-ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 3c16d05a1160e95777f6ee981ca7332a4555f10a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322253"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196678"
 ---
 # <a name="phone-number-management-for-japan"></a>Gestion des numéros de téléphone pour le Japon
 
@@ -53,3 +53,5 @@ Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization.md)
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
+
+[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

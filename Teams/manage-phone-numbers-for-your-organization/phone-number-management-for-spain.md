@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Espagne pour Microsoft Teams.
-ms.openlocfilehash: 376588659661ba35bd892e365a5f8ca8ee0b7fe8
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 44ee0a7812cb8c2a9b218960aecabe404c6409c1
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361694"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196648"
 ---
 # <a name="phone-number-management-for-spain"></a>Gestion des numéros de téléphone pour l'Espagne
 
-Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Espagne pour Microsoft Teams. 
+Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Espagne pour Microsoft Teams.
   
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
@@ -40,7 +40,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Espagne (tous les nombres) (v.5.0)(es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf?raw=true)<br/><br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour les numéros de files d’attente d’appels ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour les numéros de files d’attente d’appels ou de service automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -50,7 +50,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
   
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
-  
- 
+[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

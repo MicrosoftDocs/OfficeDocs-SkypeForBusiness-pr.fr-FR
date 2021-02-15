@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6452d49f1d00558d2103cfe45be0dc848d6f0a26
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145721"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196788"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -131,13 +131,10 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300 |
-|Nombre de personnes dans un appel vidéo ou audio démarré à partir de l’onglet conversation | 20 |
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300. **Affichage seul** autorise jusqu’à 10 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour SKU E3/E5/A3/A5.<br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite du cloud pour le secteur public passera de 250 à 300 et qu’il prendra en charge le dépassement de capacité des réunions. En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
+|Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
-
->[!Note]
-> Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 ### <a name="meeting-expiration"></a>Expiration de réunion
 

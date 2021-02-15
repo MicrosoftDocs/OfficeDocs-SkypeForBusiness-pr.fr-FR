@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145821"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196578"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Synchroniser les données du système d’information sur les élèves (SIE) avec Education Insights
 Plus [Education Insights](class-insights.md) reçoit de données, plus les enseignants peuvent aider leurs élèves, et plus les responsables de l’éducation peuvent aider les enseignants.
 
 Pour fournir des informations au niveau de l’organisation, nous devons utiliser la [Synchronisation des données scolaires (SDS)](https://docs.microsoft.com/SchoolDataSync) pour nous connecter au système d'informations sur les élèves (SIE). Ainsi, Insights présentera la structure hiérarchique du système d’enseignement correctement mappée. 
 
-L’affichage des informations au niveau de la classe en tant qu’enseignant *ne nécessite pas* cela, car nous utilisons la structure et les autorisations de classe de Teams.
+L’affichage des informations au niveau de la classe en tant qu’enseignant *ne nécessite pas* cette synchronisation, car nous utilisons la structure et les autorisations de classe de Teams.
 
 ## <a name="plan-your-sis-integration"></a>Planifier l’intégration de votre SIE
 Les données du SIE fournissent la structure hiérarchique du système d’enseignement et établissent une correspondance entre chaque utilisateur et son lieu d’affectation.
@@ -47,10 +47,10 @@ Le tableau suivant indique le type de données obligatoire pour tirer le meilleu
 
 | Type de données | Exemples des éléments à fournir|Pourquoi est-ce important ?|
 |:--- |:--- |:--- |
-| **Utilisateurs** |   Rôle (par exemple, élève)<br/> Classe/année (par exemple, 10)<br/> Organisation (nom) | Lorsque nous affectons correctement à chaque personne son rôle, sa classe/son année et son organisation, nous pouvons vérifier que les résumés et les regroupements sont corrects.|
+| **Utilisateurs** |   Rôle (par exemple, élève)<br/> [Classe/année](#supported-grade-level-values) (par exemple, 10)<br/> Organisation (nom) | Lorsque nous affectons correctement à chaque personne son rôle, sa classe/son année et son organisation, nous pouvons vérifier que les résumés et les regroupements sont corrects.|
 | **Organisations** | Type d’organisation (par exemple, université) |   La hiérarchie est importante ici. Par exemple, les établissements d’enseignement peuvent appartenir à un secteur, lequel peut appartenir à un État.<br/> Lorsqu’un responsable de l’enseignement d’un secteur géographique est autorisé à consulter les données, cela ne concerne que les établissements d’enseignement de ce secteur.|
-| **Classes** | Titre (Informatique 101, par exemple) | Cette information indique en détails les cours dispensés dans l’organisation. Cette situation doit être correctement mappée pour que nous puissions affecter l’élève à la classe appropriée. |
-| **Inscription** | Rôle (par exemple, élève) | Cela concerne les élèves et les enseignants, et nous permet de savoir dans quelle classe ils sont inscrits. |
+| **Classes** | Titre (Informatique 101, par exemple) | Ce tableau d’information indique en détails les cours dispensés dans l’organisation. Ce tableau doit être correctement mappée pour que nous puissions affecter l’élève à la classe appropriée. |
+| **Inscription** | Rôle (par exemple, élève) | Ce tableau concerne les élèves et les enseignants, et nous permet de savoir dans quelle classe ils sont inscrits. |
 
 > [!NOTE]
 > Pendant le processus de déploiement, vous pouvez décider d’utiliser SDS pour configurer les comptes des utilisateurs et des classes dans Teams ou pour fournir des données à Insights uniquement.
@@ -70,7 +70,7 @@ Voici quelques pratiques recommandées visant à garantir le déploiement fluide
     
 *   Veillez à *fournir le prénom et le nom de famille de chaque utilisateur*. Si ces données sont manquantes, les utilisateurs seront référencés par leur adresse e-mail. Cela donne une expérience négative dans les rapports et les actualités (cartes avec des informations sur l’activité ou les performances des élèves).
 
-*   Vous devez indique la *classe/l’année en 2 chiffres* (par exemple, 07 pour l’année 7). Consultez la [liste de mappage](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported). 
+*   Vous devez indique la *classe/l’année en 2 chiffres* (par exemple, 07 pour l’année 7). Consultez la [liste de mappage](#supported-grade-level-values). 
 
 *   Il est important *d'ajouter l’année/la classe à tous les élèves* pour filtrer les données.    
 
@@ -80,7 +80,7 @@ Voici quelques pratiques recommandées visant à garantir le déploiement fluide
     
     *   En fonction de l’unité d’organisation du personnel, vous pourrez définir les autorisations pertinentes. Veillez à les associer au niveau d’unité approprié pour que les membres du personnel obtiennent les autorisations dont ils ont besoin. Par exemple, un conseillé affecté à quatre établissements doit avoir accès à toutes les classes de ces établissements d’enseignement ; un chef d’établissement doit avoir accès à toutes les classes de son établissement. 
     
-*   Le rôle est essentiel. Bien qu’il s’agisse d’une liste fermée, essayez de faire correspondre le rôle de [la liste](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) au rôle réel de chaque utilisateur que vous chargez. Vous pouvez ainsi attribuer des autorisations basées sur les rôles. Par exemple, accordez des autorisations pour que tous les chefs d’établissement voient les classes de leur établissement ou à tous les professeurs pour qu’ils voient leurs enseignants. 
+*   Le rôle est essentiel. Bien que cette liste soit fermée, essayez de faire correspondre le rôle de [la liste](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) au rôle réel de chaque utilisateur que vous chargez. Vous pouvez ainsi attribuer des autorisations basées sur les rôles. Par exemple, accordez des autorisations pour que tous les chefs d’établissement voient les classes de leur établissement ou à tous les professeurs pour qu’ils voient leurs enseignants. 
 
 ### <a name="organizations"></a>Organisations
 
@@ -134,3 +134,77 @@ Une nouvelle zone d’état s’affiche en côté des données de l’organisati
 
 > [!IMPORTANT]
 > Si vous rencontrez des problèmes, [le support](https://aka.ms/edusupport) est là pour vous aider.
+
+## <a name="supported-grade-level-values"></a>Valeurs de niveau scolaire prises en charge
+
+Dans les fichiers SDS, niveau de scolaire/année défini en tant que valeurs sous-titres, ce qui signifie que vous ne pouvez fournir qu’un ensemble sélectionné de valeurs dans le fichier CSV. Toute valeur autre que les valeurs spécifiées entraîne une erreur lors du traitement de la synchronisation.
+
+> [!NOTE]
+> Vous devez indique la *classe/l’année en 2 chiffres* (par exemple, 07 pour l’année 7).
+
+La section ci-dessous définit les valeurs pris en charge dans le fichier utilisateurs.
+
+### <a name="united-states--worldwide-grade-levels"></a>Niveaux scolaires aux États-Unis/dans le monde
+|Valeur dans le fichier (colonne Note) | Étiquette dans Insights|
+|:---|:---| 
+|IT|Enfant|
+|PR|Préscolaire|
+|PK|Prématernelle|
+|TK|Maternelle transitoire|
+|KG|Maternelle|
+|01|Première année|
+|02|Ce1|
+|03|Ce2|
+|04|Cours moyen|
+|05|Cours moyen2|
+|06|Sixième|
+|07|Cinquième|
+|08|Quatrième|
+|09|Troisième|
+|10|Seconde|
+|11|Première|
+|12|Terminal|
+|PS|Postsecondaire|
+|PS1|Première année d'études postsecondaires|
+|PS2|Deuxième cycle de l'enseignement supérieur|
+|PS3|Junior postsecondaire|
+|PS4|Senior postsecondaire|
+|premier cycle universitaire|Premier cycle universitaire|
+|diplômé|Diplômé|
+|troisième cycle|Troisième cycle (diplômé avec une accentuation sur la recherche)|
+|alumni|Alumni|
+|adultEducation|Éducation des adultes|
+|UG|Non classé|
+|Autres|Autres|
+
+### <a name="united-kingdom-year-groups"></a>Groupes annuels du Royaume-Uni
+|Valeur dans le fichier (colonne Note) | Étiquette dans Insights|
+|:---|:---| 
+|IT|Pépinière|
+|PR|Préscolaire|
+|PK|Crèche|
+|01|Année 1|
+|02|Année 2|
+|03|Année 3|
+|04|Année 4|
+|05|Année 5|
+|06|Année 6|
+|07|Année 7|
+|08|Année 8|
+|09|Année 9|
+|10|Année 10|
+|11|Année 11|
+|12|Année 12|
+|13|Année 13|
+|PS|Postsecondaire|
+|PS1|Première année d'études postsecondaires|
+|PS2|Deuxième année d'études postsecondaires|
+|PS3|Troisième année d'études postsecondaires|
+|PS4|Quatrième année d'études postsecondaires|
+|premier cycle universitaire|Premier cycle universitaire|
+|diplômé|Diplômé|
+|troisième cycle|Troisième cycle (diplômé avec une accentuation sur la recherche)|
+|alumni|Alumni|
+|adultEducation|Éducation des adultes|
+|UG|Non classé|
+|Autres|Autres|

@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone aux Pays-Bas pour Microsoft Teams.
-ms.openlocfilehash: 88ad4636f04ec2c73542cd0c305e50ffe4a89064
-ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
+description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone aux Pays-Bas pour Microsoft Teams.
+ms.openlocfilehash: c57b587e077a5ae558368f1ef6499ef224895a33
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876698"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196888"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gestion des numéros de téléphone pour les Pays-Bas
 
-Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone aux Pays-Bas pour Microsoft Teams.
+Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone aux Pays-Bas pour Microsoft Teams.
   
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
@@ -40,7 +40,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation (LOA) pour les Pays-Bas (tous les nombres) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier des numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour les numéros de files d’attente d’appels ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -50,4 +50,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
   
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

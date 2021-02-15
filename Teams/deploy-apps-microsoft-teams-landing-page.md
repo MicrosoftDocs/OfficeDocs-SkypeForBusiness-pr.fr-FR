@@ -7,7 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: admin
-ms.date: 01/28/2019
+ms.date: 02/10/2021
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -18,24 +18,39 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177334"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196518"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
-Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager directement dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0). 
 
-Nous vous recommandons d’inclure nos applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres applications, robots et connecteurs pour favoriser l’adoption des services Teams.
+Vous pouvez ajouter des applications à votre déploiement Teams à l’aide des applications fournies avec Microsoft Teams, en utilisant des applications et modèles tiers certifiés, et en créant vos propres applications personnalisées.
 
-Vous avez également la possibilité de créer vos propres applications personnalisées. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/overview).
+## <a name="use-microsoft-provided-apps"></a>Utiliser les applications fournies par Microsoft
+
+Teams insère un ensemble d’applications intégrées, notamment Listes, Tâches, Compliments, Approbations, etc. Nous vous recommandons d’inclure les applications proposées Teams (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres applications, robots et connecteurs pour favoriser l’adoption des services Teams.
+
+## <a name="use-third-party-apps"></a>Utiliser des applications tierces
+
+En plus des applications fournies par Microsoft, vous pouvez utiliser des applications tierces certifiées par Microsoft. Microsoft collabore avec des partenaires développeur Microsoft 365 pour fournir les informations nécessaires à la prise de décisions accélérées concernant l’utilisation des applications et des modules complémentaires Teams. Pour plus d’informations, consultez [Sécurité et conformité de l’application Microsoft Teams](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
+
+## <a name="use-teams-templates"></a>Utilisation des modèles Teams
+
+Vous pouvez utiliser les [Modèles d’application](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), qui sont des applications Microsoft Teams prêtes pour la production qui sont impulsées par la communauté, open source et disponibles sur GitHub.
+
+## <a name="create-custom-apps"></a>Créer des notifications personnalisées
+
+Vous pouvez créer rapidement des solutions personnalisées à faible code à l’aide de l’intégration de Teams avec [Microsoft Power Platform](teams-power-platfom-integration.md). Vous pouvez également créer votre propre application personnalisée en fonction des besoins de votre entreprise. Si vous souhaitez en savoir plus, consultez l’article [Créer des applications Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
+
 
 ## <a name="apps-deployment-decisions"></a>Décisions liées au déploiement des applications
 
-Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.
+Teams offre une expérience de collaboration prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) vous pouvez configurer en fonction des besoins de votre organisation.
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
 
@@ -43,7 +58,7 @@ Voici les paramètres d’applications que la plupart des organisations veulent 
 
 ### <a name="app-availability-settings"></a>Paramètres de disponibilité des applications 
 
-Teams fournit un certain nombre d'applications fournies par Microsoft et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services d’entreprise couramment utilisés dans Teams. Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications personnalisées envoyées via le [processus d’approbation du Store Teams](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
+Teams fournit plusieurs applications fournies par Microsoft et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services d’entreprise couramment utilisés dans Teams. Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications personnalisées envoyées via le [processus d’approbation du Store Teams](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
 
 Par défaut, toutes les applications tierces fournies par Microsoft et les applications personnalisées sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe des paramètres globaux au niveau de l’organisation qui vous permettent d’activer ou désactiver toutes les applications tierces et/ou personnalisées pour toute votre organisation.
 
@@ -111,9 +126,6 @@ Les modèles d’application sont des applications Microsoft Teams prêtes pour 
 |||
 
 
-## <a name="next-steps"></a>Étapes suivantes
-- [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) d’applications proposées, par exemple, le Planificateur.
-- [Mettre en place des réunions et des conférences](deploy-meetings-microsoft-teams-landing-page.md)
-- [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)
+
 
 

@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment ajouter et mettre à jour des étiquettes de rapports en chargeant un fichier texte contenant la liste des emplacements physiques et des sous-réseaux associés.
+description: Découvrez comment ajouter et mettre à jour des étiquettes de rapports en chargeant un fichier texte qui contient la liste des emplacements physiques et des sous-réseaux associés.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918640"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237484"
 ---
 <a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 ============================
@@ -42,8 +42,8 @@ Les étiquettes et les données de localisation des rapports que vous fournissez
 **Pour modifier le tableau des sous-réseaux et des emplacements**
 
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Étiquettes**  >  **de rapports d’emplacements.**
-2. Cliquez sur **Remplacer les données des emplacements.**
-3. Dans le **volet de** données Remplacer les emplacements, cliquez sur Sélectionner un **fichier,** puis recherchez et chargez votre fichier .csv ou .tsv modifié.
+2. Cliquez **sur Télécharger les données.**
+3. Dans le **volet Charger des** données, cliquez sur Sélectionner un fichier, puis recherchez et chargez votre fichier .csv ou .tsv modifié. 
 4. Cliquez **sur Charger.**
 
 Vous pouvez télécharger un exemple de modèle [ici.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
@@ -53,7 +53,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 > [!IMPORTANT]
 > Votre fichier de données ne doit pas contenir d’en-têtes de colonne (par exemple, Réseau, Nom du réseau, etc.). Ceux-ci sont utilisés ici uniquement à des fins d’information. <br>
 
-|Réseau|Nom du réseau|Plage réseau|Nom du bâtiment|Type de propriété|Type de bâtiment|Type de bureau du bâtiment|Ville|Code postal|Pays|État|Région|Inside Corp|Express Route|
+|Réseau|Nom du réseau|Plage réseau|Nom du bâtiment|Type de propriété|Type de bâtiment|Building Office Type|Ville|Code postal|Pays|État|Région|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|États-Unis|CA|États-Unis|1|1|
 |10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|États-Unis|CA|États-Unis|1|1|
@@ -62,7 +62,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir Format de fichier de données client et [Structure du fichier de données du bâtiment.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 

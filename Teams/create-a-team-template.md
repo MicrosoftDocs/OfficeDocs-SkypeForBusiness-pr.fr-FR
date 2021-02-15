@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e017ac0795d2fdd65d89c0532469e8e269ee0e58
-ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
+ms.openlocfilehash: f22b2c53ab6f3c3c90e1720313c135c2106b1a49
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173090"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196528"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft Teams
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients EDU.**
 
-Un modèle d’équipe personnalisé est une structure d’équipe prédéfinise avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement l’espace de collaboration qui vous permet de créer le bon espace de collaboration. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
+Un modèle d’équipe personnalisé est une structure d’équipe prédéfinise avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement le bon espace de collaboration. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
 
 Pour commencer :
 
@@ -46,9 +46,9 @@ Pour commencer :
     - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
 
-![Image de la boîte de dialogue Paramètres des modèles d’équipe.](media/template-add-a-name.png)
+![Image de la boîte de dialogue de noms des paramètres des modèles d’équipe.](media/template-add-a-name.png)
 
-6. Dans la section **Canaux, onglets et** applications, ajoutez les canaux et applications dont votre équipe a besoin.
+6. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
     1. Dans la section **Canaux,** cliquez sur **Ajouter.**
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
@@ -70,7 +70,11 @@ Votre nouveau modèle est affiché dans la liste **des modèles d’équipe.** L
 
 **Problème**: si vous avez créé une équipe à partir d’un modèle personnalisé qui contenait d’autres onglets personnalisés, vous pouvez voir des onglets vides à la place de vos applications d’onglets personnalisées. Vos onglets par défaut (par exemple, **Publications,** **Fichiers** et **Wiki)** s’afficheront comme prévu.
 
-**Solution**: pour résoudre ce problème, supprimez l’onglet personnalisé et ajoutez un nouvel onglet avec la même application. Nous travaillons actuellement au développement d’un correctif pour tous les modèles personnalisés à partir du 08/02/2021.
+**Solution**: si vous avez créé une équipe à partir d’un modèle personnalisé qui contenait des onglets personnalisés supplémentaires, vous pouvez voir des onglets vides à la place de vos applications d’onglets personnalisées. Vos onglets par défaut (par exemple, Publications, Fichiers et Wiki) s’affichent comme prévu.
+
+Pour résoudre ce problème, supprimez l’onglet personnalisé et ajoutez un nouvel onglet avec la même application. Si vous n’êtes pas autorisé à supprimer l’onglet personnalisé et à ajouter un nouvel onglet, contactez le propriétaire de l’équipe pour lui demander de le faire.
+
+Nous travaillons actuellement sur un correctif pour les équipes futures créées à partir de modèles personnalisés.
 
 ## <a name="related-topics"></a>Sujets associés
 
