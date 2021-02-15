@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826904"
 ---
-# <a name="associate-a-subnet"></a><span data-ttu-id="b13fe-104">Associer un sous-réseau</span><span class="sxs-lookup"><span data-stu-id="b13fe-104">Associate a Subnet</span></span>
+# <a name="associate-a-subnet"></a><span data-ttu-id="cdd80-104">Associer un sous-réseau</span><span class="sxs-lookup"><span data-stu-id="cdd80-104">Associate a Subnet</span></span>
 
-<span data-ttu-id="b13fe-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="b13fe-105">What do you want to do?</span></span> <span data-ttu-id="b13fe-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b13fe-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cdd80-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="cdd80-105">What do you want to do?</span></span> <span data-ttu-id="cdd80-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="cdd80-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="b13fe-107">Configuration des sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="b13fe-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="cdd80-107">Configuration des sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="cdd80-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
-<span data-ttu-id="b13fe-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b13fe-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="cdd80-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="cdd80-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

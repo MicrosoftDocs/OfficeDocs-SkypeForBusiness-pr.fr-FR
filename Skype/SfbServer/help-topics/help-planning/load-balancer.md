@@ -23,12 +23,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828994"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="c3268-105">Équilibrage de charge (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="c3268-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="1db61-105">Équilibrage de charge (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="1db61-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="c3268-106">Si vous avez des pools frontux, des pools directeurs ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools.</span><span class="sxs-lookup"><span data-stu-id="c3268-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="c3268-107">L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool.</span><span class="sxs-lookup"><span data-stu-id="c3268-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="c3268-108">Pour obtenir des informations détaillées, voir :</span><span class="sxs-lookup"><span data-stu-id="c3268-108">For details, see:</span></span>
+<span data-ttu-id="1db61-106">Si vous avez des pools frontux, des pools directeurs ou des pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools.</span><span class="sxs-lookup"><span data-stu-id="1db61-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="1db61-107">L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool.</span><span class="sxs-lookup"><span data-stu-id="1db61-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="1db61-108">Pour obtenir des informations détaillées, voir :</span><span class="sxs-lookup"><span data-stu-id="1db61-108">For details, see:</span></span>
   
-- [<span data-ttu-id="c3268-109">Exigences d’équilibrage de charge pour Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="c3268-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="1db61-109">Exigences d’équilibrage de charge pour Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="1db61-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [<span data-ttu-id="c3268-110">DNS requirements for Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="c3268-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
+- [<span data-ttu-id="1db61-110">DNS requirements for Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1db61-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
     
 

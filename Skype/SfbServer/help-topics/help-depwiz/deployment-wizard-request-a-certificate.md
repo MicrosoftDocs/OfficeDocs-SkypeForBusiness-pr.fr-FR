@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827344"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="e1df9-103">Assistant Déploiement : demande de certificat</span><span class="sxs-lookup"><span data-stu-id="e1df9-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="1b86c-103">Assistant Déploiement : demande de certificat</span><span class="sxs-lookup"><span data-stu-id="1b86c-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="e1df9-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir [Install Skype for Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="e1df9-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="1b86c-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir [Install Skype for Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="1b86c-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

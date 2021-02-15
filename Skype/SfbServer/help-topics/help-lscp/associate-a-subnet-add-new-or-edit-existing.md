@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826914"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="c70a1-104">Association d’un sous-réseau : ajout d’une nouvelle ou modification d’une association existante</span><span class="sxs-lookup"><span data-stu-id="c70a1-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="c7290-104">Association d’un sous-réseau : ajout d’une nouvelle ou modification d’une association existante</span><span class="sxs-lookup"><span data-stu-id="c7290-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="c70a1-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="c70a1-105">What do you want to do?</span></span> <span data-ttu-id="c70a1-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="c70a1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c7290-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="c7290-105">What do you want to do?</span></span> <span data-ttu-id="c7290-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="c7290-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c70a1-107">Configuration des sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="c70a1-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="c7290-107">Configuration des sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="c7290-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
-<span data-ttu-id="c70a1-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c70a1-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="c7290-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c7290-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828804"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="b2783-103">Ajouter l’adresse IPv4 externe de l’ordinateur Edge</span><span class="sxs-lookup"><span data-stu-id="b2783-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="41fb3-103">Ajouter l’adresse IPv4 externe de l’ordinateur Edge</span><span class="sxs-lookup"><span data-stu-id="41fb3-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="b2783-104">Dans **IPv4 externe,** entrez l’adresse IP externe qui pointe vers le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V.</span><span class="sxs-lookup"><span data-stu-id="b2783-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="41fb3-104">Dans **IPv4 externe,** entrez l’adresse IP externe qui pointe vers le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V.</span><span class="sxs-lookup"><span data-stu-id="41fb3-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

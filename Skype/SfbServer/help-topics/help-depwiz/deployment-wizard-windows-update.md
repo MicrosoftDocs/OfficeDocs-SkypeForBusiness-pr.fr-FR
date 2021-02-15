@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827294"
 ---
-# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="c1dfb-103">Assistant Déploiement : Windows Update</span><span class="sxs-lookup"><span data-stu-id="c1dfb-103">Deployment Wizard: Windows Update</span></span>
+# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="071b3-103">Assistant Déploiement : Windows Update</span><span class="sxs-lookup"><span data-stu-id="071b3-103">Deployment Wizard: Windows Update</span></span>
  
-<span data-ttu-id="c1dfb-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir [Install Skype for Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="c1dfb-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="071b3-104">Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server 2015, voir [Install Skype for Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="071b3-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 
