@@ -24,7 +24,7 @@ Une *application fiable* est une application basée sur le SDK Microsoft Unified
 
 Pour publier, activer ou désactiver correctement une topologie lors de l’ajout ou de la suppression d’un rôle de serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Administrateurs du domaine. 
 
-Utilisez cet article pour apprendre à configurer un nouveau serveur d’applications approuvé, afficher une liste d’applications fiables et afficher des informations sur les applications de confiance. 
+Utilisez cet article pour découvrir comment configurer un nouveau serveur d’applications approuvé, afficher une liste d’applications fiables et afficher des informations sur les applications de confiance. 
 
 ## <a name="configure-a-new-trusted-application-server"></a>Configurer un nouveau serveur d’applications fiables
 

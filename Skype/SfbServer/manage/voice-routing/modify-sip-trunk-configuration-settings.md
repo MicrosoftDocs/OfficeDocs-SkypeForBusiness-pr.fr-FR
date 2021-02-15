@@ -44,12 +44,12 @@ Lorsque vous modifiez les paramètres de configuration d’une trunk SIP à l’
 |Activer les données de transfert P-Asserted-Identity|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.|
 |Activer le minuteur de basculement de routage de trafic sortant|EnableFastFailoverTimer|Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront acheminés vers la jonction suivante disponible ; s’il n’existe aucune jonction supplémentaire, l’appel est automatiquement abandonné. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.|
 |Utilisations PSTN associées|PSTNUsages|Collection d’utilisations PSTN assignées à la jonction.|
-|Numéro traduit à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
+|Numéro traduit à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
 |Règles de traduction associées|OutboundTranslationRulesList|Collection de règles de traduction de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels acheminés vers les destinations PBX ou PSTN).|
 |Règles de traduction du numéro appelé|OutboundCallingNumberTranslationRulesList|Collection de règles de traduction de numéro d’appel sortant assignées à la jonction.|
-|Numéro de téléphone à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
-|Numéro appelant|S/O|Indique que le numéro de téléphone à tester est celui de l’appelant.|
-|Numéro appelé|S/O|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
+|Numéro de téléphone à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
+|Numéro appelant|N/A|Indique que le numéro de téléphone à tester est celui de l’appelant.|
+|Numéro appelé|N/A|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
 |||
 
 > [!Note]

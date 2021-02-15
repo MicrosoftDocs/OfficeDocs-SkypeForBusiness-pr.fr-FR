@@ -27,16 +27,16 @@ Le rapport de distribution des mesures de qualité des médias vous permet de vo
   
 |**Numéro d’appel**|**Durée de l’aller-retour (millisecondes)**|
 |:-----|:-----|
-|1   <br/> |50  <br/> |
-|2   <br/> |50  <br/> |
-|3   <br/> |50  <br/> |
+|1   <br/> |50  <br/> |
+|2   <br/> |50  <br/> |
+|3   <br/> |50  <br/> |
 |4   <br/> |50  <br/> |
-|5   <br/> |50  <br/> |
-|6   <br/> |50  <br/> |
-|7   <br/> |50  <br/> |
-|8   <br/> |4550  <br/> |
-|9   <br/> |50  <br/> |
-|10   <br/> |50  <br/> |
+|5   <br/> |50  <br/> |
+|6   <br/> |50  <br/> |
+|7   <br/> |50  <br/> |
+|8   <br/> |4550  <br/> |
+|9   <br/> |50  <br/> |
+|10   <br/> |50  <br/> |
    
 La moyenne de ces allers-retours est de 500 millisecondes (5 000 divisé par 10). Cinq cent millisecondes est une durée d’aller-retour extrêmement longue . Par conséquent, vous pouvez penser que vous avez un sérieux problème de congestion du réseau. (Les temps d’aller-retour longs sont généralement le résultat de réseaux surchargés.)
   

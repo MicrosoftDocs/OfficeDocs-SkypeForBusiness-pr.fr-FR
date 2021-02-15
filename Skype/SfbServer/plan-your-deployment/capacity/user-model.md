@@ -186,9 +186,9 @@ Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de 
 |**Drive** <br/> |**RAID Configuration** <br/> |**Nombre de disques** <br/> |
 |:-----|:-----|:-----|
 |Fichiers de données de base de données cdr, QoE et d’archivage, sur un seul lecteur  <br/> |1+0  <br/> |16   <br/> |
-|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1   <br/> |2   <br/> |
-|Fichier journal de la base de données QoE  <br/> |1   <br/> |2   <br/> |
-|Fichier journal de la base de données d’archivage  <br/> |1   <br/> |2   <br/> |
+|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1   <br/> |2   <br/> |
+|Fichier journal de la base de données QoE  <br/> |1   <br/> |2   <br/> |
+|Fichier journal de la base de données d’archivage  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Capacité du serveur d’interconnexion vidéo
 

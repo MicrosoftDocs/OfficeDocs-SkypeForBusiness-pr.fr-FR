@@ -1,5 +1,5 @@
 ---
-title: Affiches pour Skype Entreprise Server 2015 | PSTN vocal
+title: Affiches pour skype entreprise server 2015 | PSTN vocal
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

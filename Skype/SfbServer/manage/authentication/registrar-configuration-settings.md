@@ -35,7 +35,7 @@ Vous pouvez utiliser le serveur d’inscriptions pour configurer les méthodes d
 > [!NOTE]
 > Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend à la fois en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également envers le serveur, Kerberos est utilisé. 
   
-Si vous utilisez les clients d’application du Windows Store Lync, vous devez activer l’authentification par certificat.
+Si vous utilisez des clients d’application du Windows Store Lync, vous devez activer l’authentification par certificat.
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>Pour créer de nouveaux paramètres de configuration du bureau d’enregistrement d’inscriptions
 

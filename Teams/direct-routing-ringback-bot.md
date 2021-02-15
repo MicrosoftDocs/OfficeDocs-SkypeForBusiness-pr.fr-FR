@@ -29,7 +29,7 @@ Cet article décrit le robot Ringback, que vous pouvez utiliser pour éviter des
 
 Parfois, les appels entrants du réseau téléphonique commuté (PSTN) vers les clients Teams peuvent prendre plus de temps que prévu. Cela peut se produire pour diverses raisons. Dans ce cas, il se peut que l’appelant n’entende rien, que le client Teams ne sonne pas et que certains fournisseurs de télécommunications peuvent annuler l’appel.
 
-Le Robot Ringback permet d’éviter les silences inattendus qui peuvent se produire dans ce scénario. Pour les appels entrants entre les clients PSTN et Teams, le bot Ringback lit un signal audio distinct pour l’appelant pour indiquer que Teams est en train d’établir l’appel.
+Le Robot Ringback permet d’éviter les silences inattendus qui peuvent se produire dans ce scénario. Pour les appels entrants entre les clients PSTN et Teams, le Bot Ringback lit un signal audio distinct pour indiquer à l’appelant que Teams est en train d’établir l’appel.
 
 > [!NOTE]
 > Le robot Ringback génère les premiers médias à partir du verso Teams. Dans certains pays et certaines régions, l’appel peut vous être facturé lorsque les médias commencent à circuler.

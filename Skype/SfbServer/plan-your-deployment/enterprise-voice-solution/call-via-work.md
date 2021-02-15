@@ -47,7 +47,7 @@ L’appel via le bureau utilise l’API web de communications unifiées (UCWA) c
 
 L’exemple suivant montre comment un utilisateur activé pour l’appel via le travail peut utiliser Skype Entreprise Server pour effectuer un appel :
   
-![Indique les étapes d’un appel via le lieu de travail ; Tout d’abord, l’appelant clique pour appeler une personne dans le client Skype Entreprise ; puis l’UCWA fait sonner le téléphone de l’appelant. Lorsque l’appelant prend le téléphone, le destinataire est appelé.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Indique les étapes d’un appel via le réseau téléphonique ; tout d’abord, l’appelant clique pour appeler une personne dans le client Skype Entreprise ; puis l’UCWA fait sonner le téléphone de l’appelant. Lorsque l’appelant prend le téléphone, le destinataire est appelé.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. L’utilisateur sélectionne un utilisateur dans son client Skype Entreprise et clique sur l’icône du téléphone pour l’appeler. Ou, au cours d’une conversation par messagerie instantanée, l’utilisateur clique pour appeler l’utilisateur avec qui il a la session.
     

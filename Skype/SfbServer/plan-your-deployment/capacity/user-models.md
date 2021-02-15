@@ -57,7 +57,7 @@ Le tableau suivant décrit le modèle utilisateur pour l’utilisation d’un ca
   
 **Modèle utilisateur pour l’utilisation d’un carnet d’adresses**
 
-|**Mode de recherche d’un carnet d’adresses**|**Usage**|
+|**Mode de recherche d’un carnet d’adresses**|**Utilisation**|
 |:-----|:-----|
 |Requête web du carnet d’adresses uniquement (toutes les requêtes sont effectuées par le service de requête web du carnet d’adresses)  <br/> |Quatre requêtes de préfixe quotidiennes par utilisateur.  <br/> 60 requêtes de recherche exacte quotidiennes par utilisateur. 40 % de ces requêtes sont traitées par lot, avec une moyenne de 20 contacts par requête. Les 60 % restants concernent un seul contact.  <br/> 25 requêtes de photos quotidiennes par utilisateur. 24 concernent une seule photo, la dernière étant une requête par lot avec une moyenne de 20 contacts.  <br/> Une requête quotidienne par utilisateur de recherche dans toute l’entreprise.  <br/> |
 |Mode mixte : utilisation du fichier de carnet d’adresses et des requêtes web Il s’agit du mode par défaut.  <br/> |Deux types de requêtes uniquement sont transmises sur le réseau, à savoir les requêtes de photos et les requêtes de recherche dans toute l’entreprise.  <br/> 25 requêtes de photos quotidiennes par utilisateur. 24 concernent une seule photo, la dernière étant une requête par lot avec une moyenne de 20 contacts.  <br/> Une requête quotidienne par utilisateur de recherche dans toute l’entreprise.  <br/> |

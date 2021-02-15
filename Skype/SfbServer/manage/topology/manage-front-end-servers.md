@@ -54,7 +54,7 @@ Vous pouvez utiliser la procédure suivante lors de l’ajout ou de la suppressi
     > Lorsque vous ajoutez ou supprimez un serveur au pool dans votre topologie, puis publiez la topologie mise à jour, tous les serveurs du pool redémarrent en même temps. Pendant que les serveurs redémarrent le pool est hors connexion, ce qui interrompt le service pour vos utilisateurs connectés à ce pool. Pour éviter toute interruption de service pour les utilisateurs, prévoyez de publier la topologie avec le nouveau serveur dans le pool en de nouvelles heures d’ouverture. 
   
   > [!NOTE]
-> En outre, lorsque vous ajoutez ou supprimez un serveur au pool, vous devez exécuter l’Assistant Déploiement de Skype Entreprise Server sur chaque ordinateur ajouté ou supprimé. Pour plus d’informations, voir [Installer Skype](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server) Entreprise Server sur les serveurs de la topologie.
+> En outre, lorsque vous ajoutez ou supprimez un serveur dans le pool, vous devez exécuter l’Assistant Déploiement de Skype Entreprise Server sur chaque ordinateur ajouté ou supprimé. Pour plus d’informations, voir Installer Skype Entreprise Server sur les serveurs de la [topologie.](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. Si vous avez modifié le nombre de serveurs dans votre pool frontal de l’une des manières suivantes, réinitialisez-le en tapant l’applet de la cmdlet suivante : Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
@@ -100,7 +100,7 @@ Lorsque vous patchez les serveurs d’un pool frontal, vous le faites d’un ser
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    Cette applet de bord déplace tous les services vers d’autres serveurs frontaux du pool et met ce serveur hors connexion.
+    Cette applet de cmdlet déplace tous les services vers d’autres serveurs frontaux du pool et met ce serveur hors connexion.
     
 3. Appliquez la mise à niveau ou le correctif à ce serveur.
     
