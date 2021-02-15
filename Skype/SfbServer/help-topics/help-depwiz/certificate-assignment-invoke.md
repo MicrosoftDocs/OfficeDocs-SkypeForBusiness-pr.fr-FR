@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835624"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="41730-105">Assignation de certificat (appeler)</span><span class="sxs-lookup"><span data-stu-id="41730-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="1ecd4-105">Assignation de certificat (appeler)</span><span class="sxs-lookup"><span data-stu-id="1ecd4-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="41730-p102">La page **Exécution de commandes** affiche les actions prises par les tâches pour affecter le certificat au serveur. Lorsque les tâches sont finalisées, vous pouvez afficher le fichier journal qui détaille le processus d’affectation du certificat. Pour afficher le fichier journal, cliquez sur **Afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="41730-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="1ecd4-p102">La page **Exécution de commandes** affiche les actions prises par les tâches pour affecter le certificat au serveur. Lorsque les tâches sont finalisées, vous pouvez afficher le fichier journal qui détaille le processus d’affectation du certificat. Pour afficher le fichier journal, cliquez sur **Afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="1ecd4-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
   
 

@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833474"
 ---
-# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="9468e-104">Fusion héritée : ajouter un serveur Edge étendu</span><span class="sxs-lookup"><span data-stu-id="9468e-104">Legacy Merge Add Expanded Edge</span></span>
+# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="e59d7-104">Fusion héritée : ajouter un serveur Edge étendu</span><span class="sxs-lookup"><span data-stu-id="e59d7-104">Legacy Merge Add Expanded Edge</span></span>
  
-<span data-ttu-id="9468e-105">Skype Entreprise Server ne prend pas en charge la fusion d’une configuration de serveur Edge étendu Office Communications Server 2007 R2 héritée.</span><span class="sxs-lookup"><span data-stu-id="9468e-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="9468e-106">Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="9468e-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
+<span data-ttu-id="e59d7-105">Skype Entreprise Server ne prend pas en charge la fusion d’une configuration de serveur Edge étendu Office Communications Server 2007 R2 héritée.</span><span class="sxs-lookup"><span data-stu-id="e59d7-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="e59d7-106">Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="e59d7-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
   
 

@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836014"
 ---
-# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="5a437-103">Ajouter l’adresse IPv6 externe de l’ordinateur Edge</span><span class="sxs-lookup"><span data-stu-id="5a437-103">Add Edge Machine External IPv6</span></span>
+# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="4b69b-103">Ajouter l’adresse IPv6 externe de l’ordinateur Edge</span><span class="sxs-lookup"><span data-stu-id="4b69b-103">Add Edge Machine External IPv6</span></span>
  
-<span data-ttu-id="5a437-104">Dans **l’adresse IPv6** externe, entrez l’adresse IP externe qui pointe vers le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V.</span><span class="sxs-lookup"><span data-stu-id="5a437-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="4b69b-104">Dans **l’adresse IPv6** externe, entrez l’adresse IP externe qui pointe vers le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V.</span><span class="sxs-lookup"><span data-stu-id="4b69b-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

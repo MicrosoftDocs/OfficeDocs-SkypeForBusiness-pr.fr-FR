@@ -21,8 +21,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835024"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="bc30a-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="bc30a-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="dc4dd-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="dc4dd-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="bc30a-104">Pour plus d’informations sur la résistance des sites de succursale, voir [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span><span class="sxs-lookup"><span data-stu-id="bc30a-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="dc4dd-104">Pour plus d’informations sur la résistance des sites de succursale, voir [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span><span class="sxs-lookup"><span data-stu-id="dc4dd-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 

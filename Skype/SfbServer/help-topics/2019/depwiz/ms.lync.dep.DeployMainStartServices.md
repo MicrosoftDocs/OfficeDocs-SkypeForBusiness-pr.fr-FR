@@ -22,11 +22,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833764"
 ---
-# <a name="start-services"></a><span data-ttu-id="ae87c-104">Démarrer les services</span><span class="sxs-lookup"><span data-stu-id="ae87c-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="206b7-104">Démarrer les services</span><span class="sxs-lookup"><span data-stu-id="206b7-104">Start Services</span></span>
  
-<span data-ttu-id="ae87c-105">Pour démarrer les services sur le rôle serveur déployé, cliquez sur **Exécuter** à l’**Étape 4 : démarrer les services**.</span><span class="sxs-lookup"><span data-stu-id="ae87c-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="ae87c-106">Vous devez être connecté en tant que membre du groupe Administrateurs local ou en tant qu’équivalent.</span><span class="sxs-lookup"><span data-stu-id="ae87c-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="206b7-105">Pour démarrer les services sur le rôle serveur déployé, cliquez sur **Exécuter** à l’**Étape 4 : démarrer les services**.</span><span class="sxs-lookup"><span data-stu-id="206b7-105">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**.</span></span> <span data-ttu-id="206b7-106">Vous devez être connecté en tant que membre du groupe Administrateurs local ou en tant qu’équivalent.</span><span class="sxs-lookup"><span data-stu-id="206b7-106">You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="ae87c-107">Si **Start Services** a été exécuté, vous pouvez réexécuter la commande en cliquant sur **Réexécuter .**</span><span class="sxs-lookup"><span data-stu-id="ae87c-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="206b7-107">Si **Start Services** a été exécuté, vous pouvez réexécuter la commande en cliquant sur **Réexécuter .**</span><span class="sxs-lookup"><span data-stu-id="206b7-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

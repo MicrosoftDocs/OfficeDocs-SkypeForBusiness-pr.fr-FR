@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833444"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="34d18-104">Fusion hérité : type de serveur Edge</span><span class="sxs-lookup"><span data-stu-id="34d18-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="443d6-104">Fusion hérité : type de serveur Edge</span><span class="sxs-lookup"><span data-stu-id="443d6-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="34d18-105">Pour un **Serveur Edge unique** ou un serveur **Edge consolidé à charge équilibrée**, cliquez sur **Suivant** pour indiquer les informations de configuration.</span><span class="sxs-lookup"><span data-stu-id="34d18-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="34d18-106">Pour un **serveur Edge étendu,** la configuration de chaque serveur doit être modifiée en configuration Edge consolidée avant de pouvoir être fusionnée.</span><span class="sxs-lookup"><span data-stu-id="34d18-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
+<span data-ttu-id="443d6-105">Pour un **Serveur Edge unique** ou un serveur **Edge consolidé à charge équilibrée**, cliquez sur **Suivant** pour indiquer les informations de configuration.</span><span class="sxs-lookup"><span data-stu-id="443d6-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="443d6-106">Pour un **serveur Edge étendu,** la configuration de chaque serveur doit être modifiée en configuration Edge consolidée avant de pouvoir être fusionnée.</span><span class="sxs-lookup"><span data-stu-id="443d6-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
   
 

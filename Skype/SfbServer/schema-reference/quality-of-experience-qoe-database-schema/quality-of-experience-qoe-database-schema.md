@@ -20,18 +20,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834414"
 ---
-# <a name="quality-of-experience-qoe-database-schema"></a><span data-ttu-id="230ff-103">Schéma de base de données de qualité de l’expérience (QoE)</span><span class="sxs-lookup"><span data-stu-id="230ff-103">Quality of Experience (QoE) database schema</span></span>
+# <a name="quality-of-experience-qoe-database-schema"></a><span data-ttu-id="a17ac-103">Schéma de base de données de qualité de l’expérience (QoE)</span><span class="sxs-lookup"><span data-stu-id="a17ac-103">Quality of Experience (QoE) database schema</span></span>
  
-<span data-ttu-id="230ff-104">Cette documentation documente le schéma de la base de données de qualité de l’expérience (QoE) dans Skype Entreprise Server 2015.</span><span class="sxs-lookup"><span data-stu-id="230ff-104">This documents the schema of the Quality of Experience (QoE) database in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="a17ac-104">Cette documentation documente le schéma de la base de données de qualité de l’expérience (QoE) dans Skype Entreprise Server 2015.</span><span class="sxs-lookup"><span data-stu-id="a17ac-104">This documents the schema of the Quality of Experience (QoE) database in Skype for Business Server 2015.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="230ff-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="230ff-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a17ac-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a17ac-105">In This Section</span></span>
 
-- [<span data-ttu-id="230ff-106">Liste des tables QoE</span><span class="sxs-lookup"><span data-stu-id="230ff-106">List of QoE tables</span></span>](list-of-qoe-tables.md)
+- [<span data-ttu-id="a17ac-106">Liste des tables QoE</span><span class="sxs-lookup"><span data-stu-id="a17ac-106">List of QoE tables</span></span>](list-of-qoe-tables.md)
     
-- [<span data-ttu-id="230ff-107">Détails des tables QoE</span><span class="sxs-lookup"><span data-stu-id="230ff-107">QoE table details</span></span>](qoe-table-details.md)
+- [<span data-ttu-id="a17ac-107">Détails des tables QoE</span><span class="sxs-lookup"><span data-stu-id="a17ac-107">QoE table details</span></span>](qoe-table-details.md)
     
-- [<span data-ttu-id="230ff-108">Vue détaillée de la qualité de l’expérience</span><span class="sxs-lookup"><span data-stu-id="230ff-108">QoE view details</span></span>](qoe-view-details.md)
+- [<span data-ttu-id="a17ac-108">Vue détaillée de la qualité de l’expérience</span><span class="sxs-lookup"><span data-stu-id="a17ac-108">QoE view details</span></span>](qoe-view-details.md)
     
-- [<span data-ttu-id="230ff-109">Exemples de requêtes de base de données QoE</span><span class="sxs-lookup"><span data-stu-id="230ff-109">Sample QoE database queries</span></span>](sample-qoe-database-queries.md)
+- [<span data-ttu-id="a17ac-109">Exemples de requêtes de base de données QoE</span><span class="sxs-lookup"><span data-stu-id="a17ac-109">Sample QoE database queries</span></span>](sample-qoe-database-queries.md)
     
 
