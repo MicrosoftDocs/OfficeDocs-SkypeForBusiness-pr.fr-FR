@@ -28,7 +28,7 @@ ms.locfileid: "49918670"
 <a name="use-activity-reports-for-microsoft-teams"></a>Rapports d’activité de l’utilisateur Microsoft Teams 
 ========================================
 
-Vous pouvez utiliser les rapports d’activité du Centre d’administration Microsoft 365 pour voir comment les utilisateurs de votre organisation utilisent Microsoft Teams. Par exemple, si certains n’utilisent pas encore Microsoft Teams, ils ne savent pas encore comment démarrer ou comprendre comment ils peuvent utiliser Teams pour être plus productifs et collaboratifs. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication.
+Vous pouvez utiliser les rapports d’activité du Centre d’administration Microsoft 365 pour voir comment les utilisateurs de votre organisation utilisent Microsoft Teams. Par exemple, si certains n’utilisent pas encore Microsoft Teams, ils ne savent pas encore comment commencer ou comprendre comment ils peuvent utiliser Teams pour être plus productifs et collaboratifs. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication.
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Afficher les rapports Teams dans le tableau de bord Rapports
 
@@ -69,7 +69,7 @@ Vous pouvez visualiser l’activité des utilisateurs de Teams en regardant les 
 
 ### <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
-Le rapport Utilisation de Teams sur les appareils vous fournit des informations sur la connexion de vos utilisateurs à Teams, y compris les applications mobiles. Le rapport vous permet de comprendre les appareils les plus utilisés dans votre organisation et le nombre d’utilisateurs qui travaillent en cours.
+Le rapport Utilisation de Teams sur les appareils vous fournit des informations sur la connexion de vos utilisateurs à Teams, y compris les applications mobiles. Le rapport vous aide à comprendre les appareils les plus utilisés dans votre organisation et le nombre d’utilisateurs qui travaillent en cours.
 
 ![Capture d’écran du rapport d’utilisation de Teams sur des appareils.](media/teams-device-usage-report.png)
 
@@ -84,14 +84,14 @@ Vous pouvez obtenir un affichage de l’utilisation de Teams sur des appareils e
 |**1**   |Le rapport Teams sur les appareils peut être vu pour les tendances des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur un plage de temps spécifique dans le rapport, le tableau (7) affiche les données sur 30 jours, jusqu’à la date (2) à laquelle le rapport a été généré. |
 |**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. |
 |**3**   |**L’affichage** Utilisateurs indique le nombre d’utilisateurs quotidiens par type d’appareil. |
-|**4**   |**L’affichage Distribution** indique le nombre d’utilisateurs par appareil sur la période sélectionnée.  |
+|**4**   |**L’affichage** Distribution indique le nombre d’utilisateurs par appareil sur la période sélectionnée.  |
 |**5**   | <ul><li>Dans le **graphique Utilisateurs,** l’axe X est la plage de dates sélectionnée pour le rapport et l’axe Y indique le nombre d’utilisateurs par type d’appareil.</ul></li> <ul><li>Sur le graphique **de distribution,** l’axe X indique les différents appareils utilisés pour se connecter à Teams, et l’axe Y représente le nombre d’utilisateurs utilisant l’appareil.</ul></li> |
 |**6**   |You can filter the series you see on the chart by clicking on an item in the legend. Par exemple, dans le graphique **Distribution,** cliquez ou appuyez sur **Windows,** **Mac,** **Linux,** **Web,** **iOS** ou **Android** pour voir uniquement les informations relatives à chacune de ces séries. La modification de cette sélection ne modifie pas les informations du tableau grille. |
 |**7**   |Liste des équipes actives dans l’ensemble de la période de rapport la plus large (180 jours).  Le nombre d’activités varie en fonction de la date de sélection. <br><br> Pour voir les informations suivantes dans le tableau, veillez à y ajouter les colonnes. <ul><li>**Nom d’utilisateur** est l’adresse de courrier de l’utilisateur. Vous pouvez afficher l’adresse de messagerie réelle ou rendre ce champ anonyme.</ul></li> <ul><li>**La date de la dernière activité (UTC)** fait référence à la dernière date à laquelle l’utilisateur a participé à une activité Teams.</ul></li> <ul><li>**La suppression** indique si l’équipe est supprimée. Si l’équipe est supprimée mais qu’elle a connu une activité dans la période du rapport, elle s’affiche dans la grille avec la valeur Supprimé définie sur true.</ul></li><ul><li>**La date de suppression** est la date à laquelle l’utilisateur a été supprimé.</ul></li> <ul><li>**Windows**  est sélectionné si l’utilisateur a été actif dans le client de bureau Teams sur un ordinateur Windows.</ul></li> <ul><li>**Mac** est sélectionné si l’utilisateur a été actif dans le client de bureau Teams sur un ordinateur macOS.</ul></li>  <ul><li>**Linux** est sélectionné si l’utilisateur a été actif dans le client de bureau Teams sur un ordinateur Linux.</ul></li>   <ul><li>**L’application Web** est sélectionnée si l’utilisateur a été actif sur le client web Teams.</ul></li> <ul><li>**iOS** est sélectionné si l’utilisateur était actif sur le client mobile Teams pour iOS.</ul></li> <ul><li>**Le téléphone Android**  est sélectionné si l’utilisateur a été actif sur le client mobile Teams pour Android.</ul></li></li> <ui>Si la politique de votre organisation vous empêche de consulter les rapports sur lequel sont identifiables les informations des utilisateurs, vous pouvez modifier les paramètres de confidentialité de tous ces rapports. Consultez la section **Comment puis-je** masquer les détails du niveau de l’utilisateur ? dans la prévisualisation des rapports d’activité du [Centre d’administration Microsoft 365.](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)</ui> |
 |**8**   |Cliquez ou appuyez **sur Colonnes** pour ajouter ou supprimer des colonnes dans le tableau. |
 |**9**   |Cliquez ou **appuyez sur Exporter** pour exporter des données de rapport vers un fichier .csv Excel. Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer dans le tableau, au sein du rapport proprement dit. Si vous avez plus de 2 000 utilisateurs, vous devez exporter les données pour filtrer et trier le rapport. 
 
-## <a name="who-can-access-the-teams-activity-reports"></a>Qui peut accéder aux rapports d’activité De Teams ?
+## <a name="who-can-access-the-teams-activity-reports"></a>Qui peut accéder aux rapports d’activité Teams ?
 
 Les rapports d’activité sont accessibles par les utilisateurs affectés :
 
@@ -109,7 +109,7 @@ Vous pouvez attribuer le rôle de lecteur de rapports à des personnes qui n’o
 
 Le tableau de bord Rapports inclut les données d’utilisation de Teams dans le widget d’activité en un clin d’œil, qui vous offre une vue d’ensemble des produits dont les utilisateurs communiquent et collaborent à l’aide des autres services dans Microsoft 365 ou Office 365.
 
-![Capture d’écran du widget d’activité Teams en un clin d’œil.](media/at-a-glance-activity-widget.png)
+![Capture d’écran du widget d’activité Teams en un coup d’œil.](media/at-a-glance-activity-widget.png)
 
 ### <a name="teams-activity-card"></a>Carte d’activité Teams
 

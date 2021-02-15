@@ -28,7 +28,7 @@ Lorsqu’un utilisateur de Microsoft Teams discute avec un utilisateur externe (
 
 L’expérience de conversation native pour les membres d’autres organisations est désactivée pour tous les locataires Teams, mais toutes les personnes ne sont pas éligibles. Pour obtenir une expérience de conversation native, l’expéditeur et le récepteur doivent être configurés pour le mode de mise à niveau de TeamsOnly. Pour en savoir plus sur les stratégies de mise à niveau, [lisez Définir vos paramètres de coexistence et de mise à niveau.](setting-your-coexistence-and-upgrade-settings.md)
 
-Pour consulter la liste des fonctionnalités pour les utilisateurs d’accès externe dans Teams, voir [Comparer l’accès externe et invité.](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
+Pour consulter la liste des fonctionnalités pour les utilisateurs d’accès externe dans Teams, voir [Comparer l’accès](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)externe et invité.
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Comment savoir si je suis dans une conversation native ?
 
@@ -42,7 +42,7 @@ Lorsque vous basculez vers une conversation Teams native, Teams ne fusionne pas 
 
 ## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>Que se passe-t-il si un utilisateur n’est plus en mode Teams uniquement ?
 
-Si vous a eu une conversation Teams native avec des personnes d’autres organisations et que l’une d’entre vous est sorti du mode de mise à niveau TeamsOnly, Teams verrouille la conversation Teams native et vous fournit un lien pour une conversation limitée par SMS uniquement. Vous ne pourrez pas continuer dans la conversation Teams native. Vous pouvez toujours lire la conversation Teams native, mais vous ne pouvez pas poursuivre la conversation dans cette conversation.
+Si vous parliez teams native avec des membres d’autres organisations et que l’une d’entre vous sort du mode de mise à niveau TeamsOnly, Teams verrouille la conversation Teams native et vous fournit un lien pour une conversation limitée par SMS uniquement. Vous ne pourrez pas continuer dans la conversation Teams native. Vous pouvez toujours lire la conversation Teams native, mais vous ne pouvez pas poursuivre la conversation dans cette conversation.
 
 Si Teams trouve une ancienne conversation par SMS uniquement avec cette personne, elle l’aura fait. Sinon, Teams crée une conversation par SMS uniquement.
 

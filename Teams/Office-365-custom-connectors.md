@@ -27,11 +27,11 @@ ms.locfileid: "50076416"
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser Microsoft 365 et des connecteurs personnalisés dans Microsoft Teams
 =======================================================
 
-Les connecteurs vous aideront à maintenir votre équipe à jour en leur adant directement dans un canal le contenu fréquemment utilisé et les mises à jour de service. Avec les connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services dans le flux de conversation de leur équipe.
+Les connecteurs vous aideront à maintenir votre équipe à jour en leur adant le contenu fréquemment utilisé et les mises à jour de service directement dans un canal. Avec les connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services dans le flux de conversation de leur équipe.
 
-Tout membre d’une équipe peut connecter son équipe aux services cloud populaires avec les connecteurs si les autorisations de l’équipe le permettent et tous les membres de l’équipe sont informés des activités de ce service. Les connecteurs continueront à fonctionner même après le membre qui a initialement configuré le connecteur gauche. Tout membre de l’équipe autorisée à ajouter\supprimer peut modifier la configuration des connecteurs par les autres membres.
+Tout membre d’une équipe peut connecter son équipe aux services cloud populaires avec les connecteurs si les autorisations d’équipe le permettent et tous les membres de l’équipe sont informés des activités de ce service. Les connecteurs continueront à fonctionner même après le membre qui a initialement configuré le connecteur gauche. Tout membre de l’équipe autorisée à ajouter\supprimer peut modifier la configuration des connecteurs par les autres membres.
 
-Les connecteurs Microsoft 365 peuvent être utilisés avec Microsoft Teams et les groupes Microsoft 365, ce qui permet à tous les membres de rester synchronisés et de recevoir rapidement les informations pertinentes. Microsoft Teams et Exchange utilisent le même modèle de connecteur, ce qui vous permet d’utiliser les mêmes connecteurs sur les deux plateformes. Il est toutefois utile de noter que la désactivation des connecteurs pour le groupe Microsoft 365 dont dépend une équipe désactivera la possibilité de créer des connecteurs pour cette équipe également.
+Les connecteurs Microsoft 365 peuvent être utilisés avec Microsoft Teams et les groupes Microsoft 365, ce qui permet à tous les membres de rester synchronisés et de recevoir rapidement des informations pertinentes. Microsoft Teams et Exchange utilisent le même modèle de connecteur, ce qui vous permet d’utiliser les mêmes connecteurs sur les deux plateformes. Il est toutefois intéressant de noter que la désactivation des connecteurs pour le groupe Microsoft 365 dont dépend une équipe désactivera la possibilité de créer des connecteurs pour cette équipe également.
 
 <a name="add-a-connector-to-a-channel"></a>Ajouter un connecteur à un canal
 ----------------------------
@@ -68,7 +68,7 @@ Pour l’instant, vous pouvez ajouter des connecteurs à l’aide des clients de
 > 2. Pour les connecteurs d’espace web entrants, les utilisateurs peuvent recréer la connexion en sélectionnant simplement Mettre à jour **l’URL** et en utilisant l’URL de site web nouvellement générée.
 > ![Capture d’écran du bouton « Mettre à jour l’URL ».](media/Teams_update_URL_button.png)
 > 3. Pour les autres types de connecteurs, l’utilisateur doit supprimer le connecteur et recréer la configuration du connecteur.
-> 4. Un message « URL est à jour » s’affichera une fois l’URL correctement mise à jour.
+> 4. Un message « L’URL est à jour » s’affichera une fois l’URL correctement mise à jour.
 > ![Capture d’écran du message « L’URL est à jour ».](media/Teams_URL_up_to_date.png)
 
 

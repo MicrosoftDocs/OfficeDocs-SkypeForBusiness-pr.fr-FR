@@ -45,9 +45,9 @@ Pour **configurer** des domaines autorisés, utilisez l’une des méthodes suiv
 
  **Méthode 1 : utiliser le Centre d’administration**
 
-1. Dans le Centre d’administration, dans le panneau de navigation gauche, cliquez sur Les  >  **&amp; modules add-ins** de Settings Services, puis sélectionnez **Skype Entreprise.**
+1. Dans le Centre d’administration, dans le panneau de navigation gauche, cliquez sur les  >  **&amp; modules add-ins** Settings Services (Paramètres Services), puis sélectionnez **Skype Entreprise.**
 
-2. Sur la page **Partage externe** sous **Exceptions** de domaine, sélectionnez Tous les domaines sont **bloqués** sauf, et entrez les domaines suivants, séparés par une virgule (,) :
+2. Sur la page **Partage externe** sous Exceptions de domaine, sélectionnez Tous les domaines sont **bloqués** sauf, et entrez les domaines suivants, **séparés** par une virgule (,) :
 
    - noammeetings.lync.com
 
@@ -91,7 +91,7 @@ Pour **configurer** des domaines autorisés, utilisez l’une des méthodes suiv
 
 ## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Étape 2 : ajouter des domaines, des URL et des adresses IP pour la diffusion de réunion Skype
 
-La deuxième étape du processus de configuration consiste à ajouter les domaines nécessaires, puis à ajouter les adresses IP et LES URL requises pour que la diffusion de réunion Skype fonctionne.
+La deuxième étape du processus de configuration consiste à ajouter les domaines nécessaires, puis à ajouter les adresses IP et URL requises pour que la diffusion de réunion Skype fonctionne.
 
 - **Ajoutez les URL de** point de terminaison et les adresses IP Skype Entreprise Online requises en voyant ceux requis [ici.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 

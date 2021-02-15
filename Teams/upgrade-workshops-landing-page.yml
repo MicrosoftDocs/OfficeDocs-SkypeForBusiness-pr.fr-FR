@@ -38,7 +38,7 @@ productDirectory:
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
   - title: Implémenter la mise à niveau de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Rejoignez-nous pour identifier et préparer l’application de la meilleure approche technique pour déplacer toutes les charges de travail vers Teams, en fonction de vos objectifs et de votre environnement Skype Entreprise actuel. La plupart des clients qui ont effectué des transitions réussies ont activé Teams en même temps que leur version actuelle de Skype Entreprise Online, de Skype Entreprise Server ou de leur implémentation hybride. Cette session partagera les principales considérations et les ressources précieuses pour vous aider à définir la meilleure stratégie de migration pour votre organisation. Public - Administrateurs informatiques
+    summary: Rejoignez-nous pour identifier et préparer l’application de la meilleure approche technique pour déplacer toutes les charges de travail vers Teams, en fonction de vos objectifs et de votre environnement Skype Entreprise actuel. La plupart des clients ayant effectué des transitions réussies ont activé Teams en même temps que leur version actuelle de Skype Entreprise Online, de Skype Entreprise Server ou de leur implémentation hybride. Cette session partagera les principales considérations et les ressources précieuses pour vous aider à définir la meilleure stratégie de migration pour votre organisation. Public - Administrateurs informatiques
     url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:

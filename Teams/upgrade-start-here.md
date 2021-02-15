@@ -45,7 +45,7 @@ Que vous procédiez à une mise à niveau vers Teams à partir de Skype Entrepri
 
 | Icône | Description |
 | --- | --- |
-|![Symbole d’pas à pas](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Hub de** mise à niveau : Découvrez une vue d’ensemble de toutes les recommandations, formations et ressources nécessaires pour implémenter une mise à niveau réussie de Skype Entreprise vers Teams dans le but de planifier votre mise à niveau de Skype Entreprise vers [Microsoft Teams.](upgrade-skype-teams.yml)|
+|![Symbole de pas à pas](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Hub de** mise à niveau : Découvrez une vue d’ensemble de toutes les recommandations, formations et ressources nécessaires pour implémenter une mise à niveau réussie de Skype Entreprise vers Teams dans le but de planifier la mise à niveau de Skype Entreprise vers [Microsoft Teams.](upgrade-skype-teams.yml)|
 
 Lisez régulièrement les questions fréquemment posées sur la mise à niveau.
 
@@ -61,7 +61,7 @@ Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, 
 
 Oui, Microsoft propose plusieurs options à des fins d’utilisation combinée de Skype Entreprise Online et de Teams. Ces modes de coexistence permettent aux utilisateurs de se familiariser avec Teams, tout en favorisant la mise à niveau vers Teams uniquement. Pour en savoir plus, consultez [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
 
-## <a name="is-phone-system-available-for-teams-users"></a>Le système téléphonique est-il disponible pour les utilisateurs de Teams ?
+## <a name="is-phone-system-available-for-teams-users"></a>Phone System est-il disponible pour les utilisateurs de Teams ?
 
 Oui. Phone System est disponible pour tous les utilisateurs de Teams une fois déplacés en mode TeamsOnly.  En outre, Microsoft fournit des options de connexion au réseau téléphonique public commuté (PSTN) afin que les utilisateurs peuvent passer des appels téléphoniques n’importe où dans le monde. Pour plus d’informations, [voir Connectivité Voix - Système téléphonique et PSTN.](cloud-voice-landing-page.md)
 

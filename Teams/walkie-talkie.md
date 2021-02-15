@@ -35,7 +35,7 @@ Grâce au Talkie-walkie dans Teams, les employés en ligne peuvent désormais co
 
 ### <a name="deploying-walkie-talkie"></a>Déploiement de Talkie-walkie
 
-Actuellement, le Talkie-walkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le Talkie-walkie à la stratégie de configuration d’application qui est affectée aux utilisateurs à partir du Centre [](teams-app-setup-policies.md)   d’administration [Teams.](https://admin.teams.microsoft.com/)
+Actuellement, le Talkie-walkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le Talkie-walkie à la stratégie de configuration d’application qui est affectée aux utilisateurs à partir du Centre d’administration [](teams-app-setup-policies.md)   [Teams.](https://admin.teams.microsoft.com/)
 
 Une fois activée, le Talkie-walkie sera disponible sur l’application Android dans les 48 heures.
 
@@ -65,11 +65,11 @@ Le Talkie-walkie dans Teams requiert une connectivité Internet. En dessous des 
 
 Comme indiqué ci-dessus, la qualité des médias en temps réel sur un réseau IP est largement impactée par la qualité de la connectivité du réseau, mais surtout par la quantité de :
 
-- **Latence** - Il s’agit du temps que prend l’accès d’un paquet IP d’un point A à un point B sur le réseau. Ce retard de propagation sur le réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, notamment à la surcharge des divers routeurs entre les deux. La latence se mesure en durée de l’aller-retour (Round-trip Time, RTT).
+- **Latence** - Il s’agit du temps que prend l’accès d’un paquet IP d’un point A à un point B sur le réseau. Ce retard de propagation sur le réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, ce qui comprend une surcharge des divers routeurs entre les deux. La latence se mesure en durée de l’aller-retour (Round-trip Time, RTT).
 - **Perte de paquets** - Souvent définie comme le pourcentage de paquets perdus dans une période donnée. La perte de paquets affecte directement la qualité audio, de petits paquets individuels perdus, pratiquement sans impact, aux pertes en rafale dos-à-dos à l’origine de coupures audio complètes.
 - **Gigue** - Il s’agit de la variation moyenne de délai entre les paquets successifs.
 
-L’utilisation attendue des données de Talkie-walkie est d’environ 20 Kbits/s lors de l’envoi ou de la réception de fichiers audio. Lorsqu’elles sont inactives, l’utilisation attendue des données de Talkie-walkie est en veille.
+L’utilisation attendue des données de Talkie-walkie est d’environ 20 Kbits/s lors de l’envoi ou de la réception d’audio. Lorsqu’elles sont inactives, l’utilisation attendue des données de Talkie-walkie est en veille.
 
 ### <a name="walkie-talkie-devices"></a>Talkie-walkie
 

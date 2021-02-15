@@ -63,7 +63,7 @@ Teams permet aux organisateurs de créer un événement avec les autorisations d
 ![l’écran Nouveaux événements en direct](../media/teams-live-events-schedule.png "Capture d’écran montrant l’écran Nouvel événement en direct pour créer et programmer un nouvel événement en direct")
 
 > [!IMPORTANT]
-> Teams ne permet pas aux utilisateurs de planifier des réunions ou des événements en direct lorsqu’ils sont hors connexion ou en cours d’exécution avec une bande passante limitée.
+> Teams ne permet pas aux utilisateurs de planifier de réunions ou d’événements en direct lorsqu’ils sont hors connexion ou qu’ils utilisent une bande passante limitée.
 
 ### <a name="production"></a>Production
 

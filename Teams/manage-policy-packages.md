@@ -76,7 +76,7 @@ Teams inclut actuellement les packages de stratégie suivants.
 > [!NOTE]
 > Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Vérifiez donc à nouveau si vous avez besoin des informations les plus à jour.  
 
-Le nom du package de stratégies est donné à chaque stratégie individuelle, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
+Chaque stratégie individuelle est associée au nom du package de stratégies, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
 
 ![Capture d’écran du package de stratégie Éducation (enseignant)](media/policy-packages-education_teacher.png)
@@ -165,7 +165,7 @@ Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des u
 
 Cela peut se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées correctement. Réattribuez le package de stratégie à vos utilisateurs. Une nouvelle tentative d’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
 

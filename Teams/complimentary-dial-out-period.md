@@ -54,14 +54,14 @@ Les utilisateurs avec un emplacement d’utilisation des licences (l’emplaceme
 
 - Tous les appels supérieurs à 103 500 minutes par mois calendaire sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination. (Remarque : le client doit configurer les crédits de communication et affecter la licence Crédits de communication à l’organisateur de la réunion).
 
-- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication à nos tarifs publiés vers cette destination (à condition que le client ait installé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
+- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination (à condition que le client ait installé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
 
 > [!NOTE]
 > Vous pouvez surveiller l’utilisation du pool de minutes d’appels sortants dans le Centre d’administration Skype Entreprise. Dans le Centre d'& Skype de Microsoft Teams, allez aux pools de minutes  >    >  **PSTN** Rapports du portail hérité. Ce pool de minutes complémentaire sera étiqueté dans le rapport comme « Appels sortants vers les pays et régions de la zone A ».
 
 Les notifications par courrier électronique seront envoyées à tous les administrateurs client d’un client donné lorsque l’utilisation du pool de minutes d’appels sortants du client atteint les 80 % et 100 %.
 
-Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays ou la région de l’organisateur ou du participant à l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé avec le même tarif si un participant à la réunion est lancé par un participant à la réunion aux États-Unis ou en France.
+Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays ou la région de l’organisateur ou du participant à l’origine de l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé avec le même tarif si un participant à la réunion est lancé par un participant à la réunion aux États-Unis ou en France.
 
 Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)
      

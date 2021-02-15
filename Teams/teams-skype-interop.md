@@ -26,7 +26,7 @@ Cet article vous donne une vue d’ensemble des fonctionnalités d’interopéra
 
 Les utilisateurs de Teams dans votre organisation peuvent discuter avec les utilisateurs de Skype et les appeler à l’aide de leur adresse e-mail et inversement.
 
-- Les utilisateurs de Teams peuvent rechercher et démarrer une conversation en tête-à-tête par SMS ou un appel audio/vidéo avec un utilisateur Skype.
+- Les utilisateurs de Teams peuvent rechercher et démarrer une conversation par SMS ou un appel audio/vidéo en tête-à-tête avec un utilisateur Skype.
 - Les utilisateurs de Skype peuvent rechercher et démarrer une conversation par SMS ou un appel audio/vidéo en tête-à-tête avec un utilisateur de Teams.
 
 Ces fonctionnalités sont disponibles sur les clients de bureau, web et mobiles (Android et iOS) pour Teams et Skype. Pour une expérience optimale, nous vous recommandons d’utiliser Skype version 8.58 et ultérieures.
@@ -57,7 +57,7 @@ Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec 
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Un utilisateur de Teams bloque ou débloque un utilisateur Skype
 
-Une fois qu’un utilisateur de Teams accepte ou bloque la demande de conversation initiale d’un utilisateur Skype, il peut choisir de bloquer ou de débloquer cette personne à tout moment. Ils peuvent le faire dans la conversation ou dans leurs paramètres de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
+Une fois qu’un utilisateur de Teams accepte ou bloque la demande de conversation initiale d’un utilisateur Skype, il peut décider de bloquer ou de débloquer cette personne à tout moment. Ils peuvent le faire dans la conversation ou dans leurs paramètres de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
 
 Les utilisateurs Skype bloqués, ainsi que d’autres personnes et les numéros de téléphone commutés (PSTN) qu’un utilisateur de Teams a bloqués, sont répertoriés dans la liste des contacts bloqués de l’utilisateur dans Teams.
 

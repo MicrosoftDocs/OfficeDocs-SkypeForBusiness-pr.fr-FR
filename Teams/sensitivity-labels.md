@@ -32,7 +32,7 @@ Les étiquettes de sensibilité ne sont actuellement pas pris en compte pour les
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Quelle est la différence entre les étiquettes de sensibilité et les étiquettes de classification Teams ?
 
-Les étiquettes de sensibilité sont différentes des étiquettes de classification, également appelées classification de groupe Azure AD. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui n’ont aucune stratégie réelle associée. Les étiquettes de classification sont des métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et scripts internes, pour appliquer des stratégies.
+Les étiquettes de sensibilité sont différentes des étiquettes de classification, également appelées classification de groupe Azure AD. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui ne sont associées à aucune stratégie réelle. Vous utilisez des étiquettes de classification comme métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et scripts internes, pour appliquer des stratégies.
 
 L’utilisation d’étiquettes de confidentialité permet d’appliquer automatiquement leurs stratégies de bout en bout via une combinaison de la plateforme Microsoft 365 Groups, du centre de conformité et des services Teams. Les étiquettes de confidentialité fournissent une prise en charge puissante de l’infrastructure pour sécuriser les données sensibles de votre organisation et assurer le respect de vos politiques ou réglementations internes.
 
@@ -49,17 +49,17 @@ Exemples de scénarios d’utilisation d’étiquettes de sensibilité avec Team
 
 Vous pouvez créer et configurer une étiquette de confidentialité qui, lorsqu’elle est appliquée lors de la création de l’équipe, permet aux utilisateurs de créer des équipes avec un paramètre de confidentialité spécifique (public ou privé).
 
-Par exemple, vous créez et publiez une étiquette de confidentialité nommée « Confidentiel » qui a l’option de confidentialité de l’étiquette configurée comme **Privée.** Par conséquent, toute équipe créée avec cette étiquette doit être privée. 
+Par exemple, vous créez et publiez une étiquette de confidentialité nommée « Confidentiel » dont l’option de confidentialité est configurée comme **Privée.** Par conséquent, toute équipe créée avec cette étiquette doit être privée. 
 
 Lorsqu’un utilisateur crée une équipe  et sélectionne l’étiquette Confidentiel, la seule option de confidentialité disponible pour l’utilisateur est **Privé.** D’autres options de confidentialité, telles que Publique et À l’échelle de l’organisation, ne peuvent pas être sélectionnées par l’utilisateur :
 
 ![Capture d’écran de l’étiquette confidentiel](media/sensitivity-labels-confidential-example.png)
 
-De même, vous créez et publiez une étiquette de confidentialité nommée « Général » dont l’option de confidentialité de l’étiquette est configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
+De même, vous créez et publiez une étiquette de confidentialité nommée « Général » qui a l’option de confidentialité de l’étiquette configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
 
 ![Capture d’écran de l’étiquette de sensibilité Général](media/sensitivity-labels-general-example.png)
 
-Lors de la création d’une équipe, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe.
+Lorsqu’une équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe.
 
 ![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe](media/sensitivity-labels-channel.png)
 

@@ -13,7 +13,7 @@ search.appverid: MET150
 f1.keywords: ''
 ms.custom: ''
 ms.reviewer: ''
-description: Feuille de route vers des articles sur la gestion et la surveillance de Teams.
+description: Feuille de route vers des articles sur la gestion et le contrôle de Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
@@ -35,7 +35,7 @@ Cet article fournit une feuille de route pour le contenu dont vous aurez besoin 
 
 - [Gérez Teams pendant la transition vers le nouveau Centre d’administration.](manage-teams-skypeforbusiness-admin-center.md) Lisez cet article pour comprendre comment passer du Centre d’administration Skype Entreprise au nouveau Centre d’administration Teams. 
 
-- [Gérer les paramètres De Teams pour votre organisation.](enable-features-office-365.md) Lisez cet article pour comprendre comment gérer les paramètres de Teams pour l’accès invité et externe, les notifications, l’intégration de la messagerie électronique et les appareils.  
+- [Gérer les paramètres de Teams pour votre organisation.](enable-features-office-365.md) Lisez cet article pour comprendre comment gérer les paramètres de Teams pour l’accès invité et externe, les notifications, l’intégration de la messagerie électronique et les appareils.  
 
 - [Communiquer avec des utilisateurs d’autres organisations.](communicate-with-users-from-other-organizations.md) Lisez cet article pour comprendre les différences entre l’accès invité et l’accès externe et les fonctionnalités disponibles avec les deux. Les articles supplémentaires de cette section décrivent la gestion de l’accès invité et externe.
 
@@ -47,7 +47,7 @@ Cet article fournit une feuille de route pour le contenu dont vous aurez besoin 
 
 - [Exploitez votre service](teams-analytics-and-reports/teams-reporting-reference.md) et [améliorez-le.](upgrade-enhance-my-service.md) Consultez les articles suivants pour obtenir des instructions et des feuilles de route sur l’exploitation et l’amélioration de votre service Teams.
 
-Certaines rubriques de gestion demeurent sous les sections de charge de travail pertinentes. Pour plus d’informations, consultez les articles de présentation pour les articles suivants :
+Certains sujets de gestion demeurent sous les sections de charge de travail pertinentes. Pour plus d’informations, consultez les articles de présentation pour les articles suivants :
 
 - [Conversation, équipes, canaux](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Réunions et audioconférences](deploy-meetings-microsoft-teams-landing-page.md)
@@ -55,5 +55,5 @@ Certaines rubriques de gestion demeurent sous les sections de charge de travail 
 - [Applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md)
 
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 

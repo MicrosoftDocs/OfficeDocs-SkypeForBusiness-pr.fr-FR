@@ -43,7 +43,7 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
 2. Dans le groupe de navigation de gauche, allez **sur Numéros** de  >  **téléphone vocal.**
 
     > [!IMPORTANT]
-    > Pour que vous voyez l’option Voix dans le navigation gauche du Centre d’administration Skype  Entreprise, vous devez d’abord acheter au moins une licence **Entreprise E5,** une licence de module logiciel phone system ou une licence de module de conférence audio.  
+    > Pour que vous voyez l’option Voix dans le panneau de navigation gauche du Centre d’administration Skype Entreprise, vous  devez d’abord acheter au moins une licence **Entreprise E5,** une licence de module logiciel phone system ou une licence de module de conférence audio.  
 
 3. Pour afficher les numéros de téléphone affectés, consultez la **colonne** État.
 
@@ -82,7 +82,7 @@ Lors de la configuration des utilisateurs, vous souhaitez peut-être simplement 
 
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Pour afficher les numéros de téléphone affectés aux utilisateurs Voix
 
-Lorsque vous configurez des utilisateurs de votre organisation pour passer et recevoir des appels, vous devez d'abord obtenir les numéros de téléphone, puis les affecter aux utilisateurs. Une fois que vous avez obtenu vos numéros de téléphone, vous voudrez peut-être simplement voir l’état d’activation des affectations de numéro.
+Lorsque vous configurez des utilisateurs de votre organisation pour passer et recevoir des appels, vous devez d'abord obtenir les numéros de téléphone, puis les affecter aux utilisateurs. Une fois que vous avez obtenu vos numéros de téléphone, vous voudrez peut-être simplement voir l’état d’activation des attributions de numéros.
 
 ![Icône montrant le logo Teams ](media/teams-logo-30x30.png) **à l’aide du Centre d’administration Microsoft Teams** !
   

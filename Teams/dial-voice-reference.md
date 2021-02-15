@@ -21,7 +21,7 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale des files d’attente dans Teams.
+description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale et de la file d’attente des appels dans Teams.
 ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
 ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
@@ -35,13 +35,13 @@ La numérotation par nom est une fonctionnalité d’un service de service autom
 
 ## <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à **l’aide** de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
+Les utilisateurs que vous souhaitez avoir localisés et atteints à **l’aide** de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
 
 La numérotation par poste est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à  **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par poste dans un attendant automatique.
 
 ### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
+Le nombre d’utilisateurs Active Directory dial by name and Dial by Extension peut être prise en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille maximale d’une liste de noms prise en charge par un seul employé de la fonction de reconnaissance vocale est de 80 000 utilisateurs.
   
 |Type d'entrée|Format de recherche|Nombre maximal d'utilisateurs dans une organisation|
 |:-----|:-----|:-----|
@@ -115,7 +115,7 @@ Les langues suivantes sont disponibles pour la reconnaissance vocale utilisée a
 |Anglais (CA)  |Italien (IT) |Espagnol (MX)|
 |Anglais (IN)  |Japonais (JP) |Suédois (SV)|
 
-L’entrée de reconnaissance vocale pour les attendants automatiques est disponible dans les langues suivantes :
+Les entrées de reconnaissance vocale pour les attendants automatiques sont disponibles dans les langues suivantes :
   
 |-|-|
 |:-----|:-----|
@@ -147,7 +147,7 @@ Les commandes vocales suivantes sont disponibles dans les 14 langues prise en ch
 |Huit |Appuyez sur 8.|
 |Neuf  |Appuyez sur 9.|
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

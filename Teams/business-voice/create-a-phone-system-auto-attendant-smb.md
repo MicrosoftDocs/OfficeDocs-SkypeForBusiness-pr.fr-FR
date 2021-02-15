@@ -46,7 +46,7 @@ Si vous souhaitez utiliser un itinéraire des appels [](../set-up-holidays-in-te
 
 # <a name="step-1brphone-number"></a>[Étape 1 <br> Numéro de téléphone](#tab/phone-number)
 
-Chaque employé automatique que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis attribuer un numéro de service.
+Chaque employé automatique que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un moyen de service automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis attribuer un numéro de service.
 
 ### <a name="create-a-resource-account"></a>Créer un compte de ressource
 
@@ -122,13 +122,13 @@ Pour configurer un attendant automatique
 
 Choisir vos options de flux d’appels
 
-1. Choisissez si vous voulez lire un message d’accueil lorsque le attendant automatique répond à un appel.
+1. Choisissez si vous souhaitez lire un message d’accueil lorsque le attendant automatique répond à un appel.
 
     Si vous **sélectionnez Lire un fichier audio,** vous pouvez utiliser le bouton Télécharger un fichier pour télécharger un message d’accueil enregistré en tant qu’audio dans .  WAV, . MP3 ou . Format WMA. L’enregistrement ne peut pas avoir une taille supérieure à 5 Mo.
 
     Si vous sélectionnez Taper un **message** de salutation, le système lit le texte que vous tapez (jusqu’à 1 000 caractères) lorsque le attendant automatique répond à un appel.
 
-    ![Capture d’écran des paramètres de message d’accueil](../media/auto-attendant-call-flow-greeting-message.png)
+    ![Capture d’écran des paramètres du message d’accueil](../media/auto-attendant-call-flow-greeting-message.png)
 
 2. Choisissez la façon dont vous voulez router l’appel.
 
@@ -145,7 +145,7 @@ Choisir vos options de flux d’appels
     Vous pouvez définir n’importe quelle touche de numérotation sur les destinations suivantes :
 
     - **Une personne de l’organisation,** une personne de votre organisation qui peut recevoir des appels vocux.
-    - **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels.
+    - **Application vocale :** un autre attendant automatique ou une file d’attente d’appels.
     - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. Utilisez ce format : +[code pays][code de zone][numéro de téléphone]
     - **Messagerie vocale** : boîte vocale associée à un groupe Microsoft 365 que vous spécifiez.
     - **Opérateur** (opérateur défini pour le transport automatique). La définition d’un opérateur est facultative. L’opérateur peut être défini comme n’importe quelle autre destination dans cette liste.
@@ -158,7 +158,7 @@ Choisir vos options de flux d’appels
 
     - **Commande vocale** : définit la commande vocale qu’un appelant peut lui donner pour accéder à cette option, si les entrées vocales sont activées. Il peut contenir plusieurs mots tels que « Service clientèle » ou « Activités et activités ». 
 
-    - **Redirigez** vers l’endroit où vous souhaitez que l’appel soit reçu lorsque les appelants choisissent cette option. Si vous redirigez vers un service de service automatique ou une file d’attente d’appels, sélectionnez le compte de ressource qui lui est associé.
+    - **Rediriger** vers l’endroit où vous souhaitez que l’appel soit reçu lorsque les appelants choisissent cette option. Si vous redirigez vers un service de service automatique ou une file d’attente d’appels, sélectionnez le compte de ressource qui lui est associé.
 
     ![Capture d’écran des options de touches de numérotation](../media/auto-attendant-call-flow-menu-options-complete.png)
 
@@ -173,11 +173,11 @@ Choisir vos options de flux d’appels
 
 # <a name="step-4brafter-hours"></a>[Étape 4 Après <br> les heures de travail](#tab/after-hours)
 
-Les heures d’ouverture peuvent être définies pour chaque employé de service automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
+Les heures d’ouverture peuvent être définies pour chaque attendant automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
 
 Selon la configuration de vos files d’attente automatiques et de vos files d’attente, il se peut que vous devrez uniquement spécifier le routage des appels en de après-heures pour les travailleurs automatiques avec des numéros de téléphone directs.
 
-Si vous souhaitez un routage d’appel distinct pour les appelants en de suite, spécifiez vos heures d’ouverture pour chaque jour. Cliquez **sur Ajouter un nouvel** horaire pour spécifier plusieurs ensembles d’heures pour une journée donnée, par exemple, pour spécifier une pause déjeuner.
+Si vous souhaitez un routage d’appel distinct pour les appelants en de suite, spécifiez vos heures d’ouverture pour chaque jour. Cliquez **sur Ajouter un nouvel horaire** pour spécifier plusieurs ensembles d’heures pour un jour donné, par exemple, pour spécifier une pause déjeuner.
 
 ![Capture d’écran des paramètres de jour et d’heure de fin](../media/auto-attendant-business-hours.png)
 
@@ -241,7 +241,7 @@ Lorsque vous avez terminé de définir la portée de la numérotation, cliquez s
 
 # <a name="step-7brresource-accounts"></a>[Étape 7 <br> : comptes de ressources](#tab/resource-accounts)
 
-Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un service automatique, chacun avec un numéro de service distinct.
+Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un fournisseur de services automatique, chacun avec un numéro de service distinct.
 
 Pour ajouter un compte de ressource
 

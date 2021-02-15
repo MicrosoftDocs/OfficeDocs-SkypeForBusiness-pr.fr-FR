@@ -50,12 +50,12 @@ Consultez les règles que le CQD utilise pour la [classification des flux.](stre
  
 Pour les flux audio, les 5 classificateurs, qui sont calculés pour la moyenne en fonction de la durée de l’appel, peuvent tous être dans des paramètres de « bon ». Cela ne signifie pas que les utilisateurs n’ont pas participé à un problème audio, statique ou statique. 
 
-Pour déterminer s’il s’agit d’un problème de réseau, regardez le delta entre les valeurs moyennes de la session et les valeurs maximales. Les valeurs maximales sont les valeurs maximales détectées et signalées pendant la session.
+Pour déterminer s’il s’agit d’un problème réseau, regardez le delta entre les valeurs moyennes de la session et les valeurs maximales. Les valeurs maximales sont les valeurs maximales détectées et signalées pendant la session.
  
 Voici un exemple de la façon de résoudre ce problème. Supposons que vous prenez une trace réseau pendant un appel et que les 20 premières minutes ne perdent pas de paquets, mais qu’il y a un intervalle de 1,5 secondes de paquets, puis êtes bon pour le reste de l’appel. La moyenne sera d'<10 % (0,1) perte de paquets, même dans une analyse RTP de trace Wireshark. Qu’est-ce que la perte de paquets maximale ? 1,5 secondes dans une période de 5 secondes serait 30 % (0,3). Cela s’est-il produit au cours de la cinq deuxième période d’échantillonnage (peut-être ou a-t-il pu être fractionner au cours de la période d’échantillonnage) ?
  
 Si les mesures réseau semblent bonnes dans les moyennes et les valeurs max, regardez d’autres données de télémétrie : 
-- Vérifiez le rapport entre les événements de l’UC insuffisant pour voir si les ressources de l’UC disponibles étaient insuffisantes et causaient une mauvaise qualité. 
+- Vérifiez le taux d’événements insuffisant pour voir si les ressources de l’UC disponibles détectées étaient insuffisantes et causaient une mauvaise qualité. 
 - Le périphérique audio était-il en mode semi-recto verso pour empêcher les commentaires en raison de microphones qui se rapprochent des haut-parleurs ? 
 - Vérifiez le ratio événement AEC semi-recto verso de l’appareil. L’appareil a-t-il été en panne ou le micro a-t-il introduit un bruit ou un problème statique suite à des sorties audio USB lorsqu’il est branché à un hub ou à une station d’accueil ?  
 - Vérifiez les proportions des événements des problèmes de périphérique et de micro. L’appareil fonctionnait-il correctement ?  
@@ -68,9 +68,9 @@ Pour les bruits de fond, vérifiez le son des événements pour voir le temps pe
  
 Créez des rapports détaillés dans le DQD et filtrez sur l’ID de réunion pour examiner tous les utilisateurs et flux d’une réunion et ajouter les champs qui vous intéressent. Il est possible qu’un utilisateur signalant le problème ne soit pas celui qui en était à l’état. Ils ne font que signaler l’expérience.
  
-La télémétrie n’appelle pas nécessairement le problème, mais vous permet de mieux comprendre où chercher et informer vos décisions. S’agit-il de mises à jour réseau, appareil, pilote ou microprogramme, utilisation ou utilisateur ?
+La télémétrie n’appelle pas nécessairement le problème, mais vous permet de mieux comprendre où chercher et informer vos décisions. S’agit-il de mises à jour de réseau, d’appareil, de pilote ou de microprogramme, d’utilisation ou d’utilisateur ?
 
-### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Pourquoi la différence entre les valeurs des appels et du nombre d’utilisateurs sur les mesures est-elle de 0,2 % et comment obtenir les volumes les plus précis ? 
+### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Pourquoi est-ce que je vois jusqu’à 0,2 % de différences entre les valeurs des appels et du nombre d’utilisateurs sur les mesures et comment obtenir les volumes les plus précis ? 
 Pour calculer le nombre d’appels et les mesures du nombre d’utilisateurs, une opération de comptage distincte est effectuée par rapport à l’appel ou aux identificateurs d’utilisateur dans la série de données. Sur les jeux de données de grande taille, il existe une erreur de 0,2 % intrinsèque à l’opération de comptage distincte. Pour obtenir le volume le plus précis, vous devez vous fier aux mesures de décompte de flux, car elles ne s’appuient pas sur cette opération de comptage distincte. Le filtrage pour réduire le volume des données peut réduire l’erreur, mais n’élimine pas cette source d’erreur dans des appels et des nombres d’utilisateurs distincts. [Reportez-vous aux dimensions et mesures disponibles dans le tableau de](dimensions-and-measures-available-in-call-quality-dashboard.md) bord de qualité des appels pour lesquelles les mesures sont impactées.
 
 
@@ -81,7 +81,7 @@ Pour calculer le nombre d’appels et les mesures du nombre d’utilisateurs, un
 > À compter du 1er juillet 2020, l’ancien DQD (CQD.lync.com) utilise les données du dernier DQD. Teams.microsoft.com). Les anciennes données du CQD ne sont plus disponibles et vous ne pouvez plus exporter vos données de bâtiments ou de rapports. Vous pouvez toujours utiliser CQD.lync.com (disponible dans le Centre d’administration Skype Entreprise), mais nous désactiverons bientôt l’accès à CQD.lync.com. Vous devez donc accéder au CQD. Teams.microsoft.com si vous ne l’avez pas déjà fait.
 
 
-Si vous essayez de comparer les données entre l’ancien CQD à partir du portail hérité de Skype Entreprise (cqd.lync.com) et le dernier DQD du Centre d’administration Teams (cqd.teams.microsoft.com), vous remarquerez rapidement que les données ne correspondent pas. En raison des rapports les plus récents du CQD sur de nombreux scénarios d’appel supplémentaires. Si vous utilisez toujours des rapports de l’ancien tableau de bord de qualité des appels, utilisez cet article pour vous aider à interpréter ces rapports : Tableau de bord de qualité des appels [pour Skype Entreprise Server.](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)
+Si vous essayez de comparer les données entre l’ancien CQD à partir du portail hérité de Skype Entreprise (cqd.lync.com) et le dernier DQD du Centre d’administration Teams (cqd.teams.microsoft.com), vous remarquerez rapidement que les données ne correspondent pas. La raison en est que les rapports les plus récents du CQD sur de nombreux scénarios d’appel supplémentaires. Si vous utilisez toujours des rapports de l’ancien tableau de bord de qualité des appels, utilisez cet article pour vous aider à interpréter ces rapports : Tableau de bord de qualité des appels [pour Skype Entreprise Server.](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)
 
 
   
@@ -99,17 +99,17 @@ Lorsque vous filtrez Teams uniquement dans les rapports du CQD (isTeams = 1), vo
 
 Les totaux des groupes CQDv2 et CQDv3 seront toujours différents, car ils auront de nouveaux scénarios que le CQDv2 n’aura pas. C’est pourquoi la comparaison de total de synthèse ou de nombres complets agrégés sans filtres aura ces différences attendues.  
 
-Selon le scénario de clients, le CQDv3 inclut les appels locaux SFB 2019 (si SFB 2019 est utilisé avec un connecteur de données), les appels de bot Skype (AA, CVI, VDI), les événements en direct et les appels RXT. Scénarios/Fonctionnalités disponibles pour les clients, mais leurs données ne sont pas accessibles dans le CQD V2.
+Selon le scénario de la clientèle, le CQDv3 inclut les appels locaux SFB 2019 (si SFB 2019 est utilisé avec un connecteur de données), les appels de bot Skype (AA, CVI, VDI), les événements en direct et les appels PSTN. Scénarios/Fonctionnalités disponibles pour les clients, mais leurs données ne sont pas accessibles dans le CQD V2.
 
-Par exemple, vos clients et vous verrez 200 000 flux audio, avec 5 000 échecs dans le rapport de synthèse du tableau de qualité des documents V2. par rapport à 300 000 flux audio avec 5 500 échecs (provenant d’appels locaux 2019, appels CVI, appels R MARCHÉ, etc.) dans le CQD V3.
+Par exemple, vos clients et vous verrez 200 000 flux audio, avec 5 000 échecs dans le rapport de synthèse de qualité des fichiers V2. par rapport à 300 000 flux audio avec 5 500 échecs (provenant d’appels locaux 2019, appels CVI, appels R MARCHÉ, etc.) dans le CQD V3.
 
-Pour déterminer s’il existe des différences inattendues, vous devez examiner les différentes répartitions des données globales.  Comparer avec l’objectif.  La catégorie de l’agent utilisateur est l’une des premières recommandations.  *First Product* et *Second Product* sont également de bons slicers.  
+Pour déterminer s’il existe des différences inattendues, vous devez examiner différentes répartitions des données globales.  Comparer avec l’objectif.  La catégorie de l’agent utilisateur est l’une des premières recommandations.  *First Product* et *Second Product* sont également de bons slicers.  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Pourquoi mes rapports personnalisés ne retournent-ils qu’un maximum de 10 000 lignes alors que je sais qu’il devrait y avoir davantage d’entrées ?
 
 Le CQD est conçu pour les requêtes de données résumées et n’est pas conçu pour l’exportation de données. Nous vous recommandons de rendre vos rapports plus rapidement possible afin d’éviter le dépassement de la limite de 10 000 lignes. Commencez par regarder vos KPIs à l’aide de dimensions plus larges et de cardinalité inférieure, telles que Mois, Année, Date, Région, Pays, etc. À partir de là, vous pouvez descendre dans les dimensions de plus en plus grande cardinalité. Les rapports d’aide et de Location-Enhanced fournissent de bons exemples de ce flux de travail d’drill down.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 

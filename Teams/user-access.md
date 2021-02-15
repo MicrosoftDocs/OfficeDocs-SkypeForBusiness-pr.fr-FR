@@ -28,7 +28,7 @@ ms.locfileid: "49871013"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
-Vous gérez l’accès à Teams au niveau de l’utilisateur en attribuant ou en supprimant une licence de produit Microsoft Teams. Sauf pour rejoindre des réunions Teams de manière anonyme, chaque utilisateur de votre organisation doit avoir une licence Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams pour les nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou pour les utilisateurs ayant des comptes existants.
+Vous gérez l’accès à Teams au niveau de l’utilisateur en attribuant ou en supprimant une licence de produit Microsoft Teams. À l’exception de participer à des réunions Teams de manière anonyme, chaque utilisateur de votre organisation doit avoir une licence Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams pour les nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou pour les utilisateurs ayant des comptes existants.
 
 Par défaut, lorsqu’un plan de gestion des licences (par exemple, Microsoft 365 Entreprise E3 ou Microsoft 365 Business Premium) est attribué à un utilisateur, une licence Teams est attribuée automatiquement et l’utilisateur est activé pour Teams. Vous pouvez désactiver ou activer Teams pour un utilisateur en supprimant ou en attribuant une licence à tout moment.
 
@@ -46,7 +46,7 @@ Les licences utilisateur Teams sont gérées directement via les interfaces de g
 > L’administrateur doit avoir des privilèges d’administrateur général ou d’administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
 Le Centre d’administration Microsoft 365 permet de gérer les licences Teams pour des utilisateurs individuels ou des groupes d’utilisateurs de petite taille à la fois. Vous pouvez gérer les licences Teams sur la page **Licences** (jusqu’à 20 utilisateurs à la **fois)** ou la page Utilisateurs actifs. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
 
-Si vous devez gérer les licences Teams pour un grand nombre d’utilisateurs(par exemple, des centaines ou des milliers d’utilisateurs), utilisez [PowerShell](#using-powershell) ou des licences basées sur des groupes dans [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 
+Si vous devez gérer les licences Teams pour un grand nombre d’utilisateurs (par exemple, des centaines ou des milliers d’utilisateurs), utilisez [PowerShell](#using-powershell) ou des licences basées sur des groupes dans [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 
 
 ### <a name="assign-a-teams-license"></a>Attribuer une licence Teams
 
@@ -66,7 +66,7 @@ Lorsque vous supprimez la licence Teams d’un utilisateur, Teams est désactiv�
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez PowerShell pour gérer les licences Teams pour les utilisateurs en bloc. Vous activez et désactivez Teams via PowerShell de la même façon que pour toute autre licence de plan de service. Vous aurez besoin des identificateurs des plans de service teams, qui sont les suivants :
+Utilisez PowerShell pour gérer les licences Teams pour les utilisateurs en bloc. Vous activez et désactivez Teams via PowerShell de la même façon que pour toute autre licence de plan de service. Vous aurez besoin des identificateurs pour les plans de service pour Teams, qui sont les suivants :
 
 - Microsoft Teams : TEAMS1
 - Microsoft Teams pour le GCC : TEAMS_GOV
@@ -85,7 +85,7 @@ Pour obtenir la procédure détaillée, voir Désactiver l’accès aux services
 Voici un exemple d’utilisation des [cmdlets New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) et [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) pour désactiver Teams pour les utilisateurs qui ont un plan de licence spécifique. Par exemple, suivez ces étapes pour désactiver d’abord Teams pour tous les utilisateurs qui ont un plan de gestion des licences particulier. Activez ensuite Teams pour chaque utilisateur individuel qui doit avoir accès à Teams.
 
 > [!IMPORTANT]
-> La [cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) active tous les services précédemment désactivés à moins d’être explicitement identifiés dans votre script personnalisé. Par exemple, si vous voulez laisser Exchange et Sway désactivés tout en désactivant Teams, vous devez l’inclure dans le script, sinon Exchange et Sway seront activés pour les utilisateurs que vous avez identifiés.
+> La [cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) active tous les services précédemment désactivés, sauf s’ils sont explicitement identifiés dans votre script personnalisé. Par exemple, si vous voulez laisser Exchange et Sway désactivés tout en désactivant Teams, vous devez l’inclure dans le script, sinon Exchange et Sway seront activés pour les utilisateurs que vous avez identifiés.
 
 Exécutez la commande suivante pour afficher tous les plans de licence disponibles dans votre organisation. Pour en savoir plus, [consultez Afficher les licences et services avec PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 
@@ -109,7 +109,7 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Licences de module ajouté Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licences de module add-on Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Attribuer des licences de modules add-on Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 - [Afficher les licences et services avec PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Noms de produits et identificateurs de plans de service pour la gestion des licences](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

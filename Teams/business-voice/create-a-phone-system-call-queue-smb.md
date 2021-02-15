@@ -31,7 +31,7 @@ ms.locfileid: "49909615"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Créer une file d’attente d’appels - Didacticiel pour les petites entreprises
 
-Les files d’attente offrent une méthode de routage des appelants vers les personnes de votre organisation qui peuvent vous aider à répondre à un problème ou une question spécifique. Les appels sont distribués un par un aux personnes dans la file d’attente (appelées *agents).* 
+Les files d’attente permettent de router les appelants vers des personnes de votre organisation qui peuvent vous aider à répondre à un problème ou une question spécifique. Les appels sont distribués un par un aux personnes dans la file d’attente (appelées *agents).* 
 
 Les files d’attente fournissent les services :
 
@@ -45,7 +45,7 @@ Les files d’attente fournissent les services :
 
 #### <a name="before-you-begin"></a>Avant de commencer
 
-Obtenir un [système téléphonique : des licences utilisateur virtuel si](../teams-add-on-licensing/virtual-user.md) vous ne les avez pas encore. Obtenez une file d’attente pour chaque file d’attente d’appels et chaque traitement automatique que vous prévoyez de configurer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
+Système [téléphonique : licences utilisateur virtuel si](../teams-add-on-licensing/virtual-user.md) vous ne les avez pas encore. Obtenez une file d’attente pour chaque file d’attente d’appels et chaque personne de service automatique que vous prévoyez de configurer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
 
 Étant donné que des agents dans une file d’attente d’appels peuvent appeler pour renvoyer un appel client, envisagez de définir l’ID d’appelant de vos agents d’appel sur votre numéro de téléphone principal ou le numéro d’un traitement automatique approprié. Pour plus d’informations, voir Gérer les [stratégies d’ID](../caller-id-policies.md) d’appelant dans Microsoft Teams.
 
@@ -63,9 +63,9 @@ Pour créer une équipe
 
 2. Cliquez ensuite **sur Créer une équipe** (première carte, coin supérieur gauche).
 
-3. Sélectionnez **Créer une équipe à partir de zéro.**
+3. Sélectionnez **Créer une équipe de toutes pièces.**
 
-4. Choisissez ensuite si vous souhaitez une équipe publique ou privée. Nous vous recommandons **d’entrer** privé pour votre file d’attente d’appels pour éviter que des personnes ne se retrouvent involontairement dans la file d’attente en rejoignant l’équipe.
+4. Choisissez ensuite si vous souhaitez une équipe publique ou privée. Nous vous recommandons **de mettre votre** file d’attente d’appels privé pour éviter que des personnes ne se retrouvent involontairement dans la file d’attente en rejoignant l’équipe.
 
 5. Nommez votre équipe et ajoutez une description facultative.
 
@@ -80,7 +80,7 @@ Pour créer une équipe
 
 # <a name="step-2brresource-accounts"></a>[Étape 2 <br> : comptes de ressources](#tab/resource-account)
 
-Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un moyen de service automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis l’utiliser pour commencer à créer la file d’attente d’appels.
+Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System (* licence utilisateur virtuel), puis l’utiliser pour commencer à créer la file d’attente d’appels.
 
 ### <a name="create-a-resource-account"></a>Créer un compte de ressource
 
@@ -135,7 +135,7 @@ Nous allons ensuite commencer à créer une file d’attente d’appels et affec
 > La musique par défaut fournie dans les files d’attente d’appels de Teams est gratuite pour toutes les redevances payables par votre organisation. 
 
 > [!div class="nextstepaction"]
-> [Étape 3 : appeler des >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Étape 3 : appeler les agents >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Étape 3 : appeler <br> les agents](#tab/call-agents)
 
@@ -147,7 +147,7 @@ Pour ajouter des agents à la file d’attente d’appels, nous ajouterons l’�
 
     ![Capture d’écran des paramètres d’utilisateurs et de groupes pour les files d’attente d’appels](../media/call-queue-users-groups-smb.png)
 
-Vous pouvez ajouter jusqu’à 20 agents individuellement et jusqu’à 200 agents par groupes ou équipes.
+Vous pouvez ajouter jusqu’à 20 agents individuellement et jusqu’à 200 agents via des groupes ou des équipes.
 
 > [!NOTE]
 > Lorsque de nouveaux utilisateurs sont ajoutés à l’équipe, jusqu’à huit heures peuvent être s’il s’agit de leur premier appel.
@@ -161,7 +161,7 @@ Choisissez la méthode de routage des appels que vous voulez utiliser.
 
 1. Définir **le mode Conférence** sur **Automatique.**
 
-2. Choisissez la **méthode de routage** que vous voulez utiliser. Cela détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Nous vous recommandons **le routage en série** ou **l’arrondi.** Choisissez l’une des options ci-après :
+2. Choisissez la **méthode de routage** que vous voulez utiliser. Cela détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Nous vous recommandons **de router en série** ou de **rais rond.** Choisissez l’une des options ci-après :
 
     - **Le routage d’Attendant** sonne tous les agents dans la file d’attente en même temps. Le premier appelant à prendre l’appel reçoit l’appel.
 

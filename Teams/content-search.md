@@ -60,7 +60,7 @@ Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell e
     ```PowerShell
     Get-SPOSite
     ```
-2. Exécutez le script PowerShell suivant pour obtenir la liste de toutes les URL de collection de sites SharePoint associées aux canaux privés de l’équipe et à l’ID du groupe d’équipe parent.
+2. Exécutez le script PowerShell suivant pour obtenir la liste de toutes les URL de collection de sites SharePoint associées aux canaux privés de l’équipe et à l’ID du groupe parent.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -78,7 +78,7 @@ Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell e
 
 Avant d’effectuer ces étapes, assurez-vous que vous avez installé la dernière version du [module Teams PowerShell.](teams-powershell-overview.md)
 
-1. Exécutez la suivante pour obtenir une liste des canaux privés de l’équipe.
+1. Exécutez la liste suivante pour obtenir la liste des canaux privés de l’équipe.
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
@@ -90,6 +90,6 @@ Avant d’effectuer ces étapes, assurez-vous que vous avez installé la derniè
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans votre requête de recherche de contenu.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Cas de découverte électronique dans le Centre de conformité Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

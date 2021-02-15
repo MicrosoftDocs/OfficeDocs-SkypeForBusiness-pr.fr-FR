@@ -1,5 +1,5 @@
 ---
-title: Effectuer une enquête de découverte électronique sur du contenu
+title: Effectuer une enquête eDiscovery sur du contenu
 author: markjjo
 ms.author: markjjo
 manager: laurawi
@@ -26,9 +26,9 @@ ms.locfileid: "49980458"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
-Les grandes entreprises sont souvent exposées à de importantes procédures légales de demande de soumission de toutes les informations stockées électroniquement (ESI). Le contenu de Microsoft Teams peut être recherché et utilisé pendant les enquêtes de découverte électronique.
+Les grandes entreprises sont souvent exposées à de hautes procédures juridiques qui demandent l’envoi de toutes les informations stockées électroniquement (ESI). Le contenu de Microsoft Teams peut être recherché et utilisé pendant les enquêtes de découverte électronique.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Toutes les conversations microsoft Teams 1:1 ou de groupe sont journalées dans les boîtes aux lettres des utilisateurs respectifs. Tous les messages de canal standard sont journalés dans la boîte aux lettres du groupe représentant l’équipe. Les fichiers téléchargés dans les canaux standard sont couverts par la fonctionnalité eDiscovery pour SharePoint Online et OneDrive Entreprise.
 
@@ -39,7 +39,7 @@ Il n’est pas possible d’eDiscoverable tout le contenu de Teams. Le tableau s
 | Type de contenu | eDiscoverable | Remarques |
 |:--- | :--- |:--- |
 |Enregistrements audio | Non | |
-|Contenu de la carte|Oui|Pour [plus d’informations, voir](#search-for-card-content) Rechercher le contenu de la carte.|
+|Contenu de la carte|Oui|Pour [plus d’informations, voir](#search-for-card-content) Rechercher le contenu d’une carte.|
 |Liens de conversation | Oui | |
 |Messages de conversation | Oui |Cela inclut le contenu dans les canaux Teams, les conversations 1:1, les conversations de groupe 1:N et les conversations avec les participants de l’utilisateur invité.  |
 |Extraits de code | Non | |
@@ -47,7 +47,7 @@ Il n’est pas possible d’eDiscoverable tout le contenu de Teams. Le tableau s
 |Emojis, GIF et autocollants | Oui | |
 |Images en ligne | Oui | |
 |Conversations de réunion par messagerie instantanée | Oui | |
-|Métadonnées<sup>de réunion 1</sup> | Oui |  |
+|Métadonnées de<sup>réunion 1</sup> | Oui |  |
 |Nom du canal | Non | |
 |Messages de canal privé | Oui | |
 |Devis | Oui | Le contenu cité peut faire l’l’objectif d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité. |
@@ -91,7 +91,7 @@ Les conversations privées dans la boîte aux lettres d’un utilisateur sont st
 
 Les enregistrements pour les messages envoyés dans un canal privé sont distribués dans la boîte aux lettres de tous les membres du canal privé, plutôt que dans une boîte aux lettres de groupe. Les titres des enregistrements sont mis en forme de façon à indiquer le canal privé à partir duquel ils ont été envoyés.
 
-Chaque canal privé possède son propre site SharePoint distinct du site d’équipe parent, les fichiers d’un canal privé sont gérés indépendamment de l’équipe parente.
+Chaque canal privé possède son propre site SharePoint distinct du site d’équipe parent, les fichiers dans un canal privé sont gérés indépendamment de l’équipe parente.
 
 Teams ne prend pas en charge la recherche eDiscovery sur un seul canal au sein d’une équipe, aussi toute l’équipe doit-elle être recherché. Pour effectuer une recherche eDiscovery de contenu dans un canal privé, effectuez une recherche dans l’équipe, la collection de sites associée au canal privé (pour inclure les fichiers) et les boîtes aux lettres des membres du canal privé (pour inclure les messages).
 
@@ -142,7 +142,7 @@ Avant d’effectuer ces étapes, assurez-vous que vous avez installé la derniè
 
 ## <a name="search-for-content-for-guest-users"></a>Rechercher du contenu pour les utilisateurs invités
 
-Vous pouvez utiliser les outils eDiscovery pour rechercher du contenu Teams lié aux utilisateurs invités de votre organisation. Le contenu des discussions Teams associé à un utilisateur invité est conservé dans un emplacement de stockage cloud et peut être recherché à l’aide de la découverte électronique. Cela inclut la recherche de contenu dans les conversations de conversation 1:1 et 1:N dans lesquelles un utilisateur invité est participant avec d’autres utilisateurs de votre organisation. Vous pouvez également rechercher des messages de canal privé dans lesquels un utilisateur invité est participant et rechercher du contenu dans les conversations *invité:invité* où les seuls participants sont des utilisateurs invités.
+Vous pouvez utiliser les outils eDiscovery pour rechercher du contenu Teams lié aux utilisateurs invités de votre organisation. Le contenu des discussions Teams associé à un utilisateur invité est conservé dans un emplacement de stockage cloud et peut être recherché à l’aide de la découverte électronique. Cela inclut la recherche de contenu dans les conversations de conversation 1:1 et 1:N dans lesquelles un utilisateur invité est participant avec d’autres utilisateurs de votre organisation. Vous pouvez également rechercher des messages de canal privé dans lesquels un utilisateur invité est participant et rechercher du contenu dans les conversations *invité:invité* où seuls les participants sont des utilisateurs invités.
 
 Pour rechercher du contenu pour les utilisateurs invités :
 
@@ -157,7 +157,7 @@ Pour rechercher du contenu pour les utilisateurs invités :
    > [!TIP]
    > Au lieu d’afficher une liste de noms d’utilisateur principaux sur l’écran d’ordinateur, vous pouvez rediriger la sortie de la commande vers un fichier texte. Pour ce faire, vous pouvez l’appending `> filename.txt` à la commande précédente. Le fichier texte avec les noms d’utilisateur principaux est enregistré dans le dossier actuel.
 
-3. Dans une autre fenêtre Windows PowerShell, connectez-vous au PowerShell du Centre de & sécurité et conformité. Pour obtenir des instructions, [voir Se connecter au Centre de & conformité PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) Vous pouvez vous connecter avec ou sans utiliser l’authentification multifacteur.
+3. Dans une autre fenêtre Windows PowerShell, connectez-vous au PowerShell du Centre de & sécurité et conformité. Pour obtenir des instructions, [voir Se connecter au Centre & conformité PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) Vous pouvez vous connecter avec ou sans utiliser l’authentification multifacteur.
 
 4. Créez une recherche de contenu qui recherche tout le contenu (tels que les messages de conversation et les messages électroniques) dans lequel l’utilisateur invité spécifié était participant en exécutant la commande suivante.
 
@@ -193,7 +193,7 @@ Pour rechercher du contenu pour les utilisateurs invités :
 
 ## <a name="search-for-card-content"></a>Rechercher le contenu d’une carte
 
-Le contenu de la carte généré par les applications dans les canaux Teams, les conversations en tête-à-tête et les conversations 1xN sont stockés dans les boîtes aux lettres et peuvent faire l’effet d’une recherche. Une *carte est* un conteneur d’interface utilisateur pour de courts éléments de contenu. Les cartes peuvent avoir plusieurs propriétés et pièces jointes, et peuvent inclure des boutons qui peuvent déclencher des actions de carte. Pour plus d’informations, voir [Cartes](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Le contenu de carte généré par les applications dans les canaux Teams, les conversations en tête-à-tête et les conversations 1xN sont stockés dans les boîtes aux lettres et peuvent faire l’effet d’une recherche. Une *carte est* un conteneur d’interface utilisateur pour de courts éléments de contenu. Les cartes peuvent avoir plusieurs propriétés et pièces jointes, et peuvent inclure des boutons qui peuvent déclencher des actions de carte. Pour plus d’informations, voir [Cartes](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
 Comme tout autre contenu de Teams, où le contenu de la carte est stocké est basé sur l’endroit où la carte a été utilisée. Le contenu des cartes utilisées dans un canal Teams est stocké dans la boîte aux lettres du groupe Teams. Le contenu des cartes pour les conversations 1:1 et 1xN est stocké dans les boîtes aux lettres des participants à la conversation.
 
@@ -205,12 +205,12 @@ Lorsque vous affichez le contenu d’une carte dans les résultats de la recherc
 
 ![Contenu de la carte dans le message du canal Teams](media/CardContentTeams.png)
 
-**Contenu de la carte dans les résultats de la recherche**
+**Contenu de la carte dans les résultats de recherche**
   
 ![Même contenu de carte dans les résultats d’une recherche de contenu](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un onglet différent au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour image s’affichent.
+> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un onglet différent au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour images s’affichent.
 
 ## <a name="advanced-ediscovery"></a>eDiscovery avancée
 
@@ -218,11 +218,11 @@ Certains contenus Microsoft Teams peuvent également être recherchés et conser
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Flux de travail de flux de travail de découverte électronique avancée pour le contenu de Teams
 
-Les tuteurs peuvent être membres de diverses équipes. Vous pouvez capturer le contenu de Teams qui est pertinent pour ces administrateurs. Pour obtenir des instructions sur le flux de travail de flux de travail de flux de travail, voir Ajouter des administrateurs à un cas de découverte [électronique avancée.](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)
+Les événements peuvent être membres de diverses équipes. Vous pouvez capturer le contenu de Teams pertinent pour ces administrateurs. Pour obtenir des instructions sur le flux de travail de flux de travail de flux de travail, voir Ajouter des administrateurs à un cas de découverte [électronique avancée.](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)
 
-Après avoir ajouté un groupe de travail, cliquez sur **le bouton** Suivant, puis sur **le bouton** Ajouter. Une fenêtre s’affiche pour vous inviter à sélectionner d’autres emplacements, ce qui vous indique tous les membres de l’organisation et les emplacements de site SharePoint correspondants pour leurs données. Dans toutes ces équipes et sources de données, vous pouvez choisir le contenu que vous voulez utiliser pour la découverte électronique, puis mettre cet utilisateur et toutes les sources de données que vous avez identifiées en attente.
+Après avoir ajouté un groupe de travail, cliquez sur **le bouton** Suivant, puis sur **le bouton** Ajouter. Une fenêtre s’affiche pour vous inviter à sélectionner des emplacements supplémentaires, ce qui vous indique tous les membres de l’organisation et les emplacements de site SharePoint correspondants pour leurs données. Dans toutes ces équipes et sources de données, vous pouvez choisir le contenu que vous voulez utiliser pour la découverte électronique, puis mettre cet utilisateur et toutes les sources de données que vous avez identifiées en attente.
 
-Vous pouvez choisir d’inclure le contenu Exchange, le contenu OneDrive ou les deux. Le contenu Exchange inclut tout le contenu de l’application dans les boîtes aux lettres de l’utilisateur, tel que son courrier électronique, le contenu de Teams stocké dans sa boîte aux lettres, etc. Le contenu de OneDrive inclut non seulement le contenu de l’utilisateur, mais également tout le contenu de Teams stocké dans OneDrive, tel que les conversations 1:1, les conversations 1:N et les fichiers partagés dans les conversations.
+Vous pouvez choisir d’inclure le contenu Exchange, le contenu OneDrive ou les deux. Le contenu d’Exchange inclut tout le contenu de l’application dans les boîtes aux lettres de l’utilisateur, tel que son courrier électronique, le contenu de Teams stocké dans sa boîte aux lettres, etc. Le contenu de OneDrive inclut non seulement le contenu de l’utilisateur, mais également tout le contenu de Teams stocké dans OneDrive, tel que les conversations 1:1, les conversations 1:N et les fichiers partagés dans les conversations.
 
 Vous avez également la possibilité d’associer toute équipe dont l’administrateur est membre, de sorte que les messages de conversation de canal et les fichiers à qui le groupe a accès soient inclus. En outre, toute autre équipe peut être associée à un groupe de travail.
 
@@ -239,9 +239,9 @@ Vous pouvez également utiliser une requête facultative pour définir les condi
 
 ### <a name="advanced-ediscovery-searches"></a>Recherches eDiscovery avancées
 
-Il est également possible d’effectuer une recherche dans le contenu de Teams. Pour plus d’informations sur les recherches, voir Collecter des données pour [un cas dans Advanced eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery) Une recherche retourne une conversation entière si un seul message correspond à la requête de recherche.
+Il est également possible d’effectuer une recherche dans le contenu de Teams. Pour plus d’informations sur les recherches, voir [Collecter des données pour un cas dans Advanced eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery) Une recherche retourne une conversation entière si un seul message correspond à la requête de recherche.
 
-Lorsque vous créez une requête de recherche, vous pouvez choisir les administrateurs de sorte que toutes les sources que vous avez déjà sélectionnées soient recherchés. Vous pouvez également rechercher des sources non inexistantes, telles qu’un site Teams qui n’est pas mappé à un utilisateur. Des requêtes facultatives sont également disponibles pour affiner votre recherche dans le contenu de Teams.
+Lors de la création d’une requête de recherche, vous pouvez choisir les administrateurs afin que toutes les sources que vous avez déjà sélectionnées soient recherchés. Vous pouvez également rechercher des sources non inexistantes, telles qu’un site Teams qui n’est pas mappé à un utilisateur. Des requêtes facultatives sont également disponibles pour affiner votre recherche dans le contenu de Teams.
 
 Une fois que vous avez créé et sélectionné une recherche, une fenêtre affiche des détails et actions supplémentaires que vous pouvez effectuer sur la recherche sélectionnée. Si vous  cliquez sur le bouton Statistiques, vous pouvez afficher les statistiques relatives à votre recherche, notamment les répartitions en fonction des types d’emplacements, la source d’origine du contenu et si le contenu est situé dans une boîte aux lettres de groupe, dans la boîte aux lettres utilisateur individuelle ou sur un site SharePoint. Par conséquent, vous pouvez voir une répartition des sources qui contribuent à vos résultats de recherche. Un affichage **Requêtes** est également disponible pour vous aider à voir les mots clés individuels qui contribuent à vos résultats.
 
@@ -262,7 +262,7 @@ Des fonctionnalités telles que la redaction sont disponibles dans les deux type
 
 #### <a name="collection-options"></a>Options de collection
 
-Lors de l’ajout à un jeu de révisions, plusieurs options sont  disponibles sous la section **Options** de collection de la fenêtre, y compris Options de récupération des conversations et **Conversations Teams.** Si vous activez ces options, tous les messages Teams individuels faisant partie de votre jeu de révisions seront également affichés avec des messages supplémentaires autour d’eux pour leur contexte. Par exemple, si votre requête est spécifique et qu’un seul message est renvoyé par conséquent, l’activation de ces options retournera également plusieurs messages qui surviennent et suivent le message qui correspond à votre requête.
+Lorsque vous ajoutez un jeu de révisions, plusieurs options sont disponibles sous  la section **Options** de collection de la fenêtre, notamment options de récupération des conversations et **Conversations Teams.** Si vous activez ces options, tous les messages Teams individuels faisant partie de votre jeu de révisions seront également affichés avec des messages supplémentaires autour d’eux pour leur contexte. Par exemple, si votre requête est spécifique et qu’un seul message est renvoyé par conséquent, l’activation de ces options retournera également plusieurs messages qui surviennent et suivent le message qui correspond à votre requête.
 
 De nombreux critères logiques permettent de déterminer si d’autres messages fournissent du contexte aux messages qui correspondent à votre requête. Par exemple, pour le contenu de Teams, l’activation de ces options permet de récupérer le message parent et tous les messages enfants en raison de la façon dont les messages sont threadés.
 
@@ -278,7 +278,7 @@ En plus des documents, vous pouvez ajouter des e-mails, des messages Teams, des 
 
 Le **bouton Gérer les jeux** de révision fournit des options supplémentaires, telles que l’analyse, les rapports de synthèse, le nombre de jeux de chargements ajoutés, etc.
 
-Pour accéder aux visualisations et graphiques de vos données, cliquez sur **Vue** de profil de recherche de résultats \>  individuels dans le coin supérieur droit. Vous pouvez cliquer sur des coins dans ces graphiques pour sélectionner de manière interactive le type de contenu à interroger. Par exemple, vous pouvez choisir d’interroger uniquement le contenu de Teams. Vous pouvez également enregistrer ces requêtes tout comme vous le feriez pour les requêtes que vous écrivez manuellement.
+Pour accéder aux visualisations et graphiques de vos données, cliquez sur **Vue** de profil de recherche individuelle \>  dans le coin supérieur droit. Vous pouvez cliquer sur des coins dans ces graphiques pour sélectionner de manière interactive le type de contenu à interroger. Par exemple, vous pouvez choisir d’interroger uniquement le contenu de Teams. Vous pouvez également enregistrer ces requêtes tout comme vous le feriez pour les requêtes que vous écrivez manuellement.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Vue de synthèse, vue de texte et affichage d’annoter
 
@@ -288,7 +288,7 @@ Pour télécharger un fichier PDF, cliquez sur le bouton de téléchargement dan
 
 Cliquez sur **l’onglet Affichage** de texte pour afficher une vue en texte intégral du texte extrait de la conversation Teams. Ce contenu en texte simple convient à l’exportation et vous pouvez l’utiliser facilement à l’aide d’autres outils logiciels.
 
-Cliquez sur **l’onglet Affichage d’annotation** pour accéder aux fonctionnalités d’annotation. Cet onglet affiche le contenu dans un format qui ressemble à une conversation Teams, mais il existe également des options supplémentaires pour la modification. Vous pouvez utiliser un crayon pour prendre des notes, dessiner sur un message ou recommencer à zéro à des fins d’redaction. Vous pouvez également utiliser un outil de **redaction** de zone pour dessiner un rectangle qui noircit la zone et la marque comme « Rouge ».
+Cliquez sur **l’onglet Affichage d’annotation** pour accéder aux fonctionnalités d’annotation. Cet onglet affiche le contenu dans un format qui ressemble à une conversation Teams, mais il existe également des options supplémentaires pour la modification. Il existe un outil crayon que vous pouvez utiliser pour prendre des notes, dessiner sur le message ou recommencer à zéro à des fins d’redaction. Vous pouvez également utiliser un outil de **redaction** de zone pour dessiner un rectangle qui noircit la zone et la marque comme « Rouge ».
 
 Voici un exemple de fichier rouge pour une conversation à thread entre des utilisateurs.
 
@@ -303,9 +303,9 @@ Dans la fenêtre des jeux de révision, vous pouvez exporter le contenu en cliqu
 
 Pour exporter un fichier qui contient toutes les métadonnées de tous les messages Teams, cochez la case Charger **le** fichier. Pour inclure dans votre fichier les balises que vous  avez appliquées au contenu, cochez la case Balises.
 
-Utilisez **l’option Fichiers natifs** pour exporter des fichiers dans leur format natif. Vous pouvez choisir d’exporter une conversation comme un seul fichier ou tous les messages de conversation individuels dans leurs propres fichiers distincts.
+Utilisez **l’option Fichiers natifs** pour exporter des fichiers dans leur format natif. Vous pouvez choisir d’exporter une conversation comme un seul fichier ou tous les messages de conversation individuels dans leurs propres fichiers.
 
-**L’option Fichiers texte** vous permet d’enregistrer des versions de contenu en texte texte intégral. Pour plus d’informations sur l’obtention d’un affichage en texte intégral des conversations Teams dans le jeu de révisions, consultez l’affichage Résumé, l’affichage texte et [l’affichage d’annoter](#summary-view-text-view-and-annotate-view) ci-dessus.
+**L’option Fichiers texte** vous permet d’enregistrer des versions de contenu en texte texte intégral. Pour plus d’informations sur l’obtention d’un affichage en texte simple des conversations Teams dans le jeu de révisions, consultez l’affichage Résumé, l’affichage texte et [l’affichage d’annoter](#summary-view-text-view-and-annotate-view) ci-dessus.
 
 Si vous avez appliqué des redactions au contenu comme décrit dans la section Résumé, Texte et [Annoter](#summary-view-text-view-and-annotate-view) ci-dessus, vous pouvez sélectionner l’option Remplacer les **redéplacats natifs** par les fichiers PDF convertis pour remplacer les fichiers natifs par des copies converties au format PDF.
 
@@ -316,7 +316,7 @@ Lorsque vous êtes prêt à commencer le processus d’exportation, cliquez sur 
 > [!NOTE]
 > L’exportation peut prendre une période prolongée. Pour suivre l’état du processus d’exportation, quittez l’onglet **Ensembles** de révision, puis cliquez sur **l’onglet** Exportations.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-- [eDiscovery dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
+- [Découverte électronique dans Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

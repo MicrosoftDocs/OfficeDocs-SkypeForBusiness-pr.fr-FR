@@ -53,7 +53,7 @@ Il est utile d’appeler les réunions lorsque les personnes sont en déplacemen
 
 Toute personne ayant le numéro de connexion et l’ID de conférence peut participer à une réunion Skype Entreprise ou Microsoft Teams, sauf si l’organisateur de la réunion a verrouillé la réunion.
   
-Que vous appeliez à l’aide d’un téléphone ou des applications Skype Entreprise ou Microsoft Teams, vous pourrez entendre les autres personnes de l’appel et elles pourront vous entendre. L’organisateur de la réunion peut désactiver le son de tous les participants à la réunion s’il ne souhaite pas les entendre. 
+Que vous appeliez à l’aide d’un téléphone ou des applications Skype Entreprise ou Microsoft Teams, vous pourrez entendre toutes les autres personnes de l’appel et elles pourront vous entendre. L’organisateur de la réunion peut désactiver le son de tous les participants à la réunion s’il ne souhaite pas les entendre. 
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Puis-je ajouter un numéro gratuit pour mes utilisateurs de l’audioconférence ?
 
@@ -81,7 +81,7 @@ La durée maximale dépend des participants à la réunion et du type d'authenti
 |:-----|:-----|
 |Les utilisateurs ont rejoint la réunion à l’aide de l’application Skype Entreprise ou Microsoft Teams ou se sont joints à la réunion.  <br/> |La réunion est terminée si aucune modification n'est apportée à la liste des participants après 24 heures.  <br/> |
 |Tous les utilisateurs ont accédé à la réunion, mais une personne a utilisé un code confidentiel pour y assister.  <br/> |La réunion se termine après 24 heures.  <br/> |
-|Tous les utilisateurs ont composé un numéro pour participer à la réunion, mais personne n’a utilisé de code confidentiel pour y participer.  <br/> | Si les utilisateurs anonymes sont autorisés à commencer des réunions, la réunion se termine au bout de quatre heures. Si les utilisateurs anonymes ne sont pas autorisés à commencer des réunions et que tous les participants authentifiés ont quitté la réunion, la réunion se termine 90 minutes après le dernier participant authentifié qui est parti. <br/> |
+|Tous les utilisateurs ont composé un numéro pour accéder à la réunion, mais personne n’a utilisé de code confidentiel pour y participer.  <br/> | Si les utilisateurs anonymes sont autorisés à commencer des réunions, la réunion se termine au bout de quatre heures. Si les utilisateurs anonymes ne sont pas autorisés à commencer des réunions et que tous les participants authentifiés ont quitté la réunion, la réunion se termine 90 minutes après le dernier participant authentifié qui est parti. <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Combien y a-t-il de participants téléphoniques au cours de réunions ?
 
@@ -93,7 +93,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Limites de Skype Entrepr
 
 Nous avons ajouté une nouvelle fonctionnalité [](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)qui vous permet, en tant qu’administrateur, d’envoyer et de mettre à jour les informations d’audioconférence et le code confidentiel par courrier électronique. Pour plus d’informations à ce sujet, notamment sur la désactivation, voir Activer ou désactiver l’envoi de courriers électroniques en cas de modification des [paramètres](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) d’Audioconférence dans Microsoft Teams ou activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres d’audioconférence dans Skype Entreprise [Online.](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>L’audioconférence peut-il être utilisé par les utilisateurs qui font partie d’un déploiement local de Skype Entreprise Server ?
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Les utilisateurs qui font partie d’un déploiement local de Skype Entreprise Server peuvent-ils utiliser l’audioconférence ?
 
 Avec [l’application Réunions en premier,](meetings-first.md)les utilisateurs de Skype Entreprise Server peuvent tirer parti des réunions Teams et de l’audioconférence Teams. 
   
@@ -103,7 +103,7 @@ Les utilisateurs de Skype Entreprise et Microsoft Teams se voit attribuer des ID
   
 ## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Puis-je utiliser l’audioconférence avec la diffusion de réunion Skype ?
 
-Actuellement, les utilisateurs activés pour l’audioconférence peuvent participer à une diffusion de réunion Skype.
+Actuellement, les utilisateurs activés pour l’audioconférence ne peuvent pas participer à une diffusion de réunion Skype.
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Un utilisateur peut-il se faire aider par un opérateur pendant une réunion ?
 
@@ -145,9 +145,9 @@ Lorsqu’un utilisateur est affecté à une licence **d’audioconférence** et 
 
 La planification d’une réunion qui sera rejointe par tous les participants à l’aide d’un téléphone pour se composer est différente de la planification d’une réunion en ligne normale. Toutefois, il existe deux façons de démarrer une réunion sur laquelle tous les participants utilisent un téléphone pour composer le numéro :
 
-- **Option #1**: par défaut, si l’organisateur de la réunion et tous les participants participent à une réunion à l’aide d’un téléphone, l’organisateur de la réunion doit entrer son code confidentiel pour démarrer l’audioconférence. Les appelants sont invités à s’authentifier en tant qu’organisateur d’une réunion donnée lorsqu’ils composent le numéro de téléphone d’une réunion en ligne. Tous les participants qui rejoignent la réunion par numérotation avant le début de l’organisateur sont placés dans la salle d’attente et écoutent l’attente musicale. Pour les réunions Skype Entreprise, une fois que l’organisateur l’a commencée en joignant son code confidentiel d’audioconférence, tous les participants qui se retrouvent dans la salle d’accueil rejoignent automatiquement la réunion. Pour les réunions Microsoft Teams, les participants rejoindront la réunion en fonction de la valeur du paramètre d’accès automatique à la réunion de l’organisateur.
+- **Option #1**: par défaut, si l’organisateur de la réunion et tous les participants participent à une réunion à l’aide d’un téléphone, l’organisateur de la réunion doit entrer son code confidentiel pour démarrer l’audioconférence. Les appelants sont invités à s’authentifier en tant qu’organisateur d’une réunion donnée lorsqu’ils composent le numéro de téléphone d’une réunion en ligne. Tous les participants qui rejoignent la réunion par numérotation avant le début de l’organisateur sont placés dans la salle d’attente et écoutent de la musique mise en attente. Pour les réunions Skype Entreprise, lorsque l’organisateur commence la réunion en joignant son code confidentiel pour l’audioconférence, tous les participants qui se retrouvent dans la salle d’salle d’accueil rejoignent automatiquement la réunion. Pour les réunions Microsoft Teams, les participants rejoindront la réunion en fonction de la valeur du paramètre d’accès automatique à la réunion de l’organisateur.
 
-- **Option #2**: le paramètre « Autoriser les appelants non authentifiés à être les premiers utilisateurs d’une réunion » est désactivé par défaut. Si le paramètre est activé pour un organisateur donné, toutes les réunions programmées par l’organisateur peuvent alors commencer avant que l’organisateur n’entre le code confidentiel de l’audioconférence. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant le rejoint par un numéro de téléphone à composer et le premier participant n’est pas placé dans la salle d’salle d’salle. Pour plus d’informations, voir Gérer les [paramètres](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) d’audioconférence d’un utilisateur dans Microsoft Teams ou Gérer les paramètres d’audioconférence pour un utilisateur [dans Skype Entreprise Online.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+- **Option #2**: le paramètre « Autoriser les appelants non authentifiés à être les premiers utilisateurs d’une réunion » est désactivé par défaut. Si le paramètre est activé pour un organisateur donné, toutes les réunions programmées par cet organisateur peuvent commencer avant que l’organisateur n’entre le code confidentiel de l’audioconférence. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant le rejoint par un numéro de téléphone à composer et le premier participant n’est pas placé dans la salle d’salle d’salle. Pour plus d’informations, voir Gérer les [paramètres](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) d’audioconférence d’un utilisateur dans Microsoft Teams ou Gérer les paramètres d’audioconférence pour un utilisateur [dans Skype Entreprise Online.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
    
 ## <a name="related-topics"></a>Voir aussi
 

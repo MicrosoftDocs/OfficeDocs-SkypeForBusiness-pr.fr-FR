@@ -143,11 +143,11 @@ L’audit peut être davantage personnalisé dans le Centre de sécurité et con
 
 3. Recherchez dans le journal d’audit et sélectionnez **l’onglet Activités de Dynamics 365.**
 
-En savoir plus sur [la journalisation de l’activité de Microsoft Dataverse](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)et des applications pilotées par un modèle - Plateforme Power.
+En savoir plus sur [la journalisation des activités de Microsoft Dataverse](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)et des applications pilotées par un modèle - Plateforme Power.
 
 ## <a name="security"></a>Sécurité
 
-À partir de l’application Approbations Teams, les utilisateurs ont accès à créer des approbations et à afficher les approbations qu’ils ont envoyées et reçues. Les utilisateurs n’ont pas accès aux approbations créées par d’autres personnes, sauf s’ils sont un répondant ou une visionneuse de la demande.
+À partir de l’application Approbations Teams, les utilisateurs ont accès à la création de nouvelles approbations et à l’affichage approbations qu’ils ont envoyées et reçues. Les utilisateurs n’ont pas accès aux approbations créées par d’autres personnes, sauf s’ils sont un répondant ou une visionneuse de la demande.
 
 > [!Note]
 > Un utilisateur pourra voir le rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal sur lequel l’approbation a été créée. Ils ne pourront pas agir sur la demande s’ils n’ont pas reçu ce rôle lors de la création de l’approbation.

@@ -24,19 +24,19 @@ ms.locfileid: "49848836"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
-Si vous disposez d’appareils Certifiés Salles Microsoft Teams dans votre organisation, vous disposez d’options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes vos solutions Teams, le Centre d’administration Microsoft Teams ou transférer la responsabilité de la gestion à des experts dédiés utilisant les services gérés des salles [Microsoft Teams.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
+Si votre organisation dispose d’appareils Certifiés Salles Microsoft Teams, vous disposez d’options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes vos solutions Teams, le Centre d’administration Microsoft Teams ou transférer la responsabilité de la gestion à des experts dédiés utilisant les services gérés des salles [Microsoft Teams.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
 
 Avec le Centre d’administration Microsoft Teams, vous pouvez :
 
 - Effectuer une gestion des appareils telle que le redémarrage ou le blocage d’appareils, et le téléchargement des journaux des appareils
 - Appliquer des paramètres spécifiques à Teams
 - Vérifier l’état d’état des périphériques de la salle Microsoft Teams et de leurs périphériques, y compris les caméras, les écrans, les microphones, et ainsi de suite
-- Passer en revue l’activité en cours et passée des réunions (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
+- Passer en revue l’activité des réunions passées et présentes (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
 - Voir les périphériques (tels que les caméras et les projecteurs) connectés à un périphérique de salle Microsoft Teams
 
-Pour gérer les appareils Salles d’équipe, ouvrez le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com) et allez dans **Salles**  >  **d’équipe d’appareils.**
+Pour gérer les appareils salles d’équipe, ouvrez le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com) et allez dans **Salles**  >  **d’équipe appareils.**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Pages de résumé salles Teams dans le Centre d’administration Teams":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Pages de synthèse Salles d’équipe dans le Centre d’administration Teams":::
 
 > [!IMPORTANT]
 > Pour gérer les appareils à l’aide du Centre d’administration Teams, vous devez avoir les rôles Administrateur général, Administrateur du service Teams ou Administrateur de périphériques Teams.
@@ -70,7 +70,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 | *Réunions*                                                   |                                                        |                    |
 | **Partage d’écran automatique**                                 | Activé<br>Désactivé                                              | Oui                |
 | **Afficher les noms des réunions**                                       | Activé<br>Désactivé                                              | Oui                |
-| **Quitter automatiquement une réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
+| **Quitter automatiquement la réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
 | *Device*                                                     |                                                        |                    |
 | **Mode à deux moniteurs**                                        | Activé<br>Désactivé                                              | Oui                |
 | **Bluetooth balises**                                      | Activé<br>Désactivé                                              | Oui                |
@@ -93,7 +93,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 
 Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement les appareils ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
 
-- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous sélectionnerez cette option.
+- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous aurez sélectionné cette option.
 - **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils que vous modifiez à un moment moins perturbateur pour votre organisation.
   - **Sélectionnez la date et l’heure** : choisissez la date et l’heure spécifiques pour redémarrer l’appareil. La date et l’heure choisies sont locales pour l’appareil en cours de redémarrage. 
   - **Quitter la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
@@ -105,7 +105,7 @@ Les modifications apportées aux paramètres de l’appareil ne prennent effet q
 
 Lorsque vous **supprimez** un appareil, celui-ci est supprimé de votre organisation et n’apparaît plus dans votre liste d’appareils Salles d’équipe dans le Centre d’administration Teams. 
 
-Lorsque vous **bloquez** un périphérique, Teams ne communique plus avec l’appareil. Les appareils bloqués ne seront pas envoyés, même s’ils sont inclus dans un groupe d’appareils en cours de modification en bloc. Il figure toujours dans votre liste des appareils Teams Rooms dont l’état est **Bloqué.**
+Lorsque vous **bloquez** un appareil, Teams ne communique plus avec l’appareil. Les appareils bloqués ne seront pas envoyés, même s’ils sont inclus dans un groupe d’appareils en cours de modification en bloc. Il figure toujours dans votre liste des appareils Teams Rooms dont l’état est **Bloqué.**
 
 Qu’un appareil soit bloqué ou supprimé, s’il est toujours configuré avec un nom d’utilisateur et un mot de passe valides, il est automatiquement rajouté à votre liste d’appareils Salles d’équipe s’il se connecte à Microsoft 365.
 
@@ -150,9 +150,9 @@ Pour afficher des informations détaillées sur un appareil, sélectionnez son n
 
 - **État d’état** Présente l’état global de l’appareil salle Teams. L’état de santé peut être **sain** **ou défectueux.**
 - **Hors connexion depuis** Dernière fois que Microsoft 365 a pu communiquer avec l’appareil.
-- **État de l’appareil** Indique l’état actuel de l’appareil : **Idle,** **Réunion Teams,** **Réunion Skype** ou **Ingest.**
+- **État de l’appareil** Indique l’état actuel de l’appareil : **Inactif(ive),** **Réunion Teams,** **Réunion Skype** ou **Ingest.**
 - **Périphériques** Affiche les périphériques connectés à votre appareil de salle Teams et leur état d’état. L’état d’état peut **être Connecté** **ou Déconnecté.**
-- **État d’santé** Affiche des informations détaillées sur les périphériques connectés à votre appareil salle Teams, la connectivité réseau, l’état de connexion aux services requis et les informations de version logicielle.
+- **État d’santé** Affiche des informations détaillées sur les périphériques connectés à votre périphérique de salle Teams, la connectivité réseau, l’état de connexion aux services requis et les informations de version logicielle.
 - **Détails** Affiche les informations sur le fabricant, l’adresse IP réseau et l’adresse de série/MAC du périphérique de salle Teams.
 - **Activité** Affiche les détails de la réunion passée, notamment la date et l’heure de la réunion, le nombre de participants, la durée et la qualité audio. Pour plus d’informations sur les détails de la réunion, voir la section [détails](#meeting-activity-details) sur l’activité de la réunion plus loin dans cet article.
 - **Historique** Présente un historique de l’activité de gestion sur l’appareil de salle Teams, y compris les mises à jour de configuration, les redémarrages d’appareil et les liens de téléchargement du journal des appareils.

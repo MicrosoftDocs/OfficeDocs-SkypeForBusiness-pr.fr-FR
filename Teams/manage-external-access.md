@@ -46,11 +46,11 @@ Utilisez l’accès externe dans les situations suivantes :
 - Ou vous souhaitez que tous les utilisateurs de Teams à travers le monde puissent vous contacter, à l'aide de votre adresse électronique. 
 
 > [!IMPORTANT]
-> Pour utiliser le client Teams afin de communiquer avec un utilisateur externe (que cet utilisateur utilise Teams ou Skype Entreprise), l’utilisateur de Teams doit être domicile dans Skype Entreprise Online.
+> Pour utiliser le client Teams afin de communiquer avec un utilisateur externe (que ce dernier utilise Teams ou Skype Entreprise), l’utilisateur de Teams doit être domicile dans Skype Entreprise Online.
 
 ## <a name="plan-for-external-access"></a>Plan pour l’accès externe
 
-Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. L’exception à cette règle est l’accès autorisé des participants anonymes aux réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
+Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. L’exception à cette règle est si les participants anonymes sont autorisés dans les réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
 
 - **Fédération ouverte**: il s’agit du paramètre par défaut dans Teams, qui permet aux membres de votre organisation de rechercher, d’appeler, d’envoyer des messages instantanés/conversations et de configurer des réunions avec des personnes extérieures à votre organisation.
 
@@ -126,7 +126,7 @@ Pour permettre aux utilisateurs de votre organisation de communiquer avec des ut
 
 |**Si votre organisation est** |**Activer la fédération comme suit**  |
 |:---------|:-----------------------|
-|En ligne sans Skype Entreprise sur site. Cela inclut les organisations qui ont des utilisateurs de TeamsOnly et/ou des utilisateurs de Skype Entreprise Online.| Si vous utilisez le Centre d’administration Teams : <br>- Assurez-vous que les **utilisateurs peuvent communiquer** avec les paramètres des autres utilisateurs de Skype Entreprise et Teams dans l’Accès externe.<br>- Si vous n’utilisez pas de fédération ouverte (ce qui autorise la fédération avec un autre domaine), ajoutez le domaine externe à la liste des domaines autorisés.<br><br>Si vous utilisez PowerShell :<br>- Assurez-vous que le client est activé pour la fédération : `Get-CsTenantFederationConfiguration` doit `AllowFederatedUsers=true` afficher. <br>- Assurez-vous que l’utilisateur a une valeur `CsExternalAccessPolicy` `EnableFederationAccess=true` efficace.<br>- Si vous n’utilisez pas de fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` `CsTenantFederationConfiguration` . |
+|En ligne sans Skype Entreprise sur site. Cela inclut les organisations qui ont des utilisateurs de TeamsOnly et/ou des utilisateurs de Skype Entreprise Online.| Si vous utilisez le Centre d’administration Teams : <br>- Assurez-vous que les **utilisateurs peuvent communiquer** avec les autres paramètres des utilisateurs de Skype Entreprise et Teams dans l’Accès externe.<br>- Si vous n’utilisez pas de fédération ouverte (ce qui autorise la fédération avec un autre domaine), ajoutez le domaine externe à la liste des domaines autorisés.<br><br>Si vous utilisez PowerShell :<br>- Assurez-vous que le client est activé pour la fédération : `Get-CsTenantFederationConfiguration` doit `AllowFederatedUsers=true` afficher. <br>- Assurez-vous que l’utilisateur a une valeur `CsExternalAccessPolicy` `EnableFederationAccess=true` efficace.<br>- Si vous n’utilisez pas de fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` `CsTenantFederationConfiguration` . |
 |Pure en local | Dans les outils locaux : <br>- Assurez-vous que la fédération est activée dans `CsAccessEdgeConfiguration` .<br>- Vérifier que la fédération de l’utilisateur est activée par le biais (à travers la stratégie globale, la stratégie de site ou la stratégie attribuée à `ExternalAccessPolicy` l’utilisateur). <br> - Si vous n’utilisez pas de fédération ouverte, assurez-vous que le domaine cible est répertorié dans `AllowedDomains` . |
 |Hybride avec certains utilisateurs en ligne (dans Skype Entreprise ou Teams) et certains utilisateurs sur site. | Suivez les étapes ci-dessus pour les organisations en ligne et locales. |
 
@@ -137,7 +137,7 @@ Les conversations et appels entrants d’une organisation de fédération arrive
 |**Si vous souhaitez** |**Pour ce faire :**  |
 |:---------|:-----------------------|
 | Assurez-vous que les conversations et appels fédérés entrants arrivent dans le client Teams de l’utilisateur : | Configurez vos utilisateurs de manière à ce qu’ils utilisent TeamsOnly.
-| S’assurer que les conversations et appels fédérés entrants arrivent dans le client Skype Entreprise de l’utilisateur | Configurez vos utilisateurs pour qu’ils restent dans n’importe quel mode autre que TeamsOnly. |
+| Vérifier que les conversations et appels fédérés entrants arrivent dans le client Skype Entreprise de l’utilisateur | Configurez vos utilisateurs pour qu’ils restent dans n’importe quel mode autre que TeamsOnly. |
 
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Activer la fédération entre les utilisateurs de votre organisation et les utilisateurs grand public de Skype

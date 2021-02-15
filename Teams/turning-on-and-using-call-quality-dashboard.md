@@ -36,7 +36,7 @@ Ouvrez le tableau de bord de qualité des appels microsoft (CQD) à l’adresse 
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels dans le Centre d’administration Teams":::
 
-Dans la page qui s’ouvre, cliquez sur Se **connectez** et entrez les informations de votre compte d’administrateur général ou d’administrateur de services Microsoft Teams. Une fois que vous vous connectez pour la première fois, le CQD commence à collecter et à traiter les données. N’oubliez pas que le traitement d’un nombre suffisant de données peut prendre une ou plusieurs heures afin d’afficher des résultats significatifs dans les rapports.
+Dans la page qui s’ouvre, cliquez sur Se **connectez** et entrez les informations de votre compte d’administrateur général ou d’administrateur de services Microsoft Teams. Une fois que vous vous êtes connecté pour la première fois, le CQD commence à collecter et à traiter les données. N’oubliez pas que le traitement d’un nombre suffisant de données peut prendre une ou plusieurs heures afin d’afficher des résultats significatifs dans les rapports.
 
 Le CQD indique la qualité des appels et des réunions, au niveau de l’organisation, pour Microsoft Teams, Skype Entreprise Online et Skype Entreprise Server 2019. 
 
@@ -70,7 +70,7 @@ Si vous souhaitez que les utilisateurs non administrateurs (par exemple, des ing
 Pour plus d’informations sur ces rôles, voir À propos des rôles d’administrateur [Office 365.](/office365/admin/add-users/about-admin-roles)
 
 
-Une fois que vous vous connectez pour la première fois, le CQD commence à collecter et à traiter les données. Depuis décembre 2019, vous pouvez toujours accéder à l’ancienne version du CQD (cqd.lync.com), bien que le portail hérité vous donne un lien vers le dernier CQD (cqd.teams.microsoft.com). Finalement, l’ancienne version du CQD sera désaffectée. À compter du 1er juillet 2020, l’ancienne version du CQD accède aux données du dernier DQD.
+Une fois que vous vous êtes connecté pour la première fois, le CQD commence à collecter et à traiter les données. Depuis décembre 2019, vous pouvez toujours accéder à l’ancienne version du CQD (cqd.lync.com), bien que le portail hérité vous donne un lien vers le dernier CQD (cqd.teams.microsoft.com). Finalement, l’ancienne version du CQD sera désaffectée. À compter du 1er juillet 2020, l’ancienne version du CQD accède aux données du dernier DQD.
 
 
 ## <a name="migrate-building-data-and-reports-from-previous-version-of-cqd"></a>Migrer des données de création et des rapports à partir d’une version précédente du CQD
@@ -87,7 +87,7 @@ Nouveautés de Janvier 2020 : Téléchargez les modèles de requête [Power BI p
 Lisez [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md) et en savoir plus.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 

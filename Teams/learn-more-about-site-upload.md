@@ -43,7 +43,7 @@ Les étiquettes et les données de localisation des rapports que vous fournissez
 
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Étiquettes**  >  **de rapports d’emplacements.**
 2. Cliquez sur **Remplacer les données des emplacements.**
-3. Dans le **volet Remplacer les** données des emplacements, cliquez sur Sélectionner un fichier, puis recherchez et chargez votre fichier .csv ou .tsv modifié. 
+3. Dans le **volet de** données Remplacer les emplacements, cliquez sur Sélectionner un **fichier,** puis recherchez et chargez votre fichier .csv ou .tsv modifié.
 4. Cliquez **sur Charger.**
 
 Vous pouvez télécharger un exemple de modèle [ici.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
@@ -53,7 +53,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 > [!IMPORTANT]
 > Votre fichier de données ne doit pas contenir d’en-têtes de colonne (par exemple, Réseau, Nom du réseau, etc.). Ceux-ci sont utilisés ici uniquement à des fins d’information. <br>
 
-|Réseau|Nom du réseau|Plage réseau|Nom du bâtiment|Type de propriété|Type de bâtiment|Building Office Type|Ville|Code postal|Pays|État|Région|Inside Corp|Express Route|
+|Réseau|Nom du réseau|Plage réseau|Nom du bâtiment|Type de propriété|Type de bâtiment|Type de bureau du bâtiment|Ville|Code postal|Pays|État|Région|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|États-Unis|CA|États-Unis|1|1|
 |10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|États-Unis|CA|États-Unis|1|1|
@@ -62,7 +62,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir Format de fichier de données client et [Structure du fichier de données du bâtiment.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 

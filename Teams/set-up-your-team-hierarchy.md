@@ -22,12 +22,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/14/2021
 ms.locfileid: "49868339"
 ---
-# <a name="set-up-your-team-targeting-hierarchy"></a>Configurer votre hiérarchie de ciblage d’équipe
+# <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage d’équipe
 
 La configuration d’une hiérarchie de ciblage d’équipe permet à votre organisation de publier du contenu sur un ensemble important d’équipes. La hiérarchie de ciblage d’équipe définit la relation entre les équipes dans votre hiérarchie, sur lesquelles les utilisateurs peuvent publier des tâches et sur les équipes sur lesquelles les utilisateurs sont autorisés à publier des données. Les fonctionnalités de publication sont désactivées pour tous les utilisateurs, sauf si une hiérarchie de ciblage d’équipe est définie pour votre organisation. Pour configurer une hiérarchie de ciblage d’équipe, vous devez créer un fichier qui définit la hiérarchie, puis charger celle-ci dans Teams pour l’appliquer à votre organisation. Une fois le schéma téléchargé, les applications de Teams peuvent l’utiliser.
 
 > [!IMPORTANT]
-> Pour la version initiale, seule l’application Tâches prend en charge les équipes hiérarchiques.  L’application d’une hiérarchie de ciblage d’équipe à votre organisation activera [la publication](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) des tâches dans l’application Tâches. Vous ne verrez pas une hiérarchie d’équipes dans d’autres parties de Microsoft Teams.
+> Pour la version initiale, seule l’application Tâches prend en charge les équipes hiérarchiques.  L’application d’une hiérarchie de ciblage d’équipe à votre organisation activera [la publication](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) des tâches dans l’application Tâches. Vous ne verrez pas de hiérarchie d’équipes dans d’autres parties de Microsoft Teams.
 
 Voici un exemple de la manière dont la hiérarchie est représentée dans l’application Tâches dans Teams. Une fois qu’une liste de tâches est créée, les membres de l’équipe de publication peuvent sélectionner les équipes de destinataires à qui envoyer (publier) la liste de tâches. Lors de la sélection d’équipes, l’équipe de publication peut filtrer par hiérarchie, par attributs ou une combinaison des deux.<br>
 
@@ -37,7 +37,7 @@ Voici un exemple de la manière dont la hiérarchie est représentée dans l’a
 
 Les termes suivants seront importants lorsque vous naviguerez dans les hiérarchies. Teams sera appelé **« nodes**».
 
-* **Les nodes racines** sont les plus élevés dans la hiérarchie. Dans l’exemple, Retail Communications est un nœud racine.
+* **Les nod racines** sont les plus élevés dans la hiérarchie. Dans l’exemple, Retail Communications est un nœud racine.
 * **Les nodes parent** et **enfant sont** des termes qui représentent une relation entre deux nod connectés. Dans l’exemple, le District 01 est un nœud enfant de la Zone 1.
 * Plusieurs niveaux d’enfants sont appelés **descendants.** District 01, Store 01, Store 03, Store 07, District 02 et District 03 sont tous descendants de la Région 1.
 * Un nœud sans enfants est appelé **nœud de feuilles.** Ils se placent au bas d’une hiérarchie.
@@ -49,7 +49,7 @@ Avant de créer le schéma qui définit votre hiérarchie, vous devez planifier 
 
 ### <a name="permissions-to-publish"></a>Autorisations de publication
 
-L’autorisation de publier dépend du fait qu’un utilisateur est membre d’une équipe de la hiérarchie ainsi que de la relation qui existe entre cette équipe ou un ensemble d’équipes avec d’autres équipes de la hiérarchie.
+L’autorisation de publication varie selon qu’un utilisateur est membre d’une équipe de la hiérarchie ainsi que de la relation qui existe entre cette équipe ou un ensemble d’équipes avec d’autres équipes de la hiérarchie.
 
 > [!NOTE]
 > Les autorisations de publication sont également octroyées au propriétaire d’une équipe.
@@ -67,7 +67,7 @@ L’autorisation de publier dépend du fait qu’un utilisateur est membre d’u
 
 ### <a name="example-hierarchy"></a>Exemple de hiérarchie
 
-Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent publier des tâches sur chaque nœud inférieur (équipe) dans la hiérarchie, mais la zone Nord-est peut uniquement publier des tâches dans les équipes du Store de New York et du Store de New York. La hiérarchie exemple permet aux groupes Rappel, Communications et RH de publier des tâches qui s’appliquent à l’ensemble de l’entreprise, telles que des informations sur les avantages ou des messages du PDG. La zone Nord-est peut publier des tâches telles que la planification du personnel, les informations météorologiques, etc., uniquement dans les équipes du Store de New York et du Store de York.
+Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent publier des tâches sur chaque nœud inférieur (équipe) dans la hiérarchie, mais la zone Nord-est peut uniquement publier des tâches dans les équipes du Store de New York et du Store de Store de New York. La hiérarchie exemple permet aux groupes Rappel, Communications et RH de publier des tâches qui s’appliquent à l’ensemble de l’entreprise, telles que des informations sur les avantages ou des messages du PDG. La zone Nord-est peut publier des tâches telles que la planification du personnel, les informations météorologiques, etc., uniquement dans les équipes du Store de New York et du Store de York.
 
 ![Exemple hiérarchique d’équipe](media/team-targeting-schema-example-new.png)
 
@@ -78,7 +78,7 @@ Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent 
 
 Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
 
-Vous pouvez également définir des **compartiments,** qui sont des catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
+Vous pouvez également définir les **compartiments,** qui sont les catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
 
 ### <a name="add-required-columns"></a>Ajouter des colonnes requises
 
@@ -87,11 +87,11 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 | Nom de colonne   | Obligatoire | Description   |
 ----------------|----------|---------------|
 | DisplayName    | Oui      | Ce champ est le nom du nœud. Le nom peut comporter jusqu’à 100 caractères et contenir uniquement les caractères A-Z, a-z et 0-9. Les noms de nœuds doivent être uniques. |
-| ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur du champ **DisplayName** du nœud parent. Si vous voulez ajouter plusieurs nœuds parents, séparez le nom de chaque nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents et chaque nom de nœud parent peut faire jusqu’à 2 500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**IMPORTANT** Attention de ne pas créer de boucle dans laquelle un parent qui se trouve plus haut dans la hiérarchie fait référence à un nœud enfant plus bas dans la hiérarchie. Cela n’est pas pris en charge. |
+| ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur du champ **DisplayName** du nœud parent. Si vous voulez ajouter plusieurs nœuds parents, séparez le nom de chaque nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents, et chaque nom de nœud parent peut faire jusqu’à 2 500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**IMPORTANT** Attention de ne pas créer de boucle dans laquelle un parent qui se trouve plus haut dans la hiérarchie fait référence à un nœud enfant plus bas dans la hiérarchie. Cela n’est pas pris en charge. |
 | TeamId        | Oui, si l’équipe publie des tâches ou reçoit des tâches d’un nœud parent       | Il contient l’ID de l’équipe à qui vous voulez lier un nœud. Chaque nœud doit faire référence à une équipe unique, de sorte que chaque valeur TeamId peut apparaître une seule fois dans le fichier de hiérarchie. Pour obtenir l’ID d’une équipe à qui vous voulez lier un nœud, exécutez la commande PowerShell suivante `Get-Team | Export-Csv TeamList.csv` : Cette commande répertorie les équipes de votre organisation et inclut le nom et l’ID de chaque équipe. Recherchez le nom de l’équipe avec qui vous souhaitez établir un lien, puis copiez l’ID dans ce champ.|
 
 > [!NOTE]
-> Si un nœud n’est pas un nœud racine ou un nœud de feuille et que vous n’avez pas besoin de l’appartenance à l’équipe pour accorder les autorisations correspondantes pour la publication et la rapport, vous pouvez laisser l’TeamId vide. Vous pouvez utiliser cette méthode pour ajouter de la granularité lors du choix des équipes de destinataires ou pour afficher les rapports d’achèvement sans avoir une équipe correspondante.
+> Si un nœud n’est pas un nœud racine ou un nœud de feuille et que vous n’avez pas besoin de l’appartenance à l’équipe pour accorder les autorisations correspondantes pour la publication et la rapport, vous pouvez laisser l’TeamId vide. Cette méthode permet d’ajouter de la granularité lors du choix des équipes de destinataires ou de l’affichage des rapports d’achèvement sans avoir d’équipe correspondante.
 
 ### <a name="add-attribute-columns"></a>Ajouter des colonnes d’attribut
 
@@ -99,8 +99,8 @@ Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonn
 
 |Méthodes d’ajout d’attributs|Description |Exemple  |
 |---|---------|---------|
-|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
-|Si vous devez indiquer plusieurs valeurs pour un attribut et que ces valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
+|Si les valeurs d’un attribut s’excluent mutuellement, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
+|Si vous devez indiquer plusieurs valeurs pour un attribut et que ces valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section dans le menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
 
 Lorsque vous ajoutez une colonne d’attribut, gardez les éléments suivants à l’esprit :
 
@@ -189,7 +189,7 @@ Pour supprimer votre hiérarchie, exécutez la commande suivante. Vous devez êt
 Remove-TeamTargetingHierarchy
 ```
 
-Lors de la confirmation de la suppression, le message d’état affiche toujours le schéma précédent, même si la tentative de suppression renvoie une erreur qui a pour effet que l’objet est Null.
+Lors de la confirmation de la suppression, le message d’état affiche toujours le schéma précédent présent, même si la tentative de suppression renvoie une erreur qui a pour effet que l’objet est Null.
 
 ## <a name="create-a-sample-hierarchy"></a>Créer un exemple de hiérarchie
 
@@ -253,7 +253,7 @@ Vous pouvez exécuter la commande suivante pour comprendre ce qui est à l’ori
 
 ### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>Vous recevez un message d’erreur lors du téléchargement de votre fichier CSV de schéma
 
-Notez le message d’erreur qui doit inclure des informations de dépannage pour indiquer la raison pour laquelle le schéma n’a pas pu être chargé. Examinez et modifiez votre fichier CSV de schéma en fonction des informations du message d’erreur, puis réessayez.
+Notez le message d’erreur qui doit inclure des informations de dépannage pour indiquer la raison pour laquelle le schéma n’a pas pu être téléchargé. Examinez et modifiez votre fichier CSV de schéma en fonction des informations du message d’erreur, puis réessayez.
 
 ### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>Vous recevez un message d’erreur « Erreur : InvalidTeamId » lorsque vous téléchargez votre fichier CSV de schéma
 

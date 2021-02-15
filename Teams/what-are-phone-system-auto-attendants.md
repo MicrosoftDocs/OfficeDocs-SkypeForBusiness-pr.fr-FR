@@ -36,7 +36,7 @@ ms.locfileid: "49918940"
 
 Phone System fournit des serveurs automatiques, qui peuvent être utilisés pour que les appelants externes et internes se déplacent dans un système de menus pour localiser et passer ou transférer des appels à des utilisateurs ou des services de votre organisation.
   
-Un employé automatique est le plus souvent un nœud dans un système, et il donne à l’appelant une série d’invites vocales ou de fichiers audio qu’il entend au lieu d’un opérateur humain. Lorsque des personnes appellent un numéro associé à un employé de service automatique, leurs choix peuvent rediriger l’appel vers un utilisateur ou rechercher une personne de votre organisation, puis se connecter à cet utilisateur. Ils peuvent exprimer leurs choix et interagir avec le système de menu à l’aide d’un clavier téléphonique (DTMF) ou d’une reconnaissance vocale. Les choix qu’ils font peuvent également rediriger l’appel vers un autre agent automatique ou vers une file d’attente d’appels.
+Un support automatique est le plus souvent un nœud dans un système, et il donne à l’appelant une série d’invites vocales ou de fichiers audio qu’il entend au lieu d’un opérateur humain. Lorsque des personnes appellent un numéro associé à un employé de service automatique, leurs choix peuvent rediriger l’appel vers un utilisateur ou rechercher une personne de votre organisation, puis se connecter à cet utilisateur. Ils peuvent exprimer leurs choix et interagir avec le système de menus à l’aide d’un clavier téléphonique (DTMF) ou d’une reconnaissance vocale. Les choix qu’ils font peuvent également rediriger l’appel vers un autre agent automatique ou vers une file d’attente d’appels.
   
 Pour configurer un attendant automatique pour phone system, voir Configurer un attendant automatique [cloud.](create-a-phone-system-auto-attendant.md)
   
@@ -82,11 +82,11 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
 
 La numérotation par nom est une fonctionnalité d’un service de service automatique également appelé recherche dans l’annuaire. Elle permet aux appelants d’utiliser la reconnaissance vocale ou leur clavier téléphonique (DTMF) pour saisir un nom complet ou partiel afin de rechercher dans l’annuaire de l’entreprise, de rechercher la personne et de lui transférer l’appel. Les utilisateurs que vous souhaitez avoir localisés et atteints à **l’aide** de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence De système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
 
-La numérotation par poste est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à  **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence De système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par poste dans un attendant automatique.
+La numérotation par extension est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à  **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence De système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous devez activer explicitement la fonction Numérotation par poste dans un attendant automatique.
 
 #### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
+Le nombre d’utilisateurs Active Directory dial by name and Dial by Extension peut être prise en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
   
 |Type d'entrée|Format de recherche|Nombre maximal d'utilisateurs dans une organisation|
 |:-----|:-----|:-----|
@@ -204,7 +204,7 @@ L’opérateur peut être définie sur :
 
 ### <a name="business-hours-and-call-handling"></a>Heures d'ouverture et traitement des appels
 
-Les heures d’ouverture peuvent être définies sur chaque employé de service automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et différents messages d’accueil (facultatifs) pour les heures d’ouverture et de fin d’activité.
+Les heures d’ouverture peuvent être définies sur chaque attendant automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et différents messages d’accueil (facultatifs) pour les heures d’ouverture et de fin d’activité.
   
 Chaque employé automatique dispose de plusieurs options de traitement des appels possibles :
   
@@ -231,7 +231,7 @@ Les touches 0 à 9 peuvent être affectées aux touches de numérotation d’un 
   
 Le nom de chaque option de menu devient un mot clé de reconnaissance vocale si la reconnaissance vocale a été activée. Par exemple, les appelants peuvent dire « Un » pour sélectionner l’option de menu mappée vers la touche 1, ou dire « Ventes » pour sélectionner la même option de menu appelée « Ventes ».
   
-Pour configurer un attendant automatique et les options de menu, allez [à Configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
+Pour configurer un attendant automatique et les options de menu, allez [configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Affectation de numéros de téléphone pour un employé de service automatique
 
@@ -242,7 +242,7 @@ Pour attribuer un numéro de service, vous devez obtenir ou porter vos numéros 
 > [!NOTE]
 > Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le Centre d’administration Microsoft Teams pour obtenir des numéros de service. Allez [à Gérer les numéros de téléphone pour votre](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) organisation à la place pour voir comment le faire.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
