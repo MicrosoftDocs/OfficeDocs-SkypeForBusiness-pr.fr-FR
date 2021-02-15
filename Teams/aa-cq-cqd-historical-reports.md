@@ -1,5 +1,5 @@
 ---
-title: Le standard automatique & rapport historique de la file d’attente des appels
+title: Standard automatique & historique de la file d’attente d’appels
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,169 +21,169 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Apprenez-en davantage sur l’utilisation du tableau de bord de qualité des appels dans le rapport Power BI pour afficher les données de l’historique des files d’attente et des appels.
-ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: Découvrez comment utiliser le tableau de bord de qualité des appels pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
+ms.openlocfilehash: ee54941150a5ba4ade64d6a54cb066f50df2e0a8
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130405"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196238"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>Le standard automatique & rapport historique de la file d’attente des appels
+# <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
-Le standard automatique d’équipes de bord & de la file d’attente du rapport historique de la file d’attente des appels fournit les trois rapports suivants :
+Le modèle Power BI du tableau de Standard automatique & de la file d’attente d’appels fournit les trois rapports suivants :
 
-- Standard automatique : affiche les données d’analyse pour les appels provenant de vos standards automatiques.
-- File d’attente des appels : affiche les données d’analyse des appels arrivant dans vos files d’attente d’appels.
-- Chronologie de l’agent : affichage de la chronologie des agents actives dans les appels de files d’attente d’appels.
+- Standard automatique pour afficher les données d’analyse des appels qui arrivent dans vos attendants automatiques.
+- File d’attente d’appels affichant les données d’analyse des appels qui arrivent dans vos files d’attente.
+- Chronologie de l’agent : affichage chronologique des agents actifs dans les appels de la file d’attente d’appels.
 
-Ils utilisent les données du magasin de données de [tableau de bord de qualité des appels](CQD-Power-BI-query-templates.md) et permettent aux organisations de signaler le nombre d’appels traités par les standards automatiques et les files d’attente d’appels comme performances d’agent dans les files d’attente d’appels.
+Ces rapports utilisent [](CQD-Power-BI-query-templates.md) des données du magasin de données Du tableau de bord de qualité des appels et permettent aux organisations de rapporter le nombre d’appels en cours de traitement par les travailleurs automatiques et les files d’attente d’appels, ainsi que les performances des agents dans les files d’attente.
 
-## <a name="what-are-the-requirements"></a>Quelle est la configuration requise ? 
+## <a name="what-are-the-requirements"></a>Quelles sont les exigences ? 
 
-Vous devez disposer de Power BI Desktop. Vous pouvez l’installer à partir de [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Power BI Desktop doit être installé. Vous pouvez l’installer à partir du [Microsoft Windows Store.](https://aka.ms/pbidesktopstore)
 
-Vous pouvez utiliser la version gratuite de Power BI Desktop. La version compatible minimum est 2.85.681.0 (2020 de septembre).
+Vous pouvez utiliser la version gratuite de Power BI Desktop. La version minimale compatible est la version 2.85.681.0 (septembre 2020).
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>Autorisations d’accès au pipeline bord
+## <a name="permissions-to-access-the-cqd-pipeline"></a>Autorisations d’accès au pipeline du DQD
 
-Le compte que vous utilisez pour afficher le rapport historique de l’analyse de l’état de la fonction AA & doit être autorisé à accéder au pipeline de données bord Pour plus d’informations, reportez-vous au [rôle d’accès bord](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) .
+Le compte que vous utilisez pour afficher le rapport historique & données de LQ Analytics doit être autorisé à accéder au pipeline de données du CQD. Pour plus d’informations, reportez-vous au rôle Accès du [CQD.](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)
 
 ## <a name="installation"></a>Installation 
 
-Les étapes suivantes partent du principe que vous avez déjà installé Power BI Desktop sur l’ordinateur et que votre compte dispose des autorisations nécessaires pour accéder au pipeline de données bord.
+Les étapes suivantes supposent que vous avez déjà installé Power BI Desktop sur l’ordinateur et que votre compte dispose des autorisations nécessaires pour accéder au pipeline de données du tableau de bord de qualité des données.
 
-Suivez la procédure ci-dessous :
+Effectuez les étapes suivantes :
 
-- Téléchargez les [modèles de requête Power bi bord](https://www.microsoft.com/download/details.aspx?id=102291) et enregistrez le fichier zip dans un répertoire de votre ordinateur.
+- Téléchargez [les modèles de requête Power BI du CQD](https://www.microsoft.com/download/details.aspx?id=102291) et enregistrez le fichier zip dans un répertoire sur votre ordinateur.
 
 - Double-cliquez sur le fichier zip pour l’ouvrir.
 
-- Double-cliquez sur le fichier de modèle "CQ et AA Combined Analytics 20201105. PBiT" et Power BI Desktop doit lancer.
+- Double-cliquez sur le fichier de modèle « CQ et AA combined Analytics 20201105.pbit » et Power BI Desktop doit se lancer.
 
-- Vous serez invité à sélectionner la région de pipeline de données bord. Sélectionnez la région où se trouve votre locataire.
+- Vous serez invité à sélectionner la région du pipeline de données du CQD. Sélectionnez la région dans laquelle se trouve votre client.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région de pipeline de données bord":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région du pipeline de données du CQD":::
 
- - Vous pouvez voir la région à l’aide de l’applet de requête PowerShell Skype entreprise Online (Get-CsTenant). Sortie ServiceInstance. 
- La région s’affichera après la mention/like dans cet exemple :
+ - Vous pouvez voir la région à l’aide de l’cmdlet Skype Entreprise Online PowerShell (Get-CsTenant). Sortie ServiceInstance. 
+ La région s’affichera après le / comme dans cet exemple :
 
-   microsoftcommunicationsonline/Noam-4a-S7 où la région est Noam.
+   microsoftligne/noam-4a-s7 où la région est noam.
  
- - Le rapport s’ouvre avec des exemples de données.
+ - Le rapport s’lance avec des exemples de données.
  
- - Pour afficher vos données, cliquez sur **Actualiser** dans l’onglet Accueil, sous requêtes dans Power bi Desktop.
+ - Pour voir vos propres  données, cliquez sur Actualiser sous l’onglet Accueil sous Requêtes dans Power BI Desktop.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation":::
 
-- Vous serez alors invité à vous connecter. Sélectionnez **compte d’organisation** , puis sélectionnez **se connecter**.
+- Vous serez alors invité à vous connectez. Sélectionnez **le compte de** l’organisation, puis **connectez-vous.**
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion":::
 
-- Sélectionnez **connexion** et observez l’actualisation des données.
+- Sélectionnez **Se connecter** et regardez les données s’actualiser.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse CQ de &
+## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse du & de qualité des données
 
-Les données seront disponibles dans le pipeline de données bord dans un délai de 30 minutes.
+Les données seront disponibles dans le pipeline de données du CQD dans les 30 minutes.
 
-Vous devez actualiser les données pour afficher les nouvelles données d’analyse. 
+Vous devez actualiser les données pour voir les nouvelles données d’analyse. 
 
 ## <a name="customization"></a>Personnalisation 
 
-Vous pouvez personnaliser certains aspects de visualisation des rapports, par exemple en ajoutant ou en supprimant des champs à afficher dans les différentes visualisations, en modifiant le type de graphique, etc.
+Vous pouvez personnaliser certains aspects des visualisations des rapports, par exemple en ajoutant ou en supprimant des champs à visualiser dans les différentes visualisations, en modifiant le type de graphique, etc.
 
-Vous ne pouvez pas ajouter d’autres champs de données que ceux indiqués dans le rapport.
+Vous ne pouvez pas ajouter d’autres champs de données que ceux fournis dans le rapport.
 
 ### <a name="change-color-schema"></a>Modifier le schéma de couleurs 
 
-Les étapes suivantes partent du principe que vous avez déjà effectué les étapes d’installation.
+Les étapes suivantes supposent que vous avez déjà effectué les étapes d’installation.
 
-Suivez la procédure ci-dessous :
-- Dans le ruban, sélectionnez l' **onglet Affichage** .
+Effectuez les étapes suivantes :
+- Sélectionnez **l’onglet** Affichage du ruban.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet Affichage pour modifier le modèle de couleurs":::
 
-- Sélectionnez le modèle de couleurs dans la liste déroulante.
+- Sélectionnez le schéma de couleurs dans la liste drop-down.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran montrant différents modèles de couleurs":::
 
-## <a name="cqd-fields-description"></a>Description des champs de bord
+## <a name="cqd-fields-description"></a>Description des champs du CQD
 
 |Nom                                    |Type de données                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Identité standard automatique                 |chaînes                   |Nom du compte de ressources associé à AA<br>Par exemple : aa_test@microsoft.com|
-|Heure de début de la chaîne de standard automatique         |DateHeure                 |Heure de début de la chaîne AA                    |
-|Méthode de recherche dans l’annuaire de standard automatique  |chaînes                   |Méthode de recherche du carnet d’adresses la plus récente        |
-|Action de transfert de standard automatique          |chaînes                   |Type de destination du transfert d’appel<br>valeurs possibles :<br>§ inconnu-le type d’entité n’a pas été spécifié.<br>§ entité utilisateur-utilisateur<br>§ orgaa-entité standard automatique de l’Organisation<br>§ hunt_group-entité de file d’attente des appels<br>§ entité-application voix application<br>§ external_pstn-entité RTC externe<br>§ shared_voicemail-entité de boîte vocale partagée|
-|Résultat de l’appel standard automatique              |chaînes                   |Résultat de l’appel :<br>§ inconnu<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Flux d’appels de standard automatique                |chaînes                   |Encapsule les différents États de l’appel standard automatique.<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ annonce|
-|Le standard automatique est-il impliqué              |Boolean                  |Indiqué si AA est impliqué dans l’appel |
-|Nombre d’actions d’appelant du standard automatique      |int                      |Nombre d’actions utilisées par l’appelant         |
-|Durée en chaîne du standard automatique   |int                      |Durée de l’appel de AA                 |
-|Résultat de la file d’attente d’appels                  |String                   |État final appel de la file d’attente<br>valeurs possibles :<br>erreur §<br>§ refusé<br>§ overflown<br>§ a échoué<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Action de l’état final de la file d’attente d’appels           |String                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ transférer<br>§ déconnexion<br>§ boîte vocale<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autres|
-|Identité de la file d’attente des appels                     |String                   |Nom du compte de ressource joint à la CQ<br>Par exemple : aa_test@microsoft.com|
-|La file d’attente d’appels est en mode conférence           |Boolean                  |Définissez sur 1 si le mode conférence est activé sur CQ. |
-|Type de cible de file d’attente d’appels                  |String                   |Type de cible de redirection d’appel attendu     |
-|Transféré de l’identité de la file d’attente    |Boolean                  |Nom du compte de ressources associé à la CQ à partir de laquelle cet appel a été transféré.<br>Par exemple : aa_test@microsoft.com|
-|Nombre d’activations de l’agent de file d’attente d’appels           |int                      |Nombre d’agents disponibles pour cette file d’attente au moment de l’appel |
-|Nombre d’agents de file d’attente d’appels                  |int                      |Nombre d’agents affectés à cette file d’attente au moment de l’appel |
-|La file d’attente d’appels est-elle impliquée                  |Boolean                  |Si la file d’attente d’appels est liée à cet appel, il est égal à 1 |
+|Standard automatique identité de l’entreprise                 |chaîne                   |Nom du compte de ressource joint à AA<br>Exemple : aa_test@microsoft.com|
+|Standard automatique début de la chaîne         |DateHeure                 |Heure de début d’une chaîne AA                    |
+|Standard automatique de recherche dans l’annuaire  |chaîne                   |Méthode de recherche du dernier carnet d’adresses        |
+|Standard automatique action de transfert          |chaîne                   |Type cible de transfert d’appel<br>valeurs possibles :<br>§ inconnu - Le type d’entité n’a pas été spécifié<br>§ user - user entity<br>§ orgaa - Entité Standard automatique organisation<br>§ hunt_group - Entité de la file d’attente d’appels<br>Application § - entité d’application vocale<br>§ external_pstn - entité PSTN externe<br>§ shared_voicemail - entité de messagerie vocale partagée|
+|Standard automatique’appel              |chaîne                   |Résultat de l’appel :<br>§ inconnu<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|Standard automatique Flux d’appels                |chaîne                   |Encapsule les différents états d’un Standard automatique<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ annonce|
+|Est Standard automatique concernée              |Boolean                  |Indiqué si AA participer à l’appel |
+|Standard automatique d’actions de l’appelant      |int                      |Nombre d’actions utilisées par l’appelant         |
+|Standard automatique durée de la chaîne   |int                      |Durée de l’appel dans AA                 |
+|Résultat des appels de la file d’attente d’appels                  |String                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>L’échec de §<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Action d’état final de la file d’attente d’appels           |String                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ avancer<br>§ déconnecter<br>§ messagerie vocale<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autre|
+|Identité de la file d’attente d’appels                     |String                   |Nom du compte de ressource joint au QQ<br>Exemple : aa_test@microsoft.com|
+|La file d’attente d’appels est en mode conférence           |Boolean                  |Définir sur 1 si le mode conférence est activé sur le QQ |
+|Type cible de la file d’attente d’appels                  |String                   |Type cible de redirection d’appel attendu     |
+|Transfert de l’identité de la file d’attente d’appels    |Boolean                  |Nom du compte de ressource joint au QQ à partir duquel cet appel a été transféré<br>Exemple : aa_test@microsoft.com|
+|Call Queue Agent Opt In Count           |int                      |Nombre d’agents disponibles dans cette file d’attente au moment de l’appel |
+|Nombre d’agents de la file d’attente d’appels                  |int                      |Nombre d’agents affectés à cette file d’attente au moment de l’appel |
+|La file d’attente d’appels est-elle concernée ?                  |Boolean                  |Si la file d’attente d’appels est impliquée dans cet appel, égalez 1 |
 
 
 ### <a name="power-bi-data-model-dimensions"></a>Dimensions du modèle de données Power BI
 
 |Nom                                    |Type de données                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Nom AA                                   |chaînes                   |ID standard automatique (ID du compte de ressources) |
-|AACallFlow                              |chaînes                   |Encapsule les différents États de l’appel standard automatique.<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ annonce |
-|AACallResult                            |chaînes                   |Résultat de l’appel standard automatique :<br>§ inconnu<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined-erreur de configuration AA<br>§ service_terminated-Erreurs AA internes<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |chaînes                   |Durée de l’appel standard automatique en secondes  |
-|AACount                                 |chaînes                   |nombre de standard automatique impliqué dans un appel         |
-|AADirectorySearchMethod                 |chaînes                   |Méthode de recherche utilisée dans l’appel :<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
-|AAStartTime                             |chaînes                   |Durée de l’appel au format UTC      |
-|AATransferAction                        |chaînes                   |Destinataire de l’appel :<br>§ inconnu-le type d’entité n’a pas été spécifié.<br>§ entité utilisateur-utilisateur<br>§ AA-entité de standard automatique de l’Organisation<br>§ CQ-entité de file d’attente d’appels<br>§ entité-application voix application<br>§ external_pstn-entité RTC externe<br>§ shared_voicemail-entité de boîte vocale partagée      |
+|Nom AA                                   |chaîne                   |Standard automatique DD (ID de compte de ressource) |
+|AACallFlow                              |chaîne                   |Encapsule les différents états d’un Standard automatique<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ annonce |
+|AACallResult                            |chaîne                   |Résultat de l Standard automatique’appel :<br>§ inconnu<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – erreur de configuration AA<br>§ service_terminated – Erreurs internes dans les AA<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
+|AAChainDuration                         |chaîne                   |Durée d’Standard automatique’appel en secondes  |
+|AACount                                 |chaîne                   |# des Standard automatique participer à un appel         |
+|AADirectorySearchMethod                 |chaîne                   |Méthode de recherche utilisée lors d’un appel :<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
+|AAStartTime                             |chaîne                   |Heure d’appel au UTC      |
+|AATransferAction                        |chaîne                   |Destinataire de l’appel :<br>§ inconnu - Le type d’entité n’a pas été spécifié<br>§ user - user entity<br>§ AA - Entité Standard automatique’organisation<br>§ CQ - Entité de la file d’attente d’appels<br>Application § - entité d’application vocale<br>§ external_pstn - entité PSTN externe<br>§ shared_voicemail - entité de messagerie vocale partagée      |
 |PSTNMinutes                             |int                      |Utilisation totale des minutes                          |
-|Résultat de la file d’attente d’appels                  |chaînes                   |État final appel de la file d’attente<br>valeurs possibles :<br>erreur §<br>§ refusé<br>§ overflown<br>§ a échoué<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
-|Identité de la file d’attente des appels                     |chaînes                   |Nom du compte de ressource joint à la CQ     |
-|Type de cible de file d’attente d’appels                  |chaînes                   |Type de cible de redirection d’appel attendu :<br>§ Utilisateur<br>Point de terminaison de l’application<br>§ Autres     |
-|Résultat de la file d’attente d’appels                  |chaînes                   |État final appel de la file d’attente<br>valeurs possibles :<br>erreur §<br>§ refusé<br>§ overflown<br>§ a échoué<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
-|Action de l’état final de la file d’attente d’appels           |chaînes                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ transférer<br>§ déconnexion<br>§ boîte vocale<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autres             |
-|Nom de l’agent                              |chaînes                   |Nom d’utilisateur principal               |
+|Résultat des appels de la file d’attente d’appels                  |chaîne                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>L’échec de §<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|Identité de la file d’attente d’appels                     |chaîne                   |Nom du compte de ressource joint au QQ     |
+|Type cible de la file d’attente d’appels                  |chaîne                   |Type cible de redirection d’appel attendu :<br>§ Utilisateur<br>§ Application Endpoint<br>§ Autre     |
+|Résultat des appels de la file d’attente d’appels                  |chaîne                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>L’échec de §<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
+|Action d’état final de la file d’attente d’appels           |chaîne                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ avancer<br>§ déconnecter<br>§ messagerie vocale<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autre             |
+|Nom de l’agent                              |chaîne                   |Nom d’utilisateur utilisateur (UPN)               |
 
 
 ### <a name="measures"></a>Mesures
 
 |Nom                                      |Type                       |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AACallerActionCount                     |int                        |# d’action sélectionnée par l’utilisateur dans AA lors de l’appel  |
+|AACallerActionCount                     |int                        |#of action selected by user in AA during the call  |
 |PSTNMinutes                             |int                      |Utilisation totale des minutes                                  |
-|TotalCallCount                          |int                      |nombre d’appels                                          |
-|Durée d’appel moyenne (secondes)         |int                      |Durée totale des appels dans la file d’attente d’appels en quelques secondes     |
+|TotalCallCount                          |int                      |Nombre d’appels                                          |
+|Durée moyenne de l’appel( secondes)         |int                      |Durée totale des appels de la file d’attente en secondes     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Standard automatique Description dans Graph Power BI
+### <a name="power-bi-graph-description-auto-attendant"></a>Description du graphique Power BI Standard automatique
 
 |Nom                                      |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Source d’appel entrant                    |Répartition des appels par source d’appel interne/externe      |
-|Totaux de la méthode de recherche d’annuaires          |Répartition de l’appel par type de recherche                         |
-|Action de l’appelant                           |Distribution de l’appel par le destinataire de l’appel                       |
-|Résultat de l’appel                             |Répartition de l’appel par état final de l’appel                    |
-|Nombre d’actions d’appelant                     |Répartition de l’appel par action au numéro utilisée pendant l’appel  |
+|Source d’appel entrant                    |Distribution de l’appel par source d’appel interne/externe<sup>1</sup>|
+|Totaux des méthodes de recherche dans l’annuaire          |Distribution de l’appel par type de recherche                         |
+|Action de l’appelant                           |Distribution de l’appel par récepteur d’appel                       |
+|Résultat de l’appel                             |Distribution de l’appel par état final de l’appel                    |
+|Nombre d’actions de l’appelant                     |Distribution de l’appel par action de numéro utilisée pendant l’appel  |
 
 
 ### <a name="call-queue"></a>File d’attente d’appels
 
 |Nom                                      |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Source d’appel entrant                    |Répartition des appels par source d’appel interne/externe         |
-|Volume d’appels                             |Répartition des appels par file d’attente d’appels                            |
-|Résultat de l’appelant                           |Répartition de l’appel par le résultat de l’appel                            |
-|Action de total des appels d’expiration/de dépassement de capacité      |Distribution de l’appel non transféré (abandonné) par le résultat de l’appel   |
-|Totaux des cibles de transfert/transfert          |Répartition des appels transférés par le résultat d’un appel                  |
-|Taux d’appels abandonnés                   |Rapport de réussite au nombre d’appels abandonnés                    |
-|Durée de session moyenne (secondes)        |Durée de l’appel en secondes groupées par appels abandonnés/réussis   |
+|Source d’appel entrant                    |Distribution de l’appel par source d’appel interne/externe<sup>1</sup>   |
+|Volume d’appels                             |Distribution des appels par files d’attente d’appels                            |
+|Résultat de l’appelant                           |Distribution de l’appel par résultat d’appel                            |
+|Action du total des appels en dépassement de délai/dépassement de capacité      |Distribution de NON-forwardé(abandonné) appel par résultat d’appel   |
+|Total cible de transfert/transfert          |Distribution de l’appel transmis par résultat d’appel                  |
+|Taux d’appels abandonnés                   |Ratio du nombre d’appels réussis à l’abandon                    |
+|Durée moyenne de la session (secondes)        |Durée des appels en secondes groupées par appels abandonnés/réussis   |
 
 
 
@@ -191,14 +191,16 @@ Suivez la procédure ci-dessous :
 
 |Nom                                                      |Description                            |
 |:-------------------------------------------------------|:--------------------------------------|
-|# appels par agent                                        |Répartition de l’appel par file d’attente et par agent                 |
-|Durée totale de l’appel (secondes) par agent et file d’attente d’appels   |Durée totale (secondes) d’appel par agent et file d’attente d’appels     |
-|Durée d’appel moyenne (secondes) par nom d’agent            |Durée moyenne (secondes) d’un appel par agent                  |
+|# appels par un agent                                        |Distribution de l’appel par file d’attente d’appels et par agent                 |
+|Durée totale des appels (secondes) par l’agent et la file d’attente d’appels   |Durée totale (secondes) des appels par l’agent et la file d’attente d’appels     |
+|Durée moyenne d’appel (secondes) par nom de l’agent            |Durée moyenne (secondes) d’un appel par un agent                  |
 
 
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- Pour l’instant, les appels d’attente et de standard automatique affichent l’ID du compte de ressource au lieu des noms des files d’attente/standard automatique.  Pour afficher tout le trafic d’un standard automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources affectés au standard automatique ou à la file d’attente d’appels.
+- La file d’attente d’appels et les files d’attente automatiques sont indiqués par l’ID du compte de ressource au lieu des noms des files d’attente/des files d’attente automatiques.  Pour afficher tout le trafic d’un attendant automatique ou d’une file d’attente d’appels, vous devez sélectionner tous les comptes de ressources attribués au attendant automatique ou à la file d’attente d’appels.
 
-- Pour l’instant, un seul 28 jours d’historique est disponible dans le tableau de bord en tant que données d’identification de l’utilisateur final et sont soumises aux politiques de rétention de confidentialité des données.
+- Seuls 28 jours d’historique sont disponibles dans le tableau de bord, car les données de la file d’attente des appels/du attendant automatique sont considérées comme des informations d’identification de l’utilisateur final et sont soumises à des stratégies de rétention des données.
+
+- <sup>1 Source</sup> **d’appel entrant** dans le attendant automatique et les graphiques de la file d’attente d’appels indiquent la source de la partie de l’appel final plutôt que la source initiale de la partie de l’appel. Par exemple, si un attendant automatique reçoit un appel externe et transfère l’appel vers un autre responsable automatique ou une file d’attente d’appels, la **source** d’appel entrant est signalée comme interne.

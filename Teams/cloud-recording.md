@@ -18,12 +18,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: dba51380f2c82e55c23f9667641ddb0ea9373f06
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055636"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196188"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -32,7 +32,7 @@ Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et ap
 En relation avec la [Réunion Teams de qui enregistre la documentation de l’utilisateur final](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](tmr-meeting-recording-change.md) auront une approche progressive.Au moment du lancement, vous pourrez choisir de participer à cette expérience. En novembre, vous devrez vous désengager si vous souhaitez continuer à utiliser Stream et début 2021, nous demanderons à tous les clients d'utiliser OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunions.
+> Les modifications apportées à l’utilisation de Microsoft Stream pour OneDrive Entreprise et SharePoint pour les enregistrements de réunion auront une approche progressive. Pour plus d’informations sur chaque phase, voir Utiliser OneDrive Entreprise [et SharePoint ou Stream pour les enregistrements de réunion.](tmr-meeting-recording-change.md)
 
 > [!NOTE]
 > Pour obtenir plus d’informations sur l’utilisation des rôles dans les réunions Teams et la méthode pour modifier les rôles des utilisateurs, voir [Rôles dans une réunion Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -55,7 +55,7 @@ Microsoft Stream doit être activé pour que les réunions d’un utilisateur Te
 > Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais stockés dans Async Media Services (AMS) avec une limite de 21 jours avant sa suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
 
 > [!IMPORTANT]
-> Notez également que, pour les enregistrements qui se trouve sur AMS, la conservation de l’enregistrement est affectée par le message de conversation proprement dit. Ainsi, toute suppression du message de conversation d’enregistrement AMS d’origine empêchera les utilisateurs d’accéder à l’enregistrement. Deux scénarios peuvent affecter ce scénario. 1) Un utilisateur supprime manuellement le message de conversation. Dans ce scénario, étant passé le message d’origine, les utilisateurs ne peuvent plus accéder à l’enregistrement et aucun autre téléchargement n’est possible. Toutefois, l’enregistrement lui-même peut être conservé au sein des systèmes internes de Microsoft pendant un certain temps (sans dépasser la période de 21 jours d’origine). 2) L’enregistrement des messages de conversation est supprimé par la stratégie de rétention des discussions : les enregistrements AMS sont directement liés à la stratégie de rétention de la conversation. Ainsi, bien que les enregistrements sur AMS soient conservés par défaut pendant 21 jours avant d’être supprimés, si le message de conversation est supprimé avant la période de 21 jours, en raison de stratégies de rétention des messages de conversation, l’enregistrement est également supprimé. Après cela, il n’est plus possible de récupérer l’enregistrement.
+> Notez également que, pour les enregistrements qui se trouve sur AMS, la conservation de l’enregistrement est affectée par le message de conversation proprement dit. Ainsi, toute suppression du message de conversation d’enregistrement AMS d’origine empêchera les utilisateurs d’accéder à l’enregistrement. Deux scénarios peuvent affecter ce scénario. 1) Un utilisateur supprime manuellement le message de conversation. Dans ce scénario, étant passé le message d’origine, les utilisateurs ne peuvent plus accéder à l’enregistrement et aucun téléchargement supplémentaire ne sera possible. Toutefois, l’enregistrement lui-même peut être conservé au sein des systèmes internes de Microsoft pendant un certain temps (sans dépasser la période de 21 jours d’origine). 2) L’enregistrement d’un message de conversation est supprimé par la stratégie de rétention des discussions : les enregistrements AMS sont directement liés à la stratégie de rétention de la conversation. Ainsi, bien que les enregistrements sur AMS soient conservés par défaut pendant 21 jours avant d’être supprimés, si le message de conversation est supprimé avant la période de 21 jours, en raison de stratégies de rétention des messages de conversation, l’enregistrement est également supprimé. Il n’est plus possible de récupérer l’enregistrement après cela.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurer l’Enregistrement de réunion cloud Teams pour les utilisateurs de votre organisation
 
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Où sont stockées vos Enregistrements de réunions
 
-Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données. La fonctionnalité d’enregistrement de la réunion peut être désactivée pour les clients dont les données sont censées être stockées à l’étranger, même si Microsoft Stream n’est pas disponible dans la région de résidence de données à l’étranger. Pour ce faire, vous pouvez conserver les enregistrements dans la zone géographique la plus proche de Microsoft Stream. 
+Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données. La fonctionnalité d’enregistrement de la réunion peut être désactivée pour les clients dont les données sont censées être stockées à l’étranger, même si Microsoft Stream n’est pas disponible dans la région de résidence de données à l’étranger. Pour ce faire, vous pouvez autoriser les enregistrements à être stockés dans la zone géographique la plus proche pour Microsoft Stream. 
 
 Si vos données Teams sont stockées dans le pays et que vous préférez stocker les enregistrements de réunions dans le pays, nous vous conseillons de désactiver la fonctionnalité, puis de les activer une fois Microsoft Stream déployé sur votre pays ou région de résidence dans le pays. Pour désactiver la fonctionnalité pour tous les utilisateurs de votre organisation, désactivez le paramètre **Autoriser l’enregistrement dans le cloud** dans la stratégie de réunion globale Teams qui se trouve dans le Centre d’administration Microsoft Teams. Si, toutefois, vous souhaitez encore activer le stockage des enregistrement dans la région géographique la plus proche pour Microsoft Stream, vous devez activer **Autoriser l'enregistrement dans le cloud** et **Autoriser le stockage d’enregistrement en dehors de la région** avant que cette modification intervienne.
 
