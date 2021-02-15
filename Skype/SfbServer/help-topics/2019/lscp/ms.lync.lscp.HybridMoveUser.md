@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836544"
 ---
-# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="e7daa-104">Assistant hybride : déplacer un utilisateur</span><span class="sxs-lookup"><span data-stu-id="e7daa-104">Hybrid wizard: Move User</span></span>
+# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="1c4fc-104">Assistant hybride : déplacer un utilisateur</span><span class="sxs-lookup"><span data-stu-id="1c4fc-104">Hybrid wizard: Move User</span></span>
 
-<span data-ttu-id="e7daa-105">Utilisez l’Assistant Déplacement des utilisateurs pour déplacer les comptes d’utilisateurs d’un pool local vers Skype Entreprise Online.</span><span class="sxs-lookup"><span data-stu-id="e7daa-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="e7daa-106">Pour plus d’informations, [voir Utiliser l’Assistant Gestion hybride.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="e7daa-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="1c4fc-105">Utilisez l’Assistant Déplacement des utilisateurs pour déplacer les comptes d’utilisateurs d’un pool local vers Skype Entreprise Online.</span><span class="sxs-lookup"><span data-stu-id="1c4fc-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="1c4fc-106">Pour plus d’informations, [voir Utiliser l’Assistant Gestion hybride.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="1c4fc-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

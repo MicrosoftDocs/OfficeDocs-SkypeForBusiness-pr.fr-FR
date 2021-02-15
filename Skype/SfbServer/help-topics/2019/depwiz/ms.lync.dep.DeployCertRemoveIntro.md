@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836964"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="1b22a-104">Supprimer un certificat (introduction)</span><span class="sxs-lookup"><span data-stu-id="1b22a-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="a181d-104">Supprimer un certificat (introduction)</span><span class="sxs-lookup"><span data-stu-id="a181d-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="1b22a-p102">Dans la page introductive **Supprimer le certificat**, lisez attentivement les informations sur les conséquences de la suppression d’un certificat. Une fois que vous avez lu ces informations, cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="1b22a-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="a181d-p102">Dans la page introductive **Supprimer le certificat**, lisez attentivement les informations sur les conséquences de la suppression d’un certificat. Une fois que vous avez lu ces informations, cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="a181d-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
   
 

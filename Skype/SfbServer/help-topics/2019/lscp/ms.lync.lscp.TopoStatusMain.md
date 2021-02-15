@@ -22,21 +22,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836154"
 ---
-# <a name="topology-status"></a><span data-ttu-id="05a4c-103">Topologie : état</span><span class="sxs-lookup"><span data-stu-id="05a4c-103">Topology: Status</span></span>
+# <a name="topology-status"></a><span data-ttu-id="8729e-103">Topologie : état</span><span class="sxs-lookup"><span data-stu-id="8729e-103">Topology: Status</span></span>
 
-<span data-ttu-id="05a4c-104">La **page Topologie**: **État** affiche l’état des serveurs dans votre topologie Skype Entreprise.</span><span class="sxs-lookup"><span data-stu-id="05a4c-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span></span>
+<span data-ttu-id="8729e-104">La **page Topologie**: **État** affiche l’état des serveurs dans votre topologie Skype Entreprise.</span><span class="sxs-lookup"><span data-stu-id="8729e-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="05a4c-105">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="05a4c-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="8729e-105">Tâches que vous pouvez effectuer</span><span class="sxs-lookup"><span data-stu-id="8729e-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="05a4c-106">Vous pouvez effectuer les tâches suivantes dans la page **Topologie** : **Statut** :</span><span class="sxs-lookup"><span data-stu-id="05a4c-106">You can perform the following tasks on the **Topology**: **Status** page:</span></span>
+<span data-ttu-id="8729e-106">Vous pouvez effectuer les tâches suivantes dans la page **Topologie** : **Statut** :</span><span class="sxs-lookup"><span data-stu-id="8729e-106">You can perform the following tasks on the **Topology**: **Status** page:</span></span>
 
-- [<span data-ttu-id="05a4c-107">Afficher la liste des ordinateurs exécutant Skype Entreprise Server ou Lync Server</span><span class="sxs-lookup"><span data-stu-id="05a4c-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="8729e-107">Afficher la liste des ordinateurs exécutant Skype Entreprise Server ou Lync Server</span><span class="sxs-lookup"><span data-stu-id="8729e-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
-- [<span data-ttu-id="05a4c-108">Afficher les détails d’un service</span><span class="sxs-lookup"><span data-stu-id="05a4c-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="8729e-108">Afficher les détails d’un service</span><span class="sxs-lookup"><span data-stu-id="8729e-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 
-- [<span data-ttu-id="05a4c-109">Démarrer ou arrêter les services</span><span class="sxs-lookup"><span data-stu-id="05a4c-109">Start or Stop Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="8729e-109">Démarrer ou arrêter les services</span><span class="sxs-lookup"><span data-stu-id="8729e-109">Start or Stop Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
 
-- [<span data-ttu-id="05a4c-110">Empêcher les nouvelles connexions aux services</span><span class="sxs-lookup"><span data-stu-id="05a4c-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="8729e-110">Empêcher les nouvelles connexions aux services</span><span class="sxs-lookup"><span data-stu-id="8729e-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
 
 

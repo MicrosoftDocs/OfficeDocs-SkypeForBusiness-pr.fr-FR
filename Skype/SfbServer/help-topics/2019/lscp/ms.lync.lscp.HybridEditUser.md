@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836564"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="d5b23-104">Assistant hybride : modification des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="d5b23-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="e226f-104">Assistant hybride : modification des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="e226f-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="d5b23-105">Utilisez l’Assistant Modifier les utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="d5b23-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="d5b23-106">Pour plus d’informations, [voir Utiliser l’Assistant Gestion hybride.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="d5b23-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="e226f-105">Utilisez l’Assistant Modifier les utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="e226f-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="e226f-106">Pour plus d’informations, [voir Utiliser l’Assistant Gestion hybride.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="e226f-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

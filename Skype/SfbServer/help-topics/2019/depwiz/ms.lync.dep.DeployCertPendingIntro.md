@@ -22,8 +22,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49837004"
 ---
-# <a name="pending-certificate-intro"></a><span data-ttu-id="ecb2b-103">Certificat en attente (introduction)</span><span class="sxs-lookup"><span data-stu-id="ecb2b-103">Pending Certificate (Intro)</span></span>
+# <a name="pending-certificate-intro"></a><span data-ttu-id="46c07-103">Certificat en attente (introduction)</span><span class="sxs-lookup"><span data-stu-id="46c07-103">Pending Certificate (Intro)</span></span>
  
-<span data-ttu-id="ecb2b-104">Pour traiter une demande de certificat en ligne en attente, c'est-à-dire une requête déposée auprès de votre autorité de certification en ligne mais qui, de par sa configuration, requiert un processus d'approbation manuel, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="ecb2b-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
+<span data-ttu-id="46c07-104">Pour traiter une demande de certificat en ligne en attente, c'est-à-dire une requête déposée auprès de votre autorité de certification en ligne mais qui, de par sa configuration, requiert un processus d'approbation manuel, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="46c07-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
   
 

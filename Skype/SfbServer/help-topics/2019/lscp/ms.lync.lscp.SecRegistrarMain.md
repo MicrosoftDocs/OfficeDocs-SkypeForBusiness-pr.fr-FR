@@ -22,15 +22,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836424"
 ---
-# <a name="registrar-security-settings"></a><span data-ttu-id="140ca-104">Paramètres de sécurité du serveur d’inscriptions</span><span class="sxs-lookup"><span data-stu-id="140ca-104">Registrar Security Settings</span></span>
+# <a name="registrar-security-settings"></a><span data-ttu-id="3cbb6-104">Paramètres de sécurité du serveur d’inscriptions</span><span class="sxs-lookup"><span data-stu-id="3cbb6-104">Registrar Security Settings</span></span>
 
-<span data-ttu-id="140ca-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="140ca-105">What do you want to do?</span></span> <span data-ttu-id="140ca-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="140ca-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3cbb6-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="3cbb6-105">What do you want to do?</span></span> <span data-ttu-id="3cbb6-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="3cbb6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="140ca-107">Gérer les paramètres de configuration du serveur d’inscriptions dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="140ca-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="3cbb6-107">Gérer les paramètres de configuration du serveur d’inscriptions dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="3cbb6-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
 
-- [<span data-ttu-id="140ca-108">Modifier un bureau d’enregistrement existant</span><span class="sxs-lookup"><span data-stu-id="140ca-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="3cbb6-108">Modifier un bureau d’enregistrement existant</span><span class="sxs-lookup"><span data-stu-id="3cbb6-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
-- [<span data-ttu-id="140ca-109">Supprimer un bureau d’enregistrement</span><span class="sxs-lookup"><span data-stu-id="140ca-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="3cbb6-109">Supprimer un bureau d’enregistrement</span><span class="sxs-lookup"><span data-stu-id="3cbb6-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
 
 

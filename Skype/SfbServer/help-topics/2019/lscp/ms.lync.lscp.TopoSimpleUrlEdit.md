@@ -22,15 +22,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836214"
 ---
-# <a name="topology-view-simple-url-detail"></a><span data-ttu-id="e4538-104">Topologie : afficher des détails d’URL simple</span><span class="sxs-lookup"><span data-stu-id="e4538-104">Topology: View Simple URL Detail</span></span>
+# <a name="topology-view-simple-url-detail"></a><span data-ttu-id="4246a-104">Topologie : afficher des détails d’URL simple</span><span class="sxs-lookup"><span data-stu-id="4246a-104">Topology: View Simple URL Detail</span></span>
 
-<span data-ttu-id="e4538-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="e4538-105">What do you want to do?</span></span> <span data-ttu-id="e4538-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="e4538-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4246a-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="4246a-105">What do you want to do?</span></span> <span data-ttu-id="4246a-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="4246a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e4538-107">Modifier ou configurer les URL simples</span><span class="sxs-lookup"><span data-stu-id="e4538-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [<span data-ttu-id="4246a-107">Modifier ou configurer les URL simples</span><span class="sxs-lookup"><span data-stu-id="4246a-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 
-- [<span data-ttu-id="e4538-108">Affichage des informations relatives aux URL simples</span><span class="sxs-lookup"><span data-stu-id="e4538-108">View Simple URL Details</span></span>](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
+- [<span data-ttu-id="4246a-108">Affichage des informations relatives aux URL simples</span><span class="sxs-lookup"><span data-stu-id="4246a-108">View Simple URL Details</span></span>](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
 
-- [<span data-ttu-id="e4538-109">Gestion des URL simples</span><span class="sxs-lookup"><span data-stu-id="e4538-109">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [<span data-ttu-id="4246a-109">Gestion des URL simples</span><span class="sxs-lookup"><span data-stu-id="4246a-109">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
 
 
 
