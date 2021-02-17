@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le parc d’appels et récupérer pour mettre un appel en attente dans Microsoft Teams.
-ms.openlocfilehash: e64d9dafec0f3a4b65abc532ecfa60583fe6da84
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424592"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260326"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -34,14 +34,14 @@ La fonctionnalité Parcer et récupérer des appels permet à un utilisateur de 
 
 Voici quelques-uns des scénarios courants d’utilisation du parc d’appels :
 
-- Un appelant appelle une personne travaillant dans une usine. Le réceptioniste annonce ensuite l’appel et le numéro de code sur le système d’adresses public. L’utilisateur pour qui l’appel est en cours peut alors prendre un téléphone Teams aux ateliers et entrer le code pour récupérer l’appel.
+- Un réceptioniste appelle une personne travaillant dans une usine. Le réceptioniste annonce ensuite l’appel et le numéro de code sur le système d’adresses public. L’utilisateur pour qui l’appel est en cours peut alors prendre un téléphone Teams aux ateliers et entrer le code pour récupérer l’appel.
 - Un utilisateur relaient un appel sur un appareil mobile parce que la batterie de l’appareil est à court de courant. L’utilisateur peut ensuite entrer le code pour récupérer l’appel à partir d’un téléphone de bureau Teams.
 - Un représentant du support technique appelle un client et envoie une annonce sur un canal Teams pour qu’un expert récupère l’appel et aide le client. Un expert entre le code dans les clients Teams pour récupérer l’appel
 
 Pour parer et récupérer des appels, un utilisateur doit être un Voix Entreprise et être inclus dans une stratégie de parc d’appels.
 
 > [!NOTE]
-> Le parcage et la récupération d’appels sont uniquement disponibles en mode déploiement [de Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) uniquement et ne sont pas pris en charge sur les téléphones IP Skype Entreprise.
+> Le parcage et la récupération d’appels sont uniquement disponibles en mode de [déploiement de Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) uniquement et ne sont pas pris en charge sur les téléphones IP Skype Entreprise.
 
 ## <a name="configure-call-park-and-retrieve"></a>Configurer le parc d’appel et la récupération
 
@@ -49,7 +49,7 @@ Vous devez être un administrateur Teams pour configurer le parc d’appels et l
 
 Pour activer une stratégie de parc d’appels
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez **aux** stratégies  >  **de parcation de l’appel vocal.**
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez **à** La stratégie du  >  **parc des appels vocux.**
 2. Sous **l’onglet Gérer les stratégies,** cliquez sur **Ajouter.**
 3. Donnez un nom à la stratégie, puis basculez **l’accès au parc d’appels** **sur On.**
 
@@ -72,7 +72,7 @@ Pour affecter une stratégie de pièce d’appel à un groupe
 
 5. Cliquez sur **Appliquer**.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Pare-tête dans Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

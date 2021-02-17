@@ -22,14 +22,15 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez les modèles Microsoft Teams avec Microsoft Graph pour créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c2e10efbff98150b120d1c026d4d810629333f2
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ROBOTS: NOINDEX
+ms.openlocfilehash: e288bc68c8160fb80d4e56a6477437e0a79fea0a
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790406"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260336"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Commencer à utiliser les modèles Teams pour les organisations de soins de santé
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Commencer à utiliser les modèles Teams pour les organismes de santé
 
 Les modèles Microsoft Teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications préinstallées.
 
@@ -50,7 +51,7 @@ Le modèle sont conçus pour la communication et la collaboration au sein d’un
 
 ## <a name="hospital-template"></a>Modèle d’hôpital
 
-Le modèle de l’hôpital est destiné à la communication et à la collaboration entre plusieurs gardiens, pods et services au sein d’un hôpital. Plusieurs canaux opérationnels sont inclus dans ce modèle, notamment Les *annonces,* Les Événements et Les Précédents, mais nous fournissons également un script ci-dessous qui étend le modèle avec toute une série de canaux supplémentaires ou spécialisés que vous pouvez ajouter, supprimer ou modifier à votre convenance. Par exemple, si  vous avez un service de Quézy, mais que vous n’avez pas besoin d’un canal pour *Acécé,* le script peut être adapté afin d’inclure un canal *#A0* et de supprimer le canal acédant.  Nous recommandons que ces canaux spécialisés ou modelés ne soient pas marqués automatiquement pour éviter une saturation des notifications. Généralement, les utilisateurs préfèrent les canaux qu’ils trouvent pertinents.
+Le modèle de l’hôpital est destiné à la communication et à la collaboration entre plusieurs gardiens, pods et services au sein d’un hôpital. Plusieurs canaux opérationnels sont inclus dans ce modèle, notamment Les *annonces,* Les Événements et Les Précédents, mais nous fournissons également un script ci-dessous qui étend le modèle avec toute une série de canaux supplémentaires ou spécialisés que vous pouvez ajouter, supprimer ou modifier à votre convenance. Par exemple, si vous avez un service de *Quézy,* mais que vous n’avez  pas besoin de canal pour Acécédant, le script peut être adapté afin d’inclure un canal #A0 et de supprimer le canal acédant.  Nous recommandons que ces canaux spécialisés ou modelés ne soient pas marqués automatiquement pour éviter une saturation des notifications. Généralement, les utilisateurs préfèrent les canaux qu’ils trouvent pertinents.
 
 |Type de modèle de base |baseTemplateId |Canaux de modèle de référence|
 |:--- |:---|:---|
@@ -168,7 +169,7 @@ Pour utiliser ces modèles, modifiez simplement la propriété « template@odata
 
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Prise en main des modèles Teams](../../get-started-with-teams-templates.md)
 
