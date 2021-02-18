@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le parc d’appels et récupérer pour mettre un appel en attente dans Microsoft Teams.
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260326"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278714"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -34,18 +34,18 @@ La fonctionnalité Parcer et récupérer des appels permet à un utilisateur de 
 
 Voici quelques-uns des scénarios courants d’utilisation du parc d’appels :
 
-- Un réceptioniste appelle une personne travaillant dans une usine. Le réceptioniste annonce ensuite l’appel et le numéro de code sur le système d’adresses public. L’utilisateur pour qui l’appel est en cours peut alors prendre un téléphone Teams aux ateliers et entrer le code pour récupérer l’appel.
+- Un réceptioniste appelle une personne travaillant dans une usine. Le réceptioniste annonce ensuite l’appel et le numéro de code sur le système d’adresses public. L’utilisateur pour qui l’appel est en cours peut alors prendre un téléphone Teams en usine et entrer le code pour récupérer l’appel.
 - Un utilisateur relaient un appel sur un appareil mobile parce que la batterie de l’appareil est à court de courant. L’utilisateur peut ensuite entrer le code pour récupérer l’appel à partir d’un téléphone de bureau Teams.
 - Un représentant du support technique appelle un client et envoie une annonce sur un canal Teams pour qu’un expert récupère l’appel et aide le client. Un expert entre le code dans les clients Teams pour récupérer l’appel
 
 Pour parer et récupérer des appels, un utilisateur doit être un Voix Entreprise et être inclus dans une stratégie de parc d’appels.
 
 > [!NOTE]
-> Le parcage et la récupération d’appels sont uniquement disponibles en mode de [déploiement de Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) uniquement et ne sont pas pris en charge sur les téléphones IP Skype Entreprise.
+> Le parcage et la récupération d’appels sont uniquement disponibles en mode déploiement [de Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) uniquement et ne sont pas pris en charge sur les téléphones IP Skype Entreprise.
 
 ## <a name="configure-call-park-and-retrieve"></a>Configurer le parc d’appel et la récupération
 
-Vous devez être un administrateur Teams pour configurer le parc d’appels et la récupération. Il est désactivé par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parc d’appels. Lorsque vous appliquez la même stratégie à un groupe d’utilisateurs, ceux-là peuvent se parer et récupérer des appels entre eux.
+Vous devez être un administrateur Teams pour configurer le parc d’appels et la récupération. Il est désactivé par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parc d’appels. Lorsque vous appliquez la même stratégie à un groupe d’utilisateurs, ceux-là peuvent se parer et récupérer les appels entre eux.
 
 Pour activer une stratégie de parc d’appels
 
@@ -59,7 +59,7 @@ Pour activer une stratégie de parc d’appels
 
 Vous pouvez modifier la stratégie en la sélectionnant dans la liste, puis en cliquant sur **Modifier.**
 
-Pour que la stratégie fonctionne, elle doit être affectée aux utilisateurs. Vous pouvez [affecter la stratégie à des utilisateurs individuellement](assign-policies.md) ou à un groupe.
+Pour que la stratégie fonctionne, elle doit être attribuée aux utilisateurs. Vous pouvez [affecter la stratégie à des utilisateurs individuellement](assign-policies.md) ou à un groupe.
 
 Pour affecter une stratégie de pièce d’appel à un groupe
 
@@ -68,9 +68,9 @@ Pour affecter une stratégie de pièce d’appel à un groupe
 3. Choisissez un rang comparé aux autres affectations de groupe.
 4. Sous **Sélectionner une stratégie,** choisissez la stratégie à qui vous voulez affecter ce groupe.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![Image stratégies de parc](media/call-park-assign-policy-to-group.png)
 
-5. Cliquez sur **Appliquer**.
+5. Sélectionnez **Appliquer.**
 
 ## <a name="related-topics"></a>Voir aussi
 

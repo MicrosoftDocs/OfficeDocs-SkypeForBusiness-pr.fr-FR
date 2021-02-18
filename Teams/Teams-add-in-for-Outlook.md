@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
-ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
+ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037800"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278554"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -77,7 +77,7 @@ Pour plus d’informations, consultez l’article[Planifier des réunions avec F
 
 ## <a name="authentication-requirements"></a>Exigences d'authentification
 
-Le complément Réunion Teams requiert de se connecter à Teams en utilisant l'authentification moderne. Si les utilisateurs n'utilisent pas cette méthode pour se connecter, ils pourront continuer à utiliser le client Teams mais ne pourront pas planifier de réunions en ligne Teams à l'aide du complément Outlook. Vous pouvez résoudre ce problème de l'une des manières suivantes :
+Le complément Réunion Teams requiert de se connecter à Teams en utilisant l'authentification moderne. Si les [utilisateurs](https://www.microsoft.com/microsoft-teams/online-meetings) n’utilisent pas cette méthode pour se connecter, ils pourront toujours utiliser le client Teams, mais ne pourront pas planifier de réunions En ligne Teams à l’aide du module ajoute Outlook. Vous pouvez résoudre ce problème de l'une des manières suivantes :
 
 - Si l'authentification moderne n'est pas configurée pour votre organisation, vous devez la configurer.
 - Si l'authentification moderne est configurée, mais qu'ils l'ont annulée dans la boîte de dialogue, vous devez demander aux utilisateurs de se connecter à nouveau en utilisant l'authentification multifacteur.

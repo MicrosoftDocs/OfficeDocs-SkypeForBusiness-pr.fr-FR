@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 6dd82c786c30fb4f2ac2ae70f2df6810cfe5d6ad
+ms.sourcegitcommit: 75d710e3858f79ef601cd92e435a4a29dae0aba0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923836"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50285618"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Installer, gérer et attribuer des autorisations pour l’application Teams Learning (prévisualisation privée)
 
 *Cet article contient du contenu préliminaire pour l’application Teams Learning, qui est en version d’évaluation privée.*
 
-L’application Microsoft Teams Learning (pré-version préliminaire privée) permet aux équipes et aux individus de votre organisation de faire de l’apprentissage une partie naturelle de leur journée. L’application crée un hub central dans Teams dans lequel les employés peuvent partager, attribuer et apprendre des bibliothèques de contenu au sein de votre organisation. Les administrateurs définissent des autorisations et autorisent les sources de contenu d’apprentissage pour l’application. Le contenu d’apprentissage peut inclure LinkedIn Learning, Microsoft Learn, une formation Microsoft 365, le contenu de votre organisation stocké dans SharePoint Online et des fournisseurs tiers pris en charge par l’application.
+L’application Microsoft Teams Learning (pré-version préliminaire privée) permet aux équipes et aux membres de votre organisation de faire de l’apprentissage une partie naturelle de leur journée. L’application crée un hub central dans Teams dans lequel les employés peuvent partager, attribuer et apprendre des bibliothèques de contenu au sein de votre organisation. Les administrateurs définissent des autorisations et autorisent les sources de contenu d’apprentissage pour l’application. Le contenu d’apprentissage peut inclure LinkedIn Learning, Microsoft Learn, une formation Microsoft 365, le contenu de votre organisation stocké dans SharePoint Online et des fournisseurs tiers pris en charge par l’application.
 
 Pour configurer l’application Teams Learning (prévisualisation privée), vous devez impliquer :
 
@@ -43,7 +43,7 @@ L’administrateur Teams installe l’application Teams Learning (prévisualisat
 
 Pour gérer les paramètres de l’application, suivez ces étapes :
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les **applications Teams**  >  **Gérer les applications.**
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **l’application Teams** Gérer  >  **les applications.**
 
    ![Navigation gauche dans le Centre d’administration Teams affichant les applications Teams et la section Gérer les applications](media/learning-app-teams-manage-apps-nav.png)
 
@@ -62,7 +62,7 @@ Pour gérer les paramètres de l’application, suivez ces étapes :
 > [!NOTE]
 >  Si votre organisation fait partie de l’anneau 4.0 dans le cadre du programme Teams TAP100, vous devrez peut-être faire ce qui suit pour permettre aux utilisateurs approuvés de l’anneau 3.0 d’accéder à l’application Teams Learning (prévisualisation privée).
 
-Dans le cadre de la prévisualisation privée, l’application Teams Learning (prévisualisation privée) est publiée dans l’anneau 3.0. Si votre organisation est sous l’anneau 4.0, vous ne verrez pas l’application dans l’App Store. Pour tester l’application, vous devez créer une stratégie d’autorisation d’applications personnalisée, la définir sur Autoriser toutes les applications et l’affecter aux utilisateurs approuvés Ring 3.0.
+Dans le cadre de la prévisualisation privée, l’application Teams Learning (prévisualisation privée) est publiée dans l’anneau 3.0. Si votre organisation est sous l’anneau 4.0, l’application n’est pas dans l’App Store. Pour tester l’application, vous devez créer une stratégie d’autorisation d’applications personnalisée, la définir sur Autoriser toutes les applications et l’affecter aux utilisateurs approuvés Ring 3.0.
 
    ![Page TAP-AppsPermission-Plcy affichant l’affichage Autoriser toutes les applications sélectionné](media/learning-app-tap-appspermission-plcy.png)
 
@@ -70,7 +70,10 @@ Dans le cadre de la prévisualisation privée, l’application Teams Learning (p
 
 Les administrateurs du Centre d’administration Microsoft 365 peuvent gérer les paramètres liés à l’application Teams Learning (prévisualisation privée) et configurer les sources de contenu d’apprentissage.
 
-L’administrateur sélectionne les sources de contenu d’apprentissage (telles que LinkedIn Learning ou SharePoint) qui seront disponibles dans l’application. L’administrateur configure ensuite ces sources pour s’assurer que le contenu est disponible pour la recherche et la découverte et peut être consulté par les employés qui utilisent l’application.
+L’administrateur peut sélectionner les sources de contenu d’apprentissage supplémentaires (par exemple, SharePoint ou les sources de fournisseurs de contenu tiers pris en charge) qui seront disponibles pour les utilisateurs de l’application. L’administrateur configure ensuite ces sources pour s’assurer que le contenu est disponible pour la recherche et la découverte et peut être consulté par les employés qui utilisent l’application.
+
+> [!NOTE]
+>  Les utilisateurs se connectent aux apprentissages non-Microsoft et LinkedIn Learning Pro dans un navigateur ou une visionneuse incorporée. Cet apprentissage configuré est soumis aux conditions distinctes de licence, de confidentialité et de service entre votre organisation et le tiers, et non aux conditions d’apprentissage (prévisualisation). Avant de sélectionner cet apprentissage dans Learning (Preview), vérifiez que vous avez un contrat en place pour votre organisation et les utilisateurs.
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Configurer les paramètres des sources de contenu d’apprentissage pour l’application
 
@@ -84,7 +87,7 @@ Ces étapes doivent être effectuées par l’administrateur Microsoft 365.
 
 3.  Dans le **panneau Application d’apprentissage,** sélectionnez les sources de contenu d’apprentissage que vous voulez configurer pour l’organisation, puis **sélectionnez Enregistrer.**
 
-   ![Panneau de l’application d’apprentissage dans le Centre d’administration Microsoft 365 affichant les options de sources de contenu](media/learning-app-365-settings-learning-app-panel.png)
+   ![Panneau des applications d’apprentissage dans le Centre d’administration Microsoft 365 affichant les options de sources de contenu](media/learning-app-365-settings-learning-app-panel.png)
 
 Parmi toutes les sources d’apprentissage existantes, certaines seront activées par défaut. Elles incluent les éléments suivants :
 
@@ -109,7 +112,7 @@ L’administrateur fournit une URL de site dans laquelle le service d’apprenti
 
 ### <a name="permissions"></a>Autorisations
 
-Les URL de dossiers peuvent être collectées à partir de n’importe quel site SharePoint de l’organisation. Tout contenu de ces dossiers pourra faire l’effet d’une recherche, mais seul le contenu auquel l’employé dispose des autorisations individuelles peut être utilisé.
+Les URL des dossiers peuvent être collectées à partir de n’importe quel site SharePoint de l’organisation. Tout contenu de ces dossiers pourra faire l’effet d’une recherche, mais seul le contenu auquel l’employé dispose des autorisations individuelles peut être utilisé.
  
 ### <a name="learning-service"></a>Service d’apprentissage
 
@@ -136,7 +139,7 @@ Ces étapes doivent être effectuées par l’administrateur Microsoft 365.
  
 5. Dans la page **Référentiel** de contenu d’application d’apprentissage, insérez la liste SharePoint avec des URL dans les dossiers de contenu d’apprentissage.
 
-   1.   Sélectionnez **Nouveau** pour afficher **le panneau Nouvel** élément. 
+   1.   Sélectionnez Nouveau pour afficher **le panneau Nouvel** élément.  
 
    ![Page référentiel de contenu d’application d’apprentissage dans SharePoint affichant l’option Nouvelle](media/learning-app-content-repository-new.png)
  
@@ -144,7 +147,7 @@ Ces étapes doivent être effectuées par l’administrateur Microsoft 365.
 
    ![Panneau Nouvel élément dans SharePoint affichant les champs URL de titre et de dossier](media/learning-app-new-item-panel.png)
 
-   3. La page référentiel de contenu de l’application d’apprentissage est mise à jour avec le nouveau contenu d’apprentissage.
+   3. La page référentiel de contenu des applications d’apprentissage est mise à jour avec le nouveau contenu d’apprentissage.
 
    ![Page référentiel de contenu d’application d’apprentissage dans SharePoint affichant les informations mises à jour](media/learning-app-content-repository-populated.png)
 

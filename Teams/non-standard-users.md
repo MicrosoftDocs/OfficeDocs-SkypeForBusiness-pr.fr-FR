@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 683ba9a20c51a23fa1468c07407a389c23dba507
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237497"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278544"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Comportement des applications Microsoft Teams pour les utilisateurs non standard
 
@@ -49,7 +49,7 @@ Les invités peuvent utiliser une application si l’application a été install
 
 Les robots peuvent envoyer un message de façon proactive aux utilisateurs invités, mais les invités ne peuvent pas interagir avec le robot. Les invités ne peuvent pas envoyer de message au bot 1:1, @ le mentionner ou interagir avec les cartes adaptatives qui communiquent avec le bot.
 
-Les invités respecteront les stratégies d’autorisation globales et à l’échelle de l’organisation définies pour le client hôte pour n’importe quelle application. (En d’autres termes, si une application est bloquée pour l’ensemble de l’organisation hôte, les invités ne peuvent pas non plus utiliser l’application.)
+Les invités respecteront les stratégies d’autorisation globales et à l’échelle de l’organisation définies pour le client hôte pour n’importe quelle application. En d’autres termes, si une application est bloquée pour l’ensemble de l’organisation hôte, les invités ne peuvent pas non plus l’utiliser.
 
 Les stratégies d’installation ne s’appliquent pas aux utilisateurs invités. Cela signifie que l’application épinglée par l’administrateur à partir de la stratégie par défaut n’affecte pas les utilisateurs invités.
 
@@ -71,8 +71,8 @@ Les utilisateurs externes ne sont pas impactés par les stratégies d’applicat
 
 Les utilisateurs anonymes ne peuvent pas installer, mettre à jour ou supprimer des applications dans les réunions.
 
-### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs anonymes
+### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation des utilisateurs anonymes
 
 Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte.
 
-Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ce contrôle permet aux utilisateurs anonymes d’interagir avec les applications dans les réunions Teams tant que la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
+Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ce contrôle permet aux utilisateurs anonymes d’interagir avec les applications dans les réunions Teams si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
