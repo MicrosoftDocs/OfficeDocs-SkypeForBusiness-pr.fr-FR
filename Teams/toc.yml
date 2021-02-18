@@ -1418,6 +1418,8 @@ items:
             href: office-365-urls-ip-address-ranges.md
           - name: Teams pour une infrastructure bureau virtualisée(VDI)
             href: teams-for-vdi.md
+          - name: Teams pour environnement Bureau à distance (EBD)
+            href: teams-for-rdp.md
           - name: Déployer Teams pour Surface Hub
             href: teams-surface-hub.md
           - name: Mises à jour du client pour Teams
