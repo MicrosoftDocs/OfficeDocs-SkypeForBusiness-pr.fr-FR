@@ -1,5 +1,5 @@
 ---
-title: Activer la traduction de messages en ligne
+title: Activer la traduction incorporée des messages
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment activer la traduction en ligne dans Microsoft Teams à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
+description: Découvrez comment activer la traduction incorporée dans Microsoft Teams à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,30 +22,30 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 012f2431ec7fb249a2f2e3b963c41166c4649a5c
 ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/04/2020
 ms.locfileid: "47395383"
 ---
-<a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Désactiver la traduction des messages dans Microsoft Teams
+<a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Désactiver la traduction incorporée des messages dans Microsoft Teams
 =================================================
 
-La traduction de message en ligne est une fonctionnalité [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) de Microsoft Teams qui permet aux utilisateurs de traduire les messages Teams dans la langue spécifiée par leurs paramètres de langue personnels.
+La traduction incorporée des messages est une fonctionnalité de Microsoft Teams qui permet aux utilisateurs de traduire les messages des équipes dans la [langue](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) spécifiée par leurs paramètres linguistiques personnels.
 
-La traduction des messages en ligne est déployée par défaut pour votre organisation. Vous n’avez pas besoin d’effectuer de modifications si vous voulez autoriser les utilisateurs à utiliser cette fonctionnalité dans le client Teams.
-
-> [!NOTE]
->Ce déploiement est exclu des abonnements Office 365 dans nos environnements Office 365 Government Community Cloud et Office 365 Germany.
-
-## <a name="use-powershell-to-turn-off-inline-message-translation"></a>Utiliser PowerShell pour désactiver la traduction de messages en ligne
-
-Vous pouvez utiliser la stratégie de messagerie pour désactiver la traduction des messages dans le texte.
-
-Dés éteindre la stratégie à l’aide de l’cmdlet [Set-CsTeamsMesspolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) L’application de la stratégie prend quelques minutes. Les utilisateurs devront peut-être se sortir et se resserrer sur Teams.
-
-## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Utiliser le Centre d’administration Microsoft Teams pour désactiver la traduction de messages en ligne
-
-Dans le Centre d’administration **Microsoft Teams,** sélectionnez Stratégies de messagerie dans le panneau de navigation de gauche, puis créez une stratégie ou modifiez une stratégie existante et définissez l’option Traduire les **messages** sur **Off.** 
+La traduction incorporée des messages est déployée par défaut pour votre organisation. Vous n’avez pas besoin d’apporter de modifications si vous souhaitez autoriser les utilisateurs à utiliser cette fonctionnalité dans le client Teams.
 
 > [!NOTE]
-> Le service fait la traduction et la livre au client sans effet sur le contenu capturé dans les enregistrements de conformité. Pour en savoir plus sur la traduction, voir [Qu’est-ce que Microsoft Translator ?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
+>Ce déploiement ne fait pas partie des abonnements Office 365 dans nos environnements Office 365 GCC et Office 365 Germany.
+
+## <a name="use-powershell-to-turn-off-inline-message-translation"></a>Utiliser PowerShell pour désactiver la traduction incorporée des messages
+
+Vous pouvez utiliser la stratégie de messagerie pour désactiver la traduction incorporée des messages.
+
+Désactiver la stratégie à l’aide de la cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps). L’application de cette stratégie prend quelques minutes. Les utilisateurs devront peut-être se déconnecter, puis se reconnecter à Teams.
+
+## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Utiliser le Centre d'administration Microsoft Teams pour désactiver la traduction incorporée des messages dans Microsoft Teams
+
+Dans le **Centre d’administration Microsoft Teams**, sélectionnez **Stratégies de messagerie** dans le menu de navigation gauche, créez une stratégie ou modifiez une stratégie existante, puis définissez l’option **Traduire les messages** sur **Off**.
+
+> [!NOTE]
+> Le service effectue, puis livre la traduction au client sans effet sur le contenu capturé dans les enregistrements de conformité. Si vous souhaitez en savoir plus sur la traduction, veuillez consulter la rubrique [Qu’est-ce que Microsoft Translator ?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
