@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 05598dfa351e62674c3ff9a9498672614f41a5d1
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718598"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347835"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft Teams
 
@@ -46,6 +46,7 @@ Les téléphones suivants sont certifiés pour Microsoft Teams :
 
 | Modèle de téléphone                            | Version du microprogramme                                                                                                                                                                                                                           | Date de publication                 |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| Module d’extension des codes audio pris en charge sur C450HD |C450HD_TEAMS_0,225                                        | Janvier 2021                 |
 | Audiocodes C450HD                      | C450HD_TEAMS_0,225                                                                                                                                                                                                                         | Mars 2019                   |
 | Codes audio C448HD (mode Cap uniquement)      | C450HD_TEAMS_0,225                                                                                                                                                                                                                         | Mars 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | Juillet 2020                    |
@@ -57,6 +58,7 @@ Les téléphones suivants sont certifiés pour Microsoft Teams :
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | Janvier 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Décembre 2019                |
 | PolyGone 8500/8800 (mode partagé uniquement) | 5.9.0.10869                                                                                                                                                                                                                                | Juin 2019                    |
+| Yealink EXP50 pris en charge sur T56, T58, MP56, MP58, VP59| Pour chaque modèle d’appareil pris en charge, consultez la mise à jour #7 version du microprogramme | Janvier 2021 |
 | Yealink MP58 | 122.15.0.27| Décembre 2020 |
 | Yealink MP54 | 122.15.0.27| Novembre 2020 |
 | Yealink MP56 | 122.15.0.6 | Mars 2020    |
@@ -71,10 +73,10 @@ Les barres de collaboration suivantes sont certifiées pour Microsoft Teams :
 
 | Modèle de barre de collaboration | Version du microprogramme | Date de publication  | Taille de la salle (jusqu’à)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Poly Studio X30         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Poly Studio X50         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
+| Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Poly Studio X30         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Poly Studio X50         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 
 ## <a name="currently-certified-teams-display"></a>Affichage de Teams actuellement certifié
 Les affichages Teams suivants sont certifiés pour Microsoft Teams :
@@ -156,7 +158,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 Pour plus [d’informations](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) sur les fonctionnalités qui sont pris en charge par ces appareils, consultez l’ensemble des fonctionnalités de Microsoft Teams sur les téléphones.
 
-Voir [Recherche de la version du microprogramme sur un appareil mobile](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) pour déterminer la version du microprogramme de l’appareil sur votre appareil mobile.
+Consultez [La recherche de la version du microprogramme sur un appareil mobile](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) pour déterminer la version du microprogramme de l’appareil sur votre appareil mobile.
 
 Les licences Microsoft Teams peuvent être achetées dans le cadre de leur abonnement [Microsoft 365 ou Office 365.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft Teams sur les téléphones, consultez les [licences système téléphoniques disponibles.](https://products.office.com/microsoft-teams/voice-calling)
 
@@ -170,6 +172,6 @@ Si vous êtes un fournisseur désireux de rejoindre le programme de certificatio
 
 En savoir plus [sur les programmes de certification de Skype Entreprise et Microsoft Teams.](https://docs.microsoft.com/SkypeForBusiness/certification/overview)
 
-[Explorez les téléphones et appareils certifiés Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Explorez les téléphones et appareils certifiés de Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams et Skype interoperability](../teams-skype-interop.md)

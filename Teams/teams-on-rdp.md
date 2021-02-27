@@ -17,14 +17,14 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ac88778fca7034446d0ec42a0a4a65d7c76f979
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278900"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347875"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Équipes dans les services Bureau à distance
+# <a name="teams-in-remote-desktop-services"></a>Teams dans les services Bureau à distance
 
 Cet article décrit les exigences et les limitations relatives à l’utilisation de Microsoft Teams dans un environnement des services Bureau à distance.
 
@@ -37,7 +37,7 @@ En fonction de votre environnement et de vos préférences, vous pouvez configur
 
 Pour l’instant, Teams dans un environnement de services bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
 
-## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams sur VDI avec la conversation et la collaboration
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams sur les rds avec la conversation et la collaboration
 
 Si votre organisation souhaite utiliser uniquement les fonctionnalités de conversation et de collaboration dans Teams, vous pouvez définir des stratégies au niveau utilisateur pour désactiver les fonctionnalités d’appel et de réunion dans Teams.
 
@@ -73,7 +73,7 @@ Vous pouvez également suivre les étapes suivantes :
 
 1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à la stratégie que vous voulez attribuer. Par exemple :
 
-    - Allez aux  >  **stratégies d’appel** vocal, puis **sélectionnez DisallowCalling.**
+    - Allez à **la**  >  **stratégie d’appel** vocal, puis **sélectionnez DisallowCalling.**
     - Allez dans **stratégies**  >  **de réunion Réunions,** puis sélectionnez **AllOff.**
 
 2. Sélectionnez **Gérer les utilisateurs**.
@@ -90,7 +90,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 
 Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies d’appel, voir [Set-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)
 
-L’exemple suivant montre comment utiliser [grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
+L’exemple suivant montre comment utiliser la stratégie de réunion [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcd3de45954ea500a6be0d325370ab0660604a65
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: b0ad5716dbbe1925a93f4fbfadca7084e39a9599
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578277"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347805"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Conditions préalables et dépendances de l’environnement pour Teams
 
@@ -59,5 +59,7 @@ Consultez les articles suivants pour en savoir plus sur les conditions préalabl
 - Si votre organisation envisage d’envisager des options d’appel de réseau téléphonique commuté (PSTN), consultez la connectivité Voix - Système téléphonique et [PSTN,](cloud-voice-landing-page.md)le [plan](calling-plan-landing-page.md)d’appels qui vous est le plus exact et le [routage](direct-routing-landing-page.md)direct du système téléphonique.
 
 - Pour vous assurer que toutes les exigences réseau ont été respectées avant de déployer Teams, consultez Préparer le réseau de votre organisation [pour Microsoft Teams.](prepare-network.md)
+
+- Si vous utilisez actuellement Skype Entreprise Online Connector pour gérer vos services, vous devez passer au module Teams PowerShell et mettre à jour vos scripts PowerShell existants. Pour [plus d’informations,](teams-powershell-move-from-sfbo.md) voir Déplacer de Skype Entreprise Online Connector vers le module Teams PowerShell.
 
 Après avoir vérifié que votre environnement répond à toutes les conditions préalables applicables, évaluez [votre environnement actuel pour Teams.](upgrade-plan-journey-evaluate-environment.md)

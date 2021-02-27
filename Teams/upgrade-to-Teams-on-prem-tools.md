@@ -1,14 +1,13 @@
 ---
-title: Mise à niveau vers Teams à partir d’un déploiement local de Skype Entreprise - Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Outils de mise à niveau vers Teams à partir d’un déploiement Skype Entreprise local
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Mise à niveau de Skype Entreprise vers Teams - Outils de mise à niveau
+description: Outils de mise à niveau de Skype Entreprise vers Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533571"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347845"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Outils de mise à niveau vers Teams &mdash; pour les administrateurs informatiques
 
@@ -45,7 +44,10 @@ De plus, les articles suivants décrivent les concepts de mise à niveau et les 
 
 ## <a name="tools-for-managing-the-upgrade"></a>Outils de gestion de la mise à niveau
 
-Quelle que soit la méthode de mise à niveau que vous choisissez, pour les utilisateurs qui ont déjà Skype Entreprise Online, vous gérez la transition vers TeamsOnly à l’aide de [TeamsUpgradePolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)qui contrôle le mode de coexistence d’un utilisateur. Pour les utilisateurs utilisant un compte local dans Skype Entreprise Server, vous pouvez également les déplacer `Move-CsUser` [vers le cloud.](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)  Pour plus d’informations sur chacun des modes, voir [Modes de coexistence.](migration-interop-guidance-for-teams-with-skype.md)  
+Quelle que soit la méthode de mise à niveau que vous choisissez, pour les utilisateurs qui ont déjà Skype Entreprise Online, vous gérez la transition vers TeamsOnly à l’aide de [TeamsUpgradePolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)qui contrôle le mode de coexistence d’un utilisateur. Pour les utilisateurs utilisant un compte local dans Skype Entreprise Server, vous pouvez également les `Move-CsUser` [déplacer vers le cloud.](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)  Pour plus d’informations sur chacun des modes, voir [Modes de coexistence.](migration-interop-guidance-for-teams-with-skype.md)
+
+> [!NOTE]
+> Si vous utilisez actuellement Skype Entreprise Online Connector pour gérer vos services, vous devez passer au module Teams PowerShell et mettre à jour vos scripts PowerShell existants. Pour [plus d’informations,](teams-powershell-move-from-sfbo.md) voir Déplacer de Skype Entreprise Online Connector vers le module Teams PowerShell.
 
 Que vous effectuez une transition vers des fonctionnalités sélectionnées à l’aide des modes Skype Entreprise ou que vous passiez simplement à la mise à niveau vers le mode TeamsOnly à partir de la configuration îles par défaut, TeamsUpgradePolicy est l’outil principal pour les utilisateurs qui ont déjà Skype Entreprise Online. Comme toute autre stratégie dans Teams, vous pouvez affecter TeamsUpgradePolicy directement à un utilisateur. Vous pouvez également définir la stratégie comme stratégie par défaut à l’échelle du client. Toute affectation à un utilisateur est prioritaire sur le paramètre par défaut du client.  Vous pouvez gérer la stratégie dans la Console d’administration Teams et dans PowerShell.
 
@@ -83,7 +85,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->Si des utilisateurs ont des comptes Skype Entreprise en local, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez déplacer ces utilisateurs individuellement vers le cloud à l’aide de Move-CsUser.
+>Si vous avez des utilisateurs avec des comptes Skype Entreprise en local, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez déplacer ces utilisateurs individuellement vers le cloud à l’aide de Move-CsUser.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Utilisation des notifications dans les clients Skype Entreprise
@@ -112,7 +114,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Lorsqu’un utilisateur est migré vers le mode TeamsOnly, par défaut ses réunions Skype Entreprise existantes qu’il a organisées sont converties en équipes. Vous pouvez éventuellement désactiver le comportement par défaut lors de l’attribution du mode TeamsOnly à un utilisateur. Lors du déplacement d’utilisateurs à partir du site, les réunions doivent être migrées vers le cloud pour fonctionner avec le compte d’utilisateur en ligne, mais si vous ne spécifiez pas -MoveToTeams, les réunions seront migrées en tant que réunions Skype Entreprise, plutôt que converties en équipes. 
 
-Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de réunion n’est déclenchée pour aucun utilisateur. Si vous souhaitez attribuer le mode TeamsOnly au niveau du client et migrer des réunions, vous pouvez utiliser PowerShell pour obtenir la liste des utilisateurs dans le client (par exemple, en utilisant Get-CsOnlineUser avec les filtres nécessaires), puis passer en boucle chacun de ces utilisateurs pour déclencher la migration des réunions à l’aide de Start-CsExMeetingMigration. Pour plus d’informations, [consultez Utiliser meeting Migration Service (MMS).](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de réunions n’est déclenchée pour aucun utilisateur. Si vous souhaitez attribuer le mode TeamsOnly au niveau du client et migrer des réunions, vous pouvez utiliser PowerShell pour obtenir la liste des utilisateurs dans le client (par exemple, en utilisant Get-CsOnlineUser avec les filtres nécessaires), puis passer en boucle chacun de ces utilisateurs pour déclencher la migration des réunions à l’aide de Start-CsExMeetingMigration. Pour plus d’informations, [consultez Utiliser meeting Migration Service (MMS).](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
 
 

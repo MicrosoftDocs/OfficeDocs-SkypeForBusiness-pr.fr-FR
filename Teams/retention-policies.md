@@ -1,5 +1,5 @@
 ---
-title: Stratégies de conservation dans Microsoft Teams
+title: Gérer les stratégies de rétention pour Microsoft Teams
 author: cabailey
 ms.author: cabailey
 ms.reviewer:
@@ -19,14 +19,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aba9858466b43693603aa4a1cd396748d2c83d6e
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786826"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347654"
 ---
-# <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
+# <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
+
+> [!NOTE]
+> Si vous êtes un utilisateur qui voit un message dans Teams vous savez que vos conversations et messages ont été supprimés par une stratégie de rétention, consultez les messages Teams concernant les stratégies [de rétention.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> 
+> Les informations sur cette page sont dédiées aux administrateurs informatiques qui gèrent ces stratégies de rétention.
 
 Les stratégies de rétention et étiquettes de rétention de Microsoft 365 vous aident à gérer plus efficacement les informations de votre organisation. Vous pouvez configurer les paramètres de rétention pour conserver les données nécessaires pour se conformer aux stratégies internes, aux réglementations du secteur ou aux obligations légales de votre organisation. Vous pouvez également configurer les paramètres de rétention pour supprimer les données considérées comme étant responsables, que vous n’êtes plus tenu de conserver ou qui n’ont aucune valeur juridique ou professionnelle.
 
@@ -38,7 +43,7 @@ Microsoft 365 E3 est la licence minimale requise pour les stratégies de rétent
 
 ## <a name="how-teams-retention-policies-work"></a>Fonctionnement des stratégies de conservation Teams
 
-Les messages de conversation Teams sont stockés dans un dossier masqué dans la boîte aux lettres de chaque utilisateur inclus dans la conversation, et les messages de canal Teams sont stockés dans un dossier masqué similaire dans la boîte aux lettres de groupe pour l’équipe. Pour conserver les messages qui sont soumis à une stratégie de rétention, une copie du contenu est automatiquement conservée dans un dossier masqué nommé **Éléments récupérables.**  Tant que ces messages n’ont pas été supprimés définitivement du dossier NommésSi, ils restent accessibles dans les outils eDiscovery.
+Les messages de conversation Teams sont stockés dans un dossier masqué dans la boîte aux lettres de chaque utilisateur inclus dans la conversation, et les messages de canal Teams sont stockés dans un dossier masqué similaire dans la boîte aux lettres de groupe pour l’équipe. Pour conserver les messages qui sont soumis à une stratégie de rétention, une copie du contenu est automatiquement conservée dans un dossier masqué nommé **Éléments récupérables dans** le dossier Éléments **récupérables** Exchange. Tant que ces messages n’ont pas été supprimés définitivement du dossier FaçonneHolds, ils restent accessibles dans les outils eDiscovery.
 
 Pour plus d’informations sur les stratégies de rétention Teams incluses et exclues, et le fonctionnement de ces stratégies en fonction de votre configuration de stratégie, consultez En savoir plus sur la rétention [dans Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
@@ -46,7 +51,7 @@ Pour plus d’informations sur les stratégies de rétention Teams incluses et e
 > Cette page explique pourquoi les stratégies de rétention peuvent parfois retarder la suppression de messages. Par exemple, les messages peuvent être visibles jusqu’à 7 jours après la période d’expiration que vous avez configurée dans la stratégie de rétention.
 
 Si vous avez installé plusieurs stratégies de rétention Teams avec des paramètres de rétention différents, les principes de rétention résolvent les conflits. Par exemple :
-- En cas de conflit entre la rétention ou la suppression d’un même contenu, le contenu est toujours conservé.
+- En cas de conflit entre la rétention et la suppression d’un même contenu, le contenu est toujours conservé.
 - En cas de conflit dans la durée de conservation du même contenu, il est conservé pendant la période de rétention la plus longue.
 
 Ces deux principes de rétention s’adressent à la plupart des conflits qui peuvent survenir lorsque vous avez plusieurs stratégies de rétention pour Teams, mais pour plus d’informations, consultez les principes de rétention ou quelle stratégie prend le pas [?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
@@ -67,22 +72,23 @@ Cette page présente des informations supplémentaires sur la création et la ge
 
 ## <a name="end-user-experience"></a>Expérience utilisateur final
 
-Pour les conversations privées (conversations en tête-à-tête) ou de groupe, les utilisateurs finaux voient que les conversations plus anciennes que la configuration de la stratégie de rétention sont supprimées et un message de contrôle indiquant « Nous avons supprimé d’anciens messages en raison de la stratégie de rétention de votre organisation » s’affiche en haut des messages encore non supprimés.
+Pour les conversations privées (conversations en tête-à-tête) ou de groupe, les utilisateurs peuvent voir que les conversations plus anciennes que la configuration de la stratégie de rétention sont supprimées et un message généré automatiquement indiquant « Nous avons supprimé d’anciens messages en raison de la stratégie de rétention de votre organisation » s’affiche en haut des messages encore non supprimés. Par exemple :
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Utilisateur informé dans Teams que le message de conversation est supprimé en raison d’une stratégie de rétention Teams":::
 
 
 :::image type="content" source="media/retention-policies-image2.png" alt-text="Un utilisateur dans Teams expliquant que les messages sont supprimés à la suite d’une stratégie de rétention Teams":::
 
-Pour les messages de canal, les utilisateurs finaux (membres du canal) voient les messages supprimés disparaître de l’affichage une fois les messages expirés. Si le message supprimé était un message parent d’une conversation à thread, un message indiquant « Ce message a été supprimé en raison d’une stratégie de rétention » s’affiche à la place du message parent.
+Pour les messages de canal, les utilisateurs (membres du canal) voient les messages supprimés disparaître à l’issue de l’expiration des messages. Si le message supprimé était un message parent d’une conversation à thread, un message indiquant « Ce message a été supprimé en raison d’une stratégie de rétention » s’affiche à la place du message parent. Par exemple :
 
 :::image type="content" source="media/retention-policies-image3.png" alt-text="Capture d’écran du canal avant la rétention":::
 
 :::image type="content" source="media/retention-policies-image4.png" alt-text="Capture d’écran du canal après la rétention":::
 
 > [!NOTE]
-> Les messages affichés qui sont affichés par les utilisateurs finaux suite à la suppression de messages ne sont pas configurables pour le moment.
+> Les messages affichés qui résultent de messages supprimés ne sont pas configurables pour le moment.
 
+Les liens dans ces messages affichés sont envoyés aux [messages Teams concernant les stratégies de rétention.](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b) Cette documentation pour les utilisateurs finaux vous aide à répondre aux questions de base sur la raison pour laquelle leurs messages ont été supprimés. Toutefois, dans le cadre du déploiement de votre stratégie de rétention, veillez à communiquer à vos utilisateurs et à votre service d’aide l’impact de vos paramètres configurés.
 
 ## <a name="related-topics"></a>Sujets associés
 
