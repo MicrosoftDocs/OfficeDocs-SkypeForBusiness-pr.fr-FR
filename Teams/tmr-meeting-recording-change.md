@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment passer de Stream à OneDrive Entreprise et au stockage d’enregistrements des réunions SharePoint dans Microsoft Teams.
+description: Découvrez comment passer de Stream au stockage d’enregistrements de réunion OneDrive Entreprise et SharePoint dans Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4a206570ffd000f80f1f0a865af6e46e511a0ac6
 ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/17/2021
 ms.locfileid: "50278664"
@@ -27,67 +27,67 @@ ms.locfileid: "50278664"
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
 > [!Note]
-> La transition de l’utilisation de Microsoft Stream à OneDrive Entreprise et de Microsoft SharePoint pour les enregistrements des réunions sera progressive.
+> Le passage de Microsoft Stream à OneDrive Entreprise et SharePoint pour les enregistrements de réunion sera une approche progressive.
 
 |<div style="width:290px">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |Événement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|5 octobre 2020<br> <br>*(Terminé)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Vous activez la stratégie de réunion Teams pour que les enregistrements de réunion soit enregistrés dans OneDrive Entreprise et SharePoint plutôt que dans Microsoft Stream (classique)|
-|Déploiement à partir du 7 janvier 2021<br> <br>*(Terminé)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Tous les enregistrements des nouvelles réunions Teams seront enregistrés dans OneDrive Entreprise et SharePoint, sauf si vous reportez cette modification en modifiant les stratégies de réunion Teams de votre organisation et en les setting explicitement sur **Stream.** Le signalement de stratégies comme Étant un flux n’est pas suffisant. Vous devez définir explicitement la valeur de la stratégie sur **Stream.**|
-|Déploiement à partir du 11 janvier 2021<br> <br>*(Terminé)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC uniquement**<br> Si les clients du gcc peuvent se dés désesser à partir du 5 octobre, vous ne pouvez pas choisir de le faire. Cette fonctionnalité sera déployée à tous les clients du service GCC à compter du 11 janvier 2021, sauf si vous avez choisi de le faire.<br>  <br>À compter du 11 janvier 2021, tous les nouveaux enregistrements de réunions Teams des clients GCC seront enregistrés dans OneDrive Entreprise et SharePoint, sauf si vous reportez cette modification en modifiant les stratégies de réunion Teams de votre organisation et en les settingant explicitement sur **Stream.** <br><br>Si vous avez choisi de ne pas le faire, mais que vous êtes prêt à activer cette fonctionnalité, vous pouvez définir votre stratégie de réunion Teams de manière explicite sur **OneDrive Entreprise.** |
-|Déploiement à partir du 1er mars 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High et DoD uniquement**<br> Les clients peuvent désormais activer les enregistrements de réunion cloud dans leurs Microsoft Teams pour la première fois. Ces enregistrements sont stockés et lés par défaut sur OneDrive et SharePoint. |
-|Déploiement incrémentielle à partir du 7 juillet 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et GCC)**<br>Aucun nouvel enregistrement de réunion ne peut être enregistré dans Microsoft Stream (classique). Tous les clients verront automatiquement les enregistrements des réunions enregistrés dans OneDrive Entreprise et **SharePoint, même s’ils** ont changé leurs stratégies de réunion Teams en Flux.<br><br> Nous recommandons aux clients de déployer cette fonctionnalité avant cette date afin qu’ils contrôlent le minutage de la publication. |
+|5 octobre 2020<br> <br>*(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Vous activez la stratégie Réunion Teams pour enregistrer les enregistrements de réunion dans OneDrive Entreprise et SharePoint au lieu de Microsoft Stream (classique)|
+|Déploiement à compter du 7 janvier 2021<br> <br>*(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Tous les nouveaux enregistrements des réunions Teams s’effectueront dans OneDrive Entreprise et SharePoint, sauf si vous retardez ce changement en modifiant les stratégies de réunion Teams de votre organisation et en les définissant explicitement sur **Stream**. Il ne suffit pas de voir les comptes-rendus de stratégie sous la forme Stream. Vous devez définir explicitement la valeur de la stratégie sur **Stream**.|
+|Déploiement à compter du 11 janvier 2021<br> <br>*(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Cloud de la communauté du secteur public uniquement**<br> Alors les clients du Cloud de la communauté du secteur public peuvent refuser cette option à compter du 5 octobre, vous n’avez pas le choix. Nous déploierons cette fonctionnalité à tous les clients du Cloud de la communauté du secteur public à compter du 11 janvier 2021, sauf si vous avez refusé.<br>  <br>À compter du 11 janvier 2021, tous les nouveaux enregistrements des réunions Teams pour les clients du Cloud de la communauté du secteur public s’effectueront dans OneDrive Entreprise et SharePoint, sauf si vous retardez ce changement en modifiant les stratégies de réunion Teams de votre organisation et en les définissant explicitement sur **Stream**. <br><br>Si vous avez refusé mais souhaitez activer cette fonctionnalité, vous pouvez le faire en choisissant de définir explicitement votre stratégie de réunion Teams sur **OneDrive Entreprise**. |
+|Déploiement à compter du 1er mars 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High et DoD uniquement**<br> Les clients peuvent à présent activer pour la première fois les enregistrements de réunions cloud dans leurs systèmes Microsoft Teams. Le stockage et la lecture de ces enregistrements s’effectueront sur OneDrive et SharePoint par défaut. |
+|Déploiement incrémentiel à compter du 7 juillet 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et Cloud de la communauté du secteur public)**<br>**Aucun nouvel enregistrement de réunion ne peut s’effectuer dans Microsoft Stream (Classique) ; tous les clients enregistrent automatiquement leurs réunions dans OneDrive Entreprise et SharePoint, même s’ils ont redéfini leur stratégie de réunion Teams sur Stream**.<br><br> Nous recommandons aux clients de déployer cette fonctionnalité avant cette date pour pouvoir contrôler le calendrier de la mise en production. |
 
 > [!Note]
-> Nous recommandons aux clients Entreprise et Éducation, pour mieux contrôler le changement dans votre organisation, d’opter dès que vous maîtrisez la modification, plutôt que d’attendre qu’elle se produise.
+> Pour mieux contrôler l’évolution de l’organisation, nous recommandons aux clients d’entreprise et du secteur de l’éducation de choisir cette fonctionnalité dès qu’ils maîtrisent bien le changement au lieu d’attendre que celui-ci survienne.
 
-Microsoft Teams offre une nouvelle méthode pour enregistrer les enregistrements des réunions. Comme première phase d’une transition de Microsoft Stream classique vers le nouveau [Stream,](https://docs.microsoft.com/stream/streamnew/new-stream)cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365 et offre de nombreux avantages.
+Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
 
-L’utilisation de OneDrive Entreprise et SharePoint pour stocker des enregistrements permet notamment les avantages suivants :
+L’utilisation de OneDrive Entreprise et SharePoint pour le stockage d’enregistrements comporte notamment les avantages suivants :
 
-- Stratégies de rétention pour l’enregistrement des réunions Teams (TMR) (étiquettes de autoretention S+C E5)
-- Tirer parti de la gouvernance des informations de OneDrive Entreprise et SharePoint
-- Définir facilement les autorisations et le partage
-- Partager des enregistrements avec des invités (utilisateurs externes) avec partage explicite uniquement
-- Demander le flux d’accès
-- Fournir des liens partagés OneDrive Entreprise et SharePoint
+- Stratégies de rétention pour l’enregistrement des réunions Teams (TMR) (étiquettes de rétention automatique S+C E5)
+- Gouvernance des informations de OneDrive Entreprise et de SharePoint
+- Définition des autorisations et du partage en toute facilité
+- Partage d’enregistrements avec des invités (utilisateurs externes) avec partage explicite uniquement
+- Possibilité de demander des flux d’accès
+- Offre des liens partagés OneDrive Entreprise et les sites SharePoint
 - Les enregistrements de réunion sont disponibles plus rapidement
-- **Prise en charge du** client local
-- Prise en charge multigé géographique : les enregistrements sont stockés dans une région spécifique de cet utilisateur
-- Apportez votre propre support (BYOK)
+- Prise en charge des clients **Go local**
+- Prise en charge multigéographique : les enregistrements résident dans une région spécifique de cet utilisateur
+- Prise en charge de Bring Your Own Key (BYOK)
 
-Il existe certaines limitations à prendre en compte :
+Il existe certaines limitations à prendre en compte :
 
-- Il y aura des sous-titres en anglais uniquement et vous pourrez les mettre sous-titres/les mettre en place.
-- Vous ne pourrez *pas* afficher, modifier et rechercher une transcription complète au départ (mais nous allons bientôt ajouter cette fonctionnalité).
-- Vous ne pourrez pas modifier les transcriptions, mais vous serez en mesure d’enclenouiller/d’utiliser les sous-titres.
-- Vous pouvez contrôler la personne avec laquelle vous partagez l’enregistrement, mais vous ne pouvez pas empêcher les personnes ayant un accès partagé de télécharger l’enregistrement.
-- Vous ne recevrez pas d’e-mail lorsque l’enregistrement sera terminé, mais l’enregistrement apparaîtra dans la conversation de réunion une fois celui-ci terminé. Cela se produira beaucoup plus rapidement qu’auparavant dans Stream
+- Les sous-titres seront en anglais uniquement, et vous pourrez les désactiver/les activer.
+- Vous ne pourrez *initialement* pas afficher, modifier une transcription complète et y effectuer une recherche (nous travaillons toutefois à l’ajout prochain de cette fonctionnalité prochain).
+- Vous ne pourrez pas modifier les transcriptions, mais vous pourrez désactiver/activer les sous-titres.
+- Vous pouvez choisir les personnes avec lesquelles vous partagez l’enregistrement, mais vous ne pouvez pas empêcher les personnes ayant un accès partagé de télécharger l’enregistrement.
+- Vous ne recevrez pas d’e-mail à la fin de l’enregistrement, mais celui-ci s’affiche dans la conversation de réunion une fois qu’il est terminé. Cela se produit beaucoup plus vite que dans Stream auparavant.
 
-Pour plus d’informations, regardez « Enregistrement de la réunion ».
+Si vous souhaitez en savoir plus, veuillez regarder la vidéo « Enregistrement de la réunion ».
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurer l’option d’enregistrement de la réunion pour OneDrive Entreprise et SharePoint
 
-L’option d’enregistrement de la réunion est un paramètre au niveau de la stratégie Teams. L’exemple suivant montre comment définir la stratégie globale. Veillez à définir l’option d’enregistrement de la réunion pour la ou les stratégies que vous avez affectées à vos utilisateurs.
+L’option d’enregistrement de la réunion est un paramètre au niveau de la stratégie Teams. L’exemple suivant montre comment définir la stratégie globale. Veillez à définir l’option d’enregistrement de la réunion pour les stratégies que vous avez affectées à vos utilisateurs.
 
 > [!Note]
-> La propagation des modifications de la stratégie de réunion Teams prend un certain temps. Resocher après quelques heures de configuration, puis se connectez-vous à nouveau.
+> La propagation des modifications de la stratégie de réunion Teams prend un certain temps. Consultez de nouveau le site après quelques heures de configuration, déconnectez-vous, puis reconnectez-vous.
 
-1. Installez Skype Entreprise Online PowerShell.
+1. Installez Skype Entreprise Online Powershell.
 
    > [!NOTE]
-   > Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent. Si vous utilisez la dernière version publique de Teams PowerShell, vous n’avez pas besoin d’installer Skype Entreprise Online Connector. Consultez [Gérer Skype Entreprise Online avec PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
+   > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Gestion de Skype Entreprise Online avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    1. Téléchargez [Skype Entreprise Online PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
+    1. Téléchargez [Skype Entreprise Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
     1. Suivez les invites pour l’installer.
 
-    1. Redémarrez votre ordinateur.
+    1. Redémarrez votre machine.
 
 2. Lancez PowerShell en tant qu’administrateur.
 
-3. Importez le connecteur SkypeOnline et connectez-vous en tant qu’administrateur Teams.
+3. Importez le connecteur SkypeOnline, puis connectez-vous en tant qu’administrateur Teams.
 
    ```powershell
    Import-Module MicrosoftTeams
@@ -95,18 +95,18 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
    Import-PSSession $sfbSession
    ```
 
-4. Utilisez [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage de flux vers OneDrive Entreprise et SharePoint.
+4. Utilisez [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage Stream vers OneDrive Entreprise et SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
 > [!Note]
-> Si certains de vos utilisateurs ont affecté une stratégie par organisateur ou par utilisateur, vous devez définir ce paramètre sur cette stratégie si vous souhaitez qu’ils stockent également les enregistrements de la réunion dans OneDrive Entreprise et SharePoint. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams.](meeting-policies-in-teams.md)
+> Si certains de vos utilisateurs ont affecté une stratégie par organisateur ou par utilisateur et s’ils doivent également stocker les enregistrements de réunion dans OneDrive Entreprise et SharePoint, vous devez définir ce paramètre sur cette stratégie. Si vous souhaitez en savoir plus d’informations, veuillez consulter la rubrique [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md).
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Dés son retrait de OneDrive Entreprise et SharePoint pour continuer à utiliser Stream
+## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Désactiver OneDrive Entreprise et SharePoint pour continuer à utiliser Stream
 
-Même si une stratégie indique qu’elle est définie sur **Stream,** il est possible qu’elle ne soit pas définie. En règle générale, si la stratégie n’est pas définie, le paramètre par défaut est **Stream.** Toutefois, avec cette nouvelle modification, si vous souhaitez ne plus utiliser SharePoint ou OneDrive Entreprise, vous devez réinitialiser la stratégie sur **Stream** pour vous assurer que **Stream** est la valeur par défaut.
+Même si le programme indique une stratégie définie sur **Stream**, elle n’est sans doute pas définie. En règle générale, si la stratégie n’est pas définie, le paramètre par défaut est **Stream**. Toutefois, avec ce nouveau changement, si vous préférez ne plus utiliser SharePoint ou OneDrive Entreprise, vous devez réinitialiser la stratégie sur **Stream** pour que **Stream** soit la stratégie par défaut.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -115,77 +115,77 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ## <a name="permissions-or-role-based-access"></a>Autorisations ou accès en fonction du rôle
 
 > [!Note]
-> Nous recommandons au destinataire d’être connecté lors du partage des enregistrements de réunion Teams. Sélectionnez **l’option Personnes dans (votre organisation)** lorsque vous partagez le fichier tel qu’il est documenté dans des fichiers [ou dossiers SharePoint SharePoint.](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US) Le partage externe n’est pas conçu pour la distribution de fichiers de grande taille ou d’un grand nombre de fichiers. Afin d’éviter les fraudes et les abus, vous pouvez être victime de problèmes lors du partage d’une grande quantité de données à des utilisateurs externes.
+> Nous recommandons au destinataire d’être un utilisateur connecté lors du partage des enregistrements de réunion Teams. Sélectionnez l’option **Personnes dans (votre organisation)** lorsque vous partagez le fichier comme documenté dans [Partager des fichiers ou dossiers SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). Le partage externe n’est pas conçu pour la distribution de fichiers volumineux ou d’un grand nombre de fichiers. Pour éviter des scénarios de fraude et de mauvaise utilisation, vous risquez de rencontrer des problèmes lors du partage d’une grande quantité de données avec des utilisateurs externes.
 
-|Type de réunion                               | Qui a cliqué sur Enregistrer ?| Où se trouve le lieu de l’enregistrement ?                               |Qui y a accès ? R/W, R, ou partage                                                                                                                                                                                                                                                     |
+|Type de réunion                               | Qui a cliqué sur Enregistrement ?| Où arrive l’enregistrement ?                               |Qui a accès ? En lecture et en écriture, lecture seule ou partage                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Appel à deux avec des parties internes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant en est le propriétaire et dispose des droits complets. <br /><br />L’appelant (dans le même client) dispose d’un accès en lecture seule. Pas d’accès au partage. <br /><br /> Appelé (si dans un autre client) n’a pas accès. L’appelant doit le partager avec le bénéficiaire de l’appel.|
-|Appel à deux avec des parties internes             |Appelé                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant en est le propriétaire et dispose des droits complets. <br /><br />Appelant (si dans le même client dispose d’un accès en lecture seule. Pas d’accès au partage. <br /><br />L’appelant (s’il se présente dans un autre client) n’a pas accès. L’appelant doit le partager avec l’appelant.|
-|Appel à deux avec un appel externe             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant en est le propriétaire et dispose des droits complets.<br /> <br />Personne n’a accès à l’appel. L’appelant doit le partager avec le bénéficiaire de l’appel.|
-|Appel à deux avec un appel externe             |Appelé                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant en est le propriétaire et dispose des droits complets.<br /><br />L’appelant n’a pas accès. L’appelant doit le partager avec l’appelant.|
-|Appel de groupe                                 |N’importe quel membre de l’appel |Membre ayant cliqué sur le compte OneDrive Entreprise d’enregistrement  |Le membre qui a cliqué sur l’enregistrement dispose des droits complets. <br /><br /> Les autres membres du même client ont des droits de lecture. <br /><br /> Les autres membres d’un client différent n’y ont aucun droit.|
-|Adhoc/Réunion programmée                    |Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement. <br /><br /> Tous les autres membres de la réunion ont un accès en lecture.|
-|Adhoc/Réunion programmée                    |Autre membre de la réunion   |Membre ayant cliqué sur l’enregistrement                                  |Le membre qui a cliqué sur Enregistrer dispose des droits complets sur l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et peut partager des informations.<br /><br /> Tous les autres membres ont un accès en lecture.|
-|Réunion Adhoc/Scheduled avec des utilisateurs externes|Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement.<br /> <br /> Tous les autres membres de la réunion du même client que l’organisateur ont un accès en lecture. <br /><br /> Tous les autres membres externes n’y ont pas accès et l’Organisateur doit le partager avec eux.|
-|Réunion Adhoc/Scheduled avec des utilisateurs externes|Autre membre de la réunion   |Membre ayant cliqué sur l’enregistrement                                  |Le membre qui a cliqué sur Enregistrer dispose des droits complets sur l’enregistrement. L’organisateur dispose de droits de modification et peut partager des informations. <br /><br /> Tous les autres membres de la réunion du même client que l’organisateur ont un accès en lecture. <br /><br />Tous les autres membres externes n’y ont pas accès et l’Organisateur doit le partager avec eux.|
-|Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Le membre qui a cliqué sur Enregistrer dispose de droits de modification sur l’enregistrement. <br /> <br />Les autorisations de chaque membre sur deux sont basées sur les autorisations De Canal SharePoint.|
+|Appel individuel avec des parties internes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits. <br /><br />Le destinataire de l’appel (s’il est dans le même client) dispose d’un accès en lecture seule. Aucun accès en partage. <br /><br /> Le destinataire de l’appel (s’il est dans un client différent) ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
+|Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />L’appelant (s’il est dans le même client) dispose d’un accès en lecture seule. Aucun accès en partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
+|Appel individuel avec des parties externes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits.<br /> <br />Le destinataire de l’appel ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
+|Appel individuel avec des parties externes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits.<br /><br />L’appelant ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
+|Appel de groupe                                 |Tout membre de l’appel |Membre ayant cliqué sur le compte OneDrive Entreprise de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du même client disposent de droits en lecture. <br /><br /> Les autres membres d’un autre client ne disposent d’aucun droit dessus.|
+|Réunion ad hoc/planifiée                    |Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement. <br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture.|
+|Réunion ad hoc/planifiée                    |Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et de partage.<br /><br /> Tous les autres membres disposent d’un accès en lecture.|
+|Réunion ad hoc/planifiée avec des utilisateurs externes|Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement.<br /> <br /> Tous les autres membres de la réunion provenant du même client que l’organisateur disposent d’un accès en lecture. <br /><br /> Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
+|Réunion ad hoc/planifiée avec des utilisateurs externes|Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. L’organisateur dispose de droits de modification et de partage. <br /><br /> Tous les autres membres de la réunion provenant du même client que l’organisateur disposent d’un accès en lecture. <br /><br />Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
+|Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Le membre qui a cliqué sur Enregistrement a le droit de modifier l’enregistrement. <br /> <br />Les autorisations de tous les autres membres sont basées sur les autorisations Channel SharePoint.|
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Forum aux questions
 
-**Où l’enregistrement de la réunion sera-t-il stocké ?**
+**Où l’enregistrement de la réunion sera-t-il stocké ?**
 
-- Pour les réunions hors canal, l’enregistrement est  stocké dans un dossier nommé Enregistrements au niveau supérieur de OneDrive Entreprise qui appartient à la personne qui a démarré l’enregistrement de la réunion. Exemple :
+- Pour les réunions autres que de canal, l’enregistrement réside dans un dossier nommé **Enregistrements** qui est au niveau supérieur du système OneDrive Entreprise appartenant à la personne qui a démarré l’enregistrement de la réunion. Exemple :
 
-  <i>OneDrive Entreprise de l’enregistreur</i> / **Enregistrements**
+  <i>Enregistrements OneDrive Entreprise</i>/**de l’enregistreur**
 
-- Pour les réunions de canal, l’enregistrement est stocké dans la bibliothèque de documentation du site Teams dans un dossier nommé **Enregistrements.** Exemple :
+- Pour les réunions du canal, l’enregistrement réside dans la bibliothèque de documentation du site Teams dans un dossier nommé **Enregistrements**. Exemple :
 
-  <i>Nom de Teams - Nom du canal</i> / **Documents** / **Enregistrements**
+  <i>Nom Teams - Nom du canal</i>/**Documents**/**Enregistrements**
 
-**Quand des fichiers Stream (tels que des enregistrements) sont stockés dans SharePoint/OneDrive, comment a-t-on décidé où ils sont stockés ? L’administrateur a-t-il la possibilité de modifier la direction vers laquelle il va ?**
+**Lorsque des fichiers Stream (tels que des enregistrements) résident dans SharePoint/OneDrive, comment leur destination est-elle déterminée ? L’administrateur peut-il modifier son niveau d’accès ?**
 
-Par défaut, tous les fichiers d’enregistrement sont enregistrés sur le compte OneDrive de l’utilisateur qui a sélectionné **Enregistrer.** Pour les réunions de canal, l’enregistrement sera toujours sur le site SharePoint du canal. L’administrateur ne peut pas modifier l’endroit où est stocké l’enregistrement.
+Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDrive de l’utilisateur qui a sélectionné **Enregistrement**. Pour les réunions de canal, l’enregistrement arrive toujours sur le site SharePoint du canal. L’administrateur ne peut pas modifier l’emplacement de stockage de l’enregistrement.
 
-**Comment gérer les enregistrements d’anciens employés ?**
+**Comment gérer les enregistrements d’anciens employés ?**
 
-Comme les vidéos sont comme n’importe quel autre fichier dans OneDrive Entreprise et SharePoint, la gestion de la propriété et de la rétention après le départ d’un employé suit le processus OneDrive Entreprise et [SharePoint normal.]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)
+Étant donné que les vidéos sont comme n’importe quel autre fichier dans OneDrive Entreprise et SharePoint, la gestion de la propriété et de la rétention après le départ d’un employé suit le [processus OneDrive Entreprise et SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process) normal.
 
-**Qui a les autorisations pour afficher l’enregistrement de la réunion ?**
+**Qui est autorisé à afficher l’enregistrement de la réunion ?**
 
-- Pour les réunions hors canal, tous les invités de la réunion, à l’exception des utilisateurs externes, obtiennent automatiquement un lien partagé personnellement. Les utilisateurs externes doivent être explicitement ajoutés à la liste partagée par l’organisateur de la réunion ou la personne ayant démarré l’enregistrement de la réunion.
+- Pour les réunions autres que de canal, tous les invités, sauf les utilisateurs externes, obtiennent automatiquement un lien partagé personnellement. L’organisateur de la réunion ou la personne qui a démarré l’enregistrement de la réunion devra ajouter explicitement les utilisateurs externes à la liste partagée.
 
-- Pour les réunions de canal, les autorisations sont héritées des propriétaires et des membres de la liste dans le canal.
+- Pour les réunions de canal, les autorisations sont héritées de la liste des propriétaires et des membres dans le canal.
 
-**Comment gérer les transcriptions ?**
+**Comment gérer les transcriptions ?**
 
-Les clients optant pour cette prévisualisation ne disposent pas de sous-titres dans leurs enregistrements de réunion Teams migrés vers OneDrive Entreprise et SharePoint.Nous travaillons à l’ajout d’un sous-titrage, à partir de sous-titres en anglais, aux enregistrements de réunion au cours du 4e trimestre 2020.
+Les clients qui acceptent cette préversion ne disposeront pas de sous-titres codés dans leurs enregistrements de réunion Teams migrés vers OneDrive Entreprise et SharePoint.  Nous travaillons à l’ajout de sous-titrage, à commencer par des sous-titres codés en anglais, jusqu’à des enregistrements de réunions au 4e trimestre 2020.
 
-Les sous-titres seront disponibles dans les enregistrements de réunion Teams pour les clients qui ont choisi d’autoriser les transcriptions, comme décrit dans les enregistrements [cloud Teams.](cloud-recording.md)
+Des sous-titres codés seront disponibles dans les enregistrements de réunion Teams pour les clients qui ont choisi d’autoriser les transcriptions, comme décrit dans [Teams Cloud Recordings](cloud-recording.md) (Enregistrements cloud Teams).
 
-Les légendes permettent de créer du contenu accessible aux utilisateurs, qu’ils sont ou non. En tant que propriétaire, vous pouvez masquer les légendes, bien que la transcription reste disponible sur Teams, sauf si vous supprimez les sous-titres dans Teams. Découvrez [comment activer ou désactiver les enregistrements des réunions.](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
+Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer les sous-titres, même si la transcription reste disponible dans Teams, sauf si vous supprimez les sous-titres de Teams. Découvrez comment [activer ou désactiver les enregistrements de réunion](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization).
 
-Les sous-titres sont pris en charge pour les enregistrements de réunion Teams pendant 60 jours à partir de la fin de l’enregistrement de la réunion.
+Nous prenons en charge les sous-titres codés pour les enregistrements de réunion Teams pendant 60 jours à compter de la date d’enregistrement de la réunion.
 
-Les sous-titres ne sont pas entièrement pris en charge si l’enregistrement de réunion Teams est déplacé ou copié à partir de son emplacement d’origine sur OneDrive Entreprise ou SharePoint.
+Nous ne prenons pas entièrement en charge les sous-titres codés si vous déplacez ou copiez l’enregistrement de réunion Teams depuis son emplacement d’origine sur OneDrive Entreprise ou SharePoint.
 
-**Quel est l’impact sur mon quota de stockage ?**
+**Quel sera l’impact sur mon quota de stockage ?**
 
-Les fichiers d’enregistrement de réunion Teams en direct dans OneDrive Entreprise et SharePoint sont inclus dans votre quota pour ces services. Consultez [quota SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) [et quota OneDrive Entreprise.](https://docs.microsoft.com/onedrive/set-default-storage-space)
+Les fichiers d’enregistrement de réunion Teams résident dans OneDrive Entreprise et SharePoint. Ils font partie de votre quota pour ces services. Si vous souhaitez en savoir plus, veuillez consulter les rubriques [Quota Sharepoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) et [Quota OneDrive Entreprise](https://docs.microsoft.com/onedrive/set-default-storage-space).
 
-Vous obtenez davantage de stockage avec [OneDrive Entreprise](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) par rapport à Stream et un stockage plus continu avec SharePoint.
+[OneDrive Entreprise](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) offre davantage d’espace de stockage que Stream, et SharePoint offre davantage d’espace de stockage fongible.
 
-**Comment lire l’enregistrement d’une réunion Teams ?**
+**Comment lire un enregistrement de réunion Teams ?**
 
-Votre vidéo est lée sur le lecteur vidéo de OneDrive Entreprise ou SharePoint en fonction de l’endroit où vous accédez au fichier.
+Vous pouvez lire votre vidéo est sur le lecteur vidéo de OneDrive Entreprise ou de SharePoint, selon l’endroit où vous accédez au fichier.
 
-**Si vous envisagez de ne plus être ajouté à Stream, les vidéos existantes seront-elles toujours en place et pendant combien de temps ?**
+**Si vous envisagez de déconseiller l’ajout à Stream, les vidéos existantes resteront-elles toujours en l’état, et pendant combien de temps ?**
 
-La diffusion en continu en tant que plateforme ne sera pas dépréciée dans un futur proche. Les vidéos qui sont actuellement en direct dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos sont également migrées vers OneDrive Entreprise ou SharePoint. Pour plus [d’informations, consultez](https://docs.microsoft.com/stream/streamnew/classic-migration) la migration classique de Flux.
+Nous ne déconseillerons pas Stream en tant que plateforme dans un avenir proche. Les vidéos qui résident actuellement dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos migreront également vers OneDrive Entreprise ou SharePoint. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Migration classique de Stream](https://docs.microsoft.com/stream/streamnew/classic-migration).
 
-**Comment appliquer une étiquette de rétention ?**
+**Comment appliquer une étiquette de rétention ?**
 
-Découvrez [comment appliquer automatiquement une étiquette de rétention.](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)
+Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application automatique d’étiquettes de rétention](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
-**Comment attribuer des stratégies à mes utilisateurs dans Microsoft Teams et quelles stratégies sont prioritaire ?**
+**Comment attribuer des stratégies à mes utilisateurs dans Microsoft Teams et quelles sont les stratégies prioritaires ?**
 
-Voir [quelle stratégie prend le pas ?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)
+Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).
