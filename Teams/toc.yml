@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Affichages Teams
             href: devices/teams-displays.md
+          - name: Panneaux Teams
+            href: devices/teams-panels.md
+          - name: Utiliser les panneaux Teams
+            href: devices/use-teams-panels.md
           - name: Mettre à niveau les téléphones Teams vers Affichages Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Déployer les téléphones Teams et Affichages Teams à l’aide de Intune
