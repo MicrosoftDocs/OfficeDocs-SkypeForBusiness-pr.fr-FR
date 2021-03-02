@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e731bbd4cd407b61de27db58d9b71b8b4f2c766
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a7d73cc376d0dbf09f6e6a72817b27eeff59e8dd
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816094"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395315"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
 > [!NOTE]
 > Pour avoir une vue d’ensemble de la transition vers les ressources pédagogiques et distantes pour vous aider à démarrer, consultez la page d’accueil de [l’apprentissage à distance](https://www.microsoft.com/education/remote-learning).
 
-Si vous êtes une petite entreprise, ou si vous voulez déployer Teams à partir de la conversation, [](get-started-with-teams-quick-start.md)des équipes & canaux et réunions, utilisez nos préscriptifs de mise en place, qui vous aideront à être opérationnel rapidement. Si vous êtes une organisation de grande taille qui dispose d’une configuration hybride ou sur site de Skype Entreprise, ou si vous souhaitez déployer des fonctionnalités vocales (telles que des plans d’appels Microsoft 365, Office 365 ou un système téléphonique), vous pouvez commencer avec nos conseils de mise en place, mais vous aurez besoin d’instructions supplémentaires ci-dessous, sous des instructions [d’adoption](#deeper-adoption-guidance)plus approfondies.
+Si vous souhaitez déployer Teams à partir de la conversation, des équipes [](get-started-with-teams-quick-start.md)& canaux et réunions, utilisez nos préscriptifs de mise en place, qui vous aideront à être opérationnel rapidement. Si vous êtes une organisation de grande taille qui dispose d’une configuration hybride ou sur site de Skype Entreprise, ou si vous souhaitez déployer des fonctionnalités vocales (telles que des plans d’appel Microsoft 365, Office 365 ou un système téléphonique), vous pouvez commencer avec nos conseils de mise en place, mais vous aurez besoin des conseils supplémentaires ci-dessous, sous des instructions [d’adoption](#deeper-adoption-guidance)plus approfondies.
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

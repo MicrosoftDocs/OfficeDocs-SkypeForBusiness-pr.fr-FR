@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Cet article fournit des instructions sur l’utilisation des panneaux Teams.
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348072"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395325"
 ---
-# <a name="use-microsoft-teams-panels"></a>Utiliser les panneaux Microsoft Teams
+# <a name="how-to-use-microsoft-teams-panels"></a>Utilisation des panneaux Microsoft Teams
 
 Les panneaux Microsoft Teams sont des appareils à affichage numérique compact qui sont affichés directement en dehors de vos espaces de réunion, généralement à côté des entrées. Ces écrans tactiles sont des appareils Microsoft Teams dédiés qui offrent un aperçu rapide de votre espace de réunion et de la réunion programmée. Les indicateurs LED et Écran d’accueil aux codes de couleur dynamique vous permet de déterminer si l’espace est disponible ou réservé à distance. Vous pouvez utiliser des panneaux Teams pour réserver un espace de réunion disponible pour une réunion ad hoc, sur place.
 
@@ -63,7 +63,7 @@ Vignette | Description
 **1-Current time, day, date, and meeting space details** | Affiche l’heure, le jour, la date et le nom de l’espace de réunion actuels. Le nom de l’espace de réunion est le nom du compte de ressource qui s’est inscrit aux panneaux.
 **2-Meeting space availability and meeting details** | Indique la disponibilité de l’espace de réunion et affiche les détails de la réunion. Affichez la vignette De la disponibilité [de l’espace de réunion et des détails de la réunion.](#meeting-space-availability-and-meeting-details-tile)
 **Calendrier à 3 à venir** | Affiche le calendrier de l’espace de réunion et la disponibilité pendant 24 heures à partir de l’heure actuelle. Faites défiler vers le haut ou vers le bas pour déterminer les créneaux de temps disponibles et ceux qui sont réservés.
-**4-Settings** | Affiche l’icône des paramètres. Appuyez dessus pour ouvrir **l’écran Paramètres** afin de signaler un problème ou de mettre à jour les paramètres disponibles de l’appareil.
+**4-Settings** | Affiche **l’icône Paramètres.** Appuyez dessus pour signaler un problème ou mettre à jour les paramètres du périphérique disponibles.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>Vignette Des informations sur la disponibilité de l’espace de réunion et les détails de la réunion
 
@@ -212,7 +212,7 @@ Les administrateurs peuvent choisir la couleur rouge ou violette comme couleur L
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Cette capture d’écran présente les paramètres d’état occupé de couleur LED":::
 4. Revenir à l’écran d’accueil et vérifier que la couleur LED de l’état occupé est mise à jour. Si l’espace de réunion est actuellement disponible, essayez de planifier une réunion test pour vérifier la modification de la couleur du LED pour l’état occupé.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Forum aux questions
 
 Trouvez des réponses aux questions les plus fréquemment posées sur les appareils des panneaux Teams.
 
@@ -223,4 +223,4 @@ Dans  la vignette Calendrier à venir (en bas à droite) dans l’écran d’acc
 Non, vous ne pouvez pas réserver d’espace de réunion pour une heure ultérieure à partir de panneaux. L’heure de début est toujours l’heure actuelle pour une réunion ad hoc prévue à partir de panneaux.
 
 **Pendant combien de temps puis-je réserver un espace de réunion disponible pour une réunion ad hoc ?**  
-Vous pouvez réserver un espace de réunion disponible à partir de l’heure actuelle jusqu’à l’heure de la prochaine réunion prévue, ou jusqu’à un maximum de 24 heures à partir de votre heure actuelle( selon la date précédente). Par exemple, si l’heure actuelle est 10 H et que l’heure de début de la prochaine réunion est de 14 h, vous pouvez réserver l’espace de réunion de 10 h à 14 h.
+Vous pouvez réserver un espace de réunion disponible à partir de l’heure actuelle jusqu’à l’heure de la prochaine réunion prévue, ou jusqu’à 24 heures à partir de l’heure actuelle (selon la date antérieure). Par exemple, si l’heure actuelle est 10 H et que l’heure de début de la prochaine réunion est de 14 h, vous pouvez réserver l’espace de réunion de 10 h à 14 h.

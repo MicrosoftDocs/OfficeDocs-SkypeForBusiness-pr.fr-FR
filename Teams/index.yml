@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Documentation pour les administrateurs Microsoft Teams
-summary: Découvrez comment déployer et gérer Teams, et préparer vos utilisateurs pour Teams
+summary: Recherchez la documentation pour l’administrateur et les professionnels de l’informatique de Microsoft Teams et découvrez comment déployer et gérer Teams, et préparer vos utilisateurs pour Teams.
 brand: teams
 metadata:
   title: Documentation pour les administrateurs Microsoft Teams
-  description: Découvrez la documentation de l’administrateur de Microsoft Teams, notamment comment déployer et gérer Teams, et préparer vos utilisateurs pour Teams.
+  description: Recherchez la documentation pour l’administrateur et les professionnels de l’informatique de Microsoft Teams et découvrez comment déployer et gérer Teams, et préparer vos utilisateurs pour Teams.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -13,82 +13,140 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 0be9febe11179da1ffa5b2bd696704e7763da272
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 4063aca5206303a43f66dbf8c8b002cd8ae53d59
+  ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110297"
+  ms.lasthandoff: 03/01/2021
+  ms.locfileid: "50395386"
 highlightedContent:
   items:
-  - title: 'Réponse COVID-19 : prise en charge de travailleurs à distance à l’aide de Teams'
+  - title: Prise en charge des employés à distance à l’aide de Teams
     itemType: overview
-    url: /MicrosoftTeams/support-remote-work-with-teams
-  - title: Procédure de déploiement de Teams
-    itemType: deploy
-    url: /MicrosoftTeams/how-to-roll-out-teams
-  - title: Sécurité et conformité dans Teams
-    itemType: overview
-    url: /MicrosoftTeams/security-compliance-overview
-  - title: Trouvez une formation pour vous et vos utilisateurs
-    itemType: learn
-    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    url: https://docs.microsoft.com/en-us/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
   - title: Mise à niveau de Skype Entreprise vers Teams
     itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-skype-teams
-  - title: Hub d’adoption
+  - title: Utilisez Conseiller pour Teams pour faciliter le déploiement de Microsoft Teams.
     itemType: get-started
-    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    url: /MicrosoftTeams/use-advisor-teams-roll-out
 productDirectory:
+  title: 'Professionnels de l’informatique : prise en main de Microsoft Teams'
   items:
-  - title: Intégration avec Microsoft Power Platform
-    imageSrc: ./media/blocks-teams.svg
-    summary: Tirez parti de l’implémentation de processus professionnels avec Microsoft Power Platform
-    url: teams-power-platfom-integration.md
-  - title: 'Étude de cas Contoso : migration vocale de Teams'
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-teams.svg
-    summary: Découvrez comment une entreprise fictive multinationale a implémenté une solution vocale Teams pour son organisation.
-    url: voice-case-study-overview.md
-  - title: Gouvernance de la collaboration dans Microsoft 365
-    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: Développez une stratégie de gouvernance pour les services de collaboration Microsoft 365 qui répond aux besoins de votre organisation.
-    url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+  - title: Pilote
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: Planifiez votre déploiement et pilotez vos solutions, de manière à avoir une expérience sans heurt.
+    url: /MicrosoftTeams/get-started-with-teams-quick-start
+  - title: Préparer l’adoption pour l’utilisateur final 
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: Assurez la participation de vos utilisateurs et partagez des scénarios pour favoriser la réussite.
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: Planifier le déploiement de l’entreprise
+    imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
+    summary: Préparez votre environnement et votre Infrastructure au déploiement.
+    url: /MicrosoftTeams/deploy-enterprise-overview
+  - title: Déployer
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
+    summary: Déployez Microsoft Teams au sein de votre organisation.
+    url: /MicrosoftTeams/deploy-overview
+  - title: Sécurisé
+    imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
+    summary: Suivez ces meilleures pratiques pour sécuriser vos données, fichiers et identités dans Microsoft Teams.
+    url: /MicrosoftTeams/security-compliance-overview
+  - title: Gestion
+    imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+    summary: Réalisez jour après jour des tâches de gestion pour Microsoft Teams.
+    url: /MicrosoftTeams/manage-teams-overview
+tools:
+  title: Ressources pour toutes les audiences
+  items:
+  - title: Apprendre pour les professionnels de l’informatique et les administrateurs
+    imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
+    url: https://docs.microsoft.com/learn/teams/
+  - title: Plateforme Microsoft Teams et Microsoft 365 pour les développeurs
+    imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
+    url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+  - title: Aide et formation de l’utilisateur final
+    imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
+    url: https://support.office.com/Teams
+  - title: Blogs Teams et communauté technique
+    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+    url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+  - title: Teams UserVoice (forum dédié aux commentaires des utilisateurs)
+    imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
+    url: https://microsoftteams.uservoice.com/
+  - title: Télécharger Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
+    url: https://products.office.com/microsoft-teams/group-chat-software
 additionalContent:
   sections:
-  - items:
-    - title: Articles les plus consultés
+  - title: Solutions clés
+    items:
+    - title: Conversations, équipes et canaux
       links:
-      - text: Préparer le réseau de votre organisation pour Microsoft Teams
-        url: /MicrosoftTeams/prepare-network
+      - text: Conversations, équipes, canaux et applications
+        url: /Microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page
+      - text: Présentation des équipes et des canaux
+        url: /Microsoftteams/teams-channels-overview
+      - text: Appels et conversations avec des utilisateurs d’autres organisations (accès invité/externe)
+        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+      - text: Qu'est-ce que la gouvernance de collaboration ?
+        url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+      - text: Configurer Teams avec trois niveaux de sécurité de partage de fichier
+        url: https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+    - title: Réunions et conférences
+      links:
+      - text: Vue d’ensemble des réunions et conférences
+        url: /Microsoftteams/deploy-meetings-microsoft-teams-landing-page
+      - text: Que sont les événements en direct Microsoft Teams ?
+        url: /Microsoftteams/teams-live-events/what-are-teams-live-events
+      - text: Déployer l’audioconférence
+        url: /Microsoftteams/deploy-audio-conferencing-teams-landing-page
+      - text: Salles Microsoft Teams
+        url: /MicrosoftTeams/rooms/
+    - title: Appel vocal
+      links:
+      - text: Planifier votre solution vocale Teams
+        url: /MicrosoftTeams/cloud-voice-landing-page
+      - text: Qu’est-ce que Microsoft 365 Business Voice ?
+        url: /MicrosoftTeams/business-voice/whats-business-voice
+      - text: Configurer le Système téléphonique
+        url: /Microsoftteams/setting-up-your-phone-system
+      - text: 'Étude de cas Contoso : migration vocale de Teams'
+        url: /MicrosoftTeams/voice-case-study-overview
+    - title: Développer la fonctionnalité Teams
+      links:
+      - text: Applications, robots et connecteurs dans Microsoft Teams
+        url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+      - text: Créer des applications pour Microsoft Teams
+        url: /MicrosoftTeams/platform/overview
+      - text: Intégration avec Microsoft Power Platform
+        url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
+      - text: Sécurité et conformité de l’application Microsoft Teams
+        url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
+      - text: "Microsoft Viva : implication et expérience de l'employé"
+        url: https://www.microsoft.com/microsoft-viva/
+    - title: Éducation et secteurs
+      links:
       - text: Préserver la sécurité des étudiants lors de l’utilisation de Teams pour l’enseignement à distance
         url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Utilisez Advisor for Teams pour faciliter le déploiement de Microsoft Teams.
-        url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: Utilisation de la mémoire par Teams
-        url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: Communiquer avec des utilisateurs d’autres organisations (accès invité/externe)
-        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: Affiches et solutions pour l’architecture informatique
-        url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: Appels vocaux avec Teams
+      - text: Microsoft Teams pour l’éducation
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
+      - text: Santé
+        url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
+      - text: Employés de terrain
+        url: /MicrosoftTeams/flw-quickstart
+      - text: Commerce
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page
+    - title: Administration
       links:
-      - text: Appel vocal dans le nuage dans Microsoft Teams
-        url: /MicrosoftTeams/cloud-voice-landing-page
-      - text: Microsoft 365 pour les PME
-        url: /MicrosoftTeams/business-voice/whats-business-voice
-      - text: Routage direct via le système téléphonique
-        url: /MicrosoftTeams/direct-routing-landing-page
-      - text: Configurer les téléphones de partie commune
-        url: /MicrosoftTeams/set-up-common-area-phones
-    - title: Autres contenus Teams
-      links:
-      - text: Aide sur le contenu pour les utilisateurs finaux
-        url: https://support.office.com/Teams
-      - text: Communauté technique Teams
-        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: Forum dédié aux commentaires des utilisateurs de Teams
-        url: https://microsoftteams.uservoice.com/
-      - text: Infos sur le produit Teams
-        url: https://products.office.com/microsoft-teams/group-chat-software
-      - text: Plateforme de développeurs Teams
-        url: https://docs.microsoft.com/microsoftteams/platform/overview
+      - text: Teams pour le secteur public
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+      - text: 'Gouvernement : déploiements Cloud de la communauté du secteur public (GCC)'
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc
+      - text: 'Gouvernement : déploiements Cloud de la communauté du secteur public (GCC High)'
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high
+      - text: 'Gouvernement : déploiements Department of Defense (DoD)'
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-dod
+      - text: Packages de stratégie pour le gouvernement
+        url: https://docs.microsoft.com/microsoftteams/policy-packages-gov

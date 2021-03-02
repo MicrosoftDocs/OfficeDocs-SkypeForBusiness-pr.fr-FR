@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Découvrez comment sécuriser vos appareils Salle Microsoft Teams.
-ms.openlocfilehash: d9968af4f386ed68d9a931d834082ba5362c5c33
-ms.sourcegitcommit: 380cd74c08cd34e1c3f73f5c0f51da4ae2674f6f
+ms.openlocfilehash: 522cc845e2e6b8b1f57fc0ab1c1523452ec429f8
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880870"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395376"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Sécurité des salles Microsoft Teams
 
@@ -49,7 +49,7 @@ La protection DMA (Kernel Direct Memory Access) est un paramètre Windows 10 act
 
 - Contre la DMA malveillante par les appareils connectés à des ports internes/externes facilement accessibles, tels que les emplacements du PCIe M.2 et Thunderbolt 3, pendant l’runtime du système d’exploitation.
 
-Les salles Teams activent également l’intégrité du code protégé par un hyperviseur (HVCI). Credential Guard est une des fonctionnalités fournies par HVCI. Credential Guard offre les avantages suivants :
+Les salles Teams activent également l’intégrité du code protégé par l’hyperviseur (HVCI). L’une des fonctionnalités fournies par HVCI est Credential Guard. Credential Guard offre les avantages suivants :
 
 - **Sécurité matérielle** NTLM, Kerberos et le Gestionnaire d’informations d’identification tirez parti des fonctionnalités de sécurité de la plateforme, notamment le démarrage sécurisé et la virtualisation, pour protéger les informations d’identification.
 
@@ -66,13 +66,13 @@ Après les boots Microsoft Windows, Salles Teams se signe automatiquement sur un
 
 L’application Salles Microsoft Teams s’exécute à l’aide de la fonctionnalité Accès affecté de Windows 10 1903 et ultérieure. L’accès affecté est une fonctionnalité de Windows 10 qui limite les points d’entrée d’application exposés à l’utilisateur. C’est ce qui active le mode d’une seule application kiosk. À l’Lanceur de ligne de commandes, Salles Teams est configurée comme un appareil de borne qui exécute une application de bureau Windows comme interface utilisateur. L’application Salles Microsoft Teams remplace l’shell par défaut (explorer.exe) qui s’exécute généralement lorsqu’un utilisateur se connecte. En d’autres termes, le shell traditionnel de l’Explorateur n’est pas lancé. Cela réduit considérablement la vulnérabilité des salles Microsoft Teams dans Windows. Pour plus d’informations, voir [Configurer des bornes et des panneaux numériques sur les éditions de bureau Windows.](https://docs.microsoft.com/windows/configuration/kiosk-methods)
 
-Si vous décidez d’exécuter une analyse de sécurité ou un centre de sécurité Internet sur les salles Teams, l’analyse peut uniquement s’exécuter dans le contexte d’un compte d’administrateur local, car le compte d’utilisateur Skype ne prend pas en charge l’exécution d’applications autres que l’application Salles Teams. Bon nombre des fonctionnalités de sécurité appliquées au contexte utilisateur Skype ne s’appliquent pas aux autres utilisateurs locaux et, par conséquent, ces analyses de sécurité n’entraînent pas le verrouillage complet de la sécurité appliqué au compte Skype. Par conséquent, il n’est pas recommandé d’exécuter une analyse locale dans les salles Teams. Toutefois, si vous le souhaitez, vous pouvez exécuter des tests de déficit externe. Pour cette raison, nous vous recommandons d’exécuter des tests de déficit extérieur sur les appareils Teams Rooms au lieu d’exécuter des analyses locales.
+Si vous décidez d’exécuter une analyse de sécurité ou un centre de sécurité Internet sur les salles Teams, l’analyse peut uniquement s’exécuter dans le contexte d’un compte d’administrateur local, car le compte d’utilisateur Skype ne prend pas en charge l’exécution d’applications autres que l’application Salles Teams. Bon nombre des fonctionnalités de sécurité appliquées au contexte utilisateur Skype ne s’appliquent pas aux autres utilisateurs locaux et, par conséquent, ces analyses de sécurité n’entraînent pas le verrouillage complet de la sécurité appliqué au compte Skype. Par conséquent, il n’est pas recommandé d’exécuter une analyse locale dans les salles Teams. Si vous le souhaitez, vous pouvez exécuter des tests de déficit externe. Pour cette raison, nous vous recommandons d’exécuter des tests de sécurité extérieure sur les appareils Teams Rooms au lieu d’exécuter des analyses locales.
 
 En outre, des stratégies de verrouillage sont appliquées afin de limiter l’utilisation des fonctionnalités non administratives. Un filtre clavier est activé pour intercepter et bloquer les combinaisons de claviers potentiellement incursées par les stratégies Accès affecté. Seuls les utilisateurs disposent de droits d’administration locaux ou de domaine sont autorisés à se connecter à Windows pour gérer les salles d’équipe. Ces stratégies ainsi que d’autres appliquées à Windows sur les appareils Microsoft Teams Rooms sont évaluées et testées en permanence pendant le cycle de vie des produits.
 
 ## <a name="account-security"></a>Sécurité du compte
 
-Les appareils Salle Teams incluent un compte d’administration nommé « Administrateur » avec un mot de passe par défaut. Nous vous recommandons vivement de modifier le mot de passe par défaut dès que possible une fois la configuration terminée.
+Les appareils Salles Teams incluent un compte d’administration nommé « Administrateur » avec un mot de passe par défaut. Nous vous recommandons vivement de modifier le mot de passe par défaut dès que possible une fois la configuration terminée.
 
 Le compte d’administrateur n’est pas nécessaire pour le bon fonctionnement des appareils Salles Teams et peut être renommé ou même supprimé. Toutefois, avant de supprimer le compte d’administrateur, veillez à configurer un autre compte d’administrateur local configuré avant de supprimer celui qui est configuré avec les appareils Salles d’équipe. Pour plus d’informations sur la modification du mot de passe d’un compte Windows local à l’aide des outils Windows intégrés ou de PowerShell, voir les sections suivantes :
 
@@ -90,11 +90,11 @@ Windows Configuration Designer peut être utilisé pour créer des packages de m
 
 Vous devez créer un compte de ressource pour chaque appareil Salles Teams afin qu’il puisse se connecte à Teams. Vous ne pouvez pas utiliser l’authentification à deux facteurs ou multifacteur avec ce compte. La mise en place d’un deuxième facteur empêche le compte de se connecter automatiquement à l’application Salles d’équipe après un redémarrage. Toutefois, vous pouvez activer l’authentification moderne pour plus de sécurité pour ce compte. En outre, des stratégies d’accès conditionnel basées sur l’emplacement peuvent être déployées pour le compte de ressource afin d’empêcher qu’un emplacement non approbé ne soit entré dans le compte. Pour plus d’informations, voir [Utiliser la condition d’emplacement dans une stratégie d’accès conditionnel](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition)
 
-Nous vous recommandons de créer le compte de ressource dans Azure AD, si possible. Bien qu’un compte synchronisé puisse fonctionner avec des salles Teams dans les déploiements hybrides, ces comptes synchronisés ont souvent des difficultés à se brancher aux salles d’équipe et peuvent être difficiles à résoudre. Si vous choisissez d’utiliser un service de fédération tiers pour authentifier les informations d’identification du compte de ressource, assurez-vous que la personne IDP tierce répond avec l’attribut `wsTrustResponse` set to `urn:oasis:names:tc:SAML:1.0:assertion` .
+Nous vous recommandons de créer le compte de ressource dans Azure AD, si possible. Bien qu’un compte synchronisé puisse fonctionner avec des salles d’équipe dans des déploiements hybrides, ces comptes synchronisés ont souvent des difficultés pour s’inscrire aux salles d’équipe et peuvent être difficiles à résoudre. Si vous choisissez d’utiliser un service de fédération tiers pour authentifier les informations d’identification du compte de ressource, assurez-vous que la personne IDP tierce répond avec l’attribut `wsTrustResponse` set to `urn:oasis:names:tc:SAML:1.0:assertion` .
 
 ## <a name="network-security"></a>Sécurité réseau
 
-En règle générale, les salles Teams ont la même exigences réseau que n’importe quel client Microsoft Teams. L’accès via les pare-feu et autres appareils de sécurité est identique pour les salles Teams et pour tout autre client Microsoft Teams. Spécifiques aux salles Teams, les catégories répertoriées comme « obligatoires » pour Teams doivent être ouvertes sur votre pare-feu. Les salles Teams ont également besoin d’accéder à Windows Update, au Microsoft Store et à Microsoft Intune (si vous utilisez Microsoft Intune pour gérer vos appareils). Pour obtenir la liste complète des adresses IPS et DES URL requises pour les salles Microsoft Teams, voir :
+En règle générale, les salles d’équipe ont la même exigences réseau que n’importe quel client Microsoft Teams. L’accès via les pare-feu et autres appareils de sécurité est identique pour les salles Teams et pour tout autre client Microsoft Teams. Spécifiques aux salles Teams, les catégories répertoriées comme « obligatoires » pour Teams doivent être ouvertes sur votre pare-feu. Les salles Teams ont également besoin d’accéder à Windows Update, au Microsoft Store et à Microsoft Intune (si vous utilisez Microsoft Intune pour gérer vos appareils). Pour obtenir la liste complète des adresses IPS et DES URL requises pour les salles Microsoft Teams, voir :
 
 - **URL et** plages d’adresses IP Microsoft Teams [Office 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
@@ -103,16 +103,19 @@ En règle générale, les salles Teams ont la même exigences réseau que n’im
 
 Si vous utilisez le composant des services gérés des salles Microsoft Teams de Microsoft Teams Salles Premium, vous devez également vous assurer que les salles Teams peuvent accéder aux URL suivantes :
 
+- agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
 - gj3ftstorage.blob.core.windows.net
-- gj3ft-hub.azure-devices.net
 - iothubsgagwt5wgvwg6.azure-devices.net
 - blobssgagwt5wgvwg6.blob.core.windows.net
-- prod-48.westus.logic.azure.com
-- prod-08.westus.logic.azure.com
-- prod-62.westus.logic.azure.com
-- prod-65.westus.logic.azure.com
-- prod-05.westus.logic.azure.com
+- mmrstgnoamiot.azure-devices.net
+- mmrstgnoamstor.blob.core.windows.net
+- mmrprodapaciot.azure-devices.net
+- mmrprodapacstor.blob.core.windows.net
+- mmrprodemeaiot.azure-devices.net
+- mmrprodemeastor.blob.core.windows.net
+- mmrprodnoamiot.azure-devices.net
+- mmrprodnoamstor.blob.core.windows.net
 
 Les salles Teams sont configurées pour rester automatiquement mises à jour correctifs avec les dernières mises à jour Windows, y compris les mises à jour de sécurité. Les salles Teams installent les mises à jour en attente tous les jours à partir de 02:00 à l’aide d’une stratégie locale pré-définie. Il n’est pas nécessaire d’utiliser des outils supplémentaires pour déployer et appliquer Windows Update. L’utilisation d’outils supplémentaires pour déployer et appliquer des mises à jour peut retarder l’installation des correctifs Windows et donc entraîner un déploiement moins sécurisé. L’application Salles Teams est déployée à l’aide du Microsoft Store. Si la licence de vos appareils est microsoft Teams Rooms Standard, toutes les nouvelles versions de l’application sont installées automatiquement pendant le processus de mise à jour des correctifs nocturnes. Si vos appareils sont concédés sous licence avec Microsoft Teams Rooms Premium et inscrits au service géré Microsoft, les nouvelles versions de l’application Salles d’équipe sont installées selon votre plan de déploiement défini.
 

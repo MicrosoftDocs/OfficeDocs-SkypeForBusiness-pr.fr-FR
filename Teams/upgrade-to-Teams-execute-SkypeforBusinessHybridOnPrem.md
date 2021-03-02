@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 961ac4f9bcce3c24d62ec1c744d2c9cd15e2ee1b
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 7bd7d2fad4e4c35a26bcbb435caba5898dd54534
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578167"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397549"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Mise à niveau de Skype Entreprise local vers Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
+![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
@@ -41,7 +41,9 @@ Cet article fait partie de la phase déploiement et implémentation de votre voy
 -   [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Conduite d’un pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-Si vous avez déployé Skype Entreprise Server ou Microsoft Lync en local et que votre organisation souhaite mettre à niveau vers Teams, suivez les instructions de cet article. Vous devez configurer une connectivité hybride avec votre organisation Microsoft 365 ou Office 365, et déterminer les conditions de coexistence si vous déplacez vos utilisateurs vers Teams par phase. 
+Si vous avez déployé Skype Entreprise Server ou Microsoft Lync en local et que votre organisation souhaite mettre à niveau vers Teams, suivez les instructions de cet article. Vous devez configurer une connectivité hybride avec votre organisation Microsoft 365 ou Office 365, et déterminer les conditions de coexistence si vous déplacez vos utilisateurs vers Teams par phase.
+
+Avant de commencer, les professionnels de l’informatique et les administrateurs doivent prendre en compte les [considérations importantes](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) pour les organisations qui utilisent Skype Entreprise Server en local plus loin dans cet article.
 
 > [!IMPORTANT]
 > Skype Entreprise Online sera supprimé le 31 juillet 2021. Après cette date, il ne sera plus accessible ni pris en charge. Pour optimiser l’avantage et vous assurer que votre organisation a le temps approprié pour implémenter votre mise à niveau, nous vous encourageons à commencer votre voyage vers Microsoft Teams dès aujourd’hui. N’oubliez pas qu’une mise à niveau réussie aligne les niveaux de préparation technique et utilisateur. N’oubliez pas de tirer parti des conseils qui s’offrent à vous au cours de votre voyage vers Microsoft Teams.
@@ -55,7 +57,7 @@ Commencez par lire [Planifier la connectivité hybride,](https://docs.microsof
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>Étape 2 : définir le mode de coexistence de transition (facultatif)
 
-La coexistence et l’interopérabilité entre Les clients et utilisateurs de Skype Entreprise et Teams sont définis par les modes de mise à niveau de Teams.  Par défaut, les organisations sont en mode Îles, ce qui permet aux utilisateurs d’utiliser les clients Teams et Skype Entreprise côte à côte.
+La coexistence et l’interopérabilité entre les clients et utilisateurs De Skype Entreprise et Teams sont définis par les modes de mise à niveau de Teams.  Par défaut, les organisations sont en mode Îles, ce qui permet aux utilisateurs d’utiliser les clients Teams et Skype Entreprise côte à côte.
 
 Pour une organisation passant à Teams, le mode TeamsOnly est la destination finale pour chaque utilisateur, même si tous les utilisateurs ne doivent pas être affectés à TeamsOnly (ou tout autre mode) en même temps.
 
@@ -88,3 +90,44 @@ Lorsque vous considérez des options de connectivité réseau téléphonique com
 - Un utilisateur de Skype Entreprise sur site avec Voix Entreprise, qui passe au service en ligne et utilise un plan d’appel Microsoft. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination du déplacement avec l’un des A) port du numéro de téléphone de cet utilisateur vers un plan d’appels Microsoft ou B) et l’affectation d’un nouveau numéro d’abonné à partir des régions disponibles.  Pour plus d’informations, voir Skype Entreprise Server sur site, avec [Voix Entreprise, vers le plan d’appels Microsoft.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)
 
 - Un utilisateur de Skype Entreprise sur site avec Voix Entreprise, qui passe à la connexion en ligne et maintient la connectivité RSTN sur site. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. Pour plus d’informations, voir À partir de Skype Entreprise Server en local, avec [Voix Entreprise, vers Un routage direct.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)
+
+
+## <a name="important-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Considérations importantes pour les organisations avec Skype Entreprise Server sur site
+
+- Les articles suivants décrivent les concepts de mise à niveau et les comportements de coexistence importants :
+    - [Coexistence de Teams et de Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+    - [Modes de coexistence - Référence](migration-interop-guidance-for-teams-with-skype.md)
+    - [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
+- La configuration de Skype Entreprise hybride est une condition préalable pour migrer vers le mode TeamsOnly. S’il est possible d’utiliser Teams en mode Îles sans utiliser le mode hybride, la transition vers le mode TeamsOnly ne peut pas être réalisée tant que l’utilisateur n’a pas été déplacé de Skype Entreprise en local vers Skype Entreprise Online (à l’aide de [Move-CsUser).](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) Pour plus d’informations, [voir Configurer la connectivité hybride.](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity)
+
+- Si votre organisation dispose de Skype Entreprise Server et que vous n’avez pas configuré de connectivité hybride, mais que vous souhaitez continuer à utiliser Teams, pour gérer la fonctionnalité Teams, vous devez utiliser un compte d’administration avec un domaine .onmicrosoft.com. 
+
+- Les utilisateurs de Teams qui ont un compte Skype Entreprise en local (autrement dit, ils n’ont pas encore été déplacés vers le cloud à l’aide de Move-CsUser) ne peuvent pas interopérables avec les utilisateurs Skype Entreprise et ne peuvent pas se fédérer avec des utilisateurs externes. Cette fonctionnalité n’est disponible que lorsque les utilisateurs sont déplacés vers le cloud (soit en mode Îles, soit en tant qu’utilisateurs de TeamsOnly). 
+
+- Si vous avez des utilisateurs avec des comptes Skype Entreprise en local, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez d’abord déplacer tous les utilisateurs utilisant des comptes Skype Entreprise locaux vers le cloud, puis désactiver la migration hybride vers `Move-CsUser` [le cloud.](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` ne fonctionne pas au niveau du client si un enregistrement DNS lyncdiscover est détecté qui pointe vers un emplacement autre qu’Office 365.
+
+- Vous devez vous assurer que vos utilisateurs sont correctement synchronisés dans Azure AD avec les attributs Skype Entreprise appropriés. Ces attributs sont tous des préfixes avec « msRTCSIP- ». Si les utilisateurs ne sont pas correctement synchronisés avec Azure AD, les outils de gestion dans Teams ne pourront pas gérer ces utilisateurs. (Par exemple, vous ne pourrez pas affecter de stratégies Teams à des utilisateurs locaux, sauf si vous synchronisez correctement ces attributs.) Pour plus d’informations, voir [Configurer Azure AD Connect pour Teams et Skype Entreprise.](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+
+- Pour créer un utilisateur TeamsOnly ou Skype Entreprise Online dans une organisation hybride, vous devez d’abord activer l’utilisateur dans Skype Entreprise *Server* sur site, puis le déplacer de l’utilisateur de l’environnement local vers le cloud à l’aide de Move-CsUser.  La création de l’utilisateur sur site garantit d’abord que tout autre utilisateur de Skype Entreprise local restant pourra router vers l’utilisateur nouvellement créé. Une fois tous les utilisateurs déplacés en ligne, il n’est plus nécessaire d’activer les utilisateurs en local.
+
+- Lorsqu’un utilisateur est déplacé du cloud en local, les réunions organisées par cet utilisateur sont déplacées vers Skype Entreprise Online ou Teams, selon que le commutateur -MoveToTeams est spécifié ou non.
+
+- Si vous souhaitez afficher les notifications dans le client Skype Entreprise pour les utilisateurs locaux, vous devez utiliser TeamsUpgradePolicy dans le groupe d’outils local. Seul le paramètre NotifySfbUsers est pertinent pour les utilisateurs locaux.  Les utilisateurs sur site reçoivent leur mode depuis les instances en ligne de TeamsUpgradePolicy. Consultez les notes [dans Grant-CsTeamsUpgradePolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 
+
+>[!NOTE]
+> Les nouveaux clients créés après le 3 septembre 2019 sont créés en tant que clients TeamsOnly, sauf si l’organisation dispose déjà d’un déploiement local de Skype Entreprise Server. Microsoft utilise les enregistrements DNS pour identifier les organisations Skype Entreprise Server locales. Si votre organisation a un serveur Skype Entreprise local sans entrée DNS publique, vous devez appeler le Support Microsoft pour que votre nouveau client soit rétrogradé. 
+
+## <a name="related-links"></a>Liens connexes
+
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
+
+[Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+
+[Déplacer des utilisateurs entre l’environnement local et le cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+
+[Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
+
+[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+
+[Utilisation du service Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

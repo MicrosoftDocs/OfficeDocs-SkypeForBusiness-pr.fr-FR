@@ -1,5 +1,5 @@
 ---
-title: Outils de mise à niveau vers Teams à partir d’un déploiement Skype Entreprise local
+title: Outils pour la mise à niveau vers Teams à partir d’un déploiement local de Skype Entreprise
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -17,30 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347845"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397539"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Outils de mise à niveau vers Teams &mdash; pour les administrateurs informatiques
 
-Cet article décrit les outils permettant de mettre à niveau vers Teams. Cet article est le troisième décrivent les concepts de mise à niveau et d’implémentation pour les administrateurs informatiques.  
+Cet article décrit les outils permettant de mettre à niveau vers Teams à partir de Skype Entreprise. 
 
-- [Vue d’ensemble](upgrade-to-teams-on-prem-overview.md)
-- [Méthodes de mise à niveau](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **Outils de gestion de votre mise à niveau**   (cet article)
-- [Autres éléments à prendre en considération pour les organisations avec Skype Entreprise sur site](upgrade-to-teams-on-prem-considerations.md)
-- [Implémenter votre mise à niveau](upgrade-to-teams-on-prem-implement.md)
-- [Considérations sur le réseau téléphonique commuté (PSTN)](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-De plus, les articles suivants décrivent les concepts de mise à niveau et les comportements de coexistence importants :
+Avant de commencer votre mise à niveau, Microsoft recommande les articles suivants qui décrivent les concepts de mise à niveau et les comportements de coexistence importants :
 
 - [Coexistence de Teams et de Skype Entreprise](upgrade-to-teams-on-prem-coexistence.md)
 - [Modes de coexistence - Référence](migration-interop-guidance-for-teams-with-skype.md)
 - [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## <a name="tools-for-managing-the-upgrade"></a>Outils de gestion de la mise à niveau
 
@@ -120,7 +112,7 @@ Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de r
 
 ## <a name="related-links"></a>Liens connexes
 
-[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
+[Modes de coexistence - Référence](migration-interop-guidance-for-teams-with-skype.md) 
 
 [Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
