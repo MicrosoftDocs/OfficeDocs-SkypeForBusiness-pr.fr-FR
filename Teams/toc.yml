@@ -181,32 +181,22 @@ items:
             href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
           - name: "Mise à niveau de Skype\_Entreprise local vers Teams"
             href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+          - name: Stratégies de mise à niveau
+            href: upgrade-to-teams-on-prem-implement.md
       - name: 'Fonctionnement, adoption et optimisation'
         href: continue-journey.md
       - name: Déclassement de Skype Entreprise Online
         href: skype-for-business-online-retirement.md
       - name: FAQ
         href: FAQ-journey.yml
-      - name: Bibliothèque technique
+      - name: Référence
         items:
-          - name: Conseils sur la mise à niveau pour les administrateurs informatiques
-            items:
-              - name: Vue d’ensemble
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: Méthodes de mise à niveau
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: Outils de gestion de votre mise à niveau
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: Considérations pour les organisations disposant de Skype Entreprise dans leurs locaux
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: Implémenter votre mise à niveau
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Coexistence de Skype Entreprise et de Teams
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: Modes de coexistence – Référence
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Expérience client Teams et conformité aux modes coexistence
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: Outils de gestion de votre mise à niveau
+            href: upgrade-to-teams-on-prem-tools.md
+          - name: Modes de coexistence – Référence
+            href: migration-interop-guidance-for-teams-with-skype.md
+          - name: Expérience client Teams et conformité aux modes coexistence
+            href: teams-client-experience-and-conformance-to-coexistence-modes.md
           - name: Configuration de vos paramètres de coexistence et de mise à niveau
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Commencer par les réunions
