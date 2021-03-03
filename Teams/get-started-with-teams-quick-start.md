@@ -1,7 +1,7 @@
 ---
 title: Prise en main de Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
@@ -19,58 +19,65 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a0188b544c69d3779282aff06b007f4f06910b85
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030430"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395349"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
-> [!IMPORTANT]
-> Si vous déployez rapidement des Microsoft Teams en réponse à une demande accrue de prise en charge du **travail à distance**, utilisez ce guide de démarrage pour déployer Teams dans toute votre organisation. Ces conseils sont valables, même lorsque Teams constitue votre première charge de travail pour Microsoft 365 ou Office 365.
+> [!TIP]
+> Vous recherchez des informations sur l’installation du client Teams sur votre PC ou appareil mobile ? Accédez à cette rubrique : [Télécharger Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
-Pour commencer rapidement avec Teams, nous vous recommandons de créer deux ou trois équipes et canaux pour un groupe de premiers utilisateurs. Avec un premier déploiement de Teams à petite échelle, vous allez apprendre Teams en utilisant Teams. Vous obtenez des informations précieuses sur la façon dont vous pouvez déployer Teams au sein de toute votre organisation. Si vous êtes une petite entreprise, ce guide de démarrage rapide est suffisant pour déployer Teams auprès de toute l’organisation.
+## <a name="start-here"></a>Démarrez ici
 
+Quelle que soit la taille de votre entreprise, c’est ici que vous devez démarrer le déploiement de Teams. Ces articles présentent le déploiement de Teams à petite échelle, ce qui peut vous être utile si vous êtes dans une petite entreprise, ou si vous déployez Teams rapidement en tant que première charge de travail Microsoft 365 pour la prise en charge de **travailleurs à distance**.
 
-Teams vous permet de mettre rapidement sur pied une équipe avec du personnel interne ou externe à votre organisation, de discuter avec d’autres personnes pour lancer des conversations rapides et inclusives, de partager et co-créer en toute sécurité des documents et de coopérer sur des projets. Vous pouvez personnaliser Teams en ajoutant des accès pratiques à des notes partagées, des pages web et des applications. Utiliser les réunions et des appels pour collaborer en temps réel où que se trouvent les utilisateurs. Teams simplifiera votre accès aux services Microsoft 365 ou Office 365 et à des applications tierces, pour être le nouveau centre de gravité de vos besoins de communication et de collaboration. Encouragez vos premiers utilisateurs à installer les applications mobiles et de bureau pour une meilleure expérience et pour recevoir des commentaires plus précis.
+Si vous êtes dans une plus grande organisation, utilisez ces articles pour établir un projet pilote Teams avec un petit groupe d’utilisateurs précoces. Cela vous permettra d’en savoir plus sur Teams, puis de commencer à planifier votre déploiement à l’échelle de l’organisation. Utilisez ensuite les instructions du site [Adoption de Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/#get-started) pour déployer Teams sur toute votre organisation.
 
-![Capture d’écran affichant les interfaces de l’utilisateur client mobile et de bureau](media/get-started-microsoft-teams.png "Capture d’écran affichant les interfaces de l’utilisateur client mobile et de bureau" ) 
+Nous vous recommandons de déployer Teams en plusieurs phases, charge de travail par charge de travail, au fur et à mesure que votre organisation se prépare à la transition. **Vous n’avez pas besoin d’attendre d’avoir effectué une étape avant de passer à la suivante.** Certaines organisations souhaiteront sans doute un déploiement de toutes les fonctionnalités de Teams en une seule fois, tandis que d’autres préféreront une approche progressive. Voici les charges de travail Teams, dans l’ordre que nous vous recommandons pour le déploiement :
 
-Voici comment mettre en place votre première série d’équipes et canaux pour que les premiers utilisateurs puisse discuter, partager des fichiers et collaborer.
+- [Les conversations, les équipes, les canaux et les applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Réunions et conférences](deploy-meetings-microsoft-teams-landing-page.md)
+- [Appels vocaux par le nuage](cloud-voice-landing-page.md)
 
-- Étape 1 : [Créer vos premiers canaux et premières équipes dans Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md)
-- Étape 2 : [Intégrer les premiers utilisateurs](get-started-with-teams-onboard-early-adopters.md)
-- Étape 3 : [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md).
-- Étape 4 : [Obtenir des ressources pour planifier le déploiement à l’échelle de votre organisation](get-started-with-teams-resources-for-org-wide-rollout.md)
+![Diagramme illustrant le parcours de déploiement de Teams](media/get-started-with-teams-quick-start-pathways.png)
 
-Si vous êtes une grande organisation, si vous avez une configuration hybride ou Skype Entreprise en local, si vous avez des exigences réglementaires ou de conformité strictes, ou si vous voulez mettre en place des réunions ou des fonctionnalités vocales (par exemple, plans d’appel ou système téléphonique), commencez par lire [ Comment mettre en place Teams](how-to-roll-out-teams.md). Nous vous recommandons de toujours commencer avec cette section **Prise en main** pour développer vos compétences et commencer à planifier le déploiement à l’échelle de l’organisation. « Planifiez Teams avec Teams. » Commencez modestement en déployant Teams avec les conversations, les équipes, les canaux et les applications, puis développez-les. Ces expériences initiales vous permettront de faire passer le mot sur Teams et susciter de l'enthousiasme dans l'ensemble de l'organisation pour la phase de lancement suivante. 
+Si vous avez une moyenne ou grande organisation, [utilisez Conseiller pour Teams pour faciliter le déploiement de Microsoft Teams](use-advisor-teams-roll-out.md), puis la planification du déploiement de ces charges de travail sur toute votre organisation. Le Conseiller utilise Teams proprement dit pour créer des tâches de planification, puis les affecter aux propriétaires, partager des documents, puis activer les discussions entre les membres de votre équipe de déploiement.
 
-Si vous êtes une petite entreprise, ou si **vous déployez rapidement Teams pour prendre en charge un nouveau personnel à distance**, utilisez ce guide de démarrage pour déployer pleinement Teams dans votre organisation. N’hésitez pas à consulter les modèles destinés aux petites entreprises pour simplifier et rationaliser le déploiement dans votre organisation. Voir [Prise en main des modèles Teams pour les petites et moyennes entreprises](https://docs.microsoft.com/microsoftteams/smb-templates).
-
-## <a name="before-you-get-started"></a>Avant de commencer
+## <a name="make-sure-youre-ready"></a>Vérifiez que vous êtes prêt.
 
 Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que Teams soit votre première charge de travail (« Teams d'abord ») ou la charge de travail suivante dans un déploiement Microsoft 365 ou Office 365 existant :
 
 - [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
-    - Cela inclut la configuration de votre domaine Microsoft 365 ou Office 365, SharePoint Online, Exchange Online et OneDrive Entreprise.
+  - Cela inclut la configuration de votre domaine Microsoft 365 ou Office 365, SharePoint Online, Exchange Online et OneDrive Entreprise.
 
 - Obtenez des licences Teams pour tout le monde. Voir [Offres Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) et [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 - [En savoir plus sur les avantages de l’installation de clients de bureau, web et mobiles](get-clients.md)
 
-- À partir de Skype Entreprise en local ou du serveur Lync
-   - [Mettre à niveau Skype Entreprise en local vers Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
-   
-   - [Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
-   
-   > [!NOTE]
-   > Si votre organisation utilise Skype Entreprise Server en local (ou Serveur Lync), vous devez [configurer Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) pour synchroniser votre annuaire local avec Microsoft 365 ou Office 365. 
+## <a name="get-familiar-with-teams"></a>Se familiariser avec Teams
 
+Si vous débutez avec Teams, le meilleur moyen de vous familiariser avec cet outil consiste à l’utiliser immédiatement. Teams offre l’avantage suivant : la configuration actuelle n’entravera pas les mises à niveau ou les migrations que vous devrez peut-être effectuer ultérieurement.
 
-## <a name="next-steps"></a>Étapes suivantes
+> [!TIP]
+> Si vous souhaitez en savoir plus sur les cours d’apprentissage et modules disponibles, veuillez consulter la rubrique [Microsoft Learn pour Teams](/learn/teams/). Vous pouvez découvrir le [Centre d’administration de Teams](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/), découvrir comment [configurer votre réseau pour Teams](/learn/modules/m365-teams-connectivity/), obtenir des idées sur la manière [d’intégrer au mieux vos utilisateurs à Teams](/learn/modules/m365-teams-onboard-users/), et bien plus encore.
 
-[Créer vos premières équipes et premiers canaux](get-started-with-teams-create-your-first-teams-and-channels.md)
+Procédez comme suit pour configurer quelques équipes, puis intégrer quelques utilisateurs précoces et vous familiariser ainsi avec Teams.
 
-En savoir plus avec notre guide interactif [Guide d’adoption de Teams](https://aka.ms/teamstoolkit).
+- Étape 1 : [Créer vos premiers canaux et premières équipes dans Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md)
+- Étape 2 : [Intégrer les premiers utilisateurs](get-started-with-teams-onboard-early-adopters.md)
+- Étape 3 : [Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md).
+- Étape 4 : [Démarrer le déploiement à l’échelle de votre organisation](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+## <a name="upgrade-or-migrate-from-skype-for-business"></a>Mise à niveau ou migration de Skype Entreprise
+
+Si vous mettez à niveau ou migrez Skype Entreprise vers Teams (en ligne ou en local) ou si vous avez besoin d’une configuration hybride, vous devez quand-même suivre le parcours recommandé ci-dessus pour déployer Teams, mais tout d’abord effectuer une planification supplémentaire. Commencez par passer en revue les instructions présentées dans le tableau ci-dessous qui s’appliquent au profil de votre organisation.
+
+|  |Le profil de votre organisation|Aide  |
+|---------|---------|---------|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|J’utilise actuellement Skype Entreprise Online et je suis prêt à passer à Teams. |Accédez à [Mise à niveau vers Teams](upgrade-start-here.md).        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Pour un déploiement de Teams à grande échelle, vous devez tout d’abord configurer une connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planifier une connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](upgrade-start-here.md).   |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Je n’ai pas Skype Entreprise Server, mais je dispose d’une solution RTC locale. Je veux déployer Teams, mais je souhaite conserver ma solution RTC locale. |Mettre en place les équipes en suivant le [parcours recommandé](#recommended-path-to-teams) ci-dessus.<br><br>Lisez ensuite la [Planification d’un routage Direct](direct-routing-plan.md) pour en savoir plus sur l’utilisation d’un routage direct du système téléphonique pour connecter votre solution PSTN en local avec Teams.|
