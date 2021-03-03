@@ -24,17 +24,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 67194f02c92bac390083e3ea3e983e7b8518e595
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 5b3b2e3975906e130d81804c2db51973bf50521c
+ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125811"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50408200"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
 
 ::: zone target="docs"
-Stratégies de réunion: elles sont utilisées pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par des utilisateurs au sein de votre organisation. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) qui est créée automatiquement ou créer et affecter de stratégies personnalisées. Vous pouvez gérer les stratégies de réunion dans le Centre d’administration Microsoft Teams ou à l’aide de [PowerShell](teams-powershell-overview.md).
+Utilisez des stratégies de réunion pour contrôler les fonctionnalités disponibles pour les participants à la réunion qui sont programmées par les utilisateurs de votre organisation. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) qui est créée automatiquement ou créer et affecter de stratégies personnalisées. Vous pouvez gérer les stratégies de réunion dans le Centre d’administration Microsoft Teams ou à l’aide de [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation de rôles pour gérer les autorisations des présentateurs et des participants à une réunion, consultez [Rôles dans une réunion Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -96,7 +96,7 @@ Vous pouvez modifier la stratégie globale et les stratégies personnalisées qu
 
 ## <a name="meeting-policy-settings"></a>Paramètres de stratégie de réunion
 
-Lorsque vous sélectionnez une stratégie existante dans la page **Stratégies de réunion** ou que vous sélectionnez **Ajouter** pour ajouter une nouvelle stratégie, les paramètres suivants peuvent être configurés.
+Lorsque vous sélectionnez une stratégie existante dans  la **page** Stratégies de réunion ou sélectionnez Ajouter pour ajouter une stratégie, vous pouvez configurer les paramètres des fonctionnalités suivantes.
 
 - [Général](#meeting-policy-settings---general)
 - [Vidéo et audio](#meeting-policy-settings---audio--video)
@@ -170,11 +170,11 @@ L’application Calendrier du canal s’affiche dans la section **Applications M
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées en Teams. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
 
-Notez que si vous désactivez **Autoriser la planification des réunions privées** et **Autoriser la planification des réunions de canal**, les options **Ajouter des participants obligatoires** et **Ajouter un canal** sont désactivées pour les utilisateurs dans Teams. Par défaut, ce paramètre est activé.
+Si vous désactivez autoriser la planification de réunions **privées** et Autoriser la planification de réunions de **canal,** les **options** Ajouter des participants **obligatoires** et Ajouter un canal sont désactivées pour les utilisateurs dans Teams. Par défaut, ce paramètre est activé.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée non planifiée.  Par défaut, ce paramètre est activé.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée non planifiée. Par défaut, ce paramètre est activé.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -191,7 +191,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette option, les options **Recherche** et **CC** ne sont pas disponibles pendant la lecture d’un enregistrement de réunion. La personne qui a démarré l’enregistrement a besoin de ce paramètre activé de sorte que l’enregistrement inclut également la transcription.
 
-Notez que la transcription pour les réunions enregistrées est prise en charge pour l’instant uniquement pour les utilisateurs qui ont la langue dans Teams réglée sur anglais et lorsque l’anglais est parlé pendant la réunion.
+Pour l’instant, la transcription des réunions enregistrées est prise en charge uniquement pour les utilisateurs dont la langue dans Teams est définie sur Anglais et lorsque l’anglais est parlé dans la réunion.
 
 ![l’options de transcription dans une réunion](media/meeting-policies-transcription.png)
 
@@ -211,7 +211,7 @@ Examinons l’exemple suivant.
 |Geneviève | Location1MeetingPolicy | Activé|
 |John (utilisateur externe) | Non applicable | Non applicable|
 
-Daniela, même si elle était l’organisateur ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions même celles organisées par Daniela. Si Tous deux organiseraient une réunion, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne pourra toutefois pas enregistrer cette réunion.
+Daniela, même si elle était l’organisateur, ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions, même celles organisées par Daniela. Si Tous les organisateurs deaient organiser une réunion, elle sera en mesure d’enregistrer cette réunion. En revanche, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peut pas enregistrer cette réunion.
 
 Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
@@ -276,7 +276,7 @@ Les réunions organisées par Daniela permettent d'activer la vidéo. Daniela po
 
 Dans les réunions organisées par Amanda, personne ne peut activer la vidéo, quelle que soit la stratégie vidéo qui leur est attribuée. Cela signifie que Daniela ne peut pas activer la vidéo dans les réunions d’Amanda.  
 
-Si Daniela appelle Amanda avec la vidéo activée, Amanda ne peut répondre à l'appel qu'avec l'audio.  Lorsque l'appel est connecté, Amanda peut afficher la vidéo de Daniela, mais ne peut pas activer la vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l'appel par vidéo et audio. Une fois l’appel connecté, Daniela peut activer ou désactiver sa vidéo, le cas échéant.
+Si Daniela appelle Amanda avec la vidéo activée, Amanda ne peut répondre à l'appel qu'avec l'audio. Lorsque l’appel est connecté, Tous les deux peuvent voir la vidéo de Daniela, mais ne peuvent pas activer la vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l'appel par vidéo et audio. Une fois l’appel connecté, Daniela peut activer ou désactiver sa vidéo, le cas échéant.
 
 Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
@@ -507,7 +507,7 @@ Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** 
 - **EveryoneInCompanyUserOverride** : les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **Contacts dans mon organisation** dans Teams.
 - **OrganizerOnlyUserOverride** : seul l’organisateur de la réunion peut être présentateur et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **Uniquement moi** dans Teams.
 
-En outre, vous pouvez modifier cette stratégie dans le Centre d’administration Teams. 
+En outre, vous pouvez modifier cette stratégie dans le Centre d’administration Teams.
 
 ![Capture d’écran du Centre d’administration Teams](media/designated-presenter-role.png)
 
@@ -536,7 +536,7 @@ Pour spécifier le complément de la réunion que vous voulez mettre à la dispo
 - Définir le paramètre sur **TeamsAndSfB** pour activer le complément réunion Teams et Skype® Entreprise dans Outlook. Ceci est la valeur par défaut.
 - Définir le paramètre sur **Teams** pour activer uniquement le complément réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions ultérieures ont un lien participer à une réunion Teams. Il ne migre pas les liens de jointure de réunion Skype Entreprise existants vers Teams. Ce paramètre de stratégie n’affecte pas les fonctionnalités de présence, de conversation, d’appel RTC ou d’autres fonctionnalités de Skype Entreprise, ce qui signifie que les utilisateurs continueront à utiliser Skype Entreprise pour ces fonctionnalités.
 
-  Si vous avez défini le paramètre sur **Teams**, puis revenez à **TeamsAndSfB**, les deux compléments de réunion sont activés. Cependant, notez que les liens de réunion Teams existants ne seront pas migrés vers Skype Entreprise. Seules les réunions Skype Entreprise planifiées après la modification auront un lien de jointure de réunion Skype Entreprise.
+  Si vous avez défini le paramètre sur **Teams**, puis revenez à **TeamsAndSfB**, les deux compléments de réunion sont activés. Les liens existants de participer à **une réunion** Teams ne seront pas migrés vers Skype Entreprise. Seules les réunions Skype Entreprise planifiées après la modification auront un lien de jointure de réunion Skype Entreprise.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de stratégie de réunion : mode de filtres vidéo
 
@@ -558,6 +558,12 @@ Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de l
 
 > [!NOTE]
 > Ces fonctionnalités ne sont pas disponibles pour tous les clients Teams. Pour plus d’informations, consultez le titre _Vidéo et arrière-plans_ dans [Réunions et événements en direct.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
+
+## <a name="meeting-policy-settings---meeting-reactions"></a>Paramètres de stratégie de réunion - Réactions aux réunions
+
+Le paramètre AllowMeetingReactions ne peut être appliqué qu’à l’aide de PowerShell. Il n’existe aucune option permettant d’option Permettant d’autoriserMeetingReactions d’être ou non disponible à partir du Centre d’administration Teams.
+
+Par défaut, les réactions aux réunions sont off. La non-utilisation des réactions d’un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il programme. L’organisateur de la réunion peut toujours activer les réactions à partir de la page d’option de la réunion, quel que soit le paramètre par défaut.
 
 ## <a name="related-topics"></a>Sujets associés
 

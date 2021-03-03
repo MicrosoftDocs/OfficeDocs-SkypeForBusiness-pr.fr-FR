@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347654"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401308"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
 > [!NOTE]
-> Si vous êtes un utilisateur qui voit un message dans Teams vous savez que vos conversations et messages ont été supprimés par une stratégie de rétention, consultez les messages Teams concernant les stratégies [de rétention.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> Si vous voyez dans Teams un message vous savez que vos conversations ou messages ont été supprimés par une stratégie de rétention, consultez les messages Teams concernant les stratégies [de rétention.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > 
 > Les informations sur cette page sont dédiées aux administrateurs informatiques qui gèrent ces stratégies de rétention.
 
@@ -39,11 +39,11 @@ Teams prend en charge les stratégies de rétention pour les messages de convers
 
 Pour en savoir plus sur la rétention et la manière d’appliquer des paramètres de rétention à l’aide de stratégies de rétention ou d’étiquettes de rétention pour d’autres charges de travail dans Microsoft 365, voir En savoir plus sur les stratégies de rétention et les étiquettes de [rétention.](https://docs.microsoft.com/microsoft-365/compliance/retention)
 
-Microsoft 365 E3 est la licence minimale requise pour les stratégies de rétention. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+La licence minimale requise pour les stratégies de rétention pour Teams est Microsoft 365 E3. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="how-teams-retention-policies-work"></a>Fonctionnement des stratégies de conservation Teams
 
-Les messages de conversation Teams sont stockés dans un dossier masqué dans la boîte aux lettres de chaque utilisateur inclus dans la conversation, et les messages de canal Teams sont stockés dans un dossier masqué similaire dans la boîte aux lettres de groupe pour l’équipe. Pour conserver les messages qui sont soumis à une stratégie de rétention, une copie du contenu est automatiquement conservée dans un dossier masqué nommé **Éléments récupérables dans** le dossier Éléments **récupérables** Exchange. Tant que ces messages n’ont pas été supprimés définitivement du dossier FaçonneHolds, ils restent accessibles dans les outils eDiscovery.
+Les messages de conversation Teams sont stockés dans un dossier masqué dans la boîte aux lettres de chaque utilisateur inclus dans la conversation, et les messages de canal Teams sont stockés dans un dossier masqué similaire dans la boîte aux lettres de groupe pour l’équipe. Pour conserver les messages qui sont soumis à une stratégie de rétention, une copie du contenu est automatiquement conservée dans un dossier masqué nommé **Éléments récupérables.**  Tant que ces messages n’ont pas été supprimés définitivement du dossier FaçonneHolds, ils restent accessibles dans les outils eDiscovery.
 
 Pour plus d’informations sur les stratégies de rétention Teams incluses et exclues, et le fonctionnement de ces stratégies en fonction de votre configuration de stratégie, consultez En savoir plus sur la rétention [dans Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
@@ -72,7 +72,7 @@ Cette page présente des informations supplémentaires sur la création et la ge
 
 ## <a name="end-user-experience"></a>Expérience utilisateur final
 
-Pour les conversations privées (conversations en tête-à-tête) ou de groupe, les utilisateurs peuvent voir que les conversations plus anciennes que la configuration de la stratégie de rétention sont supprimées et un message généré automatiquement indiquant « Nous avons supprimé d’anciens messages en raison de la stratégie de rétention de votre organisation » s’affiche en haut des messages encore non supprimés. Par exemple :
+Pour les conversations privées (conversations en tête-à-tête) ou de groupe, les utilisateurs peuvent voir que les conversations anciennes que la configuration de la stratégie de rétention sont supprimées et un message généré automatiquement indiquant « Nous avons supprimé d’anciens messages en raison de la stratégie de rétention de votre organisation » s’affiche en haut des messages encore non supprimés. Par exemple :
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Utilisateur informé dans Teams que le message de conversation est supprimé en raison d’une stratégie de rétention Teams":::
 

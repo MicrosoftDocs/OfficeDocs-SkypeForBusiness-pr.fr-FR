@@ -2,7 +2,7 @@
 title: Expérience de réunion en affichage seul
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397559"
+ms.locfileid: "50401318"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en affichage seul dans Teams
 
 > [!Note]
-> L’expérience de réunion en affichage seul sera disponible début mars 2021. Cette fonctionnalité sera activée par défaut le 1er mars 2021. Vous devez modifier la stratégie par défaut après cette date si vous souhaitez que la fonctionnalité par défaut soit sous l’option. Utilisez PowerShell pour activer la `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` stratégie.
+> L’expérience de réunion en affichage seul sera disponible début mars 2021. Cette fonctionnalité sera activée par défaut le 1er mars 2021. Vous devez modifier la stratégie par défaut après cette date si vous souhaitez que la fonctionnalité par défaut soit sous l’option. Utilisez PowerShell pour activer la `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` stratégie.
 
 > [!Note]
-> Nous avons temporairement augmenté l’expérience d’affichage seul pour 20 000 participants, mais nous allons revenir au support de 10 000 participants le 30 juin 2021.
+> Si la capacité de réunion ou de webinaire atteint sa capacité, Teams s’adaptera sans problème à une expérience de diffusion en affichage seul de 10 000 personnes. De plus, à cette période de travail à distance accrue, tirez parti de plus de 20 000 diffusions encore plus grandes jusqu’à la fin de cette année.
 
 Microsoft Teams permet à jusqu’à 10 000 participants de participer à une réunion Teams. Une fois la capacité de la réunion principale atteinte, les participants supplémentaires la rejoignent avec une expérience de vue seule.
 
@@ -42,7 +42,7 @@ Nous avons un support mobile Android et iOS complet pour qu’un participant par
 > [!Note]
 > La limite actuelle du nombre de personnes qui peuvent discuter et appeler pour une réunion est de 300 dans WW et 250 dans GCC, GCC High et DoD.
 
-L’expérience en affichage seul est désactivée par défaut pour tout organisateur dispose de la référence SKU E3/E5/A3/A5. Aucune autre configuration ou configuration n’est requise.
+L’expérience en affichage seul est désactivée par défaut pour tout organisateur activant la référence SKU E3/E5/A3/A5. Aucune autre configuration ou configuration n’est requise.
 
 ## <a name="disable-teams-view-only-experience"></a>Désactiver l’affichage seul dans Teams
 
@@ -67,7 +67,7 @@ Une fois la capacité de la réunion principale atteinte, l’organisateur et le
 
   ![Panne du client Teams et de la bannière pour les organisateurs et les présentateurs](media/chat-and-banner-message.png)
 
-Une fois la capacité de la réunion principale atteinte, les participants à la réunion seront informés, sur l’écran de pré-participation, qu’ils la rejoignent en mode affichage seul.
+Une fois la capacité de la réunion principale atteinte, les participants à la réunion seront informés sur l’écran de pré-participation qu’ils la rejoignent en mode affichage seul.
 
   ![Écran de pré-participation à Teams et message pour les participants leur disant qu’ils seront rejoints en mode affichage seul](media/view-only-pre-join-screen.png)
 
@@ -77,14 +77,14 @@ Si les rôles de présentateur/participant n’ont pas été définies, les espa
 
 ## <a name="impact-to-meeting-presenters"></a>Impact sur les présentateurs de réunion
 
-Les limitations qui s’appliquent aux présentateurs de réunion sont les suivantes :
+Les limitations pour les présentateurs de réunion sont les suivantes :
 
 - Vous n’aurez aucune information sur le participant en affichage seul. La découverte électronique n’est pas prise en charge pour les participants en affichage seul.
 - Les utilisateurs ne peuvent pas voir les participants en affichage seul.
 - Vous ne pouvez pas supprimer un participant en affichage seul de la réunion.
 
 > [!Note]
-> Le nombre de participants reflète uniquement les participants à la réunion et non les personnes dans la salle de débordement. Par conséquent, les présentateurs ne peuvent pas obtenir le nombre exact des personnes présentes dans l’expérience de affichage seul.
+> Le nombre de participants reflète uniquement les participants à la réunion et non les personnes dans la salle de débordement. Par conséquent, les présentateurs ne peuvent pas obtenir le nombre exact des personnes présentes dans l’expérience en affichage seul.
 
 ## <a name="experience-for-view-only-attendees"></a>Expérience pour les participants en affichage seul
 
@@ -98,7 +98,7 @@ Le participant en affichage seul ne pourra pas découvrir les options suivantes 
 
 - Participez à la réunion si le participant n’est pas autorisé à contourner la salle d’accueil en fonction des stratégies ou options définies en matière de salle d’accueil.
 - Rejoignez la salle de débordement via l’audioconférence.
-- Rejoignez la salle de débordement via le système de salle de Salle de Microsoft Teams ou via les services Cloud Video Interop (CVI).
+- Rejoignez la salle de débordement via le système de salle de Réunion de Microsoft Teams ou via les services Cloud Video Interop (CVI).
 - Partagez l’audio ou la vidéo.
 - Voir ou participer à la conversation de réunion.
 - Consultez le flux vidéo des participants à la réunion, sauf s’il s’agit du haut-parleur actif.
@@ -109,11 +109,11 @@ Le participant en affichage seul ne pourra pas découvrir les options suivantes 
 - Les participants en affichage seul voient toujours les sous-titres en direct, quel que soit le paramètre de sous-titres en direct pour cette réunion. Seules les légendes anglaises sont actuellement pris en charge.
 - Les participants en affichage seul seront pris en charge par la technologie de diffusion en continu.
 - Les participants en affichage seul ne seront pas inclus dans le rapport de présence.
-- Les participants en affichage seul n’auront qu’une expérience vidéo. Ils peuvent voir le haut-parleur actif ou le contenu partagé, mais pas les deux.
-- Pour le moment, les dispositions **Galerie,** **Grande** galerie ou **Ensemble** ne sont pas prise en charge pour les participants en mode Affichage seul.  
+- Les participants en affichage seul auront une expérience vidéo unique. Ils peuvent voir le haut-parleur actif ou le contenu partagé, mais pas les deux.
+- Pour le moment, les dispositions **Galerie,** **Grande galerie** ou **Ensemble** ne sont pas prise en charge pour les participants en mode Affichage seul.  
 - Les participants en affichage seul n’auront pas la même latence qu’un participant ordinaire. <sup>1</sup>
 
-  <sup>1</sup> Participants en affichage seul seront à un délai audio et vidéo de 30 secondes dans la réunion.  
+  <sup>1</sup> Participants en affichage seul auront un délai audio et vidéo de 30 secondes dans la réunion.  
 
 ## <a name="related-topics"></a>Sujets associés
 

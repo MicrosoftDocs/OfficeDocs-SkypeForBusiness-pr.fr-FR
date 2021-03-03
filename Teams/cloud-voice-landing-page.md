@@ -24,31 +24,31 @@ search.appverid: MET150
 description: En savoir plus sur les fonctionnalités voix cloud de Microsoft Teams et les décisions de déploiement que vous allez prendre pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16a2aea0d367c720cf36c8010670a34472ab43a
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: fcd7ebfd4542c38bd56900c1e414dadec09bf246
+ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701332"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50408190"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution vocale Teams 
 
-Cet article vous aide à déterminer la solution Microsoft Voice adaptée à votre organisation. Une fois que vous avez décidé, l’article fournit une feuille de route vers le contenu qui vous permettra d’implémenter la solution choisie.
+Cet article vous aide à déterminer la solution Microsoft Voice adaptée à votre organisation. Une fois que vous avez décidé, l’article fournit une feuille de route vers le contenu qui vous permettra d’implémenter la solution que vous avez choisie.
 
 > [!NOTE]
-> Pour obtenir des instructions sur la planification d’une solution vocale Teams dans le cadre de votre plan global de mise à niveau vers Teams à partir de Skype Entreprise Server, consultez les [considérations PSTN](upgrade-to-Teams-on-prem-pstn-considerations.md)pour la mise à niveau de Skype Entreprise en local vers Teams.
+> Pour obtenir des instructions sur la planification d’une solution vocale Teams dans le cadre de votre plan global de mise à niveau vers Teams à partir de Skype Entreprise Server, consultez les [considérations PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)pour la mise à niveau de Skype Entreprise en local vers Teams.
 
-Vous souhaitez peut-être un système téléphonique plus simple &mdash; avec le plan d’appels. Il s’agit de la solution complète dans le cloud de Microsoft qui fournit la fonctionnalité PBX (Private Branch Exchange) et des appels vers le réseau téléphonique public commuté (PSTN), comme illustré dans le diagramme suivant. Avec cette solution, Microsoft est votre opérateur PSTN.
+Vous souhaitez peut-être un système téléphonique plus simple &mdash; avec le plan d’appels. Il s’agit de la solution complète dans le cloud de Microsoft qui fournit la fonctionnalité PBX (Private Branch Exchange) et des appels vers le réseau téléphonique commuté (PSTN), comme illustré dans le diagramme suivant. Avec cette solution, Microsoft est votre opérateur PSTN.
 
 ![Diagramme 1 montre le système téléphonique avec le plan d’appels](media/voice-solutions-simple.png)
 
-Si vous répondez oui aux questions suivantes, Phone System avec Forfait d’appels est la solution adaptée à vos questions :
+Si vous répondez oui aux questions suivantes, alors Phone System avec Forfait d’appels est la solution adaptée à vos questions :
 
-- Forfait d’appels disponible dans votre région.
+- Le forfait d’appels est disponible dans votre région.
 - Vous n’avez pas besoin de conserver votre opérateur PSTN actuel.
 - Vous voulez utiliser l’accès géré par Microsoft au réseau PSTN.
 
-Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez avoir des bureaux dans des emplacements où le plan d’appels n’est pas disponible. Vous pouvez également avoir besoin d’une solution combinée qui prend en charge un déploiement complexe et multi-national, avec des exigences différentes pour différents emplacements géographiques. Microsoft prend en charge une combinaison de solutions : 
+Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez avoir des bureaux dans des emplacements où le plan d’appels n’est pas disponible. Vous pouvez également avoir besoin d’une solution combinée qui prend en charge un déploiement complexe et multi-national avec des exigences différentes pour différents emplacements géographiques. Microsoft prend en charge une combinaison de solutions : 
 
 - Système téléphonique avec forfait d’appels
 - Système téléphonique avec votre propre opérateur PSTN avec un routage direct
@@ -75,8 +75,8 @@ Prenez en compte les configurations supplémentaires qui peuvent vous être néc
 | [**Numéros de téléphone de Microsoft**](#phone-numbers-from-microsoft) | Comment obtenir et gérer des numéros de téléphone de Microsoft et comment transférer des numéros existants vers Microsoft. Lisez ceci si vous devez obtenir des numéros de téléphone pour le plan d’appels Microsoft, transférer des numéros existants, obtenir des numéros de service, etc. |
 | [**Plans de numérotation et routage des appels**](#dial-plans-and-call-routing) | Comment configurer et gérer des plans de numérotation qui traduisent les numéros de téléphone composés dans un autre format (généralement E.164) pour l’autorisation et le routage des appels. Lisez ceci si vous devez comprendre ce que sont les plans de numérotation et si vous devez spécifier des plans de numérotation pour votre organisation.|
 | [**Appels d’urgence**](#emergency-calling) | Comment gérer et configurer les appels d’urgence &mdash; en fonction de votre option de connectivité PSTN. Lisez cette section si vous utilisez un plan d’appel Microsoft ou un routage direct et souhaitez comprendre comment gérer les appels d’urgence pour votre organisation. |
-| [**Routage basé sur l’emplacement pour le routage direct**](#location-based-routing-for-direct-routing) |Comment utiliser Location-Based routage des réseaux de distribution de données (LBR) pour restreindre le contournement gratuit pour les utilisateurs de Microsoft Teams en fonction de leur emplacement géographique. Lisez cette section si votre organisation utilise le routage direct à un emplacement qui n’autorise pas la dérivation contre les frais.
-| [**Topologie de réseau pour les fonctionnalités vocales dans le cloud**](#network-topology-for-voice-features) | Si votre organisation déploie Location-Based routage de réseau (LBR) pour le routage direct ou les appels d’urgence dynamiques, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Lisez cette section si vous implémentez LBR pour le routage direct, ou si vous implémentez des appels d’urgence dynamiques avec le plan d’appel ou le routage direct. |
+| [**Routage basé sur l’emplacement pour le routage direct**](#location-based-routing-for-direct-routing) |Comment utiliser Location-Based routage de réseau (LBR) pour restreindre le contournement gratuit pour les utilisateurs de Microsoft Teams en fonction de leur emplacement géographique. Lisez cette section si votre organisation utilise le routage direct à un emplacement qui n’autorise pas la dérivation contre les frais.
+| [**Topologie de réseau pour les fonctionnalités vocales cloud**](#network-topology-for-voice-features) | Si votre organisation déploie Location-Based routage de réseau (LBR) pour le routage direct ou les appels d’urgence dynamiques, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Lisez cette section si vous implémentez LBR pour le routage direct, ou si vous implémentez des appels d’urgence dynamiques avec le plan d’appel ou le routage direct. |
 | [**Migrer votre solution vocale existante**](#migrate-your-existing-voice-solution-to-teams) | Ce à quoi vous devez penser lors de la migration de votre solution vocale vers Teams.  Lisez cette section si vous migrez d’une solution vocale existante vers Teams. 
 
 
@@ -91,7 +91,7 @@ Phone System est la technologie de Microsoft qui permet d’activer le contrôle
 
 Phone System fonctionne avec les clients Et périphériques certifiés Teams ou Skype Entreprise. Phone System vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités directement depuis Microsoft 365 ou Office 365. 
 
-Les appels entre utilisateurs de votre organisation sont gérés en interne au sein de Phone System et ne sont jamais passés au réseau téléphonique public commuté (PSTN). Cela s’applique aux appels entre utilisateurs de votre organisation situés dans différentes zones géographiques, en supprimant les coûts longue distance sur ces appels internes.
+Les appels entre utilisateurs de votre organisation sont gérés en interne au sein du système téléphonique et ne sont jamais passés au réseau téléphonique public commuté (PSTN). Cela s’applique aux appels entre utilisateurs de votre organisation situés dans différentes zones géographiques, en supprimant les coûts longue distance sur ces appels internes.
 
 Cet article présente les fonctionnalités et fonctionnalités clés suivantes du système téléphonique, ainsi que les décisions de déploiement que vous devrez prendre en compte :
 
@@ -110,7 +110,7 @@ Pour plus d’informations sur toutes les fonctionnalités du système télépho
 Pour plus d’informations sur la gestion des appareils pris en charge, voir [Gérer vos appareils dans Microsoft Teams](devices/device-management.md) et Teams [Marketplace.](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 
-### <a name="auto-attendants-and-call-queues"></a>Attendants automatiques et files d’attente d’appels
+### <a name="auto-attendants-and-call-queues"></a>Automatiquement et files d’attente d’appels
 
 Les attendants automatiques vous permettent de configurer des options de menu pour router les appels en fonction de la saisie de l’appelant. Les files d’attente sont des zones d’attente pour les appelants. Utilisées ensemble, les files d’attente automatiques et les files d’attente d’appels peuvent facilement router les appelants vers la personne ou le service approprié dans votre organisation.
 
@@ -120,7 +120,7 @@ Pour plus d’informations sur les files d’attente et les files d’attente au
 - [Configurer un attendant automatique](create-a-phone-system-auto-attendant.md)
 - [Créer une file d’attente d’appel](create-a-phone-system-call-queue.md) 
 - [Étude de cas Contoso : attendants automatiques et files d’attente d’appels](voice-case-study-call-queues.md)<br>
-  Décrit comment une entreprise multinationale fictive, Contoso, a implémenté des files d’attente automatiques et des files d’attente pour leur solution vocale.
+  Décrit comment une entreprise multinationale fictive, Contoso, a implémenté des files d’attente et des files d’attente automatiques pour leur solution vocale.
 
 ### <a name="cloud-voicemail"></a>Messagerie vocale cloud
 
@@ -152,13 +152,13 @@ Vous pouvez également choisir une combinaison d’options qui vous permet de co
 
 ### <a name="phone-system-with-calling-plan"></a>Système téléphonique avec forfait d’appels 
 
-Comme décrit plus tôt dans cet article, Phone System avec Forfait d’appels est la solution vocale complète dans le cloud de Microsoft pour les utilisateurs de Teams. Il s’agit de l’option la plus simple qui connecte Microsoft Phone System au réseau téléphonique commuté (PSTN) pour activer les appels vers des téléphones fixes et mobiles dans le monde entier. Avec cette option, Microsoft fournit la fonctionnalité PBX (Private Branch Exchange) pour votre organisation et agit en tant qu’opérateur PSTN, comme indiqué dans le diagramme suivant :
+Comme décrit plus tôt dans cet article, Phone System avec Forfait d’appels est la solution vocale tout-dans-le-cloud de Microsoft pour les utilisateurs de Teams. Il s’agit de l’option la plus simple qui connecte Microsoft Phone System au réseau téléphonique commuté (PSTN) pour activer les appels vers des téléphones fixes et mobiles dans le monde entier. Avec cette option, Microsoft fournit la fonctionnalité PBX (Private Branch Exchange) pour votre organisation et agit en tant qu’opérateur PSTN, comme indiqué dans le diagramme suivant :
 
-![Le diagramme 4 montre Phone System avec des serveurs automatiques, des files d’attente d’appels, un ID d’appelant, et Microsoft comme opérateur PSTN](media/voice-solution-microsoft-complete.png)
+![Diagramme 4 montre le système téléphonique avec des serveurs automatiques, des files d’attente d’appels, un ID d’appelant, et Microsoft comme opérateur PSTN](media/voice-solution-microsoft-complete.png)
 
-Si vous répondez oui aux questions suivantes, Phone System avec Forfait d’appels est la solution adaptée à vos questions :
+Si vous répondez oui aux questions suivantes, alors Phone System avec Forfait d’appels est la solution adaptée à vos questions :
 
-- Forfait d’appels disponible dans votre région.
+- Le forfait d’appels est disponible dans votre région.
 - Vous n’avez pas besoin de conserver votre opérateur PSTN actuel.
 - Vous voulez utiliser l’accès géré par Microsoft au réseau PSTN.
 
@@ -191,7 +191,7 @@ Si vous répondez oui aux questions suivantes, Phone System avec routage direct 
 - Vous voulez utiliser Teams avec Phone System.
 - Vous devez conserver votre opérateur PSTN actuel.
 - Vous voulez mélanger le routage, certains appels passant par le plan d’appels, d’autres par l’intermédiaire de votre opérateur.
-- Vous devez interopérateur avec des SYSTÈMES PBX tiers et/ou des équipements tels que des pageurs de surcharge, des dispositifs analogiques, etc.
+- Vous devez interopérateur avec des SYSTÈMES PBX tiers et/ou des équipements tels que des pageurs généraux, des dispositifs analogiques, etc.
 
 Avec cette option :
 
@@ -201,7 +201,7 @@ Avec cette option :
 
 - Vous pouvez choisir de configurer et de gérer cette option, ou elle peut être configurée et gérée par votre opérateur ou partenaire (demandez-lui si votre opérateur ou partenaire propose cette option).
 
-- Vous pouvez configurer l’interopérabilité entre votre équipement téléphonique, tel qu’un PBX tiers et des &mdash; périphériques analogiques &mdash; et le système téléphonique Microsoft.
+- Vous pouvez configurer l’interopérabilité entre votre équipement téléphonique, tel qu’un PBX tiers, des appareils &mdash; analogiques &mdash; et un système téléphonique Microsoft.
 
 
 Cette option nécessite les options suivantes :
@@ -211,7 +211,7 @@ Cette option nécessite les options suivantes :
 - Déploiement et maintenance d’un SBC pris en charge.
 
 - Contrat avec un opérateur tiers.
-  (Sauf dans le cadre du déploiement en tant qu’option de connexion au PBX tiers, aux périphériques analogiques ou à d’autres équipements téléphoniques pour les utilisateurs qui utilisent un système téléphonique avec le plan d’appels.)
+  (Sauf dans le cadre du déploiement en tant qu’option de connexion au PBX tiers, aux périphériques analogiques ou à d’autres équipements téléphoniques pour les utilisateurs qui utilisent phone system avec le plan d’appel.)
 
 Pour plus d’informations sur le routage direct, voir les articles suivants :
 
@@ -224,7 +224,7 @@ Pour plus d’informations sur le routage direct, voir les articles suivants :
 
 ## <a name="phone-numbers-from-microsoft"></a>Numéros de téléphone de Microsoft
 
-Microsoft propose deux types de  numéros de téléphone : les numéros d’abonnés (utilisateurs) qui peuvent être affectés à des utilisateurs de votre organisation et les numéros de *service* disponibles sous forme de numéros de service gratuits et gratuits. Les numéros de service ont une capacité d’appels simultanés supérieure à celle des numéros d’abonné et peuvent être affectés à des services tels que les audioconférences, les attendants automatiques ou les files d’attente d’appels.
+Microsoft propose deux types de  numéros de téléphone : les numéros d’abonnés (utilisateurs) qui peuvent être attribués à des utilisateurs de votre organisation et les numéros de *service* disponibles sous forme de numéros de service gratuits et gratuits. Les numéros de service ont une capacité d’appels simultanés supérieure à celle des numéros d’abonné et peuvent être affectés à des services tels que l’Audioconférence, les attendants automatiques ou les files d’attente d’appels.
 
 Vous devrez décider des choix ci-après :
 
@@ -257,7 +257,7 @@ Pour plus d’informations, voir les articles suivants :
 
 ## <a name="emergency-calling"></a>Appel d’urgence
 
-La configuration des appels d’urgence diffère selon l’option de connectivité RSTN : Plan d’appel Microsoft ou Routage direct. Les appels d’urgence dynamiques pour le plan d’appels Microsoft et le routage direct du système téléphonique offrent la possibilité de configurer et de router des appels d’urgence et de notifier le personnel de sécurité en fonction de l’emplacement actuel du client Teams. Pour plus d’informations sur les concepts d’appel d’urgence et la terminologie, et sur la configuration des appels d’urgence dynamiques, consultez les articles suivants :
+La configuration des appels d’urgence diffère en fonction de l’option de connectivité RSTN : Plan d’appel Microsoft ou Routage direct. Les appels d’urgence dynamiques pour le plan d’appels Microsoft et le routage direct du système téléphonique offrent la possibilité de configurer et de router des appels d’urgence et de notifier le personnel de sécurité en fonction de l’emplacement actuel du client Teams. Pour plus d’informations sur les concepts d’appel d’urgence et la terminologie, et sur la configuration des appels d’urgence dynamiques, consultez les articles suivants :
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)
@@ -276,24 +276,24 @@ Dans certains pays et certaines régions, il n’est pas illégal de contourner 
 
 ## <a name="network-topology-for-voice-features"></a>Topologie de réseau pour les fonctionnalités vocales
 
-Si vous déployez des appels d’urgence dynamiques ou un routage Location-Based pour le routage direct, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Pour découvrir comment configurer les paramètres réseau pour les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, consultez les articles suivants :
+Si vous déployez des appels d’urgence dynamiques ou un Location-Based de routage direct, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Pour découvrir comment configurer les paramètres réseau pour les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, consultez les articles suivants :
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams - Concepts et terminologie](cloud-voice-network-settings.md)
 - [Gérer votre topologie de réseau pour les fonctionnalités vocales cloud dans Microsoft Teams](manage-your-network-topology.md)
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrer votre solution vocale existante vers Teams
 
-Pour une organisation qui fait la mise à niveau vers Teams, l’objectif ultime est de déplacer tous les utilisateurs en mode TeamsOnly. L’utilisation du système téléphonique avec Teams n’est prise en charge que lorsque l’utilisateur est en mode TeamsOnly. Si vous avez besoin d’informations de base sur la mise à niveau vers Teams, commencez ici :
+Pour une organisation qui fait la mise à niveau vers Teams, l’objectif ultime est de déplacer tous les utilisateurs vers le mode TeamsOnly. L’utilisation du système téléphonique avec Teams n’est prise en charge que lorsque l’utilisateur est en mode TeamsOnly. Si vous avez besoin d’informations de base sur la mise à niveau vers Teams, commencez ici :
 
 - [Prise en main de votre mise à niveau de Microsoft Teams](upgrade-start-here.md)
 - [À propos du cadre de mise à niveau](upgrade-framework.md)
-- [Mise à niveau de Skype Entreprise vers Teams pour les administrateurs informatiques](upgrade-to-teams-on-prem-overview.md)
+- [Stratégies de mise à niveau pour les administrateurs informatiques](upgrade-to-teams-on-prem-implement.md)
 
 Lors de la migration de votre solution vocale, quatre scénarios d’appel sont possibles lors du passage en mode TeamsOnly :
 
 - [**Un utilisateur dans Skype Entreprise Online, avec un plan d’appel Microsoft.**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans) Lors de la mise à niveau, cet utilisateur continuera à avoir un plan d’appel Microsoft.
 
-- Un utilisateur dans Skype Entreprise Online, avec des **[fonctionnalités vocales](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** en local par le biais de Skype Entreprise en local ou version Cloud Connector. La mise à niveau de l’utilisateur vers Teams doit être coordonnée avec la migration de l’utilisateur vers le routage direct pour s’assurer que l’utilisateur TeamsOnly dispose de la fonctionnalité PSTN.
+- Un utilisateur dans Skype Entreprise Online, avec des **[fonctionnalités vocales](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** en local par le biais de Skype Entreprise en local ou édition Cloud Connector. La mise à niveau de l’utilisateur vers Teams doit être coordonnée avec la migration de l’utilisateur vers le routage direct pour s’assurer que l’utilisateur TeamsOnly dispose de la fonctionnalité PSTN.
 
 - Un utilisateur de Skype Entreprise sur site avec Voix Entreprise, qui passe à la connexion en ligne et maintient la connectivité **[](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)RSTN sur site.** La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. 
 

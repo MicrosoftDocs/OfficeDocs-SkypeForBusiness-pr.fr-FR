@@ -13,12 +13,12 @@ f1.keywords:
 description: Vue d’ensemble du centre de contacts intégré en tant que solution de service (CCaaS) pour Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 207b39fd0ac7b879002355921d001b2bbb01070b
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
+ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196371"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50402860"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du Centre de contacts pour Microsoft Teams
 
@@ -26,11 +26,11 @@ L’intégration des solutions de centre de contacts populaires à Microsoft Tea
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Qu’est-ce qu’une intégration du Centre de contacts pour Microsoft Teams ?
 
-Aujourd’hui, les centres de contacts offrent bien plus que du support: ils font partie des principaux véhicules d’interaction et de commentaires non filtrés sur l’expérience d’un client avec une marque. En raison de l’éventail des canaux que les clients aujourd’hui préfèrent s’impliquer :téléphone, courrier électronique, texte, réseaux sociaux, et le volume développé de points tactiles associés aux processus d’achat actuels. De nombreuses organisations ont fait l’expérience de deux réalités supplémentaires :
+Aujourd’hui, les centres de contacts offrent bien plus que du support: ils font partie des principaux utilitaires d’interaction et de commentaires non filtrés sur l’expérience d’un client avec une marque. En raison de l’éventail des canaux que les clients aujourd’hui préfèrent s’impliquer :téléphone, courrier électronique, texte, réseaux sociaux, et le volume développé de points tactiles associés aux processus d’achat actuels. De nombreuses organisations ont fait l’expérience de deux réalités supplémentaires :
 
 1. Chaque membre de l’organisation peut participer directement à l’implication d’un client et doit donc être équipé des outils appropriés.
 
-2. Cette étendue étendue des interactions avec le client nécessite des outils qui contribuent à la cohérence, à l’amélioration constante et à l’échelle.
+2. Cette étendue étendue des interactions client nécessite des outils qui contribuent à la cohérence, à l’amélioration constante et à l’échelle.
 
 Microsoft Teams prend en charge les flux de travail d’interaction client en agissant comme concentrateur pour la connexion des clients internes et externes entre ses modes de communication, notamment les discussions instantanées, les réunions vidéo et les appels. Pour certaines entreprises, les fonctionnalités vocales [cloud](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)de Microsoft Teams, notamment le [attendant](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) automatique et les files d’attente d’appels, fournissent les [fonctionnalités](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)et la configuration nécessaires.
 
@@ -44,6 +44,7 @@ Les API permettent aux fournisseurs de solutions de développer et d’intégrer
 
 |  Fournisseur de solutions                                                                                                                               |  Site web de la solution                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 
@@ -77,7 +78,7 @@ Les organisations peuvent router les appels vers l’agent optimal en mettant en
 
 **Principales caractéristiques de la fonctionnalité :**
 
-Bien que les points suivants ne sont pas une liste exhaustive des fonctionnalités de ce modèle d’intégration, les domaines clés sont les suivants :
+Bien que les points suivants ne sont pas une liste exhaustive des fonctionnalités pour ce modèle d’intégration, les domaines clés sont les suivants :
 
   - AuthN Office 365 pour les agents qui autorisent les agents à se connecter à leur client Microsoft à partir de leur client CCaaS intégré 
 
@@ -91,7 +92,7 @@ Bien que les points suivants ne sont pas une liste exhaustive des fonctionnalit�
 
   - Fournisseurs de solutions pour utiliser le contrôleur de bordure de session certifié [ <span class="underline">Microsoft (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
-### <a name="connect-and-extend"></a>Se connecter et prolonger
+### <a name="connect-and-extend"></a>Se connecter et se prolonger
 
 Ce modèle étend les expériences du personnel et de l’agent du centre de contacts en l’intégrant au client Teams à l’aide de la plateforme [cliente Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)des [API Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) et de l’API de communications cloud dans Microsoft [Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) et utilise le système téléphonique de Teams pour tous les appels du centre de contacts et les expériences de contrôle d’appel. Dans ce modèle, le fournisseur de solutions du centre de contacts agit en tant qu’opérateur téléphonique aux côtés de Microsoft 365.
 
@@ -111,21 +112,21 @@ Bien que la liste suivante ne soit pas exhaustive des fonctionnalités de ce mod
 
   - Appel du client Teams pour tous les contrôles d’appel
 
-  - L’application expérience de l’agent doit également pouvoir fonctionner sur teams web et sur un client mobile
+  - L’application expérience de l’agent doit également pouvoir fonctionner sur teams web et sur le client mobile
 
   - Analyse, gestion des flux de travail, expériences basées sur les rôles pour les agents au sein de l’application CCaaS dans Teams
 
-  - Les expériences de conversation et de collaboration intégrées avec les clients Teams 
+  - Les expériences de conversation et de collaboration intégrées aux clients Teams 
 
   - Préserver les performances et la qualité des expériences clientes teams dans toutes les applications  
 
 ### <a name="extend-and-power"></a>Étendre et alimenter
 
-Ce modèle permet aux fournisseurs de solutions de créer des applications vocales Azure natives à l’aide de l’infrastructure d’appels Teams et de la plateforme cliente pour offrir des solutions modernes et intelligentes pour une connexion client et agent collaborative. L’objectif d’Étendre et de Power est de stimuler la créativité des développeurs et de stimuler la productivité du client.
+Ce modèle permet aux fournisseurs de solutions de créer des applications vocales Azure natives à l’aide de l’infrastructure d’appels Teams et de la plateforme cliente pour offrir des solutions modernes et intelligentes pour une connexion client et agent collaborative. L’objectif de Développer et de Power est de stimuler la créativité des développeurs et de stimuler la productivité des clients.
 
 En construisant directement sur Azure, les fournisseurs de solutions peuvent déployer et déployer rapidement leur solution dans toutes les régions et régions géographiques de Teams, en profitant de notre réseau de communications partagé et global, tout en profitant des services cognitifs &, de calcul, d’analyse et de stockage Azure.
 
-Grâce au modèle d’intégration Extend et Power, les fournisseurs de solutions peuvent fournir aux agents du centre de contacts des expériences de communication sur l’ensemble des canaux, tout en intégrant l’intelligence artificielle pour personnaliser comment et quand des participants , ou d’autres services, participent à un appel appliquant l’API de communication cloud dans [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+Avec le modèle d’intégration Extend et Power, les fournisseurs de solutions peuvent fournir aux agents du centre de contacts des expériences de communication sur l’ensemble des canaux, tout en intégrant l’intelligence artificielle pour personnaliser comment et quand des participants , ou d’autres services, participent à un appel appliquant l’API de communication cloud dans [Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 
 **Principales caractéristiques de la fonctionnalité :**
 
@@ -207,4 +208,4 @@ Le tableau ci-dessous présente une vue d’ensemble des modèles d’intégrati
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Si vous êtes un fournisseur désireux de participer au programme de certification, envoyez un <Teamscategorypartner@microsoft.com> e-mail.
+Si vous êtes un vendeur désireux de participer au programme de certification, envoyez un <Teamscategorypartner@microsoft.com> e-mail.
