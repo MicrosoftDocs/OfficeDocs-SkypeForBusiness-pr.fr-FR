@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes avec des stratégies
+title: Gérer Teams avec des stratégies
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad39b24ee177e8e8282c6ad948b69fbdf866aa56
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347677"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421299"
 ---
-# <a name="manage-teams-with-policies"></a>Gérer les équipes avec des stratégies
+# <a name="manage-teams-with-policies"></a>Gérer Teams avec des stratégies
 
 Les stratégies sont un élément important de la gestion de Teams. Utilisez cet article pour naviguer dans l’utilisation des stratégies au profit de votre organisation.
 
@@ -32,7 +32,7 @@ Les stratégies sont utilisées pour effectuer de nombreuses tâches au sein de 
 
 ## <a name="how-to-assign-policies"></a>Comment affecter des stratégies
 
-Les stratégies peuvent être affectées de différentes manières en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher des devoirs dans le Centre d’administration Teams.
+Les stratégies peuvent être affectées de différentes manières en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher les devoirs dans le Centre d’administration Teams.
 
 ![Capture d’écran de l’affectation d’une stratégie de groupe.](media/group-policy-assignment.png)
 
@@ -65,7 +65,7 @@ Type de stratégie | Description
 [Packages de stratégie](manage-policy-packages.md) | Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation.
 [Stratégies de réunion](meeting-policies-in-teams.md) | Une stratégie de réunion permet de contrôler les fonctionnalités disponibles pour les participants à la réunion prévues par les utilisateurs de votre organisation. Les stratégies de réunion incluent les sujets suivants.<br> - Stratégies audio et vidéo<br> - Stratégies de partage de contenu et d’écran<br> - Stratégies d’accès, participants et invités<br> - Politiques générales
 [Stratégies de voix et d’appel](voice-and-calling-policies.md)| Les stratégies de voix et d’appel gèrent ces paramètres via les équipes, telles que les appels d’urgence, le routage des appels et l’ID d’appelant.
-[Stratégies d’application](app-policies.md)| Les stratégies d’application servent à contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’application Teams d’un utilisateur et installer une application pour le compte de vos utilisateurs.
+[Stratégies d’application](app-policies.md)| Les stratégies d’application sont utilisées pour contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’application Teams d’un utilisateur et installer une application pour le compte de vos utilisateurs.
 [Stratégies de messagerie](messaging-policies-in-teams.md)| Les stratégies de messagerie contrôlent la disponibilité des fonctionnalités de conversation et de canal.
 
 ## <a name="related-topics"></a>Sujets associés

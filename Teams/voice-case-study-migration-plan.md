@@ -16,12 +16,12 @@ f1.keywords:
 description: Étude de cas Voix Teams pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5429b4c45ccea82d1451210438bedd328618604
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786020"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421289"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Étude de cas Contoso : plan de mise à niveau de Teams
 
@@ -30,7 +30,7 @@ En souhaitant migrer Skype Entreprise vers Teams, Contoso souhaitait offrir une 
 Pour comprendre les concepts fondamentaux de la mise à niveau, des méthodes et des modes, Contoso lit les articles suivants :
 
 - [Prise en main de votre mise à niveau de Microsoft Teams](upgrade-start-here.md)
-- [Mise à niveau de Skype Entreprise vers Teams](upgrade-to-teams-on-prem-overview.md) 
+- [Stratégies de mise à niveau pour les administrateurs informatiques](upgrade-to-teams-on-prem-implement.md) 
 - [Conseils sur la migration et l’interopérabilité](migration-interop-guidance-for-teams-with-skype.md)
  
 Contoso a également participé à la session Ignite 2019 concevant votre chemin de [Skype Entreprise à Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso a appris les sujets :
@@ -57,4 +57,4 @@ Pour planifier et configurer la connectivité hybride, la première étape du d�
 
   - Utilisez le mode Îles pendant le pilote technique.
 
-  - Basculez les utilisateurs en mode TeamsOnly une fois que l’utilisateur est activé pour Phone System. Le mode TeamsOnly est requis pour le plan d’appels et le routage direct. 
+  - Basculez les utilisateurs en mode TeamsOnly une fois que l’utilisateur est activé pour Phone System. Le mode TeamsOnly est requis pour le plan d’appel et le routage direct. 

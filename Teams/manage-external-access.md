@@ -21,19 +21,16 @@ description: Votre administrateur Teams ou informatique peut configurer l’acc�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b5d8bb969725507eec54a66c7ccb20b6eb54ec68
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: ae9a198de7fa15ac77743b2477a44602e54fecb7
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055746"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421329"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
 L’accès externe permet aux utilisateurs de Teams à partir d’un domaine externe entier de rechercher, appeler, discuter et configurer des réunions avec vous dans Teams. Vous pouvez également utiliser l’accès externe pour communiquer avec des personnes d’autres organisations qui utilisent toujours Skype Entreprise (en ligne et sur site) et Skype (en version préliminaire).
-
-> [!NOTE]
-> Les domaines autorisés ou bloqués s’appliquent uniquement aux réunions si l’accès anonyme aux réunions est « off ».
 
 Si vous souhaitez que les personnes d’autres organisations ont accès aux équipes et aux canaux, l’accès invité peut être un meilleur moyen de le faire. Pour plus d’informations sur les différences entre l’accès externe et l’accès invité, voir [Comparer les accès externe et invité](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -46,11 +43,14 @@ Utilisez l’accès externe dans les situations suivantes :
 - Ou vous souhaitez que tous les utilisateurs de Teams à travers le monde puissent vous contacter, à l'aide de votre adresse électronique. 
 
 > [!IMPORTANT]
-> Pour utiliser le client Teams afin de communiquer avec un utilisateur externe (que ce dernier utilise Teams ou Skype Entreprise), l’utilisateur de Teams doit être domicile dans Skype Entreprise Online.
+> Pour utiliser le client Teams afin de communiquer avec un utilisateur externe (que cet utilisateur utilise Teams ou Skype Entreprise), l’utilisateur de Teams doit être domicile dans Skype Entreprise Online.
 
 ## <a name="plan-for-external-access"></a>Plan pour l’accès externe
 
-Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. L’exception à cette règle est si les participants anonymes sont autorisés dans les réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
+Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines sont autorisés. Si vous ajoutez des domaines autorisés, tous les autres domaines sont bloqués. L’exception à cette règle est l’accès autorisé des participants anonymes aux réunions. Trois scénarios permettent de configurer l’accès externe dans le centre d’administration de Teams (**Paramètres à l’échelle de l’organisation** > **Accès externe**) :
+
+> [!NOTE]
+> Si vous désactiver l’accès externe dans votre organisation, les utilisateurs externes peuvent toujours participer à des réunions via une participation anonyme. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
 
 - **Fédération ouverte**: il s’agit du paramètre par défaut dans Teams, qui permet aux membres de votre organisation de rechercher, d’appeler, d’envoyer des messages instantanés/conversations et de configurer des réunions avec des personnes extérieures à votre organisation.
 
@@ -61,7 +61,7 @@ Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votr
 - **Bloquez des domaines spécifiques**-en ajoutant des domaines à une liste **Bloquer**, vous pouvez communiquer avec tous les domaines externes *à l’exception de* ceux que vous avez bloqués. Pour bloquer certains domaines, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **Action à effectuer sur ce domaine**, puis sélectionnez **Bloqué**. Une fois que vous avez configuré la liste des domaines bloqués, tous les autres domaines sont autorisés.
 
 > [!NOTE]
-> Si vous désactiver l’accès externe dans votre organisation, les utilisateurs externes peuvent toujours participer à des réunions via une participation anonyme. Si vous souhaitez en savoir plus, consultez l’article [Gérer les paramètres de réunion dans Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Les domaines autorisés ou bloqués s’appliquent uniquement aux réunions si l’accès anonyme aux réunions est « off ».
 
 ## <a name="allow-or-block-domains"></a>Autoriser ou bloquer des domaines
 
@@ -137,7 +137,7 @@ Les conversations et appels entrants d’une organisation de fédération arrive
 |**Si vous souhaitez** |**Pour ce faire :**  |
 |:---------|:-----------------------|
 | Assurez-vous que les conversations et appels fédérés entrants arrivent dans le client Teams de l’utilisateur : | Configurez vos utilisateurs de manière à ce qu’ils utilisent TeamsOnly.
-| Vérifier que les conversations et appels fédérés entrants arrivent dans le client Skype Entreprise de l’utilisateur | Configurez vos utilisateurs pour qu’ils restent dans n’importe quel mode autre que TeamsOnly. |
+| S’assurer que les conversations et appels fédérés entrants arrivent dans le client Skype Entreprise de l’utilisateur | Configurez vos utilisateurs pour qu’ils restent dans n’importe quel mode autre que TeamsOnly. |
 
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Activer la fédération entre les utilisateurs de votre organisation et les utilisateurs grand public de Skype

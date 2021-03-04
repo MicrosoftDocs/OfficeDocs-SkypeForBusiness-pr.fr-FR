@@ -19,20 +19,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Transfert pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52dd8a2a1dcbc14930695efd52141ce3b1842458
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dfc3141eea8d16a86c0f37221e597feac3bb957e
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812964"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421279"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transférer des numéros de téléphone dans Microsoft Teams
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
-
 Utilisez l’Assistant Transfert du Centre d’administration Microsoft Teams pour transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Une fois vos numéros de téléphone portés vers Teams, Microsoft devient votre fournisseur de services et vous facture pour ces numéros de téléphone.
 
-Avant de commencer, nous vous recommandons de passer en revue les informations de la demande [de port.](port-order-overview.md) Si vous avez des numéros de service pour des ponts de conférence rendez-vous, des numéros de service automatique ou d’autres numéros de service, [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) des numéros de téléphone gratuits ou plus de 999 numéros de téléphone des abonnés (utilisateurs) que vous devez transférer vers Teams, consultez Gérer les numéros de téléphone pour votre organisation afin de télécharger les formulaires corrects et de nous les envoyer.
+Avant de commencer, nous vous recommandons de passer en revue les informations de la demande [de port.](port-order-overview.md) Si vous avez des numéros de service pour des ponts de conférence rendez-vous, des postes de service automatique ou d’autres numéros de service, [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) des numéros de téléphone gratuits ou plus de 999 numéros de téléphone des abonnés (utilisateurs) que vous devez transférer vers Teams, consultez Gérer les numéros de téléphone pour votre organisation afin de télécharger les formulaires corrects et de nous les envoyer.
 
   > [!NOTE]
   > Nous traiterons les transferts de commandes pour le transfert des numéros de téléphone uniquement les jours ou jours ou semaine aux États-Unis et non les jours fériés ou les week-ends.
@@ -50,7 +48,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     - **Type de numéro de** téléphone : type de numéro, par exemple des numéros géographiques ou gratuits.
     - **Nombres affectés** à : ce à quoi sont affectés les nombres. Par exemple, les utilisateurs, les fonctionnalités de conférence ou de voix.
 
-4. Dans la page **Ajouter des informations de compte,** complétez les étapes suivantes, puis cliquez sur **Suivant.**
+4. Dans la page **Ajouter des informations de** compte, complétez les étapes suivantes, puis cliquez sur **Suivant.**
 
     > [!IMPORTANT]
     > Les informations affichées sur cette page sont déterminées par le pays ou la région et le type de numéro. Chaque pays et région ont des réglementations différentes sur les informations requises pour les numéros de port. Ce que vous voyez sur cette page peut être différent de ce qui est décrit ici.
@@ -67,7 +65,7 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
         - Numéro de téléphone de facturation **(BTN)**: votre numéro de téléphone au format E.164, qui nécessite un signe + pour prédépender le numéro. Par exemple, pour un numéro en Amérique du Nord, utilisez le format +1XXXYYYZZZZ.
         - Autres informations, notamment le nom de votre fournisseur de services actuel, votre numéro de compte et votre adresse de service.
             
-5. Dans **la** page Ajouter des numéros, cliquez sur Sélectionner un **fichier,** recherchez et sélectionnez le fichier CSV contenant les numéros de téléphone à transférer, puis cliquez sur **Suivant.**  
+5. Dans la page **Ajouter** des numéros, cliquez sur Sélectionner un **fichier,** recherchez et sélectionnez le fichier CSV contenant les numéros de téléphone à transférer, puis cliquez sur **Suivant.**  
 
     > [!NOTE]
     > Le fichier CSV ne doit avoir qu’une colonne dont l’en-tête est PhoneNumber. Chaque numéro de téléphone doit se trouver sur une ligne distincte et ne peut être que des chiffres ou au format E.164.
@@ -78,11 +76,11 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
     
     1. Cliquez **sur Télécharger le modèle** pour télécharger le LOA de votre pays ou région. 
     2. Imprimez le LOA.
-    3. Faire signer la lettre d’autorisation par la personne autorisée à apporter des modifications au compte.
-    4. Numérisez le courrier d’autorisation signé, puis **cliquez** sur Télécharger une lettre d’autorisation signée pour la charger.
+    3. Faire signer le LOA par la personne autorisée à apporter des modifications au compte.
+    4. Numérisez le courrier d’autorisation signé, puis cliquez sur Télécharger une lettre **d’autorisation** signée pour la charger.
 
     > [!NOTE]
-    > Après avoir chargé votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
+    > Une fois que vous avez transféré votre LOA, envoyez votre commande. Le chargement de la LOA ne suffit pas. Vous devez également soumettre la commande pour qu’elle soit traitée.
 
 7. Examinez les détails de votre commande, puis cliquez sur **Envoyer.**
 
