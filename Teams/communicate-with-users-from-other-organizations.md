@@ -1,5 +1,5 @@
 ---
-title: Appel et conversation avec des utilisateurs d’autres organisations
+title: Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145834"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421319"
 ---
-# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>Appel, conversation et collaboration avec des personnes extérieures à votre organisation dans Microsoft Teams
+# <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
 Lorsque vous avez besoin de communiquer, puis de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux options :
 

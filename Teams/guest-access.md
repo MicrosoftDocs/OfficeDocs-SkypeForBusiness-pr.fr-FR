@@ -19,16 +19,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 6bbee4609bad74fb89f98debadd3a37efc9b7759
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: bf1e5083b160bf79c1abe06bffd2a68bf4c0aaab
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908988"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421189"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
 L’accès invité vous permet d’accéder à Teams, aux documents dans des canaux, aux ressources, aux conversations et aux applications pour les personnes extérieures à votre organisation, tout en gardant le contrôle sur vos données d’entreprise.
+
+> [!NOTE]
+> Si vous voulez simplement rechercher, appeler, discuter et configurer des réunions avec des personnes d’autres organisations, utilisez [Accès externe](manage-external-access.md).
 
 Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans Teams. Cela signifie que tout le monde avec un compte professionnel (autrement dit, un compte Azure Active Directory) ou un compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer en tant qu’invité dans Teams, avec un accès à des équipes et des expériences de canal.
 
