@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: 'Gérer les stratégies '
         items:
+          - name: Présentation
+            href: manage-teams-with-policies.md
           - name: Attribuer des stratégies à vos utilisateurs
             href: assign-policies.md
           - name: Afficher vos affectations de stratégie dans le journal d’activité
             href: activity-log.md
-          - name: Gérer les stratégies d’autorisation d’application dans Teams
-            href: teams-app-permission-policies.md
-          - name: Gérer les stratégies de configuration d’applications dans Teams
-            href: teams-app-setup-policies.md
-          - name: Gérer les stratégies d’application personnalisée et les paramètres dans Teams
-            href: teams-custom-app-policies-and-settings.md
           - name: Gérer les stratégies de commentaires dans Teams
             href: manage-feedback-policies-in-teams.md
           - name: Gérer les packages de stratégie dans Teams
@@ -773,6 +769,8 @@ items:
     items:
       - name: Planifier votre solution vocale Teams
         href: cloud-voice-landing-page.md
+      - name: Gérer les stratégies d’appel et vocales dans Teams
+        href: voice-and-calling-policies.md
       - name: Système téléphonique
         items:
           - name: "Qu’est-ce que le Système téléphonique\_?"
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: Présentation
             href: manage-apps.md
-          - name: Afficher les autorisations des applications et accorder le consentement administrateur dans le Centre d’administration Microsoft Teams
+          - name: Gérer les stratégies d’applications dans Teams
+            href: app-policies.md
+          - name: Afficher les autorisations des applications et accorder le consentement administrateur
             href: app-permissions-admin-center.md
           - name: Consentement spécifique à la ressource
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: Comportement des applications Teams pour les utilisateurs non standard
             href: non-standard-users.md
+          - name: Gérer les stratégies d’autorisation d’application dans Teams
+            href: teams-app-permission-policies.md
+          - name: Gérer les stratégies de configuration d’applications dans Teams
+            href: teams-app-setup-policies.md
+          - name: Gérer les stratégies d’application personnalisée et les paramètres dans Teams
+            href: teams-custom-app-policies-and-settings.md
   - name: Conseils pour les industries et le secteur public
     items:
       - name: Vue d’ensemble
