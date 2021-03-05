@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: En savoir plus sur les stratégies de voix et d’appel de Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347999"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460584"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gérer les stratégies de voix et d’appel dans Microsoft Teams
 
@@ -68,7 +68,7 @@ Une [stratégie de routage vocal](manage-voice-routing-policies.md) est un conte
 
 ![Capture d’écran du plan de numérotation.](media/dial-plans.png)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 * [Gérer les stratégies d’appel d’urgence dans Microsoft Teams](manage-emergency-calling-policies.md)
 * [Gérer les stratégies de routage d’appel d’urgence](manage-emergency-call-routing-policies.md)

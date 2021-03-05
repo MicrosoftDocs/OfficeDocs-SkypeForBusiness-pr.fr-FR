@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90d59bb7753cfd26cf6d0b90835cf8cf27661641
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: c04820336cc992f7ec4e53a80d8eb8f7deb05622
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030270"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460624"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Configuration matérielle requise pour Microsoft Teams
 
@@ -35,7 +35,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 
 | Composant | Configuration requise |
 |---------|---------|
-|Ordinateur et processeur    | Minimum 1,6 GHz (ou plus), 2 cœurs        |
+|Ordinateur et processeur    | Minimum 1,6 GHz (ou plus), 2 cœurs<br><br>Remarque : pour les processeurs Intel, la vitesse maximale obtenue à l’aide de la technologie IntelS Boost (Max Contrôle Frequency) doit être considérée comme étant         |
 |Mémoire     |    4.0 GB de RAM     |
 |Disque dur    | 3,0 Go d’espace disque disponible        |
 |Affichage    |   Résolution d’écran 1024 x 768 |
@@ -55,7 +55,7 @@ Toutes les conditions requises dans les sections suivantes s’appliquent à la 
 |Mémoire     |   4.0 GB de RAM      |
 |Disque dur    |   1,5 Go d’espace disque disponible      |
 |Affichage    | 1280 x 800 ou résolution supérieure    |
-|Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez des informations sur les dernières versions de macOS et comment mettre à jour votre version de macOS [ici](https://support.apple.com/fr-FR/HT201260). Par exemple, lorsqu’une nouvelle version de macOS est publiée, la nouvelle version et les deux versions qui la précèdent deviennent les versions prises en charge.      |
+|Système d’exploitation  |    L’une des trois versions les plus récentes de macOS. Vous trouverez des informations sur les dernières versions de macOS et comment mettre à jour votre version de macOS [ici](https://support.apple.com/en-us/HT201260). Par exemple, lorsqu’une nouvelle version de macOS est publiée, la nouvelle version et les deux versions qui la précèdent deviennent les versions prises en charge.      |
 |Vidéo  |    Webcam compatible     |
 |Voix    |  Microphone et haut-parleurs compatibles, casque avec microphone ou appareil équivalent       |
 |Appels vidéo et réunions | <ul><li>Nécessite un processeur 2 cœurs. Pour une meilleure résolution du partage de vidéo ou d’écran et une meilleure fréquence d’images, un processeur 4 cœurs ou plus est recommandé. </li><li>Rejoindre une réunion à l’aide de la détection de proximité dans une salle Microsoft Teams n’est pas disponible sur Linux.</li></ul>

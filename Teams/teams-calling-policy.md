@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03ec48de66bc5b179b3a1d8cfe006b1789d09a33
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6cfa0043b4da6c3087c0e144bb0759ed5b87f01c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48581049"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50465287"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 ===================================
@@ -66,7 +66,7 @@ Ce paramètre contrôle toutes les fonctionnalités d’appel dans Teams. Désac
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Call forwarding and simultaneous ringing to people in your organization
 
-Ce paramètre contrôle si les appels entrants peuvent être transmis à d’autres utilisateurs ou appeler une autre personne en même temps. 
+Ce paramètre contrôle si les appels entrants peuvent être transmis à d’autres utilisateurs ou faire sonner une autre personne en même temps. 
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Call forwarding and simultaneous ringing to external phone numbers
 
@@ -82,19 +82,15 @@ Ce paramètre permet d’envoyer des appels entrants vers la messagerie vocale. 
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être acheminés vers des groupes d’appels 
 
-> [!Include [feature preview](includes/preview-feature.md)]
-
 Ce paramètre contrôle si les appels entrants peuvent être transmis à un groupe d’appels.
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Autoriser la délégation pour les appels entrants et sortants
-
-> [!Include [feature preview](includes/preview-feature.md)]
 
 Ce paramètre permet de router les appels entrants vers des délégués, ce qui permet aux délégués de réaliser des appels sortants pour le compte des utilisateurs pour lesquels ils ont des autorisations de délégué. Pour plus d’informations, [voir Partager une ligne téléphonique avec un délégué.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Empêcher la dérivation et l’envoi d’appels via le PSTN 
 
-La définition de cette fonction sur **Ôter** envoie des appels via le réseau PSTN et incurère des frais au lieu de les envoyer via le réseau sans passer par les frais de téléphone gratuits.
+La définition de ce paramètre sur **Ôter** envoie des appels via le réseau PSTN et incurver des frais au lieu de les envoyer via le réseau sans passer par les frais de téléphone gratuits.
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Occupé(elle) est disponible pendant un appel
 
@@ -108,7 +104,7 @@ Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide 
 
 Ce paramètre vous permet d’activer ou de désactiver l’attente musicale lorsqu’un appelant PSTN est mis en attente. Elle est désactivée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de parcage d’appel et de délégué de responsable et est actuellement disponible uniquement via PowerShell.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 

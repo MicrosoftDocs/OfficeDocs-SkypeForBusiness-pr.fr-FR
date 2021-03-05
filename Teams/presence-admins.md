@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
-ms.translationtype: HT
+ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616948"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460554"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -51,7 +51,8 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et 
 || ![Un cercle gris ouvert indique un statut inconnu](media/Presence_Unknown.png) Statut inconnu|
 || ![Un cercle violet avec une flèche indique Absent(e) du bureau](media/Presence_OOF.png) Absent(e) du bureau. Absent(e) du bureau est utilisé lorsque vous définissez une réponse automatique. (uniquement disponible dans Outlook). |
 |||
-
+ > [!Note]
+ > Pour les utilisateurs qui y sont hébergés sur site, il est prévu que des retards de présence avec un maximum d’une heure s’offrent à vous.
 Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Lorsque vous êtes en mode travail individuel en fonction de votre calendrier, **Travail individuel en cours** est l’état visible par des contacts dans Teams. Le mode travail individuel s’affiche en tant que **Ne pas déranger** dans d’autres produits.
 
 Votre état de présence actuel passe à Absent lorsque vous verrouillez votre ordinateur ou lorsque votre ordinateur entre en mode d’inactivité ou de veille. Sur un appareil mobile, le statut de présence passe à Absent lorsque l’application Teams est en arrière-plan.

@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft Teams dans un environnement hybride avec Exchange en local.
-ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662319"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460514"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer des salles Microsoft Teams avec Exchange en local
 
@@ -34,7 +34,7 @@ Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwl
   
 ## <a name="requirements"></a>Conditions requises
 
-Avant de déployer des salles Microsoft Teams avec Exchange en local, assurez-vous que vous avez répondu aux exigences. Pour plus d’informations, consultez [la conditions requises pour les salles Microsoft Teams.](requirements.md)
+Avant de déployer des salles Microsoft Teams avec Exchange en local, assurez-vous que vous avez répondu à la exigences. Pour plus d’informations, consultez [la conditions requises pour les salles Microsoft Teams.](requirements.md)
   
 Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utiliserez les outils d’administration Active Directory pour ajouter une adresse de messagerie pour votre compte de domaine local. Ce compte sera synchronisé avec Microsoft 365 ou Office 365. Vous devrez réaliser les opérations suivantes :
   
@@ -58,7 +58,7 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Création d’un compte et synchronisation avec Active Directory
 
-1. Dans l’outil Utilisateurs et ordinateurs **Active Directory,** cliquez avec le bouton droit sur le dossier ou l’unité d’organisation dans qui vos comptes Salles Microsoft Teams seront créés, cliquez sur **Nouveau,** puis sur **Utilisateur.**
+1. Dans l’outil Utilisateurs et ordinateurs **Active Directory,** cliquez avec le bouton droit sur le dossier ou l’unité de l’organisation dans qui vos comptes Salles Microsoft Teams seront créés, cliquez sur **Nouveau,** puis sur **Utilisateur.**
 
 2. Saisissez le nom d’affichage de l’applet de commande précédente dans le champ **Nom complet** et l’alias dans le champ **Nom d’ouverture de session de l’utilisateur**. Cliquez sur **Suivant**.
 
@@ -67,7 +67,7 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
     > [!NOTE]
     > La sélection **du mot de passe n’expire** jamais est obligatoire pour Skype Entreprise Server sur les salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour chaque compte d’appareil Microsoft Teams Rooms.
   
-4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, dans la page utilisateurs de votre Centre d’administration Microsoft 365, vérifiez que le compte créé lors des étapes précédentes a été fusionné en ligne.
+4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, dans le Centre d’administration Microsoft 365, allez à la page utilisateurs et vérifiez que le compte créé lors des étapes précédentes a été fusionné en ligne.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Activation de la boîte aux lettres distante et définition des propriétés
 
@@ -83,7 +83,7 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
 
 3. Dans Exchange PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
 
-   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent la décision de réservation de salle directement sans intervention humaine : libre = accepter ; occupé = refus.)
+   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention humaine : libre = accepter ; occupé = refus.)
 
    - AddOrganizerToSubject: $false (L’organisateur de la réunion n’est pas ajouté à l’objet de la demande de réunion.)
 
@@ -91,11 +91,11 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Il s’agit d’une salle de réunion Skype ! » (Texte supplémentaire à ajouter à la demande de réunion.
+   - Réponse supplémentaire : « Il s’agit d’une salle de réunion Skype ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
 
    Cet exemple configure ces paramètres sur la boîte aux lettres de salle project-rigel-01.
 
@@ -140,7 +140,7 @@ Skype Entreprise Online PowerShell est utilisé pour gérer les services pour Mi
 
 1. Créez une session Windows PowerShell distance à partir d’un PC comme suit :
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 >
 > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
@@ -159,7 +159,7 @@ Skype Entreprise Online PowerShell est utilisé pour gérer les services pour Mi
 3. Pour activer votre compte Salles Microsoft Teams, exécutez la commande ci-après :
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    Si vous n’êtes pas certain de la valeur à utiliser pour le paramètre RegistrarPool dans votre environnement, vous pouvez obtenir la valeur auprès d’un utilisateur existant à l’aide de la commande ci-après :
@@ -179,7 +179,7 @@ Skype Entreprise Online PowerShell est utilisé pour gérer les services pour Mi
 
 Pour validation, vous pouvez utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer des comptes pour les salles Microsoft Teams](rooms-configure-accounts.md)
 

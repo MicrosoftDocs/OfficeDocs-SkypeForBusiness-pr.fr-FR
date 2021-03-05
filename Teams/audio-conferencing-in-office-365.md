@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Découvrez comment l’Audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: 542e619d9a0af586df4028c24c731082fa7bf1d0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e2103a9f1ccac8fc2a5891cc776c3faf84a29ae8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031200"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460684"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence dans Microsoft 365
-Dans Microsoft 365 et Office 365, les audioconférences permettent aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.
+Dans Microsoft 365 et Office 365, l’audioconférence permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.
 
 ## <a name="what-is-audio-conferencing"></a>Qu-est-ce que l’audioconférence ?
 L’appel entrant vers une réunion est particulièrement utile pour les personnes qui sont en déplacement et ne peuvent pas utiliser le client Skype Entreprise ou Microsoft Teams sur leur ordinateur ou leur appareil mobile. Mais dans d’autres cas, l’utilisation d’un téléphone pour participer à une réunion Skype Entreprise ou Microsoft Teams peut constituer une meilleure option qu’une application sur un ordinateur :
@@ -50,7 +50,7 @@ Il vous suffit de configurer la fonctionnalité de audioconférence pour les uti
 Après avoir rejoint la réunion, les participants peuvent faire des appels sortants et inviter d’autres personnes à participer à une réunion Skype Entreprise ou Microsoft Teams. Voir l’[Appel sortant à partir d’une réunion Teams pour permettre à d’autres personnes de participer à celle-ci](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou l’[Appel sortant à partir d’une réunion Skype Entreprise pour que d’autres personnes puissent y accéder](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Quel est son prix ?
-Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
+Pour les informations de tarification, consultez les [Prix appliqués à l’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409).
 
 ## <a name="where-is-it-available"></a>Où est-il disponible ?
 Avec l’audioconférence, vos utilisateurs peuvent utiliser des numéros de téléphone gratuits et payants pour établir des appels entrants vers des réunions. Les numéros de téléphone (service) sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros payants et gratuits peuvent être attribués à votre organisation à partir d’autres villes.

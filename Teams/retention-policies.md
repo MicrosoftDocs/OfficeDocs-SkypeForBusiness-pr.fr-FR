@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401308"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460654"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
@@ -39,11 +39,13 @@ Teams prend en charge les stratégies de rétention pour les messages de convers
 
 Pour en savoir plus sur la rétention et la manière d’appliquer des paramètres de rétention à l’aide de stratégies de rétention ou d’étiquettes de rétention pour d’autres charges de travail dans Microsoft 365, voir En savoir plus sur les stratégies de rétention et les étiquettes de [rétention.](https://docs.microsoft.com/microsoft-365/compliance/retention)
 
-La licence minimale requise pour les stratégies de rétention pour Teams est Microsoft 365 E3. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+Microsoft 365 E3 est la licence minimale requise pour les stratégies de rétention. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="how-teams-retention-policies-work"></a>Fonctionnement des stratégies de conservation Teams
+## <a name="how-teams-retentiondeletion-policies-work"></a>Fonctionnement des stratégies de rétention/suppression Teams
 
-Les messages de conversation Teams sont stockés dans un dossier masqué dans la boîte aux lettres de chaque utilisateur inclus dans la conversation, et les messages de canal Teams sont stockés dans un dossier masqué similaire dans la boîte aux lettres de groupe pour l’équipe. Pour conserver les messages qui sont soumis à une stratégie de rétention, une copie du contenu est automatiquement conservée dans un dossier masqué nommé **Éléments récupérables.**  Tant que ces messages n’ont pas été supprimés définitivement du dossier FaçonneHolds, ils restent accessibles dans les outils eDiscovery.
+Les messages de conversation Teams sont stockés à deux emplacements. La copie principale est stockée dans Azure, une copie secondaire, utilisée pour les stratégies de compilation, est stockée dans un dossier masqué dans la boîte aux lettres En ligne Exchange de chaque utilisateur inclus dans la conversation, et les messages de canal Teams sont stockés dans un dossier masqué similaire dans la boîte aux lettres de groupe pour l’équipe. Lorsqu’une stratégie de suppression de message de conversation est appliquée à un utilisateur ou à une équipe, la copie secondaire est supprimée en premier, puis la copie principale. La découverte électronique ou la recherche Teams est basée sur les messages stockés dans une copie secondaire et les messages deviennent introuvables lors de la suppression d’une copie secondaire. 
+
+Lorsqu’une stratégie de rétention des messages de conversation est appliquée à un utilisateur ou à une équipe, et si les messages sont supprimés (en raison d’une autre stratégie de suppression ou par l’utilisateur eux-mêmes), la copie principale est supprimée, par conséquent le client Teams voit le message disparaître, mais la copie secondaire est automatiquement déplacée vers un dossier masqué **nomméStoreHolds,** qui est en tant que sous-dossier dans le dossier Éléments **récupérables** Exchange. Tant que ces messages n’ont pas été supprimés définitivement du dossier FaçonneHolds, ils restent accessibles dans les outils eDiscovery.
 
 Pour plus d’informations sur les stratégies de rétention Teams incluses et exclues, et le fonctionnement de ces stratégies en fonction de votre configuration de stratégie, consultez En savoir plus sur la rétention [dans Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
@@ -90,7 +92,7 @@ Pour les messages de canal, les utilisateurs (membres du canal) voient les messa
 
 Les liens dans ces messages affichés sont envoyés aux [messages Teams concernant les stratégies de rétention.](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b) Cette documentation pour les utilisateurs finaux vous aide à répondre aux questions de base sur la raison pour laquelle leurs messages ont été supprimés. Toutefois, dans le cadre du déploiement de votre stratégie de rétention, veillez à communiquer à vos utilisateurs et à votre service d’aide l’impact de vos paramètres configurés.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Prendre en main les stratégies de rétention et les étiquettes de rétention](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
 - [En savoir plus sur la rétention dans Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)

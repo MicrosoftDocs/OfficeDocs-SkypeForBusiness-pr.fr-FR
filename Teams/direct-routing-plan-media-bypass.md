@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec le routage direct du système téléphonique, ce qui vous permet de raccourcir le chemin d’accès du trafic de médias et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: e21007c31dca540e4f659aad627911b4aec2e456
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790656"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460864"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -32,19 +32,19 @@ La dérivation média vous permet de raccourcir le chemin d’accès au trafic d
 
 Vous pouvez contrôler la dérivation média pour chaque SBC à l’aide de la commande **Set-CSOnlinePSTNGateway** avec le paramètre **-MediaBypass** définie sur true ou false. Si vous activez la dérivation média, cela ne signifie pas que tout le trafic de médias restera au sein du réseau d’entreprise. Cet article décrit le flux d’appels dans différents scénarios.    
 
-Les diagrammes ci-dessous illustrent la différence de flux d’appels avec et sans dérivation média.
+Les diagrammes ci-dessous illustrent la différence de flux d’appels avec et sans contournement des médias.
 
-Sans contournement multimédia, lorsqu’un client effectue ou reçoit un appel, le trafic de signalisation et le flux multimédia entre le SBC, le système téléphonique Microsoft et le client Teams, comme illustré dans le diagramme suivant :
+Sans contournement multimédia, lorsqu’un client effectue ou reçoit un appel, le trafic de signalisation et le flux de médias entre le SBC, le système téléphonique Microsoft et le client Teams, comme illustré dans le diagramme suivant :
 
 > [!div class="mx-imgBorder"]
 > ![Affiche le trafic de signalisation et le flux multimédia sans contournement média](media/direct-routing-media-bypass-1.png)
 
 
-Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le même réseau que le SBC. Par exemple, supposons qu’un utilisateur se trouve dans un bâtiment à Base effectue un appel à un utilisateur PSTN : 
+Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le même réseau que le SBC. Par exemple, supposons qu’un utilisateur se trouve dans un bâtiment dans Le Monde appelle un utilisateur PSTN : 
 
-- **Sans contournement** des médias, les médias circulent via Amsterdam ou Dublin (où les centres de données Microsoft sont déployés), puis revenir au SBC de Cette ville. 
+- **Sans contournement** des médias, les médias circulent via Amsterdam ou Dublin (où les centres de données Microsoft sont déployés), puis reviennent au SBC dans Le Monde. 
 
-  Le centre de données en Europe est sélectionné, car le SBC se trouve en Europe et Microsoft utilise le centre de données le plus proche du SBC. Bien que cette approche n’affecte pas la qualité des appels en raison de l’optimisation du flux de trafic au sein des réseaux Microsoft dans la plupart des régions, le trafic présente une boucle inutile.     
+  Le centre de données en Europe est sélectionné, car le SBC est en Europe et Microsoft utilise le centre de données le plus proche du SBC. Bien que cette approche n’affecte pas la qualité des appels en raison de l’optimisation du flux de trafic au sein des réseaux Microsoft dans la plupart des régions, le trafic présente une boucle inutile.     
 
 - **Avec la dérivation** média, les médias sont conservés directement entre l’utilisateur Teams et le SBC, comme illustré dans le diagramme suivant :
 
@@ -56,7 +56,7 @@ La dérivation multimédia s’appuie sur des protocoles appelés ice (Interacti
 
 ## <a name="call-flow-and-firewall-planning"></a>Planification du flux d’appels et du pare-feu
 
-La planification du flux d’appels et du pare-feu varie selon que l’utilisateur a un accès direct à l’adresse IP publique du SBC et si l’utilisateur se trouve à l’intérieur ou à l’extérieur du réseau.
+La planification du flux d’appels et du pare-feu varie selon que l’utilisateur a un accès direct à l’adresse IP publique du SBC et si l’utilisateur est à l’intérieur ou à l’extérieur du réseau.
 
 ### <a name="call-flow-if-the-user-has-direct-access-to-the-public-ip-address-of-the-sbc"></a>Flux d’appels si l’utilisateur dispose d’un accès direct à l’adresse IP publique du SBC
 
@@ -120,16 +120,16 @@ Microsoft Cloud peut utiliser deux composants dans le chemin d’accès du trafi
 
 - Le processeur de média est un composant public qui gère les éléments multimédias dans les cas qui ne contournent pas et gère les médias pour les applications vocales.
 
-   Les processeurs multimédias sont toujours dans le chemin pour les appels sans contournement de l’utilisateur final, mais jamais dans le chemin pour les appels contournements. Les processeurs multimédias sont toujours dans le chemin d’accès pour toutes les applications vocales telles que le parc des appels, les Standard automatique de l’organisation et les files d’attente d’appels.
+   Les processeurs multimédias sont toujours dans le chemin pour les appels sans contournement de l’utilisateur final, mais jamais dans le chemin pour les appels contournements. Les processeurs multimédias sont toujours dans le chemin d’accès de toutes les applications vocales, telles que le parc des appels, les Standard automatique de l’organisation et les files d’attente d’appels.
 
-- Le relais de transport permet de se connecter au service de transport le plus proche pour envoyer le trafic en temps réel.
+- Le relais de transport est utilisé pour se connecter au service de transport le plus proche pour envoyer le trafic en temps réel.
 
    Les relais de transport peuvent ou non se trouver dans le chemin d’accès des appels contournements (provenant ou destinés à des utilisateurs finaux), selon l’endroit où se trouve l’utilisateur et la manière dont le réseau est configuré.
 
 Le diagramme suivant montre deux flux d’appels : un avec la dérivation média activée et la seconde avec la dérivation média désactivée. Notez que le diagramme illustre uniquement le trafic provenant d’utilisateurs - ou destinés à des utilisateurs finaux.  
-- Le contrôleur de média est un microservice dans Azure qui affecte des processeurs multimédias et crée des offres SDP (Session Description Protocol).
+- Le contrôleur de média est un microservice dans Azure qui attribue des processeurs multimédias et crée des offres SDP (Session Description Protocol).
 
-- Le proxy SIP est un composant qui traduit en SIP le signalisation REST HTTP utilisé dans Teams.    
+- Le proxy SIP est un composant qui traduit le signalisation HTTP REST utilisé dans Teams en SIP.    
 
 > [!div class="mx-imgBorder"]
 > ![Présente les flux d’appels avec la dérivation média activée et désactivée](media/direct-routing-media-bypass-6.png)
@@ -139,10 +139,10 @@ Le tableau ci-dessous résume la différence entre les processeurs de média et 
 
 |    | Processeurs multimédias | Relais de transport|
 | :--------------|:---------------|:------------|
-Chemin de médias pour les appels non contournements pour les utilisateurs finaux | Toujours | Jamais | 
+Chemin de médias pour les appels non contournements pour les utilisateurs finaux | Toujours | Si le client ne parviennent pas à joindre le processeur de média directement | 
 Dans le chemin de médias pour les appels contournements pour les utilisateurs finaux | Jamais | Si le client ne peut pas accéder au SBC sur l’adresse IP publique | 
 Dans le chemin multimédia des applications vocales | Toujours | Jamais | 
-Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison. | 
+Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison | 
 Nombre d’instances dans le monde et emplacement | 10 total : 2 dans la région Est et Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple
 
 Les plages d’adresses IP sont les plus diverses :
@@ -180,7 +180,7 @@ Le routage direct est proposé dans les environnements Microsoft 365 ou Office 3
 
 Les points de connexion pour le routage direct sont les trois FQDN suivants :
 
-- **sip.pstnhub.microsoft.com** , vous devez d’abord essayer le FQDN global. Lorsque le SBC envoie une demande pour résoudre ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de données Azure principal affecté au SBC. L’affectation est basée sur les mesures de performance des centres de données et la proximité géographique par rapport au SBC. L’adresse IP renvoyée correspond au FQDN principal.
+- **sip.pstnhub.microsoft.com** , vous devez d’abord essayer le FQDN global. Lorsque le SBC envoie une demande de résolution de ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de données Azure principal affecté au SBC. L’affectation est basée sur les mesures de performance des centres de données et la proximité géographique par rapport au SBC. L’adresse IP renvoyée correspond au FQDN principal.
 
 - **sip2.pstnhub.microsoft.com** (FQDN secondaire) géographiquement à la région de deuxième priorité.
 
@@ -349,7 +349,7 @@ L’exemple ci-dessous illustre cette logique.
 
 | Ensemble d’utilisateurs | Nombre d’utilisateurs | Trunk FQDN assigned in OVRP | Contournement multimédia activé |
 | :------------ |:----------------- |:--------------|:--------------|
-Utilisateurs avec ligne de dérivation non multimédia | 980 | sbc1.contoso.com:5060 | true
+Utilisateurs avec ligne de contournement non multimédia | 980 | sbc1.contoso.com:5060 | true
 Utilisateurs avec ligne de dérivation média | 20 | sbc2.contoso.com:5061 | false | 
 
 Les deux ligne peuvent pointer vers le même SBC avec la même adresse IP publique. Les ports de signalisation TLS sur le SBC doivent être différents, comme illustré dans le diagramme suivant. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms **(sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
