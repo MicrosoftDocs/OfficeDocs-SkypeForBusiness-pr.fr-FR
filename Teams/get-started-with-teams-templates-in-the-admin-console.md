@@ -18,21 +18,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad35b874f3f11a7e71d61c63cb90a1945c7cc85
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 62bee9c494cc6155a84b30d75ae71528656133be
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662649"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508007"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Utiliser les modèles Teams dans le Centre d’administration
 
-**Les modèles personnalisés ne sont pas encore pris en charge pour les clients EDU.**
+**La possibilité de créer des modèles personnalisés n’est pas encore prise en charge pour les clients EDU.**
 
 > [!NOTE]
 > Pour le moment, les modèles Teams ne supportent pas la création de canaux privés. La création de canaux privés n’est pas incluse dans les définitions de modèle.
 
-Les modèles Teams sont des définitions pré-intégrées de la structure d’une équipe conçue autour d’un besoin ou d’un projet d’entreprise. Utilisez des modèles pré-intégrés ou créez votre propre modèle. Les modèles Teams vous permettent de créer rapidement des espaces de collaboration enrichis avec des canaux pour différents sujets et des applications de préinstallation qui permettent d’obtenir du contenu et des services essentiels pour l’entreprise. Les modèles Teams fournissent une structure d’équipe prédéfinée qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Vous pouvez actuellement créer une équipe à partir d’un modèle dans Teams ou à l’aide [de Microsoft Graph.](get-started-with-teams-templates.md)
+Les modèles Teams sont des définitions pré-intégrées de la structure d’une équipe conçue autour d’un besoin ou d’un projet d’entreprise. Utilisez des modèles pré-intégrés ou créez votre propre modèle. Les modèles Teams vous permettent de créer rapidement des espaces de collaboration enrichis avec des canaux pour différents sujets et des applications de préinstallation qui permettent d’obtenir du contenu et des services essentiels. Les modèles Teams fournissent une structure d’équipe prédéfinée qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Vous pouvez actuellement créer une équipe à partir d’un modèle dans Teams ou à l’aide [de Microsoft Graph.](get-started-with-teams-templates.md)
 
 Cet article décrit les propriétés qui peuvent être définies dans les modèles, les types de modèles de base et la façon dont vous pouvez utiliser quelques exemples de demandes pour créer une équipe à partir d’un modèle.
 
@@ -42,14 +42,14 @@ Cet article est pour vous si vous êtes responsable de la planification, du dép
 
 La plupart des propriétés d’une équipe sont incluses et prise en charge par les modèles. Certaines propriétés et fonctionnalités ne sont actuellement pas pris en charge. Le tableau suivant récapitule rapidement ce qui est inclus et ce qui n’est pas inclus dans les modèles Teams.
 
-| **Propriétés d’équipe prise en charge par les modèles Teams** | **Propriétés d’équipe non encore pris en charge par les modèles Teams** |
+| **Propriétés d’équipe pris en charge par les modèles Teams** | **Propriétés d’équipe non encore pris en charge par les modèles Teams** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Type de modèle de base | Appartenance à une équipe |
 | Nom de l’équipe | Image de l’équipe |
 | Description de l’équipe | Paramètres du canal |
 | Visibilité de l’équipe (publique ou privée) | Connecteurs |
 | Paramètres de l’équipe (par exemple, membre, invité, @mentions) | Fichiers et contenu |
-| Canal des masons automatiques | |
+| Canal Des masons automatiques | |
 | Application installée | |
 | Onglets épinglés | |
 
@@ -58,7 +58,7 @@ La plupart des propriétés d’une équipe sont incluses et prise en charge par
 
 ## <a name="what-are-base-template-types"></a>Présentation des types de modèles de base
 
-Les types de modèles de base sont des modèles spéciaux créés par Microsoft pour des secteurs spécifiques. Ces modèles de base contiennent souvent des applications exclusives qui ne sont pas disponibles dans le magasin d’applications.
+Les types de modèles de base sont des modèles spéciaux que Microsoft a créés pour des secteurs spécifiques. Ces modèles de base contiennent souvent des applications exclusives qui ne sont pas disponibles dans le magasin d’applications.
 
 Une fois le type de modèle de base défini, vous pouvez étendre ou remplacer ces modèles spéciaux par des propriétés supplémentaires que vous souhaitez spécifier. Certains types de modèles de base contiennent des propriétés qui ne peuvent pas être surchargées.
 
@@ -105,7 +105,7 @@ Les modèles sont limités à un nombre spécifique de canaux, d’onglets et d�
 |Applications par modèle | 50|
 |||
 
-Pour plus [d’informations, consultez](limits-specifications-teams.md) les limites et les spécifications de Teams.
+Pour [plus d’informations, voir Limites](limits-specifications-teams.md) et spécifications de Teams.
 
 ## <a name="related-topics"></a>Sujets associés
 

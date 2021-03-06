@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a206570ffd000f80f1f0a865af6e46e511a0ac6
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: HT
+ms.openlocfilehash: d18f6b5ef5b4668324a68b4456cd3ad5aa4b7364
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278664"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50507977"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -123,12 +123,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Appel individuel avec des parties internes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits. <br /><br />L’appelant (s’il est dans le même client) dispose d’un accès en lecture seule. Aucun accès en partage. <br /><br />L’appelant (s’il est dans un client différent) ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
 |Appel individuel avec des parties externes             |Appelant                 |Compte OneDrive Entreprise de l’appelant                        |L’appelant est propriétaire et dispose de tous les droits.<br /> <br />Le destinataire de l’appel ne dispose d’aucun accès. L’appelant doit partager le document avec le destinataire de l’appel.|
 |Appel individuel avec des parties externes             |Destinataire de l’appel                 |Compte OneDrive Entreprise du destinataire de l’appel                        |Le destinataire de l’appel est propriétaire et dispose de tous les droits.<br /><br />L’appelant ne dispose d’aucun accès. Le destinataire de l’appel doit partager le document avec l’appelant.|
-|Appel de groupe                                 |Tout membre de l’appel |Membre ayant cliqué sur le compte OneDrive Entreprise de l’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Les autres membres du même client disposent de droits en lecture. <br /><br /> Les autres membres d’un autre client ne disposent d’aucun droit dessus.|
+|Appel de groupe                                 |Tout membre de l’appel |Membre du groupe ayant cliqué sur le compte OneDrive Entreprise d’enregistrement  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits. <br /><br /> Une autre personne du même client a des droits de lecture. <br /><br /> Les autres membres du groupe d’un client différent n’y ont aucun droit.|
 |Réunion ad hoc/planifiée                    |Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement. <br /><br /> Tous les autres membres de la réunion disposent d’un accès en lecture.|
-|Réunion ad hoc/planifiée                    |Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et de partage.<br /><br /> Tous les autres membres disposent d’un accès en lecture.|
+|Réunion ad hoc/planifiée                    |Autre membre de la réunion   |Membre de la réunion ayant cliqué sur Enregistrer                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. <br /><br />L’organisateur dispose de droits de modification et de partage.<br /><br /> Tous les autres membres de la réunion ont un accès en lecture.|
 |Réunion ad hoc/planifiée avec des utilisateurs externes|Organisateur              |Compte OneDrive Entreprise de l’organisateur                     |L’organisateur dispose de droits complets sur l’enregistrement.<br /> <br /> Tous les autres membres de la réunion provenant du même client que l’organisateur disposent d’un accès en lecture. <br /><br /> Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
 |Réunion ad hoc/planifiée avec des utilisateurs externes|Autre membre de la réunion   |Membre qui a cliqué sur Enregistrement                                  |Le membre qui a cliqué sur Enregistrement dispose de tous les droits d’accès à l’enregistrement. L’organisateur dispose de droits de modification et de partage. <br /><br /> Tous les autres membres de la réunion provenant du même client que l’organisateur disposent d’un accès en lecture. <br /><br />Tous les autres membres externes n’ont pas d’accès, et l’organisateur doit le partager avec eux.|
-|Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Le membre qui a cliqué sur Enregistrement a le droit de modifier l’enregistrement. <br /> <br />Les autorisations de tous les autres membres sont basées sur les autorisations Channel SharePoint.|
+|Réunion de canal                            |Membre du canal         |Emplacement SharePoint de Teams pour ce canal                   |Le membre qui a cliqué sur Enregistrement a le droit de modifier l’enregistrement. <br /> <br />Les autorisations de tous les autres membres sont basées sur les autorisations de Canal SharePoint.|
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
