@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421319"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461044"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
@@ -43,6 +43,9 @@ Par défaut, l'accès externe est activé pour tous les domaines. Vous pouvez re
 ![Capture d’écran des paramètres d’accès externe](media/external-access-federation-settings.png)
 
 Si vous souhaitez configurer l’accès externe, veuillez consulter la rubrique [Gérer l'accès externe](manage-external-access.md). 
+
+>[!NOTE]
+>Les licences gratuites Microsoft Teams ne prisent pas en charge l’accès externe.
 
 ## <a name="guest-access"></a>Accès invité
 
@@ -65,8 +68,8 @@ Les tableaux suivants montrent les différences entre l’utilisation de l’acc
 | Voir si une personne d’une autre organisation est disponible pour un appel ou une conversation | Oui | Oui <sup>1</sup> |
 | Rechercher des personnes d’autres organisations | Oui <sup>2</sup> | Non |
 | Partager des fichiers | Non | Oui |
-| Afficher le message d’absence du bureau de | Non | Oui |
-| Bloquer une personne d’une autre organisation | Non | Oui |
+| Consulter le message d’absence du bureau d’une personne d’une autre organisation | Non | Oui |
+| Bloquer une personne d’une autre organisation  | Non | Oui |
 | Utiliser les @mentions | Oui<sup>3</sup> | Oui |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>Actions réalisables par les personnes extérieures à votre organisation
