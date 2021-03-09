@@ -18,15 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les modèles Teams dans le Centre d’administration
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507967"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569010"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Créer et gérer des modèles Teams dans le Centre d’administration
+# <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
 Gérez les modèles Teams que vos utilisateurs finaux voient en créant des stratégies de modèles dans le Centre d’administration. Dans chaque stratégie de modèle, vous pouvez désigner les modèles affichés ou masqués.
 Affectez différents utilisateurs à différentes stratégies de modèle afin que vos utilisateurs ne visualisent que le sous-ensemble de modèles Teams spécifiés.
@@ -62,7 +61,7 @@ Affectez différents utilisateurs à différentes stratégies de modèle afin qu
    Les modèles sélectionnés apparaissent dans votre table **de modèles consultables.**
 3. Sélectionnez **Enregistrer**.
 
-   Votre nouvelle stratégie de modèle est affichée dans la liste **Stratégies de** modèles.
+   Votre nouvelle stratégie de modèle s’affiche dans la liste **Stratégies de** modèles.
 
 ## <a name="assign-users-to-the-template-policies"></a>Attribuer des utilisateurs aux stratégies de modèle
 
@@ -91,7 +90,7 @@ R : Oui, nous prise en charge l’affectation de lots pour une stratégie de mod
 
 **Q : Les groupes peuvent-ils être affectés à des stratégies de modèles d’équipe ?**
 
-R : Actuellement non. Cette fonctionnalité sera disponible ultérieurement.
+R : Actuellement non. Cette fonctionnalité sera disponible à l’avenir.
 
 **Q : Si un modèle est créé, le modèle sera-t-il inclus dans mes stratégies ?**
 
@@ -116,7 +115,7 @@ R : Oui.
 R : Dans le Centre d’administration :
 
 1. Allez à la section **Utilisateurs.**
-2. Sélectionnez le filtre dans la table Liste des utilisateurs et filtrez la stratégie de modèle Teams.
+2. Sélectionnez le filtre dans le tableau de la liste utilisateurs, puis filtrez la stratégie de modèle Teams.
 3. Sélectionnez **Appliquer.**
 
 ![Stratégie de modèle sélectionnée et afficher les utilisateurs](media/template-policies-5.png)
@@ -129,7 +128,7 @@ R : Non, la gestion des modèles dans PowerShell n’est pas prise en charge.
 
 R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le Centre d’administration de Microsoft Teams ou Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: 0655f81df9c8ce25368a281a7f5b3392f7fe6ec3
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814783"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569256"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -66,38 +66,16 @@ Vous attribuez un plan de numérotation de la même façon que vous attribuez de
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
   
-### <a name="verify-and-start-remote-powershell"></a>Vérifier et démarrer Remote PowerShell
+### <a name="start-powershell"></a>Démarrer PowerShell
+- Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes :
 
- **Vérifier que vous exécutez Windows PowerShell version 3.0 ou ultérieure**
-  
-1. Pour vérifier que vous exécutez la version 3.0 ou une version supérieure : démarrer **le menu**  >  **Windows PowerShell.**
-    
-2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
-    
-3. Si vous n’avez pas la version 3.0 ou une version ultérieure, téléchargez et installez les mises à jour Windows PowerShell. Voir [Windows Management Framework 4.0 pour](https://go.microsoft.com/fwlink/?LinkId=716845) télécharger et mettre à Windows PowerShell jour vers la version 4.0. Redémarrez votre ordinateur lorsque vous y êtes invité.
-    
-4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session de Windows PowerShell distante qui se connecte à Skype Entreprise Online. Vous pouvez télécharger ce module, qui est pris en charge uniquement sur les ordinateurs 64 bits, dans [le module Windows PowerShell pour Skype Entreprise Online.](https://go.microsoft.com/fwlink/?LinkId=294688) Redémarrez votre ordinateur si vous y êtes invité.
-    
-Pour en savoir plus, voir Se connecter à tous les [services Microsoft 365 ou Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)dans une seule Windows PowerShell service.
-  
- **Démarrez une session Windows PowerShell**
-  
-1. Cliquez **sur Démarrer**  >  **Windows PowerShell.**
-    
-2. Dans la **Windows PowerShell,** connectez-vous à Microsoft 365 ou Office 365 en exécutant :
-    
- 
-    > [!NOTE]
-    > Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
-    >
-    > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+```powershell
+  # When using Teams PowerShell Module
 
-    ```PowerShell
-   Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-    ```
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
   
 ### <a name="create-and-manage-your-dial-plans"></a>Créer et gérer vos plans de numérotation
 
@@ -209,7 +187,7 @@ Exécutez l’événement pour rechercher tous les utilisateurs qui ont reçu le
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Exécutez cette tâche pour supprimer tout TenantDialPlan affecté à tous les utilisateurs qui ont un HostingProvider of sipfed.online.lync.com.
+Exécutez l’événement pour supprimer toute tenantDialPlan affectée à tous les utilisateurs qui ont un HostingProvider de sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -239,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)

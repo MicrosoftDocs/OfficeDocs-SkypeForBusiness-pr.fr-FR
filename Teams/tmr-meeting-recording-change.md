@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18f6b5ef5b4668324a68b4456cd3ad5aa4b7364
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: 0431b7ebd385f2ad17d659e238f54b4ebb1ab20a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507977"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569090"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -74,26 +74,25 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
 > [!Note]
 > La propagation des modifications de la stratégie de réunion Teams prend un certain temps. Consultez de nouveau le site après quelques heures de configuration, déconnectez-vous, puis reconnectez-vous.
 
-1. Installez Skype Entreprise Online Powershell.
+1. Installez Teams PowerShell PowerShell.
 
    > [!NOTE]
    > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Gestion de Skype Entreprise Online avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    1. Téléchargez [Skype Entreprise Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+1. Lancez PowerShell en tant qu’administrateur.
 
-    1. Suivez les invites pour l’installer.
+2. Installer [le module Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
 
-    1. Redémarrez votre machine.
+3. Importez le module MicrosoftTeams et connectez-vous en tant qu’administrateur Teams.
 
-2. Lancez PowerShell en tant qu’administrateur.
 
-3. Importez le connecteur SkypeOnline, puis connectez-vous en tant qu’administrateur Teams.
+```powershell
+  # When using Teams PowerShell Module
 
-   ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 4. Utilisez [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage Stream vers OneDrive Entreprise et SharePoint.
 

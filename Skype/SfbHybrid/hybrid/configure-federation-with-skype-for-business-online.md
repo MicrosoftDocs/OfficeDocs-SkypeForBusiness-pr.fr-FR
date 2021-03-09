@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment configurer l’interopérabilité entre votre déploiement local et Skype Entreprise Online.'
-ms.openlocfilehash: 0df507fcc47157a9290018a199e1362cb203048b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221448"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569216"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurer Skype Entreprise hybride
 
@@ -67,7 +67,7 @@ New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -E
 
  ## <a name="enable-shared-sip-address-space-in-your-organization"></a>Activer l’espace d’adressa ment SIP partagé dans votre organisation
   
-En plus de la modification que vous avez faite dans votre déploiement local, vous devez apporter la modification correspondante dans votre organisation Microsoft 365 ou Office 365 pour activer l’espace d’adressare SIP partagé avec votre déploiement local.  
+Outre les changements que vous avez apportés dans votre déploiement local, vous devez apporter la modification correspondante dans votre organisation Microsoft 365 ou Office 365 pour activer l’espace d’adressare SIP partagé avec votre déploiement local.  
 
 Pour activer l’espace d’adressale SIP partagé dans votre organisation, établissez une session PowerShell distante avec Skype Entreprise Online, puis exécutez l’cmdlet suivante :
   
@@ -78,16 +78,18 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > L’attribut SharedSipAddressSpace doit rester « True » jusqu’à ce que le passage en ligne soit final et qu’aucun utilisateur ne reste en local. 
   
-Pour établir une session PowerShell distante avec Teams ou Skype Entreprise Online, vous devez d’abord installer le module connecteur Skype Entreprise Online pour Windows PowerShell, que vous pouvez [obtenir ici.](https://go.microsoft.com/fwlink/p/?LinkId=391911)
+Pour établir une session PowerShell distante avec Teams ou Skype Entreprise Online, vous devez d’abord installer le [module PowerShell Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
   
 Après avoir installé le module, vous pouvez établir une session à distance avec les cmdlets suivantes :
-  
-```PowerShell
-$cred = Get-Credential
-Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
-```
+   ```powershell
+   # When using Teams PowerShell Module
 
-Pour plus d’informations sur l’établissement d’une session PowerShell distante avec Skype Entreprise Online et sur l’utilisation du module Connecteur Skype Entreprise Online, voir Configurer votre ordinateur pour [Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+
+Pour plus d’informations sur l’établissement d’une session PowerShell à distance avec Skype Entreprise Online et sur l’utilisation du module Connecteur Skype Entreprise Online, voir Configurer votre ordinateur pour [Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 
 

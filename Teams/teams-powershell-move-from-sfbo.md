@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez comment passer de Skype Entreprise Online Connector au module Teams PowerShell pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e1838540e57cd91578e898818e2ed12e7b63a78
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469665"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569080"
 ---
 # <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Passer de Skype Entreprise Online Connector au module Teams PowerShell
 
@@ -28,11 +28,22 @@ Pour passer de l’utilisation de Skype Entreprise Online Connector au module Te
 3. Dans vos scripts PowerShell, modifiez le nom du module référencé. ```Import-Module``` ```SkypeOnlineConnector``` ```LyncOnlineConnector``` ```MicrosoftTeams```
 
     Par exemple, ```Import-Module -Name SkypeOnlineConnector``` changez pour ```Import-Module -Name MicrosoftTeams``` .
+4. Lorsque vous utilisez Teams PowerShell Module 2.0 ou une génération ultérieure, modifiez New-csOnlineSession en Connect-MicrosoftTeams. 
 
-> [!NOTE]
-> Les administrateurs doivent continuer à utiliser [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession) et à importer la session avant d’utiliser les cmdlets Skype Entreprise Online. 
+```powershell
+  # When using Teams PowerShell Module 1.1.6
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $credential
+   Import-PSSession $sfbSession
+   
+   # When using Teams PowerShell Module 2.0 or later
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Installer Microsoft Teams PowerShell](teams-powershell-install.md)
 

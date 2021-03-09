@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd5b38dd3a43a405794209a9dc7ac4a4468386ef
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662019"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569110"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installer Microsoft Teams PowerShell
 
@@ -84,14 +84,16 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
+
 ```powershell
-Import-Module -Name MicrosoftTeams
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 ## <a name="sign-in"></a>Connexion
@@ -140,7 +142,7 @@ Uninstall-Module MicrosoftTeams
 
 Vous êtes maintenant prêt à gérer Teams à l’aide de Teams PowerShell. Consultez [Gérer les équipes avec Teams PowerShell](teams-powershell-managing-teams.md) pour commencer.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des équipes avec Teams PowerShell](teams-powershell-managing-teams.md)
 

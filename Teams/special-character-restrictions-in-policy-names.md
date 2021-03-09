@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Découvrez les problèmes qui surentent les caractères spéciaux dans les noms des stratégies et ce que vous pouvez faire pour le résoudre.
-ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: bc5a2fbb28e37602b21e6c519ea3b3b7cb9a0325
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814713"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569406"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?
 
@@ -39,7 +39,7 @@ Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les 
 
 Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la modifier à l’aide de Windows PowerShell (indéfiniment) soit créer une stratégie dans le Centre d’administration Microsoft Teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.
 
-## <a name="to-remove-special-characters"></a>Pour supprimer les caractères spéciaux
+## <a name="to-remove-special-characters"></a>Pour supprimer des caractères spéciaux
 
 **Étape 1 : établir une connexion à distance avec PowerShell.**
 > [!NOTE]
@@ -47,11 +47,12 @@ Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la 
 >
 > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
-```PowerShell
- Import-Module -Name MicrosoftTeams
- $credential = Get-Credential
- $session = New-CsOnlineSession -Credential $credential
- Import-PSSession $session
+```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 
@@ -101,7 +102,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

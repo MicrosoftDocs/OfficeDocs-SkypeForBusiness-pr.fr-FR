@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft Teams avec Microsoft 365 ou Office 365, où Teams ou Skype Entreprise et Exchange sont tous deux en ligne.
-ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196208"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569120"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déployer des salles Microsoft Teams avec Microsoft 365 ou Office 365
 
 Lisez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft Teams avec Microsoft 365 ou Office 365, où Microsoft Teams ou Skype Entreprise et Exchange sont tous deux en ligne.
 
-La manière la plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de la Windows PowerShell. Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aidera à créer de nouveaux comptes d’utilisateurs, ou à valider les comptes de ressources existants que vous avez afin de vous aider à les transformer en comptes d’utilisateurs de salles Microsoft Teams compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer des comptes que votre appareil Microsoft Teams Rooms utilisera.
+La manière la plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de la Windows PowerShell. Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer de nouveaux comptes d’utilisateurs, ou à valider les comptes de ressources existants que vous avez afin de vous aider à les transformer en comptes d’utilisateurs de salles Microsoft Teams compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer des comptes que votre appareil Microsoft Teams Rooms utilisera.
 
 ## <a name="requirements"></a>Conditions requises
 
@@ -40,7 +40,7 @@ Pour activer Skype Entreprise, vous devez avoir les produits suivants :
 
 - Vos utilisateurs clients doivent avoir une boîte aux lettres Exchange.
 
-- Votre compte Salles Microsoft Teams requiert au minimum une licence Skype Entreprise Online (plan 2), mais pas une licence Exchange Online. Pour [plus d’informations, consultez les licences Salles Microsoft Teams.](rooms-licensing.md)
+- Votre compte Salles Microsoft Teams requiert au minimum une licence Skype Entreprise Online (plan 2), mais pas une licence Exchange Online. Pour plus d’informations, consultez les [licences Salles Microsoft Teams.](rooms-licensing.md)
 
 Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx)
 
@@ -84,9 +84,9 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
 
    Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
 
-3. Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
+3. Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de la salle pour améliorer l’expérience de réunion :
 
-   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention humaine : libre = accepter ; occupé = refus.)
+   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent la décision de réservation de salle directement sans intervention humaine : libre = accepter ; occupé = refus.)
 
    - AddOrganizerToSubject: $false (L’organisateur de la réunion n’est pas ajouté à l’objet de la demande de réunion.)
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
@@ -186,14 +186,16 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
    Démarrez une [session Windows PowerShell distance](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) comme suit (n’oubliez pas d’installer les [composants PowerShell de Skype](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)Entreprise Online) :
 
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 >
 > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess = New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
    Obtenez les informations registrarPool à partir du nouveau compte d’utilisateur en cours de configuration, comme illustré dans l’exemple ci-après :
@@ -217,7 +219,7 @@ Pour validation, vous pouvez utiliser n’importe quel client Skype Entreprise p
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer des comptes pour des salles Microsoft Teams](rooms-configure-accounts.md)
+[Configurer des comptes pour les salles Microsoft Teams](rooms-configure-accounts.md)
 
 [Planifier les Salles Microsoft Teams](rooms-plan.md)
 
