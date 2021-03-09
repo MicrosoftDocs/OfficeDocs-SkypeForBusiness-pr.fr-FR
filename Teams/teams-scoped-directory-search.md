@@ -19,25 +19,25 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4f478bba8c396f0f20b95f69f56c2ded556224d
-ms.sourcegitcommit: 2300595db7779da7a127ae9ee16e474452df02d3
+ms.openlocfilehash: b1ba7de8cea23efc23f1eaa6c568d87b0d3ec750
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49779928"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558323"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
 La recherche dans l’annuaire dans l’étendue de Microsoft Teams permet aux organisations de créer des limites virtuelles qui contrôlent la façon dont les utilisateurs peuvent trouver et communiquer avec d’autres utilisateurs de leur organisation. 
 
-Microsoft Teams permet aux organisations de fournir des affichages personnalisés de l’annuaire à leurs utilisateurs. Microsoft Teams utilise la [barrière de l’information](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour démarrer une conversation ou pour ajouter des membres à une équipe) seront étendues en fonction des stratégies configurées. Les utilisateurs ne pourront pas rechercher ou découvrir des équipes lorsque la recherche étendue est en vigueur. 
+Microsoft Teams permet aux organisations de fournir des affichages personnalisés de l’annuaire à leurs utilisateurs. Microsoft Teams utilise la [barrière de l’information](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour démarrer une conversation ou pour ajouter des membres à une équipe) seront étendues en fonction des stratégies configurées. Les utilisateurs ne pourront pas rechercher ou découvrir des équipes lorsque la recherche étendue est en vigueur, mais les membres existants de ces équipes peuvent ajouter des utilisateurs, comme le permet les stratégies de barrière des informations actives.
 
 > [!NOTE]
 > Dans les environnements Exchange hybrides, cette fonctionnalité fonctionne uniquement avec les boîtes aux lettres Exchange Online, et non avec les boîtes aux lettres locaux.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Quand devez-vous utiliser des recherches dans l’annuaire dans l’étendue ?
 
-Les scénarios qui viennent s’en tirer profit sont similaires aux scénarios de stratégie de carnet d’adresses. Par exemple, vous pouvez utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
+Les scénarios qui viennent s’en tirer profit sont similaires aux scénarios de stratégies de carnet d’adresses. Par exemple, vous pouvez utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
 
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants. 

@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Vous pouvez configurer la façon dont vos utilisateurs se connectent à Skype Entreprise Online à l’aide de l’application Skype Entreprise sur les appareils mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels téléphoniques sur leur téléphone mobile en utilisant leur numéro de téléphone à la place de leur numéro de téléphone mobile. Des stratégies de mobilité peuvent également être utilisées pour exiger Wi-Fi connexions lorsque vous recevez ou recevez des appels.
-ms.openlocfilehash: 5094a536a636300ea70a7d358e24ee5c0f511379
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: Vous pouvez configurer la façon dont vos utilisateurs se connectent à Skype Entreprise Online à l’aide de l’application Skype Entreprise sur les appareils mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels téléphoniques sur leur téléphone mobile en utilisant leur numéro de téléphone à la place de leur numéro de téléphone mobile. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
+ms.openlocfilehash: 36162c64490edf58bbfac5c7022bebf6f39595ca
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814743"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569196"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
-Vous pouvez configurer la façon dont vos utilisateurs se connectent à Skype Entreprise Online à l’aide de l’application Skype Entreprise sur les appareils mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels téléphoniques sur leur téléphone mobile en utilisant leur numéro de téléphone à la place de leur numéro de téléphone mobile. Des stratégies de mobilité peuvent également être utilisées pour exiger Wi-Fi connexions lorsque vous recevez ou recevez des appels.
+Vous pouvez configurer la façon dont vos utilisateurs se connectent à Skype Entreprise Online à l’aide de l’application Skype Entreprise sur les appareils mobiles, comme une fonctionnalité qui permet aux utilisateurs d’effectuer et de recevoir des appels téléphoniques sur leur téléphone mobile en utilisant leur numéro de téléphone à la place de leur numéro de téléphone mobile. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
   
 Les paramètres de stratégie mobile peuvent être configurés lors de la création d’une stratégie, ou vous pouvez utiliser l’cmdlet **Set-CsMobilityPolicy** pour modifier les paramètres d’une stratégie existante.
   
@@ -37,40 +37,23 @@ Les paramètres de stratégie mobile peuvent être configurés lors de la créat
 > [!NOTE]
 > Pour tous les paramètres de stratégie mobile dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et le Centre **d’administration** **Skype Entreprise.** 
   
-### <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
+### <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
-- **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
+> [!NOTE]
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+1. Installez le [module Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-    1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
-        
-    2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
-        
-    3. Si vous n’avez pas la version 3.0 ou une version supérieure, vous devez télécharger et installer les mises à jour Windows PowerShell. Voir [Windows Management Framework 4.0 pour](https://go.microsoft.com/fwlink/?LinkId=716845) télécharger et mettre à jour Windows PowerShell vers la version 4.0. Redémarrez votre ordinateur lorsque vous y êtes invité.
-        
-    4. Vous devrez également installer le module Windows PowerShell teams qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online.
-    
-    Pour en savoir plus, consultez Se connecter à tous les [services Microsoft 365 ou Office 365](https://technet.microsoft.com/library/dn568015.aspx)dans une Windows PowerShell unique.
-    
-- **Démarrez une session Windows PowerShell**
-    
-    1. From the **Start Menu** > **Windows PowerShell**.
-        
-    2. Dans la **Windows PowerShell,** connectez-vous à votre Microsoft 365 ou Office 365 en exécutant :
-        
-       > [!NOTE]
-       > Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
-       >
-       > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
-       ```PowerShell      
-        Import-Module -Name MicrosoftTeams
-        $credential = Get-Credential
-        $session = New-CsOnlineSession -Credential $credential
-        Import-PSSession $session
-       ```
+   ```powershell
+   # When using Teams PowerShell Module
 
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
    Pour plus d’informations sur le démarrage d’Windows PowerShell, voir Se connecter à tous les [services Microsoft 365 ou Office 365](https://technet.microsoft.com/library/dn568015.aspx) dans une seule fenêtre Windows PowerShell ou Configurer votre ordinateur pour une [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
-
+   
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Exiger d'un utilisateur une connexion Wi-Fi pour les vidéos
 
 - Pour créer une stratégie pour ces paramètres, exécutez :
@@ -141,7 +124,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

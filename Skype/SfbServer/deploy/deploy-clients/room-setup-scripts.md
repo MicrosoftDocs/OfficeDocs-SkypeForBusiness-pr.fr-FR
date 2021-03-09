@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Consultez cette rubrique pour trouver des exemples de scripts pour la mise en service des comptes Skype Room System.
-ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820824"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569366"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuration de salle Skype Room System
  
 Consultez cette rubrique pour trouver des exemples de scripts pour la mise en service des comptes Skype Room System.
   
-Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service des comptes Skype Room System. Ces scripts sont uniquement à titre d’illustration et ne doivent être utilisés qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
+Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service des comptes Skype Room System. Ces scripts sont uniquement à titre d’illustration. Elles ne doivent être utilisées qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Exemple de script d’installation : Skype Entreprise et Exchange Server (local)
 
@@ -47,7 +47,7 @@ Assurez-vous que vous avez passé en revue les conditions préalables suivantes 
     
 - Windows Azure Module Active Directory pour Windows PowerShell (version 64 bits) ou (version 32 bits)
     
-- Windows PowerShell module pour Lync Online
+- Teams PowerShell Module
     
 - Redémarrer si nécessaire
     
@@ -59,9 +59,9 @@ $rmURI="$rm@$org"$newpass='MyPass@word1'# This Section Signs into Remote PowerSh
 $cred=Get-Credential admin@$org
 $sess=New-PSSession -ConfigurationName microsoft.exchange -Credential $cred -AllowRedirection -Authentication basic -ConnectionUri https://ps.outlook.com/powershell
 Import-PSSession $sess
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
@@ -74,5 +74,4 @@ Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registra
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
-
 

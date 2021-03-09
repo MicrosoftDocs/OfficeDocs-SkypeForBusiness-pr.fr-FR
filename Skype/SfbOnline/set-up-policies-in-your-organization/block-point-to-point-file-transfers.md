@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Dans Skype Entreprise Online, vous pouvez contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet ou bloque les transferts de fichiers pour les utilisateurs, qu’ils transférent ou non des fichiers à un utilisateur de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
-ms.openlocfilehash: 150fb02daa1dcd7486a5bb495c7fd74f8d4736a1
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 75e7149d73b8693cf5acdeb08365965956da6ca0
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814633"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569100"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
@@ -38,7 +38,7 @@ Dans Skype Entreprise Online, vous pouvez contrôler les transferts de fichiers 
     
 Pour en savoir plus sur ces paramètres, [cliquez ici.](https://technet.microsoft.com/library/mt228132.aspx)
   
-Si un utilisateur fédéré en dehors de votre organisation tente d’envoyer un fichier à un utilisateur pour lequel la stratégie a été appliquée, il reçoit un message d’erreur « Échec **du** transfert ». Et si un utilisateur tente d’envoyer un fichier, il reçoit une erreur de transfert de fichier **désactivée.**
+Si un utilisateur fédéré extérieur à votre organisation tente d’envoyer un fichier à un utilisateur pour lequel la stratégie a été appliquée, il reçoit un message d’erreur « Échec **du** transfert ». Si un utilisateur tente d’envoyer un fichier, il reçoit une erreur **de transfert de** fichier désactivée.
   
 Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une application Skype Entreprise « Exécuter en un clic » 2016 qui la prend en charge. La version minimale suivante du client Skype Entreprise 2016 « Click-to-Run ) est requise :
   
@@ -51,38 +51,22 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une
 > [!CAUTION]
 > Les utilisateurs qui utilisent des versions antérieures des applications Windows skype Entreprise ou des clients Mac pourront toujours transférer des fichiers. 
   
-## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
+## <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
-- **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
+> [!NOTE]
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+1. Installez le [module Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-    1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
-        
-    2. Vérifiez la version en tapant _Get-Host_ dans la **Windows PowerShell’accueil.**
-        
-    3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Voir [Windows Management Framework 4.0 pour](https://go.microsoft.com/fwlink/?LinkId=716845) télécharger et mettre à jour Windows PowerShell vers la version 4.0. Redémarrez votre ordinateur lorsque vous y êtes invité.
-        
-    4. Vous devrez également installer le module Windows PowerShell teams qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. 
-    
-    Pour en savoir plus, consultez Se connecter à tous les [services Microsoft 365 ou Office 365](https://technet.microsoft.com/library/dn568015.aspx)dans une Windows PowerShell unique.
-    
-- **Démarrez une session Windows PowerShell**
-    
-    1. From the **Start Menu** > **Windows PowerShell**.
-        
-    2. Dans la **Windows PowerShell,** connectez-vous à votre Microsoft 365 ou Office 365 en exécutant :
-    
-        > [!NOTE]
-        > Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
-        >
-        > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
-       ```PowerShell      
-        Import-Module -Name MicrosoftTeams
-        $credential = Get-Credential
-        $session = New-CsOnlineSession -Credential $credential
-        Import-PSSession $session
-       ```
+    ```powershell
+   # When using Teams PowerShell Module
 
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   
    Pour plus d’informations sur le démarrage d’Windows PowerShell, voir Se connecter à tous les [services Microsoft 365 ou Office 365](https://technet.microsoft.com/library/dn568015.aspx) dans une seule fenêtre Windows PowerShell ou Configurer votre ordinateur pour une [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Désactiver les transferts de fichiers P2P pour votre organisation
@@ -123,7 +107,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

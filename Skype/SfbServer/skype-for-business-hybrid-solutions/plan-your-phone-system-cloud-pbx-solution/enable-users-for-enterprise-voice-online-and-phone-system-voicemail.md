@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer les services vocaux du système téléphonique pour vos utilisateurs Skype Entreprise.
-ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: bbcf8b35d91015067943eec2cbe43525e952a7f7
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625110"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569356"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Activation des utilisateurs pour la version en ligne de Voix Entreprise et de la messagerie vocale du Système téléphonique
  
 > [!Important]
-> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide [du routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
 
 Découvrez comment activer les services vocaux du système téléphonique pour vos utilisateurs Skype Entreprise.
   
@@ -37,7 +37,7 @@ La dernière étape du déploiement du système téléphonique avec connectivit�
   
 ## <a name="enable-phone-system-voice-services"></a>Activer les services vocaux du système téléphonique
 
-Pour activer un utilisateur pour la messagerie vocale et le système téléphonique, vous devez effectuer certaines étapes initiales, comme vérifier si le connecteur Skype Entreprise Online est déployé sur vos serveurs et activer vos utilisateurs pour la messagerie vocale hébergée.
+Pour activer un utilisateur pour la voix et la messagerie vocale du système téléphonique, vous devez effectuer certaines étapes initiales, comme vérifier si le connecteur Skype Entreprise Online est déployé sur vos serveurs et activer vos utilisateurs pour la messagerie vocale hébergée.
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Pour activer vos utilisateurs pour la messagerie vocale et la messagerie vocale du système téléphonique
 
@@ -51,35 +51,16 @@ Pour activer un utilisateur pour la messagerie vocale et le système téléphoni
     
 3. Tapez ce qui suit et appuyez sur Entrée :
     
-   ```powershell
+ ```powershell
+  # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
-4. Tapez ce qui suit et appuyez sur Entrée :
-    
-   ```powershell
-   $cred = Get-Credential
-   ```
-
-    Une fois que vous avez appuyez sur Entrée, vous devez voir la boîte Windows PowerShell Informations d’identification.
-    
-5. Tapez votre nom d’utilisateur et votre mot de passe d’administrateur client, puis cliquez sur **OK.**
-    
-6. Dans la fenêtre PowerShell, tapez ce qui suit et appuyez sur Entrée :
-    
-   ```powershell
-   $Session = New-CsOnlineSession -Credential $cred -Verbose
-   ```
-
-7. Importez la session en tapant l’cmdlet suivante :
-    
-   ```powershell
-   Import-PSSession $Session -AllowClobber
-   ```
-
-    Lorsque vous exécutez PowerShell sur un serveur Skype Entreprise, les cmdlets Skype Entreprise locales sont déjà chargées lorsque vous ouvrez PowerShell. Vous devez spécifier le paramètre -AllowClo parameter pour autoriser les cmdlets en ligne à overwrite les cmdlets sur site avec le même nom.
-    
-8. Utilisez la cmdlet Set-CsUser pour affecter les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
+  
+4. Utilisez la cmdlet Set-CsUser pour affecter les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -140,7 +121,7 @@ Vous pouvez affecter des plans de numérotation par utilisateur Windows PowerShe
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>Pour désattribuer un plan de numérotation par utilisateur
 
-- Utilisez [l’cmdlet Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour supprimer l’affectation d’un plan de numérotation par utilisateur précédemment affecté à Ken Myer. Une fois que le plan de numérotation par utilisateur n’est plus attribué, Ken Myer est automatiquement géré à l’aide du plan de numérotation global ou du plan de numérotation d’étendue service affecté à son bureau d’enregistrement ou à sa passerelle PSTN. Un plan de numérotation d’étendue service est prioritaire sur le plan de numérotation global :
+- Utilisez [l’cmdlet Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour supprimer l’affectation d’un plan de numérotation par utilisateur précédemment affecté à Ken Myer. Une fois le plan de numérotation par utilisateur non attribué, Ken Myer est automatiquement géré à l’aide du plan de numérotation global ou du plan de numérotation d’étendue service affecté à son bureau d’enregistrement ou à sa passerelle PSTN. Un plan de numérotation d’étendue service est prioritaire sur le plan de numérotation global :
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -157,7 +138,7 @@ Une stratégie de routage des voix doit être attribuée aux utilisateurs du sys
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Pour affecter une stratégie de routage des voix par utilisateur à un seul utilisateur
 
-- Utilisez [l’cmdlet Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage des voix par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer :
+- Utilisez l’cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage des voix par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer :
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"

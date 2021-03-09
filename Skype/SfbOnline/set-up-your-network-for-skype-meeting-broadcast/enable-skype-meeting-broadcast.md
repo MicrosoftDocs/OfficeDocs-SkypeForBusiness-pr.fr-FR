@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Pour que les membres de votre organisation peuvent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas l’Windows PowerShell, envisagez de faire appel à un partenaire Microsoft pour faire cette étape pour vous.
-ms.openlocfilehash: 1ba8f11913c932d695806ae4fd30db5e8609530f
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+description: Pour que les membres de votre organisation peuvent utiliser la diffusion de réunion Skype, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un partenaire Microsoft pour effectuer cette étape pour vous.
+ms.openlocfilehash: fed56c850d1d909bdd72bda0eb8c1dcd24df0f10
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865138"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568890"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Activer une diffusion de réunion Skype
 
@@ -51,27 +51,18 @@ Pour que les membres de votre organisation peuvent utiliser la diffusion de réu
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Activer la diffusion de réunion Skype avec PowerShell
 
-1. Vérifiez que vous exécutez la version 3.0 ou supérieure de Windows PowerShell.
+1. Installez le [module Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-2. Pour vérifier que vous exécutez la version 3.0 ou supérieure : cliquez sur **Démarrer** > **Windows PowerShell**.
-    
-3. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
-    
-4. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Voir [Windows Management Framework 4.0 pour](https://go.microsoft.com/fwlink/?LinkId=716845) télécharger et mettre à jour Windows PowerShell vers la version 4.0. Redémarrez votre ordinateur lorsque vous y êtes invité.
-    
-5. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
-    
-6. Dans le **menu Démarrer,** sélectionnez **Windows PowerShell.**
-    
-7. Dans la **Windows PowerShell,** connectez-vous à votre Microsoft 365 ou Office 365 en exécutant :
-    
-   ```PowerShell
-   $Credential = get-credential
-   $O365Session = New-CsOnlineSession -Credential $credential
-   Import-PSSession $O365Session
-   ```
+2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
-8. Confirmez votre configuration Diffusion de réunion Skype actuelle en exécutant :
+   ```powershell
+   # When using Teams PowerShell Module
+   
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
+3. Confirmez votre configuration Diffusion de réunion Skype actuelle en exécutant :
     
    ```PowerShell
    Get-CsBroadcastMeetingConfiguration
@@ -104,7 +95,7 @@ Si vous n'avez pas l'habitude de configurer votre pare-feu, envisagez de demande
   
 Pour ignorer cette étape et ajouter une autre entreprise à votre fédération, consultez [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

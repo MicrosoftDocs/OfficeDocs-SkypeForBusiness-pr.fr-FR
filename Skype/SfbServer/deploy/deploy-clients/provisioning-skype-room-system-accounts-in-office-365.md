@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lisez cette rubrique pour en savoir plus sur la mise en service de comptes Skype Room System dans Microsoft 365 ou Office 365.
-ms.openlocfilehash: 115dd83751e0da837d9d88351d57a769b7e313da
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820844"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569376"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Mise en service de comptes Skype Room System dans Microsoft 365 et Office 365
  
@@ -49,7 +49,7 @@ Pour le compte Skype Room, les licences suivantes sont requises :
     
 - Pour activer la salle avec la fonctionnalité Voix Entreprise afin que la salle puisse être activée avec un numéro de téléphone, un plan Skype Entreprise Online 2 avec licence de système téléphonique ou Office 365 E5 est requis (1).
     
-- Si vous avez besoin de fonctionnalités de numérotation à partir d’une réunion, vous aurez besoin d’une audioconférence et d’une licence de système téléphonique.  Si vous avez besoin de fonctionnalités d’appel sortant à partir d’une réunion, vous aurez besoin d’un forfait d’appels national ou national et international. 
+- Si vous avez besoin de fonctionnalités de numérotation à partir d’une réunion, vous aurez besoin d’une licence de système téléphonique et d’audioconférence.  Si vous avez besoin de fonctionnalités d’appel sortant à partir d’une réunion, vous aurez besoin d’un forfait d’appels national ou national et international. 
     
 - Une licence Exchange Online n’est pas requise pour le compte Skype Room, car le compte doit être configuré en tant que compte de boîte aux lettres de ressources.
     
@@ -99,15 +99,17 @@ Après avoir attribué une licence pour Skype Entreprise Online, vous pourrez vo
   
 ## <a name="skype-for-business-online-provisioning"></a>Mise en service de Skype Entreprise Online
 
-Une fois qu’un compte de boîte aux lettres de salle de ressources a été créé et activé comme indiqué précédemment, et que vous avez sous licence le compte pour Skype Entreprise Online, le compte sera synchronisé à partir de la forêt Exchange Online avec la forêt Skype Entreprise Online à l’aide de la forêt Active Directory Windows Azure. Les étapes suivantes sont nécessaires pour mettre en service le compte Skype Room System dans le pool Skype Entreprise Online. Ces étapes sont les mêmes pour un compte de boîte aux lettres de ressources existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’ils sont activés dans Exchange Online, ces deux comptes seront synchronisés avec Skype Entreprise Online de la même manière :
+Une fois qu’un compte de boîte aux lettres de salle de ressources a été créé et activé comme indiqué précédemment, et que vous avez sous licence le compte pour Skype Entreprise Online, le compte sera synchronisé à partir de la forêt Exchange Online avec la forêt Skype Entreprise Online à l’aide de la forêt Active Directory Windows Azure. Les étapes suivantes sont nécessaires pour mettre en service le compte Skype Room System dans le pool Skype Entreprise Online. Ces étapes sont les mêmes pour un compte de boîte aux lettres de ressources existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’ils sont activés dans Exchange Online, ces deux comptes sont synchronisés avec Skype Entreprise Online de la même manière :
   
-1. Créez une session PowerShell distante. Notez que vous devrez télécharger le module Connecteur Skype Entreprise Online et l’Assistant Microsoft Online Services Sign-In et vous assurer que votre ordinateur est configuré. Pour plus d’informations, voir [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. Créez une session PowerShell distante. Notez que vous devrez télécharger le [module PowerShell Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
-   ```powershell
-   Import-Module LyncOnlineConnector
-   $cssess=New-CsOnlineSession -Credential $cred
-   Import-PSSession $cssess -AllowClobber
-   ```
+  ```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+  ```
 
 2. Pour activer un compte Skype Room System pour Skype Entreprise, exécutez la commande suivante :
     
@@ -115,7 +117,7 @@ Une fois qu’un compte de boîte aux lettres de salle de ressources a été cr�
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    Vous pouvez obtenir l’adresse RegistrarPool dans laquelle vos utilisateurs Skype Entreprise sont homed à partir de l’un de vos comptes existants à l’aide de la commande suivante pour retourner cette propriété :
+    Vous pouvez obtenir l’adresse RegistrarPool dans laquelle vos utilisateurs Skype Entreprise sont élevés à partir de l’un de vos comptes existants à l’aide de la commande suivante pour retourner cette propriété :
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
