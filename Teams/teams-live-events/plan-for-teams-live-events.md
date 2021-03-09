@@ -21,12 +21,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74407a37b6eaf6eb93a53491640daad7b74c16a6
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460524"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569236"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -166,20 +166,20 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 
 - Australie
 - Canada
+- Allemagne
+- France
 - Inde
 - Japon
+- Afrique du Sud
+- Corée du Sud
+- Suisse
+- UAE
 - Royaume-Uni
 
 **Ces pays/régions et cloud ne sont pas pris en charge**
 
 - Brésil
-- Allemagne
-- France
 - Norvège
-- Afrique du Sud
-- Corée du Sud
-- Suisse
-- UAE
 - Government Community Cloud (GCC)-H
 - DOD
 
