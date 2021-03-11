@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
-ms.translationtype: MT
+ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903565"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711761"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -39,9 +39,9 @@ Avec l'association de façon anonyme, tout le monde peut participer à la réuni
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-Vous devez être un administrateur du service Teams pour apporter ces modifications. Pour en [savoir plus sur l’obtention](https://docs.microsoft.com/microsoftteams/using-admin-roles) de rôles et d’autorisations d’administrateur, voir Utiliser les rôles d’administrateur Teams pour gérer Teams.
+Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Allez au Centre d’administration.
+1. Accédez au centre d’administration.
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
@@ -54,23 +54,23 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Autoriser les utilisateurs anonymes à interagir avec les applications dans les réunions
 
-Les utilisateurs anonymes héritent désormais de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ce contrôle permet ensuite aux utilisateurs anonymes d’interagir avec les applications dans les réunions Teams tant que la stratégie d’autorisation au niveau utilisateur a activé l’application. Notez que les utilisateurs anonymes ne peuvent interagir qu’avec des applications déjà disponibles lors d’une réunion et ne peuvent pas acquérir et/ou gérer ces applications. 
+Les utilisateurs anonymes héritent désormais de la stratégie d’autorisation globale par défaut de niveau utilisateur. Ce contrôle permet ensuite aux utilisateurs anonymes d’interagir avec des applications dans les réunions Teams tant que la stratégie d’autorisation au niveau utilisateur permet l’application. Notez que les utilisateurs anonymes peuvent interagir uniquement avec des applications déjà disponibles lors d’une réunion et qu’ils ne peuvent pas les acquérir ni les gérer. 
 
 > [!IMPORTANT]
-> Par défaut, le paramètre permettant aux utilisateurs anonymes d’interagir avec les applications pendant les réunions est activé.
+> Par défaut, le paramètre permettant aux utilisateurs anonymes d’interagir avec les applications dans les réunions est activé.
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-Vous devez être un administrateur de service Teams pour accéder à ce paramètre. Pour en [savoir plus sur l’obtention](https://docs.microsoft.com/microsoftteams/using-admin-roles) de rôles et d’autorisations d’administrateur, voir Utiliser les rôles d’administrateur Teams pour gérer Teams.
+Vous devez être administrateur du service Teams pour accéder à ce paramètre. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Allez au Centre d’administration.
+1. Accédez au centre d’administration.
 
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 
-3. Sous **Participants,** le paramètre qui permet aux utilisateurs **anonymes** d’interagir avec les applications dans les réunions peut être modifié.
+3. Sous **Participants**, le paramètre **Les utilisateurs anonymes peut interagir avec les applications dans les réunions** peut être modifié.
 
 > [!CAUTION]
-> Si vous ne souhaitez pas que les utilisateurs anonymes interagissent avec les applications dans les réunions prévues par les utilisateurs de votre organisation, désactiver ce paramètre.
+> Si vous ne voulez pas que les utilisateurs anonymes interagissent avec les applications dans les réunions programmées par les utilisateurs de votre organisation, désactiver ce paramètre.
 
 ## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -88,7 +88,7 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Allez au Centre d’administration.
+1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Invitation par e-mail**, procédez comme suit :
 
@@ -106,13 +106,13 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 <a name="bknetwork"> </a>
 
-Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic réseau, vous pouvez activer les marqueurs de qualité de service et définir des plages de ports pour chaque type de trafic multimédia. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
+Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser le trafic réseau, vous pouvez activer les marqueurs QoS et définir des plages de ports pour chaque type de trafic média. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
-> Si vous activez la QoS ou modifiez les paramètres dans le Centre d’administration Microsoft Teams pour le service Teams, vous devrez également appliquer des [paramètres correspondants](QoS-in-Teams-clients.md) à tous les appareils des utilisateurs et à tous les périphériques de réseau interne pour implémenter complètement les modifications apportées à QoS dans Teams.
+> Si vous activez la Qualité de service (QoS) ou si vous modifiez les paramètres dans le centre d’administration Microsoft Teams pour le service Teams, vous devez également [appliquer les paramètres correspondants à tous les appareils d’utilisateurs](QoS-in-Teams-clients.md) et tous les appareils de réseau interne afin d’implémenter totalement les modifications apportées à QoS dans Teams.
 
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
-1. Allez au Centre d’administration.
+1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Réseau**, procédez comme suit :
 
@@ -120,10 +120,10 @@ Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic rése
 
     - Pour autoriser l’utilisation de la fonctionnalité de marquage DSCP pour la qualité de service (QoS), activez **Insérer des marqueurs de Qualité de service (QoS) pour le trafic média en temps réel**. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
-        > Le balisage DSCP est généralement effectué via les ports sources et le trafic UDP routera vers le relais de transport avec le port de destination 3478 par défaut. Si votre société requiert un marquage sur les ports de destination, contactez le support technique pour activer la communication au relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
+        > Le balisage DSCP est généralement effectué via les ports source et le trafic UDP acheminera vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise exige un marquage sur les ports de destination, contactez le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
     - Pour spécifier des plages de ports, près de **Sélectionner une plage de port par type de trafic média en temps réel**, sélectionnez **Spécifiez les plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est nécessaire pour implémenter QoS. 
         > [!Note]
-        > Si les marqueurs de qualité de **service (QoS)** pour le trafic multimédia en temps réel sont en cours, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
+        > Si **Marqueurs de qualité de service (QoS) pour le trafic multimédia en temps réel** est activé, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
         
         > [!IMPORTANT]
         > Si vous sélectionnez **Utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque la Qualité de service n’est pas mise en œuvre.
@@ -141,6 +141,6 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 |Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18        |Transfert garanti (AF21)|
 | | | | |
 
-\* Les plages de ports que vous affectez ne peuvent pas se chevaucher et doivent être adjacentes.
+\* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.
 
 Une fois que vous utilisez QoS depuis un certain temps, vous disposez d’informations sur la demande de chacune de ces trois charges de travail, et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [Tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) est utile avec cette fonctionnalité.

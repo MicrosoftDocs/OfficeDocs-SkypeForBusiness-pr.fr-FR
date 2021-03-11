@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: a584812b32d99796259bde56838f0193c54b8fac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812094"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711731"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribué : créer un nouveau ou modifier un numéro existant
 
@@ -44,7 +44,7 @@ La liste suivante décrit les champs de la page.
 
   - Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.
 
-  - Le numéro doit correspondre à l’expression régulière (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Cela signifie que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
+  - Le nombre doit correspondre à l’expression régulière ( `tel:` )?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Cela signifie que le nombre peut commencer par la chaîne « tel: ». Si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous, par exemple un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
 
 - **Service d’annonce** Sélectionnez **Annonce** pour que l’application Annonce gère l’appel entrant ou la um **Exchange** pour qu’une Standard automatique exchange gère l’appel entrant.
 
@@ -52,7 +52,7 @@ La liste suivante décrit les champs de la page.
 
   - **FQDN du serveur de destination** Sélectionnez l’ID de service du service d’application qui exécute l’application d’annonce qui gérera les appels entrants vers cette plage de numéros non assignés.
 
-  - **Annonce** Sélectionnez l’annonce à lire pour cette plage de numéros non assignés.
+  - **Annonce** Sélectionnez l’annonce à lire pour cette plage de numéros non signés.
 
 - Si vous avez sélectionné **Messagerie unifiée Exchange** comme **Service d’annonce** :
 

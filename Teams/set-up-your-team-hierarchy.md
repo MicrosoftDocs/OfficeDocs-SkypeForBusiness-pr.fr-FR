@@ -1,5 +1,5 @@
 ---
-title: Configurer votre hiérarchie de ciblage d’équipe
+title: Configurer la hiérarchie de ciblage de votre équipe
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868339"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615040"
 ---
-# <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage d’équipe
+# <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
-La configuration d’une hiérarchie de ciblage d’équipe permet à votre organisation de publier du contenu sur un ensemble important d’équipes. La hiérarchie de ciblage d’équipe définit la relation entre les équipes dans votre hiérarchie, sur lesquelles les utilisateurs peuvent publier des tâches et sur les équipes sur lesquelles les utilisateurs sont autorisés à publier des données. Les fonctionnalités de publication sont désactivées pour tous les utilisateurs, sauf si une hiérarchie de ciblage d’équipe est définie pour votre organisation. Pour configurer une hiérarchie de ciblage d’équipe, vous devez créer un fichier qui définit la hiérarchie, puis charger celle-ci dans Teams pour l’appliquer à votre organisation. Une fois le schéma téléchargé, les applications de Teams peuvent l’utiliser.
+La configuration d’une hiérarchie de ciblage d’équipe permet à votre organisation de publier du contenu sur un ensemble important d’équipes. La hiérarchie de ciblage d’équipe définit la relation entre les équipes dans votre hiérarchie, sur lesquelles les utilisateurs peuvent publier des tâches et sur les équipes sur lesquelles les utilisateurs sont autorisés à publier des données. Les fonctionnalités de publication sont désactivées pour tous les utilisateurs, sauf si une hiérarchie de ciblage d’équipe est définie pour votre organisation. Pour configurer une hiérarchie de ciblage d’équipe, vous devez créer un fichier qui définit la hiérarchie et la télécharger dans Teams pour l’appliquer à votre organisation. Une fois le schéma téléchargé, les applications de Teams peuvent l’utiliser.
 
 > [!IMPORTANT]
 > Pour la version initiale, seule l’application Tâches prend en charge les équipes hiérarchiques.  L’application d’une hiérarchie de ciblage d’équipe à votre organisation activera [la publication](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) des tâches dans l’application Tâches. Vous ne verrez pas de hiérarchie d’équipes dans d’autres parties de Microsoft Teams.
@@ -49,7 +49,7 @@ Avant de créer le schéma qui définit votre hiérarchie, vous devez planifier 
 
 ### <a name="permissions-to-publish"></a>Autorisations de publication
 
-L’autorisation de publication varie selon qu’un utilisateur est membre d’une équipe de la hiérarchie ainsi que de la relation qui existe entre cette équipe ou un ensemble d’équipes avec d’autres équipes de la hiérarchie.
+L’autorisation de publier dépend du fait qu’un utilisateur est membre d’une équipe de la hiérarchie ainsi que de la relation qui existe entre cette équipe ou un ensemble d’équipes avec d’autres équipes de la hiérarchie.
 
 > [!NOTE]
 > Les autorisations de publication sont également octroyées au propriétaire d’une équipe.
@@ -67,14 +67,14 @@ L’autorisation de publication varie selon qu’un utilisateur est membre d’u
 
 ### <a name="example-hierarchy"></a>Exemple de hiérarchie
 
-Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent publier des tâches sur chaque nœud inférieur (équipe) dans la hiérarchie, mais la zone Nord-est peut uniquement publier des tâches dans les équipes du Store de New York et du Store de Store de New York. La hiérarchie exemple permet aux groupes Rappel, Communications et RH de publier des tâches qui s’appliquent à l’ensemble de l’entreprise, telles que des informations sur les avantages ou des messages du PDG. La zone Nord-est peut publier des tâches telles que la planification du personnel, les informations météorologiques, etc., uniquement dans les équipes du Store de New York et du Store de York.
+Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent publier des tâches sur chaque nœud inférieur (équipe) dans la hiérarchie, mais la zone Nord-est peut uniquement publier des tâches dans les équipes du Store de New York et du Store de New York. La hiérarchie exemple permet aux groupes Rappel, Communications et RH de publier des tâches qui s’appliquent à l’ensemble de l’entreprise, telles que des informations sur les avantages ou des messages du PDG. La zone Nord-est peut publier des tâches telles que la planification du personnel, les informations météorologiques, etc., uniquement dans les équipes du Store de New York et du Store de York.
 
 ![Exemple hiérarchique d’équipe](media/team-targeting-schema-example-new.png)
 
 ## <a name="create-your-hierarchy"></a>Créer votre hiérarchie
 
 > [!NOTE]
-> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. [Reportez-vous à l’application](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) Gérer les tâches pour votre organisation dans Teams pour obtenir une vue d’ensemble de l’application Tâches, où la publication des tâches apparaît lorsqu’elle est activée.
+> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. [Reportez-vous à l’application](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) Gérer les tâches pour votre organisation dans Teams pour obtenir une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
 
 Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
 
@@ -91,16 +91,16 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 | TeamId        | Oui, si l’équipe publie des tâches ou reçoit des tâches d’un nœud parent       | Il contient l’ID de l’équipe à qui vous voulez lier un nœud. Chaque nœud doit faire référence à une équipe unique, de sorte que chaque valeur TeamId peut apparaître une seule fois dans le fichier de hiérarchie. Pour obtenir l’ID d’une équipe à qui vous voulez lier un nœud, exécutez la commande PowerShell suivante `Get-Team | Export-Csv TeamList.csv` : Cette commande répertorie les équipes de votre organisation et inclut le nom et l’ID de chaque équipe. Recherchez le nom de l’équipe avec qui vous souhaitez établir un lien, puis copiez l’ID dans ce champ.|
 
 > [!NOTE]
-> Si un nœud n’est pas un nœud racine ou un nœud de feuille et que vous n’avez pas besoin de l’appartenance à l’équipe pour accorder les autorisations correspondantes pour la publication et la rapport, vous pouvez laisser l’TeamId vide. Cette méthode permet d’ajouter de la granularité lors du choix des équipes de destinataires ou de l’affichage des rapports d’achèvement sans avoir d’équipe correspondante.
+> Si un nœud n’est pas un nœud racine ou un nœud de feuille et que vous n’avez pas besoin de l’appartenance à l’équipe pour accorder les autorisations correspondantes pour la publication et la rapport, vous pouvez laisser l’TeamId vide. Vous pouvez utiliser cette méthode pour ajouter de la granularité lors du choix des équipes de destinataires ou pour afficher les rapports d’achèvement sans avoir d’équipe correspondante.
 
 ### <a name="add-attribute-columns"></a>Ajouter des colonnes d’attribut
 
-Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement ceux sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut s’excluent mutuellement.
+Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement celles sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut s’excluent mutuellement.
 
 |Méthodes d’ajout d’attributs|Description |Exemple  |
 |---|---------|---------|
-|Si les valeurs d’un attribut s’excluent mutuellement, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
-|Si vous devez indiquer plusieurs valeurs pour un attribut et que ces valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section dans le menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
+|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut au filtre des magasins par disposition, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
+|Si vous devez indiquer plusieurs valeurs pour un attribut et que les valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
 
 Lorsque vous ajoutez une colonne d’attribut, gardez les éléments suivants à l’esprit :
 
@@ -132,20 +132,20 @@ Voici un exemple de fichier CSV de schéma qui serait créé pour prendre en cha
 `Store layout`L’attribut possède des valeurs qui `Compact` `Standard` comprennent , et `Large` . Les `Departments` colonnes d’attribut peuvent être définies sur une valeur de `0` (zéro) ou `1` . La `Store` disposition et les `Departments` attributs ne sont pas affichés dans l’image ci-dessus. Ils sont ajoutés ici pour vous aider à montrer comment les attributs peuvent être ajoutés aux entrées de nœud. Il en va de même pour les trois colonnes de compartiment.
 
 ```CSV
-"TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear"
-"Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,"
-"Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,"
-"HR,,,,,,,,,,"
-"East Regional Office,,,,,,,,,,"
-"West Regional Office,,,,,,,,,,"
-"Northeast Zone,East Regional Office,,,,,,,,"
-"Southeast Zone,East Regional Office,,,,,,,,"
-"New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,"
-"Boston Store,Northeast Zone,0454f08a-0507-437c-969a-682eb2fae7fc,Standard,1,1,,,"
-"Miami Store,Southeast Zone,619d6e4e-5f68-4b36-8e1f-16c98d7396c1,Compact,0,1,,,"
-"New Orleans Store,Southeast Zone,6be960b8-72af-4561-a343-9ac4711874eb,Compact,0,1,,,"
-"Seattle Store,West Regional Zone,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,"
-"Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,"
+TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
+Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,
+Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,
+HR,,,,,,,,
+East Regional Office,,,,,,,,
+West Regional Office,,,,,,,,
+Northeast Zone,East Regional Office,,,,,,,
+Southeast Zone,East Regional Office,,,,,,,
+New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,
+Boston Store,Northeast Zone,0454f08a-0507-437c-969a-682eb2fae7fc,Standard,1,1,,,
+Miami Store,Southeast Zone,619d6e4e-5f68-4b36-8e1f-16c98d7396c1,Compact,0,1,,,
+New Orleans Store,Southeast Zone,6be960b8-72af-4561-a343-9ac4711874eb,Compact,0,1,,,
+Seattle Store,West Regional Zone,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,
+Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,
 ```
 
 ## <a name="apply-your-hierarchy"></a>Appliquer votre hiérarchie
@@ -173,7 +173,7 @@ La commande retourne les champs suivants :
 Champ|Description
 -----|------------
 ID | ID unique pour le téléchargement.
-Statut | Statut de téléchargement. Les valeurs **sont Démarrage,** **Validation,** **Réussite** et **Échec**
+État | Statut de téléchargement. Les valeurs **sont Démarrage,** **Validation,** **Réussite** et **Échec**
 ErrorDetails | Détails en cas d’erreur de téléchargement. Pour plus d’informations sur les détails des erreurs, voir la section de dépannage. S’il n’y a pas d’erreur, ce champ est vide.
 LastUpdatedAt | Date et heure de la dernière mise à jour du fichier.
 LastModifiedBy | ID du dernier utilisateur qui a modifié le fichier.

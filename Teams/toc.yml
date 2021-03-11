@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Modèles Teams de la catégorie fabrication
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Gérer les stratégies de modèles de Teams
+            href: templates-policies.md
       - name: Communiquer avec des utilisateurs externes
         items:
           - name: Communiquer avec des utilisateurs d’autres organisations
@@ -547,6 +549,12 @@ items:
         items:
           - name: Vue d’ensemble
             href: rooms/index.md
+          - name: Service géré de salles Microsoft Teams
+            items:
+              - name: Gestion du plan
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Contrôle d'accès basé sur les rôles
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Planification
             items:
               - name: Présentation de la planification des Salles Microsoft Teams
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Planifier la gestion avec Azure Monitor
                 href: rooms/azure-monitor-plan.md
-              - name: Service géré de salles Microsoft Teams
-                items:
-                  - name: Planifier la gestion avec le service géré de salles Microsoft Teams
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: Contrôle d’accès en fonction du rôle avec le service géré de salles Microsoft Teams
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Déployer
             items:
               - name: Vue d’ensemble du déploiement
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: Gérer l’application Tâches
             href: manage-tasks-app.md
+          - name: Gérer l'application Approbations
+            href: approval-admin.md
           - name: Shifts pour Teams
             items:
               - name: Shifts pour Teams
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: Solutions et appareils de salle de réunion
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Téléphones IP certifiés pour Microsoft Teams
+          - name: Appareils certifiés Teams
             href: devices/teams-ip-phones.md
           - name: "Téléphones pour Skype\_Entreprise\_Online"
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégies dans Microsoft Teams pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 395b0f2c05278224bf024c1cf3e453a2f51bd725
-ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
+ms.openlocfilehash: 07e2712db52d79e8db66789fe062c8ab46854e5b
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50085182"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50585682"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft Teams
 
@@ -74,9 +74,9 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
 
 > [!NOTE]
-> Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Vérifiez donc à nouveau si vous avez besoin des informations les plus à jour.  
+> Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Consultez à nouveau les informations les plus à jour.  
 
-Chaque stratégie individuelle est associée au nom du package de stratégies, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
+Le nom du package de stratégies est donné à chaque stratégie individuelle, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
 
 ![Capture d’écran du package de stratégie Éducation (enseignant)](media/policy-packages-education_teacher.png)
@@ -122,11 +122,11 @@ Voici comment afficher, attribuer et personnaliser des packages de stratégie da
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personnaliser les stratégies dans un package de stratégie
 
-Vous pouvez modifier les paramètres d’une stratégie via la page **packages** de stratégie ou en vous rendre directement sur la page stratégie dans le Centre d’administration Microsoft Teams.
+Vous pouvez modifier les paramètres d’une stratégie via la page **Packages** de stratégie ou en vous rendre directement sur la page stratégie dans le Centre d’administration Microsoft Teams.
 
 1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, faites l’une des choses suivantes :
     - Cliquez **sur Packages de stratégie,** puis sélectionnez le package de stratégie en cliquant à gauche du nom du package.
-    - Cliquez sur le type de stratégie.  Par exemple, cliquez sur **Stratégies de messagerie.**
+    - Cliquez sur le type de stratégie.  Par exemple, cliquez **sur Stratégies de messagerie.**
 2. Sélectionnez la stratégie à modifier. Les stratégies liées à un package de stratégies ont le même nom que le package de stratégies.
 3. A apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -146,8 +146,6 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **packages**
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer.**
 
 #### <a name="assign-a-policy-package-to-a-group"></a>Attribuer le package stratégie à un groupe
-
-**Cette fonctionnalité est en mode privé (préversion)**
 
 Attribution de package de stratégie aux groupes vous permet d’attribuer plusieurs stratégies à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence. Cette méthode est recommandée pour les groupes disposant jusqu’à 50 000 utilisateurs, mais aussi pour les groupes de plus grande taille.
 

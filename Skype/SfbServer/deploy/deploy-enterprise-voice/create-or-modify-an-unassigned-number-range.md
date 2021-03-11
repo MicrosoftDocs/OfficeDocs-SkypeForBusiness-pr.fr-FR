@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créez, modifiez ou supprimez des plages de numéros non signés pour l’application Annonce dans Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
-ms.openlocfilehash: 180db35a5ea7c2c55dcdbbdcb3be70f868149d88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837084"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711631"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Création ou modification d’une plage de numéros non signés dans Skype Entreprise Server
  
@@ -64,7 +64,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
     
    - Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.
     
-   - Le numéro doit correspondre à l’expression régulière (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Cela signifie que le numéro peut commencer par la chaîne tel : (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
+   - Le nombre doit correspondre à l’expression régulière `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Cela signifie que le numéro peut commencer par la chaîne (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à `tel:` 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
     
 6. Dans **Service d’annonce**, effectuez l’une des opérations suivantes : 
     

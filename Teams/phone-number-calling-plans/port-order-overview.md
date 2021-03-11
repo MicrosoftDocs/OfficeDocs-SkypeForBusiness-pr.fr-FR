@@ -18,16 +18,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de transfert et de la manière de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: 4f1f8ca843db8c2b27eaa467b0014befe6f2b519
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d7ca4769dcd1f320a7d0b8a8ed18fdba5b06abbd
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802504"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615050"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
-Si vous êtes opérateur ou fournisseur de services téléphoniques et que vous disposezdéjà de numéros de téléphone pour vos utilisateurs ou services, vous devez créer une « demande de transfert » pour transférer ces numéros de téléphone vers Microsoft Teams. Lorsque les numéros sont portés, vous pouvez affecter ces numéros de téléphone à vos utilisateurs et à des services tels que les audioconférences (pour les ponts de conférence), le port automatique et les files d’attente d’appels.
+Si vous êtes opérateur ou fournisseur de services téléphoniques et que vous disposezdéjà de numéros de téléphone pour vos utilisateurs ou services, vous devez créer une « demande de transfert » pour transférer ces numéros de téléphone vers Microsoft Teams. Lorsque les numéros sont portés, vous pouvez affecter ces numéros de téléphone à vos utilisateurs et à des services tels que les audioconférences (pour les ponts de conférence), les ports automatiques et les files d’attente d’appels.
   
 Une fois vos numéros de téléphone portés vers Teams, Microsoft devient votre fournisseur de services et vous pouvez déconnecter votre service auprès de votre ancien opérateur ou fournisseur de services.
 
@@ -76,12 +76,12 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
 - des numéros de téléphone dédiés à la télécopie.
 
-    Si vous avez déjà des numéros de téléphone dédiés qui sont utilisés pour la télécopie, vous pouvez transférer ces numéros vers Teams, mais vos services de télécopie ne continueront pas à fonctionner comme prévu.  Les services de télécopie ne sont pas disponibles pour les clients Teams, même si vous disposez de licences pour Phone System, Forfait d’appels nationaux ou Forfait d’appels internationaux.
+    Si vous avez des numéros de téléphone dédiés  existants qui sont utilisés pour la télécopie, vous pouvez transférer ces numéros vers Teams, mais vos services de télécopie ne continueront pas à fonctionner comme prévu. Les services de télécopie ne sont pas disponibles pour les clients Teams, même si vous disposez de licences pour Phone System, Forfait d’appels nationaux ou Forfait d’appels internationaux.
 
     Si vous portez le numéro de téléphone vers Teams, vous pouvez affecter ce numéro de téléphone à un utilisateur de votre organisation au lieu de l’utiliser pour la télécopie.
 
     > [!NOTE]
-    > Pour l’instant, au Royaume-Uni, le transfert de numéros non géographiques au Royaume-Uni n’est pas prise en charge, y compris les numéros partagés pour les indicatifs régionaux 0843, 0844, 0845, 0870, 0871, 0872.
+    > Pour le moment, au Royaume-Uni, le transfert de numéros non géographiques au Royaume-Uni n’est pas prise en charge, y compris les numéros partagés pour les indicatifs régionaux 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## <a name="what-information-do-i-need-to-provide"></a>Quelles informations dois-je fournir ?
 
@@ -129,7 +129,7 @@ Voici plus d’informations sur l’soumission des demandes de portage de numér
 ## <a name="how-long-does-it-take-to-port-numbers"></a>Combien de temps faut-il pour transférer les numéros ?
 <a name="bkmk_type_1"> </a>
 
-Une fois que vous avez terminé la demande de demande de port, son traitement peut prendre entre 7 et 14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois les numéros de téléphone portés, vous recevrez un courrier électronique pour vous dire que vous êtes fin fin sur votre téléphone.
+Une fois que vous avez terminé la demande de demande de port, son traitement peut prendre entre 7 et 14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois les numéros de téléphone portés, vous recevrez un e-mail de notre part pour vous faire part que vous êtes paré pour la suite.
   
 Pour vérifier l’état de votre demande de port, dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez sur Numéros de téléphone vocal, puis cliquez sur  >  Historique **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut.
   
@@ -149,7 +149,7 @@ Lorsque votre nouvel opérateur nous contactera avec la demande de portage, nous
 ## <a name="common-mistakes-to-watch-out-for"></a>Erreurs courantes à surveiller
 <a name="bkmk_type_1"> </a>
 
-Il est facile de transférer un numéro. Cependant, votre commande peut être en désordre en cas de problème avec le fournisseur de services téléphoniques, si la commande est incomplète, si des renseignements sont manquants ou en cas de fautes de frappe.
+Il est facile de transférer un numéro. Toutefois, votre commande peut être en désordre en cas de problème avec le fournisseur de services téléphoniques, si la commande est incomplète, si des informations sont manquantes ou en cas de fautes de frappe.
   
 Voici les erreurs le plus fréquentes commises lors des transferts de numéros. Épargnez-vous un appel au service client et vérifiez qu'il n'y a aucune erreur.
   
