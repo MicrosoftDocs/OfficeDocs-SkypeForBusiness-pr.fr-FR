@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appels Microsoft et la 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ca2fb94ff67f2efa874e670926330f8f3630cbe2
+ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031010"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741885"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -31,7 +31,7 @@ Les appels d’urgence dynamiques pour les plans d’appels Microsoft et le rout
 
 En fonction de la topologie de réseau définie par l’administrateur client, le client Teams fournit les informations de connectivité réseau dans une demande au service d’informations d’emplacement (LIS). En cas de correspondance, le LIS renvoie un emplacement au client. Ces données d’emplacement sont transmises au client.  
 
-Le client Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point de réponse de la sécurité publique appropriée (PUBLIC Safety Answering Point) et pour router l’appel vers ce réseau PUBLIC PUBLIC, ce qui permet au régulateur DUP d’obtenir l’emplacement de l’appelant.  
+Le client Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point d’accès à la sécurité publique approprié (PUBLIC SAFETY Answering Point) et pour router l’appel vers ce public PUBLICP, ce qui permet au régulateur du service PUBLIC PUBLIC d’obtenir l’emplacement de l’appelant.  
 
 Pour les appels d’urgence dynamiques, les situations suivantes doivent se produire :
 
@@ -66,9 +66,12 @@ La possibilité d’utiliser un routage automatique vers le point de réponse de
 
 Pour plus d’informations sur les appels d’urgence, notamment sur les adresses de secours et le routage des appels d’urgence, les informations spécifiques aux pays et les informations sur les paramètres réseau et la topologie du réseau, voir les informations suivantes :
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les paramètres réseau pour les fonctionnalités vocales cloud](cloud-voice-network-settings.md)
 - [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)
+
+Pour plus d’informations sur les fonctionnalités disponibles dans le cloud pour le gouvernement, voir [le support](#government-support) technique à la fin de cet article.
+
 
 ## <a name="supported-clients"></a>Clients pris en charge
 
@@ -104,7 +107,7 @@ Vous ajoutez et affectez des adresses d’urgence dans le Centre d’administrat
 
 Les paramètres réseau servent à déterminer l’emplacement d’un client Teams et à obtenir dynamiquement des stratégies d’appel d’urgence et un emplacement d’urgence. Vous pouvez configurer les paramètres réseau en fonction de la manière dont votre organisation souhaite que les appels d’urgence fonctionnent.
 
-Les paramètres réseau incluent des sites qui comprennent une collection de sous-réseaux qui sont utilisés exclusivement pour l’affectation de stratégies dynamiques aux utilisateurs. Par exemple, une stratégie d’appel d’urgence et une stratégie de routage des appels d’urgence peuvent être affectées au « site de Redmond », de sorte que tout utilisateur qui vient de chez vous ou d’un autre emplacement Microsoft soit configuré avec les numéros d’urgence, le routage et le service de sécurité spécifiques de Redmond.  
+Les paramètres réseau incluent des sites qui comprennent une collection de sous-réseaux qui sont utilisés exclusivement pour l’affectation de stratégies dynamiques à des utilisateurs. Par exemple, une stratégie d’appel d’urgence et une stratégie de routage des appels d’urgence peuvent être affectées au « site de Redmond », de sorte que tout utilisateur qui vient de chez vous ou d’un autre emplacement Microsoft soit configuré avec les numéros d’urgence, le routage et le service de sécurité spécifiques de Redmond.  
 
 >[!Note]
 >Les sous-réseaux peuvent également être définis dans le lis et peuvent être associés à un emplacement d’urgence.  
@@ -119,7 +122,7 @@ Gardez les définitions suivantes à l’esprit. Pour plus d’informations, [vo
 
 - Un sous-réseau doit être associé à un site réseau spécifique. L’emplacement d’un client est déterminé en fonction du sous-réseau réseau et du site réseau associé.  
 
-Vous configurez les paramètres réseau dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour plus d’informations, [voir Gérer votre topologie de réseau pour les fonctionnalités vocales cloud.](manage-your-network-topology.md)
+Vous configurez les paramètres réseau dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour plus d’informations, voir Gérer votre topologie de réseau [pour les fonctionnalités vocales cloud.](manage-your-network-topology.md)
 
 Notez que la propagation et la mise à disposition de certains paramètres réseau (par exemple, une nouvelle adresse, un identificateur réseau, etc.) peuvent prendre un certain temps (jusqu’à quelques heures).  
 
@@ -168,15 +171,15 @@ Utilisez les cmdlets suivantes pour ajouter des ports, commutateurs, sous-résea
 
 Utilisez les stratégies suivantes pour configurer les appels d’urgence. Vous pouvez gérer ces stratégies dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
 
-- **Stratégie de routage d’appel d’urgence** : s’applique uniquement au routage direct. Cette stratégie configure les numéros d’urgence, les masques par numéro si vous le souhaitez et l’itinéraire PSTN par numéro.  Vous pouvez affecter cette stratégie à des utilisateurs, à des sites réseau ou aux deux. (Les clients Plans d’appel Teams sont automatiquement activés pour les appels d’urgence avec les numéros d’urgence du pays sur la base de leur emplacement d’utilisation de Microsoft 365 ou d’Office 365.)  Pour plus d’informations, voir [Gérer les stratégies de routage des](manage-emergency-call-routing-policies.md)appels d’urgence pour le routage direct.
+- **Stratégie de routage d’appel d’urgence** : s’applique uniquement au routage direct. Cette stratégie configure les numéros d’urgence, les masques par numéro si vous le souhaitez et l’itinéraire PSTN par numéro.  Vous pouvez affecter cette stratégie à des utilisateurs, à des sites réseau ou aux deux. (Les clients De Plans d’appel Teams sont automatiquement activés pour les appels d’urgence avec les numéros d’urgence du pays sur la base de leur emplacement d’utilisation de Microsoft 365 ou d’Office 365.)  Pour plus d’informations, voir [Gérer les stratégies de routage des](manage-emergency-call-routing-policies.md)appels d’urgence pour le routage direct.
 
 - **Stratégie d’appel d’urgence** - Applicable aux plans d’appels et au routage direct. Cette stratégie configure l’expérience de notification du service de sécurité en cas d’appel d’urgence. Vous pouvez définir les personnes à informer et la manière dont elles sont informées. Par exemple, pour informer automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  Cette stratégie peut être affectée à des utilisateurs ou à des sites réseau, ou les deux. Pour plus d’informations, voir [Gérer les stratégies d’appel d’urgence dans Teams.](manage-emergency-calling-policies.md)
 
 ## <a name="enable-users-and-sites"></a>Activer les utilisateurs et les sites
 
-Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. N’oubliez pas que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur du plan d’appels, cette stratégie n’aura aucun effet.)
+Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. N’oubliez pas que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur du plan d’appels, la stratégie n’aura aucun effet.)
 
-Vous attribuez des stratégies dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour en savoir plus, reportez-vous à la rubrique :
+Vous attribuez des stratégies dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour en savoir plus, consultez les articles :
 
 - [Gérer les stratégies de routage d’appel d’urgence pour le routage direct](manage-emergency-call-routing-policies.md)
 - [Gérer les stratégies d’appel d’urgence dans Teams](manage-emergency-calling-policies.md)
@@ -217,7 +220,18 @@ Certains fournisseurs de services de routage d’urgence aux États-Unis propose
 
 - **Les clients de routage direct aux États-Unis** doivent s’coordonner avec leur fournisseur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Sujets associés
+## <a name="government-support"></a>Support de l’administration publique
+
+Le tableau suivant indique la prise en charge des appels d’urgence dynamiques dans les nuages du gouvernement :
+
+| Cloud | Disponibilité |
+| :------------|:-------|
+| World Wide Multi Tenant | Entièrement disponible |
+| GCC | Disponible sur tous les clients à l’exception des téléphones IP Teams |
+| GCCH | Pending |
+| DoD | Pending |
+
+ ## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

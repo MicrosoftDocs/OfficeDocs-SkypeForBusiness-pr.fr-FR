@@ -15,22 +15,22 @@ ms.collection:
 - M365-collaboration
 description: Découvrez les conditions requises pour la prise en charge des salles Microsoft Teams, notamment le choix du périphérique approprié, des microphones, des haut-parleurs, des caméras et des écrans.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e62aaa41b81550619ed670159cd071bc22e01cda
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: 78f64b5cba0d67e47fbcd31eee3bc5af8e445d39
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716899"
+ms.locfileid: "50726345"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
-Les salles Microsoft Teams s’adaptent à différentes tailles de pièces en utilisant une grande variété de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant l’appareil et la console appropriés, ainsi que les micros, haut-parleurs, appareils photo et affichages appropriés, vous pouvez déployer les salles Microsoft Teams dans des espaces de toute taille, à partir de Huddle et de salles de conférence de grande taille.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
+Les salles Microsoft Teams s' échellent selon la taille des salles. Les salles Teams utilisent un large éventail de périphériques audio et vidéo certifiés en fonction de la taille et de l’utilisation de la salle. En sélectionnant le périphérique et la console principaux appropriés, combinés avec des microphones, des haut-parleurs, des caméras et des écrans appropriés à l’espace, vous pouvez déployer les salles Microsoft Teams dans des espaces de n’importe quelle taille, des petits espaces de conférence jusqu’aux grands espaces de conférence et aux salles de conférence.  L’ensemble des périphériques audio et vidéo certifiés disponibles pour configurer votre salle est disponible dans la [Galerie d’appareils](https://products.office.com/microsoft-teams/across-devices).
 
 Cet article résume la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles Microsoft Teams.
 
 Votre déploiement nécessite la création d’un compte comme décrit dans [Déployer les salles Microsoft Teams](rooms-deploy.md) et configurer les consoles de réunion, comme décrit dans [Configurer une console des salles Microsoft Teams](console.md).
 
-Voir aussi :
+Reportez-vous à :
 
 - [Licences de complément Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Options de licence en fonction de votre offre : Salles Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -58,28 +58,27 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Crestron Flex UC-M150-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  +  [CCS-NT-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 Go |128 Go |
   |[Crestron Flex UC-MX150-T with Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 Go |128 Go |
    [Crestron Flex UC-B160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Go |128 Go|
-  |[Crestron Flex UC-C160-T avec Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
+  |[Crestron Flex UC-C160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
   |[Crestron Mercure Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 Go |128 Go |
-  |[Dell OptiPlex 7080 avec Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 Go |128 Go|
+  |[Dell OptiPlex 7080 avec Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 Go |128 Go|
   |[HP Elite Slice pour salles de réunion G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 Go |128 Go |
   |[Élément audio HP Elite G2 prêt avec les Salles Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 Go |128 Go |
-  |[Partenaire Secteur HP prêt avec Logitech TAP]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 Go|128 Go|
+  |[Partenaire Secteur HP prêt avec Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 Go|128 Go|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 Go |128 Go |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 Go |128 Go|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 Go |128 Go |
-  |[Logitech Tap et Lenovo ThinkSmart Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
+  |[Logitech Tap et Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
   |[Poly G10-T avec Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 Go | 128 Go|
   |[Yealink MVC300 avec Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC800 avec Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
   |[Yealink MVC900 with Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 Go|128 Go|
-  |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 Go | 128 Go|
   |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8 Go | 128 Go|
-  |[Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 Go | 128 Go|
-  |[Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 Go | 128 Go|
-  |[Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 Go | 128 Go|
+  |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 Go | 128 Go|
   
-
 > [!NOTE]
 > - Les processeurs Core M3 ne sont pas pris en charge.
 > - Vous avez besoin d’un lecteur USB de 32 Go ou plus, configuré comme support d’installation Windows 10 amorçable pour Windows 10 Entreprise.
@@ -134,7 +133,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[PolySoin C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[MONDES SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
-|[SDES SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
+|[MONDES SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[MONDES SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[DONT LE SP30T EST EN COURS](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[MICS Développer 80T + 2 Extension](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Téléphonephone - 4.6.55 <br/> Extension Mic — 0.2.314|
