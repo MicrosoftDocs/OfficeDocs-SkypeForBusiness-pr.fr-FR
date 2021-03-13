@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395417"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726195"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Présentation d'un déploiement de Microsoft Teams
 
@@ -40,7 +40,7 @@ La liste suivante contient les sections que vous pouvez choisir dans la section 
 > Si vous avez un déploiement Skype Entreprise Online ou un déploiement Skype Entreprise local, consultez les rubriques suivantes en plus de celles de la section **Mise en route**.
 >
 > - [Mise à niveau depuis Skype Entreprise Online](upgrade-start-here.md)
-> - [Planifier une connectivité hybride](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - Planifier une connectivité hybride
 
 |Section  |Description  |
 |---------|---------|

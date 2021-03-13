@@ -1,5 +1,5 @@
 ---
-title: Disponibilité des applications d’approbation dans Teams
+title: Disponibilité des applications Approbations dans Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: En savoir plus sur la disponibilité de l’application Approbations dans Microsoft Teams.
+description: En savoir plus sur la disponibilité des applications Approbations dans Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909518"
@@ -28,7 +28,7 @@ ms.locfileid: "49909518"
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
 L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams.
-L’application Approbations permet d’apporter un moyen simple d’audit, de conformité, d’imputation et de flux de travail à des approbations structurées et non structurées dans Teams.
+L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams.
 
  ![affiche l’application Approbations](media/approvals-selection.png)
 
@@ -36,84 +36,84 @@ Les utilisateurs peuvent épingler l’application Approbations pour l’enregis
 
  ![affiche l’application Approbations avec l’option épingler](media/approvalApp-pin.png)
 
-La première approbation créée à partir de l’application Approbations déclenche la mise en service de la solution d’approbation dans l’environnement de service de données communs par défaut. Les approbations créées à partir de l’application Approbations seront stockées dans l’environnement CDS par défaut.
+La première approbation créée à partir de l’application Approbations déclenche la mise en service de la solution d’approbation dans l’environnement de service de données courant (CDS) par défaut. Les approbations créées à partir de l’application Approbations seront stockées dans l’environnement CDS par défaut.
 
 Cet article décrit la exigences et les rôles de l’application Approbations.
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
-Pour utiliser l’application Approbations, vous devez être autorisé à utiliser les éléments suivants :
+Pour utiliser l’application Approbations, vous devez avoir une autorisation pour les éléments suivants :
 
-- Autorisations de création d’une base de données CDS Microsoft.
+- Autorisations pour créer une base de données CDS Microsoft.
 
 - Un compte sur [flow.microsoft.com](https://flow.microsoft.com/)
 
 - Rôle d’administrateur dans l’environnement cible.
 
-- Licence pour [Power Automate,](https://docs.microsoft.com/power-automate/get-started-approvals)Office 365 ou Dynamics 365.
+- Licence pour une [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 
-Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications d’analyse et d’entreprise dans les CDS. Il se compose d’un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et nos partenaires, qui permet la cohérence des données et leur signification au sein des applications et des processus d’entreprise. En savoir plus sur [le modèle de données courant de la plateforme Microsoft Power Platform.](https://docs.microsoft.com/power-automate/get-started-approvals)
+Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il s'agit d'un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et ses partenaires, qui permettent d'assurer la cohérence des données et de leur signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](https://docs.microsoft.com/power-automate/get-started-approvals).
 
-En savoir plus sur le [flux de travail Approbation.](https://docs.microsoft.com/power-automate/modern-approvals)
+En savoir plus sur le [flux d’approbation](https://docs.microsoft.com/power-automate/modern-approvals).
 
-## <a name="approvals-teams-app-permissions"></a>Autorisations de l’application Teams Approbations
+## <a name="approvals-teams-app-permissions"></a>Autorisations de l’application Autorisations Teams
 
-L’application Teams Approbations vous permet d’accéder aux fonctionnalités suivantes :
+L’application Approbations Teams vous permet d’accéder aux fonctionnalités suivantes :
 
 - Recevoir les messages et les données que vous lui fournissez.
 
 - Vous envoyer des messages et des notifications.
 
-- Restituer des applications et des boîtes de dialogue personnelles sans en-tête fourni par Teams.
+- Rendre les applications et les boîtes de dialogue personnelles sans en-tête fourni par Teams.
 
-- Accédez à vos informations de profil, telles que votre nom, votre adresse de messagerie, le nom de votre entreprise et votre langue préférée.
+- Accéder à vos informations de profil telles que votre nom, adresse e-mail, nom de votre entreprise et la langue par défaut.
 
 - Recevoir les messages et les données que les membres d’une équipe lui fournissent dans un canal.
 
 - Envoyer des messages et des notifications dans un canal.
 
-- Accédez aux informations de votre équipe :
-  - nom de l’équipe
+- Accédez aux informations de votre équipe :
+  - nom de l'équipe
   - liste des canaux
-  - liste (noms et adresses de courrier du membre de l’équipe).
+  - liste de présence (noms et adresses de courrier des membres de l’équipe).
 
-- Utilisez les informations de l’équipe pour les contacter.
+- Utilisez les informations de l'équipe pour les contacter.
 
-## <a name="disable-the-approvals-app"></a>Désactiver l’application Approbations
+## <a name="disable-the-approvals-app"></a>Gérer l'application Approbations
 
 L’application Approbations est disponible par défaut. Vous pouvez désactiver l’application dans le Centre d’administration Teams.
 
-  1. Connectez-vous au Centre d’administration Teams.
+  1. Se connecter au Centre d’administration de Microsoft Teams.
 
-  2. Développez **les applications Teams,** puis **sélectionnez Gérer les applications.**
+  2. Développez **Applications Teams** et sélectionnez **Gérer les applications**.
 
   3. Recherchez l’application Approbations.
 
-![Affiche la navigation dans le Centre d’administration avec l'> Gérer les applications mise en évidence](media/manage-approval-apps.png)
+![affiche la navigation du Centre d’administration avec l’écran Applications Teams > Gérer les applications mis en évidence](media/manage-approval-apps.png)
 
   4. Sélectionnez Approbations.
 
-  5. Sélectionnez le basculement pour désactiver l’application pour votre organisation.
+  5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
 ![affiche les détails de l’application Approbations](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 
-Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement CDS par défaut, qui ne prend pas en charge les sauvegardes pour le moment. En savoir plus sur la [restauration et la restauration des environnements - Power Platform Microsoft \| Docs.](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)
+Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement CDS par défaut, qui ne prend pas en charge les sauvegardes pour le moment. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
 ## <a name="auditing"></a>Audit
 
-L’application Approbations enregistre les événements d’audit dans le Centre de sécurité et conformité Microsoft 365. Vous pouvez afficher le journal d’audit.
+L’application Approbations enregistre les événements d’audit dans le Centre de sécurité et conformité Microsoft 365. Vous pouvez afficher le journal d’audit.
 
-1. Allez sur le site de conformité Microsoft 365.
+1. Accédez au site de conformité Microsoft 365.
 
-2. Sélectionnez la section **Audit.**
+2. Sélectionnez la section **Audit**.
 
-3. Recherchez des activités sous **les activités d’approbation de Microsoft Teams.**
+3. Recherchez des activités sous **Activités d’approbation de Microsoft Teams**.
 
-Vous pouvez rechercher les activités suivantes :
+Vous pouvez rechercher les activités suivantes :
 
 - Créer une demande d’approbation
 
@@ -121,7 +121,7 @@ Vous pouvez rechercher les activités suivantes :
 
 - Demande d’approbation approuvée
 
-- Demande d’approbation refusée
+- Demande d’approbation rejetée
 
 - Demande d’approbation annulée
 
@@ -129,25 +129,25 @@ Vous pouvez rechercher les activités suivantes :
 
 - Fichier joint à une demande d’approbation
 
-- Demande d’approbation résignée
+- Demande d'approbation réaffectée
 
-- Signature électronique ajoutée à la demande d’approbation
+- Ajout d’une signature électronique à une demande d’approbation
 
-Pour accéder à d’autres approbations d’audit au sein du flux, activez et configurez l’audit dans l’environnement par défaut pour les entités d’approbation principale approbation, demande d’approbation et réponse d’approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements Approbation. En savoir plus sur [l’audit des données et l’activité des utilisateurs pour la sécurité et la conformité - Power Platform \| Microsoft Docs.](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)
+Pour accéder à davantage d’approbations d’audit dans flux, activez et configurez l'audit dans l'environnement par défaut pour les entités d'approbation primaires Approbation, Demande d'approbation et Réponse d'approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements d’approbation. En savoir plus sur [Audit des données et de l’activité des utilisateurs pour des raisons de sécurité et de conformité : Plateforme Power \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
 
-L’audit peut être davantage personnalisé dans le Centre de sécurité et conformité [Microsoft 365.](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)
+L’audit peut être personnalisé davantage dans le [Centre de conformité et sécurité Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
-1. Pour utiliser les rapports préconfigurés, connectez-vous à Microsoft 365 Sécurité et conformité.
+1. Pour utiliser les rapports préconfigurés, connectez-vous à Conformité et sécurité Microsoft 365.
 
-2. Sélectionnez **Recherches & investigation.**
+2. Sélectionnez **Recherche et enquête**.
 
-3. Recherchez dans le journal d’audit et sélectionnez **l’onglet Activités de Dynamics 365.**
+3. Recherchez dans le journal d’audit et sélectionnez l’onglet **Activités Dynamics 365**.
 
-En savoir plus sur [la journalisation des activités de Microsoft Dataverse](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)et des applications pilotées par un modèle - Plateforme Power.
+En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des applications pilotées par les modèles :Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## <a name="security"></a>Sécurité
 
-À partir de l’application Approbations Teams, les utilisateurs ont accès à la création de nouvelles approbations et à l’affichage approbations qu’ils ont envoyées et reçues. Les utilisateurs n’ont pas accès aux approbations créées par d’autres personnes, sauf s’ils sont un répondant ou une visionneuse de la demande.
+À partir de l’application Approbations Teams, les utilisateurs ont accès à la création de nouvelles approbations et à l’affichage des approbations envoyées et reçues. Les utilisateurs n’ont pas accès aux approbations créées par d’autres personnes, sauf s’ils répondent ou visualisent la demande.
 
 > [!Note]
-> Un utilisateur pourra voir le rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal sur lequel l’approbation a été créée. Ils ne pourront pas agir sur la demande s’ils n’ont pas reçu ce rôle lors de la création de l’approbation.
+> Un utilisateur a le rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal sur lequel l’approbation a été créée. Il ne peut pas agir sur la demande si ce rôle ne lui a pas été affecté lors de la création de l’approbation.

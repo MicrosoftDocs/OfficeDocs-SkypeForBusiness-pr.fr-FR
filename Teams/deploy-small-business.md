@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395416"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726215"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurer Microsoft Teams dans votre petite entreprise
 
@@ -51,7 +51,7 @@ La conversation, les équipes et les canaux sont la clé de l’utilisation de T
 > [!TIP]
 > Découvrez comment gérer les rôles d’équipe, l’accès et les stratégies de messagerie en complétant le module [Gérer Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) dans Microsoft Learn.
 
-Lorsque vous pensez à déployer des équipes et des canaux, vous devez décider qui doit pouvoir les créer, si des invités extérieurs à votre organisation peuvent y accéder, et bien plus encore. L’article [Conversation, équipes, canaux et applications dans Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) propose de nombreuses informations sur la planification des conversations, des équipes et des canaux. Toutefois, voici quelques éléments clés de cet article à prendre en compte. Cliquez sur une décision si vous souhaitez en savoir plus à son sujet.
+Lorsque vous pensez à déployer des équipes et des canaux, vous devez décider qui doit pouvoir les créer, si des invités extérieurs à votre organisation peuvent y accéder, et bien plus encore. L’article [Conversation, équipes, canaux et applications dans Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) propose de nombreuses informations sur la planification des conversations, des équipes et des canaux. Toutefois, voici quelques éléments clés de cet article à prendre en compte. Sélectionnez une décision si vous souhaitez en savoir plus à son sujet.
 
 | Decision | Description |
 |--|--|
@@ -62,7 +62,7 @@ Lorsque vous pensez à déployer des équipes et des canaux, vous devez décider
 Vous n’avez rien d’autre à faire pour que vos utilisateurs commencent à utiliser la conversation, les équipes et les canaux. Toutefois, de nombreuses options vous permettent de contrôler l’utilisation de Teams. Vous pouvez apporter des modifications maintenant ou attendre de voir comment les personnes utilisent Teams. Si vous souhaitez en savoir plus veuillez, consulter les articles suivants :
 
 - [Gérer les stratégies de messagerie dans Teams](messaging-policies-in-teams.md)
-- [Paramètres de Teams](enable-features-office-365#teams-settings)
+- [Paramètres de Teams](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>Réunions et conférences
 
@@ -92,7 +92,7 @@ Si vous souhaitez essayer Business Voice, veuillez consulter la rubrique [Que do
 
 Lorsque vous êtes prêt à aider vos utilisateurs à utiliser Teams, ils peuvent installer le client Teams sur leurs PC Windows, Mac ou Linux, ou sur leurs appareils Android ou iOS. Les utilisateurs peuvent télécharger le client Teams directement depuis <https://teams.microsoft.com/downloads>.
 
-Vérifiez que toutes les personnes qui utiliseront Teams ont une licence Teams. Si vous souhaitez en savoir plus sur l’attribution d’une licence Teams, veuillez consulter la rubrique [Gérer l’accès des utilisateurs à Teams](user-access.md#using-the-microsoft-365-admin-center).
+Vérifiez que toute personne souhaitant utiliser Teams possède une licence Teams. Si vous souhaitez en savoir plus sur l’attribution d’une licence Teams, veuillez consulter la rubrique [Gérer l’accès des utilisateurs à Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
 > Obtenez des recommandations sur la façon de planifier le déploiement de votre client Teams en complétant le module [Déployer les clients Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) sur Microsoft Learn.
