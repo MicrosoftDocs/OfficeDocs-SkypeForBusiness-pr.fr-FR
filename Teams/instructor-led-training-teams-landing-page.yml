@@ -11,13 +11,13 @@ metadata:
   ms.date: 06/16/2020
   ms.openlocfilehash: 3a6ca55dfcc94f1370043e2fbb743b10473d106a
   ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 03/05/2021
   ms.locfileid: "50507997"
 highlightedContent:
   items:
-  - title: Dites bonjour à Microsoft Teams
+  - title: Découvrez Microsoft Teams
     itemType: overview
     url: https://aka.ms/SayhelloTeams
   - title: Formation à la demande des utilisateurs finaux
@@ -30,31 +30,31 @@ productDirectory:
   items:
   - title: Prise en main de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Des conversations et réunions aux équipes et canaux, à l’issue de cette session, les utilisateurs disposeront des bases nécessaires pour utiliser Teams en toute confiance. (Public : Tout le monde)'
+    summary: 'Des conversations et réunions aux équipes et canaux, à l’issue de cette session, les utilisateurs disposeront des bases nécessaires pour utiliser Teams en toute confiance. (Public : Tous)'
     url: https://aka.ms/GetstartedwithMSTeams
-  - title: Utiliser la conversation et les appels dans Teams
+  - title: Utilisation des conversations et des appels dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Découvrez comment gérer toutes vos conversations à partir d’une plateforme centrale. (Public : Tout le monde)'
+    summary: 'Découvrez comment gérer toutes vos conversations depuis une plateforme centrale unique. (Public : Tous)'
     url: https://aka.ms/ChatCallingInTeams
-  - title: Organisez des réunions efficaces avec Teams
+  - title: Tenez des réunions efficaces avec Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Découvrez comment rendre vos réunions plus attrayantes, productives et significatives. (Public : Tout le monde)'
+    summary: 'Découvrez comment rendre vos réunions plus engageantes et plus utiles. (Public : Tous)'
     url: https://aka.ms/RunmeetingsTeams
   - title: Explorer les équipes et les canaux dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'Découvrez comment simplifier la collaboration dans le cadre de votre projet et de votre groupe de travail. (Public : Tout le monde)'
+    summary: 'Découvrez comment simplifier la collaboration dans le cadre de votre projet et de votre groupe de travail. (Public : Tous)'
     url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Créer des espaces de travail collaboratifs dans Teams
+  - title: Créez des espaces de travail collaboratifs dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Découvrez comment déterminer la meilleure approche pour la création d’espaces de travail pour les projets et les groupes de travail. (Public : Tout le monde)'
+    summary: 'Explorez les possibilités de déterminer la meilleure approche pour créer des espaces pour vos projets et groupes de travail. (Public : Tous)'
     url: https://aka.ms/CollaborateInTeams
-  - title: Tirer parti de conseils pour les pro dans Teams
+  - title: Astuces de pro dans Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Découvrez comment Teams peut vous aider à organiser votre journée de travail et à rester en contact plus facilement avec vos collègues. (Public : Tout le monde)'
+    summary: 'Découvrez comment Teams vous permet d’organiser votre journée de travail et de faciliter le contact avec vos collègues. (Public : Tous)'
     url: https://aka.ms/TeamsProTips
   - title: Maîtrisez le travail à domicile avec Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Découvrez les meilleures pratiques pour rester en contact avec votre équipe et maintenir votre productivité. (Public : Tout le monde)'
+    summary: 'Découvrez les meilleures pratiques pour rester en contact avec votre équipe et maintenir votre productivité. (Public : Tous)'
     url: https://aka.ms/WFHTeams
   - title: 'Teams pour une utilisations dans l’éducation: Webinaires'
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
