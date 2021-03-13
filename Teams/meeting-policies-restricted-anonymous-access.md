@@ -16,24 +16,24 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Découvrez comment supprimer la stratégie de réunion RestrictedAnonymousAccess Teams des utilisateurs de votre organisation.
-ms.openlocfilehash: 55385cdd47f6b6c9882f8d4e8dcadc848f13755d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16158be1c0550cf1753d8984f8760e267ab4af5c
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806254"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756210"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs
 
 [Les stratégies](meeting-policies-in-teams.md) de réunion dans Microsoft Teams sont utilisées pour contrôler les fonctionnalités disponibles pour les participants à la réunion qui sont programmées par les utilisateurs de votre organisation. 
 
-Teams inclut une stratégie intégrée nommée RestrictedAnonymousAccess, qui contient des paramètres prédéfinie qui incluent la limitation des utilisateurs anonymes de commencer une réunion. (Les utilisateurs anonymes sont des utilisateurs qui n’ont pas été authentifiés.) Les paramètres prédéfinyés dans la stratégie de réunion ne peuvent pas être modifiés ni modifiés par les administrateurs.
+Teams inclut une stratégie intégrée nommée RestrictedAnonymousAccess, qui contient des paramètres prédéfinie qui incluent la limitation des utilisateurs anonymes de commencer une réunion. (Les utilisateurs anonymes sont des utilisateurs qui n’ont pas été authentifiés.) Les paramètres prédéfinés dans la stratégie de réunion ne peuvent pas être modifiés ni modifiés par les administrateurs.
 
 Cet article vous explique comment utiliser PowerShell pour supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs à qui cette stratégie est affectée. Pour en savoir plus sur la gestion de Teams à l’aide de PowerShell, consultez la vue [d’ensemble de Teams PowerShell.](teams-powershell-overview.md)
 
 ## <a name="before-you-start"></a>Avant de commencer
 
-Installez et connectez-vous au [module Skype Entreprise PowerShell.](https://www.microsoft.com/download/details.aspx?id=39366) Pour obtenir une aide étape par étape, voir [Installer Microsoft Teams PowerShell.](teams-powershell-install.md)
+Installez et connectez-vous au [module Skype Entreprise PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Pour obtenir une aide étape par étape, voir [Installer Microsoft Teams PowerShell.](teams-powershell-install.md)
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Obtenir les affectations de stratégie de réunion Teams pour votre organisation
 
@@ -43,7 +43,7 @@ Exécutez ce qui suit pour obtenir les affectations de stratégie de réunion Te
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
 ```
 
-Dans cet exemple, la sortie suivante est renvoyée, qui montre que deux utilisateurs ont la stratégie de réunion RestrictedAnonymousAccess.
+Dans cet exemple, la sortie suivante est renvoyée, ce qui indique que deux utilisateurs ont la stratégie de réunion RestrictedAnonymousAccess.
 
 ```console
 Count  Name                               Group
@@ -92,8 +92,8 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 Assurez-vous **que le nombre d’erreurs** est de **0** (zéro) et **que État** Global est **terminé.**
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-- [Voir Gérer les stratégies de réunion dans Teams.](meeting-policies-in-teams.md)
+- [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)

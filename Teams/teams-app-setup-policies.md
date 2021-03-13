@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a58cbf682760249ee3b269d1765a265cc58d3022
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615090"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756180"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
-
-> [!NOTE]
-> Si vous avez activé le paramètre de l’application à l’échelle de l’organisation, autoriser **l’interaction** avec les applications personnalisées, vous ne verrez peut-être pas encore les stratégies de configuration d’application dans le Centre d’administration Microsoft Teams. Il est en cours de déployé et sera bientôt disponible dans votre organisation.
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies de configuration d’application pour effectuer les tâches suivantes :
 
@@ -61,7 +58,7 @@ Vous devez modifier les paramètres de la stratégie globale pour inclure les ap
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams pour créer une stratégie personnalisée.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir Stratégies **d’installation des**  >  **applications** Teams.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir **Stratégies d’installation des**  >  **applications** Teams.
 
 2. Sélectionnez **Ajouter**.
 
@@ -69,7 +66,7 @@ Vous pouvez utiliser le Centre d’administration Microsoft Teams pour créer un
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 
-4. Activer ou désactiver **l’application personnalisée Télécharger,** selon que vous souhaitez ou non que les utilisateurs téléchargent des applications personnalisées dans Teams. Vous ne pouvez pas modifier ce paramètre **si** l’application autoriser des applications tierces est désactivée dans les paramètres de l’application à l’échelle [de l’organisation.](manage-apps.md#manage-org-wide-app-settings)
+4. Activer ou désactiver **l’application personnalisée** Télécharger, selon que vous souhaitez ou non que les utilisateurs téléchargent des applications personnalisées dans Teams. Vous ne pouvez pas modifier ce paramètre **si** l’application autoriser des applications tierces est désactivée dans les paramètres de l’application à l’échelle [de l’organisation.](manage-apps.md#manage-org-wide-app-settings)
 
 5. Activer ou désactiver l’épinglage d’utilisateurs, selon que vous voulez ou non permettre aux utilisateurs de personnaliser leur barre d’application en épinglage d’applications.
 
@@ -100,7 +97,7 @@ Vous pouvez utiliser le Centre d’administration Microsoft Teams pour créer un
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams pour modifier une stratégie, notamment la stratégie globale (à l’échelle de l’organisation par défaut) et les stratégies personnalisées que vous créez.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir Stratégies **d’installation des**  >  **applications** Teams.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir **Stratégies d’installation des**  >  **applications** Teams.
 
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis sélectionnez **Modifier**.
 
@@ -155,7 +152,7 @@ Pour afficher toutes les applications épinglées pour un utilisateur, les utili
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir sur l’expérience mobile dans Teams ?
 
-Les clients mobiles Teams (iOS et Android) ne peuvent actuellement pas prise en charge les applications personnelles avec les onglets statiques. Selon les applications définies dans la stratégie, les applications épinglées au client de bureau Teams peuvent ne pas apparaître dans les clients mobiles Teams. Les robots personnels apparaissent toujours dans conversation sur les clients mobiles.
+Les clients mobiles Teams (iOS et Android) ne supportent actuellement pas les applications personnelles avec les onglets statiques. Selon les applications définies dans la stratégie, les applications épinglées au client de bureau Teams peuvent ne pas apparaître dans les clients mobiles Teams. Les robots personnels apparaissent toujours dans conversation sur les clients mobiles.
 
 Avec les clients mobiles Teams, les utilisateurs voient les principales applications Teams telles que Activité, Conversation et Teams, et vous pouvez épingler certaines applications tierces de Microsoft, telles que Shifts.
 
@@ -169,7 +166,7 @@ Si la stratégie de configuration de l’application attribuée à l’utilisate
 
 ### <a name="custom-teams-apps"></a>Applications Teams personnalisées
 
-Mon organisation a créé une application Teams personnalisée et l’a publiée sur AppSource ou le catalogue des applications client, mais l’icône d’application ne s’affiche pas comme prévu lorsque l’application est épinglée à la barre d’application dans Teams. Comment puis-je résoudre le problème ?
+Mon organisation a créé une application Teams personnalisée et l’a publiée dans AppSource ou le catalogue des applications client, mais l’icône d’application ne s’affiche pas comme prévu lorsque l’application est épinglée à la barre d’application dans Teams. Comment puis-je résoudre le problème ?
 
 Veillez à respecter les instructions relatives au logo avant de soumettre l’application. Pour en savoir plus, consultez [la liste de contrôle de l’envoi du tableau de bord du vendeur.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
