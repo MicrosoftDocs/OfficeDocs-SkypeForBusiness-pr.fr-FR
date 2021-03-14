@@ -1,6 +1,6 @@
 ---
-title: Teams pour les organismes de vente au détail
-description: Découvrez les ressources d’administration disponibles pour gérer et tirer le meilleur enseignement de Teams pour vos magasins de détail et votre personnel.
+title: Teams pour la vente au détail
+description: En savoir plus sur les ressources d’administration à votre disposition pour gérer et tirer le meilleur partie de Teams pour vos points de vente et vos employés.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -18,15 +18,15 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802584"
 ---
-# <a name="teams-for-retail"></a><span data-ttu-id="0718a-103">Teams pour les organismes de vente au détail</span><span class="sxs-lookup"><span data-stu-id="0718a-103">Teams for Retail</span></span>
+# <a name="teams-for-retail"></a><span data-ttu-id="1368b-103">Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="1368b-103">Teams for Retail</span></span>
 
-<span data-ttu-id="0718a-104">Utilisez les ressources d’administration ici pour gérer et utiliser au mieux Teams pour vos magasins de détail et votre personnel.</span><span class="sxs-lookup"><span data-stu-id="0718a-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
+<span data-ttu-id="1368b-104">Utiliser les ressources d’administration disponible ici pour gérer et tirer le meilleur partie de Teams pour vos points de vente et vos employés.</span><span class="sxs-lookup"><span data-stu-id="1368b-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="0718a-106">Démarrage avec les modèles Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="0718a-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![Procédure pas à pas-carte-équipes](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="1368b-106">Démarrage avec les modèles Teams pour la vente au détail</span><span class="sxs-lookup"><span data-stu-id="1368b-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
