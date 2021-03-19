@@ -1,5 +1,5 @@
 ---
-title: Partage de fichiers et de dossiers dans Microsoft Teams
+title: Partage de fichiers et de dossiers dans Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -13,17 +13,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: En savoir plus sur l’expérience de partage de fichiers et de dossiers dans Microsoft Teams.
+description: Découvrez l’expérience de partage de fichiers et de dossiers dans Microsoft Teams.
 ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
 ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/11/2021
 ms.locfileid: "49795773"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Partage de fichiers dans Microsoft Teams
 
-Dans Microsoft Teams, les utilisateurs peuvent partager du contenu avec d’autres utilisateurs Teams à l’intérieur et à l’extérieur de leur organisation. Le partage de fichiers et de dossiers dans Teams est basé sur les paramètres configurés dans SharePoint et OneDrive, aussi, ce que vous configurez pour SharePoint et OneDrive affecte également le partage dans Teams.
+Dans Microsoft Teams, les utilisateurs peuvent partager du contenu avec d’autres utilisateurs Teams à l’intérieur et à l’extérieur de leur organisation. Le partage dans Microsoft Teams dépend des paramètres configurés dans SharePoint et OneDrive, de sorte que ce que vous configurez pour SharePoint et OneDrive affectera le partage dans Teams également.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -44,10 +44,10 @@ Lorsque des utilisateurs partagent un fichier dans une conversation ou un canal,
 
 ![Capture d’écran d’une notification si des destinataires ne disposent pas des autorisations](media/share-files-permissions.png)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Modifier le type de lien par défaut pour un site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Modifier le type de lien par défaut d’un site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
 
-[Collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Collaborer avec des invités au sein d’une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
