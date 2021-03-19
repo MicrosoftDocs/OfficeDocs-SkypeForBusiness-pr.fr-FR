@@ -17,22 +17,22 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser des étiquettes de sensibilité pour protéger vos équipes dans Microsoft Teams.
-ms.openlocfilehash: 3b994bd7f1aa8fbc1fde13aaf49b195a1698695a
-ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
+ms.openlocfilehash: 6929e9c51f35cb4483c81323048b2a1f9ec6243a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937526"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875104"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de sensibilité pour Microsoft Teams
 
 [Les étiquettes de sensibilité](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permettent aux administrateurs Teams de protéger et de réguler l’accès au contenu d’organisation sensible créé lors de la collaboration au sein d’équipes. Après avoir configuré les étiquettes de confidentialité avec les stratégies associées dans le Centre de conformité [Microsoft,](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)ces étiquettes peuvent être appliquées aux équipes de votre organisation.
 
-Les étiquettes de sensibilité ne sont actuellement pas pris en compte pour les clients qui utilisent les S SKUS Teams Éducation. Pour en savoir plus sur les licences, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+Les étiquettes de sensibilité ne sont actuellement pas pris en compte pour les clients qui utilisent les S SKUS Teams Éducation. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Quelle est la différence entre les étiquettes de sensibilité et les étiquettes de classification Teams ?
 
-Les étiquettes de sensibilité sont différentes des étiquettes de classification, également appelées classification de groupe Azure AD. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui ne sont associées à aucune stratégie réelle. Vous utilisez des étiquettes de classification comme métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et scripts internes, pour appliquer des stratégies.
+Les étiquettes de sensibilité sont différentes des étiquettes de classification, également appelées classification de groupe Azure AD. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui n’ont aucune stratégie réelle associée. Les étiquettes de classification sont des métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et scripts internes, pour appliquer des stratégies.
 
 L’utilisation d’étiquettes de confidentialité permet d’appliquer automatiquement leurs stratégies de bout en bout via une combinaison de la plateforme Microsoft 365 Groups, du centre de conformité et des services Teams. Les étiquettes de confidentialité fournissent une prise en charge puissante de l’infrastructure pour sécuriser les données sensibles de votre organisation et assurer le respect de vos politiques ou réglementations internes.
 
@@ -49,17 +49,18 @@ Exemples de scénarios d’utilisation d’étiquettes de sensibilité avec Team
 
 Vous pouvez créer et configurer une étiquette de confidentialité qui, lorsqu’elle est appliquée lors de la création de l’équipe, permet aux utilisateurs de créer des équipes avec un paramètre de confidentialité spécifique (public ou privé).
 
-Par exemple, vous créez et publiez une étiquette de confidentialité nommée « Confidentiel » dont l’option de confidentialité est configurée comme **Privée.** Par conséquent, toute équipe créée avec cette étiquette doit être privée. 
+Par exemple, vous créez et publiez une étiquette de confidentialité nommée « Confidentiel » qui a l’option de confidentialité de l’étiquette configurée comme **Privée.** Par conséquent, toute équipe créée avec cette étiquette doit être privée. 
 
 Lorsqu’un utilisateur crée une équipe  et sélectionne l’étiquette Confidentiel, la seule option de confidentialité disponible pour l’utilisateur est **Privé.** D’autres options de confidentialité, telles que Publique et À l’échelle de l’organisation, ne peuvent pas être sélectionnées par l’utilisateur :
 
 ![Capture d’écran de l’étiquette confidentiel](media/sensitivity-labels-confidential-example.png)
 
-De même, vous créez et publiez une étiquette de confidentialité nommée « Général » qui a l’option de confidentialité de l’étiquette configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
+De même, vous créez et publiez une étiquette de confidentialité nommée « Général » dont l’option de confidentialité de l’étiquette est configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
 
 ![Capture d’écran de l’étiquette de sensibilité Général](media/sensitivity-labels-general-example.png)
 
-Lorsqu’une équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe.
+Lorsque l’équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe. Notez que si vous utilisez des étiquettes enfant parentes hiérarchiques telles que « Confidentiel\Finance », seule l’étiquette du parent s’affichera dans l’en-tête du canal.
+
 
 ![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe](media/sensitivity-labels-channel.png)
 
@@ -77,7 +78,7 @@ Vous pouvez appliquer des étiquettes de sensibilité lorsque vous créez ou mod
 
 Les étiquettes de sensibilité sont également visibles dans les propriétés des équipes et dans la colonne **Classification** de la page **Gérer** les équipes du Centre d’administration Microsoft Teams.
 
-## <a name="limitations"></a>Limitations
+## <a name="limitations"></a>Limites
 
 Avant d’utiliser des étiquettes de sensibilité pour Teams, faites attention aux limitations suivantes :
 

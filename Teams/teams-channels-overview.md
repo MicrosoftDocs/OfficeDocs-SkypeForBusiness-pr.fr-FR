@@ -24,7 +24,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
 ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/14/2021
 ms.locfileid: "49865168"
@@ -99,7 +99,7 @@ Microsoft Teams est idéal pour éliminer les structures organisationnelles et p
 |Relations publiques     |Communiqués de presse<br></br>Actualité et mises à jour<br></br>Vérification des faits         |Flux RSS<br></br>Twitter         |
 |Planification d'événements     |Marketing<br></br>Logistique et planification<br></br>Salle<br></br>Budget         |Twitter<br></br>Facebook<br></br>Planificateur<br></br>fichier PDF ;         |
 |Marketing/Commercialisation   |Recherche de marché<br></br>Piliers de messagerie<br></br>Plan de communications<br></br>Nomenclature Marketing        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|Opérations techniques    |Gestion des incidents<br></br>Planification d'itération<br></br>Éléments de travail<br></br>Infrastructure et opérations         |Services Équipe<br></br>Jira<br></br>AzureBot         |
+|Opérations techniques    |Gestion des incidents<br></br>Planification d'itération<br></br>Éléments de travail<br></br>Infrastructure et opérations         |Services d'équipe<br></br>Jira<br></br>AzureBot         |
 |Équipe de produit      |Stratégie<br></br>Marketing<br></br>Ventes<br></br>Opérations<br></br>Informations<br></br>Services et support technique         |Power BI<br></br>Services d'équipe         |
 |Finances    |Exercice fiscal en cours<br></br>Planificiatin de l'excercice fiscal<br></br>Prévisions<br></br>Comptes débiteurs<br></br>Comptes payables         |Power BI<br></br>Google Analytics         |
 |Logistique     |Opérations d'entrepôt<br></br>Maintenance des véhicules<br></br>Registre des conducteurs         |Service météo<br></br>Perturbations de déplacement / trafic<br></br>Planificateur<br></br>Tubot<br></br>UPS Bot         |

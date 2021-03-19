@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez si audioconférence, système téléphonique, forfaits d’appels, crédits de communication et numéros de téléphone gratuits et gratuits sont disponibles dans un pays ou une région.
-ms.openlocfilehash: ddca7c26d6a645108deeb8776f08141d99943447
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818794"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875124"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -159,7 +159,7 @@ Vous pouvez sélectionner un pays ou une région pour voir quelles fonctionnalit
 
 Si vous recherchez une feuille de calcul avec tous les pays et toutes les régions, téléchargez et enregistrez la feuille de calcul de disponibilité des **[pays/régions](https://www.microsoft.com/download/details.aspx?id=102271)** de la fonctionnalité Voix Cloud.
 
-**_
+***
 
 Une fois que vous avez vérifié si l’un des services Skype Entreprise ou Microsoft Teams est disponible, vous pouvez consulter les licences des modules [add-on Skype](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) Entreprise et Microsoft Teams pour vous aider à acheter des licences et à les affecter à vos utilisateurs.
 
@@ -171,20 +171,20 @@ Une fois que vous avez vérifié si l’un des services Skype Entreprise ou Micr
 
 ### <a name="audio-conferencing"></a>Audioconférence
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Skype Entreprise et Microsoft Teams incluent la fonction d’audioconférence pour cette situation ! Il est possible de rejoindre des réunions en utilisant un téléphone au lieu des applications Skype Entreprise et Microsoft Teams sur un appareil mobile ou un PC. Lorsque vous décidez que vous souhaitez l’Audioconférence pour votre organisation, achetez une licence _ *Audioconférence** pour chaque personne de votre organisation qui planifiera/organisera une réunion audio.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Skype Entreprise et Microsoft Teams incluent la fonction d’audioconférence pour cette situation ! Il est possible de rejoindre des réunions en utilisant un téléphone au lieu des applications Skype Entreprise et Microsoft Teams sur un appareil mobile ou un PC. Lorsque vous décidez que vous souhaitez l’Audioconférence pour votre organisation, achetez une licence **d’audioconférence** pour chaque personne de votre organisation qui planifiera/organisera une réunion audio.
   
 Avec l’audioconférence, certains numéros de téléphone gratuits et gratuits peuvent être utilisés par vos utilisateurs pour se rendre aux réunions. Les numéros de téléphone des pays ou régions suivants sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros gratuits et gratuits peuvent être attribués à votre organisation pour des villes supplémentaires.
 
 > [!IMPORTANT]
-> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone pour les appels entrants sont disponibles dans votre pays/région, accédez à **Centre d’administration Skype Entreprise** > **Voix** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez un numéro gratuit **dans** la liste **État/Région.**
+> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone pour les appels entrants sont disponibles dans votre pays/région, accédez à **Centre d’administration Skype Entreprise** > **Voix** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez un numéro **gratuit dans** la liste **État/Région.**
 
 Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-common-questions.md)
 
-[Tarification pour l’audioconférence,](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+[Tarification pour l’audioconférence,](https://go.microsoft.com/fwlink/?linkid=799762)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Utilisation de la fonctionnalité M’appeler ou lors de l’ajout d’autres personnes à une réunion afin de pouvoir y participer
 
-Dans l’audioconférence, la fonctionnalité «*M’appeler*» permet aux autres personnes de participer à une réunion rendez-vous. Utilisez la liste de listes dans cet article pour rechercher le pays/la région et voir si cette fonctionnalité est disponible.
+Dans l’audioconférence, la fonctionnalité *«* M’appeler » permet aux autres personnes de participer à une réunion rendez-vous. Utilisez la liste de listes dans cet article pour rechercher le pays/la région et voir si cette fonctionnalité est disponible.
 
 > [!CAUTION]
 > Il est parfois impossible d’appeler des numéros gratuits ou gratuits, car certains numéros d’appel gratuits fonctionnent uniquement à l’intérieur d’un pays ou d’une région. Par exemple, si vous appelez depuis les États-Unis vers un numéro gratuit au Brésil, l’appel peut ne pas aboutir car l’appel ne provenait pas du Brésil ou d’une région spécifique au Brésil. La possibilité d’appeler des numéros gratuits varie considérablement en fonction des restrictions liées aux numéros gratuits composés. Malheureusement, nous ne pouvons pas contrôler ce comportement et, par conséquent, votre expérience peut varier en fonction du numéro gratuit composé et des restrictions qui s’appliquent au numéro gratuit.
@@ -227,7 +227,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 Nous vous recommandons de configurer les crédits de communications pour les utilisateurs de votre audioconférence et de nos forfaits d’appels qui ont besoin de la possibilité d’appeler **n’importe quelle destination**. De nombreux pays/régions sont compris, mais il est possible que certaines destinations ne soient pas comprises dans votre forfait d'appel ou d’audioconférence.
   
-Si vous ne définissez pas les crédits de communication et n’attribuez pas de licence aux utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre pays/région), ils ne pourront plus appeler ou sortir d’une réunion. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
+Si vous ne définissez pas les crédits de communication et si vous n’attribuez pas de licence aux utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre pays/région), ils ne pourront plus appeler ou sortir d’une réunion. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>Sujets associés
 

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles pour les participants à la réunion prévues par les utilisateurs.
-ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726429"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875164"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
 
@@ -170,7 +170,7 @@ L’application Calendrier du canal s’affiche dans la section **Applications M
 
 La planification de réunions privées est une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées en Teams. Une réunion est privée lorsque celle-ci n’est pas publiée dans un canal d’une équipe.
 
-Si vous désactivez autoriser la planification de réunions privées et Autoriser la planification de réunions de **canal,** les **options** Ajouter des participants **obligatoires** et Ajouter un canal sont désactivées pour les **utilisateurs** dans Teams. Par défaut, ce paramètre est activé.
+Si vous désactivez autoriser la planification de réunions **privées** et Autoriser la planification de réunions de **canal,** les **options** Ajouter des participants **obligatoires** et Ajouter un canal sont désactivées pour les utilisateurs dans Teams. Par défaut, ce paramètre est activé.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
 
@@ -208,7 +208,7 @@ Voici comment les paramètres autoriser la **transcription** et **Autoriser l’
 
 ### <a name="allow-cloud-recording"></a>Autoriser l’enregistrement dans le Cloud
 
-Autoriser l’enregistrement cloud est contrôlé sur une stratégie par utilisateur. Ce paramètre contrôle si un utilisateur peut enregistrer. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant si son paramètre de stratégie spécifique est désactivé et s’il s’agit d’un utilisateur authentifié de la même organisation que l’organisateur.
+Autoriser l’enregistrement cloud est contrôlé par une stratégie par utilisateur. Ce paramètre contrôle si un utilisateur peut enregistrer. L’enregistrement peut être démarré par l’organisateur de la réunion ou un autre participant si son paramètre de stratégie spécifique est désactivé et s’il s’agit d’un utilisateur authentifié de la même organisation que l’organisateur.
 
 Les personnes extérieures à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent ni démarrer ni arrêter l’enregistrement.
 
@@ -222,7 +222,7 @@ Examinons l’exemple suivant.
 |Geneviève | Location1MeetingPolicy | Activé|
 |John (utilisateur externe) | Non applicable | Non applicable|
 
-Daniela, même si elle était l’organisateur ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions, y compris celles organisées par Daniela. Si Tous les organisateurs deaient organiser une réunion, elle sera en mesure d’enregistrer cette réunion. En revanche, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peut pas enregistrer cette réunion.
+Daniela, même si elle était l’organisateur ne peut pas enregistrer, car sa stratégie est définie sur Off. Celui-ci, qui a activé le paramètre de stratégie, peut enregistrer les réunions, y compris celles organisées par Daniela. Si Tous les organisateurs de la réunion avaient lieu, elle sera en mesure d’enregistrer cette réunion. En revanche, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peut pas enregistrer cette réunion.
 
 Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
@@ -319,7 +319,7 @@ La stratégie la plus restrictive entre la stratégie de l’organisateur de la 
 
 #### <a name="teams-mobile-clients"></a>Clients mobiles Teams
 
-Pour les utilisateurs sur les clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion est déterminée par le paramètre autoriser les vidéos **IP** ou **le mode vidéo IP.** Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
+Pour les utilisateurs de clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion est déterminée par le paramètre autoriser les vidéos **IP** ou **le mode vidéo IP.** Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Vitesse de transmission du média (Ko)
 
@@ -459,10 +459,10 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
-Il s'agit d'une stratégie par organisateur qui permet une participation téléphonique à la conférence sans chef de file. Ce paramètre détermine si les utilisateurs des appels entrants peuvent rejoindre la réunion sans utilisateur authentifié de l’organisation. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs des appels entrants attendent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Il s’agit d’une stratégie par organisateur qui autorise les réunions sans classement. Ce paramètre contrôle si les utilisateurs non authentifiés peuvent participer à la réunion sans qu’un utilisateur authentifié de l’organisation soit présent. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs anonymes patientent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
-> Si ce paramètre est désactivé et qu’un utilisateur de participation a rejoint la réunion pour la première fois et est placé dans la salle d’attente, l’utilisateur d’une organisation doit participer à la réunion avec un client Teams pour admettre l’utilisateur de la salle d’attente. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.
+> Si ce paramètre est désactivé et qu’un utilisateur anonyme rejoint la réunion en premier et est placé dans la salle d’accueil, l’utilisateur de l’organisation doit rejoindre la réunion avec un client Teams pour admettre l’utilisateur à partir de la salle d’accueil. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.
 
 ### <a name="automatically-admit-people"></a>Admettre les personnes automatiquement
 
@@ -576,7 +576,7 @@ Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de l
 
 ## <a name="meeting-policy-settings---meeting-reactions"></a>Paramètres de stratégie de réunion - Réactions aux réunions
 
-Le paramètre AllowMeetingReactions ne peut être appliqué qu’à l’aide de PowerShell. Il n’existe aucune option permettant d’option Permettant d’autoriserMeetingReactions d’être ou non disponible à partir du Centre d’administration Teams.
+Le paramètre AllowMeetingReactions ne peut être appliqué qu’à l’aide de PowerShell. Il n’existe aucune option permettant d’autoriser Ou de ne pas autoriser AllowMeetingReactions à partir du Centre d’administration Teams.
 
 Par défaut, les réactions aux réunions sont off. La non-utilisation des réactions d’un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il programme. L’organisateur de la réunion peut toujours activer les réactions à partir de la page d’option de la réunion, quel que soit le paramètre par défaut.
 

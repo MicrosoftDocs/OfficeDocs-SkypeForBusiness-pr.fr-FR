@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63cd853b8a068e7acfc5752e3cd94b5d0102bc2f
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
+ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944589"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875044"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Talkie-walkie dans Microsoft Teams
 
@@ -35,7 +35,7 @@ Grâce au Talkie-walkie dans Teams, les employés en ligne peuvent désormais co
 
 ### <a name="deploying-walkie-talkie"></a>Déploiement de Talkie-walkie
 
-Actuellement, le Talkie-walkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le Talkie-walkie à la stratégie de configuration d’application qui est affectée aux utilisateurs à partir du Centre d’administration [](teams-app-setup-policies.md)   [Teams.](https://admin.teams.microsoft.com/)
+Actuellement, le Talkie-walkie n’est pas préinstallé. Pour activer cette fonctionnalité pour les utilisateurs de votre organisation, vous devez ajouter le Talkie-walkie à la stratégie de configuration d’application qui est affectée aux utilisateurs à partir du Centre [](teams-app-setup-policies.md)   d’administration [Teams.](https://admin.teams.microsoft.com/)
 
 Une fois activée, le Talkie-walkie sera disponible sur l’application Android dans les 48 heures.
 
@@ -45,7 +45,7 @@ Dans le Centre d’administration Microsoft Teams, sous Stratégies de configura
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Section Applications épinglées et bouton Ajouter des applications à sélectionner.":::
 
-Dans le **panneau Ajouter des applications épinglées** qui apparaît à droite, utilisez la zone de texte Rechercher pour rechercher talkie-walkie.  Lorsque vous l’avez comme résultat  de recherche, cliquez sur le bouton Ajouter à droite du nom pour l’ajouter à votre liste.
+Dans le **panneau Ajouter des applications épinglées** qui apparaît à droite, utilisez la zone de texte Rechercher pour rechercher talkie-walkie.  Lorsque vous l’avez comme résultat  de recherche, sélectionnez le bouton Ajouter à droite du nom pour l’ajouter à votre liste.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Affiche la barre latérale Ajouter des applications épinglées avec le walkie entré dans le volet de recherche et l’application Talkie-walkie dans les résultats de recherche, avec le bouton Ajouter à côté.":::
 
@@ -69,7 +69,7 @@ Comme indiqué ci-dessus, la qualité des médias en temps réel sur un réseau 
 - **Perte de paquets** - Souvent définie comme le pourcentage de paquets perdus dans une période donnée. La perte de paquets affecte directement la qualité audio, de petits paquets individuels perdus, pratiquement sans impact, aux pertes en rafale dos-à-dos à l’origine de coupures audio complètes.
 - **Gigue** - Il s’agit de la variation moyenne de délai entre les paquets successifs.
 
-L’utilisation attendue des données de Talkie-walkie est d’environ 20 Kbits/s lors de l’envoi ou de la réception d’audio. Lorsqu’elles sont inactives, l’utilisation attendue des données de Talkie-walkie est en veille.
+L’utilisation attendue des données de Talkie-walkie est d’environ 20 Kbits/s lors de l’envoi ou de la réception de fichiers audio. Lorsqu’elles sont inactives, l’utilisation attendue des données de Talkie-walkie est en veille.
 
 ### <a name="walkie-talkie-devices"></a>Talkie-walkie
 

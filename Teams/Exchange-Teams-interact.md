@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661899"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874894"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -64,8 +64,7 @@ Le tableau suivant fournit un aide-mémoire utile sur la disponibilité de la fo
 
 <sup>6</sup> Seul les contacts dans le dossier des contacts par défaut. L’accès aux autres dossiers et sous-dossiers de contacts n’est pas pris en charge.
 
-<sup>7</sup> Teams respecte le paramètre [Stratégie de boîte aux lettres Outlook sur le web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur photo de profil. Par exemple, si un utilisateur télécharge une photo de profil approuvée par le service informatique ou le service des ressources humaines de votre organisation, aucune action n’est requise. Cependant, si un utilisateur charge une image inappropriée, modifiez-la en fonction des stratégies internes de votre organisation.
-
+<sup>7</sup> Teams respecte le paramètre [Stratégie de boîte aux lettres Outlook sur le web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) qui est configuré par les administrateurs de clients pour contrôler si les utilisateurs peuvent modifier leur photo de profil. Si le paramètre **-SetPhotoEnabled** est désactivé dans la stratégie, les utilisateurs ne peuvent pas ajouter, modifier ou supprimer leur image de profil, de sorte que l’image de porfile ne sera pas synchronisée avec les équipes si l’administrateur modifie la photo.
 <sup>8</sup> Vous devez remplir les conditions énumérées dans la section [Configuration requise pour créer et afficher des réunions pour les boîtes aux lettres hébergées localement](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft Teams

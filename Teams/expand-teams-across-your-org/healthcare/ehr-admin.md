@@ -23,17 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125777"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875174"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
 Le connecteur de dossier médical informatisé (DMI) de Microsoft Teams permet aux cliniciens de lancer facilement une visite virtuelle d'un patient ou de consulter un autre fournisseur dans Teams, directement à partir du système DMI. Conçus sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce à des outils de conversation, vidéo, vocal et de santé au même endroit qui prend en charge la conformité avec les lois HIPAA, la certification HITECH, etc.
 La plateforme de communication et de collaboration de Teams permet aux membres de l’équipe de réduire l’encombrement des systèmes fragmentés, de sorte qu’ils peuvent consacrer du temps à fournir les meilleurs soins possibles. Le connecteur de dossier médical informatisé (DMI) Microsoft Teams peut :
+
 - Lancer les visites virtuelles Teams à partir des portails des fournisseurs et des patients.
 - Réinscrire dans le DMI des métadonnées sur les événements de connexion et de déconnexion pour permettre un audit automatique et la conservation des enregistrements.
 - S'intégrer aux flux de travail existants des cliniciens et des patients tout en leur permettant d'utiliser Microsoft Teams.
@@ -65,7 +66,7 @@ Vous aurez également besoin des informations des membres suivants de votre orga
 - Analyse des clients
 
 > [!Note]
-> Demandez à votre spécialiste technique Epic de vous fournir le guide d'intégration de téléconsultation Epic-Microsoft Teams disponible sur la place de marché Epic.
+> Examinez [le guide d’intégration de la téléhealthe de Microsoft Teams-Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) à l’aide de votre spécialiste technique Sous-site. Assurez-vous que toutes les conditions préalables sont terminées. 
 
 ## <a name="connector-setup"></a>Configuration des connecteurs
 

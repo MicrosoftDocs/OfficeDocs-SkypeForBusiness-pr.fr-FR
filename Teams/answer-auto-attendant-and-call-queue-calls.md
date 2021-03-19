@@ -1,6 +1,6 @@
 ---
 title: Répondre aux appels du attendant automatique et de la file d’attente d’appels
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: cca068ab1194a48eb775550e4bf3f99826d82d2a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766858"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874664"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -50,16 +50,18 @@ Une fois qu’un attendant automatique ou un appel de la file d’attente d’ap
 > [!NOTE] 
 > Les appels de la file d’attente ne sont pas transmis en fonction de la configuration de l’utilisateur. Ceci permet de s’assurer que les appelants restent dans la file d’attente jusqu’à ce qu’un agent puisse répondre à l’appel et que l’appelant ne soit pas transmis de manière inattendue.
 
+> Les agents sont informés des appels manqués ou des messages vocaux pour les appels de la file d’attente d’appels.
+
 ## <a name="supported-clients"></a>Clients pris en charge
 
 La prise en charge du service de support automatique et des appels en file d’attente est disponible dans les clients suivants :
 
 -    Client Windows Microsoft Teams (versions 32 et 64 bits)
--    Client Microsoft Teams Pour Mac
+-    Client Microsoft Teams Mac
 -    Application Microsoft Teams pour iPhone
 -    Application Microsoft Teams pour Android
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurer le support automatique et la file d’attente d’appels pour Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurer le support de la file d’attente automatique et du support des files d’attente pour Microsoft Teams
 
 Pour recevoir des appels de attendant automatique et de file d’attente sur Microsoft Teams, vous devez configurer votre stratégie d’interopérabilité et de mise à niveau. Consultez la [migration et l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise.](migration-interop-guidance-for-teams-with-skype.md) Si vous n’avez pas de attendant automatique et/ou de file d’attente d’appels configuré et souhaitez le faire, consultez Configurer un attendant [automatique](create-a-phone-system-auto-attendant.md) cloud et Créer une file d’attente d’appels [cloud.](create-a-phone-system-call-queue.md)
 
@@ -68,7 +70,7 @@ Pour recevoir des appels de attendant automatique et de file d’attente sur Mic
 Lorsqu’un agent de la file d’attente d’appels reçoit un appel sur son appareil mobile, les appels peuvent être mis en attente si l’appareil est verrouillé. L’utilisateur doit tout d’abord déverrouiller l’appareil, puis répondre à l’appel.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 -    [Qu’est-ce que Phone System dans Microsoft 365 ou Office 365 ?](what-is-phone-system-in-office-365.md)
 -    [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)

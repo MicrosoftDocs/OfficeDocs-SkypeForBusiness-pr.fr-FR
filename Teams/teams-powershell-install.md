@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569110"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874804"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installer Microsoft Teams PowerShell
 
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Répondez **Oui** ou **Oui à Tous pour** poursuivre l’installation.
+Répondez **Oui** **ou Oui à Tous pour** poursuivre l’installation.
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Installer la prévisualisation publique de Teams PowerShell
@@ -74,7 +74,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 Pour installer la prévisualisation publique de Teams PowerShell, exécutez la commande PowerShell ci-dessous.
 
 > [!NOTE]
-> Vous pouvez trouver la dernière version d’aperçu dans la [galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou dans PowerShell en exécutant « Find-Module MicrosoftTeams -AllowPrerelease »
+> Vous pouvez trouver la dernière version d’aperçu dans la [galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou dans PowerShell en exécutant « Find-Module MicrosoftTeams -AllowPrerelease -AllVersions »
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -114,9 +114,22 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>Se connectez à l’aide de l’authentification multifacteur et de l’authentification moderne
+
+ Si votre compte utilise l’authentification multifacteur, utilisez les étapes de cette section.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
+Import-PsSession $session
+```
+
 ## <a name="update-teams-powershell"></a>Mettre à jour Teams PowerShell
 
-Pour mettre à jour Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell avec élévation de élévation de niveau, puis exécutez la commande suivante :
+Pour mettre à jour Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell avec élévation de élévation de niveau, puis exécutez l’une des commandes suivantes :
 
 ```powershell
 Update-Module MicrosoftTeams
@@ -142,7 +155,7 @@ Uninstall-Module MicrosoftTeams
 
 Vous êtes maintenant prêt à gérer Teams à l’aide de Teams PowerShell. Consultez [Gérer les équipes avec Teams PowerShell](teams-powershell-managing-teams.md) pour commencer.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gestion des équipes avec Teams PowerShell](teams-powershell-managing-teams.md)
 

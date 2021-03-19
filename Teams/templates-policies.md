@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les modèles Teams dans le Centre d’administration
-ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
-ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
+ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50765827"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875134"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Gérer les modèles Teams dans le Centre d’administration
 
@@ -36,7 +36,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Créer des stratégies de modèle et attribuer des modèles disponibles
 
-1. Connectez-vous au Centre d’administration Teams.
+1. Se connecter au Centre d’administration de Microsoft Teams.
 
 2. Développer les  >  **stratégies des modèles** Teams.
 
@@ -52,20 +52,20 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 2. Dans la table **Modèles consultables,** sélectionnez les modèles que vous voulez masquer, puis **Masquer.**
 
-    ![Les modèles sélectionnés avec Masquer mis en évidence](media/template-policies-2.png)
+    ![Modèles sélectionnés avec Masquer mis en évidence](media/template-policies-2.png)
 
     Vous pouvez voir les modèles que vous avez sélectionnés pour masquer dans la table **Modèles masqués.**
 
 1. Pour voir certains modèles, faites défiler jusqu’à la table **Modèles masqués.**
 
-1. Sélectionnez les modèles à afficher, puis **sélectionnez Afficher.**
+2. Sélectionnez les modèles à afficher, puis **sélectionnez Afficher.**
 
    ![Les modèles sélectionnés qui ne sont pas masqués](media/template-policies-3.png)
 
    Les modèles sélectionnés apparaissent dans votre table **de modèles consultables.**
 3. Sélectionnez **Enregistrer**.
 
-   Votre nouvelle stratégie de modèle s’affiche dans la liste **Stratégies de** modèles.
+   Votre nouvelle stratégie de modèle est affichée dans la liste **Stratégies de** modèles.
 
 ## <a name="assign-users-to-the-template-policies"></a>Attribuer des utilisateurs aux stratégies de modèle
 
@@ -132,7 +132,7 @@ R : Non, la gestion des modèles dans PowerShell n’est pas prise en charge.
 
 R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 

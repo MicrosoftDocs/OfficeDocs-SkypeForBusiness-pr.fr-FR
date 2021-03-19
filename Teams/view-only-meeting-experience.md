@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867063"
+ms.locfileid: "50875054"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en affichage seul dans Teams
 
 > [!Note]
-> Des diffusions en affichage seul seront disponibles dans Microsoft 365 E3/E5 et Microsoft 365 A3/A5. Cette fonctionnalité sera activée par défaut le 1er mars 2021. Cette fonctionnalité dans les plans Microsoft 365 Government G3/G5 sera disponible ultérieurement. Vous devez modifier la stratégie par défaut après cette date si vous souhaitez que la fonctionnalité par défaut soit sous l’option. Utilisez PowerShell pour activer la `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` stratégie.
+> Les diffusions en affichage seul sont disponibles dans Microsoft 365 E3/E5 et Microsoft 365 A3/A5. Cette fonctionnalité sera activée par défaut le 1er mars 2021. La fonctionnalité de Microsoft 365 Government Community Cloud (GCC) sera mise en place à la fin du mois de mars 2021. GccH (Government Community Cloud High) et Department of Defense (DoD) seront publiés ultérieurement. Vous devez modifier la stratégie par défaut après cette date si vous souhaitez que la fonctionnalité par défaut soit sous l’option. Utilisez PowerShell pour activer la `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` stratégie.
 
 > [!Note]
 > Si la capacité de réunion ou de webinaire atteint sa capacité, Teams s’adaptera sans problème à une expérience de diffusion en affichage seul de 10 000 personnes. De plus, à cette période de travail à distance accrue, tirez parti de plus de 20 000 diffusions encore plus grandes jusqu’à la fin de cette année.

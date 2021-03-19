@@ -16,16 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: bda768865d3deda5dac6c0162141dfc3852d8aa3
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d99f6c0ea90e5de0cefec3d40c6fc599e0aae9f0
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461024"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875014"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft Teams
 
 Ces notes de publication fournissent des informations sur les nouvelles fonctionnalités d’administration de Microsoft Teams.
+
+## <a name="february-22-2021"></a>22 février 2021
+
+### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>Les onglets personnalisés (LOB) sont disponibles pour les clients DoD
+
+Les clients DoD peuvent désormais télécharger et déployer leurs propres applications Teams personnalisées.
 
 ## <a name="february-18-2021"></a>18 février 2021
 
@@ -41,7 +47,7 @@ Microsoft Teams permet à jusqu’à 10 000 participants de participer à une r�
 
 ## <a name="january-27-2021"></a>27 janvier 2021
 
-### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams - Intégration à EHR
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
 Nous avons mis à jour l’interface du connecteur Microsoft Teams Electronic Health Record (EHR) et du connecteur qui permet aux américains de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. [En savoir plus](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
 
@@ -61,7 +67,7 @@ Teams est en cours d’exécution même lorsque vous êtes hors connexion ou dan
 
 ### <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
-L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams. L’application Approbations permet d’apporter un moyen simple d’audit, de conformité, d’imputation et de flux de travail à des approbations structurées et non structurées dans Teams. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams. L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
 
 ## <a name="january-15-2021"></a>15 janvier 2021
 
@@ -101,13 +107,13 @@ La fonctionnalité parcours d’apprentissage vous permet de créer un modèle d
 
 Microsoft Teams offre un certain nombre de fonctionnalités utiles pour les hôpitals et autres organisations de soins de santé, notamment :
 
-- Visites virtuelles et intégration de l’enregistrement médicaux électronique (EHR)
-- Packages de stratégie Teams
+- Visites virtuelles et intégration du dossier médical informatisé (DMI)
+- Packages de stratégies Teams
 - Messagerie sécurisée
 - Modèles Teams
-- Coordination et collaboration pour les soins
+- Coordination et collaboration avec les soins
 
-Cette fonctionnalité fait partie de Microsoft Cloud pour les soins de santé. [En savoir plus](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+Cette fonctionnalité fait partie du Microsoft Cloud pour le secteur de la santé. [En savoir plus](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
 
 ## <a name="october-27-2020"></a>27 octobre 2020
 
@@ -371,7 +377,7 @@ Si un utilisateur n’est pas encore inscrit à son compte Microsoft 365, il est
 
 ### <a name="monitor-shifts-with-audit-logs"></a>Surveiller des shifts avec les journaux d’audit
 
-Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité Shifts dans votre organisation. [En savoir plus](https://docs.microsoft.com/microsoftteams/audit-log-events).
+Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité shifts au niveau de votre organisation. [En savoir plus](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11 juin 2020
 
