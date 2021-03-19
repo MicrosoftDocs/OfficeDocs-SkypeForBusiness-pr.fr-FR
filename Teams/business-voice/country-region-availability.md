@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170603"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861418"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Pays et régions dans lesquels Business Voice est disponible
 
@@ -56,7 +56,7 @@ Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec
 | États-Unis        | X                                    | X<sup>1</sup>                                               | X                      |
 | Argentine            |                                      | X                                                           |                        |
 | Australie            |                                      | X                                                           |                        |
-| Autriche              |                                      | X                                                           |                        |
+| Autriche              | X                                    | X                                                           |                        |
 | Belgique              |                                      | X                                                           |                        |
 | Bosnie-Herzégovine |                                      | X                                                           |                        |
 | Brésil               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec
 | Croatie              |                                      | X                                                           |                        |
 | Chypre               |                                      | X                                                           |                        |
 | République tchèque       |                                      | X                                                           |                        |
-| Danemark              |                                      | X                                                           |                        |
+| Danemark              | X                                    | X                                                           |                        |
 | République dominicaine   |                                      | X                                                           |                        |
 | Équateur              |                                      | X                                                           |                        |
 | Égypte                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec
 | Indonésie            |                                      | X                                                           |                        |
 | Irlande              |                                      | X                                                           |                        |
 | Israël               |                                      | X                                                           |                        |
-| Italie                |                                      | X                                                           |                        |
+| Italie                | X                                    | X                                                           |                        |
 | Japon                |                                      | X<sup>2</sup>                                               |                        |
 | Jordanie               |                                      | X                                                           |                        |
 | Kenya                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec
 | Pérou                 |                                      | X                                                           |                        |
 | Philippines          |                                      | X                                                           |                        |
 | Pologne               |                                      | X                                                           |                        |
-| Portugal             |                                      | X                                                           |                        |
+| Portugal             | X                                    | X                                                           |                        |
 | Porto Rico          |                                      | X                                                           |                        |
 | Qatar                |                                      | X                                                           |                        |
 | Roumanie              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec
 | Corée du Sud          |                                      | X                                                           |                        |
 | Espagne                |                                      | X                                                           |                        |
 | Sri Lanka            |                                      | X                                                           |                        |
-| Suède               |                                      | X                                                           |                        |
-| Suisse          |                                      | X                                                           |                        |
+| Suède               | X                                    | X                                                           |                        |
+| Suisse          | X                                    | X                                                           |                        |
 | Taïwan               |                                      | X                                                           |                        |
 | Thaïlande             |                                      | X                                                           |                        |
 | Trinité-et-Tobago  |                                      | X                                                           |                        |

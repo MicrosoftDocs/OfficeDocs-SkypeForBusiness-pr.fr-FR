@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c99bed1ef9a1862b469dd5214b8d829bde8479b
-ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
+ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50096927"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861408"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exporter du contenu avec les API Microsoft Teams Export
 
@@ -69,7 +69,7 @@ Voici quelques exemples sur l’utilisation de ces API d’exportation :
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Conditions préalables pour accéder aux API Teams Export 
 
-- Les API Teams Export sont actuellement en prévisualisation. Elle ne sera disponible que pour les utilisateurs et clients titulaires des [licences requises pour](https://aka.ms/teams-changenotification-licenses) les API. À l’avenir, Microsoft pourra exiger que vous ou vos clients payiez des frais supplémentaires en fonction du volume de données accessible via l’API.
+- Les API Teams Export sont actuellement en prévisualisation. Elle ne sera disponible que pour les utilisateurs et clients titulaires des [licences requises pour](https://aka.ms/teams-changenotification-licenses) les API. À l’avenir, Microsoft pourra exiger que vous ou vos clients payiez des frais supplémentaires en fonction du montant des données accessibles via l’API.
 - Dans Microsoft Graph, les API Microsoft Teams qui accèdent à des données sensibles sont considérées comme des API protégées. Pour pouvoir les utiliser, les API d’exportation nécessitent une validation supplémentaire, au-delà des autorisations et du consentement. Pour demander l’accès à ces API protégées, remplissez le [formulaire de demande.](https://aka.ms/teamsgraph/requestaccess)
 - Les autorisations d’application sont utilisées par les applications qui s’exécutent sans présentation d’utilisateur inscrit ; autorisations d’application ne peuvent être autorisées que par un administrateur. Les autorisations suivantes sont nécessaires :
 
@@ -98,13 +98,17 @@ Espace de noms : microsoft.graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "string (identifier)",
-                    "displayName": "string",
+
+                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
+                    "displayName": "User Name",
+
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "string (identifier)"
+
+"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",

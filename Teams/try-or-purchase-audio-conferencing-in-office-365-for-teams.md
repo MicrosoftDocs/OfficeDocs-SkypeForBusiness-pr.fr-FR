@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Découvrez comment essayer ou acheter des licences d’audioconférence (PSTN Conferencing) pour Microsoft 365 ou Office 365 afin de configurer des téléconférences que les personnes peuvent composer. '
-ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701202"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867023"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayer ou acheter l’audioconférence dans Microsoft 365 pour Microsoft Teams
 
@@ -37,7 +37,7 @@ Parfois, des personnes de votre organisation devront utiliser un téléphone pou
 
 Il vous suffit de configurer l’audioconférence pour les personnes qui prévoient de planifier ou de mener des réunions. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
-Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://www.microsoft.com/microsoft-teams/audio-conferencing?rtc=3).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1 : acheter et affecter des licences d’audioconférence
 
@@ -96,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Activer Teams dans votre organisation](office-365-set-up.md)
 
