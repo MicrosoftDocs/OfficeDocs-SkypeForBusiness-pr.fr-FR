@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196468"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867043"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 
 L’expérience Microsoft Teams Exploratory permet aux utilisateurs de Azure Active Directory (AAD) de votre organisation qui n’ont pas de licence Teams de lancer l’expérience de l’exploration de Teams. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. La précédente [Version d'évaluation dans le cloud commercial Microsoft](iw-trial-teams.md) est désormais remplacée par l'expérience exploratoire Teams.
+
+> [!NOTE]
+> La limite est de 100 licences Microsoft Teams pour chaque client.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Qu’est-ce que l’expérience exploratoire Teams ?
 
@@ -131,8 +134,8 @@ Pour désactiver la licence de l’expérience Teams Exploratory:
 
 4. Dans le volet **Licences de produit**, sélectionnez **Désactivé** pour cette licence exploratoire.
 
-    >[!Note]
-    >Le commutateur de bascule exploratoire Teams apparaît une fois que le premier utilisateur de l’organisation a lancé l’expérience exploratoire Teams.
+    > [!NOTE]
+    > Le commutateur de bascule exploratoire Teams apparaît une fois que le premier utilisateur de l’organisation a lancé l’expérience exploratoire Teams.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Gérer Teams pour les utilisateurs disposant d’une licence exploratoire Teams
 
@@ -180,4 +183,9 @@ A partir de début 2021, Teams exploratoire est disponible sous la forme d'un ab
 
 À la fin de l'abonnement de 12 mois, les administrateurs doivent convertir tous les utilisateurs de Teams exploratoire en une licence payante qui inclut Teams. Il est essentiel de s’assurer que cette opération se termine avant l’expiration de l’abonnement Teams exploratoire Pour éviter toute interruption de l’expérience de l’utilisateur.
 
+
+> [!NOTE]
+> Les clients seront désactivés et bloqués pour le démarrage d’une nouvelle licence d’évaluation de Exploratory pendant 3 mois après l’expiration de la licence d’évaluation Exploratory précédente.
+
 Pour plus d’informations, consultez la rubrique [Mise à niveau des utilisateurs à partir de licence Teams exploratoire](#upgrade-users-from-the-teams-exploratory-license), plus haut dans cet article.
+
