@@ -3,7 +3,6 @@ title: Planifier des événements en direct dans Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569236"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884578"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -45,7 +44,7 @@ Voici les licences à attribuer pour organiser, produire ou présenter un évén
 
 - **Pour organiser :** licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, **[ou]** licence Microsoft ou Office 365 Éducation A3 ou A5. 
 - **Pour produire ou présenter :** licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, **[ou]** licence Microsoft ou Office 365 Éducation A1, A3 ou A5. L’exception à cette condition est la suivante : les utilisateurs invités peuvent se présenter sans licence s’ils remplissent les autres critères pour les [utilisateurs invités](plan-for-teams-live-events.md#guest-to-present).
-- Licence Microsoft Teams : elle fait partie des licences répertoriées dans les première et seconde puces.
+- Licence Microsoft Teams : cette licence fait partie des licences répertoriées dans les première et seconde puces.
 - Une licence Microsoft Stream est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
   Les utilisateurs n’ont pas besoin de licence Microsoft Stream affecté si vous voulez que les utilisateurs enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais stockés dans Azure Media Services (AMS) avec une limite de 180 jours avant sa suppression. À ce stade, un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
@@ -80,7 +79,7 @@ L’utilisateur doit disposer des éléments suivants :
 
 ### <a name="guest-to-present"></a>[Invité à présenter](#guest-to-present)
 
-Pour qu'un invité soit présent dans un événement en direct, procédez comme suit :
+Pour qu'un invité fasse une présentation dans un événement en direct, procédez comme suit :
 
 1. [Ajoutez l’utilisateur en tant qu’invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Demandez à l’utilisateur d’accepter l’invitation invité et de rejoindre l’équipe.
@@ -165,9 +164,10 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 **Emplacement des données pour ces pays/régions (pris en charge)**
 
 - Australie
+- Brésil
 - Canada
-- Allemagne
 - France
+- Allemagne
 - Inde
 - Japon
 - Afrique du Sud
@@ -178,10 +178,9 @@ Vous pouvez utiliser les événements en direct Teams dans plusieurs régions da
 
 **Ces pays/régions et cloud ne sont pas pris en charge**
 
-- Brésil
 - Norvège
 - Government Community Cloud (GCC)-H
-- DOD
+- Département de la Défense (DoD)
 
 **Exclusions et points à prendre en compte**
 
@@ -194,6 +193,6 @@ Accédez à[Configurer les événements en direct Teams](set-up-for-teams-live-e
 
 ### <a name="related-topics"></a>Sujets associés
 
-- [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
+- [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md)

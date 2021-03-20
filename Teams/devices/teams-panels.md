@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Cet article fournit une vue d’ensemble et des fonctionnalités pris en charge par les panneaux Microsoft Teams.
-ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875074"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937851"
 ---
 # <a name="microsoft-teams-panels"></a>Panneaux Microsoft Teams
 
@@ -31,7 +31,7 @@ Les panneaux Teams sont des appareils Microsoft Teams dédiés qui affichent les
 
 Cet article fournit une vue d’ensemble des panneaux Teams et peut vous aider à planifier, fournir et gérer les panneaux Teams dans votre organisation.
 
-## <a name="features-supported-by-teams-panels"></a>Fonctionnalités pris en charge par les panneaux Teams
+## <a name="features-supported-by-teams-panels"></a>Fonctionnalités prise en charge par les panneaux Teams
 
 Les panneaux Teams supportent les fonctionnalités suivantes :
 
@@ -109,9 +109,9 @@ Pour configurer un compte de ressource Microsoft 365 pour les panneaux Teams, no
 
 > [!NOTE]
 >
->- Si vous avez déjà un compte de ressource de salle déjà créé pour l’espace de réunion où vous installez des panneaux, utilisez le même compte de ressource de salle pour vous connectez sur le périphérique des panneaux. Toutefois, assurez-vous que la licence Microsoft Teams Salles Standard est attribuée au compte de ressource de salle afin de l’utiliser en tant que compte de ressource de panneaux.
+>- Si vous avez déjà un compte de ressource de salle déjà créé pour l’espace de réunion où vous installez des panneaux, utilisez le même compte de ressource de salle pour vous connectez sur le périphérique des panneaux. Toutefois, assurez-vous que la licence Microsoft Teams Salles Standard est attribuée au compte de ressource de salle afin de pouvoir l’utiliser en tant que compte de ressource de groupe.
 >
->- Si vous avez déjà des salles Microsoft Teams déployées dans l’espace de réunion où sont installés les panneaux Teams, vous n’avez pas besoin d’acheter une licence distincte pour le déploiement de panneaux. L’administrateur se signe sur l’appareil des panneaux avec les mêmes informations d’identification que les salles Microsoft Teams pour le même espace.
+>- Si vous avez déjà des salles Microsoft Teams déployées dans l’espace de réunion où sont installés les panneaux Teams, vous n’avez pas besoin d’acheter une licence distincte pour le déploiement de panneaux. L’administrateur se connecté au périphérique des panneaux avec les mêmes informations d’identification que les salles Microsoft Teams pour le même espace.
 >
 >- Pour les espaces de réunion de grande taille, tels que les salles de conférence ou les salles de conférence, avec plusieurs entrées, vous pouvez monter un panneau à chaque entrée. Plusieurs panneaux qui appartiennent à un espace de réunion unique partagent le même compte de ressource et se connectent avec les mêmes informations d’identification. Vous n’avez pas besoin de créer des comptes de ressources distincts pour chaque panneaux pour le même espace.
 
@@ -136,5 +136,7 @@ Pour gérer vos écrans Teams, dans le panneau de navigation gauche du Centre d�
 [Blog Microsoft Teams sur les écrans de Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Commencer avec les panneaux Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Place de marché des panneaux Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
 
 [Appareils certifiés dans le programme de certification des panneaux Microsoft Teams](teams-ip-phones.md#currently-certified-teams-panels)

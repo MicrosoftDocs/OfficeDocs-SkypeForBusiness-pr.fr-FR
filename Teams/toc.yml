@@ -541,130 +541,56 @@ items:
         href: cortana-in-teams.md
       - name: Configurer la hiérarchie de ciblage de votre équipe
         href: set-up-your-team-hierarchy.md
-  - name: Réunions et conférences
+  - name: 'Réunions, conférences, et événements en direct'
     items:
       - name: "Démarrage rapide\_: réunions et événements en direct"
         href: quick-start-meetings-live-events.md
       - name: Planifier votre déploiement
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Salles Microsoft Teams
+      - name: Réunions
         items:
-          - name: Vue d’ensemble
-            href: rooms/index.md
-          - name: Service géré de salles Microsoft Teams
-            items:
-              - name: Gestion du plan
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: Contrôle d'accès basé sur les rôles
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-          - name: Planification
-            items:
-              - name: Présentation de la planification des Salles Microsoft Teams
-                href: rooms/rooms-plan.md
-              - name: Prise en charge de la version
-                href: rooms/rooms-lifecycle-support.md
-              - name: Notes de publication
-                href: rooms/rooms-release-note.md
-              - name: Préparer votre environnement
-                href: rooms/rooms-prep.md
-              - name: Conditions requises
-                href: rooms/requirements.md
-              - name: Sécurité
-                href: rooms/security.md
-              - name: Gestion des licences en ligne
-                href: rooms/rooms-licensing.md
-              - name: Planifier la gestion avec Azure Monitor
-                href: rooms/azure-monitor-plan.md
-          - name: Déployer
-            items:
-              - name: Vue d’ensemble du déploiement
-                href: rooms/rooms-deploy.md
-              - name: Configurer les comptes
-                href: rooms/rooms-configure-accounts.md
-              - name: "Surface\_Hub"
-                items:
-                  - name: Configurer Optimisation de réunion
-                    href: rooms/coordinated-meetings.md
-                  - name: "Gérer les paramètres de Microsoft\_Teams"
-                    href: rooms/surface-hub-manage-config.md
-              - name: "Avec Office\_365"
-                href: rooms/with-office-365.md
-              - name: Avec Skype Entreprise Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: "Avec Exchange\_Online (hybride)"
-                href: rooms/with-exchange-online.md
-              - name: Avec Exchange local (hybride)
-                href: rooms/with-exchange-on-premises.md
-              - name: Configurer une console
-                href: rooms/console.md
-              - name: Mise à jour manuelle d'un appareil
-                href: rooms/manual-update.md
-              - name: Configuration de l’authentification
-                href: rooms/rooms-authentication.md
-              - name: Participer à des réunions tierces
-                href: rooms/third-party-join.md
-              - name: À l'aide de Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: Gestion avec Azure Monitor
-                href: rooms/azure-monitor-deploy.md
-              - name: Migrer SRS v1 ou LRS
-                href: rooms/lrs-migration.md
-              - name: Caméras de contenu
-                href: rooms/content-camera.md
-          - name: Gestion
-            items:
-              - name: Vue d’ensemble de la gestion
-                href: rooms/rooms-manage.md
-              - name: Maintenance et opérations
-                href: rooms/rooms-operations.md
-              - name: Support de Teams au sein de votre organisation
-                href: rooms/known-issues.md
-              - name: Appareils avec Azure Monitor
-                href: rooms/azure-monitor-manage.md
-              - name: Paramètres avec un fichier XML
-                href: rooms/xml-config-file.md
-              - name: Utiliser l’outil de récupération
-                href: rooms/recovery-tool.md
-      - name: Gérer les stratégies de réunion
-        href: meeting-policies-in-teams.md
-      - name: Supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs
-        href: meeting-policies-restricted-anonymous-access.md
-      - name: Gérer les paramètres de réunions
-        href: meeting-settings-in-teams.md
-      - name: Messages électroniques envoyés aux utilisateurs lors de la modification de leurs paramètres
-        href: emails-sent-to-users-when-their-settings-change-in-teams.md
-      - name: Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion
-        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-      - name: Activer ou désactiver les annonces d’entrée et de sortie des réunions
-        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-      - name: Utiliser la technologie NDI® dans Teams
-        href: use-NDI-in-meetings.md
-      - name: Option de lever de main lors de réunions Teams
-        href: raise-hand-meetings.md
-      - name: Réunions Teams sur les navigateurs non pris en charge
-        href: unsupported-browsers.md
-      - name: Configurer le partage de bureau dans Teams
-        href: configure-desktop-sharing.md
-      - name: Enregistrement de réunion cloud Teams
-        href: cloud-recording.md
-      - name: Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
-        href: tmr-meeting-recording-change.md
-      - name: Intégrations au Centre de contacts
-        href: teams-contact-center.md
-      - name: Utiliser le complément Réunion Teams dans Outlook
-        href: teams-add-in-for-outlook.md
-      - name: Configurer l'application Skype pour les réunions afin de travailler avec des Teams
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Configurer la fonctionnalité M’appeler pour vos utilisateurs
-        href: set-up-the-call-me-feature-for-your-users.md
-      - name: Recevoir un rapport de participation à une réunion
-        href: teams-analytics-and-reports/meeting-attendance-report.md
-      - name: Configuration de Meeting Migration Service (MMS)
-        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Gérer le tableau blanc dans Teams
-        href: manage-whiteboard.md
-      - name: Configurer un module complémentaire de réunion Teams pour Google Workspace
-        href: google-workspace-addon-teams.md
+          - name: Gérer les stratégies de réunion
+            href: meeting-policies-in-teams.md
+          - name: Supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs
+            href: meeting-policies-restricted-anonymous-access.md
+          - name: Gérer les paramètres de réunions
+            href: meeting-settings-in-teams.md
+          - name: Messages électroniques envoyés aux utilisateurs lors de la modification de leurs paramètres
+            href: emails-sent-to-users-when-their-settings-change-in-teams.md
+          - name: Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: Activer ou désactiver les annonces d’entrée et de sortie des réunions
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: Utiliser la technologie NDI® dans Teams
+            href: use-NDI-in-meetings.md
+          - name: Option de lever de main lors de réunions Teams
+            href: raise-hand-meetings.md
+          - name: Réunions Teams sur les navigateurs non pris en charge
+            href: unsupported-browsers.md
+          - name: Configurer le partage de bureau dans Teams
+            href: configure-desktop-sharing.md
+          - name: Enregistrement de réunion cloud Teams
+            href: cloud-recording.md
+          - name: Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
+            href: tmr-meeting-recording-change.md
+          - name: Intégrations au Centre de contacts
+            href: teams-contact-center.md
+          - name: Utiliser le complément Réunion Teams dans Outlook
+            href: teams-add-in-for-outlook.md
+          - name: Configurer l'application Skype pour les réunions afin de travailler avec des Teams
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: Configurer la fonctionnalité M’appeler pour vos utilisateurs
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: Recevoir un rapport de participation à une réunion
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: Configuration de Meeting Migration Service (MMS)
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Gérer le tableau blanc dans Teams
+            href: manage-whiteboard.md
+          - name: Configurer un module complémentaire de réunion Teams pour Google Workspace
+            href: google-workspace-addon-teams.md
+          - name: Interopérabilité de la vidéo cloud
+            href: cloud-video-interop.md
       - name: Audioconférence
         items:
           - name: Planifier votre déploiement
@@ -755,8 +681,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Vidéos – Audioconférence dans Teams
                 href: audio-conferencing-videos.md
-      - name: Interopérabilité de la vidéo cloud
-        href: cloud-video-interop.md
       - name: Événements en direct
         items:
           - name: "Que sont les événements en direct Teams\_?"
@@ -771,6 +695,84 @@ items:
             href: teams-live-events/configure-teams-live-events.md
           - name: Stratégies d’enregistrement des événements en direct
             href: teams-live-events/live-events-recording-policies.md
+      - name: Salles Microsoft Teams
+        items:
+          - name: Vue d’ensemble
+            href: rooms/index.md
+          - name: Service géré de salles Microsoft Teams
+            items:
+              - name: Gestion du plan
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Contrôle d'accès basé sur les rôles
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: Planification
+            items:
+              - name: Présentation de la planification des Salles Microsoft Teams
+                href: rooms/rooms-plan.md
+              - name: Prise en charge de la version
+                href: rooms/rooms-lifecycle-support.md
+              - name: Notes de publication
+                href: rooms/rooms-release-note.md
+              - name: Préparer votre environnement
+                href: rooms/rooms-prep.md
+              - name: Conditions requises
+                href: rooms/requirements.md
+              - name: Sécurité
+                href: rooms/security.md
+              - name: Gestion des licences en ligne
+                href: rooms/rooms-licensing.md
+              - name: Planifier la gestion avec Azure Monitor
+                href: rooms/azure-monitor-plan.md
+          - name: Déployer
+            items:
+              - name: Vue d’ensemble du déploiement
+                href: rooms/rooms-deploy.md
+              - name: Configurer les comptes
+                href: rooms/rooms-configure-accounts.md
+              - name: "Surface\_Hub"
+                items:
+                  - name: Configurer Optimisation de réunion
+                    href: rooms/coordinated-meetings.md
+                  - name: "Gérer les paramètres de Microsoft\_Teams"
+                    href: rooms/surface-hub-manage-config.md
+              - name: "Avec Office\_365"
+                href: rooms/with-office-365.md
+              - name: Avec Skype Entreprise Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: "Avec Exchange\_Online (hybride)"
+                href: rooms/with-exchange-online.md
+              - name: Avec Exchange local (hybride)
+                href: rooms/with-exchange-on-premises.md
+              - name: Configurer une console
+                href: rooms/console.md
+              - name: Mise à jour manuelle d'un appareil
+                href: rooms/manual-update.md
+              - name: Configuration de l’authentification
+                href: rooms/rooms-authentication.md
+              - name: Participer à des réunions tierces
+                href: rooms/third-party-join.md
+              - name: À l'aide de Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: Gestion avec Azure Monitor
+                href: rooms/azure-monitor-deploy.md
+              - name: Migrer SRS v1 ou LRS
+                href: rooms/lrs-migration.md
+              - name: Caméras de contenu
+                href: rooms/content-camera.md
+          - name: Gestion
+            items:
+              - name: Vue d’ensemble de la gestion
+                href: rooms/rooms-manage.md
+              - name: Maintenance et opérations
+                href: rooms/rooms-operations.md
+              - name: Support de Teams au sein de votre organisation
+                href: rooms/known-issues.md
+              - name: Appareils avec Azure Monitor
+                href: rooms/azure-monitor-manage.md
+              - name: Paramètres avec un fichier XML
+                href: rooms/xml-config-file.md
+              - name: Utiliser l’outil de récupération
+                href: rooms/recovery-tool.md
   - name: "Voix\_: système téléphonique et connectivité PSTN"
     items:
       - name: Planifier votre solution vocale Teams
@@ -1440,14 +1442,6 @@ items:
     items:
       - name: Spécifications et limites de Teams
         href: limits-specifications-teams.md
-      - name: "Migrer de Kaizala vers Microsoft\_Teams"
-        items:
-          - name: Prise en main
-            items:
-              - name: Programmez votre migration
-              - name: Préparer votre organisation pour Teams
-              - name: Implémenter votre migration
-                href: implement-your-move.md
       - name: Licences
         items:
           - name: "Gérer l’accès des utilisateurs à Microsoft\_Teams"

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles pour les participants à la réunion prévues par les utilisateurs.
-ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
+ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875164"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929550"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
 
@@ -127,7 +127,7 @@ Autoriser le add-in Outlook est une stratégie par utilisateur qui s’applique 
 
 ![Capture d’écran montrant la possibilité de planifier une nouvelle réunion](media/meeting-policies-outlook-add-in.png)
 
-Si vous désactivez cette option, les utilisateurs ne peuvent pas planifier. Réunions Teams lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
+Si vous la désactiverez, les utilisateurs ne pourront pas planifier le programme. Réunions Teams lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions pour les canaux
 
@@ -193,7 +193,7 @@ Cette stratégie met en place la transcription en direct. Autoriser la transcrip
 
 ![Options de transcription dans les stratégies de réunion](media/live-transcription.png)
 
-La transcription en direct affiche le texte de reconnaissance vocale du contenu parlé pendant une réunion Teams en temps quasi réel. Le texte apparaît à côté de la vidéo de la réunion, y compris le nom du haut-parleur et l’heure. Pour en savoir plus, [consultez la transcription en direct dans une réunion Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+La transcription en direct affiche le texte de reconnaissance vocale du contenu parlé pendant une réunion Teams en temps quasi réel. Le texte apparaît à côté de la vidéo de la réunion, y compris le nom du haut-parleur et l’heure. Pour en savoir plus, [consultez la transcription en direct dans une réunion Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live)
 
 Actuellement, la transcription en direct est prise en charge sur le client de bureau Teams. La transcription est prise en charge pour l’anglais parlé aux États-Unis. La transcription est disponible après la réunion sur la version de bureau ou web de Teams.
 
@@ -250,7 +250,7 @@ Le mode pour la vidéo IP est une stratégie par utilisateur. Ce paramètre dét
 |Valeur du paramètre |Comportement  |
 |---------|---------|
 |**Vidéo sortante et entrante activée**    | La vidéo sortante et entrante est autorisée dans la réunion est le paramètre par défaut. |
-|**Désactivé**     | Les éléments vidéio entrants et sortants sont désactivés pendant la réunion. Sur les clients mobiles Teams, les utilisateurs ne peuvent pas partager de vidéos ou de photos pendant la réunion. <br><br>Notez que si le **Mode pour audio sur IP** est désactivé, puis le **Mode pour la vidéo sur IP** reste également désactivé.  |
+|**Désactivé**     | Les éléments vidéio entrants et sortants sont désactivés pendant la réunion. Sur les clients mobiles Teams, les utilisateurs ne peuvent pas partager de vidéos ou de photos pendant la réunion. <br><br>Si **le mode de l’audio IP** est désactivé, le mode pour la vidéo **IP** le reste également.  |
 
 Si défini sur **désactivé** pour un utilisateur, cet utilisateur ne peut pas activer la vidéo ni afficher les vidéos partagées par les autres participants à la réunion. Les participants à la réunion qui n’ont pas de stratégie attribuée (par exemple, les participants anonymes) ont ce paramètre sur **Vidéo sortante et entrante activée** par défaut.
 
@@ -459,7 +459,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
-Il s’agit d’une stratégie par organisateur qui autorise les réunions sans classement. Ce paramètre contrôle si les utilisateurs non authentifiés peuvent participer à la réunion sans qu’un utilisateur authentifié de l’organisation soit présent. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs anonymes patientent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
+Il s’agit d’une stratégie par organisateur qui autorise les réunions sans classement. Ce paramètre contrôle si les utilisateurs anonymes peuvent participer à la réunion sans qu’un utilisateur authentifié de l’organisation soit présent. Par défaut, ce paramètre est désactivé, ce qui signifie que les utilisateurs anonymes patientent dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié de l’organisation rejoigne la réunion.
 
 > [!NOTE]
 > Si ce paramètre est désactivé et qu’un utilisateur anonyme rejoint la réunion en premier et est placé dans la salle d’accueil, l’utilisateur de l’organisation doit rejoindre la réunion avec un client Teams pour admettre l’utilisateur à partir de la salle d’accueil. Il n’y a pas de contrôle de salle d’attente disponible pour les utilisateurs entrants.
