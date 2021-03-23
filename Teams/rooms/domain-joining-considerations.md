@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut découvrir comment joindre un PC d’appliance PC Skype Room System à un domaine Active Directory, ainsi que les considérations à prendre en considération.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 806dcac8f73f555227c03f7612f30fe4a598812f
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905436"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997412"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -30,15 +30,15 @@ Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype R
   
 ## <a name="domain-joining-considerations"></a>Remarques relatives à la jonction du domaine
 
-Vous pouvez joindre l’appliance PC de Skype Room System au domaine Active Directory ou le laisser dans un groupe de travail. Tenez compte des points suivants avant cette décision :
+Vous pouvez joindre l’appliance PC de Skype Room System au domaine Active Directory ou la laisser dans un groupe de travail. Tenez compte des points suivants avant cette décision :
   
-- Le fait de joindre un domaine à l’appliance PC de Skype Room System permet d’importer automatiquement la chaîne de certificats racine privé de votre organisation.
+- Le fait de joindre un domaine à l’appliance PC de Skype Room System permet d’importer automatiquement la chaîne de certificats racine privée de votre organisation.
 - Le fait de rejoindre un domaine sur l’appliance PC de Skype Room System vous permet d’accorder à des utilisateurs de domaine et à des groupes des droits d’administration. En procédant ainsi, vous n’aurez pas à retenir le mot de passe du compte administrateur au niveau de l’ordinateur local.
-- Lorsque vous joignez un PC d’appliance Skype Room System au domaine, vous devez créer une unité organisationnelle distincte afin de pouvoir fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets machine Skype Room System. Dans ce cas, créez des objets machine dans l’ou avant de joindre le PC d’appliance Skype Room System au domaine.
-- De nombreuses organisations ont les fonctions de groupe suivantes, qui affectent les fonctions d’appliance PC de Skype Room System. Assurez-vous de remplacer ou de bloquer l’héritage de ces éléments de groupe dans le système de salle Skype ou :
+- Lorsque vous joignez un PC d’équipement de Skype Room System au domaine, vous devez créer une unité organisationnelle distincte afin de pouvoir fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets machine Skype Room System. Dans ce cas, créez des objets machine dans l’ou avant de joindre le PC d’appliance Skype Room System au domaine.
+- De nombreuses organisations ont les fonctions de groupe suivantes, qui affectent les fonctions d’appliance PC de Skype Room System. Assurez-vous de remplacer ou de bloquer l’héritage de ces éléments de groupe dans le système de salle Skype OU :
 
   - Délai d’ouverture de sessions (verrouillage automatique)
-  - Stratégies connexes de gestion de l’alimentation
+  - Stratégies liées à la gestion de l’alimentation
   - Besoin d’étapes d’authentification supplémentaires
   - Accès aux lecteurs locaux refusé
   - Inviter les utilisateurs à des connexions réseau lentes
@@ -48,21 +48,21 @@ Vous pouvez joindre l’appliance PC de Skype Room System au domaine Active Dire
     
 - En guise d’alternative, vous pouvez décider de laisser l’appareil PC dans le groupe de travail. Comme pour le client de bureau Microsoft Teams ou Skype Entreprise, vous devez importer manuellement la chaîne de certificats racine sur l’appliance PC de l’appliance Skype Room System. Vous n’êtes pas obligé d’importer la chaîne de certificats racine si votre déploiement utilise un certificat public (par exemple, Confie, VeriSign, et ainsi de suite). 
     
-Si vous envisagez d’associer des ordinateurs Skype Room System au domaine, pour éviter de rejoindre l’ordinateur Skype Room System par inadvertance à une ou plusieurs personnes non souhaitées, qui ne sont peut-être pas libres des noms de groupe, assurez-vous de participer à l’ou ou correcte. Vous pouvez utiliser l’cmdlet suivante à partir de l’ordinateur Skype Room System pour rejoindre le système d’exploitation correct et ne recevez pas d’os de stratégie de groupe qui peuvent bloquer la fonctionnalité LRS. Contactez votre administrateur système ou partenaire OEM pour exécuter ces applets de commande :
+Si vous envisagez d’associer des ordinateurs Skype Room System au domaine, pour éviter de rejoindre l’ordinateur Skype Room System par inadvertance à une ou plusieurs équipes qui ne sont peut-être pas libres d’un groupe de gpos, assurez-vous de participer à l’ou ou correcte. Vous pouvez utiliser l’cmdlet suivante à partir de l’ordinateur Skype Room System pour participer au bon ou et ne reçoit pas d’os de stratégie de groupe qui peuvent bloquer la fonctionnalité LRS. Contactez votre administrateur système ou votre partenaire OEM pour exécuter ces cmdlets :
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Même si vous créez une unité organisationnelle distincte et que vous bloquez l’héritage, il existe certaines stratégies qui pourraient entraîner des problèmes à un niveau supérieur. Une stratégie de groupe sans aucun paramètre de remplacement bat une unité organisationnelle avec un paramètre Bloquer l’héritage de stratégies. Pour plus d’informations, voir [l’article](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) Non remplacer comparé à Bloquer l’héritage de stratégie dans la documentation sur les stratégies de groupe.
+Même si vous créez une ou plusieurs stratégies distinctes et bloquez l’héritage, certaines stratégies peuvent entraîner des problèmes à un niveau supérieur. Une stratégie de groupe sans aucun paramètre de remplacement bat une unité organisationnelle avec un paramètre Bloquer l’héritage de stratégies. Pour plus d’informations, [voir Non remplacer par comparaison avec](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) Bloquer l’héritage de stratégie dans la documentation sur les stratégies de groupe.
   
-Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory afin de vous assurer que vous disposez d’une unité organisationnelle aux paramètres GPO appropriés, ou au moins d’une unité organisationnelle dans laquelle les stratégies décrites précédemment n’existent pas. Il est recommandé d’activer la qualité de service (QoS) pour les appareils Skype Room System.
+Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory pour vous assurer que vous disposez d’une équipe d’experts qui dispose des paramètres d’environnement de groupe appropriés, ou au moins d’une équipe dans laquelle les stratégies décrites précédemment n’existent pas. Il est déconseillé d’activer la qualité de service (QoS) pour les appareils Skype Room System.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
   
 [Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[Gestion de la qualité de service](/skypeforbusiness/plan-your-deployment/network-requirements/network-requirements.#managing-quality-of-service)
+[Gestion de la qualité de service](/skypeforbusiness/plan-your-deployment/network-requirements/network-requirements#managing-quality-of-service)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale cloud pour vos utilisateurs. '
-ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: fa30184d38822141d0f30404fb55b79eefd5d33d
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662209"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997422"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -37,7 +37,7 @@ Cet article est pour l’administrateur Microsoft 365 ou [](https://docs.microso
 > La messagerie vocale cloud prend en charge le dépôt de messages vocaux uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. 
 
 > [!NOTE]
-> Quand un délégué répond à un appel au nom d’un délégant, les notifications ne sont pas disponibles dans la messagerie vocale cloud. Les utilisateurs peuvent recevoir des notifications d’appel manqué.
+> Lorsqu’un délégué répond à un appel au nom d’un délégant, les notifications ne sont pas disponibles dans la messagerie vocale cloud. Les utilisateurs peuvent recevoir des notifications d’appel manqué.
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>Environnements cloud uniquement : Configurer la messagerie vocale cloud pour les utilisateurs du système téléphonique en ligne
 
@@ -60,9 +60,9 @@ Pour configurer les utilisateurs de Skype Entreprise Server pour la messagerie v
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Activation de la messagerie vocale protégée dans votre organisation
 
-Lorsqu’un utilisateur laisse un message vocal pour un utilisateur de votre organisation, ce dernier est remis dans la boîte aux lettres de l’utilisateur sous la mesure d’une pièce jointe. En utilisant des règles de flux de courrier pour appliquer le chiffrement des messages, vous pouvez empêcher le courrier d’être transmis à d’autres destinataires. Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou dans Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Skype Entreprise ou Microsoft Teams.
+Lorsqu’un utilisateur laisse un message vocal pour un utilisateur de votre organisation, ce dernier est remis dans sa boîte aux lettres sous la mesure où il est joint à un message électronique. En utilisant des règles de flux de courrier pour appliquer le chiffrement des messages, vous pouvez empêcher le courrier d’être transmis à d’autres destinataires. Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou dans Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans Skype Entreprise ou Microsoft Teams.
 
-Pour plus d’informations sur le chiffrement des messages, voir [Chiffrement des messages.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)
+Pour plus d’informations sur le chiffrement des messages, voir [Chiffrement des e-mails.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 
 Pour configurer une messagerie vocale protégée, vous pouvez :
 
@@ -85,16 +85,49 @@ Pour configurer une messagerie vocale protégée, vous pouvez :
 
 La transcription de la messagerie vocale est activée par défaut et le masquage de la transcription est désactivé par défaut pour toutes les organisations et les utilisateurs ; toutefois, vous pouvez les contrôler à l’aide des applets de commande [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) et [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 
-Les messages vocaux reçus par des utilisateurs de votre organisation sont transcrits dans la région où votre organisation Microsoft 365 ou Office 365 est hébergée. La région dans laquelle votre client est hébergé peut ne pas être la même que la région où se trouve l’utilisateur qui reçoit le message vocal. Pour afficher la région dans laquelle votre client est hébergé, allez sur la [page](https://go.microsoft.com/fwlink/p/?linkid=2067339) de profil de l’organisation, puis cliquez sur Afficher les **détails** en regard de **l’emplacement des données.**
+Les messages vocaux reçus par des utilisateurs de votre organisation sont transcrits dans la région où votre organisation Microsoft 365 ou Office 365 est hébergée. La région dans laquelle votre client est hébergé peut ne pas être la même que la région où se trouve l’utilisateur qui reçoit le message vocal. Pour afficher la région dans laquelle votre client est hébergé, allez sur la [page](https://go.microsoft.com/fwlink/p/?linkid=2067339) profil de l’organisation, puis cliquez sur Afficher les **détails** en regard de **l’emplacement des données.**
 
 > [!IMPORTANT]
-> Vous ne pouvez pas créer une instance de stratégie pour la transcription et la transcription avec une utilisation de l’cmdlet **New-CsOnlineVoiceMailPolicy,** et vous ne pouvez pas supprimer une instance de stratégie existante à l’aide de l’cmdlet **Remove-CsOnlineVoiceMailPolicy.**
+> Vous ne pouvez pas créer une instance de stratégie pour la transcription ou la transcription avec une erreur de transcription à l’aide de l’cmdlet **New-CsOnlineVoiceMailPolicy,** et vous ne pouvez pas supprimer une instance de stratégie existante à l’aide de l’cmdlet **Remove-CsOnlineVoiceMailPolicy.**
 
 Vous pouvez régler les paramètres pour vos utilisateurs qui utilisent des stratégies relatives aux messages vocaux. Pour voir toutes les stratégies de messagerie vocale disponibles, vous pouvez utiliser l’cmdlet [Get-CsOnlineVoicemailPolicy.](https://technet.microsoft.com/library/mt798311.aspx)
 
- **PS C:\\> Get-CsOnlineVoicemailPolicy**
-  
-![Fenêtre Get-CsOnlineVoiceMailPolicy.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+```PowerShell
+PS C:\> Get-CsOnlineVoicemailPolicy
+
+
+Identity                            : Global
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:Default
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:TranscriptionProfanityMaskingEnabled
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : True
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:TranscriptionDisabled
+EnableTranscription                 : False
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+```
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Désactivation de la transcription pour votre organisation
 
@@ -137,7 +170,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Aider vos utilisateurs à découvrir les fonctionnalités de messagerie vocale de Teams
 
-Nous avons les informations suivantes pour vos utilisateurs sur la gestion de leurs paramètres de messagerie vocale ainsi que sur d’autres fonctionnalités d’appel dans Teams :
+Nous vous avons accès aux informations suivantes pour vos utilisateurs sur la gestion de leurs paramètres de messagerie vocale ainsi que sur d’autres fonctionnalités d’appel dans Teams :
 
 - [Gérez vos paramètres d’appel dans Teams.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) Cet article explique comment gérer toutes les fonctionnalités d’appel Teams à l’utilisateur final. 
 
@@ -149,7 +182,7 @@ Nous vous indions des informations de formation et des articles pour aider vos u
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)

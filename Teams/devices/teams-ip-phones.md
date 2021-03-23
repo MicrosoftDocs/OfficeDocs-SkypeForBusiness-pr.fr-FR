@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 4696adad4158013dbad3bf95355d329413e2d5e2
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2d72e9b71be6bab7c077a060a9828ad1f4175d74
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875084"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997452"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Appareils certifiés Microsoft Teams
 
@@ -51,7 +51,7 @@ Les appareils suivants sont certifiés dans le cadre du Programme de certificati
 | Crestron M100                          | Ce produit a été arrêté. Pour plus d’informations, visitez Le site web de [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) sur le site web de Crestron. | Arrêté (11/05/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | Ce produit a été arrêté. Pour plus d’informations, visitez [le téléphone UC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) sur le site web de Crestron.                  | Arrêté (11/05/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | Avril 2020                   |
-| Poly Premierc C60,Sin C60 NR, Celaa C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | Avril 2020                   |
+| Poly Premierc C60,Sin C60 NR, Série C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | Avril 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | Janvier 2020                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | Janvier 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Décembre 2019                |
@@ -67,16 +67,17 @@ Les appareils suivants sont certifiés dans le cadre du Programme de certificati
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Salles Teams actuellement certifiées sur Android
 
-Les appareils suivants sont certifiés sous Salles Microsoft Teams sur le programme de certification Android :
+Les appareils suivants sont certifiés sous salles Microsoft Teams sur le programme de certification Android :
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  | Taille de la salle                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | Yealink MeetingBar A30       | 133.15.0.52    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
-| Console tactile CTP18 Yealink  | 137.15.0.28    | Mars 2021 | Compatible avec la barre de réunions A20 et la barre de réunions A30 |
-| Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Poly Studio X30         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Poly Studio X50         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
+| Console tactile CTP18 Yealink  | 137.15.0.28    | Mars 2021 | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 |
+| Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Poly Studio X30         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Poly Studio X50         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Poly TC8                | 3.3.2.210441     | Mars 2021    | Compatible avec Poly Studio X30 et Poly Studio X50 |
+| Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 
 ## <a name="currently-certified-teams-displays"></a>Affichages de Teams actuellement certifiés
 
@@ -102,17 +103,17 @@ Voici les dernières versions du microprogramme et de l’application pour tél�
 
 | Version de produit | Date de publication  | Version de l’application Microsoft Teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Mettre à jour #7  | 8 décembre 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
-| Mettre à jour #6  | 12 octobre 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
-| Mettre à jour #5  | 31 août 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
-| Mettre à jour #4  | 30 juin 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Mettre à jour #3  | 13 mai 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
+| Mise à jour pour 2020 #7  | 8 décembre 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| Mise à jour pour 2020 #6  | 12 octobre 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
+| Mise à jour pour 2020 #5  | 31 août 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
+| Mise à jour pour 2020 #4  | 30 juin 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Mise à jour pour 2020 #3  | 13 mai 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
 Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du portail d’entreprise et de l’agent d’administration. Recherchez la version du produit dans la **colonne de** publication du produit inclus, puis recherchez la version du produit dans le tableau versions **précédentes des applications.**
 
-| Modèle d’appareil        | Version du microprogramme     | Version du produit incluse/année  |
+| Modèle d’appareil        | Version du microprogramme     | Version de produit incluse  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Mise à jour pour 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Mise à jour pour 2020 #7           |
@@ -138,19 +139,19 @@ Voici les dernières salles Teams sur l’application Android et les versions de
 
 | Version de produit| Date de publication | Version de l’application Microsoft Teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Mettre à jour #3  |24 novembre 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
-| Mettre à jour #2  | 24 août 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
-| Mise à jour #1  | 13 mai 2020 | .040901                     | .4715                  | .210                |
+| Mise à jour pour 2020 #3  |24 novembre 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
+| Mise à jour pour 2020 #2  | 24 août 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
+| Mise à jour pour 2020 #1  | 13 mai 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
 
-| Modèle d’appareil  | Version du microprogramme | Version du produit incluse/année |
+| Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.42     | 2020, mise à jour #3    |
-| Poly Studio X30 | 3.2.3.280012          | 2020, mise à jour #3    |
-| Poly Studio X50 | 3.2.3.280012          | 2020, mise à jour #3    |
+| Yealink VC210 + CP900 | 118.15.0.42     | Mise à jour pour 2020 #3    |
+| Poly Studio X30 | 3.2.3.280012          | Mise à jour pour 2020 #3    |
+| Poly Studio X50 | 3.2.3.280012          | Mise à jour pour 2020 #3    |
 
 ### <a name="product-release-information-for-teams-displays"></a>Informations de publication de produit pour les affichages Teams
 
@@ -160,15 +161,17 @@ Voici les dernières versions de l’application d’affichage et du microprogra
 
 |Version de produit| Date de publication | Version de l’application Microsoft Teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Mise à jour #1  |22 octobre 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+|Mise à jour pour 2021 #1  |18 mars 2021 |1449/1.0.95.2021021104    |5.0.5045.0            |1.0.0.202101280722.product|
+|Mise à jour pour 2020 #1  |22 octobre 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
 
-| Modèle d’appareil  | Version du microprogramme | Version du produit incluse/année|
+| Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
-|Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, mise à jour #1 |
+|Lenovo ThinkSmart View| CD-18781Y.210228.109 |Mise à jour pour 2021 #1 |
 
 
 ## <a name="more-resources"></a>Plus de ressources
