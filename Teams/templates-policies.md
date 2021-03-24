@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les modèles Teams dans le Centre d’administration
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875134"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093924"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Gérer les modèles Teams dans le Centre d’administration
 
@@ -54,7 +54,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
     ![Modèles sélectionnés avec Masquer mis en évidence](media/template-policies-2.png)
 
-    Vous pouvez voir les modèles que vous avez sélectionnés pour masquer dans la table **Modèles masqués.**
+    Vous pouvez voir les modèles que vous avez sélectionnés pour les masquer dans la table **Modèles masqués.**
 
 1. Pour voir certains modèles, faites défiler jusqu’à la table **Modèles masqués.**
 
@@ -65,7 +65,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
    Les modèles sélectionnés apparaissent dans votre table **de modèles consultables.**
 3. Sélectionnez **Enregistrer**.
 
-   Votre nouvelle stratégie de modèle est affichée dans la liste **Stratégies de** modèles.
+   Votre nouvelle stratégie de modèle s’affiche dans la liste **Stratégies de** modèles.
 
 ## <a name="assign-users-to-the-template-policies"></a>Attribuer des utilisateurs aux stratégies de modèle
 
@@ -90,7 +90,7 @@ Vous pouvez masquer jusqu’à 100 modèles par stratégie. Le **bouton** Masque
 
 **Q : Puis-je affecter par lots des utilisateurs à des stratégies de modèles d’équipe ?**
   
-R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [Pour en savoir plus](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [Pour en savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q : Les groupes peuvent-ils être affectés à des stratégies de modèles d’équipe ?**
 
@@ -110,9 +110,9 @@ R : Oui.
 
 1. Dans le Centre d’administration, voir **Utilisateurs.**
 1. Dans la table Liste d’utilisateurs, sélectionnez les utilisateurs que vous voulez affecter à une certaine stratégie de modèles.
-1. Sélectionnez Modifier les paramètres, puis modifiez le champ Stratégies templates.
+1. Sélectionnez Modifier les paramètres, puis modifiez le champ De stratégies Templates.
 1. Sélectionnez Appliquer.
-   En savoir plus [Sur l’affectation de stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs.](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
+   En savoir plus [Sur l’affectation de stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs.](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
 
 **Q : Comment afficher tous les utilisateurs affectés à une stratégie spécifique ?**
 
@@ -134,14 +134,14 @@ R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Utiliser des modèles d’équipe dans le Centre d’administration](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [Utiliser des modèles d’équipe dans le Centre d’administration](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [Créer un modèle d’équipe personnalisé](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [Créer un modèle d’équipe personnalisé](./create-a-team-template.md)
 
-- [Créer un modèle à partir d’une équipe existante](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [Créer un modèle à partir d’une équipe existante](./create-template-from-existing-team.md)
 
-- [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](./create-template-from-existing-template.md)
 
-- [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [Affecter des utilisateurs par lots à une stratégie](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Affecter des utilisateurs par lots à une stratégie](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

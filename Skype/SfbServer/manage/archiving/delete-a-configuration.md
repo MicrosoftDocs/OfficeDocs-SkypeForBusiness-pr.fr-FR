@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Résumé : Découvrez comment supprimer une configuration d’archivage dans Skype Entreprise Server.'
-ms.openlocfilehash: a9d24a17ec769f5686502beb325e021c8b0f39c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817624"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095408"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Supprimer une configuration d’archivage dans Skype Entreprise Server
 
@@ -70,4 +70,4 @@ Vous pouvez également utiliser l’cmdlet **Remove-CsArchivingConfiguration** p
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Remove-CsArchivingConfiguration.](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps)
+Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Remove-CsArchivingConfiguration.](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps)

@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Découvrez les fonctionnalités d’interopérabilité entre les utilisateurs de Teams dans votre organisation et les utilisateurs de Skype (grand public).
 localization_priority: Normal
-ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: e3203c03043dbcdb04370cf3aa26b435fad4a728
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055646"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093954"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams et Skype interoperability
 
@@ -57,14 +57,14 @@ Les utilisateurs de Skype peuvent rechercher et démarrer une conversation avec 
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Un utilisateur de Teams bloque ou débloque un utilisateur Skype
 
-Une fois qu’un utilisateur de Teams accepte ou bloque la demande de conversation initiale d’un utilisateur Skype, il peut décider de bloquer ou de débloquer cette personne à tout moment. Ils peuvent le faire dans la conversation ou dans leurs paramètres de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
+Une fois qu’un utilisateur de Teams accepte ou bloque la demande de conversation initiale d’un utilisateur Skype, il peut choisir de bloquer ou de débloquer cette personne à tout moment. Ils peuvent le faire dans la conversation ou dans leurs paramètres de confidentialité dans Teams. Les utilisateurs de Skype ne savent pas qu’ils ont été bloqués.
 
 Les utilisateurs Skype bloqués, ainsi que d’autres personnes et les numéros de téléphone commutés (PSTN) qu’un utilisateur de Teams a bloqués, sont répertoriés dans la liste des contacts bloqués de l’utilisateur dans Teams.
 
-## <a name="limitations"></a>Limitations
+## <a name="limitations"></a>Limites
 
 - Les conversations sont en texte seul. Cela signifie qu’il n’existe pas de mise en forme enrichie, de @mentions, d’emojis ou d’autres fonctionnalités de conversation disponibles dans une expérience de conversation [Teams native.](native-chat-for-external-users.md)
-- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas pris en charge.
+- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas prise en charge.
 - Les utilisateurs de Teams et de Skype ne peuvent pas voir la présence des autres utilisateurs.
 - La recherche d’utilisateurs Skype à l’aide de leur ID Skype ou de leur numéro de téléphone n’est pas prise en charge.
 - Les utilisateurs de Skype ne peuvent pas appeler les utilisateurs de Teams qui ont installé le forwarding d’appel vers le numéro d’un autre utilisateur, un numéro de délégué ou un numéro de réseau téléphonique commuté (PSTN).  Seul la messagerie vocale est prise en charge.
@@ -74,7 +74,7 @@ Les utilisateurs Skype bloqués, ainsi que d’autres personnes et les numéros 
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Définir si les utilisateurs de Teams peuvent communiquer avec les utilisateurs de Skype
 
-En tant qu’administrateur, vous utilisez le Centre d’administration Microsoft Teams ou PowerShell pour définir les paramètres d’accès externe afin de contrôler si les utilisateurs de Teams dans votre organisation peuvent communiquer avec les utilisateurs de Skype. Par défaut, cette fonctionnalité est désactivée pour les nouveaux locataires. Toutefois, l’enregistrement SRV DNS suivant doit être configuré par l’administrateur informatique s’il n’est pas déjà disponible pour votre domaine, par exemple _sipfederationtls.contoso.com.  
+En tant qu’administrateur, vous utilisez le Centre d’administration Microsoft Teams ou PowerShell pour définir les paramètres d’accès externe afin de contrôler si les utilisateurs de Teams dans votre organisation peuvent communiquer avec les utilisateurs de Skype. Par défaut, cette fonctionnalité est désactivée pour les nouveaux locataires. Toutefois, l’enregistrement SRV DNS suivant doit être configuré par l’administrateur informatique s’il n’est pas déjà disponible pour votre domaine, par exemple , _sipfederationtls.contoso.com.  
 
 **Service**: sipfederationtls<br/>
 **Protocole :** TCP<br/>
@@ -87,16 +87,16 @@ Si vous avez mis à niveau Skype Entreprise vers Teams, les paramètres de commu
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Dans le Centre d’administration Microsoft Teams
 
-Dans le Centre d’administration Microsoft Teams, accédez aux paramètres à l’échelle de l’organisation Accès externe, puis activer La fonction **Utilisateurs** peut  >  communiquer **avec les utilisateurs de Skype.** Pour obtenir une aide étape par étape sur la configuration de ce paramètre et d’autres paramètres d’accès externe, voir Gérer l’accès [externe dans Teams.](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)
+Dans le Centre d’administration Microsoft Teams, accédez aux paramètres à l’échelle de l’organisation Accès externe, puis activer La fonction **Utilisateurs** peut  >  communiquer **avec les utilisateurs de Skype.** Pour obtenir une aide étape par étape sur la configuration de ce paramètre et d’autres paramètres d’accès externe, voir Gérer l’accès [externe dans Teams.](./manage-external-access.md#allow-or-block-domains)
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
 Procédez comme suit : 
-1. Utilisez [l’cmdlet Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) avec le paramètre pour contrôler si les utilisateurs de Teams peuvent ```EnablePublicCloudAccess``` communiquer avec les utilisateurs de Skype. Définition du paramètre pour permettre ```true``` aux utilisateurs de Teams de communiquer avec les utilisateurs de Skype. Vous pouvez utiliser le ```EnablePublicCloudAudioVideoAccess``` paramètre pour activer/désactiver les appels audio/vidéo.
+1. Utilisez [l’cmdlet Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) avec le paramètre pour contrôler si les utilisateurs de Teams peuvent ```EnablePublicCloudAccess``` communiquer avec les utilisateurs de Skype. Définition du paramètre pour permettre ```true``` aux utilisateurs de Teams de communiquer avec les utilisateurs de Skype. Vous pouvez utiliser le ```EnablePublicCloudAudioVideoAccess``` paramètre pour activer/désactiver les appels audio/vidéo.
 
-2. Utilisez [l’cmdlet Set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) avec le paramètre set to (Définir le paramètre) pour que les utilisateurs de Teams communiquent ```Provider``` avec les ```"WindowsLive"``` utilisateurs de Skype.
+2. Utilisez [l’cmdlet Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) avec le paramètre set to (Définir le paramètre) pour que les utilisateurs de Teams communiquent ```Provider``` avec les ```"WindowsLive"``` utilisateurs de Skype.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer l’accès externe dans Teams](manage-external-access.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

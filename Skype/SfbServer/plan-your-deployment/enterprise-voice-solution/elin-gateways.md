@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 387b94ca59ef7750a80d06c88b371a0afef9313d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dd16270aa5a41e3ca50e92859bd1a789426e647b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834394"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092912"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 
@@ -35,10 +35,10 @@ Pour que Skype Entreprise Server fournisse automatiquement des emplacements pour
 
 - Téléchargez les numéros d’identification de l’emplacement en cas d’urgence vers la base de données ALI (Automatic Location Identification) de votre opérateur RTC.
 
-Pour plus d’informations sur l’exécution de ces tâches, voir [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur l’exécution de ces tâches, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
 
 > [!NOTE]
-> Les emplacements ajoutés à la base de données centrale des emplacements ne sont pas disponibles pour le client tant qu’ils n’ont pas été publiés à l’aide d’une commande Skype Entreprise Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, voir [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
+> Les emplacements ajoutés à la base de données centrale des emplacements ne sont pas disponibles pour le client tant qu’ils n’ont pas été publiés à l’aide d’une commande Skype Entreprise Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, voir [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) dans la documentation de déploiement.
 
 Cette section décrit les éléments à prendre en compte lorsque vous prévoyez de mettre à jour ou maintenir la base de données des emplacements.
 
@@ -62,11 +62,11 @@ Après avoir déterminé comment diviser l’espace de votre bâtiment en emplac
 
 **Exemples d’affectations d’emplacements et de numéros ELIN**
 
-|**Zone de l’immeuble**|**Emplacement**|**ELIN**|
+|**Zone de l’immeuble**|**Location**|**ELIN**|
 |:-----|:-----|:-----|
-|Premier étage  <br/> |1   <br/> |425-555-0100  <br/> |
-|Deuxième étage  <br/> |2   <br/> |425-555-0111  <br/> |
-|Troisième étage  <br/> |3   <br/> |425-555-0123  <br/> |
+|Premier étage  <br/> |1  <br/> |425-555-0100  <br/> |
+|Deuxième étage  <br/> |2  <br/> |425-555-0111  <br/> |
+|Troisième étage  <br/> |3  <br/> |425-555-0123  <br/> |
 
 Les emplacements définis doivent satisfaire les exigences suivantes :
 
@@ -86,9 +86,9 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
 En utilisant l’option Du service Informations sur l’emplacement secondaire pour vous connecter à une base de données tierce, vous pouvez grouper et gérer des emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service Informations d’emplacement peut retourner plusieurs adresses, provenant du service Informations d’emplacement secondaire, à un client Skype Entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
 
-Pour s’intégrer au service Informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Skype Entreprise Server. Pour plus d’informations, voir Service Web pour le protocole de prise en [charge E911.](https://go.microsoft.com/fwlink/p/?linkid=213819) Pour plus d’informations sur le déploiement d’un service Secondary Location Information, voir [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
+Pour s’intégrer au service Informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Skype Entreprise Server. Pour plus d’informations, voir Service Web pour le protocole de prise en [charge E911.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) Pour plus d’informations sur le déploiement d’un service Informations sur l’emplacement secondaire, voir [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
 
-Pour plus d’informations sur le renseignement de la base de données d’emplacements, voir [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur le renseignement de la base de données d’emplacements, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
 
 ## <a name="maintaining-the-location-database"></a>Mise à jour de la base de données d’emplacements
 
@@ -98,8 +98,6 @@ Une fois que vous avez renseigné la base de données des emplacements, vous dev
 
 L’ajout de points d’accès sans fil, le recâblage du bureau (qui implique des affectations de commutateur différentes) et l’extension des sous-réseaux font partie des nombreux scénarios qui requièrent la mise à jour de la base de données des emplacements. Mettrez-vous directement à jour chaque emplacement individuel ou effectuerez-vous une mise à jour en bloc de tous les emplacements en utilisant un fichier CSV ?
 
- **Allez-vous utiliser une application SNMP pour faire correspondre des adresses MAC client Skype Entreprise aux identificateurs de port et de commutateur ?**
+ **Allez-vous utiliser une application SNMP pour faire correspondre les adresses MAC client Skype Entreprise aux identificateurs de port et de commutateur ?**
 
 Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie une adresse IP de châssis ou un ID de port qui n’est pas inclus dans la base de données, le service Informations d’emplacement ne peut pas renvoyer un emplacement au client.
-
-

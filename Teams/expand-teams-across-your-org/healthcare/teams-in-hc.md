@@ -26,12 +26,12 @@ description: Découvrez les fonctionnalités de soins de santé telles que la t�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867033"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092682"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -43,14 +43,14 @@ Microsoft Teams offre un certain nombre de fonctionnalités de télémédecine u
 - Modèles Teams
 - Coordination et collaboration avec les soins
 
-Cette fonctionnalité fait partie du Microsoft Cloud pour le secteur de la santé. Apprenez-en davantage sur l’utilisation de cette solution qui regroupe les fonctionnalités d’Azure, Dynamics 365 et Microsoft 365 sur [Microsoft Cloud pour le secteur de la santé](https://docs.microsoft.com/industry/healthcare).
+Cette fonctionnalité fait partie du Microsoft Cloud pour le secteur de la santé. Apprenez-en davantage sur l’utilisation de cette solution qui regroupe les fonctionnalités d’Azure, Dynamics 365 et Microsoft 365 sur [Microsoft Cloud pour le secteur de la santé](/industry/healthcare).
 
 Regardez la vidéo suivante pour en savoir plus sur l'utilisation de la collection de soins de santé pour améliorer la collaboration des équipes de santé dans Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> Le contenu de cette section part du principe que vous avez déjà déployé Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](../../How-to-roll-out-teams.md).
+> Le contenu de cette section part du principe que vous avez déjà déployé Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](../../deploy-overview.md).
 
 Les scénarios suivants sont disponibles pour les organismes de santé :
 
@@ -99,7 +99,7 @@ La possibilité d'avoir d'autres clients fédérés par des organismes de santé
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Modèles Teams pour les organismes de santé
 
-De nouveaux modèles de création Teams ont été développés pour s’appliquer à un environnement d’hôpital. D’autres modèles seront bientôt créés. Cela facilite la création d’équipes que les travailleurs du secteur de la santé utilisent pour coordonner les soins des patients de différents services ou traitements. Pour en savoir plus, consultez [Prise en main des modèles Teams pour les organismes de santé](healthcare-templates.md). Teams peut être démarrées pour des services internes tels que le contrôle d’entreprise ou pour les soins. D’autres modèles sont en cours de développement.
+De nouveaux modèles de création Teams ont été développés pour s’appliquer à un environnement d’hôpital. D’autres modèles seront bientôt créés. Cela facilite la création d’équipes que les travailleurs du secteur de la santé utilisent pour coordonner les soins des patients de différents services ou traitements. Pour en savoir plus, consultez [Prise en main des modèles Teams pour les organismes de santé](./healthcare-templates-admin-console.md). Teams peut être démarrées pour des services internes tels que le contrôle d’entreprise ou pour les soins. D’autres modèles sont en cours de développement.
 
 ## <a name="care-coordination-and-collaboration"></a>Coordination et collaboration avec les soins
 

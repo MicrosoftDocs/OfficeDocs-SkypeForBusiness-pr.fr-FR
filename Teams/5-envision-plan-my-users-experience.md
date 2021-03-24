@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Choisissez les applications clientes Teams, planifiez la qualité du point de terminaison, obtenez des recommandations pour le déploiement de Wi-Fi points de terminaison et le choix d’appareils audio.
+description: Choisissez les applications clientes Teams, planifiez la qualité des points de terminaison, obtenez des recommandations pour le déploiement de Wi-Fi points de terminaison et le choix d’appareils audio.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 5d20d914ab6ceca1d264a23662c9c8a067798a82
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610019"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094732"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’expérience de mes utilisateurs
 
 Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience fiable et de haute qualité aux utilisateurs. 
 
-## <a name="client-deployment"></a>Déploiement du client
+## <a name="client-deployment"></a>Déploiement de client
 
-Microsoft Teams propose des clients web, de bureau (Windows et Mac) et mobiles (Android et iOS). Pour plus d’informations sur la façon dont les clients de bureau (Windows et Mac) et mobiles sont installés, consultez Obtenir [des clients pour Microsoft Teams.](https://docs.microsoft.com/microsoftteams/get-clients)
+Microsoft Teams propose des clients web, de bureau (Windows et Mac) et mobiles (Android et iOS). Pour plus d’informations sur la façon dont les clients de bureau (Windows et Mac) et mobiles sont installés, consultez Obtenir [des clients pour Microsoft Teams.](./get-clients.md)
 
 ## <a name="client-updates"></a>Mises à jour du client
 
@@ -53,12 +53,12 @@ Les conseils suivants sur la planification des points de terminaison vous aidero
 
 La première partie de la planification consiste à s’assurer que tous les PC et autres appareils de votre organisation peuvent exécuter Teams. Il ne s'agit pas seulement d'examiner les exigences matérielles, mais aussi de comprendre ce que le PC fait d'autre en arrière-plan. De nombreuses organisations utilisent d'autres logiciels, y compris les systèmes de détection d'intrusion et les logiciels antimalware, qui peuvent affecter les performances de base d'un appareil.
 
-Pour plus d’informations sur les conditions logicielles requises pour les clients Teams sur chaque plateforme (web, ordinateur de bureau et mobile), voir Obtenir [des clients pour Microsoft Teams.](https://docs.microsoft.com/microsoftteams/get-clients)
+Pour plus d’informations sur les conditions logicielles requises pour les clients Teams sur chaque plateforme (web, ordinateur de bureau et mobile), consultez Obtenir [des clients pour Microsoft Teams.](./get-clients.md)
 
 ## <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
 Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
-Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations dans les URL et [plages d’adresses IP Microsoft 365 ou Office 365.](https://aka.ms/o365ips) Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
+Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations dans les URL et [plages d’adresses IP Microsoft 365 ou Office 365.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
 
 >[!NOTE]
 > Les équipes Microsoft mettront automatiquement à jour le pare-feu Windows avec une configuration de pare-feu appropriée.
@@ -108,7 +108,7 @@ Un exercice de mappage personne à appareil devrait être effectué dans le cadr
 Une fois que vous avez sélectionné les appareils, incluez-les dans le plan d'essai pilote pour la validation finale. Tirez parti des sondages pendant le projet pilote pour recueillir des commentaires afin de vous assurer que la stratégie de votre appareil est optimale.
 
 > [!NOTE]
-> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher les périphériques certifiés dans le cadre de ce programme, consultez les [périphériques Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) et [les périphériques audio et vidéo USB.](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)
+> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour trouver les périphériques certifiés dans le cadre de ce programme, consultez les périphériques [Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) et les périphériques audio et [vidéo USB.](/SkypeForBusiness/certification/devices-usb-devices)
 
 
 

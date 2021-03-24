@@ -21,27 +21,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb824c7082679591b3fa39a1c8a4b13152e0cc75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0594317c21f3ef2a30d1772959458f33bef393eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532521"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094380"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les applications offrent des outils pré-pratiques pour votre organisation afin de mieux out out de Teams. Ces applications combinent les fonctionnalités des onglets, des extensions de messagerie, des connecteurs et des bots fournis par Microsoft, par un tiers ou par des développeurs de votre organisation.
+Les applications fournissent des outils pré-pratiques pour votre organisation afin de mieux out out de Teams. Ces applications combinent les fonctionnalités des onglets, des extensions de messagerie, des connecteurs et des bots fournis par Microsoft, par un tiers ou par des développeurs de votre organisation.
 
-Vous gérez les applications pour votre organisation dans **les applications Teams** du Centre d’administration. (Pour en [savoir plus sur l’obtention](https://docs.microsoft.com/microsoftteams/using-admin-roles) de rôles et d’autorisations d’administrateur, voir Utiliser les rôles d’administrateur Teams pour gérer Teams.) Par exemple, vous pouvez autoriser ou bloquer des applications au niveau de l’organisation, définir des stratégies pour contrôler quelles applications sont disponibles pour les utilisateurs de Teams et personnaliser Teams en épinglage des applications les plus importantes pour vos utilisateurs.
+Vous gérez les applications pour votre organisation dans **les applications Teams** dans le Centre d’administration. (Pour en [savoir plus sur l’obtention](./using-admin-roles.md) de rôles et d’autorisations d’administrateur, voir Utiliser les rôles d’administrateur Teams pour gérer Teams.) Par exemple, vous pouvez autoriser ou bloquer des applications au niveau de l’organisation, définir des stratégies pour contrôler quelles applications sont disponibles pour les utilisateurs de Teams et personnaliser Teams en épinglage des applications les plus importantes pour vos utilisateurs.
 
 Nous améliorons continuellement l’expérience des applications dans Teams et ajoutons des fonctionnalités. Au fil du temps, nous allons créer des fonctionnalités de gestion des applications supplémentaires. Vérifiez donc que vous avez besoin des informations les plus à jour sur les stratégies d’application.
 
 ## <a name="manage-apps"></a>Gérer les applications
 
-Utilisez la page **Gérer les applications** pour afficher et gérer toutes les applications Teams dans le catalogue d’applications de votre organisation. Vous pouvez voir l’état au niveau de l’organisation et les propriétés des applications, bloquer ou autoriser des applications au niveau de l’organisation, télécharger de nouvelles applications personnalisées dans votre catalogue de locataires et gérer les paramètres des applications à l’échelle de l’organisation.
+Utilisez la page **Gérer les applications** pour afficher et gérer toutes les applications Teams dans le catalogue d’applications de votre organisation. Vous pouvez voir l’état au niveau de l’organisation et les propriétés des applications, bloquer ou autoriser des applications au niveau de l’organisation, télécharger de nouvelles applications personnalisées dans votre catalogue client et gérer les paramètres des applications à l’échelle de l’organisation.
 
 La page **Gérer les** applications vous permet d’afficher toutes les applications disponibles dans votre catalogue client, en vous fournissant les informations dont vous avez besoin pour décider des applications à autoriser ou bloquer dans votre organisation. Vous pouvez ensuite utiliser des stratégies [d’autorisation](#app-permission-policies)d’application, [](#app-setup-policies)des stratégies de configuration d’application et des stratégies et paramètres d’application [personnalisés](#custom-app-policies-and-settings) pour configurer l’expérience d’application pour des utilisateurs spécifiques de votre organisation.
 

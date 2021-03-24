@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype Entreprise Server 2015/2019 et Lync 2013 au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874934"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092852"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -148,7 +148,7 @@ Nom/lien du package|Date de publication|
 
 |Nom/lien du package|Date de publication|
 |:--- |:--- |
-|[Lync Connectivity Analyzer (32 bits) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Juin 2017 |
+|[Lync Connectivity Analyzer (32 bits) RETIRÉ](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Juin 2017 |
 |[Lync Connectivity Analyzer (64 bits) RETIRÉ](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Juin 2017 |
 |[Lync Server 2013 Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=35455) |Octobre 2012 |
 |[Calculateur de capacité Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Juillet 2013 |
@@ -234,7 +234,7 @@ Nom/lien du package|Date de publication|
 Nom/lien du package|Date de publication|
 |:--- |:--- |
 |[Fichier d’aide de la documentation Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Mars 2012 |
-|[Page d’accueil de Lync Server 2010](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Octobre 2012 |
+|[Page d’accueil de Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Octobre 2012 |
 |[Documentation sur la messagerie instantanée experte pour Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Mars 2012 |
 |[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|Janvier 2011 |
 |[Notes de publication de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Janvier 2011 |
@@ -266,8 +266,8 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[KB 824684](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-- [Installer Skype Entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [Mise à niveau vers Skype Entreprise Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Installer Skype Entreprise Server 2015](./deploy/install/install.md)
+- [Mise à niveau vers Skype Entreprise Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Dernières mises à jour pour les versions de Skype Entreprise qui utilisent Windows Installer (MSI)](sfb-client-updates.md)

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Examinez les considérations d’utilisation des ports avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: 227fcbccf815886c5afa55c843ba59688f471a29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834304"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094948"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Exigences en matière de ports et de protocoles pour les serveurs
  
@@ -30,11 +30,11 @@ ms.locfileid: "49834304"
   
 Skype Entreprise Server requiert l’ouverture de ports spécifiques sur les pare-feu externes et internes. En outre, si la sécurité du protocole Internet (IPsec) est déployée dans votre organisation, IPsec doit être désactivé sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. 
   
-Bien que cela puisse sembler un peu difficile au début, la lourde tâche de planification peut être effectuée à l’aide de l’outil de planification de Skype Entreprise [Server 2015.](https://go.microsoft.com/fwlink/p/?LinkID=282725) Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règlesfirewall. Vous pouvez également apporter des ajustements à la plupart des noms et adresses IP utilisés, pour plus d’informations, consultez le rapport de [pare-feu.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul dans le fichier. 
+Bien que cela puisse sembler un peu difficile au début, la lourde tâche de planification peut être effectuée à l’aide de l’outil de planification de Skype Entreprise [Server 2015.](https://go.microsoft.com/fwlink/p/?LinkID=282725) Une fois que vous avez répondu aux questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez, vous pouvez afficher le rapport de pare-feu dans le rapport d’administration Edge et utiliser les informations répertoriées ici pour créer vos règlesfirewall. Vous pouvez également apporter des ajustements à de nombreux noms et adresses IP utilisés, pour plus d’informations, consultez le rapport de [pare-feu.](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report) Gardez à l’esprit que vous pouvez exporter le rapport d’administration Edge vers une feuille de calcul Excel, et le rapport de pare-feu sera l’une des feuilles de calcul dans le fichier. 
   
 Vous pouvez également trouver les informations dans ces tableaux sous forme de diagramme en reviewant l’affiche Charges de travail de protocole liées à partir de l’article Diagrammes techniques pour Skype Entreprise [Server 2015.](../../technical-diagrams.md)
 > [!NOTE]
-> - Si vous implémentez Skype Entreprise Online (Microsoft 365 ou Office 365), reportez-vous aux URL et [plages d’adresses IP Microsoft 365 et Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Les environnements hybrides devront référencer cette rubrique et planifier [la connectivité hybride.](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+> - Si vous implémentez Skype Entreprise Online (Microsoft 365 ou Office 365), reportez-vous aux URL et [plages d’adresses IP Microsoft 365 et Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) Les environnements hybrides devront référencer cette rubrique et planifier [la connectivité hybride.](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
 > - Vous pouvez avoir des pare-feu matériels ou logiciels, nous n’avons pas besoin de modèles ou de versions spécifiques. Ce qui importe, c’est les ports qui sont sur liste blanche afin que le pare-feu n’affecte pas le fonctionnement de Skype Entreprise Server.
   
 ## <a name="port-and-protocol-details"></a>Détails des ports et protocoles
@@ -50,7 +50,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
   
 **Ports de serveurs requis (par rôle serveur)**
 
-|Rôle serveur|Nom du service|Port|Protocole|Remarques|
+|Rôle serveur|Nom du service|Port|Protocole|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL navigateur pour la copie répliquée locale de la base de données du magasin central de gestion.  |
 |Serveurs frontaux  |Service d'Front-End Skype Entreprise Server  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
@@ -129,7 +129,7 @@ Pour les pools utilisant uniquement l’équilibrage de la charge matérielle (e
 |Programme d’équilibrage de charge du serveur frontal  |5071  |TCP  |
 |Programme d’équilibrage de charge du serveur frontal  |5080  |TCP  |
 |Programme d’équilibrage de charge du serveur frontal  |448  |TCP  |
-|Équilibreur de charge du serveur de médiation  |5070  |TCP  |
+|Programme d’équilibrage de la charge du serveur de médiation  |5070  |TCP  |
 |Équilibreur de charge du serveur frontal (si le pool exécute également le serveur de médiation)  |5070  |TCP  |
 |Programme d’équilibrage de charge du directeur  |443  |HTTPS  |
 |Programme d’équilibrage de charge du directeur  |444  |HTTPS  |
@@ -151,7 +151,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 
 **Ports client requis**
 
-|Composant|Port|Protocole|Remarques|
+|Composant|Port|Protocole|Notes|
 |:-----|:-----|:-----|:-----|
 |Clients  |67/68  |DHCP  |Utilisé par Skype Entreprise Server pour rechercher le nom de domaine complet du serveur d’inscriptions (c’est-à-dire, si DNS SRV échoue et que les paramètres manuels ne sont pas configurés).  |
 |Clients  |443  |TCP (TLS)  |Utilisé pour le trafic SIP client à serveur pour l’accès des utilisateurs externes.  |
@@ -164,7 +164,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 |Clients  |1024-65535 \*  |TCP/UDP  |Plage de ports vidéo (au moins 20 ports requis).  |
 |Clients  |1024-65535 \*  |TCP  |Transfert de fichiers d’égal à égal. Pour le transfert de fichiers de conférence, les clients utilisent le modèle PSOM.  |
 |Clients  |1024-65535 \*  |TCP  |Partage d’application.  |
-|Téléphone de partie commune Aastra 6721ip  <br/> Téléphone de bureau Aastra 6725ip  <br/> Téléphone IP HP 4110 (téléphone de partie commune)  <br/> Téléphone IP HP 4120 (téléphone de bureau)  <br/> Téléphone de partie commune IP Polycom CX500  <br/> Téléphone de bureau IP Polycom CX600  <br/> Téléphone de bureau IP CX700  <br/> Téléphone de conférence IP Polycom CX3000  |67/68  |DHCP  |Utilisé par les appareils répertoriés pour rechercher le certificat Skype Entreprise Server, le nom de domaine général de mise en service et le nom de domaine général du serveur d’inscriptions.  |
+|Téléphone de partie commune Aastra 6721ip  <br/> Téléphone de bureau Aastra 6725ip  <br/> Téléphone IP HP 4110 (téléphone de partie commune)  <br/> Téléphone IP HP 4120 (téléphone de bureau)  <br/> Téléphone de partie commune IP Polycom CX500  <br/> Téléphone de bureau IP Polycom CX600  <br/> Téléphone de bureau IP CX700  <br/> Téléphone de conférence IP Polycom CX3000  |67/68  |DHCP  |Utilisé par les périphériques répertoriés pour rechercher le certificat Skype Entreprise Server, le nom de domaine (FQDN) d’approvisionnement et le nom de domaine (FQDN) du serveur d’inscriptions.  |
    
 \* Pour configurer des ports spécifiques pour ces types de médias, utilisez l'; cmdlet CsConferencingConfiguration (paramètres ClientMediaPortRangeEnabled, ClientMediaPort et ClientMediaPortRange).
   
@@ -176,7 +176,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
   
 ## <a name="ipsec-exceptions"></a>Exceptions IPsec
 
-Pour les réseaux d’entreprise où la sécurité du protocole Internet (IPsec) (voir la RFC 4301-4309 de l’IETF) a été déployée, IPsec doit être désactivée sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
+Pour les réseaux d’entreprise où la sécurité du protocole Internet (IPsec) (voir RFC 4301-4309 de l’IETF) a été déployée, IPsec doit être désactivée sur la plage de ports utilisée pour la distribution de l’audio, de la vidéo et de la vidéo panoramique. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
   
 Le tableau suivant présente les paramètres recommandés pour les exceptions IPsec. 
   

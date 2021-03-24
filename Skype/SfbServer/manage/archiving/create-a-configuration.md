@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: c5c8dde9a12d0599d962d8c7bcf402796022af7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817654"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095428"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype Entreprise Server
 
@@ -45,7 +45,7 @@ Pour configurer les options d’archivage pour un site ou un pool spécifique :
     
    - Pour activer l’archivage pour les sessions de messagerie instantanée et les conférences web, cliquez sur Archiver les sessions de messagerie instantanée et de conférence **web.**
     
-   - Pour désactiver l’archivage pour cette configuration, cliquez sur Désactiver **l’archivage.**
+   - Pour désactiver l’archivage pour cette configuration, cliquez **sur Désactiver l’archivage.**
     
 6. Dans **Créer un paramètre d’archivage**, procédez comme suit :
     
@@ -63,7 +63,7 @@ Pour configurer les options d’archivage pour un site ou un pool spécifique :
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configurer les options d’archivage à l’aide Windows PowerShell
 
-Vous pouvez également configurer les options d’archivage d’un site ou d’un pool spécifique à l’aide de l';cmdlet **New-CsArchivingConfiguration.**
+Vous pouvez également configurer les options d’archivage d’un site ou d’un pool spécifique à l’aide de l'; 
   
 La commande suivante crée une collection de paramètres de configuration d’archivage pour le site Redmond :
   
@@ -85,4 +85,4 @@ Plusieurs valeurs de propriété peuvent être modifiées en incluant plusieurs 
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsArchivingConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)
+Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsArchivingConfiguration.](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)

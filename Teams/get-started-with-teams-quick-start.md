@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4382fe5069095854713244b230ef04bd10f4ad0
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726415"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092242"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -54,7 +54,7 @@ Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que
 - [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
   - Cela inclut la configuration de votre domaine Microsoft 365 ou Office 365, SharePoint Online, Exchange Online et OneDrive Entreprise.
 
-- Obtenez des licences Teams pour tout le monde. Voir [Offres Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) et [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+- Obtenez des licences Teams pour tout le monde. Voir [Offres Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) et [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 - [En savoir plus sur les avantages de l’installation de clients de bureau, web et mobiles](get-clients.md)
 
@@ -63,7 +63,7 @@ Pour vous préparer au déploiement de Teams, voici ce que vous devez faire, que
 Si vous débutez avec Teams, le meilleur moyen de vous familiariser avec cet outil consiste à l’utiliser immédiatement. Teams offre l’avantage suivant : la configuration actuelle n’entravera pas les mises à niveau ou les migrations que vous devrez peut-être effectuer ultérieurement.
 
 > [!TIP]
-> Si vous souhaitez en savoir plus sur les cours d’apprentissage et modules disponibles, veuillez consulter la rubrique [Microsoft Learn pour Teams](/learn/teams/). Vous pouvez découvrir le [Centre d’administration de Teams](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/), découvrir comment [configurer votre réseau pour Teams](/learn/modules/m365-teams-connectivity/), obtenir des idées sur la manière [d’intégrer au mieux vos utilisateurs à Teams](/learn/modules/m365-teams-onboard-users/), et bien plus encore.
+> Si vous souhaitez en savoir plus sur les cours d’apprentissage et modules disponibles, veuillez consulter la rubrique [Microsoft Learn pour Teams](/learn/teams/). Vous pouvez découvrir le [Centre d’administration de Teams](/learn/modules/m365-teams-navigate-admin-portal/), découvrir comment [configurer votre réseau pour Teams](/learn/modules/m365-teams-connectivity/), obtenir des idées sur la manière [d’intégrer au mieux vos utilisateurs à Teams](/learn/modules/m365-teams-onboard-users/), et bien plus encore.
 
 Procédez comme suit pour configurer quelques équipes, puis intégrer quelques utilisateurs précoces et vous familiariser ainsi avec Teams.
 
@@ -79,5 +79,5 @@ Si vous mettez à niveau ou migrez Skype Entreprise vers Teams (en ligne ou en l
 |  |Le profil de votre organisation|Aide  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|J’utilise actuellement Skype Entreprise Online et je suis prêt à passer à Teams. |Accédez à [Mise à niveau vers Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Pour un déploiement de Teams à grande échelle, vous devez tout d’abord configurer une connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planifier une connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](upgrade-start-here.md).   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Pour un déploiement de Teams à grande échelle, vous devez tout d’abord configurer une connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planifier une connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](upgrade-start-here.md).   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Je n’ai pas Skype Entreprise Server, mais j’ai une solution de réseau téléphonique commuté public (RTCP) en local. Je souhaite mettre en place Teams, mais je souhaite conserver ma solution RTCP en local. |Mettez Teams en place en suivant les suggestions de cet article.<br><br>Lisez ensuite la [Planification d’un routage Direct](direct-routing-plan.md) pour en savoir plus sur l’utilisation d’un routage direct du système téléphonique pour connecter votre solution PSTN en local avec Teams.|

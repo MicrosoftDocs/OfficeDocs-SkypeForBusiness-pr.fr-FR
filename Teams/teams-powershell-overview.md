@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756153"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094114"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Vue d’ensemble de Microsoft Teams PowerShell
 
@@ -38,7 +38,7 @@ Teams PowerShell est disponible dans la [galerie PowerShell en](https://www.powe
 
 - **Aperçu public :** Accès en avant-première aux fonctionnalités. Peut être mis à jour plus fréquemment que GA.
 
-Pour plus d’informations sur les ajouts de fonctionnalités et les améliorations apportées aux deux version, lisez les notes de publication [Teams PowerShell.](teams-powershell-release-notes.md)
+Pour plus d’informations sur les ajouts de fonctionnalités et les améliorations apportées aux deux version, lisez les notes de [publication Teams PowerShell.](teams-powershell-release-notes.md)
 
 
 ## <a name="manage-teams-with-powershell"></a>Gérer Teams avec PowerShell
@@ -50,12 +50,12 @@ Vous utiliserez les modules Teams PowerShell pour gérer entièrement Teams :
 > [!NOTE]
 > La version 1.1.6 ou ultérieure de [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) est intégrée à Skype Entreprise Online Connector et fournit un module unique pour la gestion de Teams PowerShell.
 
-- [Connecteur PowerShell Skype](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Entreprise : Le connecteur PowerShell Skype Entreprise fait désormais partie du module Teams PowerShell.
+- [Connecteur PowerShell Skype Entreprise](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): Le connecteur Skype Entreprise PowerShell fait désormais partie du module Teams PowerShell.
 
 Pour consulter un guide complet de la gestion de Teams à l’aide de ces modules, voir [Gérer Teams avec Teams PowerShell.](teams-powershell-managing-teams.md)
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Installation de Teams PowerShell](teams-powershell-install.md)
 
@@ -63,8 +63,8 @@ Pour consulter un guide complet de la gestion de Teams à l’aide de ces module
 
 [Notes de publication de Teams PowerShell](teams-powershell-release-notes.md)
 
-[Référence de l’cmdlet Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Référence de l’cmdlet Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Référence de l’cmdlet Skype Entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Référence de l’cmdlet Skype Entreprise](/powershell/skype/intro?view=skype-ps)
 
 [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)

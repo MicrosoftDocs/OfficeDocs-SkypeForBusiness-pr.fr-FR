@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Résumé : Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas de défaillance de Skype Entreprise Server qui empêcherait l’archivage.'
-ms.openlocfilehash: 9a39c5f54fbdd4a738f4e67e7f70ff199a204672
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817674"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095448"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les défaillances dans Skype Entreprise Server
 
@@ -35,13 +35,13 @@ Pour spécifier si les sessions de communication doivent être autorisées en ca
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
-4. Cliquez sur le nom de la configuration globale, de site ou de pool appropriée dans la liste des configurations d’archivage, cliquez sur **Modifier,** puis sur Afficher **les détails.**
+4. Cliquez sur le nom de la configuration globale, de site ou de pool appropriée dans la liste des configurations d’archivage, cliquez sur **Modifier,** puis cliquez sur Afficher **les détails.**
     
 5. Pour définir le comportement de l’archivage en cas d’échec, cochez ou décochez la case **Bloquer les sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage**.
     
 6. Cliquez sur **Valider**.
     
-## <a name="configure-critical-mode-by-using-windows-powershell"></a>Configurer le mode critique à l’aide de Windows PowerShell
+## <a name="configure-critical-mode-by-using-windows-powershell"></a>Configurer le mode critique à l’aide Windows PowerShell
 
 Vous pouvez également spécifier si les sessions de communication doivent être autorisées en cas de défaillance qui empêcherait l’archivage à l’aide de l';cmdlet **Set-CsArchivingConfiguration** avec le paramètre BlockOnArchiveFailure.
   
@@ -57,6 +57,4 @@ La commande suivante active les communications en cas d’échec de l’archivag
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsArchivingConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps)
-  
-
+Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsArchivingConfiguration.](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps)

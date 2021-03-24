@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Créez ou modifiez des stratégies de bande passante, qui sont utilisées Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server.
-ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Créez ou modifiez des stratégies de bande passante, qui sont utilisées par Voix Entreprise d’admission des appels dans Skype Entreprise Server.
+ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824844"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093242"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Créer des profils de stratégie de bande passante dans Skype Entreprise Server 
  
-Créez ou modifiez des stratégies de bande passante, qui sont utilisées Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server. 
+Créez ou modifiez des stratégies de bande passante, qui sont utilisées par Voix Entreprise d’admission des appels dans Skype Entreprise Server. 
   
 Des stratégies de bande passante définissent des restrictions d’utilisation de la bande passante pour des modes audio et vidéo en temps réel. Les stratégies de bande passante sont appliquées aux profils de stratégiebandwidth, qui peuvent être appliqués à plusieurs sites réseau pour le contrôle d’admission des appels.
   
@@ -94,10 +94,10 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
     
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)

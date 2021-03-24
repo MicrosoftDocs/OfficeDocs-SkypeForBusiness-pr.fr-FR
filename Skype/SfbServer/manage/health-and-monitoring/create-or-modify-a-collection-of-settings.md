@@ -1,5 +1,5 @@
 ---
-title: Créer ou modifier une collection de paramètres de configuration cdR dans Skype Entreprise Server
+title: Créer ou modifier une collection de paramètres de configuration d’cdr dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Résumé : Découvrez l’enregistrement des détails des appels dans Skype Entreprise Server.'
-ms.openlocfilehash: 77529204483924664a462913e8d33eaa54e55453
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: da4383ef31b2d3ee781c445f2c935b79ea89bed8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817014"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095368"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Créer ou modifier une collection de paramètres de configuration cdR dans Skype Entreprise Server
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Créer ou modifier une collection de paramètres de configuration d’cdr dans Skype Entreprise Server
  
 **Résumé :** Découvrez l’enregistrement des détails des appels dans Skype Entreprise Server.
   
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de l’entretien.
   
-Lorsque vous installez Skype Entreprise Server, une collection globale et unique de paramètres de configuration d’cdr est créée pour vous. Les administrateurs peuvent aussi créer des paramètres personnalisés sur l’étendue du site. Chaque fois que ces paramètres d’étendue de site sont utilisés, ils prennent la priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres pour l’étendue du site de Redmond, ces paramètres (au lieu des paramètres globaux) servent alors à gérer l’enregistrement des détails des appels à Redmond.
+Lorsque vous installez Skype Entreprise Server, une collection unique et globale de paramètres de configuration d’cdr est créée pour vous. Les administrateurs peuvent aussi créer des paramètres personnalisés sur l’étendue du site. Chaque fois que ces paramètres d’étendue de site sont utilisés, ils prennent la priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres pour l’étendue du site de Redmond, ces paramètres (au lieu des paramètres globaux) servent alors à gérer l’enregistrement des détails des appels à Redmond.
   
-Vous pouvez créer des paramètres de configuration d’cdr à l’aide du Panneau de configuration de Skype Entreprise Server ou de l’cmdlet [New-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) Vous pouvez utiliser le Panneau de configuration De Skype Entreprise Server ou l';cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) pour modifier les paramètres existants. Si vous utilisez le Panneau de configuration Skype Entreprise Server pour créer ou modifier des paramètres, les options suivantes sont disponibles :
+Vous pouvez créer des paramètres de configuration d’cdr à l’aide du Panneau de configuration de Skype Entreprise Server ou de l’cmdlet [New-CsCdrConfiguration.](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) Vous pouvez utiliser le Panneau de configuration de Skype Entreprise Server ou l';cmdlet [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) pour modifier les paramètres existants. Si vous utilisez le Panneau de configuration Skype Entreprise Server pour créer ou modifier des paramètres, les options suivantes sont disponibles :
   
 |**Paramètre de l’interface utilisateur**|**Paramètre PowerShell**|**Description**|
 |:-----|:-----|:-----|
@@ -38,7 +38,7 @@ Vous pouvez créer des paramètres de configuration d’cdr à l’aide du Panne
 |Conserver les données de signalement d’erreurs pendant la durée maximale (jours)  <br/> |KeepErrorReportForDays  <br/> |Indique le nombre de jours pendant lesquels les rapports d’erreur des détails des appels sont conservés. Tout rapport plus ancien que le nombre de jours spécifié est automatiquement supprimé. Les rapports d’erreur des détails des appels sont des rapports de diagnostic téléchargés par les applications clientes.  <br/> |
    
 > [!NOTE]
-> Les cmdlets New-CsCdrConfiguration et Set-CsCdrConfiguration incluent des options supplémentaires qui ne sont pas disponibles dans le Panneau de contrôle Skype Entreprise Server. Pour plus d’informations, voir les rubriques d’aide [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) et [Set-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+> Les cmdlets New-CsCdrConfiguration et Set-CsCdrConfiguration comprennent des options supplémentaires qui ne sont pas disponibles dans le Panneau de contrôle Skype Entreprise Server. Pour plus d’informations, voir les rubriques d’aide [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) et [Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
   
 ### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour créer des paramètres de configuration d’cdr à l’aide du Panneau de configuration de Skype Entreprise Server
 
@@ -54,13 +54,13 @@ Vous pouvez créer des paramètres de configuration d’cdr à l’aide du Panne
 
 1. Dans le Panneau de contrôle Skype Entreprise Server, cliquez **sur Surveillance et archivage.**
     
-2. Double-cliquez sur la collection de paramètres à modifier, ou sélectionnez la collection, cliquez sur **Modifier**, puis sur **Afficher les détails**. Sachez que vous ne pouvez modifier qu’une seule collection à la fois. Pour apporter les mêmes modifications à plusieurs collections, utilisez Plutôt Skype Entreprise Server Management Shell.
+2. Double-cliquez sur la collection de paramètres à modifier, ou sélectionnez la collection, cliquez sur **Modifier**, puis sur **Afficher les détails**. Sachez que vous ne pouvez modifier qu’une seule collection à la fois. Pour apporter les mêmes modifications à plusieurs collections, utilisez Skype Entreprise Server Management Shell à la place.
     
 3. Dans la boîte de dialogue **Modifier le paramètre de l’enregistrement des détails des appels**, sélectionnez les options voulues, puis cliquez sur **Valider**.
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de paramètres de configuration d’cdr à l’Windows PowerShell cmdlets
 
-Vous pouvez également créer des paramètres de configuration d’cdr à l’aide de Windows PowerShell et de l’cmdlet **New-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez également créer des paramètres de configuration cdR à l’aide de Windows PowerShell et de l’cmdlet **New-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion [de Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>Pour créer une collection de paramètres de configuration d’enregistrement des détails des appels
 
@@ -86,6 +86,4 @@ Vous pouvez également créer des paramètres de configuration d’cdr à l’ai
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 
-Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)
-  
-
+Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsCdrConfiguration.](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)

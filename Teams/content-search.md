@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Découvrez comment utiliser la recherche de contenu dans le Centre de conformité Microsoft 365 pour rechercher du contenu Microsoft Teams stocké dans Exchange Online, SharePoint Online, OneDrive Entreprise et OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
-ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
+ms.openlocfilehash: 3758f96dc4755303ce8ccf3cae4443deb2a5cd99
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980438"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094284"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "49980438"
 
 La recherche de contenu permet d’interroger les informations de Microsoft Teams couvrant Exchange, SharePoint Online et OneDrive Entreprise.
 
-Pour en savoir plus, consultez [la recherche de contenu dans Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/content-search)
+Pour en savoir plus, consultez [la recherche de contenu dans Microsoft 365.](/microsoft-365/compliance/content-search)
 
 Par exemple,  en utilisant la recherche de contenu par rapport à votre boîte aux lettres Spécifications de fabrication et à votre site SharePoint Caractéristiques de fabrication, vous pouvez effectuer une recherche sur les conversations de canal standard de Teams à partir d’Exchange, les téléchargements et modifications des fichiers à partir de SharePoint Online et les modifications apportées à OneNote.
 
@@ -53,7 +53,7 @@ Pour identifier les fichiers et messages d’un canal privé à inclure dans vot
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>Inclure les fichiers de canal privé dans une recherche de contenu
 
-Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell et connectez-vous à SharePoint Online.](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell et connectez-vous à SharePoint Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 1. Exécutez la suivante pour obtenir la liste de toutes les collections de sites SharePoint associées à des canaux privés de l’équipe.
 
@@ -90,6 +90,6 @@ Avant d’effectuer ces étapes, assurez-vous que vous avez installé la derniè
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans votre requête de recherche de contenu.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-- [Cas de découverte électronique dans le Centre de conformité Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [Cas de découverte électronique dans le Centre de conformité Microsoft 365](/Office365/SecurityCompliance/ediscovery-cases)

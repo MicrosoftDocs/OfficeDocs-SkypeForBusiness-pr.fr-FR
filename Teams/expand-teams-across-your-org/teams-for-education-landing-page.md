@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 85f1d16a258955e08086b851a503bfac87604bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092502"
 ---
 # <a name="teams-for-education"></a>Teams pour l’éducation
 
@@ -33,9 +33,8 @@ Avec Teams, les enseignants et les enseignants peuvent créer des salles de clas
 
 |               |               |
 | ------------- | ------------- |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![sign-up-teams](../media/sign-up-teams.svg) | [Devoirs dans Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![insights-teams](../media/insights-teams.svg) | [Insights dans Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/class-insights) |
-| ![boîte à outils](../media/toolbox.svg)  |  [Ressources pour les administrateurs de Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [FAQ sur la gouvernance pour les administrateurs de Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
-
+| ![Capture d’écran de l’icône en forme de flèche droite](../media/arrow-right-2-teams.svg)  |  [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](../teams-quick-start-edu.yml) |
+| ![Capture d’écran de l’icône de papier et de crayon](../media/sign-up-teams.svg) | [Devoirs dans Teams pour l’éducation](./assignments-in-teams.md) |
+| ![Capture d’écran de l’icône Insights](../media/insights-teams.svg) | [Insights dans Teams pour l’éducation](../class-insights.md) |
+| ![Capture d’écran de l’icône de boîte à outils](../media/toolbox.svg)  |  [Ressources pour les administrateurs de Teams pour l’éducation](../resources-teams-edu.md) |
+| ![Capture d’écran de l’icône de liste de vérification](../media/task-checklist-planning-teams.svg)  |  [FAQ sur la gouvernance pour les administrateurs de Teams pour l’éducation](../plan-teams-governance-edu.md) |

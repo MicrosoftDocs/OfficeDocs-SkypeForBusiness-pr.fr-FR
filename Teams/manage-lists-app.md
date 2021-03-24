@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944609"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092252"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Lists pour votre organisation dans Microsoft Teams
 
@@ -70,7 +70,7 @@ Lists est pré-installée pour tous les utilisateurs de Teams et est disponible 
 
 Les données de Lists sont stockées dans le site d’équipe SharePoint Online. Pour en savoir plus sur la manière dont SharePoint Online interagit avec Teams, consultez l’article [Interaction de SharePoint Online et OneDrive Entreprise avec Teams](SharePoint-OneDrive-interact.md).
 
-Les autorisations définies dans SharePoint s’appliquent aux listes créées dans l’application Lists. Par défaut, les listes héritent des autorisations du site auquel elles appartiennent. Ces autorisations régissent les types d’actions que les utilisateurs peuvent effectuer, par exemple s’ils peuvent créer ou modifier des listes. Pour en savoir plus, consultez les articles [Niveaux d’autorisation dans SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels) et [Autorisations utilisateur et niveaux d’autorisation dans SharePoint Server](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels).
+Les autorisations définies dans SharePoint s’appliquent aux listes créées dans l’application Lists. Par défaut, les listes héritent des autorisations du site auquel elles appartiennent. Ces autorisations régissent les types d’actions que les utilisateurs peuvent effectuer, par exemple s’ils peuvent créer ou modifier des listes. Pour en savoir plus, consultez les articles [Niveaux d’autorisation dans SharePoint](/sharepoint/understanding-permission-levels) et [Autorisations utilisateur et niveaux d’autorisation dans SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
 Dans certains scénarios, vous souhaiterez peut-être restreindre les actions que les utilisateurs peuvent effectuer dans les listes. Par exemple, une personne dans une équipe modifie l’affichage des listes, ce qui le modifie pour tous les membres de l’équipe, et vous souhaitez autoriser uniquement le propriétaire de l’équipe ou certains membres de l’équipe à modifier les affichages des listes. Pour en savoir plus, consultez l’article [Personnaliser les autorisations pour une liste ou une bibliothèque SharePoint](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
@@ -105,15 +105,15 @@ Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation 
 
 ## <a name="search-the-audit-log-for-list-events"></a>Rechercher des événements de liste dans le journal d’audit 
 
-Les listes sont activées avec l’audit au niveau de l’entreprise afin que vous puissiez rechercher des listes et des événements d’élément de liste dans le journal d’audit du Centre de sécurité et conformité. Pour en savoir plus, consultez l’article [Rechercher dans le journal d’audit dans le Centre de sécurité et de conformité](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Les listes sont activées avec l’audit au niveau de l’entreprise afin que vous puissiez rechercher des listes et des événements d’élément de liste dans le journal d’audit du Centre de sécurité et conformité. Pour en savoir plus, consultez l’article [Rechercher dans le journal d’audit dans le Centre de sécurité et de conformité](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
-Pour obtenir la liste des événements d’audit pertinents pour l’application Lists dans Teams, consultez la rubrique [Activités de liste SharePoint](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
+Pour obtenir la liste des événements d’audit pertinents pour l’application Lists dans Teams, consultez la rubrique [Activités de liste SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
 Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le [Centre de sécurité et de conformité](https://protection.office.com). N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate, Power Apps et API Graph
 
-Lists prend en charge [Power Automate](https://docs.microsoft.com/power-automate/flow-types) pour les flux de travail et [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) pour les formulaires de liste. Les développeurs peuvent utiliser l’[API Lists](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) pour connecter des données de liste en tant que source via Microsoft Graph.
+Lists prend en charge [Power Automate](/power-automate/flow-types) pour les flux de travail et [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) pour les formulaires de liste. Les développeurs peuvent utiliser l’[API Lists](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) pour connecter des données de liste en tant que source via Microsoft Graph.
 
 ## <a name="give-feedback-or-report-an-issue"></a>Envoyer des commentaires ou signaler un problème
   

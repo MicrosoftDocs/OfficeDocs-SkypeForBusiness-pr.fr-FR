@@ -1,5 +1,5 @@
 ---
-title: Configurer l’intégration de Cloud Connector à votre organisation Microsoft 365 ou Office 365
+title: Configurer l’intégration de Cloud Connector avec votre organisation Microsoft 365 ou Office 365
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de Cloud Connector avec votre organisation Microsoft 365 ou Office 365.
-ms.openlocfilehash: bf5d8c4fb9684a205670701428fa8db30835a871
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 74696023dcffbc91641bb4e9950f2988a89abbdd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359070"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095088"
 ---
-# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Configurer l’intégration de Cloud Connector à votre organisation Microsoft 365 ou Office 365
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Configurer l’intégration de Cloud Connector avec votre organisation Microsoft 365 ou Office 365
 
 > [!Important] 
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 Découvrez comment configurer l’intégration de Cloud Connector avec votre organisation Microsoft 365 ou Office 365.
   
@@ -48,7 +48,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat d’ac racine pour le certificat émis sur votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez le faire à l’aide du service d’autorité de certification qui s’exécute sur l’ordinateur Active Directory cloud Connector comme suit :
     
-   - Modifiez le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés de s’inscrire, ou créez un modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificat.](https://technet.microsoft.com/library/cc730705.aspx)
+   - Modifiez le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés de s’inscrire, ou créez un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificat.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))
     
    - Demandez un certificat à l’aide du logiciel en ligne Certificat en sélectionnant le modèle de serveur Web que vous avez activé. Veillez à ajouter le nom commun dans l’objet et le nom DNS dans l’autre nom avec le nom de domaine complet de la passerelle, et confirmez sur la clé privée que Rendre la clé privée exportable est sélectionné sous les options de clé. 
     
@@ -64,13 +64,13 @@ Ajoutez les enregistrements DNS suivants à votre organisation Microsoft 365 ou 
   
 1. Ajoutez un enregistrement DNS A pour le edge d’accès.
     
-2. Les enregistrements SRV seront automatiquement créés par Microsoft 365 ou Office 365 et les scripts de déploiement. Confirmez que vous pouvez rechercher les deux services SIP suivants sur le edge : sip et \_ \_ sipfederationtls.
+2. Les enregistrements SRV sont automatiquement créés par Microsoft 365 ou Office 365 et les scripts de déploiement. Confirmez que vous pouvez rechercher les deux services SIP suivants sur le edge : sip et \_ \_ sipfederationtls.
     
      ![Confirmation des enregistrements SRV](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>Configurer la connectivité hybride entre Cloud Connector Edition et Microsoft 365 ou Office 365
 
-Pour configurer la connectivité hybride entre votre déploiement Skype Entreprise, version Cloud Connector et votre organisation Microsoft 365 ou Office 365, exécutez l’cmdlet suivante dans une session PowerShell distante. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
+Pour configurer la connectivité hybride entre votre déploiement Skype Entreprise, version Cloud Connector et votre organisation Microsoft 365 ou Office 365, exécutez l’cmdlet suivante dans une session PowerShell distante. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 L’cmdlet définit le FQDN externe du edge d’accès. Dans la première des commandes, celle-ci doit être celle du rôle \<External Access Edge FQDN\> Edge d’accès SIP. Par défaut, ce doit être ap. \<Domain Name\> .
   
@@ -80,11 +80,11 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> Le FQDN du edge d’accès externe utilisé pour la destination homologue doit être affecté à un site PSTN qui sera uniquement utilisé comme base au cas où un utilisateur n’est pas affecté à un site PSTN. Pour plus d’informations, voir [Déployer un seul site dans Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et Déployer plusieurs sites dans Cloud [Connector.](deploy-multiple-sites-in-cloud-connector.md) 
+> Le FQDN du edge d’accès externe utilisé pour la destination homologue doit être affecté à un site PSTN qui ne sera utilisé que comme base au cas où un utilisateur n’est pas affecté à un site PSTN. Pour plus d’informations, voir [Déployer un seul site dans Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et Déployer plusieurs sites dans Cloud [Connector.](deploy-multiple-sites-in-cloud-connector.md) 
   
 ## <a name="set-up-pstn-gateways"></a>Configurer des passerelles PSTN
 
-Configurer des trunks sur chaque passerelle PSTN pour qu’elles pointent vers les serveurs de médiation pour toutes les appliances. Chaque trunk doit pointer vers un nom de groupe ou une adresse IP du serveur de médiation au lieu du nom de pool de serveurs de médiation, car le nom de pool est le même pour tous les serveurs du pool. Les trunks doivent être définies dans la même priorité.
+Configurer des trunks sur chaque passerelle PSTN pour qu’elles pointent vers les serveurs de médiation pour toutes les appliances. Chaque trunk doit pointer vers un nom de groupe ou une adresse IP de serveur de médiation au lieu du nom de pool de serveurs de médiation, car le nom de pool est le même pour tous les serveurs du pool. Les trunks doivent être définies dans la même priorité.
   
 Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous devez configurer les passerelles et les serveurs de médiation pour prendre en charge MTLS comme suit :
   
@@ -94,7 +94,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat d’ac racine pour le certificat émis sur votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez le faire à l’aide du service d’autorité de certification qui s’exécute sur l’ordinateur Active Directory cloud Connector comme suit :
     
-   - Modifiez le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés de s’inscrire, ou créez un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificat.](https://technet.microsoft.com/library/cc730705.aspx)
+   - Modifiez le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés de s’inscrire, ou créez un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificat.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))
     
    - Demandez un certificat à l’aide du logiciel en ligne Certificat en sélectionnant le modèle de serveur Web que vous avez activé. Veillez à ajouter le nom commun dans l’objet et le nom DNS dans l’autre nom avec le nom de domaine complet de la passerelle, et confirmez sur la clé privée que Rendre la clé privée exportable est sélectionné sous les options de clé. 
     
@@ -108,7 +108,7 @@ Connectez-vous au Centre d’administration Microsoft 365, ajoutez les utilisate
   
 ## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>Activer les utilisateurs pour les services vocaux et de messagerie vocale du système téléphonique
  
-Après avoir ajouté vos utilisateurs à Microsoft 365 ou Office 365, activez leurs comptes pour les services vocaux du système téléphonique, y compris la messagerie vocale. Pour activer ces fonctionnalités, vous devez vous connecter à votre organisation Microsoft 365 ou Office 365 avec un compte qui est un rôle d’administrateur général et être en mesure d’exécuter PowerShell à distance. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur pour [Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
+Après avoir ajouté vos utilisateurs à Microsoft 365 ou Office 365, activez leurs comptes pour les services vocaux du système téléphonique, y compris la messagerie vocale. Pour activer ces fonctionnalités, vous devez vous connecter à votre organisation Microsoft 365 ou Office 365 avec un compte qui est un rôle d’administrateur général et être en mesure d’exécuter PowerShell à distance. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 - Affectez la stratégie à votre utilisateur et configurez le numéro de téléphone vocal de l’utilisateur, que vous spécifiez avec la valeur du **paramètre Identity** :
     
@@ -147,7 +147,7 @@ Pour réactiver les appels internationaux par utilisateur après sa désactivati
   
 ## <a name="assign-users-to-pstn-sites"></a>Affecter des utilisateurs à des sites PSTN
 
-Utilisez powerShell distant client pour affecter un site aux utilisateurs, même si vous avez déployé un seul site. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
+Utilisez powerShell distant client pour affecter un site aux utilisateurs, même si vous n’avez déployé qu’un seul site. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ```powershell
 # Set the site to users
@@ -161,7 +161,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> Si aucun site PSTN n’est affecté à un utilisateur, la connectivité hybride entre votre déploiement Skype Entreprise, version Cloud Connector et votre organisation Microsoft 365 ou Office 365, utilisera le niveau client par défaut 1 (destination homologue) afin que les appels soient effectués. 
+> Si aucun site PSTN n’est affecté à un utilisateur, la connectivité hybride entre votre déploiement Skype Entreprise, version Cloud Connector et votre organisation Microsoft 365 ou Office 365, utilisera le niveau de client par défaut 1 (destination homologue) pour que les appels soient effectués. 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>Configurer les paramètres du serveur de médiation hybride en ligne
 <a name="BKMK_ConfigureMediationServer"> </a>
@@ -193,7 +193,6 @@ Lorsqu’un appel P2P est recalcalé à une conférence PSTN, le serveur de conf
     
     Pour  *mediationServerFQDN,*  utilisez le nom de groupe interne défini pour votre serveur de médiation.
     
-    Pour  *edgeServerExternalFQDN,*  utilisez le FQDN externe défini pour le proxy d’accès au serveur Edge. S’il existe plusieurs sites PSTN Cloud Connector, choisissez le FQDN du proxy d’accès du serveur Edge affecté au site où se trouve le serveur de médiation.
+    Pour  *edgeServerExternalFQDN,*  utilisez le nom de groupe externe défini pour le proxy d’accès au serveur Edge. S’il existe plusieurs sites PSTN Cloud Connector, choisissez le FQDN du proxy d’accès du serveur Edge affecté au site où se trouve le serveur de médiation.
     
 4. S’il existe plusieurs serveurs de médiation Cloud Connector (plusieurs sites, haute haute qualité), répétez les étapes précédentes pour chacun d’eux.
-    

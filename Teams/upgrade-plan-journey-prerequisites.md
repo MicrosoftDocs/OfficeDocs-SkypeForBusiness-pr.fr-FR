@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0ad5716dbbe1925a93f4fbfadca7084e39a9599
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 6ceca08be6d69a10fe84daa64d0da4e31c61c67c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347805"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092192"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Conditions préalables et dépendances de l’environnement pour Teams
 
@@ -32,8 +32,8 @@ ms.locfileid: "50347805"
 Cet article fait partie de la phase de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
-- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Étendue définie de votre projet](./upgrade-define-project-scope.md)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Teams combine plusieurs services Microsoft 365 et Office 365 et dépend donc de l’implémentation et de l’opération correctes de ces services. Ces services comprennent notamment SharePoint Online, Exchange Online et OneDrive Entreprise.
@@ -48,15 +48,15 @@ Consultez les articles suivants pour en savoir plus sur les conditions préalabl
 
 - Si votre organisation n’a pas synchronisé les identités avec Azure Active Directory, consultez les modèles d’identité et [l’authentification dans Microsoft Teams.](identify-models-authentication.md)
 
-- Si votre organisation n’a pas Exchange Online, voir [Comprendre comment Exchange et Microsoft Teams interagissent.](Exchange-Teams-interact.md)
+- Si votre organisation ne dispose pas d'Exchange Online, reportez-vous à la page [Comprendre l’interaction entre Exchange et Microsoft Teams](Exchange-Teams-interact.md).
 
-- Si votre organisation n’a pas SharePoint Online, voir Comprendre comment SharePoint Online et [OneDrive Entreprise interagissent avec Microsoft Teams.](SharePoint-OneDrive-interact.md)
+- Si votre organisation ne dispose pas de SharePoint Online, reportez-vous à la page [Comprendre l’interaction entre SharePoint Online et OneDrive Entreprise avec Microsoft Teams](SharePoint-OneDrive-interact.md).
 
 - Pour découvrir comment les [groupes Microsoft 365 et Microsoft Teams interagissent.](Office-365-groups.md)
 
-- Si votre organisation est un établissement d’enseignement et que vous utilisez un système d’information sur les étudiants, voir Bienvenue dans [Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) avant de déployer Microsoft Teams.
+- Si votre organisation est un établissement d’enseignement et que vous utilisez un système d’information sur les étudiants, voir Bienvenue dans [Microsoft School Data Sync](/schooldatasync) avant de déployer Microsoft Teams.
 
-- Si votre organisation envisage d’envisager des options d’appel de réseau téléphonique commuté (PSTN), consultez la connectivité Voix - Système téléphonique et [PSTN,](cloud-voice-landing-page.md)le [plan](calling-plan-landing-page.md)d’appels qui vous est le plus exact et le [routage](direct-routing-landing-page.md)direct du système téléphonique.
+- Si votre organisation envisage d’envisager des options d’appel de réseau téléphonique commuté (PSTN), consultez la connectivité Voix - Système téléphonique et [PSTN,](cloud-voice-landing-page.md)le [plan](calling-plan-landing-page.md)d’appels qui vous est le plus exact et le routage direct du système [téléphonique.](direct-routing-landing-page.md)
 
 - Pour vous assurer que toutes les exigences réseau ont été respectées avant de déployer Teams, consultez Préparer le réseau de votre organisation [pour Microsoft Teams.](prepare-network.md)
 

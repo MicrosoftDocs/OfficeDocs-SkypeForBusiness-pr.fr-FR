@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Résumé : Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs utilisant le système téléphonique avec une connectivité PSTN sur site.'
-ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 43e2b560cc0886bacd6faaec6c113ee1f237eff7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359320"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092962"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affecter une stratégie de routage des voix
  
 > [!Important]
-> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide [du routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 **Résumé :** Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs utilisant le système téléphonique avec une connectivité PSTN sur site. 
   
@@ -112,6 +112,4 @@ Que vous utilisiez la stratégie globale de routage des voix ou des stratégies 
 
 Dans cet exemple, l’utilisateur avec le nom complet Bob Kelly est affecté à la stratégie de voix créée précédemment avec le nom HybridVoice.
   
-Pour plus d’informations sur les stratégies de routage des voix, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype Entreprise [2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)et [Grant-CsVoicePolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)
-  
-
+Pour plus d’informations sur les stratégies de routage des voix, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype Entreprise [2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)et [Grant-CsVoicePolicy.](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)

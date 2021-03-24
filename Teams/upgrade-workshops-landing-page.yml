@@ -24,12 +24,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
-  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+  ms.openlocfilehash: 1fea5f1d806058d8b7ff6d37414543347ba6adf8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "49973158"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51093744"
 productDirectory:
   items:
   - title: Planifier votre mise à niveau de la version (commencez ici !)
@@ -48,7 +48,7 @@ additionalContent:
       url: https://aka.ms/UpgradeOnDemand
     - title: Développer vos scénarios Teams ?
       summary: Découvrez nos ateliers Teams Chalk Talk pour les professionnels de l’informatique.
-      url: https://aka.ms/TeamsChalkTalks
+      url: ./chalk-talks-landing-page.yml
     - title: Vous débutez avec Teams?
       summary: En savoir plus sur la mise en place de Teams.
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      url: ./teams-overview.md

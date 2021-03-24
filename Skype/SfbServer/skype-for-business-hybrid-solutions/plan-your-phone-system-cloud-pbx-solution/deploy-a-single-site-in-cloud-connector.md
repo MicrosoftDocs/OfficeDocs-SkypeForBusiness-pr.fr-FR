@@ -15,20 +15,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
-description: Découvrez le déploiement d’un seul site PSTN dans Cloud Connector Edition.
-ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: En savoir plus sur le déploiement d’un seul site PSTN dans Cloud Connector Edition.
+ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358930"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094832"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Déployer un seul site dans Cloud Connector
  
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
-Découvrez le déploiement d’un seul site PSTN dans Cloud Connector Edition.
+En savoir plus sur le déploiement d’un seul site PSTN dans Cloud Connector Edition.
   
 Vous pouvez déployer Skype Entreprise, version Cloud Connector avec ou sans la prise en charge de la haute disponibilité (HA). Si vous souhaitez activer la ha, vous devez déployer au moins deux appliances au sein d’un site. Vous pouvez également convertir une appliance existante pour prendre en charge la ha après son déploiement.
   
@@ -40,7 +40,7 @@ Pour déployer la première appliance dans un site, ouvrez une console PowerShel
 Register-CcAppliance
 ```
 
-Suivez les instructions pour fournir le nom et le mot de passe du compte d’administrateur client. Utilisez le compte que vous avez créé pour la gestion en ligne de Cloud Connector. Suivez également les instructions pour fournir le mot de passe du certificat externe, le mot de passe d’administrateur en mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe d’administrateur de la VM. 
+Suivez les instructions pour fournir le nom et le mot de passe du compte d’administrateur client. Utilisez le compte que vous avez créé pour la gestion en ligne de Cloud Connector. Suivez également les instructions pour fournir le mot de passe du certificat externe, le mot de passe d’administrateur en mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe de l’administrateur de la VM. 
   
 Dans la version 1.4.2 et antérieure, suivez également les instructions pour fournir le mot de passe du certificat externe, le mot de passe d’administrateur en mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe d’administrateur de la VM. 
   
@@ -70,7 +70,7 @@ Vous pouvez étendre un site Cloud Connector existant pour prendre en charge la 
    Publish-CcAppliance
    ```
 
-4. Exécutez la cmdlet suivante uniquement sur les serveurs hôtes nouvellement ajoutés. N’exécutez pas cette cmdlet sur l’appliance existante. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l’cmdlet sur chaque serveur hôte nouvellement ajouté un par un.
+4. Exécutez l’applet de cmdlet suivante uniquement sur les serveurs hôtes nouvellement ajoutés. N’exécutez pas cette cmdlet sur l’appliance existante. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l’cmdlet sur chaque serveur hôte nouvellement ajouté un par un.
     
    ```powershell
    Install-CcAppliance
@@ -94,5 +94,3 @@ Si vous souhaitez supprimer une appliance d’un site existant :
    ```powershell
    Uninstall-CcAppliance
    ```
-
-

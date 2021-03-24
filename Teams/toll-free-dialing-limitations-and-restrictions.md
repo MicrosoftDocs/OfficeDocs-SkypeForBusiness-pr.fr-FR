@@ -23,16 +23,16 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits dans un pays/une région, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322303"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093894"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant l’appel de numéros verts
 
-Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays ou région. Une fois que vous avez sélectionné le pays/la région, vous êtes sur une page qui contient les services gratuits disponibles, y compris des détails spécifiques, des restrictions et des limites. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
+Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays ou région. Une fois que vous avez sélectionné le pays/la région, vous êtes sur une page qui contient les services gratuits qui sont disponibles, notamment des détails, des restrictions et des limites spécifiques. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
   
 Si vous êtes prêt, sélectionnez un pays ou une région :
   
@@ -111,12 +111,12 @@ Si vous êtes prêt, sélectionnez un pays ou une région :
     
 - **L’acquisition ou le portage de numéros de téléphone gratuits internationaux (UIFN) n’est pas pris en charge.**
     
-- **Dans de nombreux pays/régions, l’agence de réglementation/télécommunications du pays/de la région exige que chaque numéro de téléphone gratuit conserve au moins 100 minutes d’utilisation par mois afin de conserver ce numéro.**
+- **Dans de nombreux pays/régions, l’agence de réglementation/télécommunications du pays/de la région exige que chaque numéro de téléphone gratuit conserve une utilisation d’au moins 100 minutes par mois afin de conserver ce numéro.**
     
     > [!NOTE]
     > Si vous obtenez un numéro gratuit et que l’utilisation de ce numéro ne répond pas aux conditions minimales requises, l’agence de réglementation/télécommunications risque de se faire chercher par Microsoft pour récupérer ce numéro auprès de vous. 
   
-- **L’accès câblé, fixe et mobile aux numéros gratuits peut être entièrement ou partiellement restreint.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
+- **L’accès câblé, fixe et réseau mobile aux numéros gratuits peut être entièrement ou partiellement restreint.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
     
 - **Numéros gratuits pour l’Amérique du Nord :** Les tarifs à la minute pour les numéros gratuits du plan de numéroment en Amérique du Nord sont déterminés par le pays d’origine. Le tarif à la minute gratuit pour les appels provenant des États-Unis est map au taux défini comme « Amérique du Nord ». Toutefois, les appels provenant d’autres pays nord-américains tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
 
@@ -124,7 +124,6 @@ Si vous êtes prêt, sélectionnez un pays ou une région :
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## <a name="related-topics"></a>Rubriques connexes
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](./getting-service-phone-numbers.md)
 
   
- 

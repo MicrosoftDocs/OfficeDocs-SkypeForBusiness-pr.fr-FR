@@ -13,20 +13,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83f4f3b0fe0600c1f46da612d35f75aa67d74cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 478f15ee880d03c13d46249ba467380e0e631254
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825314"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092402"
 ---
 # <a name="teams-for-government"></a>Teams pour le secteur public
 
-Utilisez ces ressources pour en savoir plus sur des considérations spécifiques pour le déploiement d’Équipes dans les environnements Microsoft 365 Government. Lorsque vous êtes prêt, suivez le chemin de déploiement recommandé pour Teams comme indiqué dans la manière de [déployer Microsoft Teams.](../How-to-roll-out-teams.md)
+Utilisez ces ressources pour en savoir plus sur des considérations spécifiques pour le déploiement de Teams dans les environnements Microsoft 365 Government. Lorsque vous êtes prêt, suivez le chemin de déploiement recommandé pour Teams comme indiqué dans la manière de [déployer Microsoft Teams.](../deploy-overview.md)
 
 |               |               |
 | ------------- | ------------- |
-| ![list-123-teams](../media/list-123-teams.svg)  |  [Planifier les déploiements de Microsoft 365 Government - GCC](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
-| ![tasks-teams](../media/tasks-teams.svg) | [Plan pour Microsoft 365 pour entités publiques - GCC High](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
-| ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [Planifier les déploiements de Microsoft 365 Government - DOD](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Audioconférence avec routage direct pour GCC High et DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |
+| ![Capture d’écran de l’icône de liste numéroée](../media/list-123-teams.svg)  |  [Planifier les déploiements de Microsoft 365 Government - GCC](../plan-for-government-gcc.md) |
+| ![Capture d’écran du Presse-papiers avec une icône de liste de tâches](../media/tasks-teams.svg) | [Plan pour Microsoft 365 pour entités publiques - GCC High](../plan-for-government-gcc-high.md) |
+| ![Capture d’écran de l’icône d’éléments de liste à puces](../media/task-list-planning-teams.svg)  |  [Planifier les déploiements de Microsoft 365 Government - DOD](../plan-for-government-dod.md) |
+| ![Capture d’écran de l’icône de flèche droite](../media/arrow-right-2-teams.svg)  |  [Audioconférence avec routage direct pour GCC High et DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

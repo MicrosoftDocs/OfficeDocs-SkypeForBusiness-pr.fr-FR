@@ -20,20 +20,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905646"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093934"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================
 
 Avant d’installer Teams pour Surface Hub, assurez-vous de faire les choses suivantes :
 
- □ assurez-vous que le matériel, le système d’exploitation et les autres conditions requises sont respectées. Pour plus d’informations, voir le [guide d’administration de La Microsoft Surface Hub.](https://docs.microsoft.com/surface-hub/)<br>
- □ assurez-vous que la mise à jour minimale du système d’exploitation requise pour Teams est installée - [KB4343889.](https://support.microsoft.com/help/4343889)<br>
+ □ assurez-vous que le matériel, le système d’exploitation et d’autres conditions sont satisfaits. Pour plus d’informations, voir le [guide d’administration de La Microsoft Surface Hub.](/surface-hub/)<br>
+ □ la mise à jour minimale du système d’exploitation requise pour Teams est installée - [KB4343889.](https://support.microsoft.com/help/4343889)<br>
  □ attribuer une licence Teams au compte d’appareil Hub.<br>
  □ si vous faites la transition de Skype Entreprise Online, confirmez qu’une licence Teams est affectée à l’utilisateur.
 
@@ -55,7 +55,7 @@ Ces instructions s’utilisent pour installer Teams pour Surface Hub à partir d
 Il existe deux options pour configurer la stratégie d’application par défaut pour les appels et les réunions : 
 
 - **Option 1**: configurer via une clé USB. 
-- **Option 2**: configurer via la gestion des appareil photo tels qu’Intune.
+- **Option 2**: configurer via la gestion des appareil photo tels que Intune.
  
 ### <a name="option-1-configure-via-usb-key"></a>Option 1 : configurer via une clé USB 
  
@@ -76,7 +76,7 @@ Vous pouvez trouver les packages sur cette [page de téléchargement.](https://1
 7. Sélectionnez **l’option de** média amovible dans le menu déroulant. 
 8. Ajoutez le package <strong>TeamsRTMMode*.ppkg</strong> approprié précédemment copié sur la clé USB. 
 9. Redémarrez l’appareil Surface Hub. 
-10. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application Teams à partir de l’écran de démarrage et de rejoindre une réunion à partir du calendrier. 
+10. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application Teams à partir de l’écran de démarrage et de participer à une réunion à partir du calendrier. 
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : configurer via la gestion des appareil photo tels que Intune 
 
@@ -94,5 +94,4 @@ Utilisez la procédure suivante pour configurer la stratégie d’application pa
 |Type de données | string - set string to Teams application package ID as **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams** |
 |Opérations| Obtenir, Définir        |
 
-Redémarrez l’appareil Surface Hub. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application Teams à partir de l’écran de démarrage et de rejoindre une réunion à partir du calendrier.
-
+Redémarrez l’appareil Surface Hub. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application Teams à partir de l’écran de démarrage et de participer à une réunion à partir du calendrier.

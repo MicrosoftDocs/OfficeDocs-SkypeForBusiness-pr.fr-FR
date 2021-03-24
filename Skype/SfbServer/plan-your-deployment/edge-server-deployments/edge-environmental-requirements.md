@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Résumé : Découvrez les exigences environnementales pour le serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: 3757a67d36260cce7d14ddf451a3a436429f24fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8370fb2c8fa8a9b1d083ba336decd85715e31d25
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813834"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095018"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Exigences environnementales du serveur Edge dans Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Les topologies de serveur Edge Skype Entreprise Server peuvent utiliser :
 - Adresses IP privées non routables, si **la** traduction d’adresses réseau symétrique (NAT) est utilisée.
     
 > [!TIP]
-> Votre serveur Edge peut être configuré pour utiliser une adresse IP unique avec des ports distincts pour chaque service, ou il peut utiliser des adresses IP distinctes pour chaque service, mais utiliser le même port par défaut (qui sera par défaut TCP 443). Vous trouverez plus d’informations dans la section Sur les exigences en matière d’adresses IP, ci-dessous. 
+> Votre serveur Edge peut être configuré pour utiliser une adresse IP unique avec des ports distincts pour chaque service, ou il peut utiliser des adresses IP distinctes pour chaque service, mais utiliser le même port par défaut (qui, par défaut, sera TCP 443). Pour plus d’informations, voir la section Sur les exigences en matière d’adresses IP ci-dessous. 
   
 Si vous choisissez des adresses IP privées non routables avec NAT, n’oubliez pas les points ci-après :
   
@@ -61,7 +61,7 @@ Si vous choisissez des adresses IP privées non routables avec NAT, n’oubliez 
     
 - Nat ne **peut être** utilisé que pour les serveurs Edge consolidés à l’échelle si vous utilisez l’équilibrage de charge DNS. Si vous utilisez l’équilibrage de la charge matérielle, vous devez utiliser des adresses IP publiquement routables **sans** NAT.
     
-Vous n’aurez aucun problème à avoir vos interfaces Edge Access, de conférence web et A/V derrière un routeur ou un pare-feu qui exécutent une nat symétrique pour les topologies de serveur Edge consolidées à la fois unique et mise à l’échelle (tant que vous n’utilisez pas l’équilibrage de la charge matérielle).
+Vos interfaces Edge Access, webconférence et A/V n’auront aucun problème derrière un routeur ou un pare-feu qui exécutent une nat symétrique pour les topologies de serveur Edge consolidées unique et mise à l’échelle (tant que vous n’utilisez pas l’équilibrage de la charge matérielle).
   
 ### <a name="summary-of-edge-server-topology-options"></a>Résumé des options de topologie du serveur Edge
 
@@ -91,10 +91,10 @@ Pour vous aider à en choisir une, nous avons le tableau suivant qui récapitule
   
 ### <a name="ip-address-requirements"></a>Exigences relatives aux adresses IP
 
-À un niveau fondamental, trois services ont besoin d’adresses IP ; Service Edge d’accès, service Edge de conférence Web et service Edge A/V. Vous avez la possibilité d’utiliser trois adresses IP, une pour chacun des services, ou vous pouvez en utiliser une et choisir de placer chaque service sur un port différent (vous pouvez consulter la [section](edge-environmental-requirements.md#PortFirewallPlan) Planification du port et du pare-feu pour plus d’informations sur certains de ces services). Pour un environnement Edge consolidé unique, c’est à peu près tout.
+À un niveau fondamental, trois services ont besoin d’adresses IP ; Service Edge d’accès, service Edge de conférence web et service Edge A/V. Vous avez la possibilité d’utiliser trois adresses IP, une pour chacun des services, ou vous pouvez en utiliser une et choisir de placer chaque service sur un port différent (vous pouvez consulter la [section](edge-environmental-requirements.md#PortFirewallPlan) Planification du port et du pare-feu pour plus d’informations sur certains de ces services). Pour un environnement Edge consolidé unique, c’est à peu près tout.
   
 > [!NOTE]
-> Comme indiqué ci-dessus, vous pouvez choisir d’avoir une adresse IP pour les trois services et de les exécuter sur différents ports. Mais pour être clair, nous ne recommandons pas cela. Si vos clients ne peuvent pas accéder aux autres ports que vous utiliseriez dans ce scénario, ils ne peuvent pas non plus accéder aux fonctionnalités complètes de votre environnement Edge. 
+> Comme indiqué ci-dessus, vous pouvez choisir d’avoir une adresse IP pour les trois services et de les exécuter sur différents ports. Mais, pour être clair, nous ne recommandons pas cela. Si vos clients ne peuvent pas accéder aux autres ports que vous utiliseriez dans ce scénario, ils ne peuvent pas non plus accéder aux fonctionnalités complètes de votre environnement Edge. 
   
 Cela peut être un peu plus compliqué avec des topologies consolidées à l’échelle. Examinons donc certains tableaux qui détaillent les exigences en matière d’adresses IP, en gardant à l’esprit que les principaux points de décision pour la sélection de topologie sont la haute disponibilité et l’équilibrage de charge. Les besoins de haute disponibilité peuvent influencer votre choix d’équilibrage de charge (nous en parlerons davantage après les tableaux).
   
@@ -102,23 +102,23 @@ Cela peut être un peu plus compliqué avec des topologies consolidées à l’�
 
 |**Nombre de serveurs Edge par pool**|**Nombre d’adresses IP requises pour l’équilibrage de charge DNS**|**Nombre d’adresses IP requises pour l’équilibrage de la charge matérielle**|
 |:-----|:-----|:-----|
-|2   <br/> |6   <br/> |3 (1 par adresse IP virtuelle) + 6  <br/> |
-|3   <br/> |9   <br/> |3 (1 par adresse IP virtuelle) + 9  <br/> |
+|2  <br/> |6   <br/> |3 (1 par adresse IP virtuelle) + 6  <br/> |
+|3  <br/> |9   <br/> |3 (1 par adresse IP virtuelle) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (1 par adresse IP virtuelle) + 12  <br/> |
 |5   <br/> |15   <br/> |3 (1 par vip) +15  <br/> |
    
-#### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Exigences en matière d’adresse IP pour le edge consolidé à l’échelle (adresse IP unique pour tous les rôles)
+#### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Exigences en matière d’adresses IP pour le edge consolidé à l’échelle (adresse IP unique pour tous les rôles)
 
 |**Nombre de serveurs Edge par pool**|**Nombre d’adresses IP requises pour l’équilibrage de charge DNS**|**Nombre d’adresses IP requises pour l’équilibrage de la charge matérielle**|
 |:-----|:-----|:-----|
-|2   <br/> |2   <br/> |1 (1 par adresse IP virtuelle) + 2  <br/> |
-|3   <br/> |3   <br/> |1 (1 par adresse IP virtuelle) + 3  <br/> |
+|2  <br/> |2  <br/> |1 (1 par adresse IP virtuelle) + 2  <br/> |
+|3  <br/> |3  <br/> |1 (1 par adresse IP virtuelle) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (1 par adresse IP virtuelle) + 4  <br/> |
 |5   <br/> |5  <br/> |1 (1 par adresse IP virtuelle) + 5  <br/> |
    
 Examinons quelques éléments supplémentaires à prendre en compte lors de la planification.
   
-- **Haute disponibilité**: si vous avez besoin d’une haute disponibilité dans votre déploiement, vous devez déployer au moins deux serveurs Edge dans un pool. Il est intéressant de noter qu’un seul pool edge prendra en charge jusqu’à 12 serveurs Edge (bien que le Générateur de topologie vous permet d’ajouter jusqu’à 20 serveurs, ce qui n’est pas testé ou pris en charge, nous vous conseillons de ne pas le faire). Si vous avez besoin de plus de 12 serveurs Edge, vous devez créer des pools edge supplémentaires pour eux.
+- **Haute disponibilité**: si vous avez besoin d’une haute disponibilité dans votre déploiement, vous devez déployer au moins deux serveurs Edge dans un pool. Il est intéressant de noter qu’un seul pool edge prendra en charge jusqu’à 12 serveurs Edge (bien que le Générateur de topologie vous permet d’ajouter jusqu’à 20 serveurs, ce qui n’est pas testé ou pris en charge, nous vous conseillons de ne pas le faire). Si vous avez besoin de plus de 12 serveurs Edge, vous devez créer des pools de serveurs Edge supplémentaires pour eux.
     
 - **Équilibrage de la charge matérielle**: nous recommandons l’équilibrage de charge DNS pour la plupart des scénarios. L’équilibrage de la charge matérielle est également pris en charge, bien entendu, mais il est notamment nécessaire pour un scénario unique sur l’équilibrage de charge DNS :
     
@@ -143,7 +143,7 @@ En ce qui concerne le déploiement du serveur Edge de Skype Entreprise Server, i
   
 ### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>Enregistrements DNS pour les scénarios de serveur Edge consolidé unique
 
-Il s’agit des enregistrements DNS dont vous aurez besoin pour un serveur Edge en utilisant des IP publiques ou privées avec nat. Étant donné qu’il s’agit d’exemples de données, nous allons donner des exemples d’IP pour vous aider à trouver vos propres entrées plus facilement :
+Il s’agit des enregistrements DNS dont vous aurez besoin pour un serveur Edge en utilisant des IP publiques ou privées avec nat. Étant donné qu’il s’agit d’exemples de données, nous allons donner des exemples d’IP pour que vous pouvez travailler plus facilement sur vos propres entrées :
   
 - Carte réseau interne : 172.25.33.10 (aucune passerelle par défaut affectée)
     
@@ -175,14 +175,14 @@ Les adresses IP publiques edge A/V et de conférence web sont des adresses IP su
 > [!TIP]
 >Il existe d’autres configurations possibles ici :
   
-- Vous pouvez utiliser une adresse IP sur la carte réseau externe. Cela n’est pas recommandé, car vous devrez faire la distinction entre les différents services à l’aide de différents ports (ce que vous pouvez faire dans Skype Entreprise Server), mais certains pare-feu peuvent bloquer les autres ports. Pour plus [d’informations à](edge-environmental-requirements.md#PortFirewallPlan) ce sujet, voir la section Sur la planification des ports et des pare-feu.
+- Vous pouvez utiliser une adresse IP sur la carte réseau externe. Cela n’est pas recommandé, car vous devrez faire la distinction entre les différents services à l’aide de différents ports (ce que vous pouvez faire dans Skype Entreprise Server), mais certains pare-feu peuvent bloquer les autres ports. Pour plus [d’informations à](edge-environmental-requirements.md#PortFirewallPlan) ce sujet, consultez la section Sur la planification des ports et des pare-feu.
     
 - Vous pouvez avoir trois cartes réseau externes au lieu d’une seule et affecter l’une des IP de service à chacune d’elles. Pourquoi faire cela ? Cela séparerait les services et en cas de problème, cela faciliterait la résolution des problèmes et laisserait éventuellement vos autres services continuer à fonctionner pendant que vous résolvez un problème.
     
-|**Emplacement**|**Type (Type)**|**Port**|**FQDN ou enregistrement DNS**|**Adresse IP ou FQDN**|**Notes**|
+|**Location**|**Type (Type)**|**Port (Port)**|**Enregistrement DNS ou FQDN**|**Adresse IP ou FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |sip.contoso.com  <br/> |**public :** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Une interface externe pour votre service Edge d’accès. Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/> |
-|DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |webcon.contoso.com  <br/> |**public :** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Une interface externe pour votre service Edge de conférence Web.  <br/> |
+|DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |webcon.contoso.com  <br/> |**public :** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Une interface externe pour votre service Edge de conférence web.  <br/> |
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |av.contoso.com  <br/> |**public :** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |Une interface externe pour votre service Edge A/V.  <br/> |
 |DNS externe  <br/> |enregistrement SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Une interface externe pour votre service Edge d’accès. Cet enregistrement SRV est requis pour que les clients Skype Entreprise Server, Lync Server 2013 et Lync Server 2010 fonctionnent en externe. Vous en aurez besoin pour chaque domaine avec des utilisateurs Skype Entreprise.  <br/> |
 |DNS externe  <br/> |enregistrement SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Une interface externe pour votre service Edge d’accès. Cet enregistrement SRV est requis pour la découverte DNS automatique des partenaires fédérés appelés domaines SIP autorisés. Vous en aurez besoin pour chaque domaine avec des utilisateurs Skype Entreprise.  <br/> |
@@ -190,7 +190,7 @@ Les adresses IP publiques edge A/V et de conférence web sont des adresses IP su
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Enregistrements DNS pour les scénarios DNS avec mise à l’échelle et serveur Edge matériel
 
-Il s’agit des enregistrements DNS dont vous aurez besoin pour un serveur Edge en utilisant des IP publiques ou privées avec nat. Étant donné qu’il s’agit d’exemples de données, nous allons donner des exemples d’IP pour vous aider à trouver vos propres entrées plus facilement :
+Il s’agit des enregistrements DNS dont vous aurez besoin pour un serveur Edge en utilisant des IP publiques ou privées avec nat. Étant donné qu’il s’agit d’exemples de données, nous allons donner des exemples d’IP pour que vous pouvez travailler plus facilement sur vos propres entrées :
   
 - Carte réseau interne :
     
@@ -249,14 +249,14 @@ Il s’agit des enregistrements DNS dont vous aurez besoin pour un serveur Edge 
     
 Il existe d’autres configurations possibles ici :
   
-- Vous pouvez utiliser une adresse IP sur la carte réseau externe. Cela n’est pas recommandé, car vous devrez faire la distinction entre les différents services à l’aide de différents ports (ce que vous pouvez faire dans Skype Entreprise Server), mais certains pare-feu peuvent bloquer les autres ports. Pour plus [d’informations à](edge-environmental-requirements.md#PortFirewallPlan) ce sujet, voir la section Sur la planification des ports et des pare-feu.
+- Vous pouvez utiliser une adresse IP sur la carte réseau externe. Cela n’est pas recommandé, car vous devrez faire la distinction entre les différents services à l’aide de différents ports (ce que vous pouvez faire dans Skype Entreprise Server), mais certains pare-feu peuvent bloquer les autres ports. Pour plus [d’informations à](edge-environmental-requirements.md#PortFirewallPlan) ce sujet, consultez la section Sur la planification des ports et des pare-feu.
     
 - Vous pouvez avoir trois cartes réseau externes au lieu d’une seule et affecter l’une des IP de service à chacune d’elles. Pourquoi faire cela ? Cela séparerait les services et en cas de problème, cela faciliterait la résolution des problèmes et laisserait éventuellement vos autres services continuer à fonctionner pendant que vous résolvez un problème.
     
-|**Emplacement**|**Type (Type)**|**Port**|**FQDN ou enregistrement DNS**|**Adresse IP ou FQDN**|**Notes**|
+|**Location**|**Type (Type)**|**Port (Port)**|**Enregistrement DNS ou FQDN**|**Adresse IP ou FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |sip.contoso.com  <br/> |**public :** 131.107.155.10 et 131.107.155.11 <br/> **privé :** 10.45.16.10 et 10.45.16.11 <br/> |Une interface externe pour votre service Edge d’accès. Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/> |
-|DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |webcon.contoso.com  <br/> |**public :** 131.107.155.20 et 131.107.155.21 <br/> **privé :** 10.45.16.20 et 10.45.16.21 <br/> |Une interface externe pour votre service Edge de conférence Web.  <br/> |
+|DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |sip.contoso.com  <br/> |**public :** 131.107.155.10 et 131.107.155.11 <br/> **private:** 10.45.16.10 et 10.45.16.11 <br/> |Une interface externe pour votre service Edge d’accès. Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/> |
+|DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |webcon.contoso.com  <br/> |**public :** 131.107.155.20 et 131.107.155.21 <br/> **privé :** 10.45.16.20 et 10.45.16.21 <br/> |Une interface externe pour votre service Edge de conférence web.  <br/> |
 |DNS externe  <br/> |Un enregistrement  <br/> |N/A  <br/> |av.contoso.com  <br/> |**public :** 131.107.155.30 et 131.107.155.31 <br/> **privé :** 10.45.16.30 et 10.45.16.31 <br/> |Une interface externe pour votre service Edge A/V.  <br/> |
 |DNS externe  <br/> |enregistrement SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Une interface externe pour votre service Edge d’accès. Cet enregistrement SRV est requis pour que les clients Skype Entreprise Server, Lync Server 2013 et Lync Server 2010 fonctionnent en externe. Vous en aurez besoin pour chaque domaine avec Skype Entreprise.  <br/> |
 |DNS externe  <br/> |enregistrement SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Une interface externe pour votre service Edge d’accès. Cet enregistrement SRV est requis pour la découverte DNS automatique des partenaires fédérés appelés domaines SIP autorisés. Vous en aurez besoin pour chaque domaine avec Skype Entreprise.  <br/> |
@@ -264,36 +264,36 @@ Il existe d’autres configurations possibles ici :
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Enregistrement DNS pour la fédération (tous les scénarios)
 
-|**Emplacement**|**Type (Type)**|**Port**|**FQDN**|**Enregistrement d’hôte FQDN**|**Notes**|
+|**Location**|**Type (Type)**|**Port (Port)**|**FQDN**|**Enregistrement d’hôte FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Interface externe du edge d’accès SIP requise pour la découverte DNS automatique. Utilisé par vos autres partenaires de fédération potentiels. Il est également appelé « Autoriser les domaines SIP ». Vous en aurez besoin pour chaque domaine SIP avec des utilisateurs Skype Entreprise.  <br/><br/> **Remarque :** Vous aurez besoin de cet enregistrement SRV pour la mobilité et le centre d’échange de notifications Push. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Enregistrements DNS pour le protocole de messagerie et de présence extensible
 
-|**Emplacement**|**Type (Type)**|**Port**|**FQDN**|**Adresse IP ou enregistrement d’hôte FQDN**|**Notes**|
+|**Location**|**Type (Type)**|**Port (Port)**|**FQDN**|**Adresse IP ou enregistrement d’hôte FQDN**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Interface proxy XMPP sur votre service Edge d’accès ou pool edge. Vous devez répéter cette procédure si nécessaire pour tous les domaines SIP internes avec des utilisateurs activés pour Skype Entreprise Server, où le contact avec les contacts XMPP est autorisé via :  <br/> • une stratégie globale  <br/> • une stratégie de site dans laquelle l’utilisateur est activé  <br/> • une stratégie utilisateur appliquée à l’utilisateur activé pour Skype Entreprise Server  <br/> Une stratégie XMPP autorisée doit également être configurée dans la stratégie utilisateurs fédérés XMPP.  <br/> |
 |DNS externe  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Adresse IP du service Edge d’accès sur le serveur Edge ou le pool edge hébergeant votre service proxy XMPP  <br/> |Cela pointe vers le service Edge d’accès sur le serveur Edge ou le pool edge qui héberge le service proxy XMPP. En règle générale, l’enregistrement SRV que vous créez pointe vers cet enregistrement hôte (A ou AAAA).  <br/> |
    
 > [!NOTE]
-> Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour [plus d’informations, voir](../../../SfBServer2019/migration/migrating-xmpp-federation.md) Migration de la fédération XMPP.
+> Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour plus d’informations, voir Migration de la fédération [XMPP.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
 
 ## <a name="certificate-planning"></a>Planification de certificat
 <a name="CertPlan"> </a>
 
-Skype Entreprise Server utilise des certificats pour sécuriser et chiffrer les communications entre les serveurs et de serveur à client. Comme vous vous y attendiez, vos certificats doivent avoir des enregistrements DNS pour vos serveurs qui correspondent à n’importe quel nom de sujet (SN) et autre nom de l’objet (SAN) sur vos certificats. Cela prendra du travail maintenant, lors de la phase de planification, pour vous assurer que vous avez les bons FQDN enregistrés dans DNS pour les entrées SN et SAN pour vos certificats.
+Skype Entreprise Server utilise des certificats pour sécuriser et chiffrer les communications entre les serveurs et de serveur à client. Comme vous vous y attendiez, vos certificats doivent avoir des enregistrements DNS pour vos serveurs qui correspondent à n’importe quel nom de sujet (SN) et autre nom du sujet (SAN) sur vos certificats. Cela prendra du travail maintenant, au moment de la planification, pour vous assurer que vous avez les bons FQDN enregistrés dans DNS pour les entrées SN et SAN pour vos certificats.
   
 Nous aborderons séparément les besoins des certificats externes et internes, puis examinerons un tableau fournissant les conditions requises pour les deux.
   
 ### <a name="external-certificates"></a>Certificats externes
 
-Au minimum, le certificat affecté à vos interfaces de serveur Edge externes doit être fourni par une autorité de certification publique. Nous ne pouvons pas vous recommander une ca spécifique, mais nous avons une liste de ca, partenaires de certificats [de](/SkypeForBusiness/certification/services-ssl) communications unifiées, que vous pouvez consulter pour voir si votre ca préférée est répertoriée.
+Au minimum, le certificat affecté à vos interfaces de serveur Edge externes doit être fourni par une autorité de certification publique. Nous ne pouvons pas vous recommander une ca spécifique, mais nous avons une liste de ca, partenaires de certificats [de communications](../../../SfbPartnerCertification/certification/services-ssl.md) unifiées, que vous pouvez consulter pour voir si votre ca préférée est répertoriée.
   
 Quand devez-vous envoyer une demande à une ca pour ce certificat public et comment le faire ? Il existe deux façons d’effectuer cette tâche :
   
 - Vous pouvez passer par l’installation de Skype Entreprise Server, puis le déploiement du serveur Edge. L’Assistant Déploiement de Skype Entreprise Server aura une étape pour générer une demande de certificat, que vous pouvez ensuite envoyer à votre cae choisie.
     
-- Vous pouvez également utiliser Windows PowerShell commande pour générer cette demande, si celle-ci est plus en ligne avec les besoins de votre entreprise ou votre stratégie de déploiement.
+- Vous pouvez également utiliser Windows PowerShell pour générer cette demande, si cela est plus en ligne avec les besoins de votre entreprise ou votre stratégie de déploiement.
     
 - Enfin, votre ca peut avoir son propre processus d’envoi, qui peut également impliquer Windows PowerShell ou une autre méthode. Dans ce cas, vous devez vous appuyer sur leur documentation, en plus des informations fournies ici pour votre référence.
     
@@ -310,7 +310,7 @@ Une fois que vous avez obtenu le certificat, vous devez continuer et l’affecte
   
 ### <a name="internal-certificates"></a>Certificats internes
 
-Pour l’interface interne du serveur Edge, vous pouvez utiliser un certificat public d’une ca publique ou un certificat émis par l’ac de votre organisation. La chose à retenir sur le certificat interne est qu’il utilise une entrée SN et aucune entrée SAN, de sorte que vous n’avez pas à vous soucier de SAN sur le certificat interne du tout.
+Pour l’interface interne du serveur Edge, vous pouvez utiliser un certificat public d’une ca publique ou un certificat émis par l’ac de votre organisation. N’oubliez pas que le certificat interne utilise une entrée SN et aucune entrée SAN. Vous n’avez donc pas à vous soucier du san du tout sur le certificat interne.
   
 ### <a name="required-certificates-table"></a>Table Certificats requis
 
@@ -328,7 +328,7 @@ Qu’il s’agit d’un serveur Edge unique ou d’un pool de serveurs Edge, voi
   
 |**Composant**|**Nom du sujet (SN)**|**Autres noms du sujet (SAN)/ordre**|**Notes**|
 |:-----|:-----|:-----|:-----|
-|Edge externe  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Il s’agit du certificat que vous devez demander à une ca publique. Il doit être affecté aux interfaces Edge externes pour les opérations suivantes :  <br/> • Edge d’accès  <br/> • Serveur Edge de conférence web  <br/> • Authentification audio/vidéo  <br/> <br/>La bonne nouvelle est que les réseaux sans sont automatiquement ajoutés à votre demande de certificat, et par conséquent à votre certificat après l’envoi de la demande, en fonction de ce que vous avez défini pour ce déploiement dans le Générateur de topologies. Vous devrez uniquement ajouter des entrées SAN pour les domaines SIP supplémentaires ou les autres entrées que vous devez prendre en charge. Pourquoi les sip.contoso.com sont-ils répliqués dans cette instance ? Cela se produit également automatiquement et est nécessaire pour que les choses fonctionnent correctement.  <br/><br/> **Remarque :** Ce certificat peut également être utilisé pour la connectivité de messagerie instantanée publique. Vous n’avez pas besoin d’en faire autrement, mais dans les versions précédentes de cette documentation, elle était répertoriée en tant que tableau distinct, et ce n’est plus le cas maintenant. <br/> |
+|Edge externe  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Il s’agit du certificat que vous devez demander à une ca publique. Il doit être affecté aux interfaces Edge externes pour les opérations suivantes :  <br/> • Edge d’accès  <br/> • Serveur Edge de conférence web  <br/> • Authentification audio/vidéo  <br/> <br/>La bonne nouvelle est que les réseaux sans sont automatiquement ajoutés à votre demande de certificat, et par conséquent à votre certificat après l’envoi de la demande, en fonction de ce que vous avez défini pour ce déploiement dans le Générateur de topologies. Vous devrez uniquement ajouter des entrées SAN pour les domaines SIP supplémentaires ou les autres entrées que vous devez prendre en charge. Pourquoi les sip.contoso.com sont-ils répliqués dans cette instance ? Cela se produit également automatiquement et est nécessaire pour que les choses fonctionnent correctement.  <br/><br/> **Remarque :** Ce certificat peut également être utilisé pour la connectivité de messagerie instantanée publique. Vous n’avez pas besoin d’en faire autrement, mais dans les versions précédentes de cette documentation, elle était répertoriée en tant que tableau distinct, ce qui n’est plus le cas maintenant. <br/> |
 |Edge interne  <br/> |sfbedge.contoso.com  <br/> |N/A  <br/> |Vous pouvez obtenir ce certificat auprès d’une ca publique ou interne. Il doit contenir la référence EKU du serveur (utilisation améliorée des clés) et vous l’affecterez à l’interface Edge interne.  <br/> |
    
 Si vous avez besoin d’un certificat pour le protocole XMPP (Extensible Messaging and Presence Protocol), il sera identique aux entrées de la table Edge externe ci-dessus, mais aura les deux entrées SAN supplémentaires suivantes :
@@ -376,12 +376,12 @@ L’adresse IP source et l’adresse IP de destination contiennent des informati
    
 ### <a name="internal-port-firewall-summary-table"></a>Tableau récapitulatif du pare-feu de port interne
 
-|**Protocole**|**TCP ou UDP**|**Port**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
+|**Protocole**|**TCP ou UDP**|**Port (Port)**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |L’une des façons suivantes d’exécution du service de passerelle XMPP :  <br/> • Serveur frontal  <br/> • Pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic XMPP sortant à partir de votre service de passerelle XMPP en cours d’exécution sur votre serveur frontal ou pool frontal.  <br/> **Remarque :** Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour [plus d’informations, voir](../../../SfBServer2019/migration/migrating-xmpp-federation.md) Migration de la fédération XMPP.|
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Tout :  <br/> • Directeur  <br/> • Pool directeur  <br/> • Serveur frontal  <br/> • Pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic SIP sortant de votre directeur, pool directeur, serveur frontal ou pool frontal vers votre interface interne du serveur Edge.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |L’une des façons suivantes d’exécution du service de passerelle XMPP :  <br/> • Serveur frontal  <br/> • Pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic XMPP sortant à partir de votre service de passerelle XMPP en cours d’exécution sur votre serveur frontal ou pool frontal.  <br/> **Remarque :** Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour plus d’informations, voir Migration de la fédération [XMPP.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)|
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Tout :  <br/> • Directeur  <br/> • Pool directeur  <br/> • Serveur frontal  <br/> • Pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic SIP sortant de votre directeur, pool directeur, serveur frontal ou pool frontal vers votre interface interne de serveur Edge.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interface interne du serveur Edge  <br/> |Tout :  <br/> • Directeur  <br/> • Pool directeur  <br/> • Serveur frontal  <br/> • Pool frontal  <br/> |Trafic SIP entrant vers votre directeur, pool directeur, serveur frontal ou pool frontal à partir de votre interface interne de serveur Edge.  <br/> |
-|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal  <br/>  dans votre pool frontal <br/> |Interface interne du serveur Edge  <br/> |Trafic de conférence web à partir de votre serveur frontal ou de chaque serveur frontal (si vous avez un pool frontal) vers votre interface interne du serveur Edge.  <br/> |
+|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal  <br/>  dans votre pool frontal <br/> |Interface interne du serveur Edge  <br/> |Trafic de conférence web à partir de votre serveur frontal ou de chaque serveur frontal (si vous avez un pool frontal) vers votre interface interne de serveur Edge.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Pool frontal  <br/> • Tout Survivable Branch Appliance utilisant ce serveur Edge  <br/> • Tout serveur Survivable Branch Server utilisant ce serveur Edge  <br/> |Interface interne du serveur Edge  <br/> |Authentification des utilisateurs A/V à partir de votre serveur frontal ou pool frontal, ou de votre Survivable Branch Appliance ou survivable Branch Server, à l’aide de votre serveur Edge.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |N’importe lequel  <br/> |Interface interne du serveur Edge  <br/> |Chemin d’accès préféré pour le transfert multimédia A/V entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou survivable Branch Server.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |N’importe lequel  <br/> |Interface interne du serveur Edge  <br/> |Chemin d’accès de retour pour le transfert multimédia A/V entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou survivable Branch Server, si la communication UDP ne fonctionne pas. TCP est ensuite utilisé pour les transferts de fichiers et le partage de bureau.  <br/> |
@@ -412,11 +412,11 @@ L’adresse IP source et l’adresse IP de destination contiennent des informati
    
 #### <a name="internal-port-firewall-summary-table"></a>Tableau récapitulatif du pare-feu de port interne
 
-|**Protocole**|**TCP ou UDP**|**Port**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
+|**Protocole**|**TCP ou UDP**|**Port (Port)**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |L’une des façons suivantes d’exécution du service de passerelle XMPP :  <br/> • Serveur frontal  <br/> • Adresse IP ip du pool frontal exécutant le service de passerelle XMPP  <br/> |Interface interne du serveur Edge  <br/> |Trafic XMPP sortant à partir de votre service de passerelle XMPP en cours d’exécution sur votre serveur frontal ou pool frontal.  <br/><br/> **Remarque :** Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour [plus d’informations, voir](../../../SfBServer2019/migration/migrating-xmpp-federation.md) Migration de la fédération XMPP. |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |L’une des façons suivantes d’exécution du service de passerelle XMPP :  <br/> • Serveur frontal  <br/> • Adresse IP ip du pool frontal exécutant le service de passerelle XMPP  <br/> |Interface interne du serveur Edge  <br/> |Trafic XMPP sortant à partir de votre service de passerelle XMPP en cours d’exécution sur votre serveur frontal ou pool frontal.  <br/><br/> **Remarque :** Les passerelles et proxys XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour plus d’informations, voir Migration de la fédération [XMPP.](../../../SfBServer2019/migration/migrating-xmpp-federation.md) |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Tout :  <br/> • Serveur frontal qui contient le magasin central de gestion  <br/> • Pool frontal qui contient le magasin central de gestion  <br/> |Interface interne du serveur Edge  <br/> |Réplication des modifications de votre magasin central de gestion vers votre serveur Edge.  <br/> |
-|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal de votre pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic de conférence web à partir de votre serveur frontal ou de chaque serveur frontal (si vous avez un pool frontal) vers votre interface interne du serveur Edge.  <br/> |
+|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal de votre pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic de conférence web à partir de votre serveur frontal ou de chaque serveur frontal (si vous avez un pool frontal) vers votre interface interne de serveur Edge.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal de votre pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Chemin d’accès préféré pour le transfert multimédia A/V entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou survivable Branch Server.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Tout :  <br/> • Serveur frontal  <br/> • Chaque serveur frontal de votre pool  <br/> |Interface interne du serveur Edge  <br/> |Chemin d’accès de retour pour le transfert multimédia A/V entre vos utilisateurs internes et externes et votre Survivable Branch Appliance ou survivable Branch Server, si la communication UDP ne fonctionne pas. TCP est ensuite utilisé pour les transferts de fichiers et le partage de bureau.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50001  <br/> |N’importe lequel  <br/> |Interface interne du serveur Edge  <br/> |Contrôleur du service de journalisation centralisée utilisant Skype Entreprise Server Management Shell et les cmdlets du service de journalisation centralisée, les commandes de ligne de commande ClsController (ClsController.exe) ou agent (ClsAgent.exe) et la collection de journaux.  <br/> |
@@ -428,7 +428,7 @@ L’adresse IP source et l’adresse IP de destination contiennent des informati
 |**Rôle ou protocole**|**TCP ou UDP**|**Port de destination ou plage de ports**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP  <br/> Non pris en charge dans Skype Entreprise Server 2019 |TCP  <br/> |5269  <br/> |N’importe lequel  <br/> |Service proxy XMPP (partage une adresse IP avec le service Edge d’accès)  <br/> |Le service proxy XMPP accepte le trafic provenant de contacts XMPP dans les fédérations XMPP définies.  <br/> |
-|XMPP  <br/>Non pris en charge dans Skype Entreprise Server 2019 |TCP  <br/> |5269  <br/> |Service proxy XMPP (partage une adresse IP avec le service Edge d’accès)  <br/> |N’importe lequel  <br/> |Le service proxy XMPP envoie le trafic à partir de contacts XMPP dans les fédérations XMPP définies.  <br/> |
+|XMPP  <br/>Non pris en charge dans Skype Entreprise Server 2019 |TCP  <br/> |5269  <br/> |Service proxy XMPP (partage une adresse IP avec le service Edge d’accès)  <br/> |N’importe lequel  <br/> |Le service proxy XMPP envoie le trafic des contacts XMPP dans les fédérations XMPP définies.  <br/> |
 |Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |N’importe lequel  <br/> |**Adresse IP privée à l’aide de NAT :** Service Edge d’accès au serveur Edge <br/> **ADRESSE IP publique :** Adresse IP publique du service Edge d’accès au serveur Edge <br/> |Trafic SIP client à serveur pour l’accès des utilisateurs externes.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |N’importe lequel  <br/> |**Adresse IP privée à l’aide de NAT :** Service Edge d’accès au serveur Edge <br/> **ADRESSE IP publique :** Adresse IP publique du service Edge d’accès au serveur Edge <br/> |Pour la connectivité de messagerie instantanée publique et fédérée à l’aide de SIP.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Adresse IP privée à l’aide de NAT :** Service Edge d’accès au serveur Edge <br/> **ADRESSE IP publique :** Adresse IP publique du service Edge d’accès au serveur Edge <br/> |N’importe lequel  <br/> |Pour la connectivité de messagerie instantanée publique et fédérée à l’aide de SIP.  <br/> |
@@ -436,17 +436,17 @@ L’adresse IP source et l’adresse IP de destination contiennent des informati
 |A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |N’importe lequel  <br/> |**Adresse IP privée à l’aide de NAT :** Service Edge A/V du serveur Edge <br/> **ADRESSE IP publique :** Adresse IP publique du service Edge A/V du serveur Edge <br/> |Négociation STUN/TURN des candidats sur UDP sur le port 3478.  <br/> |
 |A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |N’importe lequel  <br/> |**Adresse IP privée à l’aide de NAT :** Service Edge A/V du serveur Edge <br/> **ADRESSE IP publique :** Adresse IP publique du service Edge A/V du serveur Edge <br/> |Négociation STUN/TURN des candidats sur TCP sur le port 443.  <br/> |
    
-#### <a name="internal-interface-virtual-ips"></a>Interface interne - IPS virtuels
+#### <a name="internal-interface-virtual-ips"></a>IPS virtuels de l’interface interne
 
-Nos recommandations ici vont être légèrement différentes. En réalité, dans une situation d’programme d’acheminement, nous vous recommandons de n’avoir le routage via une vip interne que dans les circonstances suivantes :
+Nos recommandations ici vont être légèrement différentes. En réalité, dans une situation d’programme d’acheminement de l’programme d’acheminement, nous vous recommandons uniquement d’avoir un routage via une vip interne dans les circonstances suivantes :
   
 - Si vous utilisez la messagerie unifiée Exchange 2007 ou Exchange 2010.
     
 - Si vous avez des clients hérités à l’aide du edge.
     
-Le tableau suivant donne des conseils pour ces scénarios, mais dans le cas contraire, vous devriez être en mesure de dépendre du magasin central de gestion (CMS) pour router le trafic vers le serveur Edge individuel qu’il connaît (cela nécessite que cms soit tenu à jour sur les informations du serveur Edge, bien entendu).
+Le tableau suivant donne des conseils pour ces scénarios, mais dans le cas contraire, vous devriez être en mesure de dépendre du magasin central de gestion (CMS) pour router le trafic vers le serveur Edge qu’il connaît (cela nécessite bien entendu que cms soit tenu à jour sur les informations du serveur Edge).
   
-|**Protocole**|**TCP ou UDP**|**Port**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
+|**Protocole**|**TCP ou UDP**|**Port (Port)**|**Adresse IP source**|**Adresse IP de destination**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Tout :  <br/> • Directeur  <br/> • Adresse IP ip du pool directeur  <br/> • Serveur frontal  <br/> • Adresse IP ip du pool frontal  <br/> |Interface interne du serveur Edge  <br/> |Trafic SIP sortant à partir de votre adresse IP ip du directeur, du pool directeur, du serveur frontal ou de l’adresse IP ip du pool frontal vers votre interface interne du serveur Edge.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interface VIP interne du serveur Edge  <br/> |Tout :  <br/> • Directeur  <br/> • Adresse IP ip du pool directeur  <br/> • Serveur frontal  <br/> • Adresse IP ip du pool frontal  <br/> |Trafic SIP entrant vers votre adresse IP ip du directeur, du pool directeur, du serveur frontal ou du pool frontal à partir de votre interface interne du serveur Edge.  <br/> |

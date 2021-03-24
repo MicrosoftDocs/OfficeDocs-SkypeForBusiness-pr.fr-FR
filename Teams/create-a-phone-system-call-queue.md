@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer phone system pour les files d’attente avec Microsoft Teams, qui fournissent un message de salutation, de la musique, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196748"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092712"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -39,7 +39,7 @@ Les files d’attente fournissent les services :
 
 - Message de salutation.
 
-- Musique pendant que des personnes patientent dans une file d’attente.
+- Musique pendant que des personnes sont en attente dans une file d’attente.
 
 - Routage des appels *(dans l’ordre* Premier dans, Premier sorti (FIFO) - vers des agents.
 
@@ -51,7 +51,7 @@ Pour configurer une file d’attente d’appels, dans le Centre d’administrati
 
 ## <a name="resource-account-and-language"></a>Compte et langue des ressources
 
-![Capture d’écran des paramètres de langue et de compte de ressource](media/call-queue-name-language.png)
+![Capture d’écran des paramètres de compte de ressource et de langue](media/call-queue-name-language.png)
 
 1. Tapez un nom pour la file d’attente d’appels.
 
@@ -124,12 +124,12 @@ Les paramètres suivants sont recommandés :
 - **Mode conférence sur** **Automatique**
 - **Méthode de routage vers** **le rond rond** ou le plus long **inactif**
 - **Routage en fonction de la présence** vers **Le**
-- **Durée d’alerte de l’agent :** **à 20 secondes**
+- **Heure d’alerte de l’agent :** **à 20 secondes**
 
 > [!NOTE]
-> Si le routage en fonction de la présence n’est pas activé et que la file d’attente compte plusieurs appels, le système les présente simultanément aux agents, quel que soit leur statut de présence. Cela entraîne plusieurs notifications d’appel pour les agents, particulièrement si certains agents ne répondent pas à l’appel initial qui leur a été présenté.
+> Si le routage en fonction de la présence n’est pas activé et que la file d’attente compte plusieurs appels, le système les présente simultanément aux agents, quel que soit leur statut de présence. Cela entraîne plusieurs notifications d’appel pour les agents, particulièrement si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 
-## <a name="call-overflow-handling"></a>Gestion des dépassements d’appel
+## <a name="call-overflow-handling"></a>Gestion des débordements d’appels
 
 ![Capture d’écran des paramètres de dépassement de capacité d’appel](media/call-queue-overflow-handling.png)
 
@@ -144,7 +144,7 @@ Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers une des de
 
 ![Capture d’écran des paramètres de délai d’appel](media/call-queue-timeout-handling.png)
 
-**Délai d’attente maximal** : le temps d’attente maximal spécifie la durée maximale pendante où un appel peut être mis en attente dans la file d’attente avant d’être redirigé ou déconnecté. Vous pouvez spécifier une valeur de 0 seconde à 45 minutes.
+**Délai d’attente d’appel** : le temps d’attente maximal spécifie la durée maximale pendant quelle la file d’attente d’un appel peut être mis en attente avant d’être redirigé ou déconnecté. Vous pouvez spécifier une valeur de 0 seconde à 45 minutes.
 
 Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, l’appelant peut laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux conditions [préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux transferts de numéros de téléphone [externes ( détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des numéros).
 
@@ -171,21 +171,21 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - Application Microsoft Teams pour Android
 
     > [!NOTE]
-    > Les files d’attente à qui un numéro de routage direct est affecté ne peuvent pas être prise en charge par les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
+    > Les files d’attente à qui un numéro de routage direct est attribué ne peuvent pas être prise en charge par les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de file d’attente d’appels
 
 Vous pouvez également utiliser des Windows PowerShell pour créer et configurer des files d’attente d’appels. Voici les cmdlets que vous utilisez pour gérer une file d’attente d’appels.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
@@ -193,6 +193,6 @@ Vous pouvez également utiliser des Windows PowerShell pour créer et configurer
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

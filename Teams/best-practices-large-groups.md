@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52b1e50cfd29aa6916f7b816f3639953d27d6526
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756240"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092882"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Gérer les grandes équipes dans Microsoft Teams - Meilleures pratiques
 ======================================================
@@ -35,13 +35,13 @@ Les grandes équipes sont très utiles pour activer les scénarios de collaborat
 
 - **Collaboration** à l’échelle d’un département : si votre organisation possède plusieurs services tels que Finances, Opérations, R&D, etc., vous pouvez créer une équipe unique qui inclut tous les membres d’un service spécifique. Désormais, toutes les communications pertinentes pour un service peuvent être partagées dans cette équipe, ce qui facilite la communication et l’implication instantanées des membres.
 
-- **Collaboration dans les groupes de ressources des** employés : Les organisations ont souvent de grands groupes de personnes ayant des intérêts communs appartenant à un service ou un groupe de travail différent. Par exemple, il peut s’agit d’un groupe de personnes qui partagent une passion pour les finances personnelles et l’investissement. Il est souvent difficile de se connecter dans une grande organisation. Pour développer des communautés pour de tels groupes, les administrateurs de client peuvent créer une grande équipe qui sert de groupe de ressources public à l’échelle de l’entreprise, que tout le monde peut rejoindre et tirer parti. Ces communautés finiront par collecter des informations dont les membres, nouveaux et existants, peuvent bénéficier.
+- **Collaboration au niveau des groupes de ressources** des employés : les organisations ont souvent de grands groupes de personnes ayant des intérêts communs appartenant à un service ou un groupe de travail différent. Par exemple, il peut s’agit d’un groupe de personnes qui partagent une passion pour la finance personnelle et l’investissement. Il est souvent difficile de se connecter dans une grande organisation. Pour développer des communautés pour de tels groupes, les administrateurs de client peuvent créer une grande équipe qui sert de groupe de ressources public à l’échelle de l’entreprise, que tout le monde peut rejoindre et tirer parti. Ces communautés finiront par collecter des informations dont les membres nouveaux et existants peuvent bénéficier.
 
-- **Collaboration entre membres internes** et externes : les produits populaires développent souvent une communauté de premiers utilisateurs qui sont impatients d’essayer de nouvelles sorties de produits et de faire part de leurs commentaires. Les premiers utilisateurs développent une relation avec les groupes de produits pour aider à façonner le produit. Dans de tels scénarios, les administrateurs client peuvent configurer une grande équipe qui inclut à la fois des groupes de produits internes et des experts en évaluation de produits externes afin de faciliter un processus de développement de produit enrichi. Ces équipes peuvent également fournir un support client à un groupe de clients sélectionné.
+- **Collaboration entre membres internes** et externes : les produits les plus populaires permettent de développer une communauté de premiers utilisateurs impatients d’essayer les nouvelles sorties de produits et de faire part de leurs commentaires. Les premiers utilisateurs développent une relation avec les groupes de produits pour aider à façonner le produit. Dans de tels scénarios, les administrateurs client peuvent configurer une grande équipe qui inclut à la fois des groupes de produits internes et des experts en évaluation de produits externes afin de faciliter un processus de développement de produit enrichi. Ces équipes peuvent également fournir un support client à un groupe de clients sélectionné.
 
 ## <a name="create-teams-from-existing-groups"></a>Créer des équipes à partir de groupes existants
 
-Utilisez les groupes de contacts, les groupes de sécurité ou les groupes Office pour démarrer votre équipe. Vous pouvez importer un groupe pour créer une équipe ou créer une équipe à partir d’un groupe Office.
+Utilisez des groupes de contacts, des groupes de sécurité ou des groupes Office pour démarrer votre équipe. Vous pouvez importer un groupe pour créer une équipe ou créer une équipe à partir d’un groupe Office.
 
 **Importer un groupe** pour faire une équipe : Lorsque vous importez un groupe de 3 500 membres au total dans Teams, Teams calcule automatiquement le nombre total de membres du groupe. Il s’agit d’une importation unique et les modifications apportées ultérieurement au groupe ne seront pas automatiquement mises à jour dans Teams.
 
@@ -49,7 +49,7 @@ Créer une équipe à partir d’un grand groupe **Microsoft 365**: Lorsque vous
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>Importer/exporter/supprimer des membres en bloc dans une équipe
 
-Le portail Azure permet aux utilisateurs d’importer/exporter en bloc ou de supprimer des membres d’un groupe Microsoft 365. Pour plus d’informations, voir [Importer en bloc des membres d’un groupe.](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
+Le portail Azure permet aux utilisateurs d’importer/exporter en bloc ou de supprimer des membres d’un groupe Microsoft 365. Pour plus d’informations, voir [Importer en bloc des membres d’un groupe.](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
 
 Étant donné que chaque équipe est backed par un groupe Microsoft 365, vous pouvez utiliser le portail Azure pour effectuer ces opérations dans le groupe correspondant à l’équipe. Les opérations sur les membres seront reflétées dans l’équipe dans les 24 heures.
 
@@ -73,7 +73,7 @@ Pour accélérer l’implication des utilisateurs et la découverte de contenu, 
 
 ## <a name="regulate-applications-and-bots-in-large-teams"></a>Régule les applications et les bots dans les grandes équipes
 
-Pour éviter l’ajout d’applications ou de bots gênants, les propriétaires d’équipe peuvent désactiver, ajouter, supprimer et télécharger des applications et des connecteurs pour les membres de l’équipe. Dans le Centre d’administration, **sous > autorisations** membres, décochez les trois options qui permettent aux membres d’ajouter des applications ou des connecteurs.
+Pour éviter l’ajout d’applications ou de robots gênants, les propriétaires d’équipe peuvent désactiver, ajouter, supprimer et télécharger des applications et des connecteurs pour les membres d’une équipe. Dans le Centre d’administration, **sous > autorisations** membres, décochez les trois options qui permettent aux membres d’ajouter des applications ou des connecteurs.
 
 ![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. Les options permettant aux membres d’ajouter des applications ou des connecteurs sont désactivées.")
 
@@ -81,7 +81,7 @@ Voir [Applications, bots, & connecteurs.](deploy-apps-microsoft-teams-landing-pa
 
 ## <a name="regulate-team-and-channel-mentions"></a>Réguler les mentions d’équipe et de canal
 
-Les mentions d’équipe et de canal peuvent être utilisées pour attirer l’attention de l’ensemble de l’équipe sur certaines publications de canal. Une fois qu’une mention est utilisée dans un billet, une notification est envoyée à des milliers de membres de l’équipe. Si les notifications sont trop fréquentes, les membres de l’équipe peuvent être surchargés et se plaignent peut-être des propriétaires d’équipe. Pour empêcher les mentions d’équipe ou de canal, dés désactiver les mentions d’équipe et de canal pour les membres en décochant les cases dans les > @mentions **de** l’équipe.
+Les mentions d’équipe et de canal peuvent être utilisées pour attirer l’attention de l’ensemble de l’équipe sur certaines publications de canal. Une fois qu’une mention est utilisée dans un billet, une notification est envoyée à des milliers de membres de l’équipe. Si les notifications sont trop fréquentes, les membres de l’équipe peuvent être surchargés et se plaignent peut-être des propriétaires d’équipe. Pour empêcher les mentions d’équipe ou de canal, dés désactiver les mentions d’équipe et de canal pour les membres en décochant les cases dans la boîte de > @mentions **volet.**
 
 ![Screen image that shows the at Mentions section of the Settings pane.](media/no-at-mentions.png "Screen image that shows the at Mentions section of the Settings pane. Les options d’afficher et d’accorder aux membres l’accès aux mentions sont désactivées.")
 
@@ -89,7 +89,7 @@ Les mentions d’équipe et de canal peuvent être utilisées pour attirer l’a
 
 Les propriétaires d’équipe peuvent activer la modération dans un canal afin de contrôler qui peut lancer de nouvelles publications et répondre aux publications de ce canal. Lorsque vous configurez la modération, vous pouvez choisir un ou plusieurs membres de l’équipe à utiliser en tant que modérateurs. Les propriétaires d’équipe sont des modérateurs par défaut. Pour plus d’informations, voir [Configurer et gérer la modération de canal.](manage-channel-moderation-in-teams.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Meilleures pratiques pour organiser Teams](best-practices-organizing.md)
 - [Créer une équipe à l’échelle de l’organisation](create-an-org-wide-team.md)

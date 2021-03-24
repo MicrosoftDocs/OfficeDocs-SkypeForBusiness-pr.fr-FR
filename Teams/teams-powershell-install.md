@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874804"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094154"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installer Microsoft Teams PowerShell
 
@@ -80,7 +80,7 @@ Pour installer la prévisualisation publique de Teams PowerShell, exécutez la c
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 ```
 
-## <a name="install-the-skype-for-business-online-connector"></a>Installation de Skype Entreprise Online Connector
+## <a name="install-the-skype-for-business-online-connector"></a>Installer Skype Entreprise Online Connector
 
 > [!NOTE]
 >
@@ -129,7 +129,7 @@ Import-PsSession $session
 
 ## <a name="update-teams-powershell"></a>Mettre à jour Teams PowerShell
 
-Pour mettre à jour Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell avec élévation de élévation de niveau, puis exécutez l’une des commandes suivantes :
+Pour mettre à jour Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell avec élévation de élévation de niveau, puis exécutez la commande suivante :
 
 ```powershell
 Update-Module MicrosoftTeams
@@ -161,6 +161,6 @@ Vous êtes maintenant prêt à gérer Teams à l’aide de Teams PowerShell. Con
 
 [Notes de publication de Teams PowerShell](teams-powershell-release-notes.md)
 
-[Référence de l’cmdlet Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Référence de l’cmdlet Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Référence de l’cmdlet Skype Entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Référence de l’cmdlet Skype Entreprise](/powershell/skype/intro?view=skype-ps)

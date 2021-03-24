@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Découvrez comment configurer Skype Entreprise pour laisser les utilisateurs parler aux utilisateurs d’une autre organisation ou laisser des contacts extérieurs parler à eux. '
-ms.openlocfilehash: d9b3be381432fa95962df7a5a58ea9d81e223fc4
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: 8acab73fec7337ee70cd8b5059b00df42e836e62
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625050"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093508"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
   
@@ -43,7 +43,7 @@ Suivez la procédure décrite dans cet article lorsque :
 
 - Vous souhaitez que les personnes de votre organisation utilisent Skype Entreprise pour contacter des membres d'entreprises spécifiques en dehors de votre organisation.
 
-- Vous souhaitez que les autres utilisateurs de Skype Entreprise à travers le monde puissent vous contacter à l’aide de votre adresse e-mail. S’ils utilisent les paramètres Skype Entreprise par défaut et vous-même, cela fonctionne automatiquement. Si ce n’est pas le cas, ils devront s’assurer que leur configuration ne bloque pas votre domaine.
+- Vous souhaitez que les autres utilisateurs de Skype Entreprise à travers le monde puissent vous contacter à l’aide de votre adresse e-mail. S'ils utilisent les paramètres Skype Entreprise par défaut et que vous aussi, cela fonctionnera automatiquement. Sinon, ils devront s'assurer que leur configuration ne bloque pas votre domaine.
 
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Autoriser les communications entre entreprises pour vos utilisateurs
 
@@ -73,9 +73,9 @@ Pour ce faire, vous devez avoir des [autorisations](https://support.office.com/a
 
 8. Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires.
 
-    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Cela peut nécessiter l’ajout des FQDN à la liste de votre pare-feu ou de votre configuration d’infrastructure proxy : **\* .api.skype.com,** \* **.users.storage.live.com** et **graph.skype.com.** Pour obtenir des instructions sur la façon d’ouvrir ces ports dans votre pare-feu, consultez la documentation qui l’intait.
+    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](/microsoftteams/office-365-urls-ip-address-ranges) suivants. Cela peut nécessiter l’ajout des FQDN à la liste de votre pare-feu ou de votre configuration d’infrastructure proxy : **\* .api.skype.com,** \* *_.users.storage.live.com_* et **graph.skype.com.** Pour obtenir des instructions sur la façon d’ouvrir ces ports dans votre pare-feu, consultez la documentation qui l’intait.
 
-    Pour obtenir la liste de tous les ports que vous devez ouvrir, voir URL et [plages d’adresses IP Office 365.](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)
+    Pour obtenir la liste de tous les ports que vous devez ouvrir, voir URL et [plages d’adresses IP Office 365.](/microsoftteams/office-365-urls-ip-address-ranges)
 
 9. Assurez-vous que l’administrateur de l’organisation a également suivi ces étapes.
 
@@ -87,7 +87,7 @@ Pour ce faire, vous devez avoir des [autorisations](https://support.office.com/a
 
 <a name="bk_preview"> </a>
 
- **Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).**
+ **Le problème que les utilisateurs rencontrent le plus souvent lors de la configuration de la communication entre entreprises est lié aux [URL et plages d'adresses IP Office 365](/microsoftteams/office-365-urls-ip-address-ranges).**
   
 Pour tester votre configuration, vous devez disposer d'un contact Skype Entreprise qui ne soit pas situé derrière le pare-feu de votre entreprise.
   
@@ -95,7 +95,7 @@ Pour tester votre configuration, vous devez disposer d'un contact Skype Entrepri
 
 2. Dans Skype Entreprise, recherchez votre contact dans Skype Entreprise et envoyer une demande de discussion.
 
-    Si vous recevez un message vous savez qu’il n’a pas pu être envoyé en raison d’une stratégie d’entreprise, vous devez vérifier à nouveau vos URL et [plages d’adresses IP Office 365.](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)
+    Si vous recevez un message vous savez qu’il n’a pas pu être envoyé en raison d’une stratégie d’entreprise, vous devez vérifier à nouveau vos URL et [plages d’adresses IP Office 365.](/microsoftteams/office-365-urls-ip-address-ranges)
 
 3. Demandez à votre contact Skype Entreprise de vous envoyer une demande de discussion. Si vous ne la recevez pas, le problème se situe au niveau de vos paramètres de pare-feu (en supposant que votre contact a confirmé que ses paramètres sont corrects).
 
@@ -113,9 +113,9 @@ Une fois la communication externe activée avec d’autres utilisateurs de Skype
 
 <a name="bk_preview"> </a>
 
-- Pour configurer la fédération entre Skype Entreprise 2015 et Skype Entreprise Online, consultez cet article : Configurer la fédération avec [Skype Entreprise Online.](https://technet.microsoft.com/library/jj205126.aspx)
+- Pour configurer la fédération entre Skype Entreprise 2015 et Skype Entreprise Online, consultez cet article : Configurer la fédération [avec Skype Entreprise Online.](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
 
-- Pour configurer la fédération entre Lync et Skype Entreprise Online, consultez cet article : Configuration de la prise en charge de la fédération pour un client [Lync Online.](https://technet.microsoft.com/library/hh202193.aspx)
+- Pour configurer la fédération entre Lync et Skype Entreprise Online, consultez cet article : Configuration de la prise en charge de la fédération pour un [client Lync Online.](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-federation-support-for-a-lync-online-customer)
 
 - Lorsque deux utilisateurs de Skype Entreprise dans Microsoft 365 ou Office 365 communiquent entre eux sur des domaines distincts, ils peuvent uniquement utiliser les fonctionnalités de Skype Entreprise (par exemple, les conversations vidéo ou le partage de bureau) qui sont sous l’une ou l’autre des deux organisations.
 
@@ -148,11 +148,10 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 <a name="bk_preview"> </a>
 
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
   
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
-  

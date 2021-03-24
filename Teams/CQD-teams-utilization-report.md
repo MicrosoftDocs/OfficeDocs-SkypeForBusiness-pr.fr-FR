@@ -15,13 +15,13 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Utilisez les rapports Power BI utilisation des équipes pour accéder aux données du tableau de bord de qualité des appels de Microsoft Teams afin de suivre l’utilisation de Microsoft Teams dans votre organisation.
-ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: Utilisez les rapports Power BI Utilisation des équipes pour accéder aux données du tableau de bord de qualité des appels de Microsoft Teams afin de suivre l’utilisation de Microsoft Teams dans votre organisation.
+ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581545"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095038"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Utilisation de Microsoft Teams dans Power BI à l’aide de données du CQD
 
@@ -29,10 +29,10 @@ Nouveautés de mars 2020, nous avons ajouté un rapport Utilisation de Teams à 
 
 Ce nouveau rapport Utilisation des équipes vous permet de voir comment (et combien) vos utilisateurs utilisent Microsoft Teams en accédant aux données du tableau de bord de qualité des appels de Teams. Ces rapports sont destinés à être un emplacement centralisé que les administrateurs et les chefs d’entreprise peuvent rapidement utiliser pour ces données.
 
-Le rapport Utilisation de Power BI sur Teams se compose de deux rapports principaux : Résumé des appels **[et](#call-count-summary-report)** Résumé **[des minutes audio.](#audio-minutes-summary-report)** [L’utilisation quotidienne,](#daily-usage)les [détails](#regional-audio-details)audio [](#user-list) régionaux, les détails des conférences et les rapports de la liste d’utilisateurs sont pris en compte lorsqu’un utilisateur tire parti des rapports d’analyse détaillée, comme indiqué dans les descriptions ci-dessous. [](#conference-details)
+Le rapport Utilisation de Power BI sur Teams se compose de deux rapports principaux : **[Le récapitulatif](#call-count-summary-report)** des appels et le résumé **[des minutes audio.](#audio-minutes-summary-report)** [L’utilisation quotidienne,](#daily-usage)les [détails](#regional-audio-details)audio [](#user-list) régionaux, les détails des conférences et les rapports de la liste d’utilisateurs sont pris en compte lorsqu’un utilisateur tire parti des rapports d’analyse détaillée, comme indiqué dans les descriptions ci-dessous. [](#conference-details)
 
 > [!NOTE]
-> Les données de bâtiment et de sous-réseau doivent être remplies pour fournir des fonctionnalités de filtrage régionales et réseau.
+> Les données de bâtiment et de sous-réseau doivent être remplies pour fournir des fonctionnalités de filtrage réseau et régionales.
 
 ## <a name="call-count-summary-report"></a>Rapport de synthèse du nombre d’appels
 
@@ -43,7 +43,7 @@ La page principale (call Count Summary) fournit immédiatement le nombre de sess
 1. À droite des dropdowns de slicer, le nombre d’appels par type de média est décomposé en vue interne/externe au cours des 30 derniers jours. Nous pouvons voir via la capture d’écran ci-dessus qu’il y a davantage d’appels en provenance d’emplacements organisationnels extérieurs, ce qui est logique dans l’environnement global actuel.
   ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report2.png)
 
-1. À droite de la zone du nombre de types de médias, nous avons le nombre d’appels mensuels par type de média au cours des 90 derniers jours. Chaque colonne et chaque type de média peut être survolé pour afficher le nombre de mois précédent ou de mois en cours à ce jour, afin de fournir des informations sur la tendance d’utilisation.
+1. À droite de la zone du nombre de types de médias, nous avons le nombre d’appels mensuels par type de média au cours des 90 derniers jours. Vous pouvez pointer sur chaque colonne et chaque type de média pour afficher le nombre de mois précédent ou de mois en cours à ce jour, afin de fournir des informations sur la tendance d’utilisation.
   ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report3.png)
  
 
@@ -56,14 +56,14 @@ Dans la section inférieure gauche de la page, vous trouverez un tableau fournis
 À droite du tableau, un graphique à barres affiche les clients les plus utilisés (appels/flux) au cours des 30 derniers jours.
    ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report7.png)
 
-Le dernier ensemble de graphiques pour cette page affiche chaque type de média individuellement, avec une répartition montrant l’utilisation des conférences et P2P. Les graphiques ci-dessous indiquent qu’il y a un nombre d’utilisation des conférences nettement plus élevé que P2P.
+Le dernier ensemble de graphiques pour cette page affiche chaque type de média individuellement, avec une répartition montrant l’utilisation des conférences et P2P. Les graphiques ci-dessous indiquent qu’il y a un nombre d’utilisation des conférences considérablement plus élevé que P2P.
   ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report8.png)
 
 ## <a name="audio-minutes-summary-report"></a>Rapport de synthèse des minutes audio
 
 Dans le rapport d’utilisation des minutes audio, le total des minutes d’utilisation est indiqué sur plusieurs affichages. 
 
-Le résumé de l’utilisation sur 30 jours est présenté à côté des slicers pour vous aider à utiliser les zones de texte. Le nombre supérieur affiche le total de 30 jours, avec des répartitions internes et externes en dessous.
+Le résumé de l’utilisation sur 30 jours est présenté à côté des slicers pour vous aider à consommer des zones de texte. Le nombre supérieur affiche le total de trente jours, avec des répartitions internes et externes en dessous.
 
 ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report9.png)
 
@@ -88,7 +88,7 @@ Le rapport Utilisation quotidienne permet à un administrateur d’identifier le
 
 ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report12.png)
 
-Le rapport Utilisation quotidienne affiche le nombre de partages audio, vidéo et d’écran pour le jour sélectionné, avec la possibilité supplémentaire de faire la différence entre une connectivité interne et externe. Une répartition de conférence et d’égal à égal est à la droite immédiate de la zone de total de la modalité. La partie supérieure droite du rapport fournit la liste des conférences qui se sont tenues pendant la journée avec leur ID et les participants associés. La liste des conférences permet également d’descendre dans le rapport des détails de la conférence. REPLACE GRAPHIC
+Le rapport Utilisation quotidienne affiche le nombre de partages d’écran, audio et vidéo pour le jour sélectionné, avec une possibilité supplémentaire de différencier les connectivité interne et externe. Une répartition de conférence et d’égal à égal est à la droite immédiate de la zone de total de la modalité. La partie supérieure droite du rapport fournit la liste des conférences qui se sont tenues à l’aide de leur ID et des participants de la journée. La liste des conférences fournit également une analyse supplémentaire du rapport des détails de la conférence. REPLACE GRAPHIC
 
 ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report13.png)
 
@@ -111,7 +111,7 @@ Cliquez sur la colonne de ce jour pour afficher des mesures pour cette heure.
 
 ### <a name="conference-details"></a>Détails de la conférence
 
-Le rapport des détails de la conférence fournit des informations supplémentaires sur les réunions( liste des participants, types de médias utilisés pendant la session).
+Le rapport des détails de la conférence fournit des informations supplémentaires sur les réunions (liste des participants, types de médias utilisés pendant la session).
 
 Cliquez avec le bouton droit sur une conférence dans la barre d’ID de conférence sur la page Utilisation quotidienne pour consulter les détails de la conférence.
 
@@ -127,7 +127,7 @@ Nous pouvons voir les participants à la conférence ainsi que toutes les inform
 
 ### <a name="regional-audio-details"></a>Détails de l’audio régional
 
-L’analyse Regional Audio Details présente particulièrement l’utilisation des minutes audio pour la région sélectionnée. Les utilisateurs ayant accès au fichier CQD peuvent voir les tendances d’utilisation du P2P et de l’audio de conférence dans la région sélectionnée.
+L’analyse Regional Audio Details présente particulièrement l’utilisation des minutes audio pour la région sélectionnée. Les utilisateurs ayant accès au DQD peuvent voir les tendances d’utilisation du P2P et de l’audio de conférence dans la région sélectionnée.
 
 1.  Dans la page Récapitulatif du nombre d’appels, recherchez une région spécifique dans la table.
   ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report16.png)
@@ -135,7 +135,7 @@ L’analyse Regional Audio Details présente particulièrement l’utilisation d
 2.  Sélectionnez la ligne pour qui vous avez besoin d’informations supplémentaires sur la région.
   ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report17.png)
 
-3.  Les tendances de données montrent un nombre important de minutes utilisées sur le réseau interne, avec une utilisation p2P beaucoup plus importante.
+3.  Les tendances de données montrent un nombre important de minutes utilisées sur le réseau interne, avec une utilisation P2P beaucoup plus importante.
   ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report18.png)
 
 La tendance audio régionale peut être utilisée pour montrer l’impact des utilisateurs sur les influences externes dans le monde. Plus précisément, à l’heure actuelle, nous nous attendions à ce que l’utilisation externe des régions EMEA et APAC augmente avec le travail à distance des personnes invitées à travailler à distance.
@@ -153,10 +153,10 @@ La partie supérieure droite du graphique indique le nombre d’appels effectué
 
 ![Capture d’écran : Rapports d’utilisation des équipes](media/CQD-teams-utilization-report20.png)
 
-Le tableau inférieur fournit des informations détaillées sur les sessions à qui chaque utilisateur a participé pendant cette heure. La colonne Type d’échec est utile pour déterminer ce qui a provoqué la chute d’un appel. Les colonnes Du périphérique de capture et de rendu sont utiles pour identifier la raison pour laquelle un appel a été signalé pour une qualité médiocre.
+Le tableau inférieur fournit des informations détaillées sur les sessions à qui chaque utilisateur a participé au cours de cette heure. La colonne Type d’échec est utile pour déterminer ce qui a provoqué la chute d’un appel. Les colonnes Du périphérique de capture et de rendu sont utiles pour identifier la raison pour laquelle un appel a été signalé pour une qualité médiocre.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
@@ -166,7 +166,6 @@ Le tableau inférieur fournit des informations détaillées sur les sessions à 
 
 [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Tableau de bord Analyse des appels et Qualité des appels](./monitor-call-quality-qos.md)
 
-[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
- 
+[Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

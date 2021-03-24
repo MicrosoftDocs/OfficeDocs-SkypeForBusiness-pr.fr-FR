@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: 'Résumé : Découvrez comment exporter des données archivées pour Skype Entreprise Server.'
-ms.openlocfilehash: caff65e829b24dc83760c7a505e344905c9e09e1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e69c283304395d697e99ef0607e2aec1eb7960e4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817564"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095378"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>Exporter des données archivées dans Skype Entreprise Server
 
@@ -43,6 +43,4 @@ La commande suivante exporte les données d’archivage pour un seul utilisateur
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-Pour plus d’informations, voir la rubrique d’aide pour [l';export-CsArchivingData.)](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps)
-  
-
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Export-CsArchivingData.](/powershell/module/skype/export-csarchivingdata?view=skype-ps)

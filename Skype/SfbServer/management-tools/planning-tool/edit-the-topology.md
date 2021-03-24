@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: ba18070b21494028d31b4167ab92a622794c5e51
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834884"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093182"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Modifier la topologie dans Skype Entreprise Server 2015
 
@@ -73,7 +73,7 @@ Une fonction utile de l’outil de planification est la possibilité d’affecte
 
 2. Par exemple, la valeur de départ du premier serveur est fe0101.contoso.com et l’adresse IP 192.168.21.122.
 
-3. Tapez fe0.contoso.com **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
+3. Tapez fe0.contoso.com dans le **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
 
 4. La fonctionnalité d’incrémentation automatique met à jour tous les serveurs du pool vers fe01 à fe06, et toutes les adresses IP de 192.168.21.131 à 136.
 
@@ -84,4 +84,4 @@ Pour enregistrer la conception de l’outil de planification, cliquez sur **Fich
 ## <a name="see-also"></a>Voir aussi
 <a name="Edit_Network_diagram"> </a>
 
-[Modification de la conception](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Modification de la conception](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

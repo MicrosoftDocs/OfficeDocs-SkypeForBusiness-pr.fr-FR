@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: 'Résumé : Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 32ba0d94679e6f326fa1821cbe3401d031854037
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: d4609d557e5c55b680c4c0761f24cc4f320afcbd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834534"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095108"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration matérielle et logicielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -41,7 +41,7 @@ Avant de déployer le serveur de conversation permanente, vous devez vous assure
 Les sections suivantes décrivent les exigences spécifiques pour le serveur de conversation permanente et la base de données qui stocke les données de conversation permanente.
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les mêmes fonctionnalités sont disponibles dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="front-end-server-requirements"></a>Conditions requises pour le serveur frontal
 
@@ -55,7 +55,7 @@ Les conditions requises pour le serveur frontal varient selon que vous déployez
     
 ## <a name="persistent-chat-server-database-requirements"></a>Conditions requises pour la base de données du serveur de conversation permanente
 
-Le serveur de conversation permanente nécessite SQL Server base de données pour stocker l’historique et le contenu de la salle de conversation, les données de configuration, les données de mise en service des utilisateurs et d’autres métadonnées pertinentes. Éventuellement, il utilise la base de données de conformité de conversation permanente pour stocker les données de conformité. Les bases de données de conversation permanente peuvent être coclaquées sur la même SQL Server, ou même sur la même instance SQL que les bases de données principale. 
+Le serveur de conversation permanente nécessite SQL Server base de données pour stocker l’historique et le contenu de la salle de conversation, les données de configuration, les données de mise en service des utilisateurs et d’autres métadonnées pertinentes. Éventuellement, il utilise la base de données de conformité de conversation permanente pour stocker les données de conformité. Les bases de données de conversation permanente peuvent être coclaquées sur la même SQL Server, ou même la même instance SQL de conversation permanente, que les bases de données principale. 
   
 - Si vous installez le serveur de conversation permanente avec Skype Entreprise Server 2015 Enterprise Edition, pour garantir des performances optimales, il est recommandé d’installer le magasin de fichiers de conversation permanente.
     
@@ -69,22 +69,20 @@ Sur le serveur de base de données, assurez-vous que l’une des applications lo
 
 - Microsoft SQL Server 2017 avec le dernier Service Pack.
 
-- Microsoft SQL Server 2016 avec Service Pack 1, et vous devez exécuter avec la mise à jour cumulative 7 de Skype Entreprise Server ou les mises à jour ultérieures. Nous vous recommandons d’SQL Server 2016 avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2016, voir [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2016 avec Le Service Pack 1 et vous devez exécuter avec la mise à jour cumulative 7 de Skype Entreprise Server ou les mises à jour ultérieures. Nous vous recommandons d’SQL Server 2016 avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2016, voir [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
-- Microsoft SQL Server 2014 et vous devez exécuter avec la mise à jour cumulative 6 de Skype Entreprise Server ou les mises à jour ultérieures. Nous vous recommandons d’SQL Server 2014 avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2014, voir [Install SQL Server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
+- Microsoft SQL Server 2014 et vous devez exécuter avec la mise à jour cumulative 6 ou ultérieure de Skype Entreprise Server. Nous vous recommandons d’SQL Server 2014 avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2014, voir [Install SQL Server 2014](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
-- Microsoft SQL Server 2012 (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2012, voir [Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
+- Microsoft SQL Server 2012 (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2012, voir [Install SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110)).
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>Conditions requises pour les certificats du serveur de conversation permanente
 
 Pour plus d’informations sur l’acquisition de certificats, la création de la base de données SQL Server et la création de magasins de fichiers, voir [Deploy Skype for Business Server 2015](../../deploy/deploy.md). 
   
-## <a name="for-more-information"></a>Pour plus d'informations
+## <a name="for-more-information"></a>Pour plus d’informations
 
 Pour plus d’informations sur la configuration matérielle et logicielle requise, consultez les rubriques suivantes :
   
 - [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
 - [Exigences environnementales pour Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
-    
-

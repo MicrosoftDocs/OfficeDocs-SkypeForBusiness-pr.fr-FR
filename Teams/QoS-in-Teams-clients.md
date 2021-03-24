@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: bc352303cf63ea966927aece0aef36854a0ace1b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 263e2d07992bd491259b82856413548fcd9741fd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526401"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094782"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implémenter la qualité de service (QoS) dans les clients Microsoft Teams
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser la qualité de service (QoS) basée sur une stratégie de g
 |Partage d’application/d'écran| 50 040–50 059|TCP/UDP|18|Transfert garanti (AF21)|
 | | | | | |
 
-Lorsque possible, configurez les paramètres de QoS basés sur une stratégie dans un objet de stratégie de groupe. Les étapes suivantes sont très semblables à la configuration des plages de ports et à une stratégie de qualité de service pour vos clients sur Skype Entreprise  [Server,](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)qui possède des détails supplémentaires qui peuvent ne pas être nécessaires.
+Lorsque possible, configurez les paramètres de QoS basés sur une stratégie dans un objet de stratégie de groupe. Les étapes suivantes sont très semblables à la configuration des plages de ports et à une stratégie de qualité de service pour vos clients sur Skype Entreprise  [Server,](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)qui présente des détails supplémentaires qui peuvent ne pas être nécessaires.
 
 Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 joints à un domaine, connectez-vous d’abord à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez la gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur Outils d’administration, puis cliquez sur Gestion des stratégies de groupe), puis complétez les étapes suivantes :
 
@@ -51,13 +51,13 @@ Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 joints à u
 
 1. Cliquez avec le bouton droit sur la stratégie nouvellement créée, puis cliquez sur **Modifier.**
 
-1. Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration** ordinateur, **Paramètres Windows,** cliquez avec le bouton droit sur **QoS** basé sur une stratégie, puis cliquez sur **Créer une stratégie.**
+1. Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration** ordinateur, **paramètres Windows,** cliquez avec le bouton droit sur **QoS** basé sur une stratégie, puis cliquez sur **Créer une stratégie.**
 
 1. Dans la **boîte de dialogue QoS** basée sur une stratégie, dans la page d’ouverture, tapez un nom pour la nouvelle stratégie dans la **zone** Nom. Sélectionnez **Spécifier la valeur DSCP** et définissez la valeur **sur 46.** Laissez **Spécifier la fréquence de limitation** sortante non sélectionné, puis cliquez sur **Suivant.**
 
 1. Sur la page suivante, sélectionnez Uniquement les applications avec ce nom **exécutable,** entrez le **Teams.exe,** puis cliquez sur **Suivant.** Ce paramètre indique à la stratégie de hiérarchiser uniquement le trafic correspondant à partir du client Teams.
 
-1. Dans la troisième page, assurez-vous que les deux adresses **IP source** et N’importe quelle adresse IP de **destination** sont sélectionnées, puis cliquez sur **Suivant.** Ces deux paramètres garantissent que les paquets seront gérés quel que soit l’ordinateur (adresse IP) qui a envoyé les paquets et le ou les ordinateurs (adresses IP) qui recevront les paquets.
+1. Dans la troisième page, assurez-vous que les deux adresses **IP source** et N’importe quelle adresse IP de **destination** sont sélectionnées, puis cliquez sur **Suivant.** Ces deux paramètres assurent la gestion des paquets, quel que soit l’ordinateur (adresse IP) qui a envoyé les paquets et le ou les ordinateurs (adresses IP) qui recevront les paquets.
 
 1. Dans la page 4, sélectionnez TCP et **UDP** dans le protocole Sélectionnez le protocole que cette stratégie **QoS** s’applique à la liste de listes bas. TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus couramment utilisés.
 
@@ -122,6 +122,6 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
 1. Vérifiez que la valeur de l’entrée Nom de l’application est correcte pour le client que vous utilisez, et vérifiez que les entrées de port DSCP et de port local reflètent les paramètres dans l’objet de stratégie de groupe.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Implémenter la qualité de service (QoS) dans Teams](QoS-in-Teams.md)

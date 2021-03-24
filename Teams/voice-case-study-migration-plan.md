@@ -16,12 +16,12 @@ f1.keywords:
 description: Étude de cas Voix Teams pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421289"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093724"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Étude de cas Contoso : plan de mise à niveau de Teams
 
@@ -41,13 +41,13 @@ Contoso a également participé à la session Ignite 2019 concevant votre chemin
 
 - Expérience utilisateur final pour : 
 
-  - Conversation et appel 
+  - Conversation et appels 
 
   - Planification de réunions 
 
   - Disponibilité de la fonctionnalité de collaboration dans les clients Teams 
 
-Pour planifier et configurer la connectivité hybride, la première étape du déplacement de leur [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) environnement local [](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) vers le cloud, Contoso lit Planifier la connectivité hybride et Configurer la connectivité hybride pour comprendre comment : 
+Pour planifier et configurer la connectivité hybride, la première étape du déplacement de leur [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) environnement local [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) vers le cloud, Contoso lit Planifier la connectivité hybride et Configurer la connectivité hybride pour comprendre comment : 
 
   - Configurez leur service d’environnement local de manière à ce qu’il se fédérera avec Office 365. 
 
@@ -57,4 +57,4 @@ Pour planifier et configurer la connectivité hybride, la première étape du d�
 
   - Utilisez le mode Îles pendant le pilote technique.
 
-  - Basculez les utilisateurs en mode TeamsOnly une fois que l’utilisateur est activé pour Phone System. Le mode TeamsOnly est requis pour le plan d’appel et le routage direct. 
+  - Basculez les utilisateurs en mode TeamsOnly une fois que l’utilisateur est activé pour Phone System. Le mode TeamsOnly est requis pour le plan d’appel et le routage direct.

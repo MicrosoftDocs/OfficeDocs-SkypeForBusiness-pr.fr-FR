@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lisez cette rubrique pour en savoir plus sur la mise en service de comptes Skype Room System dans Microsoft 365 ou Office 365.
-ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 94390effb246a37745d797289c1146ed3d347604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569376"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093518"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Mise en service de comptes Skype Room System dans Microsoft 365 et Office 365
  
@@ -29,7 +29,7 @@ La section suivante traite de la mise en service des comptes Skype Room System.
 
 Votre client en ligne doit respecter les conditions suivantes :
   
-- L’offre Microsoft 365 ou Office 365 doit inclure Skype Entreprise Online Plan 2 ou Office 365 E1, E3 ou E5. <br/>Pour plus d’informations sur les plans Skype Entreprise Online, voir la [description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx)
+- L’offre Microsoft 365 ou Office 365 doit inclure Skype Entreprise Online Plan 2 ou Office 365 E1, E3 ou E5. <br/>Pour plus d’informations sur les plans Skype Entreprise Online, voir la [description du service Skype Entreprise Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
     
 - La fonctionnalité de conférence de Skype Entreprise doit être activée pour votre client.
     
@@ -69,7 +69,7 @@ Vous disposez peut-être déjà d’une boîte aux lettres de salle de ressource
     
 ## <a name="exchange-online-provisioning"></a>Approvisionnement Exchange Online
 
-Tout d’abord, connectez-vous à Exchange Online PowerShell en suivant les instructions de la rubrique, [Connectez-vous à Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+Tout d’abord, connectez-vous à Exchange Online PowerShell en suivant les instructions de la rubrique, [Connectez-vous à Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
   
 Pour définir un compte de boîte aux lettres de salle de ressources existant pour Skype Room System, exécutez les commandes suivantes dans Exchange Online PowerShell :
   
@@ -89,11 +89,11 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 Les commandes précédentes permettent de configurer ou de créer un compte de boîte aux lettres de ressources Exchange pour l’utilisation de Skype Room System en activant le compte.
   
-Après avoir créé la boîte aux lettres, vous pouvez utiliser la cmdlet Set-CalendarProcessing dans Exchange Online PowerShell pour configurer la boîte aux lettres. Reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique pour plus d’informations
+Après avoir créé la boîte aux lettres, vous pouvez utiliser la cmdlet Set-CalendarProcessing dans Exchange Online PowerShell pour configurer la boîte aux lettres. Pour plus d’informations, reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Attribution d’une licence Skype Entreprise Online
 
-Vous pouvez à présent attribuer une licence Skype Entreprise Online (Plan 2) ou Skype Entreprise Online (Plan 3) à l’aide du portail d’administration Microsoft 365, comme décrit dans La procédure d’attribution ou de suppression de licences pour [Microsoft 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) entreprise ou dans la gestion des licences de modules [add-on Skype](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)Entreprise. 
+Vous pouvez maintenant attribuer une licence Skype Entreprise Online (Plan 2) ou Skype Entreprise Online (Plan 3) à l’aide du portail d’administration Microsoft 365, comme décrit dans La procédure d’attribution ou de suppression de licences pour [Microsoft 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) entreprise ou dans la gestion des licences de modules [add-on Skype](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)Entreprise. 
   
 Après avoir attribué une licence pour Skype Entreprise Online, vous pourrez vous connecter et vérifier que le compte est actif à l’aide de n’importe quel client Skype Entreprise.
   
@@ -101,7 +101,7 @@ Après avoir attribué une licence pour Skype Entreprise Online, vous pourrez vo
 
 Une fois qu’un compte de boîte aux lettres de salle de ressources a été créé et activé comme indiqué précédemment, et que vous avez sous licence le compte pour Skype Entreprise Online, le compte sera synchronisé à partir de la forêt Exchange Online avec la forêt Skype Entreprise Online à l’aide de la forêt Active Directory Windows Azure. Les étapes suivantes sont nécessaires pour mettre en service le compte Skype Room System dans le pool Skype Entreprise Online. Ces étapes sont les mêmes pour un compte de boîte aux lettres de ressources existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’ils sont activés dans Exchange Online, ces deux comptes sont synchronisés avec Skype Entreprise Online de la même manière :
   
-1. Créez une session PowerShell distante. Notez que vous devrez télécharger le [module PowerShell Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Créez une session PowerShell distante. Notez que vous devrez télécharger le [module PowerShell Teams.](/microsoftteams/teams-powershell-install)
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,9 +143,8 @@ Dans Microsoft 365 ou Office 365, la stratégie d’expiration de mot de passe p
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Pour plus d’informations, voir [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Pour plus d’informations, voir [Configurer votre ordinateur pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="validate"></a>Valider
 
 Pour la validation, vous devez être en mesure d’utiliser n’importe quel client Skype Entreprise pour vous inscrire au compte que vous avez créé.
-

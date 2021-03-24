@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Résumé : Découvrez le rapport de diagnostic dans Skype Entreprise Server.'
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816894"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095238"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype Entreprise Server
  
@@ -60,6 +60,4 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 |**Temps de connexion à la conférence (ms)** <br/> |Non  <br/> |Temps (en millisecondes) utilisé pour que l’utilisateur rejoigne la conférence.  <br/> |
 |**En-tête de diagnostic** <br/> |Non  <br/> |Description de l’ID de diagnostic.  <br/> |
    
-La liste des erreurs de diagnostic se trouve dans la [page En-tête Ms-Diagnostics.](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)
-  
-
+La liste des erreurs de diagnostic se trouve dans la [page En-tête Ms-Diagnostics.](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)

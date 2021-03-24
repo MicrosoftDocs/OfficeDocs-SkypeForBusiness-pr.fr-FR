@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lisez cette rubrique pour découvrir comment configurer des stratégies d’emplacement de service d’urgence amélioré (E9-1-1) dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 4230d6ac1a820cb9612d58b21a2e5b6ae36d8f77
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cee02204a9c5b3708a83e9433f6a88c70230fd64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822544"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093142"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Créer des stratégies d’emplacement dans Skype Entreprise Server
 
@@ -29,16 +29,16 @@ Lisez cette rubrique pour découvrir comment configurer des stratégies d’empl
 
 Skype Entreprise Server utilise une stratégie d’emplacement pour activer les clients Skype Entreprise pour E9-1-1 lors de l’inscription du client. Une stratégie d’emplacement contient les paramètres qui définissent la façon dont E9-1-1 sera implémenté. Pour plus d’informations, voir [Planifier des stratégies d’emplacement pour Skype Entreprise Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)
 
-Vous définissez des stratégies d’emplacement à l’aide du Panneau de contrôle Skype Entreprise ou de l’cmdlet [New-CsLocationPolicy.](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
+Vous définissez des stratégies d’emplacement à l’aide du Panneau de contrôle Skype Entreprise ou de l’cmdlet [New-CsLocationPolicy.](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
 
 > [!NOTE]
 > Skype Entreprise Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Si vous souhaitez configurer plusieurs numéros d’urgence, vous devez suivre les informations de la zone Planifier plusieurs numéros d’urgence dans Skype Entreprise [Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) et configurer plusieurs numéros d’urgence dans [Skype Entreprise.](configure-multiple-emergency-numbers.md) 
 
-Vous pouvez modifier la stratégie d’emplacement globale et créer des stratégies d’emplacement marquées. Un client obtient une stratégie globale lorsqu’il n’est pas situé dans un sous-réseau avec une stratégie d’emplacement associée, ou lorsque le client n’a pas été directement affecté à une stratégie d’emplacement. Les stratégies marquées sont affectées à des sous-réseaux ou à des utilisateurs. 
+Vous pouvez modifier la stratégie d’emplacement globale et créer des stratégies d’emplacement marquées. Un client obtient une stratégie globale lorsqu’il n’est pas situé dans un sous-réseau avec une stratégie d’emplacement associée, ou lorsqu’il n’a pas été directement affecté à une stratégie d’emplacement. Les stratégies marquées sont affectées à des sous-réseaux ou à des utilisateurs. 
 
 Pour créer une stratégie d’emplacement, vous devez utiliser un compte membre du groupe RTCUniversalServerAdmins ou membre du rôle d’administrateur CsVoiceAdministrator, ou qui dispose de droits et d’autorisations d’administrateur équivalents.
 
-Pour plus d’informations, voir [Planifier des stratégies d’emplacement pour Skype Entreprise Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md) Les cmdlets de cette procédure utilisent une stratégie d’emplacement définie à l’aide des valeurs suivantes. Pour obtenir une description complète des paramètres et des valeurs d’une cmdlet, voir [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+Pour plus d’informations, voir [Planifier des stratégies d’emplacement pour Skype Entreprise Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md) Les cmdlets de cette procédure utilisent une stratégie d’emplacement définie à l’aide des valeurs suivantes. Pour obtenir une description complète des paramètres et des valeurs d’une cmdlet, voir [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
 
 
 | **Élément**                               | **Valeur**                                                                                                                                                                          |

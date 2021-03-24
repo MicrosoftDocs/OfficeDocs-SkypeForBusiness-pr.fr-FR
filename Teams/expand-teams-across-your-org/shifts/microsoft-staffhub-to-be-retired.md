@@ -18,20 +18,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909508"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092440"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub a été retiré
 
-Microsoft StaffHub a été retiré le 30 juin 2020. Nous allons développer les fonctionnalités de StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront opérationnelles au fil du temps.
+Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous développons les fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Plannings pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées à l’avenir.
 
 Ces changements font partie de nos efforts continus pour donner à chaque employé les moyens d’avoir Microsoft 365. Grâce aux fonctionnalités maintenant disponibles pour les employés en ligne dans Teams, chaque employé de votre organisation sera en mesure d’utiliser Teams pour simplifier sa journée de travail, collaborer avec ses collègues, et accéder aux informations et à l’expertise pour les aider à mieux travailler.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Forum aux questions
 
 ### <a name="about-staffhub-retirement"></a>À propos de la retraite de StaffHub
 
@@ -41,7 +41,7 @@ Microsoft StaffHub a été retiré depuis le 30 juin 2020.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>Que se passera-t-il une fois StaffHub retiré ?
 
-StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir l’application s’afficheront un message les en directe pour télécharger Teams.
+StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Tous les autres personnes qui tentent d’ouvrir l’application s’afficheront un message les en directe pour télécharger Teams.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Teams proposera-t-elle toutes les fonctionnalités actuellement proposées dans StaffHub ?
 
@@ -63,11 +63,11 @@ Si une équipe StaffHub était associée à un groupe Office 365 que vous n’av
 
 #### <a name="what-is-shifts"></a>Qu’est-ce que Shifts ?
 
-L’application Shifts dans Teams est un outil de gestion des plannings qui permet aux employés en contact direct et synchronisés de rester connectés et synchronisés. Les responsables peuvent créer, mettre à jour et gérer les plannings des shifts des équipes, et les membres de l’équipe peuvent consulter leurs plannings, voir qui d’autre est programmé pour la journée, demander à échanger ou proposer un shift et demander un congé, à partir de leurs appareils mobiles.  
+L’application Shifts dans Teams est un outil de gestion des plannings qui permet aux employés en avant-première de rester connectés et synchronisés. Les responsables peuvent créer, mettre à jour et gérer les plannings des shifts des équipes, et les membres de l’équipe peuvent consulter leurs plannings, voir qui d’autre est programmé pour la journée, demander à échanger ou proposer un shift et demander un congé, à partir de leurs appareils mobiles.  
 
 #### <a name="which-plans-is-shifts-available-in"></a>Dans quels plans Shifts est-il disponible ?
 
-Shifts est disponible dans toutes les S SKUS Entreprise où Teams est disponible.
+Plannings est disponible dans toutes les références Entreprise où Teams est disponible.
 
 #### <a name="how-do-i-get-shifts"></a>Comment obtenir Shifts ? 
 
@@ -77,7 +77,7 @@ Si vous avez déjà une offre qui inclut Shifts, vous pouvez commencer à utilis
 
 Shifts est disponible sur le client web Teams, le client de bureau Teams et les clients mobiles Teams (iOS et Android).
  
-#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Existe-t-il des différences entre les applications de bureau Et web Shifts et les applications mobiles (iOS et Android) ?
+#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Existe-t-il des différences entre les applications de bureau et web Shifts et les applications mobiles (iOS et Android) ?
 
 Pour les responsables, les applications de bureau et web sont optimisées pour créer des équipes, ajouter des membres, créer et publier des plannings et partager du contenu avec l’équipe. Les responsables utilisent généralement l’application mobile pour approuver des demandes, envoyer des messages rapides à l’équipe, appeler un membre de l’équipe et collaborer en cours. 
 
@@ -92,7 +92,7 @@ Les fonctionnalités essentielles sont identiques entre les applications Shifts 
 Shifts fonctionne sur tous les navigateurs que Teams prend en charge, qui inclut les dernières versions de Microsoft Edge, Internet Explorer, Google Chrome et Mozilla Firefox. Pour plus d’informations, [voir Obtenir des clients pour Teams.](../../get-clients.md)
 
 > [!Note]
-> Les applications et services Microsoft 365 ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant [](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) du système d’exploitation Windows et suit la politique de cycle de vie du produit sur lequel il est installé. 
+> Les applications et services Microsoft 365 ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant [](/lifecycle/faq/internet-explorer-microsoft-edge) du système d’exploitation Windows et suit la politique de cycle de vie du produit sur lequel il est installé. 
 
 #### <a name="what-languages-does-shifts-support"></a>Quelles sont les langues que Shifts prend en charge ?
 
@@ -122,7 +122,7 @@ Par défaut, Teams est activé pour toutes les organisations. Vous attribuez des
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>Que se passe-t-il si Skype Entreprise est actuellement activé dans mon organisation mais pas dans Teams ?
 
-Teams prend en charge la coexistence avec Skype Entreprise. Pour plus d’informations, consultez les conseils de compréhension des équipes et de la coexistence et de [l’interopérabilité](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) de Skype Entreprise, ainsi que des conseils sur la migration et l’interopérabilité pour les organisations qui utilisent Teams avec [Skype Entreprise.](../../migration-interop-guidance-for-teams-with-skype.md)
+Teams prend en charge la coexistence avec Skype Entreprise. Pour plus d’informations, consultez les conseils de compréhension des équipes et de la [coexistence](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) et de l’interopérabilité de Skype Entreprise, ainsi que des conseils sur la migration et l’interopérabilité pour les organisations qui utilisent Teams avec [Skype Entreprise.](../../migration-interop-guidance-for-teams-with-skype.md)
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>Chaque utilisateur doit-il avoir un compte Microsoft 365 ou Office 365 ou un compte Azure Active Directory (Azure AD) ?
 
@@ -144,7 +144,7 @@ Pour en savoir plus, voir [comment SharePoint Online et OneDrive Entreprise inte
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Y a-t-il une intégration entre Shifts et le calendrier Outlook ? Puis-je exporter un planning vers un calendrier ?
  
-Les employés en ligne peuvent voir leur planning de travail entier en un clin d’œil dans Shifts. Nous 3drons la prise en charge de l’intégration native avec le calendrier Outlook dans le cadre de notre feuille de route. En attendant, utilisez Microsoft Flow pour configurer l’intégration avec Shifts dans Teams et Outlook et les calendriers Google.
+Les employés en ligne peuvent voir leur planning de travail entier en un coup d’œil dans Shifts. Nous 3drons la prise en charge de l’intégration native au calendrier Outlook dans le cadre de notre feuille de route. En attendant, utilisez Microsoft Flow pour configurer l’intégration avec Shifts dans Teams et Outlook et les calendriers Google.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Quels contrôles d’administration sont disponibles pour gérer le fait que les utilisateurs de mon organisation peuvent utiliser Shifts ?  
   
@@ -158,10 +158,10 @@ Vous gérez Teams via le module Microsoft Teams PowerShell et le module Skype En
 
 Si vous êtes intéressé par ce message, envoyez-nous une demande via le portail de commentaires [Teams sur UserVoice.](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)
 
-#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>La rapports est-il disponible pour afficher l’utilisation des shifts dans mon organisation ?
+#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Les rapports sont-ils disponibles pour afficher l’utilisation des shifts dans mon organisation ?
 
-Comme Shifts est une application dans Teams, vous pouvez consulter l’utilisation via les rapports Teams. Pour plus d’informations, consultez les rapports Teams dans le Centre d’administration [Microsoft Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) et les rapports d’activité Teams dans le Centre [d’administration Microsoft 365.](../../teams-activity-reports.md)
+Comme Shifts est une application dans Teams, vous pouvez consulter l’utilisation via les rapports Teams. Pour plus d’informations, consultez les rapports Teams dans le Centre d’administration [Microsoft Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) et les rapports d’activité Teams dans le Centre d’administration Microsoft [365.](../../teams-activity-reports.md)
 
 #### <a name="where-can-i-provide-feedback"></a>Où puis-je fournir des commentaires ?
   
-Dans l’application mobile, appuyez **sur Plus** dans le coin supérieur gauche de l’écran, sur **Paramètres** Envoyer des  >  **commentaires** ou Signaler **un problème.** De même, dans les applications de bureau et web, dans le bas gauche de l’écran, allez dans Aide pour partager une idée ou  >   Signaler **un problème.**
+Dans l’application mobile, appuyez **sur Plus** dans le coin supérieur gauche de l’écran, allez à **Paramètres** Envoyer des  >  **commentaires** ou Signaler **un problème.** De même, dans les applications de bureau et web, dans le bas gauche de l’écran, allez dans Aide pour partager une idée ou  >   Signaler **un problème.**

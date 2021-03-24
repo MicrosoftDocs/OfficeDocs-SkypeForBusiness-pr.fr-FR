@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams et les visites virtuelles avec l’application Bookings
-ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125747"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092782"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles dans Microsoft Teams et l’application Bookings
 
@@ -53,7 +53,7 @@ L’application Microsoft Bookings pour Teams est disponible sur le bureau et su
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Contrôler l’accès à Bookings au sein de votre organisation
 
-Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d’administration Microsoft 365, et créer une stratégie d’application Bookings pour autoriser les utilisateurs sélectionnés à créer des calendriers Bookings, consultez [Accéder à Microsoft Bookings](https://support.microsoft.com/fr-FR/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Vous pouvez également découvrir comment [Créer une stratégie d’application Teams pour épingler l’application Bookings à certains utilisateurs](teams-app-setup-policies.md).
+Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d’administration Microsoft 365, et créer une stratégie d’application Bookings pour autoriser les utilisateurs sélectionnés à créer des calendriers Bookings, consultez [Accéder à Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Vous pouvez également découvrir comment [Créer une stratégie d’application Teams pour épingler l’application Bookings à certains utilisateurs](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Paramètres de stratégie de réunion recommandés
 
@@ -73,7 +73,7 @@ Cette fonctionnalité est déployée progressivement dans le monde entier pour l
 
 Lors de la configuration d’une boîte aux lettres Bookings, le domaine de courrier par défaut de votre organisation Microsoft 365 ou Office 365 est utilisé. Toutefois, cela peut poser des problèmes lors de l'envoi d'invitations de réunion à des destinataires externes. Il est possible que votre invitation soit signalée en tant que courrier indésirable et déplacée vers le dossier de courrier indésirable du destinataire, de sorte que le destinataire ne voie jamais votre invitation.
 
-Nous vous recommandons de modifier le domaine par défaut avant de créer votre boîte aux lettres Bookings. Pour plus d’informations sur la façon de faire, consultez [FAQ sur les domaines](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Nous vous recommandons de modifier le domaine par défaut avant de créer votre boîte aux lettres Bookings. Pour plus d’informations sur la façon de faire, consultez [FAQ sur les domaines](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
 
 Si vous devez modifier le domaine par défaut alors que votre boîte aux lettres Bookings a déjà été créée, vous pouvez le faire avec PowerShell :
 
@@ -81,7 +81,7 @@ Si vous devez modifier le domaine par défaut alors que votre boîte aux lettres
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-Pour plus d’informations, consultez la documentation PowerShell pour la cmdlet [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) .
+Pour plus d’informations, consultez la documentation PowerShell pour la cmdlet [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox) .
 
 > [!NOTE]
 > Si vous utilisez une configuration Exchange hybride, nous vous recommandons de tester minutieusement le flux de courrier entre Exchange local et Exchange Online lorsque vous modifiez le domaine par défaut.

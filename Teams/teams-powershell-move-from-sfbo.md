@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez comment passer de Skype Entreprise Online Connector au module Teams PowerShell pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569080"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094125"
 ---
 # <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Passer de Skype Entreprise Online Connector au module Teams PowerShell
 
@@ -43,7 +43,7 @@ Pour passer de l’utilisation de Skype Entreprise Online Connector au module Te
    Connect-MicrosoftTeams -Credential $credential
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Installer Microsoft Teams PowerShell](teams-powershell-install.md)
 
@@ -51,6 +51,6 @@ Pour passer de l’utilisation de Skype Entreprise Online Connector au module Te
 
 [Notes de publication de Teams PowerShell](teams-powershell-release-notes.md)
 
-[Référence de l’cmdlet Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Référence de l’cmdlet Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Référence de l’cmdlet Skype Entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Référence de l’cmdlet Skype Entreprise](/powershell/skype/intro?view=skype-ps)

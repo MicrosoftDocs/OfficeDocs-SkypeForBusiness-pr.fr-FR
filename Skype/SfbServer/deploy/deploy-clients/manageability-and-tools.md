@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
-description: Lisez cette rubrique pour en savoir plus sur les outils de gestion de Skype Room System.
-ms.openlocfilehash: f46d636bba0779cc42532cc2110ef94abdb6b982
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Lisez cette rubrique pour en savoir plus sur les outils de gestion pour Skype Room System.
+ms.openlocfilehash: 81adbb93c71abc201d9099d86e8414a524d85dff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805794"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093548"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Gestion et outils de Skype Room System
  
-Lisez cette rubrique pour en savoir plus sur les outils de gestion de Skype Room System.
+Lisez cette rubrique pour en savoir plus sur les outils de gestion pour Skype Room System.
   
 ## <a name="administrative-portal"></a>Portail d’administration
 
@@ -36,13 +36,13 @@ Pour plus d’informations, voir l’article suivant :
 
 - Confirmez que la découverte automatique est bien définie et qu’un enregistrement DNS A/CNAME interne est disponible pour autodiscover.domain.com.
     
-- Ping autodiscover (par exemple, Ping Autodiscover.contoso.com).
+- Découverte automatique ping (par exemple, ping Autodiscover.contoso.com).
     
 - Testez votre service de découverte automatique à l’aide de l’outil Analyseur de connectivité Microsoft. Choisissez le premier test, « Je ne peux pas me connecter avec Office Outlook ».
     
 - Si la salle de réunion dispose déjà d’une boîte aux lettres de ressources, étendez ce compte pour Skype Room System (exemple de script en bas de la page).
     
-## <a name="skype-for-business-checklist"></a>Liste de contrôle Skype Entreprise
+## <a name="skype-for-business-checklist"></a>Liste de vérification Skype Entreprise
 
 - Exécutez les outils suivants :
     
@@ -50,7 +50,7 @@ Pour plus d’informations, voir l’article suivant :
   - Outil d’analyse de l’état de Skype Entreprise (Excel)    
   - Analyseur de connectivité Skype Entreprise 32 bits ou 64 bits
     
-- Passer en revue les nouveaux outils de dépannage et [d’analyse utiles pour Office 365.](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/) Confirmez que vous avez un pool Skype Entreprise et un serveur Office Web Apps et que vous pouvez partager une présentation PowerPoint à l’aide du client Skype Entreprise.
+- Passer en revue les nouveaux outils de dépannage et [d’analyse utiles pour Office 365.](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) Confirmez que vous avez un pool Skype Entreprise et un serveur Office Web Apps et que vous pouvez partager une présentation PowerPoint à l’aide du client Skype Entreprise.
     
 - Si la salle de réunion dispose déjà d’une boîte aux lettres de ressources, activez-la pour Skype Entreprise.
     
@@ -126,7 +126,7 @@ Vérifiez que votre autorité de certification dispose d’un chemin d’accès 
   
 Installez les certificats dans la configuration d’administration de Skype Room System sous System Settings \> Certificate Manager. Vous avez besoin de l’ac racine d’entreprise pour votre certificat interne.
   
-Une façon d’obtenir les certificats dont vous avez besoin consiste à découvrir l’ac qui a émis vos certificats. Pour Skype Entreprise Server, sur un PC dans Skype Entreprise, cliquez sur Paramètres de conférence d’accès aux \> \> outils de paramètres. Cela ouvre une page web sécurisée par l’ac qui a émis les certificats internes. Cliquez sur l’icône Verrouiller dans la barre d’adresses du navigateur pour afficher un rapport de sécurité. Cliquez sur Afficher les certificats et examinez la propriété point de distribution de la CRL. Le deuxième paramètre CN doit être le nom de serveur de l’ac. Ouvrez maintenant l’Explorateur Windows pour cette \\ \< CA Server Name \> adresse \CertEnroll. Copiez les deux fichiers .crl et le fichier .crt sur un disque mémoire flash et placez-le dans le côté gauche du tableau SMART.
+Une façon d’obtenir les certificats dont vous avez besoin consiste à découvrir l’ac qui a émis vos certificats. Pour Skype Entreprise Server, sur un PC dans Skype Entreprise, cliquez sur Paramètres de conférence d’accès aux \> \> outils de paramètres. Cela ouvre une page web sécurisée par l’ac qui a émis les certificats internes. Cliquez sur l’icône Verrouiller dans la barre d’adresses du navigateur pour afficher un rapport de sécurité. Cliquez sur Afficher les certificats et examinez la propriété point de distribution de la CRL. Le deuxième paramètre CN doit être le nom de serveur de l’ac. Ouvrez l’Explorateur Windows pour cette \\ \< CA Server Name \> adresse \CertEnroll. Copiez les deux fichiers .crl et le fichier .crt sur un disque mémoire flash et placez-le dans le côté gauche du tableau SMART.
   
 Importez le fichier .crt dans Skype Room System sous le dossier Autorité de certification des salles de confiance.
   
@@ -134,6 +134,4 @@ Importez les fichiers .crl sur Skype Room System sous le dossier Autorités de c
   
 Remarque : le serveur Office Web Apps 2013 peut partager la même cae que Skype Entreprise. Si ce n’est pas le cas, vous ne pourrez pas partager PowerPoint dans une réunion. Consultez le programme informatique et obtenez les fichiers CRT et CRL à partir du partage réseau ca CertEnroll, comme expliqué ci-dessus. 
   
-L’appartenance à un domaine peut simplifier certaines choses, car vous pouvez traiter Skype Room System comme un système Windows et il peut s’appuyer sur Active Directory pour certains aspects des certificats. Toutefois, il est préférable de gérer cela manuellement.
-  
-
+L’appartenance à un domaine peut simplifier certaines choses, car vous pouvez traiter Skype Room System comme un système Windows et il peut s’appuyer sur Active Directory pour certains aspects du certificat. Toutefois, il est préférable de gérer cela manuellement.

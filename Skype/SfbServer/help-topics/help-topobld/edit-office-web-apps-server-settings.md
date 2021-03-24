@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Vous modifiez les propriétés d’Office Web Apps Server configuré. Les propriétés suivantes peuvent être modifiées :'
-ms.openlocfilehash: 11e70f61c2eee33ab19ec0fa0b2f9fb3310a4542
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e9f4a188c5cb58be685db4ea44157f2897ebe5ba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810304"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095538"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Modifier les paramètres Office Web Apps Server
 
 Vous modifiez les propriétés d’Office Web Apps Server configuré. Les propriétés suivantes peuvent être modifiées :
 
- Nom de domaine complet **Office Web Apps Server**: cette propriété définit le nom de domaine complet du serveur Office Web Apps Server et doit correspondre à un enregistrement A ou AAAA (si IPv6 est utilisé) d’hôte DNS (domain name system).
+ Nom de domaine complet **(FQDN) d’Office Web Apps Server**: cette propriété définit le nom de domaine complet d’Office Web Apps Server et doit correspondre à un enregistrement A ou AAAA (si IPv6 est utilisé) d’hôte DNS (domain name system).
 
- **URL** de découverte Office Web Apps Server : URL (Uniform Resource Locator) pour l’accès client au serveur Office Web Apps Server, vous devrez peut-être modifier cette adresse par défaut si le serveur est placé dans une autre zone réseau que le réseau interne pour votre déploiement.
+ **URL** de découverte Office Web Apps Server : URL (Uniform Resource Locator) pour l’accès client à Office Web Apps Server, vous devrez peut-être modifier cette adresse par défaut si le serveur est placé dans une autre zone réseau que le réseau interne pour votre déploiement.
 
 Activez la case à cocher **Le serveur Office Web Apps Server est déployé sur un réseau externe (périmètre/Internet)** si le serveur est déployé dans le réseau de votre périmètre ou dans une autre zone réseau qui se situe à l’extérieur de votre pare-feu interne séparant le réseau de périmètre, les réseaux moyennement fiables et Internet de votre déploiement interne.
 
@@ -36,4 +36,4 @@ Activez la case à cocher **Le serveur Office Web Apps Server est déployé sur 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Composants et topologies pour les conférences](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Composants et topologies pour les conférences](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

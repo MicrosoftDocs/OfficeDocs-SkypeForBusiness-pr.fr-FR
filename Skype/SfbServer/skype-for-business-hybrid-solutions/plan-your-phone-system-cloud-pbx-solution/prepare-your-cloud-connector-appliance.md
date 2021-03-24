@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Découvrez comment préparer votre appliance Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique (PBX cloud).
-ms.openlocfilehash: 74c4885a25b4176f4d5eb3ac27926bd9528387c6
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 536e9b98520e4274e00d43d57224267f5b824dc9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358940"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092632"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appareil Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 Découvrez comment préparer votre appliance Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique (PBX cloud).
 
@@ -36,7 +36,7 @@ Cette section décrit comment obtenir les fichiers d’installation de la versio
 > Microsoft prend en charge la version actuelle de Cloud Connector, version 2.1. Si vous avez configuré la mise à jour automatique, Cloud Connector se met à jour automatiquement. Si vous avez configuré la mise à jour manuelle, vous devrez mettre à niveau vers la version 2.1 dans les 60 jours suivant sa publication. Microsoft prendra en charge la version précédente pendant 60 jours après la publication de la version 2.1 pour vous laisser le temps de mettre à niveau. 
 
 > [!NOTE]
-> Pour cloud connector version 2.1 et ultérieure, .NET Framework 4.6.1 ou version ultérieure doit être installé sur l’appliance hôte. 
+> Pour Cloud Connector version 2.1 et versions ultérieures, l’appliance hôte .NET Framework la version 4.6.1 ou ultérieure. 
 
 > [!IMPORTANT]
 > Pour un déploiement réussi, lorsque vous exécutez les cmdlets pour configurer La version Cloud Connector de Skype Entreprise, utilisez toujours la même session console que celle que vous avez démarrée. Évitez de basculer vers différentes sessions pendant le déploiement et la configuration. 
@@ -65,7 +65,7 @@ Cette section décrit comment obtenir les fichiers d’installation de la versio
 
     La commande doit renvoyer la liste des cmdlets pour Skype Entreprise, version Cloud Connector.
 
-2. Les fichiers VHD, SfBBits et VersionInfo seront stockés dans **l’annuaire de sites.**
+2. Les fichiers VHD, SfBBits et VersionInfo sont stockés dans **l’annuaire de sites.**
 
     Vous pouvez trouver l’emplacement de **l’annuaire de** sites avec l’cmdlet suivante :
 
@@ -81,7 +81,7 @@ Cette section décrit comment obtenir les fichiers d’installation de la versio
 
    - Dossier partagé accessible par les autres serveurs hôtes (appliances) dans le même site.
 
-     Pour définir **l’annuaire de sites** sur un emplacement autre que celui par défaut, exécutez l’cmdlet suivante :
+     Pour définir **l’annuaire de** sites sur un emplacement autre que celui par défaut, exécutez l’cmdlet suivante :
 
    ```powershell
    Set-CcSiteDirectory <UNC File path>
@@ -93,7 +93,7 @@ Cette section décrit comment obtenir les fichiers d’installation de la versio
 
 3. **L’annuaire** d’équipements est le répertoire racine de travail local pour Skype Entreprise, version Cloud Connector et l’emplacement où les certificats externes, les instances et les journaux sont enregistrés. L’emplacement par défaut est : %USERPROFILE%\CloudConnector\ApplianceRoot.
 
-    Pour trouver l’emplacement du répertoire **d’équipements,** exécutez l’cmdlet suivante :
+    Pour trouver l’emplacement de **l’annuaire d’équipements,** exécutez l’cmdlet suivante :
 
    ```powershell
    Get-CcApplianceDirectory
@@ -121,14 +121,14 @@ Cette section décrit comment obtenir les fichiers d’installation de la versio
     > [!NOTE]
     > Notez que le paramètre -Target est spécifique aux versions 1.4.2 et ultérieures. 
 
-    Spécifiez le chemin d’accès complet au certificat externe, y compris le nom de fichier. Le certificat peut être stocké localement ou sur un partage de fichiers. Si le certificat est stocké dans un dossier partagé, le dossier partagé doit être créé sur la première appliance de chaque site et doit être accessible par d’autres appliances appartenant au même site. Cette cmdlet copie le certificat externe dans **l’annuaire d’équipements.**
+    Spécifiez le chemin d’accès complet au certificat externe, y compris le nom de fichier. Le certificat peut être stocké localement ou sur un partage de fichiers. Si le certificat est stocké dans un dossier partagé, le dossier partagé doit être créé sur la première appliance de chaque site et doit être accessible par d’autres appliances appartenant au même site. Cette cmdlet copie le certificat externe dans **l’annuaire d’appliances.**
 
     > [!IMPORTANT]
-    > Si vous avez mis à jour **la version 1.4.2** ou ultérieure de Cloud Connector, assurez-vous que votre certificat externe préparé contient des clés privées et la chaîne de certificats complète, y compris le certificat d’ac racine et les certificats d’ac intermédiaire. Si vous n’avez PAS encore mis à jour **la version 1.4.2** de Cloud Connector, assurez-vous que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification qui est fiable par défaut par Windows.
+    > Si vous avez mis à jour **vers Cloud Connector version 1.4.2** ou ultérieure, assurez-vous que votre certificat externe préparé contient des clés privées et la chaîne de certificats complète, y compris le certificat d’ac racine et les certificats d’ac intermédiaire. Si vous n’avez PAS encore mis à jour **la version 1.4.2** de Cloud Connector, assurez-vous que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification qui est fiable par défaut par Windows.
 
-## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définir le chemin d’accès pour la passerelle PSTN externe/certificat SBC
+## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définir le chemin d’accès pour la passerelle PSTN externe/le certificat SBC
 
-Si vous utilisez TLS entre le serveur de médiation et la passerelle PSTN/SBC, exécutez l’cmdlet suivante pour définir le chemin d’accès, y compris le nom de fichier, au certificat de passerelle. Par exemple : C:\certs\cce\sbc.contoso.com.cer. Le certificat doit contenir l’ac racine et la chaîne intermédiaire pour le certificat affecté à la passerelle :
+Si vous utilisez TLS entre le serveur de médiation et la passerelle PSTN/SBC, exécutez l’cmdlet suivante pour définir le chemin d’accès, y compris le nom de fichier, sur le certificat de passerelle. Par exemple : C:\certs\cce\sbc.contoso.com.cer. Le certificat doit contenir l’ac racine et la chaîne intermédiaire pour le certificat affecté à la passerelle :
 
 ```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
@@ -151,7 +151,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 4. Définissez le nom du commutateur qui connecte votre réseau de périmètre à votre domaine réseau **interne SfB CCE Corpnet Switch**.
 
-    Définissez le nom du commutateur qui connecte votre réseau de périmètre au commutateur **Internet SfB CCE Internet.**
+    Définissez le nom du commutateur qui connecte votre réseau de périmètre au commutateur Internet **SfB CCE Internet.**
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>Mettre à jour le CloudConnector.ini de configuration de l’ordinateur
 
@@ -165,16 +165,16 @@ Export-CcConfigurationSampleFile
 
 L’exemple de modèle est stocké dans **l’annuaire d’équipements.**
 
-Une fois que vous l’avez mis à jour avec les valeurs de votre environnement, enregistrez le fichier CloudConnector.ini dans **l’annuaire d’équipements.** Vous pouvez exécuter **Get-CcApplianceDirectory** pour déterminer le chemin d’accès au répertoire **d’équipements.**
+Une fois que vous l’avez mis à jour avec les valeurs de votre environnement, enregistrez le fichier CloudConnector.ini dans **l’annuaire d’équipements.** Vous pouvez exécuter **Get-CcApplianceDirectory pour** déterminer le chemin d’accès au répertoire **d’équipements.**
 
 Lors de la mise à jour du fichier .ini, prenons en compte les considérations suivantes :
 
 > [!NOTE]
-> Toutes les valeurs du fichier .ini ne sont pas abordées dans cette section, seules celles qui font l’objet d’une attention particulière sont abordées ici. Pour obtenir la liste complète, consultez la section [Déterminer les paramètres](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) de déploiement de la rubrique [Plan for Skype for Business Cloud Connector Edition.](plan-skype-for-business-cloud-connector-edition.md) Pour plus d’informations sur les valeurs qui doivent être modifiées pour des appliances supplémentaires ou de nouveaux sites, voir Site unique avec haute disponibilité (HA) par rapport aux [déploiements multisesses](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) dans la rubrique Déployer plusieurs sites dans [Cloud Connector.](deploy-multiple-sites-in-cloud-connector.md) 
+> Toutes les valeurs du fichier .ini ne sont pas abordées dans cette section, seules celles qui font l’objet d’une attention particulière sont abordées ici. Pour obtenir la liste complète, consultez la section Déterminer les [paramètres](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) de déploiement de la rubrique [Plan for Skype for Business Cloud Connector Edition.](plan-skype-for-business-cloud-connector-edition.md) Pour plus d’informations sur les valeurs qui doivent être modifiées pour des appliances supplémentaires ou de nouveaux sites, voir Site unique avec haute disponibilité (HA) par rapport aux [déploiements multisesses](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) dans la rubrique Déployer plusieurs sites dans [Cloud Connector.](deploy-multiple-sites-in-cloud-connector.md) 
 
 - **SiteName :** La valeur par défaut **est Site1**. Vous devez la mettre à jour avant de déployer Cloud Connector, car lorsque vous exécutez **Register-CcAppliance** pour inscrire une appliance sur un site existant ou nouveau, l’cmdlet utilise **SiteName** pour déterminer le site à inscrire.
 
-     Si vous souhaitez inscrire l’appliance sur un nouveau site, la valeur de **SiteName** doit être unique et différente des sites existants. Si vous souhaitez inscrire l’appliance sur un site existant, la valeur de **SiteName** dans le fichier .ini doit correspondre au nom défini dans la configuration de votre organisation Microsoft 365 ou Office 365. Si vous copiez un fichier de configuration d’un site à un autre, veillez à mettre à jour la valeur **de SiteName** pour chaque site en conséquence.
+     Si vous souhaitez inscrire l’appliance sur un nouveau site, la valeur de **SiteName** doit être unique et différente des sites existants. Si vous souhaitez inscrire l’appliance sur un site existant, la valeur de **SiteName** dans le fichier .ini doit correspondre au nom défini dans la configuration de votre organisation Microsoft 365 ou Office 365. Si vous copiez un fichier de configuration d’un site à un autre, veillez à mettre à jour la valeur **siteName** pour chaque site en conséquence.
 
 - **ServerName :** Le nom du serveur ne doit pas contenir le nom de domaine et doit être limité à 15 caractères.
 
@@ -210,7 +210,7 @@ Lors de la mise à jour du fichier .ini, prenons en compte les considérations s
 
 - **Fournisseurs d’IP externes :**
 
-  - Pour l’adresse IP publique mr : spécifiez externalMRIPs pour les adresses non NAT ou ExternalMRPublicIPs pour NAT.
+  - Pour l’adresse IP publique mr : spécifiez externalmrips pour les adresses non NAT ou ExternalMRPublicIPs pour NAT.
 
   - ExternalSIPIPs et ExternalMRIPs peuvent être identiques.
 
@@ -275,7 +275,7 @@ Le fichier VHD créé est stocké dans le dossier **Répertoire** de sites \Bits
 
 Il s’agit d’une étape facultative qui s’applique uniquement aux déploiements sur plusieurs sites.
 
-Si vous déployez un déploiement sur plusieurs sites, vous n’avez pas besoin de convertir l’iso en disque dur vhd pour chaque site. Vous pouvez copier le vhDX créé pour le premier site sur le serveur hôte pour un second site.
+Si vous déployez un déploiement sur plusieurs sites, vous n’avez pas besoin de convertir l’iso en disque dur vhd pour chaque site. Vous pouvez copier le VHDX créé pour le premier site sur le serveur hôte pour un second site.
 
  Copiez le fichier au même emplacement (répertoire du **site** \Bits\dossier VHD) et avec le même nom de fichier, sur le serveur hôte pour un site supplémentaire.
 
@@ -302,7 +302,7 @@ Le compte CceService est créé lors du déploiement de la version Cloud Connect
 
 ### <a name="to-change-the-group-policy-setting"></a>Pour modifier le paramètre de stratégie de groupe
 
-1. Ouvrez **l’Éditeur de stratégie de** groupe en exécutant gpedit.msc.
+1. Ouvrez **l’Éditeur de** stratégie de groupe en exécutant gpedit.msc.
 
 2. Dans l’Éditeur de stratégie de **groupe,** accédez à Modèles d’administration > System > UserProfile > Ne déchargez pas de force le Registre utilisateur lors de la déconnexion de l’utilisateur. 
 
@@ -312,8 +312,6 @@ Le compte CceService est créé lors du déploiement de la version Cloud Connect
 
 Une organisation Microsoft 365 ou Office 365 avec Skype Entreprise Online et le système téléphonique est requise. Assurez-vous que votre client est configuré avant d’essayer d’utiliser Cloud Connector.
 
-Certaines étapes de configuration de Microsoft 365 et d’Office 365 nécessitent l’utilisation de Tenant Remote PowerShell (TRPS) pour configurer votre organisation Microsoft 365 ou Office 365. **Il doit être installé sur le serveur hôte.** Vous pouvez télécharger le module Skype Entreprise Online pour PowerShell à partir de : Skype Entreprise [Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
+Certaines étapes d’installation de Microsoft 365 et d’Office 365 nécessitent l’utilisation de Tenant Remote PowerShell (TRPS) pour configurer votre organisation Microsoft 365 ou Office 365. **Il doit être installé sur le serveur hôte.** Vous pouvez télécharger le module Skype Entreprise Online pour PowerShell à partir de : Skype Entreprise [Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Créez un compte d’administrateur Skype Entreprise dédié pour la gestion en ligne de Cloud Connector, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé par l’appliance pour ajouter ou supprimer une appliance, activer ou désactiver la mise à jour automatique du système d’exploitation, activer ou désactiver la mise à jour binaire automatique. Définissez le mot de passe de ce compte pour qu’il n’expire jamais afin que vous n’avez pas besoin de le modifier pour le service chaque fois qu’il expire.
-
-

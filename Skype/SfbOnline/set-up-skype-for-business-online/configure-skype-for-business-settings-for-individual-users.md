@@ -23,17 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: cf54637bda51a7994121035b3db1585213c56c00
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 5ddad9b1502d0a271c20c412731c9872e247be1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093388"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels
 
 > [!IMPORTANT]
-> Le Centre d’administration Microsoft Teams a remplacé le Centre d’administration Skype Entreprise (portail hérité). Tous les paramètres de gestion de Skype Entreprise sont désormais dans le Centre d’administration Teams. Pour gérer les fonctionnalités de Skype Entreprise dans le Centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) d’administrateur global ou d’administrateur Skype Entreprise. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Le Centre d’administration Microsoft Teams a remplacé le Centre d’administration Skype Entreprise (portail hérité). Tous les paramètres de gestion de Skype Entreprise sont désormais dans le Centre d’administration Teams. Pour gérer les fonctionnalités de Skype Entreprise dans le Centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) d’administrateur global ou d’administrateur Skype Entreprise. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 Cet article explique comment les administrateurs configurent Skype Entreprise pour un petit nombre d'utilisateurs. Pour suivre ces étapes en bloc, nous avons inclus des liens vers les Windows PowerShell cmdlets que vous pouvez utiliser.
   
@@ -70,7 +70,7 @@ Vous devez avoir des [autorisations d’administrateur](https://support.office.c
 |:-----|:-----|
 |Appels audio et vidéo HD  <br/> |Autorisez cette personne à enregistrer des réunions audio, audio et vidéo, ou ne l’autorisez pas à planifier des réunions (aucune).  <br/> |
 |Enregistrer les conversations et les réunions  <br/> |Sélectionnez les éléments que cette personne est autorisée à enregistrer.  <br/> Cette option n’est pas disponible avec Skype Entreprise Basic.  <br/> |
-|À des fins de conformité, désactivez les fonctions non archivées.  <br/> | Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/>  La sélection de cette option permet de sélectionner [](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) des fonctionnalités qui ne sont pas capturées lors de la mise en place d’une attente sur place dans le Centre d’administration Exchange. Elle désactive les fonctions suivantes : <br/>  transfert de fichiers avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/> |
+|À des fins de conformité, désactivez les fonctions non archivées.  <br/> | Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/>  La sélection de cette option permet de sélectionner [](/exchange/security-and-compliance/in-place-and-litigation-holds) des fonctionnalités qui ne sont pas capturées lors de la mise en place d’une attente sur place dans le Centre d’administration Exchange. Elle désactive les fonctions suivantes : <br/>  transfert de fichiers avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/> |
    
 Pour configurer ces paramètres en bloc, utilisez PowerShell. Consultez [Configurer votre ordinateur pour Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
@@ -101,8 +101,8 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Consultez [Configu
 |**Configuration de l'audioconférence**|**Description**|
 |:-----|:-----|
 |**Nom du fournisseur** <br/> |Choisissez votre fournisseur dans la liste.  <br/> |
-|**Numéro payant** (obligatoire) <br/> |Pour un fournisseur de services d’audioconférence tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Mettre en forme les numéros de la même forme que vous voulez qu’ils apparaissent dans les demandes de réunion Skype Entreprise et Microsoft Teams.  <br/> |
-|**Numéro gratuit** <br/> |Pour un fournisseur de services d’audioconférence tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Mettre en forme les numéros de la même forme que vous voulez qu’ils apparaissent dans les demandes de réunion Skype Entreprise et Microsoft Teams.  <br/> |
+|**Numéro payant** (obligatoire) <br/> |Pour un fournisseur de services d’audioconférence tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Affichez les numéros de la même forme que vous voulez qu’ils apparaissent dans les demandes de réunion Skype Entreprise et Microsoft Teams.  <br/> |
+|**Numéro gratuit** <br/> |Pour un fournisseur de services d’audioconférence tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Affichez les numéros de la même forme que vous voulez qu’ils apparaissent dans les demandes de réunion Skype Entreprise et Microsoft Teams.  <br/> |
 |**ID et code confidentiel** de conférence (obligatoire) <br/> |Code confidentiel du participant, ou code de conférence, utilisé pour participer à des réunions organisées par cet utilisateur et fournies par un fournisseur de services d’audioconférence tiers. Si l’utilisateur utilise Microsoft comme fournisseur de services d’audioconférence, cela ne sera pas obligatoire.  <br/> |
    
 Pour configurer ces paramètres en bloc, utilisez PowerShell. Consultez [Définir les numéros de téléphone inclus dans les invitations](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) Configurer votre ordinateur pour [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
@@ -111,11 +111,10 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Consultez [Défini
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>Voir aussi 
+## <a name="related-topics"></a>Rubriques connexes 
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
- 

@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 6bf864fefd3ac60c7531bd339a5587c8f2f0dd72
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814553"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094234"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer des équipes dans le Centre d’administration Microsoft Teams
 ==========================================
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Cet article fournit une vue d’ensemble des outils de gestion pour Teams dans le Centre d’administration Microsoft Teams.
 
@@ -38,7 +38,7 @@ En tant qu’administrateur, vous devrez peut-être afficher ou mettre à jour l
 - Administrateur général
 - Administrateur du service Teams
 
-Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans Utiliser les rôles d’administrateur de Microsoft Teams pour gérer [Teams,](using-admin-roles.md)et en savoir plus sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la référence de l’cmdlet [Microsoft Teams.](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans Utiliser les rôles d’administrateur de Microsoft Teams pour gérer [Teams,](using-admin-roles.md)et en savoir plus sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la référence de l’cmdlet [Microsoft Teams.](/powershell/teams/?view=teams-ps)
 
 
 
@@ -58,7 +58,7 @@ La grille affiche les propriétés suivantes :
 - **Confidentialité** - Visibilité/Type d’accès du groupe Microsoft 365 de soutien.
 - **État** : état Archivé ou Actif pour cette équipe. En savoir plus sur l’archivage des équipes [dans Archiver ou restaurer une équipe.](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
 - **Description** : description du groupe Microsoft 365 de soutien.
-- **Classification** - Classification (si elle est utilisée dans votre organisation) attribuée au groupe Microsoft 365 de soutien. Pour plus d’informations sur les classifications, découvrez comment créer [des classifications pour les groupes Office dans votre organisation.](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)
+- **Classification** : classification (si elle est utilisée dans votre organisation) attribuée au groupe Microsoft 365 de soutien. Pour plus d’informations sur les classifications, découvrez comment créer [des classifications pour les groupes Office dans votre organisation.](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)
 - **GroupID** - GroupID unique du groupe Microsoft 365 de soutien.
 
 > [!NOTE]
@@ -81,7 +81,7 @@ Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équip
 
 ### <a name="delete"></a>Supprimer
 
-La suppression d’une équipe est une suppression (suppression soft) de l’équipe et du groupe Microsoft 365 correspondant. Pour restaurer une équipe supprimée par erreur, suivez les instructions dans [Restaurer un groupe supprimé.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+La suppression d’une équipe est une suppression (suppression soft) de l’équipe et du groupe Microsoft 365 correspondant. Pour restaurer une équipe supprimée par erreur, suivez les instructions dans [Restaurer un groupe supprimé.](/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ### <a name="search"></a>Rechercher
 
@@ -89,7 +89,7 @@ La recherche prend actuellement en charge la chaîne « Commence par » et reche
 
 ## <a name="team-profile"></a>Profil d’équipe
 
-Vous pouvez accéder à la page de profil d’une équipe à partir de la grille de vue d’ensemble principale des équipes en cliquant sur le nom de l’équipe. La page de profil d’équipe affiche les membres, les propriétaires et les invités qui appartiennent à l’équipe (et son groupe Microsoft 365), ainsi que les canaux et les paramètres de l’équipe. Dans la page de profil de l’équipe, vous pouvez :
+Vous pouvez accéder à la page de profil d’une équipe à partir de la grille de vue d’ensemble principale des équipes en cliquant sur le nom de l’équipe. La page de profil d’équipe affiche les membres, les propriétaires et les invités qui appartiennent à l’équipe (et son groupe Microsoft 365), ainsi que les canaux et paramètres de l’équipe. Dans la page de profil de l’équipe, vous pouvez :
 
 - Ajoutez ou supprimez des membres et des propriétaires.
 - Ajouter ou supprimer des canaux (notez que vous ne pouvez pas supprimer le canal Général).
@@ -122,7 +122,7 @@ Certaines de vos équipes sont manquantes dans la liste des équipes dans la gri
 
 **Résolution : définir manuellement la propriété sur la valeur correcte via MS Graph**
 
-Remplacez **{groupid}** dans la requête pour le GroupId réel en question, que vous pouvez obtenir via exchange Online powershell, par l’attribut « **[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** comme attribut **« ExternalDirectoryObjectId**».
+Remplacez **{groupid}** dans la requête pour le GroupId réel en question, que vous pouvez obtenir via exchange Online powershell, par l’attribut « **[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** comme attribut **« ExternalDirectoryObjectId**».
 
 1. Access [Graph Explorer.](https://developer.microsoft.com/graph/graph-explorer)
 
@@ -138,6 +138,6 @@ Remplacez **{groupid}** dans la requête pour le GroupId réel en question, que 
 
 ## <a name="learn-more"></a>En savoir plus
 
-- [Référence de l’cmdlet Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Référence de l’cmdlet Teams](/powershell/teams/?view=teams-ps)  
 - [Utiliser les rôles d’administrateur Teams pour gérer Teams](using-admin-roles.md)
 - [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)
