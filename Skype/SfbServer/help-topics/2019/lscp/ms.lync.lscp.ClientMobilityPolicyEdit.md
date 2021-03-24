@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.
-ms.openlocfilehash: 9034bc4b343fc68af862cfd01fa1db4aec9a985e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7c72a586cc2fee883206491b399a7bf7ea4f73aa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830234"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100600"
 ---
 # <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité client
 
@@ -39,10 +39,10 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Description** Description de la stratégie de mobilité.
 
-Pour plus d’informations sur les stratégies de mobilité, voir [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
+Pour plus d’informations sur les stratégies de mobilité, voir [Mobility Policies](/previous-versions/office/lync-server-2013/lync-server-2013-mobility-policies).
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de la mobilité](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planification de la mobilité](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
-[Déploiement de la mobilité](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Déploiement de la mobilité](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)

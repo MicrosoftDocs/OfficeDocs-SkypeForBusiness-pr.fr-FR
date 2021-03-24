@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Créez ou modifiez une plage de numéros de prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: f487c277b8eaa03a5b31ce0dc9696b0efe712340
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822404"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100420"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Créer ou modifier une plage de numéros de prise d’appel de groupe dans Skype Entreprise
 
@@ -79,8 +79,8 @@ Les plages de numéro de groupe de prise d’appel doivent respecter les règles
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[Supprimer une plage d’orbites de parcage d’appel](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[Supprimer une plage d’orbites de parcage d’appel](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

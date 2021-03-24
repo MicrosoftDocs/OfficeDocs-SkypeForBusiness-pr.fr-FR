@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 7802217872d1f466fa1d855435f84e2ecc468830
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 3ff507dc3cca5e244f6545944d062e5e32dd6175
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164343"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100740"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
-Connectez-vous à Microsoft 365 ou Office 365 via une connexion réseau dédiée à l’aide d’Azure ExpressRoute pour Microsoft 365 ou Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise vous offre des performances fiables et prévisibles, ainsi que la confidentialité, loin de l’Internet public. Vous pouvez désormais acheter une meilleure connexion réseau à Microsoft 365 ou Office 365 et Skype Entreprise Online qui offre une fiabilité et une grande prévisibilité, ainsi qu’un temps de disponibilité des SLA.
+Connectez-vous à Microsoft 365 ou Office 365 via une connexion réseau dédiée à l’aide d’Azure ExpressRoute pour Microsoft 365 ou Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau à Microsoft 365 ou Office 365 et Skype Entreprise Online, qui offre une fiabilité et une grande prévisibilité, ainsi qu’un temps de disponibilité des SLA.
   
 > [!NOTE]
 > Une nouvelle version de l’outil de calcul de bande passante est disponible [: Skype Entreprise, Calculateur de bande passante.](https://go.microsoft.com/fwlink/?LinkId=715766) Toutefois, les instructions de ce document utilisent l’outil de calcul de bande passante Lync 2010 et Lync 2013. 
@@ -52,7 +52,7 @@ Lorsque vous vous préparez pour ExpressRoute pour Skype Entreprise, il est judi
     
 - [Tarification ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690284)
     
-- [Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
+- [Documentation ExpressRoute](/azure/expressroute/)
     
 ## <a name="part-1-case-study---expressroute-for-dewey-law-llc"></a>Partie 1 : Étude de cas - ExpressRoute pour Dewey Law, LLC.
 
@@ -116,13 +116,13 @@ Pour implémenter la QoS sur leur réseau d’entreprise, les points de terminai
 De ce fait, l'association des priorités QoS Layer 3 et Layer 2 doit également être définie à chaque point. Les mécanismes de priorité Layer 2 sont définis dans les normes IEEE 802.1p pour les réseaux filaires et IEEE 802.11e/WMM pour les réseaux Wi-Fi. Mieux encore, le routeur réseau faisant face au réseau MPLS du fournisseur de services réseau doit maintenir les paramètres DSCP sur tous les paquets sortants afin de garantir la classe de service MPLS appropriée. 
   
 > [!TIP]
->  Pour plus d’informations sur la mise en place de la qualité de qualité de vie, reportez-vous à la section 2.6 Planification, surveillance et dépannage réseau avec [Lync Server.]( https://go.microsoft.com/fwlink/?LinkId=760669) Pour plus d'informations sur les exigences de planification du réseau, vous pouvez également vous reporter à la rubrique [Planification de la configuration réseau requise pour Skype Entreprise 2015](https://go.microsoft.com/fwlink/?LinkId=690287).
+>  Pour plus d’informations sur la mise en place de la qualité de vie, reportez-vous à la section 2.6 Planification, surveillance et dépannage réseau avec [Lync Server.]( https://go.microsoft.com/fwlink/?LinkId=760669) Pour plus d'informations sur les exigences de planification du réseau, vous pouvez également vous reporter à la rubrique [Planification de la configuration réseau requise pour Skype Entreprise 2015](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md).
   
 ### <a name="ordering-network-access-services"></a>Commande de services d'accès réseau
 
 Après la mise en place des prérequis et des mécanismes réseau QoS pour la prise en charge d'ExpressRoute, l'étape suivante consiste à passer commande des services d'accès réseau ExpressRoute. Lors de la commande de services d'accès ExpressRoute pour Dewey Law LLC à partir du partenaire fournisseur de services réseau Microsoft, vous devrez indiquer deux éléments :
   
-- Quantité totale de bande passante nécessaire pour connecter chaque site à ExpressRoute et Microsoft 365 ou Office 365.
+- La quantité totale de bande passante requise pour connecter chaque site à ExpressRoute et Microsoft 365 ou Office 365.
     
 - La bande passante totale requise pour chaque classe de service nécessaire à la prise en charge des applications Skype Entreprise utilisées par Dewey Law LLC. La bande passante de classe de service nécessaire dépend du volume de trafic attendu pour chaque application Skype Entreprise, comme la voix, la vidéo, la messagerie instantanée, la présence et le partage d'écran.
     
@@ -398,13 +398,12 @@ Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux ut
 
 Skype Entreprise améliore la gestion des communications d'entreprise. Plutôt que d'avoir un téléphone connecté à un PBX, un système de conférences vidéo autonome, une plate-forme séparée pour le courrier électronique, un service extérieur pour les audioconférences et des fonctionnalités de messagerie instantanée et de présence, Skype Entreprise regroupe toutes ces fonctionnalités dans une interface utilisateur unique.
   
-La fourniture constante de services voix et vidéo en temps réel de qualité professionnelle nécessite une infrastructure réseau compatible avec QoS de bout en bout. Cela pourrait inclure des services LAN et WAN. Microsoft propose des outils comme l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) pour estimer la capacité du réseau dont vous aurez besoin pour les différents services. Il existe également des partenaires dans le programme IT Pro Tools : Solutions Skype Entreprise : [outils](https://go.microsoft.com/fwlink/?LinkID=690307) IT Pro Tools qui offrent des outils pour préévaluer l’infrastructure réseau et prendre en charge la surveillance, la signalement et la résolution des problèmes. Sans une infrastructure réseau dimensionnée et configurée correctement, votre déploiement ExpressRoute Skype Entreprise risque de ne pas répondre aux attentes de votre utilisateur en termes de qualité et de cohérence.
+La fourniture constante de services voix et vidéo en temps réel de qualité professionnelle nécessite une infrastructure réseau compatible avec QoS de bout en bout. Cela pourrait inclure des services LAN et WAN. Microsoft propose des outils comme l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) pour estimer la capacité du réseau dont vous aurez besoin pour les différents services. En outre, certains partenaires du programme IT Pro Tools skype Entreprise [Solutions](https://go.microsoft.com/fwlink/?LinkID=690307) offrent des outils informatiques pour offrir des outils pour préévaluer l’infrastructure réseau et prendre en charge la surveillance, la signalement et la résolution des problèmes. Sans une infrastructure réseau dimensionnée et configurée correctement, votre déploiement ExpressRoute Skype Entreprise risque de ne pas répondre aux attentes de votre utilisateur en termes de qualité et de cohérence.
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
+[Documentation ExpressRoute](/azure/expressroute/)
 
   
- 

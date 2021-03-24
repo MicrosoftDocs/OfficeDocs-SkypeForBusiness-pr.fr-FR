@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Résumé : Examinez les considérations sur le type d’adresse IP ci-dessous avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: d5e50b8d3a964bb4e4dcbc502527e5249af3a1e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825255"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101250"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurer des types d’adresse IP dans Skype Entreprise
 
@@ -53,7 +53,7 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
    - **Adresse IP PSTN** : entrez l’adresse IP PSTN à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 
 > [!NOTE]
-> L’installation de cartes d’interface réseau supplémentaires pour prendre en charge la configuration de l’adresse IP PSTN (ou pour toute autre raison) sur les serveurs frontux n’est pas prise en charge. Pour plus d’informations sur les configurations de la NIC prise en charge pour Skype Entreprise Server, voir [Les plateformes matérielles de serveur pour Lync Server 2013.](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)
+> L’installation de cartes d’interface réseau supplémentaires pour prendre en charge la configuration de l’adresse IP PSTN (ou pour toute autre raison) sur les serveurs frontux n’est pas prise en charge. Pour plus d’informations sur les configurations de la NIC prise en charge pour Skype Entreprise Server, voir Les plateformes matérielles de serveur [pour Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Déployer des types d’adresse IP sur un serveur de médiation
 
@@ -78,7 +78,7 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
 
   - **Adresse IP PSTN** : entrez l’adresse IP PSTN à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 > [!IMPORTANT]
-> Nous 5 000 000 cartes réseau uniquement sur *des serveurs de* médiation dédiés. Si le rôle Sserver de médiation est coqueté sur le serveur frontal, les cartes réseau doubles ne sont pas pris en charge. 
+> Nous 2 000 cartes réseau uniquement sur *des serveurs de* médiation dédiés. Si le rôle Sserver de médiation est coqueté sur le serveur frontal, les cartes réseau doubles ne sont pas pris en charge. 
 
 > [!NOTE]
 > - Pour plus d’informations sur les configurations de la NIC prise en charge pour Skype Entreprise Server 2015, voir [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)

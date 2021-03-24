@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités accessibles à l’un des clients peuvent être limitées par les capacités de l’autre client.
-ms.openlocfilehash: c2d6dc4f68a7c40668db9042d420f2f341e35ca0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 57c273198a9c88ae26540518c9f892b218b96118
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824894"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100690"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Stratégie de version du client : création d’une nouvelle ou modification d’une stratégie existante
 
@@ -55,5 +55,4 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Flèches haut et bas** Cette option déplace la règle de version du client sélectionnée vers le haut ou vers le bas en priorité. Les règles sont traitées dans l’ordre répertorié.
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Interopérabilité du client.](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) Pour plus d’informations sur l’utilisation des stratégies de version du client, voir [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) dans la documentation des opérations.
-
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Interopérabilité du client.](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) Pour plus d’informations sur l’utilisation des stratégies de version du client, voir [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) dans la documentation des opérations.

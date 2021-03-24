@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909398"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101150"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
@@ -81,7 +81,7 @@ Pour épingler l’application Tasks pour vos utilisateurs, vous pouvez modifier
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>L’espace Mes tâches d’un utilisateur est visible si l’utilisateur dispose d’une licence pour Exchange Online
 
-Si vous ne souhaitez pas qu’un utilisateur voie l’espace **Mes tâches**, vous pouvez le masquer. Pour ce faire, [supprimez la licence Exchange Online de l’utilisateur](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Il est important de savoir qu’après la suppression de la licence Exchange Online, l’utilisateur n’a plus accès à sa boîte aux lettres.  Les données de la boîte aux lettres sont conservées pendant 30 jours, après quoi les données seront supprimées et ne pourront pas être récupérées à moins que la boîte aux lettres ne soit placée en [Conservation inaltérable ou en Conservation pour litige](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Si vous ne souhaitez pas qu’un utilisateur voie l’espace **Mes tâches**, vous pouvez le masquer. Pour ce faire, [supprimez la licence Exchange Online de l’utilisateur](/microsoft-365/admin/manage/remove-licenses-from-users). Il est important de savoir qu’après la suppression de la licence Exchange Online, l’utilisateur n’a plus accès à sa boîte aux lettres.  Les données de la boîte aux lettres sont conservées pendant 30 jours, après quoi les données seront supprimées et ne pourront pas être récupérées à moins que la boîte aux lettres ne soit placée en [Conservation inaltérable ou en Conservation pour litige](/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Ceci n’est pas recommandé pour les employés du secteur de l’information, mais dans certains cas, cela peut s’appliquer, comme pour les travailleurs de première ligne qui ne dépendent pas de la messagerie électronique.
 
@@ -123,5 +123,5 @@ Pour savoir comment configurer la hiérarchie de ciblage de votre équipe, consu
 
 Tasks prend en charge les API Power Automate pour To Do et Graph pour le Planificateur. Pour en savoir plus, consultez les articles :
 
-- [Présentation de l’API des tâches et des plans du Planificateur](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Présentation de l’API des tâches et des plans du Planificateur](/graph/planner-concept-overview)
 - [Utiliser Microsoft To Do avec Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

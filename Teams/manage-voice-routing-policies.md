@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment créer et gérer des stratégies de routage vocal dans Microsoft Teams.
-ms.openlocfilehash: 00b70363f0034ebc8d99aa59e037658e406af2a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Découvrez comment créer et gérer des stratégies de routage vocale dans Microsoft Teams.
+ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802554"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101070"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Gérer les stratégies de routage vocal dans Microsoft Teams
 
-Si vous avez [](direct-routing-landing-page.md) déployé le routage direct du système téléphonique dans votre organisation, vous utilisez les stratégies de routage vocal pour permettre aux utilisateurs de Teams et de Skype Entreprise Online de recevoir et de passer des appels téléphoniques vers le réseau téléphonique commuté (PSTN) à l’aide de votre infrastructure téléphonique locale.
+Si vous avez [](direct-routing-landing-page.md) déployé le routage direct du système téléphonique dans votre organisation, vous utilisez les stratégies de routage vocal pour permettre aux utilisateurs de Teams et de Skype Entreprise Online de recevoir et d’effectuer des appels téléphoniques vers le réseau téléphonique commuté (PSTN) à l’aide de votre infrastructure téléphonique locale.
 
 Une stratégie de routage vocal est un conteneur pour les enregistrements d’utilisation PSTN. Pour créer et gérer des stratégies de routage voix, vous devez vous rendre sur les stratégies de routage de voix dans le Centre d’administration de Microsoft Teams ou à l’aide  >   de Windows PowerShell.
 
@@ -48,7 +48,7 @@ Il est important de savoir que l’affectation d’une stratégie de routage voc
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [New-CsOnlineVoiceRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)
+Voir [New-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)
 
 ## <a name="edit-a-voice-routing-policy"></a>Modifier une stratégie de routage vocal
 
@@ -62,13 +62,13 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsOnlineVoiceRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy)
+Voir [Set-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/set-csonlinevoiceroutingpolicy)
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>Affecter une stratégie de routage vocal personnalisée aux utilisateurs
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Voir également [Grant-CsOnlineVoiceRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
+Voir également [Grant-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
 
 ## <a name="related-topics"></a>Sujets associés
 

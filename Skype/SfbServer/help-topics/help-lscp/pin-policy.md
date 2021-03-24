@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0a363520e029015d8ca72c738a018aa16e943e39
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b4fe394bbeacf99510a9da3d6d2f66fd859176a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829384"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099470"
 ---
 # <a name="pin-policy"></a>Stratégie de code confidentiel
 
@@ -34,11 +34,10 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 - [Supprimer une stratégie de code confidentiel dans Skype Entreprise Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
   **Travailler avec la stratégie de code confidentiel pour les conférences téléphoniques** Cette stratégie de code confidentiel permet aux utilisateurs qui ont des informations d’identification des services de domaine Active Directory dans votre organisation de participer à des conférences téléphoniques en tant qu’utilisateurs authentifiés en entrant un code confidentiel.
-- [Créer ou modifier les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Créer ou modifier les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [Modifier les paramètres de code confidentiel des conférence rendez-vous par défaut](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modifier les paramètres de code confidentiel des conférence rendez-vous par défaut](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
-

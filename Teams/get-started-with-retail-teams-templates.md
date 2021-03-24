@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424634"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101200"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Prise en main des modèles Teams de vente au détail
 
@@ -34,7 +34,7 @@ Les modèles Teams ont des définitions pré-conçues pour les structures d’é
 
 Cet article présente chacun des modèles Teams et vous explique comment les utiliser.
 
-Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de vente au détail. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](How-to-roll-out-teams.md).
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de vente au détail. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](./deploy-overview.md).
 
 Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles Teams](get-started-with-teams-templates.md).
 
@@ -68,7 +68,7 @@ Méthodes recommandées pour personnaliser le modèle de collaboration entre res
 
 ## <a name="how-to-use-first-party-templates"></a>Comment utiliser les modèles de premier groupe
 
-Pour utiliser ces modèles, modifiez la propriété « template@odata.bind » dans le corps de la demande de « standard » en valeurs TemplateID ci-dessus.  Pour plus d’informations sur le déploiement des modèles Teams, consultez l’article Microsoft Graph sur la [création d’un groupe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Pour utiliser ces modèles, modifiez la propriété « template@odata.bind » dans le corps de la demande de « standard » en valeurs TemplateID ci-dessus.  Pour plus d’informations sur le déploiement des modèles Teams, consultez l’article Microsoft Graph sur la [création d’un groupe](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Les canaux dans le modèle seront automatiquement créés sous l’onglet Général.

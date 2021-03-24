@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: cd6864b0d4d16e952f93fe321b49522028d76e5b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 773b93f62690b01d33f84bc5eb68b135280842ea
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835134"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098820"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Démarrer ou arrêter la capture du journal CLS dans Skype Entreprise Server 2015
  
@@ -50,7 +50,7 @@ Le service de journalisation centralisée propose deux façons d’émettre des 
    ```
 
     > [!NOTE]
-    > Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande **Stop-CsClsLogging**. Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Pour tous les autres scénarios, la durée par défaut est de 4 heures. 
+    > Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande **Stop-CsClsLogging**. Pour plus d’informations, voir [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps). Pour tous les autres scénarios, la durée par défaut est de 4 heures. 
   
 3. Appuyez sur Entrée pour exécuter la commande. 
     
@@ -89,14 +89,14 @@ Notez que dans cet exemple, les scénarios AlwaysOn et UserReplicator sont exéc
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>Arrêter la capture du journal du service de journalisation centralisée
 <a name="stop"> </a>
 
-Vous pouvez arrêter une session de journalisation en cours avec l’applet de commande Stop-CsClsLogging. En règle générale, il n’existe pas beaucoup de situations dans lesquelles vous devez arrêter une session de journalisation. Par exemple, vous pouvez faire des recherches dans les journaux et modifier des configurations sans devoir arrêter d’abord la journalisation. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario  d’authentification. Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
+Vous pouvez arrêter une session de journalisation en cours avec l’applet de commande Stop-CsClsLogging. En règle générale, il n’existe pas beaucoup de situations dans lesquelles vous devez arrêter une session de journalisation. Par exemple, vous pouvez faire des recherches dans les journaux et modifier des configurations sans devoir arrêter d’abord la journalisation. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario  d’authentification. Pour plus d’informations, voir [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
 > Lorsque vous déterminez les scénarios que vous pouvez exécuter sur un déploiement, un pool ou un ordinateur donné, vous devez vous souvenir que vous êtes limité à l’exécution de deux **scénarios** par ordinateur : AlwaysOn et un scénario personnalisé. Si vous procédez à la journalisation de l’activité d’un pool, vous devez traiter ce pool globalement. Dans la plupart des cas, il n’est pas judicieux d’exécuter différents scénarios sur chaque ordinateur dans un pool. Il n’est pas non plus logique d’examiner le problème pour lequel vous recherchez des données et vous demander alors quel scénario convient le mieux pour un ordinateur donné dans le déploiement entier. Par exemple, si vous envisagez le scénario UserReplicator, l’exécution de UserReplicator sur un serveur Edge ou un pool edge n’aura que très peu de valeur. 
   
 Une fois que vous avez compris l’origine du problème et avez déterminé son impact, vous devez choisir soigneusement les scénarios à exécuter sur quels ordinateurs et pools. Bien qu’il soit judicieux d’exécuter le scénario AlwaysOn pour une application large, car il recueille des informations sur une grande variété de fournisseurs, certains scénarios ne sont utiles que sur certains ordinateurs ou pools. De plus, lorsque vous lancez une session de journalisation vous devez choisir au préalable le scénario offrant les meilleurs résultats. Si vous utilisez un scénario inapproprié, ou si vous utilisez un scénario qui est approprié pour la tâche mais pas adapté au niveau d’application envisagé (global, site, pool ou ordinateur), vous risquez d’obtenir des données inutiles, comme si vous n’aviez pas exécuté de scénario du tout.
   
-Pour contrôler les fonctions du service de journalisation centralisée à l’aide de Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype Entreprise Server Management Shell ou de l’invite Windows PowerShell :
+Pour contrôler les fonctions du service de journalisation centralisée à l’aide de Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype Entreprise Server Management Shell ou de l’invite Windows PowerShell :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -109,13 +109,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont conservés les journaux ? Étant donné que vous accéderez aux informations stockées dans les journaux à l’aide de requêtes de l’shell de gestion envoyées aux agents CLS, et que vous pouvez obtenir les résultats dans plusieurs formats de fichier possibles, où, sur chaque serveur, un agent CLS conserve ses enregistrements n’est pas réellement important à connaître.  Les fichiers journaux peuvent être enregistrés à un emplacement que vous spécifiez, que vous lisez et analysez à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage de Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+> Vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont conservés les journaux ? Étant donné que vous accéderez aux informations stockées dans les journaux à l’aide de requêtes de l’shell de gestion envoyées aux agents CLS, et que vous pouvez obtenir les résultats dans plusieurs formats de fichiers possibles, où, sur chaque serveur, un agent CLS conserve ses enregistrements n’est pas vraiment important à connaître.  Les fichiers journaux peuvent être enregistrés à un emplacement que vous spécifiez, que vous lisez et analysez à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage de Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Pour arrêter une session du service de journalisation centralisée en cours d’exécution
 
 1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
     
-2. Interrogez le service de journalisation centralisée pour connaître les scénarios en cours d’exécution en tapant ce qui suit :
+2. Interrogez le service de journalisation centralisée pour connaître les scénarios en cours d’exécution en tapant les données suivantes :
     
    ```PowerShell
    Show-CsClsLogging
@@ -123,7 +123,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![Windows PowerShell console après l’appel Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   Le résultat de Show-CsClsLogging est un résumé des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   Le résultat de Show-CsClsLogging est un résumé des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Pour arrêter une session de journalisation en cours avec un scénario spécifique, tapez :
     
@@ -139,7 +139,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Cette commande arrête la journalisation avec le scénario UserReplicatior sur pool01.contoso.net.
     
     > [!NOTE]
-    > Les journaux créés au cours de cette session de journalisation avec le scénario UserReplicator ne sont pas supprimés. Vous pouvez continuer à effectuer des recherches avec la journalisation au lieu d’utiliser la commande Search-CsClsLogging. Pour plus d’informations, voir [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
+    > Les journaux créés au cours de cette session de journalisation avec le scénario UserReplicator ne sont pas supprimés. Vous pouvez continuer à effectuer des recherches avec la journalisation au lieu d’utiliser la commande Search-CsClsLogging. Pour plus d’informations, voir [Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Faisant pendant à l’applet de commande Start-CsClsLogging, l’applet de commande Stop-CsClsLogging arrête la session de journalisation, définie par des scénarios, et conserve les journaux créés par celle-ci. Vous pouvez exécuter deux scénarios sur un ordinateur donné à tout moment. La méthode d’arrêt d’un scénario pour recueillir des informations à l’aide d’un autre scénario est une tâche courante que vous pouvez effectuer au cours du dépannage de la plupart des charges de travail.
 ## <a name="see-also"></a>Voir aussi

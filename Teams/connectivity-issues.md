@@ -16,12 +16,12 @@ description: Résoudre les problèmes de connectivité avec le client Microsoft 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 25a4fc51e0bb8dec810ce921e3678a529ee7a4cf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918540"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101160"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Résoudre les problèmes de connectivité avec le client Microsoft Teams
 ==============================================================
@@ -50,4 +50,4 @@ La bonne nouvelle, c’est que Teams continue de fonctionner même lorsque vous 
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

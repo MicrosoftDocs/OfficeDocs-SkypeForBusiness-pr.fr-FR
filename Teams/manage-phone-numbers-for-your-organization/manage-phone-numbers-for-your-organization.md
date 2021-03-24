@@ -26,28 +26,28 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: Découvrez comment obtenir et gérer les numéros de téléphone des utilisateurs (abonnés) et des services (gratuits et gratuits) pour Microsoft Teams pour votre organisation.
-ms.openlocfilehash: f49911c8d916354ac0dce1d04710624ec07d592d
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+description: Découvrez comment obtenir et gérer les utilisateurs (abonnés) et les numéros de téléphone de service (gratuits et gratuits) pour Microsoft Teams pour votre organisation.
+ms.openlocfilehash: 7b7bbc7dae1aff2b582853c3deaf0d1861f20361
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196258"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101170"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
 Il existe quatre façons d’obtenir des numéros de téléphone des utilisateurs (abonnés) et des services (gratuits et gratuits) pour votre organisation :
 
-- [Obtention de nouveaux numéros de téléphone utilisateur dans le Centre d’administration Microsoft Teams.](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users)
-- [Obtention de nouveaux numéros de téléphone de service dans le Centre d’administration Microsoft Teams.](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers)
-- [Transférez _ou transférez_ vos numéros de téléphone existants.](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
+- [Obtention de nouveaux numéros de téléphone utilisateur dans le Centre d’administration Microsoft Teams.](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)
+- [Obtention de nouveaux numéros de téléphone de service dans le Centre d’administration Microsoft Teams.](../getting-service-phone-numbers.md#get-new-service-numbers)
+- [Transférez _ou transférez_ vos numéros de téléphone existants.](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
 - Utilisez un formulaire de demande pour les nouveaux numéros de téléphone non répertoriés dans le Centre d’administration Microsoft Teams.
 
 > [!IMPORTANT]
 > Pour les nouveaux numéros de téléphone en Australie, voir [Services de téléphonie Telstra](https://aka.ms/TelstraVoicePlan). Pour les nouveaux numéros de téléphone au Japon, voir [SoftBank Voice Services.](https://aka.ms/SoftBankVoicePlan)
 
 ***
-Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone de la zone de sélection pour sélectionner le pays/la région dans lequel vous voulez obtenir des numéros.
+Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone de sélection pour sélectionner le pays/la région dans lequel vous voulez obtenir des numéros.
 
 **Sélectionnez votre pays ou région pour trouver les formulaires de LOA PDF téléchargeables dont vous aurez besoin**
 > [!div class="op_single_selector"]
@@ -93,19 +93,19 @@ Si vous disposez actuellement des informations suivantes auprès d’un autre op
 - Toll-Free numéros de téléphone.
 - Plus de 999 numéros de téléphone utilisateur que vous devez transférer/transférer, mais que vous ne pouvez pas obtenir dans le Centre d’administration Microsoft Teams à l’aide de l’Assistant Transfert de numéros local.
 
-Une fois que vous avez votre LOA **remplie** et signée, contactez notre service [PSTN Service Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) pour que nous pouvons vous aider.
+Une fois que vous avez votre LOA **remplie** et signée, contactez notre service [PSTN Service Desk](./contact-pstn-service-desk.md) pour que nous pouvons vous aider.
 
 ## <a name="still-need-assistance"></a>Besoin d’aide ?
 
-[Contactez notre service PSTN Service Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) et nous vous aiderons dès que possible.
+[Contactez notre service PSTN Service Desk](./contact-pstn-service-desk.md) et nous vous aiderons dès que possible.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- Pour savoir _si et_ quelles sont les forfaits d’appels disponibles dans votre pays ou région, lisez la disponibilité des pays et de la région pour les forfaits [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Pour vous aider dans le choix du type correct de numéros de téléphone, lisez les différents types de numéros utilisés [pour les plans d’appel.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- Pour obtenir de l’aide sur la configuration des numéros de téléphone pour votre organisation, lisez : Contact du support pour les [produits pour les entreprises - Aide de l’administrateur.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+- Pour savoir _si et_ quels plans d’appel sont disponibles dans votre pays ou région, lisez la disponibilité des pays et de la région pour les forfaits [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Pour vous aider à choisir le type de numéros de téléphone correct, lisez les différents types de numéros utilisés [pour les plans d’appel.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- Pour obtenir de l’aide sur la configuration des numéros de téléphone pour votre organisation, lisez : Contact du support pour les [produits pour les entreprises - Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 

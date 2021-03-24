@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: ed1e5563a4677dce33648280590530ca2a9b1b9b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803104"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098960"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le tableau de bord de qualité des appels pour Skype Entreprise Server
 
 **Résumé :** Découvrez comment utiliser le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
 
-Le Tableau de bord de qualité des appels (CQD) permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier les problèmes de création de problèmes de qualité des médias en comparant les statistiques pour les groupes d’utilisateurs afin d’identifier les tendances et les modèles. Le CQD ne se concentre pas sur la résolution des problèmes d’appels individuels, mais sur l’identification des problèmes et des solutions qui s’appliquent à de nombreux utilisateurs.
+Le Tableau de bord de qualité des appels (CQD) permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier les problèmes de création de problèmes de qualité des médias en comparant des statistiques pour les groupes d’utilisateurs afin d’identifier les tendances et les modèles. Le CQD ne se concentre pas sur la résolution des problèmes d’appels individuels, mais sur l’identification des problèmes et des solutions qui s’appliquent à de nombreux utilisateurs.
 
 ## <a name="call-quality-dashboard-user-guide"></a>Guide de l’utilisateur du tableau de bord de qualité des appels
 
@@ -43,9 +43,9 @@ Lorsque vous visitez le Tableau de bord de qualité des appels, l’écran suiva
 ![Utiliser le CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. Le volet « Résumé » est l’endroit où se trouve le contexte de l’ensemble de rapports (à droite).
-2. Cliquez sur « Modifier » dans le volet résumé pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
+2. Cliquez sur « Modifier » dans le volet Résumé Pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
 3. La breadcrumb vous permet d’identifier votre emplacement actuel dans la hiérarchie des ensembles de rapports.
-4. Les rapports avec des sous-rapports sont affichés avec un lien bleu. Cliquez sur le lien pour descendre dans les rapports enfants.
+4. Les rapports avec sous-rapports sont affichés avec un lien bleu. Cliquez sur le lien pour descendre dans les rapports enfants.
 
 Déplacez la souris sur les graphiques à barres et les lignes de tendance pour afficher des valeurs détaillées. Le rapport qui a le focus affiche le menu d’action : « Modifier », « Cloner », « Supprimer » et « Télécharger ».
 
@@ -86,7 +86,7 @@ Le menu Paramètres contient des liens vers des pages utiles telles que les page
 
 L’affichage des descriptions et des horodaodatés doit être pris en compte par les utilisateurs individuels, et ces paramètres affectent uniquement la version individuelle du tableau de bord et ne modifient pas l’ensemble de rapports ou ce que voient les autres utilisateurs. L’effacement du cache entraîne le rechargement des données de toutes les requêtes à partir du cube, tandis que la restauration par défaut supprime tous les rapports créés ou modifiés par l’utilisateur et recrée l’ensemble de rapports système , ce qu’un utilisateur voit lorsqu’il se connecte pour la première fois.
 
-Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien Du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
+Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
 
 ### <a name="supplying-subnet-information"></a>Fourniture d’informations de sous-réseau
 
@@ -103,13 +103,13 @@ Les données utilisées pour ces tables sont définies comme suit :
 
 **CqdBuilding**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |Non |Clé primaire de la table CqdBuilding. |
+|BuildingKey |entier |Non |Clé primaire de la table CqdBuilding. |
 |BuildingName |varchar(80) |Non |Nom du bâtiment. |
 |BuildingShortName |varchar(10) |Non |Version plus courte du nom du bâtiment. |
-|OwnershipTypeId |int |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingOwners. |
-|BuildingTypeId |int |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingType. |
+|OwnershipTypeId |entier |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingOwners. |
+|BuildingTypeId |entier |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingType. |
 |Latitude |float |Oui |Latitude du bâtiment. |
 |Longitude |float |Oui |Longitude du bâtiment. |
 |CityName |varchar(30) |Oui |Nom de la ville où se trouve le bâtiment. |
@@ -123,12 +123,12 @@ Les données utilisées pour ces tables sont définies comme suit :
 
 **CqdNetwork**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |Réseau |varchar(25) |Non |Adresse de sous-réseau. |
 |NetworkRange |tinyint |Oui |Masque de sous-réseau. |
-|NetworkNameID |int |Oui |Mapille éventuellement à une ligne dans la table CqdNetworkName. |
-|BuildingKey |int |Oui |Clé étrangère, correspond à l’une des entrées de la table CqdBuilding. |
+|NetworkNameID |entier |Oui |Mapille éventuellement à une ligne dans la table CqdNetworkName. |
+|BuildingKey |entier |Oui |Clé étrangère, correspond à l’une des entrées de la table CqdBuilding. |
 |UpdatedDate |DateHeure |Non |Date et heure de la dernière mise à jour de l’entrée. |
 ||||||
 
@@ -136,9 +136,9 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu »).
 
 **CqdBuildingType**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |int |Non |Clé primaire de la table CqdBuildingType. |
+|BuildingTypeId |entier |Non |Clé primaire de la table CqdBuildingType. |
 |BuildingTypeDesc |char(18) |Non |Description du type de bâtiment. |
 |||||
 
@@ -146,9 +146,9 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, nul
 
 **CqdBuildingOwnershipType**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |int |Non |Clé primaire de la table CqdBuildingOwnershipType. |
+|OwnershipTypeId |entier |Non |Clé primaire de la table CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |Non |Description du type de propriété. |
 |LeaseInd |tinyint |Oui |Index référencant une autre ligne dans la table CqdBuildingOwnershipType, utilisée pour identifier les bâtiments en bail. |
 |Propriétaire |varchar(50) |Oui |Propriétaire du bâtiment. |
@@ -158,7 +158,7 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, nul
 
 **CqdBssid**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |Non |Clé primaire de la table CqdBssid. Est le BSSID du point d’accès WiFi. |
 |ess |nvarchar(50) |Oui |Informations sur le contrôleur de point d’accès Wifi. |
@@ -194,7 +194,7 @@ Définition JPDR = Définition d’appel médiocre moins RatioConcealedSamplesAv
 
 Le CQD n’utilise pas les champs Appelant/Appelé, mais « Premier » et « Second », car il existe des étapes intermédiaires entre l’appelant et l’appelé.
 
- **Tout d’abord** Sera toujours le point de terminaison du serveur (par exemple, av MCU ou serveur de médiation) si un serveur est impliqué dans le flux.
+ **First** Sera toujours le point de terminaison du serveur (par exemple, av MCU ou serveur de médiation) si un serveur est impliqué dans le flux.
 
  **Second** Sera toujours le point de terminaison client, sauf s’il s’agit d’un flux Server-Server client.
 
@@ -207,7 +207,7 @@ Le CQD n’utilise pas les champs Appelant/Appelé, mais « Premier » et « Sec
 |4 (Skype Entreprise) |4 (Skype Entreprise) |L’appelant dans MediaLine |Appelé dans MMediaLine |
 |||||
 
-Si les deux points de terminaison sont du même type, le CQD fait de l’entrée de l’appelant la première et la deuxième de l’appelé. Pour plus d’informations sur les noms des points de terminaison, [consultez ce blog.](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)
+Si les deux points de terminaison sont du même type, le CQD fait de l’entrée de l’appelant la première et la deuxième de l’appelé. Pour plus d’informations sur les noms des points de terminaison, [consultez ce blog.](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)
 
 ## <a name="accounting-for-vpn"></a>Comptabilité du VPN
 
@@ -222,7 +222,7 @@ Une requête bien formée contient les trois paramètres suivants :
 
 - Mesure
 - Dimension
-- Filtrer
+- Filtre
 
 Un exemple de requête bien formée serait « Show me Poor Streams [Measurement] by Subnet [Dimension] for Building 6 [Filter]. »
 
@@ -234,7 +234,7 @@ Exemple : pour obtenir tous les flux à partir d’un bâtiment, UNION fournit u
 
 ## <a name="default-report-breakdown"></a>Répartition des rapports par défaut
 
-Si wireless est géré en interne, vous pouvez recréer les rapports sans fil dans le compartiment géré.
+Si la technologie sans fil est gérée en interne, vous pouvez recréer les rapports sans fil dans le compartiment géré.
 
 ![Répartition du rapport CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 

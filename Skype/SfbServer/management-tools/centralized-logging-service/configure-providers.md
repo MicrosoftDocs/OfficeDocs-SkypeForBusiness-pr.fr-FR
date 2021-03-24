@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Résumé : Découvrez comment configurer des fournisseurs de scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: c96a87ea76930dbd99341667852a9731e56b88b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cd0364d6497aa53d258b5346090d6cdd7c338cc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835164"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098850"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configuration des fournisseurs pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  
@@ -48,7 +48,7 @@ Au lieu de vous demander d’en détailler les détails des fournisseurs, le ser
   
 Introduits dans le service de journalisation centralisée dans Skype Entreprise [2015,](centralized-logging-service.md)les éléments clés de la définition d’un fournisseur à utiliser dans un scénario sont les suivants :
   
-- **Fournisseurs** Si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez d’indiquer à OCSLogger à partir de quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques au rôle serveur que le service de journalisation centralisée peut collecter des journaux. Dans le cas du service de journalisation centralisée, le CLSAgent est la partie architecturale du service de journalisation centralisée qui fait le suivi des composants que vous définissez dans la configuration des fournisseurs.
+- **Fournisseurs** Si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez d’indiquer à OCSLogger à partir de quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques au rôle de serveur à partir desse que le service de journalisation centralisée peut collecter des journaux. Dans le cas du service de journalisation centralisée, le CLSAgent est la partie architecturale du service de journalisation centralisée qui fait le suivi des composants que vous définissez dans la configuration des fournisseurs.
     
 - **Niveaux de journalisation** OCSLogger a fourni la possibilité de choisir un certain nombre de niveaux de détails pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisée et des scénarios et est définie par le **paramètre Type.** Vous pouvez choisir l'une des options suivantes :
     
@@ -66,7 +66,7 @@ Introduits dans le service de journalisation centralisée dans Skype Entreprise 
     
   - **Déboguer** ceci est essentiellement l’équivalent de « All » : collecte des traces de type Fatal, Error, Warning, Info, Verbose et Debug pour le fournisseur défini.
     
-- **Indicateurs** OCSLogger fournissait la possibilité de choisir des indicateurs pour chaque fournisseur qui définissait le type d’informations que vous pouviez récupérer à partir des fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
+- **Indicateurs** OCSLogger fournissait la possibilité de choisir des indicateurs pour chaque fournisseur qui définissaient le type d’informations que vous pouviez récupérer à partir des fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
     
   - **TF_Connection** Fournit des entrées de journal liées à la connexion. Ces journaux incluent des informations sur les connexions établies depuis et vers un composant particulier. Ils peuvent également comprendre des informations importantes au niveau du réseau (c’est-à-dire, pour les composants sans le concept d’une connexion).
     
@@ -143,7 +143,7 @@ Où $LyssProvider est la variable qui contient le scénario défini créé avec 
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-À l’issue de l’exécution de la commande, des indicateurs et un niveau mis à jour pour le fournisseur sont affectés au scénario site:Redmond/RedmondLyssInfo. Vous pouvez examiner le nouveau scénario en utilisant Get-CsClsScenario. Pour plus d’informations, voir [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
+À l’issue de l’exécution de la commande, des indicateurs et un niveau mis à jour pour le fournisseur sont affectés au scénario site:Redmond/RedmondLyssInfo. Vous pouvez examiner le nouveau scénario en utilisant Get-CsClsScenario. Pour plus d’informations, voir [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
 > **New-ClsCsProvider** ne vérifie pas si les indicateurs sont valides. Assurez-vous que les indicateurs (par exemple, TF_DIAG ou TF_CONNECTION) sont correctement épelés. Si ce n’est pas le cas, le fournisseur ne peut pas retourner les informations du journal attendues.
   
@@ -186,12 +186,12 @@ Où chaque fournisseur défini avec la directive Add a déjà été défini à l
 Lorsque vous supprimez un scénario à l’aide de l’applet de commande **Remove-CsClsScenario**, vous supprimez complètement le scénario de l’étendue. Pour utiliser les scénarios que vous avez créés et les fournisseurs qui faisaient partie du scénario, vous devez créer de nouveaux fournisseurs et les affecter à un nouveau scénario.
 ## <a name="see-also"></a>Voir aussi
 
-[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
+[Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
-[New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
+[New-CsClsScenario](/powershell/module/skype/new-csclsscenario?view=skype-ps)
   
-[Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
+[Remove-CsClsScenario](/powershell/module/skype/remove-csclsscenario?view=skype-ps)
   
-[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
+[Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
-[New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
+[New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps)

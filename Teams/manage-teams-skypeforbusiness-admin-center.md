@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: ee63c3d49a8c4b4bf047f0df3910bec39a4d5541
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 875db7be64e23b32f5f758f9f5a701199c068528
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790416"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100900"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
@@ -46,43 +46,43 @@ Le tableau suivant identifie les sections de l’expérience Teams qui ont été
 
 |Section de Teams dans le Centre d’administration Microsoft 365  |Nom du paramètre (niveau client)  |Politique du Centre d’administration Microsoft Teams   |Niveau : Client ou Utilisateur   |
 |---------|---------|---------|---------|
-|Général     |Afficher l’organigramme dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
-|Général     |Utiliser Skype Entreprise pour les destinataires qui n’ont pas Teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des messages électroniques aux canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de courrier électronique     |Autoriser la liste des expéditeurs         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
-|Stockage cloud personnalisé     |Box         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Général     |Afficher l’organigramme dans le profil personnel        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
+|Général     |Utiliser Skype Entreprise pour les destinataires qui n’ont pas Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des e-mails à des canaux         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Intégration de courrier électronique     |Autoriser la liste des expéditeurs         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
+|Stockage cloud personnalisé     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Stockage cloud personnalisé     |Dropbox        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Stockage cloud personnalisé     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Stockage cloud personnalisé     |Google Drive        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Stockage cloud personnalisé     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Paramètres par type d’utilisateur/licence     |Activer ou désactiver Microsoft Teams pour tous les utilisateurs          |Deprecated<sup>1</sup>        |         |
 |Équipes et canaux     |         |Redirige vers Azure Active Directory Group Management (même que l’expérience actuelle).              |Utilisateur         |
 |Équipes et canaux     |         |Redirige vers la gestion de groupe AAD (identique à l’expérience actuelle).             |Utilisateur          |
 |Applications|Activer les applications externes nouvelles par défaut|Paramètres de l’application à l’échelle de l’organisation|Client|
 |Applications|Autoriser les applications externes|Paramètres de l’application à l’échelle de l’organisation|Client|
-|Applications|Autoriser le chargement d’applications externes<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Utilisateur|
+|Applications|Autoriser le chargement d’applications externes<sup>2</sup>|[TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Utilisateur|
 |Applications|Applications par défaut<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
 |Applications|Applications externes<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
-|Appels et réunions     |Autoriser la planification de réunions privées         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Appels et réunions     |Autoriser la rencontre de canal ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Appels et réunions     |Autoriser la planification de réunions de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Appels et réunions     |Autoriser les vidéos pendant les réunions         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Appels et réunions     |Autoriser le partage d’écran dans les réunions         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Appels et réunions     |Autoriser les appels privés         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Utilisateur          |
-|Messagerie     |Activer Giphy pour permettre aux utilisateurs d’ajouter des GIF aux conversations         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Évaluation du contenu         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Activer les mèmes que les utilisateurs peuvent modifier et ajouter aux conversations         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Activer les autocollants que les utilisateurs peuvent modifier et ajouter aux conversations         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Autoriser les propriétaires à supprimer tous les messages         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Autoriser les utilisateurs à modifier leurs propres messages         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Autoriser les utilisateurs à supprimer leurs propres messages         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie     |Permet aux utilisateurs de discuter en privé         |[TeamsMesspolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Appels et réunions     |Autoriser la planification de réunions privées         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser la rencontre de canal ad hoc         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser la planification de réunions de canal         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser les vidéos pendant les réunions         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser le partage d’écran dans les réunions         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser les appels privés         |[TeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Utilisateur          |
+|Messagerie     |Activer Giphy pour permettre aux utilisateurs d’ajouter des GIF aux conversations         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Évaluation du contenu         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Activer les mèmes que les utilisateurs peuvent modifier et ajouter aux conversations         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Activer les autocollants que les utilisateurs peuvent modifier et ajouter aux conversations         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Autoriser les propriétaires à supprimer tous les messages         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Autoriser les utilisateurs à modifier leurs propres messages         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Autoriser les utilisateurs à supprimer leurs propres messages         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie     |Permet aux utilisateurs de discuter en privé         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 
-<sup>1</sup> Deprecated for Guest. L’activation ou la désactivation de l’invité peut désormais être gérée dans le Centre d’administration Microsoft Teams. L’activation ou la désactivation de Teams pour les entreprises , les étudiants pour l’éducation et les enseignants seront bientôt désactivés. Pour ce faire, vous devez affecter des licences dans le Centre d’administration Microsoft 365. Voir [Gérer l’accès des utilisateurs à Microsoft Teams.](user-access.md)
+<sup>1</sup> Deprecated for Guest. L’activation ou la désactivation de l’invité peut désormais être gérée dans le Centre d’administration Microsoft Teams. L’activation ou la désactivation de Teams pour les entreprises, les étudiants pour l’éducation et les enseignants seront bientôt supprimés. Pour ce faire, vous devez affecter des licences dans le Centre d’administration Microsoft 365. Voir [Gérer l’accès des utilisateurs à Microsoft Teams.](user-access.md)
 <br><br>
 <sup>2 Le</sup> chargement débordage est fractioné comme suit :
 
-- Autoriser un utilisateur à télécharger une version d’application qui peut être gérée au niveau de l’utilisateur [dans TeamsAppSetupPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)
+- Autoriser un utilisateur à télécharger une version d’application qui peut être gérée au niveau de l’utilisateur [dans TeamsAppSetupPolicy.](/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)
 - Autorisez les utilisateurs d’un client à interagir avec des applications personnalisées qui peuvent être gérées au niveau du client dans les paramètres d’application à l’échelle de l’organisation.
 
 <sup>3 Les</sup> applications et applications externes par défaut peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. En outre, les applications peuvent être bloquées au niveau du client dans les paramètres d’application à l’échelle de l’organisation qui remplacent tous les paramètres utilisateur et client.
@@ -109,7 +109,7 @@ Le tableau suivant indique où vous pouvez gérer les fonctionnalités pendant l
 |Forfaits d'appels     |    X    |    X     |         |
 |Système téléphonique    |    X    |     X    |         |
 |Gestion des numéros de téléphone     |    X    |   X      |         |
-|Licences pour les fonctionnalités vocales dans le cloud     |         |         |    X     |
+|Licences pour les fonctionnalités vocales cloud     |         |         |    X     |
 |Les standards automatiques     |    X    |          |         |
 |Files d'attente des appels     |    X    |          |         |
 

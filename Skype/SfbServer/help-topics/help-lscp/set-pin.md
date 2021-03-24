@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Pour générer le code confidentiel de l’utilisateur, sélectionnez Générer automatiquement un code confidentiel valide.
-ms.openlocfilehash: c162b5c6968a7e425ca85bd045d88479bc70f0e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: eb50a863eec40e5997b3e53f843fbcb50a8a7636
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819094"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099460"
 ---
 # <a name="set-pin"></a>Définir le code confidentiel
 
@@ -32,4 +32,4 @@ Pour plus d’informations sur les différentes procédures que vous pouvez effe
 
 ## <a name="see-also"></a>Voir aussi
 
-[Pins utilisateur](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
+[Pins utilisateur](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

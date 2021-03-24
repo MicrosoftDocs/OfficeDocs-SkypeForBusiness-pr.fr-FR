@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460494"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101100"
 ---
 # <a name="manage-teams-with-policies"></a>Gérer Teams avec des stratégies
 
@@ -32,7 +32,7 @@ Les stratégies sont utilisées pour effectuer de nombreuses tâches au sein de 
 
 ## <a name="how-to-assign-policies"></a>Comment affecter des stratégies
 
-Les stratégies peuvent être affectées de différentes manières en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher des devoirs dans le Centre d’administration Teams.
+Les stratégies peuvent être affectées de différentes manières en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher les devoirs dans le Centre d’administration Teams.
 
 ![Capture d’écran de l’affectation d’une stratégie de groupe.](media/group-policy-assignment.png)
 
@@ -40,7 +40,7 @@ Pour en savoir plus sur l’attribution de [stratégies, cliquez ici.](assign-po
 
 ## <a name="how-to-manage-policies"></a>Comment gérer les stratégies
 
-Les stratégies sont gérées avec le Centre d’administration Microsoft Teams ou [à l’aide de PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell)
+Les stratégies sont gérées avec le Centre d’administration Microsoft Teams ou [à l’aide de PowerShell.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
 Par exemple, une stratégie de configuration d’application peut vous permettre de permettre aux utilisateurs de télécharger des applications personnalisées, d’installer des applications pour le compte de vos utilisateurs et d’épingler des applications à la barre de l’application Teams. Ces stratégies sont configurées dans le Centre d’administration Teams.
 
@@ -68,7 +68,7 @@ Type de stratégie | Description
 [Stratégies d’application](app-policies.md)| Les stratégies d’application servent à contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’application Teams d’un utilisateur et installer une application pour le compte de vos utilisateurs.
 [Stratégies de messagerie](messaging-policies-in-teams.md)| Les stratégies de messagerie contrôlent la disponibilité des fonctionnalités de conversation et de canal.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 * [Gérer les stratégies de commentaires dans Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gérer les stratégies teams dans Microsoft Teams](teams-policies.md)

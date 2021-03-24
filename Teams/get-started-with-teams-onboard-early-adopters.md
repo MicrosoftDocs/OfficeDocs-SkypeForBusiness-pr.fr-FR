@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8062b0f1ada28289b2a6c62dc6a29c3b6cf1f751
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809494"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101190"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
 
@@ -55,7 +55,7 @@ Accédez à : [Teams pour Windows](#teams-for-windows) | [Teams pour Mac](#team
 
 ### <a name="desktop-client"></a>Client de bureau 
 
-Le client de bureau Teams assure aux utilisateurs de Windows et Mac la meilleure expérience générale possible. Pour plus d’informations, voir [Obtenez des clients pour Teams (client de bureau)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) et [Configurations matérielles requises pour l’application Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
+Le client de bureau Teams assure aux utilisateurs de Windows et Mac la meilleure expérience générale possible. Pour plus d’informations, voir [Obtenez des clients pour Teams (client de bureau)](./get-clients.md#desktop-client) et [Configurations matérielles requises pour l’application Microsoft Teams](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > En tant qu’administrateur, vous pouvez choisir la méthode de distribution des fichiers d’installation sur les ordinateurs dans votre organisation, tels que Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS).
@@ -84,7 +84,7 @@ Teams fournit un client web riche en fonctionnalités[https://teams.microsoft.co
 
 ### <a name="mobile-client"></a>Clients mobiles
 
-Les clients mobiles Teams pour iOS et Android maintiennent les utilisateurs connectés et productifs pendant leurs déplacements. Pour plus d’informations, voir [Obtenir des clients pour Teams (clients mobiles)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
+Les clients mobiles Teams pour iOS et Android maintiennent les utilisateurs connectés et productifs pendant leurs déplacements. Pour plus d’informations, voir [Obtenir des clients pour Teams (clients mobiles)](./get-clients.md#mobile-clients).
 
 #### <a name="teams-for-ios"></a>Teams pour iOS 
 

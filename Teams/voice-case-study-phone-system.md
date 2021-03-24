@@ -16,12 +16,12 @@ f1.keywords:
 description: Étude de cas Voix Teams pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7431515d40550a3f731c34f97ed8c10586424901
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786026"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101030"
 ---
 # <a name="contoso-case-study-phone-system"></a>Étude de cas Contoso : Phone System
 
@@ -36,13 +36,13 @@ En fonction de l’emplacement géographique et d’autres facteurs, les bureaux
 
 Pour implémenter une solution Microsoft Phone System pour l’ensemble de l’organisation, Contoso devait déterminer pour chaque type de site les options suivantes qui seraient utilisées avec le système téléphonique public commuté pour se connecter au réseau téléphonique commuté &mdash; &mdash; (PSTN) :
 
-- Système téléphonique avec forfait d’appels 
+- Phone System avec forfait d’appels 
 
-- Système téléphonique avec son propre opérateur PSTN via un routage direct 
+- Système téléphonique avec son propre opérateur PSTN via le routage direct 
 
 - Combinaison du système téléphonique avec le plan d’appels et le système téléphonique avec un opérateur PSTN qui lui est propre via un routage direct
  
-Pour déterminer la solution appropriée pour leur organisation, Contoso a utilisé les solutions téléphoniques Microsoft et les [appels](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions) de session Ignite 2019 dans [Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
+Pour déterminer la solution appropriée pour leur organisation, Contoso a utilisé les solutions téléphoniques Microsoft et les [appels](/SkypeForBusiness/hybrid/msft-telephony-solutions) de session Ignite 2019 dans [Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Type de site A : skype entreprise Voix Entreprise 
 
@@ -50,7 +50,7 @@ La Voix Entreprise Skype Entreprise contoso a été définie comme hub et s’es
 
 Pour déterminer si le SBC déjà déployé est certifié pour le routage direct et la dérivation média, Contoso a coché la liste des contrôleurs de session certifiés pour le [routage direct.](direct-routing-border-controllers.md)  
 
-Les habitudes de numérotation de l’utilisateur étaient de composer un utilisateur sur l’ancien système téléphonique à l’aide d’une extension, même si l’utilisateur dispose d’un client Skype Entreprise disponible pour l’audio P2T. 
+Les habitudes de numérotation de l’utilisateur étaient de composer un utilisateur sur l’ancien système téléphonique à l’aide d’une extension, même si le client Skype Entreprise est disponible pour l’audio P2T. 
 
 Contoso a basé sa décision sur les questions suivantes :
 
@@ -109,7 +109,7 @@ Les diagrammes suivants montrent le déploiement d’origine du système hérit�
 
 ![Diagramme montrant des états avant et après](media/voice-case-study-3.png)
  
-## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Type de site C : combinaison de systèmes téléphoniques Skype Voix Entreprise et de systèmes de téléphonie hérités traditionnels
+## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Type de site C : combinaison de systèmes téléphoniques Skype Voix Entreprise et des systèmes de téléphonie hérités traditionnels
 
 Contoso Skype Entreprise Voix Entreprise les numéros des utilisateurs résident sur la ligne SIP de la ligne SBC de l’opérateur. Les numéros des systèmes téléphoniques traditionnels résidant sur la ligne TDM de la passerelle PSTN.   
 
@@ -156,7 +156,7 @@ Pour déterminer les configurations requises pour les plans d’appels, Contoso 
 
 ## <a name="direct-routing"></a>Routage direct
 
-Contoso a participé à Ignite pour rester à jour sur les fonctionnalités d’Office 365, y compris celles disponibles avec le système téléphonique et le routage direct. Les dirigeants techniques et les architectes se sont servis des conseils fournis lors de l’édition d’Ignite 2019 pour déterminer leur direction.  Sessions clés utilisées : 
+Contoso a participé à Ignite pour rester à jour sur les fonctionnalités d’Office 365, y compris celles disponibles avec le système téléphonique et le routage direct. Les dirigeants techniques et les architectes ont utilisé les conseils fournis lors de l’édition d’Ignite 2019 pour déterminer leur direction.  Sessions clés utilisées : 
 
 - [Planifier le succès avec le routage direct de Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
@@ -171,11 +171,11 @@ Pour obtenir des licences et attribuer des numéros de téléphone aux utilisate
 
 En raison du nombre d’utilisateurs devant se voir attribuer des numéros de téléphone, Contoso a décidé d’utiliser PowerShell pour affecter les numéros de téléphone. Pour découvrir comment attribuer des numéros à l’aide de PowerShell en plus d’autres paramètres, Contoso a utilisé la vue d’ensemble &mdash; &mdash; de Teams [PowerShell.](teams-powershell-overview.md)  
 
-### <a name="direct-routing-sites"></a>Sites de routage direct
+### <a name="direct-routing-sites"></a>Routage direct des sites
 
 Pour connecter l’infrastructure téléphonique locale de Contoso à Microsoft Teams, l’administrateur de Contoso a suivi les étapes de la procédure Configurer le [routage](direct-routing-configure.md) direct et examiné la vidéo [Routage](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) direct dans Microsoft Teams pour obtenir des instructions.  Contoso fait également référence à la documentation relative au déploiement du routage direct par le fournisseur SBC certifié. 
 
-Une fois le routage direct configuré entre le système SBC et Microsoft Phone System, Contoso devait tester la configuration. Pour ce faire, les administrateurs Contoso ont utilisé le client de test SIP évoqué lors de la session Mises à jour pour le routage direct sur [Ignite 2019.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) Le script et la documentation du client test SIP ont été téléchargés à partir du script PowerShell pour tester les connexions du contrôleur de bordure de session de routage direct.   
+Une fois le routage direct configuré entre le système SBC et Microsoft Phone System, Contoso doit tester la configuration. Pour ce faire, les administrateurs Contoso ont utilisé le client de test SIP évoqué lors de la session Mises à jour pour le routage direct sur [Ignite 2019.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) Le script et la documentation du client siP Tester ont été téléchargés à partir du script PowerShell pour tester les connexions du contrôleur de bordure de session de routage direct.   
 
 
 ### <a name="local-media-optimization"></a>Optimisation des médias locaux
@@ -196,13 +196,7 @@ Contoso a vu l’opportunité de tirer parti de l’optimisation des médias loc
 
 ## <a name="networking-considerations"></a>Considérations en relation avec la mise en réseau
 
-Contoso avait un nombre d’utilisateurs qui devaient travailler à distance pendant une période prolongée après avoir été activés pour Phone System. Les utilisateurs utilisaient le vpn pour accéder à certaines applications Métier. Sur un réseau VPN, les utilisateurs du système téléphonique ont connu une dégradation de la qualité des appels. 
+Contoso avait un nombre d’utilisateurs qui devaient travailler à distance pendant une période prolongée après avoir été activés pour Phone System. Les utilisateurs ont utilisé un réseau VPN pour accéder à certaines applications Métier. Sur un réseau VPN, les utilisateurs du système téléphonique ont connu une dégradation de la qualité des appels. 
 
-Pour résoudre le problème de qualité, Contoso a implémenté la tunnelliser fractionnée VPN, qui permettait à son trafic Office 365 de traverser Internet alors que la connexion aux applications internes restait sur le VPN. Pour implémenter la tunnelliser fractionnement VPN, Contoso a suivi les recommandations de la tunnelliser fractionnement [VPN pour Office 365.](https://docs.microsoft.com/office365/enterprise/office-365-vpn-implement-split-tunnel)  
-
- 
-
-
-
-
+Pour résoudre le problème de qualité, Contoso a implémenté la tunnelliser fractionnée VPN, qui permettait à son trafic Office 365 de traverser Internet alors que la connexion aux applications internes restait sur le VPN. Pour implémenter la tunnelliser fractionnement VPN, Contoso a suivi les recommandations de la tunnelliser fractionnement [VPN pour Office 365.](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
 

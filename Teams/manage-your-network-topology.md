@@ -19,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer les paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams.
-ms.openlocfilehash: 7d8bc7f06934134538fca59a3f19285d97756e2f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c77f1e6d31953ce529bff1fab6aa16e1d889e29f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101060"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gérer votre topologie de réseau pour les fonctionnalités vocales cloud dans Microsoft Teams
 
@@ -49,7 +49,7 @@ Vous définissez les régions réseau, les sites réseau et les sous-réseaux so
 4. Pour activer Location-Based routage pour le site, activez le **routage basé sur l’emplacement.**
 5. Pour affecter des stratégies de services d’urgence au site, vous pouvez :
 
-    - Si votre organisation utilise des plans d’appels ou un routage direct de système téléphonique déployé, dans le cadre de la stratégie Appels d’urgence, sélectionnez la stratégie de votre choix.
+    - Si votre organisation utilise des plans d’appels ou un routage direct du système téléphonique déployé, dans le cadre de la stratégie Appels d’urgence, sélectionnez la stratégie de votre choix.
     - Si votre organisation a déployé le routage direct du système téléphonique, sous la stratégie de **routage** des appels d’urgence, sélectionnez la stratégie de votre choix.
 
 6. Pour associer un sous-réseau au site, sous **Sous-réseaux,** cliquez **sur Ajouter des sous-réseaux.** Spécifiez la version IP, l’adresse IP, la plage réseau, ajoutez une description, puis cliquez sur **Appliquer.** Chaque sous-réseau doit être associé à un site spécifique.
@@ -63,13 +63,13 @@ Vous définissez les régions réseau, les sites réseau et les sous-réseaux so
 
 ### <a name="manage-external-trusted-ip-addresses"></a>Gérer les adresses IP de confiance externes
 
-Vous gérez les adresses IP de confiance externes sous l’onglet **Adresses IP** de confiance sur la page **topologie** de réseau du Centre d’administration Microsoft Teams. Vous pouvez ajouter un nombre illimité d’adresses IP de confiance externes.
+Vous gérez les adresses IP fiables externes sous l’onglet **Adresses IP** de confiance sur la page **topologie** de réseau du Centre d’administration Microsoft Teams. Vous pouvez ajouter un nombre illimité d’adresses IP de confiance externes.
 
 #### <a name="add-a-trusted-ip-address"></a>Ajouter une adresse IP fiable
 
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez à la topologie du réseau Emplacements, puis cliquez sur l’onglet   >   **Adresses IPS** de confiance.
 2. Cliquez sur **Nouveau**.
-3. Dans le **volet Ajouter des adresses IP** fiables, spécifiez la version IP, l’adresse IP et la plage réseau, ajoutez une description, puis cliquez sur **Appliquer.**
+3. Dans le **volet Ajouter des adresses IP fiables,** spécifiez la version IP, l’adresse IP et la plage réseau, ajoutez une description, puis cliquez sur **Appliquer.**
 
     ![Capture d’écran du volet Ajouter des adresses IP fiables](media/manage-network-topology-add-trusted-ip.png)
 
@@ -85,28 +85,29 @@ Pour suivre les étapes de cette section, vous devez être familiarisé avec les
 
 ### <a name="define-network-regions"></a>Définir les régions réseau
 
- Utilisez [l’cmdlet New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) pour définir les régions réseau. Notez que le paramètre RegionID est un nom logique qui représente la géographie de la région et ne présente aucune dépendance ou restriction et que le paramètre ID de site central est &lt; &gt; facultatif.
+ Utilisez [l’cmdlet New-CsTenantNetworkRegion](/powershell/module/skype/New-CsTenantNetworkRegion) pour définir les régions réseau. Notez que le paramètre RegionID est un nom logique qui représente la géographie de la région et ne présente aucune dépendance ou restriction et que le paramètre ID de site central est &lt; &gt; facultatif.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 Dans cet exemple, nous créons une région réseau nommée Inde.
+
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-Voir également [Set-CsTenantNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion)
+Voir également [Set-CsTenantNetworkRegion.](/powershell/module/skype/set-cstenantnetworkregion)
 
 ### <a name="define-network-sites"></a>Définir des sites réseau
 
-Utilisez [l’cmdlet New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) pour définir les sites réseau. Chaque site réseau doit être associé à une région réseau.
+Utilisez [l’cmdlet New-CsTenantNetworkSite](/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) pour définir des sites réseau. Chaque site réseau doit être associé à une région réseau.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-Dans cet exemple, nous créons deux sites réseau, Tous les deux dans la région Inde.
+Dans cet exemple, nous créons deux sites réseau, Tous deux dans la région Inde, Ils sont tous deux aux états-Unis.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
@@ -117,20 +118,20 @@ Le tableau suivant indique les sites réseau définis dans cet exemple.
 
 ||Site 1 |Site 2 |
 |---------|---------|---------|
-|Site ID    |    Site 1 (Syz)     |  Site 2 (Sod)       |
+|Site ID    |    Site 1 (Syz)     |  Site 2 (Syz)       |
 |ID de région  |     Région 1 (Inde)    |   Région 1 (Inde)      |
 
-Voir également [Set-CsTenantNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite)
+Voir également [Set-CsTenantNetworkRegion.](/powershell/module/skype/set-cstenantnetworksite)
 
 ### <a name="define-network-subnets"></a>Définir des sous-réseaux réseau
 
-Utilisez la [cmdlet New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) pour définir des sous-réseaux et les associer à des sites réseau. Chaque sous-réseau ne peut être associé qu’à un seul site.
+Utilisez la [cmdlet New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) pour définir des sous-réseaux et les associer à des sites réseau. Chaque sous-réseau ne peut être associé qu’à un seul site.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site du réseau Premièrement, et entre le sous-réseau 2001:4898:e8:25:844e:926f:85ad:dd8e et le site réseau Centrer network.
+Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site du réseau Premièrement, ainsi qu’entre le sous-réseau 2001:4898:e8:25:844e:926f:85ad:dd8e et le site réseau Centrer network.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
@@ -143,7 +144,7 @@ Le tableau suivant indique les sous-réseaux définis dans cet exemple.
 |---------|---------|---------|
 |ID de sous-réseau   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
 |Masque  |     24    |   120      |
-|Site ID  | Site (Syz) | Site 2 (Syz) |
+|Site ID  | Site (So) | Site 2 (Syz) |
 
 Pour plusieurs sous-réseaux, vous pouvez importer un fichier CSV à l’aide d’un script tel que le suivant.
 
@@ -151,7 +152,7 @@ Pour plusieurs sous-réseaux, vous pouvez importer un fichier CSV à l’aide d�
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-Dans cet exemple, le fichier CSV ressemble à ceci : 
+Dans cet exemple, le fichier CSV ressemble à ceci :
 
 ```console
 Identity, Mask, SiteID
@@ -161,11 +162,13 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-Voir également [Set-CsTenantNetworkSubnet.](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet)
+
+Voir également [Set-CsTenantNetworkSubnet.](/powershell/module/skype/set-cstenantnetworksubnet)
+
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Définir des sous-réseaux externes (adresses IP de confiance externes)
 
-Utilisez la [cmdlet New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) pour définir des sous-réseaux externes et les affecter au client. Vous pouvez définir un nombre illimité de sous-réseaux externes pour un client.
+Utilisez la [cmdlet New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) pour définir des sous-réseaux externes et les affecter au client. Vous pouvez définir un nombre illimité de sous-réseaux externes pour un client.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -177,8 +180,8 @@ Par exemple :
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
-Voir également [Set-CsTenantTrustedIPAddress.](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress)
+Voir également [Set-CsTenantTrustedIPAddress.](/powershell/module/skype/set-cstenanttrustedipaddress)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

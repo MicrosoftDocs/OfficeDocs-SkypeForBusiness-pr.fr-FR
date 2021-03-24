@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cette rubrique décrit comment installer et ouvrir les outils d’administration dont vous avez besoin pour déployer et gérer Skype Entreprise.
-ms.openlocfilehash: d31fe784b62a5d709049dc5061e323034065df37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 72966026e414b3b36cfc49ab61bf41f045e1f864
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835094"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098780"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installer et ouvrir les outils d’administration
 
 Cette rubrique décrit comment installer les outils d’administration dont vous avez besoin pour déployer et gérer Skype Entreprise Server. Les outils d’administration sont installés par défaut sur chaque serveur exécutant Skype Entreprise Server. Vous pouvez également les installer sur d’autres ordinateurs, notamment des consoles d’administration dédiées. Nous vous recommandons vivement d’installer les outils d’administration sur un ordinateur qui se trouve dans le même domaine ou la même forêt que le déploiement Skype Entreprise Server que vous créez, pour vous assurer que les étapes de préparation des services de domaine Active Directory sont déjà terminées, ce qui vous permet d’utiliser les outils d’administration sur cet ordinateur ultérieurement pour publier votre topologie. Veillez également à passer en revue les conditions requises avant d’installer ou d’utiliser les outils d’administration de Skype Entreprise Server. Consultez la documentation de la demande [dans Skype Entreprise Server 2019](../../SfBServer2019/plan/system-requirements.md) ou Skype Entreprise Server [2015.](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)
  
 > [!Important]
-> Si votre organisation exige que vous localisiez les services Internet (IIS) et tous les services Web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Skype Entreprise Server dans la boîte de dialogue Installation. Si vous installez les fichiers d’installation sur ce chemin d’accès, y compris OCSCore.msi, les autres fichiers Skype Entreprise Server seront également déployés sur ce lecteur. 
+> Si votre organisation exige que vous localisiez les services Internet (IIS) et tous les services Web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Skype Entreprise Server dans la boîte de dialogue Installation. Si vous installez les fichiers d’installation sur ce chemin d’accès, y compris OCSCore.msi, le reste des fichiers Skype Entreprise Server sera également déployé sur ce lecteur. 
 
 ## <a name="to-install-the-administrative-tools"></a>Pour installer les outils d’administration
 
 1. Connectez-vous en tant qu’administrateur local (minimum requis) à l’ordinateur sur lequel vous souhaitez installer les outils d’administration. Si vous êtes connecté en tant qu’utilisateur standard dans Windows et que le contrôle de compte d’utilisateur (UAC) est activé, vous êtes invité à utiliser l’administrateur local ou un nom d’utilisateur et un mot de passe équivalents au domaine.
 2. Accédez au support d’installation sur votre ordinateur, puis double-cliquez sur \Setup\amd64\Setup.exe.
-3. Si vous êtes invité à installer le distribuable Microsoft Visual C++, cliquez sur **Oui**.
+3. Si vous êtes invité à installer le distribuable Microsoft Visual C++, cliquez sur **Oui.**
 4. Dans la page Emplacement de l’installation, cliquez sur **OK.** Remplacez ce chemin par le chemin d’accès à un autre emplacement ou lecteur si vous souhaitez que les fichiers soient installés à un autre endroit.
 
     > [!Important]
@@ -73,14 +73,14 @@ Utilisez la procédure suivante pour ouvrir le Générateur de topologie afin de
 Utilisez l’une des procédures suivantes pour ouvrir le Panneau de configuration de Skype Entreprise Server afin de gérer la configuration des serveurs, des utilisateurs, des clients et des appareils dans votre environnement.
 
 > [!NOTE]
-> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans le Panneau de contrôle Skype Entreprise Server. Vous pouvez utiliser d’autres rôles pour vous connecter au Panneau de contrôle Skype Entreprise Server afin d’effectuer des tâches d’administration spécifiques, en fonction de la tâche que vous devez effectuer. Par exemple, vous pouvez utiliser CSArchivingAdministrator pour administrer l’archivage dans le Panneau de contrôle Skype Entreprise Server. Pour plus d’informations sur les rôles, voir [Planning for role-based access control](https://technet.microsoft.com/library/gg425917(v=ocs.15).aspx). Pour plus d’informations sur les rôles que vous pouvez utiliser pour effectuer une tâche spécifique, voir la documentation de la tâche. 
+> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans le Panneau de contrôle Skype Entreprise Server. Vous pouvez utiliser d’autres rôles pour vous connecter au Panneau de contrôle Skype Entreprise Server afin d’effectuer des tâches d’administration spécifiques, en fonction de la tâche que vous devez effectuer. Par exemple, vous pouvez utiliser CSArchivingAdministrator pour administrer l’archivage dans le Panneau de contrôle Skype Entreprise Server. Pour plus d’informations sur les rôles, voir [Planning for role-based access control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control). Pour plus d’informations sur les rôles que vous pouvez utiliser pour effectuer une tâche spécifique, voir la documentation de la tâche. 
 
 **Pour ouvrir le Panneau de contrôle Skype Entreprise Server à partir de n’importe quel ordinateur à l’intérieur du pare-feu de votre organisation**
 
-1. À partir d’un compte d’utilisateur affecté au rôle CsAdministrator ou à un autre rôle qui dispose des droits et autorisations d’utilisateur appropriés pour la tâche à effectuer, connectez-vous à n’importe quel ordinateur de votre déploiement interne avec une résolution d’écran minimale de 1 024 x 768.
+1. À partir d’un compte d’utilisateur affecté au rôle CsAdministrator ou à un autre rôle ayant les droits et autorisations d’utilisateur appropriés pour la tâche à effectuer, connectez-vous à n’importe quel ordinateur de votre déploiement interne avec une résolution d’écran minimale de 1 024 x 768.
 
     > [!IMPORTANT]
-    > Si vous avez configuré une URL (Uniform Resource Locator) d’administration simple, vous pouvez accéder au Panneau de configuration Skype Entreprise Server à partir d’un navigateur Internet qui s’exécute sur n’importe quel ordinateur du pare-feu de votre organisation. Pour plus d’informations sur la configuration de l’URL simple d’administration, voir [Planning for simple URLs](https://technet.microsoft.com/library/gg398287(v=ocs.15).aspx) and [Edit or configure simple URLs](https://technet.microsoft.com/library/gg398063(v=ocs.15).aspx). 
+    > Si vous avez configuré une URL (Uniform Resource Locator) d’administration simple, vous pouvez accéder au Panneau de configuration Skype Entreprise Server à partir d’un navigateur Internet qui s’exécute sur n’importe quel ordinateur du pare-feu de votre organisation. Pour plus d’informations sur la configuration de l’URL simple d’administration, voir [Planning for simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls) and [Edit or configure simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-edit-or-configure-simple-urls). 
 
 2. Ouvrez une fenêtre du navigateur, puis entrez l’URL d’administration configurée pour votre organisation.
 
@@ -91,10 +91,10 @@ Utilisez l’une des procédures suivantes pour ouvrir le Panneau de configurati
 
 ## <a name="skype-for-business-server-management-shell"></a>Skype Entreprise Server Management Shell 
 
-Utilisez la procédure suivante pour ouvrir Skype Entreprise Server Management Shell afin d’administrer les serveurs, les utilisateurs, les clients et les appareils de votre environnement à l’aide de la ligne de commande.
+Utilisez la procédure suivante pour ouvrir Skype Entreprise Server Management Shell pour administrer les serveurs, les utilisateurs, les clients et les appareils de votre environnement à l’aide de la ligne de commande.
 
 > [!NOTE]
-> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans Skype Entreprise Server Management Shell. Vous pouvez aussi vous servir d’autres rôles pour réaliser des tâches d’administration précises en fonction de l’opération que vous devez mener. Par exemple, le rôle CSArchivingAdministrator peut vous servir à exécuter des applets de commande inhérentes à l’administration de l’archivage. Pour plus d’informations sur les rôles, voir [Planning for role-based access control](https://technet.microsoft.com/library/gg425917(v=ocs.15).aspx). Pour plus d’informations sur les rôles qu’il est possible d’utiliser pour l’exécution d’une applet de commande spécifique, voir la documentation consacrée à celle-ci.<br/><br/>Vous pouvez également exécuter certaines applets de commande à l’aide d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, RTCUniversalUserAdmins ou RTCUniversalReadOnlyAdmins, selon l’applet de commande. 
+> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans Skype Entreprise Server Management Shell. Vous pouvez aussi vous servir d’autres rôles pour réaliser des tâches d’administration précises en fonction de l’opération que vous devez mener. Par exemple, le rôle CSArchivingAdministrator peut vous servir à exécuter des applets de commande inhérentes à l’administration de l’archivage. Pour plus d’informations sur les rôles, voir [Planning for role-based access control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control). Pour plus d’informations sur les rôles qu’il est possible d’utiliser pour l’exécution d’une applet de commande spécifique, voir la documentation consacrée à celle-ci.<br/><br/>Vous pouvez également exécuter certaines applets de commande à l’aide d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, RTCUniversalUserAdmins ou RTCUniversalReadOnlyAdmins, selon l’applet de commande. 
 
 **Pour ouvrir Skype Entreprise Server Management Shell**
 

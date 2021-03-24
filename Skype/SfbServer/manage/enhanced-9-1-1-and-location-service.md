@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) à partir des clients Skype Entreprise. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis à partir de Skype Entreprise incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement.
-ms.openlocfilehash: c5b626763de78495a2feaa5ecb1ba77e367bd77d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4b786d3285b5075a13f43f3b7c7cb75b79182a9f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817474"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099060"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gérer enhanced 9-1-1 et le service d’emplacement dans Skype Entreprise Server
 
@@ -77,7 +77,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
         
           - **Non requis**   L’utilisateur ne sera pas invité à se faire un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
         
-          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire,** sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer les informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser Skype Entreprise Server Management Shell pour exécuter l’cmdlet **Set-CsLocationPolicy** ou l’cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
+          - **Clause d’exclusion de responsabilité**   Cette option est identique à **Obligatoire,** sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer d’informations d’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte de la clause d’exclusion de responsabilité, vous devez utiliser Skype Entreprise Server Management Shell pour exécuter l’cmdlet **Set-CsLocationPolicy** ou l’cmdlet **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, [voir Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **Utiliser l’emplacement pour les services d’urgence uniquement** Skype Entreprise peut utiliser les informations d’emplacement pour diverses raisons (par exemple, pour informer vos collègues de votre emplacement actuel). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
@@ -93,7 +93,7 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
         > Assurez-vous que la valeur du masque d’appel n’est pas identique à un numéro figurant dans une plage de numéros d’appels parqués. Le routage du parcage d’appels aura priorité sur la conversion des chaînes d’appel d’urgence. Pour afficher les plages de numéros d’appels parqués, cliquez sur **Fonctionnalités vocales** dans la barre de navigation de gauche, puis cliquez sur **Parcage d’appel**. 
 
     
-      - **URI de notification**   Un ou plusieurs URI (Uniform Resource Identifier) SIP à être avertis lors d’un appel d’urgence. Par exemple, le service de sécurité de la société peut être informé via un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, celui-ci sera inclus dans la notification. Plusieurs URI SIP peuvent être insérés dans une liste dans laquelle ils sont séparés par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». Les listes de distribution sont prises en charge. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Avant que vous ne cliquiez dans le champ URI de notification un exemple est affiché.
+      - **URI de notification**   Un ou plusieurs URI (Uniform Resource Identifier) SIP à être avertis lorsqu’un appel d’urgence est effectué. Par exemple, le service de sécurité de la société peut être informé via un message instantané chaque fois qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, celui-ci sera inclus dans la notification. Plusieurs URI SIP peuvent être insérés dans une liste dans laquelle ils sont séparés par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». Les listes de distribution sont prises en charge. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Avant que vous ne cliquiez dans le champ URI de notification un exemple est affiché.
     
       - **URI de conférence**   L’URI SIP, dans ce cas, le numéro de téléphone d’un tiers qui sera téléconférence à tous les appels d’urgence effectués. Par exemple, le service de sécurité de l’entreprise peut recevoir un appel l’invitant à écouter ou à participer à un appel d’urgence (en fonction de la valeur fournie dans le champ **Mode conférence**). La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe sip:. Un exemple est affiché avant que vous ne cliquiez dans ce champ.
     
@@ -154,10 +154,10 @@ Dans Skype Entreprise Server, vous pouvez remplacer la durée par défaut entre 
 
 [Créer ou modifier des sites réseau](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)  
 
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
+[Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 
  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[Remove-CsLocationPolicy](/powershell/module/skype/Remove-CsLocationPolicy)  
 
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[Get-CsLocationPolicy](/powershell/module/skype/Get-CsLocationPolicy)

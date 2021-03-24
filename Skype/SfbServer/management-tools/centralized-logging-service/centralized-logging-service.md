@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Résumé : Découvrez les composants de service et les paramètres de configuration du service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: f4cb47204aa4970e0a86d5f1d556099b52afd07c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7cc49d258011334d7c72bca3f55d5f83ae5d06af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835264"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098870"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée dans Skype Entreprise 2015
  
@@ -29,7 +29,7 @@ Le service de journalisation centralisée peut :
   
 - Démarrez ou arrêtez la journalisation sur un ou plusieurs ordinateurs et pools à l’aide d’une seule commande à partir d’un emplacement central.
     
-- Rechercher des journaux sur un ou plusieurs ordinateurs et pools. Vous pouvez personnaliser la recherche pour renvoyer tous les journaux sur tous les ordinateurs ou renvoyer des résultats plus concis.
+- Rechercher des journaux sur un ou plusieurs ordinateurs et pools. Vous pouvez adapter la recherche pour renvoyer tous les journaux sur tous les ordinateurs ou renvoyer des résultats plus concis.
     
 - Configurer les sessions de journalisation comme suit :
     
@@ -46,7 +46,7 @@ Le service de journalisation centralisée peut :
     
 Le service de journalisation centralisée est un outil puissant de dépannage pour les problèmes de grande ou petite taille, de l’analyse des causes premières aux problèmes de performances. Tous les exemples sont présentés à l’aide de Skype Entreprise Server Management Shell. L’aide est fournie pour l’outil en ligne de commande par le biais de l’outil lui-même, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. À l’aide de Skype Entreprise Server Management Shell, vous avez accès à un ensemble de fonctionnalités beaucoup plus large et beaucoup plus configurable, ce qui devrait toujours être votre premier choix. 
   
-## <a name="logging-service-components"></a>Journalisation des composants du service
+## <a name="logging-service-components"></a>Composants du service de journalisation
 
  Le service de journalisation centralisée s’exécute sur tous les serveurs de votre déploiement et est composé des agents et services suivants :
   
@@ -60,10 +60,10 @@ Le service de journalisation centralisée est un outil puissant de dépannage po
   
 Vous devez émettre des commandes à l’aide de l’interface de ligne de commande de Windows Server ou de l’environnement de ligne de commande Skype Entreprise Server Management Shell. Les commandes sont exécutées sur l’ordinateur sur qui vous êtes connecté et envoyées au ClsAgent localement ou aux autres ordinateurs et pools de votre déploiement.
   
-ClsAgent conserve un fichier d’index de tous. Fichiers CACHE qu’il possède sur l’ordinateur local. ClsAgent les alloue afin qu’ils soient uniformément répartis sur les volumes définis par l’option CacheFileLocalFolders, ne consommant jamais plus de 80 % de chaque volume (c’est-à-dire, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l';cmdlet **Set-CsClsConfiguration).** ClsAgent est également responsable de l’ancien fichier journal de suivi des événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (autrement dit, la période est configurable à l’aide de l’cmdlet **Set-CsClsConfiguration),** ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, [voir Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lorsqu’une demande de recherche est reçue, les critères de recherche sont utilisés pour sélectionner l’ensemble des fichiers .etl mis en cache pour effectuer la recherche en fonction des valeurs de l’index maintenu par l’agent.
+ClsAgent conserve un fichier d’index de tous. Fichiers CACHE qu’il possède sur l’ordinateur local. ClsAgent les alloue afin qu’ils soient uniformément répartis sur les volumes définis par l’option CacheFileLocalFolders, ne consommant jamais plus de 80 % de chaque volume (c’est-à-dire, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l'; cmdlet **Set-CsClsConfiguration).** ClsAgent est également responsable de l’ancien fichier journal de suivi des événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (autrement dit, la période est configurable à l’aide de l’cmdlet **Set-CsClsConfiguration),** ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, [voir Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lorsqu’une demande de recherche est reçue, les critères de recherche sont utilisés pour sélectionner l’ensemble des fichiers .etl mis en cache pour effectuer la recherche en fonction des valeurs de l’index maintenu par l’agent.
   
 > [!NOTE]
-> Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être recherchés par ClsAgent. Une fois que ClsAgent déplace les fichiers vers le partage de fichiers, l’âge et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche administrative pour surveiller la taille des fichiers dans le partage de fichiers et les supprimer ou les archiver. 
+> Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être recherchés par ClsAgent. Une fois clsAgent déplace les fichiers vers le partage de fichiers, l’âge et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche administrative pour surveiller la taille des fichiers dans le partage de fichiers et les supprimer ou les archiver. 
   
 Les fichiers journaux qui en résultent peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage de Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
   
@@ -71,21 +71,21 @@ Comme OCSLogger, le service de journalisation centralisée dispose de plusieurs 
   
 L’avantage le plus important de l’utilisation de Skype Entreprise Server Management Shell par rapport à la ligne de commande ClsController est que vous pouvez configurer et définir de nouveaux scénarios à l’aide de fournisseurs sélectionnés qui ciblent l’espace de problème, les indicateurs personnalisés et les niveaux de journalisation. Les scénarios disponibles pour ClsController sont limités à ceux définis pour l’exécutable.
   
-Dans les versions précédentes, OCSLogger.exe était fourni pour permettre aux administrateurs et au personnel de support technique de collecter des fichiers de suivi à partir d’ordinateurs dans le déploiement. OCSLogger, pour tous ses points forts, a connu une courte période. Vous ne pouviez collecter des journaux que sur un seul ordinateur à la fois. Vous pouvez vous connecter à plusieurs ordinateurs à l’aide de copies distinctes d’OCSLogger, mais vous avez fini par avoir plusieurs journaux et aucun moyen simple d’agréger les résultats.
+Dans les versions précédentes, OCSLogger.exe était fourni pour permettre aux administrateurs et au personnel de support technique de collecter des fichiers de suivi à partir d’ordinateurs dans le déploiement. OCSLogger, pour tous ses points forts, a connu une lacune. Vous ne pouviez collecter les journaux que sur un seul ordinateur à la fois. Vous pouvez vous connecter à plusieurs ordinateurs à l’aide de copies distinctes d’OCSLogger, mais vous avez fini par avoir plusieurs journaux et aucun moyen simple d’agréger les résultats.
   
 Lorsqu’un utilisateur demande une recherche dans le journal, clsController détermine les ordinateurs vers lesquels envoyer la demande (en fonction des scénarios sélectionnés). Il détermine également si la recherche doit être envoyée au partage de fichiers où se trouvent les fichiers .etl enregistrés. Lorsque les résultats de la recherche sont renvoyés au ClsController, le contrôleur fusionne les résultats dans un jeu de résultats unique et ordonné présenté à l’utilisateur. Les utilisateurs peuvent enregistrer les résultats de la recherche sur leur ordinateur local pour une analyse plus approfondie.
   
 Lorsque vous démarrez une session de journalisation, vous spécifiez des scénarios relatifs au problème que vous essayez de résoudre. Vous pouvez avoir deux scénarios en cours d’exécution à tout moment. L’un de ces deux scénarios doit être le scénario AlwaysOn. Comme son nom l’indique, il doit toujours être en cours d’exécution dans votre déploiement, en collectant des informations sur tous les ordinateurs, pools et composants.
   
 > [!IMPORTANT]
-> Par défaut, le scénario AlwaysOn n’est pas en cours d’exécution dans votre déploiement. Vous devez explicitement démarrer le scénario. Une fois démarré, il continue à s’exécuter jusqu’à ce qu’il soit explicitement arrêté, et l’état d’exécution est persistant par le redémarrage des ordinateurs. Pour plus d’informations sur les scénarios de démarrage et d’arrêt, voir Démarrer ou arrêter la capture du journal CLS dans [Skype Entreprise Server 2015.](start-or-stop-log-capture.md) 
+> Par défaut, le scénario AlwaysOn n’est pas en cours d’exécution dans votre déploiement. Vous devez explicitement démarrer le scénario. Une fois démarré, il continue à s’exécuter jusqu’à ce qu’il soit explicitement arrêté, et l’état d’exécution est persistant par le redémarrage des ordinateurs. Pour plus d’informations sur les scénarios de démarrage et d’arrêt, voir Démarrer ou arrêter la capture du journal [CLS dans Skype Entreprise Server 2015.](start-or-stop-log-capture.md) 
   
 Lorsqu’un problème se produit, démarrez un deuxième scénario lié au problème signalé. Reproduisez le problème et arrêtez la journalisation pour le deuxième scénario. Commencez vos recherches de journal par rapport au problème signalé. La collection agrégée de journaux produit un fichier journal qui contient les messages de suivi de tous les ordinateurs de votre site ou de l’étendue globale de votre déploiement. Si la recherche renvoie plus de données que vous ne pouvez l’analyser (généralement appelé rapport signal/bruit, où le bruit est trop élevé), vous exécutez une autre recherche avec des paramètres plus étroits. À ce stade, vous pouvez commencer à remarquer les modèles qui s’afficheront et vous aideront à mieux vous concentrer sur le problème. En fin de compte, après avoir effectué quelques recherches affinées, vous pouvez trouver des données pertinentes pour le problème et déterminer la cause première.
   
 > [!TIP]
 > Lorsqu’un scénario de problème est présenté dans Skype Entreprise Server, commencez par vous poser la question « Que sais-je déjà sur le problème ? » Si vous quantifiez les limites du problème, vous pouvez éliminer une grande partie des entités opérationnelles dans Skype Entreprise Server. 
   
-Prenons un exemple de scénario dans lequel vous savez que les utilisateurs n’ont pas de résultats actuels lors de la recherche d’un contact. Il n’est pas important de chercher des problèmes dans les composants multimédias, les Voix Entreprise, les conférences et un certain nombre d’autres composants. Vous ne savez peut-être pas où se trouve réellement le problème : sur le client, ou s’agit-il d’un problème côté serveur ? Les contacts sont collectés à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client par le serveur de carnet d’adresses (ABServer). AbServer obtient ses mises à jour à partir de la base de données RTC (où le réplicateur d’utilisateurs les a écrites) et les collecte dans des fichiers de carnet d’adresses, par défaut - 1 h 30. Les clients Skype Entreprise Server récupèrent le nouveau carnet d’adresses selon une planification aléatoire. Étant donné que vous savez comment fonctionne le processus, vous pouvez réduire votre recherche de la cause potentielle d’un problème lié aux données collectées à partir d’Active Directory par le réplicateur d’utilisateurs, le abServer ne récupérant pas et créant les fichiers de carnet d’adresses ou les clients qui ne téléchargent pas le fichier de carnet d’adresses.
+Prenons un exemple de scénario dans lequel vous savez que les utilisateurs n’ont pas de résultats actuels lors de la recherche d’un contact. Il ne sert à rien de chercher des problèmes dans les composants multimédias, les Voix Entreprise, les conférences et un certain nombre d’autres composants. Vous ne savez peut-être pas où se trouve réellement le problème : sur le client, ou s’agit-il d’un problème côté serveur ? Les contacts sont collectés à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client à l’aide du serveur de carnet d’adresses (ABServer). AbServer obtient ses mises à jour à partir de la base de données RTC (où le réplicateur d’utilisateurs les a écrites) et les collecte dans des fichiers de carnet d’adresses, par défaut - 1 h 30. Les clients Skype Entreprise Server récupèrent le nouveau carnet d’adresses selon une planification aléatoire. Étant donné que vous savez comment fonctionne le processus, vous pouvez réduire votre recherche de la cause potentielle d’un problème lié aux données collectées à partir d’Active Directory par le réplicateur d’utilisateurs, le abServer ne récupérant pas et créant les fichiers de carnet d’adresses ou les clients qui ne téléchargent pas le fichier de carnet d’adresses.
   
 ## <a name="current-configuration"></a>Configuration actuelle
 
@@ -125,5 +125,3 @@ Le service de journalisation centralisée est configuré pour définir ce que le
 |**ComponentThrottleLimit** <br/> |Définit le nombre maximal de traces par seconde pouvant être créées par un composant avant le déclenchement du limiteur automatique.  <br/> |
 |**ComponentThrottleSample** <br/> |Nombre de fois que la limite ComponentThrottleLimit peut être dépassée en l’espace de 60 secondes.  <br/> |
 |**MinimumClsAgentServiceVersion** <br/> |Version minimale de CLSAgent autorisée à s’exécuter. Cet élément est destiné à Microsoft 365 ou Office 365.  <br/> |
-   
-

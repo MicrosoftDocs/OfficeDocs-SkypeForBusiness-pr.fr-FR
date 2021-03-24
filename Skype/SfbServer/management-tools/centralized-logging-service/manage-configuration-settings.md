@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Résumé : Découvrez comment récupérer, mettre à jour et créer des paramètres de configuration pour le service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: dd292465d65116dc1f497a733ca8e010e57b9137
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fb2d66e6ff72bc5fb5a4c8c987713f3ca7030ab5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835154"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098860"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gérer les paramètres de configuration du service de journalisation centralisée dans Skype Entreprise Server 2015
 
@@ -30,15 +30,15 @@ Le service de journalisation centralisée est contrôlé et configuré par des p
 > [!IMPORTANT]
 >  Les cmdlets Windows PowerShell répertoriées pour le service de journalisation centralisée ne sont pas toutes destinées à être utilisés avec les déploiements locaux de Skype Entreprise Server 2015. Bien qu’elles semblent fonctionner, les cmdlets suivantes ne sont pas conçues pour fonctionner avec les déploiements locaux de Skype Entreprise Server 2015 :
 
--  **Cmdlets CsClsRegion :** [Get-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)et [Remove-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
--  **Cmdlets CsClsSearchTerm** : [Get-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) et [Set-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
--  **Cmdlets CsClsSecurityGroup :** [Get-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)et [Remove-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
+-  **Cmdlets CsClsRegion :** [Get-CsClsRegion](/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps)et [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps).
+-  **Cmdlets CsClsSearchTerm** : [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) et [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps).
+-  **Cmdlets CsClsSecurityGroup :** [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)et [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
 Les paramètres définis dans ces cmdlets n’empêchent pas ou ne provoquent aucun comportement indésirable, mais ils sont conçus pour être utilisés avec Microsoft 365 ou Office 365 et ne donnent pas les résultats attendus dans les déploiements locaux. Cela ne veut pas dire qu’il n’est pas nécessaire d’utiliser ces cmdlets dans les déploiements locaux, mais leur utilisation est un sujet plus avancé qui n’est pas abordé dans cette documentation.
 
 Le service de journalisation centralisée peut être exécuté dans une étendue comprenant un seul ordinateur ou un pool d’ordinateurs, au niveau d’un site (autrement dit, un site défini tel que le site Redmond qui contient une collection d’ordinateurs et de pools dans votre déploiement) ou au niveau global (c’est-à-dire, tous les ordinateurs et pools de votre déploiement).
 
-Pour configurer l’étendue du service de journalisation centralisée à l’aide de Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype Entreprise Server Management Shell ou de l’invite Windows PowerShell :
+Pour configurer l’étendue du service de journalisation centralisée à l’aide de Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype Entreprise Server Management Shell ou de l’invite Windows PowerShell :
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
@@ -53,7 +53,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > [!NOTE]
 > Il existe des différences fondamentales entre les commandes de ligne de commande que vous pouvez exécuter dans Windows PowerShell ou CLSController. Windows PowerShell fournit une méthode enrichie pour configurer et définir des scénarios, et pour réutiliser ces scénarios de manière significative pour vos scénarios de dépannage. CLSController fournit un moyen rapide et efficace d’émettre des commandes et d’obtenir des résultats, l’ensemble de commandes pour CLSController est limité à un nombre fini de commandes disponibles à partir de la ligne de commande. Contrairement aux cmdlets Windows PowerShell, CLSController ne peut pas définir de nouveaux scénarios, gérer l’étendue au niveau global ou d’un site, ni de nombreuses autres limitations d’un jeu de commandes fini qui ne peut pas être configuré dynamiquement. Bien que CLSController offre un moyen d’une exécution rapide, Windows PowerShell permet d’étendre la fonctionnalité du service de journalisation centralisée au-delà de ce qui est possible avec CLSController.
 
-Une étendue d’ordinateur unique peut être définie lors de l’exécution d’une commande [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) et [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) à l’aide du paramètre -Computers. Le paramètre -Computers accepte une liste séparée par des virgules de noms de domaine complets (FQDN) pour l’ordinateur cible.
+Une étendue d’ordinateur unique peut être définie lors de l’exécution d’une commande [Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](/powershell/module/skype/sync-csclslogging?view=skype-ps) et [Update-CsClsLogging](/powershell/module/skype/update-csclslogging?view=skype-ps) à l’aide du paramètre -Computers. Le paramètre -Computers accepte une liste séparée par des virgules de noms de domaine complets (FQDN) pour l’ordinateur cible.
 
 > [!TIP]
 > Vous pouvez également définir -Pools et une liste séparée par des virgules des pools sur qui vous souhaitez exécuter les commandes de journalisation.
@@ -61,7 +61,7 @@ Une étendue d’ordinateur unique peut être définie lors de l’exécution d�
 Les étendues de site et globales sont définies dans les cmdlets **New-**, **Set-** et **Remove-** Centralized Logging Service. Les exemples suivants montrent comment définir une étendue globale ou de site.
 
 > [!IMPORTANT]
-> Les commandes indiquées peuvent contenir des paramètres et des concepts décrits dans d’autres sections. Les exemples de commandes sont destinés à démontrer l’utilisation du paramètre **-Identity** pour définir l’étendue, et les autres paramètres sont inclus pour l’intégralité et pour spécifier l’étendue. Pour plus d’informations sur les applets de commande **Set-CsClsConfiguration**, voir [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) dans la documentation des opérations.
+> Les commandes indiquées peuvent contenir des paramètres et des concepts décrits dans d’autres sections. Les exemples de commandes sont destinés à démontrer l’utilisation du paramètre **-Identity** pour définir l’étendue, et les autres paramètres sont inclus pour l’intégralité et pour spécifier l’étendue. Pour plus d’informations sur les applets de commande **Set-CsClsConfiguration**, voir [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps) dans la documentation des opérations.
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Pour récupérer la configuration actuelle du service de journalisation centralisée
 
@@ -73,7 +73,7 @@ Les étendues de site et globales sont définies dans les cmdlets **New-**, **Se
    Get-CsClsConfiguration
    ```
 
-Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration,** elle affiche des informations similaires à la capture d’écran suivante, où le déploiement a actuellement la configuration globale par défaut, mais aucune configuration de site définie :
+Utilisez les cmdlets **New-CsClsConfiguration** et **Set-CsClsConfiguration** pour créer une configuration ou mettre à jour une configuration existante. Lorsque vous exécutez **Get-CsClsConfiguration,** il affiche des informations similaires à la capture d’écran suivante, où le déploiement possède actuellement la configuration globale par défaut, mais aucune configuration de site définie :
 
 ![Exemple de sortie de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
@@ -153,7 +153,7 @@ Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond 
    ```
 
     > [!NOTE]
-    > New-CsClsConfiguration fournit un accès à de nombreux paramètres de configuration supplémentaires. Pour plus d’informations sur les options de configuration, voir [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) and [Understanding Centralized Logging Service Configuration Settings](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
+    > New-CsClsConfiguration fournit un accès à de nombreux paramètres de configuration supplémentaires. Pour plus d’informations sur les options de configuration, voir [Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) and [Understanding Centralized Logging Service Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings).
 
 Par exemple, pour créer une configuration qui définit un dossier réseau pour les fichiers en cache, la période de substitution pour les fichiers journaux et la taille de la substitution pour les fichiers journaux, tapez :
 
@@ -190,10 +190,10 @@ Si vous choisissez de supprimer une configuration au niveau du site, le site uti
 
 [Service de journalisation centralisée dans Skype Entreprise 2015](centralized-logging-service.md)
 
-[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
-[Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
-[New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
 
-[Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
+[Remove-CsClsConfiguration](/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)

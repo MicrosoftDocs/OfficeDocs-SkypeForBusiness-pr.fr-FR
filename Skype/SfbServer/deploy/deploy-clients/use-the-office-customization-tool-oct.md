@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Résumé : Comment utiliser l’outil de personnalisation Office avec le client Skype Entreprise.'
-ms.openlocfilehash: ba99f0556f3fb1d0e0f6870d1eaa7a3d2108b4d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32cd7951690ce5b1e38c20d83c8f53a9c48cd19c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812564"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100450"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Utiliser l’Outil de personnalisation Office (PERSONNALISATION) dans Skype Entreprise Server
  
@@ -41,6 +41,4 @@ Les administrateurs utilisent l’PERSONNALISATION pour créer un fichier .msp d
     
 - **Outlook** Permet de personnaliser le profil Outlook par défaut d’un utilisateur, de spécifier les paramètres Exchange, d’ajouter des comptes, de supprimer des comptes et d’exporter des paramètres et de spécifier des groupes d’envoi/réception.
     
-Pour plus d’informations sur l’PERSONNALISATION, voir Utiliser l' OCT [pour personnaliser Office 2013.](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)) Notez que ces informations s’appliquent également aux versions ultérieures d’Office.
-  
-
+Pour plus d’informations sur l’PERSONNALISATION, voir Utiliser l' OCT [pour personnaliser Office 2013.](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)) Notez que ces informations s’appliquent également aux versions ultérieures d’Office.
