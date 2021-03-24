@@ -764,18 +764,18 @@
                 - name: Scripts de configuration de salle
                   href: ../deploy/deploy-clients/room-setup-scripts.md
             - name: "Systèmes de salle\_v2"
-              href: ../deploy/deploy-clients/room-systems-v2.md
+              href: /MicrosoftTeams/rooms/rooms-deploy
               items:
                 - name: "Avec Office\_365"
-                  href: ../deploy/deploy-clients/with-office-365.md
+                  href: /MicrosoftTeams/rooms/with-office-365
                 - name: "Avec Skype\_Entreprise\_Server\_2015"
-                  href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
+                  href: /MicrosoftTeams/rooms/with-skype-for-business-server-2015
                 - name: "Avec Exchange\_Online"
-                  href: ../deploy/deploy-clients/with-exchange-online.md
+                  href: /MicrosoftTeams/rooms/with-exchange-online
                 - name: Avec Exchange local
-                  href: ../deploy/deploy-clients/with-exchange-on-premises.md
+                  href: /MicrosoftTeams/rooms/with-exchange-on-premises
                 - name: Console
-                  href: ../deploy/deploy-clients/console.md
+                  href: /MicrosoftTeams/rooms/console
             - name: Déployer le plug-in Lync VDI
               href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
             - name: Déployer des clients web téléchargeables
@@ -1133,7 +1133,7 @@
           href: ../manage/authentication/authentication.md
           items:
             - name: Utiliser ADAL
-              href: ../manage/authentication/use-adal.md
+              href: /microsoft-365/enterprise/hybrid-modern-auth-overview
             - name: Phase des certificats OAuth et audio/vidéo
               href: ../manage/authentication/stage-av-and-oauth-certificates.md
             - name: Affecter un certificat de serveur à serveur
@@ -1187,11 +1187,11 @@
           href: ../manage/video-based-screen-sharing.md
           items:
             - name: Problèmes connus
-              href: ../manage/skype-room-systems-v2/known-issues.md
+              href: /MicrosoftTeams/rooms/known-issues
             - name: Fichier de configuration XML
-              href: ../manage/skype-room-systems-v2/xml-config-file.md
+              href: /MicrosoftTeams/rooms/xml-config-file
             - name: Utiliser l’outil de récupération
-              href: ../manage/skype-room-systems-v2/recovery-tool.md
+              href: /MicrosoftTeams/rooms/recovery-tool
         - name: Comptes d’utilisateurs
           href: ../manage/user-accounts/user-accounts.md
           items:
