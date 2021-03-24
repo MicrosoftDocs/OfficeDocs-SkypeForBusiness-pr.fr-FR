@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Vue d’ensemble de l’interopérabilité du scanneur antivirus avec Skype Entreprise Server.
-ms.openlocfilehash: b59a5c474a96d312ebe3a648536ebe827e684931
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832264"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104240"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions de l’analyse antivirus pour Skype Entreprise Server
 
@@ -30,7 +30,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 > Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Skype Entreprise Server. Pour tout emplacement pour lequel vous n’avez pas utilisé le paramètre par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut mentionnés dans cette rubrique.
 
 > [!IMPORTANT]
-> Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, et non relatifs, pour leur liste d’exclusions.
+> Notez que certains programmes antivirus peuvent avoir besoin de chemins absolus, et non relatifs, pour leur liste d’exclusions.
 
 - Processus Skype Entreprise Server :
 
@@ -140,8 +140,6 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 
   - Magasin de partages de fichiers (spécifié dans le Générateur de topologies). Les magasins de fichiers sont spécifiés dans le Générateur de topologies.
 
-  - Données et fichiers journaux de SQL server, y compris ceux de la base de données principale, magasin utilisateur, magasin d’archivage, magasin de surveillance et magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le Générateur de topologies. Pour plus de détails sur les données et fichiers journaux pour chaque base de données, y compris les noms par défaut, voir [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) dans la documentation de déploiement.
+  - Données et fichiers journaux de SQL server, y compris ceux de la base de données principale, magasin utilisateur, magasin d’archivage, magasin de surveillance et magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le Générateur de topologies. Pour plus de détails sur les données et fichiers journaux pour chaque base de données, y compris les noms par défaut, voir [SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) dans la documentation de déploiement.
 
   - SQL Server données et fichiers journaux, y compris ceux de la base de données frontale, du magasin Skype Entreprise et du magasin RtcDatabase. Ils sont normalement sous %localdrive%\CSData.
-
-

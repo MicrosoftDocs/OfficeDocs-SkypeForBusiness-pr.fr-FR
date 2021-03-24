@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Résumé : Configurez Exchange Server messagerie unifiée pour la messagerie vocale Skype Entreprise Server.'
-ms.openlocfilehash: 68cf4a11deccac9ad71bdb6216c4126362787498
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24bad46103433f6af9caebbe1894b1b3b2aa83d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834034"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109820"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurer Exchange Server messagerie unifiée pour la messagerie vocale Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryO
     
 - DialNumberString ( , caractère générique indiquant que n’importe quel \* numéro composé est autorisé)
     
-- TextComment ( \* , caractère générique indiquant que toute commande de texte est autorisée)
+- TextComment ( \* , caractère générique indiquant que n’importe quelle commande de texte est autorisée)
     
 > [!NOTE]
 > La création d’un nouveau plan de numérotation crée également une stratégie de boîte aux lettres par défaut. 
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 Dans la commande précédente, le paramètre Extensions représente le numéro de poste de l’utilisateur. Dans cet exemple, le numéro de poste de l’utilisateur est le 100.
   
-Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Vous pouvez vérifier que l’utilisateur peut se connecter à la messagerie unisée Exchange en exécutant l’cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) à partir de Skype Entreprise Server Management Shell :
+Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Vous pouvez vérifier que l’utilisateur peut se connecter à la messagerie unisée Exchange en exécutant l’cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) à partir de Skype Entreprise Server Management Shell :
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Si un second utilisateur a été activé pour la messagerie unifiée, vous pouvez utiliser l’applet de commande [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) pour vous assurer qu’il est en mesure de laisser un message vocal au premier utilisateur.
+Si un second utilisateur a été activé pour la messagerie unifiée, vous pouvez utiliser l’applet de commande [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) pour vous assurer qu’il est en mesure de laisser un message vocal au premier utilisateur.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -159,7 +159,7 @@ Lorsque vous intégrez Microsoft Skype Entreprise Server à la messagerie unifi�
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Utiliser l’environnement Shell pour exécuter le script ExchUcUtil.ps1
 
-Exécutez le script ExchUcUtil.ps1 sur un serveur Exchange de votre organisation qui se trouverait dans la même topologie que Skype Entreprise Server. Vous pouvez exécuter le script à partir d'un serveur de boîtes aux lettres en utilisant l'environnement Shell ou vous pouvez l'exécuter à l'aide de Remote Windows PowerShell sur un serveur d'accès au client. Si vous exécutez le script sur un serveur d'accès au client de votre organisation, le serveur d'accès au client redirigera via proxy la session Remote Windows PowerShell vers un serveur de boîtes aux lettres dans l'organisation.
+Exécutez le script ExchUcUtil.ps1 sur n’importe quel serveur Exchange de votre organisation qui se trouverait dans la même topologie que Skype Entreprise Server. Vous pouvez exécuter le script à partir d'un serveur de boîtes aux lettres en utilisant l'environnement Shell ou vous pouvez l'exécuter à l'aide de Remote Windows PowerShell sur un serveur d'accès au client. Si vous exécutez le script sur un serveur d'accès au client de votre organisation, le serveur d'accès au client redirigera via proxy la session Remote Windows PowerShell vers un serveur de boîtes aux lettres dans l'organisation.
 > [!IMPORTANT]
 > Le script ExchUcUtil.ps1 crée une ou plusieurs passerelles IP de messagerie unifiée. Vous devez désactiver les appels sortants sur toutes les passerelles IP de messagerie unifiée à l'exception de celle que le script a créée. Ceci inclut la désactivation des appels sortants sur les passerelles IP de messagerie unifiée qui ont été créées avant l'exécution du script. Pour désactiver les appels sortants sur une passerelle IP de messagerie unifiée, consultez la rubrique Désactiver les appels sortants sur les passerelles IP de messagerie unifiée. 
 > [!IMPORTANT]
@@ -179,7 +179,7 @@ Pour vérifier que le script ExchUcUtul.ps1 a été exécuté correctement, proc
 Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans La planification de l’intégration de la messagerie unifiée Exchange dans Skype Entreprise Server dans la documentation de planification et que vous souhaitez fournir des fonctionnalités de messagerie unifiée Exchange aux utilisateurs Voix Entreprise de votre organisation, vous pouvez utiliser les procédures suivantes pour configurer le certificat sur le serveur exécutant la messagerie unifiée Exchange.
 
 > [!IMPORTANT]
-> Pour les certificats internes, les serveurs exécutant Skype Entreprise Server et les serveurs exécutant Microsoft Exchange doivent avoir des certificats d’autorité racines de confiance mutuellement fiables. L’autorité de certification peut être la même ou une autorité de certification différente, tant que le certificat racine de l’autorité de certification est inscrit dans le magasin de certificats de l’autorité racine de confiance des serveurs. 
+> Pour les certificats internes, les serveurs exécutant Skype Entreprise Server et les serveurs exécutant Microsoft Exchange doivent avoir des certificats d’autorité racines de confiance mutuellement fiables. L’autorité de certification peut être la même ou une autorité de certification différente, tant que les serveurs ont le certificat racine de l’autorité de certification inscrit dans leur magasin de certificats d’autorité racine de confiance. 
 
 Le Exchange Server doit être configuré avec un certificat de serveur pour se connecter à Skype Entreprise Server :
 1. Téléchargez le certificat d’autorité de certification du serveur Exchange Server.
@@ -198,7 +198,7 @@ Le Exchange Server doit être configuré avec un certificat de serveur pour se c
    > Vous pouvez également spécifier le codage DeR (Distinguished Encoding Rules) à cette étape. Si vous sélectionnez cette méthode, le fichier spécifié à l’étape suivante de cette procédure et à l’étape 10 de la procédure **Pour installer le certificat de l’autorité de certification** sera de type .p7b et non .cer. 
 4. Dans la boîte de dialogue **Téléchargement de fichier**, cliquez sur **Enregistrer**, puis enregistrez le fichier sur le disque dur du serveur (le fichier sera doté de l’extension .cer ou .p7b, selon la méthode de codage que vous avez sélectionnée à l’étape précédente).
 
-**Pour installer le certificat de l’ac :**
+**Pour installer le certificat d’ac :**
 
 1. Sur le serveur exécutant la messagerie unée Exchange, ouvrez la console MMC (Microsoft Management Console) en cliquant sur **Démarrer,** sur **Exécuter,** en tapant **mmc** dans la zone Ouvrir, puis en cliquant sur **OK.**
 2. Dans le menu **Fichier**, cliquez sur **Ajouter/Supprimer un composant logiciel enfichable**, puis sur **Ajouter**.
@@ -219,5 +219,3 @@ Le Exchange Server doit être configuré avec un certificat de serveur pour se c
 
 1. Sur le serveur exécutant la messagerie un jour Exchange, dans la MMC, développez Certificats (ordinateur local), développez Autorités de certification racines de confiance, puis cliquez sur Certificats.
 2. Dans le volet de détail, vérifiez que votre autorité de certification figure sur la liste des autorités de certification de confiance.
-
-

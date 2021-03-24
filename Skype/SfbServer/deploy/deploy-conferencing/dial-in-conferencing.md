@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la conférence téléphonique dans Skype Entreprise Server.'
-ms.openlocfilehash: 92c282c87576e3d46353dabd8235521fe0097c11
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5f618e22cc45585baddf1e8d6090b9e211dc5681
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820724"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103850"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer les conférences téléphoniques dans Skype Entreprise Server
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configuration de la conférence téléphonique dans Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment configurer la conférence téléphonique dans Skype Entreprise Server.
   
-Une fois que vous avez créé une topologie qui inclut la charge de travail de conférence et la conférence téléphonique sélectionnée, vous devez effectuer des étapes supplémentaires pour configurer la conférence d’accès. Avant de lire cette rubrique, [assurez-vous](../../plan-your-deployment/conferencing/dial-in-conferencing.md)d’avoir lu la rubrique Planifier les conférences téléphoniques dans Skype Entreprise Server, la configuration matérielle et logicielle requise pour les conférences [dans Skype Entreprise Server,](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)ainsi que l’exemple de flux de déploiement et la liste de vérification pour les conférences téléphoniques. [](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing) 
+Une fois que vous avez créé une topologie qui inclut la charge de travail de conférence et la conférence téléphonique sélectionnée, vous devez effectuer des étapes supplémentaires pour configurer la conférence d’accès. Avant de lire cette rubrique, assurez-vous que vous avez lu l’exemple Plan for [dial-in conferencing in Skype for Business Server,](../../plan-your-deployment/conferencing/dial-in-conferencing.md) [Hardware and software requirements for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), ainsi que l’exemple de flux de déploiement et la liste de contrôle pour les conférences téléphoniques. [](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing) 
   
 Pour configurer la conférence téléphonique, vous devez effectuer les tâches suivantes :
   
@@ -73,7 +73,7 @@ Pour plus d’informations sur la création de règles de normalisation, voir Cr
 
 Lorsque vous établissez un plan de numérotation, vous spécifiez la région de conférence rendez-vous qui s’applique au plan de numérotation. La région de conférence téléphonique associe les numéros d’accès aux conférences téléphoniques au plan de numérotation approprié. Lorsque vous créez le numéro d’accès, vous sélectionnez les régions qui associent le numéro d’accès aux plans de numérotation appropriés. 
   
-Étant donné qu’il est important de spécifier une région pour tous les plans de numérotation, nous vous recommandons de vérifier que tous les plans de numérotation ont des régions de conférence. 
+Comme il est important de spécifier une région pour tous les plans de numérotation, nous vous recommandons de vérifier que tous les plans de numérotation ont des régions de conférence. 
   
 Pour vérifier si la région est définie pour tous les plans  de numérotation de conférences téléphoniques, utilisez l'; Si ce n’est pas le cas, vous pouvez utiliser l’applet de commande **Set-CsDialPlan** pour configurer la région. Vous pouvez également utiliser le Panneau de contrôle Skype Entreprise Server pour mettre à jour la région dans les plans de numérotation existants. Pour plus d’informations sur l’utilisation du Panneau de contrôle Skype Entreprise Server, voir Créer ou modifier un plan de [numérotation dans Skype Entreprise Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
@@ -99,7 +99,7 @@ Pour vérifier si la région est définie pour tous les plans  de numérotation 
     
 4. Vérifiez les plans de numérotation retournés pour identifier ceux ne comportant pas la région de conférence rendez-vous. 
     
-Pour plus d’informations, [voir Get-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps)
+Pour plus d’informations, [voir Get-CsDialPlan.](/powershell/module/skype/get-csdialplan?view=skype-ps)
   
 ### <a name="to-set-the-region-property-for-a-dial-plan"></a>Pour définir la propriété de région d’un plan de numérotation
 
@@ -121,7 +121,7 @@ Pour plus d’informations, [voir Get-CsDialPlan.](https://docs.microsoft.com/po
 
    Dans cet exemple, le plan de numérotation dont l’identité est Redmond est modifié afin de définir la propriété DialinConferencingRegion sur « US West Coast ». 
     
-Pour plus d’informations, [voir Set-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps)
+Pour plus d’informations, [voir Set-CsDialPlan.](/powershell/module/skype/set-csdialplan?view=skype-ps)
   
 ## <a name="configure-dial-in-access-numbers"></a>Configurer les numéros d’accès entrant
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
@@ -134,7 +134,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
 > Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication AD DS de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures. 
   
 > [!NOTE]
-> Une fois que vous avez créé les numéros d’accès aux conférences rendez-vous, vous pouvez modifier le nom complet des objets contact Active Directory pour permettre aux utilisateurs d’identifier plus facilement le numéro d’accès approprié. Pour modifier le nom complet, utilisez l’cmdlet [Set-CsDialInConferencingAccessNumber.](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) Vous ne devez pas modifier manuellement les objets Active Directory.
+> Une fois que vous avez créé les numéros d’accès aux conférences rendez-vous, vous pouvez modifier le nom complet des objets contact Active Directory pour permettre aux utilisateurs d’identifier plus facilement le numéro d’accès approprié. Pour modifier le nom complet, utilisez l’cmdlet [Set-CsDialInConferencingAccessNumber.](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) Vous ne devez pas modifier manuellement les objets Active Directory.
   
 ### <a name="to-create-a-dial-in-access-number"></a>Pour créer un numéro d’accès à la connexion
 
@@ -144,7 +144,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Numéro d’accès entrant**.
     
-4. Dans la page **Numéro d’accès,** faites l’une des choses suivantes :
+4. Dans la page **Numéro d’accès à la** connexion, faites l’une des choses suivantes :
     
    - Cliquez **sur Nouveau** pour ouvrir le nouveau numéro **d’accès à la connexion.**
     
@@ -167,26 +167,26 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
    - Dans la zone de texte, tapez un URI SIP unique pour ce numéro d’accès de conférence. Cet URI SIP s’affiche à différents emplacements, y compris, mais sans s’y limiter, les messages de notification d’appel et les versions précédentes des clients Lync.
     
      > [!NOTE]
-     > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès de conférence. L’URI SIP ne peut pas être modifié après la création du numéro d’accès. La seule façon de modifier l’URI SIP consiste à supprimer et à recréer le numéro d’accès. 
+     > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès de conférence. L’URI SIP ne peut pas être modifié après la création du numéro d’accès. La seule façon de modifier l’URI SIP consiste à supprimer et recréer le numéro d’accès. 
   
    - Dans la zone de liste liste, cliquez sur le domaine de l’application De l’Attendant de conférence qui prend en charge ce numéro d’accès.
     
 9. Dans **Pool,** cliquez sur le pool qui exécute l’instance de l’Attendant de conférence qui prend en charge ce numéro d’accès à la conférence.
     
     > [!NOTE]
-    > Si vous devez modifier le pool après avoir créé le numéro d’accès, vous devez utiliser l’cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) ou supprimer et recréer le numéro d’accès.
+    > Si vous devez modifier le pool après avoir créé le numéro d’accès, vous devez utiliser l’cmdlet [Move-CsApplicationEndpoint](/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) ou supprimer et recréer le numéro d’accès.
   
 10. Dans **la langue principale,** cliquez sur la langue dans laquelle les invites sont lées pour ce numéro d’accès à la connexion. 
     
     La langue principale est celle que l’Attendant de conférence utilise pour répondre à l’appel. Les langues prise en charge sont affichées avec chaque numéro de téléphone d’accès sur la page web Paramètres de conférence conférence.
     
-11. (Facultatif) Dans **les langues** secondaires (quatre au maximum), cliquez sur Ajouter, sélectionnez une ou plusieurs langues supplémentaires que vous souhaitez prendre en charge pour les appelants de ce numéro d’accès à la conférence, puis cliquez sur  **OK.** 
+11. (Facultatif) Dans **les langues** secondaires (maximum de quatre) , cliquez sur Ajouter, sélectionnez une ou plusieurs langues supplémentaires que vous souhaitez prendre en charge pour les appelants à ce numéro d’accès, puis cliquez sur  **OK.** 
     
     Vous pouvez choisir jusqu’à quatre langues secondaires pour chaque numéro d’accès à la connexion. Les utilisateurs peuvent sélectionner une langue secondaire avant d’entrer l’ID de conférence lorsqu’ils participent à une conférence.
     
 12. Pour ajouter une région pour le numéro d’accès à la connexion, sous Régions associées, cliquez sur **Ajouter,** cliquez sur une ou plusieurs régions associées aux plans de numérotation pour ce numéro d’accès, puis cliquez sur **OK.**
     
-13. Pour supprimer une région du numéro d’accès à la connexion, sous Régions **associées,** cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
+13. Pour supprimer une région du numéro d’accès à la connexion, sous **Régions** associées, cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
     
 14. Cliquez sur **Valider**.
     
@@ -202,7 +202,7 @@ Pour plus d’informations sur la configuration des stratégies de conférence, 
 
 Les utilisateurs d’appels entrants doivent entrer un numéro de téléphone ou de poste, ainsi qu’un code confidentiel pour participer à des conférences en qualité d’utilisateurs authentifiés. **L’URI de ligne téléphonique** spécifié sur les comptes d’utilisateur Skype Entreprise Server est requis pour l’authentification.
   
-La procédure décrite dans cette rubrique explique comment affecter un **URI de ligne** pour un seul compte d’utilisateur. Si vous devez affecter un **URI de ligne** à plusieurs comptes d’utilisateur, vous pouvez créer un script qui utilise l’applet de commande **Set-CsUser**. Pour plus d’informations sur l’utilisation d’un exemple de script pour attribuer un URI de ligne à plusieurs comptes d’utilisateur, voir Affecter des **URI** de ligne [à plusieurs utilisateurs.](https://go.microsoft.com/fwlink/p/?linkId=196945)
+La procédure décrite dans cette rubrique explique comment affecter un **URI de ligne** pour un seul compte d’utilisateur. Si vous devez affecter un **URI de ligne** à plusieurs comptes d’utilisateur, vous pouvez créer un script qui utilise l’applet de commande **Set-CsUser**. Pour plus d’informations sur l’utilisation d’un exemple de script pour attribuer un URI de ligne à plusieurs comptes d’utilisateurs, voir Affecter des **URI** de ligne [à plusieurs utilisateurs.](https://go.microsoft.com/fwlink/p/?linkId=196945)
   
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle **Cs-UserAdministrator** ou **CsAdministrator**.
     
@@ -217,8 +217,6 @@ La procédure décrite dans cette rubrique explique comment affecter un **URI de
 6. Sous **Téléphonie**, dans le champ **URI de ligne**, tapez un numéro de téléphone normalisé unique (par exemple, tel:+14255550200).
     
     > [!NOTE]
-    > Vous pouvez spécifier **l’URI** de ligne uniquement si la téléphonie est définie sur PC à **PC** uniquement, **Voix Entreprise** **,** Contrôle d’appel distant ou Contrôle d’appel **distant uniquement.**  
+    > Vous pouvez spécifier **l’URI** de ligne uniquement si la téléphonie est définie sur PC à **PC** uniquement , **Voix Entreprise** **,** Contrôle d’appel distant ou Contrôle d’appel **distant uniquement**.  
   
 7. Cliquez sur **Valider**.
-    
-

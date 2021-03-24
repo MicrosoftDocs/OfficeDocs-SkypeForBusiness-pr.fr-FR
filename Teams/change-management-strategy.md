@@ -15,12 +15,12 @@ description: Créez une stratégie de gestion des changements pour Microsoft Tea
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: ff37db12707ff1cf7db4fe350ab1a6673db3f76a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739092"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102440"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================
@@ -35,7 +35,7 @@ Meilleures pratiques de gestion des modifications pour Teams :
 
 3.  réaliser un projet pilote incluant les utilisateurs professionnels, les champions et les professionnels des technologies de l’information.  
 
-4.  Concevoir, lancer et gérer votre campagne d'adoption : Téléchargez notre [Kit de réussite des clients](https://aka.ms/TeamsSuccessKit) comme point de départ. Une bonne campagne d’adoption inclut les éléments suivants :
+4.  Concevoir, lancer et gérer votre campagne d'adoption : Téléchargez notre [Kit de réussite des clients](./planning-workshop-practical-guide.md) comme point de départ. Une bonne campagne d’adoption inclut les éléments suivants :
 
     a.  Des documents de sensibilisation internes tels que des affiches, une signalétique numérique et des événements
 
@@ -62,7 +62,7 @@ La première règle d'une adoption réussie consiste à créer une équipe dynam
 |---------|---------|
 |![Icône Responsables exécutifs.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Les **responsables exécutifs** sont les principaux dirigeants de l'organisation et leur participation est essentielle à l'adoption des employés. Ils exercent l'influence la plus marquée sur la culture de l'entreprise et peuvent activement communiquer les valeurs et avantages d'une nouvelle technologie et méthode.         |
 |![Icône Propriétaires de service.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Les propriétaires de** services sont chargés de s’assurer que les personnes utilisent le service et en viennent à la valeur. Il est important de définir les propriétaires de services au sein de votre organisation pour vous assurer que les objectifs d’entreprise fixés pour Microsoft 365 ou Office 365 sont pris en compte.         |
-|![Icône Champions.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtenir de l’accord de tous les utilisateurs d’une organisation est un défi. **Les Champions** peuvent réduire ce problème et jouer un rôle important dans l’adoption de Microsoft 365 ou d’Office 365. Ils sont bien informés, engagés à améliorer leur expertise et souhaitent fournir une assistance et un poste de travail. Ils permettent de traduire Microsoft 365 ou Office 365 dans la réalité de leur service ou équipe.         |
+|![Icône Champions.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtenir de l’accord de tous les utilisateurs d’une organisation est un défi. **Les Champions** peuvent réduire ce problème et jouer un rôle important dans l’adoption de Microsoft 365 ou d’Office 365. Ils sont bien informés, engagés à améliorer leur expertise et sont prêts à fournir une assistance et un homologue. Ils permettent de traduire Microsoft 365 ou Office 365 dans la réalité de leur service ou équipe.         |
 
 Nous vous recommandons d’une réunion régulière de ces parties prenantes pour les tenir au courant de l’avancement de votre programme. La mise en place d’un « conseil de collaboration » pour permettre des commentaires et des discussions peut être un outil utile en fonction de votre culture d’entreprise.
 
@@ -154,8 +154,6 @@ En savoir plus sur les rapports d’utilisation de Microsoft Teams dans le Centr
 
 ## <a name="ongoing-adoption"></a>Adoption permanente
 
-Encourager le changement dans une organisation est une activité permanente, pas un événement. Votre réunion de lancement n’est que le début d’un processus permettant aux personnes de collaborer de manière plus efficace. Il est important de planifier des moments de ce parcours qui mettent en évidence vos réussites, présentent de nouvelles fonctionnalités et communiquent avec votre stratégie de service Globale pour Microsoft 365 ou Office 365, que votre service informatique élaborera. Vous assurer que vos utilisateurs sont impliqués au lieu d’être surchargés réduira leur lassitude face au changement et les aidera à abandonner leurs anciennes habitudes - comme les pièces jointes aux e-mails - pour adopter une nouvelle approche, comme stocker les documents dans le cloud.
+Encourager le changement dans une organisation est une activité permanente, pas un événement. Votre réunion de lancement n’est que le début d’un processus permettant aux personnes de collaborer de manière plus efficace. Il est important de planifier des moments de ce parcours qui mettent en évidence vos réussites, présentent de nouvelles fonctionnalités et communiquent avec votre stratégie de service Globale pour Microsoft 365 ou Office 365, que votre service informatique va élaborer. Vous assurer que vos utilisateurs sont impliqués au lieu d’être surchargés réduira leur lassitude face au changement et les aidera à abandonner leurs anciennes habitudes - comme les pièces jointes aux e-mails - pour adopter une nouvelle approche, comme stocker les documents dans le cloud.
 
-Partagez vos questions sur l’adoption des services Teams et Microsoft [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 365 ou Office 365 dans la communauté Adoption en tête de projet sur le site de la Communauté technique Microsoft. Nous sommes toujours ravis de communiquer avec vous et de vous aider dans votre processus d’adoption.  
-
-
+Partagez vos questions sur l’adoption des services Teams et Microsoft [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) 365 ou Office 365 dans la communauté Adoption de la conduite sur le site de la Communauté technique Microsoft. Nous sommes toujours ravis de communiquer avec vous et de vous aider dans votre processus d’adoption.

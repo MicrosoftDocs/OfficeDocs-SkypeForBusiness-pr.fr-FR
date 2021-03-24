@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation des outils de télémétrie Skype Entreprise Online pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f47f0969d102408299678842b18bb503eaf6aea0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221314"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110550"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Vue d'ensemble
 
 Cette rubrique décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du connecteur de données d’appel Skype Entreprise Server. Pour plus d’informations sur la configuration du connecteur de données d’appel, voir [Configure Call Data Connector](configure-call-data-connector.md).
 
@@ -56,7 +56,7 @@ Bien entendu, vous souhaitez peut-être conserver certaines données de qualité
 
 ## <a name="requirements"></a>Configuration requise
 
-Les conditions suivantes supposent que Skype Entreprise Server est déjà déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype Entreprise Server et les topologies pris en charge, voir [La topologie de base.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics) Pour configurer le connecteur de données d’appel, vous devez :
+Les conditions suivantes supposent que Skype Entreprise Server est déjà déployé dans une topologie prise en charge.  Pour plus d’informations sur le déploiement de Skype Entreprise Server et les topologies pris en charge, voir [La topologie de base.](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) Pour configurer le connecteur de données d’appel, vous devez :
 
 - Activer la connectivité hybride. Si Skype Entreprise Server est déjà déployé et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que la connectivité hybride est définie entre vos environnements locaux et en ligne. Il s’agit parfois d’une configuration de domaine fractionnement.
 
@@ -74,7 +74,7 @@ Les conditions suivantes supposent que Skype Entreprise Server est déjà déplo
 > [!IMPORTANT]
 > Le connecteur de données d’appel ne fonctionne pas si la surveillance n’est pas activée sur le pool frontal.
 
-- Authentification de serveur à [serveur correctement configurée.](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications) 
+- Authentification de serveur à serveur correctement [configurée.](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) 
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparaison des rapports du Tableau de bord de qualité des appels (CQD) local et en ligne
 
@@ -82,7 +82,7 @@ Les conditions suivantes supposent que Skype Entreprise Server est déjà déplo
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | Mesure de partage d’application |Oui | Limité |
 | Informations sur la création de clients| Oui | Oui |
-| Analyse de l’analyse d’analyse | Oui | Non |
+| Analyse d’analyse d’analyse | Oui | Non |
 | Mesures de fiabilité des médias | Oui | Limité |
 | Rapports pré-présodents | Oui | Oui |
 | Rapports de vue d’ensemble | Oui | Non |

@@ -18,12 +18,12 @@ description: Déterminez quel plan d’appel système Microsoft Phone sera le pl
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71fe92646a3a2976e9a4d393e54ea56a7669b400
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b88af706f79dd195e2f9363ff45e586a1123686f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031850"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102730"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Quelle forfait d’appels vous convient le mieux ? 
 
@@ -69,7 +69,7 @@ Avec les forfaits d’appels dans Microsoft 365 ou Office 365, chaque utilisateu
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Comment puis-je obtenir les informations détaillées sur l’adresse d’urgence et l’emplacement ? |Pour plus d’informations, voir Que sont les [emplacements d’urgence,](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)les adresses de secours et le routage des appels ?
+|Comment puis-je obtenir les informations détaillées sur l’adresse d’urgence et l’emplacement ? |Pour plus d’informations, voir Que sont les [emplacements d’urgence,](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)les adresses de secours et le routage des appels ?
 
 
 ### <a name="calling-identity"></a>Identité d’appel
@@ -80,7 +80,3 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone affect
 |:------------|:-------|
 |Dois-je masquer ou désactiver l’ID de l’appelant ? | Pour modifier ou bloquer l’ID d’appelant, consultez définir l’ID d’appelant [d’un utilisateur.](set-the-caller-id-for-a-user.md) |
 |||
-
-
-
-

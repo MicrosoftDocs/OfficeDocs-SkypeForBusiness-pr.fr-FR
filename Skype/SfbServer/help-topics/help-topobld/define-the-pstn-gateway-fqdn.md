@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
-ms.openlocfilehash: 39715f807c65914ab75815cbeffd072686e87f15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d5620ba9cf186ffb2b7c971683f299288302a1a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804864"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106880"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom complet de la passerelle PSTN
 
 Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
 
-Pour plus d’informations, voir [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Pour plus d’informations, [voir PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Options de déploiement d’une passerelle PSTN](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Options de déploiement d’une passerelle PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

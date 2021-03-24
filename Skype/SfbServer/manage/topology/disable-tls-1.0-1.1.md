@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Préparez et implémentez la désactivation de TLS 1.0 et 1.1 dans vos environnements.
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726395"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103210"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype Entreprise Server 2015
 
@@ -35,7 +35,7 @@ Microsoft a produit un livre blanc sur TLS disponible ici [et](https://cloudblog
 
 ## <a name="supportability-scope"></a>Étendue de prise en charge
 
-*L’étendue* fait référence aux limites de prise en charge. *Les tests* complets et pris en charge signifient que nous activons entièrement et avons testé la désactivation de TLS 1.0 et 1.1 pour les versions de produits répertoriées. *L’examen en cours* signifie simplement cela ; Nous sommes activement en train d’examiner l’application de ces produits à l’étendue de la désactivation de la prise en charge de TLS. *Hors de portée signifie* que ces versions de produit ne sont pas en charge de la désactivation de TLS 1.0 ou 1.1 et ne fonctionneront pas, avec des exceptions notées.
+*L’étendue* fait référence aux limites de prise en charge. *Les tests* complets et pris en charge signifient que nous activons entièrement et avons testé la désactivation de TLS 1.0 et 1.1 pour les versions de produits répertoriées. *L’examen en cours* signifie simplement cela ; Nous sommes activement en train d’examiner l’application de ces produits dans l’étendue de la désactivation de la prise en charge de TLS. *Hors de portée signifie* que ces versions de produit ne peuvent pas désactiver TLS 1.0 ou 1.1 et ne fonctionneront pas, avec des exceptions notées.
 
 ### <a name="fully-tested-and-supported-servers"></a>Serveurs entièrement testés et pris en charge
 
@@ -51,7 +51,7 @@ Microsoft a produit un livre blanc sur TLS disponible ici [et](https://cloudblog
 
 - Client de bureau Lync 2013 (Skype Entreprise), MSI et C2R, y compris Basic [15.0.5023.1000 ou](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334) version supérieure
 - Client de bureau Skype Entreprise 2016, MSI [16.0.4678.1000](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)ou version supérieure, y compris De base
-- Skype Entreprise 2016 Click to Run Nécessite les mises à jour [d’avril 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) : 
+- Skype Entreprise 2016 Click to Run Nécessite les mises à jour [d’avril 2018](/officeupdates/release-notes-office365-proplus) : 
     - Mensuelle et Semi-Annual ciblée, 16 \. 0 \. 9126 \. 2152 ou supérieure
     - Semi-Annual canal différé, 16 \. 0 \. 8431 \. 2242 ou supérieur
 - Skype Entreprise sur Mac 16.15 ou supérieur
@@ -66,7 +66,7 @@ Microsoft a produit un livre blanc sur TLS disponible ici [et](https://cloudblog
  
 ### <a name="out-of-scope"></a>Non compris
 
-Sauf remarque, les produits suivants ne sont pas dans l’étendue de TLS 1.0/1.1 désactiver la prise en charge et ne fonctionneront pas dans un environnement où TLS 1.0 et 1.1 ont été désactivés. Cela signifie que si vous utilisez toujours des serveurs ou des clients hors étendue, vous devez les mettre à jour ou les supprimer si vous devez désactiver TLS 1.0/1.1 n’importe où dans votre déploiement local de Skype Entreprise Server.
+Sauf remarque, les produits suivants ne sont pas dans l’étendue de la désactivation de TLS 1.0/1.1 et ne fonctionnent pas dans un environnement où TLS 1.0 et 1.1 ont été désactivés. Cela signifie que si vous utilisez toujours des serveurs ou des clients hors étendue, vous devez les mettre à jour ou les supprimer si vous devez désactiver TLS 1.0/1.1 n’importe où dans votre déploiement local de Skype Entreprise Server.
 
 - Lync Server 2013
 - Lync Server 2010
@@ -87,7 +87,7 @@ Sauf remarque, les produits suivants ne sont pas dans l’étendue de TLS 1.0/1.
 
 Lync Server 2013 prend une dépendance sur Windows Fabric version 1.0.  Lors de la phase de conception de Lync Server 2013, Windows Fabric 1.0 a été choisi pour son architecture distribuée attrayante et nouvelle pour fournir la réplication, la haute disponibilité et la tolérance de panne.  Au fil du temps, Skype Entreprise Server et Windows Fabric ont considérablement amélioré cette architecture conjointe avec une nouvelle conception importante dans les versions ultérieures.  Skype Entreprise Server 2015 actuel utilise Windows Fabric 3.0, par exemple.
 
-Malheureusement, Windows Fabric 1.0 ne prend pas **en charge TLS 1.2.  Toutefois, nous mettons à jour Lync Server 2013 pour fonctionner avec TLS 1.2**. Cette mise à jour sera prochainement mise à jour cumulative pour Lync Server 2013.  Nous fournissons la prise en charge de TLS 1.2 pour permettre la coexistence, la migration, la fédération et les scénarios hybrides.
+Malheureusement, Windows Fabric 1.0 ne prend pas **en charge TLS 1.2.  Toutefois, nous mettons à jour Lync Server 2013 pour fonctionner avec TLS 1.2**. Cette mise à jour sera prochainement mise à jour cumulative pour Lync Server 2013.  Nous fournissons la prise en charge de TLS 1.2 pour activer la coexistence, la migration, la fédération et les scénarios hybrides.
 
 Si votre organisation est tenue de désactiver TLS 1.0 et 1.1 et que vous utilisez actuellement Lync Server 2013, nous vous recommandons de commencer le processus de planification, avec la possibilité de devoir mettre à niveau sur place ou migrer côte à côte (nouveaux pools, déplacer des utilisateurs) vers Skype Entreprise Server 2015 ou version supérieure.  Vous pouvez également accélérer la migration vers Skype Entreprise Online.
 
@@ -135,7 +135,7 @@ Nous voulons suivre l’ordre habituel des opérations « à l’intérieur » p
 8. Vérifier que les charges de travail fonctionnent comme prévu.
     - Si des problèmes sont rencontrés, résolvez et résolvez les problèmes, ou
     - Restaurer le Registre à partir de l’étape 2 pour ré-activer TLS 1.0 et 1.1
-9. Vérifier que seul TLS 1.2 est utilisé.
+9. Validez que seul TLS 1.2 est utilisé.
 
 ### <a name="install-prerequisites-to-all-servers"></a>Installer les conditions préalables sur tous les serveurs
 
@@ -143,7 +143,7 @@ Une mise à jour complète des dépendances est nécessaire avant de commencer �
 
 - Skype Entreprise Server 2015 CU9 6.0.9319.548 (mai 2019) ou une édition supérieure
 - [.NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) ou supérieur avec SchUseStrongCrypto activé dans le Registre (fourni ci-dessous)
-- SQL doit être mis à jour sur tous les serveurs et serveurs skype entreprise 2015. Mettez d’abord à jour SQL pool Enterprise Edition, puis leurs FES respectives. 
+- SQL doivent être mis à jour sur tous les serveurs et serveurs de skype entreprise 2015. Mettez d’abord à jour SQL pool Enterprise Edition, puis leurs FES respectives. 
     - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926), ou supérieur / SQL Server 2012 SP2 + CU16 ou supérieur / [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014), ou supérieur / SQL Server 2014 SP2
      - [SQL Server Native Client pour SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=50402)
      - [Pilote ODBC Microsoft 11 pour SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)ou supérieur
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Pour SQL des pools Enterprise Edition, les conditions préalables et la désactivation de TLS doivent être traitées comme n’importe quelle SQL ou les mises à jour du système d’exploitation . reportez-vous à : [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Pour SQL des pools Enterprise Edition, les conditions préalables et la désactivation de TLS doivent être traitées comme n’importe quelle SQL ou les mises à jour du système d’exploitation . reportez-vous à : [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 Bien que les étapes de désactivation de l’application prérequise et de TLS soient combinées, nous vous recommandons vivement d’appliquer toutes les conditions préalables avant de poursuivre la désactivation de TLS 1.0 et 1.1 au niveau du système d’exploitation. La meilleure approche consiste à préparer l’environnement en déployant tous les prérequis, en validant que toutes les charges de travail fonctionnent correctement et comme prévu, puis en désactivant TLS 1.0/1.1 ultérieurement.
 
@@ -445,9 +445,9 @@ Vous avez peut-être remarqué que nous n’avons pas simplement désactivé TLS
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Vérifier que les charges de travail fonctionnent comme prévu
 
-Une fois que TLS 1.0 et 1.1 ont été désactivés dans votre environnement, assurez-vous que toutes vos charges de travail principales fonctionnent comme prévu, telles que la messagerie instantanée & présence, les appels P2P, les Voix Entreprise, etc.
+Une fois que TLS 1.0 et 1.1 ont été désactivés dans votre environnement, assurez-vous que toutes vos charges de travail principales fonctionnent comme prévu, telles que la présence de & de messagerie instantanée, les appels P2P, les Voix Entreprise, etc.
 
-**Valider que seul TLS 1.2 est utilisé**
+**Validation de l’utilisation de TLS 1.2 uniquement**
 
 Votre équipe de sécurité effectue un nouvel audit du trafic Skype Entreprise pour vous assurer que les anciens protocoles TLS 1.0 et 1.1 ne sont plus utilisés.
 
@@ -455,7 +455,7 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 
 1. Lancez Internet Explorer.
 2. Sélectionnez **Outils**  >  **Options Internet.**
-3. Sélectionnez **l’onglet** Avancé.
+3. Sélectionnez l’onglet **Avancé**.
 4. Sous **Paramètres,** faites défiler vers le bas.
 5. Vérifiez que TLS 1.0, TLS 1.1 et TLS 1.2 sont activés.
 6. Parcourez l’URL du service Web interne de votre pool SfB 2015 (doit se connecter correctement).
@@ -495,7 +495,7 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 3. Copiez les fichiers/dossiers ISO : 
     - Avec la norme ISO de Skype Entreprise Server 2015 attachée, ouvrez le répertoire racine du lecteur sous le nom (Ex : D: \) dans l’Explorateur de fichiers.
     - Copiez tous les dossiers et fichiers dans un dossier sur un disque local (ex : C:\SkypeForBusiness2015ISO).
-    - **Remarque :** Avant d’installer des composants, certains fichiers devront être mis à jour pour prendre en charge TLS 1.2.
+    - **Remarque :** Avant d’installer les composants, certains fichiers doivent être mis à jour pour la prise en charge de TLS 1.2.
 4. Remplacez les packages MSI/EXE : 
     - Remplacez les packages MSI et EXE existants dans le dossier /Setup/amd64/ du support d’installation sur l’ordinateur local.
     - SQL 2014 SP2 Express : https://www.microsoft.com/download/details.aspx?id=53167 
@@ -513,8 +513,8 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
     - Fermez les composants principaux.
 6. Mettre à jour les composants principaux : 
     - Téléchargez le programme d’installation de mise à jour Skype Entreprise.
-    - Exécutez le programme d’installation pour mettre à jour les composants principaux et installer les compteurs de performance.
-    - **Remarque :** À la publication de CU6HF2, la fonctionnalité de mise à jour automatique ne s’installe actuellement que jusqu’à CU6. Par conséquent, le programme de mise à jour doit être exécuté séparément pour mettre à jour les composants principaux vers 6.0.9319.516.
+    - Exécutez le programme d’installation pour mettre à jour les composants principaux et installer les compteurs de performances.
+    - **Remarque :** À la publication de CU6HF2, la fonctionnalité de mise à jour automatique ne sera installée que jusqu’à CU6. Par conséquent, le programme de mise à jour doit être exécuté séparément pour mettre à jour les composants principaux vers 6.0.9319.516.
     - Référence : https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. Installer les outils d’administration (facultatif) : 
     - Cela installera les types Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64) et Microsoft System CLR Types pour SQL Server 2014 (x64) à l’aide des fichiers mis à jour. En outre, le Générateur de topologie et le Panneau de contrôle de Skype Entreprise Server 2015 seront disponibles sur l’ordinateur local.
@@ -529,6 +529,6 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
     - Ouvrez l’Assistant Déploiement, cliquez sur Installer ou  mettre à jour le système Skype Entreprise **Server,** puis cliquez sur Exécuter à l’étape 2 : Installer ou supprimer des composants Skype Entreprise Server
     - Cliquez **sur Suivant** dans la boîte de dialogue Configurer les composants Skype Entreprise Server.
     ![Fenêtre Configurer les composants Skype Entreprise Server](../../media/set-up-skype-for-business-server-components-window.png)
-    - Consultez le journal à l’aide du journal d’affichage et validez que le programme d’installation s’est terminé sans problème. 
+    - Consultez le journal à l’aide du journal d’affichage et validez que l’installation s’est terminée sans problème. 
     - Cliquez sur **Terminer**.
 10. Procédez à l’installation et à la configuration supplémentaires si nécessaire (vous pouvez reprendre les procédures d’installation normales à ce stade).

@@ -13,23 +13,23 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 16a646af3e456bb68a2a582cad7d6b742100c650
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7848aff5f5b4dbb56be713b9241f2ace1ee6e6b3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102070"
 ---
 # <a name="block-inbound-calls"></a>Bloquer les appels entrants
 
-Les plans d’appels Skype Entreprise Online prend désormais en charge le blocage des appels entrants à partir du réseau téléphonique commuté (PSTN). Cette fonctionnalité permet de définir une liste globale de modèles de numéro afin que l’ID d’appelant de chaque appel PSTN entrant vers le client puisse être vérifié par rapport à la liste pour une correspondance. En cas de correspondance, un appel entrant est rejeté.
+Les forfaits d’appels Skype Entreprise Online prend désormais en charge le blocage des appels entrants à partir du réseau téléphonique commuté (PSTN). Cette fonctionnalité permet de définir une liste globale de modèles de numéro afin que l’ID d’appelant de chaque appel PSTN entrant vers le client puisse être vérifié par rapport à la liste pour une correspondance. En cas de correspondance, un appel entrant est rejeté.
 
-Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants provenant du réseau PSTN et fonctionne uniquement au niveau global du client. Elle n’est pas disponible par utilisateur.  
+Cette fonctionnalité de blocage des appels entrants fonctionne uniquement sur les appels entrants provenant du réseau PSTN et fonctionne uniquement sur une base globale du client. Elle n’est pas disponible par utilisateur.  
 
 Cette fonctionnalité n’est pas encore disponible pour le routage direct.
 
 >[!NOTE]
-> Les appelants bloqués peuvent avoir des comportements légèrement différents lorsqu’ils ont été bloqués. Le comportement est basé sur la façon dont l’opérateur de l’appelant bloqué gère la notification de non-réussite de l’appel. Il peut s’agir, par exemple, d’un message de l’opérateur indiquant que l’appel ne peut pas être effectué comme un appel composé, ou un simple abandon de l’appel.
+> Les appelants bloqués peuvent avoir des comportements légèrement différents lorsqu’ils ont été bloqués. Le comportement est basé sur la façon dont l’opérateur de l’appelant bloqué gère la notification que l’appel n’est pas autorisé à se terminer correctement. Il peut s’agir, par exemple, d’un message de l’opérateur indiquant que l’appel ne peut pas être effectué comme un appel composé, ou un simple abandon de l’appel.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Appel bloquant les contrôles d’administration et les informations
 
@@ -37,16 +37,16 @@ Les contrôles d’administration pour le blocage des numéros sont fournis à l
 
 ## <a name="call-blocking-powershell-commands"></a>Appel bloquant les commandes PowerShell
 
-Les modèles de nombres sont ```CsInboundBlockedNumberPattern``` gérés par le biais des ```New``` ```Get``` ```Set``` commandes, et ```Remove``` . Vous pouvez gérer un modèle donné à l’aide de ces cmdlets, y compris la possibilité d’activer un modèle donné.
-- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de nombres bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
-- [New-CsInboundBlockedNumberPattern ajoute](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) un modèle de numéro bloqué à la liste des locataires.
-- [Remove-CsInboundBlockedNumberPattern supprime](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) un modèle de numéro bloqué de la liste des locataires.
-- [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) modifie un ou plusieurs paramètres d’un modèle de nombre bloqué dans la liste des locataires.
+Les modèles de nombres sont ```CsInboundBlockedNumberPattern``` gérés par le biais ```New``` des ```Get``` ```Set``` commandes, et ```Remove``` . Vous pouvez gérer un modèle donné à l’aide de ces cmdlets, y compris la possibilité d’activer un modèle donné.
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de numéro bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
+- [New-CsInboundBlockedNumberPattern ajoute](/powershell/module/skype/new-csinboundblockednumberpattern) un modèle de numéro bloqué à la liste des locataires.
+- [Remove-CsInboundBlockedNumberPattern supprime](/powershell/module/skype/remove-csinboundblockednumberpattern) un modèle de numéro bloqué de la liste des locataires.
+- [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifie un ou plusieurs paramètres d’un modèle de nombre bloqué dans la liste des locataires.
 
 L’affichage et l’activation de l’ensemble de la fonctionnalité de blocage d’appel sont ```CsTenantBlockingCallingNumbers``` gérés par le biais des commandes ```Get``` et ```Set``` .
 
-- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) renvoie les paramètres de la liste des nombres bloqués globaux, y compris Activé (True/False). Il existe une seule stratégie de client globale qui ne peut pas être modifiée manuellement si ce n’est pour activer ou désactiver la fonctionnalité.
-- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) permet d’autoriser ou non la modification des appels bloqués du client global au niveau du client.
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) renvoie les paramètres de la liste des nombres bloqués globaux, y compris Activé (True/False). Il existe une seule stratégie de client globale qui ne peut pas être modifiée manuellement si ce n’est pour activer ou désactiver la fonctionnalité.
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) permet d’autoriser ou non la modification des appels bloqués du client global au niveau du client.
 
 ### <a name="examples"></a>Exemples
 
@@ -60,7 +60,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 La création d’un modèle ajoute le modèle comme étant activé par défaut. La description est un champ facultatif pour fournir des informations supplémentaires.
 
-Nous vous recommandons de fournir un nom significatif pour comprendre facilement pourquoi le modèle a été ajouté. Si vous bloquez simplement les numéros de courrier indésirable, vous pouvez nommer la règle de la même façon que le modèle de nombres qui correspond et ajouter des informations supplémentaires dans la description si nécessaire.
+Nous vous recommandons de fournir un nom significatif pour comprendre facilement pourquoi le modèle a été ajouté. Si vous bloquez simplement les numéros de courrier indésirable, envisagez d’nommer la règle de la même façon que le modèle de nombre qui correspond et d’ajouter des informations supplémentaires dans la description si nécessaire.
 
 Les modèles sont assortis à l’aide d’expressions régulières (Regex). Autorisez le temps de réplication avant de tester et de valider.
 
@@ -90,10 +90,10 @@ Utilisez les capacités intégrées de filtrage PowerShell pour filtrer les vale
 
 Vous pouvez ajouter des exceptions aux modèles de nombres bloqués via les ```CsTenantBlockNumberExceptionPattern``` ```New``` ```Get``` commandes, ```Set``` et ```Remove``` .
 
-- [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) ajoute un modèle d’exception de nombre à la liste des locataires. 
-- [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) renvoie la liste de tous les modèles d’exceptions de nombres ajoutés à la liste des locataires.
-- [Set-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern) modifie un ou plusieurs paramètres en un ou plusieurs paramètres d’exception dans la liste des locataires.
-- [Remove-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) supprime un modèle d’exception de nombre de la liste des locataires.
+- [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) ajoute un modèle d’exception de nombre à la liste des locataires. 
+- [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) renvoie la liste de tous les modèles d’exceptions de nombres ajoutés à la liste des locataires.
+- [Set-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/set-cstenantblockednumberexceptionpattern) modifie un ou plusieurs paramètres en un ou plusieurs paramètres d’exception dans la liste des locataires.
+- [Remove-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) supprime un modèle d’exception de nombre de la liste des locataires.
 
 ### <a name="examples"></a>Exemples
 
@@ -135,7 +135,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>Supprimer une exception
 
-Dans cet exemple, le ```-Identity``` paramètre est obligatoire. Cette cmdlet supprime le modèle de nombre donné de la liste des locataires.  Si l’identité n’est pas connue, utilisez l’cmdlet pour identifier le modèle approprié ```Get-CsInboundBlockedNumberPattern``` et noter l’identité. Ensuite, exécutez la ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet et transmettre la valeur d’identité appropriée.Autorisez le temps de réplication avant de tester et de valider.  
+Dans cet exemple, le ```-Identity``` paramètre est obligatoire. Cette cmdlet supprime le modèle de numéro donné de la liste des locataires.  Si l’identité n’est pas connue, utilisez l’cmdlet pour identifier le modèle approprié ```Get-CsInboundBlockedNumberPattern``` et noter l’identité. Ensuite, exécutez la ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet et transmettre la valeur d’identité appropriée.Autorisez le temps de réplication avant de tester et de valider.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 Utilisez ```Test-CsInboundBlockedNumberPattern``` l’cmdlet pour vérifier si un numéro est bloqué dans le client.
  
-Dans cet exemple, les paramètres et les ```-Phonenumber``` ```-Tenant``` paramètres sont obligatoires. Le paramètre doit être une chaîne numérique sans caractères supplémentaires tels que ```-PhoneNumber``` + ou -. Dans le TRPS, ```-Tenant parameter``` l’option est facultative. Le paramètre qui en résulte renvoie la valeur True si le nombre est bloqué dans le client et ```isNumberBlocked``` False s’il n’est pas bloqué.
+Dans cet exemple, les ```-Phonenumber``` ```-Tenant``` paramètres sont obligatoires. Le paramètre doit être une chaîne numérique sans caractères supplémentaires tels que ```-PhoneNumber``` + ou -. Dans le TRPS, ```-Tenant parameter``` l’option est facultative. Le paramètre qui en résulte renvoie la valeur True si le nombre est bloqué dans le client et ```isNumberBlocked``` False s’il n’est pas bloqué.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
@@ -173,8 +173,8 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 ## <a name="a-note-about-regex"></a>Note sur Regex
 
-Comme indiqué précédemment, la correspondance au modèle de blocage des appelants est effectuée à l’aide de Regex. Plusieurs outils sont disponibles en ligne pour vous aider à valider une correspondance au modèle Regex. Si vous n’êtes pas familiarisé avec les modèles Regex, nous vous recommandons de prendre le temps de vous familiariser avec les bases. Pour vous assurer d’obtenir les résultats attendus, utilisez un outil pour valider les correspondances de modèle avant d’ajouter de nouvelles correspondances de numéro bloqués à votre client. 
+Comme indiqué précédemment, la correspondance au modèle de blocage des appelants est effectuée à l’aide de Regex. Plusieurs outils sont disponibles en ligne pour vous aider à valider une correspondance de modèle Regex. Si vous n’êtes pas familiarisé avec les modèles Regex, nous vous recommandons de prendre le temps de vous familiariser avec les bases. Pour vous assurer d’obtenir les résultats attendus, utilisez un outil pour valider les correspondances de modèle avant d’ajouter de nouveaux nombres bloqués à votre client. 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer votre ordinateur pour gérer Skype Entreprise Online à l’aide d’Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

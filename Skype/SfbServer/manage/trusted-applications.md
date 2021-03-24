@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Une application fiable est une application basée sur le SDK Microsoft Unified Communications Managed API (UCMA) 3.0 Core approuvé par Skype Entreprise Server.
-ms.openlocfilehash: e9d29371014d902bbee38e2f3871c5579634c0f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b99b1c989437e6f474a97463fc53d4179858346e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826274"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103160"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gérer les applications de confiance dans Skype Entreprise Server
 
@@ -77,7 +77,7 @@ Dans le Panneau de contrôle Skype Entreprise Server, vous pouvez voir le nom de
 
 ## <a name="view-trusted-application-information"></a>Afficher les informations sur les applications fiables
 
-Vous pouvez afficher des informations sur vos applications Windows PowerShell et l’cmdlet **Get-CsTrustedApplication.** Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher des informations sur vos applications de confiance à l’aide Windows PowerShell et de l’cmdlet **Get-CsTrustedApplication.** Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-trusted-applications"></a>Pour afficher les applications approuvées
@@ -104,4 +104,4 @@ Pour afficher toutes vos applications de confiance, tapez la commande suivante d
         ExUmEnabled            : False
         Enabled                : True
     
-   Pour plus d’informations, voir [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
+   Pour plus d’informations, voir [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

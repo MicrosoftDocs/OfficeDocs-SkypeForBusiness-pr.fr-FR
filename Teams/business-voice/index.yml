@@ -2,18 +2,18 @@
 title: Documentation microsoft 365 Business Voice
 summary: Découvrez comment planifier, configurer et utiliser Téléphonie Microsoft 365 pour les PME au sein de votre organisation. Téléphonie pour les PME permet aux petites et moyennes entreprises de configurer facilement un système téléphonique souple et performant en évitant les frais et la complexité liés aux solutions internes.
 metadata:
-  title: Documentation microsoft 365 Business Voice
+  title: Documentation de Microsoft 365 Business Voice
   description: Découvrez comment planifier, déployer et utiliser Téléphonie Microsoft 365 pour les PME.
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
-  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "46778109"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102950"
 productDirectory:
   items:
   - title: Explorer
@@ -23,12 +23,12 @@ productDirectory:
       text: Qu’est-ce que Téléphonie pour les PME ?
     - url: https://www.microsoft.com/microsoft-365/business-voice
       text: Téléphonie Microsoft 365 pour les PME
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
       text: Description de service
   - title: Configurer
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
-    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+    - url: ./what-to-buy.md
       text: Comment obtenir Téléphonie pour les PME ?
     - url: get-ready-internet.md
       text: Vérifiez votre connexion Internet
@@ -41,11 +41,11 @@ productDirectory:
     links:
     - url: port-phone-numbers.md
       text: Transfert de numéros de téléphone existants
-    - url: set-up-auto-attendants.md
+    - url: ./create-a-phone-system-auto-attendant-smb.md
       text: Configuration de standards automatiques
     - url: set-up-policies.md
       text: Configuration de stratégies
-    - url: set-up-call-queues.md
+    - url: ./create-a-phone-system-call-queue-smb.md
       text: Configuration de files d’attente d’appels
   - title: Utilisation
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
@@ -61,7 +61,7 @@ productDirectory:
   - title: Ressources destinées aux partenaires
     imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
     links:
-    - url: https://docs.microsoft.com/partner-center/
+    - url: /partner-center/
       text: Accédez à l’Espace partenaires pour obtenir Microsoft 365 Business
     - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
       text: Téléphonie Microsoft 365 pour les PME pour les partenaires
@@ -77,11 +77,11 @@ productDirectory:
   - title: Documentation d’aide
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
     links:
-    - url: /microsoftteams/cloud-voice-landing-page
+    - url: ../cloud-voice-landing-page.md
       text: Documents d’administration Microsoft Teams
     - url: https://microsoftteams.uservoice.com/
       text: Votre avis Microsoft Teams UserVoice
     - url: https://support.office.com/teams
       text: Documents pour les clients Microsoft Teams
-    - url: https://docs.microsoft.com/office365/admin/
+    - url: /office365/admin/
       text: Documents d’administrateur Microsoft 365 et Office 365

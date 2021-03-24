@@ -17,16 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l’Éducation afin d’appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: 1ea7fb684bce3d59063f1a258d0db37fb75a4681
-ms.sourcegitcommit: 95b85926d67cbf3159f58d9083d5813cc29074f8
+ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111090"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Stratégie de Teams pour l’Éducation pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 L’Assistant Stratégie de Microsoft Teams pour l’Éducation simplifie la gestion des stratégies pour vos étudiants et enseignants. Utilisez-la pour appliquer facilement et rapidement l’ensemble le plus important de stratégies pertinentes pour créer une expérience d’apprentissage sécurisée et productive.
 
@@ -47,12 +47,12 @@ Cet article vous explique comment exécuter l’Assistant.
 
 <a name="polwiz_intro"> </a>
 
-L’Assistant applique un ensemble de définitions de stratégie principale aux étudiants et un ensemble distinct de définitions de stratégies principales aux enseignants et au personnel, avec des paramètres appropriés pour chacune d’elles. Voici ce qui se produit lorsque vous exécutez l’Assistant.
+L’Assistant applique un ensemble de définitions de stratégie de base aux étudiants et un ensemble distinct de définitions de stratégie principale aux enseignants et au personnel, avec des paramètres appropriés pour chacune d’elles. Voici ce qui se produit lorsque vous exécutez l’Assistant.
 
 L’Assistant définit les stratégies en fonction du type d’établissement d’enseignement (enseignement primaire **ou** **secondaire ou supérieur).** Vous sélectionnez le type de votre établissement, et l’Assistant doit :
 
-- **Étudiants**: L’Assistant ajuste la définition de stratégie globale (à l’échelle de l’organisation par défaut) de chaque zone de stratégie couverte par l’Assistant avec de nouveaux paramètres par défaut appropriés pour protéger vos étudiants. Cela garantit que vos étudiants actuels et tous les nouveaux étudiants obtiennent le jeu de stratégies le plus restrictif.
-- **Enseignants et membres** du personnel : L’Assistant crée un ensemble de définitions de stratégie personnalisées pour chaque zone de stratégie couverte par l’Assistant, avec des paramètres adaptés aux besoins des enseignants et du personnel. Il affecte ensuite les définitions de stratégie au groupe d’enseignants et de membres du personnel que vous choisissez. Ainsi, vos enseignants et membres du personnel obtiennent un ensemble de stratégies plus permissif pour leur réussite.
+- **Étudiants**: L’Assistant ajuste la définition de stratégie globale (à l’échelle de l’organisation par défaut) de chaque zone de stratégie couverte par l’Assistant avec de nouveaux paramètres par défaut appropriés pour assurer la sécurité de vos étudiants. Cela garantit que vos étudiants actuels et tous les nouveaux étudiants obtiennent le jeu de stratégies le plus restrictif.
+- **Enseignants et membres** du personnel : L’Assistant crée un ensemble de définitions de stratégie personnalisées pour chaque zone de stratégie couverte par l’Assistant, avec des paramètres adaptés aux besoins des enseignants et du personnel. Il affecte ensuite les définitions de stratégie au groupe d’enseignants et de membres du personnel que vous choisissez. Ainsi, vos enseignants et membres du personnel obtiennent un ensemble de stratégies plus permissifs pour leur réussite.
 
 Il vous suffit d’exécuter l’Assistant une seule fois. Les définitions de stratégie Globale (à l’échelle de l’organisation par défaut) sont automatiquement appliquées par l’Assistant et les nouveaux membres du personnel que vous ajoutez au groupe que vous avez sélectionné se voit automatiquement attribuer les stratégies personnalisées.
 
@@ -75,7 +75,7 @@ Suivez ces étapes pour exécuter l’Assistant.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de la page dans l’Assistant pour sélectionner le type d’établissement":::
 
-3. Recherchez et sélectionnez un groupe contenant vos enseignants et membres du personnel, puis sélectionnez **Suivant.** Si aucun groupe n’est encore créé pour vos enseignants et membres du [personnel,](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)créez un groupe, puis ré-exécutez l’Assistant. <br/><br/>Pour l’instant, vous ne pouvez sélectionner qu’un seul groupe. Les enseignants et les membres du groupe que vous sélectionnez se voit attribuer un [ensemble de](#policies-applied-by-the-wizard) stratégies personnalisées adaptées à leurs besoins. N’oubliez pas que cet ensemble de stratégies est distinct des stratégies appliquées aux étudiants.
+3. Recherchez et sélectionnez un groupe contenant vos enseignants et membres du personnel, puis sélectionnez **Suivant.** Si aucun groupe n’est encore créé pour vos enseignants et membres du [personnel,](/microsoft-365/admin/create-groups/create-groups)créez un groupe, puis ré-exécutez l’Assistant. <br/><br/>Pour l’instant, vous ne pouvez sélectionner qu’un seul groupe. Les enseignants et les membres du groupe que vous sélectionnez se voit attribuer un [ensemble de](#policies-applied-by-the-wizard) stratégies personnalisées adaptées à leurs besoins. N’oubliez pas que cet ensemble de stratégies est distinct des stratégies appliquées aux étudiants.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Capture d’écran de la page dans l’Assistant de sélection d’un enseignant et d’un groupe de membres du personnel":::
 
@@ -84,7 +84,7 @@ Suivez ces étapes pour exécuter l’Assistant.
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Capture d’écran de la page dans l’Assistant pour passer en revue les sélections":::
 
 5. Sélectionnez **Appliquer** pour appliquer vos modifications. Cela peut prendre quelques minutes.<br/><br/>Les définitions de stratégie globale (à l’échelle de l’organisation par défaut) sont appliquées immédiatement aux étudiants. Pour vos enseignants et membres du personnel, l’attribuée aux stratégies personnalisées à chaque membre du groupe que vous avez sélectionné peut prendre quelques heures, selon la taille du groupe. Cela se produit en arrière-plan, une fois que vous avez réussi cette étape.
-6. Vous êtes en route, mais ce n’est pas encore fait ! D’autres éléments sont à prendre en considération. Consultez ensuite la procédure de la section Procédure [à suivre](#what-to-do-after-running-the-wizard) après avoir exécute la section Assistant de cet article.
+6. Vous êtes en route, mais ce n’est pas encore fait ! D’autres éléments sont à prendre en considération. Consultez ensuite les étapes de la section Procédure [à suivre](#what-to-do-after-running-the-wizard) après avoir exécutez la section Assistant de cet article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Capture d’écran de la page de l’Assistant pour les étapes suivantes":::
 
@@ -95,7 +95,7 @@ Suivez ces étapes pour exécuter l’Assistant.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Étape 1 : supprimer les affectations de stratégie existantes qui entrent en conflit avec les stratégies appliquées par l’Assistant
 
 > [!IMPORTANT]
-> **N’effectuer cette étape que si des stratégies  existantes** sont affectées aux étudiants ou aux enseignants et au personnel avant d’avoir dirigé l’Assistant. Si vous débutez dans Teams et que vous n’avez aucune stratégie autre que celles créées par l’Assistant, ignorez cette étape et passez à l’étape 2.
+> N’effectuer cette étape que si des stratégies existantes sont affectées aux étudiants ou aux enseignants et au personnel avant **d’avoir dirigé  l’Assistant.** Si vous débutez dans Teams et que vous n’avez aucune stratégie autre que celles créées par l’Assistant, ignorez cette étape et passez à l’étape 2.
 
 Dans Teams, pour un domaine de stratégie donné, une stratégie peut être appliquée à un utilisateur des façons suivantes :
 
@@ -112,7 +112,7 @@ Si plusieurs de ces affectations de stratégie existent pour un utilisateur, Tea
 |Stratégie attribuée au groupe : Oui<br/>Stratégie attribuée directement à l’utilisateur : Oui     |Stratégie attribuée directement à l’utilisateur         |
 |Stratégie attribuée au groupe : Oui<br/>Stratégie attribuée directement à l’utilisateur : Non     |Stratégie attribuée au groupe<br/><br/>Si l’utilisateur est membre de plusieurs groupes et qu’une stratégie de la même zone de stratégie est affectée à chaque groupe, la stratégie qui présente le classement d’affectation de groupe le plus élevé [prend](assign-policies.md#group-assignment-ranking) effet.       |
 
-Étant donné cet ordre, les stratégies créées par l’Assistant ne prennent pas effet si un utilisateur possède déjà des affectations directes ou des affectations de groupe. Cela signifie que vous devez supprimer les affectations de stratégie existantes de l’utilisateur pour que la stratégie appliquée par l’Assistant prenne effet.
+Étant donné cet ordre, les stratégies créées par l’Assistant ne prennent pas effet si un utilisateur possède des affectations directes ou des affectations de groupe existantes. Cela signifie que vous devez supprimer les affectations de stratégie existantes de l’utilisateur pour que la stratégie appliquée par l’Assistant prenne effet.
 
 Pour chaque [zone de stratégie appliquée par l’Assistant,](#policies-applied-by-the-wizard)vous pouvez :
 
@@ -121,13 +121,13 @@ Pour chaque [zone de stratégie appliquée par l’Assistant,](#policies-applied
 
 [Découvrez comment](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) supprimer des stratégies qui sont directement affectées aux utilisateurs.
 
-Par exemple, vous avez attribué une stratégie de réunion directement aux enseignants et vos étudiants ont la stratégie de réunion globale (à l’échelle de l’organisation par défaut). Dans ce scénario, supprimez la stratégie de réunion que vous avez directement attribuée aux enseignants afin que la définition de stratégie personnalisée pour la stratégie de réunion créée par l’Assistant prenne effet. Vous n’avez rien à faire avec la stratégie de réunion globale existante (à l’échelle de l’organisation) pour les étudiants, car aucune autre stratégie de réunion n’entre en conflit avec elle.
+Par exemple, vous avez attribué une stratégie de réunion directement aux enseignants et vos étudiants ont une stratégie de réunion globale (à l’échelle de l’organisation par défaut). Dans ce scénario, supprimez la stratégie de réunion que vous avez directement attribuée aux enseignants afin que la définition de stratégie personnalisée pour la stratégie de réunion créée par l’Assistant prenne effet. Vous n’avez rien à faire avec la stratégie de réunion globale existante (à l’échelle de l’organisation) pour les étudiants, car aucune autre stratégie de réunion n’entre en conflit avec elle.
 
 <a name="polwiz_addmeasures"> </a>
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>Étape 2 : vérifier les mesures supplémentaires que vous pouvez prendre pour la sécurité des étudiants
 
-L’Assistant ajuste et applique automatiquement [ces stratégies.](#policies-applied-by-the-wizard) Il existe quelques mesures supplémentaires que vous voudrez peut-être prendre en fonction des besoins de votre établissement en sécurité.
+L’Assistant ajuste et applique automatiquement [ces stratégies.](#policies-applied-by-the-wizard) Il existe quelques mesures supplémentaires que vous pouvez vouloir prendre en fonction des besoins de votre établissement en sécurité.
 
 Voir [Maintenir la sécurité des étudiants lors de l’utilisation de Teams pour l’apprentissage à distance](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) pour obtenir des recommandations supplémentaires en matière de sécurité.
 
@@ -166,7 +166,7 @@ Voici les zones de stratégie et les noms de stratégie correspondants couverts 
 
 #### <a name="students"></a>[**Étudiants**](#tab/students/)
 
-|Zone De stratégie  |Nom de la stratégie principale ou secondaire |Nom de la stratégie de l’enseignement supérieur  |
+|Zone de stratégie  |Nom de la stratégie principale ou secondaire |Nom de la stratégie de l’enseignement supérieur  |
 |---------|---------|---------|
 |Stratégie Teams    |Global (par défaut à l’échelle de l’organisation)         |Global (par défaut à l’échelle de l’organisation)           |
 |Stratégie de réunion    |Global (par défaut à l’échelle de l’organisation)           |Global (par défaut à l’échelle de l’organisation)           |
@@ -178,13 +178,13 @@ Voici les zones de stratégie et les noms de stratégie correspondants couverts 
 
 #### <a name="educators-and-staff"></a>[**Enseignants et personnel**](#tab/educators/)
 
-|Zone De stratégie  |Nom de la stratégie principale ou secondaire |Nom de la stratégie de l’enseignement supérieur |
+|Zone de stratégie  |Nom de la stratégie principale ou secondaire |Nom de la stratégie de l’enseignement supérieur |
 |---------|---------|---------|
 |Stratégie Teams   |Enseignants primaires ou secondaires et membres du personnel enseignant - Teams         |Enseignants et membres du personnel de l’enseignement supérieur - Teams         |
 |Stratégie de réunion    |Enseignants et membres du personnel primaires ou secondaires - Réunion         |Enseignants et membres du personnel de l’enseignement supérieur - Réunion         |
 |Stratégie d’événements en direct   | Enseignants principaux ou secondaires et membres du personnel - Événements en direct         |Enseignants et membres du personnel de l’enseignement supérieur - Événements en direct         |
 |Stratégie de messagerie    |Enseignants et membres du personnel principaux ou secondaires - Messagerie         | Enseignants et membres du personnel de l’enseignement supérieur - Messagerie         |
-|Stratégie d’Appel    |Enseignants principaux ou secondaires et membres du personnel enseignant - Appel         |Enseignants et membres du personnel de l’enseignement supérieur - Appels         |
+|Stratégie d’Appel    |Enseignants principaux ou secondaires et membres du personnel - Appel         |Enseignants et membres du personnel de l’enseignement supérieur - Appels         |
 
 * * *
 
@@ -196,7 +196,7 @@ Voici un résumé des paramètres appliqués par l’Assistant pour chaque zone 
 
 Voici une liste des définitions de stratégie globales (à l’échelle de l’organisation par défaut) ajustées par l’Assistant et appliquées aux étudiants.
 
-|Zone De stratégie |Sous-zone  |Paramètre de stratégie  |Principale ou secondaire |Enseignement supérieur |
+|Zone de stratégie |Sous-zone  |Paramètre de stratégie  |Principale ou secondaire |Enseignement supérieur |
 |---------|---------|---------|---------|---------|
 |Stratégie Teams   |         |Créer des canaux privés         |Désactivé       |Activé|
 |Stratégie de réunions    |Général         |Autoriser la conférence maintenant dans les canaux         |Désactivé      |Activé|
@@ -230,7 +230,7 @@ Voici une liste des définitions de stratégie globales (à l’échelle de l’
 |Stratégie de messagerie  |       |Les propriétaires peuvent supprimer les messages envoyés         |Désactivé|Activé|
 |  |       |Supprimer des messages envoyés         |Désactivé         |Activé|
 |  |       |Modifier des messages envoyés         |Désactivé         |Activé|
-|  |       |Read receipts         |Utilisateur contrôlé         |Utilisateur contrôlé|
+|  |       |Confirmations de lecture         |Utilisateur contrôlé         |Utilisateur contrôlé|
 |  |       |Conversation         |Désactivé         |Activé|
 |  |       |Utiliser des Giphys dans les conversations         |Désactivé         |Activé|
 |  |       |Évaluation du contenu Giphy         |Strict        |Strict|
@@ -298,7 +298,7 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 |Stratégie de messagerie  |       |Les propriétaires peuvent supprimer les messages envoyés         |Activé|Activé|
 |  |       |Supprimer des messages envoyés         |Activé         |Activé|
 |  |       |Modifier des messages envoyés         |Activé         |Activé|
-|  |       |Read receipts         |Utilisateur contrôlé         |Utilisateur contrôlé|
+|  |       |Confirmations de lecture         |Utilisateur contrôlé         |Utilisateur contrôlé|
 |  |       |Conversation         |Activé         |Activé
 |  |       |Utiliser des Giphys dans les conversations         |Activé        |Activé|
 |  |       |Évaluation du contenu Giphy         |Strict        |Strict|
@@ -323,7 +323,7 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 
 * * *
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Stratégies et packages de stratégie Teams pour l’éducation](policy-packages-edu.md)
 - [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

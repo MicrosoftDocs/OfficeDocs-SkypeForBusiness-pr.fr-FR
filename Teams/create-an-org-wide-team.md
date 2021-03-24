@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4fad33d1107a9c7aaecf9dc2eca9dd3b405637fb
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 28a03f045aa6db2567feb8990b9b9267706c7e8d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973148"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111160"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Pour tirer le meilleur parti de votre équipe à l’échelle de l’organisatio
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Autoriser uniquement les propriétaires d’équipe à publier sur le canal général
 
-Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » pour plus   >  **d’options.** Sous **l’onglet Paramètres du** canal, cliquez sur **Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
+Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » plus   >  **d’options.** Sous **l’onglet Paramètres du** canal, cliquez sur **Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver les mentions @team et @ [nom de l’équipe]
 
@@ -78,7 +78,7 @@ Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’o
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Y a-t-il un moyen de créer une équipe à l’échelle de l’organisation plutôt que d’utiliser le client Teams ?
 
-Les administrateurs généraux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide du client Teams. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution de contournement recommandée consiste à ajouter vos administrateurs généraux au groupe de sécurité des utilisateurs qui peuvent créer une équipe. Pour plus d’informations, [voir Gérer les personnes qui peuvent créer des groupes.](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)
+Les administrateurs généraux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide du client Teams. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution de contournement recommandée consiste à ajouter vos administrateurs généraux au groupe de sécurité des utilisateurs qui peuvent créer une équipe. Pour plus d’informations, [voir Gérer les personnes qui peuvent créer des groupes.](/microsoft-365/admin/create-groups/manage-creation-of-groups)
 
 Si ce n’est pas le cas, vous pouvez utiliser PowerShell pour créer une équipe publique et ajouter un administrateur général en tant que propriétaire de l’équipe. Ensuite, demandez à l’administrateur général de cliquer sur **Autres options** en regard du nom de l’équipe, de cliquer sur **Modifier l’équipe**, puis de modifier la confidentialité en **à l’échelle de l’organisation : tous les membres de votre organisation seront ajoutés automatiquement**. Notez que seuls les propriétaires d’équipe peuvent accéder à l’option **Modifier l’équipé**. Seuls les administrateurs généraux peuvent voir l’option **à l’échelle de l’organisation**.
 

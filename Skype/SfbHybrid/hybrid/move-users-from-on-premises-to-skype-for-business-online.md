@@ -18,16 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs vers Skype Entreprise Online.
-ms.openlocfilehash: a9fb80046195580daca6dfc7f810b2e0c1877f1c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d74cdebc5477d0204f69b64c2c05a4435212b3f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110620"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online
 
-Après avoir fait passer un utilisateur de l’local à Skype Entreprise Online, l’utilisateur interagit avec Skype Entreprise Online pour sa fonctionnalité. Tous les contacts qui existaient en local seront disponibles dans Skype Entreprise Online, et toutes les réunions existantes que l’utilisateur a organisées à l’avenir sont mises à jour afin que les liens pointent vers Skype Entreprise Online. Si l’utilisateur est activé pour l’audioconférence, les réunions incluent également des coordonnées d’accès.  Pour déplacer des utilisateurs d’un environnement local vers Skype Entreprise Online, utilisez la cmdlet Move-CsUser ou le Panneau de contrôle Skype Entreprise Server, qui sont tous deux des outils locaux. 
+Après avoir fait passer un utilisateur de l’local à Skype Entreprise Online, l’utilisateur interagit avec Skype Entreprise Online pour sa fonctionnalité. Tous les contacts qui existaient en local seront disponibles dans Skype Entreprise Online, et toutes les réunions existantes organisées par l’utilisateur à l’avenir sont mises à jour de sorte que les liens pointent vers Skype Entreprise Online. Si l’utilisateur est activé pour l’audioconférence, les réunions incluent également des coordonnées d’accès.  Pour déplacer des utilisateurs d’un environnement local vers Skype Entreprise Online, utilisez la cmdlet Move-CsUser ou le Panneau de contrôle Skype Entreprise Server, qui sont tous deux des outils locaux. 
 
 Avant de déplacer des utilisateurs, veillez à passer en revue les conditions préalables pour déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md#prerequisites) vers le cloud.
  
@@ -39,7 +39,7 @@ Pour déplacer un utilisateur en ligne à l’aide de Move-CsUser :
 
 - Spécifiez l’utilisateur à déplacer à l’aide du paramètre Identity.
 - Spécifiez le paramètre -Target avec la valeur « sipfed.online.lync. <span> com ».
-- Si vous n’avez pas un compte avec des autorisations suffisantes à la fois sur site et dans Office 365, utilisez le paramètre -credential pour fournir à un compte des autorisations suffisantes dans Office 365.
+- Si vous n’avez pas un compte avec des autorisations suffisantes à la fois en local et dans Office 365, utilisez le paramètre -credential pour fournir à un compte des autorisations suffisantes dans Office 365.
 - Si le compte avec des autorisations dans Office 365 ne se termine pas par « .onmicrosoft. <span> com », puis vous devez spécifier le paramètre -HostedMigrationOverrideUrl, avec la valeur correcte comme décrit dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
 La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers Skype Entreprise Online. Il suppose que les informations d’identification Microsoft 365 ou Office 365 sont un compte distinct et fournies en tant qu’entrées pour lGet-Credential indexe.
@@ -66,4 +66,4 @@ Si le compte d’administrateur est activé pour l’authentification multifacte
 
 ## <a name="see-also"></a>Voir aussi
 
-[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145901"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102620"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -137,7 +137,7 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 > La plupart des données collectées s’affichent dans Insights en quelques minutes. La présence aux réunions de classe (réunions associées à l’un des canaux de classe) apparaît quelques heures après la fin de la réunion, généralement jusqu’à 24 heures plus tard.
 
 ### <a name="privacy-and-security"></a>Confidentialité et sécurité
-Les informations collectées et présentées via Insights répondent à [plus de 90 normes réglementaires et sectorielles](https://docs.microsoft.com/compliance/regulatory/offering-home), y compris le [RGPD](https://docs.microsoft.com/compliance/regulatory/gdpr) et la loi [FERPA (Family Educational Rights and Privacy Act)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations axées sur la confidentialité.
+Les informations collectées et présentées via Insights répondent à [plus de 90 normes réglementaires et sectorielles](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi [FERPA (Family Educational Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations axées sur la confidentialité.
 
 Les données appartiennent à l’établissement, et Microsoft se contente de collecter et de stocker les données. Le personnel de Microsoft ne peut ni accéder aux données ni les consulter, sauf lors d’opérations d'audit (impliquant parfois des récupérations de données) requises pour assurer le bon fonctionnement du service, et ce dans le respect des règles de conformité.
 
@@ -173,7 +173,7 @@ L’accès à Insights nécessite une licence Microsoft 365 A1, A3 ou A5 pour l
 ## <a name="student-information-system-sis-integration"></a>Intégration du système d'informations sur les élèves (SIE)
 Plus Insights reçoit de données, plus les enseignants peuvent aider leurs élèves, et plus les responsables de l’éducation peuvent aider les enseignants.
 
-Pour fournir des informations au niveau de l’organisation, nous devons utiliser la [Synchronisation des données scolaires (SDS)](https://docs.microsoft.com/SchoolDataSync) pour nous connecter au système d'informations sur les élèves (SIE). Ainsi, Insights présentera la structure hiérarchique du système d’enseignement correctement mappée. 
+Pour fournir des informations au niveau de l’organisation, nous devons utiliser la [Synchronisation des données scolaires (SDS)](/SchoolDataSync) pour nous connecter au système d'informations sur les élèves (SIE). Ainsi, Insights présentera la structure hiérarchique du système d’enseignement correctement mappée. 
 
 L’affichage des informations au niveau de la classe en tant qu’enseignant *ne nécessite pas* cela, car nous utilisons la structure et les autorisations de classe de Teams.
 
@@ -192,7 +192,7 @@ Si les enseignants souhaitent accéder directement à chaque classe, ils peuvent
 Dans les deux vues, les enseignants peuvent accéder aux données sur la classe. À l’aide de l’application personnelle, l’enseignant doit explorer en détail le niveau de la classe, tandis que l’onglet permet d’accéder directement aux données de la classe.
 
 > [!TIP]
-> Si vous souhaitez en savoir plus, veuillez lire la rubrique [Stratégies et packages de stratégie Teams pour l’éducation](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
+> Si vous souhaitez en savoir plus, veuillez lire la rubrique [Stratégies et packages de stratégie Teams pour l’éducation](./policy-packages-edu.md).
 
 ## <a name="encourage-the-adoption-of-insights"></a>Encourager l’adoption d’Insights
 Suscitez l’enthousiasme de votre établissement d’enseignement à l’idée d’utiliser Insights.
@@ -255,6 +255,3 @@ Vérifiez également que les étudiants n’ont *pas* [participer à la réunion
 
 > [!NOTE]
 > Si votre question n’est toujours pas posée, veuillez [ouvrir un ticket de support](https://aka.ms/edusupport). Incluez les captures d’écran pertinentes représentant le problème et la date à laquelle le problème s’est produit. Ajoutez d’autres données qui pourraient nous aider à résoudre le problème.
-
-
-

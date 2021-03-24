@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud. Pour plus d’informations sur la configuration de la messagerie vocale cloud, voir Configuring Cloud Voicemail.
-ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 4ae274f33d2b7d52c486cd9031d01bc3a532a6b3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662089"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110280"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier le service de messagerie vocale cloud pour les utilisateurs locaux
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Vue d'ensemble
 
 Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud pour vos utilisateurs locaux. Pour plus d’informations sur la configuration de la messagerie vocale cloud, voir Configurer le [service de messagerie vocale cloud.](configure-cloud-voicemail.md)
 
@@ -42,7 +42,7 @@ La messagerie vocale cloud prend la place de la messagerie unifiée Exchange en 
 
 Pour plus d’informations sur la comparaison des fonctionnalités, voir [Plan for Skype for Business Server and Exchange Server migration.](plan-um-migration.md)
 
-Skype Entreprise Server 2019 continue d’utiliser la messagerie un peu plus récente pour les utilisateurs dont les boîtes aux lettres utilisent des versions antérieures de Exchange Server (2013, 2016).  Comprendre quelle solution de messagerie vocale sera utilisée en fonction de la version Exchange Server et Skype Entreprise Server est une partie importante de la planification de la migration vers Skype Entreprise Server 2019 ou Exchange Server 2019. Pour plus d’informations sur la migration et l’interopérabilité, voir [Plan for Skype for Business Server and Exchange Server migration.](plan-um-migration.md)
+Skype Entreprise Server 2019 continue d’utiliser la messagerie un peu plus récente pour les utilisateurs dont les boîtes aux lettres utilisent des versions antérieures de Exchange Server (2013, 2016).  Comprendre la solution de messagerie vocale à utiliser en fonction de la version Exchange Server et Skype Entreprise Server est une partie importante de la planification de la migration vers Skype Entreprise Server 2019 ou Exchange Server 2019. Pour plus d’informations sur la migration et l’interopérabilité, voir [Plan for Skype for Business Server and Exchange Server migration.](plan-um-migration.md)
 
 Avec la messagerie vocale cloud, vos tâches d’administration sont considérablement simplifiées pour les raisons suivantes :
 
@@ -68,11 +68,11 @@ Les conditions suivantes supposent que Skype Entreprise Server est déjà déplo
 
 - Si vous utilisez déjà la messagerie un utilisateur exchange en ligne et que vous faites une mise à niveau vers Skype Entreprise 2019, vous devez modifier votre stratégie de messagerie vocale hébergée et vérifier que vos fournisseurs d’hébergement sont correctement définies. Pour plus d’informations, [voir Configurer le service de messagerie vocale cloud.](configure-cloud-voicemail.md)
 
-- Si vous utilisez la messagerie un utilisateur exchange en local, ou si vous avez un mélange d’utilisateurs utilisant la messagerie un utilisateur Exchange en ligne et en local, vous devez modifier votre stratégie de messagerie vocale hébergée et votre fournisseur d’hébergement.  Pour plus d’informations, [voir Configurer le service de messagerie vocale cloud.](configure-cloud-voicemail.md)
+- Si vous utilisez la messagerie un utilisateur Exchange en local ou si vous avez un mélange d’utilisateurs utilisant la messagerie un3e utilisateur Exchange en ligne et en local, vous devez modifier votre stratégie de messagerie vocale hébergée et votre fournisseur d’hébergement.  Pour plus d’informations, [voir Configurer le service de messagerie vocale cloud.](configure-cloud-voicemail.md)
 
 - Pour une nouvelle configuration de la messagerie vocale cloud, suivez les étapes décrites dans Configurer le [service de messagerie vocale cloud.](configure-cloud-voicemail.md)
 
-Outre la configuration requise ci-dessus, les conditions suivantes doivent être configurées pour se connecter au service de messagerie vocale Microsoft Cloud :
+Outre la configuration requise ci-dessus, les conditions ci-dessous doivent être configurées pour se connecter au service de messagerie vocale Microsoft Cloud :
 
 - Connectivité hybride. Si Skype Entreprise Server est déjà déployé et que vous souhaitez activer la messagerie vocale cloud pour vos utilisateurs locaux, vous devez vous assurer que la connectivité hybride est définie entre vos environnements locaux et en ligne. Il s’agit parfois d’une configuration de domaine fractionnement.
 
@@ -82,7 +82,7 @@ Outre la configuration requise ci-dessus, les conditions suivantes doivent être
 
 - Une URL des services web Exchange externes (EWS) et la découverte automatique doivent être définies, sinon certaines fonctionnalités de messagerie vocale cloud seront limitées.
 
-- Si vous avez un serveur Exchange local, configurer la messagerie vocale cloud à l’aide des étapes de la procédure de mise en place de la messagerie vocale cloud pour les utilisateurs [Exchange Server boîte aux lettres.](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)
+- Si vous avez un serveur Exchange local, configurer la messagerie vocale cloud à l’aide des étapes de la procédure de mise en place de la messagerie vocale cloud pour les utilisateurs [Exchange Server boîte aux lettres.](/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)
 
 ## <a name="migration-and-interoperability"></a>Migration et interopérabilité
 

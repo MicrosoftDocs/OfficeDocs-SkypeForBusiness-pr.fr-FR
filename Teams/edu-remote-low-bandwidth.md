@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034068"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111080"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Aide dans des situations de bande passante faible dans Teams pour l'éducation
 
@@ -62,13 +62,13 @@ Voici quelques-uns des éléments que vous pouvez définir par le biais d’une 
 - Désactivation totale de la vidéo pour qu'aucune personne ne puisse l'activer.
 - Vitesse de transmission du multimédia (définie par l’utilisateur).
 
-Pour en savoir plus sur les options disponibles et découvrir les spécificités des stratégies à mettre en place pour les réunions et les vidéos, consultez les [Paramètres de stratégie de réunion dans Teams : audio et vidéo](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video) pour obtenir des informations détaillées.
+Pour en savoir plus sur les options disponibles et découvrir les spécificités des stratégies à mettre en place pour les réunions et les vidéos, consultez les [Paramètres de stratégie de réunion dans Teams : audio et vidéo](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video) pour obtenir des informations détaillées.
 
 #### <a name="screen-sharing-policies"></a>Stratégies de partage d'écran
 
 Dans d’autres cas, il est possible que les enseignants partagent l’intégralité de leur écran avec des étudiants, alors que le partage doit être limité à une application en rapport avec le cours enseigné. Il est également possible de paramétrer cette option par le biais d’une stratégie, si celle-ci représente une meilleure option que de laisser les enseignants effectuer ce choix de manière individuelle.
 
-Pour découvrir ce que vous pouvez faire au sujet de la limitation du partage d’écran via des paramètres de stratégie, voir les [Paramètres de stratégie de réunion dans Teams : partage d’écran](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video).
+Pour découvrir ce que vous pouvez faire au sujet de la limitation du partage d’écran via des paramètres de stratégie, voir les [Paramètres de stratégie de réunion dans Teams : partage d’écran](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
 #### <a name="dial-in-number-for-meetings"></a>Numéro à composer pour des réunions
 

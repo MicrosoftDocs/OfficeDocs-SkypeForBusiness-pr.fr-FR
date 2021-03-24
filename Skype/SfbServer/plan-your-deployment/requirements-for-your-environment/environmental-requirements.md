@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: 'Résumé : Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Il existe plusieurs éléments que vous souhaitez configurer avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.'
-ms.openlocfilehash: 83e01cec8bea5a45debadcf8ef9167ddd53b6a46
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Vous devez configurer un grand nombre d’éléments avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.'
+ms.openlocfilehash: e8ebb052c1ea53781ec10f2fb4fa8437e017aecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832134"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104080"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Exigences environnementales pour Skype Entreprise Server 2015
  
 **Résumé :** Configurez la configuration requise non-serveur pour Skype Entreprise Server 2015. Il existe plusieurs éléments que vous souhaitez configurer avant de déployer, notamment Active Directory, DNS, Certs et Fileshares.
   
-Qu’est-ce qu’une exigence environnementale pour Skype Entreprise Server 2015 ? Nous avons placé tout ce qui n’est pas directement lié au serveur dans cette rubrique, donc vous n’avez pas besoin de cliquer autant. Si vous recherchez les conditions préalables du serveur, vous pouvez consulter la documentation [](../../plan-your-deployment/network-requirements/network-requirements.md) server requise pour Skype Entreprise [Server 2015.](server-requirements.md) La planification de la mise en réseau est également documentée séparément. Dans le cas contraire, voici ce que nous avons obtenu dans cet article :
+Qu’est-ce qu’une exigence environnementale pour Skype Entreprise Server 2015 ? Nous avons placé tout ce qui n’est pas directement lié au serveur dans cette rubrique, donc vous n’avez pas besoin de cliquer autant autour de vous. Si vous recherchez les conditions préalables du serveur, vous pouvez consulter la documentation [](../../plan-your-deployment/network-requirements/network-requirements.md) sur les conditions requises pour le serveur pour Skype Entreprise [Server 2015.](server-requirements.md) La planification de la mise en réseau est également documentée séparément. Dans le cas contraire, voici ce que nous avons obtenu dans cet article :
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -41,14 +41,14 @@ Qu’est-ce qu’une exigence environnementale pour Skype Entreprise Server 2015
 ## <a name="active-directory"></a>Active Directory
 <a name="AD"> </a>
 
-Bien qu’un grand nombre de données de configuration pour les serveurs et les services soient stockés dans le magasin central de gestion de Skype Entreprise Server 2015, certains éléments sont toujours stockés dans Active Directory :
+Bien que de nombreuses données de configuration pour les serveurs et les services soient stockées dans le magasin central de gestion de Skype Entreprise Server 2015, certains éléments sont toujours stockés dans Active Directory :
   
 |**Objets Active Directory**|**Types d’objets**|
 |:-----|:-----|
 |Extensions de schéma  <br/> |Extensions de l’objet utilisateur  <br/> |
 ||Extensions pour Lync Server 2013 et Lync Server 2010, afin de maintenir la compatibilité ascendante avec les versions précédentes.  <br/> |
 |Données  <br/> |URI SIP utilisateur et autres paramètres utilisateur  <br/> |
-||Objets contact pour les applications (comme l’application Response Group et l’application Conferencing Attendant).  <br/> |
+||Objets contact pour les applications (par exemple, l’application Response Group et l’application Conferencing Attendant).  <br/> |
 ||Données publiées pour des raisons de compatibilité ascendante.  <br/> |
 ||Point de contrôle de service (SCP) pour le magasin central de gestion.  <br/> |
 ||Compte d’authentification Kerberos (objet ordinateur facultatif).  <br/> |
@@ -61,7 +61,7 @@ Quel système d’exploitation du contrôleur de domaine peut-il être utilisé 
   
 - Windows Server 2016
     
-- Windows Server 2012 R2
+- Windows Server 2012 R2
     
 - Windows Server 2012
     
@@ -75,7 +75,7 @@ Quel système d’exploitation du contrôleur de domaine peut-il être utilisé 
   
 - Windows Server 2016
     
-- Windows Server 2012 R2
+- Windows Server 2012 R2
     
 - Windows Server 2012
     
@@ -91,7 +91,7 @@ Pouvez-vous avoir des contrôleurs de domaine en lecture seule dans ces environn
   
 Skype Entreprise Server 2015 ne prend pas non plus en charge le changement de nom des domaines. Si vous devez vraiment le faire, vous devrez désinstaller Skype Entreprise Server 2015, renommer le domaine, puis réinstaller Skype Entreprise Server 2015.
   
-Enfin, vous pouvez avoir affaire à un domaine avec un environnement AD DS verrouillé, et c’est tout à fait possible. Nous avons plus d’informations sur le déploiement de Skype Entreprise Server 2015 dans ce type d’environnement dans les documents de déploiement.
+Enfin, vous pouvez avoir affaire à un domaine avec un environnement AD DS verrouillé, et c’est tout à fait possible. Nous avons plus d’informations sur la façon de déployer Skype Entreprise Server 2015 dans ce type d’environnement dans les documents de déploiement.
   
 ### <a name="ad-topologies"></a>AD Topologies
 
@@ -150,7 +150,7 @@ De toute évidence, si votre infrastructure AD est en place pour le déplacement
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Plusieurs forêts dans une topologie de forêt ressource Skype Entreprise
 <a name="BKMK_multipleforestopology"> </a>
 
-![Plusieurs forêts dans un diagramme de topologie de forêt de ressources](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Diagramme de topologie de forêts multiples dans une forêt de ressources](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 Une topologie de forêt de ressources est également prise en charge ; C’est là qu’une forêt est dédiée à l’exécution de vos applications serveur, comme Microsoft Exchange Server et Skype Entreprise Server 2015. Ces forêts de ressources hébergent également une représentation synchronisée des objets utilisateur actifs, mais pas de comptes d’utilisateurs connectés. La forêt de ressources est donc un environnement de services partagés pour d’autres forêts dans lesquelles résident des objets utilisateur, et ils ont une relation de confiance au niveau de la forêt avec la forêt de ressources.
   
@@ -161,7 +161,7 @@ Pour déployer Skype Entreprise Server 2015 dans ce type de topologie, vous deve
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Plusieurs forêts dans une topologie de forêt ressource Skype Entreprise avec Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-Cette topologie est similaire à la topologie décrite dans plusieurs forêts dans une topologie de forêt de ressources [Skype Entreprise.](environmental-requirements.md#BKMK_multipleforestopology)
+Cette topologie est similaire à la topologie décrite dans plusieurs forêts dans une topologie de forêt ressource [Skype Entreprise.](environmental-requirements.md#BKMK_multipleforestopology)
   
 Dans cette topologie, il existe une ou plusieurs forêts d’utilisateurs et Skype Entreprise Server est déployé dans une forêt de ressources dédiée. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une forêt différente et configurés pour un déploiement hybride avec Exchange Online, ou les services de messagerie peuvent être fournis exclusivement par Exchange Online pour les comptes locaux. Il n’existe aucun diagramme disponible pour cette topologie.
   
@@ -170,20 +170,20 @@ Dans cette topologie, il existe une ou plusieurs forêts d’utilisateurs et Sky
 
 ![Affiche deux forêts AD, une forêt d’utilisateurs et une forêt de ressources. Les deux forêts ont une relation d’confiance. Ils sont synchronisés avec Microsoft 365 ou Office 365 à l’aide d’Azure AD Connect. Tous les utilisateurs sont activés pour Skype Entreprise via Microsoft 365 ou Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-Avec ce scénario, il existe plusieurs forêts en local, avec une topologie de forêt ressource. Il existe une relation de confiance totale entre les forêts Active Directory. L’outil Azure Active Directory Connect est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locaux et Microsoft 365 ou Office 365.
+Avec ce scénario, il existe plusieurs forêts sur site, avec une topologie de forêt ressource. Il existe une relation de confiance totale entre les forêts Active Directory. L’outil Azure Active Directory Connect est utilisé pour synchroniser les comptes entre les forêts d’utilisateurs locaux et Microsoft 365 ou Office 365.
   
- L’organisation dispose également de Microsoft 365 ou Office 365 et utilise [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) pour synchroniser ses comptes locaux avec Microsoft 365 ou Office 365. Les utilisateurs activés pour Skype Entreprise sont activés via Microsoft 365 ou Office 365 et Skype Entreprise Online. Skype Entreprise Server n’est pas déployé en local.
+ L’organisation dispose également de Microsoft 365 ou Office 365 et utilise [Azure Active Directory Connect](/previous-versions/azure/azure-services/dn832695(v=azure.100)) pour synchroniser ses comptes locaux avec Microsoft 365 ou Office 365. Les utilisateurs activés pour Skype Entreprise sont activés via Microsoft 365 ou Office 365 et Skype Entreprise Online. Skype Entreprise Server n’est pas déployé en local.
   
 L’authentification unique est fournie par une batterie des services de fédération Active Directory située dans la forêt d’utilisateurs.
   
-Dans ce scénario, il est possible de déployer Exchange en local, Exchange Online, une solution Exchange hybride ou de ne pas déployer Du tout Exchange. (Le diagramme montre uniquement Exchange en local, mais les autres solutions Exchange sont également entièrement pris en charge.)
+Dans ce scénario, il est possible de déployer Exchange en local, Exchange Online, une solution Exchange hybride ou de ne pas déployer Exchange du tout. (Le diagramme montre uniquement Exchange en local, mais les autres solutions Exchange sont également entièrement pris en charge.)
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Plusieurs forêts dans une topologie de forêt ressource avec Skype Entreprise hybride
 <a name="BKMK_multipleforestopology"> </a>
 
 Dans ce scénario, il existe une ou plusieurs forêts d’utilisateurs locaux, et Skype Entreprise est déployé dans une forêt de ressources dédiée et configuré pour le mode hybride avec Skype Entreprise Online. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et peuvent être configurés pour un déploiement hybride avec Exchange Online. Les services de messagerie peuvent également être fournis exclusivement par Exchange Online pour les comptes locaux.
   
-Pour plus d’informations, [voir Configure a multi-forest environment for hybrid Skype for Business](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md).
+Pour plus d’informations, [voir Configure a multi-forest environment for hybrid Skype for Business](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="domain-name-system-dns"></a>DNS (Domain Name System)
 <a name="DNS"> </a>
@@ -206,18 +206,18 @@ Skype Entreprise Server 2015 nécessite DNS, pour les raisons suivantes :
     
 Il est important de noter que Skype Entreprise Server 2015 ne prend pas en charge les noms de domaine internationaux (IDN).
   
-Il est extrêmement important de ne pas oublier que tout nom dans le DNS doit être identique au nom d’ordinateur configuré sur n’importe quel serveur utilisé par Skype Entreprise Server 2015. Plus précisément, nous ne pouvons pas avoir de noms courts dans l’environnement et nous devons avoir des noms de domaine noms de domaine (FQDN) pour le Générateur de topologie.
+Il est extrêmement important de ne pas oublier que tout nom dans le DNS doit être identique au nom d’ordinateur configuré sur n’importe quel serveur utilisé par Skype Entreprise Server 2015. Plus précisément, nous ne pouvons pas avoir de noms courts dans l’environnement et nous devons avoir des FQDN pour le Générateur de topologies.
   
 Cela semble logique pour tout ordinateur déjà joint à un domaine, mais si vous avez un serveur Edge qui n’est pas joint à votre domaine, il peut avoir par défaut un nom court, sans suffixe de domaine. Assurez-vous que ce n’est pas le cas, que ce soit dans DNS ou sur le serveur Edge, ou n’importe quel serveur ou pool Skype Entreprise Server 2015, d’ailleurs.
   
 Et n’utilisez absolument pas de caractères Unicode ou de traits de soulignement. Les caractères standard (A-Z, a-z, 0-9 et traits d’union) sont ceux qui vont être pris en charge par le DNS externe et les autorités de certification publiques (vous devrez affecter des noms de domaine complets au nom de domaine complet dans le certificat, n’oubliez pas), donc vous vous éviterez beaucoup de tâches si vous donnez un nom à ce sujet à l’esprit.
   
-Pour en savoir plus sur les exigences DNS relatives à la mise en réseau, consultez la section [Mise](../../plan-your-deployment/network-requirements/network-requirements.md) en réseau de notre documentation de planification.
+Pour en savoir plus sur les exigences DNS pour la mise en réseau, consultez la section [Mise en](../../plan-your-deployment/network-requirements/network-requirements.md) réseau de notre documentation de planification.
   
 ## <a name="certificates"></a>Certificats
 <a name="Certs"> </a>
 
-L’une des choses les plus importantes que vous pouvez faire avant de déployer est de vous assurer que vos certificats sont en ordre. Skype Entreprise Server 2015 a besoin d’une infrastructure à clé publique (PKI) pour les connexions TLS (Transport Layer Security) et MTLS (Mutual Transport Layer Security). Fondamentalement, pour communiquer en toute sécurité de manière normalisée, Skype Entreprise Server utilise des certificats émis par les autorités de certification .
+L’une des choses les plus importantes que vous pouvez faire avant de déployer est de vous assurer que vos certificats sont en ordre. Skype Entreprise Server 2015 a besoin d’une infrastructure à clé publique (PKI) pour les connexions TLS (Transport Layer Security) et MTLS (Mutual Transport Layer Security). Fondamentalement, pour communiquer en toute sécurité de manière normalisée, Skype Entreprise Server utilise des certificats émis par les autorités de certification..
   
 Voici quelques exemples d’utilisation de certificats par Skype Entreprise Server 2015 :
   
@@ -260,17 +260,17 @@ La planification des certificats est donc un must. Examinons maintenant une list
     
 - L’algorithme de chiffrement par défaut, ou de signature de hachage, est RSA. Les algorithmes ECDH_P256, ECDH_P384 et ECDH_P521 sont également pris en charge.
     
-Il y a donc beaucoup de choses à penser, et c’est certain qu’il existe divers niveaux de confort lors de la demande de certificats auprès d’une cae. Nous vous fournirons des conseils supplémentaires ci-dessous pour faciliter autant que possible votre planification.
+Il y a donc beaucoup de choses à penser, et c’est certain qu’il existe différents niveaux de confort avec la demande de certificats auprès d’une cae. Nous vous fournirons des conseils supplémentaires ci-dessous pour faciliter autant que possible votre planification.
   
 ### <a name="certificates-for-your-internal-servers"></a>Certificats pour vos serveurs internes
 
-Vous aurez besoin de certificats pour la plupart de vos serveurs internes et, le plus probablement, vous les aurez à partir d’une ca interne (celle qui se trouve dans votre domaine). Si vous le souhaitez, vous pouvez demander ces certificats à une ca externe (située sur Internet). Si vous vous demandez à quelle ca publique vous devez vous rendre, vous pouvez consulter la liste des partenaires de [certificats communications](/SkypeForBusiness/certification/services-ssl) unifiées.
+Vous aurez besoin de certificats pour la plupart de vos serveurs internes et, le plus probablement, vous les aurez à partir d’une ca interne (celle qui se trouve dans votre domaine). Si vous le souhaitez, vous pouvez demander ces certificats à une ca externe (située sur Internet). Si vous vous demandez à quelle ca publique vous devez vous rendre, vous pouvez consulter la liste des partenaires de [certificats communications](../../../SfbPartnerCertification/certification/services-ssl.md) unifiées.
   
-Vous aurez également besoin de certificats lorsque Skype Entreprise Server 2015 communiquera avec d’autres applications et serveurs, tels que Microsoft Exchange Server. Il s’agit évidemment d’un certificat que ces autres applications et serveurs peuvent utiliser de manière prise en charge. Skype Entreprise Server 2015 et d’autres produits Microsoft prendre en charge le protocole OAuth (Open Authorization) pour l’authentification et l’autorisation de serveur à serveur. Si cela vous intéresse, nous avons un article de planification supplémentaire pour OAuth et Skype Entreprise Server 2015.
+Vous aurez également besoin de certificats lorsque Skype Entreprise Server 2015 communiquera avec d’autres applications et serveurs, tels que Microsoft Exchange Server. Il s’agit évidemment d’un certificat que ces autres applications et serveurs peuvent utiliser de manière prise en charge. Skype Entreprise Server 2015 et d’autres produits Microsoft prendre en charge le protocole Open Authorization (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Si cela vous intéresse, nous avons un article de planification supplémentaire pour OAuth et Skype Entreprise Server 2015.
   
 Skype Entreprise Server 2015 inclut également la prise en charge (sans nécessiter) de certificats signés à l’aide de la fonction de hachage de chiffrement SHA-256. Pour prendre en charge l’accès externe à l’aide de SHA-256, le certificat externe doit être émis par une ca publique utilisant SHA-256.
   
-Pour que les choses soient simples, nous avons placé les exigences en matière de certificats pour les serveurs Standard Edition, les pools frontux et d’autres rôles dans les tableaux suivants, avec l’contoso.com fictive utilisée pour des exemples (vous utiliserez probablement autre chose pour votre environnement). Ce sont tous des certificats de serveur web standard, avec des clés privées non exportables. Voici quelques éléments supplémentaires à noter :
+Pour que les choses soient simples, nous avons placé les exigences de certificat pour les serveurs Standard Edition, les pools frontux et d’autres rôles dans les tableaux suivants, avec l’contoso.com fictif utilisé pour des exemples (vous utiliserez probablement autre chose pour votre environnement). Ce sont tous des certificats de serveur web standard, avec des clés privées non exportables. Voici quelques éléments supplémentaires à noter :
   
 - L’utilisation améliorée de la clé (EKU) du serveur est automatiquement configurée lorsque vous utilisez l’Assistant Certificat pour demander des certificats.
     
@@ -316,7 +316,7 @@ Certificats pour le Survivable Branch Appliance :
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificats pour votre serveur de conversation permanente
 
-Lors de l’installation de votre serveur de conversation permanente, vous aurez besoin d’un certificat émis par la même cae que celle utilisée par vos serveurs internes Skype Entreprise Server 2015. Cette étape doit être effectuée pour chaque serveur exécutant les services web de conversation permanente pour le chargement/téléchargement de fichiers. Nous vous recommandons vivement d’avoir les certificats requis avant de commencer votre installation de conversation permanente, et si votre ca est externe, plus encore (l’émission de ces éléments peut prendre un peu de temps).
+Lors de l’installation de votre serveur de conversation permanente, vous aurez besoin d’un certificat émis par la même cae que celui utilisé par vos serveurs internes Skype Entreprise Server 2015. Cette étape doit être effectuée pour chaque serveur exécutant les services web de conversation permanente pour le chargement/téléchargement de fichiers. Nous vous recommandons vivement d’avoir les certificats requis avant de commencer votre installation de conversation permanente, et si votre ca est externe, plus encore (l’émission de ces éléments peut prendre un peu de temps).
   
 ### <a name="certificates-for-external-user-access-edge"></a>Certificats pour l’accès des utilisateurs externes (Edge)
 
@@ -360,17 +360,16 @@ Conditions requises pour le certificat de proxy inverse (CA publique) :
 Ce SAN doit être affecté au certificat affecté à l’écoute SSL sur votre proxy inverse.
   
 > [!NOTE]
-> Votre listener de proxy inverse aura des réseaux sans pour vos URL de services web externes. San=skypewebextpool01.contoso.com et dirwebexternal.contoso.com sont des exemples si vous avez déployé le directeur (facultatif). 
+> Votre listener de proxy inverse aura des réseaux sans pour vos URL de services web externes. San=skypewebextpool01.contoso.com et dirwebexternal.contoso.com exemples, si vous avez déployé le directeur (facultatif). 
   
 ## <a name="file-share"></a>Partage de fichiers
 <a name="Fileshare"> </a>
 
 Skype Entreprise Server 2015 peut utiliser le même partage de fichiers pour tout le stockage de fichiers. Vous devez garder les choses suivantes à l’esprit :
   
-- Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau san (storage area network), ce qui inclut le système de fichiers distribués (DFS), ainsi qu’un tableau redondant de disques indépendants (RAID) pour les magasins de fichiers. Pour en savoir plus sur DFS pour Windows Server 2012, consultez [cette page DFS.](https://technet.microsoft.com/library/jj127250.aspx)
+- Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau san (storage area network), ce qui inclut le système de fichiers distribués (DFS), ainsi qu’un tableau redondant de disques indépendants (RAID) pour les magasins de fichiers. Pour en savoir plus sur DFS pour Windows Server 2012, consultez [cette page DFS.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))
     
-- Nous recommandons un cluster partagé pour le partage de fichiers. Si vous en utilisez un, vous devez regrouper Windows Server 2012 ou Windows Server 2012 R2. Windows Server 2008 R2 est également acceptable. Pourquoi la dernière version de Windows ? Il se peut que les versions antérieures ne disposent pas des autorisations permettant d’activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer les partages de fichiers, et cet article sur la création de partages de fichiers dans un [article de cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) vous aidera avec ces détails.
+- Nous recommandons un cluster partagé pour le partage de fichiers. Si vous en utilisez un, vous devez regrouper Windows Server 2012 ou Windows Server 2012 R2. Windows Server 2008 R2 est également acceptable. Pourquoi la dernière version de Windows ? Il se peut que les versions antérieures ne disposent pas des autorisations permettant d’activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer les partages de fichiers, et cet article sur la création de partages de fichiers sur un [cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) vous aidera avec ces détails.
     
 > [!CAUTION] 
 > Vous devez savoir que l’utilisation du stockage connecté au réseau (NAS) en tant que partage de fichiers n’est pas prise en charge. Utilisez donc l’une des options répertoriées ci-dessus. 
-  

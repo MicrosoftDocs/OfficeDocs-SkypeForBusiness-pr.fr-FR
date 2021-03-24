@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-description: 'Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :'
-ms.openlocfilehash: c7a360146f91c2e411ff48f52d92a3c69b0a2e11
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Vous pouvez modifier les propriétés d’un déploiement existant avec les sections suivantes :'
+ms.openlocfilehash: a49fe0872d83011c433d011e1bb5ce7a348f1bd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835364"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106870"
 ---
 # <a name="deployment-settings-expander"></a>Expandeur des paramètres de déploiement
 
-Vous pouvez modifier les propriétés d’un déploiement existant en suivant les sections suivantes :
+Vous pouvez modifier les propriétés d’un déploiement existant avec les sections suivantes :
 
 - Domaine SIP
 
@@ -73,10 +73,8 @@ Le serveur de gestion centralisée peut être changé d’un pool frontal défin
 > [!IMPORTANT]
 > Après avoir défini, publié et déployé le magasin central de gestion pour l’infrastructure, vous ne pouvez pas modifier son emplacement sans redéfinir l’emplacement du magasin central de gestion sur un autre serveur frontal par le biais d’un processus externe.
 
-Pour plus d’informations sur le déplacement du magasin central de gestion, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la Windows PowerShell cmdlet.
+Pour plus d’informations sur le déplacement du magasin central de gestion, voir [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la Windows PowerShell cmdlet.
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration de ces paramètres, voir [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
-
-
+Pour plus d’informations sur la définition et la configuration de ces paramètres, voir [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

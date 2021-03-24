@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Décisions nécessaires à la planification du contournement de média dans Skype Entreprise Server Voix Entreprise. Inclut l’interopérabilité avec le contrôle d’admission des appels (CAC).
-ms.openlocfilehash: a6d49b8abaa75e555f3de4c44b890e18b6de664a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825374"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101390"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planifier le contournement de média dans Skype Entreprise
 
@@ -33,13 +33,13 @@ Le contournement de média peut améliorer la qualité de la voix en diminuant l
 
  Lorsqu’un site de succursale sans serveur de médiation est connecté à un site central par une ou plusieurs liaisons WAN avec bande passante limitée, le contournement de média réduit les besoins en bande passante en permettant aux médias d’un client d’un site de succursale de circuler directement vers sa passerelle locale sans avoir à traverser la liaison wan vers un serveur de médiation sur le site central et vers l’arrière.
 
-En réduisant le traitement multimédia au serveur de médiation, le contournement de média peut également réduire le nombre de serveurs de médiation dont une infrastructure Voix Entreprise a besoin. En règle générale, essayez d’activer le contournement de média quand cela est possible.
+La déviation du traitement multimédia peut également réduire le nombre de serveurs de médiation dont une infrastructure Voix Entreprise a besoin. En règle générale, essayez d’activer le contournement de média quand cela est possible.
 
 La figure suivante montre des médias de base et des voies de signalisation dans des topologies avec et sans contournement de média.
 
 **Médias et voies de signalisation avec et sans contournement de média**
 
-![Application de la connexion de contournement de média CAC vocal](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 Le contournement de média est utile lorsque vous voulez réduire le nombre de serveurs de médiation déployés. Un pool de serveurs de médiation est généralement déployé sur un site central et contrôle des passerelles sur des sites de succursale. L’activation du contournement de média permet aux médias de passer des appels PSTN (Public Switched Telephone Network) depuis des clients situés sur les sites de succursale directement par les passerelles de ces sites. Les itinéraires d’appels sortants et les stratégies de Voix Entreprise Skype Entreprise Server doivent être correctement configurés afin que les appels PSTN des clients d’un site de succursale soient acheminés vers la passerelle appropriée.
 
@@ -100,11 +100,11 @@ Le contournement de média et le contrôle d’admission des appels (CAC) foncti
 
 - Cac not enabled and Media Bypass set to **Use Site and Region Information**.
 
-    Lorsque **l’utilisation des informations** de site et de région est activée, la détermination du contournement fonctionne essentiellement de la même manière, que le service Cac soit activé ou non. Autrement dit, pour tout appel PSTN donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. Ce n’est que si les deux ID de contournement sont identiques que le contournement se produit pour l’appel. S’ils ne sont pas identiques, le contournement de média ne se produit pas.
+    Lorsque **l’utilisation des informations** de site et de région est activée, la détermination du contournement fonctionne essentiellement de la même manière, que le service CAC soit activé ou non. Autrement dit, pour tout appel PSTN donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. Ce n’est que si les deux ID de contournement sont identiques que le contournement se produit pour l’appel. S’ils ne sont pas identiques, le contournement de média ne se produit pas.
 
     Même si le contrôle d’accès au client est désactivé globalement, une stratégie de bande passante doit être définie pour chaque site et lien si vous souhaitez utiliser la configuration de site et de région pour contrôler la décision de contournement. La valeur réelle de la contrainte de bande passante ou de sa modalité n’a pas d’importance. L’objectif final est que le système calcule automatiquement différents ID de contournement à associer à différents paramètres régionaux qui ne sont pas bien connectés. La définition d’une contrainte de bande passante par définition signifie qu’un lien n’est pas bien connecté.
 
-- Le cac est activé et le contournement de média n’est pas activé. Cela s’applique uniquement lorsque toutes les passerelles et IP-PBXs ne sont pas bien connectées ou ne répondent pas aux autres exigences de déviation du média. Pour plus d’informations sur les conditions requises pour le contournement de média, voir [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- Le cac est activé et le contournement de média n’est pas activé. Cela s’applique uniquement lorsque toutes les passerelles et IP-PBXs ne sont pas bien connectées ou ne répondent pas aux autres exigences de déviation du média. Pour plus d’informations sur les conditions requises pour le contournement de média, voir [Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass).
 
 ## <a name="technical-requirements"></a>Exigences techniques
 
@@ -117,5 +117,3 @@ Le contournement de média peut être utilisé lorsque les conditions suivantes 
 - L’homologue du serveur de médiation doit accepter le trafic multimédia directement à partir des points de terminaison Skype Entreprise. De nombreux itsps autorisent leur SBC à recevoir du trafic uniquement à partir du serveur de médiation. Contactez votre itsp pour déterminer si son SBC accepte le trafic multimédia directement à partir des points de terminaison Skype Entreprise.
 
 - Les clients Skype Entreprise et un homologue de serveur de médiation doivent être bien connectés, ce qui signifie qu’ils se trouvent dans la même région réseau ou sur des sites réseau qui se connectent à la région via des liaisons wan sans contrainte de bande passante
-
-

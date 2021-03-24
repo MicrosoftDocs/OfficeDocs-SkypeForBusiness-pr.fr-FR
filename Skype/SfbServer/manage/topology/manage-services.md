@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Découvrez comment afficher l’état du service, démarrer et arrêter des services et empêcher les sessions pour les services.
-ms.openlocfilehash: 6071526febcd3a4c1cb925ae3fb704eca6db575c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34228a7e1b8cf9ef044d2f1f15c4b1219f795d79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826314"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103180"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gérer les services dans Skype Entreprise Server
 
@@ -51,7 +51,7 @@ Utilisez le Panneau de contrôle Skype Entreprise Server pour afficher tous les 
     - Pour consulter le dernier état des services en cours d’exécution sur l’ordinateur, cliquez **sur Obtenir l’état du service.**
     - Pour voir la liste des services spécifiques en cours d’exécution sur l’ordinateur et l’état de chaque service, cliquez sur Propriétés, puis cliquez sur **Fermer** pour revenir à la liste.
 
-### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Affichage de l’état du service à l’aide Windows PowerShell cmdlets
+### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Affichage de l’état du service à l’Windows PowerShell cmdlets
 
 Vous pouvez également afficher l’état du service à l’Windows PowerShell l'Get-CsWindowsService cmdlet. Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations, [voir Skype Entreprise Server Management Shell.](../management-shell.md)
 
@@ -77,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Pour plus d’informations, [voir Get-CsWindowsService.](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService)
+Pour plus d’informations, [voir Get-CsWindowsService.](/powershell/module/skype/Get-CsWindowsService)
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Démarrer ou arrêter les services Skype Entreprise
 

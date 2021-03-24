@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Pour modifier les propriétés d’un site existant, procédez comme suit :'
-ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: aedb248bf229af754d2ef8eb9c5e3837c69c808d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104450"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expandeur des paramètres du site du serveur Lync
 
@@ -32,7 +32,7 @@ Pour modifier les propriétés d’un site existant, procédez comme suit :
 
 Dans les propriétés du site, vous pouvez changer ou modifier le nom du site (obligatoire), la description (facultatif), la ville (facultatif), le département/province (facultatif) et le code pays/région (facultatif).
 
-Pour plus d’informations sur les propriétés du site, voir [Add Branch Sites to Your Topology](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).
+Pour plus d’informations sur les propriétés du site, voir [Add Branch Sites to Your Topology](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology).
 
 ## <a name="federation-route-properties"></a>Propriétés des itinéraires de fédération
 
@@ -45,6 +45,4 @@ Si le paramètre de fédération du serveur ou pool de serveurs Edge a été con
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations, voir [Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
-
-
+Pour plus d’informations, voir [Topologies for External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access).

@@ -20,21 +20,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3332ec1a5c5bc05bc833511a3b33e0f4dff6cccc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460604"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111130"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre la coexistence et l’interopérabilité de Microsoft Teams et De Skype Entreprise
 
 ![Diagramme de voyage de mise à niveau mettant en relief la phase Définition de Projet](media/upgrade-banner-project-definition.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape Définition de projet")
 
-Cet article fait partie de la phase Définition de projet de votre voyage de mise à niveau. Terminé après avoir créé un équipe de financement et de projet, et défini l’étendue, les objectifs et le plan de votre projet. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
+Cet article fait partie de la phase Définition de projet de votre voyage de mise à niveau. Terminé après avoir créé un équipe de financement et de projet et défini l’étendue, les objectifs et le plan de votre projet. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
-- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Étendue définie de votre projet](./upgrade-define-project-scope.md)
 
 Si votre organisation utilise Skype Entreprise aujourd’hui et que vous commencerez à utiliser Teams en même temps que Skype Entreprise , ou si vous démarrez une mise à niveau vers Teams, il est important de comprendre comment les deux applications coexistent, quand et comment elles sont interopérables, et comment gérer la migration de vos utilisateurs jusqu’à leur mise à niveau fin de Skype Entreprise vers Teams.
 
@@ -43,13 +43,13 @@ Si votre organisation utilise Skype Entreprise aujourd’hui et que vous commenc
 >
 > En outre, vous pouvez nous rejoindre pour des ateliers interactifs en direct dans lesquels nous allons partager des conseils, des meilleures pratiques et des ressources destinées à lancer la planification et l’implémentation de la mise à niveau.
 >
-> Participez à la session de mise [à](https://aka.ms/SkypeToTeamsPlanning) niveau pour commencer.
+> Participez à la session de mise [à](./upgrade-workshops-landing-page.yml) niveau pour commencer.
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Vue d’ensemble de la coexistence de Teams et de Skype Entreprise
 
 Les sections suivantes décrivent les modes de coexistence disponibles lorsque vous décidez de mettre à niveau vers Teams, ainsi que les fonctionnalités de chaque mode. En outre, nous décrivons l’interopérabilité (interop) qui se produit entre les utilisateurs sur les clients Skype Entreprise et les utilisateurs sur les clients Teams, et la manière dont interop est affectée par le mode de coexistence choisi.
 
- Teams offre des fonctionnalités de collaboration, de conversation, d’appel et de réunion. Selon la façon dont vous choisissez de déployer Teams, ces fonctionnalités peuvent chevaucher celles de Skype Entreprise pour un utilisateur donné. Le mode par défaut est d’exécuter Teams avec Skype Entreprise avec les fonctionnalités qui se chevauchent. Toutefois, un utilisateur peut se voir attribuer l’un des différents modes de coexistence (également appelés modes de mise à niveau) conçus pour s’assurer que ces fonctionnalités ne chevauchent pas cet utilisateur (auquel cas l’interopérabilité entre Teams et Skype Entreprise est disponible). Par exemple, si vous avez des ressources importantes Skype Entreprise Server sur site avec un déploiement Voix Entreprise complexe, mais que vous [](meetings-first.md) souhaitez que vos utilisateurs profitent des réunions modernes le plus rapidement possible, vous pouvez évaluer d’abord les réunions dans un autre chemin.
+ Teams offre des fonctionnalités de collaboration, de conversation, d’appel et de réunion. Selon la façon dont vous choisissez de déployer Teams, ces fonctionnalités peuvent chevaucher celles de Skype Entreprise pour un utilisateur donné. Le mode par défaut est d’exécuter Teams avec Skype Entreprise avec les fonctionnalités qui se chevauchent. Toutefois, un utilisateur peut se voir attribuer l’un des différents modes de coexistence (également appelés modes de mise à niveau) conçus pour garantir que ces fonctionnalités ne chevauchent pas cet utilisateur (auquel cas l’interopérabilité entre Teams et Skype Entreprise est disponible). Par exemple, si vous avez des ressources importantes Skype Entreprise Server sur site avec un déploiement Voix Entreprise complexe, mais que vous [](meetings-first.md) souhaitez que vos utilisateurs profitent des réunions modernes le plus rapidement possible, vous pouvez évaluer d’abord les réunions dans un autre chemin.
 
 Nous vous recommandons de passer en revue les modes de coexistence suivants pour déterminer le chemin le plus exact pour votre organisation.
 
@@ -75,13 +75,13 @@ Phone System n’est pas pris en charge dans Teams en mode **Îles.** Le mode **
 > En mode **Îles,** tous les messages et appels des utilisateurs fédérés (personnes extérieures à votre organisation) sont remis à Skype Entreprise. Après la mise à niveau vers le mode **Teams uniquement,** tous les messages et appels en provenance de l’extérieur de votre organisation sont remis dans Teams.
 
 > [!Tip]
-> Le chemin recommandé par les clients Skype Entreprise Online consiste à utiliser le **mode** Îles par défaut, à augmenter la saturation de l’adoption de Teams au niveau de l’organisation, puis à passer au mode **Teams** uniquement rapidement. Sur les clients locaux et hybrides, en particulier les plus complexes, il peut être avantageux de déployer Skype Entreprise avec **teams** en tant que point de départ plutôt que d’utiliser le **mode** **Îles,** et de passer de là à Skype Entreprise avec le mode Collaboration et réunions Teams (autrement dit, Réunions en premier), le cas échéant, et vers le mode **Teams** uniquement lorsque l’organisation est prête à adopter Teams.
+> Le chemin recommandé par les clients Skype Entreprise Online consiste à utiliser le **mode** Îles par défaut, à augmenter la saturation de l’adoption de Teams au niveau de l’organisation, puis à passer au mode **Teams** uniquement rapidement. Sur les clients locaux et hybrides, en particulier les plus complexes, il peut être avantageux de déployer le mode Collaboration de Skype Entreprise avec **Teams** comme point de départ plutôt que d’utiliser le **mode** **Îles,** et de passer de là à Skype Entreprise avec le mode Collaboration et réunions Teams (autrement dit, Réunions en premier), le cas échéant, et au mode **Teams** uniquement lorsque l’organisation est prête à adopter Teams.
 
 ### <a name="teams-only"></a>Teams uniquement
 
 Un **utilisateur Teams uniquement** (également appelé utilisateur mis à niveau) a accès à toutes les fonctionnalités de Teams.  Ils peuvent conserver le client Skype Entreprise pour participer à des réunions sur Skype Entreprise organisées par des utilisateurs non mis à niveau ou des parties externes. Un utilisateur mis à niveau peut continuer à communiquer avec d’autres utilisateurs de l’organisation qui utilisent toujours Skype Entreprise à l’aide des fonctionnalités d’interopérabilité entre Teams et Skype Entreprise (à condition que les utilisateurs de Skype Entreprise ne soient pas en **mode** Îles). Toutefois, un utilisateur mis à niveau ne peut pas démarrer une conversation, un appel ou une réunion Skype Entreprise.
 
-Dès que votre organisation est prête à ce que certains ou tous les utilisateurs utilisent Teams comme seul outil de communication et de collaboration, vous pouvez mettre à niveau ces utilisateurs vers le mode **Teams uniquement.** Si vous faites une mise à niveau à partir du mode **Îles,** il est conseillé de saturer l’adoption de Teams dans l’ensemble de votre organisation avant de commencer le processus de mise à niveau. Cette adoption évite les scénarios de communication rompus dus au mode **Islands** qui ne fournit pas l’interopérabilité.
+Dès que votre organisation est prête à ce que certains ou tous les utilisateurs utilisent Teams comme seul outil de communication et de collaboration, vous pouvez mettre ces utilisateurs à niveau vers le mode **Teams uniquement.** Si vous faites une mise à niveau à partir du mode **Îles,** il est conseillé de saturer l’adoption de Teams dans l’ensemble de votre organisation avant de commencer le processus de mise à niveau. Cette adoption évite les scénarios de communication rompus dus au mode **Islands** qui ne fournit pas l’interopérabilité.
 
 En mode **Teams uniquement,** Teams est l’application par défaut pour le protocole SIP/Tel. Les liens dans la carte de visite d’un utilisateur dans Outlook pour les appels ou la conversation sont gérés par Teams.
 
@@ -103,7 +103,7 @@ Utilisez ce mode pour présenter Teams dans votre environnement tout en continue
 - Accès aux fichiers dans Microsoft 365 ou Office 365.
 - Applications. Fonctionnalités de communication Teams : conversation privée, appel et planification de réunions.
 
-Dans ce mode, les discussions privées, les appels et la planification de réunions d’équipes sont éteints par défaut.
+Dans ce mode, les discussions privées, les appels et la planification de réunions Teams sont éteints par défaut.
 
 Les organisations 365 ayant un point de départ de Skype Entreprise Server en local ou hybride doivent envisager ce **mode** comme une alternative au mode Îles si elles souhaitent offrir à leurs utilisateurs l’interopérabilité et la prévisibilité de leurs communications, ainsi qu’avoir un calendrier prévisible pour leur mise à niveau vers Teams (par opposition à la saturation de l’adoption en mode **Islands).**
 
@@ -116,14 +116,14 @@ Utilisez ce mode de coexistence pour accélérer la disponibilité des fonctionn
 - Effet de flou de l’arrière-plan.
 - Expérience utilisateur supérieure sur toutes les plateformes, y compris les appareils mobiles et les navigateurs.
 
-En plus de l’utilisation de Teams pour les équipes et les canaux dans ce mode, les utilisateurs utiliseront Teams pour planifier et mener leurs réunions. Les appels et les discussions privées restent sur Skype Entreprise. Teams et Skype Entreprise bénéficient d’une gamme de fonctionnalités de « meilleur ensemble », telles que le rapprochement des présences, la suspension/suspension automatique et la prise en charge des appareils HID dans les deux applications. Vous avez la possibilité de masquer les équipes et les canaux, si vous le souhaitez, à l’aide de la stratégie de configuration de l’application.
+En plus de l’utilisation de Teams pour les équipes et les conversations basées sur des canaux dans ce mode, les utilisateurs utiliseront Teams pour planifier et mener leurs réunions. Les appels et les discussions privées restent sur Skype Entreprise. Teams et Skype Entreprise bénéficient d’une gamme de fonctionnalités de « meilleur ensemble », telles que le rapprochement des présences, la suspension/suspension automatique et la prise en charge des appareils HID dans les deux applications. Vous avez la possibilité de masquer les équipes et les canaux, si vous le souhaitez, à l’aide de la stratégie de configuration de l’application.
 
 Ce mode de coexistence est particulièrement utile pour les organisations qui utilisent des déploiements Skype Entreprise sur site avec Voix Entreprise. Ces organisations prennent probablement du temps pour se mettre à niveau vers Teams et souhaitent bénéficier des réunions Teams supérieures dès que possible.
 
 > [!TIP]
 > Pour vous aider à identifier le mode de mise à niveau recommandé en fonction des fonctionnalités que vous souhaitez activer dans Teams lorsque Skype Entreprise est toujours en cours d’utilisation, tirez parti de l’Assistant Mise à niveau [de Skype vers Teams.](https://aka.ms/SkypeToTeamsWizard)
 
-Pour plus d’informations sur les modes de coexistence, les conditions préalables et la gestion, consultez les conseils sur la migration et [l’interopérabilité](https://aka.ms/SkypeToTeams-Interop) pour les organisations qui utilisent Teams avec Skype Entreprise et définir vos paramètres de coexistence et de [mise à niveau.](https://aka.ms/SkypeToTeams-SetCoexistence)
+Pour plus d’informations sur les modes de coexistence, les conditions préalables et la gestion, consultez les conseils sur la migration et [l’interopérabilité](./migration-interop-guidance-for-teams-with-skype.md) pour les organisations qui utilisent Teams avec Skype Entreprise et définir vos paramètres de coexistence et de [mise à niveau.](./setting-your-coexistence-and-upgrade-settings.md)
 
 |Icône Du point de décision |Définition de l’icône |Description |
 |---|---|---|
@@ -132,7 +132,7 @@ Pour plus d’informations sur les modes de coexistence, les conditions préalab
 
 ### <a name="interoperability-of-teams-and-skype-for-business"></a>Interopérabilité de Teams et Skype Entreprise
 
-L’interopérabilité permet aux utilisateurs de Teams et de Skype Entreprise au sein de la même organisation de communiquer entre Teams et Skype Entreprise.
+L’interopérabilité permet aux utilisateurs de Teams et De Skype Entreprise au sein de la même organisation de communiquer entre Teams et Skype Entreprise.
 
 L’interopérabilité est régie par le mode de coexistence (également appelé mode de mise à niveau) du récepteur. Il n’y a pas d’interopérabilité lorsque le récepteur est en mode **Îles.**
 
@@ -147,7 +147,7 @@ L’interopérabilité est régie par le mode de coexistence (également appelé
 Il existe deux types d’expériences interop: escalade native et escalade interop.
 
 - Une _expérience d’interop_ native se produit dans le client que l’utilisateur utilise actuellement. Un utilisateur sera dans le client Skype Entreprise, l’autre dans Teams. Une expérience d’interop native ne les fait pas communiquer avec un autre client. Les utilisateurs pourront mener leurs conversations dans le client qu’ils utilisent actuellement. Les expériences interop natives sont des appels et des discussions en un-à-un.
-- Une  escalade interoper signifie que, dans le cadre de l’aide des utilisateurs à effectuer une action avancée (telle que le partage de leur bureau), le client facilite la création d’une réunion à laquelle les utilisateurs peuvent participer pour continuer l’expérience de cette réunion. La réunion est créée sur la plateforme du initiateur de l’action. Les utilisateurs qui ne utilisent pas cette plateforme reçoivent un lien d’accès à la réunion. Quand ils cliquent sur ce lien, ils sont joints à la réunion dans un client compatible (navigateur, application web ou client complet, selon la configuration). L’escalade interoper entre Skype Entreprise nécessite un client récent. L’escalade interop depuis Teams est désormais disponible. Les deux sont pris en charge dans les expériences d’interopérabilité au sein du client et pour les clients de communication fédérée.
+- Une  escalade interoper signifie que, dans le cadre de l’aide à des utilisateurs à effectuer une action avancée (telle que le partage de leur bureau), le client facilite la création d’une réunion à laquelle les utilisateurs peuvent participer pour continuer l’expérience de cette réunion. La réunion est créée sur la plateforme du initiateur de l’action. Les utilisateurs qui ne utilisent pas cette plateforme reçoivent un lien d’accès à la réunion. Quand ils cliquent sur ce lien, ils sont joints à la réunion dans un client compatible (navigateur, application web ou client complet, selon la configuration). L’escalade entre utilisateurs de Skype Entreprise nécessite un client récent. L’escalade interop depuis Teams est désormais disponible. Les deux sont pris en charge dans les expériences d’interopérabilité au sein du client et pour les clients de communication fédérée.
 
 #### <a name="native-interop-experiences"></a>Expériences interop natives
 
@@ -162,7 +162,7 @@ Les utilisateurs de Skype Entreprise peuvent effectuer des appels vocaux et vid�
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Les expériences Interop avec un déploiement local de Skype Entreprise nécessitent que l’environnement local soit en mode hybride avec Microsoft 365 ou Office 365 Skype Entreprise. Pour plus d’informations, consultez les [conseils sur la migration et l’interopérabilité.](https://aka.ms/SkypeToTeams-Interop)
+> Les expériences Interop avec un déploiement local de Skype Entreprise nécessitent que l’environnement local soit en mode hybride avec Microsoft 365 ou Office 365 Skype Entreprise. Pour plus d’informations, consultez les [conseils sur la migration et l’interopérabilité.](./migration-interop-guidance-for-teams-with-skype.md)
 
 Ces expériences d’interopation sont disponibles pour les utilisateurs qui disposent de l’un des modes de coexistence suivants : Skype Entreprise avec la collaboration avec **Teams,** Skype Entreprise avec la collaboration et les réunions **d’équipes,** Skype Entreprise **uniquement** ou **Teams uniquement.** Les utilisateurs n’ont pas accès à l’interopérabilité en mode **Îles.**
 
@@ -190,13 +190,13 @@ Lorsque l’escalade interop est déclenchée par l’utilisateur de Teams, une 
 
 L’autre partie reçoit le lien de participer à la réunion via une conversation interop et des joints en cliquant sur ce lien. Si l’utilisateur de Skype Entreprise dispose d’un compte Teams et est invité par l’utilisateur de Teams, il participera à la réunion authentifiée. Sinon, il rejoint la groupe en tant que participant anonyme. À l’inverse, les utilisateurs de Teams ont presque toujours un compte Skype Entreprise et un client Skype Entreprise qu’ils peuvent utiliser pour participer à une réunion Skype Entreprise en tant que participant authentifié, mais ils peuvent également la rejoindre en tant que participant anonyme, par exemple en utilisant l’application de réunion Skype.
 
-Une fois que les parties ont rejoint la réunion, elles peuvent effectuer toute activité prise en charge dans les réunions, telles que le partage de bureau ou de contenu, le partage de fichiers ou le transfert, l’ajout d’autres participants, etc.
+Une fois que les parties ont rejoint la réunion, elles peuvent effectuer toute activité prise en charge dans les réunions, telles que le partage de bureau ou de contenu, le partage ou le transfert de fichiers, l’ajout d’autres participants, etc.
 
 #### <a name="interop-escalation-from-skype-for-business"></a>Escalade interop à partir de Skype Entreprise
 
-L’escalade interop et interop depuis Skype Entreprise a été mise à jour dans la version mensuelle de C2R de juillet 2019. Auparavant, Skype Entreprise n’avait pas conscience que le groupe distant utilisait Teams. Il s’est seulement produit que le signal reçu suite à l’établi d’une session.
+L’escalade interop et interop depuis Skype Entreprise a été mise à jour dans la version mensuelle de C2R de juillet 2019. Auparavant, Skype Entreprise n’avait pas conscience que le groupe distant utilisait Teams. Il a seulement fait part de l’hypothèse que le signal reçu après l’ouverture d’une session était déjà en cours.
 
-Lorsque le signalisation indiquait que la réponse provenait (ou via) la passerelle Interop, la barre d’entreprise jaune (bannière) indiquait que l’autre partie n’utilisait pas Skype Entreprise. Avec l’évolution de notre service, cela a entraîné des faux positifs qui ont permis aux utilisateurs de Skype Entreprise de voir la barre d’activité lorsqu’ils sont connectés au service de messagerie vocale cloud ou à d’autres services vocaux cloud, plutôt qu’à un véritable utilisateur de **Teams uniquement.**
+Lorsque le signalisation indiquait que la réponse provenait (ou via) la passerelle Interop, la barre d’entreprise jaune (bannière) indiquait que l’autre partie n’utilisait pas Skype Entreprise. Avec l’évolution de notre service, cela a pour conséquence de faux positifs lorsque les utilisateurs de Skype Entreprise voient la  barre d’activité lorsqu’ils sont connectés au service de messagerie vocale cloud ou à d’autres services vocaux cloud, plutôt qu’à un utilisateur teams uniquement.
 
 Pour éviter ces faux positifs, le service de présence informe désormais le client Skype Entreprise lorsque l’autre partie est un utilisateur **réel de Teams.** Cela permet à Skype Entreprise de savoir qu’une conversation interop est nécessaire avant sa création et que la fenêtre de conversation doit être spécifique à interoper.
 
@@ -208,9 +208,9 @@ Par exemple, si l’utilisateur de Skype Entreprise souhaite partager son Bureau
 
 En attendant, l’utilisateur de Teams reçoit un message de conversation entrante avec le lien vers la réunion et est guidé pour y participer.
 
-Cette escalade d’accès à une réunion Skype Entreprise est disponible pour les appels et conversations fédérés dans un client interprofessé et inter client. Elle est mise en service par défaut et aucun paramètre n’est à mettre en service par l’administrateur.
+Cette escalade d’accès à une réunion Skype Entreprise est disponible pour les appels et conversations fédérés dans un client interprofessé et inter client. Elle est mise en service par défaut et aucun paramètre n’est à définir par l’administrateur.
 
-#### <a name="interop-escalation-from-teams"></a>Escalade interop depuis Teams
+#### <a name="interop-escalation-from-teams"></a>Escalade interop à partir de Teams
 
 L’escalade entre Teams et une réunion Teams est désormais disponible lorsque l’utilisateur de Teams sélectionne le bouton de partage de bureau dans une conversation interop client avec un utilisateur Skype Entreprise ou dans un fil de fédération inter-client interop. L’escalade interop est prise en charge dans une conversation à deux ou dans un appel à deux.
 
@@ -226,9 +226,9 @@ Dès acceptation, ils sont placés dans la réunion Teams ; ils doivent commence
 
 En attendant, l’utilisateur de Skype Entreprise reçoit un message de conversation entrante avec le lien vers la réunion et est guidé pour y participer.
 
-Cette escalade d’accès à une réunion Teams est disponible pour les appels et conversations fédérés dans un client interprofessé et inter client. Elle est mise en service par défaut et aucun paramètre n’est à mettre en service par l’administrateur. Toutefois, il est désactivé pour l’utilisateur si l’administrateur ``-AllowPrivateMeetNow`` définit ``CsTeamsMeetingPolicy`` sur ``$false`` .
+Cette escalade d’accès à une réunion Teams est disponible pour les appels et conversations fédérés dans un client interprofessé et inter client. Elle est mise en service par défaut et aucun paramètre n’est à définir par l’administrateur. Toutefois, il est désactivé pour l’utilisateur si l’administrateur ``-AllowPrivateMeetNow`` définit ``CsTeamsMeetingPolicy`` sur ``$false`` .
 
-Après avoir lu cet article, consultez Choisir votre voyage de mise à [niveau,](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)les conseils de migration et [d’interopérabilité,](https://aka.ms/SkypeToTeams-Interop)la [coexistence](coexistence-chat-calls-presence.md)avec Skype Entreprise et la définition de vos paramètres de coexistence et de mise à niveau pour des [détails](https://aka.ms/SkypeToTeams-SetCoexistence) de mise en œuvre. Nous recommandons également la vidéo suivante : Vidéo : Gérer la coexistence et [l’interopérabilité entre SfB et Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+Après avoir lu cet article, consultez Les conseils sur la mise à [niveau,](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)la migration et [l’interopérabilité,](./migration-interop-guidance-for-teams-with-skype.md)la [coexistence](coexistence-chat-calls-presence.md)avec Skype Entreprise et la définition de vos paramètres de [coexistence](./setting-your-coexistence-and-upgrade-settings.md) et de mise à niveau pour plus d’informations sur la mise en œuvre. Nous recommandons également la vidéo suivante : Vidéo : Gérer la coexistence et [l’interopérabilité entre SfB et Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
 
 ## <a name="technical-details-of-teams-and-skype-for-business-coexistence"></a>Détails techniques de Teams et de la coexistence avec Skype Entreprise
 
@@ -236,7 +236,7 @@ Les sections suivantes résument le comportement qui peut être utilisé lors de
 
 - [Réunions](#meetings)
 - [Interopérabilité](#interoperability)
-- [Threads de conversation Interop et natifs](#interop-versus-native-conversation-threads)
+- [Interop et threads de conversation natifs](#interop-versus-native-conversation-threads)
 - [Présence](#presence)
 - [Fédération](#federation)
 - [Contacts](#contacts)
@@ -268,15 +268,15 @@ Une conversation ou un appel interop est créé entre deux utilisateurs lorsque 
 
 - Le mode du destinataire de la communication initiale n’est PAS (sinon, la communication se place dans le même client) si les deux utilisateurs font partie de la même organisation. Dans les scénarios fédérés, l’utilisateur d’envoi utilise Teams et le destinataire n’est pas en mode TeamsOnly. 
 
-- L’utilisateur de Teams n’a pas non plus de compte Skype Entreprise homed sur site.
+- L’utilisateur de Teams n’a PAS non plus de compte Skype Entreprise homed sur site.
 
 Dans la communication interop, la conversation est uniquement en texte intégral. De plus, le partage de fichiers et le partage d’écran ne sont pas possibles *dans la conversation interop elle-même.* Toutefois, les utilisateurs d’une conversation interop peuvent facilement obtenir un partage de fichier et/ou d’écran en créant une réunion à la demande, au sein de la conversation interop, comme décrit ci-dessous :
 
 - Si l’utilisateur de Teams tente de partager son écran, une réunion Teams à la demande est automatiquement créée et un lien d’invitation vers cette réunion est envoyé au client de l’utilisateur Skype Entreprise. Lorsque vous cliquez sur le lien, l’utilisateur de Skype Entreprise ouvre Teams et rejoint la réunion. Les deux utilisateurs sont maintenant dans une réunion Teams et peuvent partager le cas nécessaire.
 
-- Si l’utilisateur de Skype Entreprise utilise un client depuis 2018 ou une date ultérieure et tente de partager du contenu, une réunion Skype Entreprise à la demande est créée automatiquement et un lien d’invitation à cette réunion est envoyé au client de l’utilisateur de Teams. Lorsque vous cliquez sur le lien, l’utilisateur de Teams tente de participer à la réunion Skype Entreprise. Si le client Skype Entreprise est installé sur l’utilisateur Teams, celui-ci s’ouvre et l’utilisateur est invité à se connecter (s’il n’est pas encore inscrit).  Si le client Skype Entreprise n’est pas installé pour l’utilisateur Teams, il est invité à utiliser la version web. Une fois les deux utilisateurs inscrits, ils sont en réunion Skype Entreprise et peuvent les partager au besoin.
+- Si l’utilisateur de Skype Entreprise utilise un client depuis 2018 ou une date ultérieure et tente de partager du contenu, une réunion Skype Entreprise à la demande est créée automatiquement et un lien d’invitation à cette réunion est envoyé au client de l’utilisateur de Teams. Lorsque vous cliquez sur le lien, l’utilisateur de Teams tente de participer à la réunion Skype Entreprise. Si le client Skype Entreprise est installé sur l’utilisateur Teams, celui-ci s’ouvre et l’utilisateur est invité à se connecter (s’il n’est pas encore connecté).  Si le client Skype Entreprise n’est pas installé pour l’utilisateur Teams, il est invité à utiliser la version web. Une fois les deux utilisateurs inscrits, ils sont en réunion Skype Entreprise et peuvent les partager au besoin.
 
-### <a name="interop-versus-native-conversation-threads"></a>Threads de conversation Interop et natifs
+### <a name="interop-versus-native-conversation-threads"></a>Interop et threads de conversation natifs
 
 Étant donné que les communications interop n’offrent pas toutes les fonctionnalités des conversations Teams natives, le client Teams propose des threads de conversation distincts pour les communications Teams-to-Teams et teams-to-Skype Entreprise. Ces conversations sont rendues différemment dans l’interface utilisateur : Les threads Interop peuvent être différenciés d’un thread Teams natif normal par :
 
@@ -285,7 +285,7 @@ Dans la communication interop, la conversation est uniquement en texte intégral
 
 Ces différences sont affichées dans les captures d’écran suivantes :
 
-Conversation Teams-to-Teams native avec le test User G3
+Conversation Teams-to-Teams native avec Test Utilisateur G3
 
 ![Diagramme montrant une conversation Teams-to-Teams native](media/teams-upgrade-native-thread.png)
 
@@ -293,7 +293,7 @@ Conversation interop avec le même test Utilisateur G3
 
 ![Diagramme montrant une conversation Interop Teams-to-Teams](media/teams-upgrade-interop-thread.png)
 
-Une fois qu’un fil de conversation est créé, son type ne change jamais. Une fois créée, un thread interop dans Teams routera toujours vers le client Skype Entreprise de l’utilisateur cible. Un fil de discussion natif routera toujours vers le client Teams de l’utilisateur cible.  Si le mode d’un utilisateur du destinataire change, les threads Teams existants à cet utilisateur ne fonctionnent plus et une note s’affiche dans cette conversation avec un lien pour commencer une nouvelle conversation native, comme illustré dans la capture d’écran suivante.
+Une fois qu’un fil de conversation est créé, son type ne change jamais. Une fois créée, un thread interop dans Teams routera toujours vers le client Skype Entreprise de l’utilisateur cible. Un fil de discussion natif routera toujours vers le client Teams de l’utilisateur cible.  Si le mode d’un utilisateur du destinataire change, les threads Teams existants à cet utilisateur ne fonctionnent plus et une note s’affiche dans cette conversation avec un lien pour démarrer une nouvelle conversation native, comme illustré dans la capture d’écran suivante.
 
 ![Diagramme montrant une conversation avec l’utilisateur Skype Entreprise mis à niveau](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
@@ -303,13 +303,13 @@ La présence d’un utilisateur donné est basée sur l’activité de l’utili
 
 Le comportement de publication de présence est basé sur le mode de l’utilisateur. Il existe trois cas de base :
 
-- Si un utilisateur est en mode TeamsOnly, tous les autres utilisateurs voient la présence Teams pour cet utilisateur, quel que soit le client qu’ils utilisent.
+- Si un utilisateur est en mode TeamsOnly, tous les autres utilisateurs voient la présence Teams pour cet utilisateur, quel que soit le client qu’il utilise.
 
 - Si un utilisateur est dans l’un des modes Skype Entreprise, tous les autres utilisateurs voient la présence de Skype Entreprise pour cet utilisateur, quel que soit le client qu’il utilise.
 
 - Si un utilisateur est en mode Îles, la présence publiée dans Skype Entreprise et Teams est indépendante, de sorte que la présence affichée aux utilisateurs au sein de la même organisation dépend du client de l’autre utilisateur. Les utilisateurs d’organisations fédérées peuvent voir s’ils sont présents en fonction de leur activité Skype Entreprise, car le trafic fédéré vers un utilisateur du mode Îles arrive dans Skype Entreprise.
 
-Par exemple, supposons que l’utilisateur A se trouve en mode Îles. Si l’utilisateur A est actif dans Teams mais n’est pas connecté à Skype Entreprise, d’autres utilisateurs voient l’utilisateur A comme actif à partir de leur client Teams, mais dans leur client Skype Entreprise, ils voient l’utilisateur A comme étant hors connexion. Cela est tout à fait possible, car l’utilisateur A ne peut pas être joint s’il n’exécute pas le client. 
+Par exemple, supposons que l’utilisateur A se trouve en mode Îles. Si l’utilisateur A est actif dans Teams, mais n’est pas connecté à Skype Entreprise, d’autres utilisateurs voient l’utilisateur A comme actif à partir de leur client Teams, mais dans leur client Skype Entreprise, ils voient l’utilisateur A comme hors connexion. Cela est tout à fait possible, car l’utilisateur A ne peut pas être joint s’il n’exécute pas le client. 
 
 
 ### <a name="federation"></a>Fédération
@@ -318,15 +318,15 @@ La fédération de Teams vers un autre utilisateur utilisant Skype Entreprise n�
 
 - Les conversations et appels initiés à partir de Teams sont lancés dans Skype Entreprise si le destinataire se trouve dans un client fédéré.
 - Les conversations et appels initiés à partir de Teams se placent dans Teams si le destinataire se trouve dans le même client.
-- Les conversations et appels lancés par Skype Entreprise sont toujours lancés dans Skype Entreprise.
+- Les conversations et appels initiés par Skype Entreprise sont toujours lancés dans Skype Entreprise.
 
 Une conversation fédérée peut être un thread natif ou un thread interop. Consultez [les threads de conversation Interop et natifs.](#interop-versus-native-conversation-threads)
 
 - Si le récepteur et l’expéditeur sont tous deux en mode de mise à niveau TeamsOnly, la conversation sera une expérience de conversation native qui inclut toutes les fonctionnalités de messagerie et d’appel enrichies. Pour en savoir plus, lisez l’expérience de conversation native pour [les utilisateurs externes (fédérés) dans Teams.](native-chat-for-external-users.md) 
 
-- Si l’un des participants à la conversation n’est PAS en mode de mise à niveau TeamsOnly, la conversation reste une expérience d’échange avec les messages texte uniquement. L’interface utilisateur expose les conversations fédérées de la même manière que les threads interop de même client, sauf qu’une note indique que l’utilisateur est externe.
+- Si l’un des participants à la conversation n’est PAS en mode de mise à niveau TeamsOnly, la conversation reste une expérience d’échange avec les messages texte uniquement. L’interface utilisateur expose les conversations fédérées de la même manière que les threads interop du même client, sauf qu’une note indique que l’utilisateur est externe.
 
-Pour plus d’informations, voir Gérer l’accès externe dans [Microsoft Teams](manage-external-access.md) et l’expérience de conversation native pour les utilisateurs [externes (fédérés) dans Teams.](native-chat-for-external-users.md)
+Pour plus d’informations, voir Gérer l’accès externe dans [Microsoft Teams](manage-external-access.md) et l’expérience de conversation native pour les utilisateurs externes [(fédérés) dans Teams.](native-chat-for-external-users.md)
 
 ### <a name="contacts"></a>Contacts
 
@@ -342,12 +342,12 @@ Dans les deux cas, le transfert de contacts de Skype Entreprise vers Teams est a
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Déplacer des utilisateurs entre l’environnement local et le cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Déplacer des utilisateurs entre l’environnement local et le cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Utilisation du service Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Utilisation du service Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

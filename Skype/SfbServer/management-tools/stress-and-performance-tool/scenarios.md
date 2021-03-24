@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Tâches à effectuer pour configurer Skype Entreprise Server 2015 afin d’effectuer des tests de performances et de charge à l’aide de l’outil Stress and Performance.
-ms.openlocfilehash: 3edc945f09ef5b2c7c6ecdefcbc66166f0945aec
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e0a3cc3767cf7652bda9bfacb14ced6632e32d87
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814704"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105370"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Scénarios de performances pour l’outil Stress and Performance de Skype Entreprise Server 2015
  
@@ -39,7 +39,7 @@ Nous fournissons des exemples de scripts PowerShell que vous pouvez utiliser pou
   
 ## <a name="stress-and-performance-tool-client-version-names"></a>Noms de version du client de l’outil Stress and Performance
 
-Vous devrez peut-être configurer la stratégie de vérification de version du client si vous avez précédemment modifié les paramètres par rapport aux valeurs par défaut. Si vous n’êtes pas sûr de cela, consultez la [documentation de vérification de version du client.](https://msdn.microsoft.com/vsto/jj923060)
+Vous devrez peut-être configurer la stratégie de vérification de version du client si vous avez précédemment modifié les paramètres par rapport aux valeurs par défaut. Si vous n’êtes pas sûr de cela, consultez la documentation de vérification [de version du client.](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)
   
 L’outil Stress and Performance utilise les versions d’agent utilisateur suivantes par défaut lors de la communication avec Skype Entreprise Server 2015 :
   
@@ -52,5 +52,3 @@ Pour le client mobility (UCWA) dans LyncPerfTool :
 - Outil de perf UCWA/conférence web
     
 - Outil de perf UCWA/Mobile
-    
-

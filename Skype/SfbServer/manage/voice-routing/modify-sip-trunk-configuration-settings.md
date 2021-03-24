@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: a4c91d447fd61a2763fcabce492e4f85f88cb538
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827724"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114120"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
 
@@ -44,20 +44,20 @@ Lorsque vous modifiez les paramètres de configuration d’une trunk SIP à l’
 |Activer les données de transfert P-Asserted-Identity|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.|
 |Activer le minuteur de basculement de routage de trafic sortant|EnableFastFailoverTimer|Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront acheminés vers la jonction suivante disponible ; s’il n’existe aucune jonction supplémentaire, l’appel est automatiquement abandonné. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.|
 |Utilisations PSTN associées|PSTNUsages|Collection d’utilisations PSTN assignées à la jonction.|
-|Numéro traduit à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
+|Numéro traduit à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
 |Règles de traduction associées|OutboundTranslationRulesList|Collection de règles de traduction de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels acheminés vers les destinations PBX ou PSTN).|
 |Règles de traduction du numéro appelé|OutboundCallingNumberTranslationRulesList|Collection de règles de traduction de numéro d’appel sortant assignées à la jonction.|
-|Numéro de téléphone à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
-|Numéro appelant|N/A|Indique que le numéro de téléphone à tester est celui de l’appelant.|
-|Numéro appelé|N/A|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
+|Numéro de téléphone à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
+|Numéro appelant|S/O|Indique que le numéro de téléphone à tester est celui de l’appelant.|
+|Numéro appelé|S/O|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
 |||
 
 > [!Note]
-> Les cmdlets CsTrunkConfiguration de Skype Entreprise Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration de Skype Entreprise Server. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsTrunkConfiguration.](https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Les cmdlets CsTrunkConfiguration de Skype Entreprise Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration de Skype Entreprise Server. Pour plus d’informations, voir la rubrique d’aide pour [l';set-CsTrunkConfiguration.)](/powershell/module/skype/Set-CsTrunkConfiguration) 
 
 **Pour modifier les paramètres de configuration des trunks SIP à l’aide du Panneau de configuration de Skype Entreprise Server**
 
-1. Dans le Panneau de configuration de Skype Entreprise Server, cliquez sur **Routage** des voix, puis cliquez sur **Configuration de la configuration des branches.**
+1. Dans le Panneau de configuration de Skype Entreprise Server, cliquez sur **Routage** des voix, puis sur **Configuration de la configuration de la configuration des branches.**
 2. Sous l’onglet **Configuration de la jonction**, double-cliquez sur les paramètres de configuration de la jonction à modifier. Notez que vous ne pouvez modifier qu’une collection de paramètres à la fois. Si vous voulez apporter les mêmes modifications à plusieurs collections, utilisez Windows PowerShell à la place.
 3. Dans la **boîte de dialogue Modifier la configuration** de la trunk, faites les sélections appropriées, puis cliquez sur **OK**.
 4. La propriété État de la collection est mise à jour et présente la valeur Non validé. Pour valider les modifications et supprimer la collection, cliquez sur **Valider,** puis sur **Valider tout.**

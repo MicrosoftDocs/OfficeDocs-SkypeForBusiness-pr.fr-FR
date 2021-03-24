@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
-ms.openlocfilehash: a51ffe9248a8d5daf1e21a9c20bb753ddb26898f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 65bf3c07b2186ae8251c570880d54242944ff6e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825684"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101510"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : collecte des conditions requises pour le contrôle d’admission des appels dans Skype Entreprise Server
 
@@ -60,7 +60,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
      ![Exemple de topologie réseau avec 3 régions réseau](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, [voir Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
+    > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, voir [Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
 
     Dans l’exemple de topologie réseau précédent, il existe trois régions réseau, chacune avec un site central Skype Entreprise Server qui gère le contrôle d’accès au contrôle d’accès. Le site central approprié pour une région réseau est choisi par le périmètre géographique. Étant donné que le trafic multimédia sera le plus important au sein des régions réseau, la propriété par secteur géographique le rend autonome et continuera à fonctionner même si d’autres sites centraux deviennent indisponibles. 
 
@@ -175,7 +175,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
    | Détroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. Dans le contrôle d’admission des appels Skype Entreprise Server, les connexions entre les régions réseau sont appelées liens de région. Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :
+7. Dans le contrôle d’admission des appels Skype Entreprise Server, les connexions entre régions réseau sont appelées liens de région. Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :
 
    - Limite de bande passante globale à appliquer à toutes les sessions audio simultanées. Si une nouvelle session audio entraîne le dépassement de cette limite, Skype Entreprise Server n’autorise pas le démarrage de la session.
 
@@ -235,9 +235,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 ### <a name="next-steps"></a>Étapes suivantes
 
-Une fois que vous avez collecté les informations requises, vous pouvez effectuer le déploiement du contrôle d’accès au contrôle d’accès en utilisant Skype Entreprise Server Management Shell ou le Panneau de contrôle Skype Entreprise Server.
+Une fois que vous avez collecté les informations requises, vous pouvez effectuer le déploiement du contrôle d’accès au contrôle d’accès à l’aide de Skype Entreprise Server Management Shell ou du Panneau de contrôle Skype Entreprise Server.
 
 > [!NOTE]
-> Bien que vous pouvez effectuer la plupart des tâches de configuration réseau à l’aide du Panneau de configuration de Skype Entreprise Server, pour créer des sous-réseaux et des liens intersite, vous devez utiliser Skype Entreprise Server Management Shell. Pour plus d’informations, voir [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
-
-
+> Bien que vous pouvez effectuer la plupart des tâches de configuration réseau à l’aide du Panneau de configuration de Skype Entreprise Server, pour créer des sous-réseaux et des liens intersite, vous devez utiliser Skype Entreprise Server Management Shell. Pour plus d’informations, voir [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).

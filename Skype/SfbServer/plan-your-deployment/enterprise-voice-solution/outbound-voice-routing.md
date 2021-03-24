@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Découvrez le routage des appels sortants dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires de voix.
-ms.openlocfilehash: f29feabe8ad13a38af3e3818936be7cfbcdf5f06
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Découvrez le routage des voix sortantes dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires de voix.
+ms.openlocfilehash: 70681e995068a0999324694a78806421e0f2d129
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101280"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des voix sortantes dans Skype Entreprise Server
  
-Découvrez le routage des appels sortants dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires de voix.
+Découvrez le routage des voix sortantes dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires de voix.
   
-Le routage des appels sortants s’applique aux appels Voix Entreprise qui sont destinés à une passerelle, une passerelle PSTN (réseau téléphonique commuté), une trunke ou un PBX (Private Branch Exchange). Lorsqu’un utilisateur skype entreprise passe un appel, le serveur normalise le numéro de téléphone au format E.164, si nécessaire, et tente de le faire correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
+Le routage des appels sortants s’applique aux appels Voix Entreprise qui sont destinés à une passerelle, une passerelle PSTN (réseau téléphonique commuté), une trunke ou un PBX (Private Branch Exchange). Lorsqu’un utilisateur Skype Entreprise passe un appel, le serveur normalise le numéro de téléphone au format E.164, si nécessaire, et tente de le faire correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
   
 **Paramètres de routage des appels sortants Skype Entreprise Server**
 
@@ -60,9 +60,9 @@ Les niveaux d’étendue du plan de numérotation sont définis comme suit :
     
 - **Plan de numérotation** de pool : peut être créé au niveau du service pour une passerelle PSTN ou un bureau d’enregistrement dans votre topologie. Pour définir un plan de numérotation de pool, vous devez spécifier le service particulier (passerelle PSTN ou pool de bureaux d’inscriptions) auquel s’applique le plan de numérotation. 
     
-- **Plan de numérotation** de site : peut être créé pour un site entier, à l’exception des utilisateurs, des groupes ou des objets contact affectés à un plan de numérotation de pool ou à un plan de numérotation utilisateur. Pour définir un plan de numérotation de site, vous devez spécifier le site auquel le plan de numérotation s’applique.
+- **Plan de numérotation** de site : peut être créé pour un site entier, à l’exception des utilisateurs, groupes ou objets contact affectés à un plan de numérotation de pool ou à un plan de numérotation utilisateur. Pour définir un plan de numérotation de site, vous devez spécifier le site auquel le plan de numérotation s’applique.
     
-- **Plan de numérotation global**: plan de numérotation par défaut installé avec le produit. Vous pouvez modifier le plan de numérotation global, mais vous ne pouvez pas le supprimer. Ce plan de numérotation s’applique à tous les Voix Entreprise utilisateurs, groupes et objets contact de votre déploiement, sauf si vous configurez et affectez un plan de numérotation avec une étendue plus spécifique.
+- **Plan de numérotation global**: plan de numérotation par défaut installé avec le produit. Vous pouvez modifier le plan de numérotation global, mais vous ne pouvez pas le supprimer. Ce plan de numérotation s’applique à tous les utilisateurs, groupes et objets contact Voix Entreprise dans votre déploiement, sauf si vous configurez et affectez un plan de numérotation avec une étendue plus spécifique.
     
 ### <a name="planning-for-dial-plans"></a>Planification des plans de numérotation
 
@@ -74,7 +74,7 @@ Pour planifier un plan de numérotation, suivez les étapes suivantes :
     
 - Identifiez les modèles de numéro valides pour chaque site.
     
-    La partie la plus longue de la planification de vos plans de numérotation consiste à identifier les modèles de numéros valides pour chaque site. Dans certains cas, vous pouvez copier les règles de normalisation que vous avez écrites pour un plan de numérotation vers d’autres plans de numérotation, en particulier si les sites correspondants se trouve dans le même pays/région ou même le même continent. Dans d’autres cas, de petites modifications apportées aux numéros d’un plan de numérotation peuvent suffire à les utiliser dans d’autres plans de numérotation.
+    La partie la plus longue de la planification de vos plans de numérotation consiste à identifier les modèles de numéros valides pour chaque site. Dans certains cas, vous pouvez copier les règles de normalisation que vous avez écrites pour un plan de numérotation vers d’autres plans de numérotation, en particulier si les sites correspondants se trouve dans le même pays/la même région ou même le même continent. Dans d’autres cas, de petites modifications apportées aux numéros dans un plan de numérotation peuvent suffire à les utiliser dans d’autres plans de numérotation.
     
 - Développer un schéma à l’échelle de l’organisation pour nommer des plans de numérotation.
     
@@ -88,11 +88,11 @@ Pour planifier un plan de numérotation, suivez les étapes suivantes :
     
 - Déterminer l’étendue du plan de numérotation (comme décrit précédemment dans cette rubrique).
     
-Pour créer un plan de numérotation, vous devez spécifier des valeurs dans les champs suivants, selon les besoins, à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Pour créer un plan de numérotation, vous spécifiez des valeurs dans les champs suivants, selon les besoins, à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
 #### <a name="name-and-simple-name"></a>Nom et nom simple
 
-Pour les plans de numérotation utilisateur, vous devez spécifier un nom descriptif qui identifie les utilisateurs, les groupes ou les objets contact auquel le plan de numérotation sera affecté. Pour les plans de numérotation de site, le champ Nom est pré-rempli avec le nom du site et ne peut pas être modifié. Pour les plans de numérotation de pool, le champ Nom est pré-rempli avec la passerelle PSTN ou le nom de domaine complet (FQDN) du pool frontal et ne peut pas être modifié.
+Pour les plans de numérotation utilisateur, vous devez spécifier un nom descriptif qui identifie les utilisateurs, les groupes ou les objets contact auquel le plan de numérotation sera affecté. Pour les plans de numérotation de site, le champ Nom est pré-rempli avec le nom du site et ne peut pas être modifié. Pour les plans de numérotation de pool, le champ Nom est pré-rempli avec la passerelle PSTN ou le nom de domaine complet du pool frontal et ne peut pas être modifié.
   
 Le nom simple du plan de numérotation est pré-rempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simple est modifiable, ce qui vous permet de créer une convention d’attribution de noms plus descriptive pour vos plans de numérotation. La valeur Nom de l’exemple ne peut pas être vide et doit être unique. Une meilleure pratique consiste à développer une convention d’attribution de noms pour l’ensemble de votre organisation, puis à utiliser cette convention de manière cohérente sur tous les sites et tous les utilisateurs.
   
@@ -113,7 +113,7 @@ Vous pouvez spécifier un préfixe d’accès externe de quatre caractères au p
   
 ### <a name="normalization-rules"></a>Règles de normalisation
 
-Les règles de normalisation définissent la façon dont les numéros de téléphone exprimés dans différents formats doivent être acheminés pour l’emplacement nommé. La même chaîne de numéro peut être interprétée et traduite différemment, en fonction des paramètres régionaux à partir des lesquels elle est composé. Les règles de normalisation sont nécessaires pour le routage des appels, car les utilisateurs peuvent et utilisent différents formats lors de la saisie de numéros de téléphone dans leurs listes de contacts.
+Les règles de normalisation définissent la façon dont les numéros de téléphone exprimés dans différents formats doivent être acheminés pour l’emplacement nommé. La même chaîne de numéros peut être interprétée et traduite différemment, en fonction des paramètres régionaux à partir des lesquels elle est composé. Les règles de normalisation sont nécessaires pour le routage des appels, car les utilisateurs peuvent et utilisent différents formats lors de la saisie de numéros de téléphone dans leurs listes de contacts.
   
 La normalisation des numéros de téléphone fournis par l’utilisateur fournit un format cohérent qui facilite les tâches suivantes :
   
@@ -135,16 +135,16 @@ Les champs de nombre suivants sont parmi ceux que vos règles de normalisation d
     
 #### <a name="creating-normalization-rules"></a>Création de règles de normalisation
 
-Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numérique que le serveur utilise pour traduire les chaînes de numérotation au format E.164 dans le but d’effectuer une recherche inversée de numéros. Vous créez des règles de normalisation dans le Panneau de contrôle Skype Entreprise Server en entrant les expressions manuellement ou en entrant les chiffres de début et la longueur des chaînes de numérotation à mettre en correspondance et en laissant le Panneau de contrôle Skype Entreprise Server générer l’expression régulière correspondante à votre place. Dans les deux cas, lorsque vous avez terminé, vous pouvez entrer un numéro de test pour vérifier que la règle de normalisation fonctionne comme prévu.
+Les règles de normalisation utilisent .NET Framework expressions régulières pour spécifier des modèles de correspondance numérique que le serveur utilise pour traduire les chaînes de numérotation au format E.164 dans le but d’effectuer une recherche inversée de numéros. Vous créez des règles de normalisation dans le Panneau de contrôle Skype Entreprise Server en entrant les expressions manuellement ou en entrant les chiffres de début et la longueur des chaînes de numérotation à mettre en correspondance et en laissant le Panneau de contrôle Skype Entreprise Server générer l’expression régulière correspondante à votre place. Dans les deux cas, lorsque vous avez terminé, vous pouvez entrer un numéro de test pour vérifier que la règle de normalisation fonctionne comme prévu.
   
-Pour plus d’informations sur l’utilisation des expressions régulières .NET Framework, voir « Expressions régulières [.NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927)».
+Pour plus d’informations sur .NET Framework expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)».
   
 #### <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 <a name="BKMK_SampleNormalizationRules"> </a>
 
-Le tableau suivant présente des exemples de règles de normalisation écrites en tant qu’expressions régulières .NET Framework. Les exemples sont des exemples uniquement et ne sont pas destinés à être une référence normative pour la création de vos propres règles de normalisation.
+Le tableau suivant présente des exemples de règles de normalisation écrites sous la .NET Framework expressions régulières. Les exemples sont des exemples uniquement et ne sont pas destinés à être une référence normative pour la création de vos propres règles de normalisation.
   
-**Tableau 1.Règles de normalisation utilisant des expressions régulières .NET Framework**
+**Tableau 1.Règles de normalisation utilisant .NET Framework expressions régulières**
 
 |**Nom de la règle**|**Description**|**Modèle de numéro**|**Traduction**|**Exemple**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -233,7 +233,7 @@ Vous pouvez activer ou désactiver les fonctionnalités d’appel suivantes pour
     
 - **Le suivi des** appels malveillants permet aux utilisateurs de signaler des appels malveillants à l’aide du client Skype Entreprise, puis de les signaler dans les enregistrements des détails des appels. Désactivé par défaut.
     
--  La fonction d’évitement de messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée, et est basé sur une valeur de timer. Ce paramètre active et désactive le timer et définit la valeur du timer. Il ne peut être configuré qu’à l’aide de Skype Entreprise Server Management Shell. Désactivé par défaut.
+-  La fonction d’évitement de la messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée, et est basé sur une valeur de timer. Ce paramètre active et désactive le timer et définit la valeur du timer. Il ne peut être configuré qu’à l’aide de Skype Entreprise Server Management Shell. Désactivé par défaut.
     
 - Le forwarding d’appel et les **utilisations PSTN** de sonnerie simultanée permettent aux administrateurs de spécifier la même utilisation PSTN que la stratégie de voix pour le forwarding d’appel et la sonnerie simultanée, de limiter le forwarding d’appel et la sonnerie simultanée aux utilisateurs internes de Skype Entreprise uniquement, ou de spécifier une utilisation PSTN personnalisée différente de l’utilisation PSTN de la stratégie de voix. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
     
@@ -332,5 +332,3 @@ Lors de la création d’itinéraires téléphoniques sortants, vous devez avoir
 - Si un utilisateur n’est pas activé pour Voix Entreprise, le serveur applique une autre logique de routage, le cas échéant.
     
 - Si un appel est acheminé vers une passerelle totalement occupée (toutes les lignes de la jonction sont occupées), la passerelle refuse l’appel et la logique de routage des appels sortants le redirige vers l’itinéraire à moindre coût suivant. Vous devez tenir compte de ces éléments, car une passerelle dont la taille est adaptée à un petit bureau à l’étranger (par exemple, Zurich) peut en réalité transporter une quantité considérable de trafic non local pour des appels internationaux vers la Suisse. Si la taille de la passerelle ne convient pas à ce trafic supplémentaire, les appels vers la Suisse peuvent être acheminés via une passerelle située en Allemagne, ce qui augmente les frais téléphoniques.
-    
-

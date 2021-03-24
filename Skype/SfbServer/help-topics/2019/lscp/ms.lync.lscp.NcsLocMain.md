@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: bb7a63e63864b3d342d37fd62b26f806434644b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9f6d7468520b3398f186adeacffd5b393ce159b8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824784"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109570"
 ---
 # <a name="location-policy"></a>Stratégie d’emplacement
 
@@ -35,7 +35,7 @@ Les stratégies d’emplacement incluent la stratégie globale et, éventuelleme
 - **Stratégies utilisateur (facultatives) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement utilisateur, chacune s’applique à un utilisateur ou à un groupe d’utilisateurs spécifique. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
 > [!NOTE]
-> Vous pouvez également affecter des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement à des sites réseau à l’aide d’cmdlets, voir Ajouter une stratégie d’emplacement à un site réseau [dans Skype Entreprise Server.](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Pour plus d’informations sur l’utilisation du Panneau de configuration de Skype Entreprise Server pour affecter une stratégie d’emplacement à un site réseau, voir [Configuring Network Sites](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
+> Vous pouvez également affecter des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement à des sites réseau à l’aide d’cmdlets, voir Ajouter une stratégie d’emplacement à un site réseau [dans Skype Entreprise Server.](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Pour plus d’informations sur l’utilisation du Panneau de configuration de Skype Entreprise Server pour affecter une stratégie d’emplacement à un site réseau, voir [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 La page **Stratégie d’emplacement** affiche la liste de toutes les stratégies d’emplacement définies pour votre organisation.
 
@@ -78,6 +78,4 @@ La liste suivante décrit les champs de la page.
 
 - **Masque E9-1-1** Spécifie un numéro qu’un utilisateur compose puis converti en numéro de numéro d’urgence.
 
-Pour plus d’informations Voix Entreprise fonctionnalités des services d’urgence, voir Vue d’ensemble du [service E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies d’emplacement, voir [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations Voix Entreprise fonctionnalités du service d’urgence, voir Vue d’ensemble du [service E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies d’emplacement, voir [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information) dans la documentation des opérations.

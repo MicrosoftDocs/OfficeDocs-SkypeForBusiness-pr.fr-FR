@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Résumé : Intégrez Skype Entreprise Server et Outlook Web App.'
-ms.openlocfilehash: 0a6358c93356bd059aeed34033b07916d856bf10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: daa9430034d82a3a8dee980a9b075b2fc5656c86
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833964"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109690"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurer l’intégration entre Skype Entreprise Server local et Outlook Web App
 
@@ -35,7 +35,7 @@ Les clients qui utilisent des déploiements Skype Entreprise Server locaux peuve
 
 ## <a name="configure-a-shared-sip-address-space"></a>Configurer un espace d’adressage SIP partagé
 
-Pour intégrer Skype Entreprise Server local à Exchange Online, vous devez configurer un espace d’adressa ment SIP partagé. Le même espace d’adressal de domaine SIP est pris en charge par Skype Entreprise Server et le service Exchange Online.
+Pour intégrer Skype Entreprise Server local à Exchange Online, vous devez configurer un espace d’adressaie SIP partagé. Le même espace d’adressal de domaine SIP est pris en charge par Skype Entreprise Server et le service Exchange Online.
 
 À l’aide de Skype Entreprise Server Management Shell, configurez le serveur Edge pour la fédération en exécutant l’cmdlet **Set-CSAccessEdgeConfiguration,** à l’aide des paramètres affichés dans l’exemple suivant :
 
@@ -92,6 +92,6 @@ Vérifiez si les informations affichées sont en correspondance avec les modific
 
 ## <a name="see-also"></a>Voir aussi
 
-[Fourniture de la messagerie vocale des utilisateurs de Skype Entreprise Server sur la messagerie un jour exchange hébergée](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Fourniture de la messagerie vocale des utilisateurs de Skype Entreprise Server sur la messagerie un jour exchange hébergée](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 
-[Intégration de la messagerie unifiée Exchange hébergée dans Skype Entreprise Server](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
+[Intégration de la messagerie unifiée Exchange hébergée dans Skype Entreprise Server](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)

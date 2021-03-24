@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de Teams dans votre organisation.
-ms.openlocfilehash: c3eabc5a9e906fd514ce92864e08cad5015f6670
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255527"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102780"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’ID d’appelant dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur stra
 4. À partir de là, choisissez les paramètres de votre choix :
 
     - **Bloquer l’ID d’appelant** entrant : activer ce paramètre pour empêcher l’affichage de l’ID d’appelant des appels entrants.
-    - Remplacer la stratégie **d’ID** d’appelant : activer ce paramètre pour que les utilisateurs remplacent les paramètres de la stratégie concernant l’affichage de leur numéro pour les appelants ou non. Cela signifie que les utilisateurs peuvent choisir d’afficher ou non leur ID d’appelant. Pour plus d’informations, voir [Contrôle de l’ID](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)d’appelant sortant par l’utilisateur final.
+    - Remplacer la stratégie **d’ID** d’appelant : activer ce paramètre pour que les utilisateurs remplacent les paramètres de la stratégie concernant l’affichage de leur numéro pour les appelants ou non. Cela signifie que les utilisateurs peuvent choisir d’afficher ou non leur ID d’appelant. Pour plus d’informations, voir [Contrôle de l’ID](./how-can-caller-id-be-used-in-your-organization.md#end-user-control-of-outbound-caller-id)d’appelant sortant par l’utilisateur final.
     - **Remplacez l’ID d’appelant** par : Définissez l’ID d’appelant à afficher pour les utilisateurs en sélectionnant l’une des sélections suivantes :
 
         - **Numéro de l’utilisateur**: affiche le numéro de l’utilisateur. 
@@ -67,8 +67,8 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)

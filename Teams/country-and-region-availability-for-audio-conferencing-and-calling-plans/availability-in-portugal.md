@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Portugal.
-ms.openlocfilehash: d6b45ecaf78c57509f69c7904cdb8c94ba0fd7b6
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: a905057230d9553c6e244efc42fcf804cc09a94f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320849"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102230"
 ---
 # <a name="availability-in-portugal"></a>Disponibilité au Portugal
 
@@ -40,15 +40,15 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Lisbonne</ul>Si vous souhaitez des numéros de téléphone dédiés, [consultez Obtenir des numéros de téléphone de service.](/microsoftteams/getting-service-phone-numbers)  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Lisbonne</ul>Si vous souhaitez des numéros de téléphone dédiés, [consultez Obtenir des numéros de téléphone de service.](../getting-service-phone-numbers.md)  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
 | Les standards automatiques <br/> |Disponible  <br/> |
@@ -57,7 +57,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 ## <a name="calling-plans"></a>Forfaits d’appel
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li> |
@@ -66,28 +66,26 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Lisbonne  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
- Si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour l’audioconférence, les postes de service automatique et les files d’attente d’appels, consultez Obtenir des numéros de [téléphone de service.](/microsoftteams/getting-service-phone-numbers)
+ Si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour l’audioconférence, les postes de service automatique et les files d’attente d’appels, consultez Obtenir des numéros de [téléphone de service.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Crédits de communication
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers)
+[Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

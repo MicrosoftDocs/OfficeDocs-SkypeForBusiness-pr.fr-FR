@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Résumé : Découvrez comment créer, publier et vérifier une nouvelle topologie avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation gratuite de Skype Entreprise Server à partir du Centre d’évaluation Microsoft à l’adresse : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server'
-ms.openlocfilehash: c18d0340c48a8bf07771d0892bed4d0740c63186
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3a7ffd600ae3929b00018587296b5b673c221eb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812144"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104890"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Créer et publier une nouvelle topologie dans Skype Entreprise Server
  
@@ -43,7 +43,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
 
 1. Connectez-vous en tant qu’utilisateur standard ayant accès au Générateur de topologies.
     
-2. Ouvrez le Générateur de topologies Skype Entreprise Server.
+2. Ouvrez le Générateur de topologie Skype Entreprise Server.
     
 3. Sélectionnez **Nouvelle topologie,** puis cliquez sur **OK.**
     
@@ -52,7 +52,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     > [!NOTE]
     > La configuration de la topologie est enregistrée en tant que fichier XML du Générateur de topologie (.tbxml). Lorsque vous publiez une topologie, vous poussez les informations de configuration du fichier vers la base de données SQL Server données. Lorsque vous ouvrirez le Générateur de topologies à l’avenir, vous pouvez télécharger la configuration existante à partir de SQL Server directement dans le Générateur de topologies et la publier sur SQL Server ou l’enregistrer en tant que fichier de configuration du Générateur de topologies. 
   
-5. Dans **l’écran Définir le domaine principal,** entrez le domaine **SIP** principal, puis cliquez sur **Suivant**. Dans cet exemple, nous utilisons **contoso.local**, comme illustré dans la figure.
+5. Dans **l’écran Définir le domaine principal,** entrez le **domaine SIP** principal, puis cliquez sur **Suivant**. Dans cet exemple, nous utilisons **contoso.local**, comme illustré dans la figure.
     
      ![Définissez le domaine sip principal.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -70,7 +70,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
 
 1. Examinez les conditions préalables de l’Assistant, puis cliquez sur **Suivant.**
     
-2. Entrez le nom de domaine complet (FQDN) du pool, sélectionnez le pool frontal **Enterprise Edition** ou le serveur **Standard Edition,** puis cliquez sur Suivant, comme illustré dans la figure. 
+2. Entrez le nom de domaine complet (FQDN) du pool, sélectionnez Pool frontal **Enterprise Edition** ou Serveur **Standard Edition,** puis cliquez sur **Suivant,** comme illustré dans la figure.
     
     > [!TIP]
     > Skype Entreprise Server Enterprise Edition peut inclure plusieurs serveurs qui travaillent ensemble pour fournir le rôle frontal. Lorsque plusieurs serveurs sont utilisés pour remplir le rôle, il s’agit d’un pool. Par conséquent, plusieurs serveurs travaillant ensemble pour fournir le rôle frontal sont également appelés pool frontal. Skype Entreprise Server Standard Edition ne peut inclure qu’un seul serveur pour fournir le rôle frontal. Il est courant de faire référence au pool frontal même si un seul serveur fournit le rôle. 
@@ -100,7 +100,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     
     Dans le premier scénario, vous définissez une nouvelle topologie pour un nouvelle installation. Vous pouvez aborder l’installation de l’une des deux manières suivantes :
     
-   - Laissez la case à cocher vide et définissez la topologie. Après avoir publié, configuré et testé les rôles serveur frontal et principal, vous pouvez exécuter à nouveau le Générateur de topologie pour ajouter les serveurs de rôles à la topologie. À l’aide de cette stratégie, vous pouvez tester le pool frontal et le serveur exécutant SQL Server sans complications supplémentaires liées à des rôles supplémentaires. Une fois que vous avez terminé vos tests initiaux, vous pouvez à nouveau exécuter le Générateur de topologies pour sélectionner les rôles à déployer.
+   - Laissez la case à cocher vide et définissez la topologie. Après avoir publié, configuré et testé les rôles serveur frontal et principal, vous pouvez exécuter à nouveau le Générateur de topologie pour ajouter les serveurs de rôles à la topologie. À l’aide de cette stratégie, vous pouvez tester le pool frontal et le serveur exécutant SQL Server sans complications supplémentaires liées à des rôles supplémentaires. Une fois que vous avez terminé vos tests initiaux, vous pouvez exécuter à nouveau le Générateur de topologies pour sélectionner les rôles à déployer.
     
    - Sélectionnez les rôles à installer, puis configurez le matériel en fonction des rôles sélectionnés.
     
@@ -140,9 +140,9 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
      > [!NOTE]
      > Le partage de fichiers pour Skype Entreprise Server peut être coqueté, mais il n’est pas recommandé pour des raisons de performances. Notez que dans cet exemple, le partage de fichiers a été localisé sur un seul serveur dédié qui fera fonction du partage de fichiers. Toutefois, d’autres systèmes de partage de fichiers plus robustes, tels que DFS utilisant Windows Server 2012 R2, sont recommandés. Pour plus d’informations sur les systèmes de partage de fichiers pris en charge, voir [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Pour plus d’informations sur la création du partage de fichiers, voir Créer un partage de [fichiers dans Skype Entreprise Server.](create-a-file-share.md) Vous pouvez définir le partage de fichiers sans qu’il soit nécessaire de le créer. Vous devrez créer le partage de fichiers à l’emplacement que vous définissez avant de publier la topologie. 
   
-10. Dans la page Spécifier l’URL des services Web, vous devez décider si vous devez remplacer l’URL de base du pool de services web internes. La raison de ce remplacement est l’équilibrage de charge. Le trafic SIP de base peut être équilibrée par le biais d’un équilibrage de charge DNS simple. Toutefois, le trafic réseau des services Web HTTP/S doit utiliser une solution d’équilibrage de charge matérielle ou logicielle prise en charge. Pour les équilibreurs de charge pris en charge, [voir Infrastructure pour Skype Entreprise.](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) Dans cet exemple, nous avons utilisé l’équilibrage de charge DNS pour le trafic SIP et une solution d’équilibrage de charge logicielle prise en charge. Étant donné que nous divisons le trafic de cette façon, nous devons remplacer le FQDN du pool de services web internes. Sinon, si nous avons un équilibreur de charge de ligne supérieure et que nous avons envoyé tout le trafic via celui-ci au lieu d’utiliser l’équilibrage de charge DNS pour le trafic SIP, nous n’avons pas besoin de remplacer l’URL des services Web. 
+10. Dans la page Spécifier l’URL des services Web, vous devez décider si vous devez remplacer l’URL de base du pool des services Web internes. La raison de ce remplacement est l’équilibrage de charge. Le trafic SIP de base peut être équilibrée par le biais d’un équilibrage de charge DNS simple. Toutefois, le trafic réseau des services Web HTTP/S doit utiliser une solution d’équilibrage de charge matérielle ou logicielle prise en charge. Pour les équilibreurs de charge pris en charge, [voir Infrastructure pour Skype Entreprise.](../../../SfbPartnerCertification/certification/infra-gateways.md) Dans cet exemple, nous avons utilisé l’équilibrage de charge DNS pour le trafic SIP et une solution d’équilibrage de charge logicielle prise en charge. Étant donné que nous divisons le trafic de cette façon, nous devons remplacer le FQDN du pool des services web internes. Sinon, si nous avons un équilibreur de charge de ligne supérieure et que nous avons envoyé tout le trafic via celui-ci au lieu d’utiliser l’équilibrage de charge DNS pour le trafic SIP, nous n’avons pas besoin de remplacer l’URL des services Web. 
     
-    Dans la section DNS de cette rubrique, nous avons créé un enregistrement A pour webint.contoso.local. Il s’agit de l’URL que nous utilisons pour le trafic HTTP/S des services web et elle doit passer par l’équilibreur de charge logiciel pris en charge que nous avons installé. Par conséquent, dans cet exemple, nous allons remplacer l’URL pour que Skype Entreprise Server sache que tout le trafic HTTP/S doit être vers webint.contoso.local au lieu de pool.contoso.local, comme illustré dans la figure. Pour plus d’informations sur l’équilibrage de charge, voir [Les exigences d’équilibrage](../../plan-your-deployment/network-requirements/load-balancing.md)de charge pour Skype Entreprise.
+    Dans la section DNS de cette rubrique, nous avons créé un enregistrement A pour webint.contoso.local. Il s’agit de l’URL que nous utilisons pour le trafic HTTP/S des services web et elle doit passer par l’équilibreur de charge logiciel pris en charge que nous avons installé. Par conséquent, dans cet exemple, nous remplaceons l’URL pour que Skype Entreprise Server sache que tout le trafic HTTP/S doit être vers webint.contoso.local au lieu de pool.contoso.local, comme illustré dans la figure. Pour plus d’informations sur l’équilibrage de charge, consultez [l’équilibrage de](../../plan-your-deployment/network-requirements/load-balancing.md)charge requis pour Skype Entreprise.
     
     > [!IMPORTANT]
     > L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services Web du pool est , l’URL de base est https://webint.contoso.local webint.contoso.local. 
@@ -150,9 +150,9 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     - Si vous configurez l’équilibrage de charge DNS, comme nous le faisons dans cet exemple, cochez la case Remplacer le nom de domaine de domaine public du pool de **services web** internes, puis entrez l’URL de base interne (qui doit être différente du nom de domaine de domaine public du pool) dans l’URL de base **interne.** 
     
     > [!CAUTION]
-    > Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur. **Utilisez uniquement** des caractères standard (Y compris A-Z, a-z, 0-9 et tirets) lorsque vous définissez des URL ou des noms de domaine complets. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères nonstandards d’une URL ou d’un nom de domaine complet ne sont souvent pas pris en charge par le DNS externe et les autorités de certification publiques (c’est-à-dire, lorsque l’URL ou le nom de domaine complet doit être affecté au nom du sujet ou à l’autre nom du sujet dans le certificat).
+    > Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur. **Utilisez uniquement** des caractères standard (notamment A-Z, a-z, 0-9 et tirets) lorsque vous définissez des URL ou des noms de domaine complets. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères nonstandards d’une URL ou d’un nom de domaine complet ne sont souvent pas pris en charge par le DNS externe et les autorités de certification publiques (c’est-à-dire, lorsque l’URL ou le nom de domaine complet doit être affecté au nom du sujet ou à l’autre nom du sujet dans le certificat).
   
-    - Éventuellement, entrez l’URL de base externe dans **l’URL de base externe.** Entrez l’URL de base externe pour la différencier de votre nom de domaine interne. Par exemple, votre domaine interne est contoso.local, mais votre nom de domaine externe est contoso.com. Vous devez définir l’URL à l’contoso.com nom de domaine car elle doit pouvoir être résolu à partir d’un DNS public. Ceci est également important dans le cas d’un proxy inverse. Le nom de domaine de l’URL de base externe est le même que le nom de domaine du nom de domaine complet du proxy inverse. L’accès HTTP au pool frontal est requis pour la messagerie instantanée et la présence sur les clients mobiles.
+    - Éventuellement, entrez l’URL de base externe dans **l’URL de base externe.** Entrez l’URL de base externe pour la différencier de votre nom de domaine interne. Par exemple, votre domaine interne est contoso.local, mais votre nom de domaine externe est contoso.com. Vous devez définir l’URL à l’contoso.com nom de domaine, car elle doit pouvoir être résolu à partir d’un DNS public. Ceci est également important dans le cas d’un proxy inverse. Le nom de domaine de l’URL de base externe est le même que le nom de domaine du nom de domaine complet du proxy inverse. L’accès HTTP au pool frontal est requis pour la messagerie instantanée et la présence sur les clients mobiles.
     
       ![Remplacer les services web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -172,7 +172,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     
      ![Cliquez avec le bouton droit sur Skype Entreprise Server et sélectionnez Modifier les propriétés.](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
   
-2. Dans le volet **URL** simples, sélectionnez soit les URL d’accès téléphonique : (rendez-vous) soit les URL de **réunion** : (Conférence) à modifier, puis cliquez sur **Modifier l’URL.** 
+2. Dans le volet **URL** simples, sélectionnez soit les URL d’accès téléphonique : (rendez-vous) soit les URL de **réunion** : (Conférence) à modifier, puis cliquez sur Modifier  l’URL. 
     
 3. Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer. Vous devez configurer l’URL simple à l’aide du domaine SIP externe afin que les utilisateurs externes peuvent participer à des réunions, par exemple contoso.com, qui est externe, par opposition à contoso.local, qui est un domaine interne. Par conséquent, le domaine SIP doit pouvoir être résolu par un DNS externe.
     
@@ -188,7 +188,7 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple https://admin est ... _\<domain\>_ L’URL d’administration peut être un domaine interne ou externe, par exemple, contoso.local ou contoso.com, tant que l’un ou l’autre enregistrement peut être résolu dans le DNS interne. 
   
     > [!IMPORTANT]
-    > Si vous modifiez une URL simple après le déploiement initial, vous devez connaître les modifications qui ont une incidence sur vos enregistrements et certificats DNS (Domain Name System) pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous changez l’URL de base de sfb.contoso.com en meet.contoso.com, vous devez modifier les enregistrements et les https://sfb.contoso.com/Meet certificats DNS pour faire référence https://meet.contoso.com à meet.contoso.com. Si vous avez modifié l’URL simple de , l’URL de base de sfb.contoso.com reste la même, de sorte qu’aucune modification de DNS ou de certificat https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings n’est nécessaire. Toutefois, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’cmdlet **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer la modification.
+    > Si vous modifiez une URL simple après le déploiement initial, vous devez connaître les modifications qui ont un impact sur vos enregistrements et certificats DNS (Domain Name System) pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous changez l’URL de base de sfb.contoso.com en meet.contoso.com, vous devez modifier les enregistrements et les https://sfb.contoso.com/Meet certificats DNS pour faire référence https://meet.contoso.com à meet.contoso.com. Si vous avez modifié l’URL simple de , l’URL de base de sfb.contoso.com reste la même, de sorte qu’aucune modification de DNS ou de certificat https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings n’est nécessaire. Toutefois, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’cmdlet **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer la modification.
   
 ### <a name="publish-and-verify-the-topology"></a>Publier et vérifier la topologie
 
@@ -248,5 +248,3 @@ Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour 
     Le message « Terminé avec avertissements » pour la création de la base de données ne signifie pas qu’une erreur s’est produite. Le processus d’installation doit modifier les paramètres SQL Server pour que Skype Entreprise Server fonctionne correctement. Lorsqu’un paramètre est modifié dans SQL Server, il est consigné en tant qu’avertissement afin que les administrateurs SQL Server comprennent exactement ce que le processus d’installation a terminé. Si vous recevez un avertissement, vous pouvez sélectionner l’enregistrement, puis cliquer sur **Afficher** les journaux pour afficher les détails de l’avertissement.
     
     Une fois la topologie publiée, vous pouvez commencer à installer un réplica local du magasin central de gestion sur chaque serveur exécutant Skype Entreprise Server dans votre topologie. Nous vous recommandons de commencer par le premier pool frontal. 
-    
-

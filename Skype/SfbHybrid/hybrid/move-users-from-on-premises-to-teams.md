@@ -17,13 +17,13 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et les déplacer vers Teams.'
-ms.openlocfilehash: c84cdbe5f91816ddfabd476540e47f3d1871a427
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et déplacer des utilisateurs vers Teams.'
+ms.openlocfilehash: 4a57d802d6405652724ce28ed2d26221dcc8db0f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836981"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110650"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’environnement local vers Teams
 
@@ -39,7 +39,7 @@ Lorsqu’un utilisateur est déplacé de l’local vers Teams uniquement, le dom
 - Les utilisateurs ne peuvent pas initier d’appels ou de conversations à partir de Skype Entreprise, ni planifier de nouvelles réunions dans Skype Entreprise. S’ils tentent d’ouvrir le client Skype Entreprise, ils seront redirigés pour utiliser Teams, comme illustré ci-dessous. Si le client Teams n’est pas installé, il est dirigé vers la version web de Teams à l’aide de son navigateur.<br><br>
     ![Message redirigeant un utilisateur vers Teams](../media/go-to-teams-page.png)
 
-Avant de déplacer des utilisateurs, veillez à passer en revue les conditions préalables pour déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md#prerequisites) vers le cloud. Assurez-vous également de passer en revue les instructions de migration et [d’interopérabilité](/microsoftteams/migration-interop-guidance-for-teams-with-skype)pour les organisations qui utilisent Teams avec Skype Entreprise.
+Avant de déplacer des utilisateurs, veillez à passer en revue les conditions préalables pour déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md#prerequisites) vers le cloud. Assurez-vous également de consulter les instructions de migration et [d’interopérabilité](/microsoftteams/migration-interop-guidance-for-teams-with-skype)pour les organisations qui utilisent Teams avec Skype Entreprise.
 
 
 > [!NOTE]
@@ -55,13 +55,13 @@ Il existe deux méthodes pour déplacer un utilisateur de l’local vers Teams :
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Déplacer un utilisateur directement de Skype Entreprise en local vers Teams uniquement
 
-Les outils d’administration locaux dans Skype Entreprise Server 2015 avec CU8, ainsi que dans Skype Entreprise Server 2019, vous permettent de déplacer les utilisateurs de l’local vers le mode Teams uniquement en une seule étape à l’aide de l’cmdlet Move-CsUser dans PowerShell ou du Panneau de contrôle Skype Entreprise Server, comme décrit ci-dessous.
+Les outils d’administration locaux dans Skype Entreprise Server 2015 avec CU8, ainsi que dans Skype Entreprise Server 2019, vous permettent de déplacer les utilisateurs de l’local vers le mode Teams uniquement en une seule étape à l’aide de la cmdlet Move-CsUser dans PowerShell ou du Panneau de contrôle Skype Entreprise Server, comme décrit ci-dessous.
 
 ### <a name="move-to-teams-using-move-csuser"></a>Passer à Teams à l’aide Move-CsUser
 
 Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype Entreprise Management Shell sur site. Les étapes ci-dessous et les autorisations requises sont les mêmes que le déplacement d’un utilisateur vers Skype Entreprise Online, sauf que vous devez également spécifier le commutateur MoveToTeams et vous devez vous assurer que l’utilisateur a également reçu une licence pour Teams (en plus de Skype Entreprise Online).
 
-Vous devez avoir des privilèges suffisants dans l’environnement local et le service cloud (Microsoft 365 ou Office 365), comme décrit dans informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) Vous pouvez utiliser un seul compte spécifiant des privilèges dans les deux environnements, ou vous pouvez démarrer une fenêtre Skype Entreprise Server Management Shell sur site avec des informations d’identification sur site et utiliser le paramètre pour spécifier les informations d’identification d’un compte `-Credential` Microsoft 365 ou Office 365 avec le rôle d’administration nécessaire.
+Vous devez avoir des privilèges suffisants dans l’environnement local et le service cloud (Microsoft 365 ou Office 365), comme décrit dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) Vous pouvez utiliser un compte unique qui dispose de privilèges dans les deux environnements, ou vous pouvez démarrer une fenêtre Skype Entreprise Server Management Shell sur site avec des informations d’identification sur site et utiliser le paramètre pour spécifier les informations d’identification d’un compte `-Credential` Microsoft 365 ou Office 365 avec le rôle d’administration nécessaire.
 
 Pour déplacer un utilisateur vers le mode Teams uniquement à l’aide de Move-CsUser :
 
@@ -69,7 +69,7 @@ Pour déplacer un utilisateur vers le mode Teams uniquement à l’aide de Move-
 - Spécifiez le paramètre -Target avec la valeur « sipfed.online.lync. <span> com ».
 - Spécifiez le `MoveToTeams` commutateur.
 - Si vous n’avez pas un compte avec des autorisations suffisantes à la fois sur site et dans le service cloud (Microsoft 365 ou Office 365), utilisez le paramètre pour fournir un compte avec des `-credential` autorisations suffisantes dans Office 365.
-- Si le compte avec des autorisations dans Microsoft 365 ou Office 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme `-HostedMigrationOverrideUrl` décrit dans informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- Si le compte avec des autorisations dans Microsoft 365 ou Office 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme décrit `-HostedMigrationOverrideUrl` dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
 La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers TeamsOnly et suppose que les informations d’identification Microsoft 365 ou Office 365 sont un compte distinct et fournies en tant qu’entrées pour l’invite Get-Credential.
 
@@ -97,7 +97,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveT
 7. Cliquez **sur** Suivant, puis **sur Suivant** une fois de plus pour déplacer l’utilisateur.
 8. Notez que les messages d’état concernant la réussite ou l’échec sont fournis en haut de l’application principale du Panneau de contrôle, et non dans l’Assistant.
 
-## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Informer vos utilisateurs locaux de Skype Entreprise du déplacement à venir vers Teams
+## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Informer vos utilisateurs locaux skype entreprise du déplacement à venir vers Teams
 
 Les outils d’administration locaux dans Skype Entreprise Server 2015 avec CU8, ainsi que dans Skype Entreprise Server 2019, vous permettent d’informer les utilisateurs skype entreprise locaux de leur déplacement vers Teams. Lorsque vous activez ces notifications, les utilisateurs voient une notification dans leur client Skype Entreprise (Win32, Mac, web et mobile), comme illustré ci-dessous. Si les utilisateurs **cliquent sur le** bouton Essayer, le client Teams est lancé s’il est installé . Dans le cas contraire, les utilisateurs seront accédés à la version web de Teams dans leur navigateur. Par défaut, lorsque les notifications sont activées, les clients Win32 Skype Entreprise téléchargent silencieusement le client Teams afin que le client riche soit disponible avant de déplacer l’utilisateur en mode Teams uniquement . Toutefois, vous pouvez également désactiver ce comportement.  Les notifications sont configurées à l’aide de la version sur site de , et le téléchargement en mode silencieux pour les clients Win32 est contrôlé `TeamsUpgradePolicy` via l’cmdlet `TeamsUpgradeConfiguration` sur site.
 
@@ -123,9 +123,9 @@ Par défaut, la valeur de DownloadTeams est True ; toutefois, *elle* est honoré
 
 ## <a name="see-also"></a>Voir aussi
 
-[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype)

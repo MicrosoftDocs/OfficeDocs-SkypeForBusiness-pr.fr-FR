@@ -20,19 +20,19 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégies dans Microsoft Teams pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 07e2712db52d79e8db66789fe062c8ab46854e5b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50585682"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162664"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft Teams
 
 > [!NOTE]
 > Une des fonctionnalités abordées dans cet article, les packages de stratégie [personnalisée,](#custom-policy-packages)est actuellement en prévisualisation privée.
 
-Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégies pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs au sein de votre organisation.  
+Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégies pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs au sein de votre organisation.  
 
 Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-packages-included-in-teams) ou créer vos propres packages de stratégie [personnalisés](#custom-policy-packages) (en prévisualisation privée).
 
@@ -66,9 +66,9 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Éducation (étudiant du primaire à l’aide de l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux étudiants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
 |Gestionnaire en ligne |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation. |
 |Employé en ligne |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation. |
-|Travailleur clinique de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs cliniques, comme des infirmières inscrites, des infirmières et des travailleurs sociaux un accès complet aux discussions, aux appels, à la gestion des shifts et aux réunions. |
-|Travailleur de l’information sur les soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui donnent aux travailleurs de l’information, tels que le personnel de l’information, le personnel en informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
-|Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui s’appliquent aux salles des patients de votre organisation de soins de santé.|
+|Professionnel de la santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui offrent aux travailleurs cliniques tels que les infirmières autorisées, les infirmières responsables, les médecins et les travailleurs sociaux un accès complet à la conversation, aux appels, à la gestion des équipes et aux réunions. |
+|Travailleurs de l’information sur le secteur de la santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
+|Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
 |Petite et moyenne entreprise (Business Voice) |Crée une stratégie de configuration d’application qui inclut les applications pour une expérience vocale professionnelle.|
 |Petite et moyenne entreprise (sans Voix Entreprise) |Crée une stratégie de configuration d’application pertinente pour les utilisateurs Teams de petite et moyenne entreprise (expérience autre que Voix Entreprise).
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
@@ -76,7 +76,7 @@ Teams inclut actuellement les packages de stratégie suivants.
 > [!NOTE]
 > Nous ajouterons d’autres packages de stratégie dans les prochaines publication de Teams. Consultez à nouveau les informations les plus à jour.  
 
-Le nom du package de stratégies est donné à chaque stratégie individuelle, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
+Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
 
 ![Capture d’écran du package de stratégie Éducation (enseignant)](media/policy-packages-education_teacher.png)
@@ -153,7 +153,7 @@ Pour plus d’informations, consultez la section [Attribuer un package de strat�
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Attribuer un package de stratégie à un grand ensemble (lot) d’utilisateurs
 
-Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
+Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
 
 Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -163,12 +163,12 @@ Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des u
 
 Cela peut se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées correctement. Réattribuez le package de stratégie à vos utilisateurs. Une nouvelle tentative d’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
 
 [Packages de stratégie Teams pour les administrateurs EDU](policy-packages-edu.md)
 
-[Packages de stratégie Teams pour les soins de santé](policy-packages-healthcare.md)
+[Packages de stratégie Teams pour la santé publique](policy-packages-healthcare.md)
 
 [Packages de stratégie Teams pour le gouvernement](policy-packages-gov.md)

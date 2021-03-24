@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: Office Web Apps Server fournit des services similaires à ceux d’un présentateur chargé d’un document à utiliser lors d’une réunion, mais il offre des fonctionnalités supplémentaires qui n’étaient pas disponibles dans les versions précédentes.
-ms.openlocfilehash: bb2a6904e6388a06912b12d2786dba751288881c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Office Web Apps Server fournit des services similaires à ceux d’un présentateur chargé d’un document à utiliser dans une réunion, mais il offre des fonctionnalités supplémentaires qui n’étaient pas disponibles dans les versions précédentes.
+ms.openlocfilehash: 7f5411b2a30fd027125eb2e86f68ba48663ed06b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818464"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106890"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Page Associer un pool frontal à Office Web Apps Server
 
-Office Web Apps Server fournit des services similaires à ceux d’un présentateur chargé d’un document à utiliser lors d’une réunion, mais il offre des fonctionnalités supplémentaires qui n’étaient pas disponibles dans les versions précédentes.
+Office Web Apps Server fournit des services similaires à ceux d’un présentateur chargé d’un document à utiliser dans une réunion, mais il offre des fonctionnalités supplémentaires qui n’étaient pas disponibles dans les versions précédentes.
 
 Vous sélectionnez un serveur Office Web Apps Server pour votre déploiement si vous avez choisi Conférence comme l’une de vos options de fonctionnalité pour votre configuration Skype Entreprise Server 2015.
 
@@ -38,4 +38,4 @@ Les options de cette boîte de dialogue vous offrent les choix suivants :
 
 ## <a name="see-also"></a>Voir aussi
 
-[Publication d’Office Web Apps Server à l’aide d’un serveur proxy inverse](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Publication d’Office Web Apps Server à l’aide d’un serveur proxy inverse](/previous-versions/office/lync-server-2013/lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server)

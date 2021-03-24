@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Découvrez comment l’Audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: e2103a9f1ccac8fc2a5891cc776c3faf84a29ae8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460684"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111270"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence dans Microsoft 365
-Dans Microsoft 365 et Office 365, l’audioconférence permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.
+Dans Microsoft 365 et Office 365, les audioconférences permettent aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.
 
 ## <a name="what-is-audio-conferencing"></a>Qu-est-ce que l’audioconférence ?
 L’appel entrant vers une réunion est particulièrement utile pour les personnes qui sont en déplacement et ne peuvent pas utiliser le client Skype Entreprise ou Microsoft Teams sur leur ordinateur ou leur appareil mobile. Mais dans d’autres cas, l’utilisation d’un téléphone pour participer à une réunion Skype Entreprise ou Microsoft Teams peut constituer une meilleure option qu’une application sur un ordinateur :
@@ -89,7 +89,7 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>Comment obtenir des numéros de téléphone dédié ?
 Les numéros de téléphone de conférence audio dédiés sont des numéros de service que vous pouvez obtenir, puis affecter à l’organisation. Vous pouvez obtenir des numéros de téléphone payants et gratuits dédiés pour vos ponts de conférence de trois manières :
 
-- **Utiliser le Centre d'administration Skype Entreprise.** Pour certains pays/régions, vous pouvez obtenir les numéros pour les ponts de conférence à l’aide du centre d’administration Skype Entreprise. Voir [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
+- **Utiliser le Centre d'administration Skype Entreprise.** Pour certains pays/régions, vous pouvez obtenir les numéros pour les ponts de conférence à l’aide du centre d’administration Skype Entreprise. Voir [Obtention de numéros de téléphone de service](./getting-service-phone-numbers.md).
     
 - **Portage de vos numéros existants.** Vous pouvez transférer des numéros existants de votre fournisseur de services ou de votre opérateur téléphonique actuel vers Microsoft 365 ou Office 365. Consultez le [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
   

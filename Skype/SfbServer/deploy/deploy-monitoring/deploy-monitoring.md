@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Résumé : Découvrez comment déployer la surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 89474b7d40a63911c6a79bee719573516a9d423a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1db32530546884735333554535ccb976a0c48810
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802274"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101990"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Déployer la surveillance dans Skype Entreprise Server
 
@@ -31,7 +31,7 @@ En règle générale, vous implémentez des services de surveillance au sein de 
 
 2. Association d’un magasin d’analyse (c’est-à-dire une base de données de surveillance) au nouveau pool. Notez qu’un seul magasin d’analyse peut être associé à plusieurs pools. Selon le nombre d’utilisateurs hébergés sur vos pools de serveurs d’inscriptions, cela signifie que vous n’avez pas besoin de configurer une base de données de surveillance distincte pour chacun de vos pools. Un seul magasin d’analyse peut être utilisé par plusieurs pools.
 
-Bien qu’il soit souvent plus simple d’activer la surveillance en même temps que vous créez un nouveau pool, il est également possible de créer un nouveau pool en désactivant la surveillance. Dans ce cas, vous pouvez ultérieurement utiliser le Générateur de topologie pour activer le service : le Générateur de topologie permet d’activer ou de désactiver la surveillance pour un pool ou d’associer un pool à un magasin d’analyse différent. N’oubliez pas que même s’il n’existe plus de rôle serveur de surveillance, vous devrez créer un ou plusieurs magasins de surveillance : bases de données back-end utilisées pour stocker les données recueillies par le service de surveillance. Ces bases de données principale peuvent être créées à l’aide de Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014 ou Microsoft SQL Server 2019.
+Bien qu’il soit souvent plus simple d’activer la surveillance en même temps que vous créez un nouveau pool, il est également possible de créer un nouveau pool en désactivant la surveillance. Dans ce cas, vous pouvez ultérieurement utiliser le Générateur de topologie pour activer le service : le Générateur de topologie permet d’activer ou de désactiver la surveillance pour un pool ou d’associer un pool à un magasin d’analyse différent. N’oubliez pas que même s’il n’existe plus de rôle serveur de surveillance, vous devrez créer un ou plusieurs magasins de surveillance : des bases de données principale utilisées pour stocker les données recueillies par le service de surveillance. Ces bases de données principale peuvent être créées à l’aide de Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014 ou Microsoft SQL Server 2019.
 
 > [!NOTE]
 > Si la surveillance a été activée pour un pool, vous pouvez désactiver le processus de collecte des données de surveillance sans avoir à modifier votre topologie : Skype Entreprise Server vous permet de désactiver (puis de réactiver) la collecte de données d’enregistrement des détails des appels (CDR) ou de qualité de l’expérience (QoE). Pour plus d’informations, voir la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience de ce document.
@@ -39,7 +39,7 @@ Bien qu’il soit souvent plus simple d’activer la surveillance en même temps
 Une autre amélioration importante de la surveillance dans Skype Entreprise Server est le fait que les rapports de surveillance de Skype Entreprise Server prend désormais en charge IPv6 : les rapports qui utilisent le champ Adresse IP affichent les adresses IPv4 ou IPv6 en fonction de : 1) la requête SQL utilisée ; et, 2) où l’adresse IPv6 est stockée ou non dans la base de données de surveillance.
 
 > [!NOTE]
-> Assurez-vous que le type de démarrage du service d’agent SQL Server est automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance de SQL qui contient les bases de données de surveillance, afin que les travaux de maintenance des SQL Server de surveillance par défaut peuvent s’exécuter sur leur base programmée sous le contrôle du service d’agent SQL Server.
+> Assurez-vous que le type de démarrage du service d’agent SQL Server est automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, afin que les travaux de maintenance de SQL Server de surveillance par défaut peuvent s’exécuter sur la base prévue sous le contrôle du service d’agent SQL Server.
 
 Cette documentation vous indique le processus d’installation et de configuration des rapports de surveillance et de surveillance pour Skype Entreprise Server. La documentation donne des instructions détaillées qui vous aideront à effectuer les opérations suivantes :
 
@@ -47,7 +47,7 @@ Cette documentation vous indique le processus d’installation et de configurati
 
 - Installez SQL Server Reporting Services et les rapports de surveillance de Skype Entreprise Server. Les rapports de surveillance sont des rapports préconfigurés qui permettent de visualiser différemment les informations stockées dans une base de données de surveillance ;
 
-- Configurez la collecte de données d’enregistrement des détails des appels (CDR) et de qualité de l’expérience (QoE). L’enregistrement des détails des appels vous permet de suivre l’utilisation des fonctionnalités de Skype Entreprise Server, telles que les appels téléphoniques VoIP ( Voice over IP). messagerie instantanée ; transferts de fichiers ; conférence audio/vidéo (A/V) ; et sessions de partage d’application. Les mesures de la qualité de l’expérience (QoE) effectuent le suivi de la qualité des appels audio et vidéo dans votre organisation, y compris le nombre de paquets réseau perdus, le bruit de fond et la « gigue » (différences de retard des paquets) ;
+- Configurez la collecte de données d’enregistrement des détails des appels (CDR) et de qualité de l’expérience (QoE). L’enregistrement des détails des appels vous permet de suivre l’utilisation des fonctionnalités de Skype Entreprise Server, telles que les appels téléphoniques VoIP (Voice over IP). messagerie instantanée ; transferts de fichiers ; conférence audio/vidéo (A/V) ; et sessions de partage d’application. Les mesures de la qualité de l’expérience (QoE) effectuent le suivi de la qualité des appels audio et vidéo dans votre organisation, y compris le nombre de paquets réseau perdus, le bruit de fond et la « gigue » (différences de retard des paquets) ;
 
 - vider manuellement les enregistrements des détails des appels et/ou QoE de la base de données de surveillance.
 
@@ -57,7 +57,7 @@ Bien que la surveillance soit déjà installée et activée sur chaque serveur f
 
 |**Étape**|**Étapes**|**Appartenance aux rôles et groupes**|**Documentation**|
 |:-----|:-----|:-----|:-----|
-|**Installer le matériel et les logiciels prérequis** <br/> |Installez une version prise en charge de Microsoft SQL Server sur l’ordinateur qui fera office de magasin de données principal pour la surveillance.  <br/> |Utilisateur de domaine qui est également membre du groupe Administrateurs local.  <br/> |[Matériel pris en charge](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Prise en charge des logiciels des serveurs et de l’infrastructure](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**Installer le matériel et les logiciels prérequis** <br/> |Installez une version prise en charge de Microsoft SQL Server sur l’ordinateur qui fera office de magasin de données principal pour la surveillance.  <br/> |Utilisateur de domaine qui est également membre du groupe Administrateurs local.  <br/> |[Matériel pris en charge](/previous-versions/office/lync-server-2013/lync-server-2013-supported-hardware) <br/> [Prise en charge des logiciels des serveurs et de l’infrastructure](/previous-versions/office/lync-server-2013/lync-server-2013-server-software-and-infrastructure-support) <br/> |
 |**Créer la topologie interne appropriée pour prendre en charge la surveillance** <br/> |Utilisez le Générateur de topologie Skype Entreprise Server pour ajouter des bases de données de surveillance à la topologie, puis publiez la topologie mise à jour.  <br/> |Pour définir une topologie, utilisateur membre du groupe Utilisateurs local.  <br/> Pour publier la topologie, utilisateur membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.  <br/> |[Associer un magasin d’analyse à un pool frontal dans Skype Entreprise Server](associate-a-monitoring-store.md) <br/> |
 |**Activer les paramètres de surveillance appropriés** <br/> |Activer la surveillance de l’enregistrement des détails des appels (CDR) et/ou de la qualité de l’expérience (QoE) au niveau des étendues globale et/ou site.  <br/> |Utilisateur membre du groupe RTCUniversalServerAdmins ou disposant d’un rôle RBAC qui permet d’accéder aux applets de commande CsCdrConfiguration et CsQoEConfiguration.  <br/> |[Configurer les paramètres d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server](call-detail-recording-and-qoe.md) <br/> |
 

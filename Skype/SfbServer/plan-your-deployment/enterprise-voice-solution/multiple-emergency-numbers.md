@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lisez cette rubrique pour découvrir comment planifier plusieurs numéros d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: eb5fbc55bc7f2e783fbfa98c7bc7fb6db67ff748
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813864"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101600"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Cette fonctionnalité est également utile pour les fournisseurs de soins de san
 
 Vous configurez les appels d’urgence en créant des stratégies d’emplacement qui définissent la façon dont les appels d’urgence seront implémentés. Vous utilisez la stratégie d’emplacement pour définir le numéro qui constitue un appel d’urgence, par exemple, 911 aux États-Unis ; 999 et 112 au Royaume-Uni. La stratégie d’emplacement détermine si un utilisateur est activé pour les appels d’urgence et, si tel est le cas, le comportement d’un appel d’urgence. Vous pouvez également définir si la sécurité d’entreprise doit être avertie automatiquement et comment l’appel doit être acheminé.
   
-Pour plus d’informations sur la définition et la modification d’une stratégie d’emplacement, voir [Plan location policies for Skype for Business Server](location-policies.md) and Create location policies in Skype for Business [Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Ces rubriques décrivent les concepts liés aux stratégies d’emplacement . Toutefois, vous devez suivre les instructions de la procédure De configuration de plusieurs numéros d’urgence dans [Skype](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) Entreprise pour configurer plusieurs numéros d’urgence.
+Pour plus d’informations sur la définition et la modification d’une stratégie d’emplacement, voir [Plan location policies for Skype for Business Server](location-policies.md) and Create location policies in Skype for Business [Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Ces rubriques décrivent les concepts liés aux stratégies d’emplacement . Toutefois, vous devez suivre les instructions de la procédure De configuration de plusieurs numéros [d’urgence](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) dans Skype Entreprise pour configurer plusieurs numéros d’urgence.
   
 Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivants à l’esprit :
   
@@ -46,7 +46,7 @@ Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivant
   
 - Pour chaque numéro d’urgence, vous pouvez spécifier zéro ou plusieurs masques de numérotation d’urgence, qui sont propres à une stratégie d’emplacement donnée.
     
-    Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région avec un numéro d’urgence différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+    Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
     
 - Chaque stratégie d’emplacement a une utilisation PSTN (réseau téléphonique commuté) unique qui est utilisée pour déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de cette stratégie. L’utilisation peut avoir un itinéraire unique par numéro d’urgence.
     
@@ -59,9 +59,9 @@ Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivant
   
 Avant de configurer plusieurs numéros d’urgence, gardez les points suivants à l’esprit :
   
-- Pour configurer plusieurs numéros d’urgence, vous devez utiliser l’cmdlet New-CsEmergencyNumber et définir des stratégies d’emplacement qui prendre en charge plusieurs numéros d’urgence en spécifiant le paramètre EmergencyNumbers avec les cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) et [Set-CsLocationPolicy.](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+- Pour configurer plusieurs numéros d’urgence, vous devez utiliser l’cmdlet New-CsEmergencyNumber et définir des stratégies d’emplacement qui prendre en charge plusieurs numéros d’urgence en spécifiant le paramètre EmergencyNumbers avec les cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) et [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
     
-- Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask, les valeurs spécifiées avec le paramètre EmergencyNumbers seront prioritaires sur les anciennes valeurs. Autrement dit, les valeurs des paramètres EmergencyDialString et EmergencyDialMask seront ignorées.
+- Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask, les valeurs spécifiées avec le paramètre EmergencyNumbers prévalent sur les anciennes valeurs. Autrement dit, les valeurs des paramètres EmergencyDialString et EmergencyDialMask seront ignorées.
     
 - Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask  *et*  que vous ne configurez pas de nouveaux numéros d’urgence, les numéros existants continueront d’être utilisés.
     
@@ -108,5 +108,3 @@ Le tableau suivant indique la prise en charge de plusieurs numéros d’urgence 
 || Téléphones Aastra 6721ip et Aastra 6725ip - Mise à jour cumulative de septembre 2016 (build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Téléphones HP 4110 et HP 4120 - Mise à jour cumulative de septembre 2016 (build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
 ||Téléphones Polycom CX500, Polycom CX600 et Polycom CX3000 - Mise à jour cumulative de septembre 2016 (build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
-   
-

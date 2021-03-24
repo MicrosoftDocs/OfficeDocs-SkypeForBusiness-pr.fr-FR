@@ -11,13 +11,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Vue d’ensemble de l’utilisation d’un attendant automatique cloud avec Skype Entreprise Server 2019.
-ms.openlocfilehash: 629c28e752b7316a3d2e7fda0acf7f457788d6a8
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+description: Vue d’ensemble de l’utilisation d’un service de gestion automatique cloud avec Skype Entreprise Server 2019.
+ms.openlocfilehash: 62731691f4e56c923d2dd8fa6057f244776ec65b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918740"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110490"
 ---
 # <a name="plan-cloud-call-queues"></a>Planifier les files d’attente d’appels cloud
 
@@ -28,7 +28,7 @@ En outre, les files d’attente d’appels cloud peuvent fournir :
 - Musique pendant l’attente des appelants
 - Paramètres personnalisés pour la taille maximale de la file d’attente d’appels, le délai d’attente et les options de gestion des appels
 
-Chaque file d’attente d’appels se voit attribuer un compte de ressource **(voir** [Configurer](configure-onprem-ra.md)les comptes de ressources) sur votre système Skype Entreprise Server 2019 qui sera lié directement à une file d’attente d’appels dans le Centre d’administration Microsoft Teams. Pour [plus d’informations sur](/MicrosoftTeams/create-a-phone-system-call-queue) les files d’attente d’appels et les options et fonctionnalités disponibles pour les files d’attente d’appels, voir Créer une file d’attente d’appels cloud.
+Chaque file d’attente d’appels se voit attribuer un compte de ressource **(voir** [Configurer](configure-onprem-ra.md)les comptes de ressources) sur votre système Skype Entreprise Server 2019 qui sera lié directement à une file d’attente d’appels dans le Centre d’administration Microsoft Teams. Pour plus [d’informations sur](/MicrosoftTeams/create-a-phone-system-call-queue) les files d’attente d’appels et les options et fonctionnalités existantes pour les files d’attente d’appels, voir Créer une file d’attente d’appels cloud.
 
 > [!NOTE]
 > Vous pouvez affecter plusieurs numéros de téléphone à une file d’attente d’appels, mais il doit s’agit de numéros de service Microsoft, de numéros de routage direct ou de numéros hybrides.
@@ -45,7 +45,7 @@ Outre la configuration requise ci-dessus, les conditions ci-dessous doivent êtr
 
    Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365](plan-hybrid-connectivity.md) et configurer la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365.](configure-hybrid-connectivity.md)
 
-- Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence d’utilisateur virtuel du système téléphonique sans frais. Cela offre des fonctionnalités de système téléphonique pour les numéros de téléphone au niveau de l’organisation, et vous permet de créer des fonctionnalités de attendant automatique et de file d’attente d’appels.
+- Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence d’utilisateur virtuel du système téléphonique sans frais. Cela offre des fonctionnalités de système téléphonique pour les numéros de téléphone au niveau de l’organisation, et vous permet de créer des fonctionnalités de numéro de téléphone et de attendant automatique.
 
 - Créez un compte de ressource [local](configure-onprem-ra.md) pour chaque file d’attente d’appels et attribuez une licence et un numéro de téléphone si nécessaire.  
 
@@ -55,7 +55,7 @@ Lorsque vous avez une structure solide qui répond à vos besoins et un script q
 
 [Configurer des comptes de ressource](configure-onprem-ra.md)
 
-[Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
 [Un standard Cloud automatique, qu’est-ce que c’est ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un attendant automatique cloud avec Skype Entreprise Server 2019
-ms.openlocfilehash: 50cd9bb8b20e44d750dab68ec6fecb30bd02e203
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b144576b3e572137a512881f4bdcd1ab0e06d0ba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918690"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110350"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques cloud
 
@@ -25,12 +25,12 @@ Le attendant automatique utilisé avec la messagerie unifiée Exchange (Exchange
 
 Cela signifie intrinsèquement que vous aurez une implémentation hybride de Skype Entreprise Server 2019 si vous souhaitez utiliser des fonctionnalités de messagerie unifiée telles que les attendants automatiques. Pour plus d’informations, voir Configurer la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365.](configure-hybrid-connectivity.md)
 
-Un service cloud est un service cloud qui accepte les appels des clients et lit des salutations, leur fournit des options de menu et interagit avec les appelants à l’aide de la reconnaissance vocale ou du pavé de numérotation pour router leurs appels vers la bonne destination. Un compte de ressource *(voir* Configurer les comptes de [ressources)](configure-onprem-ra.md)est affecté à chaque attendant automatique sur votre système Skype Entreprise Server 2019 qui sera lié directement à un service de gestion automatique dans le Centre d’administration Microsoft Teams. Pour [plus d’informations sur les attendants automatiques](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) et les options et fonctionnalités disponibles pour les attendants automatiques, consultez la liste des attendants automatiques cloud.
+Un attendant automatique est un service cloud qui accepte les appels des clients et lit des salutations, leur fournit des options de menu et interagit avec les appelants à l’aide de la reconnaissance vocale ou du pavé de numérotation pour router leurs appels vers la bonne destination. Un compte de ressource *(voir* Configurer les comptes de [ressources)](configure-onprem-ra.md)est affecté à chaque attendant automatique sur votre système Skype Entreprise Server 2019 qui sera lié directement à un service de gestion automatique dans le Centre d’administration Microsoft Teams. Pour [plus d’informations sur les attendants automatiques](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) et les options et fonctionnalités disponibles pour les attendants automatiques, consultez la liste des attendants automatiques cloud.
 
 > [!NOTE]
-> Vous pouvez affecter plusieurs numéros de service Microsoft, des numéros de routage direct ou des numéros hybrides à un service de service automatique.
+> Vous pouvez affecter plusieurs numéros de service Microsoft, des numéros de routage direct ou des numéros hybrides à un service de sécurité automatique.
 
-Un appel entrant vers un attendant automatique cloud peut prendre l’un des chemins d’accès, comme illustré ici :
+Un appel entrant vers un service de attendant automatique cloud peut prendre l’un des chemins d’accès indiqués ci-après :
 
 ![Diagramme pour les attendants automatiques](../../SfBServer2019/media/AA-plan-concept.png)
 
@@ -41,7 +41,7 @@ Un appel entrant vers un attendant automatique cloud peut prendre l’un des che
 Consulter également :
 
 - [Configurer un standard automatique dans le cloud](/microsoftteams/create-a-phone-system-auto-attendant)
-- [Réponse et routage automatique d’appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+- [Réponse et routage automatique d’appels entrants](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -57,7 +57,7 @@ Outre la configuration requise ci-dessus, les conditions ci-dessous doivent êtr
 
    Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365](plan-hybrid-connectivity.md) et configurer la connectivité hybride entre Skype Entreprise Server et [Microsoft 365 ou Office 365.](configure-hybrid-connectivity.md)
 
-- Si vous affectez un numéro de téléphone à votre attendant automatique, vous aurez besoin d’une licence [Office 365 Entreprise E5.](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing)
+- Si vous affectez un numéro de téléphone à votre attendant automatique, vous aurez besoin d’une licence [Office 365 Entreprise E5.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - Créez un compte de ressource [](configure-onprem-ra.md) [en ligne](/MicrosoftTeams/manage-resource-accounts.md) ou local pour chaque numéro de téléphone et attribuez des numéros de téléphone et des licences. 
 
 ## <a name="migration-and-interoperability"></a>Migration et interopérabilité
@@ -86,7 +86,7 @@ Pour l’instant, nous ne allons pas prendre en charge la migration automatisée
 2. Créez des copies de scripts de texte par reconnaissance vocale ou des messages enregistrés associés à chaque nœud de attendant automatique de messagerie unée.
 3. Créez des points de terminaison locaux pour chaque nœud de attendant automatique, y compris l’attribution de numéros de téléphone de test et de licences aux objets. Notez que vous avez désormais la possibilité d’attribuer des licences de numéros de téléphone locaux utilisés par des services en ligne tels que le système téléphonique.
 4. Implémenter un nouveau service de service de transport automatique cloud avec Microsoft Teams et le système téléphonique. Pour [plus d’informations sur l’implémentation,](configure-onprem-ra.md) voir Configurer les comptes de ressources. Comme vous le faites, téléchargez les scripts de texte par reconnaissance vocale ou les messages enregistrés associés à chaque nœud de attendant automatique de messagerie unée.
-5. Testez la fonctionnalité du attendant automatique cloud.
+5. Testez les fonctionnalités du service de attendant automatique cloud.
 6. Réaffectez le numéro de téléphone affecté à l’ancien attendant automatique de la um Exchange au nouveau numéro de téléphone principal cloud.
 
 Pour plus [d’informations](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) sur ces étapes, voir Déplacement d’un service de transport automatique ou d’une file d’attente d’appels de la um Exchange vers le système téléphonique.
@@ -94,7 +94,7 @@ Pour plus [d’informations](configure-onprem-ra.md#moving-an-exchange-um-auto-a
 Lorsque vous avez une structure solide qui répond à vos besoins et un script qui guide efficacement les clients, procédez à la configuration des comptes [de ressources.](configure-onprem-ra.md)
 
 > [!CAUTION]
-> Comme mentionné dans [la KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)il est déconseillé de déplacer des serveurs exécutant Server 2019 vers des serveurs exécutant Server 2019. Pour l’instant, vous devez les conserver sur un pool Skype Entreprise Server 2015 en mode coexistence.
+> Comme mentionné dans [la KB4480742,](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)il est déconseillé de déplacer des serveurs exécutant Server 2019 vers des serveurs exécutant Server 2019 pour les serveurs de messagerie unie créés dans Server 2015. Pour l’instant, vous devez les conserver sur un pool Skype Entreprise Server 2015 en mode coexistence.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -102,16 +102,16 @@ Lorsque vous avez une structure solide qui répond à vos besoins et un script q
 
 [Configurer des comptes de ressource](configure-onprem-ra.md)
 
-[Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
 [Un standard Cloud automatique, qu’est-ce que c’est ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Configurer un standard automatique dans le cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 
-Um Exchange : [répondre et router automatiquement les appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+Um Exchange : [répondre et router automatiquement les appels entrants](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 [ Planifier une connectivité hybride entre Skype pour serveur d'entreprise et Microsoft 365 ou Office 365](plan-hybrid-connectivity.md)
 
 [Configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou Office 365](configure-hybrid-connectivity.md)
 
-[KB4480742 : les appels à l’accès abonné ou au service de sécurité automatique échouent avec une occupé rapide et une erreur « 500 Serveur interne » après le déplacement d’objets contact vers Skype Entreprise Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+[KB4480742 : les appels à l’accès abonné ou au attendant automatique échouent avec une occupé rapide et une erreur « 500 Serveur interne » après le déplacement d’objets contact vers Skype Entreprise Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

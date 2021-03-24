@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Créez ou modifiez une file d’attente Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 9ab714b974601599f591880886a2cf64e35262ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808674"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103580"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype Entreprise
  
@@ -71,7 +71,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
+   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **vers** la messagerie vocale, puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
    - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
     
@@ -121,7 +121,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    ```
 
    > [!NOTE]
-   > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, [voir Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, [voir Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Définissez l’action à exécuter lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -130,7 +130,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    ```
 
    > [!NOTE]
-   > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+   > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Par exemple :
     
@@ -151,7 +151,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    ```
 
       > [!NOTE]
-      > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, [voir Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, [voir Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -160,7 +160,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    ```
 
     > [!NOTE]
-    > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+    > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Par exemple :
     
@@ -181,7 +181,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    ```
 
     > [!NOTE]
-    > Pour plus d’informations sur la création du groupe d’agents, voir [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Pour plus d’informations sur la création du groupe d’agents, voir [New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Créez la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -203,16 +203,16 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-CsRgsQueue](/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

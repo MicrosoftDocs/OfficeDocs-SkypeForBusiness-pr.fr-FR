@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130415"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102740"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels pour Microsoft 365
 
@@ -39,9 +39,9 @@ Les appels à d’autres utilisateurs de Skype Entreprise et Microsoft Teams son
   
 Voici les options de forfaits d’appels :
   
-- **Forfait d’appels** nationaux : les utilisateurs sous licence peuvent appeler des numéros situés dans le pays/la région dans lequel ils sont affectés dans Microsoft 365 ou Office 365.
+- **Forfait d’appels** nationaux : les utilisateurs titulaires d’une licence peuvent appeler des numéros situés dans le pays/la région dans lequel ils sont affectés dans Microsoft 365 ou Office 365.
     
-- Plan d’appels nationaux et internationaux : les utilisateurs sous licence peuvent appeler des numéros situés dans le pays/la région dans lequel leur licence Microsoft 365 ou Office 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et vers des numéros internationaux dans [196 pays/régions.](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)
+- Plan d’appels nationaux et internationaux : les utilisateurs sous licence peuvent appeler des numéros situés dans le pays ou la région dans lequel leur licence Microsoft 365 ou Office 365 est attribuée à l’utilisateur en fonction de l’emplacement de l’utilisateur et vers des numéros internationaux dans [196 pays/régions.](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)
 
 Tous les utilisateurs dans le même pays/région (il s’agit de l’emplacement du pays d’utilisateur défini dans la zone de licence du Centre d’administration Microsoft 365) avec le même plan d’appels partagent une réserve de minutes. Par exemple, si vous avez 100 utilisateurs situés dans le même pays/région que celui où un plan d’appels nationaux de 120 minutes est attribué, ils partagent un pool de 12 000 minutes. Tous les appels supérieurs à ces minutes sont facturés par minute.
     
@@ -55,24 +55,24 @@ Pour plus d’informations sur les limites d’utilisation et les conditions d�
   
 ## <a name="how-to-buy-a-calling-plan"></a>Comment acheter un forfait d’appels
 
-1. <strong>Vous devez tout d’abord acheter une licence de</strong> module add-on **Phone <strong>System. Pour ce [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) faire, connectez-vous</strong>au Centre d’administration Microsoft 365 et sélectionnez **Billing  >  **Purchase services**  >  **Add-on subscriptions**  >  **Buy now**.
+1. <strong>Vous devez tout d’abord acheter une licence de</strong> module add-on **Phone <strong>System. Pour ce [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) faire, connectez-vous</strong>au Centre d’administration Microsoft 365 et sélectionnez **Abonnements au module  >    >  **add-on** Billing Purchase  >  **services Acheter maintenant.**
     
     ![Capture d’écran montrant l’option d’achat d’un plan d’appel vocal.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Selon votre offre, vous devrez peut-être acheter d’autres modules logiciels avant de pouvoir acheter des licences Phone System. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+    > Selon votre offre, vous devrez peut-être acheter d’autres modules add-ons avant de pouvoir acheter des licences Phone System. Pour en savoir plus, voir les [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Après avoir acheté des licences Phone System, vous pouvez acheter l’offre d’appels en vous inscrivant au Centre d’administration **Microsoft 365,** en choisissant Abonnements au module   >    >  **add-on** Billing Purchase services, puis en cliquant sur **Acheter** maintenant. Les forfaits d’appels s’y voient.
     
     ![Capture d’écran montrant les options de plan d’appel vocal.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Vous pouvez acheter et affecter différents plans d’appels à différents utilisateurs, selon les besoins de votre organisation. Une fois que vous avez sélectionné le plan d’appels dont vous avez besoin, procédez au chèque. Vous affectez une offre à chaque utilisateur dans le Centre d’administration Microsoft 365. Pour savoir comment faire, [consultez Attribuer des licences de modules add-on Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Vous pouvez acheter et affecter différents plans d’appels à différents utilisateurs, selon les besoins de votre organisation. Une fois que vous avez sélectionné le plan d’appels dont vous avez besoin, procédez au chèque. Vous affectez une offre à chaque utilisateur dans le Centre d’administration Microsoft 365. Pour savoir comment faire, [consultez Attribuer des licences de modules add-on de Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Avez-vous un fournisseur de services qui fournit une connectivité RSTN sur site pour les utilisateurs hybrides ?
 
 Si c’est le cas, vous n’avez pas besoin d’acheter de forfait d’appels. Office 365 Entreprise E5 incluant le module logiciel **Phone System,** vous pouvez procéder au chèque.
   
-Affectez ensuite les licences de module logiciel (E5) Entreprise ou **Système** téléphonique aux utilisateurs dans le Centre d’administration Microsoft 365. Pour savoir comment faire, [consultez Attribuer des licences de modules add-on Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Affectez ensuite les licences de modules add-on Entreprise E5 ou **Phone System** aux utilisateurs dans le Centre d’administration Microsoft 365. Pour savoir comment faire, [consultez Attribuer des licences de modules add-on Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="pricing-information"></a>Informations tarifaires
 
@@ -86,12 +86,12 @@ Voici d’autres articles expliquant comment configurer vos forfaits d’appels 
   
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Voici ce que vous obtenez avec Phone System dans Microsoft 365 ou Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Voici ce que vous obtenez avec Phone System dans Microsoft 365 ou Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
@@ -100,4 +100,3 @@ Voici d’autres articles expliquant comment configurer vos forfaits d’appels 
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
 - [Ajouter des fonds et gérer les Crédits de Communications](add-funds-and-manage-communications-credits.md)
- 

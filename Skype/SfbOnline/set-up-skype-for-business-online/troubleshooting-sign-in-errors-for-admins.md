@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164323"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103840"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 
@@ -61,7 +61,7 @@ La plupart des problèmes de connexion peuvent être ramenés à un petit nombre
 
 | **Cause possible**                                                                                                                                                    | **Solution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Durant la connexion, une boîte de dialogue affiche le message suivant : ** ne peut pas vérifier que le serveur est fiable pour que vous puissiez vous connecter. Voulez-vous vous connecter ?** <br/> | Vérifiez que le nom de domaine mentionné dans la boîte de dialogue correspond à un serveur approuvé au sein de votre organisation? Par exemple, **domainname.contoso.com**. Demandez à l’utilisateur d’activer la case à cocher **Toujours faire confiance à ce serveur**, puis cliquez sur **Se connecter**. <br/> Les clients Entreprise peuvent éviter que ce message s’affiche quand un utilisateur se connecte pour la première fois en modifiant le Registre Windows sur l’ordinateur de chaque utilisateur. Pour plus de détails, voir [Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Durant la connexion, une boîte de dialogue affiche le message suivant : **ne peut pas vérifier que le serveur est fiable pour que vous puissiez vous connecter. Voulez-vous vous connecter ?** <br/> | Vérifiez que le nom de domaine mentionné dans la boîte de dialogue correspond à un serveur approuvé au sein de votre organisation? Par exemple, **domainname.contoso.com**. Demandez à l’utilisateur d’activer la case à cocher **Toujours faire confiance à ce serveur**, puis cliquez sur **Se connecter**. <br/> Les clients Entreprise peuvent éviter que ce message s’affiche quand un utilisateur se connecte pour la première fois en modifiant le Registre Windows sur l’ordinateur de chaque utilisateur. Pour plus de détails, voir [Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
 | Adresse de connexion, nom d’utilisateur ou mot de passe incorrects  <br/>                                                                                                               | Vérifiez que le nom et le mot de passe de connexion de l’utilisateur sont corrects. <br/>  Vérifiez que le nom d’utilisateur est au format suivant : <strong>bobk@contoso.com</strong>. Ce format peut différer de celui utilisé lors de la connexion au réseau de votre organisation.  <br/>  Demandez à l’utilisateur de réessayer de se connecter. <br/>                                                                                                                                                                                                                             |
 | Mot de passe oublié  <br/>                                                                                                                                             | Réinitialisez le mot de passe de l’utilisateur et communiquez-lui son nouveau mot de passe temporaire.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Absence de licence pour utiliser Skype Entreprise Online  <br/>                                                                                                                  | Vérifiez que l’utilisateur est inscrit en tant qu’utilisateur de Skype Entreprise Online. S’il ne l’est pas, inscrivez-le et demandez-lui de se reconnecter.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -170,7 +170,7 @@ Enfin, si l’utilisateur ne parvient toujours pas à se connecter après la mis
 
 2. Si nécessaire, activez l’option d’affichage de dossier **Afficher les fichiers masqués**.
 
-3. Tapez les informations suivantes dans la barre d’adresses de l’Explorateur de fichiers : **C:\\Documents and Settings\\NomUtilisateur\\Application Data\\Microsoft\\Crypto\\RSA**, où ***NomUtilisateur*** est le nom de votre connexion à Windows.
+3. Tapez les informations suivantes dans la barre d’adresses de l’Explorateur de fichiers : **C:\\Documents and Settings\\NomUtilisateur\\Application Data\\Microsoft\\Crypto\\RSA**, où **_NomUtilisateur_** est le nom de votre connexion à Windows.
 
 4. Supprimez tout dossier dont le nom commence par **S-1-5-21-**, suivi d’une chaîne de chiffres.
 
@@ -195,7 +195,7 @@ Pour résoudre ce problème, procédez comme suit :
 
 1. Mettez à jour l’attribut **msRTCSIP-UserEnabled** pour tous les utilisateurs affectés sur **TRUE**.
 
-2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
+2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Utiliser le guide de résolution des problèmes du Support Microsoft
@@ -220,5 +220,3 @@ Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez pa
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
-
-

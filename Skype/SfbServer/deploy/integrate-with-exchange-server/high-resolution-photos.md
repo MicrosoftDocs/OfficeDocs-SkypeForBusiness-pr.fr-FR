@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Résumé : Configurez l’utilisation des photos haute résolution dans Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 ou Exchange Online et Skype Entreprise Server.'
-ms.openlocfilehash: c55e5a90e222ea024dd63f72b26627141b2f113e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f5cc44f9f390c1d3241e7fae68054754ff7b0f76
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834004"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109800"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurer l’utilisation de photos haute résolution dans Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 La première commande de l’exemple précédent utilise la cmdlet pour lire le contenu du fichier C:\Photos\Kenmyer.jpg et stocker ces données dans une variable nommée `Get-Content` $photo. Dans la deuxième commande, la cmdlet Exchange est utilisée pour télécharger la photo et `Set-UserPhoto` l’attacher au compte d’utilisateur de Ken Myer.
   
 > [!NOTE]
-> Dans cet exemple, le nom complet Active Directory de Ken Myer est utilisé comme identité de compte d’utilisateur. Vous pouvez également référencer un compte d’utilisateur à l’aide d’autres identificateurs tels que l’adresse SMTP de l’utilisateur ou son nom d’utilisateur principal. Pour plus d’informations, voir la documentation Set-UserPhoto cmdlet [https://go.microsoft.com/fwlink/p/?LinkId=268536](https://go.microsoft.com/fwlink/p/?LinkId=268536)
+> Dans cet exemple, le nom complet Active Directory de Ken Myer est utilisé comme identité du compte d’utilisateur. Vous pouvez également référencer un compte d’utilisateur à l’aide d’autres identificateurs tels que l’adresse SMTP de l’utilisateur ou son nom d’utilisateur principal. Pour plus d’informations, voir la documentation Set-UserPhoto cmdlet [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto)
   
 Le téléchargement de la photo n’équivaut pas à affecter cette photo au compte d’utilisateur de Ken Myer. Au lieu de cela, le téléchargement de la photo entraîne simplement un aperçu de cette photo à afficher sur la page Options d’Outlook Web App. Pour affecter réellement cette photo au compte  d’utilisateur, l’utilisateur doit cliquer sur Enregistrer dans la page Options ou l’administrateur doit exécuter la troisième commande de l’exemple. Cette troisième commande utilise le paramètre Save pour affecter la photo au compte d’utilisateur de Ken Myer :
   

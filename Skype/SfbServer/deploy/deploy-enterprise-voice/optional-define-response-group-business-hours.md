@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Créez ou modifiez des heures d’ouverture Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830994"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103670"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Facultatif) Définir les heures d’ouverture de Response Group dans Skype Entreprise 
  
@@ -66,6 +66,6 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[New-CsRgsHoursOfBusiness](/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

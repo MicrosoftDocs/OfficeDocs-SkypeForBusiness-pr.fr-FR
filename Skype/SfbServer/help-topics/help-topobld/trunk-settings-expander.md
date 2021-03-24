@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
-ms.openlocfilehash: 827399a74f2af29645d77f28efe9b7f2fc5fb3ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5859686a6fedf8c4da15ada5c4ad92f47c24b756
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818019"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114140"
 ---
 # <a name="trunk-settings-expander"></a>Expandeur des paramètres de la jonction
 
@@ -39,12 +39,12 @@ Pour modifier les paramètres d’une jonction SIP, procédez comme suit :
 > [!NOTE]
 > Seule la troncation racine peut être associée à un serveur de médiation Lync Server 2010 ou Lync Server 2013.
 
- **Port du serveur de médiation** associé : valeur requise, définie sur la valeur que le serveur de médiation est configuré pour écouter.
+ **Port du serveur de** médiation associé : valeur requise, définie sur la valeur que le serveur de médiation est configuré pour écouter.
 
 ![Expandeur des paramètres de la jonction](../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Liste de vérification du déploiement de la trunking SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Liste de vérification du déploiement de la trunking SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[Composants et topologies pour la jonction SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Composants et topologies pour la jonction SIP](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)

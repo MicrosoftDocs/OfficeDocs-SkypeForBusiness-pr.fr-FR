@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830784"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103470"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise
  
@@ -58,8 +58,8 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
 
 ## <a name="see-also"></a>Voir aussi
 
-[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[Get-CsRgsConfiguration](/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

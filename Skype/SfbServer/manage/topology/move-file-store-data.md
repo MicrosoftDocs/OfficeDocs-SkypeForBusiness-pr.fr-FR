@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de magasin de fichiers pour votre déploiement Skype Entreprise Server, ou si vous devez apporter d’autres modifications qui rendraient le magasin de fichiers actuel indisponible, vous devez d’abord créer un nouveau partage. Ensuite, vous devez effectuer les étapes suivantes :'
-ms.openlocfilehash: 1ea1f6f038a5d589f9a2c3f480a5c9e589c324f3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dbe9d239680d592a4d309d97577c6a6bad702239
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816364"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103170"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Déplacer les données du magasin de fichiers vers un nouveau magasin de fichiers dans Skype Entreprise Server
 
@@ -41,7 +41,7 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
 
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
 
-4. Pour chaque pool directeur, directeur, serveur Standard Edition server et pool frontal qui utilise le magasin de fichiers que vous prévoyez de supprimer, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur Arrêter tous les **services.**
+4. Pour chaque pool directeur, directeur, serveur Standard Edition et pool frontal qui utilise le magasin de fichiers que vous prévoyez de supprimer, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur Arrêter tous les **services.**
 
 5. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologies est installé, en tant que membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
 
@@ -56,7 +56,7 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
    c. Dans **Définir un nouveau magasin de** fichiers, sous **FQDN** du serveur de fichiers, tapez le nom de domaine complet (FQDN) du serveur de fichiers. Sous **Partage de fichiers,** tapez le nom du dossier du nouveau partage de fichiers, puis cliquez sur **OK.**
 
      > [!IMPORTANT]
-     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le Générateur de topologies. Vous ne la définissez qu’une seule fois, et non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers défini sur le serveur de fichiers défini. Pour plus d’informations, voir [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le Générateur de topologies. Vous ne la définissez qu’une seule fois, et non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers défini sur le serveur de fichiers défini. Pour plus d’informations, voir [Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14)).
 
 8. Pour chaque serveur ou pool qui utilise le magasin de fichiers, faites les choses suivantes :
 
@@ -64,7 +64,7 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
 
    b. Dans **Modifier les propriétés,** sous **Associations,** **dans** le magasin de fichiers, sélectionnez le nouveau partage de fichiers, puis cliquez sur **OK**.
 
-9. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Skype Entreprise Server si nécessaire. Pour plus d’informations, voir [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+9. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Skype Entreprise Server si nécessaire. Pour plus d’informations, voir [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
 10. Démarrez une invite de commandes : cliquez **sur Démarrer,** sur **Exécuter,** puis tapez cmd.exe.
 
@@ -79,14 +79,14 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
 
 12. Lorsque la copie des données est terminée, dans le Panneau de contrôle Lync Server, cliquez sur **Topologie,** puis sur **État**.
 
-13. Pour chaque serveur ou pool où vous avez arrêté les services, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur **Démarrer tous les services.**
+13. Pour chaque serveur ou pool sur lequel vous avez arrêté les services, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur **Démarrer tous les services.**
 
-14. Supprimez l’ancien magasin de fichiers de la topologie, puis publiez la topologie. Pour plus d’informations, voir [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+14. Supprimez l’ancien magasin de fichiers de la topologie, puis publiez la topologie. Pour plus d’informations, voir [Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14)).
 
 15. (Facultatif) Ouvrez une session sur l’ordinateur qui contient le magasin de fichiers que vous venez de supprimer en tant que membre du groupe Administrateurs local ou du groupe Administrateurs de domaine, puis supprimez l’ancien répertoire et l’ancien partage de fichiers.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Réattribuer un serveur à un magasin de fichiers différent](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
+[Réattribuer un serveur à un magasin de fichiers différent](/previous-versions/office/skype-server-2010/gg195633(v=ocs.14))
 
-[Supprimer un magasin de fichiers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
+[Supprimer un magasin de fichiers](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14))

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Résumé : Découvrez comment gérer les données d’enregistrement des détails des appels pour Skype Entreprise Server.'
-ms.openlocfilehash: 01b4765a9fa98a898255c1374115e17c4966e797
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: abf6461a76ced9d3ba07e4c5157dd4d14bab60a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814214"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104390"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Spécifier la conservation des données d’cdr dans Skype Entreprise Server
  
@@ -68,7 +68,7 @@ Vous pouvez définir les paramètres de conservation des enregistrements des dé
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-Pour plus d’informations, voir la rubrique d’aide de [l';set-CsCdrConfiguration.)](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide de [l';set-CsCdrConfiguration.)](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
   
 ## <a name="see-also"></a>Voir aussi
 

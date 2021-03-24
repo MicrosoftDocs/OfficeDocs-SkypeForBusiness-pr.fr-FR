@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 9918fc2cb6bc9d05166d648ab3285a964d15f290
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b175c2cc3d0ed02a124a365787c8cb5d7cd37d10
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825434"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101440"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gérer les emplacements pour les fournisseurs de services de ligne de transport SIP dans Skype Entreprise Server
 
 Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP dans Skype Entreprise Server Voix Entreprise.
 
-Pour configurer Skype Entreprise Server de manière à localiser automatiquement les clients au sein d’un réseau, vous devez remplir la base de données du service Informations d’emplacement avec un schéma de câblage réseau et publier les emplacements, ou établir un lien vers une base de données externe qui contient déjà les mappages corrects. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, voir [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour configurer Skype Entreprise Server de manière à localiser automatiquement les clients au sein d’un réseau, vous devez remplir la base de données du service Informations d’emplacement avec un schéma de câblage réseau et publier les emplacements, ou établir un lien vers une base de données externe qui contient déjà les mappages corrects. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
 
 Vous renseignez la base de données du service Informations d’emplacement avec un emplacement d’intervention d’urgence (ERL), composé d’une adresse géographique et de l’adresse spécifique au sein d’un bâtiment. Le champ Emplacement **du** service Informations sur l’emplacement, qui est l’emplacement spécifique dans un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
 
@@ -38,7 +38,7 @@ Vous renseignez la base de données du service Informations d’emplacement avec
 - Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[Proche]** (par exemple, « À proximité du 1er étage 1234 »).
 
 > [!NOTE]
-> Les emplacements ajoutés à la base de données centrale d’emplacements ne sont pas disponibles pour le client tant qu’ils ne sont pas publiés à l’aide d’une commande Skype Entreprise Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, voir [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
+> Les emplacements ajoutés à la base de données centrale des emplacements ne sont pas disponibles pour le client tant qu’ils ne sont pas publiés à l’aide d’une commande Skype Entreprise Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, voir [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) dans la documentation de déploiement.
 
 Les sections suivantes abordent les points à prendre en considération lorsque vous remplissez et mettez à jour la base de données des emplacements.
 
@@ -54,9 +54,9 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
 En utilisant l’option Du service Informations sur l’emplacement secondaire pour vous connecter à une base de données tierce, vous pouvez grouper et gérer des emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service Informations d’emplacement peut retourner plusieurs adresses, provenant du service Informations d’emplacement secondaire, à un client Skype Entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
 
-Pour s’intégrer au service Informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Lync Server. Pour plus d’informations, voir  [« [MS-E911WS]: Web Service for E911 Support Protocol Specification](https://go.microsoft.com/fwlink/p/?linkid=213819)». Pour plus d’informations sur le déploiement d’un service Secondary Location Information, voir [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
+Pour s’intégrer au service Informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Lync Server. Pour plus d’informations, voir  [« [MS-E911WS]: Web Service for E911 Support Protocol Specification](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)». Pour plus d’informations sur le déploiement d’un service Informations sur l’emplacement secondaire, voir [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
 
-Pour plus d’informations sur le renseignement de la base de données d’emplacements, voir [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur le renseignement de la base de données d’emplacements, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
 
 ## <a name="maintaining-the-location-database"></a>Mise à jour de la base de données d’emplacements
 
@@ -69,5 +69,3 @@ L’ajout de points d’accès sans fil, le recâblage du bureau (qui implique d
  **Ferez-vous appel à une application SNMP pour associer des adresses MAC de client Lync aux identificateurs de port et de commutateur ?**
 
 Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie une adresse IP de châssis ou un ID de port qui n’est pas inclus dans la base de données, le service Informations d’emplacement ne peut pas renvoyer un emplacement au client.
-
-

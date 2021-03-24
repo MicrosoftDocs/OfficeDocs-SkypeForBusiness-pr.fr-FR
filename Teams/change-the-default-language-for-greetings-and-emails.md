@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment configurer Skype Entreprise pour utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation.
-ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f6fb890d52e052afffccbfe753ab5b3b8a1bb338
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691390"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102670"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -49,7 +49,7 @@ Si vous êtes un administrateur [général,](https://support.office.com/article/
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à [l’auprès de votre](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) compte d’administrateur général sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) . 
+1. Connectez-vous à [l’auprès de votre compte d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) général sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) . 
     
 2. Dans le Centre d’administration Microsoft 365, sélectionnez **Paramètres** du profil de  >    >  **l’organisation.** 
     
@@ -69,9 +69,9 @@ Si vous êtes un administrateur [général,](https://support.office.com/article/
     
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Planifier le système téléphonique dans Microsoft 365 ou Office 365 avec la connectivité PSTN sur site dans Skype Entreprise Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planifier le système téléphonique dans Microsoft 365 ou Office 365 avec la connectivité PSTN sur site dans Skype Entreprise Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Modifier la langue d’affichage et le fuseau horaire dans Microsoft 365 ou Office 365 pour les entreprises](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
@@ -80,4 +80,3 @@ Si vous êtes un administrateur [général,](https://support.office.com/article/
 - [Activer ou modifier la langue de disposition du clavier dans Office](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
- 

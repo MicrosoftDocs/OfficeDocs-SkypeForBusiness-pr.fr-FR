@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830984"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103680"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
  
@@ -59,6 +59,6 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 [Conception et création de flux de travail Response Group dans Skype Entreprise](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

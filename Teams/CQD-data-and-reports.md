@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et rapports disponibles dans le tableau de bord de qualité des appels de Microsoft.
-ms.openlocfilehash: 4b96f64f7f182c0d4c95796358b20b38d8c726b4
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 2d36787a5341db016c18a30977cb086b0b6d7afc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897844"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111540"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels
 
@@ -40,10 +40,10 @@ Vous pouvez accéder aux données du CQD par différentes façons. Choisissez ce
 
 |  |  |
 |---------|---------|
-|Centre d’administration Teams [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | Les données du CQD sont incluses dans la **page** Utilisateurs du Centre d’administration Teams, affichant les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données de CQD disponibles sous **Utilisateurs.**  |
-|Portail du CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Synthèse robuste et rapports détaillés qui répondent à la plupart des besoins, avec un filtrage détaillé. Vous pouvez également personnaliser les rapports dans le portail du CQD. <br><br>Obtenez deux [modèles de rapport du CQD](#import-the-cqd-report-templates) pour vous aider à analyser les données dans le portail du même rapport.       |
-|Power BI     | Utilisez des requêtes directes pour afficher les données de votre CQD dans Power BI à l’aide [de modèles Power BI personnalisables.](CQD-Power-BI-query-templates.md) [Téléchargez les modèles de requête Power BI pour CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données du CQD](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api) via Power BI. Utilisez cette méthode si vous voulez télécharger vos données de qualité des fichiers CQD afin de pouvoir travailler dessus en mode hors connexion. L’utilisation de cette méthode permet de bénéficier de meilleures performances, particulièrement utiles pour les grands ensembles de données qui se déclenchent en ligne dans Power BI.       |
-|API Graph     | Accédez aux données de qualité des appels vous-même à l’aide [de l’API Graph.](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) Il s’agit de la méthode la plus complexe, mais elle vous offre un contrôle et une flexibilité accrues pour analyser vos données de qualité des appels. Par exemple, si vous devez la joindre à d’autres données pour votre organisation, vous pouvez utiliser l’API Graph pour créer un modèle de données et incorporer des données de qualité des appels.        |
+|Centre d’administration Teams [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | Les données du CQD sont incluses dans la **page** Utilisateurs du Centre d’administration Teams. Elles affichent les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données de CQD disponibles sous **Utilisateurs.**  |
+|Portail du CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Synthèse robuste et rapports détaillés qui répondent à la plupart des besoins, avec un filtrage détaillé. Vous pouvez également personnaliser les rapports dans le portail du CQD. <br><br>Obtenez deux [modèles de rapport du CQD](#import-the-cqd-report-templates) pour vous aider à analyser les données dans le portail du deQD.       |
+|Power BI     | Utilisez des requêtes directes pour afficher les données de votre CQD dans Power BI à l’aide [de modèles Power BI personnalisables.](CQD-Power-BI-query-templates.md) [Téléchargez les modèles de requête Power BI pour CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Vous pouvez également utiliser [l’API REST pour accéder aux données du CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) via Power BI. Utilisez cette méthode si vous voulez télécharger vos données de qualité des fichiers CQD afin de pouvoir travailler dessus en mode hors connexion. L’avantage de cette méthode est d’obtenir de meilleures performances, particulièrement utiles pour les grands ensembles de données qui se déclenchent en ligne dans Power BI.       |
+|API Graph     | Accédez aux données de qualité des appels vous-même à l’aide [de l’API Graph.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) Il s’agit de la méthode la plus complexe, mais elle vous offre un contrôle et une flexibilité accrues pour analyser vos données de qualité des appels. Par exemple, si vous devez la joindre à d’autres données de votre organisation, vous pouvez utiliser l’API Graph pour créer un modèle de données et incorporer des données de qualité des appels.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importer les modèles de rapport du CQD
 
@@ -79,7 +79,7 @@ Pour des raisons de conformité, les données d’identification de l’utilisat
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Rôles d’administrateur avec et sans accès EUII
 
-Ces [rôles de](https://docs.microsoft.com/azure/role-based-access-control/overview) contrôle **d’accès rapide ont** accès à la fonction EUII :
+Ces [rôles de](/azure/role-based-access-control/overview) contrôle **d’accès rapide ont** accès à la fonction EUII :
 - Administrateur global
 - Administrateur du service Teams
 - Administrateur de Communications Teams
@@ -111,10 +111,10 @@ Le paramètre Date de l’URL accepte un champ Day. Les rapports jour après jou
 |<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |Jour actuel|
 |||
 
-Par défaut, le jour en cours du mois est utilisé comme dernier jour de la tendance Jour consécutif.
+Par défaut, le jour en cours du mois est utilisé comme dernier jour de la tendance jour consécutif.
 
 
-## <a name="data-available-in-cqd-reports"></a>Données disponibles dans les rapports du CQD
+## <a name="data-available-in-cqd-reports"></a>Données disponibles dans les rapports du DQD
 
 Le résumé par défaut et les rapports détaillés du tableau de qualité des appels peuvent vous aider à gérer la qualité des appels pour votre organisation. Si nécessaire, vous pouvez créer [des rapports personnalisés.](#create-custom-detailed-reports) 
 
@@ -129,7 +129,7 @@ Si vous voulez utiliser Power BI pour analyser les données de votre CQD, lisez 
 |Mesures de fiabilité des médias   | Non   | Oui   |
 |Rapports pré-pré-prél   | Oui   | Oui   |
 |Présentation des rapports   | Oui   | Oui   |
-|Ensemble de rapports par utilisateur   | Non   | Oui   |
+|Jeu de rapports par utilisateur   | Non   | Oui   |
 |Personnalisation de l’ensemble de rapports (ajout, suppression, modification des rapports)   | Non   | Oui   |
 |Mesures de partage d’écran vidéo   | Non   | Oui   |
 |Mesures vidéo   | Non   | Oui   |
@@ -149,7 +149,7 @@ Dans les rapports détaillés, vous pouvez utiliser la dimension **Is Teams** po
 
 ## <a name="summary-reports"></a>Rapports de synthèse
 
-Il s’agit des rapports que vous verrez dans le tableau de bord du tableau de bord de tableau de bord lorsque vous vous connectez pour la première fois au tableau de bord de tableau de bord. Ils vous donnent un aperçu rapide des tendances de qualité à l’aide de rapports quotidiens, mensuels et de tableaux pour vous aider à identifier les sous-réseaux de mauvaise qualité. 
+Il s’agit des rapports qui s’afficheront dans le tableau de bord du tableau de bord du tableau de bord lorsque vous vous connectez pour la première fois au tableau de bord de tableau de bord. Ils vous donnent un aperçu rapide des tendances de qualité à l’aide de rapports quotidiens, mensuels et de tableaux pour vous aider à identifier les sous-réseaux de mauvaise qualité. 
 
 | Tabulation | Description |
 |---------|---------|
@@ -183,7 +183,7 @@ Vous pouvez également obtenir les valeurs numériques réelles en pointant la s
   
 Le volume global de flux aide à déterminer le niveau de pertinence des pourcentages de flux médiocres calculés. Plus le volume de flux globaux est faible, moins les valeurs de pourcentage de flux médiocres sont fiables.
   
-### <a name="server-client-tab-and-client-client-tabs"></a>Server-Client et Client-Client tabulations
+### <a name="server-client-tab-and-client-client-tabs"></a>Server-Client et Client-Client onglets
 
 Ces deux onglets fournissent des détails sur les flux qui ont eu lieu dans leurs scénarios de point de terminaison à point de terminaison. LServer-Client onglet a quatre sections réductibles qui représentent quatre scénarios selon lesquels les flux de données multimédias circuleraient.
   
@@ -197,7 +197,7 @@ De même, l’onglet Client-Client'onglet a cinq sections réductibles :
 - Filé à l’intérieur — filé à l’intérieur
 - Filé à l’intérieur — filé à l’extérieur
 - Fil filé extérieur — Filé à l’extérieur
-- Connexion filée interne — WiFi interne
+- Connexion filée interne — WiFi Interne
 - Connexion filée interne — WiFi externe
 
 #### <a name="inside-versus-outside"></a>Intérieur et Extérieur
@@ -235,19 +235,19 @@ Nous vous recommandons de charger les données de votre client, bâtiment et emp
 |Rapports d’amélioration de la qualité     | Drill downs: Date by region, locations, subnets, hour, and users.        |
 |Échec de l’drill down reports     | Drill downs: Date by region, locations, subnets, hour, and users.        |
 |Évaluer mes rapports d’appel     |Analysez les évaluations des appels par région, emplacement ou par utilisateur. Inclut des commentaires verbatim.         |
-|Rapports du service d’aide     |Les rapports du service d’aide peuvent examiner les données relatives aux appels et aux réunions pour les utilisateurs individuels, les groupes d’utilisateurs ou tout le monde. Intégrant les données de création et d’EUII, ces rapports permettent d’identifier les problèmes système possibles en fonction de l’emplacement réseau, des détails des conférences, des appareils ou du microprogramme.         |
+|Rapports du service d’aide     |Les rapports du service d’aide utilisent les données relatives aux appels et aux réunions pour les utilisateurs individuels, les groupes d’utilisateurs ou tout le monde. Intégrant les données de création et d’EUII, ces rapports permettent d’identifier les problèmes système possibles en fonction de l’emplacement réseau, des détails des conférences, des appareils ou du microprogramme.         |
 |Rapports sur les versions des clients     |Résumé de la version du client : afficher le nombre de sessions et d’utilisateurs pour chaque version de l’application cliente<br><br>Version client par utilisateur : afficher les noms d’utilisateur pour chaque version de l’application client <br><br>Les filtres pré-intégrés pour les produits et les types de clients aident à axer les versions sur des clients spécifiques.         |
 |Rapports sur les points de terminaison     |Affiche la qualité des appels par point de terminaison d’ordinateur (produit et modèle d’ordinateur). Ces rapports incluent les données de bâtiment, si vous les avez téléchargées.         |
 
 
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
 
-Si les rapports de DQD par défaut ne répondent pas à vos besoins, utilisez ces instructions pour créer un rapport personnalisé. Ou (à partir de janvier 2020) utiliser les rapports [Power BI ](cqd-power-bi-query-templates.md)pour le journal des rapports du même nom.
+Si les rapports de DQD par défaut ne répondent pas à vos besoins, utilisez ces instructions pour créer un rapport personnalisé. Ou (à partir de janvier 2020) utiliser power BI pour les rapports du groupe [de recherche. ](cqd-power-bi-query-templates.md)
 
 From the pull-down list of reports at the top of the screen displayed at login \( the **Summary Reports** screen \) Select **Detailed Reports** and then **New.** Cliquez **sur** Modifier dans un état pour voir l’Éditeur de requête. Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. L’Éditeur de requête vous aide à modifier ces requêtes et les options d’affichage de l’état.
 
 > [!IMPORTANT]
-> La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez précédemment téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le charger à nouveau. Tout chevauchement dans les fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports. Certaines implémentations VPN n’indiquent pas précisément les informations sur le sous-réseau. Lors de l’ajout d’un sous-réseau VPN au fichier du bâtiment, au lieu d’une entrée pour le sous-réseau, il est recommandé d’ajouter des entrées distinctes pour chaque adresse du sous-réseau VPN en tant que réseau 32 bits distinct. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’avoir une ligne pour 172.16.18.0/24, vous devez avoir 256 lignes, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32 incluses.
+> La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez précédemment téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le charger à nouveau pour identifier les chevauchements et résoudre le problème avant de le charger à nouveau. Tout chevauchement dans des fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports. Certaines implémentations VPN n’indiquent pas précisément les informations sur le sous-réseau. Lors de l’ajout d’un sous-réseau VPN au fichier du bâtiment, au lieu d’une entrée pour le sous-réseau, il est recommandé d’ajouter des entrées distinctes pour chaque adresse du sous-réseau VPN en tant que réseau 32 bits distinct. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’avoir une ligne pour 172.16.18.0/24, vous devez avoir 256 lignes, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32 incluses.
 >
 > La colonne VPN est facultative et utilise la valeur 0 par défaut.  Si la valeur de la colonne VPN est définie sur 1, le sous-réseau représenté par cette ligne sera entièrement développé pour correspondre à toutes les adresses IP au sein du sous-réseau.  Utilisez-la avec parcimonie et uniquement pour les sous-réseaux VPN, car le développement complet de ces sous-réseaux aura un impact négatif sur les temps de requête pour les requêtes impliquant la création de données.
 
@@ -264,17 +264,17 @@ Les filtres de requête sont implémentés à l’aide de l’Éditeur de requê
 |----------------|----------------------|-------------------------------|
 | Aucune valeur vide   | Certains filtres ne permettent pas de filtrer les valeurs vides. Pour filtrer manuellement les valeurs vides, utilisez l’expression vide et définissez le filtre sur Égal ou Pas égal, selon vos besoins.      | Second Building Name \<\> \^ \\ s\*\$                       |
 | Exclure les sous-réseaux communs | S’il n’y a pas de fichier de bâtiment valide à séparer les réseaux gérés des réseaux non gérés, les réseaux à domicile seront inclus dans les rapports. Ces sous-réseaux d’accueil ne sont pas dans le cadre du contrôle de l’it et peuvent être rapidement exclus d’un rapport. Les sous-réseaux communs, tels que définis dans ce guide, sont 10.0.0.0, 192.168.1.0 et 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
-| Afficher dans le seul  | Permet de filtrer un rapport pour géré (à l’intérieur) ou non géré (à l’extérieur). Le modèle de DQD géré est déjà préconfiguré avec ces filtres.       | Second Inside Corp = Inside        |
+| Afficher dans uniquement  | Permet de filtrer un rapport pour géré (à l’intérieur) ou non géré (à l’extérieur). Le modèle de DQD géré est déjà préconfiguré avec ces filtres.       | Second Inside Corp = Inside        |
 
 ## <a name="report-filters"></a>Filtres de rapport
 
-Utilisez les filtres des rapports du CQD pour concentrer l’attention sur vos enquêtes. Utilisez les filtres de rapport en ajoutant un filtre au rapport rendu dans l’Éditeur de requête ou directement dans le rapport. Les filtres de rapport suivants sont utilisés dans les [modèles de tableau de qualité des rapports.](https://aka.ms/QERtemplates)
+Utilisez les filtres des rapports du CQD pour concentrer l’attention sur vos enquêtes. Utilisez les filtres de rapport en ajoutant un filtre au rapport rendu dans l’Éditeur de requête ou directement dans l’état. Les filtres de rapport suivants sont utilisés dans les [modèles de tableau de qualité des rapports.](https://aka.ms/QERtemplates)
 
 
 | Filtre     | Description                            | Exemple de filtre de rapport du CQD         |
 |------------|----------------------------------------|-----------------------------------|
 | Month      | Commencez par l’année, d’abord, puis par le mois. | 2017-10                           |
-| Alphabétique | Filtre les caractères alphabéiques. | [a-z]                             |
+| Alphabetic | Filtre les caractères alphabéiques. | [a-z]                             |
 | Numérique    | Filtre les caractères numériques.    | [0-9]                             |
 | Pourcentage | Filtres pour un pourcentage.              | ([3-9] \\ .) \| ([3-9]) \| ([1-9][0-9]) |
 
@@ -294,7 +294,7 @@ Commencez par cliquer **sur ...** pour le rapport que vous voulez modifier, puis
 
 ![Capture d’écran de la modification d’un champ d’drill-down](media/qerguide-image-addeditdrilldownfields.png)
 
-Sélectionnez une dimension dans la liste sur le côté gauche de l’Éditeur de requête. Cliquez ensuite sur la  barre de niveau inférieur sous l’étiquette Accéder à, puis sélectionnez l’onglet et le groupe de développement vers qui vous souhaitez que la dimension explorera. Remarque : Actuellement, la fonctionnalité d’drill-down fonctionne uniquement en naviguant vers différents onglets. La prise en charge de l’exploration d’un développement spécifique sera ajoutée ultérieurement. Enfin, cliquez **sur Fermer** pour enregistrer les  modifications apportées à la dimension, puis cliquez sur Enregistrer pour enregistrer et fermer l’Éditeur de requête.
+Sélectionnez une dimension dans la liste sur le côté gauche de l’Éditeur de requête. Cliquez ensuite sur la  barre de niveau inférieur sous l’étiquette Accéder à, puis sélectionnez l’onglet et le groupe de développement vers qui vous souhaitez que la dimension explorera. Remarque : Actuellement, la fonctionnalité d’drill-down fonctionne uniquement en naviguant vers différents onglets. La prise en charge de l’exploration d’un expandeur spécifique sera ajoutée ultérieurement. Pour finir, cliquez **sur Fermer** pour enregistrer  les modifications apportées à la dimension, puis cliquez sur Enregistrer pour enregistrer et fermer l’Éditeur de requête.
 
 ![Capture d’écran de la sélection d’une dimension dans l’Éditeur de requête](media/qerguide-image-selectquerydimension.png)
 
@@ -306,7 +306,7 @@ Pour sélectionner plusieurs valeurs de filtre, commencez par ajouter un nouveau
 
 ![Capture d’écran de l’ajout d’un filtre sélection multiple](media/qerguide-image-addmultiselectfilter.png)
 
-Cliquez ensuite sur **Recherche** (icône de loupe à côté du nouveau filtre). Un champ de texte et plusieurs options s’offrent à vous, notamment Sélectionner **tout** **et Inverser.** Entrez une valeur, puis cliquez **sur Rechercher** en côté de ce champ pour effectuer une recherche. Vous pouvez également laisser le champ de texte vide et cliquer **sur Rechercher** pour afficher les 100 premières options.
+Cliquez ensuite sur **Recherche** (icône de loupe à côté du nouveau filtre). Un champ de texte et plusieurs options s’offrent à vous, notamment Sélectionner **tout** **et Inverser.** Entrez une valeur, puis cliquez **sur Rechercher en** côté de ce champ pour effectuer une recherche. Vous pouvez également laisser le champ de texte vide et cliquer **sur Rechercher** pour afficher les 100 premières options.
 
 ```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -364,7 +364,7 @@ Vous pouvez utiliser un filtre d’URL pour filtrer chaque rapport pour une dime
 |----------------|----------------------|-------------------------------|
 | Aucune valeur vide   | Certains filtres ne permettent pas de filtrer les valeurs vides. Pour filtrer manuellement les valeurs vides, utilisez l’expression vide et définissez le filtre sur Égal ou Pas égal, selon vos besoins.      | Second Building Name \<\> \^ \\ s\*\$                       |
 | Exclure les sous-réseaux communs | S’il n’y a pas de fichier de bâtiment valide à séparer les réseaux gérés des réseaux non gérés, les réseaux à domicile seront inclus dans les rapports. Ces sous-réseaux d’accueil ne sont pas dans le cadre du contrôle de l’it et peuvent être rapidement exclus d’un rapport. Les sous-réseaux communs, tels que définis dans cet article, sont 10.0.0.0, 192.168.1.0 et 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
-| Afficher dans le seul  | Permet de filtrer un rapport pour géré (à l’intérieur) ou non géré (à l’extérieur). Le modèle de DQD géré est déjà préconfiguré avec ces filtres.       | Second Inside Corp = Inside        |
+| Afficher dans uniquement  | Permet de filtrer un rapport pour géré (à l’intérieur) ou non géré (à l’extérieur). Le modèle de DQD géré est déjà préconfiguré avec ces filtres.       | Second Inside Corp = Inside        |
 
 
 #### <a name="how-to-find-your-tenant-id"></a>Comment trouver votre ID de locataire
@@ -411,7 +411,7 @@ Une fois que vous vous êtes connecté pour la première fois, le CQD commence �
 > Depuis décembre 2019, vous pouvez toujours accéder à l’ancienne version du CQD (cqd.lync.com), bien que le portail hérité vous donne un lien vers le dernier CQD (cqd.teams.microsoft.com). Finalement, l’ancienne version du CQD sera désaffectée. À compter du 1er juillet 2020, l’ancienne version du DQD accède aux données à partir du nouveau CQD (et vous ne pouvez plus exporter les données de bâtiment et https://CQD.teams.microsoft.com) de rapport). Fin 2020, nous désactiverons l’ancien CQD et vous ne pourrez plus y accéder.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 
@@ -425,6 +425,6 @@ Une fois que vous vous êtes connecté pour la première fois, le CQD commence �
 
 [Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans le CQD](stream-classification-in-call-quality-dashboard.md)
+[Classification des flux dans le DQD](stream-classification-in-call-quality-dashboard.md)
 
 [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814814"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105380"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "49814814"
   
  Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui vous permet d’afficher les données d’état et de performances de Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques.
   
-Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec les logiciels, la mise en réseau et la configuration matérielle requise. Pour plus d’informations, [voir Plan for Statistics Manager for Skype for Business Server](plan.md).
+Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec la configuration logicielle, réseau et matérielle requise. Pour plus d’informations, [voir Plan for Statistics Manager for Skype for Business Server](plan.md).
   
 > [!NOTE]
 > Si vous êtes en cours de mise à niveau à partir d’une version précédente du Gestionnaire de statistiques, voir [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
@@ -78,7 +78,7 @@ Pour préparer l’ordinateur hôte, vous devez installer le système de mise en
     
 2. Le service d’écoute requiert un certificat. Microsoft recommande vivement la signature d’un certificat par une autorité de certification de confiance. 
     
-    Si vous souhaitez utiliser un certificat auto-signé à des fins de test dans un atelier, par exemple, voir Créer un certificat [auto-signé.](deploy.md#BKMK_SelfCert)
+    Si vous souhaitez utiliser un certificat auto-signé (à des fins de test dans un atelier, par exemple), voir Créer un certificat [auto-signé.](deploy.md#BKMK_SelfCert)
     
     Notez que l’agent utilise la vérification de l’empreinte numérique du certificat (au lieu de la vérification de chaîne). Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.
     
@@ -92,7 +92,7 @@ Installez le service d’écoute sur l’ordinateur hôte en exécutant le Stats
     
    - **Mot de passe du service :** Il s’agit du mot de passe que les agents distants utiliseront pour s’authentifier au service d’écoute.
     
-   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Lors de l’installation, ce port est autorisé à passer par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
+   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Au cours de l’installation, ce port est autorisé par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
     
    - **Empreinte numérique de certificat :** Il s’agit de l’empreinte numérique du certificat que l’écoute utilisera pour chiffrer le protocole HTTPS. Le service réseau doit avoir un accès en lecture à la clé privée.
     
@@ -179,7 +179,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importer la topologie
 <a name="BKMK_ImportTopology"> </a>
 
-Une fois le Gestionnaire de statistiques installé et en cours d’exécution, vous devez importer la topologie Skype Entreprise Server afin que le gestionnaire de statistiques connaisse le site, le pool et le rôle de chaque serveur. Pour importer votre topologie Skype Entreprise Server, vous utiliserez l';cmdlet [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) pour récupérer des informations sur chaque pool utilisé dans votre organisation, puis importez ces informations dans le Gestionnaire de statistiques.
+Une fois le Gestionnaire de statistiques installé et en cours d’exécution, vous devez importer la topologie Skype Entreprise Server afin que le gestionnaire de statistiques connaisse le site, le pool et le rôle de chaque serveur. Pour importer votre topologie Skype Entreprise Server, vous allez utiliser l’cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) pour récupérer des informations sur chaque pool utilisé dans votre organisation, puis importer ces informations dans le Gestionnaire de statistiques.
   
 Pour importer la topologie Skype Entreprise Server, suivez les étapes suivantes :
   
@@ -214,7 +214,7 @@ La commande suivante vous permet d’afficher toutes les options :
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Pour voir les informations de votre serveur actuellement importé, exécutez le script suivant : 
+Pour consulter les informations de votre serveur actuellement importé, exécutez le script suivant : 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1

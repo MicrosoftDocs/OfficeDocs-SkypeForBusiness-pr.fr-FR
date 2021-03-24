@@ -17,18 +17,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Résumé : Découvrez les étapes à suivre pour configurer la diffusion de réunion Skype pour votre déploiement hybride Skype Entreprise Server local.'
-ms.openlocfilehash: c016d60b416c7b6d935b15718f3f1a10f439b9ab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b70272ee90146bdac87264acf0c7673b8def05c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820704"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103690"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurer votre déploiement local pour la diffusion de réunion Skype
  
 **Résumé :** Découvrez les étapes à suivre pour configurer la diffusion de réunion Skype pour votre déploiement hybride Skype Entreprise Server local.
   
-Diffusion de réunion Skype est un service en ligne qui fait partie d’Office 365. Si vous exécutez Skype Entreprise Server en local et que vous souhaitez utiliser diffusion de réunion Skype dans votre environnement, vous devez suivre les étapes de configuration de cette rubrique. Avant de commencer, votre environnement doit être configuré pour un environnement hybride avec Skype Entreprise Online. Pour plus d’informations, voir [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) and Deploy hybrid [connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Diffusion de réunion Skype est un service en ligne qui fait partie d’Office 365. Si vous exécutez Skype Entreprise Server en local et que vous souhaitez utiliser diffusion de réunion Skype dans votre environnement, vous devez suivre les étapes de configuration de cette rubrique. Avant de commencer, votre environnement doit être configuré pour un environnement hybride avec Skype Entreprise Online. Pour plus d’informations, voir [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) and Deploy hybrid [connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurer votre environnement hybride pour diffusion de réunion Skype
 
@@ -69,7 +69,7 @@ Ensuite, vous devez ajouter des domaines fédérés SIP à la liste des domaines
     
 2. Sélectionnez **Domaines fédérés SIP** et cliquez sur **Nouveau.**
     
-3. Pour le **nom de domaine (ou nom de** domaine complet) : entrez le domaine, en répétant cette procédure pour chacun des domaines suivants :
+3. Pour le **nom de domaine (ou nom** de domaine complet) : entrez le domaine en répétant cette procédure pour chacun des domaines suivants :
     
    - noammeetings.lync.com
     
@@ -88,6 +88,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Une fois ces étapes de configuration terminées, vous pouvez commencer à utiliser diffusion de réunion Skype dans votre déploiement. Pour plus d’informations sur diffusion de réunion Skype, voir [Qu’est-ce](https://go.microsoft.com/fwlink/?LinkId=617071) qu’une diffusion de réunion Skype ? et le Guide d’administration de diffusion de réunion [Skype.](https://go.microsoft.com/fwlink/?LinkId=617075)
-  
-
+Une fois ces étapes de configuration terminées, vous pouvez commencer à utiliser diffusion de réunion Skype dans votre déploiement. Pour plus d’informations sur diffusion de réunion Skype, voir [Qu’est-ce](https://go.microsoft.com/fwlink/?LinkId=617071) qu’une diffusion de réunion Skype ? et le Guide d’administration de diffusion de réunion [Skype.](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

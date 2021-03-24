@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
-description: Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
-ms.openlocfilehash: 26f37c77886ac9f9fe7fb8d8680fb0dad642a9cf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Une stratégie de version du client est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
+ms.openlocfilehash: a461dad500f0c7d3095ef56483a6b592cec6c20d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812374"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109620"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
-Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
+Une stratégie de version du client est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -100,5 +100,4 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Bloquer avec une URL** empêche le client de se connecter et affiche un message sur l’endroit où télécharger une autre version du client. Vous spécifiez l’URL dans le **champ URL.**
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Interopérabilité](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) du client dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
-
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Interopérabilité](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) du client dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) dans la documentation des opérations.

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c3b567fa17955df1fe621bb1cfddeae8423adc
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 83688d6c4318aff9ef7a014a1792f52761145b4f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615070"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111030"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -35,9 +35,9 @@ ms.locfileid: "50615070"
 |Déploiement à compter du 7 janvier 2021<br> *(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Tous les nouveaux enregistrements des réunions Teams s’effectueront dans OneDrive Entreprise et SharePoint, sauf si vous retardez ce changement en modifiant les stratégies de réunion Teams de votre organisation et en les définissant explicitement sur **Stream**. Il ne suffit pas de voir les comptes-rendus de stratégie sous la forme Stream. Vous devez définir explicitement la valeur de la stratégie sur **Stream**.|
 |Déploiement à compter du 11 janvier 2021<br> *(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Cloud de la communauté du secteur public uniquement**<br> Alors les clients du Cloud de la communauté du secteur public peuvent refuser cette option à compter du 5 octobre, vous n’avez pas le choix. Nous déploierons cette fonctionnalité à tous les clients du Cloud de la communauté du secteur public à compter du 11 janvier 2021, sauf si vous avez refusé.<br>  <br>À compter du 11 janvier 2021, tous les nouveaux enregistrements des réunions Teams pour les clients du Cloud de la communauté du secteur public s’effectueront dans OneDrive Entreprise et SharePoint, sauf si vous retardez ce changement en modifiant les stratégies de réunion Teams de votre organisation et en les définissant explicitement sur **Stream**. <br><br>Si vous avez refusé mais souhaitez activer cette fonctionnalité, vous pouvez le faire en choisissant de définir explicitement votre stratégie de réunion Teams sur **OneDrive Entreprise**. |
 |Déploiement à compter du 1er mars 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High et DoD uniquement**<br> Les clients peuvent à présent activer pour la première fois les enregistrements de réunions cloud dans leurs systèmes Microsoft Teams. Le stockage et la lecture de ces enregistrements s’effectueront sur OneDrive et SharePoint par défaut. |
-|Déploiement incrémentiel à compter du 7 juillet 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et Cloud de la communauté du secteur public)**<br>Aucun nouvel enregistrement de réunion ne peut s’effectuer dans Microsoft Stream (Classique) ; tous les clients enregistrent automatiquement leurs réunions dans OneDrive Entreprise et SharePoint, même s’ils ont redéfini leur stratégie de réunion Teams sur Stream.<br><br> Nous recommandons aux clients, pour mieux contrôler la modification dans votre organisation, de s’y prendre à l’aise au lieu d’attendre qu’elle se produise. |
+|Déploiement incrémentiel à compter du 7 juillet 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et Cloud de la communauté du secteur public)**<br>Aucun nouvel enregistrement de réunion ne peut s’effectuer dans Microsoft Stream (Classique) ; tous les clients enregistrent automatiquement leurs réunions dans OneDrive Entreprise et SharePoint, même s’ils ont redéfini leur stratégie de réunion Teams sur Stream.<br><br> Nous recommandons aux clients, pour mieux contrôler le changement dans votre organisation, de s’y prendre à l’aise au lieu d’attendre qu’elle se produise. |
 
-Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](https://docs.microsoft.com/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
+Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
 
 L’utilisation de OneDrive Entreprise et SharePoint pour le stockage d’enregistrements comporte notamment les avantages suivants :
 
@@ -66,11 +66,11 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
 1. Installez Teams PowerShell PowerShell.
 
    > [!NOTE]
-   > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Gestion de Skype Entreprise Online avec PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+   > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Gestion de Skype Entreprise Online avec PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
 1. Lancez PowerShell en tant qu’administrateur.
 
-2. Installer [le module Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+2. Installer [le module Teams PowerShell.](./teams-powershell-install.md)
 
 3. Importez le module MicrosoftTeams et connectez-vous en tant qu’administrateur Teams.
 
@@ -83,7 +83,7 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
    Connect-MicrosoftTeams -Credential $credential
 ```
 
-4. Utilisez [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage Stream vers OneDrive Entreprise et SharePoint.
+4. Utilisez [set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage Stream vers OneDrive Entreprise et SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -156,9 +156,9 @@ Nous ne prenons pas entièrement en charge les sous-titres codés si vous dépla
 
 **Quel sera l’impact sur mon quota de stockage ?**
 
-Les fichiers d’enregistrement de réunion Teams résident dans OneDrive Entreprise et SharePoint. Ils font partie de votre quota pour ces services. Si vous souhaitez en savoir plus, veuillez consulter les rubriques [Quota Sharepoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) et [Quota OneDrive Entreprise](https://docs.microsoft.com/onedrive/set-default-storage-space).
+Les fichiers d’enregistrement de réunion Teams résident dans OneDrive Entreprise et SharePoint. Ils font partie de votre quota pour ces services. Si vous souhaitez en savoir plus, veuillez consulter les rubriques [Quota Sharepoint](/sharepoint/sites/plan-site-maintenance-and-management#quotas) et [Quota OneDrive Entreprise](/onedrive/set-default-storage-space).
 
-[OneDrive Entreprise](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) offre davantage d’espace de stockage que Stream, et SharePoint offre davantage d’espace de stockage fongible.
+[OneDrive Entreprise](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) offre davantage d’espace de stockage que Stream, et SharePoint offre davantage d’espace de stockage fongible.
 
 **Comment lire un enregistrement de réunion Teams ?**
 
@@ -166,12 +166,12 @@ Vous pouvez lire votre vidéo est sur le lecteur vidéo de OneDrive Entreprise o
 
 **Si vous envisagez de déconseiller l’ajout à Stream, les vidéos existantes resteront-elles toujours en l’état, et pendant combien de temps ?**
 
-Nous ne déconseillerons pas Stream en tant que plateforme dans un avenir proche. Les vidéos qui résident actuellement dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos migreront également vers OneDrive Entreprise ou SharePoint. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Migration classique de Stream](https://docs.microsoft.com/stream/streamnew/classic-migration).
+Nous ne déconseillerons pas Stream en tant que plateforme dans un avenir proche. Les vidéos qui résident actuellement dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos migreront également vers OneDrive Entreprise ou SharePoint. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Migration classique de Stream](/stream/streamnew/classic-migration).
 
 **Comment appliquer une étiquette de rétention ?**
 
-Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application automatique d’étiquettes de rétention](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application automatique d’étiquettes de rétention](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
 **Comment attribuer des stratégies à mes utilisateurs dans Microsoft Teams et quelles sont les stratégies prioritaires ?**
 
-Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).
+Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).

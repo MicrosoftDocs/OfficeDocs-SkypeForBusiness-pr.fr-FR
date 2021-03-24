@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Les agents sont des utilisateurs désignés pour répondre aux appels Response Group. Les groupes Response Group doivent avoir un groupe d’agents affecté qui identifie les agents qui peuvent recevoir des appels pour le groupe Response Group. Pour créer un groupe d’agents, vous pouvez définir un groupe personnalisé en sélectionnant des utilisateurs éligibles. Les utilisateurs éligibles sont activés pour Skype Entreprise Server et Voix Entreprise.
-ms.openlocfilehash: 3c79d46096a39cde01ea4c3246f71b972933c4d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c245ea9816d60fc8448eeeb00bdfc8351e345784
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829144"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108000"
 ---
 # <a name="select-agents"></a>Sélection des agents
 
@@ -46,6 +46,4 @@ La liste suivante décrit les champs de la boîte de dialogue Sélectionner des 
 
 - **Activé** Affiche la valeur du **champ Activé pour Lync Server** défini pour les utilisateurs.
 
-Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) dans la documentation des opérations.

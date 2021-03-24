@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909518"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103010"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -50,13 +50,13 @@ Pour utiliser l’application Approbations, vous devez avoir une autorisation po
 
 - Rôle d’administrateur dans l’environnement cible.
 
-- Licence pour une [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
+- Licence pour une [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 
-Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il s'agit d'un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et ses partenaires, qui permettent d'assurer la cohérence des données et de leur signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](https://docs.microsoft.com/power-automate/get-started-approvals).
+Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il s'agit d'un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et ses partenaires, qui permettent d'assurer la cohérence des données et de leur signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
 
-En savoir plus sur le [flux d’approbation](https://docs.microsoft.com/power-automate/modern-approvals).
+En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
 ## <a name="approvals-teams-app-permissions"></a>Autorisations de l’application Autorisations Teams
 
@@ -101,7 +101,7 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 
-Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement CDS par défaut, qui ne prend pas en charge les sauvegardes pour le moment. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Les approbations créées à partir de l’application Approbations sont stockées dans l’environnement CDS par défaut, qui ne prend pas en charge les sauvegardes pour le moment. En savoir plus sur la [Sauvegarde et restauration des environnements : Plateforme Power \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 ## <a name="auditing"></a>Audit
 
@@ -133,7 +133,7 @@ Vous pouvez rechercher les activités suivantes :
 
 - Ajout d’une signature électronique à une demande d’approbation
 
-Pour accéder à davantage d’approbations d’audit dans flux, activez et configurez l'audit dans l'environnement par défaut pour les entités d'approbation primaires Approbation, Demande d'approbation et Réponse d'approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements d’approbation. En savoir plus sur [Audit des données et de l’activité des utilisateurs pour des raisons de sécurité et de conformité : Plateforme Power \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
+Pour accéder à davantage d’approbations d’audit dans flux, activez et configurez l'audit dans l'environnement par défaut pour les entités d'approbation primaires Approbation, Demande d'approbation et Réponse d'approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements d’approbation. En savoir plus sur [Audit des données et de l’activité des utilisateurs pour des raisons de sécurité et de conformité : Plateforme Power \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 L’audit peut être personnalisé davantage dans le [Centre de conformité et sécurité Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
@@ -143,7 +143,7 @@ L’audit peut être personnalisé davantage dans le [Centre de conformité et s
 
 3. Recherchez dans le journal d’audit et sélectionnez l’onglet **Activités Dynamics 365**.
 
-En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des applications pilotées par les modèles :Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
+En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des applications pilotées par les modèles :Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## <a name="security"></a>Sécurité
 

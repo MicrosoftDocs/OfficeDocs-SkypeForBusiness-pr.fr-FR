@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux dans Skype Entreprise Server. Toutes ces fonctionnalités sont utilisées pour les fonctionnalités Voix Entreprise avancées : déviation du média, contrôle d’admission des appels et routage géolocal.'
-ms.openlocfilehash: 408715cb1baa31e1fe864827a2b2a14d8e4788c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: adfcf418fd2b1ef607947687afb766fee6b64715
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812434"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103520"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise
 
@@ -113,7 +113,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 5. Cliquez sur **Modifier**, puis sur **Afficher les détails…**.
 
-6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau, le cas échéant.
+6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau selon le cas.
 
 7. Cliquez sur **Valider**.
 
@@ -283,7 +283,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 7. Cliquez sur **ID de site réseau**, puis sélectionnez l’ID du site auquel vous ajoutez ce sous-réseau.
 
     > [!NOTE]
-    > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, voir [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Vous pouvez également récupérer des ID de site pour votre déploiement en exécutant l’applet de commande **Get-CsNetworkSite**. Pour plus d’informations, voir la documentation de Skype Entreprise Server Management Shell.
+    > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, voir [Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site). Vous pouvez également récupérer des ID de site pour votre déploiement en exécutant l’applet de commande **Get-CsNetworkSite**. Pour plus d’informations, voir la documentation de Skype Entreprise Server Management Shell.
 
 8. Éventuellement, cliquez sur **Description**, puis entrez des informations supplémentaires pour décrire ce sous-réseau.
 
@@ -317,19 +317,18 @@ Par exemple, si la liste d’adresses IP qui apparaît dans l’alerte indique 1
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
+[Get-CsNetworkRegion](/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[Set-CsNetworkRegion](/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[Remove-CsNetworkRegion](/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
-[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
+[Get-CsNetworkSubnet](/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet](/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
-
+[Remove-CsNetworkSubnet](/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)

@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726235"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102830"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Utilisation de l’Assistant Mise en route pour configurer Business Voice
 
@@ -110,7 +110,7 @@ Pour plus d'informations, voir [Que sont les emplacements, les adresses et le ro
 </table>
 
 > [!IMPORTANT]
-> L’Assistant Prise en main vous permet de configurer un menu d’appel simple pour devenir rapidement opérationnel. Si vous avez plusieurs numéros de téléphone sur lesquels vous voulez configurer les menus d’appel ou si vous voulez configurer des menus d’appel plus complexes (également appelés standards automatiques), voir [Configurer un standard automatique dans le cloud](set-up-auto-attendants.md) une fois l’Assistant terminé.
+> L’Assistant Prise en main vous permet de configurer un menu d’appel simple pour devenir rapidement opérationnel. Si vous avez plusieurs numéros de téléphone sur lesquels vous voulez configurer les menus d’appel ou si vous voulez configurer des menus d’appel plus complexes (également appelés standards automatiques), voir [Configurer un standard automatique dans le cloud](./create-a-phone-system-auto-attendant-smb.md) une fois l’Assistant terminé.
 
 <table>
     <tr>

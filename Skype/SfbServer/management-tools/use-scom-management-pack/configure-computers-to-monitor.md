@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2015 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center.'
-ms.openlocfilehash: d3935f0f6c9ffb13ac18f544d7b4727199b6dbea
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bb4dc64a1c04bbef1b6cb0e391fc27568edfef43
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814884"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111680"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurer les ordinateurs Skype Entreprise Server qui seront surveillés
 
@@ -30,7 +30,7 @@ Chaque ordinateur Skype Entreprise Server 2015 que vous souhaitez surveiller doi
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installation d’un certificat sur un nœud d’observation situé en dehors du réseau de périmètre
 <a name="watcher_node_outside"> </a>
 
-Les agents System Center Operations Manager qui s’exécutent dans un réseau de périmètre (tel qu’un serveur Edge Skype Entreprise Server), en dehors de l’entreprise (par exemple, un nœud d’observation de transaction synthétique externe) ou à travers une limite d’confiance Active Directory, peuvent nécessiter la configuration d’un serveur de passerelle System Center Operations Manager. Ce rôle serveur permet aux agents qui n’ont pas de relation d’confiance avec le serveur d’administration racine de lever des alertes. Pour plus d’informations, voir [Managing Gateway Servers in Operations Manager 2012](https://technet.microsoft.com/library/hh212823.aspx).
+Les agents System Center Operations Manager qui s’exécutent dans un réseau de périmètre (tel qu’un serveur Edge Skype Entreprise Server), en dehors de l’entreprise (par exemple, un nœud d’observation de transaction synthétique externe) ou à travers une limite d’confiance Active Directory, peuvent nécessiter la configuration d’un serveur de passerelle System Center Operations Manager. Ce rôle serveur permet aux agents qui n’ont pas de relation d’confiance avec le serveur d’administration racine de lever des alertes. Pour plus d’informations, voir [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
 
 Si vous déployez un agent dans l’un de ces emplacements, vous devrez également demander et configurer un certificat qui permet au nœud watcher d’envoyer des alertes à System Center Operations Manager. Pour simplifier ce processus, l’équipe Operations Manager a créé un ensemble d’utilitaires qui vous permettent de demander et d’installer le type de certificat correct sur l’ordinateur du nœud observeur. Pour plus d’informations et pour télécharger ces [utilitaires,](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)voir Obtenir des certificats pour les agents non joints à un domaine facilité avec l’Assistant Génération de certificat.
 
@@ -44,13 +44,13 @@ Si vous déployez un agent dans l’un de ces emplacements, vous devrez égaleme
 
 4. Dans la page Dossier de destination, sélectionnez le dossier dans lequel les fichiers de l’agent Operations Manager seront installés, puis cliquez sur **Suivant.**
 
-5. Dans la page Configuration du groupe de gestion, **sélectionnez Spécifier les informations du groupe de gestion,** puis cliquez sur **Suivant.**
+5. Dans la page Configuration du groupe de gestion, **sélectionnez Spécifier les informations du groupe de gestion** et cliquez sur **Suivant.**
 
 6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe de gestion Operations Manager dans la zone Nom du groupe de gestion, puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, atl-scom-001) dans la zone **Serveur** d’administration.  Si vous avez modifié le numéro de port utilisé par Operations Manager, entrez le nouveau numéro de port dans la zone Port du serveur **d’administration.** Dans le cas contraire, laissez le port sur la valeur par défaut de 5723, puis cliquez sur **Suivant**.
 
 7. Dans la page Compte d’action de l’agent, sélectionnez **Système local** et cliquez sur **Suivant**.
 
-8. Dans la page Microsoft Update, sélectionnez Je ne souhaite pas utiliser **Microsoft Update** et cliquez sur **Suivant.**
+8. Dans la page Microsoft Update, sélectionnez Je ne souhaite pas utiliser **Microsoft Update** et cliquez sur **Suivant**.
 
 9. Dans la page Prêt pour l'installation, cliquez sur **Installer**.
 
@@ -80,5 +80,3 @@ Pour vous assurer que votre nouvel agent Skype Entreprise Server participe au pr
 5. L’ordinateur sur lequel l’agent a été poussée s’affiche sous la liste « Géré par l’agent » et l’ordinateur sur lequel l’agent a été installé manuellement s’affiche sous « Gestion en attente », cliquez sur le nom de l’ordinateur et approuvez.
 
 6. Cliquez avec le bouton droit sur le nom de l’ordinateur, puis cliquez sur **Propriétés**. Dans la boîte de dialogue Propriétés, sous l’onglet Sécurité, sélectionnez **Autoriser cet agent à agir en tant que proxy et découvrir des objets gérés sur d’autres ordinateurs**, puis cliquez sur **OK**.
-
-

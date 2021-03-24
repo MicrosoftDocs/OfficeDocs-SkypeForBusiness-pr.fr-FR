@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
-ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+description: Malheureusement, certaines licences utilisateur sont bloquées lorsque l’utilisateur accède à https://broadcast.skype.com et veut utiliser la diffusion de réunion Skype. Si un utilisateur voit ce message, c'est que l'une des licences bloquées lui est attribuée. SI vous souhaitez cependant qu'il puisse utiliser la diffusion de réunion, vous devez lui attribuer une autre licence Office 365.
+ms.openlocfilehash: 91c1005ee211bd51fc0f713237362b43a79d5e69
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865148"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103760"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licences utilisateur bloquées pour l’hébergement de La diffusion de réunion Skype
 
@@ -62,11 +62,10 @@ L’hébergement d’événements de diffusion de réunion Skype est bloqué si 
 - Avantages d’utiliser Microsoft 365 A1 étudiant
 
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+[Présentation de Windows PowerShell et de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 

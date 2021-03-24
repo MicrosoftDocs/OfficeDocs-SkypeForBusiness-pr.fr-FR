@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) Portail Web d’administration est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
-ms.openlocfilehash: 7d7bef99149d09ebf72c9b633370f262e535b23f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 94e163ccbeff3bde78569aa864b44525b267ccd8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804534"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103880"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 
@@ -104,7 +104,7 @@ Pour installer le portail Web d’administration de SRS v1, utilisez les étapes
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
-5. Étant donné que le portail d’administration SRS v1 est une application fiable, vous n’avez pas besoin de fournir le mot de passe dans la configuration du portail. Si cet utilisateur utilise un bureau d’enregistrement différent du bureau d’enregistrement local, vous devez le spécifier en ajoutant la ligne suivante dans Web.Config fichier :
+5. Étant donné que le portail d’administration SRS v1 est une application fiable, vous n’avez pas besoin de fournir le mot de passe dans la configuration du portail. Si cet utilisateur utilise un bureau d’enregistrement différent du bureau d’enregistrement local, vous devez spécifier le bureau d’enregistrement pour celui-ci en ajoutant la ligne suivante dans Web.Config fichier :
 
    ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
@@ -132,7 +132,7 @@ Pour vérifier l’installation du portail Web d’administration de SRS v1, vou
 
     https:// \<fe-server\> /lrs
 
-    Pour accéder à la page, vous devez ajouter les enregistrements DNS comme décrit dans «[Enregistrements DNS](https://go.microsoft.com/fwlink/p/?LinkId=318056)requis pour la signature automatique du client ».
+    Pour accéder à la page, vous devez ajouter les enregistrements DNS comme décrit dans «[Enregistrements DNS](/previous-versions/office/communications-server/bb663700(v=office.12))requis pour la signature automatique du client ».
 
 ## <a name="use-the-srs-administrative-web-portal"></a>Utiliser le portail Web d’administration SRS
 <a name="Use_Portal"> </a>
@@ -163,14 +163,14 @@ La page récapitulatif fournit les informations suivantes pour toutes les salles
 
 - **Dernière actualisation** Affiche la dernière fois que la page web a été actualisée.
 
-![Vue récapitulatif du portail d’administration Lync Room System](../../media/LRS_AdminPortal_Summary_view.png)
+![Affichage récapitulatif du portail d’administration Lync Room System](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > Vous ne verrez le menu Gestion en bloc que si vous faites partie du groupe de sécurité LRSPowerUserAdminsGroup.
 
 ### <a name="srs-room-information"></a>Informations sur la salle SRS
 
-La section Informations sur la salle du portail vous permet d’afficher et de configurer des salles SRS individuelles. Il contient quatre sections : Paramètres, Détails, Journalisation et Santé.
+La section Informations sur la salle du portail vous permet d’afficher et de configurer des salles SRS individuelles. Il contient quatre sections : Paramètres, Détails, Journalisation et État d’santé.
 
 #### <a name="settings"></a>Paramètres
 
@@ -180,7 +180,7 @@ Dans la section Paramètres, vous pouvez définir le mot de passe, la balise de 
 
 #### <a name="details"></a>Détails
 
-La section Détails fournit un résumé en lecture seule des paramètres de la salle SRS, y compris : l’heure de la dernière actualisation ; réunion suivante ; dernières mises à jour, maintenance et étalonnage ; paramètres de haut-parleur, de micro et de sonnerie par défaut ; version; URI SIP ; nombre d’écrans et de détails sur chaque écran ; statut et activité.
+La section Détails fournit un résumé en lecture seule des paramètres de la salle SRS, y compris : l’heure de la dernière actualisation ; réunion suivante ; dernières mises à jour, maintenance et étalonnage ; paramètres par défaut du haut-parleur, du micro et de la sonnerie ; version; URI SIP ; nombre d’écrans et de détails sur chaque écran ; statut et activité.
 
 ![Affichage détaillé du portail d’administration Lync Room System](../../media/LRS_AdminPortal_Detail_view.png)
 
@@ -201,7 +201,7 @@ La section Santé fournit une indication visuelle de l’état de la connexion S
 
 ### <a name="bulk-management"></a>Gestion en bloc
 
-La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, qui simplifie leur flux de travail et leur permet de gagner du temps et de gérer à distance plusieurs salles en bloc.
+La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, pour simplifier leur flux de travail et leur permettre de gagner du temps et de gérer à distance plusieurs salles en bloc.
 
 Pour voir cette fonctionnalité, l’utilisateur doit être provisioné en tant que membre du groupe de sécurité **spécial, LRSPowerUserAdminsGroup**.
 
@@ -249,5 +249,3 @@ Assurez-vous que le compte d’utilisateur LRSApp est activé pour SIP et qu’i
 #### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>Le portail web d’administration SRS v1 fonctionne-t-il avec les salles Microsoft Teams ?
 
 Non.
-
-

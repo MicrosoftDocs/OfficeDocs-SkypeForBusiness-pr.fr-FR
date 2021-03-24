@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Résumé : Découvrez comment afficher des informations sur les trunks SIP dans Skype Entreprise Server.'
-ms.openlocfilehash: 29a5a025589f4df7d99b8bf708bf8bd67d0f138f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 989f9fea44bfcce67eba71b9f0b495b924f9e3a2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103230"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur des trunks SIP individuelles dans Skype Entreprise Server
  
@@ -29,7 +29,7 @@ ms.locfileid: "49830524"
   
 Les connexions SIP (Public Switched Telephone Network) sont utilisées pour connecter Skype Entreprise Server Voice via un réseau téléphonique IP au réseau téléphonique commuté (PSTN). Dans la version précédente du produit, les trunks étaient utilisées pour router les appels sortants d’un serveur de médiation vers une passerelle PSTN et chaque passerelle était limitée à une seule. Par conséquent, une passerelle PSTN et une trunk SIP étaient essentiellement identiques. Pour les administrateurs, cela signifie qu’ils peuvent afficher des informations sur une trunk SIP individuelle simplement en visualisant les informations sur la passerelle PSTN associée.
   
-Dans Skype Entreprise Server, toutefois, plusieurs branches peuvent désormais être affectées à une seule passerelle PSTN . Cela signifie que les passerelles et les trunks ne sont plus identiques. Cela signifie que les administrateurs doivent utiliser la nouvelle cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) pour afficher des informations sur une trunk SIP individuelle.
+Dans Skype Entreprise Server, toutefois, plusieurs branches peuvent désormais être affectées à une seule passerelle PSTN . Cela signifie que les passerelles et les trunks ne sont plus identiques. Cela signifie que les administrateurs doivent utiliser la nouvelle cmdlet [Get-CsTrunk](/powershell/module/skype/get-cstrunk?view=skype-ps) pour afficher des informations sur une trunk SIP individuelle.
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>Pour afficher des informations pour toutes vos trunks SIP
 

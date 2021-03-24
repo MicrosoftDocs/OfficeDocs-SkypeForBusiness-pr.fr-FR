@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Vous naviguez dans l’outil de planification de Skype Entreprise Server 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
-ms.openlocfilehash: ecf0857cb5e2ce4b450bf53a2b40ce08b39917c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Vous naviguez dans l’outil de planification De Skype Entreprise Server 2015 à l’aide d’une combinaison d’une barre d’outils, de boutons et de liens spécifiques à une page et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
+ms.openlocfilehash: 80e455abcd1534cc37ed9747e801b81fd778cf25
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823384"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104370"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Naviguer dans l’outil de planification dans Skype Entreprise Server 2015
 
-Vous naviguez dans l’outil de planification de Skype Entreprise Server 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
+Vous naviguez dans l’outil de planification De Skype Entreprise Server 2015 à l’aide d’une combinaison d’une barre d’outils, de boutons et de liens spécifiques à une page et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
 
 Au démarrage de l’outil de planification, un concepteur voit d’abord la page Bienvenue dans l’outil de planification pour Skype Entreprise **Server 2015.**
 
@@ -49,6 +49,6 @@ En outre, des informations de matériel sont affichées dans la vue d’ensemble
 
 [Création de la conception de topologie initiale pour Skype Entreprise Server 2015](create-the-initial-design.md)
 
-[Modification de la conception](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Modification de la conception](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 
-[Consultation des rapports de l’administrateur](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Consultation des rapports de l’administrateur](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

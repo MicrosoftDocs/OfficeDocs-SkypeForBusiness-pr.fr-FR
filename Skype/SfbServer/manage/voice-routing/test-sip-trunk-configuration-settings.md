@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: 1489fe1e45223bac6b62ed23a09212a569ea7838
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 87f5b8aa07a7545f30f1d0e8b81b33197ea704c1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826184"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103020"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Tester les paramètres de configuration des trunks SIP dans Skype Entreprise Server
 
@@ -26,7 +26,7 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 - Les conditions d’envoi des paquets RTCP (Real-time Transport Control Protocol).
 - L’application ou non du chiffrement SRTP (Secure Real-Time Protocol) sur chaque jonction.
 
-Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Les administrateurs peuvent également utiliser l';cmdlet [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) pour vérifier qu’une connexion peut convertir un numéro composé par un utilisateur en un numéro qui peut être géré par la passerelle.
+Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Les administrateurs peuvent également utiliser l';cmdlet [Test-CsTrunkConfiguration](/powershell/module/skype/Test-CsTrunkConfiguration) pour vérifier qu’une connexion peut convertir un numéro composé par un utilisateur en un numéro qui peut être géré par la passerelle.
 
 Les paramètres de configuration de jonction peuvent uniquement être testés à l’aide de Windows PowerShell et de l’applet de commande Test-CsTrunkConfiguration. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 

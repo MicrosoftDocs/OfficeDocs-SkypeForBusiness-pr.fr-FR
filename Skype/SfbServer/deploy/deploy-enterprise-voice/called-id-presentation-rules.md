@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de l’outil Créer une règle de traduction dans Skype Entreprise Server.'
-ms.openlocfilehash: b93d271abd0ade1b178e859f2a0599464a6759e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804194"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103640"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 
 **Résumé :** Découvrez comment définir une règle de traduction à l’aide de l’outil Créer une règle de traduction dans Skype Entreprise Server.
 
-Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entrant un ensemble de valeurs dans l’outil Créer une règle de traduction et en permettant au Panneau de configuration de Skype Entreprise Server de générer le modèle correspondant et la règle de traduction pour vous. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, voir [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entrant un ensemble de valeurs dans l’outil Créer une règle de traduction et en permettant au Panneau de configuration de Skype Entreprise Server de générer le modèle correspondant et la règle de traduction pour vous. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, voir [Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Pour définir une règle à l’aide de l’outil Créer une règle de traduction
 
@@ -76,7 +76,7 @@ Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entr
 
 1. Ouvrir le Panneau de contrôle Skype Entreprise Server
 
-2. Pour commencer à définir une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk avec déviation du média dans Skype Entreprise [Server](configure-trunk-with-media-bypass.md) jusqu’à l’étape 10 ou configurez une trunk sans déviation du média dans Skype [Entreprise Server](configure-trunk-without-media-bypass.md) jusqu’à l’étape 9.
+2. Pour commencer à définir une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk avec déviation du média dans Skype Entreprise [Server](configure-trunk-with-media-bypass.md) jusqu’à l’étape 10 ou configurez une trunk sans déviation du média dans [Skype Entreprise Server](configure-trunk-without-media-bypass.md) jusqu’à l’étape 9.
 
 3. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 
@@ -109,5 +109,4 @@ Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entr
 
 [Publication des modifications en attente de la configuration du routage des voix dans Skype Entreprise](voice-route-config-changes.md)
 
-[Déploiement du contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)
-
+[Déployer le contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)

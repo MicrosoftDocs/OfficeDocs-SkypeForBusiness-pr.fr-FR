@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Vous modifiez les propriétés des serveurs de médiation dans cette boîte de dialogue. Sur le côté gauche, un jeu de liens vous permet d’accéder aux paramètres généraux, aux paramètres du tronçon suivant et aux paramètres de la passerelle PSTN. Les paramètres suivants se trouvent dans chaque section :'
-ms.openlocfilehash: db7964826a50f462435769d66ddfab3804462541
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6c8c238ce7d89db53f3b92a0f513c080976a3bab
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806744"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114190"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur de médiation pour Lync Server 2010
 
@@ -49,6 +49,6 @@ Vous modifiez les propriétés des serveurs de médiation dans cette boîte de d
 
 ## <a name="see-also"></a>Voir aussi
 
-[Vue d’ensemble d’une jonction SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
+[Vue d’ensemble d’une jonction SIP](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-sip-trunking)
 
-[Options de déploiement d’une passerelle PSTN](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Options de déploiement d’une passerelle PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

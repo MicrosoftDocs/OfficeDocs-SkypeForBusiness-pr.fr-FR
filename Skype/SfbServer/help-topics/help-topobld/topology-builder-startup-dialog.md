@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement Microsoft Lync Server 2013. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui demande la source du document de topologie. Vous sélectionnez l’une des trois options :'
-ms.openlocfilehash: 74451d97f2789b675f291baffe4f66cfff81d0c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b7c1662df54ba5cdc98680e8fb8267e5bd055eb3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818054"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114180"
 ---
 # <a name="topology-builder-startup-dialog"></a>Boîte de dialogue de démarrage du Générateur de topologie
 
@@ -36,6 +36,6 @@ Vous démarrez le Générateur de topologie pour configurer les propriétés et 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Présentation de Lync Server 2013 Preview](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Présentation de Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 
-[Outils d’administration Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Outils d’administration Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)

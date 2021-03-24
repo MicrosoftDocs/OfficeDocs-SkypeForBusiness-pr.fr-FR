@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype Entreprise Server inclut plusieurs fonctionnalités de sécurité, notamment l’authentification de serveur à serveur, le contrôle d’accès basé sur les rôles et le stockage centralisé des données de configuration.
-ms.openlocfilehash: 1163216f2aeb369576f51af53180297f8028813e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf1e5f2866a3d03d77604afc83061b420658468
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832174"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104220"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Principales fonctionnalités de sécurité dans Skype Entreprise Server
  
@@ -42,7 +42,7 @@ Pour plus d’informations sur ces outils, voir [Skype Entreprise Server Managem
   
 ### <a name="central-management-store"></a>Magasin central de gestion
 
-Dans Skype Entreprise Server, les données de configuration relatives aux serveurs et aux services font partie du magasin central de gestion. Le magasin central de gestion fournit un stockage robuste et schématisé des données nécessaires pour définir, configurer, gérer, administrer, décrire et exploiter un déploiement Skype Entreprise Server. Il valide également les données afin de garantir la cohérence de la configuration. Toutes les modifications apportées à ces données de configuration se produisent dans le magasin central de gestion, ce qui élimine les problèmes de « synchronisation insynchrone ». 
+Dans Skype Entreprise Server, les données de configuration relatives aux serveurs et aux services font partie du magasin central de gestion. Le magasin central de gestion fournit un stockage robuste et schématisé des données nécessaires pour définir, configurer, gérer, administrer, décrire et exploiter un déploiement Skype Entreprise Server. Il valide également les données afin de garantir la cohérence de la configuration. Toutes les modifications apportées à ces données de configuration se produisent dans le magasin central de gestion, ce qui élimine les problèmes « non synchronisés ». 
   
 Les copies en lecture seule des données sont répliquées sur tous les serveurs au sein de la topologie, y compris les serveurs de périphérie. La réplication est gérée par un service qui, par défaut, s’exécute sous le contexte du service Réseau, réduisant ainsi les droits et autorisations à ceux d’un simple utilisateur sur l’ordinateur. 
   
@@ -56,11 +56,11 @@ Skype Entreprise Server fournit une interface de gestion puissante, qui s’Wind
   
 ### <a name="role-based-access-control-rbac"></a>Contrôle d’accès basé sur un rôle
 
-Skype Entreprise Server fournit un contrôle d’accès basé sur les rôles (RBAC) qui vous permet de déléguer des tâches administratives tout en maintenant des normes élevées en matière de sécurité. Vous pouvez recourir au contrôle d’accès basé sur un rôle pour appliquer le principe du « privilège minimum » selon lequel les utilisateurs reçoivent uniquement les droits d’administration nécessaires à leur travail. Skype Entreprise Server permet de créer un rôle et de modifier un rôle existant. 
+Skype Entreprise Server fournit un contrôle d’accès basé sur les rôles (RBAC) qui vous permet de déléguer des tâches administratives tout en maintenant des normes élevées en matière de sécurité. Vous pouvez recourir au contrôle d’accès basé sur un rôle pour appliquer le principe du « privilège minimum » selon lequel les utilisateurs reçoivent uniquement les droits d’administration nécessaires à leur travail. Skype Entreprise Server offre la possibilité de créer un rôle et de modifier un rôle existant. 
   
 ## <a name="network-address-translation-nat"></a>Traduction d’adresses réseau (NAT)
 
-Skype Entreprise Server ne prend pas en charge l’utilisation de la traduction d’adresses réseau (NAT) sur l’interface interne du serveur Edge, mais il prend en charge le placement de l’interface externe du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V derrière un routeur ou un pare-feu qui effectue la traduction d’adresses réseau (NAT) pour les topologies de serveur Edge consolidées et à l’échelle unique. Plusieurs serveurs Edge derrière un équilibreur de charge matérielle ne peuvent pas utiliser nat. Si plusieurs serveurs Edge utilisent nat sur leurs interfaces externes, l’équilibrage de charge DNS (Domain Name System) est requis. À son tour, l’utilisation de l’équilibrage de charge DNS vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, [voir scénarios de serveur Edge dans Skype Entreprise Server.](../../plan-your-deployment/edge-server-deployments/scenarios.md)
+Skype Entreprise Server ne prend pas en charge l’utilisation de la traduction d’adresses réseau (NAT) sur l’interface interne du serveur Edge, mais il prend en charge le placement de l’interface externe du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V derrière un routeur ou un pare-feu qui effectue la traduction d’adresses réseau (NAT) pour les topologies de serveur Edge consolidées et consolidées à l’échelle. Plusieurs serveurs Edge derrière un équilibreur de charge matérielle ne peuvent pas utiliser nat. Si plusieurs serveurs Edge utilisent nat sur leurs interfaces externes, l’équilibrage de charge DNS (Domain Name System) est requis. À son tour, l’utilisation de l’équilibrage de charge DNS vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, [voir scénarios de serveur Edge dans Skype Entreprise Server.](../../plan-your-deployment/edge-server-deployments/scenarios.md)
   
 > [!NOTE]
 > Si vous vous fédérer avec des entreprises qui ont un déploiement Microsoft Office Communications Server 2007 et que vous devez utiliser l’audio/vidéo entre votre entreprise et l’entreprise fédérée, les ports requis sont ceux de l’ancienne version des serveurs Edge déployés. Par exemple, les plages de ports requises pour ces versions antérieures doivent être ouvertes pour les deux entreprises jusqu’à ce que le partenaire fédéré upgrade ses serveurs Edge vers Skype Entreprise Server. Les exigences relatives aux ports peuvent alors être réévaluées et réduites, conformément à la nouvelle configuration. 
@@ -71,12 +71,10 @@ L’Assistant Déploiement peut remplir automatiquement les noms du sujet et les
   
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>SDL (Trustworthy Computing Security Development Lifecycle)
 
-Skype Entreprise Server est conçu et développé conformément au cycle de développement SDL [(Microsoft Trustworthy Computing Security Development Lifecycle).](https://go.microsoft.com/fwlink/p/?linkid=68761)
+Skype Entreprise Server est conçu et développé conformément au cycle de développement SDL [(Microsoft Trustworthy Computing Security Development Lifecycle).](/previous-versions/ms995349(v=msdn.10))
   
-- **Fiable par conception** La première étape de la création d’un système de communications unifiées plus sécurisé consiste à concevoir des modèles de menace et à tester chaque fonctionnalité telle qu’elle a été conçue. En outre, Microsoft effectue des tests en dehors du comportement conçu afin de rechercher les vulnérabilités de sécurité résultant d’un comportement inattendu du produit. Plusieurs améliorations liées à la sécurité ont été intégrées dans le processus et les pratiques de codage. Au moment de la création, des outils détectent les dépassements de mémoire tampon et d’autres risques de sécurité potentiels avant l’archivage du code dans le produit final. Bien entendu, il est impossible de concevoir un produit capable de contrer toutes les menaces de sécurité encore inconnues. Aucun système ne saurait garantir une sécurité à toute épreuve. Toutefois, étant donné que le développement de produits a adopté des principes de conception sécurisé dès le départ, Skype Entreprise Server intègre les technologies de sécurité standard du secteur comme élément fondamental de son architecture.
+- **Fiable par conception** La première étape de la création d’un système de communications unifiées plus sécurisé consiste à concevoir des modèles de menace et à tester chaque fonctionnalité telle qu’elle a été conçue. En outre, Microsoft effectue des tests en dehors du comportement conçu afin de rechercher les vulnérabilités de sécurité résultant d’un comportement inattendu du produit. Plusieurs améliorations liées à la sécurité ont été intégrées dans le processus et les pratiques de codage. Au moment de la création, des outils détectent les dépassements de mémoire tampon et d’autres risques de sécurité potentiels avant l’archivage du code dans le produit final. Bien entendu, il est impossible de concevoir un produit capable de contrer toutes les menaces de sécurité encore inconnues. Aucun système ne saurait garantir une sécurité à toute épreuve. Toutefois, étant donné que le développement de produits a adopté les principes de conception sécurisée dès le départ, Skype Entreprise Server intègre les technologies de sécurité standard du secteur comme élément fondamental de son architecture.
     
 - **Fiable par défaut** Par défaut, les communications réseau dans Skype Entreprise Server sont chiffrées. Étant donné que tous les serveurs utilisent des certificats et l’authentification Kerberos, le protocole TLS, le protocole SRTP (Secure Real-Time Transport Protocol) et d’autres techniques de chiffrement standard, notamment le chiffrement AES (Advanced Encryption Standard) 128 bits, pratiquement toutes les données Skype Entreprise Server sont protégées sur le réseau. En outre, le contrôle d’accès basé sur un rôle permet de déployer des serveurs exécutant Skype Entreprise Server afin que chaque rôle serveur n’exécute que les services et dispose uniquement des autorisations associées à ces services, appropriées pour le rôle serveur.
     
-- **Fiable par déploiement** Toute la documentation de Skype Entreprise Server inclut des meilleures pratiques et des recommandations pour vous aider à déterminer et configurer les niveaux de sécurité optimaux pour votre déploiement et à évaluer les risques de sécurité liés à l’activation des options autres que les options par défaut.
-    
-
+- **Fiable par déploiement** Toute la documentation de Skype Entreprise Server inclut des meilleures pratiques et des recommandations pour vous aider à déterminer et configurer les niveaux de sécurité optimaux pour votre déploiement et à évaluer les risques de sécurité liés à l’activation d’options autres que les options par défaut.

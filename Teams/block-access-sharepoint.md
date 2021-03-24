@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment bloquer l’accès à SharePoint pour des utilisateurs spécifiques
-ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: dce6581abe4fee70a6622817be7aefb0e3379e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615080"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092892"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Bloquer l’accès à SharePoint pour des utilisateurs spécifiques
 
 Toute stratégie d’accès conditionnel appliquée sur SharePoint dans Microsoft 365 est également appliquée à Teams. Toutefois, certaines organisations souhaitent bloquer l’accès aux fichiers SharePoint (chargement, téléchargement, affichage, modification et création), et permettre à leurs employés d’utiliser les clients Teams de bureau, mobiles et web sur les appareils non gérés. Dans les règles de stratégie d’accès conditionnel, le blocage de SharePoint conduirait également au blocage de Teams. Cet article décrit la manière dont vous pouvez contourner cette limitation et permettre à vos employés de continuer à utiliser Teams tout en bloquant l’accès aux fichiers stockés dans SharePoint.
 
 > [!Note]
-> Le blocage ou la limitation de l’accès sur des appareils non gérés s’appuie sur les stratégies d’accès conditionnel Azure AD. En savoir plus sur la [gestion des licences Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Pour obtenir une vue d’ensemble de l’accès conditionnel dans Azure AD, voir [Accès conditionnel dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Pour plus d’informations sur les stratégies d’accès SharePoint Online recommandées, voir [Recommandations en matière de stratégie pour la sécurisation des sites et fichiers SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Si vous limitez l’accès sur des appareils non gérés, les utilisateurs sur les appareils gérés doivent utiliser l’une des [combinaisons de systèmes d’exploitation et de navigateurs prises en charge](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition). Dans le cas contraire, ils disposeront également d’un accès limité.
+> Le blocage ou la limitation de l’accès sur des appareils non gérés s’appuie sur les stratégies d’accès conditionnel Azure AD. En savoir plus sur la [gestion des licences Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Pour obtenir une vue d’ensemble de l’accès conditionnel dans Azure AD, voir [Accès conditionnel dans Azure Active Directory](/azure/active-directory/conditional-access/overview). Pour plus d’informations sur les stratégies d’accès SharePoint Online recommandées, voir [Recommandations en matière de stratégie pour la sécurisation des sites et fichiers SharePoint](/microsoft-365/enterprise/sharepoint-file-access-policies). Si vous limitez l’accès sur des appareils non gérés, les utilisateurs sur les appareils gérés doivent utiliser l’une des [combinaisons de systèmes d’exploitation et de navigateurs prises en charge](/azure/active-directory/conditional-access/technical-reference#client-apps-condition). Dans le cas contraire, ils disposeront également d’un accès limité.
 
 Vous pouvez bloquer ou limiter l’accès pour :
 
@@ -89,4 +89,4 @@ Dans SharePoint, vous recevrez un message d’accès refusé.
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Contrôler l’accès des appareils non gérés dans SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Contrôler l’accès des appareils non gérés dans SharePoint](/sharepoint/control-access-from-unmanaged-devices)

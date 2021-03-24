@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Pour préparer la forêt des services de domaine Active Directory, vous devez étendre correctement le schéma, comme décrit dans la rubrique Exécution de la préparation du schéma, et vous assurer que le schéma a été répliqué.
-ms.openlocfilehash: eaeabfb543d258e65b387afeafddf15367f6caf7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 94d41a993b2fe976ef7ede885d277c00417ff7dc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815434"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103460"
 ---
 # <a name="prepare-current-forest"></a>Préparer la forêt actuelle
 
-Pour préparer la forêt des services de domaine Active Directory, vous devez étendre correctement le schéma, comme décrit dans la rubrique Exécution de la préparation du [schéma,](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)et vous assurer que le schéma a été répliqué.
+Pour préparer la forêt des services de domaine Active Directory, vous devez étendre correctement le schéma, comme décrit dans la rubrique Exécution de la préparation du [schéma,](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-the-active-directory-schema)et vous assurer que le schéma a été répliqué.
 
 Après avoir terminé ces conditions préalables, vous pouvez commencer **l’étape 3 : Préparer la forêt actuelle**. Pour préparer la forêt, connectez-vous à un ordinateur à la racine de la forêt en tant que membre des administrateurs de domaine à la racine de la forêt ou en tant que membre des administrateurs d’entreprise pour la forêt que vous préparez.
 
@@ -43,5 +43,3 @@ Après avoir terminé ces conditions préalables, vous pouvez commencer **l’é
 
     > [!TIP]
     > Si vous devez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype Entreprise Server, vous pouvez les trouver sur l’ordinateur sur lequel l’Assistant Déploiement a été exécuté, dans l’annuaire Utilisateurs de l’utilisateur des services de domaine Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur s’est connecté en tant qu’administrateur de domaine dans le Contoso.net de domaine, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp
-
-

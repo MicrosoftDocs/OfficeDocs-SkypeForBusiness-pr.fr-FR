@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l’Assistant Déploiement de Skype Entreprise Server. Cliquez sur Exécuter pour commencer la préparation du schéma. L’étape Préparer le schéma lit les fichiers de définition de schéma fournis dans le répertoire /Program Files/Microsoft Lync Server 2013/Deployment/Setup sur le système sur qui l’Assistant Déploiement est en cours d’exécution. Ces fichiers sont également disponibles sur le support d’installation dans le répertoire Support/Schéma. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation était complète et qu’elle a abouti.
-ms.openlocfilehash: c6c29dfd8e9b0908091e61a569ca56a467a014d3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c3279be54ad5f68d5c2ee61d8d3c12c0fc9d9203
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829794"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108620"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  
@@ -29,7 +29,7 @@ Pour préparer le schéma pour les services de domaine Active Directory, exécut
 > [!IMPORTANT]
 > Pour étendre le schéma, vous devez être connecté au domaine en tant que membre du groupe Administrateurs du schéma et du groupe Administrateurs d’entreprise. 
   
-Des classes et des attributs sont ajoutés pour étendre le schéma des services de domaine Active Directory afin de prendre en charge les objets serveur, service et utilisateur Skype Entreprise Server 2015. Avant d’étendre le schéma, effectuez une sauvegarde de l’état du système du contrôleur de domaine qui contient le rôle de contrôleur de schéma. Pour plus d’informations sur le processus de sauvegarde de Windows Server 2008 R2 avec SP1, voir [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198) . Pour Windows Server 2003 et Windows Server 2003 R2, voir [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199) .
+Des classes et des attributs sont ajoutés pour étendre le schéma des services de domaine Active Directory afin de prendre en charge les objets serveur, service et utilisateur Skype Entreprise Server 2015. Avant d’étendre le schéma, effectuez une sauvegarde de l’état du système du contrôleur de domaine qui contient le rôle de contrôleur de schéma. Pour plus d’informations sur le processus de sauvegarde de Windows Server 2008 R2 avec SP1, voir [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) . Pour Windows Server 2003 et Windows Server 2003 R2, voir [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) .
   
 > [!CAUTION]
 > Cette opération est irréversible. Vous devez faire tout votre possible pour limiter l’impact potentiel d’un échec de l’extension du schéma et pour garantir la réussite de l’extension du schéma. Ceci est particulièrement important en cas de perte de communication ou de toute autre défaillance côté serveur. Vous devez effectuer une sauvegarde du contrôleur de domaine contrôleur de schéma et une sauvegarde complète d’Active Directory. 
@@ -48,5 +48,3 @@ Pour effectuer une sauvegarde du contrôleur de domaine contrôleur de schéma e
     
 > [!NOTE]
 > Si vous devez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype Entreprise Server, vous pouvez trouver les fichiers sur l’ordinateur sur lequel l’Assistant Déploiement a été exécuté, dans l’annuaire Utilisateurs de l’utilisateur Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur s’est connecté en tant qu’administrateur de domaine dans le Contoso.net de domaine, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp 
-  
-
