@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 7f803533e7c209203e5e377b5d3facc3b5d3a63f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8aa2e01e24648cfa6e924b9124fdf20387e28145
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100250"
 ---
-# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="95ed0-104">Tester le routage des communications vocales : cas de test</span><span class="sxs-lookup"><span data-stu-id="95ed0-104">Test Voice Routing: Test Cases</span></span>
+# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="180cd-104">Tester le routage des communications vocales : cas de test</span><span class="sxs-lookup"><span data-stu-id="180cd-104">Test Voice Routing: Test Cases</span></span>
 
-<span data-ttu-id="95ed0-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="95ed0-105">What do you want to do?</span></span> <span data-ttu-id="95ed0-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="95ed0-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="180cd-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="180cd-105">What do you want to do?</span></span> <span data-ttu-id="180cd-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="180cd-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="95ed0-107">Créer un cas de test de routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="95ed0-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="180cd-107">Créer un cas de test de routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="180cd-107">Create a Voice Routing Test Case</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-voice-routing-test-case)
 
-- [<span data-ttu-id="95ed0-108">Exporter les cas de test du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="95ed0-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [<span data-ttu-id="180cd-108">Exporter les cas de test du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="180cd-108">Export Voice Routing Test Cases</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-export-voice-routing-test-cases)
 
-- [<span data-ttu-id="95ed0-109">Importer les cas de test du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="95ed0-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [<span data-ttu-id="180cd-109">Importer les cas de test du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="180cd-109">Import Voice Routing Test Cases</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-import-voice-routing-test-cases)
 
-- [<span data-ttu-id="95ed0-110">Exécuter les cas de test du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="95ed0-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
-
-
-
+- [<span data-ttu-id="180cd-110">Exécuter les cas de test du routage des communications vocales</span><span class="sxs-lookup"><span data-stu-id="180cd-110">Run Voice Routing Test Cases</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-run-voice-routing-test-cases)

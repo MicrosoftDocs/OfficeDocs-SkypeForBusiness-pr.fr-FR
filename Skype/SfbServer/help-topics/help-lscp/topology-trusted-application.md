@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: cf15b313ab0b9b62a2666616252c3713fe33e842
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c8af86cd81b469eaa1e4d180edd407affaf9719d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818974"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099270"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="ce2ee-104">Topologie : application approuvée</span><span class="sxs-lookup"><span data-stu-id="ce2ee-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="5f7f9-104">Topologie : application approuvée</span><span class="sxs-lookup"><span data-stu-id="5f7f9-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="ce2ee-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="ce2ee-105">What do you want to do?</span></span> <span data-ttu-id="ce2ee-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="ce2ee-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5f7f9-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="5f7f9-105">What do you want to do?</span></span> <span data-ttu-id="5f7f9-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="5f7f9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ce2ee-107">Afficher une liste d’applications fiables</span><span class="sxs-lookup"><span data-stu-id="ce2ee-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="5f7f9-107">Afficher une liste d’applications fiables</span><span class="sxs-lookup"><span data-stu-id="5f7f9-107">View a List of Trusted Applications</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-trusted-applications)
 
-<span data-ttu-id="ce2ee-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="ce2ee-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="5f7f9-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="5f7f9-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

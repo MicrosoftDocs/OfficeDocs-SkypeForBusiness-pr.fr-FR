@@ -15,17 +15,15 @@ localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si vous souhaitez que le pool directeur inclue le serveur de surveillance, sélectionnez Surveillance (cdr et mesures QoE).
-ms.openlocfilehash: 4bb72a2919986cf79aaa94793c5c9cd4aa44ea6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c3255648f9c5cd7718417d59548ceae7db1c1cf2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811894"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100160"
 ---
-# <a name="add-director-features"></a><span data-ttu-id="b6bac-103">Ajouter des fonctionnalités de directeur</span><span class="sxs-lookup"><span data-stu-id="b6bac-103">Add Director Features</span></span>
+# <a name="add-director-features"></a><span data-ttu-id="6b12f-103">Ajouter des fonctionnalités de directeur</span><span class="sxs-lookup"><span data-stu-id="6b12f-103">Add Director Features</span></span>
 
-<span data-ttu-id="b6bac-104">Si vous souhaitez que le pool directeur inclue le serveur de surveillance, sélectionnez **Surveillance (cdr et mesures QoE).**</span><span class="sxs-lookup"><span data-stu-id="b6bac-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
+<span data-ttu-id="6b12f-104">Si vous souhaitez que le pool directeur inclue le serveur de surveillance, sélectionnez **Surveillance (cdr et mesures QoE).**</span><span class="sxs-lookup"><span data-stu-id="6b12f-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
 
-<span data-ttu-id="b6bac-105">Pour plus d’informations sur l’ajout d’un pool directeur, voir [Scénarios](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) pour le directeur et [Configuration du directeur.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)</span><span class="sxs-lookup"><span data-stu-id="b6bac-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
-
-
+<span data-ttu-id="6b12f-105">Pour plus d’informations sur l’ajout d’un pool directeur, voir [Scénarios](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) pour le directeur et [Configuration du directeur.](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director)</span><span class="sxs-lookup"><span data-stu-id="6b12f-105">For more details about adding a Director pool, see [Scenarios for the Director](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) and [Setting Up the Director](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director).</span></span>
