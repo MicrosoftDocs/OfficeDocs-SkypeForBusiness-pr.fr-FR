@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cde5b2f04936afdd16eb7d0ff13a03840e6fa49
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614950"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098110"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -47,9 +47,9 @@ Voici les liens vers les fichiers MSI :
 
 - Si le client se trouve sur les clouds GCCH ou DoD, le client doit définir le point de terminaison initial dans le registre en ajoutant la valeur **CloudType** à la clé **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** dans le registre. Le type de **CloudType** est **DWORD** et les valeurs sont (0 = non défini, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD). La définition du point de terminaison avec la clé de registre limite Teams à se connecter au point de terminaison cloud approprié pour la connectivité de pré-connexion avec Teams.
 
-- Teams peut également être inclus avec un déploiement de Microsoft 365 Apps for enterprise. Si vous souhaitez en savoir plus, consultez l’article [Déployer Microsoft Teams avec Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
+- Teams peut également être inclus avec un déploiement de Microsoft 365 Apps for enterprise. Si vous souhaitez en savoir plus, consultez l’article [Déployer Microsoft Teams avec Microsoft 365 Apps for enterprise](/deployoffice/teams-install).
 
-- Si vous souhaitez en savoir plus sur Microsoft Endpoint Configuration Manager, consultez l’article [Présentation de Configuration Manager](https://docs.microsoft.com/configmgr/core/understand/introduction).
+- Si vous souhaitez en savoir plus sur Microsoft Endpoint Configuration Manager, consultez l’article [Présentation de Configuration Manager](/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Procédure de déploiement (recommandé)
 
@@ -105,7 +105,7 @@ Activez le paramètre de stratégie de groupe **Empêcher Microsoft Teams de dé
 
 Lorsque vous activez ce paramètre de stratégie avant l’installation de Teams, Teams ne démarre pas automatiquement lorsque les utilisateurs se connectent à Windows. Lorsqu’un utilisateur se connecte à Teams pour la première fois, les équipes démarrent automatiquement la prochaine fois que l’utilisateur se connecte.
 
-Pour plus d’informations, consultez [Utiliser une stratégie de groupe pour empêcher Microsoft Teams de démarrer automatiquement après l’installation](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+Pour plus d’informations, consultez [Utiliser une stratégie de groupe pour empêcher Microsoft Teams de démarrer automatiquement après l’installation](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
 
 > [!CAUTION]
 > Si vous avez déjà déployé des équipes et que vous voulez définir cette stratégie pour désactiver les équipes de démarrage automatique, définissez tout d’abord le paramètre de stratégie de groupe sur la valeur souhaitée, puis exécutez le [script de réinitialisation de démarrage automatique Teams](scripts/powershell-script-teams-reset-autostart.md) au niveau de chaque utilisateur.

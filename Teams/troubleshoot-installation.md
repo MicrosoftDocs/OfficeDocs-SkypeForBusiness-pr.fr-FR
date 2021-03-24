@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment résoudre les problèmes d’installation et de mise à jour pour l’application client de bureau Teams sur Windows.
-ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804554"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097550"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Résoudre les problèmes d’installation et de mise à jour de Microsoft Teams sur Windows
 
@@ -67,7 +67,7 @@ Si SquirrelTemp.log ou logs.txt ne contiennent pas assez d’informations pour d
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>Collecter et analyser les journaux des applications et du système
 
-Cette section explique comment recueillir et analyser les journaux des applications et du système afin d’obtenir des informations plus complètes pour résoudre le problème. Vous utiliserez les outils Sysinternals pour effectuer ces étapes. Pour plus d’informations, voir [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
+Cette section explique comment recueillir et analyser les journaux des applications et du système afin d’obtenir des informations plus complètes pour résoudre le problème. Vous utiliserez les outils Sysinternals pour effectuer ces étapes. Pour plus d’informations, voir [Windows Sysinternals](/sysinternals/).
 
 ### <a name="collect-logs"></a>Collectez les journaux
 
@@ -123,7 +123,7 @@ Conseils de dépannage :
 - Pour confirmer qu’il s’agit du problème que vous rencontrez, quittez Teams (cliquez avec le bouton droit sur Teams dans la barre des tâches, puis cliquez sur **Quitter**). Ouvrez ensuite le Gestionnaire des tâches dans Windows pour voir si une instance de Teams est encore en cours d’exécution.  
 - Si vous n’utilisez pas l’ordinateur sur lequel vous rencontrez ce problème, examinez le fichier SquirrelTemp.log collecté à partir de l’ordinateur qui rencontre ce problème et recherchez l’entrée « Programme : impossible de terminer l’opération dans le journal ».
 - Pour déterminer ce qui empêche Teams.exe de quitter, consultez les journaux dll.txt et handles.txt. Ceux-ci indiquent les processus qui ont empêché Teams de quitter.
-- Un autre coupable de pouvoir empêcher Teams de quitter est le pilote de filtre de système de fichiers en mode noyau. Utilisez l’outil SysInternals, [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump), pour collecter le vidage du processus en mode noyau en exécutant ```procdump -mk <pid>```, où <pid> est l’ID de processus obtenu à partir du Gestionnaire des tâches. Vous pouvez également inspecter le fichier journal Driverquery.txt pour afficher les pilotes de filtre actifs qui peuvent interférer avec Teams.
+- Un autre coupable de pouvoir empêcher Teams de quitter est le pilote de filtre de système de fichiers en mode noyau. Utilisez l’outil SysInternals, [ProcDump](/sysinternals/downloads/procdump), pour collecter le vidage du processus en mode noyau en exécutant ```procdump -mk <pid>```, où <pid> est l’ID de processus obtenu à partir du Gestionnaire des tâches. Vous pouvez également inspecter le fichier journal Driverquery.txt pour afficher les pilotes de filtre actifs qui peuvent interférer avec Teams.
 - Pour récupérer à partir de cet état, redémarrez l’ordinateur.
 
 #### <a name="file-permissions"></a>Autorisations d’accès aux fichiers
@@ -141,17 +141,17 @@ Si l’accès à Teams est refusé parce qu’il ne peut pas écrire dans un fic
 Conseils de dépannage :
 
 - Recherchez la preuve « accès refusé » dans SquirrelTemp.log ou logs.txt. Vérifiez ces fichiers pour voir s’il y a eu une tentative d’écriture dans un fichier qui a échoué.
-- Ouvrez icacls.txt et recherchez l’entrée de contrôle d’accès (ACE) effective qui bloque les opérations d’écriture d’un utilisateur qui n’est pas un administrateur. Il s’agit généralement de l’une des entrées DACL. Pour plus d’informations, voir la [documentation icacls](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls).
+- Ouvrez icacls.txt et recherchez l’entrée de contrôle d’accès (ACE) effective qui bloque les opérations d’écriture d’un utilisateur qui n’est pas un administrateur. Il s’agit généralement de l’une des entrées DACL. Pour plus d’informations, voir la [documentation icacls](/windows-server/administration/windows-commands/icacls).
 
 #### <a name="file-corrupted"></a>Fichier endommagé
 
 Dans certains cas, le logiciel de chiffrement peut modifier les fichiers dans le dossier %LocalAppData%\Microsoft\Teams, ce qui peut empêcher le démarrage de Teams. Cela peut se produire à tout moment, même si l’application n’est pas mise à jour. Malheureusement, lorsqu’un fichier est endommagé, la seule façon de récupérer cet état est de désinstaller et de réinstaller Teams.
 
 > [!NOTE]
-> Si vous ne parvenez pas à déterminer la cause sous-jacente du problème à l’aide de l’une de ces étapes, vous souhaiterez peut-être effectuer une session[Process monitor](https://docs.microsoft.com/sysinternals/downloads/procmon). Process Monitor est un outil Sysinternals qui enregistre l’accès au registre et au système de fichiers.
+> Si vous ne parvenez pas à déterminer la cause sous-jacente du problème à l’aide de l’une de ces étapes, vous souhaiterez peut-être effectuer une session[Process monitor](/sysinternals/downloads/procmon). Process Monitor est un outil Sysinternals qui enregistre l’accès au registre et au système de fichiers.
 
 ## <a name="related-topics"></a>Voir aussi
 
 - [Obtenir des clients pour Teams](get-clients.md)
 - [Mises à jour du client pour Teams](teams-client-update.md)
-- [Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocoles de routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26d6555b82db1939b879ecafc113ced186528f80
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837001"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098470"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct - Protocole SIP
 
@@ -71,7 +71,7 @@ Voici un exemple de message d’invitation SIP lors d’un appel entrant :
 
 2. Essayez de trouver un client en utilisant le nom complet de nom de domaine complet présenté dans l’en-tête Contact.  
 
-   Vérifiez si le nom de nom de domaine complet dans l’en-tête de contact (sbc1.adatum.biz) est inscrit en tant que nom DNS dans une organisation Microsoft 365 ou Office 365. Si cette recherche est trouvée, la recherche de l’utilisateur est effectuée dans le client sur qui le nom de domaine complet SBC est enregistré en tant que nom de domaine. Si cette dernière n’est pas trouvée, l’étape 3 s’applique.   
+   Vérifiez si le nom de nom de domaine complet dans l’en-tête de contact (sbc1.adatum.biz) est inscrit en tant que nom DNS dans une organisation Microsoft 365 ou Office 365. Si cette recherche est trouvée, la recherche de l’utilisateur est effectuée dans le client sur qui le nom de domaine complet SBC est enregistré en tant que nom de domaine. Si l’étape 3 n’est pas trouvée, l’étape 3 s’applique.   
 
 3. L’étape 3 s’applique uniquement si l’étape 2 a échoué. 
 
@@ -81,7 +81,7 @@ Voici un exemple de message d’invitation SIP lors d’un appel entrant :
 
 5. Appliquer les paramètres de ligne. Recherchez les paramètres définies par l’administrateur client pour ce SBC.
 
-   Microsoft ne prend pas en charge la création d’un proxy SIP tiers ou d’un serveur agent utilisateur entre le proxy SIP Microsoft et le jeu SBC couplé, ce qui peut modifier l’URI de demande créée par le SBC couplé.
+   Microsoft ne prend pas en charge la création d’un proxy SIP tiers ou d’un serveur agent utilisateur entre le proxy SIP De Microsoft et le jeu SBC couplé, ce qui peut modifier l’URI de demande créée par le SBC couplé.
 
    Les exigences pour les deux recherche (étapes 2 et 3) nécessaires au scénario d’interconnexion d’un SBC à plusieurs clients (scénario d’opérateur) sont couvertes plus loin dans cet article.
 
@@ -93,7 +93,7 @@ Pour tous les messages SIP entrants (OPTIONS, INVITER) au proxy SIP Microsoft, l
 
 Syntaxe : Contact : <numéro de téléphone ou sip address@FQDN du SBC;transport=tls> 
 
-Comme le [dit le RFC 3261, section 11.1,](https://tools.ietf.org/html/rfc3261#section-11.1)un champ d’en-tête de contact peut être présent dans un message OPTIONS. Dans Routage direct, l’en-tête du contact est obligatoire. Pour les messages INVITER au format ci-dessus, pour les messages d’options, le info-utilisateur peut être supprimé de l’URI SIP et uniquement des FQDN envoyés au format suivant :
+Comme le [dit le RFC 3261, section 11.1,](https://tools.ietf.org/html/rfc3261#section-11.1)un champ d’en-tête de contact peut être présent dans un message OPTIONS. Dans Routage direct, l’en-tête du contact est obligatoire. Pour les messages INVITER au format ci-dessus, pour les messages OPTIONS, le info-utilisateur peut être supprimé de l’URI SIP et uniquement des FQDN envoyés au format suivant :
 
 Syntaxe : Contact : <:FQDN du SBC;transport=tls>
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 Le proxy SIP doit calculer le prochain saut de FQDN pour les nouvelles transactions client de boîte de dialogue (par exemple Bye ou Re-Invite) et lors de la réponse aux options SIP. Les contacts ou les Record-Route sont utilisés. 
 
-D’après le [RFC 3261, section 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)l’en-tête du contact est requis dans toute demande qui peut entraîner une nouvelle boîte de dialogue. La Record-Route n’est nécessaire que si un proxy souhaite rester sur le chemin des demandes futures dans une boîte de dialogue. Si un SBC proxy est utilisé avec l’optimisation des médias locaux pour le [routage](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)direct, un itinéraire d’enregistrement doit être configuré comme serveur proxy pour rester sur l’itinéraire. 
+Conformément à la [section 8.1.1.8 de la fonction RFC 3261,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)l’en-tête du contact est requis dans toute demande qui peut entraîner la génération d’une nouvelle boîte de dialogue. La Record-Route n’est nécessaire que si un proxy souhaite rester sur le chemin des demandes futures dans une boîte de dialogue. Si un SBC proxy est utilisé avec l’optimisation des médias locaux pour le [routage](./direct-routing-media-optimization.md)direct, un itinéraire d’enregistrement doit être configuré comme serveur proxy pour rester sur l’itinéraire. 
 
 Microsoft recommande d’utiliser uniquement l’en-tête de contact si un SBC proxy n’est pas utilisé :
 
@@ -139,7 +139,7 @@ Si des contacts et Record-Route sont utilisés, les valeurs de l’administrateu
 
 ### <a name="use-of-fqdn-name-in-contact-or-record-route"></a>Utilisation du nom de nom de domaine complet dans Contact ou Record-Route
 
-L’utilisation d’une adresse IP n’est pas prise en charge dans Record-Route ou contact. La seule option prise en charge est un nom de domaine complet (FQDN) qui doit correspondre au nom commun ou au nom de remplacement de l’objet du certificat SBC (les valeurs génériques du certificat sont pris en charge).
+L’utilisation d’une adresse IP n’est pas prise en charge Record-Route ou contact. La seule option prise en charge est un nom de domaine complet (FQDN) qui doit correspondre au nom commun ou au nom de remplacement de l’objet du certificat SBC (les valeurs génériques du certificat sont pris en charge).
 
 - Si une adresse IP est présentée dans l’itinéraire d’enregistrement ou le contact, la vérification du certificat échoue et l’appel échoue.
 
@@ -153,21 +153,21 @@ Le tableau suivant récapitule les différences de flux d’appels et les simili
 | :---------------------  |:---------------------- |:----------------|
 | Media candidates in 183 and 200 messages coming from | Processeurs multimédias | Clients | 
 | Nombre de messages SBC de 183 reçus | Un par session | Multiple | 
-| L’appel peut se trouver avec la réponse de la seule réponse (183) | Oui | Oui |
+| L’appel peut être avec la réponse de la seule réponse (183) | Oui | Oui |
 | L’appel peut être sans réponse de la seule réponse (183) | Oui | Oui |
 
 ###  <a name="non-media-bypass-flow"></a>Flux de dérivation non multimédia
 
 Un utilisateur de Teams peut avoir plusieurs points de terminaison en même temps. Par exemple, le client Teams pour Windows, le client Teams pour iPhone et Teams Phone (client Teams Android). Chaque point de terminaison peut signaler un repos HTTP comme suit :
 
--   Avancement des appels – converti par le proxy SIP au message SIP 180. Lors de la réception du message 180, le SBC doit générer une sonnerie locale.
+-   Progression des appels – converti par le proxy SIP au message SIP 180. Lors de la réception du message 180, le SBC doit générer une sonnerie locale.
 
 -   Réponse multimédia : convertis par le proxy SIP en message 183 avec les candidats multimédias dans le protocole SDP (Session Description Protocol). À la réception du message 183, le SBC s’attend à se connecter aux candidats aux médias reçus dans le message SDP. 
 
     > [!NOTE]
     > Dans certains cas, la réponse multimédia n’est peut-être pas générée et le point de fin peut répondre par un message « Appel accepté ».
 
--   Appel accepté – converti par le proxy SIP en message SIP 200 avec SDP. À la réception du message 200, le SBC est censé envoyer et recevoir des médias vers et à partir des candidats au programme SDP fournis.
+-   Appel accepté – converti par le proxy SIP en message SIP 200 avec SDP. À la réception du message 200, le SBC est censé envoyer et recevoir des médias vers et depuis les candidats au programme SDP fournis.
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>Plusieurs points de terminaison avec réponse inserer
 
@@ -175,7 +175,7 @@ Un utilisateur de Teams peut avoir plusieurs points de terminaison en même temp
 
 2.  Dès notification, chaque point de terminaison commence à sonner et envoie des messages « Avancement des appels » au proxy SIP. Étant donné qu’un utilisateur de Teams peut avoir plusieurs points de fin, le proxy SIP peut recevoir plusieurs messages de progression des appels.
 
-3.  Pour chaque message de progression des appels reçu de clients, le proxy SIP convertit le message de progression des appels en message SIP « SiP SIP/2.0 180 Trying ». L’intervalle d’envoi de tels messages est défini par l’intervalle des messages de réception du contrôleur d’appel. Dans le diagramme suivant, deux messages 180 sont générés par le proxy SIP. Ces messages proviennent des deux points de terminaison Teams de l’utilisateur. Chacun des clients a un ID de balise unique.  Chaque message provenant d’un point de terminaison différent sera une session distincte (la « balise » du paramètre dans le champ « À » sera différente). Mais il se peut qu’un point de terminaison ne génère pas le message 180 et n’envoie pas le message 183 immédiatement, comme indiqué dans le diagramme suivant.
+3.  Pour chaque message de progression des appels reçu de clients, le proxy SIP convertit le message de progression des appels en message SIP « SiP SIP/2.0 180 Trying ». L’intervalle d’envoi de tels messages est défini par l’intervalle des messages de réception du contrôleur d’appel. Dans le diagramme suivant, deux messages 180 sont générés par le proxy SIP. Ces messages proviennent des deux points de terminaison Teams de l’utilisateur. Chacun des clients a un ID de balise unique.  Chaque message provenant d’un point de terminaison différent sera une session distincte (la « balise » du paramètre dans le champ « À » sera différente). Mais un point de terminaison peut ne pas générer le message 180 et envoyer le message 183 immédiatement, comme indiqué dans le diagramme suivant.
 
 4.  Lorsqu’un point de terminaison génère un message De réponse multimédia avec les adresses IP des candidats multimédias du point de terminaison, le proxy SIP convertit le message reçu en message « Avancement de la session SIP 183 » avec le SDP du client remplacé par le SDP provenant du processeur de média. Dans le diagramme suivant, le point de terminaison de la fork 2 a répondu à l’appel. Si la ligne n’est pas contourné, le message SIP 183 n’est généré qu’une seule fois (ring bot ou point de fin du client). La 183 peut se faire sur une bifurcation existante ou en démarrer une nouvelle.
 
@@ -184,7 +184,7 @@ Un utilisateur de Teams peut avoir plusieurs points de terminaison en même temp
 > [!div class="mx-imgBorder"]
 > ![Diagramme montrant plusieurs points de terminaison avec réponse inser](media/direct-routing-protocols-1.png)
 
-#### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>Plusieurs points de terminaison avec sonnerie sans réponse inserer
+#### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>Plusieurs points de terminaison avec sonnerie sans réponse inerser
 
 1.  À la réception de la première invitation de la part du SBC, le proxy SIP envoie le message « SiP SIP/2.0 100 Trying » et informe tous les points de terminaison de l’utilisateur final concernant l’appel entrant. 
 
@@ -204,7 +204,7 @@ Les mêmes messages (100 Tentative, 180, 183) sont utilisés dans le scénario d
 Le schéma ci-dessous montre un exemple de flux d’appels de contournement. 
 
 > [!NOTE]
-> Les candidats aux médias peuvent être issus de différents points de terminaison. 
+> Les candidats aux médias peuvent se trouver sur différents points de terminaison. 
 
 > [!div class="mx-imgBorder"]
 > ![Diagramme montrant plusieurs points de terminaison avec réponse inser](media/direct-routing-protocols-3.png)
@@ -215,7 +215,7 @@ Le SBC doit prendre en charge l’invitation par remplacement.
 
 ## <a name="size-of-sdp-considerations"></a>Taille des considérations en considération de la taille du SDP
 
-L’interface de routage direct peut envoyer un message SIP dépassant 1 500 octets.  C’est principalement la taille du projet de projet qui en est à l’origine. Toutefois, si une ligne UDP se trouve derrière le SBC, elle peut rejeter le message s’il est transmis à partir du proxy SIP Microsoft vers la ligne nonmodifiée. Lors de l’envoi du message aux ligne UDP, Microsoft recommande de faire désétrépcher certaines valeurs dans SDP sur le SBC. Par exemple, les candidats ice ou les codecs inutilisés peuvent être supprimés.
+L’interface de routage direct peut envoyer un message SIP dépassant 1 500 octets.  C’est principalement la taille du projet de projet qui en est à l’origine. Toutefois, si une ligne UDP se trouve derrière le SBC, il est possible que le message soit rejeté s’il est transmis à partir du proxy SIP Microsoft vers la ligne nonmodifiée. Lors de l’envoi du message aux ligne UDP, Microsoft recommande de faire désétrépcher certaines valeurs de SDP sur le SBC. Par exemple, les candidats ice ou les codecs inutilisés peuvent être supprimés.
 
 ## <a name="call-transfer"></a>Transfert d’appel
 
@@ -238,7 +238,7 @@ Voici un exemple de SBC envoyant le message que la méthode Référence est pris
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
-Si la SBC n’indique pas que faire référence comme méthode prise en charge, le routage direct utilise l’option 1 (le proxy SIP agit comme arbitre). Le SBC doit également indiquer qu’il prend en charge la méthode Notifier :
+Si le SBC n’indique pas qu’il s’agit d’une méthode prise en charge, le routage direct utilise l’option 1 (le proxy SIP agit comme arbitre). Le SBC doit également indiquer qu’il prend en charge la méthode Notifier :
 
 Exemple de SBC indiquant que la méthode Référence n’est pas prise en charge :
 
@@ -257,7 +257,7 @@ La demande de référence provenant du client sera résiliée sur le proxy SIP. 
 
 ### <a name="sip-proxy-send-the-refer-to-the-sbc-and-acts-as-a-transferor"></a>Le proxy SIP envoie la référence au SBC et agit en tant que transféreur
 
-Il s’agit de la méthode préférée pour les transferts d’appel; elle est obligatoire pour les appareils qui souhaitent obtenir la certification de dérivation média. Le transfert d’appel sans que SBC puisse gérer le référencement n’est pas pris en charge en mode d’évitement média. 
+Il s’agit de la méthode préférée pour les transferts d’appel, et elle est obligatoire pour les appareils qui souhaitent obtenir la certification de dérivation média. Le transfert d’appel sans que SBC puisse gérer le référencement n’est pas pris en charge en mode d’évitement média. 
 
 La norme est expliquée dans la section 6 du RFC 5589. Les appels d’offre associés sont les autres :
 
@@ -270,13 +270,13 @@ La norme est expliquée dans la section 6 du RFC 5589. Les appels d’offre asso
 Cette option part du principe que le proxy SIP agit comme un transféreur et envoie un message référent au SBC. Le SBC agit en tant que bénéficiaire du transfert et gère la référence pour générer une nouvelle offre de transfert. Il existe deux cas possibles :
 
 - L’appel est transféré à un participant PSTN externe. 
-- L’appel est transféré d’un utilisateur Teams à un autre utilisateur teams dans le même client via le SBC. 
+- L’appel est transféré d’un utilisateur Teams à un autre utilisateur de Teams dans le même client via le SBC. 
 
 Si l’appel est transféré d’un utilisateur Teams à un autre via le SBC, le SBC est censé émettre une nouvelle invitation (démarrer une nouvelle boîte de dialogue) pour la cible de transfert (l’utilisateur de Teams) à l’aide des informations reçues dans le message de référence. 
 
 Pour remplir les champs To/Transferor de la transaction de la demande en interne, le proxy SIP doit communiquer ces informations dans les en-têtes REFER-TO/REFERRED-BY. 
 
-Le proxy SIP formera la référence à en tant qu’URI SIP composée d’un nom de fQDN proxy SIP dans le nom d’hôte et d’une des façons suivantes :
+Le proxy SIP forme l’URI REFER-TO sous la forme d’un URI SIP constitué d’un nom de famille d’accès proxy SIP dans le nom d’hôte et d’une des façons suivantes :
 
 - Un numéro de téléphone E.164 dans la partie nom d’utilisateur de l’URI au cas où la cible du transfert serait un numéro de téléphone ou
 
@@ -286,7 +286,7 @@ L’en-tête RÉFÉREZ-VOUS est un URI SIP avec l’encodage DE l’URI SIP, ain
 
 | Paramètre | Valeur | Description% |  
 |:---------------------  |:---------------------- |:---------------------- |
-| x-m | INDN | FULL IRM of transferor/transfer target as populated by CC |
+| x-m | INSER | FULL IRM of transferor/transfer target as populated by CC |
 | x-t | ID du locataire | ID de locataire x-t ID de locataire facultatif tel que rempli par CC |
 | x-ti | ID de corrélation de transfert | ID de corrélation de l’appel au transféreur |
 | x-tt | URI d’appel cible de transfert | URI de remplacement d’appel codé |
@@ -308,7 +308,7 @@ Microsoft recommande de toujours appliquer le paramètre user=phone pour simplif
 
 ## <a name="history-info-header"></a>History-Info-tête
 
-L’en-tête History-Info est utilisé pour retargeting SIP requests and « provide(s) un mécanisme standard pour capturer les informations de l’historique des demandes afin d’activer une grande variété de services pour les réseaux et les utilisateurs finaux ». Pour plus d’informations, [voir RFC 4244 – Section 1.1.](http://www.ietf.org/rfc/rfc4244.txt) Pour Microsoft Phone System, cet en-tête est utilisé dans les scénarios Demulring et De forwarding d’appel.  
+L’en-tête History-Info est utilisé pour retargeting sip requests and " provide(s) un mécanisme standard pour capturer les informations de l’historique des demandes afin d’activer une grande variété de services pour les réseaux et les utilisateurs finaux ». Pour plus d’informations, [voir RFC 4244 – Section 1.1.](http://www.ietf.org/rfc/rfc4244.txt) Pour Microsoft Phone System, cet en-tête est utilisé dans les scénarios Demulring et De forwarding d’appel.  
 
 En cas d’envoi, le History-Info est activé comme suit :
 
@@ -321,7 +321,7 @@ En cas d’envoi, le History-Info est activé comme suit :
 - Pour chaque entrée d’historique dans l’en-tête de History-Info reconstruire, le paramètre de numéro de téléphone est combiné au nom de direction sip.pstnhub.microsoft.com (Direct Routing FQDN) set as the host part of the URI . Un paramètre de « user=phone » sera ajouté dans le cadre de l’URI SIP.  Tous les autres paramètres associés à l’en-History-Info d’origine, à l’exception des paramètres de contexte du téléphone, sont transmis dans l’en-tête History-Info'origine.  
 
   > [!NOTE]
-  > Les entrées privées (telles que déterminées par les mécanismes définis dans la section 3.3 de la mise à jour RFC 4244) seront également forwardées, car le fournisseur de ligne SIP est un homologue approuvé.
+  > Les entrées privées (telles que déterminées par les mécanismes définis dans la section 3.3 de la mise à jour RFC 4244) seront également transmis, car le fournisseur de ligne SIP est un homologue approuvé.
 
 - Les appels entrants History-Info sont ignorés.
 
@@ -354,14 +354,12 @@ Si un centre de données de routage direct est occupé, le service peut envoyer 
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>Redémarrage ICE : Appel de dérivation média transféré vers un point de terminaison qui ne prend pas en charge la dérivation média
 
-Le SBC doit prendre en charge les redémarrages ICE, comme décrit dans la rubrique [RFC 5245, section 9.1.1.1.](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)
+Le SBC doit prendre en charge les redémarrages ICE, comme décrit dans la [rubrique RFC 5245, section 9.1.1.1.](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)
 
-Le redémarrage dans le routage direct est implémenté conformément aux paragraphes suivants du RFC :
+Le redémarrage dans le routage direct est implémenté conformément aux paragraphes suivants de la mise en route RFC :
 
 *Pour redémarrer LA GLACE, un agent doit modifier le ice-pwd et le ice-ufrag pour le flux multimédia dans une offre.  Notez qu’il est possible d’utiliser un attribut au niveau de la session dans une offre, mais de fournir le même attribut ice-pwd ou ice-ufrag comme attribut de niveau multimédia dans une offre ultérieure.  Il ne s’agit pas d’une modification du mot de passe, mais d’une modification de sa représentation, et ne provoque pas de redémarrage de ICE.*
 
 *Un agent définit le reste des champs dans le SDP pour ce flux multimédia comme il le ferait dans une offre initiale de ce flux multimédia (voir la section 4.3).  Par conséquent, l’ensemble des candidats peut inclure une partie, aucun ou l’ensemble des candidats précédents pour ce flux et PEUT inclure un ensemble totalement nouveau de candidats rassemblés, comme décrit dans la section 4.1.1.*
 
-Si l’appel a été établi à l’origine avec une dérivation média et que l’appel est transféré vers un client Skype Entreprise, le routage direct doit insérer un processeur de média, car le routage direct ne peut pas être utilisé avec un client Skype Entreprise avec une dérivation média. Le routage direct lance le processus de redémarrage de ice pwd et ice-ufrag et propose de nouveaux candidats multimédias dans une réinvitation. 
-
-
+Si l’appel a été établi à l’origine avec une dérivation média et que l’appel est transféré vers un client Skype Entreprise, le routage direct doit insérer un processeur de média, car le routage direct ne peut pas être utilisé avec un client Skype Entreprise avec une dérivation média. Le routage direct lance le processus de redémarrage de ice pwd et ice-ufrag et propose de nouveaux candidats multimédias dans une réinvitation.

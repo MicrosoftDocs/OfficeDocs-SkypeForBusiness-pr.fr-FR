@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer le routage direct de Microsoft Phone System.
-ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369159"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096374"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduire des numéros de téléphone dans un autre format
 
@@ -36,16 +36,16 @@ Pour plus d’informations sur les étapes requises pour configurer le routage d
 
 Il arrive que les administrateurs des locataires souhaitent modifier le numéro des appels sortants et/ou entrants en fonction des modèles qu’ils ont créés pour garantir l’interopérabilité avec les contrôleurs de session en bordure. Cet article explique comment spécifier une stratégie de règles de traduction de nombres pour traduire les nombres dans un autre format. 
 
-Vous pouvez utiliser la stratégie Règles de traduction des nombres pour traduire les nombres des suivants :
+Vous pouvez utiliser la stratégie Règles de traduction de nombres pour traduire des nombres pour les services suivants :
 
 - Appels entrants : appels d’un point de terminaison PSTN (appelant) vers un client Teams (appelé)
 - Appels sortants : appels d’un client Teams (appelant) à un point de terminaison PSTN (appelé)
 
 La stratégie est appliquée au niveau SBC. Vous pouvez affecter plusieurs règles de traduction à un SBC, qui sont appliquées dans l’ordre dans lequel elles apparaissent lorsque vous les énumérez dans PowerShell. Vous pouvez également modifier l’ordre des règles dans la stratégie.
 
-Pour créer, modifier, afficher et supprimer des règles de manipulation de nombre, utilisez les cmdlets [New-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)et [Remove-CsTeamsTranslationRule.](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule)
+Pour créer, modifier, afficher et supprimer des règles de manipulation de nombre, utilisez les cmdlets [New-CsTeamsTranslationRule,](/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule)et [Remove-CsTeamsTranslationRule.](/powershell/module/skype/remove-csteamstranslationrule)
 
-Pour attribuer, configurer et lister des règles de manipulation des nombres sur les SBCs, utilisez les cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) et [Set-CSOnlinePSTNGateway,](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) ainsi que les cmdlets InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules et OutboundPSTNNumberTranslationRules paramètres.
+Pour attribuer, configurer et lister des règles de manipulation des nombres sur les SBCs, utilisez les cmdlets [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) et [Set-CSOnlinePSTNGateway,](/powershell/module/skype/set-csonlinepstngateway) ainsi que les cmdlets InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules et OutboundPSTNNumberTranslationRules paramètres.
 
 > [!NOTE]
 > Le nombre maximal de règles de traduction est de 400, la longueur maximale des noms de paramètres de traduction est de 100 symboles, la longueur maximale des modèles de paramètres de traduction est de 1 024 symboles et la longueur maximale de traduction de 256 symboles.
@@ -53,7 +53,7 @@ Pour attribuer, configurer et lister des règles de manipulation des nombres sur
 
 ## <a name="example-sbc-configuration"></a>Exemple de configuration SBC
 
-Dans ce scénario, ```New-CsOnlinePSTNGateway``` l’cmdlet est exécuté pour créer la configuration SBC suivante :
+Pour ce scénario, ```New-CsOnlinePSTNGateway``` l’cmdlet est exécuté pour créer la configuration SBC suivante :
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
@@ -68,7 +68,7 @@ Les règles de traduction attribuées au SBC sont résumées dans le tableau sui
 |AddTtleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-Dans les exemples suivants, il y a deux utilisateurs, Tous deux, Qun. et Bob. Il s’agit d’un utilisateur de Teams dont le numéro est +1 206 555 0100. Bob est un utilisateur PSTN dont le numéro est +1 425 555 0100.
+Dans les exemples suivants, il y a deux utilisateurs,Soy et Bob. Il s’agit d’un utilisateur de Teams dont le numéro est +1 206 555 0100. Bob est un utilisateur PSTN dont le numéro est +1 425 555 0100.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemple 1 : appel entrant vers un numéro à dix chiffres
 
@@ -108,7 +108,7 @@ Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envo
 |À    |À: \<sip:+14255550100@sbc.contoso.com>|À: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
 |De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
-## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemple 4 : appel sortant avec un numéro autre que E.164 à quatre chiffres
+## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemple 4 : appel sortant avec un numéro autre qu’E.164 à quatre chiffres
 
 Contrôle appelle Bob à l’aide d’un numéro à quatre chiffres. Base utilise 0100 pour joindre Bob depuis les Appels ou à l’aide d’un contact.
 SBC est configuré pour utiliser des numéros à quatre chiffres autres que E.164 pour les utilisateurs de Teams et des numéros à dix chiffres pour les utilisateurs PSTN. Le plan de numérotation n’est pas appliqué dans ce scénario.

@@ -19,21 +19,21 @@ ms.reviewer: anach
 description: Découvrez comment intégrer des enregistrements médicaux électroniques dans l’application Patients de Microsoft Teams à l’aide d’API FEMBA.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 594375959a8cd7cbbfc21c6b9d5ceb6c0f8a8dac
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 2b4878f67b7738a13e3c1385ee0713d6e3e3d481
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803542"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096208"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Intégration des dossiers médicaux électroniques dans Microsoft Teams
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’[application Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui soutien l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe mais ne sont plus accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de l’[application Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
+>Les listes permet aux équipes de soins de votre organisation de santé de créer des listes de patients pour différents scénarios (arrondis, réunions d’équipe de formation, surveillance générale des patients, etc.). Pour commencer, consultez le modèle Patients dans listes. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, consultez [Gérer l’application Listes](../../manage-lists-app.md).
 
-Cet article est destiné à un développeur informatique de santé général intéressé par l’utilisation d’API F AP API sur un système d’informations médicales pour se connecter à Microsoft Teams. Cela permettra des scénarios de coordination des soins qui correspondent aux besoins d’une organisation de soins de santé.
+Cet article est destiné à un développeur informatique de santé général intéressé par l’utilisation d’API FEMBA sur la base d’un système d’informations médicales pour se connecter à Microsoft Teams. Cela permettra des scénarios de coordination des soins qui correspondent aux besoins d’une organisation de soins de santé.
 
 Les articles liés documentent les spécifications de l’interface FEMBA pour l’application Patients de Microsoft Teams, et les sections suivantes expliquent ce qui est nécessaire pour la configuration d’un serveur FEMBA et la connexion à l’application Patients dans votre environnement de développement ou client. Vous devez également être familiarisé avec la documentation du serveur F INF que vous avez choisi, laquelle doit être l’une des options prise en charge :
 
@@ -49,12 +49,12 @@ Voici l’architecture de l’application Patients illustrée ci-dessous :
 
 ![Diagramme de l’architecture de l’application Patients](../../media/patients-app-architecture.png)
 
-Les sections suivantes expliquent les conditions requises de la couche d’accès aux données uniquement pour l’application Patients qu’un serveur FEMBA (ou API F HEP) doit respecter pour s’intégrer à l’application Patients, notamment les suivantes :
+Les sections suivantes expliquent les conditions requises de la couche d’accès aux données uniquement pour l’application Patients qu’un serveur FEMBA (ou API F INP activé pour l’utilisation d’un nom de groupe) doit respecter pour s’intégrer à l’application Patients, notamment les suivantes :
 
 - Attentes en matière d’authentification des utilisateurs
 - Exigences fonctionnelles et techniques de l’interface d’intégration
 - Attentes en matière de performances et de fiabilité
-- Attentes autour des ressources FEMBA à prendre en charge pour l’application Patients
+- Attentes autour des ressources de l’FEMBA à prendre en charge pour l’application Patients
 - Processus d’intégration et modèle d’engagement attendu
 - Mise en place de la FEMBA et problèmes courants rencontrés avec l’application Patients
 - Conditions requises pour la prochaine itération de l’application Patients
@@ -66,7 +66,7 @@ Les sections suivantes expliquent les conditions requises de la couche d’accè
 
 ### <a name="authentication"></a>Authentification  
 
-L’autorisation  au niveau de l’application sans prise en charge de l’autorisation au niveau utilisateur est le moyen le plus souvent pris en charge pour effectuer des transformations de données et exposer les connexions aux données d’un réseau d’entreprise via FEMBA, même si le système EHR peut implémenter l’autorisation au niveau utilisateur. Le partenaire Interop Service obtient un accès élevé aux données EHR et, lorsqu’ils exposent les mêmes données que les ressources FEMBA appropriées, aucun contexte d’autorisation n’est transmis à la clientèle de services Interop (l’application Patients) intégrée au service ou à la plateforme Interop. L’application Patients ne pourra pas appliquer l’autorisation au niveau utilisateur, mais prend en charge l’authentification des applications pour l’authentification des applications entre l’application Patients et le service du partenaire Interop.
+L’autorisation  au niveau de l’application sans prise en charge de l’autorisation au niveau utilisateur est le moyen le plus couramment pris en charge pour effectuer des transformations de données et exposer les connexions aux données d’un réseau d’entreprise via FEMBA, même si le système EHR peut implémenter l’autorisation au niveau utilisateur. Le partenaire Interop Service obtient un accès élevé aux données EHR et, lorsqu’ils exposent les mêmes données que les ressources FEMBA appropriées, aucun contexte d’autorisation n’est transmis à la clientèle de services Interop (l’application Patients) intégrée au service ou à la plateforme Interop. L’application Patients ne pourra pas appliquer l’autorisation au niveau utilisateur, mais prend en charge l’authentification des applications pour l’authentification des applications entre l’application Patients et le service du partenaire Interop.
 
 Le modèle d’authentification d’application à application est décrit ci-dessous :
 
@@ -141,9 +141,9 @@ Le service partenaire fournit les client_id et client_secret Patients, gérées 
 
 ### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>Routage : mappage du client AAD au point de terminaison fournisseur
 
-L’application Patients se connecte à un service partenaire via un seul point de terminaison. Le service partenaire est le propriétaire et le maintien d’un mécanisme permettant d’associer chaque client Microsoft (ID de locataire AAD) à un fournisseur de soins de santé (FEMBA) approprié avec qui le service partenaire travaille.
+L’application Patients se connecte à un service partenaire via un seul point de terminaison. Le service partenaire est le propriétaire et le maintien d’un mécanisme permettant d’associer chaque client Microsoft (ID de client AAD) à un fournisseur de soins de santé (FEMBA) approprié avec qui le service partenaire travaille.
 
-Le mappage du client AAD à un point de terminaison de fournisseur utilise l’ID de locataire AAD (GUID). L’application Patients transmet l’ID de locataire dans l’étendue, lors de la demande d’un jeton d’accès pour chaque demande. Le service partenaire conserve le mappage de l’ID de locataire avec le point de terminaison du fournisseur et redirige les demandes vers un point de terminaison de fournisseur sur la base de l’ID de locataire. Pour ce faire, le partenaire prend en charge la configuration de son côté (manuellement ou via un portail dans le cadre de l’intégration des organisations du fournisseur à leur plateforme Interop).
+Le mappage du client AAD à un point de terminaison de fournisseur utilise l’ID de locataire AAD (GUID). L’application Patients transmet l’ID de locataire dans l’étendue, lors de la demande d’un jeton d’accès pour chaque demande. Le service partenaire conserve le mappage de l’ID de locataire avec le point de terminaison du fournisseur et redirige les demandes vers un point de terminaison de fournisseur en fonction de l’ID de locataire. Pour ce faire, le partenaire prend en charge la configuration de son côté (manuellement ou via un portail dans le cadre de l’intégration des organisations du fournisseur à leur plateforme Interop).
 
 Le flux de travail d’authentification et de routage s’affiche ci-dessous :
 
@@ -183,12 +183,12 @@ Des appels et des champs spécifiques utilisés par l’application Patients son
 
 ## <a name="performance-and-reliability"></a>Performances et fiabilité
 
-Si l’application Patients est en prévisualisation privée, il n’y a aucune garantie pour les performances de bout en bout. Les facteurs de performances comprennent les latencies relatives de tous les sauts impliqués dans le flux de travail, à partir de l’ehr dans l’environnement du système d’santé, au partenaire Interop et à son infrastructure, y compris le serveur FEMBA, puis à l’écosystème d’Office 365 et l’application Patients.
+Si l’application Patients est en prévisualisation privée, il n’y a aucune garantie pour les performances de bout en bout. Les facteurs de performances comprennent les latencies relatives de tous les sauts impliqués dans le flux de travail, à partir de la gestion de la sécurité sociale dans l’environnement du système d’santé, au partenaire Interop et à son infrastructure, notamment le serveur FEMBA, puis à l’écosystème d’Office 365 et à l’application Patients.
 
 ![Illustration des performances des partenaires Interop](../../media/FHIR.png)
 
 ## <a name="get-started-with-fhir"></a>Commencer à travailler avec FEMBA  
 
-Si vous débutez avec FEMBA et avez besoin d’un accès facile à un serveur FEMBA que vous pouvez exposer à l’interface d’intégration EHR de Microsoft Teams, Microsoft dispose d’un serveur FEMBA open source disponible pour tous les développeurs. Consultez [l’article](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) Qu’est-ce que FEMBA Server pour Azure ? Pour en savoir plus sur le serveur open source FEMBA disponible auprès de Microsoft et le déployer pour votre organisation.
+Si vous débutez avec FEMBA et que vous avez besoin d’un accès facile à un serveur FEMBA que vous pouvez exposer à l’interface d’intégration EHR de Microsoft Teams, Microsoft dispose d’un serveur FEMBA open source disponible pour tous les développeurs. Consultez [l’article](/azure/healthcare-apis/overview-open-source-server) Qu’est-ce que FEMBA Server pour Azure ? Pour en savoir plus sur le serveur open source FEMBA disponible auprès de Microsoft et le déployer pour votre organisation.
 
-Vous pouvez également utiliser l’environnement EHR de bac à sable ouvert HSPC pour créer un ehr qui prend également en charge un serveur FPV ouvert et l’utiliser pour jouer avec l’application Patients. Nous vous recommandons de lire la documentation en bac à sable [HSPC.](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox) Non seulement le bac à sable fournit-il un moyen simple, orienté IU et convivial de créer, d’ajouter et de modifier Patients, mais également de vous fournir plusieurs exemples pour commencer. 
+Vous pouvez également utiliser l’environnement EHR de bac à sable ouvert HSPC pour créer un ehr qui prend également en charge un serveur FPV ouvert et l’utiliser pour jouer avec l’application Patients. Nous vous recommandons de lire la documentation en bac à sable [HSPC.](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox) Non seulement le bac à sable fournit-il un moyen simple, orienté IU et convivial de créer, d’ajouter et de modifier Patients, mais également de vous fournir plusieurs exemples pour commencer.

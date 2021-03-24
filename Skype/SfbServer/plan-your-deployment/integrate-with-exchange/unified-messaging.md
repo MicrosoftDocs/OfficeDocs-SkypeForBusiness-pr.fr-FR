@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Résumé : Examinez cette rubrique lors de la planification de l’intégration de Skype Entreprise Server à Exchange 2013 ou 2016.'
-ms.openlocfilehash: 1ae93ebeda07fccf6c9019d5bb78c63f7c722192
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95df4d0fa9d2a57385c5dd61c95bc07c07a8fa7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096660"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planifier l’intégration de la messagerie unifiée Exchange dans Skype Entreprise
 
@@ -52,9 +52,9 @@ Skype Entreprise Server, Voix Entreprise utilise l’infrastructure de messageri
 
 - **Outlook Voice Access** Outlook Voice Access permet à un utilisateur Voix Entreprise d’accéder non seulement à la messagerie vocale, mais également à la boîte de réception Exchange, notamment à la messagerie électronique, au calendrier et aux contacts à partir d’une interface téléphonique. Le numéro d’accès d’abonné est attribué par un administrateur de la um Exchange.
 
-- **Service de attendant automatique** Le attendant automatique est une fonctionnalité de la um Exchange qui permet de configurer un numéro de téléphone que les utilisateurs extérieurs peuvent composer pour joindre des représentants de la société. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur de messagerie unée Exchange par l’administrateur de messagerie unée Exchange.
+- **Service de attendant automatique** Le attendant automatique est une fonctionnalité de la um Exchange qui permet de configurer un numéro de téléphone que les utilisateurs extérieurs peuvent composer pour joindre des représentants de la société. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur de messagerie un jour Exchange par l’administrateur de messagerie unée Exchange.
 
-- **Services de télécopie** La messagerie un utilisateur Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, voir [Messagerie unifiée](https://go.microsoft.com/fwlink/p/?linkId=135652) dans la documentation Microsoft Exchange Server de messagerie unifiée.
+- **Services de télécopie** La messagerie un utilisateur Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, voir [La messagerie unifiée](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) dans la documentation Microsoft Exchange Server de messagerie unifiée.
 
     > [!NOTE]
     > Les services de télécopie fournis par le serveur de messagerie unée Exchange ne sont pas disponibles dans les déploiements Skype Entreprise Server intégrés à Microsoft Exchange Server 2010, Exchange 2010 avec le dernier Service Pack, Exchange 2013 ou Exchange 2016.
@@ -65,11 +65,11 @@ Skype Entreprise Server, Voix Entreprise utilise l’infrastructure de messageri
 
 Pour fournir les fonctionnalités et services de messagerie unifiée Exchange décrits dans Les fonctionnalités de messagerie unifiée intégrée et Skype Entreprise [Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) aux utilisateurs de Voix Entreprise de votre organisation, vous devez déployer un serveur de boîtes aux lettres Microsoft Exchange et un serveur d’accès au client, qui hébergent des boîtes aux lettres utilisateur et fournissent un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. La messagerie un peu plus petite d’Exchange s’exécute en tant que service sur les serveurs de boîtes aux lettres et d’accès au client Exchange.
 
-Pour plus d’informations sur les composants de messagerie un Microsoft Exchange Server Exchange dans Microsoft Exchange Server 2010, voir [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
+Pour plus d’informations sur les composants de messagerie un Microsoft Exchange Server Exchange dans Microsoft Exchange Server 2010, voir [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
 ### <a name="supported-topologies"></a>Topologies prises en charge
 
-Vous pouvez déployer Skype Entreprise Server et la messagerie unifiée Exchange dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes d’intégration Exchange pour chaque forêt de la um Exchange. En outre, vous devez configurer chaque forêt Microsoft Exchange pour qu’elle utilise la forêt Skype Entreprise Server et la forêt Skype Entreprise Server pour qu’elle utilise chaque forêt de messagerie unie Exchange. En plus de cette relation d’confiance de forêt, les paramètres de messagerie un utilisateur Exchange de tous les utilisateurs doivent être définies sur les objets utilisateur de la forêt Skype Entreprise Server.
+Vous pouvez déployer Skype Entreprise Server et la messagerie unifiée Exchange dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes d’intégration Exchange pour chaque forêt de la um Exchange. En outre, vous devez configurer chaque forêt Microsoft Exchange pour qu’elle utilise la forêt Skype Entreprise Server et la forêt Skype Entreprise Server pour qu’elle utilise chaque forêt de messagerie unie Exchange. Outre cette relation d’confiance de forêt, les paramètres de messagerie un3d Exchange de tous les utilisateurs doivent être définies sur les objets utilisateur de la forêt Skype Entreprise Server.
 
 Skype Entreprise Server prend en charge les topologies suivantes pour l’intégration de la messagerie un utilisateur Exchange :
 
@@ -77,9 +77,9 @@ Skype Entreprise Server prend en charge les topologies suivantes pour l’intég
 
 - Domaine unique (c’est-à-dire, forêt unique avec un seul domaine). Skype Entreprise Server, Microsoft Exchange et les utilisateurs résident tous dans le même domaine.
 
-- Plusieurs domaines (à savoir, un domaine racine comportant un ou plusieurs domaines enfants). Skype Entreprise Server et les serveurs Microsoft Exchange sont déployés dans des domaines différents du domaine où vous créez des utilisateurs. Les serveurs de messagerie un utilisateur Exchange peuvent être déployés dans des domaines différents du pool Skype Entreprise Server qu’ils prendre en charge.
+- Plusieurs domaines (à savoir, un domaine racine comportant un ou plusieurs domaines enfants). Skype Entreprise Server et les serveurs Microsoft Exchange sont déployés dans des domaines différents du domaine où vous créez des utilisateurs. Les serveurs de messagerie un utilisateur Exchange peuvent être déployés dans des domaines différents du pool Skype Entreprise Server qu’ils supportent.
 
-- Plusieurs forêts (autrement dit, une forêt de ressources). Skype Entreprise Server est déployé dans une forêt unique, puis les utilisateurs sont répartis dans plusieurs forêts. Les attributs de messagerie un3d Exchange des utilisateurs doivent être répliqués sur la forêt Skype Entreprise Server.
+- Plusieurs forêts (autrement dit, forêt de ressources). Skype Entreprise Server est déployé dans une forêt unique, puis les utilisateurs sont répartis dans plusieurs forêts. Les attributs de messagerie un3d Exchange des utilisateurs doivent être répliqués sur la forêt Skype Entreprise Server.
 
     > [!NOTE]
     > Exchange peut être déployé dans plusieurs forêts. Chaque organisation Exchange peut fournir la messagerie unée Exchange à ses utilisateurs, ou la messagerie unée Exchange peut être déployée dans la même forêt que Skype Entreprise Server.
@@ -111,7 +111,7 @@ Les recommandations et les meilleures pratiques à prendre en compte lors du dé
 ### <a name="deploying-redundant-exchange-um-servers"></a>Déploiement de serveurs de messagerie unifiée Exchange redondants :
 
 > [!IMPORTANT]
-> Nous vous recommandons de déployer au moins deux serveurs sur lesquels les services de messagerie un jour Exchange sont en cours d’exécution pour chaque plan de numérotation URI SIP de messagerie unie Exchange que vous configurez pour votre organisation. En plus de fournir une capacité étendue, le déploiement de serveurs redondants fournit une haute disponibilité. En cas de défaillance d’un serveur, Skype Entreprise Server peut être configuré de manière à ce qu’il soit retenté sur un autre serveur.
+> Nous vous recommandons de déployer au moins deux serveurs sur lesquels les services de messagerie un jour Exchange sont en cours d’exécution pour chaque plan de numérotation URI SIP de messagerie unie Exchange que vous configurez pour votre organisation. En plus de fournir une capacité étendue, le déploiement de serveurs redondants fournit une haute disponibilité. En cas de défaillance d’un serveur, Skype Entreprise Server peut être configuré pour le faire échouer vers un autre serveur.
 
 Les configurations de l’exemple suivant fournissent la résistance à la messagerie unifiée Exchange.
 
@@ -119,10 +119,10 @@ Les configurations de l’exemple suivant fournissent la résistance à la messa
 
 ![Diagramme de résilience de la um Exchange](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
-Dans l’exemple 1, les serveurs de messagerie unifiée Exchange 1 et 2 sont activés dans le centre de données Tukwila, et les serveurs de messagerie unifiée Exchange 3 et 4 sont activés dans le centre de données Dublin. Dans le cas d’une panne de la messagerie unée Exchange dans Tukwila, les enregistrements DNS A pour les serveurs 1 et 2 doivent être configurés pour pointer vers les serveurs 3 et 4, respectivement. Dans le cas d’une panne de messagerie unée Exchange à Dublin, les enregistrements DNS A pour les serveurs 3 et 4 doivent être configurés pour pointer vers les serveurs 1 et 2, respectivement.
+Dans l’exemple 1, les serveurs de messagerie unifiée Exchange 1 et 2 sont activés dans le centre de données Tukwila, et les serveurs de messagerie unifiée Exchange 3 et 4 sont activés dans le centre de données Dublin. Dans le cas d’une panne de messagerie unée Exchange dans Tukwila, les enregistrements DNS A pour les serveurs 1 et 2 doivent être configurés pour pointer vers les serveurs 3 et 4, respectivement. Dans le cas d’une panne de messagerie unée Exchange à Dublin, les enregistrements DNS A pour les serveurs 3 et 4 doivent être configurés pour pointer vers les serveurs 1 et 2, respectivement.
 
 > [!NOTE]
-> Pour l’exemple 1, vous devez également affecter l’un des certificats suivants sur chaque serveur de messagerie unie Exchange : utilisez un certificat avec un caractère générique dans l’autre nom de l’objet (SAN) ou placez le nom de domaine complet (FQDN) de chacun des quatre serveurs de messagerie un jour Exchange dans le SAN.
+> Pour l’exemple 1, vous devez également affecter l’un des certificats suivants sur chaque serveur de messagerie unie Exchange : utilisez un certificat avec un caractère générique dans l’autre nom de l’objet (SAN) ou placez le nom de domaine complet (FQDN) de chacun des quatre serveurs de messagerie unie Exchange dans le SAN.
 
 **Exemple 2 : résistance de la messagerie unifiée Exchange**
 
@@ -130,17 +130,17 @@ Dans l’exemple 1, les serveurs de messagerie unifiée Exchange 1 et 2 sont ac
 
 Dans l’exemple 2, dans des conditions de fonctionnement normales, les serveurs de messagerie unifiée Exchange 1 et 2 sont activés dans le centre de données Tukwila, et les serveurs de messagerie unifiée Exchange 3 et 4 sont activés dans le centre de données Dublin. Les quatre serveurs sont tous inclus dans le plan de numérotation URI SIP des utilisateurs Tukwila, toutefois les serveurs 3 et 4 sont désactivés. Dans le cas d’une défaillance d’un serveur de messagerie unifiée Exchange dans Tukwila, par exemple, les serveurs de messagerie unifiée Exchange 1 et 2 doivent être désactivés et les serveurs de messagerie unifiée Exchange 3 et 4 activés afin que le trafic de messagerie unifiée Exchange Tukwila soit acheminé vers les serveurs dans Dublin.
 
-Pour plus d’informations sur la façon d’activer ou de désactiver la messagerie unifiée sur Exchange 2013, voir Intégrer la messagerie unifiée [Exchange 2013 à Lync Server.](https://go.microsoft.com/fwlink/p/?LinkId=265372) Les informations fournies s’appliquent également à Skype Entreprise Server.
+Pour plus d’informations sur la façon d’activer ou de désactiver la messagerie unifiée sur Exchange 2013, voir Intégrer la messagerie unifiée [Exchange 2013 à Lync Server.](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help) Les informations fournies s’appliquent également à Skype Entreprise Server.
 
 Pour plus d’informations sur la façon d’activer ou de désactiver la messagerie unifiée sur Microsoft Exchange Server 2010, voir :
 
-- [Activer la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Activer la messagerie unifiée sur Exchange 2010](/previous-versions/office/exchange-server-2010/aa997908(v=exchg.141))
 
-- [Désactiver la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Désactiver la messagerie unifiée sur Exchange 2010](/previous-versions/office/exchange-server-2010/bb123529(v=exchg.141))
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-La messagerie unifiée Exchange n’est plus présente dans Exchange 2019. Si vous avez Exchange 2019 et que vous souhaitez des fonctionnalités équivalentes, vous devrez utiliser le service de messagerie vocale cloud décrit dans [Plan Cloud Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
+La messagerie unifiée Exchange n’est plus présente dans Exchange 2019, si vous avez Exchange 2019 et que vous souhaitez des fonctionnalités équivalentes, vous devrez utiliser le service de messagerie vocale cloud décrit dans [Plan Cloud Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
 ## <a name="see-also"></a>Voir aussi

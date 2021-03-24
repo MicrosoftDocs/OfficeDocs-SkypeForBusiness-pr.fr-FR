@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Vous pouvez configurer les liens entre deux régions réseau dans le cadre du service Contrôle d’admission des appels (CAC). '
-ms.openlocfilehash: 0a4f5c63b4470fbfe6d2677f0e9e6f52841f7ebb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816464"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096680"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Liaison des régions réseau dans Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Vous pouvez afficher les liens entre deux régions réseau dans le cadre du serv
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Lien de région.**
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez afficher.
     
@@ -62,7 +62,7 @@ Vous pouvez afficher les liens de région réseau à l’Windows PowerShell et �
         NetworkRegionID2    : California
 
 
-Pour plus d’informations, voir [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Pour plus d’informations, voir [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).
 
 
 ## <a name="configure-network-region-links"></a>Configurer des liens de région réseau 
@@ -86,7 +86,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 6.  Dans la liste de listes listes de la région Réseau **\# 1,** sélectionnez l’une des deux régions à l lié.
 
-7.  Dans la liste de listes bas Région réseau **\# 2,** sélectionnez l’autre région à l lié. Cette région doit être différente de la région sélectionnée pour la région \# réseau 1.
+7.  Dans la liste de listes bas Région réseau **\# 2,** sélectionnez l’autre région à l’l lié. Cette région doit être différente de la région sélectionnée pour la région \# réseau 1.
 
 8.  (Facultatif) Si vous souhaitez ajouter des limites de bande passante sur les appels audio ou vidéo entre ces régions, sélectionnez un profil de stratégie de bande passante dans la liste déroulante **Stratégie de bande passante**.
 
@@ -119,7 +119,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Lien de région.**
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez supprimer.
  
@@ -133,10 +133,10 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)

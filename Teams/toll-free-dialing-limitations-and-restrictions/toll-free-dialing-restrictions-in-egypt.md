@@ -24,19 +24,19 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Égypte, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130665"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098140"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrictions de numérotation gratuit en Égypte
 
 [Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
-|**Details**|**Description**|
+|**Détails**|**Description**|
 |:-----|:-----|
 |Des appels gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
 |Format(s) de numérotation  <br/> |0800-XXX-XXXX  <br/> |
@@ -47,11 +47,10 @@ ms.locfileid: "49130665"
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

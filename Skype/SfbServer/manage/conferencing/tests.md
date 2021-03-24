@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Résumé : Découvrez comment tester la conférence téléphonique dans Skype Entreprise Server.'
-ms.openlocfilehash: 214ec05c49072825e6a8744cb92db66d864e3d34
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827934"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096730"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Tester les conférences téléphoniques dans Skype Entreprise Server
  
@@ -39,7 +39,7 @@ Pour terminer la vérification de votre configuration de conférence rendez-vous
 
     Cette applet de commande retourne tous les plans de numérotation dont la région de conférence rendez-vous n’est pas utilisée par un numéro d’accès.
     
-Pour plus d’informations, [voir Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Pour plus d’informations, [voir Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>Rechercher des numéros d’accès sans régions affectées
 
@@ -55,7 +55,7 @@ Pour plus d’informations, [voir Get-CsDialInConferencingAccessNumber](https://
 
     Cette applet de commande retourne tous les numéros d’accès de conférences rendez-vous qui ne sont pas associés à une région.
     
-Pour plus d’informations, [voir Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Pour plus d’informations, [voir Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>Tester les numéros de page web et d’accès
 
@@ -82,6 +82,4 @@ Pour vérifier que la page web Paramètres de conférence rendez-vous et les num
 
     Le rapport obtenu indique Opération réussie ou Échec ainsi que des informations de diagnostic. L’indicateur -Verbose fournit des informations plus détaillées sur le nombre de numéros d’accès trouvés et des détails les concernant.
     
-Pour plus d’informations, [voir Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
-  
-
+Pour plus d’informations, [voir Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps).

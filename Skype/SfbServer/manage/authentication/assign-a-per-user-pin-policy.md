@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Résumé : Stage AV and OAuth certificates for Skype for Business Server.'
-ms.openlocfilehash: 6a0d0a1824e809a70dfee419fb5da1f663d8d779
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096830"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Attribuer une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
 
@@ -78,7 +78,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
   
 8. Lorsque vous avez terminé, cliquez sur **OK**.
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie Per-User code confidentiel à l’aide Windows PowerShell cmdlets
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie Per-User de code confidentiel à l’aide Windows PowerShell cmdlets
 
 Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’Windows PowerShell et à l’cmdlet **Grant-CsPinPolicy.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
@@ -92,7 +92,7 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l�
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>Pour affecter une stratégie de code confidentiel par utilisateur à plusieurs utilisateurs
 
-- La commande suivante affecte la stratégie de code confidentiel par utilisateur RedmondUsersPinPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- La commande suivante affecte la stratégie de code confidentiel par utilisateur RedmondUsersPinPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -106,7 +106,7 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l�
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-Pour plus d’informations, [voir Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
+Pour plus d’informations, [voir Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
 ## <a name="see-also"></a>Voir aussi
 

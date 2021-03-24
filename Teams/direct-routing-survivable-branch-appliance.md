@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fb8812fd025317eb9c6e3c67ce1f5fcea094978
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196488"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096424"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Appliance de branche (SBA) survivable pour le routage direct
 
@@ -39,11 +39,11 @@ Cet article décrit comment utiliser une appliance de branche permettant de surv
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Le code SBA est fourni par les fournisseurs Microsoft à SBC qui incorporent ensuite le code dans leur microprogramme ou le distribuez séparément pour que SBA soit exécuté sur une version VM ou un matériel distinct. 
+Le code SBA est le code distribuable fourni par Microsoft à des fournisseurs SBC qui incorporent ensuite du code dans leur microprogramme ou le distribuez séparément pour que SBA soit exécuté sur une version VM ou un matériel distinct. 
 
 Pour obtenir la dernière version du microprogramme du contrôleur de session en bordure avec l’appliance de branche survivable incorporée, contactez votre fournisseur SBC. De plus, les suivantes sont obligatoires :
 
-- Le SBC doit être configuré pour la dérivation média afin de s’assurer que le client Microsoft Teams sur le site de branche peut faire circuler le média directement avec le SBC. 
+- Le SBC doit être configuré pour la dérivation média afin de s’assurer que le client Microsoft Teams dans le site de branche peut faire circuler le média directement avec le SBC. 
 
 - TLS1.2 doit être activé sur le système d’exploitation VM SBA.
 
@@ -57,7 +57,7 @@ La fonctionnalité SBA est prise en charge sur les clients Microsoft Teams suiva
 
 ## <a name="how-it-works"></a>Mode de fonctionnement
 
-En cas d’interruption d’Internet, le client Teams doit basculer automatiquement vers le SBA, et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte qu’Internet est en cours et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte aux autres services Teams. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de sorte que ces informations soient disponibles pour révision par l’administrateur client. 
+En cas d’interruption d’Internet, le client Teams doit basculer automatiquement vers le SBA, et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte aux autres services Teams. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de sorte que ces informations soient disponibles pour révision par l’administrateur client. 
 
 Lorsque le client Microsoft Teams est en mode hors connexion, la fonctionnalité d’appel suivante est disponible : 
 
@@ -69,7 +69,7 @@ Lorsque le client Microsoft Teams est en mode hors connexion, la fonctionnalité
 
 ## <a name="configuration"></a>Configuration
 
-Pour que la fonctionnalité SBA fonctionne, le client Teams doit savoir quels SBA sont disponibles sur chaque site de succursale et quels sont affectés aux utilisateurs de ce site. Les étapes de configuration sont les suivantes :
+Pour que la fonctionnalité SBA fonctionne, le client Teams doit connaître les SBA disponibles sur chaque site de filiale et les SBA attribués aux utilisateurs de ce site. Les étapes de configuration sont les suivantes :
 
 1. Créez les SBA.
 2. Créez la stratégie de survivance de la branche Teams.
@@ -82,12 +82,12 @@ Toute la configuration est effectuée à l’aide des cmdlets PowerShell Skype E
 
 ### <a name="create-the-sbas"></a>Créer les SBA
 
-Pour créer les SBA, vous devez utiliser la cmdlet New-CsTeamsSurvivableBranchAppliance'entrée. Cette cmdlet a les paramètres suivants :
+Pour créer les SBA, vous devez utiliser l'New-CsTeamsSurvivableBranchAppliance cmdlet. Cette cmdlet a les paramètres suivants :
 
 | Paramètre| Description |
 | :------------|:-------|
 | Identity  | Identité du SBA  |
-| Fqdn | FQDN du SBA |
+| Fqdn | FQDN de l’ABA |
 | Site | Site TenantNetworkSite où se trouve le site SBA |
 | Description | Mise en forme gratuite du texte |
 |||
@@ -151,13 +151,13 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Enregistrer une application pour SBA auprès d’Azure Active Directory
 
-Pour permettre à différents SBA utilisés au sein de votre client de lire les données requises de Microsoft 365, vous devez inscrire une application pour SBA auprès d’Azure Active Directory. 
+Pour autoriser les différentes SBA utilisées au sein de votre client à lire les données requises de Microsoft 365, vous devez inscrire une application pour SBA auprès d’Azure Active Directory. 
 
 Pour plus d’informations sur l’inscription des applications, voir les informations suivantes :
 
-- [Développer des applications métier pour Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Développer des applications métier pour Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Enregistrez une application auprès de la plateforme d’identité Microsoft.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)  
+- [Enregistrez une application auprès de la plateforme d’identité Microsoft.](/azure/active-directory/develop/quickstart-register-app)  
 
 Vous ne devez inscrire qu’une seule application pour être utilisé par tous les SBE de votre client. 
 

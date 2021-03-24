@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment envoyer manuellement une demande de demande de port.
-ms.openlocfilehash: 20596f740be99c32917e56c050cc4cc48281cff8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098260"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
@@ -37,15 +37,15 @@ Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire
 
 1. Téléchargez [le LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) de votre pays ou région.
 2. Remplissez le formulaire.
-3. Envoyez-le au service [PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) de votre région.
+3. Envoyez-le au service [PSTN de](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) votre région.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Informations d’autres informations sur le portage de numéro
 
-- Pour utiliser les forfaits d’appels, vous devez acheter et attribuer des licences à vos utilisateurs. Consultez [la gestion des licences du module ajouté Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- Pour utiliser les forfaits d’appels, vous devez acheter et attribuer des licences à vos utilisateurs. Consultez [la gestion des licences du module ajouté Teams.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-- Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
+- Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

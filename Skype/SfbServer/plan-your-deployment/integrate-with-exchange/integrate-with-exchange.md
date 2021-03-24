@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Examinez cette rubrique pour plus d’informations sur l’intégration de Skype Entreprise Server à Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: f2a9dfc718b7891a0cbe9b7b1455df24531a6ed0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b2fdab1a25db7d56c99e965877cb684d102da36
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810099"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098670"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -28,7 +28,7 @@ Avant de pouvoir intégrer Skype Entreprise Server et Exchange Server, vous deve
   
 Pour plus d’informations sur l’installation Exchange Server, voir la documentation Exchange Server planification et déploiement de votre version d’Exchange. 
    
-Une fois que les serveurs sont opérationnels, vous devez affecter des certificats d’authentification de serveur à serveur à Skype Entreprise Server et à Exchange Server ; Ces certificats permettent à Skype Entreprise Server et Exchange Server d’échanger des informations et de communiquer les uns avec les autres. Lorsque vous installez Exchange Server, un certificat auto-signé nommé certificat Microsoft Exchange Server auth est créé pour vous. Ce certificat, qui se trouve dans le magasin de certificats de l’ordinateur local, doit être utilisé pour l’authentification de serveur à serveur sur Exchange Server. Pour plus d’informations sur l’affectation de certificats dans Exchange Server, voir [Configure Mail Flow and Client Access](https://go.microsoft.com/fwlink/p/?LinkId=268540).
+Une fois que les serveurs sont opérationnels, vous devez affecter des certificats d’authentification de serveur à serveur à Skype Entreprise Server et à Exchange Server ; Ces certificats permettent à Skype Entreprise Server et Exchange Server d’échanger des informations et de communiquer les uns avec les autres. Lorsque vous installez Exchange Server, un certificat auto-signé nommé certificat Microsoft Exchange Server auth est créé pour vous. Ce certificat, qui se trouve dans le magasin de certificats de l’ordinateur local, doit être utilisé pour l’authentification de serveur à serveur sur Exchange Server. Pour plus d’informations sur l’affectation de certificats dans Exchange Server, voir [Configure Mail Flow and Client Access](/exchange/configure-mail-flow-and-client-access-exchange-2013-help).
   
 Pour Skype Entreprise Server, vous pouvez utiliser un certificat Skype Entreprise Server existant comme certificat d’authentification de serveur à serveur . par exemple, votre certificat par défaut peut également être utilisé comme certificat OAuthTokenIssuer. Skype Entreprise Server vous permet d’utiliser n’importe quel certificat de serveur Web comme certificat pour l’authentification de serveur à serveur, à condition que :
   
@@ -64,7 +64,7 @@ Vous pouvez affecter l’URI de découverte automatique en exécutant une comman
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Pour plus d’informations sur le service de découverte automatique, voir [Service de découverte automatique.](https://go.microsoft.com/fwlink/p/?LinkId=268542)
+Pour plus d’informations sur le service de découverte automatique, voir [Service de découverte automatique.](/Exchange/architecture/client-access/autodiscover)
   
 Une fois le service de découverte automatique configuré, vous devez modifier les paramètres de configuration OAuth de Skype Entreprise Server . Cela garantit que Skype Entreprise Server sait où trouver le service de découverte automatique. Pour modifier les paramètres de configuration OAuth dans Skype Entreprise Server, exécutez la commande suivante à partir de Skype Entreprise Server Management Shell. Lors de l’exécution de cette commande, assurez-vous de spécifier l’URI du service de découverte automatique en cours d’exécution sur votre Exchange Server et d’utiliser **autodiscover.svc** pour pointer vers l’emplacement du service au lieu de **autodiscover.xml** (qui pointe vers le fichier XML utilisé par le service) :
   
@@ -126,6 +126,6 @@ Le tableau suivant détaille les fonctionnalités prise en charge sous différen
 
 [Intégrer Skype Entreprise Server à Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
-[Comment intégrer Exchange Server 2013 avec Lync Server 2013, Skype Entreprise Online ou un déploiement hybride Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=746494)
+[Comment intégrer Exchange Server 2013 avec Lync Server 2013, Skype Entreprise Online ou un déploiement hybride Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-hybrid-deployments)
   
 [Configurer des applications partenaires dans Skype Entreprise Server et Microsoft Exchange Server](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)

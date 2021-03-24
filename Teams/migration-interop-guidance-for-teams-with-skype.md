@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b03a31865504507db1c1b0da0fb9c30eb3e1444
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: c3a446213a5c10126b9ae42986fe2fa1986bc9e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955921"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098330"
 ---
 # <a name="coexistence-modes---reference"></a>Modes de coexistence - Référence
 
@@ -38,23 +38,23 @@ Du point de vue technique, le mode d’un utilisateur régit plusieurs aspects d
 - *Planification de réunion*: Quel service est utilisé pour planifier de nouvelles réunions et s’assurer que le bon module est présent dans Outlook ? TeamsUpgradePolicy ne régit pas les réunions. Les utilisateurs *peuvent toujours participer* à une réunion, qu’il s’agit d’une réunion Skype Entreprise ou d’une réunion Teams.
 - *Expérience client*: Quelles fonctionnalités sont disponibles dans Teams et/ou le client Skype Entreprise ? Les utilisateurs peuvent-ils lancer des appels et des conversations dans Teams, Skype Entreprise ou les deux ? L’expérience Teams & canaux est-elle disponible ?  
 
-Pour plus d’informations sur le routage et le comportement de présence en fonction du mode, voir [Coexistence avec Skype Entreprise.](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence)
+Pour plus d’informations sur le routage et le comportement de présence en fonction du mode, voir [Coexistence avec Skype Entreprise.](./coexistence-chat-calls-presence.md)
 
 Toutefois, dans une perspective d’expérience, le mode peut être décrit comme définissant l’expérience pour :
 - *Conversation et appel*: Quel client utilise un utilisateur ?
 - *Planification de réunions*: Les utilisateurs peuvent-ils planifier de nouvelles réunions en tant que réunions Teams ou Skype Entreprise ?
-- *Disponibilité de la fonctionnalité de collaboration dans le client Teams.* La fonctionnalité Canaux & Fichiers de Teams est-elle disponible alors que les utilisateurs ont toujours Skype Entreprise ?
+- *Disponibilité de la fonctionnalité de collaboration dans le client Teams.* La fonctionnalité Canaux & fichiers de Teams est-elle disponible alors que les utilisateurs ont toujours Skype Entreprise ?
 
 Les modes sont répertoriés ci-dessous.
 </br>
 </br>
 
-|Mode|Appels et conversation|Planification de réunion<sup>1</sup>|Teams & Channels|Cas d’utilisation|
+|Mode|Appels et discussion|Planification de<sup>réunion 1</sup>|Teams & Channels|Cas d’utilisation|
 |---|---|---|---|---|
-|**TeamsOnly <sup>2</sup>**</br>*Nécessite un accueil dans Skype Entreprise Online*|Teams|Teams|Oui|État final de la mise à niveau. Également la valeur par défaut pour les nouveaux locataires.|
-|Île|L’une ou l|L’une ou l|Oui|Configuration par défaut. Permet à un utilisateur unique d’évaluer les deux clients côte à côte. Les conversations et les appels peuvent avoir lieu dans l’un ou l’autre des clients, de sorte que les utilisateurs doivent toujours exécuter les deux clients. Pour éviter toute confusion ou une régression de l’expérience Skype Entreprise, les communications externes (fédérées), les services vocaux RSTN et les applications vocales, l’intégration d’Office et plusieurs autres intégrations restent gérées par Skype Entreprise.|
+|**TeamsOnly <sup>2</sup>**</br>*Nécessite un domicile dans Skype Entreprise Online*|Teams|Teams|Oui|État final de la mise à niveau. Également la valeur par défaut pour les nouveaux locataires.|
+|Île|L’une ou l|L’une ou l|Oui|Configuration par défaut. Permet à un utilisateur unique d’évaluer les deux clients côte à côte. Les conversations et les appels peuvent avoir lieu dans l’un ou l’autre client, de sorte que les utilisateurs doivent toujours exécuter les deux clients. Pour éviter toute confusion ou une régression de l’expérience Skype Entreprise, les communications externes (fédérées), les services vocaux RSTN et les applications vocales, l’intégration d’Office et plusieurs autres intégrations restent gérées par Skype Entreprise.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Entreprise|Teams|Oui|« Réunions en premier ». Principalement pour les organisations locales qui peuvent tirer parti des fonctionnalités de réunion Teams, si elles ne sont pas encore prêtes à passer des appels dans le cloud.|
-|SfBWithTeamsCollab|Skype Entreprise|Skype Entreprise|Oui|Vous avez également besoin d’un autre point de départ pour les organisations complexes qui ont besoin d’un contrôle administratif plus étroit.|
+|SfBWithTeamsCollab|Skype Entreprise|Skype Entreprise|Oui|Vous avez également besoin d’un autre point de départ pour des organisations complexes qui ont besoin d’un contrôle administratif plus étroit.|
 |SfBOnly|Skype Entreprise|Skype Entreprise|No<sup>3</sup>|Scénario spécialisé pour les organisations ayant des exigences strictes en matière de contrôle des données. Teams est utilisé uniquement pour participer à des réunions programmées par d’autres personnes.|
 ||||||
 
@@ -108,7 +108,7 @@ Ces instances de stratégie peuvent être octroyées à des utilisateurs individ
 
 ## <a name="the-teams-client-user-experience-when-using-skype-for-business-modes"></a>Expérience utilisateur du client Teams lors de l’utilisation des modes Skype Entreprise
 
-Lorsqu’un utilisateur est dans l’un des modes Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), toutes les conversations et appels entrants sont acheminés vers le client Skype Entreprise de l’utilisateur. Pour éviter la confusion des utilisateurs finaux et garantir un routage approprié, les fonctionnalités d’appel et de conversation dans le client Teams sont automatiquement désactivées lorsqu’un utilisateur est dans l’un des modes Skype Entreprise. De même, la planification de réunions dans Teams est automatiquement désactivée lorsque les utilisateurs sont dans les modes SfBOnly ou SfBWithTeamsCollab et automatiquement activés quand un utilisateur est en mode SfBWithTeamsCollabAndMeetings. Pour plus d’informations, [consultez l’expérience du client Teams](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)et la conformité aux modes de coexistence.
+Lorsqu’un utilisateur est dans l’un des modes Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), toutes les conversations et appels entrants sont acheminés vers le client Skype Entreprise de l’utilisateur. Pour éviter la confusion des utilisateurs finaux et garantir un routage approprié, les fonctionnalités d’appel et de conversation dans le client Teams sont automatiquement désactivées lorsqu’un utilisateur est dans l’un des modes Skype Entreprise. De même, la planification de réunions dans Teams est automatiquement désactivée lorsque les utilisateurs sont dans les modes SfBOnly ou SfBWithTeamsCollab et automatiquement activés quand un utilisateur est en mode SfBWithTeamsCollabAndMeetings. Pour plus d’informations, [consultez l’expérience du client Teams](./teams-client-experience-and-conformance-to-coexistence-modes.md)et la conformité aux modes de coexistence.
 
 > [!Note] 
 > - Avant la distribution de l’application automatique des équipes et des canaux, les modes SfbOnly et SfBWithTeamsCollab se comportent à l’identique.
@@ -124,24 +124,24 @@ Lorsqu’un utilisateur est dans l’un des modes Skype Entreprise (SfBOnly, SfB
 |**SfBOnly**|Un utilisateur exécute uniquement Skype Entreprise. Cet utilisateur :</br><ul><li>Ne peut démarrer que des conversations et des appels à partir de Skype Entreprise.<li>Reçoit une conversation ou un appel dans son client Skype Entreprise, quelle que soit l’endroit où elle est lancée, sauf si le initiateur est un utilisateur de Teams qui a Skype Entreprise domicile sur site. *<li> Ne peut planifier que des réunions Skype Entreprise, </br> \** mais peut participer à des réunions Skype Entreprise ou Teams. L’utilisation du mode Îles avec des utilisateurs locaux n’est pas recommandée en combinaison avec d’autres utilisateurs en mode SfBOnly. Si un utilisateur de Teams douzième dans Skype Entreprise entame un appel ou une conversation avec un utilisateur SfBOnly, l’utilisateur SfBOnly n’est pas accessible et reçoit une conversation ou un e-mail d’appel manqué.*|
 |**SfBWithTeamsCollab**|Un utilisateur exécute Skype Entreprise et Teams côte à côte. Cet utilisateur :</br><ul><li>Possède les fonctionnalités d’un utilisateur en mode SfBOnly.<li>Teams est activé uniquement pour la collaboration de groupe (canaux) ; les appels et la planification de réunions sont désactivés.</ul>|
 |**SfBWithTeamsCollab </br> AndMeetings**|Un utilisateur exécute Skype Entreprise et Teams côte à côte. Cet utilisateur :<ul><li>Initie les fonctionnalités de conversation et d’appel de l’utilisateur en mode SfBOnly.<li>Teams est-il activé pour la collaboration de groupe (canaux - inclut les conversations de canal) ; les appels sont désactivés.<li>Ne peut planifier que des réunions Teams, mais peut participer à des réunions Skype Entreprise ou Teams.</ul>|
-|**TeamsOnly**</br>(nécessite la page d’accueil SfB Online)|Un utilisateur exécute uniquement Teams. Cet utilisateur :<ul><li>Reçoit toutes les conversations et appels dans son client Teams, quel que soit l’endroit où elle est lancée.<li>Peut démarrer des conversations et des appels à partir de Teams uniquement.<li>Vous ne pouvez planifier des réunions que dans Teams, mais vous pouvez participer à des réunions Skype Entreprise ou Teams.<li>Peut continuer à utiliser les téléphones IP Skype Entreprise.<br><br>*Il n’est pas recommandé d’utiliser le mode TeamsOnly en combinaison avec d’autres utilisateurs en mode Îles tant que l’adoption de Teams n’est pas saturée . autrement dit, tous les utilisateurs du mode Îles utilisent et surveillent activement les clients Teams et Skype Entreprise. Si un utilisateur de TeamsOnly entame un appel ou une conversation avec un utilisateur des îles, cet appel ou cette conversation sera reçu dans le client Teams de l’utilisateur des îles ; si l’utilisateur des îles n’utilise pas ou ne surveille pas Teams, il apparaît hors connexion et n’est pas accessible par l’utilisateur TeamsOnly.*</ul> |
+|**TeamsOnly**</br>(nécessite la page d’accueil SfB Online)|Un utilisateur exécute uniquement Teams. Cet utilisateur :<ul><li>Reçoit toutes les conversations et appels dans son client Teams, quel que soit l’endroit où elle est lancée.<li>Ne peut démarrer que des conversations et des appels à partir de Teams.<li>Vous ne pouvez planifier des réunions que dans Teams, mais vous pouvez participer à des réunions Skype Entreprise ou Teams.<li>Peut continuer à utiliser les téléphones IP Skype Entreprise.<br><br>*L’utilisation du mode TeamsOnly en combinaison avec d’autres utilisateurs en mode Îles n’est pas recommandée tant que l’adoption de Teams n’est pas saturée . autrement dit, tous les utilisateurs du mode Îles utilisent et surveillent activement les clients Teams et Skype Entreprise. Si un utilisateur de TeamsOnly entame un appel ou une conversation avec un utilisateur des îles, cet appel ou cette conversation sera reçu dans le client Teams de l’utilisateur des îles ; si l’utilisateur des îles n’utilise pas ou ne surveille pas Teams, il apparaît hors connexion et n’est pas accessible par l’utilisateur TeamsOnly.*</ul> |
 |||
 
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Coexistence avec Skype Entreprise](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)
+[Coexistence avec Skype Entreprise](./coexistence-chat-calls-presence.md)
 
-[Expérience client Teams et conformité aux modes coexistence](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Expérience client Teams et conformité aux modes coexistence](./teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[Utilisation du service Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Utilisation du service Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

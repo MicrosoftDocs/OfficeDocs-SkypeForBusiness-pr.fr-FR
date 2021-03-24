@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: 6a8c3c842b47c4575779de4c0ae8301bededb632
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278544"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098300"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Comportement des applications Microsoft Teams pour les utilisateurs non standard
 
@@ -33,9 +33,9 @@ Cet article décrit le comportement des applications dans Teams lorsque des util
 - Un **utilisateur externe (fédéré)** appartient à un autre domaine et n’a pas accès aux équipes ou ressources d’équipe de votre organisation.
 
 >[!Note]
-> Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)
+> Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](./communicate-with-users-from-other-organizations.md)
 
-- Un **utilisateur anonyme est** un concept dans les réunions Teams où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou celui de son organisation.
+- Un **utilisateur anonyme est** un concept dans les réunions Teams où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou le compte de son organisation.
 
 ## <a name="guest-user-access"></a>Accès des utilisateurs invités
 
@@ -47,7 +47,7 @@ Les invités ne peuvent pas installer, mettre à jour ou supprimer des applicati
 
 Les invités peuvent utiliser une application si l’application a été installée par un utilisateur natif.
 
-Les robots peuvent envoyer un message de façon proactive aux utilisateurs invités, mais les invités ne peuvent pas interagir avec le robot. Les invités ne peuvent pas envoyer de message au bot 1:1, @ le mentionner ou interagir avec les cartes adaptatives qui communiquent avec le bot.
+Les robots peuvent envoyer un message de façon proactive aux utilisateurs invités, mais les invités ne peuvent pas interagir avec le robot. Les invités ne peuvent pas envoyer de message au bot 1:1, @mentionner le robot ou interagir avec des cartes adaptatives qui communiquent avec le bot.
 
 Les invités respecteront les stratégies d’autorisation globales et à l’échelle de l’organisation définies pour le client hôte pour n’importe quelle application. En d’autres termes, si une application est bloquée pour l’ensemble de l’organisation hôte, les invités ne peuvent pas non plus l’utiliser.
 
@@ -71,7 +71,7 @@ Les utilisateurs externes ne sont pas impactés par les stratégies d’applicat
 
 Les utilisateurs anonymes ne peuvent pas installer, mettre à jour ou supprimer des applications dans les réunions.
 
-### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation des utilisateurs anonymes
+### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs anonymes
 
 Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte.
 

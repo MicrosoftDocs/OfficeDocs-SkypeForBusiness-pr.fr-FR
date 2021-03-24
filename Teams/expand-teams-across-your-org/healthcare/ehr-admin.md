@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875174"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096278"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
@@ -57,7 +57,7 @@ Avant d’intégrer le connecteur DMI, vous devez vous assurer que vous disposez
 
 - Les organisations doivent avoir la version Epic de Novembre 2018 ou une version ultérieure.
 
-- Vos systèmes doivent respecter toutes les [conditions préalables navigateur et logiciels](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Vos systèmes doivent respecter toutes les [conditions préalables navigateur et logiciels](../../hardware-requirements-for-the-teams-app.md).
 
 Vous aurez également besoin des informations des membres suivants de votre organisation :
 
@@ -130,7 +130,7 @@ Une fois que vous avez suivi les étapes du connecteur DMI et vous avez effectu�
 
 ### <a name="virtual-visit-prerequisites"></a>Conditions préalables pour la visite virtuelle
 
-- Vos systèmes doivent respecter toutes les [conditions préalables navigateur et logiciels](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Vos systèmes doivent respecter toutes les [conditions préalables navigateur et logiciels](../../hardware-requirements-for-the-teams-app.md).
 
 - L'organisme de santé doit avoir terminé la configuration entre l'organisme Epic et l'organisme Microsoft 365.
 
@@ -175,4 +175,4 @@ Principales fonctionnalités de l’expérience du patient :
 
 L'intégration Teams dans les systèmes de DMI optimise la quantité de données utilisées et stockées pendant l'intégration et les flux de visites virtuelles. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
 
-Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams).
+Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).

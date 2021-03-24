@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Étude de cas Voix Teams pour une entreprise multinationale
+description: Étude de cas voix Teams pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a964075dfae514759309a81a7d7140cddd10220
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701222"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097490"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Étude de cas Contoso : Vue d’ensemble de la migration vocale Teams
 
@@ -30,7 +30,7 @@ Cet article présente une étude de cas sur la façon dont une entreprise multin
 
 Contoso a déployé Microsoft 365 Entreprise et a pris en compte les principales décisions de conception et les détails d’implémentation suivants : mise en réseau, identité, Windows 10 Entreprise, Office 365 ProPlus, gestion des appareils mobiles, protection des informations, sécurité, mise à niveau de Skype Entreprise vers Teams, système téléphonique et audioconférence.  
 
-Cet article explique comment Contoso a migré ses utilisateurs locaux vers Teams pour unifier la communication, la collaboration et la voix. Pour obtenir des informations de base sur l’accélération de la transformation numérique par Contoso à l’aide des services cloud de Microsoft, consultez tous les articles principaux, dont la vue d’ensemble de l’étude de cas [Contoso.](https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
+Cet article explique comment Contoso a migré ses utilisateurs locaux vers Teams pour unifier la communication, la collaboration et la voix. Pour obtenir des informations de base sur l’accélération de la transformation numérique par Contoso à l’aide des services cloud de Microsoft, consultez tous les articles principaux, dont la vue d’ensemble de l’étude de cas [Contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
 
 https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
@@ -55,7 +55,7 @@ Pour migrer leurs utilisateurs locaux vers Teams pour la communication unifiée,
 
 - Activer Teams 
 
-  L’équipe unifiée de communication et de collaboration de Contoso a permis à Teams d’avoir les stratégies correctes pour régir et activer la collaboration interne et externe sécurisée. 
+  L’équipe unifiée de communication et de collaboration de Contoso a permis à Teams de mettre en place les stratégies correctes pour régir et activer la collaboration interne et externe sécurisée. 
 
 - Mise à niveau de Skype Entreprise vers Teams 
 
@@ -63,11 +63,11 @@ Pour migrer leurs utilisateurs locaux vers Teams pour la communication unifiée,
 
 - Système téléphonique  
 
-  Skype Entreprise avec voix Entreprise a été largement déployé dans Contoso. Avec la nécessité de déplacer les systèmes hérités qui étaient le saut suivant pour leurs serveurs de médiation, Contoso a migré ses utilisateurs voix Skype Entreprise vers phone system. Les sites Contoso utilisaient le plan d’appels Microsoft, le routage direct du système téléphonique ou une combinaison des deux. Pour plus d’informations, [voir étude de cas Contoso : Phone System.](voice-case-study-phone-system.md)
+  Skype Entreprise avec voix Entreprise a été largement déployé dans Contoso. Avec la nécessité de déplacer les systèmes hérités qui étaient le prochain saut pour leurs serveurs de médiation, Contoso a migré ses utilisateurs Voix Entreprise Skype Entreprise vers Phone System. Les sites Contoso utilisaient le plan d’appels Microsoft, le routage direct du système téléphonique ou une combinaison des deux. Pour plus d’informations, [voir étude de cas Contoso : Phone System.](voice-case-study-phone-system.md)
 
 - Routage géodépendant 
 
-  Les emplacements de bureau dans les pays régulés par téléphone, Contoso devait recréer le routage Location-Based présent dans Skype Entreprise dans le cadre du déploiement de son système téléphonique. Pour plus d’informations, [voir étude de cas Contoso : Location-Based routage.](voice-case-study-location-based-routing.md)
+  Les emplacements de bureau dans les pays où la téléphonie est régulée, Contoso devait recréer le routage Location-Based présent dans Skype Entreprise dans le cadre du déploiement de son système téléphonique. Pour plus d’informations, [voir étude de cas Contoso : Location-Based routage.](voice-case-study-location-based-routing.md)
 
 - Appel d’urgence 
 
@@ -83,6 +83,4 @@ Pour migrer leurs utilisateurs locaux vers Teams pour la communication unifiée,
 
 - Attendants automatiques et files d’attente d’appels
 
-  Covid-19 souhaitait offrir un support à la réception alors que son personnel travaillait à distance. Contoso utilisait des files d’attente automatiques et des files d’attente pour gérer les appels entrants vers le numéro de téléphone de leur appelant. Pour plus d’informations, [voir l’étude de cas Contoso : Attendant automatiques et Files d’attente d’appels.](voice-case-study-call-queues.md)  
-
-
+  Covid-19 souhaitait offrir un support à la réception alors que son personnel travaillait à distance. Contoso utilisait des files d’attente automatiques et des files d’attente pour gérer les appels entrants vers le numéro de téléphone de leur appelant. Pour plus d’informations, [voir l’étude de cas Contoso : Attendant automatiques et Files d’attente d’appels.](voice-case-study-call-queues.md)

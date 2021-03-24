@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Pour qu’un utilisateur utilise le système téléphonique (PBX cloud), vous devez d’abord l’activer Voix Entreprise lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local alors que l’utilisateur est toujours dos au déploiement local.
-ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: b26e51ba316c63e0f992b843a7763586d7e9b575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359190"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098590"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Activer les utilisateurs pour Voix Entreprise sur site
  
 Pour qu’un utilisateur utilise le système téléphonique (PBX cloud), vous devez d’abord l’activer Voix Entreprise lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local alors que l’utilisateur est toujours dos au déploiement local.
 
 > [!Important]
-> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Pour activer un utilisateur pour Voix Entreprise local et affecter un numéro de téléphone
 
@@ -67,7 +67,7 @@ Dans certains cas, vous devrez peut-être modifier la façon dont vous activez l
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Si un utilisateur est déjà activé pour Skype Entreprise en local, mais qu’il n’a pas été activé pour Voix Entreprise ou qu’un lineURI n’a pas été affecté avant d’être déplacé vers Skype Entreprise Online, exécutez l’cmdlet suivante pour chaque utilisateur :
+- Si un utilisateur est déjà activé pour Skype Entreprise en local, mais qu’il n’a pas été activé pour Voix Entreprise ou si un LineURI lui a été affecté avant d’être déplacé vers Skype Entreprise Online, exécutez l’cmdlet suivante pour chaque utilisateur :
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
@@ -78,5 +78,3 @@ Dans certains cas, vous devrez peut-être modifier la façon dont vous activez l
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
-
-

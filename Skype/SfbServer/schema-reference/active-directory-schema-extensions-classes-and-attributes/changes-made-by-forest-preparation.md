@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Cette section décrit les paramètres globaux, les objets et les groupes de services universels et d’administration créés pendant la préparation de la forêt.
-ms.openlocfilehash: 4e8032cb91b012c710dc509708a813d55825f7a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098650"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Modifications apportées par la préparation de la forêt dans Skype Entreprise Server
 
@@ -70,7 +70,7 @@ Le tableau suivant présente les groupes de services.
 
 |**Groupe de services**|**Description**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |Inclut les comptes de service utilisés pour exécuter des serveurs frontaux et standard. Ce groupe permet aux serveurs d’accéder en lecture/écriture aux paramètres globaux de Skype Entreprise Server et aux objets utilisateur Active Directory.  <br/> |
+|RTCHSUniversalServices  <br/> |Inclut les comptes de service utilisés pour exécuter le serveur frontal et les serveurs Standard Edition Server. Ce groupe permet aux serveurs d’accéder en lecture/écriture aux paramètres globaux de Skype Entreprise Server et aux objets utilisateur Active Directory.  <br/> |
 |RTCComponentUniversalServices  <br/> |Inclut les comptes de service utilisés pour exécuter les serveurs de conférence A/V, les services Web, le serveur de médiation, le serveur d’archivage et le serveur de surveillance.  <br/> |
 |RTCProxyUniversalServices  <br/> |Inclut les comptes de service utilisés pour exécuter les serveurs Edge Skype Entreprise Server.  <br/> |
 |RTCUniversalConfigReplicator  <br/> |Inclut les serveurs qui peuvent participer à la réplication du magasin central de gestion de Skype Entreprise Server.  <br/> |
@@ -108,7 +108,7 @@ La préparation de forêt crée également les groupes de rôles RBAC (Contrôl
 
 - CsResponseGroupManager
 
-Pour plus d’informations sur les rôles RBAC et les tâches que chaque rôle est autorisé à effectuer, voir [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) dans la documentation de planification.
+Pour plus d’informations sur les rôles RBAC et les tâches que chaque rôle est autorisé à effectuer, voir [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) dans la documentation de planification.
 
 La préparation de la forêt crée des ace privées et publiques. Il crée des ace privées sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur Configuration, soit dans le conteneur système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux. Les ace publiques créées par la préparation de la forêt sont répertoriées dans le tableau suivant.
 
@@ -134,5 +134,3 @@ La préparation de la forêt exécute les tâches suivantes sur le conteneur de 
 - Ajoute **msRTCSIP-PrimaryUserAddress** sous l’attribut **extraColumns** de chaque spécificateur d’affichage des unités d’organisation de la langue (CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers, par exemple) et copie des valeurs de l’attribut **extraColumns** de l’affichage par défaut (CN=default-Display, CN=409,CN=DisplaySpecifiers, par exemple).
 
 - Ajoute les attributs de filtrage **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer** et **msRTCSIP-UserEnabled** sous l’attribut **attributeDisplayNames** de chaque spécificateur d’affichage de la langue pour les objets User, Contact et InetOrgPerson (par exemple, en anglais : CN=user-Display,CN=409,CN=DisplaySpecifiers).
-
-

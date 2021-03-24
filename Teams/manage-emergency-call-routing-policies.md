@@ -21,12 +21,12 @@ description: Découvrez comment utiliser et gérer les stratégies de routage de
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: f2e7ce7ee2557745f3819efc84dada77b4a70635
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804674"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096178"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies de routage d’appel d’urgence dans Microsoft Teams
 
@@ -50,8 +50,8 @@ Si vous avez affecté une stratégie de routage des appels d’urgence à un sit
     1. **Chaîne de numérotation d’urgence**: Entrer la chaîne de numérotation d’urgence. Cette chaîne de numérotation indique qu’un appel est un appel d’urgence.
         > [!NOTE]
         > Pour le routage direct, nous nous écartons des clients Teams qui envoient des appels d’urgence par un « + » devant la chaîne de numérotation d’urgence. Tant que la transition n’est pas terminée, le modèle d’itinéraire vocal qui correspond à une chaîne de numérotation d’urgence doit veiller à ce qu’une correspondance soit effectuée pour les chaînes qui ont et ne sont pas précédées d’un « + », comme le 911 et le +911. Par exemple, ^ \\ +?911 ou .*.
-    2. **Masque de numérotation** d’urgence : Pour chaque numéro de secours, vous pouvez spécifier un ou plusieurs masques de numérotation d’urgence. Un masque de numérotation est le numéro que vous voulez traduire en valeur de la chaîne de numérotation d’urgence. Cela permet d’appeler d’autres numéros d’urgence tout en permettant d’appeler les services d’urgence. <br>Par exemple, vous ajoutez le 112 comme masque de numérotation d’urgence, qui est le numéro de service d’urgence pour la plupart de l’Europe, et le 911 comme chaîne de numérotation d’urgence. Un utilisateur de Teams en Europe qui visite ne sait peut-être pas que le 911 est le numéro d’urgence aux États-Unis et quand il compose le 112, l’appel est effectué au 911. Pour définir plusieurs masques de numérotation, séparez les valeurs par un point-virgule. Par exemple, 112;212.
-    3. **Enregistrement d’utilisation PSTN**: sélectionnez l’enregistrement d’utilisation de réseau téléphonique commuté (PSTN). L’enregistrement d’utilisation PSTN permet de déterminer l’itinéraire utilisé pour router les appels d’urgence des utilisateurs autorisés à les utiliser. L’itinéraire associé à cette utilisation doit pointer vers une ligne SIP (Session Initiation Protocol) dédiée à des appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le point de réponse de sécurité publique (PUBLIC Safety Answering Point) le plus proche.
+    2. **Masque de numérotation** d’urgence : pour chaque numéro d’urgence, vous pouvez spécifier un ou plusieurs masques de numérotation d’urgence. Un masque de numérotation est le numéro que vous voulez traduire en valeur de la chaîne de numérotation d’urgence. Cela permet d’appeler d’autres numéros d’urgence tout en permettant d’appeler les services d’urgence. <br>Par exemple, vous ajoutez le chiffre 112 comme masque de numérotation d’urgence, qui est le numéro de service d’urgence pour la plupart de l’Europe, et le 911 comme chaîne de numérotation d’urgence. Un utilisateur de Teams en Europe qui visite ne sait peut-être pas que le 911 est le numéro d’urgence aux États-Unis et quand il compose le 112, l’appel est effectué au 911. Pour définir plusieurs masques de numérotation, séparez les valeurs par un point-virgule. Par exemple, 112;212.
+    3. **Enregistrement d’utilisation PSTN**: sélectionnez l’enregistrement d’utilisation de réseau téléphonique commuté (PSTN). L’enregistrement d’utilisation PSTN permet de déterminer l’itinéraire utilisé pour router les appels d’urgence des utilisateurs autorisés à les utiliser. L’itinéraire associé à cette utilisation doit pointer vers une ligne SIP (Session Initiation Protocol) dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le point de réponse de sécurité publique (PUBLIC Safety Answering Point) le plus proche.
 
     > [!NOTE]
     > Les chaînes de numérotation et masques de numérotation doivent être uniques dans une stratégie. Cela signifie que pour une stratégie, vous pouvez définir plusieurs numéros d’urgence et définir plusieurs masques de numérotation pour une chaîne de numérotation, mais chaque chaîne de numérotation et masque de numérotation ne doivent être utilisés qu’une seule fois.
@@ -60,7 +60,7 @@ Si vous avez affecté une stratégie de routage des appels d’urgence à un sit
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [New-CsTeamsEmergencyCallRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy)
+Voir [New-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/new-csteamsemergencycallroutingpolicy)
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>Modifier une stratégie de routage d’appel d’urgence
 
@@ -74,17 +74,17 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsTeamsEmergencyCallRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
+Voir [Set-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Affecter une stratégie de routage d’appel d’urgence personnalisée aux utilisateurs
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Voir également [Grant-CsTeamsEmergencyCallRoutingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)
+Voir également [Grant-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Affecter une stratégie de routage d’appel d’urgence personnalisée à un site réseau
 
-Utilisez la cmdlet [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) pour affecter une stratégie de routage des appels d’urgence à un site réseau.
+Utilisez la [cmdlet Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) pour affecter une stratégie de routage des appels d’urgence à un site réseau.
 
 Cet exemple montre comment affecter une stratégie appelée Stratégie de routage des appels d’urgence 1 sur le site Site1.
 
@@ -92,7 +92,7 @@ Cet exemple montre comment affecter une stratégie appelée Stratégie de routag
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les stratégies d’appel d’urgence dans Teams](manage-emergency-calling-policies.md)
 

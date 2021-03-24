@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Utilisez les procédures de cet article pour afficher, créer, modifier ou supprimer des profils de stratégie de bande passante réseau.
-ms.openlocfilehash: 69efe657b6df775b9e647a77bef2588cafdc5b03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816444"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096670"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion de profils de stratégie de bande passante réseau dans Skype Entreprise Server
 
@@ -41,7 +41,7 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de profil de stratégie de bande passante réseau à l’Windows PowerShell cmdlets
 
-Les profils de bande passante réseau peuvent être Windows PowerShell l'Get-CsNetworkBandwidthPolicyProfile cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les profils de bande passante réseau à l’Windows PowerShell l'Get-CsNetworkBandwidthPolicyProfile cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>Pour afficher les informations de profil de stratégie de bande passante réseau
@@ -61,7 +61,7 @@ Les profils de bande passante réseau peuvent être Windows PowerShell l'Get-CsN
         Description       :
 
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsNetworkBandwidthPolicyProfile.](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsNetworkBandwidthPolicyProfile.](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>Créer ou modifier des profils de stratégie de bande passante
@@ -144,12 +144,10 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 [Gestion du contrôle d’admission des appels pour les sites](managing-call-admission-control-for-sites.md)
  
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
 
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
 
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
-  
-
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les paramètres de configuration de réunion définissent le type de conférences (également appelées « événements de réunion » ) que les utilisateurs peuvent créer, et contrôlent comment (ou si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces conférences. Ces paramètres s’appliquent uniquement aux réunions planifiées. Elles ne s’appliquent pas aux réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: 260abc13f321111b26c70b4ca8a318c8c9a2d59b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 053378ef694a66413f11760be5f449cd21e6b764
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824794"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095968"
 ---
 # <a name="meeting-configuration"></a>Configuration de la réunion
 
@@ -65,6 +65,4 @@ La liste suivante décrit les champs de la page.
 
 - **Étendue** Identifie l’étendue de la configuration de réunion : globale, de site ou de pool.
 
-Pour plus d’informations sur l’utilisation des configurations de réunion, voir [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations sur l’utilisation des configurations de réunion, voir [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) dans la documentation des opérations.

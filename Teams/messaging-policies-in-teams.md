@@ -20,20 +20,20 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les stratégies de messagerie et comment elles peuvent être utilisées pour contrôler les messages dans Teams.
-ms.openlocfilehash: 050f072a2148be909dbaabd4ac8ab53c1e5bb298
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: f760fdf196bdeecf14e432445e619c968f66c081
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611658"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096118"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
 <!--- Add zone marker here--->
 
-Les stratégies de messagerie servent à contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs (propriétaires et [membres)](assign-roles-permissions.md) dans Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) créée automatiquement, ou créer et affecter des stratégies de messagerie personnalisées.
+Les stratégies de messagerie servent à contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs (propriétaires et [membres)](assign-roles-permissions.md) dans Microsoft Teams. Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) créée automatiquement ou créer et attribuer des stratégies de messagerie personnalisées.
 
-Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Vous pouvez modifier les paramètres de la stratégie globale ou créer et affecter une ou plusieurs stratégies personnalisées pour activer ou désactiver les fonctionnalités de votre souhaitez.
+Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Vous pouvez modifier les paramètres de la stratégie globale ou créer et affecter une ou plusieurs stratégies personnalisées pour activer ou désactiver les fonctionnalités de votre besoin.
 
 ## <a name="create-a-custom-messaging-policy"></a>Créer une stratégie de messagerie personnalisée
 
@@ -76,26 +76,26 @@ Un utilisateur ne peut avoir qu’une stratégie de messagerie à la fois.
 Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 
 - **Les propriétaires peuvent supprimer les messages envoyés**  Utilisez ce paramètre pour que les propriétaires suppriment les messages que les utilisateurs ont envoyés dans les discussions.
-- **Les utilisateurs peuvent supprimer les messages envoyés** Utilisez ce paramètre pour laisser les utilisateurs supprimer les messages qu’ils ont envoyés dans une conversation.
+- **Les utilisateurs peuvent supprimer les messages envoyés** Ce paramètre permet aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Les utilisateurs peuvent modifier les messages envoyés** Ce paramètre permet aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
 - **Read receipts** Les accusé de lecture permettent à l’expéditeur d’un message de conversation d’être informé lorsque son message a été lu par le destinataire dans les conversations de groupe de 1:1 à 20 personnes ou moins. Les messages de lecture sont supprimés de manière visuelle pour déterminer si un message a été lu ou non et améliorer la communication au niveau de l’équipe. Veuillez noter que les accusé de lecture ne sont pas capturés dans les rapports eDiscovery.  
-    - **Utilisateur contrôlé** Cela signifie que les utilisateurs peuvent décider s’ils souhaitent recevoir des reçus de lecture comme ils le souhaitent. Le paramètre par défaut dans l’application est sous l’option. Les utilisateurs peuvent ensuite le désactiver.
-    - **Pour tout le monde** Cela signifie que tous les personnes du client disposent de la fonctionnalité sans option pour la désactiver. N’ignorez pas  que lorsque vous utilisez le paramètre On pour tout le monde, la seule façon de définir des accusé de réception pour l’ensemble du client consiste soit à n’avoir qu’une stratégie de messagerie pour l’ensemble du client (la stratégie par défaut nommée « Global (par défaut à l’échelle de l’organisation) ») ou que toutes les stratégies de messagerie du client utilisent les mêmes paramètres pour les reçus. La fonctionnalité de lecture/accusé de réception est plus efficace lorsque la fonctionnalité est activée **pour tout le monde.**
+    - **Utilisateur contrôlé** Cela signifie que les utilisateurs peuvent décider s’ils souhaitent recevoir des accusés de lecture. Le paramètre par défaut dans l’application est sous l’option. Les utilisateurs peuvent ensuite le désactiver.
+    - **Pour tout le monde** Cela signifie que tous les personnes du client disposent de la fonctionnalité sans option pour la désactiver. N’ignorez pas  que lorsque vous utilisez le paramètre On pour tout le monde, la seule façon de définir des accusé de réception pour l’ensemble du client consiste soit à n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (la stratégie par défaut nommée « Global (par défaut à l’échelle de l’organisation) ») ou que toutes les stratégies de messagerie du client utilisent les mêmes paramètres pour les reçus. La fonctionnalité d’accusés de lecture est plus efficace lorsque la fonctionnalité est activée **Activé pour tout le monde**.
     - **Off pour tout le monde** Cela signifie que la fonctionnalité est désactivée et que personne au client n’a de reçu de lecture ni ne peut l’activer.
 <a name="bkchat"> </a>
 
 - **Conversation**  Activer ce paramètre si vous voulez que les utilisateurs de votre organisation puissent utiliser l’application Teams pour discuter avec d’autres personnes.
-- **Utiliser des Giphys dans les conversations**  Si vous l’activer, les utilisateurs peuvent inclure des Giphys dans les conversations avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. Notez qu’en plus d’activer ce paramètre, vous devez également activer les expériences connectées facultatives pour autoriser les Giphys dans les conversations. [](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences)
+- **Utiliser des Giphys dans les conversations**  Si vous l’allumez, les utilisateurs peuvent inclure des Giphys dans les conversations avec d’autres personnes. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu. Notez qu’en plus d’activer ce paramètre, vous devez également activer les expériences connectées facultatives pour autoriser les Giphys dans les conversations. [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences)
 - **Évaluation du contenu Giphy**
     - **Aucune restriction** Cela signifie que vos utilisateurs pourront insérer des Giphy dans les conversations, quel que soit l’évaluation du contenu.
     - **Modéré**  Cela signifie que vos utilisateurs pourront insérer des Giphys dans les conversations, mais que le contenu pour adultes sera modérément restreint.
     - **Strict**  Cela signifie que vos utilisateurs pourront insérer des Giphys dans les conversations, mais sont strictement limitées au contenu adulte.
-- **Utiliser des mèmes dans les conversations** Si vous activer cette fonction, les utilisateurs peuvent inclure des mèmes dans les conversations avec d’autres personnes.
+- **Utiliser des mèmes dans les conversations** Si vous l’activer, les utilisateurs peuvent inclure des mèmes dans les conversations avec d’autres personnes.
 - **Utiliser des autocollants dans les conversations** Si vous l’allumez, les utilisateurs peuvent inclure des autocollants dans les conversations avec d’autres personnes.
 - **Autoriser les aperçus d’URL** Utilisez ce paramètre pour activer ou désactiver la prévisualisation automatique des URL dans les messages.
 - **Autoriser les utilisateurs à traduire des messages** Activer ce paramètre pour que les utilisateurs traduisent automatiquement des messages Teams dans la langue spécifiée par leurs paramètres de langue personnels pour Microsoft 365 ou Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activer ce paramètre pour que les utilisateurs visualisent les messages dans le Lecteur immersif Microsoft. Le Lecteur immersif est un outil d’apprentissage qui offre une expérience de lecture plein écran pour améliorer la lisibilité du texte.
-- **Envoyer des messages urgents à l’aide de notifications de priorité** Si vous l’activer, les utilisateurs peuvent envoyer des messages à l’aide de [notifications de priorité.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) Les notifications de priorité informent les utilisateurs toutes les 2  minutes pendant une période de 20 minutes ou jusqu’à ce que les messages marqués comme urgents soient choisis et lus par le destinataire, ce qui permet de maximiser la probabilité qu’un message soit pris en compte dans un délai raisonnable.
+- **Envoyer des messages urgents à l’aide de notifications de priorité** Si vous l’activer, les utilisateurs peuvent envoyer des messages à l’aide de [notifications de priorité.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) Les notifications de priorité informent les utilisateurs toutes les 2  minutes pendant une période de 20 minutes ou jusqu’à ce que les messages marqués comme urgents soient choisis et lus par le destinataire, ce qui permet de maximiser la probabilité qu’un message soit lu en temps voulu.
 - **Création de messages audio** 
   > [!Important]
   > Les messages audio ne sont pas capturés dans les rapports eDiscovery.
@@ -109,7 +109,7 @@ Voici les paramètres de stratégie de messagerie que vous pouvez configurer.
 > [!NOTE]
 > Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Rubriques connexes
 
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
 - [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)

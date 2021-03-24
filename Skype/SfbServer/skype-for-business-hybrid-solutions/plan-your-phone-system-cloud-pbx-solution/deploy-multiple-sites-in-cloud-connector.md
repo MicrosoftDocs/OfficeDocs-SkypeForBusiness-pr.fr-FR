@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Découvrez le déploiement de plusieurs sites PSTN dans Cloud Connector Edition.
-ms.openlocfilehash: 3c777c54690b1eb31671f71cff915f1bb4854a0d
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358920"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098400"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
 
 > [!Important] 
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 Découvrez le déploiement de plusieurs sites PSTN dans Cloud Connector Edition.
   
@@ -34,7 +34,7 @@ Cette section décrit comment déployer plusieurs sites de réseau téléphoniqu
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Plusieurs sites de réseau téléphonique commuté (PSTN)
 
-Voici un exemple de configuration pour déployer Skype Entreprise, version Cloud Connector pour différents sites PSTN. Assurez-vous que vos paramètres de configuration sont corrects avant de commencer un déploiement.
+L’exemple suivant montre un exemple de configuration pour déployer Skype Entreprise, version Cloud Connector pour différents sites PSTN. Assurez-vous que vos paramètres de configuration sont corrects avant de commencer un déploiement.
   
 Site PSTN 1
   
@@ -72,7 +72,7 @@ ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
 ```
 
-Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de la procédure de déploiement d’un [site unique dans Cloud Connector.](deploy-a-single-site-in-cloud-connector.md)
+Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de déploiement d’un [site unique dans Cloud Connector.](deploy-a-single-site-in-cloud-connector.md)
   
 > [!IMPORTANT]
 > Le dossier partagé pour la préparation de la haute disponibilité (HA) est par site PSTN. Le dossier partagé **doit être** différent entre les sites PSTN. N’utilisez pas le même dossier partagé pour plusieurs sites.> 
@@ -90,14 +90,12 @@ Le tableau suivant répertorie les différences entre un site unique avec prise 
 |Configurer  <br/> |SIPDomains  <br/> |Les noms de domaine et l’ordre doivent être **les mêmes pour toutes les** appliances <br/> |Les noms de domaine et l’ordre doivent être **les mêmes** sur les sites PSTN <br/> |
 |Configurer  <br/> |Nom du site  <br/> |**Identique** Nom du site sur les appliances <br/> |**Différent** Nom du site sur les sites PSTN <br/> |
 |Configurer  <br/> |Noms de serveur  <br/> |**Différents d’une** appliances à l’autre <br/> |**Différents sites** PSTN <br/> |
-|Configurer  <br/> |FQDN du pool interne  <br/> |**Identique pour** toutes les appliances <br/> |**Identique sur** les sites PSTN <br/> |
+|Configurer  <br/> |FQDN de pool interne  <br/> |**Identique pour** toutes les appliances <br/> |**Identique sur** les sites PSTN <br/> |
 |Configurer  <br/> |IPs internes  <br/> |**Différents d’une** appliances à l’autre <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |FQDN externe  <br/> |**Identique pour** toutes les appliances <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |Fournisseurs d’IP externes  <br/> |**Différents d’une** appliances à l’autre <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |Paramètres PSTN GW  <br/> |**Identique pour** toutes les appliances <br/> |**Différents sites** PSTN <br/> |
-|Configurer  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec les **mêmes FQDN** d’accès externe et différentes **adresses** IP <br/> |Ajouter des enregistrements avec **différents** FQDN d’accès externe et **différentes adresses** IP <br/> |
+|Configurer  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec les **mêmes** FQDN d’accès externe et **différentes** adresses IP <br/> |Ajouter des enregistrements avec **différents** FQDN d’accès externe et **différentes adresses** IP <br/> |
 |Configuration  <br/> |Client hybride  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |
-|Configuration  <br/> |Passerelle  <br/> |Mappage **M:N MS** GW dans ce site <br/> |Les passerelles PSTN de chaque site PSTN doivent uniquement se connecter au(s) serveur(s) de médiation du même site  <br/> |
+|Configuration  <br/> |Passerelle  <br/> |Mappage **M:N MS** GW dans ce site <br/> |Les passerelles PSTN de chaque site PSTN doivent uniquement se connecter au(s) serveur(s) de médiation dans le même site  <br/> |
 |Configuration  <br/> |Utilisateur  <br/> |Définir UserPSTNSettings  <br/> |Définir UserPSTNSettings  <br/> |
-   
-

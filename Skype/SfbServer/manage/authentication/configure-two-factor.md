@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: a7c5b4489b6b39e924a85c5e99796044d892c11f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8651be3fbc07bb890637bc8d1c7c99a827d1ea1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814414"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096820"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs dans Skype Entreprise Server
 
@@ -30,11 +30,11 @@ Les sections suivantes décrivent les étapes nécessaires pour configurer l’a
 
 Les étapes suivantes décrivent comment configurer une ca racine d’entreprise pour prendre en charge l’authentification par carte à puce :
 
-Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, voir Installer une autorité de certification racine [d’entreprise.](https://go.microsoft.com/fwlink/p/?LinkID=313364)
+Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, voir Installer une autorité de certification racine [d’entreprise.](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))
 
-1. Connectez-vous à l’ordinateur de l’ac d’entreprise à l’aide d’un compte d’administrateur de domaine.
+1. Connectez-vous à l’ordinateur de l’ac entreprise à l’aide d’un compte d’administrateur de domaine.
 
-2. Lancez system Manager et vérifiez que le rôle d’inscription web de l’autorité de certification est installé.
+2. Lancez system manager et vérifiez que le rôle d’inscription web de l’autorité de certification est installé.
 
 3. Dans le menu **Outils d’administration,** ouvrez la console de gestion **de l’autorité** de certification.
 
@@ -106,17 +106,17 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
   CompMgmt.msc
   ```
 
-10. Dans la console gestion de l’ordinateur, sélectionnez **Gestion des périphériques.**
+10. Dans la console Gestion de l’ordinateur, sélectionnez **Gestion des périphériques.**
 
 11. Développez **les lecteurs de carte à puce.**
 
-12. Vérifiez que le nouveau lecteur de carte à puce virtuel a été créé avec succès.
+12. Vérifiez que le nouveau lecteur de carte à puce virtuel a bien été créé.
 
 ## <a name="enroll-users-for-smart-card-authentication"></a>Inscrire des utilisateurs pour l’authentification par carte à puce
 
 Il existe généralement deux méthodes pour inscrire des utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire en sorte que les utilisateurs s’inscrivent directement pour l’authentification par carte à puce à l’aide de l’inscription web, tandis que la méthode la plus complexe implique l’utilisation d’un agent d’inscription. Cette rubrique se concentre sur l’inscription automatique pour les certificats de carte à puce.
 
-Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir s’inscrire pour les certificats pour le compte [d’autres utilisateurs.](https://go.microsoft.com/fwlink/p/?LinkID=313367)
+Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir s’inscrire pour les certificats pour le compte [d’autres utilisateurs.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11))
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Pour inscrire des utilisateurs pour l’authentification par carte à puce
 
@@ -137,7 +137,7 @@ Pour plus d’informations sur l’inscription au nom des utilisateurs en tant q
 
 7. Sélectionnez **Utilisateur de carte à puce** sous la section Modèle **de** certificat et terminez la demande de certificat avancée avec les valeurs suivantes :
 
-  - **Les options clés** confirment qu’il suit les paramètres suivants :
+  - **Les options clés** confirment les paramètres suivants :
 
     - Sélectionnez la **bouton d’radio Créer un jeu de** touches
 
@@ -155,7 +155,7 @@ Pour plus d’informations sur l’inscription au nom des utilisateurs en tant q
 
     - For **Request Format** select **CMC**.
 
-    - Pour **l’algorithme de** hachage, **sélectionnez sha1**.
+    - Pour **l’algorithme de hachage,** **sélectionnez sha1**.
 
     - For **Friendly Name** enterSmardcard Certificate.
 
@@ -179,7 +179,7 @@ Pour plus d’informations sur l’inscription au nom des utilisateurs en tant q
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Configurer les services de fédération Active Directory (AD FS 2.0)
 
-La section suivante décrit comment configurer les services de fédération Active Directory (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2.0, voir [AD FS 2.0 Step-by-Step and How To Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).
+La section suivante décrit comment configurer les services de fédération Active Directory (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2.0, voir [AD FS 2.0 Step-by-Step and How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
 
 > [!NOTE]
 > Lors de l’installation d’AD FS 2.0, n’utilisez pas le Gestionnaire de serveur Windows pour ajouter le rôle Services de fédération Active Directory. Téléchargez et installez plutôt le [package Active Directory Federation Services 2.0 RTW.](https://go.microsoft.com/fwlink/p/?LinkId=313375)
@@ -206,7 +206,7 @@ La section suivante décrit comment configurer les services de fédération Acti
 
 6. Développez **les relations**  >  **d’confiance des relations de confiance.**
 
-7. Vérifiez qu’une nouvelle confiance a été créée pour votre serveur Skype Entreprise.
+7. Vérifiez qu’une nouvelle relation d’confiance a été créée pour votre serveur Skype Entreprise.
 
 8. Créez et affectez une règle d’autorisation d’émission pour votre approbation de partie de confiance à l’Windows PowerShell en exécutant les commandes suivantes :
 
@@ -277,7 +277,7 @@ Il existe deux types d’authentification possibles qui peuvent être configuré
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Configuration de l’authentification passive Skype Entreprise Server
 
-La section suivante décrit comment configurer Skype Entreprise Server pour prendre en charge l’authentification passive. Une fois activé, les utilisateurs qui sont activés pour l’authentification à deux facteurs doivent utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour se connecter à l’aide du client Skype Entreprise.
+La section suivante décrit comment configurer Skype Entreprise Server pour prendre en charge l’authentification passive. Une fois l’authentification activée, les utilisateurs activés pour l’authentification à deux facteurs doivent utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour se connecter à l’aide du client Skype Entreprise.
 
 > [!NOTE]
 > Il est vivement recommandé que les clients activent l’authentification passive pour le serveur d’inscriptions et les services Web au niveau du service. Si l’authentification passive est activée pour le serveur d’inscriptions et les services Web au niveau global, elle entraîne probablement des échecs d’authentification à l’échelle de l’organisation pour les utilisateurs qui ne se sont pas signés avec le client de bureau pris en charge.
@@ -299,7 +299,7 @@ Les étapes suivantes décrivent comment créer une configuration de service web
   ```
 
     > [!CAUTION]
-    > La valeur du nom de domaine complet WsFedPassiveMetadataUri est le nom du service de fédération de votre serveur AD FS 2.0. La valeur Nom du service de fédération se trouve dans la console de gestion AD FS 2.0 en cliquant avec le bouton droit sur **Service** dans le volet de navigation, puis en sélectionnant Modifier les propriétés du **service** de fédération.
+    > La valeur du nom de domaine complet WsFedPassiveMetadataUri est le nom de service de fédération de votre serveur AD FS 2.0. La valeur Nom du service de fédération se trouve dans la console de gestion AD FS 2.0 en cliquant avec le bouton droit sur **Service** dans le volet de navigation, puis en sélectionnant Modifier les propriétés du **service** de fédération.
 
 4. Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :
 

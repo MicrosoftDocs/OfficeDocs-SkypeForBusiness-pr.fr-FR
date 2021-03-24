@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer les services vocaux du système téléphonique pour vos utilisateurs Skype Entreprise.
-ms.openlocfilehash: bbcf8b35d91015067943eec2cbe43525e952a7f7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569356"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098570"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Activation des utilisateurs pour la version en ligne de Voix Entreprise et de la messagerie vocale du Système téléphonique
  
 > [!Important]
-> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide [du routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide [du routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 Découvrez comment activer les services vocaux du système téléphonique pour vos utilisateurs Skype Entreprise.
   
@@ -45,7 +45,7 @@ Pour activer un utilisateur pour la voix et la messagerie vocale du système té
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
-1. Avant de commencer, vérifiez que le module Teams PowerShell est installé sur vos serveurs frontux. Si ce n’est pas le cas, installez-le en suivant les instructions de l’installation du [module Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Avant de commencer, vérifiez que le module Teams PowerShell est installé sur vos serveurs frontux. Si ce n’est pas le cas, installez-le en suivant les instructions de l’installation du [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Commencez Windows PowerShell en tant qu’administrateur.
     
@@ -98,11 +98,11 @@ Cette section décrit comment mettre à jour l’URI de ligne et le plan de num�
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Mettre à jour le plan de numérotation à l’aide d’Windows PowerShell cmdlets
 
-Vous pouvez affecter des plans de numérotation par utilisateur Windows PowerShell et l’cmdlet [Grant-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server 2015 ou d’une session distante de Windows PowerShell.
+Vous pouvez affecter des plans de numérotation par utilisateur Windows PowerShell et l’cmdlet [Grant-CsDialPlan.](/powershell/module/skype/grant-csdialplan?view=skype-ps) Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server 2015 ou d’une session distante de Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Pour affecter un plan de numérotation par utilisateur à un seul utilisateur
 
-- Utilisez [l’cmdlet Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour affecter le plan de numérotation par utilisateur RedmondDialPlan à l’utilisateur Ken Myer :
+- Utilisez [l’cmdlet Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) pour affecter le plan de numérotation par utilisateur RedmondDialPlan à l’utilisateur Ken Myer :
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -110,7 +110,7 @@ Vous pouvez affecter des plans de numérotation par utilisateur Windows PowerShe
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>Pour affecter un plan de numérotation par utilisateur à plusieurs utilisateurs
 
-- La commande suivante affecte le plan de numérotation par utilisateur RedmondDialPlan à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, consultez la documentation de l';cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
+- La commande suivante affecte le plan de numérotation par utilisateur RedmondDialPlan à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation de l';cmdlet [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) :
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -121,7 +121,7 @@ Vous pouvez affecter des plans de numérotation par utilisateur Windows PowerShe
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>Pour désattribuer un plan de numérotation par utilisateur
 
-- Utilisez [l’cmdlet Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour supprimer l’affectation d’un plan de numérotation par utilisateur précédemment affecté à Ken Myer. Une fois le plan de numérotation par utilisateur non attribué, Ken Myer est automatiquement géré à l’aide du plan de numérotation global ou du plan de numérotation d’étendue service affecté à son bureau d’enregistrement ou à sa passerelle PSTN. Un plan de numérotation d’étendue service est prioritaire sur le plan de numérotation global :
+- Utilisez [l’cmdlet Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) pour supprimer l’affectation d’un plan de numérotation par utilisateur précédemment affecté à Ken Myer. Une fois le plan de numérotation par utilisateur non attribué, Ken Myer est automatiquement géré à l’aide du plan de numérotation global ou du plan de numérotation d’étendue service affecté à son bureau d’enregistrement ou à sa passerelle PSTN. Un plan de numérotation d’étendue service est prioritaire sur le plan de numérotation global :
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -131,14 +131,14 @@ Vous pouvez affecter des plans de numérotation par utilisateur Windows PowerShe
 
 Cette section décrit comment mettre à jour les stratégies de routage des voix pour les utilisateurs activés pour le système téléphonique.
   
-Une stratégie de routage des voix doit être attribuée aux utilisateurs du système téléphonique pour que les appels se routent correctement. Cela diffère des utilisateurs de voix d’entreprise locaux qui requièrent qu’une stratégie de voix leur soit attribuée pour permettre aux appels d’être acheminés correctement. La stratégie de routage des voix doit contenir des utilisations PSTN qui définissent les appels et itinéraires autorisés pour les utilisateurs du système téléphonique. Vous pouvez copier ces utilisations PSTN des stratégies de voix existantes vers les nouvelles stratégies de routage des voix. Pour plus d’informations, [voir New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Une stratégie de routage des voix doit être attribuée aux utilisateurs du système téléphonique pour que les appels se routent correctement. Cela diffère des utilisateurs de voix d’entreprise locaux qui ont besoin d’être affectés à une stratégie de voix pour permettre aux appels d’être acheminés correctement. La stratégie de routage des voix doit contenir des utilisations PSTN qui définissent les appels et itinéraires autorisés pour les utilisateurs du système téléphonique. Vous pouvez copier ces utilisations PSTN des stratégies de voix existantes vers les nouvelles stratégies de routage des voix. Pour plus d’informations, [voir New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > Tous les utilisateurs du système téléphonique se voit attribuer la même stratégie de voix en ligne nommée BusinessVoice qui définit les fonctionnalités d’appel autorisées . par exemple, Autoriser l’anneau simultané. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Pour affecter une stratégie de routage des voix par utilisateur à un seul utilisateur
 
-- Utilisez l’cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage des voix par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer :
+- Utilisez [l’cmdlet Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage des voix par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer :
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -146,7 +146,7 @@ Une stratégie de routage des voix doit être attribuée aux utilisateurs du sys
 
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>Pour affecter une stratégie de routage des voix par utilisateur à plusieurs utilisateurs
 
-- La commande suivante affecte la stratégie de routage des voix par utilisateur RedmondVoiceRoutingPolicy à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- La commande suivante affecte la stratégie de routage des voix par utilisateur RedmondVoiceRoutingPolicy à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -163,6 +163,4 @@ Une stratégie de routage des voix doit être attribuée aux utilisateurs du sys
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Pour plus d’informations, [voir Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
-    
-
+    Pour plus d’informations, [voir Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).

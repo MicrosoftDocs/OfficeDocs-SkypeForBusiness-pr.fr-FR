@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: 6544586071f1107537232a117de196dfbffeb4aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827950"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096746"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server.
   
-Les utilisateurs de Skype Entreprise Server qui ont des informations d’identification des services de domaine Active Directory (AD DS) dans votre organisation peuvent participer à des conférences téléphoniques en tant qu’utilisateurs authentifiés à l’aide d’un code confidentiel. La stratégie de code confidentiel définit les règles de fonctionnement des code confidentiels des conférences téléphoniques.
+Les utilisateurs Skype Entreprise Server qui ont des informations d’identification des services de domaine Active Directory (AD DS) dans votre organisation peuvent participer à des conférences téléphoniques en tant qu’utilisateurs authentifiés à l’aide d’un code confidentiel. La stratégie de code confidentiel définit les règles de fonctionnement des code confidentiels des conférences téléphoniques.
   
  Si vous souhaitez utiliser la même stratégie de code confidentiel pour l’ensemble de votre organisation, vous pouvez utiliser la stratégie de code confidentiel globale et la modifier selon vos besoins. La stratégie d’authentification par code confidentiel globale définit les règles des codes confidentiels pour les conférences rendez-vous au niveau forêt. Vous pouvez modifier la stratégie de code confidentiel globale, mais vous ne pouvez pas la supprimer.
   
@@ -53,7 +53,7 @@ Pour afficher des informations sur les stratégies de code confidentiel, utilise
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-Pour plus d’informations, notamment une description complète de la syntaxe et la liste des paramètres, voir [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
+Pour plus d’informations, notamment une description complète de la syntaxe et la liste des paramètres, voir [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>Modifier la stratégie de code confidentiel globale
 
@@ -98,7 +98,7 @@ La commande suivante modifie la valeur de MinPasswordLength pour toutes les stra
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Créer une stratégie de code confidentiel d’utilisateur ou de site
 
@@ -149,7 +149,7 @@ La commande suivante crée une stratégie de code confidentiel avec l’identit�
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
+ Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Modifier une stratégie de code confidentiel d’utilisateur ou de site
 
@@ -179,7 +179,7 @@ La commande suivante modifie la stratégie de code confidentiel attribuée au si
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Supprimer une stratégie de code confidentiel d’utilisateur ou de site
 
@@ -205,6 +205,4 @@ La commande suivante supprime toutes les stratégies de code confidentiel qui on
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
-  
-
+Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps).

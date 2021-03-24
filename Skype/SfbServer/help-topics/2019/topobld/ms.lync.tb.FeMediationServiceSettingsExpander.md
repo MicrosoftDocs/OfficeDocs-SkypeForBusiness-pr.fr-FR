@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour le serveur de médiation, vous pouvez spécifier les données suivantes :'
-ms.openlocfilehash: b3b22cfbe4b85a237dfffbce1c22da3abde75f57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e3593fd98c9207b6dd7033e5aac26170988ae956
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819504"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096900"
 ---
 # <a name="mediation-service-settings-expander"></a>Expandeur des paramètres du service de médiation
 
@@ -34,6 +34,4 @@ Vous définissez les passerelles PSTN qui sont associées au serveur de médiati
 
 Si plusieurs passerelles sont associées à un serveur de médiation, la première passerelle associée sera la passerelle par défaut. Si vous devez choisir une autre passerelle comme passerelle par défaut, sélectionnez la passerelle que vous souhaitez utiliser par défaut, puis cliquez sur **Utiliser par défaut**. Pour désélectionner la passerelle par défaut, cliquez sur **Annuler Par défaut**.
 
-Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal Enterprise Edition ou du serveur Standard Edition, voir [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
-
-
+Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal Enterprise Edition ou du serveur Standard Edition, voir [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) and [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
