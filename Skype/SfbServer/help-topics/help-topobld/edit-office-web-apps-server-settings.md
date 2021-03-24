@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Vous modifiez les propriétés d’Office Web Apps Server configuré. Les propriétés suivantes peuvent être modifiées :'
-ms.openlocfilehash: 11e70f61c2eee33ab19ec0fa0b2f9fb3310a4542
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e9f4a188c5cb58be685db4ea44157f2897ebe5ba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810304"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095538"
 ---
-# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="6d908-104">Modifier les paramètres Office Web Apps Server</span><span class="sxs-lookup"><span data-stu-id="6d908-104">Edit Office Web Apps Server Settings</span></span>
+# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="e8c4d-104">Modifier les paramètres Office Web Apps Server</span><span class="sxs-lookup"><span data-stu-id="e8c4d-104">Edit Office Web Apps Server Settings</span></span>
 
-<span data-ttu-id="6d908-105">Vous modifiez les propriétés d’Office Web Apps Server configuré.</span><span class="sxs-lookup"><span data-stu-id="6d908-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="6d908-106">Les propriétés suivantes peuvent être modifiées :</span><span class="sxs-lookup"><span data-stu-id="6d908-106">The following properties are available to edit:</span></span>
+<span data-ttu-id="e8c4d-105">Vous modifiez les propriétés d’Office Web Apps Server configuré.</span><span class="sxs-lookup"><span data-stu-id="e8c4d-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="e8c4d-106">Les propriétés suivantes peuvent être modifiées :</span><span class="sxs-lookup"><span data-stu-id="e8c4d-106">The following properties are available to edit:</span></span>
 
- <span data-ttu-id="6d908-107">Nom de domaine complet **Office Web Apps Server**: cette propriété définit le nom de domaine complet du serveur Office Web Apps Server et doit correspondre à un enregistrement A ou AAAA (si IPv6 est utilisé) d’hôte DNS (domain name system).</span><span class="sxs-lookup"><span data-stu-id="6d908-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
+ <span data-ttu-id="e8c4d-107">Nom de domaine complet **(FQDN) d’Office Web Apps Server**: cette propriété définit le nom de domaine complet d’Office Web Apps Server et doit correspondre à un enregistrement A ou AAAA (si IPv6 est utilisé) d’hôte DNS (domain name system).</span><span class="sxs-lookup"><span data-stu-id="e8c4d-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
 
- <span data-ttu-id="6d908-108">**URL** de découverte Office Web Apps Server : URL (Uniform Resource Locator) pour l’accès client au serveur Office Web Apps Server, vous devrez peut-être modifier cette adresse par défaut si le serveur est placé dans une autre zone réseau que le réseau interne pour votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="6d908-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
+ <span data-ttu-id="e8c4d-108">**URL** de découverte Office Web Apps Server : URL (Uniform Resource Locator) pour l’accès client à Office Web Apps Server, vous devrez peut-être modifier cette adresse par défaut si le serveur est placé dans une autre zone réseau que le réseau interne pour votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="e8c4d-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
 
-<span data-ttu-id="6d908-109">Activez la case à cocher **Le serveur Office Web Apps Server est déployé sur un réseau externe (périmètre/Internet)** si le serveur est déployé dans le réseau de votre périmètre ou dans une autre zone réseau qui se situe à l’extérieur de votre pare-feu interne séparant le réseau de périmètre, les réseaux moyennement fiables et Internet de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="6d908-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
+<span data-ttu-id="e8c4d-109">Activez la case à cocher **Le serveur Office Web Apps Server est déployé sur un réseau externe (périmètre/Internet)** si le serveur est déployé dans le réseau de votre périmètre ou dans une autre zone réseau qui se situe à l’extérieur de votre pare-feu interne séparant le réseau de périmètre, les réseaux moyennement fiables et Internet de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="e8c4d-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
 
 ![Expandeur des paramètres Office Web Apps](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="6d908-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6d908-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e8c4d-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e8c4d-111">See also</span></span>
 
-[<span data-ttu-id="6d908-112">Composants et topologies pour les conférences</span><span class="sxs-lookup"><span data-stu-id="6d908-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[<span data-ttu-id="e8c4d-112">Composants et topologies pour les conférences</span><span class="sxs-lookup"><span data-stu-id="e8c4d-112">Components and Topologies for Conferencing</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)
