@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90542f680c1d3992f5f318bfedad8a12470d282b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0585f0ad829f19334d5a970461f1f3248a107e9d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820944"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115552"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Mettre à niveau à partir d’un déploiement Skype Entreprise local vers Teams
 
-![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
+![Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre parcours vers la mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
-- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Étendue définie de votre projet](./upgrade-define-project-scope.md)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Conduite d’un pilote](https://aka.ms/SkypeToTeams-Pilot)
+- [Préparé votre environnement](./upgrade-prepare-environment.md)
+- [Préparé votre organisation](./upgrade-prepare-organization.md)
+- [Conduite d’un pilote](./pilot-essentials.md)
 
 Si vous avez déployé Skype Entreprise ou Microsoft Lync en local et que votre organisation souhaite mettre à niveau vers Microsoft Teams de manière sélective (à l’aide de plusieurs modes de coexistence), suivez les instructions de cet article. 
 
@@ -50,7 +50,7 @@ Si vous avez déployé Skype Entreprise ou Microsoft Lync en local et que votre 
 
 La principale condition préalable pour la mise à niveau de vos utilisateurs vers Teams consiste à déployer la connectivité hybride.
 
-Pour plus d’informations, [consultez Déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+Pour plus d’informations, [voir Déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Étape 2 : mettre en œuvre le chemin de mise à niveau que vous avez choisi pour votre organisation
 
@@ -68,4 +68,4 @@ La transition des systèmes téléphoniques locaux vers Teams vous permet de tir
 
 Si vous n’utilisez pas de forfaits d’appels, vous devez transition votre déploiement vocal d’entreprise vers le routage direct du système téléphonique dans le cadre de votre mise à niveau vers Teams.
 
-Pour plus d’informations, voir [d’autres considérations concernant le routage direct du](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)système téléphonique. Si vous envisagez d’utiliser des forfaits d’appels, consultez nos recommandations pour le transfert de vos numéros [de téléphone vers Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Pour plus d’informations, voir [d’autres considérations concernant le routage direct du](./direct-routing-landing-page.md)système téléphonique. Si vous envisagez d’utiliser des forfaits d’appels, consultez nos recommandations pour le transfert de vos numéros [de téléphone vers Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

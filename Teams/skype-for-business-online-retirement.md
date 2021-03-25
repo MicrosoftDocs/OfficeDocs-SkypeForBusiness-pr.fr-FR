@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 8eac7d39835abdb05ee86be47504c3f9fecc7022
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117012"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -33,9 +33,9 @@ En juillet 2019, nous avons annoncé que Skype Entreprise Online sera retiré le
 
 Depuis son introduction, Skype Entreprise Online est un outil précieux pour des millions de personnes dans le monde entier. En combinant la messagerie instantanée, les appels et la vidéo dans une application, Skype Entreprise Online établit de nouvelles possibilités pour les communications d’entreprise. Microsoft Teams est le prochain chapitre de cette vision.
 
-Les fonctionnalités de Microsoft Teams vont au-delà de celles de Skype Entreprise Online. En combinant les discussions, la vidéo, les appels, la collaboration sur les documents et l’intégration des applications dans une expérience unique, Teams permet d’activer entièrement le mode de travail des actualités. L’innovation et le développement continus sur les plateformes signifient que les utilisateurs de Teams profitent de performances, fonctionnalités, flexibilité et sécurité plus riches.
+Les fonctionnalités de Microsoft Teams vont au-delà de celles de Skype Entreprise Online. En combinant les discussions, la vidéo, les appels, la collaboration sur les documents et l’intégration des applications dans une expérience unique, Teams offre un mode de travail entièrement nouveau. L’innovation et le développement continus sur les plateformes signifient que les utilisateurs de Teams profitent de performances, fonctionnalités, flexibilité et sécurité plus riches.
 
-Teams n’est pas seulement une mise à niveau de Skype Entreprise Online, mais il s’agit d’un outil puissant qui permet aux entreprises, aux établissements d’enseignement et aux organisations de devenir plus agiles et d’améliorer l’efficacité des flux de travail clés. Apprenez-en davantage sur les avantages potentiels de Teams pour votre organisation dans le livre blanc Sur l’impact économique [total ™ de Microsoft Teams.](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)
+Teams n’est pas seulement une mise à niveau de Skype Entreprise Online, mais il s’agit d’un outil puissant qui permet aux entreprises, aux établissements d’enseignement et aux organisations de devenir plus agiles et d’améliorer l’efficacité des flux de travail clés. Pour plus d’informations sur les avantages potentiels de Teams pour votre organisation, découvrez le livre blanc Qu’il s’agit de l’impact économique [total ™ de Microsoft Teams.](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)
 
 
 ## <a name="what-does-this-mean-for-skype-for-business-customers"></a>Qu’est-ce que cela signifie pour les clients Skype Entreprise ?
@@ -58,11 +58,11 @@ Tirez parti des nombreuses ressources disponibles pour vous aider à planifier l
 
 - [FastTrack pour Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Assistance au déploiement de Teams disponible pour les plans éligibles.
 
-- [Formation en direct Teams](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page) – Cours de formation en ligne gratuits conçus pour vous aider, ainsi que vos utilisateurs finaux, à prendre en compte Teams.
+- [Formation en direct Teams](./instructor-led-training-teams-landing-page.yml) – Cours de formation en ligne gratuits conçus pour vous aider, vous et vos utilisateurs finaux, à être opérationnels avec Teams.
 
-- [Teams Chalk Talks](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page) : ateliers en ligne gratuits pour les professionnels de l’informatique et les décideurs qui partagent les meilleures pratiques pour certains des scénarios les plus populaires et attrayants dans Teams.
+- [Teams Chalk Talks](./chalk-talks-landing-page.yml) : ateliers en ligne gratuits pour les professionnels de l’informatique et les décideurs qui partagent les meilleures pratiques pour certains des scénarios les plus populaires et attrayants dans Teams.
 
-- Ateliers de [planification](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) de la mise à niveau teams – Ateliers de planification de mise à niveau interactifs gratuits, dans lequel vous recevrez des recommandations, des pratiques et des ressources destinées à vous aider à planifier et à implémenter votre mise à niveau vers Teams.
+- Ateliers de [planification](./upgrade-workshops-landing-page.yml) de la mise à niveau teams – Ateliers de planification de la mise à niveau interactifs gratuits, dans lequel vous recevrez des conseils, des pratiques et des ressources destinées à vous aider à planifier et à implémenter votre mise à niveau vers Teams.
 
 - [Partenaires Microsoft](https://www.microsoft.com/solution-providers/home) : les fournisseurs de solutions Microsoft peuvent vous aider à tirer pleinement parti de Teams.
 
@@ -96,15 +96,12 @@ Teams est disponible dans de nombreuses suites Microsoft 365. Les fonctionnalit�
 **Microsoft prévoit-il des planifications de mise à niveau ?**<br>
 Actuellement, nous n'avons prévu aucun plan de mise à niveau pour les entreprises. Les clients peuvent choisir de passer à Teams si cela est utile pour leur organisation avant la date de retrait de Skype Entreprise Online, le 31 juillet 2021. Nous fournirons aux administrateurs et aux utilisateurs des outils et des instructions pour les aider à effectuer la transition vers Teams.
 
-Pour prendre en charge les clients plus petits qui ne disposent peut-être pas de ressources dédiées, Microsoft aide à la mise à niveau automatisée de Skype Entreprise Online vers Teams. Les clients éligibles sont avertis de la mise à niveau par le biais d’e-mails et de notifications du Centre de messages. Des informations plus détaillées sont fournies dans les communications. Pour plus d’informations, voir [Mises à niveau automatisées de Skype Entreprise Online vers Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-automated).
+Pour prendre en charge les clients plus petits qui ne disposent peut-être pas de ressources dédiées, Microsoft aide à la mise à niveau automatisée de Skype Entreprise Online vers Teams. Les clients éligibles sont avertis de la mise à niveau par le biais d’e-mails et de notifications du Centre de messages. Des informations plus détaillées sont fournies dans les communications. Pour plus d’informations, voir [Mises à niveau automatisées de Skype Entreprise Online vers Microsoft Teams](./upgrade-automated.md).
 
 **Comment l’annonce du retrait de Skype Entreprise Online affecte-t-elle les organisations qui disposent de configurations hybrides (Skype Entreprise Online et Skype Entreprise Server) ?**<br>
 Les clients hybrides disposant de configurations en ligne et locale seront obligés de migrer les utilisateurs de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Les trajectoires de mise à niveau pour les configurations hybrides basées sur les principes de coexistence et d’interopérabilité sont conservées après le retrait de Skype Entreprise Online. Pour plus d’informations, accédez à la rubrique [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md) et [Comprendre la coexistence et l'interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 **Comment le retrait de Skype Entreprise Online affectera-t-il les organisations ayant des configurations Skype Entreprise hybrides pour une connectivité réseau téléphonique commuté (PSTN) locale et des fonctionnalités de système téléphonique en ligne ?**<br>
-Certaines organisations ont fractionner les utilisateurs entre un site d’accueil pour la connectivité PSTN et des fonctionnalités de système téléphonique en ligne. Une fois l’accès à Skype Entreprise Online terminé, les organisations doivent passer des utilisateurs en ligne à Microsoft Teams et connecter leur réseau téléphonique local à Teams via un [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+Certaines organisations ont fractionner les utilisateurs entre un site d’accueil pour la connectivité PSTN et des fonctionnalités de système téléphonique en ligne. Une fois l’accès à Skype Entreprise Online terminé, les organisations doivent passer des utilisateurs en ligne à Microsoft Teams et connecter leur réseau téléphonique local à Teams via un [routage direct.](./direct-routing-landing-page.md)
 
 Les clients disposant d’un abonnement éligible sont encouragés à s’engager avec [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) pour l’assistance technique de Teams.
-
-
-

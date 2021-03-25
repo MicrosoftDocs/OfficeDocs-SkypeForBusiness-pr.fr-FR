@@ -16,12 +16,12 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement des barres de collaboration pour Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0cb8043e0530c986b9ddcaa9a1022254939adfd2
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268028"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115602"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Créer un compte de ressources Microsoft 365 à l’aide de PowerShell
 
@@ -42,7 +42,7 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
 
 ### <a name="add-a-resource-account"></a>Ajouter un compte de ressource
 
-1. Connectez-vous à Exchange Online PowerShell. Pour obtenir des instructions, [voir Se connecter à Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. Connectez-vous à Exchange Online PowerShell. Pour obtenir des instructions, [voir Se connecter à Exchange Online PowerShell.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 2. Dans Exchange Online PowerShell, créez une boîte aux lettres de salle ou modifiez une boîte aux lettres de salle existante.
 
@@ -78,10 +78,10 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
+   Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 
-3. Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de la salle pour améliorer l’expérience de réunion :
+3. Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
 
    - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention humaine : libre = accepter ; occupé = refus.)
 
@@ -91,11 +91,11 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Cette salle dispose d’une barre de collaboration pour Microsoft Teams ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
+   - Réponse supplémentaire : « Cette salle possède une barre de collaboration pour Microsoft Teams ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
 
    Cet exemple configure ces paramètres dans la boîte aux lettres de salle nommée Bldle-Room-01.
 
@@ -103,12 +103,12 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
    Set-CalendarProcessing -Identity "Huddle-Room-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This room has a collaboration bar for Microsoft Teams!"
    ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Connectez-vous à MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell.   Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. Connectez-vous à MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell.   Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0 n’est](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge. 
+   > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge. 
 
 5. Définissez le mot de passe huddleroom01@contoso.onmicrosoft.com ne pas expirer en utilisant la syntaxe suivante :
 
@@ -128,7 +128,7 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 
 
@@ -138,5 +138,3 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
 [Déployer des barres de collaboration pour Microsoft Teams](collab-bar-deploy.md)
 
 [Barres de collaboration pour la gestion des licences Microsoft Teams](../rooms/rooms-licensing.md)
-
-

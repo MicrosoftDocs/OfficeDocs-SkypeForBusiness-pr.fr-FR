@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8c929eefb8aad83ee4a838b51cb39da6749221
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821064"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116886"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
@@ -34,7 +34,7 @@ Assurez-vous de recevoir les signaux de votre service et de vos employés en sui
 
 ## <a name="incorporating-feedback"></a>Intégration des commentaires 
 
-Au cours de votre phase d’expérimentation, vous allez capturer des informations sur la façon dont les personnes ont utilisé le produit et leur expérience. Utilisez ces informations maintenant pour ajuster vos programmes de sensibilisation et de formation lorsque vous prévoyez de développer son utilisation au sein de vos unités commerciales. Voici quelques exemples courants de questions :
+Au cours de votre phase d’expérimentation, vous allez capturer des informations sur la façon dont les utilisateurs ont utilisé le produit et leur expérience. Utilisez ces informations maintenant pour ajuster vos programmes de sensibilisation et de formation lorsque vous prévoyez de développer son utilisation au sein de vos unités commerciales. Voici quelques exemples courants de questions :
 
 - Quand dois-je utiliser ce nouvel outil en même temps que ma technologie existante ?
 - Qui est autorisé à utiliser cet outil avec moi ?
@@ -44,9 +44,9 @@ Au cours de votre phase d’expérimentation, vous allez capturer des informatio
 
 ## <a name="invest-in-your-champions"></a>Investir dans vos champions
 
-Lorsque vous vous préparez à mettre à l’échelle votre utilisation de Microsoft Teams, recrutez des champions supplémentaires dans chaque unité d’entreprise ou groupe que vous développez. Inscrivez ces personnes particulièrement spécialisées à votre programme de formation et standardisez les procédures et le moment de leur rencontre.
+Lorsque vous vous préparez à mettre à l’échelle votre utilisation de Microsoft Teams, recrutez des champions supplémentaires dans chaque unité d’entreprise ou groupe que vous développez. Inscrivez ces personnes particulièrement spécialisées à votre programme de formation sur les services et standardisez les rencontres.
  
-Soyez clair dans la conception de votre programme Champions, ce que vos employés vont obtenir et ce qu’ils sont censés donner s’ils deviennent des champions. Les exigences courantes relatives aux programmes sont la planification des heures d’ouverture des bureaux, la participation à des appels communautaires mensuels et la participation à des communautés en ligne internes pour prendre en charge votre transition vers ces nouvelles expériences.  
+Soyez clairement dans la conception du programme Champions, ce que vos employés vont obtenir et ce qu’ils sont censés donner s’ils deviennent des champions. Les exigences courantes relatives aux programmes sont la planification des heures d’ouverture des bureaux, la participation à des appels communautaires mensuels et la participation à des communautés en ligne internes pour prendre en charge votre transition vers ces nouvelles expériences.  
 
 Meilleure pratique : Organisez une réunion Teams mensuelle pour vos champions internes. Fractionner votre agenda entre l’enseignement des nouvelles fonctionnalités, la réponse aux commentaires et la fourniture d’outils en libre-service pour la communauté de vos employés.
 
@@ -57,7 +57,7 @@ Meilleure pratique : Avoir des représentants de votre service de support intern
 Vous devez examiner trois types de rapports à mesure que vous déployez et adoptez Microsoft Teams :
 
 - [État du](https://status.office365.com/) service : microsoft 365, Office 365 et votre service de support informatique interne.
-- Rapports [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) dans le Centre d’administration : à partir de Microsoft 365 ou Office 365 afficher les rapports [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)dans le Centre d’administration - Activité de l’utilisateur sur Microsoft Teams. Vous pouvez également utiliser des informations provenant d’autres systèmes au sein de votre organisation.
-- Satisfaction des services – Résultats issus de forums de la communauté interne et d’enquêtes sur des expériences spécifiques
+- Rapports [Microsoft 365](/microsoft-365/admin/activity-reports/activity-reports) dans le Centre d’administration : à partir de Microsoft 365 ou Office 365 afficher les rapports [Microsoft 365](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)dans le Centre d’administration - Activité de l’utilisateur sur Microsoft Teams. Vous pouvez également utiliser des informations provenant d’autres systèmes au sein de votre organisation.
+- Satisfaction du service – Résultats issus de forums de la communauté interne et d’enquêtes sur des expériences spécifiques
 
-![Icône représentant l’étape suivante : sensibilisation et ](media/teams-adoption-next-icon.png) mise en œuvre de la [formation](teams-adoption-drive-awareness.md)
+![Icône représentant l’étape suivante : sensibilisation et mise en ](media/teams-adoption-next-icon.png) [œuvre de la formation](teams-adoption-drive-awareness.md)

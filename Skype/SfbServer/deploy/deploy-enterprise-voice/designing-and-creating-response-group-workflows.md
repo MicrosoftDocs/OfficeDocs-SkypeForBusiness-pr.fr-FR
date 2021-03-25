@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Concevez et créez des flux de travail Response Group dans Skype Entreprise Server Voix Entreprise. Les flux de travail de groupe de recherche et les flux de travail interactifs sont abordés.
-ms.openlocfilehash: 3ebd5f2705547aa96a9ebfcc6857781ef25854b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831034"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105780"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Conception et création de flux de travail Response Group dans Skype Entreprise
 
@@ -51,7 +51,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
     > [!NOTE]
     > L’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https:// \<webPoolFqdn\> /RgsConfig.
 
-6. Effectuez l’une des opérations suivantes :
+6. Effectuez l'une des opérations suivantes :
 
    - Sous **Créer un flux de travail**, en regard de **Groupe de recherche**, cliquez sur **Créer**.
 
@@ -65,7 +65,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
 8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également avoir une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
 
     > [!NOTE]
-    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération response group à l’aide du Panneau de configuration Skype Entreprise Server ou à l’aide de l’cmdlet **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils se voient affectés un site ou une stratégie utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application de stratégies à des utilisateurs, voir [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération response group à l’aide du Panneau de configuration Skype Entreprise Server ou à l’aide de l’cmdlet **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils se voient affectés un site ou une stratégie utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application de stratégies à des utilisateurs, voir [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Pour plus d’informations sur le paramètre de fédération, voir [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Les utilisateurs hébergés dans Skype Entreprise Online ne peuvent pas appeler des groupes Response Groups hébergés dans un déploiement local. Cela est vrai dans les déploiements hybrides et dans les cas où un déploiement local est fédéré avec un déploiement Skype Entreprise Online.
@@ -112,7 +112,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
     - Pour utiliser un enregistrement de fichier son (.wav) ou audio Windows Media (.wma) pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 18. Sous **Étape 4 Spécifier vos heures d’ouverture**, dans la zone **Votre fuseau horaire**, cliquez sur le fuseau horaire du flux de travail.
 
@@ -148,7 +148,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
@@ -156,7 +156,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
 
     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale *\<username\>* @ *\<domainName\>* est (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _\<username\>_ @ _\<domainName\>_ .
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _\<username\>_ @ _\<domainName\>_ .
 
     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone *\<number\>* @ *\<domainName\>* est (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
@@ -175,7 +175,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
@@ -183,7 +183,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
 
     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale *\<username\>* @ *\<domainName\>* est (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _\<username\>_ @ _\<domainName\>_ .
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _\<username\>_ @ _\<domainName\>_ .
 
     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone *\<number\>* @ *\<domainName\>* est (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
@@ -196,7 +196,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
     - Pour utiliser un enregistrement de fichier audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 29. Cliquez sur **Déployer**.
 
@@ -219,7 +219,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
    ```
 
      > [!NOTE]
-     > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, [voir Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, [voir Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Obtenez l’identité de la file d’attente ou demandez où les appels seront dirigés. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -227,7 +227,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    Pour plus d’informations sur la création de la file d’attente, voir [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps).
+    Pour plus d’informations sur la création de la file d’attente, voir [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps).
 
 5. Définissez l’action par défaut à entreprendre quand un flux de travail est ouvert durant les heures ouvrées, et enregistrez-la dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -246,7 +246,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
 
 6. Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, voir [(facultatif) Définir](optional-define-response-group-business-hours.md) les heures d’ouverture Response Group dans Skype Entreprise et (facultatif) Définir des groupes de [congés Response Group dans Skype Entreprise.](optional-define-response-group-holiday-sets.md)
 
-7. Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite, et **New-CsRgsCallAction** pour définir l’action à entreprendre après l’invite. Pour plus d’informations, [voir New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite, et **New-CsRgsCallAction** pour définir l’action à entreprendre après l’invite. Pour plus d’informations, [voir New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Récupérez le nom du service Response Group de Lync Server et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -270,7 +270,7 @@ Un flux de travail définit également des paramètres comme un message de bienv
      > Tous les utilisateurs désignés comme responsables pour les flux de travail doivent avoir le rôle CsResponseGroupManager.
 
      > [!NOTE]
-     > Pour plus d’informations sur les paramètres facultatifs supplémentaires, voir [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) ou [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > Pour plus d’informations sur les paramètres facultatifs supplémentaires, voir [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) ou [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 ## <a name="designing-an-interactive-workflow"></a>Conception d’un flux de travail interactif
 
@@ -280,10 +280,10 @@ Vous pouvez utiliser la réponse vocale interactive (IVR) pour obtenir des infor
 
 L’application Response Group offre des fonctionnalités de reconnaissance vocale et de reconnaissance vocale dans 26 langues. Vous pouvez entrer les questions du système de réponse vocale interactive à l’aide de la conversion de texte par synthèse vocale, d’un fichier wave (.wav) ou d’un fichier audio Windows Media (.wma). Les appelants peuvent répondre à l’aide de la voix ou de réponses de numérotation en fréquences vocales (DTMF).
 
-Les workflows interactifs prennent en charge jusqu’à deux niveaux de questions, chaque question comportant un maximum de quatre réponses possibles. Le système de réponse vocale (IVR) pose une question à l’appelant et, en fonction de la réponse de l’appelant, l’approvisionnement vers une file d’attente ou une deuxième question. Quatre réponses sont également possibles pour la deuxième question. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
+Les workflows interactifs prennent en charge jusqu’à deux niveaux de questions, chaque question comportant un maximum de quatre réponses possibles. Le système de réponse vocale (IVR) pose une question à l’appelant et, selon la réponse de l’appelant, l’approvisionnement vers une file d’attente ou lui pose une deuxième question. Quatre réponses sont également possibles pour la deuxième question. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
 
 > [!NOTE]
-> Lorsque vous concevez des flux d’appels à l’aide de Skype Entreprise Server Management Shell, vous pouvez définir n’importe quel nombre de niveaux de questions du système de réponse vocale vocale (IVR) et n’importe quel nombre de réponses. Toutefois, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels qui a plus de deux niveaux de questions avec plus de quatre réponses chacune, vous ne pouvez pas modifier le flux d’appels à l’aide du Panneau de contrôle Skype Entreprise Server.
+> Lorsque vous concevez des flux d’appels à l’aide de Skype Entreprise Server Management Shell, vous pouvez définir n’importe quel nombre de niveaux de questions du système de réponse vocale vocale (IVR) et n’importe quel nombre de réponses. Toutefois, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels qui a plus de deux niveaux de questions avec plus de quatre réponses, vous ne pouvez pas modifier le flux d’appels à l’aide du Panneau de contrôle Skype Entreprise Server.
 
 Les questions du système de réponse vocale vocale (IVR) et les réponses de l’appelant sont fournies à l’agent qui accepte l’appel.
 
@@ -398,7 +398,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également avoir une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
 
     > [!NOTE]
-    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération response group à l’aide du Panneau de configuration Skype Entreprise Server ou à l’aide de l’cmdlet **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils se voient affectés un site ou une stratégie utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application de stratégies à des utilisateurs, voir [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir **Set-CsExternalAccessPolicy** dans la documentation.
+    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération response group à l’aide du Panneau de configuration Skype Entreprise Server ou à l’aide de l’cmdlet **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils se voient affectés un site ou une stratégie utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application de stratégies à des utilisateurs, voir [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Pour plus d’informations sur le paramètre de fédération, voir **Set-CsExternalAccessPolicy** dans la documentation.
 
     > [!NOTE]
     > Les utilisateurs hébergés dans Skype Entreprise Online ne peuvent pas appeler des groupes Response Groups hébergés dans un déploiement local. Cela est vrai dans les déploiements hybrides et dans les cas où un déploiement local est fédéré avec un déploiement Skype Entreprise Online.
@@ -442,7 +442,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
     - Pour utiliser un enregistrement de fichier Wave ou Windows Media Audio pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 18. Sous **Étape 4 Spécifier vos heures d’ouverture**, dans la zone **Votre fuseau horaire**, cliquez sur le fuseau horaire du workflow.
 
@@ -460,7 +460,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
 20. Si vous créez un planning personnalisé pour ce workflow, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
-21. Si vous créez une planification  personnalisée, tapez les heures d’ouverture et de fermeture lorsque le groupe Response Group sera disponible. 
+21. Si vous créez une planification personnalisée, tapez les **heures** d’ouverture et de fermeture lorsque le groupe Response Group sera disponible. 
 
      > [!NOTE]
      > Les heures **Ouverture** et **Fermeture** doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et ferme à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : **Ouverture** 9:00, **Fermeture** 12:00, **Ouverture** 13:00 et **Fermeture** 17:00.
@@ -475,7 +475,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
@@ -483,7 +483,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale *\<username\>* @ *\<domainname\>* est (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _\<username\>_ @ _\<domainname\>_ .
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _\<username\>_ @ _\<domainname\>_ .
 
     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone *\<number\>* @ *\<domainname\>* est (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
@@ -502,7 +502,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
     - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
 
@@ -510,7 +510,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale *\<username\>* @ *\<domainname\>* est (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _\<username\>_ @ _\<domainname\>_ .
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _\<username\>_ @ _\<domainname\>_ .
 
     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone *\<number\>* @ *\<domainname\>* est (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
@@ -521,7 +521,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
     - Pour utiliser un enregistrement de fichier audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique**. Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique**. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier audio.
 
     > [!NOTE]
-    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 28. Sous **Étape 7 Configurer la réponse vocale interactive**, dans l’en-tête **L’utilisateur entendra le texte ou message enregistré suivant**, spécifiez comme suit la question à poser aux appelants :
 
@@ -536,7 +536,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
     - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement**, puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio, puis cliquez sur **Ouvrir**. Cliquez  sur Charger pour charger le fichier, puis, si vous le souhaitez, vous pouvez taper la question dans la zone de texte (cela permet de transférer la question et la réponse de l’appelant à l’agent qui répond).
 
       > [!NOTE]
-      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, voir [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 29. Sous **Réponse 1**, procédez comme suit pour spécifier la première réponse possible à la question :
 
@@ -650,11 +650,10 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
 [(Facultatif) Définir les heures d’ouverture de Response Group dans Skype Entreprise](optional-define-response-group-business-hours.md)
 
-[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
-[Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
-
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)

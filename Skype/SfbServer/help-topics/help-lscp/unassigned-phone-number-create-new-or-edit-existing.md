@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: 51c3f640bd9d98bcda9d5dd69406461e9c8393fd
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: c757be0b49638c39a9f20f83baf680508a907b20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711741"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116182"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribué : créer un nouveau ou modifier un numéro existant
 
@@ -47,14 +47,12 @@ La liste suivante décrit les champs de la page.
 
 - Si vous avez sélectionné **Annonce** comme **Service d’annonce** :
 
-  - **FQDN du serveur de destination** Sélectionnez l’ID de service du service d’application qui exécute l’application d’annonce qui gérera les appels entrants vers cette plage de numéros non assignés.
+  - **FQDN du serveur de destination** Sélectionnez l’ID de service du service d’application qui exécute l’application Annonce qui gérera les appels entrants vers cette plage de numéros non assignés.
 
   - **Annonce** Sélectionnez l’annonce à lire pour cette plage de numéros non signés.
 
 - Si vous avez sélectionné **Messagerie unifiée Exchange** comme **Service d’annonce** :
 
-  - **Standard automatique numéro de téléphone** Sélectionnez le numéro de téléphone de la Standard automatique de la Standard automatique.
+  - **Standard automatique téléphone** Sélectionnez le numéro de téléphone de la Standard automatique de Standard automatique.
 
-Pour plus d’informations sur les fonctionnalités d’annonce, voir [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, voir [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations sur les fonctionnalités d’annonce, voir [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, voir [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) dans la documentation des opérations.

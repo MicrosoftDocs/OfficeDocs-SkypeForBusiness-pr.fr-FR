@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créez ou modifiez un groupe d’agents dans Response Group, dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: dfa09c3341ad47f2646939738cb67db7b7f27304
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c0e7d54008ba6affa2bae5bd3228c93e430a114
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837094"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105810"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype Entreprise
  
@@ -29,7 +29,7 @@ Créez ou modifiez un groupe d’agents dans Response Group, dans Skype Entrepri
   
 Lorsque vous créez un groupe d’agents, vous sélectionnez les agents assignés au groupe et spécifiez divers autres paramètres du groupe. Vous pouvez ainsi sélectionner la méthode de routage des appels et spécifier si un agent peut se connecter au groupe et s’en déconnecter. 
   
-Un agent qui doit se dé connecter au groupe et s’en dé dé connecter, ce qui est différent de la signature ou de la sortie de Skype Entreprise, est appelé agent formel. Les agents formels doivent être connectés au groupe pour recevoir des appels acheminés vers le groupe. Cela peut être utile pour les agents qui répondent à temps partiel aux appels du groupe. Les agents formels se connectent et se ouvrent à leurs groupes en cliquant sur un élément de menu dans Skype Entreprise pour ouvrir le navigateur Internet Windows Internet Explorer et afficher une console web.
+Un agent qui doit se dé connecter au groupe et s’en dé connecter, ce qui est différent de la signature ou de la sortie de Skype Entreprise, est appelé agent formel. Les agents formels doivent être connectés au groupe pour recevoir des appels acheminés vers le groupe. Cela peut être utile pour les agents qui répondent à temps partiel aux appels du groupe. Les agents formels se connectent et se connectent à leurs groupes en cliquant sur un élément de menu dans Skype Entreprise pour ouvrir le navigateur Internet Windows Internet Explorer et afficher une console web.
   
 Un agent qui ne se connecte pas ou ne se connecte pas au groupe est appelé agent informel. Les agents informels sont automatiquement connectés au groupe lorsqu’ils se connectent à Skype Entreprise et ne peuvent pas se résigner au groupe.
   
@@ -74,7 +74,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
   
 9. Dans **Méthode de routage**, sélectionnez la méthode pour transmettre les appels aux agents dans le groupe comme suit :
     
-   - Pour proposer d’abord un nouvel appel à l’agent qui a été le plus longtemps inactif (a été le plus longtemps en présence de **Disponible** ou **Inactif** dans Skype Entreprise), cliquez sur Plus **longuement inactif**. 
+   - Pour proposer d’abord un nouvel appel à l’agent qui a été inactif le plus longtemps (a été le plus longtemps en présence de **Disponible** ou **Inactif** dans Skype Entreprise), cliquez sur Le plus long **inactif**. 
     
    - Pour qu’un nouvel appel soit présenté à tous les agents disponibles simultanément, cliquez sur **Parallèle**. L’appel est envoyé au premier agent qui l’accepte.
     
@@ -94,7 +94,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     
     - Pour modifier l’ordre dans lequel les appels sont proposés aux agents dans les groupes qui utilisent le routage round robin ou le routage en série, dans la liste des agents, cliquez sur un utilisateur, puis cliquez sur la flèche vers le haut ou vers le bas. 
     
-    - Pour utiliser une liste de distribution Microsoft Exchange Server comme groupe d’agents, cliquez sur Utiliser une liste de **distribution** de courrier électronique existante, puis, dans l’adresse de la liste de **distribution,** tapez l’adresse e-mail de la liste de distribution (par exemple, NetworkSupport@contoso.com).
+    - Pour utiliser une liste de distribution Microsoft Exchange Server en tant que groupe d’agents, cliquez sur Utiliser une liste de distribution de courrier électronique existante, puis, dans l’adresse de la liste de **distribution,** tapez l’adresse e-mail de la liste de distribution (par exemple, NetworkSupport@contoso.com).
     
       Si vous utilisez une liste de distribution de courrier électronique, vous êtes soumis aux contraintes suivantes :
     
@@ -107,13 +107,13 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
       - Si la liste de distribution contient des utilisateurs pour lesquels Lync Server 2010 est activé, mais Voix Entreprise n’est pas activé, ils sont ajoutés au groupe d’agents en tant qu’agents d’exécution. Assurez-vous que tous les membres de la liste de distribution Voix Entreprise activés pour leurs comptes d’utilisateur.
     
     > [!IMPORTANT]
-    > Si vous utilisez une liste de distribution de courrier électronique, les appartenances masquées ou les listes masquées peuvent devenir visibles par l’administrateur ou les utilisateurs response Group. 
+    > Si vous utilisez une liste de distribution de courrier électronique, les appartenances masquées ou les listes masquées peuvent devenir visibles pour l’administrateur ou les utilisateurs Response Group. 
   
     Les appartenances au groupe d’agents masquées ou les listes masquées peuvent devenir visibles comme suit :
     
      - Si une liste de distribution a été configurée pour que l’appartenance soit masquée et que l’administrateur Response Group affecte la liste de distribution à la liste des agents, les utilisateurs peuvent appeler le groupe pour savoir qui sont les membres. 
     
-     - Si une liste de distribution a été configurée de sorte qu’elle soit masquée dans la liste d’adresses globale Exchange, l’administrateur Response Group peut être en mesure d’en voir la liste de distribution et de l’affecter à la liste des agents si le processus Response Group dispose des droits et autorisations d’utilisateur appropriés, même si l’administrateur ne dispose pas des droits et autorisations d’utilisateur appropriés.
+     - Si une liste de distribution a été configurée de sorte qu’elle soit masquée dans la liste d’adresses globale Exchange, l’administrateur Response Group peut être en mesure de voir la liste de distribution et de l’affecter à la liste des agents si le processus Response Group dispose des droits et autorisations d’utilisateur appropriés, même si l’administrateur ne dispose pas des droits et autorisations d’utilisateur appropriés.
     
 11. Cliquez sur **Valider**.
     
@@ -138,7 +138,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     > [!IMPORTANT]
     > Le paramètre de temps d’alerte de l’agent ne peut pas dépasser 180 secondes. Si le temps d’alerte de l’agent est supérieur à 180 secondes, l’application cliente rejette l’appel, car le minuteur de transaction SIP atteint son délai d’attente maximal. 
   
-4. Confirmez que le groupe d’agents est créé. Exécutez :
+4. Confirmez que le groupe d’agents est créé. Exécutez :  
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
@@ -146,10 +146,10 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
 
 ## <a name="see-also"></a>Voir aussi
 
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)
   
-[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
-[Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
+[Set-CsRgsAgentGroup](/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
-[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
+[Get-CsRgsAgentGroup](/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)

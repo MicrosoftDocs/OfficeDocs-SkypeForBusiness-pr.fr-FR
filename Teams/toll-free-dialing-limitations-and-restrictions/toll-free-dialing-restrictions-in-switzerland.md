@@ -22,31 +22,31 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
-ms.openlocfilehash: fad581272b1470fec0fe061a41759aa325e27fc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e88142c4eeb6fa7052e12105fe3191019bc19be4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802334"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116602"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Restrictions de numérotation gratuites en Suisse
 
 [Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
-|**Details**|**Description**|
+|**Détails**|**Description**|
 |:-----|:-----|
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 0800 <br>|
 |Code ISO de pays/région  <br/> |CH  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> | Non applicable  <br/>  |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers)
+[Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md)

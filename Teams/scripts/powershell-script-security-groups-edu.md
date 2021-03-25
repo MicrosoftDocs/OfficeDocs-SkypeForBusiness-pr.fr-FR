@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cb76e2f67664ae5cabde54774186248c48b40c57
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 938c2e549cea153b2a6b42991ae65df5d07a4c4d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756200"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117282"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
@@ -34,7 +34,7 @@ Ce script suit :
 
 - Identifie le personnel et les enseignants affectés à une référence SKU pour les enseignants, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
 - Identifie les étudiants affectés à une référence SKU étudiant, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
-- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction du fait qu’ils ont ou non une licence.
+- Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction de leur licence.
 
 Vous devrez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
 
@@ -43,9 +43,9 @@ Vous devrez exécuter ce script régulièrement pour maintenir les groupes de s�
 
 ## <a name="before-you-start"></a>Avant de commencer
 
-Téléchargez et installez [le module PowerShell Skype](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Entreprise Online, puis redémarrez votre ordinateur si vous y êtes invité.
+Téléchargez et installez [le module PowerShell Skype](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Entreprise Online, puis redémarrez votre ordinateur si vous y êtes invité.
 
-Pour en savoir plus, voir [Gérer Skype Entreprise Online avec PowerShell Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et Teams [PowerShell.](../teams-powershell-overview.md)
+Pour en savoir plus, voir [Gérer Skype Entreprise Online avec PowerShell Office 365](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et Teams [PowerShell.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Attribuer des stratégies à vos utilisateurs](../assign-policies.md)

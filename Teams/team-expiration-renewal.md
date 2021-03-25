@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b111ddd6b874fef22a7d221f6eb932c4c14c7b70
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 606d957b703725d631beec38237f4d9b4272433e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809404"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116952"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement des équipes dans Microsoft Teams
 
-Les organisations avec un grand nombre d’équipes ont souvent des équipes qui ne sont jamais utilisées. Cela peut se produire pour diverses raisons, notamment l’expérimentation du produit, la collaboration à court terme de l’équipe ou le départ des propriétaires d’équipe de l’organisation. Au fil du temps, de telles équipes peuvent accumuler et créer une charge sur les ressources client.  
+Les organisations avec un grand nombre d’équipes ont souvent des équipes qui ne sont jamais utilisées. Cela peut se produire pour diverses raisons, notamment l’expérimentation du produit, la collaboration à court terme de l’équipe ou le départ des propriétaires d’équipe de l’organisation. Au fil du temps, ces équipes peuvent accumuler et créer une charge sur les ressources client.  
 
-Pour resserrez le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la stratégie d’expiration des groupes [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont dosées par des groupes, les stratégies d’expiration des groupes s’appliquent automatiquement aux équipes également.
+Pour resserrez le nombre d’équipes inutilisées, en tant qu’administrateur, vous pouvez utiliser la stratégie d’expiration des groupes [Microsoft 365](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) pour nettoyer automatiquement les équipes inutilisées. Étant donné que les équipes sont dosées par des groupes, les stratégies d’expiration des groupes s’appliquent automatiquement aux équipes également.
 
 Lorsque vous appliquez une stratégie d’expiration à une équipe, un propriétaire d’équipe reçoit une notification pour le renouvellement de l’équipe 30 jours, 15 jours et 1 jour avant la date d’expiration de l’équipe. Lorsque le propriétaire de l’équipe reçoit la notification, il peut cliquer sur Renouveler **maintenant** dans les paramètres de l’équipe pour renouveler l’équipe.
 

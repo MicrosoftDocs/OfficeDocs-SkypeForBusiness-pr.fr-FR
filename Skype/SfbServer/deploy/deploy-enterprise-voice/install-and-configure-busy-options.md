@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: e1480809eb1f14dd25837d11fd54ed6bb5cac534
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830804"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106310"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer busy options pour Skype Entreprise Server
 
@@ -32,9 +32,9 @@ Si Busy Options est activée pour l’organisation, tous les utilisateurs de l�
 
 - Occupé (occupé) : les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
 
-- Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
+- Messagerie vocale sur busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
 
-Quelle que soit la façon dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences.
+Quelle que soit la manière dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences.
 
 Pour plus d’informations sur la fonctionnalité Busy Options, voir [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
@@ -50,7 +50,7 @@ Assurez-vous que la dernière version de Skype Entreprise Server est installée 
 
 Le programme d’installation déploie la dernière version de l’application Busy Options. Toutefois, l’application n’est pas activée par défaut. Pour activer l’application, effectuez les étapes suivantes :
 
-1. Exécutez [l’cmdlet Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) pour activer globalement Busy Options, comme illustré dans l’exemple suivant :
+1. Exécutez [l’cmdlet Set-CsVoicePolicy](/powershell/module/skype/set-csvoicepolicy?view=skype-ps) pour activer globalement Busy Options, comme illustré dans l’exemple suivant :
 
    ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
@@ -58,7 +58,7 @@ Le programme d’installation déploie la dernière version de l’application B
 
 2. Ensuite, si une stratégie de voix est activée sur le site, vous devez activer Busy Options pour la stratégie de voix comme suit :
 
-    Tout [d’abord, exécutez Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) pour récupérer le nom du site :
+    Tout [d’abord, exécutez Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps) pour récupérer le nom du site :
 
    ```powershell
    Get-CsSite
@@ -76,7 +76,7 @@ Le programme d’installation déploie la dernière version de l’application B
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. Ensuite, exécutez l’cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) pour ajouter Busy Options à la liste des applications serveur, comme illustré dans l’exemple suivant :
+3. Ensuite, exécutez l’cmdlet [New-CsServerApplication](/powershell/module/skype/new-csserverapplication?view=skype-ps) pour ajouter Busy Options à la liste des applications serveur, comme illustré dans l’exemple suivant :
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
@@ -85,13 +85,13 @@ Le programme d’installation déploie la dernière version de l’application B
     > [!NOTE]
     > Vous devez remplacer %FQDN% par le nom de domaine complet d’un pool spécifique.
 
-4. Ensuite, exécutez l’cmdlet [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) pour mettre à jour les rôles de contrôle d’accès basé sur un rôle (RBAC) pour les cmdlets Busy Options, comme illustré dans l’exemple suivant :
+4. Ensuite, exécutez l’cmdlet [Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) pour mettre à jour les rôles de contrôle d’accès basé sur un rôle (RBAC) pour les cmdlets Busy Options, comme illustré dans l’exemple suivant :
 
    ```powershell
    Update-CsAdminRole
    ```
 
-5. Enfin, démarrez les services Windows de Skype Entreprise Server sur tous les serveurs frontaux dans tous les pools où Busy Options a été installé et activé en exécutant la commande [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
+5. Enfin, démarrez les services Windows de Skype Entreprise Server sur tous les serveurs frontaux dans tous les pools où Busy Options a été installé et activé en exécutant la commande [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
 
    ```powershell
    Start-CsWindowsService
@@ -113,7 +113,7 @@ Dans l’exemple suivant, la commande configure les options occupé pour l’uti
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l';cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
+Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l’cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -141,7 +141,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>Vérifier et résoudre les problèmes
 
-Après avoir installé Busy Options, vous pouvez vérifier que l’installation a réussi à l’aide de l’cmdlet [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) pour récupérer la liste des applications serveur. Si Busy Options est correctement installée, la sortie de la cmdlet doit afficher la configuration Busy Options comme suit :
+Après avoir installé Busy Options, vous pouvez vérifier que l’installation a réussi à l’aide de l’cmdlet [Get-CsServerApplication](/powershell/module/skype/get-csserverapplication?view=skype-ps) pour récupérer la liste des applications serveur. Si Busy Options est correctement installée, la sortie de la cmdlet doit afficher la configuration Busy Options comme suit :
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions

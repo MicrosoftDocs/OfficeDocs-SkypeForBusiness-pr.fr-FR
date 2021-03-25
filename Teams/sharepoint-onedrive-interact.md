@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Interaction de SharePoint Online & OneDrive Entreprise avec Teams stockage de fichiers de conversation privée & interaction entre l’équipe, le canal standard et & bibliothèque de documents.
+description: Interaction de SharePoint Online & OneDrive Entreprise avec Teams ; stockage de fichiers de conversation privée & interaction entre l’équipe, le canal standard et & de documents.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -18,26 +18,26 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff18a0645f81d1892e246ee7432d58a1c728f3ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: b69b156e5cea0ff63925e91f5e3c077c794b3425
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757779"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117032"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 
 > [!Tip]
 > Visionnez la session suivante pour découvrir comment Microsoft Teams interagit avec Azure Active Directory (AAD), les groupes Microsoft 365, Exchange, SharePoint and OneDrive Entreprise : [Fondements de Microsoft Teams](https://aka.ms/teams-foundations)
 
-Chaque équipe dans Microsoft Teams a un site d’équipe dans SharePoint Online, et chaque canal standard d’une équipe reçoit un dossier dans la bibliothèque de documents du site d’équipe par défaut. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité des fichiers définies dans SharePoint sont automatiquement reflétées dans Teams. Pour voir l’impact de la modification d’une adresse de site dans SharePoint, lisez [Modifier une adresse de site.](https://docs.microsoft.com/sharepoint/change-site-address)
+Chaque équipe dans Microsoft Teams a un site d’équipe dans SharePoint Online, et chaque canal standard d’une équipe reçoit un dossier dans la bibliothèque de documents du site d’équipe par défaut. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité des fichiers définies dans SharePoint sont automatiquement reflétées dans Teams. Pour voir l’impact de la modification d’une adresse de site dans SharePoint, lisez [Modifier une adresse de site.](/sharepoint/change-site-address)
 
 > [!NOTE]
 > Cet article s’applique uniquement aux canaux standard. L’architecture des canaux privés est différente des canaux standard. Chaque canal privé possède sa propre collection de sites SharePoint distincte du site d’équipe parent. Pour en savoir plus, [consultez canaux privés dans Microsoft Teams.](private-channels.md)
 
 Les fichiers de conversation privée sont stockés dans le dossier OneDrive Entreprise de l’expéditeur et les autorisations sont automatiquement accordées à tous les participants dans le cadre du processus de partage de fichiers.
 
-Si des licences SharePoint Online ne sont pas affectées et activées pour les utilisateurs, ceux-ci ne disposent pas d'un stockage OneDrive Entreprise dans Microsoft 365 ou Office 365. Le partage de fichiers continuera de fonctionner dans les canaux standard, mais les utilisateurs ne pourront pas partager de fichiers dans les conversations sans stockage OneDrive Entreprise dans Microsoft 365 ou Office 365.
+Si des licences SharePoint Online ne sont pas affectées et activées pour les utilisateurs, ceux-ci ne disposent pas d'un stockage OneDrive Entreprise dans Microsoft 365 ou Office 365. Le partage de fichiers continuera à fonctionner dans les canaux standard, mais les utilisateurs ne pourront pas partager de fichiers dans les conversations sans stockage OneDrive Entreprise dans Microsoft 365 ou Office 365.
 
 En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées. 
 
@@ -74,8 +74,8 @@ Notez que pour les équipes publiques, le site d’équipe SharePoint est mis en
 - D’autres options sont disponibles **dans le** menu Nouveau fichier.
 - Synchronisez des fichiers sur leur disque local.
 - Dans le menu **Tous les documents,** passez de l’affichage de liste à l’affichage **de liste** compacté **à l’affichage vignettes.** 
-- Identifiez les fichiers qui ont besoin d’être identifiés ou qui contiennent des programmes malveillants.
-- Voir immédiatement si un fichier est en lecture seule ou extrait.
+- Identifiez les fichiers qui ont besoin d’être attentifs ou qui contiennent des programmes malveillants.
+- Découvrez immédiatement si un fichier est en lecture seule ou extrait.
 - Consultez et archivez des fichiers.
 - Épingler, désépiner et modifier l’ordre de tri des fichiers.
 - Identifier les fichiers qui ont besoin de métadonnées
@@ -85,11 +85,10 @@ Notez que pour les équipes publiques, le site d’équipe SharePoint est mis en
 
 ## <a name="default-link-type-setting"></a>Paramètre du type de lien par défaut
 
-SharePoint et OneDrive ont un paramètre d’administration qui spécifie le type de lien par défaut pour les liens créés pour un fichier. Teams adopte la même approche en utilsant les paramètres que l’administrateur définit pour SharePoint et OneDrive. Des informations plus détaillées sur cette approche sont décrites dans La modification du type de lien par défaut lorsque les utilisateurs [obtiennent des liens à partager.](https://docs.microsoft.com/sharepoint/change-default-sharing-link) 
+SharePoint et OneDrive ont un paramètre d’administration qui spécifie le type de lien par défaut pour les liens créés pour un fichier. Teams adopte la même approche en utilsant les paramètres que l’administrateur définit pour SharePoint et OneDrive. Des informations plus détaillées sur cette approche sont décrites dans La modification du type de lien par défaut lorsque les utilisateurs [obtiennent des liens à partager.](/sharepoint/change-default-sharing-link) 
 
 ## <a name="more-information"></a>Plus d’informations
 
 Pour plus d’informations sur le fonctionnement de SharePoint avec Teams, voir [SharePoint et Teams : meilleur ensemble.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 
 Pour en savoir plus sur l’expérience des invités dans Teams, lisez ce à quoi [ressemble l’expérience des invités.](guest-experience.md)
-

@@ -16,12 +16,12 @@ f1.keywords:
 description: Il est important de vérifier l’état du service Teams ainsi que d’autres composants Microsoft 365 ou Office 365 tels qu’Exchange, SharePoint et OneDrive Entreprise.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 53184bbdc25cc96e667cd8c0ddff9eae5bfdfe8c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581835"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107510"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Vérifier l'intégrité du service pour Microsoft Teams
 ===========================================
@@ -37,4 +37,4 @@ De plus, n’oubliez pas que Microsoft Teams est intégré aux services Microsof
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

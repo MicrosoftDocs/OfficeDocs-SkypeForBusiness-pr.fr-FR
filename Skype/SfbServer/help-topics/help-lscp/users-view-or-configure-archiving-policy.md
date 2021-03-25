@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 2e14e60a21f3ab18b11b9e710453806ea920ce4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f18ad244d41c06551c75600aa38475338c661ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800344"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115100"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’archivage
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Attribution d’une stratégie d’archivage par utilisateur](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [Attribution d’une stratégie d’archivage par utilisateur](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-archiving-policy)
 
-- [Appliquer une stratégie d’archivage à un utilisateur ou à un groupe d’utilisateurs](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [Appliquer une stratégie d’archivage à un utilisateur ou à un groupe d’utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-applying-an-archiving-policy-to-users)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
-

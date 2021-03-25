@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment affecter un ID de conférence à un utilisateur dans Microsoft Teams et ce que doivent être les paramètres d’ID de conférence.
-ms.openlocfilehash: 4f24fb85479e6a52c8b2658b7a8a41beb0e1c6ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691150"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117207"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Afficher et réinitialiser l'ID de conférence attribué à un utilisateur dans Microsoft Teams
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Afficher et réinitialiser un ID de conférence attribué à un utilisateur dans Microsoft Teams
 
-Un ID de conférence est automatiquement attribué à un utilisateur de Microsoft Teams lorsqu’il est configurer pour l’audioconférence dans Microsoft 365 ou Office 365 et qu’il utilise Microsoft comme fournisseur de services d’audioconférence. L'ID de conférence attribué est envoyé dans l'invitation à participer à la réunion lors de sa planification. Chaque réunion qu'un utilisateur planifie obtient un ID de conférence unique. 
+Un ID de conférence est automatiquement attribué à un utilisateur de Microsoft Teams lorsqu’il est configurer pour l’audioconférence dans Microsoft 365 ou Office 365 et qu’il utilise Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence attribué est envoyé dans l’invitation à la réunion lorsque la réunion est programmée. Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique. 
   
-Bien qu'un ID de conférence soit automatiquement créé et attribué à un utilisateur, il arrive qu'un utilisateur ne souhaite pas utiliser cet ID et préfère le définir sur un numéro spécifique, ou qu’il ne se rappelle pas de son ID de conférence ou l’ait perdu. Vous pouvez utiliser le centre d'administration de Microsoft Teams ou Windows PowerShell pour afficher, modifier et réinitialiser son ID de conférence.
+Bien qu’un ID de conférence soit automatiquement créé et attribué à un utilisateur, il peut arrive qu’un utilisateur ne souhaite pas utiliser celui-ci et que vous le définissez sur un nombre donné, ou que vos utilisateurs ne se souvenent pas ou ont perdu leur ID de conférence. Vous pouvez utiliser le Centre d’administration de Microsoft Teams ou Windows PowerShell pour afficher, modifier et réinitialiser leur ID de conférence.
   
 Un e-mail contenant l’ID de conférence et les numéros de téléphone de conférence audio sera envoyé à l’utilisateur par défaut, ou si vous réinitialisez l’ID de conférence, un autre e e-mail sera envoyé et inclura l’ID de conférence sans code confidentiel. Pour [plus d’informations sur](reset-a-conference-id-for-a-user-in-teams.md) la réinitialisation du code confidentiel d’un organisateur de conférence, voir Réinitialiser l’ID de conférence d’un utilisateur dans Microsoft Teams. 
 
@@ -41,61 +41,61 @@ Un e-mail contenant l’ID de conférence et les numéros de téléphone de conf
   
 ## <a name="view-and-reset-conference-ids"></a>Afficher et réinitialiser les ID de conférence
 
-### <a name="to-view-the-conference-id"></a>Pour afficher l'ID de conférence
+### <a name="to-view-the-conference-id"></a>Pour afficher l’ID de conférence
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-3. Sous **Audioconférence**, recherchez l’**ID de conférence**.
+3. Sous **Audioconférence,** regardez sous **ID de conférence.**
 
     > [!TIP]
-    > Vous pouvez envoyer toutes les informations sur la conférence à l'utilisateur dans un courrier électronique qui inclut l'ID de conférence et les numéros de téléphone à composer en cliquant sur le lien **Envoyer les informations de la conférence dans un courrier électronique**.
+    > Vous pouvez envoyer toutes les informations sur les conférences à l’utilisateur dans un message  électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur Envoyer les informations sur la conférence dans un lien électronique.
   
-**Utiliser Windows PowerShell**
+**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
-Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Pour plus [d’informations,](/powershell/module/teams/?view=teams-ps) consultez la référence Microsoft Teams PowerShell.
     
   
-### <a name="to-reset-the-conference-id"></a>Pour réinitialiser l'ID de conférence
+### <a name="to-reset-the-conference-id"></a>Pour réinitialiser l’ID de conférence
 
-Si un utilisateur a oublié son ID de conférence, par exemple, vous pouvez le réinitialiser.
+Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'oubli par exemple.
   
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, cliquez sur **Utilisateurs** et sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-3. Sous **Audioconférence**, cliquez sur **Réinitialiser l’ID de conférence**.
+3. Sous **Audioconférence,** cliquez sur **Réinitialiser l’ID de conférence.**
 
-4. Dans la fenêtre **Réinitialiser l’ID de conférence**, cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un courrier électronique contenant le nouvel ID sera envoyé à l’utilisateur.
+4. Dans la fenêtre **Réinitialiser l’ID de conférence,** cliquez sur **Réinitialiser.** A conference ID will be automatically created and an email sent to the user with the new conference ID.
   
-**Utiliser Windows PowerShell**
+**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
-Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Pour plus [d’informations,](/powershell/module/teams/?view=teams-ps) consultez la référence Microsoft Teams PowerShell.
 
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
    > [!IMPORTANT]
-   >  Une fois qu'un nouvel ID de conférence est créé ou réinitialisé, l'ancien ID ne peut plus être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. 
+   >  Une fois qu’un nouvel ID de conférence est créé ou réinitialisé, l’ancien ID de conférence ne peut pas être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. 
   
     
-- L'ID de conférence doit respecter le nombre de chiffres défini dans le pont d’audioconférence. Les ID de conférence ne doivent comporter que des chiffres, jamais des caractères alphabétiques ou spéciaux.
+- L’ID de conférence doit respecter la longueur en chiffres définie sur le pont de conférence audio. Vous ne pouvez pas utiliser de caractères alphabéétiques ou spéciaux dans les ID de conférence. seuls des nombres peuvent être utilisés.
    
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Rubriques connexes
 

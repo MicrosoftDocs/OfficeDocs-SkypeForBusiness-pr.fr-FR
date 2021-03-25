@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116022"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Pays et régions dans lesquels Business Voice est disponible
 
@@ -46,7 +46,7 @@ Dans les pays et régions **sans** prise en charge des forfaits d’appels et de
 
 Si votre client se trouve dans un pays ou une région qui ne prend pas en charge les forfaits d’appels et l’Assistant de mise en route, consultez l’article [Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft](reseller-partner-support.md).
 
-Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec forfait d’appels et sans forfait d’appels, consultez l’article [Description du service Business Voice Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Si vous souhaitez en savoir plus sur ce qui est inclus dans Business Voice avec forfait d’appels et sans forfait d’appels, consultez l’article [Description du service Business Voice Microsoft 365](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 
 | Pays ou région    | Business Voice<br> avec forfait d’appels | Business Voice<br> sans forfait d’appels<br>(Routage direct) | Exécution de l’Assistant de mise en route |

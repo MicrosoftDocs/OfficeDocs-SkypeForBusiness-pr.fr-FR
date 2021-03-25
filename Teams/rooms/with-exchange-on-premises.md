@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft Teams dans un environnement hybride avec Exchange en local.
-ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460514"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117352"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer des salles Microsoft Teams avec Exchange en local
 
@@ -49,6 +49,8 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
   - Vous devez avoir Skype Entreprise Online (plan 2) ou une version supérieure dans votre offre Microsoft 365 ou Office 365. Le plan doit prendre en charge la fonctionnalité de conférence.
   
   - Si vous avez besoin Voix Entreprise (téléphonie PSTN) en utilisant des fournisseurs de services téléphoniques pour les salles Microsoft Teams, vous avez besoin de Skype Entreprise Online (plan 3).
+
+  - Lors de la configuration d’un compte de salle avec Microsoft Teams ou Skype Entreprise Online, le numéro de téléphone doit être affecté avant que le compte soit activé en tant que compte de salle.
   
   - Vos utilisateurs clients doivent avoir une boîte aux lettres Exchange.
   
@@ -67,11 +69,11 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
     > [!NOTE]
     > La sélection **du mot de passe n’expire** jamais est obligatoire pour Skype Entreprise Server sur les salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour chaque compte d’appareil Microsoft Teams Rooms.
   
-4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, dans le Centre d’administration Microsoft 365, allez à la page utilisateurs et vérifiez que le compte créé lors des étapes précédentes a été fusionné en ligne.
+4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, dans la page utilisateurs de votre Centre d’administration Microsoft 365, vérifiez que le compte créé lors des étapes précédentes a été fusionné en ligne.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Activation de la boîte aux lettres distante et définition des propriétés
 
-1. [Ouvrez Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [connectez-vous à votre serveur Exchange à l’aide de Remote PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. [Ouvrez Exchange Management Shell](/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [connectez-vous à votre serveur Exchange à l’aide de Remote PowerShell.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
 2. Dans Exchange PowerShell, créez une boîte aux lettres pour le compte (activez-le avec la boîte aux lettres) en exécutant la commande suivante :
 
@@ -79,7 +81,7 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, voir [Enable-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)
+   Pour plus d’informations sur la syntaxe et les paramètres, [voir Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. Dans Exchange PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
 
@@ -97,20 +99,20 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
 
    - Réponse supplémentaire : « Il s’agit d’une salle de réunion Skype ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
 
-   Cet exemple configure ces paramètres sur la boîte aux lettres de salle project-rigel-01.
+   Cet exemple configure ces paramètres sur la boîte aux lettres de salle project-Rigel-01.
 
    ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Attribuer une licence Microsoft 365 ou Office 365
 
-1. Connectez-vous à Azure Active Directory. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+1. Connectez-vous à Azure Active Directory. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0 n’est](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge. 
+   > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge. 
 
 2. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, sinon Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles.
 
@@ -132,7 +134,7 @@ Si vous déployez des salles Microsoft Teams avec Exchange en local, vous utilis
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="enable-the-device-account"></a>Activer le compte d’appareil
 
@@ -145,9 +147,11 @@ Skype Entreprise Online PowerShell est utilisé pour gérer les services pour Mi
 > Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
 2. Obtenez l’adresse SIP du compte :
@@ -156,7 +160,18 @@ Skype Entreprise Online PowerShell est utilisé pour gérer les services pour Mi
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. Pour activer votre compte Salles Microsoft Teams, exécutez la commande ci-après :
+3. **Facultatif**. Si vous voulez attribuer un numéro de téléphone au compte, l’opération doit être effectuée à ce stade. Si vous souhaitez affecter un numéro de téléphone de routage direct :
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    Si vous affectez un numéro de téléphone fourni par Microsoft, utilisez l’cmdlet ci-dessous après avoir fourni à l’utilisateur une licence forfait d’appels :
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. Pour activer votre compte Salles Microsoft Teams, exécutez la commande ci-après :
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
@@ -179,7 +194,7 @@ Skype Entreprise Online PowerShell est utilisé pour gérer les services pour Mi
 
 Pour validation, vous pouvez utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer des comptes pour les salles Microsoft Teams](rooms-configure-accounts.md)
 

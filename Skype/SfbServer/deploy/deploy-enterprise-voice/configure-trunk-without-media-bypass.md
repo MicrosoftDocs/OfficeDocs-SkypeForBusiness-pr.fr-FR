@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Résumé : Configurez une trunk sans la déviation du média activée pour Skype Entreprise Server.'
-ms.openlocfilehash: c7941087dc2af820969a80cf68e8d01aa4356948
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff1c34e36906c8b9f5c88495e3c24239f572184a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803974"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106380"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une trunk sans déviation du média dans Skype Entreprise Server
 
@@ -108,7 +108,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
      c. Cliquez sur **OK**.
 
      > [!IMPORTANT]
-     > Il est important d’associer des enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation associé à la trunk en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de la connexion ne soit pas associée à un enregistrement d’utilisation PSTN qui approvisionnement vers une destination PSTN ou tout autre système en aval connecté via Skype Entreprise Server.
+     > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation associé à la trunk en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de la connexion ne soit pas associée à un enregistrement d’utilisation PSTN qui approvisionnement vers une destination PSTN ou tout autre système en aval connecté via Skype Entreprise Server.
 
 9. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN, puis cliquez sur les flèches vers le haut ou vers le bas.
 
@@ -119,7 +119,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
 11. **Activez l’historique des** appels de transmission pour permettre l’envoi d’informations d’historique des appels à l’homologue de passerelle du serveur de médiation.
 
-12. Activez le forward **P-Asserted-Identity** pour que les informations d’origine de l’appel PAI soient transmis entre le serveur de médiation et le côté passerelle (et vice versa), le cas présent.
+12. **Activez le forward P-Asserted-Identity** pour que les informations d’origine de l’appel PAI soient transmis entre le serveur de médiation et le côté passerelle (et vice versa), le cas présent.
 
 13. **Activer le minuteur de basculement de routage de trafic sortant** doit être sélectionné pour permettre un basculement rapide. La passerelle associée à cette jonction peut informer dans les 10 secondes du traitement de l’appel sortant. Le réroutage vers une autre ligne se produit si cette notification n’est pas reçue par le serveur de médiation. Sur des réseaux avec une latence qui peut retarder le temps de réponse ou si la passerelle prend plus de 10 secondes à répondre, le basculement rapide doit être désactivé.
 
@@ -156,7 +156,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 16. Assurez-vous que les règles de traduction de la trunk sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype Entreprise Server parcourt la liste des règles de traduction de haut en bas et utilise la première règle qui correspond au numéro composé. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de traduction, assurez-vous que les règles les plus restrictives apparaissent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à un numéro à 11 chiffres et une règle de traduction qui ne correspond qu’à des  numéros à 11 chiffres qui commencent par +1425, assurez-vous que la règle qui correspond à un numéro à 11 chiffres est triée sous la règle la plus restrictive.
+    > Skype Entreprise Server parcourt la liste des règles de traduction de haut en bas et utilise la première règle qui correspond au numéro composé. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de traduction, assurez-vous que les règles les plus restrictives apparaissent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à un numéro à 11 chiffres et une règle de traduction qui ne correspond qu’à des  numéros à 11 chiffres qui commencent par +1425, assurez-vous que la règle qui correspond à n’importe quel numéro à 11 chiffres est triée sous la règle la plus restrictive.
 
 17. Lorsque vous avez terminé de configurer la jonction, cliquez sur **OK**.
 
@@ -169,5 +169,4 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
 [Configuration d’une trunk avec déviation du média dans Skype Entreprise Server](configure-trunk-with-media-bypass.md)
 
-[Définition des règles de traduction](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-
+[Définition des règles de traduction](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

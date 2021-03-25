@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615040"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117082"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -38,7 +38,7 @@ Voici un exemple de la manière dont la hiérarchie est représentée dans l’a
 Les termes suivants seront importants lorsque vous naviguerez dans les hiérarchies. Teams sera appelé **« nodes**».
 
 * **Les nod racines** sont les plus élevés dans la hiérarchie. Dans l’exemple, Retail Communications est un nœud racine.
-* **Les nodes parent** et **enfant sont** des termes qui représentent une relation entre deux nod connectés. Dans l’exemple, le District 01 est un nœud enfant de la Zone 1.
+* **Les nodes parents** et **les nodes enfants** sont des termes qui représentent une relation entre deux nod connectés. Dans l’exemple, le District 01 est un nœud enfant de la Zone 1.
 * Plusieurs niveaux d’enfants sont appelés **descendants.** District 01, Store 01, Store 03, Store 07, District 02 et District 03 sont tous descendants de la Région 1.
 * Un nœud sans enfants est appelé **nœud de feuilles.** Ils se placent au bas d’une hiérarchie.
 * **Les équipes** de destinataires sont des équipes qui ont été sélectionnées pour recevoir un ensemble spécifique de contenu à publier. Ce doivent être des nodes de feuilles.
@@ -49,7 +49,7 @@ Avant de créer le schéma qui définit votre hiérarchie, vous devez planifier 
 
 ### <a name="permissions-to-publish"></a>Autorisations de publication
 
-L’autorisation de publier dépend du fait qu’un utilisateur est membre d’une équipe de la hiérarchie ainsi que de la relation qui existe entre cette équipe ou un ensemble d’équipes avec d’autres équipes de la hiérarchie.
+L’autorisation de publication varie selon qu’un utilisateur est membre d’une équipe de la hiérarchie ainsi que de la relation qui existe entre cette équipe ou un ensemble d’équipes avec d’autres équipes de la hiérarchie.
 
 > [!NOTE]
 > Les autorisations de publication sont également octroyées au propriétaire d’une équipe.
@@ -74,11 +74,11 @@ Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent 
 ## <a name="create-your-hierarchy"></a>Créer votre hiérarchie
 
 > [!NOTE]
-> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. [Reportez-vous à l’application](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) Gérer les tâches pour votre organisation dans Teams pour obtenir une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
+> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches aux équipes de destinataires. [Reportez-vous à l’application](./manage-tasks-app.md) Gérer les tâches pour votre organisation dans Teams pour obtenir une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
 
 Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
 
-Vous pouvez également définir les **compartiments,** qui sont les catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
+Vous pouvez également définir des **compartiments,** qui sont des catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
 
 ### <a name="add-required-columns"></a>Ajouter des colonnes requises
 
@@ -95,11 +95,11 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 
 ### <a name="add-attribute-columns"></a>Ajouter des colonnes d’attribut
 
-Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement celles sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut s’excluent mutuellement.
+Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement ceux sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut s’excluent mutuellement.
 
 |Méthodes d’ajout d’attributs|Description |Exemple  |
 |---|---------|---------|
-|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut au filtre des magasins par disposition, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
+|Si les valeurs d’un attribut s’excluent mutuellement, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
 |Si vous devez indiquer plusieurs valeurs pour un attribut et que les valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
 
 Lorsque vous ajoutez une colonne d’attribut, gardez les éléments suivants à l’esprit :
@@ -173,7 +173,7 @@ La commande retourne les champs suivants :
 Champ|Description
 -----|------------
 ID | ID unique pour le téléchargement.
-État | Statut de téléchargement. Les valeurs **sont Démarrage,** **Validation,** **Réussite** et **Échec**
+Statut | Statut de téléchargement. Les valeurs **sont Démarrage,** **Validation,** **Réussite** et **Échec**
 ErrorDetails | Détails en cas d’erreur de téléchargement. Pour plus d’informations sur les détails des erreurs, voir la section de dépannage. S’il n’y a pas d’erreur, ce champ est vide.
 LastUpdatedAt | Date et heure de la dernière mise à jour du fichier.
 LastModifiedBy | ID du dernier utilisateur qui a modifié le fichier.
@@ -253,7 +253,7 @@ Vous pouvez exécuter la commande suivante pour comprendre ce qui est à l’ori
 
 ### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>Vous recevez un message d’erreur lors du téléchargement de votre fichier CSV de schéma
 
-Notez le message d’erreur qui doit inclure des informations de dépannage pour indiquer la raison pour laquelle le schéma n’a pas pu être téléchargé. Examinez et modifiez votre fichier CSV de schéma en fonction des informations du message d’erreur, puis réessayez.
+Notez le message d’erreur qui doit inclure des informations de dépannage pour indiquer la raison pour laquelle le schéma n’a pas pu être chargé. Examinez et modifiez votre fichier CSV de schéma en fonction des informations du message d’erreur, puis réessayez.
 
 ### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>Vous recevez un message d’erreur « Erreur : InvalidTeamId » lorsque vous téléchargez votre fichier CSV de schéma
 
@@ -272,7 +272,7 @@ Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichie
 
 Assurez-vous que l’TeamId de votre fichier CSV de schéma correspond à l’ID de groupe qui s’affiche dans le Centre d’administration Microsoft Teams.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 * [Gérer l’application Tâches pour votre organisation dans Teams](manage-tasks-app.md)
 * [Présentation de Teams PowerShell](teams-powershell-overview.md)

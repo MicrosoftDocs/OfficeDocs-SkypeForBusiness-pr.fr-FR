@@ -22,30 +22,30 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment envoyer à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 5f281071dd4ae9a21f9148ac86943d4ab4ce36b8
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691140"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117202"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence dans Microsoft Teams
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur par courrier électronique ses informations d’audioconférence dans Microsoft Teams.
 
-Parfois, les utilisateurs de Microsoft Teams peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Vous pouvez le faire en cliquant sur **Envoyer les informations de la conférence dans un courrier électronique** sous les propriétés d'un utilisateur. Le courrier électronique que vous envoyez contiendra toutes les informations d’audioconférence, dont :
+Parfois, les utilisateurs de Microsoft Teams peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Pour ce faire, cliquez sur Envoyer les informations sur la conférence **par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, il contient toutes les informations sur l’audioconférence, notamment :
   
 - Le numéro de téléphone de conférence ou le numéro de téléphone à composer pour l'utilisateur.
     
-- L’ID de conférence de l’utilisateur.
+- L'ID de conférence de l'utilisateur.
     
    
-Voici un exemple de courrier électronique envoyé :
+Voici un exemple du message électronique envoyé :
   
 ![Exemple de message électronique de conférences téléphoniques](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer à un utilisateur un courrier électronique qui contient les informations d’audioconférence
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un courrier électronique avec des informations d’audioconférence à un utilisateur
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
@@ -76,11 +76,11 @@ Voici un exemple de courrier électronique envoyé :
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
     
   
 ## <a name="related-topics"></a>Rubriques connexes

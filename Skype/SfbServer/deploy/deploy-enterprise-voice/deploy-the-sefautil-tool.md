@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Déploiement de l’outil SEFAUtil dans Skype Entreprise Server.
-ms.openlocfilehash: 20cda161c182c8dfb426f61b793366b7f60f37d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 013890e3b65dfd3a8360da859a1c9179fa9b5a13
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812384"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105800"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déployer l’outil SEFAUtil dans Skype Entreprise
  
@@ -35,7 +35,7 @@ Pour déployer et gérer la prise d’appel de groupe, vous devez utiliser la ve
 Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal de votre déploiement. Pour exécuter l’outil SEFAUtil, vous devez exécuter les étapes 1, 2 et 3 à partir de l’Assistant Déploiement de Skype Entreprise sur l’ordinateur d’application approuvé. SEFAUtil nécessite la présence du magasin de configurations local, ainsi que d’un certificat.
   
 > [!NOTE]
-> Pour plus d’informations sur l’exécution de SEFAUtil, consultez l’article de blog « Comment faire pour que[SEFAutil s’exécute ?](https://go.microsoft.com/fwlink/?LinkId=278940)». 
+> Pour plus d’informations sur l’exécution de SEFAUtil, consultez l’article de blog « Comment faire pour que[SEFAutil s’exécute ?](/archive/blogs/jenstr/how-to-get-sefautil-running)». 
   
 ### <a name="to-deploy-sefautil"></a>Pour déployer SEFAUtil
 
@@ -81,5 +81,3 @@ Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal de v
    ```
 
 Les paramètres de forwarding d’appel de l’utilisateur s’affichent.
-    
-

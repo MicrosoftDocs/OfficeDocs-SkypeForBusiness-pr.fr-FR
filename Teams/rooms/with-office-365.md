@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft Teams avec Microsoft 365 ou Office 365, où Teams ou Skype Entreprise et Exchange sont tous deux en ligne.
-ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569120"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117332"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déployer des salles Microsoft Teams avec Microsoft 365 ou Office 365
 
 Lisez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft Teams avec Microsoft 365 ou Office 365, où Microsoft Teams ou Skype Entreprise et Exchange sont tous deux en ligne.
 
-La manière la plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de la Windows PowerShell. Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer de nouveaux comptes d’utilisateurs, ou à valider les comptes de ressources existants que vous avez afin de vous aider à les transformer en comptes d’utilisateurs de salles Microsoft Teams compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer des comptes que votre appareil Microsoft Teams Rooms utilisera.
+La manière la plus simple de configurer des comptes d’utilisateurs consiste à les configurer à l’aide de la Windows PowerShell. Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aidera à créer de nouveaux comptes d’utilisateurs, ou à valider les comptes de ressources existants que vous avez afin de vous aider à les transformer en comptes d’utilisateurs de salles Microsoft Teams compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer des comptes que votre appareil Microsoft Teams Rooms utilisera.
 
 ## <a name="requirements"></a>Conditions requises
 
@@ -42,11 +42,11 @@ Pour activer Skype Entreprise, vous devez avoir les produits suivants :
 
 - Votre compte Salles Microsoft Teams requiert au minimum une licence Skype Entreprise Online (plan 2), mais pas une licence Exchange Online. Pour plus d’informations, consultez les [licences Salles Microsoft Teams.](rooms-licensing.md)
 
-Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx)
+Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [description du service Skype Entreprise Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
 ### <a name="add-a-device-account"></a>Ajout d’un compte d’appareil
 
-1. Connectez-vous à Exchange Online PowerShell. Pour obtenir des instructions, [voir Se connecter à Exchange Online PowerShell.](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. Connectez-vous à Exchange Online PowerShell. Pour obtenir des instructions, [voir Se connecter à Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Dans Exchange Online PowerShell, créez une boîte aux lettres de salle ou modifiez une boîte aux lettres de salle existante. Par défaut, les boîtes aux lettres de salle n’ayant pas de comptes associés, vous devez ajouter un compte lorsque vous créez ou modifiez une boîte aux lettres de salle qui lui permet de s’authentifier auprès des systèmes de salle Skype v2.
 
@@ -82,11 +82,11 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
+   Pour plus d’informations sur la syntaxe et les paramètres, voir [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) et [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 3. Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de la salle pour améliorer l’expérience de réunion :
 
-   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent la décision de réservation de salle directement sans intervention humaine : libre = accepter ; occupé = refus.)
+   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention humaine : libre = accepter ; occupé = refus.)
 
    - AddOrganizerToSubject: $false (L’organisateur de la réunion n’est pas ajouté à l’objet de la demande de réunion.)
 
@@ -98,7 +98,7 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Il s’agit d’une salle de réunion Skype ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
+   - Réponse supplémentaire : « Il s’agit d’une salle de réunion Skype ! » (Texte supplémentaire à ajouter à la demande de réunion.
 
    Cet exemple configure ces paramètres sur la boîte aux lettres de salle rigel-01.
 
@@ -106,12 +106,12 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Connectez-vous à MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+4. Connectez-vous à MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0 n’est](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge.
+   > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge.
 
 5. Si vous ne souhaitez pas que le mot de passe expire, utilisez la syntaxe suivante :
 
@@ -149,7 +149,7 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
 > [!NOTE]
 > Si le mot de passe n’est pas réglé sur Jamais expirer, le compte ne se connecte plus sur l’appareil une fois la période d’expiration atteinte. Le mot de passe devra alors être modifié pour le compte et mis à jour localement sur l’appareil MTR.
 
-6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou exchange et Microsoft Teams ou Skype Entreprise ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles pour votre organisation Microsoft 365 ou Office 365 comme suit :
+6. Le compte de l’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ou Skype Entreprise ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles pour votre organisation Microsoft 365 ou Office 365 comme suit :
 
    ```Powershell
    Get-MsolAccountSku
@@ -173,7 +173,7 @@ Pour plus d’informations sur les plans Skype Entreprise Online, consultez la [
    Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
-   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
    Vous pouvez également ajouter des fonctionnalités Phone System à ce compte, mais vous devez tout d’abord la configurer. Pour [plus d’informations, voir Qu’est-ce que](../what-is-phone-system-in-office-365.md) le système téléphonique ? Cet exemple ajoute le plan Appels nationaux et internationaux PSTN :
 

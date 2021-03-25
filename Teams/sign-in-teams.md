@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711641"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107300"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 ==========================
@@ -109,9 +109,9 @@ Configurez les paramètres de configuration suivants dans le portail Azure Intun
 
 Une fois la configuration du compte définie, Teams restreint la possibilité de se connecter, de sorte que seuls les comptes autorisés sur les appareils inscrits bénéficient de l'accès.
 
-Pour créer une stratégie de configuration d’application pour les appareils iOS/iPadOS gérés, consultez [Ajouter des stratégies de configuration d’application pour les appareils iOS/iPadOS gérés](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
+Pour créer une stratégie de configuration d’application pour les appareils iOS/iPadOS gérés, consultez [Ajouter des stratégies de configuration d’application pour les appareils iOS/iPadOS gérés](/mem/intune/apps/app-configuration-policies-use-ios).
 
-Pour créer une stratégie de configuration d’application pour les appareils Android gérés, consultez [Ajouter des stratégies de configuration d’application pour les appareils Android gérés](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
+Pour créer une stratégie de configuration d’application pour les appareils Android gérés, consultez [Ajouter des stratégies de configuration d’application pour les appareils Android gérés](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Comment restreindre la connexion sur les appareils de bureau
 Les applications Teams sur Windows et MacOS prennent en charge les stratégies d’appareils qui restreignent la connexion à votre organisation. Les stratégies peuvent être définies via les solutions de gestion des appareils usuelles, telles que la gestion des appareils mobiles ou les objets de stratégie de groupe. 
@@ -150,7 +150,7 @@ Les utilisateurs mobiles peuvent se déconnecter de Teams en accédant au menu, 
 
 ### <a name="global-sign-in-and-sign-out"></a>Connexion et déconnexion globales
 
-L’application Android Teams prend désormais en charge la connexion et la déconnexion globales pour offrir une expérience de connexion et de déconnexion aisée pour les travailleurs de bureau. Les employés peuvent choisir un appareil dans le pool de périphériques partagé et effectuer une connexion unique personnelle afin de l’utiliser pour la durée de leur équipe. À la fin de leur équipe, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé. Pour plus d’informations sur la configuration d’un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+L’application Android Teams prend désormais en charge la connexion et la déconnexion globales pour offrir une expérience de connexion et de déconnexion aisée pour les travailleurs de bureau. Les employés peuvent choisir un appareil dans le pool de périphériques partagé et effectuer une connexion unique personnelle afin de l’utiliser pour la durée de leur équipe. À la fin de leur équipe, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé. Pour plus d’informations sur la configuration d’un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 L’expérience de connexion est similaire à l’expérience de signature Teams standard, tandis que la déconnexion se présente comme les deux images suivantes:
 
@@ -158,11 +158,11 @@ L’expérience de connexion est similaire à l’expérience de signature Teams
 
 ## <a name="urls-and-ip-address-ranges"></a>URL et plages d’adresses IP
 
-Teams a besoin d’une connexion à Internet. Pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans les plans Office 365, Secteur Public et autres cloud, consultez [URLs et plages d’adresses IP d’Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Teams a besoin d’une connexion à Internet. Pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans les plans Office 365, Secteur Public et autres cloud, consultez [URLs et plages d’adresses IP d’Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > Pour l’instant, Teams a besoin d’accéder (port TCP 443) au service Google ssl.gstatic.com pour tous les utilisateurs, c’est vrai même si vous n’utilisez pas Gstatic. Teams supprimera cette exigence prochainement (début 2020). nous mettrons à jour cet article en conséquence.
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

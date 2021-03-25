@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 2db96a3063ca019a8709d7d50cef5b28aea8f682
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 10c3c782ad824c46cf343ec611bcc70e79bdcd78
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810704"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116152"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Partenaires fédérés XMPP : création d’un nouveau ou modification d’un partenaire existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification de la configuration d’un partenaire XMPP](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [Création ou modification de la configuration d’un partenaire XMPP](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [Table Des paramètres de négociation pour les partenaires fédérés XMPP](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [Table Des paramètres de négociation pour les partenaires fédérés XMPP](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
-

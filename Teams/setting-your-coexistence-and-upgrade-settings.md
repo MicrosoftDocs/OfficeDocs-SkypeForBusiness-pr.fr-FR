@@ -18,17 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397569"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117072"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
 
-Lorsque vous mettre à niveau vos utilisateurs Skype Entreprise pour utiliser Teams, plusieurs options s’offrent à vous pour faciliter le processus pour vos utilisateurs. Vous avez la possibilité d’établir des paramètres de coexistence et de mise à niveau pour tous les utilisateurs de votre organisation à la fois, ou d’apporter des modifications aux paramètres d’un ou plusieurs utilisateurs de votre organisation. Notez que les versions antérieures des clients Skype Entreprise peuvent ne pas respecter ces paramètres. Pour plus d’informations sur les versions du client Skype Entreprise, allez sur la page des téléchargements et mises à jour [de Skype Entreprise.](https://docs.microsoft.com/skypeforbusiness/software-updates) 
+Lorsque vous mettre à niveau vos utilisateurs Skype Entreprise pour utiliser Teams, plusieurs options s’offrent à vous pour faciliter le processus pour vos utilisateurs. Vous avez la possibilité d’établir des paramètres de coexistence et de mise à niveau pour tous les utilisateurs de votre organisation à la fois, ou d’apporter des modifications aux paramètres d’un ou plusieurs utilisateurs de votre organisation. Notez que les versions antérieures des clients Skype Entreprise peuvent ne pas respecter ces paramètres. Pour plus d’informations sur les versions du client Skype Entreprise, voir la page des téléchargements et mises à jour [de Skype Entreprise.](/skypeforbusiness/software-updates) 
 
 Vous pouvez mieux comprendre les modes disponibles en lisant Comprendre Microsoft Teams et la coexistence et [l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md) de Skype Entreprise avec [Skype Entreprise.](coexistence-chat-calls-presence.md)  
 
@@ -46,7 +46,7 @@ Vous pouvez mieux comprendre les modes disponibles en lisant Comprendre Microsof
     - Définissez le mode **Coexistence.**
         - **Îles** : utilisez ce paramètre si vous souhaitez que les utilisateurs puissent utiliser Skype Entreprise et Teams simultanément.
         - **Skype Entreprise uniquement** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Skype Entreprise.
-        - **Collaboration dans Skype** Entreprise avec Teams : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent Skype Entreprise en plus de Teams pour la collaboration de groupe (canaux).
+        - **Collaboration dans Skype Entreprise avec Teams** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent Skype Entreprise en plus de Teams pour la collaboration de groupe (canaux).
         - Skype Entreprise avec la collaboration et les réunions Teams - Utilisez ce paramètre si vous souhaitez que vos **utilisateurs** utilisent Skype Entreprise en plus d’utiliser Teams pour la collaboration de groupe (canaux) et les réunions Teams.
         - **Teams uniquement** - Utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que même avec ce paramètre, les utilisateurs peuvent toujours participer à des réunions hébergées dans Skype Entreprise.
         
@@ -54,7 +54,7 @@ Vous pouvez mieux comprendre les modes disponibles en lisant Comprendre Microsof
     - Définissez **l’application Préférée pour que les utilisateurs participent à** des réunions Skype Entreprise. Ce paramètre détermine l’application utilisée pour participer à des réunions Skype Entreprise et est honorée quelle que soit la valeur du mode de coexistence.
       - **Application Réunions Skype**
       - **Skype Entreprise avec des fonctionnalités limitées**
-    - Définissez si vous **décidez de télécharger l’application Teams en arrière-plan pour les utilisateurs de Skype Entreprise.**  Ce paramètre télécharge en mode silencieux l’application Teams pour les utilisateurs exécutant Skype Entreprise sur Windows. Il est honoré uniquement si l’utilisateur utilise le mode coexistence avec Teams uniquement ou si les notifications de mise à niveau en attente sont activées dans Skype Entreprise.
+    - Définissez si vous **décidez de télécharger l’application Teams en arrière-plan pour les utilisateurs de Skype Entreprise.**  Ce paramètre télécharge en mode silencieux l’application Teams pour les utilisateurs exécutant Skype Entreprise sur Windows. Il est honoré uniquement si le mode coexistence de l’utilisateur est Teams uniquement ou si les notifications de mise à niveau en attente sont activées dans Skype Entreprise.
 3. Cliquez **sur Enregistrer** après avoir apporté vos modifications.
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Définir les options de mise à niveau pour un seul utilisateur dans votre organisation
@@ -73,7 +73,7 @@ Vous pouvez mieux comprendre les modes disponibles en lisant Comprendre Microsof
 4. Si vous sélectionnez un mode de **coexistence** autre que Utiliser les **paramètres** à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype Entreprise de l’utilisateur qui sera bientôt mise à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en enableant l’option Notifier l’utilisateur **Skype** Entreprise.
 5. Cliquez **sur Enregistrer** après avoir apporté vos modifications.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Rubriques connexes
 [Planifiez votre voyage](upgrade-plan-journey.md)
 
 [Comprendre le parcours de coexistence et de mise à niveau de Skype Entreprise et Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

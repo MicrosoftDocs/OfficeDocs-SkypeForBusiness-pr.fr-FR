@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: Les administrateurs peuvent en savoir plus sur la gestion des mises à jour de Windows Update et des mises à jour des fonctionnalités Windows pour les salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e52c1fdf3bb35be6869320aa57e6f5aff5fd0773
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c7bb233ceedadeaf9c7f14ddf831bd9d324d9211
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905306"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117362"
 ---
 # <a name="manage-windows-updates"></a>Gérer les mises à jour Windows
 
@@ -37,15 +37,15 @@ Les mises à jour Windows peuvent être gérées comme expliqué dans les sectio
 
 ## <a name="windows-updates-for-business-gpo-or-intune"></a>Windows Updates for Business (GPO ou Intune)  
 
-- [Téléchargement de Windows Updates for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)
+- [Téléchargement de Windows Updates for Business](/windows/deployment/update/waas-manage-updates-wufb)
 - Les mises à jour sont téléchargées à partir de Windows Update ou de votre appareil WSUS, mais avec des retards configurés au-delà de la date de publication d’origine.
 - Vous pouvez utiliser plusieurs utils ou stratégies filtrées pour créer des « anneaux » de déploiement où les administrateurs peuvent spécifier les appareils qui installent les mises à jour de qualité en premier et ceux qui seront installés ultérieurement. La fiabilité et les performances peuvent être testées sur un sous-ensemble de systèmes avant de déployer les mises à jour dans l’ensemble du déploiement sans que cela ne se passe par la gestion des mises à jour Windows dans Configuration Manager.
-- WSUS et Windows Updates [](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) for Business peuvent être configurés en même temps si vous souhaitez à la fois la gestion de la bande passante et le contrôle de Windows Updates for Business.
+- WSUS et Windows Updates [](/windows/deployment/update/waas-integrate-wufb) for Business peuvent être configurés en même temps si vous souhaitez à la fois la gestion de la bande passante et le contrôle de Windows Updates for Business.
 - Mises à jour de fonctionnalités. Consultez les notes qui suivent.
 
 ## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
 
-- [Téléchargement de WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+- [Téléchargement de WSUS/Configuration Manager](/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Tout comme Windows Update for Business, mais avec l’option supplémentaire de cibler des Ko spécifiques à l’intérieur de chaque « anneau » ou du déploiement entier. Chaque mise à jour peut être déployée et testée individuellement à tout moment, plutôt que de s’appuyer sur un certain délai.
 - Mises à jour de fonctionnalités. Consultez les notes qui suivent.
 

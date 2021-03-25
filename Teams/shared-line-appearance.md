@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Découvrez comment envoyer à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b6a9e8dfba0db32eb4f02f1f4d4e9ea5f2c4be3e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583833"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117042"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -40,7 +40,7 @@ L’apparence de ligne partagée fait partie de la fonctionnalité de délégati
 
 Pour être délégué ou configurer la délégation, un utilisateur doit avoir un système téléphonique avec une connectivité PSTN (licence de plan d’appel ou routage direct OnlineVoiceRoutingPolicy) pour être délégué ou configurer la délégation et permettre à d’autres utilisateurs d’effectuer ou de recevoir des appels en leur nom.
 
-Les responsables et les délégués doivent avoir un système téléphonique avec connectivité PSTN (une licence de plan d’appels ou une licence de routage direct OnlineVoiceRoutingPolicy). L’expérience de ligne partagée fait partie de la délégation et est incluse dans Phone System. Pour plus d’informations sur le modèle de licence, consultez [la description du service Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+Les responsables et les délégués doivent avoir un système téléphonique avec connectivité PSTN (une licence de plan d’appels ou une licence de routage direct OnlineVoiceRoutingPolicy). L’expérience de ligne partagée fait partie de la délégation et est incluse dans Phone System. Pour plus d’informations sur le modèle de licence, consultez [la description du service Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et de l’apparence de ligne partagée
 
@@ -68,7 +68,7 @@ L’apparence de ligne partagée est actuellement prise en charge par les applic
 | Afficher l’affichage des délégués par le responsable | Oui | Oui | Oui | Non | Non |
 | Un administrateur ou un responsable peut maintenir ou reprendre | Oui | Oui | Oui | Non | Non |
 
-## <a name="limitations"></a>Limitations
+## <a name="limitations"></a>Limites
 
 Les responsables peuvent ajouter jusqu’à 25 délégués, et les délégués peuvent avoir jusqu’à 25 responsables. Il n’y a pas de limite au nombre de relations de délégation qui peuvent être créées dans un client. 
  

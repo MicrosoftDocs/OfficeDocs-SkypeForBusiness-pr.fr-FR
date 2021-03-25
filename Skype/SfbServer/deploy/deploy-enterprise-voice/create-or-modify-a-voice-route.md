@@ -1,5 +1,5 @@
 ---
-title: Créer ou modifier un itinéraire de voix dans Skype Entreprise
+title: Création ou modification d’un itinéraire de messagerie vocale dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Résumé : Découvrez comment créer ou modifier un itinéraire de messagerie vocale dans Skype Entreprise Server à l’aide du Panneau de contrôle Skype Entreprise Server.'
-ms.openlocfilehash: c9f1a234bf8aeeb1bfeb05f1464a48eb0e964405
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c6f1e50971551866cfa6cb12eb6a259ac2f932f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820454"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105840"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de voix dans Skype Entreprise
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Création ou modification d’un itinéraire de messagerie vocale dans Skype Entreprise
  
-**Résumé :** Découvrez comment créer ou modifier un itinéraire de voix dans Skype Entreprise Server à l’aide du Panneau de contrôle Skype Entreprise Server.
+**Résumé :** Découvrez comment créer ou modifier un itinéraire de messagerie vocale dans Skype Entreprise Server à l’aide du Panneau de contrôle Skype Entreprise Server.
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer un itinéraire de voix à l’aide du Panneau de contrôle Skype Entreprise Server
 
@@ -49,15 +49,15 @@ ms.locfileid: "49820454"
     
    - **Chiffres de début pour les nombres** que vous souhaitez autoriser : entrez les valeurs de préfixe que cet itinéraire doit prendre en charge (y compris le + de début si nécessaire). Par exemple, tapez +425, puis cliquez sur **Ajouter.** Répétez cette étape pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
     
-   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire soit adapté. Par exemple, pour exclure de l’itinéraire des numéros commençant par +425237, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK.**
+   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire s’adaptera. Par exemple, pour exclure de l’itinéraire des numéros commençant par +425237, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK.**
     
-   - Pour définir le modèle de correspondance manuellement, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis saisissez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir « Expressions régulières [.NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927)». 
+   - Pour définir le modèle de correspondance manuellement, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis saisissez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
     
 9. Sélectionnez l’option **Supprimer l’ID de l’appelant** si vous ne souhaitez pas que l’ID du téléphone à l’origine de l’appel sortant soit affiché au destinataire. Si vous sélectionnez cette option, vous devez spécifier un **autre ID** d’appelant qui apparaîtra sur l’affichage de l’ID d’appelant du destinataire.
     
 10. Pour associer une ou plusieurs liaisons  à l’itinéraire des messages vocaux, cliquez sur Ajouter, puis sélectionnez une trunk dans la liste.
     
-11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté  (PSTN) à l’itinéraire des communications vocales, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise.
+11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté  (PSTN) à l’itinéraire des communications vocales, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN définis pour votre déploiement Voix Entreprise.
     
     > [!NOTE]
     > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise.](view-pstn-usage-records.md) > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
@@ -96,15 +96,15 @@ ms.locfileid: "49820454"
     
    - **Chiffres de début pour les nombres** que vous souhaitez autoriser : entrez les valeurs de préfixe que cet itinéraire doit prendre en charge (y compris le + de début si nécessaire). Par exemple, tapez +425, puis cliquez sur **Ajouter.** Répétez cette étape pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
     
-   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire soit adapté. Par exemple, pour exclure de l’itinéraire des numéros commençant par +425237, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK.**
+   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire s’adaptera. Par exemple, pour exclure de l’itinéraire des numéros commençant par +425237, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK.**
     
-   - Pour définir manuellement le  modèle de  correspondance, cliquez sur Modifier dans le modèle Créer un modèle pour correspondre à l’outil, puis tapez une expression régulière .NET Framework pour spécifier le modèle de correspondance pour les numéros de téléphone de destination à laquelle l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir « Expressions régulières [.NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927)». 
+   - Pour définir manuellement le  modèle de  correspondance, cliquez sur Modifier dans le modèle Créer un modèle pour correspondre à l’outil, puis tapez une expression régulière .NET Framework pour spécifier le modèle de correspondance pour les numéros de téléphone de destination auquel l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
     
 7. Sélectionnez **Supprimer l’ID** de l’appelant si vous ne souhaitez pas que l’ID du téléphone qui fait l’appel sortant s’affiche pour le destinataire de l’appel. Si vous sélectionnez cette option, vous devez spécifier un **autre ID** d’appelant qui apparaîtra sur l’affichage de l’ID d’appelant du destinataire.
     
 8. Pour associer une ou plusieurs liaisons PSTN (réseau téléphonique commuté) à l’itinéraire des communications vocales, cliquez sur **Ajouter,** puis sélectionnez une trunk dans la liste.
     
-9. Pour associer une ou plusieurs utilisations PSTN  à l’itinéraire des services vocaux, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise réseau.
+9. Pour associer une ou plusieurs utilisations PSTN  à l’itinéraire des messages vocaux, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise réseau.
     
     > [!NOTE]
     > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise.](view-pstn-usage-records.md) > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise.](voice-policy-and-pstn-usage-records.md) 
@@ -127,7 +127,6 @@ ms.locfileid: "49820454"
 
 [Afficher les enregistrements d’utilisation PSTN dans Skype Entreprise](view-pstn-usage-records.md)
   
-[Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
+[Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
   
 [Publication des modifications en attente de la configuration du routage des voix dans Skype Entreprise](voice-route-config-changes.md)
-

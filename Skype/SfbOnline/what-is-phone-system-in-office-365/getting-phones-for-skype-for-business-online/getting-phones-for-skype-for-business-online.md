@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez quels téléphones fonctionnent avec Skype Entreprise à partir de Polycom, HP et Mitel, ainsi que les licences requises. '
-ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 03f9a6d5cf3ac496c4828825e68f068ec98a14ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220434"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106440"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
-Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
+Skype Entreprise Online qualifie et prend en charge les téléphones de bureau pour les utilisateurs qui souhaitent une expérience téléphonique traditionnelle, plutôt que d’utiliser l’application Skype Entreprise. Cette rubrique couvre les téléphones et les versions de microprogramme pris en charge pour une utilisation dans Skype Entreprise Online et d’autres informations qui peuvent vous aider lors de la configuration des téléphones dans votre organisation.
 
 > [!NOTE]
 > Skype Entreprise sera progressivement remplacé par Microsoft Teams comme mode de communication principal dans Microsoft 365 et Office 365.  Pour plus d’informations, voir une nouvelle vision des communications intelligentes dans [Office 365.](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)
 >
->Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, consultez les appareils Microsoft Teams pour [les communications intelligentes.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+>Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, consultez les appareils [Microsoft Teams pour les communications intelligentes.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
   
 ## <a name="supported-phones"></a>Téléphones pris en charge
   
 Microsoft s’associe et travaille en étroite collaboration avec Polycom, Yealink et AudioCodes pour développer et certifier une grande variété d’appareils via le Partner IP Phone Program (PIP) pour le système téléphonique.
   
-Lorsque vous commandez de nouveaux téléphones pour Skype Entreprise, il est important d’acheter des téléphones avec *l’ID de produit qui leur est fourni.* Ces ID de produit vous assurent que la version de Skype Entreprise Online qualifiée sera installée sur les téléphones que vous recevez.
+Lors de la commande de nouveaux téléphones pour Skype Entreprise, il est important d’acheter des téléphones avec *l’ID de produit qui leur est fourni.* Ces ID de produit vous assurent que la version de Skype Entreprise Online qualifiée sera installée sur les téléphones que vous recevez.
   
 |||
 |:-----|:-----|
@@ -74,16 +74,16 @@ Il s’agit de la version de logiciel minimale requise pour que les téléphones
 |Yealink  <br/> |X.8.1.52  <br/> |Février 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Décembre 2016  <br/> |
 
-Pour plus d’informations sur les versions de microprogramme certifiées actuelles, [consultez les téléphones IP Skype Entreprise.](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones)
+Pour plus d’informations sur les versions de microprogramme certifiées actuelles, [consultez les téléphones IP Skype Entreprise.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 > [!NOTE]
 > Les téléphones Lync Phone Edition (LPE) configurés pour votre déploiement local doivent être mis à jour avec la version minimale ou ultérieure du microprogramme avant la migration des utilisateurs vers Skype Entreprise Online. Si vous migrez vos utilisateurs du déploiement local vers Skype Entreprise Online avant de mettre à jour le microprogramme sur les téléphones, ces utilisateurs ne pourront pas se connecter à Skype Entreprise Online avec leurs téléphones. 
   
 ## <a name="required-licenses"></a>Licences requises
 
-Skype Entreprise Online ne nécessite aucune licence Microsoft supplémentaire en plus des licences utilisateur. Pour en savoir plus sur les licences utilisateur requises, consultez la gestion des licences des modules [add-on dans Skype Entreprise](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)et Microsoft Teams.
+Skype Entreprise Online ne nécessite aucune licence Microsoft supplémentaire en plus des licences utilisateur. Pour en savoir plus sur les licences utilisateur requises, consultez la gestion des licences des modules [add-on dans Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)Entreprise et Microsoft Teams.
   
-Les modèles de licence du fabricant peuvent varier entre le microprogramme certifié d’Open SIP et de Skype Entreprise. Si vous réaffectez un modèle certifié avec un microprogramme Open SIP, vous devrez vérifier les conditions de licences du microprogramme auprès du fabricant.
+Les modèles de licence du fabricant peuvent varier entre le microprogramme certifié Open SIP et le microprogramme certifié de Skype Entreprise. Si vous réaffectez un modèle certifié avec un microprogramme Open SIP, vous devrez vérifier les conditions de licences du microprogramme auprès du fabricant.
   
 ## <a name="skype-for-business-online-connected-phones-feature-set"></a>Ensemble des fonctionnalités de téléphones connectés Skype Entreprise Online
 
@@ -120,12 +120,11 @@ Pour obtenir l’ensemble des fonctionnalités et fonctionnalités de l’appare
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 Pour obtenir des instructions de configuration détaillées, consultez la page [Déploiement de téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 
-## <a name="related-topics"></a>Sujets associés
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
- 

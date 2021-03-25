@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec le routage direct du système téléphonique, ce qui vous permet de raccourcir le chemin d’accès du trafic de médias et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e21007c31dca540e4f659aad627911b4aec2e456
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460864"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115592"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -32,15 +32,15 @@ La dérivation média vous permet de raccourcir le chemin d’accès au trafic d
 
 Vous pouvez contrôler la dérivation média pour chaque SBC à l’aide de la commande **Set-CSOnlinePSTNGateway** avec le paramètre **-MediaBypass** définie sur true ou false. Si vous activez la dérivation média, cela ne signifie pas que tout le trafic de médias restera au sein du réseau d’entreprise. Cet article décrit le flux d’appels dans différents scénarios.    
 
-Les diagrammes ci-dessous illustrent la différence de flux d’appels avec et sans contournement des médias.
+Les diagrammes ci-dessous illustrent la différence de flux d’appels avec et sans dérivation média.
 
-Sans contournement multimédia, lorsqu’un client effectue ou reçoit un appel, le trafic de signalisation et le flux de médias entre le SBC, le système téléphonique Microsoft et le client Teams, comme illustré dans le diagramme suivant :
+Sans dérivation média, lorsqu’un client effectue ou reçoit un appel, le trafic de signalisation et le flux de médias entre le SBC, le système téléphonique Microsoft et le client Teams, comme illustré dans le diagramme suivant :
 
 > [!div class="mx-imgBorder"]
-> ![Affiche le trafic de signalisation et le flux multimédia sans contournement média](media/direct-routing-media-bypass-1.png)
+> ![Affiche les signaux et le flux de médias sans contournement multimédia](media/direct-routing-media-bypass-1.png)
 
 
-Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le même réseau que le SBC. Par exemple, supposons qu’un utilisateur se trouve dans un bâtiment dans Le Monde appelle un utilisateur PSTN : 
+Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le même réseau que le SBC. Par exemple, supposons qu’un utilisateur se trouve dans un bâtiment à Base effectue un appel à un utilisateur PSTN : 
 
 - **Sans contournement** des médias, les médias circulent via Amsterdam ou Dublin (où les centres de données Microsoft sont déployés), puis reviennent au SBC dans Le Monde. 
 
@@ -70,7 +70,7 @@ Si l’utilisateur dispose d’un accès direct à l’adresse IP publique du SB
 
 Le diagramme suivant montre le flux d’appels lorsque la dérivation média est activée, que le client est interne et que le client peut accéder à l’adresse IP publique du support SBC : 
 
-- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux flux [d’appels de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux flux [d’appels de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - Le trafic de signalisation SIP prend toujours les chemins 4 et 4' (selon le sens de trafic). Les médias restent locaux et prennent le chemin 5b.
 
@@ -91,7 +91,7 @@ Par exemple, supposons que l’utilisateur soit externe et que l’administrateu
 
 Le diagramme suivant illustre le flux d’appels lorsque la dérivation média est activée, que le client est externe et que le client ne peut pas accéder à l’adresse IP publique du contrôleur de session en bordure (les médias sont relayés par le relais de transport Teams).
 
-- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux flux [d’appels de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Les flèches et les valeurs numériques des chemins d’accès sont conformes aux flux [d’appels de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - Le média est relayé par les chemins d’accès 3, 3', 4 et 4'
 
@@ -102,11 +102,11 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation média e
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flux d’appels si un utilisateur se trouve en dehors du réseau et a accès à l’adresse IP publique du SBC
 
 > [!NOTE]
-> Cette configuration n’est pas recommandée, car elle ne prend pas en compte les relais de transport Teams. Au lieu de cela, vous devez tenir compte du scénario précédent où l’utilisateur n’a pas accès à l’adresse IP publique du SBC. 
+> Cette configuration n’est pas recommandée, car elle ne prend pas en compte les relais de transport Teams. Au lieu de cela, vous devez tenir compte du scénario précédent dans lequel l’utilisateur n’a pas accès à l’adresse IP publique du SBC. 
 
 Le diagramme suivant montre le flux d’appels lorsque la dérivation média est activée, que le client est externe et que le client peut atteindre l’adresse IP publique du support SBC.
 
-- Les flèches et les valeurs numériques des chemins d’accès sont conformes à l’article sur les flux d’appels [de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Les flèches et les valeurs numériques des chemins d’accès sont conformes à l’article sur les flux d’appels [de Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - Le trafic de signalisation SIP prend toujours les chemins 3 et 3' (selon le sens du trafic). Flux multimédias en utilisant le chemin d’accès 2.
 
@@ -129,7 +129,7 @@ Microsoft Cloud peut utiliser deux composants dans le chemin d’accès du trafi
 Le diagramme suivant montre deux flux d’appels : un avec la dérivation média activée et la seconde avec la dérivation média désactivée. Notez que le diagramme illustre uniquement le trafic provenant d’utilisateurs - ou destinés à des utilisateurs finaux.  
 - Le contrôleur de média est un microservice dans Azure qui attribue des processeurs multimédias et crée des offres SDP (Session Description Protocol).
 
-- Le proxy SIP est un composant qui traduit le signalisation HTTP REST utilisé dans Teams en SIP.    
+- Le proxy SIP est un composant qui traduit en SIP le signalisation REST HTTP utilisé dans Teams.    
 
 > [!div class="mx-imgBorder"]
 > ![Présente les flux d’appels avec la dérivation média activée et désactivée](media/direct-routing-media-bypass-6.png)
@@ -142,8 +142,8 @@ Le tableau ci-dessous résume la différence entre les processeurs de média et 
 Chemin de médias pour les appels non contournements pour les utilisateurs finaux | Toujours | Si le client ne parviennent pas à joindre le processeur de média directement | 
 Dans le chemin de médias pour les appels contournements pour les utilisateurs finaux | Jamais | Si le client ne peut pas accéder au SBC sur l’adresse IP publique | 
 Dans le chemin multimédia des applications vocales | Toujours | Jamais | 
-Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison | 
-Nombre d’instances dans le monde et emplacement | 10 total : 2 dans la région Est et Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple
+Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison. | 
+Nombre d’instances dans le monde et emplacement | 10 total : 2 dans l’Est et l’Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple
 
 Les plages d’adresses IP sont les plus diverses :
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
@@ -174,13 +174,13 @@ Le routage direct est proposé dans les environnements Microsoft 365 ou Office 3
 - Microsoft 365 ou Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD En savoir plus sur les [environnements Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) et us Government, tels que GCC, GCC High et DoD.
+- Office 365 DoD En savoir plus sur les [environnements Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) et us Government, tels que GCC, GCC High et DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Environnements Microsoft 365, Office 365 et GCC Office 365
 
 Les points de connexion pour le routage direct sont les trois FQDN suivants :
 
-- **sip.pstnhub.microsoft.com** , vous devez d’abord essayer le FQDN global. Lorsque le SBC envoie une demande de résolution de ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de données Azure principal affecté au SBC. L’affectation est basée sur les mesures de performance des centres de données et la proximité géographique par rapport au SBC. L’adresse IP renvoyée correspond au FQDN principal.
+- **sip.pstnhub.microsoft.com** , vous devez d’abord essayer le FQDN global. Lorsque le SBC envoie une demande pour résoudre ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de données Azure principal affecté au SBC. L’affectation est basée sur les mesures de performance des centres de données et la proximité géographique par rapport au SBC. L’adresse IP renvoyée correspond au FQDN principal.
 
 - **sip2.pstnhub.microsoft.com** (FQDN secondaire) géographiquement à la région de deuxième priorité.
 
@@ -190,7 +190,7 @@ Vous devez placer ces trois FQDN pour :
 
 - Offrez une expérience optimale (moins chargé et le plus proche du centre de données SBC attribué en interrogeant le premier FQDN).
 
-- Offrez un échec lorsqu’une connexion à partir d’un SBC est établie vers un centre de données qui rencontre un problème temporaire. Pour plus d’informations, voir le mécanisme deover ci-dessous.
+- Offrez unover lorsqu’une connexion à partir d’un SBC est établie vers un centre de données qui rencontre un problème temporaire. Pour plus d’informations, voir le mécanisme deover ci-dessous.
 
 
 Les noms de **sip.pstnhub.microsoft.com,** **sip2.pstnhub.microsoft.com** et sip3.pstnhub.microsoft.com sont  résolus avec l’une des adresses IP suivantes :
@@ -222,7 +222,7 @@ Vous devez ouvrir des ports pour toutes ces adresses IP dans votre pare-feu pour
 
 Le point de connexion pour le routage direct est le FQDN suivant :
 
-**sip.pstnhub.gov.teams.microsoft.us** – FQDN global. Étant donné que l’environnement GCC High existe uniquement dans les centres de données américains, il n’existe aucun nom de fQDN secondaire et secondaire secondaire.
+**sip.pstnhub.gov.teams.microsoft.us** – FQDN global. Étant donné que l’environnement GCC High existe uniquement dans les centres de données des États-Unis, il n’existe aucun nom de FQDN secondaire et secondaire.
 
 Les noms de noms de sip.pstnhub.gov.teams.microsoft.us seront résolus à l’une des adresses IP suivantes :
 
@@ -233,7 +233,7 @@ Vous devez ouvrir des ports pour toutes ces adresses IP dans votre pare-feu pour
 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
-La demande de port est la même pour tous les environnements Office 365 pour lequel un routage direct est proposé :
+Les exigences de port sont les mêmes pour tous les environnements Office 365 pour lequel un routage direct est proposé :
 - Microsoft 365 ou Office 365
 - Office 365 GCC
 - Office 365 GCC High
@@ -301,9 +301,9 @@ UDP/SRTP | Relais de transport | SBC | 50 000 -59 999    | Défini sur le SBC |
 
 Pour l’instant, la dérivation média ne prend en charge que la version v4 des relais de transport. Nous introduirons la prise en charge de la v6 à l’avenir. 
 
-Vous devez ouvrir les ports 3478 et 3479 pour la transition. Lorsque Microsoft introduit la prise en charge des relais de transport v6 avec la dérivation média, vous n’avez pas besoin de reconfigurer votre équipement réseau ou SBCS. 
+Vous devez ouvrir les ports 3478 et 3479 pour la transition. Lorsque Microsoft introduit la prise en charge des relais de transport v6 avec la dérivation média, vous n’avez pas besoin de reconfigurer votre équipement réseau ou SBCs. 
 
-### <a name="requirements-for-using-media-processors"></a>Exigences pour l’utilisation de processeurs multimédias
+### <a name="requirements-for-using-media-processors"></a>Conditions requises pour l’utilisation de processeurs multimédias
 
 Les processeurs multimédias sont toujours dans le chemin de médias des applications vocales et des clients Web (par exemple, les clients Teams dans Edge ou Google Chrome). La configuration requise est la même que pour une configuration sans contournement.
 
@@ -333,7 +333,7 @@ UDP/SRTP | Processeur multimédia | SBC | 3478, 3479 et 49 152 – 53 247    | D
 
 Si vous migrez vers la dérivation média à partir d’une dérivation non multimédia et souhaitez confirmer la fonctionnalité avant de migrer toute utilisation vers la dérivation média, vous pouvez créer une ligne distincte et une stratégie de routage vocale en ligne distinctes pour router vers la ligne de dérivation média et affecter à des utilisateurs spécifiques. 
 
-Étapes de configuration générales :
+Étapes de configuration de haut niveau :
 
 - Identifiez les utilisateurs qui testent la dérivation média.
 
@@ -355,7 +355,7 @@ Utilisateurs avec ligne de dérivation média | 20 | sbc2.contoso.com:5061 | fal
 Les deux ligne peuvent pointer vers le même SBC avec la même adresse IP publique. Les ports de signalisation TLS sur le SBC doivent être différents, comme illustré dans le diagramme suivant. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms **(sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 
 > [!div class="mx-imgBorder"]
-> ![Affiche les deux ligne peut pointer vers le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
+> ![Affiche les deux ligne pointant vers le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
 
 Pour plus d’informations sur la configuration de deux ligne sur le même SBC, consultez la documentation fournie par votre fournisseur SBC :
 
@@ -373,5 +373,3 @@ Pour tous les autres points de terminaison qui ne supportent pas la dérivation 
 ## <a name="see-also"></a>Voir aussi
 
 [Configurer le contournement de média avec un routage direct](direct-routing-configure-media-bypass.md)
-
-

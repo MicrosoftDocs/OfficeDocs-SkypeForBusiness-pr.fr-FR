@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et ville, et spécifier la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3b62812829f2c8742fb9910b1997b64101fe2ff8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838174"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117252"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
-Lorsque vous souhaitez que les utilisateurs de votre organisation passer et recevoir des appels téléphoniques, vous devez utiliser le Centre d’administration **Microsoft Teams** et obtenir les numéros de téléphone qui peuvent être affectés aux utilisateurs. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
+Lorsque vous souhaitez que les utilisateurs de votre organisation passer et recevoir des appels téléphoniques, vous devez utiliser le Centre d’administration **Microsoft Teams** et obtenir les numéros de téléphone qui peuvent être affectés aux utilisateurs. Le numéro de téléphone que vous affectez à un utilisateur sera un numéro de téléphone que vous avez choisi pour votre organisation et qui sera répertorié dans la liste de listes modifiables lorsque vous modifiez les propriétés de l’utilisateur et cliquez sur **Affecter.**
   
 Avant d’attribuer des numéros de téléphone à vos utilisateurs, vous devez utiliser la **page** Obtenir de nouveaux numéros pour rechercher les numéros disponibles dans une zone. Vous pouvez effectuer une recherche **par pays ou région,** **type** de numéro et **emplacement,** puis entrer le nombre de numéros de téléphone dont vous aurez besoin pour vos utilisateurs. 
   
@@ -47,7 +47,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 2. Dans le navigation de gauche, **sélectionnez Numéros**  >  **de téléphone vocal** Obtenir de nouveaux  >  **numéros.**
   
     > [!IMPORTANT]
-    > Pour que vous  voyez l’option Voix dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, vous devez d’abord acheter au moins une licence **Entreprise E5,** une licence de module add-on Phone **System** ou une licence de module de conférence **audio.**  
+    > Pour que vous voyez l’option Voix dans le navigation gauche du Centre d’administration Microsoft  Teams, vous devez d’abord acheter au moins une licence **Entreprise E5,** une licence de module logiciel phone system ou une licence de module-conférence  **audio.**  
 
 3. Dans la page Sélectionner un emplacement et  **une quantité,** sélectionnez un emplacement dans la liste de listes de listes de pays ou de région.
 
@@ -60,25 +60,24 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 7. Sous **Quantité,** entrez le nombre de numéros de téléphone que vous souhaitez pour votre organisation, puis cliquez sur **Suivant.** Vous avez 10 minutes pour sélectionner vos numéros de téléphone. Si vous prenez plus de 10 minutes, les numéros seront retournées au pool de numéros de téléphone.
 
     > [!NOTE]
-    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), en regard **de Quantité.** 
+    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), répertoriés en regard **de Quantité.** 
   
 8. Dans la page **Obtenir des** numéros, sélectionnez les numéros de téléphone de votre choix, cliquez sur **Acquérir** les numéros, puis sur **Suivant.**
 
     > [!IMPORTANT]
-    > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences en votre possession. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences, augmentez ce nombre de 10 pour cent, puis ajoutez encore 10. Par exemple, si vous avez 100  licences Plan d’appels nationaux et/ou Forfait d’appels internationaux, vous pouvez réserver 120 numéros de téléphone, en supposant que vous n’avez pas encore acquis certains numéros de téléphone pour ces 100 utilisateurs.  Pour plus d’informations, consultez la rubrique [Combien de numéros de téléphone pouvez-vous obtenir ?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences en votre possession. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences, augmentez ce nombre de 10 pour cent, puis ajoutez encore 10. Par exemple, si vous avez 100  licences Plan d’appels nationaux et/ou Forfait d’appels internationaux, vous pouvez réserver 120 numéros de téléphone, en supposant que vous n’avez pas encore acquis certains numéros de téléphone pour ces 100 utilisateurs.  Pour plus d’informations, consultez la rubrique [Combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md)
 
 9. Dans la page **de confirmation,** vérifiez vos choix, puis cliquez sur **Placer une commande.**
 
 10. Lorsque vous revenir à la page **Numéros** de téléphone, sélectionnez  le ou les numéros de téléphone que vous voulez affecter, puis cliquez sur Modifier pour l’affecter à un utilisateur.  
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
+[Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
+[Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
 
 [Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-

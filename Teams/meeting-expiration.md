@@ -16,22 +16,22 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration d’une réunion dans Microsoft Teams.
+description: Découvrez comment utiliser les paramètres de stratégie de réunion pour contrôler l’expiration des réunions dans Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e1efb8ac21cbe669bcea3569a5e231469685a249
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1685da93c90d8d12cc4e8b8f2a92fd4f93391c87
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115562"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Stratégies de réunion et expiration des réunions dans Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
-[Les](meeting-policies-in-teams.md) stratégies de réunion dans Microsoft Teams sont utilisées pour contrôler si les utilisateurs de votre organisation peuvent démarrer et planifier des réunions, ainsi que les fonctionnalités disponibles pour les participants à la réunion prévues par les utilisateurs. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Vous gérez les stratégies de réunion dans le Centre d’administration Microsoft Teams ou à l’aide des cmdlets PowerShell [Get,](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingpolicy) [New,](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) [Set,](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) [Remove,](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmeetingpolicy) [Grant](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy.
+[Les](meeting-policies-in-teams.md) stratégies de réunion dans Microsoft Teams sont utilisées pour contrôler si les utilisateurs de votre organisation peuvent démarrer et planifier des réunions, ainsi que les fonctionnalités disponibles pour les participants à la réunion prévues par les utilisateurs. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Vous gérez les stratégies de réunion dans le Centre d’administration Microsoft Teams ou à l’aide des cmdlets PowerShell [Get,](/powershell/module/skype/get-csteamsmeetingpolicy) [New,](/powershell/module/skype/new-csteamsmeetingpolicy) [Set,](/powershell/module/skype/set-csteamsmeetingpolicy) [Remove,](/powershell/module/skype/remove-csteamsmeetingpolicy) [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy.
 
 Les paramètres de stratégie de réunion qui contrôlent si les utilisateurs peuvent commencer et planifier des réunions contrôlent également l’expiration des réunions programmées par les utilisateurs. Lorsqu’un lien de connexion à une réunion et l’ID de conférence d’une réunion expirent, personne ne peut y participer. Les paramètres de stratégie de réunion suivants déterminent si les utilisateurs peuvent commencer et planifier des réunions dans Teams, et nous les référons tout au long de cet article.
 
@@ -65,12 +65,12 @@ Lorsque vous basculez d’un paramètre de stratégie de réunion de Off à **On
 
 Voici un résumé du fonctionnement de l’expiration des réunions pour chacun des paramètres de stratégie de réunion évoqués dans cet article. 
 
-|Si vous souhaitez... |Procédez comme suit…  |Comportement d’adhésion à une réunion  |
+|Si vous souhaitez... |Pour ce faire,  |Comportement d’adhésion à une réunion  |
 |---------|---------|---------|
 |Expire channel Meet now meetings started by a user  |Désactiver Autoriser **la rencontre maintenant dans les canaux.**|Personne ne peut rejoindre les réunions Conférence maintenant du canal commencées par l’utilisateur.         |
-|Expiration des réunions de canal prévues par un utilisateur   |Désactiver **l’autoriser à planifier des réunions de canal.**         |Personne ne peut participer aux réunions de canal programmées par l’utilisateur. Cela empêche les personnes de se joindre aux équipes suivantes :<ul><li>Réunions de canal qui se sont déjà produites dans le passé.</li> <li>Réunions de canal prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions de canal périodiques.</li></ul>       |
-|Expiration des réunions privées programmées par un utilisateur    |Désactiver autoriser **la planification de réunions privées,**  puis Désactiver Autoriser le **ajouter Outlook.**          |Personne ne peut participer à des réunions privées programmées par l’utilisateur. Cela empêche les personnes de se joindre aux équipes suivantes : <ul><li>Réunions privées passées.</li> <li>Réunions privées prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions privées périodiques.</li></ul> Les **deux permettent de planifier des réunions privées** et Autoriser le **add-in Outlook** doivent être éteints pour expirer les réunions privées prévues par un utilisateur. Si l’un des paramètres est éteint et que l’autre est actif, les liens de participation à des réunions et les ID de conférence des réunions existantes restent actifs et ne sont pas expirés.      |
-|Expirer private Meet now meetings started by a user  |Désactiver Autoriser **la réunion maintenant dans les réunions privées.**          |Personne ne peut participer à des réunions Privées Conférence maintenant démarrées par l’utilisateur.         |
+|Expiration des réunions de canal programmées par un utilisateur   |Désactiver **l’autoriser à planifier des réunions de canal.**         |Personne ne peut participer aux réunions de canal programmées par l’utilisateur. Cela empêche les personnes de se joindre aux équipes suivantes :<ul><li>Réunions de canal qui se sont déjà produites dans le passé.</li> <li>Réunions de canal prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions de canal périodiques.</li></ul>       |
+|Expiration des réunions privées programmées par un utilisateur    |Désactiver autoriser **la planification de réunions privées,**  puis Désactiver Autoriser le **ajouter Outlook.**          |Personne ne peut participer à des réunions privées programmées par l’utilisateur. Cela empêche les personnes de se joindre aux équipes suivantes : <ul><li>Réunions privées passées.</li> <li>Réunions privées prévues pour l’avenir et qui ne se sont pas encore produites.</li><li>Prochaines instances de réunions privées périodiques.</li></ul> Les deux permettent de planifier des réunions **privées** et Autoriser le **add-in Outlook** doivent être éteints pour expirer les réunions privées prévues par un utilisateur. Si l’un des paramètres est éteint et que l’autre est actif, les liens de participation à des réunions et les ID de conférence des réunions existantes restent actifs et ne sont pas expirés.      |
+|Expiration des réunions Conférence maintenant privées démarrées par un utilisateur  |Désactiver autoriser **la conférence maintenant dans les réunions privées.**          |Personne ne peut participer à des réunions Privées Conférence maintenant démarrées par l’utilisateur.         |
 
 Si vous souhaitez que les personnes accèdent à des réunions précédemment programmées ou démarrées par un utilisateur particulier, vous pouvez :
 
@@ -80,9 +80,9 @@ Si vous souhaitez que les personnes accèdent à des réunions précédemment pr
 > [!NOTE]
 > Si la réunion a été envoyée par un délégué, qui a reçu l’autorisation d’envoyer des invitations à la réunion au nom d’une autre personne( par exemple, un responsable), le paramètre de stratégie de réunion est appliqué à la personne qui a accordé l’autorisation (le responsable).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Voir Gérer les stratégies de réunion dans Teams.](meeting-policies-in-teams.md)
+[Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md)
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
 

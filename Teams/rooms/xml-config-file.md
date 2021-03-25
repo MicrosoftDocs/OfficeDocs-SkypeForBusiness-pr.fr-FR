@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gestion à distance des paramètres par défaut utilisés par un appareil Salles Microsoft Teams, notamment l’application d’un thème personnalisé et la création d’un fichier de paramètres de maître.
-ms.openlocfilehash: a1634e34242a54bb93e3f61da6afd97ec35ec14e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ecac38b0261dbf9b6c27b1b636df31ecc9b3afd7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117322"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres d’une console salles Microsoft Teams à distance avec un fichier de configuration XML
 
@@ -163,7 +163,7 @@ Au démarrage, si une console Salles Microsoft Teams trouve un fichier XML nomm�
 Selon le nombre d’appareils des salles Microsoft Teams de votre entreprise et la façon dont vous choisissez de les configurer, plusieurs méthodes s’offrent à vous pour placer le fichier de configuration XML. Une fois le fichier poussé sur la console, redémarrez-la pour traiter les modifications apportées à la configuration. Le fichier de configuration XML est supprimé une fois qu';il a été traité. Les méthodes de gestion suggérées pour les appareils Salles Microsoft Teams sont abordées dans :
   
 - [Configuration d’une stratégie de groupe pour les salles Microsoft Teams](rooms-operations.md#GroupPolicy)
-- [Gestion à distance à l’aide de PowerShell](rooms-operations.md#RemotePS) [et configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [Gestion à distance à l’aide de PowerShell](rooms-operations.md#RemotePS) [et configurer un élément de fichier](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 Vous pouvez utiliser la méthode que vous souhaitez tant que vous pouvez l'utiliser pour transférer des fichiers et déclencher un redémarrage sur la console. Le fichier doit être lisible, accessible en ligne et supprimé par le compte d’utilisateur local de l’appareil. De préférence, il en est propriétaire et dispose de privilèges complets accordés à cet utilisateur. Si les autorisations du fichier ne sont pas correctement définies, le logiciel peut ne pas appliquer les paramètres, ne pas supprimer le fichier après un traitement réussi et peut même se crasher.
   
@@ -195,4 +195,4 @@ Pour localiser le chemin d’accès de l’instance :
 
 [Gérer les Salles Microsoft Teams](rooms-manage.md)
 
-[Configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[Configurer un élément de fichier](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))

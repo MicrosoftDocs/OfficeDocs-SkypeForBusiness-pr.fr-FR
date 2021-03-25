@@ -16,17 +16,17 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Découvrez comment mettre à niveau des téléphones Teams vers des affichages Teams dans le Centre d’administration Microsoft Teams.
-ms.openlocfilehash: ff28aab3e8bea493b5d11f4e42fb07b6e8fc84c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825354"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115582"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Mise à niveau des téléphones Teams vers l’affichage Teams
 
 > [!IMPORTANT]
-> La mise à niveau vers les écrans Teams est disponible uniquement sur les appareils de l’affichage ThinkSmart de Lenovo. Les informations de cet article s’appliquent uniquement à ce modèle d’appareil.  
+> La mise à niveau vers les écrans de Teams est disponible uniquement sur les appareils de l’affichage ThinkSmart de Lenovo. Les informations de cet article s’appliquent uniquement à ce modèle d’appareil.  
 
 Cet article vous donne une vue d’ensemble de la façon de mettre à niveau vos téléphones Teams vers des appareils d’affichage teams dans le Centre d’administration Microsoft Teams. Ceci permet aux appareils d’offrir à vos utilisateurs une expérience enrichie en tant qu’appareils d’affichage teams.
 
@@ -46,7 +46,7 @@ Indiquez-leur qu’il n’y a aucune modification à leurs données ou préfére
 
 ### <a name="what-happens-after-the-upgrade"></a>Que se passe-t-il après la mise à niveau ?
 
-Après avoir mis à niveau un téléphone Teams vers un appareil d’affichage Teams, l’appareil est répertorié dans la page **d’affichage** de Teams dans la **section** Appareils du Centre d’administration Microsoft Teams. Vous le gérez de la même façon que tout autre appareil Teams. Pour en savoir plus, [consultez Gérer vos appareils dans Teams.](device-management.md)
+Après avoir mis à niveau un téléphone Teams vers un appareil d’affichage Teams, celui-ci est répertorié dans la page **Teams** qui s’affiche dans la **section** Appareils du Centre d’administration Microsoft Teams. Vous le gérez de la même façon que tout autre appareil Teams. Pour en savoir plus, [consultez Gérer vos appareils dans Teams.](device-management.md)
 
 N’oubliez pas qu’après avoir mis à niveau un téléphone Teams vers un périphérique d’affichage Teams, l’action ne peut pas être annulée. Nous vous recommandons d’exécuter un pilote avec un groupe de premiers utilisateurs avant de mettre à niveau l’ensemble de votre organisation. 
 
@@ -90,4 +90,4 @@ Si certaines applications n’ont pas été disponibles dans l’écran d’accu
 
 [Téléphones IP certifiés pour Microsoft Teams](teams-ip-phones.md)
 
-[Assistance vocale Cortana dans Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
+[Assistance vocale Cortana dans Teams](../cortana-in-teams.md)

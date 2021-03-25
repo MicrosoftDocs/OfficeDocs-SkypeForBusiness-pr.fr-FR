@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Cette section explique comment sélectionner les langues du standard automatique d’audioconférence d’un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Découvrez comment sélectionner les langues du attendant automatique d’audioconférence pour un numéro de téléconférence dans Microsoft Teams.
+ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691130"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117182"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues du standard automatique d’audioconférence dans Microsoft Teams
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues de standard automatique pour l’audioconférence dans Microsoft Teams
 
-Le standard automatique d’audioconférence pour Microsoft Teams peut accueillir les appelants dans différentes langues lorsqu'ils rejoignent une réunion.
+Le attendant automatique d’audioconférence de Microsoft Teams peut accueillir les appelants audio dans différentes langues lorsqu’ils rejoignent une réunion.
   
-Sélectionnez la langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez sera utilisée en premier, tandis que les langues secondaires seront utilisées par le standard automatique dans l'ordre que vous sélectionnez. 
+Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez est utilisée en premier et les langues secondaires sont utilisées par le attendant automatique dans l’ordre dans l’ordre dans celui-ci. 
   
 > [!NOTE]
 >  Vous pouvez uniquement modifier les langues des numéros d’audioconférence de la catégorie Dédié. Les langues du numéro d’audioconférence partagée ne peuvent pas être modifiées.
@@ -59,17 +59,16 @@ Sélectionnez la langue principale et jusqu’à quatre langues secondaires. La 
     
 ## <a name="want-else-should-i-know"></a>Informations supplémentaires
 
-- Pour voir la liste des langues prises en charge par l’audioconférence, consultez [Langues prises en charge par l’audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
+- Pour voir la liste des langues prises en charge par l’audioconférence, consultez [Langues prises en charge par l’audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
     
 - Des langues peuvent être définies pour des numéros dédiés, mais pas pour des numéros de téléphone partagés.
     
-- Pour obtenir la liste des pays et régions dans lesquels l’audioconférence est disponible dans Microsoft 365 ou Office 365 en utilisant Microsoft comme fournisseur, consultez les numéros de téléphone pour [audioconférence.](phone-numbers-for-audio-conferencing-in-teams.md)
+- Pour obtenir la liste des pays et régions dans lesquels l’audioconférence dans Microsoft 365 ou Office 365 en utilisant Microsoft comme fournisseur est disponible, consultez les numéros de téléphone pour [Audioconférence.](phone-numbers-for-audio-conferencing-in-teams.md)
     
 ## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 
-Pour plus [d’informations, consultez la référence de Microsoft Teams PowerShell.](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+Pour plus [d’informations, consultez la référence de Microsoft Teams PowerShell.](/powershell/module/teams/?view=teams-ps)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

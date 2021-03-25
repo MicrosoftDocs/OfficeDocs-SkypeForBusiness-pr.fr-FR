@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Les administrateurs Skype Entreprise Server 2019 ou Skype Entreprise Online peuvent utiliser ces tableaux pour comprendre quelles fonctionnalités sont pris en charge sur quels clients.'
-ms.openlocfilehash: 9fcc86f59943ef770947b8311952b03f213d268b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 05bb3b39e8e150591fcb11b574f16c0f4f791791
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808714"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106650"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités du client de bureau pour Skype Entreprise Server 2019
 
@@ -29,12 +29,12 @@ ms.locfileid: "49808714"
 
  Avant de déployer ou de mettre à niveau Skype Entreprise Server, vérifiez quels clients sont déjà utilisés dans votre organisation. Utilisez les tableaux ci-dessous pour comprendre l’impact de la prise en charge des fonctionnalités sur ces clients. Cela peut vous aider à communiquer les modifications apportées aux utilisateurs, à suivre le processus de déploiement et à bien comprendre les avantages de la mise à niveau vers le dernier client.
 
-Certaines fonctionnalités disponibles avec Skype Entreprise Server 2019 ne sont pas disponibles dans Skype Entreprise Online . voir [Limites de compte d’utilisateur en ligne](feature-comparison.md#Online-Hybrid) ou hybride pour des détails spécifiques. Les administrateurs de Skype Entreprise Online peuvent consulter la description du [service Skype](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) Entreprise Online pour obtenir des informations sur les différents plans qui leur sont proposés.
+Certaines fonctionnalités disponibles avec Skype Entreprise Server 2019 ne sont pas disponibles dans Skype Entreprise Online. voir Limites de compte [d’utilisateur en ligne](feature-comparison.md#Online-Hybrid) ou hybride pour des détails spécifiques. Les administrateurs de Skype Entreprise Online peuvent consulter la description du [service Skype](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) Entreprise Online pour obtenir des informations sur les différents plans qui leur sont proposés.
 
 Les tableaux suivants indiquent les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype Entreprise Server 2019 ou Skype Entreprise Online. Vous pouvez également faire référence à la comparaison des fonctionnalités client mobiles pour [Skype](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) Entreprise pour les comparaisons de fonctionnalités client pour smartphone et tablette. La licence d’accès au client ou la licence d’abonnement utilisateur que votre organisation achète aura également un impact sur les fonctionnalités disponibles pour vos utilisateurs. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Pour plus [d’informations,](https://products.office.com/skype-for-business/it-pros) voir le Guide des licences.
 
 > [!IMPORTANT]
-> Skype Entreprise Server 2019 et Skype Entreprise Online prise en charge les clients précédemment publiés suivants : Lync 2013, Skype Entreprise 2015 et Skype Entreprise 2016, ainsi que le client Skype Entreprise 2019. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les tableaux de comparaison des clients pour [Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) et la comparaison des fonctionnalités client de bureau pour [Skype Entreprise 2015.](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) 
+> Skype Entreprise Server 2019 et Skype Entreprise Online prise en charge les clients précédemment publiés suivants : Lync 2013, Skype Entreprise 2015 et Skype Entreprise 2016, ainsi que le client Skype Entreprise 2019. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les tableaux de comparaison des clients pour [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) et la comparaison des fonctionnalités client de bureau pour [Skype Entreprise 2015.](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) 
 
 
 > [!NOTE]
@@ -88,7 +88,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 
 |Fonctionnalité/fonctionnalité | Client Skype Entreprise 2015, 2016 ou 2019 | Skype Entreprise sur Mac | Client Lync 2013 | 
 |:-----|:-----|:-----|:-----|  
-|Lancer la messagerie instantanée avec ou par e-mail à un contact  |&#x2714;|&#x2714;|&#x2714;|  
+|Lancer la messagerie instantanée avec un contact ou envoyer un e-mail à un contact  |&#x2714;|&#x2714;|&#x2714;|  
 |Naviguer entre plusieurs conversations par messagerie instantanée/Suivre plusieurs conversations dans une seule fenêtre à onglets   |&#x2714;|&#x2714;|&#x2714;| 
 |Enregistrer des conversations par messagerie instantanée dans Outlook  |&#x2714;|&#x2714; si l’historique des conversations côté serveur est allumé   |&#x2714;|   
 |Vérifier l’orthographe |&#x2714;|&#x2714;||   
@@ -105,11 +105,11 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 Ce tableau couvre les fonctionnalités liées à la prise en charge des réunions.
 
 > [!NOTE]
->  Les fonctionnalités de réunion Skype Entreprise ne sont pas disponibles dans Skype Entreprise Online Plan autonome 1.  Le plan 1 est [retiré.](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+>  Les fonctionnalités de réunion Skype Entreprise ne sont pas disponibles dans Skype Entreprise Online Plan autonome 1.  Le plan 1 est [retiré.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
 )
 
 Dans les sessions Skype à Skype, un utilisateur Skype Entreprise Online Plan 1 peut participer au partage de bureau et au partage d’application s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.
-Pour plus d’informations, voir [la description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx) 
+Pour plus d’informations, voir [la description du service Skype Entreprise Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) 
 
 |Fonctionnalité/fonctionnalité | Client Skype Entreprise 2016 | Skype Entreprise sur Mac | Skype Entreprise Web App | Client Skype Entreprise 2015 | Client Lync 2013 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
@@ -143,13 +143,13 @@ Pour plus d’informations, voir [la description du service Skype Entreprise Onl
 |Définir la vidéo à la une (verrouiller la vidéo) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Donner/prendre le contrôle du partage d’écran  |&#x2714;||&#x2714;|||
 
- &#x2776; les participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise sur Mac, Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pas non plus pour Skype Entreprise Web App sur Max OSX.
+ &#x2776; participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise sur Mac, Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pas non plus pour Skype Entreprise Web App sur Max OSX.
 
  &#x2777; Pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence PSTN Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
 
  &#x2778; Le client Lync pour Mac 2011 ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lorsqu’elles ont été partagées dans une conférence par Skype Entreprise Web App.
 
-&#x2779; pour les applications Skype Entreprise 2016, vous devez utiliser la build « Exécuter en un clic » 16.0.4227 ou ultérieure.
+&#x2779; applications Skype Entreprise 2016, vous devez utiliser la build « Exécuter en un clic » 16.0.4227 ou ultérieure.
 
 &#x2780; pour les applications Skype Entreprise 2015, vous devez avoir la mise à jour de septembre, build 15.0.4747 ou ultérieure.
 
@@ -159,7 +159,7 @@ Pour plus d’informations, voir [la description du service Skype Entreprise Onl
 Ce tableau couvre les fonctionnalités liées à la prise en charge des services vocaux.
 
 > [!NOTE]
-> Les fonctionnalités de Skype Entreprise Voice (téléphonie) sont limitées à certains plans d’abonnement Skype Entreprise Online. Pour plus d’informations, voir [la description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx) 
+> Les fonctionnalités de Skype Entreprise Voice (téléphonie) sont limitées à certains plans d’abonnement Skype Entreprise Online. Pour plus d’informations, voir [la description du service Skype Entreprise Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) 
 
  | Fonctionnalité/fonctionnalité | Client Skype Entreprise 2015, 2016 ou 2019 | Skype Entreprise sur Mac | Client Lync 2013 |  
 |:-----|:-----|:-----|:-----| 
@@ -247,7 +247,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des fonction
 ### <a name="basic-client-limitations"></a>Restrictions de base appliquées aux certificats par les clients
 <a name="Full-Basic"> </a>
 
-Les fonctionnalités ci-dessous sont disponibles à l’aide du client complet et ne sont pas disponibles avec le client de base : 
+Les fonctionnalités ci-dessous sont disponibles à l’aide du client Complet et ne sont pas disponibles avec le client de base : 
 
 - Gérer les paramètres d'appel d'équipe
 

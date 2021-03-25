@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: d1596a650507938e8dc3e87fb02dec68e415f6d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: ba022bd8af5a8b1eb2e445e6034b4d318dec72b5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117142"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft Teams
 
@@ -48,7 +48,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
  
 ## <a name="step-2-get-and-assign-licenses"></a>Étape 2 : Obtenir et attribuer des licences
  
-1. Pour une audioconférence, vous avez besoin d’une licence pour chaque utilisateur qui établira des réunions. Pour savoir quels contrats de licences vous devez acheter pour une audioconférence et connaître leurs prix, consultez [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+1. Pour une audioconférence, vous avez besoin d’une licence pour chaque utilisateur qui établira des réunions. Pour savoir quels contrats de licences vous devez acheter pour une audioconférence et connaître leurs prix, consultez [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
     >[!NOTE] 
     > La fonctionnalité audioconférence est incluse dans les licences Office 365 Entreprise E5 et en tant que composant additionnel.
@@ -65,7 +65,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
 
 Pour les audioconférences, vous ne pouvez pas utiliser les numéros de téléphone pour les utilisateurs ; vous devez leur obtenir des numéros de service. Vous pouvez obtenir des numéros de service payants ou gratuits pour vos ponts de conférence. Il existe trois façons d’obtenir des numéros de service payants et gratuits  : 
   
-- **Utiliser le Centre d’administration Microsoft Teams**. Pour certains pays/régions, vous pouvez obtenir les numéros de service pour les ponts de conférence à l’aide du centre d’administration Microsoft Teams. Voir [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
+- **Utiliser le Centre d’administration Microsoft Teams**. Pour certains pays/régions, vous pouvez obtenir les numéros de service pour les ponts de conférence à l’aide du centre d’administration Microsoft Teams. Voir [Obtention de numéros de téléphone de service](./getting-service-phone-numbers.md).
     
 - **Portage de vos numéros de service existants**. Pour porter ou transférer des numéros existants de votre fournisseur de service ou de votre téléphone actuel vers Microsoft 365 ou Office 365. Vous pouvez consulter [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
   

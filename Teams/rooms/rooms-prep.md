@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment préparer votre infrastructure pour le déploiement de salles Microsoft Teams afin de tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884568"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117422"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -32,7 +32,7 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
     
    Il doit être en mesure de recevoir une adresse IP à l’aide de DHCP. (Les salles Microsoft Teams ne peuvent pas être configurées avec une adresse IP statique au démarrage de la première unité, mais par la suite, une adresse IP statique pour l’appareil peut être configurée sur l’appareil ou sur le commutateur ou le routeur en amont.)
 
-   Ces ports doivent être ouverts (en plus des ports normaux pour les médias) :
+   Ces ports doivent être ouverts (en plus des ports normal pour les médias) :
    - HTTPS : 443
    - HTTP : 80
 
@@ -48,7 +48,7 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
     
 ### <a name="create-and-test-a-device-account"></a>Création et test d’un compte d’appareil
 
-Un  *compte d’appareil*  est un compte que le client Salles Microsoft Teams utilise pour accéder aux fonctionnalités d’Exchange, telles que le calendrier, et activer Skype Entreprise. Pour [plus d’informations, voir](rooms-deploy.md) Déployer les salles Microsoft Teams.
+Un  *compte d’appareil*  est un compte que le client Salles Microsoft Teams utilise pour accéder aux fonctionnalités d’Exchange, telles que le calendrier, et activer Skype Entreprise. Pour plus [d’informations, voir](rooms-deploy.md) Déployer les salles Microsoft Teams.
   
 ### <a name="check-network-availability"></a>Vérification de la disponibilité du réseau
 
@@ -66,7 +66,7 @@ Pour fonctionner correctement, l’appareil Salles Microsoft Teams doit avoir ac
 > Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
 
 > [!NOTE]
-> Les mises à jour logicielles des salles Microsoft Teams sont automatiquement téléchargées à partir du Microsoft Store pour Entreprises. Consultez [les conditions préalables pour que Microsoft Store](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) pour Entreprises et Éducation vérifie que la console de salle sera en mesure d’accéder au Store et de se mettre à jour.
+> Les mises à jour logicielles des salles Microsoft Teams sont automatiquement téléchargées à partir du Microsoft Store pour Entreprises. Consultez [les conditions préalables pour que Microsoft Store](/microsoft-store/prerequisites-microsoft-store-for-business) pour Entreprises et Éducation vérifie que la console de salle sera en mesure d’accéder au Store et de se mettre à jour.
   
 ### <a name="certificates"></a>Certificats
 
@@ -117,7 +117,7 @@ Les salles Microsoft Teams sont conçues pour hériter des paramètres proxy du 
     
 11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, l’appareil Salles Microsoft Teams se connecte avec succès.
     
-Pour plus [d’informations](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) sur les FQDN, ports et plages d’adresses IP requis pour les salles Microsoft Teams, consultez l’article sur la sécurité réseau.
+Pour plus [d’informations](./security.md#network-security) sur les FQDN, ports et plages d’adresses IP requis pour les salles Microsoft Teams, consultez l’article sur la sécurité réseau.
   
   
 ### <a name="create-provisioning-packages"></a>Création de packages de mise en service
@@ -166,4 +166,4 @@ Si vous voulez renommer l’ordinateur après l’avoir joint à un domaine, uti
   
 [Gérer les Salles Microsoft Teams](rooms-manage.md)
 
-[Conditions préalables au Microsoft Store pour Entreprises et Éducation](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[Conditions préalables pour Microsoft Store pour Entreprises et Éducation](/microsoft-store/prerequisites-microsoft-store-for-business)

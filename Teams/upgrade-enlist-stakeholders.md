@@ -20,25 +20,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b57608b6db645ad48ab372b6bb390b4bc4a1bcb
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 2dc1467a221e98bfff5e3a82e6cd2702c9b530c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578327"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116522"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
 ![Illustration montrant l’état de l’itinéraire de mise à niveau](media/upgrade-banner-stakeholders.png "Étapes du parcours de mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes pour le projet")
 
-Cet article fait partie de la phase de parcours des parties prenantes pour le projet, la première et la plus essentielle à réaliser pour le succès de votre projet.
+Cet article fait partie de la phase de mise à niveau entre les parties prenantes du projet, qui est la première et la plus essentielle à réaliser pour le succès de votre projet.
 
-De l’implémentation des livrables du projet à la conduite de la responsabilité, vos parties prenantes tiennent pour clé la réussite de votre projet. Vous devez affecter deux groupes d’intervenants : (1) un soutien à la direction et aux sponsors de projet qui ont un intérêt direct et une influence direct sur la réussite du projet et (2) l’équipe de _projet,_ constituée des personnes responsables de la préparation technique et utilisateur, qui devront effectuer les différentes tâches du plan de projet.  Le fil de discussion courant entre ces deux groupes est celui du responsable de _projet,_ qui travaille à la réalisation des tâches de projet en respectant les délais, et signale l’état du projet au groupe.
+De l’implémentation des livrables du projet à la conduite de la responsabilité, vos parties prenantes tiennent pour clé la réussite de votre projet. Vous devez affecter deux groupes d’intervenants : (1) un soutien d’équipe qui inclut des cadres et cadres délégués qui ont un intérêt direct pour le succès du projet et une influence sur leur succès, et (2) l’équipe de _projet,_ composée des personnes responsables de la préparation technique et utilisateur, qui devront effectuer les différentes tâches du plan de projet.  Le fil de discussion courant entre ces deux groupes est celui du responsable de _projet,_ qui travaille à la réalisation des tâches de projet en respectant les délais, et signale l’état du projet au groupe.
 
 > [!Tip]
 > Prenez le temps d’identifier le sponsor exécutif idéal, quelqu’un qui peut vous aider à définir le ton de votre projet, qui guide par exemple et qui tient les autres responsables. Il doit s’agit d’un cadre supérieur ou d’un cadre ayant autorité sur l’étendue et la vision du projet. Ils doivent également prendre la décision finale de supprimer les bloqueurs et de résoudre les conflits afin de maintenir le projet dans les temps et dans le budget.
 
-Vous pouvez également créer un comité directeur. Parfois, les projets de grande envergure ou plus complexes se terminent par un « trop grand nombre de recettes en cuisine », ce qui entraîne des déconnexions entre les groupes de parties prenantes. Pour ces projets, vous voudrez peut-être former un comité directeur. Un comité directeur est chargé de conduire les décisions, de fournir une surveillance stratégique, de prendre en charge les initiatives du projet et, le cas échéant, de supprimer les bloqueurs. Pour plus d’informations sur l’implémentation d’un comité directeur, voir le [guide du comité exécutif.](https://aka.ms/SteeringCommittee)
+Vous pouvez également créer un comité directeur. Parfois, les projets de grande envergure ou plus complexes se terminent par un « trop grand nombre de cuisines », ce qui entraîne des déconnexions entre les groupes de parties prenantes. Pour ces projets, vous voudrez peut-être former un comité directeur. Un comité directeur est chargé de conduire les décisions, de fournir une surveillance stratégique, de prendre en charge les initiatives du projet et, le cas échéant, de supprimer les bloqueurs. Pour plus d’informations sur l’implémentation d’un comité directeur, voir le [guide du comité exécutif.](./envision-steering-committee-complete-guide.md)
 
 | | |
 |---|---|
@@ -48,7 +48,7 @@ Vous pouvez également créer un comité directeur. Parfois, les projets de gran
 
 | Rôles | Responsabilité |
 |---|---|
-| **Équipe de parrainage** | |
+| **Sponsorship** | |
 | Sponsor exécutif | Rend la messagerie et la responsabilité globales |
 | Promoteur commercial | Facilite les demandes de nouvelles technologies pour leur unité d’entreprise |
 | Responsables de département | Représente les équipes les plus affectées par ce changement |
@@ -60,13 +60,13 @@ Vous pouvez également créer un comité directeur. Parfois, les projets de gran
 | Directeur de la sécurité | Fournit des informations sur la conception, le processus et l’implémentation de la sécurité |
 | Synchronous Communications Lead | Possède les outils de présence, tels que les discussions, les réunions et les appels |
 | Lead asynchrone Collaboration | Possède des outils asynchrones tels que SharePoint, OneDrive, et ainsi de suite |
-| Directeur de la téléphonie | Fournit des informations sur la conception et l’implémentation de téléphonie |
+| Directeur de la téléphonie | Fournit des informations sur la conception et l’implémentation téléphoniques |
 | Propriétaire du service/Quality Champion | Propriétaire de l’ensemble de Teams, y compris la qualité de l’expérience utilisateur |
-| Lead sur ordinateurs de bureau et appareils | Fournit des entrées dans les clients, les appareils et les applications de bureau |
+| Lead Sur ordinateurs de bureau et appareils | Fournit des entrées dans les clients, les appareils et les applications de bureau |
 | Administrateur informatique/client | Vérifier que la préparation réseau et les configurations du Centre d’administration Microsoft 365 sont en place |
 | Responsable du support | Gère la préparation de votre support technique |
 | Responsable de la gestion des changements | Supervise le programme de gestion et d’adoption des changements d’utilisateurs |
 | Responsable marketing | Conceptions et implémente des campagnes de communication |
 | Lead de formation | Conceptions et mise en œuvre de plans de formation |
 
-Une fois que vous avez rassemblé les parties prenantes, passer à l’étape suivante : [Définir l’étendue de votre projet.](https://aka.ms/SkypetoTeams-Scope)
+Une fois que vous avez rassemblé les parties prenantes, passer à l’étape suivante : [définir l’étendue de votre projet.](./upgrade-define-project-scope.md)

@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Découvrez l’expérience de partage de fichiers et de dossiers dans Microsoft Teams.
-ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
-ms.translationtype: HT
+ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795773"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117022"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Partage de fichiers dans Microsoft Teams
 
@@ -48,6 +48,6 @@ Lorsque des utilisateurs partagent un fichier dans une conversation ou un canal,
 
 [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Modifier le type de lien par défaut d’un site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Modifier le type de lien par défaut d’un site](/sharepoint/change-default-sharing-link)
 
-[Collaborer avec des invités au sein d’une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Collaborer avec des invités au sein d’une équipe](/microsoft-365/solutions/collaborate-as-team)

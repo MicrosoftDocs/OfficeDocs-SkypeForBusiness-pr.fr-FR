@@ -24,19 +24,19 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Chine du Sud, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116782"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Restrictions de numérotation gratuit en Chine- Sud (plage(10 800 140 XXXX) 
 
 [Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
-|**Details**|**Description**|
+|**Détails**|**Description**|
 |:-----|:-----|
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 10 800 140 XXXX <br/> |
@@ -47,11 +47,10 @@ ms.locfileid: "43140453"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Inaccessible à partir d'une cabine téléphonique  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

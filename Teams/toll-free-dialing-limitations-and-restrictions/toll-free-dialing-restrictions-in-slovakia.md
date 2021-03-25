@@ -24,19 +24,19 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Slovaquie, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 19e7f5578641c2c0b730bdc3195870a38066e118
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 446c36fdb66fc08292ad8dfa94f4f708d0def087
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139803"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116632"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restrictions de numérotation gratuit en Slovaquie
 
 [Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
 
-|**Details**|**Description**|
+|**Détails**|**Description**|
 |:-----|:-----|
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 0 800 0XX XXX <br/> |
@@ -47,11 +47,10 @@ ms.locfileid: "43139803"
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

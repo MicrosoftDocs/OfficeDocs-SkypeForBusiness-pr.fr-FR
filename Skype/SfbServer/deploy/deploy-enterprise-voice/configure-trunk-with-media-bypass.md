@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Résumé : Configurez une trunk avec la déviation du média activée pour Skype Entreprise Server. Cela vous permettra de réduire le nombre de serveurs de médiation, en présumant que votre fournisseur de trunks SIP le prend en charge.'
-ms.openlocfilehash: 66cb30a3de3680f562596bbbaa5b04ce1d1fbe98
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 12f9abc49830e0af9c1934f4da56fe29be861114
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804064"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106390"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configuration d’une trunk avec déviation du média dans Skype Entreprise Server
 
@@ -34,7 +34,7 @@ Le contournement de média est utile lorsque vous voulez réduire le nombre de s
 Nous vous recommandons vivement d’activer le contournement de média. Toutefois, avant d’activer le contournement de média sur une trunk SIP, confirmez que votre fournisseur de trunks SIP qualifié prend en charge le contournement de média et est en mesure de répondre aux exigences permettant d’activer correctement le scénario. Plus précisément, le fournisseur doit avoir les adresses IP des serveurs du réseau interne de votre organisation.
 
 > [!NOTE]
-> La déviation du trafic multimédia ne fonctionne pas avec toutes les passerelles du réseau téléphonique commuté (PSTN), IP-PBX et contrôleur de frontière de session (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés. La déviation du trafic multimédia est prise en charge uniquement avec les produits et versions répertoriés dans la page Infrastructure téléphonique [de Skype Entreprise Server.](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)
+> La déviation du trafic multimédia ne fonctionne pas avec toutes les passerelles du réseau téléphonique commuté (PSTN), IP-PBX et contrôleur de frontière de session (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés. La déviation du trafic multimédia est prise en charge uniquement avec les produits et versions répertoriés dans la page Infrastructure téléphonique [de Skype Entreprise Server.](../../../SfbPartnerCertification/certification/infra-gateways.md)
 
 Une configuration de la trunk comme décrit ci-dessous groupe un ensemble de paramètres qui sont appliqués aux trunks affectés à cette configuration de trunk. Une configuration de jonction spécifique peut s’étendre au niveau global (à toutes les jonctions qui ne disposent plus d’une configuration de site ou de pool spécifique) ou au niveau d’un site ou d’un pool. La configuration de jonction au niveau du pool est utilisée pour étendre une configuration de jonction spécifique à une jonction unique.
 
@@ -55,9 +55,9 @@ Une configuration de la trunk comme décrit ci-dessous groupe un ensemble de par
    - **Pool trunk:** Choose the name of the trunk that this trunk configuration applies to. Cette trunk peut être la racine ou toute autre trunks supplémentaire définie dans le Générateur de topologie. Dans **Sélectionner un service,** cliquez sur **OK.** Notez que si une configuration de trunk a déjà été créée pour une trunk spécifique, la trunk n’apparaît pas dans **Select a Service**.
 
       > [!NOTE]
-      > Une fois que vous avez sélectionné l’étendue de la configuration de jonction, elle n’est plus modifiable. > Le champ **Nom** est pré-fourni avec le nom du site ou du service associé à la configuration de la trunk et ne peut pas être modifié.
+      > Une fois que vous avez sélectionné l’étendue de la configuration de jonction, elle n’est plus modifiable. > Le **champ Nom** contient déjà le nom du site ou du service associé à la configuration de la trunk et ne peut pas être modifié.
 
-4. Spécifiez une valeur dans **le nombre maximal de boîtes de dialogue anticipées pris en charge.** Il s’agit du nombre maximal de réponses bifurcations qu’une passerelle PSTN, un système IP-PBX ou un contrôleur de frontière de session ITSP (SBC) peut recevoir à une invitation qu’il a envoyée au serveur de médiation. La valeur par défaut est 20.
+4. Spécifiez une valeur dans **le nombre maximal de boîtes de dialogue anticipées pris en charge.** Il s’agit du nombre maximal de réponses bifurcations qu’une passerelle PSTN, un système IP-PBX ou un contrôleur SBC (Session Border Controller) itsp peut recevoir à une invitation qu’il a envoyée au serveur de médiation. La valeur par défaut est 20.
 
     > [!NOTE]
     > Avant de modifier cette valeur, consultez votre fournisseur de services ou votre fabricant d’équipements pour plus d’informations sur les fonctionnalités de votre système.
@@ -80,7 +80,7 @@ Une configuration de la trunk comme décrit ci-dessous groupe un ensemble de par
 8. Si l’homologue de la passerelle prend en charge la réception de demandes SIP REFER à partir du serveur de médiation, activez la case à cocher Activer l’envoi pour **la** passerelle.
 
     > [!NOTE]
-    > Si vous désactivez cette option lorsque l’option Activer le contournement **de** média est sélectionnée, des paramètres supplémentaires sont requis. Si l’homologue de la connexion ne prend pas en charge la réception de demandes SIP REFER du serveur de médiation et que le contournement de média est activé, vous devez également exécuter l’cmdlet **Set-CsTrunkConfiguration** pour désactiver le protocole RTCP pour les appels actifs et en cours afin de prendre en charge les conditions adéquates pour le contournement de média. Vous pouvez également  sélectionner Activer la référence à l’aide d’un contrôle d’appel tiers si vous souhaitez que les appels transférés soient contourné par le média, et que la passerelle ne prend pas en charge les demandes SIP REFER.
+    > Si vous désactivez cette option lorsque l’option Activer le contournement **de** média est sélectionnée, des paramètres supplémentaires sont requis. Si l’homologue de la connexion ne prend pas en charge la réception de demandes SIP REFER du serveur de médiation et que le contournement de média est activé, vous devez également exécuter l';cmdlet **Set-CsTrunkConfiguration** pour désactiver le protocole RTCP pour les appels actifs et en cours afin de prendre en charge les conditions adéquates pour le contournement de média. Vous pouvez également  sélectionner Activer la référence à l’aide d’un contrôle d’appel tiers si vous souhaitez que les appels transférés soient contourné par le média, et que la passerelle ne prend pas en charge les demandes SIP REFER.
 
 9. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation PSTN à la configuration de cette jonction. Les utilisations PSTN associées à cette configuration de trunk seront appliquées pour tous les appels entrants via la trunk qui ne provient pas d’un point de terminaison Skype Entreprise Server. Pour gérer les enregistrements d’utilisation PSTN associés à une configuration de jonction, utilisez l’une des méthodes suivantes :
 
@@ -188,9 +188,8 @@ Après avoir configuré la ligne, continuez à configurer le contournement de m�
 
 [Configurer une trunk sans déviation du média dans Skype Entreprise Server](configure-trunk-without-media-bypass.md)
 
-[Déploiement du contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)
+[Déployer le contournement de média dans Skype Entreprise Server](deploy-media-bypass.md)
 
-[Définition des règles de traduction](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+[Définition des règles de traduction](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)
 
-[Configurer le contournement de média](https://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
-
+[Configurer le contournement de média](/previous-versions/office/lync-server-2013/lync-server-2013-configure-media-bypass)

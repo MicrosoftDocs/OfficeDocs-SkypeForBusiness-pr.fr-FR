@@ -13,16 +13,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article décrit l’utilisation de l’outil de récupération pour les salles Microsoft Teams, que vous utiliseriez pour mettre un système hors limites à l’état pris en charge.
-ms.openlocfilehash: 47e9bed4377a111a1c1284684bbc40517dbb42d8
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021722"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117492"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
-Cet article décrit l’utilisation de l’outil de récupération pour les salles Microsoft Teams, que vous utiliseriez pour mettre un système hors limites à l’état pris en charge. Cet outil doit être appliqué lorsque la console de salles Microsoft Teams affiche une erreur « la config système est à jour » ou avant d’effectuer une restauration d’usine du bouton [de commande.](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)
+Cet article décrit l’utilisation de l’outil de récupération pour les salles Microsoft Teams, que vous utiliseriez pour mettre un système hors limites à l’état pris en charge. Cet outil doit être appliqué lorsque la console de salles Microsoft Teams affiche une erreur « la config système est à jour » ou avant d’effectuer une restauration d’usine du bouton [de commande.](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)
 
 ## <a name="prerequisites"></a>Conditions préalables
 

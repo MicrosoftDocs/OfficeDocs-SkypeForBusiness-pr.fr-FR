@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retire le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 28 février 2020. Cet article récapitule ce que les clients concernés doivent savoir et faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 4da55c9004224c68e4e65c56038c5491fac5a0ab
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177424"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116512"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
 > [!IMPORTANT]
-> **Le service de messagerie unifiée dans Exchange Online n’est plus prise en charge depuis le 28 février 2020, 17h00, heure du Pacifique. Tous les comptes de messagerie vocale ont été migrés vers le service de messagerie vocale cloud par Microsoft. Le trafic restant du service de surveillance automatique n’est pas surveillé et peut être interrompu à tout moment.**
+> **Le service de messagerie unifiée dans Exchange Online n’est plus prise en charge depuis le 28 février 2020, 17 h (heure du Pacifique). Tous les comptes de messagerie vocale ont été migrés vers le service de messagerie vocale cloud par Microsoft. Le trafic restant du service de surveillance automatique ne sera pas surveillé et risque d’être interrompu à tout moment.**
 
-En référence [](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) à l’annonce du 8 février 2019, Microsoft retire le service de messagerie unifiée Exchange (ExchUMO) d’ici le 28 février 2020. Cet article récapitule ce que les clients concernés doivent savoir et faire pour planifier leur continuité d’activité.
+En référence [](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) à l’annonce du 8 février 2019, Microsoft retire le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 28 février 2020. Cet article récapitule ce que les clients concernés doivent savoir et faire pour planifier leur continuité d’activité.
 
 ExchUMO est déployé par les clients pour les services d’intégration de messagerie vocale, de attendant automatique, de file d’attente d’appels et de télécopie. Microsoft prévoit d’aider les clients à migrer vers des services de système téléphonique qui permettent déjà de prendre en charge des milliers de clients sur Skype Entreprise Online et Microsoft Teams.
 
-La messagerie vocale est principalement une migration pilotée par Microsoft . l’implication de l’administrateur et/ou l’investissement peuvent être requis pour un sous-ensemble de clients. Le attendant automatique est une migration pilotée par l’administrateur ; vous devrez re-créer les arbre de attendant automatique ExchUMO existants dans le service cloud Standard automatique cloud. Les clients qui utilisent l’une des fonctionnalités ExchUMO avec un PBX tiers ne seront pas migrés vers les services cloud Skype, car ils ne sont pas en charge les systèmes PBX tiers. Un plan de retrait pour le support tiers a été annoncé dans ce [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)et les clients de ce modèle de déploiement peuvent migrer leurs utilisateurs vers l’une des plateformes/services de communications unifiées de Microsoft ou acquérir une solution de messagerie vocale et/ou de standard automatique tierce pour ces utilisateurs. L’intégration des télécopies n’est pas prise en charge dans les services cloud ; les clients devront migrer vers une solution tierce.
+La messagerie vocale est principalement une migration pilotée par Microsoft . l’implication de l’administrateur et/ou l’investissement peuvent être requis pour un sous-ensemble de clients. Le attendant automatique est une migration pilotée par l’administrateur ; vous devrez re-créer les arbre de attendant automatique ExchUMO existants dans le service cloud Standard automatique cloud. Les clients qui utilisent l’une des fonctionnalités ExchUMO avec un PBX tiers ne seront pas migrés vers les services cloud Skype, car ils ne sont pas en charge les systèmes PBX tiers. Un plan de retrait pour le support tiers a été annoncé dans ce [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)et les clients de ce modèle de déploiement peuvent migrer leurs utilisateurs vers l’une des plateformes/services de communications unifiées de Microsoft ou acquérir une solution de messagerie vocale et/ou de standard automatique tierce pour ces utilisateurs. L’intégration des télécopies n’est pas prise en charge dans les services informatiques ; les clients devront migrer vers une solution tierce.
 
 ## <a name="who-is-affected"></a>Qui est affecté ?
 
@@ -68,7 +68,7 @@ Si aucune topologie hybride Skype Entreprise n’est établie, vous devez le fai
 
 ### <a name="plan-your-auto-attendant-migration"></a>Planifier la migration de votre service de attendant automatique
 
-Les administrateurs peuvent commencer à migrer leurs attendants automatiques d’ExchUMO vers le service de gestion automatique cloud à tout moment. Pour [plus d’informations,](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) voir Configurer un attendant automatique cloud.
+Les administrateurs peuvent commencer à migrer leurs attendants automatiques d’ExchUMO vers le service de gestion automatique cloud à tout moment. Pour [plus d’informations, voir](/microsoftteams/create-a-phone-system-auto-attendant) Configurer un attendant automatique cloud.
 
 Microsoft continue de fournir des fonctionnalités de attendant automatique supplémentaires que les clients peuvent considérer comme requises pour leur migration. Les administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer leurs instances de attendant automatique en conséquence. Pour une comparaison des listes de fonctionnalités, voir la matrice des fonctionnalités [des services cloud ExchUMO](#exchumo-and-azure-cloud-based-services-feature-matrix)et Azure.
 
@@ -91,7 +91,7 @@ Regardez une notification dans le Centre de notifications d’administration ave
 Vous pouvez opter pour une migration planifiée du service de messagerie vocale vers la gestion des cvm. Avant d’opter, examinez les détails de cet article, en particulier les sections suivantes :
 
 - Étapes de migration (cette section)
-- Matrice des fonctionnalités des services cloud ExchUMO et Azure
+- Matrice de fonctionnalités des services cloud ExchUMO et Azure
 - Impact sur l’expérience utilisateur
 
 Lorsque vous choisissez une migration gérée, vous ne recevrez pas de notification préalable à la migration de 30 jours dans le centre de messages du portail d’administration Microsoft 365.
@@ -106,15 +106,15 @@ Vous recevrez une confirmation par courrier électronique une fois votre client 
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instructions de migration du service de sécurité automatique
 
-Les administrateurs de l’organisation Microsoft 365 et Office 365 sont tenus de créer à nouveau leurs standard automatiques exchange um Online dans le service Microsoft Cloud Standard automatique et de leur changer leurs numéros de téléphone locaux avant la date de retrait du service UMO Exchange du 28 février 2020. Il s’agit de la recommandation pour réussir la migration et le test de nouveaux attendants automatiques cloud. Si vous avez un grand nombre de attendants automatiques, vous pouvez utiliser les [scripts](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) de migration de la Standard automatique de la um Exchange vers Cloud Standard automatique pour simplifier la migration en bloc des attendants automatiques.
+Les administrateurs d’organisation Microsoft 365 et Office 365 sont tenus de créer à nouveau leurs standard automatiques de la um Online Exchange dans le service Microsoft Cloud Standard automatique et de leur faire passer leurs numéros de téléphone locaux avant la date de retrait du service UMO Exchange du 28 février 2020. Il s’agit de la recommandation pour migrer et tester correctement les nouveaux attendants automatiques cloud. Si vous avez un grand nombre de attendants automatiques, vous pouvez utiliser les [scripts](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) de migration de la Standard automatique de la um Exchange vers Cloud Standard automatique pour simplifier la migration en bloc des attendants automatiques.
 
 ### <a name="auto-attendant-setup"></a>Configuration du standard automatique
 
 Nous vous conseillons vivement de commencer la configuration de vos nouveaux attendants automatiques tôt pour éviter les problèmes de dernière minute et pour vous familiariser avec les fonctionnalités et l’expérience du service Cloud Standard automatique. Pour les attendants automatiques qui nécessitent une ou plusieurs fonctionnalités d’intervalle, vous pouvez créer et tester les attendants automatiques lorsque ces derniers sont disponibles pour préparer le déploiement. Pour plus d’informations sur les fonctionnalités d’écart, consultez [l’Annexe.](#appendix)
 
-1. Utilisez les cmdlets UMO Exchange pour exporter la configuration des attendants automatiques existants à l’aide de [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant).  
-2. Utilisez la cmdlet [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) dans Exchange Online PowerShell pour exporter les fichiers multimédias de message d’accueil (s’ils sont utilisés) et les convertir au format .mp3.
-3. Suivez les instructions de la page Planifier les serveurs [automatiques](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) cloud et configurer un attendant automatique [cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) pour créer des attendants automatiques à l’aide du Centre d’administration Microsoft Teams ou de Powershell.
+1. Utilisez les cmdlets UMO Exchange pour exporter la configuration des attendants automatiques existants à l’aide de [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+2. Utilisez la cmdlet [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) dans Exchange Online PowerShell pour exporter les fichiers multimédias de message d’accueil (s’ils sont utilisés) et les convertir au format .mp3.
+3. Suivez les instructions de la page Planifier les serveurs [automatiques](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) cloud et configurer un attendant automatique [cloud](/microsoftteams/create-a-phone-system-auto-attendant) pour créer des attendants automatiques à l’aide du Centre d’administration Microsoft Teams ou de Powershell.
 4. Examinez vos message d’accueil si les options de menu ont été modifiées.
 5. Configurez les [transferts](#known-issues) vers vos groupes Response Groups à l’aide de la solution de contournement « Standard automatique Call Transfer to PSTN » dans la section Problèmes connus de cet article.  
 6. Testez les nouveaux attendants automatiques en les appelant en interne ou en attribuant un numéro de téléphone de test.  
@@ -127,12 +127,12 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux att
 
 ## <a name="appendix"></a>Annexe
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice des fonctionnalités des services cloud ExchUMO et Azure
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice de fonctionnalités des services cloud ExchUMO et Azure
 
-| Service | Niveau de fonctionnalité | Fonctionnalité | Remarques  | Cloud VM/AA  | ExUMO |
+| Service | Niveau de fonctionnalité | Fonctionnalité | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Fonctionnalités de service| Prise en charge du PBX tiers    | Inclure toutes les fonctionnalités fournies aux PBX tiers, telles que l’indicateur de message en attente (MWI) à l’aide de SIP notify messages from Exchange UM Online | N   | v    |
-| VM | Fonctionnalités de service  | Prise en charge de Skype Entreprise Server   |  | v | v    |
+| VM  | Fonctionnalités de service| Prise en charge de PBX tiers    | Inclure toutes les fonctionnalités fournies aux PBX tiers, telles que l’indicateur de message en attente (MWI) à l’aide de sip notifier les messages à partir d’Exchange UM Online | N   | v    |
+| VM | Fonctionnalités de service  | Prise en charge de Skype Entreprise Server   |  | v | v    |
 | VM | Fonctionnalités de service | Prise en charge de Microsoft Teams|  | v | N    |
 | VM | Fonctionnalités de service | eDiscovery et hold  | Pour la sécurité et la conformité  | v | v    |
 | VM | Fonctionnalités de service | Prise en charge des règles Exchange | Pour la sécurité et la conformité  | v | v    |
@@ -161,17 +161,17 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux att
 | VM | Fonctionnalités utilisateur | Lire sur le téléphone (th)- pour lire un message | M’appeler sur mon appareil authentifié  | N | v    |
 | VM | Fonctionnalités utilisateur | Boîte aux lettres partagée entre plusieurs utilisateurs |  | v | v    |
 | VM | Fonctionnalités de l’appelant  | Expérience de l’appelant : messagerie vocale protégée | L’appelant peut choisir une option pour marquer un message enregistré comme protégé| N | v    |
-| VM | Fonctionnalités de l’appelant  | Expérience de l’appelant : messagerie vocale privée | L’appelant peut choisir une option pour marquer un message enregistré comme privé  | N | v    |
+| VM | Fonctionnalités de l’appelant  | Expérience de l’appelant — messagerie vocale privée | L’appelant peut choisir une option pour marquer un message enregistré comme privé  | N | v    |
 | VM | Fonctionnalités de l’appelant  | Détection du silence   |  | N | v    |
 | VM | Tenant-Admin fonctionnalités | Messagerie vocale protégée au niveau du serveur    | L’administrateur client peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme étant protégée | v | v    |
 | VM | Tenant-Admin fonctionnalités | Modifier la durée d’enregistrement  |     | v | v    |
-| VM | Tenant-Admin fonctionnalités | Modifier le délai d’out de détection du silence    |  | N/A    | v    |
+| VM | Tenant-Admin fonctionnalités | Modifier le délai d’out de détection du silence    |  | S/O    | v    |
 | VM | Tenant-Admin fonctionnalités | Modifier le nombre d’échecs d’entrée | CVM : codé en dur sur 3 | N | v    |
 | VM | Tenant-Admin fonctionnalités | Modifier la langue par défaut |  | v | v    |
 | VM | Tenant-Admin fonctionnalités | Désactiver/activer la transcription |  | v | v    |
-| VM | Tenant-Admin fonctionnalités | Désactiver/activer la notification d’appel en manqué |  | N | v    |
+| VM | Tenant-Admin fonctionnalités | Désactiver/activer la notification d’appel manqué |  | N | v    |
 | VM | Tenant-Admin fonctionnalités | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| VM | Tenant-Admin fonctionnalités | Personnaliser le message texte pour les utilisateurs activés|  | N/A    | v    |
+| VM | Tenant-Admin fonctionnalités | Personnaliser le message texte pour les utilisateurs activés|  | S/O    | v    |
 | VM | Tenant-Admin fonctionnalités | Masquage de la transcription|  | v | N    |
 | VM | Tenant-Admin fonctionnalités | Stratégie de messagerie vocale    |   | v | v    |
 | VM | Tenant-Admin fonctionnalités | Administration du portail web   |  | CY19   | v    |
@@ -190,7 +190,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux att
 | AA | Fonctionnalités de service | Options de menu | Options de menu du système de réponse vocale vocale (IVR)  | v | v    |
 | AA | Fonctionnalités de service | Affectation d’un numéro RSTN cloud à AA |  | v | N    |
 | AA | Fonctionnalités de service | Affectation d’un numéro PSTN sur place à AA  |  | v | v    |
-| AA | Fonctionnalités de service | Sélection personnalisée de l’utilisateur  | Permettre aux appelants d’accéder à une liste personnalisée d’utilisateurs de l’organisation| v | v    |
+| AA | Fonctionnalités de service | Sélection personnalisée de l’utilisateur  | Permettre aux appelants d’atteindre une liste personnalisée d’utilisateurs de l’organisation| v | v    |
 | AA | Fonctionnalités de service | Traitement des heures supplémentaires et des jours fériés  |  | v | v    |
 | AA | Fonctionnalités de service | Message d’accueil personnalisé utilisant la reconnaissance vocale  |  | v | v    |
 | AA | Fonctionnalités de service | Numérotation d'extension   | Atteindre un utilisateur en composant son poste  | v   | v    |
@@ -236,17 +236,17 @@ Les nouveaux utilisateurs de Skype Entreprise seront automatiquement mis en serv
 
 ### <a name="admin-auto-attendant-management-experience"></a>Expérience de gestion Standard automatique administrateur
 
-Pour en savoir plus sur les attendants automatiques, voir [Configurer un attendant automatique cloud.](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)
+Pour en savoir plus sur les attendants automatiques, voir [Configurer un attendant automatique cloud.](/microsoftteams/create-a-phone-system-auto-attendant)
 
 ### <a name="known-issues"></a>Problèmes connus
 
 #### <a name="greeting-inconsistencies"></a>Incohérences de message d’accueil
 
-L’accès abonné peut continuer à fonctionner pour votre client jusqu’à ce que le service soit complètement retiré, même après que tous vos utilisateurs ont été migrés vers la messagerie vocale cloud. Pour éviter toute confusion chez l’utilisateur et une expérience incohérente, désactivez l’accès abonné, car les message d’accueil changent après la migration. Pour ce faire, supprimez le contact EXUM pour chaque ligne d’accès abonné à l’aide `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` de .
+L’accès abonné peut continuer à fonctionner pour votre client jusqu’à ce que le service soit complètement retiré, même après que tous vos utilisateurs ont été migrés vers la messagerie vocale cloud. Pour éviter toute confusion chez l’utilisateur et une expérience incohérente, désactivez l’accès abonné car les salutations changent après la migration. Pour ce faire, supprimez le contact EXUM pour chaque ligne d’accès abonné à l’aide `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` de .
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>Standard automatique transfert d’appel vers PSTN
 
-Pour transférer un appel de attendant automatique vers un numéro de téléphone PSTN externe via Skype Entreprise Server ou un service Response Group (RGS) sur Skype Entreprise Server, créez un utilisateur local avec le transfert d’appel sur le numéro de téléphone RGPD ou le numéro de téléphone RGS. L’utilisateur doit être activé et correctement configuré pour Voix Entreprise et une stratégie de voix doit lui être attribuée.
+Pour transférer un appel de attendant automatique vers un numéro de téléphone PSTN externe via Skype Entreprise Server ou un service Response Group (RGS) sur Skype Entreprise Server, créez un utilisateur local avec le transfert d’appel sur le numéro de téléphone RGPD ou le numéro de téléphone RGS. L’utilisateur doit être activé et correctement configuré pour Voix Entreprise et une stratégie de voix doit être affectée.
 
 #### <a name="shared-mailbox-is-still-accessible"></a>La boîte aux lettres partagée est toujours accessible
 
@@ -254,7 +254,7 @@ Une boîte aux lettres partagée configurée à l’aide d’Exchange UM Online 
   
 #### <a name="username-is-not-using-skype-for-business-banner-displays"></a>La bannière « Le nom d’utilisateur n’utilise pas Skype Entreprise » s’affiche
 
-Le service CVM est basé sur l’infrastructure De Microsoft Teams et les appels d’un client Skype Entreprise peuvent entraîner l’affichage d’une bannière d’informations sur le client qui indique : « Le nom d’utilisateur n’utilise pas Skype Entreprise. Pour une expérience plus riche, basculez vers Teams ou démarrez une réunion Skype. »
+Le service CVM est basé sur l’infrastructure Microsoft Teams et les appels d’un client Skype Entreprise peuvent entraîner l’affichage d’une bannière d’informations sur le client qui indique : « Le nom d’utilisateur n’utilise pas Skype Entreprise. Pour une expérience plus riche, basculez vers Teams ou démarrez une réunion Skype. »
 Veillez à mettre à jour le client Skype Entreprise de vos utilisateurs vers la dernière mise à jour du client C2R pour empêcher l’apparition de cette bannière.
   
 #### <a name="set-up-voice-mail-takes-you-to-owa"></a>« Configurer la messagerie vocale » vous OWA

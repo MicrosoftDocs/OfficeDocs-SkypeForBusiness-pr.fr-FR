@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f9b2388cef619728f5ecdd912e61448cc3524c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827504"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117262"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Exemple de script PowerShell - Réinitialiser le paramètre de démarrage automatique dans Teams
 
 Utilisez ce script pour réinitialiser le paramètre de démarrage automatique de Teams par utilisateur. Cela inclut toutes les valeurs définies par l’utilisateur ou l’application Teams. Par défaut, Teams démarre automatiquement lorsqu’un utilisateur se connecte à son ordinateur après l’installation.
 
-Si vous avez déjà déployé Teams et que vous voulez définir le paramètre Empêcher Microsoft Teams de démarrer automatiquement après [l’installation,](../msi-deployment.md#use-group-policy-recommended) vous devez désactiver le démarrage automatique de Teams, vous devez d’abord définir le paramètre de stratégie de groupe sur la valeur que vous voulez, puis exécuter ce script.
+Si vous avez déjà déployé Teams et que vous souhaitez définir le paramètre Empêcher Microsoft Teams de démarrer automatiquement après [l’installation,](../msi-deployment.md#use-group-policy-recommended) vous devez désactiver le démarrage automatique de Teams, vous devez définir le paramètre de stratégie de groupe sur la valeur de votre souhaitez, puis exécuter ce script.
 
 Une fois Teams démarré pour un utilisateur, les paramètres de démarrage automatique ne peuvent pas être désactivés à l’aide d’une stratégie de groupe.
 
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Teams avec MSI](../msi-deployment.md)
-- [Déployer Teams avec les applications Microsoft 365 pour les entreprises](https://docs.microsoft.com/deployoffice/teams-install)
+- [Déployer Teams avec les applications Microsoft 365 pour les entreprises](/deployoffice/teams-install)

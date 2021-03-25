@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration des comptes pour les salles Microsoft Teams dans Exchange et Skype Entreprise.
-ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662519"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117472"
 ---
-# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour des salles Microsoft Teams
+# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles Microsoft Teams
  
 Lisez cette rubrique pour en savoir plus sur les salles Microsoft Teams et la manière dont elles sont intégrées à Exchange et Skype Entreprise.
   
@@ -40,7 +40,7 @@ Cette rubrique présente la création de comptes utilisés par les salles Micros
     
 La procédure de préparation de l’installation de l’appareil dépend de votre type de configuration.
   
-Les salles Microsoft Teams doivent être affectées à un « compte d’appareil » dans Active Directory, Exchange et Skype Entreprise. Le compte est utilisé pour accéder à son calendrier de réunions et établir une connectivité Microsoft Teams ou Skype Entreprise. Les utilisateurs peuvent réserver ce compte en planifiant une réunion à l’aide de celui-ci. Les salles Microsoft Teams pourront rejoindre cette réunion et offrir différentes fonctionnalités aux participants à la réunion.
+Les salles Microsoft Teams doivent être affectées à un « compte d’appareil » dans Active Directory, Exchange et Skype Entreprise. Le compte est utilisé pour accéder à son calendrier de réunion et établir une connectivité Microsoft Teams ou Skype Entreprise. Les utilisateurs peuvent réserver ce compte en planifiant une réunion à l’aide de celui-ci. Les salles Microsoft Teams pourront rejoindre cette réunion et offrir différentes fonctionnalités aux participants à la réunion.
   
 > [!IMPORTANT]
 > Sans compte d’appareil, aucune de ces fonctionnalités ne fonctionne. 
@@ -54,13 +54,13 @@ Chaque compte d’appareil est unique sur un seul appareil Salles Microsoft Team
 > [!IMPORTANT]
 > Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. 
 
-Dans les environnements hybrides, le compte utilisé pour les salles Microsoft Teams doit avoir la synchronisation des mots de passe activée dans la synchronisation Azure Active Directory (AAD), car l’authentification salles Microsoft Teams nécessite l’authentification Microsoft 365 ou Office 365. Lors de la configuration du compte, assurez-vous que l’adresse SIP du compte correspond à son nom d’utilisateur principal (UPN) dans AAD. 
+Dans les environnements hybrides, le compte utilisé pour les salles Microsoft Teams doit avoir la synchronisation des mots de passe activée dans la synchronisation Azure Active Directory (AAD), car l’authentification des salles Microsoft Teams nécessite l’authentification Microsoft 365 ou Office 365. Lors de la configuration du compte, assurez-vous que l’adresse SIP du compte correspond à son nom d’utilisateur principal (UPN) dans AAD. 
   
 Vous pouvez voir un compte d’appareil comme un compte de ressource que les utilisateurs reconnaissent comme étant un compte de salle de conférence ou d’espace de réunion. Lorsque vous souhaitez planifier une réunion qui se déroulera dans cette salle de réunion, vous invitez le compte à cette réunion. Pour utiliser les salles Microsoft Teams de façon efficace, vous devez faire de même avec le compte d’appareil affecté à chacune d’elles.
   
-Si vous avez déjà un compte de boîte aux lettres de ressources installé pour l’espace de réunion où vous installez les salles Microsoft Teams, vous pouvez changer ce compte de ressource en compte d’appareil. Une fois cette opération effectuée, il vous suffit d’ajouter le compte de l’appareil sur un appareil Microsoft Teams Rooms. Consultez les exemples de configuration de compte d’appareil fournis ci-dessous.
+Si vous avez déjà un compte de boîte aux lettres de ressources installé pour l’espace de réunion où vous installez les salles Microsoft Teams, vous pouvez changer ce compte de ressource en compte d’appareil. Une fois cette opération effectuée, il vous suffit d’ajouter le compte de l’appareil à un appareil Microsoft Teams Rooms. Consultez les exemples de configuration de compte d’appareil fournis ci-dessous.
   
-Avec une configuration supplémentaire, la gestion à distance est possible à l’aide de Microsoft Azure Monitor comme décrit dans la gestion de salles Microsoft Teams avec [Azure Monitor,](azure-monitor-plan.md)déployer la gestion des salles Microsoft Teams avec [Azure Monitor](azure-monitor-deploy.md)et gérer les appareils [Salles Microsoft Teams](azure-monitor-manage.md)avec Azure Monitor. 
+Avec une configuration supplémentaire, la gestion à distance est possible à l’aide de Microsoft Azure Monitor comme décrit dans la gestion des salles Microsoft Teams avec [Azure Monitor,](azure-monitor-plan.md)déployer la gestion des salles Microsoft Teams avec [Azure Monitor](azure-monitor-deploy.md)et gérer les appareils [Salles Microsoft Teams](azure-monitor-manage.md)avec Azure Monitor. 
   
 ## <a name="basic-configuration"></a>Configuration de base
 
@@ -82,7 +82,7 @@ Bien que les propriétés de la configuration de base autorisent la configuratio
    
 La manière la plus simple de configurer des comptes d’appareil consiste à les configurer à l’aide de la Windows PowerShell. Microsoft fournit [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer de nouveaux comptes d’appareils, ou à valider les comptes de ressources existants que vous avez afin de vous aider à les transformer en comptes d’appareils Microsoft Teams rooms compatibles.
   
-Si vous préférez utiliser l’interface utilisateur de Microsoft 365 ou d’Office 365 par rapport à Windows PowerShell cmdlets, certaines étapes peuvent être effectuées manuellement. Voir [Créer un compte d’appareil à l’aide de Microsoft 365 ou Office 365.](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)
+Si vous préférez utiliser l’interface utilisateur de Microsoft 365 ou Office 365 par rapport à Windows PowerShell de cmdlets, certaines étapes peuvent être effectuées manuellement. Voir [Créer un compte d’appareil à l’aide de Microsoft 365 ou Office 365.](/surface-hub/create-a-device-account-using-office-365)
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -91,4 +91,3 @@ Si vous préférez utiliser l’interface utilisateur de Microsoft 365 ou d’Of
 [Configurer une console des salles Microsoft Teams](console.md)
   
 [Gérer les Salles Microsoft Teams](rooms-manage.md)
-

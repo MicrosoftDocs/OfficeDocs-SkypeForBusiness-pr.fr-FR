@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez comment attribuer gratuitement une licence Système téléphonique –Utilisateur virtuel ou une licence d’utilisateur système téléphonique payant aux comptes de ressources de votre organisation.
-ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868651"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116922"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – Licence utilisateur virtuel
 
@@ -51,7 +51,7 @@ Contoso, Inc. a acheté 600 licences qui incluaient Phone System (une pour chaqu
 
 Contoso doit envisager de reconfidenter le système de attendant automatique et de file d’attente d’appels. S’ils utilisent moins de numéros de téléphone et plus de numéros imbrmbrés qui n’ont pas besoin de numéro de téléphone, ils simplifient l’implémentation et réduisent les coûts.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Acheter Microsoft 365 Phone System – Licences utilisateur virtuel
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Comment acheter Microsoft 365 Phone System – Licences utilisateur virtuel
 
 1. Connectez-vous au Centre d’administration Microsoft 365.
 2. Go to **Billing**  >  **Purchase services**  >  **Add-ons**
@@ -65,7 +65,7 @@ Contoso doit envisager de reconfidenter le système de attendant automatique et 
 Si vous décidez de basculer la licence de votre compte de ressource d’une licence Phone System à une licence Microsoft 365 Phone System –Utilisateur virtuel :
 
 1. Obtenez la nouvelle licence Microsoft 365 Phone System – Utilisateur virtuel.
-2. Suivez les étapes liées dans le Centre d’administration Microsoft 365 pour déplacer les [utilisateurs vers un autre abonnement.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+2. Suivez les étapes liées dans le Centre d’administration Microsoft 365 pour déplacer les [utilisateurs vers un autre abonnement.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > Supprimez toujours une licence phone system complète et affectez la licence Microsoft 365 Phone System – Utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications apportées au compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un nouveau compte de ressource pour microsoft 365 Phone System ( licence utilisateur virtuel) et de supprimer le compte de ressource rompu. 

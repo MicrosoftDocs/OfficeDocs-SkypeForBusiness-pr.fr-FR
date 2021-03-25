@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article décrit la configuration de votre organisation et des appareils Salles Teams pour prendre en charge la jointation de tierces réunions à Cisco WebEx et Zoom.
-ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997432"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117372"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Permettre aux appareils de salle Teams de participer à des réunions tierces
 
@@ -34,9 +34,9 @@ Les sections suivantes vous indiquent comment suivre chacune de ces étapes.
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>Étape 1 : autoriser le traitement des invitations de calendrier pour les réunions tierces
 
-La première chose que vous devez faire pour activer une expérience de jointage tactile unique à partir d’un appareil Salles d’équipe est de définir les règles de traitement du calendrier pour la boîte aux lettres de salle Exchange Online de l’appareil. La boîte aux lettres de la salle doit autoriser les réunions externes et conserver le corps et l’objet du message afin qu’il puisse voir l’URL nécessaire pour participer à la réunion tierce. Pour définir ces options de boîte aux lettres de salle à l’aide de la cmdlet [Set-CalendarProcessing,](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) vous pouvez :
+La première chose que vous devez faire pour activer une expérience de jointage tactile unique à partir d’un appareil Salles d’équipe est de définir les règles de traitement du calendrier pour la boîte aux lettres de salle Exchange Online de l’appareil. La boîte aux lettres de la salle doit autoriser les réunions externes et conserver le corps et l’objet du message afin qu’il puisse voir l’URL nécessaire pour participer à la réunion tierce. Pour définir ces options de boîte aux lettres de salle à l’aide de la cmdlet [Set-CalendarProcessing,](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) vous pouvez :
 
-1. Connectez-vous à Exchange Online PowerShell. Pour plus d’informations, voir Se connecter à [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) avec l’authentification de base ou Se connecter à Exchange Online PowerShell à l’aide de l’authentification [multifacteur,](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)selon votre méthode d’authentification.
+1. Connectez-vous à Exchange Online PowerShell. Pour plus d’informations, voir Se connecter à [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) avec l’authentification de base ou Se connecter à Exchange Online PowerShell à l’aide de l’authentification [multifacteur,](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)selon votre méthode d’authentification.
 
 2. Si vous ne la connaissez pas, obtenez le nom d’utilisateur principal (UPN) de la boîte aux lettres de salle en exécutant la commande suivante :
 
@@ -52,13 +52,13 @@ La première chose que vous devez faire pour activer une expérience de jointage
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-En savoir plus sur [Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps)
+En savoir plus sur [Exchange Online PowerShell.](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Étape 2 : configurer Office 365 Threat Protection et réécrire le lien
 
-Pour permettre une expérience de participer en une seule fois, les informations de lien d’accès à la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité Liens sécurisés de la protection avancée contre les menaces [d’Office 365,](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes de la recherche de menaces, cela peut modifier les URL de participer à la réunion et rendre la réunion non reconnue par l’appareil Salles d’équipe. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste « Ne pas réécrire » des liens sécurisés ATP ou la liste des exceptions de réécriture d’URL tierces.
+Pour permettre une expérience de participer en une seule fois, les informations de lien d’accès à la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité Liens sécurisés de la protection avancée contre les menaces [d’Office 365,](/microsoft-365/security/office-365-security/atp-safe-links) ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes de la recherche de menaces, cela peut modifier les URL de participer à la réunion et rendre la réunion non reconnue par l’appareil Salles d’équipe. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste « Ne pas réécrire » des liens sécurisés ATP ou la liste des exceptions de réécriture d’URL tierces.
 
-Pour ajouter des URL de service de réunion tierces à la liste Liens sécurisés ATP, suivez les étapes de la procédure Configurer une liste d’URL de ne pas réécrire personnalisée à l’aide de liens [sécurisés ATP.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si vous utilisez une solution tierce, consultez les instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
+Pour ajouter des URL de service de réunion tierces à la liste Liens sécurisés ATP, suivez les étapes de la procédure Configurer une liste d’URL de ne pas réécrire personnalisée à l’aide de liens [sécurisés ATP.](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si vous utilisez une solution tierce, consultez les instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
 
 Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre liste de liens sécurisés ATP « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces :
 
