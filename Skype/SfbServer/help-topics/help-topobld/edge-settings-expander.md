@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples :'
-ms.openlocfilehash: 7f202dc03d0c83c324f4dc2a75928e022a68250c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119653"
 ---
 # <a name="edge-settings-expander"></a>Expandeur des paramètres du pool de serveurs Edge
 
@@ -66,6 +66,4 @@ Si vous déterminez que votre organisation utilisera un nom de domaine complet e
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, voir [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)
-
-
+Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, voir [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)

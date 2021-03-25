@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Résumé : Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 76a2fb401c684e0eb685b733cb1b0a63ecbd9907
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827984"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119393"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurer la réunion sans code confidentiel dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment configurer l’option de rejoindre une réunion sans code confidentiel dans Skype Entreprise Server.
   
-Lorsqu’un appelant tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
+Lorsqu’un appelant d’accès tente de participer à une réunion, le service d’Standard automatique de conférence (CAA) place l’appelant dans un stylet différent du &#x2014; de salle d’accueil si un présentateur n’est pas déjà en cours d’appel et que l’appelant n’a pas entré de code confidentiel d’leader. L’option de rejoindre une réunion sans code confidentiel permet aux appelants de participer à une réunion sans entrer de code confidentiel d’leader, même s’ils sont la première personne à participer à un appel. 
   
 Gardez à l’esprit les questions suivantes lors de la configuration de cette fonctionnalité :
   
@@ -33,11 +33,11 @@ Gardez à l’esprit les questions suivantes lors de la configuration de cette f
     
 - Une fois le paramètre modifié, il s’applique à toutes les réunions privées existantes et nouvelles.
     
-- Peut être activé au niveau du site de l’organisateur ou au niveau global.
+- Peut être activé sur le site de l’organisateur ou au niveau global.
     
 - Les options qui peuvent contourner la salle d’entrée peuvent être définies pour l’une des options suivantes : 
     
-  - **Tous les membres de mon organisation avec des appelants entrent directement**
+  - **Tous les membres de mon organisation ayant des appelants entrent directement**
     
   - **Tout le monde (aucune restriction) avec** les appelants entre directement (il s’agit du paramètre par défaut.)
     
@@ -45,7 +45,7 @@ Gardez à l’esprit les questions suivantes lors de la configuration de cette f
     
 ## <a name="configure-pin-less-meeting-join"></a>Configurer la réunion sans code confidentiel
 
-Pour activer la réunion sans code confidentiel pour vos utilisateurs, utilisez l’cmdlet [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) avec le paramètre AllowAnonymousPstnActivation comme suit :
+Pour activer la réunion sans code confidentiel pour vos utilisateurs, utilisez l’cmdlet [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) avec le paramètre AllowAnonymousPstnActivation comme suit :
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -63,6 +63,4 @@ Pour des raisons de sécurité, lorsque la réunion sans code confidentiel est d
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-Pour plus d’informations, [voir Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
-  
-
+Pour plus d’informations, [voir Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

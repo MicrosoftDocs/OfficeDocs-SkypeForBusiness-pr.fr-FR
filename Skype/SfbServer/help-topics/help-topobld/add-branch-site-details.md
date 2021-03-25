@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Pour spécifier les détails d’un site, vous pouvez :'
-ms.openlocfilehash: acc33e2a08ae4c0232ccff92f8ce1e800178b1c0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ce3101141d25279a4509c7980800d0e3e2c3fd0c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835550"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119843"
 ---
 # <a name="add-branch-site-details"></a>Ajouter les détails du site de succursale
 
@@ -32,6 +32,4 @@ Un nom de département/province pour le nouveau site de succursale. La valeur D�
 
 Un nom de code de pays/région pour le nouveau site de succursale. La valeur Code de pays/région est facultative.
 
-Pour plus d'informations, voir [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).
-
-
+Pour plus d'informations, voir [Sites](/previous-versions/office/lync-server-2013/lync-server-2013-sites).

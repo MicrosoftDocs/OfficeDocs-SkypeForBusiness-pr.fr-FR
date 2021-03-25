@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Vous définissez un nouveau serveur Edge ou pool de serveurs Edge et vous avez la possibilité de définir des fonctionnalités pour le nouveau serveur ou pool. Vous pouvez choisir parmi les options suivantes :'
-ms.openlocfilehash: b6f6e07c3555101103aeaad7f1c45f4449c25078
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dfc8238bbbe4899f9819118a11fc11ba47fe21f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835514"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119803"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Ajouter des options de serveur Edge pour Lync Server 2010
 
@@ -37,6 +37,6 @@ Vous définissez un nouveau serveur Edge ou pool de serveurs Edge et vous avez l
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de l’accès des utilisateurs externes](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[Planification de l’accès des utilisateurs externes](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-external-user-access)
 
-[Déploiement de l’accès des utilisateurs externes](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
+[Déploiement de l’accès des utilisateurs externes](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-external-user-access)

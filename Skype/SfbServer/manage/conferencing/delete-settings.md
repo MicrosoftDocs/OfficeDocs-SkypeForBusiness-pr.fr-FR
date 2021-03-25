@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Résumé : Découvrez comment supprimer les paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: 418ce7418be5a09658626491121dd2e2b3542110
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b0c739f0149b4e28ca23df1437caab0505e1118d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828178"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119493"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Supprimer les paramètres de configuration de réunion dans Skype Entreprise Server
  
@@ -33,9 +33,9 @@ Vous pouvez supprimer une configuration de site ou d’utilisateur, mais vous ne
     
 2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Configuration de **la réunion.**
     
-4. Dans la liste des configurations de réunion, cliquez sur la configuration de site ou de pool à supprimer, cliquez sur **Modifier,** puis cliquez sur **Supprimer.**
+4. Dans la liste des configurations de réunion, cliquez sur la configuration de site ou de pool à supprimer, cliquez sur **Modifier,** puis sur **Supprimer.**
     
 ## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Supprimer les paramètres de configuration de réunion à l’aide de Skype Entreprise Server Management Shell
 
@@ -53,6 +53,4 @@ La commande suivante supprime tous les paramètres de configuration de réunion 
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
-Pour plus d’informations, y compris une liste complète des paramètres, voir [Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps).
-  
-
+Pour plus d’informations, y compris une liste complète des paramètres, voir [Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps).

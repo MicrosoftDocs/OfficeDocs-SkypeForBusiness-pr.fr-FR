@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 description: Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou indiquer un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel situer le partage de fichiers et un nom de dossier pour le nouveau partage de fichiers.
-ms.openlocfilehash: 66289799ba69fee037d2dbe465be78cf7d77be67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4fb23aa6d7e436fd089c6a1912c450304bf189c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119783"
 ---
 # <a name="add-front-end-file-store"></a>Ajouter un magasin de fichiers frontal
 
@@ -35,6 +35,4 @@ Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers
 > [!IMPORTANT]
 > Lorsque vous ajoutez un pool frontal Enterprise Edition ou un serveur Standard Edition à votre topologie, le Générateur de topologie doit être en mesure de configurer le magasin de fichiers et de configurer des listes de contrôle d’accès discrétionnaire (DACL) sur le partage de fichiers à utiliser pour le magasin de fichiers. Pour cela, lorsque vous exécutez le Générateur de topologie pour publier la nouvelle topologie, vous devez être connecté avec un compte qui dispose des autorisations de contrôle complètes (lecture/écriture/modification) pour le partage de fichiers.
 
-Pour plus d’informations sur la [](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) prise en charge du stockage pour les partages de fichiers, voir La prise en charge du stockage de fichiers dans la documentation de prise en charge et SQL Server Données et [emplacement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) des fichiers journaux dans la documentation de déploiement. Pour plus d’informations sur la colocalisation du partage de fichiers, voir [Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) dans la documentation de prise en charge. Pour plus d’informations sur la conception de la topologie pour un pool frontal Enterprise Edition, voir [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.
-
-
+Pour plus d’informations sur la prise en charge du stockage pour les partages de fichiers, voir [La](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support) prise en charge du stockage de fichiers dans la documentation de prise en charge et SQL Server Données et [emplacement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) des fichiers journaux dans la documentation de déploiement. Pour plus d’informations sur la colocalisation du partage de fichiers, voir [Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation) dans la documentation de prise en charge. Pour plus d’informations sur la conception de la topologie pour un pool frontal Enterprise Edition, voir [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) dans la documentation de déploiement.

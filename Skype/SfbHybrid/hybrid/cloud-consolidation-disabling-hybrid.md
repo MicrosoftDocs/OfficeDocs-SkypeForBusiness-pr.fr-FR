@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cet article comprend des étapes détaillées pour la désactivation de l’hybride dans le cadre de la consolidation du cloud pour Teams et Skype Entreprise.
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874694"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120353"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Désactiver l’hybride pour terminer la migration vers le cloud : Vue d’ensemble
 
@@ -61,7 +61,7 @@ Ces étapes séparent logiquement votre déploiement local de Skype Entreprise S
     >
     > - Toutes les organisations fédérées qui utilisent l’ancien modèle de fédération directe (également appelé serveur partenaire autorisé) doivent mettre à jour leurs entrées de domaine autorisées pour que leur organisation supprime le nom de domaine réservé au proxy. Ce modèle de fédération hérité n’est pas basé sur des enregistrements DNS SRV, de sorte qu’une telle configuration ne sera plus à jour une fois que votre organisation sera installée dans le cloud.
     > 
-    > - Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed.online.lync. <span> com devra mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement en local et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la fédération avec ces organisations ne fonctionne pas tant qu’elle n’a pas activé son fournisseur d’hébergement.
+    > - Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed.online.lync. <span> com devra mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement sur site et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la fédération avec ces organisations ne fonctionne pas tant qu’elles n’ont pas activé leur fournisseur d’hébergement.
     >
     > Si vous pensez que l’un de vos partenaires fédérés peut utiliser la fédération directe ou n’avoir été fédéré avec aucune organisation en ligne ou hybride, nous vous suggérons de leur envoyer une communication à ce sujet lorsque vous vous préparez à terminer votre migration vers le cloud.
 
@@ -86,7 +86,7 @@ Deux options sont disponibles pour gérer cette situation :
 
 1. Laissez les utilisateurs activés pour les comptes de serveur Skype Entreprise tels qu’ils sont et gérez les attributs msRTCSIP à l’aide des outils Active Directory. Cela garantit l’absence de perte de service pour les utilisateurs migrés et vous permet de supprimer facilement le déploiement de Skype Entreprise Server en éliminant (par exemple, la suppression) des serveurs, sans désaffectation complète. Toutefois, les utilisateurs nouvellement titulaires d’une licence n’auront pas ces attributs dans votre annuaire Active Directory local et devront être gérés en ligne.
 
-2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. Cette méthode permet une approche de gestion cohérente pour les utilisateurs existants et nouveaux, mais elle peut potentiellement entraîner une perte temporaire de service pendant le processus de mise hors service local.
+2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. Cette méthode permet une approche de gestion cohérente pour les utilisateurs existants et nouveaux, mais elle peut entraîner une perte temporaire de service pendant le processus de désaffectation sur site.
 
 
 ### <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>Méthode 1 : gérer les adresses SIP et les numéros de téléphone des utilisateurs dans Active Directory
@@ -99,14 +99,14 @@ Les administrateurs peuvent gérer les utilisateurs qui ont été précédemment
 
   ![Outil utilisateurs et ordinateurs Active Directory](../media/disable-hybrid-1.png)
   
--  Si l’utilisateur n’avait à l’origine pas de valeur pour l’environnement local avant le déplacement, vous pouvez modifier le numéro de téléphone à l’aide du paramètre - dans `msRTCSIP-Line` l’cmdlet `onpremLineUri` [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) du module PowerShell de Skype Entreprise Online.
+-  Si l’utilisateur n’avait à l’origine pas de valeur pour l’environnement local avant le déplacement, vous pouvez modifier le numéro de téléphone à l’aide du paramètre - dans `msRTCSIP-Line` l’cmdlet `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) du module PowerShell de Skype Entreprise Online.
 
 Ces étapes ne sont pas nécessaires pour les nouveaux utilisateurs créés après la désactivation de l’hybride, et ces utilisateurs peuvent être gérés directement dans le cloud. Si vous êtes à l’aise avec la combinaison de ces méthodes et si vous souhaitez laisser les attributs msRTCSIP en place dans votre environnement Active Directory local, vous pouvez simplement ré-imager les serveurs Skype Entreprise locaux. Toutefois, si vous préférez effacer tous les attributs msRTCSIP et faire une désinstallation traditionnelle de Skype Entreprise Server, utilisez la méthode 2.
 
 
 ### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Méthode 2 : effacer les attributs Skype Entreprise pour tous les utilisateurs locaux dans Active Directory
 
-Cette option nécessite des efforts supplémentaires et une planification appropriée, car les utilisateurs qui ont été précédemment déplacés d’un serveur Skype Entreprise local vers le cloud doivent être réapprovisionnement. Ces utilisateurs peuvent être classés dans deux catégories différentes : les utilisateurs sans système téléphonique et les utilisateurs avec système téléphonique. Les utilisateurs avec le système téléphonique seront temporairement perdus du service téléphonique dans le cadre de la transition du numéro de téléphone de la gestion dans Active Directory local vers le cloud. **Il est recommandé d’effectuer un projet pilote impliquant un petit nombre d’utilisateurs avec le système téléphonique avant de démarrer des opérations utilisateur en bloc.** Pour les déploiements de grande taille, les utilisateurs peuvent être traitées par groupes plus petits dans différentes fenêtres de temps. 
+Cette option nécessite des efforts supplémentaires et une planification appropriée, car les utilisateurs qui ont été précédemment déplacés d’un serveur Skype Entreprise local vers le cloud doivent être réapprovisionnement. Ces utilisateurs peuvent être classés dans deux catégories différentes : les utilisateurs sans système téléphonique et les utilisateurs avec système téléphonique. Les utilisateurs ayant un système téléphonique seront temporairement perdus du service téléphonique dans le cadre de la transition du numéro de téléphone de la gestion d’Active Directory local vers le cloud. **Il est recommandé d’effectuer un projet pilote impliquant un petit nombre d’utilisateurs avec le système téléphonique avant de démarrer des opérations utilisateur en bloc.** Pour les déploiements de grande taille, les utilisateurs peuvent être traitées par groupes plus petits dans différentes fenêtres de temps. 
 
 > [!NOTE]
 > Le processus est plus simple pour les utilisateurs qui ont une adresse sip correspondante et UserPrincipalName. Pour les organisations dont les utilisateurs ont des valeurs non correspondantes dans ces deux attributs, une attention supplémentaire doit être prise comme indiqué ci-dessous pour une transition fluide. 
@@ -139,7 +139,7 @@ Cette option nécessite des efforts supplémentaires et une planification approp
 4. Supprimez les informations d’attribut relatives à Skype Entreprise Server d’Active Directory pour l’ensemble d’utilisateurs que vous êtes prêt à mettre à jour.  Ce processus est en deux étapes, comme illustré ci-dessous.
 
    > [!Important] 
-   > Après le cycle de synchronisation AAD suivant après l’exécution de cette étape, les utilisateurs avec le système téléphonique qui ont été précédemment déplacés d’un serveur Skype Entreprise local vers le cloud perdent la possibilité de prendre et de recevoir des appels jusqu’à ce que l’étape 8 soit terminée et confirmée à l’étape 9. En outre, assurez-vous que vous avez enregistré les numéros de téléphone et les informations connexes de l’utilisateur à l’étape 2, car ces informations sont requises pour cette étape.
+   > Après le cycle de synchronisation AAD suivant après l’exécution de cette étape, les utilisateurs avec le système téléphonique qui ont été précédemment déplacés d’un serveur Skype Entreprise local vers le cloud perdront la possibilité de prendre et de recevoir des appels jusqu’à ce que l’étape 8 soit terminée et confirmée à l’étape 9. En outre, assurez-vous que vous avez enregistré les numéros de téléphone et les informations connexes de l’utilisateur à l’étape 2, car ces informations sont requises pour cette étape.
 
  
    ```PowerShell
@@ -183,7 +183,7 @@ Cette option nécessite des efforts supplémentaires et une planification approp
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Exécutez la commande PowerShell Skype Entreprise Online suivante pour affecter des numéros de téléphone et activer les utilisateurs pour le système téléphonique :
+8. Exécutez la commande PowerShell Skype Entreprise Online suivante pour attribuer des numéros de téléphone et activer les utilisateurs pour le système téléphonique :
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

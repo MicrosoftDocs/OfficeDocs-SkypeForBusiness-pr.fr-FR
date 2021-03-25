@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Résumé : Définissez le code confidentiel de conférence d’un utilisateur pour Skype Entreprise Server.'
-ms.openlocfilehash: cd7375519fa9fc161c6414dcf1b9d0fbf6de6ef0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c34e895471fdffb13a4cdb10806bd07146474e44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828295"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119553"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Définir le code confidentiel de conférence d’un utilisateur dans Skype Entreprise Server
  
 **Résumé :** Définir le code confidentiel de conférence d’un utilisateur pour Skype Entreprise Server.
   
-Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Skype Entreprise Server ayant des informations d’identification AD DS (Active Directory Domain Services) requiert un code confidentiel. Si un utilisateur oublie le code confidentiel de la conférence téléphonique ou n’a pas encore le définir à l’aide de Skype Entreprise Server, vous pouvez définir le code confidentiel de l’utilisateur à partir du Panneau de contrôle Skype Entreprise Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
+Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Skype Entreprise Server avec des informations d’identification des services de domaine Active Directory (AD DS) requiert un code confidentiel. Si un utilisateur oublie le code confidentiel de la conférence téléphonique ou n’a pas encore le définir à l’aide de Skype Entreprise Server, vous pouvez définir le code confidentiel de l’utilisateur à partir du Panneau de contrôle Skype Entreprise Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
   
 > [!NOTE]
 > Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies en tant que stratégie. En plus de la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur particulier. 
@@ -81,7 +81,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Affectation d’un code confidentiel utilisateur à l’aide Windows PowerShell cmdlets
 
-Vous pouvez également affecter des numéros de code confidentiel à l’aide Set-CsClientPin cmdlet. Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server. 
+Vous pouvez également affecter des numéros de code confidentiel à l’aide Set-CsClientPin cmdlet. Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion [de Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Pour attribuer automatiquement un code confidentiel à un utilisateur
 
@@ -99,6 +99,4 @@ Cette commande utilise le paramètre de code confidentiel pour affecter le code 
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsClientPin.](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps)
-  
-
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Set-CsClientPin.](/powershell/module/skype/set-csclientpin?view=skype-ps)

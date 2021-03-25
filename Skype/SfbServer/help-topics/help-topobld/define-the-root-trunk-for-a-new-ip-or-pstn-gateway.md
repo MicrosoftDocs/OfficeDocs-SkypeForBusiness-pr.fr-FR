@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant les options suivantes :'
-ms.openlocfilehash: 4f437f9536b834b8b8dc69f59702bc77ce968ef2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835384"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119673"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 
@@ -42,4 +42,4 @@ Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant
 
 [Configuration d’une trunk sans déviation du média dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Prise en charge de l’acheminement SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Prise en charge de l’acheminement SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

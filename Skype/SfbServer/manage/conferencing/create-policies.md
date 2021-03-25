@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828234"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119523"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez créer des stratégies de conférence à l’aide du Panneau de cont
     
 2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -126,6 +126,4 @@ L’exemple suivant crée une stratégie de conférence avec l’identité Sales
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
-  
-
+Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, voir [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).

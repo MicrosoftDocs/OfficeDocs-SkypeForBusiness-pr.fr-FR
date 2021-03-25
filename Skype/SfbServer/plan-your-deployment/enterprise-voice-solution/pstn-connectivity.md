@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Découvrez les passerelles PSTN et de la Voix Entreprise SIP dans Skype Entreprise Server.
-ms.openlocfilehash: 6261b95906699777e62c025889d23e03d381f09d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 402aa365556ef52d135c3ee6c0a2e36e9bd2e780
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813534"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114620"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Composants de connectivité PSTN dans Skype Entreprise Server
  
@@ -58,10 +58,8 @@ Les scénarios d’intégration Voix Entreprise-PBX pris en charge sont les sui
 - PBX TDM (multiplexage temporel), avec une passerelle PSTN autonome.
     
 > [!NOTE]
-> Le contournement de média n’interagit pas avec chaque passerelle PSTN, système IP-PBX et contrôleur de session en périphérie (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec cisco IP-PBX. Le contournement de média est pris en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des communications unifiées [- Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
+> Le contournement de média n’interagit pas avec chaque passerelle PSTN, système IP-PBX et contrôleur de session en périphérie (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec des PBX IP Cisco. Le contournement de média est pris en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des communications unifiées [- Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
 Pour plus d’informations sur les partenaires qui proposent des solutions Voix Entreprise, consultez le site [Web Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
   
 Pour plus d’informations sur les partenaires qui proposent Voix Entreprise solutions matérielles, y compris les passerelles PSTN, consultez le site [Web Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
-  
-

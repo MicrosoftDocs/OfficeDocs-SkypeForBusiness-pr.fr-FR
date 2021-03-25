@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Résumé : Affichez les informations de stratégie de code confidentiel d’un utilisateur pour Skype Entreprise Server.'
-ms.openlocfilehash: 4c223d5736df7f5f8ee1dbee11401a9fef2237cb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 80383ce7e78ba8806119121f8c27c6e469363003
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119533"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Afficher les informations de stratégie de code confidentiel dans Skype Entreprise Server
  
@@ -40,7 +40,7 @@ Suivez ces étapes pour modifier une stratégie de code confidentiel au niveau d
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>Affichage des stratégies de code confidentiel à l’Windows PowerShell cmdlets
 
-Vous pouvez également afficher les stratégies de code confidentiel à l’Windows PowerShell la cmdlet Get-CsPinPolicy code confidentiel. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez également afficher les stratégies de code confidentiel à l’Windows PowerShell et la cmdlet Get-CsPinPolicy code confidentiel. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-view-pin-policies"></a>Pour afficher les stratégies de code confidentiel
 
@@ -62,7 +62,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsPinPolicy.](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsPinPolicy.](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
   
 ## <a name="see-also"></a>Voir aussi
 

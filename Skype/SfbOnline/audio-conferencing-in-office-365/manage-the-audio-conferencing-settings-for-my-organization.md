@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consultez la procédure d’affectation d’une licence de conférence rendez-vous et d’un ID de conférence rendez-vous à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: eb0212bcd7c03fac619efa2749a8308097f75505
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164143"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114230"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -39,7 +39,7 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence de S
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences à l’aide du **Centre d’administration Skype Entreprise.** Vous devez utiliser le Centre d’administration Microsoft 365. Consultez [Attribuer des licences Skype Entreprise.](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+> Vous ne pouvez pas attribuer de licences à l’aide du **Centre d’administration Skype Entreprise.** Vous devez utiliser le Centre d’administration Microsoft 365. Consultez [Attribuer des licences Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Pour attribuer une licence à un utilisateur**
 
@@ -48,11 +48,11 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence de S
 2. Dans le panneau de navigation gauche du Centre d’administration, sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste  >  des utilisateurs disponibles.
 
     > [!NOTE]
-    > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+    > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**. Vous pouvez également affecter des licences à plusieurs utilisateurs à l'aide de Windows Powershell. Pour obtenir des instructions et des exemples de scripts PowerShell, [consultez Affecter des licences Skype Entreprise.](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 
 3. Dans le volet Action, sous **Licences de produit**, cliquez sur **Modifier**.
 
-4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+4. Sur la page **Licences de produits,** activer **l’audioconférence,** puis cliquer sur **Enregistrer.** Pour plus d'informations sur les licences, reportez-vous à la rubrique [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > Une fois que vous avez attribué la licence, Microsoft peut ne pas apparaître initialement dans la liste en tant que fournisseur de services d’audioconférence. Dans ce cas, déconnectez-vous du Centre d’administration ou appuyez sur Ctrl+F5 pour actualiser la fenêtre du navigateur.
@@ -63,7 +63,7 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence de S
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
 
-2. Dans le panneau de navigation de > **de Skype** Entreprise, cliquez sur **Audioconférence.**
+2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
 
 3. Dans la page des **paramètres de pont Microsoft**, activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres d’audioconférence ont été modifiés**.
 
@@ -84,11 +84,11 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence de S
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Vous pouvez également utiliser Windows PowerShell et exécuter :[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
+    Vous pouvez également utiliser Windows PowerShell et exécuter :[](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Modifier les informations de contact de l’expéditeur dans les messages électroniques envoyés aux utilisateurs
 
-Vous pouvez apporter des modifications aux courriers électroniques envoyés automatiquement à vos utilisateurs, y compris l’adresse de messagerie réelle et le nom d’affichage des informations de contact de l’expéditeur. Par défaut, l’expéditeur des courriers électroniques est Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de la cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Pour apporter des modifications à l’adresse de messagerie qui envoie le courrier électronique aux utilisateurs, vous devez :
+Vous pouvez apporter des modifications aux courriers électroniques envoyés automatiquement à vos utilisateurs, y compris l’adresse de messagerie réelle et le nom d’affichage des informations de contact de l’expéditeur. Par défaut, l’expéditeur des courriers électroniques est Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de la cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Pour apporter des modifications à l’adresse de messagerie qui envoie le courrier électronique aux utilisateurs, vous devez :
 
 - Entrez l’adresse de courrier dans le _paramètre SendEmailFromAddress._
 
@@ -104,7 +104,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 Vous pouvez apporter des modifications aux courriers électroniques envoyés aux utilisateurs, notamment l'adresse électronique d'envoi du courrier électronique ou le nom d'affichage associé à l'adresse électronique en exécutant :
 
-Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) pour gérer d’autres paramètres de votre organisation, y compris le courrier électronique.
+Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) pour gérer d’autres paramètres de votre organisation, y compris le courrier électronique.
 
 Consultez les messages électroniques envoyés automatiquement aux utilisateurs en cas de modification de [leurs paramètres d’audioconférence.](emails-sent-to-users-when-their-settings-change.md)
 
@@ -116,27 +116,27 @@ Consultez les messages électroniques envoyés automatiquement aux utilisateurs 
 
 3. Dans le **Centre d’administration Skype Entreprise**, dans le volet de navigation de gauche, allez à **Audioconférence**, et dans le volet Actions, sous d'**ID de conférence**, cliquez sur **Réinitialiser**.
 
-4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+4. Dans la fenêtre **Réinitialiser l’ID de conférence** ? cliquez sur **Oui.** Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
 
     > [!IMPORTANT]
-    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/download/details.aspx?id=54079).
+    >  Une fois qu'un nouvel ID de conférence est créé, l'ancien ID ne peut plus être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. Les utilisateurs peuvent utiliser l’outil de migration de réunions Skype Entreprise pour mettre à jour leurs réunions existantes. Pour découvrir comment télécharger, installer et exécuter l’outil de mise à jour des réunions Skype Entreprise, consultez : Outil de mise à jour des réunions pour Skype Entreprise et [Lync,](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)Skype Entreprise Online, Outil de migration de réunions [(64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)et Skype Entreprise Online, Outil de migration de réunions [(32 bits).](https://www.microsoft.com/download/details.aspx?id=54079)
 
 Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user.md).
 
 ## <a name="reset-a-conference-organizers-pin"></a>Réinitialisation du code confidentiel d'un organisateur de conférence
 
-Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
+Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique. Bien qu’un ID de conférence soit automatiquement créé et attribué à un utilisateur, il arrive qu’un utilisateur ne souhaite pas l’utiliser et que vous le définissez sur un nombre donné, ou que vos utilisateurs ne se souvenent pas ou ont perdu leur ID de conférence. Vous pouvez utiliser le centre d’administration Skype Entreprise et Windows PowerShell pour afficher, modifier et réinitialiser leurs ID de conférence.
 
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
 
-2. Dans le panneau de navigation de > **de Skype** Entreprise, cliquez sur **Audioconférence.**
+2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
 
 3. Cliquez **sur** Utilisateurs, puis sélectionnez l’utilisateur pour qui vous voulez réinitialiser le code confidentiel.
 
 4. Dans le volet Action, sous Code **confidentiel,** cliquez sur **Réinitialiser.**
 
-Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, ***** will be shown.
+Les utilisateurs reçoivent un courrier électronique avec leur code confidentiel lorsqu’ils sont activés pour l’audioconférence ou lorsque le code confidentiel est réinitialisé. Toutefois, si vous avez désactivé l’envoi automatique de courriers électroniques, le message de réinitialisation du code confidentiel ne sera pas envoyé et vous de aurez à envoyer manuellement le code confidentiel à l’utilisateur. Le code confidentiel ne sera affiché qu'après avoir été réinitialisé. Une fois qu’il s’affiche juste après la réinitialisation, le code confidentiel n’est plus affiché dans les propriétés de l’utilisateur. ***** s’affiche à la place.
 
 Consultez [réinitialiser le code confidentiel de l’audioconférence.](reset-the-audio-conferencing-pin.md)
 
@@ -144,7 +144,7 @@ Consultez [réinitialiser le code confidentiel de l’audioconférence.](reset-t
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
 
-2. Dans le panneau de navigation de > **de Skype** Entreprise, cliquez sur **Audioconférence.**
+2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
 
 3. Cliquez **sur** Utilisateurs, puis sélectionnez l’utilisateur pour qui vous voulez réinitialiser le code confidentiel.
 
@@ -161,7 +161,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
 
 2. Allez au Centre d'> **dans Skype Entreprise.**
 
-3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
+3. Dans le groupe de navigation de gauche, allez à Utilisateurs de **l’audioconférence.**  >   Sélectionnez l’utilisateur que vous voulez activer pour l’audioconférence.
 
 4. Dans le volet Action, vous pouvez définir le **Numéro payant** et, si permis, le **Numéro gratuit**.
 
@@ -203,7 +203,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
 
 4. Sous **Sécurité,** entrez le nombre de chiffres  que vous souhaitez pour le code confidentiel dans la liste de longueur du code confidentiel, puis cliquez sur **Enregistrer.**
 
-    The PIN must be between 4 and 12 digits. The default is 5.
+    Le code confidentiel doit comporter entre 4 et 12 chiffres. La valeur par défaut est 5.
     
 Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
   
@@ -211,7 +211,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
 
-2. Dans le panneau de navigation de > **de Skype** Entreprise, cliquez sur **Audioconférence.**
+2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
 
 3. Dans la page des **paramètres de pont Microsoft**, activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres d’audioconférence ont été modifiés**.
 
@@ -234,7 +234,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
 
 4. Dans le volet de navigation de gauche du **Centre d'administration Skype Entreprise**, sélectionnez **Conférences rendez-vous**, puis cliquez sur **Pont Microsoft**.
 
-    You can also set the primary and secondary languages that are supported when you select Microsoft as the audio conferencing provider. The order that you select in the lists is the same order in which languages will be presented to callers.
+    Vous pouvez également définir la langue principale et les langues secondaires qui sont pris en charge lorsque vous sélectionnez Microsoft comme fournisseur de services d’audioconférence. L’ordre que vous sélectionnez dans les listes sera l’ordre dans lequel les langues seront présentées aux appelants.
 
 Reportez-vous à la rubrique [Définir les langues du standard automatique pour les conférences Audio](set-auto-attendant-languages-for-audio-conferencing.md).
 
@@ -244,7 +244,7 @@ Reportez-vous à la rubrique [Définir les langues du standard automatique pour 
 
 2. Allez au Centre d'> **dans Skype Entreprise.**
  
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
+3. Dans le **Centre d’administration Skype** Entreprise, dans le panneau de navigation de gauche, allez au pont Microsoft de l’audioconférence.   >   Depuis cette section, vous pouvez :
 
    - Affichez les numéros de téléphone que Microsoft 365 ou Office 365 doit utiliser pour l’audioconférence.
 
@@ -262,15 +262,15 @@ Consultez [la liste des numéros d’audioconférence.](see-a-list-of-audio-conf
 
 2. Allez au Centre d'> **dans Skype Entreprise.**
 
-3. Dans le **Centre d’administration Skype** Entreprise, dans le panneau de navigation de gauche, allez à Conférence **audio** et> puis **Utilisateurs.**
+3. Dans le **Centre d’administration Skype** Entreprise, dans le panneau de navigation de gauche, allez à **Conférence audio** et> puis **Utilisateurs.**
 
 Reportez-vous à la rubrique [Afficher la liste des utilisateurs activés pour les conférences Audio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-There are several settings that you can manage at the organization level using Windows PowerShell. This makes it easy to apply settings to all of your users.
+Plusieurs paramètres peuvent être gérables au niveau de l’organisation à l’aide de Windows PowerShell. Cela facilite l’application des paramètres à tous vos utilisateurs.
 
-Pour en savoir plus sur chaque applet de commande, reportez-vous à la rubrique [Applets de commande Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=627324).
+Pour en savoir plus sur chaque applet de commande, reportez-vous à la rubrique [Applets de commande Skype Entreprise Online](/previous-versions//mt228132(v=technet.10)).
 
 Voici les paramètres au niveau de l’organisation :
 
@@ -315,24 +315,22 @@ Voici les paramètres au niveau de l’organisation :
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell
-- Windows PowerShell vous permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour commencer à Windows PowerShell, consultez les rubriques ci-après :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
     Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gestion des paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user.md)
-
-

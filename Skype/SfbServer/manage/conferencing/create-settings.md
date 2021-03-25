@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Résumé : Découvrez comment créer des paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828204"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119513"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de réunion dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez créer des paramètres de configuration de réunion à l’aide du P
     
 2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Configuration de **la réunion.**
     
 4. Dans la page **Configuration de la réunion**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -89,6 +89,4 @@ Plusieurs valeurs de propriété peuvent être définies en incluant plusieurs p
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Pour plus d’informations, y compris une liste complète des paramètres, voir [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
-  
-
+Pour plus d’informations, y compris une liste complète des paramètres, voir [New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).

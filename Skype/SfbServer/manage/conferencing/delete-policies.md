@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Résumé : Découvrez comment supprimer des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: eedb0b3676f0cc046e6096dca2cb1ec5ced5d6ec
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828194"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119503"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Supprimer des stratégies de conférence dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez supprimer des stratégies de conférence à l’aide du Panneau de c
     
 2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
     
 4. Dans la liste des stratégies de conférence, cliquez sur la stratégie de site ou d’utilisateur à supprimer, cliquez sur **Modifier,** puis sur **Supprimer.**
     
@@ -51,6 +51,4 @@ La commande suivante supprime toutes les stratégies de conférence qui permette
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-Pour plus d’informations, notamment sur la syntaxe complète et la liste des paramètres, voir [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).
-  
-
+Pour plus d’informations, notamment sur la syntaxe complète et la liste des paramètres, voir [Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).

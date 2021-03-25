@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Stratégie de mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
-ms.openlocfilehash: 758b5a7471a934e65156f5f82810a6e1b940d1ac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 641280af27b793eccff2f1bfab327708b93b0a46
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830184"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120243"
 ---
 # <a name="clients-mobility-policy"></a>Clients : stratégie de mobilité
 
@@ -50,10 +50,10 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 - **Actualiser** Actualise la liste des stratégies affichées. Lorsque vous cliquez sur **Actualiser,** la chaîne de filtre de recherche est effacée et toutes les stratégies existantes sont affichées.
 
-Pour plus d’informations sur la configuration des stratégies de mobilité, voir [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+Pour plus d’informations sur la configuration des stratégies de mobilité, voir [Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy).
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de la mobilité](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planification de la mobilité](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
-[Déploiement de la mobilité](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Déploiement de la mobilité](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)

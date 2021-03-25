@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêt unique.
-ms.openlocfilehash: 0449a5e909fa044df12766aec0a036bf97315386
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: df213b24ef3400aa5551a090d2dd218d05794988
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820754"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120323"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Déploiements locaux à forêt unique de Skype Room System
  
@@ -27,7 +27,7 @@ Cette section fournit une vue d’ensemble des étapes de mise en service du com
   
 ## <a name="single-forest-on-premises-deployments"></a>Déploiements sur site d’une forêt unique
 
-Si vous avez déjà un compte de boîte aux lettres de ressources pour la salle de conférence, vous pouvez l’utiliser. Dans le cas contraire, vous devrez en créer un. Vous pouvez utiliser Exchange Management Shell (PowerShell) ou console de gestion Exchange pour créer un compte de boîte aux lettres de ressources. Nous vous recommandons d’utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Assurez-vous de la back up mailbox data before deleting, puis exportez-les vers la boîte aux lettres re-créée à l’aide du client Outlook (pour plus d’informations, voir Export or back up messages, calendar, tasks, and contacts). Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir Connecter ou [restaurer une boîte aux lettres supprimée.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx) 
+Si vous avez déjà un compte de boîte aux lettres de ressources pour la salle de conférence, vous pouvez l’utiliser. Dans le cas contraire, vous devrez en créer un. Vous pouvez utiliser Exchange Management Shell (PowerShell) ou console de gestion Exchange pour créer un compte de boîte aux lettres de ressources. Nous vous recommandons d’utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Assurez-vous de la back up mailbox data before deleting, puis exportez-les vers la boîte aux lettres re-créée à l’aide du client Outlook (pour plus d’informations, voir Export or back up messages, calendar, tasks, and contacts). Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir Connecter ou [restaurer une boîte aux lettres supprimée.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
   
 Pour utiliser un compte de boîte aux lettres de ressources existant (par exemple, LRS-01), suivez les étapes ci-dessous :
   
@@ -114,6 +114,4 @@ Après avoir créé un compte de boîte aux lettres de ressources pour les salle
    ```
 
 > [!NOTE]
-> Si vous activez Voix Entreprise pour le compte de salle de conférence Skype Room System, veillez à configurer une stratégie de voix restreinte adaptée à votre organisation. Si la salle de réunion Skype Entreprise est une ressource disponible publiquement, tout le monde peut l’utiliser pour participer à une réunion, qu’elle soit programmée ou ad hoc. Après avoir rejoint une réunion, la personne peut composer n’importe quel numéro. Dans Skype Entreprise Server, la fonctionnalité d’appel sortant des conférences utilise la stratégie de voix de l’utilisateur, dans ce cas, le compte Skype Room System utilisé pour participer à la réunion. Dans les versions antérieures de Lync Server, la stratégie de voix de l’organisateur est utilisée. Par conséquent, si un utilisateur d’une version antérieure de Lync Server organise une salle de réunion et invite le compte de salle Skype Room System, toute personne peut utiliser la salle de réunion Skype Entreprise pour participer à la réunion et composer n’importe quel numéro de téléphone national/régional ou international, à condition que l’organisateur soit autorisé à composer ces numéros. 
-  
-
+> Si vous activez Voix Entreprise pour le compte de salle de conférence Skype Room System, veillez à configurer une stratégie de voix restreinte adaptée à votre organisation. Si la salle de réunion Skype Entreprise est une ressource disponible publiquement, tout le monde peut l’utiliser pour participer à une réunion, qu’elle soit programmée ou ad hoc. Après avoir rejoint une réunion, la personne peut composer n’importe quel numéro. Dans Skype Entreprise Server, la fonctionnalité d’appel sortant des conférences utilise la stratégie de voix de l’utilisateur, dans ce cas, le compte Skype Room System utilisé pour participer à la réunion. Dans les versions antérieures de Lync Server, la stratégie de voix de l’organisateur est utilisée. Par conséquent, si un utilisateur d’une version antérieure de Lync Server programme une salle de réunion et invite le compte de salle Skype Room System, toute personne peut utiliser la salle de réunion Skype Entreprise pour participer à la réunion et composer n’importe quel numéro de téléphone national/régional ou international, à condition que l’organisateur soit autorisé à composer ces numéros. 

@@ -1,5 +1,5 @@
 ---
-title: Panneau de contrôle - Recherche utilisateur mise à jour
+title: 'Panneau de contrôle : recherche utilisateur mise à jour'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser les résultats d’une requête de recherche pour configurer des utilisateurs pour Skype Entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à l’aide du Panneau de contrôle Lync Server ou du logiciel en ligne Utilisateurs et ordinateurs Active Directory.
-ms.openlocfilehash: f74c1dfe7f1b8184c59261ff03a01f2f5b39db18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff98ed04ce4d411c118e9b0b497a2118ba38e17e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820244"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120093"
 ---
 # <a name="control-panel---updated-user-search"></a>Panneau de configuration - Mise à jour : recherche d’un utilisateur
 
@@ -28,23 +28,23 @@ Vous pouvez utiliser les résultats d’une requête de recherche pour configure
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes dans la page Panneau de contrôle de recherche **de** l’utilisateur :
+Vous pouvez effectuer les  tâches suivantes dans la page Panneau de contrôle de recherche d’utilisateur :
 
-- [Rechercher des utilisateurs](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Rechercher des utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
-- [Activer ou désactiver des utilisateurs](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Activer ou désactiver des utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
 - [Déplacement d’un utilisateur](ms.lync.lscp.UserMove.md)
 
 - [Déplacement de tous les utilisateurs](ms.lync.lscp.UserMoveAll.md)
 
-- [Attribuer des stratégies aux utilisateurs](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Attribuer des stratégies aux utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
 - [Activer les utilisateurs Voix Entreprise dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [Configurer la téléphonie pour les utilisateurs](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configurer la téléphonie pour les utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
 
 
@@ -105,5 +105,3 @@ Ajoutez un texte descriptif, selon les besoins.
   - **Déplacer les utilisateurs sélectionnés vers le pool** Ouvre la boîte de dialogue Déplacer [l’utilisateur,](ms.lync.lscp.UserMove.md) dans laquelle vous pouvez sélectionner un pool vers lequel déplacer l’utilisateur sélectionné.
 
   - **Déplacer tous les utilisateurs vers le pool** Ouvre la boîte [de dialogue Déplacer l’utilisateur,](ms.lync.lscp.UserMove.md) dans laquelle vous pouvez sélectionner un pool vers lequel déplacer tous les utilisateurs sélectionnés.
-
-

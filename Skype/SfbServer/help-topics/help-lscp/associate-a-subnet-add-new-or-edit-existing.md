@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: b131fbabb19836097ff85c3f7d371a218361c497
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 96fd5dbca91fc6f03c45dba74ddc841f6f1c9b05
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119973"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Association d’un sous-réseau : ajout d’une nouvelle ou modification d’une association existante
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Configuration des sous-réseaux](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [Configuration des sous-réseaux](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
-

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: bec80e94c5bc2044359875f7c56f92a1348464c9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 39397064fe525a2b1324b8ef0a0f0bb1df287653
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813424"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114570"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Définir l’étendue du déploiement E9-1-1 dans Skype Entreprise Server
 
@@ -39,7 +39,7 @@ Avant de configurer Skype Entreprise pour E9-1-1, vous devez planifier votre dé
 
  **Comment allez-vous déployer E9-1-1 sur des sites de succursales ?**
 
- La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des connexions SIP E-9-1-1 et qu’une panne de réseau wan se produit, il se peut que les clients qui se connectent ne puissent pas obtenir un emplacement à partir du service Informations sur l’emplacement ou se connecter au fournisseur de services d’urgence. Skype Entreprise fournit plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels d’urgence vers la passerelle locale en cas de panne. Pour plus d’informations, voir [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des branches SIP E-9-1-1 et qu’une panne de réseau wan se produit, les clients qui se connectent peuvent ne pas être en mesure d’obtenir un emplacement à partir du service Informations sur l’emplacement ou de se connecter au fournisseur de services d’urgence. Skype Entreprise fournit plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une ligne SIP dans chaque succursale ou faire passer des appels d’urgence vers la passerelle locale en cas de panne. Pour plus d’informations, voir [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
 
  **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**
 
@@ -51,5 +51,3 @@ Avant de configurer Skype Entreprise pour E9-1-1, vous devez planifier votre dé
  **Voulez-vous que les appels d’urgence soient acheminés vers des sites en dehors des États-Unis ?**
 
  Vous voudrez peut-être que des zones de votre entreprise bénéficient du routage des appels d’urgence alors qu’elles ne disposent pas d’un fournisseur de services d’urgence (par exemple, des sites à l’étranger). Pour ce faire, créez un site, puis affectez des stratégies de voix aux sites qui utilisent le réseau PSTN pour acheminer l’appel via une passerelle PSTN locale.
-
-

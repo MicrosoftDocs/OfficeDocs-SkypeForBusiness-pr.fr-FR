@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, les sections suivantes se succèdent :'
-ms.openlocfilehash: 95f842e72066f7ef19c474b10f7293f05c83cd67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833204"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119693"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expandeur des paramètres généraux du Branch Office Appliance
 
@@ -49,7 +49,7 @@ Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivan
     > [!IMPORTANT]
     > Avant de publier la nouvelle topologie que vous venez de définir, le serveur que vous spécifiez doit exister et être joint au domaine.
 
-- Associer un serveur de surveillance vous permet de choisir d’associer un serveur de surveillance au Survivable Branch Appliance ou au serveur Survivable Branch Server. Vous pouvez choisir à partir d’un serveur de surveillance déjà défini en sélectionnant le serveur dans la liste drop-down ou en cliquant sur **Nouveau** pour spécifier un nouveau serveur de surveillance.
+- Associer un serveur de surveillance vous permet de choisir d’associer un serveur de surveillance au Survivable Branch Appliance ou au serveur Survivable Branch Server. Vous pouvez choisir à partir d’un serveur de surveillance déjà défini en sélectionnant le serveur dans la liste de listes ou en cliquant sur **Nouveau** pour spécifier un nouveau serveur de surveillance.
 
 - Associer un pool de serveurs Edge vous permet de choisir d’associer un serveur Edge ou un pool de serveurs Edge au Survivable Branch Appliance ou au serveur Survivable Branch Server. Vous pouvez choisir à partir d’un serveur Edge ou d’un pool de serveurs Edge déjà défini en sélectionnant le serveur dans la liste déroulante, ou vous pouvez cliquer sur **Nouveau** pour indiquer un nouveau serveur Edge ou un pool de serveurs Edge.
 
@@ -57,7 +57,7 @@ Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivan
 
 La résilience apporte une très grande disponibilité au pool de serveurs d’inscriptions. Lorsqu’il est configuré, un serveur d’inscriptions de sauvegarde permet de prendre le relais d’un serveur d’inscriptions en cas d’échec du serveur d’inscriptions principal, permettant aux utilisateurs de se connecter et de communiquer. Il est possible que les utilisateurs ne disposent pas de toutes les fonctionnalités, selon les systèmes qui ont échoué sur le serveur d’inscriptions principal.
 
-Dans la liste de listes listes, sélectionnez le pool frontal Enterprise Edition ou le serveur frontal Standard Edition qui sera le serveur d’inscriptions de sauvegarde pour le Survivable Branch Appliance ou le Serveur Survivable Branch Server. Vous pouvez également choisir d’activer des intervalles de basculement et de secours. L’activation des paramètres d’intervalle de basculement et de secours (indiqués en secondes) permet de détecter automatiquement un serveur d’inscriptions défaillant ; un intervalle de secours permet de déterminer automatiquement que le serveur principal est le serveur de sauvegarde et qu’il peut reprendre le processus du serveur d’inscriptions.
+Dans la liste de listes, sélectionnez le pool frontal Enterprise Edition ou le serveur frontal Standard Edition qui sera le serveur d’inscriptions de sauvegarde pour le Survivable Branch Appliance ou le Serveur Survivable Branch Server. Vous pouvez également choisir d’activer des intervalles de basculement et de secours. L’activation des paramètres d’intervalle de basculement et de secours (indiqués en secondes) permet de détecter automatiquement un serveur d’inscriptions défaillant ; un intervalle de secours permet de déterminer automatiquement que le serveur principal est le serveur de sauvegarde et qu’il peut reprendre le processus du serveur d’inscriptions.
 
 > [!IMPORTANT]
 > Lorsque vous définissez l’intervalle entre deux détections d’échec et de secours, prenez garde à ne pas entrer un intervalle qui provoquera le basculement et le secours si le serveur d’inscriptions ne répond pas pendant un court moment. Le serveur d’inscriptions peut cesser de répondre pendant de courts moments en fonction du chargement du pool ou des serveurs. Les valeurs par défaut d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans un site pour un pool ou un serveur frontal Standard Edition sont de 120 secondes pour le failover et de 240 secondes pour le serveur de base.
@@ -76,6 +76,4 @@ Si plusieurs passerelles sont associées à un serveur de médiation, la premiè
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration des paramètres du Survivable Branch Appliance ou du serveur Survivable Branch Server, voir [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
-
-
+Pour plus d’informations sur la définition et la configuration des paramètres du Survivable Branch Appliance ou du serveur Survivable Branch Server, voir [Branch-Site Resiliency Solutions](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions).

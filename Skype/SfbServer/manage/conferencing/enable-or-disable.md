@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 'Résumé : Découvrez comment utiliser le Panneau de contrôle ou Management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.'
-ms.openlocfilehash: 99691540306ba0cccf9c63af2e2188e839367bc6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ade7753f480856d68535daadda40eac6296a5d6e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119463"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Activer ou désactiver la conférence téléphonique dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment utiliser le Panneau de contrôle ou l’management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.
+**Résumé :** Découvrez comment utiliser le Panneau de contrôle ou Management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.
   
-Vous pouvez activer la conférence à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez activer la conférence téléphonique à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Activer ou désactiver la conférence téléphonique à l’aide du Panneau de contrôle Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Vous pouvez activer la conférence à l’aide du Panneau de contrôle Skype Ent
     
 2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
     
 4. Dans la liste des stratégies de conférence, sélectionnez celle pour laquelle vous voulez activer la conférence rendez-vous, cliquez sur **Modifier**, puis sur **Afficher les détails**. 
     
@@ -47,6 +47,4 @@ Pour activer ou désactiver la conférence téléphonique, utilisez l’cmdlet *
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-Pour plus d’informations, [voir Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
-  
-
+Pour plus d’informations, [voir Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

@@ -1,5 +1,5 @@
 ---
-title: Verrouiller ou déverrouiller un code confidentiel utilisateur dans Skype Entreprise Server
+title: Verrouillage ou déverrouillage du code confidentiel d’un utilisateur dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Résumé : Verrouillez ou déverrouillez le code confidentiel de conférence d’un utilisateur pour Skype Entreprise Server.'
-ms.openlocfilehash: 73bd9affa159fba4ab35844896b9662eea3e1780
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828364"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119593"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Verrouiller ou déverrouiller un code confidentiel utilisateur dans Skype Entreprise Server
  
@@ -90,7 +90,7 @@ Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateu
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Verrouillage et déverrouillage de pins utilisateur à l’aide Windows PowerShell cmdlets
 
-Vous pouvez verrouiller et déverrouiller les pins utilisateur à l’aide de Windows PowerShell et des cmdlets Lock-CsClientPin et Unlock-CsClientPin de données. Vous pouvez exécuter ces cmdlets à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez verrouiller et déverrouiller les pins utilisateur à l’aide de Windows PowerShell et des cmdlets Lock-CsClientPin et Unlock-CsClientPin de données. Vous pouvez exécuter ces cmdlets à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion [de Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-lock-a-user-pin"></a>Pour verrouiller le code confidentiel d’un utilisateur
 
@@ -108,4 +108,4 @@ Vous pouvez verrouiller et déverrouiller les pins utilisateur à l’aide de Wi
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Pour plus d’informations, voir la rubrique d’aide sur les cmdlets [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) et [Unlock-CsClientPin.](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide pour les cmdlets [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) et [Unlock-CsClientPin.](/powershell/module/skype/unlock-csclientpin?view=skype-ps)

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La page Topologie : Application de serveur affiche les applications de serveur figurant dans votre déploiement.'
-ms.openlocfilehash: 4c76e2abc488e650819d5fe6fa19f9b0abbd6d36
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 719f49ca48ac8c9b5808178779405e56f47fc7fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836274"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120186"
 ---
 # <a name="topology-server-application"></a>Topologie : serveur d’applications
 
@@ -38,6 +38,6 @@ Vous pouvez effectuer les tâches suivantes dans la page **Topologie** : **Appl
 
 ## <a name="see-also"></a>Voir aussi
 
-[Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 
-[Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique](/previous-versions/office/lync-server-2013/lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical)

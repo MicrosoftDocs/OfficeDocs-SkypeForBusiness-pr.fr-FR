@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 6b9e67d8c87b023409b7934a944f298487f91289
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164263"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114250"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres d’audioconférence dans Skype Entreprise Online
 
 > [!Note]
-> Si vous voulez activer ou désactiver l’envoi de courriers électroniques dans Microsoft Teams, consultez activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres d’Audioconférence [dans Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+> Si vous voulez activer ou désactiver l’envoi de courriers électroniques dans Microsoft Teams, consultez activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres de l’audioconférence [dans Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
 
 Les utilisateurs sont automatiquement avertis par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de messages électroniques envoyés aux utilisateurs de Skype Entreprise. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
   
@@ -72,7 +72,7 @@ Vous pouvez utiliser le Centre d’administration de Skype Entreprise Windows Po
 3. Cliquez sur **Enregistrer**.
     
     > [!TIP]
-    > Vous pouvez également envoyer un courrier électronique à un utilisateur avec les paramètres de conférence audio en sélectionnant Utilisateurs de l’audioconférence, en sélectionnant l’utilisateur et en cliquant sur Envoyer les informations sur la conférence par  >   **courrier électronique.**  Dans ce cas, un message électronique incluant uniquement l’ID de conférence et le numéro de téléphone de la conférence sera envoyé, mais pas le code confidentiel.  Pour [plus d’informations,](send-an-email-to-a-user-with-their-dial-in-information.md) voir Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence.
+    > Vous pouvez également envoyer un courrier électronique à un utilisateur avec les paramètres de conférence audio en sélectionnant Utilisateurs de l’audioconférence, en sélectionnant l’utilisateur et en cliquant sur Envoyer les informations sur la conférence  >  par **courrier électronique.**  Dans ce cas, un message électronique incluant uniquement l’ID de conférence et le numéro de téléphone de la conférence sera envoyé, mais pas le code confidentiel.  Pour [plus d’informations,](send-an-email-to-a-user-with-their-dial-in-information.md) voir Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence.
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -85,7 +85,7 @@ Vous pouvez utiliser le Centre d’administration de Skype Entreprise Windows Po
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    Pour obtenir de l’aide sur cette cmdlet, voir [Set-CsOnlineDialInConferencingTenantSettings.](https://go.microsoft.com/fwlink/?LinkId=715757)
+    Pour obtenir de l’aide sur cette cmdlet, voir [Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings)
     
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
@@ -97,35 +97,33 @@ Vous pouvez utiliser le Centre d’administration de Skype Entreprise Windows Po
 
 - Vous pouvez utiliser ces cmdlets pour gagner du temps ou automatiser ce processus.
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-  - [Remove-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
+  - [Remove-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Remove-CsOnlineDialInConferencingTenantSettings)
     
-  - [Get-CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
+  - [Get-CsOnlineDialinConferencingTenantConfiguration](/powershell/module/skype/Get-CsOnlineDialinConferencingTenantConfiguration)
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Messages électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres d’audioconférence](emails-sent-to-users-when-their-settings-change.md)
 
 [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information.md)
-
-

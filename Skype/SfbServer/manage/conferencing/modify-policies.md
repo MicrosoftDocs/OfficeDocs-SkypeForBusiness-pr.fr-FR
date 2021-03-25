@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Résumé : Découvrez comment modifier des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: eafeb56dd9b0c36afffab07830a9efb71bde18fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6bbba82c9785e074da492eb66cbdd943dc0cea35
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828004"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119423"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modifier les stratégies de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment modifier les stratégies de conférence dans Skype Entreprise Server.
   
-Vous pouvez modifier des stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez modifier les stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
 ## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Modifier les stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Vous pouvez modifier des stratégies de conférence à l’aide du Panneau de co
     
 2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
     
 4. Dans la liste des stratégies de conférence, cliquez sur la stratégie de conférence souhaitée, sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -49,6 +49,4 @@ L’exemple suivant modifie une valeur de propriété de la stratégie de confé
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-Pour plus d’informations, notamment sur la syntaxe complète et la liste des paramètres, voir [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
-  
-
+Pour plus d’informations, notamment sur la syntaxe complète et la liste des paramètres, voir [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Résumé : Découvrez comment gérer le mappage de touches des commandes DTMF (dual-tone multi-frequency) dans Skype Entreprise Server.'
-ms.openlocfilehash: b804c9a0923630f6de3d1b5af2acdda123cc6331
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828094"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119443"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gérer le mappage de touches pour les commandes DTMF dans Skype Entreprise Server
  
@@ -41,7 +41,7 @@ Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
-4. Pour modifier les paramètres DTMF utilisés pour la conférence téléphonique, exécutez l’cmdlet suivante et spécifiez la touche à utiliser pour chaque option à modifier :
+4. Pour modifier les paramètres DTMF utilisés pour les conférences téléphoniques, exécutez l’cmdlet suivante et spécifiez la touche à utiliser pour chaque option à modifier :
     
    ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
@@ -59,6 +59,4 @@ L’exemple suivant permute la touche qui est activée pour activer ou désactiv
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-Pour plus d’informations, voir [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)et [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
-  
-
+Pour plus d’informations, voir [Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)et [New-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
