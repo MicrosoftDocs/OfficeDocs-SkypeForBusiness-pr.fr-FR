@@ -15,20 +15,18 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le serveur de gestion centralisée peut être changé d’un pool frontal défini à un autre. Pour modifier l’emplacement du serveur de gestion centralisée, sélectionnez le pool frontal dans la liste déroulante sous Serveur frontal sur lequel installer le serveur de gestion centralisée. Un serveur frontal peut être un pool frontal Enterprise Edition ou un serveur frontal Standard Edition.
-ms.openlocfilehash: db6bec4665da0e885a37ddcdac9c43ded1ee0da1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f0a2539496f10660195790b1168fd08c28ba5263
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811144"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120008"
 ---
-# <a name="cms-settings-expander"></a><span data-ttu-id="26e4e-105">Expandeur des paramètres CMS</span><span class="sxs-lookup"><span data-stu-id="26e4e-105">CMS Settings Expander</span></span>
+# <a name="cms-settings-expander"></a><span data-ttu-id="e3ca0-105">Expandeur des paramètres CMS</span><span class="sxs-lookup"><span data-stu-id="e3ca0-105">CMS Settings Expander</span></span>
  
-<span data-ttu-id="26e4e-p102">Le serveur de gestion centralisée peut être changé d’un pool frontal défini à un autre. Pour modifier l’emplacement du serveur de gestion centralisée, sélectionnez le pool frontal dans la liste déroulante sous **Serveur frontal sur lequel installer le serveur de gestion centralisée**. Un serveur frontal peut être un pool frontal Enterprise Edition ou un serveur frontal Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="26e4e-p102">The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span>
+<span data-ttu-id="e3ca0-p102">Le serveur de gestion centralisée peut être changé d’un pool frontal défini à un autre. Pour modifier l’emplacement du serveur de gestion centralisée, sélectionnez le pool frontal dans la liste déroulante sous **Serveur frontal sur lequel installer le serveur de gestion centralisée**. Un serveur frontal peut être un pool frontal Enterprise Edition ou un serveur frontal Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="e3ca0-p102">The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="26e4e-109">Si vous avez défini, publié et déployé le magasin central de gestion pour l’infrastructure, vous ne pouvez pas modifier l’emplacement du magasin central de gestion sans redéfinir l’emplacement du magasin central de gestion sur un autre serveur frontal par le biais d’un processus externe.</span><span class="sxs-lookup"><span data-stu-id="26e4e-109">If you have defined, published, and deployed the Central Management store for the infrastructure, you cannot change the location of the Central Management store without relocating the Central Management store to another Front End by an external process.</span></span> 
+> <span data-ttu-id="e3ca0-109">Si vous avez défini, publié et déployé le magasin central de gestion pour l’infrastructure, vous ne pouvez pas modifier l’emplacement du magasin central de gestion sans redéfinir l’emplacement du magasin central de gestion sur un autre serveur frontal par le biais d’un processus externe.</span><span class="sxs-lookup"><span data-stu-id="e3ca0-109">If you have defined, published, and deployed the Central Management store for the infrastructure, you cannot change the location of the Central Management store without relocating the Central Management store to another Front End by an external process.</span></span> 
   
-<span data-ttu-id="26e4e-110">Pour plus d’informations sur le déplacement du magasin Central Management Server, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence Windows PowerShell cmdlet.</span><span class="sxs-lookup"><span data-stu-id="26e4e-110">For details about moving the Central Management Server store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.</span></span>
-  
-
+<span data-ttu-id="e3ca0-110">Pour plus d’informations sur le déplacement du magasin Central Management Server, voir [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence Windows PowerShell cmdlet.</span><span class="sxs-lookup"><span data-stu-id="e3ca0-110">For details about moving the Central Management Server store, see [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.</span></span>

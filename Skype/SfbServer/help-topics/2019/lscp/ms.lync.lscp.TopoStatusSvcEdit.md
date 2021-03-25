@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 50a17892ee9824ab589a117d7f0732a6e9c611e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b4503e3f97132bab4724aa13da2ff260390697dd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836144"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120123"
 ---
-# <a name="topology-view-service-detail"></a><span data-ttu-id="30a2f-104">Topologie : afficher le détail des services</span><span class="sxs-lookup"><span data-stu-id="30a2f-104">Topology: View Service Detail</span></span>
+# <a name="topology-view-service-detail"></a><span data-ttu-id="b26a3-104">Topologie : afficher le détail des services</span><span class="sxs-lookup"><span data-stu-id="b26a3-104">Topology: View Service Detail</span></span>
 
-<span data-ttu-id="30a2f-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="30a2f-105">What do you want to do?</span></span> <span data-ttu-id="30a2f-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="30a2f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b26a3-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="b26a3-105">What do you want to do?</span></span> <span data-ttu-id="b26a3-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b26a3-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="30a2f-107">Afficher la liste des ordinateurs exécutant Skype Entreprise Server ou Lync Server</span><span class="sxs-lookup"><span data-stu-id="30a2f-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="b26a3-107">Afficher la liste des ordinateurs exécutant Skype Entreprise Server ou Lync Server</span><span class="sxs-lookup"><span data-stu-id="b26a3-107">View a List of Computers Running Skype for Business Server or Lync Server</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
-- [<span data-ttu-id="30a2f-108">Afficher les détails d’un service</span><span class="sxs-lookup"><span data-stu-id="30a2f-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="b26a3-108">Afficher les détails d’un service</span><span class="sxs-lookup"><span data-stu-id="b26a3-108">View Details About a Service</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
-- [<span data-ttu-id="30a2f-109">Démarrer ou arrêter les services</span><span class="sxs-lookup"><span data-stu-id="30a2f-109">Start or Stop Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="b26a3-109">Démarrer ou arrêter les services</span><span class="sxs-lookup"><span data-stu-id="b26a3-109">Start or Stop Services</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
 
-- [<span data-ttu-id="30a2f-110">Empêcher les nouvelles connexions aux services</span><span class="sxs-lookup"><span data-stu-id="30a2f-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
-
-
-
+- [<span data-ttu-id="b26a3-110">Empêcher les nouvelles connexions aux services</span><span class="sxs-lookup"><span data-stu-id="b26a3-110">Prevent New Connections to Services</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
