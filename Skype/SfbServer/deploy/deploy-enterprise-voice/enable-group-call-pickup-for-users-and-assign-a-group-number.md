@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Activez les utilisateurs pour la prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise et attribuez un numéro de groupe.
-ms.openlocfilehash: 3467aea1b9671a93cca2f66a2ac73c39f15dc26e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830964"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111830"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Activer la prise d’appel de groupe pour les utilisateurs et attribuer un numéro de groupe dans Skype Entreprise
 
@@ -50,5 +50,4 @@ Après avoir ajouté des numéros de groupe de prise d’appel à la table des o
 
 ## <a name="see-also"></a>Voir aussi
 
-[Désactiver la prise de groupe pour les utilisateurs](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
-
+[Désactiver la prise de groupe pour les utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-disable-group-call-pickup-for-users)

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
-ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
+ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49761092"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112190"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -116,7 +116,7 @@ Voici une liste des fichiers journaux générés et des informations qu’ils co
 |Teams.msrtc-0-s1039525249.blog     | Contient des informations relatives à la pile de médias. Cela inclut l’état des canaux tels que la résolution, les décodeurs et les encodeurs utilisés, le nombre de trames envoyées et reçues, ainsi que l’état de la session de partage d’écran vidéo et de caméra (VBSS).         |
 |rtmcontrol.msrtc-0-2415069487.blog      |Enregistre les informations relatives aux actions de contrôle à distance, telles que l’heure à l’donnée du contrôle et les informations du pointeur de la souris.          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |Événements de suivi de pile de fichiers multimédias d’enregistrements.         |
-|Débogage-0-s2790420889.blog    | Contient des informations relatives à l’agent multimédia, notamment la qualité de rendu.          |
+|Debug-0-s2790420889.blog    | Contient des informations relatives à l’agent multimédia, notamment la qualité de rendu.          |
 |tscalling-0-2061129496.blog   |Enregistre les événements dans l’API ts-calling.       |
 
 <a name="desktop-logs"></a>Journaux du bureau
@@ -145,4 +145,4 @@ Linux :
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

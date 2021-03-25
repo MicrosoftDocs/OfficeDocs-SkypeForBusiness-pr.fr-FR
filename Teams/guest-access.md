@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: bf1e5083b160bf79c1abe06bffd2a68bf4c0aaab
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421189"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112420"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -42,7 +42,7 @@ L’expérience des invités comporte des limitations de par sa conception. Pour
 > [!IMPORTANT]
 > Les invités suivent les paramètres de niveau organisation Teams pour le mode de mise à niveau de coexistence. Il n’est pas possible de modifier cela.
 
-Pour configurer l’accès invité, consultez [Collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
+Pour configurer l’accès invité, consultez [Collaborer avec des invités dans une équipe](/microsoft-365/solutions/collaborate-as-team). 
 
 Pour comparer l’accès externe (fédération) avec l’accès invité (et décider de celui que vous devez utiliser), lisez [Communiquer avec des utilisateurs d’autres organisations dans Teams](communicate-with-users-from-other-organizations.md).
 
@@ -50,17 +50,17 @@ Pour comparer l’accès externe (fédération) avec l’accès invité (et déc
 
 L’accès invité dans Teams nécessite la configuration d’autres paramètres dans Microsoft 365, notamment les paramètres dans Azure AD, les groupes Microsoft 365 et SharePoint. Si vous êtes prêt à commencer à inviter des personnes à faire partie d'une équipe, lisez ce qui suit :
 
-- Pour configurer l’accès invité pour Teams à des fins d’utilisation générale, consultez [Collaborer avec des invités dans une équipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
-- Pour collaborer avec une organisation partenaire qui utilise Azure Active Directory et autoriser les invités à s’inscrire automatiquement pour l’accès d’équipe, consultez [créer un extranet B2B avec des invités gérés](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet).
+- Pour configurer l’accès invité pour Teams à des fins d’utilisation générale, consultez [Collaborer avec des invités dans une équipe](/microsoft-365/solutions/collaborate-as-team).
+- Pour collaborer avec une organisation partenaire qui utilise Azure Active Directory et autoriser les invités à s’inscrire automatiquement pour l’accès d’équipe, consultez [créer un extranet B2B avec des invités gérés](/microsoft-365/solutions/b2b-extranet).
 
-L'accès invité dans Teams est un paramètre qui s'applique à toute l'organisation et qui est désactivé par défaut. Vous pouvez contrôler l’accès invité à des équipes individuelles à l’aide d’[étiquettes de confidentialité](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+L'accès invité dans Teams est un paramètre qui s'applique à toute l'organisation et qui est désactivé par défaut. Vous pouvez contrôler l’accès invité à des équipes individuelles à l’aide d’[étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Comment un invité peut devenir membre d'une équipe
 
 1. Un propriétaire d'équipe ou un administrateur Microsoft 365 [ajoute un invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. L'invité reçoit un e-mail de bienvenue de la part du propriétaire de l’équipe, ainsi que des informations sur l’équipe et sur ce à quoi s'attendre en tant que membre.
 3. L'invité accepte l'invitation.
-  Les invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code d’accès unique pour valider leur identité ([Authentification à code secret unique](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) obligatoire).
+  Les invités disposant d’un compte professionnel ou scolaire dans Azure Active Directory peuvent accepter l’invitation et s’authentifier directement. Les autres utilisateurs reçoivent un code d’accès unique pour valider leur identité ([Authentification à code secret unique](/azure/active-directory/external-identities/one-time-passcode) obligatoire).
 4. Après avoir accepté l'invitation, l'invité peut [participer à l'équipe et aux canaux](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir et répondre à des messages de canal, [accéder aux fichiers dans les canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer aux conversations, rejoindre des réunions, collaborer sur des documents, etc. 
 
 Dans Teams, les invités sont clairement identifiés. Le nom d'un invité comprend l'étiquette **(Invité)**, et un canal inclut une icône indiquant qu’il y a des invités dans l’équipe. Pour obtenir plus d'informations, voir [À quoi ressemble l’expérience des invités](guest-experience.md).
@@ -72,7 +72,7 @@ Les invités peuvent quitter l’équipe Teams à tout moment. Pour plus d'infor
 
 ## <a name="licensing-for-guest-access"></a>Gestion des licences pour l’accès invité
 
-L’accès invité est inclus dans tous les abonnements Office 365 Business Premium, Microsoft 365 Enterprise et Microsoft 365 Éducation. Aucune licence Microsoft 365 supplémentaire n'est requise. Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Cependant, le nombre total d’invités pouvant être ajoutés à votre client peut être limité par les fonctionnalités payantes d’Azure AD. Pour plus d’informations, consultez [Modèle de facturation pour Azure Active Directory for External Identities](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+L’accès invité est inclus dans tous les abonnements Office 365 Business Premium, Microsoft 365 Enterprise et Microsoft 365 Éducation. Aucune licence Microsoft 365 supplémentaire n'est requise. Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Cependant, le nombre total d’invités pouvant être ajoutés à votre client peut être limité par les fonctionnalités payantes d’Azure AD. Pour plus d’informations, consultez [Modèle de facturation pour Azure Active Directory for External Identities](/azure/active-directory/b2b/licensing-guidance).
 
 > [!NOTE]
 > Les utilisateurs de votre organisation qui ont uniquement des offres d’abonnement Microsoft 365 autonomes, telles que Exchange Online Plan 2, ne peuvent pas être invités en tant qu’invités à votre organisation, car les équipes considèrent ces utilisateurs comme membres de la même organisation. Pour que ces utilisateurs puissent utiliser des équipes, une offre Office 365 Business Premium, Office 365 Entreprise ou Office 365 Éducation doivent leur être attribuée. 
@@ -81,16 +81,16 @@ L’accès invité est inclus dans tous les abonnements Office 365 Business Pre
 
 Vous pouvez utiliser Azure AD pour créer une révision d’accès pour les membres du groupe ou les utilisateurs affectés à une application. La création de critiques d’accès récurrents vous permet de gagner du temps. Si vous devez examiner régulièrement les utilisateurs qui ont accès à une application, à une équipe ou sont membres d’un groupe, vous pouvez définir la fréquence de ces révisions. 
 
-Vous pouvez effectuer une révision de l’accès invité vous-même, demander aux invités de passer en revue leur propre appartenance, ou demander au propriétaire de l’application ou au décideur d’entreprise d’effectuer la révision d’accès. Utilisez le portail Azure pour effectuer des révisions de l’accès invité. Pour plus d’information, consultez [Gérer l’accès invité avec les révisions d’accès Azure AD](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews).
+Vous pouvez effectuer une révision de l’accès invité vous-même, demander aux invités de passer en revue leur propre appartenance, ou demander au propriétaire de l’application ou au décideur d’entreprise d’effectuer la révision d’accès. Utilisez le portail Azure pour effectuer des révisions de l’accès invité. Pour plus d’information, consultez [Gérer l’accès invité avec les révisions d’accès Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Collaborer avec des personnes extérieures à votre organisation](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+[Collaborer avec des personnes extérieures à votre organisation](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[Bloquer des invités d’un groupe Microsoft 365 spécifique ou d’une équipe Microsoft Teams](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Bloquer des invités d’un groupe Microsoft 365 spécifique ou d’une équipe Microsoft Teams](/microsoft-365/solutions/per-group-guest-access)
 
-[Créer un environnement de partage sécurisé avec des invités](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+[Créer un environnement de partage sécurisé avec des invités](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[Contacter le support relatif aux produits d’entreprises - Aide de l’administrateur](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[Contacter le support relatif aux produits d’entreprises - Aide de l’administrateur](/microsoft-365/admin/contact-support-for-business-products)
 
-[Configurer Teams avec trois niveaux de protection](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
+[Configurer Teams avec trois niveaux de protection](/microsoft-365/solutions/configure-teams-three-tiers-protection)

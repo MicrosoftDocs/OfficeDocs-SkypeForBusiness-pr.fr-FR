@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Une fois vos utilisateurs déplacés vers les pools Skype Entreprise Server 2019, vous pouvez migrer vos groupes Response Groups. La migration de groupes Response Group inclut la copie des groupes d’agents, des files d’attente, des flux de travail, des fichiers audio et le déplacement d’objets contact Response Group du déploiement hérité vers le pool Skype Entreprise Server 2019. Après avoir migré vos groupes Response Group hérités, les appels aux groupes Response Group sont gérés par l’application Response Group dans le pool Skype Entreprise Server 2019. Les appels destinés aux groupes Response Group ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: bf4087440fb112cb1af906e1a0915531eea08456
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752676"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113270"
 ---
 # <a name="migrate-response-groups"></a>Migration de groupes de réponses
 
@@ -28,7 +28,7 @@ Une fois vos utilisateurs déplacés vers les pools Skype Entreprise Server 2019
 Avant de migrer des groupes Response Group, vous devez avoir déployé un pool Skype Entreprise Server 2019 qui inclut l’application Response Group. L’application Response Group est installée et activée par défaut lorsque vous déployez Voix Entreprise. Vous pouvez vous assurer que l’application Response Group est installée en exécutant l’cmdlet **Get-CsService -ApplicationServer.** 
   
 > [!NOTE]
-> Vous pouvez créer de nouveaux groupes Response Groups Skype Entreprise Server 2019 dans le pool Skype Entreprise Server 2019 avant de migrer vos groupes Response Groups hérités. 
+> Vous pouvez créer des groupes Response Groups Skype Entreprise Server 2019 dans le pool Skype Entreprise Server 2019 avant de migrer vos groupes Response Groups hérités. 
   
 Pour migrer des groupes Response Groups d’un pool hérité vers Skype Entreprise Server 2019, vous exécutez l';cmdlet **Move-CsRgsConfiguration.** 
   
@@ -49,7 +49,7 @@ Skype Entreprise Server 2019 introduit une nouvelle fonctionnalité Response Gro
   
 Lorsque vous exécutez l’cmdlet **Move-CsRgsConfiguration,** les groupes d’agents, les files d’attente, les flux de travail et les fichiers audio restent dans le pool hérité à des fins de récupération. Toutefois, si vous devez revenir au pool hérité, vous devez exécuter l’cmdlet **Move-CsApplicationEndpoint** pour déplacer les objets contact vers le pool hérité. 
   
-La procédure suivante pour la migration des configurations Response Group suppose que vous avez une relation un-à-un entre vos pools hérités et les pools Skype Entreprise Server 2019. Si vous prévoyez de consolider ou de fractionner des pools lors de votre migration et déploiement, vous devez planifier le pool hérité qui est MAP avec le pool Skype Entreprise Server 2019.
+La procédure suivante de migration des configurations Response Group suppose que vous avez une relation un-à-un entre vos pools hérités et les pools Skype Entreprise Server 2019. Si vous prévoyez de consolider ou de fractionner des pools lors de votre migration et de votre déploiement, vous devez planifier le pool hérité qui est MAP avec le pool Skype Entreprise Server 2019.
   
 ## <a name="to-migrate-response-group-configurations"></a>Pour migrer des configurations Response Group
 
@@ -57,7 +57,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
     
 2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Microsoft Skype Entreprise **Server 2019,** puis sur Skype Entreprise **Server Management Shell.**
     
-3. Exécutez :
+3. Exécutez :  
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -75,7 +75,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
 
 1. Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui soit au moins membre du rôle CsViewOnlyAdministrator.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Panneau de contrôle Skype Entreprise Server, voir [Open Skype for Business Server 2019 administrative tools](https://technet.microsoft.com/library/gg195741(v=ocs.15).aspx). 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Panneau de contrôle Skype Entreprise Server, voir [Open Skype for Business Server 2019 administrative tools](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools). 
     <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 3. Dans le volet de navigation gauche, cliquez sur **Services Response Group**.
     
@@ -97,7 +97,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. Exécutez :
+3. Exécutez :  
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
 
 4. Vérifiez que tous les groupes d’agents de votre environnement hérité sont inclus dans la liste.
     
-5. Exécutez :
+5. Exécutez :  
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,12 +113,10 @@ La procédure suivante pour la migration des configurations Response Group suppo
 
 6. Vérifiez que toutes les files d’attente de votre environnement hérité sont incluses dans la liste.
     
-7. Exécutez :
+7. Exécutez :  
     
    ```PowerShell
    Get-CsRgsWorkflow
    ```
 
 8. Vérifiez que tous les flux de travail de votre environnement hérité sont inclus dans la liste.
-    
-

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3c3f0105a04484efcabd5ab6c55d1269c3627895
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532571"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112630"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -35,7 +35,7 @@ Cet article donne une vue d’ensemble des conditions requises pour déployer co
 
 Utilisez ce manuel pour aider votre organisation à planifier et exécuter correctement le déploiement des fonctionnalités vocales de Microsoft Teams sur une base site par site.
 
-Incluant toutes les activités requises, les chronologies recommandées et des liens vers des recommandations correspondantes pour chaque activité, ce manuel couvre les conseils de bout en bout pour assurer la réussite du déploiement vocal de Teams pour un site donné, en se concentrent sur les facteurs qui sont importants pour l’utilisateur.
+Comprenant toutes les activités requises, les chronologies recommandées et des liens vers des recommandations correspondantes pour chaque activité, ce manuel couvre les conseils de bout en bout pour assurer la réussite du déploiement vocal de Teams pour un site donné, en se concentrent sur les facteurs qui sont importants pour l’utilisateur.
 
 En complétant les activités de ce manuel, votre organisation peut :
 
@@ -46,7 +46,7 @@ En complétant les activités de ce manuel, votre organisation peut :
 -   Réduisez les besoins de support et augmentez la satisfaction des utilisateurs.
 
 > [!NOTE]
-> Cet article et le manuel associé ne sont pas destinés à décrire toutes les étapes de configuration technique requises pour l’enablement du service ou la fourniture de numéros de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches recommandées pour intégrer facilement les utilisateurs et leur faire commencer à consommer les charges de travail vocales teams via une transition rapide et fluide avec un taux d’adoption élevé, tout en réduisant les exigences de support. Pour obtenir des conseils techniques sur la configuration de votre environnement pour Teams Voice, consultez les listes de contrôle d’intégration pour configurer les charges de travail vocales dans [Teams,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)configurer le routage direct dans [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)les fonctionnalités principales de [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)la mise en réseau de [Teams](prepare-network.md)et l’activation de Microsoft [365 ou d’Office 365.](onboarding-checklist-enable-office-365.md)
+> Cet article et le manuel associé n’ont pas pour objet de décrire toutes les étapes de configuration technique requises pour l’enablement du service ou la fourniture de numéros de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches recommandées pour intégrer facilement les utilisateurs et leur faire commencer à consommer les charges de travail vocales teams via une transition rapide et fluide avec un taux d’adoption élevé, tout en réduisant les exigences de support. Pour obtenir des conseils techniques sur la configuration de votre environnement pour Teams Voice, consultez les listes de contrôle d’intégration pour configurer les [charges](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)de travail vocales dans [Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)configurer le routage direct dans Teams, les fonctionnalités principales de [Teams,](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)la mise en réseau de [Teams](prepare-network.md)et l’activation de [Microsoft 365 ou d’Office 365.](onboarding-checklist-enable-office-365.md)
 
 <!--ENDOFSECTION-->
 
@@ -105,11 +105,11 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 > [!IMPORTANT]
 > Certaines étapes peuvent ne pas être applicables à tous les emplacements et sites. Si une activité spécifique n’est pas pertinente pour un site, vous devez sélectionner **Non applicable** pour cette activité. **NE SUPPRIMEZ AUCUNE** ligne du manuel ; Si c’est le cas, les formules de rapport d’état ne fonctionnent pas.<br/><br/>
-Faites attention aux activités qui peuvent prendre plus de temps que prévu, telles que les activités de portage de numéro et d’approvisionnement. Ces activités peuvent affecter négativement la chronologie du déploiement du site. Veillez à examiner et à mettre à jour la [](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) liste des activités et la chronologie associée de façon hebdomadaire, et à les présenter lors de réunions de comité spécial pour vous assurer que les parties prenantes sont conscientes de l’état de chaque site et des écarts possibles par rapport à la planification du déploiement.
+Faites attention aux activités qui peuvent prendre plus de temps que prévu, telles que les activités de portage de numéro et d’approvisionnement. Ces activités peuvent affecter négativement la chronologie du déploiement du site. Veillez à examiner et à mettre à jour la [](./envision-steering-committee-complete-guide.md) liste des activités et la chronologie associée de façon hebdomadaire, et à les présenter lors de réunions de comité spécial pour vous assurer que les parties prenantes sont conscientes de l’état de chaque site et des écarts possibles par rapport à la planification du déploiement.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez si le manuel d’enablement de site est requis pour votre déploiement.</li><li>Déterminez qui sera responsable de la personnalisation du manuel d’personnalisation de l’enablement de site pour Microsoft Teams pour chaque site que vous allez déployer.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Téléchargez le manuel d’enablement de site.</a></li><li>Personnalisez le manuel d’enablement de site pour votre premier site.</li><li>Répétez l’nouvelle fois si nécessaire pour d’autres sites.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Téléchargez le manuel d’enablement de site.</a></li><li>Personnalisez le manuel d’enablement de site pour votre premier site.</li><li>Répétez l’une des répétitions nécessaires pour d’autres sites.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

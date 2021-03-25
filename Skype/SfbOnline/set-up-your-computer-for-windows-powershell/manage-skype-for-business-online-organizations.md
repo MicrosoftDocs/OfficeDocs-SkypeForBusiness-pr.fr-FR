@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Utilisez Windows PowerShell, les Get-CsTenant et Get-CsTenantLicensingConfiguration de clients pour obtenir des informations sur votre client Skype Entreprise Online.
-ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: Utilisez Windows PowerShell, les Get-CsTenant et Get-CsTenantLicensingConfiguration des clients pour obtenir des informations sur votre client Skype Entreprise Online.
+ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085690"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113180"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gérer les organisations Skype Entreprise Online
 > [!NOTE]
@@ -34,7 +34,7 @@ Vous pouvez trouver des informations sur votre client Skype Entreprise Online à
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Gérer les clients Skype Entreprise Online
 
-Pour renvoyer des informations sur votre client Skype Entreprise Online, appelez l’cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sans aucun paramètre supplémentaire.
+Pour renvoyer des informations sur votre client Skype Entreprise Online, appelez l’cmdlet [Get-CsTenant](/powershell/module/skype/Get-CsTenant) sans aucun paramètre supplémentaire.
   
 ```PowerShell
 Get-CsTenant
@@ -46,12 +46,11 @@ Pour renvoyer uniquement le nom et l’ID du client, utilisez cette commande.
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-La valeur du paramètre _TenantID_ est requise lors de l’exécution d’lets telles que [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) et [Set-CsTenantFederationConfiguration.](https://technet.microsoft.com/library/jj994080.aspx)
+La valeur du paramètre _TenantID_ est requise lors de l’exécution d’lets telles que [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) et [Set-CsTenantFederationConfiguration.](/powershell/module/skype/Set-CsTenantFederationConfiguration)
   
-Pour déterminer si les informations de licence du client spécifié sont disponibles dans le Centre d’administration Skype Entreprise Online, utilisez l’cmdlet [Get-CsTenantLicensingConfiguration.](https://go.microsoft.com/fwlink/p/?linkid=849606)
+Pour déterminer si les informations de licence du client spécifié sont disponibles dans le Centre d’administration Skype Entreprise Online, utilisez l’cmdlet [Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

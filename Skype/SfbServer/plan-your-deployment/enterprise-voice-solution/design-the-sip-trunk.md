@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planification de vos topologies de trunking SIP pour un déploiement E9-1-1 qui utilise des fournisseurs de trunking SIP dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: ef30d721b59f29885004ee948055a91ca8af9490
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8685b3263b9e3b6f98bc94e190ac9dd8207348df
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825794"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112690"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Conception de la trunk SIP pour E9-1-1 dans Skype Entreprise Server
  
@@ -35,11 +35,11 @@ Il existe deux façons d’implémenter une trunk SIP dans un environnement Skyp
     
 - Utilisez un contrôleur SBC (Session Border Controller) local pour fournir un point de délimitation sécurisé entre les serveurs de médiation et les services du fournisseur de services de la session SIP.
     
-Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les SCS certifiés, voir « Infrastructure qualifiée pour   [Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) » et « Infrastructure téléphonique pour [Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)». 
+Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les SCS certifiés, voir « Infrastructure qualifiée pour   [Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) » et « Infrastructure téléphonique pour [Skype Entreprise](../../../SfbPartnerCertification/certification/infra-gateways.md)». 
   
 Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
   
-Pour plus d’informations sur le déploiement d’une trunk SIP dans Skype Entreprise Server, voir [la trunking SIP dans Skype Entreprise Server.](sip-trunking.md) Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
+Pour plus d’informations sur le déploiement d’une trunk SIP dans Skype Entreprise Server, voir [siP trunking in Skype for Business Server](sip-trunking.md). Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
   
  **Devez-vous déployer la jonction SIP sur une connexion en bail dédiée ou une connexion Internet partagée ?**
   
@@ -55,6 +55,4 @@ Pour plus d’informations sur le déploiement d’une trunk SIP dans Skype Entr
     
  **Le contrôle d’admission des appels (CAC) est-il activé ?**
   
-> Skype Entreprise Server ne gère pas les appels d’urgence différemment d’un appel ordinaire. Pour cette raison, la gestion de la bande passante ou le service Contrôle d’admission des appels peut avoir un impact négatif sur une configuration E9-1-1. Les appels d’urgence sont bloqués ou acheminés vers la passerelle PSTN locale si un service Contrôle d’admission des appels est activé et si la limite configurée est dépassée sur une liaison où les appels d’urgence sont acheminés. Comme indiqué précédemment dans cette rubrique, ce type d’appel ne dispose pas de données d’emplacement et doit être acheminé manuellement vers le centre d’intervention en cas d’appels d’urgence.
-    
-
+> Skype Entreprise Server ne gère pas les appels d’urgence différemment des appels ordinaires. Pour cette raison, la gestion de la bande passante ou le service Contrôle d’admission des appels peut avoir un impact négatif sur une configuration E9-1-1. Les appels d’urgence sont bloqués ou acheminés vers la passerelle PSTN locale si un service Contrôle d’admission des appels est activé et si la limite configurée est dépassée sur une liaison où les appels d’urgence sont acheminés. Comme indiqué précédemment dans cette rubrique, ce type d’appel ne dispose pas de données d’emplacement et doit être acheminé manuellement vers le centre d’intervention en cas d’appels d’urgence.

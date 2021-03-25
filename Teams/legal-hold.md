@@ -15,22 +15,22 @@ f1.keywords:
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c04f3584aa7207d9d9ee1126df992657f84aa213
-ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
+ms.openlocfilehash: 9f2f269d75a7bf8bd97165329d2ae6b006b940f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980448"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112300"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
 
-Lorsqu’une attente raisonnable concernant un litige existe, les organisations sont tenues de conserver électroniquement les informations stockées (ESI), y compris les messages de conversation Teams pertinents pour ce cas. Les organisations doivent conserver tous les messages liés à un sujet spécifique ou à certaines personnes. Cet article traite de la mise en attente légale dans Microsoft Teams (Pour résoudre le problème de mise en œuvre des contenus dans l’espace M365, consultez l’article Gérer les cas de découverte électronique : Mettre les emplacements de contenu [en attente).)](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)
+Lorsqu’une attente raisonnable concernant un litige existe, les organisations sont tenues de conserver électroniquement les informations stockées (ESI), y compris les messages de conversation Teams pertinents pour ce cas. Les organisations doivent conserver tous les messages liés à un sujet spécifique ou à certaines personnes. Cet article traite de la mise en attente légale dans Microsoft Teams (Pour résoudre le problème de mise en œuvre des contenus dans l’espace M365, consultez l’article Gérer les cas de découverte électronique : Mettre les emplacements de contenu [en attente).)](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)
 
 > [!NOTE]
-> En février 2020, nous avons activé la tenue légale ou la conversation de cas sur des canaux privés (les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, les conversations de canal normales sont stockées dans la boîte aux lettres de groupe d’une équipe). Si une boîte aux lettres utilisateur est déjà conservée, la stratégie de hold-in s’applique désormais automatiquement aux messages de canal privé stockés dans cette boîte aux lettres. Aucune action supplémentaire n’est requise pour qu’un administrateur l’activer. La propriété légale des fichiers partagés dans des canaux privés est également prise en charge.
+> En février 2020, nous avons activé la tenue légale ou la conversation de cas sur des canaux privés (les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, les conversations de canal normales sont stockées dans la boîte aux lettres de groupe d’une équipe). Si une boîte aux lettres utilisateur est déjà en place, la stratégie de confidentialité s’applique désormais automatiquement aux messages de canal privé stockés dans cette boîte aux lettres. Aucune autre action n’est requise pour qu’un administrateur l’activer. La propriété légale des fichiers partagés dans des canaux privés est également prise en charge.
 
-Dans Microsoft Teams, une équipe entière ou des utilisateurs sélectionnés peuvent être mis en attente ou mis en attente légale. Cela permet de s’assurer que tous les messages échangés dans ces équipes (y compris les canaux privés) ou les messages échangés par ces personnes sont découvrons par les responsables de la conformité de l’organisation ou les administrateurs Teams.
+Dans Microsoft Teams, une équipe entière ou des utilisateurs sélectionnés peuvent être mis en attente ou dans le cadre légal. Cela permet de s’assurer que tous les messages échangés dans ces équipes (y compris les canaux privés) ou les messages échangés par ces personnes sont découvrons par les responsables de la conformité de l’organisation ou les administrateurs Teams.
 
 > [!NOTE]
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
@@ -54,10 +54,10 @@ Pour placer un utilisateur ou une équipe en attente légale :
       > [!div class="mx-imgBorder"]
       > ![Cette capture d’écran montre l’onglet Nommer votre attente, dans lequel vous pouvez entrer un nom et une description pour la hold-in que vous créez.](media/LegalHold3.png)
 
-    2. **Choisissez un emplacement.** Choisissez si vous souhaitez appliquer la attente à un utilisateur ou à une équipe entière (le hold ne peut pas être appliqué à des canaux individuels pour l’instant). Remarque : si un utilisateur est en attente, tous ses messages sont en attente, y compris tout ce qu’il a envoyé dans une conversation en tête-à-tête, une conversation à deux ou de groupe ou une conversation de canal (y compris les canaux privés).
+    2. **Choisissez un emplacement.** Choisissez si vous souhaitez appliquer la attente à un utilisateur ou à une équipe entière (le hold ne peut pas être appliqué à des canaux individuels pour le moment). Remarque : si un utilisateur est en attente, tous ses messages sont en attente, y compris les messages envoyés dans une conversation à deux, une conversation à deux ou de groupe ou une conversation de canal (y compris les canaux privés).
   
        > [!div class="mx-imgBorder"]
-       > ![Vous avez ici la section Choisir des emplacements de Créer une nouvelle attente, dans laquelle vous pouvez prendre des décisions sur les options M365, y compris Microsoft Teams, à laquelle vous souhaitez que la attente s’applique.](media/LegalHold4.png)
+       > ![Voici la section Choisir des emplacements de Créer une nouvelle attente, dans laquelle vous pouvez prendre des décisions sur les options M365, y compris Microsoft Teams, à laquelle vous souhaitez que la attente s’applique.](media/LegalHold4.png)
 
     3. **Créer une requête.** Vous pouvez personnaliser le hold si vous souhaitez plus de granularité dans la stratégie de hold. Par exemple, vous pouvez spécifier des mots clés à rechercher ou ajouter des conditions, qui doivent être satisfaites pour que la attente prenne effet.
     
@@ -70,7 +70,7 @@ Une fois la rétention légale définie, vous pouvez découvrir tout le contenu 
 
 ## <a name="content-locations-to-place-on-legal-hold-to-preserve-teams-content"></a>Emplacements de contenu à placer en conservation légale afin de conserver le contenu de Teams
 
-À titre de guide utile, vous pouvez utiliser le tableau suivant pour comprendre quel emplacement de contenu (par exemple, une boîte aux lettres ou un site) placer en conservation légale afin de conserver différents types de contenu teams.
+À titre de guide utile, vous pouvez utiliser le tableau suivant pour comprendre quel emplacement de contenu (par exemple, une boîte aux lettres ou un site) placer en conservation légale afin de conserver différents types de contenu dans Teams.
 
 |Scénario  |Emplacement du contenu  |
 |---------|---------|
@@ -79,10 +79,10 @@ Une fois la rétention légale définie, vous pouvez découvrir tout le contenu 
 |Contenu de fichier Teams (par exemple, contenu wiki et fichiers)     |Site SharePoint utilisé par l’équipe.         |
 |Fichiers de canal privé Teams     |Site SharePoint dédié pour les canaux privés.     |
 |Contenu privé de l’utilisateur     |Le compte OneDrive Entreprise de l’utilisateur.         |
-|Contenu de la carte dans les conversations|Boîte aux lettres utilisateur pour les conversations en tête-à-tête, les conversations de groupe en tête-à-tête et les conversations de canal privé ou la boîte aux lettres de groupe pour le contenu de la carte dans les messages de canal. Pour plus d’informations, voir la section « Conserver le contenu de la carte » dans Créer une [conservation eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)
+|Contenu de la carte dans les conversations|Boîte aux lettres utilisateur pour les conversations en tête-à-tête, les conversations de groupe en tête-à-tête et les conversations de canal privé ou la boîte aux lettres de groupe pour le contenu de la carte dans les messages de canal. Pour plus d’informations, voir la section « Conserver le contenu de la carte » dans Créer une [conservation eDiscovery.](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)
 ||||
 
 > [!NOTE]
-> Pour conserver les communications dans les canaux privés, vous devez mettre les boîtes aux lettres des utilisateurs (utilisateurs du canal privé) en attente et, lorsque vous utilisez l’outil eDiscovery pour effectuer une recherche, vous devez effectuer une recherche dans la boîte aux lettres de cet utilisateur. Comme indiqué précédemment, les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, et non dans la boîte aux lettres de groupe d’une équipe.
+> Pour conserver les communications dans les canaux privés, vous devez mettre les boîtes aux lettres des utilisateurs (utilisateurs de canaux privés) en attente et, lorsque vous utilisez l’outil eDiscovery pour effectuer une recherche, vous devez effectuer une recherche dans la boîte aux lettres de cet utilisateur. Comme indiqué précédemment, les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, et non dans la boîte aux lettres de groupe d’une équipe.
 
-Si vous souhaitez consulter davantage d’informations sur les zones autres que Teams dans Microsoft 365, consultez l’rubrique Gérer les cas de découverte électronique : mettre les emplacements de contenu [en attente.](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)
+Si vous souhaitez consulter davantage d’informations sur les zones autres que Teams dans Microsoft 365, consultez l’rubrique Gérer les cas de découverte électronique : mettre les emplacements de contenu [en attente.](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)

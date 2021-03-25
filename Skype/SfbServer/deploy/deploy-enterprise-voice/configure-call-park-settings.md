@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Modifier les paramètres de parcier d’appel dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Modifier les paramètres de parcment d’appel dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111910"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parcment d’appel dans Skype Entreprise
 
-Modifier les paramètres de parcier d’appel dans Skype Entreprise Server Voix Entreprise.
+Modifier les paramètres de parcment d’appel dans Skype Entreprise Server Voix Entreprise.
 
 Si vous ne souhaitez pas utiliser les paramètres de parcment d’appel par défaut, vous pouvez les personnaliser. Lorsque vous installez l’application de parcage d’appel, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres globaux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
 
@@ -46,7 +46,7 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 
 1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
 
-2. Exécutez :
+2. Exécutez :  
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
@@ -65,8 +65,8 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 
 [Personnalisation de l’attente musicale du parc d’appel dansSkype for Business 2015](customize-call-park-music-on-hold.md)
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps)
