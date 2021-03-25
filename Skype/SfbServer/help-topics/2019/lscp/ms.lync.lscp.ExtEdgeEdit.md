@@ -15,27 +15,25 @@ localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: dad4c5fed0ae2bf4a23688487b8959d5452f0579
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a0c5c997688ef22759cd788b14710653878ea739
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808594"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121097"
 ---
-# <a name="access-edge-configuration-edit"></a><span data-ttu-id="77a7d-104">Configuration du serveur Microsoft Edge d’accès : modification</span><span class="sxs-lookup"><span data-stu-id="77a7d-104">Access Edge Configuration: Edit</span></span>
+# <a name="access-edge-configuration-edit"></a><span data-ttu-id="cb731-104">Configuration du serveur Microsoft Edge d’accès : modification</span><span class="sxs-lookup"><span data-stu-id="cb731-104">Access Edge Configuration: Edit</span></span>
 
-<span data-ttu-id="77a7d-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="77a7d-105">What do you want to do?</span></span> <span data-ttu-id="77a7d-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="77a7d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cb731-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="cb731-105">What do you want to do?</span></span> <span data-ttu-id="cb731-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="cb731-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="77a7d-107">Activer ou désactiver l’accès des utilisateurs distants pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="77a7d-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [<span data-ttu-id="cb731-107">Activer ou désactiver l’accès des utilisateurs distants pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="cb731-107">Enable or Disable Remote User Access for Your Organization</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-federation-and-public-im-connectivity)
 
-- [<span data-ttu-id="77a7d-108">Activer ou désactiver la fédération pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="77a7d-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="cb731-108">Activer ou désactiver la fédération pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="cb731-108">Enable or Disable Federation for Your Organization</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-public-user-access)
 
-- [<span data-ttu-id="77a7d-109">Activer ou désactiver la découverte des partenaires de fédération</span><span class="sxs-lookup"><span data-stu-id="77a7d-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [<span data-ttu-id="cb731-109">Activer ou désactiver la découverte des partenaires de fédération</span><span class="sxs-lookup"><span data-stu-id="cb731-109">Enable or Disable Discovery of Federation Partners</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-discovery-of-federation-partners)
 
-- [<span data-ttu-id="77a7d-110">Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="77a7d-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [<span data-ttu-id="cb731-110">Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés</span><span class="sxs-lookup"><span data-stu-id="cb731-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners)
 
-- [<span data-ttu-id="77a7d-111">Activer ou désactiver l’accès des utilisateurs anonymes pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="77a7d-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="cb731-111">Activer ou désactiver l’accès des utilisateurs anonymes pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="cb731-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-public-user-access)
 
-- [<span data-ttu-id="77a7d-112">Création ou modification d’une stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="77a7d-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
-
-
+- [<span data-ttu-id="cb731-112">Création ou modification d’une stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="cb731-112">Create or Modify a Conferencing Policy</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-conferencing-policy)

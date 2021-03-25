@@ -15,24 +15,21 @@ localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 448fe91317d7e3daedad08e68db111a20cd51b13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 689a09815a7c4f94894fdf374329fe9e9b2ea935
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122008"
 ---
-# <a name="users-view-or-configure-dial-plan"></a><span data-ttu-id="fef72-104">Utilisateurs : Afficher ou configurer le plan de numérotation</span><span class="sxs-lookup"><span data-stu-id="fef72-104">Users: View or Configure Dial Plan</span></span>
+# <a name="users-view-or-configure-dial-plan"></a><span data-ttu-id="af8a6-104">Utilisateurs : Afficher ou configurer le plan de numérotation</span><span class="sxs-lookup"><span data-stu-id="af8a6-104">Users: View or Configure Dial Plan</span></span>
 
-<span data-ttu-id="fef72-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="fef72-105">What do you want to do?</span></span> <span data-ttu-id="fef72-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="fef72-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="af8a6-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="af8a6-105">What do you want to do?</span></span> <span data-ttu-id="af8a6-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="af8a6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="fef72-107">Créer ou modifier un plan de numérotation dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="fef72-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="af8a6-107">Créer ou modifier un plan de numérotation dans Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="af8a6-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="fef72-108">Modifier un plan de numérotation</span><span class="sxs-lookup"><span data-stu-id="fef72-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="af8a6-108">Modifier un plan de numérotation</span><span class="sxs-lookup"><span data-stu-id="af8a6-108">Modify a Dial Plan</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
-- [<span data-ttu-id="fef72-109">Créer ou modifier une règle de normalisation dans Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="fef72-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="af8a6-109">Créer ou modifier une règle de normalisation dans Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="af8a6-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="fef72-110">Créer ou modifier manuellement une règle de normalisation</span><span class="sxs-lookup"><span data-stu-id="fef72-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-
-
-
+- [<span data-ttu-id="af8a6-110">Créer ou modifier manuellement une règle de normalisation</span><span class="sxs-lookup"><span data-stu-id="af8a6-110">Create or Modify a Normalization Rule Manually</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)

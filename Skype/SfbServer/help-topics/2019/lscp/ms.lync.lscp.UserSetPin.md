@@ -15,21 +15,21 @@ localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour générer le code confidentiel de l’utilisateur, sélectionnez Générer automatiquement un code confidentiel valide.
-ms.openlocfilehash: 1c5fc9cf8895e933217e7bb442311f51f41fbaa3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a57fee990e6732ba13a87d7f1de064a5e526b238
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824584"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122048"
 ---
-# <a name="set-pin"></a><span data-ttu-id="371f6-103">Définir le code confidentiel</span><span class="sxs-lookup"><span data-stu-id="371f6-103">Set PIN</span></span>
+# <a name="set-pin"></a><span data-ttu-id="822c4-103">Définir le code confidentiel</span><span class="sxs-lookup"><span data-stu-id="822c4-103">Set PIN</span></span>
 
-<span data-ttu-id="371f6-104">Pour générer le code confidentiel de l’utilisateur, **sélectionnez Générer automatiquement un code confidentiel valide.**</span><span class="sxs-lookup"><span data-stu-id="371f6-104">To generate the user's PIN, select **Automatically generate a valid PIN**.</span></span>
+<span data-ttu-id="822c4-104">Pour générer le code confidentiel de l’utilisateur, **sélectionnez Générer automatiquement un code confidentiel valide.**</span><span class="sxs-lookup"><span data-stu-id="822c4-104">To generate the user's PIN, select **Automatically generate a valid PIN**.</span></span>
 
-<span data-ttu-id="371f6-105">Pour créer votre propre code confidentiel, cliquez sur **Entrer manuellement un code confidentiel spécifique**, puis tapez dans la zone de texte un code confidentiel respectant les exigences de code confidentiel spécifiées dans vos paramètres de stratégie de code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="371f6-105">To create your own PIN, select **Manually enter a specific PIN**, and then type a PIN in the text box that meets the PIN requirements specified in your PIN policy settings.</span></span>
+<span data-ttu-id="822c4-105">Pour créer votre propre code confidentiel, cliquez sur **Entrer manuellement un code confidentiel spécifique**, puis tapez dans la zone de texte un code confidentiel respectant les exigences de code confidentiel spécifiées dans vos paramètres de stratégie de code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="822c4-105">To create your own PIN, select **Manually enter a specific PIN**, and then type a PIN in the text box that meets the PIN requirements specified in your PIN policy settings.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="371f6-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="371f6-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="822c4-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="822c4-106">See also</span></span>
 
-[<span data-ttu-id="371f6-107">Pins utilisateur</span><span class="sxs-lookup"><span data-stu-id="371f6-107">User PINs</span></span>](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
+[<span data-ttu-id="822c4-107">Pins utilisateur</span><span class="sxs-lookup"><span data-stu-id="822c4-107">User PINs</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

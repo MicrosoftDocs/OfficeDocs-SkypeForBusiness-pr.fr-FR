@@ -14,28 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: La conférence web Skype Entreprise Server 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.
-ms.openlocfilehash: d763f8319b7fc1e30bfc9860da1f451ca668248d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6288fcfdf63ef8e09d776eaa7f5e5e9d19ad0b6b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823254"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121592"
 ---
-# <a name="web-conferencing-planning-tool"></a><span data-ttu-id="be2eb-103">Web Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="be2eb-103">Web Conferencing (Planning Tool)</span></span>
+# <a name="web-conferencing-planning-tool"></a><span data-ttu-id="13d6d-103">Web Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="13d6d-103">Web Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="be2eb-104">La conférence web Skype Entreprise Server 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.</span><span class="sxs-lookup"><span data-stu-id="be2eb-104">Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing.</span></span>
+<span data-ttu-id="13d6d-104">La conférence web Skype Entreprise Server 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.</span><span class="sxs-lookup"><span data-stu-id="13d6d-104">Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="be2eb-105">Skype Entreprise Server 2015 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="be2eb-105">Skype for Business Server 2015 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations.</span></span> <span data-ttu-id="be2eb-106">Les fonctionnalités de conférence Web fonctionnent exactement de la même manière que dans Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="be2eb-106">Web conferencing features function exactly the same as they do in Microsoft Lync 2013.</span></span> <span data-ttu-id="be2eb-107">Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, voir [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="be2eb-107">For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx).</span></span> 
+> <span data-ttu-id="13d6d-105">Skype Entreprise Server 2015 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="13d6d-105">Skype for Business Server 2015 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations.</span></span> <span data-ttu-id="13d6d-106">Les fonctionnalités de conférence Web fonctionnent exactement de la même manière que dans Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="13d6d-106">Web conferencing features function exactly the same as they do in Microsoft Lync 2013.</span></span> <span data-ttu-id="13d6d-107">Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, voir [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013).</span><span class="sxs-lookup"><span data-stu-id="13d6d-107">For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013).</span></span> 
   
-<span data-ttu-id="be2eb-108">Pour plus d’informations sur la planification de l’activation de la conférence web dans votre organisation, consultez les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="be2eb-108">For planning details about enabling web conferencing in your organization, see the following topics:</span></span> 
+<span data-ttu-id="13d6d-108">Pour plus d’informations sur la planification de l’activation de la conférence web dans votre organisation, consultez les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="13d6d-108">For planning details about enabling web conferencing in your organization, see the following topics:</span></span> 
   
-- [<span data-ttu-id="be2eb-109">Planifier la conférence dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="be2eb-109">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="13d6d-109">Planifier la conférence dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="13d6d-109">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [<span data-ttu-id="be2eb-110">Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="be2eb-110">Hardware and software requirements for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [<span data-ttu-id="13d6d-110">Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="13d6d-110">Hardware and software requirements for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [<span data-ttu-id="be2eb-111">Plan for dial-in conferencing in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="be2eb-111">Plan for dial-in conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [<span data-ttu-id="13d6d-111">Plan for dial-in conferencing in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="13d6d-111">Plan for dial-in conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [<span data-ttu-id="be2eb-112">Planifier des grandes réunions dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="be2eb-112">Plan for large meetings in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/large-meetings.md)
-    
-
+- [<span data-ttu-id="13d6d-112">Planifier des grandes réunions dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="13d6d-112">Plan for large meetings in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/large-meetings.md)

@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 863092934e1f868d7af3242733b1f32a2ce6642f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8d9c470cf180d8db196f6cf565516b884c0ba2f2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824684"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122098"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="1b143-104">Configurer un lien de région réseau</span><span class="sxs-lookup"><span data-stu-id="1b143-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="66420-104">Configurer un lien de région réseau</span><span class="sxs-lookup"><span data-stu-id="66420-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="1b143-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="1b143-105">What do you want to do?</span></span> <span data-ttu-id="1b143-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="1b143-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="66420-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="66420-105">What do you want to do?</span></span> <span data-ttu-id="66420-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="66420-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1b143-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="1b143-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-
-
-
+- [<span data-ttu-id="66420-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="66420-107">Configuring Network Region Links</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)

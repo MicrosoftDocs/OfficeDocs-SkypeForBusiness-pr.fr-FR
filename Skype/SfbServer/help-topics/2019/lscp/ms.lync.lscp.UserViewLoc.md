@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: d8ba7ebd3b509992b8f4194d0e2b135aaae144c4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8229d6283aa9ebf30b5d40737621e0bf6a8c6e97
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121998"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="32b7d-104">Utilisateurs : afficher ou configurer la stratégie d’emplacement</span><span class="sxs-lookup"><span data-stu-id="32b7d-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="b60e6-104">Utilisateurs : afficher ou configurer la stratégie d’emplacement</span><span class="sxs-lookup"><span data-stu-id="b60e6-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="32b7d-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="32b7d-105">What do you want to do?</span></span> <span data-ttu-id="32b7d-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="32b7d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b60e6-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="b60e6-105">What do you want to do?</span></span> <span data-ttu-id="b60e6-106">Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b60e6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="32b7d-107">Affecter une stratégie d’emplacement à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="32b7d-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-
-
-
+- [<span data-ttu-id="b60e6-107">Affecter une stratégie d’emplacement à un utilisateur</span><span class="sxs-lookup"><span data-stu-id="b60e6-107">Assign a Location Policy to a User</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
