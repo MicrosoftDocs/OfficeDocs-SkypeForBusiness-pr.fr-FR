@@ -20,23 +20,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb9a0854268df25ebb8dc0337db22f792834b36
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ef164ee5d93cb5491923ef3b319ae51134924cc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809094"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120538"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Mise à niveau de vos utilisateurs de Skype Entreprise Online vers Microsoft Teams
 
 > [!Note]
-> Les commandes décrites dans cet article sont conçues pour être utilisées dans le cadre de la liste de vérification [Mise à](https://aka.ms/UpgradeBasic) niveau de base.
+> Les commandes décrites dans cet article sont conçues pour être utilisées dans le cadre de la liste de contrôle [Mise à](./upgrade-start-here.md) niveau de base.
 
-Les aspects de la migration technique de votre mise à niveau impliquent d’informer vos utilisateurs que Skype Entreprise va mettre à niveau vers Teams, puis les déplacer vers un mode **Teams** uniquement. Ces étapes peuvent être réalisées via une session d’Windows PowerShell à distance Skype Entreprise ou via le Centre d’administration Microsoft Teams.
+Les aspects de la migration technique de votre mise à niveau impliquent d’informer vos utilisateurs que Skype Entreprise va mettre à niveau vers Teams, puis les déplacer vers un mode **Teams** uniquement. Ces étapes peuvent être réalisées via une session de télécon Windows PowerShell Skype Entreprise ou via le Centre d’administration Microsoft Teams.
 
-Nous travaillons activement au déploiement des outils de mise à niveau dans le Centre d’administration [Microsoft Teams.](manage-teams-skypeforbusiness-admin-center.md)Celui-ci devrait bientôt être disponible sur votre client. Dès qu’elle est disponible, des informations sur la migration de vos utilisateurs sont disponibles dans Paramètres de coexistence et de mise [à niveau.](https://aka.ms/SkypeToTeams-SetCoexistence)
+Nous travaillons activement au déploiement des outils de mise à niveau dans le Centre d’administration [Microsoft Teams.](manage-teams-skypeforbusiness-admin-center.md)Celui-ci devrait bientôt être disponible sur votre client. Dès qu’elle est disponible, vous trouverez des informations sur la migration de vos utilisateurs dans La définition de vos paramètres de coexistence et de mise [à niveau.](./setting-your-coexistence-and-upgrade-settings.md)
 
-Si vous êtes prêt à mettre à niveau dès aujourd’hui, vous pouvez utiliser les commandes [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) répertoriées dans le tableau suivant.
+Si vous êtes prêt à mettre à niveau dès aujourd’hui, vous pouvez utiliser les commandes [PowerShell](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) répertoriées dans le tableau suivant.
 
 | Étape de base de la mise à niveau # | Mode | Commande PowerShell |
 |---|---|---|

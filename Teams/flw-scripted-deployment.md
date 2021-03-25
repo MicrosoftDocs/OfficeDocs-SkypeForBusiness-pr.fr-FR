@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909368"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120745"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
@@ -190,7 +190,7 @@ Les stratégies de messagerie permettent de contrôler la disponibilité des fon
 #### <a name="steps-to-create-teams-message-policies"></a>Étapes de création de stratégies de message d’équipes
 
 1. Recherchez le fichier **TeamsMessagingPolicies.csv** dans le dossier scripts du référentiel.
-1. Mettez à jour le fichier **TeamsMessagingPolicies.csv** avec les informations propres à votre organisation. Pour plus d’informations sur les différentes options, cliquez [ici](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings).
+1. Mettez à jour le fichier **TeamsMessagingPolicies.csv** avec les informations propres à votre organisation. Pour plus d’informations sur les différentes options, cliquez [ici](./messaging-policies-in-teams.md#messaging-policy-settings).
 1. Recherchez le script **CreateTeamsMessagePolicies.ps1** dans le dossier scripts du référentiel.
 1. À partir de PowerShell, exécutez le script **CreateTeamsMessagePolicies.ps1**.
 
@@ -211,7 +211,7 @@ Les applications sont épinglées à la barre de l’application. Il s’agit de
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Créer la stratégie de configuration de l’application du responsable de bureau
 
-Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
 2. Cliquez sur  **Ajouter**.  
@@ -235,7 +235,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Créer la stratégie de configuration de l’application de l’employé de bureau
 
-Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+Les paramètres suivants peuvent être personnalisés en fonction des besoins de votre entreprise. Nous avons choisi quelques options recommandées en fonction des meilleures pratiques pour améliorer la facilité d’intégration de nouveaux utilisateurs à grande échelle. Pour plus d’informations, cliquez [ici](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
 2. Cliquez sur  **Ajouter**.
@@ -297,8 +297,8 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 Pour utiliser un grand nombre d’utilisateurs dans Teams, vous devez d’abord avoir créé les utilisateurs dans Azure AD. Plusieurs méthodes s’offrent à vous pour mettre en service un grand nombre d’utilisateurs, mais nous allons mettre en évidence les éléments suivants :
 
 - Si ces utilisateurs existent déjà dans l’un des systèmes de ressources humaines suivants, utilisez les liens suivants pour configurer la mise en service des utilisateurs :
-  - Facteurs de réussite SAP – [Didacticiel : configurer les facteurs de réussite SAP pour l’attribution des utilisateurs dans Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
-  - Workday – [Didacticiel : configurer Workday pour attribuer automatiquement des utilisateurs](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
+  - Facteurs de réussite SAP – [Didacticiel : configurer les facteurs de réussite SAP pour l’attribution des utilisateurs dans Active Directory](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
+  - Workday – [Didacticiel : configurer Workday pour attribuer automatiquement des utilisateurs](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - Si vos informations utilisateur sont présentes dans d’autres systèmes, procédez comme suit.
 
 Pour gérer ces utilisateurs de façon plus efficace, vous devez créer deux groupes de sécurité pour les employés et les responsables de bureau, et mettre en service ces utilisateurs directement dans les groupes de sécurité en procédant comme suit :
@@ -310,7 +310,7 @@ Pour gérer ces utilisateurs de façon plus efficace, vous devez créer deux gro
 1. Recherchez le fichier **SecurityGroups.csv** dans le dossier scripts du référentiel.
 1. Mettez à jour le fichier **SecurityGroups.csv** avec les informations de groupe de sécurité propres à votre organisation.
     1. Assurez-vous de mettre à jour les champs **MessagePolicy**, **AppPermissionPolicy** et **AppSetupPolicy** pour mapper les stratégies appropriées que vous avez créées précédemment.
-    1. Assurez-vous de mettre à jour le champ **LicensePlan** pour indiquer la licence que vous avez l’intention d’attribuer à chacun de ces utilisateurs. Pour plus d’informations sur les noms de produits et les identificateurs de plan de service, consultez la documentation [ici](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+    1. Assurez-vous de mettre à jour le champ **LicensePlan** pour indiquer la licence que vous avez l’intention d’attribuer à chacun de ces utilisateurs. Pour plus d’informations sur les noms de produits et les identificateurs de plan de service, consultez la documentation [ici](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
 1. À partir de PowerShell, exécutez le script **CreateUsers.ps1** à partir des actifs.
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>Attribuer des licences à des utilisateurs au moyen de licences en fonction des groupes
@@ -379,7 +379,7 @@ Une gestion des erreurs minime a été implémentée dans ces exemples de script
 
 ## <a name="further-reading"></a>Lectures supplémentaires
 
-- [Nouveau canal d’équipe (PowerShell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [Stratégie de messagerie de nouvelle équipe (PowerShell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [Nouveau canal d’équipe (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [Stratégie de messagerie de nouvelle équipe (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [Attribuez des licences et des comptes d’utilisateur avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Attribuez des licences et des comptes d’utilisateur avec Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

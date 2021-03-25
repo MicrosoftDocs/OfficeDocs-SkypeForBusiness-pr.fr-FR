@@ -16,19 +16,19 @@ search.appverid: MET150
 description: Découvrez comment Teams prend en charge l’audio et la vidéo dans les navigateurs non pris en charge.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4aca1592a89e36e7a26a9a22b111968e4b44a302
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83617628fe04140c45b005e993d95eac34c6f8bd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804524"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121312"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Réunions Microsoft Teams sur des navigateurs non pris en compte
 
 Certains navigateurs, tels qu’Internet Explorer 11, Safari et Firefox, ne supportent pas l’application web Microsoft Teams, mais pas certaines des fonctionnalités d’appel et de réunion de Teams. Pour contourner cette limitation, l’application web Teams permet aux utilisateurs de recevoir de l’audio via une connexion PSTN et leur permet d’afficher du contenu présenté (partage d’écran) à une vitesse d’affichage réduite.
 
 > [!Note]
-> Les applications et services Microsoft 365 ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant [](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) du système d’exploitation Windows et suit la politique de cycle de vie du produit sur lequel il est installé.
+> Les applications et services Microsoft 365 ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant [](/lifecycle/faq/internet-explorer-microsoft-edge) du système d’exploitation Windows et suit la politique de cycle de vie du produit sur lequel il est installé.
 
 Lorsque Teams détecte un navigateur non pris en défaut, il affiche automatiquement un message expliquant le problème et les limites de la session. Le message fournit des instructions supplémentaires pour accéder à l’audio de la réunion, par exemple en conseillant à l’utilisateur de laisser un numéro de rappeler pour que Teams puisse appeler l’utilisateur, ou en lui demandez d’appeler le numéro de conférence inclus dans l’invitation à la réunion. Ce message encourage également l’utilisateur à télécharger et à utiliser le client de [bureau Teams](https://teams.microsoft.com/downloads) pour une expérience Teams complète.
 
@@ -46,8 +46,8 @@ Les personnes qui utilisent l’application web Teams sur des navigateurs non pr
 - Si l’appel est interrompu, la réunion ne se reconnecte pas automatiquement.
 - Les utilisateurs ne peuvent pas démarrer de réunions.
 
-Pour plus d’informations sur la prise en charge du navigateur dans Teams, voir [Limites et spécifications pour Teams.](/microsoftteams/limits-specifications-teams#browsers)
+Pour plus d’informations sur la prise en charge du navigateur dans Teams, voir [Limites et spécifications pour Teams.](./limits-specifications-teams.md#browsers)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Participer à une réunion Teams sur un navigateur non pris en défaut](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

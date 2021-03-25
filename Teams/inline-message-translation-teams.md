@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012f2431ec7fb249a2f2e3b963c41166c4649a5c
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
-ms.translationtype: HT
+ms.openlocfilehash: 5c9e34c5e539d32b25259098973e9bfe6795ad7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395383"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120625"
 ---
 <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Désactiver la traduction incorporée des messages dans Microsoft Teams
 =================================================
@@ -41,11 +41,11 @@ La traduction incorporée des messages est déployée par défaut pour votre org
 
 Vous pouvez utiliser la stratégie de messagerie pour désactiver la traduction incorporée des messages.
 
-Désactiver la stratégie à l’aide de la cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps). L’application de cette stratégie prend quelques minutes. Les utilisateurs devront peut-être se déconnecter, puis se reconnecter à Teams.
+Désactiver la stratégie à l’aide de la cmdlet [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps). L’application de cette stratégie prend quelques minutes. Les utilisateurs devront peut-être se déconnecter, puis se reconnecter à Teams.
 
 ## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Utiliser le Centre d'administration Microsoft Teams pour désactiver la traduction incorporée des messages dans Microsoft Teams
 
 Dans le **Centre d’administration Microsoft Teams**, sélectionnez **Stratégies de messagerie** dans le menu de navigation gauche, créez une stratégie ou modifiez une stratégie existante, puis définissez l’option **Traduire les messages** sur **Off**.
 
 > [!NOTE]
-> Le service effectue, puis livre la traduction au client sans effet sur le contenu capturé dans les enregistrements de conformité. Si vous souhaitez en savoir plus sur la traduction, veuillez consulter la rubrique [Qu’est-ce que Microsoft Translator ?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
+> Le service effectue, puis livre la traduction au client sans effet sur le contenu capturé dans les enregistrements de conformité. Si vous souhaitez en savoir plus sur la traduction, veuillez consulter la rubrique [Qu’est-ce que Microsoft Translator ?](/azure/cognitive-services/translator/translator-info-overview)

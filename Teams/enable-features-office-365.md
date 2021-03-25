@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871085"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122188"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -42,7 +42,7 @@ Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organi
 
 ### <a name="external-access"></a>Accès externe
 
-L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](let-your-teams-users-communicate-with-other-people.md).
+L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](./manage-external-access.md).
 
 Pour ajouter ou bloquer un domaine :
 
@@ -69,7 +69,7 @@ Les indicateurs permettent aux utilisateurs de communiquer avec un sous-ensemble
 
 #### <a name="email-integration"></a>Intégration de courrier électronique
 
-Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Les utilisateurs peuvent également envoyer des e-mails à n’importe quel canal d’une équipe pour laquelle l’ajout de connecteurs est activé pour les membres de l’équipe. Pour activer l’intégration des e-mails, assurez-vous que **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail du canal** est **activé**. Ensuite, vérifiez que le domaine de l’adresse e-mail de l’expéditeur n’est pas bloqué dans le Centre d’administration Teams>Paramètres à l’échelle de l’organisation>Paramètres Teams>Intégration de courrier électronique>**Accepter les e-mails du canal à partir de ces domaines SMTP**. Celle-ci doit être vide ou inclure tous les domaines dont vous vous attendez à recevoir des e-mails. Ensuite, vous devez vérifier que vous avez les règles nécessaires pour vous assurer que [les e-mails envoyés à l’adresse de messagerie du canal Teams ne sont pas bloqués](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
+Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Les utilisateurs peuvent également envoyer des e-mails à n’importe quel canal d’une équipe pour laquelle l’ajout de connecteurs est activé pour les membres de l’équipe. Pour activer l’intégration des e-mails, assurez-vous que **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail du canal** est **activé**. Ensuite, vérifiez que le domaine de l’adresse e-mail de l’expéditeur n’est pas bloqué dans le Centre d’administration Teams>Paramètres à l’échelle de l’organisation>Paramètres Teams>Intégration de courrier électronique>**Accepter les e-mails du canal à partir de ces domaines SMTP**. Celle-ci doit être vide ou inclure tous les domaines dont vous vous attendez à recevoir des e-mails. Ensuite, vous devez vérifier que vous avez les règles nécessaires pour vous assurer que [les e-mails envoyés à l’adresse de messagerie du canal Teams ne sont pas bloqués](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Fichiers
 
@@ -124,7 +124,7 @@ Cette option vous permet de sélectionnez l’application que les utilisateurs u
 
 #### <a name="network-planner"></a>Planificateur de réseau
 
-Le Planificateur de réseau vous aide à déterminer et organiser les exigences réseau pour connecter les utilisateurs de Teams au sein de votre organisation.  Découvrez comment [utiliser le Planificateur de réseau pour Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
+Le Planificateur de réseau vous aide à déterminer et organiser les exigences réseau pour connecter les utilisateurs de Teams au sein de votre organisation.  Découvrez comment [utiliser le Planificateur de réseau pour Microsoft Teams](./network-planner.md).
 
 Vous pouvez également sélectionner l’option « Télécharger l’application Teams en arrière-plan pour les utilisateurs Skype Entreprise ».  Par défaut, le paramètre est défini sur Activé. Lorsque ce paramètre est activé, l’application Teams est téléchargée en arrière-plan pour les utilisateurs de l’application Skype Entreprise sur PC Windows. Cela se produit si le mode de coexistence pour l’utilisateur est Teams uniquement, ou si une notification de mise à niveau en attente est activée dans l’application Skype Entreprise.
 

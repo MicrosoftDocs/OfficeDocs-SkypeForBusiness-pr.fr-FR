@@ -10,25 +10,25 @@ metadata:
   author: LanaChin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: 4aa8036644cf6d38e150d458c7ca1645e3d6822e
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: d5c02d51c74a5aeb4a9d61c7b8ebdd0d2752b6d7
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189340"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51120485"
 landingContent:
 - title: À propos de Skype Entreprise Server 2019
   linkLists:
   - linkListType: whats-new
     links:
     - text: Nouveautés
-      url: /skypeforbusiness/whats-new
+      url: ./whats-new.md
   - linkListType: overview
     links:
-    - text: Configuration requise du système
-      url: /skypeforbusiness/plan/system-requirements
+    - text: Configuration requise
+      url: ./plan/system-requirements.md
     - text: Configuration réseau requise
-      url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
   - linkListType: download
     links:
     - text: Téléchargez-le maintenant !
@@ -38,30 +38,30 @@ landingContent:
   - linkListType: overview
     links:
     - text: Informations de base sur la topologie
-      url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+      url: ../SfbServer/plan-your-deployment/topology-basics/topology-basics.md
     - text: Planifier une connectivité hybride
-      url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md
     - text: Planifier les Voix Entreprise
-      url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+      url: ../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
 - title: Installer et gérer
   linkLists:
   - linkListType: deploy
     links:
     - text: Installer Skype Entreprise Server
-      url: /skypeforbusiness/deploy/install/install
+      url: ../SfbServer/deploy/install/install.md
     - text: Migrer vers Skype Entreprise 2019
-      url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+      url: ./migration/migration-to-skype-for-business-server-2019.md
     - text: Déploiement de Voix Entreprise
-      url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      url: ../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
   - linkListType: how-to-guide
     links:
     - text: Gérer votre topologie
-      url: /skypeforbusiness/manage/topology/topology
+      url: ../SfbServer/manage/topology/topology.md
 - title: Autres ressources
   linkLists:
   - linkListType: overview
     links:
     - text: Documentation Skype Entreprise Server 2015
-      url: /SkypeForBusiness/skype-for-business-server-2015
+      url: ../SfbServer/skype-for-business-server-2015.yml
     - text: Documentation Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013

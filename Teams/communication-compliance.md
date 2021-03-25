@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328253"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121532"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité de la communication avec Microsoft Teams
 
 La conformité des communications est une solution insider à risque dans Microsoft 365 qui permet de minimiser les risques de communication en vous aidant à détecter, capturer et agir sur les messages inappropriés dans votre organisation.
 
-Pour Microsoft Teams, la conformité de la communication permet d’identifier les [types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) de contenus inappropriés suivants dans les canaux Teams ou dans les conversations en tête-à-tête et en groupe :
+Pour Microsoft Teams, la conformité de la communication aide à identifier les [types](/microsoft-365/compliance/communication-compliance-feature-reference) de contenu inapproprié suivants dans les canaux Teams ou dans les conversations en tête-à-tête et en groupe :
 
 - Langage choquant, choquant et choquant
-- Images pour adultes, racy et gory
+- Images d’adulte, racy et gory
 - Partage d’informations sensibles
 
-Pour plus d’informations sur la conformité des communications et la configuration des stratégies pour votre organisation, voir Conformité des [communications dans Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
+Pour plus d’informations sur la conformité des communications et la configuration des stratégies pour votre organisation, voir Conformité des [communications dans Microsoft 365.](/microsoft-365/compliance/communication-compliance)
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Comment utiliser la conformité des communications dans Microsoft Teams
 
@@ -41,7 +41,7 @@ La conformité des communications et Microsoft Teams sont étroitement intégré
 
 ### <a name="getting-started"></a>Prise en main
 
-La mise en place de la [](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) conformité des communications dans Microsoft Teams commence par la planification et la création de stratégies prédéfinës ou personnalisées permettant d’identifier les activités d’utilisateur inappropriées dans les canaux Teams ou en tête-à-tête et en groupes. N’oubliez pas que [](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) vous devez configurer certaines autorisations et conditions préalables de base dans le cadre du processus de configuration.
+La mise en place de la [](/microsoft-365/compliance/communication-compliance-plan) conformité des communications dans Microsoft Teams commence par la planification et la création de stratégies prédéfinës ou personnalisées permettant d’identifier les activités d’utilisateur inappropriées dans les canaux Teams ou en tête-à-tête et en groupes. N’oubliez pas que [](/microsoft-365/compliance/communication-compliance-configure) vous devez configurer certaines autorisations et conditions préalables de base dans le cadre du processus de configuration.
 
 Les administrateurs Teams peuvent configurer les stratégies de conformité aux communications aux niveaux suivants :
 
@@ -50,7 +50,7 @@ Les administrateurs Teams peuvent configurer les stratégies de conformité aux 
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir sur les messages inappropriés dans Microsoft Teams
 
-Après avoir configuré vos stratégies et reçu des alertes de conformité aux communications pour les messages Microsoft Teams, les réviseurs de conformité de votre organisation doivent agir sur ces messages. Les réviseurs peuvent vous aider à protéger votre organisation en consultant les alertes de conformité aux communications et en supprimant les messages marqués d’un drapeau dans Microsoft Teams.
+Après avoir configuré vos stratégies et reçu des alertes de conformité aux communications pour les messages Microsoft Teams, les réviseurs de conformité de votre organisation doivent agir sur ces messages. Les réviseurs peuvent vous aider à protéger votre organisation en filant les alertes de conformité aux communications et en supprimant les messages marqués d’un état dans Microsoft Teams.
 
 ![Supprimer un message dans Teams](./media/communication-compliance-remove-teams-message.png)
 

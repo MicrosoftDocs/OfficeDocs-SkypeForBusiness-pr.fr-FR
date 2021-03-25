@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le Centre d’administration de Microsoft Teams ou Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569256"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120806"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -89,7 +89,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, [consultez New-CsTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)
+    Pour obtenir d’autres exemples et des paramètres, [consultez New-CsTenantDialPlan.](/powershell/module/skype/new-cstenantdialplan)
     
 - Pour modifier les paramètres d’un plan de numérotation existant, exécutez :
     
@@ -98,7 +98,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, [voir Set-CsTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)
+    Pour obtenir d’autres exemples et des paramètres, [voir Set-CsTenantDialPlan.](/powershell/module/skype/set-cstenantdialplan)
     
 - Pour ajouter des utilisateurs à un plan de numérotation, exécutez :
     
@@ -106,7 +106,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, voir [Grant-CsTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)
+    Pour obtenir d’autres exemples et des paramètres, voir [Grant-CsTenantDialPlan.](/powershell/module/skype/grant-cstenantdialplan)
     
 - Pour afficher les paramètres d’un plan de numérotation, exécutez :
     
@@ -114,7 +114,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, [consultez Get-CsTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
+    Pour obtenir d’autres exemples et des paramètres, [consultez Get-CsTenantDialPlan.](/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
     
 - Pour supprimer un plan de numérotation, exécutez :
     
@@ -122,7 +122,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, [voir Remove-CsTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)
+    Pour obtenir d’autres exemples et des paramètres, [voir Remove-CsTenantDialPlan.](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)
     
 - Pour voir les paramètres du plan de numérotation efficace, exécutez :
     
@@ -130,7 +130,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, [consultez Get-CsEffectiveTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)
+    Pour obtenir d’autres exemples et des paramètres, [consultez Get-CsEffectiveTenantDialPlan.](/powershell/module/skype/get-cseffectivetenantdialplan)
     
 - Pour tester les paramètres efficaces d’un plan de numérotation, exécutez :
     
@@ -138,7 +138,7 @@ Vous pouvez utiliser une seule cmdlet ou un script PowerShell pour créer et gé
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, voir [Test-CsEffectiveTenantDialPlan.](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)
+    Pour obtenir d’autres exemples et des paramètres, voir [Test-CsEffectiveTenantDialPlan.](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)
     
 #### <a name="using-a-powershell-script"></a>Utilisation d’un script PowerShell
 
@@ -187,7 +187,7 @@ Exécutez l’événement pour rechercher tous les utilisateurs qui ont reçu le
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Exécutez l’événement pour supprimer toute tenantDialPlan affectée à tous les utilisateurs qui ont un HostingProvider de sipfed.online.lync.com.
+Exécutez cette tâche pour supprimer tout TenantDialPlan affecté à tous les utilisateurs qui ont un HostingProvider of sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -217,10 +217,10 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
-- [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+- [Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)

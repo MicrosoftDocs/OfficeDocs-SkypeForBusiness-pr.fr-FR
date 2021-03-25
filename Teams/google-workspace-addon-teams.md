@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c86d707a4298d88d3ae0cff389bda73490390e4
-ms.sourcegitcommit: 380cd74c08cd34e1c3f73f5c0f51da4ae2674f6f
+ms.openlocfilehash: 6e1b7024190ac51b89e09fafced86ffea13f5961
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880869"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120695"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le module add-on de réunion Microsoft Teams pour Google Workspace
 
-L’utilisation du module logiciel Microsoft Teams permet aux utilisateurs de calendrier Google de planifier et de rejoindre une réunion Microsoft Teams directement à partir de Google Workspace. Les utilisateurs auront accès aux fonctionnalités de réunions Teams, notamment à la vidéoconférence et à l’audioconférence, au partage d’écran, aux discussions de réunion, aux tableaux blancs numériques, etc. Restez connecté et organisé pour être encore plus efficace au sein de votre travail, de votre école et de votre vie.
+L’utilisation du module logiciel Microsoft Teams permet aux utilisateurs de calendrier Google de planifier et de rejoindre une réunion Microsoft Teams directement à partir de Google Workspace. Les utilisateurs auront accès aux fonctionnalités de réunions Teams, notamment à la vidéoconférence et à l’audioconférence, au partage d’écran, aux discussions de réunion, aux tableaux blancs numériques, etc. Restez connecté et organisé pour être encore plus efficace au sein de votre vie professionnelle, scolaire et personnelle.
 
 Pour que les utilisateurs clients peuvent accéder à l’application, le module ajout de réunion Microsoft Teams pour Google Workspace doit être activé par un administrateur Teams.
 
@@ -49,7 +49,7 @@ L’option d’ajout est activée par défaut.
 
    ![Portail Azure affichant les propriétés de l’espace de travail Google](media/google-workspace-properties.png)
 
-5. (Facultatif) Pour désactiver l’module supplémentaire, sélectionnez **Non** au lieu de **Oui** à l’étape 4.
+5. (Facultatif) Pour désactiver l’module ajouté, sélectionnez **Non** au lieu de **Oui** à l’étape 4.
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Désactiver le module add-on de réunion Microsoft Teams pour Google Workspace à l’aide de PowerShell
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-Pour plus d’informations, [voir Créer un principal de service Azure avec Azure PowerShell.](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+Pour plus d’informations, [voir Créer un principal de service Azure avec Azure PowerShell.](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Supprimer le module ajouté à la réunion Microsoft Teams pour Google Workspace
 

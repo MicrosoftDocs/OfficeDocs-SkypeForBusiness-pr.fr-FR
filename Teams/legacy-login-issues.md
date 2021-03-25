@@ -17,17 +17,17 @@ description: Résoudre les problèmes liés à la réception de messages et d’
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085150"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120605"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
 ==============================================================
 
-Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures de Teams ou s’ils se sont connectés à d’autres applications.
+Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures de Teams ou s’ils se sont connectés avec d’autres applications.
 
 ## <a name="legacy-adu-setups"></a>Configurations ADU héritées
 
@@ -49,4 +49,4 @@ Lors de la modification ou de la réinitialisation d’un mot de passe, les clie
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Résolution des problèmes de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)

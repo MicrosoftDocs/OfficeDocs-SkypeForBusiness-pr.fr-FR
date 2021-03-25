@@ -13,16 +13,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir la fonctionnalité SEFAUtil dans Skype Entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
-ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868551"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120505"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utilisation de la fonctionnalité SEFAUtil via PowerShell dans Skype Entreprise Server 2019
 
-SEFAUtil (Secondary Extension Feature Activation) permet aux administrateurs Skype Entreprise Server et aux agents du service d’aide de configurer les paramètres de sonnerie de délégué, de transfert d’appel et de prise d’appel de groupe pour le compte d’un utilisateur Skype Entreprise Server. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après avoir installé la mise à jour cumulative de juillet 2019 de Skype Entreprise Server, les fonctionnalités suivantes qui peuvent actuellement être gérées uniquement via SEFAUtil sont également gérables via PowerShell :
+SEFAUtil (Secondary Extension Feature Activation) permet aux administrateurs de Skype Entreprise Server et aux agents du service d’aide de configurer les paramètres de sonnerie de délégué, de transfert d’appel et de prise d’appel de groupe pour le compte d’un utilisateur Skype Entreprise Server. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après avoir installé la mise à jour cumulative de juillet 2019 de Skype Entreprise Server, les fonctionnalités suivantes qui peuvent actuellement être gérées uniquement via SEFAUtil sont également gérables via PowerShell :
 
 - [Paramètres de forwarding d’appel](#call-forwarding-settings)
 - [Paramètres de délégation](#delegation-settings)
@@ -34,11 +34,11 @@ Les administrateurs peuvent modifier les paramètres de forwarding d’appel à 
 
 - `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
-Cette cmdlet renvoie les paramètres de forwarding d’appel de l’utilisateur spécifié en tant qu’objet et affiche la même chose à l’écran.
+Cette cmdlet renvoie les paramètres de forwardage d’appel de l’utilisateur spécifié en tant qu’objet et s’affiche de la même façon à l’écran.
 
 - `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
-Cette cmdlet modifie les paramètres de forwarding d’appel de l’utilisateur spécifié. Cette cmdlet renvoie les paramètres de forwarding d’appel de l’utilisateur spécifié en tant qu’objet et affiche la même chose à l’écran, en cas de réussite. En cas d’échec, un message d’erreur approprié s’affiche.
+Cette cmdlet modifie les paramètres de forwardage d’appel de l’utilisateur spécifié. Cette cmdlet renvoie les paramètres de forwardage d’appel de l’utilisateur spécifié en tant qu’objet et affiche la même chose à l’écran, en cas de réussite. En cas d’échec, un message d’erreur approprié s’affiche.
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
@@ -94,7 +94,7 @@ Cette cmdlet ajoute ou supprime des membres de l’équipe.
 
 Cette cmdlet définit une liste d’équipes pour des membres spécifiques.
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>Informations supplémentaires
 
 Pour les déploiements locaux, les cmdlets introduites dans cette fonctionnalité peuvent uniquement être exécutés par les membres des groupes suivants, selon le niveau d’accès spécifié ci-dessous :
 
@@ -103,7 +103,7 @@ Pour les déploiements locaux, les cmdlets introduites dans cette fonctionnalit�
 - CsHelpDesk - Obtenir pour toutes les cmdlets
 
 Pour plus d’informations sur ces rôles d’administrateur, voir [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). L’administrateur peut accéder à ces cmdlets en se connectant directement ou à distance à un ordinateur serveur.
-Pour un déploiement hybride, les administrateurs Skype Entreprise doivent être en mesure d’appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, voir [à propos des rôles d’administrateur.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+Pour un déploiement hybride, les administrateurs Skype Entreprise doivent être en mesure d’appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, voir [à propos des rôles d’administrateur.](/microsoft-365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
 > La découverte automatique du serveur doit être activée. Aucune exigence de licence supplémentaire n’est introduite pour l’utilisation des cmdlets.

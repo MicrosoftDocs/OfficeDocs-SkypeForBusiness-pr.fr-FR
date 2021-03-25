@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
-ms.openlocfilehash: 092229f6e84b7c4094355b7330c71aa6f8baf7c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fddbca47630eeab6c923f12fbaf210cba3bca766
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121061"
 ---
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
 
@@ -30,6 +30,6 @@ Vous cliquez sur **Office Communications Server 2007 R2** pour développer les s
 
 ## <a name="see-also"></a>Voir aussi
 
-[Fusion à l’aide de l’Assistant Fusion du Générateur de topologies](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Fusion à l’aide de l’Assistant Fusion du Générateur de topologies](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard)
 
-[Vérifier les informations de la topologie](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[Vérifier les informations de la topologie](/previous-versions/office/lync-server-2013/verify-topology-information)

@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819452"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120665"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>Implémenter votre déplacement vers Microsoft Teams
 
@@ -45,7 +45,7 @@ Nous vous recommandons d’avoir la structure suivante pour la transition :
    
 1. Tout d’abord, déplacez vos groupes de conversation dans Microsoft Teams.
 1. Ensuite, utilisez les applications dans Teams pour remplacer les cartes d’action Kaizala.
-1. Pour vous assurer que les employés en avant-première sont équipés, améliorez la fonctionnalité Teams Frontline Worker. Pour consulter un guide de démarrage rapide sur les travailleurs en avant-première de Teams, consultez le guide de démarrage rapide des travailleurs en [avant-première.](https://docs.microsoft.com/microsoftteams/flw-quickstart)
+1. Pour vous assurer que les employés en avant-première sont équipés, améliorez la fonctionnalité Teams Frontline Worker. Pour consulter un guide de démarrage rapide sur les travailleurs en avant-première de Teams, consultez le guide de démarrage rapide des travailleurs en [avant-première.](./flw-quickstart.yml)
 1. Envisagez d’intégrer des fournisseurs et partenaires à inviter en tant qu’invités dans Teams.  
   
 **Gérer les changements**  
@@ -84,11 +84,11 @@ Nous vous recommandons d’avoir la structure suivante pour la transition :
 
 - **Utiliser Kaizala et Teams**  
 
-   Pour trouver l’offre Microsoft Teams qui vous semble la plus professionnelle, voir [Comparer les options de Microsoft Teams Online | Microsoft Teams.](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) 
+   Pour trouver microsoft Teams pour votre entreprise, consultez [l’option Comparer les options de Microsoft Teams Online | Microsoft Teams.](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) 
 
 - **Gérer les changements** 
 
-   Préparez votre organisation au changement par le biais d’une formation utilisateur final sur la base de l’adoption. Les administrateurs informatiques et les champions peuvent être à l’avant-plan des efforts pour influencer la gestion positive des changements en déplacement.  
+   Préparez votre organisation au changement par le biais d’une formation utilisateur final sur la base de l’adoption. Les administrateurs informatiques et les champions peuvent agir pour influencer la gestion positive des changements en déplacement.  
 
 - **Planifier votre adoption de Teams**
 
@@ -96,4 +96,4 @@ Nous vous recommandons d’avoir la structure suivante pour la transition :
      
 - **Déplacer votre organisation vers Teams** 
 
-    Renforcez l’autonomie de votre organisation avec un outil rationalisé pour la communication entre le PDG et le personnel de première ligne. 
+    Renforcez l’autonomie de votre organisation avec un outil rationalisé pour la communication entre le PDG et le personnel de première ligne.

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 448fe91317d7e3daedad08e68db111a20cd51b13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 689a09815a7c4f94894fdf374329fe9e9b2ea935
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122008"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Utilisateurs : Afficher ou configurer le plan de numérotation
 
@@ -28,11 +28,8 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 
 - [Créer ou modifier un plan de numérotation dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [Modifier un plan de numérotation](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [Modifier un plan de numérotation](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
 - [Créer ou modifier une règle de normalisation dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [Créer ou modifier manuellement une règle de normalisation](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-
-
-
+- [Créer ou modifier manuellement une règle de normalisation](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)

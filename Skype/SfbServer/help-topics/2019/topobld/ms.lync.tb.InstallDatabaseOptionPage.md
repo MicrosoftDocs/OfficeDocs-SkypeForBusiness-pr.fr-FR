@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous configurez des options avancées pour l’emplacement des fichiers de base de données et des fichiers journaux sur SQL Server. Les options disponibles sont les suivantes :'
-ms.openlocfilehash: 5da2d50bf6571408f63403998443155307d86e2b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Vous configurez des options avancées pour l’emplacement des fichiers de base de données et de journaux sur SQL Server. Les options disponibles sont les suivantes :'
+ms.openlocfilehash: 4b4323f2b0e953ff24a458a2f28f75f52d4f0149
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805734"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121642"
 ---
 # <a name="install-database-options-page"></a>Page des options Installer une base de données
 
@@ -36,7 +36,7 @@ Vous configurez des options avancées pour l’emplacement des fichiers de base 
  Us **these path on target SQL Server :** Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
 
 > [!IMPORTANT]
-> Les chemins d’accès que vous entrez peuvent être modifiés selon les algorithmes d’optimisation de performance dans l’installation. Pour plus d’informations, voir la documentation [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
+> Les chemins d’accès que vous entrez peuvent être modifiés selon les algorithmes d’optimisation de performance dans l’installation. Pour plus d’informations, voir la documentation [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).
 
  **OK** : Cliquez sur OK pour valider vos modifications.
 
@@ -46,4 +46,4 @@ Vous configurez des options avancées pour l’emplacement des fichiers de base 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Emplacement des fichiers journaux et des données SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[Emplacement des fichiers journaux et des données SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)

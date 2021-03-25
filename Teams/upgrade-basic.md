@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37cc9f3940eb08a4df092042c016b194b01c64e6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d9453ad770b7ca21b5300b193cbafb932ea7645a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809084"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120525"
 ---
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
@@ -43,14 +43,14 @@ Ces dix étapes simples fournissent tout ce dont vous avez besoin pour réussir 
 
 Qu’advient-il de Skype Entreprise après la mise à niveau ? Après la mise à niveau de vos utilisateurs vers Teams (mode **Teams uniquement**) :
 
-- Son client Skype Entreprise est désactivé, et toutes les discussions et appels se placent dans Teams. Notez que cela ne désinstalle pas le client sur son ordinateur de bureau.
+- Son client Skype Entreprise est désactivé, et toutes les discussions et appels sont dans Teams. Notez que cela ne désinstalle pas le client sur son ordinateur de bureau.
 - Toutes les réunions Skype Entreprise qui ont été programmées avant le travail de mise à niveau, mais toutes les nouvelles réunions sont prévues dans Teams. Le plug-in Skype Entreprise ne sera plus disponible dans Outlook. 
 - Si un utilisateur tente de se connecter à Skype Entreprise, il reçoit une notification de la part de son client lui signalant qu’il a été mis à niveau vers Teams.
 - Les utilisateurs doivent désinstaller manuellement le client Skype Entreprise sur leurs appareils mobiles.
 
-Consultez notre [FAQ pour](https://aka.ms/SkypeToTeams-FAQ) d’autres questions sur votre mise à niveau.
+Consultez notre [FAQ pour](./faq-journey.yml) d’autres questions sur votre mise à niveau.
 
-Vous n’êtes pas familiarisé avec Teams ? Découvrez comment [Teams](https://products.office.com/microsoft-teams/group-chat-software) regroupe les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, offrant une plateforme unique pour le travail d’équipe dans Microsoft 365 et Office 365.
+Vous n’êtes pas familiarisé avec Teams ? Découvrez comment [Teams](https://products.office.com/microsoft-teams/group-chat-software) regroupe les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en offrant une plateforme unique pour le travail d’équipe dans Microsoft 365 et Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -76,10 +76,10 @@ Les cadres supérieurs sont responsables du succès de l’entreprise. assurez-v
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Teams offre des fonctionnalités compatibles de Skype Entreprise, telles que la messagerie instantanée (conversation) et les réunions, mais elle peut également en faire beaucoup plus. En tant que plateforme pour le travail d’équipe, Teams permet aux groupes de travail de gérer des projets, des fichiers, des conversations et des applications dans un emplacement unique. Par défaut, Teams est activé pour toutes les organisations. Décidez comment votre organisation utilisera Teams et configurez votre environnement pour le succès. 
+Teams offre des fonctionnalités compatibles de Skype Entreprise, telles que la messagerie instantanée (conversation) et les réunions, mais elle peut également en faire beaucoup plus. En tant que plateforme pour le travail d’équipe, Teams permet aux groupes de travail de gérer des projets, des fichiers, des conversations et des applications dans un seul emplacement. Par défaut, Teams est activé pour toutes les organisations. Décidez comment votre organisation utilisera Teams et configurez votre environnement pour le succès. 
 
 > [!Note]
-> En tant que client Skype Entreprise, votre infrastructure réseau actuelle est probablement déjà configurée pour Teams. Pour confirmer cela, vous pouvez suivre les instructions de « Planification technique complète » ci-dessous (facultatives).
+> En tant que client Skype Entreprise, votre infrastructure réseau actuelle est probablement déjà configurée pour Teams. Pour confirmer cela, vous pouvez suivre les instructions de « Planification technique complète » (facultatives).
 
 **Ressources :**
 
@@ -100,7 +100,7 @@ Les utilisateurs qui sont fortement adoptées sur Skype Entreprise peuvent avoir
 
 **Ressources :**
 
-- [Rapports Microsoft 365 dans le Centre d’administration](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
+- [Rapports Microsoft 365 dans le Centre d’administration](/microsoft-365/admin/activity-reports/activity-reports)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -112,7 +112,7 @@ Les utilisateurs qui sont fortement adoptées sur Skype Entreprise peuvent avoir
 
 *(Environ deux à trois semaines avant la mise à niveau)*
 
-Si vous fournissez des informations suffisantes à vos utilisateurs, vous leur donnez le temps de vous familiariser avec Teams sans affecter négativement leur productivité, ce qui permet à ces derniers de se familiariser plus positivement avec l’expérience utilisateur. Envoyez une communication pour lui dire ce qui change, pourquoi elle change et comment elle peut se préparer.
+Si vous fournissez aé davantage de temps à vos utilisateurs, vous leur donnez le temps de vous familiariser avec Teams sans affecter négativement leur productivité et ainsi une expérience utilisateur plus positive. Envoyez une communication pour lui dire ce qui change, pourquoi elle change et comment elle peut se préparer.
 
 > [!Note]
 > Si nécessaire, vous pouvez activer Teams pour vos utilisateurs via le Centre d’administration Microsoft 365 pour le moment.
@@ -199,7 +199,7 @@ L’ajustement à une nouvelle technologie peut prendre du temps. Vérifiez l’
 
 *(Environ une ou deux semaines après la mise à niveau)*
 
-La satisfaction des employés peut influencer la productivité, la rétention et, finalement, les résultats d’entreprise. Pour évaluer la satisfaction des utilisateurs concernant la mise à niveau et la satisfaction de ces derniers, parlez-en à vos utilisateurs.
+La satisfaction des employés peut influencer la productivité, la rétention et, finalement, les résultats d’entreprise. Parlez-en à vos utilisateurs pour évaluer les opinions des utilisateurs concernant la mise à niveau et leur satisfaction concernant Teams.
 
 **Ressources :**
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d390113b30558b94fadab695731b8c08b4c01ace
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806274"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121502"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation
 
@@ -44,7 +44,7 @@ Vous gérez les emplacements d’urgence pour votre organisation dans le Centre 
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [New-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation)
+Voir [New-CsOnlineLisLocation.](/powershell/module/skype/new-csonlinelislocation)
     
 ## <a name="change-a-place-for-an-emergency-location"></a>Modification d’un emplacement d’urgence
 
@@ -57,7 +57,7 @@ Voir [New-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/sky
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)
+Voir [Set-CsOnlineLisLocation.](/powershell/module/skype/set-csonlinelislocation)
     
 ## <a name="remove-a-place-from-an-emergency-location"></a>Supprimer un emplacement d’un emplacement d’urgence
 
@@ -69,10 +69,10 @@ Voir [Set-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/sky
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Remove-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation)
+Voir [Remove-CsOnlineLisLocation.](/powershell/module/skype/remove-csonlinelislocation)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)

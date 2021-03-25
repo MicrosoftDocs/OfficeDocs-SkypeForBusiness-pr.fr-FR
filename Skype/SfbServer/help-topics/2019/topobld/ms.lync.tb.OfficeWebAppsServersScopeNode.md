@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cliquez avec le bouton droit sur Serveurs Office Web Apps Server et sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
-ms.openlocfilehash: eb03185e46e63cfe855155addba5e21c9d7418a1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dc58a6e203362f5811ecb60b2b8bc981b70c9ba3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829934"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121047"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nœud d’étendue des serveurs Office Web Apps Server
 
@@ -34,4 +34,4 @@ Cliquez avec le bouton **droit sur Serveurs Office Web Apps Server** et sélecti
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration de l’intégration avec Office Web Apps Server](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Configuration de l’intégration avec Office Web Apps Server](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants des utilisateurs de Phone System à l’aide d’une stratégie appelée CallingLineIdentity.
-ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255447"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120675"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
@@ -52,7 +52,7 @@ La fonctionnalité d’ID d’appelant est disponible pour tous les utilisateurs
 
 Trois options sont disponibles pour l’ID d’appelant PSTN sortant :
   
-- Numéro de téléphone affecté à l’utilisateur (valeur par défaut).
+- Le numéro de téléphone affecté à l’utilisateur (valeur par défaut).
     
 - Un numéro de téléphone classé comme *service* et numéro gratuit *dans* l’inventaire de numéros de téléphone de vos forfaits d’appels. Il est généralement attribué à un standard automatique d’organisation ou à une file d’appels.
     
@@ -64,7 +64,7 @@ Toutefois, vous ne pouvez pas affecter les types de numéros de téléphone suiv
     
 - Un numéro de téléphone Skype Entreprise Server local
     
-Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](/microsoftteams/set-the-caller-id-for-a-user).
+Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](./set-the-caller-id-for-a-user.md).
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Contrôle de l’ID d’appelant sortant par l’utilisateur final
 
@@ -87,18 +87,17 @@ Le système téléphonique affiche l’ID d’un numéro de téléphone externe 
 
 L'attribut BlockIncomingCallerID permet de bloquer l'ID d'appelant dans les appels RTC entrants. Vous pouvez définir cet attribut, mais il n’est pas disponible pour vos utilisateurs finaux sur la page des paramètres utilisateur. Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.
   
-Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](/microsoftteams/set-the-caller-id-for-a-user).
+Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](./set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
+[Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)
 
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
+[Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

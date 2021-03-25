@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe9600a1ddc530b1dbbcb6c061021c9d4cd9d537
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d43d650384dd538ff481ac9625c15b9a9f420d95
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120575"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -76,7 +76,7 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
 
 ### <a name="enable-location-based-routing-for-users"></a>Activer Location-Based routage pour les utilisateurs
 
-1. Utilisez [l’cmdlet Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) pour définir les utilisations PSTN. Pour plusieurs utilisations, séparez chaque utilisation par une virgule.
+1. Utilisez [l’cmdlet Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) pour définir les utilisations PSTN. Pour plusieurs utilisations, séparez chaque utilisation par une virgule.
 
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -85,7 +85,7 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Utilisez [l’cmdlet New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) pour créer une stratégie de routage voix afin d’associer l’utilisateur aux utilisations PSTN appropriées.
+2. Utilisez [l’cmdlet New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) pour créer une stratégie de routage voix afin d’associer l’utilisateur aux utilisations PSTN appropriées.
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -108,13 +108,13 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
     |ID de stratégie vocale en ligne   |Politique de routage vocal en ligne d’Online   |Politique de routage vocal en ligne du Service vos achats en ligne    |
     |Utilisations PSTN en ligne  |Longue distance  |Longue distance, local, interne  |
 
-3. Utilisez l’cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) pour associer des stratégies de routage voix en ligne aux utilisateurs qui demandent l’application de restrictions de routage.
+3. Utilisez l’cmdlet [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) pour associer des stratégies de routage voix en ligne aux utilisateurs qui demandent l’application de restrictions de routage.
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ### <a name="enable-location-based-routing-for-network-sites"></a>Activer Location-Based routage pour les sites réseau
 
-1.  Utilisez l’cmdlet [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer le routage Location-Based et associer des stratégies de routage voix à vos sites réseau qui doivent appliquer des restrictions de routage.
+1.  Utilisez l’cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer Location-Based routage et associer des stratégies de routage voix à vos sites réseau qui doivent appliquer des restrictions de routage.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -125,7 +125,7 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
-    Le tableau suivant indique les sites activés pour le Location-Based routage des sites dans cet exemple.
+    Le tableau suivant indique les sites activés pour le Location-Based routage dans cet exemple.
 
     ||Site 1 (Syz)  |Site 2 (Sod)  |
     |---------|---------|---------|
@@ -135,12 +135,12 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
 
 ### <a name="enable-location-based-routing-for-gateways"></a>Activer Location-Based routage pour les passerelles
 
-1. Utilisez la [cmdlet New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) pour créer une configuration de passerelle pour chaque passerelle ou site réseau. 
+1. Utilisez la [cmdlet New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) pour créer une configuration de passerelle pour chaque passerelle ou site réseau. 
 
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
     ```
-    Si plusieurs passerelles sont associées à un système (par exemple, passerelle ou PBX), modifiez chaque passerelle pour activer les Location-Based de routage. 
+    Si plusieurs passerelles sont associées à un système (par exemple, passerelle ou PBX), modifiez chaque passerelle pour activer Location-Based restrictions de routage. 
 
     Dans cet exemple, nous créons une configuration de passerelle pour chaque passerelle. 
     ```PowerShell
@@ -148,7 +148,7 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
     ```
     Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md)
     
-2. Utilisez la cmdlet [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) pour activer Location-Based routage pour vos passerelles qui doivent appliquer des restrictions de routage. 
+2. Utilisez [l’cmdlet Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) pour activer Location-Based routage pour vos passerelles qui doivent appliquer des restrictions de routage. 
 
     Activez Location-Based routage vers des passerelles qui routent des appels vers des passerelles PSTN qui routent des appels vers le réseau PSTN et associez le site réseau où se trouve la passerelle.
 
@@ -161,7 +161,7 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
-    N’activez pas Location-Based routage pour les passerelles qui ne routent pas les appels vers le RSTN. Toutefois, vous devez toujours associer la passerelle au site réseau où se trouve le système. En effet, Location-Based restrictions de routage doivent être appliquées pour les appels RSTN qui atteignent des points de terminaison connectés via cette passerelle. Dans cet exemple, le Location-Based routage des données n’est pas activé pour chaque passerelle associée aux systèmes PBX dans les sites Voséraux.
+    N’activez pas Location-Based routage pour les passerelles qui ne routent pas les appels vers le RSTN. Toutefois, vous devez toujours associer la passerelle au site réseau où se trouve le système. En effet, Location-Based restrictions de routage doivent être appliquées pour les appels RSTN qui atteignent des points de terminaison connectés via cette passerelle. Dans cet exemple, le Location-Based routage des données n’est pas activé pour chaque passerelle associée aux systèmes PBX dans les sites Vostâches et Vos centres d’information.
 
     ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -177,9 +177,9 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Activer Location-Based routage des appels
 
-Pour appliquer Location-Based routage pour des utilisateurs spécifiques, définissez la stratégie vocale des utilisateurs afin d’empêcher la dérivation toll pour PTSN. 
+Pour appliquer Location-Based routage pour des utilisateurs spécifiques, définissez la stratégie vocale des utilisateurs afin d’empêcher la dérivation toll du PTSN. 
 
-Utilisez [l’cmdlet Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) pour activer Location-Based routage en empêchant la dérivation PSTN toll.
+Utilisez [l’cmdlet Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) pour activer Location-Based routage en empêchant la dérivation PSTN toll.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
@@ -190,6 +190,6 @@ Dans cet exemple, nous empêchons la dérivation PSTN contre les stratégies d�
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

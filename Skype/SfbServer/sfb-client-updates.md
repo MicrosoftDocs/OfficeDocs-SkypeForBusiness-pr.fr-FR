@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des liens vers les dernières informations de mise à jour pour les versions perpétuelles de Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013 clients
-ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: aef180d6d816c3efa8c3a193d54a34ed9248b34a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221878"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121572"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières mises à jour pour les versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
 Utilisez les liens de cette page pour obtenir plus d’informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013 et les télécharger.
 
 > [!NOTE]
-> - Les informations de cet article s’appliquent uniquement aux versions perpétuelles de Skype Entreprise qui utilisent la technologie d’installation de Windows Installer (MSI). Par exemple, si vous avez installé une version avec licence en volume de Skype Entreprise, telle que Skype Entreprise incluse dans Office Professionnel Plus 2016.
+> - Les informations de cet article s’appliquent uniquement aux versions perpétuelles de Skype Entreprise qui utilisent la technologie d’installation de Windows Installer (MSI). Par exemple, si vous avez installé une version avec licence en volume de Skype Entreprise, telle que Skype Entreprise inclus avec Office Professionnel Plus 2016.
 > - Les informations de cet article ne s’appliquent pas aux versions Microsoft 365 ou Office 365 de Skype Entreprise, telles que Skype Entreprise inclus avec Microsoft 365 Apps for enterprise.
 > - Pour les dernières mises à jour du client mobile, consultez l’App Store de votre client mobile (iTunes, Google Play ou Microsoft Store) pour afficher les détails et installer les mises à jour.
-> - Pour connaître la version de Skype Entreprise que vous utilisez, consultez la version de Skype Entreprise que [j’utilise .](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
+> - Pour savoir quelle version de Skype Entreprise vous utilisez, consultez la version de Skype Entreprise que [j’utilise ?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Pour plus d’informations sur l’installation des mises à jour d’Office, consultez l’article [Installer les mises à jour d’Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
 La compatibilité de Skype Entreprise avec Microsoft 365 ou Office 365 et votre environnement local dépend de la contrainte système requise pour votre déploiement :
@@ -36,9 +36,9 @@ La compatibilité de Skype Entreprise avec Microsoft 365 ou Office 365 et votre 
 
 - Pour les déploiements locaux de Skype Entreprise Server, suivez la réglementation système requise pour votre version de Skype Entreprise :
 
-  - [Conditions requises pour votre environnement Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Conditions requises pour votre environnement Skype Entreprise](./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)
 
-  - [Système requis pour Lync Server 2013](https://technet.microsoft.com/library/jj205115(v=ocs.15).aspx)
+  - [Système requis pour Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-system-requirements)
 
 ## <a name="skype-for-business-2016-client-updates"></a>Mises à jour du client Skype Entreprise 2016
 - [Dernières mises à jour pour Skype Entreprise 2016](https://support.microsoft.com/help/3123065/how-to-obtain-the-latest-update-for-skype-for-business-2016)
@@ -49,7 +49,7 @@ La compatibilité de Skype Entreprise avec Microsoft 365 ou Office 365 et votre 
 |Mise à jour pour Skype Entreprise 2016 |[KB 4484133](https://support.microsoft.com/kb/4484133) | Décembre 2019|
 |Mise à jour pour Skype Entreprise 2016 |[KB 4484102](https://support.microsoft.com/kb/4484102) | Octobre 2019|
 |Mise à jour pour Skype Entreprise 2016 |[KB 4475577](https://support.microsoft.com/kb/4475577) | Septembre 2019|
-|Mise à jour pour Skype Entreprise 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | Août 2019|
+|Mise à jour pour Skype Entreprise 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | Août 2019|
 |Mise à jour pour Skype Entreprise 2016 |[KB 4475545](https://support.microsoft.com/kb/4475545) | Juillet 2019|
 |Mise à jour pour Skype Entreprise 2016 |[KB 4464576](https://support.microsoft.com/kb/4464576) | Juin 2019|
 |Mise à jour pour Skype Entreprise 2016 |[KB 4464532](https://support.microsoft.com/kb/4464532) | Mai 2019|
@@ -234,7 +234,7 @@ Nom du package|Numéro KB|Date de publication|
 | Mise à jour cumulative pour Lync Phone Edition pour téléphone Aastra 6721ip et Aastra 6725ip                             | [KB 4019527](https://support.microsoft.com/help/4019527) | Avril 2017   |
 | Mise à jour cumulative pour Microsoft Lync Phone Edition pour téléphones HP 4110 et HP 4120                              | [KB 4019528](https://support.microsoft.com/help/4019528) | Avril 2017   |
 | Mise à jour cumulative de Microsoft Lync Phone Edition pour téléphones Polycom CX500, Polycom CX600 et Polycom CX3000 | [KB 4019529](https://support.microsoft.com/help/4019529) | Avril 2017   |
-| Mise à jour cumulative pour Lync Phone Edition pour téléphones Aastra 6721ip et Aastra 6725ip                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | Mai 2015     |
+| Mise à jour cumulative pour Lync Phone Edition pour les téléphones Aastra 6721ip et Aastra 6725ip                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | Mai 2015     |
 | Mise à jour cumulative pour Lync Phone Edition pour téléphones HP 4110 et HP 4120                                        | [KB 3050587](https://support.microsoft.com/kb/3050587)   | Mai 2015     |
 | Mise à jour cumulative de Lync Phone Edition pour Polycom CX500, Polycom CX600 et Polycom CX3000                      | [KB 3050588](https://support.microsoft.com/kb/3050588)   | Mai 2015     |
 | Mise à jour cumulative de Lync Phone Edition pour Polycom CX700 et LG-Nortel téléphone IP 8540                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | Mai 2015     |

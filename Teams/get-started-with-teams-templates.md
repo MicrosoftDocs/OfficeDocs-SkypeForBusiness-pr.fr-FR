@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 898adc4b67124fb6244afde2ecc156996e5a38c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772195"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120705"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Utiliser les modèles Teams à l’aide de Microsoft Graph
 
@@ -51,7 +51,7 @@ La plupart des propriétés d’une équipe sont incluses et prise en charge par
 | Description de l’équipe | Paramètres du canal |
 | Visibilité de l’équipe (publique ou privée) | Connecteurs |
 | Paramètres de l’équipe (par exemple, membre, invité, @mentions) | Fichiers et contenu |
-| Canal favoris automatique | |
+| Canal de favoris automatique | |
 | Application installée | |
 | Onglets épinglés | |
 
@@ -66,44 +66,44 @@ Une fois le type de modèle de base défini, vous pouvez étendre ou remplacer c
 
 Par défaut, le modèle de base est **standard,** qui ne contient pas d’autres applications propriétaires ou propriétés spéciales. Vous trouverez ci-dessous la liste actuelle des types de modèles de base disponibles.
 
-| Type de modèle de base | baseTemplateId | Propriétés de ce modèle de base |
+| Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Aucune application et propriété supplémentaire |
-| Éducation -<br>Équipe de classe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>Bloc-notes OneNote pour la classe (épinglé à **l’onglet** Général) </li><li>Application Devoirs (épinglée à **l’onglet** Général)</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie **sur HiddenMembership** (ne peut pas être masquée)</li></ul> |
-| Éducation -<br>Équipe de membres du personnel enseignant | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>Carnet de notes OneNote du personnel enseignant (épinglé à **l’onglet** Général)</li></ul> |
-|Éducation -<br>Équipe PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>Bloc-notes PLC OneNote (épinglé à **l’onglet** Général)</ul></li>|
-| Vente au détail -<br>Magasin | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canaux :<ul><li>Transfert des shifts</li><li>Formation</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations des membres<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul> |
-| Vente au détail -<br>Collaboration avec les responsables | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux :<ul><li>Formation</li><li>Opérations</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur Privé</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul>|
-| Soins de santé -<br>Desso |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canaux : <ul><li>Annonces\*</li><li>Bldles\*</li><li>Arrondit</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux favoris automatiquement |
-|Soins de santé -<br>Hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Adess</li><li>Ressources humaines</li></li><li>Desse</li></ul>\*Canal avec favoris automatiques|
+| Éducation -<br>Équipe de classe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>Bloc-notes OneNote pour la classe (épinglé à **l’onglet** Général) </li><li>Application Devoirs (épinglée à **l’onglet** Général)</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie **sur HiddenMembership** (ne peut pas être masquée)</li></ul> |
+| Éducation -<br>Équipe de membres du personnel enseignant | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>Carnet de notes OneNote du personnel enseignant (épinglé à **l’onglet** Général)</li></ul> |
+|Éducation -<br>Équipe PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>Bloc-notes PLC OneNote (épinglé à **l’onglet** Général)</ul></li>|
+| Commerce -<br>Magasin | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canaux :<ul><li>Transfert de shift</li><li>Apprentissage</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul> |
+| Commerce -<br>Collaboration avec les responsables | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux :<ul><li>Apprentissage</li><li>Opérations</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur Privé</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul>|
+| Soins de santé -<br>Desso |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canaux : <ul><li>Annonces\*</li><li>Blotti\*</li><li>Rondes</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux ajoutés automatiquement aux favoris |
+|Soins de santé -<br>Hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Consignataires</li><li>Ressources humaines</li></li><li>Pharmacie</li></ul>\*Canal avec favoris automatiques|
 |||
 
 
 Utilisez les modèles suivants pour créer des équipes à la fois dans le client Teams et dans Microsoft Graph.
 
 
-| Type de modèle de base | baseTemplateId | Propriétés de ce modèle de base |
+| Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Adopter Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Coin Champions</li> <li>Formulaires d’équipe</li></ul> Applications : <ul><li>Wiki</li>  <li>Calendrier</li> |
-| Gérer un projet |`com.microsoft.teams.template.`<br>`ManageAProject`| Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Applications :<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Gérer un événement|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Budget</li> <li>Contenu</li><li>Logistique</li> <li>Planification</li> <li> Marketing et relations publiques</li></ul> Applications :<ul><li>Wiki</li><li>Site web</li> <li>YouTube</li> <li>Planificateur</li> <li>OneNote</li></ul> |
-|Intégrer des employés|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Conversation employé</li> <li>Formation</li></ul>Applications :<ul><li>Wiki</li><li>Communautés</li></ul>|
-|Organiser le service d’aide| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Canaux :<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Applications :<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Collaborer sur les soins des patients| `healthcareWard `| Canaux :<ul><li>Général</li><li>Annonces</li><li>Bldles</li><li>Arrondit</li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li>|
-| Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externe</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li></ul>|
-|Collaborer au sein d’une banque| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Canaux : <ul><li>Général<li>Annonces</li><li>Bldles</li><li>Réunions avec les clients</li><li>Desso</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Kudos</li><li>Divertissements</li><li>Conformité</li></ul>|
-|Coordonner la réponse à un incident| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
-|Hôpital| `healthcareHospita`l |Canaux : <ul><li>Général<li>Annonces</li><li>Conformité</li><li>Adess</li><li>Ressources humaines</li><li>Desse</li></ul> Applications : <ul><li>Wiki</li></ul>|
-|Organiser un magasin| `retailStore` |Canaux : <ul><li>Général<li>Transfert des shifts</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li></ul>|
-|Qualité et sécurité |`com.microsoft.teams.`<br>`template.QualitySafety`|Canaux : <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Sécurité</li><li>Formation</li><li>Maintenance</li><li>Divertissements</li></ul> Applications : <ul><li>Wiki</li></ul>|
-|Vente au détail - Collaboration avec les responsables| `retailManagerCollaboration` |Canaux : <ul><li>Général<li>Opérations</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li></ul>|
+| Adopter Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Coin Champions</li> <li>Formulaires d’équipe</li></ul> Applications : <ul><li>Wiki</li>  <li>Calendrier</li> |
+| Gérer un projet |`com.microsoft.teams.template.`<br>`ManageAProject`| Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Ressources</li> <li>Planification</li></ul> Applications :<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gérer un événement|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Budget</li> <li>Contenu</li><li>Logistique</li> <li>Planification</li> <li> Marketing et relations publiques</li></ul> Applications :<ul><li>Wiki</li><li>Site web</li> <li>YouTube</li> <li>Planificateur</li> <li>OneNote</li></ul> |
+|Intégrer des employés|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Conversation employé</li> <li>Formation</li></ul>Applications :<ul><li>Wiki</li><li>Communautés</li></ul>|
+|Organiser le service d’aide| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Canaux :<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Applications :<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Collaborer sur les soins aux patients| `healthcareWard `| Canaux :<ul><li>Général</li><li>Annonces</li><li>Blotti</li><li>Rondes</li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li>|
+| Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externes</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li></ul>|
+|Collaborer au sein d’une banque| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Canaux : <ul><li>Général<li>Annonces</li><li>Blotti</li><li>Réunions avec les clients</li><li>Desso</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Kudos</li><li>Amusant</li><li>Conformité</li></ul>|
+|Coordonner la réponse à un incident| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
+|Hôpital| `healthcareHospita`l |Canaux : <ul><li>Général<li>Annonces</li><li>Conformité</li><li>Consignataires</li><li>Ressources humaines</li><li>Pharmacie</li></ul> Applications : <ul><li>Wiki</li></ul>|
+|Organiser un magasin| `retailStore` |Canaux : <ul><li>Général<li>Transfert de shift</li><li>Apprentissage</li></ul> Applications : <ul><li>Wiki</li></ul>|
+|Qualité et sécurité |`com.microsoft.teams.`<br>`template.QualitySafety`|Canaux : <ul><li>Général<li>Annonces</li><li>Ligne 1</li><li>Ligne 2</li><li>Ligne 3</li><li>Sécurité</li><li>Formation</li><li>Maintenance</li><li>Amusant</li></ul> Applications : <ul><li>Wiki</li></ul>|
+|Vente au détail : collaboration entre responsables| `retailManagerCollaboration` |Canaux : <ul><li>Général<li>Opérations</li><li>Apprentissage</li></ul> Applications : <ul><li>Wiki</li></ul>|
 ||||
 
-Pour [plus d’informations, voir](get-started-with-teams-templates-in-the-admin-console.md) La mise en place des modèles Teams dans le Centre d’administration.
+Pour [plus d’informations, voir](get-started-with-teams-templates-in-the-admin-console.md) Commencer à utiliser les modèles Teams dans le Centre d’administration.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Commencer à utiliser les modèles Teams dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
-- [Créer une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en prévisualisation)
-- [Nouvelle équipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [Créer une équipe](/graph/api/team-post?view=graph-rest-beta) (en prévisualisation)
+- [Nouvelle équipe](/powershell/module/teams/New-Team?view=teams-ps)
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)

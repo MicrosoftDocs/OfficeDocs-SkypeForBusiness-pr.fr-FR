@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification de votre topologie de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: dc7c62d45a2ebd84f38cc67ce996ba0ac72aa794
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: acf1fecc4ab7c3ea19ca9b65b9ff2ffa2a1e93d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814094"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121582"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planifier votre topologie de conférence pour Skype Entreprise Server
  
@@ -37,7 +37,7 @@ Pour plus d’informations sur la configuration matérielle et logicielle requis
   
 ## <a name="supported-topologies"></a>Topologies prises en charge
 
-Dans Skype Entreprise Server, le serveur exécutant les services de conférence est toujours coqueté avec les serveurs frontaux ou standard. Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Vous pouvez spécifier s’il faut déployer la conférence web, audio et vidéo (A/V) et les conférences téléphoniques à l’aide du Générateur de topologie. Vous pouvez également utiliser le Générateur de topologie pour ajouter des conférences à un déploiement existant. Pour plus d’informations sur les principes de base de la topologie et les scénarios de c collocation, voir [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
+Dans Skype Entreprise Server, le serveur exécutant les services de conférence est toujours coqueté avec les serveurs frontaux ou standard. Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Vous pouvez spécifier s’il faut déployer la conférence web, audio et vidéo (A/V) et les conférences téléphoniques à l’aide du Générateur de topologie. Vous pouvez également utiliser le Générateur de topologie pour ajouter des conférences à un déploiement existant. Pour plus d’informations sur les bases de la topologie et les scénarios de cocation, voir [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 Vous pouvez déployer la conférence dans les topologies et configurations suivantes :
   
@@ -53,7 +53,7 @@ Si vous déployez des conférences téléphoniques, vous devez prendre en compte
   
 - La conférence téléphonique nécessite un serveur de médiation pour traduire la signalisation (et les médias dans certaines configurations) entre Skype Entreprise Server et la passerelle PSTN, et une passerelle PSTN pour traduire la signalisation et le média entre le serveur de médiation et la passerelle PSTN.
     
-   Avant de pouvoir configurer la conférence téléphonique, vous devez déployer Voix Entreprise ou un serveur de médiation et au moins l’une des configurations suivantes :
+   Avant de pouvoir configurer la conférence téléphonique, vous devez déployer un serveur Voix Entreprise ou de médiation et au moins l’une des configurations suivantes :
     
   - Passerelle PSTN
     
@@ -63,7 +63,7 @@ Si vous déployez des conférences téléphoniques, vous devez prendre en compte
     
 - Vous pouvez déployer le service d’application, l’application d’attendant de conférence et l’application Annonce de conférence sur un site central, mais pas dans un site de succursale.
     
-- Vous devez déployer la conférence téléphonique dans chaque pool où vous déployez la conférence Skype Entreprise Server. Il n’est pas nécessaire d’affecter des numéros d’accès dans chaque pool, mais vous devez déployer la fonctionnalité de conférences téléphoniques dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer à une conférence Skype Entreprise Server dans un autre pool. 
+- Vous devez déployer la conférence téléphonique dans chaque pool où vous déployez la conférence Skype Entreprise Server. Vous n’avez pas besoin d’affecter des numéros d’accès dans chaque pool, mais vous devez déployer la fonctionnalité de conférence d’accès dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer à une conférence Skype Entreprise Server dans un autre pool. 
     
 Pour plus d’informations, voir [Plan for dial-in conferencing in Skype for Business Server](dial-in-conferencing.md).
   
@@ -76,7 +76,7 @@ La conférence web nécessite les services suivants :
 - Intégration à Office Web Apps Server/Office Online Server, qui est nécessaire pour partager des fichiers PowerPoint au cours d’une conférence.
     
 > [!NOTE]
-> La dernière itération d’Office Web Apps Server est nommée Office Online Server, qui est pris en charge par Skype Entreprise Server. Pour plus d’informations, reportez-vous à [la documentation Office Online Server.](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx) 
+> La dernière itération d’Office Web Apps Server est nommée Office Online Server, qui est pris en charge par Skype Entreprise Server. Pour plus d’informations, reportez-vous à [la documentation Office Online Server.](/officeonlineserver/office-online-server) 
   
 Skype Entreprise Server offre les méthodes suivantes pour configurer Office Web Apps Server/Office Online Server. En fonction de vos besoins, vous pouvez :
   
@@ -92,14 +92,14 @@ Skype Entreprise Server offre les méthodes suivantes pour configurer Office Web
     
 Pour plus d’informations, voir [Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server.](../../deploy/deploy-conferencing/office-web-app-server.md) 
   
-Quelle que soit la topologie que vous sélectionnez, il est essentiel que les ports de pare-feu corrects soient ouverts. Vous devez vous assurer que les noms DNS, les adresses IP et les ports ne sont pas bloqués par les pare-feu sur Office Web Apps Server/Office Online Server, l’équilibreur de charge ou Skype Entreprise Server.
+Quelle que soit la topologie sélectionnée, il est essentiel que les ports de pare-feu corrects soient ouverts. Vous devez vous assurer que les noms DNS, les adresses IP et les ports ne sont pas bloqués par les pare-feu sur Office Web Apps Server/Office Online Server, l’équilibreur de charge ou Skype Entreprise Server.
   
 > [!NOTE]
 > Une autre option permettant de fournir un accès externe à Office Web Apps Server/Office Online Server consiste à déployer le serveur dans le réseau de périmètre. Si vous le souhaitez, n’oubliez pas que le programme d’installation d’Office Web Apps Server/Office Online Server nécessite que l’ordinateur serveur soit membre de votre domaine Active Directory. À moins que votre stratégie réseau autorise les ordinateurs du réseau de périmètre à être membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server/Office Online Server dans le réseau de périmètre. À la place, vous devez installer Office Web Apps Server/Office Online Server dans le réseau interne et fournir un accès des utilisateurs externes via votre serveur proxy inverse. 
   
 ## <a name="topology-requirements-for-large-meetings"></a>Exigences en matière de topologie pour les grandes réunions
 
-Une grande réunion nécessite au moins un serveur frontal et un serveur principal. Toutefois, pour fournir une haute disponibilité, nous vous recommandons d’avoir un pool de deux serveurs frontux avec des serveurs principal en miroir, comme illustré dans le diagramme suivant :
+Une grande réunion nécessite au moins un serveur frontal et un serveur principal. Toutefois, pour fournir une haute disponibilité, nous recommandons un pool de deux serveurs frontux avec des serveurs frontux en miroir, comme illustré dans le diagramme suivant :
   
 **Topologie de grandes réunions**
 
@@ -109,16 +109,14 @@ L’utilisateur qui héberge les grandes réunions doit avoir son compte d’uti
   
 La gestion d’un pool avec deux serveurs frontaux nécessite une attention particulière. Pour plus d’informations, voir [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) et [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
-En outre, si vous souhaitez éventuellement fournir la sauvegarde et leover de récupération d’urgence pour le pool utilisé pour les grandes réunions, vous pouvez le jumeler avec un pool dédié de même configurer dans un autre centre de données. Pour plus d’informations, voir [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+En outre, si vous souhaitez éventuellement fournir la sauvegarde et leover de récupération d’urgence pour le pool utilisé pour les grandes réunions, vous pouvez le jumeler avec un pool dédié de même configurer dans un autre centre de données. Pour plus d’informations, voir [Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 Autres éléments pour la topologie :
   
 - Un partage de fichiers est requis pour le stockage du contenu de la réunion et, si le serveur d’archivage est déployé et activé, pour le stockage des fichiers d’archivage. Le partage de fichiers peut être dédié au pool ou peut être le même que celui utilisé par un autre pool du site dans lequel le pool est déployé. Pour plus d’informations sur la configuration du partage de fichiers, voir [Create a file share in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md).
     
-- Un serveur Office Web Apps Server/Office Online Server est nécessaire pour activer la fonctionnalité de présentation PowerPoint dans les grandes réunions. Office Web Apps Server/Office Online Server peut être dédié au pool de grandes réunions ou il peut s’agit du même serveur Office Web Apps Server/Office Online Server que celui utilisé par d’autres pools sur le site dans lequel le pool dédié est déployé. Pour plus d’informations, voir [Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server.](../../deploy/deploy-conferencing/office-web-app-server.md) 
+- Un serveur Office Web Apps Server/Office Online Server est requis pour activer la fonctionnalité de présentation PowerPoint dans les grandes réunions. Office Web Apps Server/Office Online Server peut être dédié au pool de grandes réunions ou il peut s’agit du même serveur Office Web Apps Server/Office Online Server que celui utilisé par d’autres pools sur le site dans lequel le pool dédié est déployé. Pour plus d’informations, voir [Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server.](../../deploy/deploy-conferencing/office-web-app-server.md) 
     
 - L’équilibrage de charge des serveurs frontux nécessite l’équilibrage de la charge matérielle pour le trafic HTTP (tel que le téléchargement de contenu de réunion). L’équilibrage de charge DNS est recommandé pour le trafic SIP. Pour plus [d’informations, voir Les exigences d’équilibrage de charge pour Skype Entreprise.](../../plan-your-deployment/network-requirements/load-balancing.md) 
     
 - Si vous souhaitez utiliser le serveur de surveillance pour le pool dédié aux grandes réunions, nous vous recommandons d’utiliser le serveur de surveillance et sa base de données qui sont partagés entre tous les pools de serveurs frontux dans votre déploiement Skype Entreprise Server. Pour plus d’informations, voir [Planifier la surveillance dans Skype Entreprise Server.](../../plan-your-deployment/monitoring.md)
-    
-

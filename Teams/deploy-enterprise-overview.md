@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b751ccebfd553f59b6144ea6b6f28db515e9c1d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395412"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121412"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Présentation du déploiement de Teams en entreprise
 
@@ -75,7 +75,7 @@ Pour consulter un exemple de la manière dont le Planificateur de réseau peut p
 Le conseiller pour Teams est une solution dans Teams qui réunit les équipes, les canaux, le partage de fichiers et le Planificateur, pour créer un projet de déploiement dans votre organisation. Le conseiller Teams crée un plan de projet spécifique à la charge de travail sélectionnée (conversation, équipes et canaux, par exemple). Ce plan inclut les tâches recommandées à effectuer lors de votre déploiement. Chaque tâche contient des instructions, des suggestions et des liens vers des articles pertinents pour vous guider tout au long du processus. Vous pouvez facilement affecter des tâches à une ou plusieurs personnes, puis spécifier des dates de début et de fin de chaque tâche.
 
 > [!TIP]
-> Découvrez comment utiliser le Conseiller pour Teams pour vous aider à planifier votre déploiement Teams en complétant le module[Déployer à l’aide du Conseiller pour Teams](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) sur Microsoft Learn.
+> Découvrez comment utiliser le Conseiller pour Teams pour vous aider à planifier votre déploiement Teams en complétant le module[Déployer à l’aide du Conseiller pour Teams](/learn/modules/m365-teams-rollout-using-advisor/) sur Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Accéder au Conseiller pour Teams](https://admin.teams.microsoft.com/teams-deployment)

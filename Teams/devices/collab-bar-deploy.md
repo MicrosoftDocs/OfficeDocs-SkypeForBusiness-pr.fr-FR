@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles Microsoft Teams sur Android.
-ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875004"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120796"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Déployer des salles Microsoft Teams sur Android
 
@@ -64,7 +64,7 @@ Avant de déployer des salles Teams, vous devez décider si elles utiliseront de
 
 Si vous décidez de configurer un compte de ressource Microsoft 365, vous devez acheter une licence de salle de réunion pour cette salle. La licence Salle de réunion inclut une boîte aux lettres de ressource qui permet aux membres de votre organisation de réserver la salle de réunion via Outlook ou Teams. La licence permet également aux participants de la réunion de partager des vidéos, des audioconférences et des écrans.
 
-Si vous devez recevoir ou appeler depuis ou vers un numéro de téléphone externe, vous devrez peut-être bénéficier d’un plan d’appels ou d’une licence de module [add-on](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)Microsoft 365 Business Voice. Si vous avez activé le routage direct dans votre organisation, vous n’avez besoin que de la référence SKU de salle de réunion.
+Si vous devez recevoir ou appeler depuis ou vers un numéro de téléphone externe, vous devrez peut-être bénéficier d’un plan d’appels ou d’une licence de module [add-on](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)Microsoft 365 Business Voice. Si vous avez activé le routage direct dans votre organisation, vous n’avez besoin que de la référence SKU de salle de réunion.
 
 Lorsque vous créez un compte de ressource, vous pouvez choisir d’autoriser ou non le compte à accepter ou refuser automatiquement les demandes de réunion, d’autoriser les réunions récurrentes, de spécifier à l’avance les informations sur la ressource, etc.
 
@@ -114,7 +114,7 @@ Ensuite, vous devez créer votre plan pour remettre les appareils et leurs péri
 
 Une fois que vous avez déployé les salles Teams, vous devez les tester. Connectez-vous aux salles Teams et vérifiez que les fonctionnalités attendues fonctionnent. Nous vous recommandons vivement de vérifier qu’elles s’affichent dans la section **Barres de collaboration** sous l’onglet Appareils du Centre d’administration Microsoft Teams.  Il est également important de tester plusieurs appels et réunions afin de vérifier la qualité et les performances.
 
-Dans le cadre du déploiement général de Microsoft Teams, nous vous recommandons de configurer la création de fichiers pour le tableau de bord de qualité des appels, de surveiller les tendances de qualité et de vous impliquer dans le processus de révision de la qualité de l’expérience. Pour plus d’informations, voir le Guide de révision [de la qualité de l’expérience.](https://aka.ms/qerguide)
+Dans le cadre du déploiement général de Microsoft Teams, nous vous recommandons de configurer la création de fichiers pour le tableau de bord de qualité des appels, de surveiller les tendances de qualité et de vous impliquer dans le processus de révision de la qualité de l’expérience. Pour plus d’informations, voir le Guide de révision [de la qualité de l’expérience.](../quality-of-experience-review-guide.md)
 
 ### <a name="asset-management"></a>Gestion des biens
 

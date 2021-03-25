@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: bd4a813bf8b46c9c8dade72318cb003fb97f2a96
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 073019a46e2934f78ec0f20b8a7cb8e04c01bab9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807454"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121017"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
 
@@ -68,7 +68,7 @@ La liste suivante décrit les champs de la page.
 - **Autoriser plusieurs flux vidéo** Si vous avez activé la vidéo en **audio/vidéo,** activez cette case à cocher pour permettre aux utilisateurs d’organiser des conférences avec la vidéo de la vue Galerie. Lorsque cette case à cocher est sélectionnée, ce paramètre permet aux utilisateurs d’organiser des conférences qui envoient plusieurs flux vidéo. Lorsque cette case à cocher n’est pas sélectionnée, les utilisateurs peuvent uniquement organiser des conférences qui envoient un flux vidéo unique.
 
     > [!NOTE]
-    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à plusieurs** flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
+    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à** plusieurs flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
 
 - **Collaboration de données** Spécifiez si la conférence autorise ou non la collaboration de données. Les options sont **Aucune ou** Activer la collaboration **de données.**
 
@@ -96,7 +96,7 @@ La liste suivante décrit les champs de la page.
 
     Cliquez sur la flèche vers le haut ou vers le bas à côté de l’étiquette pour fermer ou ouvrir la section.
 
-- Sélectionnez **Activer le partage d’application** et de bureau pour permettre aux utilisateurs de partager des applications ou leur bureau tout en participant à une conférence ou à une session à deux participants. Sélectionnez **Désactiver le partage d’application** et de bureau pour empêcher les utilisateurs de partager des applications ou leur bureau lors de la participation à une conférence ou à une session à deux participants.
+- Sélectionnez **Activer le partage d’application** et de bureau pour permettre aux utilisateurs de partager des applications ou leur bureau tout en participant à une conférence ou à une session à deux participants. Sélectionnez **Désactiver le partage d’application** et de bureau pour empêcher les utilisateurs de partager des applications ou leur bureau lors d’une conférence ou d’une session à deux participants.
 
 - **Activer le transfert de fichiers d’égal à égal** Cochez cette case pour autoriser les transferts de fichiers de personne à personne (c’est-à-dire, les transferts de fichiers qui n’impliquent pas tous les participants) au cours d’une conférence ou d’une session à deux personnes.
 
@@ -105,8 +105,6 @@ La liste suivante décrit les champs de la page.
 - **Permettre aux participants de participer avec plusieurs flux vidéo** Cochez cette case pour autoriser les participants à recevoir la vidéo de la vue Galerie dans les conférences qui l’autorisent. Si cette option n’est pas sélectionnée, les participants ne peuvent recevoir qu’un seul flux vidéo indépendamment de ce que la conférence autorise.
 
     > [!NOTE]
-    > La **vidéo Autoriser plusieurs flux vidéo** détermine si une conférence autorise plusieurs flux vidéo.
+    > Le **flux autoriser plusieurs flux vidéo** détermine si une conférence autorise plusieurs flux vidéo.
 
-Pour plus d’informations sur les fonctionnalités de conférence, voir [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations sur les fonctionnalités de conférence, voir [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) dans la documentation des opérations.

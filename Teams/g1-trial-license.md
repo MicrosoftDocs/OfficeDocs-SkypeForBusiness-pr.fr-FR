@@ -15,27 +15,27 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bdfdfb180005913b650cee27c350cf7c3ad5a27
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f49adc03e8bb7481fa6cd682a2dcc401d783c0e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583221"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120735"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gérez la version d’évaluation d’Office 365 G1 pour le gouvernement américain 
 ==============================
 
-Depuis le 1er juillet 2020, la licence d’évaluation d’Office 365 E1 n’est plus disponible. Si vous avez besoin de fournir une licence à des utilisateurs pour Microsoft Teams, consultez la [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) afin d’obtenir la liste des abonnements payants avec Teams inclus. 
+Depuis le 1er juillet 2020, la licence d’évaluation d’Office 365 E1 n’est plus disponible. Si vous avez besoin de fournir une licence à des utilisateurs pour Microsoft Teams, consultez la [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description) afin d’obtenir la liste des abonnements payants avec Teams inclus. 
 
 Lisez les instructions dans cet article pour gérer vos licences d’évaluation Office 365 G1 existantes, y compris [la mise à niveau vers un abonnement payant](#upgrade-users-from-the-office-365-g1-trial-license). Pour en savoir plus, consultez les [Offres Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) et les [fonctionnalités de Microsoft Teams disponibles dans le cloud de la communauté du secteur public](plan-for-government-gcc.md).
 
-Ne manquez aucune de nos recommandations pour la [prise en charge des employés en télétravail avec Teams](support-remote-work-with-teams.md).
+Ne manquez aucune de nos recommandations pour la [prise en charge des employés en télétravail avec Teams](support-remote-work-with-teams.md).
 
 ## <a name="manage-the-g1-trial"></a>Gérer la version d'évaluation G1
 
-Une fois activée la version d’évaluation Office 365 G1, activez la licence pour les utilisations qui en ont besoin. Pour en savoir plus sur ce processus, lire la rubrique  [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md).
+Une fois activée la version d’évaluation Office 365 G1, activez la licence pour les utilisations qui en ont besoin. Pour plus d'informations, lire la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md).
 
-Une fois que vous avez activé la version d’évaluation G1 pour les utilisateurs qui en ont besoin, vous devez gérer ces utilisateurs de la même manière que ceux disposant d’une licence payante. Pour plus d’informations, consultez  [Gérer les paramètres de Teams pour votre organisation](enable-features-office-365.md).
+Une fois que vous avez activé la version d’évaluation G1 pour les utilisateurs qui en ont besoin, vous devez gérer ces utilisateurs de la même manière que ceux disposant d’une licence payante. Pour plus d’informations[Gérer les paramètres de Teams pour votre organisation](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>Mettre à jour les utilisateurs à partir de la licence d’évaluation Office 365 G1
 
@@ -54,9 +54,9 @@ Pour plus d’informations, consultez [Teams pour le gouvernement](expand-teams-
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>Supprimer une licence d’évaluation Office 365 G1
 
-  - Si vous souhaitez supprimer cette licence à l’aide de PowerShell, voir  [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
+  - Si vous souhaitez supprimer cette licence à l’aide PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
-  - Si vous souhaitez supprimer cette licence via le portail d’administration, consultez :  [Supprimer un utilisateur de votre organisation](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+  - Si vous souhaitez supprimer cette licence via le portail d’administration, consultez : [Supprimer un utilisateur de votre organisation](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>Voir aussi
 

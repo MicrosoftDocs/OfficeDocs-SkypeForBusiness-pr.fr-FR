@@ -15,18 +15,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c90ea2da91d8e5e12fe01565e0c929f73d1ff01
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6ba2b2724f1a8c58d2776e7aa7b55eb38bf69886
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814634"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121362"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Développer Microsoft Teams au sein de votre organisation
 
-Ces ressources s’appuient sur les conseils de déploiement standard de Teams et sont conçues pour vous aider à obtenir le meilleur de Teams pour des types d’organisations spécifiques. Si vous n’avez pas encore déployé Teams, consultez le chemin d’accès recommandé à Teams dans [Comment déployer Microsoft Teams.](../How-to-roll-out-teams.md)
+Ces ressources s’appuient sur les conseils de déploiement standard de Teams et sont conçues pour vous aider à obtenir le meilleur partir de Teams pour des types d’organisations spécifiques. Si vous n’avez pas encore déployé Teams, consultez le chemin d’accès recommandé à Teams dans [Comment déployer Microsoft Teams.](../deploy-overview.md)
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  [Shifts pour Teams](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![health-teams](../media/health-teams-small.svg)  | [Teams pour la santé publique](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams pour l’éducation](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
-|![small-business-teams](../media/small-business-teams-small.svg)  | [Teams pour les organismes de vente au détail](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams pour le secteur public](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |
+| ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  [Shifts pour Teams](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [Teams pour la santé publique](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams pour l’éducation](./teams-for-education-landing-page.md) 
+|![small-business-teams](../media/small-business-teams-small.svg)  | [Teams pour les organismes de vente au détail](./teams-for-retail-landing-page.md) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams pour le secteur public](./teams-for-government-landing-page.md) |               |               |

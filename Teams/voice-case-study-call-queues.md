@@ -16,12 +16,12 @@ f1.keywords:
 description: Étude de cas Voix Teams pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee08fa7bdeb1ded6bda384115a08048021cb67
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 0cb8029a8f4e979a76afe069ee9b22e7be897913
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918730"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121292"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Étude de cas Contoso : attendants automatiques et files d’attente d’appels
 
@@ -33,7 +33,7 @@ Selon le type de site, Contoso avait les besoins suivants :
 
 - Type de site A : systèmes de téléphonie hérités traditionnels 
 
-  Le type de site A est nécessaire pour conserver le même numéro de téléphone associé au numéro de téléphone que celui de ses propres automatiquement. Les départements clés pour chacun de ces sites ont leurs propres files d’attente d’appels qui sont acheminées vers les membres de l’équipe. Il y avait un mélange de sites qui utilisaient Phone System avec routage direct et Phone System avec des plans d’appels.  
+  Le type de site A est nécessaire pour conserver le même numéro de téléphone associé au numéro de téléphone que celui de ses propres automatiquement. Les départements clés pour chacun de ces sites ont leurs propres files d’attente d’appels qui sont acheminées vers les membres de l’équipe. Il y avait un mélange de sites qui utilisaient Phone System avec routage direct et Phone System avec les forfaits d’appels.  
 
 - Type de site B : skype entreprise Voix Entreprise 
 
@@ -68,9 +68,9 @@ Les étapes à suivre pour configurer un attendant automatique et une file d’a
 
 3. Créez le compte de ressource. Un responsable automatique ou une file d’attente d’appels est requis pour avoir un compte de ressource associé. 
 
-4. Affecter le système téléphonique ou un système téléphonique - Licence utilisateur virtuel au compte de ressource. Pour plus d’informations, [voir Microsoft 365 Phone System – Licence utilisateur virtuel.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)
+4. Affecter le système téléphonique ou un système téléphonique - Licence utilisateur virtuel au compte de ressource. Pour plus d’informations, [voir Microsoft 365 Phone System – Licence utilisateur virtuel.](./teams-add-on-licensing/virtual-user.md)
 
-5. Affectez un numéro de téléphone de service au compte de ressource à qui vous avez attribué des licences. 
+5. Affectez un numéro de téléphone de service au compte de ressource que vous avez affecté aux licences. 
 
 6. Créer une file d’attente ou un attendant automatique du système téléphonique 
 
@@ -92,10 +92,9 @@ Contoso a dû configurer le numéro de téléphone fourni par l’opérateur loc
 
 Contoso a dû porter le numéro de téléphone utilisé pour les Voix Entreprise automatiques Skype Entreprise vers Office 365 Phone System. Cela permettait d’attribuer le même numéro en tant que numéro de service à utiliser en tant que moyen de service automatique. 
 
-- Pour transférer le numéro de téléphone, Contoso a suivi les instructions de transfert de numéros de téléphone vers [Teams](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) et a obtenu des instructions supplémentaires sur la gestion des numéros de téléphone [pour votre organisation.](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+- Pour transférer le numéro de téléphone, Contoso a suivi les instructions de transfert de numéros de téléphone vers [Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) et a obtenu des instructions supplémentaires sur la gestion des numéros de téléphone [pour votre organisation.](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 - Pour configurer un attendant automatique cloud, Contoso a suivi les étapes décrites dans [La configuration d’un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
 
--  Pour configurer une file d’attente d’appels cloud, Contoso a suivi les étapes décrites dans créer une file d’attente [d’appels cloud.](create-a-phone-system-call-queue.md)  
+-  Pour configurer une file d’attente d’appels dans le cloud, Contoso a suivi les étapes décrites dans créer une file d’attente [d’appels cloud.](create-a-phone-system-call-queue.md)  
 
- 

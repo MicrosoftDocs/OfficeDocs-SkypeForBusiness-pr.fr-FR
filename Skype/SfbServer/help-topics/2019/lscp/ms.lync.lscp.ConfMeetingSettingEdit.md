@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres s’appliquent uniquement aux réunions planifiées. Elles ne s’appliquent pas aux réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: 87d07100e7f9411f139711de3302ce384e71cb01
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d37b1894531a62f605f083cbe1e2f36953f2ff2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824814"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121128"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une nouvelle ou modification d’une configuration existante
 
@@ -34,7 +34,7 @@ La liste suivante décrit les champs de la page.
 
 - **Nom** Les configurations de réunion sont nommées par défaut et le nom ne peut pas être modifié.
 
-- **Les appelants PSTN contournent la salle d’entrée** Cochez cette case pour admettre automatiquement les utilisateurs qui appellent la conférence sur une ligne téléphonique du réseau téléphonique commuté (PSTN). Cochez cette case pour router les appelants PSTN vers la salle d’attente de conférence, où ils sont en attente jusqu’à ce qu’un présentateur de conférence leur donne accès à la conférence.
+- **Les appelants PSTN contournent la salle d’entrée** Cochez cette case pour admettre automatiquement les utilisateurs qui appellent la conférence sur une ligne téléphonique du réseau téléphonique commuté (PSTN). Cochez cette case pour router les appelants PSTN vers la salle d’attente de la conférence, où ils sont en attente jusqu’à ce qu’un présentateur de conférence leur donne accès à la conférence.
 
 - **Désigné comme présentateur** Sélectionnez la catégorie des utilisateurs (en plus de l’organisateur de la réunion) qui sont automatiquement désignés comme présentateurs lorsqu’ils rejoignent une conférence. Quel que soit ce paramètre, les présentateurs peuvent être explicitement désignés comme présentateurs lorsque la conférence est programmée, ou ils peuvent être promus explicitement en tant que présentateurs au cours de la conférence. Les options disponibles sont les suivantes :
 
@@ -52,10 +52,8 @@ La liste suivante décrit les champs de la page.
 
 - **URL de l’aide** Tapez l’URL d’un site web où les utilisateurs peuvent obtenir de l’aide pour participer à la conférence.
 
-- **URL de texte légal** Tapez l’URL d’un site web qui dispose des informations légales et des clauses d’exclusion de responsabilité pour la conférence.
+- **URL de texte légal** Tapez l’URL d’un site web qui possède les informations légales et les clauses d’exclusion de responsabilité pour la conférence.
 
 - **Texte de pied de groupe personnalisé** Tapez le texte à utiliser sur les invitations aux conférences personnalisées.
 
-Pour plus d’informations sur l’utilisation des configurations de réunion, voir [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) dans la documentation des opérations. Pour plus de détails sur la définition de configurations de réunion pour de grandes réunions, voir [Setting Up Support for Large Meetings](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) dans la documentation de planification.
-
-
+Pour plus d’informations sur l’utilisation des configurations de réunion, voir [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) dans la documentation des opérations. Pour plus de détails sur la définition de configurations de réunion pour de grandes réunions, voir [Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings) dans la documentation de planification.

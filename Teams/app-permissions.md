@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ae050080814afe12ce2ba791c6b68058d5e4bc58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874704"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120856"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -37,7 +37,7 @@ Les applications Microsoft Teams permettent d’agréger une ou plusieurs foncti
 
 Les applications sont y consentées par les utilisateurs et gérées par les professionnels de l’it dans une perspective de stratégie. Toutefois, pour la plupart, les autorisations et le profil de risque d’une application sont définis par les autorisations et les profils de risque des fonctionnalités qu’elle contient. Par conséquent, cet article se concentre sur les autorisations et les considérations au niveau de la fonctionnalité.
 
-Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas dans la documentation des développeurs [Microsoft Teams](https://aka.ms/teamsdevdocs) ou dans les autorisations de [Microsoft Graph.](https://developer.microsoft.com/graph/docs/concepts/permissions_reference) Il s’agit simplement d’une a bref descriptif des objectifs de cet article.
+Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas dans la documentation des développeurs [Microsoft Teams](/microsoftteams/platform/overview) ou dans les autorisations de [Microsoft Graph.](/graph/permissions-reference) Il s’agit simplement d’une a bref descriptif des objectifs de cet article.
 
 
 | Titre   | Description    |
@@ -45,7 +45,7 @@ Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLY
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez les tableaux ci-dessous comme guide pour comprendre les autorisations que les applications que vous examinez demandent.</li></ul> |
 | ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service lui-même pour décider si vous voulez autoriser ou non l’accès à l’application au sein de votre organisation. Par exemple, les robots envoient et reçoivent des messages des utilisateurs et, à l’exception des robots personnalisés d’entreprise, ils se trouvent en dehors de la limite de conformité. Par conséquent, toute application qui inclut un bot requiert ces autorisations et possède au minimum ce profil de risque. </li></ul>|
 
-Voir aussi [Demander des autorisations d’appareil pour votre onglet Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+Voir aussi [Demander des autorisations d’appareil pour votre onglet Microsoft Teams.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>Considérations et autorisations pour les applications globales
 
@@ -61,9 +61,9 @@ Aucun
 
 - Une application doit divulguer les données qu’elle utilise et ce à quoi elles sont utilisées dans ses liens d’utilisation et de politique de confidentialité.
 
-- [Le consentement spécifique à une](resource-specific-consent.md) ressource fournit un ensemble d’autorisations que les applications peuvent demander, qui apparaît sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir [référence sur les autorisations graphiques.](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)
+- [Le consentement spécifique à une](resource-specific-consent.md) ressource fournit un ensemble d’autorisations que les applications peuvent demander, qui apparaît sur l’écran d’installation de l’application. Pour en savoir plus sur les autorisations de consentement spécifiques aux ressources, voir [référence sur les autorisations graphiques.](/graph/permissions-reference#teams-resource-specific-consent-permissions)
 
-- Les applications peuvent également avoir besoin d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Une fois qu’une application est installée, l’application peut demander des autorisations graphe via une invite de consentement. Pour en savoir plus, voir Comprendre les expériences de consentement des [applications Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) Vous pouvez configurer les autorisations et le consentement de l’API dans le portail Azure. Pour en savoir plus, voir [Azure Active Directory Consent Framework.](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)
+- Les applications peuvent également avoir besoin d’autorisations autres que des autorisations de consentement spécifiques aux ressources. Une fois qu’une application est installée, l’application peut demander des autorisations graphe via une invite de consentement. Pour en savoir plus, voir Comprendre les expériences de consentement des [applications Azure AD.](/azure/active-directory/develop/application-consent-experience) Vous pouvez configurer les autorisations et le consentement de l’API dans le portail Azure. Pour en savoir plus, voir [Azure Active Directory Consent Framework.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>Bots et extensions de messagerie
 
@@ -77,7 +77,7 @@ Aucun
 
 ### <a name="optional-permissions"></a>Autorisations facultatives
 
-- IDENTITY. Lorsqu’il est utilisé dans un canal, les robots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [NOM D’UTILISATEUR PRINCIPAL], adresse e-mail) ; lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le bot peut accéder aux mêmes informations pour ces utilisateurs.
+- IDENTITY. Lorsqu’il est utilisé dans un canal, les robots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [NOM D’UTILISATEUR PRINCIPAL], adresse e-mail) ; lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le robot peut accéder aux mêmes informations pour ces utilisateurs.
 
 - POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au bot auparavant.
 
@@ -115,9 +115,9 @@ Aucun
 
 - En revanche, les extensions de messagerie voient les adresses IP des utilisateurs et les informations des références.
 
-- Les directives de l’application (et notre processus de révision AppSource) requièrent votre discrétion dans la publication de messages de conversation personnelle à l’adresse des utilisateurs (via l’autorisation POST_MESSAGE_TEAM) à des fins valides. En cas d’abus, les utilisateurs peuvent bloquer le robot, les administrateurs des clients peuvent bloquer l’application et Microsoft peut bloquer les bots de façon centralisée si nécessaire.
+- Les directives de l’application (et notre processus de révision AppSource) requièrent la discrétion de publier des messages de conversation personnelle à l’adresse des utilisateurs (via l’autorisation POST_MESSAGE_TEAM) à des fins valides. En cas d’abus, les utilisateurs peuvent bloquer le robot, les administrateurs des clients peuvent bloquer l’application et Microsoft peut bloquer les bots de façon centralisée si nécessaire.
 
-<sup>1 Certains</sup> robots envoient uniquement des messages (POST_MESSAGE_USER). Ils sont appelés « bots de notification uniquement », mais ce terme ne fait pas référence à ce qu’un robot est autorisé ou non à faire, cela signifie que le robot ne souhaite pas exposer une expérience de conversation. Teams utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activée ; le robot n’est pas limité à ce qu’il est autorisé à faire par rapport aux bots qui exposent une expérience de conversation.
+<sup>1 Certains</sup> robots envoient uniquement des messages (POST_MESSAGE_USER). Ces robots sont appelés « notification uniquement », mais ce terme ne fait pas référence à ce qu’un robot est autorisé ou non à faire, cela signifie que le robot ne souhaite pas exposer une expérience de conversation. Teams utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activée ; le robot n’est pas limité à ce qu’il est autorisé à faire par rapport aux bots qui exposent une expérience de conversation.
 
 <sup>2</sup> Régi par la propriété booléen Prend en charge les valeurs booléens dans l’objet bot dans manifest.jsfichier pour l’application.
 
@@ -142,7 +142,7 @@ Aucun (actuellement)
 
 - Le profil de risque d’un onglet est presque identique à celui du site web en cours d’exécution dans un onglet de navigateur. 
 
-- Un onglet obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom d’utilisateur général et le nom d’utilisateur général de l’utilisateur actuel, l’ID d’objet Azure AD de l’utilisateur actuel, l’ID du groupe Microsoft 365 dans lequel il réside (s’il s’agit d’une équipe), l’ID de client et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour ma carte de ces ID et les informations d’un utilisateur, l’onglet doit le faire pour qu’il se connecte à Azure AD.
+- Un onglet obtient également le contexte dans lequel il est en cours d’exécution, y compris le nom d’utilisateur utilisateur final et le nom d’utilisateur général de l’utilisateur actuel, l’ID d’objet Azure AD de l’utilisateur actuel, l’ID du groupe Microsoft 365 dans lequel il réside (s’il s’agit d’une équipe), l’ID de client et les paramètres régionaux actuels de l’utilisateur. Toutefois, pour ma carte de ces ID et les informations d’un utilisateur, l’onglet doit le faire pour qu’il se connecte à Azure AD.
 
 ## <a name="connectors"></a>Connecteurs
 
@@ -158,7 +158,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs supportent des messages actionna
 
 ### <a name="considerations"></a>Considérations
 
-- Le système qui publie des messages connecteur ne sait pas vers qui ils publient ou qui les reçoit : aucune information sur le destinataire n’est divulguer. (Microsoft est le destinataire réel, pas le client ; Microsoft publie réellement sur le canal.)
+- Le système qui publie des messages connecteur ne sait pas vers qui il publie ou qui les reçoit : aucune information sur le destinataire n’est divulguer. (Microsoft est le destinataire réel, pas le client ; Microsoft publie réellement sur le canal.)
 
 - Aucune donnée ne quitte le réseau d’entreprise lorsque des messages de connecteur sont publiés sur un canal.
 

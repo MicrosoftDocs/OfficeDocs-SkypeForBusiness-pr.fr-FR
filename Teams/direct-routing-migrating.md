@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122198"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -44,8 +44,8 @@ Le tableau suivant indique l’état de fin d’un utilisateur approvisionnement
 |Licences|Skype Entreprise Online</br>Plan 2</br></br>MCOProfessional ou MCOSTANDARD</br></br></br>Système téléphonique (MCOEV)</br></br></br>Forfaits d’appels</br>Teams|Plan Skype Entreprise Online 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Plan Skype Entreprise Online 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Plan Skype Entreprise Online 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)</br></br>Teams|
 OnPremLineURI |S/O|Le numéro de téléphone doit être synchronisé à partir du service AD local. |Le numéro de téléphone peut être géré à partir d’un service Active Directory local ou d’Azure Active Directory.|Le numéro de téléphone peut être géré à partir d’un service Active Directory local ou d’Azure Active Directory. Toutefois, si l’organisation utilise Skype Entreprise en local, le numéro doit être synchronisé à partir du service Active Directory local.|
 |LineURI|Numéro de téléphone d’appel PSTN|Défini automatiquement à partir du paramètre OnPremLineURI|Défini automatiquement à partir du paramètre OnPremLineURI|Défini automatiquement à partir du paramètre OnPremLineURI|
-|EnterpriseVoiceEnabled|Vrai|True|True|Vrai|
-|HostedVoiceMail |Vrai|True|True|Vrai|
+|EnterpriseVoiceEnabled|Vrai|Vrai|Vrai|Vrai|
+|HostedVoiceMail |Vrai|Vrai|Vrai|Vrai|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
 |VoiceRoutingPolicy|A une valeur|A une valeur|A une valeur|S/O|
@@ -65,9 +65,9 @@ Pour plus d’informations, voir [Guide de la migration et de l’interopérabil
 
 Pour plus d'informations sur la migration à partir de forfaits d’appels, voir :
 
-- [Configurer des forfaits d'appels](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Utilisateur Set-CsOnlineVoice](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [Configurer des forfaits d'appels](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Utilisateur Set-CsOnlineVoice](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 Nous vous recommandons de supprimer les informations d’offre de licences précédemment configurées comme suit :
@@ -83,8 +83,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Pour plus d’informations sur la migration à partir du système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server, voir :
 
-- [Planification](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Déploiement](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Planification](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Déploiement](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Nous vous recommandons de supprimer les informations sur le routage des communications vocales précédemment configurées comme suit :
 
@@ -101,9 +101,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Pour plus d’informations sur la migration à partir du système téléphonique avec une connectivité PSTN en local via Cloud Connector, voir :
 
-- [Planification](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [Déploiement](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [Configuration utilisateur](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [Planification](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Déploiement](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [Configuration utilisateur](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Nous vous recommandons de supprimer les informations sur le routage des communications vocales précédemment configurées comme suit :
  
@@ -117,17 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

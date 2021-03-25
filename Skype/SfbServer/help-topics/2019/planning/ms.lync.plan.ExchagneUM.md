@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
-ms.openlocfilehash: 92008e39e60ca2ff1e90aceea0ed4cc96770fe7d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8d63ca3ec21fbdc7a1873be8e403e219094b8ca1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819864"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121662"
 ---
-# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Messagerie unifiée Exchange (outil de planification) dans Skype Entreprise 2015
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging (Planning Tool) in Skype for Business 2015
 
 > [!NOTE]
 > La messagerie unifiée Exchange comme précédemment connue n’est plus disponible dans Exchange 2019, mais vous pouvez toujours utiliser le système téléphonique pour enregistrer les messages vocaux, puis laisser l’enregistrement dans la boîte aux lettres Exchange d’un utilisateur. Pour [plus d’informations, voir Plan Cloud Voicemail service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
@@ -32,10 +32,8 @@ Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie u
 
 Pour obtenir des informations détaillées, voir :
 
-- [Planification de l’intégration de la messagerie unifiée Exchange](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [Planification de l’intégration de la messagerie unifiée Exchange](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
 
-- « Messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
+- « Messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- « Planification de la messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .
-
-
+- « Planification de la messagerie unifiée » sur [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .

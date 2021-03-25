@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Découvrez comment payer les crédits de communication (consommation PSTN) pour les services Skype Entreprise et consultez les plans pour conserver à vos utilisateurs un accès système téléphonique continu. '
-ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031060"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121492"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -43,7 +43,7 @@ Les crédits de communication sont un moyen pratique de payer des forfaits tél�
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
 
-- Appel sortant d’une réunion d’audioconférence pour ajouter quelqu’un d’autre partout dans le monde.
+- Sortant d’une réunion d’audioconférence pour ajouter une autre personne partout dans le monde.
 
 - Sortant d’une réunion d’audioconférence sur votre téléphone mobile avec l’application Skype Entreprise ou Microsoft Teams installée.
 
@@ -79,13 +79,12 @@ Vous pouvez consulter les plans et les tarifs en visitant l’un des liens suiva
 
 Vous pouvez également consulter des informations en vous inscrivant au Centre d’administration Microsoft 365 et en vous inscrivant à l’abonnement  >  **de facturation** Ajouter des  >  **abonnements.**
   
-Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez la gestion des licences du module logiciel microsoft [Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez la gestion des licences du module logiciel microsoft [Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 - [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
 
 - [Configurer des forfaits d’appels](set-up-calling-plans.md) [et des forfaits d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
-

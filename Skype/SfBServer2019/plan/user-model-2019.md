@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: Les rubriques de cette section vous aident à comprendre comment planifier et déployer Skype Entreprise Server afin de pouvoir planifier correctement le nombre d’utilisateurs de votre organisation et la charge de serveur générée par leurs activités.
-ms.openlocfilehash: 15f59d2052a4d73f6e1b1c09b10525b503958fea
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 521d79d3b0bf08d7c444a058f6ccdac530a3de89
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824028"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120515"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planification de la capacité pour Skype Entreprise Server 2019
 
@@ -34,7 +34,7 @@ Nous avons effectué nos tests de performances sur le matériel décrit dans le 
 |UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles Skype Entreprise Server 2019.  <br/> |
 |Mémoire  <br/> |32 gigaoctets (Go).  <br/> |
 |Disque  <br/> |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> Ou  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.  <br/> |
-|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.  <br/> |
+|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.  <br/> |
 
 ## <a name="summary-of-results"></a>Résumé des résultats
 
@@ -46,9 +46,9 @@ Le tableau suivant résume nos recommandations.
 |Conférence A/V  <br/> |Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant une taille maximale de conférence de 250 utilisateurs et une seule conférence de ce type s’exécutant à la fois.  <br/> **Remarque :** En outre, vous pouvez prendre en charge de grandes conférences de 250 à 1 000 utilisateurs en déployant un pool frontal distinct avec deux serveurs frontaux pour héberger les grandes conférences. Pour plus d’informations, [voir Plan for large meetings in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md). <br/> |
 |Un serveur Edge  <br/> |18 000 utilisateurs distants simultanés.  <br/> |
 |Un directeur  <br/> |18 000 utilisateurs distants simultanés.  <br/> |
-|Surveillance et archivage  <br/> |Les services frontaux de surveillance et d’archivage s’exécutent sur chaque serveur frontal, et non sur des rôles serveur distincts.  <br/> La surveillance et l’archivage requièrent chacun leurs propres magasins de bases de données. Si vous exécutez également Exchange 2013 ou une ultérieure, vous pouvez conserver vos données d’archivage dans Exchange, plutôt que dans une base de données SQL dédiée.  <br/> |
-|Un serveur de médiation  <br/> |Le serveur de médiation cocéré avec le serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante pour les utilisateurs du pool. Pour un serveur de médiation autonome, consultez la section « Serveur de médiation » plus loin dans cette rubrique.  <br/> |
-|Un serveur Standard Edition Server  <br/> |Si vous utilisez des serveurs Standard Edition pour héberger des utilisateurs, nous vous recommandons vivement d’utiliser toujours deux serveurs, associés à l’aide des recommandations de [Planning for High Availability and Disaster Recovery](https://technet.microsoft.com/library/15a72073-0336-45dd-b2a0-35e7522c6000.aspx). Chaque serveur de la paire peut héberger jusqu’à 2 500 utilisateurs, et si un serveur tombe en panne, le serveur restant peut prendre en charge 5 000 utilisateurs dans un scénario de failover.  <br/>  Si votre déploiement inclut une quantité importante de trafic audio ou vidéo, les performances du serveur peuvent être en baisse avec plus de 2 500 utilisateurs par serveur. Dans ce cas, vous devez envisager d’ajouter des serveurs Standard Edition ou de passer à Skype Entreprise Server Enterprise Edition. <br/> |
+|Surveillance et archivage  <br/> |Les services frontaux de surveillance et d’archivage s’exécutent sur chaque serveur frontal, et non sur des rôles serveur distincts.  <br/> La surveillance et l’archivage requièrent chacun leurs propres magasins de bases de données. Si vous exécutez également Exchange 2013 ou une SQL, vous pouvez conserver vos données d’archivage dans Exchange.  <br/> |
+|Un serveur de médiation  <br/> |Le serveur de médiation coqueté avec le serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante pour les utilisateurs du pool. Pour un serveur de médiation autonome, consultez la section « Serveur de médiation » plus loin dans cette rubrique.  <br/> |
+|Un serveur Standard Edition Server  <br/> |Si vous utilisez des serveurs Standard Edition pour héberger des utilisateurs, nous vous recommandons vivement d’utiliser toujours deux serveurs, associés à l’aide des recommandations de [Planning for High Availability and Disaster Recovery](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Chaque serveur de la paire peut héberger jusqu’à 2 500 utilisateurs, et si un serveur tombe en panne, le serveur restant peut prendre en charge 5 000 utilisateurs dans un scénario de failover.  <br/>  Si votre déploiement inclut une quantité importante de trafic audio ou vidéo, les performances du serveur peuvent être en baisse avec plus de 2 500 utilisateurs par serveur. Dans ce cas, vous devez envisager d’ajouter des serveurs Standard Edition ou de passer à Skype Entreprise Server Enterprise Edition. <br/> |
 
 ## <a name="front-end-server"></a>serveur frontal
 
@@ -57,7 +57,7 @@ Le tableau suivant résume nos recommandations.
 
 Dans un pool frontal, vous devez avoir un serveur frontal pour 6 660 utilisateurs tous les 660 utilisateurs de votre pool, en supposant que l’hyper-threading est activé sur tous les serveurs du pool, que vous utilisez SQL Server Express Edition et que le matériel serveur répond aux recommandations de la configuration serveur requise pour Skype Entreprise [Server 2019.](system-requirements.md) Le nombre maximal d’utilisateurs dans un pool frontal est de 106 000, en supposant à nouveau que l’hyper-threading est activé et que SQL Server Express Edition est utilisé sur tous les serveurs de votre pool. Si vous avez plus de 106 000 utilisateurs sur un site, vous pouvez déployer plusieurs pool frontal.
 
-Lorsque vous comptez le nombre d’utilisateurs dans un pool frontal, incluez tous les utilisateurs qui sont élevés sur les Survivable Branch Appliances et les serveurs Survivable Branch Servers des succursales associés à ce pool frontal.
+Lorsque vous comptez le nombre d’utilisateurs dans un pool frontal, incluez tous les utilisateurs qui sont situés sur les Survivable Branch Appliances et les serveurs Survivable Branch Servers des succursales associés à ce pool frontal.
 
 Lorsqu’un serveur actif est indisponible, ses connexions sont transférées automatiquement aux autres serveurs du pool. Dans un scénario où vous avez 30 000 utilisateurs et cinq serveurs frontaux, si un serveur n’est pas disponible, les connexions de 6 000 de vos utilisateurs doivent être transférées vers vos quatre autres serveurs restants. Ces quatre serveurs restants auront chacun 7 500 utilisateurs, ce qui est un nombre supérieur à celui recommandé.
 
@@ -70,7 +70,7 @@ Pour un pool frontal de 80 000 utilisateurs, 16 serveurs frontaux sont bons pour
 Le nombre d’utilisateurs pris en charge avec de bonnes performances par un pool frontal particulier peut différer de ces nombres pour les raisons suivantes :
 
 - Le matériel de vos serveurs frontaux ne répond pas aux recommandations.
-- Au lieu d’utiliser SQL Server Express Edition, vous utilisez une autre édition de SQL Server, vous pourrez peut-être héberger des utilisateurs supplémentaires dans chaque pool frontal.
+- Au lieu d’utiliser SQL Server Express Edition, vous utilisez une autre édition SQL Server Edition, vous pouvez peut-être héberger des utilisateurs supplémentaires dans chaque pool frontal.
 - L’utilisation de votre organisation est très différente des modèles utilisateur, par exemple, si vous avez beaucoup plus de trafic de conférence.
 
 Le tableau suivant indique la bande passante moyenne pour la messagerie instantanée et la présence, selon le modèle utilisateur, tel que défini dans les modèles utilisateur [dans Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md).
@@ -80,11 +80,11 @@ Le tableau suivant indique la bande passante moyenne pour la messagerie instanta
 |3-3,75 KBits/s  <br/> |13 Mbits/s  <br/> |
 
 > [!NOTE]
-> Pour améliorer les performances multimédias des fonctionnalités de conférence A/V et de serveur de médiation sur vos serveurs frontaux, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs frontaux. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir La mise à l’échelle côté réception (RSS) dans la [documentation de Windows Server 2012.](https://go.microsoft.com/fwlink/p/?LinkId=620365) Pour plus d’informations sur la façon d’activer RSS, vous devez vous référer à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias des fonctionnalités de conférence A/V et de serveur de médiation sur vos serveurs frontaux, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs frontaux. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir La mise à l’échelle côté réception (RSS) dans la [documentation de Windows Server 2012.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Pour plus d’informations sur la façon d’activer RSS, vous devez vous référer à la documentation de votre carte réseau.
 
 ## <a name="conferencing-maximums"></a>Nombre maximal de conférences
 
-Selon le modèle utilisateur, 5 % des utilisateurs d’un pool peuvent être en même temps dans une conférence, un pool de 106 000 utilisateurs peut avoir environ 5 300 utilisateurs simultanément dans des conférences. Ces conférences sont supposées être composées d’un mélange de plusieurs médias (messagerie instantanée uniquement, messagerie instantanée avec audio, audio/vidéo par exemple) et du nombre de participants. Il n’existe pas de limite difficile pour le nombre réel de conférences autorisées, et l’utilisation réelle détermine les performances réelles. Par exemple, si votre organisation compte beaucoup plus de conférences en mode mixte que ce qui est supposé dans le modèle utilisateur, vous devrez peut-être déployer plus de serveurs frontaux ou de serveurs de conférence A/V que les recommandations de cet article. Pour plus d’informations sur les hypothèses dans le modèle utilisateur, voir [Modèles utilisateur dans Skype Entreprise Server.](../../SfbServer/plan-your-deployment/capacity/user-models.md)
+Selon le modèle utilisateur, 5 % des utilisateurs d’un pool peuvent être en même temps dans une conférence, un pool de 106 000 utilisateurs peut avoir environ 5 300 utilisateurs simultanément dans les conférences. Ces conférences sont supposées être composées d’un mélange de plusieurs médias (messagerie instantanée uniquement, messagerie instantanée avec audio, audio/vidéo par exemple) et du nombre de participants. Il n’existe pas de limite difficile pour le nombre réel de conférences autorisées, et l’utilisation réelle détermine les performances réelles. Par exemple, si votre organisation compte beaucoup plus de conférences en mode mixte que ce qui est supposé dans le modèle utilisateur, vous devrez peut-être déployer plus de serveurs frontaux ou de serveurs de conférence A/V que les recommandations de cet article. Pour plus d’informations sur les hypothèses dans le modèle utilisateur, voir [Modèles utilisateur dans Skype Entreprise Server.](../../SfbServer/plan-your-deployment/capacity/user-models.md)
 
 La taille maximale de conférence prise en charge hébergée par un pool frontal Skype Entreprise Server normal qui héberge également des utilisateurs est de 250 participants. Pendant qu’une conférence de 250 utilisateurs est en cours, le pool prend également en charge d’autres conférences, de telle façon qu’un total de 5 % des utilisateurs du pool sont en conférences simultanées. Par exemple, dans un pool de 16 serveurs frontaux et de 106 000 utilisateurs, pendant la conférence de 250 utilisateurs, Skype Entreprise Server prend en charge 5 050 autres utilisateurs participant à des conférences plus petites.
 
@@ -99,19 +99,19 @@ Si votre organisation a beaucoup plus de conférences en mode mixte que ce qui e
 > [!NOTE]
 > Les pools étirés ne sont pas pris en charge pour ce rôle serveur.
 
-Vous devez déployer un serveur Edge pour 18 000 utilisateurs distants qui accèdent simultanément à un site. Nous vous conseillons au moins deux serveurs Edge pour une disponibilité élevée. Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles serveur.](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)
+Vous devez déployer un serveur Edge pour 18 000 utilisateurs distants qui accèderont simultanément à un site. Nous vous conseillons au moins deux serveurs Edge pour une disponibilité élevée. Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles serveur.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 Lorsque vous comptez le nombre d’utilisateurs pour les serveurs Edge, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à un pool frontal sur ce site.
 
 > [!NOTE]
-> Pour améliorer les performances du service Edge de conférence A/V sur vos serveurs Edge, vous devez activer le partage du trafic entrant (RSS, Receive-Side Scaling) sur les cartes réseau de vos serveurs Edge. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la mise à l’échelle côté [réception (RSS) dans Windows Server 2012.](https://go.microsoft.com/fwlink/p/?linkId=268731) Pour plus d’informations sur la façon d’activer RSS, vous devez vous référer à la documentation de votre carte réseau.
+> Pour améliorer les performances du service Edge de conférence A/V sur vos serveurs Edge, vous devez activer le partage du trafic entrant (RSS, Receive-Side Scaling) sur les cartes réseau de vos serveurs Edge. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la mise à l’échelle côté [réception (RSS) dans Windows Server 2012.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Pour plus d’informations sur la façon d’activer RSS, vous devez vous référer à la documentation de votre carte réseau.
 
 ## <a name="director"></a>Directeur
 
 > [!NOTE]
 > Les pools étirés ne sont pas pris en charge pour ce rôle serveur.
 
-Si vous déployez le rôle de serveur directeur, nous vous recommandons de déployer un directeur pour 18 000 utilisateurs distants qui accèderont simultanément à un site. Nous vous conseillons au moins deux directeurs pour une disponibilité élevée. Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles serveur.](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)
+Si vous déployez le rôle de serveur directeur, nous vous recommandons de déployer un directeur pour 18 000 utilisateurs distants qui accèderont simultanément à un site. Nous vous conseillons au moins deux directeurs pour une disponibilité élevée. Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles serveur.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 Lorsque vous comptez le nombre d’utilisateurs pour les directeurs, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à un pool frontal sur ce site.
 
@@ -124,7 +124,7 @@ Si vous coloyez le serveur de médiation avec un serveur frontal, celui-là s’
 
 Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, notamment le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP que vous avez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation contrôle, le trafic aux heures de pointe via ces passerelles et le pourcentage d’appels avec un média qui contourne le serveur de médiation.
 
-Les tableaux suivants fournissent des indications sur le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en supposant que le matériel des serveurs de médiation répond aux exigences des [plateformes matérielles](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) serveur et que l’hyper-threading est activé. Pour plus d’informations sur l’évolutivité du serveur de médiation, voir [Estimateing voice usage and traffic for Skype for Business Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) and Deployment guidelines for Mediation Server in Skype for Business [Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
+Les tableaux suivants fournissent des indications sur le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en supposant que le matériel des serveurs de médiation répond aux exigences des [plateformes matérielles](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) serveur et que l’hyper-thread est activé. Pour plus d’informations sur l’évolutivité du serveur de médiation, voir [Estimateing voice usage and traffic for Skype for Business Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) and Deployment guidelines for Mediation Server in Skype for Business [Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
 
 Tous les tableaux suivants supposent une utilisation telle qu’elle est résumée dans les modèles [utilisateur dans Skype Entreprise Server.](../../SfbServer/plan-your-deployment/capacity/user-models.md)
 
@@ -138,7 +138,7 @@ Tous les tableaux suivants supposent une utilisation telle qu’elle est résum�
 > [!NOTE]
 > Bien que les serveurs avec 64 Go de mémoire soient utilisés pour les tests de performances, les serveurs avec 32 Go de mémoire sont pris en charge pour le serveur de médiation autonome et sont suffisants pour fournir les performances indiquées dans ce tableau.
 
-**Capacité du serveur de médiation (serveur de médiation cocté avec serveur frontal) 70 % d’utilisateurs internes, 30 % d’utilisateurs externes, capacité sans contournement des appels (traitement multimédia effectué par le serveur de médiation)**
+**Capacité du serveur de médiation (serveur de médiation cocté avec serveur frontal) 70 % d’utilisateurs internes, 30 % d’utilisateurs externes, capacité d’appel sans contournement (traitement multimédia effectué par le serveur de médiation)**
 
 |**Matériel serveur**|**Nombre maximal d’appels**|
 |:-----|:-----|
@@ -148,17 +148,17 @@ Tous les tableaux suivants supposent une utilisation telle qu’elle est résum�
 > Ce nombre est beaucoup plus petit que le nombre pour le serveur de médiation autonome. En effet, le serveur frontal doit gérer d’autres fonctionnalités et fonctions pour les 6 600 utilisateurs qui y sont homed, en plus du transcodage nécessaire pour les appels vocaux.
 
 > [!NOTE]
-> Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur vos serveurs de médiation. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir « Mise à l’échelle côté[réception dans Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)». Pour plus d’informations sur la façon d’activer RSS, vous devez vous référer à la documentation de votre carte réseau.
+> Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur vos serveurs de médiation. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir « Mise à l’échelle côté[réception dans Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))». Pour plus d’informations sur la façon d’activer RSS, vous devez vous référer à la documentation de votre carte réseau.
 
 ## <a name="back-end-server"></a>Serveur principal
 
-Bien que la plupart des informations de base de données sont stockées principalement sur les serveurs frontaux, vous devez vous assurer que vos serveurs frontaux répondent aux recommandations matérielles répertoriées plus haut dans cette section et dans les [plateformes matérielles](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)serveur.
+Bien que la plupart des informations de base de données sont stockées principalement sur les serveurs frontaux, vous devez vous assurer que vos serveurs frontaux répondent aux recommandations matérielles répertoriées plus haut dans cette section et dans les [plateformes matérielles](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)serveur.
 
-Pour fournir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer des groupes de disponibilité AlwaysOn ou la mise en miroir de serveur. Pour plus d’informations, voir La haute disponibilité du serveur [principal dans Skype Entreprise Server.](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)
+Pour fournir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer des groupes de disponibilité AlwaysOn ou la mise en miroir de serveur. Pour plus d’informations, voir la haute disponibilité du serveur [principal dans Skype Entreprise Server.](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)
 
 ## <a name="monitoring-and-archiving"></a>Surveillance et archivage
 
-Si vous déployez la surveillance ou l’archivage, la fonctionnalité frontale de ces services s’exécute sur les serveurs frontaux, la surveillance et l’archivage utilisent chacun leur propre magasin de bases de données, séparément de la banque principale. Sinon, si Exchange 2013 est déployé, vous pouvez stocker les données d’archivage des messages instantanés dans Exchange plutôt que dans une SQL dédiée.
+Si vous déployez la surveillance ou l’archivage, la fonctionnalité frontale de ces services s’exécute sur les serveurs frontaux, la surveillance et l’archivage utilisent chacun leur propre magasin de bases de données, séparément du magasin frontal. Sinon, si Exchange 2013 est déployé, vous pouvez stocker les données d’archivage des messages instantanés dans Exchange plutôt que dans une SQL dédiée.
 
 Le tableau suivant indique approximativement la quantité de stockage de base de données requise par utilisateur et par jour pour les données de surveillance et d’archivage.
 
@@ -174,7 +174,7 @@ Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de 
 |:-----|:-----|
 |UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> |
 |Mémoire  <br/> |48 Go  <br/> |
-|Disque  <br/> | SOIT :<br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x). <br/>Ou <br/>• Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   <br/> |
+|Disque  <br/> | SOIT :<br/> • 4 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x). <br/>Ou <br/>• Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   <br/> |
 |Réseau  <br/> | 1 carte réseau double port, 1 Gbits/s ou plus (2 recommandé, ce qui nécessite une seule adresse MAC et une seule adresse IP).  <br/> |
 
 **Configurations de disque recommandées**
@@ -182,11 +182,10 @@ Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de 
 |**Drive** <br/> |**RAID Configuration** <br/> |**Nombre de disques** <br/> |
 |:-----|:-----|:-----|
 |Fichiers de données de base de données cdr, QoE et d’archivage, sur un seul lecteur  <br/> |1+0  <br/> |16   <br/> |
-|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1   <br/> |2   <br/> |
-|Fichier journal de la base de données QoE  <br/> |1   <br/> |2   <br/> |
-|Fichier journal de la base de données d’archivage  <br/> |1   <br/> |2   <br/> |
+|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1  <br/> |2  <br/> |
+|Fichier journal de la base de données QoE  <br/> |1  <br/> |2  <br/> |
+|Fichier journal de la base de données d’archivage  <br/> |1  <br/> |2  <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Capacité du serveur d’interconnexion vidéo
 
 Si vous déployez le serveur d’interconnexion vidéo et que vous devez déterminer la capacité, vous devez examiner le nombre maximal de systèmes de téléconférence vidéo (VTC) qui seront en appels simultanés. Par exemple, si votre organisation compte 250 VTC et que votre modèle utilisateur estime qu’au maximum 20 % d’entre eux peuvent être en appels simultanés, vous basez votre planification de capacité sur 50 VTC simultanés.
-

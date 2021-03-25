@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: La conférence web Skype Entreprise Server 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.
-ms.openlocfilehash: d763f8319b7fc1e30bfc9860da1f451ca668248d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6288fcfdf63ef8e09d776eaa7f5e5e9d19ad0b6b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823254"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121592"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
 La conférence web Skype Entreprise Server 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.
   
 > [!NOTE]
-> Skype Entreprise Server 2015 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Les fonctionnalités de conférence Web fonctionnent exactement de la même manière que dans Microsoft Lync 2013. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, voir [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype Entreprise Server 2015 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Les fonctionnalités de conférence Web fonctionnent exactement de la même manière que dans Microsoft Lync 2013. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, voir [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013). 
   
 Pour plus d’informations sur la planification de l’activation de la conférence web dans votre organisation, consultez les rubriques suivantes : 
   
@@ -37,5 +37,3 @@ Pour plus d’informations sur la planification de l’activation de la confére
 - [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
 - [Planifier des grandes réunions dans Skype Entreprise Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
-    
-

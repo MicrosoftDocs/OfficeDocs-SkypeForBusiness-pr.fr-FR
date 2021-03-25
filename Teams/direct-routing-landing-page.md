@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c5120f60778879be0978cb80c56daf99e5b5a38
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 4298cc34122d6b3bb7d9f9bb1f8698aec864426f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031820"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122208"
 ---
 # <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
@@ -60,7 +60,7 @@ Il s’agit des principales décisions à prendre en considération pour le rout
 Ai-je les licences requises pour le routage direct ? | Pour plus d’informations, voir [Licences et autres conditions requises.](direct-routing-plan.md#licensing-and-other-requirements)
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de bordure de session (SBC)
+### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de session border Controller (SBC)
 
 Avec le routage direct, vous connectez votre propre contrôleur de session Border Controller (SBC) directement au système téléphonique.  Pour obtenir la liste des SBCs [certifiés,](direct-routing-border-controllers.md)voir Contrôleurs de session en bordure pris en charge.
 
@@ -86,7 +86,7 @@ Le routage direct n’est pris en charge qu’avec Microsoft Teams. Pour recevoi
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Que signifie le mode Teams uniquement ? | Pour plus d’informations, consultez les conseils sur la [migration et l’interopérabilité](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)pour les organisations qui utilisent Teams avec Skype Entreprise.|
+|Que signifie le mode Teams uniquement ? | Pour plus d’informations, consultez les conseils sur la [migration et l’interopérabilité](./migration-interop-guidance-for-teams-with-skype.md)pour les organisations qui utilisent Teams avec Skype Entreprise.|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Considérations supplémentaires en cas de déploiement

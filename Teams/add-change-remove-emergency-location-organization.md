@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799944"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121522"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -31,7 +31,7 @@ Un emplacement d’urgence doit être associé à un numéro de téléphone, mai
 
 Quel que soit le pays ou la région dans lesquels vous vous trouvez, vous pouvez ajouter un ou plusieurs emplacements à un emplacement d’urgence et supprimer un emplacement d’urgence. Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez créer des lieux pour des bâtiments, des étages et des bureaux. Voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Pour savoir comment obtenir un forfait d’appels et combien cela coûte, consultez la gestion des [licences de module supplémentaire Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Pour savoir comment obtenir un forfait d’appels et combien cela coûte, consultez la gestion des [licences de module supplémentaire Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 Vous gérez les emplacements d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
   
@@ -45,14 +45,14 @@ Vous gérez les emplacements d’urgence pour votre organisation dans le Centre 
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
-   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer correctement un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisé pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
+   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer avec succès un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisé pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
 
-5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, vous pouvez activer modifier l’adresse **manuellement.**
+5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, activer la modification **manuelle de l’adresse.**
 6. Cliquez sur **Enregistrer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [New-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)
+Voir [New-CsOnlineLisCivicAddress.](/powershell/module/skype/new-csonlineliscivicaddress)
     
 ## <a name="change-an-emergency-location"></a>Modification d'un emplacement d'urgence
 
@@ -68,7 +68,7 @@ Voir [New-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Set-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)
+Voir [Set-CsOnlineLisCivicAddress.](/powershell/module/skype/set-csonlineliscivicaddress)
     
 ## <a name="remove-an-emergency-location"></a>Supprimer un emplacement d’urgence
 
@@ -79,11 +79,11 @@ Voir [Set-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Voir [Remove-CsOnlineLisCivicAddress.](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)
+Voir [Remove-CsOnlineLisCivicAddress.](/powershell/module/skype/remove-csonlineliscivicaddress)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
