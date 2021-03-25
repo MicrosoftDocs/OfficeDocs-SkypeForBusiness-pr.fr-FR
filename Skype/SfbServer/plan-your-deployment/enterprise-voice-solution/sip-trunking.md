@@ -1,5 +1,5 @@
 ---
-title: Une trunking SIP dans Skype Entreprise Server
+title: SIP trunking in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: En savoir plus sur la trunking SIP dans Skype Entreprise Server Voix Entreprise
-ms.openlocfilehash: dcfcf6d08b16f79c0985f337db68124442026bb1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ca3e30c8974e5ac26c2d9c395da228f85c92bac0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802714"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110660"
 ---
-# <a name="sip-trunking-in-skype-for-business-server"></a>Une trunking SIP dans Skype Entreprise Server
+# <a name="sip-trunking-in-skype-for-business-server"></a>SIP trunking in Skype for Business Server
 
 En savoir plus sur la trunking SIP dans Skype Entreprise Server Voix Entreprise
 
@@ -33,7 +33,7 @@ Le protocole SIP (Session Initiation Protocol) sert à initier et à gérer les 
 
 Une jonction SIP est une connexion IP qui établit un lien de communications SIP entre votre organisation et un fournisseur de services de téléphonie Internet (ITSP) à l’extérieur de votre pare-feu. En règle générale, une connexion SIP est utilisée pour connecter le site central de votre organisation à un itsp. Dans certains cas, vous pouvez également décider d’utiliser la jonction SIP pour connecter votre site de succursale à un fournisseur de services de téléphonie Internet (ITSP).
 
-Le déploiement d’une trunking SIP peut être un grand pas vers la simplification des télécommunications de votre organisation et la préparation aux améliorations à jour apportées aux communications en temps réel. L’un des principaux avantages de la connexion SIP est que vous pouvez consolider les connexions de votre organisation au réseau téléphonique commuté (PSTN) sur un site central, par opposition à son prédécesseur, la liaison TDM (multiplexage de division du temps), qui nécessite généralement une connexion distincte de chaque site de succursale.
+Le déploiement d’une trunking SIP peut être un grand pas vers la simplification des télécommunications de votre organisation et la préparation aux améliorations à jour apportées aux communications en temps réel. L’un des principaux avantages de la connexion SIP est que vous pouvez consolider les connexions de votre organisation au réseau téléphonique commuté (PSTN) sur un site central, par opposition à son prédécesseur, le multiplexage de division du temps (TDM), qui nécessite généralement une connexion distincte de chaque site de succursale.
 
 ### <a name="cost-savings"></a>Économies
 
@@ -62,13 +62,13 @@ Bénéficier de fonctionnalités vocales est souvent la principale motivation po
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>Différences entre les jonctions SIP et les connexions SIP directes
 
-Le terme jonction est dérivé de la technologie de commutation. Il fait référence à une ligne physique dédiée qui connecte les équipements téléphoniques de commutation. Comme leurs prédécesseurs, les liaisons TDM (multiplexage de division du temps), les connexions SIP sont des connexions entre deux réseaux SIP distincts : l’entreprise Skype Entreprise Server et le programme ITSP. Contrairement aux jonctions de commutation, les jonctions SIP sont des connexions virtuelles pouvant être établies sur n’importe quel type de connexion de jonction SIP pris en charge.
+Le terme jonction est dérivé de la technologie de commutation. Il fait référence à une ligne physique dédiée qui connecte les équipements téléphoniques de commutation. Comme leurs prédécesseurs, les branches TDM (multiplexage de division du temps), les connexions SIP sont des connexions entre deux réseaux SIP distincts : l’entreprise Skype Entreprise Server et le programme ITSP. Contrairement aux jonctions de commutation, les jonctions SIP sont des connexions virtuelles pouvant être établies sur n’importe quel type de connexion de jonction SIP pris en charge.
 
 En revanche, les connexions SIP directes sont des connexions SIP qui ne franchissent pas les limites du réseau local (c’est-à-dire qu’elles se connectent à une passerelle PSTN ou à un PBX dans votre réseau interne). Pour plus d’informations sur l’utilisation des connexions SIP directes avec Skype Entreprise Server, voir [Connexions SIP directes dans Skype Entreprise Server.](direct-sip.md)
 
 ## <a name="how-do-i-implement-sip-trunking"></a>Comment implémenter une trunking SIP ?
 
-Pour implémenter une liaison SIP, vous devez router la connexion via un serveur de médiation, qui agit en tant que proxy pour les sessions de communication entre les clients Skype Entreprise Server et le fournisseur de services et transcode le média, le cas échéant.
+Pour implémenter une liaison SIP, vous devez router la connexion via un serveur de médiation, qui agit comme un proxy pour les sessions de communication entre les clients Skype Entreprise Server et le fournisseur de services et transcode le média, si nécessaire.
 
 Chaque serveur de médiation dispose d’une interface réseau interne et d’une interface réseau externe. L’interface interne se connecte aux serveurs frontaux. L’interface externe est communément appelée interface de passerelle, car elle est traditionnellement utilisée pour connecter le serveur de médiation à une passerelle PSTN (réseau téléphonique commuté) ou à un SYSTÈME IP-PBX. Pour implémenter une trunk SIP, vous connectez l’interface externe du serveur de médiation au composant Edge externe du itsp. Ce dernier peut être un contrôleur SBC, un routeur ou une passerelle.
 
@@ -76,25 +76,25 @@ Pour plus d’informations sur les serveurs de médiation, voir [composant de se
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Comparatif entre jonction SIP centralisée et jonction SIP distribuée
 
-Une trunking SIP centralisée a pour effet d’approvisionnement tout le trafic VoIP, y compris le trafic de site de succursale, via votre site central. Le modèle de déploiement centralisé est simple, rentable et est généralement l’approche recommandée pour implémenter des trunks SIP avec Skype Entreprise Server.
+Une trunking SIP centralisée a pour effet d’approvisionnement tout le trafic VoIP, y compris le trafic de site de succursale, via votre site central. Le modèle de déploiement centralisé est simple, rentable et constitue généralement l’approche recommandée pour implémenter des trunks SIP avec Skype Entreprise Server.
 
 La trunking SIP distribuée est un modèle de déploiement dans lequel vous implémentez des trunks SIP locaux sur un ou plusieurs sites de succursale. Le trafic VoIP est ensuite acheminé du site de succursale directement vers un fournisseur de services sans passer par le site central.
 
 La jonction SIP distribuée n’est requise que dans les cas suivants :
 
-- Le site de succursale nécessite une connectivité téléphonique de secours (par exemple, en cas de panne de la liaison WAN). Cette exigence doit être analysée pour chaque site de succursale . Certaines de vos succursales peuvent nécessiter une redondance et un failover, alors que d’autres peuvent ne pas le faire.
+- Le site de succursale nécessite une connectivité téléphonique de secours (par exemple, en cas de panne de la liaison WAN). Cette exigence doit être analysée pour chaque site de succursale . Certaines de vos succursales peuvent nécessiter une redondance et un failover, contrairement à d’autres.
 
-- La résilience est requise entre deux sites centraux. Vous devez vous assurer qu’une trunk SIP s’est terminée sur chaque site central. Par exemple, si vous avez des sites centraux Dublin et Tukwila et que les deux n’utilisent qu’une seule ligne SIP de site, si la ligne est en panne, les utilisateurs de l’autre site ne peuvent pas effectuer d’appels PSTN.
+- La résilience est requise entre deux sites centraux. Vous devez vous assurer qu’une trunk SIP s’est terminée sur chaque site central. Par exemple, si vous avez des sites centraux Dublin et Tukwila et que les deux n’utilisent qu’une seule ligne SIP de site, si la ligne est en panne, les utilisateurs de l’autre site ne peuvent pas passer d’appels PSTN.
 
 - Le site de succursale et le site central sont situés dans différents pays/régions. Pour des raisons de compatibilité et légales, vous devez disposer d’au moins une jonction SIP par pays/région. Par exemple, dans l’Union Européenne, les communications ne peuvent pas sortir d’un pays ou d’une région sans terminaison locale à un point centralisé.
 
-En fonction de l’emplacement géographique des sites et du trafic anticipé au sein de votre entreprise, vous ne souhaitez peut-être pas router tous les utilisateurs via la liaison SIP centrale ou vous pouvez choisir d’router certains utilisateurs via une trunk SIP sur leur site de succursale. Pour vous aider à établir vos besoins, répondez aux questions suivantes :
+En fonction de l’emplacement géographique des sites et du trafic anticipé au sein de votre entreprise, il se peut que vous ne vouliez pas router tous les utilisateurs via la ligne SIP centrale ou que vous choisissiez d’router certains utilisateurs via une trunk SIP sur leur site de succursale. Pour vous aider à établir vos besoins, répondez aux questions suivantes :
 
 - Quelle est la taille de chaque site (c’est-à-dire, combien d’utilisateurs sont activés pour Voix Entreprise) ?
 
 - Quels numéros de Sélection directe à l’arrivée (SDA) reçoivent le plus grand nombre d’appels sur chaque site ?
 
-La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un modèle de déploiement distribué, même s’il n’est pas nécessaire. Dans un déploiement complètement centralisé, tout le trafic du site de succursale est acheminé via des liaisons WAN. Au lieu de payer pour la bande passante requise pour la liaison WAN, il est peut-être préférable d’utiliser une jonction SIP distribuée. Par exemple, vous pouvez déployer un serveur Standard Edition Server sur un site de succursale avec fédération sur le site central ou déployer un Survivable Branch Appliance ou un serveur Survivable Branch Server avec une petite passerelle.
+La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un modèle de déploiement distribué, même s’il n’est pas nécessaire. Dans un déploiement complètement centralisé, tout le trafic du site de succursale est acheminé via des liaisons WAN. Au lieu de payer pour la bande passante requise pour la liaison WAN, il est peut-être préférable d’utiliser une jonction SIP distribuée. Par exemple, vous pouvez déployer un serveur Standard Edition Server sur un site de succursale avec fédération sur le site central ou déployer un Survivable Branch Appliance ou un Serveur Survivable Branch Server avec une petite passerelle.
 
 > [!NOTE]
 > Pour plus d’informations sur la trunking SIP distribuée, voir [Branch site SIP trunking in Skype for Business Server](branch-site.md).
@@ -103,7 +103,7 @@ La décision d’opter pour une jonction SIP centralisée ou distribuée doit ê
 
 Skype Entreprise Server prend en charge les types de connexion suivants pour la connexion SIP :
 
-- Le réseau privé MPLS (Multiprotocol Label Switching) dirige et transporte les données d’un nœud du réseau vers le suivant. La bande passante d’un réseau MPLS est partagée avec d’autres abonnés, et une étiquette est attribuée à chaque paquet de données pour distinguer les données d’un abonné de celle d’un autre. Ce type de connexion ne requiert pas de réseau privé virtuel (VPN). Un des inconvénients possibles est que le trafic IP excessif peut interférer avec le trafic VoIP à moins qu’une priorité ne soit affectée au trafic VoIP.
+- Le réseau privé MPLS (Multiprotocol Label Switching) dirige et transporte les données d’un nœud du réseau vers le suivant. La bande passante d’un réseau MPLS est partagée avec d’autres abonnés, et une étiquette est attribuée à chaque paquet de données pour distinguer les données d’un abonné des autres. Ce type de connexion ne requiert pas de réseau privé virtuel (VPN). Un des inconvénients possibles est que le trafic IP excessif peut interférer avec le trafic VoIP à moins qu’une priorité ne soit affectée au trafic VoIP.
 
 - Une connexion privée sans autre trafic, par exemple une connexion à fibre optique louée ou une ligne T1, est généralement le type de connexion le plus fiable et le plus sûr. En effet, elle offre la capacité la plus élevée en matière de transport des appels. Toutefois, elle est généralement plus chère. Un VPN n’est pas nécessaire. Les connexions privées sont adaptées aux organisations à grands volumes d’appels ou soumises à des exigences strictes en matière de sécurité et de disponibilité.
 
@@ -138,7 +138,7 @@ Skype Entreprise Server prend en charge uniquement les codecs suivants :
 
 ### <a name="internet-telephony-service-provider"></a>Fournisseur de services de téléphonie Internet
 
-La manière dont vous mettez en œuvre le côté fournisseur de services d’une connexion de jonction SIP varie d’un fournisseur de services de téléphonie Internet à l’autre. Pour plus d’informations sur le déploiement, contactez votre fournisseur de services. Pour obtenir la liste des fournisseurs de services de trunking SIP certifiés, consultez le site web du programme d’interopérabilité d’ouverture des communications unifiées [Microsoft.](https://go.microsoft.com/fwlink/p/?LinkId=287029)
+La manière dont vous mettez en œuvre le côté fournisseur de services d’une connexion de jonction SIP varie d’un fournisseur de services de téléphonie Internet à l’autre. Pour plus d’informations sur le déploiement, contactez votre fournisseur de services. Pour obtenir la liste des fournisseurs de services de trunking SIP certifiés, consultez le site web du programme d’interopérabilité d’ouverture des communications unifiées [Microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
 
 Pour plus d’informations sur les fournisseurs de jonctions SIP approuvés par Microsoft, contactez votre représentant Microsoft.
 
@@ -156,10 +156,10 @@ La figure suivante illustre la topologie de la trunking SIP dans Skype Entrepris
 Comme le montre le diagramme, un réseau privé virtuel (VPN) IP est utilisé pour la connectivité entre le réseau d’entreprise et le fournisseur de services de réseau téléphonique commuté. L’objectif de ce réseau privé est de fournir la connectivité IP, d’améliorer la sécurité et (éventuellement) d’obtenir des garanties de qualité de service. En raison de la nature d’un VPN, vous n’avez pas besoin d’utiliser TLS pour le trafic de signalisation SIP, ni SRTP pour le trafic multimédia. De ce fait, les connexions entre l’entreprise et le fournisseur de services consistent en des connexions TCP ordinaires pour SIP et des connexions RTP ordinaires (avec le protocole UDP) pour les médias traités par tunnel via un réseau VPN IP. Veillez à ce que tous les pare-feu situés entre les routeurs VPN disposent de ports ouverts pour permettre aux routeurs VPN de communiquer. Par ailleurs, les adresses IP des périmètres externes des routeurs VPN doivent être publiquement routables.
 
 > [!IMPORTANT]
-> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, devez-vous configurer une seule adresse IP et une seule ligne SIP sur chaque serveur de médiation, ou devez-vous configurer plusieurs trunks SIP sur chaque serveur de médiation ? > si vous avez plusieurs sites centraux, demandez également si le fournisseur de services a la possibilité d’activer les connexions vers et à partir d’un autre site central.
+> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, ne devez-vous configurer qu’une seule adresse IP et une seule trunk SIP sur chaque serveur de médiation, ou devez-vous configurer plusieurs trunks SIP sur chaque serveur de médiation ? > si vous avez plusieurs sites centraux, demandez également si le fournisseur de services a la possibilité d’activer les connexions vers et à partir d’un autre site central.
 
 > [!NOTE]
-> Pour la trunking SIP, nous vous recommandons vivement de déployer des serveurs de médiation autonomes. Pour plus d’informations, voir [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) dans la documentation de déploiement.
+> Pour la trunking SIP, nous vous recommandons vivement de déployer des serveurs de médiation autonomes. Pour plus d’informations, voir [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers) dans la documentation de déploiement.
 
 ### <a name="securing-the-mediation-server-for-sip-trunking"></a>Sécurisation du serveur de médiation pour la jonction SIP
 
@@ -186,4 +186,3 @@ Si vous utilisez un serveur VPN, bous vous conseillons de suivre les directives 
 ## <a name="see-also"></a>Voir aussi
 
 [Branch site SIP trunking in Skype for Business Server](branch-site.md)
-
