@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Résumé : Découvrez le tableau de bord de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 98a96b8a513bad485a25aff76a69d787fb3079b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827784"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118603"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Utilisation du tableau de bord de surveillance dans Skype Entreprise Server
  
 **Résumé :** Découvrez le tableau de bord de surveillance dans Skype Entreprise Server.
   
-Le Tableau de bord de surveillance offre aux administrateurs une vue d’ensemble rapide de l’état et de l’utilisation du système de Skype Entreprise Server. Le tableau de bord est conçu pour afficher une vue agrégée des mesures système clés et pour ce faire, en affichant :
+Le Tableau de bord de surveillance fournit aux administrateurs une vue d’ensemble rapide de l’état et de l’utilisation du système de Skype Entreprise Server. Le tableau de bord est conçu pour afficher une vue agrégée des mesures système clés et pour ce faire, en affichant :
   
-- Totaux du jour en cours. Notez que les valeurs affichées pour le jour actuel représentent des données enregistrées de minuit à l’heure actuelle (en fonction de l’heure locale du serveur de rapports). Cela signifie que vous affichez généralement les données pour un jour partiel et non pour une période de 24 heures. Par exemple, si l’heure locale du serveur est 8:00 AM, vous voyez une valeur de huit heures de données, car il y a huit heures entre minuit et l’heure actuelle de 8:00.
+- Totaux du jour en cours. Notez que les valeurs affichées pour le jour actuel représentent des données enregistrées de minuit à l’heure actuelle (en fonction de l’heure locale du serveur de rapports). Cela signifie que vous affichez généralement les données pour un jour partiel et non pour une période de 24 heures. Par exemple, si l’heure locale du serveur est 8:00 AM, vous voyez une valeur de huit heures de données, car il y a huit heures entre minuit et l’heure actuelle de 8:00 AM.
     
 - Totaux de la semaine et totaux de tendance pour les six semaines précédentes.
     
-- Totaux du mois et totaux de tendance pour les six derniers mois (pour l’utilisation du système uniquement).
+- Les totaux du mois et les totaux de tendance des six derniers mois (pour l’utilisation du système uniquement).
     
-Notez que vous pouvez utiliser l’cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) pour renvoyer l’URL utilisée pour accéder aux rapports de surveillance de Skype Entreprise Server :
+Notez que vous pouvez utiliser l’cmdlet [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) pour renvoyer l’URL utilisée pour accéder aux rapports de surveillance de Skype Entreprise Server :
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -71,7 +71,7 @@ Par défaut, le Tableau de bord de surveillance affiche les données pour les me
     
 - Conférences de partage d’application
     
-- Conférences Web
+- Conférences web
     
 - Nombre total d’organisateurs
     
@@ -87,7 +87,7 @@ Par défaut, le Tableau de bord de surveillance affiche les données pour les me
     
 Outre les mesures d’utilisation du système, les mesures suivantes affichent le total pour le jour actuel et les six jours précédents (si vous sélectionnez Affichage **hebdomadaire)** ou pour la semaine en cours et les six semaines passées si vous sélectionnez Affichage **mensuel.**
   
-## <a name="per-user-call-diagnostics"></a>Per-User diagnostics des appels
+## <a name="per-user-call-diagnostics"></a>Per-User diagnostic des appels
 
  **Utilisateurs avec des échecs d’appel**
   
@@ -152,14 +152,14 @@ Principaux serveurs par pourcentage d’appels de qualité médiocre
 Comme indiqué, les totaux par défaut sont affichés pour la semaine en cours et les valeurs de tendance sont affichées pour les six semaines précédentes. Si vous préférez afficher les totaux du mois en cours (ainsi que  les valeurs de tendance des six derniers mois), cliquez sur le lien Affichage mensuel dans le coin supérieur droit du tableau de bord. Si vous décidez d’afficher les totaux mensuels, le texte du lien sera changé en **Affichage hebdomadaire.** Vous pouvez revenir à l’affichage hebdomadaire en cliquant sur ce lien.
   
 > [!TIP]
-> Le Tableau de bord de surveillance vous limite à la recherche des totaux de la semaine (ou du mois) en cours et des valeurs de tendance des six semaines (ou mois précédents). Vous ne pouvez pas modifier ces dates et heures. Par exemple, vous ne pouvez pas utiliser le tableau de bord pour afficher les totaux des rapports pour la période commençant à neuf mois. 
+> Le Tableau de bord de surveillance vous limite à l’analyse des totaux de la semaine (ou du mois) en cours et des valeurs de tendance pour les six semaines (ou mois précédents). Vous ne pouvez pas modifier ces dates et heures. Par exemple, vous ne pouvez pas utiliser le tableau de bord pour afficher les totaux des rapports pour la période commençant à neuf mois. 
   
-Les valeurs affichées dans les  colonnes **Cette semaine,** **Ce mois** ou Aujourd’hui vous relient à des informations plus détaillées sur l’élément. N’oubliez pas que le nom de colonne et les valeurs affichées dans cette colonne varient souvent en fonction de la mesure choisie et selon que vous avez sélectionné un affichage hebdomadaire ou mensuel. Par exemple, si vous cliquez sur les totaux affichés  pour la mesure Ouvertures de session utilisateur **uniques,** vous verrez le rapport d’enregistrement de l’utilisateur pour la période spécifiée. Vous pouvez revenir au Tableau de bord de surveillance à tout moment en cliquant sur **Tableau de bord.**
+Les valeurs affichées dans les  colonnes **Cette semaine,** **Ce mois** ou Aujourd’hui vous relient à des informations plus détaillées sur l’élément. N’oubliez pas que le nom de colonne et les valeurs affichées dans cette colonne varient souvent en fonction de la mesure choisie et selon que vous avez sélectionné l’affichage hebdomadaire ou mensuel. Par exemple, si vous cliquez sur les totaux affichés  pour la mesure Ouvertures de session utilisateur **uniques,** vous verrez le rapport d’enregistrement de l’utilisateur pour la période spécifiée. Vous pouvez revenir au Tableau de bord de surveillance à tout moment en cliquant sur **Tableau de bord.**
   
 > [!TIP]
 > Vous pouvez également accéder à la page d’accueil Rapports du serveur de surveillance en cliquant sur le lien **Rapports** dans le coin supérieur droit du tableau de bord.
   
-La  colonne Tendance affiche un graphique en courbes simple qui affiche les totaux des six dernières semaines (ou, selon la mesure et l’intervalle de temps, les six derniers jours ou les six derniers mois). Ces graphiques en courbes simples affichent un point de données non ajouté pour chaque période (par exemple, un point de données non ajouté pour chacune des six semaines précédentes). Toutefois, vous pouvez récupérer les valeurs réelles de ces graphiques en maintenant le pointeur de la souris sur le graphique. Dans ce cas, une info-conseil vous indique les valeurs maximale et minimale du graphique.
+La colonne **Tendance** affiche un graphique en courbes simple qui affiche les totaux des six semaines précédentes (ou, selon la mesure et l’intervalle de temps, les six derniers jours ou les six derniers mois). Ces graphiques en courbes simples affichent un point de données non ajouté pour chaque période (par exemple, un point de données non ajouté pour chacune des six semaines précédentes). Toutefois, vous pouvez récupérer les valeurs réelles de ces graphiques en maintenant le pointeur de la souris sur le graphique. Dans ce cas, une info-conseil vous indique les valeurs maximale et minimale du graphique.
   
 ## <a name="exporting-data-from-the-monitoring-dashboard"></a>Exportation de données à partir du tableau de bord de surveillance
 
@@ -191,10 +191,8 @@ Il est possible que, lorsque vous essayez  d’exporter des données de tableau 
     
 - Cliquez **sur Fermer,** puis sur **OK.**
     
-Vous devrez ensuite actualiser le tableau de bord de surveillance avant que les modifications prennent effet. Pour ce faire, appuyez sur F5 ou cliquez sur l’icône **Actualiser** dans la barre d’outils du tableau de bord. **(L’icône Actualiser** est un cercle avec une paire de flèches vertes.)
+Vous devrez ensuite actualiser le tableau de bord de surveillance avant que les modifications prennent effet. Pour ce faire, appuyez sur F5 ou cliquez sur **l’icône Actualiser** dans la barre d’outils tableau de bord. **(L’icône** Actualiser est un cercle avec une paire de flèches vertes.)
   
 Vous pouvez également créer une feuille de calcul Excel qui inclut des flux de données en direct, qui inclut des liens vers les dernières données du Tableau de bord de surveillance. Pour créer un fichier de flux  de données en direct, cliquez sur l’icône orange Exporter vers le flux de données dans la barre d’outils.
   
 Si vous préférez imprimer le tableau de bord actuel, cliquez sur l’icône de l’imprimante dans la barre d’outils.
-  
-

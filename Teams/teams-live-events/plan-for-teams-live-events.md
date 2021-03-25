@@ -20,12 +20,12 @@ description: Dans cet article, vous allez découvrir les facteurs à prendre en 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119153"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Voici les licences à attribuer pour organiser, produire ou présenter un évén
 - **Pour organiser :** licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, **[ou]** licence Microsoft ou Office 365 Éducation A3 ou A5. 
 - **Pour produire ou présenter :** licence Microsoft ou Office 365 Entreprise E1, E3 ou E5, **[ou]** licence Microsoft ou Office 365 Éducation A1, A3 ou A5. L’exception à cette condition est la suivante : les utilisateurs invités peuvent se présenter sans licence s’ils remplissent les autres critères pour les [utilisateurs invités](plan-for-teams-live-events.md#guest-to-present).
 - Licence Microsoft Teams : cette licence fait partie des licences répertoriées dans les première et seconde puces.
-- Une licence Microsoft Stream est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
+- Une licence Microsoft Stream est nécessaire si vous envisagez de partager du contenu sur une application ou un service externe. Voir [Licence Microsoft Stream](/stream/license-overview).
 
   Les utilisateurs n’ont pas besoin de licence Microsoft Stream affecté si vous voulez que les utilisateurs enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais stockés dans Azure Media Services (AMS) avec une limite de 180 jours avant sa suppression. À ce stade, un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
 
@@ -63,7 +63,7 @@ Il est important de comprendre qu’une licence Microsoft 365 ou Office 365 est 
 > [!NOTE]
 > Les événements live Teams sont désormais disponibles pour les organisations de la communauté Cloud du gouvernement américain (GCC).
 
-Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 L’utilisateur doit disposer des éléments suivants :
 

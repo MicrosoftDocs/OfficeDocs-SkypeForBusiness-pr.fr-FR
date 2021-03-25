@@ -18,12 +18,12 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196218"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117702"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196218"
 
 La préversion publique de Microsoft Teams vous permet d’accéder en avant-première aux fonctionnalités non publiées de Teams. Les préversions vous permettent d’explorer, puis de tester les fonctionnalités à venir. Nous vous invitons également à nous faire part de vos commentaires sur les fonctionnalités des préversions publiques. La préversion publique est activée pour chaque utilisateur de Teams. Vous n’avez donc pas besoin de vous soucier de l’ensemble de votre organisation.
 
-Pour obtenir la liste des ressources disponibles dans la prévisualisation publique Teams, veuillez consulter la rubrique [Notes de publication pour le canal actuel d’Office (Preview)](https://docs.microsoft.com/officeupdates/current-channel-preview).
+Pour obtenir la liste des ressources disponibles dans la prévisualisation publique Teams, veuillez consulter la rubrique [Notes de publication pour le canal actuel d’Office (Preview)](/officeupdates/current-channel-preview).
 
 ## <a name="set-the-update-policy"></a>Définir la stratégie de mise à jour
 
@@ -58,5 +58,4 @@ Pour activer la préversion publique sur un client de bureau ou web, effectuez l
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Préversion publique pour les développeurs](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Préversion publique pour les développeurs](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

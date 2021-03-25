@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Bénin.
-ms.openlocfilehash: 1b704e915f0d40a38ff504bdfc079d7ffb35567a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 35b646993a4be8196ff9ce73f5bce661268c62f0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812944"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118343"
 ---
 # <a name="availability-in-benin"></a>Disponibilité en Bénin
 
@@ -39,7 +39,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui, en [paiement par minute](../audio-conferencing-pay-per-minute.md) uniquement  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non <br/> |
@@ -47,7 +47,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 ## <a name="phone-system"></a>Système téléphonique
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les standards automatiques <br/> |Disponible  <br/> |
@@ -56,7 +56,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 ## <a name="calling-plans"></a>Forfaits d’appel
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
@@ -66,25 +66,24 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Non géographique. Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique.  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
- Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Crédits de communication
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

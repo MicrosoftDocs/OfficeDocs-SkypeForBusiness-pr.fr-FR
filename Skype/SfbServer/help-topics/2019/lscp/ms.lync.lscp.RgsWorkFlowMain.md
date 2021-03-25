@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les flux de travail Response Group définissent les actions qui sont prises lorsque l’application Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: b4f9a80be55e00d5874c79cf426e331a464d0e2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dc34ec69af86658c6624ada6a9f25ff3aaa61499
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820264"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118763"
 ---
 # <a name="response-groups-workflow"></a>Flux de travail des services Response Groups
 
@@ -56,10 +56,8 @@ La liste suivante décrit les champs de la page.
 
 - **Langue** Langue utilisée pour la reconnaissance vocale et la reconnaissance vocale.
 
-- **Réponse vocale vocale (IVR)** Indique si le flux de travail est un groupement de recherche ou un flux de travail interactif.
+- **Système de réponse vocale vocale (IVR** Indique si le flux de travail est un groupement de recherche ou un flux de travail interactif.
 
 - **Activé** Indique si le flux de travail est activé pour recevoir des appels.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’working with Response Group workflows, voir [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.
-
-
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’working with Response Group workflows, voir [Managing Response Group Workflows](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) in the Operations documentation.

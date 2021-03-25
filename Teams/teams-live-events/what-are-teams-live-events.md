@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918990"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119123"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Présentation des événements en direct Microsoft Teams
 
@@ -82,8 +82,8 @@ L’entrée vidéo est la base de l’événement en direct et vous pouvez utili
 
 La plateforme de diffusion en continu d’événements en direct est composée des éléments suivants :
 
-- **Azure Media Services** :  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) vous offre des services de diffusion vidéo en continu pour atteindre un public plus large sur les appareils mobiles les plus populaires du moment. Media Services améliore l’accessibilité, la distribution et l’évolutivité, et permettent de diffuser facilement et à moindre coût du contenu auprès de votre public local ou mondial, tout en protégeant votre contenu.
-- **Azure Content Delivery Network (CDN)**  :  Une fois votre flux mis en ligne, il est diffusé via [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services fournit un CDN intégré pour les points de terminaison de diffusion en continu. Cela permet aux flux d’être visualisés dans le monde entier sans mise en mémoire tampon.
+- **Azure Media Services** :  [Azure Media Services](/azure/media-services/previous/) vous offre des services de diffusion vidéo en continu pour atteindre un public plus large sur les appareils mobiles les plus populaires du moment. Media Services améliore l’accessibilité, la distribution et l’évolutivité, et permettent de diffuser facilement et à moindre coût du contenu auprès de votre public local ou mondial, tout en protégeant votre contenu.
+- **Azure Content Delivery Network (CDN)**  :  Une fois votre flux mis en ligne, il est diffusé via [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services fournit un CDN intégré pour les points de terminaison de diffusion en continu. Cela permet aux flux d’être visualisés dans le monde entier sans mise en mémoire tampon.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Réseau de diffusion de contenu d’entreprise (eCDN)
 
@@ -110,7 +110,7 @@ Accédez à[Planifier des événements en direct dans Microsoft Teams](plan-for
 
 ### <a name="related-topics"></a>Voir aussi
 
-- [Événements en direct dans Microsoft 365 dans Yammer, Microsoft Teams et Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Événements en direct dans Microsoft 365 dans Yammer, Microsoft Teams et Microsoft Stream](/stream/live-event-m365)
 - [Prise en main des événements en direct Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Événements en direct dans Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
+- [Événements en direct dans Microsoft Stream](/stream/live-event-overview)

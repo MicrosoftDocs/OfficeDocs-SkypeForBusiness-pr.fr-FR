@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: d99f6c0ea90e5de0cefec3d40c6fc599e0aae9f0
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875014"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117662"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft Teams
 
@@ -37,19 +37,19 @@ Les clients DoD peuvent désormais télécharger et déployer leurs propres appl
 
 ### <a name="meeting-reactions-policy"></a>Politique de réactions aux réunions
 
-Par défaut, les réactions aux réunions sont off. La non-utilisation des réactions d’un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il programme. L’organisateur de la réunion peut toujours activer les réactions à partir de la page d’option de la réunion, quel que soit le paramètre par défaut. [Pour en savoir plus.](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
+Par défaut, les réactions aux réunions sont off. La non-utilisation des réactions d’un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il programme. L’organisateur de la réunion peut toujours activer les réactions à partir de la page d’option de la réunion, quel que soit le paramètre par défaut. [Pour en savoir plus.](../meeting-policies-in-teams.md)
 
 ## <a name="february-11-2021"></a>11 février 2021
 
-### <a name="view-only-meeting-experience"></a>Expérience de réunion en affichage seul
+### <a name="view-only-meeting-experience"></a>Expérience de réunion en lecture seule
 
-Microsoft Teams permet à jusqu’à 10 000 participants de participer à une réunion Teams. Une fois la capacité de la réunion principale atteinte, les participants supplémentaires la rejoignent avec une expérience de vue seule. [En savoir plus](../view-only-meeting-experience.md).
+Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte, d’autres participants y prendront part avec une expérience de lecture seule. [En savoir plus](../view-only-meeting-experience.md).
 
 ## <a name="january-27-2021"></a>27 janvier 2021
 
 ### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
-Nous avons mis à jour l’interface du connecteur Microsoft Teams Electronic Health Record (EHR) et du connecteur qui permet aux américains de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. [En savoir plus](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+Nous avons mis à jour l’interface du connecteur Microsoft Teams Electronic Health Record (EHR) et du connecteur qui permet aux américains de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. [En savoir plus](../expand-teams-across-your-org/healthcare/ehr-admin.md).
 
 ## <a name="january-22-2021"></a>22 janvier 2021
 
@@ -61,19 +61,19 @@ Nous avons changé le titre des employés de première ligne en Employés de pre
 
 ### <a name="offline-documentation"></a>Documentation hors connexion
 
-Teams est en cours d’exécution même lorsque vous êtes hors connexion ou dans des conditions de faible bande passante. Teams enregistre tous vos messages non envoyés pour les conversations existantes (pendant 24 heures) et les envoie dès que vous vous remettreez en ligne. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+Teams est en cours d’exécution même lorsque vous êtes hors connexion ou dans des conditions de faible bande passante. Teams enregistre tous vos messages non envoyés pour les conversations existantes (pendant 24 heures) et les envoie dès que vous vous remettreez en ligne. [En savoir plus](../connectivity-issues.md).
 
 ## <a name="january-19-2021"></a>19 janvier 2021
 
 ### <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
-L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams. L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams. L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams. [En savoir plus](../approval-admin.md).
 
 ## <a name="january-15-2021"></a>15 janvier 2021
 
 ### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le module add-on de réunion Microsoft Teams pour Google Workspace
 
-Pour que les utilisateurs clients peuvent accéder à l’application, le module ajout de réunion Microsoft Teams pour Google Workspace doit être activé par un administrateur Teams. [En savoir plus](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
+Pour que les utilisateurs clients peuvent accéder à l’application, le module ajout de réunion Microsoft Teams pour Google Workspace doit être activé par un administrateur Teams. [En savoir plus](../google-workspace-addon-teams.md).
 
 ## <a name="january-4-2021"></a>4 janvier 2021
 
@@ -85,13 +85,13 @@ Nous avons ajouté la possibilité d’ajouter un canal à un onglet de calendri
 
 ### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centres de tarifs pris en charge et couverture des forfaits d’appels
 
-Un centre des taux est le terme du secteur pour une zone géographique qui définit traditionnellement les limites des appels locaux, des tarifs de facturation et de l’affectation de numéros de téléphone pour le réseau téléphonique commuté (RSTN). [En savoir plus](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
+Un centre des taux est le terme du secteur pour une zone géographique qui définit traditionnellement les limites des appels locaux, des tarifs de facturation et de l’affectation de numéros de téléphone pour le réseau téléphonique commuté (RSTN). [En savoir plus](../phone-number-calling-plans/supported-rate-centers-coverage-matrix.md).
 
 ## <a name="december-18-2020"></a>18 décembre 2020
 
 ### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>Stratégies de paramètres de réunion mises à jour pour les salles de réunion
 
- Les salles de dérivation dans Teams sont utilisées pour répartir les réunions dans des salles de réunion distinctes et de plus petite taille. Ce paramètre détermine si les organisateurs de la réunion ont la possibilité de créer et de gérer les salles de dérivation dans les réunions qu’ils planifient ou commencent. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant. [En savoir plus](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms).
+ Les salles de dérivation dans Teams sont utilisées pour répartir les réunions dans des salles de réunion distinctes et de plus petite taille. Ce paramètre détermine si les organisateurs de la réunion ont la possibilité de créer et de gérer les salles de dérivation dans les réunions qu’ils planifient ou commencent. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant. [En savoir plus](../meeting-policies-in-teams.md).
 
 ## <a name="december-9-2020"></a>9 décembre 2020
 
@@ -99,7 +99,7 @@ Un centre des taux est le terme du secteur pour une zone géographique qui défi
 
 Les parcours d’apprentissage de Microsoft 365 est une solution d’apprentissage à la demande que vous pouvez personnaliser pour former vos utilisateurs, et améliorer l’utilisation et l’adoption des équipes au sein de votre organisation. Utilisez les parcours d’apprentissage avec conseiller pour Teams afin de permettre à vos utilisateurs d’être rapidement opérationnels et de stimuler l’adoption.
 
-La fonctionnalité parcours d’apprentissage vous permet de créer un modèle de site SharePoint Online et de créer facilement un site de formation pour vos utilisateurs. Vous pouvez personnaliser le portail d’apprentissage sur les parcours d’apprentissage pour y inclure une formation et du contenu de support propre aux besoins de vos utilisateurs. Utilisez les playlists Teams à partir du catalogue Microsoft Online et ajoutez les vôtres. [En savoir plus](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways).
+La fonctionnalité parcours d’apprentissage vous permet de créer un modèle de site SharePoint Online et de créer facilement un site de formation pour vos utilisateurs. Vous pouvez personnaliser le portail d’apprentissage sur les parcours d’apprentissage pour y inclure une formation et du contenu de support propre aux besoins de vos utilisateurs. Utilisez les playlists Teams à partir du catalogue Microsoft Online et ajoutez les vôtres. [En savoir plus](../use-advisor-teams-roll-out.md#advisor-for-teams-and-microsoft-365-learning-pathways).
 
 ## <a name="october-28-2020"></a>28 octobre 2020
 
@@ -113,29 +113,29 @@ Microsoft Teams offre un certain nombre de fonctionnalités utiles pour les hôp
 - Modèles Teams
 - Coordination et collaboration avec les soins
 
-Cette fonctionnalité fait partie du Microsoft Cloud pour le secteur de la santé. [En savoir plus](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+Cette fonctionnalité fait partie du Microsoft Cloud pour le secteur de la santé. [En savoir plus](../expand-teams-across-your-org/healthcare/teams-in-hc.md).
 
 ## <a name="october-27-2020"></a>27 octobre 2020
 
 ### <a name="teams-displays"></a>Teams s’affiche
 
-Les écrans Microsoft Teams sont une catégorie d’appareils Teams tout-en-un dédiés qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. [En savoir plus](https://docs.microsoft.com/microsoftteams/devices/teams-displays).
+Les écrans Microsoft Teams sont une catégorie d’appareils Teams tout-en-un dédiés qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. [En savoir plus](../devices/teams-displays.md).
 
 ## <a name="october-22-2020"></a>22 octobre 2020
 
 ### <a name="manage-skype-for-business-settings-for-your-users"></a>Gérer les paramètres de Skype Entreprise pour vos utilisateurs
 
-Vous pouvez gérer les paramètres de Skype Entreprise pour les utilisateurs de Skype Entreprise dans votre organisation dans le Centre d’administration Microsoft Teams.  Sous l’onglet Skype Entreprise, sur la page des détails de l’utilisateur. À partir de là, vous pouvez gérer les paramètres d’accès externe et de réunion pour des utilisateurs individuels. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Vous pouvez gérer les paramètres de Skype Entreprise pour les utilisateurs de Skype Entreprise dans votre organisation dans le Centre d’administration Microsoft Teams.  Sous l’onglet Skype Entreprise, sur la page des détails de l’utilisateur. À partir de là, vous pouvez gérer les paramètres d’accès externe et de réunion pour des utilisateurs individuels. [En savoir plus](../skype-for-business-settings.md).
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Gérer les paramètres de Skype Entreprise pour votre organisation
 
-Vous pouvez gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise dans votre organisation dans le Centre d’administration Microsoft Teams. Allez dans **les paramètres à l’échelle de**  >  **l’organisation Skype Entreprise.** À partir de là, vous pouvez gérer la diffusion de réunion Skype, les notifications de présence et les notifications mobiles. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Vous pouvez gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise dans votre organisation dans le Centre d’administration Microsoft Teams. Allez dans **les paramètres à l’échelle de**  >  **l’organisation Skype Entreprise.** À partir de là, vous pouvez gérer la diffusion de réunion Skype, les notifications de présence et les notifications mobiles. [En savoir plus](../skype-for-business-settings.md).
 
 ## <a name="october-16-2020"></a>16 octobre 2020
 
 ### <a name="manage-shift-based-access-for-frontline-workers"></a>Gérer l’accès en équipe pour les employés en avant-première
 
-En tant qu’administrateur, vous pouvez configurer Teams de façon à afficher un ensemble d’états de présence en fonction de l’horaire pour les employés en ligne de votre organisation qui indiquent quand ils sont en déplacement. Avec un accès basé sur un shift, vous pouvez gérer l’accès à Teams lorsque les employés en ligne sont en congé. Par exemple, vous pouvez configurer Teams pour qu’elle affiche un message que les employés en ligne doivent prendre en compte avant qu’ils ne peuvent utiliser Teams lorsqu’ils ne sont pas sur une équipe prévue. [En savoir plus](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
+En tant qu’administrateur, vous pouvez configurer Teams de façon à afficher un ensemble d’états de présence en fonction de l’horaire pour les employés en ligne de votre organisation qui indiquent quand ils sont en déplacement. Avec un accès basé sur un shift, vous pouvez gérer l’accès à Teams lorsque les employés en ligne sont en congé. Par exemple, vous pouvez configurer Teams pour qu’elle affiche un message que les employés en ligne doivent prendre en compte avant qu’ils ne peuvent utiliser Teams lorsqu’ils ne sont pas sur une équipe prévue. [En savoir plus](../expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md).
 
 ## <a name="october-15-2020"></a>15 octobre 2020
 
@@ -143,29 +143,29 @@ En tant qu’administrateur, vous pouvez configurer Teams de façon à afficher 
 
 *Cette fonctionnalité est en mode privé (préversion)*
 
-Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
+Les packages de stratégies personnalisées vous offrent votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation. Créez vos propres packages de stratégies en ajoutant les types de stratégies et les stratégies dont vous avez besoin. [En savoir plus](../manage-policy-packages.md#custom-policy-packages).
 
 ### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>Ajouter une application à une équipe dans le Centre d’administration Microsoft Teams
 
-Dans la page Gérer les applications du Centre  d’administration Microsoft Teams, vous pouvez utiliser le bouton Ajouter à une équipe pour installer une application dans une équipe. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/manage-apps).
+Dans la page Gérer les applications du Centre  d’administration Microsoft Teams, vous pouvez utiliser le bouton Ajouter à une équipe pour installer une application dans une équipe. [En savoir plus](../manage-apps.md).
 
 ## <a name="october-1-2020"></a>1er octobre 2020
 
 ### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion
 
-Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la nouvelle version de Stream, cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages. [En savoir plus](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change).
+Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la nouvelle version de Stream, cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages. [En savoir plus](../tmr-meeting-recording-change.md).
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>Audioconférence gratuite pour les PETITES et moyennes entreprises
 
-Si vous êtes une petite ou moyenne entreprise qui compte jusqu’à 300 utilisateurs et que vous n’avez actuellement aucune licence d’audioconférence, vous pouvez obtenir l’audioconférence gratuitement pendant un an. Cette offre gratuite est disponible à partir du 1er octobre 2020. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb).
+Si vous êtes une petite ou moyenne entreprise qui compte jusqu’à 300 utilisateurs et que vous n’avez actuellement aucune licence d’audioconférence, vous pouvez obtenir l’audioconférence gratuitement pendant un an. Cette offre gratuite est disponible à partir du 1er octobre 2020. [En savoir plus](../audio-conferencing-smb.md).
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations des applications et accorder le consentement de l’administrateur dans le Centre d’administration Microsoft Teams
 
-Désormais, dans le Centre d’administration Teams, les administrateurs globaux pourront passer en revue et accorder leur consentement aux autorisations de l’API Graph enregistrées dans Azure Active Directory, au nom du client entier pour les autorisations qu’une application demande, telles que la lecture des informations stockées dans une équipe ou l’envoi d’un courrier électronique au nom des utilisateurs. Les administrateurs informatiques pourront désormais passer en revue les autorisations d’autorisation spécifique aux ressources pour les applications dans le Centre d’administration Teams. Les administrateurs pourront ainsi débloquer leurs utilisateurs pour les applications tierces qu’ils ont déjà examinées et approuvées pour les utiliser dans leur organisation. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+Désormais, dans le Centre d’administration Teams, les administrateurs globaux pourront passer en revue et accorder leur consentement aux autorisations de l’API Graph enregistrées dans Azure Active Directory, au nom du client entier pour les autorisations qu’une application demande, telles que la lecture des informations stockées dans une équipe ou l’envoi d’un courrier électronique au nom des utilisateurs. Les administrateurs informatiques pourront désormais passer en revue les autorisations d’autorisation spécifique aux ressources pour les applications dans le Centre d’administration Teams. Les administrateurs pourront ainsi débloquer leurs utilisateurs pour les applications tierces qu’ils ont déjà examinées et approuvées pour les utiliser dans leur organisation. [En savoir plus](../app-permissions-admin-center.md).
 
 ### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>Prise en charge des plans d’appels pour l’Autriche, le Danemark, l’Italie, le Portugal, la Suède et la Suisse
 
-Nous avons récemment ajouté la prise en charge des forfaits d’appels pour l’Autriche, le Danemark, l’Italie, le Portugal, la Suède et la Suisse.  [En savoir plus](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+Nous avons récemment ajouté la prise en charge des forfaits d’appels pour l’Autriche, le Danemark, l’Italie, le Portugal, la Suède et la Suisse.  [En savoir plus](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="september-29-2020"></a>29 septembre 2020
 
@@ -195,13 +195,13 @@ En tant qu’administrateur, vous pouvez contrôler si les utilisateurs peuvent 
 
 ### <a name="sharing-files-in-microsoft-teams"></a>Partage de fichiers dans Microsoft Teams
 
-Dans Microsoft Teams, les utilisateurs peuvent partager du contenu avec d’autres utilisateurs Teams à l’intérieur et à l’extérieur de leur organisation. Le partage dans Microsoft Teams dépend des paramètres configurés dans SharePoint et OneDrive, de sorte que ce que vous configurez pour SharePoint et OneDrive contrôle le partage dans Teams également. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
+Dans Microsoft Teams, les utilisateurs peuvent partager du contenu avec d’autres utilisateurs Teams à l’intérieur et à l’extérieur de leur organisation. Le partage dans Microsoft Teams dépend des paramètres configurés dans SharePoint et OneDrive, de sorte que ce que vous configurez pour SharePoint et OneDrive contrôle le partage dans Teams également. [En savoir plus](../sharing-files-in-teams.md).
 
 ## <a name="september-16-2020"></a>16 septembre 2020
 
 ### <a name="new-third-party-video-provider-riverbed"></a>Nouveau fournisseur de vidéos tiers Riverbed
 
-Utilisez les paramètres des événements en direct Teams pour configurer les paramètres des événements en direct qui se tiennent dans votre organisation. Vous pouvez configurer une URL de prise en charge et configurer un fournisseur de distribution de vidéos tiers. Ces paramètres s’appliquent à tous les événements en direct créés dans votre organisation. Riverbed est un nouveau fournisseur tiers. [En savoir plus](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider).
+Utilisez les paramètres des événements en direct Teams pour configurer les paramètres des événements en direct qui se tiennent dans votre organisation. Vous pouvez configurer une URL de prise en charge et configurer un fournisseur de distribution de vidéos tiers. Ces paramètres s’appliquent à tous les événements en direct créés dans votre organisation. Riverbed est un nouveau fournisseur tiers. [En savoir plus](../teams-live-events/configure-teams-live-events.md#configure-a-third-party-video-distribution-provider).
 
 ## <a name="september-15-2020"></a>15 septembre 2020
 
@@ -213,19 +213,19 @@ La dernière version publique de Teams PowerShell est intégrée à Skype Entrep
 
 ### <a name="porting-pin"></a>Porting PIN
 
-Nous avons ajouté la possibilité de configurer et de gérer un code confidentiel utilisé pour le portage ou le transfert de numéros de téléphone. Lorsque vous souhaitez faire un port de numéros vers un fournisseur de services auprès de Microsoft, vous devez fournir ce code confidentiel au service RSTN. [En savoir plus](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).
+Nous avons ajouté la possibilité de configurer et de gérer un code confidentiel utilisé pour le portage ou le transfert de numéros de téléphone. Lorsque vous souhaitez faire un port de numéros vers un fournisseur de services auprès de Microsoft, vous devez fournir ce code confidentiel au service RSTN. [En savoir plus](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).
 
 ## <a name="september-3-2020"></a>3 septembre 2020
 
 ### <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisées dans Microsoft Teams
 
-Vous pouvez désormais personnaliser le magasin d’applications Teams avec la personnalisation de votre organisation en ajoutant votre logo, vos arrière-plans personnalisés et des couleurs de texte personnalisées pour les rendre plus invitants aux utilisateurs finaux. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store).
+Vous pouvez désormais personnaliser le magasin d’applications Teams avec la personnalisation de votre organisation en ajoutant votre logo, vos arrière-plans personnalisés et des couleurs de texte personnalisées pour les rendre plus invitants aux utilisateurs finaux. [En savoir plus](../customize-your-app-store.md).
 
 ## <a name="september-1-2020"></a>1er septembre 2020
 
 ### <a name="on-demand-translation-in-android"></a>Traduction à la demande dans Android
 
-La traduction incorporée des messages est une fonctionnalité de Microsoft Teams qui permet aux utilisateurs de traduire les messages des équipes dans la langue spécifiée par leurs paramètres linguistiques personnels. Par défaut, la traduction **est** mise en place. [En savoir plus](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
+La traduction incorporée des messages est une fonctionnalité de Microsoft Teams qui permet aux utilisateurs de traduire les messages des équipes dans la langue spécifiée par leurs paramètres linguistiques personnels. Par défaut, la traduction **est** mise en place. [En savoir plus](../inline-message-translation-teams.md).
 
 ## <a name="august-17-2020"></a>17 août 2020
 
@@ -251,7 +251,7 @@ Cette fonctionnalité permet aux personnes de se voir automatiquement attribuer 
 
 Les compétences vocales de Cortana dans l’application mobile Teams aident les utilisateurs à effectuer des tâches de réunion, de communication et de collaboration simplement en utilisant un langage naturel parlé. Les utilisateurs peuvent parler à Cortana en cliquant sur le bouton du microphone dans l’application Teams et faire des demandes telles que « Appeler Megan » ou « Envoyer un message à ma prochaine réunion » s’ils ont besoin de communiquer avec une personne tout en jonglant avec les tâches domestiques, en marchant le chien ou en général en cours. Les utilisateurs peuvent simplement participer à des réunions en disant « Participer à ma prochaine réunion » ou consulter leur calendrier en demandant « Ce que j’ai ce matin ». Une fois dans une réunion ou un appel, ils peuvent appeler Cortana à partir du menu de dépassement de capacité de la scène de réunion et effectuer des tâches classiques dans la réunion, telles que l’ajout de personnes par nom ou numéro (« Ajouter Megan à l’appel »), une présentation de présentation (« Présenter la présentation de révision trimestrielle ») ou la navigation dans les diapositives (« Accéder à la diapositive annexe »). La fonctionnalité prend également en charge la recherche et le partage de fichiers, la recherche et la navigation dans l’application Teams ( « Ouvrir ma conversation avec John, Aller à mon activité non lus, Aller à mes mentions, etc.).
 
-Cortana dans Teams répond aux mêmes promesses de confidentialité, de sécurité et de conformité au niveau de l’entreprise pour les services d’entreprise Cortana, comme le reflète les conditions des services en ligne [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [En savoir plus](https://docs.microsoft.com/microsoftteams/cortana-in-teams).
+Cortana dans Teams répond aux mêmes promesses de confidentialité, de sécurité et de conformité au niveau de l’entreprise pour les services d’entreprise Cortana, comme le reflète les conditions des services en ligne [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [En savoir plus](../cortana-in-teams.md).
 
 ### <a name="teams-devices-administrator"></a>Administrateur des appareils Teams
 
@@ -261,7 +261,7 @@ Les utilisateurs ayant ce rôle peuvent gérer les appareils certifiés Teams à
 
 ### <a name="lists-app-in-teams"></a>Application Listes dans Teams
 
-Les utilisateurs de Teams peuvent désormais gérer, créer et gérer leurs listes directement à l’aide de l’onglet de l’application Listes. L’application Listes fonctionne sur tous les clients Teams et permet la collaboration et la communication autour d’éléments de liste. [En savoir plus](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
+Les utilisateurs de Teams peuvent désormais gérer, créer et gérer leurs listes directement à l’aide de l’onglet de l’application Listes. L’application Listes fonctionne sur tous les clients Teams et permet la collaboration et la communication autour d’éléments de liste. [En savoir plus](../manage-lists-app.md).
 
 ## <a name="august-6-2020"></a>6 août 2020
 
@@ -277,7 +277,7 @@ L’installation des applications Teams est gratuite. Certaines applications peu
 
 ### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée envoyée via l’API De soumission d’application Teams
 
-Les développeurs peuvent utiliser l’API Soumission d’application Teams pour envoyer des applications personnalisées directement au Centre d’administration Microsoft Teams afin que les administrateurs les examinent et les approuvent. [En savoir plus](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+Les développeurs peuvent utiliser l’API Soumission d’application Teams pour envoyer des applications personnalisées directement au Centre d’administration Microsoft Teams afin que les administrateurs les examinent et les approuvent. [En savoir plus](../submit-approve-custom-apps.md).
 
 ## <a name="july-29-2020"></a>29 juillet 2020
 
@@ -323,7 +323,7 @@ Nous avons ajouté la prise en charge des files d’attente d’appels pour util
 
 ### <a name="policy-packaging-batch-assignment"></a>Affectation d’un lot d’empaquetage de stratégie
 
-Nous avons permis l’utilisation de PowerShell pour l’attribution par lots d’un package de stratégie aux utilisateurs et groupes. [En savoir plus](https://docs.microsoft.com/microsoftteams/manage-policy-packages).
+Nous avons permis l’utilisation de PowerShell pour l’attribution par lots d’un package de stratégie aux utilisateurs et groupes. [En savoir plus](../manage-policy-packages.md).
 
 ## <a name="july-7-2020"></a>7 juillet 2020
 
@@ -339,7 +339,7 @@ Nous avons ajouté la possibilité pour les utilisateurs de Teams d’avoir une 
 
 ### <a name="transferring-incoming-calls"></a>Transfert d’appels entrants
 
-Nous avons ajouté la possibilité de transfert vers un numéro de téléphone PSTN externe des appels entrants de la file d’attente d’appels automatiques. [En savoir plus](../business-voice/set-up-auto-attendants.md).
+Nous avons ajouté la possibilité de transfert vers un numéro de téléphone PSTN externe des appels entrants de la file d’attente d’appels automatiques. [En savoir plus](../business-voice/create-a-phone-system-auto-attendant-smb.md).
 
 ## <a name="june-30-2020"></a>30 juin 2020
 
@@ -355,7 +355,7 @@ De nombreux administrateurs informatiques se plaignent de ne pas pouvoir laisser
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Talkie-walkie dans Microsoft Teams
 
-Communication vocale instantanée à l’aide de la communication push-to-talk. [En savoir plus](https://docs.microsoft.com/microsoftteams/walkie-talkie).
+Communication vocale instantanée à l’aide de la communication push-to-talk. [En savoir plus](../walkie-talkie.md).
 
 ## <a name="june-25-2020"></a>25 juin 2020
 
@@ -377,7 +377,7 @@ Si un utilisateur n’est pas encore inscrit à son compte Microsoft 365, il est
 
 ### <a name="monitor-shifts-with-audit-logs"></a>Surveiller des shifts avec les journaux d’audit
 
-Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité shifts au niveau de votre organisation. [En savoir plus](https://docs.microsoft.com/microsoftteams/audit-log-events).
+Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité shifts au niveau de votre organisation. [En savoir plus](../audit-log-events.md).
 
 ## <a name="june-11-2020"></a>11 juin 2020
 

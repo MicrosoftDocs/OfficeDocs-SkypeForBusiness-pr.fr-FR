@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662639"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117612"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>Utiliser les modèles de vente au détail Teams dans le Centre d’administration
 
@@ -34,7 +34,7 @@ Les modèles Teams ont des définitions pré-conçues pour les structures d’é
 
 Cet article présente chacun des modèles Teams et décrit leur utilisation.
 
-Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de vente au détail. Nous partons du principe que vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](How-to-roll-out-teams.md).
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de vente au détail. Nous partons du principe que vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire l’article [Comment déployer Microsoft Teams](./deploy-overview.md).
 
 Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles Teams](get-started-with-teams-templates-in-the-admin-console.md).
 

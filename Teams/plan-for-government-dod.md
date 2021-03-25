@@ -19,19 +19,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 954eb24cd0d6c79ab3fd30e22521660d2afeb08e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: dd649507c0108e9a3d500f4d30cae46a3181d75d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909158"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117852"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planifier les déploiements d’Office 365 pour les administrations publiques
 
 Ces conseils sont adaptés aux professionnels de l’informatique qui conduisent des déploiements d’Office 365 dans des entités gouvernementales fédérale aux États-Unis ou d’autres entités qui gèrent des données soumises à des réglementations gouvernementales et des exigences, où l’utilisation d’Office 365 Secteur Public – DoD est appropriée pour répondre à ces exigences.
 
 > [!NOTE]
-> Si votre organisation a déjà satisfait aux conditions d’éligibilité d’Office 365 Service Public – DD et a demandé et accepté dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
+> Si votre organisation a déjà satisfait aux conditions d’éligibilité d’Office 365 Service Public – DD et a postulé et a été acceptée dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>Étape 1. Déterminer si votre organisation a besoin d’Office 365 Service Public - DoD et satisfait aux conditions d’éligibilité. 
 
@@ -44,11 +44,11 @@ L’environnement Office 365 Secteur Public - DoD fournit la conformité avec le
 
 Pour plus d’informations sur l’offre Office 365 Service Public – DoD pour les clients du gouvernement américain, voir les offres [Office 365 Government,](https://products.office.com/government/compare-office-365-government-plans)notamment les conditions [d’éligibilité.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
-La [description du service Office 365 pour](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) le gouvernement américain décrit les avantages de la plateforme, qui sont centrés sur les conditions de conformité requises aux États-Unis.
+La [description du service Office 365 pour](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) les Administrations publiques des États-Unis décrit les avantages de la plateforme, lesquels sont centrés sur les conditions de conformité requises aux États-Unis.
 
 
 > [!Tip]
-> Vous pouvez transférer les tables d’informations de la description du service dans un workbook Excel et ajouter deux colonnes : Pertinentes pour mon organisation **Y/N** et Répondre aux besoins de mon organisation **Y/N.** Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
+> Vous pouvez transférer les tables d’informations de la description du service dans un feuille de calcul Excel et ajouter deux colonnes : Pertinentes pour mon organisation **Y/N** et Répondre aux besoins de mon organisation **Y/N.** Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
 
 
 |    |     |
@@ -65,7 +65,7 @@ Ayant décidé que ce service est exact pour votre organisation, commencez le pr
 
 ## <a name="step-3-understand-office-365-government---dod-default-security-settings"></a>Étape 3. Comprendre Office 365 Service Public - Paramètres de sécurité par défaut d’Office 365.
 
-Nous vous conseillons de prendre le temps de passer en revue soigneusement vos [paramètres](enable-features-office-365.md) d’administration et de sécurité avant de les modifier, et de prendre en compte les conséquences sur la conformité avant de modifier les paramètres de sécurité par défaut.
+Nous vous recommandons de prendre le temps de passer en revue soigneusement vos [paramètres](enable-features-office-365.md) d’administration et de sécurité avant de les modifier, et de prendre en compte les conséquences sur la conformité avant de modifier les paramètres de sécurité par défaut.
 
 |    |     |
 |-----------|------------|
@@ -76,7 +76,7 @@ Nous vous conseillons de prendre le temps de passer en revue soigneusement vos [
 
 Pour répondre aux besoins de nos clients cloud du secteur public, il existe certaines différences entre Teams dans Office 365 Secteur Public - DoD et Teams dans les plans d’entreprise. Consultez le tableau suivant pour voir quelles fonctionnalités sont disponibles.
 
-[Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Étape 5. Plan de gouvernance
 
@@ -88,7 +88,7 @@ Déterminez vos exigences de gouvernance et la manière dont vous pouvez les res
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer Teams pour la collaboration
 
-Après avoir été intégré à Office 365 Service Public – DoD, suivez la voie de déploiement recommandée décrite dans comment déployer [Microsoft Teams.](How-to-roll-out-teams.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et les champions Teams.
+Après avoir été intégré à Office 365 Service Public – DoD, suivez la voie de déploiement recommandée décrite dans comment déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et les champions Teams.
 
 Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) ou le partenaire que vous avez choisi pour intégrer le service.
 

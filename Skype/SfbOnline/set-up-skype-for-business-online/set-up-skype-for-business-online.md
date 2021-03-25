@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Découvrez comment configurer votre domaine, vos utilisateurs, votre messagerie instantanée et votre présence pour votre organisation pour installer Skype Entreprise. Découvrez également comment configurer l’audioconférence, le système téléphonique et les forfaits d’appels, et la diffusion de réunion Skype. '
-ms.openlocfilehash: c61e2b7dd4a9c4bb4e04a90ffa403e930e4d142b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0c357c1dbe5b91c06b385562bf31d5f1307bd240
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777179"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109960"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -56,7 +56,7 @@ Pour plus d’informations, [voir Planifier votre installation d’Office 365 po
 
 Skype Entreprise Online fait partie de la suite de services Office 365. Pour configurer Skype Entreprise Online, vous devez vous connecter à Office 365. Voici comment procéder :
 
-1. Recherchez votre ID d’utilisateur Microsoft 365 ou Office 365 (par exemple, <em>rob@fourthcoffee.com).</em> Vous avez reçu un courrier électronique de l’équipe Microsoft Online Services qui contient l’ID d’utilisateur Microsoft 365 ou Office 365 que vous avez créé lorsque vous avez acheté Skype Entreprise Online. Le courrier ressemble à ceci :
+1. Recherchez votre ID d’utilisateur Microsoft 365 ou Office 365 (par <em>exemple, rob@fourthcoffee.com).</em> Vous avez reçu un courrier électronique de l’équipe Microsoft Online Services qui contient l’ID d’utilisateur Microsoft 365 ou Office 365 que vous avez créé lorsque vous avez acheté Skype Entreprise Online. Le courrier ressemble à ceci :
 
     ![Exemple de courrier électronique de bienvenue que vous recevez après vous être inscrit à Skype Entreprise Online. Il contient votre ID d’utilisateur Microsoft 365 ou Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -147,7 +147,7 @@ Voici un aperçu des étapes requises pour configurer Diffusion de réunion Skyp
 
 1. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) : affectez des licences **Skype Entreprise Online** ou **Enterprise Plan** à toutes les personnes qui vont **organiser** une diffusion de réunion.
 
-2. [Activer la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): par défaut, cette fonctionnalité n’est pas activée. Une fois la fonctionnalité activée, vos utilisateurs pourront organiser des diffusions de réunion avec d'autres membres de votre organisation.
+2. [Activer la diffusion de](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)réunion Skype : par défaut, cette fonctionnalité n’est pas activée. Une fois la fonctionnalité activée, vos utilisateurs pourront organiser des diffusions de réunion avec d'autres membres de votre organisation.
 
 3. [Configurez](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)votre réseau pour la diffusion de réunion Skype : si vous souhaitez organiser des webinaires ou d’autres diffusions avec des participants extérieurs à votre organisation, vous devez configurer votre réseau.
 
@@ -171,10 +171,7 @@ La qualité de l'image, du son et du partage d'applications dans Skype Entrepris
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 <a name="bkmk_more"> </a>
 
-[Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
-
-
-
+[Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)

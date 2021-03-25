@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Résumé : Explorez ces liens pour découvrir comment gérer et gérer Skype Entreprise Server.'
-ms.openlocfilehash: 528b17367db0b82cd36361b4e4a427c8c8479775
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a37d6e65d8b3cc0ea97d4f351221717a6704f4b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118593"
 ---
 # <a name="manage-skype-for-business-server"></a>Gérer Skype Entreprise Server 
 
@@ -55,8 +55,6 @@ Les ressources suivantes sur la façon de planifier Skype Entreprise Server sont
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Icône pour les documents](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Entreprise Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore. |
+|![Icône pour les documents](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml) <br/> |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore. |
 |![Icône pour le contenu du développeur](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype Entreprise Server pour les développeurs  <br/> |Recherchez des ressources pour les développeurs pour Skype Entreprise Server, notamment des exemples de code, des formations et des SDK. |
 |![Icône d’actualités, de blogs, et ainsi de suite](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Gestion et adoption des changements](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Tenez-vous au fait des actualités des équipes qui créent et documentent Skype Entreprise Server.  |
-   
-

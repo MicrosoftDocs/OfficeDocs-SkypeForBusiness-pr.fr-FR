@@ -13,24 +13,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurer un compte de ressource pour Skype Entreprise Server 2019.
-ms.openlocfilehash: 1d8294eb717982b5ac68df06a5370059e83a62c5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: eb8f82a9551c3607068b0d62cc04518d58d09987
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919010"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118933"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressource
 
 Les implémentations hybrides Skype Entreprise Server 2019 utilisent uniquement les services Cloud fournis par le système téléphonique pour la messagerie unifiée et ne s’intègrent pas à Exchange Online. Dans Skype Entreprise Server 2019, vous pouvez désormais utiliser les files d’attente d’appels cloud et les attendants automatiques décrits dans voici ce que vous obtenez avec le système téléphonique dans [Microsoft 365 ou Office 365.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-Pour utiliser un système téléphonique ou une file d’attente d’appels avec Skype Entreprise Server 2019, vous devez créer des comptes de ressources qui agissent comme des points de terminaison d’application et peuvent se voir attribuer des numéros de téléphone, puis utiliser le Centre d’administration Teams en ligne pour configurer la file d’attente d’appels ou le attendant automatique. Ce compte de ressource peut être en ligne (voir Gérer les comptes de ressources dans [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressources en ligne) ou en local, comme décrit dans cet article. En règle générale, vous avez plusieurs numéros de file d’attente ou de serveur d’appels du système téléphonique, chacun d’eux est mappé sur un compte de ressource, qui peut être homed online ou dans Skype Entreprise Server 2019.
+Pour utiliser un système téléphonique ou une file d’attente d’appels avec Skype Entreprise Server 2019, vous devez créer des comptes de ressources qui agissent comme des points de terminaison d’application et peuvent se voir attribuer des numéros de téléphone, puis utiliser le Centre d’administration Teams en ligne pour configurer la file d’attente d’appels ou le attendant automatique. Ce compte de ressource peut être en ligne (voir Gérer les comptes de ressources dans [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressources en ligne) ou en local, comme décrit dans cet article. En règle générale, vous avez plusieurs numéros de file d’attente ou de serveur d’appels du système téléphonique, chacun d’eux est mappé à un compte de ressource, qui peut être homed online ou dans Skype Entreprise Server 2019.
 
 Si vous avez un standard automatique et un système de files d’attente d’appels de la um Exchange existants, avant de basculer vers Exchange Server 2019 ou Exchange Online, vous devrez enregistrer manuellement les détails comme décrit ci-dessous, puis implémenter un système entièrement nouveau à l’aide du Centre d’administration Teams.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Vue d'ensemble
 
-Si votre système téléphonique ou file d’attente d’appels a besoin d’un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant :
+Si votre système téléphonique ou votre file d’attente d’appels a besoin d’un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant :
 
 1. Obtenez un numéro de service.
 2. Obtenez un système téléphonique gratuit - [licence d’utilisateur virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user) ou une licence de système téléphonique payante à utiliser avec le compte de ressource.
@@ -45,12 +45,12 @@ Si le attendant automatique ou la file d’attente d’appels est imbrique sous 
 
 Pour rediriger les appels vers les personnes de  votre organisation qui sont en ligne, elles doivent avoir une licence de système téléphonique et être activées pour Voix Entreprise ou avoir des forfaits d’appels Microsoft 365 ou Office 365. Voir [Attribuer des licences Microsoft Teams.](/MicrosoftTeams/assign-teams-licenses) Pour les activer pour Voix Entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-Si le système téléphonique ou la file d’attente d’appels que vous créez est imbrmbré et n’a pas besoin d’un numéro de téléphone, le processus est le ci-après :
+Si le système téléphonique ou la file d’attente d’appels que vous créez est imbrmbré et n’a pas besoin d’un numéro de téléphone, le processus est :
 
 1. Créer le compte de ressource  
 2. Attendre une synchronisation Active Directory en ligne et en local
 3. Création d’un système téléphonique ou d’une file d’attente d’appels
-4. Associer le compte de ressource à un numéro de téléphone ou une file d’attente d’appels
+4. Associer le compte de ressource à un système téléphonique ou à une file d’attente d’appels
 
 ## <a name="create-a-resource-account-with-a-phone-number"></a>Créer un compte de ressource avec un numéro de téléphone
 
@@ -74,7 +74,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
-    Pour plus d’informations sur cette commande, voir [New-CsHybridApplicationEndpoint.](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+    Pour plus d’informations sur cette commande, voir [New-CsHybridApplicationEndpoint.](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 4. (Facultatif) Une fois vos comptes de ressources créés, vous pouvez attendre qu’AD se synchronise en ligne et en local, ou forcer une synchronisation et passer à la configuration en ligne du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, exécutez la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous devez charger pour exécuter `import-module adsync` la commande) :
 
@@ -82,13 +82,13 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    Pour plus d’informations sur cette commande, [voir Start-ADSyncSyncCycle.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler)
+    Pour plus d’informations sur cette commande, [voir Start-ADSyncSyncCycle.](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler)
     
-    Remarque : à ce stade, le compte a peut-être été synchronisé, mais la mise en service n’est peut-être pas terminée.  Vérifiez la sortie de [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si le point de terminaison synchronisé n’a pas encore terminé la mise en service, il n’apparaîtra pas ici.  Vous pouvez vérifier l’état des demandes d’approvisionnement dans le portail M365 sous État du programme [d’installation de Teams.](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)  Cette phase d’approvisionnement peut prendre jusqu’à 24 heures.
+    Remarque : à ce stade, le compte a peut-être été synchronisé, mais la mise en service n’est peut-être pas terminée.  Vérifiez la sortie de [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint).  Si le point de terminaison synchronisé n’a pas encore terminé la mise en service, il n’apparaîtra pas ici.  Vous pouvez vérifier l’état des demandes d’approvisionnement dans le portail M365 sous État du programme [d’installation de Teams.](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)  Cette phase d’approvisionnement peut prendre jusqu’à 24 heures.
 
-5. Attribuez la licence Système téléphonique - Utilisateur virtuel ou Système téléphonique au compte de ressource. Voir [Attribuer des licences de modules](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) de modules microsoft Teams et [attribuer des licences aux utilisateurs.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+5. Attribuez la licence Système téléphonique - Utilisateur virtuel ou Système téléphonique au compte de ressource. Voir [Attribuer des licences](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) de modules de modules microsoft Teams et attribuer des [licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
-   Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence d’utilisateur virtuel du système téléphonique sans frais. Cela offre des fonctionnalités de système téléphonique pour les numéros de téléphone au niveau de l’organisation, et vous permet de créer des fonctionnalités de attendant automatique et de file d’attente d’appels.
+   Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence d’utilisateur virtuel du système téléphonique sans frais. Cela offre des fonctionnalités de système téléphonique pour les numéros de téléphone au niveau de l’organisation, et vous permet de créer des fonctionnalités de numéro de téléphone et de attendant automatique.
 
 
 6. Affectez le numéro de service au compte de ressource. Utilisez la `Set-CsHybridApplicationEndpoint` commande pour affecter un numéro de téléphone (avec l’option -LineURI) au compte de ressource.
@@ -97,15 +97,15 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
     ```
 
-    Pour plus d’informations sur cette commande, voir [Set-CsHybridApplicationEndpoint.](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps)
+    Pour plus d’informations sur cette commande, voir [Set-CsHybridApplicationEndpoint.](/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps)
 
-    Pour affecter un numéro de routage direct ou hybride à un compte de ressource, utilisez l’cmdlet suivante :
+    Pour affecter un numéro de routage direct ou hybride à un compte de ressource, utilisez l';;
 
    ``` Powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-   Le compte de ressource a besoin d’un numéro de téléphone affecté s’il est affecté à un numéro de téléphone ou un numéro de téléphone de niveau supérieur. Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être affectés à un compte de ressource, seuls les numéros de service gratuits ou gratuits peuvent être utilisés.
+   Le compte de ressource a besoin d’un numéro de téléphone affecté s’il est affecté à un numéro de téléphone ou un numéro de téléphone de niveau supérieur. Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être affectés à un compte de ressource, seuls les numéros de téléphone gratuits ou de service peuvent être utilisés.
 
      Vous pouvez affecter un numéro de routage direct ou hybride à votre compte de ressource. Pour plus d’informations, voir [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and [Plan Cloud auto attendants](plan-cloud-auto-attendant.md).
 
@@ -121,7 +121,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Créer un compte de ressource sans numéro de téléphone
 
-Cette section traite de la création d’un compte de ressource qui est homed on premises. La création d’un compte de ressource qui est en ligne est abordée dans Gérer les comptes de [ressources dans Microsoft Teams.](/MicrosoftTeams/manage-resource-accounts)
+Cette section traite de la création d’un compte de ressource qui est homed sur site. La création d’un compte de ressource qui est en ligne est abordée dans Gérer les comptes de [ressources dans Microsoft Teams.](/MicrosoftTeams/manage-resource-accounts)
 
 Ces étapes sont nécessaires, que vous créiez un nouveau système téléphonique ou une structure de file d’attente d’appels, ou que vous restructuriez la structure initialement créée dans la um Exchange.
 
@@ -133,7 +133,7 @@ Connectez-vous au serveur frontal Skype Entreprise et exécutez les cmdlets Powe
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
-    Pour plus d’informations sur cette commande, voir [New-CsHybridApplicationEndpoint.](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+    Pour plus d’informations sur cette commande, voir [New-CsHybridApplicationEndpoint.](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 2. (Facultatif) Une fois vos comptes de ressources créés, vous pouvez attendre qu’AD se synchronise en ligne et en local, ou forcer une synchronisation et passer à la configuration en ligne du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, exécutez la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous devez charger pour exécuter `import-module adsync` la commande) :
 
@@ -141,7 +141,7 @@ Connectez-vous au serveur frontal Skype Entreprise et exécutez les cmdlets Powe
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    Pour plus d’informations sur cette commande, [voir Start-ADSyncSyncCycle.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler)
+    Pour plus d’informations sur cette commande, [voir Start-ADSyncSyncCycle.](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler)
 
 3. Créez le système téléphonique ou la file d’attente d’appels. Consultez l’une des rubriques suivantes :
    - [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
@@ -150,7 +150,7 @@ Connectez-vous au serveur frontal Skype Entreprise et exécutez les cmdlets Powe
 
 ## <a name="test-the-implementation"></a>Tester l’implémentation
 
-La meilleure façon de tester l’implémentation consiste à appeler le numéro configuré pour un système téléphonique ou une file d’attente d’appels et à se connecter à l’un des agents ou menus. Vous pouvez également rapidement placer un appel de test à l’aide du bouton **Test** dans le volet Actions du Centre d’administration. Si vous souhaitez apporter des modifications à un attendant automatique du système téléphonique ou à une file d’attente d’appels, sélectionnez-le, puis dans le volet Action, cliquez sur **Modifier**. 
+La meilleure façon de tester l’implémentation consiste à appeler le numéro configuré pour un système téléphonique ou une file d’attente d’appels et à se connecter à l’un des agents ou menus. Vous pouvez également rapidement placer un appel de test à l’aide du bouton **Test** dans le volet Actions du Centre d’administration. Si vous souhaitez apporter des modifications à un attendant automatique du système téléphonique ou à une file d’attente d’appels, sélectionnez-le, puis dans le volet Action, cliquez sur **Modifier.** 
 
 > [!TIP]
 > Si votre compte de ressource a des difficultés à être affecté à une file d’attente d’appels ou à un attendant automatique, consultez Problèmes connus pour [Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) et la section Comment résoudre mes instances [d’application](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) hybride dans le blog Microsoft Teams.
@@ -165,13 +165,13 @@ La migration de la um Exchange vers le système téléphonique nécessitera la r
     Get-UMAutoAttendant | Format-List
     ```
 
-2. Pour chaque file d’attente d’appels de messagerie unie ou un attendant automatique Exchange répertorié, notez sa place dans la structure, les paramètres et obtenez des copies des fichiers audio ou de reconnaissance vocale associés (le guid dans la sortie sera le nom d’un dossier dans lequel les fichiers sont stockés). Vous pouvez obtenir ces détails en exécutant la commande :
+2. Pour chaque file d’attente d’appels de messagerie unie ou un attendant automatique Exchange répertorié, notez sa position dans la structure, les paramètres et obtenez des copies des fichiers audio ou de reconnaissance vocale associés (le guid dans la sortie sera le nom d’un dossier dans lequel les fichiers sont stockés). Vous pouvez obtenir ces détails en exécutant la commande :
 
     ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
 
-    Pour plus d’informations sur cette commande, [voir Get-UMAutoAttendant.](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) La liste complète des options que vous devrez peut-être capturer se trouve dans les membres [UMAutoAttendant,](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) mais les options les plus importantes à noter sont :
+    Pour plus d’informations sur cette commande, [voir Get-UMAutoAttendant.](/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) La liste complète des options que vous devrez peut-être capturer se trouve dans les membres [UMAutoAttendant,](/previous-versions/office/exchange-server-api/ff340649(v=exchg.150)) mais les options les plus importantes à noter sont :
 
     - Heures d'ouverture
     - En de autres heures d’ouverture
@@ -203,8 +203,8 @@ La migration de la um Exchange vers le système téléphonique nécessitera la r
 
 [Planifier le service de messagerie vocale cloud pour les utilisateurs locaux](plan-cloud-voicemail.md)
 
-[New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
 [Gérer les comptes de ressources dans Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)  -  \( pour créer des comptes de ressources en ligne\)

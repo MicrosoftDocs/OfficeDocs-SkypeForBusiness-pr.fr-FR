@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Cette rubrique décrit les instructions de planification pour le déploiement du serveur de médiation.
-ms.openlocfilehash: 245916286fe5f1590581989b8a09daf637c03aa9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ffb60abaf3027541f13fe73294eafda51e5d1d0f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800084"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118533"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Instructions de déploiement pour le serveur de médiation dans Skype Entreprise Server
  
@@ -34,11 +34,11 @@ Par défaut, le serveur de médiation est coqueté sur le serveur Standard Editi
     
 - Pourcentage d’appels dont le média contourne le serveur de médiation.
     
-Lors de la planification, prenez en compte les exigences de traitement multimédia pour les appels RSTN et les conférences A/V qui ne prennent pas en charge le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. Si vous n’avez pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation. En outre, les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
+Lors de la planification, n’oubliez pas de prendre en compte les exigences de traitement multimédia pour les appels PSTN et les conférences A/V qui ne prennent pas en charge le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. Si vous n’avez pas assez de processeur, vous devez déployer un pool autonome de serveurs de médiation. En outre, les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
   
 Si vous avez déployé des passerelles PSTN, des PBX IP ou des contrôleurs de frontière de session (SDC) qui n’ont pas la possibilité d’interagir avec un pool de serveurs de médiation, ils doivent être associés à un pool autonome constitué d’un serveur de médiation unique. Voici quelques-unes des choses que vos passerelles PSTN, IP-PBXs ou SCS doivent faire :
   
-- Effectuer l’équilibrage de charge DNS (Domain Name System) de couche réseau sur les serveurs de médiation dans un pool (ou router le trafic de manière uniforme vers tous les serveurs de médiation d’un pool).
+- Effectuer l’équilibrage de charge DNS (Domain Name System) de couche réseau sur les serveurs de médiation d’un pool (ou router le trafic de manière uniforme vers tous les serveurs de médiation d’un pool).
     
 - Acceptez le trafic provenant de n’importe quel serveur de médiation d’un pool.
     
@@ -53,11 +53,9 @@ Vous pouvez utiliser l’outil de planification de Skype Entreprise pour évalue
   
 Si la résistance de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, d’un serveur de médiation et d’une passerelle doit être déployé sur le site de succursale. (L’hypothèse avec la résilience de site de succursale est que la présence et les conférences ne sont pas résilientes sur le site.) Pour obtenir des conseils sur la planification des sites de succursale pour la voix, voir [Plan for Voix Entreprise resiliency in Skype for Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
-Pour les interactions avec un IP-PBX, si ce dernier ne prend pas correctement en charge les interactions multimédias précoces avec plusieurs boîtes de dialogue anticipées et les interactions RFC 3960, il peut y avoir un découpage des premiers mots du message d’accueil pour les appels entrants du PBX IP vers les points de terminaison Lync. Ce comportement peut s’aggraver si un serveur de médiation sur le site central achemine les appels pour un IP-PBX là où s’arrête l’itinéraire sur un site de succursale, car la signalisation a besoin de plus de temps pour se terminer. Si vous faites l’expérience de ce comportement, le déploiement d’un serveur de médiation sur le site de succursale est le seul moyen de réduire le découpage des premiers mots.
+Pour les interactions avec un IP-PBX, si le PBX IP ne prend pas correctement en charge les interactions multimédias précoces avec plusieurs boîtes de dialogue anticipées et les interactions RFC 3960, il peut y avoir un découpage des premiers mots du message d’accueil pour les appels entrants du PBX IP vers les points de terminaison Lync. Ce comportement peut s’aggraver si un serveur de médiation sur le site central achemine les appels pour un IP-PBX là où s’arrête l’itinéraire sur un site de succursale, car la signalisation a besoin de plus de temps pour se terminer. Si vous faites l’expérience de ce comportement, le déploiement d’un serveur de médiation sur le site de succursale est le seul moyen de réduire le découpage des premiers mots.
   
 Pour finir, si votre site central comporte un TDM PBX ou que votre IP-PBX ne supprime pas le besoin d’une passerelle PSTN, vous devez alors déployer une passerelle sur l’itinéraire d’appel qui se connecte au serveur de médiation et au PBX.
   
 > [!NOTE]
-> Pour améliorer les performances multimédias du serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir « Améliorations de la mise à l’échelle côté[réception dans Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)». Pour plus d’informations sur l’activer, consultez la documentation de votre carte réseau. 
-  
-
+> Pour améliorer les performances multimédias du serveur de médiation autonome, vous devez activer rss (receive-side scaling) sur les cartes réseau sur ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, voir « Améliorations de la mise à l’échelle côté[réception dans Windows Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))». Pour plus d’informations sur l’activer, consultez la documentation de votre carte réseau. 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Découvrez comment sélectionner les langues du standard automatique d’audioconférence pour un numéro d’audioconférence dans Skype Entreprise Online.
-ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: d2b4c0d9be666a6ee7de9c2bd36b8dd06cccdf32
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163900"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109996"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "44163900"
 
 Le standard automatique d’audioconférence pour Skype Entreprise permet d’accueillir les appelants dans un certain nombre de langues différentes lorsqu’ils rejoignent une réunion.
   
-Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
+Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez est utilisée en premier et les langues secondaires sont utilisées par le attendant automatique dans l’ordre dans l’ordre dans celui-ci. 
   
 > [!NOTE]
 >  Vous pouvez uniquement modifier les langues des numéros d’audioconférence de la catégorie Dédié. Les langues du numéro d’audioconférence partagée ne peuvent pas être modifiées.
@@ -45,9 +45,9 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du attendant automatique de conférence
 
-Vous devez être un [administrateur global ou](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) un administrateur de [Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Entreprise pour effectuer cette étape.
+Pour effectuer cette étape, vous devez être administrateur [global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou administrateur [de Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Entreprise.
     
-1. Dans le **Centre d’administration Skype Entreprise,** dans le panneau de navigation de gauche, allez sur **le portail hérité.** Une fois dans l’ancien portail, sélectionnez **Audioconférence,** puis cliquez sur **Pont Microsoft.**
+1. Dans le **Centre d’administration Skype Entreprise,** dans le panneau de navigation de gauche, allez sur **le portail hérité.** Une fois dans le portail hérité, **sélectionnez Audioconférence,** puis cliquez sur **Pont Microsoft.**
     
 2. Sélectionnez le numéro de téléphone de l’audioconférence dans la liste, puis dans le volet Action, cliquez **sur Définir les langues.** Il est uniquement possible de modifier les langues des numéros d’audioconférence dédiés.  
     
@@ -68,10 +68,10 @@ Vous devez être un [administrateur global ou](https://support.office.com/articl
     
 ## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 
-Pour automatiser cette étape, vous pouvez utiliser les [cmdlets Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) et [Get-CsOnlineDialInConferencingLanguagesSupported.](https://go.microsoft.com/fwlink/?LinkId=617684)
+Pour automatiser cette étape, vous pouvez utiliser les [cmdlets Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) et [Get-CsOnlineDialInConferencingLanguagesSupported.](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported)
   
-Pour en savoir plus, [consultez Utiliser Windows PowerShell pour effectuer les tâches courantes de gestion de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+Pour en savoir plus, [consultez Utiliser Windows PowerShell pour effectuer les tâches courantes de gestion de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

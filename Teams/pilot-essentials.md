@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f74b3d59c226c3445fb317c22c29c67682d8107
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 4e2d909722674f23e253d0ae937efddb14d96d7a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578317"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108370"
 ---
 # <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
@@ -32,13 +32,13 @@ ms.locfileid: "49578317"
 Cet article fait partie de la phase déploiement et implémentation de votre parcours de mise à niveau et partage des informations pour la mise en place d’un pilote efficace. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
-- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Étendue définie de votre projet](./upgrade-define-project-scope.md)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Préparé votre environnement](./upgrade-prepare-environment.md)
+- [Préparé votre organisation](./upgrade-prepare-organization.md)
 
-En déployant de nouvelles technologies, votre organisation peut réaliser des économies, la conformité en matière de sécurité, la satisfaction des employés et des efficacités opérationnelles, mais elle peut également affecter la productivité et l’infrastructure organisationnelle de vos utilisateurs (votre réseau). Avant d’activer la nouvelle technologie au sein de votre organisation, effectuez un pilote utilisateur formel. De la même manière que vous peindreiez un petit morceau de couleur sur un mur avant de peindre toute la pièce, vous testeriez un déploiement large à plus petite échelle en conduire un pilote pour vérifier la disponibilité technique et de la disponibilité des utilisateurs, identifier et réduire les problèmes et contribuer à la réussite de l’implémentation à l’échelle de l’organisation.
+En déployant de nouvelles technologies, votre organisation peut réaliser des économies, la conformité à la sécurité, la satisfaction des employés et des efficacités opérationnelles, mais elle peut également affecter la productivité et l’infrastructure organisationnelle de vos utilisateurs (votre réseau). Avant d’activer la nouvelle technologie au sein de votre organisation, effectuez un pilote utilisateur formel. De la même manière que vous peindreiez un petit morceau de couleur sur un mur avant de peindre toute la pièce, vous testeriez un déploiement large à plus petite échelle en conduire un pilote pour vérifier la disponibilité technique et de la disponibilité des utilisateurs, identifier et réduire les problèmes et contribuer à la réussite de l’implémentation à l’échelle de l’organisation.
 
 Pour obtenir les résultats les plus réalistes, le pilote doit impliquer des utilisateurs réels, reproduire la façon dont ils communiquent et collaborent, et vérifier les expériences tant techniques que utilisateur. Que votre organisation envisage d’utiliser Skype Entreprise et Teams côte à côte, de mettre à niveau vers Teams à l’avenir ou de déployer de nouvelles fonctionnalités telles que les appels ou les conférences, un pilote peut vous aider à identifier le bon chemin d’accès pour votre organisation. Parfois considéré comme la phase 1 d’un déploiement, le pilote idéal tire parti de la préparation que vous avez déjà commencée et implémente votre plan défini avec un groupe d’utilisateurs ciblé.
 
@@ -65,13 +65,13 @@ L'une des plus importantes tâches d'une planification pilote consiste à sélec
 
 ## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. Concevoir votre plan de test et votre enquête de commentaires
 
-Pour une expérience pilote réussie, indiquez aux participants des tâches clairement définies, ainsi qu’un moyen pour eux de partager leurs commentaires. Groupez des tâches afin d’offrir des scénarios réels à vos utilisateurs, montrant la pertinence de leurs activités quotidiennes. Laissez les cas d’utilisation définis dans [Évaluer la](https://aka.ms/OrgReadiness) préparation au changement d’organisation guident votre plan de test.
+Pour une expérience pilote réussie, indiquez aux participants des tâches clairement définies, ainsi qu’un moyen pour eux de partager leurs commentaires. Groupez des tâches afin d’offrir des scénarios réels à vos utilisateurs, montrant la pertinence de leurs activités quotidiennes. Laissez les cas d’utilisation définis dans [Évaluer la](./upgrade-org-change-readiness.md) préparation au changement d’organisation guident votre plan de test.
 
-Votre organisation peut choisir de piloter toutes les fonctionnalités en une fois ou d’utiliser une approche progressive (par exemple, la collaboration pilote, les réunions, les discussions et les appels). Assurez-vous d’avoir un canal de commentaires ouvert pour suivre l’avancement et mesurer les résultats. Utilisez une enquête prédéfinisée pour capturer et évaluer facilement les résultats pilotes. la conception de l’enquête doit être basée sur les scénarios et fonctionnalités de votre plan de test.
+Votre organisation peut choisir de piloter toutes les fonctionnalités en une fois ou d’utiliser une approche progressive , par exemple, la collaboration pilote d’abord, les réunions, puis les discussions et les appels. Assurez-vous d’avoir un canal de commentaires ouvert pour suivre l’avancement et mesurer les résultats. Utilisez une enquête prédéfinisée pour capturer et évaluer facilement les résultats pilotes. la conception de l’enquête doit être basée sur les scénarios et les fonctionnalités de votre plan de test.
 
 ## <a name="4-create-your-communications-plan"></a>4. Créer votre plan de communication
 
-Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour soutenir l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support pour que les utilisateurs obtiennent des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour commencer à travailler sur votre plan de communication pilote :
+Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour stimuler l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support technique, qui permet aux utilisateurs d’obtenir des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour commencer à travailler sur votre plan de communication pilote :
 
 - [Ressources pilotes, notamment](https://aka.ms/UpgradeSuccessKit)des modèles de courrier électronique et des exemples de questions d’enquête de commentaires
 - [Basculez vers Teams à partir de Skype Entreprise,](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)un guide de démarrage rapide conçu pour aider les utilisateurs de Skype Entreprise à commencer à utiliser Teams
@@ -98,7 +98,7 @@ Voici une suggestion de calendrier pour un projet pilote de 30 jours :
 - Jour 14 : Envoyez une communication intermédiaire à vos utilisateurs pilotes, organisez une réunion hebdomadaire de point de contrôle de l’équipe de projet.
 - Jour 21 : Organiser une réunion hebdomadaire de point de contrôle de l’équipe de projet.
 - Jour 30 : Envoyer la communication finale à vos utilisateurs pilotes.
-- Jours 31 à 45 : Évaluez les résultats pilotes et planifiez les étapes suivantes.
+- Jours 31 à 45 : Évaluez les résultats des phases pilotes et planifiez les étapes suivantes.
 
 ## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. Évaluer les apprentissages et évaluer votre plan de avance
 
@@ -106,11 +106,11 @@ Une fois votre pilote terminé, vous devez rassembler toutes les enquêtes de co
 
 Si vos résultats indiquent :
 
-- **Vos objectifs pilotes (par exemple,** la satisfaction des utilisateurs et la qualité du réseau) ont été atteints. Vous devriez être prêt à passer à la phase suivante de votre déploiement. Selon les objectifs de votre projet, cela peut être l’un des suivants :
+- **Vos objectifs pilotes (par exemple,** la satisfaction des utilisateurs et la qualité du réseau) ont été atteints, vous devriez être prêt à passer à la phase suivante de votre déploiement. Selon les objectifs de votre projet, cela peut être l’un des suivants :
   - Extension du pilote à d’autres participants
-  - [Activation de Teams avec Skype Entreprise (mode **Îles)** pour l’ensemble ou une partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [Mise à niveau des utilisateurs de Skype Entreprise vers Teams (mode **Teams** uniquement) pour tout ou partie de votre organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
-- **Votre pilote n’a** pas obtenu le résultat souhaité (par exemple, la satisfaction des utilisateurs et la qualité du réseau), prenez le temps d’apporter les ajustements appropriés à votre plan et de revisiter votre pilote.
+  - [Activation de Teams avec Skype Entreprise (mode **Îles)** pour l’ensemble ou une partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Mise à niveau des utilisateurs de Skype Entreprise vers Teams (mode **Teams** uniquement) pour tout ou partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
+- Votre pilote n’a pas obtenu les résultats **souhaités (par exemple,** la satisfaction des utilisateurs et la qualité du réseau), prenez le temps d’apporter les ajustements appropriés à votre plan et de revoir votre pilote.
 
 > [!Tip]
-> Demandez à vos participants pilotes en tant qu’homologues de contribuer à l’intégration et à la intégration de nouveaux utilisateurs à Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Apprenez-en davantage [sur les champions](https://go.microsoft.com/fwlink/?linkid=859068) et la manière de les utiliser dans votre propre déploiement.
+> Demandez à vos participants pilotes en tant que pairs champions de contribuer à l’intégration et à la intégration de nouveaux utilisateurs à Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Découvrez les [champions et](https://go.microsoft.com/fwlink/?linkid=859068) la manière de les utiliser dans votre propre déploiement.

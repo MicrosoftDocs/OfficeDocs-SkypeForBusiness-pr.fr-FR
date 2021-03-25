@@ -12,25 +12,25 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
-  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "44805545"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51119033"
 additionalContent:
   sections:
   - title: Professionnels de l’informatique
     items:
     - title: Skype Entreprise Online
       summary: Trouvez des ressources pour gérer Skype Entreprise Online dans votre environnement Office 365.
-      url: /SkypeForBusiness/skype-for-business-online
+      url: ../SfbOnline/skype-for-business-online.yml
     - title: Solutions hybrides
       summary: Trouvez des informations sur la planification d’un déploiement Skype Entreprise hybride.
-      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype Entreprise Server
       summary: Déployer et gérer Skype Entreprise Server pour votre organisation.
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: Référence PowerShell pour Skype Entreprise
       summary: En savoir plus sur les applets de commande PowerShell dont vous devez pour gérer Skype Entreprise et Skype Entreprise Online.
       url: /powershell/skype/intro
@@ -45,7 +45,7 @@ additionalContent:
       url: /SkypeForBusiness/room-systems/
     - title: Programme de certification Skype Entreprise
       summary: En savoir plus sur les solutions et appareils certifiés.
-      url: /SkypeForBusiness/certification/overview
+      url: ../SfbPartnerCertification/certification/overview.md
     - title: Résoudre les problèmes
       summary: Recherchez des ressources pour la résolution des problèmes et le support pour les administrateurs et professionnels de l’informatique.
       url: /office/troubleshoot

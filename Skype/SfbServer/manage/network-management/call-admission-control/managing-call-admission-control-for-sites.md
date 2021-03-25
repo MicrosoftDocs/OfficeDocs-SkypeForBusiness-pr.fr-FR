@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les sites réseau sont les bureaux ou emplacements au sein de chaque région réseau des déploiements du service Contrôle d’admission des appels, du service E9-1-1 ou du contournement de médias.
-ms.openlocfilehash: dbe02c78c40cab48a79d7c63d3c6239b4ae59458
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0b339f15e53dd94bda655884f70c041f9da9e5a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816454"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118563"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gestion du contrôle d’admission des appels pour les sites dans Skype Entreprise Server
 
@@ -24,7 +24,7 @@ Les sites réseau sont les bureaux ou emplacements au sein de chaque région ré
 
 ## <a name="configure-network-site-links"></a>Configurer des liens de sites réseau
 
-Dans une configuration de contrôle d’admission des appels, vous pouvez créer des stratégies intersessants réseau qui définissent des limites de bande passante entre les sites qui sont directement liés. Quand des sites de réseau partagent un lien direct, des restrictions de bande passante pour les connexions audio et vidéo peuvent être définies pour lesdits sites. Vous ne pouvez pas utiliser le Panneau de configuration de Skype Entreprise Server pour configurer des stratégies de site réseau. Pour ce faire, vous pouvez uniquement utiliser les cmdlets de Skype Entreprise Server Management Shell. Vous pouvez créer, modifier et supprimer un lien de site réseau (également appelé stratégie inters site réseau) à partir de Skype Entreprise Server Management Shell.
+Dans une configuration de contrôle d’admission des appels (CAC), vous pouvez créer des stratégies réseau intersessant qui définissent des limites de bande passante entre les sites qui sont directement liés. Quand des sites de réseau partagent un lien direct, des restrictions de bande passante pour les connexions audio et vidéo peuvent être définies pour lesdits sites. Vous ne pouvez pas utiliser le Panneau de configuration de Skype Entreprise Server pour configurer des stratégies de site réseau. Pour ce faire, vous pouvez uniquement utiliser les cmdlets de Skype Entreprise Server Management Shell. Vous pouvez créer, modifier et supprimer un lien de site réseau (également appelé stratégie intersessant réseau) à partir de Skype Entreprise Server Management Shell.
 
 ### <a name="to-create-a-network-site-link"></a>Pour créer un lien de site réseau
 
@@ -38,7 +38,7 @@ Dans une configuration de contrôle d’admission des appels, vous pouvez créer
     
     Cet exemple crée un lien de site réseau nommé Reno Portland qui définit des limites de bande passante entre les sites réseau \_ Reno et Portland. Les sites réseau et le profil de stratégie de bande passante doivent être existants avant d’exécuter cette commande.
 
-Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy). Pour récupérer une liste des profils de stratégie de bande passante pouvant être appliqués au lien de site réseau, appelez l’applet de commande **Get-CsNetworkBandwidthPolicyProfile**. Pour plus d’informations, [voir Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
+Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy). Pour récupérer une liste des profils de stratégie de bande passante pouvant être appliqués au lien de site réseau, appelez l’applet de commande **Get-CsNetworkBandwidthPolicyProfile**. Pour plus d’informations, [voir Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 ### <a name="to-modify-a-network-site-link"></a>Pour modifier un lien de site réseau
 
@@ -50,7 +50,7 @@ Pour obtenir des descriptions détaillées des paramètres, voir [New-CsNetworkI
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Pour obtenir des descriptions détaillées des paramètres, voir [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy).
+Pour obtenir des descriptions détaillées des paramètres, voir [Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy).
 
 
 ### <a name="to-delete-a-network-site-link"></a>Pour supprimer un lien de site réseau
@@ -63,7 +63,7 @@ Pour obtenir des descriptions détaillées des paramètres, voir [Set-CsNetworkI
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Pour obtenir des descriptions détaillées des paramètres, voir [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
+Pour obtenir des descriptions détaillées des paramètres, voir [Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
 
 
 ## <a name="view-network-site-information"></a>Afficher les informations du site réseau
@@ -88,7 +88,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 ### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de site réseau à l’aide Windows PowerShell cmdlets
 
-Vous pouvez afficher les informations de site réseau à l’Windows PowerShell l'Get-CsNetworkSite cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les informations de site réseau à l’Windows PowerShell et à l'Get-CsNetworkSite cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ### <a name="to-view-network-site-information"></a>Pour afficher des informations sur les sites réseau
 
@@ -106,7 +106,7 @@ Vous pouvez afficher les informations de site réseau à l’Windows PowerShell 
         BWPolicyProfileID :
         LocationPolicy    :
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite).
 
 
 ## <a name="create-or-modify-network-sites"></a>Créer ou modifier des sites réseau 
@@ -145,7 +145,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 10. Cliquez sur **Valider**.
 
     > [!NOTE]  
-    > Lors de la création d’un site réseau, vous n’utilisez pas la table **Sous-réseaux associés**. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir [Gestion des sous-réseaux.](managing-network-subnets.md)
+    > Lors de la création d’un site réseau, vous n’utilisez pas la table **Sous-réseaux associés**. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir [Gestion des sous-réseaux réseau.](managing-network-subnets.md)
 
 ### <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 
@@ -196,20 +196,20 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 ## <a name="see-also"></a>Voir aussi
 
 
-[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
+[New-CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy) 
  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
 
-[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
 
-[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
 
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
+[New-CsNetworkSite](/powershell/module/skype/New-CsNetworkSite)
 
-[Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+[Set-CsNetworkSite](/powershell/module/skype/Set-CsNetworkSite)
 
-[Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[Remove-CsNetworkSite](/powershell/module/skype/Remove-CsNetworkSite)  
 
-[Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  
+[Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite)

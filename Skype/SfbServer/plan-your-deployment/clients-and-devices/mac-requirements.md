@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et d’infrastructure requise pour l’exécution de Skype Entreprise sur un Mac.
-ms.openlocfilehash: 5f967bab3a5dcc41a3419324c9fe09b48a8fb674
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 866eda0cc5e82db1da1b69bee3eb4bf26df6d7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832164"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109280"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype Entreprise sur Mac : exigences en matière de client
  
@@ -38,11 +38,11 @@ Le client Skype Entreprise sur Mac nécessite Mac OS X El Capitan et une valeur 
   
 ### <a name="legacy-mac-clients"></a>Clients Mac hérités
 
-Skype Entreprise Server 2015 prend également en charge les clients hérités suivants sur les ordinateurs exécutant Mac OS 10.5.8 ou les systèmes d’exploitation ou version de service les plus récents (basés sur Intel) (le système d’exploitation Mac OS 10.9 n’est actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités prise en charge, voir Comparaison des fonctionnalités client de [bureau pour Skype Entreprise.](desktop-feature-comparison.md)
+Skype Entreprise Server 2015 prend également en charge les clients hérités suivants sur les ordinateurs qui exécutent Mac OS 10.5.8 ou les systèmes d’exploitation ou version la plus récente (basé sur Intel) (le système d’exploitation Mac OS 10.9 n’est actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités prise en charge, voir Comparaison des fonctionnalités client de [bureau pour Skype Entreprise.](desktop-feature-comparison.md)
   
-- Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](https://go.microsoft.com/fwlink/p/?LinkId=268786)
+- Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
-- Microsoft Communicator pour Mac 2011 (voir Communicator [pour Mac 2011 Deployment Guide)](https://go.microsoft.com/fwlink/p/?LinkId=268787)
+- Microsoft Communicator pour Mac 2011 (voir Communicator [pour Mac 2011 Deployment Guide)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
  
 Ces clients ne sont pas pris en charge par Skype Entreprise Server 2019.
    
@@ -74,7 +74,7 @@ La mobilité doit être correctement déployée pour que le client Skype Entrepr
     
 - lyncdiscover.\<sipdomain\>
     
-Pour plus d’informations, voir : [Deploying Mobility in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).
+Pour plus d’informations, voir : [Deploying Mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Infrastructure"> </a>

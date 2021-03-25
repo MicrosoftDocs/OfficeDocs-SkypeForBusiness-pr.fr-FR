@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Les administrateurs Skype Entreprise Server 2015 ou Skype Entreprise Online peuvent utiliser ces tableaux pour comprendre quelles fonctionnalités sont pris en charge sur quels clients.'
-ms.openlocfilehash: 5ee4546e62593ca61e9833bbdf1c09efeef4ce13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6c23f924ef950f869cb2e337e59edda28715d11d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832184"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109290"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités du client de bureau pour Skype Entreprise Server 2015
 
@@ -30,14 +30,14 @@ ms.locfileid: "49832184"
   
  Avant de déployer ou de mettre à niveau Skype Entreprise, vérifiez quels clients sont déjà utilisés dans votre organisation. Utilisez les tableaux ci-dessous pour comprendre l’impact de la prise en charge des fonctionnalités sur ces clients. Cela peut vous aider à communiquer les modifications apportées aux utilisateurs, à suivre le processus de déploiement et à bien comprendre les avantages de la mise à niveau vers le dernier client.
   
-Certaines fonctionnalités disponibles avec Skype Entreprise Server 2015 ne sont pas disponibles dans Skype Entreprise Online. Pour plus d’informations, consultez les [limitations](desktop-feature-comparison.md#Online-Hybrid) de compte d’utilisateur en ligne ou hybride. Les administrateurs de Skype Entreprise Online peuvent consulter la description du [service Skype](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) Entreprise Online pour obtenir des informations sur les différents plans qui leur sont proposés.
+Certaines fonctionnalités disponibles avec Skype Entreprise Server 2015 ne sont pas disponibles dans Skype Entreprise Online. Pour plus d’informations, consultez les [limitations](desktop-feature-comparison.md#Online-Hybrid) de compte d’utilisateur en ligne ou hybride. Les administrateurs Skype Entreprise Online peuvent consulter la description du [service Skype](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) Entreprise Online pour obtenir des informations sur les différents plans qui leur sont proposés.
 
 Voir comparaison des fonctionnalités du client de bureau pour Skype Entreprise [2019](../../../SfBServer2019/plan/feature-comparison.md) pour la prise en charge du client sur Skype Entreprise Server 2019.
   
 Les tableaux suivants indiquent les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype Entreprise Server 2015 ou Skype Entreprise Online. Vous pouvez également faire référence à la comparaison des fonctionnalités client mobiles pour [Skype](mobile-feature-comparison.md) Entreprise pour les comparaisons de fonctionnalités client pour smartphone et tablette. La licence d’accès au client ou la licence d’abonnement utilisateur que votre organisation achète aura également un impact sur les fonctionnalités disponibles pour vos utilisateurs. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Pour plus [d’informations,](https://products.office.com/skype-for-business/it-pros) voir le Guide des licences.
   
 > [!IMPORTANT]
-> Skype Entreprise Server 2015 et Skype Entreprise Online prise en charge les clients précédemment publiés suivants : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les tableaux de comparaison des clients pour [Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) et des tables de comparaison des clients [pour Lync Server 2010.](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx)
+> Skype Entreprise Server 2015 et Skype Entreprise Online sont les clients précédemment publiés suivants : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les tableaux de comparaison des clients pour [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) et des tables de comparaison des clients [pour Lync Server 2010.](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))
 
 > [!NOTE]
 > Le client **Lync 2010 Attendant** n’est pas pris en charge dans Skype Entreprise Online.
@@ -94,14 +94,14 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 
 |Fonctionnalité/fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | Application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Lancer la messagerie instantanée avec ou par e-mail à un contact |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
+|Lancer la messagerie instantanée avec un contact ou envoyer un e-mail à un contact |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
 |Naviguer entre plusieurs conversations par messagerie instantanée/Suivre plusieurs conversations dans une seule fenêtre à onglets |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
 |Enregistrer des conversations par messagerie instantanée dans Outlook |&#x2714;|&#x2714;si l’historique des conversations côté serveur est allumé  |&#x2714;|&#x2714;|&#x2714;|&#x2714;||Sauf dans Communicator pour Mac |Enregistré dans Lync pour Mac |
 |Utiliser des modèles de conversation existants |||||&#x2714;|&#x2714;||||
 |Vérifier l’orthographe |&#x2714;|&#x2714;||&#x2714;|||||&#x2714;|
 |Recherche de compétences (avec intégration à SharePoint Server)  <br/> (Skype Entreprise Server local et SharePoint 2013 local sont requis pour la recherche de compétences.) |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;||||
 |Intégration de la conversation permanente (conversation de groupe)  <br/> (non disponible pour Skype Entreprise Online) |&#x2714;||&#x2714;|||||||
-|Escalader une salle de conversation permanente en réunion Skype Entreprise en un clic  <br/> (non disponible pour Skype Entreprise Online) |&#x2714;||&#x2714;|||||||
+|Faire d’un clic une salle de conversation permanente à une réunion Skype Entreprise  <br/> (non disponible pour Skype Entreprise Online) |&#x2714;||&#x2714;|||||||
 |Images inline de l’expéditeur et du destinataire dans la fenêtre de messagerie instantanée |&#x2714;||&#x2714;|&#x2714;||||||
 |Envoyer des messages manuscrits ||||&#x2714;||||||
 |Recevoir des messages manuscrits |&#x2714;||&#x2714;|&#x2714;||||||
@@ -115,10 +115,10 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 Ce tableau couvre les fonctionnalités liées à la prise en charge des réunions.
   
 > [!NOTE]
-> Les fonctionnalités de réunion Skype Entreprise ne sont pas disponibles dans Skype Entreprise Online Plan autonome 1.  Le plan 1 est [retiré.](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement)
+> Les fonctionnalités de réunion Skype Entreprise ne sont pas disponibles dans Skype Entreprise Online Plan autonome 1.  Le plan 1 est [retiré.](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
 
 Dans les sessions Skype à Skype, un utilisateur Skype Entreprise Online Plan 1 peut participer au partage de bureau et au partage d’application s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.
-Pour plus d’informations, voir [la description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx)
+Pour plus d’informations, voir la [description du service Skype Entreprise Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
   
 |Fonctionnalité/fonctionnalité | Client Skype Entreprise 2016 | Skype Entreprise sur Mac | Skype Entreprise Web App | Client Skype Entreprise 2015 | Client Lync 2013 | Application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -152,7 +152,7 @@ Pour plus d’informations, voir [la description du service Skype Entreprise Onl
 |Définir la vidéo à la une (verrouiller la vidéo) |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Donner/prendre le contrôle du partage d’écran |&#x2714;||&#x2714;|||||||||
 
- &#x2776; les participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise sur Mac, Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pas non plus pour Skype Entreprise Web App sur Max OSX.
+ &#x2776; participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise sur Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Skype Entreprise sur Mac, Lync pour Mac 2011 et Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pas non plus pour Skype Entreprise Web App sur Max OSX.
   
  &#x2777; pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence RNC Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
   
@@ -165,7 +165,7 @@ Pour plus d’informations, voir [la description du service Skype Entreprise Onl
 Ce tableau couvre les fonctionnalités liées à la prise en charge des services vocaux.
   
 > [!NOTE]
-> Les fonctionnalités de Skype Entreprise Voice (téléphonie) sont limitées à certains plans d’abonnement Skype Entreprise Online. Pour plus d’informations, voir [la description du service Skype Entreprise Online.](https://technet.microsoft.com/library/jj822172.aspx)
+> Les fonctionnalités de Skype Entreprise Voice (téléphonie) sont limitées à certains plans d’abonnement Skype Entreprise Online. Pour plus d’informations, voir la [description du service Skype Entreprise Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
   
 | Fonctionnalité/fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | Application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -226,7 +226,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de l’enreg
 
 Ce tableau couvre les fonctionnalités nécessitant la prise en charge de l’authentification moderne.
   
-L’authentification moderne nécessite également une topologie décrite dans les topologies Skype Entreprise pris en [charge avec l’authentification moderne.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+L’authentification moderne nécessite également une topologie décrite dans les topologies Skype Entreprise pris en charge [avec l’authentification moderne.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
 
 | Fonctionnalité/fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | Application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

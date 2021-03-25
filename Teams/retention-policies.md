@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: HT
+ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460654"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117602"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
@@ -37,9 +37,9 @@ Les stratégies de rétention et étiquettes de rétention de Microsoft 365 vou
 
 En tant qu’administrateur, Teams prend en charge les stratégies de rétention pour les messages de conversation et de canal de sorte que, en tant qu’administrateur, vous pouvez décider de conserver ces données de façon proactive, de les supprimer ou de les conserver pendant une période spécifique, puis de les supprimer. Vous pouvez appliquer une stratégie de rétention Teams à l’ensemble de votre organisation ou à des utilisateurs et des équipes spécifiques. Les étiquettes de rétention ne sont pas prise en charge pour Teams.
 
-Pour en savoir plus sur la rétention et la manière d’appliquer des paramètres de rétention à l’aide de stratégies de rétention ou d’étiquettes de rétention pour d’autres charges de travail dans Microsoft 365, consultez [En savoir plus sur les stratégies de rétention et les étiquettes de rétention](https://docs.microsoft.com/microsoft-365/compliance/retention).
+Pour en savoir plus sur la rétention et la manière d’appliquer des paramètres de rétention à l’aide de stratégies de rétention ou d’étiquettes de rétention pour d’autres charges de travail dans Microsoft 365, consultez [En savoir plus sur les stratégies de rétention et les étiquettes de rétention](/microsoft-365/compliance/retention).
 
-La licence minimale requise pour les stratégies de rétention Teams est Microsoft 365 E3. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+La licence minimale requise pour les stratégies de rétention Teams est Microsoft 365 E3. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Fonctionnement des stratégies de rétention/suppression Teams
 
@@ -47,7 +47,7 @@ Les messages de conversation Teams sont stockés dans deux emplacements. La copi
 
 Lorsqu’une politique de rétention de message est appliquée à un utilisateur ou une équipe, et si les messages sont supprimés (en raison d’une autre stratégie de suppression ou par l’utilisateur lui-même), la copie principale est supprimée, ce qui signifie que le client Teams voit le message disparaître, mais la copie secondaire est déplacée automatiquement vers un dossier masqué nommé **SubstrateHolds**, qui est un sous-dossier du dossier Exchange **Éléments récupérables**. Tant que ces messages n’ont pas été supprimés définitivement du dossier SubstrateHolds, ils peuvent être retrouvés via les outils eDiscovery.
 
-Pour plus d’informations sur les éléments inclus et exclus des stratégies de rétention de Teams et leur fonctionnement relatif à votre configuration de stratégie, consultez [En savoir plus sur la rétention de Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams).
+Pour plus d’informations sur les éléments inclus et exclus des stratégies de rétention de Teams et leur fonctionnement relatif à votre configuration de stratégie, consultez [En savoir plus sur la rétention de Microsoft Teams](/microsoft-365/compliance/retention-policies-teams).
 
 > [!NOTE]
 > Cette page vous explique pourquoi on constate parfois des retards lorsque les stratégies de rétention suppriment des messages. Par exemple, les messages peuvent être visibles jusqu’à 7 jours après la période d’expiration que vous avez configurée dans la stratégie de rétention.
@@ -56,7 +56,7 @@ Si vous définissez plusieurs stratégies de rétention Teams avec des paramètr
 - En cas de conflit entre la rétention ou la suppression d’un même contenu, le contenu est toujours conservé.
 - S’il existe un conflit dans la durée de rétention du même contenu, il est conservé pendant la période de rétention la plus longue.
 
-Ces deux principes de rétention s’adressent à la plupart des conflits qui peuvent survenir lorsque vous avez plusieurs stratégies de rétention pour Teams. Pour plus d’informations, consultez [Principes de rétention et priorités ?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+Ces deux principes de rétention s’adressent à la plupart des conflits qui peuvent survenir lorsque vous avez plusieurs stratégies de rétention pour Teams. Pour plus d’informations, consultez [Principes de rétention et priorités ?](/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>Quand utiliser les politiques de conservation pour Teams
 
@@ -68,7 +68,7 @@ Par exemple, pour les messages de canal, vous pouvez appliquer une stratégie de
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Créer et gérer des stratégies de rétention pour Teams
 
-Pour créer une stratégie de rétention pour les conversations et les messages de canal Teams, utilisez les instructions de [Stratégie de rétention pour les emplacements Teams](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+Pour créer une stratégie de rétention pour les conversations et les messages de canal Teams, utilisez les instructions de [Stratégie de rétention pour les emplacements Teams](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
 
 Cette page présente des informations supplémentaires sur la création et la gestion des stratégies de rétention pour d’autres charges de travail dans Microsoft 365. Par exemple, vous pouvez également créer une stratégie de rétention pour les groupes Microsoft 365 afin de conserver et de supprimer les fichiers accessibles dans Teams et qui sont stockés dans OneDrive ou SharePoint.  
 
@@ -90,10 +90,10 @@ Pour les messages de canal, les utilisateurs (membres du canal) voient les messa
 > [!NOTE]
 > Pour l’instant, les messages affichés qui résultent de la suppression ne sont pas configurables.
 
-Les liens dans ces messages affichés sont disponibles dans [messages Teams concernant les stratégies de rétention](https://support.microsoft.com/fr-FR/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). Cette documentation pour les utilisateurs finaux répond aux questions de base sur la raison pour laquelle leurs messages ont été supprimés. Toutefois, dans le cadre du déploiement de votre stratégie de rétention, veillez à communiquer aux utilisateurs et au service d’aide l’impact de vos paramètres configurés.
+Les liens dans ces messages affichés sont disponibles dans [messages Teams concernant les stratégies de rétention](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). Cette documentation pour les utilisateurs finaux répond aux questions de base sur la raison pour laquelle leurs messages ont été supprimés. Toutefois, dans le cadre du déploiement de votre stratégie de rétention, veillez à communiquer aux utilisateurs et au service d’aide l’impact de vos paramètres configurés.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Prise en main des stratégies et des étiquettes de rétention](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
-- [En savoir plus sur la rétention dans Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
-- [Créer et configurer des stratégies de rétention](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies)
+- [Prise en main des stratégies et des étiquettes de rétention](/microsoft-365/compliance/get-started-with-retention)
+- [En savoir plus sur la rétention dans Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
+- [Créer et configurer des stratégies de rétention](/microsoft-365/compliance/create-retention-policies)

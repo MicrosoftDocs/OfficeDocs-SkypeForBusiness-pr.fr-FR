@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " Après avoir configuré le réseau de contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les limites de bande passante."
-ms.openlocfilehash: 8e996b4d2272144a35f667a5d6987b2cb91af708
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816504"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118573"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 
@@ -50,8 +50,8 @@ Si vous modifiez la configuration du réseau, vous pouvez exécuter de nouveau l
  
 [Déploiement du contrôle d’admission des appels](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-CsNetworkConfiguration](/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](/powershell/module/skype/Remove-CsNetworkConfiguration)

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9f5cc68ce18bc7e1670db4031ff85b7c76ff2
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: c5533b6d5c2e08cb79ec8dd2052d761d86546b05
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909268"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117842"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planifier les déploiements d’Office 365 Government - GCC High
 
@@ -44,7 +44,7 @@ L’environnement Office 365 Government - GCC High fournit la conformité avec l
 
 Vous pouvez trouver plus d’informations sur l’offre Office 365 Government – GCC High pour les clients du gouvernement américain sur les offres [Office 365 Government,](https://products.office.com/government/compare-office-365-government-plans)y compris sur les conditions [d’éligibilité.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
-La [description du service Office 365 pour](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) le gouvernement américain décrit les avantages de la plateforme, qui sont centrés sur les conditions de conformité requises aux États-Unis.
+La [description du service Office 365 us Government service](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) décrit les avantages de la plateforme, qui sont centrés sur les conditions de conformité requises aux États-Unis.
 
 
 > [!Tip]
@@ -58,14 +58,14 @@ La [description du service Office 365 pour](https://docs.microsoft.com/office365
 > [!Note]
 > Office 365 Government - GCC High est disponible uniquement aux États-Unis. Les clients non-us Government peuvent choisir parmi un certain nombre d’plans [Office 365 Secteur Public.](https://products.office.com/en/government/compare-office-365-government-plans)
 
-## <a name="step-2-apply-for-office-365-government---gcc-high"></a>Étape 2. S’inscrire à Office 365 Service public - GCC High
+## <a name="step-2-apply-for-office-365-government---gcc-high"></a>Étape 2. S’appliquer à Office 365 Service public - GCC High
 
 Ayant décidé que ce service est exact pour votre organisation, commencez le processus de demande [de ce service.](https://products.office.com/government/eligibility-validation)
 
 
 ## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>Étape 3. Comprendre les paramètres de sécurité par défaut d’Office 365 Government - GCC High.
 
-Nous vous conseillons de prendre le temps de passer en revue soigneusement vos [paramètres](enable-features-office-365.md) d’administration et de sécurité avant de les modifier, et de prendre en compte les conséquences sur la conformité avant de modifier les paramètres de sécurité par défaut.
+Nous vous recommandons de prendre le temps de passer en revue soigneusement vos [paramètres](enable-features-office-365.md) d’administration et de sécurité avant de les modifier, et de prendre en compte les conséquences sur la conformité avant de modifier les paramètres de sécurité par défaut.
 
 |    |     |
 |-----------|------------|
@@ -76,7 +76,7 @@ Nous vous conseillons de prendre le temps de passer en revue soigneusement vos [
 
 Pour répondre aux besoins de nos clients cloud du secteur public, il existe certaines différences entre Teams dans Office 365 Secteur Public - Gcc High et Teams dans les plans d’entreprise. Consultez le tableau suivant pour voir quelles fonctionnalités sont disponibles.
 
-[Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Étape 5. Plan de gouvernance
 
@@ -88,10 +88,9 @@ Déterminez vos exigences de gouvernance et la manière dont vous pouvez les res
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer Teams pour la collaboration
 
-Après avoir été intégré à Office 365 Government – GCC High, suivez la voie de déploiement recommandée décrite dans comment déployer [Microsoft Teams.](How-to-roll-out-teams.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et les champions Teams.
+Après avoir été intégré à Office 365 Government – GCC High, suivez la voie de déploiement recommandée décrite dans comment déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et les champions Teams.
 
 Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) ou le partenaire que vous avez choisi pour intégrer le service.
 
 > [!NOTE]
 > Le client Mac Teams pour les environnements GCCH n’est pas encore pris en charge.
-

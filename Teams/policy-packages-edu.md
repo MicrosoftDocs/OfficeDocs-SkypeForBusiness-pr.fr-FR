@@ -21,21 +21,23 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908613"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117792"
 ---
-# <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégie Teams pour l’éducation
+# <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégies Teams pour l’éducation
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Pour plus d’informations sur les stratégies dans Microsoft Teams, voir [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams](assign-policies.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administrateurs : prise en main de la gestion de stratégie Microsoft Teams
 
-Microsoft Teams permet aux utilisateurs de faire des choses comme participer à des réunions en ligne ou des événements en direct, une conversation, effectuer des appels et utiliser des applications. La définition des bonnes stratégies d’administration Microsoft Teams est une étape essentielle pour s’assurer  que Teams est un environnement d’apprentissage sûr pour les étudiants. En tant qu’administrateur, vous pouvez utiliser des stratégies pour contrôler les fonctionnalités Teams mises à la disposition des utilisateurs de votre établissement d’enseignement.  Dans la plupart des cas, les stratégies doivent être adaptées aux étudiants et aux enseignants pour conserver la sécurité de l’environnement.  
+Microsoft Teams permet aux utilisateurs de faire des choses comme participer à des réunions en ligne ou des événements en direct, une conversation, effectuer des appels et utiliser des applications. La définition des bonnes stratégies d’administration Microsoft Teams est une étape essentielle pour s’assurer  que Teams est un environnement d’apprentissage sûr pour les étudiants. En tant qu’administrateur, vous pouvez utiliser des stratégies pour contrôler les fonctionnalités Teams mises à la disposition des utilisateurs de votre établissement d’enseignement. Dans la plupart des cas, les stratégies doivent être adaptées aux étudiants et aux enseignants pour conserver la sécurité de l’environnement.  
 
 Voici la liste des domaines de stratégie principaux disponibles dans Microsoft Teams. Pour en savoir plus sur les stratégies de chaque domaine et les fonctionnalités qu’elles contrôlent, utilisez les liens ci-dessous:
 
@@ -107,7 +109,7 @@ Une fois votre définition de stratégie créée ou mise à jour, vous pouvez l�
 
 ![Panneau Gérer les utilisateurs sur le côté droit, en haut de la page Stratégies de messagerie.](media/edu-manage-users-pane.png)
 
-Vous pouvez également attribuer une stratégie à un utilisateur en accédant à **Utilisateurs** , en sélectionnant l’utilisateur pour lequel vous voulez mettre à jour les stratégies, en sélectionnant **Stratégies** , puis **Modifier**. À partir de là, vous pouvez sélectionner la définition de stratégie à attribuer à l’utilisateur pour chaque domaine de fonctionnalité.
+Vous pouvez également attribuer une stratégie à un utilisateur en accédant à **Utilisateurs**, en sélectionnant l’utilisateur pour lequel vous voulez mettre à jour les stratégies, en sélectionnant **Stratégies**, puis **Modifier**. À partir de là, vous pouvez sélectionner la définition de stratégie à attribuer à l’utilisateur pour chaque domaine de fonctionnalité.
 
 ![Volet Modifier les stratégies utilisateur, à droite au-dessus de la page Stratégies affectées.](media/edu-edit-user-policies-pane.png)
 
@@ -155,7 +157,7 @@ Chaque stratégie individuelle reçoit le nom du package de stratégie afin de v
 
 ### <a name="view"></a>Afficher
 
-Afficher les paramètres de chaque stratégie dans un package de stratégie avant d’attribuer un package. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez **Packages de stratégie** , sélectionnez le nom du package, puis sélectionnez le nom de la stratégie.
+Afficher les paramètres de chaque stratégie dans un package de stratégie avant d’attribuer un package. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez **Packages de stratégie**, sélectionnez le nom du package, puis sélectionnez le nom de la stratégie.
 
 Déterminez si les valeurs prédéfinies conviennent à votre organisation ou si vous devez les personnaliser pour les rendre plus restrictives ou plus strictes en fonction des besoins de votre organisation.
 
@@ -171,7 +173,7 @@ Attribuer le package stratégie à des utilisateurs. Si une stratégie est attri
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Attribuer un package de stratégie à un ou plusieurs utilisateurs
 
-Pour attribuer un package de stratégie à un ou plusieurs utilisateurs, dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Packages de stratégie** , puis sélectionnez **Gérer les utilisateurs**.  
+Pour attribuer un package de stratégie à un ou plusieurs utilisateurs, dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Packages de stratégie**, puis sélectionnez **Gérer les utilisateurs**.  
 
 ![Capture d’écran de l’attribution d’un package de stratégie dans le Centre d’administration](media/policy-packages-healthcare-assign.png)
 
@@ -189,7 +191,7 @@ Pour plus d’informations, consultez la section [Attribuer un package de strat�
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Attribuer un package de stratégie à un grand ensemble (lot) d’utilisateurs
 
-Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
+Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
 
 Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment configurer l’interopérabilité entre votre déploiement local et Skype Entreprise Online.'
-ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e2af514ef1a10d652abae7bdd39a923dc52e1c4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569216"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118943"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurer Skype Entreprise hybride
 
@@ -33,7 +33,7 @@ Pour configurer Skype Entreprise hybride, vous devez :
 - Configurez votre environnement local pour qu’il utilise [Microsoft 365 ou Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)et activez l’espace d’adressare SIP partagé.
 - [Activez l’espace d’adressare SIP partagé dans votre organisation Microsoft 365 ou Office 365.](#enable-shared-sip-address-space-in-your-organization)
 
-Notez que si vous avez Exchange en local, vous pouvez configurer OAuth entre vos environnements Exchange local et Skype Entreprise Online. Pour plus d’informations, voir Gérer l’authentification de serveur à serveur [dans Skype](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) Entreprise Server et planifier l’intégration de Skype Entreprise [et d’Exchange.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support) 
+Notez que si vous avez Exchange en local, vous pouvez configurer OAuth entre vos environnements Exchange local et Skype Entreprise Online. Pour plus d’informations, voir Gérer l’authentification de serveur à serveur [dans Skype](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) Entreprise Server et planifier l’intégration de Skype Entreprise [et d’Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Configurer votre service Edge local pour la fédération avec Microsoft 365 ou Office 365
 
@@ -46,7 +46,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 Si la valeur « -EnablePartnerDiscovery » est définie sur $True, Skype Entreprise Server utilise les enregistrements DNS pour essayer de découvrir les domaines partenaires non répertoriés dans la liste AllowedDomains. Si la valeur est définie sur $False, Skype Entreprise Server se fédérera uniquement avec les domaines trouvés dans la liste AllowedDomains. Ce paramètre est requis si vous utilisez le routage de service DNS.
 
 > [!NOTE]
-> Pour plus d’informations sur l’activation de la fédération entre les utilisateurs de votre déploiement Skype Entreprise local et les utilisateurs d’une organisation Skype Entreprise Online, voir Configuration de la prise en charge de la fédération pour un client Skype Entreprise Online dans [Skype Entreprise Server.](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)
+> Pour plus d’informations sur l’activation de la fédération entre les utilisateurs de votre déploiement Skype Entreprise local et les utilisateurs d’une organisation Skype Entreprise Online, voir Configuration de la prise en charge de la fédération pour un client Skype Entreprise Online dans [Skype Entreprise Server.](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md)
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Configurer votre environnement local pour activer l’espace d’adressare SIP partagé avec Microsoft 365 ou Office 365
@@ -67,7 +67,7 @@ New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -E
 
  ## <a name="enable-shared-sip-address-space-in-your-organization"></a>Activer l’espace d’adressa ment SIP partagé dans votre organisation
   
-Outre les changements que vous avez apportés dans votre déploiement local, vous devez apporter la modification correspondante dans votre organisation Microsoft 365 ou Office 365 pour activer l’espace d’adressare SIP partagé avec votre déploiement local.  
+Outre les changements que vous avez apportés dans votre déploiement local, vous devez apporter les changements correspondants dans votre organisation Microsoft 365 ou Office 365 pour activer l’espace d’adressare SIP partagé avec votre déploiement local.  
 
 Pour activer l’espace d’adressale SIP partagé dans votre organisation, établissez une session PowerShell distante avec Skype Entreprise Online, puis exécutez l’cmdlet suivante :
   
@@ -78,7 +78,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > L’attribut SharedSipAddressSpace doit rester « True » jusqu’à ce que le passage en ligne soit final et qu’aucun utilisateur ne reste en local. 
   
-Pour établir une session PowerShell distante avec Teams ou Skype Entreprise Online, vous devez d’abord installer le [module PowerShell Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+Pour établir une session PowerShell distante avec Teams ou Skype Entreprise Online, vous devez d’abord installer le [module PowerShell Teams.](/microsoftteams/teams-powershell-install)
   
 Après avoir installé le module, vous pouvez établir une session à distance avec les cmdlets suivantes :
    ```powershell
@@ -89,10 +89,10 @@ Après avoir installé le module, vous pouvez établir une session à distance a
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-Pour plus d’informations sur l’établissement d’une session PowerShell à distance avec Skype Entreprise Online et sur l’utilisation du module Connecteur Skype Entreprise Online, voir Configurer votre ordinateur pour [Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Pour plus d’informations sur l’établissement d’une session PowerShell distante avec Skype Entreprise Online et sur l’utilisation du module Connecteur Skype Entreprise Online, voir Configurer votre ordinateur pour [Windows PowerShell](../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

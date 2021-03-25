@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f871e8e741856253667649484ac429bb68dd2c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460824"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117672"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
@@ -50,7 +50,7 @@ Pour les personnes qui organisent, planifient et hébergent des réunions ou des
 >
 > <sup>2</sup>  L’appel sortant de réunion vers la fonctionnalité [**M’appeler** au numéro](set-up-the-call-me-feature-for-your-users.md) exige des organisateurs qu’ils disposent de E5 ou d’une [licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Un [plan de numérotation](what-are-dial-plans.md) peut également être nécessaire.
 
-Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 
@@ -66,7 +66,7 @@ Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365
 
 - Pour en savoir plus sur la gestion des options de réunion, voir [Modifier les paramètres de vos participants pour une réunion Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
-- N’oubliez pas de [gérer les appareils de vos utilisateurs](device-management.md) -téléphones, casques, appareils photo. Pour obtenir les informations les plus récentes et les plus récentes sur les appareils certifiés pour Teams, accédez à [Appareils Teams](https://office.com/teamsdevices).
+- N’oubliez pas de [gérer les appareils de vos utilisateurs](./devices/device-management.md) -téléphones, casques, appareils photo. Pour obtenir les informations les plus récentes et les plus récentes sur les appareils certifiés pour Teams, accédez à [Appareils Teams](https://office.com/teamsdevices).
 
 ## <a name="live-events"></a>Événements en direct
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant ou en configurant les attributs suivants. La page de configuration s’organise autour des sections suivantes :'
-ms.openlocfilehash: 8616d65a73f1fb618a72ab41bc628527aa6e2a59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 63c784cbd254decdb108d8d8408cd01ef44657a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818394"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118623"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
 
@@ -43,7 +43,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
 - Si vous avez sélectionné Conférence, **Conférence rendez-vous (PSTN)** peut l’être également. Activez cette case à cocher pour mettre en œuvre les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), notamment l’option de déploiement de téléphones combinés, de connexions SIP ou de connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, [voir Voix Entreprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) and [Plan for Voix Entreprise in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), y compris la possibilité de déployer des téléphones combinés, des trunks SIP ou une connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, [voir Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) and [Plan for Voix Entreprise in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
@@ -61,7 +61,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
 - Cochez la case Pool de serveurs d’inscriptions de sauvegarde associé pour sélectionner dans la liste un serveur frontal ou pool frontal qui sera le serveur d’inscriptions de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme serveur d’inscriptions secondaire en cas de panne du serveur principal) 
 
-- Si vous avez sélectionné Pool de serveurs d’inscriptions de sauvegarde associé et si vous avez choisi un serveur d’inscriptions de sauvegarde, vous pouvez activer la case à cocher **Basculement et restauration automatiques pour Voice**. Vous pouvez maintenant définir des propriétés numériques pour **Intervalle de détection d’échec Voice (en secondes)** et **Intervalle de restauration automatique Voice (en secondes)**. Pour plus d’informations, voir [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+- Si vous avez sélectionné Pool de serveurs d’inscriptions de sauvegarde associé et si vous avez choisi un serveur d’inscriptions de sauvegarde, vous pouvez activer la case à cocher **Basculement et restauration automatiques pour Voice**. Vous pouvez maintenant définir des propriétés numériques pour **Intervalle de détection d’échec Voice (en secondes)** et **Intervalle de restauration automatique Voice (en secondes)**. Pour plus d’informations, voir [Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)
 
   **Services web**
 
@@ -73,11 +73,11 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 - Pour configurer **Services web externes**, vous définissez **Ports d’écoute** pour **HTTP** et **HTTPS**. Par défaut, il s’agit respectivement du port TCP 80 et du port TCP 443. Vous configurez également les **Ports publiés** pour **HTTP** et **HTTPS**. Par défaut, il s’agit respectivement du port TCP 80 et du port TCP 443. Selon votre configuration des services web internes et votre utilisation des équilibrages de charge (équilibrages de charge matérielle et DNS), réglez les valeurs des ports pour définir les ports d’écoute et publiés.
 
     > [!IMPORTANT]
-    > Les services web externes et les ports d’écoute et publiés sont destinés aux clients et périphériques externes. Les clients et périphériques externes utilisent les ports d’écoute et publiés des services web externes, généralement définis par votre proxy inverse, avec le nom de domaine complet (FQDN) des services web externes définis. Les relations qui existent entre le nom de domaine complet (FQDN) des services web externes définis et les URL simples définissent les adresses URL (Uniform Resource Locator) que les clients externes utiliseront pour accéder aux services disponibles pour les utilisateurs et les périphériques externes. Pour plus d’informations sur les URL simples, voir [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
+    > Les services web externes et les ports d’écoute et publiés sont destinés aux clients et périphériques externes. Les clients et périphériques externes utilisent les ports d’écoute et publiés des services web externes, généralement définis par votre proxy inverse, avec le nom de domaine complet (FQDN) des services web externes définis. Les relations qui existent entre le nom de domaine complet (FQDN) des services web externes définis et les URL simples définissent les adresses URL (Uniform Resource Locator) que les clients externes utiliseront pour accéder aux services disponibles pour les utilisateurs et les périphériques externes. Pour plus d’informations sur les URL simples, voir [Planning for Simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls).
 
   **Serveur de médiation**
 
-- Pour configurer  les propriétés du serveur de médiation pour un serveur de médiation cococéré (c’est-à-dire, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez Serveur de médiation cococéré **activé.**
+- Pour configurer  les propriétés du serveur de médiation pour un serveur de médiation c collocisé (c’est-à-dire, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez Serveur de médiation cococéré **activé.**
 
 - Pour définir les **ports d’écoute** d’un serveur de médiation câpisé, tapez la valeur du port **TLS** et **TCP** que le serveur de médiation câpisé écoute. Par défaut, TLS est défini comme le port TCP 5067.
 
@@ -91,7 +91,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
     Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous souhaitez utiliser par défaut, puis en cliquant sur Utiliser par **défaut.** Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
 
 > [!IMPORTANT]
-> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement de Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant Déploiement de Skype Entreprise Server doit être exécuté vous est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Pour plus d’informations sur l’Assistant Déploiement de Skype Entreprise Server, voir [outils d’administration Lync Server.](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement de Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant Déploiement de Skype Entreprise Server doit être exécuté vous est fournie sous la forme d’un lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l’Assistant Déploiement de Skype Entreprise Server, voir [outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 
@@ -101,4 +101,4 @@ Cliquez sur **Aide** pour lire cette rubrique d’aide.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Définition et configuration d’un pool frontal ou d’un serveur Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
+[Définition et configuration d’un pool frontal ou d’un serveur Standard Edition Server](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)

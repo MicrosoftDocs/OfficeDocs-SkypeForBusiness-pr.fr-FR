@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711761"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117892"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -39,7 +39,7 @@ Avec l'association de façon anonyme, tout le monde peut participer à la réuni
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
+Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
 1. Accédez au centre d’administration.
 
@@ -61,7 +61,7 @@ Les utilisateurs anonymes héritent désormais de la stratégie d’autorisation
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-Vous devez être administrateur du service Teams pour accéder à ce paramètre. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
+Vous devez être administrateur du service Teams pour accéder à ce paramètre. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
 1. Accédez au centre d’administration.
 

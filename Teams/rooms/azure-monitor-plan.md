@@ -15,18 +15,18 @@ ms.collection:
 - M365-collaboration
 description: Cet article décrit la planification de l’utilisation du moniteur Azure pour gérer les appareils Salle Microsoft Teams dans votre implémentation de Skype Entreprise ou Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 16a962d7414407cf5f2f5734b7a2f39a56f7d281
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 56b22dddfc475efc83fb5bb3ef5734743b1eb0c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137604"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117582"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planifier la gestion des salles Microsoft Teams à l’aide d’Azure Monitor
  
- Cet article décrit la planification de l’utilisation du moniteur Azure pour gérer les appareils Microsoft Teams Rooms dans votre application Microsoft Teams ou Skype Entreprise.
+ Cet article décrit la planification de l’utilisation du moniteur Azure pour gérer les appareils Salle Microsoft Teams dans votre microsoft Teams ou dans l’implémentation de Skype Entreprise.
   
-[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) est un ensemble de services de gestion conçus dans le cloud depuis le début. Plutôt que de déployer et de gérer des ressources sur site, les composants du moniteur Azure sont entièrement hébergés dans Azure. La configuration est minimale et vous pouvez être opérationnel littéralement en quelques minutes. Grâce à certaines opérations de personnalisation, elle peut vous aider à gérer les systèmes de conférence de salle Microsoft Teams en fournissant des notifications en temps réel concernant l’état ou les défaillances du système pour les systèmes de salle individuels, et peut potentiellement augmenter jusqu’à la gestion de milliers de salles de conférence Microsoft Teams.
+[Azure Monitor](/azure/azure-monitor/overview) est un ensemble de services de gestion conçus dans le cloud depuis le début. Plutôt que de déployer et de gérer des ressources sur site, les composants du moniteur Azure sont entièrement hébergés dans Azure. La configuration est minimale et vous pouvez être opérationnel littéralement en quelques minutes. Grâce à certaines opérations de personnalisation, elle peut vous aider à gérer les systèmes de conférence De Salle Microsoft Teams en fournissant des notifications en temps réel concernant l’état ou les défaillances du système pour les systèmes de salle individuels, et peut potentiellement augmenter jusqu’à la gestion de milliers de salles de conférence Microsoft Teams.
   
 Cet article fournit une discussion sur les conditions, la conception/architecture et les meilleures pratiques de mise en œuvre nécessaires pour implémenter la gestion Azure Monitor basée sur la gestion des périphériques de conférence Microsoft Teams Rooms, et fournit des liens vers des articles détaillés sur l’implémentation d’Azure Monitor pour les salles Microsoft Teams et des informations de référence critiques pour la surveillance continue des salles salles Microsoft Teams. 
   
@@ -42,9 +42,9 @@ Un administrateur qui utilise Azure Monitor peut recevoir des notifications conc
   
 ## <a name="azure-monitor-requirements"></a>Azure Monitor requirements
 
-Vous devez avoir un abonnement Azure valide pour qu’Azure Monitor utilise la fonctionnalité Analyse des journaux. Pour créer un abonnement pour votre organisation, voir Mise en route [d’un](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) espace de travail Analyse journal.
+Vous devez avoir un abonnement Azure valide pour qu’Azure Monitor utilise la fonctionnalité Analyse de journal. Pour créer un abonnement pour votre organisation, voir Mise en route [d’un](/azure/azure-monitor/learn/quick-create-workspace) espace de travail Analyse journal.
   
-Familiarisez-vous si nécessaire pour utiliser le Concepteur d’affichage d’analyse de journaux. Pour [plus d’informations, voir](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer) Affichages dans l’analyse des journaux.
+Familiarisez-vous si nécessaire pour utiliser le Concepteur d’affichage d’analyse de journaux. Pour [plus d’informations, voir](/azure/azure-monitor/platform/view-designer) Affichages dans l’analyse des journaux.
   
 ### <a name="related-tasks"></a>Tâches connexes
 
@@ -54,7 +54,7 @@ Familiarisez-vous si nécessaire pour utiliser le Concepteur d’affichage d’a
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Conditions individuelles requises pour la console des salles Microsoft Teams
 
-Chaque console Salle Microsoft Teams est une application qui s’exécute sur un appareil Surface Pro en mode kiosk (normalement, elle est configurée pour être la seule application qui peut s’exécuter sur l’appareil). Comme pour toute application Windows, l’application Salles Microsoft Teams écrit des événements tels que les problèmes de démarrage et de matériel dans le journal des événements Windows. L’ajout d’un agent de moniteur Microsoft sur votre appareil Salles Microsoft Teams permet de collecter ces événements. (Pour plus [d’informations, voir Connecter](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows) des ordinateurs Windows au service d’analyse journal dans Azure.)
+Chaque console Salles Microsoft Teams est une application qui s’exécute sur un appareil Surface Pro en mode kiosk (normalement, elle est configurée pour être la seule application qui peut s’exécuter sur l’appareil). Comme pour toute application Windows, l’application Salles Microsoft Teams écrit des événements tels que les problèmes de démarrage et de matériel dans le journal des événements Windows. L’ajout d’un agent de moniteur Microsoft sur votre appareil Salles Microsoft Teams permet de collecter ces événements. (Pour plus [d’informations, voir Connecter](/azure/azure-monitor/platform/agent-windows) des ordinateurs Windows au service d’analyse journal dans Azure.)
   
 ## <a name="ongoing-management"></a>Gestion continue
 
@@ -68,4 +68,4 @@ Lorsque vous utilisez un moniteur Azure pour gérer vos appareils Microsoft Team
 
 [Déployer la gestion des salles Microsoft Teams avec Azure Monitor](azure-monitor-deploy.md)
   
-[Gérer les appareils salles Microsoft Teams avec Azure Monitor](azure-monitor-manage.md)
+[Gérer les appareils Salles Microsoft Teams avec Azure Monitor](azure-monitor-manage.md)

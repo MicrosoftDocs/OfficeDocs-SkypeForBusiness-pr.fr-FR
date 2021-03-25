@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement existant de Skype Entreprise, version Cloud Connector 1.4.1 ou ultérieure.
-ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 7fdfdd5ac5a76ebbc3ac58e12a69e2e3af1330cd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359110"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109170"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d’un déploiement de Cloud Connector existant
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement existant de Skype Entreprise, version Cloud Connector 1.4.1 ou ultérieure. 
   
@@ -117,7 +117,7 @@ Pour modifier la configuration de plusieurs sites dans un déploiement, suivez l
 
 Pour activer les mises à jour automatiques du système d’exploitation et les mises à jour automatiques des bits, vous devez utiliser le compte d’administrateur client Skype Entreprise pour la gestion en ligne et utiliser powerShell à distance client comme suit.
   
-Si vous avez désactivé les mises à jour automatiques du système d’exploitation ou les mises à jour automatiques bits, votre ordinateur hôte et virtuel risque de manquer des mises à jour Windows importantes et Cloud Connector ne sera pas mis à niveau automatiquement vers la nouvelle version. Il est vivement recommandé d’activer les mises à jour automatiques.
+Si vous avez désactivé les mises à jour automatiques du système d’exploitation ou les mises à jour automatiques bits, votre ordinateur hôte et votre ordinateur virtuel risquent de manquer des mises à jour Windows importantes et Cloud Connector ne sera pas mis à niveau automatiquement vers la nouvelle version. Il est vivement recommandé d’activer les mises à jour automatiques.
   
 1. La propriété EnableAutoUpdate du site doit être définie sur true (valeur par défaut). Exécutez l’cmdlet suivante pour vous assurer que EnableAutoUpdate est définie sur true :
     
@@ -135,7 +135,7 @@ Si vous avez désactivé les mises à jour automatiques du système d’exploita
     
    - Pour une période mensuelle, il peut y avoir deux types. Le premier type consiste à spécifier le jour du mois, qui peut être un seul jour. Le deuxième type consiste à spécifier les semaines du mois, ainsi que les jours de la semaine, qui peuvent être un ou plusieurs éléments.
     
-   - Chaque client peut avoir 20 fenêtres de temps définies. La fenêtre de temps par défaut est créée pour un nouveau client comme fenêtre de temps par défaut pour la mise à jour du système d’exploitation et la mise à jour bits. Exécutez la ou les cmdlet suivantes pour définir la période quotidienne, hebdomadaire ou mensuelle :
+   - Chaque client peut avoir 20 fenêtres de temps définies. La fenêtre de temps par défaut est créée pour un nouveau client comme fenêtre de temps par défaut pour la mise à jour du système d’exploitation et la mise à jour des bits. Exécutez la ou les cmdlet suivantes pour définir la période quotidienne, hebdomadaire ou mensuelle :
     
    ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
@@ -178,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Cette section s’applique aux versions 2.0 et ultérieures de Cloud Connector. 
   
-Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . xml ». Lorsque le mot de passe du serveur hôte change, vous devez mettre à jour les informations d’identification stockées localement.
+Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml ». Lorsque le mot de passe du serveur hôte change, vous devez mettre à jour les informations d’identification stockées localement.
   
 Pour mettre à jour les informations d’identification stockées localement sur l’appliance Cloud Connector, utilisez les cmdlets [Get-CcCredential](get-cccredential.md) et [Set-CcCredential](set-cccredential.md) et suivez les étapes suivantes :
   
@@ -196,7 +196,7 @@ Pour mettre à jour les informations d’identification stockées localement sur
     
 4. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml ».
     
-5. Lancez une console PowerShell en tant qu’administrateur, puis exécutez « Register-CcAppliance -Local » pour entrer de nouveau les mots de passe suivant la description. Veillez à entrer le mot de passe que vous avez entré auparavant pour le déploiement Cloud Connector.
+5. Lancez une console PowerShell en tant qu’administrateur, puis exécutez « Register-CcAppliance -Local » pour entrer à nouveau les mots de passe suivant la description. Veillez à entrer le mot de passe que vous avez entré auparavant pour le déploiement Cloud Connector.
     
 Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyés à l’étape 1 sont différents, vous devez effectuer les étapes suivantes :
   
@@ -270,7 +270,7 @@ Pour chaque appliance qui appartient au même site PSTN, vous devez spécifier l
     
 9. Exécutez lExit-CcUpdate cmdlet pour sortir l’appliance du mode de maintenance manuelle.
     
-10. Une fois que vous avez terminé ces étapes sur toutes les appliances du même site PSTN, supprimez les fichiers suivants dans l’annuaire racine du site :
+10. Une fois ces étapes terminées sur toutes les appliances du même site PSTN, supprimez les fichiers suivants dans l’annuaire racine du site :
     
     - CcLockFile
     
@@ -299,7 +299,7 @@ Pour ajouter un nouveau domaine SIP (ou plusieurs domaines SIP) à votre déploi
 
 5. 
     
-    Suivez les instructions pour [modifier la configuration d’un site unique](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou modifier la configuration de plusieurs [sites.](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)
+    Suivez les instructions pour [modifier la configuration d’un site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) unique ou modifier la configuration de plusieurs [sites.](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)
     
 ## <a name="modify-the-primary-sip-domain"></a>Modifier le domaine SIP principal
 <a name="BKMK_UpdatePassword"> </a>
@@ -373,8 +373,6 @@ Lorsque vous devez remplacer le certificat Edge externe sur vos appliances Cloud
 
 3. 
     
-    Si le mot de passe du nouveau certificat est identique à l’ancien, l’importation réussit. Si le mot de passe est différent, vous recevrez une erreur vous l’indexant et vous devrez réinitialiser le mot de passe en exécutant la cmdlet Register-CcAppliance avec le paramètre -Local, puis en répétant l’étape 2. 
+    Si le mot de passe du nouveau certificat est identique à l’ancien, l’importation réussit. Si le mot de passe est différent, vous recevrez une erreur vous faisant part d’une erreur, et vous devrez réinitialiser le mot de passe en exécutant la cmdlet Register-CcAppliance avec le paramètre -Local, puis en répétant l’étape 2. 
     
 4. Sortir l’appliance du mode maintenance à l’aide de la cmdlet Exit -CcUpdate.
-    
-

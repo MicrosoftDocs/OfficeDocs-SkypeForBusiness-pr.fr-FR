@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions de configuration du connecteur de données d’appel, qui permet d’afficher la télémétrie à partir de Skype Entreprise en local à l’aide des outils Skype Entreprise Online.
-ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f78d59d02964bd826fc705bc193cae3e21b293a5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726924"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118993"
 ---
 # <a name="configure-call-data-connector"></a>Configurer le connecteur de données d’appel
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur les avantages et les conditions préalables du co
 
 ## <a name="enable-monitoring"></a>Activer la surveillance
  
-Vous devez configurer l’enregistrement des données des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) dans la surveillance de votre pool frontal, avec des bases de données LCSCdr et QoEMetrics locales. Dans le cas contraire, les tableaux de bord d’analyse des appels et de qualité des appels n’auront pas de données à travailler. Avant de configurer le connecteur de données d’appel, suivez les étapes fournies dans Déployer la surveillance dans Skype Entreprise [Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) pour configurer l’cdr et la qualité de l’expérience ainsi que la surveillance de base.
+Vous devez configurer l’enregistrement des données d’appel (CDR) et la collecte de données de qualité de l’expérience (QoE) dans la surveillance de votre pool frontal, avec des bases de données LCSCdr et QoEMetrics locales. Dans le cas contraire, les tableaux de bord d’analyse des appels et de qualité des appels n’auront pas de données à travailler. Avant de configurer le connecteur de données d’appel, suivez les étapes fournies dans Déployer la surveillance dans Skype Entreprise [Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) pour configurer l’cdr et la qualité de l’expérience ainsi que la surveillance de base.
 
 > [!IMPORTANT]
 > Le connecteur de données d’appel ne fonctionne pas si la surveillance n’est pas activée sur le pool frontal.
@@ -49,7 +49,7 @@ Pour configurer et activer le connecteur de données d’appel, vous utiliserez 
 
 ### <a name="configure-your-environment"></a>Configurer votre environnement 
 
-Pour configurer votre environnement afin d’activer un collecteur de données en ligne, vous devez d’abord vous connecter à Skype Entreprise Online PowerShell en tant qu’administrateur. Pour plus d’informations, voir [Gérer Skype Entreprise Online avec Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Pour configurer votre environnement afin d’activer un collecteur de données en ligne, vous devez d’abord vous connecter à Skype Entreprise Online PowerShell en tant qu’administrateur. Pour plus d’informations, voir [Gérer Skype Entreprise Online avec Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 Il existe deux méthodes pour vous connecter à Skype Entreprise Online PowerShell :
 
@@ -122,7 +122,7 @@ Les valeurs des paramètres les plus couramment utilisés par le connecteur de d
 
 ## <a name="disable-call-data-connector"></a>Désactiver le connecteur de données d’appel
 
-La désactivation du connecteur de données d’appel ne dissocie pas le magasin d’analyse du pool frontal, ni ne désinstalle ni n’affecte la base de données de surveillance principale. Lorsque vous désactivez le connecteur de données d’appel, vous empêchez Skype Entreprise Server de télécharger des données d’appel dans le cloud. 
+La désactivation du connecteur de données d’appel ne dissocie pas le magasin d’analyse du pool frontal, ni ne désinstalle ni n’affecte la base de données de surveillance principale. Lorsque vous désactivez le connecteur de données d’appel, vous empêchez Skype Entreprise Server de télécharger des données d’appel vers le cloud. 
 
 Vous désactivez le connecteur de données d’appel à l’aide Set-CsCloudCallDataConnectorConfiguration cmdlet à partir de Skype Entreprise Server Management Shell. Par exemple, la commande suivante désactive le connecteur de données d’appel au niveau de l’étendue globale en activant la propriété EnableCallDataConnector sur $False :
 
@@ -138,14 +138,14 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Afficher les données sur site via le tableau de bord en ligne
 
- Une fois le connecteur de données d’appel activé, vous pouvez afficher vos données d’appel local dans le tableau de bord d’analyse des appels ou le tableau de bord de qualité des appels, comme décrit dans l’analyse des appels pour résoudre les problèmes de qualité médiocre et activer et utiliser le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise [Online.](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) [](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
+ Une fois le connecteur de données d’appel activé, vous pouvez afficher vos données d’appel local dans le tableau de bord d’analyse des appels ou le tableau de bord de qualité des appels, comme décrit dans l’analyse des appels pour résoudre les problèmes de qualité médiocre et activer et utiliser le tableau de bord de qualité des appels pour Microsoft Teams et [Skype Entreprise Online.](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) [](/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
-## <a name="for-more-information"></a>Pour plus d'informations
+## <a name="for-more-information"></a>Pour plus d’informations
 
 Pour plus d’informations sur les cmdlets, vous pouvez utiliser la commande Get-Help de Skype Entreprise Server Management Shell. Par exemple :
 
 Get-Help Get-CsCloudCallDataConnector | more
 
-Get-Help Set-CsCloudCallDataConnector | more
+Get-Help Set-CsCloudCallDataConnector | plus
 
 Get-Help Set-CsCloudCallDataConnectorConfiguration | more

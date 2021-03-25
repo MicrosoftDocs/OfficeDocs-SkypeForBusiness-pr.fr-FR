@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: 097c28db7f2ae52d7ab0b362e828c8f05e132481
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ee99ac8cb4f3ea9c2f0e1804914eaf30c909a2b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808194"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118803"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente des services Response Groups : création d’une nouvelle ou modification d’une file existante
 
@@ -42,7 +42,7 @@ La liste suivante décrit les champs de la page.
 
   - **Délai d’attente (secondes)** Sélectionnez ou tapez le nombre maximal de secondes qu’un appelant peut attendre avant qu’un agent réponde à l’appel.
 
-  - **Action d’appel** Sélectionnez l’action qui se produit à l’attente d’un appel. Vous avez le choix entre :
+  - **Action d’appel** Sélectionnez l’action qui se produit lorsqu’un appel arrive à son moment d’attente. Vous avez le choix entre :
 
   - **Disconnect**
 
@@ -52,9 +52,9 @@ La liste suivante décrit les champs de la page.
 
   - **Passer à l’adresse SIP** Sélectionnez cette option pour que l’appel soit transmis à un autre utilisateur. Dans **l’adresse SIP,** tapez l’URI de l’utilisateur au format sip: <username> @ <domainname> .
 
-  - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir des appels au moment où les appels ont été mis à l’heure d’attente.
+  - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir les appels au moment où les appels ont été mis à l’heure d’attente.
 
-- **Activer le dépassement de la file d’attente** Cochez cette case pour spécifier un nombre maximal d’appels que la file d’attente peut contenir. Si vous sélectionnez cette option, vous devez également spécifier les options suivantes :
+- **Activer le dépassement de la file d’attente** Cochez cette case pour spécifier le nombre maximal d’appels que la file d’attente peut contenir. Si vous sélectionnez cette option, vous devez également spécifier les options suivantes :
 
   - **Nombre maximal d’appels** Sélectionnez ou tapez le nombre maximal d’appels que la file d’attente peut contenir.
 
@@ -72,6 +72,4 @@ La liste suivante décrit les champs de la page.
 
   - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir des appels lorsque le seuil de dépassement de la file d’attente est atteint.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) dans la documentation des opérations.

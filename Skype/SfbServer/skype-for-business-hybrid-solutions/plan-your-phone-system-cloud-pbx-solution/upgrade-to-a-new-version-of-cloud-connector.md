@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Découvrez comment mettre à niveau votre déploiement de la version Cloud Connector.
-ms.openlocfilehash: dc9473dbf605f00df76daa1a88a29c7d5ed65fd8
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359290"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109130"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Effectuer une mise à niveau vers une nouvelle version de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
  
 Découvrez comment mettre à niveau votre déploiement de la version Cloud Connector.
   
-Si vous avez installé un compte client de gestion en ligne et activé les mises à jour automatiques, votre déploiement existant de Skype Entreprise, version Cloud Connector sera automatiquement mis à niveau vers la version la plus récente, en fonction de la configuration de votre fenêtre de temps de mise à jour automatique. Vous pouvez également effectuer une mise à niveau manuelle. 
+Si vous avez installé un compte client de gestion en ligne et activé les mises à jour automatiques, votre déploiement existant de Skype Entreprise, version Cloud Connector sera automatiquement mise à niveau vers la version la plus récente, en fonction de la configuration de votre fenêtre de temps de mise à jour automatique. Vous pouvez également effectuer une mise à niveau manuelle. 
   
 Les versions 1.4.1 et ultérieures de Cloud Connector effectuent des mises à jour automatiques par défaut. Si vous souhaitez mettre à niveau vers la dernière version (2.1) manuellement, voir Mettre à niveau un site unique vers une [nouvelle version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) plus loin dans cette rubrique.
   
@@ -106,7 +106,7 @@ S’il n’existe qu’une seule appliance dans le site que vous souhaitez mettr
 
 S’il existe plusieurs appliances dans le site, suivez les étapes précédentes pour mettre à niveau chaque appliance une par une.
   
-Si vous souhaitez mettre à jour les informations d’identification d’administrateur de domaine, d’administrateur de machine virtuelle, d’administrateur en mode sans échec et d’administrateur client, vous pouvez exécuter l’cmdlet avec le paramètre  _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification :
+Si vous souhaitez mettre à jour les informations d’identification d’administrateur de domaine, d’administrateur d’ordinateur virtuel, d’administrateur en mode sans échec et d’administrateur client, vous pouvez exécuter l’cmdlet avec le paramètre  _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification :
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
@@ -124,5 +124,3 @@ Set-CcCredential -AccountType TenantAdmin
 <a name="BKMK_Upgrade"> </a>
 
 Suivez les étapes de mise à niveau d’un site unique, mise à niveau d’un site à la fois pour chaque site de votre déploiement. Assurez-vous et [validez votre déploiement Cloud Connector après](validate-your-cloud-connector-deployment.md) la mise à niveau de chaque site.
-  
-

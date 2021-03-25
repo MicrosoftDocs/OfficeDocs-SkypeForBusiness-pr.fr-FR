@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: e40525121020259a40f10d90cd79d70aaa749ac3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une trunk SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825844"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109190"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour le contrôle d’admission des appels dans Skype Entreprise
 
-Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une trunk SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
 
 Les rubriques de cette section donnent des informations sur les considérations spécifiques de déploiement du contrôle d’admission des appels (CAC) avec différents types de topologies réseau.
 
@@ -55,14 +55,14 @@ La figure suivante montre un exemple de déploiement du contrôle d’admission 
 
 Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous devrez exécuter les tâches suivantes pendant le déploiement du contrôle d’admission des appels :
 
-1. Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, voir [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) dans la documentation de déploiement.
+1. Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, voir [Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac) dans la documentation de déploiement.
 
     > [!NOTE]
     > Pour le fournisseur de services de téléphonie Internet, cette configuration de site réseau n’est pas fonctionnelle. Les valeurs de stratégie de bande passante sont en fait appliquées à l’étape 2.
 
-2. Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, voir [Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in the Deployment documentation, and [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, voir [Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in the Deployment documentation, and [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
-3. Obtenez l’adresse IP du point de terminaison multimédia du contrôleur de frontière de session (SCB) auprès de votre itsp. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, voir [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Obtenez l’adresse IP du point de terminaison multimédia du contrôleur de frontière de session (SCB) auprès de votre itsp. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, voir [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Contrôle d’admission des appels avec une passerelle PSTN ou un PBX tiers
 
@@ -82,7 +82,7 @@ Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et
 
 - Entre le serveur de médiation et la passerelle PSTN
 
-Cela fonctionne à la fois pour les appels PSTN entrants vers un client dans le site réseau 1 et pour les appels PSTN sortants provenant d’une application cliente dans Le site réseau 1.
+Cela fonctionne à la fois pour les appels PSTN entrants vers un client dans le site réseau 1 et pour les appels PSTN sortants provenant d’une application cliente dans Site réseau 1.
 
 > [!NOTE]
 > Assurez-vous que le sous-réseau IP à qui appartient la passerelle PSTN est configuré et associé au site réseau 2.
@@ -91,9 +91,9 @@ Cela fonctionne à la fois pour les appels PSTN entrants vers un client dans le 
 > Assurez-vous que le sous-réseau IP à qui appartiennent les deux interfaces du serveur de médiation est configuré et associé au site réseau 1.
 
 > [!NOTE]
-> Pour plus d’informations, voir [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Pour plus d’informations, voir [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
-### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Cas 2 : Contrôle d’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers avec point de terminaison multimédia
+### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Cas 2 : contrôle d’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers avec point de terminaison multimédia
 
 Cette configuration est similaire au cas 1. Dans les deux cas, le serveur de médiation connaît le périphérique qui arrête le média à l’extrémité opposée de la liaison wan et l’adresse IP de la passerelle PSTN ou du PBX avec point de terminaison multimédia (MTP) est configurée sur le serveur de médiation comme saut suivant.
 
@@ -116,7 +116,7 @@ Cela fonctionne à la fois pour les appels PSTN entrants vers un client du site 
 > Assurez-vous que le sous-réseau IP à qui appartiennent les deux interfaces du serveur de médiation est configuré et associé au site réseau 1.
 
 > [!NOTE]
-> Pour plus d’informations, voir [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Pour plus d’informations, voir [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Cas 3 : Contrôle d’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers sans point de terminaison multimédia
 
@@ -124,7 +124,7 @@ Le cas 3 est légèrement différent des deux premiers cas. S’il n’existe au
 
 **Cas 3 : CONTRÔLE D’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers sans MTP**
 
-![Cas 3 : CONTRÔLE D’accès au contrôle d’accès entre le PBX du serveur de médiation sans MTP](../../media/CAC_gateways_3.jpg)
+![Cas 3 : CAC entre pbX de serveur de médiation sans MTP](../../media/CAC_gateways_3.jpg)
 
 Dans cet exemple, si un utilisateur client Skype Entreprise sur le site réseau 1 appelle un utilisateur via le PBX, le serveur de médiation peut effectuer des vérifications cac uniquement sur la partie proxy (entre l’application cliente Skype Entreprise et le serveur de médiation). Étant donné que le serveur de médiation ne comprend pas d’informations sur le périphérique de point de terminaison pendant la demande de session, les vérifications du contrôle d’accès au contrôle d’accès ne peuvent pas être effectuées sur la liaison wan (entre le serveur de médiation et le point de terminaison tiers) avant l’établissement de l’appel. Cependant, une fois la session établie, le serveur de médiation facilite la gestion de la bande passante utilisée sur la connexion.
 
@@ -137,6 +137,4 @@ Pour les appels qui proviennent du point de terminaison tiers, les informations 
 > Assurez-vous que le sous-réseau IP à qui appartiennent les deux interfaces du serveur de médiation est configuré et associé au site réseau 1.
 
 > [!NOTE]
-> Pour plus d’informations, voir [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
-
-
+> Pour plus d’informations, voir [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).

@@ -17,14 +17,14 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7090aac3c5e7ff724a079e7f9d9ffe9d712cd447
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347875"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119093"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Teams dans les services Bureau à distance
+# <a name="teams-in-remote-desktop-services"></a>Équipes dans les services Bureau à distance
 
 Cet article décrit les exigences et les limitations relatives à l’utilisation de Microsoft Teams dans un environnement des services Bureau à distance.
 
@@ -35,7 +35,7 @@ Les services Bureau à distance sont la plateforme de choix pour créer des solu
 Les services RdS offrent une flexibilité, une efficacité de coût et une extensibilité du déploiement. Les services Bureau à jour sont disponibles via diverses options de déploiement, notamment Windows Server 2016 pour les déploiements locaux, Microsoft Azure pour les déploiements dans le cloud et un vaste éventail de solutions partenaires.
 En fonction de votre environnement et de vos préférences, vous pouvez configurer la solution rds pour la virtualisation basée sur les sessions, en tant qu’infrastructure VDI (Virtual Desktop Infrastructure).
 
-Pour l’instant, Teams dans un environnement de services bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
+Actuellement, Teams dans un environnement de services bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams sur les rds avec la conversation et la collaboration
 
@@ -73,8 +73,8 @@ Vous pouvez également suivre les étapes suivantes :
 
 1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à la stratégie que vous voulez attribuer. Par exemple :
 
-    - Allez à **la**  >  **stratégie d’appel** vocal, puis **sélectionnez DisallowCalling.**
-    - Allez dans **stratégies**  >  **de réunion Réunions,** puis sélectionnez **AllOff.**
+    - Allez aux  >  **stratégies d’appel** vocal, puis **sélectionnez DisallowCalling.**
+    - Allez dans **stratégies**  >  **de réunion Réunions,** puis **sélectionnez AllOff.**
 
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -82,18 +82,18 @@ Vous pouvez également suivre les étapes suivantes :
 
 #### <a name="assign-policies-using-powershell"></a>Attribuer des stratégies à l’aide de PowerShell
 
-L’exemple suivant montre comment utiliser [grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) pour affecter la stratégie d’appel DisallowCalling à un utilisateur.
+L’exemple suivant montre comment utiliser [grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) pour affecter la stratégie d’appel DisallowCalling à un utilisateur.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies d’appel, voir [Set-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)
+Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies d’appel, voir [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy)
 
-L’exemple suivant montre comment utiliser la stratégie de réunion [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
+L’exemple suivant montre comment utiliser [grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies de réunion, voir [Set-CsTeamsMeetingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)
+Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies de réunion, voir [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy)

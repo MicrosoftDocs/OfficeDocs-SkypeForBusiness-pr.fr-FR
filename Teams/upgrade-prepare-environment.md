@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb736a0398d1ab77ed67919f02a80400bd2ae19e
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: f75d899f2b14915e265ce8d36c57daeaf0ce72d2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578247"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119053"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers Teams
 
@@ -34,8 +34,8 @@ ms.locfileid: "49578247"
 Cet article fait partie de la phase de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
-- [Étendue définie de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Étendue définie de votre projet](./upgrade-define-project-scope.md)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Pour réussir la mise à niveau de Teams dans votre organisation, il est important de valider votre environnement Skype Entreprise actuel et votre préparation réseau. La préparation de votre environnement actuel permettra d’assurer une expérience utilisateur de haute qualité dès maintenant, en plus d’améliorer la qualité de l’expérience utilisateur dans Teams. Prendre le temps de planifier des étapes individuelles peut vous aider à accélérer votre déploiement et à vous assurer que vous n’avez pas ignoré d’éléments d’action importants.

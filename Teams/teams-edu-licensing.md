@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858629"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119233"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>Attribuer des licences Microsoft Teams dans l'éducation
 
 Microsoft Teams est une plateforme numérique qui centralise les conversations, le contenu et les applications. De par sa conception basée sur Office 365, les établissements scolaires bénéficient de l’intégration avec les applications et services Office classiques. Avec l'expérience unique Office 365 dans l'éducation, votre établissement peut utiliser Microsoft Teams pour créer des classes collaboratives, se connecter à des communautés d’apprentissage professionnelles et communiquer avec d’autres membres du personnel de leur établissement.
 
-Pour démarrer, les administrateurs informatiques doivent utiliser le Centre d’administration Microsoft 365 pour activer [Microsoft Teams pour votre établissement scolaire](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
+Pour démarrer, les administrateurs informatiques doivent utiliser le Centre d’administration Microsoft 365 pour activer [Microsoft Teams pour votre établissement scolaire](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 Une fois l’opération terminée, vous devez attribuer des licences aux comptes d’utilisateurs pour que vos faculté, enseignants et étudiants puissent accéder aux services Office 365, tels que Microsoft Teams.
 
 Vous pouvez attribuer des licences à des comptes d’utilisateurs, soit individuellement, soit automatiquement par le biais de l’appartenance à des groupes. Cet article vous explique comment attribuer des licences Office 365 à un individu ou un petit groupe de comptes d’utilisateurs via le Centre d’administration Microsoft 365. Pour attribuer automatiquement des licences par le biais de l’appartenance à des groupes, consultez l’un des articles support suivants :
 
-- [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Gestion de licences basée sur des groupes dans Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Gestion de licences basée sur des groupes dans Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 Vous pouvez attribuer des licences à des utilisateurs à partir de la page des **Licences** ou de la page des **Utilisateurs actifs**. La méthode utilisée dépend de votre souhait d’attribuer des licences de produit à des utilisateurs déterminés ou d’attribuer des licences aux utilisateurs pour des produits spécifiques.
 
@@ -44,7 +44,7 @@ Vous pouvez attribuer des licences à des utilisateurs à partir de la page des 
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>Attribution de licences à des utilisateurs via la page Licences
 
 > [!NOTE]
-> Vous devez être administrateur général, administrateur de facturation, administrateur de licence ou administrateur de gestion des utilisateurs. Pour plus d'informations, consultez [À propos des rôles d'administrateur Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+> Vous devez être administrateur général, administrateur de facturation, administrateur de licence ou administrateur de gestion des utilisateurs. Pour plus d'informations, consultez [À propos des rôles d'administrateur Office 365](/microsoft-365/admin/add-users/about-admin-roles).
 
 Lorsque vous utilisez la page **Licences** pour l'attribution de licences, vous attribuez des licences pour un produit spécifique à un maximum de 20 utilisateurs. Sur la page **Licences**, une liste de tous les produits pour lesquels vous avez souscrit un abonnement s’affiche, ainsi que le nombre total de licences par produit, le nombre de licences attribuées et le nombre de licences disponibles.
 
@@ -83,7 +83,7 @@ Pour modifier les applications et les services auxquels un utilisateur a accès�
 4. Dans le volet **Attribuer des licences de produits**, sélectionnez **Ajouter aux attributions de licence de produit existantes**  >  **Suivant**.
 
    ![Capture d’écran de la fenêtre Gérer les licences de produits, avec la case d’option Ajouter aux affectations de licence de produit existantes sélectionnée.](media/EDU-Lic-Add-Existing-Product.png)
-5. Dans le volet **Ajouter aux produits existants**, positionnez le bouton bascule sur **Actif**correspondant à la licence que vous voulez attribuer aux utilisateurs sélectionnés. Veillez à ce que **Microsoft Teams** et **Office pour le web (éducation)** soient sélectionnés.
+5. Dans le volet **Ajouter aux produits existants**, positionnez le bouton bascule sur **Actif** correspondant à la licence que vous voulez attribuer aux utilisateurs sélectionnés. Veillez à ce que **Microsoft Teams** et **Office pour le web (éducation)** soient sélectionnés.
 
    ![Capture d’écran Microsoft Teams et Office pour le web, éducation, sélectionné dans l’onglet Ajouter aux produits existants.](media/EDU-Lic-Add-Existing-Products.png)
 

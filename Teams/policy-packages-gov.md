@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les packages de stratégie Teams pour votre organisation gouvernementale.
-ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909078"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117772"
 ---
 # <a name="teams-policy-packages-for-government"></a>Packages de stratégie Teams pour le gouvernement
 
@@ -31,9 +31,9 @@ ms.locfileid: "49909078"
 
 ## <a name="overview"></a>Présentation
 
-Un [package de](manage-policy-packages.md) stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Les packages de stratégie simplifient, rationalisent et garantissent la cohérence lors de la gestion des stratégies. Vous pouvez personnaliser les paramètres des stratégies dans le package pour répondre aux besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package de stratégie, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous pouvez gérer des packages de stratégie à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
+Un [package de stratégie](manage-policy-packages.md) dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Les packages de stratégie simplifient, rationalisent et garantissent la cohérence lors de la gestion des stratégies. Vous pouvez personnaliser les paramètres des stratégies dans le package en fonction des besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package de stratégie, tous les utilisateurs qui sont affectés à ce package obtiennent les paramètres mis à jour. Vous pouvez gérer les packages de stratégie à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
 
-Les packages de stratégie pré-définissent les stratégies suivantes, selon le package :
+Les packages de stratégie pré-définissent les stratégies suivantes, selon le package :
 
 - Messagerie
 - Réunions
@@ -49,11 +49,11 @@ Teams inclut actuellement les packages de stratégie suivants pour le gouverneme
 |Gestionnaire en ligne  |Responsables en ligne au niveau de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation.|
 |Employé en ligne  |Employés en ligne de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation.|
 
-![Capture d’écran des packages de stratégies de santé](media/policy-packages-gov.png)
+![Capture d’écran des packages de stratégie de santé](media/policy-packages-gov.png)
 
-Le nom du package de stratégies est donné à chaque stratégie individuelle, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous affectez le package de stratégie du responsable de la sécurité publique à des utilisateurs de votre organisation, une stratégie nommée PublicSafety_Officer est créée pour chaque stratégie du package.
+Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous affectez le package de stratégie du responsable de la sécurité publique à des utilisateurs de votre organisation, une stratégie nommée PublicSafety_Officer est créée pour chaque stratégie du package.
 
-![Capture d’écran des stratégies dans le package pour les travailleurs médicaux](media/policy-packages-public-safety-officer.png)
+![Capture d’écran des stratégies dans le package pour les professionnels de la santé](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gérer vos packages de stratégie
 
@@ -93,12 +93,12 @@ Pour plus d’informations, consultez la section [Attribuer un package de strat�
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Attribuer un package de stratégie à un grand ensemble (lot) d’utilisateurs
 
-Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
+Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
 
 Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les packages de stratégie dans Teams](manage-policy-packages.md)
 
-[Attribuer des stratégies à vos utilisateurs](assign-policies.md) 
+[Attribuer des stratégies à vos utilisateurs](assign-policies.md)

@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrir comment masquer des numéros de téléphone dans les réunions Microsoft Teams
-ms.openlocfilehash: 5a59ef07873660e79d6c8bc69b7e92095a2fac1a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+description: Découvrir comment masquage des numéros de téléphone dans les réunions Microsoft Teams
+ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726780"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117712"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Masquez les numéros de téléphone dans les réunions Microsoft Teams
 
@@ -37,11 +37,11 @@ Pour des cas d’utilisation spécifiques dans le secteur, les administrateurs o
 - Les numéros de téléphone sont masqués pour toutes les personnes de la réunion à l’exception de l’organisateur.
 - Les numéros de téléphone ne sont pas tâches, ce qui les rend visibles à tous les autres personnes de la réunion.
 
-Ce paramètre est appliqué à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
+Ce paramètre s’applique à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Utiliser Microsoft PowerShell pour définir le masquage des numéros de téléphone
 
-Pour modifier le paramètre de masquage du réseau téléphonique commuté (PSTN), définissez le paramètre de **`MaskPstnNumbersType`** l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) sur l’une des options disponibles.
+Pour modifier le paramètre de masquage du réseau téléphonique commuté (PSTN), définissez le paramètre de **`MaskPstnNumbersType`** l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) sur l’une des options disponibles.
 
 Pour masquer les numéros de téléphone des participants externes uniquement, exécutez la commande suivante :
 

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Résumé : Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 59ad84cd0f4445709b236baecafeeab240e6ea65
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6ffa86266d8782e9e49c708998714bef4dbbed51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814014"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118513"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.
 
-Cette section décrit la configuration matérielle et logicielle requise pour les conférences web, les conférences audio et vidéo (A/V), les conférences d’appels et les conférences par messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur les serveurs frontux ; il existe des exigences supplémentaires pour différents types de conférences, comme illustré dans le diagramme suivant.
+Cette section décrit la configuration matérielle et logicielle requise pour les conférences web, les conférences audio et vidéo (A/V), les conférences téléphoniques et les conférences par messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur les serveurs frontux ; il existe des exigences supplémentaires pour différents types de conférences, comme illustré dans le diagramme suivant.
 
 Par exemple, si vous souhaitez autoriser les conférences téléphoniques, vous devez déployer un serveur de médiation et une passerelle pour la connexion au réseau téléphonique commuté (PSTN). Si vous souhaitez autoriser la conférence web, vous devez vous assurer que Skype Entreprise Server peut se connecter à un serveur Office Web Apps Server. Si vous souhaitez autoriser les utilisateurs externes à participer à des conférences, vous devez déployer un serveur Edge.
 
@@ -69,7 +69,7 @@ Le service de conférence web stocke ensuite du contenu tel que des diapositives
 
 Pour utiliser les fonctionnalités de conférence web, vous devez installer Office Web Apps Server et configurer Skype Entreprise Server pour communiquer avec Office Web Apps Server.
 
-Office Web Apps Server doit être installé sur un ordinateur autonome qui n’exécute pas Skype Entreprise Server, SQL Server ou toute autre application serveur. (Aucune version d’Office ne doit être installée sur cet ordinateur.) Tout ordinateur utilisé pour exécuter Office Web Apps Server doit également avoir un ensemble spécifique de logiciels installés (y compris .NET Framework 4.5 et Windows PowerShell 3.0). Ces exigences, ainsi que les informations sur la configuration des certificats et des services Internet (IIS), sont détaillées dans le site web [Microsoft Office Web Apps Deployment](https://go.microsoft.com/fwlink/p/?linkid=257525).
+Office Web Apps Server doit être installé sur un ordinateur autonome qui n’exécute pas Skype Entreprise Server, SQL Server ou toute autre application serveur. (Aucune version d’Office ne doit être installée sur cet ordinateur.) Tout ordinateur utilisé pour exécuter Office Web Apps Server doit également avoir un ensemble spécifique de logiciels installés (y compris .NET Framework 4.5 et Windows PowerShell 3.0). Ces exigences, ainsi que les informations sur la configuration des certificats et des services Internet (IIS), sont détaillées dans le site web [Microsoft Office Web Apps Deployment](/webappsserver/deploy-the-infrastructure-office-web-apps-server).
 
 Pour plus d’informations sur la configuration de Skype Entreprise Server pour qu’il fonctionne avec Office Web Apps Server, voir Configurer l’intégration avec [Office Web Apps Server dans Skype Entreprise Server.](../../deploy/deploy-conferencing/office-web-app-server.md)
 
@@ -81,15 +81,15 @@ Pour plus d’informations sur la planification de la capacité audio et vidéo 
 
 Vous pouvez utiliser le contrôle d’admission des appels (CAC) pour gérer la bande passante réseau utilisée par la conférence A/V. Ceci est important pour les réseaux restreints, tels que les liaisons à bande passante limitée entre les sites centraux et les sites de succursale. Pour plus d’informations, voir [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
-Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auront besoin de périphériques audio tels que des casques pour y prendre part. Si vous déployez la conférence vidéo, vous devez déployer des périphériques vidéo tels que des webcams pour les utilisateurs. Pour les périphériques audio et vidéo, le déploiement d’appareils et la formation des utilisateurs sont des étapes importantes à prendre en compte. Pour plus d’informations, voir [Planifier les clients et les appareils.](../../plan-your-deployment/clients-and-devices/clients-and-devices.md) Microsoft recommande d’utiliser des périphériques de communications unifiées (UC) certifiés par Microsoft pour tous les types d’appareils, afin de garantir une expérience utilisateur optimale. Pour plus d’informations sur les appareils certifiés par UC, voir [Téléphones et appareils pour Skype Entreprise.](https://go.microsoft.com/fwlink/?LinkId=619916)
+Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auront besoin de périphériques audio tels que des casques pour y prendre part. Si vous déployez la conférence vidéo, vous devez déployer des périphériques vidéo tels que des webcams pour les utilisateurs. Pour les périphériques audio et vidéo, le déploiement d’appareils et la formation des utilisateurs sont des étapes importantes à prendre en compte. Pour plus d’informations, [voir Planifier les clients et les appareils.](../../plan-your-deployment/clients-and-devices/clients-and-devices.md) Microsoft recommande d’utiliser des périphériques de communications unifiées (UC) certifiés par Microsoft pour tous les types d’appareils, afin de garantir une expérience utilisateur optimale. Pour plus d’informations sur les appareils certifiés par UC, voir [Téléphones et appareils pour Skype Entreprise.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 ## <a name="requirements-for-dial-in-conferencing"></a>Conditions requises pour les conférences téléphoniques
 
-La conférence rendez-vous est une fonctionnalité facultative de la charge de travail de conférence Skype Entreprise Server qui inclut de nombreux composants. Certains composants sont spécifiques à la conférence téléphonique et d’autres Voix Entreprise composants. Cette section décrit les conditions requises pour les composants nécessaires pour les conférences téléphoniques. Pour plus d’informations sur les conditions requises pour le serveur de médiation et la passerelle PSTN, voir Composant serveur de médiation dans Skype Entreprise [Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) et Déploiement d’un serveur de médiation dans le Générateur de topologies dans Skype [Entreprise Server.](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
+La conférence rendez-vous est une fonctionnalité facultative de la charge de travail de conférence Skype Entreprise Server qui inclut divers composants. Certains composants sont spécifiques à la conférence téléphonique et d’autres Voix Entreprise composants. Cette section décrit les conditions requises pour les composants nécessaires pour les conférences téléphoniques. Pour plus d’informations sur les conditions requises pour le serveur de médiation et la passerelle PSTN, voir Composant serveur de médiation dans Skype Entreprise [Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) et Déploiement d’un serveur de médiation dans le Générateur de topologies dans Skype [Entreprise Server.](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
 
 ### <a name="required-components"></a>Composants requis
 
-Vous devez installer les composants Skype Entreprise Server suivants avant de pouvoir configurer la conférence téléphonique :
+Vous devrez installer les composants Skype Entreprise Server suivants avant de pouvoir configurer la conférence téléphonique :
 
 - service d’application de communications unifiées (UCAS), désigné par Service d’application
 
@@ -107,7 +107,7 @@ L’application Attendant de conférence et l’application Annonce de conféren
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Conditions requises pour les fichiers audio pour les conférences téléphoniques
 
-Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article 961177 de la Base de connaissances Microsoft sur la personnalisation des [invites vocales](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)ou des fichiers de musique pour l’audioconférence rendez-vous.
+Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier important qui nécessite de modifier les fichiers audio par défaut, consultez l’article 961177 de la Base de connaissances Microsoft sur la personnalisation des [invites vocales](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)ou des fichiers de musique pour l’audioconférence rendez-vous.
 
 Vous pouvez également utiliser l’utilitaire de gestion des invites vocales personnalisées de l’Attendant de conférence [Microsoft Lync Server,](https://go.microsoft.com/fwlink/p/?LinkId=396880) qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant rejoint une réunion Skype Entreprise par des invites personnalisées pour fournir une expérience d’entrée de réunion différente. Les invites vocales personnalisées peuvent être installées sur un serveur Enterprise ou Standard Edition.
 
@@ -129,10 +129,10 @@ Les utilisateurs de la conférence rendez-vous doivent avoir un numéro de tél�
 
 Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server requiert l’ouverture de certains ports. Le tableau suivant répertorie les ports requis pour les conférences. Pour plus d’informations sur toutes les conditions requises pour les ports, voir [Port et protocole requis pour les serveurs.](../../plan-your-deployment/network-requirements/ports-and-protocols.md)
 
-**Ports serveur requis**
+**Ports de serveur requis**
 
 
-|**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Notes**|
+|**Rôle serveur**|**Nom du service**|**Port (Port)**|**Protocole**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |Serveurs frontaux  <br/> |Service de conférence de messagerie instantanée Skype Entreprise Server  <br/> |5062  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  <br/> |
 |Serveurs frontaux  <br/> |Service de conférence web Skype Entreprise Server  <br/> |8057  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  <br/> |
@@ -150,7 +150,7 @@ Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server requi
 **Ports clients requis**
 
 
-|**Port**|**Protocole**|**Notes**|
+|**Port (Port)**|**Protocole**|**Notes**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Utilisé pour que les utilisateurs externes puissent accéder aux sessions de conférence web.  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |Utilisé pour que les utilisateurs externes puissent accéder aux sessions A/V et multimédias (TCP).  <br/> |
@@ -158,5 +158,3 @@ Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server requi
 |1024-65535 \*  <br/> |TCP/UDP  <br/> |Plage de ports audio (au moins 20 ports requis).  <br/> |
 |1024-65535 \*  <br/> |TCP/UDP  <br/> |Plage de ports vidéo (au moins 20 ports requis).  <br/> |
 |1024-65535 \*  <br/> |TCP  <br/> |Partage d’application.  <br/> |
-
-

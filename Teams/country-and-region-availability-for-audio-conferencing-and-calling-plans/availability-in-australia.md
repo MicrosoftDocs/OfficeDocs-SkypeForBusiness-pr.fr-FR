@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Australie.
-ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818764"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118423"
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
@@ -40,7 +40,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non. [Veuillez nous contacter](mailto:ptnapac@microsoft.com). <br/> |
@@ -48,7 +48,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 ## <a name="phone-system"></a>Système téléphonique
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les standards automatiques <br/> |Disponible  <br/> |
@@ -57,7 +57,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 ## <a name="calling-plans"></a>Forfaits d’appel
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [Telstra Calling.](https://aka.ms/TelstraVoicePlan)  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Voir [Telstra Calling.](https://aka.ms/TelstraVoicePlan) <br/> |
@@ -70,9 +70,9 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 ### <a name="if-your-tenant-is-located-outside-australia"></a>Si votre client est situé en dehors de l’Australie
 
-Depuis le 1er septembre 2019, si votre client est situé en dehors de l’Australie, vous pouvez acheter des forfaits d’appels pour les utilisateurs situés en Australie. Cette offre est disponible pour les pays et régions suivants.
+À compter du 1er septembre 2019, si votre client est situé en dehors de l’Australie, vous pouvez acheter des forfaits d’appels pour les utilisateurs situés en Australie. Cette offre est disponible pour les pays et régions suivants.
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |---------|---------|
 |Amériques    |Îles sortantes des États-Unis      |
 |APAC     |Bangladesh, Bhoutan, Brunei, Cambodge, Hong Kong, Indonésie, Laos, Macao, Malaisie, Maldives, Myanmar, Népal, Philippines, Singapour, Sri Lanka, Thaïlande, Myanmar-Leste, Vietnam|
@@ -82,7 +82,7 @@ Notez que la fonction d’appel Telstra s’affiche sous la mesure d’une modul
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Adélaïde <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Desso <li> Perth <li>Sydney <li>Wollongong  |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
@@ -92,14 +92,14 @@ Si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour 
 
 ## <a name="communications-credits"></a>Crédits de communication
 
-|**Fonctionnalité**|**Details**|
+|**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

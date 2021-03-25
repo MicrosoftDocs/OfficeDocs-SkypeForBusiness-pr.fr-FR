@@ -22,29 +22,29 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Les organisateurs de réunions peuvent découvrir comment appeler à l’aide de l’application Teams pour laisser d’autres personnes participer à la réunion à l’aide de leur téléphone.
-ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788758"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119283"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
-En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de l’application Teams pour que d’autres personnes participent à la réunion à l’aide de leur téléphone.
+En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de l’application Teams pour laisser d’autres personnes participer à la réunion à l’aide de leur téléphone.
 
 Lorsque vous dial out to someone, we recommend you do so using their full phone numbers (including the country/region code - E.164 format).
   
   Notez que :
 
-- Vous ne pouvez appeler un appel sortant que si vous participez à une réunion à l’aide de Teams.
+- Vous ne pouvez appeler un appel sortant que si vous participez à une réunion en utilisant Teams.
 - L’organisateur de la réunion a été activé pour l’audioconférence OU, dans le cas où aucune licence d’audioconférence n’est attribuée, est autorisé à passer des appels vers le réseau téléphonique commuté public via des plans d’appel en ligne ou un routage direct.
-- L’organisateur de la réunion se vu accorder une stratégie d’appel sortant en ligne qui autorise l’appel sortant [des conférences](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
+- L’organisateur de la réunion se vu accorder une stratégie d’appel sortant en ligne qui autorise l’appel sortant [des conférences](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Pour que l’appel sortant fonctionne , vous pouvez :
+Pour que l’appel sortant fonctionne, vous pouvez :
 
  **Étape 1 :** Dans la réunion, utilisez la capture d’écran **Ajouter** des personnes de l’option Ajouter des personnes pour ![ composer un numéro de ](media/add-people-button.png) téléphone.
  **Étape 2 :** Entrez le numéro de téléphone complet, y compris l’code du pays/de la région dans la zone Inviter une **personne ou composez un** numéro.
@@ -63,4 +63,4 @@ Si vous recherchez des instructions sur la manière de laisser vos utilisateurs 
 
 [Essayer ou acheter l’audioconférence](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Licences de module complémentaire Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+[Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
