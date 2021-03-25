@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: La région réseau* sont les concentrateurs réseau ou les dorsales utilisées dans la configuration du contrôle d’admission des appels, du système E9-1-1 et du contournement de média.
-ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2020eea2cf8bf85c915ebf88de6f86cb3a0ee9ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816414"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122448"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
@@ -45,7 +45,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’aide Windows PowerShell cmdlets
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’Windows PowerShell cmdlets
 
 Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
@@ -65,7 +65,7 @@ Vous pouvez afficher les informations de région réseau à l’Windows PowerShe
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink).
 
 
 ## <a name="create-or-modify-network-regions"></a>Créer ou modifier des régions réseau 
@@ -145,10 +145,10 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 [Gestion des itinéraires de région réseau](managing-network-region-routes.md)
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[New-CsNetworkRegion](/powershell/module/skype/New-CsNetworkRegion)  
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[Set-CsNetworkRegion](/powershell/module/skype/Set-CsNetworkRegion)  
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[Remove-CsNetworkRegion](/powershell/module/skype/Remove-CsNetworkRegion)  
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink)

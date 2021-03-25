@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Résumé : Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 7ec7182d8fe2866499f731b43df712a69c44bc42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4fb3a38fadf2a8a063715e389718859dcc7ddbdd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815044"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122408"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -27,7 +27,7 @@ ms.locfileid: "49815044"
 Cette rubrique décrit comment faire échouer et faire échouer le serveur de conversation permanente. Avant de lire cette rubrique, veillez à lire Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise [Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) et à configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise [Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 
 > [!NOTE]
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les mêmes fonctionnalités sont disponibles dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Faire échouer le serveur de conversation permanente
 
@@ -41,7 +41,7 @@ La procédure de failover repose sur l’hypothèse que le centre de données se
     
 La procédure consiste en deux étapes de base :
   
-- Récupérer la base de données de conversation permanente principale (mgc).
+- Récupérez la base de données de conversation permanente principale (mgc).
     
 - Établir la mise en miroir pour la nouvelle base de données principale.
     
@@ -49,7 +49,7 @@ La base de données de conformité de conversation permanente (mgccomp) n’est 
   
 Pour faire échouer le serveur de conversation permanente :
   
-1. Supprimer la copie des journaux de livraison de la base de données d’envoi des journaux de sauvegarde du serveur de conversation permanente.
+1. Supprimez la copie des journaux de livraison de la base de données de copie des journaux de sauvegarde du serveur de conversation permanente.
     
    - À l SQL Server Management Studio, connectez-vous à l’instance de base de données où se trouve la base de données mgc de sauvegarde du serveur de conversation permanente.
     
@@ -63,7 +63,7 @@ Pour faire échouer le serveur de conversation permanente :
 
 2. Copiez tous les fichiers de sauvegarde non copiés se trouvant sur le partage de sauvegarde vers le dossier de destination de la copie du serveur de sauvegarde.
     
-3. Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, [voir How to: Apply a Transaction Log Backup (Transact-SQL).](https://go.microsoft.com/fwlink/p/?linkid=247428)
+3. Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, [voir How to: Apply a Transaction Log Backup (Transact-SQL).](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))
     
 4. Mettez en ligne la base de données mgc de sauvegarde. Dans la fenêtre de requête ouverte à l’étape 1b, procédez comme suit :
     
@@ -98,7 +98,7 @@ En cas de défaillance du serveur de conversation permanente, le centre de donn�
   
 La procédure suivante rétablit le fonctionnement normal une fois le centre de données principal sauvegardé et les serveurs reconstruits. La procédure suppose que le centre de données principal a été récupéré après une panne totale et que la base de données mgc et la base de données mgccomp ont été reconstruites et réinstallées à l’aide du Générateur de topologie.
   
-La procédure suppose également qu’aucun nouveau serveur miroir et serveur de sauvegarde n’a été déployé pendant la période de failover et que le seul serveur déployé est le serveur de sauvegarde et son serveur miroir, comme défini précédemment dans le serveur de conversation permanente fail over Persistent Chat.
+La procédure suppose également qu’aucun nouveau serveur miroir et serveur de sauvegarde n’a été déployé pendant la période de failover, et que le seul serveur déployé est le serveur de sauvegarde et son serveur miroir, comme défini précédemment dans Le serveur de conversation permanente fail over Persistent Chat.
   
 Ces étapes visent à récupérer la configuration telle qu’elle existait avant la défaillance, cette dernière ayant provoqué le basculement du serveur principal vers le serveur de sauvegarde.
   
@@ -176,6 +176,4 @@ Pour restaurer l’état normal du pool, exécutez la commande Windows PowerShel
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Set-CsPersistentChatState.](https://docs.microsoft.com/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)
-  
-
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Set-CsPersistentChatState.](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)

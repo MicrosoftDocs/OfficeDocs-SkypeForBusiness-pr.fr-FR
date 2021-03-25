@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportement de coexistence entre Teams & Skype Entreprise, y compris les paramètres de routage, le routage des & d’appel, les conversations & appels à partir de threads & existants.
-ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
-ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
+ms.openlocfilehash: 603356df5e6f5006ea67f6a84141acf1347c1235
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48661346"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122338"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -54,7 +54,7 @@ Les paramètres qui déterminent la méthode de routage de thread sont les suiva
     - *L’interopérabilité* au sein du client nécessite que le client soit hybride en ligne ou Skype Entreprise. Les locataires locaux ne peuvent pas avoir d’interopérabilité au sein du client.
     - *La fédération entre clients nécessite* toujours une configuration de fédération Skype Entreprise appropriée, ainsi que la configuration appropriée de la fédération Teams des deux clients. Skype Entreprise hybride n’est requis pour aucun client.
     - Si le compte Skype Entreprise de la personne à l’origine est home local, cet utilisateur ne peut pas utiliser le client Teams pour l’interopérabilité au sein du client ou pour la fédération. Cet utilisateur peut uniquement utiliser le client Skype Entreprise pour l’interopérabilité et la fédération.
-    - La communication entre les équipes est toujours possible au cours du client.
+    - La communication entre équipes est toujours possible au cours d’un client.
 
 > [!NOTE]
 > Si le récepteur et l’expéditeur sont tous deux en mode de mise à niveau TeamsOnly, la conversation sera une expérience de conversation native qui inclut toutes les fonctionnalités de messagerie et d’appel enrichies. Pour en savoir plus, lisez l’expérience de conversation native pour [les utilisateurs externes (fédérés) dans Teams.](native-chat-for-external-users.md) Si l’un des participants à la conversation n’est PAS en mode de mise à niveau TeamsOnly, la conversation reste une expérience d’échange avec les messages texte uniquement.
@@ -65,9 +65,9 @@ Les paramètres qui déterminent la méthode de routage de thread sont les suiva
 
 Les tableaux ci-dessous capturent le routage des appels et des conversations dans le client, et sont valides pour les nouveaux appels ou conversations qui ne sont pas démarrés à partir d’un fil de discussion existant. Il décrit le client qui recevra un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur de gauche, à un utilisateur destinataire dans le client de droite.
 
-Les messages envoyés aux utilisateurs de TeamsOnly seront toujours acheminés vers Teams. Les messages envoyés aux utilisateurs de SfB seront toujours acheminés vers Skype Entreprise, si \* la conversation est possible comme décrit ci-dessus. Les messages envoyés aux utilisateurs des îles seront toujours acheminés vers le même client à partir duquel ils ont été envoyés.
+Les messages envoyés aux utilisateurs de TeamsOnly seront toujours acheminés vers Teams. Les messages envoyés aux utilisateurs de SfB seront toujours acheminés vers Skype Entreprise, si la \* conversation est possible comme décrit ci-dessus. Les messages envoyés aux utilisateurs des îles seront toujours acheminés vers le même client à partir duquel ils ont été envoyés.
 
-Les tableaux ci-dessous indiquent quel client dans un mode donné recevra un appel de la part de l’origine (trois colonnes à l’extrême gauche), selon le mode de l’appelant, le client choisi et l’endroit où est situé son client Skype Entreprise (en ligne ou en ligne).
+Les tableaux ci-dessous indiquent quel client dans un mode donné recevra un appel de la part de l’origine (trois colonnes à l’extrême gauche), selon le mode de l’appelant, le client choisi et l’endroit où est situé son client Skype Entreprise (en équipe ou en ligne).
 
 Dans les tables qui suivent : 
 - **SfB \** _ représente l’un des modes suivants : _SfBOnly*, *SfBWithTeamsCollab,* *SfBWithTeamsCollabAndMeetings.*
@@ -105,14 +105,14 @@ Dans les tables qui suivent :
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>Routage fédéré pour les nouvelles conversations ou appels
   
-Les tableaux ci-dessous capturent le routage des appels et des conversations fédérés, et sont valides pour les nouveaux appels ou les nouvelles conversations. Ils décrivent le client qui recevra un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur sur la gauche, à un utilisateur cible fédéré sur la droite.
+Les tableaux ci-dessous capturent le routage des appels et conversations fédérés, et sont valides pour les nouveaux appels ou les nouvelles conversations. Ils décrivent le client qui recevra un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur sur la gauche, à un utilisateur cible fédéré sur la droite.
 
-En résumé, si la conversation est possible comme décrit ci-dessus, les messages envoyés aux utilisateurs de TeamsOnly seront toujours reçus dans Teams ; Les messages envoyés aux utilisateurs SfB seront toujours reçus dans Skype Entreprise. Les messages envoyés aux utilisateurs des îles seront toujours reçus dans Skype Entreprise, quel que soit le client à partir duquel ils \* ont été envoyés. Le routage pour les conversations et appels fédérés diffère du routage dans le client, car les utilisateurs des îles recevront toujours une communication fédérée dans Skype Entreprise.
+En résumé, si la conversation est possible comme décrit ci-dessus, les messages envoyés aux utilisateurs de TeamsOnly seront toujours reçus dans Teams ; Les messages envoyés aux utilisateurs de SfB seront toujours reçus dans Skype Entreprise. Les messages envoyés aux utilisateurs des îles seront toujours reçus dans Skype Entreprise, quel que soit le client à partir duquel ils \* ont été envoyés. Le routage pour les conversations et appels fédérés diffère du routage dans le client, car les utilisateurs des îles recevront toujours une communication fédérée dans Skype Entreprise.
 
 Cela est dû au fait qu’il est impossible d’supposer qu’un partenaire Skype Entreprise fédéré utilise déjà Teams s’il est en mode Îles. Il s’agit du mode par défaut, mais nous ne pouvons pas supposer que tous les utilisateurs d’îles exécutent Teams. En routant vers Skype Entreprise, nous nous assurons qu’aucune communication avec un utilisateur d’îles échoue. Si nous routeons vers Teams, cette communication risque d’être manquée si la cible n’utilise pas Teams. Un routage vers Skype Entreprise garantit que le message sera toujours reçu.  
 
 > [!NOTE]
-> L’implémentation actuelle de la fédération Teams est basée sur la fédération Skype Entreprise, par conséquent elle tire parti de l’infrastructure d’interopérabilité (qui nécessite que le client de la personne à l’origine soit hybride en ligne pure ou Skype Entreprise) et offre un ensemble réduit de fonctionnalités par rapport à un thread natif. Nous prévoyons de fournir des équipes natives à la fédération Teams à l’avenir, auquel point le fil de discussion sera natif et fournir des fonctionnalités complètes.
+> L’implémentation actuelle de la fédération teams est basée sur la fédération Skype Entreprise, par conséquent elle tire parti de l’infrastructure d’interopérabilité (qui nécessite que le client de la personne à l’origine soit hybride en ligne pure ou Skype Entreprise) et offre un ensemble réduit de fonctionnalités par rapport à un thread natif. Nous prévoyons de fournir des équipes natives à la fédération Teams à l’avenir, auquel point le fil de discussion sera natif et fournir des fonctionnalités complètes.
 
 Les tableaux ci-dessous décrivent le client qui recevra un appel de la part de l’origine (trois colonnes tout à gauche), selon le mode de l’origine, le client choisi et le lieu de résidence de son client Skype Entreprise (sur site ou en ligne).
 
@@ -149,7 +149,7 @@ Les tableaux ci-dessous décrivent le client qui recevra un appel de la part de 
 
 Les appels ou conversations démarrés à partir d’un fil de conversation permanente pré-existant dans Teams sont acheminés de la même manière que ce thread, si cette option de routage est toujours disponible.
 
-Si le fil de conversation permanente pré-existant dans Teams était un thread natif (c’est-à-dire, acheminé vers Teams), d’autres messages de conversation et appels de ce thread seront acheminés vers Teams. S’il s’agit d’un thread interop (c’est-à-dire, acheminé vers Skype Entreprise), d’autres messages et appels de conversation sont acheminés vers Skype Entreprise (en supposant que des options de routage sont à nouveau disponibles).
+Si le fil de conversation permanente pré-existant dans Teams était un thread natif (c’est-à-dire, acheminé vers Teams), les messages et appels de conversation supplémentaires de ce thread seront acheminés vers Teams. S’il s’agit d’un thread interop (c’est-à-dire, acheminé vers Skype Entreprise), d’autres messages et appels de conversation sont acheminés vers Skype Entreprise (en supposant que des options de routage sont à nouveau disponibles).
 
 > [!NOTE]
 > Il est possible pour les threads pré-existants dans Teams de ne plus être routables, par exemple, lorsque le thread était un fil de discussion interop vers un utilisateur qui est désormais mis à niveau vers Teams. Étant donné qu’il a été créé sous la direction d’un thread interop, le thread est acheminé vers Skype Entreprise, mais cet utilisateur ne peut plus utiliser Skype Entreprise pour les discussions et les appels. Dans ce cas, le fil de discussion est désactivé et ne permet pas d’autres communications.
@@ -163,13 +163,13 @@ Les threads Skype Entreprise ne sont pas persistantes au-delà de 10 min. Délai
 Les comportements au niveau du client et fédérés décrits ci-dessus sont disponibles, avec les limitations suivantes :
 
 - Les participants externes dont les locataires résident dans un autre déploiement GoLocal ou dans une géographie ne voient pas les discussions par messagerie instantanée pendant une réunion « fédérée »
-- La fédération et l’interopion entre la multitenant O365 et les nuages souverains ne sont pas pris en charge
+- La fédération et l’interopion entre O365 multitenant et les nuages souverains ne sont pas pris en charge
 
 ## <a name="presence"></a>Présence
 
 Dans le cas où certains de vos utilisateurs utilisent le client Teams et que d’autres utilisent toujours le client Skype Entreprise, il est possible que certains de vos utilisateurs utilisent les deux clients. Vous souhaitez toujours que les états de présence soient partagés avec tous les utilisateurs, quel que soit le client dont dispose un utilisateur individuel. Lorsqu’il est partagé au sein de l’organisation, les utilisateurs peuvent mieux déterminer s’il convient de lancer une conversation ou d’effectuer un appel.
 
-Par exemple, si la conversation ou l’appel d’un créateur doit se trouver sur le client Skype Entreprise de la cible, c’est la présence du client Skype Entreprise qui doit être affichée à l’appelant. Si elle doit se poser sur le client Teams de la cible, c’est bien la présence du client Teams qui doit être affichée.
+Par exemple, si la conversation ou l’appel d’un créateur doit se trouver sur le client Skype Entreprise de la cible, c’est la présence du client Skype Entreprise qui doit être affichée à l’auteur de l’appel. Si elle doit se poser sur le client Teams de la cible, c’est bien la présence du client Teams qui doit être affichée.
 
 Pour savoir à quoi s’attendre, vous devez comprendre que la présence est partagée en fonction du mode de coexistence d’un utilisateur :
 
@@ -183,9 +183,9 @@ Pour savoir à quoi s’attendre, vous devez comprendre que la présence est par
 
 ### <a name="in-tenant-presence"></a>Présence dans le client
 
-Les messages envoyés aux utilisateurs de TeamsOnly seront toujours reçus dans Teams. Les messages envoyés aux utilisateurs de SfB seront toujours reçus dans Skype Entreprise, si la \* conversation est possible comme décrit ci-dessus. Les messages envoyés aux utilisateurs des îles sont toujours acheminés vers le client d’où ils proviennent.
+Les messages envoyés aux utilisateurs de TeamsOnly seront toujours reçus dans Teams. Les messages envoyés aux utilisateurs de SfB seront toujours reçus dans Skype Entreprise, si la \* conversation est possible comme décrit ci-dessus. Les messages envoyés aux utilisateurs des îles sont toujours reçus dans le client dont ils proviennent.
 
-Le tableau décrit la présence de Publisher visible par un watcher, en fonction du mode de l’Éditeur et du client de l’watcher (pour un nouveau thread).
+Le tableau décrit la présence de Publisher visible par un watcher, en fonction du mode de l’Éditeur et du client de l’watcher (pour une nouvelle conversation).
 
 **Tableau 3 : présence dans le client (nouveau thread)**
 
@@ -213,9 +213,9 @@ Le tableau ci-dessous décrit la présence de Publisher visible par un watcher, 
 
 Pour aligner la présence et l’accessibilité dans les threads pré-existants, la présence de la cible exposée dans ce thread doit être alignée sur le routage du thread, en supposant que le routage est possible.
 
-En particulier, si un destinataire avec qui vous aviez précédemment une conversation interop permanente a été mis à niveau vers Teams, ce thread ne reflète plus la présence précise et ne sera plus routable. Vous devez commencer un nouveau thread.
+En particulier, si un destinataire avec qui vous avez précédemment eu un fil de conversation permanente interop a été mis à niveau vers Teams, ce thread ne reflète plus la présence précise et ne sera plus routable. Vous devez commencer un nouveau thread.
 
 ## <a name="related-links"></a>Liens connexes
-[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](./migration-interop-guidance-for-teams-with-skype.md)
 
 [Vidéo : Gérer la coexistence et l’interopérabilité entre SfB et Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

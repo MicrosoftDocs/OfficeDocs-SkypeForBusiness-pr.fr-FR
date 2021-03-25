@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Comment tester les droits de topologie dans Skype Entreprise Server
-ms.openlocfilehash: a6bbebd44387911fdb69679a16ab052c673f0b10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d9c0ec5560dcb6f1a6872f0b38f2930e46b2364c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832844"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122388"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Test des droits de topologie d’administrateur dans Skype Entreprise Server
 
@@ -24,14 +24,14 @@ ms.locfileid: "49832844"
 |--|--|
 |Planification de vérification|Après le déploiement initial de Skype Entreprise Server. Si nécessaire si des problèmes liés aux autorisations surviennent.|
 |Outil de test|Windows PowerShell|
-|Autorisations requises|Lorsqu’ils sont exécutés localement à l’aide de Skype Entreprise Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.<br/><br/>Lorsqu’il est exécuté à l’aide d’une instance distante de Windows PowerShell, les utilisateurs doivent se voir attribuer un rôle RBAC qui est autorisé à exécuter l'Test-CsSetupPermission commande. Pour voir la liste de tous les rôles RBAC qui peuvent utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell suivante :<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match « Test-CsSetupPermission"}|
+|Autorisations requises|Lorsqu’ils sont exécutés localement à l’aide de Skype Entreprise Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.<br/><br/>Lorsqu’il est exécuté à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui disposent de l’autorisation d’exécuter la cmdlet Test-CsSetupPermission commande. Pour voir la liste de tous les rôles RBAC qui peuvent utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell suivante :<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match « Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>Description
 
-Par défaut, seuls les administrateurs de domaine peuvent activer une topologie Skype Entreprise Server et apporter des modifications importantes à l’infrastructure Skype Entreprise Server. Cela ne pose aucun problème tant que vos administrateurs de domaine et vos administrateurs Skype Entreprise Server sont identiques. Dans de nombreuses organisations, les administrateurs Skype Entreprise Server ne détiennent pas de droits d’administration sur l’ensemble du domaine. Par défaut, cela signifie que ces administrateurs (définis en tant que membres du groupe RTCUniversalServerAdmins) ne peuvent pas apporter de modifications à la topologie Skype Entreprise Server. Pour accorder aux membres du groupe RTCUniversalServerAdmins le droit d’apporter des modifications à la topologie, vous devez attribuer les autorisations Active Directory requises à l’aide de l’cmdlet [Grant-CsSetupPermission.](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+Par défaut, seuls les administrateurs de domaine peuvent activer une topologie Skype Entreprise Server et apporter des modifications importantes à l’infrastructure Skype Entreprise Server. Cela ne pose aucun problème tant que vos administrateurs de domaine et vos administrateurs Skype Entreprise Server sont identiques. Dans de nombreuses organisations, les administrateurs Skype Entreprise Server ne détiennent pas de droits d’administration sur l’ensemble du domaine. Par défaut, cela signifie que ces administrateurs (définis en tant que membres du groupe RTCUniversalServerAdmins) ne peuvent pas apporter de modifications à la topologie Skype Entreprise Server. Pour accorder aux membres du groupe RTCUniversalServerAdmins le droit d’apporter des modifications à la topologie, vous devez attribuer les autorisations Active Directory requises à l’aide de l’cmdlet [Grant-CsSetupPermission.](/powershell/module/skype/Grant-CsSetupPermission)
  
-LTest-CsSetupPermission cmdlet vérifie que les autorisations requises pour installer Skype Entreprise Server ou l’un de ses composants sont configurées sur le conteneur Active Directory spécifié. Si les autorisations ne sont pas affectées, vous pouvez exécuter l’cmdlet Grant-CsSetupPermission pour accorder aux membres du groupe RTCUniversalServerAdmins le droit d’installer et d’activer Skype Entreprise Server.
+LTest-CsSetupPermission cmdlet vérifie que les autorisations requises pour installer Skype Entreprise Server ou l’un de ses composants sont configurées sur le conteneur Active Directory spécifié. Si les autorisations ne sont pas attribuées, vous pouvez exécuter l’cmdlet Grant-CsSetupPermission pour accorder aux membres du groupe RTCUniversalServerAdmins le droit d’installer et d’activer Skype Entreprise Server.
 
 ## <a name="running-the-test"></a>Exécution du test
 
@@ -39,7 +39,7 @@ Pour déterminer si des autorisations d’installation sont affectées à un con
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Test-CsSetupPermission.](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Test-CsSetupPermission.](/powershell/module/skype/Test-CsSetupPermission)
 
 ## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
@@ -47,13 +47,13 @@ Si Test-CsSetupPermission détermine que les autorisations requises ont déjà �
 
 Vrai 
 
-Si les autorisations ne sont pas définies, Test-CsSetupPermission retourne la valeur False. Notez que cette valeur est généralement incluse dans de nombreux messages d’avertissement. Par exemple :
+Si les autorisations ne sont pas définies, Test-CsSetupPermission renvoyer la valeur False. Notez que cette valeur est généralement incluse dans de nombreux messages d’avertissement. Par exemple :
 
 AVERTISSEMENT : entrée de contrôle d’accès (ACE) atl-cs-001\RTCUniversalServerAdmins; Autoriser ; ExtendedRight; Aucun ; Aucun ; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 AVERTISSEMENT : les entrées de contrôle d’accès sur l’objet « CN=Computers,DC=litwareinc,DC=com » ne sont pas prêtes. 
 
-Faux 
+False 
 
 AVERTISSEMENT : le traitement « Test-CsSetupPermission » s’est terminé avec des avertissements. « 2 » avertissements ont été enregistrés au cours de cette run. 
 
@@ -65,4 +65,4 @@ Bien qu’il existe de rares exceptions, si Test-CsSetupPermission échoue, cela
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 
-Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Test-CsSetupPermission.](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Test-CsSetupPermission.](/powershell/module/skype/Test-CsSetupPermission)

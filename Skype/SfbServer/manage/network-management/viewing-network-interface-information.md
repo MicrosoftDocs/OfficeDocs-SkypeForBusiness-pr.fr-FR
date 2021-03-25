@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vous pouvez afficher les informations de l’interface réseau à l Windows PowerShell l'Get-CsNetworkInterface cmdlet. Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell.
-ms.openlocfilehash: 26876fe6f7d8ac6989c88e8247d28a72e78ff903
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Vous pouvez afficher les informations de l’interface réseau à l’Windows PowerShell l'Get-CsNetworkInterface cmdlet. Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell.
+ms.openlocfilehash: 0e72b2550413004038b110292b693dda25affaf8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815134"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122418"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Affichage des informations d’interface réseau dans Skype Entreprise Server
 
@@ -40,6 +40,4 @@ Vous pouvez afficher les informations de l’interface réseau à l’Windows Po
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    Pour plus d’informations, voir [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface) (contenu éventuellement en anglais).
-
-
+    Pour plus d’informations, voir [Get-CsNetworkInterface](/powershell/module/skype/Get-CsNetworkInterface) (contenu éventuellement en anglais).

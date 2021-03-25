@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appels Microsoft et la 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca2fb94ff67f2efa874e670926330f8f3630cbe2
-ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
+ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741885"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122328"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -31,7 +31,7 @@ Les appels d’urgence dynamiques pour les plans d’appels Microsoft et le rout
 
 En fonction de la topologie de réseau définie par l’administrateur client, le client Teams fournit les informations de connectivité réseau dans une demande au service d’informations d’emplacement (LIS). En cas de correspondance, le LIS renvoie un emplacement au client. Ces données d’emplacement sont transmises au client.  
 
-Le client Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point d’accès à la sécurité publique approprié (PUBLIC SAFETY Answering Point) et pour router l’appel vers ce public PUBLICP, ce qui permet au régulateur du service PUBLIC PUBLIC d’obtenir l’emplacement de l’appelant.  
+Le client Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point de réponse de la sécurité publique appropriée (PUBLIC Safety Answering Point) et pour router l’appel vers ce réseau PUBLIC PUBLIC, ce qui permet au régulateur DUP d’obtenir l’emplacement de l’appelant.  
 
 Pour les appels d’urgence dynamiques, les situations suivantes doivent se produire :
 
@@ -66,7 +66,7 @@ La possibilité d’utiliser un routage automatique vers le point de réponse de
 
 Pour plus d’informations sur les appels d’urgence, notamment sur les adresses de secours et le routage des appels d’urgence, les informations spécifiques aux pays et les informations sur les paramètres réseau et la topologie du réseau, voir les informations suivantes :
 
-- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les paramètres réseau pour les fonctionnalités vocales cloud](cloud-voice-network-settings.md)
 - [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)
 
@@ -85,7 +85,7 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 - Salles Teams version 4.4.25.0 ou supérieure
 
 > [!NOTE]
-> Les appels d’urgence dynamiques, y compris les notifications de service de sécurité, ne sont pas pris en charge sur le client web de Teams. Pour empêcher les utilisateurs d’utiliser le client web de Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN web.** Pour en savoir plus, consultez [les stratégies d’appel](teams-calling-policy.md) dans Teams et [Set-CsTeamsCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+> Les appels d’urgence dynamiques, y compris les notifications de service de sécurité, ne sont pas pris en charge sur le client web de Teams. Pour empêcher les utilisateurs d’utiliser le client web de Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN web.** Pour en savoir plus, consultez [les stratégies d’appel](teams-calling-policy.md) dans Teams et [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 ## <a name="assign-emergency-addresses"></a>Affecter des adresses de secours
 
@@ -105,7 +105,7 @@ Vous ajoutez et affectez des adresses d’urgence dans le Centre d’administrat
 
 ## <a name="configure-network-settings"></a>Configurer les paramètres réseau
 
-Les paramètres réseau servent à déterminer l’emplacement d’un client Teams et à obtenir dynamiquement des stratégies d’appel d’urgence et un emplacement d’urgence. Vous pouvez configurer les paramètres réseau en fonction de la manière dont votre organisation souhaite que les appels d’urgence fonctionnent.
+Les paramètres réseau servent à déterminer l’emplacement d’un client Teams et à obtenir dynamiquement des stratégies d’appel d’urgence et un emplacement d’urgence. Vous pouvez configurer les paramètres réseau selon la manière dont votre organisation souhaite que les appels d’urgence fonctionnent.
 
 Les paramètres réseau incluent des sites qui comprennent une collection de sous-réseaux qui sont utilisés exclusivement pour l’affectation de stratégies dynamiques à des utilisateurs. Par exemple, une stratégie d’appel d’urgence et une stratégie de routage des appels d’urgence peuvent être affectées au « site de Redmond », de sorte que tout utilisateur qui vient de chez vous ou d’un autre emplacement Microsoft soit configuré avec les numéros d’urgence, le routage et le service de sécurité spécifiques de Redmond.  
 
@@ -122,7 +122,7 @@ Gardez les définitions suivantes à l’esprit. Pour plus d’informations, [vo
 
 - Un sous-réseau doit être associé à un site réseau spécifique. L’emplacement d’un client est déterminé en fonction du sous-réseau réseau et du site réseau associé.  
 
-Vous configurez les paramètres réseau dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour plus d’informations, voir Gérer votre topologie de réseau [pour les fonctionnalités vocales cloud.](manage-your-network-topology.md)
+Vous configurez les paramètres réseau dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour plus d’informations, [voir Gérer votre topologie de réseau pour les fonctionnalités vocales cloud.](manage-your-network-topology.md)
 
 Notez que la propagation et la mise à disposition de certains paramètres réseau (par exemple, une nouvelle adresse, un identificateur réseau, etc.) peuvent prendre un certain temps (jusqu’à quelques heures).  
 
@@ -136,7 +136,7 @@ Notez que la propagation et la mise à disposition de certains paramètres rése
 
 **Pour les utilisateurs du routage direct :**
 
-- Si l’enablement dynamique des appels d’urgence ou la configuration dynamique des notifications du service de sécurité est nécessaire, vous devez configurer à la fois les adresses IP de confiance et les sites réseau.
+- Si l’enablement dynamique des appels d’urgence ou la configuration dynamique de la notification du service de sécurité est nécessaire, vous devez configurer à la fois les adresses IP de confiance et les sites réseau.
 
 - Si seuls des emplacements dynamiques sont nécessaires, vous devez configurer uniquement les adresses IP fiables.
 
@@ -159,10 +159,10 @@ Pour qu’un client obtienne un emplacement, vous devez remplir le LIS avec des 
 
 Utilisez les cmdlets suivantes pour ajouter des ports, commutateurs, sous-réseaux et wap au LIS.
 
-- [Obtenir,](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps) [définir,](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps) [supprimer](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [Obtenir,](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps) [Définir,](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps) [Supprimer](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [Obtenir,](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps) [Définir,](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps) [Supprimer](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
-- [Obtenir,](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps) [définir,](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps) [supprimer](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+- [Obtenir,](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps) [définir,](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps) [supprimer](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
+- [Obtenir,](/powershell/module/skype/get-csonlinelisport?view=skype-ps) [Définir,](/powershell/module/skype/set-csonlinelisport?view=skype-ps) [Supprimer](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Obtenir,](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps) [Définir,](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps) [Supprimer](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Obtenir,](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps) [définir,](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps) [supprimer](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
 >Si des sous-réseaux sont utilisés dans le cadre de sites réseau, ils doivent être redéfinis dans le service Informations sur l’emplacement pour voir les emplacements dynamiques.
@@ -171,20 +171,20 @@ Utilisez les cmdlets suivantes pour ajouter des ports, commutateurs, sous-résea
 
 Utilisez les stratégies suivantes pour configurer les appels d’urgence. Vous pouvez gérer ces stratégies dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
 
-- **Stratégie de routage d’appel d’urgence** : s’applique uniquement au routage direct. Cette stratégie configure les numéros d’urgence, les masques par numéro si vous le souhaitez et l’itinéraire PSTN par numéro.  Vous pouvez affecter cette stratégie à des utilisateurs, à des sites réseau ou aux deux. (Les clients De Plans d’appel Teams sont automatiquement activés pour les appels d’urgence avec les numéros d’urgence du pays sur la base de leur emplacement d’utilisation de Microsoft 365 ou d’Office 365.)  Pour plus d’informations, voir [Gérer les stratégies de routage des](manage-emergency-call-routing-policies.md)appels d’urgence pour le routage direct.
+- **Stratégie de routage d’appel d’urgence** – Applicable uniquement au routage direct. Cette stratégie configure les numéros d’urgence, les masques par numéro si vous le souhaitez et l’itinéraire PSTN par numéro.  Vous pouvez affecter cette stratégie à des utilisateurs, à des sites réseau ou aux deux. (Les clients Plans d’appel Teams sont automatiquement activés pour les appels d’urgence avec les numéros d’urgence du pays sur la base de leur emplacement d’utilisation de Microsoft 365 ou d’Office 365.)  Pour plus d’informations, voir [Gérer les stratégies de routage des](manage-emergency-call-routing-policies.md)appels d’urgence pour le routage direct.
 
 - **Stratégie d’appel d’urgence** - Applicable aux plans d’appels et au routage direct. Cette stratégie configure l’expérience de notification du service de sécurité en cas d’appel d’urgence. Vous pouvez définir les personnes à informer et la manière dont elles sont informées. Par exemple, pour informer automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  Cette stratégie peut être affectée à des utilisateurs ou à des sites réseau, ou les deux. Pour plus d’informations, voir [Gérer les stratégies d’appel d’urgence dans Teams.](manage-emergency-calling-policies.md)
 
 ## <a name="enable-users-and-sites"></a>Activer les utilisateurs et les sites
 
-Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. N’oubliez pas que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur du plan d’appels, la stratégie n’aura aucun effet.)
+Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. N’oubliez pas que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur du plan d’appels, cette stratégie n’aura aucun effet.)
 
 Vous attribuez des stratégies dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell. Pour en savoir plus, consultez les articles :
 
 - [Gérer les stratégies de routage d’appel d’urgence pour le routage direct](manage-emergency-call-routing-policies.md)
 - [Gérer les stratégies d’appel d’urgence dans Teams](manage-emergency-calling-policies.md)
 
-Voici quelques exemples powershell.
+Voici quelques exemples de PowerShell.
 
 Pour activer la notification d’un utilisateur spécifique du service de sécurité, utilisez la commande suivante :
 
@@ -216,7 +216,7 @@ Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et
 
 Certains fournisseurs de services de routage d’urgence aux États-Unis proposent un robot de test d’appel d’urgence.
 
-- **Les utilisateurs d’un plan** d’appels aux États-Unis peuvent utiliser le numéro d’urgence de test prédéfide 933 pour valider leur configuration d’appel d’urgence. Ce numéro est acheminé vers un bot, ce qui a pour effet de faire écho au numéro de téléphone de l’appelant (ID de ligne d’appel), à l’adresse d’urgence ou à l’emplacement, et de savoir si l’appel doit être automatiquement acheminé vers le réseau PUBLIC OU d’abord présenté sous l’écran.
+- **Les utilisateurs d’un plan** d’appels aux États-Unis peuvent utiliser le numéro d’urgence de test prédéfide 933 pour valider leur configuration d’appel d’urgence. Ce numéro est acheminé vers un bot, ce qui echoe le numéro de téléphone de l’appelant (ID de ligne d’appel), l’adresse d’urgence ou l’emplacement, et le fait que l’appel soit automatiquement acheminé vers le RÉSEAU PUBLIC OU présenté en premier lieu sur l’écran.
 
 - **Les clients de routage direct aux États-Unis** doivent s’coordonner avec leur fournisseur ERSP pour un service de test.
 
@@ -231,9 +231,9 @@ Le tableau suivant indique la prise en charge des appels d’urgence dynamiques 
 | GCCH | Pending |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Rubriques connexes
 
-- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage d’appel d’urgence ](manage-emergency-call-routing-policies.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 40b1e0b95eeac06a0a92264305e0bf20e222d72e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581665"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122318"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
 ===================================================
@@ -32,7 +32,7 @@ Pour spécifier l’application Skype pour Réunions comme application préfér�
 
 1. Se connecter au centre d’administration de Microsoft Teams.
 2. Dans le volet gauche, sous Paramètres à l’échelle de **l’organisation,** sélectionnez **Mise à niveau de Teams.**
-3. Sur la page de mise à niveau de Teams, sous Préférences d’application, sélectionnez l’application Réunions **Skype** dans l’application Préférée pour que les **utilisateurs** participent à la liste de la liste de réunions Skype Entreprise.
+3. Sur la page de mise à niveau de Teams, sous Préférences d’application, sélectionnez l’application Réunions **Skype** dans l’application Préférée pour que les **utilisateurs** participent à la liste de listes de réunions Skype Entreprise.
 
     ![Sélectionnez l’application Préférée pour que les utilisateurs participent à des réunions Skype Entreprise](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
@@ -46,4 +46,4 @@ Les utilisateurs qui utilisent l’application Réunions Skype avec Teams sont s
 ## <a name="more-information"></a>Plus d’informations
 
 - [Qu’est-ce que l’application Réunions Skype (Skype Entreprise Web App) ?](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Configuration réseau minimale requise pour l’application Réunions Skype](https://technet.microsoft.com/library/mt845808.aspx)
+- [Configuration réseau minimale requise pour l’application Réunions Skype](/previous-versions/office/communications/mt845808(v=ocs.16))

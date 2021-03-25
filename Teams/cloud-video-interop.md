@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3a8d657e2cbc12695453e26ef0e4bf9ad55070bf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611848"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122358"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
 Cloud Video Interop (CVI) est une solution tierce qualifiée par Microsoft qui permet aux salles de réunion tierces (téléconférence) et aux périphériques vidéo personnels (VTCs) de participer à des réunions Microsoft Teams.
  
-Avec Microsoft Teams, vous obtenez une collaboration enrichie de contenu en ligne dans les réunions qui incluent l’audio, la vidéo et le partage de contenu. Cela peut être apprécié via le client de bureau et web, ainsi que par le biais de nombreux appareils partenaires qui s’intègrent en natif avec Microsoft Teams. Toutefois, de nombreux clients ont déjà investi dans la vidéoconférence et les périphériques de communication vidéo personnels, qui peuvent être coûteux à la mise à niveau. Cloud Video Interop fournit une solution simple qui vous permet de continuer à utiliser vos solutions existantes jusqu’à ce que vous soyez prêt à mettre à niveau.
+Avec Microsoft Teams, vous obtenez une collaboration enrichie de contenu en ligne dans les réunions qui incluent l’audio, la vidéo et le partage de contenu. Cela peut être apprécié via le client de bureau et web, ainsi que par le biais de nombreux appareils partenaires qui s’intègrent en natif avec Microsoft Teams. Toutefois, de nombreux clients ont déjà investi dans la téléconférence vidéo et les périphériques de communication vidéo personnels, qui peuvent être coûteux à la mise à niveau. Cloud Video Interop fournit une solution simple qui vous permet de continuer à utiliser vos solutions existantes jusqu’à ce que vous soyez prêt à mettre à niveau.
 
 Avec Cloud Video Interop, Microsoft Teams offre une expérience de réunion native à tous les participants, dans des salles de réunion ou à l’intérieur de clients Teams.
 
@@ -43,13 +43,13 @@ Cloud Video Interop est destiné aux clients qui répondent aux critères suivan
 
 - Avoir un déploiement important d’appareils de salle de réunion et de périphériques vidéo personnels (plus de 50 appareils) qui ne peuvent pas être intégrés directement à Microsoft Teams
 - Sont pris en charge par l’un de nos partenaires Cloud Video Interop
-- Vous souhaitez conserver la valeur de leur investissement dans les appareils de salle de réunion et les périphériques vidéo personnels pendant la migration vers une solution Microsoft Teams native.
+- Vous souhaitez conserver la valeur de leur investissement dans ses appareils de salle de réunion et ses périphériques vidéo personnels pendant la migration vers une solution Microsoft Teams native.
 
 Bien que Cloud Video Interop offre une solution intermédiaire, nous encourageons nos clients à se regarder dans nos solutions de réunion Teams natives, telles que les systèmes de salle Teams, à long terme. 
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 Secteur Public et services tiers
 
-Office 365 permet d’intégrer des applications tierces dans des sites SharePoint Online, Skype Entreprise, Teams et les applications Office incluses dans les applications Microsoft 365 pour les entreprises (telles que Word, Excel, PowerPoint et Outlook) et Outlook Web App. En outre, Office 365 prend en charge l’intégration avec des fournisseurs de services tiers. Ces applications et services tiers peuvent impliquer le stockage, la transmission et le traitement des données client de votre organisation sur des systèmes tiers qui ne sont pas conformes à l’infrastructure Office 365 et ne sont donc pas couverts par les engagements en matière de conformité et de protection des données Office 365. **Il est recommandé de consulter les déclarations de confidentialité et de conformité fournies par des tiers lors de l’évaluation de l’utilisation appropriée de ces services pour votre organisation.**
+Office 365 offre la possibilité d’intégrer des applications tierces dans des sites SharePoint Online, Skype Entreprise, Teams et les applications Office incluses dans les applications Microsoft 365 pour les entreprises (telles que Word, Excel, PowerPoint et Outlook) et Outlook Web App. En outre, Office 365 prend en charge l’intégration avec des fournisseurs de services tiers. Ces applications et services tiers peuvent impliquer le stockage, la transmission et le traitement des données client de votre organisation sur des systèmes tiers qui ne sont pas conformes à l’infrastructure Office 365 et ne sont donc pas couverts par les engagements en matière de conformité et de protection des données Office 365. **Il est recommandé de consulter les déclarations de confidentialité et de conformité fournies par des tiers lors de l’évaluation de l’utilisation appropriée de ces services pour votre organisation.**
 
 
 
@@ -62,7 +62,7 @@ Les partenaires suivants ont des solutions d’interop vidéo pour Microsoft Tea
 |![Logo représentant Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
 |![Logo représentant Pexip Infini](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity pour Microsoft Teams</a> | 
 |![Logo représentant la passerelle BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft Teams</a> |
-|![Logo représentant Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Intégration de Cisco Webex Video à Microsoft Teams</a>|
+|![Logo représentant Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Intégration de Cisco Webex Video pour Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>Vue d’ensemble d’Interop Cloud Video
 
@@ -85,7 +85,7 @@ Lors du déploiement d’une solution Cloud Video Interop, il est important de c
 
 Au cours de la phase de plan, vous devez identifier les appareils que vous ne remplacerez pas par un appareil Teams natif et trouver un partenaire Cloud Video Interop qui peut prendre en charge ces appareils.  
 
-Il est également important de comprendre que vous aurez besoin d’une licence pour chaque utilisateur qui planifiera des réunions pour lesquelles vous souhaitez qu’un appareil activé pour Cloud Video Interop participe. Notez que les conditions de licence exactes peuvent être obtenues auprès du partenaire Cloud Video Interop. Assurez-vous que ce message est clair avant de commencer votre déploiement.
+Il est également important de comprendre que vous aurez besoin d’une licence pour chaque utilisateur qui planifiera des réunions pour lesquelles vous souhaitez qu’un appareil activé pour Interop Cloud Video soit utilisé. Notez que les conditions de licence exactes peuvent être obtenues auprès du partenaire Cloud Video Interop. Assurez-vous que ce message est clair avant de commencer votre déploiement.
 
 ### <a name="configure"></a>Configuration
 
@@ -93,7 +93,7 @@ Le partenaire que vous avez choisi pour votre déploiement DVI vous fournira un 
 
 ### <a name="provision"></a>Approvisionnement  
 
-Au cours de la phase de configuration, vous attribuerez des licences aux utilisateurs appropriés, conformément au guide de configuration du partenaire. Vous devrez également passer par le processus de consentement Azure pour fournir au partenaire l’accès à votre environnement Teams. Pour [plus d’informations sur](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) le processus d’accord Azure, voir Autorisations et consentement dans le point de terminaison de la plateforme d’identité Microsoft.
+Au cours de la phase de configuration, vous attribuerez des licences aux utilisateurs appropriés conformément au guide de configuration du partenaire. Vous devrez également passer par le processus de consentement Azure pour fournir au partenaire l’accès à votre environnement Teams. Pour [plus d’informations sur](/azure/active-directory/develop/v2-permissions-and-consent) le processus de consentement Azure, voir Autorisations et consentement dans le point de terminaison de la plateforme d’identité Microsoft.
 
 ### <a name="schedule"></a>Planification
 
@@ -107,7 +107,7 @@ Selon la solution partenaire, plusieurs méthodes s’offrent à vous pour parti
   - Vous pouvez appeler les IVR du partenaire à l’aide de la tenantkey@domain.
   - Lorsque vous êtes dans l’IVR partenaire, vous êtes invité à entrer le VTC conferenceId, qui vous connecte ensuite à la réunion Teams.
 - Numérotation directe 
-  - Vous pouvez composer directement le numéro de la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe, en utilisant la chaîne complète de touches client. VTC ConferenceId@domain.
+  - Vous pouvez vous appeler directement à la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe, en utilisant la chaîne complète de touches client. VTC ConferenceId@domain.
 - Numérotation à une pression 
   - Si vous avez une salle Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation à un écran tactile offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
 
@@ -127,7 +127,7 @@ Si Teams fonctionne correctement sur ce segment, et que vous avez également sui
 
 Les cmdlets PowerShell suivantes sont disponibles pour automatiser (partiellement) le déploiement Cloud Video Interop.
 
-- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft fournit des stratégies pré-construite pour chacun de nos partenaires pris en charge qui vous permettent de désigner le ou les partenaires à utiliser pour Cloud Video Interop.<br>Cette cmdlet vous permet d’identifier les stratégies pré-construite que vous pouvez utiliser dans votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l'Grant-CsTeamsVideoInteropServicePolicy cmdlet.
+- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft fournit des stratégies prédécoupées pour chacun de nos partenaires pris en charge qui vous permettent de désigner le ou les partenaires à utiliser pour Cloud Video Interop.<br>Cette cmdlet vous permet d’identifier les stratégies pré-construite que vous pouvez utiliser dans votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l'Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 - **Grant-CsTeamsVideoInteropServicePolicy :** cette cmdlet vous permet d’attribuer une stratégie préécontante à utiliser dans votre organisation ou d’affecter la stratégie à des utilisateurs spécifiques.
 - **New-CsVideoInteropServiceProvider**: utilisez cette cmdlet pour spécifier les informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
 - **Set-CsVideoInteropServiceProvider**: utilisez cette cmdlet pour mettre à jour les informations sur un partenaire CVI pris en charge que votre organisation utilise.

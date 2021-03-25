@@ -20,23 +20,23 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer le routage direct de Microsoft Phone System pour connecter votre infrastructure téléphonique locale à Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5388c93e741323d3dc9eda0fc51968b8b344d2cb
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701292"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122238"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
-Le routage direct de Microsoft Phone System vous permet de connecter votre infrastructure téléphonique locale à Microsoft Teams. Cet article répertorie les étapes de haut niveau requises pour connecter un contrôleur de session en ligne local pris en charge au routage direct par un contrôleur de session (SBC) et comment configurer les utilisateurs de Teams de façon à ce qu’ils utilisent le routage direct pour se connecter au réseau téléphonique commuté (PSTN). Cet article est associé à des articles pour plus d’informations.  
+Le routage direct de Microsoft Phone System vous permet de connecter votre infrastructure téléphonique locale à Microsoft Teams. Cet article répertorie les étapes de haut niveau requises pour connecter un contrôleur de session en ligne local pris en charge au routage direct, et comment configurer les utilisateurs de Teams de façon à ce qu’ils utilisent le routage direct pour se connecter au réseau téléphonique commuté (PSTN). Cet article est associé à des articles pour plus d’informations.  
 
 Pour savoir si le routage direct est la solution adaptée à votre organisation, voir [Routage direct du](direct-routing-landing-page.md)système téléphonique. Pour plus d’informations sur les conditions préalables et la planification de votre déploiement, voir [Plan de routage direct.](direct-routing-plan.md)
 
 > [!Tip]
 > Vous pouvez également regarder la session suivante pour en savoir plus sur les avantages du routage direct, comment le planifier et comment le déployer : Routage direct [dans Microsoft Teams.](https://aka.ms/teams-direct-routing)
 
-Pour suivre les étapes expliquées dans cet article, les administrateurs doivent être familiarisés avec les cmdlets PowerShell. Pour plus d’informations sur l’utilisation de PowerShell, voir [Configurer votre ordinateur pour Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
+Pour suivre les étapes expliquées dans cet article, les administrateurs doivent être familiarisés avec les cmdlets PowerShell. Pour plus d’informations sur l’utilisation de PowerShell, voir [Configurer votre ordinateur pour Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
 Avant d’effectuer la procédure de ces articles, Microsoft vous recommande de confirmer que votre SBC a déjà été configuré comme recommandé par votre fournisseur SBC : 
 
@@ -58,9 +58,8 @@ Pour configurer Microsoft Phone System et permettre aux utilisateurs d’utilise
 Si vous configurez un SBC pour plusieurs locataires, vous pouvez également lire Configurer un SBC pour [plusieurs locataires.](direct-routing-sbc-multiple-tenants.md)
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 
 [Planifier le routage direct](direct-routing-plan.md)
-

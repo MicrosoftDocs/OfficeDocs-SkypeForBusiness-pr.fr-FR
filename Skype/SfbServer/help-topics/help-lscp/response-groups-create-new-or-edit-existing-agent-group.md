@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe Response Group (appelées agents), ainsi que les paramètres qui s’appliquent à tous les agents dans le groupe.
-ms.openlocfilehash: 19ff8272e70ef56dfb92b537422fddefe0e69842
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 10e7790ae993baf18693cba300c3d2b479624a29
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819184"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122565"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Services Response Group : création d’un nouveau ou modification d’un groupe existant
 
@@ -52,7 +52,7 @@ La liste suivante décrit les champs de la page.
 
   - Sélectionnez **Série** pour qu’un nouvel appel soit toujours présenté aux agents dans l’ordre dans lequel il apparaît dans la liste **Agent**.
 
-  - Sélectionnez **Attendant** pour qu’il propose un nouvel appel à tous les agents qui sont inscrits et à l’application Response Group en même temps, quelle que soit leur présence actuelle. Les attendants et les utilisateurs clients configurés en tant qu’agents peuvent voir tous les appels en attente et répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres agents et utilisateurs ne voient plus l’appel.
+  - Sélectionnez **Attendant** pour qu’il propose un nouvel appel à tous les agents qui sont inscrits et à l’application Response Group en même temps, quelle que soit leur présence actuelle. Les attendants et les utilisateurs clients configurés en tant qu’agents peuvent voir tous les appels en attente et répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres attendants et utilisateurs ne voient plus l’appel.
 
 - **Agents** Sélectionnez les utilisateurs qui doivent être des agents pour le groupe Response Group de l’une des manières suivantes :
 
@@ -65,12 +65,10 @@ La liste suivante décrit les champs de la page.
     > L’ordre dans lequel les agents sont répertoriés dans la liste de distribution affecte l’ordre dans lequel les agents reçoivent des appels pour le routage en série et de tourniquet.
 
     > [!NOTE]
-    > Les appartenances masquées ou les listes masquées peuvent devenir visibles pour les administrateurs ou les utilisateurs Response Group. Pour plus d’informations, voir [Create or modify an agent group in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
+    > Les appartenances masquées ou les listes masquées peuvent devenir visibles pour les administrateurs ou les utilisateurs Response Group. Pour plus d’informations, [voir Create or modify an agent group in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
 
   - Sélectionnez **Définir un groupe personnalisé d’agents** pour sélectionner les utilisateurs que vous voulez attribuer en tant qu’agents pour le groupe Response Group. Cliquez sur **Sélectionner** pour ajouter un agent à la liste. Cliquez sur **Supprimer** pour supprimer un agent sélectionné de la liste.
 
     Les flèches Haut et Bas déplacent un agent sélectionné vers le haut et vers le bas dans la liste des agents. L’ordre des agents dans la liste affecte l’ordre dans lequel les agents reçoivent des appels pour le routage en série et de tourniquet.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
-
-
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) dans la documentation des opérations.
