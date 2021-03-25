@@ -24,33 +24,32 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Chine (nord), notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, ainsi que les restrictions.
-ms.openlocfilehash: fd535751d235914b7f33e5e22afb726f5bfbdcec
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8aa0a330e51a99dc53ebdacd94e53691dc165367
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140463"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116792"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a><span data-ttu-id="9b4c4-103">Restrictions de numérotation gratuit en Chine- Nord (plage(10 800 714 XXXX) </span><span class="sxs-lookup"><span data-stu-id="9b4c4-103">Toll-free dialing restrictions in China - North (10 800 714 XXXX range)</span></span>
+# <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a><span data-ttu-id="19fe7-103">Restrictions de numérotation gratuit en Chine- Nord (plage(10 800 714 XXXX) </span><span class="sxs-lookup"><span data-stu-id="19fe7-103">Toll-free dialing restrictions in China - North (10 800 714 XXXX range)</span></span>
 
-<span data-ttu-id="9b4c4-104">[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.</span><span class="sxs-lookup"><span data-stu-id="9b4c4-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="19fe7-104">[Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.</span><span class="sxs-lookup"><span data-stu-id="19fe7-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="9b4c4-105">**Details**</span><span class="sxs-lookup"><span data-stu-id="9b4c4-105">**Details**</span></span>|<span data-ttu-id="9b4c4-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="9b4c4-106">**Description**</span></span>|
+|<span data-ttu-id="19fe7-105">**Détails**</span><span class="sxs-lookup"><span data-stu-id="19fe7-105">**Details**</span></span>|<span data-ttu-id="19fe7-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="19fe7-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="9b4c4-107">Des appels gratuits sont-ils disponibles ?</span><span class="sxs-lookup"><span data-stu-id="9b4c4-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="9b4c4-108">Oui</span><span class="sxs-lookup"><span data-stu-id="9b4c4-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-109">Format(s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="9b4c4-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="9b4c4-110">10 800 714 XXXX</span><span class="sxs-lookup"><span data-stu-id="9b4c4-110">10 800 714 XXXX</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-111">Code ISO de pays/région</span><span class="sxs-lookup"><span data-stu-id="9b4c4-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="9b4c4-112">CN</span><span class="sxs-lookup"><span data-stu-id="9b4c4-112">CN</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-113">Île/territoire couvert par</span><span class="sxs-lookup"><span data-stu-id="9b4c4-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="9b4c4-114">Nord de la Chine/Réseau China Netcom uniquement</span><span class="sxs-lookup"><span data-stu-id="9b4c4-114">North China / China Netcom network only</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-115">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="9b4c4-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="9b4c4-116">Sud de la Chine</span><span class="sxs-lookup"><span data-stu-id="9b4c4-116">South China</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-117">Disponibilité des lignes câblés/fixes</span><span class="sxs-lookup"><span data-stu-id="9b4c4-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="9b4c4-118">Via China Netcom uniquement</span><span class="sxs-lookup"><span data-stu-id="9b4c4-118">From China Netcom only</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-119">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="9b4c4-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="9b4c4-120">Non</span><span class="sxs-lookup"><span data-stu-id="9b4c4-120">No</span></span>  <br/> |
-|<span data-ttu-id="9b4c4-121">Problèmes de commentaires, restrictions et accès</span><span class="sxs-lookup"><span data-stu-id="9b4c4-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="9b4c4-122">Inaccessible à partir d'une cabine téléphonique</span><span class="sxs-lookup"><span data-stu-id="9b4c4-122">Not accessible from a payphone.</span></span>  <br/> |
+|<span data-ttu-id="19fe7-107">Des appels gratuits sont-ils disponibles ?</span><span class="sxs-lookup"><span data-stu-id="19fe7-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="19fe7-108">Oui</span><span class="sxs-lookup"><span data-stu-id="19fe7-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="19fe7-109">Format(s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="19fe7-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="19fe7-110">10 800 714 XXXX</span><span class="sxs-lookup"><span data-stu-id="19fe7-110">10 800 714 XXXX</span></span>  <br/> |
+|<span data-ttu-id="19fe7-111">Code ISO de pays/région</span><span class="sxs-lookup"><span data-stu-id="19fe7-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="19fe7-112">CN</span><span class="sxs-lookup"><span data-stu-id="19fe7-112">CN</span></span>  <br/> |
+|<span data-ttu-id="19fe7-113">Île/territoire couvert(s)</span><span class="sxs-lookup"><span data-stu-id="19fe7-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="19fe7-114">Nord de la Chine/Réseau China Netcom uniquement</span><span class="sxs-lookup"><span data-stu-id="19fe7-114">North China / China Netcom network only</span></span>  <br/> |
+|<span data-ttu-id="19fe7-115">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="19fe7-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="19fe7-116">Sud de la Chine</span><span class="sxs-lookup"><span data-stu-id="19fe7-116">South China</span></span>  <br/> |
+|<span data-ttu-id="19fe7-117">Disponibilité des lignes câblés/fixes</span><span class="sxs-lookup"><span data-stu-id="19fe7-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="19fe7-118">Via China Netcom uniquement</span><span class="sxs-lookup"><span data-stu-id="19fe7-118">From China Netcom only</span></span>  <br/> |
+|<span data-ttu-id="19fe7-119">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="19fe7-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="19fe7-120">Non</span><span class="sxs-lookup"><span data-stu-id="19fe7-120">No</span></span>  <br/> |
+|<span data-ttu-id="19fe7-121">Problèmes de commentaires, restrictions et accès</span><span class="sxs-lookup"><span data-stu-id="19fe7-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="19fe7-122">Inaccessible à partir d'une cabine téléphonique</span><span class="sxs-lookup"><span data-stu-id="19fe7-122">Not accessible from a payphone.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="9b4c4-123">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="9b4c4-123">Related topics</span></span>
-[<span data-ttu-id="9b4c4-124">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="9b4c4-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="19fe7-123">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="19fe7-123">Related topics</span></span>
+[<span data-ttu-id="19fe7-124">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="19fe7-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="9b4c4-125">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9b4c4-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="19fe7-125">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="19fe7-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 

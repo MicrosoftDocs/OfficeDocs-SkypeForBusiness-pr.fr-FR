@@ -15,21 +15,19 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un nouveau site de succursale, spécifiez ce qui suit :'
-ms.openlocfilehash: 3ab0f19c66d1238454dac08a9094d7a95ffbc04d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3452c80cce4941d33d1781a5e90dff26841131cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811924"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116462"
 ---
-# <a name="add-branch-site-name"></a><span data-ttu-id="ae80a-103">Ajouter le nom du site de succursale</span><span class="sxs-lookup"><span data-stu-id="ae80a-103">Add Branch Site Name</span></span>
+# <a name="add-branch-site-name"></a><span data-ttu-id="97885-103">Ajouter le nom du site de succursale</span><span class="sxs-lookup"><span data-stu-id="97885-103">Add Branch Site Name</span></span>
 
-<span data-ttu-id="ae80a-104">Pour définir un nouveau site de succursale, spécifiez ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="ae80a-104">To define a new branch site, specify the following:</span></span>
+<span data-ttu-id="97885-104">Pour définir un nouveau site de succursale, spécifiez ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="97885-104">To define a new branch site, specify the following:</span></span>
 
-<span data-ttu-id="ae80a-p101">Un nom pour le nouveau site de succursale. Le nom que vous choisissez doit être unique dans votre déploiement. Vous pouvez utiliser la convention d'affectation de noms de votre choix. En règle générale, les recommandations préconisent de mentionner la ville, le nom d'emplacement, le nom de succursale. La valeur du nom est une entrée obligatoire.</span><span class="sxs-lookup"><span data-stu-id="ae80a-p101">A name for the new branch site. The name that you define must be unique in your deployment. Any naming convention that you decide on can be used. Typical recommendations are by city, location name, branch office name. The name value is a required entry.</span></span>
+<span data-ttu-id="97885-p101">Un nom pour le nouveau site de succursale. Le nom que vous choisissez doit être unique dans votre déploiement. Vous pouvez utiliser la convention d'affectation de noms de votre choix. En règle générale, les recommandations préconisent de mentionner la ville, le nom d'emplacement, le nom de succursale. La valeur du nom est une entrée obligatoire.</span><span class="sxs-lookup"><span data-stu-id="97885-p101">A name for the new branch site. The name that you define must be unique in your deployment. Any naming convention that you decide on can be used. Typical recommendations are by city, location name, branch office name. The name value is a required entry.</span></span>
 
-<span data-ttu-id="ae80a-110">Le champ description permet, si vous le souhaitez, d'ajouter d'autres informations ne faisant pas partie du nom de l'infrastructure mais qui présentent l'avantage de mieux détailler votre site.</span><span class="sxs-lookup"><span data-stu-id="ae80a-110">The description field, which is optional, provides a place for you to specify additional descriptive information that will not be a part of the infrastructure name, but provides a location for text to further describe your site.</span></span>
+<span data-ttu-id="97885-110">Le champ description permet, si vous le souhaitez, d'ajouter d'autres informations ne faisant pas partie du nom de l'infrastructure mais qui présentent l'avantage de mieux détailler votre site.</span><span class="sxs-lookup"><span data-stu-id="97885-110">The description field, which is optional, provides a place for you to specify additional descriptive information that will not be a part of the infrastructure name, but provides a location for text to further describe your site.</span></span>
 
-<span data-ttu-id="ae80a-111">Pour plus d'informations, voir [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span><span class="sxs-lookup"><span data-stu-id="ae80a-111">For details, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
-
-
+<span data-ttu-id="97885-111">Pour plus d'informations, voir [Sites](/previous-versions/office/lync-server-2013/lync-server-2013-sites).</span><span class="sxs-lookup"><span data-stu-id="97885-111">For details, see [Sites](/previous-versions/office/lync-server-2013/lync-server-2013-sites).</span></span>
