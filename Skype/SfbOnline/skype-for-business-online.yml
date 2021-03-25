@@ -17,12 +17,12 @@ metadata:
   ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
   ms.date: 06/24/2020
-  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
-  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.openlocfilehash: 46c5502a9dbcdb06f16845cbaf36c04db6021393
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46522962"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118923"
 landingContent:
 - title: À propos de Skype Entreprise Online
   linkLists:
@@ -41,9 +41,9 @@ landingContent:
     - text: Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?
       url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
     - text: Résolution des problèmes liés à Skype Entreprise Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+      url: ./set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
     - text: Migration de Skype Entreprise vers Teams
-      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+      url: /MicrosoftTeams/upgrade-start-here
 - title: Nouveautés
   linkLists:
   - linkListType: how-to-guide
@@ -51,7 +51,7 @@ landingContent:
     - text: La configuration système téléphonique de votre organisation
       url: /microsoftteams/setting-up-your-phone-system
     - text: Intégration d'autres produits avec l'audioconférence
-      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+      url: ./legal-and-regulatory/end-of-integration-with-3rd-party-providers.md
     - text: Configurer l'audioconférence
       url: /microsoftteams/audio-conferencing-in-office-365
   - linkListType: overview
@@ -71,7 +71,7 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Gestion des paramètres d'audioconférence de mon organisation
-      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+      url: ./audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md
     - text: Comparer les fournisseurs de service d'audioconférence
       url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
 - title: Configurer
@@ -79,17 +79,17 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Configurer Skype Entreprise Online
-      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+      url: ./set-up-skype-for-business-online/set-up-skype-for-business-online.md
     - text: Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
-      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+      url: ./set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
     - text: Autoriser les utilisateurs de Skype Entreprise à ajouter des contacts Skype
-      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+      url: ./set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
 - title: Licence de compléments
   linkLists:
   - linkListType: overview
     links:
     - text: Licences de compléments pour Skype Entreprise et Microsoft Teams
-      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+      url: ./skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
     - text: Qu'est-ce que les crédits de communication ?
       url: /MicrosoftTeams/what-are-communications-credits
 - title: Forfaits d’appel
