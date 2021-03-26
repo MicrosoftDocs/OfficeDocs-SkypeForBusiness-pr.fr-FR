@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107300"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197519"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 ==========================
@@ -66,7 +66,7 @@ Il se peut que les utilisateurs de l’ordinateur joint au domaine ne puissent p
 
 ## <a name="macos-users"></a>Utilisateurs MacOS
 
-Sur MacOS, Teams invite les utilisateurs à entrer leur nom d’utilisateur et informations d’identification, et peut demander l’authentification multifacteur selon les paramètres de votre organisation. Une fois que les utilisateurs ont entré leurs informations d’identification, ils ne sont pas obligés de les redonner. À partir de ce point, Teams démarre automatiquement chaque fois qu’ils travaillent sur le même ordinateur.
+Sur MacOS, Teams invite les utilisateurs à entrer leur nom d’utilisateur et informations d’identification, et peut demander l’authentification multi-facteur selon les paramètres de votre organisation. Une fois que les utilisateurs ont entré leurs informations d’identification, ils ne sont pas obligés de les redonner. À partir de ce point, Teams démarre automatiquement chaque fois qu’ils travaillent sur le même ordinateur.
 
 ## <a name="teams-on-ios-and-android-users"></a>Teams sur les utilisateurs iOS et Android
 
@@ -122,7 +122,7 @@ Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuve
 >1. La stratégie restreint uniquement les connexions. Cela ne limite pas la possibilité pour les utilisateurs d’être invités comme invités dans d’autres clients Azure AD ou de basculer vers d’autres clients.
 >2. La stratégie requiert Teams pour Windows version 1.3.00.30866 ou ultérieure, et Teams pour MacOS version 1.3.00.30882 (publiée mi-novembre 2020).
 
-**Les stratégies pour les fichiers de modèles d’administration Windows** (ADMX/ADML) sont disponibles à partir du [Centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=49030). En outre, vous pouvez spécifier manuellement les clés dans le Registre Windows :
+**Les stratégies pour Windows** Fichiers de modèles d’administration (ADMX/ADML) sont disponibles dans le[Centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=49030) (le nom descriptif du paramètre de stratégie dans le fichier modèle d’administration est « Restreindre la connexion à Teams aux comptes de clients spécifiques »). En outre, vous pouvez spécifier manuellement les clés dans le Registre Windows :
 
 - Nom de la valeur : RestrictTeamsSignInToAccountsFromTenantList
 - Type de valeur : chaîne
@@ -133,7 +133,7 @@ Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuve
 
 Exemple : OFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID ou SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID client 1, ID client 2, ID client 3
 
-**Stratégies pour MacOS** pour les appareils gérés par MacOS, utilisez .plist pour déployer les restrictions de connexion. Le profil de configuration est un fichier .plist, composé d’entrées identifiées par une clé (qui indique le nom de la préférence), suivie d’une valeur qui dépend de la nature de la préférence. Les valeurs peuvent être simples (par exemple, une valeur numérique) ou complexes, comme une liste imbriquée de préférences.
+**Stratégies pour MacOS** Pour les appareils gérés par MacOS, utilisez .plist pour déployer les restrictions de connexion. Le profil de configuration est un fichier .plist, composé d’entrées identifiées par une clé (qui indique le nom de la préférence), suivie d’une valeur qui dépend de la nature de la préférence. Les valeurs peuvent être simples (par exemple, une valeur numérique) ou complexes, comme une liste imbriquée de préférences.
 
 - Domaine : com.microsoft.teams
 - Clé : RestrictTeamsSignInToAccountsFromTenantList
