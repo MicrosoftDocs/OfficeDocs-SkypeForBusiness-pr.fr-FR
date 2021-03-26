@@ -17,12 +17,12 @@ description: En savoir plus sur les stratégies d’enregistrement d’événeme
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119163"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262656"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct dans Microsoft Teams
 
@@ -42,17 +42,17 @@ Deux options d’organisateur sont disponibles lors de la planification de l’e
 
   - DVR : un enregistreur vidéo numérique (DVR) permet aux participants de rembobiner et de suspendre pendant l’événement
 
-  - VOD : une vidéo à la demande permet aux participants de regarder l’événement une fois l’événement terminé
+  - VOD : une vidéo à la demande permet aux participants de les regarder une fois l’événement terminé
 
 ## <a name="broadcast-recording-policy-setting"></a>Paramètre de stratégie d’enregistrement de diffusion
 
-Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement pour un événement en direct.
+Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement d’un événement en direct à partir d’un paramètre.
 
 |                                 | Enregistrement disponible pour les producteurs et les présentateurs | Enregistrement disponible pour les participants |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| Toujours enregistrer               | Désactivé et sélectionné                                | Désactivé et sélectionné         |
-| L’organisateur peut enregistrer ou non | Activé et non sélectionné par défaut                  | Activé et non sélectionné par défaut   |
-| N’enregistrez jamais               | Désactivé et non sélectionné                            | Désactivé et non sélectionné      |
+| Toujours enregistrer               | Désactivé et sélectionné                                | Activé et sélectionné         |
+| L’organisateur peut enregistrer ou non | Activé et sélectionné par défaut                  | Activé et sélectionné par défaut   |
+| N’enregistrez jamais               | Désactivé et non sélectionné                            | Activé et non sélectionné      |
 
 Lorsque la stratégie est définie sur **Toujours enregistrer,** la page de stratégie possède les options sélectionnées suivantes :
 

@@ -10,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Surveillance et alerte sur les appareils de Microsoft Teams](../alerts/device-health-status.md) | ajouté |
 | 3/15/2021 | [Surveillance et alertes de Microsoft Teams](../alerts/teams-admin-alerts.md) | ajouté |
-| 3/15/2021 | [Implémenter votre déplacement vers Microsoft Teams](../implement-your-move.md) | ajouté |
 | 3/15/2021 | [Intégration de la messagerie teams et Outlook](../teams-outlook-email-integration.md) | modifié |
 | 3/15/2021 | [Partager avec Teams](../teams-outlook-share-teams.md) | ajouté |
 | 3/16/2021 | [Créer un modèle d’équipe personnalisé dans Microsoft Teams](../create-a-team-template.md) | modifié |
@@ -49,9 +48,9 @@
 | 3/18/2021 | [Limites et spécifications de Microsoft Teams](../limits-specifications-teams.md) | modifié |
 | 3/18/2021 | [Gérer les stratégies de réunion](../meeting-policies-in-teams.md) | modifié |
 | 3/18/2021 | [Notes de publication de Microsoft Teams](../release-notes/release-notes.md) | modifié |
-| 3/18/2021 | [Gérer les appareils Salles Microsoft Teams avec Azure Monitor](../rooms/azure-monitor-manage.md) | modifié |
+| 3/18/2021 | [Gérer les appareils salles Microsoft Teams avec un moniteur Azure](../rooms/azure-monitor-manage.md) | modifié |
 | 3/18/2021 | [Licences Salles Microsoft Teams](../rooms/rooms-licensing.md) | modifié |
-| 3/18/2021 | [Maintenance et opérations dans les salles Microsoft Teams](../rooms/rooms-operations.md) | modifié |
+| 3/18/2021 | [Maintenance et opérations dans salles Microsoft Teams](../rooms/rooms-operations.md) | modifié |
 | 3/18/2021 | [Préparer votre environnement](../rooms/rooms-prep.md) | modifié |
 | 3/18/2021 | [Gérer à distance les paramètres de l’appareil Salles Microsoft Teams](../rooms/xml-config-file.md) | modifié |
 | 3/18/2021 | [Étiquettes de sensibilité pour Microsoft Teams](../sensitivity-labels.md) | modifié |
