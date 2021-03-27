@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
+ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102620"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215319"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -85,7 +85,7 @@ Dans les deux vues, les enseignants peuvent accéder aux données sur la classe.
 Au niveau de la classe, si un enseignant est propriétaire d’une équipe de classe, Insights est disponible sans aucune autre action de la part de l’administrateur informatique.
 
 ### <a name="education-leaders"></a>Responsables de l’éducation
-Les responsables de l’éducation peuvent utiliser Insights comme application personnelle disponible dans la barre gauche de l’application Teams.
+Les responsables de l’éducation peuvent utiliser Insights comme [application personnelle](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347) disponible dans la barre gauche de l’application Teams.
 
 Au niveau de l’organisation, l’administrateur informatique doit connecter le système d’information sur les élèves et attribuer à chaque rôle des autorisations d'accès aux établissements scolaires ou aux départements qui les concernent.
 
@@ -131,6 +131,7 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 | **Devoirs** | Ouverture, remise et notation des devoirs.|
 | **Implication sur les canaux** |  Visiter un canal, créer un billet, répondre à un billet et l'apprécier (à l'exclusion du contenu de conversation).|
 | **Fichiers** |   Charger, télécharger, consulter, modifier, commenter et partager un fichier (à l'exclusion du contenu du fichier).|
+| **Bloc-notes OneNote pour la classe** |  Modification d’une page ou d’une section d’un bloc-notes (sans inclure le contenu de la page).|
 | **Réunions** |    Présence (à l'exclusion du contenu des réunions).|
 
 > [!NOTE]
@@ -205,7 +206,8 @@ N’hésitez pas à distribuer les ressources suivantes aux **enseignants** :
 *   Entraînez-vous avec le [cours gratuit sur Insights](https://aka.ms/insights/course) dans le Centre pour les enseignants de Microsoft.
 *   Enfin, consultez [ce blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) consacré à Insights.
 
-Des ressources destinées aux **responsables de l’éducation** vont bientôt paraître.
+Des ressources destinées aux **responsables de l’éducation** :
+*   [Page prise en charge des informations pour les organisations de l’éducation](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
 ## <a name="turn-insights-off-or-on"></a>Activer ou désactiver Insights
 Insights est activé par défaut. Lorsque vous désactivez Insights, nous *supprimons toutes les données collectées* pour Insights. Si vous réactivez Insights, nous commencerons à collecter des données depuis la date et l’heure de réactivation.
