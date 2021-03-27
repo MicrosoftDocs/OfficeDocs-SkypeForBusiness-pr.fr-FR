@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 463f081151761d4c587c893672e7bbee093cc844
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51768d35f70f0008d5d8a2ad7cccb213de9dcc3c
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117732"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397567"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -74,14 +74,14 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 |Action  |Propriétaire d’une équipe|Membre de l’équipe|Invité de l’équipe|Propriétaire du canal privé|Membre du canal privé|Invité du canal privé|
 |---------|---------|---------|---------|---------|---------|---------|
-|Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|S/O|S/O|S/O|
+|Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|N/A|S/O|
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
-|Modifier un canal privé|Non|S/O|N/A|Oui|Non|Non|
+|Quitter un canal privé|S/O|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
-|Ajouter des membres|Non|S/O|N/A|Oui|Non|Non|
-|Modifier les paramètres|Non|S/O|N/A|Oui|Non|Non|
-|Gérer les onglets et les applications|Non|S/O|S/O|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
+|Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
+|Modifier les paramètres|Non|N/A|N/A|Oui|Non|Non|
+|Gérer les onglets et les applications|Non|N/A|S/O|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Gérer le cycle de vie des canaux privés
 
@@ -118,6 +118,8 @@ Actuellement, les canaux privés prennent en charge les connecteurs et les ongle
 Chaque équipe peut avoir un maximum de 30 canaux privés et chaque canal privé peut avoir au maximum 250 membres. La limite des 30 canaux privés vient s’ajouter à la limite des 200 canaux standard par équipe. 
 
 Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
+
+Actuellement, les notifications des canaux privés ne sont pas incluses dans les e-mails d’activité manquée.
 
 ## <a name="related-topics"></a>Sujets associés
 

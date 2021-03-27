@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120645"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397577"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barrières de l’information dans Microsoft Teams
 
@@ -37,21 +37,21 @@ Les stratégies DE L’ORGANISATION empêchent également les recherches et la d
 
 ## <a name="background"></a>Arrière-plan
 
-Le principal moteur des IB provient du secteur des services financiers. L’Autorité de réglementation du secteur financier[(FINRA)]( https://www.finra.org)examine les B/S et les conflits d’intérêts au sein des entreprises membres et fournit des conseils sur la gestion de ces conflits (FINRA 2241, réglementation en matière de recherche de crédit [15-31).](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)
+Le principal moteur des IB provient du secteur des services financiers. L’Autorité de réglementation du secteur financier[(FINRA)]( https://www.finra.org)examine les B/S et les conflits d’intérêts au sein des entreprises membres et fournit des conseils sur la gestion de ces conflits (FINRA 2241, directive en matière de réglementation en matière de recherche de crédit [15-31).](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)
 
 Toutefois, depuis l’introduction des IB, de nombreux autres domaines les ont trouvés utiles. Les autres scénarios courants sont les suivants :
 
 - Éducation : Les étudiants d’une école ne peuvent pas rechercher les coordonnées des étudiants d’autres écoles.
 
-- Juridique : préserver la confidentialité des données obtenues par l’entreprise d’un client et empêcher l’accès à celles-ci pour une personne de la même entreprise qui représente un autre client.
+- Juridique : préserver la confidentialité des données obtenues par l’entreprise d’un client et empêcher qu’elles ne sont accessibles par une personne de la même entreprise qui représente un autre client.
 
-- Gouvernement : L’accès et le contrôle des informations sont limités entre les départements et groupes.
+- Gouvernement : L’accès et le contrôle des informations sont limités entre les départements et les groupes.
 
 - Services professionnels : un groupe de personnes dans une entreprise peut uniquement discuter avec un client ou un client spécifique via l’accès invité pendant l’engagement d’un client.
 
-Par exemple, Enric appartient au segment Banque et Ppep au segment Conseiller financier. Enric et Ppep ne peuvent pas communiquer entre eux, car la stratégie de l’organisation L’organisation bloque la communication et la collaboration entre ces deux segments. Cependant, Enrico et P matièreep peuvent communiquer avec Lee dans les ressources humaines.
+Par exemple, Enric appartient au segment Banque et Ppep au segment Conseiller financier. Enrico et Ppep ne peuvent pas communiquer entre eux, car la stratégie de l’organisation L’ORGANISATION bloque la communication et la collaboration entre ces deux segments. Cependant, Enrico et P matièreep peuvent communiquer avec Lee dans les ressources humaines.
 
-![Exemple montrant les barrières de l’information qui empêchent la communication entre les segments](media/information-barriers-example.png)
+![Exemple montrant les barrières d’informations qui empêchent la communication entre segments](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>Quand utiliser les barrières de l’information
 
@@ -109,17 +109,17 @@ Les stratégies DE L’ORGANISATION sont activées lorsque les événements Team
     > [!div class="mx-imgBorder"]
     > ![Capture d’écran montrant un char d’utilisateur avec des paramètres bloqués](media/ib-after-screen-share-policy.png)
 
-- Un utilisateur passe un appel téléphonique dans **Teams** : chaque fois qu’un utilisateur passe un appel vocal (via VOIP) à un autre utilisateur ou un groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne enfreint pas les stratégies DE l’organisation des autres membres de l’équipe. En cas de violation, l’appel vocal est bloqué.
+- Un utilisateur passe un appel téléphonique dans **Teams** : chaque fois qu’un utilisateur passe un appel vocal (via VOIP) à un autre utilisateur ou groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne constitue pas une violation des stratégies de l’organisation. En cas de violation, l’appel vocal est bloqué.
 
-- **Invités dans Teams -** Les stratégies DE l’ORGANISATION S’appliquent également aux invités dans Teams. Pour plus d’informations sur les invités dans la liste d’adresses globale de votre organisation, voir Gérer l’accès invité dans les groupes [Microsoft 365.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Une fois que les invités sont découvables, vous pouvez [définir les stratégies de l’organisation.](/office365/securitycompliance/information-barriers-policies)
+- **Invités dans Teams -** Les stratégies DE l’organisation l’appliquent également aux invités dans Teams. Si les invités doivent être utilisables dans la liste d’adresses globale de votre organisation, voir Gérer l’accès invité dans les groupes [Microsoft 365.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Une fois que les invités sont découvables, vous pouvez [définir les stratégies de l’organisation.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Impact des modifications de stratégie sur les conversations existantes
 
-Lorsque l’administrateur de stratégie de l’organisation modifie une stratégie ou lorsqu’une modification de stratégie est activée en raison d’une modification du profil d’un utilisateur (par exemple, pour un changement de poste), le service d’évaluation de la stratégie de barrière des informations recherche automatiquement les membres pour s’assurer que leur appartenance à l’équipe ne constitue pas une violation des stratégies.
+Lorsque l’administrateur de stratégie de l’organisation modifie une stratégie ou lorsqu’une modification de stratégie est activée en raison d’une modification du profil d’un utilisateur (par exemple pour un changement de poste), le service d’évaluation de la stratégie de barrière des informations effectue automatiquement une recherche dans les membres pour s’assurer que leur appartenance à l’équipe n’enfreigne aucune stratégie.
 
-S’il existe une conversation ou une autre communication entre utilisateurs, et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées à se produire. 
+S’il existe une conversation ou une autre communication existante entre les utilisateurs, et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées à se produire. 
 
-- **Conversation 1:1** - Si la communication entre deux utilisateurs n’est plus autorisée (en raison de l’application à l’un ou aux deux utilisateurs d’une stratégie qui bloque la communication), toute communication supplémentaire est bloquée. Leurs conversations existantes deviennent en lecture seule.
+- **Conversation 1:1** - Si la communication entre deux utilisateurs n’est plus autorisée (en raison de l’application à l’un ou aux deux utilisateurs d’une stratégie qui bloque la communication), toute communication supplémentaire est bloquée. Leurs conversations de conversation existantes deviennent en lecture seule.
 
     Voici un exemple qui montre que la conversation est visible.
 
@@ -147,7 +147,7 @@ S’il existe une conversation ou une autre communication entre utilisateurs, et
 
 Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE L’organisation bloque un autre utilisateur :
 
-- **Onglet Personnes** : un utilisateur ne peut pas voir les utilisateurs bloqués sous **l’onglet** Personnes.
+- **Onglet Personnes** : un utilisateur ne peut pas voir les utilisateurs bloqués sous l’onglet Personnes. 
 
 - **S sélectionneur de personnes** - Les utilisateurs bloqués ne seront pas visibles dans le s sélectionneur de personnes.
 
@@ -155,7 +155,7 @@ Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE
 
 - **Onglet Activité** : si un utilisateur visite l’onglet **Activité** d’un utilisateur bloqué, aucune billet n’apparaît. **(L’onglet** Activité affiche uniquement les publications de canal et il n’existe aucun canal commun entre les deux utilisateurs.)
 
-    Voici un exemple de l’affichage de l’onglet Activité bloqué.
+    Voici un exemple d’affichage de l’onglet Activité bloqué.
 
     > [!div class="mx-imgBorder"]
     > ![Capture d’écran montrant l’onglet Activité bloqué](media/ib-after-activity-tab-policy.png)
@@ -166,9 +166,9 @@ Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE
 
 - **Contacts suggérés** : les utilisateurs bloqués n’apparaissent pas dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs).
 
-- **Contacts de conversation** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts des conversations, mais les utilisateurs bloqués seront identifiés. La seule action que l’utilisateur peut effectuer sur les utilisateurs bloqués consiste à les supprimer. L’utilisateur peut également cliquer dessus pour afficher sa conversation passée.
+- **Contacts de conversation** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts des conversations, mais les utilisateurs bloqués seront identifiés. La seule action que l’utilisateur peut effectuer sur les utilisateurs bloqués consiste à les supprimer. L’utilisateur peut également cliquer dessus pour afficher son passé.
 
-- **Contacts d’appels** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts d’appels, mais les utilisateurs bloqués seront identifiés. La seule action que l’utilisateur peut effectuer sur le bloc d’utilisateurs consiste à les supprimer.
+- **Contacts d’appels** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts d’appels, mais les utilisateurs bloqués seront identifiés. La seule action que l’utilisateur peut effectuer sur le blocage des utilisateurs consiste à les supprimer.
 
     Voici un exemple d’utilisateur bloqué dans la liste de contacts d’appels.
 
@@ -184,10 +184,10 @@ Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Stratégies Teams et sites SharePoint
 
-Lorsqu’une équipe est créée, un site SharePoint est mis en service et associé à Microsoft Teams pour l’expérience de fichiers. Les stratégies de l’organisation d’entreprise ne sont pas honorées sur ce site SharePoint et les fichiers par défaut. Pour activer les stratégies DE l’organisation, l’administrateur a déjà rempli un formulaire, demandant l’activé sur SharePoint et OneDrive pour les stratégies DNS (voir la section Conditions *préalables* dans Les barrières de l’information). [](/sharepoint/information-barriers#prerequisites) Si la stratégie L’organisation un groupe de travail est mise en place dans SharePoint et OneDrive, les stratégies de l’organisation l’utiliseront sur les sites SharePoint mis en service lors de la création d’une équipe avec Microsoft Teams.
+Lorsqu’une équipe est créée, un site SharePoint est mis en service et associé à Microsoft Teams pour l’expérience de fichiers. Les stratégies DE l’ORGANISATION ne sont pas honorées sur ce site SharePoint et les fichiers par défaut. Pour activer les stratégies DE l’organisation, l’administrateur a déjà rempli un formulaire, demandant l’activé sur SharePoint et OneDrive pour les stratégies DNS (voir la section Conditions *préalables* dans Les barrières de l’information). [](/sharepoint/information-barriers#prerequisites) Si la stratégie IB est désactivée dans SharePoint et OneDrive, les stratégies de l’organisation l’utiliseront sur les sites SharePoint mis en service lors de la création d’une équipe avec Microsoft Teams.
 
-Exemple de stratégies IB sur le **site SharePoint** d’une équipe : Dans Contoso Bank Corporation, l’utilisateur « Sesha@contosobank.onmicrosoft.com » appartient au segment Investment Banking et l’utilisateur « Nikita@contosobank.onmicrosoft.com » appartient au segment conseil. La stratégie L’organisation bloque la communication et la collaboration entre ces deux segments.
-Lorsque l’utilisateur Sesha crée une équipe pour le segment Investment Banking, l’équipe et le site SharePoint qui le fond sont accessibles uniquement aux utilisateurs de Investment Banking. L’utilisateurDessoy n’a pas accès à ce site même s’il possède le lien du site.
+Exemple de stratégies IB sur le **site SharePoint** d’une équipe : Dans Contoso Bank Corporation, l’utilisateur « Sesha@contosobank.onmicrosoft.com » appartient au segment Investment Banking et l’utilisateur « Nikita@contosobank.onmicrosoft.com » au segment conseil. La stratégie L’organisation bloque la communication et la collaboration entre ces deux segments.
+Lorsque l’utilisateur Sesha crée une équipe pour le segment Investment Banking, l’équipe et le site SharePoint qui le fond sont accessibles uniquement aux utilisateurs de Investment Banking. L’utilisateur Tous les utilisateurs ne peuvent pas accéder à ce site, même s’il possède le lien du site.
 
 Pour plus d’informations, voir [Utiliser les barrières de l’information avec SharePoint.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
@@ -197,16 +197,18 @@ Pour plus d’informations sur les licences et les autorisations, notamment sur 
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- Les utilisateurs ne peuvent pas participer à des réunions ad hoc : si les stratégies de **l’ORGANISATION sont activées,** les utilisateurs ne sont pas autorisés à participer à des réunions si la taille de la liste de réunion est supérieure aux limites de participation aux [réunions.](limits-specifications-teams.md) La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que seul le moment où ils peuvent y être ajoutés est autorisé à participer à la réunion. Un utilisateur rejoignant une réunion l’ajoute à la liste ; par conséquent, pour les réunions périodiques, la liste peut se remplir rapidement. Une fois que la liste de conversation a atteint le nombre limite de participation [à](limits-specifications-teams.md)la réunion, aucun utilisateur supplémentaire n’est autorisé à y être ajouté. Si l’offre IB est activée pour le client et que la liste de conversation est pleine pour une réunion, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) ne sont pas autorisés à participer à la réunion. Toutefois, si l’organisation n’est pas activée pour le client et que la liste de conversation de la réunion est pleine, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) sont autorisés à participer à la réunion, même s’ils ne voient pas l’option de conversation dans la réunion. Une solution à court terme consiste à supprimer les membres inactifs de la liste de conversation de réunion afin de faire de l’espace pour les nouveaux utilisateurs. Nous augmenterons toutefois la taille des listes de conversation de réunion à une date ultérieure.
-- **Les utilisateurs ne peuvent** pas participer aux réunions de canal : si les stratégies de l’organisation sont activées, les utilisateurs ne sont pas autorisés à participer aux réunions de canal si ils ne sont pas membres de l’équipe. La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que seul le moment où ils peuvent y être ajoutés est autorisé à participer à la réunion. Le thread de conversation dans une réunion de canal est disponible uniquement pour les membres de l’équipe/canal, et les non-membres ne peuvent pas voir ou accéder au fil de conversation. Si l’organisation est activée pour le client et qu’un membre non-équipe tente de rejoindre une réunion de canal, cet utilisateur n’est pas autorisé à participer à la réunion. Toutefois, si  l’organisation n’est pas activée pour le client et qu’un membre non-membre tente de participer à une réunion de canal, l’utilisateur est autorisé à participer à la réunion, mais il ne verra pas l’option de conversation dans la réunion.
+- Les utilisateurs ne peuvent pas participer à des réunions ad hoc : si les stratégies de **l’ORGANISATION sont activées,** les utilisateurs ne sont pas autorisés à participer à des réunions si la taille de la liste de réunion est supérieure aux limites de participation aux [réunions.](limits-specifications-teams.md) La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que, lorsqu’ils peuvent être ajoutés à la liste, ils sont autorisés à participer à la réunion. Un utilisateur rejoignant une réunion l’ajoute à la liste ; par conséquent, pour les réunions périodiques, la liste peut se remplir rapidement. Une fois que la liste de conversation a atteint le nombre limite de participation [à](limits-specifications-teams.md)la réunion, aucun utilisateur supplémentaire n’est autorisé à y être ajouté. Si l’offre IB est activée pour le client et que la liste de conversation est pleine pour une réunion, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) ne sont pas autorisés à participer à la réunion. Toutefois, si l’organisation n’est pas activée pour le client et que la liste de conversation de la réunion est pleine, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) sont autorisés à participer à la réunion, même s’ils ne voient pas l’option de conversation dans la réunion. Une solution à court terme consiste à supprimer les membres inactifs de la liste de conversation de réunion afin de faire de l’espace pour les nouveaux utilisateurs. Nous augmenterons toutefois la taille des listes de conversation de réunion à une date ultérieure.
+- **Les utilisateurs ne peuvent** pas participer aux réunions de canal : si les stratégies de l’organisation sont activées, les utilisateurs ne sont pas autorisés à participer aux réunions de canal si ils ne sont pas membres de l’équipe. La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que, lorsqu’ils peuvent être ajoutés à la liste, ils sont autorisés à participer à la réunion. Le thread de conversation dans une réunion de canal est disponible uniquement pour les membres de l’équipe/canal, et les non-membres ne peuvent pas voir ou accéder au fil de conversation. Si l’organisation est activée pour le client et qu’un membre non-équipe tente de rejoindre une réunion de canal, cet utilisateur n’est pas autorisé à participer à la réunion. Toutefois, si  l’organisation n’est pas activée pour le client et qu’un membre non-membre tente de participer à une réunion de canal, l’utilisateur est autorisé à participer à la réunion, mais il ne verra pas l’option de conversation dans la réunion.
 - Les propriétaires d’équipe ne sont pas supprimés : si une nouvelle stratégie DE l’organisation de distribution de données (IB) est appliquée, deux segments ou plus conflictuelles sont présents dans un canal Teams, les segments avec les propriétaires d’équipe voient leur préférence augmenter et les autres utilisateurs de segments sont supprimés. De plus, pour le moment, les propriétaires d’équipe ne sont pas supprimés, même s’ils sont en conflit avec d’autres propriétaires/utilisateurs. Les administrateurs de client et les autres propriétaires de canaux devront supprimer manuellement les propriétaires en conflit.
-- **Nombre maximal de segments autorisés dans** un client : chaque client peut configurer jusqu’à 100 segments lors de la configuration des stratégies de l’organisation de l’organisation. Il n’y a pas de limite au nombre de stratégies qui peuvent être configurées.
+- **Nombre maximal de segments autorisés dans** un client : chaque client peut configurer jusqu’à 100 segments lors de la configuration de stratégies de l’organisation de l’organisation. Il n’y a pas de limite au nombre de stratégies qui peuvent être configurées.
+
+- Les stratégies **DE l’ORGANISATION** ne fonctionnent pas pour les utilisateurs fédérés : si vous autorisez la fédération avec des clients externes, les utilisateurs de ces clients ne seront pas limités par les stratégies de l’organisation. Si les utilisateurs de votre organisation participent à une conversation ou à une réunion organisée par des utilisateurs fédérés externes, les stratégies DE l’organisation ne limitent pas non plus la communication entre les utilisateurs de votre organisation.
 
 ## <a name="more-information"></a>Plus d’informations
 
 - Pour en savoir plus sur les IB, consultez la [barrière des informations.](/office365/securitycompliance/information-barriers)
 
-- Pour configurer les stratégies de l’organisation, voir [Définir les stratégies pour les barrières à l’information.](/office365/securitycompliance/information-barriers-policies)
+- Pour configurer les stratégies de l’organisation, voir [Définir les stratégies pour les obstacles à l’information.](/office365/securitycompliance/information-barriers-policies)
 
 - Pour modifier ou supprimer des stratégies d’ING, voir Modifier (ou supprimer) les stratégies [d’obstacle à l’information.](/microsoft-365/compliance/information-barriers-edit-segments-policies)
 

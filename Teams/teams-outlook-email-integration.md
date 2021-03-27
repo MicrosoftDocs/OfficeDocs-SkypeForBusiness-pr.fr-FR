@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104050"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397557"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Intégration de la messagerie teams et Outlook
 
@@ -27,7 +27,7 @@ Microsoft Teams inclut des fonctionnalités qui permet aux utilisateurs de votre
 
 ## <a name="share-to-outlook"></a>Partager dans Outlook
 
-**Partager avec Outlook** permet aux utilisateurs de partager une copie d’une conversation Teams dans un e-mail dans Outlook, sans avoir à quitter Teams. Cette fonctionnalité est utile si les utilisateurs ont besoin de partager des conversations ou des mises à jour de statut avec des utilisateurs extérieurs à leur équipe immédiate ou même à votre organisation. Allez en haut de la conversation dans Teams, **sélectionnez s s s Autres options,** puis **sélectionnez Partager dans Outlook.**  Pour en savoir plus, [consultez Partager dans Outlook à partir de Teams.](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d)
+**Partager avec Outlook** permet aux utilisateurs de partager une copie d’une conversation Teams dans un e-mail dans Outlook, sans avoir à quitter Teams. Cette fonctionnalité est utile si les utilisateurs ont besoin de partager des conversations ou des mises à jour de statut avec des utilisateurs extérieurs à leur équipe immédiate ou même à votre organisation. Allez en haut de la conversation dans Teams, **sélectionnez s s s Autres options,** puis **sélectionnez Partager dans Outlook.**  Pour en savoir plus, voir [Partager dans Outlook à partir de Teams.](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d)
 
 ![Capture d’écran montrant la fonctionnalité Partager avec Outlook dans Teams](media/share-to-outlook.png)
 
@@ -44,4 +44,6 @@ Les utilisateurs obtiennent automatiquement des e-mails d’activité manquée a
 
 ![Capture d’écran montrant comment répondre à un message d’activité manquée](media/missed-activity-email-reply.png)
 
-Vous pouvez utiliser l’cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) avec le paramètre **SmtpActionableMessagesEnabled** pour désactiver les e-mails actionnables. Par défaut, le **paramètre SmtpActionableMessagesEnabled** **est** true. La définition du paramètre sur **Faux** a pour fonction de couper le courrier électronique actionnable dans Office 365. Pour les utilisateurs de  Teams, cela signifie que l’option Répondre directement dans Outlook n’est pas disponible dans les e-mails d’activité manquée. Au lieu de cela, les e-mails d’activité manquées incluent une option Répondre dans **Teams** pour que les utilisateurs répondent dans Teams.
+Vous pouvez utiliser l’cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) avec le paramètre **SmtpActionableMessagesEnabled** pour désactiver les e-mails actionnables. Par défaut, le **paramètre SmtpActionableMessagesEnabled** **est** true. La définition du paramètre sur **False** a pour fonction de couper le courrier électronique actionnable dans Office 365. Pour les utilisateurs de  Teams, cela signifie que l’option Répondre directement dans Outlook n’est pas disponible dans les e-mails d’activité manquée. Au lieu de cela, les e-mails d’activité manquées incluent une option Répondre dans **Teams** pour que les utilisateurs répondent dans Teams.
+
+Voir également [Messages actionnables dans Outlook et les groupes Office 365.](https://docs.microsoft.com/outlook/actionable-messages/)

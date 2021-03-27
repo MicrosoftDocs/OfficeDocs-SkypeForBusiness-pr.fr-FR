@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et appareils USB (casques, haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197589"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399151"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -54,7 +54,7 @@ Parcourez [les appareils certifiés pour Microsoft Teams.](https://products.offi
 - Bouton Teams dédié et voyant d’indicateur LED.
 - Notification utilisateur des événements et des alertes du client Teams (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
 - Possibilité d’activer le client Teams ou de répondre à une notification en cliquant sur le bouton (par exemple, pour rejoindre une réunion).
-- Certification conçue pour l’extensibilité (nouveaux appareils/fonctionnalités client à fournir via la mise à jour du microprogramme).
+- Certification conçue pour l’extensibilité (nouvelles fonctionnalités d’appareil/client à fournir via la mise à jour du microprogramme).
 
 ### <a name="core-certification-benefits"></a>Principaux avantages de certification
 
@@ -79,7 +79,6 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |COLONS/Sennheiser      |Adapter des casques de série 200                                  |3/19/2021       |Certifié pour Microsoft Teams                           |
-|Poly                 |Casque Voyager Focus 2                                    |3/11/2021       |Certifié pour Microsoft Teams                           |
 |Jabra                |Casque Evolve2 30                                         |3/1/2021        |Certifié pour Microsoft Teams                           |
 |Poly                 |Barre Studio P15 Video                                       |2/1/2021        |Certifié pour Microsoft Teams                           |
 |Poly                 |Synchroniser 40 haut-parleurs                                       |1/19/2021       |Certifié pour Microsoft Teams                           |
@@ -93,7 +92,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |COLONS/Sennheiser      |Adapter des casques de série 100                                  |12/22/2020      |Certifié pour Microsoft Teams                           |
 |Dell                 |Casque stéréo Pro - UC350                                 |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Dell                 |Casque stéréo Pro - UC150                                 |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
-|Lenovo               |Casque stéréo VoIP filaire Pro                              |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
+|Lenovo               |Casque stéréo VoIP câblé Pro                              |12/21/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Certifié pour Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Certifié pour Microsoft Teams                           |
 |Jabra                |Casque Evolve 75e                                         |12/16/2020      |Skype Entreprise avec mise à niveau vers Microsoft Teams      |
@@ -121,7 +120,7 @@ Si vous êtes fabricant et que vous souhaitez participer au programme de certifi
 |Bose                 |Casque NC 700                                             |6/8/2020        |Certifié pour Microsoft Teams                           |
 |Jabra                | Speak 750 speakerphone with Jabra Link 370 USB Dongle     | 5/21/2020       | Certifié pour Microsoft Teams                         |
 | DONT LE TITRE EST LE PLUS GRAND                | Casque Sennheiser Adapt 660                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
-| ILS ONT UN GROUPE D’ÉQUIPES                | Sennheiser Adapt 560 Headset                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
+| DONT LE TITRE EST LE PLUS GRAND                | Sennheiser Adapt 560 Headset                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | DONT LE TITRE EST LE PLUS GRAND                | Sennheiser Adapt 460T headset                             | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | DONT LE TITRE EST LE PLUS GRAND                | Casque Sennheiser Adapt 360                              | 5/15/2020      | Certifié pour Microsoft Teams                          |
 | Yealink             | Casque UH36                                              | 5/13/2020      | Certifié pour Microsoft Teams                          |
