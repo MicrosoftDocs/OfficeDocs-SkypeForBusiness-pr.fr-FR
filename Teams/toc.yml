@@ -1491,6 +1491,8 @@ items:
         items:
           - name: Gérer vos périphériques dans Teams
             href: devices/device-management.md
+          - name: Approvisionnement et connexion à distance
+            href: devices/remote-provision-remote-login.md
           - name: Mettre à niveau vos appareils à distance
             href: devices/remote-update.md
           - name: Gérer les balises d’appareils Teams
