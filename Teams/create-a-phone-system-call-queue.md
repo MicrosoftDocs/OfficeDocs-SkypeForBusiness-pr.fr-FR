@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Découvrez comment configurer phone system pour les files d’attente avec Microsoft Teams, qui fournissent un message de salutation, de la musique, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Découvrez comment configurer phone system pour les files d’attente avec Microsoft Teams, qui fournit un message de salutation, de la musique, la redirection d’appels et d’autres fonctionnalités.
+ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092712"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450631"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente d’appel
 
@@ -39,13 +39,13 @@ Les files d’attente fournissent les services :
 
 - Message de salutation.
 
-- Musique pendant que des personnes sont en attente dans une file d’attente.
+- Musique pendant que des personnes patientent dans une file d’attente.
 
 - Routage des appels *(dans l’ordre* Premier dans, Premier sorti (FIFO) - vers des agents.
 
 - Options de gestion pour le dépassement de capacité et le délai d’attente.
 
-Assurez-vous de lire l’article Plan pour les [](plan-auto-attendant-call-queue.md#getting-started) standard [automatiques Teams](plan-auto-attendant-call-queue.md) et les files d’attente d’appels, et suivez les étapes de mise en place avant de suivre les procédures de cet article.
+Avant de suivre les procédures de cet article, [](plan-auto-attendant-call-queue.md#getting-started) assurez-vous de lire l’article Plan pour les standard [automatiques Teams](plan-auto-attendant-call-queue.md) et les files d’attente d’appels, et suivez les étapes de mise en place.
 
 Pour configurer une file d’attente d’appels, dans le Centre d’administration Teams, développez **Voix,** cliquez sur Files d’attente d’appels, puis cliquez sur **Ajouter.**
 
@@ -71,11 +71,21 @@ Teams fournit de la musique par défaut aux appelants lorsqu’ils sont en atten
 
 ## <a name="call-agents"></a>Appeler des agents
 
-Reportez-vous aux [conditions préalables pour](plan-auto-attendant-call-queue.md#prerequisites) pouvoir ajouter des agents à une file d’attente d’appels.
+Examinez les conditions [préalables pour ajouter des agents à une file d’attente d’appels.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Capture d’écran des paramètres d’utilisateurs et de groupes pour les files d’attente d’appels](media/call-queue-users-groups.png)
 
+##### <a name="teams-channel"></a>Canal Teams
+
+Vous pouvez ajouter jusqu’à 200 agents via un canal Teams.
+
+Si vous voulez utiliser [un canal Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)pour gérer la file d’attente, sélectionnez l’option Choisir une équipe, puis cliquez sur Ajouter un **canal.**  Recherchez l’équipe que vous voulez utiliser, sélectionnez-la, puis cliquez **sur Ajouter.** Sélectionnez le canal que vous voulez utiliser, puis cliquez **sur Appliquer.**
+
+##### <a name="users-and-groups"></a>Utilisateurs et groupes
+
 Vous pouvez ajouter jusqu’à 20 agents individuellement et jusqu’à 200 agents par groupes.
+
+Si vous voulez ajouter des utilisateurs individuels ou des groupes à la file d’attente, sélectionnez l’option Choisir des **utilisateurs et des** groupes. 
 
 Pour ajouter un utilisateur à la file d’attente, cliquez sur Ajouter des utilisateurs, recherchez l’utilisateur, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
@@ -91,7 +101,7 @@ Pour ajouter un groupe à la file d’attente, cliquez sur Ajouter des **groupes
 **Le mode conférence** réduit considérablement le temps qu’il faut pour qu’un appelant se connecte à un agent une fois qu’il accepte l’appel. Pour que le mode conférence fonctionne, les agents dans la file d’attente d’appels doivent utiliser l’un des clients suivants :
 
   - Dernière version du client de bureau Microsoft Teams, de l’application Android ou de l’application iOS
-  - Microsoft Teams phone version 1449/1.0.94.2020051601 ou version ultérieure
+  - Microsoft Teams Phone version 1449/1.0.94.2020051601 ou version ultérieure
   
 Les comptes Teams des agents doivent être réglés en mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne figurent pas dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente d’appels si vos agents utilisent tous des clients compatibles.
 
@@ -146,7 +156,7 @@ Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers une des de
 
 **Délai d’attente d’appel** : le temps d’attente maximal spécifie la durée maximale pendant quelle la file d’attente d’un appel peut être mis en attente avant d’être redirigé ou déconnecté. Vous pouvez spécifier une valeur de 0 seconde à 45 minutes.
 
-Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, l’appelant peut laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux conditions [préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux transferts de numéros de téléphone [externes ( détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des numéros).
+Vous pouvez choisir de déconnecter l’appel ou de le rediriger vers l’une des destinations de routage des appels. Par exemple, l’appelant peut laisser un message vocal pour les agents dans la file d’attente. Pour les transferts externes, reportez-vous aux conditions [préalables](plan-auto-attendant-call-queue.md#prerequisites) et aux transferts de numéros de téléphone [externes - détails techniques](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) pour la mise en forme des numéros.
 
 Une fois vos options de délai d’appel sélectionnées, cliquez sur **Enregistrer.**
 
@@ -166,7 +176,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - iPhone client Skype Entreprise (version 6.16.0 et ultérieures)
   - Client Skype Entreprise pour iPad (version 6.16.0 et ultérieures)
   - Client Windows Microsoft Teams (versions 32 bits et 64 bits)
-  - Client Microsoft Teams Pour Mac
+  - Client Microsoft Teams Mac
   - Application Microsoft Teams pour iPhone
   - Application Microsoft Teams pour Android
 
@@ -185,7 +195,7 @@ Vous pouvez également utiliser des Windows PowerShell pour créer et configurer
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 

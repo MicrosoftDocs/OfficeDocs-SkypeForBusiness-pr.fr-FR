@@ -3,7 +3,7 @@ title: Créer une file d’attente d’appels dans Microsoft Teams - Didacticiel
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: dobro
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Découvrez comment configurer des files d’attente d’appels avec Microsoft 365 Business Voice.
-ms.openlocfilehash: 10bc19f122daab89c91a01db0ffa31f48739d96d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
+ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909615"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51439729"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Créer une file d’attente d’appels - Didacticiel pour les petites entreprises
 
-Les files d’attente permettent de router les appelants vers des personnes de votre organisation qui peuvent vous aider à répondre à un problème ou une question spécifique. Les appels sont distribués un par un aux personnes dans la file d’attente (appelées *agents).* 
+Les files d’attente offrent une méthode de routage des appelants vers les personnes de votre organisation qui peuvent vous aider à répondre à un problème ou une question spécifique. Les appels sont distribués un par un aux personnes dans la file d’attente (appelées *agents).* 
 
 Les files d’attente fournissent les services :
 
@@ -55,15 +55,15 @@ Système [téléphonique : licences utilisateur virtuel si](../teams-add-on-lice
 
 # <a name="step-1brcreate-a-team"></a>[Étape 1 <br> Créer une équipe](#tab/create-team)
 
-Lorsque vous créez une file d’attente d’appels, vous pouvez ajouter des utilisateurs individuels à la file d’attente ou utiliser un groupe de sécurité existant, un groupe Microsoft 365 ou une équipe Microsoft Teams. Nous vous recommandons d’utiliser une équipe. Cela permet aux membres de la file d’attente de discuter entre eux, de partager des idées et de créer des documents ou d’autres ressources pour aider vos clients. Une équipe fournit également une boîte vocale qui permet aux appelants de laisser un message après les heures d’ouverture ou si la file d’attente atteint sa capacité maximale.
+Lorsque vous créez une file d’attente d’appels, vous pouvez ajouter des utilisateurs individuels à la file d’attente ou utiliser un groupe de sécurité existant, un groupe Microsoft 365 ou une équipe Microsoft Teams. Nous vous recommandons [d’utiliser un canal d’équipe.](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) Cela permet aux membres de la file d’attente de discuter entre eux, de partager des idées et de créer des documents ou d’autres ressources pour aider vos clients. Une équipe fournit également une boîte vocale qui permet aux appelants de laisser un message après les heures d’ouverture ou si la file d’attente atteint sa capacité maximale.
 
 Pour créer une équipe
 
-1. Tout d’abord, cliquez sur **Teams** dans  la partie gauche de l’application, puis cliquez sur Rejoindre ou créer une équipe en bas de votre liste d’équipes.
+1. Tout d’abord, cliquez **sur Teams** dans  la partie gauche de l’application, puis cliquez sur Rejoindre ou créer une équipe en bas de votre liste d’équipes.
 
 2. Cliquez ensuite **sur Créer une équipe** (première carte, coin supérieur gauche).
 
-3. Sélectionnez **Créer une équipe de toutes pièces.**
+3. Sélectionnez **Créer une équipe à partir de zéro.**
 
 4. Choisissez ensuite si vous souhaitez une équipe publique ou privée. Nous vous recommandons **de mettre votre** file d’attente d’appels privé pour éviter que des personnes ne se retrouvent involontairement dans la file d’attente en rejoignant l’équipe.
 
@@ -75,10 +75,18 @@ Pour créer une équipe
 
 9. Cliquez sur **Fermer**. Les personnes que vous ajoutez à une équipe recevront un e-mail leur faisant savoir qu’elles sont désormais membres de votre équipe et que l’équipe s’affichera dans leur liste d’équipes.
 
+Nous allons ensuite ajouter un canal à utiliser avec la file d’attente d’appels.
+
+Pour ajouter un canal
+
+1. Dans Teams, recherchez l’équipe que vous vient de créer, cliquez sur Autres **options** (...), puis sur **Ajouter un canal.**
+
+2. Tapez un nom et une description pour le canal, puis cliquez sur **Ajouter.**
+
 > [!div class="nextstepaction"]
 > [Étape 2 : gestion des comptes de ressources >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
 
-# <a name="step-2brresource-accounts"></a>[Étape 2 <br> : comptes de ressources](#tab/resource-account)
+# <a name="step-2brresource-accounts"></a>[Étape 2 Comptes <br> de ressources](#tab/resource-account)
 
 Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System (* licence utilisateur virtuel), puis l’utiliser pour commencer à créer la file d’attente d’appels.
 
@@ -86,11 +94,11 @@ Chaque file d’attente d’appels que vous créez nécessite un compte de resso
 
 Vous pouvez créer un compte de ressource dans le Centre d’administration Teams.
 
-1. Dans le Centre d’administration Teams, développez **les paramètres** à l’échelle de l’organisation, puis cliquez **sur Comptes de ressources.**
+1. Dans le Centre d’administration Teams, développez **les paramètres** à l’échelle de l’organisation, puis cliquez sur **Comptes de ressources.**
 
 2. Cliquez sur **Ajouter**.
 
-3. Dans le **volet Ajouter un compte** de ressource, remplissez Nom **d’affichage,** Nom d’utilisateur et sélectionnez **File** d’attente d’appels pour le type de compte **de ressource.** 
+3. Dans le **volet Ajouter un compte de** ressource, remplissez Nom **d’affichage,** Nom d’utilisateur et sélectionnez **File** d’attente d’appels pour le type de compte de **ressource.** 
 
     ![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource](../media/resource-account-add-cq.png)
 
@@ -135,19 +143,18 @@ Nous allons ensuite commencer à créer une file d’attente d’appels et affec
 > La musique par défaut fournie dans les files d’attente d’appels de Teams est gratuite pour toutes les redevances payables par votre organisation. 
 
 > [!div class="nextstepaction"]
-> [Étape 3 : appeler les agents >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Étape 3 : appeler des >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Étape 3 : appeler <br> les agents](#tab/call-agents)
 
-Pour ajouter des agents à la file d’attente d’appels, nous ajouterons l’équipe que nous avons créée précédemment.
+Pour ajouter des agents à la file d’attente d’appels, nous les ajouterons à l’équipe et au canal que nous avons créés précédemment.
 
-1. Cliquez **sur Ajouter des groupes.**
-2. Tapez le nom de l’équipe que vous avez créée.
-3. Cliquez **sur** Ajouter, puis sur **Ajouter.**
+1. Sélectionnez **l’option Choisir une** équipe, puis cliquez sur Ajouter un **canal.**
+2. Tapez le nom de l’équipe que vous avez créée, sélectionnez-la, puis cliquez sur **Ajouter.**
+3. Sélectionnez le canal que vous avez créé pour la file d’attente.
+3. Cliquez sur **Appliquer**.
 
-    ![Capture d’écran des paramètres d’utilisateurs et de groupes pour les files d’attente d’appels](../media/call-queue-users-groups-smb.png)
-
-Vous pouvez ajouter jusqu’à 20 agents individuellement et jusqu’à 200 agents via des groupes ou des équipes.
+    ![Capture d’écran des paramètres d’utilisateurs et de groupes pour les files d’attente d’appels](../media/call-queue-users-groups.png)
 
 > [!NOTE]
 > Lorsque de nouveaux utilisateurs sont ajoutés à l’équipe, jusqu’à huit heures peuvent être s’il s’agit de leur premier appel.
@@ -161,11 +168,11 @@ Choisissez la méthode de routage des appels que vous voulez utiliser.
 
 1. Définir **le mode Conférence** sur **Automatique.**
 
-2. Choisissez la **méthode de routage** que vous voulez utiliser. Cela détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Nous vous recommandons **de router en série** ou de **rais rond.** Choisissez l’une des options ci-après :
+2. Choisissez la **méthode de routage** que vous voulez utiliser. Cela détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Nous vous recommandons **le routage en série** ou **l’arrondi.** Choisissez l’une des options ci-après :
 
     - **Le routage d’Attendant** sonne tous les agents dans la file d’attente en même temps. Le premier appelant à prendre l’appel reçoit l’appel.
 
-    - **Le routage en série** a pour but de faire sonner un par un tous les télét calleurs. Si un agent le fait sans appel ou ne décroche pas, l’appel sonnera sur l’agent suivant et essaiera tous les agents jusqu’à ce qu’il soit choisi ou mis hors appel.
+    - **Le routage en série** a pour but de faire sonner un par un tous les agents d’appel. Si un agent le fait sans appel ou ne décroche pas, l’appel sonnera sur l’agent suivant et essaiera tous les agents jusqu’à ce qu’il soit choisi ou mis hors appel.
 
     - **L’arrondi balance** le routage des appels entrants de sorte que chaque agent d’appel reçoie le même nombre d’appels depuis la file d’attente. Cela pourrait être souhaitable dans un environnement de vente entrante afin d’assurer la même opportunité entre tous les agents d’appel.
 
@@ -188,7 +195,7 @@ Choisissez la méthode de routage des appels que vous voulez utiliser.
 
 Choisissez comment vous voulez gérer les appels dont le nombre d’appels dépasse le nombre maximal dans la file d’attente.
 
-1. Définir le **nombre maximal d’appels dans la file d’attente.**
+1. Définissez le **nombre d’appels maximal dans la file d’attente.**
 
 2. Choisissez ce que vous voulez faire lorsque le nombre maximal d’appels est atteint. Vous pouvez déconnecter l’appel ou le rediriger. Nous vous recommandons de rediriger l’appel vers l’une des destinations suivantes :
     - **Personne dans l’organisation** - une personne de votre organisation qui peut recevoir des appels vocux
@@ -208,7 +215,7 @@ Choisissez ce que vous voulez faire lorsque les appels sont trop longs dans la f
 1. Définir le **délai d’attente des appels : temps d’attente maximal.**
 
 2. Choisissez ce que vous voulez faire lorsqu’un appel arrive à la fin. Vous pouvez déconnecter l’appel ou le rediriger. Nous vous recommandons de rediriger l’appel vers l’une des destinations suivantes :
-    - **Personne dans l’organisation** - une personne de votre organisation qui peut recevoir des appels vocux
+    - **Personne au nom d’une** personne de votre organisation qui peut recevoir des appels vocux
     - **Application vocale :** un attendant automatique ou une autre file d’attente d’appels. (Choisissez le compte de ressource associé au port automatique ou à la file d’attente d’appels lorsque vous choisissez cette destination.)
     - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. Utilisez ce format : +[code pays][code de zone][numéro de téléphone]
     - **Messagerie vocale** : vous pouvez utiliser la boîte aux lettres vocale de l’équipe que vous avez créée.

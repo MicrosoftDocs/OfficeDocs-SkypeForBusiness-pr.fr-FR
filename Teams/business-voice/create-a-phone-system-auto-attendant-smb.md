@@ -3,7 +3,7 @@ title: Configurer un attendant automatique pour Microsoft Teams - Didacticiel po
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: dobro
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour Microsoft 365 Business Voice.
-ms.openlocfilehash: b3b291a91c96d75acdc8d4fe77f78790d2137914
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: fef89971ad99dff15332905d6f9b98a343af6ffd
+ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909616"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51439719"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurer un attendant automatique - Didacticiel pour les petites entreprises
 
@@ -46,7 +46,7 @@ Si vous souhaitez utiliser un itinéraire des appels [](../set-up-holidays-in-te
 
 # <a name="step-1brphone-number"></a>[Étape 1 <br> Numéro de téléphone](#tab/phone-number)
 
-Chaque employé automatique que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un moyen de service automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis attribuer un numéro de service.
+Chaque employé automatique que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis affecter un numéro de service.
 
 ### <a name="create-a-resource-account"></a>Créer un compte de ressource
 
@@ -122,13 +122,13 @@ Pour configurer un attendant automatique
 
 Choisir vos options de flux d’appels
 
-1. Choisissez si vous souhaitez lire un message d’accueil lorsque le attendant automatique répond à un appel.
+1. Choisissez si vous voulez lire un message d’accueil lorsque le attendant automatique répond à un appel.
 
     Si vous **sélectionnez Lire un fichier audio,** vous pouvez utiliser le bouton Télécharger un fichier pour télécharger un message d’accueil enregistré en tant qu’audio dans .  WAV, . MP3 ou . Format WMA. L’enregistrement ne peut pas avoir une taille supérieure à 5 Mo.
 
     Si vous sélectionnez Taper un **message** de salutation, le système lit le texte que vous tapez (jusqu’à 1 000 caractères) lorsque le attendant automatique répond à un appel.
 
-    ![Capture d’écran des paramètres du message d’accueil](../media/auto-attendant-call-flow-greeting-message.png)
+    ![Capture d’écran des paramètres de message d’accueil](../media/auto-attendant-call-flow-greeting-message.png)
 
 2. Choisissez la façon dont vous voulez router l’appel.
 
@@ -140,12 +140,12 @@ Choisir vos options de flux d’appels
 
     ![Capture d’écran des paramètres de routage des appels](../media/auto-attendant-call-flow-route-call-message.png)
 
-3. Si vous souhaitez que les appelants utilisent les touches de numérotation pour naviguer, sous Définir les options du **menu,** choisissez ce que vous voulez faire lorsque les appelants appuient sur une touche de numérotation. (Si vous créez ce attendant automatique en tant qu’annuaire de l’entreprise, laissez les options de touches de numérotation vides.)
+3. Si vous souhaitez que les appelants utilisent les touches de numérotation pour naviguer, sous Définir les options du **menu,** choisissez ce que vous voulez faire lorsque les appelants appuient sur une touche de numérotation. (Si vous créez ce attendant automatique en tant qu’annuaire de l’entreprise, laissez les options de touche de numérotation vides.)
 
     Vous pouvez définir n’importe quelle touche de numérotation sur les destinations suivantes :
 
     - **Une personne de l’organisation,** une personne de votre organisation qui peut recevoir des appels vocux.
-    - **Application vocale :** un autre attendant automatique ou une file d’attente d’appels.
+    - **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels.
     - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. Utilisez ce format : +[code pays][code de zone][numéro de téléphone]
     - **Messagerie vocale** : boîte vocale associée à un groupe Microsoft 365 que vous spécifiez.
     - **Opérateur** (opérateur défini pour le transport automatique). La définition d’un opérateur est facultative. L’opérateur peut être défini comme n’importe quelle autre destination dans cette liste.
@@ -181,7 +181,7 @@ Si vous souhaitez un routage d’appel distinct pour les appelants en de suite, 
 
 ![Capture d’écran des paramètres de jour et d’heure de fin](../media/auto-attendant-business-hours.png)
 
-Une fois que vous avez spécifié vos heures d’ouverture, sélectionnez vos options de routage des appels pour les heures de fermeture. Les mêmes options sont disponibles que pour le routage des appels pendant les heures d’ouverture que vous avez spécifié à l’étape **3 (Flux d’appels).**
+Une fois que vous avez spécifié vos heures d’ouverture, choisissez vos options de routage des appels pour les heures de fermeture. Les mêmes options sont disponibles que pour le routage des appels pendant les heures d’ouverture que vous avez spécifié à **l’étape 3 (Flux d’appels).**
 
 Cliquez **sur Suivant** lorsque vous avez terminé.
 
@@ -190,7 +190,7 @@ Cliquez **sur Suivant** lorsque vous avez terminé.
 
 # <a name="step-5brholidays"></a>[Étape 5 <br> Jours fériés](#tab/holidays)
 
-Vous pouvez faire router les appels vers votre service de service automatique différemment les jours fériés et les autres jours. (Si vous ne voulez pas avoir un flux d’appels différent pour les jours fériés, vous pouvez ignorer cette étape.)
+Vous pouvez faire router les appels vers votre service de service automatique différemment les jours fériés et les autres jours. (Si vous ne voulez pas utiliser un flux d’appels différent pour les jours fériés, vous pouvez ignorer cette étape.)
 
 
 
@@ -221,7 +221,7 @@ Répétez la procédure si nécessaire pour chaque jour férié supplémentaire.
 Une fois que vous avez ajouté tous vos jours fériés, cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 6 : choisir les personnes qui font partir de l'>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [Étape 6 : choisir qui fait partir du répertoire >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Étape 6 <br> Membres du répertoire](#tab/dial-scope)
 
@@ -241,11 +241,11 @@ Lorsque vous avez terminé de définir la portée de la numérotation, cliquez s
 
 # <a name="step-7brresource-accounts"></a>[Étape 7 <br> : comptes de ressources](#tab/resource-accounts)
 
-Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un fournisseur de services automatique, chacun avec un numéro de service distinct.
+Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un service automatique, chacun avec un numéro de service distinct.
 
 Pour ajouter un compte de ressource
 
-1. Cliquez **sur Ajouter un** compte et recherchez le compte à ajouter. Cliquez **sur Ajouter,** puis sur **Ajouter.**
+1. Cliquez **sur Ajouter un** compte et recherchez le compte à ajouter. Cliquez **sur** Ajouter, puis sur **Ajouter.**
 
     ![Capture d’écran du panneau Ajouter des comptes du compte de ressources](../media/auto-attendant-add-resource-account.png)
 
