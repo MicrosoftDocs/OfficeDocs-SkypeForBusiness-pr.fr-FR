@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: Exécution de l’Assistant Prise en main
         href: business-voice/use-getting-started-wizard.md
-      - name: Choses à faire
-        href: business-voice/things-to-try.md
       - name: Personnalisation de votre configuration
         items:
           - name: Options de personnalisation
