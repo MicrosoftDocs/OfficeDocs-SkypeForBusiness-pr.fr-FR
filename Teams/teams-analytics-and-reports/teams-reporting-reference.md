@@ -18,12 +18,12 @@ description: Dans cet article, vous découvrirez les rapports Teams disponibles 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 684afe6e001ecb7b897a8574813eaed42108bb82
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196828"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478344"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -56,3 +56,16 @@ Nous améliorons continuellement l’expérience de rapport Teams et nous ajouto
 |[Rapport d’utilisation PSTN Teams - Routage direct](pstn-usage-report.md#direct-routing)  |  Horodament<br>Nom d’affichage<br>Adresse SIP<br>Numéro de téléphone <br>Type d’appel<br>Appelé à<br>Heure de début<br>Heure d’invitation<br>Heure d’échec<br>Heure de fin<br>Durée<br>Type de nombre<br>Contournement de média<br>SBC FQDN<br>Région Azure<br>Type d’événement<br>Code SIP final<br>Sous-code Microsoft final<br>Phrase SIP finale<br>ID de corrélation  |
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## <a name="make-the-user-specific-data-anonymous"></a>Rendre les données spécifiques de l’utilisateur anonymes
+
+Pour anonymisation des données dans les rapports d’activité de l’utilisateur et d’utilisation de Teams sur des appareils, vous devez être administrateur général. Cela a pour effet de masquer les informations identifiables telles que le nom d’affichage, le courrier électronique et l’ID AAD dans les rapports et leurs exportations.
+
+1. Dans le Centre d’administration Microsoft 365, sélectionnez **Paramètres** de l’organisation, puis sous l’onglet \>  **Services,** sélectionnez **Rapports.**
+    
+2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation dans le Centre d’administration Microsoft 365 ainsi qu’au Centre d’administration Teams.
+  
+3. Sélectionnez **Enregistrer les modifications.**
+
+> [!NOTE]
+> L’activation de ce paramètre a pour fin d’identifier les informations dans les rapports d’activité des utilisateurs [de Teams](user-activity-report.md) et les rapports [d’utilisation de Teams sur les](device-usage-report.md) appareils. Cela n’affecte pas les autres rapports d’utilisation disponibles dans le Centre d’administration Teams.

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour Microsoft 365 Business Voice.
-ms.openlocfilehash: fef89971ad99dff15332905d6f9b98a343af6ffd
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439719"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478374"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurer un attendant automatique - Didacticiel pour les petites entreprises
 
@@ -93,7 +93,7 @@ Si vous avez besoin que ce moyen de service automatique soit accessible à l’a
 4. Cliquez sur **Enregistrer**.
 
 > [!div class="nextstepaction"]
-> [Étape 2 : le attendant automatique - Informations générales sur >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+> [Étape 2 : le attendant automatique - Informations générales sur >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[Étape 2 : <br> Attendant - Informations générales](#tab/general-info)
 
@@ -116,7 +116,7 @@ Pour configurer un attendant automatique
 7. Cliquez sur **Suivant**.
 
 > [!div class="nextstepaction"]
-> [Étape 3 : flux d’appels >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
+> [Étape 3 : flux d’appels >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[Flux d’appels <br> d’étape 3](#tab/call-flow)
 
@@ -169,7 +169,7 @@ Choisir vos options de flux d’appels
 5. Une fois que vous avez sélectionné une option **de recherche dans l’annuaire,** cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 4 : flux d’appels en de suite après >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+> [Étape 4 : flux d’appels en de suite après >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[Étape 4 Après <br> les heures de travail](#tab/after-hours)
 
@@ -186,7 +186,7 @@ Une fois que vous avez spécifié vos heures d’ouverture, choisissez vos optio
 Cliquez **sur Suivant** lorsque vous avez terminé.
 
 > [!div class="nextstepaction"]
-> [Étape 5 : flux d’appels pour les >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [Étape 5 : flux d’appels pour les >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[Étape 5 <br> Jours fériés](#tab/holidays)
 
@@ -221,7 +221,7 @@ Répétez la procédure si nécessaire pour chaque jour férié supplémentaire.
 Une fois que vous avez ajouté tous vos jours fériés, cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 6 : choisir qui fait partir du répertoire >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [Étape 6 : choisir qui fait partir du répertoire >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Étape 6 <br> Membres du répertoire](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ Vous pouvez inclure ou exclure  des utilisateurs  spécifiques en sélectionnant
 Lorsque vous avez terminé de définir la portée de la numérotation, cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 7 : affecter un compte de ressource >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [Étape 7 : affecter un compte de ressource >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[Étape 7 <br> : comptes de ressources](#tab/resource-accounts)
 
