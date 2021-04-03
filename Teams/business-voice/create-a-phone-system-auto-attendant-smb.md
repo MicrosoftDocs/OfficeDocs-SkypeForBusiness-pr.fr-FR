@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour Microsoft 365 Business Voice.
-ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478374"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506651"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurer un attendant automatique - Didacticiel pour les petites entreprises
 
@@ -36,7 +36,7 @@ Les employés automatiques peuvent appeler votre organisation et parcourir un sy
 
 Obtenez les numéros de service dont vous avez besoin pour les travailleurs automatiques que vous souhaitez rendre accessibles en composant un numéro direct depuis l’extérieur de votre organisation. Cela peut inclure [le transfert de numéros d’un autre fournisseur](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou la demande de nouveaux numéros de [service.](../getting-service-phone-numbers.md)
 
-Obtenir un [système téléphonique - Licence Utilisateur virtuel](../teams-add-on-licensing/virtual-user.md) pour chaque employé automatique que vous prévoyez de créer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
+Obtenir un [système téléphonique - Licence utilisateur virtuel](../teams-add-on-licensing/virtual-user.md) pour chaque employé automatique que vous prévoyez de créer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
 
 Si vous souhaitez utiliser un itinéraire des appels [](../set-up-holidays-in-teams.md) différent pour les jours fériés, créez les jours fériés que vous voulez utiliser avant de créer le attendant automatique.
 
@@ -46,17 +46,17 @@ Si vous souhaitez utiliser un itinéraire des appels [](../set-up-holidays-in-te
 
 # <a name="step-1brphone-number"></a>[Étape 1 <br> Numéro de téléphone](#tab/phone-number)
 
-Chaque employé automatique que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis affecter un numéro de service.
+Chaque employé automatique que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une licence *Microsoft 365 Phone System - Utilisateur* virtuel, puis attribuer un numéro de service.
 
 ### <a name="create-a-resource-account"></a>Créer un compte de ressource
 
 Vous pouvez créer un compte de ressource dans le Centre d’administration Teams.
 
-1. Dans le Centre d’administration Teams, développez **les paramètres** à l’échelle de l’organisation, puis cliquez **sur Comptes de ressources.**
+1. Dans le Centre d’administration Teams, développez **les paramètres** à l’échelle de l’organisation, puis cliquez sur **Comptes de ressources.**
 
 2. Cliquez sur **Ajouter**.
 
-3. Dans le **volet Ajouter un compte** de ressource, tapez Nom **d’affichage,** Nom d’utilisateur et sélectionnez Le attendant **automatique** pour le type de compte **de ressource** 
+3. Dans le **volet Ajouter un compte** de ressource, tapez Nom **d’affichage,** Nom d’utilisateur et sélectionnez Le attendant **automatique** pour le type de **compte ressource** 
 
     ![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource](../media/resource-account-add.png)
 
@@ -93,7 +93,7 @@ Si vous avez besoin que ce moyen de service automatique soit accessible à l’a
 4. Cliquez sur **Enregistrer**.
 
 > [!div class="nextstepaction"]
-> [Étape 2 : le attendant automatique - Informations générales sur >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
+> [Étape 2 : le attendant automatique - Informations générales sur >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[Étape 2 : <br> Attendant - Informations générales](#tab/general-info)
 
@@ -116,7 +116,7 @@ Pour configurer un attendant automatique
 7. Cliquez sur **Suivant**.
 
 > [!div class="nextstepaction"]
-> [Étape 3 : flux d’appels >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
+> [Étape 3 : flux d’appels >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[Flux d’appels <br> d’étape 3](#tab/call-flow)
 
@@ -158,7 +158,7 @@ Choisir vos options de flux d’appels
 
     - **Commande vocale** : définit la commande vocale qu’un appelant peut lui donner pour accéder à cette option, si les entrées vocales sont activées. Il peut contenir plusieurs mots tels que « Service clientèle » ou « Activités et activités ». 
 
-    - **Rediriger** vers l’endroit où vous souhaitez que l’appel soit reçu lorsque les appelants choisissent cette option. Si vous redirigez vers un service de service automatique ou une file d’attente d’appels, sélectionnez le compte de ressource qui lui est associé.
+    - **Redirigez** vers l’endroit où vous souhaitez que l’appel soit reçu lorsque les appelants choisissent cette option. Si vous redirigez vers un service de service automatique ou une file d’attente d’appels, sélectionnez le compte de ressource qui lui est associé.
 
     ![Capture d’écran des options de touches de numérotation](../media/auto-attendant-call-flow-menu-options-complete.png)
 
@@ -169,24 +169,24 @@ Choisir vos options de flux d’appels
 5. Une fois que vous avez sélectionné une option **de recherche dans l’annuaire,** cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 4 : flux d’appels en de suite après >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
+> [Étape 4 : flux d’appels en de suite après >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[Étape 4 Après <br> les heures de travail](#tab/after-hours)
 
-Les heures d’ouverture peuvent être définies pour chaque attendant automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
+Les heures d’ouverture peuvent être définies pour chaque employé de service automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
 
-Selon la configuration de vos files d’attente automatiques et de vos files d’attente, il se peut que vous devrez uniquement spécifier le routage des appels en de après-heures pour les travailleurs automatiques avec des numéros de téléphone directs.
+Selon la configuration de vos files d’attente et de vos files d’attente automatiques, il se peut que vous devrez uniquement spécifier le routage des appels en de après-heures pour les travailleurs automatiques avec des numéros de téléphone directs.
 
 Si vous souhaitez un routage d’appel distinct pour les appelants en de suite, spécifiez vos heures d’ouverture pour chaque jour. Cliquez **sur Ajouter un nouvel horaire** pour spécifier plusieurs ensembles d’heures pour un jour donné, par exemple, pour spécifier une pause déjeuner.
 
 ![Capture d’écran des paramètres de jour et d’heure de fin](../media/auto-attendant-business-hours.png)
 
-Une fois que vous avez spécifié vos heures d’ouverture, choisissez vos options de routage des appels pour les heures de fermeture. Les mêmes options sont disponibles que pour le routage des appels pendant les heures d’ouverture que vous avez spécifié à **l’étape 3 (Flux d’appels).**
+Une fois que vous avez spécifié vos heures d’ouverture, choisissez vos options de routage des appels pour les heures de fermeture. Les mêmes options sont disponibles que pour le routage des appels pendant les heures d’ouverture que vous avez spécifié à l’étape **3 (Flux d’appels).**
 
 Cliquez **sur Suivant** lorsque vous avez terminé.
 
 > [!div class="nextstepaction"]
-> [Étape 5 : flux d’appels pour les >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
+> [Étape 5 : flux d’appels pour les >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[Étape 5 <br> Jours fériés](#tab/holidays)
 
@@ -210,7 +210,7 @@ Votre employé automatique peut avoir un flux d’appels pour chaque jour féri�
 
 6. Si vous choisissez de rediriger l’appel, choisissez sa destination de routage.
 
-    ![Capture d’écran des paramètres d’action d’appel des fêtes de fin d’année](../media/auto-attendant-holiday-actions.png)
+    ![Capture d’écran des paramètres d’action d’appel pour les fêtes](../media/auto-attendant-holiday-actions.png)
 
 7. Cliquez sur **Enregistrer**.
 
@@ -221,7 +221,7 @@ Répétez la procédure si nécessaire pour chaque jour férié supplémentaire.
 Une fois que vous avez ajouté tous vos jours fériés, cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 6 : choisir qui fait partir du répertoire >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
+> [Étape 6 : choisir qui fait partir du répertoire >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Étape 6 <br> Membres du répertoire](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ Vous pouvez inclure ou exclure  des utilisateurs  spécifiques en sélectionnant
 Lorsque vous avez terminé de définir la portée de la numérotation, cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
-> [Étape 7 : affecter un compte de ressource >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
+> [Étape 7 : affecter un compte de ressource >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[Étape 7 <br> : comptes de ressources](#tab/resource-accounts)
 

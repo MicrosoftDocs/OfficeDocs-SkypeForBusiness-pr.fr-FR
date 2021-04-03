@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101100"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574183"
 ---
 # <a name="manage-teams-with-policies"></a>Gérer Teams avec des stratégies
 
@@ -32,11 +32,11 @@ Les stratégies sont utilisées pour effectuer de nombreuses tâches au sein de 
 
 ## <a name="how-to-assign-policies"></a>Comment affecter des stratégies
 
-Les stratégies peuvent être affectées de différentes manières en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher les devoirs dans le Centre d’administration Teams.
+Les stratégies peuvent être affectées de différentes manières en fonction de ce que votre organisation tente d’accomplir. Vous pouvez effectuer et afficher des devoirs dans le Centre d’administration Teams.
 
 ![Capture d’écran de l’affectation d’une stratégie de groupe.](media/group-policy-assignment.png)
 
-Pour en savoir plus sur l’attribution de [stratégies, cliquez ici.](assign-policies.md)
+En savoir plus sur l’attribution des [stratégies ici.](policy-assignment-overview.md)
 
 ## <a name="how-to-manage-policies"></a>Comment gérer les stratégies
 
@@ -68,10 +68,10 @@ Type de stratégie | Description
 [Stratégies d’application](app-policies.md)| Les stratégies d’application servent à contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’application Teams d’un utilisateur et installer une application pour le compte de vos utilisateurs.
 [Stratégies de messagerie](messaging-policies-in-teams.md)| Les stratégies de messagerie contrôlent la disponibilité des fonctionnalités de conversation et de canal.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
+* [Attribuer des stratégies dans Teams - Mise en place](policy-assignment-overview.md)
 * [Gérer les stratégies de commentaires dans Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gérer les stratégies teams dans Microsoft Teams](teams-policies.md)
-* [Afficher les affectations de stratégie dans le journal d’activité](activity-log.md)
 * [Configurer des événements en direct dans Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Stratégies et packages de stratégies Teams pour l’Éducation](policy-packages-edu.md)

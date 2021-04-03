@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471498"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574153"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
    Trois points d’entrée vous sont accessibles pour accéder à la fonctionnalité personnaliser :
 
-   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis sélectionnez **Personnaliser.**
+   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis **sélectionnez Personnaliser.**
 
      ![Option personnaliser la sélection 1](media/select-app-to-customize1.png)
 
@@ -107,9 +107,9 @@ Les utilisateurs finaux de Teams peuvent désormais ouvrir leur client Teams pou
 La note suivante contient des détails importants sur la personnalisation d’une application.
 
 > [!Note]
-> - Lorsque vous personnalisez des applications et toute description associée à une application, veillez à respecter les directives de personnalisation fournies par l’éditeur de l’application. Vous devez respecter les droits d’autres personnes concernant les images tierces que vous pouvez utiliser.
-> - Les données de personnalisation fournies par l’administrateur sont stockées dans le magasin de paramètres de la région la plus proche. Il ne s’agit pas nécessairement d’un déploiement de GoLocal Cloud Teams.
-> - Il vous faut s’assurer que les liens vers les conditions d’utilisation ou la politique de confidentialité sont valides. Vous devez fournir une gestion appropriée des modifications qu’ils apportent (ou autorisent d’être effectués) sur les métadonnées de l’application. L’implémentation actuelle fournira un support technique pour vous aider à revenir aux URL fournies par les développeurs. Il se peut que vous ne configuriez pas l’application sans URL (si elle autorise la personnalisation des URL).
+> - Lorsque vous personnalisez des applications et toute description liée à une application, veillez à respecter les instructions de personnalisation fournies par l’éditeur dans leur documentation ou conditions d’utilisation. Vous devez également respecter les droits d’autres personnes concernant les images tierces que vous pourriez utiliser.
+> - Les données de personnalisation fournies par l’administrateur sont stockées dans la région la plus proche.
+> - Il vous faut s’assurer que les liens vers les conditions d’utilisation ou la politique de confidentialité sont valides.
 > - Si l’éditeur de l’application n’autorise plus la personnalisation d’un champ, un message s’affiche sur la page des détails de l’application pour informer l’administrateur des champs qui ne peuvent plus être personnalisés. Toutes les modifications apportées à ce champ seront de retour aux valeurs d’origine.
 > - Les modifications apportées à la marque peuvent nécessiter jusqu’à 24 heures pour que les utilisateurs voient ces modifications.
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 2d72e9b71be6bab7c077a060a9828ad1f4175d74
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: 16e2487c1c7279b470e4938245513727ca2ad0ca
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997452"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506701"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Appareils certifiés Microsoft Teams
 
@@ -67,11 +67,11 @@ Les appareils suivants sont certifiés dans le cadre du Programme de certificati
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Salles Teams actuellement certifiées sur Android
 
-Les appareils suivants sont certifiés sous salles Microsoft Teams sur le programme de certification Android :
+Les appareils suivants sont certifiés sous Salles Microsoft Teams sur le programme de certification Android :
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  | Taille de la salle                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
+| Barre de réunions Yealink A30       | 133.15.0.52    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
 | Console tactile CTP18 Yealink  | 137.15.0.28    | Mars 2021 | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 |
 | Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Poly Studio X30         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
@@ -79,9 +79,9 @@ Les appareils suivants sont certifiés sous salles Microsoft Teams sur le progra
 | Poly TC8                | 3.3.2.210441     | Mars 2021    | Compatible avec Poly Studio X30 et Poly Studio X50 |
 | Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 
-## <a name="currently-certified-teams-displays"></a>Affichages de Teams actuellement certifiés
+## <a name="currently-certified-teams-displays"></a>Affichages teams actuellement certifiés
 
-Les appareils suivants sont certifiés sous le programme de certification des affichages de Microsoft Teams :
+Les appareils suivants sont certifiés sous Microsoft Teams affiche le programme de certification Android :
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  |
 |:------------------------|:-----------------|:--------------|
@@ -103,7 +103,8 @@ Voici les dernières versions du microprogramme et de l’application pour tél�
 
 | Version de produit | Date de publication  | Version de l’application Microsoft Teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Mise à jour pour 2020 #7  | 8 décembre 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| Mise à jour pour 2021 #1  | 26 mars 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |
+| Mise à jour pour 2020 #7  | 8 décembre 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (223) |
 | Mise à jour pour 2020 #6  | 12 octobre 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
 | Mise à jour pour 2020 #5  | 31 août 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
 | Mise à jour pour 2020 #4  | 30 juin 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
@@ -115,6 +116,11 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil        | Version du microprogramme     | Version de produit incluse  |
 |:--------------------|:---------------------|:-------------------------|
+| AA T55/T56/T58   | 58.15.0.124  | Mise à jour pour 2021 #1 |
+| YL VP59   | 91.15.0.58  | Mise à jour pour 2021 #1 |
+| CP960 AA  |73.15.0.117  | Mise à jour pour 2021 #1 |
+| YL MP56/MP54/MP58  |122.15.0.36  | Mise à jour pour 2021 #1 |
+| Crestron UC-2  |1.0.3.52 | Mise à jour pour 2021 #1 |
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Mise à jour pour 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Mise à jour pour 2020 #7           |
 | Crestron UC-2       | 1.0.2.53              | Mise à jour pour 2020 #7            |
@@ -145,7 +151,7 @@ Voici les dernières salles Teams sur l’application Android et les versions de
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
@@ -155,19 +161,18 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 ### <a name="product-release-information-for-teams-displays"></a>Informations de publication de produit pour les affichages Teams
 
-Voici les dernières versions de l’application d’affichage et du microprogramme de Microsoft Teams.
+Voici les dernières versions de l’application et du microprogramme de Microsoft Teams.
 
 #### <a name="app-versions"></a>Versions des applications
 
 |Version de produit| Date de publication | Version de l’application Microsoft Teams | Version du portail d’entreprise | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Mise à jour pour 2021 #1  |18 mars 2021 |1449/1.0.95.2021021104    |5.0.5045.0            |1.0.0.202101280722.product|
-|Mise à jour pour 2020 #1  |22 octobre 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+|Mise à jour pour 2021 #1  |18 mars 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer l’application Microsoft Teams  correspondante, le portail d’entreprise et l’agent d’administration correspondants( versions qui sont installées en trouvant la publication du produit dans la colonne de publication incluse du produit). Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|

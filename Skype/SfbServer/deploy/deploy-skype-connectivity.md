@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment connecter Skype Entreprise Server avec le consommateur Skype. Également appelée connectivité Skype.'
-ms.openlocfilehash: ae3982375c0693c34e204e4512481a1f9f3b6ec3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9c5f7f5c275b60c5b59dc43fe0a9b4a5c9b1514b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834104"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574063"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déploiement de la connectivité Skype dans Skype Entreprise Server
 
@@ -42,7 +42,7 @@ La fonctionnalité de recherche dans l’annuaire Skype permet aux utilisateurs 
     
 - Recherche par numéro de téléphone, par exemple **« 123-123-1234** », qui doit renvoyer un résultat dans la plupart des cas ; celle qui correspond exactement au téléphone spécifié. Le numéro de téléphone doit inclure le code du pays (c’est-à-dire 1-xxx-yyy-zzzz). Si le même numéro de téléphone est associé à plusieurs comptes, plusieurs résultats peuvent être renvoyés.
     
-- **Recherche par nom Skype, exemple « JohnDoe1456** » : si une correspondance exacte est trouvée, elle sera renvoyée en tant que premier résultat. D’autres correspondances de « nom » possibles peuvent être renvoyées.
+- **Recherche par nom Skype, par exemple « JohnDoe1456** » : si une correspondance exacte est trouvée, elle sera renvoyée en tant que premier résultat. D’autres correspondances de « nom » possibles peuvent être renvoyées.
     
     > [!NOTE]
     > La recherche dans l’annuaire Skype doit pouvoir communiquer avec les adresses IP suivantes sur le port 443 : 104.40.75.246, 23.101.135.34 et 40.113.86.19. 
@@ -65,10 +65,10 @@ Le tableau suivant décrit la prise en charge de la recherche dans l’annuaire 
 > Dans le cas où un client possède plusieurs sites dans son déploiement local, et s’il n’a déployé qu’un seul serveur/pool Edge Skype Entreprise Server, le trafic de recherche de tous les sites passe par le serveur Edge disponible unique. L’administrateur doit s’assurer que les pools de tous les sites peuvent accéder au serveur/pool Edge Skype Entreprise Server déployé. 
   
 > [!NOTE]
-> Le service Graph de Skype limitera les demandes de recherche provenant d’un client local ou Microsoft 365 ou Office 365 si le taux de demandes dépasse 15 demandes/seconde. 
+> Le service Graph de Skype limitera les demandes de recherche provenant de n’importe quel client local ou Microsoft 365 ou Office 365 si le taux de demandes dépasse 15 demandes/seconde. 
   
 > [!NOTE]
-> Pour les clients locaux de grande entreprise, les domaines doivent être sur la liste blanche avec le service de recherche Skype pour autoriser des taux de demandes plus élevés. 
+> Pour les clients locaux de grande entreprise, les domaines doivent être ajoutés à une liste d’adresses allowlist avec le service de recherche Skype pour permettre des taux de demandes plus élevés.
   
 > [!NOTE]
 > Skype Entreprise Server limitera les demandes entrantes, s’il y a trop de demandes en attente dans la file d’attente. 
@@ -245,5 +245,5 @@ Le tableau suivant décrit l’état de l’interopération entre la dernière v
 |Lync Mac 2011  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2010  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
 |Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
+|Lync Attendant  <br/> |N/A  <br/> |S/O  <br/> |
    

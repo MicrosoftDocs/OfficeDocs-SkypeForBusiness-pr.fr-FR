@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831021"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506734"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft Teams
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients EDU.**
 
-Un modèle d’équipe personnalisé est une structure d’équipe prédéfinise avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement le bon espace de collaboration. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
+Un modèle d’équipe personnalisé est une structure d’équipe prédéfinise avec un ensemble de canaux, d’onglets et d’applications. Vous pouvez développer un modèle qui vous permet de créer rapidement l’espace de collaboration qui vous permet de créer le bon espace de collaboration. Votre modèle d’équipe personnalisé utilise vos paramètres préférés.  
 
 Pour commencer :
 
@@ -46,9 +46,9 @@ Pour commencer :
     - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
 
-    ![Image de la boîte de dialogue de noms des paramètres des modèles d’équipe.](media/template-add-a-name.png)
+    ![Image de la boîte de dialogue Paramètres des modèles d’équipe.](media/template-add-a-name.png)
 
-6. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
+6. Dans la section **Canaux, onglets et** applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
     1. Dans la section **Canaux,** sélectionnez **Ajouter.**
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
@@ -83,7 +83,7 @@ Pour commencer :
 
     ![ajouter une application pour cette option de modèle](media/add-an-app-template.png)
 
-4. Sélectionnez l’icône Modifier et entrer l’URL de votre choix.
+4. Sélectionnez l’icône modifier et entrer l’URL de votre choix.
 
     ![ajouter une URL d’application](media/add-url-app-template.png)
 
@@ -93,13 +93,17 @@ Pour commencer :
 
 **Problème**: si vous avez créé une équipe à partir d’un modèle personnalisé qui contenait d’autres onglets personnalisés, vous pouvez voir des onglets vides à la place de vos applications d’onglets personnalisées. Vos onglets par défaut (tels que **Publications,** **Fichiers** et **Wiki)** s’afficheront comme prévu.
 
-**Solution**: si vous avez créé une équipe à partir d’un modèle personnalisé qui contenait d’autres onglets personnalisés, vous pouvez voir des onglets vides à la place de vos applications d’onglets personnalisées. Vos onglets par défaut (tels que Publications, Fichiers et Wiki) s’afficheront comme prévu.
-
-Pour résoudre ce problème, supprimez l’onglet personnalisé et ajoutez un nouvel onglet avec la même application. Si vous n’êtes pas autorisé à supprimer l’onglet personnalisé et à ajouter un nouvel onglet, contactez le propriétaire de l’équipe pour obtenir de l’aide.
+**Solution**: pour résoudre ce problème, supprimez l’onglet personnalisé et ajoutez un nouvel onglet avec la même application. Si vous n’êtes pas autorisé à supprimer l’onglet personnalisé et à ajouter un nouvel onglet, contactez le propriétaire de l’équipe pour obtenir de l’aide.
 
 Nous travaillons actuellement sur un correctif pour les équipes futures créées à partir de modèles personnalisés.
 
-## <a name="related-topics"></a>Rubriques connexes
+**Problème**: Lors de l’utilisation de Teams dans le navigateur, certains sites web ne supportent pas le rendu dans un onglet Teams.
+
+![message d’erreur du navigateur](media/browser-error-message.png)
+
+**Solution**: si vous avez des difficultés à afficher le contenu de l’onglet de site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte, ou pour ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
+
+## <a name="related-topics"></a>Voir aussi
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)

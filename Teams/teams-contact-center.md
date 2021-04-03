@@ -13,12 +13,12 @@ f1.keywords:
 description: Vue d’ensemble du centre de contacts intégré en tant que solution de service (CCaaS) pour Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119223"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574123"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du Centre de contacts pour Microsoft Teams
 
@@ -30,7 +30,7 @@ Aujourd’hui, les centres de contacts offrent bien plus que du support: ils fon
 
 1. Chaque membre de l’organisation peut participer directement à l’implication d’un client et doit donc être équipé des outils appropriés.
 
-2. Cette étendue étendue des interactions avec le client nécessite des outils qui contribuent à la cohérence, à l’amélioration constante et à l’échelle.
+2. Cette étendue étendue des interactions client nécessite des outils qui contribuent à la cohérence, à l’amélioration constante et à l’échelle.
 
 Microsoft Teams prend en charge les flux de travail d’interaction client en agissant comme concentrateur pour la connexion des clients internes et externes entre ses modes de communication, notamment les discussions instantanées, les réunions vidéo et les appels. Pour certaines entreprises, les fonctionnalités vocales [cloud](./cloud-voice-landing-page.md)de Microsoft Teams, notamment le [attendant](./what-are-phone-system-auto-attendants.md) automatique et les files d’attente d’appels, fournissent les [fonctionnalités](./create-a-phone-system-call-queue.md)et la configuration nécessaires.
 
@@ -47,6 +47,8 @@ Les API permettent aux fournisseurs de solutions de développer et d’intégrer
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
 ### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>Solutions du Centre de contacts connectés en cours de certification
 
@@ -55,14 +57,13 @@ Les API permettent aux fournisseurs de solutions de développer et d’intégrer
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
-| `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
-| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
@@ -116,9 +117,9 @@ Bien que la liste suivante ne soit pas exhaustive des fonctionnalités de ce mod
 
   - Analyse, gestion des flux de travail, expériences basées sur les rôles pour les agents au sein de l’application CCaaS dans Teams
 
-  - Les expériences de conversation et de collaboration intégrées avec les clients Teams 
+  - Les expériences de conversation et de collaboration intégrées aux clients Teams 
 
-  - Préserver les performances et la qualité des expériences clientes teams dans toutes les applications  
+  - Préserver les performances et la qualité des expériences clientes de Teams dans toutes les applications  
 
 ### <a name="extend-and-power"></a>Étendre et alimenter
 
