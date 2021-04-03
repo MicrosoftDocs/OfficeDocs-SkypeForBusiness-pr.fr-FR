@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122188"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506661"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -47,7 +47,7 @@ L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise 
 Pour ajouter ou bloquer un domaine :
 
 1. Sélectionnez **Ajouter un domaine**.
-2. Dans la zone Ajouter un volet de domaine, entrez le nom de domaine, puis cliquez sur la barre d’espace pour enregistrer le nom.
+2. Dans la zone Ajouter un volet de domaine, entrez le nom de domaine, puis sélectionnez la barre d’espace pour enregistrer le nom.
 3. Sélectionnez **Autorisés** ou **Bloqués**.
 4. Sélectionnez **OK** pour enregistrer vos modifications. 
 
@@ -94,9 +94,13 @@ Ces paramètres contrôlent le comportement du compte de ressource pour les pér
 La fonction de recherche d’annuaire étendue de Microsoft Teams utilise la stratégie de carnet d’adresses (APB) pour permettre aux organisations de créer des limites virtuelles qui contrôlent comment les utilisateurs peuvent trouver d’autres utilisateurs dans leur organisation et communiquer avec eux. Vous pouvez utiliser une recherche d’annuaire étendue dans les situations suivantes :
 
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
-- Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
+- Votre école souhaite limiter les conversations entre la faculté et les étudiants.
 
 Basculez ce paramètre sur **Activé** pour activer les recherches d’annuaire étendues.
+
+#### <a name="safety-and-communications"></a>Sécurité et communications
+
+La surveillance de conversation permet aux organisations et aux établissements scolaires de limiter les fonctionnalités de conversation à l’aide d’autorisations basées sur les rôles. Ces autorisations contrôlent la quantité de surveillance dont un utilisateur a besoin tout en discutant avec d’autres personnes. En savoir plus sur [surveillance de conversation](supervise-chats-edu.md).
 
 ### <a name="skype-for-business"></a>Skype Entreprise
 
