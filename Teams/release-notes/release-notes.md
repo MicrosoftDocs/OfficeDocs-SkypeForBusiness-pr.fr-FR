@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487228"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495753"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft Teams
 
@@ -55,6 +55,10 @@ La conversation surveillée permet aux enseignants désignés de lancer des conv
 ### <a name="masking-phone-numbers"></a>Masquage de numéros de téléphone
 
 Nous avons publié un nouveau paramètre d’administration pour masquer les numéros de téléphone des participants à la conférence rendez-vous lorsqu’ils rejoignent une réunion. Les administrateurs peuvent choisir de masquer les numéros de téléphone de toutes les personnes de la réunion (à l’exception de l’organisateur), des personnes externes uniquement ou ont désactivé le masquage. Si les administrateurs choisissent de désactiver ce paramètre, les numéros de téléphone s’afficheront entièrement dans la réunion. [En savoir plus](../ptsn-mask-phone-numbers.md).
+
+### <a name="create-a-phone-system-auto-attendant"></a>Créer un attendant automatique du système téléphonique
+
+Les employés automatiques peuvent appeler votre organisation et parcourir un système de menus pour parler au service, à la file d’attente d’appels, à une personne ou à un opérateur. Vous pouvez créer des attendants automatiques pour votre organisation à l’aide du Centre d’administration Microsoft Teams ou de PowerShell. [En savoir plus](../create-a-phone-system-auto-attendant.md).
 
 ## <a name="march-1-2021"></a>1er mars 2021
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4614bc88ba65803ea5a8696af9e55a104912855
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20ac1e6c120e1602a39e61d00798f8a796975603
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101300"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450611"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configurer Microsoft Teams dans votre entreprise
 
@@ -78,7 +78,7 @@ La conversation, les équipes et les canaux sont la clé de l’utilisation de T
 
 | Decision | Description |
 |--|--|
-| L’accès externe doit-il être activé ? | L’accès externe permet à tout le monde dans une autre organisation de discuter avec les membres de votre organisation. Cela est utile lorsque vous avez une relation étroite avec une autre organisation, telle qu’un fournisseur, et que vous souhaitez faciliter la discussion entre les membres d’une organisation, la tenue de réunions, etc. <p>L’accès externe est différent de celui des invités. L’accès externe permet à tous les membres d’une autre organisation d’interagir avec les membres de votre organisation. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation.<p>L’accès externe est **Désactivé** par défaut.<p>[Gérer l’accès externe dans Microsoft Teams](manage-external-access.md)  |
+| L’accès externe doit-il être activé ? | L’accès externe permet à tout le monde dans une autre organisation de discuter avec les membres de votre organisation. Cela est utile lorsque vous avez une relation étroite avec une autre organisation, telle qu’un fournisseur, et que vous souhaitez faciliter la discussion entre les membres d’une organisation, la tenue de réunions, etc. <p>L’accès externe est différent de celui des invités. L’accès externe permet à tous les membres d’une organisation d’interagir avec les membres de votre organisation. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation.<p>L’accès externe est **Désactivé** par défaut.<p>[Gérer l’accès externe dans Microsoft Teams](manage-external-access.md)  |
 | L’accès invité doit-il être activé ? |L’accès invité permet aux contacts de votre organisation d’inviter des contacts externes à votre organisation à accéder à vos équipes et canaux. L’accès invité sert souvent à collaborer avec des contacts extérieurs à votre organisation qui n’ont pas de relation officielle avec la vôtre. Par exemple, vous pouvez inviter un planificateur de projet à travailler temporairement sur un projet.<p>L’accès invité est différent de l’accès externe. L'accès invité invite des personnes spécifiques à interagir avec les contacts de votre organisation. L’accès externe permet à tous les membres d’une autre organisation d’interagir avec les membres de votre organisation. <p>L’accès invité est **Désactivé** par défaut. <p>[Activer ou désactiver l'accès invité dans Microsoft Teams](set-up-guests.md)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Réunions et audioconférence](#tab/MeetingsAudioConferencing)

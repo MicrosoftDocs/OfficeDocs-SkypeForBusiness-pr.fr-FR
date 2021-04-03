@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer Power BI Connector pour utiliser des modèles de requête de tableau de bord de qualité des appels
-ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51b989601b7ccec035bda84cc0177aca8f198d1f
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101520"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495760"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installer Power BI Connector pour utiliser les modèles de requête CQD
 
 Avant d’utiliser les modèles de requête Power BI (fichiers PBIX) pour le tableau de bord de qualité des appels de Microsoft Teams, vous devez installer Power BI Connector pour le tableau de bord de qualité des appels Microsoft, à l’aide du fichier *MicrosoftCallQuality.pqx* inclus dans le [téléchargement.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
 
-Lisez [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md) pour Teams afin d’en savoir plus sur ces modèles.
+Lisez [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md) et Teams afin d’en savoir plus sur ces modèles.
 
 Assurez-vous que vous avez le rôle [d’accès de CQD droit pour](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) accéder aux rapports Power BI.
 
@@ -65,7 +65,7 @@ Pour créer un état et exécuter des requêtes, vous devez d’abord vous conne
 
 6. À ce stade, Power BI charge le modèle de données sur le côté droit de la fenêtre. Sinon, la page reste vide et aucune requête n’est chargée par défaut. Passer à **la création de requêtes ci-dessous** pour créer une requête et renvoyer des données.
 
-Si l’une des étapes de ce processus de configuration n’était pas totalement claire, une explication plus détaillée du processus est possible dans le démarrage rapide : Connexion aux données dans [Power BI Desktop.](/power-bi/desktop-quickstart-connect-to-data)
+Si l’une des étapes de ce processus d’installation n’était pas totalement claire, une explication plus détaillée du processus est possible dans le démarrage rapide : Se connecter aux données dans [Power BI Desktop.](/power-bi/desktop-quickstart-connect-to-data)
 
 ## <a name="building-queries"></a>Création de requêtes
 
@@ -75,14 +75,14 @@ Une fois la configuration terminée, vous devriez voir les noms de plusieurs cen
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector3-resize.png)
 
-2. Déterminez les dimensions et les mesures (c’est-à-dire, le symbole d’agrégation par leur nom) que vous souhaitez utiliser pour votre requête, puis sélectionnez-les manuellement et faites-les glisser vers la visualisation noire. Vous aussi, faites-les glisser vers le champ *Valeurs* sous les options de visualisation.
+2. Déterminez les dimensions et les mesures (ou symbole d’agrégation par leur nom) que vous souhaitez utiliser pour votre requête, puis sélectionnez-les manuellement et faites-les glisser vers la visualisation noire. Vous aussi, faites-les glisser vers le champ *Valeurs* sous les options de visualisation.
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > Le tableau de bord de qualité des appels nécessite une mesure pour l’exécuter pour toute requête. L’échec de l’ajout d’une mesure à une requête entraîne l’échec de cette requête.
 
-3. Ensuite, sélectionnez les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Power BI Connector prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au CQD avancé) et le filtrage de *date* relatif (disponible uniquement pour les *dimensions* Heure de fin et Heure de début).  Le filtrage en fonction *de la première N n’est* pas pris en charge par le CQD.
+3. Sélectionnez ensuite les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Power BI Connector prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au CQD avancé) et le filtrage de *date* relatif (disponible uniquement pour les *dimensions* Heure de fin et Heure de début).  Le filtrage en fonction de *N supérieur n’est* pas pris en charge par le CQD.
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector5-resize.png)
 
@@ -109,25 +109,25 @@ Contrairement au CQD avancé, Power BI prend en charge l’drillthrough non séq
 
 ### <a name="best-practice"></a>Meilleure pratique
 
-Les requêtes Connecteur de qualité d’appel doivent être conçues avec la fonctionnalité d’drillthrough à l’esprit. Au lieu d’essayer de charger toutes les données en une fois, puis de vous lancer avec des filtres, commencez avec des requêtes plus larges et à faible cardinalité, puis descendez jusqu’aux requêtes de cardinalité élevée. Par exemple, lorsque vous tentez de diagnostiquer les sous-réseaux qui contribuent le plus aux problèmes de qualité, il est utile d’identifier les régions et pays qui contribuent au problème, puis d’descendre dans les sous-réseaux dans cette région ou ce pays. Les modèles de connecteur Qualité d’appel ont été conçus de cette manière afin de faire partie de l’exemple.
+Les requêtes Connecteur de qualité d’appel doivent être conçues avec la fonctionnalité d’drillthrough à l’esprit. Au lieu d’essayer de charger toutes les données en une seule opération, puis de vous lancer avec des filtres, commencez avec des requêtes plus larges et à faible cardinalité, puis descendez jusqu’aux requêtes de cardinalité élevée. Par exemple, lorsque vous tentez de diagnostiquer les sous-réseaux qui contribuent le plus aux problèmes de qualité, il est utile d’identifier les régions et pays qui contribuent au problème, puis d’descendre dans les sous-réseaux dans cette région ou ce pays. Les modèles de connecteur Qualité d’appel ont été conçus de cette manière afin de faire appel à un exemple.
 
 ## <a name="limitations"></a>Limites
 
-Bien que power BI ne soit pas utilisé, toutes les fonctionnalités de Power BI ne sont pas prise en charge par le connecteur CQD, soit en raison de limitations sur le modèle de données CQD, soit sur les connecteurs DirectQuery en général. La liste ci-dessous remarque certaines des limitations les plus importantes de Connector, mais cette liste ne doit pas être considérée comme exhaustive :
+Bien que power BI ne soit pas utilisé, toutes les fonctionnalités de Power BI ne sont pas prise en charge par le connecteur CQD, soit en raison de limitations sur le modèle de données CQD, soit sur les connecteurs DirectQuery en général. La liste ci-dessous remarque certaines des limitations les plus importantes du Connecteur, mais cette liste ne doit pas être considérée comme exhaustive :
 
 1. **Colonnes calculées :** En général, les connecteurs DirectQuery offrent une prise en charge limitée des colonnes calculées dans Power BI. Bien que certaines colonnes calculées fonctionnent avec le connecteur, celles-ci doivent être considérées comme des exceptions. En règle générale, les colonnes calculées ne fonctionnent pas.
 
 2. **Agrégation –** Le modèle de données du CQD est conçu sur un modèle de cube : les agrégations sont déjà prises en charge sous forme de mesures. La tentative d’ajouter manuellement des agrégations à différentes dimensions ou de modifier le type d’agrégation d’une mesure ne fonctionne pas avec le connecteur et entraîne généralement une erreur.
 
-3. **Éléments visuels personnalisés –** Bien que le connecteur CQD fonctionne avec une plage d’éléments visuels personnalisés, nous ne pouvons pas garantir la compatibilité avec tous les visuels personnalisés. De nombreux visuels personnalisés s’appuient sur l’utilisation de colonnes calculées ou de données importées, ni des connecteurs DirectQuery, ni de ceux pris en charge.
+3. **Éléments visuels personnalisés –** Bien que le connecteur CQD fonctionne avec une plage d’éléments visuels personnalisés, nous ne pouvons pas garantir la compatibilité avec tous les visuels personnalisés. De nombreux visuels personnalisés s’appuient sur l’utilisation de colonnes calculées ou de données importées, ni de ces éléments ni des connecteurs DirectQuery pris en charge.
 
 4. **Référence aux données mises en cache –** Power BI ne prend actuellement pas en charge le référencement des données mises en cache à partir d’un connecteur DirectQuery de quelque manière que ce soit. Toute tentative de référence aux résultats d’une requête entraîne la génération d’une nouvelle requête.
 
-5. **Filtrage relatif des données :** N’est pris en charge que dans  le connecteur du cdQ, mais uniquement avec les dimensions Heure de début et *Heure de fin.* Bien que la dimension *Date* puisse être l’option la plus évidente pour le filtrage relatif des *dates,* La date n’est pas stockée en tant qu’objet d’heure de date et ne prend donc pas en charge le filtrage relatif des dates dans Power BI.
+5. **Filtrage relatif des données –** Est pris en charge dans le connecteur  de la portée des dimensions CQD, mais uniquement avec les dimensions Heure de début et *Heure de fin.* Bien que la dimension *Date* puisse être l’option la plus évidente pour le filtrage relatif des *dates,* La date n’est pas stockée en tant qu’objet d’heure de date et ne prend donc pas en charge le filtrage relatif des dates dans Power BI.
 
-6. **Support cloud de la communauté du gouvernement (GCC) –** Pour les clients dans l’environnement GCC, power BI Connector du CQD fonctionne lorsque vous utilisez Power BI Desktop. Le connecteur Power BI du CQD est compatible avec le service Power BI pour les clients gcc.
+6. **Support cloud de la communauté du gouvernement (GCC) –** Pour les clients dans l’environnement GCC, power BI Connector du CQD ne fonctionne pas lorsque vous utilisez Power BI Desktop. Le connecteur Power BI du CQD n’est actuellement pas compatible avec le service Power BI pour les clients du SECTEUR PUBLIC.
 
-La plupart de ces problèmes sont des restrictions à la conception de connecteur DirectQuery dans Power BI ou fondamentales à la conception du modèle de données du graphique de qualité des projets.
+La plupart de ces problèmes sont des restrictions à la conception de connecteur DirectQuery dans Power BI ou fondamentales à la conception du modèle de données du graphique de qualité des qualités de la recherche de données.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -151,7 +151,7 @@ Si les dates que vous voulez afficher sont récentes, vous pouvez également app
 
   - **Type d’erreur 7 - Aucune erreur de mesure :** Les requêtes du CQD nécessitent une mesure pour fonctionner. Vérifiez que votre requête inclut la mesure. Les mesures dans le connecteur du CQD sont annotées par le symbole d’agrégation (somme) avant leur nom.
 
-Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, informez l’équipe du DQD afin que nous pouvons vous aider à résoudre le problème et à mettre à jour la documentation le cas échéant.
+Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, informez-en l’équipe du sous-domaine afin que nous pouvons vous aider à résoudre le problème et à mettre à jour la documentation le cas échéant.
 
 ## <a name="footnotes"></a>Notes de bas de page
 
@@ -159,15 +159,15 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, inf
 
 **<sup>2 Les</sup>** informations d’identification que  vous utilisez pour le CQD ne doivent pas nécessairement être les mêmes que pour vous connecter à l’application Power BI Desktop elle-même.
 
-## <a name="frequently-asked-questions"></a>Forum aux questions
+## <a name="frequently-asked-questions"></a>Foire aux questions
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quand Power BI Connector sera-t-il mis à jour à partir de l’état « Bêta »
 
-Malgré la balise Bêta, le connecteur Qualité d’appel pour Power BI est la version finale du connecteur et a été officiellement signé par l’équipe Power BI pour refléter cela. Le processus de certification de suppression de cette balise bêta est un processus important qui nécessite l’engagement de l’équipe Power BI à fournir également un support direct au connecteur. En raison de contraintes de temps, l’équipe Power BI ne peut actuellement pas fournir ce support et la certification à plus grande étendue, mais est néanmoins prête à en faire la preuve par rapport à la sécurité, l’authenticité et les fonctionnalités générales du connecteur Qualité d’appel De Microsoft.
+Malgré la balise Bêta, le connecteur Qualité d’appel pour Power BI est la version finale du connecteur et a été officiellement signé par l’équipe Power BI pour refléter cela. Le processus de certification pour supprimer cette balise bêta est un processus important et nécessite l’engagement de l’équipe Power BI à fournir également un support direct au connecteur. En raison de contraintes de temps, l’équipe Power BI ne peut actuellement pas fournir ce support et la certification à plus grande étendue, mais est néanmoins prête à en faire la preuve par rapport à la sécurité, l’authenticité et les fonctionnalités générales du connecteur Qualité d’appel De Microsoft.
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il plus lent par rapport au CQD avancé dans le navigateur ? Que puis-je faire pour améliorer les performances ?
 
-Les performances des requêtes des différents modèles sont en fait identiques tant dans le navigateur que dans le connecteur.  Comme toute autre application autonome, Power BI ajoute son authentification et son temps de rendu à nos performances. Par ailleurs, la différence vient du nombre de requêtes simultanées en cours d’exécuter. Étant donné que la version dans le navigateur du tableau de qualité des requêtes avait moins d’options de visualisation bien développées et de visualisation de la densité d’informations, la plupart de nos rapports étaient limités au chargement de 2 à 3 requêtes à la fois. En revanche, les modèles de connecteur affichent souvent plus de 20 requêtes simultanées. Si vous souhaitez créer des rapports qui sont tout aussi réactifs que ceux que vous utilisiez, essayez de créer des rapports sans plus de 2-3 requêtes par onglet.
+Les performances des requêtes des différents modèles sont en fait identiques tant dans le navigateur que dans le connecteur.  Comme toute autre application autonome, Power BI ajoute son authentification et son temps de rendu à nos performances. Par ailleurs, la différence vient du nombre de requêtes simultanées en cours d’exécuter. Étant donné que la version dans le navigateur du tableau de qualité des requêtes avait moins d’options de visualisation bien développées et de visualisation de la densité d’informations, la plupart de nos rapports étaient limités au chargement de 2 à 3 requêtes à la fois. En revanche, les modèles de connecteur affichent souvent plus de 20 requêtes simultanées. Si vous souhaitez créer des rapports qui sont tout aussi réactifs que ceux que vous utilisiez, essayez de créer des rapports qui ne comptent pas plus de 2 à 3 requêtes par onglet.
 
 Pour plus d’informations, voir les articles suivants :
 
@@ -182,6 +182,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes des résultats, il est pr�
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser les données du CQD pour Teams](CQD-Power-BI-query-templates.md)
