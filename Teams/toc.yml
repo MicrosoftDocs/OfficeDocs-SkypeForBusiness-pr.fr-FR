@@ -317,10 +317,12 @@ items:
         items:
           - name: Présentation
             href: manage-teams-with-policies.md
-          - name: Attribuer des stratégies à vos utilisateurs
-            href: assign-policies.md
-          - name: Afficher vos affectations de stratégie dans le journal d’activité
-            href: activity-log.md
+          - name: "Affecter des stratégies dans Teams\_: prise en main"
+            href: policy-assignment-overview.md
+          - name: Affecter des stratégies à des utilisateurs et des groupes
+            href: assign-policies-users-and-groups.md
+          - name: Affecter des packages de stratégies
+            href: assign-policy-packages.md
           - name: Gérer les stratégies de commentaires dans Teams
             href: manage-feedback-policies-in-teams.md
           - name: Gérer les packages de stratégie dans Teams
