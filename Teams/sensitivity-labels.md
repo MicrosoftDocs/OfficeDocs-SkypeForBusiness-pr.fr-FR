@@ -17,22 +17,22 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser des étiquettes de sensibilité pour protéger vos équipes dans Microsoft Teams.
-ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117192"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593862"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de sensibilité pour Microsoft Teams
 
 [Les étiquettes de sensibilité](/microsoft-365/compliance/sensitivity-labels) permettent aux administrateurs Teams de protéger et de réguler l’accès au contenu d’organisation sensible créé lors de la collaboration au sein d’équipes. Après avoir configuré les étiquettes de confidentialité avec les stratégies associées dans le Centre de conformité [Microsoft,](/microsoft-365/compliance/go-to-the-securitycompliance-center)ces étiquettes peuvent être appliquées aux équipes de votre organisation.
 
-Les étiquettes de sensibilité ne sont actuellement pas pris en compte pour les clients qui utilisent les S SKUS Teams Éducation. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Les étiquettes de sensibilité ne sont actuellement pas pris en compte dans les équipes de classe pour les clients qui utilisent les S SKUS Teams Éducation. Pour en savoir plus sur les licences, consultez[Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Quelle est la différence entre les étiquettes de sensibilité et les étiquettes de classification Teams ?
 
-Les étiquettes de sensibilité sont différentes des étiquettes de classification, également appelées classification de groupe Azure AD. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui ne sont associées à aucune stratégie réelle. Vous utilisez des étiquettes de classification comme métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et scripts internes, pour appliquer des stratégies.
+Les étiquettes de sensibilité sont différentes des étiquettes de classification, également appelées classification de groupe Azure AD. Les étiquettes de classification sont des chaînes de texte qui peuvent être associées à un groupe Microsoft 365, mais qui n’ont aucune stratégie réelle associée. Les étiquettes de classification sont des métadonnées, puis vous devez utiliser d’autres méthodes, telles que des outils et scripts internes, pour appliquer des stratégies.
 
 L’utilisation d’étiquettes de confidentialité permet d’appliquer automatiquement leurs stratégies de bout en bout via une combinaison de la plateforme Microsoft 365 Groups, du centre de conformité et des services Teams. Les étiquettes de confidentialité fournissent une prise en charge puissante de l’infrastructure pour sécuriser les données sensibles de votre organisation et assurer le respect de vos politiques ou réglementations internes.
 
@@ -55,12 +55,14 @@ Lorsqu’un utilisateur crée une équipe  et sélectionne l’étiquette Confid
 
 ![Capture d’écran de l’étiquette confidentiel](media/sensitivity-labels-confidential-example.png)
 
-De même, vous créez et publiez une étiquette de confidentialité nommée « Général » qui a l’option de confidentialité de l’étiquette configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
+De même, vous créez et publiez une étiquette de confidentialité nommée « Général » dont l’option de confidentialité de l’étiquette est configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
 
 ![Capture d’écran de l’étiquette de sensibilité Général](media/sensitivity-labels-general-example.png)
 
-Lorsque l’équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe. Notez que si vous utilisez des étiquettes enfant parentes hiérarchiques telles que « Confidentiel\Finance », seule l’étiquette du parent s’affichera dans l’en-tête du canal.
+Lorsque l’équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe. 
 
+> [!NOTE]
+> Si vous utilisez des étiquettes hiérarchiques de type parent-enfant, telles que « Confidentiel\Finance », seule l’étiquette du parent s’affiche dans l’en-tête du canal.
 
 ![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe](media/sensitivity-labels-channel.png)
 
@@ -88,7 +90,7 @@ Avant d’utiliser des étiquettes de sensibilité pour Teams, faites attention 
 
 - **Les étiquettes de sensibilité ne sont pas pris en charge par les API Teams Graph, les cmdlets PowerShell et les modèles**
     
-    Les utilisateurs ne peuvent pas appliquer d’étiquettes de sensibilité sur les équipes qui sont créées directement via les API Teams Graph, les cmdlets Teams PowerShell et les modèles Teams.
+    Les utilisateurs ne peuvent pas spécifier d’étiquettes de sensibilité lors de la création d’équipes directement via les API Teams Graph, les cmdlets PowerShell Teams et les modèles Teams. Toutefois, les API graphiques de groupes modernes et les cmdlets PowerShell autorisent la création de groupes avec des étiquettes. Pour que les utilisateurs peuvent créer des groupes avec des étiquettes à l’aide d’API Graphique de groupes ou d’cmdlets PowerShell, puis convertir ces groupes en Équipes.
 
 - **Prise en charge des canaux privés**
     

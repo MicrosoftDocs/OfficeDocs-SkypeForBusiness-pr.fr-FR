@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>Semaine du 29 mars 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 3/29/2021 | [Mise en service à distance et se connectez pour les appareils Android Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | ajouté |
+| 3/29/2021 | [Déployer des salles Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](/MicrosoftTeams/rooms/rooms-scale) | modifié |
+| 3/29/2021 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
+| 3/29/2021 | Autoriser l'accès invité dans Microsoft Teams | supprimé |
+| 3/29/2021 | [Gérer les stratégies de rétention pour Microsoft Teams](/MicrosoftTeams/retention-policies) | modifié |
+| 3/30/2021 | [Configurer un attendant automatique pour Microsoft Teams - Didacticiel pour les petites entreprises](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modifié |
+| 3/30/2021 | [Créer une file d’attente d’appels dans Microsoft Teams - Didacticiel petite entreprise](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modifié |
+| 3/30/2021 | [Créer une file d’attente d’appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
+| 3/30/2021 | [Présentation de l’enregistrement de stratégie Teams pour les appels & réunions](/MicrosoftTeams/teams-recording-policy) | modifié |
+| 3/30/2021 | [Personnaliser les applications Microsoft dans Teams](/MicrosoftTeams/customize-apps) | ajouté |
+| 3/30/2021 | [Configurer Microsoft Teams dans votre entreprise](/MicrosoftTeams/deploy-enterprise-setup) | modifié |
+| 3/30/2021 | [Gérer vos applications dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps) | modifié |
+| 3/30/2021 | [Personnaliser les applications Microsoft dans Teams](/MicrosoftTeams/customize-apps) | modifié |
+| 3/30/2021 | [Salles Microsoft Teams](/MicrosoftTeams/rooms/index) | modifié |
+| 3/31/2021 | [Configurer un attendant automatique pour Microsoft Teams - Didacticiel pour les petites entreprises](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modifié |
+| 3/31/2021 | [Créer une file d’attente d’appels dans Microsoft Teams - Didacticiel petite entreprise](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modifié |
+| 3/31/2021 | [Rapport d’utilisation des périphériques de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modifié |
+| 3/31/2021 | [Analyses et rapports Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modifié |
+| 3/31/2021 | [Rapport d’activité des utilisateurs de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modifié |
+| 3/31/2021 | [Notes de publication de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modifié |
+| 3/31/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 4/1/2021 | [Installer Power BI Connector pour utiliser les modèles de requête CQD](/MicrosoftTeams/cqd-power-bi-connector) | modifié |
+| 4/1/2021 | [Notes de publication de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modifié |
+| 4/1/2021 | [Utiliser les conversations surveillées](/MicrosoftTeams/supervise-chats-edu) | modifié |
+| 4/1/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
+| 4/2/2021 | [Configurer un attendant automatique pour Microsoft Teams - Didacticiel pour les petites entreprises](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modifié |
+| 4/2/2021 | [Créer une file d’attente d’appels dans Microsoft Teams - Didacticiel petite entreprise](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modifié |
+| 4/2/2021 | [Créer un modèle d’équipe personnalisé dans Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modifié |
+| 4/2/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
+| 4/2/2021 | [Gérer les paramètres pour votre organisation](/MicrosoftTeams/enable-features-office-365) | modifié |
+| 4/2/2021 | [Gérer les stratégies de messagerie dans Teams](/MicrosoftTeams/messaging-policies-in-teams) | modifié |
+| 4/2/2021 | [Que sont les événements en direct Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modifié |
+| 4/2/2021 | [Notes de publication de Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
+| 4/2/2021 | [Attribuer des stratégies aux utilisateurs et aux groupes](/MicrosoftTeams/assign-policies-users-and-groups) | ajouté |
+| 4/2/2021 | [Attribuer des packages de stratégies à des utilisateurs et groupes](/MicrosoftTeams/assign-policy-packages) | ajouté |
+| 4/2/2021 | [Attribuer des stratégies dans Teams](/MicrosoftTeams/policy-assignment-overview) | ajouté |
+| 4/2/2021 | [Personnaliser les applications Microsoft dans Teams](/MicrosoftTeams/customize-apps) | modifié |
+| 4/2/2021 | [Gérer vos applications dans le Centre d’administration Microsoft Teams](/MicrosoftTeams/manage-apps) | modifié |
+| 4/2/2021 | [Gestion des numéros de téléphone pour la Belgique](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modifié |
+| 4/2/2021 | [Gérer les packages de stratégie dans Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modifié |
+| 4/2/2021 | [Gérer Teams avec des stratégies](/MicrosoftTeams/manage-teams-with-policies) | modifié |
+| 4/2/2021 | [Utiliser le CQD pour gérer les appels et la qualité des réunions dans Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modifié |
+| 4/2/2021 | [Notes de publication de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modifié |
+| 4/2/2021 | [Centre de contacts Teams](/MicrosoftTeams/teams-contact-center) | modifié |
+
+
 ## <a name="week-of-march-22-2021"></a>Semaine du 22 mars 2021
 
 

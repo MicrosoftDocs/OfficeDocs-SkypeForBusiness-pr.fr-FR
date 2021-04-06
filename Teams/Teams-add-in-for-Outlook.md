@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
-ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
+ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51418752"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593772"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -39,7 +39,7 @@ Le complément Réunion Teams est installé automatiquement pour les utilisateur
 
 > [!NOTE]
 > - Il n’existe **aucune URL directe** qui fait la liaison avec le complément Teams.
-> - D’autres aspects sont à prendre en considération si votre organisation exécute Teams et Skype Entreprise. Dans certains cas, le complément Teams n’est pas disponible dans Outlook. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview) .
+> - D’autres aspects sont à prendre en considération si votre organisation exécute Teams et Skype Entreprise. Dans certains cas, le complément Teams n’est pas disponible dans Outlook. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](upgrade-to-Teams-on-prem-tools.md) .
 > - Les autorisations utilisateur pour exécuter le fichier Regsvr32.exe constituent une condition minimale requise pour que le complément réunion Teams soit installé sur l’ordinateur.
 > - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 > - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément réunion Teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).

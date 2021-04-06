@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez le tableau de bord de qualité des appels et comment l’utiliser pour consulter des rapports sur la qualité des réunions et des appels dans Microsoft Teams.
-ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094938"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593832"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Qu’est-ce que le tableau de bord de qualité des appels ?
 
@@ -51,12 +51,12 @@ Dans le CQD, nous vous encourageons à télécharger les informations de bâtime
 
 Ne manquez pas [notre](quality-of-experience-review-guide.md) article Gérer la qualité des appels et des réunions, qui propose des conseils détaillés pour l’administrateur Teams ou l’ingénieur support responsable de la gestion de la qualité du service dans Teams.
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>Version antérieure du CQD (CQD.lync.com)
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>Version héritée du CQD (CQD.lync.com)
 
-La version actuelle de CQD https://CQD.Teams.microsoft.com) (remplace l’ancienne version du CQD( https://CQD.lync.com) . Vous pouvez toujours utiliser CQD.lync.com (disponible dans le Centre d’administration Skype Entreprise), mais depuis le 1er juillet 2020, il utilise les données du CQD. Teams.microsoft.com. Nous désactiverons bientôt l’accès CQD.lync.com aux données. Vous devez donc accéder au CQD. Teams.microsoft.com si vous ne l’avez pas déjà fait.
+La version actuelle de CQD ( https://CQD.Teams.microsoft.com) a remplacé l’ancienne version du CQD ( https://CQD.lync.com) . Vous pouvez toujours utiliser CQD.lync.com (disponible dans le Centre d’administration Skype Entreprise), mais depuis le 1er juillet 2020, il utilise les données du CQD. Teams.microsoft.com vous ne pouvez plus afficher ni modifier les données de votre bâtiment ou requête à partir de l’ancien CQD (CQD.lync.com). Si vous n’avez pas encore migré ces données depuis votre CQD.lync.com en avez encore besoin, enregistrez un ticket de support.
 
 > [!IMPORTANT]
-> À compter du 1er juillet 2020, vous ne pourrez plus afficher ni modifier vos données de bâtiment ou de requête à partir de l’ancien CQD (CQD.lync.com). Si vous n’avez pas encore migré ces données depuis votre CQD.lync.com en avez encore besoin, enregistrez un ticket de support.
+> À compter du 31 juillet 2021, nous retirons l’ancienne version du CQD (CQD.lync.com). Après cette date, vous serez automatiquement redirigé vers le CQD. Teams.microsoft.com tentez d’accéder à CQD.lync.com données de requête ou de création non mégées seront perdues.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Utiliser Power BI pour analyser les données du CQD
 
@@ -66,7 +66,7 @@ Lisez [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-t
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
 
