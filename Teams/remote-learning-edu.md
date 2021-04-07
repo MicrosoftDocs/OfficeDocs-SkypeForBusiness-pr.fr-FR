@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117652"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598573"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -189,20 +189,20 @@ Cette approche hybride vous permet d’utiliser SDS pour créer des groupes pour
 
 Pour commencer à utiliser la méthode SDS, accédez à [School Data Sync (SDS)](/SchoolDataSync) et contactez [https://aka.ms/sdssupport](https://aka.ms/sdssupport) support de déploiement. 
 
-Pour utiliser la méthode de l’API Graph, voir [API Graph](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) et [Créer une équipe de classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta).  
+Pour utiliser la méthode de l’API Graph, voir [API Graph](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) et [Créer une équipe de classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true).  
 
 > [!NOTE]
 > Pour utiliser cette méthode avec SDS, vous devez activer le bouton de création automatique de l’équipe dans votre profil SDS. Vous pouvez également utiliser une combinaison de création d’équipes disposées automatiquement et professeur pour les équipes de classe requises et facultatives à l’aide de deux profils SDS.
 
 #### <a name="powershell-script-using-graph-apis"></a>Script PowerShell à l’aide des API Graph
 
-PowerShell vous permet de créer un script pour créer des équipes, des canaux et configurer les paramètres automatiquement. L’administrateur doit tout d’abord créer le groupe, ajouter des enseignants et des étudiants, puis créer l’équipe comme décrit [ici](/graph/teams-create-group-and-team). Vous pouvez également utiliser l’API Microsoft Graph pour créer, configurer, cloner et archiver des équipes. Pour plus d’informations, voir [utiliser l’API Microsoft Graph pour utiliser Microsoft teams](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) et [Créer une équipe de classe](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type). L’utilisation des API Graph constitue un excellent moyen de disposer d’un contrôle et d’une flexibilité accrus, mais nécessite un haut niveau de compétences techniques et prend plus de temps pour la configuration initiale.
+PowerShell vous permet de créer un script pour créer des équipes, des canaux et configurer les paramètres automatiquement. L’administrateur doit tout d’abord créer le groupe, ajouter des enseignants et des étudiants, puis créer l’équipe comme décrit [ici](/graph/teams-create-group-and-team). Vous pouvez également utiliser l’API Microsoft Graph pour créer, configurer, cloner et archiver des équipes. Pour plus d’informations, voir [utiliser l’API Microsoft Graph pour utiliser Microsoft teams](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) et [Créer une équipe de classe](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true). L’utilisation des API Graph constitue un excellent moyen de disposer d’un contrôle et d’une flexibilité accrus, mais nécessite un haut niveau de compétences techniques et prend plus de temps pour la configuration initiale.
 
 ##### <a name="benefits"></a>Avantages
 
 - Davantage de flexibilité et de contrôle.
 - Option permettant de créer des équipes d’accès rapide aux enseignants ou un accès immédiat des étudiants aux équipes.  
-- Si vous [Créer des équipes à partir de groupes](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group), les enseignants peuvent accéder en avant-première aux modifications apportées à l’appartenance au groupe Azure AD.
+- Si vous [Créer des équipes à partir de groupes](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true), les enseignants peuvent accéder en avant-première aux modifications apportées à l’appartenance au groupe Azure AD.
 
 ##### <a name="considerations"></a>Considérations
 
@@ -211,7 +211,7 @@ PowerShell vous permet de créer un script pour créer des équipes, des canaux 
 - Les modifications d’appartenance ne sont pas synchronisées avec SIS. 
 
 > [!NOTE]
-> Les équipes de classe nécessitent une appartenance aux groupes masqués de sorte que seuls les enseignants et les étudiants au sein de la classe puissent voir les membres de cette classe. Pour créer un groupe de classes Office 365, voir [Créer une équipe de classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) afin de respecter les mêmes exigences de confidentialité.
+> Les équipes de classe nécessitent une appartenance aux groupes masqués de sorte que seuls les enseignants et les étudiants au sein de la classe puissent voir les membres de cette classe. Pour créer un groupe de classes Office 365, voir [Créer une équipe de classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) afin de respecter les mêmes exigences de confidentialité.
 
 #### <a name="manual-team-creation"></a>Création manuelle d’équipe
 
@@ -241,15 +241,15 @@ Early Access Class Teams permet aux enseignants d'accéder à leur équipe de cl
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>Comment créer des équipes de classe qui permettent aux enseignants une accès anticipé à la configuration d’une équipe avant d’autoriser les étudiants ?
 
-Les équipes créées à partir de regroupements (via SDS, le format enseignant ou l’API Graph) créent automatiquement des équipes d’accès anticipé en amont par défaut. Pour créer vos propres équipes d’accès anticipé à l’aide de l’API Graph, vous devez [créer une classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) et [créer l’équipe à partir d’un groupe](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group).
+Les équipes créées à partir de regroupements (via SDS, le format enseignant ou l’API Graph) créent automatiquement des équipes d’accès anticipé en amont par défaut. Pour créer vos propres équipes d’accès anticipé à l’aide de l’API Graph, vous devez [créer une classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) et [créer l’équipe à partir d’un groupe](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>Comment vérifier si une classe est activée ?
 
-Dans le [type de ressource d’équipe](/graph/api/resources/team?view=graph-rest-beta), nous avons ajouté une nouvelle propriété, [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties), pour déterminer si une classe est activée. Utilisez la [l’API obtenir l’équipe](/graph/api/team-get?tabs=http&view=graph-rest-beta) pour interroger la propriété ```isMembershipLimitedToOwners``` pour une classe spécifique. Si l’équipe est activée, elle renvoie la valeur faux. Si l’équipe n’a pas été activée par le propriétaire de l’équipe, elle renvoie la valeur vrai.
+Dans le [type de ressource d’équipe](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true), nous avons ajouté une nouvelle propriété, [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true), pour déterminer si une classe est activée. Utilisez la [l’API obtenir l’équipe](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) pour interroger la propriété ```isMembershipLimitedToOwners``` pour une classe spécifique. Si l’équipe est activée, elle renvoie la valeur faux. Si l’équipe n’a pas été activée par le propriétaire de l’équipe, elle renvoie la valeur vrai.
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>Comment activer une classe pour un enseignant ?
 
-Utilisez l’[API de mise à jour d’équipe](/graph/api/team-update?tabs=http&view=graph-rest-beta) et attribuez à la propriété ```isMembershipLimitedToOwners``` la valeur faux pour activer l’équipe au nom de l’enseignant. Notez qu’une fois qu’une équipe est activée, elle ne peut pas être contrepassée.
+Utilisez l’[API de mise à jour d’équipe](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) et attribuez à la propriété ```isMembershipLimitedToOwners``` la valeur faux pour activer l’équipe au nom de l’enseignant. Notez qu’une fois qu’une équipe est activée, elle ne peut pas être contrepassée.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Créez des équipes pour la communication et la collaboration du personnel
 

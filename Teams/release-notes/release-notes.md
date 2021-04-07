@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notes de publication pour les fonctionnalités d’administration de Microsoft Teams.
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574093"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598503"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notes de publication pour les fonctionnalités d’administration de Microsoft Teams
 
@@ -49,7 +49,7 @@ Les administrateurs informatiques peuvent mettre en service et se connectent à 
 
 ### <a name="enable-live-transcripts-in-teams"></a>Activer les transcriptions en direct dans Teams
 
-Il s’agit d’une stratégie par utilisateur qui s’applique pendant une réunion. Ce paramètre détermine si l’option Activer les légendes dynamiques est disponible pour l’utilisateur, afin d’activer et de désactiver les légendes dynamiques dans les réunions qu’elle attend. [En savoir plus](../meeting-policies-in-teams.md#enable-live-captions).
+Il s’agit d’une stratégie par utilisateur qui s’applique pendant une réunion. Ce paramètre détermine si l’option Activer les légendes dynamiques est disponible pour l’utilisateur, afin d’activer et de désactiver les légendes dynamiques dans les réunions qu’elle attend. [En savoir plus](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## <a name="march-23-2021"></a>23 mars 2021
 
@@ -216,7 +216,7 @@ Nous avons récemment ajouté la prise en charge des forfaits d’appels pour l�
 
 ### <a name="meeting-policy-settings"></a>Paramètres de stratégie de réunion
 
-Ajout de deux paramètres de stratégie pour les stratégies ip audio et vidéo IP dans les stratégies de réunions Teams : Mode pour l’audio IP et Mode pour les vidéos IP. Vous pouvez désormais définir les stratégies audio et vidéo IP entrantes et sortantes dans les stratégies de réunion Teams. [En savoir plus](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Ajout de deux paramètres de stratégie pour les stratégies ip audio et vidéo IP dans les stratégies de réunions Teams : Mode pour l’audio IP et Mode pour les vidéos IP. Vous pouvez désormais définir les stratégies audio et vidéo IP entrantes et sortantes dans les stratégies de réunion Teams. [En savoir plus](../meeting-policies-audio-and-video.md).
 
 ## <a name="september-27-2020"></a>27 septembre 2020
 

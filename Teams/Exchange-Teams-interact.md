@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094636"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598363"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -122,7 +122,7 @@ Voice quelques éléments supplémentaires à considérer lorsque vous implémen
 
 - Elles contrôlent et protègent la configuration des stratégies de conformité dans Teams et Exchange en utilisant l’accès conditionnel. Pour plus d’informations, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, voir [Autoriser la planification des réunions privées](./meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+- Si votre organisation a des exigences en matière de conformité pour s’assurer que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale. Pour plus d’informations, voir [Autoriser la planification des réunions privées](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
 
 - Dans un déploiement hybride Exchange, le contenu des messages de conversation est interrogeable, que les participants à la conversation aient une boîte aux lettres basée dans le cloud ou une boîte aux lettres locale. Pour en savoir plus, lire [Recherche de boîtes aux lettres sur le cloud des utilisateurs locaux](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour découvrir le recherche de contenu dans Teams, lire [Recherche de contenu dans le Centre de conformité Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

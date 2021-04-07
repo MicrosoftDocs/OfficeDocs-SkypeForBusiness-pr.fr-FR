@@ -17,12 +17,12 @@ description: Obtenir un rapport de présence aux réunions à partir de Teams. C
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 22d727adb211718e9734446f2202635e180f5fc3
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130435"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598493"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Rapport de présence aux réunions Microsoft Teams
 
@@ -32,7 +32,7 @@ Les organisateurs de réunion peuvent afficher et télécharger un rapport de pr
 
 Pour les locataires Éducation, ce rapport est utile pour suivre la participation des étudiants aux cours en ligne. Par exemple, l’enseignant peut télécharger le rapport de présence au début de la classe comme moyen simple d’appeler. Pour en savoir plus, lisez télécharger les rapports [de présence dans Teams.](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
 
-En tant qu’administrateur, vous contrôlez si les organisateurs de réunion peuvent télécharger les rapports de présence aux réunions en définition d’une stratégie de réunion Teams. Par défaut, la possibilité de télécharger le rapport est désactivée. Pour savoir comment activer cette fonctionnalité, reportez-vous aux paramètres de stratégie de réunion [- Rapport de présence aux réunions.](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report)
+En tant qu’administrateur, vous contrôlez si les organisateurs de réunion peuvent télécharger des rapports de présence aux réunions en définition d’une stratégie de réunion Teams. Par défaut, la possibilité de télécharger le rapport est désactivée. Pour savoir comment activer cette fonctionnalité, reportez-vous aux paramètres de stratégie [de réunion - Rapport de présence aux réunions.](../meeting-policies-in-teams-general.md#meeting-attendance-report)
 
 Si les organisateurs de réunion ont besoin d’accéder à plus de données  de présence aux réunions qu’ils n’en obtiennent à partir du rapport disponible dans la réunion, vous pouvez attribuer le rôle de lecteur de rapport afin qu’ils peuvent accéder aux rapports d’administration Teams eux-mêmes. Pour plus d’informations à ce sujet, [lisez qui peut accéder aux rapports d’activité Teams.](../teams-activity-reports.md#who-can-access-the-teams-activity-reports) 
 
