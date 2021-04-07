@@ -488,7 +488,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **editMeetingResponse** : Modifier la réponse à une demande de réunion depuis la page Détails de la réunion.
 - **editNavigation** - appui sur **Réorganiser** dans le menu **Plus** pour modifier l’ordre des applications de la barre inférieure.
 - **editRsvpMeetingOptions** : appui sur **RSVP** pour modifier la sélection précédente.
-- **editShiftClicked** : Modifier un shit.
+- **editShiftClicked** : Modifier un shift.
 - **editTeam** : l’utilisateur appuie sur un bouton pour modifier une équipe dont il est le propriétaire ou l’administrateur.
 - **editTeam, editChannel** : des membres sont correctement ajoutés dans une équipe et une équipe existante est correctement créée lorsque :
   - un appui est effectué sur **Annuler** sur la page **Ajouter des membres** (équipe ou canal existant).
