@@ -23,27 +23,27 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Découvrez l’option de paiement à la minute pour activer les fonctionnalités d’audioconférence pour les organisations qui utilisent le programme de licence en volume Microsoft.
-ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607526"
+ms.locfileid: "51617786"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
-En plus de la licence standard d’Audioconférence par utilisateur, les organisations de volume et de gestion des licences peuvent également choisir une offre de paiement à la minute pour activer les fonctionnalités d’audioconférence pour leur organisation.
+En plus de la licence standard d’audioconférence par utilisateur, les organisations de volume et de gestion des licences peuvent également choisir une offre de paiement à la minute pour activer les fonctionnalités d’audioconférence pour leur organisation.
   
 
 Vous pouvez savoir si votre [pays/région est pris](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) en charge pour l’audioconférence.
 
   
 > [!NOTE]
-> Étant donné que cette offre n’est disponible que pour les clients de volume et de gestion de licences, vous devez travailler avec votre représentant de compte pour acquérir ces licences. 
+> Étant donné que cette offre n’est disponible que pour les clients en volume et en gestion des licences, vous devez travailler avec votre représentant de compte pour acquérir ces licences. 
   
 ## <a name="need-some-details"></a>Vous avez besoin d’informations ?
 
-Alors que l’offre de licence d’audioconférence par utilisateur inclut l’utilisation des appels à composer et une utilisation sortante, la fonction audioconférence à la minute vous permet de régler l’ensemble de votre utilisation de l’audioconférence à la **minute** sans payer pour une licence mensuelle par utilisateur. Dans ce cas, tous les appels sortants et des appels sortants sont facturés par minute, notamment :
+Alors que l’offre de licence d’audioconférence par utilisateur inclut l’utilisation des conférences par utilisateur et l’utilisation des appels **sortants,** la fonction audioconférence à la minute vous permet de régler l’ensemble de votre utilisation de l’audioconférence à la minute sans payer pour une licence mensuelle par utilisateur. Dans ce cas, tous les appels sortants et des appels sortants sont facturés par minute, notamment :
   
 - Appels entrants vers les numéros d’audioconférences téléphoniques de votre organisation.
     
@@ -52,7 +52,7 @@ Alors que l’offre de licence d’audioconférence par utilisateur inclut l’u
 - Appels sortants placés vers des numéros de téléphone externes à partir d’une réunion de votre organisation.
     
 > [!NOTE]
-> Les tarifs d’appels d’accès et d’appels sortants associés à ces types d’appels sont consultables dans la **section** Tarifs d’appel de [l’audioconférence.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
+> Vous trouverez les tarifs d’appels d’accès et d’appels sortants associés à ces types d’appels en consultant la **section** Tarifs d’appel pour l’endroit où vous souhaitez passer des appels dans [l’audioconférence.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
   
 Le paiement à la minute nécessite la mise en place de [crédits de communication](what-are-communications-credits.md) pour votre organisation. Pour plus d’informations, consultez Configurer les [crédits](set-up-communications-credits-for-your-organization.md) de communication pour votre organisation et/ou les licences [de modules add-on de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
@@ -77,14 +77,14 @@ Pour activer l’audioconférence payante à la minute pour les utilisateurs de 
 ## <a name="want-to-find-out-more-about-pricing"></a>Vous souhaitez en savoir plus sur les tarifs ?
 
  **Vous recherchez les prix ?** Consultez ce qui suit :
-  
-- [Tarifs de l’Audioconférence](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [Tarifs de l’Audioconférence](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [Tarification pour Système téléphonique](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [Tarification pour Système téléphonique](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [Tarifs de forfaits d'appels](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Tarifs de forfaits d'appels](https://www.microsoft.com/microsoft-teams/voice-calling)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
   
 [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

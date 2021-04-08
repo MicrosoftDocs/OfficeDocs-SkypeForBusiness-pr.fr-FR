@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment gérer Microsoft Teams à l’aide de Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8494f7951a051f95f9b934d04f274a020446b6cd
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094144"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617746"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Gérer Teams avec Microsoft Teams PowerShell
 
@@ -33,7 +33,7 @@ Les cmdlets de création et de gestion des équipes sont dans le [module Microso
 Teams est backed by Office 365 Groups, so when you create a team, you create a group. Un ensemble d’lets est fourni pour l’exploitation de l’équipe principale et de ses paramètres (, , ), la gestion des utilisateurs de l’équipe ( , ), ainsi que des ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` cmdlets ``new-teamchannel`` pour la gestion des canaux de l’équipe ( , ``remove-teamchannel`` ). Toutes ces cmdlets peuvent être exécutés en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes propriétaire ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
+New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Le **GroupId utilisé** dans les cmdlets de module Microsoft Teams PowerShell est identique à la propriété **Identity** renvoyée par le module ``Get-UnifiedGroup`` Exchange PowerShell.
@@ -58,7 +58,7 @@ Une stratégie est un groupe de paramètres qui peuvent être appliqués de faç
    - Pour modifier la stratégie qui sera par défaut affectée aux utilisateurs de votre organisation pour qui une stratégie personnalisée n’est pas attribuée, ``Set-Cs<PolicyName> -Identity Global`` exécutez.
 
 - **Commandes** REMOVE (par exemple) : supprime une stratégie personnalisée créée ``Remove-CsTeamsMeetingPolicy`` dans votre client. Si vous supprimez une stratégie personnalisée affectée à au moins un utilisateur de votre organisation, cet utilisateur revenira à la stratégie globale.
-   - Vous ne pouvez pas vraiment supprimer la stratégie globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft pour la stratégie globale de votre organisation, ``Remove-Cs<PolicyName> -Identity Global`` exécutez.
+   - Vous ne pouvez pas vraiment supprimer la stratégie globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft dans votre organisation, ``Remove-Cs<PolicyName> -Identity Global`` exécutez.
 
 - **Commande GRANT** (par exemple, ``Grant-CsTeamsMeetingPolicy`` ) : affecte une stratégie à un utilisateur particulier.
    - Pour supprimer une affectation de stratégie personnalisée et faire en sorte que l’utilisateur revenir à la stratégie par défaut dans votre organisation, ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` exécutez.

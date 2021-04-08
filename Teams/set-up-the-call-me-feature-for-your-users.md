@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b78edc01f68df19e850a85eb0ffa99163b9edae
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 04510a827e9343010c756b14590e9800354c71e9
+ms.sourcegitcommit: f979c491af5210e6ceb1d1c00e000767f1a8311d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821094"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51623130"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
@@ -30,16 +30,16 @@ Dans Microsoft Teams, la fonctionnalité **M’appeler** permet aux utilisateurs
 
 > [!IMPORTANT]
 > 
-> Pendant les périodes de forte affluence de réunions (que nous avons connues en liaison avec l'épidémie COVID-19), il est recommandé aux utilisateurs de rejoindre les réunions en cliquant sur le bouton <strong>Rejoindre une réunion Teams</strong> plutôt que de se connecter en utilisant les numéros de conférence RTC ou l’option <strong>M’appeler au</strong>. Cela contribuera à garantir la qualité audio pendant les heures au cours desquelles le grand nombre de réunions entraîne une congestion du réseau PSTN. 
+> Pendant les périodes de forte affluence de réunions (que nous avons connues en liaison avec l'épidémie COVID-19), il est recommandé aux utilisateurs de rejoindre les réunions en cliquant sur le bouton <strong>Rejoindre une réunion Teams</strong> plutôt que de se connecter en utilisant les numéros de conférence RTC ou l’option <strong>M’appeler au</strong>. Cela contribuera à garantir la qualité audio pendant les heures au cours desquelles le grand nombre de réunions entraîne une congestion du réseau PSTN.
 
-> [!IMPORTANT]
-> Pendant la durée de l’épidémie COVID-19, il est recommandé aux utilisateurs de rejoindre les réunions en cliquant sur le bouton **Rejoindre une réunion Teams** plutôt que de se connecter en utilisant les numéros de conférence RTC ou l’option **M’appeler au**</strong>. Cela est principalement dû à l’encombrement des infrastructures téléphonique des pays touchés par le COVID-19. En évitant les appels RTC, vous bénéficierez probablement d’une meilleure qualité audio. 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="the-user-experience"></a>Expérience utilisateur
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>Participer à une réunion en utilisant un téléphone pour le son
 
-Cliquez **sur** Rejoindre pour participer à une réunion, puis sur **Audio** sur l’écran Choisir vos  **paramètres audio et** vidéo. À partir de là, les utilisateurs peuvent avoir l’appel de réunion et les rejoindre, ou se joindre manuellement à la réunion.
+Cliquez **sur Rejoindre** pour participer à une réunion, puis sur Téléphone **dans** l’écran Choisir vos options audio et **vidéo,** puis cliquez **sur Rejoindre maintenant.** À partir de là, les utilisateurs peuvent avoir l’appel de réunion et les rejoindre, ou se joindre manuellement à la réunion.
 
 ![Capture d’écran de l’option Audio du téléphone](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
@@ -71,6 +71,6 @@ Pour activer la fonctionnalité M’appeler pour les utilisateurs de votre organ
 
 - L’audioconférence est activé pour les utilisateurs dans votre organisation qui planifier des réunions (organisateurs de réunions). Pour en savoir plus, consultez Configurer l’audioconférence pour [Teams](set-up-audio-conferencing-in-teams.md) et gérer les paramètres d’audioconférence pour [un utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-- Les utilisateurs peuvent appeler à partir des réunions. Pour en savoir plus, [consultez Gérer les paramètres d’audioconférence d’un utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- L’organisateur de la réunion peut appeler à partir de réunions. Pour en savoir plus, [consultez Gérer les paramètres d’audioconférence d’un utilisateur dans Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-Si un utilisateur n’a pas activé les  appels sortants des réunions, l’option M’appeler n’est pas disponible et l’utilisateur ne recevra pas d’appel pour participer à la réunion. À la place, l’utilisateur voit sur l’écran Utiliser le téléphone pour **l’audio** une liste qui lui permet de se composer manuellement de la réunion sur son téléphone.
+Si les appels sortants des réunions ne sont pas activés pour l’organisateur de la réunion, l’option audio du téléphone dans l’écran Choisir vos **options** **audio** et vidéo n’est disponible pour personne et les autres utilisateurs ne peuvent pas recevoir d’appel pour participer à la réunion. Pour les utilisateurs dont l’appel sortant est activé, une fois qu’ils ont rejoint la réunion, ils peuvent rejoindre d’autres personnes composant leur numéro à partir de l’icône Afficher **les participants.**

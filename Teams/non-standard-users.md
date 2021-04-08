@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: fb4b5dfebabfcd0bc86006d93272c3901e7dcfc7
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607516"
+ms.locfileid: "51617847"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Comportement des applications Microsoft Teams pour les utilisateurs non standard
 
@@ -32,8 +32,8 @@ Cet article décrit le comportement des applications dans Teams lorsque des util
 
 - Un **utilisateur externe (fédéré)** appartient à un autre domaine et n’a pas accès aux équipes ou ressources d’équipe de votre organisation.
 
->[!Note]
-> Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](./communicate-with-users-from-other-organizations.md)
+  > [!Note]
+  > Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](./communicate-with-users-from-other-organizations.md)
 
 - Un **utilisateur anonyme est** un concept dans les réunions Teams où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou celui de son organisation.
 
