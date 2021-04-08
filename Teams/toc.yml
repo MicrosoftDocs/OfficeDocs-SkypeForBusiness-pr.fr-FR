@@ -550,9 +550,25 @@ items:
       - name: Réunions
         items:
           - name: Gérer les stratégies de réunion
-            href: meeting-policies-in-teams.md
-          - name: Supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: Vue d'ensemble
+                href: meeting-policies-overview.md
+              - name: Stratégies générales
+                href: meeting-policies-in-teams-general.md
+              - name: Stratégies audio et vidéo
+                href: meeting-policies-audio-and-video.md
+              - name: Stratégies de partage de contenu et d'écran
+                items:
+                  - name: Partage de contenu
+                    href: meeting-policies-content-sharing.md
+                  - name: Configurer le partage du bureau
+                    href: configure-desktop-sharing.md
+              - name: 'Stratégies pour les participants, les invités et les accès'
+                items:
+                  - name: Stratégies pour les participants et les invités
+                    href: meeting-policies-participants-and-guests.md
+                  - name: Supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: Gérer les paramètres de réunions
             href: meeting-settings-in-teams.md
           - name: Messages électroniques envoyés aux utilisateurs lors de la modification de leurs paramètres
