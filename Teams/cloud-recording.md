@@ -12,18 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
+localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Conseil pratique pour le déploiement de fonctionnalités vocales cloud dans Teams pour enregistrer des réunions et des appels de groupe Teams pour capturer l’activité audio, vidéo, et le partage d'écran.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4e3c8bcf40a17d8b03a51c471201554d33e0ce1
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: e5c23c362d9d425c163a46dde93c6daa3c593a92
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598453"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617776"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -32,10 +33,10 @@ Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions et ap
 En relation avec la [Réunion Teams de qui enregistre la documentation de l’utilisateur final](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Les modifications apportées à l’utilisation de Microsoft Stream pour OneDrive Entreprise et SharePoint pour les enregistrements de réunion auront une approche progressive. Pour plus d’informations sur chaque phase, voir Utiliser OneDrive Entreprise [et SharePoint ou Stream pour les enregistrements de réunion.](tmr-meeting-recording-change.md)
+> Le passage de l’utilisation de Microsoft Stream à OneDrive Entreprise et SharePoint pour les enregistrements de réunion se fera progressivement. Si vous souhaitez en savoir plus sur chaque phase, consultez l’article [Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion](tmr-meeting-recording-change.md).
 
 > [!NOTE]
-> Pour obtenir plus d’informations sur l’utilisation des rôles dans les réunions Teams et la méthode pour modifier les rôles des utilisateurs, voir [Rôles dans une réunion Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us). Pour les options d’enregistrement des événements en direct, [consultez les stratégies d’enregistrement des événements en direct dans Teams.](teams-live-events/live-events-recording-policies.md)
+> Si vous souhaitez en savoir plus sur l’utilisation des rôles dans les réunions Teams et la méthode pour modifier les rôles des utilisateurs, consultez l’article [Rôles dans une réunion Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us). Pour les options d’enregistrement d’événements en direct, consultez l’article [Stratégies d’enregistrement des événements en direct dans Teams. ](teams-live-events/live-events-recording-policies.md).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Conditions préalables pour l’enregistrement de réunion cloud Teams
 
@@ -44,17 +45,26 @@ Microsoft Stream doit être activé pour que les réunions d’un utilisateur Te
 - L’utilisateur possède Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Business Standard ou Business Basic<sup>1</sup>
 - L’utilisateur doit avoir accepté les directives de l’entreprise configurées par l’administrateur, le cas échéant.
 - L’utilisateur doit disposer de l’espace de stockage suffisant dans Microsoft Stream pour sauvegarder les enregistrements
-- L’utilisateur a le paramètre CsTeamsMeetingPolicy -AllowCloudRecording définie sur true afin d’enregistrer les réunions et les appels de groupe
-- L’utilisateur dispose du paramètre CsTeamsCallingPolicy -AllowCloudRecordingForCalls définie sur true afin d’enregistrer les appels 1:1
+- L’utilisateur a défini le paramètre CsTeamsMeetingPolicy -AllowCloudRecording sur true afin d’enregistrer les réunions et les appels de groupe
+- L’utilisateur a défini le paramètre CsTeamsCallingPolicy -AllowCloudRecordingForCalls sur true afin d’enregistrer les réunions et les appels individuels
 - L’utilisateur ne doit pas être un utilisateur anonyme, invité ou fédéré de la réunion
 - Pour activer la transcription pour la réunion d’un utilisateur, la stratégie de réunion Teams à laquelle il est affecté doit disposer du paramètre Autoriser la transcription définie sur True.
 
 <sup>1</sup> À compter du 20 aout 2020, l’accès au fichier d’enregistrement d’une réunion arrive à expiration après 21 jours pour les utilisateurs disposant de A1. Pour plus d'informations, voir [Télécharger l'enregistrement d'une réunion de Microsoft Teams vers Stream](/stream/portal-upload-teams-meeting-recording).
 
-<sup>2</sup>utilisateur doit être titulaire d’une licence pour charger ou télécharger les réunions vers ou à partir de Microsoft Stream, mais il n’a pas besoin de la licence pour enregistrer une réunion. Si vous souhaitez empêcher un utilisateur d’enregistrer une réunion Microsoft Teams, vous devez accorder une TeamsMeetingPolicy dont AllowCloudRecording a la valeur $False.
-
-> [!IMPORTANT]
-> Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous voulez qu’ils enregistrent et téléchargent uniquement les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Azure Media Services (AMS) avec une limite de 21 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler ou gérer, et même supprimer un enregistrement.
+> [!IMPORTANT] 
+>
+> Les utilisateurs n’ont pas besoin d’une attribution de licence Microsoft Stream si vous souhaitez qu’ils puissent uniquement enregistrer et télécharger les enregistrements. Cela signifie que les enregistrements ne sont pas stockés dans Microsoft Stream, mais dans Teams Async Media Services (AMS) avec une limite de 21 jours avant leur suppression. À ce stade, un administrateur n’est pas habilité à contrôler, gérer, et même supprimer un enregistrement.
+>
+> Pour les enregistrements sur AMS, la rétention des enregistrements est affectée par le message de conversation lui-même. De ce fait, la suppression de l’enregistrement du message de conversation AMS d’origine empêchera les utilisateurs d’accéder à l’enregistrement. Il existe deux scénarios qui peuvent affecter cela :
+> 
+> - L’utilisateur supprime manuellement le message de conversation
+> 
+>   Dans ce scénario, le message d’origine ayant disparu, les utilisateurs ne pourront plus accéder à l’enregistrement et aucun autre téléchargement ne sera possible. Cependant, l’enregistrement lui-même peut toujours être conservé dans les systèmes internes de Microsoft pendant un certain temps (ne dépassant pas la période initiale de 21 jours).
+> 
+> - L’enregistrement du message de conversation est supprimé par la stratégie de rétention de conversation 
+> 
+>   Les enregistrements AMS sont directement liés à la stratégie de rétention de conversation. De ce fait, bien que les enregistrements sur AMS soient par défaut conservés pendant 21 jours avant d’être supprimés, si le message de conversation est supprimé avant la fin de la période de 21 jours, l’enregistrement sera également supprimé en raison des stratégies de rétention des messages de conversation. Une fois l’enregistrement supprimé, il est impossible de le récupérer.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurer l’Enregistrement de réunion cloud Teams pour les utilisateurs de votre organisation
 
@@ -68,7 +78,7 @@ En savoir plus sur la façon dont vous pouvez [affecter des licences aux utilisa
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Vérifier que les utilisateurs ont des autorisations de chargement de vidéo dans Microsoft Stream
 
-Par défaut, tous les membres de l’entreprise peuvent créer du contenu dans Stream, une fois Stream activé et la licence affectée à l’utilisateur. Un administrateur Microsoft Stream peut [restreindre les employés à créer du contenu](/stream/restrict-uploaders) en continu. Les utilisateurs figurant dans cette liste restreinte ne pourront pas enregistrer de réunions.
+Par défaut, tous les membres de l’entreprise peuvent créer du contenu dans Stream, une fois Stream activé et la licence affectée à l’utilisateur. Un administrateur Microsoft Stream peut [restreindre les employés à créer du contenu](https://docs.microsoft.com/stream/restrict-uploaders) en continu. Les utilisateurs figurant sur cette liste restreinte pourront toujours enregistrer des réunions, mais leurs enregistrements ne seront pas envoyés à Stream. À la place, ces enregistrements seront stockés temporairement sur AMS pendant 21 jours. Pendant cette période, l’enregistrement doit être téléchargé avant d’être supprimé à la fin de cette période de 21 jours.
 
 ### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Informez les employés pour qu’ils acceptent les instructions de la société dans Microsoft Stream
 
@@ -78,7 +88,7 @@ Si un administrateur Microsoft Stream a [configuré la stratégie de la sociét�
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si les réunions des utilisateurs peuvent être enregistrées.
 
-Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser l’enregistrement dans le cloud** dans la stratégie de réunion. Pour en savoir plus, [consultez les paramètres de stratégie de réunion pour les & vidéo.](meeting-policies-audio-and-video.md#allow-cloud-recording)
+Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser l’enregistrement dans le cloud** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meeting-policies-audio-and-video.md#allow-cloud-recording).
 
 À l’aide de PowerShell, vous configurez le paramètre AllowCloudRecording dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -113,11 +123,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 #### <a name="where-your-meeting-recordings-are-stored"></a>Où sont stockées vos Enregistrements de réunions
 
-Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données. La fonctionnalité d’enregistrement de la réunion peut être désactivée pour les clients dont les données sont censées être stockées à l’étranger, même si Microsoft Stream n’est pas disponible dans la région de résidence de données à l’étranger. Pour ce faire, vous pouvez conserver les enregistrements dans la zone géographique la plus proche de Microsoft Stream. 
+Les enregistrements de réunion sont stockés dans le stockage cloud Microsoft Stream. Pour l’instant, la fonctionnalité d’enregistrement de la réunion est désactivée pour les clients dont les données d’équipe sont stockées dans le pays si Microsoft Stream n’est pas disponible dans la zone de résidence des données dans le pays où sont stockées les données. La fonctionnalité d’enregistrement de réunions Teams peut être activée pour les clients dont les données sont censées être stockées dans le pays, même si Microsoft Stream n’est pas disponible dans la région de résidence des données du pays. Vous pouvez faire cela en autorisant le stockage des enregistrements dans la région géographique la plus proche pour Microsoft Stream. 
 
 Si vos données Teams sont stockées dans le pays et que vous préférez stocker les enregistrements de réunions dans le pays, nous vous conseillons de désactiver la fonctionnalité, puis de les activer une fois Microsoft Stream déployé sur votre pays ou région de résidence dans le pays. Pour désactiver la fonctionnalité pour tous les utilisateurs de votre organisation, désactivez le paramètre **Autoriser l’enregistrement dans le cloud** dans la stratégie de réunion globale Teams qui se trouve dans le Centre d’administration Microsoft Teams. Si, toutefois, vous souhaitez encore activer le stockage des enregistrement dans la région géographique la plus proche pour Microsoft Stream, vous devez activer **Autoriser l'enregistrement dans le cloud** et **Autoriser le stockage d’enregistrement en dehors de la région** avant que cette modification intervienne.
 
-Pour activer les enregistrements de région dans la stratégie globale, utilisez l’cmdlet suivante :
+Pour activer les enregistrements existants dans une région dans la stratégie globale, utilisez la cmdlet suivante :
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
@@ -145,7 +155,7 @@ Ce paramètre détermine si les fonctionnalités de légende et de transcription
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 
-Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser la transcription** dans la stratégie de réunion. Pour en savoir plus, consultez [les paramètres de stratégie de réunion pour les & vidéo.](meeting-policies-audio-and-video.md#allow-transcription)
+Dans le Centre d’administration Microsoft Teams, activez ou désactivez le paramètre **Autoriser la transcription** dans la stratégie de réunion. Si vous souhaitez en savoir plus, consultez l’article [Paramètres de stratégie de réunion pour l’audio et la vidéo](meeting-policies-audio-and-video.md#allow-transcription).
 
 À l’aide de PowerShell, vous configurez le paramètre AllowTranscription dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 

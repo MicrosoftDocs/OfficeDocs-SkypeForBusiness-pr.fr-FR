@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593772"
+ms.locfileid: "51598383"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -115,7 +115,7 @@ En raison de certaines limitations de la version initiale, Outlook Mobile ne peu
 
 En tant qu’administrateur, vous pouvez configurer un paramètre de stratégie de réunion Teams pour contrôler quel complément de réunion Outlook est utilisé pour *utilisateurs en mode îles*. Vous pouvez spécifier si les utilisateurs peuvent utiliser uniquement le complément réunion Teams ou les deux compléments réunion et Skype® Entreprise pour planifier des réunions dans Outlook.
 
-Vous ne pouvez appliquer cette stratégie uniquement aux utilisateurs qui sont en mode Îles et dont le paramètre **AllowOutlookAddIn** est défini sur **True** dans leur stratégie de réunion Teams. Pour connaître la procédure de définition de cette stratégie, consultez [définition du fournisseur de la réunion pour les utilisateurs en mode îles](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+Vous ne pouvez appliquer cette stratégie uniquement aux utilisateurs qui sont en mode Îles et dont le paramètre **AllowOutlookAddIn** est défini sur **True** dans leur stratégie de réunion Teams. Pour savoir comment définir cette stratégie, voir [la section Paramètres de la stratégie de réunion – Général](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Autres considérations
 
@@ -142,7 +142,7 @@ Vous pouvez également effectuer les étapes suivantes manuellement :
 
 - Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
 - Vérifiez que l’utilisateur a une stratégie de mise à niveau Teams qui permet de planifier les réunions dans Teams. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
-- Vérifiez que l’utilisateur a une stratégie de réunion Teams qui autorise le complément Outlook. Si vous souhaitez obtenir plus d’informations, consultez [Gérer les stratégies de réunion dans Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in).
+- Vérifiez que l’utilisateur a une stratégie de réunion Teams qui autorise le complément Outlook. Voir [Paramètres de la stratégie de réunion – Général](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) pour plus de détails.
 - Assurez-vous que le client de bureau Teams est installé sur l’utilisateur. Le complément de réunion ne sera pas installé lorsque vous utiliserez uniquement le client web Teams.
 - Vérifiez que l’utilisateur dispose de l’installation d’Outlook 2013 ou version ultérieure.
 - Assurez-vous que l’utilisateur a l’autorisation d’exécuter regsvr32.exe.

@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098180"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598523"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel et Microsoft Teams
+
+> [!IMPORTANT]
+> Azure Sentinel dispose désormais d'un connecteur intégré. Pour plus d'informations, voir [Connecter les journaux d'Office 365 à Azure Sentinel](/azure/sentinel/connect-office-365) . Il s'agit de la méthode recommandée pour collecter ces journaux et elle remplace les méthodes de collecte décrites ci-dessous.
 
 Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée, non seulement lorsqu’il s’agit de *le repérage dans les journaux*, mais également dans *la surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
 
@@ -44,13 +47,13 @@ Cet article traite de la collecte des journaux d’activité Teams dans Azure Se
 
 Cette section se compose de trois parties :
 
-1. Activation des journaux d’audit dans **Microsoft 365** (M365).
-2. Inscription d’une application dans **Microsoft Azure** pour autoriser l’authentification et l’autorisation pour la collecte des journaux.
-3. Inscription de l’abonnement API qui permettra la collecte de journaux via l’API M365 via **PowerShell**.
+1. Activation des journaux d'audit dans **Microsoft 365**.
+2. Enregistrement d'une application dans **Microsoft Azure** pour permettre l'authentification et l'autorisation de la collecte des journaux.
+3. Enregistrement de l'abonnement à l'API qui permettra la collecte des journaux via l'API Microsoft 365 via **PowerShell** .
 
-### <a name="enable-audit-logs-in-m365"></a>Activer les journaux d’audit dans M365
+### <a name="enable-audit-logs-in-microsoft-365"></a>Activer les journaux d'audit dans Microsoft 365
 
-Étant donné que Teams enregistre l’activité via M365, les journaux d’audit ne sont pas collectés par défaut. Pour activer cette fonctionnalité, [procédez comme suit](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Les données Teams sont collectées dans l’audit M365 sous *Audit.General*.
+Étant donné que Teams enregistre l'activité par le biais de Microsoft 365, les journaux d'audit ne sont pas collectés par défaut. Activez [cette fonction en procédant comme suit](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Les données relatives de Teams sont collectées dans l'audit Microsoft 365 sous *Audit.General*.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Inscrire une application dans Microsoft Azure pour la collecte des journaux
 
@@ -76,7 +79,7 @@ Authentifiez et autorisez une application Azure Active Directory (Azure AD) pour
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Inscrire l’API avec PowerShell pour collecter les journaux Teams
 
-La dernière étape de l’installation consiste à collecter et enregistrer l’abonnement API de sorte que vous puissiez recueillir vos données de journal. Pour ce faire, vous pouvez effectuer des appels PowerShell REST à l'API d'activité de gestion M365.
+La dernière étape de l’installation consiste à collecter et enregistrer l’abonnement API de sorte que vous puissiez recueillir vos données de journal. Cela se fait par le biais d'appels REST PowerShell à l'API Microsoft 365 pour les activités de gestion.
 
 Vous êtes prêt à fournir **ID d’application (client)**, la nouvelle **clé secrète client** votre **domaine d’URL pour M365** et **ID d’annuaire (locataire)** les valeurs dans l’applet de commande PowerShell ci-dessous.
 
