@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215329"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637866"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "51215329"
 > [!Note]
 > Si votre réunion ou webinaire atteint sa capacité, Teams s’adaptera sans problème à une expérience de diffusion en lecture seule de 10 000 personnes. De plus, pendant cette période de travail à distance accru, tirez parti de diffusions encore plus importantes de 20 000 personnes jusqu’à la fin de cette année.
 
-Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte (c’est-à-faire lorsque 300 utilisateurs de WW ou 250 utilisateurs du GCC participent à une réunion), d’autres participants la rejoindront avec une expérience en affichage seul.
+Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte (c’est-à-faire lorsque 300 utilisateurs de WW ou 250 utilisateurs du GCC participent à une réunion), les participants supplémentaires la rejoindront avec une expérience en affichage seul.
 
 Les participants qui rejoignent la réunion en premier, jusqu’à la capacité de la réunion principale, auront accès à l’expérience complète de la réunion Teams. Ils peuvent partager des fichiers audio et vidéo, voir des vidéos partagées et participer à une conversation de réunion.
 
@@ -40,7 +40,7 @@ Les participants qui rejoignent la réunion après la limite de la capacité de 
 Les participants pourront rejoindre l’expérience d’affichage seul via le Bureau, le Web et Teams Mobile (Android et iOS).
 
 > [!Note]
-> La capacité limite actuelle de la « réunion principale », c’est-à-dire le nombre d’utilisateurs entièrement interactifs, est de 300 dans WW et 250 dans GCC, GCC High et DoD.
+> La capacité limite actuelle de la « réunion principale », c’est-à-dire, le nombre d’utilisateurs entièrement interactifs, est de 300 dans WW et 250 dans GCC, GCC High et DoD.
 
 ## <a name="teams-view-only-experience-controls"></a>Contrôles d’expérience en affichage seul dans Teams
 
@@ -77,7 +77,7 @@ Une fois la capacité de la réunion principale atteinte, les participants sont 
 
 S’il y a de l’espace, l’utilisateur pourra toujours participer à la réunion principale. Si la réunion principale atteint sa capacité et qu’un ou plusieurs participants quittent la réunion principale, il y aura encore de la place à la réunion principale. Les participants qui prennent part (ou qui participent à nouveau) à la réunion, participeront à la réunion principale jusqu’à la limite de sa capacité. Les participants en mode lecture seule ne peuvent pas rejoindre automatiquement la réunion principale et ne peuvent pas le faire manuellement pour l’instant.
 
-Si les rôles de présentateur et de participant ont été définies et qu’un présentateur tente de rejoindre une réunion une fois que la réunion principale de cette dernière a atteint sa capacité, il rejoint la réunion en tant que participant en affichage seul et présente les mêmes limitations que les autres participants en affichage seul. Support pour s’assurer que tous les présentateurs rejoignent la réunion principale sera mise en place ultérieurement. L’organisateur sera toujours garanti dans la réunion principale.
+Si les rôles de présentateur et de participant ont été définies et qu’un présentateur tente de participer à une réunion une fois que la réunion principale de cette dernière a atteint sa capacité, il rejoint la réunion en tant que participant en affichage seul et présente les mêmes limitations que les autres participants en affichage seul. Support pour s’assurer que tous les présentateurs rejoignent la réunion principale sera mise en place ultérieurement. L’organisateur sera toujours garanti dans la réunion principale.
 
 ## <a name="impact-to-meeting-presenters"></a>Impact sur les présentateurs de réunion
 
@@ -105,14 +105,11 @@ Le participant en lecture seule ne pourra pas utiliser ces options dans les réu
 - Rejoignez la salle en affichage seul à l’aide du système de salles Microsoft Teams ou des services Cloud Video Interop (CVI).
 - Partager leur contenu audio ou vidéo.
 - Consulter ou participer à la conversation de réunion.
-  - Les 1 000 premiers utilisateurs (ou 300 selon votre limite de réunion principale) invités à la réunion seront ajoutés à la conversation.
-  - Si les utilisateurs en affichage seul ne peuvent pas voir la conversation pendant la réunion, ils peuvent tout de même discuter dans l’application principale s’ils sont les 350 premiers invités.
-  - À l’inverse, si un utilisateur interactif ne faisait pas partie des 350 premiers utilisateurs invités à la réunion, il n’aura pas accès à la conversation de réunion à la fois dans l’application Teams principale et dans la réunion.
 - Consulter le flux vidéo des participants à la réunion, sauf si le participant est l’intervenant actif.
 - Consultez les fichiers PowerPoint partagés à l’aide de la fonctionnalité PowerPoint Live ou des partages d’application individuels (autres que le partage de Bureau ou d’écran).
 - Le lever la main dans la réunion.
 - Envoyer ou voir les réactions.
-- Interagissez avec une application 3P intégrée dans Teams Meeting, y compris les sondages.
+- Interagissez avec n’importe quelle application 3P intégrée à Teams Meeting, y compris les sondages.
 
 ## <a name="view-only-feature-limitations"></a>Limitations de la fonctionnalité lecture seule
 

@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: L’article suivant décrit la fonctionnalité Open Preview pour le réseau pour l’audioconférence.
-ms.openlocfilehash: 1ae61034ef083c89e14c67cef0effa1c105de758
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031860"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637836"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Aperçu de la conférence sur réseau pour l’audioconférence
 
-La prévisualisation ouverte de la conférence sur réseau est disponible pour tous les clients. Les conférences sur réseau permettent aux organisations d’envoyer des appels d’audioconférence entrants et sortants à des numéros de connexion Microsoft par le biais d’un routage direct. Cette fonctionnalité n’est pas destinée à étendre la prise en charge de l’audioconférence à des numéros d’accès tiers. La fonction de conférence sur réseau n’est pas prise en charge si elle est utilisée pour router les appels entrants vers le service d’audioconférence via des numéros de téléphone tiers.
+La prévisualisation ouverte de la conférence sur réseau est disponible pour tous les clients. Les conférences sur réseau permettent aux organisations d’envoyer des appels d’audioconférence entrants et sortants à des numéros de connexion Microsoft par le biais d’un routage direct. Cette fonctionnalité n’est pas destinée à étendre la prise en charge de l’audioconférence à des numéros d’accès tiers. La fonction de conférence sur réseau n’est pas prise en charge si elle est utilisée pour router les appels entrants vers le service d’audioconférence par le biais de numéros de téléphone d’accès tiers ou d’appels sortants vers le réseau PSTN à partir du pont de conférence audio Microsoft. 
 
 Cet article décrit les conditions préalables et les étapes de configuration requises pour activer la conférence sur réseau pour votre organisation.
 
@@ -45,13 +45,13 @@ Avant de configurer la conférence sur réseau, assurez-vous que votre organisat
 
 - Configurer le service d’audioconférence. Pour plus d’informations, [voir Configurer l’audioconférence pour Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
 
-- Configurer votre contrôleur de session border controller (SBC) pour le routage direct. Pour plus d’informations, [voir Planifier le routage direct et](direct-routing-plan.md) Configurer le [routage direct.](direct-routing-configure.md) 
+- Configurer votre contrôleur de session border controller (SBC) pour le routage direct. Pour plus d’informations, [voir Planifier le routage direct](direct-routing-plan.md) et Configurer le [routage direct.](direct-routing-configure.md) 
 
   Si vous configurationnez le routage direct uniquement dans le cadre de l’audioconférence, vous devez seulement effectuer l'« étape 1 : connecter votre SBC » pour les conférences sur réseau.
   
 ## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Activer le routage des appels d’accès vers l’audioconférence Microsoft par le biais du routage direct 
 
-Pour router les appels d’accès effectués par vos utilisateurs locaux vers le service d’audioconférence via un routage direct, vous devez configurer les règles de routage appropriées pour vos SBCs et vos PBX (Private Branch Exchange).
+Pour router les appels à composer effectués par vos utilisateurs locaux vers le service d’audioconférence via un routage direct, vous devez configurer des règles de routage appropriées pour vos SBCs et vos PBX(s).
 
 Vous devez configurer l’équipement téléphonique de vos sites pour router les appels vers n’importe quel numéro de service du pont de conférence de votre organisation via une ligne de routage direct.
 
@@ -62,7 +62,7 @@ Vous trouverez les numéros de service dans le Centre d’administration Teams s
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Activer le routage des appels sortants de réunion Teams via un routage direct
 
-Les appels sortants vers des réunions Teams sont lancés depuis une réunion de votre organisation vers des numéros PSTN, y compris les appels d’appel et les appels d’appel pour amener de nouveaux participants à une réunion. 
+Les appels d’appel sortant de réunion Teams sont lancés à partir d’une réunion de votre organisation vers des numéros PSTN, y compris les appels de participation à des appels et des appels pour amener de nouveaux participants à une réunion. 
 
 Pour activer le routage des appels sortants de réunion Teams via un routage direct vers les utilisateurs du réseau, vous devez créer et affecter une stratégie de routage audioconférence nommée « OnlineAudioConferencingRoutingPolicy ». 
 
@@ -77,7 +77,7 @@ La stratégie OnlineAudioConferencingRoutingPolicy équivaut à la stratégie Cs
 Pour plus d’informations sur le routage pour le routage direct, voir [Configurer le routage vocal pour le routage direct.](direct-routing-voice-routing.md)
 
 
-Pour permettre le routage des appels sortants de réunion via un routage direct, vous devez : 
+Pour activer le routage des appels sortants de réunion via un routage direct, vous devez : 
 
 - Configurer les stratégies de routage de l’audioconférence
 - Configurer le routage sur l’équipement téléphonique de votre organisation
@@ -87,12 +87,12 @@ Les appels sortants des réunions Teams sont issus du numéro de service par dé
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>Configurer les stratégies de routage de l’audioconférence
 
-La stratégie de routage de l’audioconférence OnlineAudioConferencingRoutingPolicy détermine les appels sortants de réunion acheminés vers des itinéraires de routage direct. Si vous êtes familiarisé avec la stratégie CsOnlineVoiceRoutingPolicy, cette stratégie fonctionne de façon très similaire.
+La stratégie de routage de l’audioconférence OnlineAudioConferencingRoutingPolicy détermine les appels sortants de réunion qui sont acheminés vers des itinéraires de routage direct. Si vous êtes familiarisé avec la stratégie CsOnlineVoiceRoutingPolicy, cette stratégie fonctionne de façon très similaire.
 
 Les étapes suivantes sont nécessaires pour configurer les stratégies de routage des audioconférences :
 1.  Créer des utilisations PSTN
 2.  Configurer les itinéraires vocables
-3.  Créer des stratégies de routage audioconférence
+3.  Créer des stratégies de routage audio de l’audioconférence
 4.  Affecter une stratégie à vos utilisateurs
 
 
@@ -160,11 +160,11 @@ Voici une liste des problèmes connus actuellement présents dans la version Ope
 | Problème | Solution de contournement |
 | :--- | :--- |
 | Les appels à composer avec des ID d’appelant anonymes/masqués qui sont acheminés via la conférence réseau ne peuvent pas être connectés à la réunion. | Si possible, définissez une configuration dans votre système PBX ou SBC pour toujours envoyer un ID d’appelant pour les appels acheminés via la conférence réseau.|
-| Dans certains cas, le message d’accueil adressé aux utilisateurs lorsqu’ils composent le numéro de téléphone pour se rendre au service ( « Bienvenue dans le service d’audioconférence... ») est tronqué et les utilisateurs n’entendent pas le mot « Bienvenue ».| Il n’existe aucune solution de contournement pour ce problème pour le moment. |
+| Dans certains cas, le message d’accueil adressé aux utilisateurs lorsqu’ils composent le numéro de téléphone pour se rendre au service « Bienvenue dans le service d’audioconférence... » est tronqué et les utilisateurs n’entendent pas le mot « Bienvenue ».| Il n’existe aucune solution de contournement pour ce problème pour le moment. |
 
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 

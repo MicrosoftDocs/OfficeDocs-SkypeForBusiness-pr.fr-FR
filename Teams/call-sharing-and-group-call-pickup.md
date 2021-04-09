@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Le partage d’appel et le regroupement d’appels de groupe permet aux utilisateurs de partager des appels entrants avec des collègues afin de pouvoir capturer les appels en cas d’indisponibilité de l’utilisateur.
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102790"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637826"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
@@ -43,7 +43,7 @@ Pour partager des appels avec d’autres personnes, un utilisateur crée un grou
 
 ## <a name="license-required"></a>Licence requise
 
-Les utilisateurs doivent être Voix Entreprise pour configurer et utiliser le partage d’appels et le regroupement d’appels. Pour plus d’informations sur le modèle de licence, consultez [la description du service Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
+Pour configurer et utiliser le partage d’appels et le récupérer des appels de groupe, les utilisateurs doivent avoir une licence Microsoft Teams Phone System. Pour plus d’informations sur le modèle de licence, consultez les obtenez [avec Phone System.](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 ## <a name="configure-group-call-pickup"></a>Configurer le regroupement d’appels de groupe
 
@@ -51,7 +51,7 @@ Pour configurer le regroupement d’appels de groupe, un utilisateur configure d
 
 Les préférences de création et de notification des groupes d’appels sont des fonctionnalités pilotées par l’utilisateur. administrateurs n’ont pas à configurer ces fonctionnalités pour leurs utilisateurs. Les groupes d’appels ne peuvent pas être créés à partir de groupes de sécurité ou de groupes Microsoft 365. ils doivent être créés dans Teams.
 
-Les administrateurs doivent activer les groupes d’appels via le paramètre **TeamsCallingPolicy AllowCallGroups** d’un utilisateur. Les administrateurs peuvent également l’activer via le portail d’administration Teams.  En outre, l’utilisateur configuré peut également configurer ses groupes d’appels via le client directement. Les administrateurs ou les utilisateurs finaux ne peuvent pas bloquer la configuration l’un par l’autre, mais le portail d’administration teams et le client Teams doivent afficher cette relation avec précision aux deux endroits. 
+Les administrateurs doivent activer les groupes d’appels via le paramètre **TeamsCallingPolicy AllowCallGroups** d’un utilisateur. Les administrateurs peuvent également l’activer via le portail d’administration Teams.  En outre, l’utilisateur configuré peut également configurer ses groupes d’appels via le client directement. Les administrateurs ou les utilisateurs finaux ne peuvent pas bloquer la configuration l’un par l’autre, mais le portail d’administration teams et le client Teams doivent montrer cette relation avec précision aux deux endroits. 
 
 Important : lorsque les administrateurs désactiver les groupes d’appels pour les utilisateurs (après l’avoir été désactivé et les relations de groupe d’appels sont configurées), les administrateurs doivent nettoyer les relations de groupe d’appels pour les utilisateurs dans le Centre d’administration Teams pour éviter un routage d’appel incorrect. 
 

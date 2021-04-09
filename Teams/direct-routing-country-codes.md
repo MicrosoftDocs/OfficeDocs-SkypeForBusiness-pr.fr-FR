@@ -17,24 +17,27 @@ f1.keywords:
 - NOCSH
 description: Lisez cet article pour identifier les codes de pays de chemin de médias pour le routage direct afin de sélectionner le chemin de médias optimal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904806"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648123"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
 
 Lorsque vous choisissez un itinéraire de routage pour le média, le routage direct affecte toujours par défaut un centre de données basé sur l’adresse IP publique du contrôleur de session en bordure (SBC), et sélectionne toujours le chemin le plus proche du centre de données SBC.
 
-Toutefois, dans certains cas, le chemin de médias par défaut peut ne pas être le chemin multimédia optimal . Par exemple, une adresse IP publique provenant d’une plage aux États-Unis peut être affectée à unbc SBC situé en Europe. 
+Toutefois, dans certains cas, le chemin de médias par défaut peut ne pas être le chemin de médias optimal . Par exemple, une adresse IP publique provenant d’une plage aux États-Unis peut être affectée à unbc SBC situé en Europe. 
 
 En utilisant le paramètre -MediaRelayRoutingLocationOverride avec les cmdlets New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway>, vous pouvez spécifier la région préférée pour le trafic de médias. Par exemple, la commande suivante indique que la région préférée est Allemagne :
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
 Notez que Microsoft recommande de définir ce paramètre uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin de médias n’utilise pas le chemin le plus proche du centre de données SBC. 
+
+> [!NOTE]
+> -MediaRelayRoutingLocationOverride - Cette commande n’est pas disponible dans les scénarios de routage direct.
  
 ## <a name="country-code-reference-table"></a>Table de référence des codes de pays
 
@@ -183,7 +186,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Malte           | MT |
 | Îles Marshall | MH |
 | Martinique      | MQ |
-| Algérie      | MR |
+| Desse      | MR |
 | Maurice       | MU |
 | Mayotte         | YT |
 | Mexique          | MX |
@@ -246,7 +249,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Sierra Leone    | SL | 
 | Singapour       | SG |
 | Sint Eustatius  | XE |
-| Saint-Maarten    | SX |
+| Saint-Martin    | SX |
 | Slovaquie        | SK |
 | Slovénie        | SL |
 | Îles Islands | SB |

@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093538"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637726"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
-Vous gérez l’accès à Teams au niveau de l’utilisateur en attribuant ou en supprimant une licence de produit Microsoft Teams. À l’exception de participer à des réunions Teams de manière anonyme, chaque utilisateur de votre organisation doit avoir une licence Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams pour les nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou pour les utilisateurs ayant des comptes existants.
+Vous gérez l’accès à Teams au niveau de l’utilisateur en attribuant ou en supprimant une licence de produit Microsoft Teams. Sauf pour rejoindre des réunions Teams de manière anonyme, chaque utilisateur de votre organisation doit avoir une licence Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams pour les nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou pour les utilisateurs ayant des comptes existants.
 
 Par défaut, lorsqu’un plan de gestion des licences (par exemple, Microsoft 365 Entreprise E3 ou Microsoft 365 Business Premium) est attribué à un utilisateur, une licence Teams est attribuée automatiquement et l’utilisateur est activé pour Teams. Vous pouvez désactiver ou activer Teams pour un utilisateur en supprimant ou en attribuant une licence à tout moment.
 
@@ -40,7 +40,7 @@ Vous gérez les licences Teams dans le Centre d’administration Microsoft 365 o
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Utilisation du Centre d’administration Microsoft 365
 
-Les licences teams au niveau utilisateur sont gérées directement via les interfaces de gestion des utilisateurs du Centre d’administration Microsoft 365. Un administrateur peut attribuer des licences aux nouveaux utilisateurs lors de la création de comptes d’utilisateurs, ou aux utilisateurs qui ont déjà des comptes. 
+Les licences utilisateur Teams sont gérées directement via les interfaces de gestion des utilisateurs du Centre d’administration Microsoft 365. Un administrateur peut attribuer des licences aux nouveaux utilisateurs lors de la création de comptes d’utilisateurs, ou aux utilisateurs qui ont déjà des comptes. 
 
 > [!IMPORTANT]
 > L’administrateur doit avoir des privilèges d’administrateur général ou d’administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
@@ -50,13 +50,16 @@ Si vous devez gérer les licences Teams pour un grand nombre d’utilisateurs(pa
 
 ### <a name="assign-a-teams-license"></a>Attribuer une licence Teams
 
-Les étapes diffèrent selon que vous utilisez la page **Licences** ou la page **Utilisateurs** actifs.  Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Les étapes diffèrent selon que vous utilisez la page Licences ou la **page** **Utilisateurs** actifs.  Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 |||
 |---------|---------|
 |![Capture d’écran de la licence Teams activée pour un utilisateur](media/assign-teams-licenses-1.png)    | ![Capture d’écran de la licence Teams activée pour un utilisateur](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Supprimer une licence Teams
+
+> [!IMPORTANT]
+> La désactivation d’une référence SKU Teams prend environ 24 heures.
 
 Lorsque vous supprimez la licence Teams d’un utilisateur, Teams est désactivé pour cet utilisateur et il ne verra plus Teams dans le lanceur d’applications ou la page d’accueil. Pour obtenir la procédure détaillée, voir [Désaffecter les licences des utilisateurs.](/microsoft-365/admin/manage/remove-licenses-from-users)
 

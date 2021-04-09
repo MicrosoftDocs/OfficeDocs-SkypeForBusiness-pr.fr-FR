@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506667"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637816"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -38,6 +38,11 @@ ms.locfileid: "51506667"
 |Déploiement incrémentiel à compter du 7 juillet 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et Cloud de la communauté du secteur public)**<br>Aucun nouvel enregistrement de réunion ne peut s’effectuer dans Microsoft Stream (Classique) ; tous les clients enregistrent automatiquement leurs réunions dans OneDrive Entreprise et SharePoint, même s’ils ont redéfini leur stratégie de réunion Teams sur Stream.<br><br> Nous recommandons aux clients, pour mieux contrôler la modification dans votre organisation, de s’y prendre à l’aise au lieu d’attendre qu’elle se produise. |
 
 Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
+
+> [!NOTE]
+> Si le téléchargement d’une réunion Teams sur OneDrive/SharePoint échoue, l’enregistrement est enregistré temporairement dans Azure Media Services (AMS). Une fois stocké dans AMS, aucune nouvelle tentative n’est faite pour charger automatiquement l’enregistrement sur OneDrive/SharePoint ou Stream.
+
+Les enregistrements de réunion stockés dans AMS sont disponibles pendant 21 jours avant d’être supprimés automatiquement. Les utilisateurs peuvent télécharger la vidéo à partir d’AMS s’ils ont besoin d’en conserver une copie.
 
 L’utilisation de OneDrive Entreprise et SharePoint pour le stockage d’enregistrements comporte notamment les avantages suivants :
 
@@ -63,29 +68,29 @@ Pour plus d’informations, regardez « Nouveautés des enregistrements de réun
 L’option d’enregistrement de la réunion est un paramètre au niveau de la stratégie Teams. L’exemple suivant montre comment définir la stratégie globale. Veillez à définir l’option d’enregistrement de la réunion pour les stratégies que vous avez affectées à vos utilisateurs.
 
 > [!Note]
-> La propagation des modifications de la stratégie de réunion Teams prend un certain temps. Consultez de nouveau le site après quelques heures de configuration, déconnectez-vous, puis reconnectez-vous.
+> La propagation des modifications de la stratégie de réunion Teams prend du temps. Vérifiez de nouveau après quelques heures de configuration, puis connectez-vous à l’application de bureau Teams ou redémarrez simplement votre ordinateur.
 
 1. Installez Teams PowerShell PowerShell.
 
    > [!NOTE]
    > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Gestion de Skype Entreprise Online avec PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
-1. Lancez PowerShell en tant qu’administrateur.
+2. Lancez PowerShell en tant qu’administrateur.
 
-2. Installer [le module Teams PowerShell.](./teams-powershell-install.md)
+3. Installer [le module Teams PowerShell.](./teams-powershell-install.md)
 
-3. Importez le module MicrosoftTeams et connectez-vous en tant qu’administrateur Teams.
+4. Importez le module MicrosoftTeams et connectez-vous en tant qu’administrateur Teams.
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. Utilisez [set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage Stream vers OneDrive Entreprise et SharePoint.
+5. Utilisez [set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) pour définir une stratégie de réunion Teams de transition du stockage Stream vers OneDrive Entreprise et SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -146,6 +151,10 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 
 - Pour les réunions de canal, les autorisations sont héritées de la liste des propriétaires et des membres dans le canal.
 
+> [!NOTE]
+> Vous ne recevrez pas d’e-mail à la fin de l’enregistrement, mais celui-ci s’affiche dans la conversation de réunion une fois qu’il est terminé. Cette situation se produit beaucoup plus rapidement que dans Stream auparavant.
+> Vous pouvez choisir les personnes avec lesquelles vous partagez l’enregistrement, mais vous ne pouvez pas empêcher les personnes ayant un accès partagé de télécharger l’enregistrement.  
+
 **Comment gérer les légendes ?**
 
 Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si l’utilisateur avait la transcription désactivée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
@@ -155,6 +164,9 @@ Les sous-titres permettent de créer du contenu accessible à tous les viewers, 
 Nous prenons en charge les sous-titres codés pour les enregistrements de réunion Teams pendant 60 jours à compter de la date d’enregistrement de la réunion.
 
 Nous ne prenons pas entièrement en charge les sous-titres codés si vous déplacez ou copiez l’enregistrement de réunion Teams depuis son emplacement d’origine sur OneDrive Entreprise ou SharePoint.
+
+> [!NOTE]
+> Il existera des sous-titres en anglais uniquement (la transcription des réunions n’est pas encore disponible dans le GCC).
 
 **Quel sera l’impact sur mon quota de stockage ?**
 
