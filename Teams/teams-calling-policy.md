@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162695"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653941"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 ===================================
@@ -38,7 +38,7 @@ Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation 
 
 Pour créer une stratégie d’appel personnalisée, suivez ces étapes.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, voir Stratégies  >  **d’appel vocal.**
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **Stratégies**  >  **d’appel vocal.**
 2. Sélectionnez **Ajouter**.
 3. Activer ou désactiver les fonctionnalités que vous souhaitez utiliser dans votre stratégie d’appel.
 4. Pour contrôler si les utilisateurs peuvent router les appels entrants vers la messagerie vocale, sélectionnez **Activé** ou **Utilisateur contrôlé.** Pour empêcher le routage vers la messagerie vocale, **sélectionnez Désactivé.**
@@ -90,11 +90,11 @@ Ce paramètre permet de router les appels entrants vers des délégués, ce qui 
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Empêcher la dérivation et l’envoi d’appels via le PSTN 
 
-La définition de ce paramètre sur **Ôter** envoie des appels via le réseau PSTN et facture des frais, plutôt que de les envoyer via le réseau sans passer par ces frais.
+La définition de ce paramètre sur **Ôter** envoie des appels via le réseau PSTN et incurver des frais au lieu de les envoyer via le réseau sans passer par les frais de téléphone gratuits.
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Occupé(elle) est disponible pendant un appel
 
-Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. Les appels entrants ou nouveaux peuvent être rejetés avec un signal occupé. Vous pouvez activer les options de occupé(ive) au niveau du client ou de l’utilisateur. Quelle que soit la configuration de leurs options de occupé, les utilisateurs d’un appel ou d’une conférence ou ceux avec un appel en attente ne sont pas empêchés de lancer de nouveaux appels ou conférences. Ce paramètre est désactivé par défaut.
+Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. Les appels entrants ou nouveaux peuvent être rejetés avec un signal occupé ou acheminés en conséquence vers les paramètres sans réponse de l’utilisateur. Vous pouvez activer les options de occupé(ive) au niveau du client ou de l’utilisateur. Quelle que soit la configuration de leurs options de occupé, les utilisateurs d’un appel ou d’une conférence ou ceux avec un appel en attente ne sont pas empêchés de lancer de nouveaux appels ou conférences. Ce paramètre est désactivé par défaut.
 
 ### <a name="allow-web-pstn-calling"></a>Autoriser les appels PSTN Web
 
@@ -104,7 +104,7 @@ Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide 
 
 Ce paramètre vous permet d’activer ou de désactiver l’attente musicale lorsqu’un appelant PSTN est mis en attente. Elle est désactivée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de parcage d’appel et de délégué de responsable et est actuellement disponible uniquement via PowerShell.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 

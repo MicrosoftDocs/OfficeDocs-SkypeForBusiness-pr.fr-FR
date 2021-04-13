@@ -17,28 +17,30 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions de désaffectation de Skype Entreprise Server.
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593886"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656690"
 ---
-# <a name="remove-your-on-premises-skype-for-business-deployment"></a>Supprimer votre déploiement Skype Entreprise local
+# <a name="remove-your-on-premises-skype-for-business-deployment"></a>Supprimez votre déploiement sur site de Skype pour entreprises.
 
-Cet article explique comment supprimer votre déploiement Skype Entreprise local. Il s’agit de l’étape 3 des étapes suivantes pour désaffecter votre environnement local :
+Cet article explique comment supprimer votre déploiement Skype Entreprise local. Il s’agit de l’étape 4 des étapes suivantes pour désaffecter votre environnement local :
 
-- Étape 1. [Déplacez tous les utilisateurs et points de terminaison d’application](decommission-move-on-prem-users.md)requis de l’local vers le site en ligne. 
+- Étape 1. [Déplacez tous les utilisateurs requis de l’local vers le site en ligne.](decommission-move-on-prem-users.md) 
 
 - Étape 2. [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
-- **Étape 3. Supprimez votre déploiement Skype Entreprise local.** (Cet article)
+- Étape 3. [Déplacer des points de terminaison d’application hybride de l’local vers le mode en ligne](decommission-move-on-prem-endpoints.md)
+
+- **Étape 4. Supprimez votre déploiement Skype Entreprise local.** (Cet article)
 
 
 > [!IMPORTANT] 
 > Les étapes décrites dans cet article s’appliquent uniquement si vous utilisez la méthode 2 pour gérer les attributs utilisateur, comme décrit [ici.](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) Si vous utilisez la méthode 1, n’utilisez pas les étapes décrites dans cet article pour supprimer vos serveurs Skype Entreprise. Au lieu de cela, vous pouvez ré-imager les serveurs.
 
-Pour effectuer les étapes de cet article, vous avez besoin de privilèges pour le groupe Administrateurs du schéma et le groupe Administrateurs de l’entreprise. Vous aurez besoin de ces privilèges pour annuler le schéma Skype Entreprise Server et les modifications au niveau de la forêt apportées aux services de domaine Active Directory. Vous devez également être membre du groupe RTCUniversalServerAdmins.
+Pour effectuer les étapes de cet article, vous avez besoin de privilèges pour le groupe Administrateurs du schéma et le groupe Administrateurs de l’entreprise. Vous aurez besoin de ces privilèges pour annuler les modifications apportées au schéma Skype Entreprise Server et au niveau de la forêt aux services de domaine Active Directory. Vous devez également être membre du groupe RTCUniversalServerAdmins.
 
 
 ## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Préparer la suppression du déploiement de Skype Entreprise
@@ -77,7 +79,7 @@ Utilisez les étapes ci-dessous pour nettoyer ces objets et assurez-vous que vou
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
    ```
-## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Supprimer votre déploiement Skype Entreprise local
+## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Supprimez votre déploiement sur site de Skype pour entreprises.
 
 Après avoir effectué toutes les étapes préliminaires, vous pouvez supprimer le déploiement de Skype Entreprise en suivant les étapes suivantes :
 
@@ -127,14 +129,13 @@ Après avoir effectué toutes les étapes préliminaires, vous pouvez supprimer 
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Désaffecter votre environnement Skype Entreprise local](decommission-on-prem-overview.md)
+- [Mise hors service de votre environnement Skype pour entreprises sur site](decommission-on-prem-overview.md)
 
-- [Déplacer les utilisateurs et les points de terminaison vers le cloud](decommission-move-on-prem-users.md)
+- [Déplacer tous les utilisateurs requis de l’local vers le site en ligne](decommission-move-on-prem-users.md)
 
 - [Désactiver votre configuration hybride](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [Déplacer des points de terminaison d’application hybride de l’local vers le mode en ligne](decommission-move-on-prem-endpoints.md)
 
 
 

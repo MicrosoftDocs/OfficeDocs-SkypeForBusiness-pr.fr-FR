@@ -3,7 +3,7 @@ title: Gérer les stratégies de commentaires dans Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: msedliak
+ms.reviewer: heprecel
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs de Teams dans votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: bc925320959c55b2fa06c8480f1011aab81aae9c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094264"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656720"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
@@ -41,9 +41,9 @@ Les utilisateurs peuvent nous envoyer des commentaires et des suggestions concer
 
 **Enquêtes**
 
-Les utilisateurs peuvent également évaluer leur expérience avec Teams et nous envoyer des détails sur l’évaluation qu’ils donnent. Cette enquête pop-up est affichée aux utilisateurs de temps à temps dans Teams. Lorsqu’un utilisateur clique sur **Fournir des commentaires** dans la notification, l’enquête est affichée pour lui.
+Les utilisateurs peuvent également évaluer leur expérience avec Teams et nous envoyer des détails sur l’évaluation qu’ils donnent. Cette enquête pop-up est affichée aux utilisateurs de temps à temps dans Teams. Lorsqu’un utilisateur sélectionne Fournir **des commentaires** dans la notification, l’enquête est affichée pour lui.
 
-![Capture d’écran de la notification et du formulaire d’enquête dans Teams](media/manage-feedback-policies-in-teams-survey.png)
+![Notification et formulaire d’enquête dans Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Définir si les utilisateurs peuvent envoyer des commentaires sur Teams à Microsoft
 
@@ -51,14 +51,15 @@ En tant qu’administrateur, vous pouvez contrôler si les utilisateurs de votre
 
 Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie personnalisée. Une fois que vous avez modifié la stratégie globale ou attribué une stratégie personnalisée, l’application des modifications peut prendre quelques heures.
 
-Par exemple, vous voulez autoriser tous les utilisateurs  de votre organisation à envoyer des commentaires via l’envoi de commentaires et la réception d’enquêtes à l’exception des nouvelles recrues en formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver à la fois les fonctionnalités et l’affecter à de nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la stratégie globale avec les fonctionnalités désactivées.  
+Par exemple, vous voulez autoriser tous les utilisateurs  de votre organisation à envoyer des commentaires via l’envoi de commentaires et la réception d’enquêtes, à l’exception des nouvelles recrues en formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver à la fois les fonctionnalités et l’affecter à de nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la stratégie globale avec les fonctionnalités désactivées.  
 
-Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez l’cmdlet **New-CsTeamsFeedbackPolicy,** qui est possible *ici, [](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* pour créer une stratégie personnalisée et l’cmdlet **Grant-CsTeamsFeedbackPolicy** pour l’affecter à un ou plusieurs utilisateurs ou groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution.
+Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez **l’cmdlet New-CsTeamsFeedbackPolicy,** qui est possible *ici, [](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* pour créer une stratégie personnalisée. Utilisez **l’cmdlet Grant-CsTeamsFeedbackPolicy** pour l’affecter à un ou plusieurs utilisateurs ou groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution. Utilisez **Set-CsTeamsFeedbackPolicy pour** définir des indicateurs spécifiques.
 
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
  - **Donnez des** commentaires : Définissez le  **paramètre userInitiatedMode** pour permettre aux utilisateurs affectés à la stratégie de faire part de leurs commentaires. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée n’ont pas la possibilité d’apporter des commentaires.
- - **Enquêtes**: définissez le **paramètre ReceiveSurveysMode** pour permettre aux utilisateurs affectés à la stratégie de recevoir l’enquête.  Pour que les utilisateurs reçoivent l’enquête et les autorisent à se désavertr, définissez le paramètre sur **enabledUserOverride.** Dans Teams, les utilisateurs peuvent ensuite se rendre dans **Paramètres** de confidentialité et choisir  >   s’ils souhaitent participer à des enquêtes. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée ne recevront pas l’enquête.
+ - **Enquêtes**: définissez le **paramètre ReceiveSurveysMode** pour permettre aux utilisateurs affectés à la stratégie de recevoir l’enquête.  Pour que les utilisateurs reçoivent l’enquête et les autorisent à se désavertr, définissez le paramètre sur **enabledUserOverride.** Dans Teams, les utilisateurs peuvent ensuite se rendre sur **Paramètres** de confidentialité et choisir  >   s’ils souhaitent participer à des enquêtes. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée ne recevront pas l’enquête.
+ - **E-mail**: utilisez **l’indicateur AllowEmailCollection** pour ajouter un champ de courrier.
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
 
@@ -78,7 +79,7 @@ Dans cet exemple, nous affectons une stratégie personnalisée nommée Stratégi
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)

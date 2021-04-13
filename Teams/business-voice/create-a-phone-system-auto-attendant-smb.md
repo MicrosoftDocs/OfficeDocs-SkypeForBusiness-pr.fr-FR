@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour Microsoft 365 Business Voice.
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506651"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656740"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurer un attendant automatique - Didacticiel pour les petites entreprises
 
@@ -62,9 +62,9 @@ Vous pouvez créer un compte de ressource dans le Centre d’administration Team
 
 4. Cliquez sur **Enregistrer**.
 
-Le nouveau compte apparaît dans la liste des comptes.
+    Le nouveau compte apparaît dans la liste des comptes.
 
-![Capture d’écran d’une liste des comptes de ressources](../media/resource-accounts-page.png)
+    ![Capture d’écran d’une liste des comptes de ressources](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Attribuer une licence
 
@@ -107,7 +107,7 @@ Pour configurer un attendant automatique
 
 4. Spécifiez le fuseau horaire de ce attendant automatique. Le fuseau horaire est utilisé pour calculer les heures d’ouverture si vous créez un flux d’appels distinct pour les heures de travail en de suite.
 
-5. Spécifiez une langue pour ce attendant automatique. Il s’agir de la langue qui sera utilisée pour les invites vocales générées par le système.
+5. Spécifiez une langue pour ce attendant automatique. Il s’agit de la langue qui sera utilisée pour les invites vocales générées par le système.
 
 6. Choisissez si vous voulez activer les entrées vocales. Lorsqu’elle est activée, le nom de chaque option de menu devient un mot clé de reconnaissance vocale. Par exemple, les appelants peuvent dire « Un » pour sélectionner l’option de menu mappée vers la touche 1, ou dire « Ventes » pour sélectionner l’option de menu appelée « Ventes ».
 
@@ -214,11 +214,11 @@ Votre employé automatique peut avoir un flux d’appels pour chaque jour féri�
 
 7. Cliquez sur **Enregistrer**.
 
-Répétez la procédure si nécessaire pour chaque jour férié supplémentaire.
-
-![Capture d’écran des paramètres de congés avec jours fériés répertoriés](../media/auto-attendant-holiday-call-settings.png)
-
-Une fois que vous avez ajouté tous vos jours fériés, cliquez sur **Suivant.**
+    Répétez la procédure si nécessaire pour chaque jour férié supplémentaire.
+    
+    ![Capture d’écran des paramètres de congés avec jours fériés répertoriés](../media/auto-attendant-holiday-call-settings.png)
+    
+    Une fois que vous avez ajouté tous vos jours fériés, cliquez sur **Suivant.**
 
 > [!div class="nextstepaction"]
 > [Étape 6 : choisir qui fait partir du répertoire >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ Tous les attendants automatiques doivent avoir un compte de ressource associé. 
 
 Pour ajouter un compte de ressource
 
-1. Cliquez **sur Ajouter un** compte et recherchez le compte à ajouter. Cliquez **sur** Ajouter, puis sur **Ajouter.**
+1. Cliquez **sur** Ajouter et recherchez le compte à ajouter. Cliquez **sur** Ajouter, puis sur **Ajouter.**
 
     ![Capture d’écran du panneau Ajouter des comptes du compte de ressources](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ Pour ajouter un compte de ressource
 
     ![Capture d’écran d’une liste de comptes de ressources affichant le compte de ressource avec le numéro de service affecté](../media/auto-attendant-resource-account-assigned.png)
 
-La configuration du attendant automatique est terminée.
+    La configuration du attendant automatique est terminée.
 
 ---
 
