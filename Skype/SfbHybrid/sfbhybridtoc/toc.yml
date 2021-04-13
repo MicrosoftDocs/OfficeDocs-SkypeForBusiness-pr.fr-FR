@@ -24,10 +24,12 @@
       items:
         - name: Vue d'ensemble
           href: ../hybrid/decommission-on-prem-overview.md
-        - name: Déplacer les utilisateurs et les points d'extrémité vers le cloud
+        - name: Déplacer des utilisateurs vers le cloud
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: Désactiver l'hybride pour achever la migration vers le cloud
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Déplacer les utilisateurs et les points d'extrémité vers le cloud
+          href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Supprimez votre déploiement sur site de Skype pour entreprises.
           href: ../hybrid/decommission-remove-on-prem.md
     - name: Déployer une topologie de forêt de ressources
