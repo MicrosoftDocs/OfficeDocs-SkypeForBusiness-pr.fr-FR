@@ -1470,6 +1470,14 @@ items:
     items:
       - name: Spécifications et limites de Teams
         href: limits-specifications-teams.md
+      - name: "Migration de Kaizala vers Microsoft\_Teams"
+        items:
+          - name: Kaizala et Microsoft Teams
+            items:
+              - name: Votre chemin d’accès vers Teams
+                href: prepare-for-teams.md
+                items:
+                  - name: Parcourir les fonctionnalités de Teams
       - name: Licences
         items:
           - name: "Gérer l’accès des utilisateurs à Microsoft\_Teams"

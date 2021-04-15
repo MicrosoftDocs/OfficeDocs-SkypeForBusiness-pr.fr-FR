@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586493"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697629"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -131,7 +131,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300. **Affichage seul** autorise jusqu’à 10 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour SKU E3/E5/A3/A5.<br>**Remarque :** pour Teams pour le secteur public (GCC, GCC High, DoD), la limite est de 250. Nous mettrons à jour cet article lorsque la limite du cloud pour le secteur public passera de 250 à 300 et qu’il prendra en charge le dépassement de capacité des réunions. En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300. **Affichage seul** autorise jusqu’à 10 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour SKU E3/E5/A3/A5 ainsi que pour le gouvernement (GCC, High GCC, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |

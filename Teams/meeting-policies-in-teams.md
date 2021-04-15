@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams.  Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles pour les participants à la réunion, pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617867"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712776"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -451,6 +451,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Autoriser les personnes anonymes à démarrer une réunion](#let-anonymous-people-start-a-meeting)
 - [Admettre les personnes automatiquement](#automatically-admit-people)
 - [Autoriser les utilisateurs entrants à éviter la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby)
+- [Autoriser les membres d’une équipe à ignorer la salle d'attente](#allow-team-members-to-bypass-the-lobby)
 - [Activer les légendes dynamiques](#enable-live-captions)
 - [Autoriser la conversation en réunion](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations approuvées (fédérées), les invités et les utilisateurs anonymes.     |
-|**Tous les membres de votre organisation et les organisations fédérées**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
-|**Tout le monde dans votre organisation**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, joignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.           |
+|**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs anonymes attendent dans la salle d’attente.   |
+|**Membres de mon organisation et invités**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, joignent directement la réunion sans attendre dans la salle d’attente. Les utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.           |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Toutes les autres personnes, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs des organisations approuvées et les utilisateurs anonymes, doivent attendre dans la salle d’attente.           |
+|**Membres de mon organisation**  |Les utilisateurs authentifiés au sein de l’organisation, à l’exclusion des utilisateurs invités, joignent directement la réunion sans attendre dans la salle d’attente. Des invités et des utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
@@ -488,6 +490,10 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les 
 
 > [!NOTE]
 > Si un utilisateur connecté rejoint une réunion avant qu'un utilisateur de l'organisation ne la rejoigne, il sera placé dans la salle d'attente jusqu'à ce qu'un utilisateur de l'organisation rejoigne la réunion à l'aide d'un client Teams et l'admette. Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>Autoriser les membres d’une équipe à ignorer la salle d'attente
+
+Les stratégies de réunion ont un paramètre permettant aux membres d’une équipe d’ignorer la salle d'attente de la réunion. Nous avons ajouté l’option EveryoneInCompanyExclingGuests pour que les membres de l’organisation ignorent la salle d'attente, mais excluent les utilisateurs invités de contourner la salle d'attente.
 
 ### <a name="enable-live-captions"></a>Activer les légendes dynamiques
 
@@ -516,7 +522,7 @@ Le paramètre **Qui peut présenter ?** permet aux organisateurs de réunions d
 
 Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
-Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’un des éléments suivants :
+Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’un des paramètres suivants :
 
 - **EveryoneUserOverride**: tous les participants à la réunion peuvent être présentateurs. Ceci est la valeur par défaut. Ce paramètre correspond au paramètre **Tout le monde** dans Teams.
 - **EveryoneInCompanyUserOverride** : les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **Contacts dans mon organisation** dans Teams.
