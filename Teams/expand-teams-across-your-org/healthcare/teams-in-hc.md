@@ -26,12 +26,12 @@ description: Découvrez les fonctionnalités de soins de santé telles que la t�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092682"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760597"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -140,7 +140,7 @@ Pour en savoir plus, consultez [Gérer l’application Listes pour votre organis
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Suivre et surveiller des tâches avec l’application Tâches
 
-Utilisez [Tâches](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) dans Teams pour effectuer le suivi de tâches pour l’ensemble de votre équipe de santé. Votre équipe de santé peut créer, attribuer et planifier des tâches, les catégoriser et mettre à jour leur état à tout moment, depuis n'importe quel appareil utilisant Teams.
+Utilisez [Tâches](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) dans Teams pour effectuer le suivi de tâches pour l’ensemble de votre équipe de santé. Votre équipe de santé peut créer, attribuer et planifier des tâches, les catégoriser et mettre à jour leur état à tout moment, depuis n'importe quel appareil utilisant Teams. Les professionnels de l’informatique et les administrateurs peuvent également publier des tâches dans des équipes spécifiques de votre organisation. Par exemple, vous pouvez publier un ensemble de tâches pour de nouveaux protocoles de sécurité ou une nouvelle étape supplémentaire à utiliser dans un hôpital.
 
 Pour en savoir plus, consultez [Gérer l’application Tasks pour votre organisation dans Microsoft Teams](../../manage-tasks-app.md)
 

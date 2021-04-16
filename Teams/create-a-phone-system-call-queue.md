@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer le système téléphonique pour les files d’attente des appels avec Microsoft Teams. Ce système inclut un message d’accueil, une musique de mise en attente, une redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
-ms.translationtype: HT
+ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450631"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760587"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -104,6 +104,9 @@ Le **mode conférence** réduit considérablement le temps nécessaire à la mis
   - la version 1449/1.0.94.2020051601 ou une version ultérieure du téléphone Microsoft Teams
   
 Les comptes Teams des agents doivent être définis sur le mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
+
+> [!NOTE]
+> Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 

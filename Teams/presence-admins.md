@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Découvrez les États de présence dans Teams et les paramètres administratifs de la fonctionnalité Présence.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: MT
+ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460554"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768413"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -52,7 +52,7 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et 
 || ![Un cercle violet avec une flèche indique Absent(e) du bureau](media/Presence_OOF.png) Absent(e) du bureau. Absent(e) du bureau est utilisé lorsque vous définissez une réponse automatique. (uniquement disponible dans Outlook). |
 |||
  > [!Note]
- > Pour les utilisateurs qui y sont hébergés sur site, il est prévu que des retards de présence avec un maximum d’une heure s’offrent à vous.
+ > Pour les utilisateurs dont la boîte aux lettres est hébergée sur site, des retards de présence sont prévus avec un maximum d’une heure.
 Les états de présence configurés par l’application sont basés sur l’activité des utilisateurs (Disponible, Absent), les états du calendrier Outlook (En réunion) ou l’état de l’application Teams (Au téléphone, En cours de présentation). Lorsque vous êtes en mode travail individuel en fonction de votre calendrier, **Travail individuel en cours** est l’état visible par des contacts dans Teams. Le mode travail individuel s’affiche en tant que **Ne pas déranger** dans d’autres produits.
 
 Votre état de présence actuel passe à Absent lorsque vous verrouillez votre ordinateur ou lorsque votre ordinateur entre en mode d’inactivité ou de veille. Sur un appareil mobile, le statut de présence passe à Absent lorsque l’application Teams est en arrière-plan.
