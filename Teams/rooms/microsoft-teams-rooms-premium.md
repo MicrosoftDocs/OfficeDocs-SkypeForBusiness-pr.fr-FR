@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur le service géré de Salles Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768433"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858017"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Service géré de Salles Microsoft Teams
 
@@ -38,7 +38,7 @@ Voici une vue d'ensemble des fonctionnalités du service géré de Salles Micros
 
 |Fonctionnalités  |Description  |
 |---------|---------|
-|**Planification et déploiement de salles**   |Fonctionnalités de planification de salle qui vous permettent de comprendre l'inventaire de votre équipement de salle et de prendre des décisions sur les normes d'équipement pour les nouveaux déploiements de salles.         |
+|**Planification et déploiement de salles**   |Fonctionnalités de planification de salle qui vous permettent de comprendre l'inventaire de votre équipement de salle et de prendre des décisions sur les normes d'équipement pour les déploiements de nouvelles salles.         |
 |**Analyse et résolution des problèmes**  |Surveillance de l'état des salles qui détecte les problèmes liés au système de salle et aux périphériques et fournit une réponse proactive à la gestion des incidents pilotée par Microsoft.         |
 |**Gestion des mises à jour**    |Gestion et distribution des mises à jour d'application et de microprogramme pour les systèmes de salle et leurs périphériques, effectuées par Microsoft.         |
 |**Recommandations et recommandations**     |Informations sur l'état du client, l'utilisation, l'utilisation et la fiabilité de l'équipement.         |
@@ -57,8 +57,8 @@ Voici un résumé des fonctionnalités importantes que le service géré de Sall
 |**Gestion des stocks**   |Suivi de l'inventaire des salles avec une option d'exportation en bloc qui répertorie les appareils de salle, les périphériques, les marque et les modèles.         |
 |**Inscriptions aux salles**   |Intégration facile avec l'inscription autonome des appareils de salle au service géré des salles Microsoft Teams.          |
 |**Administration des salles**     |Portail client pour les fonctionnalités de service gérées, les informations, les paramètres d'administration et la gestion de groupes de salles.         |
-|**Analyse**    |Surveillance de l'état des applications, système d'exploitation, périphériques et microprogrammes. Détection automatique d'incidents pour les problèmes affectant les expériences de réunion en raison de problèmes tels que l'état périphérique. Vue d'ensemble de l'ensemble de l'immobilier des salles et incidents via le portail de service géré de Microsoft Teams Rooms.|
-|**Résolution des problèmes et corrections**     |Diagnostics automatisés et correction automatique le cas échéant. Correction des incidents soC gérés par le service Salles Microsoft Teams pour les cas non automatisés. Intégration de Service Now à la coordination des incidents.         |
+|**Analyse**    |Surveillance de l'état des applications, système d'exploitation, périphériques et microprogrammes. Détection automatique d'incidents pour les problèmes affectant les expériences de réunion en raison de problèmes tels que l'état périphérique. Vue d'ensemble de l'ensemble de l'immobilier de la salle et des incidents via le portail de service géré de Microsoft Teams Rooms.|
+|**Résolution des problèmes et corrections**     |Diagnostics automatisés et correction automatique, le cas échéant. Correction des incidents gérés par le service soC de Microsoft Teams Rooms pour les cas non automatisés. Intégration de Service Now pour la coordination des incidents.         |
 |**Gestion des mises à jour**   |Application de réunion automatisée et mise à jour du microprogramme en fonction des anneaux de déploiement configurables par le client         |
 |**Recommandations et recommandations**   |Utilisation, incidents, état et rapports globaux (affichages historiques)         |
 
@@ -85,13 +85,13 @@ Le service géré salles Microsoft Teams est pris en charge par le biais d'un se
 |**Redirection vers le Support Microsoft plus large**   |Les problèmes liés à un autre produit Microsoft hors du champ d'application du service géré salles Microsoft Teams sont dirigés vers l'équipe de support technique appropriée.         |
 |**Redirection vers le support OEM (Original Equipment Manufacturer)**    |Le service géré salles Microsoft Teams SOC travaille à comprendre le problème et, le cas échéant, à coordonner le support avec le OEM. Dans certains cas, il vous sera peut-être responsable d'impliquer directement votre OEM.         |
 
-En outre, n'oubliez pas que le service soC géré de Microsoft Teams Rooms peut aider les opérations itaux dans votre organisation et ne remplace pas les services de service d'assistance pour vos utilisateurs finaux.
+En outre, gardez à l'esprit que le service SOC géré de Microsoft Teams Rooms peut aider les opérations itaux dans votre organisation et ne remplace pas les services de service d'assistance pour vos utilisateurs finaux.
 
 Pour plus d'informations sur la couverture du support du service géré dans Salles Microsoft Teams, voir Inclusions et [exclusions du support.](#support-inclusions-and-exclusions)
 
 ## <a name="supported-regions"></a>Régions prise en charge
 
-Le service géré Salles Microsoft Teams est disponible dans tous les pays et régions où Microsoft 365 est disponible. Pour obtenir la liste complète des pays et régions, consultez la disponibilité internationale de [Microsoft 365.](https://www.microsoft.com/microsoft-365/business/international-availability)
+La licence Microsoft Teams Rooms Premium est disponible dans tous les pays et régions où Microsoft 365 est disponible. Pour obtenir la liste complète des pays et régions, consultez la disponibilité internationale de [Microsoft 365.](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>Prise en charge des inclusions et exclusions
 
@@ -117,7 +117,7 @@ Le service géré Salles Microsoft Teams est disponible dans tous les pays et r�
 
 Le service géré Salles Microsoft Teams surveille les appareils, collecte les données des appareils et permet à Microsoft d'accéder à distance aux appareils des salles et de les gérer. Le service géré salles Microsoft Teams n'accède pas au contenu en direct d'une réunion.
 
-Les données collectées sont spécifiques à un compte de salle, et non à un utilisateur individuel. Les références incidentes à un utilisateur individuel peuvent être présentes dans le journal d'activité pendant l'utilisation de l'appareil. Les données collectées sont traitées par Microsoft conformément à la [Déclaration de confidentialité de Microsoft.](https://aka.ms/privacy)  
+Les données collectées sont spécifiques à un compte de salle et non à un utilisateur individuel. Les références incidentes à un utilisateur individuel peuvent être présentes dans le journal d'activité pendant l'utilisation de l'appareil. Les données collectées sont traitées par Microsoft conformément à la [Déclaration de confidentialité de Microsoft.](https://aka.ms/privacy)  
 
 ## <a name="related-topics"></a>Sujets associés
 
