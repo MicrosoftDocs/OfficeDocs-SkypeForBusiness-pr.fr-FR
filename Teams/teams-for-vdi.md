@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858047"
+ms.locfileid: "51874470"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -395,7 +395,7 @@ Les fonctionnalités d'appel et de réunion suivantes ne sont pas pris en charge
 - File d’attente d’appels
 - Son système/ordinateur partagé
 - Contournement de média pour le routage Direct
-- Zoom avant sur le contenu partagé
+- Commande Zoom 
 
 > [!NOTE]
 > Nous travaillons à l’ajout de fonctionnalités d’appel et de réunion qui sont actuellement disponibles uniquement dans les environnements non VDI. Ceux-ci peuvent inclure un contrôle plus administratif sur la qualité, des scénarios de partage d’écran supplémentaires et des fonctionnalités avancées récemment ajoutées à Teams. Contactez votre représentant Teams pour en savoir plus sur les fonctionnalités à venir.

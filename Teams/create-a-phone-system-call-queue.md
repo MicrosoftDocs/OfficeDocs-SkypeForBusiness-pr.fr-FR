@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer le système téléphonique pour les files d’attente des appels avec Microsoft Teams. Ce système inclut un message d’accueil, une musique de mise en attente, une redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760587"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874450"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -80,6 +80,11 @@ Examinez les [conditions d’ajout des agents à une file d’attente ](plan-aut
 Vous pouvez ajouter jusqu’à 200 agents via un canal Teams.
 
 Si vous voulez [utiliser un canal Teams pour gérer la file d’attente](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), sélectionnez l’option **Sélectionner une équipe**, puis cliquez sur **Ajouter un canal**. Recherchez l’équipe à utiliser, sélectionnez-la, puis cliquez sur **Ajouter**. Sélectionnez le canal à utiliser, puis cliquez sur **Appliquer**.
+
+Les clients suivants sont pris en charge lors de l’utilisation d’un canal Teams pour les files d’attente d’appels : 
+
+  - Client Windows Microsoft Teams
+  - Client Microsoft Teams pour Mac
 
 ##### <a name="users-and-groups"></a>Utilisateurs et groupes
 
