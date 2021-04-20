@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams et les visites virtuelles avec l’application Bookings
-ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
+ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598603"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51891261"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles dans Microsoft Teams et l’application Bookings
 
@@ -41,7 +41,7 @@ Les planificateurs peuvent gérer plusieurs calendriers des services et du perso
 
 - Microsoft Bookings doit être désactivé pour l’organisation.
 
-- Les utilisateurs doivent avoir une licence appropriée. Office 365 A3, A5, E3 et E5, ainsi que Office 365 Business Premium, A3, A5, E3 et E5 sont pris en charge.
+- Les utilisateurs doivent avoir une licence appropriée. Office 365 A3, A5, E3 et E5, ainsi que Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 et E5 sont pris en charge.
 
 - Tous les utilisateurs de l’application Bookings et tous les membres du personnel participant aux réunions doivent avoir une licence qui prend en charge la planification de réunions Teams.
 

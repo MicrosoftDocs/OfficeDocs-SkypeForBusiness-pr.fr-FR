@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 758907a284afc7ab4ec4f172eee10c82ce456d61
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768443"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886713"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Appareils certifiés Microsoft Teams
 
@@ -44,9 +44,10 @@ Les appareils suivants sont certifiés dans le cadre du Programme de certificati
 
 |Modèle d’appareil                         | Version du microprogramme                                                                                                                                                                                                                           | Date de publication
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes C470HD                      | 1.8.293                                                  | Janvier 2021                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0,225                                       | Mars 2019                   |
-| Codes audio C448HD (mode Cap uniquement)      | C450HD_TEAMS_0,225                                       | Mars 2019                   |
+| AudioCodes C435HD                      | 1.12.33                                                  | Avril 2021                 |
+| AudioCodes C470HD                      | 1.8.293                                                  | Janvier 2021                 |
+| AudioCodes C450HD                      | C450HD_TEAMS_0,225                                       | Mars 2019                   |
+| AudioCodes C448HD (mode Cap uniquement)      | C450HD_TEAMS_0,225                                       | Mars 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | Juillet 2020                    |
 | Crestron M100                          | Ce produit a été arrêté. Pour plus d'informations, visitez Le site web de [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) sur le site web de Crestron. | Arrêté (11/05/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | Ce produit a été arrêté. Pour plus d'informations, visitez [le téléphone UC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) sur le site web de Crestron.                  | Arrêté (11/05/2020) |
@@ -71,13 +72,13 @@ Les appareils suivants sont certifiés sous Salles Microsoft Teams sur le progra
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  | Taille de la salle                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
+| Barre de réunions Yealink A30       | 133.15.0.52    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
 | Console tactile CTP18 Yealink  | 137.15.0.28    | Mars 2021 | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 |
 | Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Poly Studio X30         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
-| Poly Studio X50         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
+| Poly Studio X50         | 3.1.1.216109     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Poly TC8                | 3.3.2.210441     | Mars 2021    | Compatible avec Poly Studio X30 et Poly Studio X50 |
-| Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
+| Yealink VC210           | 118.15.0.14      | Février 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 
 ## <a name="currently-certified-teams-displays"></a>Affichages teams actuellement certifiés
 
@@ -115,7 +116,7 @@ Voici les dernières versions du microprogramme et de l’application pour tél�
 
 Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l'application Microsoft Teams, du portail d'entreprise et de l'agent d'administration. Recherchez la version du produit dans la **colonne de** publication du produit inclus, puis recherchez la version du produit dans le tableau versions **précédentes des applications.**
 
-| Modèle d’appareil        | Version du microprogramme     | Version de produit incluse  |
+| Modèle d'appareil        | Version du microprogramme     | Version de produit incluse  |
 |:--------------------|:---------------------|:-------------------------|
 | PolySoin C60   | 7.0.2.1071  | Mise à jour pour 2021 #1                        |
 | CCX400/CCX500/CCX600   | 7.0.2.1072  | Mise à jour pour 2021 #1                 |
@@ -149,7 +150,6 @@ Voici les dernières salles Teams sur l'application Android et les versions de m
 
 | Version de produit| Date de publication | Version de l'application Microsoft Teams | Version du portail d'entreprise | Version de l'agent d'administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Mise à jour pour 2021 #1  |7 avril 2021  |1449/1.0.96.2021020902(Yealink VC210)  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Mise à jour pour 2021 #1  |5 avril 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Mise à jour pour 2020 #3  |24 novembre 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
 | Mise à jour pour 2020 #2  | 24 août 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
@@ -171,7 +171,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 ### <a name="product-release-information-for-teams-displays"></a>Informations de publication de produit pour les affichages Teams
 
-Voici les dernières versions de Microsoft Teams Pour l'application et le microprogramme.
+Voici les dernières versions de l'application et du microprogramme de Microsoft Teams.
 
 #### <a name="app-versions"></a>Versions des applications
 
