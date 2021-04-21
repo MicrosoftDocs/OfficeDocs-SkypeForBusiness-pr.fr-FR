@@ -2,7 +2,7 @@
 title: Disponibilité des applications Approbations dans Teams
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103010"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902568"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -40,6 +40,9 @@ La première approbation créée à partir de l’application Approbations décl
 
 Cet article décrit la exigences et les rôles de l’application Approbations.
 
+> [!NOTE]
+> Cette fonctionnalité n’a pas encore été publiée pour les utilisateurs de Government Community Cloud (GCC), Government Community Cloud High (GCCH) et Department of Defense (DOD).
+
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
 Pour utiliser l’application Approbations, vous devez avoir une autorisation pour les éléments suivants :
@@ -54,7 +57,7 @@ Pour utiliser l’application Approbations, vous devez avoir une autorisation po
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 
-Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il s'agit d'un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et ses partenaires, qui permettent d'assurer la cohérence des données et de leur signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
+Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il se compose d’un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et nos partenaires, qui permet la cohérence des données et leur signification au sein des applications et des processus d’entreprise. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 

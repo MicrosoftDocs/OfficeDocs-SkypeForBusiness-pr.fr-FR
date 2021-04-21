@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697799"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899115"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -33,14 +33,14 @@ ms.locfileid: "51697799"
 
 Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte (lorsque 300 utilisateurs participent à une réunion), d'autres participants la rejoignent avec une expérience de vue seule.
 
-Les participants qui rejoignent la réunion en premier, jusqu'à la capacité de la réunion principale, auront accès à l'expérience complète des réunions Teams. Ils peuvent partager des fichiers audio et vidéo, voir des vidéos partagées et participer à une conversation de réunion.
+Les participants qui rejoignent la réunion en premier, jusqu'à la capacité de la réunion principale, auront accès à l'expérience complète de la réunion Teams. Ils peuvent partager des fichiers audio et vidéo, voir des vidéos partagées et participer à une conversation de réunion.
 
 Les participants qui rejoignent la réunion après la limite de la capacité de la réunion principale, ont une expérience en lecture seule.
 
 Les participants pourront rejoindre l'expérience d'affichage seul via le Bureau, le Web et Teams Mobile (Android et iOS).
 
 > [!Note]
-> La capacité limite actuelle de la « réunion principale », c'est-à-dire le nombre d'utilisateurs entièrement interactifs, est de 300 dans WW et 250 dans GCC, GCC High et DoD.
+> La capacité limite actuelle de la « réunion principale », c'est-à-dire le nombre d'utilisateurs entièrement interactifs, est de 300.
 
 ## <a name="teams-view-only-experience-controls"></a>Contrôles d'expérience en affichage seul dans Teams
 
@@ -81,7 +81,7 @@ Si les rôles de présentateur et de participant ont été définies et qu'un pr
 
 ## <a name="impact-to-meeting-presenters-and-organizers"></a>Impact sur les présentateurs et organisateurs de réunion
 
-Les limitations qui s’appliquent aux présentateurs et aux organisateurs de réunion sont les suivantes :
+Les limitations qui s'appliquent aux présentateurs et aux organisateurs de réunion sont les suivantes :
 
 - Vous n’avez aucune information sur le participant en lecture seule. La découverte électronique n’est pas prise en charge pour les participants en lecture seule.
 - Les utilisateurs de la réunion principale ne peuvent pas voir les participants en affichage seul.
