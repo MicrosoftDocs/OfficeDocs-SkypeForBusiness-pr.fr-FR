@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
-ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
+ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51886713"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948650"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Appareils certifiés Microsoft Teams
 
@@ -72,6 +72,7 @@ Les appareils suivants sont certifiés sous Salles Microsoft Teams sur le progra
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  | Taille de la salle                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| CESSEURS DÉVELOPPENT VISION 3T       | 1.2.0.21102.03    | Avril 2021 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Barre de réunions Yealink A30       | 133.15.0.52    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
 | Console tactile CTP18 Yealink  | 137.15.0.28    | Mars 2021 | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 |
 | Barre de réunions Yealink A20  | 133.15.0.19      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |

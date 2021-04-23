@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Les administrateurs peuvent en savoir plus sur les contrôleurs de session en bordure certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 99684ef9e3a86fed267d57a2d5482f45dabfe176
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697699"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948670"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -32,7 +32,7 @@ Microsoft établit des partenariats avec certains fournisseurs de contrôleurs S
 Microsoft collabore avec chaque fournisseur pour :
 
 - Travaillez conjointement sur les protocoles d'interconnexion SIP.
-- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les périphériques qui ont réussi les tests sont certifiés. 
+- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les appareils qui ont réussi les tests sont certifiés. 
 - Exécutez des tests quotidiens avec tous les périphériques certifiés dans les environnements de production et de pré-production. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés. 
 - Établissez un processus de support conjointe avec les fournisseurs SBC.
 
@@ -74,7 +74,7 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Prise en charge 3.20 (recommandé 4.0)        |  <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés des séries 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
-|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs De services intégrés de série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     Cisco Unified Border Element (CUBE) pour routeur Cloud Services de série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Cisco Unified Border Element (CUBE) pour les routeurs Aggregation Services de série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                                 |     Cisco Unified Border Element (CUBE) pour Les plateformes Edge de Cisco 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [Routage de l'emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Passerelle d'urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
@@ -107,7 +107,11 @@ Le tableau suivant répertorie les appareils dont l'interopérabilité est véri
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 Software Version 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Logiciel VME version 8.3.0.1.2 |     &#10004;     |
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode avec GXW42xx Grandstream (V1.0.7.10) |     &#10004;     |
-  | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Adaptateur de téléphone analogique à plusieursplats |     &#10004;     |
+  | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Adaptateur de téléphone analogique à plusieurs plaques |     &#10004;     |
   
 Pour nous faire part de commentaires sur Teams, par exemple des idées de nouvelles fonctionnalités, consultez [UserVoice.](https://microsoftteams.uservoice.com)
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 Notez la certification accordée à une version majeure. Cela signifie que le microprogramme dont le numéro se trouve dans le microprogramme SBC suivant la version principale est pris en charge.
