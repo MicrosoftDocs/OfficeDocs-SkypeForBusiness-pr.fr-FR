@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768383"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899085"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -40,12 +40,11 @@ Si vous avez déjà [optimisé votre réseau pour Microsoft 365 ou Office 365]
     |[Adresses IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, et <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > Si vous devez fédérer avec Skype Entreprise (en local ou en ligne), vous devez configurer d’autres enregistrements DNS.
+    > Si vous devez vous fédérer avec Skype pour les entreprises, sur site ou en ligne, vous devrez configurer un enregistrement DNS supplémentaire.
     >
-    >|Enregistrements CNAME / Nom d’hôte  |Durée de vie  |Points vers l’adresse ou la valeur  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|Enregistrement DNS  |Service  |Protocol (Protocole)  |Priority (Priorité)  |Weight (Poids)  |Port  |Target (Cible)  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Avez-vous un domaine vérifié pour Microsoft 365 ou Office 365 (par exemple, contoso.com) ?
     
@@ -85,8 +84,8 @@ Pour une discussion détaillée sur l’optimisation du réseau, ainsi que des i
 <table>
 <thead>
 <tr class="header">
-<th><strong>Tâche d’optimisation du réseau</strong></th>
-<th><strong>Détails</strong></th>
+<th>Tâche d'optimisation du réseau</th>
+<th>Détails</th>
 </tr>
 </thead>
 <tbody>
