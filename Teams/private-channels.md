@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: e95277fab2c0813d94cf93aa4c1b207e3b06b46a
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
+ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768393"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "51959481"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -74,14 +74,14 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 |Action  |Propriétaire d’une équipe|Membre de l’équipe|Invité de l’équipe|Propriétaire du canal privé|Membre du canal privé|Invité du canal privé|
 |---------|---------|---------|---------|---------|---------|---------|
-|Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|N/A|S/O|
+|Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|S/O|S/O|S/O|
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
-|Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
+|Quitter un canal privé|S/O|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Modifier un canal privé|Non|S/O|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
-|Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
-|Modifier les paramètres|Non|N/A|N/A|Oui|Non|Non|
-|Gérer les onglets et les applications|Non|N/A|S/O|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
+|Ajouter des membres|Non|S/O|N/A|Oui|Non|Non|
+|Modifier les paramètres|Non|S/O|N/A|Oui|Non|Non|
+|Gérer les onglets et les applications|Non|S/O|S/O|Oui, les applications doivent être installées pour l’équipe|Contrôlé par le propriétaire du canal|Non|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Gérer le cycle de vie des canaux privés
 
@@ -89,7 +89,7 @@ Vous pouvez consultez l’article [Gérer le cycle de vie des canaux privés dan
 
 ## <a name="private-channel-sharepoint-sites"></a>Canal privé des sites SharePoint
 
-Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise à garantir que l’accès aux fichiers de canaux privés est limité aux seuls membres du canal privé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph.
+Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise à garantir que l’accès aux fichiers de canaux privés est limité aux seuls membres du canal privé. Ces sites sont créées avec une bibliothèque de documents par défaut, et peuvent être facilement améliorés et transformés en site complet via l’[interface de gestion de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque site est créé dans la même zone géographique que le site de l’équipe parente. Ces sites légers ont un ID de modèle personnalisé, « TEAMCHANNEL#0 », pour simplifier la gestion via PowerShell et l’API Graph. Remarque : les sites SharePoint des canaux privés ne sont pas inclus dans la page Sites actifs du nouveau Centre d'administration SharePoint.
 
 Un site de canaux privés synchronise la classification des données et hérite des autorisations d’accès invité du site de l’équipe parente. L’adhésion au propriétaire du site et aux groupes de membres, est synchronisée avec l’adhésion au canal privé au sein de Teams. Toutes les modifications apportées à l’appartenance aux groupes Propriétaire ou Membre dans SharePoint seront automatiquement converties en appartenance à un canal privé dans les quatre heures. Si certains utilisateurs ont besoin d’accéder à des documents sans avoir besoin d’accéder aux messages de canal privé, ajoutez-les au groupe visiteurs sur le site ou à un nouveau groupe séparé des propriétaires et des membres.
 
