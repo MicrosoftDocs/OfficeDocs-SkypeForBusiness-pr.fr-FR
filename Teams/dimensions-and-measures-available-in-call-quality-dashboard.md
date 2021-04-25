@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
-ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
+ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880453"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995302"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -407,16 +407,18 @@ Les informations sur les dimensions sont basées en partie sur les données tél
 | Is Anonymous Join Session  | Boléen  | Vrai si l'utilisateur ayant rejoint la conférence était anonyme, sinon, faux.   | &bull; Aucune donnée pour déterminer si l'utilisateur était anonyme ou non   |
 | Has Media Diagnostic Blob  | Boléen  | Vrai si la session comprenait des données de diagnostic multimédias, sinon, faux.   | &bull; Certaines données de signalisation n'ont pas été collectées pour ce flux   |
 | Call Setup Failure Reason  | Énumération  | Classification des causes de l'impossibilité d'établir de connexion multimédia pour un appel. <br/>**Valeurs possibles :** <br/> **Règle d'exemption d'inspection** approfondie des paquets FW manquante (indique qu'il est probable que l'équipement réseau le long du chemin d'accès a empêché l'établir à cause des règles d'inspection approfondie des paquets. Cela peut être dû à des règles de proxy ou de pare-feu mal configurées.) <br/> **Règle d'exemption de** bloc IP FW manquante (indique qu'il est probable que l'équipement réseau le long du chemin d'accès a empêché l'établie du chemin de médias vers le réseau Office 365. Cela peut être dû à des règles de proxy ou de pare-feu mal configurées pour autoriser l'accès aux adresses IP et aux ports utilisés pour le trafic de Skype Entreprise.) <br/> **Autre** (indique que le chemin de médias de l'appel n'a pas pu être établi, mais que la cause racine n'a pas pu être classée). <br/> Pas échec multimédia - Indique qu'aucun problème n'a été détecté au sujet de l'établissement du chemin de médias.  | &bull; Échec de la mise en appel en raison d'un problème de média inconnu  |
+| Session Type  | Énumération <br/>**Valeurs possibles :** <br/> Conf, P2P  | Indique si le type de session d'appel était un scénario de réunion (conférence) ou d'appel P2P. <br/> **Exemple de valeur :** Conf | |
+| CDR Response Reason  | Énumération <br/>**Valeurs possibles :** <br/> 0 ou 200 = « OK » <br/> 410 = « MediaConnectivityErrors »<br/> 480 = « UserUnavailable »<br/> 487 = « PickupTimedOut » <br/> 603 = « CallDeclined » | Tous les autres codes de CDR = « Autres » | Fournit la raison pour laquelle une session d'appel se termine, si l'appel a réussi ou non, et permet la différentiation entre les appels incomplets (aucune réponse, occupé(e), refusé) et les appels en échec (multimédia). <br/> **Exemple de valeur :** Bien | <br/>&bull; Une valeur « Autre » indique que le code de réponse n'est pas utile de façon diagnostic en dehors des équipes d'ingénieurs de Microsoft |
 |**DNS**|||
 | Cache de résolution DNS utilisé  | Boléen  | Vrai si le point de terminaison a utilisé un cache DNS pour résoudre une adresse de serveur relais multimédia, sinon, faux.    | <br/>&bull; Ces données n'ont pas été signalées par le point de terminaison    |
 |**UserData**| |||
 | First User ObjectId|String|ID d'objet Active Directory de l'utilisateur du premier point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l'accès EUII.  | |
-| Second User ObjectId|String|ID d’objet Active Directory du deuxième utilisateur du point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII. | |
+| Second User ObjectId|String|ID d'objet Active Directory du deuxième utilisateur du point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l'accès EUII. | |
 | First MAC Address|String|Adresse de contrôle d’accès multimédia (MAC) du premier périphérique réseau du point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.| |
 | Second MAC Address|String|Adresse de contrôle d’accès multimédia (MAC) du deuxième périphérique réseau du deuxième point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.| |
 | First Sip Uri|String|URI SIP (Session Initiation Protocol) du premier utilisateur du point de terminaison. Remplie uniquement pour les points de terminaison Skype Entreprise. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.|
 | Second Sip Uri|String|URI SIP du premier utilisateur du point de terminaison. Remplie uniquement pour les points de terminaison Skype Entreprise. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.|
-| Premier numéro de téléphone|String|Numéro de téléphone de l’utilisateur du premier point de terminaison. Remplie uniquement pour les points de terminaison PSTN. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l'accès EUII.|
+| Premier numéro de téléphone|String|Numéro de téléphone de l’utilisateur du premier point de terminaison. Remplie uniquement pour les points de terminaison PSTN. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l’accès EUII.|
 | Second Phone Number|String|Numéro de téléphone du deuxième utilisateur du point de terminaison. Remplie uniquement pour les points de terminaison PSTN. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l'accès EUII.|
 | First UPN|String|Nom d'utilisateur principal (UPN) du premier utilisateur du point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l'accès EUII.|
 | Second UPN|String|Nom d'utilisateur principal (UPN) du deuxième utilisateur du point de terminaison. Uniquement disponible pour les 28 derniers jours de données et visible uniquement aux utilisateurs ayant des rôles permettant l'accès EUII.| <br/>&bull; Tous les userTypes n'ont pas de nom d'utilisateur utilisateur (UPN) ; inclure les dimensions Second UserType ou Second User ObjectId pour en savoir plus sur ces points de terminaison |
@@ -606,13 +608,13 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 |Avg First Echo Percent Send |Pourcentage |Pourcentage moyen du temps du flux pour lequel les premiers points de terminaison ont détecté un écho dans l'audio capturé par un micro ou un autre périphérique après la suppression de l'écho. |
 |Avg Second Echo Percent Send |Pourcentage |Pourcentage moyen du temps du flux pour lequel les deuxièmes points de terminaison ont détecté un écho dans l'audio capturé par un micro ou un autre périphérique après la suppression de l'écho. |
 | Avg First Initial Signal Level RMS| Plage (décibels) |Moyenne du carré racine-moyenne (RMS) du signal reçu pendant les 30 premières secondes de l'appel pour le premier point de terminaison.  Voir [2.2.1.28.1 Éléments enfants](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) pour plus d'informations|
-| Avg Second Initial Signal Level RMS|Plage (décibels) |Moyenne du carré racine-moyenne (RMS) du signal reçu pendant les 30 premières secondes de l’appel pour le deuxième point de terminaison.||
+| Avg Second Initial Signal Level RMS|Plage (décibels) |Moyenne du carré racine-moyenne (RMS) du signal reçu pendant les 30 premières secondes de l'appel pour le deuxième point de terminaison.||
 | Avg First RxAGC Signal Level|Plage (décibels)  |Niveau de signal moyen reçu au niveau de gain automatique pour le premier flux audio entrant. | |
 | Avg Second RxAGC Signal Level|Plage (décibels) |Niveau de signal moyen reçu au niveau de gain automatique pour le deuxième flux audio entrant.| |
 | Avg First RxAGC Noise Level|Plage (décibels) |Niveau moyen de bruit reçu au niveau de gain automatique pour le premier flux audio entrant.||
 | Avg Second RxAGC Noise Level|Plage (décibels) |Niveau moyen de bruit reçu au niveau de gain automatique pour le deuxième flux audio entrant.| |
-| Avg First Render Loopback Signal Level|Plage (décibels) | Niveau moyen du premier signal de boucle de haut-parleur (après application d’un effet de rechargement de l’appareil).|
-| Avg Second Render Loopback Signal Level|Plage (décibels) | Niveau moyen du deuxième signal de boucle de haut-parleur (après application d’un effet de rechargement de l’appareil).|
+| Avg First Render Loopback Signal Level|Plage (décibels) | Niveau moyen du premier signal de boucle de haut-parleur (après application d'un effet de rechargement de l'appareil).|
+| Avg Second Render Loopback Signal Level|Plage (décibels) | Niveau moyen du deuxième signal de boucle de haut-parleur (après application d'un effet de rechargement de l'appareil).|
 |Avg First Audio Send Signal Level |Décibels |Niveau audio moyen d'un signal mono ou du canal gauche d'un signal stéréo envoyé par les premiers points de terminaison. |
 |Avg Second Audio Send Signal Level |Décibels |Niveau audio moyen d'un signal mono ou du canal gauche d'un signal stéréo envoyé par les deuxièmes points de terminaison. |
 |Avg First Audio Received Signal Level |Décibels |Niveau audio moyen d'un signal mono ou du canal gauche d'un signal stéréo reçu par les premiers points de terminaison. |
@@ -641,9 +643,9 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 | Avg Send Listen MOS |Numéro |Moyenne de la prévision de la moyenne d'opinion de qualité de l'écoute large bande (MOS-LQ) du flux audio envoyé par l'utilisateur. <br/>Pour plus d'informations, voir « Moy. envoi de LA MOS » aucodeur des rapports [de surveillance de Lync](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
 |Avg Overall Avg Network MOS |Note moyenne d'opinion (0-5) |Moyenne ou moyenne réseau de la note moyenne d'opinion pour les flux. Elle représente la qualité moyenne prédite de l'audio reçu tenant compte de la perte réseau, la gigue et les codecs. |
 |Avg Ratio Concealed Samples |Taux |Moyenne du taux moyen du nombre de trames audio avec des échantillons générés par le masquage de perte de paquets par rapport au nombre total d'échantillons pour les flux. 0,1 indique que 10 % des trames contient des échantillons masqués. |
-| Avg Conceal Ratio Max| Taux |Moyenne des proportions maximales du nombre de trames audio avec des échantillons générés par un filtrage de perte de paquets par rapport au nombre total d'échantillons pour les flux. 0,1 indique que 10 % des trames contient des échantillons masqués.| |
+| Avg Conceal Ratio Max| Taux |Moyenne des proportions maximales du nombre de trames audio avec des échantillons générés par un filtrage de perte de paquets par rapport au nombre total d’échantillons pour les flux. 0,1 indique que 10 % des trames contient des échantillons masqués.| |
 |Avg Ratio Stretched Samples |Taux |Moyenne du taux moyen du nombre de trames audio avec des échantillons étirés pour compenser la gigue ou la perte par rapport au nombre total d'échantillons pour les flux. 0,1 indique que 10 % des trames contiennent des échantillons étirés. |
-| Avg Healer Packet Drop Ratio|Plage (proportion)|Rapport moyen des paquets audio supprimés par l'en-tête par rapport au nombre total de paquets audio reçus par le lanceur. | |
+| Avg Healer Packet Drop Ratio|Plage (proportion)|Rapport moyen des paquets audio supprimés par l’en-tête par rapport au nombre total de paquets audio reçus par le lanceur. | |
 | Avg Packeter FEC Packet Used Ratio|Plage (proportion)|Proportion moyenne des paquets FEC utilisés par rapport au nombre total de paquets FEC reçus.|
 |Avg Round Trip |Millisecondes |Moyenne de la durée moyenne de l'aller-retour de propagation sur le réseau calculée, comme spécifié par le document RFC3550, en millisecondes pour les flux. |
 |Avg Round Trip Max |Millisecondes |Moyenne de la durée maximale de l'aller-retour de propagation sur le réseau calculée, comme spécifié par le document RFC3550, en millisecondes pour les flux. |
@@ -653,10 +655,10 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 | Avg Network Jitter Min|Millisecondes|Moyenne des valeurs minimales de gigue réseau en millisecondes, calculée sur une fenêtre de 20 secondes pendant la session pour les flux.| |
 | Avg Jitter Buffer Size Max|Millisecondes|Taille maximale de la mémoire tampon de gigue pendant la session.| |
 | Avg Jitter Buffer Size Min|Millisecondes|Taille minimale de la mémoire tampon de gigue pendant la session.| |
-| Avg Relative OneWay |Millisecondes|Retard moyen calculé à sens seul relatif de l’homologue.| |
-| Avg Relative OneWay Gap Occurrences|Millisecondes|Nombre moyen d’instances d’intervalles dans le retard à sens relatif de l’homologue.| |
-| Avg Relative OneWay Gap Density|Millisecondes|Densité moyenne des intervalles dans le retard à sens relatif de l’homologue.| |
-| Avg Relative OneWay Gap Duration|Nombre (millisecondes)|Durée moyenne des intervalles dans le retard à sens relatif de l’homologue.| |
+| Avg Relative OneWay |Millisecondes|Retard moyen calculé à sens seul relatif de l'homologue.| |
+| Avg Relative OneWay Gap Occurrences|Millisecondes|Nombre moyen d'instances d'intervalles dans le retard à sens relatif de l'homologue.| |
+| Avg Relative OneWay Gap Density|Millisecondes|Densité moyenne des intervalles dans le retard à sens relatif de l'homologue.| |
+| Avg Relative OneWay Gap Duration|Nombre (millisecondes)|Durée moyenne des intervalles dans le retard à sens relatif de l'homologue.| |
 |Avg Audio Post FECPLR |Taux |Moyenne du taux de perte de paquets après FEC pour les données agrégées pour tous les flux audio et les codecs pour les flux. |
 |Avg Video Post FECPLR |Taux |Moyenne du taux de perte de paquets après FEC sur les agrégés parmi tous les flux vidéo et les codecs pour les flux. |
 |Avg Video Local Frame Loss Percentage |Pourcentage |Pourcentage moyen des images vidéo perdues tel que affiché pour l'utilisateur pour les flux. Cela inclut les images récupérées après des pertes de réseau. |
@@ -671,7 +673,7 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 |Avg First Device Capture Not Functioning Event Ratio |Taux |Moyenne de la proportion de l'appel détectée par le premier point de terminaison pour qui l'appareil de capture ne fonctionne pas correctement. |
 |Avg Second Device Capture Not Functioning Event Ratio |Taux |Moyenne de la proportion de l'appel détectée par le deuxième point de terminaison pour qui l'appareil de capture ne fonctionne pas correctement. |
 |Avg First Device Render Not Functioning Event Ratio |Taux |Moyenne de la proportion de l'appel détectée par le premier point de terminaison pour qui l'appareil de rendu ne fonctionne pas correctement. |
-|Avg Second Device Render Not Functioning Event Ratio |Taux |Moyenne de la proportion de l'appel détectée par le deuxième point de terminaison pour qui l'appareil de rendu ne fonctionne pas correctement. |
+|Avg Second Device Render Not Functioning Event Ratio |Taux |Moyenne de la proportion de l’appel détectée par le deuxième point de terminaison pour qui l’appareil de rendu ne fonctionne pas correctement. |
 |Avg First Mic Glitch Rate| Nombre de problèmes|Vitesse moyenne du premier micro (problèmes par 5 minutes pour le micro du point de terminaison) pour le flux.  ||
 | Avg Second Mic Glitch Rate|Nombre de problèmes|Vitesse moyenne du micro du deuxième micro (problèmes par 5 minutes pour le micro du point de terminaison) pour le flux. ||
 | Avg First Speaker Glitch Rate|Nombre de problèmes|Taux moyen du problème du haut-parleur (problèmes par 5 minutes pour le haut-parleur du point de terminaison) pour le flux. |
@@ -696,11 +698,11 @@ De nombreuses valeurs de mesure peuvent également être utilisées comme filtre
 |PSTN Total Inbound Concurrent Call Count | Nombre d'appels | Nombre maximal d’appels entrants actifs simultanés en une minute.|
 |PSTN Total Outbound Concurrent Call Count | Nombre d'appels | Nombre maximal d’appels sortants actifs simultanés en une minute.|
 |Latence P50 | Millisecondes | 50 % des demandes devraient être plus rapides qu’avec une latence donnée.|
-|P50 Jitter | Millisecondes | 50 % des demandes doivent être plus rapides qu’avec la gigue.|
+|P50 Jitter | Millisecondes | 50 % des demandes doivent être plus rapides qu'avec la gigue.|
 |P50 Packet Loss Rate | Pourcentage | 50 % des demandes doivent avoir un taux de perte de paquets inférieur au taux de perte de paquets donné.|
-|Retard après la numérotation sortante PSTN| Millisecondes | Le délai d’attente des appels sortants s’est mesuré à partir du moment où un numéro a été composé jusqu’à ce que l’appelant ou l’appelé entende la sonnerie.|
-|Retard après la numérotation entrante PSTN | Millisecondes | La durée ou le délai des appels entrants, mesurée à partir du moment où un numéro a été composé jusqu’à ce que l’appelant ou l’appelé entende la sonnerie.|
-|PSTN NER Good Percentage | Pourcentage | La lettre NER mesure la capacité d’un réseau à délivrer des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.<br/>NER = (Appels répondus + Occupé(e) + Sonnerie sans réponse + Refus de terminal)/ Total Attempt Calls x 100.There is an up to 0.2% error for this measure. Pour plus d'informations, voir la remarque ci-dessous.|
+|Retard après la numérotation sortante PSTN| Millisecondes | Le délai d'attente des appels sortants s'est mesuré à partir du moment où un numéro a été composé jusqu'à ce que l'appelant ou l'appelé entende la sonnerie.|
+|Retard après la numérotation entrante PSTN | Millisecondes | La durée ou le délai des appels entrants, mesurée à partir du moment où un numéro a été composé jusqu'à ce que l'appelant ou l'appelé entende la sonnerie.|
+|PSTN NER Good Percentage | Pourcentage | La lettre NER mesure la capacité d'un réseau à délivrer des appels en mesurant le nombre d'appels envoyés par rapport au nombre d'appels remis à un destinataire.<br/>NER = (Appels répondus + Occupé(e) + Sonnerie sans réponse + Refus de terminal)/ Total Attempt Calls x 100.There is an up to 0.2% error for this measure. Pour plus d'informations, voir la remarque ci-dessous.|
 ||||
 
 ### <a name="notes-on-measurements"></a>Notes sur les mesures

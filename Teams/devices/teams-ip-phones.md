@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948650"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995162"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Appareils certifiés Microsoft Teams
 
@@ -162,6 +162,9 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d'appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.3.2.286154          | Mise à jour pour 2021 #1    |
+| Poly Studio X50 | 3.3.2.286154          | Mise à jour pour 2021 #1    |
+| Poly TC8 | 3.3.2.286154                 | Mise à jour pour 2021 #1    |
 | Yealink VC210 |118.15.0.47     | Mise à jour pour 2021 #1    |
 | Barre de réunions Yealink A20 | 133.15.0.54     | Mise à jour pour 2021 #1    |
 | Barre de réunions Yealink A30 | 133.15.0.54     | Mise à jour pour 2021 #1    |
@@ -172,11 +175,11 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 ### <a name="product-release-information-for-teams-displays"></a>Informations de publication de produit pour les affichages Teams
 
-Voici les dernières versions de l'application et du microprogramme de Microsoft Teams.
+Voici les dernières versions de l’application et du microprogramme de Microsoft Teams.
 
 #### <a name="app-versions"></a>Versions des applications
 
-|Version de produit| Date de publication | Version de l'application Microsoft Teams | Version du portail d'entreprise | Version de l'agent d'administration |
+|Version de produit| Date de publication | Version de l’application Microsoft Teams | Version du portail d'entreprise | Version de l'agent d'administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour pour 2021 #1  |18 mars 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 

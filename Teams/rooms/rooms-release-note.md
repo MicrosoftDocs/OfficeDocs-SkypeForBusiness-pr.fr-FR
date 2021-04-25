@@ -14,21 +14,22 @@ ms.collection:
 - M365-collaboration
 description: Les administrateurs peuvent lire les notes de publication des salles Microsoft Teams, qui résisent les améliorations cumulatives apportées aux salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768366"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995292"
 ---
 # <a name="release-notes"></a>Notes de publication
 
-Cet article décrit les améliorations cumulatives apportées aux salles Microsoft Teams.
+Cet article traite des améliorations cumulatives apportées aux salles Microsoft Teams.
 
 ## <a name="version-history"></a>Historique des versions
 
 |Publication |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -72,6 +73,15 @@ Cet article décrit les améliorations cumulatives apportées aux salles Microso
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation des fonctionnalités et résolution des problèmes des salles Microsoft Teams
 
+### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
+
+Introduite dans cette mise à jour :
+- Résoudre un problème dans lequel les informations des salles d'équipe sur les consoles de salle Teams n'indiquent pas les comptes de salle masqués dans la liste d'adresses globale (LA GAL)
+
+> [!NOTE]
+> Les clients GCCH peuvent télécharger le package de mise à niveau à partir de la mise à [jour manuelle d'un appareil Salle Microsoft Teams](manual-update.md)
+
+
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 Introduite dans cette mise à jour :
@@ -84,14 +94,14 @@ Introduite dans cette mise à jour :
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 - Correctifs en matière de qualité et de fiabilité
 
 ### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Partager l'audio HDMI pour les participants d'une réunion dans une réunion Teams
+- Partager l'audio HDMI avec les participants d'une réunion Teams
 - Compétences vocales de Cortana (aperçu)
 - Empêchez la désmutation en fonction des autorisations audio lorsque Salle Teams rejoint en tant que participant. Pour plus d'informations, [voir Gérer les autorisations audio des participants dans Réunions Teams.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
 - Mettre en valeur la vidéo d'une personne à partir de la console de salle Teams et utiliser les vidéos à la une sur les écrans des salles
@@ -118,14 +128,14 @@ Introduite dans cette mise à jour :
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Réunions coordonnées entre Microsoft Teams et Surface Hub 2S
 - Correctif pour l'échec de la connectez-vous à Skype Entreprise lorsque la mise à jour [Windows 10 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou de la mise à jour [Windows 10 KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) est installée
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Rejoindre des réunions Cisco WebEx à partir de salles Teams avec l'accès invité direct
 - Activer le Centre d'administration Teams et l'inscription automatique
@@ -152,94 +162,94 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Correctifs de fiabilité pour le démarrage de l’application dans Windows 10 Kiosk
+- Correctifs de fiabilité pour le démarrage de l'application dans Windows 10 Kiosk
 
 ### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
 
 Introduite dans cette mise à jour :
 
-- Prise en charge de l’authentification moderne pour Exchange et Skype Entreprise
-- Prise en charge des appels d’urgence dynamiques pour Teams (composants de service requis et publiés à l’aide des anneaux du client Teams)
-- Possibilité de désactiver le contenu en double hors réunion pour des salles à affichage double à l’aide de XML
-- Écran de d’accueil de l’application
-- Notifications sur le logiciel Open Source (OSS) dans les paramètres de l’appareil
+- Prise en charge de l'authentification moderne pour Exchange et Skype Entreprise
+- Prise en charge des appels d'urgence dynamiques pour Teams (composants de service requis et publiés à l'aide des anneaux du client Teams)
+- Possibilité de désactiver le contenu en double hors réunion pour des salles à affichage double à l'aide de XML
+- Écran de d'accueil de l'application
+- Notifications sur le logiciel Open Source (OSS) dans les paramètres de l'appareil
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
 Introduite dans cette mise à jour :
 
 - Mises à jour de stratégie pour « Windows Updates for Business »
-- Correction des événements d’appareil signalant une erreur dans le moniteur Azure
+- Correction des événements d'appareil signalant une erreur dans le moniteur Azure
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
 Introduite dans cette mise à jour :
 
 - Correctif pour un problème de resizing/scintillement de fenêtre visible dans certaines configurations
-- Suppression du traitement du calendrier pour les réunions tierces
+- Traitement du calendrier pour les réunions tierces supprimés
 - Paramètre de statut de Cortana supprimé
 
 ### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Réponse automatique aux appels de proximité et paramètre d’administration pour contrôler ce
-- Actualisation de l’interface utilisateur Paramètres d’administration des appareils avec l’ajout de la configuration de l’appareil sous l’onglet À propos
+- Actualisation de l’interface utilisateur Paramètres d’administration des appareils avec l’ajout de la configuration de l’appareil sous l’onglet À propos de
 - Contrôle de salle de retour à l’écran principal
-- Référence SKU de salle de réunion disponible dans gcc
+- Référence SKU des salles de réunion disponible dans gcc
 - Prise en charge de la caméra de contenu pour le système Surface Pro (build d’application minimale requise : 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Prise en charge de Windows 10 1903. La mise à jour de Windows 10 1903 est proposée dans quelques jours après la mise à jour de l’application
 - Les correctifs pour le clavier à l’écran ne s’affichent pas correctement
 
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Nouvelle fonctionnalité de caméra de contenu qui permet aux utilisateurs d’inclure intelligemment un tableau blanc traditionnel dans leur réunion Teams
-- Améliorations supplémentaires apportées à l’interface utilisateur de la console pour réduire l’encombrement et déplacer les paramètres dans une nouvelle barre latérale accessible via La suite sur la console
-- Bouton Partage d’état désactivé si le câble de contenu local n’est pas connecté ou si une caméra de contenu n’est pas connectée
-- Correction d’un problème avec le clavier tactile dans lequel il a échoué s’affiche la première fois uniquement après un redémarrage du système MTR
+- Améliorations supplémentaires apportées à l'interface utilisateur de la console pour réduire l'encombrement et déplacer les paramètres dans une nouvelle barre latérale accessible via More sur la console
+- Bouton Partage d'état désactivé si le câble de contenu local n'est pas connecté ou si une caméra de contenu n'est pas connectée
+- Correction d'un problème avec le clavier tactile dans lequel il a échoué s'affiche la première fois uniquement après un redémarrage du système MTR
 - Correctifs en matière de qualité et de fiabilité
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Application du magasin de salles Skype renommée en « Salles Microsoft Teams »
 - Interface utilisateur de la console salles Microsoft Teams réalignée sur Microsoft Teams
-- Mise à jour de thème : ne conservez une image d'arrière-plan personnalisée que devant les écrans de salle, tout en rendant l'arrière-plan de la console neutre pour garantir que les contrôles de l'interface utilisateur de la console répondent au contraste de couleurs — conditions d'accessibilité
+- Mise à jour de thème : ne conservez une image d'arrière-plan personnalisée que devant les écrans de salle, tout en rendant l'arrière-plan de la console neutre pour garantir que les contrôles de l'interface utilisateur de la console répondent au contraste de couleurs ( conditions d'accessibilité)
 - Barre universelle des contrôles d'appel en réunion pour les appels/réunions Teams afin d'offrir une expérience cohérente avec les clients Microsoft Teams PC/Web/Mobile<sup>1</sup>
 - Évaluation de la qualité des appels après les appels/réunions Teams<sup>1</sup>
 - Recevoir/afficher le Tableau blanc microsoft en face de l'affichage des salles Microsoft Teams lors du partage à partir d'un PC/Web/ Client Teams Mobile<sup>1</sup> <sup>2</sup>
 - La prise en charge des mises à niveau vers Windows 10 version 1809 a été supprimée en raison de problèmes de compatibilité avec le client Salles Microsoft Teams. Le support de la version 19H1 de Windows 10 sera ajouté dans les prochaines versions
 
-<sup>1 déploiement</sup> du service Microsoft Teams à l'aide des anneaux Teams. Cette fonctionnalité peut être disponible plus tôt ou plus tard que la mise à jour du client 4.0.105.0
+<sup>1 déploiement</sup> du service Microsoft Teams avec des anneaux Teams. Cette fonctionnalité peut être disponible plus tôt ou plus tard que la mise à jour du client 4.0.105.0
 
 <sup>2 Nécessite</sup> que les administrateurs informatiques activer Microsoft Whiteboard. Par ailleurs, si vous avez un écran tactile avant de la salle, vous devez étalonner plusieurs affichages tactiles à l'aide des paramètres Windows avec la connexion de l'administrateur de l'appareil pour commencer à utiliser le Tableau blanc collaboratif Microsoft pour la collaboration à partir d'une salle affichée partagée dans une réunion Teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Corrige un problème avec la fonctionnalité « Donner des commentaires »
-- Optimisations en préparation de la prochaine mise à niveau de l'appareil Salles Microsoft Teams vers Windows 10 Version 1809
+- Corrige un problème avec la fonctionnalité « Fournir des commentaires »
+- Optimisations en préparation de la prochaine mise à niveau de l’appareil Salles Microsoft Teams vers Windows 10 Version 1809
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Correctif pour le bogue « bloquer au démarrage de l'application » qui a affecté les appareils sur l'ancien build Windows 10 RS2.
+- Correctif pour le bogue « bloquer au démarrage de l’application » qui a affecté les appareils sur l’ancien build Windows 10 RS2.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Pavé numérique DTMF pour les réunions P2P Microsoft Teams et les appels PSTN. Pour que Microsoft Teams soit votre client d’appel par défaut, les administrateurs doivent définir IsTeamsDefaultClient sur true
+- Clavier DTMF pour les réunions P2P Microsoft Teams et les appels PSTN. Pour que Microsoft Teams soit votre client d’appel par défaut, les administrateurs doivent définir IsTeamsDefaultClient sur true
 - Épinglez la vidéo entrante d’un participant distant en plein écran devant l’affichage de la salle. Utiliser la commande « Épingler » depuis la liste des participants de la console
 - Améliorations apportées aux notifications de salle d’attente avec l’ajout de la notification Au premier plan
 - Icône de l’affichage avant de la salle supprimée lorsque Bluetooth balise n’est pas activée sur l’appareil Salles Microsoft Teams
@@ -255,9 +265,9 @@ Introduite dans cette mise à jour :
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Prise en charge de l’affichage double (avant de la salle) pour les réunions Teams
+- Prise en charge de l'affichage double (avant de la salle) pour les réunions Teams
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018)
 
@@ -291,22 +301,22 @@ Introduite dans cette mise à jour :
 
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Cette mise à jour permet la prise en charge *des* réunions Skype Entreprise et Teams sur les appareils des systèmes de salle. Teams est désactivé par défaut une fois la mise à jour appliquée. Les administrateurs peuvent activer Teams localement dans les paramètres de l’appareil ou via un push XML distant.
+- Cette mise à jour permet la prise en charge *des* réunions Skype Entreprise et Teams sur les appareils des systèmes de salle. Teams est désactivé par défaut une fois la mise à jour appliquée. Les administrateurs peuvent activer Teams localement dans les paramètres de l'appareil ou via un push XML distant.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Corrigez l’erreur de correction observée sur certains systèmes au lancement de l’application.
+- Corrigez l'erreur de correction observée sur certains systèmes au lancement de l'application.
 
 ### <a name="311130-06132018"></a>3.1.113.0 (06/13/2018)
 
 Introduite dans cette mise à jour :
 
 - Modifications permettant à Microsoft de gérer plus flexibly Windows Update.
-- Aucune modification de l’expérience utilisateur final.
+- Aucune modification de l'expérience utilisateur final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
 
@@ -333,7 +343,7 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Résout un problème pour lequel des problèmes de joint lors de réunions intermittentes peuvent se produire
-- Corrige un problème connu pour entraîner un « raccrocher » d'appareil
+- Corrige un problème connu pour entraîner un « raccrocher » d’appareil
 
 ### <a name="31980-382018"></a>3.1.98.0 (3/8/2018)
 
@@ -341,8 +351,8 @@ Introduite dans cette mise à jour :
 
 - Correction de bogues/incidents pour améliorer la stabilité
 - Prise en charge de la console de taille variable
-- Traitement audio périphérique de rechargement (liste d'informations sur les médias supplémentaires)
-- Optimisations qui permettent aux professionnels de l'informatique de créer des images avec Windows 10 Version 1709 (version 1709) et versions ultérieures.
+- Traitement audio périphérique de rechargement (liste d’informations sur les médias supplémentaires)
+- Optimisations qui permettent aux professionnels de l’informatique de créer des images avec Windows 10 Version 1709 (version 1709) et versions ultérieures.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -367,11 +377,11 @@ Introduite dans cette mise à jour :
 - Prise en charge [du matériel de la station d'accueil de Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Prise en charge OEM des contrôles d'environnement (Crestron)
 
-La version 64 bits de l'édition anniversaire de Windows 10 Entreprise (anglais, version 1607) n'est plus prise en charge dans la version 3.0.12.0 (mise à jour 3) des salles Microsoft Teams.
+La version 64 bits de l'édition anniversaire de Windows 10 Enterprise (anglais, version 1607) n'est plus prise en charge dans la version 3.0.12.0 (mise à jour 3) des salles Microsoft Teams.
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Résout les problèmes observés lors de la recherche d'utilisateurs fédérés via le champ de recherche Participants. Avant ce correctif, les résultats de recherche pour les utilisateurs fédérés externes n'ont peut-être pas été résolus correctement et ont renvoyé des résultats incorrects.
 
@@ -383,7 +393,7 @@ Introduite dans cette mise à jour :
 - Thèmes (thèmes intégrés et possibilité de définir un thème personnalisé)
 - Possibilité d'offrir des commentaires pour les builds publiques
 - Télémétrie améliorée autour de la fiabilité des réunions
-- Amélioration de la rapports CES
+- Amélioration de la rapports DNS
 - Possibilité pour l'administrateur informatique de configurer des appareils à distance
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
@@ -391,7 +401,7 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Sélection de l'utilisateur dans l'application des périphériques USB audio et vidéo de la salle de réunion
-- Rapports d'état intégrés de la console de salle pour les clients utilisant la suite Microsoft Operations Management, désormais Azure Monitor
+- Rapports d'état intégré de la console de salle pour les clients utilisant la suite Microsoft Operations Management, désormais Azure Monitor
 
 ### <a name="release-to-market-1272016"></a>Publication sur Le Marché (07/12/2016)
 
@@ -400,7 +410,7 @@ Introduite dans cette mise à jour :
  **Conçue pour Skype Entreprise**
 
 - Participation aux réunions Skype en un clic
-- Expérience de réunion Skype optimisée pour les salles avec vidéo HD à remplissage d'écran et audio hd large bande
+- Expérience de réunion Skype optimisée pour les salles avec vidéo HD à remplissage d'écran et audio large bande HD
 - Tous les participants peuvent se connecter à la réunion Skype à l’aide du dispositif de leur choix où qu’ils soient
 - Invitez des contacts via votre annuaire qui vous indiquera leur disponibilité, ou via un appel téléphonique
 - Prise en charge de la conférence PSTN Skype Entreprise et de la fonction d’appel PSTN pour remplacer le téléphone de conférence autonome de votre salle de réunion

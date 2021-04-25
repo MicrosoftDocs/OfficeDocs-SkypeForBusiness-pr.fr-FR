@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6ba7e86d6abd9cca8fa6745549eb85f064bdc9d1
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 7ae2f78db68a84106b25329f374ac93f616fba31
+  ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51094842"
+  ms.lasthandoff: 04/24/2021
+  ms.locfileid: "51995272"
 title: FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 summary: ''
 sections:
@@ -84,7 +84,7 @@ sections:
       Actuellement, nous n'avons prévu aucun plan de mise à niveau pour les entreprises. Les clients peuvent choisir de passer à Teams si cela est utile pour leur organisation avant la date de retrait de Skype Entreprise Online, le 31 juillet 2021. Nous fournirons aux administrateurs et aux utilisateurs des outils et des instructions pour les aider à effectuer la transition vers Teams.
 
 
-      Afin d’accompagner les organisations de taille modeste qui n’ont pas de ressources informatiques dédiées, Microsoft fournit des mises à niveau automatisées de Skype Entreprise Online vers Teams. Les clients éligibles sont avertis de la mise à niveau par le biais d’e-mails et de notifications du Centre de messages. Des informations plus détaillées sont fournies dans les communications. Pour plus d’informations, voir [Mises à niveau automatisées de Skype Entreprise Online vers Microsoft Teams](upgrade-automated.md).
+      Afin d’accompagner les organisations de taille modeste qui n’ont pas de ressources informatiques dédiées, Microsoft fournit des mises à niveau automatisées de Skype Entreprise Online vers Teams. Les clients éligibles sont avertis de la mise à niveau par le biais d’e-mails et de notifications du Centre de messages. Des informations plus détaillées sont fournies dans les communications. Pour plus d’informations, voir [Mises à niveau automatisées de Skype Entreprise Online vers Microsoft Teams](upgrade-assisted.md).
   - question: Quels sont les avantages de l'infrastructure principale de Teams ?
     answer: >
       Teams a été créée pour le cloud sur une architecture de microservices très évolutive optimisée en termes de consommation de bande passante, qui fournit une télémétrie plus robuste et qui permet d’effectuer des opérations de maintenance et des mises à jour avec une perturbation minimale. En conséquence, les utilisateurs pourront rejoindre les réunions plus rapidement et bénéficieront d'une meilleure expérience de navigateur sans devoir télécharger de plug-ins. Cette infrastructure moderne permettra d’utiliser plus facilement les services cognitifs Microsoft, qui incluent des fonctionnalités de transcription, de conversion, de reconnaissance vocale et d’apprentissage machine, et qui rendent la communication et la collaboration plus simples et efficaces.
@@ -121,4 +121,4 @@ sections:
     answer: >
       [Les périphériques de salle de réunion](https://products.office.com/microsoft-teams/across-devices) sont essentiels à notre approche d'espace de travail moderne. [Des services d'interopérabilité vidéo cloud](./cloud-video-interop.md) pour prendre en charge les réunions Teams avec les systèmes VTC existants sont disponibles par l'intermédiaire de nos partenaires Pexip, Polycom et Blue Jeans.
   - question: La dernière génération des systèmes Skype Room (v2) prendra-t-elle en charge les réunions dans Teams ?
-    answer: Nous avons renommé les systèmes de salle Skype en salles Microsoft Teams, qui prend entièrement en charge les réunions Microsoft Teams et offre un chemin de migration simple de Skype Entreprise vers Teams en activant simplement Teams sur l’appareil. Outre la possibilité pour les utilisateurs d’identifier les salles Microsoft Teams à proximité avec la détection de proximité, les réunions Teams peuvent être jointes en un seul clic, prise en charge à double écran, tableau blanc Microsoft et nous continuons à apporter des fonctionnalités innovantes telles qu’une caméra de contenu avec capture intelligente.
+    answer: Nous avons renommé les systèmes de salle Skype en salles Microsoft Teams, qui prend entièrement en charge les réunions Microsoft Teams et offre un chemin de migration simple de Skype Entreprise vers Teams en activant simplement Teams sur l’appareil. Outre la possibilité pour les utilisateurs d’identifier les salles Microsoft Teams à proximité avec la détection de proximité, les réunions Teams peuvent être jointes en un seul clic, prise en charge à double écran, tableau blanc microsoft et nous continuons à apporter des fonctionnalités innovantes telles qu’une caméra de contenu avec capture intelligente.

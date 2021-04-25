@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer le système téléphonique pour les files d’attente des appels avec Microsoft Teams. Ce système inclut un message d’accueil, une musique de mise en attente, une redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874450"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995282"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -81,7 +81,7 @@ Vous pouvez ajouter jusqu’à 200 agents via un canal Teams.
 
 Si vous voulez [utiliser un canal Teams pour gérer la file d’attente](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), sélectionnez l’option **Sélectionner une équipe**, puis cliquez sur **Ajouter un canal**. Recherchez l’équipe à utiliser, sélectionnez-la, puis cliquez sur **Ajouter**. Sélectionnez le canal à utiliser, puis cliquez sur **Appliquer**.
 
-Les clients suivants sont pris en charge lors de l’utilisation d’un canal Teams pour les files d’attente d’appels : 
+Les clients suivants sont pris en charge lors de l'utilisation d'un canal Teams pour les files d'attente d'appels : 
 
   - Client Windows Microsoft Teams
   - Client Microsoft Teams pour Mac
@@ -111,7 +111,7 @@ Le **mode conférence** réduit considérablement le temps nécessaire à la mis
 Les comptes Teams des agents doivent être définis sur le mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
 
 > [!NOTE]
-> Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
+> Le mode conférence n'est pas pris en charge si les appels téléphoniques sont acheminés vers la file d'attente à partir d'une passerelle de routage direct activée pour le routage en fonction de l'emplacement.
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 
@@ -185,6 +185,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - Client Skype Entreprise pour iPad (version 6.16.0 et versions ultérieures)
   - Client Windows Microsoft Teams (versions 32 bits et 64 bits)
   - Client Microsoft Teams pour Mac
+  - Microsoft Teams sur [l'infrastructure bureau virtualisé](/microsoftteams/teams-for-vdi) (Bureau virtuel Windows, Citrix et VMware)
   - Application Microsoft Teams pour iPhone
   - Application Microsoft Teams pour Android
 
