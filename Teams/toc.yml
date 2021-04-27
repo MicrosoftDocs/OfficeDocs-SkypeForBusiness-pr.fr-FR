@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Déclassement de Skype Entreprise Online
         href: skype-for-business-online-retirement.md
+      - name: Mises à niveau assistées de Skype Entreprise Online
+        href: upgrade-assisted.md
       - name: FAQ
         href: FAQ-journey.yml
       - name: Référence
@@ -1422,8 +1424,6 @@ items:
       - name: Teams pour la vente au détail
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Démarrage avec les modèles Teams pour la vente au détail dans le Centre d’administration
-            href: retail-teams-templates-in-the-admin-console.md
           - name: Démarrage avec les modèles Teams pour la vente au détail
             href: get-started-with-retail-teams-templates.md
       - name: Teams pour le secteur public

@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697789"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030140"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -44,7 +44,8 @@ ms.locfileid: "51697789"
 
 Pour plus [d'informations](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) sur les champs que vous pouvez personnaliser, consultez le schéma de manifeste Teams.
 
-> [! REMARQUE Les applications de personnalisation ne sont pas actuellement pris en charge dans GCCH (Government Community Cloud High) ou le Service de la défense (DoD).
+> [!NOTE]
+> La personnalisation des applications n'est actuellement pas prise en charge dans GCCH (Government Community Cloud High) ou le Service de la défense (DoD).
 
 ## <a name="customize-the-apps-details"></a>Personnaliser les détails de l'application
 
@@ -58,7 +59,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
    Trois points d'entrée vous sont accessibles pour accéder à la fonctionnalité personnaliser :
 
-   - Sélectionnez en côté de l'application que vous voulez personnaliser, puis sélectionnez **Personnaliser.**
+   - Sélectionnez en côté de l'application que vous voulez personnaliser, puis **sélectionnez Personnaliser.**
 
      ![Option personnaliser la sélection 1](media/select-app-to-customize1.png)
 
@@ -102,7 +103,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 Les utilisateurs finaux de Teams peuvent désormais ouvrir leur client Teams pour voir l'application personnalisée.
 
-   ![Application personnalisée dans le client Teams](media/find-customized-app.png)
+   ![Application personnalisée dans le client Teams](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Considérations particulières pour la personnalisation d'une application
 
@@ -127,7 +128,7 @@ Vous souhaitez peut-être consulter les détails de l'application pour examiner 
 
 4. Afficher les détails de l'application, y compris le nom d'origine de l'application **Short name from publisher.**
 
-   ![Personnaliser le nom de l'application du panneau d'icônes](media/app-details-original-name.png)
+   ![Personnaliser le nom de l'application du panneau d'icônes](media/original-app-version.png)
 
    Le **champ Nom court de l'éditeur** n'est visible que si vous avez modifié le nom court de l'application.
 
