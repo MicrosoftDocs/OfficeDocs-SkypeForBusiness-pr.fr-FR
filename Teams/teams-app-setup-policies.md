@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: ebfcff8ce7215e34e3c17e9c09f3a56d249d5b40
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697709"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059198"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -58,7 +58,7 @@ Vous devez modifier les paramètres de la stratégie globale pour inclure les ap
 
 Vous pouvez utiliser le Centre d'administration Microsoft Teams pour créer une stratégie personnalisée.
 
-1. Dans le panneau de navigation gauche du Centre d'administration Microsoft Teams, voir Stratégies **d'installation des**  >  **applications** Teams.
+1. Dans le panneau de navigation gauche du Centre d'administration Microsoft Teams, voir **Stratégies d'installation des**  >  **applications** Teams.
 
 2. Sélectionnez **Ajouter**.
 
@@ -97,7 +97,7 @@ Vous pouvez utiliser le Centre d'administration Microsoft Teams pour créer une 
 
 Vous pouvez utiliser le Centre d'administration Microsoft Teams pour modifier une stratégie, notamment la stratégie globale (à l'échelle de l'organisation par défaut) et les stratégies personnalisées que vous créez.
 
-1. Dans le panneau de navigation gauche du Centre d'administration Microsoft Teams, voir Stratégies **d'installation des**  >  **applications** Teams.
+1. Dans le panneau de navigation gauche du Centre d'administration Microsoft Teams, voir **Stratégies d'installation des**  >  **applications** Teams.
 
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis sélectionnez **Modifier**.
 
@@ -152,7 +152,9 @@ Pour afficher toutes les applications épinglées pour un utilisateur, les utili
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir sur l'expérience mobile dans Teams ?
 
-Les clients mobiles Teams (iOS et Android) ne peuvent actuellement pas prise en charge les applications personnelles avec les onglets statiques. Selon les applications définies dans la stratégie, les applications épinglées au client de bureau Teams peuvent ne pas apparaître dans les clients mobiles Teams. Les robots personnels apparaissent toujours dans Conversation sur les clients mobiles.
+Les clients mobiles Teams (iOS et Android) supportent les applications personnelles avec des onglets statiques. Les applications épinglées au client de bureau Teams apparaissent dans les clients mobiles Teams. Les robots personnels apparaissent dans Conversation sur les clients mobiles.
+
+Les applications tierces (qui peuvent être téléchargées à partir de Teams Store) doivent être approuvées avant de s'afficher sur un appareil mobile. Si un administrateur épingle une application, non apposée par Microsoft pour mobile, elle s'affichera sur le bureau Teams, mais pas sur les appareils mobiles. Pour plus [d'informations,](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) voir clients mobiles.
 
 Avec les clients mobiles Teams, les utilisateurs voient les principales applications Teams telles que Activité, Conversation et Teams, et vous pouvez épingler certaines applications tierces de Microsoft, telles que Shifts.
 
@@ -166,7 +168,7 @@ Les épingles administrateur sont toujours prioritaire. Si **l'option Autoriser 
 
 ### <a name="custom-teams-apps"></a>Applications Teams personnalisées
 
-Mon organisation a créé une application Teams personnalisée et l'a publiée sur AppSource ou le catalogue des applications client, mais l'icône d'application ne s'affiche pas comme prévu lorsque l'application est épinglée à la barre d'application dans Teams. Comment puis-je résoudre le problème ?
+Mon organisation a créé une application Teams personnalisée et l'a publiée dans AppSource ou le catalogue des applications client, mais l'icône d'application ne s'affiche pas comme prévu lorsque l'application est épinglée à la barre d'application dans Teams. Comment puis-je résoudre le problème ?
 
 Veillez à respecter les instructions relatives au logo avant de soumettre l'application. Pour en savoir plus, consultez [la liste de contrôle de l'envoi du tableau de bord du vendeur.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
