@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés pour Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: dec58efccef8b247ebf970c4196fd38d87dc1437
+ms.sourcegitcommit: 347246d725b3058e4c5e770513c0c386bfb586bc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995162"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077374"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Appareils certifiés Microsoft Teams
 
@@ -44,7 +44,8 @@ Les appareils suivants sont certifiés dans le cadre du Programme de certificati
 
 |Modèle d’appareil                         | Version du microprogramme                                                                                                                                                                                                                           | Date de publication
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| AudioCodes C435HD                      | 1.12.33                                                  | Avril 2021                 |
+| Yealink MP52                           | 145.15.0.6                                               |   Avril 2021                 |
+| AudioCodes C435HD                      | 1.12.33                                                  | Avril 2021                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | Janvier 2021                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0,225                                       | Mars 2019                   |
 | AudioCodes C448HD (mode Cap uniquement)      | C450HD_TEAMS_0,225                                       | Mars 2019                   |
@@ -149,7 +150,7 @@ Voici les dernières salles Teams sur l'application Android et les versions de m
 
 #### <a name="app-versions"></a>Versions des applications
 
-| Version de produit| Date de publication | Version de l'application Microsoft Teams | Version du portail d'entreprise | Version de l'agent d'administration |
+| Version de produit| Date de publication | Version de l'application Microsoft Teams | Version du portail d'entreprise | Version de l’agent d’administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | Mise à jour pour 2021 #1  |5 avril 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Mise à jour pour 2020 #3  |24 novembre 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
@@ -179,7 +180,7 @@ Voici les dernières versions de l’application et du microprogramme de Microso
 
 #### <a name="app-versions"></a>Versions des applications
 
-|Version de produit| Date de publication | Version de l’application Microsoft Teams | Version du portail d'entreprise | Version de l'agent d'administration |
+|Version de produit| Date de publication | Version de l'application Microsoft Teams | Version du portail d'entreprise | Version de l'agent d'administration |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Mise à jour pour 2021 #1  |18 mars 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 
