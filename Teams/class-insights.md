@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215319"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064850"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -133,6 +133,7 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 | **Fichiers** |   Charger, télécharger, consulter, modifier, commenter et partager un fichier (à l'exclusion du contenu du fichier).|
 | **Bloc-notes OneNote pour la classe** |  Modification d’une page ou d’une section d’un bloc-notes (sans inclure le contenu de la page).|
 | **Réunions** |    Présence (à l'exclusion du contenu des réunions).|
+| **[Reflect](reflect.md)** |   Vérifications (incluant des valeurs)|
 
 > [!NOTE]
 > La plupart des données collectées s’affichent dans Insights en quelques minutes. La présence aux réunions de classe (réunions associées à l’un des canaux de classe) apparaît quelques heures après la fin de la réunion, généralement jusqu’à 24 heures plus tard.

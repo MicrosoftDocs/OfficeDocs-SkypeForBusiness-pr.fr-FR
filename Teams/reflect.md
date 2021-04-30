@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2594b39fed7d7194aabacd5df1a977a9d1262d70
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
+ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064863"
+ms.locfileid: "52070650"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guide d’administration informatique de Reflect dans Microsoft Teams
 
@@ -56,18 +56,20 @@ Pour permettre à un utilisateur d’installer et d’interagir avec une applica
 
 Si vous avez précédemment défini que chaque application doit être autorisée, veuillez accéder à la page Gérer des applications et « autoriser » Reflect. **Lorsque vous bloquez une application, l’application ne s’affiche pas dans Teams pour les utilisateurs de votre organisation.**
 
+> [!NOTE]
+> Pour accéder à l’application Reflect, vous devez avoir une licence A1, A3 ou A5 pour Microsoft 365.
+
 > [!TIP]
 > Pour plus d’informations, lisez [comment autoriser une application ou l’ajouter à une équipe de classe](manage-apps.md#allow-and-block-apps).
 
-
-## <a name="where-do-educators-find-reflect"></a>Où les enseignants peuvent-ils trouver Reflect ?
+## <a name="where-do-educators-find-reflect"></a>Où les enseignants peuvent-ils trouver Reflect ?
 Une fois que vous avez activé Reflect, les enseignants peuvent se rendre en classe et sélectionner l’option **Nouvelle conversation**. Ils sélectionnent ensuite «**...**» pour ouvrir les extensions de messagerie et entrer **Reflect** dans la barre de recherche. La boîte de dialogue les guide dans la définition de la question et des personnes peuvent voir.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Ajouter Reflect à une équipe de classe":::
 
 Ils peuvent cliquer avec le bouton droit sur l’icône Reflect, puis sélectionner **Épingler** pour y accéder facilement.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Épingler l’application Insights":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Épingler l’application Reflect":::
 
 > [!TIP]
 > Vous pouvez également localiser l’application Reflect via ce lien : [https://aka.ms/getReflect](https://aka.ms/getReflect)
