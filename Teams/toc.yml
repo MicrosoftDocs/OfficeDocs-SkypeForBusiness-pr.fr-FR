@@ -1395,6 +1395,8 @@ items:
                 href: class-insights.md
               - name: Synchronisation des données du système d'informations sur les élèves avec Insights
                 href: education-insights-sis-data-sync.md
+              - name: Prise en main de Reflect
+                href: reflect.md
           - name: "Devoirs dans Microsoft\_Teams pour l’éducation"
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: "Administrateurs de ressources Microsoft\_Teams pour l’éducation"
