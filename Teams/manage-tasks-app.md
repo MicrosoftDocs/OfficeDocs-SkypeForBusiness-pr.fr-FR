@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101150"
@@ -121,7 +121,7 @@ Pour savoir comment configurer la hiérarchie de ciblage de votre équipe, consu
 
 ## <a name="power-automate-and-graph-api"></a>API Power Automate et Graph
 
-Tasks prend en charge les API Power Automate pour To Do et Graph pour le Planificateur. Pour en savoir plus, consultez les articles :
+Tasks prend en charge Power Automate pour To Do et Graph pour le Planificateur. Pour en savoir plus, consultez :
 
 - [Présentation de l’API des tâches et des plans du Planificateur](/graph/planner-concept-overview)
 - [Utiliser Microsoft To Do avec Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

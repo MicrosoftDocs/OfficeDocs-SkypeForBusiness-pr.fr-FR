@@ -21,7 +21,7 @@ ms.reviewer: ''
 description: Microsoft Teams et les visites virtuelles avec l’application Bookings
 ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
 ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/19/2021
 ms.locfileid: "51891261"
@@ -41,7 +41,7 @@ Les planificateurs peuvent gérer plusieurs calendriers des services et du perso
 
 - Microsoft Bookings doit être désactivé pour l’organisation.
 
-- Les utilisateurs doivent avoir une licence appropriée. Office 365 A3, A5, E3 et E5, ainsi que Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 et E5 sont pris en charge.
+- Les utilisateurs doivent avoir une licence appropriée. Office 365 A3, A5, E3 et E5, ainsi que Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 et E5 sont pris en charge.
 
 - Tous les utilisateurs de l’application Bookings et tous les membres du personnel participant aux réunions doivent avoir une licence qui prend en charge la planification de réunions Teams.
 
@@ -53,7 +53,7 @@ L’application Microsoft Bookings pour Teams est disponible sur le bureau et su
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Contrôler l’accès à Bookings au sein de votre organisation
 
-Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d’administration Microsoft 365, et créer une stratégie d’application Bookings pour autoriser les utilisateurs sélectionnés à créer des calendriers Bookings, consultez [Accéder à Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Vous pouvez également découvrir comment [Créer une stratégie d’application Teams pour épingler l’application Bookings à certains utilisateurs](teams-app-setup-policies.md).
+Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d’administration Microsoft 365, et créer une stratégie d’application Bookings pour autoriser les utilisateurs sélectionnés à créer des calendriers Bookings, consultez [Accéder à Microsoft Bookings](https://support.microsoft.com/fr-FR/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Vous pouvez également découvrir comment [Créer une stratégie d’application Teams pour épingler l’application Bookings à certains utilisateurs](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Paramètres de stratégie de réunion recommandés
 

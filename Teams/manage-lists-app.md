@@ -24,7 +24,7 @@ appliesto:
 ms.custom: ''
 ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092252"
@@ -81,7 +81,7 @@ Dans certains scénarios, vous souhaiterez peut-être restreindre les actions qu
 
 Avec Lists, les utilisateurs bénéficient d’une expérience web, mobile et pour ordinateur de bureau. Il est important de savoir que les utilisateurs ne peuvent pas créer de nouvelles listes ou épingler des listes existantes en utilisant Lists sur le client mobile Teams. Pour afficher ou modifier une liste sur le client mobile Teams, une liste doit d’abord être créée ou ajoutée avec Lists sur le client Teams web ou pour ordinateur de bureau.
 
-Les invités ne peuvent pas créer ou supprimer une liste. Ils peuvent ajouter des éléments de liste à des listes existantes, démarrer de nouvelles conversations à propos des éléments de liste et répondre aux conversations existantes concernant les éléments de liste.
+Les invités peuvent ajouter des éléments de liste à des listes existantes, démarrer de nouvelles conversations à propos des éléments de liste et répondre aux conversations existantes concernant les éléments de liste.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists et l’application SharePoint
 

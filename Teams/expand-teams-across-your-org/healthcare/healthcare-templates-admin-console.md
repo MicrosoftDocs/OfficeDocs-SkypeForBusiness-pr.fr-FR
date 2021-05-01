@@ -24,7 +24,7 @@ description: Utilisez les modèles Microsoft Teams dans le centre d'administrati
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117872"

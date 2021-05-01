@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096278"
@@ -66,7 +66,7 @@ Vous aurez également besoin des informations des membres suivants de votre orga
 - Analyse des clients
 
 > [!Note]
-> Examinez [le guide d’intégration de la téléhealthe de Microsoft Teams-Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) à l’aide de votre spécialiste technique Sous-site. Assurez-vous que toutes les conditions préalables sont terminées. 
+> Examinez le [Guide d’intégration de Microsoft Teams télémédecine](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) avec votre spécialiste technique Epic. Assurez-vous que toutes les conditions préalables sont terminées. 
 
 ## <a name="connector-setup"></a>Configuration des connecteurs
 
@@ -144,7 +144,7 @@ Principales fonctionnalités de l’expérience fournisseur :
 
 - Les fournisseurs doivent se connectent une fois avec leur compte Microsoft 365 lorsqu’ils rejoignent une visite virtuelle pour la première fois.
 
-- Après la connexion unique, le fournisseur sera directement dirigé vers le rendez-vous virtuel dans Microsoft Teams. (Le fournisseur doit être connecté à Microsoft Teams).
+- Après la connexion unique, le fournisseur sera directement dirigé vers le rendez-vous virtuel dans Microsoft Teams. Le fournisseur doit être connecté à Microsoft Teams.
 
 - Le fournisseur peut consulter en temps réel les mises à jour des connexions et déconnexions des participants pour un rendez-vous donné. Le fournisseur peut voir quand le patient est connecté à une visite virtuelle.
 
