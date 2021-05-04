@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Luxembourg.
-ms.openlocfilehash: 1abe71666817f02c90d8f5dfbcb78a1022662732
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams au Luxembourg.
+ms.openlocfilehash: af4117d0861b853dc81c3d392ebc6c065ada223f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115982"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130293"
 ---
 # <a name="availability-in-luxembourg"></a>Disponibilité au Luxembourg
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les offres d’audioconférences et les appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Luxembourg.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams au Luxembourg.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -59,11 +59,10 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
-
-Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utiliser [le routage direct du système téléphonique](../direct-routing-landing-page.md). Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
+|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Offre d’appels nationaux et internationaux :  1200 minutes d’appels nationaux ou 600 minutes d’appels internationaux (suivant ce qui est atteint en premier au cours du mois)</li></li></ul>|
+|Est-il possible de passer des appels sortants vers les numéros premium ?  <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

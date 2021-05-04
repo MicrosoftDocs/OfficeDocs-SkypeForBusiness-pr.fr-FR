@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Cette article décrit la fonctionnalité Microsoft Teams disponible pour les invités.
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092082"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129723"
 ---
 # <a name="guest-experience-in-teams"></a>Expérience de l’invité dans Microsoft Teams
 
@@ -52,7 +52,7 @@ Le tableau suivant compare la fonctionnalité Teams disponible pour les membres 
 |Publier, supprimer et modifier des messages  <br/> |&#x2713;|&#x2713;|
 |Partager un fichier du canal  <br/> |&#x2713;|&#x2713;|
 |Accéder aux fichiers SharePoint<br/> |&#x2713;|&#x2713;|
-|Joindre des fichiers<br/> |&#x2713;|Conversations d’équipe uniquement|
+|Joindre des fichiers<br/> |&#x2713;|Publications de canal uniquement|
 |Télécharger des fichiers de conversation privés<br/> |&#x2713;|&#x2713;|
 |Effectuer une recherche dans des fichiers<br/> |&#x2713;||
 |Partager un fichier de conversation  <br/> |&#x2713;||

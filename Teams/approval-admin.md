@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902568"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129793"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -41,7 +41,7 @@ La première approbation créée à partir de l’application Approbations décl
 Cet article décrit la exigences et les rôles de l’application Approbations.
 
 > [!NOTE]
-> Cette fonctionnalité n’a pas encore été publiée pour les utilisateurs de Government Community Cloud (GCC), Government Community Cloud High (GCCH) et Department of Defense (DOD).
+> Cette fonctionnalité n'a pas encore été publiée pour les utilisateurs des services Cloud de la communauté du secteur public (Cloud de la communauté du secteur public), Cloud de la communauté du secteur public High (GCCH) et Department of Defense (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
@@ -57,7 +57,7 @@ Pour utiliser l’application Approbations, vous devez avoir une autorisation po
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 
-Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il se compose d’un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et nos partenaires, qui permet la cohérence des données et leur signification au sein des applications et des processus d’entreprise. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
+Le modèle de données commun (CDM) est le langage de données partagé utilisé par les applications professionnelles et analytiques dans les CDS. Il s'agit d'un ensemble de schémas de données standardisés et extensibles publiés par Microsoft et ses partenaires, qui permettent d'assurer la cohérence des données et de leur signification entre les applications et les processus métier. En savoir plus sur [Modèle de données courant de Microsoft Power Platform](/power-automate/get-started-approvals).
 
 En savoir plus sur le [flux d’approbation](/power-automate/modern-approvals).
 
@@ -94,13 +94,13 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   3. Recherchez l’application Approbations.
 
-![affiche la navigation du Centre d’administration avec l’écran Applications Teams > Gérer les applications mis en évidence](media/manage-approval-apps.png)
+     ![affiche la navigation du Centre d’administration avec l’écran Applications Teams > Gérer les applications mis en évidence](media/manage-approval-apps.png)
 
   4. Sélectionnez Approbations.
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
-![affiche les détails de l’application Approbations](media/approvals-details.png)
+     ![affiche les détails de l’application Approbations](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 
@@ -136,6 +136,12 @@ Vous pouvez rechercher les activités suivantes :
 
 - Ajout d’une signature électronique à une demande d’approbation
 
+- Affichage des détails de la demande de signature électronique
+
+- Demande de signature électronique examinée
+
+- Demande de signature électronique annulée
+
 Pour accéder à davantage d’approbations d’audit dans flux, activez et configurez l'audit dans l'environnement par défaut pour les entités d'approbation primaires Approbation, Demande d'approbation et Réponse d'approbation. Les opérations de création, de mise à jour et de suppression sont des événements auditables pour les enregistrements d’approbation. En savoir plus sur [Audit des données et de l’activité des utilisateurs pour des raisons de sécurité et de conformité : Plateforme Power \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 L’audit peut être personnalisé davantage dans le [Centre de conformité et sécurité Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
@@ -154,3 +160,19 @@ En savoir plus sur [Journalisation des activités de Microsoft Dataverse et des 
 
 > [!Note]
 > Un utilisateur a le rôle de visionneuse d’une demande s’il fait partie de la conversation ou du canal sur lequel l’approbation a été créée. Il ne peut pas agir sur la demande si ce rôle ne lui a pas été affecté lors de la création de l’approbation.
+
+## <a name="approvals-e-signature-integration"></a>Intégration de la signature électronique Approbations
+
+Les approbations de signature électronique créées à partir de l'application Approbations sont stockées dans l'environnement cloud du fournisseur sélectionné. Pour plus d'informations sur le stockage autour du contrat de signature électronique, consultez la documentation de stockage du fournisseur sélectionné.
+
+Pour utiliser la fonctionnalité de signature électronique de l'application Approbations, vous devez avoir les éléments suivants :
+
+- Licence du fournisseur de signature électronique que vous choisissez d'utiliser. Pour obtenir une licence pour votre organisation, vous devez vous rendre sur le site du fournisseur.
+
+Pour la fonctionnalité de signature électronique Approbations, les partenaires de signature tiers apparaissent par défaut dans l'Teams Approbations. Vous pouvez désactiver des fournisseurs de signature électronique spécifiques en accédant aux paramètres de l'application dans Teams d'administration.
+
+1. Dans le Teams d'administration, sous **Gérer** les applications, sélectionnez l'application **Approbations,** puis **Paramètres.**
+
+2. Par défaut, un bascule est placé à côté de chaque fournisseur de signature électronique (à droite). Faites glisser le curseur vers la gauche pour désactiver un fournisseur de signature électronique spécifique. Si un administrateur Teams désactive un fournisseur, les utilisateurs finaux ne le voient pas lors de la création d'une approbation. Les utilisateurs finaux ne pourront pas non plus afficher les demandes de signature électronique qui ont été faites avec ce fournisseur.
+
+Les approbations de signature électronique créées à partir de l'application Approbations sont stockées dans le cloud du fournisseur sélectionné. Vous devrez donc vous rendre sur le site du fournisseur pour exporter des données relatives aux signatures électronique. Consultez la documentation du fournisseur sur l'exportation et la rétention de ces contrats.
