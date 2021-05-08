@@ -18,17 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Découvrez les conditions requises pour la gestion à distance de Skype Entreprise Online via Windows PowerShell, y compris les systèmes d’exploitation pris en charge.
-ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Découvrez les conditions requises pour la gestion à distance d Skype Entreprise Online via Windows PowerShell, y compris les systèmes d’exploitation pris en charge.
+ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113140"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238710"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurer votre ordinateur pour Windows PowerShell
 
-La gestion à distance de Skype Entreprise Online à l’aide de Microsoft PowerShell est prise en charge uniquement sur les ordinateurs 64 bits exécutant l’un des systèmes d’exploitation suivants :
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+La gestion à distance d Skype Entreprise Online à l’aide de Microsoft PowerShell est prise en charge uniquement sur les ordinateurs 64 bits exécutant l’un des systèmes d’exploitation suivants :
 
 - Windows Server 2016
 
@@ -50,7 +52,7 @@ Outre le système d’exploitation pris en charge, l’ordinateur doit égalemen
   
 - PowerShell
     
-- Module Teams PowerShell 
+- Teams Module PowerShell 
     
 Vous trouverez des informations sur le téléchargement et l’installation de ces éléments dans les rubriques suivantes :
   
@@ -58,7 +60,7 @@ Vous trouverez des informations sur le téléchargement et l’installation de c
     
 - [Télécharger et installer Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Gérer Skype Entreprise Online avec PowerShell Office 365](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Diagnostiquer les problèmes de connexion avec le connecteur Skype Entreprise Online](diagnose-problems-with-the-skype-for-business-online-connector.md)

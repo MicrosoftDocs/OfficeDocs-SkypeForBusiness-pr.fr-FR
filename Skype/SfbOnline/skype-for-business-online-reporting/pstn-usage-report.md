@@ -18,33 +18,35 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: La nouvelle zone Rapports du Centre d’administration Skype Entreprise affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: 831c1e7168bcffc72acb8ef1573167fe63ff44f5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: La nouvelle Skype Entreprise rapports du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
+ms.openlocfilehash: b806c0b3a471f862de6d69c6ed9b5220441c4257
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106470"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238202"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
-La nouvelle zone Rapports  du Centre d’administration Skype Entreprise affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les **détails d'utilisation PSTN de Skype Entreprise** vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+La nouvelle Skype Entreprise rapports  du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les **détails d'utilisation PSTN de Skype Entreprise** vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
   
 Consultez la vue [d’ensemble des](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) rapports pour découvrir d’autres rapports disponibles.
   
-Tout comme les autres rapports Skype Entreprise, ce rapport vous fournit les détails des activités, notamment l’utilisation des appels dans votre organisation. Ces informations détaillées sont très utiles pour examiner, planifier et prendre des décisions pour votre entreprise, ainsi que pour définir les [crédits de communication.](/microsoftteams/what-are-communications-credits)
+Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les activités, notamment sur l’utilisation des appels dans votre organisation. Ces informations détaillées sont très utiles pour examiner, planifier et prendre des décisions pour votre entreprise, ainsi que pour définir les [crédits de communication.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Tous les rapports Skype Entreprise sont consultez lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Comment obtenir les rapports sur les détails d'utilisation PSTN de Skype Entreprise
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-- Dans le Centre d’administration, > **Centre** d’administration Skype Entreprise indique les détails de l’utilisation  >    >    >  **PSTN.**
+- Dans le Centre d’administration, > **centres d’administration** Skype Entreprise centre d’administration signale les détails d’utilisation  >    >    >  **PSTN.**
     
     > [!NOTE]
-    > En fonction de votre abonnement Microsoft 365 ou Office 365, tous les produits et rapports présentés ici ne seront peut-être pas affichés.
+    > En fonction du Microsoft 365 ou Office 365 votre abonnement, vous ne verrez peut-être pas tous les produits et rapports affichés ici.
   
 ## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>Interpréter le rapport d'utilisation PSTN de Skype Entreprise
 
@@ -52,15 +54,15 @@ Vous pouvez vous connaître l'utilisation PSTN Skype Entreprise d'un utilisateur
   
 Voici une illustration du rapport.
   
-[![Rapport d’utilisation de la PSTN Skype Entreprise ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![Skype Entreprise d’utilisation ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) PSTN](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Il vous indique tous les utilisateurs qui ont été affectés à Skype Entreprise ainsi que leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
+![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Il vous indique tous les utilisateurs Skype Entreprise qui leur ont été affectés ainsi que leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
 *    **L’ID d’appel** est l’ID d’appel d’un appel. Il s’agit d’un identificateur de l’appel utilisé lors de l’appel au support technique Microsoft.
 *    **ID de l'utilisateur** est le nom de connexion de l'utilisateur.
-*    **Le numéro de** téléphone est le numéro de téléphone Skype Entreprise qui a reçu l’appel pour les appels entrants ou le numéro composé pour les appels sortants.
+*    **Téléphone numéro est** le numéro Skype Entreprise numéro de téléphone qui a reçu l’appel pour les appels entrants ou le numéro composé pour les appels sortants.
 *    **L’emplacement de** l’utilisateur est le pays/la région où se trouve l’utilisateur.
-*    **L’ID** de l’appelant est le numéro de téléphone de l’appelant (ID de l’appelant) pour les appels entrants, le numéro d’origine de l’appel ou le numéro Skype Entreprise d’où provient l’appel pour les appels sortants.
+*    **L’ID** de l’appelant est le numéro de téléphone de l’appelant (ID de l’appelant) pour les appels entrants, le numéro d’origine de l’appel ou le numéro Skype Entreprise d’origine de l’appel pour les appels sortants.
 *    **Le type d’appel** est le type d’appel (sortant ou entrant PSTN) et le type d’appel (par exemple, appel passé par un utilisateur ou conférence audio). Les types d’appels que vous pouvez voir sont les autres : 
 
      **Types d’appels de plan d’appel** 
@@ -78,20 +80,20 @@ Voici une illustration du rapport.
      *    **ucap_in** (appel PSTN entrant vers l’application de lauc, tel que le attendant automatique ou la file d’attente d’appels) 
      *    **ucap_out** (un appel PSTN sortant à partir de l’application de lauc, telle que le attendant automatique ou la file d’attente d’appels)
          > [!NOTE]
-         > Les appels transférés vers un utilisateur à partir de l’application de lauc, telle qu’un attendant automatique ou une file d’attente d’appels, ne s’affichent pas dans le rapport d’utilisation PSTN, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le Centre d’administration Skype Entreprise sous « Outils > Analyse des appels Skype Entreprise » et effectuer une recherche par nom d’utilisateur ou adresse SIP en correlant l’appel par date/heure et/ou en provenance de la CLID (ID de ligne d’appel). 
+         > Les appels transférés vers un utilisateur à partir de l’application de lauc, telle qu’un attendant automatique ou une file d’attente d’appels, ne s’affichent pas dans le rapport d’utilisation PSTN, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le Centre d’administration Skype Entreprise sous « Outils d’analyse des appels > Skype Entreprise » et effectuer une recherche par nom d’utilisateur ou adresse SIP en corrélant l’appel par date/heure et/ou en provenance de la CLID (calling line ID). 
 
-     **Nationaux/Internationaux** vous indique si l’appel qui a été placé était considéré comme national (dans un pays ou une région) ou international (en dehors d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
+     **Nationaux/Internationaux** vous indique si l’appel placé a été considéré comme national (dans un pays ou une région) ou international (en dehors d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
 *    **L’appel de** destination est le nom de la destination du pays/de la région composé, par exemple, la France, l’Allemagne ou les États-Unis. 
 *    **Le type de** numéro de téléphone est le type de numéro de téléphone provenant du numéro de téléphone d’un utilisateur, d’un service ou d’un numéro gratuit.  
 *    **Heure de début (UTC)** est l'heure à laquelle l'appel a commencé. 
 *    **Durée** indique le temps de connexion de l'appel.  
-*    **ConfID** est l’ID de conférence de la conférence audio. 
+*    **ConfID est** l’ID de conférence de la conférence audio. 
 *    **Le** montant est le montant ou le coût de l’appel facturé sur votre compte. 
 *    **Devise** est le type de devise utilisé pour calculer le coût de l’appel. 
 *    **La fonctionnalité** est la licence utilisée pour l’appel. Les types de licences que vous pouvez voir sont les autres : 
-     *    **MCOPSTNPP** - Crédits de communication <br/> **MCOPSTN1** - Plan d’appels nationaux (plans de 3 000 min POUR les États-Unis / 1 200 min pour l’UE) 
+     *    **MCOPSTNPP** - Crédits de communication <br/> **MCOPSTN1** - Plan d’appels nationaux (plans de 3 000 min pour les États-Unis / 1 200 min pour l’UE) 
      *    **MCOPSTN2** - Forfait d’appels internationaux 
-     *    **MCOPSTN5** - Forfait d’appels nationaux (forfait d’appels de 120 min) 
+     *    **MCOPSTN5** - Forfait d’appels nationaux (plan d’appels de 120 min) 
      *    **MCOPSTN6** - Forfait d’appels nationaux (plan d’appels de 240 min) Remarque : Disponibilité limitée
      *    **MCOMEETADD** - Audioconférence
      *    **MCOMEETACPEA** - Audioconférence avec paiement à la minute
@@ -110,15 +112,15 @@ Voici une illustration du rapport.
 
 ## <a name="exporting-pstn-usage-report"></a>Exporter le rapport d’utilisation PSTN
 
-Cliquer ou appuyer sur le **bouton Exporter vers Excel** vous permet de télécharger le rapport d’utilisation PSTN. Vous pouvez exporter des données jusqu’à un an à partir de la date actuelle, sauf si la réglementation spécifique au pays interdit la rétention des données pendant 12 mois.
+Cliquer ou appuyer sur le bouton Exporter **vers Excel** vous permet de télécharger le rapport d’utilisation PSTN. Vous pouvez exporter des données jusqu’à un an à partir de la date actuelle, sauf si la réglementation spécifique au pays interdit la rétention des données pendant 12 mois.
 
 Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure.
 
-Le processus d’exportation peut prendre de quelques secondes à plusieurs minutes, selon la quantité de données. Une fois l’exportation terminée par le serveur, vous recevrez un fichier zip nommé «**Calls.Export. [ `identifier` ]. zip**" avec l’identificateur comme ID unique pour l’exportation, qui peut être utilisé pour le dépannage.
+Le processus d’exportation peut prendre de quelques secondes à plusieurs minutes, selon la quantité de données. Une fois l’exportation terminée par le serveur, vous recevrez un fichier zip nommé «**Calls.Export.[ `identifier` ] .zip**« , l’identificateur étant un ID unique pour l’exportation, qui peut être utilisé pour résoudre des problèmes.
 
-Si vous avez à la fois des plans d’appels et un routage direct, le fichier exporté peut contenir des données pour les deux produits. Le fichier du rapport d’utilisation PSTN aura le nom de fichier **« PSTN.calls.[ `UTC date` ]. csv**« . En plus des fichiers RSTN et du routage direct, l’archive contient le fichier «parameters.json **»,** avec l’plage et les fonctionnalités d’exportation sélectionnées (le cascher).
+Si vous avez à la fois des plans d’appels et un routage direct, le fichier exporté peut contenir des données pour les deux produits. Le fichier du rapport d’utilisation PSTN aura le nom de fichier **« PSTN.calls.[ `UTC date` ] .csv**» En plus des fichiers RSTN et du routage direct, l’archive contient le fichier «parameters.json **»,** avec l’plage et les fonctionnalités d’exportation sélectionnées (le cascher).
 
-Le fichier exporté est un fichier de valeurs séparées par des virgules (CSV), conforme à la norme [RFC 4180.](https://tools.ietf.org/html/rfc4180) Le fichier peut être ouvert dans Excel ou tout autre éditeur conforme aux normes sans nécessiter de transformation.
+Le fichier exporté est un fichier de valeurs séparées par des virgules (CSV), conforme à la norme [RFC 4180.](https://tools.ietf.org/html/rfc4180) Le fichier peut être ouvert en même temps que Excel’éditeur conforme aux normes sans nécessiter de transformation.
 
 La première ligne du CSV contient les noms de colonnes.
 
@@ -133,11 +135,11 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
 > | 1 | ID d’appel | `nvarchar(64)` | Identificateur d’appel. Non garantit que son caractère unique n’est pas garanti |
 > | 2 | ID de conférence | `nvarchar(64)` | ID de la conférence audio |
 > | 3 | Emplacement de l’utilisateur | `nvarchar(2)` | Code de pays de l’utilisateur, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | AAD ObjectId | `uniqueidentifier` | Appel de l’ID d’utilisateur dans Azure Active Directory.<br/> Ces informations utilisateur et les autres utilisateurs seront null/vides pour les types d’appels de bots (ucap_in, ucap_out) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | Appelez l’ID d’utilisateur dans Azure Active Directory.<br/> Ces informations utilisateur et les autres utilisateurs seront null/vides pour les types d’appels de bot (ucap_in, ucap_out) |
 > | 5 | UPN | `nvarchar(128)` | UserPrincipalName (nom de la signature) dans Azure Active Directory.<br/>Il s’agit généralement de l’adresse SIP de l’utilisateur et de l’adresse de messagerie de l’utilisateur. |
 > | 6 | Nom d’affichage de l’utilisateur | `nvarchar(128)` | Nom d’affichage de l’utilisateur |
 > | 7 | ID de l’appelant | `nvarchar(128)` | Numéro de l’appel pour les appels entrants ou numéro composé pour les appels sortants. [Format E.164](https://en.wikipedia.org/wiki/E.164) |
-> | 8 | Type d'appel | `nvarchar(32)` | Qu’il s’agissait d’un appel RSTN sortant ou entrant et du type d’appel tel qu’un appel passé par un utilisateur ou une conférence audio |
+> | 8 | Type d'appel | `nvarchar(32)` | Si l’appel était un appel entrant ou sortant PSTN et le type d’appel tel qu’un appel passé par un utilisateur ou une audioconférence |
 > | 9 | Type de numéro | `nvarchar(16)` | Le type de numéro de téléphone de l’utilisateur, tel qu’un service de numéro gratuit |
 > | 10 | Nationaux/Internationaux | `nvarchar(16)` | Si l’appel était national (dans un pays ou une région) ou international (en dehors d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur |
 > | 11 | Destination Dialed | `nvarchar(64)` | Pays ou région composé |
@@ -153,21 +155,21 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Rapport d’activité Skype Entreprise](activity-report.md) Vous pouvez voir le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
+- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
-- [Rapport d’utilisation de Skype Entreprise sur des appareils](device-usage-report.md) Vous pouvez voir les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
+- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
     
-- [Rapport d’activité d’organisateur de conférences Skype Entreprise](conference-organizer-activity-report.md) Vous pouvez voir combien de fois vos utilisateurs organisent des conférences qui utilisent la messagerie instantanée, l’audio/la vidéo, le partage d’application, le web, /dial out - tiers et /dial out - Microsoft.
+- [Skype Entreprise activité de l’organisateur de conférences](conference-organizer-activity-report.md) Vous pouvez voir combien de fois vos utilisateurs organisent des conférences qui utilisent la messagerie instantanée, l’audio/la vidéo, le partage d’application, le web, /dial out - tiers et /dial out - Microsoft.
     
-- [Rapport d’activité de participation à des conférences Skype Entreprise](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences audio/vidéo, de messagerie instantanée, de partage d’applications, de web et de mise en conférence audio en cours de participation.
+- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences audio/vidéo, de messagerie instantanée, de partage d’applications, de web et de mise en conférence audio en cours de participation.
     
-- [Rapport d’activité P2 P2L Skype Entreprise](peer-to-peer-activity-report.md) Vous pouvez voir le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’application et du transfert de fichiers par utilisateur.
+- [Skype Entreprise rapport d’activité P2 P2 P2](peer-to-peer-activity-report.md) Vous pouvez voir le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’application et du transfert de fichiers par utilisateur.
     
-- [Rapport de blocage d’utilisateurs Skype Entreprise](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus effectuer d’appels PSTN.
+- [Skype Entreprise les utilisateurs bloqués](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus effectuer d’appels PSTN.
 
-- Le rapport sur les pools de [minutes PSTN Skype](pstn-minute-pools-report.md) Entreprise vous permet de consulter le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
+- Skype Entreprise des pools de [minutes PSTN](pstn-minute-pools-report.md) vous indiquent le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
 
-- [Rapport des détails de la session Skype Entreprise](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
+- [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

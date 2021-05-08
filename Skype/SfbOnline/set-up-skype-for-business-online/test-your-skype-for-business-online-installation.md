@@ -19,20 +19,22 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164293"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239515"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Gagnez du temps, évitez d'appeler le support technique et augmentez la satisfaction des utilisateurs en testant votre installation Skype Entreprise Online avant de la configurer pour toutes les personnes de votre organisation.
 
 Voici ce dont vous aurez besoin :
 
-- Au moins trois comptes Microsoft 365 ou Office 365 (le vôtre et au moins deux autres).
+- Au moins trois Microsoft 365 ou Office 365 comptes (le vôtre et au moins deux autres).
 
 - Un ordinateur pour chaque compte test. Configurez-les à l'image d'un ordinateur standard au sein de votre organisation.
 
@@ -51,7 +53,7 @@ Voici ce dont vous aurez besoin :
 ## <a name="set-up-test-accounts"></a>Configurer des comptes test
 <a name="__toc328126910"> </a>
 
-1. Allez à **l’administrateur** Microsoft 365 ou aux utilisateurs et groupes  >   **Office 365,** puis sélectionnez Ajouter et  >  entrer les informations ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) requises.
+1. Sélectionnez **Administrateur Microsoft 365** ou Office 365 utilisateurs et groupes, puis sélectionnez Ajouter et  >   entrer les informations   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) requises.
 
 2. Lorsque vous parvenez à l'étape 4 (messagerie électronique), entrez votre propre adresse de messagerie. Vous obtenez alors un enregistrement du nom et du mot de passe du nouvel utilisateur.
 
@@ -62,7 +64,7 @@ Voici ce dont vous aurez besoin :
 
 Sur chaque ordinateur test :
 
-1. Sur la page d’accueil de Microsoft 365 ou Office 365, connectez-vous à l’aide des informations d’identification de l’un de vos comptes test.
+1. Dans la page Microsoft 365 ou Office 365'accueil, connectez-vous à l’aide des informations d’identification de l’un de vos comptes test.
 
 2. Accédez à **Paramètres**![Paramètres : mettre à jour votre profil, installer le logiciel et le connecter au cloud](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), puis cliquez sur **Installer le logiciel et le connecter au cloud**.
 
@@ -137,7 +139,7 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Présentation de diapositives PowerPoint dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Votre présentation PowerPoint est affichée sur l'ordinateur de tous les utilisateurs dans la fenêtre de partage de réunion Skype Entreprise.  <br/> |
 |[Transfert d'un fichier dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Une fois la pièce jointe téléchargée, tous les participants à la réunion peuvent l'afficher et la télécharger.  <br/> |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

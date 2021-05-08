@@ -1,5 +1,5 @@
 ---
-title: Appel sortant d’une réunion Skype Entreprise pour que d’autres personnes y participent
+title: Faire un appel sortant d’Skype Entreprise réunion pour que d’autres personnes y participent
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,21 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Découvrez ce dont vous avez besoin et comment les organisateurs de réunion peuvent appeler d’autres personnes avec Skype Entreprise.
-ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164283"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238499"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appel sortant d’une réunion Skype Entreprise pour que d’autres personnes y participent
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Faire un appel sortant d’Skype Entreprise réunion pour que d’autres personnes y participent
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > Si vous recherchez des informations sur les appels sortants depuis une réunion Teams, voir [Appels sortants à partir d’une réunion Teams afin que d’autres personnes la rejoignent](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
+En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de Skype Entreprise pour que d’autres personnes participent à la réunion à l’aide de leur téléphone. Même si ce n'est pas obligatoire, lorsque vous appelez quelqu'un, il est recommandé de composer le numéro complet, avec l'indicatif du pays ou de la région. Pour que l'appel sortant aboutisse :
   
-- Vous ne pouvez faire appel sortant que si vous participez à une réunion à l’aide d’une application Skype Entreprise.
+- Vous ne pouvez faire appel sortant que si vous participez à une réunion à l’aide d’Skype Entreprise appentes.
     
 - En tant qu’organisateur de la réunion, vous avez été activé pour l’audioconférence.
 
@@ -58,10 +60,10 @@ La mise en conférence n'est disponible que vers certains pays ou certaines rég
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur l’audioconférence ?
 
-[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licences de complément Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

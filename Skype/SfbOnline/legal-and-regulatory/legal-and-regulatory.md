@@ -20,11 +20,13 @@ f1.keywords:
 ms.custom:
 - Legal
 description: 'Il s’agit d’un contenu qui doit être publié conformément aux exigences en matière d’accessibilité, de conformité et de réglementation pour Skype Entreprise Online en France. '
-ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693099"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238656"
 ---
 # <a name="legal-and-regulatory"></a>Obligations réglementaires et légales
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

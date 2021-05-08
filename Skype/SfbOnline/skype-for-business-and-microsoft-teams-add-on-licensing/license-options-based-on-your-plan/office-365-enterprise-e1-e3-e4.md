@@ -1,5 +1,5 @@
 ---
-title: Plans Office 365 Entreprise, E1, E3 et E4
+title: Office 365 Entreprise, E1, E3 et E4
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,28 +21,30 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 54b24f2e3debf58305214bbc48dac56babcfc681
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777959"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238472"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) ou E4, voici les compléments de licences que vous pouvez acheter pour obtenir d'autres fonctionnalités Skype Entreprise.
 
 |||
 |:-----|:-----|
 |**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Audioconférence** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
+|**Audioconférence** <br/> Achetez 1 **licence d’audioconférence** pour chaque personne qui planifiera ou organisera une réunion rendez-vous. Les participants n'ont pas besoin de licences. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
 |**Des numéros gratuits pour un accès rendez-vous à vos réunions et la possibilité de faire un appel sortant depuis une réunion pour ajouter une personne en appelant n’importe quel numéro de téléphone dans le monde entier** <br/> |[Crédits de communication](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Système téléphonique** <br/> |1. **Module ajouté Office 365 Phone System** <br/> 2. Forfaits d’appels : achetez un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Système téléphonique** <br/> |1. **Système téléphonique Office 365** le module <br/> 2. Forfaits d’appels : achetez un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Messagerie vocale cloud** <br/> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
 |**Forfaits d’appel** <br/> |1. Module complémentaire **Système téléphonique** <br/> 2. [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez l’acquérir qu’après avoir acheté le complément **Système téléphonique**. <br/> |
    
  > [!IMPORTANT]
- > Les licences Office 365 E4 ont été officiellement retirées. Pour plus d’informations, consultez les informations importantes pour les [clients d’Office 365 Entreprise E4.](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147)
+ > Office 365 Les licences E4 ont été officiellement retirées. Pour plus [d’informations, voir Office 365 Entreprise E4 vos](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) clients.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clients E1 et E3 : comment connaître les prix et procéder à l'achat
 <a name="bkmk_buypremium"> </a>
@@ -53,7 +55,7 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 
    ![Pour acheter une licence de module add-on, sélectionnez Acheter des modules add-ons.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
-3. Après avoir acheté une **licence Phone System,** le prix et l’option d’achat d’un forfait d’appels s’offrent à vous.
+3. Une fois que vous avez **Système téléphonique** licence de licence, le prix et l’option d’achat d’un forfait d’appels s’offrent à vous.
 
 ### <a name="partners-how-to-see-prices-and-buy"></a>Partenaire : Comment connaître les prix et procéder à l'achat
 <a name="bkmk_partners"> </a>
@@ -62,14 +64,14 @@ L'offre E3 est comprise dans votre abonnement Action Pack. Pour acheter des modu
 
 1. Achetez un siège d’offre E3 sur notre [site web de marketing.](https://go.microsoft.com/fwlink/?LinkId=24393) Choisissez l'option d'ajout du siège à votre client actuel.
 
-2. Connectez-vous au Centre d’administration et **allez** aux  >  **modules**  >  **ajouts Abonnements à la facturation.**
+2. Connectez-vous au Centre d’administration et allez **aux**  >  **modules**  >  **ajouts Abonnements à la facturation.**
 
-    Les prix et l’option d’achat des modules add-ons **Phone System** et **Audio Conferencing** sont désormais consultables.
+    Les prix et l’option d’achat des modules Système téléphonique et **d’Audioconférence** sont désormais consultables. 
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Pourquoi l'option d'achat de compléments ne s'affiche-t-elle pas ?
 <a name="bkmk_how"> </a>
 
-Dans quelques situations, l’option d’achat de modules add-ons Skype Entreprise n’est pas disponible dans le Centre d’administration Microsoft 365.
+Dans quelques situations, l’option d’achat de modules Skype Entreprise n’est pas disponible dans le Microsoft 365 d’administration.
 
 - **Vous avez acheté Microsoft 365 Business Standard via GoDaddy.** Dans ce cas, vous ne pouvez pas acheter de compléments de licence Skype Entreprise. Vous devez passer à l’offre E3 (que GoDaddy ne vend pas) et vous pouvez ensuite les acheter. [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

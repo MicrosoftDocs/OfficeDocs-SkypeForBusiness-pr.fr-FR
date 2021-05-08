@@ -20,14 +20,16 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Télécharger, installer et utiliser Windows PowerShell 5.1 pour créer une session PowerShell distante se connectant à Skype Entreprise Online.
-ms.openlocfilehash: ed719a2df084c968c622a54fe145647b2d7b7aa8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb73ccdf63cc64cbe309de1ff5223090d1c282bb
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120333"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239331"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Télécharger et installer Windows PowerShell 5.1
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Si vous utilisez la mise à jour anniversaire Windows 10 ou Windows Server 2016, vous utilisez déjà Windows PowerShell 5.1. En effet, cette application est préinstallée avec ces systèmes d’exploitation.
   

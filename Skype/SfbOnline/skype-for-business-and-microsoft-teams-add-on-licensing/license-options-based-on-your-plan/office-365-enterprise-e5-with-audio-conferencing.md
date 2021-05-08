@@ -20,15 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'En savoir plus sur les licences de modules supplémentaires, les fonctionnalités et l’achat d’une offre Office 365 Entreprise. '
-ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'En savoir plus sur les licences de modules supplémentaires, les fonctionnalités et la façon d’acheter des Office 365 Entreprise de projets. '
+ms.openlocfilehash: caa062e78fff49750c85e5db180081a96cae9f34
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010577"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238427"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 Le plan [Office 365 Entreprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) inclut la plupart des fonctionnalités Skype Entreprise. Quelques options supplémentaires ont été ajoutées.
   

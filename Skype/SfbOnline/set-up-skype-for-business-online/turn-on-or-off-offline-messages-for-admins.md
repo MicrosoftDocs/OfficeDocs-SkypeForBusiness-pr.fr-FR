@@ -19,32 +19,34 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 82b6b6c70e129d152d716cdc2567a9776b9d0302
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fc340cff109d33a3a5afeaf6b1b2b09ae7f6ba3b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103820"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239160"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
-Vous pouvez envoyer des messages iM Skype Entreprise à vos contacts même s’ils ne sont pas encore inscrits. Cette fonctionnalité permet à vos contacts de savoir que vous avez essayé de les joindre. Vous n’avez pas à attendre qu’une personne soit en ligne pour lui envoyer un message.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Vous pouvez envoyer Skype Entreprise messages à vos contacts, même s’ils ne sont pas encore inscrits. Cette fonctionnalité permet à vos contacts de savoir que vous avez essayé de les joindre. Vous n’avez pas à attendre qu’une personne soit en ligne pour lui envoyer un message.
 
 Pour les messages hors connexion, il est important de savoir que :
 
 - les messages hors connexion ne seront archivés dans la boîte aux lettres de l'utilisateur ;
 
-- Les messages hors connexion seront envoyés vers la boîte aux lettres de l’utilisateur et seront avertis lorsqu’il se connectera à Skype Entreprise.
+- Les messages hors connexion sont envoyés vers la boîte aux lettres de l’utilisateur, et il est averti lorsqu’il se connecte Skype Entreprise.
 
-- Si le statut du destinataire  du message est Ne pas déranger ou En **présentation,** il reçoit un message manqué envoyé par le client Skype Entreprise du destinataire.
+- Si le statut du destinataire  du message est Ne pas déranger ou En **présentation,** il reçoit un message manqué envoyé par le client de réception Skype Entreprise destinataire.
 
-Pour plus d’informations, consultez l’utilisation de la messagerie [hors connexion dans Skype Entreprise.](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)
+Pour plus d’informations, [voir Utiliser la messagerie hors connexion dans Skype Entreprise.](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)
 
 ## <a name="to-get-you-started"></a>Pour commencer
 
 > [!NOTE]
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
-1. Installez le [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
+1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
@@ -55,14 +57,14 @@ Pour plus d’informations, consultez l’utilisation de la messagerie [hors con
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-Pour plus d’informations sur le démarrage d Windows PowerShell, voir Se connecter à tous les [services Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) dans une seule fenêtre Windows PowerShell ou Configurer votre ordinateur pour une [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Pour plus d’informations sur le démarrage d’Windows PowerShell, consultez Connecter à tous les [services Office 365 dans](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) une seule fenêtre Windows PowerShell ou configurer votre ordinateur pour une [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="turning-on-or-off-offline-im"></a>Activation ou désactivation de la messagerie instantanée hors connexion
 
 > [!NOTE]
-> Les messages  hors connexion ne sont disponibles que dans la dernière version du client Skype Entreprise « À exécuter en un clic » et ne le sont pas lorsqu’un ancien fichier Skype Entreprise « À exécuter en un clic » est utilisé ou qu’un fichier *.msi a été utilisé pour installer le client Skype Entreprise.
+> Les messages  hors connexion ne sont disponibles que dans la dernière version du client Skype Entreprise « Exécuter en un clic » et ne le sont pas lorsqu’une ancienne Skype Entreprise « Exécuter en un clic » est utilisée ou qu’un fichier *.msi a été utilisé pour installer le client Skype Entreprise.
 
-Pour activer ou désactiver l’envoi de messages hors connexion aux utilisateurs de votre organisation, définissez  _EnableIMAutoArchiving sur_ `True` ou `False` . Par défaut, cette option est définie sur `True` .
+Pour activer ou désactiver l’envoi de messages hors connexion aux utilisateurs de votre organisation, définissez  _EnableIMAutoArchiving_ sur `True` ou `False` . Par défaut, cette option est définie sur `True` .
 
 Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 
@@ -81,15 +83,15 @@ Pour activer ou désactiver l’envoi de messages hors connexion à un utilisate
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 et Skype Entreprise Online depuis un seul point d’administration, ce qui simplifie votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 et Skype Entreprise Online à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
   - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [Six raisons d’utiliser des Windows PowerShell pour gérer Microsoft 365 ou Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Six raisons d’utiliser des Windows PowerShell pour gérer des Microsoft 365 ou des Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

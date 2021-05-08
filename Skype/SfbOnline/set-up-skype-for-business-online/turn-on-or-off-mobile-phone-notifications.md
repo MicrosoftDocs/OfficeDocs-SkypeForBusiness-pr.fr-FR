@@ -20,19 +20,21 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Découvrez comment activer ou désactiver les notifications par téléphone mobile pour que vos utilisateurs reçoivent des alertes concernant la messagerie vocale et les messages instantanés entrants et manqués.
-ms.openlocfilehash: 4eefd581da09c2767c0ab44b514d33e7a3fb4d8c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 43e45f4b5ac288bb0272af520d0f3b1fc6e15695
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093342"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239216"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 
-> [!IMPORTANT]
-> Le Centre d’administration Microsoft Teams a remplacé le Centre d’administration Skype Entreprise (portail hérité). Tous les paramètres de gestion de Skype Entreprise sont désormais dans le Centre d’administration Teams. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-En tant qu’administrateur de **[votre](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** organisation, vous pouvez choisir si vos utilisateurs Skype Entreprise reçoivent des alertes concernant les messages instantanés entrants et manqués lorsqu’ils utilisent leur téléphone mobile ou tablette.
+> [!IMPORTANT]
+> Le Microsoft Teams d’administration a remplacé Skype Entreprise centre d’administration principal (portail hérité). Tous les paramètres de gestion des Skype Entreprise sont désormais dans le Centre Teams’administration. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+
+En tant qu’administrateur dans **[Applications Microsoft 365 pour les PME](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de votre organisation, vous pouvez choisir si vos utilisateurs Skype Entreprise reçoivent des alertes concernant les messages instantanés entrants et manqués lorsqu’ils utilisent leur téléphone mobile ou leur tablette.
   
 Sur les téléphones Android et Windows, les notifications Skype Entreprise s'affichent en temps réel. Pour les appareils Windows Phone, iPhone et iPad, en revanche, des notifications Push sont utilisées pour afficher les alertes lorsque vous n'utilisez pas Skype Entreprise de manière active sur votre téléphone ou votre tablette.
   
@@ -41,9 +43,9 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Connectez-vous à Microsoft 365.
+1. Connectez-vous pour Microsoft 365.
     
-2. Allez au Centre d'> **dans Skype Entreprise.**
+2. Go to admin center > **Skype Entreprise.**
     
 3. Accédez à **Organisation** > **Général**. 
     
@@ -58,7 +60,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 - Une fois les notifications Push désactivées, les utilisateurs ne peuvent plus les réactiver.
     
 > [!IMPORTANT]
->  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez [la Déclaration de confidentialité pour les produits Microsoft Skype Entreprise.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
+>  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez [la Déclaration de confidentialité pour les Skype Entreprise Microsoft.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
 ## <a name="related-topics"></a>Rubriques connexes
 

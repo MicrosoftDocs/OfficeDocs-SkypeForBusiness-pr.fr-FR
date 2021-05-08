@@ -19,28 +19,30 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Comment utiliser un compte relais IP pour le Canada.
-ms.openlocfilehash: fd02fe763c8913a76c5fff6e1cf765a8fce425b5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7f276bdf921fdc721ef1df883d3c5d714e4a94f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706679"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238666"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>Relais IP au Canada - guide de l’utilisateur
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Description du service relais de messages IP de Microsoft :
 
 ## <a name="scenario-a"></a>Scénario A
-Si une personne malentendante ou malentendante souhaite contacter une personne non atteinte, elle « discute » par le biais d’un client web spécial appelé appelant.
+Si une personne malentendante ou malentendante souhaite contacter une personne non atteinte, elle « discute » par le biais d’un client web spécial appelé « Appelant ».
 
-Il communique ensuite avec la personne malentendante ou malentendante par le biais de la session de conversation et contacte la personne non atteinte par le biais du réseau téléphonique, n’importe où au Canada ou aux États-Unis, selon les besoins.
+Le télécondentateur communique ensuite avec la personne malentendante ou malentendante par le biais de la session de conversation et contacte la personne non atteinte par le biais du réseau téléphonique, n’importe où au Canada ou aux États-Unis, selon les besoins.
 
 ## <a name="scenario-b"></a>Scénario B
 Si une personne non atteinte souhaite parler à un utilisateur malentendant ou malentendant inscrit, elle appelle le numéro gratuit fourni par Microsoft.
 
-Le responsable d’appel communique ensuite avec la personne non atteinte et contacte la personne malentendante ou malentendante par le biais d’une conversation, et communique avec lui.
+Il communique ensuite avec la personne non atteinte et contacte la personne malentendante ou malentendante par le biais d’une conversation, et communique avec elle.
 
-La personne malentendante ou malentendante ne doit-elle pas être en ligne dans le programme de conversation ; si une adresse de messagerie est disponible, la personne en question enverra un courrier électronique à la personne malentendante ou malentendante, si elle le demande.
+La personne malentendante ou malentendante ne doit-elle pas être en ligne dans le programme de conversation; si une adresse de messagerie est disponible, la personne appelant enverra un courrier électronique à la personne malentendante ou malentendante, si elle le demande.
 
 ## <a name="scenario-c"></a>Scénario C
 Si une personne malentendante ou malentendante nécessite une assistance d’urgence, elle peut sélectionner le bouton approprié : 911 – Police / 911 – Feu / 911 – Qu’est-ce que c’est ?
@@ -61,7 +63,7 @@ Une fois connecté, les instructions s’affichent sur le côté gauche de l’�
 3. Dans la partie inférieure de la nouvelle zone qui apparaît, tapez votre message.
 
 ### <a name="how-to-receive-a-voice-to-text-call"></a>Comment recevoir un appel de voix à texte :
-- Les utilisateurs voix doivent connaître votre nom d’utilisateur de relais de message IP afin de passer un appel de voix à texte.
+- Les utilisateurs voix doivent connaître votre nom d’utilisateur de relais de message IP pour passer un appel de voix à texte.
 - Les utilisateurs Voix peuvent appeler le (866) 660-8613 pour se connecter avec un opérateur de relais de messages IP.
 - Vous devez être connecté au portail Relais de messages IP pour recevoir des appels ou des conversations.
 
@@ -81,7 +83,7 @@ Contactez les projets spéciaux à [l specialprojects@northern911.com](mailto:sp
 > [!IMPORTANT]
 > Northern911 gère le service de relais IP pour le compte de Microsoft.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Relais IP au Canada - inscription](ip-relay-canada-email-signup.md)
 

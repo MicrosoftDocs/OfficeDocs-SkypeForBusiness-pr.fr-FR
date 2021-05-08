@@ -1,5 +1,5 @@
 ---
-title: Modifier les paramètres de diffusion de réunion Skype pour votre organisation
+title: Modifier les paramètres Réunion Skype diffusion pour votre organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,26 +19,28 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les stratégies de ces réunions.
-ms.openlocfilehash: 75b1894f486d6448662c459b0d77d4f5d3057a2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Vous pouvez activer Réunion Skype diffusion et modifier les paramètres et les stratégies de ces réunions.
+ms.openlocfilehash: fae53601c858bf67db57352e18dbc9799243f996
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106550"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238646"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Modifier les paramètres de diffusion de réunion Skype pour votre organisation
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Modifier les paramètres Réunion Skype diffusion pour votre organisation
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Le Centre d’administration Microsoft Teams a remplacé le Centre d’administration Skype Entreprise (portail hérité). Tous les paramètres de gestion de Skype Entreprise sont désormais dans le Centre d’administration Teams. Pour gérer les fonctionnalités de Skype Entreprise dans le Centre d’administration Teams, vous devez avoir le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) d’administrateur global ou d’administrateur Skype Entreprise. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Le Microsoft Teams d’administration a remplacé Skype Entreprise centre d’administration principal (portail hérité). Tous les paramètres de gestion des Skype Entreprise sont désormais dans le Centre Teams’administration. Le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur global ou de l’administrateur de Skype Entreprise vous doit être attribué pour gérer les fonctionnalités de gestion des Skype Entreprise dans le Teams d’administration. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
-Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les stratégies de ces réunions.
+Vous pouvez activer Réunion Skype diffusion et modifier les paramètres et les stratégies de ces réunions.
   
-- **Activer la diffusion de réunion Skype** Active la diffusion de réunion Skype. Après avoir activé la diffusion de réunion Skype, vous devez configurer [votre réseau pour la diffusion de réunion Skype.](set-up-your-network-for-skype-meeting-broadcast.md) Cette étape est prise en compte si vous souhaitez organiser des webinaires ou d’autres diffusions pour des personnes extérieures à votre entreprise. 
+- **Activer Réunion Skype diffusion** Active Réunion Skype diffusion. Après avoir activé Réunion Skype, vous devez configurer votre réseau pour [Réunion Skype diffusion.](set-up-your-network-for-skype-meeting-broadcast.md) Cette étape est prise en compte si vous souhaitez organiser des webinaires ou d’autres diffusions pour des personnes extérieures à votre entreprise. 
     
-- **Activer les fonctionnalités de diffusion de réunion Skype pour mon organisation** Les programmes clients de Skype Entreprise vous permettent d’accéder en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de jeter un coup d’œil furtive aux nouveautés et d’avoir la possibilité de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public.<br/>[Version préliminaire de Skype Entreprise](https://www.skypepreview.com/)
+- **Activer Réunion Skype fonctionnalités de prévisualisation de la diffusion pour mon organisation** Les Skype Entreprise clients vous offrent un accès en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de découvrir les nouveautés et d’avoir la possibilité de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public.<br/>[Skype Entreprise’aperçu](https://www.skypepreview.com/)
     
-- **Autoriser les organisateurs à planifier des réunions anonymes** Cela permet aux organisateurs de créer des événements de diffusion qui permettent à tous les utilisateurs extérieurs à leur organisation de participer sans avoir à se connecter.
+- **Autoriser les organisateurs à planifier des réunions anonymes** Cela permet aux organisateurs de créer des événements de diffusion qui permettent à toute personne extérieure à l’organisation de participer sans avoir à se connecter.
     
 - **Autoriser l’enregistrement des réunions diffusées** Ainsi, toutes les réunions que vous devez enregistrer doivent être enregistrées par le présentateur ou l’organisateur.
     

@@ -10,42 +10,42 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Découvrez comment gérer Microsoft Teams à l’aide de Teams PowerShell.
+description: Découvrez comment gérer Microsoft Teams’aide Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8494f7951a051f95f9b934d04f274a020446b6cd
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 71f68c813a1379c29cf64ad732eb5da1ffe4d188
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617746"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238970"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Gérer Teams avec Microsoft Teams PowerShell
 
 Cet article vous explique comment utiliser Microsoft Teams PowerShell pour gérer Teams et Skype Entreprise. 
 
-Utilisez ces recommandations conjointement avec la référence de [l’cmdlet Microsoft Teams](/powershell/teams/?view=teams-ps) et la référence de l’cmdlet [Skype Entreprise.](/powershell/skype/intro?view=skype-ps)
+Utilisez ces recommandations conjointement avec la référence Microsoft Teams de la [cmdlet](/powershell/teams/?view=teams-ps) et la [Skype Entreprise des cmdlet.](/powershell/skype/intro?view=skype-ps)
 
 ## <a name="create-and-manage-teams-using-powershell"></a>Créer et gérer des équipes à l’aide de PowerShell
 
 Les cmdlets de création et de gestion des équipes sont dans le [module Microsoft Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/)
 
-Teams est backed by Office 365 Groups, so when you create a team, you create a group. Un ensemble d’lets est fourni pour l’exploitation de l’équipe principale et de ses paramètres (, , ), la gestion des utilisateurs de l’équipe ( , ), ainsi que des ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` cmdlets ``new-teamchannel`` pour la gestion des canaux de l’équipe ( , ``remove-teamchannel`` ). Toutes ces cmdlets peuvent être exécutés en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes propriétaire ou dont vous êtes membre. Si vous êtes un administrateur général ou un administrateur de service Teams, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
+Teams sont backed by Office 365 groups, so when you create a team, you create a group. Un ensemble d’lets est fourni pour l’exploitation de l’équipe principale et de ses paramètres (, , ), la gestion des utilisateurs de l’équipe ( , ), ainsi que des ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` cmdlets ``new-teamchannel`` pour la gestion des canaux de l’équipe ( , ``remove-teamchannel`` ). Toutes ces cmdlets peuvent être exécutés en tant qu’utilisateurs finaux, mais elles ne fonctionnent que sur les équipes dont vous êtes propriétaire ou dont vous êtes membre. Si vous êtes administrateur général ou administrateur Teams de groupe, vous pourrez agir sur toutes les équipes de votre organisation.
 
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
-> Le **GroupId utilisé** dans les cmdlets de module Microsoft Teams PowerShell est identique à la propriété **Identity** renvoyée par le module ``Get-UnifiedGroup`` Exchange PowerShell.
+> **L’ID Groupid** utilisé dans Microsoft Teams cmdlets de module PowerShell est identique à la propriété **Identity** renvoyée par le ``Get-UnifiedGroup`` module Exchange PowerShell.
 
 ## <a name="manage-policies-via-powershell"></a>Gérer les stratégies via PowerShell
 
 > [!NOTE]
-> - Skype Entreprise Online Connector est en cours de consolidation dans Teams PowerShell. Elle est actuellement disponible en prévisualisation publique. Dans le temps, les cmdlets Skype Entreprise Online qui s’appliquent à Teams seront disponibles en natif dans le module Teams PowerShell. Les étapes d’installation sont disponibles dans [l’article Installer Teams PowerShell.](teams-powershell-install.md)
+> - Skype Entreprise Online Connector est en cours de consolidation dans Teams PowerShell. Elle est actuellement disponible en prévisualisation publique. Dans le temps, Skype Entreprise cmdlets Online qui s’appliquent à Teams seront disponibles en natif dans le module Teams PowerShell. Les étapes d’installation sont disponibles dans [l’article Teams PowerShell.](teams-powershell-install.md)
 >
-> - Les cmdlets seront disponibles dans votre session PowerShell une fois que vous serez connecté à Skype Entreprise Online. Pour plus d’informations, [consultez Gérer Skype Entreprise Online avec PowerShell Office 365.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> - Les cmdlets seront disponibles dans votre session PowerShell une fois que vous serez connecté à Skype Entreprise Online. Pour plus d’informations, voir [Gérer Skype Entreprise Online avec Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
-Recherchez les cmdlets de gestion des stratégies dans le [module d’cmdlet Skype Entreprise.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+Recherchez les cmdlets de gestion des stratégies dans [le module d Skype Entreprise de commande.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 Une stratégie est un groupe de paramètres qui peuvent être appliqués de façon granulaire à des utilisateurs individuels. Chaque type de stratégie possède son propre ensemble d’lets pour la création, l’affichage, la suppression et la mise à jour des stratégies proprement dits, puis l’attribution de ces stratégies aux utilisateurs. La structure générale est la :
 
@@ -58,7 +58,7 @@ Une stratégie est un groupe de paramètres qui peuvent être appliqués de faç
    - Pour modifier la stratégie qui sera par défaut affectée aux utilisateurs de votre organisation pour qui une stratégie personnalisée n’est pas attribuée, ``Set-Cs<PolicyName> -Identity Global`` exécutez.
 
 - **Commandes** REMOVE (par exemple) : supprime une stratégie personnalisée créée ``Remove-CsTeamsMeetingPolicy`` dans votre client. Si vous supprimez une stratégie personnalisée affectée à au moins un utilisateur de votre organisation, cet utilisateur revenira à la stratégie globale.
-   - Vous ne pouvez pas vraiment supprimer la stratégie globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft dans votre organisation, ``Remove-Cs<PolicyName> -Identity Global`` exécutez.
+   - Vous ne pouvez pas vraiment supprimer la stratégie globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft pour la stratégie globale de votre organisation, ``Remove-Cs<PolicyName> -Identity Global`` exécutez.
 
 - **Commande GRANT** (par exemple, ``Grant-CsTeamsMeetingPolicy`` ) : affecte une stratégie à un utilisateur particulier.
    - Pour supprimer une affectation de stratégie personnalisée et faire en sorte que l’utilisateur revenir à la stratégie par défaut dans votre organisation, ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` exécutez.
@@ -72,9 +72,9 @@ Paramètres courants :
 
 ## <a name="manage-configurations-via-powershell"></a>Gérer les configurations via PowerShell
 
-Recherchez les cmdlets pour gérer votre configuration dans le [module d’let de commande Skype Entreprise.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+Recherchez les cmdlets pour gérer votre configuration dans [le module Skype Entreprise de commande.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
-Les configurations sont des compartiments de paramètres conservés dans le service qui ne peuvent pas être spécifiés au niveau de l’utilisateur. Les paramètres s’appliquent toujours à l’ensemble de l’organisation. Votre configuration globale est la seule configuration efficace au niveau de votre organisation. Chaque type de configuration est fourni avec deux cmdlets principales :
+Les configurations sont des compartiments de paramètres conservés dans le service qui ne peuvent pas être spécifiés au niveau de l’utilisateur. Paramètres s’appliquent toujours à l’ensemble de l’organisation. Votre configuration globale est la seule configuration efficace au niveau de votre organisation. Chaque type de configuration est fourni avec deux cmdlets principales :
 
 - ``Get-Cs<ConfigurationName>`` (par exemple, ``Get-CsTeamsClientConfiguration`` ) :
 
@@ -83,16 +83,16 @@ Les configurations sont des compartiments de paramètres conservés dans le serv
 
 ## <a name="what-can-each-admin-role-do"></a>Que peuvent faire chaque rôle d’administrateur ?
 
-Lisez [Utiliser les rôles d’administrateur](using-admin-roles.md) Microsoft Teams pour gérer Teams afin de comprendre quels rôles d’administrateur peuvent exécuter chaque cmdlet PowerShell.
+Lisez [Utiliser Microsoft Teams rôles d’administrateur](using-admin-roles.md) pour gérer Teams pour comprendre quels rôles d’administrateur peuvent exécuter chaque cmdlet PowerShell.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Installation de Teams PowerShell](teams-powershell-install.md)
+[Installation Teams PowerShell](teams-powershell-install.md)
 
-[Notes de publication de Teams PowerShell](teams-powershell-release-notes.md)
+[Teams Notes de publication de PowerShell](teams-powershell-release-notes.md)
 
-[Référence de l’cmdlet Teams](/powershell/teams/?view=teams-ps)
+[Teams des cmdlet](/powershell/teams/?view=teams-ps)
 
-[Référence de l’cmdlet Skype Entreprise](/powershell/skype/intro?view=skype-ps)
+[Skype Entreprise des cmdlet](/powershell/skype/intro?view=skype-ps)
 
 [Utiliser des rôles d’administrateur pour gérer Teams](using-admin-roles.md)

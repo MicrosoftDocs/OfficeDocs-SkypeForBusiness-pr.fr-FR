@@ -20,35 +20,37 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 405d6eb151542b5e95651fc5903afc7b41fcfb3b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44204835"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238287"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité sur les produits Microsoft 365 ou Office 365 au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
 
 Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) vue d’ensemble des rapports.
   
-Tout comme les autres rapports Skype Entreprise, ce rapport vous fournit les détails des conférences organisées dans votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise. 
+Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les conférences organisées dans votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise. 
   
 > [!NOTE]
-> Tous les rapports Skype Entreprise sont consultez lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>Comment obtenir le rapport d'organisateur de conférences Skype Entreprise
 
 1. Allez au Centre d’administration pour **>'utilisation**  >  **des rapports.**
     
-2. Sur la page **Utilisation,** sélectionnez **l’activité d’organisateur** de conférences Skype Entreprise dans la liste Sélectionner  >  **un rapport** sur la gauche. Vous pouvez également cliquer sur le widget **d’activité Skype** Entreprise, puis sur l’activité d’organisateur de **conférences Skype** Entreprise dans la liste **d’activités de Skype** Entreprise.
+2. Dans la page  **Utilisation,** sélectionnez Skype Entreprise activité  > **d’organisateur** de conférences dans la liste Sélectionner **un rapport** sur la gauche. Vous pouvez également cliquer sur Skype Entreprise widget  **d’activité,** puis sur Skype Entreprise activité d’organisateur de conférence dans la **Skype Entreprise d’activités.**
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpréter le rapport d'organisateur de conférences Skype Entreprise
 
-Vous pouvez obtenir un affichage de vos conférences Skype Entreprise organisées en regardant les graphiques **Activité,** Utilisateurs et **Minutes.** 
+Vous pouvez obtenir un affichage de vos conférences Skype Entreprise qui ont été organisées en regardant les graphiques **Activité,** Utilisateurs **et** **Minutes.**
   
-![Rapport de conférences organisées dans Skype Entreprise](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
+![Skype conférences organisées pour les entreprises](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le rapport **Activité d'organisateur de conférences Skype Entreprise** peut être consulté pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur un jour en particulier dans le rapport, la table (voir le numéro 7) affiche les données sur 30 jours, jusqu’à la date (voir numéro 2) à laquelle le rapport a été généré.
@@ -69,7 +71,7 @@ Vous pouvez obtenir un affichage de vos conférences Skype Entreprise organisée
 Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le graphique d'activité **Activité**, l'axe Y correspond au nombre total de conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web, une fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft tenues par les utilisateurs dans votre organisation. 
 *    Dans le graphique d'activité **Utilisateurs**, l'axe Y correspond au nombre total d'utilisateurs qui ont tenu des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web, une fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft organisées par les utilisateurs de votre organisation.
-*    Dans  le graphique d’activité minutes, l’axe Y indique le nombre total de minutes audio/vidéo, de minutes en appels sortants avec Microsoft et de minutes en appels sortants avec Microsoft pour les conférences organisées par les utilisateurs dans votre organisation.  
+*    Dans  le graphique d’activité des minutes, l’axe Y indique le nombre total de minutes audio/vidéo, de minutes en appels sortants avec Microsoft et de minutes en appels sortants avec Microsoft pour les conférences organisées par les utilisateurs dans votre organisation.  
 
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier. 
 ***
@@ -79,7 +81,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 * **Nom d'utilisateur** est le nom de l'utilisateur. 
 * **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
   > [!NOTE]
-  > L’activité d’un utilisateur supprimé continue à s’afficher dans un rapport si cet utilisateur était titulaire d’une licence à un moment ou à un autre pendant la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
+  > L’activité d’un utilisateur supprimé continue à s’afficher dans un rapport si cet utilisateur a été titulaire d’une licence à un moment ou à un autre pendant la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.
      
 * La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée. 
 * **Dernière date d'activité (UTC)** est la dernière date d'activité (UTC) pour cet utilisateur. 
@@ -87,7 +89,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 * **Audio/vidéo** indique le nombre total de conférences audio/vidéo organisées.
 * **Partage d'application** indique le nombre total de conférences en partage d'application organisées. 
 * **Web** indique le nombre total de conférences web organisées. 
-* **Appels** sortants et appels sortants – Tiers indique le nombre total de conférences audio en appel/en sortie organisées avec un fournisseur de services d’audioconférence tiers. 
+* **Appels sortants et** appels sortants – Tiers indique le nombre total de conférences audio en appel/en sortie organisées avec un fournisseur de services d’audioconférence tiers. 
 * **Microsoft affiche le** nombre total de conférences audio en appel/sortant qui ont été organisées. 
 * **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo organisées. 
 * **Les minutes d’appels rendez-vous** avec Microsoft indiquent le nombre total de minutes d’appels rendez-vous utilisés lors de réunions organisées avec Microsoft comme fournisseur de services d’audioconférence. 
@@ -95,29 +97,29 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 
 Si la politique de votre organisation vous empêche de consulter les rapports sur lequel sont identifiables les informations des utilisateurs, vous pouvez modifier les paramètres de confidentialité de tous ces rapports. Consultez la **section Comment puis-je masquer les détails** du niveau de l’utilisateur ? dans les rapports d’activité [du Centre d’administration.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 ***
-![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton d’exportation des rapports Skype Entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
+![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Skype Entreprise Bouton Exporter des rapports.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***
 ![Numéro 10](../images/sfbcallout10.png)<br/>Cliquez ou appuyez sur **l’icône** Colonnes dans l’une des colonnes pour ajouter ou supprimer des colonnes dans le rapport.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Rapport d’activité Skype Entreprise](activity-report.md) Vous pouvez voir le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
+- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
-- [Rapport d’utilisation de Skype Entreprise sur des appareils](device-usage-report.md) Vous pouvez voir les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
+- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
     
-- [Rapport d’activité de participation à des conférences Skype Entreprise](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour qui il y a des participants.
+- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour qui il y a des participants.
     
-- [Rapport d’activité P2 P2L Skype Entreprise](peer-to-peer-activity-report.md) Vous pouvez voir le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’application et du transfert de fichiers par utilisateur.
+- [Skype Entreprise rapport d’activité P2 P2 P2](peer-to-peer-activity-report.md) Vous pouvez voir le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’application et du transfert de fichiers par utilisateur.
     
-- [Rapport de blocage d’utilisateurs Skype Entreprise](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus effectuer d’appels PSTN.
+- [Skype Entreprise les utilisateurs bloqués](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus effectuer d’appels PSTN.
     
-- [Rapport d’utilisation de la PSTN Skype Entreprise](pstn-usage-report.md) Vous pouvez voir le nombre de minutes passées pour des appels entrants/sortants, ainsi que les coûts de ces appels.
+- [Skype Entreprise d’utilisation PSTN](pstn-usage-report.md) Vous pouvez voir le nombre de minutes passées pour des appels entrants/sortants, ainsi que les coûts de ces appels.
     
-- Le rapport sur les pools de [minutes PSTN Skype](pstn-minute-pools-report.md) Entreprise vous permet de consulter le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
+- Skype Entreprise des pools de [minutes PSTN](pstn-minute-pools-report.md) vous indiquent le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
 
-- [Rapport des détails de la session Skype Entreprise](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
+- [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
