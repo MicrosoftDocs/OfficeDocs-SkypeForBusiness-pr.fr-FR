@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
-ms.openlocfilehash: f4c8831408ed5c17073456306c0f48add73161ff
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84037d571bf6f9dc3451793678a6d1b650492bd9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100520"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240076"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurer les stratégies de conférence pour votre organisation
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer.
   
@@ -39,13 +41,13 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
 ## <a name="set-your-conferencing-policies"></a>Définir vos stratégies de conférence
 
 > [!NOTE]
-> Pour tous les paramètres de stratégie de conférence dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et le Centre **d’administration** **Skype Entreprise.** 
+> Pour tous les paramètres de stratégie de conférence dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous ne pouvez pas utiliser le Centre **d’administration** **Skype Entreprise.** 
 
-### <a name="start-windows-powershell"></a>Commencer Windows PowerShell
+### <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
  > [!Note]
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
-1. Installez le [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
+1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
@@ -56,7 +58,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Pour plus d’informations sur le démarrage d’Windows PowerShell, voir Se connecter à tous les [services Microsoft 365 ou Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) dans une seule fenêtre Windows PowerShell ou Configurer votre ordinateur pour une [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Pour plus d’informations sur le démarrage d’Windows PowerShell, consultez Connecter pour tous les [services Microsoft 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) ou Office 365 dans une seule fenêtre Windows PowerShell ou configurer votre ordinateur pour une Windows PowerShell. [](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
       
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquer les transferts de fichiers et le partage de bureau pendant les réunions
 
@@ -65,7 +67,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
    
@@ -83,7 +85,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
    
@@ -101,7 +103,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
@@ -116,15 +118,15 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 et Skype Entreprise Online depuis un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 et Skype Entreprise Online à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Six raisons d’utiliser des Windows PowerShell pour gérer Microsoft 365 ou Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Six raisons d’utiliser des Windows PowerShell pour gérer des Microsoft 365 ou des Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

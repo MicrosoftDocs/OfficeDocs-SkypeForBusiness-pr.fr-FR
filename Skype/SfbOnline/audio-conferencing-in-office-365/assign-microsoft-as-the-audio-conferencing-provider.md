@@ -22,33 +22,35 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: b0276b0f5ed50e3c287bc872de45d6c1c4c69157
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 74469a7686855d1bb17627282a9f2e5378a0d59e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110040"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237760"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Affectation de Microsoft en tant que fournisseur d’audioconférence
 
-Pour utiliser l’audioconférence dans Microsoft 365 ou Office 365 avec Skype Entreprise et Microsoft Teams, les utilisateurs de votre organisation doivent avoir une licence d’audioconférence. Pour plus d’informations sur les licences et leur coût, voir Essayer ou acheter l’audioconférence dans [Microsoft 365 ou Office 365.](try-or-purchase-audio-conferencing-in-office-365.md)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le service d'audioconférence Microsoft fournit des numéros d'appel, des codes personnels et des ID qui peuvent âtre utilisées par les participants pour rejoindre des réunions au sein de votre organisation. Vous devez affecter Microsoft comme fournisseur de services d’audioconférence aux personnes qui vont planifier ou diriger des réunions Skype Entreprise ou Microsoft Teams.
+Pour utiliser l’audioconférence dans Microsoft 365 ou Office 365 avec Skype Entreprise et Microsoft Teams, les utilisateurs de votre organisation doivent avoir une licence d’audioconférence. Pour [plus d’informations](try-or-purchase-audio-conferencing-in-office-365.md) sur les licences et leur coût, voir Tester ou acheter l’audioconférence Microsoft 365 ou Office 365 d’informations sur les licences et leur prix.
+
+Le service d'audioconférence Microsoft fournit des numéros d'appel, des codes personnels et des ID qui peuvent âtre utilisées par les participants pour rejoindre des réunions au sein de votre organisation. Vous devez seulement affecter Microsoft comme fournisseur de services d’audioconférence aux personnes qui vont planifier ou diriger Skype Entreprise ou Microsoft Teams réunions.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Affectation de Microsoft en tant que fournisseur d’audioconférence
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Icône montrant le logo Skype Entreprise](../images/sfb-logo-30x30.png) Utilisation du centre d'administration Skype Entreprise
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Icône représentant le logo Skype Entreprise’affichage](../images/sfb-logo-30x30.png) Utilisation du centre d'administration Skype Entreprise
 
-1. Allez sur le **portail hérité du Centre**  >  **d’administration** Microsoft Teams.
+1. Go to the **Microsoft Teams admin center** Legacy  >  **portal.**
     
-2. Dans le **Centre d’administration Skype Entreprise,** dans le panneau de navigation de gauche, allez à **l’audioconférence.**
+2. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez à **l’audioconférence.**
     
 3. Si vous voyez une bannière vous avertissant que des utilisateurs disposent d'une licence **Audioconférence** mais n'ont pas affecté Microsoft en tant que fournisseur de service d'audioconférence, cliquez sur **Cliquer ici pour les déplacer**. Si vous ne voyez pas la bannière, dans le **centre d'administration Skype Entreprise** cliquez sur **Utilisateurs**, puis sélectionnez le filtre **Utilisateurs prêts à être déplacés vers Audioconférence** .
     
-4. Dans la page de propriétés de l’utilisateur, sous **Nom du fournisseur,** **sélectionnez Microsoft** dans la liste de listes..
+4. Dans la page des propriétés de l’utilisateur, sous **Nom du fournisseur,** **sélectionnez Microsoft** dans la liste de listes de liste.
     
     > [!NOTE]
     > Étant donné que vous utilisez Microsoft comme fournisseur de services d’audioconférence et qu’il existe plusieurs numéros de téléphone, vous pouvez utiliser la liste de listes des numéros gratuits par défaut pour sélectionner un numéro audio par défaut pour l’utilisateur. 
@@ -196,5 +198,5 @@ Script.ps1 -CsvFile <Path of the csv file>
 Pour plus d'informations sur l'utilisation de Windows PowerShell, consultez la rubrique [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
  [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

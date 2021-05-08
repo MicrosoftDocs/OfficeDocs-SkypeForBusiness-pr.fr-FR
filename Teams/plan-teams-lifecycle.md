@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96012732c3f8023535e67cd753a16a7aac32f913
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117802"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240494"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -78,7 +78,7 @@ Les rôles d’administration des équipes déterminent les fonctionnalités aux
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Administrateur du service Teams</td>
+    <td valign="top" colspan="2">Administrateur Teams</td>
     <td valign="top">Gérer le service Teams, et créer et gérer des groupes Microsoft 365</td>
     <td valign="top">Gérer les réunions, y compris les stratégies de réunion, les configurations et les ponts de conférence<sup>1</sup><br><br>Gérer les appels vocaux, y compris les stratégies d’appels, l'inventaire et l’attribution des numéros de téléphone, les files d’attente d’appels et les répondeurs automatiques<sup>1</sup><br><br>Gérer la messagerie, y compris les stratégies de messagerie<sup>1</sup><br><br>Gérer tous les paramètres à l’échelle de l’organisation, notamment la fédération, la mise à niveau de Teams et les paramètres du client Teams<sup>1</sup><br><br>Gérer les équipes de l’organisation et leurs paramètres associés, y compris l’appartenance<sup>2</sup><br><br>Afficher la page de profil des utilisateurs et résoudre les problèmes de qualité des appels à l’aide d’un ensemble avancé d'outils de résolution des problèmes<sup>3</sup></td>
 </tr>
@@ -138,7 +138,7 @@ Les propriétaires de l’équipe invitent les membres, définissent la représe
 
 Les équipes peuvent être issues de différentes méthodes, notamment :
 
--   Créer l’équipe à partir de zéro. Ajoutez les membres en utilisant les alias de messagerie ou noms d’utilisateur ou développez une liste de distribution.
+-   Créez l’équipe à partir de zéro. Ajoutez les membres en utilisant les alias de messagerie ou noms d’utilisateur ou développez une liste de distribution.
 -   Créer l’équipe à partir d’une équipe existante, et utiliser sa configuration de canal et d’application à partir d'un modèle. Vous pouvez aussi utiliser sa liste d’appartenance.
 -   Ajouter une équipe à un groupe Microsoft 365 existant, qui donne également accès à l’équipe à sa boîte aux lettres et à son site SharePoint.
 -   Utiliser les API Teams Microsoft Graph ou des applets de commande PowerShell pour créer des équipes. Les API peuvent créer des équipes par programmation en fonction des attributs du carnet d’adresses global (tels que la région ou le département) ou des processus d’entreprise (engagements clients ou listes de classes par exemple).

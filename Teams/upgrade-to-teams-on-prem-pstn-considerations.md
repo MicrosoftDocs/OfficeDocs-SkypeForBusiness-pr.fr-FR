@@ -1,7 +1,7 @@
 ---
-title: Considérations en rapport avec le PSTN lors de la mise à niveau vers Teams d’Skype Entreprise
-author: dstrome
-ms.author: dstrome
+title: Considérations en rapport avec le PSTN lors de la mise à niveau vers Teams’une Skype Entreprise
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a454b3c23074a1ab7a750e8d282e9a562257eb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 1d2a33b408ffbb4154ce6e872ae9e1e9bb48dd67
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282351"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240504"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considérations en rapport avec la mise à niveau vers Teams un système Skype Entreprise une mise à niveau vers l’ordinateur local
 
@@ -38,7 +38,7 @@ De plus, les articles suivants décrivent les concepts de mise à niveau et les 
 
 
  > [!NOTE]
- > - L’Système téléphonique avec Teams n’est prise en charge que lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode Îles, l’Système téléphonique n’est pris en charge qu’avec Skype Entreprise. 
+ > - L’Système téléphonique avec Teams n’est prise en charge que lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode Îles, l Système téléphonique n’est pris en charge qu’avec Skype Entreprise. 
  > - Les paramètres de passation des appels, de groupe d’appel d’équipe et de délégation d’Skype Entreprise ne sont pas migrés et doivent être recréés pour Teams.
  > - Pour obtenir une vue d’ensemble Microsoft Teams fonctionnalités vocales cloud et vous aider à déterminer la solution vocale Microsoft appropriée pour votre organisation, voir Planifier votre solution Teams [voix.](cloud-voice-landing-page.md)
 
@@ -53,7 +53,7 @@ Il existe quatre scénarios d’appel possibles lors du passage en mode TeamsOnl
 
 - [Un utilisateur sur Skype Entreprise](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)sur site avec Voix Entreprise, qui passe à la connexion en ligne et maintient la connectivité RSTN sur site.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud, et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. 
 
-- [Un utilisateur sur Skype Entreprise site](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)avec Voix Entreprise, qui passe au service en ligne et utilise un plan d’appel Microsoft.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination du déplacement avec l’un des A) du port de ce numéro de téléphone vers un plan d’appels Microsoft ou B) et l’affectation d’un nouveau numéro d’abonné à partir des régions disponibles.
+- [Un utilisateur sur Skype Entreprise site](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)avec Voix Entreprise, qui passe au service en ligne et utilise un plan d’appel Microsoft.  La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination du déplacement avec l’un des A) du port du numéro de téléphone de cet utilisateur vers un plan d’appels Microsoft ou B) et l’affectation d’un nouveau numéro d’abonné à partir des régions disponibles.
 
 Cet article fournit une vue d’ensemble générale uniquement. Pour plus d’informations, voir Système téléphonique les plans [de routage et](direct-routing-landing-page.md) [d’appel directs.](calling-plan-landing-page.md) 
 
@@ -78,7 +78,7 @@ Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 4 sont ré
 3. Si vous le souhaitez, configurez différentes stratégies Teams de ces utilisateurs (par exemple, TeamsMess paysPolicy, TeamsMeetingPolicy, etc.). Cette configuration peut être effectuée à tout moment, mais si vous voulez vous assurer que les utilisateurs ont la configuration correcte lors de la mise à niveau, il est préférable de le faire avant que l’utilisateur soit mis à niveau en mode TeamsOnly.
 
 4. Préparer les utilisateurs sélectionnés pour la migration vocale : 
-   - Si nécessaire, attribuez la licence Teams licence.  En supposant que l’utilisateur est déjà fonctionnel dans Skype Entreprise Online voix sur site, l’utilisateur dispose déjà d’Skype Entreprise Plan 2, ainsi que de Téléphone Microsoft Système. Laissez ces deux plans activés, y compris la licence Skype Entreprise Online (plan 2).  
+   - Si nécessaire, attribuez la licence Teams licence.  En supposant que l’utilisateur est déjà fonctionnel dans Skype Entreprise Online voix sur site, l’utilisateur dispose déjà d’Skype Entreprise Plan 2, ainsi que de Téléphone Microsoft Système. Laissez ces deux plans activés, y compris la licence Skype Entreprise Online Plan 2.  
    - Affectez le site OnlineVoiceRoutingPolicy souhaité. 
 
 5. Mettre à niveau l’utilisateur : ces étapes doivent être coordonnées. 
@@ -95,7 +95,7 @@ Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 5 sont ré
 
 1. Si vous allez définir la stratégie à l’échelle du client sur l’un des modes Skype Entreprise, assurez-vous d’utiliser le mode Îles existant en lui attribuant explicitement le mode Îles, comme décrit précédemment.
 
-2. Si vous ne l’avez pas déjà fait, [configurez l’organisation](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)pour un Skype Entreprise hybride.
+2. Si vous ne l’avez pas déjà fait, configurez l’organisation pour [un Skype Entreprise hybride.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 3. Configurez votre client pour le routage direct. Voir [le résumé de la configuration par client du routage direct.](#summary-of-per-tenant-configuration-of-direct-routing)
 
@@ -114,13 +114,13 @@ Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 5 sont ré
 
 ## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>De Skype Entreprise Server l’offre en local, avec Voix Entreprise, à Microsoft Calling Plan
 
-Dans ce scénario, l’utilisateur est toujours Skype Entreprise sur site, et sa connectivité PSTN est également sur site. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité PSTN signifie le déplacement de l’utilisateur vers le cloud et le portage de son numéro à partir de l’ancien opérateur vers un plan d’appels Microsoft ou l’attribution d’un nouveau numéro à l’utilisateur. 
+Dans ce scénario, l’utilisateur est toujours Skype Entreprise sur site, et sa connectivité PSTN est également sur site. La migration de ces utilisateurs vers le mode TeamsOnly avec la fonctionnalité PSTN implique le déplacement de l’utilisateur vers le cloud et le portage de son numéro à partir de l’ancien opérateur vers un plan d’appels Microsoft ou l’attribution d’un nouveau numéro à l’utilisateur. 
 
 Les étapes de base sont répertoriées ci-dessous.Les étapes 1 à 5 sont répertoriées dans la séquence suggérée, mais elles peuvent être réalisées dans n’importe quel ordre. L’essentiel est que toutes ces étapes soient accomplies avant l’étape 6. 
 
 1. Si vous allez définir la stratégie à l’échelle du client sur l’un des modes Skype Entreprise, assurez-vous d’utiliser le mode Îles existant en lui attribuant explicitement le mode Îles, comme décrit précédemment. 
 
-2. Si vous ne l’avez pas déjà fait, [configurez l’organisation](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)pour un Skype Entreprise hybride. 
+2. Si vous ne l’avez pas déjà fait, configurez l’organisation pour [un Skype Entreprise hybride.](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 
 
 3. Si vous le souhaitez, configurez différentes stratégies Teams de ces utilisateurs (par exemple, TeamsMess paysPolicy, TeamsMeetingPolicy, etc.). Cette configuration peut être effectuée à tout moment, mais si vous voulez vous assurer que les utilisateurs ont la configuration correcte lors de la mise à niveau, il est préférable de le faire avant que l’utilisateur soit mis à niveau vers TeamsOnly. 
 
@@ -144,7 +144,7 @@ Les étapes de base sont répertoriées ci-dessous.Les étapes 1 à 5 sont répe
 2. Associez votre SBC local au service Teams routage direct. Pour plus d’informations, [voir Associer le SBC au service de routage direct d’Système téléphonique.](direct-routing-configure.md) 
 
 3. Cette configuration est essentiellement un miroir de la configuration en local. La configuration en ligne est composée des : 
-   - OnlineVoiceRoutingPolicy (basé sur VoiceRoutingPolicy sur site si la migration d’utilisateurs à partir de Skype Entreprise Online, et sur VoicePolicy si la migration d’utilisateurs à partir du site avec Voix Entreprise).
+   - OnlineVoiceRoutingPolicy (basé sur VoiceRoutingPolicy sur site si la migration d’utilisateurs à partir de Skype Entreprise Online et sur VoicePolicy si la migration d’utilisateurs à partir du site avec Voix Entreprise).
    - Objets OnlinePSTNUsage (selon l’utilisation PSTN en local). 
    - Objets OnlineVoiceRoute (sur la base de VoiceRoute local). 
 

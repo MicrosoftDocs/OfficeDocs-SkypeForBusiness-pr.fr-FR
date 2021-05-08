@@ -20,18 +20,20 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dfd582236289e7a7891b52d34c758f78a95a89f7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220694"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237950"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
 Lorsque vous configurerez les forfaits d’appels, vous devrez affecter un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs.
   
-La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement. Il est possible qu’une adresse d’urgence partiellement correcte, telle qu’un nom de ville mal indiqué, passe malgré tout la validation. Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié. Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.
+La validation d'une adresse postale ou résidentielle implique de s’assurer qu’elle est correcte et formatée correctement. Il est possible qu’une adresse de secours partiellement correcte, telle qu’un nom de ville mal indiqué, passe malgré tout la validation. Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer si elle contient suffisamment d’informations pour acheminer l’appel au centre de services d’urgence approprié. Si c’est le cas, l’adresse est renvoyée comme étant validée et peut ensuite à attribuée à un numéro de téléphone.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

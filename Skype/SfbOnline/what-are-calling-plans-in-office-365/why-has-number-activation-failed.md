@@ -22,14 +22,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: fbe6102069147d4de71d090f4820b53c392ac00e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: be266289f3f4eae6739280165b2e309d0e82e44b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220684"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237920"
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation de numéro a-t-elle échoué ?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si pour une raison quelconque un numéro de téléphone n’est pas activé en raison de la validation de l’adresse, vous devez créer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
@@ -41,7 +43,7 @@ La validation d’adresse est un élément important de la configuration des for
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations comprenant plus de 150 personnes, créez une demande de service pour valider une adresse d'urgence
 
-1. Connectez-vous en tant qu’administrateur à Microsoft 365 ou Office 365 à l’aide de votre compte scolaire ou scolaire.
+1. Connectez-vous en tant qu’administrateur Microsoft 365 ou Office 365 votre compte scolaire ou scolaire.
     
 2. Dans le centre d’administration, dans le panneau de navigation de gauche, cliquez sur **Nouvelle** demande  >  **de service de support.**
     
@@ -93,7 +95,7 @@ La validation d’adresse est un élément important de la configuration des for
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page Demandes **de service** du Centre d’administration Microsoft 365.
+> Le numéro de référence sera répertorié dans la page Demandes **de** service du Microsoft 365 d’administration.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

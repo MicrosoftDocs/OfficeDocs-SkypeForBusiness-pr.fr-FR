@@ -18,16 +18,18 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376557"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240019"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Configurer des stratégies dans votre organisation
 
-Les stratégies permettent de déterminer les fonctionnalités de Skype Entreprise Online qui sont accessibles aux utilisateurs. Pour plus d’informations, consultez les articles suivants.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Les stratégies permettent de déterminer les fonctionnalités Skype Entreprise Online qui sont mis à la disposition des utilisateurs. Pour plus d’informations, consultez les articles suivants.
 
 - [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 - [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilisez Advisor for Teams pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093764"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240549"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -41,7 +41,7 @@ Pour une vue d’ensemble guidée de l’expérience Advisor for Teams, consulte
 
 ## <a name="using-advisor-for-teams"></a>Utilisation d’Advisor for Teams
 
-**Les équipes, les formulaires et les licences Planner sont nécessaires pour utiliser Advisor pour Teams.** Cependant, vous n’avez pas besoin d’être administrateur de Teams pour utiliser Advisor for Teams. Toutes les personnes de votre organisation peuvent l’utiliser. Nous avons créé des autorisations spéciales pour permettre aux utilisateurs non administrateurs d’accéder à Advisor for Teams, même si ce conseiller figure dans le Centre d’administration Teams. Vous DEVEZ être un administrateur Teams, un administrateur de service Teams ou un administrateur général pour ouvrir des évaluations de préparation du client (en raison du fait que les rôles spéciaux non administrateurs n’ont pas accès aux API Microsoft Graph sous-jacentes aux évaluations).
+**Les équipes, les formulaires et les licences Planner sont nécessaires pour utiliser Advisor pour Teams.** Cependant, vous n’avez pas besoin d’être administrateur de Teams pour utiliser Advisor for Teams. Toutes les personnes de votre organisation peuvent l’utiliser. Nous avons créé des autorisations spéciales pour permettre aux utilisateurs non administrateurs d’accéder à Advisor for Teams, même si ce conseiller figure dans le Centre d’administration Teams. Vous DEVEZ être un administrateur Teams, un administrateur Teams ou un administrateur général pour ouvrir des évaluations de préparation du client (en raison du fait que les rôles spéciaux non administrateurs n’ont pas accès aux API Microsoft Graph sous-jacentes aux évaluations).
 
 > [!IMPORTANT]
 > Si **Teams Advisor** n’apparaît pas sous **Planification** dans le centre d’administration Teams, cela signifie que l’utilisateur n’est pas titulaire d’une licence Teams.
@@ -136,7 +136,7 @@ Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor 
 >
 
 > [!IMPORTANT]
-> Le bot Advisor for Teams sert uniquement à envoyer un message de bienvenue à votre équipe déploiement. Il ne recueille pas de données.
+> Le bot Advisor for Teams sert uniquement à envoyer un message de bienvenue à votre équipe déploiement. Il ne collecte pas de données.
 
 > [!IMPORTANT]
 > Le bot Advisor for Teams est activé par défaut. Ne le désactivez pas si vous utilisez ou envisagez d’utiliser Advisor for Teams.

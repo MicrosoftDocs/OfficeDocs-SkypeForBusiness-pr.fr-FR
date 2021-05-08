@@ -20,24 +20,26 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Découvrez comment permettre à des personnes qui utilisent Skype Entreprise de contacter des utilisateurs Skype Entreprise externes à votre organisation et à les ajouter à leur liste de contacts. '
-ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: d68fc27dfb1c77935ce74e278092f6ed4ae3d7dc
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164473"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239833"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Autoriser les utilisateurs de Skype Entreprise à ajouter des contacts Skype
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Avec Skype Entreprise, vos utilisateurs peuvent rechercher et contacter par messagerie instantanéet toute personne utilisant Skype, l'application gratuite ! Cet article vous indique comment procéder pour leur permettre d'ajouter des contacts Skype. 
   
-Pour ce [faire, vous](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) devez avoir des autorisations d’administrateur dans Microsoft 365 ou Office 365.
+Pour ce [faire,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) vous Microsoft 365 ou vous Office 365 d’autorisations d’administrateur.
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
   
-1. Connectez-vous à l’aide de votre compte d’administrateur Microsoft 365 ou Office 365 sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
+1. Connectez-vous à l’Microsoft 365 votre Office 365 administrateur sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     
-2. Dans le Centre d’administration, allez dans les **Centres d’administration**  >  **Skype Entreprise.** 
+2. Dans le Centre d’administration, allez dans Centres   >  **d’Skype Entreprise.** 
     
     ![Sélectionnez le centre d'administration de Skype Entreprise.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

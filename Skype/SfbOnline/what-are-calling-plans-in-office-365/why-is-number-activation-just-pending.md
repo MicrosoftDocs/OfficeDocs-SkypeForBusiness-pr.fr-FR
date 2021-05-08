@@ -22,14 +22,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220674"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237910"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Pourquoi l’activation de numéro est-elle en attente ?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si pour une raison quelconque un numéro de téléphone  n’est pas activé et est répertorié comme en attente en raison de la validation de l’adresse, vous devez créer et envoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
@@ -42,7 +44,7 @@ La validation d’adresse est un élément important de la configuration des for
  
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Pour les organisations comprenant plus de 150 personnes, créez une demande de service pour valider une adresse d'urgence
 
-1. Connectez-vous en tant qu’administrateur à Microsoft 365 ou Office 365 à l’aide de votre compte scolaire ou scolaire.
+1. Connectez-vous en tant qu’administrateur Microsoft 365 ou Office 365 votre compte scolaire ou scolaire.
     
 2. Dans le centre d’administration, dans le panneau de navigation de gauche, cliquez sur **Nouvelle** demande  >  **de service de support.**
     
@@ -94,7 +96,7 @@ La validation d’adresse est un élément important de la configuration des for
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page Demandes **de service** du Centre d’administration Microsoft 365.
+> Le numéro de référence sera répertorié dans la page Demandes **de** service du Microsoft 365 d’administration.
 
 
 > [!NOTE]

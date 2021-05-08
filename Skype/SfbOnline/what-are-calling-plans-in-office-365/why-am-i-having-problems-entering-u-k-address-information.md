@@ -1,5 +1,5 @@
 ---
-title: Pourquoi je n’arrive pas à entrer au Royaume-Uni. des informations sur votre adresse ?
+title: Pourquoi est-ce que j’ai des problèmes pour entrer les informations d’adresse au Royaume-Uni ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,20 +22,22 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: Voici quelques raisons pour lesquelles vous pouvez avoir des problèmes pour valider correctement votre ou vos adresses au Royaume-Uni.
-ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769157"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237930"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi je n’arrive pas à entrer au Royaume-Uni. des informations sur votre adresse ?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi est-ce que j’ai des problèmes pour entrer les informations d’adresse au Royaume-Uni ?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 Voici quelques raisons pour lesquelles vous pouvez avoir des problèmes pour valider correctement votre ou vos adresses au Royaume-Uni.
   
 ## <a name="whats-wrong-with-the-company-name"></a>Problème avec le nom de l’entreprise
 
-Si vous avez un problème pour entrer le nom de la société, n’oubliez pas que :
+Si vous avez un problème pour entrer le nom de l’entreprise, n’oubliez pas que :
   
 - Il peut avoir des lettres, des chiffres et les caractères spéciaux suivants : , / - + . ' &amp; " _ 
     
@@ -78,7 +80,7 @@ Si vous avez un problème pour entrer le nom de la rue, n’oubliez pas que :
     
 - Il ne peut pas commencer par un caractère spécial. 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>Problème avec la ville ou le village.
+## <a name="whats-wrong-with-the-city-or-town"></a>Qu’est-ce qui ne va pas avec la ville ou le village ?
 
 Si vous avez un problème pour entrer le nom de la ville ou du village, n’oubliez pas que :
   

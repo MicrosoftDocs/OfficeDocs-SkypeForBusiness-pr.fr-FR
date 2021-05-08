@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103840"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239402"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 
@@ -144,7 +146,7 @@ Pour installer un certificat SSL tiers sur le serveur ADFS (Active Domain Federa
 
 Cette procédure peut permettre de résoudre l’erreur suivante : **Un problème s’est produit lors de l’acquisition d’un certificat personnel nécessaire pour établir la connexion**.
 
-Pour éliminer les éventuels problèmes d’informations d’identification ou de certificats, commencez par renouveler le certificat de l’utilisateur dans le Gestionnaire de certificats Windows. Pour cela, merci de procéder comme suit :
+Pour éliminer les éventuels problèmes d’informations de certificats ou d’informations d’identification, commencez par renouveler le certificat de l’utilisateur dans le gestionnaire de certificats Windows. Pour ce faire, procédez comme suit :
 
 1. Ouvrez le Gestionnaire de certificats Windows. Pour ce faire, cliquez sur **Démarrer**, puis **Exécuter**, tapez **certmgr.msc**, puis cliquez sur **OK**.
 
@@ -154,7 +156,7 @@ Pour éliminer les éventuels problèmes d’informations d’identification ou 
 
 4. Cliquez avec le bouton droit sur le certificat, puis cliquez sur **Supprimer**.
 
-Ensuite, si l’utilisateur exécute Windows 7, supprimez ses informations d’identification stockées dans le Gestionnaire d’informations d’identification Windows. Pour cela, merci de procéder comme suit :
+Si l’utilisateur exécute Windows 7, supprimez ensuite ces informations d’identification stockées dans le Gestionnaire d’informations d’identification Windows. Pour cela, procédez comme suit :
 
 1. Cliquez sur **Démarrer**, sur **Panneau de configuration**, puis sur **Gestionnaire d’informations d’identification**.
 
@@ -206,7 +208,7 @@ Si vous n’êtes toujours pas en mesure de résoudre les problèmes de connexio
 ## <a name="collect-more-information-and-seek-additional-help"></a>Recueillir d’autres informations et rechercher de l’aide supplémentaire
 <a name="collect-more-information"> </a>
 
-Si vous avez suivi les conseils ci-dessus et ne parvenez toujours pas à résoudre les problèmes de connexion, veuillez recueillir des informations supplémentaires, puis contacter le support technique. Pour cela, merci de procéder comme suit :
+Si vous avez suivi les conseils ci-dessus et ne parvenez toujours pas à résoudre les problèmes de connexion, vous devez recueillir des informations supplémentaires, puis contacter le support technique. Pour cela, procédez comme suit :
 
 1. Récupérez les fichiers journaux et les détails du Journal des événements Windows depuis l’ordinateur de l’utilisateur. Si vous désirez consulter des instructions détaillées, veuillez vous reporter à la rubrique d’aide utilisateur [Activation de la journalisation des erreurs dans Skype Entreprise (Lync)](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 
