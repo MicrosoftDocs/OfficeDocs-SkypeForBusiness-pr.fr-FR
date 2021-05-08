@@ -1,5 +1,5 @@
 ---
-title: Paramètres de la version préliminaire de diffusion de réunion Skype
+title: Réunion Skype Paramètres de la prévisualisation de la diffusion
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,19 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: Le programme d’aperçu client Skype Entreprise vous permet d’accéder en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de découvrir les nouveautés, de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public. Pour en savoir plus, consultez la version préliminaire de Skype Entreprise.
-ms.openlocfilehash: 37c597e2c668bcfb77c928d3c379f9109caf1c49
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Le Skype Entreprise d’aperçu client vous offre un accès en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de découvrir les nouveautés, de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public. Pour en savoir plus, voir Skype Entreprise prévisualisation.
+ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106500"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237500"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a>Paramètres de la version préliminaire de diffusion de réunion Skype
+# <a name="skype-meeting-broadcast-preview-settings"></a>Réunion Skype Paramètres de la prévisualisation de la diffusion
 
-Le programme d’aperçu client Skype Entreprise vous permet d’accéder en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de découvrir les nouveautés, de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public. Pour en savoir plus, consultez la version préliminaire [de Skype Entreprise.](https://www.skypepreview.com/)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Le Skype Entreprise d’aperçu client vous offre un accès en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de découvrir les nouveautés, de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public. Pour en savoir plus, voir [Skype Entreprise prévisualisation.](https://www.skypepreview.com/)
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Présentation de Windows PowerShell et de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

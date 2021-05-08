@@ -20,26 +20,28 @@ ms.custom:
 - Setup
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
-description: 'Personnalisez les invitations aux réunions Skype avec des logos graphiques, de l’aide et des URL juridiques, ainsi que du texte de pied de plan. '
-ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'Personnalisez Skype invitations aux réunions avec des logos graphiques, des URL d’aide et juridiques, et du texte de pied de plan. '
+ms.openlocfilehash: 9998b2edb49b8b1c248fc388974051fe04c69051
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164333"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237520"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations aux réunions Skype Entreprise incluent des informations utiles dont vos utilisateurs peuvent avoir besoin, telles que des liens vers votre site web de support technique et la clause d’exclusion de responsabilité, le logo de votre entreprise et tout autre texte à inclure. 
   
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d'un logo pour les invitations aux réunions
 <a name="__top"> </a>
 
-1. Créez une image d’une taille de 188 pixels de largeur par 30 pixels de hauteur (c’est assez petit).
+1. Créez une image d’une taille d’au plus 188 pixels de largeur par 30 pixels de hauteur (c’est assez petit).
     
 2. Enregistrez l’image au format JPG.
     
-3. Stockez l’image dans un emplacement central accessible à tous les membres de votre entreprise, comme un partage réseau, un dossier OneDrive Entreprise partagé, Dropbox, etc.
+3. Stockez l’image dans un emplacement central accessible à tous les membres de votre entreprise, par exemple un partage réseau, un dossier de OneDrive Entreprise partagé, un Dropbox, etc.
     
     Vous pouvez désormais l’ajouter à vos invitations à des réunions. Passez aux étapes suivantes.
     
@@ -52,7 +54,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
 2. Dans le Centre d’administration, sélectionnez **Centres d’administration**  >  **Skype Entreprise.**
     
-3. Dans le Centre d’administration Skype Entreprise, sélectionnez **Réunions en ligne.** 
+3. Dans le Skype Entreprise d’administration, sélectionnez **Réunions en ligne.** 
     
 4. Remplissez les zones suivantes :
     
@@ -69,14 +71,14 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
    
 5. Cliquez sur **Enregistrer**.
     
-6. Avant que les modifications ne s’inséront dans l’ensemble des services Microsoft 365 ou Office 365, patientez environ une heure. Puis allez dans Outlook et planifier une réunion Skype pour voir à quoi ressemblent vos modifications. 
+6. Patientez environ une heure avant que les modifications ne soit remplie dans l’ensemble Microsoft 365 ou Office 365 services. Puis allez à Outlook et planifier une Skype réunion pour voir à quoi ressemblent vos modifications. 
     
     ![Voici à quoi ressemble une invitation personnalisée, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 <a name="__top"> </a>
 
-[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

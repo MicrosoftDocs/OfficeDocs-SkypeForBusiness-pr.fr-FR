@@ -21,22 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84bf0240270bfc9633f9d845130a6049d36c8cad
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113220"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237730"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Définir la liste des numéros de téléphone inclus sur invite dans Skype Entreprise Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Pour plus d’informations sur comment faire des conférences avec des numéros de téléphone inclus sur invite dans Microsoft Teams, voir [Définir les numéros de téléphone inclus sur invite dans les Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
 
-Dans Microsoft 365 ou Office 365, l’audioconférence permet aux utilisateurs de votre organisation de créer des réunions Skype Entreprise et d’y composer le numéro à l’aide d’un téléphone. Dans Microsoft 365 et Office 365, vous avez la possibilité d’utiliser un pont d’audioconférence Microsoft ou un pont d’audioconférence tiers hébergé par un fournisseur de services d’audioconférence agréé.
+L’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs de votre organisation de créer des réunions Skype Entreprise et d’autoriser les utilisateurs à y composer le numéro à l’aide d’un téléphone. Dans Microsoft 365 et Office 365, vous avez la possibilité d’utiliser un pont d’audioconférence Microsoft ou un pont d’audioconférence tiers hébergé par un fournisseur de services d’audioconférence agréé.
   
 > [!NOTE]
-> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Si vous cherchez à savoir si des numéros de téléphone rendez-vous sont disponibles dans votre région ou pays/région, utilisez les numéros de téléphone vocux du Centre d’administration **Skype** Entreprise, puis cliquez sur Ajouter puis de nouveaux numéros de  >    >   **service.**  Utilisez les listes de **Pays/région**, **Département/région** et **Ville** pour filtrer votre recherche.  En outre, si vous recherchez des numéros d’appel gratuit, sélectionnez **Numéro gratuit** à partir de la liste **Département/région**.
+> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Si vous cherchez à savoir si des numéros de téléphone à composer sont disponibles dans votre région ou pays/région, utilisez le Centre d’administration **Skype Entreprise** Numéros de téléphone Téléphone, cliquez sur Ajouter puis de nouveaux numéros de  >    >   **service.**  Utilisez les listes de **Pays/région**, **Département/région** et **Ville** pour filtrer votre recherche.  En outre, si vous recherchez des numéros d’appel gratuit, sélectionnez **Numéro gratuit** à partir de la liste **Département/région**.
   
 Un pont de conférence vous offre un ensemble de numéros de téléphone pour votre organisation. Tous ces ponts peuvent servir à participer à des réunions créées par un organisateur de réunion, mais vous pouvez sélectionner ceux qui doivent être inclus dans les invitations de réunion.
   
@@ -75,14 +77,14 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
    - **Microsoft est le fournisseur**: utilisez les listes de **numéro de téléphone payant par défaut** et de **numéro d’appel gratuit par défaut** pour sélectionner les numéros par défaut pour l’utilisateur.
     
      > [!NOTE]
-     > Au moins un numéro d’appel gratuit doit être affecté à votre pont de conférence avant qu’il ne puisse être défini comme étant le numéro d’appel gratuit par défaut d’un utilisateur. Pour obtenir un numéro gratuit, consultez obtenir des numéros [de téléphone de service pour Skype Entreprise.](/microsoftteams/getting-service-phone-numbers) 
+     > Au moins un numéro d’appel gratuit doit être affecté à votre pont de conférence avant qu’il ne puisse être défini comme étant le numéro d’appel gratuit par défaut d’un utilisateur. Pour obtenir un numéro gratuit, consultez Obtenir des numéros de [téléphone de service pour Skype Entreprise.](/microsoftteams/getting-service-phone-numbers) 
   
    - **Le fournisseur est un tiers** : utiliser les champs de **Numéro de téléphone payant** et de **Numéro d’appel gratuit** pour indiquer les numéros pour l’utilisateur.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Réinitialiser les numéros de téléphone des services d’audioconférence
 
-1. Dans le **Centre d’administration Skype Entreprise,** sélectionnez **Audioconférence.**
+1. Dans le **Skype Entreprise d’administration,** sélectionnez **Audioconférence.**
     
 2. En haut de la page, choisissez **Utilisateurs**.
     
@@ -136,11 +138,11 @@ Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisa
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -148,4 +150,4 @@ Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisa
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

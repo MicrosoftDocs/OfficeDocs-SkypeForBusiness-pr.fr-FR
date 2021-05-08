@@ -14,19 +14,19 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Découvrez comment personnaliser Microsoft 365 Business Voice pour répondre aux besoins spécifiques de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116002"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130223"
 ---
-# <a name="customize-microsoft-365-business-voice"></a>Personnaliser Téléphonie Microsoft 365 pour les PME
+# <a name="customize-microsoft-365-business-voice"></a>Personnaliser Microsoft 365 Business Voice
 
-L’Assistant Mise en route configure Business Voice avec des options de base pour que vous puissiez l’utiliser immédiatement. Il est possible que ces options soient suffisantes si vous êtes une petite entreprise ou si vous dirigez un programme pilote au sein d’une organisation de plus grande taille. Vous obtenez les concepts de base avec de nouveaux numéros de téléphone et un menu d’appel. 
+La [Configuration Business Voice](set-up-overview.md) configure Business Voice avec des options de base pour que vous puissiez l’utiliser immédiatement. Il est possible que ces options soient suffisantes si vous êtes une petite entreprise ou si vous dirigez un programme pilote au sein d’une organisation de plus grande taille. Vous obtenez les concepts de base avec de nouveaux numéros de téléphone et un menu d’appel.
 
 Cependant, vous souhaiterez probablement personnaliser Business Voice pour mieux répondre aux besoins de votre entreprise. Par exemple, vous voudrez probablement transférer vos numéros de téléphone existants (transfert de numéros) vers Téléphonie pour les PME.
 

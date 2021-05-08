@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Découvrez comment obtenir une assistance de la part d’un revendeur ou d’un partenaire Microsoft pour vous aider à configurer Microsoft 365 Business Voice sans forfait d'appels.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,19 +24,19 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4dd06a36fca100dd74cb49e1920cd2e3d2a31ca2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096910"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129733"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft
 
 > [!IMPORTANT]
 > Les informations contenues dans cet article s’appliquent uniquement à Business Voice **sans** forfait d’appels. Avant de lire cet article, consultez celui sur [Les pays et les régions dans lesquels Business Voice est disponible ](country-region-availability.md) pour savoir si votre pays ou votre région prend en charge Business Voice avec forfait d’appels.
 >
-> Si votre client se trouve dans un pays ou une région qui prend en charge Business Voice avec forfait d’appels, consultez l’article [Utiliser l’Assistant de mise en route pour configurer Business Voice](use-getting-started-wizard.md).
+> Si votre client se trouve dans un pays ou une région qui prend en charge Business Voice avec forfait d’appels, consultez l’article [Configurer Microsoft 365 Business Voice](set-up-overview.md).
 
 La configuration de Business Voice sans forfait d’appels nécessite la configuration du routage direct du système téléphonique. Le routage direct permet l’interopérabilité entre votre équipement téléphonique local, le système téléphonique Microsoft, qui est la fonction principale de Business Voice, et votre opérateur de réseau téléphonique public commuté (RTCP) tiers. Le routage direct nécessitant une connaissance approfondie du système téléphonique Microsoft, de la connectivité RTCP, de la mise en réseau ainsi que d’autres compétences techniques, nous vous recommandons d’utiliser un partenaire ou un revendeur Microsoft pour le configurer. De plus, les licences Business Voice sans forfait d’appels sont disponibles uniquement auprès des partenaires et revendeurs Microsoft.
 
@@ -56,4 +56,3 @@ Lorsque vous demandez à un partenaire ou revendeur Microsoft de configurer Busi
 - Votre connexion Internet
 - Les aspects singuliers de votre organisation, comme la nécessité de prendre en charge les centres d’appels, les menus d’appel du système téléphonique (par exemple, appuyez sur 1 pour les ventes, appuyez sur 2 pour le support technique), les salles de conférence, les kiosques téléphoniques, etc.
 - Le nombre de lieux pris en charge par votre système téléphonique existant et comment leur connectivité est configurée
-

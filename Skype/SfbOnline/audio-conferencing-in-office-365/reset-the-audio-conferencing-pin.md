@@ -1,5 +1,5 @@
 ---
-title: Réinitialiser le code confidentiel de l’audioconférence dans Skype Entreprise Online
+title: Réinitialiser le code confidentiel de l’audioconférence Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,27 +21,29 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les piNs et comment les réinitialiser dans Skype Entreprise Online. '
-ms.openlocfilehash: 4b042775a5a0525099c0116d7d55d0092f560cdf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 95c2d19a7d867d97ab977b722648de1373a4739b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114200"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237750"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence dans Skype Entreprise Online
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence Skype Entreprise Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Pour plus d’informations sur la réinitialisation des codes confidentiels des audioconférences dans Microsoft Teams, consultez la rubrique [Réinitialiser le code confidentiel des audioconférences dans Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
 
-Un code confidentiel est un code composé de nombres, créé pour chaque utilisateur Skype Entreprise activé pour l’audioconférence. Les conférences audioconférences sont utilisées par les organisateurs de la réunion pour identifier qu’ils en sont l’organisateur et les autoriser à démarrer une réunion par téléphone. S’il utilise l’application Skype Entreprise pour commencer la réunion, le code confidentiel n’est pas obligatoire. Si un utilisateur oublie son code confidentiel et qu’il ne le retrouve pas dans le courrier électronique qui lui a été envoyé pour l’audioconférence, un administrateur peut réinitialiser son code confidentiel ou réinitialiser son code confidentiel.
+Un code confidentiel est un code composé de nombres qui est créé pour Skype Entreprise utilisateur activé pour l’audioconférence. Les conférences audioconférences sont utilisées par les organisateurs de la réunion pour identifier qu’ils en sont l’organisateur et les autoriser à démarrer une réunion par téléphone. S’il utilise l’Skype Entreprise pour démarrer la réunion, le code confidentiel n’est pas nécessaire. Si un utilisateur oublie son code confidentiel et qu’il ne le retrouve pas dans le courrier électronique qui lui a été envoyé pour l’audioconférence, un administrateur peut réinitialiser son code confidentiel ou réinitialiser son code confidentiel.
   
-Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié participe à l’aide de l’application Skype Entreprise ou lorsque l’organisateur participe avec son code confidentiel sur le téléphone. Si la réunion nécessite un code confidentiel pour commencer, par défaut, tous les utilisateurs qui rejoignent la réunion par téléphone avant le début de la réunion seront mis en attente jusqu'à ce que la réunion commence. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
+Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rejoint la réunion à l’aide de l’application Skype Entreprise ou lorsque l’organisateur participe avec son code confidentiel sur le téléphone. Si la réunion nécessite un code confidentiel pour commencer, par défaut, tous les utilisateurs qui rejoignent la réunion par téléphone avant le début de la réunion seront mis en attente jusqu'à ce que la réunion commence. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
   
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
     
-2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
+2. Dans le panneau de navigation de gauche du > **Skype Entreprise,** cliquez sur **Audioconférence.**
     
 3. Cliquez sur **Utilisateurs,** puis sélectionnez l’utilisateur pour qui vous voulez réinitialiser le code confidentiel.
     
@@ -60,7 +62,7 @@ Un utilisateur peut réinitialiser un code confidentiel à l’aide de l’optio
 
 ## <a name="what-else-should-you-know-about-pins"></a>Que devez-vous savoir d'autre sur les codes confidentiels ?
 
-- Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Une fois le code confidentiel réinitialisé par un administrateur, il s’intitialise ********* dans le Centre d’administration **Skype** Entreprise et dans les résultats lorsqu’il utilise Get-CsCsOnlineDialInConfencingUser dans Windows PowerShell.
+- Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Une fois le code confidentiel réinitialisé par un administrateur, il s’intitialise ********* dans le Centre d’administration **Skype Entreprise** et dans les résultats lorsqu’il utilise Get-CsCsOnlineDialInConfencingUser dans Windows PowerShell.
     
 - L’envoi automatique de courriers électroniques aux utilisateurs est activé par défaut et les utilisateurs reçoivent un courrier électronique avec leur code confidentiel lorsqu’ils sont activés pour l’audioconférence ou lorsque le code confidentiel est réinitialisé. Toutefois, si vous avez désactivé l’envoi automatique de courriers électroniques, un message de réinitialisation du code confidentiel ne sera pas envoyé à l’utilisateur et vous de aurez à envoyer manuellement les informations de code confidentiel à l’utilisateur.
     
@@ -68,11 +70,11 @@ Un utilisateur peut réinitialiser un code confidentiel à l’aide de l’optio
     
 - Par défaut, les appelants anonymes ne peuvent pas commencer une réunion.
     
-- Lorsque vous activez un utilisateur pour l’audioconférence, il est envoyé par défaut pour recevoir des courriers électroniques qui incluent les informations sur la conférence et son code confidentiel. L’utilisateur doit avoir une boîte aux lettres Microsoft 365 ou Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel est envoyé à l’utilisateur par courrier électronique à son adresse SMTP principale (alias) définie pour l’utilisateur.
+- Lorsque vous activez l’audioconférence pour un utilisateur, celui-ci est envoyé par défaut par courrier électronique qui inclut les informations sur la conférence et son code confidentiel. L’utilisateur doit avoir une boîte aux lettres Microsoft 365 ou Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel est envoyé à l’utilisateur par courrier électronique à son adresse SMTP principale (alias) définie pour l’utilisateur.
     
-- Lorsque vous définissez l’audioconférence, vous définissez les chiffres requis pour les coden de votre organisation. Les codes confidentiels peuvent comporter de 4 à 12 chiffres, la valeur par défaut étant 5. Si vous modifiez le paramètre de longueur du code confidentiel, celui-ci s’applique uniquement aux nouveaux code confidentiels générés et ne s’applique pas au paramètre de code confidentiel pour les utilisateurs déjà activés pour l’audioconférence. Consultez [la longueur du code confidentiel pour les réunions d’audioconférence.](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)
+- Lorsque vous définissez l’audioconférence, vous définissez les chiffres requis pour les codex pin de votre organisation. Les codes confidentiels peuvent comporter de 4 à 12 chiffres, la valeur par défaut étant 5. Si vous modifiez le paramètre de longueur du code confidentiel, celui-ci s’applique uniquement aux nouveaux code confidentiels générés et ne s’applique pas au paramètre de code confidentiel pour les utilisateurs déjà activés pour l’audioconférence. Consultez [la longueur du code confidentiel pour les réunions d’audioconférence.](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)
     
-- Par défaut, le courrier électronique sera réglé sur l’adresse SMTP principale Microsoft 365 ou Office 365 de l’utilisateur. Vous pouvez envoyer un courrier électronique à une adresse non Microsoft 365 ou non-Office 365, telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez changer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Ceci est utile si les utilisateurs n’ont pas de boîte aux lettres Exchange dans Microsoft 365 ou Office 365.
+- Par défaut, l’e-mail est Microsoft 365 ou Office 365 adresse SMTP principale de l’utilisateur. Vous pouvez envoyer un courrier électronique à une adresse de courrier non Microsoft 365 ou non Office 365, telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez changer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Ceci est utile si les utilisateurs n’ont pas de boîte aux lettres Exchange messagerie dans Microsoft 365 ou Office 365.
     
 - Pour remplacer l’adresse utilisateur par défaut dans laquelle le courrier électronique est envoyé, l’administrateur du client peut utiliser l’cmdlet suivante : Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress « u@hotmail.com ». Le paramètre SendEmail est requis pour remplacer l’adresse de courrier de l’utilisateur.
     
@@ -86,11 +88,11 @@ Un utilisateur peut réinitialiser un code confidentiel à l’aide de l’optio
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
