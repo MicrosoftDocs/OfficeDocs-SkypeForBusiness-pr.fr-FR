@@ -16,17 +16,17 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112190"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264874"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
 
-Il existe trois types de fichiers journaux produits automatiquement par le client, que vous pouvez utiliser pour vous aider à résoudre les problèmes de Microsoft Teams :
+Il existe trois types de fichiers journaux produits automatiquement par le client, qui peuvent être mis à profit pour faciliter la résolution des Microsoft Teams :
 
 -   Journaux de débogage
 
@@ -56,7 +56,7 @@ Pour obtenir la liste complète des systèmes d’exploitation et navigateurs pr
 <a name="debug-logs"></a>Journaux de débogage
 ---------------------------
 
-Il s’agit des journaux les plus courants. Ils sont requis pour tous les cas de support Microsoft. Les journaux de débogage sont produits par les clients de bureau Windows et Mac, ainsi que par les clients basés sur le navigateur. Les journaux sont basés sur du texte et sont lus de bas en haut. Ils peuvent être lus à l’aide de n’importe quel éditeur textuel, et de nouveaux journaux sont créés lors de la connexion au client.
+Il s’agit des journaux les plus courants. Ils sont requis pour tous les cas de support Microsoft. Les journaux de débogage sont produits par les clients Windows bureau Mac et les clients de bureau basés sur le navigateur. Les journaux sont basés sur du texte et sont lus de bas en haut. Ils peuvent être lus à l’aide de n’importe quel éditeur textuel, et de nouveaux journaux sont créés lors de la connexion au client.
 
 Les journaux de débogage contiennent les flux de données suivants :
 
@@ -93,9 +93,9 @@ Les journaux de débogage sont téléchargés automatiquement dans les dossiers 
 <a name="media-logs"></a>Journaux des médias
 ---------------------------
 
-Les journaux multimédias contiennent des données de diagnostic sur l’audio, la vidéo et le partage d’écran dans les réunions Teams. Ils sont requis pour les cas de support liés à des problèmes liés aux appels.
+Les journaux multimédias contiennent des données de diagnostic sur l’audio, la vidéo et le partage d’écran Teams réunions. Ils sont requis pour les cas de support liés à des problèmes liés aux appels.
 
-La journalisation multimédia est désactivée par défaut. Pour enregistrer des données de diagnostic pour les réunions Teams, les utilisateurs doivent activer l’option dans le client Teams. Sélectionnez la case à cocher **Paramètres** généraux, activez la case à cocher Activer la journalisation pour les diagnostics de réunion (nécessite le redémarrage de Teams), redémarrez  >  Teams et reproduisez le problème. 
+La journalisation multimédia est désactivée par défaut. Pour enregistrer des données de diagnostic pour Teams réunions, les utilisateurs doivent activer l’option dans le Teams client. Allez à **Paramètres,** activez la case à cocher Activer la journalisation pour les diagnostics de réunion (nécessite le redémarrage de  >   **Teams),** redémarrez Teams et reproduisez le problème. 
 
 Le tableau suivant présente les emplacements des journaux multimédias. Lorsque vous envoyez les fichiers journaux au support Microsoft, vérifiez l’heure et l’heure des fichiers journaux pour vous assurer que les journaux couvrent la période lors de la reproduction du problème.
 
@@ -113,7 +113,7 @@ Voici une liste des fichiers journaux générés et des informations qu’ils co
 
 |Nom du fichier journal  |Description  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | Contient des informations relatives à la pile de médias. Cela inclut l’état des canaux tels que la résolution, les décodeurs et les encodeurs utilisés, le nombre de trames envoyées et reçues, ainsi que l’état de la session de partage d’écran vidéo et de caméra (VBSS).         |
+|Teams,msrtc-0-s1039525249.blog     | Contient des informations relatives à la pile de médias. Cela inclut l’état des canaux tels que la résolution, les décodeurs et les encodeurs utilisés, le nombre de trames envoyées et reçues, ainsi que l’état de la session de partage d’écran vidéo et de caméra (VBSS).         |
 |rtmcontrol.msrtc-0-2415069487.blog      |Enregistre les informations relatives aux actions de contrôle à distance, telles que l’heure à l’donnée du contrôle et les informations du pointeur de la souris.          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |Événements de suivi de pile de fichiers multimédias d’enregistrements.         |
 |Debug-0-s2790420889.blog    | Contient des informations relatives à l’agent multimédia, notamment la qualité de rendu.          |
@@ -126,7 +126,7 @@ Les journaux de bureau, également appelés journaux de la pipette, contiennent 
 
 Windows :
 
- - Cliquez avec le bouton droit **sur l’icône Microsoft Teams** dans votre bac système, puis **sélectionnez Obtenir les journaux.**
+ - Cliquez avec le bouton droit **sur l Microsoft Teams** de connexion dans votre bac système, puis **sélectionnez Obtenir les journaux.**
 
 Mac OsX :
 
@@ -134,7 +134,7 @@ Mac OsX :
 
 Linux :
 
- - Cliquez sur **l’icône Microsoft Teams** dans votre bac système, puis **sélectionnez Obtenir les journaux.**
+ - Cliquez sur **l’Microsoft Teams** dans votre bac système, puis **sélectionnez Obtenir les journaux.**
 
 |Client |Lieu |
 |---------|---------|
@@ -142,6 +142,26 @@ Linux :
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
+
+<a name="browser-trace"></a>Suivi du navigateur
+---------------------------
+
+Pour certaines catégories d’erreurs, le Support Microsoft peut exiger que vous collectiez un suivi du navigateur. Ces informations peuvent fournir des détails importants sur l’état du client Teams lorsque l’erreur se produit.
+
+Avant de commencer la trace du navigateur, assurez-vous que vous êtes bien inscrit à Teams. Il est important de le faire avant de commencer la trace de sorte que celle-ci ne contienne pas d’informations de signature sensibles.
+
+Une fois que vous êtes inscrit, sélectionnez l’un des liens suivants, le cas échéant, pour votre navigateur, puis suivez les étapes fournies. 
+
+-   [Chrome & Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> Au cours des étapes, remplacez toutes les références au portail Azure par le client Teams client. 
 
 ## <a name="related-topics"></a>Voir aussi
 

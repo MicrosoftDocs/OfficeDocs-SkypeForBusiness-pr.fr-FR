@@ -1,13 +1,13 @@
 ---
 title: Vue d’ensemble de l’implémentation de votre mise à niveau vers Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Déterminez le chemin de mise à niveau optimal vers Microsoft Teams en fonction de votre déploiement actuel de Skype Entreprise.
+description: Déterminez le chemin de mise à niveau optimal Microsoft Teams en fonction de votre déploiement Skype Entreprise actuelle.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1774b8bebc1330e69a611e64d4f0a8e01f05febb
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096028"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282371"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Vue d’ensemble de l’implémentation de votre mise à niveau
 
@@ -38,12 +38,12 @@ Cet article fait partie de la phase déploiement et implémentation de votre par
 ## <a name="prerequisite-planning-activities"></a>Activités de planification des conditions préalables
 
 > [!IMPORTANT]
-> Avant de poursuivre votre implémentation de la mise à [](upgrade-plan-journey.md) niveau, confirmez que vous avez lu le contenu de planification à partir de Planifier votre mise à niveau afin de vous assurer que vous avez terminé toutes les planifications préalables.
+> Avant de poursuivre votre implémentation de la mise à niveau, confirmez que vous avez lu le contenu de planification à partir de [Planifier](upgrade-plan-journey.md) votre mise à niveau afin de vous assurer que vous avez terminé toutes les planifications préalables.
 
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)
-- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Coexistence et interopérabilité comprises entre les systèmes Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Pilote d’utilisateur planifié](pilot-essentials.md)
 - [Préparé votre environnement](./upgrade-prepare-environment.md)
@@ -55,9 +55,9 @@ Les étapes à suivre pour effectuer votre mise à niveau vers Teams dépendent 
 
 En fonction de votre environnement actuel, choisissez votre point de départ :  
 
-- **Si vous faites une mise à** niveau de Skype Entreprise Online vers Teams, suivez les étapes de la mise à niveau de Skype Entreprise Online vers [Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
+- **Si vous devez mettre à** niveau Skype Entreprise Online vers Teams, suivez les étapes de la mise à niveau de Skype Entreprise Online vers [Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  Si vous effectuez une mise à niveau à partir d’un environnement local Skype Entreprise, vous devrez effectuer quelques **étapes** supplémentaires pour configurer la connectivité entre vos environnements locaux et en ligne avant de déplacer vos utilisateurs vers Teams. Pour plus d’informations, consultez la mise à niveau de Skype Entreprise en [local vers Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  Si vous effectuez une mise à niveau à partir d’un environnement Skype Entreprise local, vous devrez effectuer quelques **étapes** supplémentaires pour configurer la connectivité entre vos environnements locaux et en ligne avant de déplacer vos utilisateurs vers Teams. Pour plus d’informations, voir Mise Skype Entreprise niveau vers une version [Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

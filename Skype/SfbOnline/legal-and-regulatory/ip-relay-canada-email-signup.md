@@ -18,23 +18,25 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Recherchez un compte IP Relay pour le Canada.
-ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Comment faire la recherche d’un compte relais IP pour le Canada.
+ms.openlocfilehash: 1d1a5f4c493c29ceaa0c0ac885dfb8f4aea81523
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778750"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237140"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Relais IP au Canada - inscription
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Pour configurer un compte relais IP pour le Canada, complétez les informations du tableau ci-dessous et envoyez-les par e-mail [à ptn@microsoft.com.](mailto:ptn@microsoft.com)
 
 |||
 |:-----|:-----|
 |Prénom & nom :||
-|Nom de domaine de l’organisation Microsoft 365 ou Office 365 : <br/>(Exemple : Contoso.com)||
-|Numéro de téléphone de l’utilisateur Microsoft 365 ou Office 365 : <br/>Exemple : +1 XXX XXX XXXX) ||
+|Microsoft 365 nom Office 365 domaine de votre organisation : <br/>(Exemple : Contoso.com)||
+|Microsoft 365 numéro Office 365 d’utilisateur : <br/>Exemple : +1 XXX XXX XXXX) ||
 |Mot de passe (8 à 16 caractères) : ||
 |Adresse physique la plus probable <br/>au moment d’une situation d’urgence :||
 |Numéro de rue & nom :||
@@ -42,8 +44,8 @@ Pour configurer un compte relais IP pour le Canada, complétez les informations 
 |Ville :||
 |Région/État :||
 |Code postal / Code postal :||
-|Numéro de téléphone :||
-|Adresse e-mail Microsoft 365 ou Office 365 :||
+|Téléphone Numéro :||
+|Microsoft 365 adresse Office 365 messagerie électronique :||
 |||
 
 > [!NOTE]

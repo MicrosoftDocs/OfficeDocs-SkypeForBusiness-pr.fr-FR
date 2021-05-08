@@ -1,13 +1,13 @@
 ---
 title: Préparer votre environnement pour la mise à niveau vers Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Validez votre environnement et la préparation de votre réseau avant d’commencer la mise à niveau de Skype Entreprise vers Teams.
+description: Validez la disponibilité de votre environnement et de votre réseau avant d’Skype Entreprise à Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f75d899f2b14915e265ce8d36c57daeaf0ce72d2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e154dc5844c4b8f3994c8c7bc00865c494a4c8c6
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119053"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282141"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers Teams
 
@@ -35,15 +35,15 @@ Cet article fait partie de la phase de préparation technique de votre voyage de
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)
-- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Coexistence et interopérabilité comprises entre les systèmes Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Pour réussir la mise à niveau de Teams dans votre organisation, il est important de valider votre environnement Skype Entreprise actuel et votre préparation réseau. La préparation de votre environnement actuel permettra d’assurer une expérience utilisateur de haute qualité dès maintenant, en plus d’améliorer la qualité de l’expérience utilisateur dans Teams. Prendre le temps de planifier des étapes individuelles peut vous aider à accélérer votre déploiement et à vous assurer que vous n’avez pas ignoré d’éléments d’action importants.
+Pour réussir une mise Teams niveau au niveau de votre organisation, il est important de valider votre environnement Skype Entreprise et votre préparation réseau. La préparation de votre environnement actuel permettra d’assurer une expérience utilisateur de haute qualité dès maintenant, en plus d’améliorer la qualité de l’expérience utilisateur dans Teams. Prendre le temps de planifier des étapes individuelles peut vous aider à accélérer votre déploiement et à vous assurer que vous n’avez pas ignoré d’éléments d’action importants.
 
 Complétez ces activités en parallèle de votre préparation de l’utilisateur :
 
 - [Préparez votre équipe de service technique](upgrade-prepare-IT-pros.md) pour leur permettre de s’assurer qu’ils ont ce dont ils ont besoin pour réussir la mise à niveau.
-- Vérifiez que votre environnement répond à toutes les conditions préalables et comprenez les [dépendances](upgrade-plan-journey-prerequisites.md)entre les services Microsoft 365 ou Office 365 et Teams.
-- [Évaluez votre environnement en](upgrade-plan-journey-evaluate-environment.md) faisant la découverte de l’environnement à l’aide d’un exemple de questionnaire afin de confirmer que votre organisation est prête à entreprendre un parcours de mise à niveau réussi vers Teams.
-- [Préparez votre réseau par le](prepare-network.md) biais de la planification, de la préparation et de la prise des mesures de correction nécessaires pour votre réseau afin de prendre en charge les charges de travail Teams.
-- [Préparez votre service pour](upgrade-prepare-environment-prepare-service.md) le déploiement à l’aide de listes de contrôle d’intégration pour vous assurer que votre configuration de Teams est prête à prendre en charge la migration de vos utilisateurs de Skype Entreprise vers Teams.
+- Vérifiez que votre environnement répond à toutes les conditions préalables et comprenez les [dépendances](upgrade-plan-journey-prerequisites.md)entre les services Microsoft 365 et Office 365 et les Teams.
+- [Évaluez votre environnement en](upgrade-plan-journey-evaluate-environment.md) faisant la découverte de l’environnement à l’aide d’un exemple de questionnaire afin de confirmer que votre organisation est prête à entreprendre une mise à niveau réussie pour Teams.
+- [Préparez votre réseau par le](prepare-network.md) biais de la planification, de la préparation et de la prise des mesures de correction nécessaires pour votre réseau afin de prendre en charge les charges Teams charge de travail.
+- [Préparez](upgrade-prepare-environment-prepare-service.md) votre service au déploiement à l’aide de listes de contrôle d’intégration pour vous assurer que votre configuration d’Teams est prête à prendre en charge la migration de vos utilisateurs d’Skype Entreprise à Teams.

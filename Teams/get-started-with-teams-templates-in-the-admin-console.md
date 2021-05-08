@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c898d8b0d79eae6fb7042ab087e94a0fff5d275f
-ms.sourcegitcommit: 6c1b051c4e29a74bc15cdfd0716893a25ba18719
+ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52207952"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264894"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Commencer à utiliser Teams modèles dans le Centre d’administration
 
@@ -32,7 +32,7 @@ ms.locfileid: "52207952"
 > [!NOTE]
 > Les canaux privés et les étiquettes de sensibilité ne sont actuellement pas pris en charge Teams modèles. La création de canaux privés n’est pas incluse dans les définitions de modèle. L’option d’étiquette de sensibilité dans **Créer une** équipe à partir du flux de modèles ne sera pas appliquée à l’équipe.
 
-Teams modèles sont des définitions pré-intégrées de la structure d’une équipe conçue autour d’un besoin ou d’un projet d’entreprise. Utilisez des modèles pré-intégrés ou créez votre propre modèle. Teams modèles vous permettent de créer rapidement des espaces de collaboration enrichis avec des canaux pour différents sujets et des applications de préinstallation qui permettent d’obtenir du contenu et des services essentiels pour l’entreprise. Teams de projet fournissent une structure d’équipe prédéfinée qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Vous pouvez actuellement créer une équipe à partir d’un modèle dans Teams ou à l’aide [de Microsoft Graph.](get-started-with-teams-templates.md)
+Teams modèles sont des définitions pré-intégrées de la structure d’une équipe conçue autour d’un besoin ou d’un projet d’entreprise. Utilisez des modèles pré-intégrés ou créez votre propre modèle. Teams modèles vous permettent de créer rapidement des espaces de collaboration enrichis avec des canaux pour différents sujets et des applications de préinstallation qui permettent d’obtenir du contenu et des services essentiels pour l’entreprise. Teams de groupe fournissent une structure d’équipe prédéfinée qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Vous pouvez actuellement créer une équipe à partir d’un modèle dans Teams ou à l’aide [de Microsoft Graph.](get-started-with-teams-templates.md)
 
 Cet article décrit les fonctionnalités suivantes :
 
@@ -53,7 +53,7 @@ La plupart des propriétés d’une équipe sont incluses et prise en charge par
 | Description de l’équipe | Paramètres du canal |
 | Visibilité de l’équipe (publique ou privée) | Connecteurs |
 | Paramètres de l’équipe (par exemple, membre, invité, @mentions) | Fichiers et contenu |
-| Canal des masons automatiques | |
+| Canal Des masons automatiques | |
 | Application installée | |
 | Onglets épinglés | |
 
@@ -62,7 +62,7 @@ La plupart des propriétés d’une équipe sont incluses et prise en charge par
 
 ## <a name="what-are-base-template-types"></a>Présentation des types de modèles de base
 
-Les types de modèles de base sont des modèles spéciaux que Microsoft a créés pour des secteurs spécifiques. Ces modèles de base contiennent souvent des applications propriétaires qui ne sont pas disponibles dans le magasin d’applications.
+Les types de modèles de base sont des modèles spéciaux que Microsoft a créés pour des secteurs spécifiques. Ces modèles de base contiennent souvent des applications exclusives qui ne sont pas disponibles dans le magasin d’applications.
 
 Une fois le type de modèle de base défini, vous pouvez étendre ou remplacer ces modèles spéciaux par d’autres propriétés que vous souhaitez spécifier. Certains types de modèles de base contiennent des propriétés qui ne peuvent pas être surchargées.
 
@@ -77,7 +77,7 @@ Une fois le type de modèle de base défini, vous pouvez étendre ou remplacer c
 |Intégrer des employés|`com.microsoft.teams.template.OnboardEmployees` | Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Conversation employé</li> <li>Formation</li></ul>Applications :<ul><li>Wiki</li><li>Communautés</li><li>Planificateur</li><li>Idées des employés</li></ul>|
 |Organiser le service d’aide| `com.microsoft.teams.template.OrganizeHelpDesk`|Canaux :<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Applications :<ul><li>Wiki</li><li>OneNote</li><li>Planificateur </li><li>Compliment</li><li>Issue Reporter</li></ul> |
 | Soins du patient| `healthcareWard`| Canaux :<ul><li>Général</li><li>Annonces</li><li>Blotti</li><li>Rondes</li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li><li>Listes  </li><li>Approbations</li></ul>|
-| Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externe</li><li>Demande d’approbation</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li><li>Issue Reporter</li></ul>|
+| Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externes</li><li>Demande d’approbation</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li><li>Issue Reporter</li></ul>|
 |Agence bancaire| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canaux : <ul><li>Général<li>Annonces</li><li>Blotti</li><li>Réunions avec les clients</li><li>Demande d’approbation </li><li>Desso</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Kudos</li><li>Amusant</li><li>Conformité</li></ul>Applications :<ul><li>Compliment </li><li>Issue Reporter</li></ul>|
 |Réponse à un incident| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li> <li>Approbations</li> <li>Inspection</li> </ul>|
 |Hôpital| `healthcareHospital` |Canaux : <ul><li>Général</li><li>Annonces</li><li>Conformité</li><li>Consignataires</li><li>Ressources humaines</li><li>Pharmacie</li></ul> Applications : <ul><li>Wiki</li><li>Listes  </li></ul>|
@@ -110,6 +110,16 @@ Les modèles sont limités à un nombre spécifique de canaux, d’onglets et d�
 |||
 
 Pour [plus d’informations, voir](limits-specifications-teams.md) les limites et Teams spécifications des données.
+
+## <a name="manage-templates-in-powershell"></a>Gérer les modèles dans PowerShell
+
+Utilisez les cmdlt suivants pour gérer vos modèles dans PowerShell.
+
+- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

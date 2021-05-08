@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 6b9e67d8c87b023409b7934a944f298487f91289
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6596e3e5c52dd82f4f61ad176ae4d656a5f146c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114250"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237320"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres d’audioconférence dans Skype Entreprise Online
 
-> [!Note]
-> Si vous voulez activer ou désactiver l’envoi de courriers électroniques dans Microsoft Teams, consultez activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres de l’audioconférence [dans Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Les utilisateurs sont automatiquement avertis par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de messages électroniques envoyés aux utilisateurs de Skype Entreprise. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
+> [!Note]
+> Si vous voulez activer ou désactiver l’envoi de courriers électroniques dans Microsoft Teams, voir Activer ou désactiver l’envoi de courriers électroniques en cas de modification des [paramètres d’audioconférence dans Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+
+Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de courriers électroniques envoyés à Skype Entreprise utilisateurs. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
   
 Si vous désactivez l’envoi de courriers électroniques, les messages audioconférences ne seront pas envoyés à vos utilisateurs, y compris les courriers électroniques concernant les moments où les utilisateurs sont activés ou désactivés pour l’audioconférence, lorsque leur code confidentiel est réinitialisé, et lorsque l’ID de conférence et le numéro de téléphone de conférence par défaut changent.
   
@@ -60,12 +62,12 @@ Voici un exemple du courrier électronique envoyé aux utilisateurs lorsqu’ils
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver l’envoi de courriers électroniques aux utilisateurs
 
-Vous pouvez utiliser le Centre d’administration de Skype Entreprise Windows PowerShell pour activer ou désactiver le courrier électronique envoyé aux utilisateurs.
+Vous pouvez utiliser le Centre Skype Entreprise d’administration ou Windows PowerShell pour activer ou désactiver le courrier électronique envoyé aux utilisateurs.
 
  
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
     
-1. Dans le **Centre d’administration Skype Entreprise,** dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
+1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
     
 2. Dans la page des **paramètres de pont Microsoft**, activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres d’audioconférence ont été modifiés**.
     
@@ -89,7 +91,7 @@ Vous pouvez utiliser le Centre d’administration de Skype Entreprise Windows Po
     
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Lorsque les messages automatiques sont désactivés, vous pouvez toujours déclencher l’envoi d’un message électronique avec l’ID de conférence et le numéro de téléphone à l’aide du Centre d’administration Skype Entreprise. Toutefois, si vous le faites, le code confidentiel n’est pas inclus. Si vous voulez réinitialiser le code confidentiel de l’audioconférence et que l’envoi de courriers électroniques est désactivé, vous devrez l’envoyer à l’utilisateur par un autre moyen.
+- Lorsque les messages automatiques sont désactivés, vous pouvez toujours déclencher l’envoi d’un courrier électronique avec l’ID de conférence et le numéro de téléphone à l’aide du Centre Skype Entreprise’administration. Toutefois, si vous le faites, le code confidentiel n’est pas inclus. Si vous voulez réinitialiser le code confidentiel de l’audioconférence et que l’envoi de courriers électroniques est désactivé, vous devrez l’envoyer à l’utilisateur par un autre moyen.
     
 - L'envoi de courrier électronique à vos utilisateurs peut être désactivé à l'aide du Centre d'administration Skype Entreprise ou de Windows PowerShell.
     
@@ -105,13 +107,13 @@ Vous pouvez utiliser le Centre d’administration de Skype Entreprise Windows Po
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour plusieurs utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

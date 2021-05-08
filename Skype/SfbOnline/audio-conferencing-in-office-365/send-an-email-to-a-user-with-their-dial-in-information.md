@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Skype Entreprise Online.
-ms.openlocfilehash: f070353069c937a62935e1cc570ebae6c0e981db
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4f4590fcfb9233d7ad2d58358de08db58d014ecc
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109991"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237030"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence dans Skype Entreprise Online
 
-> [!Note]
-> Pour plus d’informations sur l’envoi d’informations sur l’audioconférence à des utilisateurs dans Microsoft Teams, consultez l’occasion d’envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence dans [Les thés Microsoft.](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Parfois, les utilisateurs de Skype Entreprise peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Pour ce faire, utilisez le Centre d’administration **Skype** Entreprise et cliquez sur Envoyer les informations sur la conférence **par** courrier électronique sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, il contient toutes les informations sur l’audioconférence, notamment :
+> [!Note]
+> Pour plus d’informations sur l’envoi d’informations sur l’audioconférence à des utilisateurs dans Microsoft Teams, voir Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence dans [Les thés Microsoft.](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)
+
+Parfois Skype Entreprise utilisateurs peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Pour ce faire, utilisez le Centre d’administration **Skype Entreprise** et cliquez sur Envoyer les informations sur la conférence **par** courrier électronique sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, il contient toutes les informations sur l’audioconférence, notamment :
   
 - Le numéro de téléphone de conférence ou le numéro de téléphone à composer pour l'utilisateur.
     
@@ -57,7 +59,7 @@ Voici un exemple du message électronique envoyé :
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
     
-2. Dans le panneau de > **de Skype** Entreprise, dans le panneau de navigation de gauche, cliquez sur **Audioconférence.**
+2. Dans le panneau de navigation de gauche du > **Skype Entreprise,** cliquez sur **Audioconférence.**
     
 3. Cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur.
     
@@ -82,7 +84,7 @@ Voici un exemple du message électronique envoyé :
     
   - Lorsque Microsoft est le fournisseur de services d’audioconférence d’un utilisateur.
     
-- Par défaut, l’expéditeur des courriers électroniques est Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide d’Windows PowerShell et de la [cmdlet Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) Pour apporter des modifications à l’adresse de messagerie qui envoie le courrier aux utilisateurs, vous devez :
+- Par défaut, l’expéditeur des courriers électroniques est de Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de la cmdlet [Set-CsOnlineDialInConferencingTenantSettings.](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) Pour apporter des modifications à l’adresse de messagerie qui envoie le courrier aux utilisateurs, vous devez :
     
   - Entrez l’adresse de courrier dans le paramètre SendEmailFromAddress.
     
@@ -105,13 +107,13 @@ Voici un exemple du message électronique envoyé :
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- Skype Entreprise Online est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+- Skype Entreprise Online est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour plusieurs utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -124,4 +126,4 @@ Voici un exemple du message électronique envoyé :
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

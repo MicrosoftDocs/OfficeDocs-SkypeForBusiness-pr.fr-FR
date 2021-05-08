@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Découvrez comment utiliser le Centre d’administration de Microsoft Teams ou Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Découvrez comment utiliser le Centre Microsoft Teams d’administration Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
+ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120806"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282361"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
-Après avoir plané les plans de numérotation de votre organisation et compris toutes les règles de normalisation à créer pour le routage des appels, vous êtes prêt à créer les plans de numérotation. Vous pouvez utiliser le Centre d’administration de Microsoft Teams ou Windows PowerShell pour créer et gérer des plans de numérotation.  
+Après avoir plané les plans de numérotation de votre organisation et compris toutes les règles de normalisation à créer pour le routage des appels, vous êtes prêt à créer les plans de numérotation. Avec un compte d’administrateur dispose d’une licence de numérotation Teams valide, vous pouvez utiliser le Centre d’administration Microsoft Teams ou la Windows PowerShell pour créer et gérer des plans de numérotation.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Créer un plan de numérotation
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez au   >  **plan de numérotation vocale.**
+1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez dans **le**  >  **plan de numérotation vocale.**
 2. Cliquez **sur** Ajouter, puis entrez un nom et une description pour le plan de numérotation.
     ![Capture d’écran montrant la page Ajouter pour la création d’un plan de numérotation](media/create-dial-plan.png)
 3. Sous les **détails** du plan de numérotation, spécifiez un préfixe de numérotation externe si les utilisateurs doivent composer un ou plusieurs chiffres de tête supplémentaires (par exemple, 9) pour obtenir une ligne externe. Pour ce faire :
@@ -56,7 +56,7 @@ Après avoir plané les plans de numérotation de votre organisation et compris 
 
 ### <a name="edit-a-dial-plan"></a>Modifier un plan de numérotation
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez au   >  **plan de numérotation vocale.**
+1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez dans **le**  >  **plan de numérotation vocale.**
 2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation, puis cliquez sur **Modifier.**
 3. A apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -192,9 +192,9 @@ Exécutez cette tâche pour supprimer tout TenantDialPlan affecté à tous les u
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-Exécutez-les pour ajouter le plan de numérotation local nommé OPDP1 comme plan de numérotation client pour votre organisation. Vous devez d’abord enregistrer le plan de numérotation local dans un fichier .xml, puis l’utiliser pour créer le plan de numérotation client.
+Exécutez-les pour ajouter le plan de numérotation local nommé OPDP1 comme plan de numérotation client pour votre organisation. Vous devez d’abord enregistrer le plan de numérotation local dans un fichier .xml puis l’utiliser pour créer le plan de numérotation client.
   
-Exécutez l’action ci-après pour enregistrer le plan de numérotation local au fichier .xml.
+Exécutez l’action ci-après pour enregistrer le plan de numérotation local dans .xml fichier.
   
 ```PowerShell
 $DPName = "OPDP1"

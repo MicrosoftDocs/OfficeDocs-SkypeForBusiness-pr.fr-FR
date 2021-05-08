@@ -1,7 +1,7 @@
 ---
-title: Planifier la mise à niveau de Skype Entreprise vers Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Planifier votre mise Skype Entreprise à Microsoft Teams niveau
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,22 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119073"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282121"
 ---
 # <a name="plan-for-your-upgrade"></a>Planifier votre mise à niveau
 
-![Diagramme du voyage de mise à niveau de Teams](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
+![Diagramme du voyage Teams niveau niveaux](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
 
 Un environnement technique sain, l’adoption par les utilisateurs durable et l’accomplissement de vos objectifs professionnels commencent tous par une planification appropriée. Un plan solide offre un cadre pour votre projet de mise à niveau et garantit que toutes les parties prenantes travaillent sur les mêmes objectifs. En prenant le temps de définir correctement le succès, vous pouvez mesurer les résultats à mesure que vous progressez dans votre déploiement et vérifier que vous atteignez les résultats souhaités. La planification de votre voyage inclut :
 
 - [S’inscrire aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Définition de l’étendue de votre projet](./upgrade-define-project-scope.md)
-- [Comprendre la coexistence et l’interopérabilité de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Comprendre la coexistence et l’interopérabilité des Skype Entreprise et des Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Choix de votre voyage de mise à niveau en fonction des besoins de votre entreprise](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Planification d’un pilote d’utilisateur](pilot-essentials.md)
 
