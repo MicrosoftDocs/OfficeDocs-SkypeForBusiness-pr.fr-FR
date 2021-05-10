@@ -617,6 +617,8 @@ items:
             href: google-workspace-addon-teams.md
           - name: Interopérabilité de la vidéo cloud
             href: cloud-video-interop.md
+          - name: Configurer Microsoft Teams pour les webinaires
+            href: set-up-webinars.md
       - name: Audioconférence
         items:
           - name: Planifier votre déploiement
@@ -1267,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: 'Étape 6 : Configurer un standard automatique'
             href: business-voice/set-up-auto-attendant.md
+          - name: "Étape\_7 : port de numéros de téléphone (facultatif)"
+            href: business-voice/port-phone-numbers.md
           - name: Ressources post-installation
             href: business-voice/set-up-finish.md
       - name: Personnalisation de votre configuration
         items:
           - name: Options de personnalisation
             href: business-voice/customize-business-voice.md
-          - name: Transférer des numéros de téléphone
-            href: business-voice/port-phone-numbers.md
           - name: Configurer vos stratégies d’appel
             href: business-voice/set-up-policies.md
           - name: Gérer vos packages de stratégie
@@ -1459,8 +1461,6 @@ items:
             href: flw-realwear.md
           - name: Talkie-walkie
             href: walkie-talkie.md
-          - name: Créer une application de portail intranet Teams à partir d’un site ou d’une page SPO
-            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: Teams pour la vente au détail
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
