@@ -1,16 +1,16 @@
 ---
 title: Comment utiliser un ID d'appelant dans votre organisation
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz
+ms.reviewer: jens, roykuntz
 ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
+ms.service: msteams
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,83 +21,100 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants des utilisateurs de Phone System à l’aide d’une stratégie appelée CallingLineIdentity.
-ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants pour Système téléphonique utilisateurs à l’aide d’une stratégie appelée CallingLineIdentity.
+ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120675"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308343"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="ae8b0-103">Comment utiliser un ID d'appelant dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="ae8b0-103">How can caller ID be used in your organization</span></span>
+# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="6d407-103">Comment utiliser un ID d'appelant dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="6d407-103">How can caller ID be used in your organization</span></span>
 
-<span data-ttu-id="ae8b0-104">L’ID de l’appelant peut être contrôlé pour les appels entrants et sortants des utilisateurs de Phone System à l’aide d’une stratégie appelée CallingLineIdentity.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-104">Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.</span></span>
+<span data-ttu-id="6d407-104">L’ID d’appelant se compose de deux informations identifiables :</span><span class="sxs-lookup"><span data-stu-id="6d407-104">Caller ID consists of two user-facing identifiable pieces of information:</span></span>
+
+- <span data-ttu-id="6d407-105">Un numéro de téléphone (généralement appelé CLID ou ID de ligne d’appel).</span><span class="sxs-lookup"><span data-stu-id="6d407-105">A phone number (typically referred to as CLID or calling line ID).</span></span> <span data-ttu-id="6d407-106">Il s’agit du numéro de téléphone commuté public (PSTN) présenté comme identification de l’appelant.</span><span class="sxs-lookup"><span data-stu-id="6d407-106">This is the Public Switched Telephone Number (PSTN) presented as the identification of the caller.</span></span>
+
+- <span data-ttu-id="6d407-107">Nom de l’appelant (généralement appelé CNAM).</span><span class="sxs-lookup"><span data-stu-id="6d407-107">A Calling party name (typically referred to as CNAM).</span></span> 
   
-<span data-ttu-id="ae8b0-105">La fonctionnalité d’ID d’appelant est disponible pour tous les utilisateurs du système téléphonique, quelle que soit la connectivité PSTN :</span><span class="sxs-lookup"><span data-stu-id="ae8b0-105">The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:</span></span>
+<span data-ttu-id="6d407-108">La fonctionnalité d’ID d’appelant est disponible pour tous Système téléphonique utilisateurs quelle que soit l’option de connectivité PSTN :</span><span class="sxs-lookup"><span data-stu-id="6d407-108">The caller ID functionality is available to all Phone System users regardless of PSTN connectivity option:</span></span>
 
-- <span data-ttu-id="ae8b0-106">Forfaits d’appels Microsoft</span><span class="sxs-lookup"><span data-stu-id="ae8b0-106">Microsoft Calling Plans</span></span> 
+- <span data-ttu-id="6d407-109">Forfaits d’appels Microsoft</span><span class="sxs-lookup"><span data-stu-id="6d407-109">Microsoft Calling Plans</span></span> 
 
-- <span data-ttu-id="ae8b0-107">Routage direct via le système téléphonique</span><span class="sxs-lookup"><span data-stu-id="ae8b0-107">Phone System Direct Routing</span></span> 
+- <span data-ttu-id="6d407-110">Routage direct via le système téléphonique</span><span class="sxs-lookup"><span data-stu-id="6d407-110">Phone System Direct Routing</span></span> 
   
-- <span data-ttu-id="ae8b0-108">Connectivité RTC en ligne</span><span class="sxs-lookup"><span data-stu-id="ae8b0-108">Online PSTN Connectivity</span></span>
-    
-- <span data-ttu-id="ae8b0-109">Connectivité RTC locale avec Skype Entreprise, Édition Cloud Connector (requiert Cloud Connector Édition 1.4.2 et version ultérieure)</span><span class="sxs-lookup"><span data-stu-id="ae8b0-109">On-Premises PSTN Connectivity with Skype for Business Cloud Connector Edition (requires Cloud Connector Edition 1.4.2 and beyond)</span></span>
-    
-- <span data-ttu-id="ae8b0-110">Connectivité RTC locale avec Skype Entreprise Server (requiert Skype Entreprise Server 2015 CU5 et version ultérieure)</span><span class="sxs-lookup"><span data-stu-id="ae8b0-110">On-Premises PSTN Connectivity with Skype for Business Server (requires Skype for Business Server 2015 CU5 and beyond)</span></span>
-    
+<span data-ttu-id="6d407-111">Vous pouvez contrôler l’ID d’appelant pour les appels entrants et sortants à l’aide d’une stratégie appelée CallingLineIdentity.</span><span class="sxs-lookup"><span data-stu-id="6d407-111">You can control Caller ID for both inbound and outbound calls by using a policy called CallingLineIdentity.</span></span> <span data-ttu-id="6d407-112">Pour plus d’informations, voir [Plus d’informations sur l’ID de ligne d’appel et le nom de l’appelant.](more-about-calling-line-id-and-calling-party-name.md)</span><span class="sxs-lookup"><span data-stu-id="6d407-112">For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md).</span></span>
+
+  
+## <a name="outbound-pstn-caller-id"></a><span data-ttu-id="6d407-113">ID d’appelant PSTN sortant</span><span class="sxs-lookup"><span data-stu-id="6d407-113">Outbound PSTN caller ID</span></span>
+
+<span data-ttu-id="6d407-114">Pour l’ID d’appelant PSTN sortant, les options suivantes sont disponibles.</span><span class="sxs-lookup"><span data-stu-id="6d407-114">For the outbound PSTN caller ID, the following options are available.</span></span> 
+
 > [!NOTE]
-> <span data-ttu-id="ae8b0-111">Cette stratégie n'est pas disponible pour Skype Entreprise 2015 Server.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-111">This policy isn't available in Skype for Business 2015 Server.</span></span> 
+> <span data-ttu-id="6d407-115">Certaines options, indiquées ci-dessous, sont disponibles en version d’aperçu.</span><span class="sxs-lookup"><span data-stu-id="6d407-115">Some options, indicated below, are in preview release.</span></span>
   
-## <a name="outbound-caller-id"></a><span data-ttu-id="ae8b0-112">ID d'appelant sortant</span><span class="sxs-lookup"><span data-stu-id="ae8b0-112">Outbound caller ID</span></span>
+- <span data-ttu-id="6d407-116">Le numéro de téléphone affecté à l’utilisateur (valeur par défaut).</span><span class="sxs-lookup"><span data-stu-id="6d407-116">The telephone number assigned to the user, which is the default.</span></span>
 
-<span data-ttu-id="ae8b0-113">Trois options sont disponibles pour l’ID d’appelant PSTN sortant :</span><span class="sxs-lookup"><span data-stu-id="ae8b0-113">There are three options available for outbound PSTN caller ID:</span></span>
-  
-- <span data-ttu-id="ae8b0-114">Le numéro de téléphone affecté à l’utilisateur (valeur par défaut).</span><span class="sxs-lookup"><span data-stu-id="ae8b0-114">The telephone number assigned to the user, which is the default.</span></span>
-    
-- <span data-ttu-id="ae8b0-115">Un numéro de téléphone classé comme *service* et numéro gratuit *dans* l’inventaire de numéros de téléphone de vos forfaits d’appels.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-115">A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans telephone number inventory.</span></span> <span data-ttu-id="ae8b0-116">Il est généralement attribué à un standard automatique d’organisation ou à une file d’appels.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-116">It is usually assigned to an organizational auto attendant or call queue.</span></span>
-    
-- <span data-ttu-id="ae8b0-117">Défini sur Anonyme.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-117">Set to anonymous.</span></span>
-    
-<span data-ttu-id="ae8b0-118">Toutefois, vous ne pouvez pas affecter les types de numéros de téléphone suivants à l'ID d'appelant entrant :</span><span class="sxs-lookup"><span data-stu-id="ae8b0-118">However, you can't assign these types of phone numbers for the outbound caller ID:</span></span>
-  
-- <span data-ttu-id="ae8b0-119">Numéros de téléphone classés comme  *utilisateurs*  dans l’inventaire des numéros de téléphone de vos forfaits d’appels</span><span class="sxs-lookup"><span data-stu-id="ae8b0-119">Any phone numbers that are classified as a  *user*  in your Calling Plans telephone number inventory</span></span>
-    
-- <span data-ttu-id="ae8b0-120">Un numéro de téléphone Skype Entreprise Server local</span><span class="sxs-lookup"><span data-stu-id="ae8b0-120">A Skype for Business Server on-premises phone number</span></span>
-    
-<span data-ttu-id="ae8b0-121">Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](./set-the-caller-id-for-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="ae8b0-121">To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
-  
-### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="ae8b0-122">Contrôle de l’ID d’appelant sortant par l’utilisateur final</span><span class="sxs-lookup"><span data-stu-id="ae8b0-122">End user control of outbound caller ID</span></span>
+- <span data-ttu-id="6d407-117">Anonyme, disponible en supprimant la présentation du numéro PSTN de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6d407-117">Anonymous, which is available by removing the presentation of the user’s PSTN number.</span></span> 
 
-<span data-ttu-id="ae8b0-123">L’attribut EnableUserOverride permet à un ou plusieurs utilisateurs de modifier leur paramètre d’ID d’appelant sur **Anonyme.**</span><span class="sxs-lookup"><span data-stu-id="ae8b0-123">The EnableUserOverride attribute enables single or multiple users to change their caller ID setting to **Anonymous**.</span></span> <span data-ttu-id="ae8b0-124">Cela s'applique uniquement lorsqu'une stratégie CallingLineIdentity est configurée avec un paramètre CallingIDSubstitute défini sur LineURI ou Substitute.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-124">This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute.</span></span> <span data-ttu-id="ae8b0-125">La valeur par défaut de EnableUserOverride est False.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-125">The default value of EnableUserOverride is False.</span></span>
+- <span data-ttu-id="6d407-118">Un numéro de téléphone de substitution, qui peut être :</span><span class="sxs-lookup"><span data-stu-id="6d407-118">A substitute phone number, which can be:</span></span>
+
+  - <span data-ttu-id="6d407-119">Un numéro de téléphone classé comme service et numéro gratuit dans l’inventaire de numéros de téléphone de vos forfaits d’appels.</span><span class="sxs-lookup"><span data-stu-id="6d407-119">A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory.</span></span> <span data-ttu-id="6d407-120">Elle est généralement affectée à une Teams Standard automatique ou à une file d’attente d’appels.</span><span class="sxs-lookup"><span data-stu-id="6d407-120">It is usually assigned to a Teams Auto Attendant or Call Queue.</span></span>
+
+  - <span data-ttu-id="6d407-121">**Version d’aperçu.**</span><span class="sxs-lookup"><span data-stu-id="6d407-121">**Preview release.**</span></span> <span data-ttu-id="6d407-122">Un numéro de téléphone local via un routage direct affecté à un compte de ressource utilisé par une Teams Standard automatique ou une file d’attente d’appels.</span><span class="sxs-lookup"><span data-stu-id="6d407-122">An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.</span></span> 
+
+- <span data-ttu-id="6d407-123">**Version d’aperçu.**</span><span class="sxs-lookup"><span data-stu-id="6d407-123">**Preview release.**</span></span> <span data-ttu-id="6d407-124">Nom de l’appelant ou nom de l’appelant dans l’appel RSTN sortant.</span><span class="sxs-lookup"><span data-stu-id="6d407-124">The Calling Party Name or CNAM set on the outbound PSTN call.</span></span>  
+    
+<span data-ttu-id="6d407-125">Pour plus d’informations, [voir Définir l’ID d’appelant d’un utilisateur.](./set-the-caller-id-for-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="6d407-125">For more information, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
   
-<span data-ttu-id="ae8b0-126">Vos utilisateurs finaux peuvent définir  leur ID d’appelant sur Anonyme à l’aide de l’onglet **Paramètres** du client de bureau Skype Entreprise, sélectionnez Appels à un utilisateur final **(si** l’administrateur l’autorise), puis masquez mon numéro de téléphone et mes informations de profil pour tous les **appels.**</span><span class="sxs-lookup"><span data-stu-id="ae8b0-126">Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**.</span></span> <span data-ttu-id="ae8b0-127">Dans Teams, les **utilisateurs** peuvent se rendre à leur image de profil dans le coin supérieur droit, sélectionner Paramètres Appels, puis sous  >   **ID** de l’appelant, sélectionner Masquer mon numéro de téléphone et les informations de profil pour tous les **appels.**</span><span class="sxs-lookup"><span data-stu-id="ae8b0-127">In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls**,  and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.</span></span>
-  
-||||
-|:-----|:-----|:-----|
-|<span data-ttu-id="ae8b0-128">**Windows**</span><span class="sxs-lookup"><span data-stu-id="ae8b0-128">**Windows**</span></span> <br/> |<span data-ttu-id="ae8b0-129">**Version**</span><span class="sxs-lookup"><span data-stu-id="ae8b0-129">**Version**</span></span> <br/> |<span data-ttu-id="ae8b0-130">**Prise en charge**</span><span class="sxs-lookup"><span data-stu-id="ae8b0-130">**Supported**</span></span> <br/> |
-|<span data-ttu-id="ae8b0-131">Démarrer en un clic</span><span class="sxs-lookup"><span data-stu-id="ae8b0-131">Click-to-Run</span></span>  <br/> |<span data-ttu-id="ae8b0-132">Canal actuel publié le 6 décembre 2016 - version 1611 (Build 7571.2072)</span><span class="sxs-lookup"><span data-stu-id="ae8b0-132">Current Channel released on December 6, 2016 - version 1611 (Build 7571.2072)</span></span>  <br/> |<span data-ttu-id="ae8b0-133">Oui</span><span class="sxs-lookup"><span data-stu-id="ae8b0-133">Yes</span></span>  <br/> |
-|<span data-ttu-id="ae8b0-134">Démarrer en un clic</span><span class="sxs-lookup"><span data-stu-id="ae8b0-134">Click-to-Run</span></span>  <br/> |<span data-ttu-id="ae8b0-135">Première version du canal différé publiée le 22 février 2017 - version 1701 (Build 7766.2060)</span><span class="sxs-lookup"><span data-stu-id="ae8b0-135">First Release for Deferred Channel released on February 22, 2017 - Version 1701 (Build 7766.2060)</span></span>  <br/> |<span data-ttu-id="ae8b0-136">Oui</span><span class="sxs-lookup"><span data-stu-id="ae8b0-136">Yes</span></span>  <br/> |
-|<span data-ttu-id="ae8b0-137">Démarrer en un clic</span><span class="sxs-lookup"><span data-stu-id="ae8b0-137">Click-to-Run</span></span>  <br/> |<span data-ttu-id="ae8b0-138">Canal Différé publié le 13 juin 2017 - Version 1701 (Build 7766.2092)</span><span class="sxs-lookup"><span data-stu-id="ae8b0-138">Deferred Channel released on June 13, 2017 - Version 1701 (Build 7766.2092)</span></span>  <br/> |<span data-ttu-id="ae8b0-139">Oui</span><span class="sxs-lookup"><span data-stu-id="ae8b0-139">Yes</span></span>  <br/> |
-|<span data-ttu-id="ae8b0-140">MSI</span><span class="sxs-lookup"><span data-stu-id="ae8b0-140">MSI</span></span>  <br/> |<span data-ttu-id="ae8b0-141">Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="ae8b0-141">Skype for Business</span></span>  <br/> |<span data-ttu-id="ae8b0-142">Non</span><span class="sxs-lookup"><span data-stu-id="ae8b0-142">No</span></span>  <br/> |
-|<span data-ttu-id="ae8b0-143">Mac</span><span class="sxs-lookup"><span data-stu-id="ae8b0-143">Mac</span></span>  <br/> |<span data-ttu-id="ae8b0-144">Skype Entreprise</span><span class="sxs-lookup"><span data-stu-id="ae8b0-144">Skype for Business</span></span>  <br/> |<span data-ttu-id="ae8b0-145">Non</span><span class="sxs-lookup"><span data-stu-id="ae8b0-145">No</span></span>  <br/> |
+### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="6d407-126">Contrôle de l’ID d’appelant sortant par l’utilisateur final</span><span class="sxs-lookup"><span data-stu-id="6d407-126">End user control of outbound caller ID</span></span>
+
+<span data-ttu-id="6d407-127">Les utilisateurs peuvent définir leur paramètre d’ID d’appelant sur **Anonyme** en paramètres d’attribut EnableUserOverride.</span><span class="sxs-lookup"><span data-stu-id="6d407-127">Users can change their caller ID setting to **Anonymous** by setting the EnableUserOverride attribute.</span></span> 
+
+<span data-ttu-id="6d407-128">Si l’ID d’appelant sortant est définie sur Anonyme, le contrôle EnableUserOverride n’a aucun effet et l’ID d’appelant est toujours définie sur Anonyme.</span><span class="sxs-lookup"><span data-stu-id="6d407-128">If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect and the caller ID is always set to Anonymous.</span></span> <span data-ttu-id="6d407-129">La valeur par défaut de EnableUserOverride est False.</span><span class="sxs-lookup"><span data-stu-id="6d407-129">The default value of EnableUserOverride is False.</span></span>
+
+<span data-ttu-id="6d407-130">Vos utilisateurs finaux peuvent définir leur ID d’appelant sur Anonyme en sélectionnant **Paramètres > Appels,** puis sous **ID** de l’appelant, sélectionnez Masquer mon numéro de téléphone et les informations de profil pour tous les **appels.**</span><span class="sxs-lookup"><span data-stu-id="6d407-130">Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.</span></span>
+
+### <a name="notes"></a><span data-ttu-id="6d407-131">Remarques</span><span class="sxs-lookup"><span data-stu-id="6d407-131">Notes</span></span>
+
+<span data-ttu-id="6d407-132">Tenez compte des points suivants :</span><span class="sxs-lookup"><span data-stu-id="6d407-132">Keep the following in mind:</span></span>
+
+- <span data-ttu-id="6d407-133">Vous ne pouvez pas affecter les types suivants de numéros de téléphone à l’ID d’appelant sortant :</span><span class="sxs-lookup"><span data-stu-id="6d407-133">You can't assign the following types of phone numbers for the outbound caller ID:</span></span>
+
+  - <span data-ttu-id="6d407-134">Les numéros de téléphone classés comme utilisateurs dans le stock des numéros de téléphone de vos forfaits d’appels.</span><span class="sxs-lookup"><span data-stu-id="6d407-134">Any phone numbers that are classified as a user in your Calling Plans telephone number inventory.</span></span>
+
+  - <span data-ttu-id="6d407-135">Tout numéro de téléphone local via un routage direct affecté à un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6d407-135">Any on-premises telephone number via Direct Routing that is assigned to a user.</span></span>
+
+  - <span data-ttu-id="6d407-136">Un Skype Entreprise Server numéro de téléphone local.</span><span class="sxs-lookup"><span data-stu-id="6d407-136">A Skype for Business Server on-premises telephone number.</span></span>
+
+- <span data-ttu-id="6d407-137">L’utilisation du substitution de numéros de téléphone de compte de ressource fonctionne uniquement pour Teams utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="6d407-137">The use of resource account phone number substitution only works for Teams users.</span></span> <span data-ttu-id="6d407-138">Le remplacement d’un numéro de téléphone de service est disponible pour les Skype Entreprise Ligne et Teams service.</span><span class="sxs-lookup"><span data-stu-id="6d407-138">The substitution of service phone number works for both Skype for Business Online and Teams users.</span></span>
+
+- <span data-ttu-id="6d407-139">Le nom de l’appelant n’est envoyé que sur les appels pour lequel l’ID d’appelant remplace LineUri, un numéro de téléphone de compte de service ou de ressource, et lorsque l’appelant est Teams utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6d407-139">Calling Party Name is only sent on calls where the caller ID is substituted with LineUri, a service or resource account phone number and when the caller is a Teams user.</span></span>
+
+- <span data-ttu-id="6d407-140">Le nom de l’appelant peut avoir un maximum de 200 caractères, mais les systèmes en aval peuvent prendre en charge moins de caractères.</span><span class="sxs-lookup"><span data-stu-id="6d407-140">Calling Party Name can have a maximum of 200 characters, but downstream systems might support fewer characters.</span></span>
+
+- <span data-ttu-id="6d407-141">Pour un routage direct, le substitution de numéros de téléphone et le nom de l’appelant sont envoyés dans l’en-tête FROM SIP.</span><span class="sxs-lookup"><span data-stu-id="6d407-141">For Direct Routing, the phone number substitution and the Calling Party Name is sent in the FROM SIP header.</span></span> <span data-ttu-id="6d407-142">Si le OnlinePstnGateway correspondant est configuré avec ForwardPai = True, l’en-tête SIP P-ENED-IDENTITY contient l’utilisateur réel de l’appel.</span><span class="sxs-lookup"><span data-stu-id="6d407-142">If the corresponding OnlinePstnGateway is configured with ForwardPai = True, the P-ASSERTED-IDENTITY SIP header will contain the real calling user.</span></span>
+
+- <span data-ttu-id="6d407-143">EnableUserOverride a la préséance sur les autres paramètres de la stratégie, sauf si le remplacement est réglé sur Anonyme.</span><span class="sxs-lookup"><span data-stu-id="6d407-143">EnableUserOverride has precedence over other settings in the policy--unless substitution is set to Anonymous.</span></span> <span data-ttu-id="6d407-144">Par exemple, supposons que l’instance de stratégie ait le remplacement à l’aide d’un compte de ressource et qu’EnableUserOverride est définie et activée par l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6d407-144">For example, assume policy instance has substitution using a resource account and EnableUserOverride is set and enabled by the user.</span></span> <span data-ttu-id="6d407-145">Dans ce cas, l’ID d’appelant sortant est bloqué et anonyme est utilisé.</span><span class="sxs-lookup"><span data-stu-id="6d407-145">In this case, the outbound caller ID will be blocked and Anonymous will be used.</span></span> <span data-ttu-id="6d407-146">Si une instance de stratégie a été définie sur Anonyme et EnableUserOverride, l’ID d’appelant sortant sera toujours anonyme, quel que soit le paramètre de l’utilisateur final.</span><span class="sxs-lookup"><span data-stu-id="6d407-146">If a policy instance has substitution set to Anonymous and EnableUserOverride is set, then the outbound caller ID will always be Anonymous, regardless of the end user setting.</span></span>
+
    
-## <a name="inbound-caller-id"></a><span data-ttu-id="ae8b0-146">ID d’appelant entrant</span><span class="sxs-lookup"><span data-stu-id="ae8b0-146">Inbound caller ID</span></span>
+## <a name="inbound-caller-id"></a><span data-ttu-id="6d407-147">ID d’appelant entrant</span><span class="sxs-lookup"><span data-stu-id="6d407-147">Inbound caller ID</span></span>
 
-<span data-ttu-id="ae8b0-147">Le système téléphonique affiche l’ID d’un numéro de téléphone externe si le numéro est associé à un utilisateur dans Azure AD.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-147">Phone System will show called ID for an external phone number if the number is associated with a user in Azure AD.</span></span> <span data-ttu-id="ae8b0-148">Si le numéro de téléphone ne se trouve pas dans Azure AD, le nom d’affichage fourni par le telco s’affiche s’il est disponible.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-148">If the phone number is not in Azure AD, the telco-provided display name will be shown if it is available.</span></span>
+<span data-ttu-id="6d407-148">Système téléphonique affiche le numéro de téléphone externe entrant comme ID de l’appelant.</span><span class="sxs-lookup"><span data-stu-id="6d407-148">Phone System will show the incoming external phone number as the caller ID.</span></span> <span data-ttu-id="6d407-149">Si le numéro est associé à un utilisateur ou à un contact dans Azure AD ou un contact personnel, les clients Skype Entreprise et Teams afficheront l’ID d’appelant sur la base de ces informations.</span><span class="sxs-lookup"><span data-stu-id="6d407-149">If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information.</span></span> <span data-ttu-id="6d407-150">Si le numéro de téléphone n’est pas dans Azure AD ou un contact personnel, le nom complet fourni par le telco s’affiche s’il est disponible.</span><span class="sxs-lookup"><span data-stu-id="6d407-150">If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.</span></span>
 
-<span data-ttu-id="ae8b0-149">L'attribut BlockIncomingCallerID permet de bloquer l'ID d'appelant dans les appels RTC entrants.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-149">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="ae8b0-150">Vous pouvez définir cet attribut, mais il n’est pas disponible pour vos utilisateurs finaux sur la page des paramètres utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-150">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="ae8b0-151">Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.</span><span class="sxs-lookup"><span data-stu-id="ae8b0-151">And it is currently available only with Online PSTN connectivity.</span></span>
+<span data-ttu-id="6d407-151">L'attribut BlockIncomingCallerID permet de bloquer l'ID d'appelant dans les appels RTC entrants.</span><span class="sxs-lookup"><span data-stu-id="6d407-151">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="6d407-152">Vous pouvez définir cet attribut, mais il n’est pas disponible pour vos utilisateurs finaux sur la page des paramètres utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6d407-152">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="6d407-153">Lorsque ce paramètre est activé, l’appelant PSTN entrant s’affiche comme provenant d’anonyme.</span><span class="sxs-lookup"><span data-stu-id="6d407-153">When this setting is enabled the incoming PSTN caller will be displayed as coming from Anonymous.</span></span>
   
-<span data-ttu-id="ae8b0-152">Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](./set-the-caller-id-for-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="ae8b0-152">To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
+<span data-ttu-id="6d407-154">Pour bloquer l’ID d’appelant entrant, [consultez Définir l’ID d’appelant d’un utilisateur.](./set-the-caller-id-for-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="6d407-154">To block the inbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="ae8b0-153">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="ae8b0-153">Related topics</span></span>
-[<span data-ttu-id="ae8b0-154">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="ae8b0-154">Transferring phone numbers common questions</span></span>](./phone-number-calling-plans/port-order-overview.md)
+## <a name="related-topics"></a><span data-ttu-id="6d407-155">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="6d407-155">Related topics</span></span>
+[<span data-ttu-id="6d407-156">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="6d407-156">Transferring phone numbers common questions</span></span>](./phone-number-calling-plans/port-order-overview.md)
 
-[<span data-ttu-id="ae8b0-155">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="ae8b0-155">Different kinds of phone numbers used for Calling Plans</span></span>](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="6d407-157">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="6d407-157">Different kinds of phone numbers used for Calling Plans</span></span>](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="ae8b0-156">Gérer des numéros de téléphone pour votre entreprise</span><span class="sxs-lookup"><span data-stu-id="ae8b0-156">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="6d407-158">Gérer des numéros de téléphone pour votre entreprise</span><span class="sxs-lookup"><span data-stu-id="6d407-158">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="ae8b0-157">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="ae8b0-157">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="6d407-159">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="6d407-159">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
 
-<span data-ttu-id="ae8b0-158">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="ae8b0-158">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="6d407-160">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="6d407-160">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
