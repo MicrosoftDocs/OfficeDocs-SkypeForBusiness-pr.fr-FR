@@ -1,9 +1,9 @@
 ---
 title: Gérer les stratégies d’ID d’appelant dans Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: roykuntz; jens
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,27 +17,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de Teams dans votre organisation.
-ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams modifier ou bloquer l’ID d’appelant des Teams utilisateurs dans votre organisation.
+ms.openlocfilehash: cd928af5213a1e6fa927662adaba0fefecb687d5
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102780"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308373"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’ID d’appelant dans Microsoft Teams
 
->[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!NOTE]
+> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Microsoft Teams d’administration.) 
 
-En tant qu’administrateur, vous pouvez utiliser les stratégies d’ID d’appelant dans Microsoft Teams pour modifier ou bloquer l’ID de l’appelant (également appelé ID de ligne d’appel). Par défaut, le numéro de téléphone des utilisateurs de Teams est visible lorsqu’ils appelez un téléphone RSTN, et le numéro de téléphone des appelants PSTN est visible lorsqu’ils appellent un utilisateur de Teams. Vous pouvez utiliser des stratégies d’ID d’appelant pour afficher un autre numéro de téléphone pour les utilisateurs de Teams dans votre organisation ou bloquer l’affichage d’un numéro entrant.
+Par défaut, lorsqu’Teams un utilisateur appelle un téléphone PSTN, le numéro de téléphone de l’Teams est visible. De même, lorsqu’un appelant PSTN appelle un Teams, le numéro de téléphone de l’appelant PSTN est visible.
 
-Par exemple, lorsque les utilisateurs font un appel, vous pouvez modifier l’ID de l’appelant pour afficher le numéro de téléphone principal de votre organisation plutôt que les numéros de téléphone des utilisateurs.
+En tant qu’administrateur, vous pouvez utiliser les stratégies d’ID d’appelant pour modifier ou bloquer l’ID de l’appelant (également appelé ID de ligne d’appel). Vous pouvez utiliser les stratégies d’ID d’appelant pour afficher un autre numéro de téléphone pour les Teams utilisateurs de votre organisation, bloquer l’affichage du numéro de téléphone sortant, bloquer l’affichage d’un numéro entrant ou définir le nom de l’appelant (CNAM). Par exemple, lorsqu’un utilisateur effectue un appel, vous pouvez modifier l’ID de l’appelant pour afficher le numéro de téléphone principal et le nom de la société de votre organisation à la place du numéro de téléphone de l’utilisateur.
 
-Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur stratégies d’ID d’appelant vocal   >   dans le Centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
+Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur les stratégies d’ID d’appelant vocal dans le   >   Microsoft Teams d’administration. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
 ## <a name="create-a-custom-caller-id-policy"></a>Créer une stratégie d’ID d’appelant personnalisée
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez **aux** stratégies  >  **d’ID d’appelant vocal.**
+1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez **aux** stratégies  >  d’ID **d’appelant vocal.**
 2. Cliquez sur **Ajouter**. <br>
 ![Capture d’écran de la page de stratégie d’ID d’appelant dans le Centre d’administration](media/caller-id-policies-add-policy.png)
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
@@ -59,7 +60,7 @@ Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur stra
 
 Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez. 
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez **aux** stratégies  >  **d’ID d’appelant vocal.**
+1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez **aux** stratégies  >  d’ID **d’appelant vocal.**
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
 3. Modifiez les paramètres de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -67,8 +68,10 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
