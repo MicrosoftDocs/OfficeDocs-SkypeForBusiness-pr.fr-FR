@@ -1,66 +1,70 @@
 ### YamlMime:Hub
-title: Formation dirigée par un instructeur pour Microsoft Teams
-summary: Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams.   Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. Pour afficher nos cours de formation à votre rythme, consultez notre formation à la demande pour les utilisateurs finaux. Cliquez sur une session ci-dessous pour vous inscrire.
+title: Formation pour les utilisateurs finux sur Microsoft Teams
+summary: "Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams. \_ Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour voir Microsoft Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. Pour consulter nos cours de formation à votre propre moment, consultez notre formation à la demande des utilisateurs finaux. Cliquez sur une session ci-dessous pour vous inscrire."
 brand: teams
 metadata:
-  title: Formation dirigée par un instructeur pour Microsoft Teams
-  description: Découvrez comment s’inscrire à des cours de formation gratuits, en direct et dirigés par des instructeurs pour en savoir plus sur Microsoft Teams.
+  title: Formation pour les utilisateurs finux sur Microsoft Teams
+  description: "Microsoft est heureux de vous offrir des classes de formation virtuelles gratuites et en direct conçues pour vous aider à être opérationnel avec Teams. \_ Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour voir Microsoft Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. Cliquez sur une session ci-dessous pour vous inscrire et vous assurer de consulter d’autres cours ci-dessous."
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 3e702f300e6d2b53319b694b3d536f539ad1ff56
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120615"
 highlightedContent:
   items:
-  - title: Découvrez Microsoft Teams
-    itemType: overview
-    url: https://aka.ms/SayhelloTeams
-  - title: Formation à la demande des utilisateurs finaux
-    itemType: video
-    url: https://aka.ms/TeamsOnDemand
-  - title: Outils d’adoption de Microsoft 365
-    itemType: deploy
-    url: https://adoption.microsoft.com
+    - title: Découvrez Microsoft Teams
+      itemType: overview
+      url: 'https://aka.ms/SayhelloTeams'
+    - title: Formation à la demande des utilisateurs finaux
+      itemType: video
+      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+    - title: "Outils d’adoption de Microsoft\_365"
+      itemType: deploy
+      url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-  - title: Prise en main de Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Des conversations et réunions aux équipes et canaux, à l’issue de cette session, les utilisateurs disposeront des bases nécessaires pour utiliser Teams en toute confiance. (Public : Tous)'
-    url: https://aka.ms/GetstartedwithMSTeams
-  - title: Utilisation des conversations et des appels dans Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Découvrez comment gérer toutes vos conversations depuis une plateforme centrale unique. (Public : Tous)'
-    url: https://aka.ms/ChatCallingInTeams
-  - title: Tenez des réunions efficaces avec Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Découvrez comment rendre vos réunions plus engageantes et plus utiles. (Public : Tous)'
-    url: https://aka.ms/RunmeetingsTeams
-  - title: Explorer les équipes et les canaux dans Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'Découvrez comment simplifier la collaboration dans le cadre de votre projet et de votre groupe de travail. (Public : Tous)'
-    url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Créez des espaces de travail collaboratifs dans Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Explorez les possibilités de déterminer la meilleure approche pour créer des espaces pour vos projets et groupes de travail. (Public : Tous)'
-    url: https://aka.ms/CollaborateInTeams
-  - title: Astuces de pro dans Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Découvrez comment Teams vous permet d’organiser votre journée de travail et de faciliter le contact avec vos collègues. (Public : Tous)'
-    url: https://aka.ms/TeamsProTips
-  - title: Maîtrisez le travail à domicile avec Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Découvrez les meilleures pratiques pour rester en contact avec votre équipe et maintenir votre productivité. (Public : Tous)'
-    url: https://aka.ms/WFHTeams
-  - title: 'Teams pour une utilisations dans l’éducation: Webinaires'
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 'Découvrez comment utiliser Teams dans l’enseignement supérieur. (Public: employés, étudiants, formation universitaire, recherches universitaires, professionnels de l’informatique)'
-    url: https://aka.ms/TeamsEduWebinars
-  - title: Ateliers de planification de mise à niveau
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Planifiez et implémentez une mise à niveau réussie vers Teams. Public : professionnels de l’informatique, responsables des changements relatifs à des adoptions'
-    url: ./upgrade-workshops-landing-page.yml
+    - title: Prise en main de Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: "Des conversations et réunions aux équipes et canaux, à l’issue de cette session, les utilisateurs disposeront des bases nécessaires pour utiliser Teams en toute confiance. (Public\_: Tous)"
+      url: 'https://aka.ms/GetstartedwithMSTeams'
+    - title: Utilisation des conversations et des appels dans Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      summary: "Découvrez comment gérer toutes vos conversations depuis une plateforme centrale unique. (Public\_: Tous)"
+      url: 'https://aka.ms/ChatCallingInTeams'
+    - title: Tenez des réunions efficaces avec Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: "Découvrez comment rendre vos réunions plus engageantes et plus utiles. (Public\_: Tous)"
+      url: 'https://aka.ms/RunmeetingsTeams'
+    - title: Explorer les équipes et les canaux dans Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
+      summary: "Découvrez comment simplifier la collaboration dans le cadre de votre projet et de votre groupe de travail. (Public\_: Tous)"
+      url: 'https://aka.ms/TeamsandchannelsinTeams'
+    - title: Créez des espaces de travail collaboratifs dans Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: "Explorez les possibilités de déterminer la meilleure approche pour créer des espaces pour vos projets et groupes de travail. (Public\_: Tous)"
+      url: 'https://aka.ms/CollaborateInTeams'
+    - title: Utiliser les conseils pratiques dans Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
+      summary: "Découvrez comment Teams vous permet d’organiser votre journée de travail et de faciliter le contact avec vos collègues. (Public\_: Tous)"
+      url: 'https://aka.ms/TeamsProTips'
+    - title: Maîtrisez le travail à domicile avec Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: "Découvrez les meilleures pratiques pour rester en contact avec votre équipe et maintenir votre productivité. (Public\_: Tous)"
+      url: 'https://aka.ms/WFHTeams'
+    - title: 'Teams pour une utilisations dans l’éducation: Webinaires'
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
+      summary: 'Découvrez comment utiliser Teams dans l’enseignement supérieur. (Public: employés, étudiants, formation universitaire, recherches universitaires, professionnels de l’informatique)'
+      url: 'https://aka.ms/TeamsEduWebinars'
+    - title: Ateliers de planification de mise à niveau
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
+      summary: "Planifiez et implémentez une mise à niveau réussie vers Teams. Public\_: professionnels de l’informatique, responsables des changements relatifs à des adoptions"
+      url: ./upgrade-workshops-landing-page.yml
+additionalContent:
+  sections:
+    - title: Cours
+      items:
+        - title: Certification des spécialistes du travail d’équipe
+          summary: La collaboration est une compétence essentielle pour la force de travail actuelle. Découvrez comment les fonctionnalités robustes au sein Microsoft Teams vous permettent de rester connecté et de travailler plus efficacement avec votre équipe
+          url: /learn/paths/teamwork-specialist
+        - title: Certification des spécialistes de l’adoption des services
+          summary: Le cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment conduire l’adoption d’services Microsoft dans votre organisation
+          url: /learn/paths/m365-service-adoption
