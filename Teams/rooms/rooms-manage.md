@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: deb538c8b249faddf16096f052bca4020da6f6c0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237980"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469596"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -28,18 +28,18 @@ Si vous avez des Salles Microsoft Teams certifiés dans votre organisation, vous
 
 Avec Microsoft Teams d’administration, vous pouvez :
 
-- Effectuer une gestion des appareils telle que le redémarrage ou le blocage d’appareils, et le téléchargement des journaux des appareils
+- Effectuer une gestion des appareils telle que le redémarrage des appareils et le téléchargement des journaux des appareils
 - Appliquer Teams paramètres spécifiques
 - Vérifier l’état d’Microsoft Teams périphériques de la salle et de ses périphériques, notamment les caméras, les écrans, les microphones, et ainsi de suite.
-- Passer en revue l’activité des réunions passées et présentes (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
+- Passer en revue l’activité en cours et passée des réunions (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
 - Voir les périphériques (tels que les caméras et les projecteurs) connectés à un Microsoft Teams de salle
 
-Pour gérer salles Teams appareils mobiles, ouvrez le Centre [Microsoft Teams’administration](https://admin.teams.microsoft.com) et allez sur **Appareils**  >  **salles Teams.**
+Pour gérer salles Teams appareils mobiles, ouvrez le [Centre Microsoft Teams’administration](https://admin.teams.microsoft.com) et allez sur **Appareils**  >  **salles Teams.**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse Teams centre d’administration":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse dans Teams centre d’administration":::
 
 > [!IMPORTANT]
-> Pour gérer les appareils à l’Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
+> Pour gérer les appareils à l Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Apporter des modifications à salles Teams appareils
 
@@ -70,7 +70,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 | *Réunions*                                                   |                                                        |                    |
 | **Partage d’écran automatique**                                 | Activé<br>Désactivé                                              | Oui                |
 | **Afficher les noms des réunions**                                       | Activé<br>Désactivé                                              | Oui                |
-| **Quitter automatiquement la réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
+| **Quitter automatiquement une réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
 | *Device*                                                     |                                                        |                    |
 | **Mode à deux moniteurs**                                        | Activé<br>Désactivé                                              | Oui                |
 | **Bluetooth balises**                                      | Activé<br>Désactivé                                              | Oui                |
@@ -93,38 +93,24 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 
 Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement les appareils ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
 
-- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous sélectionnerez cette option.
-- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils sur qui vous a apporter des modifications à un moment moins perturbateur pour votre organisation.
+- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous aurez sélectionné cette option.
+- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils que vous modifiez à un moment moins perturbateur pour votre organisation.
   - **Sélectionnez la date et l’heure** : choisissez la date et l’heure spécifiques pour redémarrer l’appareil. La date et l’heure choisies sont locales pour l’appareil en cours de redémarrage. 
-  - **Quitter la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
+  - **Laisser la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
 
 > [!CAUTION]
 > Les appareils en cours d’utilisation au moment du redémarrage deviennent indisponibles pendant toute la durée du processus de redémarrage. Ils seront déconnectés des réunions en cours et ne pourront pas participer à de nouvelles réunions.
 
-### <a name="remove-or-block-a-device"></a>Supprimer ou bloquer un appareil
+### <a name="remove-device"></a>Supprimer l’appareil
 
-Lorsque vous **supprimez** un appareil, celui-ci est supprimé de votre organisation et n’apparaît plus dans votre liste d’appareils salles Teams dans le Teams d’administration. 
+Lorsque vous supprimez un appareil, celui-ci est supprimé de votre organisation et n’apparaît plus dans votre liste d’appareils salles Teams dans le Teams d’administration.
 
-Lorsque vous **bloquez** un périphérique, Teams communique plus avec celui-là. Les appareils bloqués ne seront pas envoyés, même s’ils sont inclus dans un groupe d’appareils en cours de modification en bloc. Il figure toujours dans votre liste des appareils salles Teams dont l’état est **Bloqué.**
-
-Qu’un appareil soit bloqué ou supprimé, s’il est toujours configuré avec un nom d’utilisateur et un mot de passe valides, il est automatiquement rajouté à votre liste d’appareils salles Teams s’il se connecte à Microsoft 365.
+Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom d’utilisateur et un mot de passe valides, il est automatiquement rajouté à votre liste d’appareils salles Teams s’il se connecte à Microsoft 365 nouveau.
 
 Pour supprimer un ou plusieurs appareils, vous pouvez :
 
-1. Allez sur **Appareils**  >  **salles Teams** sélectionnez les appareils que vous voulez supprimer.
+1. Sélectionnez **les** salles Teams appareils à  >   supprimer.
 1. Sélectionnez **Supprimer**.
-
-Pour bloquer un appareil, vous pouvez :
-
-1. Allez sur  >  **Périphériques salles Teams** sélectionnez le nom de l’appareil que vous voulez bloquer.
-1. Dans la page des détails de l’appareil, sélectionnez **Actions** dans le coin supérieur droit de la page.
-1. Sélectionnez **Bloquer.**
-
-Pour débloquer un appareil, vous pouvez :
-
-1. Allez sur  >  **Périphériques salles Teams** sélectionnez le nom de l’appareil que vous voulez bloquer.
-1. Dans la page des détails de l’appareil, sélectionnez **Actions** dans le coin supérieur droit de la page.
-1. Sélectionnez **Débloquer.**
 
 ## <a name="download-device-logs"></a>Télécharger les journaux de l’appareil
 
@@ -138,7 +124,7 @@ Pour télécharger les journaux d salles Teams appareil sur votre ordinateur, vo
 
 ## <a name="view-device-information"></a>Afficher les informations sur l’appareil
 
-À partir Teams centre d’administration, vous pouvez consulter l’état global de tous les appareils de votre organisation et afficher les détails de chaque appareil individuellement.
+À partir Teams centre d’administration, vous pouvez afficher l’état global de tous les appareils de votre organisation et afficher les détails de chaque appareil individuellement.
 
 ### <a name="teams-rooms-system-dashboard"></a>salles Teams tableau de bord système
 
@@ -163,7 +149,7 @@ Pour afficher des informations détaillées sur un appareil, sélectionnez son n
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Liste de résumé de l’activité sur les appareils de salle":::
 
-Pour voir les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion pour plus d’informations. Si une réunion ne compte que deux participants, vous verrez la page des détails des participants, sans quoi vous verrez une page de résumé des participants.
+Pour voir les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion pour plus d’informations. Si une réunion ne compte que deux participants, vous verrez la page des détails des participants, sinon vous verrez une page de résumé des participants.
 
 ##### <a name="participant-summary"></a>Résumé des participants
 
