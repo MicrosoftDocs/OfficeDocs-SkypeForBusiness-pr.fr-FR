@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697629"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328506"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -131,7 +131,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 300. **Affichage seul** autorise jusqu’à 10 000 participants en écoute uniquement pour participer à une réunion dans laquelle l’organisateur dispose d’une licence pour SKU E3/E5/A3/A5 ainsi que pour le gouvernement (GCC, High GCC, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC mais pas encore pour GCCH ou DoD. **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
@@ -139,7 +139,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 ### <a name="meeting-expiration"></a>Expiration de réunion
 
 > [!NOTE]
-> L’URL d’une réunion ne cessera jamais de fonctionner. L’expiration concerne uniquement les numéros de participation par RTC et/ou les paramètres et les stratégies de réunion sous-jacents.
+> L'URL d'une réunion ne cessera jamais de fonctionner. L'expiration ne concerne que les numéros d'appel RTPC et/ou les stratégies et paramètres de réunion sous-jacents.
 
 |Type de réunion  |La réunion expire après un certain délai  |Chaque fois qu’une réunion démarre ou est mise à jour, l’expiration se prolonge d’un certain délai  |
 |---------|---------|---------|
