@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Formation Teams
         items:
-          - name: Vue d’ensemble
-            href: training-microsoft-teams-landing-page.md
           - name: Formation sur Teams pour les administrateurs
             href: itadmin-readiness.md
-          - name: "Sessions Teams lors d’Ignite\_2020"
+          - name: Sessions Teams lors à Ignite
             href: ignite-2020-landing-page.md
-          - name: Formation à Teams en direct
+          - name: Formation sur Teams pour les utilisateurs finaux
             href: instructor-led-training-teams-landing-page.yml
-          - name: Formation à Teams en ligne
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Mise à niveau à partir de Skype Entreprise
     items:
       - name: Prise en main
@@ -1289,7 +1285,7 @@ items:
             href: business-voice/set-up-policies.md
           - name: Gérer vos packages de stratégie
             href: business-voice/policy-packages.md
-          - name: Créer des utilisateurs supplémentaires
+          - name: Créer d’autres utilisateurs
             href: business-voice/create-users.md
           - name: Configurer une file d'attente d'appels
             href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Packages de stratégie Teams pour le gouvernement
             href: policy-packages-gov.md
-  - name: Résoudre des problèmes
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: Résoudre les problèmes d’installation et de mise à jour
-        href: troubleshoot-installation.md
-      - name: "Dépannage des problèmes de connectivité avec le client Microsoft\_Teams"
-        href: connectivity-issues.md
-      - name: Problèmes de réception des messages et des appels sur les anciens systèmes
-        href: legacy-login-issues.md
-      - name: "Utiliser des fichiers journaux pour la résolution des problèmes de Microsoft\_Teams"
-        href: log-files.md
-      - name: "Vérifier l’intégrité du service pour Microsoft\_Teams"
-        href: service-health.md
-      - name: Contacter le support pour les produits Entreprise – Aide de l’administrateur
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: Comment rechercher votre code confidentiel d’assistance
-        href: support-pin.md
   - name: Référence
     items:
       - name: Spécifications et limites de Teams
