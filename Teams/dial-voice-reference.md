@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale et de la file d’attente des appels dans Teams.
-ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale de la file d’attente dans Teams.
+ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098440"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491811"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels
 
@@ -35,9 +35,9 @@ La numérotation par nom est une fonctionnalité d’un service de service autom
 
 ## <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à **l’aide** de la numérotation par nom ne doivent pas nécessairement avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
+Les utilisateurs que vous souhaitez avoir localisés et atteints à l’aide de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise pour Skype Entreprise Server **utilisateurs.** La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers Microsoft Teams utilisateurs hébergés dans différents pays ou régions pour des organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
 
-La numérotation par extension est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à  **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams qui sont hébergés dans différents pays ou régions pour des organisations multinationales. Compte tenu des conditions préalables requises, vous devez activer explicitement la fonction Numérotation par poste dans un attendant automatique.
+La numérotation par poste est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à l’aide de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent être Voix Entreprise pour Skype Entreprise Server **utilisateurs.** Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers Microsoft Teams utilisateurs hébergés dans différents pays ou régions pour des organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par poste dans un attendant automatique.
 
 ### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
@@ -80,7 +80,7 @@ Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à 
 
 Les employés peuvent rechercher d’autres personnes dans leur organisation à l’grâce à leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en leur att dit leur nom complet ou partiel. Les entrées vocales peuvent reconnaître les noms dans différents formats, notamment Prénom, Nom, Prénom + Nom, ou Nom + Prénom.
   
-Vous pouvez activer la reconnaissance vocale pour un attendant automatique, mais l’entrée de clavier téléphonique (DTMF) n’est pas désactivée. Vous pouvez utiliser une entrée de clavier téléphonique à tout moment, même si la reconnaissance vocale est activée sur le attendant automatique.
+Vous pouvez activer la reconnaissance vocale pour un attendant automatique, mais l’entrée de clavier téléphonique (DTMF) n’est pas désactivée. Téléphone entrée de clavier automatique peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le attendant automatique.
   
 Comme pour l’entrée de clavier téléphonique, si plusieurs noms sont trouvés, l’appelant entend une liste de noms parmi qui vous sont demandés.
   
@@ -97,37 +97,13 @@ Les appelants peuvent dire les noms dans les formats suivants :
 
 
 > [!NOTE]
-> Jusqu’à 36 heures peuvent être nécessaire pour que le nom d’un nouvel utilisateur soit répertorié dans l’annuaire pour la numérotation par nom avec reconnaissance vocale en raison d’un décalage de réplication Active Directory.
+> Jusqu’à 36 heures peuvent être nécessaire pour que le nom d’un nouvel utilisateur soit répertorié dans l’annuaire pour la numérotation par nom avec une reconnaissance vocale en raison d’un décalage de réplication Active Directory.
   
 ## <a name="language-support"></a>Prise en charge des langues
 
-Les langues suivantes sont disponibles pour la reconnaissance vocale utilisée avec les invites sortantes :
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|Arabe (EG)  |Anglais (NZ)  |Coréen (KO)  |
-|Chinois (HK)  |Anglais (Royaume-Uni) |Norvégien (NO)  |
-|Chinois (TW) |Anglais (É.U.) |Polonais (PL)  |
-|Chinois (ZH) |Finnois (FI) |Portugais (BR) |
-|Danois (DA)  |Français (CA)  |Portugais (PT) |
-|Néerlandais (NL)   |Français (FR)  |Russe (RU) |
-|Anglais (AU)  |Allemand (DE) |Espagnol (ES)  |
-|Anglais (CA)  |Italien (IT) |Espagnol (MX)|
-|Anglais (IN)  |Japonais (JP) |Suédois (SV)|
+La prise en charge linguistique de la reconnaissance vocale et de la reconnaissance vocale est disponible dans ces [langues.](create-a-phone-system-auto-attendant-languages.md)
 
-Les entrées de reconnaissance vocale pour les attendants automatiques sont disponibles dans les langues suivantes :
-  
-|-|-|
-|:-----|:-----|
-|Chinois (ZH)  |Français (FR)  |
-|Anglais (AU)  |Allemand (DE)  |
-|Anglais (CA)  |Italien (IT)  |
-|Anglais (IN)  |Japonais (JP)  |
-|Anglais (Royaume-Uni)  |Portugais (BR)  |
-|Anglais (É.U.)  |Espagnol (ES)  |
-|Français (CA)   |Espagnol (MX)  |
-
-Les commandes vocales suivantes sont disponibles dans les 14 langues prise en charge pour la reconnaissance vocale :
+Les commandes vocales suivantes sont disponibles pour la reconnaissance vocale : 
   
 |Commande vocale| Correspond à |
 |:-----|:-----|
@@ -149,7 +125,7 @@ Les commandes vocales suivantes sont disponibles dans les 14 langues prise en ch
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
+[Les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](./getting-service-phone-numbers.md)
 

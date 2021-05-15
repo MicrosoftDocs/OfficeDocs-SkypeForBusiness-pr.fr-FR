@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer Téléphone Microsoft système pour votre entreprise. '
-ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486358"
+ms.locfileid: "52491774"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Les avantages du système téléphonique
 
@@ -52,7 +52,7 @@ Système téléphonique fournit les fonctionnalités suivantes. Sauf indication 
 |Démarrage d'un appel/réponse à un appel (par nom et numéro)  <br/> |Permet aux utilisateurs de répondre aux appels entrants d’un simple appel et de placer des appels sortants en composant le numéro de téléphone complet ou en cliquant sur un nom dans le client.  <br/> |
 |[Options de forwardage d’appel et sonnerie simultanée](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Permet aux utilisateurs de configurer des règles de forwarding afin que les appels soient suivis n’importe où, ou de les retourner à des collègues ou à des messages vocaux.  <br/> |
 |[Regroupement d’appels et transfert vers le groupe](call-sharing-and-group-call-pickup.md) <br/> | Permet aux utilisateurs de partager des appels entrants avec des collègues afin que ces derniers répondent à des appels qui se produisent alors que l’utilisateur n’est pas disponible. Moins perturbateur pour les destinataires que d’autres formes de partage d’appel (comme le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer la façon dont ils souhaitent être informés d’un appel partagé entrant. |
-|[Transfert d’appel et transfert consultatif](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permet aux utilisateurs de transférer des appels vers une autre personne. Ou, s’il doit quitter son bureau mais que vous souhaitez poursuivre la conversation, il peut transférer les appels à partir de son ordinateur ou de son téléphone IP vers son téléphone mobile.  <br/> Notez que les *utilisateurs* doivent être activés pour recevoir des appels transférés d’un autre utilisateur. |
+|[Transfert d’appel et transfert consultatif](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permet aux utilisateurs de transférer des appels vers une autre personne. Ou, s’il doit quitter son bureau mais que vous souhaitez poursuivre la conversation, il peut transférer les appels à partir de son ordinateur ou de son téléphone IP vers son téléphone mobile.  <br/> Notez que les *utilisateurs n’ont* pas besoin d’être activés pour recevoir des appels transférés d’un autre utilisateur. |
 |[Transfert vers la messagerie vocale mid call*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Permet aux utilisateurs de transférer des messages vocaux pendant un appel. |
 |[Parcage d’appel et récupération](call-park-and-retrieve.md)  <br/> | Permet aux utilisateurs de mettre un appel en attente dans le service Teams dans le cloud. Lorsqu’un appel est paré, le service génère un code unique pour l’extraction des appels. L’utilisateur qui a parké l’appel ou une autre personne peut ensuite utiliser ce code et une application ou un appareil pris en charge pour récupérer l’appel. <br/> |
 |Appeler un numéro de téléphone à partir de la recherche  <br/> | Permet aux utilisateurs de placer un appel à partir de la zone de recherche à l’aide de la commande /call et de spécifier un nom ou un numéro. <br/> |

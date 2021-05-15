@@ -19,12 +19,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469566"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498719"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Formation pour les administrateurs sur Microsoft Teams
 
@@ -78,6 +78,14 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Module 8 : Salles Microsoft Teams--Astuces, astuces et résolution des problèmes (18:14 min)|[Vidéo](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Instructions de joint rien à l’écran |  | [Support de présentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>Teams Appareils Android</h2>
+
+<p>Le tableau suivant contient des liens vers des vidéos de formation complètes, avec des supports de présentation PowerPoint (au format PDF) sur Microsoft Teams Les appareils Android qui incluent des écrans Teams, des téléphones Teams, des salles Teams pour Android et des panneaux Teams.  
+
+| Module | Vidéo | PowerPoint de documents (PDF)  |
+| ------------ | -------------------- | -------------------- |
+| Module 1 : présentation des Microsoft Teams Android  | |[Support de présentation](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Module 2 : planification de Microsoft Teams appareils Android|| [Support de présentation](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>Guides interactifs</h2>
 
 | Titre                                                                       | Résumé                                                                                                                                                                                                               |  Lien vers le guide                             |
@@ -86,13 +94,13 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Stratégies de protection contre la perte de données (DLP) pour les Microsoft Teams                     | Découvrez comment ajouter des Microsoft Teams à une stratégie DLP existante et comment créer une stratégie, qu’elle soit basée sur un modèle ou entièrement personnalisée aux besoins de protection des données de votre organisation.                        | [Teams Guide DLP](https://aka.ms/teamsdlpguide)         |
 | Gestion de la conformité dans Teams                                                | Utilisez les centres d’administration Microsoft 365 Security, Microsoft 365 Compliance et Microsoft Teams, ainsi que Windows PowerShell pour gérer et configurer les stratégies et paramètres Microsoft Teams d’une organisation Office 365. | [Gestion de la conformité dans Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Conseiller : Déploiement de conversations, d’équipes, de canaux et d’applications Microsoft Teams | Découvrez comment utiliser Teams conseiller pour évaluer votre environnement et créer un plan pour le déploiement de conversations, d’équipes, de canaux et d’applications.                                                                                         |  [Teams Guide de conseiller](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
-| Simplification de Teams administration avec PowerShell et les groupes dynamiques        | Convertissez un Office 365 d’appartenance statique en appartenance dynamique et utilisez Windows PowerShell pour affecter une nouvelle stratégie d’autorisation d’application à tous les membres.                                                                         |  [Guide d’administration Teams simplifié](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
+| Simplification de Teams administration avec PowerShell et les groupes dynamiques        | Convertissez un Office 365 d’appartenance statique en appartenance dynamique et utilisez Windows PowerShell pour affecter une nouvelle stratégie d’autorisation d’application à tous les membres.                                                                         |  [Guide de simplification Teams de l’administration](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Gestion des Teams et de l’accès invité dans le Centre Microsoft Teams’administration         | Découvrez comment configurer et gérer les Microsoft Teams et l’accès invité pour votre organisation.                                                                                                                              | [Gestion des Teams et du guide d’accès invité](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Configurer la Teams Système téléphonique : Standard automatique & file d’attente d’appels                   | Étape dans le processus de création et de déploiement d’une file d’attente et d’un Standard automatique dans le cadre de Microsoft Teams d’appels à l’aide du centre Microsoft Teams d’administration.                                                          |  [Guide de configuration Teams du système téléphonique](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | Configurer le routage direct : connexion des SBCs et du routage vocal                 | Utilisez Microsoft Teams Système téléphonique routage direct pour l’intégrer à votre infrastructure téléphonique existante.                                                                                                              | [Configurer le guide de routage direct](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Configurer la gouvernance dans Microsoft Teams                                     | Découvrez comment créer une stratégie de rétention Teams messagerie instantanée pour votre organisation et comment archiver, supprimer et restaurer des messages Teams                                                                                   |  [Configurer la gouvernance dans Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Configuration et déploiement de Microsoft Teams réunions                          | Avancez dans le processus de déploiement de la charge de travail des réunions pour les Microsoft Teams.                                                                                                                                       |  [Guide de configuration et de déploiement Microsoft Teams réunions](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Configurer l’audioconférence pour Microsoft Teams                            | Découvrez les fonctionnalités d’audioconférence dans Teams comment affecter des ponts de conférence et des numéros de téléphone à composer.                                                                                          |  [Configuration de l’audioconférence pour Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| Configurer l’audioconférence pour Microsoft Teams                            | Découvrez les fonctionnalités de l’audioconférence Teams comment attribuer des ponts de conférence et des numéros de téléphone à composer.                                                                                          |  [Configuration de l’audioconférence pour Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Configuration de Microsoft Teams pour les employés de première ligne                           | Découvrez comment configurer et déployer l’environnement de travail Microsoft Teams pour votre personnel de première ligne.                                                                                                                  | [Guide de configuration Microsoft Teams pour les employés de première ligne](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identité pour le personnel en avant-plan : Donnent les moyens aux employés en avant-plan, aux responsables et aux employés en avant-plan                    | Découvrez comment intégrer des Microsoft Teams aux systèmes de ressources humaines existants, configurer une gestion légère des identités déléguées, et configurer une procédure de signature simplifiée et des transitions transparentes pour les personnes utilisant des appareils partagés.                                                                                                                  | [Guide d’identité des travailleurs en ligne](https://aka.ms/FLWIdentityIG)              |
 | Déploiement de Salles Microsoft Teams                           | Découvrez comment créer et configurer un compte à utiliser avec Salles Microsoft Teams gérer l’appareil dans Microsoft Teams centre d’administration.                                                                                                                  | [Déploiement de Salles Microsoft Teams](https://aka.ms/teamsroomslab)              |
@@ -107,4 +115,5 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 - [Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml)
 - [Didacticiel : Audioconférence dans Teams](tutorial-audio-conferencing.yml)
 - [Didacticiel: Comprendre la fonction d'appel dans Microsoft Teams](tutorial-calling-in-teams.yml)
+
 

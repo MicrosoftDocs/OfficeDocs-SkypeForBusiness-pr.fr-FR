@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469656"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491791"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -157,9 +157,9 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 
 **Comment gérer les légendes ?**
 
-Les sous-titres Teams enregistrements des réunions ne seront disponibles pendant la lecture que si la transcription a été désactivée par l’utilisateur au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
+Les sous-titres Teams enregistrements des réunions ne seront disponibles lors de la lecture que si la transcription était désactivée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
 
-Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer des sous-titres dans l’enregistrement de la réunion, bien que la transcription de la réunion reste disponible sur Teams sauf si vous l’y supprimez. 
+Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer les sous-titres dans l’enregistrement de la réunion, bien que la transcription de la réunion reste disponible sur Teams sauf si vous l’y supprimez. 
 
 Nous prenons en charge les sous-titres codés pour les enregistrements de réunion Teams pendant 60 jours à compter de la date d’enregistrement de la réunion.
 
@@ -182,7 +182,7 @@ Vous pouvez lire votre vidéo est sur le lecteur vidéo de OneDrive Entreprise o
 
 Nous ne déconseillerons pas Stream en tant que plateforme dans un avenir proche. Les vidéos qui résident actuellement dans Stream y resteront jusqu’au début de la migration. Lors de la migration, ces vidéos migreront également vers OneDrive Entreprise ou SharePoint. Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Migration classique de Stream](/stream/streamnew/classic-migration).
 
-**Comment appliquer une étiquette de rétention ?**
+**Comment puis-je appliquer une étiquette de rétention à Microsoft Teams enregistrements de réunion ?**
 
 Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application automatique d’étiquettes de rétention](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
@@ -190,7 +190,7 @@ Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application au
 
 Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).
 
-**Où se trouve l’enregistrement si l’utilisateur n’OneDrive Entreprise pas SharePoint ?**
+**Où se trouve l’enregistrement si l’utilisateur ne OneDrive Entreprise pas SharePoint stockage, ou si le quota de stockage est plein ?**
 
 L’enregistrement sera placé dans notre emplacement de stockage temporaire où il sera placé pendant 21 jours. Pendant ce temps, l’organisateur doit télécharger l’enregistrement. Si l’enregistrement n’est pas téléchargé dans les 21 jours, il est supprimé.
 
