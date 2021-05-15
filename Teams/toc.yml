@@ -447,6 +447,14 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Rapport d’utilisation des événements en direct Teams
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+      - name: 'Fichiers journaux, Intégrité des services et support'
+        items:
+          - name: Utiliser des fichiers journaux pour surveiller et résoudre des problèmes liés à Teams
+            href: log-files.md
+          - name: "Vérifier l’intégrité du service pour Microsoft\_Teams"
+            href: service-health.md
+          - name: Comment rechercher votre code confidentiel d’assistance
+            href: support-pin.md
   - name: 'Conversations, équipes et canaux'
     items:
       - name: Planifier votre déploiement
@@ -1363,6 +1371,8 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: Personnaliser des applications dans Teams
             href: customize-apps.md
+          - name: Expérience de mise à jour pour les applications
+            href: apps-update-experience.md
   - name: Conseils pour les industries et le secteur public
     items:
       - name: Vue d’ensemble

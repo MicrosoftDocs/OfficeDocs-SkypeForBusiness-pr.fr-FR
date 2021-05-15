@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909148"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469646"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
@@ -57,7 +57,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
   - l’onglet **Activité** est affiché ;
   - Teams capture un événement dans l’onglet **Activité**.
 - **activityTypeDropdown** : capture de l’utilisation de filtres d’activités pour basculer entre **Mon activité** et **Flux**.
-- **addChannel** : un canal est ajouté. Cet élément fournit des données de performance sur la création réussie d’un canal.
+- **addChannel** : un canal est ajouté. Cet élément fournit des données de performance sur la création réussie d’un canal.
 - **addMember** : appui sur **Inviter des contacts** dans le menu **Plus**.
 - **addMembers** : Ajouter des membres à une équipe ou à un canal privé.
 - **addToCalendar** : appui sur **Ajouter au calendrier** pour les événements du calendrier manquants dans le calendrier privé.
@@ -121,7 +121,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **BYOELiveEventJoin** : l’utilisateur rejoint un événement en direct BYOE (Broadcast your own event).
 - **calendarLiveChatClicked** : Conversation d’une réunion en cours dans l’onglet **Planification**.
 - **calendarMeetingJoinMeeting** - appui sur **Participation à une réunion** depuis le calendrier.
-- **calendarTab** : appui sur l’onglet **Réunions** dans le rail inférieur. Utile pour la compréhension de l’utilisation du calendrier et pour la comparaison avec d’autres applications sur le rail inférieur, ou pour déterminer si une défaillance s’est produite lors du rendu du billet de calendrier après sélection à partir de la barre inférieure.
+- **calendarTab** : appui sur l’onglet **Réunions** dans le rail inférieur. Utile pour la compréhension de l’utilisation du calendrier et pour la comparaison avec d’autres applications sur le rail inférieur, ou pour déterminer si une défaillance s’est produite lors du rendu du billet de calendrier après sélection à partir de la barre inférieure.
 - **calendarTabClicked** : Dans les circonstances décrites ci-dessous, l’utilisation du calendrier s’affiche et permet de comparer avec d’autres applications de la barre de navigation sur le rail inférieur. Aide à déterminer si une défaillance s’est produite lorsque :
   - l’onglet **Planification** s’affiche ;
   - l’onglet **Réunions** est sélectionné sur le rail inférieur.
@@ -222,7 +222,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
   - la vidéo est désactivée ;
   - le bouton de vidéo est appuyé lors d’une réunion en cours ou d’un appel.
 - **callPark** se déclenche lorsque :
-  - **Parquer l’appel** est appuyé dans le menu **…**  ;
+  - **Parquer l’appel** est appuyé dans le menu **…** menu.
   - **Récupérer** est appuyé ;
   - **Décrocher** est appuyé dans la boîte de dialogue de récupération ;
   - **Annuler** est appuyé dans la boîte de dialogue de récupération.
@@ -359,6 +359,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **composeParticipantAdded** : un participant est ajouté à l’application Shifts.
 - **composeSearchResult** : sélection de résultats d’extension de message ; utile pour comprendre la pertinence des résultats de la recherche d’application. Permet également d’améliorer le message Envoyer des données de télémétrie avec les données de l’application.
 - **composeSelectExtension** : appui sur une application ME.
+- **composeSendSmartreply** : un clic sur un élément de réponse intelligente.
 - **composeSendMessage** : améliore le message Envoyer des données de télémétrie avec les données de l’application.
 - **confirmAudioOn** : l’utilisateur confirme que le son doit être activé.
 - **confirmFileShare** - appui sur **Partager** dans la boîte de dialogue de confirmation.
@@ -489,6 +490,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **editNavigation** - appui sur **Réorganiser** dans le menu **Plus** pour modifier l’ordre des applications de la barre inférieure.
 - **editRsvpMeetingOptions** : appui sur **RSVP** pour modifier la sélection précédente.
 - **editShiftClicked** : Modifier un shit.
+- **editSmartReply** : un élément de réponse intelligente est modifié.
 - **editTeam** : l’utilisateur appuie sur un bouton pour modifier une équipe dont il est le propriétaire ou l’administrateur.
 - **editTeam, editChannel** : des membres sont correctement ajoutés dans une équipe et une équipe existante est correctement créée lorsque :
   - un appui est effectué sur **Annuler** sur la page **Ajouter des membres** (équipe ou canal existant).
@@ -566,7 +568,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **groupCallJoin** : l’utilisateur rejoint un appel de groupe.
 - **groupClicked** : l’utilisateur sélectionne le groupe de shifts.
 - **guideMe** : l’utilisateur appuie sur une bannière l’informant qu’une application tierce bloque les notifications et lui proposant des conseils de dépannage.
-- **hamburgerMenu** : l’utilisateur accède au menu hamburger. Le menu hamburger contient des actions importantes, telles que le changement de compte, les paramètres de notification, de données et de profil.
+- **hamburgerMenu** : l’utilisateur accède au menu hamburger. Le menu hamburger contient des actions importantes, telles que le changement de compte, les paramètres de notification, de données et de profil.
 - **handoffComplete** : la réunion ou l’appel a été transféré sur cet appareil.
 - **handoffJoin** : une option de transfert de réunion est sélectionnée dans la feuille d’action.
 - **hardwareAudioOff** : le son est désactivé via les boutons matériels.
@@ -635,7 +637,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **location_family_sync** : les membres d’un groupe familial créés dans l’application familiale MSA sont affichés. Confirme que tous les membres de la famille pouvant bénéficier d’un consentement sont affichés.
 - **location_group_map_sync** : l’affichage de la carte géographique est ouvert.
 - **location_map_load** : l’affichage de la carte géographique est chargée.
-- **location_map_markers_load** : l’affichage de la carte géographique est chargée. Confirme que les marqueurs de position de tous les utilisateurs en partage actif sont correctement déployés sur l’affichage de la carte géographique.
+- **location_map_markers_load** : l’affichage de la carte est chargée. Confirme que les marqueurs de position de tous les utilisateurs en partage actif sont correctement déployés sur l’affichage de la carte géographique.
 - **location_message_send** : l’utilisateur initie une session de partage de position.
 - **location_data_use_privacy_denied** : l’utilisateur appuie sur **Plus tard** ou masque une fenêtre contextuelle expliquant l’utilisation des données d’emplacement par TFL.
 - **location_data_use_privacy_granted** : l’utilisateur appuie sur **Autoriser** sur une fenêtre contextuelle expliquant l’utilisation des données d’emplacement par TFL.
@@ -645,6 +647,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **loginFailed** : l’utilisateur n’a pas pu se connecter.
 - **loginSuccess** : l’utilisateur a pu se connecter.
 - **manageBlockedNumbers** : l’utilisateur accède aux numéros bloqués par les paramètres.
+- **ManuelSendMessage** : un message est envoyé manuellement.
 - **mapAppPicker** : l’utilisateur sélectionne l’application de cartes géographiques qui doit être utilisée à l’appui d’une carte d’emplacement.
 - **markAsRead** : Marquer comme Lu.
 - **markAsUnread** : Marquer comme Non lu.
@@ -712,7 +715,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **muteParticipant** : Désactiver le micro du participant (accède à la page d’action).
 - **my_location_button_clicked** : l’utilisateur centre la carte sur sa position en appuyant sur **Ma position** .
 - **my_location_clicked** : l’utilisateur centre la carte sur sa position en appuyant sur le **point bleu** sur la carte.
-- **myShiftPickerClicked** : journalisé uniquement si la demande envoyée concerne un échange ou une proposition. Le sélecteur **Mes shifts** est sélectionné.
+- **myShiftPickerClicked** : journalisé uniquement si la demande envoyée concerne un échange ou une proposition. Sélecteur **Mon Shift** est sélectionné.
 - **nameGroupChat** : Attribuer un nom à la conversation de groupe.
 - **nativeTimeClockBreak** : une pause sur la pointeuse.
 - **nativeChatLink** : un lien vers une conversation native est sélectionné.
@@ -1011,6 +1014,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
   - une cible de transfert d’appel simultané est définie ;
   - le transfert d’appel simultané est activé (Sonnerie d’appel est activé et Activer la sonnerie pour est défini).
 - **skipVerificationForLink** : l’utilisateur choisit d’ignorer la vérification.
+- **smartReply** : bouton bascule Réponse intelligente est cliqué.
 - **SMSSendMessage** : l’utilisateur envoie un SMS.
 - **sortChanged** : l’utilisateur change l’ordre de tri lors de l’affichage d’une liste de tâches.
 - **startEditing** - appui sur **Modifier**.
@@ -1072,7 +1076,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **teamsDeviceCallResumed** : l’utilisateur disposant d’un périphérique Bluetooth connecté (station de téléphone mobile) réactive un appel en attente.
 - **teamSelectedClicked** : l’utilisateur appuie sur **Équipe sélectionnée** pour une feuille de temps.
 - **teamshiftPickerClicked** : l’utilisateur ajoute une nouvelle entrée de pause. L’événement est journalisé une fois que l’utilisateur enregistre les modifications.
-- **tenantSwitch** : Changer le locataire. Indicateurs de performance de fonctionnalité pour le Basculement entre plusieurs locataires et plusieurs comptes (MTMA), ce qui aide à l’identification des problèmes et leur résolution proactive et à offrir une expérience de changement de locataire ou de compte sans accroc.
+- **tenantSwitch** - On Switch Tenant. Indicateurs de performance de fonctionnalité pour le Basculement entre plusieurs locataires et plusieurs comptes (MTMA), ce qui aide à l’identification des problèmes et leur résolution proactive et à offrir une expérience de changement de locataire ou de compte sans accroc.
 - **tenantSwitchUnsupportedError** : erreur Client non pris en charge (lorsque l’erreur est affichée à l’utilisateur). Indicateurs de performance de fonctionnalité pour le Basculement entre plusieurs locataires et plusieurs comptes (MTMA) ; fournit des données de télémétrie sur les erreurs de bascule de locataire ou de compte, ce qui aide à l’identification des problèmes et leur résolution proactive et à offrir une expérience de changement de locataire ou de compte sans accroc.
 - **timeClockClicked** : appui sur **Pointeuse** sur l’onglet Mes shifts.
 - **timeOffReasonClicked** : indique si une raison est donnée pour le congé.
@@ -1109,8 +1113,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **updatePersonalTask** : une tâche personnelle a été mise à jour.
 - **updatePlaybackSpeedVoicemail** : la valeur de vitesse de lecture d’un message vocal est changée.
 - **updateTask** : l’action de mise à jour d’une tâche a échoué.
-- **updateTaskState** : la tâche a été mise à jour.
-action.
+- **updateTaskState** : confirme que la tâche a été mise à jour. action.
 - **upgrade** : appui sur **Mettre à niveau** dans le menu **Plus**.
 - **uploadFile** : l’utilisateur appuie sur **Charger depuis l’appareil**.
 - **uploadSelectedFile** se déclenche lorsque :
@@ -1186,6 +1189,9 @@ action.
 - **load_smart_task_list** : confirme la récupération réussie des tâches d’une liste de tâches intelligente pour l’affichage de la liste de tâches.
 - **rename_personal_plan** : confirme le changement de nom réussi d’une liste de tâches personnelle.
 - **rename_planner_plan** : confirme du changement de nom réussi d’une liste de tâches partagée.
+- **smart_reply_enabled** : confirme que la réponse intelligente est activée pour l’utilisateur actuel.
+- **smart_reply_received** : confirme qu’une suggestion de réponse intelligente a été reçue.
+- **smart_reply_banned** : confirme que la réponse intelligente ne peut pas être affichée pour l’utilisateur actuel.
 - **update_planner_task_and_nav_to_view** : confirme la mise à jour réussie d’un élément de tâche partagée et le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
 - **update_personal_task_and_nav_to_view** : confirme la mise à jour réussie d’un élément de tâche personnel et le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action. **updatePlannerTask** : confirme que l’utilisateur a correctement mis à jour une tâche dans une liste de tâches partagée.
 
