@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez comment passer d’Skype Entreprise Online Connector au module PowerShell Teams à gérer les Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e788fc8cd31bd6e8754e410132e02829eaa2cad8
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469716"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513867"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migration d’Skype Entreprise Online Connector vers le module Teams PowerShell
 
@@ -36,7 +36,9 @@ Teams Le module PowerShell fournit un ensemble complet d’lets de commande pour
 La migration d’Skype Entreprise Online Connector vers Teams module PowerShell est simple et simple. La procédure ci-dessous explique comment faire.
 
 1. Installez la dernière version Teams module PowerShell. Pour consulter la procédure, [voir Installer Microsoft Teams PowerShell.](teams-powershell-install.md)
+
 2. Désinstaller Skype Entreprise Online Connector. Pour ce faire, dans le Panneau de contrôle, sélectionnez Programmes et fonctionnalités, Skype Entreprise **Online, Windows PowerShell Module,** puis **Désinstaller.**
+
 3. Dans vos scripts PowerShell, modifiez le nom du module référencé ```Import-Module``` dans
 
     `SkypeOnlineConnector` ou `LyncOnlineConnector` `MicrosoftTeams` à .
@@ -47,36 +49,45 @@ La migration d’Skype Entreprise Online Connector vers Teams module PowerShell 
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
 ## <a name="online-support"></a>Support en ligne
 
 Gagnez du temps en commençant votre demande de service en ligne. Nous vous aiderons à trouver une solution ou à vous mettre en relation avec le support technique.
+
 1.  Pour ce faire, voir le Centre [https://admin.microsoft.com](https://admin.microsoft.com) d’administration. Si un message vous indique que vous n’êtes pas autorisé à accéder à cette page ou à effectuer cette action, cela indique que vous n’êtes pas un administrateur. Qui avez des autorisations d’administrateur dans mon entreprise ?
+
 2.  Sélectionnez **l’aide nécessaire**? .
+
 3.  Vous avez besoin **d’aide**? , indiquez-nous ce sur quoi vous avez besoin d’aide, puis appuyez sur Entrée.
+
 4.  Si les résultats ne vous aident pas, sélectionnez **Contacter le support.**
+
 5.  Entrez une description de votre problème, confirmez votre numéro de contact et votre adresse de courrier, sélectionnez votre méthode de contact préférée, puis **Contactez-moi.** Le temps d’attente attendu est indiqué dans le cas où vous avez besoin d’aide ? .
 
 ## <a name="related-topics"></a>Sujets associés
