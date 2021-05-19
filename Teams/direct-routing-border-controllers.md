@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Les administrateurs peuvent en savoir plus sur les contrôleurs de session en bordure certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4eab3bb25690c939afd2687f5a67e63a2c417a89
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486368"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526737"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -47,7 +47,7 @@ Si vous avez des questions concernant le programme de certification SBC pour le 
 
 ## <a name="certified-sbc-vendors"></a>Fournisseurs SBC certifiés
 
-|                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version logicielle | Fournisseur de services 911 capable | ELIN capable
+|                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version logicielle | Fournisseur de services 911 capable* | ELIN capable
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;   |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;   |  &#10004;  |
@@ -92,6 +92,11 @@ Si vous avez des questions concernant le programme de certification SBC pour le 
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
+* 911 fournisseurs de services
+
+- [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [ERS (Intrado Emergency Routing Service)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
 
 ## <a name="direct-routing-and-analog-devices-interoperability"></a>Routage direct et interopérabilité des appareils analogiques

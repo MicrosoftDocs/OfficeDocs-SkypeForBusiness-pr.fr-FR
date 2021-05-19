@@ -19,28 +19,30 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498719"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526667"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Formation pour les administrateurs sur Microsoft Teams
 
 Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner aux autres personnes ou exécuter les ateliers. Recherchez souvent ici pour de nouveau contenu.
 
-|       Icône        | Description               |    Icône           |Description               |
-| :------------ | :------------ | :------------ | :------------ |
-| [Lancez votre déploiement ici](./get-started-with-teams-quick-start.md) | [Afficher les Teams fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Chalk Talks : découvrir les meilleures pratiques et des conseils pratiques sur les scénarios Teams populaires](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[Lancez votre déploiement ici](./get-started-with-teams-quick-start.md)     |[Afficher les Teams fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams Chalk Talks : découvrir les meilleures pratiques et des conseils pratiques sur les scénarios Teams populaires](./chalk-talks-landing-page.yml)         |
+
 
 <h2>Offres et cours de formation clés</h2>
 
-|   Icône            | Description              |  Icône             |    Description           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Prise en charge des travailleurs à distance avec Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentiels pour l’it](https://aka.ms/MicrosoftTeamsforIT) | [Gérer la collaboration d’équipe pour les membres de l’it](/learn/paths/m365-manage-team-collaboration) | [Certification des spécialistes de l’adoption des services](/learn/paths/m365-service-adoption) |
-| [Présentation du travail d’équipe dans Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Certification Microsoft 365 : Administrateur de travail d’équipe associé](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**Teams essentiels**](https://aka.ms/MicrosoftTeamsforIT) pour l’informatique - Les séries vidéo de Microsoft Mechanics « Teams pour l’informatique » vous indiquent, en votre qualité d’administrateur, comment déployer, configurer et gérer Teams.     |[**Prise en charge des travailleurs**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) à distance Microsoft Teams - Obtenez les conseils dont vous avez besoin, notamment des liens vers des formations, pour prendre en charge vos utilisateurs qui travaillent à domicile.         |[**Gérer la collaboration en équipe pour l’it**](/learn/paths/m365-manage-team-collaboration) - Découvrez comment utiliser les Teams pour faciliter le travail d’équipe et la communication au sein de votre organisation sur les applications et appareils.         |
+|[**Certification du spécialiste de l’adoption**](/learn/paths/m365-service-adoption) des services - Fonctionnalités du cours de certification Du spécialiste de l’adoption des services Microsoft Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.     |[**Introduction au travail d’équipe Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Les fonctionnalités du cours de certification Microsoft Service Adoption Specialist Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.        |[**Microsoft 365**](/learning/m365-teamwork-administrator.aspx) Certifié : Association de l’administrateur de travail d’équipe - administrateurs de travail d’équipe Microsoft 365 Configurez, déployez et gérez les charges de travail Microsoft 365 ou Office 365, telles que SharePoint (en ligne, sur site et hybride), OneDrive et Teams.        |
 
 
 <h2>Formation technique</h2>

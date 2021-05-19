@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Déplacez les points de terminaison d’application hyrid avant de désaffecter un environnement Skype Entreprise local.
-ms.openlocfilehash: af8b521eaaf4a1e86027936f3d4d3600ab4bfa7b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: Déplacez les points de terminaison d’application hyrid avant de désaffecter Skype Entreprise environnement local.
+ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656878"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526717"
 ---
-# <a name="move-hyrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Déplacer des points de terminaison d’application hyrid avant de désaffecter votre environnement local
+# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Déplacer des points de terminaison d’application hybride avant de désaffecter votre environnement local
 
 Cet article explique comment déplacer les points de terminaison d’application hybride requis vers le cloud Microsoft avant de désaffecter votre environnement Skype Entreprise local. Il s’agit de l’étape 3 des étapes suivantes pour désaffecter votre environnement local :
 
-- Étape 1. [Déplacer tous les utilisateurs requis de l’local vers le site en ligne](decommission-move-on-prem-users.md)
+- Étape 1. [Déplacer tous les utilisateurs requis de l’local vers le réseau en ligne](decommission-move-on-prem-users.md)
 
 - Étape 2. [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
@@ -41,21 +41,21 @@ Cet article explique comment déplacer les points de terminaison d’application
 
 Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous assurer que vous avez mis à jour les enregistrements DNS pour qu’ils pointent vers Microsoft 365 pour tous les domaines sip utilisés par les points de terminaison. Il n’est pas possible de créer des comptes de ressources en ligne si les enregistrements DNS pointent vers l’environnement local. Pour plus d’informations, [voir Désactiver votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
-1. Récupérez et exportez les paramètres du point de terminaison de l’application hybride sur site en exécutant la commande PowerShell Skype Entreprise Server sur site suivante :
+1. Récupérez et exportez les paramètres du point de terminaison de l’application hybride sur site en exécutant la commande PowerShell Skype Entreprise Server suivante :
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Créez et licensez [de nouveaux](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) comptes de ressources dans Microsoft 365 pour remplacer les points de terminaison d’application hybride locaux existants.
+2. Créez et licensez [de](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) nouveaux comptes de ressources Microsoft 365 pour remplacer les points de terminaison d’application hybride locaux existants.
 
 3. Associez les nouveaux comptes de ressources aux points de terminaison d’application hybride existants.
 
-4. Supprimez les numéros de téléphone définis dans les points de terminaison de l’application hybride sur site en exécutant la commande PowerShell Skype Entreprise Server sur site suivante :
+4. Supprimez les numéros de téléphone définis dans les points de terminaison de l’application hybride sur site en exécutant la commande PowerShell Skype Entreprise Server suivante :
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Étant donné qu’il est possible que les numéros de téléphone de ces comptes ont été gérés dans Microsoft 365 plutôt que sur site, exécutez la commande suivante dans Skype Entreprise Online PowerShell :
+5. Étant donné qu’il est possible que les numéros de téléphone de ces comptes ont été gérés en Microsoft 365 plutôt qu’en local, exécutez la commande suivante dans Skype Entreprise Online PowerShell :
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -72,18 +72,18 @@ Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous a
 
 6. Affectez des numéros de téléphone aux nouveaux comptes de ressources créés à l’étape 2. Pour plus d’informations sur l’affectation d’un numéro de téléphone à un compte de ressource, voir l’article suivant : [Affecter un numéro de service.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
 
-7. Supprimez les points de terminaison locaux en exécutant la commande PowerShell Skype Entreprise Server sur site suivante :
+7. Supprimez les points de terminaison locaux en exécutant la commande PowerShell Skype Entreprise Server suivante :
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-Vous êtes maintenant prêt à [supprimer votre déploiement Skype Entreprise local.](decommission-remove-on-prem.md)
+Vous êtes maintenant prêt à supprimer votre déploiement Skype Entreprise [local.](decommission-remove-on-prem.md)
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Mise hors service de votre environnement Skype pour entreprises sur site](decommission-on-prem-overview.md)
 
-- [Déplacer tous les utilisateurs requis de l’local vers le site en ligne](decommission-move-on-prem-users.md)
+- [Déplacer tous les utilisateurs requis de l’local vers le réseau en ligne](decommission-move-on-prem-users.md)
 
 - [Désactiver votre configuration hybride](cloud-consolidation-disabling-hybrid.md)
 
