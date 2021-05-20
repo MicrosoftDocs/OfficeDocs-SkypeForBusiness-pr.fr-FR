@@ -1,5 +1,5 @@
 ---
-title: 'Démarrage rapide pour les administrateurs : réunions et évènements en direct dans Microsoft Teams'
+title: 'Démarrage rapide pour les administrateurs : réunions et évènements en direct dans Microsoft Teams'
 ms.reviewer: ''
 description: Guide de démarrage rapide pour les administrateurs pour obtenir des licences pour, déployer et configurer des réunions en ligne et des événements en direct dans Microsoft Teams.
 ms.topic: article
@@ -20,29 +20,29 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117672"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517737"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
-Deux méthodes s’offrent à vous pour rencontrer Microsoft Teams : réunions et événements en direct. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements dynamiques pour votre organisation.
+Deux méthodes s’offrent à vous pour rencontrer Microsoft Teams : réunions et événements en direct. Utilisez cet article pour déployer et configurer rapidement des réunions et des événements dynamiques pour votre organisation.
 
 > [!Note]
 > Pour plus d’informations sur la configuration rapide de réunions et d’événements Teams sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - **Les réunions** dans Teams incluent les fonctionnalités audio, vidéo et de partage d’écran pour un maximum de 300 personnes. Il s’agit de l’une des méthodes clés de collaboration dans Teams. Et vous n’avez pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams, il vous suffit de rechercher des instructions sur les appels dans à l’invitation.
+ - **Les réunions** dans Teams incluent les fonctionnalités audio, vidéo et de partage d’écran pour un maximum de 1 000 personnes. Il s’agit de l’une des méthodes clés de collaboration dans Teams. Et vous n’avez pas besoin de faire partie d’une organisation (ou même d’avoir un compte Teams) pour participer à une réunion Teams, il vous suffit de rechercher des instructions sur les appels dans à l’invitation.
 
- - **Les événements en direct** sont une extension de réunions Teams qui vous permettent de planifier et de produire des événements qui sont diffusés à de grandes audiences en ligne, jusqu’à 10 000 personnes. Si vous avez besoin d’une réunion pour plus de 300 personnes, utilisez un événement en direct.
+ - **Les événements en direct** sont une extension de réunions Teams qui vous permettent de planifier et de produire des événements qui sont diffusés à de grandes audiences en ligne, jusqu’à 10 000 personnes. Si vous avez besoin d’une réunion pour plus de 1 000 personnes, utilisez un événement en direct.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenir des licences pour des réunions et des événements en direct
 
 Tout le monde peut participer à une réunion Teams ou à un événement en direct public pour le cas où aucune licence n’est requise. Les participants joignent une réunion Teams ou un événement en direct en cliquant sur le bouton **Participer** dans Teams ou l’invitation à une réunion. L’audio de la réunion fait partie d’une réunion Teams, mais si vous voulez que les utilisateurs puissent se connecter à une réunion par téléphone, vous devez fournir un numéro de connexion.
 
-Pour les personnes qui organisent, planifient et hébergent des réunions ou des événements en direct, ils ont besoin d’une des licences Microsoft 365 ou Office 365 répertoriées dans le tableau ci-dessous. Si vous utilisez déjà Teams, vous disposez probablement de la licence dont vous avez besoin pour organiser et héberger des réunions et des événements en direct.
+Pour les personnes qui organisent, planifient et hébergent des réunions ou des événements en direct, ils ont besoin d’une des licences Microsoft 365 ou Office 365 répertoriées dans le tableau ci-dessous. Si vous utilisez déjà Teams, vous disposez probablement de la licence dont vous avez besoin pour organiser et héberger des réunions et des événements en direct.
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tableau des licences requises pour les réunions ou événements en direct Teams":::
 
@@ -54,7 +54,7 @@ Pour en savoir plus sur les licences, lisez [Description du service Microsoft Te
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 
-Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365 ou Office 365, vous êtes probablement prêt. Dans tous les cas, et en particulier si vous déployez rapidement Teams en tant que première charge de travail Office 365 pour prendre en charge des **travailleurs à distance**, veuillez lire [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md) pour vous assurer d’être prêt.
+Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365 ou Office 365, vous êtes probablement prêt. Dans tous les cas, et en particulier si vous déployez rapidement Teams en tant que première charge de travail Office 365 pour prendre en charge des **travailleurs à distance**, veuillez lire [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md) pour vous assurer d’être prêt.
 
 ## <a name="meetings-and-conferencing"></a>Réunions et conférences
 
@@ -72,9 +72,9 @@ Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365
 
 - À l’instar des réunions, vous-même [Configurer des événements en direct](teams-live-events/configure-teams-live-events.md) pour tout le monde. Ensuite, configurez (et attribuez) les [stratégies d’événement en direct](teams-live-events/set-up-for-teams-live-events.md) pour contrôler ce que les utilisateurs peuvent (et ne peuvent pas faire).
 
-- Assurez-vous que les organisateurs et producteurs d’événements en direct sont formés : orientez les vers la [Prise en main de des événements en direct](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
+- Assurez-vous que les organisateurs et producteurs d’événements en direct sont formés : orientez les vers la [Prise en main de des événements en direct](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
 
-- Si vous débutez avec les événements en direct, consultez [Que sont les événements en direct Microsoft Teams ?](teams-live-events/what-are-teams-live-events.md) et [Planifier des événements en direct dans Microsoft Teams](teams-live-events/plan-for-teams-live-events.md).
+- Si vous débutez avec les événements en direct, consultez [Que sont les événements en direct Microsoft Teams ?](teams-live-events/what-are-teams-live-events.md) et [Planifier des événements en direct dans Microsoft Teams](teams-live-events/plan-for-teams-live-events.md).
 
 ## <a name="related-topics"></a>Sujets associés
 
@@ -86,4 +86,4 @@ Si vous aviez déjà préparé votre réseau lors du déploiement Microsoft 365
 
 [Spécifications et limites de Microsoft Teams](limits-specifications-teams.md)
 
-[Communauté technique Microsoft : événements en direct dans Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)
+[Communauté technique Microsoft : événements en direct dans Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)
