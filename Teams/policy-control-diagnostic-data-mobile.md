@@ -1,5 +1,5 @@
 ---
-title: Données de diagnostic de mobiles requises pour Microsoft Teams
+title: Données de diagnostic de mobiles requises pour Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
-description: Une liste des propriétés de mobiles et des événements de contrôles des stratégies pour Microsoft Teams.
+description: Une liste des propriétés de mobiles et des événements de contrôles des stratégies pour Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498769"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569232"
 ---
-# <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
+# <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
-L’article suivant contient une liste des événements de mobiles Microsoft Teams, et pour chacun de ces événements la liste des propriétés collectées.
+L’article suivant contient une liste des événements de mobiles Microsoft Teams, et pour chacun de ces événements la liste des propriétés collectées.
 
 ## <a name="events"></a>Événements
 
@@ -57,7 +57,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
   - l’onglet **Activité** est affiché ;
   - Teams capture un événement dans l’onglet **Activité**.
 - **activityTypeDropdown** : capture de l’utilisation de filtres d’activités pour basculer entre **Mon activité** et **Flux**.
-- **addChannel** : un canal est ajouté. Cet élément fournit des données de performance sur la création réussie d’un canal.
+- **addChannel** : un canal est ajouté. Cet élément fournit des données de performance sur la création réussie d’un canal.
 - **addMember** : appui sur **Inviter des contacts** dans le menu **Plus**.
 - **addMembers** : Ajouter des membres à une équipe ou à un canal privé.
 - **addToCalendar** : appui sur **Ajouter au calendrier** pour les événements du calendrier manquants dans le calendrier privé.
@@ -67,7 +67,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **admitAll** : nombre de fois que le bouton **Autoriser tout le monde** est appuyé dans la salle d'attente.
 - **admitParticipant** : nombre de fois qu’une personne est admise dans une réunion depuis la liste de présence de la réunion.
 - **alertsNavAlert** : appui sur un élément de flux.
-- **Android : null** : Activer ou Désactiver une conversation de robot. Ceci améliore la télémétrie existante concernant les conversations, et ne fait qu’ajouter des informations sur l’application.
+- **Android : null** : Activer ou Désactiver une conversation de robot. Ceci améliore la télémétrie existante concernant les conversations, et ne fait qu’ajouter des informations sur l’application.
 - **anonymousMeetingJoinappui** - appui sur **Participer à la réunion** sur une page d’indication du nom pour rejoindre anonymement, ou sur **OK** dans la boîte de dialogue de nom.
 - **anonymousMeetingJoinWelcomeJoin** - appui sur **Rejoindre en tant qu’invité** sur une page d’arrivée pour rejoindre anonymement une réunion.
 - **anonymousMeetingPostMeetingChat** : nombre d’affichages de la conversation par les utilisateurs depuis l’écran de fin d’appel.
@@ -121,7 +121,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **BYOELiveEventJoin** : l’utilisateur rejoint un événement en direct BYOE (Broadcast your own event).
 - **calendarLiveChatClicked** : Conversation d’une réunion en cours dans l’onglet **Planification**.
 - **calendarMeetingJoinMeeting** - appui sur **Participation à une réunion** depuis le calendrier.
-- **calendarTab** : appui sur l’onglet **Réunions** dans le rail inférieur. Utile pour la compréhension de l’utilisation du calendrier et pour la comparaison avec d’autres applications sur le rail inférieur, ou pour déterminer si une défaillance s’est produite lors du rendu du billet de calendrier après sélection à partir de la barre inférieure.
+- **calendarTab** : appui sur l’onglet **Réunions** dans le rail inférieur. Utile pour la compréhension de l’utilisation du calendrier et pour la comparaison avec d’autres applications sur le rail inférieur, ou pour déterminer si une défaillance s’est produite lors du rendu du billet de calendrier après sélection à partir de la barre inférieure.
 - **calendarTabClicked** : Dans les circonstances décrites ci-dessous, l’utilisation du calendrier s’affiche et permet de comparer avec d’autres applications de la barre de navigation sur le rail inférieur. Aide à déterminer si une défaillance s’est produite lorsque :
   - l’onglet **Planification** s’affiche ;
   - l’onglet **Réunions** est sélectionné sur le rail inférieur.
@@ -359,7 +359,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **composeParticipantAdded** : un participant est ajouté à l’application Shifts.
 - **composeSearchResult** : sélection de résultats d’extension de message ; utile pour comprendre la pertinence des résultats de la recherche d’application. Permet également d’améliorer le message Envoyer des données de télémétrie avec les données de l’application.
 - **composeSelectExtension** : appui sur une application ME.
-- **composeSendSmartreply** : un clic sur un élément de réponse intelligente.
+- **composeSendSmartreply** : un clic sur un élément de réponse intelligente.
 - **composeSendMessage** : améliore le message Envoyer des données de télémétrie avec les données de l’application.
 - **confirmAudioOn** : l’utilisateur confirme que le son doit être activé.
 - **confirmFileShare** - appui sur **Partager** dans la boîte de dialogue de confirmation.
@@ -385,21 +385,21 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **copyLink** : un lien est copié vers une publication de canal.
 - **contactActivity** : appui sur le bouton permettant d’afficher l’activité d’un utilisateur à partir de sa carte de visite.
 - **conversation** : l’utilisateur accède aux onglets **Conversation** ou **Publications**.
-- **cortanaFerment** : lorsqu’un utilisateur fait disparaître manuellement la zone de dessin Cortana.
-- **cortanaEduCategorySelect** : lorsqu’un utilisateur clique sur un élément de catégorie Conseils pour l’éducation.
-- **cortanaEduOpen** : la page Éducation s’affiche dans la zone de dessin Cortana.
-- **cortanaInvoke** : lorsque Cortana démarre l’écouter.
-- **cortanaKWSWSwortanaToggle** : lorsqu'un utilisateur appuie sur le commutateur KWS dans la page des paramètres de Cortana.
-- **cortanaMicPermissionDialogButtonClick** : lorsqu’un utilisateur accorde ou refuse l’autorisation de micro dans la zone de dessin Cortana.
-- **cortanaOpen** : lorsqu’un utilisateur ouvre la zone de dessin de Cortana.
-- **cortanaOptionsOpen** : lorsque l’utilisateur appuye sur le bouton Options dans la zone de dessin Cortana.
-- **cortanaSafetyFirstActions** : lorsque l’utilisateur accepte la déclaration de sécurité en premier.
-- **cortanaSafetyFirstLaunch** : lorsque l'utilisateur ouvre Cortana pour la première fois une fois l'EPE terminé.
-- **cortanaSettingsOpen** : lorsqu’un utilisateur ouvre la page des paramètres de Cortana via un clic sur le bouton Paramètres de Cortana dans la zone de dessin Cortana.
-- **CortanaStopResponding** : lorsqu’un utilisateur clique sur le bouton Annuler dans la zone de dessin Cortana.
-- **cortanaUserSettingsLaunch** : lorsque l’utilisateur ouvre les paramètres de Cortana dans les paramètres Teams.
-- **cortanaVoiceSelect** : lorsqu’un utilisateur sélectionne la police vocale Cortana dans la page des paramètres de Cortana.
-- **createChannel** : fournit des données de performance sur l’action réussie de création ou de suppression pour la création d’un canal, lorsque :
+- **cortanaFerment** : lorsqu’un utilisateur fait disparaître manuellement la zone de dessin Cortana.
+- **cortanaEduCategorySelect** : lorsqu’un utilisateur clique sur un élément de catégorie Conseils pour l’éducation.
+- **cortanaEduOpen** : la page Éducation s’affiche dans la zone de dessin Cortana.
+- **cortanaInvoke** : lorsque Cortana démarre l’écouter.
+- **cortanaKWSWSwortanaToggle** : lorsqu'un utilisateur appuie sur le commutateur KWS dans la page des paramètres de Cortana.
+- **cortanaMicPermissionDialogButtonClick** : lorsqu’un utilisateur accorde ou refuse l’autorisation de micro dans la zone de dessin Cortana.
+- **cortanaOpen** : lorsqu’un utilisateur ouvre la zone de dessin de Cortana.
+- **cortanaOptionsOpen** : lorsque l’utilisateur appuye sur le bouton Options dans la zone de dessin Cortana.
+- **cortanaSafetyFirstActions** : lorsque l’utilisateur accepte la déclaration de sécurité en premier.
+- **cortanaSafetyFirstLaunch** : lorsque l'utilisateur ouvre Cortana pour la première fois une fois l'EPE terminé.
+- **cortanaSettingsOpen** : lorsqu’un utilisateur ouvre la page des paramètres de Cortana via un clic sur le bouton Paramètres de Cortana dans la zone de dessin Cortana.
+- **CortanaStopResponding** : lorsqu’un utilisateur clique sur le bouton Annuler dans la zone de dessin Cortana.
+- **cortanaUserSettingsLaunch** : lorsque l’utilisateur ouvre les paramètres de Cortana dans les paramètres Teams.
+- **cortanaVoiceSelect** : lorsqu’un utilisateur sélectionne la police vocale Cortana dans la page des paramètres de Cortana.
+- **createChannel** : fournit des données de performance sur l’action réussie de création ou de suppression pour la création d’un canal, lorsque :
   - un appui est effectué sur le bouton **Terminé** sur la page **Créer un canal** ;
   - un appui est effectué sur le bouton **Annuler** sur la page **Créer un canal**.
 - **createComposeExtension** : utilisation d’extension de message de création ou d’action ME.
@@ -504,7 +504,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **editNavigation** - appui sur **Réorganiser** dans le menu **Plus** pour modifier l’ordre des applications de la barre inférieure.
 - **editRsvpMeetingOptions** : appui sur **RSVP** pour modifier la sélection précédente.
 - **editShiftClicked** : Modifier un shit.
-- **editSmartReply** : un élément de réponse intelligente est modifié.
+- **editSmartReply** : un élément de réponse intelligente est modifié.
 - **editTeam** : l’utilisateur appuie sur un bouton pour modifier une équipe dont il est le propriétaire ou l’administrateur.
 - **editTeam, editChannel** : des membres sont correctement ajoutés dans une équipe et une équipe existante est correctement créée lorsque :
   - un appui est effectué sur **Annuler** sur la page **Ajouter des membres** (équipe ou canal existant).
@@ -537,12 +537,12 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **errorShown** : une erreur est affichée.
 - **expand/collapse** : section de contacts de l’appareil ou de l’entreprise.
 - **expandCollapseSection** : appui sur l’en-tête de section pour la développer ou le réduire.
-- **Attendu : atMention – Android : chatSendMessage – iOS : sendMsg** : @mention d’un robot dans une zone de rédaction.
-- **Attendu : botClickCardAction – Android : showCard – iOS : inexistant** : appui sur les boutons d’une carte. Les cartes sont des constructions de plateforme clés et la mesure de leur utilisation et de leur motif est nécessaire à la compréhension de l’utilisation de la plateforme et à la surveillance de l’apparition de problèmes potentiels du côté client.
-- **Attendu : chatSendMessage – iOS : composeSendMessage** : appui sur **Répondre** pour répondre à une conversation de robot dans un canal.
-- **Attendu : composeSendMessage – Android : replyChannel – iOS : inexistant** : appui sur **Répondre** pour répondre à une conversation de robot dans un canal.
-- **Attendu : messageLike – Android : reactLike_CM** : mention J’aime sur un message de robot.
-- **Attendu : messageUnread – Android : markAsLastUnread** : options de menu contextuel de message pour un message de robot.
+- **Attendu : atMention – Android : chatSendMessage – iOS : sendMsg** : @mention d’un robot dans une zone de rédaction.
+- **Attendu : botClickCardAction – Android : showCard – iOS : inexistant** : appui sur les boutons d’une carte. Les cartes sont des constructions de plateforme clés et la mesure de leur utilisation et de leur motif est nécessaire à la compréhension de l’utilisation de la plateforme et à la surveillance de l’apparition de problèmes potentiels du côté client.
+- **Attendu : chatSendMessage – iOS : composeSendMessage** : appui sur **Répondre** pour répondre à une conversation de robot dans un canal.
+- **Attendu : composeSendMessage – Android : replyChannel – iOS : inexistant** : appui sur **Répondre** pour répondre à une conversation de robot dans un canal.
+- **Attendu : messageLike – Android : reactLike_CM** : mention J’aime sur un message de robot.
+- **Attendu : messageUnread – Android : markAsLastUnread** : options de menu contextuel de message pour un message de robot.
 - **federatedUpgradeNewChat** : une conversation héritée est mise à niveau vers une conversation native.
 - **files** : indique si le listage des fichiers s’est correctement effectué dans la conversation et dans l’onglet Fichiers du canal.
 - **fileSelected** : une présentation PowerPoint est sélectionnée.
@@ -582,7 +582,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **groupCallJoin** : l’utilisateur rejoint un appel de groupe.
 - **groupClicked** : l’utilisateur sélectionne le groupe de shifts.
 - **guideMe** : l’utilisateur appuie sur une bannière l’informant qu’une application tierce bloque les notifications et lui proposant des conseils de dépannage.
-- **hamburgerMenu** : l’utilisateur accède au menu hamburger. Le menu hamburger contient des actions importantes, telles que le changement de compte, les paramètres de notification, de données et de profil.
+- **hamburgerMenu** : l’utilisateur accède au menu hamburger. Le menu hamburger contient des actions importantes, telles que le changement de compte, les paramètres de notification, de données et de profil.
 - **handoffComplete** : la réunion ou l’appel a été transféré sur cet appareil.
 - **handoffJoin** : une option de transfert de réunion est sélectionnée dans la feuille d’action.
 - **hardwareAudioOff** : le son est désactivé via les boutons matériels.
@@ -661,7 +661,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **loginFailed** : l’utilisateur n’a pas pu se connecter.
 - **loginSuccess** : l’utilisateur a pu se connecter.
 - **manageBlockedNumbers** : l’utilisateur accède aux numéros bloqués par les paramètres.
-- **ManuelSendMessage** : un message est envoyé manuellement.
+- **ManuelSendMessage** : un message est envoyé manuellement.
 - **mapAppPicker** : l’utilisateur sélectionne l’application de cartes géographiques qui doit être utilisée à l’appui d’une carte d’emplacement.
 - **markAsRead** : Marquer comme Lu.
 - **markAsUnread** : Marquer comme Non lu.
@@ -669,9 +669,9 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **messageBookmarkMessage** : carte de connecteur enregistrée. Utilise les données de télémétrie existantes avec les données spécifiques de l’application. Ou message de robot enregistré.
 - **markAsLastUnread** : menu contextuel d’une carte de connecteur.
 - **maskCallerId** : l’utilisateur active ou désactive le paramètre d’appel pour masquer l’ID d’appelant.
-- **meetingAttachmentFileClick** : un clic sur un élément joint à la réunion.
-- **meetingAttachmentFileOptions** : un clic sur les options d'un élément de pièce jointe de réunion.
-- **meetingAttachmentSeeMoreClick** : un clic sur le bouton « Afficher plus » de la pièce jointe d'une réunion.
+- **meetingAttachmentFileClick** : un clic sur un élément joint à la réunion.
+- **meetingAttachmentFileOptions** : un clic sur les options d'un élément de pièce jointe de réunion.
+- **meetingAttachmentSeeMoreClick** : un clic sur le bouton « Afficher plus » de la pièce jointe d'une réunion.
 - **meetingDetailCalendarList** : appui sur la page Détails de la réunion depuis la liste de calendriers, ou sur l’onglet **Détails** sur la page Détails de la réunion.
 - **meetingDetailChatWithParticipants** : Discuter avec les participants depuis la page Détails de la réunion.
 - **meetingDetailDeleteMeetingforSelf** : Supprimer une réunion depuis la page Détails de la réunion.
@@ -679,10 +679,10 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **meetingDetailParticipants** : Afficher tous les participants depuis la page Détails de la réunion.
 - **meetingDetailScheduledMeeting** : appui sur la page Détails de la réunion depuis un objet de réunion planifiée (**…**), ou sur l’onglet **Détails** d’une réunion planifiée.
 - **meetingDetailSearchParticipants** : appui sur **Rechercher** dans Participants à la réunion sur le planning de réunion.
-- **meetingInsightFileClick** : un clic sur un élément de fichier lié à la réunion.
-- **MeetingInsightFileLocatorClick** : un clic sur le bouton de conseil du localisateur de contenu lié à la réunion.
-- **meetingInsightFileOptions** : un clic sur les options d’un élément de fichier lié à la réunion.
-- **meetingInsightSeeMoreClick** : un clic sur le bouton « Afficher plus » d'un contenu lié à une réunion.
+- **meetingInsightFileClick** : un clic sur un élément de fichier lié à la réunion.
+- **MeetingInsightFileLocatorClick** : un clic sur le bouton de conseil du localisateur de contenu lié à la réunion.
+- **meetingInsightFileOptions** : un clic sur les options d’un élément de fichier lié à la réunion.
+- **meetingInsightSeeMoreClick** : un clic sur le bouton « Afficher plus » d'un contenu lié à une réunion.
 - **meetingJoinLeave** : appui sur Quitter -> appui sur **x** après un appui sur le bouton **Rejoindre**.
 - **meetingJoinNow** - appui sur **Rejoindre maintenant pour VoIP**.
 - **meetingJoinNowWithCallMe** : l’utilisateur rejoint une réunion avec **M’appeler**.
@@ -1035,7 +1035,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
   - une cible de transfert d’appel simultané est définie ;
   - le transfert d’appel simultané est activé (Sonnerie d’appel est activé et Activer la sonnerie pour est défini).
 - **skipVerificationForLink** : l’utilisateur choisit d’ignorer la vérification.
-- **smartReply** : bouton bascule Réponse intelligente est cliqué.
+- **smartReply** : bouton bascule Réponse intelligente est cliqué.
 - **SMSSendMessage** : l’utilisateur envoie un SMS.
 - **sortChanged** : l’utilisateur change l’ordre de tri lors de l’affichage d’une liste de tâches.
 - **startEditing** - appui sur **Modifier**.
@@ -1188,34 +1188,67 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **whiteboardUsed** : l’utilisateur annote le tableau blanc (toute action sur le WebView).
 - **wiki – aucun AS affecté** : données de télémétrie d’usage de Wiki.
 
+### <a name="panelview"></a>PanelView
+
+> [!NOTE]
+> Pour des informations sur les propriétés des événements Panelview, consultez [Propriétés envoyées avec les événements panelview](#properties-sent-with-panelview-events).
+
+- **fileDeleteFailed** - Déclenché en cas d’échec d’une opération de suppression de fichier.
+- **fileDeleteSuccess** - Déclenché en cas de suppression d’un fichier.
+- **filePreview** - Déclenché dans ces scénarios :
+  - Lorsque l’option Partager est tapée dans l’écran d’aperçu.
+  - Lorsque l’option Copier est tapée dans l’écran d’aperçu.
+  - Lorsque l’option Télécharger est tapée dans l’écran d’aperçu.
+  - Lorsqu’un aperçu du fichier est correctement chargé.
+- **fichiers** - Déclenché dans ces scénarios :
+  - Lorsqu’un fichier est prévisualiser dans l’application Teams.
+  - Lorsque l’option Charger d’un fichier est tapée dans l’écran des fichiers OneDrive.
+  - Lorsque l’option Copier un lien est tapée dans l’écran d’aperçu.
+  - Lorsque l’écran de partage de fichiers est exclu.
+  - Lorsque le menu d’options des fichiers est ouvert ou lorsque l’une des options de ce menu est tapée.
+  - Lorsque l’écran « en cours d’appel » des fichiers est ouvert.
+  - Lorsqu’un fichier est tapé pour s’ouvrir.
+- **fichiersChannel** - Déclenché lorsque l’écran des fichiers de canal est ouvert.
+- **fileSources** - Déclenché Lorsque le menu d’options des fichiers est ouvert ou lorsque l’une des options de ce menu est tapée.
+- **fichierPersonal** - Déclenché lorsqu’un lot de fichiers est chargé dans OneDrive ou dans l’écran des fichiers récents.
+- **fileUploadDeleteTrigreed** - Déclenché lorsqu’une pièce jointe est supprimée ou détachée’ de la zone de message.
+- **fileUploadFailed** - Déclenché en cas d’échec d’une opération de chargement de fichier.
+- **fileUploadLoadindividualNotification** Déclenché lorsque le contenu de la notification de chargement change ou lorsque la notification interagit avec. Les interactions peuvent inclure des mouvements tels que le mouvement de balayage pour faire disparaître la notification ou appuyer sur la notification, etc.
+- **fileUploadSuccess** - Déclenché en cas de chargement d’un fichier.
+- **fileUploadLoadSummaryNotification** Déclenché lorsque le résumé de la notification de chargement change ou lorsque la notification interagit avec. Les interactions peuvent inclure des mouvements tels que le mouvement de balayage pour faire disparaître la notification ou appuyer sur la notification, etc.
+- **meetingFiles** - Déclenché lorsque l’écran des fichiers de réunion est ouvert.
+- **navPersonalFiles** - Déclenché lorsque la navigation dans l’écran des fichiers est effectuée.
+
 ### <a name="scenario"></a>Scénario
 
 > [!NOTE]
 > Pour en savoir plus sur les propriétés des événements PanelAction, consulter la section [Propriétés envoyées avec les événements de scénarios](#properties-sent-with-scenario-events).
 
-- **CortanaError** : pour surveiller les erreurs de Cortana.
-- **cortanaView** : pour surveiller l’apparition de la zone de dessin Cortana.
-- **cortanaRestart** : pour surveiller le redémarrage de Cortana.
-- **cortanaSetNewConversation** : pour surveiller les nouvelles conversations de Cortana.
-- **CortanaSpeechRecognization** : pour surveiller la latence de reconnaissance vocale de Cortana.
-- **CortanaStart ne** : pour surveiller le démarrage du backend de Cortana.
-- **CortanaStartListening** : pour surveiller la démarrage de l’écoute par Cortana.
-- **cortanaStopListening** : pour surveiller l’arrêt de l’écoute par Cortana.
-- **cortanaThinking** : pour surveiller l'état de Cortana, passez en mode réflexion (attente de la réponse du service).
-- **CortanaTokenRefresh est** : pour surveiller l'actualisation du jeton Cortana en avant-plan.
-- **cortanaOrtanaSmingUp** : pour surveiller le démarrage du réchauffement de Cortana (Cortana est ouvert mais le jeton est toujours en cours de récupération).
-- **cortana_admin_policy_refresh** : pour surveiller l’actualisation des stratégies d’administration Cortana.
-- **cortana_background_token_refresh** : pour surveiller l'actualisation du jeton Cortana.
-- **cortana_initialization** : pour surveiller les étapes d’initialisation de Cortana.
-- **cortana_sdk_events** : pour surveiller les événements liés à la rotation de Cortana.
-- **cortana_skill_action_execution** : pour surveiller l'exécution des actions de Cortana.
-- **cortana_skill_action_delay** : confirme le début de l’action de retard.
-- **cortana_watchdog** : pour surveiller le processus de récupération de surveillance de Cortana.
+- **chat_add_giphy** - Confirme que l’action de rendu GIF Giphy a été effectuée.
+- **CortanaError** : pour surveiller les erreurs de Cortana.
+- **cortanaView** : pour surveiller l’apparition de la zone de dessin Cortana.
+- **cortanaRestart** : pour surveiller le redémarrage de Cortana.
+- **cortanaSetNewConversation** : pour surveiller les nouvelles conversations de Cortana.
+- **CortanaSpeechRecognization** : pour surveiller la latence de reconnaissance vocale de Cortana.
+- **CortanaStart ne** : pour surveiller le démarrage du backend de Cortana.
+- **CortanaStartListening** : pour surveiller la démarrage de l’écoute par Cortana.
+- **cortanaStopListening** : pour surveiller l’arrêt de l’écoute par Cortana.
+- **cortanaThinking** : pour surveiller l'état de Cortana, passez en mode réflexion (attente de la réponse du service).
+- **CortanaTokenRefresh est** : pour surveiller l'actualisation du jeton Cortana en avant-plan.
+- **cortanaOrtanaSmingUp** : pour surveiller le démarrage du réchauffement de Cortana (Cortana est ouvert mais le jeton est toujours en cours de récupération).
+- **cortana_admin_policy_refresh** : pour surveiller l’actualisation des stratégies d’administration Cortana.
+- **cortana_background_token_refresh** : pour surveiller l'actualisation du jeton Cortana.
+- **cortana_initialization** : pour surveiller les étapes d’initialisation de Cortana.
+- **cortana_sdk_events** : pour surveiller les événements liés à la rotation de Cortana.
+- **cortana_skill_action_execution** : pour surveiller l'exécution des actions de Cortana.
+- **cortana_skill_action_delay** : confirme le début de l’action de retard.
+- **cortana_watchdog** : pour surveiller le processus de récupération de surveillance de Cortana.
 - **create_default_plan_and_nav_to_view** : confirme la création réussie d’une liste de tâche partagée par défaut et indique le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
 - **create_personal_plan_and_nav_to_view** : confirme la création réussie d’une liste de tâche personnelle et indique le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
 - **create_personal_task** : confirme la création réussie d’un élément de tâche personnelle.
 - **create_planner_plan_and_nav_to_view** : confirme la création réussie d’une liste de tâche partagée et indique le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
 - **create_planner_task** : confirme la création réussie d’un élément de tâche partagée.
+- **forwardExistingAmsObject** confirme que l’action de transfert du multimédia a réussi ou échoué.
 - **delete_personal_plan** : confirme la suppression réussie d’une liste de tâches personnelle.
 - **delete_personal_task** : confirme la suppression réussie d’un élément de tâche personnelle.
 - **delete_planner_plan** : confirme la suppression réussie d’une liste de tâches partagée.
@@ -1226,18 +1259,25 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 - **load_personal_task_list** : confirme récupération réussie des tâches d’une liste de tâches personnelle pour l’affichage de la liste de tâches.
 - **load_shares_task_list** : confirme la récupération réussie des tâches d’une liste de tâches personnelle pour l’affichage de la liste de tâches.
 - **load_smart_task_list** : confirme la récupération réussie des tâches d’une liste de tâches intelligente pour l’affichage de la liste de tâches.
-- **meetingAttachmentRender** : confirme le rendu des pièces jointes de réunion.
-- **MeetingInsightFe** : confirme la récupération du contenu lié à la réunion.
-- **meetingInsightLocatorRender** : confirme le rendu de conseil de localisation de contenu associé à une réunion.
-- **meetingInsightRender** : confirme le rendu du contenu associé à une réunion.
-- **meetingInsightVisible** : confirme la visibilité du contenu associé à une réunion.
+- **meetingAttachmentRender** : confirme le rendu des pièces jointes de réunion.
+- **MeetingInsightFe** : confirme la récupération du contenu lié à la réunion.
+- **meetingInsightLocatorRender** : confirme le rendu de conseil de localisation de contenu associé à une réunion.
+- **meetingInsightRender** : confirme le rendu du contenu associé à une réunion.
+- **meetingInsightVisible** : confirme la visibilité du contenu associé à une réunion.
+- **open_image** confirme que le rendu de l’image en plein écran a réussi ou échoué.
 - **rename_personal_plan** : confirme le changement de nom réussi d’une liste de tâches personnelle.
 - **rename_planner_plan** : confirme du changement de nom réussi d’une liste de tâches partagée.
-- **smart_reply_enabled** : confirme que la réponse intelligente est activée pour l’utilisateur actuel.
-- **smart_reply_received** : confirme qu’une suggestion de réponse intelligente a été reçue.
-- **smart_reply_banned** : confirme que la réponse intelligente ne peut pas être affichée pour l’utilisateur actuel.
+- **save_image** confirme que l’action de sauvegarde de l’image a réussi ou échoué.
+- **share_image** confirme que l’action de partage de l’image a réussi ou échoué.
+- **smart_reply_enabled** : confirme que la réponse intelligente est activée pour l’utilisateur actuel.
+- **smart_reply_received** : confirme qu’une suggestion de réponse intelligente a été reçue.
+- **smart_reply_banned** : confirme que la réponse intelligente ne peut pas être affichée pour l’utilisateur actuel.
 - **update_planner_task_and_nav_to_view** : confirme la mise à jour réussie d’un élément de tâche partagée et le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
-- **update_personal_task_and_nav_to_view** : confirme la mise à jour réussie d’un élément de tâche personnel et le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action. **updatePlannerTask** : confirme que l’utilisateur a correctement mis à jour une tâche dans une liste de tâches partagée.
+- **update_personalr_task_and_nav_to_view** : confirme la mise à jour d’un élément de tâche personnel et le temps pris par l’utilisateur pour accéder à l’affichage résultant après. 
+- **updatePlannerTask** - Confirme qu’un utilisateur a correctement mis à jour une tâche dans une liste de tâches partagées.
+- **upload_image** confirme que l’action de chargement de l’image a réussi ou échoué.
+- **upload_voice_messages** confirme que l’action de chargement de message vocal a réussi ou échoué.
+- **voiceMessageUpload** confirme que l’action de chargement de message vocal a réussi ou échoué.
 
 ## <a name="property-lists"></a>Listes des propriétés
 
@@ -1245,9 +1285,9 @@ L’article suivant contient une liste des événements de mobiles Microsoft Te
 
 | Nom de la propriété                    | Description                                                          |
 |----------------------------------|----------------------------------------------------------------------|
-| EventInfo_Time                   | Heure de création de l’événement                                                |
-| EventInfo_Name                   | Nom de l’événement : utilisé pour différencier les types d’événements               |
-| EventInfo_BaseType/name          | Type d’événement : utilisé pour différencier les types d’événements dans un événement   |
+| EventInfo_Time                   | Heure de création de l’événement                                                |
+| EventInfo_Name                   | Nom de l’événement : utilisé pour différencier les types d’événements               |
+| EventInfo_BaseType/name          | Type d’événement : utilisé pour différencier les types d’événements dans un événement   |
 | EventInfo_Source                 | Source de création de l’événement                                       |
 | AppInfo_Language                 | Langue de l’application                                                         |
 | AppInfo_ETag                     | ID d’expérimentation attribuée à un utilisateur                                     |
