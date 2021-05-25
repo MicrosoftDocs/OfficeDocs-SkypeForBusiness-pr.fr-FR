@@ -20,16 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Découvrez comment configurer et tester les attendants automatiques pour Microsoft 365 Business Voice.
-ms.openlocfilehash: 54815aa5e7b9740a9bc8028f211edd0d456462b0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+description: Découvrez comment configurer et tester les attendants automatiques pour les petites entreprises dans Microsoft 365 Business Voice.
+ms.openlocfilehash: 7dbd9e471b80e2f930b330ad826147b92b1afef8
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130236"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628973"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurer un attendant automatique - Didacticiel pour les petites entreprises
 
-Les employés automatiques peuvent appeler votre organisation et parcourir un système de menus pour parler au service, à la file d'attente d'appels, à une personne ou à un opérateur. Vous pouvez créer des attendants automatiques pour votre organisation à l'aide du Microsoft Teams d'administration.
+Les employés automatiques peuvent appeler votre organisation et parcourir un système de menus pour parler au service, à la file d’attente d’appels, à une personne ou à un opérateur. Vous pouvez créer des attendants automatiques pour votre organisation à l’aide du Microsoft Teams d’administration.
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]

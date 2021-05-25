@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Découvrez comment configurer le système téléphonique pour les files d’attente des appels avec Microsoft Teams. Ce système inclut un message d’accueil, une musique de mise en attente, une redirection des appels et d’autres fonctionnalités.
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064800"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628933"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
 Les files d’attente des appels utilisent une méthode de routage des appelants, qui sont orientés vers les personnes de votre organisation qui pourront les aider à résoudre un problème ou répondre à une question. Les appels sont distribués les uns après les autres aux personnes présentes dans la file d’attente (appelées *agents*). 
+
+> [!TIP]
+> Cet article est de grandes organisations. Si votre organisation est une petite entreprise, lisez plutôt Créer une file d’attente [d’appels - Didacticiel](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) sur les petites entreprises.
 
 Les files d’attente des appels fournissent :
 
@@ -47,15 +50,17 @@ Les files d’attente des appels fournissent :
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
-Pour configurer une file d’attente des appels, dans le centre d’administration Teams, développez **Voix**, cliquez sur **Files d’attente d’appels**, puis sur **Ajouter**.
-
 ## <a name="video-demonstration"></a>Démonstration vidéo
 
-Cette vidéo montre un exemple de base de la création d'une file d'attente d'appels dans Teams.
+Cette vidéo montre un exemple de base de la création d’une file d’attente d’appels dans Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>Compte de ressource et langue
+## <a name="create-the-call-queue"></a>Créer la file d’attente d’appels
+
+Pour configurer une file d’attente des appels, dans le centre d’administration Teams, développez **Voix**, cliquez sur **Files d’attente d’appels**, puis sur **Ajouter**.
+
+### <a name="resource-account-and-language"></a>Compte de ressource et langue
 
 ![Capture d’écran du compte de ressource et des paramètres de langue](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ Cette vidéo montre un exemple de base de la création d'une file d'attente d'ap
 
 3. Choisissez une [langue prise en charge](create-a-phone-system-call-queue-languages.md). Nous utiliserons cette langue pour les invites vocales générées par le système et la transcription de la messagerie vocale (si vous les activez).
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>Message d’accueil et musique de mise en attente dans la file d’attente
+### <a name="greetings-and-music-on-hold-in-queue"></a>Message d’accueil et musique de mise en attente dans la file d’attente
 
 Indiquez si vous souhaitez diffuser un message d’accueil aux appelants lorsqu’ils arrivent dans la file d’attente. Vous devez télécharger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous souhaitez diffuser.
 
@@ -75,7 +80,7 @@ Teams fournit une musique par défaut aux appelants lorsqu’ils sont en attente
 > La taille maximale de l’enregistrement téléchargé est de 5 Mo.
 > La musique par défaut fournie dans les files d’attente des appels Teams est exempte de toute redevance payable par votre organisation. 
 
-## <a name="call-agents"></a>Agents d’appel
+### <a name="call-agents"></a>Agents d’appel
 
 Examinez les [conditions d’ajout des agents à une file d’attente ](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -87,9 +92,9 @@ Vous pouvez ajouter jusqu’à 200 agents via un canal Teams.
 
 Si vous voulez [utiliser un canal Teams pour gérer la file d’attente](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), sélectionnez l’option **Sélectionner une équipe**, puis cliquez sur **Ajouter un canal**. Recherchez l’équipe à utiliser, sélectionnez-la, puis cliquez sur **Ajouter**. Sélectionnez le canal à utiliser, puis cliquez sur **Appliquer**.
 
-Les clients suivants sont pris en charge lors de l'utilisation d'un canal Teams pour les files d'attente d'appels : 
+Les clients suivants sont pris en charge lors de l’utilisation d Teams pour les files d’attente d’appels : 
 
-  - Client Windows Microsoft Teams
+  - Microsoft Teams Windows client
   - Client Microsoft Teams pour Mac
 
 ##### <a name="users-and-groups"></a>Utilisateurs et groupes
@@ -105,7 +110,7 @@ Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes
 > [!NOTE]
 > L’arrivée du premier appel peut prendre jusqu’à huit heures pour les nouveaux utilisateurs ajoutés à un groupe.
 
-## <a name="call-routing"></a>Routage des appels
+### <a name="call-routing"></a>Routage des appels
 
 ![Capture d’écran des paramètres du mode conférence et de la méthode de routage](media/call-queue-conference-mode-routing-method.png)
 
@@ -117,7 +122,7 @@ Le **mode conférence** réduit considérablement le temps nécessaire à la mis
 Les comptes Teams des agents doivent être définis sur le mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
 
 > [!NOTE]
-> Le mode conférence n'est pas pris en charge si les appels téléphoniques sont acheminés vers la file d'attente à partir d'une passerelle de routage direct activée pour le routage en fonction de l'emplacement.
+> Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 
@@ -153,7 +158,7 @@ Les configurations ci-dessous sont recommandées :
 > [!NOTE]
 > Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 
-## <a name="call-overflow-handling"></a>Gestion du débordement des appels
+### <a name="call-overflow-handling"></a>Gestion du débordement des appels
 
 ![Capture d’écran des paramètres de débordement des appels](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Vous pouvez choisir de mettre fin à l’appel ou de le rediriger vers l’une d
 > [!NOTE]
 > Si le nombre maximum d’appels est défini sur 0, le message d’accueil ne sera pas diffusé.
 
-## <a name="call-timeout-handling"></a>Gestion de la temporisation des appels
+### <a name="call-timeout-handling"></a>Gestion de la temporisation des appels
 
 ![Capture d’écran des paramètres de temporisation des appels](media/call-queue-timeout-handling.png)
 
@@ -191,7 +196,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - Client Skype Entreprise pour iPad (version 6.16.0 et versions ultérieures)
   - Client Windows Microsoft Teams (versions 32 bits et 64 bits)
   - Client Microsoft Teams pour Mac
-  - Microsoft Teams sur [l'infrastructure bureau virtualisé](/microsoftteams/teams-for-vdi) (Bureau virtuel Windows, Citrix et VMware)
+  - Microsoft Teams [infrastructure de bureau virtualisé](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix et VMware)
   - Application Microsoft Teams pour iPhone
   - Application Microsoft Teams pour Android
 

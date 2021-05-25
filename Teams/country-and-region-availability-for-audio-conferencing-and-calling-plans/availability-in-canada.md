@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Canada.
-ms.openlocfilehash: 12b16d75b793c3d406aae8c510400f07dfce2cec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
+ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118263"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629013"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Canada.
+Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -77,8 +77,8 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).
 
-> [!Note] 
-> Lorsqu'un utilisateur du forfait d'appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, cela est considéré comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada appelle un numéro américain.
+> [!Note]
+> Lorsqu’un utilisateur d’un plan d’appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il est traité comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada compose un numéro de téléphone aux États-Unis. Toutefois, si vous utilisez également des stratégies de forfait d’appels pour limiter les appels sortants des utilisateurs à « nationaux » uniquement, un utilisateur américain ne pourra pas appeler le Canada et de la même manière, un utilisateur du Canada ne pourra pas appeler un utilisateur américain.
 
 ## <a name="communications-credits"></a>Crédits de communication
 
@@ -88,7 +88,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

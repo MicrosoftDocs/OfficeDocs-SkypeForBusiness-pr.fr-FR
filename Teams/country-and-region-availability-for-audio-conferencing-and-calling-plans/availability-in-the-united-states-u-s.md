@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
-ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094646"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629033"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis
 
@@ -64,9 +64,9 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 | Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/>                                                                                                                                                                                                                                                                                               |
 | Est-il possible de passer des appels sortants ?  <br/>                | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Les appels vers le Canada sont traités comme des appels nationaux.
+> Lorsqu’un utilisateur d’un plan d’appels (national ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il est traité comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada compose un numéro de téléphone aux États-Unis. Toutefois, si vous utilisez également des stratégies de forfait d’appels pour limiter les appels sortants des utilisateurs à « nationaux » uniquement, un utilisateur américain ne pourra pas appeler le Canada et de la même manière, un utilisateur du Canada ne pourra pas appeler un utilisateur américain.
 
->[!Note] 
+>[!Note]
 > Les appels nationaux aux États-Unis incluent ceux à l’ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant attribué l’emplacement d’utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
@@ -87,7 +87,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

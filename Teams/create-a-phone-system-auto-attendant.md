@@ -21,17 +21,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Découvrez comment configurer et tester les attendants automatiques pour Microsoft Teams.
-ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
+ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498789"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628943"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
 Les employés automatiques peuvent appeler votre organisation et parcourir un système de menus pour parler au service, à la file d’attente d’appels, à une personne ou à un opérateur. Vous pouvez créer des attendants automatiques pour votre organisation à l’aide du Microsoft Teams d’administration, ou avec PowerShell.
+
+> [!TIP]
+> Cet article est de grandes organisations. Si votre organisation est très professionnelle, lisez plutôt Configurer un service [de attendant automatique - Didacticiel](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) pour les petites entreprises.
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 

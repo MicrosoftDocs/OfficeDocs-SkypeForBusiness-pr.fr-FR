@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130027"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628903"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer Career Coach pour les Microsoft Teams
 
-Career Coach est une application Microsoft Teams Éducation optimisée par LinkedIn qui fournit des conseils personnalisés aux étudiants des niveaux supérieurs pour qu'ils naviguent dans leur carrière. Career Coach offre aux établissements d'enseignement une solution de carrière unifiée qui permet aux étudiants de découvrir leur carrière, de développer des compétences réelles et de développer leur réseau au même endroit.
+Career Coach est une application Microsoft Teams Éducation optimisée par LinkedIn qui fournit des conseils personnalisés aux étudiants des niveaux supérieurs pour qu’ils naviguent dans leur carrière. Career Coach offre aux établissements d’enseignement une solution de carrière unifiée qui permet aux étudiants de découvrir leur carrière, de développer des compétences réelles et de développer leur réseau au même endroit.
 
 En savoir plus sur [Career Coach.](https://aka.ms/career-coach)
 
 > [!NOTE]
-> Utilisez les meilleures pratiques et les conseils utiles de ce guide pour activer les fonctionnalités de Career Coach pour les étudiants, les enseignants et le personnel. Consultez [l'article du guide de planification](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rapide.
+> Utilisez les meilleures pratiques et les conseils utiles de ce guide pour activer les fonctionnalités de Career Coach pour les étudiants, les enseignants et le personnel. Consultez [l’article du guide de planification](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rapide.
 
 ## <a name="review-the-requirements"></a>Examiner les conditions requises
 
-Pour activer Career Coach pour votre établissement d'enseignement, examinez ce dont vous avez besoin pour rendre l'application opérationnel.
+Pour activer Career Coach pour votre établissement d’enseignement, examinez ce dont vous avez besoin pour rendre l’application opérationnel.
 
 **Configuration technique requise**
 
@@ -51,55 +51,55 @@ Pour activer Career Coach pour votre établissement d'enseignement, examinez ce 
   - Étudiants
 
 > [!NOTE]
-> Une licence Career Coach pour les enseignants doit être affectée à l'administrateur informatique qui complète la configuration.
+> Une licence pour l’enseignant de Career Coach doit être attribuée à l’administrateur informatique qui complète la configuration.
 
-**Données et fichiers de votre établissement d'enseignement**
+**Données et fichiers de votre établissement d’enseignement**
 
   - Données du catalogue de cours
 
-  - Champs d'étude proposés
+  - Champs d’étude proposés
 
-  - Page LinkedIn de l'établissement d'enseignement
+  - Page LinkedIn de l’établissement d’enseignement
 
   - Abonnement LinkedIn Learning campus (préféré)
 
 ## <a name="purchase-the-career-coach-licenses"></a>Acheter les licences Career Coach
 
-Career Coach est disponible dans le monde entier (sauf en Chine et en Russie) pour les établissements d'enseignement supérieur qualifiés via enrollment for Education Solutions (EES), les fournisseurs de services cloud et le centre d'administration Microsoft 365 (direct web). En tant Microsoft Teams, les clients doivent avoir une Microsoft 365 A3/A5 ou Office 365 A1/A3/A5.
+Career Coach est disponible dans le monde entier (sauf en Chine et en Russie) pour les établissements d’enseignement supérieur qualifiés via enrollment for Education Solutions (EES), les fournisseurs de services cloud et le centre d’administration Microsoft 365 (direct web). En tant Microsoft Teams, les clients doivent avoir une Microsoft 365 A3/A5 ou Office 365 A1/A3/A5.
 
-### <a name="assign-app-licenses-to-users"></a>Attribuer des licences d'application aux utilisateurs
+### <a name="assign-app-licenses-to-users"></a>Attribuer des licences d’application aux utilisateurs
 
 Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="turn-on-linkedin-account-connections"></a>Activer les connexions de compte LinkedIn
 
-Career Coach **nécessite** que les utilisateurs de votre établissement d'enseignement ont la possibilité de connecter leur compte Microsoft 365 à leur compte LinkedIn, qui est facilité au sein de Career Coach
+Career Coach **nécessite** que les utilisateurs de votre établissement d’enseignement ont la possibilité de connecter leur compte Microsoft 365 à leur compte LinkedIn, qui est facilité au sein de Career Coach
 
-1. Connectez-vous [au Centre d'administration Azure AD](https://aad.portal.azure.com/) avec un compte administrateur global pour l'organisation Azure AD.
+1. Connectez-vous [au Centre d’administration Azure AD](https://aad.portal.azure.com/) avec un compte administrateur global pour l’organisation Azure AD.
 
 2. Sélectionnez **Utilisateurs.**
 
 3. Dans la page **Utilisateurs,** sélectionnez **Paramètres utilisateur.**
 
-4. Sous **connexions de compte LinkedIn,** autorisez les utilisateurs à connecter leurs comptes pour accéder à leurs connexions LinkedIn au sein de certaines applications Microsoft. Aucune donnée n'est partagée tant que les utilisateurs n'ont pas accepté de connecter leur compte.
+4. Sous **connexions de compte LinkedIn,** autorisez les utilisateurs à connecter leurs comptes pour accéder à leurs connexions LinkedIn au sein de certaines applications Microsoft. Aucune donnée n’est partagée tant que les utilisateurs n’ont pas accepté de connecter leur compte.
 
-   - Sélectionnez **Oui** pour activer le service pour tous les utilisateurs de votre établissement d'enseignement
+   - Sélectionnez **Oui** pour activer le service pour tous les utilisateurs de votre établissement d’enseignement
 
-   - Groupe **sélectionné pour** activer le service uniquement pour un groupe d'utilisateurs sélectionnés dans votre établissement d'enseignement
+   - Groupe **sélectionné pour** activer le service uniquement pour un groupe d’utilisateurs sélectionnés dans votre établissement d’enseignement
 
-   - Sélectionnez **Non pour** retirer le consentement de tous les utilisateurs de votre établissement d'enseignement
+   - Sélectionnez **Non pour** retirer le consentement de tous les utilisateurs de votre établissement d’enseignement
 
 Découvrez comment intégrer [des connexions de compte LinkedIn dans Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
-## <a name="configure-career-coach-in-the-teams-admin-center"></a>Configurer Career Coach dans le centre d'administration Teams personnel
+## <a name="configure-career-coach-in-the-teams-admin-center"></a>Configurer Career Coach dans le centre d’administration Teams’équipe
 
-En utilisant les paramètres d'administration du Microsoft Teams d'administration, vous pouvez configurer Career Coach pour votre établissement d'enseignement et l'activer pour les utilisateurs.
+En utilisant les paramètres d’administration du Microsoft Teams d’administration, vous pouvez configurer Career Coach pour votre établissement d’enseignement et l’activer pour les utilisateurs.
 
-## <a name="access-the-career-coach-app-settings"></a>Accéder aux paramètres de l'application Career Coach
+## <a name="access-the-career-coach-app-settings"></a>Accéder aux paramètres de l’application Career Coach
 
-Utilisez la [page Gérer les applications](/microsoftteams/manage-apps) pour afficher les Teams dans le catalogue d'applications de votre établissement d'enseignement.
+Utilisez la [page Gérer les applications](/microsoftteams/manage-apps) pour afficher les Teams dans le catalogue d’applications de votre établissement d’enseignement.
 
-1. Connectez-vous au **Teams d'administration.**
+1. Connectez-vous au **Teams d’administration.**
 
 2. Dans la barre de navigation gauche, **sélectionnez Teams**  >  **applications Gérer les applications.**  
 
@@ -110,9 +110,9 @@ Utilisez la [page Gérer les applications](/microsoftteams/manage-apps) pour aff
 
 4. Sélectionnez **Career Coach,** puis **sélectionnez Paramètres.**  
 
-    ![affiche l'application Career Coach sélectionnée avec l'option de Paramètres l'affichage](media/app-settings.png)
+    ![affiche l’application Career Coach sélectionnée avec l’option de Paramètres l’affichage](media/app-settings.png)
 
-### <a name="configure-the-career-coach-app-settings"></a>Configurer les paramètres de l'application Career Coach
+### <a name="configure-the-career-coach-app-settings"></a>Configurer les paramètres de l’application Career Coach
 
 Career Coach se classe dans cinq catégories de configuration :
 
@@ -122,30 +122,30 @@ Career Coach se classe dans cinq catégories de configuration :
 
 - [Catalogue de cours](#course-catalog)
 
-- [Champs d'étude](#fields-of-study)
+- [Champs d’étude](#fields-of-study)
 
 - [Personnalisation](#customization)
 
 > [!NOTE]
-> La marque et les préférences, la configuration de  LinkedIn, le catalogue de cours et les champs d'étude sont requis pour activer efficacement l'application pour les étudiants, les enseignants et le personnel.
+> La marque et les préférences, la configuration de  LinkedIn, le catalogue de cours et les champs d’étude sont requis pour activer efficacement l’application pour les étudiants, les enseignants et le personnel.
 
 #### <a name="brand-and-preferences"></a>Marque et préférences
 
-Définissez le nom, le logo et la langue par défaut de votre établissement d'enseignement sur la page des paramètres de marque et de préférences.
+Définissez le nom, le logo et la langue par défaut de votre établissement d’enseignement sur la page des paramètres de marque et de préférences.
 
-![Section Image de marque Career Coach du Centre d'administration](media/brand-preferences.png)
+![Section Image de marque Career Coach du Centre d’administration](media/brand-preferences.png)
 
-##### <a name="educational-institution-icon"></a>Icône établissement d'enseignement
+##### <a name="educational-institution-icon"></a>Icône établissement d’enseignement
 
-L'icône d'un établissement d'enseignement est utilisée dans Career Coach pour identifier le contenu propre à votre établissement d'enseignement, les ressources du catalogue de cours dans l'application et la section des expériences réelles du tableau de bord. Pour ce faire, il est préférable d'avoir la mise en forme la plus à jour :
+L’icône d’un établissement d’enseignement est utilisée dans Career Coach pour identifier le contenu propre à votre établissement d’enseignement, les ressources du catalogue de cours dans l’application et la section des expériences réelles du tableau de bord. Pour ce faire, il est préférable d’avoir la mise en forme la plus à jour :
 
  - A transparent PNG
  - Proportions de 1:1
  - Taille maximale de 64 px x 64 px.
 
-##### <a name="educational-institution-thumbnail"></a>Miniature établissement d'enseignement
+##### <a name="educational-institution-thumbnail"></a>Miniature établissement d’enseignement
 
-L'icône d'un établissement d'enseignement sera utilisée pour les ressources du catalogue de cours dans l'application lorsqu'une image spécifique n'est pas disponible pour un cours. Pour ce faire, il est préférable d'avoir la mise en forme la plus à jour :
+L’icône d’un établissement d’enseignement sera utilisée pour les ressources du catalogue de cours dans l’application lorsqu’une image spécifique n’est pas disponible pour un cours. Pour ce faire, il est préférable d’avoir la mise en forme la plus à jour :
 
 - A PNG
 - Proportions de 16:9
@@ -160,66 +160,59 @@ La configuration de LinkedIn connecte Career Coach aux données des anciens él�
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>Ajouter et confirmer la page LinkedIn
 
-Déterminez la page LinkedIn de l'établissement d'enseignement. Recherchez la page LinkedIn en recherchant sur LinkedIn ou en vous connectant avec un membre du personnel des services de carrière pour déterminer la page correcte à utiliser.  
+Déterminez la page LinkedIn de l’établissement d’enseignement. Recherchez la page LinkedIn en recherchant sur LinkedIn ou en vous connectant avec un membre du personnel des services de carrière afin de déterminer la page à utiliser.  
   
-1. Connectez-vous au **Teams d'administration.**
+1. Connectez-vous au **Teams d’administration.**
 
 1. Sélectionnez **Teams applications**  >  **Gérer les applications** Connexion  >    >  **LinkedIn de Career** Coach.
 
-2. Entrez l'URL de la page LinkedIn de votre établissement d'enseignement.  
+2. Entrez l’URL de la page LinkedIn de votre établissement d’enseignement.  
 
 3. Sélectionnez **Appliquer.**
 
-4. Copiez l'URL de vérification et partagez-la avec la documentation de l'administrateur de la page LinkedIn de votre établissement d'enseignement [LinkedIn.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) Le lien de vérification expire après 30 jours.  
+4. Copiez l’URL de vérification et partagez-la avec la documentation de l’administrateur de la page LinkedIn de votre établissement d’enseignement [LinkedIn.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) Le lien de vérification expire après 30 jours.  
 
-   ![Paramètres Linkedin pour l'entraîneur professionnel](media/linkedin.png)  
+   ![Paramètres Linkedin pour l’entraîneur professionnel](media/linkedin.png)  
 
 #### <a name="course-catalog"></a>Catalogue de cours
 
-Le catalogue de cours représente les cours et les cours proposés aux étudiants par votre établissement d'enseignement. Ces cours sont utilisés au sein de l'application dans deux domaines :
+Le catalogue de cours représente les cours et les cours proposés aux étudiants par votre établissement d’enseignement. Ces cours sont utilisés au sein de l’application dans deux zones :
 
-- Les cours sont renvoyés dans le cadre des ressources d'apprentissage.  
+- Les cours sont renvoyés dans le cadre des ressources d’apprentissage.  
 
-- Les données méta des cours et des cours, telles que les descriptions, permettent aux étudiants d'identifier leurs compétences lorsqu'ils téléchargent une transcription.  
+- Les données méta des cours et des cours, telles que les descriptions, permettent aux étudiants d’identifier leurs compétences lorsqu’ils téléchargent une transcription.  
 
-Pour créer le catalogue de cours, créez une liste de tous les cours qui ont été appris dans votre établissement d'enseignement et téléchargez-le dans un fichier CSV. L'application est dessine à partir du catalogue de cours pour identifier les compétences d'un étudiant à partir de sa transcription et pour suggérer des cours à prendre. 
+Pour créer le catalogue de cours, créez une liste de tous les cours qui ont été appris dans votre établissement d’enseignement et téléchargez-le dans un fichier CSV. L’application dessine à partir du catalogue de cours pour identifier les compétences d’un étudiant à partir de sa transcription et pour suggérer des cours à prendre. 
 
 > [!NOTE]
-> Pour [plus d'informations sur](location-of-data-in-teams.md) [](security-compliance-overview.md) la protection des informations sur les étudiants, voir Emplacement des données Teams sécurité et conformité. 
+> Pour [plus d’informations sur](location-of-data-in-teams.md) [](security-compliance-overview.md) la protection des informations sur les étudiants, voir Emplacement des données Teams sécurité et conformité. 
 
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>Mise en forme et schéma des documents du catalogue de cours
 
-Le document doit être au format CSV avec une taille maximale de 18 Mo. Le document doit contenir le titre du **cours,** **l'ID** du cours et **l'URL du cours requis.** L'inclure dans les champs recommandés améliore l'expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification des compétences.
+Le document doit être au format CSV avec une taille maximale de 18 Mo. Le document doit contenir le titre du **cours,** **l’ID** du cours et **l’URL du cours requis.** L’inclure dans les champs recommandés améliore l’expérience pour les étudiants en renvoyant de meilleurs résultats de recherche et une identification de compétence.
 
 > [!NOTE]
-> Commencez avec l'exemple de document [du catalogue de]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) cours pour commencer.
-
-##### <a name="sample-csv-file"></a>Exemple de .CSV fichier
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
+> Commencez avec l’exemple de document [du catalogue de]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) cours pour commencer.
 
 Le tableau suivant répertorie les éléments à inclure dans le catalogue des cours :
 
 
 | Nom             | Statut      | Type   | Description                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | Obligatoire    | chaîne | Généralement, l'ID du cours (indique généralement ce qui est généré dans la transcription). |
+| courseId         | Obligatoire    | chaîne | Généralement, l’ID du cours (indique généralement ce qui est généré dans la transcription). |
 | titre            | Obligatoire    | chaîne | Généralement le titre du cours.                                                      |
 | sourceLink       | Obligatoire    | URL    | Lien vers la page du cours.                                               |
-| description      | Recommandation | chaîne | Texte d'introduction au cours.                                              |
+| description      | Recommandation | chaîne | Texte d’introduction au cours.                                              |
 | langue         | Recommandation | chaîne | Langue du cours. Utilisez des codes de langue standard.                           |
-| format           | Recommandation | chaîne | Mode d'enseignement (par exemple, en ligne, vidéo, en personne).                              |
-| thumbnailLink    | Recommandation | URL    | Lien miniature vers l'image du cours.                                            |
-| thumbnailAltText | Recommandation | chaîne | Texte de alt sur l'accessibilité de l'image                                           |
-| educationLevel   | Recommandation | chaîne | Niveau d'étude, par exemple. Cycle/diplômé.                                       |
+| format           | Recommandation | chaîne | Mode d’enseignement (par exemple, en ligne, vidéo, en personne).                              |
+| thumbnailLink    | Recommandation | URL    | Lien miniature vers l’image du cours.                                            |
+| thumbnailAltText | Recommandation | chaîne | Texte de alt sur l’accessibilité de l’image                                           |
+| educationLevel   | Recommandation | chaîne | Niveau d’étude, par exemple. Cycle/diplômé.                                       |
 | rubriques           | Recommandation | chaîne | Rubriques ou balises associées aux compétences apprises dans les cours.          |
 
 ##### <a name="add-the-course-catalog"></a>Ajouter le catalogue de cours
 
-1. Connectez-vous au **Teams d'administration.**
+1. Connectez-vous au **Teams d’administration.**
 
 1. Sélectionnez **Teams applications Gérer** les &gt; **applications** Career &gt; **Coach** &gt; **Paramètres** catalogue &gt; **de cours.**  
 
@@ -227,32 +220,32 @@ Le tableau suivant répertorie les éléments à inclure dans le catalogue des c
 
 4. Sélectionnez **Appliquer.**
 
-   ![Section Catalogue de cours de l'application Carrières](media/course-catalog.png)
+   ![Section Catalogue de cours de l’application Carrières](media/course-catalog.png)
 
-#### <a name="fields-of-study"></a>Champs d'étude
+#### <a name="fields-of-study"></a>Champs d’étude
 
-Les champs d'étude sont synonymes de domaines d'intérêt majeurs, de réussites universitaires et de degrés. Ces titres sont référencés par les étudiants lorsqu'ils commencent à utiliser l'application et commencent à définir leur profil personnalisé.
+Les champs d’étude sont synonymes de domaines d’intérêt majeurs, de réussites universitaires et de degrés. Ces titres sont référencés par les étudiants lorsqu’ils commencent à utiliser l’application et commencent à définir leur profil personnalisé.
 
-Ajoutez tous les champs d'étude disponibles aux étudiants tels que Ingénierie, Anglais, Entreprise, etc. La liste de champs permet aux étudiants de découvrir des champs d'étude qui peuvent les intéresser et d'ajouter leur zone de focus à leur profil.
+Ajoutez tous les champs d’étude disponibles aux étudiants tels que Ingénierie, Anglais, Entreprise, etc. La liste de champs permet aux étudiants de découvrir des champs d’étude qui peuvent les intéresser et d’ajouter leur zone de focus à leur profil.
 
 > [!NOTE]
-> Commencez par le [champ d'exemple du](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document d'étude.
-##### <a name="add-the-fields-of-study"></a>Ajouter les champs de l'étude
+> Commencez par le [champ d’exemple du](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document d’étude.
+##### <a name="add-the-fields-of-study"></a>Ajouter les champs de l’étude
 
-1. Connectez-vous au **Teams d'administration.**
-1. Sélectionnez **Teams applications** &gt; **Gérer les applications** Career &gt; **Coach** &gt; **Paramètres** &gt; **des champs d'étude.**  
+1. Connectez-vous au **Teams d’administration.**
+1. Sélectionnez **Teams applications** &gt; **Gérer les applications** Career &gt; **Coach** &gt; **Paramètres** &gt; **des champs d’étude.**  
 
-2. Télécharger d'étude au format CSV.
+2. Télécharger d’étude au format CSV.
 
 3. Sélectionnez **Appliquer.**
 
 #### <a name="customization"></a>Personnalisation
 
-Career Coach peut être personnalisé pour être unique dans votre établissement d'enseignement. La personnalisation prend en charge l'ajout d'expériences au tableau de bord. Il est recommandé d'ajouter des liens vers des offres d'emploi, des événements, des services de carrière, des événements professionnels, des clubs d'étudiants et d'autres ressources qui permettent aux étudiants d'acquérir une expérience réelle.
+Career Coach peut être personnalisé pour être unique dans votre établissement d’enseignement. La personnalisation prend en charge l’ajout d’expériences au tableau de bord. Il est recommandé d’ajouter des liens vers des offres d’emploi, des événements, des services de carrière, des événements professionnels, des clubs d’étudiants et toute autre ressource qui aident les étudiants à acquérir une expérience réelle.
 
 ##### <a name="add-customized-experiences"></a>Ajouter des expériences personnalisées
 
-1. Connectez-vous au **Teams d'administration.**
+1. Connectez-vous au **Teams d’administration.**
 
 1. Sélectionnez **Teams applications Gérer** les &gt; **applications** Career &gt; **Coach**  >  **Paramètres** &gt; **personnalisation.**
 
@@ -260,37 +253,57 @@ Career Coach peut être personnalisé pour être unique dans votre établissemen
   
 3. Sélectionnez **Appliquer.**
 
-### <a name="enable-the-app"></a>Activer l'application
+## <a name="making-career-coach-available-to-your-organization"></a>Rendre Career Coach disponible pour votre organisation
 
-Une fois la configuration terminée, activez l'application pour les étudiants et les utilisateurs titulaires d'une licence afin qu'ils ont accès à Career Coach.  
+Maintenant que Career Coach est configuré pour votre organisation. Suivez ces étapes pour vous assurer que Career Coach soit disponible pour l’organisation dans Microsoft Teams.
+
+### <a name="enable-the-app"></a>Activer l’application
+
+Une fois la configuration terminée, activez l’application pour les étudiants et les utilisateurs titulaires d’une licence afin qu’ils ont accès à Career Coach.  
   
 > [!NOTE]
-> Vous devez avoir des autorisations de rôle d Teams global ou d'administrateur.
+> Vous devez avoir des autorisations de rôle d Teams global ou d’administrateur.
 
-1. Connectez-vous au **Teams d'administration.**
+1. Connectez-vous au **Teams d’administration.**
 
 1. Sélectionnez **Teams applications** &gt; **Gérer les applications** Career &gt; **Coach.**
 
-2. Déplacez le bascule Statut sur **Autorisé.**  
+2. Déplacez le basculement Statut sur **Autorisé.**  
 
   > [!NOTE]
-  > Autorisé signifie que l'application est disponible pour les utilisateurs de votre établissement d'enseignement. Bloqué signifie que l'application n'est pas disponible pour les étudiants.
+  > Autorisé signifie que l’application est disponible pour les utilisateurs de votre établissement d’enseignement. Bloqué signifie que l’application n’est pas disponible pour les étudiants.
 
-#### <a name="pin-the-app"></a>Épingler l'application
+### <a name="add-career-coach-as-an-installed-app"></a>Ajouter Career Coach en tant qu’application installée
 
-L'épinglage de Career Coach rend l'application plus accessible et visible pour les étudiants.
+> [!NOTE]
+> Cette étape garantit que 1) Career Coach est correctement configuré pour votre organisation 2) que les étudiants trouvent Career Coach.
 
-1. Connectez-vous au **Teams d'administration.**
+1. Connectez-vous au **Teams d’administration.**
 
-1. Sélectionnez **Teams** &gt; **stratégies de configuration des applications** Votre &gt; *stratégie.* 
+2. Sélectionnez **Teams** &gt; **stratégies de configuration des applications** Votre &gt; *stratégie.* 
 
-2. Sous **Applications épinglées,** **sélectionnez Ajouter des applications.**
+3. Sous Applications installées, sélectionnez Ajouter des applications.
 
-1. Recherchez **Career Coach,** puis sélectionnez **Ajouter.**
+4. Dans le volet Ajouter des applications installées, recherchez les applications que vous voulez installer automatiquement pour les utilisateurs lorsqu’ils démarrent une Teams. Vous pouvez également filtrer les applications par stratégie d’autorisation d’application. Lorsque vous avez choisi votre liste d’applications, sélectionnez Ajouter.
 
-1. Choisissez l'ordre d'apparition de l'application, puis sélectionnez **Enregistrer.**
+### <a name="pin-the-app"></a>Épingler l’application
 
-   Les étudiants seront avertis dans un Microsoft Teams que Career Coach a été épinglé.  
+L’épinglage de Career Coach rend l’application plus accessible et visible pour les étudiants.
+
+1. Connectez-vous au **Teams d’administration.**
+
+2. Sélectionnez **Teams** &gt; **stratégies de configuration des applications** Votre &gt; *stratégie.* 
+
+3. Sous **Applications épinglées,** **sélectionnez Ajouter des applications.**
+
+4. Recherchez **Career Coach,** puis sélectionnez **Ajouter.**
+
+5. Choisissez l’ordre d’apparition de l’application, puis sélectionnez **Enregistrer.**
+
+> [!NOTE]
+> Les étudiants seront avertis dans un Microsoft Teams que Career Coach a été épinglé.
+
+Pour plus [d’informations,](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) référez-vous à Gérer les stratégies de configuration d’application dans Microsoft.
 
 ## <a name="resources"></a>Ressources
 
@@ -302,11 +315,11 @@ Les ressources suivantes vous aideront à planifier votre application Career Coa
 
 - [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
 
-- [Gestion des applications dans Microsoft Teams Centre d'administration](manage-apps.md)
+- [Gestion des applications dans Microsoft Teams Centre d’administration](manage-apps.md)
 
 - [Sécurité, confidentialité et conformité dans Microsoft Teams](security-compliance-overview.md)
 
-- [Kit d'orientation virtuelle en ligne](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
+- [Kit d’orientation virtuelle en ligne](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [Limites et spécification des canaux Teams clients](limits-specifications-teams.md)
 

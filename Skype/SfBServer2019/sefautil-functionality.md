@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de l’utilisation de la fonctionnalité SEFAUtil dans PowerShell dans Skype Entreprise Server 2019
+title: Prise en charge de l’utilisation de la fonctionnalité SEFAUtil dans PowerShell Skype Entreprise Server 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -13,16 +13,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir la fonctionnalité SEFAUtil dans Skype Entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120505"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629003"
 ---
-# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utilisation de la fonctionnalité SEFAUtil via PowerShell dans Skype Entreprise Server 2019
+# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utilisation de la fonctionnalité SEFAUtil via PowerShell Skype Entreprise Server 2019
 
-SEFAUtil (Secondary Extension Feature Activation) permet aux administrateurs de Skype Entreprise Server et aux agents du service d’aide de configurer les paramètres de sonnerie de délégué, de transfert d’appel et de prise d’appel de groupe pour le compte d’un utilisateur Skype Entreprise Server. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après avoir installé la mise à jour cumulative de juillet 2019 de Skype Entreprise Server, les fonctionnalités suivantes qui peuvent actuellement être gérées uniquement via SEFAUtil sont également gérables via PowerShell :
+SEFAUtil (Secondary Extension Feature Activation) permet aux administrateurs Skype Entreprise Server et aux agents du service d’aide de configurer les paramètres de sonnerie de délégué, de transfert d’appel et de prise d’appel de groupe au nom d’un utilisateur Skype Entreprise Server. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après avoir installé la mise à jour cumulative de juillet Skype Entreprise Server 2019, les fonctionnalités suivantes qui ne peuvent actuellement être gérées que par le biais de SEFAUtil sont également gérables via PowerShell :
 
 - [Paramètres de forwarding d’appel](#call-forwarding-settings)
 - [Paramètres de délégation](#delegation-settings)
@@ -43,16 +43,16 @@ Cette cmdlet modifie les paramètres de forwardage d’appel de l’utilisateur 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-Cette cmdlet désactive les paramètres de forwarding d’appel de l’utilisateur (nous vous présentons deux exemples de paramètres différents ici).
+Cette cmdlet désactive les paramètres de forwardage d’appel de l’utilisateur (nous vous présentons deux exemples de paramètres différents ici).
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-Cette cmdlet modifie les paramètres de forwarding d’appel de l’utilisateur.
+Cette cmdlet modifie les paramètres de forwardage d’appel de l’utilisateur.
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Cette cmdlet modifie les paramètres SimulRing (là encore, avec deux exemples de paramètres, l’un pour les messages vocaux sans réponse et l’autre pour les autres).
+Cette cmdlet modifie les paramètres de sonnerie simultanée (là encore, avec deux exemples de paramètres, un pour la messagerie vocale sans réponse et l’autre pour un autre).
 
 ## <a name="delegation-settings"></a>Paramètres de délégation
 
@@ -72,7 +72,7 @@ Cette cmdlet ajoute ou supprime un délégué.
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
 
-Cette cmdlet définit une liste de délégués pour des délégués spécifiques.
+Cette cmdlet définit une liste de délégués à des délégués spécifiques.
 
 ## <a name="team-members-and-related-settings"></a>Membres de l’équipe et paramètres associés
 
@@ -102,8 +102,8 @@ Pour les déploiements locaux, les cmdlets introduites dans cette fonctionnalit�
 - CsVoiceAdministrator - Obtenir et définir pour toutes les cmdlets
 - CsHelpDesk - Obtenir pour toutes les cmdlets
 
-Pour plus d’informations sur ces rôles d’administrateur, voir [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). L’administrateur peut accéder à ces cmdlets en se connectant directement ou à distance à un ordinateur serveur.
-Pour un déploiement hybride, les administrateurs Skype Entreprise doivent être en mesure d’appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, voir [à propos des rôles d’administrateur.](/microsoft-365/admin/add-users/about-admin-roles)
+Pour plus d’informations sur ces rôles d’administrateur, [voir Create Skype Entreprise Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). L’administrateur peut accéder à ces cmdlets en se connectant directement ou à distance à un ordinateur serveur.
+Pour un déploiement hybride, Skype Entreprise administrateurs doivent être en mesure d’appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, voir [à propos des rôles d’administrateur.](/microsoft-365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
 > La découverte automatique du serveur doit être activée. Aucune exigence de licence supplémentaire n’est introduite pour l’utilisation des cmdlets.

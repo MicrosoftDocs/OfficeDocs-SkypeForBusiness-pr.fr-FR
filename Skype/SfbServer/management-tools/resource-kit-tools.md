@@ -1,5 +1,5 @@
 ---
-title: Documentation des outils du Kit de ressources Skype Entreprise Server 2015
+title: documentation Skype Entreprise Server kit de ressources 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: Cette rubrique décrit les outils du Kit de ressources Skype Entreprise Server 2015, y compris l’objectif de chaque outil et des exemples de son utilisation. Le Kit de ressources Skype Entreprise Server 2015 facilite les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype Entreprise Server 2015. Par exemple, l’outil Web Conf Data permet de contrôler facilement les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil peut être utilisé pour configurer le forwarding d’appel délégué et le répondage pour les utilisateurs. Nous encourageons les administrateurs informatiques à utiliser ces outils pour gérer plus efficacement Skype Entreprise Server 2015.
-ms.openlocfilehash: c09aa7c21e90a1783c0819a0877ecb87ff250d16
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Cet article décrit les outils du Kit de ressources Skype Entreprise Server 2015, y compris l’objectif de chaque outil et des exemples de son utilisation. Le kit de ressources Skype Entreprise Server 2015 facilite les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype Entreprise Server 2015. Par exemple, l’outil Web Conf Data permet de contrôler facilement les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil peut être utilisé pour configurer le forwarding d’appel délégué et le répondage pour les utilisateurs. Nous encourageons les administrateurs informatiques à utiliser ces outils pour gérer plus efficacement Skype Entreprise Server 2015.
+ms.openlocfilehash: 6c68a94d331f2ad5f9ffaa169228aa9d64e41293
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114080"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629043"
 ---
-# <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation des outils du Kit de ressources Skype Entreprise Server 2015
+# <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>documentation Skype Entreprise Server kit de ressources 2015
 
-Cette rubrique décrit les outils du Kit de ressources Skype Entreprise Server 2015, y compris l’objectif de chaque outil et des exemples de son utilisation. Le Kit de ressources Skype Entreprise Server 2015 facilite les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype Entreprise Server 2015. Par exemple, **l’outil Web Conf Data** permet de contrôler facilement les données téléchargées par les utilisateurs au cours d’une réunion en ligne. **L’outil SEFAUtil** peut être utilisé pour configurer le forwarding d’appel délégué et le répondage pour les utilisateurs. Nous encourageons les administrateurs informatiques à utiliser ces outils pour gérer plus efficacement Skype Entreprise Server 2015.
+Cet article décrit les outils du Kit de ressources Skype Entreprise Server 2015, y compris l’objectif de chaque outil et des exemples de son utilisation. Le kit de ressources Skype Entreprise Server 2015 facilite les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype Entreprise Server 2015. Par exemple, **l’outil Web Conf Data** permet de contrôler facilement les données téléchargées par les utilisateurs au cours d’une réunion en ligne. **L’outil SEFAUtil** peut être utilisé pour configurer le forwarding d’appel délégué et le répondage pour les utilisateurs. Nous encourageons les administrateurs informatiques à utiliser ces outils pour gérer plus efficacement Skype Entreprise Server 2015.
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Installation des outils du Kit de ressources
 
 Pour installer le Kit de ressources Skype Entreprise Server 2015, téléchargez [OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) à partir du Centre de téléchargement.
 
-Exécutez **OCSResKit.msi** pour une installation simple. Le fichier .msi installe tous les outils dans le chemin d’accès suivant : **%Program Files%\Skype for Business Server 2015\ResKit**. Ce dossier contient des outils exécutables autonomes. Les outils qui ont également des fichiers de prise en charge se font dans leurs propres sous-dossiers.
+Exécutez **OCSResKit.msi** pour une installation simple. Le .msi installe tous les outils dans le chemin d’accès suivant : **%Program Files%\Skype Entreprise Server 2015\ResKit**. Ce dossier contient des outils exécutables autonomes. Les outils qui ont également des fichiers de prise en charge se font dans leurs propres sous-dossiers.
 
 ## <a name="supported-environments"></a>Environnements pris en charge
 
@@ -40,7 +40,7 @@ Voici une liste des outils fournis dans le Kit de ressources Skype Entreprise Se
 
 - [ABSConfig](resource-kit-tools.md#ABSConfig)
 
-- [Bandwidth Policy Service Monitor](resource-kit-tools.md#bpsm)
+- [Moniteur de service de stratégie de bande passante](resource-kit-tools.md#bpsm)
 
 - [Bandwidth Utilization Analyzer](resource-kit-tools.md#bua)
 
@@ -48,7 +48,7 @@ Voici une liste des outils fournis dans le Kit de ressources Skype Entreprise Se
 
 - [DBAnalyze](resource-kit-tools.md#dba)
 
-- [Importer des données du service de stockage](resource-kit-tools.md#Issd)
+- [Importer des Stockage service de gestion](resource-kit-tools.md#Issd)
 
 - [LCSSync](resource-kit-tools.md#LCSSync)
 
@@ -71,7 +71,7 @@ Voici une liste des outils fournis dans le Kit de ressources Skype Entreprise Se
 ## <a name="absconfig"></a>ABSConfig
 <a name="ABSConfig"> </a>
 
-L’outil de configuration du service de carnet d’adresses (ABSConfig) est un outil d’administration qui permet aux administrateurs de personnaliser la configuration du service de carnet d’adresses dans Skype Entreprise Server 2015. Cet outil permet également aux administrateurs Skype Entreprise Server 2015 de restaurer les paramètres par défaut du service de carnet d’adresses.
+L’outil de configuration du service de carnet d’adresses (ABSConfig) est un outil d’administration qui permet aux administrateurs de personnaliser la configuration du service de carnet d’adresses Skype Entreprise Server 2015. Cet outil permet également aux administrateurs Skype Entreprise Server 2015 de restaurer les paramètres du service de carnet d’adresses par défaut.
 
 ### <a name="description"></a>Description
 
@@ -83,12 +83,12 @@ Les principaux scénarios de l’outil sont les suivants :
 
 - Permettre aux administrateurs de spécifier l’attribut Services de domaine Active Directory à inclure ou à exclure dans les fichiers du service de carnet d’adresses.
 
-- Pour permettre aux administrateurs de restaurer les paramètres du service de carnet d’adresses par défaut.
+- Pour permettre aux administrateurs de restaurer, paramètres par défaut du service de carnet d’adresses.
 
-L’outil ABSConfig peut être démarré à l’aide ABSConfig.exe fichier. L’outil s’ouvre dans **l’onglet Configurer les attributs.** Ce tableau dispose d’options pour ma cartographier les attributs des services de domaine Active Directory sur les champs d’attribut de Skype Entreprise Server 2015 et pour spécifier les utilisateurs à inclure ou à exclure dans les fichiers du service de carnet d’adresses en fonction de filtres d’attributs spécifiques. Il dispose également d’options pour personnaliser la valeur du numéro de téléphone à inclure dans le fichier de carnet d’adresses. **L’option Restaurer les valeurs par** défaut permet aux administrateurs de restaurer les valeurs par défaut des paramètres du service de carnet d’adresses.
+L’outil ABSConfig peut être démarré à l’aide ABSConfig.exe fichier. L’outil s’ouvre dans **l’onglet Configurer les attributs.** Ce tableau dispose d’options pour ma cartographier les attributs des services de domaine Active Directory sur les champs d’attribut pour Skype Entreprise Server 2015 et pour spécifier les utilisateurs à inclure ou à exclure dans les fichiers du service de carnet d’adresses en fonction de filtres d’attributs spécifiques. Il dispose également d’options pour personnaliser la valeur du numéro de téléphone à inclure dans le fichier de carnet d’adresses. **L’option Restaurer les valeurs par** défaut permet aux administrateurs de restaurer les valeurs par défaut des paramètres du service de carnet d’adresses.
 
 > [!NOTE]
-> Le ré-mappage des attributs AD à différents noms de champs OC fonctionne uniquement pour le téléchargement de fichier de carnet d’adresses et n’est pas pris en charge par la requête web du carnet d’adresses.
+> Le nouveau mappage des attributs AD à différents noms de champs OC fonctionne uniquement pour le téléchargement de fichier de carnet d’adresses et n’est pas pris en charge par la requête web du carnet d’adresses.
 
 ### <a name="output"></a>Sortie
 
@@ -100,17 +100,17 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ### <a name="purpose"></a>Objectif
 
-ABSConfig offre un moyen rapide et facile de personnaliser le service de carnet d’adresses Skype Entreprise Server 2015.
+ABSConfig offre un moyen rapide et facile de personnaliser Skype Entreprise Server service de carnet d’adresses 2015.
 
 ### <a name="requirements"></a>Configuration requise
 
 #### <a name="computer"></a>Ordinateur
 
-ABSConfig ne peut être exécuté qu’à partir d’un ordinateur joint à un domaine où Skype Entreprise Server 2015 est installé. Dans le cas de Skype Entreprise Server 2015, Enterprise Edition, cet outil peut être exécuté sur n’importe quel serveur frontal sur qui le service de carnet d’adresses est activé lors de l’installation.
+ABSConfig ne peut être exécuté qu’à partir d’un ordinateur joint à un domaine sur Skype Entreprise Server 2015. Dans le cas de Skype Entreprise Server 2015, Êdition Entreprise, cet outil peut être exécuté sur n’importe quel serveur Front-End sur qui le service de carnet d’adresses est activé lors de l’installation.
 
 #### <a name="network"></a>Réseau
 
-L’ordinateur doit pouvoir se connecter au pool frontal et à la base de données principale.
+L’ordinateur doit pouvoir se connecter au pool Front-End base de données principale.
 
 #### <a name="software"></a>Logiciels
 
@@ -120,7 +120,7 @@ Les composants logiciels suivants doivent être installés avant d’utiliser l�
 
 #### <a name="users"></a>Utilisateurs
 
-Administrateurs qui ont les autorisations requises pour mettre à jour le déploiement de Skype Entreprise Server 2015.
+Administrateurs qui ont les autorisations requises pour mettre à jour Skype Entreprise Server déploiement 2015.
 
 ### <a name="examples"></a>Exemples
 
@@ -130,14 +130,14 @@ ABSConfig peut être démarré en tapantABSConfig.exe **à** une invite de comma
 
 ### <a name="summary"></a>Résumé
 
-L’outil ABSConfig fournit aux administrateurs un outil rapide et facile à utiliser pour personnaliser le service de carnet d’adresses Skype Entreprise Server 2015.
+L’outil ABSConfig fournit aux administrateurs un outil rapide et facile à utiliser pour personnaliser Skype Entreprise Server service de carnet d’adresses 2015.
 
-## <a name="bandwidth-policy-service-monitor"></a>Bandwidth Policy Service Monitor
+## <a name="bandwidth-policy-service-monitor"></a>Moniteur de service de stratégie de bande passante
 <a name="bpsm"> </a>
 
 L’outil Bandwidth Policy Service Monitor est conçu pour permettre aux administrateurs d’afficher une liste des données suivantes :
 
-1. Tous les services de stratégie de bande passante (authentification et base) de Skype Entreprise Server 2015 configurés dans la topologie
+1. Tous les services de stratégie de Skype Entreprise Server 2015 configurés (Authentification et base) dans la topologie
 
 2. Les connexions que chaque service effectue à d’autres services de stratégie de bande passante et aux serveurs Edge
 
@@ -153,7 +153,7 @@ Lorsque les administrateurs sélectionnent un service de stratégie de bande pas
 
 #### <a name="machine-info-tab"></a>Onglet Infos sur l’ordinateur
 
-**L’onglet** Infos sur l’ordinateur affiche les détails du service de stratégie de bande passante sélectionné, ainsi que la liste et l’état de toutes les connexions qui sont réalisées par le service de stratégie de bande passante sélectionné à d’autres services.
+**L’onglet** Informations sur l’ordinateur affiche les détails du service de stratégie de bande passante sélectionné, ainsi que la liste et l’état de toutes les connexions qui sont réalisées par le service de stratégie de bande passante sélectionné à d’autres services.
 
 #### <a name="topology-info-tab"></a>Onglet Informations sur la topologie
 
@@ -164,7 +164,7 @@ Lorsque les administrateurs sélectionnent un service de stratégie de bande pas
 
 ### <a name="output"></a>Sortie
 
-Il n’y a pas de sortie de ligne de commande ; la sortie du programme est contenue dans l’interface utilisateur graphique principale.
+Il n’y a pas de sortie de ligne de commande ; la sortie du programme est contenue dans l’interface utilisateur graphique principale( GUI).
 
 ### <a name="purpose"></a>Objectif
 
@@ -172,7 +172,7 @@ L’objectif de l’outil Bandwidth Policy Service Monitor est de permettre aux 
 
 ### <a name="requirements"></a>Configuration requise
 
-L’outil Bandwidth Policy Service Monitor doit être exécuté sur un ordinateur qui fait partie de la topologie Skype Entreprise Server.
+L’outil Bandwidth Policy Service Monitor doit être exécuté sur un ordinateur qui fait partie de la topologie Skype Entreprise Server bande passante.
 
 ### <a name="summary"></a>Résumé
 
@@ -181,7 +181,7 @@ L’outil Bandwidth Policy Service Monitor peut être une ressource précieuse p
 ## <a name="bandwidth-utilization-analyzer"></a>Bandwidth Utilization Analyzer
 <a name="bua"> </a>
 
-Bandwidth Utilization Analyzer est un outil qui crée des rapports sur les différents affichages de la consommation de bande passante par les points de terminaison UC sur les liaisons WAN dans le réseau d’entreprise. Ces rapports peuvent être utilisés pour comprendre le modèle actuel de consommation de bande passante et pour faciliter la planification de la capacité de la bande passante.
+Bandwidth Utilization Analyzer est un outil qui crée des rapports sur différents affichages de la consommation de bande passante par les points de terminaison UC sur les liaisons WAN du réseau d’entreprise. Ces rapports peuvent être utilisés pour comprendre le modèle actuel de consommation de bande passante et pour faciliter la planification de la capacité de la bande passante.
 
 ### <a name="description"></a>Description
 
@@ -189,7 +189,7 @@ Bandwidth Utilization Analyzer est implémenté en tant qu’application graphiq
 
 ### <a name="output"></a>Sortie
 
-Bandwidth Utilization Analyzer fournit des graphiques sur la capacité et l’utilisation de la bande passante pour l’audio pour toutes les liaisons wan qui sont configurées dans le système.
+Bandwidth Utilization Analyzer fournit des graphiques de la capacité et de l’utilisation de la bande passante pour l’audio pour toutes les liaisons wan qui sont configurées dans le système.
 
 ### <a name="purpose"></a>Objectif
 
@@ -207,7 +207,7 @@ Bandwidth Utilization Analyzer peut générer des graphiques de graphiques de ra
 
 - Filtrés par des liaisons wan qui ont dépassé la capacité de liaison
 
-- Filtrés par des liaisons wan qui ont sous-utilisée la bande passante mise en service
+- Filtrés par des liaisons de réseau wan qui n’ont pas assez utilisée la bande passante mise en service
 
 - Filtrage des liaisons de réseau wan qui ont atteint des niveaux critiques (utilisation de la bande passante supérieure à 90 % de la capacité de bande passante de la liaison de réseau wan).
 
@@ -221,13 +221,13 @@ Bandwidth Utilization Analyzer dispose des deux applications suivantes (outils) 
 
 - **WanLinkLogCollector.exe** Cet outil permet à son utilisateur d’entrer les informations requises.
 
-- **BandwidthUtilizationAnalyzer.xlsm** Un rapport logiciel de feuille de calcul Microsoft Excel est automatiquement lancé par WanLinkLogCollector.exe. Cette application permet à l’utilisateur d’appliquer des filtres au rapport, comme indiqué plus loin dans cet article.
+- **BandwidthUtilizationAnalyzer.xlsm** Un Microsoft Excel logiciel de feuille de calcul automatique est automatiquement lancé par WanLinkLogCollector.exe. Cette application permet à l’utilisateur d’appliquer des filtres au rapport, comme indiqué plus loin dans cet article.
 
 #### <a name="phases-of-using-bandwidth-utilization-analyzer"></a>Phases d’utilisation de l’analyseur d’utilisation de la bande passante
 
 Il existe deux phases lors de l’utilisation de Bandwidth Utilization Analyzer :
 
-- Collecte des journaux, qui est effectuée à l’aide de WanLinkLogCollector.exe
+- Collecter les journaux, qui sont effectués à l’aide de WanLinkLogCollector.exe
 
 - Personnaliser les rapports, qui sont effectués à l’aide BandwidthUtilizationAnalyzer.xlsm
 
@@ -236,7 +236,7 @@ Il existe deux phases lors de l’utilisation de Bandwidth Utilization Analyzer 
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>Démarrage de Bandwidth Utilization Analyzer
 
-Démarrez WanLinkLogCollector.exe à l’invite de commandes ou à l’aide de l’Explorateur Windows.
+Démarrez WanLinkLogCollector.exe à l’invite de commandes ou à l’aide Windows Explorer.
 
  **Utilisation de WanLinkLogCollector.exe**
 
@@ -369,11 +369,11 @@ Bandwidth Utilization Analyzer est utilisé pour tracer l’utilisation de la ba
 ## <a name="call-parkometer"></a>Call Parkometer
 <a name="callpark"> </a>
 
-Call Parkometer est une application de ligne de commande qui permet d’accéder facilement à la base de données des orbites de parcage d’appel.
+Le parcomètre d’appel est une application de ligne de commande qui permet d’accéder facilement à la base de données des orbites de parcage d’appel.
 
 ### <a name="description"></a>Description
 
-L’outil Parcomètre des appels permet de suivre les appels actuellement par parcés. Il collecte également des statistiques sur les orbites et l’utilisation du serveur de parc d’appel (CPS). Cet outil en ligne de commande fournit à la fois un accès en lecture et en écriture à la base de données d SQL Server orbites CPS à partir d’un ordinateur connecté localement ou à distance.
+L’outil Parcomètre des appels permet de suivre les appels actuellement par parcés. Il collecte également des statistiques sur les orbites et l’utilisation du serveur de parc d’appel (CPS). Cet outil en ligne de commande fournit à la fois un accès en lecture et en écriture à la base de données de SQL Server d’orbites CPS à partir d’un ordinateur connecté localement ou à distance.
 
 Toutes les options s’excluent mutuellement. La syntaxe de ligne de commande est la suivante :
 
@@ -385,7 +385,7 @@ Toutes les options s’excluent mutuellement. La syntaxe de ligne de commande es
 
   - Nom d’hôte du cps où l’appel est paré.
 
-  - Horodaodaté du moment où l’appel a été paré.
+  - Horodaodaté de l’heure de pare-temps de l’appel.
 
 - **Paramètre -f** : répertorie le nombre d’orbites actuellement libres dans le pool.
 
@@ -450,7 +450,7 @@ Nombre d’orbites libres : le paramètre -f répertorie le nombre d’orbites a
 
 ![Orbites libres dans le parcomètre d’appel.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-Appels par parcés récemment : le paramètre -r répertorie les derniers appels par \<n\> \<n\> parcés, comme illustré
+Appels par parcés récemment : le paramètre -r \<n\> répertorie les derniers appels par \<n\> parcés, comme illustré
 
 ![Appels récemment par parcés dans le parcomètre d’appel.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
@@ -467,9 +467,9 @@ Le parcomètre d’appel est un outil en ligne de commande qui fournit des infor
 
 ### <a name="description"></a>Description
 
-DBAnalyze est un outil en ligne de commande qui permet aux administrateurs de collecter des rapports d’analyse sur les bases de données Skype Entreprise Server 2015. DBAnalyze dispose des modes suivants : diagnostic, données utilisateur, conférence, MUS et fragmentation de disque :
+DBAnalyze est un outil en ligne de commande qui permet aux administrateurs de collecter des rapports d’analyse sur Skype Entreprise Server bases de données 2015. DBAnalyze dispose des modes suivants : diagnostic, données utilisateur, conférence, UTIL et fragmentation de disque :
 
-- **Mode diagnostic** Crée un rapport qui inclut des informations sur les tables (nombre d’enregistrements, fragmentation, taille des données et taille d’index), taille des données et des fichiers journaux, date de la dernière période de stockage, répartition des contacts entre les serveurs exécutant Microsoft Office Communications Server, nombre moyen d’autorisations, contacts, conteneurs, abonnements, publications, points de terminaison par utilisateur, utilisateurs mal dosés, utilisateurs qui ne peuvent pas être acheminés, nombre moyen de conférences organisées par utilisateur, conférences programmées, conférences actives et version de la base de données.
+- **Mode diagnostic** Crée un rapport qui inclut des informations sur les tables (nombre d’enregistrements, fragmentation, taille des données et taille d’index), taille des données et des fichiers journaux, date de la dernière période de stockage, répartition des contacts entre les serveurs exécutant Microsoft Office Communications Server, nombre moyen d’autorisations, contacts, conteneurs, abonnements, publications, points de terminaison par utilisateur, utilisateurs mal dosés, utilisateurs qui ne peuvent pas être acheminés, nombre moyen de conférences organisées par utilisateur, conférences programmées, conférences actives et version de base de données.
 
     > [!NOTE]
     > L’exécution du mode de diagnostic peut affecter les performances du serveur.
@@ -490,7 +490,7 @@ Cet outil peut être utilisé pour diagnostiquer différents problèmes ou pour 
 
 ### <a name="output"></a>Sortie
 
-Cet outil produit des rapports prédéfincis sur la base de données Skype Entreprise Server 2015. **Chemin** d’accès : %ProgramFiles%\Skype Entreprise Server 2015\Reskit
+Cet outil produit des rapports prédéfincis sur Skype Entreprise Server base de données 2015. **Chemin** d’accès : %ProgramFiles%\Skype Entreprise Server 2015\Reskit
 
 ### <a name="purpose"></a>Objectif
 
@@ -500,13 +500,13 @@ Pour installer Dbanalyze.exe, copiez-le dans un dossier local, puis exécutez l�
 
 ### <a name="requirements"></a>Configuration requise
 
- **Ordinateur** DBAnalyze ne peut être exécuté qu’à partir d’un ordinateur joint à un domaine où Skype Entreprise Server 2015 est installé.
+ **Ordinateur** DBAnalyze ne peut être exécuté qu’à partir d’un ordinateur joint à un domaine sur Skype Entreprise Server 2015.
 
  **Réseau** L’ordinateur doit pouvoir se connecter à la base de données principale.
 
- **Logiciels** Les composants logiciels Skype Entreprise Server 2015 doivent être installés avant d’utiliser DBAnalyze.
+ **Les** Skype Entreprise Server logiciels 2015 doivent être installés avant d’être en cours d’exécution de DBAnalyze.
 
- **Utilisateurs** Le tableau ci-dessous indique les administrateurs qui ont les autorisations nécessaires pour accéder aux bases de données Skype Entreprise Server 2015.
+ **Utilisateurs** Le tableau ci-dessous indique les administrateurs qui ont les autorisations nécessaires pour accéder Skype Entreprise Server bases de données 2015.
 
 ![Table Permissions pour les Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
@@ -528,33 +528,33 @@ dbanalyze.exe /report:disk
 
 ### <a name="summary"></a>Résumé
 
-DBAnalyzer fournit aux administrateurs une analyse rapide et facile des bases de données Skype Entreprise Server 2015.
+DBAnalyzer fournit aux administrateurs une analyse rapide et facile Skype Entreprise Server bases de données 2015.
 
-## <a name="import-storage-service-data"></a>Importer des données du service de stockage
+## <a name="import-storage-service-data"></a>Importer des Stockage service de gestion
 <a name="Issd"> </a>
 
-L’outil kit de ressources ImportStorageServiceData permet de ré-importer les données de file d’attente et de point de terminaison qui ont été vidées du service de stockage (LYSS) dans le service de stockage.
+L’outil kit de ressources ImportStorageServiceData permet de réimporter les données de file d’attente et de point de terminaison qui ont été vidées du service Stockage (LYSS) dans le service Stockage.
 
 ### <a name="description"></a>Description
 
-Les données vidées du service de stockage peuvent avoir été automatiques (périodiques) en fonction de l’état de l’élément de file d’attente ou de la taille de la base de données. Cela aurait pu se produire en raison de l’appel manuel de l’cmdlet deover du pool, ou de l’cmdlet StorageServiceFullFlush (que l’cmdlet de restauration automatique du pool appelle). Notez que, dans l’idéal, les données ne doivent pas être réimportées si la taille de la base de données du service de stockage (LYSS) sur les extrémités frontales est supérieure au niveau normal, car cela risque de provoquer la réimporter davantage de données. En outre, tous les problèmes qui auraient pu contribuer aux erreurs à l’origine de l’expansion de la file d’attente du service de stockage doivent d’abord être résolus (par exemple, des erreurs de point de terminaison Exchange, des problèmes réseau ou d’autres problèmes).
+Les données vidées du service Stockage service peuvent avoir été automatiques (périodiques) en fonction de l’état de l’élément de file d’attente ou de la taille de la base de données. Cela aurait pu se produire en raison de l’appel manuel de l’cmdlet deover du pool, ou de l’cmdlet StorageServiceFullFlush (que l’cmdlet de restauration automatique du pool appelle). Notez que, dans l’idéal, les données ne doivent pas être réimportées si l’une des tailles de base de données du service Stockage (LYSS) sur les bases de données frontales est supérieure au niveau normal, car cela risque d’entraîner la réexportation d’autres données. En outre, tous les problèmes qui auraient pu contribuer aux erreurs à l’origine de l’expansion de la file d’attente de service Stockage doivent d’abord être résolus Exchange (par exemple, des erreurs de point de terminaison, des problèmes réseau ou d’autres problèmes).
 
- **Scénario 1 : pendant** le pool deover, les fichiers peuvent être vidés du service de stockage pour chaque frontal. Une fois le failover terminé, l’outil doit être exécuté pour ré-importer les données.
+ **Scénario 1 : pendant** le pool deover, les fichiers peuvent être vidés du service de stockage pour chaque frontal. Une fois leoverage terminé, l’outil doit être exécuté pour réimporter les données.
 
- **Scénario 2** : les données sont vidées automatiquement chaque jour ou en réponse au dépassement de certains seuils de taille par la base de données du service de stockage (par exemple, 60 %, 80 %, 90 % plein). Ces données automatiquement vidées doivent être réimportées régulièrement par l’administrateur. Dans la situation ci-dessus, si le pack SCOM de surveillance n’est pas déployé, il existe des événements pour le service de stockage Skype Entreprise Server relatifs à la purge des données du service de stockage. ID d’événement de 32075 (l’opération de purge complète est démarrée), 32076 (le purge complet est terminé), 32082 ( purge de niveau maintenance démarré), 32083 ( purge de niveau maintenance terminée), 32089 ( purge due au remplissage de la base de données). Notez que ces ID d’événement correspondent à la version RTM. Lorsqu’un administrateur voit ces événements, cela signifie qu’il existe des fichiers qui ont été vidés. Ces données doivent régulièrement être importées à l’aide de cet outil, par exemple une fois par semaine.
+ **Scénario 2** : les données sont vidées automatiquement chaque jour ou en réponse à un dépassement de certains seuils de taille par la base de données de service Stockage (par exemple, 60 %, 80 %, 90 % plein). Ces données automatiquement vidées doivent être réimportées régulièrement par l’administrateur. Dans la situation ci-dessus, si le pack SCOM de surveillance n’est pas déployé, il existe des événements pour Skype Entreprise Server Stockage Service relatifs à la purge des données du service Stockage. ID d’événement de 32075 (l’opération de purge complète est démarrée), 32076 (le purge complet est terminé), 32082 ( purge de niveau maintenance démarré), 32083 ( purge de niveau maintenance terminée), 32089 ( purge due au remplissage de la base de données). Notez que ces ID d’événement correspondent à la version RTM. Lorsqu’un administrateur voit ces événements, cela signifie qu’il existe des fichiers qui ont été vidés. Ces données doivent régulièrement être importées à l’aide de cet outil, par exemple une fois par semaine.
 
-Pour la version du service en ligne, si le pack SCOM d’analyse d’état pour Skype Entreprise Server est déployé, de nouvelles alertes peuvent être élevées et demandent à l’administrateur de ré-importer les données vidées dans le service de stockage. Il y aura un événement correspondant dans le journal des événements sur le serveur frontal qui a déclenché l’alerte. L’événement donne une description du chemin d’accès parent sous lequel se trouvent les fichiers de données vidés, ainsi que le nombre de fichiers qui répondent aux critères d’alerte. Le critère d’alerte est qu’il existe X ou plusieurs fichiers sous le chemin d’accès parent particulier qui ont au moins Y jours ( où X et Y sont prédéfinis dans storageService mais peuvent être changés en modifiant le fichier APPCONFIG.) Deux exemples d’événements qui peuvent déclencher l’alerte d’état d’santé sont présentés ci-dessous, la différence étant leur chemin d’accès parent. Une possibilité se trouve sous le partage de fichiers de service Web, tandis que l’autre possibilité est le répertoire de données d’application local de chaque serveur frontal. ( par exemple c:\ProgramData\Microsoft\Skype Entreprise Server 2015\StorageService ). L’administrateur exécutera ensuite cet outil reskit.
+Pour la version de service en ligne, si le pack SCOM d’analyse d’état pour Skype Entreprise Server est déployé, de nouvelles alertes peuvent être élevées et demandent à l’administrateur de réimporter les données vidées dans Stockage Service. Il y aura un événement correspondant dans le journal des événements sur le serveur Front-End qui a déclenché l’alerte. L’événement donne une description du chemin d’accès parent sous lequel se trouvent les fichiers de données vidés, ainsi que le nombre de fichiers qui répondent aux critères d’alerte. Le critère d’alerte est qu’il existe X ou plusieurs fichiers sous le chemin d’accès parent particulier qui ont au moins Y jours (où X et Y sont prédéfinis dans storageService mais peuvent être changés en modifiant le fichier APPCONFIG.) Deux exemples d’événements qui peuvent déclencher l’alerte d’état d’santé sont présentés ci-dessous, la différence étant leur chemin d’accès parent. Une possibilité se trouve sous le partage de fichiers de service Web, tandis que l’autre possibilité est le répertoire de données d’application local de chaque serveur frontal. (par exemple c:\ProgramData\Microsoft\Skype Entreprise Server 2015\StorageService). L’administrateur exécutera ensuite cet outil reskit.
 
-Cet outil augmente la charge de l’UC et de l’UC sur le frontal sur qui il s’exécute, ainsi que sur d’autres frontux, dans la situation où les données ne sont pas la propriété du frontal sur laquelle l’outil est exécuté. Nous vous recommandons d’exécuter cet outil lorsque les extrémités frontales ne sont pas sous une charge élevée du processeur et des entrées/sorties, par exemple en dehors des heures de pointe. Deuxièmement, cet outil peut 2 à 3 minutes pour importer un fichier de données. Gardez cela à l’esprit lors de l’estimation de la durée d’exécution de l’outil. Le fichier journal détaillé généré par l’outil s’affiche par défaut dans le magasin de fichiers. Supprimez-le s’il n’y a aucune erreur signalée, car le fichier journal peut être de dizaines de Mo ou plus.
+Cet outil augmente la charge de l’UC et de l’UC sur le frontal sur qui il s’exécute, et d’autres frontux, dans la situation où les données ne sont pas la propriété du frontal sur laquelle l’outil est exécuté. Nous vous recommandons d’utiliser cet outil lorsque les extrémités frontales ne sont pas sous une charge élevée de l’UC et de l’UC, par exemple en dehors des heures de pointe. Deuxièmement, cet outil peut 2 à 3 minutes pour importer un fichier de données. Gardez cela à l’esprit lors de l’estimation de la durée d’exécution de l’outil. Le fichier journal détaillé généré par l’outil s’affiche par défaut dans le magasin de fichiers. Supprimez-le si aucune erreur n’est signalée, car le fichier journal peut être de dizaines de Mo ou plus.
 
-![Exemples d’événements du journal des événements du serveur de stockage.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
+![Exemples Stockage journaux des événements du serveur.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
 ### <a name="requirements"></a>Configuration requise
 
-Installez les outils du Kit de ressources Skype Entreprise Server 2015. L’outil s’exécute sur des ordinateurs joints à un domaine où Skype Entreprise Server et Skype Entreprise Server Management Shell sont installés. L’outil utilise une cmdlet de l’shell de gestion pour identifier tous les serveurs frontux du pool. Ensuite, l’outil doit être exécuté à partir d’un ordinateur du pool sur lequel la base de données **RtcLocal** est installée. Cette base de données est utilisée par l’outil pour récupérer l’emplacement du partage de fichiers WEBSERVICE pour le pool. En outre, avant d’utiliser l’outil, chaque serveur frontal doit d’abord activer la communication à Windows PowerShell à l’aide de **Enable-PSRemoting** sur chaque serveur frontal, ainsi que l’ordinateur à partir de l’ordinateur à partir de qui l’outil est exécuté. Sinon, les commandes Windows PowerShell distantes de cet outil échoueront. Windows PowerShell la fonction d’échange peut être désactivée sur tous les serveurs frontiers du pool une fois qu’elle est terminée. Enfin, le compte ou les informations d’identification qui invoment l’outil doivent avoir une autorisation en lecture/écriture sur le partage de fichiers du service web pour le pool sur qui ils exécutent cet outil. Dans le cas contraire, l’outil échouera avec des erreurs d’autorisation d’IO.
+Installez les outils Skype Entreprise Server Kit de ressources 2015. L’outil s’exécute sur les ordinateurs joints au domaine Skype Entreprise Server et Skype Entreprise Server Management Shell sont installés. L’outil utilise une cmdlet de l’shell de gestion pour identifier tous les serveurs Front-End du pool. Deuxièmement, l’outil doit être exécuté à partir d’un ordinateur du pool où la base de données **RtcLocal** est installée. Cette base de données est utilisée par l’outil pour récupérer l’emplacement du partage de fichiers WEBSERVICE pour le pool. En outre, avant d’utiliser l’outil, chaque serveur Front-End doit d’abord activer la communication à Windows PowerShell à l’aide de **Enable-PSRemoting** sur chaque serveur Front-End et l’ordinateur à partir de l’ordinateur à partir de qui l’outil est exécuté. Sinon, les commandes Windows PowerShell à distance de cet outil échoueront. Windows PowerShell L’remoting peut être désactivé sur tous Front-End serveurs du pool une fois terminé. Enfin, le compte ou les informations d’identification qui invoment l’outil doivent avoir une autorisation en lecture/écriture sur le partage de fichiers du service web pour le pool sur qui ils exécutent cet outil. Dans le cas contraire, l’outil échouera avec des erreurs d’autorisation d’IO.
 
 > [!NOTE]
-> Sur Windows Server 2012, la Windows PowerShell à accès distant est activée par défaut, mais pas sur le système d’exploitation Windows Server 2008.
+> Sur Windows Server 2012, Windows PowerShell la remoting est activée par défaut, mais pas sur le système d’exploitation Windows Server 2008.
 
 ### <a name="examples"></a>Exemples
 
@@ -719,11 +719,11 @@ Tool has finished execution.
 ## <a name="lcssync"></a>LCSSync
 <a name="LCSSync"> </a>
 
-L’outil LCSSync permet de déployer le logiciel de communication Skype Entreprise Server 2015 dans un environnement à forêts multiples. Cet outil est utilisé pour synchroniser des utilisateurs et des groupes de différentes forêts d’utilisateurs en tant qu’objet contact des services de domaine Active Directory à une forêt centrale où Skype Entreprise Server 2015 est installé.
+L’outil LCSSync permet de déployer Skype Entreprise Server 2015 dans un environnement à forêts multiples. Cet outil est utilisé pour synchroniser les utilisateurs et les groupes de différentes forêts d’utilisateurs en tant qu’objet contact des services de domaine Active Directory à une forêt centrale où Skype Entreprise Server 2015 est installé.
 
 ### <a name="description"></a>Description
 
- LCSSync utilise les objets contact des services de domaine Active Directory synchronisés dans la forêt centrale pour activer les utilisateurs pour Skype Entreprise Server. Pour fournir une seule sign-in, le compte d’utilisateur principal doit être mappé à l’objet contact services de domaine Active Directory dans la forêt centrale pour Skype Entreprise Server 2015. Cet outil permet d’effectuer ce mappage. Cet outil fournit des modèles pour la création d’agents de gestion dans Microsoft Identity Integration Server.
+ LCSSync utilise les objets contact des services de domaine Active Directory synchronisés dans la forêt centrale pour permettre aux utilisateurs de Skype Entreprise Server. Pour fournir une seule inscription, le compte d’utilisateur principal doit être mappé à l’objet contact des services de domaine Active Directory dans la forêt centrale pour Skype Entreprise Server 2015. Cet outil permet d’effectuer ce mappage. Cet outil fournit des modèles pour la création d’agents de gestion dans Microsoft Identity Integration Server.
 
 ### <a name="summary"></a>Résumé
 
@@ -732,19 +732,19 @@ L’outil LCSSync permet de déployer Skype Entreprise Server 2015 dans un envir
 ## <a name="lookup-user-console"></a>Console utilisateur de recherche
 <a name="LUC"> </a>
 
-L’outil LookupUserConsole affiche des informations de routage Skype Entreprise Server internes sur des utilisateurs spécifiques. Ces informations peuvent être utiles pour le support personnel de Microsoft dans le diagnostic des problèmes de déploiement et de routage.
+L’outil LookupUserConsole affiche les informations de routage Skype Entreprise Server utilisateurs spécifiques. Ces informations peuvent être utiles pour le support personnel de Microsoft dans le diagnostic des problèmes de déploiement et de routage.
 
 ### <a name="description"></a>Description
 
- L’exécution LookupUserConsole.exe ouvre une invite de commandes qui accepte les adresses SIP et tente d’afficher les informations de routage Skype Entreprise Server internes les concernant. Tapez **exit** pour quitter l’outil LookupUserConsole.
+ L’exécution LookupUserConsole.exe ouvre une invite de commandes qui accepte les adresses SIP et tente d’afficher les informations de routage Skype Entreprise Server interne les concernant. Tapez **exit** pour quitter l’outil LookupUserConsole.
 
 ### <a name="requirements"></a>Configuration requise
 
-Installez le Kit de ressources Skype Entreprise Server 2015. L’outil s’exécute sur les ordinateurs joints au domaine où Skype Entreprise Server est installé.
+Installez le kit Skype Entreprise Server ressources 2015. L’outil s’exécute sur les ordinateurs joints au domaine Skype Entreprise Server est installé.
 
 ### <a name="examples"></a>Exemples
 
-C:\Program Files\Skype for Business Server 2015\ResKit \>LookupUserConsole.exe
+C:\Program Files\Skype Entreprise Server 2015\ResKit \>LookupUserConsole.exe
 
 ```console
 > sip:john.doe@vdomain.com
@@ -787,25 +787,25 @@ C:\Program Files\Skype for Business Server 2015\ResKit \>LookupUserConsole.exe
 ## <a name="msturnping"></a>MsTurnPing
 <a name="MsTurnPing"> </a>
 
-L’outil MSTurnPing permet à un administrateur du logiciel de communication Skype Entreprise Server 2015 de vérifier l’état des serveurs exécutant les services Edge audio/vidéo et d’authentification audio/vidéo, ainsi que les serveurs qui exécutent les services de stratégie de bande passante dans la topologie.
+L’outil MSTurnPing permet à un administrateur du logiciel de communication Skype Entreprise Server 2015 de vérifier l’état des serveurs exécutant le serveur Edge audio/vidéo, les services d’authentification audio/vidéo et les serveurs qui exécutent les services de stratégie de bande passante dans la topologie.
 
 ### <a name="description"></a>Description
 
-L’outil MSTurnPing permet à un administrateur du logiciel de communication Skype Entreprise Server 2015 de vérifier l’état des serveurs exécutant les services Edge audio/vidéo et d’authentification audio/vidéo, ainsi que les serveurs qui exécutent les services de stratégie de bande passante dans la topologie.
+L’outil MSTurnPing permet à un administrateur du logiciel de communication Skype Entreprise Server 2015 de vérifier l’état des serveurs exécutant le serveur Edge audio/vidéo, les services d’authentification audio/vidéo et les serveurs qui exécutent les services de stratégie de bande passante dans la topologie.
 
 L’outil permet à l’administrateur d’effectuer les tests suivants :
 
 1. Test du serveur Edge A/V : l’outil effectue des tests sur tous les serveurs Edge A/V de la topologie en suivant les mesures suivantes :
 
-   - Vérifier que le service d’authentification audio/vidéo de Skype Entreprise Server est démarré et qu’il peut émettre des informations d’identification correctes.
+   - Vérifier que le service d Skype Entreprise Server d’authentification audio/vidéo est démarré et qu’il peut émettre des informations d’identification correctes.
 
-   - Vérifier que le service Edge audio/vidéo de Skype Entreprise Server est démarré et qu’il peut allouer correctement les ressources sur le serveur Edge externe.
+   - Vérifier que le service Edge Skype Entreprise Server audio/vidéo est démarré et qu’il peut allouer correctement les ressources sur le bord externe.
 
 2. Test du service de stratégie de bande passante : l’outil effectue des tests sur tous les serveurs qui exécutent les services de stratégie de bande passante dans la topologie en suivant les mesures suivantes :
 
-   - Vérifier que le service de stratégie de bande passante (authentification) de Skype Entreprise Server est démarré et peut émettre des informations d’identification correctes.
+   - Vérifier que le service de stratégie Skype Entreprise Server bande passante (authentification) est démarré et peut émettre des informations d’identification correctes.
 
-   - Vérifier que le service de stratégie de bande passante (principal) de Skype Entreprise Server est démarré et peut effectuer la vérification de la bande passante avec succès.
+   - Vérifier que le service Skype Entreprise Server de stratégie de bande passante (principal) est démarré et peut effectuer la vérification de la bande passante avec succès.
 
 Cet outil doit être exécuté à partir d’un ordinateur qui fait partie de la topologie et où le magasin local est installé.
 
@@ -813,7 +813,7 @@ Cet outil doit être exécuté à partir d’un ordinateur qui fait partie de la
 
 L’outil produit les résultats de chacune des opérations.
 
-- Si le **test AudioVideoEdgeServer est** effectué, les sorties de l’outil sont les suivantes :
+- Si le test **AudioVideoEdgeServer est** effectué, les sorties de l’outil sont les suivantes :
 
   - Résultats des tests des ordinateurs qui fournissent le service d’authentification audio/vidéo Skype Entreprise Server 2015 dans la topologie
 
@@ -821,9 +821,9 @@ L’outil produit les résultats de chacune des opérations.
 
 - Si le test **BandwidthPolicyServer est** effectué, les sorties de l’outil sont les suivantes :
 
-  - Résultats des tests des ordinateurs qui fournissent le service de stratégie de bande passante (authentification) de Skype Entreprise Server 2015 dans la topologie
+  - Résultats des tests des ordinateurs qui fournissent Skype Entreprise Server 2015 Bandwidth Policy Service (Authentication) dans la topologie
 
-  - Résultats des tests des ordinateurs qui fournissent le service de stratégie de bande passante (principal) de Skype Entreprise Server 2015 dans la topologie
+  - Résultats des tests des ordinateurs qui fournissent Skype Entreprise Server 2015 Bandwidth Policy Service (Core) dans la topologie
 
 ### <a name="requirements"></a>Configuration requise
 
@@ -848,13 +848,13 @@ Cet outil peut être une ressource précieuse pour les administrateurs Skype Ent
 ## <a name="network-configuration-viewer"></a>Visionneuse de configuration réseau
 <a name="NCV"> </a>
 
-La visionneuse de configuration réseau peut être utilisée par les administrateurs de logiciels de communication Skype Entreprise Server 2015 pour afficher la topologie réseau du contrôle d’admission des appels (CAC) pour une entreprise qui est mise en service pour autoriser les sessions de communication en temps réel, telles que les appels vocaux ou vidéo en fonction de la capacité de bande passante spécifiée. Les administrateurs Skype Entreprise Server 2015 définissent des stratégies de service de gestion des appels, qui sont appliquées par les services de stratégie de bande passante installés avec Skype Entreprise Server 2015.
+La visionneuse de configuration réseau peut être utilisée par les administrateurs de logiciels de communication Skype Entreprise Server 2015 pour afficher la topologie réseau du contrôle d’admission des appels (CAC) pour une entreprise qui est mise en service pour autoriser les sessions de communication en temps réel, telles que les appels vocaux ou vidéo en fonction de la capacité de bande passante spécifiée. Skype Entreprise Server 2015 définit les stratégies cac, qui sont appliquées par les services de stratégie de bande passante installés avec Skype Entreprise Server 2015.
 
 ### <a name="description"></a>Description
 
 La visionneuse de configuration réseau (NetworkConfigurationViewer.exe) permet aux administrateurs d’effectuer les tâches suivantes :
 
-- Charger et afficher la topologie réseau cac à partir d’un déploiement Skype Entreprise Server 2015 dans un format graphique.
+- Charger et afficher la topologie réseau cac à partir d Skype Entreprise Server déploiement 2015 dans un format graphique.
 
 - Charger et afficher la topologie réseau cac à partir d’un fichier journal de serveur de stratégie de bande passante dans un format graphique.
 
@@ -868,7 +868,7 @@ La visionneuse de configuration réseau (NetworkConfigurationViewer.exe) permet 
 
 - Définissez des connecteurs personnalisés pour les liens de topologie de réseau CAC (par exemple, les liaisons de site à région, de région à région et de site à site).
 
-- Afficher les informations du site de topologie réseau CAC, les informations de région, les stratégies de bande passante et les liaisons réseau.
+- Afficher les informations du site de topologie réseau CAC, les informations de région, les stratégies de bande passante et les liaisons réseau mise en service.
 
 ### <a name="purpose"></a>Objectif
 
@@ -876,11 +876,11 @@ Afficher les liens de topologie réseau CAC d’entreprise dans une interface gr
 
 ### <a name="examples"></a>Exemples
 
- Chargez et affichez la topologie réseau cac à partir d’un déploiement Skype Entreprise **Server 2015** dans un format graphique : les administrateurs Skype Entreprise Server 2015 peuvent charger et afficher la configuration de la topologie réseau cac sur n’importe quel ordinateur Skype Entreprise Server 2015 à l’aide de l’option Télécharger la **configuration** réseau, comme illustré dans la figure ci-dessous. L’outil ne peut pas télécharger ou afficher une telle configuration lorsqu’il est déployé sur un ordinateur qui n’a pas de connectivité au magasin de configuration Skype Entreprise Server 2015.
+ Chargez et affichez la topologie réseau cac à partir d’un déploiement **Skype Entreprise Server 2015** dans un format graphique : les administrateurs Skype Entreprise Server 2015 peuvent charger et afficher la configuration de la topologie réseau cac sur n’importe quel ordinateur Skype Entreprise Server 2015 à l’aide de l’option Télécharger la **configuration** réseau, comme illustré dans la figure ci-dessous. L’outil ne peut pas télécharger ou afficher une telle configuration lorsqu’il est déployé sur un ordinateur qui n’a pas de connectivité au magasin de configuration Skype Entreprise Server 2015.
 
 ![Téléchargement de la configuration réseau.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- **Chargez et affichez la topologie réseau cac à partir d’un** fichier journal de serveur de stratégie de bande passante dans un format graphique : Les serveurs de stratégie de bande passante Skype Entreprise Server 2015 enregistrent la topologie du réseau CAC dans le cadre du mécanisme de journalisation sous l’emplacement du partage de fichiers Skype Entreprise Server 2015. Les administrateurs Skype Entreprise Server 2015 peuvent afficher un tel fichier dans un format graphique à l’aide de l’option Configuration d’Open **Network,** comme illustré ci-dessous.
+ Chargez et affichez la topologie réseau cac à partir d’un fichier journal de serveur de stratégie de bande passante dans un **format** graphique : les serveurs de stratégie de bande passante Skype Entreprise Server 2015 enregistrent la topologie du réseau CAC dans le cadre du mécanisme de journalisation sous l’emplacement de partage de fichiers Skype Entreprise Server 2015. Skype Entreprise Server 2015 peuvent afficher un tel fichier dans un format graphique à l’aide de l’option Configuration d’Open **Network,** comme illustré ci-dessous.
 
 ![Ouverture d’un fichier journal de serveur de stratégie de bande passante.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
@@ -892,19 +892,19 @@ Enregistrez et stockez le diagramme de topologie réseau cac au format JPG ou BM
 
 ![Enregistrement de la configuration réseau sous forme d’image.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>Afficher les données de configuration de la topologie réseau</strong> cac : Les administrateurs Skype Entreprise Server 2015 peuvent afficher les données de configuration réseau associées telles que les régions réseau, les sites réseau, les profils de bande passante et les adresses IP de sous-réseau de site dans un format textuel à l’aide de l’option Afficher les données de configuration réseau, comme illustré ci-dessous.
+ Afficher les données de <strong>configuration</strong>de topologie réseau CAC : les administrateurs Skype Entreprise Server 2015 peuvent afficher les données de configuration réseau associées telles que les régions réseau, les sites réseau, les profils de bande passante et les adresses IP de sous-réseau de site dans un format textuel à l’aide de l’option Afficher les données de configuration réseau, comme illustré ci-dessous.
 
 ![Affichage des données de configuration réseau.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
- **Afficher la topologie réseau cac dans un style arborescence :** Les administrateurs Skype Entreprise Server 2015 peuvent afficher les données de configuration réseau associées dans un style d’arborescence graphique à l’aide du panneau de configuration sur le côté gauche de la fenêtre d’outils, comme illustré ci-dessous.
+ Affichez la topologie réseau cac dans un style arborescence : les administrateurs Skype Entreprise Server 2015 peuvent afficher les données de configuration réseau associées dans un style d’arborescence graphique à l’aide du panneau de configuration sur le côté gauche de la fenêtre d’outils, comme illustré **ci-dessous.**
 
 ![Affichage des données de configuration réseau dans une arborescence.](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
- **Définissez des connecteurs personnalisés** pour les liens de topologie de réseau CAC (tels que les liaisons de site à région, de région à région et de site à site) : Les administrateurs Skype Entreprise Server 2015 peuvent définir des connecteurs graphiques personnalisés pour les liaisons WAN de configuration réseau CAC à l’aide de l’option Paramètres, comme illustré ci-dessous. Cela permet de différencier les différents types de liaisons réseau qui sont provisionn es dans la configuration réseau.
+ Définissez des **connecteurs personnalisés** pour les liens de topologie de réseau CAC (tels que les liaisons de site à région, de région à région et de site à site) : les administrateurs Skype Entreprise Server 2015 peuvent définir des connecteurs graphiques personnalisés pour les liaisons réseau wan de configuration du réseau CAC à l’aide de l’option Paramètres, comme illustré ci-dessous. Cela permet de différencier les différents types de liaisons réseau qui sont provisionn es dans la configuration réseau.
 
 ![Outils](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
- Afficher les informations du site de topologie réseau CAC, les informations de région et **les stratégies de bande passante mise en service :** Les administrateurs Skype Entreprise Server 2015 peuvent afficher les informations de région réseau CAC associées, les informations de site et les informations de mise en service de la bande passante CAC à l’aide des options indiquées ci-dessous. (Par exemple, cliquez sur **Informations** dans une région réseau ou un objet de site réseau.)
+ Afficher les informations du site de topologie réseau **CAC,** les informations de région et les stratégies de bande passante mise en service : les administrateurs Skype Entreprise Server 2015 peuvent afficher les informations de région réseau CAC associées, les informations de site et les informations de mise en service de la bande passante CAC à l’aide des options ci-dessous. (Par exemple, cliquez sur **Informations** dans une région réseau ou un objet de site réseau.)
 
 ![Définition de connecteurs personnalisés pour votre réseau.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
@@ -915,11 +915,11 @@ Cet outil peut être une ressource précieuse pour les administrateurs Skype Ent
 ## <a name="response-group-agent-live"></a>Response Group Agent Live
 <a name="RGAL"> </a>
 
-L’application Response Group permet aux agents d’accéder à des informations utiles en temps réel à l’aide de son service Web intégré. Malheureusement, aucune vue graphique de ces données n’est disponible en dehors de l’application. L’outil Response Group Agent Live Resource Kit résout ce problème en fournissant un moyen simple et graphique d’accéder à ces informations, amélioré avec des informations logicielles de communication Skype Entreprise en temps réel, telles que la présence d’autres agents.
+L’application Response Group permet aux agents d’accéder à des informations utiles en temps réel à l’aide de son service Web intégré. Malheureusement, aucune vue graphique de ces données n’est disponible en dehors de l’application. L’outil Response Group Agent Live Resource Kit résout ce problème en fournissant un moyen simple et graphique d’accéder à ces informations, amélioré avec des informations logicielles de communication en temps réel Skype Entreprise telles que la présence d’autres agents.
 
 ### <a name="description"></a>Description
 
-Response Group Agent Live est une application Windows qui fournit des fonctionnalités de signature et de sortie, ainsi que des informations en temps réel (telles que l’appartenance au groupe et le nombre actuel d’appels) aux agents Response Group. Il s’agit d’une version améliorée de la page Groupes d’agents (accessible à partir de Skype Entreprise.
+Response Group Agent Live est une application Windows qui fournit des fonctionnalités de signature et de sortie, ainsi que des informations en temps réel (telles que l’appartenance au groupe et le nombre actuel d’appels) aux agents Response Group. Il s’agit d’une version améliorée de la page Groupes d’agents (accessible à partir Skype Entreprise.
 
 ### <a name="purpose"></a>Objectif
 
@@ -935,11 +935,11 @@ La figure ci-dessous illustre l’interface principale de Response Group Agent L
 
 Les trois fonctionnalités principales suivantes sont disponibles pour les agents dans Response Group Agent Live :
 
-- **Connectez-vous/se connectez-vous :** Contrairement à la page Groupes d’agents (accessible à partir de Skype Entreprise Server 2015), Response Group Agent Live permet uniquement aux agents de se connecter à tous les groupes d’agents ou de s’en sortir à la fois. Cette application offre trois méthodes rapides pour que les agents se connectent ou se connectent :
+- **Connectez-vous/se connectez-vous :** Contrairement à la page Groupes d’agents (accessible à partir de Skype Entreprise Server 2015), Response Group Agent Live permet uniquement aux agents de se connecter à tous les groupes d’agents ou de s’en sortir en même temps. Cette application offre trois méthodes rapides pour que les agents se connectent ou se connectent :
 
   - Cliquez sur les boutons Se connectez/se connectez (vert et rouge) dans l’application.
 
-  - Cliquez avec le bouton droit sur l’icône de la plaque système, puis sélectionnez Se connectez-vous ou se connectez-vous.
+  - Cliquez avec le bouton droit sur l’icône de bac système, puis sélectionnez Se connectez-vous ou se connectez-vous.
 
   - Utilisation de raccourcis clavier configurables.
 
@@ -963,9 +963,9 @@ Les trois paramètres suivants peuvent être personnalisés dans la configuratio
 
 - Adresse d’hôte : il s’agit généralement du FQDN du pool web appartenant au pool d’accueil de l’agent. L’adresse de service Response Group exacte est automatiquement dérivée en arrière-plan de ces informations (en appending the right path after the host).
 
-- Raccourcis : les raccourcis exacts pour se connecter/se sortir peuvent être personnalisés. La seule limitation est que les deux raccourcis doivent contenir la touche « Logo Windows » (en plus au moins d’une autre touche).
+- Raccourcis : les raccourcis exacts pour se connecter/se sortir peuvent être personnalisés. La seule limitation est que les deux raccourcis doivent contenir la touche « Windows Logo » (en plus au moins d’une autre touche).
 
-- Démarrez avec Windows : l’application peut être configurée pour démarrer automatiquement avec Windows.
+- Commencez par Windows : l’application peut être configurée pour démarrer automatiquement avec Windows.
 
 ### <a name="examples"></a>Exemples
 
@@ -984,9 +984,9 @@ La signature et la sortie rapides, l’appartenance à un groupe et les statisti
 ## <a name="sefautil"></a>SEFAUtil
 <a name="SEFAUtil"> </a>
 
-SEFAUtil (secondary extension feature activation) est un outil en ligne de commande qui permet aux administrateurs de logiciels de communication skype entreprise Server 2015 et aux agents du service d’aide de configurer la sonnerie déléguée, le transfert d’appel, la sonnerie simultanée, les paramètres d’appel d’équipe et la prise d’appel de groupe pour le compte d’un utilisateur skype entreprise Server 2015. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. L’outil SEFAUtil permet à l’administrateur d’activer/désactiver/de modifier le forwarding d’appel ou de sonner simultanément au nom de l’utilisateur. L’administrateur peut spécifier la cible (sous la forme d’un URI SIP) ou utiliser une cible qui a déjà été publiée par l’utilisateur. Cet outil permet également aux administrateurs d’ajouter ou de supprimer des délégués ou des membres du groupe d’appel d’équipe pour le compte de l’utilisateur. Cet outil repose sur Microsoft Unified Communications Managed API (UCMA) 3.0 et nécessite que les administrateurs créent une application fiable dans le magasin central de gestion pour SEFAUtil.
+SEFAUtil (secondary extension feature activation) est un outil en ligne de commande qui permet aux administrateurs de logiciels de communications Skype Entreprise Server 2015 et aux agents du service d’aide de configurer la sonnerie de délégué, le transfert d’appel, la sonnerie simultanée, les paramètres d’appel d’équipe et la prise d’appel de groupe pour le compte d’un utilisateur Skype Entreprise Server 2015. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. L’outil SEFAUtil permet à l’administrateur d’activer/désactiver/de modifier le forwarding d’appel ou de sonner simultanément au nom de l’utilisateur. L’administrateur peut spécifier la cible (sous la forme d’un URI SIP) ou utiliser une cible qui a déjà été publiée par l’utilisateur. Cet outil permet également aux administrateurs d’ajouter ou de supprimer des délégués ou des membres du groupe d’appel d’équipe pour le compte de l’utilisateur. Cet outil repose sur Microsoft Unified Communications Managed API (UCMA) 3.0 et nécessite que les administrateurs créent une application fiable dans le magasin central de gestion pour SEFAUtil.
 
-SEFAUtil (secondary extension feature activation) permet aux administrateurs et agents du service d’aide de Skype Entreprise Server 2015 de configurer la sonnerie déléguée, le transfert d’appel, la sonnerie simultanée, les paramètres d’appel d’équipe et la prise d’appel de groupe pour le compte d’un utilisateur Skype Entreprise Server 2015. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier.
+SEFAUtil (secondary extension feature activation) permet aux administrateurs et agents du service d’aide Skype Entreprise Server 2015 de configurer la sonnerie de délégué, le transfert d’appel, la sonnerie simultanée, les paramètres d’appel d’équipe et la prise d’appel de groupe pour le compte d’un utilisateur Skype Entreprise Server 2015. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier.
 
 ### <a name="description"></a>Description
 
@@ -1003,21 +1003,21 @@ La version actuelle de SEFAUtil n’est qu’un outil en ligne de commande . il 
 - Activer/désactiver/modifier les paramètres du groupe d’appel d’équipe
 
     > [!NOTE]
-    > Nouveauté de l’outil SEFAUtil de Skype Entreprise Server 2015
+    > Nouveauté de l Skype Entreprise Server SEFAUtil 2015
 
 - Activer/désactiver/modifier les paramètres de sonnerie simultanée (y compris la destination)
 
     > [!NOTE]
-    > Nouveauté de l’outil SEFAUtil de Skype Entreprise Server 2015
+    > Nouveauté de l Skype Entreprise Server SEFAUtil 2015
 
 - Activer/désactiver/modifier les paramètres de prise d’appel de groupe
 
     > [!CAUTION]
-    > Nouveauté de l’outil SEFAUtil de Skype Entreprise Server 2015
+    > Nouveauté de l Skype Entreprise Server SEFAUtil 2015
 
 Cet outil présente les limitations suivantes :
 
-- Pris en charge uniquement pour les utilisateurs d’un pool Skype Entreprise Server
+- Pris en charge uniquement pour les utilisateurs d’un pool Skype Entreprise Server de données
 
 - La modification en bloc des paramètres de routage des appels pour plusieurs utilisateurs n’est pas prise en charge
 
@@ -1029,15 +1029,15 @@ La version actuelle de cet outil fournit une sortie uniquement dans la fenêtre 
 
 Voici quelques-uns des scénarios clés dans lequel cet outil peut être utilisé :
 
-- Bob est cadre et a été déplacé vers la téléphonie Skype Entreprise Server. Il dispose d’une délégation sur son système PBX existant. Dans le cadre du passage à Skype Entreprise Server 2015, l’administrateur est en mesure de configurer le routage de Bob pour refléter sa configuration de délégation pré-existante.
+- Bob est cadre et a été déplacé vers Skype Entreprise Server téléphonie. Il dispose d’une délégation sur son système PBX existant. Dans le cadre du passage à Skype Entreprise Server 2015, l’administrateur est en mesure de configurer le routage de Bob pour refléter sa configuration de délégation pré-existante.
 
-- Alice se déplace et réalise qu’elle attend un appel important de l’un de ses clients. Toutefois, elle se trouve à l’hôtel et n’a pas accès à un ordinateur. Elle appelle le helpdesk et demande qu’il soit transmis à son numéro de téléphone mobile tous les appels effectués vers son numéro de travail. Le personnel du service d’aide peut faire la configuration en son nom.
+- Alice est en déplacement et réalise qu’elle attend un appel important de l’un de ses clients. Toutefois, elle se trouve à l’hôtel et n’a pas accès à un ordinateur. Elle appelle le helpdesk et demande qu’il soit transmis à son numéro de téléphone mobile tous les appels effectués vers son numéro de travail. Le personnel du service d’aide peut faire la configuration en son nom.
 
 - Les appels de Joe vers son numéro de travail sont appelés sur sa messagerie vocale mobile chaque fois qu’il est au travail . toutefois, les choses semblent fonctionner correctement dans la plupart des autres emplacements. Le technicien du service d’aide est en mesure d’afficher la configuration de routage de Joe et découvre que la sonnerie simultanée de Joe est configurée sur son téléphone mobile. Le technicien demande à Joe la couverture mobile de son bureau et peut déterminer que la règle de sonnerie simultanée est à l’origine des appels vers la messagerie vocale mobile de Joe lorsque sa couverture réseau est médiocre.
 
-- Mike est un nouvel employé chez Contoso et rejoint une nouvelle équipe sur laquelle tous les membres sont configurés pour l’appel d’équipe. Lorsqu’il est activé pour Skype Entreprise Server 2015, l’administrateur est en mesure de définir ses paramètres de groupe d’appel d’équipe pour inclure tous ses nouveaux membres d’équipe. En outre, l’administrateur ajoute Mike en tant que membre du groupe d’appel d’équipe pour chacun des membres de son équipe.
+- Mike est un nouvel employé chez Contoso et rejoint une nouvelle équipe sur laquelle tous les membres sont configurés pour l’appel d’équipe. Lorsqu’il est activé pour Skype Entreprise Server 2015, l’administrateur peut définir ses paramètres de groupe d’appel d’équipe pour inclure tous ses nouveaux membres d’équipe. En outre, l’administrateur ajoute Mike en tant que membre du groupe d’appel d’équipe pour chacun des membres de son équipe.
 
-- Une pratique du service clientèle dans le service des ressources humaines de Contoso consiste à fournir un service personnel pour tous les appelants depuis le premier appel. Étant donné que tous les membres du service sont très proches les uns des autres, le fait que tous les téléphones sonnent en même temps avec l’appel d’équipe est très perturbant pour l’équipe. Pour fournir le meilleur service sans perturber les membres de l’équipe, l’administrateur de Skype Entreprise Server 2015 tire parti de la fonctionnalité de prise d’appel de groupe. L’administrateur ajoute tous les membres du service à un groupe de collecte et communique au service le numéro du groupe de collecte. Lorsqu’Elle est absente de son bureau, Joe remarque que son téléphone sonne et répond à l’appel à partir de son bureau.
+- Une pratique du service clientèle dans le service des ressources humaines de Contoso consiste à fournir un service personnel pour tous les appelants depuis le premier appel. Étant donné que tous les membres du service sont très proches les uns des autres, le fait que tous les téléphones sonnent en même temps avec l’appel d’équipe perturbe l’équipe. Pour fournir le meilleur service sans perturber les membres de l’équipe, l’administrateur Skype Entreprise Server 2015 tire parti de la fonctionnalité de prise d’appel de groupe. L’administrateur ajoute tous les membres du service à un groupe de collecte et communique au service le numéro du groupe de collecte. Lorsqu’Elle est absente de son bureau, Joe remarque que son téléphone sonne et répond à l’appel à partir de son bureau.
 
 ### <a name="requirements"></a>Configuration requise
 
@@ -1045,7 +1045,7 @@ L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait pa
 
 ### <a name="creating-a-new-trusted-application-for-the-sefautil-tool"></a>Création d’une application de confiance pour l’outil SEFAUtil
 
-1. L’outil SEFAUTil peut être exécuté uniquement sur un ordinateur qui fait partie d’un pool d’applications fiables. Si nécessaire, l’ajout d’un pool en tant que nouveau pool d’applications fiables peut être effectué via Skype Entreprise Server Management Shell avec l’cmdlet suivante :
+1. L’outil SEFAUTil peut être exécuté uniquement sur un ordinateur qui fait partie d’un pool d’applications fiables. Si nécessaire, l’ajout d’un pool en tant que nouveau pool d’applications fiables peut être effectué via l’Skype Entreprise Server Management Shell avec l’cmdlet suivante :
 
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
@@ -1054,7 +1054,7 @@ L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait pa
     > [!NOTE]
     > UCMA 3.0 doit être installé sur n’importe quel ordinateur qui sera utilisé pour exécuter l’outil SEFAUtil.
 
-2. Une application fiable doit être définie dans la topologie de l’outil SEFAUtil. Pour définir SEFAUtil en tant que nouvelle application fiable, utilisez Skype Entreprise Server Management Shell et exécutez l’cmdlet suivante :
+2. Une application fiable doit être définie dans la topologie de l’outil SEFAUtil. Pour définir SEFAUtil en tant que nouvelle application fiable, utilisez l’Skype Entreprise Server Management Shell et exécutez l’cmdlet suivante :
 
    ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
@@ -1064,11 +1064,11 @@ L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait pa
     > Un autre port peut être utilisé si nécessaire.
     
     > [!NOTE]
-    > FQDN du pool : nom de domaine général du serveur ou du pool qui hébergera l’application SEFAUtil (généralement un serveur frontal Skype Entreprise > ou pool).
-    > FQDN du serveur d’inscriptions de pool : nom de domaine général (FQDN) du serveur frontal Skype Entreprise ou du pool associé à ce pool d’applications.
+    > FQDN du pool : nom de pool du serveur ou du pool qui hébergera l’application SEFAUtil (généralement un serveur frontal Skype Entreprise > ou pool).
+    > FQDN du serveur d’inscriptions de pool : nom de domaine Skype Entreprise serveur frontal ou pool associé à ce pool d’applications.
     > Site du pool : ID de site du site sur lequel ce pool est situé.
 
-3. Les modifications apportées à la topologie doivent être activées. L’activation des modifications de topologie peut être effectuée via Skype Entreprise Server Management Shell en exécutant la cmdlet suivante :
+3. Les modifications apportées à la topologie doivent être activées. L’activation des modifications de topologie peut être effectuée via Skype Entreprise Server Management Shell en exécutant l’cmdlet suivante :
 
    ```powershell
    Enable-CsToplogy
@@ -1076,7 +1076,7 @@ L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait pa
 
 4. Si nécessaire, installez les outils du Kit de ressources Skype Entreprise Server 2015 sur le serveur qui sera utilisé pour exécuter l’outil SEFAUtil (le serveur doit faire partie d’un pool d’applications fiables).
 
-5. Vérifiez que SEFAUtil s’exécute correctement. Pour ce faire, exécutez l’outil à partir d’une invite de commandes Windows avec des privilèges d’administrateur pour afficher les paramètres de forwarding d’appel d’un utilisateur dans le déploiement. Par défaut, l’outil se trouve dans : « ...\Program Files\Skype for Business Server 2015\Reskit ». Pour afficher les paramètres de forwarding d’appel d’un utilisateur, utilisez la commande suivante :
+5. Vérifiez que SEFAUtil s’exécute correctement. Pour ce faire, exécutez l’outil à partir d’une invite de commandes Windows avec des privilèges d’administrateur pour afficher les paramètres de forwarding d’appel d’un utilisateur dans le déploiement. Par défaut, l’outil se trouve dans : « ...\Program Files\Skype Entreprise Server 2015\Reskit ». Pour afficher les paramètres de forwarding d’appel d’un utilisateur, utilisez la commande suivante :
 
    ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
@@ -1086,16 +1086,16 @@ L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait pa
 
 #### <a name="group-call-pickup"></a>Prise d’appel de groupe
 
-La prise d’appel de groupe nécessite une configuration supplémentaire dans Skype Entreprise Server 2015 pour que la fonctionnalité soit entièrement activée. Avant d’affecter des groupes de collecte aux utilisateurs, reportez-vous à la documentation du produit de prise d’appel de groupe pour les étapes de planification et de déploiement de cette fonctionnalité.
+La prise d’appel de groupe nécessite une configuration Skype Entreprise Server 2015 pour que la fonctionnalité soit entièrement activée. Avant d’affecter des groupes de collecte aux utilisateurs, reportez-vous à la documentation du produit de prise d’appel de groupe pour les étapes de planification et de déploiement de cette fonctionnalité.
 
 ### <a name="examples"></a>Exemples
 
-#### <a name="display-current-call-handling-settings"></a>Afficher les paramètres actuels de gestion des appels
+#### <a name="display-current-call-handling-settings"></a>Afficher les règles de gestion des appels Paramètres
 
 La commande suivante affiche la gestion des appels pour l’utilisateur.  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
 
 > [!NOTE]
-> Cet exemple utilise le **commutateur /server** pour spécifier le serveur Skype Entreprise à connecter.
+> Cet exemple utilise le **commutateur /server** pour spécifier le Skype Entreprise Server connexion.
 
  **Résultat**
 
@@ -1110,7 +1110,7 @@ Call Forward No Answer to: voicemail
 
 #### <a name="set-the-call-forwardno-answer-destination"></a>Définir la destination de l’appel sans réponse
 
-Cet exemple définit la destination de l’appel sans réponse et le délai de sonnerie. Ici, le commutateur /server n’est pas fourni ; SEFAUtil tente de découverte automatique de Skype Entreprise Server 2015.
+Cet exemple définit la destination de l’appel sans réponse et le délai de sonnerie. Ici, le commutateur /server n’est pas fourni ; SEFAUtil tente de découverte automatique du Skype Entreprise Server 2015.
 
 ```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
@@ -1287,7 +1287,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 ```
 
 > [!NOTE]
-> L’ajout d’un membre au groupe d’appels d’équipe d’un utilisateur entraîne automatiquement le basculement du jeu de sonneries simultanées des utilisateurs pour simuler son groupe d’appels d’équipe.
+> L’ajout d’un membre au groupe d’appels d’équipe d’un utilisateur entraîne automatiquement le basculement du jeu de sonneries simultanées des utilisateurs pour qu’il appelle simultanément son groupe d’appels d’équipe.
 
  **Résultat**
 
@@ -1406,13 +1406,13 @@ UM Enabled: True
 
 ### <a name="description"></a>Description
 
-SYSPrep.ps1 est un script Windows PowerShell qui installera les conditions préalables de Skype Entreprise Server 2015 suivantes sur votre ordinateur de système d’exploitation Windows Server 2008.
+SYSPrep.ps1 est un script Windows PowerShell qui installera les conditions préalables Skype Entreprise Server 2015 suivantes sur votre ordinateur du système d’exploitation Windows Server 2008.
 
-- Microsoft .Net Framework 4.5
+- Microsoft .NET Framework 4.5
 
 - Microsoft SQL Server Express
 
-- Windows Powershell version 3.0
+- Windows PowerShell version 3.0
 
 - Visual C++ 2010 Redistributable
 
@@ -1420,9 +1420,9 @@ SYSPrep.ps1 est un script Windows PowerShell qui installera les conditions préa
 
 - Windows Identity Foundation
 
-- Fichiers principaux de Skype Entreprise Server 2015
+- Skype Entreprise Server 2015 Core
 
-  Bien que le nom du script soit similaire à l’Outil de préparation du système pour les systèmes d’exploitation Microsoft Windows, ils sont différents. Ce script installe uniquement les conditions préalables requises pour Skype Entreprise Server 2015. Une fois ces conditions préalables installées, l’outil Windows SYSPrep peut ensuite être utilisé pour créer une image du serveur.
+  Bien que le nom du script soit similaire à celui de l’Outil de préparation du système pour les systèmes d Windows d’exploitation Microsoft, ils sont différents. Ce script installe uniquement les conditions préalables requises pour Skype Entreprise Server 2015. Une fois ces conditions préalables installées, Windows’outil SYSPrep peut ensuite être utilisé pour créer une image du serveur.
 
 ### <a name="requirements"></a>Configuration requise
 
@@ -1431,13 +1431,13 @@ Avant d’exécutez le script SYSPrep.ps1, vous devez copier les fichiers prére
 
 | **Conditions préalables**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
-| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
-| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
+| Windows PowerShell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
 | Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
 | Mises à jour Internet Information Server  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
-| Skype Entreprise Server 2015 Setup.exe  <br/> | Copier à partir du média Skype Entreprise Server 2015  <br/>                   |
+| Skype Entreprise Server 2015 Setup.exe  <br/> | Copier à partir Skype Entreprise Server multimédia 2015  <br/>                   |
 
 ### <a name="parameter"></a>Paramètre
 
@@ -1445,7 +1445,7 @@ Le **paramètre -SetupFolder** prend comme argument l’emplacement du répertoi
 
 ### <a name="examples"></a>Exemples
 
-Pour exécuter le script SYSPrep.ps1 et installer les conditions préalables de Skype Entreprise Server 2015, exécutez la commande suivante à partir d’une invite de commandes avec élévation de niveaux :
+Pour exécuter le script SYSPrep.ps1 et installer les prérequis Skype Entreprise Server 2015, exécutez la commande suivante à partir d’une invite de commandes avec élévation de élévation de niveaux :
 
 ```console
 ./SysPrep.PS1 -SetupFolder D:\Setup
@@ -1454,7 +1454,7 @@ Pour exécuter le script SYSPrep.ps1 et installer les conditions préalables de 
 ## <a name="unassigned-number-announcements-migration"></a>Migration des annonces de numéro non signé
 <a name="UNAM"> </a>
 
-L’outil De migration des annonces de numéros non signés permet à un administrateur Skype Entreprise Server 2015 de déplacer la configuration des numéros non signés pris en service par l’application d’annonce d’un pool ou d’un serveur Skype Entreprise source vers un pool ou un serveur Skype Entreprise de destination.
+L’outil De migration des annonces de numéros non signés permet à un administrateur Skype Entreprise Server 2015 de déplacer la configuration des numéros non signés pris en service par l’application d’annonce d’une Skype Entreprise Server source ou d’un pool vers un pool ou un Skype Entreprise Server de destination.
 
 ### <a name="description"></a>Description
 
@@ -1462,7 +1462,7 @@ L’outil De migration des annonces de numéros non signés est un script Window
 
 Lorsqu’il est exécuté, le script de migration Annonces de numéro non signé effectue les opérations suivantes :
 
-1. Déplacez tous les fichiers audio utilisés par les annonces de numéro non assignés de l’application d’annonce hébergée dans le pool ou le serveur source vers le magasin de fichiers du serveur ou pool de destination.
+1. Déplacez tous les fichiers audio utilisés par les annonces de numéro non signé de l’application d’annonce hébergée dans le pool ou le serveur source vers le magasin de fichiers du serveur ou pool de destination.
 
     > [!NOTE]
     > Les fichiers audio sont supprimés du pool source une fois copiés dans le pool de destination.
@@ -1483,19 +1483,19 @@ Si l’exécution de l’opération est interrompue par une erreur, les plages d
 
 Le script de migration Annonces de numéro non signé peut être utilisé dans les trois scénarios suivants :
 
-- **Migration des paramètres de configuration vers une nouvelle version de Skype Entreprise Server :** Contoso est en cours de migration vers Skype Entreprise Server 2015 et, dans le cadre du processus de migration, l’administrateur de Skype Entreprise Server souhaite déplacer la configuration des numéros non affectation pris en service par l’application d’annonce du déploiement Lync Server 2013 vers le nouveau déploiement Skype Entreprise Server 2015. Pour déplacer les paramètres de configuration, l’administrateur Skype Entreprise Server utilise l’outil De migration des annonces de numéros non signés.
+- **Migration des paramètres de configuration vers une nouvelle version de Skype Entreprise Server :** Contoso est en cours de migration vers Skype Entreprise Server 2015 et, dans le cadre du processus de migration, l’administrateur Skype Entreprise Server souhaite déplacer la configuration des numéros non affectation pris en service par l’application d’annonce du déploiement Lync Server 2013 vers le nouveau déploiement Skype Entreprise Server 2015. Pour déplacer les paramètres de configuration, l’administrateur Skype Entreprise Server utilise l’outil De migration des annonces de numéro non signé.
 
-- **Retour à un déploiement de Skype Entreprise Server 2015 vers Lync Server 2013 :** En raison de facteurs inattendus, Contoso doit revenir à la migration vers le nouveau déploiement de Skype Entreprise Server 2015. Pour minimiser les perturbations du service, l’administrateur de Skype Entreprise Server utilise l’outil de migration Annonces de numéros non signés pour revenir à la configuration du déploiement skype entreprise server 2015 vers le déploiement Lync Server 2013.
+- **Retour à un déploiement de Skype Entreprise Server 2015 vers Lync Server 2013 :** En raison de facteurs inattendus, Contoso doit revenir à la migration vers le nouveau déploiement Skype Entreprise Server 2015. Pour minimiser les perturbations du service, l’administrateur Skype Entreprise Server utilise l’outil De migration des annonces de numéro non affectation pour revenir à la configuration du déploiement Skype Entreprise Server 2015 vers le déploiement Lync Server 2013.
 
-- **Déplacement de données entre les déploiements :** Contoso est en train de remplacer tous les serveurs d’un pool par des serveurs plus nouveaux. Leur stratégie consiste à déployer un nouveau pool Skype Entreprise Server 2015, à déplacer toutes les données de l’ancien pool vers le nouveau, puis à passer de l’ancien pool à l’ancien pool. Une fois le nouveau pool déployé, l’outil De migration des annonces de numéro non signé est utilisé pour déplacer la configuration de l’ancien pool vers le nouveau.
+- **Déplacement de données entre les déploiements :** Contoso est en train de remplacer tous les serveurs d’un pool par des serveurs plus nouveaux. Leur stratégie consiste à déployer un nouveau pool Skype Entreprise Server 2015, à déplacer toutes les données de l’ancien pool vers le nouveau, puis à passer de l’ancien pool à l’ancienne. Une fois le nouveau pool déployé, l’outil De migration des annonces de numéro non signé est utilisé pour déplacer la configuration de l’ancien pool vers le nouveau.
 
 #### <a name="requirements"></a>Configuration requise
 
 Les principales conditions requises pour exécuter l’outil sont les suivantes :
 
-1. Le script doit être exécuté à partir d’un ordinateur sur qui Skype Entreprise Server Management Shell est installé.
+1. Le script doit être exécuté à partir d’un ordinateur sur Skype Entreprise Server Management Shell est installé.
 
-2. L’application d’annonce doit être déployée avec succès dans les pools ou serveurs Skype Entreprise source et de destination.
+2. L’application d’annonce doit être déployée avec succès dans la source et la destination Skype Entreprise serveurs ou pools.
 
 #### <a name="move-csannouncementconfiguration-script"></a>Move-CsAnnouncementConfiguration script
 
@@ -1505,17 +1505,17 @@ Le script Move-CsAnnouncementConfiguration nécessite les deux paramètres décr
 
 ### <a name="examples"></a>Exemples
 
-#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>Déplacement de la configuration des annonces de numéros non signés d’un pool Lync Server 2013 vers un pool Skype Entreprise Server 2015
+#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>Déplacement de la configuration des annonces de numéro non signé d’un pool Lync Server 2013 vers un pool Skype Entreprise Server 2015
 
-Cet exemple déplace les annonces de numéros non signés du pool source (Lync Server 2013) vers le pool de destination (Skype Entreprise Server 2015).
+Cet exemple déplace les annonces de numéro non signé du pool source (Lync Server 2013) vers le pool de destination (Skype Entreprise Server 2015).
 
 ```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
-#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>Déplacement de la configuration des annonces de numéros non signés d’un pool Skype Entreprise Server 2015 vers un pool Lync Server 2013
+#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>Déplacement de la configuration des annonces de numéro non Skype Entreprise Server 2015 vers un pool Lync Server 2013
 
-Cet exemple déplace les annonces de numéros non signés du pool source (Skype Entreprise Server 2015) vers le pool de destination (Lync Server 2013).
+Cet exemple déplace les annonces de numéro non signé du pool source (Skype Entreprise Server 2015) vers le pool de destination (Lync Server 2013).
 
 ```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
@@ -1539,7 +1539,7 @@ Cet outil permet à l’administrateur d’effectuer les opérations suivantes :
 4. Déplacez toutes les données de conférence Web associées à un seul utilisateur lorsque cet utilisateur est déplacé d’un pool vers un autre.
 
     > [!NOTE]
-    > Les outils du Kit de ressources pour Lync Server 2010 ont pris en charge le déplacement de toutes les données de conférence Web associées à un seul utilisateur lorsque cet utilisateur est déplacé d’un pool vers un autre. Cette fonctionnalité est désormais dépréciée de cet outil au profit du paramètre **MoveConferenceData.** Pour plus d’informations sur ce paramètre, voir l’cmdlet [Move-CsUser.](/powershell/module/skype/move-csuser.md?view=skype-ps)
+    > Les outils du Kit de ressources pour Lync Server 2010 ont pris en charge le déplacement de toutes les données de conférence Web associées à un seul utilisateur lorsque cet utilisateur est déplacé d’un pool vers un autre. Cette fonctionnalité est désormais dépréciée de cet outil au profit du paramètre **MoveConferenceData.** Pour plus d’informations sur ce paramètre, voir l’cmdlet [Move-CsUser.](/powershell/module/skype/move-csuser?)
 
 L’outil supprime les données de réunion uniquement pour les réunions inactives. Les réunions actives (ou les réunions dans les sessions) ne peuvent pas être supprimées.
 
@@ -1549,7 +1549,7 @@ Cet outil doit être exécuté à partir d’un ordinateur qui se trouve dans le
 
 Cet outil produit les résultats de chacune des opérations :
 
-- Si une requête est exécutée, l’outil produit la liste de tous les dossiers de données de réunion inactifs qui ont cet utilisateur en tant qu’organisateur.
+- Si une requête est exécutée, l’outil produit la liste de tous les dossiers de données de réunion inactifs dont l’utilisateur est l’organisateur.
 
 - Si une suppression est effectuée, l’outil produit la liste de tous les dossiers de données de réunion dont les données seront supprimées.
 
