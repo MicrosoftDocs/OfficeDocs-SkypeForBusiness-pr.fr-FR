@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c27a73928e0740eb325c269fd5ac625fa4c43086
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628923"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656027"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams comportement des applications pour les utilisateurs non standard
 
@@ -67,8 +67,10 @@ Les utilisateurs externes ne peuvent pas installer, mettre à jour ou supprimer 
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs externes
 
-- Les utilisateurs externes ne peuvent pas utiliser les applications Teams et lorsqu’un utilisateur externe est ajouté à un contexte avec des utilisateurs natifs, tous les utilisateurs, natifs et externes, ne peuvent plus utiliser d’applications.
-- Les utilisateurs externes ne sont pas impactés par les stratégies d’application, car ils ne peuvent pas Teams applications.
+- Des personnes d’autres organisations respectent la stratégie d’autorisation des utilisateurs par défaut de l’organisation d’hébergement et les paramètres à l’échelle de l’organisation.
+- Les utilisateurs de l’organisation d’hébergement peuvent ajouter des applications aux conversations de réunion avec des personnes d’autres organisations. Les personnes d’autres organisations ne peuvent pas ajouter d’applications dans les conversations de réunion, mais peuvent interagir avec les bots et les onglets une fois ajoutés à la conversation.
+- Une fois qu’un robot est installé dans une conversation, il peut communiquer de façon proactive avec les personnes d’autres organisations au cours de cette conversation et ces personnes peuvent communiquer avec le robot.
+- Les stratégies de données de l’organisation d’hébergement, ainsi que les pratiques de partage de données des applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
 
 ## <a name="anonymous-users"></a>Utilisateurs anonymes
 

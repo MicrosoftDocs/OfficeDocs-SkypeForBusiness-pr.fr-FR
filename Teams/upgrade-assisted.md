@@ -1,5 +1,5 @@
 ---
-title: Mises à niveau assistées | Mise à niveau de Skype Business Online vers Teams
+title: Mises à niveau assistées | Skype Mise à niveau vers une version Teams Business Online
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
 audience: admin
-description: Vue d'ensemble des mises à niveau assistées de Skype Entreprise Online vers Teams
+description: Vue d’ensemble des mises à niveau assistées Skype Entreprise Online vers Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,39 +18,53 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03ea21de9f8cb64b1221044babeeae335a52d8ea
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995195"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656057"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Mises à niveau assistées de Skype Entreprise Online vers Microsoft Teams
 
-Microsoft propose des mises à niveau assistées vers Teams pour aider les organisations à effectuer une transition réussie à partir de Skype Entreprise Online à mesure que le service prend fin le 31 juillet 2021. Les mises à niveau assistées réduisent le nombre de tâches techniques que vous devez effectuer et permettent de vous concentrer davantage sur la préparation de l'organisation, la sensibilisation des utilisateurs et la formation teams.
+Microsoft propose des mises à niveau assistées vers Teams pour aider les organisations à effectuer une transition réussie à partir de Skype Entreprise Online à la mise à niveau du service à compter du 31 juillet 2021. Que votre organisation effectuera la mise à niveau à partir d’un environnement *Skype Entreprise Online* ou *Skype Entreprise Online* avec un environnement hybride (utilisateurs à la fois dans Skype Entreprise **Online** et Skype Entreprise Server), les mises à niveau assistées réduisent le nombre de tâches techniques que vous devez effectuer et permettent de vous concentrer davantage sur la préparation de l’organisation, les connaissances des utilisateurs et la formation Teams.
 
-Nous vous recommandons de consulter nos conseils [de mise à niveau](https://aka.ms/SkypeToTeams) avant de le mettre à niveau. Nos recommandations de mise à niveau incluent des activités recommandées et des ressources utiles pour effectuer une mise à niveau de Skype Entreprise Online vers Teams. Ces conseils s'appliquent à toute organisation qui planifie une mise à niveau vers Teams, qu'elle gère tous les aspects de la mise à niveau ou utilise le processus assisté.
+Nous vous recommandons de consulter nos conseils [de mise à niveau](https://aka.ms/SkypeToTeams) avant de le mettre à niveau. Nos recommandations de mise à niveau incluent des activités recommandées et des ressources utiles pour effectuer une mise à niveau d’Skype Entreprise Online vers Teams. Ces conseils s’appliquent à toute organisation qui planifie une mise à niveau vers Teams, qu’elle gère tous les aspects de la mise à niveau ou utilise le processus assisté.
 
 > [!NOTE]
-> Si vous êtes programmé pour une mise à niveau assistée vers Teams, vous pouvez effectuer votre propre mise à niveau à partir de Skype Entreprise Online avant la date de mise à niveau prévue. Pour plus d'informations sur la mise à niveau manuelle vers Teams, consultez nos [instructions de mise à niveau.](https://aka.ms/SkypeToTeams)
+> Si vous êtes programmé pour une mise à niveau assistée vers Teams, vous pouvez effectuer votre propre mise à niveau à partir d’Skype Entreprise Online avant la date de mise à niveau prévue. Pour plus d’informations sur la mise à niveau manuelle vers Teams, consultez nos [instructions de mise à niveau.](https://aka.ms/SkypeToTeams)
 >
-> La mise à niveau assistée n'est pas disponible pour les déploiements locaux de Skype Entreprise Server.
+> Les mises à niveau assistées ne sont pas disponibles pour les déploiements locaux d’Skype Entreprise Server.
 
 ## <a name="notifications-for-scheduled-customers"></a>Notifications pour les clients programmés
 
-Les clients Skype Entreprise Online qui doivent recevoir des mises à niveau assistées vers Teams recevront une série de notifications de mise à niveau. Ces notifications commenceront 90 jours avant la date de mise à niveau prévue. Ces notifications seront remises en tant que *plan* pour la modification des publications dans le Centre de messages Microsoft 365, les notifications de mise à niveau des tableaux de bord dans le Centre d'administration Teams et les indicateurs dans l'application aux utilisateurs finaux.
+Skype Entreprise Les clients en ligne qui sont programmés pour des mises à niveau assistées vers Teams recevront une série de notifications de mise à niveau. Ces notifications commenceront 90 jours avant la date de mise à niveau prévue. Ces notifications seront remises en tant que *plan* pour la modification des publications dans le Centre de messages Microsoft 365, les notifications de mise à niveau de tableau de bord dans le Centre d’administration Teams et les indicateurs dans l’application pour les utilisateurs finaux.
 
-Les notifications de mise à niveau incluront la date prévue de la mise à niveau assistée et incluront des liens vers des ressources et des formations de mise à niveau pour contribuer à l'adoption et à l'utilisation de Teams.
+Les notifications de mise à niveau incluront la date prévue de la mise à niveau assistée, et incluront des liens vers des ressources et des formations de mise à niveau pour contribuer à l’adoption et à l’utilisation des Teams.
 
-## <a name="the-assisted-upgrade-experience"></a>L'expérience de mise à niveau assistée
+## <a name="the-assisted-upgrade-experience"></a>L’expérience de mise à niveau assistée
 
 Les mises à niveau assistées commenceront en août 2021 avec des dates spécifiques du client partagées dans les notifications de planification mentionnées ci-dessus.
 
-La durée de la mise à niveau variera en fonction du volume des utilisateurs et des caractéristiques du déploiement. Toutefois, dans la plupart des cas, les utilisateurs au sein d'un client seront mis à niveau dans les 24 heures après le début de la mise à niveau. Pendant ce temps, les utilisateurs finaux auront toujours accès aux fonctionnalités de Skype Entreprise Online. Une fois la mise à niveau terminée et que les utilisateurs se connectent à Skype Entreprise Online, ils commencent à utiliser Teams pour la messagerie, les réunions et les appels.
+Votre expérience de mise à niveau assistée diffère légèrement selon que vous avez un environnement Skype Entreprise Online-only ou Skype Entreprise Online avec un environnement hybride :
 
-## <a name="the-post-upgrade-experience"></a>L'expérience après la mise à niveau
+- **Skype Entreprise Online-only** Le processus de mise à niveau assisté applique la `TeamsUpgradeOverridePolicy` stratégie à votre organisation. Lorsque cette stratégie est appliquée, tous vos utilisateurs Skype Entreprise Online sont placés en mode Teams uniquement.
+- **Skype Entreprise Online avec un système hybride** Les environnements hybrides peuvent avoir des utilisateurs qui se classent dans l’une des catégories suivantes :
 
-Une fois la mise à niveau assistée terminée, le **mode coexistence** pour les utilisateurs mis à niveau est réglé sur Teams uniquement et Ne peut être modifié que par Microsoft dans un autre mode de coexistence. Nous vous recommandons de passer en revue [les considérations en mode Teams uniquement](teams-only-mode-considerations.md) avant votre mise à niveau. Le tableau ci-dessous fournit une vue d'ensemble de l'expérience utilisateur de Teams uniquement.
+  - Utilisateurs locaux homed on Skype Entreprise Server
+  - Skype Entreprise Utilisateurs en ligne en Teams mode uniquement
+  - Skype Entreprise Utilisateurs en ligne **qui ne sont pas** en Teams mode Uniquement
+
+  Si vous avez un mélange d’utilisateurs dans chacune des catégories répertoriées ci-dessus, le processus de mise à niveau assistée basculera uniquement les utilisateurs de Skype Entreprise Online en mode Teams Uniquement s’ils ne sont pas encore dans ce mode. Les utilisateurs Skype Entreprise l’environnement local ne seront pas impactés par le processus de mise à niveau assistée.
+
+> [!NOTE]
+> Ne vous inquiétez pas si votre mise à niveau assistée est prévue pour une date ultérieure au 31 juillet 2021. Votre organisation pourra utiliser Skype Entreprise Online jusqu’à la fin de la mise à niveau.
+
+La durée de la mise à niveau variera en fonction du volume des utilisateurs et des caractéristiques du déploiement. Dans la plupart des cas, les utilisateurs au sein d’un client seront mis à niveau dans les 24 heures après le début de la mise à niveau. Pendant ce temps, les utilisateurs finaux auront toujours accès à Skype Entreprise Online. Une fois la mise à niveau terminée et que les utilisateurs se seront Skype Entreprise Online, ils commenceront à utiliser Teams pour la messagerie, les réunions et les appels.
+
+## <a name="the-post-upgrade-experience"></a>L’expérience après la mise à niveau
+
+Une fois la mise à niveau assistée terminée, le **mode coexistence** des utilisateurs mis à niveau est Teams uniquement. Nous vous recommandons de passer en [revue Teams considérations en mode uniquement](teams-only-mode-considerations.md) avant votre mise à niveau. Le tableau ci-dessous donne une vue d’ensemble de l’expérience utilisateur Teams utilisateur uniquement.
 
 :::row:::
     :::column span="1":::
@@ -58,9 +72,9 @@ Une fois la mise à niveau assistée terminée, le **mode coexistence** pour les
     :::column-end:::
     :::column span="3":::
         - Tous les appels et conversations sont démarrés et reçus dans Teams
-        - Les utilisateurs peuvent communiquer (conversation/appel) avec n'importe quel utilisateur de Skype Entreprise
-        - Les organisations peuvent permettre aux utilisateurs de Teams de communiquer avec les utilisateurs du service grand public Skype en gérant les [autorisations d'accès externe](manage-external-access.md)
-        - Les utilisateurs de Teams qui tentent de se connecter à Skype Entreprise Online seront redirigés vers Teams
+        - Les utilisateurs peuvent communiquer (conversation/appel) avec n’importe quel Skype Entreprise utilisateur
+        - Les organisations peuvent permettre aux Teams de communiquer avec les utilisateurs du service grand public Skype en gérant les [autorisations d’accès externe](manage-external-access.md)
+        - Teams utilisateurs qui tentent de se Skype Entreprise online sont redirigés vers le Teams
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -76,10 +90,17 @@ Une fois la mise à niveau assistée terminée, le **mode coexistence** pour les
         **Données migrées**
     :::column-end:::
     :::column span="3":::
-        - Contacts existants de Skype Entreprise Online incluant des contacts fédérés (mais aucune liste de distribution)
-        - Les réunions Skype Entreprise Online existantes sont converties en réunions Teams
+        - Contacts existants provenant de Skype Entreprise Online, y compris fédérés (mais aucune liste de distribution)
+        - Les contacts sont migrés lorsque les utilisateurs se Teams connexion pour la première fois.
+            > [!IMPORTANT]
+            >Les contacts doivent être migrés dans les 90 jours suivant la fin de votre mise à niveau.
+        - Les réunions Skype Entreprise Online existantes sont converties en réunions Teams réunion
+            > [!IMPORTANT]
+            > Les clients Skype Entreprise configurations en ligne doivent utiliser Meeting Migration Service (MMS) pour migrer des réunions Skype Entreprise Online vers Teams réunions. Nous vous recommandons d’utiliser MMS avant la date de mise à niveau assistée. Pour plus d’informations sur MMS, voir [Utiliser meeting Migration Service (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
     :::column-end:::
 :::row-end:::
+
+Une fois la mise à niveau terminée, les organisations qui utilisent des déploiements hybrides peuvent déplacer des utilisateurs d’un déploiement local vers Teams ou d’un déploiement Teams vers un déploiement local.  
 
 ## <a name="related-content"></a>Contenu associé
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez comment gérer les stratégies de webinaire pour Teams réunions.
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275518"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656047"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurer les webinaires dans Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Configurer les utilisateurs qui peuvent s’inscrire aux webinaires
 
-Vous pouvez limiter l’inscription aux seuls utilisateurs de votre organisation ou l’ouvrir à tous les utilisateurs à l’intérieur et à l’extérieur de votre client. Par défaut, **WhoCanRegister** est activé et activé sur **Tout le monde.** Si vous voulez désactiver l’inscription aux réunions, définissez **WhoCanRegister** sur **False.**
+Vous pouvez limiter l’inscription aux seuls utilisateurs de votre organisation ou l’ouvrir à tous les utilisateurs à l’intérieur et à l’extérieur de votre client. Par défaut, **WhoCanRegister** est activé et activé sur **Tout le monde.** Si vous voulez désactiver l’inscription aux réunions, définissez **AllowMeetingRegistration** sur **False.**
 
 > [!IMPORTANT]
-> N’oubliez pas **que AllowPrivateMeetingScheduling** doit être définie sur **True** pour que **WhoCanRegister** fonctionne. En outre, les listes Microsoft doivent être définies dans SharePoint. Pour en savoir plus, [consultez les paramètres de contrôle pour les listes Microsoft.](/sharepoint/control-lists)
+> N’oubliez **pas que AllowPrivateMeetingScheduling** doit être réglé sur **True** pour que **AllowMeetingRegistration** fonctionne. En outre, les listes Microsoft doivent être définies dans SharePoint. Pour en savoir plus, [consultez les paramètres de contrôle pour les listes Microsoft.](/sharepoint/control-lists)
 
 **Pour autoriser uniquement *les utilisateurs* de votre organisation à s’inscrire aux webinaires, exécutez :**
 
@@ -102,7 +102,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 Après l’activation de votre environnement pour les webinaires, aucune autre gestion de l’administrateur n’est requise. La stratégie contrôle les options qui s’affichent pour les organisateurs de webinaires.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Stratégies de réunion dans Teams - Général](meeting-policies-in-teams-general.md)
 - [Documentation set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
