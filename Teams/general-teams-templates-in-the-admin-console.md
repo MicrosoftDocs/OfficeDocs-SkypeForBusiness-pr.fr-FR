@@ -1,5 +1,5 @@
 ---
-title: Utiliser des modèles Teams généraux dans le Centre d’administration
+title: Utiliser des modèles d’équipe généraux dans le Centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser des modèles Teams généraux pour créer des structures d’équipe en fournissant des paramètres, des canaux et des applications prédéfinies à l’aide du Centre d’administration.
+description: Découvrez comment utiliser des modèles d’équipe généraux pour créer des structures d’équipe en fournissant des paramètres, des canaux et des applications prédéfinies à l’aide du Centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc21c4137547f34e82e22cc13f9be9e8e1bb257a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120725"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684561"
 ---
-# <a name="use-general-teams-templates-in-the-admin-center"></a>Utiliser des modèles Teams généraux dans le Centre d’administration
+# <a name="use-general-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe généraux dans le Centre d’administration
 
-Les modèles Teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d'applications préinstallées.
+Les modèles d’équipe vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications préinstallées.
 
-Les modèles Teams ont des définitions pré-intégrées de structures d’équipe conçues autour des besoins financiers. Vous pouvez également étendre les modèles Teams pour créer des équipes adaptées aux besoins spécifiques de votre organisation.
+Les modèles d’équipe ont des définitions précontentes de structures d’équipe conçues autour des besoins financiers. Vous pouvez également étendre les modèles d’équipe pour créer des équipes adaptées aux besoins de votre organisation.
 
-Dans cet article, nous présentons chacun des modèles Teams et recommandons leur utilisation.
+Dans cet article, nous introduisons chacun des modèles d’équipe et vous recommandons de les utiliser.
 
-Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation financière. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas déployé Teams, commencez par lire le [déploiement de Microsoft Teams.](./deploy-overview.md)
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation financière. Vous avez déjà déployé le service Teams dans votre organisation. Si vous n’avez pas déployé de Teams, commencez par lire le livre [How to roll out Microsoft Teams.](./deploy-overview.md)
 
-Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles Teams](get-started-with-teams-templates-in-the-admin-console.md).
+Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="global-crisis-or-event"></a>Crise ou événement global
 
@@ -47,13 +47,13 @@ Centralisez la collaboration pour votre équipe de crise au sein des unités d�
 | Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Comms externes</li><li>Demande d’approbation</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externes</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li></ul>|
 ||||
 
-## <a name="adopt-office-365"></a>Adopter Office 365
+## <a name="adopt-office-365"></a>Adopter une Office 365
 
 Contribuez à développer et soutenir le déploiement de votre communauté Champions en insérant et en aidant vos pairs à la nouvelle technologie.
 
 | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 | ------------------|--|-----------------------------------------------------------|
-| Adopter Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Coin Champions</li> <li>Formulaires d’équipe</li></ul> Applications : <ul><li>Wiki</li>  <li>Calendrier</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Kudos</li><li>Amusant</li><li>Conformité</li></ul>|
+| Adopter une Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Coin Champions</li> <li>Formulaires d’équipe</li></ul> Applications : <ul><li>Wiki</li>  <li>Calendrier</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Kudos</li><li>Amusant</li><li>Conformité</li></ul>|
 ||||
 
 ## <a name="manage-a-project"></a>Gérer un projet

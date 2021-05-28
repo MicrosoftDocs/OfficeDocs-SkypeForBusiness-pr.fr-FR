@@ -16,26 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 75702152f073ffe94bb9712840b97bc31eaa394a
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308097"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684361"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle à partir d’un modèle d’équipe existant dans Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+# <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe à partir d’un modèle d’équipe existant dans Microsoft Teams
 
 **Les modèles personnalisés ne sont pas encore pris en charge pour les clients EDU.**
 
 Microsoft Teams fournit des modèles pré-conçus qui peuvent être enregistrés et modifiés pour répondre aux besoins spécifiques de votre organisation.
 
-1. Connectez-vous au Centre d’administration Teams.
+1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Dans le groupe de navigation de gauche, **développez les modèles Teams**  >  **Team.**
+2. Dans le groupe de navigation de gauche, **développez Teams**  >  **d’équipe.**
 
-3. Dans la section **Modèles d’équipe,** sélectionnez à côté d’un modèle que vous voulez dupliquer pour le mettre en évidence.
+3. Dans la section **Modèles d’équipe,** sélectionnez à côté d’un modèle d’équipe que vous voulez dupliquer pour le mettre en évidence.
 
 4. Sélectionnez **Dupliquer.**
 
@@ -47,7 +45,7 @@ Microsoft Teams fournit des modèles pré-conçus qui peuvent être enregistrés
 
 5. Dans **l’écran Sélectionner le modèle à utiliser comme écran de point** de départ, sélectionnez **Suivant.**
 
-    Le modèle dupliqué s’ouvre et le **mot** Copier est intégré au nom.
+    Le modèle dupliqué s’ouvre et le mot **Copie** est intégré au nom.
 
 6. Remplissez les champs suivants, puis sélectionnez **Suivant**:
     - Nom du modèle

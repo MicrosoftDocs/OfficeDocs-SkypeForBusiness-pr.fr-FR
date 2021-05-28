@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628903"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684571"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer Career Coach pour les Microsoft Teams
 
@@ -69,7 +69,7 @@ Career Coach est disponible dans le monde entier (sauf en Chine et en Russie) po
 
 ### <a name="assign-app-licenses-to-users"></a>Attribuer des licences d’application aux utilisateurs
 
-Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="turn-on-linkedin-account-connections"></a>Activer les connexions de compte LinkedIn
 
@@ -303,7 +303,7 @@ L’épinglage de Career Coach rend l’application plus accessible et visible p
 > [!NOTE]
 > Les étudiants seront avertis dans un Microsoft Teams que Career Coach a été épinglé.
 
-Pour plus [d’informations,](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) référez-vous à Gérer les stratégies de configuration d’application dans Microsoft.
+Pour plus [d’informations,](/microsoftteams/teams-app-setup-policies) référez-vous à Gérer les stratégies de configuration d’application dans Microsoft.
 
 ## <a name="resources"></a>Ressources
 

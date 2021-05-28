@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96d1d2192335367023544b7a30bc36bf69c02a19
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: da234258f3326c03b3a49cbb408f4ab9c5bd7c9f
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308117"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684391"
 ---
-# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Créer un modèle à partir d’une équipe existante dans Microsoft Teams
+# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Créer un modèle d’équipe à partir d’une équipe existante dans Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -31,9 +31,9 @@ ms.locfileid: "48308117"
 
 Microsoft Teams vous permet de créer un modèle à partir d’une équipe existante qui peut être enregistrée et modifiée pour répondre aux besoins spécifiques de votre organisation.
 
-1. Connectez-vous au Centre d’administration Teams.
+1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Dans le groupe de navigation de gauche, **développez les modèles Teams**  >  **Team.**
+2. Dans le groupe de navigation de gauche, **développez Teams**  >  **d’équipe.**
 
 3. Sélectionnez **Ajouter**.
 
@@ -50,7 +50,7 @@ Microsoft Teams vous permet de créer un modèle à partir d’une équipe exist
     - Descriptions brèves et longues du modèle
     - Visibilité des paramètres régionaux  
   
-7. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
+7. Dans la section **Canaux, onglets et** applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
     1. Dans la section **Canaux,** sélectionnez **Ajouter.**
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.

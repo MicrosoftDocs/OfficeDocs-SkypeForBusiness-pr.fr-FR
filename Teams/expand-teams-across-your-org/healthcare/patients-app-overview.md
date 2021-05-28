@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: En savoir plus sur application Patients pour les administrateurs Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803502"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697841"
 ---
 # <a name="patients-app-overview"></a>Présentation de l’application Patients
 
@@ -45,7 +45,7 @@ Au cours des séances de ronde de chaque équipe dans les services médicaux, le
 
 ## <a name="configure-patients-app"></a>Configurer l’application Patients
 
-Pour plus d’informations sur la préparation de votre environnement pour utiliser l’application Patient en mode EMR, consultez [Intégration des enregistrements de santé électroniques dans Microsoft Teams](patients-app.md). Vous devrez également consulter [Gérer les stratégies de configuration des applications dans Microsoft Teams](../../teams-app-setup-policies.md) pour activer l’application Patients pour votre organisation.
+Voir [Gérer les stratégies de configuration d’Microsoft Teams](../../teams-app-setup-policies.md) pour activer l’application Patients pour votre organisation.
 
 Pour plus d'informations sur la manière dont vos utilisateurs finaux peuvent accéder à l'application Patients et l'installer sur une équipe dont ils sont propriétaires ou qu'ils gèrent, cliquez ici, voir [Prise en main de Patients de Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
@@ -74,6 +74,3 @@ Pas pour l’instant, mais cette fonctionnalité sera bientôt disponible.
 
 Oui. Chaque action d’interface utilisateur effectuée par un utilisateur de Microsoft Teams dans l’application Patients est auditée et disponible dans le Centre de sécurité et conformité. Les détails sont expliqués dans [Journaux d'audit pour l'application Patients](patients-audit.md).
 
-## <a name="related-topics"></a>Rubriques connexes
-
-[Intégration des dossiers médicaux électroniques dans Microsoft Teams](patients-app.md)

@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications dans Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f319e95b4b68c7b9a20c8c6fff238f70878e7a32
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: 986aebf2ae86e463976f4480fbd2f7dde440f0a1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491801"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684371"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Notes de publication de PowerShell
 
@@ -31,7 +31,7 @@ Cette page fournit le dernier Teams de modification de PowerShell pour les mises
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
-| Mai 2021 | [3.0.0] |<li>Mises à jour de connexion AccessToken avec Connect-MicrosoftTeams tableau de jetons unifié au lieu de paramètres de jeton d’accès spécifiques aux ressources</li><li>Toutes les références AADGraph ont été supprimées car AADGraph approche de sa fin de vie</li>|
+| Mai 2021 | [Prévisualisation 2.3.2](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Prise en charge de la connexion AccessToken Connecter-MicrosoftTeams. Ajout du paramètre AccessTokens qui accepte le tableau de jeton. MSGraph et Teams de ressource sont requis lors de l’utilisation du paramètre AccessTokens.</li><li>Paramètres AadAccessToken et MsAccessToken supprimés.</li>|
 | Mai 2021 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>Mettre à jour à partir de . NETCore 2.1 à 3.1</li><li>Ajout d’une cmdlet pour obtenir une région géographique multiple pour les utilisateurs et les groupes</li><li>Correctifs pour l’authentification windows intégrée pour utiliser -AccountId avec Connect-MicrosoftTeams</li><li>Les cmdlets TeamsCallHoldPolicy sont désormais disponibles</li><li>Mises à jour des paramètres d’entrée et des formats de sortie de nombreuses commandes</li><li>Corrige le problème de latence importante lors de la correction des commandes</li><li>Fonctionnalités de package personnalisé GA</li>|
 | Avril 2021 | [Prévisualisation 2.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>Correctifs pour l’authentification Windows intégrée afin d’utiliser -AccountId avec Connecter-MicrosoftTeams.</li><li>Une cmdlet a été ajoutée pour obtenir les détails du nombre total d’événements de notification de modification qui peuvent être envoyés aux utilisateurs.</li><li>Ajout d’une cmdlet pour obtenir une région géographique multiple pour les utilisateurs et les groupes.</li><li>La gestion des valeurs transmises au nom TeamsEnvironment était sensible à la cas. Ce problème a été résolu.</li><li>Principal facteur refacteur de la gestion des sessions distantes dans le module pour faciliter les tests unitaires. Les administrateurs des locataires ne doivent pas avoir à modifier les fonctionnalités.</li>|
 | Avril 2021 | [Prévisualisation 2.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>Correction de la mise en forme des cmdlets existantes (par exemple, Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMess premierPolicy, et bien plus encore).</li><li>Liste des cmdlets de gestion des stratégies mises à jour.</li>|

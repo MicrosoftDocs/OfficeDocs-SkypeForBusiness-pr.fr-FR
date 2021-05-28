@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Déplacez les points de terminaison d’application hyrid avant de désaffecter Skype Entreprise environnement local.
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526717"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684381"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Déplacer des points de terminaison d’application hybride avant de désaffecter votre environnement local
 
@@ -46,7 +46,7 @@ Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous a
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Créez et licensez [de](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) nouveaux comptes de ressources Microsoft 365 pour remplacer les points de terminaison d’application hybride locaux existants.
+2. Créez et licensez [de](/microsoftteams/manage-resource-accounts) nouveaux comptes de ressources Microsoft 365 pour remplacer les points de terminaison d’application hybride locaux existants.
 
 3. Associez les nouveaux comptes de ressources aux points de terminaison d’application hybride existants.
 
@@ -70,7 +70,7 @@ Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous a
    }
    ```
 
-6. Affectez des numéros de téléphone aux nouveaux comptes de ressources créés à l’étape 2. Pour plus d’informations sur l’affectation d’un numéro de téléphone à un compte de ressource, voir l’article suivant : [Affecter un numéro de service.](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)
+6. Affectez des numéros de téléphone aux nouveaux comptes de ressources créés à l’étape 2. Pour plus d’informations sur l’affectation d’un numéro de téléphone à un compte de ressource, voir l’article suivant : [Affecter un numéro de service.](/microsoftteams/manage-resource-accounts#assign-a-service-number)
 
 7. Supprimez les points de terminaison locaux en exécutant la commande PowerShell Skype Entreprise Server suivante :
 

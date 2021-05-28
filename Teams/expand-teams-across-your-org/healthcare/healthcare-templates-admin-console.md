@@ -1,5 +1,5 @@
 ---
-title: Créer une équipe à l’aide des modèles de soins de santé Teams
+title: Créer une équipe à l’aide de modèles médicaux
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,31 +20,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Utilisez les modèles Microsoft Teams dans le centre d'administration ou avec Microsoft Graph pour créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d'applications.
+description: Utilisez des modèles d’équipe dans le Centre d’administration ou avec Microsoft Graph pour créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117872"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684351"
 ---
-# <a name="create-a-team-using-teams-healthcare-templates"></a>Créer une équipe à l’aide des modèles de soins de santé Teams
+# <a name="use-a-healthcare-team-templates"></a>Utiliser des modèles d’équipe de santé
 
-Les modèles Microsoft Teams vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d'applications préinstallées.
+Les modèles vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications préinstallées.
 
-Pour les organismes de santé, les modèles sont particulièrement puissants, car ils offrent aux utilisateurs une structure qui leur permet de s’orienter sur l’utilisation efficace de Teams. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leur organisation. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de soin de santé.
+Pour les organisations de soins de santé, les modèles peuvent être particulièrement puissants, car ils fournissent aux utilisateurs une structure qui leur permet de s’orienter dans l’utilisation efficace d’Microsoft Teams. Les modèles permettent également aux administrateurs de déployer des équipes cohérentes au sein de leur organisation. Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation de soin de santé.
 
-Choisissez une méthode de création d’équipe avec les modèles Teams pour le secteur de la santé :
+Choisissez une méthode de création d’équipes avec les modèles médicaux d’équipe :
 
 | Qui | Méthode à utiliser : |
 | ---- | --------- |
-| Administrateurs et professionnels de l’informatique | [Utilisez le Centre d’administration Teams](#use-the-teams-templates-in-the-teams-admin-center) pour créer des équipes basées sur les modèles Teams de santé.|
-| Développeurs et intégrateurs de systèmes | [Utilisez Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) pour créer des équipes basées sur les modèles Teams de santé. |
+| Administrateurs et professionnels de l’informatique | [Utilisez le centre Teams d’administration](#use-the-team-templates-in-the-admin-center) pour créer des équipes basées sur les modèles de l’équipe de santé.|
+| Développeurs et intégrateurs de systèmes | [Utilisez le site Web Graph](#use-the-team-templates-with-the-microsoft-graph) Microsoft pour créer une équipe basée sur les modèles de l’équipe médicale. |
 
-## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Utiliser les modèles Teams dans le Centre d'administration Teams
+## <a name="use-the-team-templates-in-the-admin-center"></a>Utiliser les modèles d’équipe dans le Centre d’administration
 
-Les administrateurs Microsoft Teams peuvent utiliser le Centre d’administration Teams pour créer des équipes à l’aide des modèles Teams. Nous proposons actuellement deux modèles de soins de santé pour un large éventail de situations. Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles Teams dans le Centre d'administration](../../get-started-with-teams-templates-in-the-admin-console.md).
+Microsoft Teams administrateurs peuvent utiliser le centre Teams’administration pour créer des équipes à l’grâce aux modèles d’équipe. Nous proposons actuellement deux modèles de soins de santé pour un large éventail de situations. Pour en savoir plus sur les modèles d’équipe en général, voir Commencer à utiliser les [modèles d’équipe dans le Centre d’administration.](../../get-started-with-teams-templates-in-the-admin-console.md)
 
 ### <a name="collaborate-on-patient-care"></a>Collaborer sur les soins aux patients
 
@@ -65,9 +65,9 @@ Simplifiez la communication et la collaboration entre plusieurs salles, services
 ||||
 
 
-## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Utiliser les modèles Teams avec Microsoft Graph
+## <a name="use-the-team-templates-with-the-microsoft-graph"></a>Utiliser les modèles d’équipe avec l’Graph
 
-Les développeurs peuvent utiliser Microsoft Graph pour créer des équipes à l’aide des modèles Teams. Nous proposons actuellement deux modèles de soins de santé pour un large éventail de situations. Pour en savoir plus sur les modèles d’équipe en général, consultez [Prise en main des modèles Teams](../../get-started-with-teams-templates.md). Pour plus d’informations sur les modèles Teams et Microsoft Graph, consultez [Vue d’ensemble de l’API Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) et [type de ressource teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Les développeurs peuvent utiliser le programme Microsoft Graph pour créer des équipes à l’aide des modèles d’équipe. Nous proposons actuellement deux modèles de soins de santé pour un large éventail de situations. Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer à utiliser les modèles d’équipe.](../../get-started-with-teams-templates.md) Pour plus d’informations sur les modèles d’équipe et le modèle Microsoft Graph, voir Microsoft Teams vue d’ensemble de [l’API](/graph/teams-concept-overview?view=graph-rest-1.0) et le type de ressource [teamsTemplate.](/graph/api/resources/teamstemplate?view=graph-rest-1.0)
 
 ### <a name="ward-template"></a>Modèle de pavillon
 
@@ -93,7 +93,7 @@ Le modèle d'hôpital est destiné à la communication et à la collaboration en
 
 ### <a name="how-to-use-first-party-templates"></a>Comment utiliser les modèles de premier groupe
 
-Pour utiliser ces modèles, modifiez simplement la propriété « template@odata.bind » dans le corps de la demande de « standard » en valeurs TemplateID ci-dessus.  Pour plus d’informations sur le déploiement des modèles Teams, consultez l’article Microsoft Graph sur la [création d’un groupe](/graph/api/team-post?view=graph-rest-beta).
+Pour utiliser ces modèles, modifiez simplement la propriété « template@odata.bind » dans le corps de la demande de « standard » en valeurs TemplateID ci-dessus.  Pour plus d’informations sur le déploiement de modèles d’équipe, consultez l’article Graph Microsoft sur la création [d’une équipe.](/graph/api/team-post?view=graph-rest-beta)
 
 > [!NOTE]
 > Les canaux dans le modèle seront automatiquement créés sous l’onglet Général.
@@ -202,6 +202,6 @@ Pour utiliser ces modèles, modifiez simplement la propriété « template@odata
 
 ### <a name="related-topics"></a>Rubriques connexes
 
-[Prise en main des modèles Teams](../../get-started-with-teams-templates.md)
+[Utiliser les modèles d’équipe](../../get-started-with-teams-templates.md)
 
-[Prise en main de Teams pour les organismes de santé](teams-in-hc.md)
+[Commencer à travailler avec l’équipe pour les organisations du secteur des soins de santé](teams-in-hc.md)

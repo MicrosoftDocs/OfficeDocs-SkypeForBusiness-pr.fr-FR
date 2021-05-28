@@ -1,5 +1,5 @@
 ---
-title: Utiliser Teams modèles dans le Centre d’administration
+title: Utiliser des modèles d’équipe dans le Centre d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser des modèles Teams pour créer des espaces de collaboration avec des canaux pour différentes rubriques à l’aide de modèles préinstallés.
+description: Découvrez comment utiliser des modèles d’équipe pour créer des espaces de collaboration avec des canaux pour différentes rubriques à l’aide de modèles préinstallés.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264894"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684451"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Commencer à utiliser Teams modèles dans le Centre d’administration
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe dans le Centre d’administration
 
 **La possibilité de créer des modèles personnalisés n’est pas encore prise en charge pour les clients EDU.**
 
 > [!NOTE]
-> Les canaux privés et les étiquettes de sensibilité ne sont actuellement pas pris en charge Teams modèles. La création de canaux privés n’est pas incluse dans les définitions de modèle. L’option d’étiquette de sensibilité dans **Créer une** équipe à partir du flux de modèles ne sera pas appliquée à l’équipe.
+> Les canaux privés et les étiquettes de sensibilité ne sont actuellement pas pris en charge dans les modèles d’équipe. La création de canaux privés n’est pas incluse dans les définitions de modèle. L’option d’étiquette de sensibilité dans **Créer une** équipe à partir du flux de modèles ne sera pas appliquée à l’équipe.
 
-Teams modèles sont des définitions pré-intégrées de la structure d’une équipe conçue autour d’un besoin ou d’un projet d’entreprise. Utilisez des modèles pré-intégrés ou créez votre propre modèle. Teams modèles vous permettent de créer rapidement des espaces de collaboration enrichis avec des canaux pour différents sujets et des applications de préinstallation qui permettent d’obtenir du contenu et des services essentiels pour l’entreprise. Teams de groupe fournissent une structure d’équipe prédéfinée qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Vous pouvez actuellement créer une équipe à partir d’un modèle dans Teams ou à l’aide [de Microsoft Graph.](get-started-with-teams-templates.md)
+Les modèles d’équipe sont des définitions pré-pré-précodentes de la structure d’une équipe conçue autour d’un besoin ou d’un projet d’entreprise. Utilisez des modèles pré-intégrés ou créez votre propre modèle. Les modèles d’équipe vous permettent de créer rapidement des espaces de collaboration enrichis avec des canaux pour différents sujets et des applications de préinstallation qui permettent d’obtenir du contenu et des services essentiels. Les modèles d’équipe fournissent une structure d’équipe prédéfinée qui peut vous aider à créer facilement des équipes cohérentes au sein de votre organisation. Vous pouvez actuellement créer une équipe à partir d’un modèle dans Teams ou à l’aide [de Microsoft Graph.](get-started-with-teams-templates.md)
 
 Cet article décrit les fonctionnalités suivantes :
 
@@ -42,11 +42,11 @@ Cet article décrit les fonctionnalités suivantes :
 
 Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation
 
-## <a name="teams-template-capabilities"></a>Teams fonctionnalités des modèles
+## <a name="team-template-capabilities"></a>Fonctionnalités des modèles d’équipe
 
-La plupart des propriétés d’une équipe sont incluses et prise en charge par les modèles. Certaines propriétés et fonctionnalités ne sont actuellement pas pris en charge. Le tableau suivant récapitule rapidement ce qui est inclus et ce qui n’est pas inclus dans Teams modèles.
+La plupart des propriétés d’une équipe sont incluses et prise en charge par les modèles. Certaines propriétés et fonctionnalités ne sont actuellement pas pris en charge. Le tableau suivant récapitule rapidement ce qui est inclus et ce qui n’est pas inclus dans les modèles d’équipe.
 
-| **Propriétés d’équipe pris en charge Teams modèles** | **Propriétés d’équipe non encore pris en charge par Teams modèles** |
+| **Propriétés d’équipe pris en charge par les modèles d’équipe** | **Propriétés de l’équipe non encore pris en charge par les modèles d’équipe** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Type de modèle de base | Appartenance à une équipe |
 | Nom de l’équipe | Image de l’équipe |
@@ -115,13 +115,13 @@ Pour [plus d’informations, voir](limits-specifications-teams.md) les limites e
 
 Utilisez les cmdlt suivants pour gérer vos modèles dans PowerShell.
 
-- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
-- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
-- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Créer un modèle d’équipe personnalisé](create-a-team-template.md)
 - [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](create-template-from-existing-template.md)

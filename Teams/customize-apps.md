@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337801"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684591"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -34,12 +34,12 @@ ms.locfileid: "52337801"
 - Description complète
 - URL de la politique de confidentialité
 - URL du site web
-- Url des conditions d’utilisation
+- URL des conditions d’utilisation
 - Icône de couleur
 - Icône Plan
 - Couleur d’accentuage
 
-Consultez [le Teams de manifeste pour](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) plus d’informations sur les champs que vous pouvez personnaliser.
+Consultez le [Teams de manifeste pour](/microsoftteams/platform/resources/schema/manifest-schema) plus d’informations sur les champs que vous pouvez personnaliser.
 
 > [!NOTE]
 > La personnalisation des applications n’est pas prise en Cloud de la communauté du secteur public du département de la défense (GCCH) ou du département de la défense (DoD).
@@ -50,13 +50,13 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
-3. Consultez **la colonne Personnalisables** de la liste d’applications et tochez les différentes applications personnalisables.
+3. Consultez **la colonne Personnalisable** de la liste des applications et t triez par applications personnalisables.
 
    ![La colonne de personnalisation triée](media/customize-column.png)
 
    Trois points d’entrée vous sont accessibles pour accéder à la fonctionnalité personnaliser :
 
-   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis sélectionnez **Personnaliser.**
+   - Sélectionnez en côté de l’application que vous voulez personnaliser, puis **sélectionnez Personnaliser.**
 
      ![Option personnaliser la sélection 1](media/select-app-to-customize1.png)
 
@@ -75,7 +75,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
     - Description complète
     - Site web
     - URL de la politique de confidentialité
-    - Url des conditions d’utilisation
+    - URL des conditions d’utilisation
 
    ![Personnaliser les paramètres](media/customize-settings.png)
 
@@ -157,7 +157,7 @@ Bien que l’administrateur puisse immédiatement voir les modifications dans Te
 
 Non, les administrateurs de client devront supprimer manuellement une application personnalisée et publier la version personnalisée de l’application. Si vous avez personnalisé une application et l’avez publiée comme application personnalisée, la nouvelle application personnalisée à l’aide de la fonctionnalité de personnalisation de l’application ne remplacera pas l’application personnalisée actuelle.  
 
-**Le rapport d’utilisation des applications affiche-t-il également les valeurs personnalisées telles que le nom court personnalisé ?**
+**Le rapport d’utilisation des applications affichera-t-il également les valeurs personnalisées telles que le nom court personnalisé ?**
 
  Non, le rapport d’utilisation des applications indique toujours le nom d’origine de l’application envoyée par l’éditeur.
 
@@ -173,3 +173,4 @@ Non, l’écran d’autorisation affiche toujours la valeur d’origine envoyée
 
 - [Gérer les applications](manage-apps.md)
 - [Personnaliser votre Magasin d’applications](customize-your-app-store.md)
+- [Renommer vos applications](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
