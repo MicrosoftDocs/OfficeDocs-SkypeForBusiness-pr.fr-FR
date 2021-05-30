@@ -21,23 +21,23 @@ ms.collection:
 - m365solution-scenario
 appliesto:
 - Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: ansantam
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 9c002a90cd91014ca4887386ca5834a4b5b41266
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096278"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705248"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
-Le connecteur de dossier médical informatisé (DMI) de Microsoft Teams permet aux cliniciens de lancer facilement une visite virtuelle d'un patient ou de consulter un autre fournisseur dans Teams, directement à partir du système DMI. Conçus sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce à des outils de conversation, vidéo, vocal et de santé au même endroit qui prend en charge la conformité avec les lois HIPAA, la certification HITECH, etc.
-La plateforme de communication et de collaboration de Teams permet aux membres de l’équipe de réduire l’encombrement des systèmes fragmentés, de sorte qu’ils peuvent consacrer du temps à fournir les meilleurs soins possibles. Le connecteur de dossier médical informatisé (DMI) Microsoft Teams peut :
+Microsoft Teams Le connecteur de dossier d’état d’santé électronique (EHR) permet aux responsables de lancer facilement une visite de patient virtuel ou une consultation avec un autre fournisseur dans Teams directement à partir du système EHR. Conçus sur le cloud Microsoft 365, Microsoft Teams permet une collaboration et une communication simples et sécurisées grâce à des outils de conversation, vidéo, vocal et de santé au même endroit qui prend en charge la conformité avec les lois HIPAA, la certification HITECH, etc.
+La plateforme de communication et de collaboration de Teams permet aux membres de l’équipe de réduire l’encombrement des systèmes fragmentés, de sorte qu’ils peuvent consacrer du temps à fournir les meilleurs soins possibles. Microsoft Teams Le connecteur ehr (Electronic Health Record) peut :
 
-- Lancer les visites virtuelles Teams à partir des portails des fournisseurs et des patients.
-- Réinscrire dans le DMI des métadonnées sur les événements de connexion et de déconnexion pour permettre un audit automatique et la conservation des enregistrements.
-- S'intégrer aux flux de travail existants des cliniciens et des patients tout en leur permettant d'utiliser Microsoft Teams.
+- Lancez Teams visites virtuelles à partir du système EHR du fournisseur avec un flux de travail clinique intégré.
+- Permet aux patients de participer Teams visites virtuelles à partir du portail dédié aux patients.
+- Écrivez les métadonnées au système EHR concernant les Teams virtuelles à enregistrer lorsque les participants se connectent et se déconnectent, et activent l’audit automatique et la conservation d’enregistrement.
 
   Regarder la vidéo sur la gestion des visites virtuelles à partir du portail DMI.
 
@@ -49,7 +49,7 @@ Avant d’intégrer le connecteur DMI, vous devez vous assurer que vous disposez
 
 - Accès à l’utilisation de l’application Microsoft Teams dans [Marketplace de l’application Orchard Epic](https://apporchard.epic.com/Gallery?id=6153).
 
-- Abonnement actif à Microsoft Cloud pour les soins de santé ou abonnement à l’offre autonome connecteur DMI Microsoft Teams (appliquée uniquement lors des tests en production).
+- Abonnement actif à Microsoft Cloud pour les soins de santé ou abonnement à Microsoft Teams’offre autonome de connecteur EHR (appliquée uniquement lors des tests de production).
 
 - Les utilisateurs doivent avoir une licence Microsoft 365 ou Office 365 appropriée qui inclut les réunions Microsoft Teams.
 
@@ -72,14 +72,14 @@ Vous aurez également besoin des informations des membres suivants de votre orga
 
 La configuration du connecteur nécessite que vous :
 
-- [Lancer le portail de configuration de connecteur DMI](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
+- [Lancer le portail de configuration du connecteur EHR](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [Configuration information](ehr-admin.md#configuration-information)
 - [Approuver ou afficher la configuration](ehr-admin.md#approve-or-view-configuration)
 - [Passer en revue et terminer la configuration](ehr-admin.md#review-and-finish-the-configuration)
 
-### <a name="launch-the-ehr-connector-configuration-portal"></a>[Lancer le portail de configuration de connecteur DMI](#launch-the-ehr-connector-configuration-portal)
+### <a name="launch-the-ehr-connector-configuration-portal"></a>[Lancer le portail de configuration du connecteur EHR](#launch-the-ehr-connector-configuration-portal)
 
-La configuration de votre organisation de soins de santé pour lancer des visites virtuelles avec Microsoft Teams commence par le lancement du portail de configuration du connecteur DMI. Vous configurez une ou plusieurs organisations pour tester l’intégration. Configurez l’URL de test et de production dans le portail de configuration. Testez l'intégration à partir de l'environnement de test d'Epic avant de passer en production.
+La configuration de votre organisation médicale pour lancer des visites virtuelles à l’Microsoft Teams démarre en lançant le portail de configuration du connecteur EHR. Vous configurez une ou plusieurs organisations pour tester l’intégration. Configurez l’URL de test et de production dans le portail de configuration. Testez l'intégration à partir de l'environnement de test d'Epic avant de passer en production.
   
 - URL de configuration du connecteur DMI : [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ Pour effectuer cette étape, l'administrateur Microsoft 365 doit recevoir une U
 
 ### <a name="approve-or-view-configuration"></a>[Approuver ou afficher la configuration](#approve-or-view-configuration)
 
-L'analyste client Epic de votre établissement de santé qui a été ajouté en tant qu'approbateur doit maintenant utiliser la même URL du connecteur DMI que celle de l'étape précédente pour se connecter à l'aide de ses informations d'identification Microsoft 365. Après une validation réussie, l'approbateur sera invité à se connecter à l'aide de ses informations d'identification Epic pour valider l'organisation Epic.
+L’analyste client de votre organisation médicale qui a été ajoutée en tant qu’approbation doit maintenant utiliser la même URL de connecteur EHR que lors de l’étape précédente pour se connecter à l’aide de ses informations d Microsoft 365 de connexion. Après une validation réussie, l'approbateur sera invité à se connecter à l'aide de ses informations d'identification Epic pour valider l'organisation Epic.
 
 > [!Note]
 > L'administrateur Microsoft 365 et l'analyste client Epic de votre organisation peuvent être la même personne. Dans ce cas, ajoutez votre propre nom d'utilisateur en tant qu’approbateur. Vous devrez toujours vous connecter à Epic pour valider votre accès. La connexion Epic est uniquement utilisée pour valider votre URL de base FHIR. Microsoft ne stocke pas les informations d’identification et n’accède pas aux données DMI avec cette connexion.
@@ -126,7 +126,7 @@ Lorsque les informations de configuration sont approuvées par l'administrateur 
 
 ## <a name="launch-teams-virtual-visits"></a>Lancer les visites virtuelles Teams
 
-Une fois que vous avez suivi les étapes du connecteur DMI et vous avez effectué la configuration Epic, votre organisation est prête à prendre en charge les visites vidéo dans Microsoft Teams.
+Une fois que vous avez terminé les étapes du connecteur EHR et que vous avez effectué la configuration d’Andy, votre organisation est prête à prendre en charge les visites vidéo avec Microsoft Teams.
 
 ### <a name="virtual-visit-prerequisites"></a>Conditions préalables pour la visite virtuelle
 
@@ -175,4 +175,8 @@ Principales fonctionnalités de l’expérience du patient :
 
 L'intégration Teams dans les systèmes de DMI optimise la quantité de données utilisées et stockées pendant l'intégration et les flux de visites virtuelles. La solution respecte les principes et les directives générales de Teams en matière de confidentialité et de gestion des données, décrits dans Confidentialité Teams.
 
-Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).
+Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).
+
+## <a name="related-topics"></a>Sujets associés
+
+[Teams visites virtuelles](ehr-admin-reports.md)

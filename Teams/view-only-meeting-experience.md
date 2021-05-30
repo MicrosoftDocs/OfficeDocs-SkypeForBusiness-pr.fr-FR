@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76137c0ebfe73c6ba500a0dbcdc8ee1a01de85fc
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328556"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699345"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "52328556"
 > Les diffusions en lecture seule sont disponibles dans Microsoft 365 E3/E5 et Microsoft 365 A3/A5. Cette fonctionnalité sera activée le 1er mars 2021 avec le mode par défaut désactivé. Le déploiement de la fonctionnalité du cloud de la communauté du secteur public Microsoft 365 (GCC) commencera à la fin du mois de mars 2021. Le déploiement du cloud de la communauté du secteur public de haut niveau (GCCH) et du Département de la Défense (DoD) s’effectuera à une date ultérieure. Vous devez modifier la stratégie par défaut après cette date si vous voulez que la fonctionnalité fonctionne par défaut. Utiliser PowerShell pour activer la valeur `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` de la stratégie.
 
 > [!Note]
-> Si votre réunion ou webinaire atteint sa capacité, Teams s’adaptera sans problème à une expérience de diffusion en lecture seule de 10 000 personnes. De plus, pendant cette période de travail à distance accru, tirez parti de diffusions encore plus importantes de 20 000 personnes jusqu’à la fin de cette année.
+> Si votre réunion atteint sa capacité, Teams’échelle sans problème pour s’adapter à une expérience de diffusion en affichage seul de 10 000 personnes. De plus, pendant cette période de travail à distance accru, tirez parti de diffusions encore plus importantes de 20 000 personnes jusqu’à la fin de cette année.
 
 Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte (lorsque 1 000 utilisateurs participent à une réunion), les participants supplémentaires la rejoignent avec une expérience en affichage seul.
 
@@ -37,7 +37,7 @@ Les participants qui rejoignent la réunion en premier, jusqu’à la capacité 
 
 Les participants qui rejoignent la réunion après la limite de la capacité de la réunion principale, ont une expérience en lecture seule.
 
-Les participants pourront rejoindre l’expérience d’affichage seul via le Bureau, le web et Teams mobile (Android et iOS).
+Les participants pourront rejoindre l’expérience d’affichage seul via le bureau, le web et Teams mobile (Android et iOS).
 
 > [!Note]
 > La capacité limite actuelle de la « réunion principale », c’est-à-dire le nombre d’utilisateurs entièrement interactifs, est de 1 000 et inclut Cloud de la communauté du secteur public.
@@ -65,7 +65,7 @@ L’expérience d’un utilisateur varie en fonction de plusieurs facteurs.
 Une fois la capacité de la réunion principale atteinte, le participant ne peut pas prendre pas à la réunion si l’un de ces cas est avéré :
 
 - Un administrateur a désactivé l’Teams en affichage seul pour l’organisateur ou pour l’ensemble du client.
-- Le participant en affichage seul ne peut pas contourner la salle d’accueil. Par exemple, si l’organisateur d’une  réunion choisit d’éviter la salle d’accueil des seuls membres de mon organisation et qu’un participant extérieur à l’organisation tente de rejoindre la réunion en tant que participant en affichage seul, il ne pourra pas y participer.
+- Le participant en affichage seul ne peut pas contourner la salle d’accueil. Par exemple, si l’organisateur d’une  réunion choisit que seules les personnes de mon organisation évitent la salle d’accueil et qu’un participant extérieur à l’organisation tente de rejoindre une réunion en tant que participant en affichage seul, il ne pourra pas la rejoindre.
 
 Une fois la capacité de la réunion principale atteinte, l’organisateur et les présentateurs de la réunion voient une bannière les informant que de nouveaux participants rejoindront en tant que participants en affichage seul.
 
@@ -109,7 +109,7 @@ Le participant en lecture seule ne pourra pas utiliser ces options dans les réu
 - Consultez PowerPoint fichiers partagés à l’aide de la fonctionnalité PowerPoint Live ou des partages d’application individuels (autres que le partage de bureau ou d’écran).
 - Le lever la main dans la réunion.
 - Envoyer ou voir les réactions.
-- Interagissez avec une application 3P intégrée à la réunion Teams, y compris sondages.
+- Interagissez avec une application 3P intégrée à la réunion Teams, y compris les sondages.
 
 ## <a name="view-only-feature-limitations"></a>Limitations de la fonctionnalité lecture seule
 
