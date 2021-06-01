@@ -27,6 +27,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52238656"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="df251-103">Obligations réglementaires et légales</span><span class="sxs-lookup"><span data-stu-id="df251-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="33667-103">Obligations réglementaires et légales</span><span class="sxs-lookup"><span data-stu-id="33667-103">Legal and regulatory</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
