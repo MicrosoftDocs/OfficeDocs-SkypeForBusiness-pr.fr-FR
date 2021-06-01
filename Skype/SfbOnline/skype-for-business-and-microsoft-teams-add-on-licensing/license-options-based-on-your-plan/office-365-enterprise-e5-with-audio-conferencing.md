@@ -1,5 +1,5 @@
 ---
-title: Office 365 Entreprise E5
+title: Office 365 Entreprise E5
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,7 +28,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52238427"
 ---
-# <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
+# <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 

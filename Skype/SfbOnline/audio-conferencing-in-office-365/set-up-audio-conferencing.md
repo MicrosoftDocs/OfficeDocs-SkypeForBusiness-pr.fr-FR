@@ -47,7 +47,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
  
 ## <a name="step-2-get-and-assign-licenses"></a>Étape 2 : Obtenir et attribuer des licences
  
-1. Pour une audioconférence, vous avez besoin d’une licence pour chaque utilisateur qui établira des réunions. Pour connaître les licences que vous devez acheter pour Audioconférence et leurs prix, consultez Skype Entreprise [licences de modules supplémentaires.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+1. Pour une audioconférence, vous avez besoin d’une licence pour chaque utilisateur qui établira des réunions. Pour connaître les licences que vous devez acheter pour AudioConférence et leurs prix, consultez la Skype Entreprise [de modules supplémentaires.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
     >[!NOTE] 
     > La fonctionnalité audioconférence est incluse dans les licences Office 365 Entreprise E5 et en tant que composant additionnel.

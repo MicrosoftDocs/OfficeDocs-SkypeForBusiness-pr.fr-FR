@@ -39,7 +39,7 @@ Pour ce [faire,](https://support.office.com/article/da585eea-f576-4f55-a1e0-8709
   
 1. Connectez-vous à l’Microsoft 365 votre Office 365 administrateur sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     
-2. Dans le Centre d’administration, allez dans Centres   >  **d’Skype Entreprise.** 
+2. Dans le Centre d’administration, allez dans Centres **d’administration**  >  **Skype Entreprise.** 
     
     ![Sélectionnez le centre d'administration de Skype Entreprise.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

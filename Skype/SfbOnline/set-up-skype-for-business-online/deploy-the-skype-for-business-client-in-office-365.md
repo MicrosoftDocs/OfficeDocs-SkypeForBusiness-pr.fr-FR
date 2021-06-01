@@ -88,7 +88,7 @@ Avec Office 365, vous avez plusieurs options pour déployer l’application Skyp
 
 Pour plus d’informations sur le téléchargement de l’outil Déploiement d’Office et sur l’installation de l’application Skype Entreprise et d’autres applications clientes Office 365, voir Gérer les paramètres de téléchargement de [logiciels dans Office 365.](https://support.office.com/article/c13051e6-f75c-4737-bc0d-7685dcedf360)
   
-Voici un aperçu des étapes nécessaires à l’utilisation de l’outil Déploiement d Office pour déployer une application :
+Voici un aperçu des étapes à suivre dans l’utilisation de l’outil Déploiement d Office pour déployer une application :
   
 1. **[Téléchargez la version la plus Office l’outil Déploiement](https://www.microsoft.com/download/details.aspx?id=49117)** à partir du Centre de téléchargement Microsoft.
     
@@ -118,7 +118,7 @@ Si vous déployez l’application Skype Entreprise dans le cadre du déploiement
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>Planification des mises à jour de l Skype Entreprise appl
 
-Dans le cadre du déploiement de l Skype Entreprise, vous devez envisager la manière dont vous souhaitez obtenir les mises à jour une fois que Skype Entreprise est installé. Ces mises à jour peuvent inclure de nouvelles fonctionnalités, des mises à jour de sécurité ou d’autres mises à jour telles que des améliorations de la stabilité ou des performances. Les deux principaux facteurs à prendre en compte sont les éléments :
+Dans le cadre du déploiement de l Skype Entreprise, vous devez envisager la manière dont vous souhaitez obtenir les mises à jour une Skype Entreprise l’application. Ces mises à jour peuvent inclure de nouvelles fonctionnalités, des mises à jour de sécurité ou d’autres mises à jour telles que des améliorations de la stabilité ou des performances. Vous devez tenir compte des deux principaux facteurs :
   
 - D’où voulez-vous obtenir les mises à jour ?
     

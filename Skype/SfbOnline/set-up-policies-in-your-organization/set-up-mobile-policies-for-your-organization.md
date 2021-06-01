@@ -126,7 +126,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

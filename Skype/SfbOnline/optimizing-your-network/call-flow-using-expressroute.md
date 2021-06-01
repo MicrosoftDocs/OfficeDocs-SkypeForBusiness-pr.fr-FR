@@ -234,6 +234,6 @@ Les utilisateurs qui se connectent à la version Cloud Connector sont tous domic
 |Appel RTC  <br/> |Utilisateur en ligne sur votre réseau utilisant la version Cloud Connector.  <br/> |local  <br/> |local  <br/> |[Appel RTC utilisant Skype Entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Appel RTC  <br/> |Utilisateur en ligne sur Internet utilisant la version Cloud Connector.  <br/> |Internet  <br/> |Internet  <br/> |Combinaison de serveur Edge sur site avec des [conférences](call-flow-using-expressroute.md#bk_Figure5) Microsoft 365 ou Office 365 et des appels [PSTN](call-flow-using-expressroute.md#bk_Figure6)utilisant Skype Entreprise Cloud Connector Edition.  <br/> |Les utilisateurs sur Internet se connecteront via le serveur Edge inclus dans Cloud Connector, et Cloud Connector se connectera au réseau RTC.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Documentation ExpressRoute](/azure/expressroute/)

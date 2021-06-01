@@ -31,7 +31,7 @@ ms.locfileid: "52238310"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d’aller plus avant dans les rapports individuels au niveau des produits afin d’offrir des informations plus granulaires sur les activités au sein de chaque produit. Par exemple, vous pouvez utiliser le rapport d’activité **Skype Entreprise** pour voir combien de fois vos utilisateurs utilisent des sessions d’égal à égal ou de conférence organisées, ou combien ils participent à des sessions de conférence. 
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d’aller plus avant dans les rapports individuels au niveau des produits afin d’offrir des informations plus granulaires sur les activités au sein de chaque produit. Par exemple, vous pouvez utiliser le rapport d’activité **Skype Entreprise** pour voir combien de fois vos utilisateurs utilisent des sessions d’égal à égal ou de conférence organisées, ou combien ils participent à des sessions de conférences. 
 
 Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) vue d’ensemble des rapports.
   
@@ -44,7 +44,7 @@ Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des 
 
 1. Allez au Centre d’administration pour **>'utilisation**  >  **des rapports.**
     
-2. Dans la page  **Utilisation,** sélectionnez Activité Skype Entreprise sur la liste Sélectionner un rapport sur la gauche, ou cliquez sur le widget d’Skype Entreprise  >    **d’activité.**
+2. Dans la page  **Utilisation,** sélectionnez Activité Skype Entreprise sur la liste Sélectionner un rapport sur la gauche, ou cliquez sur le  >   widget d’Skype Entreprise rapport  **d’activité.**
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpréter le rapport d'activité Skype Entreprise
@@ -91,7 +91,7 @@ Le tableau présente une répartition par utilisateur de toutes les activités d
 * **Une session d’égal** à égal indique le nombre total de sessions de conférence d’égal à égal utilisées par l’utilisateur.
 * **Conférences organisées** indique le nombre total de conférences organisées par cet utilisateur.
 * **Participations-à des conférences** indique le nombre total de conférences auxquelles l'utilisateur a participé.
-* **Le produit affecté** est Microsoft 365 ou Office 365 affectés à cet utilisateur.<br/>
+* **Le produit affecté** est Microsoft 365 ou Office 365 les produits affectés à cet utilisateur.<br/>
 
 Si la politique de votre organisation vous empêche de consulter les rapports sur lequel sont identifiables les informations des utilisateurs, vous pouvez modifier les paramètres de confidentialité de tous ces rapports. Consultez la **section Masquer les détails de l’utilisateur dans** la section Rapports du Centre [d’administration.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 ***
@@ -118,7 +118,7 @@ Vous pouvez également exporter les données du rapport vers un fichier Excel .c
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

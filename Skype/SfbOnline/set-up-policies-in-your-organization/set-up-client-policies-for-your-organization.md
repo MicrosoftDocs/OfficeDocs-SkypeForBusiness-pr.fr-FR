@@ -37,7 +37,7 @@ Les paramètres de stratégie de client peuvent être configurés lors de la cr�
 ## <a name="set-your-client-policies"></a>Définir vos stratégies de client
 
 > [!NOTE]
-> Pour tous les paramètres de stratégie client dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous ne pouvez pas utiliser le Centre **Skype Entreprise d’administration.**  
+> Pour tous les paramètres de stratégie client dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous ne pouvez pas utiliser le **Centre Skype Entreprise d’administration.**  
   
 ### <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
@@ -136,7 +136,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

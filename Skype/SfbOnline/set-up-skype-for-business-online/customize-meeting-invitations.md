@@ -75,7 +75,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
     ![Voici à quoi ressemble une invitation personnalisée, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 <a name="__top"> </a>
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

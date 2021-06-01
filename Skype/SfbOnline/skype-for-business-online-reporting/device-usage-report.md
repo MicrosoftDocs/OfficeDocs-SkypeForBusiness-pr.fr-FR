@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: Le tableau de bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation d’Skype Entreprise sur les appareils pour voir les appareils, y compris les systèmes d’exploitation et appareils mobiles Windows sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions. Pour en savoir plus, consultez les rapports d’activité du Centre d’administration.
+description: Le tableau de bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation d’Skype Entreprise pour voir les appareils, y compris les systèmes d’exploitation et appareils mobiles Windows sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions. Pour en savoir plus, consultez les rapports d’activité du Centre d’administration.
 ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -68,13 +68,13 @@ Chaque rapport comporte la date à laquelle il a été généré. Les rapports r
 ***
 ![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du  graphique interactif Utilisateurs pour comprendre les tendances d’utilisation et voir le nombre d’utilisateurs connectés à l’aide de l’application Skype Entreprise utilisée dans votre organisation. Cela vous indique le nombre total d’utilisateurs et de types d’appareils **Windows,** **Windows Phone,** **Téléphone Android,** **iPhone** et **iPad** sur qui l’application Skype Entreprise est installée et utilisée dans votre organisation.
 ***
-![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif du graphique à barres de **distribution** pour comprendre l’utilisation et connaître le nombre d’utilisateurs utilisant des appareils uniques dans votre organisation. Cela vous indique le nombre total d’utilisateurs **Windows,** **Windows Phone,** **téléphone Android,** **téléphone iPhone** et iPad un appareil utilisé.  
+![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif du graphique à barres de **distribution** pour comprendre l’utilisation et connaître le nombre d’utilisateurs utilisant des appareils uniques dans votre organisation. Cela vous indique le nombre total d’utilisateurs **Windows,** **Windows Phone,** téléphone  **Android,** téléphone **iPhone** et iPad un appareil utilisé. 
 ***
 !["Nombre 5"](../images/sfbcallout5.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. Par exemple,  dans le graphique Utilisateurs, cliquez ou appuyez sur **Windows,** **Windows Phone,** **Téléphone Android,** **iPhone** ou **iPad** pour voir uniquement les informations relatives à chacun d’eux. Changing this selection doesn't change the info in the grid table. 
 ***
 ![Numéro 6](../images/sfbcallout6.png)<br/>Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le **graphique Utilisateurs,** l’axe Y indique le nombre total d’utilisateurs connectés à un appareil sur Skype Entreprise’application installée.
-*    Dans le graphique **d’activité** de distribution, l’axe Y indique le nombre d’utilisateurs connectés à un certain type d’appareil sur Skype Entreprise’application installée. 
+*    Dans le graphique Activité de **distribution,** l’axe Y indique le nombre d’utilisateurs connectés à un certain type d’appareil sur Skype Entreprise’application installée. 
 
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier.
 ***
@@ -83,7 +83,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 *    **Dernière date d'activité (UTC)** représente la dernière fois que l'utilisateur a participé à une session d'égal à égal, a organisé une conférence ou a participé à une conférence.
 *    **Windows** est sélectionnée si l’application cliente Skype Entreprise est installée sur un système d’exploitation Windows et l’utilise. 
 *    **Windows Phone** est sélectionnée si l’application cliente Skype Entreprise est installée sur un Windows Phone et l’utilise.
-*    **Le téléphone Android** est sélectionné si l’application cliente Skype Entreprise’est installée sur un téléphone Android et l’utilise.
+*    **Le téléphone Android** est sélectionné si l’application cliente Skype Entreprise est installée sur un téléphone Android et l’utilise.
 *    **iPhone** est sélectionnée si l’application cliente Skype Entreprise est installée sur un iPhone et l’utilise. 
 *    **iPad** est sélectionnée si l’application cliente Skype Entreprise est installée sur un iPad et l’utilise. 
 
@@ -111,7 +111,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -36,8 +36,8 @@ Désolé, il semble que l’utilisateur ne dispose pas de licence pour cette fon
   
 |**Cause possible**|**Action suggérée**|
 |:-----|:-----|
-|Vous avez des licences disponibles, mais vous n’avez pas encore désactivé la fonctionnalité pour cet utilisateur.  <br/> |Dans le centre **Microsoft 365 d’administration,**  >  **activez les utilisateurs** pour lui faire une licence. <br/> |
-|L’utilisateur se trouve à un emplacement où cette fonctionnalité n’est pas disponible.  <br/> |Si possible, dans le Microsoft 365 **d’administration** Utilisateurs actifs, affectez cet utilisateur à un emplacement où la fonctionnalité  >   est disponible. <br/> |
+|Vous avez des licences disponibles, mais vous n’avez pas désactivé la fonctionnalité pour cet utilisateur.  <br/> |Dans le centre **Microsoft 365 d’administration,**  >  **activez les utilisateurs** pour lui faire une licence. <br/> |
+|L’utilisateur se trouve à un emplacement où cette fonctionnalité n’est pas disponible.  <br/> |Si possible, allez dans Microsoft 365 **centre d’administration** Utilisateurs actifs et affectez cet utilisateur à un emplacement où la fonctionnalité  >   est disponible. <br/> |
 |La fonctionnalité n’a pas été désactivée pour votre organisation.  <br/> |Pour ce **faire, Microsoft 365 centre**  >  **d Skype Entreprise** et activer la fonctionnalité pour l’ensemble de votre organisation. <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes

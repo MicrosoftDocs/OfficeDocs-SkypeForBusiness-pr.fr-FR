@@ -38,13 +38,13 @@ Skype Entreprise Online qualifie et prend en charge les téléphones de bureau p
 > [!NOTE]
 > Skype Pour les entreprises, elle sera lentement remplacée par Microsoft Teams en tant que méthode de communication principale dans Microsoft 365 et Office 365.  Pour [plus d’informations,](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) voir une nouvelle vision des communications intelligentes Office 365'équipe.
 >
->Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, consultez les Microsoft Teams pour [les communications intelligentes.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+>Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, consultez les Microsoft Teams [pour les communications intelligentes.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
   
 ## <a name="supported-phones"></a>Téléphones pris en charge
   
 Microsoft s’associe et travaille en étroite collaboration avec Polycom, Yealink et AudioCodes pour développer et certifier une grande variété d’appareils via le Partner IP Téléphone Program (PIP) pour le Système téléphonique.
   
-Lors de la commande de nouveaux téléphones Skype Entreprise, il est important d’acheter des téléphones avec *l’ID de produit qui leur est fourni.* Ces ID de produit vous assurent que les téléphones que vous recevez ont la Skype Entreprise version qualifiée en ligne déjà installée.
+Lors de la commande de nouveaux téléphones Skype Entreprise, il est important d’acheter des téléphones avec *l’ID de produit qui leur est fourni.* Ces ID de produit vous assurent que les téléphones que vous recevez ont la version Skype Entreprise Online qualifiée.
   
 |||
 |:-----|:-----|
@@ -122,7 +122,7 @@ Pour obtenir l’ensemble des fonctionnalités et fonctionnalités de l’appare
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 Pour obtenir des instructions de configuration détaillées, consultez la page [Déploiement de téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

@@ -39,7 +39,7 @@ Les fichiers conservés dans des boîtes aux lettres en attente sont indexés et
   
 Les boîtes aux lettres qui ne sont pas en attente ne seront pas enregistrées. Par exemple, dans une réunion à trois personnes dans laquelle les boîtes aux lettres de deux participants sont marquées pour rétention, les données de réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas dans la boîte aux lettres du troisième participant, dont la boîte aux lettres n’est pas en attente.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

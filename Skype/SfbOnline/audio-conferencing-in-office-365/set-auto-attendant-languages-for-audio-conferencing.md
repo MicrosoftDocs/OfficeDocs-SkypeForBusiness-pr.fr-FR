@@ -74,6 +74,6 @@ Pour automatiser cette étape, vous pouvez utiliser les cmdlets [Set-CsOnlineDia
   
 Pour plus d’informations, voir Utiliser Windows PowerShell pour effectuer les tâches courantes [de gestion Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

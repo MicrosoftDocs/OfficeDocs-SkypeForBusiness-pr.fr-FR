@@ -77,7 +77,7 @@ La plupart des problèmes rencontrés par les utilisateurs de Skype Entreprise O
 ## <a name="still-need-help-contact-support"></a>Vous avez encore besoin d'aide ? Contactez le support technique.
 <a name="BK_SupportBridge_1"> </a>
 
-En tant qu’administrateur de Applications Microsoft 365 pour les PME, vous pouvez accéder gratuitement à nos agents de support bien informés pour obtenir de l’aide sur l’avant-vente, la gestion des comptes et la facturation, ainsi que pour obtenir de l’aide pour résoudre les problèmes techniques. Vous pouvez également [contacter le support technique](/microsoft-365/Admin/contact-support-for-business-products) au nom Microsoft 365 et Office 365 des utilisateurs de votre organisation.
+En tant qu’administrateur de Applications Microsoft 365 pour les PME, vous pouvez accéder gratuitement à nos agents de support bien informés pour obtenir de l’aide sur l’avant-vente, la gestion des comptes et la facturation, ainsi que pour obtenir de l’aide pour résoudre les problèmes techniques. Vous pouvez également [contacter le support](/microsoft-365/Admin/contact-support-for-business-products) technique pour le Microsoft 365 et Office 365 des utilisateurs de votre organisation.
 
 - [Obtenir de l’aide des forums Microsoft 365 et Office 365 communauté](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

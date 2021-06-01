@@ -31,7 +31,7 @@ ms.locfileid: "52237180"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Connecter à Microsoft 365 Office 365 via une connexion réseau dédiée utilisant Azure ExpressRoute pour Microsoft 365 ou Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau vers Microsoft 365 ou Office 365 et Skype Entreprise Online qui offre une fiabilité et une grande prévisibilité, ainsi qu’un SLA de temps de disponibilité.
+Connecter à Microsoft 365 ou Office 365 via une connexion réseau dédiée à l’aide d’Azure ExpressRoute pour Microsoft 365 ou Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau vers Microsoft 365 ou Office 365 et Skype Entreprise Online qui offre une fiabilité et une grande prévisibilité, ainsi qu’un SLA de temps de disponibilité.
   
 > [!NOTE]
 > Une nouvelle version de l’outil de calcul de bande passante est disponible : [Skype Entreprise, outil de calcul de bande passante.](https://go.microsoft.com/fwlink/?LinkId=715766) Toutefois, les instructions de ce document utilisent l’outil de calcul de bande passante Lync 2010 et Lync 2013. 
@@ -118,7 +118,7 @@ Pour implémenter la QoS sur leur réseau d’entreprise, les points de terminai
 De ce fait, l'association des priorités QoS Layer 3 et Layer 2 doit également être définie à chaque point. Les mécanismes de priorité Layer 2 sont définis dans les normes IEEE 802.1p pour les réseaux filaires et IEEE 802.11e/WMM pour les réseaux Wi-Fi. Mieux encore, le routeur réseau faisant face au réseau MPLS du fournisseur de services réseau doit maintenir les paramètres DSCP sur tous les paquets sortants afin de garantir la classe de service MPLS appropriée. 
   
 > [!TIP]
->  Pour plus d’informations sur la mise en place de la qualité de vie, reportez-vous à la section 2.6 Planification, surveillance et dépannage réseau avec [Lync Server.]( https://go.microsoft.com/fwlink/?LinkId=760669) Pour plus d'informations sur les exigences de planification du réseau, vous pouvez également vous reporter à la rubrique [Planification de la configuration réseau requise pour Skype Entreprise 2015](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md).
+>  Pour plus d’informations sur la mise en place de la qualité de qualité de vie, reportez-vous à la section 2.6 Planification, surveillance et dépannage réseau avec [Lync Server.]( https://go.microsoft.com/fwlink/?LinkId=760669) Pour plus d'informations sur les exigences de planification du réseau, vous pouvez également vous reporter à la rubrique [Planification de la configuration réseau requise pour Skype Entreprise 2015](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md).
   
 ### <a name="ordering-network-access-services"></a>Commande de services d'accès réseau
 
@@ -394,7 +394,7 @@ Lorsqu'un paquet est envoyé dans le réseau MPLS, le routeur de périphérie du
   
 Non seulement MPLS simplifie le processus de transfert, mais il indique également au système de gestion réseau les connexions qui sont établies sur chaque lien du réseau. En contrôlant la façon dont le trafic est acheminé sur le réseau, l'opérateur peut garantir la qualité de service fournie par chaque chemin. Par conséquent, contrairement aux performances de meilleur effort des réseaux IP traditionnels ou de base, les opérateurs MPLS fournissent un service IP aux performances prévisibles. Le mode de fonctionnement du LSP rend MPLS plus sûr que les services Internet traditionnels. Par conséquent, avec le service IP de base, nous espérons que le réseau soit suffisamment performant pour fournir des prestations voix, des techniques d'utilisation de bonne qualité, comme FEC, ainsi qu'un codage voix plus résilient. Avec MPLS, ces performances sont garanties.
   
-Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu’il comprenne les sorties de l’outil de calcul de bande passante [Lync 2010 et Lync 2013,](https://go.microsoft.com/fwlink/?LinkID=690282) ainsi que les options recommandées pour les différentes applications Charge de travail Microsoft 365 ou Office 365 Real Time.
+Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu’il comprenne les sorties de l’outil de calcul de bande passante [Lync 2010 et Lync 2013,](https://go.microsoft.com/fwlink/?LinkID=690282) ainsi que les options recommandées pour les différentes applications Charge de travail en temps réel Microsoft 365 ou Office 365.
   
 ## <a name="conclusion"></a>Conclusion
 
@@ -404,7 +404,7 @@ La fourniture constante de services voix et vidéo en temps réel de qualité pr
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Documentation ExpressRoute](/azure/expressroute/)
 

@@ -150,7 +150,7 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 <a name="bk_preview"> </a>
 

@@ -117,5 +117,5 @@ En utilisant l’cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnline
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

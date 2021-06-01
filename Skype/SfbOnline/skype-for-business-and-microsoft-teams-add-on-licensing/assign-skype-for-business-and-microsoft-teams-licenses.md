@@ -202,7 +202,7 @@ Les étapes sont identiques à l’attribution d’Microsoft 365 ou Office 365 l
 
 Jetez un coup d’œil à l’exemple de script pour affecter des licences **d’audioconférence.** Mettez-le à jour avec les informations pour affecter des **licences de crédits** de communication.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
   
 [Configurer des forfaits d'appels](/microsoftteams/set-up-calling-plans)
   

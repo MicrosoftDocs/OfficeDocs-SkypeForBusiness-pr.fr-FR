@@ -37,7 +37,7 @@ ms.locfileid: "52237340"
 
 Les messages électroniques seront automatiquement envoyés aux utilisateurs activés pour l’audioconférence en utilisant Microsoft comme fournisseur de services d’audioconférence. [](set-up-audio-conferencing.md)
   
-Par défaut, quatre types de messages électroniques sont envoyés aux utilisateurs activés pour l’audioconférence. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. L’audioconférence Microsoft 365 ou Office 365 permet d’envoyer un courrier électronique à vos utilisateurs dans les cas ci-après :
+Par défaut, quatre types de messages électroniques sont envoyés aux utilisateurs activés pour l’audioconférence. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. L’audioconférence dans Microsoft 365 ou Office 365 permet d’envoyer un courrier électronique à vos utilisateurs dans les cas ci-après :
   
 - **Une licence d’audioconférence leur est affectée ou lorsque vous changez le fournisseur de services d’audioconférence en Microsoft.**
     
@@ -54,7 +54,7 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
     
 - **L'ID de conférence ou le numéro de téléphone par défaut d'une conférence pour un utilisateur change.**
     
-    Ce courrier électronique contient l'ID de conférence, le numéro d'accès à la conférence par défaut, ainsi que les instructions et le lien de l'outil de mise à jour de réunion de Skype Entreprise Online pour mettre à jour les réunions existantes de l'utilisateur. Toutefois, ce message électronique n’inclut pas le code confidentiel de l’utilisateur pour l’audioconférence. Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user.md).
+    Ce courrier électronique contient l'ID de conférence, le numéro d'accès à la conférence par défaut, ainsi que les instructions et le lien de l'outil de mise à jour de réunion de Skype Entreprise Online pour mettre à jour les réunions existantes de l'utilisateur. Toutefois, cet e-mail n’inclut pas le code confidentiel de l’utilisateur pour l’audioconférence. Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user.md).
     
     > [!NOTE]
     > Si votre organisation a été activée pour les ID de conférence dynamiques, toutes les réunions d'un utilisateur planifiées auront un ID de conférence unique. Vous pouvez configurer des [ID dynamiques d’audioconférence dans votre organisation.](./reset-a-conference-id-for-a-user.md) 
@@ -166,7 +166,7 @@ Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   

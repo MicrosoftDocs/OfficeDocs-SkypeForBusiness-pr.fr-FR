@@ -62,7 +62,7 @@ Vous trouverez des informations sur le téléchargement et l’installation de c
 
 - [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Diagnostiquer les problèmes de connexion avec le connecteur Skype Entreprise Online](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

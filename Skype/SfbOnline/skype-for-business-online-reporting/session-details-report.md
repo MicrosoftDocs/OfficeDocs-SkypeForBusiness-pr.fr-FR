@@ -120,7 +120,7 @@ Pour chaque session, il existe une sous-table avec des données différentes dis
 
 - Skype Entreprise des pools de [minutes PSTN](pstn-minute-pools-report.md) vous indiquent le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

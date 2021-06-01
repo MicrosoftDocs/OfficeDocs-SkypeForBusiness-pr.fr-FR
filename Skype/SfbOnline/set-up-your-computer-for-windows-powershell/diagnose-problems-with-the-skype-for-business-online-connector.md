@@ -166,7 +166,7 @@ Bien que chaque administrateur soit autorisé à avoir jusqu’à trois connexio
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous en avez fini avec une session Skype Entreprise Online, nous vous recommandons d’utiliser l’cmdlet **Remove-PSSession** pour mettre fin à cette session. Cela vous permettra d’éviter ce problème.  
  
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

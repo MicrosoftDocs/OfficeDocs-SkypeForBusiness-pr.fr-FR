@@ -82,13 +82,13 @@ Pour plus d’informations sur la configuration et la gestion de la qualité de 
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>Contournement des proxys et des périphériques d'optimisation du réseau WAN
 
-Tous Microsoft 365 ou Office 365 y compris Skype Entreprise Online sont chiffrés et ne peuvent généralement pas être inspectés par des périphériques proxy. Pour ces raisons, nous vous recommandons de contourner les périphériques proxy pour tout le trafic réseau Microsoft 365 et Office 365 défini comme connexions définies par vos utilisateurs aux URL et [plages](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)d’adresses IP Office 365. Les périphériques proxy sont susceptibles d'introduire un retard dans les flux multimédia Skype Entreprise Online en temps réel, nous recommandons donc d'utiliser le moins de périphériques proxy possible pour ce trafic.
+Tout Microsoft 365 ou Office 365 y compris Skype Entreprise Online est chiffré et ne peut généralement pas être inspecter par des périphériques proxy. Pour ces raisons, nous vous recommandons de contourner les périphériques proxy pour tout le trafic réseau Microsoft 365 et Office 365 défini comme connexions définies par vos utilisateurs aux URL et [plages](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)d’adresses IP Office 365. Les périphériques proxy sont susceptibles d'introduire un retard dans les flux multimédia Skype Entreprise Online en temps réel, nous recommandons donc d'utiliser le moins de périphériques proxy possible pour ce trafic.
 
 Microsoft recommande d’exclure les Microsoft 365 et Office 365'utilisation de fichiers PAC pour envoyer le trafic Microsoft 365 et Office 365 vers un pare-feu.
 
 Voici quelques ressources supplémentaires qui peuvent également être utiles :
 
-- [Microsoft 365 optimisation Office 365 performances à l’aide de lignes de référence et de l’historique des performances](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
+- [Microsoft 365 ou Office 365 optimisation des performances à l’aide de lignes de référence et de l’historique des performances](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
 - [Planification du réseau et de la migration pour Microsoft 365 ou Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
@@ -96,11 +96,11 @@ Voici quelques ressources supplémentaires qui peuvent également être utiles :
 
 - [Utilisation d’un contrôleur d’optimisation WAN ou d’appareils de trafic/inspection avec Microsoft 365 ou Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
-- [Routage avec ExpressRoute pour des Microsoft 365 ou Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [Routage avec ExpressRoute pour Microsoft 365 ou Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>Contournement du double chiffrement
 
-Pour offrir aux utilisateurs la meilleure expérience audio et vidéo possible, vous devez implémenter une solution qui empêche le média Skype Entreprise (audio et vidéo) de traverser un tunnel Réseau privé virtuel (Virtual Private Network, ou VPN). L'ensemble du trafic est chiffré à l'aide du protocole TLS (Transport Layer Security) et les charges de travail multimédia sont chiffrées à l'aide du protocole SRTP (Secure Real Time Protocol). La signalisation est chiffrée à l'aide du protocole TLS et les charges de travail multimédia sont chiffrées à l'aide du protocole SRTP. L’envoi de ce trafic sur le tunnel VPN ajoute une couche supplémentaire de chiffrement et des sauts de réseau supplémentaires entre le client et Microsoft 365 ou Office 365, ce qui peut entraîner une dégradation de la session car cela augmente la gigue, la perte de paquets et la latence.
+Pour offrir aux utilisateurs la meilleure expérience audio et vidéo possible, vous devez implémenter une solution qui empêche le média Skype Entreprise (audio et vidéo) de traverser un tunnel Réseau privé virtuel (Virtual Private Network, ou VPN). L'ensemble du trafic est chiffré à l'aide du protocole TLS (Transport Layer Security) et les charges de travail multimédia sont chiffrées à l'aide du protocole SRTP (Secure Real Time Protocol). La signalisation est chiffrée à l'aide du protocole TLS et les charges de travail multimédia sont chiffrées à l'aide du protocole SRTP. L’envoi de ce trafic sur le tunnel VPN ajoute une couche supplémentaire de chiffrement et des sauts de réseau supplémentaires entre le client et le Microsoft 365 ou Office 365, ce qui peut entraîner une dégradation de la session car cela augmente la gigue, la perte de paquets et la latence.
 
 La tunnellisation fractionnée est une option permettant d'empêcher le trafic de Skype Entreprise de traverser le tunnel VPN. Pour implémenter la tunnellisation fractionnée, les clients doivent consulter leur fournisseur VPN concernant les spécificités d'exécution liées à leur logiciel.
 
@@ -117,7 +117,7 @@ Ressources supplémentaires :
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>Assurer l'ouverture des ports et protocoles appropriés
 
-Les clients doivent garantir l’accessibilité des URL et des adresses IP requises pour le service Microsoft 365 ou Office 365'adresses IP. Pour obtenir ume liste complète de l'ensemble des adresses IP et des URL de Skype Entreprise Online, reportez-vous à la rubrique [URL et plages d'adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2).
+Les clients doivent s’assurer de l’accessibilité des URL et des adresses IP requises pour le service Microsoft 365 ou Office 365'adresses IP. Pour obtenir ume liste complète de l'ensemble des adresses IP et des URL de Skype Entreprise Online, reportez-vous à la rubrique [URL et plages d'adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 
 Les clients Skype Entreprise utilisent divers ports et protocoles. Le sens et le flux du trafic du réseau d'une session Skype Entreprise variera en fonction du type d'interactions (P2P ou à plusieurs) et de l'utilisation du partage de contenu et des communications voix/vidéo. Vous devez examiner et ouvrir la liste des ports et protocoles, en portant une attention particulière aux ports sources et de destination. Par exemple, le trafic audio utilise uniquement 20 ports (50000-50019 TCP/UDP) côté client, mais le port de destination peut être compris dans une plage de ports de 10k (50000-59999 TCP/UDP) côté service. Cela inclut également l'ouverture des ports TCP 443 et UDP 3478 sur le pare-feu.
 
@@ -146,6 +146,6 @@ Pour obtenir une image plus claire de l’expérience audio et vidéo d’un uti
 
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)

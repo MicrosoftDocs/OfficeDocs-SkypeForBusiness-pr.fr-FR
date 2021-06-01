@@ -64,7 +64,7 @@ L Réunion Skype d’événements de diffusion sont bloqués si l’une des lice
 - Avantages d’utiliser Microsoft 365 A1 étudiant
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

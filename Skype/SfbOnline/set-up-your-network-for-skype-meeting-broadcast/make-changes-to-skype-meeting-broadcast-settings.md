@@ -46,7 +46,7 @@ Vous pouvez activer Réunion Skype diffusion et modifier les paramètres et les 
     
 - **URL du support technique pour les participants** Entrez un lien pour permettre aux participants à la réunion diffusée d’obtenir de l’aide pour la connexion ou la participation à une réunion diffusée.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer votre réseau pour la diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

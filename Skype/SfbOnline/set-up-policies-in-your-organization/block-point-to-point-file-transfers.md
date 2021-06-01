@@ -42,7 +42,7 @@ Pour en savoir plus sur ces paramètres, [cliquez ici.](/previous-versions//mt22
   
 Si un utilisateur fédéré extérieur à votre organisation tente d’envoyer un fichier à un utilisateur pour lequel la stratégie a été appliquée, il reçoit un message d’erreur « Échec **du** transfert ». Si un utilisateur tente d’envoyer un fichier, il reçoit une erreur **de transfert de** fichier désactivée.
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une application De Skype Entreprise 2016 qui la prend en charge. La version minimale suivante du client « Skype Entreprise - Exécuter en un clic 2016 est requise :
+Pour que cela fonctionne, l’utilisateur doit utiliser une version prise en charge d’une application De Skype Entreprise 2016 qui la prend en charge. La version minimale suivante du client « Skype Entreprise - Exécuter en un clic 2016 est requise :
   
 |**Type**|**Date de publication**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
@@ -109,7 +109,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

@@ -31,7 +31,7 @@ ms.locfileid: "52237010"
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le client principal pour les communications et le travail d’équipe au Microsoft 365.
+> Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le client principal pour les communications et le travail d’équipe dans Microsoft 365.
 
 Pour que les membres de votre organisation Réunion Skype la diffusion de groupe, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
 
@@ -45,7 +45,7 @@ Pour que les membres de votre organisation Réunion Skype la diffusion de groupe
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Connectez-vous avec votre compte d’administrateur global ou Skype Entreprise compte d’administrateur à [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Connectez-vous à l’adresse de votre Skype Entreprise administrateur global. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)
     
 2. Dans le Centre d’administration, allez sur Centres **d’administration**  >  **Teams.**
     
@@ -97,7 +97,7 @@ Si vous n'avez pas l'habitude de configurer votre pare-feu, envisagez de demande
   
 Pour ignorer cette étape et ajouter une autre entreprise à votre fédération, consultez [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

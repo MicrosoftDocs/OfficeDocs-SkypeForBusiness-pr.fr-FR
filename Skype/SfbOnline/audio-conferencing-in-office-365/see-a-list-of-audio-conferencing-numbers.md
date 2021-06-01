@@ -40,7 +40,7 @@ Lorsque vous définissez des services d’audioconférence pour les utilisateurs
  **Vous recherchez les prix ?** Consultez [les tarifs de l’audioconférence.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 > [!IMPORTANT]
-> **Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence.** Si vous cherchez à savoir si des numéros de téléphone à composer sont disponibles dans votre région ou pays/région, rendez-vous dans le Centre d’administration **Skype Entreprise** Numéros de Téléphone , cliquez sur Ajouter, puis sur Nouveaux numéros de  >    >   **service.**  Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Par ailleurs, si vous recherchez des numéros de service gratuits, sélectionnez **Gratuit** dans la liste **État/Région.**
+> **Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence.** Si vous cherchez à savoir si des numéros de téléphone à composer sont disponibles dans votre région ou pays/région, rendez-vous dans le Centre d’administration **Skype Entreprise** Numéros de la voix  >    >  **Téléphone,** cliquez sur Ajouter, puis sur Nouveaux numéros de **service.** Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Par ailleurs, si vous recherchez des numéros de service gratuits, sélectionnez **Gratuit** dans la liste **État/Région.**
   
 S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera inclus dans les invitations Skype Entreprise réunion.
   
@@ -58,7 +58,7 @@ Vous pouvez voir [Définir les numéros de téléphone inclus dans les invitatio
     
 2. Dans le centre d’administration, > **Skype Entreprise.**
     
-3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez au pont Microsoft de l’audioconférence,   >  puis :
+3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez à l’audioconférence   >  **Pont Microsoft,** puis :
     
    - Vous pouvez afficher les numéros de téléphone disponibles pour l’audioconférence.
     
@@ -89,6 +89,6 @@ Vous pouvez voir [Définir les numéros de téléphone inclus dans les invitatio
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

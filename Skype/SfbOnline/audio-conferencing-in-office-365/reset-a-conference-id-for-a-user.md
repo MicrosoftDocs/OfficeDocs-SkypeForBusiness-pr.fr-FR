@@ -86,6 +86,6 @@ Un ID de conférence dynamique est inclus au bas des invitations aux réunions, 
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin.md)

@@ -33,7 +33,7 @@ ms.locfileid: "52237550"
 Une fois [que Réunion Skype activé](enable-skype-meeting-broadcast.md) Réunion Skype diffusion, vous devez configurer votre réseau. Cette étape est prise en compte si vous souhaitez organiser des webinaires ou d’autres diffusions pour des personnes extérieures à votre entreprise.
 
 > [!IMPORTANT]
-> Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le client principal pour les communications et le travail d’équipe au Microsoft 365.
+> Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le client principal pour les communications et le travail d’équipe dans Microsoft 365.
 
 Si vous n'avez pas l'habitude de configurer votre pare-feu, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
 
@@ -99,9 +99,9 @@ La deuxième étape du processus de configuration consiste à ajouter les domain
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurer la diffusion de réunion Skype dans les déploiements et les organisations hybrides
 
-Si vous avez une organisation Skype Entreprise Online et un déploiement local de Lync Server 2010, de Microsoft Lync Server 2013 et de Skype Entreprise Server 2015 et que vous avez des utilisateurs à la fois en ligne et sur site, vous devez suivre d’autres étapes de configuration en plus de celle ci-dessus pour permettre à votre organisation sur site de communiquer avec Skype Entreprise Online et autoriser tous vos utilisateurs à rejoindre une diffusion Réunion Skype Broadcast. Pour consulter les conditions requises, consultez Configurer votre déploiement [local pour Réunion Skype Diffusion.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
+Si vous avez une organisation Skype Entreprise Online et un déploiement local de Lync Server 2010, de Microsoft Lync Server 2013 et de Skype Entreprise Server 2015 et que vous avez des utilisateurs à la fois en ligne et sur site, vous devez suivre d’autres étapes de configuration en plus de celle ci-dessus pour permettre à votre organisation sur site de communiquer avec Skype Entreprise Online et autoriser tous vos utilisateurs à rejoindre une diffusion Réunion Skype Broadcast. Pour consulter les conditions requises, voir Configurer votre déploiement [local pour Réunion Skype Diffusion.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Activer une diffusion de réunion Skype](enable-skype-meeting-broadcast.md)
 

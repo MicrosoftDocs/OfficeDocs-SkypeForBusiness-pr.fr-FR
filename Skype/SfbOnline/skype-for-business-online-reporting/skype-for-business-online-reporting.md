@@ -60,7 +60,7 @@ Dans les centres d’administration, vous pouvez utiliser différents types de r
 |[Skype Entreprise Rapport sur les pools de minutes PSTN](pstn-minute-pools-report.md) <br/> | Il s’agit de la licence/plan de service utilisé pour l’appel. <br/> Type de licence <br/> Description de la fonctionnalité <br/> Country Minute Pool  <br/> Minutes utilisées <br/> Total Minutes <br/> Pourcentage de minutes utilisées au cours du mois <br/> |
 |[Skype Entreprise détails de la session](session-details-report.md) <br/> | Alias de l’utilisateur <br/> ID de boîte de dialogue  <br/> Types de médias  <br/> Heures de début et de fin <br/> Vers et à partir de l’URI <br/> URL de la conférence <br/> Téléphone numéro <br/> |
  
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

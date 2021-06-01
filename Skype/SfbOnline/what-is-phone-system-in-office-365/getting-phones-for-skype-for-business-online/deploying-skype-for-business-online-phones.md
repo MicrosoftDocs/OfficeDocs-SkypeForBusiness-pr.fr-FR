@@ -221,7 +221,7 @@ BToE peut être configuré pour fonctionner en deux modes : *Automatique* (par d
 > [!NOTE]
 > BToE n'est actuellement pas disponible sur les plates-formes Mac et VDI. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

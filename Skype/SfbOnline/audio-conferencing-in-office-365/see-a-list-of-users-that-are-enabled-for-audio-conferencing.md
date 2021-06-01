@@ -35,7 +35,7 @@ ms.locfileid: "52237000"
 > [!NOTE]
 > Pour plus d’informations sur les utilisateurs activés dans Microsoft Teams, consultez la liste des utilisateurs activés pour [l’audioconférence dans Microsoft Teams.](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)
 
-Une fois que vous avez Skype Entreprise utilisateurs de votre organisation pour l’audioconférence, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous voyez également pour chaque utilisateur le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone à composer par défaut, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions d’audioconférence qu’il organise.
+Après avoir activé Skype Entreprise utilisateurs de votre organisation pour l’audioconférence, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous voyez également pour chaque utilisateur le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone à composer par défaut, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions d’audioconférence qu’il organise.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -91,6 +91,6 @@ Une fois que vous avez Skype Entreprise utilisateurs de votre organisation pour 
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

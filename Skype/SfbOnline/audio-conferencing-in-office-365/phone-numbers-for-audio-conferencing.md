@@ -39,7 +39,7 @@ ms.locfileid: "52237210"
 Lorsque vous configurationnez **l’audioconférence** Skype Entreprise, les numéros de téléphone à composer sont automatiquement affectés à votre organisation. Vous pouvez voir les numéros de téléphone affectés à votre pont de conférence audio en vous rendez sur le pont **Microsoft** de conférence audio du centre d’administration  >    >  Skype Entreprise. Consultez [la liste des numéros d’audioconférence.](see-a-list-of-audio-conferencing-numbers.md)
   
 > [!NOTE]
-> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone d’accès sont disponibles dans votre région ou pays ou région, utilisez le Centre d’administration **Skype Entreprise** Numéros de téléphone Téléphone, cliquez sur Ajouter, puis sur Nouveaux numéros de  >    >   **service.**  Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Par ailleurs, si vous recherchez des numéros de service gratuits, sélectionnez **Gratuit** dans la liste **État/Région.**
+> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone d’accès sont disponibles dans votre région ou région, utilisez le Centre d’administration **Skype Entreprise** Numéros de téléphone Téléphone, cliquez sur Ajouter, puis sur Nouveaux numéros de  >    >   **service.**  Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Par ailleurs, si vous recherchez des numéros de service gratuits, sélectionnez **Gratuit** dans la liste **État/Région.**
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarification de l'audioconférence
 
@@ -47,7 +47,7 @@ Pour une liste complète de tous les pays/régions et villes où l'Audioconfére
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone d'accès à composer figurant dans l'invitation à la réunion
 
-Lorsqu’un utilisateur Skype Entreprise Online planifiera une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut de l’utilisateur est inclus dans l’invitation à la réunion. Si vous souhaitez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez changer ce paramètre en sélectionnant le centre **d’administration Skype Entreprise** Utilisateurs de  >  l’audioconférence.  >   Consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
+Lorsqu’un utilisateur Skype Entreprise Online planifiera une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut de l’utilisateur est inclus dans l’invitation à la réunion. Si vous souhaitez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez le modifier en vous rendre dans le **centre d’administration Skype Entreprise** Utilisateurs de l’audioconférence.  >    >   Consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
   
 Les autres numéros de connexion sont affichés en cliquant sur le lien **Rechercher un numéro local** dans l'invitation à la réunion.
   
@@ -71,13 +71,13 @@ Les numéros de téléphone de conférence audio partagés sont automatiquement 
 > [!CAUTION]
 > En raison de la disponibilité limitée des numéros de téléphone au Venezuela, en Indonésie, au Vietnam et aux Émirats Arabes Unis, les organisations de ces pays/régions ne se voit pas attribuer automatiquement un numéro d’audioconférence. Les numéros gratuits à partir de ces emplacements sont disponibles en fonction du nombre à disposition. 
   
-Les numéros de téléphone de conférence audio dédiés sont des numéros de service que vous pouvez obtenir, puis affecter à l’organisation. Vous pouvez trouver les numéros de service à l’aide du Centre **Skype Entreprise’administration.** Pour plus d’informations, voir [Obtention de numéros de téléphone de service.](/microsoftteams/getting-service-phone-numbers)
+Les numéros de téléphone de conférence audio dédiés sont des numéros de service que vous pouvez obtenir, puis affecter à l’organisation. Vous pouvez trouver les numéros de service à l’aide du Centre **Skype Entreprise’administration.** Pour plus d’informations, [consultez Obtenir des numéros de téléphone de service.](/microsoftteams/getting-service-phone-numbers)
   
 Pour voir une liste des pays/régions qui ont des numéros de téléphone automatiquement affectés aux organisations, voir [Disponibilité par pays et par région de l'Audioconférence et des Plans d’appels](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
+- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues qui sont prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
 - Vous pouvez utiliser l’cmdlet [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) pour consulter les numéros de téléphone dédiés pour l’audioconférence pour votre organisation.
     
@@ -89,6 +89,6 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

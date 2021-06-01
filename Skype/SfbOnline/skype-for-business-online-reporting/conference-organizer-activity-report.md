@@ -31,7 +31,7 @@ ms.locfileid: "52238287"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
 
 Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) vue d’ensemble des rapports.
   
@@ -89,7 +89,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 * **Audio/vidéo** indique le nombre total de conférences audio/vidéo organisées.
 * **Partage d'application** indique le nombre total de conférences en partage d'application organisées. 
 * **Web** indique le nombre total de conférences web organisées. 
-* **Appels sortants et** appels sortants – Tiers indique le nombre total de conférences audio en appel/en sortie organisées avec un fournisseur de services d’audioconférence tiers. 
+* **Appels** sortants et appels sortants – Tiers indique le nombre total de conférences audio en appel/en sortie organisées avec un fournisseur de services d’audioconférence tiers. 
 * **Microsoft affiche le** nombre total de conférences audio en appel/sortant qui ont été organisées. 
 * **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo organisées. 
 * **Les minutes d’appels rendez-vous** avec Microsoft indiquent le nombre total de minutes d’appels rendez-vous utilisés lors de réunions organisées avec Microsoft comme fournisseur de services d’audioconférence. 
@@ -119,7 +119,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) est un service qui s’exécute en arrière-plan et met automatiquement à jour Skype Entreprise et Microsoft Teams réunions pour les utilisateurs. MmS est conçu pour éliminer la nécessité pour les utilisateurs d’exécuter l’outil de migration de réunion pour mettre à jour Skype Entreprise et Microsoft Teams réunions.
-ms.openlocfilehash: 3866a11144ef6566422f4e7478b3e0e63ed4a0c5
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: db4889bb30ec453a64bfcf760a1233fbc7c1e2f5
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237610"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282111"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du service Meeting Migration Service (MMS)
 
@@ -47,7 +47,6 @@ Par défaut, MMS est déclenché automatiquement dans chacun de ces cas, bien qu
 - La boîte aux lettres de l’utilisateur est hébergée Exchange local.
 - L’utilisateur est en cours de migration du cloud vers Skype Entreprise Server site.
 
-Dans ces situations, les utilisateurs finaux peuvent utiliser l’outil de [migration](https://www.microsoft.com/download/details.aspx?id=51659) de réunion pour migrer leurs propres réunions.
 
 ## <a name="how-mms-works"></a>Fonctionnement de MMS
 
@@ -123,11 +122,11 @@ En plus des migrations de réunions automatiques, les administrateurs peuvent d�
 
 **TargetMeetingType :**
 
-- Utilisation de spécifier que les Skype Entreprise restent Skype Entreprise réunions et que Teams réunions restent Teams `TargetMeetingType Current` réunions. Toutefois, les coordonnées de conférence audio peuvent être modifiées et les réunions Skype Entreprise sur site sont migrées vers Skype Entreprise Online. Il s’agit de la valeur par défaut de TargetMeetingType.
+- Utilisation de spécifier que les Skype Entreprise restent Skype Entreprise réunions et que Teams réunions restent Teams `TargetMeetingType Current` réunions. En revanche, les coordonnées de conférence audio peuvent être modifiées et les réunions Skype Entreprise sur site sont migrées vers Skype Entreprise Online. Il s’agit de la valeur par défaut de TargetMeetingType.
 - Spécifie que les réunions existantes doivent être migrées vers Teams, que la réunion soit hébergée sur Skype Entreprise online ou sur site, et que des mises à jour de l’audioconférence soient requises ou `TargetMeetingType Teams` non. 
 
 **SourceMeetingType :**
-- Indique que seules Skype Entreprise réunions doivent être mises à jour (en local `SourceMeetingType SfB` ou en ligne).
+- Indique que seules Skype Entreprise réunions doivent être mises à jour (sur site ou `SourceMeetingType SfB` en ligne).
 - Indique `SourceMeetingType Teams` que seules Teams réunions doivent être mises à jour.
 - Indique que les réunions Skype Entreprise et Teams doivent `SourceMeetingType All` être mises à jour. Il s’agit de la valeur par défaut de SourceMeetingType.
     
@@ -209,7 +208,7 @@ Si MMS est activé dans l’organisation et que vous voulez vérifier s’il est
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

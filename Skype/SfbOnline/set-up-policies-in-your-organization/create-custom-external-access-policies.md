@@ -98,7 +98,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

@@ -43,7 +43,7 @@ Il semble que vous avez besoin d’aide pour Skype votre abonnement Microsoft 36
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Offre pour Skype Entreprise
 
-Si vous utilisez **[Microsoft 365 Business Premium Standard](https://products.office.com/business/office-365-business-premium)** ou **Business Essentials,** vous pouvez utiliser Skype Entreprise pour appeler d’autres personnes de votre entreprise qui utilisent votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pourrez commencer à utiliser [Skype Entreprise](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) pour la messagerie instantanée et les réunions en ligne, et les réunions avec Skype Entreprise à l’aide de Skype Entreprise après avoir exécuté les [étapes](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) 2 à 6 ci-dessous. Vous pouvez également [configurer une Skype Entreprise de réunion Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) vers des réunions en ligne !
+Si vous avez **[Microsoft 365 Business Premium Standard](https://products.office.com/business/office-365-business-premium)** ou **Business Essentials,** vous pouvez utiliser Skype Entreprise pour appeler d’autres personnes de votre entreprise qui utilisent votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pourrez commencer à utiliser [Skype Entreprise](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) pour la messagerie instantanée et les réunions en ligne, et les réunions avec Skype Entreprise à l’aide de Skype Entreprise après avoir exécuté les [étapes](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) 2 à 6 ci-dessous. Vous pouvez également [configurer une Skype Entreprise de réunion Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) vers des réunions en ligne !
 
 Si vous voulez utiliser Skype Entreprise pour passer et recevoir des **appels** avec des personnes *externes*  à votre entreprise :
 
@@ -73,7 +73,7 @@ Maintenant que vous êtes connecté à Office 365, vous pouvez configurer votre 
 
 2. [Vérifier votre domaine et vos connexions DNS](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0) : utilisez notre outil de résolution des problèmes liés aux domaines pour vérifier que votre domaine et vos paramètres DNS sont corrects. Cette opération vous permettra d'éviter tout problème lié aux paramètres DNS et d'identifier ainsi les problèmes de configuration rencontrés en toute simplicité.
 
-3. [Office 365 URL et plages](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)d’adresses IP : la plupart des petites entreprises n’ont pas besoin de cette étape. Toutefois, si vous avez un pare-feu ou un serveur proxy qui limite l’accès à certaines parties du **web,** vous devez créer des règles pour autoriser l’accès aux points de terminaison Skype Entreprise Online. Il s’agit d’une étape avancée la mieux exécutée par une personne qui a connu la configuration de pare-feu et de serveurs proxy. Si vous ne l’avez pas fait auparavant, envisagez de faire appel à un partenaire [Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour configurer Skype Entreprise pour vous.
+3. [Office 365 URL et plages](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)d’adresses IP : la plupart des petites entreprises n’ont pas besoin de cette étape. Toutefois, si vous avez un pare-feu ou un serveur proxy qui limite l’accès à certaines parties du **web,** vous devez créer des règles pour autoriser l’accès aux points de terminaison Skype Entreprise Online. Il s’agit d’une étape avancée plus efficace qu’une personne a expérimentée en configurant des pare-feu et des serveurs proxy. Si vous ne l’avez pas fait auparavant, envisagez de faire appel à un partenaire [Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour configurer Skype Entreprise pour vous.
 
 ## <a name="4-set-up-im-and-presence-in-your-organization"></a>4. Configuration de la messagerie instantanée et de la présence dans votre organisation
 <a name="bkmk_IM"> </a>
@@ -173,7 +173,7 @@ La qualité de l'image, du son et du partage d'applications dans Skype Entrepris
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 <a name="bkmk_more"> </a>
 
 [Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)

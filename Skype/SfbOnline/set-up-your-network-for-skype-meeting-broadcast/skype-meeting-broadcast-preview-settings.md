@@ -34,7 +34,7 @@ ms.locfileid: "52237500"
 
 Le Skype Entreprise d’aperçu client vous offre un accès en avant-première aux nouveaux produits et fonctionnalités. Cela permet à votre organisation de découvrir les nouveautés, de tester les nouvelles fonctionnalités dans votre propre environnement et de faire part de vos commentaires avant la publication des builds de produits au grand public. Pour en savoir plus, voir [Skype Entreprise prévisualisation.](https://www.skypepreview.com/)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Présentation de Windows PowerShell et de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

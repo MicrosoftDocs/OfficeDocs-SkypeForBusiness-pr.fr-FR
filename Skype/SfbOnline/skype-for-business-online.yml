@@ -24,11 +24,11 @@ metadata:
   ms.lasthandoff: 03/23/2021
   ms.locfileid: "51118923"
 landingContent:
-- title: À propos de Skype Entreprise Online
+- title: À propos Skype Entreprise Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Mise à la retraite de Skype Entreprise Online en 2021
+    - text: Skype Entreprise Mise à la retraite en ligne en 2021
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -108,9 +108,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que phone system ?
+    - text: Qu’est-ce Système téléphonique ?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
-    - text: Voici les avantages du système téléphonique
+    - text: Les avantages du système téléphonique
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
 - title: Améliorer la qualité de la vidéo et des appels
   linkLists:

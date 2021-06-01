@@ -41,7 +41,7 @@ Cet article explique comment les administrateurs configurent Skype Entreprise po
   
 Pour autoriser (ou bloquer) toutes les personnes de votre entreprise à communiquer avec des personnes externes, voir :
   
-- Autoriser les utilisateurs à contacter des utilisateurs [Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md)externes : vous pouvez permettre à votre organisation d’utiliser des fonctionnalités Skype Entreprise avancées (partager des bureaux, rechercher qui est en ligne, etc.) pour communiquer avec des personnes dans une entreprise de confiance (fédérée) spécifique. Cet article explique également comment bloquer les communications avec des domaines spécifiques.
+- Autoriser les utilisateurs à contacter des utilisateurs [Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md)externes : vous pouvez permettre à votre organisation d’utiliser des fonctionnalités de Skype Entreprise avancées (partager des bureaux, rechercher qui est en ligne, etc.) pour communiquer avec des personnes dans une entreprise de confiance (fédérée) spécifique. Cet article explique également comment bloquer les communications avec des domaines spécifiques.
     
 - [Permettez aux Skype Entreprise d’ajouter Skype contacts.](let-skype-for-business-users-add-skype-contacts.md) Vous pouvez permettre à votre organisation dʼutiliser Skype Entreprise pour rechercher et communiquer par messagerie instantanée avec des personnes qui utilisent Skype, lʼapplication gratuite.
     

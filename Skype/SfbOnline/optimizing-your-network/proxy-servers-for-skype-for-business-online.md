@@ -59,7 +59,7 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Optimisation de votre réseau pour Skype Entreprise Online](optimizing-your-network.md)
  

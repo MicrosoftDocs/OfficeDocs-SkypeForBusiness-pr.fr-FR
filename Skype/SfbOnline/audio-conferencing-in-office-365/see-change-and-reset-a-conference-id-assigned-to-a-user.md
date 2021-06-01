@@ -35,7 +35,7 @@ ms.locfileid: "52237050"
 > [!Note]
 > Pour plus d’informations sur les ID de conférence utilisateur dans Microsoft Teams, consultez l’affichage et réinitialisez un ID de conférence attribué à un utilisateur [dans Microsoft Teams.](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
 
-Un ID de conférence est automatiquement attribué à un utilisateur de Skype Entreprise lorsqu’il est configurer pour l’audioconférence dans Microsoft 365 ou Office 365 et utilise Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence attribué est envoyé dans l’invitation à la réunion lorsque la réunion est programmée. Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique.
+Un ID de conférence est automatiquement attribué à un utilisateur de Skype Entreprise lorsqu’il est prêt pour l’audioconférence dans Microsoft 365 ou Office 365 et utilise Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence attribué est envoyé dans l’invitation à la réunion lorsque la réunion est programmée. Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique.
 
 Bien qu’un ID de conférence soit automatiquement créé et attribué à un utilisateur, il peut arrive qu’un utilisateur ne souhaite pas l’utiliser et que vous le définissez sur un nombre donné, ou que vos utilisateurs ne peuvent pas se souvenir de leur ID de conférence ou qu’ils l’ont perdu. Vous pouvez utiliser le centre d’administration **Skype Entreprise** et Windows PowerShell pour afficher, modifier et réinitialiser leurs ID de conférence.
 
@@ -84,7 +84,7 @@ Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'ou
 
 2. Dans le centre d’administration, > **Skype Entreprise.**
 
-3. Dans le **Skype Entreprise d’administration** >  **Utilisateurs de l’audioconférence,** dans le volet Action sous  >   **ID** de conférence, cliquez sur **Réinitialiser.**
+3. Dans le **Skype Entreprise d’administration** Utilisateurs de l’audioconférence, dans le volet Action sous >    >   **ID** de conférence, cliquez sur **Réinitialiser.**
 
 4. Dans la fenêtre **Réinitialiser l’ID de conférence** ? cliquez sur **Oui.** A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -124,6 +124,6 @@ Vous pouvez réinitialiser l’ID de conférence d'un utilisateur à l’aide de
 
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

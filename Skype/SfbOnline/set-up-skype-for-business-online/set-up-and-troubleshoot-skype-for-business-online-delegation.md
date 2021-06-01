@@ -77,7 +77,7 @@ La configuration et la configuration de la délégation pour qu’elle fonctionn
 |**Licence**|**Clients**|**Notes**|
 |:-----|:-----|:-----|
 |Enterprise E5  <br/> |Lync 2013 (Skype Entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016.  <br/> Skype Entreprise 2016 utilisée avec Outlook 2013 ou Outlook 2016  <br/> |Skype Entreprise Le client basic ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas des réunions.  <br/> |
-|Enterprise E5 plus Office 365 forfait d’appels  <br/> |Skype Entreprise pour Mac 2016  <br/> Lync 2013 (Skype Entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype Entreprise 2016 utilisée avec Outlook 2013 ou Outlook 2016  <br/> Lync pour Mac 2011  <br/> |Skype Entreprise Le client basic ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas des réunions.  <br/> |
+|Enterprise E5 plus forfait Office 365 appels  <br/> |Skype Entreprise pour Mac 2016  <br/> Lync 2013 (Skype Entreprise 2015) utilisé avec Outlook 2013 ou Outlook 2016  <br/> Skype Entreprise 2016 utilisée avec Outlook 2013 ou Outlook 2016  <br/> Lync pour Mac 2011  <br/> |Skype Entreprise Le client basic ne prend pas en charge la délégation.  <br/> Pour les clients Mac, vous pouvez déléguer des appels, mais pas des réunions.  <br/> |
    
 ## <a name="set-up-and-verify-delegation"></a>Configurer et vérifier la délégation
 
@@ -105,7 +105,7 @@ Pour configurer une Skype Entreprise Online, suivez ces étapes :
 
  **Onglet De forwarding d’appel**
   
-- Si le client ne  dispose pas d’un  onglet Dev vers un appel avec le lien Modifier mes membres délégués et que le délégant se trouve sur un ordinateur Mac, le délégant doit se connecter à un ordinateur basé sur Windows pour configurer la délégation. Cela est dû au fait que les clients Mac ne peuvent pas établir de connexions MAPI, et il s’agit d’une obligation d’établir Skype Entreprise délégation à partir Outlook.
+- Si le client ne  dispose pas d’un  onglet Dev vers un appel avec le lien Modifier mes membres délégués et que le délégant se trouve sur un ordinateur Mac, le délégant doit se connecter à un ordinateur basé sur Windows pour configurer la délégation. En effet, les clients Mac ne peuvent pas établir de connexions MAPI, et il s’agit d’une obligation d’établir Skype Entreprise délégation à partir Outlook.
     
 ### <a name="verify-success"></a>Vérifier la réussite
 
@@ -118,9 +118,9 @@ Si la configuration réussit, le délégué doit voir que vous avez été ajout�
 
 ### <a name="common-issues"></a>Problèmes courants
 
-- > **Problème 1** L’entrée de délégué continue d’apparaître dans le groupe Personnes **avec** qui je gère les appels une fois que le délégant a supprimé le délégué du client Outlook personnel.
+- > **Problème 1** L’entrée de délégué continue d’apparaître dans le groupe Personnes **que** je gère les appels après que le délégant a supprimé le délégué du client Outlook personnel.
     
-  - > **Résolution 1** Dans le Skype Entreprise, cliquez avec le bouton droit sur le délégué dans le groupe **Délégués,** puis sélectionnez **Supprimer du groupe.**
+  - > **Résolution 1** Dans le Skype Entreprise, cliquez avec le bouton droit sur le délégué dans le groupe **Délégués,** puis **sélectionnez Supprimer du groupe.**
     
 - > **Problème 2** Une fois l’accès délégué accordé par le biais du  client Outlook, ni le message de confirmation, ni le groupe Personnes que je gère les appels n’apparaissent pour le délégué.
     
@@ -135,7 +135,7 @@ Si la configuration réussit, le délégué doit voir que vous avez été ajout�
     > [!NOTE]
     > Si vous installez le client Skype Entreprise Basic, la délégation est supprimée. 
   
-- Si la **valeur État MAPI** n’est pas **CORRECTE,** assurez-vous que les valeurs **SIP** et **SMTP** correspondent.
+- Si la **valeur Statut MAPI** n’est pas **CORRECTE,** assurez-vous que les valeurs **SIP** et **SMTP** correspondent.
     
     > [!NOTE]
     > Plusieurs minutes peuvent être avant que l’état MAPI s’affiche comme **OK** après le premier démarrage Skype Entreprise la Outlook.

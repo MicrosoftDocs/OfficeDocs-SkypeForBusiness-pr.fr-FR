@@ -83,7 +83,7 @@ Contactez les projets spéciaux à [l specialprojects@northern911.com](mailto:sp
 > [!IMPORTANT]
 > Northern911 gère le service de relais IP pour le compte de Microsoft.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Relais IP au Canada - inscription](ip-relay-canada-email-signup.md)
 

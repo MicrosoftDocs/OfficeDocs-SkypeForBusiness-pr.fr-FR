@@ -43,7 +43,7 @@ Cette rubrique contient les sections suivantes :
 - [Renvoyer une liste filtrée des utilisateurs dans Skype Entreprise Online](manage-user-accounts-using-the-online-connector.md#BKListofUsers)
 
 > [!NOTE]
-> **L’cmdlet Set-CsUser** est également incluse dans l’ensemble des cmdlets disponibles Skype Entreprise Administrateurs Online. Toutefois, **Set-CsUser** ne peut pas actuellement être utilisé pour gérer Skype Entreprise Online, à l’exception de la définition du paramètre _AudioVideoDisabled._ Si vous tentez d’exécuter l’cmdlet avec un autre paramètre, elle échouera avec un message d’erreur semblable à celui-ci : Impossible de définir « SipAddress ». Ce paramètre est restreint dans Remote Tenant PowerShell.
+> **L’cmdlet Set-CsUser** est également incluse dans l’ensemble des cmdlets disponibles Skype Entreprise Administrateurs Online. Toutefois, **Set-CsUser** ne peut pas actuellement être utilisé pour gérer Skype Entreprise Online, à l’exception de la définition du paramètre _AudioVideoDisabled._ Si vous essayez d’exécuter la cmdlet avec un autre paramètre, elle échouera avec un message d’erreur semblable à ce qui suivant : Impossible de définir « SipAddress ». Ce paramètre est restreint dans Remote Tenant PowerShell.
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Retourner des informations sur tous vos utilisateurs de Lync Online
 <a name="BKAllUsers"> </a>
@@ -90,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Renvoyer des informations spécifiques pour des utilisateurs spécifiques dans Skype Entreprise Online
 <a name="BKSpecificUsers"> </a>
 
-Par défaut, la cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) renvoie une grande quantité d’informations pour chaque Skype Entreprise d’utilisateur En ligne. Si seul un sous-ensemble de ces informations vous intéresse, pipez les données renvoyées vers l’cmdlet **Select-Object.** Par exemple, cette commande renvoie toutes les données de l’utilisateur Ken Myer, puis utilise l’cmdlet **Select-Object** pour limiter les informations affichées à l’écran au nom d’affichage AD DS de Ken et au plan de numérotation.
+Par défaut, la cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) renvoie une grande quantité d’informations pour chaque Skype Entreprise d’utilisateur Online. Si seul un sous-ensemble de ces informations vous intéresse, pipez les données renvoyées à l’cmdlet **Select-Object.** Par exemple, cette commande renvoie toutes les données de l’utilisateur Ken Myer, puis utilise l’cmdlet **Select-Object** pour limiter les informations affichées à l’écran au nom d’affichage AD DS de Ken et au plan de numérotation.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -111,11 +111,11 @@ Get-CsOnlineUser | Get-Member
 ### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>Renvoyer une liste filtrée des utilisateurs dans Skype Entreprise Online
 <a name="BKListofUsers"> </a>
 
-En utilisant l’cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) et les  paramètres du filtre ou du filtre _Ldap,_ vous pouvez facilement renvoyer des informations sur un ensemble ciblé d’utilisateurs. Par exemple, cette commande renvoie tous les utilisateurs qui travaillent dans le service Finances.
+En utilisant l’cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) et les  paramètres du filtre ou du filtre _Ldap,_ vous pouvez facilement renvoyer des informations sur un ensemble d’utilisateurs ciblé. Par exemple, cette commande renvoie tous les utilisateurs qui travaillent dans le service Finances.
 
 ```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

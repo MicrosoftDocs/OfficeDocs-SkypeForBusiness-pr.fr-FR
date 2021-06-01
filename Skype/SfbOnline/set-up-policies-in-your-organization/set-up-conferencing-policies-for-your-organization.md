@@ -41,7 +41,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
 ## <a name="set-your-conferencing-policies"></a>Définir vos stratégies de conférence
 
 > [!NOTE]
-> Pour tous les paramètres de stratégie de conférence dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous ne pouvez pas utiliser le Centre **d’administration** **Skype Entreprise.** 
+> Pour tous les paramètres de stratégie de conférence dans Skype Entreprise Online, vous devez utiliser Windows PowerShell et vous ne pouvez pas utiliser le Skype Entreprise **d’administration.**  
 
 ### <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
@@ -67,7 +67,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
    
@@ -85,7 +85,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
    
@@ -103,7 +103,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
@@ -132,7 +132,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

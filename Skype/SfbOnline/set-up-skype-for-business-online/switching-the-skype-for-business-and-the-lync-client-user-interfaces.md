@@ -175,7 +175,7 @@ Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
 ## <a name="first-launch-client-behaviors"></a>Comportements client au premier lancement
 
-Par défaut, lorsque les utilisateurs lancent des Skype Entreprise pour la première fois, ils voient toujours l’interface utilisateur de Skype Entreprise, même si vous avez sélectionné l’expérience client Lync en fixant la stratégie client sur l’expérience client Lync () comme décrit `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` précédemment. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
+Par défaut, lorsque les utilisateurs lancent des Skype Entreprise pour la première fois, ils voient toujours l’interface utilisateur de Skype Entreprise, même si vous avez sélectionné l’expérience client Lync en fixant la stratégie client sur l’expérience client Lync (), comme décrit `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` précédemment. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
   
 Si vous souhaitez afficher l'interface utilisateur Lync lorsque les utilisateurs lancent le client Skype Entreprise pour la première fois, suivez cette procédure avant le premier démarrage du client après la mise à jour :
   
@@ -260,7 +260,7 @@ Cliquez sur **OK** pour enregistrer les modifications, puis fermez l'objet GPO.
     
 Ensuite, vous devez lier l'objet GPO créé au groupe d'utilisateurs auquel vous voulez affecter la stratégie, par exemple, une unité d'organisation.
   
- **Pour utiliser l’stratégie de groupe pour affecter la stratégie**
+ **Pour utiliser l’stratégie de groupe afin d’affecter la stratégie**
   
 1. Dans la console de gestion des stratégies de groupe, cliquez avec le bouton droit sur l'unité d'organisation à laquelle vous voulez affecter la stratégie, puis sélectionnez **Lier un objet de stratégie de groupe existant**.
     

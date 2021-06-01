@@ -42,7 +42,7 @@ La première chose à faire est de confirmer que vous avez :
   - **Téléphones Polycom VVX**: allez sur le **Paramètres** application principale de la plateforme  >    >    >    >  **d’état.**
   - **Téléphones Yealink :** accès au **statut** sur l’écran principal du téléphone.
   - **Téléphones AudioCodes :** allez à la version du microprogramme **de** l’état du périphérique  >    >  **du menu** à partir de l’écran d’accueil.
-  - **Téléphones Lync Téléphone (LPE)**: aller à la System Information **menu** à partir de  >   l’écran d’accueil.
+  - **Téléphones Lync Téléphone (LPE)**: Aller à la System Information **menu** à partir de  >   l’écran d’accueil.
 
     Les mises à jour de microprogramme sont gérées par le service Skype Entreprise. Chaque microprogramme de téléphone certifié Skype Entreprise est chargé vers le serveur de mise à jour Skype Entreprise et la mise à jour de l'appareil est activée par défaut sur tous les téléphones.
 
@@ -100,7 +100,7 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 Pour plus de détails, reportez-vous à la section [Obtenir des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Si vous vous demandez, vous pouvez également prendre votre numérode téléphone avec un autre opérateur et le transférer vers Microsoft 365 ou Office 365. Consultez, [Transférer des numéros de téléphone vers Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+Si vous vous demandez, vous pouvez également prendre votre numéro de téléphone avec un autre opérateur et le «*port*» ou le transférer vers Microsoft 365 ou Office 365. Consultez, [Transférer des numéros de téléphone vers Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>Étape 4 - Configuration de votre téléphone
 
@@ -143,7 +143,7 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 > Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé une annuaire Active Directory local avec AAD et que vous utilisez un IDP ou ADFS tiers, la mise en service cap échoue. Dans ce cas, vous devez utiliser un compte Microsoft 365 ou Office 365/Azure Active Directory uniquement (par exemple, un compte avec un domaine **onmicrosoft.com)** pour que l’approvisionnement en CAP fonctionne.
 
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 
 - En savoir plus sur les téléphones disponibles sur [Déploiement des téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 - [Obtention des téléphones pour Skype Entreprise Online](getting-phones-for-skype-for-business-online.md)

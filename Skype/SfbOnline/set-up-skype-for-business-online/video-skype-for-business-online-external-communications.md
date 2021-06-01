@@ -39,7 +39,7 @@ Configurez les communications externes dans Skype Entreprise Online afin que vos
 
 ***
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Configurer Skype Entreprise communications externes en ligne](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (pas à pas guidée)
 
 [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md)
