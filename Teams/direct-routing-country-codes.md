@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Lisez cet article pour identifier les codes de pays de chemin de médias pour le routage direct afin de sélectionner le chemin de médias optimal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648123"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717995"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 Notez que Microsoft recommande de définir ce paramètre uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin de médias n’utilise pas le chemin le plus proche du centre de données SBC. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - Cette commande n’est pas disponible dans les scénarios de routage direct.
+> Le paramètre MediaRelayRoutingLocationOverride est réservé aux opérateurs gérés.
  
 ## <a name="country-code-reference-table"></a>Table de référence des codes de pays
 
@@ -233,7 +233,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Russie          | RU |
 | Rwanda          | RW |
 | Saba            | XS |
-| SaintSélecmy | BL |
+| Saint-Jérône | BL |
 | Saint-Christophe-et-Niévès | KN |
 | Sainte-Lucie     | LC |
 | Saint Martin    | PPXT |
@@ -297,4 +297,3 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Yémen           | YE |
 | Zambie          | ZM |
 | Zimbabwe        | SYSTÈME D’ÉQUIPES |
-

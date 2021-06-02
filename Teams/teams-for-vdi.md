@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656077"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717735"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -182,6 +182,11 @@ Pour en savoir plus sur Teams et Applications Microsoft 365 pour les grandes ent
         Ce processus est l’installation par défaut, Teams au dossier utilisateur %AppData%. À ce stade, la configuration de l’image dorée est terminée. Teams ne fonctionne pas correctement avec l’installation par utilisateur sur une configuration non permanente.
 
     - Installation par ordinateur
+
+        ```console
+        reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
+        ```
+        Ce processus ajoute une clé de Registre requise à l’ordinateur, qui permet au Teams de savoir qu’il s’agit d’une instance VDI.  Sans ce dernier, le programme d’installation échouera, en indiquant : « L’installation a échoué.  Installation impossible pour tous les utilisateurs lorsqu’un environnement VDI n’est pas détecté. »
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1

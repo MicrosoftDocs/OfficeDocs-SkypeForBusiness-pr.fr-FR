@@ -24,19 +24,19 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 73b0e0c6c73b86e544ade5a43756e2e80c60c25a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628933"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717875"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
 Les files d’attente des appels utilisent une méthode de routage des appelants, qui sont orientés vers les personnes de votre organisation qui pourront les aider à résoudre un problème ou répondre à une question. Les appels sont distribués les uns après les autres aux personnes présentes dans la file d’attente (appelées *agents*). 
 
 > [!TIP]
-> Cet article est de grandes organisations. Si votre organisation est une petite entreprise, lisez plutôt Créer une file d’attente [d’appels - Didacticiel](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) sur les petites entreprises.
+> Cet article est pour les grandes organisations. Si votre organisation est une petite entreprise, lisez plutôt Créer une file d’attente [d’appels - Didacticiel](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) sur les petites entreprises.
 
 Les files d’attente des appels fournissent :
 

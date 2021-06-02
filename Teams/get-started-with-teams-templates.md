@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684541"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717825"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Utiliser des modèles d’équipe à l’aide de Microsoft Graph
 
@@ -68,14 +68,14 @@ Par défaut, le modèle de base est **standard,** qui ne contient aucune applica
 
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Aucune application et propriété supplémentaire |
-| Éducation -<br>Équipe de classe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>OneNote Bloc-notes Pour la classe (épinglé à **l’onglet** Général) </li><li>Application Devoirs (épinglée à **l’onglet** Général)</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie **sur HiddenMembership** (ne peut pas être masquée)</li></ul> |
-| Éducation -<br>Équipe de membres du personnel enseignant | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>OneNote Bloc-notes pour le personnel enseignant (épinglé à **l’onglet** Général)</li></ul> |
-|Éducation -<br>Équipe PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>OneNote Bloc-notes PLC (épinglé à **l’onglet** Général)</ul></li>|
-| Commerce -<br>Magasin | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canaux :<ul><li>Transfert de shift</li><li>Apprentissage</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul> |
-| Commerce -<br>Collaboration avec les responsables | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux :<ul><li>Apprentissage</li><li>Opérations</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur Privé</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul>|
-| Soins de santé -<br>Desso |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canaux : <ul><li>Annonces\*</li><li>Blotti\*</li><li>Rondes</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux ajoutés automatiquement aux favoris |
-|Soins de santé -<br>Hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Consignataires</li><li>Ressources humaines</li></li><li>Pharmacie</li></ul>\*Canal avec favoris automatiques|
+| Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Aucune application et propriété supplémentaire |
+| Éducation -<br>Équipe de classe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>OneNote Bloc-notes Pour la classe (épinglé à **l’onglet** Général) </li><li>Application Devoirs (épinglée à **l’onglet** Général)</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie **sur HiddenMembership** (ne peut pas être masquée)</li></ul> |
+| Éducation -<br>Équipe de membres du personnel enseignant | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>OneNote Bloc-notes pour le personnel enseignant (épinglé à **l’onglet** Général)</li></ul> |
+|Éducation -<br>Équipe PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>OneNote Bloc-notes PLC (épinglé à **l’onglet** Général)</ul></li>|
+| Commerce -<br>Magasin | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | Canaux :<ul><li>Transfert de shift</li><li>Apprentissage</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul> |
+| Commerce -<br>Collaboration avec les responsables | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux :<ul><li>Apprentissage</li><li>Opérations</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur Privé</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul>|
+| Soins de santé -<br>Desso |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareWard')` |Canaux : <ul><li>Annonces\*</li><li>Blotti\*</li><li>Rondes</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux ajoutés automatiquement aux favoris |
+|Soins de santé -<br>Hôpital | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Consignataires</li><li>Ressources humaines</li></li><li>Pharmacie</li></ul>\*Canal avec favoris automatiques|
 |||
 
 
