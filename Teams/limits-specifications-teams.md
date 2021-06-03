@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628883"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717725"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -118,17 +118,6 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 ## <a name="meetings-and-calls"></a>Réunions et appels
 
-> [!IMPORTANT]
-> **Augmentation de la limite d’événements en direct Microsoft 365**
->
-> **Pour continuer à répondre aux besoins de nos clients, jusqu'au 30 juin 2021, nous prolongerons les augmentations temporaires des limites pour les événements en direct, notamment** :
->
->- Soutien aux événements accueillant jusqu'à 20 000 participants
->- 50 événements à la fois peuvent être hébergés chez un client
->- Durée de l'événement : 16 heures par diffusion
->
-> En plus les Evènements en direct avec plus de 100 000 participants peuvent être planifiés à travers le programme d’assistance Microsoft 365. L’équipe évaluera chaque demande et travail avec vous pour déterminer les options disponibles. [En savoir plus](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
 |Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC mais pas encore pour GCCH, DoD ou A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
@@ -139,7 +128,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 ### <a name="meeting-expiration"></a>Expiration de réunion
 
 > [!NOTE]
-> L'URL d'une réunion ne cessera jamais de fonctionner. L'expiration ne concerne que les numéros d'appel RTPC et/ou les stratégies et paramètres de réunion sous-jacents.
+> L'URL d'une réunion ne cessera jamais de fonctionner. L'expiration ne concerne que les numéros d'appel RTPC, les coordonnées CVI et/ou les stratégies et paramètres de réunion sous-jacents.
 
 |Type de réunion  |La réunion expire après un certain délai  |Chaque fois qu’une réunion démarre ou est mise à jour, l’expiration se prolonge d’un certain délai  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ Les limites pour les équipes de classe sont répertoriées dans le tableau suiv
 |Fonctionnalité  |Limite maximale  |
 |---------|---------|
 |Nombre de membres dans une équipe.    | Consultez la section [Équipes et canaux](#teams-and-channels) de cet article.        |
-|Nombre de membres pour utiliser Affectations dans une équipe de classe    | 200        |
-|Nombre de membres pour utiliser un bloc-notes OneNote pour la classe dans une équipe de classe     |200         |
+|Nombre de membres pour utiliser Affectations dans une équipe de classe    | 300        |
+|Nombre de membres pour utiliser un bloc-notes OneNote pour la classe dans une équipe de classe     |300         |
 
-Un équipe de classe peut prendre en charge 200 membres. Toutefois, si vous décidez d’utiliser l’application d’Assignation ou l’application des Bloc-notes de classe, vous devrez maintenir le nombre de membres en dessous de la limite maximale indiquée ci-dessus.
+Un équipe de classe peut prendre en charge 300 membres. Toutefois, si vous décidez d’utiliser l’application d’Assignation ou l’application des Bloc-notes de classe, vous devrez maintenir le nombre de membres en dessous de la limite maximale indiquée ci-dessus.
 
 ## <a name="tags"></a>Balises
 
