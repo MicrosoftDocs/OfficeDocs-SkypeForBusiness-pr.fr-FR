@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants pour Système téléphonique utilisateurs à l’aide d’une stratégie appelée CallingLineIdentity.
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants pour les utilisateurs Système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308343"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723545"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
@@ -49,11 +49,8 @@ Vous pouvez contrôler l’ID d’appelant pour les appels entrants et sortants 
 ## <a name="outbound-pstn-caller-id"></a>ID d’appelant PSTN sortant
 
 Pour l’ID d’appelant PSTN sortant, les options suivantes sont disponibles. 
-
-> [!NOTE]
-> Certaines options, indiquées ci-dessous, sont disponibles en version d’aperçu.
   
-- Le numéro de téléphone affecté à l’utilisateur (valeur par défaut).
+- Numéro de téléphone affecté à l’utilisateur (valeur par défaut).
 
 - Anonyme, disponible en supprimant la présentation du numéro PSTN de l’utilisateur. 
 
@@ -61,9 +58,9 @@ Pour l’ID d’appelant PSTN sortant, les options suivantes sont disponibles.
 
   - Un numéro de téléphone classé comme service et numéro gratuit dans l’inventaire de numéros de téléphone de vos forfaits d’appels. Elle est généralement affectée à une Teams Standard automatique ou à une file d’attente d’appels.
 
-  - **Version d’aperçu.** Un numéro de téléphone local via un routage direct affecté à un compte de ressource utilisé par une Teams Standard automatique ou une file d’attente d’appels. 
+  - Un numéro de téléphone local via un routage direct affecté à un compte de ressource utilisé par une Teams Standard automatique ou une file d’attente d’appels. 
 
-- **Version d’aperçu.** Nom de l’appelant ou nom de l’appelant dans l’appel RSTN sortant.  
+- Nom de l’appelant ou nom de l’appelant dans l’appel RSTN sortant.  
     
 Pour plus d’informations, [voir Définir l’ID d’appelant d’un utilisateur.](./set-the-caller-id-for-a-user.md)
   
@@ -73,7 +70,7 @@ Les utilisateurs peuvent définir leur paramètre d’ID d’appelant sur **Anon
 
 Si l’ID d’appelant sortant est définie sur Anonyme, le contrôle EnableUserOverride n’a aucun effet et l’ID d’appelant est toujours définie sur Anonyme. La valeur par défaut de EnableUserOverride est False.
 
-Vos utilisateurs finaux peuvent définir leur ID d’appelant sur Anonyme en sélectionnant **Paramètres > Appels,** puis sous **ID** de l’appelant, sélectionnez Masquer mon numéro de téléphone et les informations de profil pour tous les **appels.**
+Vos utilisateurs finaux peuvent définir leur ID d’appelant sur Anonyme en sélectionnant **Paramètres > Appels,** puis sous **ID** de l’appelant, sélectionnez Masquer mon numéro de téléphone et les informations de profil pour tous **les appels.**
 
 ### <a name="notes"></a>Remarques
 
@@ -81,7 +78,7 @@ Tenez compte des points suivants :
 
 - Vous ne pouvez pas affecter les types suivants de numéros de téléphone à l’ID d’appelant sortant :
 
-  - Les numéros de téléphone classés comme utilisateurs dans le stock des numéros de téléphone de vos forfaits d’appels.
+  - Les numéros de téléphone classés comme utilisateurs dans l’inventaire de numéros de téléphone de vos forfaits d’appels.
 
   - Tout numéro de téléphone local via un routage direct affecté à un utilisateur.
 
@@ -89,7 +86,7 @@ Tenez compte des points suivants :
 
 - L’utilisation du substitution de numéros de téléphone de compte de ressource fonctionne uniquement pour Teams utilisateurs. Le remplacement d’un numéro de téléphone de service est disponible pour les Skype Entreprise Ligne et Teams service.
 
-- Le nom de l’appelant n’est envoyé que sur les appels pour lequel l’ID d’appelant remplace LineUri, un numéro de téléphone de compte de service ou de ressource, et lorsque l’appelant est Teams utilisateur.
+- Le nom de l’appelant n’est envoyé que sur les appels pour lequel l’ID d’appelant remplace LineUri, un numéro de téléphone de compte de service ou de ressource, et lorsque l’appelant est un Teams utilisateur.
 
 - Le nom de l’appelant peut avoir un maximum de 200 caractères, mais les systèmes en aval peuvent prendre en charge moins de caractères.
 

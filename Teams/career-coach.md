@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699355"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729787"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer Career Coach pour les Microsoft Teams
 
@@ -110,7 +110,7 @@ Utilisez la [page Gérer les applications](/microsoftteams/manage-apps) pour aff
 
 4. Sélectionnez **Career Coach,** puis **sélectionnez Paramètres.**  
 
-    ![affiche l’application Career Coach sélectionnée avec l’option de Paramètres l’affichage](media/app-settings.png)
+    ![affiche l’application Career Coach sélectionnée avec l’option de Paramètres l’affichage](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>Configurer les paramètres de l’application Career Coach
 
@@ -133,7 +133,7 @@ Career Coach se classe dans cinq catégories de configuration :
 
 Définissez le nom, le logo et la langue par défaut de votre établissement d’enseignement sur la page des paramètres de marque et de préférences.
 
-![Section Image de marque Career Coach du Centre d’administration](media/brand-preferences.png)
+![Section Image de marque Career Coach du Centre d’administration](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Icône établissement d’enseignement
 
@@ -172,7 +172,7 @@ Déterminez la page LinkedIn de l’établissement d’enseignement. Recherchez 
 
 4. Copiez l’URL de vérification et partagez-la avec la documentation de l’administrateur de la page LinkedIn de votre établissement d’enseignement [LinkedIn.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) Le lien de vérification expire après 30 jours.  
 
-   ![Paramètres Linkedin pour l’entraîneur professionnel](media/linkedin.png)  
+   ![Paramètres Linkedin pour l’entraîneur professionnel](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>Catalogue de cours
 
