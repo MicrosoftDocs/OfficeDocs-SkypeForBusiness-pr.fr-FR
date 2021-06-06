@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717865"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777799"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -43,17 +43,12 @@ Les attendants automatiques peuvent diriger les appels, sur la base de l’entr�
 - **Opérateur** (opérateur défini pour le transport automatique). La définition d’un opérateur est facultative. L’opérateur peut être défini comme n’importe quelle autre destination dans cette liste.
 - **Une personne de votre organisation** qui peut recevoir des appels vocux. Cette personne peut être un utilisateur en ligne ou hébergé sur site à l’aide d’Skype Entreprise Server.
 - **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels. (Choisissez le compte de ressource associé au port automatique ou à la file d’attente d’appels lorsque vous choisissez cette destination.)
-- **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez.
+- **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messages vocaux et le message « Veuillez laisser un message après le ton ». invite système.
 - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. (Voir [les détails techniques du transfert externe).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **Annonce (fichier audio)** : lire un fichier audio. Message d’annonce enregistré que vous téléchargez enregistré en tant qu’audio dans . WAV, .MP3, ou . Format WMA. L’enregistrement ne peut pas avoir une taille supérieure à 5 Mo. Le système lit l’annonce, puis revient au menu du transport automatique.
 - **Annonce (tapée)** : taper un message. Texte que le système doit lire. Vous pouvez entrer jusqu’à 1 000 caractères. Le système lit l’annonce, puis revient au menu du transport automatique.
 
 Vous serez invité à choisir l’une de ces options à différents stades lorsque vous configurerez un attendant automatique.
-
-> [!NOTE]
-> Lorsque vous choisissez la messagerie vocale comme destination, deux options supplémentaires sont disponibles :
-> - **Transcription** (par défaut : non) : lorsqu’il est activé, le message vocal est transcrit et inclus dans le message électronique.
-> - **Supprimer le message** d’accueil (par défaut : non activé) : lorsqu’il est activé, le message système standard « Veuillez laisser un message après le ton. Lorsque vous avez terminé, veuillez raccrocher ou appuyer sur le hachage pour plus d’options. » ne sera pas supprimée.
 
 Pour configurer un attendant automatique, dans le centre Teams’administration, développez **Voix,** sélectionnez **Les attendants automatiques,** puis **sélectionnez Ajouter.**
 

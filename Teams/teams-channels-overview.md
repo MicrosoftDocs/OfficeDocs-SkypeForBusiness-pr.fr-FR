@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: HT
+ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865168"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739544"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -54,12 +54,11 @@ Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques po
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-<a name="membership-roles-and-settings"></a>Appartenance, rôles et paramètres
-------------------------------
+## <a name="membership-roles-and-settings"></a>Appartenance, rôles et paramètres
 
 **Appartenance à une équipe**
 
-Lorsque Microsoft Teams est activé pour l'ensemble de votre organisation, les propriétaires d'équipe désignés peuvent inviter les employés avec lesquels ils travaillent à rejoindre leur équipe. Microsoft Teams permet aux propriétaires d’équipe d’ajouter facilement des personnes de l’organisation selon leur nom. En fonction des paramètres de votre organisation, des invités qui sont membres d’une équipe mais externes à votre organisation peuvent également être ajoutés à vos équipes. Reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md) pour plus d’informations. 
+Lorsque Microsoft Teams est activé pour l'ensemble de votre organisation, les propriétaires d'équipe désignés peuvent inviter les employés avec lesquels ils travaillent à rejoindre leur équipe. Microsoft Teams permet aux propriétaires d’équipe d’ajouter facilement des personnes de l’organisation selon leur nom. Selon les paramètres de votre organisation, des personnes extérieures à votre organisation peuvent être ajoutées à vos équipes en tant qu’invités. Reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md) pour plus d’informations. 
 
 Les propriétaires d’équipe peuvent également créer une équipe basée sur un groupe Microsoft 365 existant. Toutes les modifications apportées au groupe seront synchronisées automatiquement avec Microsoft Teams. Créer une équipe basée sur un groupe Microsoft 365 existant simplifie non seulement le processus d’invitation et de gestion des membres, mais synchronise également les fichiers du groupe au sein de Microsoft Teams.
 
@@ -71,6 +70,9 @@ Il existe deux rôles principaux dans Microsoft Teams :
 - **Membres d’une équipe** : les personnes que les propriétaires peuvent inviter à rejoindre leur équipe.
 
 De plus, si la modération est mise en place, les propriétaires et les membres de l'équipe peuvent avoir les capacités de modérateur pour un canal. Les modérateurs peuvent commencer de nouvelles publications dans un canal et contrôler si les membres d’une équipe peuvent répondre aux messages existants. Les propriétaires d’équipe peuvent affecter des modérateurs au sein d’un canal. (Les propriétaires d'équipe ont des capacités de modérateur par défaut.) Les modérateurs d'un canal peuvent ajouter ou supprimer d'autres modérateurs de ce canal. Si vous souhaitez en savoir plus, consultez l’article [Configurer et gérer la modération des canaux dans Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+> [!NOTE]
+> Lorsque vous ajoutez un propriétaire d’équipe, il est également ajouté en tant que membre, sauf lorsque l’équipe est créée dans le Centre d’administration Teams ou lorsqu’une équipe est ajoutée à un groupe Microsoft 365 nouveau ou existant.
 
 **Paramètres de l’équipe** 
 
@@ -86,8 +88,7 @@ Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Mi
 
 Pour faire adopter Microsoft Teams par les utilisateurs, l’une des première activités de planification consiste à mener une réflexion sur l'amélioration de la collaboration dans le travail quotidien grâce à Teams. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée. Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
 
-<a name="example-teams"></a>Exemple Teams
---------------
+## <a name="example-teams"></a>Exemple Teams
 
 Vous trouverez ci-dessous quelques exemples fonctionnels sur la façon dont les différents types d'utilisateurs abordent la configuration de leurs équipes, canaux et applications (onglets/connecteurs/robots). Cela peut être utile de lancer une conversation sur Microsoft Teams avec votre communauté d'utilisateurs. Lorsque vous réfléchissez à la façon d'implémenter Microsoft Teams dans votre organisation, n'oubliez pas que vous pouvez fournir des conseils aux utilisateurs sur la façon de structurer leurs équipes, même si ces derniers contrôlent la façon dont ils veulent s’organiser. Ce ne sont que des exemples pour aider les équipes à commencer à réfléchir aux possibilités.
 

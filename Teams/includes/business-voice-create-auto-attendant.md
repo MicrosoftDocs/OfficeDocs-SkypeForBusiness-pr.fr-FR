@@ -82,7 +82,7 @@ Pour configurer un attendant automatique
 
 4. Spécifiez le fuseau horaire de ce attendant automatique. Le fuseau horaire est utilisé pour calculer les heures d’ouverture si vous créez un flux d’appels distinct pour les heures de travail en de suite.
 
-5. Spécifiez une langue pour ce attendant automatique. Il s’agit de la langue qui sera utilisée pour les invites vocales générées par le système.
+5. Spécifiez une [langue prise en](../create-a-phone-system-auto-attendant-languages.md) charge pour ce attendant automatique. Il s’agit de la langue qui sera utilisée pour les invites vocales générées par le système. 
 
 6. Choisissez si vous voulez activer les entrées vocales. Lorsqu’elle est activée, le nom de chaque option de menu devient un mot clé de reconnaissance vocale. Par exemple, les appelants peuvent dire « Un » pour sélectionner l’option de menu mappée vers la touche 1, ou dire « Ventes » pour sélectionner l’option de menu appelée « Ventes ».
 
@@ -122,7 +122,7 @@ Choisir vos options de flux d’appels
     - **Une personne de l’organisation,** une personne de votre organisation qui peut recevoir des appels vocux.
     - **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels.
     - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. Utilisez ce format : +[code pays][code de zone][numéro de téléphone]
-    - **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez.
+    - **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messages vocaux et le message « Veuillez laisser un message après le ton ». invite système.
     - **Opérateur** (opérateur défini pour le transport automatique). La définition d’un opérateur est facultative. L’opérateur peut être défini comme n’importe quelle autre destination dans cette liste.
 
     Nous vous recommandons de définir 0 touche sur l’opérateur.

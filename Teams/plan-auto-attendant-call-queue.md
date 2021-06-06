@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les files d’attente et les files d’attente automatiques et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre des personnes ou des services de votre organisation.
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517747"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739634"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier la mise Teams automatiques et des files d’attente d’appels
 
@@ -152,7 +152,7 @@ Lorsque les appels sont redirigés par un agent automatique ou une file d’atte
 - **Une personne de l’organisation,** une personne de votre organisation qui peut recevoir des appels vocux. Il peut s’agit d’un utilisateur en ligne ou d’un utilisateur hébergé sur site à l’aide d Skype Entreprise Server.
 - **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels. Choisissez le compte de ressource associé à la destination.
 - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. (Voir [les détails techniques du transfert externe).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez.
+- **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messages vocaux et le message « Veuillez laisser un message après le ton ». invite système.
 - **Opérateur** (attendant automatique uniquement) : l’opérateur défini pour le transport automatique. La définition d’un opérateur est facultative. Un opérateur peut être l’une des autres destinations de cette liste.
 
 Les attendants automatiques proposent des options de routage d’appel distinctes pour les appels reçus en dehors des heures d’ouverture et des jours fériés. Le routage des appels hors heures d’ouverture autorise toutes les options répertoriées ci-dessus, tandis que le routage des appels en de congés ne permet que de rediriger ou de déconnecter un appel, mais aucune option de touche de numérotation.

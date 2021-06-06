@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Découvrez comment configurer des files d’attente d’appels pour les petites entreprises dans Microsoft 365 Business Voice.
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629053"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739684"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Créer une file d’attente d’appels - Didacticiel pour les petites entreprises
 
@@ -136,9 +136,13 @@ Nous allons ensuite commencer à créer une file d’attente d’appels et affec
 
 2. Cliquez sur **Ajouter des comptes**, recherchez le compte de ressource que vous souhaitez utiliser avec cette file d’attente des appels, cliquez sur **Ajouter**, puis de nouveau sur **Ajouter**.
 
+3. (Facultatif) Sous **Attribuer un ID** d’appel, cliquez sur **Ajouter,** recherchez les comptes de ressources que vous avez créés pour votre employé de service automatique, cliquez sur **Ajouter,** puis sur **Ajouter.** Les agents d’appel auront ainsi l’ID de l’appelant de votre ligne principale lorsqu’ils l’appelleront.
+
+    ![Capture d’écran des paramètres d’ID d’appel](../media/call-queue-assign-calling-id.png)
+
 3. Choisissez une langue. Nous utiliserons cette langue pour les invites vocales générées par le système et la transcription de la messagerie vocale (si vous les activez).
 
-    ![Capture d’écran du compte de ressource et des paramètres de langue](../media/call-queue-name-language.png)
+    ![Capture d’écran des paramètres du compte de ressource](../media/call-queue-name-language.png)
 
 4. Indiquez si vous souhaitez diffuser un message d’accueil aux appelants lorsqu’ils arrivent dans la file d’attente. Vous devez télécharger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous souhaitez diffuser.
 
