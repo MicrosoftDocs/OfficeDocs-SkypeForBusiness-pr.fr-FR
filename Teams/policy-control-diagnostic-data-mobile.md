@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569232"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723565"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
@@ -109,10 +109,6 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
   - des numéros depuis les paramètres.
 - **blockChat** : une conversation de robot est bloquée. Ceci améliore la télémétrie existante concernant les conversations, et ne fait qu’ajouter des informations sur l’application.
 - **botClickCardAction** : utilisation de la carte de connecteur.
-- **brbFeedback** : en relation avec les performances du formulaire de commentaires BRB.
-- **brbFormCancelled** : le formulaire de commentaires BRB est annulé et l’utilisateur retourne à l’application.
-- **brbFormOpened** : le formulaire BRB est ouvert.
-- **brbFormSubmit** : appui sur **Envoyer** sur le formulaire de commentaires.
 - **breakStartEndClicked** : appui sur **Début** ou **Fin de la pause** sur l’écran de pointage.
 - **breakStartEndTriggered** : choix de l’utilisateur de prendre ou terminer sa pause.
 - **bucketSelected** : confirmation de la sélection réussie d’un compartiment.
@@ -348,6 +344,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **companionDismissProximity** : la bannière du compagnon est masquée.
 - **companionJoin** : appui sur l’option Rejoindre en tant que compagnon sur la feuille.
 - **companionJoinProximity** : l’utilisateur a rejoint par le biais de la bannière de compagnon.
+- **completeVaultFRE** : l’utilisateur termine le processus de génération d’une clé principale utilisée pour chiffrer ses données fiables.
 - **completionStateChange** : appui sur un filtre bascule d’état Achevé ou Inachevé dans l’affichage de filtres de la liste des tâches.
 - **composeExpandComposer** - appui sur **Mise en forme**.
 - **composeFilePick** : le sélecteur de fichier natif est démarré.
@@ -436,6 +433,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **deleteMeeting** : appui sur **Supprimer** depuis la page Détails de la réunion.
 - **deletePersonalTask** : confirme la suppression réussie d’une tâche personnelle.
 - **deletePersonalSubtask** : confirme la suppression réussie d’une sous-tâche personnelle.
+- **deletePersonalVaultItem** : l’utilisateur demande à supprimer son coffre-fort personnel.
 - **deletePlannerTask** : confirme l’opération réussie de suppression d’une tâche partagée.
 - **deleteShift** : un shift est supprimé.
 - **duration_picker_dismissed** : le sélecteur de durée est masqué.
@@ -575,6 +573,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **funSelectItem** : une image Giphy a été choisie. Données de performance pour la fonctionnalité de pièce jointe Giphy sur Teams.
 - **galleryImage** : une image a été chargée – galerie.
 - **get_directions_clicked** : appui sur **Obtenir un itinéraire**.
+- **giphyUserDisabled** : l’utilisateur choisit de refuser les conditions générales Giphy.
+- **giphyUserEnabled** : l’utilisateur choisit d’accepter les conditions générales Giphy.
 - **goToNotificationSettings** : l’utilisateur accède à la page de paramètres de notification depuis la boîte de dialogue **Nous avons mis à jour les paramètres de notification**.
 - **GPSPromptClicked** : appui sur **Autoriser** ou **Refuser** dans une invite du système d’exploitation. Autorise le GPS ou non.
 - **group_map_closed** : l’utilisateur ouvre l’affichage de carte géographique depuis une conversation.
@@ -621,6 +621,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **labelSelected** : une étiquette a été sélectionnée.
 - **labelUnselected** : une étiquette a été désélectionnée.
 - **launchLinksGallery** : l’utilisateur accède à la galerie depuis le tableau de bord.
+- **launchSlideshow** : l’utilisateur lance la visionneuse d’images en plein écran du diaporama à partir de l’un des trois emplacements de fonctionnalités d’application possibles. 
 - **Source de l’exécution, par exemple : directement, par un lien, par appShortcut** : s’exécute directement ou par un lien (enregistre la télémétrie de gestion des applications mobiles (GAM) ou de Gestion des périphériques mobiles (GPM) lors du démarrage de l’application pour collecter des données sur les utilisateurs actifs).
 - **leaveChat** : l’utilisateur quitte la conversation.
 - **legacyChatLink** : un lien vers une conversation héritée est sélectionné.
@@ -660,7 +661,9 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **location_sharing_stop** : l’utilisateur arrête le partage de sa position dans une conversation.
 - **loginFailed** : l’utilisateur n’a pas pu se connecter.
 - **loginSuccess** : l’utilisateur a pu se connecter.
+- **logoutVault** : l’utilisateur se déconnecte de l’application et se déconnecte à son tour du coffre-fort. 
 - **manageBlockedNumbers** : l’utilisateur accède aux numéros bloqués par les paramètres.
+- **manageVaultKey** : l’utilisateur modifie son choix de gestion des clés sécurisées (MSA ou auto-suivi).
 - **ManuelSendMessage** : un message est envoyé manuellement.
 - **mapAppPicker** : l’utilisateur sélectionne l’application de cartes géographiques qui doit être utilisée à l’appui d’une carte d’emplacement.
 - **markAsRead** : Marquer comme Lu.
@@ -712,6 +715,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **meetingUserFreemium** : un utilisateur freemium a rejoint la réunion.
 - **meetingUserGuest** : un utilisateur invité a rejoint la réunion.
 - **meetingUserTenant** : un utilisateur dans le client a rejoint la réunion.
+- **memeGenerated** : lorsqu’un mème est généré en fonction d’une entrée utilisateur de données d’image et de texte. 
 - **messageCopyMessage** : Copier le message.
 - **messageDelete** : Supprimer le message.
 - **messageEditMessage** : Modifier le message.
@@ -944,6 +948,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **requestToJoinTeam** : Demander à rejoindre l’équipe (publique ou privée).
 - **requestToJoinTeamError** : erreur liée à la demande de participation.
 - **requestTypeClicked** : indique le type de demandes que les utilisateurs sélectionnent depuis le sélecteur de demandes.
+- **resetLocalVault** : l’utilisateur réinitialise et efface toutes les données sécurisées de son appareil.
 - **resolveIssue** - appui sur **Résoudre** dans le menu volant de conseils de dépannage des notifications afin d’accéder à l’application bloquante.
 - **responseClicked** : l’utilisateur appuie sur une page de réponse.
 - **retryButtonClicked** : appui sur **Réessayer**.
@@ -1007,6 +1012,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **setting/dismiss** : paramètre de contacts de l’appareil.
 - **settingsNavReadReceiptNotice** : l’utilisateur accède aux paramètres depuis l’avis de fonctionnalité.
 - **settingsOpened** : le fuseau horaire de l’appareil de l’utilisateur ne correspond pas à celui de l’équipe et l’utilisateur accède aux Paramètres.
+- **setupPinVault** : l’utilisateur enregistre un code confidentiel sécurisé pour son compte. 
 - **shareFile** : appui sur **Partager un fichier**. Permet également de vérifier que :
   - l’utilisateur a pu lancer l’opération de partage de fichier ;
   - l’utilisateur peut partager le fichier.
@@ -1187,6 +1193,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **voicemail – aucun AS affecté** : un orateur appuie sur un élément de messagerie vocal.
 - **whiteboardUsed** : l’utilisateur annote le tableau blanc (toute action sur le WebView).
 - **wiki – aucun AS affecté** : données de télémétrie d’usage de Wiki.
+- **poorNetworkBanner** : bannière réseau médiocre affichée.
+- **badNetworkBanner** : bannière réseau de mauvaise qualité affichée.
 
 ### <a name="panelview"></a>PanelView
 
@@ -1224,6 +1232,11 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 > [!NOTE]
 > Pour en savoir plus sur les propriétés des événements PanelAction, consulter la section [Propriétés envoyées avec les événements de scénarios](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch** confirme que le nombre de cachets est correctement mis à jour pour le lancement à froid.
+- **app_incremental_sync_resume** confirme que le nombre de cachets est correctement mis à jour pour le lancement à chaud.
+- **app_start_cold** Pour surveiller le lancement de l’application à froid (Android uniquement).
+- **app_start_hot** Pour surveiller le lancement de l’application à chaud (Android uniquement).
+- **app_start_warm** Pour surveiller le lancement de l’application à chaud (Android uniquement).
 - **chat_add_giphy** - Confirme que l’action de rendu GIF Giphy a été effectuée.
 - **CortanaError** : pour surveiller les erreurs de Cortana.
 - **cortanaView** : pour surveiller l’apparition de la zone de dessin Cortana.
@@ -1278,6 +1291,18 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **upload_image** confirme que l’action de chargement de l’image a réussi ou échoué.
 - **upload_voice_messages** confirme que l’action de chargement de message vocal a réussi ou échoué.
 - **voiceMessageUpload** confirme que l’action de chargement de message vocal a réussi ou échoué.
+- **cancel_channel_meeting** confirme que l’annulation d’une réunion de canal a réussi ou échoué.
+- **cancel_meeting** confirme que l’annulation d’une réunion a réussi ou échoué.
+- **cancel_private_meeting** confirme que l’annulation d’une réunion privée a réussi ou échoué.
+- **edit_channel_meeting** confirme que l’opération modification d’une réunion de canal a réussi ou échoué.
+- **edit_meeting** confirme que l’opération de modification d’une réunion a réussi ou échoué.
+- **server_fetch_agenda_view** confirme que la synchronisation des événements de calendrier à l’aide de l’API de niveau intermédiaire a réussi ou échoué.
+- **server_fetch_date_picker_view** confirme que la synchronisation des événements de calendrier à l’aide de l’API REST d’Outlook a réussi ou échoué.
+- **server_fetch_agenda_view_group** confirme que la synchronisation des événements de calendrier à l’aide de l’API de niveau intermédiaire pour le groupe TFL a réussi ou échoué.
+- **server_fetch_date_picker_view_incremental** confirme que la synchronisation incrémentielle des événements du calendrier à l'aide de l'API REST d'Outlook a réussi ou échoué.
+- **meeting_details** confirme que la synchronisation des détails de la réunion a réussi ou échoué.
+- **show_meeting_participants** confirme que l’affichage de la liste des participants à la réunion a réussi ou échoué.
+
 
 ## <a name="property-lists"></a>Listes des propriétés
 
