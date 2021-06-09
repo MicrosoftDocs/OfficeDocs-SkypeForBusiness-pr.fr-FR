@@ -827,10 +827,12 @@ items:
             items:
               - name: Configurer la Messagerie vocale cloud
                 href: set-up-phone-system-voicemail.md
+              - name: Gérer les stratégies de messagerie vocale
+                href: manage-voicemail-policies.md
               - name: Modifier la langue par défaut de la messagerie vocale
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Langues pour les messages et l’accueil de la messagerie vocale
-                href: languages-for-voicemail-greetings-and-messages.md
+                href: languages-for-voicemail-greetings-and-messages-teams.md
           - name: ID de l’appelant
             items:
               - name: Utilisation d’un ID d’appelant dans votre organisation
