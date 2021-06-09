@@ -1,5 +1,5 @@
 ---
-title: Packages de stratégie Teams pour le gouvernement
+title: Teams packages de stratégies pour le gouvernement
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer les packages de stratégie Teams pour votre organisation gouvernementale.
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Découvrez comment utiliser et gérer Teams packages de stratégie pour votre organisation gouvernementale.
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117772"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796868"
 ---
-# <a name="teams-policy-packages-for-government"></a>Packages de stratégie Teams pour le gouvernement
+# <a name="teams-policy-packages-for-government"></a>Teams packages de stratégies pour le gouvernement
 
 > [!NOTE]
-> Les packages de stratégie ne sont actuellement pas disponibles dans les déploiements Microsoft 365 Government GCC High ou DoD.
+> Les packages de stratégie ne sont actuellement pas disponibles Microsoft 365 dans les déploiements Cloud de la communauté du secteur public Administration publique en haut ou à DoD.
 
 ## <a name="overview"></a>Présentation
 
@@ -71,7 +71,10 @@ Gardez à l’esprit que vous pouvez également modifier les paramètres des str
 
 ### <a name="assign"></a>Attribuer
 
-Attribuer le package stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+Affecter un package de stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+
+> [!NOTE]
+> Chaque utilisateur aura besoin du module de communication avancée pour recevoir une affectation de package de stratégie personnalisé. Pour plus d’informations, [consultez le module complémentaire Communications avancées pour Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Attribuer un package de stratégie à un ou plusieurs utilisateurs
 
@@ -101,4 +104,4 @@ Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des u
 
 [Gérer les packages de stratégie dans Teams](manage-policy-packages.md)
 
-[Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+[Attribuer des packages de stratégies à des utilisateurs et groupes](assign-policy-packages.md)

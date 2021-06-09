@@ -18,37 +18,40 @@ description: Découvrez les différentes façons d’attribuer des packages de s
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0266cb5c34a13df0dac62be2258134e553a357d8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574316"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796828"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Attribuer des packages de stratégies à des utilisateurs et groupes
 
-Cet article passe en revue les différentes façons d’attribuer des packages de stratégie aux utilisateurs et groupes dans Microsoft Teams. Avant de lire, assurez-vous de lire Attribuer [des stratégies dans Teams.](policy-assignment-overview.md)
+Cet article passe en revue les différentes manières d’attribuer des packages de stratégie aux utilisateurs et groupes Microsoft Teams. Avant de lire, veillez à lire Attribuer des stratégies [Teams mise en place.](policy-assignment-overview.md)
+
+> [!NOTE]
+> Chaque utilisateur aura besoin du module de communication avancée pour recevoir une affectation de package de stratégie personnalisé. Pour plus d’informations, [consultez le module complémentaire Communications avancées pour Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 ## <a name="assign-a-policy-package-to-users"></a>Attribuer un package de stratégies aux utilisateurs
 
-Un package de stratégie dans Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles identiques ou similaires dans votre organisation. Chaque package de stratégie est conçu autour d’un rôle d’utilisateur et inclut des stratégies et paramètres de stratégie prédéfinés qui supportent des activités classiques pour ce rôle. Le package Éducation (enseignant) et le package Soins de santé (travailleurs cliniques) sont quelques exemples de packages de stratégie. Pour en savoir plus, [consultez Gérer les packages de stratégie dans Teams.](manage-policy-packages.md)
+Un package de stratégie dans Teams est un ensemble de stratégies et paramètres de stratégie prédéfinés que vous pouvez affecter aux utilisateurs ayant des rôles identiques ou similaires dans votre organisation. Chaque package de stratégie est conçu autour d’un rôle d’utilisateur et inclut des stratégies et paramètres de stratégie prédéfinés qui supportent des activités classiques pour ce rôle. Le package Éducation (enseignant) et le package Soins de santé (travailleurs cliniques) sont quelques exemples de packages de stratégie. Pour plus d’informations, [voir Gérer les packages de stratégie dans Teams.](manage-policy-packages.md)
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Attribuer un package de stratégie à un utilisateur
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Utilisateurs, puis l’utilisateur.
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez Utilisateurs, puis l’utilisateur.
 2. Dans la page de l’utilisateur, sélectionnez **Stratégies,** puis, à côté du **package** de stratégie, sélectionnez **Modifier.**
 3. Dans le **volet Attribuer un package** de stratégie, sélectionnez le package à attribuer, puis sélectionnez **Enregistrer.**
 
-![Capture d’écran du Centre d’administration Teams pour l’affectation d’un package de stratégie à un utilisateur](media/assign-policypackages-user.png)
+![Teams d’administration pour l’affectation d’un package de stratégie à un utilisateur](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Attribuer un package de stratégie à plusieurs utilisateurs
 
-1. Dans la navigation gauche du Centre d’administration Microsoft Teams, sélectionnez **Packages** de stratégie, puis sélectionnez le package de stratégie à attribuer en cliquant à gauche du nom du package.
+1. Dans le navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Packages de **stratégie,** puis sélectionnez le package de stratégie à attribuer en cliquant à gauche du nom du package.
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **Enregistrer.**
 
-![Capture d’écran du Centre d’administration Teams pour l’affectation d’un package de stratégie à plusieurs utilisateurs](media/assign-policypackages-multipleusers.png)
+![Teams d’administration pour l’affectation d’un package de stratégie à plusieurs utilisateurs](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Attribuer le package stratégie à un groupe
 
@@ -83,9 +86,9 @@ Lorsque vous attribuez le package de stratégie, il est immédiatement affecté 
 
 ### <a name="work-with-powershell"></a>Travailler avec PowerShell
 
-#### <a name="get-the-teams-powershell-module"></a>Obtenir le module Teams PowerShell
+#### <a name="get-the-teams-powershell-module"></a>Obtenir le module PowerShell Teams’équipe
 
-Pour obtenir une aide étape par étape, voir [Installer Teams PowerShell.](teams-powershell-install.md)
+Pour obtenir des instructions pas à pas, voir [Installer Teams PowerShell.](teams-powershell-install.md)
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Affecter un package de stratégie à un groupe d’utilisateurs
 
@@ -107,13 +110,13 @@ Un lot contient jusqu’à 5 000 utilisateurs. Pour de meilleurs résultats, n�
 
 ### <a name="use-the-teams-powershell-module"></a>Utiliser le module Teams PowerShell
 
-Exécutez la commande suivante pour installer [le module Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (si vous ne l’avez pas déjà fait). Veillez à installer la version 1.0.5 ou ultérieure.
+Exécutez la commande suivante pour installer [Microsoft Teams module PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (si vous ne l’avez pas déjà fait). Veillez à installer la version 1.0.5 ou ultérieure.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-Exécutez ce qui suit pour vous connecter à Teams et démarrer une session.
+Exécutez ce qui suit pour vous connecter Teams et démarrer une session.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -145,9 +148,9 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 Pour en savoir plus, [consultez Get-CsBatchPolicyAssignmentOperation.](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-- [Gérer Teams avec des stratégies](manage-teams-with-policies.md)
+- [Gérer les Teams des stratégies](manage-teams-with-policies.md)
 - [Gérer les packages de stratégie dans Microsoft Teams](manage-policy-packages.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies dans Teams - Mise en place](policy-assignment-overview.md)
+- [Attribuer des stratégies dans Teams - mise en place](policy-assignment-overview.md)

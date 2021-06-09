@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656027"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796647"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams comportement des applications pour les utilisateurs non standard
 
@@ -63,13 +63,13 @@ Les robots peuvent envoyer un message de façon proactive aux utilisateurs invit
 
 ### <a name="install-update-and-delete-for-external-users"></a>Installer, mettre à jour et supprimer des utilisateurs externes
 
-Les utilisateurs externes ne peuvent pas installer, mettre à jour ou supprimer des applications dans n’importe quel contexte, tel qu’une conversation personnelle, un canal ou une réunion. Ils n’ont pas accès au Teams App Store.
+Les utilisateurs externes ne peuvent pas installer, mettre à jour ou supprimer des applications dans n’importe quel contexte, tel qu’une conversation personnelle, un canal ou une réunion. Ils n’ont pas accès au magasin d Teams apps de l’organisation d’hébergement.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs externes
 
-- Des personnes d’autres organisations respectent la stratégie d’autorisation des utilisateurs par défaut de l’organisation d’hébergement et les paramètres à l’échelle de l’organisation.
-- Les utilisateurs de l’organisation d’hébergement peuvent ajouter des applications aux conversations de réunion avec des personnes d’autres organisations. Les personnes d’autres organisations ne peuvent pas ajouter d’applications dans les conversations de réunion, mais peuvent interagir avec les bots et les onglets une fois ajoutés à la conversation.
-- Une fois qu’un robot est installé dans une conversation, il peut communiquer de façon proactive avec les personnes d’autres organisations au cours de cette conversation et ces personnes peuvent communiquer avec le robot.
+- Les membres d’autres organisations respectent la stratégie globale (à l’échelle de l’organisation par défaut) de l’organisation d’hébergement
+- Les utilisateurs de l’organisation d’hébergement peuvent ajouter des applications aux conversations de réunion avec des personnes d’autres organisations. Les utilisateurs d’autres organisations ne peuvent pas ajouter d’applications dans les conversations de réunion, mais peuvent interagir avec des bots, des onglets et des extensions de message une fois ajoutés à la conversation.
+- Une fois qu’un robot est installé dans une conversation de réunion, il peut communiquer de façon proactive avec les personnes d’autres organisations au cours de cette conversation et ces personnes peuvent communiquer avec le robot.
 - Les stratégies de données de l’organisation d’hébergement, ainsi que les pratiques de partage de données des applications tierces partagées par l’organisation de cet utilisateur, sont appliquées.
 
 ## <a name="anonymous-users"></a>Utilisateurs anonymes

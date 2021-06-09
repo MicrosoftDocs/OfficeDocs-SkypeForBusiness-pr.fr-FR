@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a23c54003f700b3d6dc3e0c45cbbc9ee42a311ed
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117792"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796838"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégies Teams pour l’éducation
 
@@ -35,7 +35,7 @@ ms.locfileid: "51117792"
 > [!NOTE]
 > Pour plus d’informations sur les stratégies dans Microsoft Teams, voir [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams](assign-policies.md).
 
-## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administrateurs : prise en main de la gestion de stratégie Microsoft Teams
+## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administrateurs : prise en main de la gestion de stratégie Microsoft Teams
 
 Microsoft Teams permet aux utilisateurs de faire des choses comme participer à des réunions en ligne ou des événements en direct, une conversation, effectuer des appels et utiliser des applications. La définition des bonnes stratégies d’administration Microsoft Teams est une étape essentielle pour s’assurer  que Teams est un environnement d’apprentissage sûr pour les étudiants. En tant qu’administrateur, vous pouvez utiliser des stratégies pour contrôler les fonctionnalités Teams mises à la disposition des utilisateurs de votre établissement d’enseignement. Dans la plupart des cas, les stratégies doivent être adaptées aux étudiants et aux enseignants pour conserver la sécurité de l’environnement.  
 
@@ -54,7 +54,7 @@ Vous pouvez gérer toutes les stratégies Teams dans le[Centre d’administratio
 
 ### <a name="where-to-find-microsoft-teams-policies"></a>Où trouver les stratégies Microsoft Teams
 
-Une fois connecté au Centre d’administration Teams, vous pouvez accéder aux paramètres de stratégie de toutes les zones Teams que vous devez gérer en cliquant sur l’option de stratégie dans la section navigation à gauche du Centre d’administration Teams. Nous avons inclus une capture d’écran de l’emplacement des stratégies de messagerie.
+Une fois que vous êtes connecté au Centre d’administration Teams, vous pouvez accéder aux paramètres de stratégie pour n’importe quelle zone de Teams que vous devez gérer, en cliquant sur l’option de stratégie dans le volet de navigation gauche du Centre d’administration Teams. Nous avons inclus une capture d’écran de l’emplacement des stratégies de messagerie.
 
 :::image type="content" source="media/edu-messaging-policies.png" alt-text="Emplacement des stratégies de messagerie dans le centre d’administration Teams.":::
 
@@ -124,7 +124,7 @@ Les établissements d’enseignement en général ont de nombreux utilisateurs a
 > [!IMPORTANT] 
 > Notre recommandation principale est d’utiliser la définition de stratégie Globale (à l’échelle de l’Organisation par défaut) pour les étudiants au lieu d’un package de stratégie. Ainsi, les nouveaux utilisateurs au sein de votre organisation disposent toujours de l’ensemble de stratégies le plus strict approprié aux étudiants. Si cette recommandation ne répond pas aux besoins de votre établissement, l’un des packages de stratégie étudiant ci-dessous peut être une bonne alternative. 
 
-À l’instar de la liste de stratégies susmentionnée dans cet article, les packages de stratégie prédéfinissent les stratégies suivantes pour ce qui suit :
+À l’instar de la liste de stratégies susmentionnée dans cet article, les packages de stratégie prédéfinissent les stratégies suivantes pour ce qui suit :
 
 - Réunions
 - Événements en direct
@@ -132,7 +132,7 @@ Les établissements d’enseignement en général ont de nombreux utilisateurs a
 - Messagerie
 - Autorisations d’application
 
-Microsoft Teams inclut actuellement les packages de stratégie suivants :
+Microsoft Teams inclut actuellement les packages de stratégie suivants :
 
 |Nom du package répertorié dans le Centre d’administration Microsoft Teams |Idéal pour  |Description |
 |:--- |:--- |:--- |
@@ -151,7 +151,7 @@ Chaque stratégie individuelle reçoit le nom du package de stratégie afin de v
 ![Capture d’écran du package de stratégie Education_Teacher](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
-> Si vous décidez que les enseignants et le personnel de support administratif ont besoin de stratégies différentes, vous pouvez réaffecter un package existant : identifiez un package que vous n’utilisez pas actuellement et modifiez les paramètres de sorte qu’ils soient appropriés pour ce groupe. Vous devrez sans doute retenir quel groupe possède tel ou tel package, mais c’est le seul obstacle à la réaffectation d’un package.
+> Si vous décidez que les enseignants et le personnel de support administratif ont besoin de stratégies différentes, vous pouvez réaffecter un package existant : identifiez un package que vous n’utilisez pas actuellement et modifiez les paramètres de sorte qu’ils soient appropriés pour ce groupe. Vous devrez sans doute retenir quel groupe possède tel ou tel package, mais c’est le seul obstacle à la réaffectation d’un package.
 
 ## <a name="manage-policy-packages"></a>Gérer vos packages de stratégie
 
@@ -169,7 +169,10 @@ Gardez à l’esprit que vous pouvez également modifier les paramètres des str
 
 ### <a name="assign"></a>Attribuer
 
-Attribuer le package stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+Affecter un package de stratégie à des utilisateurs. Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
+
+> [!NOTE]
+> Chaque utilisateur aura besoin du module complémentaire Communications avancées pour recevoir une attribution de package de stratégie personnalisée. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Attribuer un package de stratégie à un ou plusieurs utilisateurs
 

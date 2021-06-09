@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8de3dcbff637a80b871b0f758c8afcd6c7432212
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 46e9e206e82fdc535f115ab276e9cb67ba58d959
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718015"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796788"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -110,7 +110,7 @@ Les paramètres réseau servent à déterminer l’emplacement d’un client Tea
 Les paramètres réseau incluent des sites qui comprennent une collection de sous-réseaux qui sont utilisés exclusivement pour l’affectation de stratégies dynamiques aux utilisateurs. Par exemple, une stratégie d’appel d’urgence et une stratégie de routage des appels d’urgence peuvent être affectées au « site de Redmond », de sorte que tout utilisateur qui vient de chez vous ou d’un autre emplacement Microsoft soit configuré avec les numéros d’urgence, le routage et le service de sécurité spécifiques de Redmond.  
 
 >[!Note]
->Les sous-réseaux peuvent également être définis dans le lis et peuvent être associés à un emplacement d’urgence.  
+>Les sous-réseaux peuvent également être définis dans le lis et peuvent être associés à un emplacement d’urgence.  Les sous-réseaux LIS doivent être définis par l’ID de réseau correspondant à la plage d’adresses IP de sous-réseau affectée aux clients. Par exemple, l’ID réseau pour un masque/IP client de 10.10.10.150/25 est **10.10.10.128.** Pour plus d’informations, voir Comprendre les bases de [l’adresse TCP/IP et des sous-réseaux.](https://docs.microsoft.com/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
 
 Gardez les définitions suivantes à l’esprit. Pour plus d’informations, [voir Paramètres réseau pour les fonctionnalités vocales cloud.](cloud-voice-network-settings.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Notes de publication
+title: Notes de publication pour Salles Microsoft Teams
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: Les administrateurs peuvent lire les notes de publication de l Salles Microsoft Teams pour lesquelles les améliorations cumulatives ont été apportées Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469546"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796848"
 ---
-# <a name="release-notes"></a>Notes de publication
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
 Cet article décrit les améliorations cumulatives apportées à Salles Microsoft Teams.
 
@@ -72,12 +72,12 @@ Cet article décrit les améliorations cumulatives apportées à Salles Microsof
 |2.0.2.0 |03/15/2017 |
 |RTM (1.0.8) |12/7/2016 |
 
-## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et résolution des problèmes
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et la résolution des problèmes
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
-Introduit dans cette mise à jour :
-- Windows 10 20H2 support 
+Introduite dans cette mise à jour :
+- Windows 10 20h2 support 
 
 > [!NOTE]
 > Les UC-Engine HP Elite slice et Crestron (date de la version BIOS contenant « KYSKLi ») salles Teams rencontrent des problèmes de compatibilité et les pilotes mis à jour seront fournis par les contrôles SÉCURITÉ système dans un futur proche. Windows 10 20H2 ne sera pas proposé sur ces appareils. Pour plus d’informations sur Windows prise en charge des versions, voir [Windows 10 prise en charge de la publication.](./rooms-lifecycle-support.md#windows-10-release-support)
@@ -85,7 +85,7 @@ Introduit dans cette mise à jour :
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 Introduite dans cette mise à jour :
-- Résoudre un problème dans lequel les informations de salle sur salles Teams consoles d’urgence n’indiquent pas les comptes de salle masqués dans la liste d’adresses globale (LA GAL)
+- Résoudre un problème dans lequel les informations de salle sur salles Teams consoles ne s’affiche pas pour les comptes de salle masqués dans la liste d’adresses globale (LA GAL)
 
 > [!NOTE]
 > Les clients GCCH peuvent télécharger le package de mise à niveau à partir de la mise à jour manuelle [d’Salles Microsoft Teams appareil](manual-update.md)
@@ -115,7 +115,7 @@ Introduite dans cette mise à jour :
 - Mettre en valeur la vidéo d’une personne à partir Teams console de salle et utiliser les vidéos à la une sur les écrans des salles
 
 > [!NOTE]
-> Les compétences vocales de Cortana sont disponibles pour certains périphériques audio pour les locataires situés aux États-Unis. D’autres pays ou régions seront ajoutés ultérieurement. Pour plus d’informations, voir [l’assistance vocale de Cortana dans Teams](../cortana-in-teams.md)
+> Les compétences vocales de Cortana sont disponibles pour certains périphériques audio pour les locataires situés aux États-Unis. D’autres pays ou régions seront ajoutés ultérieurement. Pour plus d’informations, [consultez l’assistance vocale de Cortana dans Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -127,8 +127,8 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Afficher plus de vidéos avec la galerie de vidéos 3x3 devant les écrans des salles  
-- Démarrer les sous-titres locaux en direct de MTR
+- Afficher plus de vidéos avec la galerie de vidéos 3 x 3 devant les écrans des salles  
+- Démarrer les sous-titres locaux en direct provenant de MTR
 - Participer à des réunions de zoom à partir salles Teams avec une rejoindre directement l’invité (prévisualisation)
 
 > [!NOTE]
@@ -139,18 +139,18 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Réunions coordonnées entre Microsoft Teams et Surface Hub 2S
-- Correctif pour l Skype de l’échec de la Windows 10 mise à jour [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou Windows 10 mise à jour [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) est installé
+- Correctif pour l Skype de l’échec de la Windows 10 mise à jour [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou de Windows 10 mise à jour [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
 Introduite dans cette mise à jour :
 
-- Participer à des réunions Cisco WebEx à partir salles Teams avec l’accès invité direct
+- Participer à des réunions Cisco WebEx à partir de salles Teams avec l’accès invité direct
 - Teams Activer le Centre d’administration et l’inscription automatique
 - Windows 10 prise en charge de la version 1909
 - Basculer vers la disposition de la galerie de vidéos même lorsque du contenu est présent
 - Prise en charge des mains levées virtuelles pour le participant et commandes pour le présentateur
-- Paramètre de volume ajustable par défaut pour la conférence et le haut-parleur par défaut
+- Paramètre de volume par défaut ajustable pour la conférence et le haut-parleur par défaut
 - Rechercher et appeler des utilisateurs fédérés (client) depuis Teams Room
 
 > [!IMPORTANT]
@@ -176,9 +176,9 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Prise en charge de l’authentification moderne Exchange et Skype Entreprise
+- Prise en charge de l’authentification moderne pour Exchange et Skype Entreprise
 - Prise en charge des appels d’urgence dynamiques pour Teams (composants de service requis et publiés à l’aide Teams anneaux clients)
-- Possibilité de désactiver le contenu en double hors réunion pour les salles à affichage double à l’aide de XML
+- Possibilité de désactiver le contenu en double hors réunion pour des salles à affichage double à l’aide de XML
 - Écran de d’accueil de l’application
 - Notifications sur le logiciel Open Source (OSS) dans les paramètres de l’appareil
 
@@ -187,14 +187,14 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Mises à jour de stratégie pour « mises Windows jour pour les entreprises »
-- Correctif pour les événements d’appareil signalant une erreur dans le moniteur Azure
+- Correction des événements d’appareil signalant une erreur dans le moniteur Azure
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
 Introduite dans cette mise à jour :
 
 - Correctif pour un problème de resizing/scintillement de fenêtre visible dans certaines configurations
-- Suppression du traitement du calendrier pour les réunions tierces
+- Traitement du calendrier pour les réunions tierces supprimés
 - Paramètre de statut de Cortana supprimé
 
 ### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
@@ -230,13 +230,13 @@ Introduite dans cette mise à jour :
 
 - Skype Application du Store Room System renommée en « Salles Microsoft Teams »
 - Salles Microsoft Teams’interface utilisateur de la console réaligne sur Microsoft Teams
-- Mise à jour de thème : ne conservez une image d’arrière-plan personnalisée que devant les écrans de salle, tout en rendant l’arrière-plan de la console neutre pour garantir que les contrôles de l’interface utilisateur de la console répondent au contraste de couleurs — conditions d’accessibilité
+- Mise à jour de thème : ne conservez une image d’arrière-plan personnalisée que devant les écrans de salle, tout en rendant l’arrière-plan de la console neutre pour garantir que les contrôles de l’interface utilisateur de la console répondent au contraste de couleurs ( conditions d’accessibilité)
 - Barre universelle pour les contrôles d’appel en réunion pour Teams/réunions afin d’offrir une expérience cohérente avec Microsoft Teams PC/ Clients Web/Mobile<sup>1</sup>
 - Évaluation de la qualité des commentaires après Teams/réunions<sup>1</sup>
 - Réception/rendu Microsoft Whiteboard’écran Salles Microsoft Teams avant de la salle lorsqu’il est partagé à partir d’un PC/Web/mobile Teams client<sup>1</sup> <sup>2</sup>
 - Prise en charge supprimée pour Windows 10 mises à niveau vers la version 1809 en raison de problèmes de compatibilité avec Salles Microsoft Teams client. Windows 10 Le support de la version 19H1 sera ajouté dans les prochaines versions
 
-<sup>1 Microsoft Teams</sup> de service à l’aide Teams anneaux. Cette fonctionnalité peut être disponible plus tôt ou plus tard que la mise à jour du client 4.0.105.0
+<sup>1 Microsoft Teams</sup> de service à l’aide Teams anneaux Cette fonctionnalité peut être disponible plus tôt ou plus tard que la mise à jour du client 4.0.105.0
 
 <sup>2 Nécessite</sup> que les administrateurs informatiques les Microsoft Whiteboard. Par ailleurs, si vous avez un écran tactile avant de la salle, vous devez étalonner plusieurs écrans tactiles à l’aide des paramètres de Windows avec connexion de l’administrateur de l’appareil pour commencer à utiliser Microsoft Whiteboard pour la collaboration à partir d’un affichage de salle partagé dans une réunion Teams
 
@@ -244,14 +244,14 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Corrige un problème avec la fonctionnalité « Donner des commentaires »
-- Optimisations en préparation de la prochaine mise à niveau Salles Microsoft Teams appareil à Windows 10 version 1809
+- Corrige un problème avec la fonctionnalité « Fournir des commentaires »
+- Optimisations en préparation de la prochaine mise à Salles Microsoft Teams des appareils vers Windows 10 version 1809
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 Introduite dans cette mise à jour :
 
-- Correctif pour le bogue « bloquer au démarrage de l’application » qui a affecté les appareils sur Windows 10 build RS2.
+- Correctif pour le bogue « bloquer au démarrage de l’application » qui a affecté les appareils sur une build Windows 10 RS2.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -259,7 +259,7 @@ Introduite dans cette mise à jour :
 
 - Clavier DTMF pour les Microsoft Teams P2P et les appels PSTN. Pour définir Microsoft Teams client d’appel par défaut, les administrateurs doivent définir IsTeamsDefaultClient sur true
 - Épinglez la vidéo entrante d’un participant distant en plein écran devant l’affichage de la salle. Utiliser la commande « Épingler » depuis la liste des participants de la console
-- Améliorations apportées aux notifications de salle d’attente avec l’ajout de la notification Avant salle
+- Améliorations apportées aux notifications de salle d’attente avec l’ajout de la notification Au premier plan
 - Icône de l’affichage avant de la salle supprimée lorsque Bluetooth balise n’est pas activée sur Salles Microsoft Teams appareil
 - Correctif pour le problème de contrôle du volume dans Teams réunions
 
@@ -295,7 +295,7 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Correctif pour l’application Crestron qui ne se lance pas, normalement accessible lorsque le bouton d’application sur un appareil Crestron SR est enfoncé. Salles Microsoft Teams redémarrage de l’application est requis après l’installation de 4.0.19.0.
+- Correctif pour l’application Crestron qui ne se lance pas, ce qui serait normalement accessible lorsque l’on appuie sur le bouton de l’application sur un appareil Crestron SR. Salles Microsoft Teams redémarrage de l’application nécessaire après l’installation de 4.0.19.0.
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 
@@ -360,7 +360,7 @@ Introduite dans cette mise à jour :
 - Correction de bogues/incidents pour améliorer la stabilité
 - Prise en charge de la console de taille variable
 - Traitement audio périphérique de rechargement (liste d’informations sur les médias supplémentaires)
-- Optimisations qui permettent aux professionnels de l’informatique de créer des images de do-it-yourself avec Windows 10 mise à jour de janvier 1709 et ultérieures.
+- Optimisations qui permettent aux professionnels de l’informatique de créer des images do-it-yourself avec Windows 10 mise à jour de janvier 1709 et ultérieures.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -389,27 +389,27 @@ La version 64 bits de l’édition anniversaire de Windows 10 Entreprise (anglai
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Résout les problèmes observés lors de la recherche d’utilisateurs fédérés via le champ de recherche Participants. Avant ce correctif, les résultats de recherche pour les utilisateurs fédérés externes n’ont peut-être pas été résolus correctement et ont renvoyé des résultats incorrects.
 
 ### <a name="3060-772017"></a>3.0.6.0 (7/7/2017)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
 - Dual-Screen prise en charge (pour la parité du système héritée)
 - Thèmes (thèmes intégrés et possibilité de définir un thème personnalisé)
 - Possibilité d’offrir des commentaires pour les builds publiques
 - Télémétrie améliorée autour de la fiabilité des réunions
-- Amélioration de la rapports CES
+- Amélioration de la rapports DNS
 - Possibilité pour l’administrateur informatique de configurer des appareils à distance
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
-Introduit dans cette mise à jour :
+Introduite dans cette mise à jour :
 
-- Sélection de l’utilisateur dans l’application des périphériques USB audio et vidéo de salle de réunion
-- Rapports d’état intégrés de la console de salle pour les clients utilisant la suite Microsoft Operations Management, désormais Azure Monitor
+- Sélection de l’utilisateur dans l’application des périphériques USB audio et vidéo de la salle de réunion
+- Rapports d’état intégré de la console de salle pour les clients utilisant la suite Microsoft Operations Management, désormais Azure Monitor
 
 ### <a name="release-to-market-1272016"></a>Publication sur Le Marché (07/12/2016)
 

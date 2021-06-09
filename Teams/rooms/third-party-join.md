@@ -1,5 +1,5 @@
 ---
-title: Activer les appareils Salles Teams pour rejoindre des réunions tierces
+title: Activer salles Teams appareils pour participer à des réunions tierces
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -12,23 +12,23 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Cet article décrit la configuration de votre organisation et des appareils Salles Teams pour prendre en charge la jointation de tierces réunions à Cisco WebEx et Zoom.
-ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Cet article décrit la configuration de votre organisation et de vos salles Teams pour prendre en charge la prise en charge de la prise en charge de la réunion tierce à Cisco WebEx et Zoom.
+ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117372"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796688"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Permettre aux appareils de salle Teams de participer à des réunions tierces
+# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Activer Teams de salle pour participer à des réunions tierces
 
-Les appareils Salles Microsoft Teams offrent une expérience tactile pour participer à des réunions en ligne tierces(ou invité direct). Lorsqu’elle est activée, vous pouvez utiliser un appareil Salles d’équipe pour participer à des réunions hébergées sur Cisco WebEx et Zoom, tout aussi facilement que vous pouvez participer à des réunions hébergées dans Microsoft Teams.
+Salles Microsoft Teams appareils prendre en charge une expérience tactile unique pour participer à des réunions en ligne tierces(ou rejoindre directement les invités). Lorsqu’elle est activée, vous pouvez utiliser un appareil salles Teams pour participer à des réunions hébergées sur Cisco WebEx et Zoom, tout aussi facilement que vous pouvez participer à des réunions hébergées dans Microsoft Teams.
 
-Avant de pouvoir participer à des réunions tierces à partir d’un appareil Salles Teams, vous devez faire les opérations suivantes :
+Avant de pouvoir participer à des réunions tierces à partir d salles Teams appareil, vous devez avoir les mesures suivantes :
 
-1. Configurez la boîte aux lettres de salle Exchange Online de l’appareil Salles Teams pour traiter les invitations à des réunions tierces.
+1. Configurez la boîte salles Teams de salle de l’Exchange Online de l’appareil pour traiter les invitations à des réunions tierces.
 2. Assurez-vous que votre organisation n’a pas de stratégie qui vous empêche de vous connecter à des services de réunion tiers.
-3. Configurez vos appareils Salles d’équipe pour autoriser les réunions tierces.
+3. Configurez vos salles Teams pour autoriser les réunions tierces.
 
 Les sections suivantes vous indiquent comment suivre chacune de ces étapes.
 
@@ -36,7 +36,7 @@ Les sections suivantes vous indiquent comment suivre chacune de ces étapes.
 
 La première chose que vous devez faire pour activer une expérience de jointage tactile unique à partir d’un appareil Salles d’équipe est de définir les règles de traitement du calendrier pour la boîte aux lettres de salle Exchange Online de l’appareil. La boîte aux lettres de la salle doit autoriser les réunions externes et conserver le corps et l’objet du message afin qu’il puisse voir l’URL nécessaire pour participer à la réunion tierce. Pour définir ces options de boîte aux lettres de salle à l’aide de la cmdlet [Set-CalendarProcessing,](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) vous pouvez :
 
-1. Connectez-vous à Exchange Online PowerShell. Pour plus d’informations, voir Se connecter à [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) avec l’authentification de base ou Se connecter à Exchange Online PowerShell à l’aide de l’authentification [multifacteur,](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)selon votre méthode d’authentification.
+1. Connecter à Exchange Online PowerShell. Pour plus d’informations, voir Connecter à [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) avec l’authentification de base ou Connecter pour [Exchange Online PowerShell](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)à l’aide de l’authentification multifacteur, selon votre méthode d’authentification.
 
 2. Si vous ne la connaissez pas, obtenez le nom d’utilisateur principal (UPN) de la boîte aux lettres de salle en exécutant la commande suivante :
 
@@ -44,7 +44,7 @@ La première chose que vous devez faire pour activer une expérience de jointage
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
     
-3. Recherchez le nom de la boîte aux lettres de salle associée à votre appareil Salles Teams et notez son nom d’utilisateur seul.
+3. Recherchez le nom de la boîte aux lettres de salle associée à salles Teams appareil et notez son nom d’utilisateur utilisateur.
 
 4. Une fois que vous avez trouvé le nom d’utilisateur général de la boîte aux lettres de salle, exécutez la commande suivante. Remplacez `<UserPrincipalName>` par le upn de la boîte aux lettres de salle :
 
@@ -52,11 +52,11 @@ La première chose que vous devez faire pour activer une expérience de jointage
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-En savoir plus sur [Exchange Online PowerShell.](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
+En savoir plus [sur Exchange Online PowerShell.](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
-## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Étape 2 : configurer Office 365 Threat Protection et réécrire le lien
+## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Étape 2 : configurer Office 365 protection contre les menaces et réécrire le lien
 
-Pour permettre une expérience de participer en une seule fois, les informations de lien d’accès à la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité Liens sécurisés de la protection avancée contre les menaces [d’Office 365,](/microsoft-365/security/office-365-security/atp-safe-links) ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes de la recherche de menaces, cela peut modifier les URL de participer à la réunion et rendre la réunion non reconnue par l’appareil Salles d’équipe. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste « Ne pas réécrire » des liens sécurisés ATP ou la liste des exceptions de réécriture d’URL tierces.
+Pour permettre une expérience de participer en une seule fois, les informations de lien d’accès à la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité liens sécurisés [Office 365 Advanced Threat Protection,](/microsoft-365/security/office-365-security/atp-safe-links) ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes de menaces, cela peut modifier les URL de participer à la réunion et rendre la réunion non reconnue par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste « Ne pas réécrire » des liens sécurisés ATP ou la liste des exceptions de réécriture d’URL tierces.
 
 Pour ajouter des URL de service de réunion tierces à la liste Liens sécurisés ATP, suivez les étapes de la procédure Configurer une liste d’URL de ne pas réécrire personnalisée à l’aide de liens [sécurisés ATP.](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si vous utilisez une solution tierce, consultez les instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
 
@@ -65,29 +65,29 @@ Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre
 - **Cisco WebEx**`*.webex.com*`
 - **Zoom,** `*.zoom.us*` `*.zoom.com*` , `*.zoomgov.com*`
 
-Pour obtenir la liste complète des URL à ajouter à votre liste de liens sécurisés ATP, « ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir de qui vous voulez accepter les invitations aux réunions. 
+Pour obtenir la liste complète des URL à ajouter à votre liste de liens sécurisés ATP, « ne pas réécrire » ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir de qui vous souhaitez accepter les invitations aux réunions. 
 
 > [!CAUTION]
 > Ajoutez uniquement les URL de confiance à votre liste de liens sécurisés ATP « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces.
 
 ## <a name="step-3-enable-third-party-meetings-on-device"></a>Étape 3 : activer les réunions tierces sur l’appareil
 
-La dernière étape consiste à autoriser chaque appareil Salles Teams à participer à des réunions tierces. Les réunions tierces nécessitent un nom d’utilisateur et une adresse e-mail pour les rejoindre. Si le nom d’utilisateur et l’adresse de courrier que vous devez utiliser sont différents de la boîte aux lettres de salle de l’appareil, vous devez les ajouter à votre appareil. Vous pouvez le faire dans les paramètres de l’appareil ou dans le fichier de configuration XML.
+La dernière étape à prendre est d’autoriser chaque salles Teams à participer à des réunions tierces. Les réunions tierces nécessitent un nom d’utilisateur et une adresse e-mail pour les rejoindre. Si le nom d’utilisateur et l’adresse de courrier que vous devez utiliser sont différents de la boîte aux lettres de salle de l’appareil, vous devez les ajouter à votre appareil. Vous pouvez le faire dans les paramètres de l’appareil ou dans le fichier de configuration XML.
 
 ### <a name="use-device-settings"></a>Utiliser les paramètres de l’appareil
 
-Pour configurer l’appareil Salles Teams à l’aide de son écran tactile, vous pouvez :
+Pour configurer l’appareil salles Teams’aide de son écran tactile, vous pouvez :
 
-1. Sur l’appareil Salles Microsoft Teams, **sélectionnez Plus...**.
+1. Sur l’Salles Microsoft Teams, sélectionnez **Plus...**.
 2. Sélectionnez **Paramètres,** puis entrez le nom d’utilisateur et le mot de passe de l’administrateur de l’appareil.
 3. Allez dans **l’onglet Réunions** et sélectionnez **Cisco WebEx,** **Zoom,** ou les deux.
 4. Si vous voulez participer à des réunions avec le nom d’utilisateur et l’adresse de courrier associés à la boîte aux lettres de la salle, sélectionnez **Participer avec les informations de la salle.**
-5. Si vous voulez participer à des réunions avec  un autre nom d’utilisateur et une adresse de courrier, sélectionnez Participer avec des informations personnalisées et entrez le nom d’utilisateur et l’adresse de messagerie que vous souhaitez utiliser.
+5. Si vous voulez participer à des réunions avec  un autre nom d’utilisateur et une adresse de courrier, sélectionnez Participer avec des informations personnalisées et entrez le nom d’utilisateur et l’adresse e-mail que vous souhaitez utiliser.
 6. Sélectionnez **Enregistrer et quitter.** Votre appareil redémarre.
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>Utiliser le fichier SkypeSettings.xml configuration de l’ordinateur
 
-Les paramètres suivants peuvent être ajoutés au `SkypeSettings.xml` fichier situé dans `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Pour plus d’informations sur le fichier, voir Gérer les paramètres d’une console de salles Microsoft Teams à distance avec `SkypeSettings.xml` un fichier de configuration [XML.](xml-config-file.md)
+Les paramètres suivants peuvent être ajoutés au `SkypeSettings.xml` fichier situé dans `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Pour plus d’informations sur le fichier, voir Gérer Salles Microsoft Teams paramètres d’une console à distance avec `SkypeSettings.xml` un fichier de configuration [XML.](xml-config-file.md)
 
 Pour activer les réunions Cisco WebEx, définissez l’élément `WebExMeetingsEnabled` XML sur **True,** comme suit.
 
@@ -101,7 +101,7 @@ Pour activer les réunions de zoom, définissez l’élément `ZoomMeetingsEnabl
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
 ```
 
-Vous pouvez éventuellement spécifier un nom d’utilisateur et une adresse de courrier personnalisés pour participer à des réunions tierces à l’aide des éléments XML suivants. Si les valeurs que vous fournissez ne sont pas valides, l’appareil Salles Teams utilise par défaut le nom d’utilisateur et l’adresse de messagerie de la boîte aux lettres de salle.
+Vous pouvez éventuellement spécifier un nom d’utilisateur et une adresse de courrier personnalisés pour participer à des réunions tierces à l’aide des éléments XML suivants. Si les valeurs que vous fournissez ne sont pas valides, l’appareil salles Teams utilise par défaut le nom d’utilisateur et l’adresse de courrier de la boîte aux lettres de salle.
 
 ```xml
 <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
@@ -112,4 +112,4 @@ Vous pouvez éventuellement spécifier un nom d’utilisateur et une adresse de 
 ```
 
 > [!NOTE]
-> Pour participer à une réunion Cisco WebEx à partir d’un appareil Salles Teams, la réunion Cisco doit être hébergée à l’aide de la version WBS WBS 40.7 ou ultérieure de l’application web Cisco WebEx.
+> Pour participer à une réunion Cisco WebEx à partir d’un appareil salles Teams, la réunion Cisco doit être hébergée dans Réunions WebEx Pro à l’aide de la version WBS WBS 40.7 ou ultérieure de l’application web Cisco WebEx. 
