@@ -832,7 +832,7 @@ items:
               - name: Modifier la langue par défaut de la messagerie vocale
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Langues pour les messages et l’accueil de la messagerie vocale
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: ID de l’appelant
             items:
               - name: Utilisation d’un ID d’appelant dans votre organisation
