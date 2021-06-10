@@ -31,21 +31,21 @@ ms.locfileid: "51116982"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?
 
-Vous ne pouvez pas créer ou modifier des stratégies (pour la messagerie, les réunions, etc.) qui ont un caractère spécial dans le nom dans le Centre **d’administration Microsoft Teams.** 
+Vous ne pouvez pas créer ou modifier des stratégies (pour la messagerie, les **réunions, etc.)** qui ont un caractère spécial dans le nom du Microsoft Teams d’administration. 
 
-Si un nom de stratégie contient des caractères spéciaux, la gestion de ces stratégies dans le Centre d’administration Microsoft Teams sera limitée. **C’est pourquoi nous recommandons vivement que les noms de stratégie n’incluent pas de caractères spéciaux.** 
+Si un nom de stratégie contient des caractères spéciaux, la gestion de ces stratégies dans le Microsoft Teams d’administration s’est limité. **C’est pourquoi nous recommandons vivement que les noms de stratégie n’incluent pas de caractères spéciaux.** 
 
-Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les réunions et la messagerie dans Teams peuvent avoir des caractères spéciaux tels que @,#,$. Toutefois, si vous souhaitez apporter des modifications à la stratégie dans le Centre d’administration Microsoft Teams, vous ne pourrez pas. 
+Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les réunions et la messagerie dans Teams peuvent avoir des caractères spéciaux tels que @,#,$. Toutefois, si vous souhaitez apporter des modifications à la stratégie dans le Microsoft Teams d’administration, vous ne pourrez pas. 
 
-Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la modifier à l’aide de Windows PowerShell (indéfiniment) soit créer une stratégie dans le Centre d’administration Microsoft Teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.
+Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la modifier à l’aide d’Windows PowerShell (indéfiniment), soit créer une stratégie dans le Centre d’administration Microsoft Teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.
 
 ## <a name="to-remove-special-characters"></a>Pour supprimer les caractères spéciaux
 
 **Étape 1 : établir une connexion à distance avec PowerShell.**
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du module Teams PowerShell le plus récent.
+> Skype Entreprise Online Connector fait actuellement partie de la dernière version Teams module PowerShell.
 >
-> Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+> Si vous utilisez la dernière version [Teams public PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -68,9 +68,9 @@ Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la 
 
 **Étape 3 : créer une stratégie.**
 
-Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide du Centre d’administration Microsoft Teams ou de PowerShell.
+Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide du centre d’administration Microsoft Teams de l’utilisateur ou de PowerShell.
 
-L’exécution de cette stratégie crée une stratégie pour vous, mais vous devez ajouter les paramètres corrects en voyant [Set-CsTeamsMesspolicy,](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) puis en l’exécutant :
+L’exécution de cette stratégie crée une stratégie pour vous, mais vous devrez ajouter les paramètres corrects en voyant [Set-CsTeamsMess premierPolicy,](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) puis en l’exécutant :
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
@@ -96,11 +96,11 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Pourquoi avez-vous besoin d’utiliser PowerShell Office 365 ?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Pourquoi devez-vous utiliser Office 365 PowerShell ?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
@@ -111,4 +111,4 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > Le module Windows PowerShell de Skype Entreprise Online vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online et Microsoft Teams. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé à partir du Centre de téléchargement Microsoft dans [le module Windows PowerShell de Skype Entreprise Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Le module Windows PowerShell de Skype Entreprise Online vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online et Microsoft Teams. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé à partir du Centre de téléchargement Microsoft sur Windows PowerShell Module pour [Skype Entreprise Online.](https://go.microsoft.com/fwlink/?LinkId=294688)

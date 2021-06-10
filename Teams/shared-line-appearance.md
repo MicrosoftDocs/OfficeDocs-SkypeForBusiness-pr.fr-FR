@@ -34,21 +34,21 @@ ms.locfileid: "51117042"
 L’apparence de ligne partagée fait partie de la fonctionnalité de délégation qui permet à un utilisateur de choisir un délégué pour répondre ou gérer les appels en son nom. Cette fonctionnalité est utile si un utilisateur dispose d’un assistant administratif qui gère régulièrement ses appels. Dans le contexte de l’apparence de ligne partagée, un responsable est une personne qui autorise un délégué à effectuer ou recevoir des appels en son nom, et un délégué peut effectuer et recevoir des appels au nom de quelqu’un d’autre.
 
 > [!IMPORTANT]
-> Cette fonctionnalité n’est disponible qu’en mode déploiement de Teams uniquement. Pour plus d’informations sur les modes de déploiement de Teams, voir Comprendre [la coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md) et l’interopérabilité de Microsoft Teams et de Skype Entreprise
+> Cette fonctionnalité n’est disponible qu’Teams mode déploiement uniquement. Pour plus d’informations sur Teams modes de déploiement, voir Comprendre Microsoft Teams et Skype Entreprise coexistence et [l’interopérabilité.](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licence requise
 
-Pour être délégué ou configurer la délégation, un utilisateur doit avoir un système téléphonique avec une connectivité PSTN (licence de plan d’appel ou routage direct OnlineVoiceRoutingPolicy) pour être délégué ou configurer la délégation et permettre à d’autres utilisateurs d’effectuer ou de recevoir des appels en leur nom.
+Un utilisateur doit avoir un Système téléphonique avec une connectivité RSTN (soit une licence de plan d’appels, soit une licence de routage direct OnlineVoiceRoutingPolicy) pour être délégué ou configurer la délégation et permettre à d’autres utilisateurs d’effectuer ou de recevoir des appels en leur nom.
 
-Les responsables et les délégués doivent avoir un système téléphonique avec connectivité PSTN (une licence de plan d’appels ou une licence de routage direct OnlineVoiceRoutingPolicy). L’expérience de ligne partagée fait partie de la délégation et est incluse dans Phone System. Pour plus d’informations sur le modèle de licence, consultez [la description du service Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
+Les responsables et les délégués doivent avoir une Système téléphonique connectivité PSTN (soit une licence de plan d’appels, soit une licence routage direct OnlineVoiceRoutingPolicy). L’expérience de ligne partagée fait partie de la délégation et est incluse dans Système téléphonique. Pour plus d’informations sur le modèle de licence, voir [Microsoft Teams description du service.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et de l’apparence de ligne partagée
 
 La délégation et l’apparence de ligne partagée sont des fonctionnalités pilotées par l’utilisateur : il n’y a aucun paramètre d’administrateur à configurer. Pour plus d’informations sur l’utilisation de la fonctionnalité, voir [Partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-L’administrateur des locataires peut activer la délégation via le paramètre **TeamsCallingPolicy AllowDelegation** ou via le Portail d’administration Teams pour que cette fonctionnalité fonctionne. 
+L’administrateur des locataires peut activer la délégation via le paramètre **TeamsCallingPolicy AllowDelegation** ou via Teams portail d’administration pour que cette fonctionnalité fonctionne. 
 
-L’administrateur des clients peut également configurer des relations de délégation pour un utilisateur dans le Centre d’administration Teams. En outre, l’utilisateur final peut également configurer ses relations de délégation directement dans Teams. L’administrateur client ou l’utilisateur ne peut pas bloquer la configuration l’un pour l’autre, mais le Centre d’administration Teams et le client Teams doivent afficher cette relation avec précision aux deux endroits. 
+L’administrateur des clients peut également configurer des relations de délégation pour un utilisateur dans le Teams d’administration. En outre, l’utilisateur final peut également configurer ses relations de délégation directement dans Teams. L’administrateur client ou l’utilisateur ne peuvent pas bloquer la configuration l’un après l’autre, mais le Centre d’administration Teams et le client Teams doivent afficher cette relation avec précision aux deux endroits. 
 
 > [!IMPORTANT]
 > Lorsque l’administrateur des clients désactivé la délégation pour un utilisateur (après l’avoir désactivée), il doit également nettoyer les relations de délégation pour cet utilisateur dans le Centre d’administration Teams pour éviter un routage d’appel incorrect.
@@ -57,12 +57,12 @@ L’administrateur des clients peut également configurer des relations de dél�
 
 L’apparence de ligne partagée est actuellement prise en charge par les applications et appareils suivants.
 
-| Fonctionnalité | Version de bureau de Teams | Application Teams Pour Mac | Teams Web App (Edge) |Application Mobile Teams pour iOS/Android | Téléphone IP Teams |
+| Fonctionnalité | Teams Bureau | Teams Application Mac | Teams Web App (Edge) |Teams’application mobile iOS/Android | Teams Téléphone IP |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | Configurer la délégation | Oui | Oui | Oui | Non | Oui |
 | Recevoir des appels au nom d’un autre | Oui | Oui | Oui | Oui | Oui |
 | Appeler un numéro de téléphone pour le compte d’un autre | Oui | Oui | Oui | Oui | Oui |
-| Appeler un utilisateur Teams au nom d’un autre utilisateur | Oui | Oui | Oui | Oui | Oui |
+| Appeler un Teams de la part d’un autre utilisateur | Oui | Oui | Oui | Oui | Oui |
 | Afficher l’affichage administrateur des lignes partagées | Oui | Oui | Oui | Non | Non |
 | Afficher l’affichage administrateur des activités d’appels du responsable | Oui | Oui | Oui | Non | Non |
 | Afficher l’affichage des délégués par le responsable | Oui | Oui | Oui | Non | Non |

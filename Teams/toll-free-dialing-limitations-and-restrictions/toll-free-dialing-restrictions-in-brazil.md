@@ -48,7 +48,7 @@ ms.locfileid: "51116832"
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Aucun temps d'accès n'est facturé.  <br/> |
    
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

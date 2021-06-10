@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Découvrez comment afficher la liste des utilisateurs de votre organisation qui sont activés pour les conférences téléphoniques à partir de Microsoft Teams. '
+description: 'Découvrez comment afficher une liste des utilisateurs de votre organisation qui sont activés pour les conférences téléphoniques à partir d’Microsoft Teams. '
 ms.openlocfilehash: 13cee193c74e04ad530eef074ba989a1e5c300af
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,14 +31,14 @@ ms.locfileid: "51117222"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
-Après avoir activé l’audioconférence pour les utilisateurs de Microsoft Teams dans votre organisation, vous pouvez afficher la liste de ces utilisateurs. 
+Après avoir activé Microsoft Teams utilisateurs de votre organisation pour l’audioconférence, vous pouvez afficher la liste de ces utilisateurs. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
-- Dans le Centre d’administration Microsoft Teams, dans le panneau de navigation de gauche, cliquez sur **Utilisateurs.**
+- Dans le Microsoft Teams d’administration, dans le panneau de navigation de gauche, cliquez sur **Utilisateurs.**
 
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
@@ -52,14 +52,14 @@ Après avoir activé l’audioconférence pour les utilisateurs de Microsoft Tea
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

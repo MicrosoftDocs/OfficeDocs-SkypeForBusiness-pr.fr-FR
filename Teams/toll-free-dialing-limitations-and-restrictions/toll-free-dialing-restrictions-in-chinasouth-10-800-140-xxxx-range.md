@@ -41,13 +41,13 @@ ms.locfileid: "51116782"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 10 800 140 XXXX <br/> |
 |Code ISO de pays/région  <br/> |CN  <br/> |
-|Île/territoire couvert(s)  <br/> |Sud de la Chine/Réseau China Telecom uniquement  <br/> |
+|Île/territoire couvert par  <br/> |Sud de la Chine/Réseau China Telecom uniquement  <br/> |
 |Île/territoire non couvert  <br/> |Nord de la Chine  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Via China Telecom uniquement  <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Inaccessible à partir d'une cabine téléphonique  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

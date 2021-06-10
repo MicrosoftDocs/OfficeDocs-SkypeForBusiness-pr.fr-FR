@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment configurer voix au Microsoft 365 Business votre petite et moyenne entreprise ou organisation.
+description: Découvrez comment configurer voice Microsoft 365 Business entreprise ou organisation de petite à moyenne entreprise.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
@@ -52,7 +52,7 @@ Si vous voulez en savoir plus sur Business Voice, consultez [ce qu’Microsoft 3
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
-Avant de configurer Business Voice, vous devez faire différentes choses. Les tâches suivantes vous assurent que votre organisation est prête pour Voix Entreprise.
+Avant de configurer Business Voice, vous devez faire quelques choses. Les tâches suivantes vous assurent que votre organisation est prête pour Voix Entreprise.
 
 * **Achetez des licences Business Voice** et, si vous souhaitez obtenir un numéro gratuit ou passer des appels téléphoniques longue distance, crédits de communication. Pour plus d’informations, [voir Que dois-je](what-to-buy.md)acheter pour utiliser Microsoft 365 Business Voice ?
 * **Assurez-vous que votre connexion Internet peut prendre en charge Business Voice.** Pour plus d’informations, [voir Vérifier votre connexion Internet pour Business Voice.](get-ready-internet.md)

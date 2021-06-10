@@ -1,5 +1,5 @@
 ---
-title: Attribuer des licences de module add-on Teams aux utilisateurs
+title: Attribuer Teams licences de modules add-on aux utilisateurs
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,7 +13,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: Découvrez comment affecter des licences de modules supplémentaires Teams aux utilisateurs pour des fonctionnalités telles que l’audioconférence, le système téléphonique et les plans d’appel.
+description: Découvrez comment affecter des Teams de modules supplémentaires aux utilisateurs pour des fonctionnalités telles que l’audioconférence, les Système téléphonique et les plans d’appel.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
@@ -23,36 +23,36 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116932"
 ---
-# <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer des licences de module add-on Teams aux utilisateurs
+# <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer Teams licences de modules add-on aux utilisateurs
 
-Les licences de modules supplémentaires sont des licences pour des fonctionnalités spécifiques de Teams, telles que l’audioconférence, le système téléphonique et les plans d’appel. Cet article décrit comment attribuer des licences d’ajout à des utilisateurs individuels et à de grands ensembles d’utilisateurs en bloc.
+Les licences de modules supplémentaires sont des licences Teams de fonctionnalités spécifiques telles que l’audioconférence, les Système téléphonique et les plans d’appel. Cet article explique comment attribuer des licences d’ajout à des utilisateurs individuels et à de grands ensembles d’utilisateurs en bloc.
 
 > [!NOTE]
-> Consultez [la gestion des licences de modules](./microsoft-teams-add-on-licensing.md) supplémentaires Teams pour les fonctionnalités Teams disponibles avec des licences de modules supplémentaires. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (selon votre offre), afin que les utilisateurs disposent de fonctionnalités telles que l’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Après avoir décidé des fonctionnalités que vous souhaitez pour vos utilisateurs, attribuez-leur les licences.
+> Consultez [Teams licences de modules](./microsoft-teams-add-on-licensing.md) Teams fonctionnalités disponibles avec des licences de modules supplémentaires. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (selon votre offre), afin que les utilisateurs disposent de fonctionnalités telles que l’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Après avoir décidé des fonctionnalités que vous souhaitez pour vos utilisateurs, attribuez-leur les licences.
 
-Vous pouvez utiliser le Centre d’administration Microsoft 365 ou PowerShell pour attribuer des licences aux utilisateurs de votre organisation. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
+Vous pouvez utiliser le Centre Microsoft 365'administration de l’entreprise ou PowerShell pour attribuer des licences aux utilisateurs de votre organisation. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
 
-## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>Ce que vous devez savoir avant d’affecter des licences Phone System, Calling Plan et Communication Credits
+## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>Ce que vous devez savoir avant d’affecter Système téléphonique licences pour le plan d’appel et les crédits de communication
 
 Avant de commencer, examinez les conditions suivantes :
 
-- Si vous utilisez une connectivité réseau téléphonique public commuté (RST) sur site pour des utilisateurs hybrides, il vous suffit d’affecter une licence De système téléphonique. N’affectez PAS de licence Forfait d’appels.
+- Si vous utilisez une connectivité de réseau téléphonique public commuté (RST) sur site pour des utilisateurs hybrides, vous devez seulement affecter une licence Système téléphonique public. N’affectez PAS de licence Forfait d’appels.
 
-- En raison de la latence entre Microsoft 365 et Microsoft Teams, l’attribution d’un plan d’appels à un utilisateur après l’attribution d’une licence peut prendre jusqu’à 24 heures. Si l’utilisateur n’a pas accès à un plan d’appels au bout de 24 heures, contactez le support technique pour les produits pour les entreprises - Aide [de l’administrateur.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- En raison de la latence entre Microsoft 365 et Microsoft Teams, l’attribution d’un plan d’appels à un utilisateur peut prendre jusqu’à 24 heures après l’attribution d’une licence. Si l’utilisateur n’a pas accès à un plan d’appels au bout de 24 heures, contactez le support technique pour les produits pour les entreprises - Aide [de l’administrateur.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 - Vous recevrez un message d’erreur si vous n’avez pas acheté le nombre correct de licences. Si vous avez besoin d’acheter d’autres licences de forfait d’appels, choisissez l’option d’achat.
 
-- Même si des licences Entreprise E5 sont affectées à vos utilisateurs, vous devez leur attribuer des licences de [crédits](../what-are-communications-credits.md) de communication s’ils souhaitent appeler ou recevoir des appels du réseau PSTN.
+- Même si vos utilisateurs reçoivent Enterprise licences E5, vous devez leur attribuer des licences de [crédits](../what-are-communications-credits.md) de communication s’ils souhaitent appeler ou recevoir des appels du réseau PSTN.
 
 - Après avoir attribué des licences de plan d’appel ou de crédit de communication à vos utilisateurs, vous devrez obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](../set-up-calling-plans.md)
 
-## <a name="using-the-microsoft-365-admin-center"></a>Utilisation du Centre d’administration Microsoft 365
+## <a name="using-the-microsoft-365-admin-center"></a>Utilisation du Microsoft 365 d’administration
 
-Utilisez le Centre d’administration Microsoft 365 pour attribuer des licences à des utilisateurs individuels ou à de petits ensembles d’utilisateurs à la fois. La page **Licences** (jusqu’à 20 utilisateurs à la fois) ou Utilisateurs actifs vous attribue **des** licences. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
+Utilisez le Microsoft 365 d’administration pour attribuer des licences à des utilisateurs individuels ou à de petits ensembles d’utilisateurs à la fois. Vous attribuez des **licences** dans la page Licences (jusqu’à 20 utilisateurs à la fois) ou la **page** Utilisateurs actifs. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
 
 Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
-Si vous devez attribuer des licences à un grand nombre d’utilisateurs,par exemple des centaines ou des milliers d’utilisateurs, utilisez Powershell ou des licences basées sur des groupes dans [Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+Si vous devez attribuer des licences à un grand nombre d’utilisateurs(par exemple, des centaines ou des milliers d’utilisateurs), utilisez PowerShell ou des licences basées sur les groupes [dans Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -62,16 +62,16 @@ Utilisez PowerShell pour attribuer des licences aux utilisateurs en bloc.  Pour 
 
 Voici un exemple de l’utilisation d’un script pour attribuer des licences à vos utilisateurs.
 
-1. Installez la version 64 bits de l’Assistant Microsoft Online Services de [sign-in pour les professionnels de](/collaborate/connect-redirect?DownloadID=59185)l’informatique RTW.
-2. Installez le module Microsoft Azure Active Directory pour Windows PowerShell :
+1. Installez la version 64 bits de l’Assistant de Microsoft Online Services [de l’it professionals RTW.](/collaborate/connect-redirect?DownloadID=59185)
+2. Installez le module Microsoft Azure Active Directory de l’Windows PowerShell :
     1. Ouvrir une invite de commandes avec Windows PowerShell avec élévation de privilèges (exécuter Windows PowerShell en tant qu’administrateur).
     2. Exécutez la commande suivante :
         ```powershell
         Install-Module MSOnline
         ```
-    3. Si vous êtes invité à installer le fournisseur NuGet, tapez **O,** puis appuyez sur Entrée.
+    3. Si vous êtes invité à installer le fournisseur de NuGet, tapez **Y,** puis appuyez sur Entrée.
     4. Si vous êtes invité à installer le module à partir de PSGallery, tapez **Y,** puis appuyez sur Entrée.
-3. À l’invite Windows PowerShell commande, exécutez le script suivant pour attribuer des licences à vos utilisateurs, à savoir le nom de votre organisation et l’identificateur de la licence que vous \<CompanyName:License> voulez attribuer. Par exemple, litwareinc:MCOMEETADV.
+3. À l’invite de commandes Windows PowerShell, exécutez le script suivant pour attribuer des licences à vos utilisateurs, à savoir le nom de votre organisation et l’identificateur de la licence que vous \<CompanyName:License> voulez attribuer. Par exemple, litwareinc:MCOMEETADV.
 
     L’identificateur est différent du nom convivial de la licence. Par exemple, l’identificateur de l’audioconférence est MCOMEETADV. Pour en savoir plus, consultez [les noms des produits et les identificateurs de référence (SKU) pour les licences.](#product-names-and-sku-identifiers-for-licensing)
 
@@ -110,7 +110,7 @@ Voici un exemple de l’utilisation d’un script pour attribuer des licences à
         }
     ```
 
-    Par exemple, pour affecter des licences Microsoft 365 Entreprise 1 et Audioconférence, utilisez la syntaxe suivante dans le script :
+    Par exemple, pour affecter Microsoft 365 Entreprise 1 et Audioconférence, utilisez la syntaxe suivante dans le script :
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
@@ -125,17 +125,17 @@ Voici un exemple de l’utilisation d’un script pour attribuer des licences à
 
 ## <a name="product-names-and-sku-identifiers-for-licensing"></a>Noms de produits et identificateurs de référence SKU pour les licences
 
-Voici une liste partielle des noms de produits et de leurs références SKU correspondantes que vous pouvez utiliser comme référence lorsque vous utilisez PowerShell pour gérer les licences dans Teams.
+Voici une liste partielle des noms de produits et de leurs références SKU correspondantes que vous pouvez utiliser comme référence lorsque vous utilisez PowerShell pour gérer les licences Teams.
 
 Pour en savoir plus, consultez Afficher les licences et services avec [PowerShell,](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)les noms des produits et les identificateurs de plan de service pour les [licences](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)et la [référence SKU Éducation.](../sku-reference-edu.md)
 
 | Nom du produit| Référence |
 |--------------|---------------|
-| Microsoft Entreprise E5 (avec Phone System) | ENTERPRISEPREMIUM |
-| Microsoft Entreprise E5 (sans Audioconférence) | ENTERPRISEPREMIUM_NOPSTNCONF |
-| Microsoft Entreprise E5 (avec audioconférence) | ENTERPRISEPREMIUM |
-| Microsoft Entreprise E3 | ENTERPRISEPACK |
-| Microsoft Entreprise E1 | STANDARDPACK |
+| Microsoft Enterprise E5 (avec Système téléphonique) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (sans Audioconférence) | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Microsoft Enterprise E5 (avec audioconférence) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E3 | ENTERPRISEPACK |
+| Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
 | Microsoft 365 Business | SPB|
@@ -153,7 +153,7 @@ Pour en savoir plus, consultez Afficher les licences et services avec [PowerShel
 | Forfait d’appels nationaux (240 minutes par utilisateur/mois pour chaque pays) </br>*Cette offre n’est pas disponible aux États-Unis.* | MCOPSTN6 |
 | Crédits de communication | MCOPSTNPP |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Licences de module complémentaire Teams](./microsoft-teams-add-on-licensing.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)

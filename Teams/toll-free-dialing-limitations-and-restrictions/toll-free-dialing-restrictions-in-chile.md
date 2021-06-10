@@ -47,7 +47,7 @@ ms.locfileid: "51116802"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Le format de numéro 188 800 XXX XXX est accessible via le réseau Telefonica. Le format de nombre XXXX 123 est accessible à partir du réseau Entel uniquement. L'accès mobile est accessible via les deux formats de numéro.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

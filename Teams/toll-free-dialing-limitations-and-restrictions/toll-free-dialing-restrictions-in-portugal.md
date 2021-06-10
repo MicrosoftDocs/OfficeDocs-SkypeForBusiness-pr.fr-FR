@@ -45,10 +45,10 @@ ms.locfileid: "51116672"
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtention de numéros de téléphone de service](../getting-service-phone-numbers.md)
+[Obtenir des numéros de téléphone de service](../getting-service-phone-numbers.md)
 
   

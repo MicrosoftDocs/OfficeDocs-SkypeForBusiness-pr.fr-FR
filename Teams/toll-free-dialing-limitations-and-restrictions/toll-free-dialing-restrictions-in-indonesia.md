@@ -47,7 +47,7 @@ ms.locfileid: "51116692"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Deux formats de numéro sont fournis pour une meilleure couverture. Le format de nombre 007 803 CCC XXXX est accessible à partir du réseau PT Telkom, y compris Telkomsel et XL Mobile. Le format de numéro 001 803 CCC XXXX est accessible via le réseau Indosat. Pour mobile : Matrice Cellulaire (préfixe 0855, 0858, 0815 et 0816) uniquement.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

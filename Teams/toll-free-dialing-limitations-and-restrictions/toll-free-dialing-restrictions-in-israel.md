@@ -46,7 +46,7 @@ ms.locfileid: "51116682"
 |Disponibilité de réseau mobile  <br/> | Partiel. Voir les commentaires. <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Pas d'accès via les réseaux mobiles Paltel &amp; Jawal/Watania.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

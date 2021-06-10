@@ -32,7 +32,7 @@ Les équipes à l’échelle de l’organisation permettent aux administrateurs 
 
 ![Capture d’écran de l’option à l’échelle de l’Organisation pour créer une équipe à l’échelle de l’Organisation](media/create-org-wide-team.png "Capture d’écran de l’option à l’échelle de l’Organisation pour créer une équipe à l’échelle de l’Organisation")
 
-Lorsqu’une équipe est créée à l’échelle de l’organisation, tous les administrateurs globaux et les administrateurs de service Teams sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres d’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se trouve dans Teams, une licence Microsoft Teams a été attribuée à l’utilisateur. Pour en savoir plus sur la licence De 6e, consultez [Gérer la licence De l’errité de Microsoft Teams.](teams-exploratory.md) 
+Lorsqu’une équipe est créée à l’échelle de l’organisation, tous les administrateurs globaux et administrateurs de services Teams sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres d’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se Teams, une licence de licence Microsoft Teams’utilisateur s’affiche. Pour en savoir plus sur la licence Sous-licence, consultez Gérer la licence [Microsoft Teams de l’équipe.](teams-exploratory.md) 
 
 Ces types de comptes ne sont pas ajoutés à votre équipe à l’échelle de l’organisation :
 
@@ -48,7 +48,7 @@ Au fur et à mesure que le répertoire de votre organisation est mis à jour de 
 > - Si vous ne voyez  pas l’option à l’échelle de l’organisation lors de la création d’une équipe et que vous êtes un administrateur général, vous pouvez avoir atteint la limite de cinq équipes à l’échelle de l’organisation, ou votre organisation peut avoir plus de 10 000 membres. Nous cherchons à augmenter cette limite à l’avenir. Les équipes à l’échelle de l’organisation sont actuellement indisponibles pour Teams pour l’éducation.
 > - Les salles qui ne font pas partie d’une liste de salle, de ressources matérielles et de comptes de ressources peuvent être ajoutées ou synchronisées avec l’équipe à l’échelle de l’organisation. Les propriétaires d’équipe peuvent facilement supprimer ces comptes de l’équipe.
 > - Toutes les actions effectuées par le système pour ajouter ou supprimer des membres sont publiées dans le canal général. Le canal est également marqué comme présentant une nouvelle activité dans le client Teams.
-> - Nous créerons automatiquement une équipe à l’échelle de l’organisation si votre organisation ne possède pas Teams et ne compte pas plus de 10 000 utilisateurs. Le nom de l’équipe correspondra au nom du client et aura un canal général. Les administrateurs généraux peuvent modifier cette équipe de la même façon que n’importe quelle autre équipe. 
+> - Nous créerons automatiquement une équipe à l’échelle de l’organisation si votre organisation ne possède pas les Teams et qu’elle ne compte pas plus de 10 000 utilisateurs. Le nom de l’équipe correspondra au nom du client et aura un canal général. Les administrateurs généraux peuvent modifier cette équipe de la même façon que n’importe quelle autre équipe. 
 
 ## <a name="best-practices"></a>Meilleures pratiques
 
@@ -56,7 +56,7 @@ Pour tirer le meilleur parti de votre équipe à l’échelle de l’organisatio
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Autoriser uniquement les propriétaires d’équipe à publier sur le canal général
 
-Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » plus   >  **d’options.** Sous **l’onglet Paramètres du** canal, cliquez sur **Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
+Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » plus   >  **d’options.** Sous **l’onglet Paramètres du** canal, cliquez **sur Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver les mentions @team et @ [nom de l’équipe]
 
@@ -72,7 +72,7 @@ Envisagez de configurer la modération des canaux et d’octroyer des fonctionna
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Supprimez les comptes sans propriétaire
 
-Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui n’appartiennent pas à l’organisation. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une méthode différemment pour supprimer un utilisateur (Centre d’administration Microsoft 365 ou groupe dans Outlook, par exemple), l’utilisateur peut être à l’équipe à l’échelle de l’organisation.
+Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui n’appartiennent pas. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une méthode différemment pour supprimer un utilisateur (Centre d’administration Microsoft 365 ou groupe dans Outlook, par exemple), l’utilisateur peut être à l’équipe à l’échelle de l’organisation.
 
 ## <a name="faq"></a>FAQ
 
@@ -92,4 +92,4 @@ Les modèles d’équipe ne peuvent pas être utilisés pour créer une équipe 
 
 ## <a name="see-also"></a>Voir aussi
 
-Regardez une vidéo sur [la création d’une équipe à l’échelle de l’entreprise dans Microsoft Teams.](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+Regardez une vidéo sur [la création d’une équipe à l’échelle de l’Microsoft Teams.](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)

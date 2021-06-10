@@ -110,7 +110,7 @@ Les utilisateurs d’un routage direct doivent avoir les licences suivantes Micr
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Escalade d’appel ad hoc et licence d’audioconférence
 
-Un Teams utilisateur peut démarrer une Teams un appel RSTN ou Teams un appel Teams et y ajouter un participant PSTN. Ce scénario s’appelle une conférence ad hoc. Le chemin d’accès à l’appel varie selon que l’utilisateur qui l’appelle a reçu ou non une licence d’audioconférence Microsoft :
+Un Teams utilisateur peut démarrer une Teams à deux ou vers un Teams R TEAMS et y ajouter un participant PSTN. Ce scénario s’appelle une conférence ad hoc. Le chemin d’accès à l’appel varie selon que l’utilisateur qui l’appelle a reçu ou non une licence d’audioconférence Microsoft :
 
 - Si une Teams Microsoft Audioconférence est affectée à l’utilisateur qui fait l’escalade de l’appel, l’escalade se produit via le service d’audioconférence Microsoft. Le participant PSTN distant invité à l’appel existant reçoit une notification concernant l’appel entrant et voit le numéro du pont Microsoft attribué à l’utilisateur du Teams qui a initié l’escalade.
 - Si la licence de Teams de conférence AudioConférence Microsoft ne lui est pas attribuée, l’escalade se produit à l’aide d’un contrôleur de session en bordure connecté à l’interface de routage direct. Le participant PSTN distant qui est invité à l’appel reçoit une notification concernant l’appel entrant et voit le numéro de l’utilisateur Teams à l’origine de l’escalade. La stratégie de routage de l’utilisateur définit l’escalade spécifique utilisée. 
@@ -149,7 +149,7 @@ Le tableau suivant présente des exemples de noms DNS inscrits pour le client, i
 contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|Non|L’utilisation de domaines *.onmicrosoft.com n’est pas prise en charge pour les noms SBC
 
-Supposons que vous vouliez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com nom de domaine enregistré dans votre client et vous souhaitez utiliser sbc1.sip.contoso.com. Avant de pouvoir coupler un SBC avec le sbc1.sip.contoso.com nom, vous devez inscrire le nom de domaine sip.contoso.com domaines dans votre client. Si vous tentez de coupler un SBC avec sbc1.sip.contoso.com avant d’enregistrer le nom de domaine, le message d’erreur suivant s’agit : « Impossible d’utiliser le domaine « sbc1.sip.contoso.com » car il n’a pas été configuré pour ce client. »
+Supposons que vous vouliez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com nom de domaine enregistré dans votre client et vous souhaitez utiliser sbc1.sip.contoso.com. Avant de pouvoir coupler un SBC avec le sbc1.sip.contoso.com nom, vous devez inscrire le nom de domaine sip.contoso.com domaines dans votre client. Si vous essayez d’apparier un SBC avec sbc1.sip.contoso.com avant d’enregistrer le nom de domaine, le message d’erreur suivant s’agit : « Impossible d’utiliser le domaine « sbc1.sip.contoso.com » car il n’a pas été configuré pour ce client. »
 Après avoir ajouté le nom de domaine, vous devez également créer un utilisateur avec un nom d’utilisateur user@sip.contoso.com et affecter une Teams utilisateur. Une fois le nom de domaine ajouté aux domaines de votre client, un utilisateur avec un nouveau nom est créé et une licence peut prendre jusqu’à 24 heures. 
 
 Il est possible qu’une entreprise puisse avoir plusieurs espaces d’adresse SIP dans un client. Par exemple, une entreprise peut avoir un espace contoso.com d’adresse SIP et fabrikam.com espace d’adresse SIP comme deuxième espace. Certains utilisateurs ont des adresses user@contoso.com et d’autres ont des adresses user@fabrikam.com. 
@@ -362,7 +362,7 @@ Vous pouvez forcer l’utilisation du codec spécifique sur le contrôleur de se
 ### <a name="leg-between-microsoft-teams-client-and-cloud-media-processor"></a>Étape entre Microsoft Teams client et processeur de média cloud
 S’applique uniquement aux cas de dérivation non multimédia. Avec la dérivation média, les médias circulent directement entre le client Teams et le SBC.
 
-Dans la partie entre le processeur multimédia cloud et Microsoft Teams client SILK ou G.722 est utilisé. Le choix du codec de cette partie est basé sur les algorithmes Microsoft, qui prennent en considération plusieurs paramètres. 
+Dans la partie qui s’entre le processeur multimédia cloud et Microsoft Teams client SILK ou G.722 est utilisé. Le choix du codec de cette partie est basé sur les algorithmes Microsoft, qui prennent en considération plusieurs paramètres. 
 
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Contrôleurs de bordure de session pris en charge

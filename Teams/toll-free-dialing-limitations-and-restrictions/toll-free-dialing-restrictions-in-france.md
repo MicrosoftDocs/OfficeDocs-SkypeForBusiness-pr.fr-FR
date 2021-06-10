@@ -41,13 +41,13 @@ ms.locfileid: "51116722"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |0 800 9XX XXX  <br/> |
 |Code ISO de pays/région  <br/> |FR  <br/> |
-|Île/territoire couvert(s)  <br/> | France métropolitaine et Corse <br/> |
+|Île/territoire couvert par  <br/> | France métropolitaine et Corse <br/> |
 |Île/territoire non couvert  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

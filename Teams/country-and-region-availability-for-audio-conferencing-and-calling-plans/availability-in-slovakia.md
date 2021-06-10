@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et Microsoft Teams disponibles pour la Slovaquie.
+description: Voici les services Microsoft 365 et Office 365 services pour Skype Entreprise et Microsoft Teams la Slovaquie.
 ms.openlocfilehash: 696cf7220dcfbab66b67e9d5dcdb81f48b2ed930
 ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "52129652"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et Microsoft Teams disponibles pour la Slovaquie.
+Voici les services Microsoft 365 et Office 365 services pour Skype Entreprise et Microsoft Teams la Slovaquie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et M
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 
