@@ -1,5 +1,5 @@
 ---
-title: Code de traitement des réclamations au Royaume-Uni. - Plans d’appel Microsoft 365
+title: Code de traitement des réclamations au Royaume-Uni. - Microsoft 365 forfaits d’appels
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Portez réclamation pour les services d’appels Skype Entreprise (appels RSTN au Royaume-Uni), le calendrier des réponses et la résolution des litiges pour les réclamations non résolues.
+description: Porter réclamation pour les services Skype d’appels d’entreprise (appels RSTN au Royaume-Uni), chronologie des réponses et résolution des litiges pour les réclamations non résolues.
 ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780273"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Microsoft 365 - Code de traitement des réclamations pour le Royaume-Uni
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels Microsoft 365 - Code de traitement des réclamations pour le Royaume-Uni
 
-Ce Code s’applique aux petites entreprises (organisations ne 10 employés ou moins) du Royaume-Uni en ce qui concerne le service de plan d’appels Microsoft 365 (le « Service ») conformément à la législation sur les communications du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce Code s’applique aux petites entreprises (organisations ne 10 employés ou moins) du Royaume-Uni en ce qui concerne le service Microsoft 365 Calling Plan (le « Service ») conformément à la législation sur les communications du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 
 ## <a name="how-to-make-a-complaint"></a>Comment porter réclamation
 
@@ -40,7 +40,7 @@ La satisfaction des clients est une priorité pour Skype Entreprise. Toutefois, 
 
 - Numéro de téléphone gratuit : 0800 032 6417
 
-- En ligne : Connectez-vous au Centre d’administration Microsoft 365 et envoyez une demande de service en sélectionnant Nouvelle demande **de service** sous **Support.**
+- En ligne : Connectez-vous au Centre Microsoft 365 d’administration et envoyez une demande de service en sélectionnant Nouvelle demande **de service** sous **Support.**
 
 ## <a name="timelines"></a>Délais
 
@@ -52,7 +52,7 @@ Si le représentant de Skype Entreprise n'est pas en mesure de résoudre le prob
 
 Skype Entreprise a pour objectif de résoudre toutes les réclamations liées au Service dans les sept (7) jours ouvrables suivant réception.
 
-Si vous n’êtes pas satisfait de la manière dont votre réclamation concernant le Service est gérée, vous pouvez demander au représentant de Skype Entreprise qui traite votre réclamation, par téléphone ou par e-mail, de la faire escalader conformément à votre accord de service. Microsoft évaluera la réclamation dans les sept (7) jours suivant réception.
+Si vous n’êtes pas satisfait de la manière dont votre réclamation concernant le Service est gérée, vous pouvez demander au représentant du Skype Entreprise qui traite votre réclamation, par téléphone ou par e-mail, de la faire porter conformément à votre accord de service. Microsoft évaluera la réclamation dans les sept (7) jours suivant réception.
 
 ## <a name="alternative-dispute-resolution"></a>Résolution alternative des litiges
 
@@ -87,6 +87,6 @@ Vous pouvez contacter Ombudsman Services en remplissant un formulaire de contact
     WA4 6WU
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

@@ -33,7 +33,7 @@ Pour commencer :
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Dans le groupe de navigation de gauche, **développez les modèles Teams**  >  **Team.**
+2. Dans le groupe de navigation de gauche, **développez Teams**  >  **d’équipe.**
 
 3. Sélectionnez **Ajouter**.
 
@@ -97,13 +97,13 @@ Pour commencer :
 
 Nous travaillons actuellement sur un correctif pour les équipes futures créées à partir de modèles personnalisés.
 
-**Problème**: Lors de l’utilisation de Teams dans le navigateur, certains sites web ne supportent pas le rendu dans un onglet Teams.
+**Problème**: lors de l’Teams dans le navigateur, certains sites web ne peuvent pas être restituer dans un Teams onglet.
 
 ![message d’erreur du navigateur](media/browser-error-message.png)
 
-**Solution**: si vous avez des difficultés à afficher le contenu de l’onglet de site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte, ou pour ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
+**Solution**: si vous avez des difficultés à afficher le contenu de l’onglet du site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte ou ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)

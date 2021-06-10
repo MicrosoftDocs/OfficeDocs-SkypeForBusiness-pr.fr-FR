@@ -1,5 +1,5 @@
 ---
-title: Optimisation directe des médias locaux
+title: Optimisation directe des médias locaux de routage
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -29,7 +29,7 @@ La voix de réseau téléphonique commuté (PSTN) est considérée comme une app
 
 L’optimisation des médias locaux pour le routage direct vous permet de gérer la qualité vocale en :
 
--   Contrôler le flux du trafic de médias entre les clients Teams clients et les contrôleurs de session en bordure du client.
+-   contrôler le flux du trafic de médias entre Teams clients et les contrôleurs de session en bordure du client.
 -   Garder les médias locaux au-delà des limites des sous-réseaux d’entreprise.
 -   Autoriser les flux multimédias entre les clients Teams et les SBCs, même si les SBCs se placent derrière des pare-feu d’entreprise avec des IP privés et ne sont pas visibles directement par Microsoft.
 
@@ -42,12 +42,12 @@ L’optimisation des médias locaux prend en charge deux scénarios :
 Cet article décrit les fonctionnalités, ainsi que les scénarios et solutions pour les clients. Pour plus d’informations sur la configuration, voir [Configurer l’optimisation des médias locaux.](direct-routing-media-optimization-configure.md) 
 
   > [!NOTE]
-  > Si vous voulez garder un média local au-delà des limites de votre intranet, il est recommandé d’optimiser les médias locaux. Si vous utilisez déjà la dérivation média et que vous utilisez uniquement les adresses IP publiques de vos SCS, il n’est pas obligatoire de passer à l’optimisation des médias locaux. Vous pouvez continuer à utiliser la dérivation média. Pour plus d’informations, voir [Planifier la dérivation média.](direct-routing-plan-media-bypass.md)
+  > Si vous souhaitez garder un média local au-delà des limites de votre intranet, il est recommandé d’optimiser les médias locaux. Si vous utilisez déjà la dérivation média et que vous utilisez uniquement les adresses IP publiques de vos SCS, il n’est pas obligatoire de passer à l’optimisation des médias locaux. Vous pouvez continuer à utiliser la dérivation média. Pour plus d’informations, voir [Planifier la dérivation média.](direct-routing-plan-media-bypass.md)
 
 
 ## <a name="supported-customer-scenarios"></a>Scénarios clients pris en charge
 
-Dans le cadre de cette discussion, supposons que Contoso gère plusieurs entreprises dans le monde entier comme suit. (Notez que les régions Europe et APAC ne sont utilisées que comme exemples. Une entreprise peut avoir plusieurs régions avec des exigences similaires.)
+Pour cette discussion, supposons que Contoso gère plusieurs entreprises dans le monde entier comme suit. (Notez que les régions Europe et APAC ne sont utilisées que comme exemples. Une entreprise peut avoir plusieurs régions avec des exigences similaires.)
  
 - **En Europe,** Contoso a des bureaux dans 30 pays environ. Chaque bureau possède son propre système de Exchange privé (PBX). 
 
@@ -72,7 +72,7 @@ En fonction de leurs exigences professionnelles, Contoso a implémenté deux sol
 
 ## <a name="central-sbc-with-centralized-trunks"></a>SBC central avec des ligne centralisées
 
-Pour créer une solution dans laquelle les services PSTN sont fournis à toutes les succursales locales via un SBC central unique avec une ligne SIP centralisée connectée, l’administrateur client Contoso associe un SBC (centralsbc.contoso.com) au service . Une ligne SIP centralisée est connectée au SBC. 
+Pour créer une solution dans laquelle les services PSTN sont fournis à toutes les succursales locales via un SBC central unique avec une ligne SIP centralisée connectée, l’administrateur client Contoso associe un SBC (centralsbc.contoso.com) au service . La ligne SIP centralisée est connectée au SBC. 
 
 - Lorsqu’un utilisateur se trouve dans le réseau interne de l’entreprise, le SBC fournit l’adresse IP interne du SBC pour les médias. 
 
@@ -108,7 +108,7 @@ Diagramme 1. Flux de trafic lorsque l’utilisateur se trouve sur le site « hom
 
 ### <a name="external-user"></a>Utilisateur externe
 
-Le diagramme suivant illustre le flux de trafic lorsqu’un utilisateur n’est pas sur site et n’est pas connecté au réseau d’entreprise (autrement dit, l’appareil de l’utilisateur est connecté à Internet via un appareil mobile ou un Wi-Fi public). L’utilisateur effectue un appel téléphonique de routage direct via Teams :
+Le diagramme suivant illustre le flux de trafic quand un utilisateur n’est pas sur site et n’est pas connecté au réseau d’entreprise (autrement dit, l’appareil de l’utilisateur est connecté à Internet via un appareil mobile ou un Wi-Fi public). L’utilisateur effectue un appel téléphonique de routage direct via Teams :
 
 - Le client Teams de l’utilisateur communique directement à Système téléphonique via l’API REST, mais, dans ce cas, le média généré pendant l’appel est généré vers l’adresse IP externe du SBC central. 
 
@@ -122,7 +122,7 @@ Diagramme 2. Flux de trafic lorsque l’utilisateur est externe avec un SBC cent
 
 ![Diagramme montrant l’optimisation locale du flux de trafic](media/direct-routing-media-op-2.png "Flux de trafic quand l’utilisateur est externe en cas de SBC centralisé avec ligne SIP centralisée connectée")
 
-## <a name="proxy-sbc-with-connected-downstream-sbcs"></a>Proxy SBC avec SBCs connectés en aval
+## <a name="proxy-sbc-with-connected-downstream-sbcs"></a>Proxy SBC avec SBCs en aval connectés
 
 Pour créer une solution dans laquelle les services PSTN sont fournis dans toutes les succursales locales de la région APAC dans laquelle la centralisation des ligne TDM n’est pas proposée comme option, l’administrateur Contoso associe un SBC (proxysbc.contoso.com), également appelé SBC proxy, au service de routage direct. 
 
@@ -195,7 +195,7 @@ Pour faire la distinction entre les modes d’optimisation des médias locaux, l
 
 Si vous avez une bonne connexion entre les succursales, le mode recommandé est Toujours ignorer.
  
-Par exemple, supposons qu’une entreprise dispose d’une ligne SIP centralisée à Amsterdam, qui sert 30 pays et offre une bonne connectivité entre les 30 sites et les utilisateurs locaux. Il existe également une branche en Allemagne où un SBC local est déployé.
+Par exemple, supposons qu’une entreprise dispose d’une ligne SIP centralisée à Amsterdam, qui sert 30 pays et dispose d’une bonne connectivité entre les 30 sites et les utilisateurs locaux. Il existe également une branche en Allemagne où un SBC local est déployé.
 
 Le SBC en Allemagne peut être configuré en mode « Toujours contournement ». Les utilisateurs, quel que soit leur emplacement, se connectent au SBC directement via l’adresse IP interne du SBC (par exemple, de France à Allemagne ; voir le diagramme ci-dessous pour référence).
 
@@ -223,14 +223,14 @@ Le diagramme ci-dessous illustre le flux de trafic de haut niveau pour l’utili
 
 - Le SBC local redirige le flux vers le serveur proxy SBC d’Amsterdam et vers le réseau PSTN connecté. 
 
-- Le SBC proxy est visible pour Système téléphonique via l’adresse IP externe uniquement et route le flux à partir du SBC en aval (en l’occurrence, le SBC local en Allemagne) vers Système téléphonique. 
+- Le SBC proxy est visible aux Système téléphonique via l’adresse IP externe uniquement et route le flux à partir du SBC en aval (en l’occurrence, le SBC local en Allemagne) vers Système téléphonique. 
 
 - Le SBC en aval dans la filiale locale n’est pas visible à Système téléphonique directement, mais il est mappé dans la topologie de réseau virtuelle définie par l’administrateur Contoso lors de la configuration de l’optimisation des médias locaux.
 
 
 Diagramme 5.  Flux de trafic avec le mode « Toujours contournement » et l’utilisateur se trouve sur le site « domicile »
 
-![Diagramme montrant l’optimisation du flux de trafic multimédia locale](media/direct-routing-media-op-5.png "Flux de trafic avec le mode « Toujours contournement » et l’utilisateur se trouve sur le site « domicile »")
+![Diagramme montrant l’optimisation locale du flux de trafic](media/direct-routing-media-op-5.png "Flux de trafic avec le mode « Toujours contournement » et l’utilisateur se trouve sur le site « domicile »")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Scénario 2 : l’utilisateur et les passerelles se rencontrent sur différents sites
@@ -239,7 +239,7 @@ Le SBC d’Amsterdam est configuré pour être un SBC proxy pour un SBC en aval 
 
 Tableau 4. Exemple de configuration pour le scénario 2
 
-| Emplacement physique de l’utilisateur | Un utilisateur appelle un numéro | Stratégie de routage voix en ligne | Mode configuré pour SBC | Media Flow | 
+| Emplacement physique de l’utilisateur | Un utilisateur appelle un numéro | Stratégie de routage vocal en ligne | Mode configuré pour SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | France | +49 1 437 2800 | Priorité 1 : ^ \+ 49(\d {8} )$ -DEsbc.contoso.com <br>Priorité 2 : .* - proxysbc.contoso.com |  DEsbc.contoso.com - Toujours contourner proxysbc.contoso.com - Toujours Contourner | Teams Utilisateurs <– > DEsbc.contoso.com  |
 
@@ -253,7 +253,7 @@ Le diagramme suivant illustre le flux de trafic de haut niveau lorsque l’utili
 
 Diagramme 6.  Flux de trafic avec le mode « Toujours contournement » et l’utilisateur n’est pas sur le site « domicile » mais dans le réseau interne
 
-![Diagramme montrant l’optimisation du flux de trafic multimédia locale](media/direct-routing-media-op-6.png "Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas sur le site « domicile » mais dans le réseau interne")
+![Diagramme montrant l’optimisation locale du flux de trafic](media/direct-routing-media-op-6.png "Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas sur le site « domicile » mais dans le réseau interne")
 
 ### <a name="mode-2-only-for-local-users"></a>Mode 2 : uniquement pour les utilisateurs locaux
 
@@ -261,7 +261,7 @@ Si les connexions entre les succursales locales sont mauvaises, mais bonnes entr
 
 Par exemple, dans la région APAC, supposons que Contoso dispose de plusieurs bureaux dans différents pays. Pour de nombreux pays, il n’est pas possible de passer au sip, car l’entreprise possède toujours des ligne TDM dans de nombreuses succursales locales. La centralisation des ligne TDM n’est pas une option dans la région APAC. En outre, il existe plus d’une centaine de succursales Contoso dans la région APAC qui ont des centaines de passerelles. 
 
-Pour créer une solution dans laquelle les services PSTN sont fournis dans toutes les succursales locales de la région APAC dans laquelle la centralisation des ligne TDM n’est pas proposée comme option, l’administrateur Contoso associe un SBC régional à Singapour en tant que SBC proxy au service de routage direct. La connexion directe entre les succursales locales n’est pas bonne, mais il existe une bonne connexion entre chaque filiale locale et le SBC régional à Singapour. Pour le SBC régional, l’administrateur choisit le mode « Toujours contourner » et, pour les SBC en aval local, l’administrateur choisit le mode « Uniquement pour les utilisateurs locaux ».
+Pour créer une solution dans laquelle les services PSTN sont fournis dans toutes les succursales locales de la région APAC dans laquelle la centralisation des ligne TDM n’est pas proposée comme option, l’administrateur Contoso associe un SBC régional à Singapour en tant que SBC proxy au service de routage direct. La connexion directe entre les succursales locales n’est pas bonne, mais il existe une bonne connexion entre chaque filiale locale et le SBC régional à Singapour. Pour le SBC régional, l’administrateur choisit le mode « Toujours contourner ». Pour les SBC en aval local, l’administrateur choisit le mode « Uniquement pour les utilisateurs locaux ».
 
 Les deux scénarios suivants sont décrits :
 
@@ -273,11 +273,11 @@ Les deux scénarios suivants sont décrits :
 
 Supposons que le SBC de Singapour est configuré pour être un serveur SBC proxy pour les serveurs SBC en aval locaux au Vietnam et en Indonésie. L’utilisateur se trouve au Vietnam au même emplacement que le SBC local. Les stratégies de routage vocal en ligne spécifient que les appels au Vietnam (avec l’code de zone +84) doivent être acheminés vers le SBC local du Vietnam. Tous les autres appels (et, en cas d’échec du SBC au Vietnam, appels au Vietnam), doivent être acheminés vers le serveur proxy SBC à Singapour. Le tableau suivant résume l’exemple de configuration. 
 
-Tableau 5. Exemple de configuration pour le mode « Uniquement pour les utilisateurs locaux » Scénario 1
+Tableau 5. Exemple de configuration du mode « Uniquement pour les utilisateurs locaux » scénario 1
 
-| Emplacement physique de l’utilisateur | Un utilisateur appelle un numéro | Stratégie de routage voix en ligne | Mode configuré pour SBC | Media Flow | 
+| Emplacement physique de l’utilisateur | Un utilisateur appelle un numéro | Stratégie de routage vocal en ligne | Mode configuré pour SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | +84 4 3926 3000 | Priorité 1 : ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br>Priorité 2 : .* - proxysbc.contoso.com | VNsbc.contoso.com – Uniquement pour les utilisateurs locaux <br> proxysbc.contoso.com – Toujours contourner | Teams Utilisateurs <–> VNsbc.contoso.com |
+| Vietnam | +84 4 3926 3000 | Priorité 1 : ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br>Priorité 2 : .* - proxysbc.contoso.com | VNsbc.contoso.com – Uniquement pour les utilisateurs locaux <br> proxysbc.contoso.com – Toujours contourner | Teams Utilisateurs <-> VNsbc.contoso.com |
 
 Dans le diagramme suivant, un utilisateur affecté à la filiale locale du Vietnam effectue un appel téléphonique de routage direct via Teams. 
 
@@ -293,16 +293,16 @@ Dans le diagramme suivant, un utilisateur affecté à la filiale locale du Vietn
 
 Diagramme 7. Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur se trouve sur le site « domicile »
 
-![Diagramme montrant l’optimisation du flux de trafic multimédia locale](media/direct-routing-media-op-7.png "Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur se trouve sur le site « domicile »")
+![Diagramme montrant l’optimisation locale du flux de trafic](media/direct-routing-media-op-7.png "Flux de trafic avec le mode « Uniquement pour les utilisateurs locaux » et l’utilisateur se trouve sur le site « domicile »")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Scénario 2. L’utilisateur et les passerelles se nomment sur différents sites
 
-Supposons que le SBC de Singapour est configuré pour être un serveur SBC proxy pour les serveurs SBC en aval locaux au Vietnam et en Indonésie. L’utilisateur interne en Indonésie, situé dans la filiale locale, passe un appel de routage direct vers le Vietnam. Les stratégies de routage Voix en ligne spécifient que les appels vers le Vietnam (avec l’code de zone +84) doivent être acheminés vers le SBC local du Vietnam. Tous les autres appels (et, en cas d’échec du SBC au Vietnam, les appels vers le Vietnam) doivent être acheminés vers le serveur proxy SBC à Singapour. Le mode SBC proxy à Singapour est définie sur « Toujours contourner » et le mode SBC local au Vietnam est réglé sur « Uniquement pour les utilisateurs locaux ». Le tableau suivant résume l’exemple de configuration. 
+Supposons que le SBC de Singapour est configuré pour être un serveur SBC proxy pour les serveurs SBC en aval locaux au Vietnam et en Indonésie. L’utilisateur interne en Indonésie, situé dans la filiale locale, passe un appel de routage direct vers le Vietnam. Les stratégies de routage voix en ligne spécifient que les appels vers le Vietnam (avec l’code de zone +84) doivent être acheminés vers le SBC local du Vietnam. Tous les autres appels (et, en cas d’échec du SBC au Vietnam, les appels vers le Vietnam) doivent être acheminés vers le serveur proxy SBC à Singapour. Le mode SBC proxy à Singapour est définie sur le mode « Toujours contournement » et le mode SBC local au Vietnam est réglé sur le mode « Uniquement pour les utilisateurs locaux ». Le tableau suivant résume l’exemple de configuration. 
 
 Tableau 6. Configuration utilisateur
 
-| Emplacement physique de l’utilisateur | Un utilisateur appelle un numéro | Stratégie de routage voix en ligne | Mode configuré pour SBC | Media Flow | 
+| Emplacement physique de l’utilisateur | Un utilisateur appelle un numéro | Stratégie de routage vocal en ligne | Mode configuré pour SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Indonésie | +84 4 3926 3000 | Priorité 1 : ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Priorité 2 : .* - proxysbc.contoso.com |VNsbc.contoso.com – Uniquement pour les utilisateurs locaux <br> proxysbc.contoso.com – Toujours contourner | Teams Utilisateurs <-> proxysbc.contoso.com <-> VNsbc.contoso.com |
 
@@ -333,5 +333,5 @@ Voici une liste des problèmes connus actuellement présents dans l’optimisati
 | :--- | :--- |
 | Teams client n’est pas  identifié comme interne lorsque l’adresse IP publique Teams client correspond à la liste d’adresses IP de confiance du client. | L’optimisation des médias locaux nécessite que Teams sous-réseau du client correspond à un sous-réseau [réseau configuré par le client](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | Une escalade d’appel entraîne l’abandon d’appels lorsque Teams client est identifié comme interne.| Désactivez l’optimisation des médias locaux sur le SBC de routage direct.|
-| Escalade d’appels entre clients internes de 1 à 1 appel à plusieurs avec des clients externes/résultat d’appels supprimés | Travaillez en cours sur un correctif. Vous pouvez également désactiver l’optimisation des médias locaux sur le SBC de routage direct.|
+| Escalade d’appels de 1 à 1 appel entre clients internes en appel à plusieurs avec des clients externes/résultat d’appels supprimés | Travaillez en cours sur un correctif. Vous pouvez également désactiver l’optimisation des médias locaux sur le SBC de routage direct.|
 | Teams’utilisateur place l’appel en attente. Musique à l’extrémité du réseau PSTN et l’optimisation des médias locaux fonctionne. L Teams un utilisateur reprend l’appel. L’appel vers le réseau PSTN reprend, mais l’optimisation des médias locaux ne fonctionne pas et l’appel continue via SBC central (proxy) | Lorsqu’un utilisateur appelle un appel pour lancer une musique en attente (MoH), le contrôleur d’appel passe de 1h à 1h à un appel à plusieurs pour appeler le contrôleur de média et le processeur multimédia (également appelé mixer AVMCU) par lequel MoH arrive en attente. L’escalade vers un appel à deux après le reprise ne se produit jamais comme d’après les modèles. Désactivez l’optimisation des médias locaux sur le SBC de routage direct.|

@@ -66,7 +66,7 @@ productDirectory:
       url: ./index.yml
     - title: Formation dirigée par un instructeur Teams formation
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
-      summary: 'Des cours de formation en ligne gratuits, en direct et conçus pour vous aider à être opérationnel avec Teams.'
+      summary: Cours de formation en ligne gratuits et en direct conçus pour vous aider à prendre en Teams.
       url: ./instructor-led-training-teams-landing-page.yml
     - title: Développer vos Teams scénarios
       imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'

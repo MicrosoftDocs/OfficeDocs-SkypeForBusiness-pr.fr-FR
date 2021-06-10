@@ -47,7 +47,7 @@ ms.locfileid: "51097900"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |L'accès n'est pas garanti via les roamers internationaux.  <br/> Pour le format de numéro 001-800 : Pour l'accès fixe - Telmex. Pour l'accès mobile - Telcel uniquement. Le temps d'accès est facturé. Aucun frais supplémentaire si le client final se trouve avec Telmex comme fournisseur local et longue distance.  <br/> Pour le format de numéro 01-800 : Le temps d'accès mobile est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

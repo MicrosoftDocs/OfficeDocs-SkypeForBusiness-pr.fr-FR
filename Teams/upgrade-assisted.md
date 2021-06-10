@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 9c19a0569fe56e9bf8c822b1418ac2fe0685532b
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656057"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855933"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Mises à niveau assistées de Skype Entreprise Online vers Microsoft Teams
 
@@ -96,11 +96,11 @@ Une fois la mise à niveau assistée terminée, le **mode coexistence** des util
             >Les contacts doivent être migrés dans les 90 jours suivant la fin de votre mise à niveau.
         - Les réunions Skype Entreprise Online existantes sont converties en réunions Teams réunion
             > [!IMPORTANT]
-            > Les clients Skype Entreprise configurations en ligne doivent utiliser Meeting Migration Service (MMS) pour migrer des réunions Skype Entreprise Online vers Teams réunions. Nous vous recommandons d’utiliser MMS avant la date de mise à niveau assistée. Pour plus d’informations sur MMS, voir [Utiliser meeting Migration Service (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+            > Les clients Skype Entreprise configurations en ligne doivent utiliser Meeting Migration Service (MMS) pour migrer des réunions Skype Entreprise Online vers Teams réunions. Nous vous recommandons d’utiliser MMS avant la date de mise à niveau assistée. Pour plus d’informations sur MMS, voir [Utiliser Meeting Migration Service (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
     :::column-end:::
 :::row-end:::
 
-Une fois la mise à niveau terminée, les organisations qui utilisent des déploiements hybrides peuvent déplacer des utilisateurs d’un déploiement local vers Teams ou d’un déploiement Teams vers un déploiement local.  
+Si vous avez un déploiement Skype Entreprise Server hybride et une mise à niveau vers Teams, vous pouvez déplacer les utilisateurs entre Skype Entreprise Server et Teams une fois la mise à niveau terminée.
 
 ## <a name="related-content"></a>Contenu associé
 

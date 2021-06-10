@@ -18,25 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85a03967b9ea7facb5f7a69090b1b5902b601f64
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581385"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855903"
 ---
-<a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
-===========================================================
+# <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 
-L'adoption d'une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement du comportement des personnes requiert des formations, des encouragements et des exemples positifs. Il est également essentiel pour les personnes de se sentir écoutées pendant la transition. Si vous avez déjà établi des méthodes de demande de commentaires qui ont fait leurs preuves dans votre organisation, envisagez de les étendre pour inclure votre implémentation de Teams. Si ce n'est pas le cas, envisagez d'appliquer l'une des approches suivantes :
+L’adoption d’une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement humain nécessite une formation, des encouragements et des exemples positifs. Il est également essentiel que les personnes se sentent entendues pendant la transition. Si vous avez précédemment mis en place des méthodes de commentaires réussies dans votre organisation, envisagez de les développer pour inclure votre Teams implémentation. Si vous ne l’avez pas fait auparavant, envisagez l’une des approches suivantes :
 
--   Création d’une équipe publique dans Microsoft Teams que tout utilisateur peut rejoindre pour fournir des commentaires sur son expérience (en gardant à l’esprit que les groupes publics sont limités à 5 000 utilisateurs).
+- Créez une équipe publique au sein Microsoft Teams que tout utilisateur peut rejoindre pour faire part de ses commentaires sur son expérience (n’oubliez pas que les groupes publics sont limités à 5 000 utilisateurs).
 
--   Utilisation de Yammer pour mettre en place une communauté ouverte pour fournir des meilleures pratique et un support.
+- Utilisez Yammer pour fournir une communauté ouverte sur les meilleures pratiques et assurer le support de l’expérience.
 
-Les méthodes de demande de commentaires axées sur la communauté requièrent l'implication de champions et de propriétaires de service. Nous recommandons de créer un calendrier de suivi contrôlé par ces membres à tour de rôle. Il est conseillé de créer une équipe différente dans Microsoft Teams dans laquelle les champions peuvent collaborer, partager des ressources et des meilleures pratiques avant de les communiquer au reste de l'équipe. Les champions jouent un rôle consultatif pour les utilisateurs qui adoptent le nouveau service, présentent un visage humain et convivial face au changement et collaborent avec les autres membres de votre équipe de déploiement pour soulever et résoudre des questions.
+Community de commentaires pilotés par des équipes nécessitent un engagement de champions et de propriétaires de services. Nous vous recommandons de créer une planification de surveillance pivotant entre ces membres. Une astuce consiste à créer au sein d’Microsoft Teams une équipe distincte dans laquelle ces champions peuvent collaborer, partager des ressources et des meilleures pratiques avant de les partager avec l’ensemble de l’équipe. Les champions jouent un rôle consultatif pour les utilisateurs qui adoptent le nouveau service, donnent un visage convivial et humain au changement, et collaborent avec d’autres membres de votre équipe de déploiement pour soulever et résoudre les problèmes.
 
-<a name="showcases"></a>Démonstration
----------
+## <a name="showcases"></a>Démonstration
 
-Au cours de ce voyage, vous trouverez des présentations dans votre propre environnement d’employés dont la créativité avec Microsoft Teams vous surprenne et vous ravira. Nous vous recommandons de partager ces présentations à grande étendue. Cela encourage les autres utilisateurs à être innovants, à informer les utilisateurs qui sont peut-être avant dans la courbe d’adoption et à récompenser ceux qui ont pris le temps de réfléchir à la meilleure utilisation de Microsoft Teams dans leur environnement. La définition d’un objectif mesurable d’identification d’un nombre donné de présentations chaque trimestre est utile pour maintenir une bonne dynamique d’adoption.
+Au cours de ce voyage, vous trouverez des présentations dans votre propre environnement d’employés dont la créativité avec Microsoft Teams vous surprenne et vous ravira. Partagez ces présentations à grande étendue. Cela encourage les autres utilisateurs à être innovants, à informer les utilisateurs qui sont peut-être à l’avant-première ligne dans la courbe d’adoption et à récompenser ceux qui ont pris le temps de réfléchir à la meilleure utilisation de Microsoft Teams dans leur environnement. La définition d’un objectif mesurable d’identification d’un nombre donné de présentations chaque trimestre est utile pour maintenir une bonne dynamique d’adoption.

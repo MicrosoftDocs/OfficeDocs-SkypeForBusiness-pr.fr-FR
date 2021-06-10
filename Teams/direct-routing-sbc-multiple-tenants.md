@@ -79,7 +79,7 @@ Dans l’exemple suivant :
 
 Les sous-noms doivent correspondre au nom de nom de domaine complet (FQDN) de la ligne qui sera configurée pour le client et au nom de domaine complet dans l’en-tête Contact lors de l’envoi de l’invitation à Microsoft 365 ou Office 365.  
 
-Lorsqu’un appel arrive dans l’interface de Microsoft 365 ou Office 365 Routage direct, l’interface utilise l’en-tête Contact pour trouver le client dans lequel l’utilisateur doit être cherché. Le routage direct n’utilise pas la recherche de numéro de téléphone dans l’invitation, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de nom de domaine complet dans l’en-tête du contact est nécessaire pour identifier le client exact sur la base du numéro de téléphone de l’utilisateur.
+Lorsqu’un appel arrive dans l’interface de Microsoft 365 ou Office 365 Routage direct, l’interface utilise l’en-tête Contact pour trouver le client dans lequel l’utilisateur doit être cherché. Le routage direct n’utilise pas la recherche de numéro de téléphone dans l’invitation, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de nom de domaine complet dans l’en-tête du contact est nécessaire pour identifier le client exact à rechercher sur le numéro de téléphone de l’utilisateur.
 
 *Consultez [l’aide sur Office 365 domaines pour](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) plus d’informations sur la création de noms de domaine Microsoft 365 ou Office 365 organisation.*
 
@@ -201,7 +201,7 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
     ![Capture d’écran de la page montrant l’état du programme d’installation terminé](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> L’URL de base et le sous-domaine du client doivent se trouver sur le même client pour pouvoir ajouter une ligne _d’itinéraire_ directe.
+> L’URL de base et le sous-domaine du client doivent se trouver sur le même client pour pouvoir vous permettre d’ajouter une ligne _d’itinéraire_ directe.
 
 ### <a name="activate-the-subdomain-name"></a>Activer le nom du sous-domaine
 

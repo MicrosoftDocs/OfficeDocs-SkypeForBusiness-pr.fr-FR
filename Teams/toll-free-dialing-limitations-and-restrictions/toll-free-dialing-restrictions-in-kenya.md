@@ -47,7 +47,7 @@ ms.locfileid: "51097960"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès réseau résolu : Safaricom et Airtel. Accès réseau mobile : Safaricom, Airtel et Orange.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

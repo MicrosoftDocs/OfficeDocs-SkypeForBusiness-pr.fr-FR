@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits à Hong Kong, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits à Hong Kong, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 459fbe7d8f98a5196973cf24ad797cad42778bb1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -47,7 +47,7 @@ ms.locfileid: "51098090"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

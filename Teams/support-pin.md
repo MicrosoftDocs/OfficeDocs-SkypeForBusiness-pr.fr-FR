@@ -24,11 +24,11 @@ ms.locfileid: "44221638"
 
 Pour rechercher votre code pin du support, qui permet au support client Microsoft par téléphone, suivez ces étapes : 
 
-1. Connectez-vous au [Centre d’administration Office.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
+1. Connectez-vous au [Office d’administration.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
 
 2. Cliquez sur l’icône d’engrenage.
 
-3. Votre code pin du support s’affiche dans le volet inférieur droit. Vous pouvez également choisir de générer à un autre votre code confidentiel si nécessaire.  
+3. Votre code confidentiel de support s’affiche dans le volet inférieur droit. Vous pouvez également choisir de générer à un autre votre code confidentiel si nécessaire.  
 
    ![Diagramme montrant le code confidentiel de prise en charge](media/support-pin.png)
 

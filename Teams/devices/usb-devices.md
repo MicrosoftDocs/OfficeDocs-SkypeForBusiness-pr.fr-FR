@@ -52,7 +52,7 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 ### <a name="new-teams-certification-benefits"></a>Nouveaux avantages Teams certification
 
 - Bouton Teams dédié et voyant lumineux.
-- Notification utilisateur des événements et alertes du client d Teams réunion (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
+- Notification utilisateur des événements et alertes du client Teams (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
 - Possibilité d’activer Teams client ou de répondre à une notification en cliquant sur le bouton (par exemple, pour participer à une réunion).
 - Certification conçue pour l’extensibilité (nouveaux appareils/fonctionnalités client à fournir via la mise à jour du microprogramme).
 
@@ -70,7 +70,7 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 - Aucune mise en service requise
 - Tous les appareils supportent les mises à jour du microprogramme pour permettre l’amélioration des nouvelles fonctionnalités et des performances.
 
-Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez la procédure d’adhésion pour les exigences et les programmes disponibles. [](/skypeforbusiness/certification/how-to-join)
+Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez [la](/skypeforbusiness/certification/how-to-join) procédure d’adhésion pour les exigences et les programmes disponibles.
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 

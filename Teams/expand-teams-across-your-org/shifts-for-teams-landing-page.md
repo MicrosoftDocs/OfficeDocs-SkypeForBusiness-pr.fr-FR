@@ -1,6 +1,6 @@
 ---
 title: Shifts pour Teams
-description: Obtenez les conseils d’administration dont vous avez besoin pour configurer et gérer Shifts, l’outil de gestion des plannings, dans Teams.
+description: Obtenez les conseils d’administration dont vous avez besoin pour configurer et gérer Shifts, l’outil de gestion des plannings, Teams.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -30,7 +30,7 @@ ms.locfileid: "51092552"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
-Teams fournit aux employés de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement. Cet article vous explique comment configurer et gérer. Shifts et utilisez l’outil de gestion des plannings dans Teams.
+Teams fournit aux employés en ligne de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement. Cet article vous explique comment configurer et gérer. Shifts et utiliser l’outil de gestion des plannings dans Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurer et gérer Shifts pour votre organisation
 
@@ -42,9 +42,9 @@ Teams fournit aux employés de votre organisation les outils dont ils ont besoin
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[API Shift Graph](/graph/api/resources/shift?view=graph-rest-1.0)** Les API Shifts Graph vous permettent d’intégrer des données Shifts aux systèmes externes de gestion du personnel. Vous avez la possibilité de créer des expériences Shifts personnalisées en arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
-| ![api](../media/api-small.svg) | **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes de gestion du personnel de tiers, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement aux API et SDK Shifts Graph avec les intégrations open source. |
-| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts+ Power Automate vous permet de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles permettent de prendre en charge divers scénarios, tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
+| ![api](../media/api-small.svg) | **[Api Graph Shift](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API vous permettent d’intégrer des données Shifts aux systèmes externes de gestion du personnel. Vous avez la possibilité de créer des expériences Shifts personnalisées à l’arrière-plan, tout en offrant aux utilisateurs une expérience frontale enrichie dans Teams.             |
+| ![api](../media/api-small.svg) | **[Intégrations en matière de gestion du personnel](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Si vous utilisez des systèmes tiers de gestion du personnel, tels que Kronos et JDA, pour la planification, l’heure et la participation, vous pouvez l’intégrer directement à Shifts via Shifts Graph API et SDK avec les intégrations open source. |
+| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts+Power Automate de prendre des informations à partir de Shifts, de créer des flux de travail personnalisés avec d’autres applications et d’effectuer des opérations à l’échelle. Automatisez les processus clés avec peu ou pas de code. Les déclencheurs et modèles permettent de prendre en charge divers scénarios, tels que l’activation des approbations automatiques pour les demandes de shift lorsque l’approbation d’un responsable n’est pas nécessaire. |
 
 ## <a name="featured-training"></a>Formation proposée
 

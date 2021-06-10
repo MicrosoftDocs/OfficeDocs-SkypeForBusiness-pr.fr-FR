@@ -40,13 +40,13 @@ ms.locfileid: "51097770"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |00800 XXXXXX  <br/> |
 |Code ISO de pays/région  <br/> |QA  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Via Qtel uniquement.  <br/> |
 |Disponibilité de réseau mobile  <br/> |À partir de Qtel &amp; Vodafone uniquement.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

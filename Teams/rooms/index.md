@@ -14,7 +14,7 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Découvrez comment configurer des salles Microsoft Teams, notamment planifier, déployer et gérer le système afin de créer votre salle de réunion virtuelle idéale.
+description: Découvrez comment configurer des Salles Microsoft Teams, notamment planifier, déployer et gérer le système afin de créer votre salle de réunion virtuelle idéale.
 ms.custom: seo-marvel-may2020
 ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
 ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
@@ -27,16 +27,16 @@ ms.locfileid: "51471478"
 
 :::row:::
     :::column span="2":::
-       Transformez des espaces de réunion allant des petites salles de réunion jusqu’aux grandes salles de conférence avec une expérience Teams enrichie et collaborative, facile à utiliser, à déployer et à gérer.
+       Transformez des espaces de réunion allant des petites salles de réunion jusqu’aux grandes salles de conférence avec une expérience de Teams de collaboration simple à utiliser, à déployer et à gérer.
 
        Démarrez des réunions à temps grâce à une participation en un seul contact, puis projetez instantanément sur l’écran de la salle et partagez-les avec des participants distants.
 
        Sélectionnez les périphériques système et vidéo audio de l’un de nos partenaires : Yealink, Logitech, Crestron, Polycom, Lenovo et HP.
 
-       Pour une présentation rapide des salles d’équipe, cliquez sur la vidéo à droite.
+       Pour une présentation rapide de salles Teams, cliquez sur la vidéo à droite.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Vidéo Microsoft Teams Rooms Microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -45,11 +45,11 @@ ms.locfileid: "51471478"
 |  **[Plan](./rooms-plan.md)** |  **[Déployer](./rooms-deploy.md)** |  **[Gestion](./rooms-manage.md)** |
 
 > [!NOTE]
-> Les salles Microsoft Teams sont destinées à être utilisés avec Microsoft Teams, Skype Entreprise Online, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015.
+> Salles Microsoft Teams est destiné à être utilisé avec Microsoft Teams, Skype Entreprise Online, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015.
 >
-> Les plateformes antérieures telles que Lync Server 2013 ne devraient pas fonctionner avec les salles Microsoft Teams.
+> Les plateformes antérieures telles que Lync Server 2013 ne devraient pas fonctionner avec Salles Microsoft Teams.
 
-Ces articles s’adressent aux personnes chargées de la planification, du déploiement et de la gestion de ces appareils, et non aux utilisateurs du système. Les utilisateurs seront plus intéressés par l’aide en ligne de Salles Microsoft [Teams.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+Ces articles s’adressent aux personnes chargées de la planification, du déploiement et de la gestion de ces appareils, et non aux utilisateurs du système. Les utilisateurs seront plus intéressés par [l’Salles Microsoft Teams’aide en ligne.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 > [!NOTE]
-> [Le système de salle Skype](../rooms/lrs-migration.md) (anciennement Lync Room System) et les salles Microsoft Teams sont des produits différents avec des dépendances et procédures de déploiement différentes.
+> [Skype Room System](../rooms/lrs-migration.md) (anciennement Lync Room System) et Salles Microsoft Teams sont des produits avec des dépendances et procédures de déploiement différentes.

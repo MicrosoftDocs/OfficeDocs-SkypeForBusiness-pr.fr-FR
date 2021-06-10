@@ -109,7 +109,7 @@ Audio Conferencing Communication Credits </td><td>Ou</td>
 <td>Audioconférence<br> Système téléphonique<br>Forfait d'appels nationaux<br>Forfait d’appels nationaux et internationaux (facultatif)<br>Crédits de communication</td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Entreprise E5<br>Office 365 Entreprise E5</td>
+<td>Microsoft 365 Entreprise E5<br>Office 365 Entreprise E5</td>
 <td>Forfait d'appels nationaux<br>Forfait d’appels nationaux et internationaux (facultatif)<br>Crédits de communication</td>
 <td></td>
 <td></td>
@@ -154,7 +154,7 @@ Voici un résumé basé sur le plan de gestion des licences.
 <td></td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Entreprise E5<br>Office 365 Entreprise E5</td>
+<td>Microsoft 365 Entreprise E5<br>Office 365 Entreprise E5</td>
 <td>Forfait d'appels nationaux<br>Forfait d’appels nationaux et internationaux (facultatif)<br>Crédits de communication</td>
 <td></td>
 </tr>
@@ -270,7 +270,7 @@ Pour plus d’informations, [voir Microsoft 365 administration publique](https:/
 
 #### <a name="nonprofit"></a>[**Association à but non lucratif**](#tab/nonprofit/)
 
-Si vous êtes une association, quatre possibilités s’offrent à vous pour obtenir des fonctionnalités vocales.
+Si vous êtes une organisation à but non lucratif, quatre méthodes s’offrent à vous pour obtenir des fonctionnalités vocales.
 
 - Achetez une offre Microsoft 365 pour les associations de base ou Microsoft 365'offre Standard pour les associations et Microsoft 365 Business Voice.
 - Achetez une offre E1 ou E3 pour les associations et Microsoft 365 Business Voice.

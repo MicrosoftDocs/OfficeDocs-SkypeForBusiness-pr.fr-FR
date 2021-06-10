@@ -26,7 +26,7 @@ ms.locfileid: "52569202"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>Routage direct - Définitions et normes de mise en service desfc
 
-Cet article décrit la façon dont Téléphone Microsoft routage système direct implémente les protocoles standard RFC. Cet article est destiné aux administrateurs vocaux chargés de configurer la connexion entre le contrôleur de session en session en local (SBC) et le service proxy SIP (Session Initiation Protocol).
+Cet article décrit la façon dont Téléphone Microsoft routage système direct implémente les protocoles standard RFC. Cet article est destiné aux administrateurs vocaux qui sont responsables de la configuration de la connexion entre le contrôleur de session border controller (SBC) local et le service proxy SIP (Session Initiation Protocol).
 
 Les interfaces SBC du client avec les composants suivants dans le Microsoft Teams principal : 
 
@@ -71,7 +71,7 @@ En plus des normes répertoriées comme applicables au mode sans contournement, 
 
 ### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>Normes applicables à la prise en charge de la transmission des informations d’emplacement aux fournisseurs E911
 
-- [RFC 6442, Communication d’emplacement pour le protocole d’initiation à la session](https://tools.ietf.org/html/rfc6442)
+- [RFC 6442, communication d’emplacement pour le protocole d’initiation à la session](https://tools.ietf.org/html/rfc6442)
 
 ### <a name="deviations-from-the-rfcs"></a>Écarts par rapport aux CTXT
 

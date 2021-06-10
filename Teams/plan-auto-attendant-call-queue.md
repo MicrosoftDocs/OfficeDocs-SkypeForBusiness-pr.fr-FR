@@ -199,7 +199,7 @@ Une fois que vous avez terminé les tâches de planification de cet article, sui
 
 1. Obtenez les numéros de service dont vous avez besoin pour les files d’attente et les files d’attente automatiques que vous souhaitez rendre accessibles en appelant directement depuis l’extérieur de votre organisation. Cela peut inclure [le transfert de numéros d’un autre fournisseur](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou la demande de nouveaux numéros de [service.](getting-service-phone-numbers.md)
 
-2. Obtenez une [Système téléphonique - Licence Utilisateur virtuel](teams-add-on-licensing/virtual-user.md) pour chaque compte de ressource que vous prévoyez de créer. Ces licences sont gratuites. Nous vous suggérons donc de recevoir quelques supplémentaires au cas où vous décideriez de modifier vos comptes de ressources à l’avenir.
+2. Obtenez une [Système téléphonique - Licence Utilisateur virtuel](teams-add-on-licensing/virtual-user.md) pour chaque compte de ressource que vous prévoyez de créer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier vos comptes de ressources à l’avenir.
 
 3. [Créez un compte de ressource pour](manage-resource-accounts.md) chaque employé automatique et chaque file d’attente d’appels que vous souhaitez créer. Attribuez à chaque compte une Système téléphonique - Licence Utilisateur virtuel et éventuellement un numéro de service.
 

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur les numéros d’appel gratuits en Inde, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits en Inde, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: 3e8dc705b5a8f762899433e0fbd2cc4bfe3aba94
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -45,9 +45,9 @@ ms.locfileid: "51098079"
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
-|Problèmes de commentaires, restrictions et accès  <br/> |Accès disponible à partir des réseaux suivants : Loop Mobile, BSNL - fixe (toutes les régions sauf Btyal), Vodafone, IDEA/SPICE (toutes les régions sauf Punjab Spice), MTS India/Shyam (fixe), MTNL - mobile fixe, Reliance (toutes les régions à l’aide d’Un compte à l’aide d’Un compte), &amp; &amp; &amp; Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Blmi/Airtel.  <br/> Accès non disponible auprès des réseaux suivants : TTSL (Prépayé), Etisalat DB Telecom et Jio.  <br/> |
+|Problèmes de commentaires, restrictions et accès  <br/> |Accès disponible à partir des réseaux suivants : Loop Mobile, BSNL - fixe (toutes les régions sauf Bignal), Vodafone, IDEA/SPICE (toutes les régions sauf Punjab Spice), MTS India/Shyam (fixe), MTNL - mobile fixe, Reliance (toutes les régions à l’aide d’Un compte à l’aide &amp; d’Un compte), &amp; &amp; Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Blmi/Airtel.  <br/> Accès non disponible auprès des réseaux suivants : TTSL (Prépayé), Etisalat DB Telecom et Jio.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

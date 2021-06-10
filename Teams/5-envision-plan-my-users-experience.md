@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Choisissez les applications clientes Teams, planifiez la qualité des points de terminaison, obtenez des recommandations pour le déploiement de Wi-Fi points de terminaison et le choix d’appareils audio.
+description: Choisissez Teams applications clientes, planifiez la qualité des points de terminaison, obtenez des recommandations pour le déploiement de Wi-Fi points de terminaison et le choix d’appareils audio.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -29,13 +29,13 @@ ms.locfileid: "51094732"
 
 Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience fiable et de haute qualité aux utilisateurs. 
 
-## <a name="client-deployment"></a>Déploiement de client
+## <a name="client-deployment"></a>Déploiement du client
 
-Microsoft Teams propose des clients web, de bureau (Windows et Mac) et mobiles (Android et iOS). Pour plus d’informations sur la façon dont les clients de bureau (Windows et Mac) et mobiles sont installés, consultez Obtenir [des clients pour Microsoft Teams.](./get-clients.md)
+Microsoft Teams clients sont disponibles pour le web, le bureau (Windows et Mac) et les appareils mobiles (Android et iOS). Pour plus d’informations sur la manière dont les clients de bureau (Windows et Mac) et mobiles sont installés, voir Obtenir des clients pour [Microsoft Teams.](./get-clients.md)
 
 ## <a name="client-updates"></a>Mises à jour du client
 
-L’un des principaux avantages de Teams est que le client est automatiquement tenu à jour. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive.
+L’un des principaux avantages d Teams est que le client est automatiquement tenu à jour. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive.
 
 <!--ENDOFSECTION-->
 
@@ -45,7 +45,7 @@ Comme le montre le diagramme ci-dessous, les points de terminaison jouent un rô
 
 ![Diagramme décrivant les trois composants de la qualité](media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composants de la qualité et la manière dont la gestion des services chevauche les trois composants. Avec le focus sur les points de terminaison.")
 
-Les points de terminaison Teams peuvent s’exécuter sur de nombreux appareils, notamment des PC, des Mac, des tablettes et des appareils mobiles. Une partie de l’expérience englobe non seulement l’appareil, mais également la façon dont un utilisateur se connecte à l’appareil, par exemple, en utilisant le micro/haut-parleur intégré de l’appareil, les écouteurs ou un casque optimisé. L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
+Teams points de terminaison peuvent s’exécuter sur de nombreux appareils, notamment des PC, des Mac, des tablettes et des appareils mobiles. Une partie de l’expérience englobe non seulement l’appareil, mais également la façon dont un utilisateur se connecte à l’appareil, par exemple, en utilisant le micro/haut-parleur intégré de l’appareil, les écouteurs ou un casque optimisé. L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 
 Les conseils suivants sur la planification des points de terminaison vous aideront à vous assurer que votre organisation a une expérience d'intégration réussie avec Teams.
 
@@ -53,19 +53,19 @@ Les conseils suivants sur la planification des points de terminaison vous aidero
 
 La première partie de la planification consiste à s’assurer que tous les PC et autres appareils de votre organisation peuvent exécuter Teams. Il ne s'agit pas seulement d'examiner les exigences matérielles, mais aussi de comprendre ce que le PC fait d'autre en arrière-plan. De nombreuses organisations utilisent d'autres logiciels, y compris les systèmes de détection d'intrusion et les logiciels antimalware, qui peuvent affecter les performances de base d'un appareil.
 
-Pour plus d’informations sur les conditions logicielles requises pour les clients Teams sur chaque plateforme (web, ordinateur de bureau et mobile), consultez Obtenir [des clients pour Microsoft Teams.](./get-clients.md)
+Pour plus d’informations sur la Teams logicielles requises pour vos clients sur chaque plateforme (web, ordinateur de bureau et appareil mobile), voir Obtenir [des clients pour Microsoft Teams.](./get-clients.md)
 
 ## <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
 Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
-Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations dans les URL et [plages d’adresses IP Microsoft 365 ou Office 365.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
+Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations Microsoft 365 ou Office 365 URL et [plages d’adresses IP.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
 
 >[!NOTE]
 > Les équipes Microsoft mettront automatiquement à jour le pare-feu Windows avec une configuration de pare-feu appropriée.
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>Recommandations Wi-Fi pour les points de terminaison
 
-La planification du déploiement d’un réseau Wi-Fi optimisé pour prendre en charge les charges de travail en temps réel dans Microsoft Teams prend beaucoup de temps. Les sections suivantes fournissent des instructions générales qui peuvent vous aider à éviter les pièges courants lors de la planification de points de terminaison.
+Le déploiement d’un réseau Wi-Fi réseau optimisé pour prendre en charge les charges de travail en temps réel dans Microsoft Teams prend en charge une planification Microsoft Teams. Les sections suivantes fournissent des instructions générales qui peuvent vous aider à éviter les pièges courants lors de la planification de points de terminaison.
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
@@ -87,11 +87,11 @@ Certaines organisations préfèrent éviter complètement le Wi-Fi. Parfois, ces
 
 ### <a name="80211-power-save-protocol"></a>802.11 Protocole Power Save
 
-Si votre organisation utilise des points d’accès sans fil ou des routeurs qui ne supportent pas le protocole Power Save 802.11, vous risquez de vivre des appels supprimés ou de mauvaise qualité d’appel dans Microsoft Teams s’exécutant sur des appareils Windows. Si la mise à niveau de votre point d'accès sans fil ou de vos routeurs est impossible, vous devez mettre à jour les paramètres du plan d'alimentation Windows sur les appareils fonctionnant sur batterie. De plus amples détails et des conseils de configuration sont fournis dans l'[article de support](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you) suivant.
+Si votre organisation utilise des points d’accès sans fil ou des routeurs qui ne prend pas en charge le protocole Power Save 802.11, vous risquez de vivre des appels supprimés ou une qualité d’appel médiocre dans Microsoft Teams s’exécutant sur des appareils Windows. Si la mise à niveau de votre point d'accès sans fil ou de vos routeurs est impossible, vous devez mettre à jour les paramètres du plan d'alimentation Windows sur les appareils fonctionnant sur batterie. De plus amples détails et des conseils de configuration sont fournis dans l'[article de support](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you) suivant.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quels clients Teams seront déployés dans votre organisation ?</li><li>Comment allez-vous déployer initialement les clients Teams vers vos utilisateurs ?</li><li>Qui est responsable de l’évaluation des points de terminaison et des appareils afin de vérifier qu’ils répondent aux exigences de Teams pour une expérience de qualité ?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le processus qui sera suivi pour déployer les clients Teams.</li><li>Évaluez les points de terminaison et les appareils, et effectuez les corrections requises.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quels Teams clients seront déployés dans votre organisation ?</li><li>Comment allez-vous déployer initialement Teams clients vers vos utilisateurs ?</li><li>Qui d’évaluation des points de terminaison et des appareils afin de vérifier qu’ils répondent Teams conditions requises pour une expérience de qualité ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le processus qui sera suivi pour déployer Teams clients.</li><li>Évaluez les points de terminaison et les appareils, et effectuez les corrections requises.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -108,7 +108,7 @@ Un exercice de mappage personne à appareil devrait être effectué dans le cadr
 Une fois que vous avez sélectionné les appareils, incluez-les dans le plan d'essai pilote pour la validation finale. Tirez parti des sondages pendant le projet pilote pour recueillir des commentaires afin de vous assurer que la stratégie de votre appareil est optimale.
 
 > [!NOTE]
-> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour trouver les périphériques certifiés dans le cadre de ce programme, consultez les périphériques [Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) et les périphériques audio et [vidéo USB.](/SkypeForBusiness/certification/devices-usb-devices)
+> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher les périphériques certifiés dans le cadre de ce programme, consultez les périphériques [Microsoft Teams et](https://products.office.com/microsoft-teams/across-devices/devices) les périphériques audio et [vidéo USB.](/SkypeForBusiness/certification/devices-usb-devices)
 
 
 

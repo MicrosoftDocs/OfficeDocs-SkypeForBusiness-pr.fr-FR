@@ -143,7 +143,7 @@ Le format requis pour entrer l’extension dans le champ Numéro de téléphone 
 - Exemple 2 : Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber « +1555555678x5678 »
 - Exemple 3 : Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber « x5678 »
 
-Vous pouvez définir l’extension dans le Microsoft 365 [d’administration](https://admin.microsoft.com/) ou le [Azure Active Directory d’administration.](https://aad.portal.azure.com) Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les attendants automatiques et les files d’attente d’appels.
+Vous pouvez définir l’extension dans le Centre [d’administration Microsoft 365](https://admin.microsoft.com/) ou le [Centre d’administration Azure Active Directory.](https://aad.portal.azure.com) Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les attendants automatiques et les files d’attente d’appels.
 
 > [!NOTE]
 > Si vous souhaitez utiliser les fonctionnalités Numérotation **par** nom et Numérotation par **numérotation** par numérotation de poste, vous pouvez affecter une touche de numérotation sur votre postes de service automatique principal afin d’atteindre un postes de numérotation automatique activé pour la numérotation **par nom.** Dans ce attendant automatique, vous pouvez affecter la touche 1 (qui ne possède aucune lettre associée) pour atteindre le numéro par numérotation par **numérotation** automatique de poste.
@@ -196,9 +196,9 @@ Une fois que vous avez ajouté tous vos jours fériés, sélectionnez **Suivant.
 
 ![Capture d’écran de l’étendue de la numérotation : inclure et exclure des options](media/auto-attendant-dial-scope.png)
 
-*L’étendue de* la numérotation définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut de **Tous les** utilisateurs en ligne inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés sur site à l’aide d’Skype Entreprise Server.
+*L’étendue de* la numérotation définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut de **Tous les** utilisateurs en ligne inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés sur site à l’aide de Skype Entreprise Server.
 
-Vous pouvez inclure ou exclure  des utilisateurs  spécifiques en sélectionnant Groupe d’utilisateurs personnalisés sous Inclure ou Exclure, et en choisissant un ou plusieurs groupes de Microsoft 365, listes de distribution ou groupes de sécurité.  Par exemple, vous pouvez exclure des cadres de votre organisation de l’annuaire d’appels. (Si un utilisateur se trouve dans les deux listes, il sera exclu de l’annuaire.)
+Vous pouvez inclure ou exclure  des utilisateurs  spécifiques en sélectionnant Groupe d’utilisateurs personnalisés sous Inclure ou Exclure, puis en choisissant un ou plusieurs groupes, listes de distribution ou groupes de sécurité Microsoft 365.  Par exemple, vous pouvez exclure des cadres de votre organisation de l’annuaire d’appels. (Si un utilisateur se trouve dans les deux listes, il sera exclu de l’annuaire.)
 
 > [!NOTE]
 > Jusqu’à 36 heures peuvent être nécessaire pour que le nom d’un nouvel utilisateur soit répertorié dans l’annuaire.
@@ -223,7 +223,7 @@ Reportez-vous [aux conditions préalables](plan-auto-attendant-call-queue.md#pre
 
 - Pour un compte [](calling-plans-for-office-365.md)de ressource titulaire d’une licence Forfait d’appels, le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code du pays][code de zone][numéro de téléphone]).
 
-- Pour un compte de ressource ayant une stratégie de routage voix de licence Système téléphonique et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
+- Pour un compte de ressource ayant une licence système téléphonique et une stratégie de routage vocal en ligne de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
 
 Le numéro de téléphone sortant affiché est déterminé comme suit :
 
@@ -232,7 +232,7 @@ Le numéro de téléphone sortant affiché est déterminé comme suit :
     - S’il est désactivé, le numéro de téléphone de l’appelant d’origine s’affiche. Il s’agit du paramètre par défaut et recommandé.
     - S’il est activé, le numéro de téléphone du compte de ressource s’affiche.
 
-Dans un environnement Skype Entreprise hybride, pour transférer un appel de attendant automatique vers le RSTN, créez un utilisateur sur site avec le transfert d’appel sur le numéro PSTN. L’utilisateur doit être activé pour les Voix Entreprise et une stratégie vocale lui est affectée. Pour en savoir plus, [consultez le transfert d’appel du attendant automatique vers PSTN.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+Dans un environnement hybride Skype Entreprise, pour transférer un appel de moyen de transport automatique vers le réseau PSTN, créez un utilisateur sur site avec le transfert d’appel sur le numéro PSTN. L’utilisateur doit être activé pour les Voix Entreprise une stratégie vocale lui est affectée. Pour en savoir plus, [consultez le transfert d’appel du attendant automatique vers PSTN.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Créer un attendant automatique avec PowerShell
 

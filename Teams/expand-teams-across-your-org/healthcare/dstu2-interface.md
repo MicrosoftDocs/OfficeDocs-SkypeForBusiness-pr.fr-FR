@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Découvrez la spécification de l’interface DSTU2 dans Teams, y compris la configuration ou la reconfiguration d’un serveur FEMBA pour l’utiliser avec l’application Patients de Microsoft Teams.
+description: Découvrez la spécification de l’interface DSTU2 dans Teams, y compris la configuration ou la reconfiguration d’un serveur FEMBA pour l’utiliser avec l’application Microsoft Teams Patients.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
@@ -29,11 +29,11 @@ ms.locfileid: "48803482"
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’[application Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui soutien l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe mais ne sont plus accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de l’[application Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
+>Les listes permet aux équipes de soins de votre organisation de santé de créer des listes de patients pour différents scénarios (arrondis, réunions d’équipe de formation, surveillance générale des patients, etc.). Pour commencer, consultez le modèle Patients dans listes. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, consultez [Gérer l’application Listes](../../manage-lists-app.md).
 
-La configuration ou la reconfiguration d’un serveur FEMBA pour qu’il fonctionne avec l’application Patients de Microsoft Teams nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur F POSTER doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
+La configuration ou la reconfiguration d’un serveur FEMBA pour l’Microsoft Teams Patients nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur F POSTER doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
 
 - [Patient](#patient)
 - [Observation](#observation)
@@ -45,9 +45,9 @@ La configuration ou la reconfiguration d’un serveur FEMBA pour qu’il fonctio
 - [Emplacement](#location)
 
 > [!NOTE]
-> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas du tout. Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources mentionnées ci-dessus par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
+> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas du tout. Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources ci-dessus mentionnées par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
 
-Requêtes de l’application Patients de Microsoft Teams pour plusieurs ressources publient une offre groupée (BATCH) de demandes vers l’URL du serveur FEMBA. Le serveur traite chaque demande et renvoie une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) voir .
+Requêtes de l’Microsoft Teams Patients de plusieurs ressources publient une offre groupée (BATCH) de demandes vers l’URL du serveur FEMBA. Le serveur traite chaque demande et renvoie une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) voir .
 
 Toutes les ressources D FEMBA suivantes doivent être accessibles par référence de ressource directe.
 
@@ -180,7 +180,7 @@ Consultez [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir
 
 ## <a name="observation"></a>Observation
 
-Voici les champs minimum requis, qui sont un sous-ensemble du profil des signes vital d’Argot :
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil des signes vital d’Argot :
 
  - Effectif (date ou période)
  - Code.Coding.Code
@@ -367,7 +367,7 @@ Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil d�
 
  - Code.Text
  - Code.Coding[0]. Affichage
- - Statut
+ - État
 
 Outre les champs Argot, pour une expérience utilisateur excellente, l’application Patients lit également les champs suivants :
 
@@ -432,7 +432,7 @@ Voici les champs minimaux requis, qui sont un sous-ensemble du profil Médicaux 
  - Medication.Display (référence de cas)
  - Médication.texte (concept de cas)
 
-Outre les champs Argot, pour une expérience utilisateur excellente, l’application Patients peut également lire les champs suivants :
+Outre les champs Argot, pour une grande expérience utilisateur, l’application Patients peut également lire les champs suivants :
 
  - DateEnded
  - Onstruction.Text
@@ -482,7 +482,7 @@ Consultez [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.
 
 ## <a name="coverage"></a>Couverture
 
-Voici les champs minimum requis, et non couverts par les profils Us Core ou Argot :
+Il s’agit des champs requis au minimum, et non couverts par les profils Us Core ou Argot :
 
  - Payor
 

@@ -47,7 +47,7 @@ ms.locfileid: "51097890"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

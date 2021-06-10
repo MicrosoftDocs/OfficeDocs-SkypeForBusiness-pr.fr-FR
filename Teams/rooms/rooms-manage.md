@@ -26,12 +26,12 @@ ms.locfileid: "52469596"
 
 Si vous avez des Salles Microsoft Teams certifiés dans votre organisation, vous avez des options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes vos solutions Teams, le Centre d’administration Microsoft Teams ou transférer vos responsabilités de gestion à des experts dédiés utilisant les services gérés [Salles Microsoft Teams.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
 
-Avec Microsoft Teams d’administration, vous pouvez :
+Avec Microsoft Teams Centre d’administration, vous pouvez :
 
 - Effectuer une gestion des appareils telle que le redémarrage des appareils et le téléchargement des journaux des appareils
 - Appliquer Teams paramètres spécifiques
 - Vérifier l’état d’Microsoft Teams périphériques de la salle et de ses périphériques, notamment les caméras, les écrans, les microphones, et ainsi de suite.
-- Passer en revue l’activité en cours et passée des réunions (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
+- Passer en revue l’activité des réunions passées et présentes (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
 - Voir les périphériques (tels que les caméras et les projecteurs) connectés à un Microsoft Teams de salle
 
 Pour gérer salles Teams appareils mobiles, ouvrez le [Centre Microsoft Teams’administration](https://admin.teams.microsoft.com) et allez sur **Appareils**  >  **salles Teams.**
@@ -39,7 +39,7 @@ Pour gérer salles Teams appareils mobiles, ouvrez le [Centre Microsoft Teams’
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse dans Teams centre d’administration":::
 
 > [!IMPORTANT]
-> Pour gérer les appareils à l Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
+> Pour gérer les appareils à l’Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Apporter des modifications à salles Teams appareils
 
@@ -56,7 +56,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
     > [!CAUTION]
     > Les valeurs existantes des paramètres que vous choisissez de mettre à jour seront remplacées par la valeur que vous fournissez. Si vous voulez ajouter des valeurs à une liste de valeurs existantes, vous devez inclure les valeurs existantes avec la valeur que vous voulez ajouter. Par exemple, si un paramètre possède une liste de domaines existante et que vous voulez ajouter, la valeur que vous `contoso.com, fabrikam.com` `northwindtraders.com` devez fournir serait `contoso.com, fabrikam.com, northwindtraders.com` .
     >
-    > Si vous sélectionnez plusieurs périphériques, le paramètre de tous les appareils sélectionnés sera modifié en fonction de la valeur que vous fournissez. Si les appareils ont des valeurs différentes pour un paramètre, ils sont tous mis à jour avec la même valeur.
+    > Si vous sélectionnez plusieurs appareils, le paramètre de tous les appareils sélectionnés sera modifié en fonction de la valeur que vous fournissez. Si les appareils ont des valeurs différentes pour un paramètre, ils sont tous mis à jour avec la même valeur.
 
 | Paramètres                                                      | Valeurs acceptées                                        | Prend en charge la modification en bloc |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
@@ -70,7 +70,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 | *Réunions*                                                   |                                                        |                    |
 | **Partage d’écran automatique**                                 | Activé<br>Désactivé                                              | Oui                |
 | **Afficher les noms des réunions**                                       | Activé<br>Désactivé                                              | Oui                |
-| **Quitter automatiquement une réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
+| **Quitter automatiquement la réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
 | *Device*                                                     |                                                        |                    |
 | **Mode à deux moniteurs**                                        | Activé<br>Désactivé                                              | Oui                |
 | **Bluetooth balises**                                      | Activé<br>Désactivé                                              | Oui                |
@@ -86,17 +86,17 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 | **Caméra de contenu**                                           | Liste des caméras disponibles                              | Non                 |
 | **Améliorations apportées aux caméras de contenu**                              | Activé<br>Désactivé                                              | Non                 |
 | **Faire pivoter la caméra de contenu de 180 degrés**                        | Activé<br>Désactivé                                              | Non                 |
-| *Avec le theming*                                                    |                                                        |                    |
+| *Theming*                                                    |                                                        |                    |
 |                                                              | Par défaut<br>Aucun thème<br>Personnalisé<br>Liste des thèmes intégrés   | Oui                |
 
 ### <a name="device-restart-options"></a>Options de redémarrage de l’appareil
 
 Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement les appareils ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
 
-- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous aurez sélectionné cette option.
+- **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous sélectionnerez cette option.
 - **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils que vous modifiez à un moment moins perturbateur pour votre organisation.
   - **Sélectionnez la date et l’heure** : choisissez la date et l’heure spécifiques pour redémarrer l’appareil. La date et l’heure choisies sont locales pour l’appareil en cours de redémarrage. 
-  - **Laisser la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
+  - **Quitter la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
 
 > [!CAUTION]
 > Les appareils en cours d’utilisation au moment du redémarrage deviennent indisponibles pendant toute la durée du processus de redémarrage. Ils seront déconnectés des réunions en cours et ne pourront pas participer à de nouvelles réunions.
@@ -109,7 +109,7 @@ Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom 
 
 Pour supprimer un ou plusieurs appareils, vous pouvez :
 
-1. Sélectionnez **les** salles Teams appareils à  >   supprimer.
+1. Allez sur **Appareils**  >  **salles Teams** sélectionnez les appareils que vous voulez supprimer.
 1. Sélectionnez **Supprimer**.
 
 ## <a name="download-device-logs"></a>Télécharger les journaux de l’appareil
@@ -124,7 +124,7 @@ Pour télécharger les journaux d salles Teams appareil sur votre ordinateur, vo
 
 ## <a name="view-device-information"></a>Afficher les informations sur l’appareil
 
-À partir Teams centre d’administration, vous pouvez afficher l’état global de tous les appareils de votre organisation et afficher les détails de chaque appareil individuellement.
+À partir Teams centre d’administration, vous pouvez consulter l’état global de tous les appareils de votre organisation et afficher les détails de chaque appareil individuellement.
 
 ### <a name="teams-rooms-system-dashboard"></a>salles Teams tableau de bord système
 
@@ -159,6 +159,6 @@ La page de résumé des participants affiche tous les participants qui ont parti
 
 ##### <a name="participant-details"></a>Détails du participant
 
-La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur le **périphérique,** le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
+La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur l’appareil, le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Détails des appels d’un appareil de salle":::

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation de numéros gratuits au Panama, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
+description: En savoir plus sur la numérotation de numéros gratuits au Panama, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
 ms.openlocfilehash: f1dca1950854c5fc8b78b97fea3278018062f243
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -41,13 +41,13 @@ ms.locfileid: "51097850"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 00-800-XXX-XXXX <br/> |
 |Code ISO de pays/région  <br/> |PA  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Via C&amp;W uniquement.  <br/> |
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Le client doit composer le 011 (code international de Panama longue distance) avant le numéro gratuit.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -41,7 +41,7 @@ La numérotation par poste est une fonctionnalité d’un service de service aut
 
 ### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
+Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille maximale d’une liste de noms prise en charge par un seul employé de la fonction de reconnaissance vocale est de 80 000 utilisateurs.
   
 |Type d'entrée|Format de recherche|Nombre maximal d'utilisateurs dans une organisation|
 |:-----|:-----|:-----|

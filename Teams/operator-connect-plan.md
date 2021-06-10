@@ -55,7 +55,7 @@ Avec la Connecter opérateur, si votre opérateur existant participe au programm
 
 - Le plan d’appels Microsoft n’est pas disponible dans votre emplacement géographique.
 - Votre opérateur préféré est un participant au programme d’Connecter Microsoft.
-- Vous souhaitez trouver un nouvel opérateur pour activer les appels Teams.
+- Vous souhaitez trouver un nouvel opérateur pour activer les appels dans Teams.
 
 Pour activer les affectations de numéros de téléphone à l’Connecter, assurez-vous que vos utilisateurs sont :
 

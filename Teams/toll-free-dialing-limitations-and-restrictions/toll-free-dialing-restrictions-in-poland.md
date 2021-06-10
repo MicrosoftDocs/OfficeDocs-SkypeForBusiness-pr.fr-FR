@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation de numéros gratuits en Pologne, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
+description: En savoir plus sur la numérotation de numéros gratuits en Pologne, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
 ms.openlocfilehash: b9a9e64044fdf012de5ec96e157863a5d7540518
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -47,7 +47,7 @@ ms.locfileid: "51097820"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

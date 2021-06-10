@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Découvrez comment intégrer des enregistrements d’état d’santé électroniques à l’application Patients de Microsoft Teams et à la spécification de l’interface CENTRE.AU.I.
+description: Découvrez comment intégrer des enregistrements d’état d’santé électroniques à l Microsoft Teams patient et à la spécification de l’interface SPECIFICATION3.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
@@ -29,11 +29,11 @@ ms.locfileid: "48803492"
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
 
 > [!NOTE]
-> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’application [Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui constitue le fond de l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe, mais ne peuvent plus être accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de [l’application Listes.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
+> À compter du 30 octobre 2020, l’application Patients a été retirée et remplacée par l’[application Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) dans Teams. Les données de l’application Patients sont stockées dans la boîte aux lettres de groupe du groupe Office 365 qui soutien l’équipe. Toutes les données associées à l’application Patients sont conservées dans ce groupe mais ne sont plus accessibles via l’interface utilisateur. Les utilisateurs peuvent re-créer leurs listes à l’aide de l’[application Listes](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->Avec les listes, les équipes de soins de votre organisation de soins de santé peuvent créer des listes de patients pour des scénarios allant des arrondis et des réunions d’équipe de recherche à la surveillance générale des patients. Consultez le modèle Patients dans Listes pour commencer. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, voir [l’application Gérer les listes.](../../manage-lists-app.md)
+>Les listes permet aux équipes de soins de votre organisation de santé de créer des listes de patients pour différents scénarios (arrondis, réunions d’équipe de formation, surveillance générale des patients, etc.). Pour commencer, consultez le modèle Patients dans listes. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, consultez [Gérer l’application Listes](../../manage-lists-app.md).
 
-La configuration ou la reconfiguration d’un serveur FEMBA pour qu’il fonctionne avec l’application Patients de Microsoft Teams nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur F POSTER doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
+La configuration ou la reconfiguration d’un serveur FEMBA pour l’Microsoft Teams Patients nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur F POSTER doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
 
 - [Patient](#patient)
 - [Observation](#observation)
@@ -42,12 +42,12 @@ La configuration ou la reconfiguration d’un serveur FEMBA pour qu’il fonctio
 - [Erdesses](#allergyintolerance)
 - [Couverture](#coverage)
 - [Relevé de médication](#medication-request) (remplace l’ordre Médication dans la version DSTU2 de l’app Patients)
-- Emplacement (les informations requises pour cette ressource peuvent être incluses dans La rencontre)
+- Emplacement (les informations requises pour cette ressource peuvent être incluses dans La Rencontre)
 
 > [!NOTE]
-> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas). Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources mentionnées ci-dessus par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
+> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas du tout) ; Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources ci-dessus mentionnées par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
 
-Les requêtes de l’application Patients de Microsoft Teams pour plusieurs ressources publient une offre groupée (BATCH) de demandes sur l’URL du serveur FEMBA. Le serveur doit traiter chaque demande et renvoyer une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) voir .
+Les requêtes de l’Microsoft Teams Patients pour plusieurs ressources publient une offre groupée (BATCH) de demandes sur l’URL du serveur F URL. Le serveur doit traiter chaque demande et renvoyer une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) voir .
 
 ## <a name="capability-statement"></a>Instruction de fonctionnalité
 
@@ -86,7 +86,7 @@ Une recherche de ressources utilise la méthode POST à /Patient/_search et les 
  - family=(recherche tous les patients dont le nom de famille contient la valeur)
  - given=\<substring>
  - birthdate=(correspondance exacte)
- - gender=(valeurs étant l’un des deux sexes administratifs)
+ - gender=(valeurs l’une des administratives-sexe)
  - \_nombre (nombre maximal de résultats à retourner) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés suite à la recherche et le nombre sera utilisé par l’App Patients pour limiter le nombre d’enregistrements \_ renvoyés.
  - identifier=\<mrn>
 
@@ -398,7 +398,7 @@ Consultez [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/e
 
 ## <a name="allergyintolerance"></a>MondeYIntolerance
 
-Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil [ArgotaïquesIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil [d’argotaïeIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
 
  - Code.Text
  - Code.Coding[0]. Affichage
@@ -479,7 +479,7 @@ Voici les champs minimum requis, qui sont un sous-ensemble du profil de demande 
  - AuthoredOn
  - Requester.Agent.Display
 
-Outre les champs du cœur des États-Unis, pour une expérience utilisateur excellente, l’application Patients peut également lire les champs suivants :
+Outre les champs cœur des États-Unis, pour une expérience utilisateur excellente, l’application Patients peut également lire les champs suivants :
 
  - [.]. Texte
  - Texte
@@ -493,7 +493,7 @@ Consultez [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/
 
 ## <a name="coverage"></a>Couverture
 
-Voici les champs requis au minimum, et non couverts par les profils Us Core ou Argot :
+Il s’agit des champs requis au minimum, et non couverts par les profils Us Core ou Argot :
 
  - Regroupement, au moins un élément avec
     - GroupDisplay

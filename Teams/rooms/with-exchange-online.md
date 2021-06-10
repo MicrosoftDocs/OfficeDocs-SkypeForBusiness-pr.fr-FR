@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des Salles Microsoft Teams avec Exchange Online et Skype Entreprise Server sur site.
+description: Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams déploiement Exchange Online et Skype Entreprise Server sur site.
 ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
 ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "52796678"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Déployer des Salles Microsoft Teams avec Exchange Online
 
-Lisez cette rubrique pour plus d’informations sur la façon de déployer des Salles Microsoft Teams avec Exchange Online et Skype Entreprise Server sur site.
+Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams déploiement Exchange Online et Skype Entreprise Server sur site.
   
 Si votre organisation dispose d’un mélange de services, dont certains sont hébergés en local et d’autres hébergés en ligne, votre configuration dépend de l’endroit où chaque service est hébergé. Cette rubrique traite des déploiements hybrides Salles Microsoft Teams avec des Exchange en ligne. Ce type de déploiement étant très différent, il n’est pas possible de fournir des instructions détaillées pour l’ensemble d’entre eux. Le processus suivant fonctionne pour de nombreuses configurations. Si le processus n’est pas configuré pour votre configuration, nous vous recommandons d’utiliser Windows PowerShell pour obtenir le même résultat final que celui documenté ici, ainsi que pour d’autres options de déploiement.
 
@@ -101,7 +101,7 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
      ``` -->
 
 2. Le compte d’utilisateur doit avoir une licence Microsoft 365 ou Office 365 valide pour s’assurer Exchange et Skype Entreprise Server fonctionnent. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’utilisateur ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous devez effectuer le devoir dans une étape suivante.
-3. Ensuite, utilisez `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> pour récupérer la liste des S SKUs disponibles pour votre organisation Microsoft 365 ou Office 365 entreprise.
+3. Utilisez ensuite `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> pour récupérer la liste des S SKUs disponibles pour votre organisation Microsoft 365 ou Office 365 entreprise.
 4. Une fois les S SKUs répertoriées, vous pouvez ajouter une licence à l’aide du `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -161,7 +161,7 @@ Si vous avez déployé les services AD FS (Active Directory Federation Services)
 Pour validation, vous devriez être en mesure d’utiliser n Skype Entreprise client pour vous connecter à ce compte.
 
 > [!NOTE]
-> Si vous utilisez actuellement les références E1, E3, E4 ou E5 avec Skype Entreprise Plan 2 avec audioconférence ou Système téléphonique et un plan d’appels, ceux-ci continueront de fonctionner. Toutefois, vous devez envisager de passer [](rooms-licensing.md)à un modèle de licence plus simple, comme décrit dans Teams Salle de réunion mise à jour des licences, après l’expiration des licences actuelles.
+> Si vous utilisez actuellement les références E1, E3, E4 ou E5 avec Skype Entreprise Plan 2 avec audioconférence ou Système téléphonique et un plan d’appels, celles-ci continueront de fonctionner. Toutefois, vous devez envisager de passer [](rooms-licensing.md)à un modèle de licence plus simple, comme décrit dans Teams Salle de réunion mise à jour des licences, après l’expiration des licences actuelles.
 
 > [!IMPORTANT]
 > Si vous utilisez Skype Entreprise Plan 2, vous pouvez uniquement utiliser la Salles Microsoft Teams en mode Skype Entreprise Uniquement, ce qui signifie que toutes vos réunions seront Skype Entreprise réunions. Pour activer votre salle de réunion pour les Microsoft Teams, nous vous recommandons d’acheter la Salle de réunion réunion.

@@ -33,20 +33,20 @@ ms.locfileid: "51506721"
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Grâce à Teams, les utilisateurs de votre organisation peuvent diffuser de la vidéo et du contenu de réunion à un grand nombre d’audiences en ligne.
+Grâce Teams des événements de vie, les utilisateurs de votre organisation peuvent diffuser du contenu vidéo et de réunion à un vaste public en ligne.
 
 Les événements en direct de Microsoft 365 améliorent considérablement la diffusion vidéo en direct. Les événements en direct favorisent les liens tout au long du cycle de vie de l’engagement avec les participants, et ce, avant, pendant et après les événements en direct. Vous pouvez créer un événement en direct peu importe où se trouvent votre audience, votre équipe ou votre communauté, à l’aide de Microsoft Stream, Teams ou Yammer.  
 
-Teams propose une collaboration, des appels, des réunions et des événements en direct basés sur la conversation, afin que vous puissiez élargir l’audience de vos réunions. Les événements en direct Teams sont une extension des réunions Teams, permettant aux utilisateurs de diffuser des vidéos et du contenu de réunion à une large audience d’internautes. Les événements en direct sont destinés aux communications un-à-plusieurs dans lesquelles l’hôte de l’événement dirige les interactions. La participation de l’audience se résume principalement à afficher le contenu partagé par l’hôte. Les participants peuvent regarder l’événement en direct ou enregistré dans Yammer, Teams ou Stream et peuvent interagir avec les présentateurs à l’aide d’un Q & R modéré ou d’une conversation Yammer.
+Teams propose une collaboration, des appels, des réunions et des événements en direct basés sur la conversation, afin que vous puissiez élargir l’audience de vos réunions. Les événements en direct Teams sont une extension des réunions Teams, permettant aux utilisateurs de diffuser des vidéos et du contenu de réunion à une large audience d’internautes. Les événements en direct sont destinés aux communications un-à-plusieurs dans lesquelles l’hôte de l’événement dirige les interactions. La participation de l’audience se résume principalement à afficher le contenu partagé par l’hôte. Les participants peuvent regarder l’événement en direct ou enregistré dans Yammer, Teams ou Stream, et interagir avec les présentateurs à l’aide d’un Q & A ou d’une conversation Yammer animée.
 
-Les événements en direct des équipes sont considérés comme la prochaine version de la Diffusion de réunion Skype et remplaceront à terme les fonctionnalités fournies dans celle-ci. À ce stade, Microsoft continuera à prendre en charge la Diffusion de réunion Skype pour les utilisateurs qui utilisent Skype Entreprise dans leurs organisations, sans interruption de service pour les événements nouveaux ou futurs. Toutefois, nous vous encourageons à tester les événements en direct Teams pour utiliser toutes les nouvelles fonctionnalités intéressantes, y compris le partage d’écran et la prise en charge des encodeurs matériels/logiciels externes.
+Les événements en direct des équipes sont considérés comme la prochaine version de la Diffusion de réunion Skype et remplaceront à terme les fonctionnalités fournies dans celle-ci. À ce stade, Microsoft continuera à prendre en charge la Diffusion de réunion Skype pour les utilisateurs qui utilisent Skype Entreprise dans leurs organisations, sans interruption de service pour les événements nouveaux ou futurs. Toutefois, nous vous encourageons à tester Teams événements en direct pour utiliser toutes les nouvelles fonctionnalités intéressantes, notamment le partage d’écran et la prise en charge des encodeurs matériels/logiciels externes.
 
 C’est parti ! Tout d’abord, regardez le diagramme suivant qui montre les composants de niveau élevés impliqués dans les événements en direct de Microsoft 365 et comment ils sont connectés.
 
 ![Les éléments clés des événements en direct](../media/live-event-flow-diagram.png  "Composants clés des événements en direct, planification, production, plateforme Stream, fournisseurs tiers certifiés eCDN")
 
 > [!Note]
-> Nous voulons souligner que les événements en direct Teams, étant donné la nature de la technologie de diffusion, dépassent souvent les populations de réunions normales (internes).
+> Nous voulons souligner que les Teams en direct, étant donné la nature de la technologie de diffusion, dépassent souvent les populations de réunions normales (internes).
 >
 > Comme pour d’autres services de diffusion multimédia de plus grande taille, nous nous appuyons sur les réseaux de distribution de contenu pour diffuser le contenu de votre événement en direct aux destinataires. Ce contenu est protégé par des méthodes de chiffrement et soumis à l’autorisation par des jetons d’accès uniquement émis aux destinataires en fonction de votre configuration de réunion en direct.
 >
@@ -56,7 +56,7 @@ C’est parti ! Tout d’abord, regardez le diagramme suivant qui montre les co
 
 ### <a name="event-group-roles"></a>Rôles du groupe d’événements
 
-Les événements en direct teams permettent à plusieurs rôles (organisateur, producteur, présentateur et participant) de diffuser et de participer à un événement. Si vous souhaitez en savoir plus, consultez l’article [Rôles du groupe d’événements](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
+Les événements en direct Teams à plusieurs rôles (organisateur, producteur, présentateur et participant) pour diffuser et participer à un événement. Si vous souhaitez en savoir plus, consultez l’article [Rôles du groupe d’événements](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Composants clés
 

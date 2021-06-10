@@ -28,7 +28,7 @@ ms.locfileid: "48203717"
 
 Les onglets permettent aux membres d’une équipe d’accéder aux services et au contenu dans un espace dédié au sein d’un canal ou d’une conversation. Cela permet à l’équipe de travailler directement avec des outils et des données, et de discuter des outils et des données, dans le contexte du canal ou de la conversation.
 
-Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Des onglets peuvent être ajoutés pour permettre aux utilisateurs d’accéder et de gérer facilement les données dont ils ont besoin ou avec qui ils interagissent le plus. Il peut s’agit d’un rapport Power BI, d’un tableau de bord ou même d’un canal [vidéo Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) dans lequel vous publiez des vidéos de formation.
+Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Des onglets peuvent être ajoutés pour permettre aux utilisateurs d’accéder et de gérer facilement les données dont ils ont besoin ou avec qui ils interagissent le plus. Il peut s’agit d’un Power BI, d’un tableau de bord ou même d’un canal [vidéo Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) sur lequel vous publiez des vidéos de formation.
 
 ![Trois captures d'écran de différents contenus dans des onglets.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
@@ -44,9 +44,9 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
     ![Capture d’écran des onglets d’une conversation.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Les propriétaires et les membres de l’équipe peuvent  ajouter d’autres onglets à un canal ou une conversation en cliquant sur Ajouter une capture d’écran d’onglet du bouton Ajouter un onglet, avec ![ un signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la conversation.
+- Les propriétaires et les membres de l’équipe peuvent  ajouter d’autres onglets à un canal ou une conversation en cliquant sur Ajouter une capture d’écran de l’onglet Ajouter un onglet, avec ![ un signe +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en haut du canal ou de la conversation.
 
-- Pour pouvoir être convertis en onglets, les  fichiers Excel, PowerPoint, Word et PDF doivent être téléchargés dans l’onglet Fichiers. Les fichiers téléchargés existants peuvent être convertis en onglets d’un simple clic, comme illustré ci-dessous.
+- Excel fichiers PowerPoint, Word et PDF doivent être téléchargés  dans l’onglet Fichiers pour pouvoir être convertis en onglets. Les fichiers téléchargés existants peuvent être convertis en onglets d’un simple clic, comme illustré ci-dessous.
 
     ![Capture d'écran de l'onglet Fichiers avec un fichier PowerPoint sélectionné.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
@@ -58,7 +58,7 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 ## <a name="develop-custom-tabs"></a>Développer des onglets personnalisés
 
-Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à Teams ou les partager avec le reste de la communauté. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/tabs/what-are-tabs).
+Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets afin de les intégrer à Teams partage avec le reste de la communauté. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/tabs/what-are-tabs).
 
 ![Capture d'écran d'un onglet personnalisé d'exemple dans Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

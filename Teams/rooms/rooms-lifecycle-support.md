@@ -23,14 +23,14 @@ ms.locfileid: "52469676"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salles Microsoft Teams prise en charge de la version de l’application
  
-L’Salles Microsoft Teams mise à jour est mise à jour plusieurs fois par an. Chaque mise à jour est prise en charge pendant douze (12) mois à partir de sa date de publication générale (GA). Le support technique est fourni pour l’ensemble des douze (12) mois. Toutefois, la structure de prise en charge est dynamique, avec deux phases distinctes qui dépendent de la disponibilité de la dernière version :
+L Salles Microsoft Teams appil est mis à jour plusieurs fois par an. Chaque mise à jour est prise en charge pendant douze (12) mois à partir de sa date de publication générale (GA). Le support technique est fourni pour l’ensemble des douze (12) mois. Toutefois, la structure de prise en charge est dynamique, avec deux phases distinctes qui dépendent de la disponibilité de la dernière version :
 
-- **Phase de maintenance** et de mise à jour critique : lorsque vous exécutez la dernière version de l’application Salles Microsoft Teams, vous recevez des mises à jour régulières qui contiennent des mises à jour de sécurité *et* de maintenance.
+- **Phase de maintenance** et de mise à jour critique : lorsque vous exécutez la dernière version de l’application Salles Microsoft Teams, vous recevez des mises à jour régulières qui contiennent des mises à jour de sécurité *et* de service.
 
 - Phase uniquement des mises à jour de sécurité : lors de la publication d’une nouvelle  version de l’application Salles Microsoft Teams, les versions **antérieures** de l’application ont un niveau de support réduit avec les mises à jour de sécurité uniquement pour le reste du cycle de vie de douze (12) mois.
 
 > [!NOTE]
-> La dernière version est toujours dans la phase de maintenance et de mise à jour critique. Si vous rencontrez une défaillance de code qui justifie une mise à jour critique, vous devez également avoir installé la dernière version pour recevoir un correctif. Toutes les autres versions pris en charge ne seront éligibles qu’à la réception des mises à jour de sécurité.
+> La dernière version est toujours dans la phase de maintenance et de mise à jour critique. Lorsque vous rencontrez une défaillance de code qui justifie une mise à jour critique, vous devez également avoir installé la dernière version pour recevoir un correctif. Toutes les autres versions pris en charge ne pourront recevoir que les mises à jour de sécurité.
 
 Tout le support prend fin après le cycle de vie de douze (12) mois expiré pour une version ou si plus de deux mises à jour ont été publiées depuis. Ensuite, les clients doivent mettre à jour vers une version prise en charge.
 
@@ -38,13 +38,13 @@ Toutes les publication sont répertoriées dans les notes [Salles Microsoft Team
 
 ## <a name="windows-10-release-support"></a>Windows 10 prise en charge de la publication
 
-Salles Microsoft Teams requiert l’Windows 10 IoT Entreprise ou Windows 10 Entreprise s'Semi-Annual les options de service de canal. Les autres éditions Windows 10 ne sont pas pris en charge :
+Salles Microsoft Teams requiert l’Windows 10 IoT Entreprise ou Windows 10 Entreprise s'Semi-Annual les options de maintenance de canal. Les autres éditions Windows 10 ne sont pas pris en charge :
 
-- Windows 10 Entreprise Éditions de canal de service à long terme (LTSB) / Canal de service à long terme
+- Windows 10 Entreprise Éditions de canal de service à long terme /LTSC (Long Term Servicing Channel)
 - Windows 10 Internet of Things (IoT) Enterprise éditions LTSB/LTSC
 - toute autre édition de Windows par exemple, Windows 10 Professionnel édition Famille
 
-De Windows 10 mises à jour de fonctionnalités ne sont pas immédiatement proposées Salles Microsoft Teams vos appareils. Un délai délibéré de six mois après la date de disponibilité générale publiée sur la page [Windows 10 d’informations de](/windows/release-information/) publication. Le délai est utilisé pour valider la compatibilité Windows 10 de publication pour l’application Salles Microsoft Teams, le matériel de l’appareil et les périphériques audio vidéo certifiés. La validation commence et se poursuit pendant le développement actif de chaque version majeure de Windows 10. Un temps supplémentaire est nécessaire pour vérifier que tous les fabricants d’appareils ont créé des images mises à jour pour leurs appareils et pour que Microsoft Teams certifie et teste ces images. Pendant la période de validation, l’application Salle Microsoft Teams utilise Windows de groupe Mise à jour pour les entreprises pour retarder Windows 10 mises à jour des fonctionnalités. [](/windows/deployment/update/waas-manage-updates-wufb) Une fois les problèmes de compatibilité trouvés et résolus, le blocage est levée via la mise à jour des stratégies de groupe via une nouvelle version d’application dans Windows store. Les périphériques qui exécutent l Salles Microsoft Teams appil sont automatiquement mis à jour vers une version appropriée Windows 10 le redémarrage de maintenance nocturne. Une version MSI est mise à la disposition des clients qui souhaitent gérer manuellement les mises à jour.  
+Les Windows 10 de fonctionnalités nouvelles ne sont pas immédiatement proposées sur Salles Microsoft Teams appareils mobiles. Un délai délibéré de six mois après la date de disponibilité générale publiée sur la page [Windows 10 d’informations de](/windows/release-information/) publication. Le délai est utilisé pour valider la compatibilité Windows 10 de publication pour l’application Salles Microsoft Teams, le matériel de l’appareil et les périphériques audio vidéo certifiés. La validation commence et se poursuit pendant le développement actif de chaque version majeure de Windows 10. Un temps supplémentaire est nécessaire pour vérifier que tous les fabricants d’appareils ont créé des images mises à jour pour leurs appareils et pour que Microsoft Teams certifie et teste ces images. Pendant la période de validation, l’application Salle Microsoft Teams utilise Windows de groupe Mise à jour pour les entreprises pour retarder Windows 10 mises à jour des fonctionnalités. [](/windows/deployment/update/waas-manage-updates-wufb) Une fois les problèmes de compatibilité trouvés et résolus, le blocage est levée via la mise à jour des stratégies de groupe via une nouvelle version d’application dans Windows store. Les appareils qui exécutent l Salles Microsoft Teams appil sont automatiquement mis à jour vers une version appropriée Windows 10 le redémarrage de maintenance nocturne. Une version MSI est mise à la disposition des clients qui souhaitent gérer manuellement les mises à jour.  
 
 > [!IMPORTANT]
 > Pendant la période de validation,  les Salles Microsoft Teams ne doivent pas être mis à jour vers la prochaine version d’Windows 10 par quelque moyen que ce soit. Cela inclut le remplacement des stratégies de groupe en place, ou l’utilisation de System Center services de gestion des appareils tiers. Ces problèmes peuvent poser problème à l’application Salle Microsoft Teams ou laisser les appareils inutilisables.  
@@ -71,7 +71,7 @@ Lorsque vous utilisez une version d’Windows 10 prise en charge, vous obtenez t
 > [!IMPORTANT]
 > La Windows 10 jour 20H2 n’est pas encore disponible pour les appareils mobiles salles Teams suivants en raison de problèmes de compatibilité. Les MXT de l’appareil travaillent à la résolution de ces problèmes dès que possible. Windows 10 20H2 ne sera pas proposé sur ces appareils. Ne mettez pas ces appareils à jour manuellement à 20H2 en remplacement des objets de stratégie de groupe ou de gestion des appareils mobiles. 
 > 
-> Les appareils avec des problèmes d’incompatibilité sont les deux :
+> Les appareils avec des problèmes d’incompatibilité sont les :
 > 
 > - Secteur HP Elite
 > - HP Elite Slice G2 MS SRS Audio Ready

@@ -29,24 +29,24 @@ ms.locfileid: "51262619"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconférence avec routage direct pour GCC High et DoD
 
-L’audioconférence avec routage direct pour GCC High et DoD permet aux participants de participer à des réunions Teams dans votre organisation GCC High ou DoD à l’aide d’un appareil téléphonique. Les participants à la réunion peuvent préférer utiliser un appareil téléphonique pour rejoindre des réunions Teams dans des scénarios tels que lorsque la connectivité Internet est limitée ou lorsque les utilisateurs sont en déplacement et n’ont pas accès à Teams. Les participants peuvent choisir de participer à des réunions en composant un numéro de téléphone d’accès pour votre organisation ou en les faisant appeler sur leur périphérique téléphonique.
+L’audioconférence avec routage direct pour Cloud de la communauté du secteur public High et DoD permet aux participants de participer à des réunions Teams dans votre organisation Cloud de la communauté du secteur public High or DoD à l’aide d’un appareil téléphonique. Les participants à la réunion préfèrent peut-être utiliser un appareil téléphonique pour participer à des réunions Teams dans des scénarios tels que lorsque la connectivité Internet est limitée ou lorsque les utilisateurs sont en déplacement et n’ont pas accès à Teams. Les participants peuvent choisir de participer à des réunions en composant un numéro de téléphone d’accès pour votre organisation ou en les faisant appeler sur leur périphérique téléphonique.
 
-Avec l’audioconférence avec un routage direct pour GCC High et DoD, votre organisation utilise ses propres numéros comme numéros de téléphone à composer et tous les appels sortants de réunion vers des appareils téléphoniques sont acheminés via un routage direct. Pour activer le service, les organisations doivent configurer le routage direct et configurer les numéros de téléphone qui peuvent être utilisés comme numéros de téléphone d’accès. L’exigence d’utiliser un routage direct est différente du service d’audioconférence proposé aux organisations qui ne sont pas du GCC High et d’autres que DoD lorsque les numéros de téléphone d’accès sont fournis par Microsoft.
+Avec l’audioconférence avec routage direct pour Cloud de la communauté du secteur public Haut et DoD, votre organisation utilise ses propres numéros comme numéros de téléphone à composer et tous les appels sortants de réunion vers des périphériques téléphoniques sont acheminés via un routage direct. Pour activer le service, les organisations doivent configurer le routage direct et configurer les numéros de téléphone qui peuvent être utilisés comme numéros de téléphone d’accès. L’exigence d’utiliser le routage direct est différente du service d’audioconférence proposé aux organisations qui ne sont pas en Cloud de la communauté du secteur public Haute et SansD dans le cas où les numéros de téléphone à composer sont fournis par Microsoft.
 
-## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Déployer l’audioconférence avec un routage direct pour GCC High et DoD
+## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Déployer l’audioconférence à l’aide d’un routage direct Cloud de la communauté du secteur public Haut et DoD
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Étape 1 : obtenir l’audioconférence avec un routage direct pour les licences GCC High ou DoD 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Étape 1 : obtenir l’audioconférence avec un routage direct pour Cloud de la communauté du secteur public licences Haute ou DoD 
 
-Pour utiliser l’audioconférence dans GCC High ou DoD, votre organisation et les utilisateurs de votre organisation doivent avoir une licence d’audioconférence avec une licence de routage direct attribuée. Voici les licences dont vous avez besoin pour activer l’audioconférence avec routage direct pour GCC High ou DoD.
+Pour utiliser l’audioconférence dans Cloud de la communauté du secteur public Haut ou DoD, votre organisation et les utilisateurs de votre organisation doivent avoir une licence d’audioconférence avec une licence de routage direct. Voici les licences dont vous avez besoin pour activer l’audioconférence avec routage direct Cloud de la communauté du secteur public Haut ou DoD.
 
-- GCC High : Une licence Audioconférence - Gcc High Tenant pour votre organisation et Audioconférence - Licences GCC High pour vos utilisateurs.
+- Cloud de la communauté du secteur public Haute : Licence d’audioconférence - Cloud de la communauté du secteur public Haut client pour votre organisation et Audioconférence - licences haute Cloud de la communauté du secteur public pour vos utilisateurs.
 
 - DoD : Une licence Audioconférence - Client DoD pour votre organisation et Audioconférence - Licences DoD pour vos utilisateurs.
 
 Une licence client et au moins une licence utilisateur sont nécessaires pour activer le service. Vous ne pouvez pas activer le service uniquement avec la licence client ou avec les seules licences utilisateur. Pour obtenir des licences de service pour votre client et les utilisateurs de votre organisation, contactez votre équipe de compte.
 
 > [!IMPORTANT]
-> Les utilisateurs ne peuvent pas utiliser l’audioconférence avec le routage direct tant que les numéros de téléphone d’accès ne sont pas activés. Nous vous recommandons de ne pas affecter l’audioconférence avec un routage direct pour des licences GCC High ou DoD aux utilisateurs tant que vous n’avez pas installé les numéros de téléphone à composer, comme décrit dans cet article.  L’omission de ces instructions peut entraîner l’absence complète du pavé de numérotation dans le client Teams.
+> Les utilisateurs ne peuvent pas utiliser l’audioconférence avec routage direct tant que les numéros de téléphone d’accès ne sont pas activés. Nous vous recommandons de ne pas affecter l’audioconférence avec routage direct pour les licences Cloud de la communauté du secteur public High or DoD aux utilisateurs tant que vous n’avez pas installé les numéros de téléphone à composer, comme indiqué dans cet article.  L’omission de ces instructions peut entraîner l’absence complète du pavé de numérotation dans Teams client.
 
 ### <a name="step-2-set-up-direct-routing"></a>Étape 2 : configurer le routage direct
 
@@ -57,7 +57,7 @@ Pour configurer le routage direct, consultez les articles suivants :
 - [Configurer le routage direct](direct-routing-configure.md)
 
 > [!NOTE]
-> Lorsque vous définissez le routage direct, n’oubliez pas d’utiliser les FQDN et ports propres à GCC High ou DoD décrits dans ces deux articles.
+> Lorsque vous définissez le routage direct, n’oubliez pas d’utiliser les FQDN et ports spécifiques au Cloud de la communauté du secteur public High or DoD décrits dans ces deux articles.
 
 ### <a name="step-3-set-up-dial-in-phone-numbers"></a>Étape 3 : configurer les numéros de téléphone à composer
 
@@ -76,15 +76,15 @@ Par exemple :
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
 
-#### <a name="assign-the-service-phone-numbers-to-the-audio-conferencing-bridge-of-your-organization"></a>Affectation des numéros de téléphone de service au pont d’audioconférence de votre organisation
+#### <a name="assign-the-service-phone-numbers-to-the-audio-conferencing-bridge-of-your-organization"></a>Affectation des numéros de téléphone de service au pont de conférence audio de votre organisation
 
-Vous pouvez affecter des numéros de téléphone de service au pont de conférence Audio de votre organisation à l’aide de l’cmdlet PowerShell Register-csOnlineDialInConferencingServiceNumber PowerShell.
+Vous pouvez affecter des numéros de téléphone de service au pont de conférence Audio de votre organisation à l’aide de l’cmdlet PowerShell Register-csOnlineDialInConferencingServiceNumber.
 
   ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
-Vous pouvez voir l’ID de votre pont de conférence audio à l’aide de Get-CsOnlineDialInConferencingBridge. Par exemple :
+Vous pouvez consulter l’ID de votre pont de conférence audio à l’aide de Get-CsOnlineDialInConferencingBridge. Par exemple :
 
   ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
@@ -92,18 +92,18 @@ Vous pouvez voir l’ID de votre pont de conférence audio à l’aide de Get-Cs
   ```
 
 
-### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Étape 4 : définir une stratégie globale de routage vocal pour activer le routage des appels sortants des réunions
+### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Étape 4 : définir une stratégie globale de routage vocal pour activer le routage des appels sortants à partir des réunions
 
-Le routage des appels sortants effectués vers le réseau PSTN à partir des réunions organisées par les utilisateurs de votre organisation est défini par la stratégie de routage voix globale de votre organisation. Si votre organisation a défini une stratégie globale de routage vocal, vérifiez que la stratégie globale de routage vocal autorise les appels sortants vers le RSTN qui sont censés être initiés à partir de réunions organisées par les utilisateurs de votre organisation. Si votre organisation n’a pas défini de stratégie globale de routage vocal, vous devez en définir une pour activer le routage des appels sortants vers le RSTN à partir de réunions organisées par les utilisateurs de votre organisation. Veuillez noter que la stratégie globale de routage vocal de votre organisation s’applique également aux appels un-à-un effectués au réseau PSTN par les utilisateurs de votre organisation. Si les appels un-à-un vers le réseau PSTN sont activés pour les utilisateurs de votre organisation, assurez-vous que la stratégie globale de routage voix répond aux besoins de votre organisation pour les deux types d’appels. 
+Le routage des appels sortants effectués vers le réseau PSTN à partir des réunions organisées par les utilisateurs de votre organisation est défini par la stratégie de routage voix globale de votre organisation. Si votre organisation a défini une stratégie globale de routage vocal, vérifiez que la stratégie globale de routage vocal autorise les appels sortants vers le RSTN qui sont censés être initiés à partir de réunions organisées par les utilisateurs de votre organisation. Si votre organisation n’a pas défini de stratégie globale de routage vocal, vous devrez en définir une pour activer le routage des appels sortants vers le RSTN à partir de réunions organisées par les utilisateurs de votre organisation. Veuillez noter que la stratégie globale de routage vocal de votre organisation s’applique également aux appels un-à-un effectués au réseau PSTN par les utilisateurs de votre organisation. Si les appels un-à-un vers le réseau PSTN sont activés pour les utilisateurs de votre organisation, assurez-vous que la stratégie de routage voix globale répond aux besoins de votre organisation pour les deux types d’appels. 
 
 > [!NOTE]
-> Location-Based routage n’est pas disponible dans les déploiements Microsoft 365 Government Community Cloud (GCC) High ou DoD. Lors de l’activation de l’audioconférence, vérifiez qu’aucun utilisateur d’audioconférence dans les environnements GCC High ou DoD n’est activé pour lLocation-Based routage.
+> Location-Based routage n’est pas disponible Microsoft 365 Cloud de la communauté du secteur public (Cloud de la communauté du secteur public) en haut ou en dod. Lors de l’activation de l’audioconférence, vérifiez qu’aucun utilisateur de l’audioconférence dans les environnements Cloud de la communauté du secteur public High ou DoD n’est activé pour le Location-Based routage.
 
-#### <a name="defining-a-global-voice-routing-policy"></a>Définition d’une stratégie de routage voix globale
+#### <a name="defining-a-global-voice-routing-policy"></a>Définition d’une stratégie globale de routage voix
 
 Une stratégie globale de routage voix peut être définie en définissant une utilisation PSTN, un itinéraire vocal, une stratégie de routage voix et en attribuant la nouvelle stratégie de routage voix comme stratégie de routage voix globale de votre organisation.
 
-Les étapes suivantes décrivent comment définir une nouvelle stratégie de routage voix globale pour une organisation sans. Si votre organisation a déjà défini des stratégies de routage vocal, vérifiez que la configuration suivante n’entre pas en conflit avec les stratégies de routage voix existantes de votre organisation.
+Les étapes suivantes décrivent comment définir une nouvelle stratégie de routage voix globale pour une organisation sans. Si votre organisation a déjà défini des stratégies de routage vocal, vérifiez que la configuration suivante n’entre pas en conflit avec les stratégies de routage vocale existantes de votre organisation.
 
 Pour créer une utilisation PSTN dans une session PowerShell distante dans Skype Entreprise Online, utilisez la commande suivante :
 
@@ -121,7 +121,7 @@ Pour créer un itinéraire vocal, utilisez la commande suivante :
 
 Lors de la définition d’un nouvel itinéraire vocal pour votre organisation, spécifiez une ou plusieurs des passerelles RSTN en ligne PSTN qui ont été définies pour votre organisation dans le cadre de la configuration du routage direct. 
 
-Le modèle de numéro spécifie les appels qui seront acheminés via la liste de passerelles spécifiée en fonction du numéro de téléphone de destination de l’appel. Dans l’exemple ci-dessus, les appels vers toutes les destinations dans le monde correspondent à la route vocale. Si vous souhaitez restreindre les numéros de téléphone qui peuvent être composés à partir des réunions des utilisateurs de votre organisation, vous pouvez modifier le modèle de numérotation pour que l’itinéraire vocal corresponde uniquement aux schémas de numéros des destinations autorisées. Notez que si aucun itinéraire vocal ne correspond au modèle de numéro du numéro de téléphone de destination d’un appel donné, l’appel n’est pas acheminé.
+Le modèle de numéro spécifie les appels qui seront acheminés via la liste de passerelles spécifiée en fonction du numéro de téléphone de destination de l’appel. Dans l’exemple ci-dessus, les appels vers n’importe quelle destination dans le monde correspondent à la route vocale. Si vous souhaitez restreindre les numéros de téléphone qui peuvent être composés à partir des réunions des utilisateurs de votre organisation, vous pouvez modifier le modèle de numérotation pour que l’itinéraire vocal corresponde uniquement aux schémas de numéros des destinations autorisées. Notez que si aucun itinéraire vocal ne correspond au modèle de numéro du numéro de téléphone de destination d’un appel donné, l’appel n’est pas acheminé.
 
 Pour plus d’informations, [voir New-CsOnlineVoiceRoute.](/powershell/module/skype/new-csonlinevoiceroute)
 
@@ -135,7 +135,7 @@ Si plusieurs utilisations PSTN sont définies dans la stratégie de routage voix
 
 Pour plus d’informations, [voir New-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)
 
-Pour affecter la nouvelle route vocale à la stratégie de routage vocale globale de votre organisation, utilisez la commande suivante :
+Pour affecter la nouvelle voix à la stratégie de routage vocale globale de votre organisation, utilisez la commande suivante :
 
   ```PowerShell
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
@@ -145,17 +145,17 @@ Pour plus d’informations, [voir Grant-CsOnlineVoiceRoutingPolicy.](/powershell
 
 Une fois la stratégie de routage voix globale définie, tous les appels sortants effectués à partir de réunions organisées par les utilisateurs de votre organisation sont évalués par rapport aux itinéraires vocaux associés aux utilisations PSTN de la stratégie de routage vocale globale. Les appels sortants seront acheminés en fonction du premier itinéraire vocal qui correspond au modèle de numérotation du numéro de téléphone composé.
 
-### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Étape 5 : affecter des audioconférences avec un routage direct pour des licences GCC High ou DoD à vos utilisateurs
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Étape 5 : affecter des audioconférences avec routage direct pour des Cloud de la communauté du secteur public haute ou dod à vos utilisateurs
 
-Pour attribuer des licences d’audioconférence avec routage direct pour des licences GCC High ou DoD à votre utilisateur, consultez Attribuer des [licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Pour attribuer des licences d’audioconférence avec routage direct pour les Cloud de la communauté du secteur public Haute ou DoD à votre utilisateur, consultez Attribuer des [licences à des utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Étape 6 : (Facultatif) consultez la liste des numéros d’audioconférence dans Teams
 
-Pour consulter la liste des numéros d’audioconférence de votre organisation, consultez la liste des numéros d’audioconférence [dans Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Pour consulter la liste des numéros d’audioconférence de votre organisation, consultez la liste des numéros d’audioconférence Microsoft Teams. [](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
-### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Étape 7 : (Facultatif) Définir les langues du attendant automatique pour les numéros d’accès à l’audioconférence de votre organisation
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Étape 7 : (Facultatif) Définir les langues du attendant automatique pour les numéros de connexion d’Audioconférence de votre organisation
 
-Pour modifier les langues des numéros d’accès d’Audioconférence de votre organisation, consultez Définir les langues du attendant automatique pour l’audioconférence [dans Microsoft Teams.](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+Pour modifier les langues des numéros d’accès d’Audioconférence de votre organisation, consultez définir les langues du attendant automatique pour [l’audioconférence dans Microsoft Teams.](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
 ### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Étape 8 : (Facultatif) modifier les paramètres du pont d’audioconférence de votre organisation
 
@@ -165,14 +165,14 @@ Pour modifier les paramètres du pont de conférence audio de votre organisation
 
 Pour modifier l’ensemble des numéros de téléphone inclus dans les invitations aux réunions des utilisateurs, consultez Définir les numéros de téléphone inclus dans les [invitations dans Microsoft Teams.](set-the-phone-numbers-included-on-invites-in-teams.md)
 
-## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Fonctionnalités d’audioconférence non prise en charge dans l’audioconférence avec routage direct pour GCC High et DoD
+## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Fonctionnalités d’audioconférence non prise en charge dans l’audioconférence avec routage direct pour les Cloud de la communauté du secteur public haut et doD
 
-Voici les fonctionnalités d’audioconférence qui ne sont pas prise en charge dans l’audioconférence avec un routage direct pour GCC High et DoD :
+Voici les fonctionnalités d’audioconférence qui ne sont pas prise en charge dans l’audioconférence avec routage direct pour les Cloud de la communauté du secteur public Haut et DoD :
 
 - Notifications d’entrée et de sortie à l’aide de l’enregistrement de nom. Pour l’audioconférence avec routage direct, les notifications d’entrée et de sortie sont lées dans la réunion sous la direction de tonalités.
 
-- Stratégies de restrictions relatives aux appels sortants pour l’audioconférence. Les contrôles au niveau utilisateur pour restreindre les appels sortants ne s’appliquent pas aux appels sortants de réunion routant via un routage direct.
+- Stratégies de restrictions relatives aux appels sortants pour l’audioconférence. Les contrôles au niveau utilisateur pour restreindre les appels sortants ne sont pas applicables aux appels sortants de réunion routant via un routage direct.
 
-- Désactivez l’utilisation de numéros gratuits pour l’organisateur spécifique des réunions. Les contrôles au niveau utilisateur qui limitent l’utilisation de numéros gratuits pour participer aux réunions de votre organisation ne s’appliquent pas aux appels acheminés via le routage direct.
+- Désactivez l’utilisation de numéros gratuits pour l’organisateur spécifique des réunions. Les contrôles au niveau utilisateur pour restreindre l’utilisation de numéros gratuits pour participer aux réunions de votre organisation ne s’appliquent pas aux appels acheminés via le routage direct.
 
-- Envoi d’e-mails de notification aux utilisateurs en cas de modification de leurs paramètres. Les messages électroniques de notification d’audioconférence ne sont pas pris en charge pour l’audioconférence avec routage direct pour GCC High et DoD.
+- Envoi d’e-mails de notification aux utilisateurs en cas de modification de leurs paramètres. Les messages électroniques de notification d’audioconférence ne sont pas pris en charge pour l’audioconférence avec routage direct pour les Cloud de la communauté du secteur public haut et doD.

@@ -41,13 +41,13 @@ ms.locfileid: "51098067"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |1 800 XXX XXX  <br/> |
 |Code ISO de pays/région  <br/> |IE  <br/> |
-|Île/territoire couvert(s)  <br/> |Toutes les îles situées au large de la République d'Irlande sont couvertes.  <br/> |
+|Île/territoire couvert par  <br/> |Toutes les îles situées au large de la République d'Irlande sont couvertes.  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accessible via les réseaux mobiles O2 Digiphone, Meteor et H3G.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -32,7 +32,7 @@
 | 5/12/2021 | [Planifier le contournement de média avec un routage direct](/MicrosoftTeams/direct-routing-plan-media-bypass) | modifié |
 | 5/12/2021 | [Les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modifié |
 | 5/12/2021 | [Formation des utilisateurs finaux Microsoft Teams # < 60 car](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modifié |
-| 5/12/2021 | [Données de diagnostic de mobiles requises pour Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | modifié |
+| 5/12/2021 | [Données de diagnostic de mobiles requises pour Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | modifié |
 | 5/12/2021 | [Canaux privés dans Microsoft Teams](/MicrosoftTeams/private-channels) | modifié |
 | 5/12/2021 | [Salles Microsoft Teams prise en charge de la version de l’application](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modifié |
 | 5/12/2021 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
@@ -52,7 +52,7 @@
 | 5/14/2021 | [Ressources de formation pour les administrateurs - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modifié |
 | 5/14/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
 | 5/14/2021 | [Gérer les balises dans Microsoft Teams](/MicrosoftTeams/manage-tags) | modifié |
-| 5/14/2021 | [Données de diagnostic de mobiles requises pour Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | modifié |
+| 5/14/2021 | [Données de diagnostic de mobiles requises pour Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | modifié |
 
 
 ## <a name="week-of-may-03-2021"></a>Semaine du 3 mai 2021
@@ -159,7 +159,7 @@
 | 4/27/2021 | [Guide d’administration informatique sur Education Insights dans Microsoft Teams](/MicrosoftTeams/class-insights) | modifié |
 | 4/27/2021 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
 | 4/28/2021 | [Guide d’administration informatique de Reflect dans Microsoft Teams](/MicrosoftTeams/reflect) | modifié |
-| 4/28/2021 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
+| 4/28/2021 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
 | 4/28/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
 | 4/29/2021 | [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](/MicrosoftTeams/plan-teams-governance-edu) | modifié |
 | 4/29/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
@@ -250,7 +250,7 @@
 | 4/14/2021 | [Tracez vos Kaizala pour Teams voyage](/MicrosoftTeams/prepare-for-teams) | ajouté |
 | 4/14/2021 | [Teams expérience utilisateur dans un Microsoft 365 multigéoding](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modifié |
 | 4/14/2021 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
-| 4/14/2021 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
+| 4/14/2021 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
 | 4/14/2021 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
 | 4/14/2021 | [Présence des utilisateurs dans Teams](/MicrosoftTeams/presence-admins) | modifié |
 | 4/14/2021 | [Canaux privés dans Microsoft Teams](/MicrosoftTeams/private-channels) | modifié |

@@ -27,17 +27,17 @@ ms.locfileid: "42341804"
 ---
 # <a name="manage-call-notifications"></a>Gérer les notifications d’appels
 
-Cet article décrit comment gérer les notifications d’appel pour vos utilisateurs. Vous pouvez configurer des points de terminaison d’appel avec Teams et un système PBX (Private Branch Exchange) ou SBC (Session Border Controller) tiers.  Cela est utile, par exemple, si vous voulez envoyer un appel vers les téléphones mobiles et de bureau d’un utilisateur en même temps.   
+Cet article décrit comment gérer les notifications d’appel pour vos utilisateurs. Vous pouvez configurer des points de terminaison d’appel sur un Teams Exchange et un système de branche privé (PBX) ou un contrôleur de session en bordure (SBC) tiers.  Cela est utile, par exemple, si vous voulez envoyer un appel vers les téléphones mobiles et de bureau d’un utilisateur en même temps.   
 
 Dans le diagramme suivant, l’utilisateur Irena a deux points de terminaison :
 
-- Un point de terminaison Teams
+- Point de terminaison Teams point de terminaison
 - Un téléphone SIP connecté à un SBC tiers
 
-Lorsqu’un appel arrive, le SBC dus au routage direct Phone System et au SBC tiers.
+Lorsqu’un appel arrive, le SBC dut du début à la fin de l’appel entre Système téléphonique routage direct et le SBC tiers.
 
 
-![Diagramme montrant des points de terminaison Teams dus](media/direct-routing-call-notification-1.png)
+![Diagramme montrant des points de terminaison Teams dues](media/direct-routing-call-notification-1.png)
 
 Si l’appel est accepté sur la fork 2 (par le SBC tiers), Teams génère une notification « Appel manqué ».  
 
@@ -45,9 +45,9 @@ Vous pouvez empêcher la notification « Appel manqué » en configurant le SBC 
 
 RAISON : SIP; cause=200;texte"Appel effectué ailleurs » 
 
-Notez que l’appel ne sera pas enregistré dans les enregistrements des détails d’appel de Microsoft Phone System en tant qu’appel réussi. L’appel sera inscrit comme une « tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et la phrase du code SIP final « Appel effectué ailleurs ».  (Pour afficher les enregistrements des détails des appels, allez sur le portail d’administration de Teams, les rapports d’analyse et de rapport, les rapports d’utilisation et sélectionnez Utilisation PSTN.)
+Notez que l’appel ne sera pas enregistré dans les enregistrements des détails d’Téléphone Microsoft système en tant qu’appel réussi. L’appel sera inscrit comme une « tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et la phrase du code SIP final « Appel effectué ailleurs ».  (Pour afficher les enregistrements des détails des appels, sélectionnez Utilisation PSTN, Teams d’administration, les rapports d’analyse et de rapport d’utilisation, et sélectionnez Utilisation PSTN.)
 
 
 Le diagramme ci-dessous illustre le flux SIP de la fork 1, explique le flux d’appels et la RAISON attendue dans le message Annuler. 
 
-![Diagramme montrant des points de terminaison Teams dus](media/direct-routing-call-notification-2.png)
+![Diagramme montrant des points de terminaison Teams dues](media/direct-routing-call-notification-2.png)

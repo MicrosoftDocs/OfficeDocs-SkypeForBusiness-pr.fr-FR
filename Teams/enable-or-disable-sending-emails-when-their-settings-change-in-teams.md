@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Découvrez comment activer ou désactiver l’envoi de courriers électroniques par Skype lorsque des paramètres tels que les modifications d’épingle ou le numéro de conférence par défaut changent dans Microsoft Teams. '
+description: 'Découvrez comment activer ou désactiver Skype d’envoyer des courriers électroniques aux utilisateurs lorsque des paramètres tels que les modifications d’épingle ou le numéro de conférence par défaut changent dans Microsoft Teams. '
 ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "51092702"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Activer ou désactiver l'envoi de courriers électroniques lorsque les paramètres d’audioconférence sont modifiés dans Microsoft Teams
 
-Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de courriers électroniques envoyés aux utilisateurs de Microsoft Teams. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
+Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de courriers électroniques envoyés à Microsoft Teams utilisateurs. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
   
 Si vous désactivez l’envoi de courriers électroniques, les messages audioconférences ne seront pas envoyés à vos utilisateurs, y compris les courriers électroniques concernant les moments où les utilisateurs sont activés ou désactivés pour l’audioconférence, lorsque leur code confidentiel est réinitialisé, et lorsque l’ID de conférence et le numéro de téléphone de conférence par défaut changent.
   
@@ -57,7 +57,7 @@ Voici un exemple du courrier électronique envoyé aux utilisateurs lorsqu’ils
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver l’envoi de courriers électroniques aux utilisateurs
 
-Vous pouvez utiliser Microsoft Teams ou Windows PowerShell pour activer ou désactiver le courrier électronique envoyé aux utilisateurs.
+Vous pouvez utiliser des Microsoft Teams ou Windows PowerShell pour activer ou désactiver le courrier électronique envoyé aux utilisateurs.
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
@@ -75,12 +75,12 @@ Vous pouvez utiliser Microsoft Teams ou Windows PowerShell pour activer ou désa
 
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
-Pour plus [d’informations, consultez la référence de Microsoft Teams PowerShell.](/powershell/module/teams/?view=teams-ps)
+Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
