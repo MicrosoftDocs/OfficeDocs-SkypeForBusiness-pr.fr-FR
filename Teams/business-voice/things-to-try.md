@@ -1,5 +1,5 @@
 ---
-title: Choses à essayer après la configuration de Business Voice
+title: Points à essayer après la configuration de Business Voice
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827362"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a><span data-ttu-id="199b8-102">Choses à essayer après la configuration de Business Voice</span><span class="sxs-lookup"><span data-stu-id="199b8-102">Things to try after setting up Business Voice</span></span>
+# <a name="things-to-try-after-setting-up-business-voice"></a><span data-ttu-id="3453a-102">Points à essayer après la configuration de Business Voice</span><span class="sxs-lookup"><span data-stu-id="3453a-102">Things to try after setting up Business Voice</span></span>
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>
