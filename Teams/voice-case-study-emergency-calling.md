@@ -1,5 +1,5 @@
 ---
-title: Étude de cas Teams voix Contoso
+title: Teams cas Contoso voix
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Étude de cas voix Teams pour une entreprise multinationale
+description: Teams cas de voix pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
@@ -25,27 +25,27 @@ ms.locfileid: "44786027"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Étude de cas Contoso : appels d’urgence
 
-Pour comprendre la disponibilité des appels d’urgence et la terminologie relatives aux appels d’urgence: Adresse d’urgence, Emplacement, Emplacement d’urgence et Adresse enregistrée. Contoso a examiné Gérer les appels d’urgence et Planifier et configurer les appels d’urgence &mdash; &mdash; [dynamiques.](configure-dynamic-emergency-calling.md) [](what-are-emergency-locations-addresses-and-call-routing.md)
+Pour comprendre la disponibilité des appels d’urgence et la terminologie relatives aux appels d’urgence: Adresse de secours, Emplacement, Emplacement d’urgence et Adresse enregistrée, Contoso a examiné Gérer les appels d’urgence et Planifier et configurer les appels d’urgence &mdash; &mdash; [dynamiques.](configure-dynamic-emergency-calling.md) [](what-are-emergency-locations-addresses-and-call-routing.md)
 
-Dans Office 365, un utilisateur du plan d’appels est automatiquement activé pour les appels d’urgence. Seuls les utilisateurs aux États-Unis peuvent utiliser des emplacements dynamiques pour router des appels d’urgence. 
+Dans Office 365, un utilisateur d’un plan d’appels est automatiquement activé pour les appels d’urgence. Seuls les utilisateurs aux États-Unis peuvent utiliser des emplacements dynamiques pour router des appels d’urgence. 
 
-Pour le routage direct, Contoso a appris que des configurations supplémentaires sont nécessaires pour router des appels d’urgence et éventuellement pour la connectivité partenaire. L’administrateur doit configurer la connexion à un fournisseur de services de routage d’urgence (ERSP) (États-Unis) OU configurer le contrôleur de session border Controller (SBC) pour une application ELIN (Emergency Location Identification Number).
+Pour le routage direct, Contoso a appris que des configurations supplémentaires sont nécessaires pour router des appels d’urgence et éventuellement pour la connectivité des partenaires. L’administrateur doit configurer la connexion à un fournisseur de services de routage d’urgence (ERSP) (États-Unis) OU configurez le contrôleur de session border Controller (SBC) pour une application ELIN (Emergency Location Identification Number).
 
 Contoso a des bureaux aux États-Unis et en dehors des États-Unis :
 
 - Aux États-Unis, les utilisateurs du plan d’appels Contoso peuvent utiliser des emplacements dynamiques pour router des appels d’urgence. 
 
-- En dehors des États-Unis, Contoso possède des sites qui utilisent des forfaits d’appels et d’autres qui sont connectés à Phone System via un routage direct.
+- En dehors des États-Unis, Contoso dispose de sites qui utilisent des plans d’appel et de sites connectés à Système téléphonique via un routage direct.
 
 ## <a name="emergency-calling-use-cases"></a>Cas d’utilisation des appels d’urgence
 
-Après avoir décidé comment Contoso se connectera au système téléphonique, Contoso a identifié les cas d’utilisation des appels d’urgence suivants : 
+Après avoir décidé comment Contoso se connectera Téléphone système informatique, Contoso a identifié les cas d’utilisation des appels d’urgence suivants : 
 
 - [Utilisateur d’un forfait d’appels aux États-Unis](#calling-plan-user-in-the-united-states) 
 
 - [Utilisateur d’un forfait d’appels en dehors des États-Unis](#calling-plan-user-outside-of-the-united-states)
 
-- [Utilisateur qui se connecte au système téléphonique via un routage direct](#user-who-connects-to-phone-system-through-direct-routing )
+- [Utilisateur qui se connecte à Système téléphonique via un routage direct](#user-who-connects-to-phone-system-through-direct-routing )
 
 
 ### <a name="calling-plan-user-in-the-united-states"></a>Utilisateur d’un forfait d’appels aux États-Unis  
@@ -60,13 +60,13 @@ Pour comprendre quand un numéro de téléphone doit être associé à un emplac
 
 -  Contoso associe l’emplacement au numéro de téléphone lorsqu’un numéro est affecté à un utilisateur au Canada. 
 
-- Contoso attribue un emplacement d’urgence lorsque le numéro de téléphone est acquis à partir d’Office 365 ou lorsqu’un numéro est transféré à partir d’un autre opérateur ou fournisseur de services. 
+- Contoso attribue un emplacement d’urgence lorsque le numéro de téléphone est acquis auprès d’Office 365 ou lorsqu’un numéro est transféré à partir d’un autre opérateur ou fournisseur de services. 
 
-### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>Utilisateur qui se connecte au système téléphonique via un routage direct 
+### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>Utilisateur qui se connecte à Système téléphonique via un routage direct 
 
 Pour planifier le routage d’urgence pour ce cas d’utilisation, Contoso a examiné les considérations en relation avec [le routage direct.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing) Étant donné que les utilisateurs du routage direct ne reçoivent pas les appels d’urgence de la même manière que les utilisateurs du plan d’appel, Contoso a dû décider comment fournir les appels d’urgence. Le routage direct peut être connecté à un fournisseur de services de routage d’urgence. Le routage direct peut également avoir un SBC qui inclut un numéro d’identification de l’emplacement d’urgence (ELIN).   
 
-#### <a name="emergency-routing-service-provider-ersp-considerations"></a>Considérations en considérations du fournisseur de services de routage d’urgence (ERSP)
+#### <a name="emergency-routing-service-provider-ersp-considerations"></a>Considérations en considérations du fournisseur de services de routage d’urgence
 
 Les fournisseurs de services de routage d’urgence peuvent router automatiquement les appels d’urgence en fonction de l’emplacement de l’appelant.  
 
@@ -79,11 +79,11 @@ Les fournisseurs de services de routage d’urgence peuvent router automatiqueme
 
 Si une application ELIN SBC est intégrée dans un déploiement de routage direct, des étapes de configuration supplémentaires doivent être nécessaires pour associer les adresses de secours aux numéros de téléphone.  
 
-Contoso a décidé d’utiliser des contrôleurs de session avec numéro d’identification de l’emplacement d’urgence (ELIN).  
+Contoso a décidé d’utiliser des contrôleurs de session qui incluent des applications ELIN (Emergency Location Identification Number).  
 
 ## <a name="security-desk-notification"></a>Notification du service de sécurité
 
-La possibilité d’avertir le service de sécurité lorsqu’un appel d’urgence est passé est disponible pour les plans d’appels Microsoft et le routage direct du système téléphonique. Contoso a examiné les détails de la notification du service de sécurité pour déterminer si cette configuration doit être configurée sur leur bureau  
+La possibilité d’avertir le service de sécurité lorsqu’un appel d’urgence est passé est disponible pour les plans d’appels Microsoft et Système téléphonique routage direct. Contoso a examiné les détails de la notification du service de sécurité pour déterminer si cette configuration doit être configurée sur leur bureau  
 
 Contoso a décidé d’utiliser la notification de service de sécurité.
 

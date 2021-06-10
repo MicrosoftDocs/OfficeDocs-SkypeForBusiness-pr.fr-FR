@@ -1,5 +1,5 @@
 ---
-title: Langues prise en charge par le attendant automatique Microsoft Teams
+title: Microsoft Teams langues prise en charge par le attendant automatique
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Langues prise en charge par le attendant automatique Microsoft Teams
+description: Microsoft Teams langues prise en charge par le attendant automatique
 ms.openlocfilehash: 8a55b1613aaf1c14989d1626966ca6051d7015d9
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197061"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Langues prise en charge par le attendant automatique Microsoft Teams
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams langues prise en charge par le attendant automatique
 
 Le attendant automatique prend en charge les langues suivantes pour la reconnaissance vocale (TTS) et la reconnaissance vocale :
 

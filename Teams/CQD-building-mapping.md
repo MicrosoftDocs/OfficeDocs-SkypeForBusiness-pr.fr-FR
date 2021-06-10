@@ -44,4 +44,4 @@ Il existe plusieurs façons de ma carte des sous-réseaux de votre organisation.
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Charger des données client et de bâtiment dans le DQD](CQD-upload-tenant-building-data.md)
+[Télécharger données relatives au client et à la création dans le CQD](CQD-upload-tenant-building-data.md)

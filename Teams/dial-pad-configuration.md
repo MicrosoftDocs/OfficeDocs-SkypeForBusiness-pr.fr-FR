@@ -1,5 +1,5 @@
 ---
-title: Configuration du pavé de numérotation Teams
+title: Teams configuration du pavé de numérotation
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Découvrez comment configurer le pavé de numérotation dans le client Teams afin que les utilisateurs accèdent à la fonctionnalité De réseau téléphonique commuté (PSTN).
+description: Découvrez comment configurer le pavé de numérotation dans le client Teams pour que les utilisateurs accèdent à la fonctionnalité de réseau téléphonique commuté (PSTN).
 ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
 ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
@@ -26,19 +26,19 @@ ms.locfileid: "45012415"
 ---
 # <a name="dial-pad-configuration"></a>Configuration du pavé de numérotation
 
-Dans le client Teams, le pavé de numérotation permet aux utilisateurs d’accéder aux fonctionnalités de réseau téléphonique commuté (PSTN). Le pavé de numérotation est disponible pour les utilisateurs titulaires d’une licence de système téléphonique, à condition qu’ils soient configurés correctement. Tous les critères suivants sont requis pour que le pavé de numérotation affiche :
+Dans le Teams, le pavé de numérotation permet aux utilisateurs d’accéder aux fonctionnalités de réseau téléphonique commuté (PSTN). Le pavé de numérotation est disponible pour les utilisateurs Système téléphonique licence utilisateur, à condition qu’ils soient configurés correctement. Tous les critères suivants sont requis pour que le pavé de numérotation affiche :
 
-- Un utilisateur a une licence de système téléphonique activé (« MCOEV »)
+- Un utilisateur dispose d’une licence Système téléphonique « MCOEV »)
 - L’utilisateur dispose d’un plan d’appel Microsoft ou est activé pour le routage direct
 - L’utilisateur Voix Entreprise activé
-- L’utilisateur est domicile en ligne et n’est pas dans Skype Entreprise sur site
-- L’utilisateur a activé la stratégie d’appel Teams
+- L’utilisateur est homed online et n’est pas Skype Entreprise local
+- L’utilisateur a Teams stratégie d’appel activée
 
 Les sections suivantes décrivent comment utiliser PowerShell pour vérifier les critères. Le plus souvent, vous devez examiner différentes propriétés dans la sortie de l'Get-CsOnlineUser cmdlet. Les exemples supposent $user nom d’utilisateur utilisateur (UPN) ou l’adresse sip de l’utilisateur.
 
-## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>Un utilisateur a une licence de système téléphonique activé (« MCOEV »)
+## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>Un utilisateur dispose d’une licence Système téléphonique « MCOEV »)
 
-Vous devez vous assurer que le plan attribué à l’utilisateur indique l’attribut **CapabilityStatus** sur Activé et le Plan de fonctionnalité sur **MCOEV** (licence du système téléphonique). Vous pouvez voir MCOEV, MCOEV1, etc. Tous sont acceptables, tant que le plan de fonctionnalités commence par la fonction MCOEV.
+Vous devez vous assurer que le plan attribué à l’utilisateur indique l’attribut **CapabilityStatus** sur Activé et le Plan de fonctionnalité sur **MCOEV** (licence Système téléphonique données). Vous pouvez voir MCOEV, MCOEV1, etc. Tous sont acceptables, tant que le plan de fonctionnalités commence par la fonction MCOEV.
 
 Pour vérifier que les attributs sont correctement réglés, utilisez la commande suivante :
 
@@ -120,9 +120,9 @@ EnterpriseVoiceEnabled
 
 ```
  
-## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>L’utilisateur est domicile en ligne et n’est pas dans Skype Entreprise sur site
+## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>L’utilisateur est homed online et n’est pas Skype Entreprise local
 
-Pour s’assurer que l’utilisateur est bien homed online et non dans Skype Entreprise en local, le RegistrarPool ne doit pas être Null et HostingProvider doit contenir une valeur qui commence par « sipfed.online ».  Pour vérifier les valeurs, utilisez la commande suivante :
+Pour s’assurer que l’utilisateur est homed online et non dans Skype Entreprise en local, le RegistrarPool ne doit pas être Null et HostingProvider doit contenir une valeur qui commence par « sipfed.online ».  Pour vérifier les valeurs, utilisez la commande suivante :
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
@@ -136,7 +136,7 @@ RegistrarPool                 HostingProvider
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 ```
 
-## <a name="user-has-teams-calling-policy-enabled"></a>L’utilisateur a activé la stratégie d’appel Teams
+## <a name="user-has-teams-calling-policy-enabled"></a>L’utilisateur a Teams stratégie d’appel activée
 
 Le site TeamsCallingPolicy de l’utilisateur doit avoir la valeur AllowPrivateCalling définie sur true.  Par défaut, les utilisateurs héritent de la stratégie globale, qui dispose de AllowPrivateCallingPolicy définie sur true par défaut.
 
@@ -165,9 +165,9 @@ MusicOnHoldEnabledType     : Enabled
 
 ## <a name="additional-notes"></a>Notes supplémentaires
 
--   Vous devrez peut-être redémarrer le client Teams après avoir apporté l’une de ces modifications de configuration.
+-   Vous devrez peut-être redémarrer Teams client après avoir apporté l’une de ces modifications de configuration.
 
--   Si vous avez récemment mis à jour l’un des critères ci-dessus, vous devrez peut-être patienter quelques heures que le client reçoie les nouveaux paramètres.
+-   Si vous avez récemment mis à jour l’un des critères ci-dessus, vous devrez peut-être patienter quelques heures pour que le client reçoie les nouveaux paramètres.
 
 -   Si vous ne voyez toujours pas le pavé de numérotation, vérifiez qu’il existe une erreur de mise en service à l’aide de la commande suivante :
 

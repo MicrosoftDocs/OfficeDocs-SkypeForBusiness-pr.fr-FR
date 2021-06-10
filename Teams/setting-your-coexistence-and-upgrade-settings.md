@@ -47,8 +47,8 @@ Vous pouvez mieux comprendre les modes disponibles en lisant « Comprendre les M
         - **Îles** : utilisez ce paramètre si vous voulez que les utilisateurs puissent utiliser simultanément Skype Entreprise et Teams.
         - **Skype Entreprise uniquement** - Utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Skype Entreprise.
         - **Skype Entreprise** avec Teams collaboration de groupe - Utilisez ce paramètre si vous voulez que vos utilisateurs utilisent Skype Entreprise en plus d’utiliser des Teams pour la collaboration de groupe (canaux).
-        - Skype Entreprise avec Teams collaboration et réunions : utilisez ce paramètre si vous souhaitez que vos **utilisateurs** utilisent Skype Entreprise en plus d’utiliser Teams pour la collaboration de groupe (canaux) et les Teams réunion.
-        - **Teams uniquement** - Utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que même avec ce paramètre, les utilisateurs peuvent toujours participer à des réunions hébergées dans Skype Entreprise.
+        - Skype Entreprise avec Teams collaboration et réunions - Utilisez ce paramètre si vous souhaitez que vos **utilisateurs** utilisent Skype Entreprise en plus d’utiliser Teams pour la collaboration de groupe (canaux) et les Teams réunion.
+        - **Teams uniquement** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que même avec ce paramètre, les utilisateurs peuvent toujours participer à des réunions hébergées dans Skype Entreprise.
         
     - Définissez **Informer Skype Entreprise utilisateurs que des Teams sont disponibles pour la mise à niveau.** Si vous l’allumez, il indique Skype Entreprise utilisateurs qu’ils seront bientôt mis à niveau vers l’Teams appe.
     - Définissez **l’application Préférée pour que les utilisateurs participent Skype Entreprise réunions.** Ce paramètre détermine l’application utilisée pour participer Skype Entreprise réunions et est honorée quelle que soit la valeur du mode de coexistence.
@@ -70,10 +70,10 @@ Vous pouvez mieux comprendre les modes disponibles en lisant « Comprendre les M
      - **Skype Entreprise** avec Teams collaboration de groupe - Utilisez ce paramètre si vous souhaitez que l’utilisateur utilise Skype Entreprise en plus d’utiliser des Teams pour la collaboration de groupe (canaux).
       - **Skype Entreprise** avec Teams collaboration et réunions - Utilisez ce paramètre si vous souhaitez que l’utilisateur utilise Skype Entreprise en plus d’utiliser Teams pour la collaboration de groupe (canaux) et les réunions Teams.
      - **Teams uniquement** - Utilisez ce paramètre si vous souhaitez que l’utilisateur utilise uniquement Teams. L’utilisateur pourra toujours participer à Skype Entreprise réunions.
-4. Si vous sélectionnez un mode de **coexistence** autre que Utiliser les **paramètres** à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype Entreprise de l’utilisateur qui sont bientôt mises à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en activer l’option Skype Entreprise **l’utilisateur.**
+4. Si vous sélectionnez un mode de **coexistence** autre que Utiliser les **paramètres** à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype Entreprise de l’utilisateur qui vont bientôt recevoir une mise à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en activer l’option Skype Entreprise **l’utilisateur.**
 5. Cliquez **sur Enregistrer** après avoir apporté vos modifications.
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 [Planifiez votre voyage](upgrade-plan-journey.md)
 
 [Comprendre le voyage de coexistence et de mise à niveau pour Skype Entreprise et Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

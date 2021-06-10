@@ -1,5 +1,5 @@
 ---
-title: Exemple de script PowerShell - Créer de nouvelles équipes de responsables de personnes
+title: Exemple de script PowerShell - Créer des équipes de responsables de personnes
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: Gérer les canaux privés dans Microsoft Teams avec l’API Graph
+title: Gérer les canaux privés dans Microsoft Teams’Graph API
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment gérer les canaux privés dans votre organisation à l’aide de l’API Graph.
+description: Découvrez comment gérer les canaux privés dans votre organisation à l’aide de Graph API.
 ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "51117742"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft Teams
 
-Vous y trouverez les conseils dont vous avez besoin pour gérer l’utilisation de l’API Graph pour gérer les canaux [privés Teams](./private-channels.md) dans votre organisation.
+Vous y trouverez les conseils dont vous avez besoin pour gérer l’utilisation de l’API Graph pour gérer Teams [canaux](./private-channels.md) privés dans votre organisation.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Définir si les membres de l’équipe peuvent créer des canaux privés
 
@@ -70,7 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Que vous cherchiez à effectuer une découverte électronique ou une conservation légale sur des fichiers dans un canal privé ou que vous cherchiez à créer une application personnalisée qui place des fichiers dans des canaux privés spécifiques, vous souhaiterez un moyen d’interroger les collections de sites SharePoint uniques qui sont créées pour chaque canal privé.
 
-En tant qu’administrateur, vous pouvez utiliser les commandes API graph pour interroger ces URL.
+En tant qu’administrateur, vous pouvez utiliser Graph API pour interroger ces URL.
 
 Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.microsoft.com/graph/graph-explorer).
 

@@ -111,25 +111,25 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="odd">
 <td><h3 id="discernabilité-des-éléments-actionnables">5.5.2 Discernabilité des éléments actionnables </h3>
-<p>Dans le cas où la CES a des éléments actionnables, elle propose un moyen de discerner chaque élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.</p></td>
+<p>Dans le cas où la PETITE ENTREPRISE a des éléments actionnables, elle propose un moyen de discerner chaque élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.</p></td>
 <td>Non applicable</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="statut-tactile-ou-auditif">5.6.1 Statut tactile ou auditif</h3>
-<p>Dans le cas où laNT est dotée d’une commande de verrouillage et où cette commande est présentée visuellement à l’utilisateur, la PRINCIPAL propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.</p></td>
+<p>Dans le cas où la CES est dotée d’une commande de verrouillage et où cette commande est présentée visuellement à l’utilisateur, la PRINCIPAL propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.</p></td>
 <td>Non applicable</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="statut-visuel">5.6.2 Statut visuel</h3>
-<p>Dans le cas où la CES est dotée d’une commande de verrouillage et où cette commande n’est pas présentée visuellement à l’utilisateur, laNB propose au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.</p></td>
+<p>Dans le cas où laNT est dotée d’une commande de verrouillage et où cette commande n’est pas présentée visuellement à l’utilisateur, laNB propose au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.</p></td>
 <td>Non applicable</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="répétition-automatique-des-touches">5.7 Répétition automatique des touches</h3>
-<p>Dans le cas où la CES est dotée de la fonction répétition automatique des touches et où cette fonction ne peut être désactivée :</p>
+<p>Dans le cas où laNT est dotée de la fonction répétition automatique des touches et où cette fonction ne peut être désactivée :</p>
 <p>a) le délai avant la répétition automatique est réglable jusqu’à au moins 2 secondes ; et</p>
 <p>b) la vitesse de répétition peut être réduite jusqu’à un caractère par intervalle de 2 secondes.</p></td>
 <td>Non applicable</td>
@@ -150,7 +150,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tbody>
 </table>
 
-### <a name="section-6-tic-avec-communication-voix-bidirectionnelle"></a>Section 6 ANS avec communication voix bidirectionnelle
+### <a name="section-6-tic-avec-communication-voix-bidirectionnelle"></a>Section 6( AVEC communication voix bidirectionnelle)
 
 <table>
 <caption>Section 6</caption>
@@ -162,13 +162,13 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="even">
 <td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande passante audio pour la parole (recommandation pour informations)</h3>
-<p>Dans le cas où la CORRECTEUR permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et decrypter la communication voix bidirectionnelle dans une bande de fréquence resurée à au moins 7 000 Hz.</p></td>
+<p>Dans le cas où la PETITE ENTREPRISE permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et decrypter la communication voix bidirectionnelle dans une bande de fréquence resurée à au moins 7 000 Hz.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 Communication en temps réel par texte (RTT)</h3>
-<p>Dans le cas où laNT est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
+<p>Dans le cas où la PREP est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -179,8 +179,8 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="affichage-visuellement-distinguable">6.2.2.1 Affichage visuellementable</h3>
-<p>Dans le cas où laNT est dotée de capacités d’envoi et de réception en RTT, l’affichage du texte envoyé est visuellement supprimé de celui du texte reçu.</p></td>
+<td><h3 id="affichage-visuellement-distinguable">6.2.2.1 Affichage visuellement accessible</h3>
+<p>Dans le cas où laNT est dotée de capacités d’envoi et de réception en RTT, l’affichage du texte envoyé est visuellement différents de celui du texte reçu.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -195,8 +195,8 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <p>Dans le cas où uneNT dotée de la fonctionnalité RTT affiche une opé avec d’autres TITRES dotées de la fonctionnalité RTT (comme l’exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d’incompatibleé RTT décrits ci-dessous :</p>
 <p>a) DOMAINE INTER-opérant sur le réseau téléphonique public (RTC) avec une autre QUI se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l’une de ses annexes pour les signaux de téléphonie en mode texte sur l’interface RTC ;</p>
 <p>b) EDIT inter-opérant avec une autre EDIT utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103 ;</p>
-<p>c) EDIT inter-opérant avec une autre EDIT utilisant une technologie RTT conforme à l’ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
-<p>d) INFORMATIONS INTER-opérant avec une autre ANS utilisant une spécification commune adaptée et applicable pour l’échange RTT qui est publiée et peut être consultée. Cette spécification commune comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
+<p>c) EDIT inter-opérant avec une autre LOI.PREC utilisant une technologie RTT conforme à l’ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
+<p>d) INFORMATIONS INTER-opérant avec une autre LOI.AUTH utilisant une spécification commune adaptée et applicable pour l’échange RTT qui est publiée et peut être consultée. Cette spécification commune comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -214,7 +214,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="even">
 <td><h3 id="alternatives-aux-services-basés-sur-la-voix">6.4 Alternatives aux services basés sur la voix</h3>
-<p>Dans le cas où la CES propose la communication voix en temps réel et propose également des fonctions de messagerie vocale, de réception automatique ou de serveur vocal interactif, la CESs doit offrir aux utilisateurs un moyen d’accéder aux informations et d’exécuter les fonctions fournies par la INFORMATION sans utiliser l’audition ou la parole.</p></td>
+<p>Dans le cas où la CES propose la communication voix en temps réel et propose également des fonctions de messagerie vocale, de réception automatique ou de serveur vocal interactif, la SOUHAITE doit offrir aux utilisateurs un moyen d’accéder aux informations et d’exécuter les fonctions fournies par la INFORMATION sans utiliser l’audition ou la parole.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -286,14 +286,14 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 <p>Media limité dans le temps : Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel.</p>
 <p>Test : Si le contenu non textuel est un test ou un exercice qui serait invalid s’il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.</p>
 <p>Contenu contenu : Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique, alors des équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel.</p>
-<p>CAPTCHA : Si le contenu non textuel sert à confirmer que c’est une personne et non un ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de perception qu’ils sont fournies de répondre aux besoins des différents handicaps.</p>
+<p>CAPTCHA : Si le contenu non textuel sert à confirmer que c’est une personne et non un ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant des modes de sortie pour les différents types de perception qu’ils sont fournies de répondre aux besoins des différents handicaps.</p>
 <p>Décoration, formatage, invisible : Si le contenu non textuel est purement décoratif, s’il n’est utilisé que pour le formatage visuel ou s’il n’est pas présenté aux utilisateurs, alors il est mis en œuvre de manière à être ignoré par la technologie d’assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 Audio seulement et vidéo seulement (préenregistré)</h3>
-<p>Dans le cas où la PRECIS est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran et où aucune information sonore préenregistrée n’est nécessaire pour permettre l’utilisation des fonctions fermées de la CHERCHE, elle remplit les Critères de Succès indiqués dans le Tableau 11.2 : Audio seulement et vidéo seulement (préenregistré) :</p>
+<p>Dans le cas où la CLAUSE est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran et où aucune information sonore préenregistrée n’est nécessaire pour permettre l’utilisation des fonctions fermées de la CHERCHE, elle remplit les Critères de Succès indiqués dans le Tableau 11.2 : Audio seulement et vidéo seulement (préenregistré) :</p>
 <p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l’audio ou la vidéo est un média de remplacement du texte et est clairement identifié comme tel :</p>
 <p>Audio seulement préenregistré : Une alternative au media limité dans le temps, qui présente des informations équivalentes pour le contenu audio seulement préenregistré, est fournie.</p>
 <p>Vidéo seulement préenregistrée : Une alternative au media limité dans le temps ou une piste audio, qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré, est fournie.</p></td>
@@ -316,7 +316,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="sous-titres-en-direct">11.2.1.5 Sous-titres (en direct)</h3>
-<p>Dans le cas où la CLAUSE EST un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.5. Sous-titres (en direct) :</p>
+<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.5. Sous-titres (en direct) :</p>
 <p>Des sous-titres sont fournis pour tout le contenu audio en direct se présentant sous la forme d’un média synchronisé.</p></td>
 <td>Non applicable</td>
 <td></td>
@@ -337,7 +337,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="ordre-séquentiel-logique">11.2.1.8 Ordre séquentiel logique</h3>
-<p>Dans le cas où la CLAUSE est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit les Critères de Succès indiqués dans le Tableau 11.8 : Ordre séquentiel logique :</p>
+<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit les Critères de Succès indiqués dans le Tableau 11.8 : Ordre séquentiel logique :</p>
 <p>Lorsque l’ordre de présentation du contenu affecte sa signification, un ordre de lecture correct peut être déterminé par un programme informatique.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -358,7 +358,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="contrôle-du-son">11.2.1.11 Contrôle du son</h3>
-<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.11 : Contrôle du son :</p>
+<p>Dans le cas où laNT est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.11 : Contrôle du son :</p>
 <p>Si du contenu audio d’un logiciel est audible automatiquement pendant plus de 3 secondes, il existe un mécanisme pour l’arrêter ou le mettre en pause, ou alors il existe un mécanisme pour contrôler le volume audio indépendamment du volume du système général.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -396,7 +396,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 <td>Pris en charge avec des exceptions</td>
 <td>1) Les boutons Plein écran et Choisir une disposition situés en haut à droite de la fenêtre Réunion ne bénéficient pas du focus clavier.<br />
 2) Certaines commandes dans Poll, Q &amp; A et Whiteboard ne peuvent bénéficier du focus clavier.<br />
-3) Les commandes de la visionneuse PowerPoint ne sont pas accessibles depuis le clavier.<br />
+3)Les commandes de la visionneuse PowerPoint ne sont pas accessibles depuis le clavier.<br />
 4) Les touches de modification du clavier s’arrêtent parfois de fonctionner lorsque vous donnez ou prenez le contrôle de votre écran partagé.</td>
 </tr>
 <tr class="odd">
@@ -430,14 +430,14 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 Pas plus de trois flashs ou sous le seuil critique</h3>
-<p>Dans le cas où la CLAUSE EST un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de succès indiqués dans le tableau 11.19 : Pas plus de trois flashs ou sous le seuil critique :</p>
+<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de succès indiqués dans le tableau 11.19 : Pas plus de trois flashs ou sous le seuil critique :</p>
 <p>Le logiciel est exempt de tout élément qui flashe plus de trois fois dans n’importe quel intervalle d’une seconde ou ce doit flash se situer sous le seuil de flash générique et le seuil de flash rouge.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="parcours-du-focus">11.2.1.22 Parcours du focus</h3>
-<p>Dans le cas où la CLAUSE EST un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.22 : Parcours du focus :</p>
+<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.22 : Parcours du focus :</p>
 <p>Si un logiciel peut être parcouru de façon séquentielle et que les séquences de navigation affectent la signification ou l’action, les éléments reçoivent le focus dans un ordre qui préserve la signification et l’opérabilité.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -516,19 +516,19 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="analyse-syntaxique">11.2.1.37 Syntaxique d’analyse</h3>
-<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur et qui permet l’accès à des technologies d’assistance, elle remplit les Critères de Succès indiqués dans le Tableau 11.37 : Syntaxique d’analyse :</p>
-<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d’assistance et caractéristiques d’accessibilité du logiciel ou d’un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d’attributs dupliqués et chaque ID est unique , sauf dans le cas où les spécifications autorisent ces caractéristiques.</p></td>
+<td><h3 id="analyse-syntaxique">11.2.1.37 Syntaxe d’analyse</h3>
+<p>Dans le cas où la CLAUSE est un logiciel non-web qui est doté d’une interface utilisateur et qui permet l’accès à des technologies d’assistance, elle remplit les Critères de Succès indiqués dans le Tableau 11.37 : Syntaxique d’analyse :</p>
+<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d’assistance et caractéristiques d’accessibilité du logiciel ou d’un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications , ils ne contiennent pas d’attributs dupliqués et chaque ID est unique, sauf dans le cas où les spécifications autorisent ces caractéristiques.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom, rôle et valeur</h3>
-<p>Dans le cas où la CLAUSE est un logiciel non-web qui est doté d’une interface utilisateur et qui permet l’accès à des technologies d’assistance, elle remplit les Critères de Succès indiqués dans le tableau 11.38 : Nom, rôle et valeur :</p>
+<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur et qui permet l’accès à des technologies d’assistance, elle remplit les Critères de Succès indiqués dans le tableau 11.38 : Nom, rôle et valeur :</p>
 <p>Pour tout composant d’une interface utilisateur (et notamment des éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par un programme informatique ; et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs, et notamment des technologies d’assistance.</p></td>
 <td>Pris en charge avec des exceptions</td>
 <td>1) Pas d'accès de programmation dans Poll, Q &amp; A et Whiteboard.<br />
-2) Le contenu des fichiers PowerPoint partagé n’est pas exposé par programmation.<br />
+2)Le contenu des fichiers PowerPoint partagé n’est pas exposé par programmation.<br />
 3) Les informations sur l’appareil audio ne sont pas entièrement exposées par programmation dans les boîtes de dialogue sur les options.</td>
 </tr>
 <tr class="even">
@@ -703,7 +703,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="documentation-accessible">12.1.2 Documentation accessible </h3>
-<p>La documentation produit fournie avec la PETITS EST mise à disposition dans au moins un des formats électroniques suivants :</p>
+<p>La documentation produit fournie avec laNT est mise à disposition dans au moins un des formats électroniques suivants :</p>
 <p>a) un format web qui est conforme à la clause 9, ou</p>
 <p>b) un format non-web qui est conforme à la clause 10.</p></td>
 <td>Pris en charge</td>
@@ -717,9 +717,9 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="efficacité-de-la-communication">12.2.3 Efficacité de la communication </h3>
-<p>Les services d’assistance de la DOMAINE répondent aux besoins en communication des personnes instants de handicap directement ou depuis un point de référence.</p></td>
+<p>Les services d’assistance de la DOMAINE répondent aux besoins en communication des personnes accompagnements de handicap directement ou depuis un point de référence.</p></td>
 <td>Pris en charge</td>
-<td><a href="https://support.microsoft.com/answerdesk/accessibility">Answer Desk Handicap</a></td>
+<td><a href="https://support.microsoft.com/answerdesk/accessibility">Handicap/Answer Desk</a></td>
 </tr>
 <tr class="even">
 <td><h3 id="documentation-accessible-1">12.2.4 Documentation accessible </h3>

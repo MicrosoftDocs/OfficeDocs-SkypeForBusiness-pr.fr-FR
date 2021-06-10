@@ -18,7 +18,7 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Découvrez comment former une équipe de champions pour promouvoir l’adoption de Teams en faisant de la sensibilisation, de l’adoption et de l’éducation dans votre organisation.
+description: Découvrez comment former une équipe de champions pour promouvoir l’adoption Teams’adoption en faisant de la sensibilisation, de l’adoption et de l’éducation dans votre organisation.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6a81e143d0b8d9d026c2e24a0469bc6d241d840f
@@ -36,7 +36,7 @@ La stratégie Champions s’intègre à votre planification du lancement global 
 
 ![Illustration de la planification du lancement de Champions](media/teams-adoption-champions.png)
 
-La champions doit :
+Champions doit :
 
 - Être officiellement formé pour accroître leur profondeur et leur éventail de connaissances
 - Encouragez-vous et donner la possibilité de guider, d’enseigner et de former leurs pairs
@@ -45,14 +45,14 @@ La champions doit :
 
 Utilisez notre [Guide du programme Champions pour](https://go.microsoft.com/fwlink/?linkid=854665) créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les autres :
 
-- Participez au [programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur de Teams et d’autres services Microsoft 365 ou Office 365. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
+- Participez [au programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur Teams et d’Microsoft 365 services Office 365'entreprise. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
 
-- Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour eux pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
+- Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
 
-- Organisez des réunions mensuelles régulières : Favorisez l’intérêt et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté de champions.
+- Organisez des réunions mensuelles régulières : Favorisez l’intérêt et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté combinant des champions.
 
     > [!TIP]
-    > Pour créer vos agendas, planifier vos réunions pour la semaine après l’appel de la communauté publique. 
+    > Pour créer vos agendas, planifier vos réunions de la semaine après l’appel de la communauté publique. 
 
 - Soyez clair sur les conditions requises : certains programmes Champion nécessitent que les membres participent aux réunions mensuelles, organisent des horaires de bureau pour le groupe d’utilisateurs qu’ils assistent et fournissent une formation à de nouveaux utilisateurs. Quelle que soit vos exigences, assurez-vous que les champions sont bien clairs sur la façon de participer avec succès au programme.
 

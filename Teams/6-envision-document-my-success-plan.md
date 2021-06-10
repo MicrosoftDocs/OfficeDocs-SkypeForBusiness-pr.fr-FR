@@ -31,7 +31,7 @@ Cet article donne une vue d’ensemble des conditions requises pour documenter c
 
 ## <a name="execution-planning"></a>Planification de l’exécution 
 
-Après avoir défini la manière dont vous allez implémenter la solution Audioconférence ou Phone System avec la solution De plan d’appel dans votre organisation, vous devez planifier l’exécution du projet d’implémentation.
+Après avoir défini la manière dont vous allez implémenter la solution AudioConférence ou Système téléphonique avec la solution Forfait d’appels dans votre organisation, vous devez planifier l’exécution du projet d’implémentation.
 
 Si votre organisation n’a qu’un ou deux sites, vous ne devez peut-être pas compléter tous les détails fournis dans cet article, mais vous devez le lire pour guider votre approche.
 
@@ -39,7 +39,7 @@ Si votre organisation n’a qu’un ou deux sites, vous ne devez peut-être pas 
 
 ## <a name="deployment-model"></a>Modèle de déploiement 
 
-Comme pour toute implémentation de technologie qui change la façon dont les personnes travaillent dans votre organisation, le choix de la bonne façon d’entreprendre le déploiement influencera grandement le succès de votre implémentation vocale dans le cloud.
+Comme pour toute implémentation de technologie qui change la façon dont les personnes travaillent dans votre organisation, choisir la bonne façon d’entreprendre le déploiement influencera grandement le succès de votre implémentation vocale dans le cloud.
 
 Les modèles de déploiement possibles sont les suivants :
 
@@ -51,14 +51,14 @@ Les modèles de déploiement possibles sont les suivants :
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez du modèle d’exécution du déploiement de Teams applicable à votre organisation.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documentez le modèle d’exécution du déploiement teams que vous avez choisi, et incluez des justifications professionnelles et techniques.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez du Teams d’exécution du déploiement applicable à votre organisation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documentez le Teams d’exécution de déploiement que vous avez choisi et incluez des justifications professionnelles et techniques.</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>Modélisation RACI
 
-Pour vous assurer d’avoir une bonne clarté sur l’qui est responsable de ce qui se passe dans votre projet, utilisez une matrice d’affectations de responsabilités (également appelée RACI— responsable, responsable, consultée et informée). Énumérez la personne ou le groupe qui est responsable de chaque tâche, ainsi que les parties prenantes devant être consultées dans le processus de prise de décision, et les parties prenantes pour être informées de chaque décision et action tout au long de l’exécution du projet.
+Pour vous assurer d’avoir une bonne clarté sur qui est responsable de ce qui se passe dans votre projet, utilisez une matrice d’affectations de responsabilités (également appelée RACI— responsable, responsable, consultée et informée). Énumérez la personne ou le groupe qui est responsable de chaque tâche, ainsi que les parties prenantes devant être consultées dans le processus de prise de décision, et les parties prenantes pour être informées de chaque décision et action tout au long de l’exécution du projet.
 
-Voici un exemple de matrice RACI pour une implémentation voix cloud.
+Voici un exemple de matrice RACI pour une implémentation Voix cloud.
 
 | Activité/Rôle                                         | Chef de projet | Chef/architecte de la collaboration | Consultant | Spécialiste en gestion des changements/adoption | Représentants d'unité commerciale |
 |-------------------------------------------------------|--------------|------------------------------|------------|---------------------------------------|-------------------------------|
@@ -69,13 +69,13 @@ Voici un exemple de matrice RACI pour une implémentation voix cloud.
 | Atelier cas d’utilisation professionnelle                           | A            |                              |            | R                                     | C                             |
 | Examiner le questionnaire de découverte                    |              | R, A                         | C          |                                       |                               |
 | Atelier sur l’architecture                                 | I            | R, A                         | C          |                                       |                               |
-| Atelier de phase de phase de conception pour les scénarios d’adoption       | C            | I                            | A          | R                                     |                               |
+| Atelier de phase de conception pour les scénarios d’adoption       | C            | I                            | A          | R                                     |                               |
 | Atelier de réussite de l’adoption                             |              |                              | R, A       | C                                     |                               |
-| Atelier de préparation du client et des appareils                  | I            |                              | R, A       | C                                     |                               |
+| Atelier de préparation des clients et appareils                  | I            |                              | R, A       | C                                     |                               |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez les activités/rôles pertinents pour le projet d’implémentation vocale cloud.</li><li>Décidez des équipes ou des personnes qui doivent être affectées à la matrice d’affectation de responsabilité (RACI) du projet d’implémentation vocale cloud.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez les activités/rôles pertinents pour le projet d’implémentation voix cloud.</li><li>Décidez des équipes ou des personnes qui doivent être affectées à la matrice d’affectation de responsabilité (RACI) du projet d’implémentation vocale cloud.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter la matrice RACI.</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>Plan d’exécution trimestrielle
@@ -101,20 +101,20 @@ Voici un exemple de plan d’exécution trimestrielle pour la phase de conceptio
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez le plan d’exécution trimestrielle pour obtenir les résultats clés de l’objectif (OKR).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le plan d’exécution trimestrielle.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documentez le plan d’exécution trimestrielle.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="communications-and-governance-plan"></a>Plan de gouvernance et de communication
 
-Pour tenir les parties prenantes du projet au courant de l’avancement du déploiement, vous devez établir un plan pour la façon dont les communications seront établies entre les membres principaux de l’équipe de projet et avec les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux bloqueurs et aux diverses révisions du projet par rapport aux indicateurs de performance clés établis, aux mesures opérationnelles et aux objectifs stratégiques.
+Pour tenir les parties prenantes du projet au courant de l’avancement du déploiement, vous devez établir un plan pour la façon dont les communications seront établies entre les membres de l’équipe de projet principales et avec les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux bloqueurs et à diverses révisions du projet par rapport à des KSI établis. , des mesures opérationnelles et des objectifs stratégiques.
 
-Voici un exemple de plan de communication et de gouvernance que vous pouvez utiliser dans votre projet d’implémentation de voix cloud.
+Voici un exemple de plan de communications et de gouvernance que vous pouvez utiliser dans votre projet d’implémentation de voix cloud.
 
 | Type                                        | Objectifs                                                                                                                                                      | Participants | Jours/heure                                     | Lieu             | Propriétaire de la réunion |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
-| Appels de la barre d’équipe Project                       | Synchroniser sur l’état du projet, suivre les principaux jalons et bloqueurs                                                                                           | TBA          | Lundi, Mardi, Mercredi, Jeudi 17h PST | Virtuel              | TBA           |
+| Project appels en standup                       | Synchroniser sur l’état du projet, suivre les principaux jalons et bloqueurs                                                                                           | TBA          | Lundi, Mardi, Mercredi, Jeudi 17h PST | Virtuel              | TBA           |
 | Comité hebdomadaire des réunions hebdomadaires                   | Examiner l’état du projet voix cloud, rapport à la direction, soulever des problèmes qui nécessitent l’aide de l’direction pour résoudre                                        | TBA          | Tous les vendredis, 23:00                        | Virtuel              | TBA           |
 | Révision mensuelle de l’activité/du fonctionnement des projets | vérifier l’état du projet avec les parties prenantes étendues, les principaux points de contact et les sponsors exécutifs ; examiner le plan de déploiement, les indicateurs de performance clés et les mesures opérationnelles ; | TBA          | Deuxième mardi du mois                       | Virtuel ou en personne | TBA           |
 | Révision trimestrielle de l’activité (QBR)             | vérifier l’état du projet et examiner l’avancement par rapport aux objectifs stratégiques, aux indicateurs de performance clés et aux mesures opérationnelles ; revisiter les plans si nécessaire                                 | TBA          | Jeudi dernier de chaque trimestre                | En personne            | TBA           |
@@ -124,7 +124,7 @@ Voici un exemple de plan de communication et de gouvernance que vous pouvez util
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez les communications et le plan de gouvernance, y compris la fréquence des mises à jour de statut régulières (quotidienne, hebdomadaire, mensuelle ou trimestrielle), les méthodes de conduite des réunions de mise à jour de statut et le propriétaire de chaque réunion.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le plan de communication et de gouvernance.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le plan de gouvernance et de communication.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -133,7 +133,7 @@ Voici un exemple de plan de communication et de gouvernance que vous pouvez util
 
 Un plan de réussite est le résumé de la documentation que vous avez créée au cours de la phase de conception.
 
-Le plan de réussite fournit à l’équipe de projet, qui peut inclure FastTrack ou un partenaire de déploiement, des informations suffisantes pour réaliser les objectifs de votre organisation en mettant en œuvre l’audioconférence ou le système téléphonique avec le service Calling Plan.
+Le plan de réussite fournit à l’équipe de projet, qui peut inclure FastTrack ou un partenaire de déploiement, des informations suffisantes pour réaliser les objectifs de votre organisation en mettant en œuvre l’audioconférence ou la Système téléphonique avec le service Plan d’appel.
 
 En règle générale, un plan de réussite contient les sections principales suivantes, sur lesquelles vous aurez travaillé au cours de la phase de conception :
 
@@ -151,17 +151,17 @@ En règle générale, un plan de réussite contient les sections principales sui
 
 ### <a name="business-case"></a>Script commercial
 
-Les cas d’utilisation professionnelle, la liste des parties prenantes, des okR et des KSI, les registres des risques et les délais de projet sont généralement la majorité des informations requises pour une étude de cas. Vous devez les documenter dans le cadre de votre plan de réussite.
+Les cas d’utilisation professionnelle, la liste des parties prenantes, les okrs et les KSI, les registres des risques et les délais de projet font généralement la majorité des informations requises pour une étude de cas. Vous devez les documenter dans le cadre de votre plan de réussite.
 
 ### <a name="service-readiness"></a>Préparation du service
 
-Votre analyse de l’environnement fournit les informations de départ nécessaires pour déterminer la préparation technique de votre organisation pour l’implémentation de l’Audioconférence et/ou du système téléphonique avec le plan d’appels.
+Votre analyse de l’environnement fournit les informations de départ nécessaires pour déterminer la préparation technique de votre organisation pour l’implémentation de l’Audioconférence et/ou Système téléphonique d’appels.
 
 Voici votre évaluation de la disponibilité des services ainsi que le plan de résolution des problèmes qui doivent être remédié à des problèmes détectés par le biais de l’analyse de l’environnement.
 
 ### <a name="service-decisions"></a>Décisions de service
 
-Indiquez la façon dont vous avez planifié l’audioconférence ou le système téléphonique avec l’implémentation technique du service Forfait d’appels pour votre organisation.
+Indiquez la façon dont vous avez planifié l’audioconférence ou la Système téléphonique avec l’implémentation technique du service De plan d’appels pour votre organisation.
 
 ### <a name="execution-plan"></a>Plan d’exécution
 
@@ -173,7 +173,7 @@ Une fois que vous avez effectué l’évaluation de la préparation pour l’ado
 
 Identifiez les ressources permettant de prendre en charge les activités d’adoption telles que les prospectus, les courriers électroniques de bienvenue et les supports de formation, ainsi que les personnalisations dont vous aurez besoin pour répondre aux besoins de votre organisation.
 
-Téléchargez des modèles pour les activités d’adoption à partir du Kit de réussite des clients [de Microsoft Teams.](https://aka.ms/TeamsCustomerSuccess)
+Téléchargez des modèles pour les activités d’adoption à partir [Microsoft Teams Kit de réussite client.](https://aka.ms/TeamsCustomerSuccess)
 
 ### <a name="operational-plan"></a>Plan opérationnel
 

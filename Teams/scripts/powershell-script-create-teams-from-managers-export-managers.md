@@ -23,7 +23,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117312"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell - Responsables de l’exportation et leurs directs
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell - Responsables d’exportation et leurs responsables
 
 Ce script PowerShell permet d’exporter une liste de gestionnaires et leurs directs pour votre organisation, afin de préparer la création d’une équipe de responsables pour chaque responsable, avec les directs en tant que membres de l’équipe.
 

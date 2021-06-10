@@ -1,5 +1,5 @@
 ---
-title: Exemple de script PowerShell - Nettoyage du déploiement de Teams
+title: Exemple de script PowerShell - nettoyage Teams de déploiement
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le dossier Teams pour les utilisateurs.
+description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le Teams dossier des utilisateurs.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,9 +24,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117292"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - Nettoyage du déploiement teams
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - nettoyage Teams de déploiement
 
-Utilisez ce script pour supprimer Teams. Ce script désinstalle Teams et supprime le dossier Teams d’un utilisateur. Exécutez ce script pour chaque profil utilisateur dans lequel Teams a été installé sur un ordinateur.
+Utilisez ce script pour supprimer des Teams. Ce script désinstalle Teams et supprime le Teams d’un utilisateur. Exécutez ce script pour chaque profil utilisateur dans lequel Teams été installé sur un ordinateur.
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Déployer Teams avec les applications Microsoft 365](/deployoffice/teams-install)
+- [Déployer des Teams à l’Microsoft 365 Apps](/deployoffice/teams-install)

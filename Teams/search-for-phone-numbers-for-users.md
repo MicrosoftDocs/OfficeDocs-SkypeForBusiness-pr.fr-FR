@@ -30,7 +30,7 @@ ms.locfileid: "51117252"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
-Lorsque vous souhaitez que les utilisateurs de votre organisation passer et recevoir des appels téléphoniques, vous devez utiliser le Centre d’administration **Microsoft Teams** et obtenir les numéros de téléphone qui peuvent être affectés aux utilisateurs. Le numéro de téléphone que vous affectez à un utilisateur sera un numéro de téléphone que vous avez choisi pour votre organisation et qui sera répertorié dans la liste de listes modifiables lorsque vous modifiez les propriétés de l’utilisateur et cliquez sur **Affecter.**
+Lorsque vous voulez que les utilisateurs de votre organisation soient appelés et reçoivent des appels téléphoniques, vous devez utiliser le Centre d’administration **Microsoft Teams** et obtenir les numéros de téléphone qui peuvent être affectés aux utilisateurs. Le numéro de téléphone que vous affectez à un utilisateur sera un numéro de téléphone que vous avez choisi pour votre organisation et qui sera répertorié dans la liste de listes modifiables lorsque vous modifiez les propriétés de l’utilisateur et cliquez sur **Affecter.**
   
 Avant d’attribuer des numéros de téléphone à vos utilisateurs, vous devez utiliser la **page** Obtenir de nouveaux numéros pour rechercher les numéros disponibles dans une zone. Vous pouvez effectuer une recherche **par pays ou région,** **type** de numéro et **emplacement,** puis entrer le nombre de numéros de téléphone dont vous aurez besoin pour vos utilisateurs. 
   
@@ -40,16 +40,16 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 
 **Pour rechercher des numéros de téléphone pour vos utilisateurs**
 
-![Icône montrant le logo Teams à ](media/teams-logo-30x30.png) **l’aide du Centre d’administration Microsoft Teams**
+![Icône montrant le logo ](media/teams-logo-30x30.png) **Teams’aide du Centre Microsoft Teams’administration**
   
-1. Allez au Centre **d’administration Microsoft Teams.**
+1. Allez dans le **Microsoft Teams d’administration.**
 
-2. Dans le navigation de gauche, **sélectionnez Numéros**  >  **de téléphone vocal** Obtenir de nouveaux  >  **numéros.**
+2. Dans le navigation de gauche, **sélectionnez**  >  **Numéros Téléphone nouveaux**  >  **numéros.**
   
     > [!IMPORTANT]
-    > Pour que vous voyez l’option Voix dans le navigation gauche du Centre d’administration Microsoft  Teams, vous devez d’abord acheter au moins une licence **Entreprise E5,** une licence de module logiciel phone system ou une licence de module-conférence  **audio.**  
+    > Pour que l’option Voix s’offre à vous dans le navigation gauche du Centre d’administration Microsoft Teams,  vous devez tout d’abord acheter au moins une licence **Enterprise E5,** une licence de module Système téléphonique ou une licence de module ajout  **d’audioconférence.**  
 
-3. Dans la page Sélectionner un emplacement et  **une quantité,** sélectionnez un emplacement dans la liste de listes de listes de pays ou de région.
+3. Dans la page Sélectionner un emplacement et  **une quantité,** sélectionnez un emplacement dans la liste de listes de listes répertoriées dans le pays ou la région.
 
 4. Sélectionnez un type de nombre dans la liste **du** type de nombre.
 
@@ -60,16 +60,16 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 7. Sous **Quantité,** entrez le nombre de numéros de téléphone que vous souhaitez pour votre organisation, puis cliquez sur **Suivant.** Vous avez 10 minutes pour sélectionner vos numéros de téléphone. Si vous prenez plus de 10 minutes, les numéros seront retournées au pool de numéros de téléphone.
 
     > [!NOTE]
-    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), répertoriés en regard **de Quantité.** 
+    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), en regard **de Quantité.** 
   
 8. Dans la page **Obtenir des** numéros, sélectionnez les numéros de téléphone de votre choix, cliquez sur **Acquérir** les numéros, puis sur **Suivant.**
 
     > [!IMPORTANT]
     > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences en votre possession. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences, augmentez ce nombre de 10 pour cent, puis ajoutez encore 10. Par exemple, si vous avez 100  licences Plan d’appels nationaux et/ou Forfait d’appels internationaux, vous pouvez réserver 120 numéros de téléphone, en supposant que vous n’avez pas encore acquis certains numéros de téléphone pour ces 100 utilisateurs.  Pour plus d’informations, consultez la rubrique [Combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md)
 
-9. Dans la page **de confirmation,** vérifiez vos choix, puis cliquez sur **Placer une commande.**
+9. Dans la page **de confirmation,** vérifiez vos choix, puis cliquez **sur Placer une commande.**
 
-10. Lorsque vous revenir à la page **Numéros** de téléphone, sélectionnez  le ou les numéros de téléphone que vous voulez affecter, puis cliquez sur Modifier pour l’affecter à un utilisateur.  
+10. Lorsque vous revenir à la page **Téléphone** numéros de téléphone, sélectionnez le  ou les numéros de téléphone à affecter, puis cliquez sur Modifier pour l’affecter à un utilisateur.  
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)

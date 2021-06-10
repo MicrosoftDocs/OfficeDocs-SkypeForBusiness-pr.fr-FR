@@ -33,7 +33,7 @@ ms.locfileid: "52240234"
 
 Les crédits de communication sont un moyen pratique de régler les minutes d’audioconférence et de plan d’appel. Il permet de s’assurer que vous et vos utilisateurs ne pourrez jamais :
   
-- Ajoutez des numéros gratuits à utiliser avec les réunions d’audioconférence, les postes de service automatique ou les files d’attente d’appels. Les appels gratuits sont facturés par minute et un solde de crédits de communication positif est nécessaire.
+- Ajoutez des numéros gratuits à utiliser avec les réunions d’audioconférence, les postes de service automatique ou les files d’attente d’appels. Les appels gratuits sont facturés par minute et nécessitent un solde positif de crédits de communication.
     
 - Appel sortant d’une réunion audioconférence pour ajouter une autre personne partout dans le monde.
     
@@ -49,7 +49,7 @@ Les crédits de communication sont un moyen pratique de régler les minutes d’
 > Les appels sortants vers certaines destinations peuvent être inclus dans votre abonnement Audioconférence. Pour plus d’informations, consultez les informations de votre abonnement. 
   
 > [!NOTE]
-> Si votre organisation se trouve dans une région différente de l’adresse de facturation de votre Accord Entreprise (EA), vous ne pourrez peut-être pas acheter de crédits de communication. Si vous ne parvenez pas à acheter des crédits de communication, ouvrez un incident de support à partir du portail et nous travaillerons avec vous pour atténuer ce problème jusqu’à ce qu’une solution permanente soit en place. 
+> Si votre organisation se trouve dans une région différente de l’adresse de facturation de votre Accord Entreprise ,vous ne pourrez peut-être pas acheter de crédits de communication. Si vous ne parvenez pas à acheter des crédits de communication, ouvrez un incident de support à partir du portail et nous travaillerons avec vous pour atténuer ce problème jusqu’à ce qu’une solution permanente soit en place. 
   
 ## <a name="what-are-the-communications-credits-rates"></a>Quels sont les tarifs des crédits de communication ?
 
@@ -57,28 +57,28 @@ Si vous vous demandez quel est le coût des appels pour les forfaits d’appels,
   
 ## <a name="what-is-it"></a>Description
 
-Pour utiliser des numéros gratuits, les crédits de communication sont requis car ces appels sont facturés par minute. Par ailleurs, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de votre forfait d’appels et de l’audioconférence qui ont besoin de pouvoir appeler vers n’importe quelle **destination PSTN.** De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre plan d’appels ou votre abonnement à l’audioconférence. Si vous ne définissez pas les crédits de communication ou si vous n’attribuez pas de licence à vos utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (selon votre plan d’appels, votre forfait d’audioconférence ou votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’une conférence audio en ligne.
+Pour utiliser des numéros gratuits, les crédits de communication sont requis car ces appels sont facturés par minute. Par ailleurs, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de votre forfait d’appels et de l’audioconférence qui ont besoin d’appeler vers n’importe quelle **destination PSTN.** De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre plan d’appels ou votre abonnement à l’audioconférence. Si vous ne définissez pas les crédits de communication ou si vous n’attribuez pas de licence à vos utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels, de votre audioconférence ou de votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’une conférence audio en ligne.
   
 > [!NOTE]
 > Vous devez configurer les crédits de communication, puis affecter une licence Crédits de communication pour chaque utilisateur du centre d’administration **Microsoft 365**  >  **Utilisateurs**  >  actifs. Les licences de crédit de communication apparaissent comme illimitées en quantité, car elles sont utilisées pour octroyer l’accès au solde des crédits de communication pour tout utilisateur auquel vous attribuez la licence Crédits de communication.
   
-Nous vous recommandons d’évaluer avec soin l’utilisation du service PSTN dans votre organisation afin de déterminer la meilleure configuration des crédits de communication. Vous pouvez en savoir plus sur les services PSTN en lisant les Système téléphonique, les [plans](calling-plan-landing-page.md) d’appel et les questions courantes sur [l’audioconférence.](Audio-Conferencing-common-questions.md)
+Il est recommandé d’évaluer avec soin l’utilisation du service PSTN dans votre organisation afin de déterminer la meilleure configuration des crédits de communication. Vous pouvez en savoir plus sur les services PSTN en lisant les Système téléphonique, les [plans](calling-plan-landing-page.md) d’appel et les questions courantes sur [l’audioconférence.](Audio-Conferencing-common-questions.md)
   
-Vous pouvez configurer la  facturation de la consommation à  l’aide d’un financement unique du solde déjà payé OU en fixant un montant de **recharge** automatique **(recommandé)** avec un solde minimum qui déclenchera un achat pour ce montant de recharge. Initialement, il est suggéré de définir des montants de recharge automatique qui vous permettent de surveiller l’utilisation réelle et de rechercher les seuils de recharge automatique qui répondent à vos besoins et à vos modèles d’utilisation. Les crédits de communication doivent être contrôlés au fil du temps, puis ajuster le solde minimum et les montants de recharge en fonction des besoins de chaque organisation.
+Vous pouvez configurer la  facturation de la consommation à  l’aide d’un financement unique du solde déjà payé OU en fixant un montant de **recharge** automatique **(recommandé)** avec un solde minimal qui déclenchera un achat pour ce montant de recharge. Initialement, il est suggéré de définir des montants de recharge automatique qui vous permettent de surveiller l’utilisation réelle et de rechercher les seuils de recharge automatique qui répondent à vos besoins et à vos modèles d’utilisation. Les crédits de communication doivent être contrôlés au fil du temps, puis ajuster le solde minimum et les montants de recharge en fonction des besoins de chaque organisation.
   
 > [!NOTE]
 > Vous pouvez consulter les [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) plans et les prix en vous Microsoft 365 centre d’administration de facturation et en vous rendez sur  >  **Abonnements**  >  **de facturation Ajouter des abonnements.** 
   
-Dans le **centre Microsoft 365** d’administration, les modules de facturation des services d’achat vous permet de sélectionner des crédits de communication pour ajouter les  >    >    >   crédits, et vous pouvez ajouter du crédit manuellement à tout moment. Vous pouvez également activer l'option **Recharge automatique**, qui permet de recharger automatiquement le compte lorsque le solde est inférieur au seuil défini. Si vous choisissez de financer le solde de vos crédits de communication par un montant une seule fois, puis que le solde est nul, les autres scénarios d’appel ci-dessus ne fonctionneront plus, y compris les numéros de téléphone gratuits. Par exemple, il est recommandé d’utiliser le paramètre de **recharge** automatique afin d’éviter toute interruption de service au cas où votre solde de crédits de communication atteint 0 (zéro). Vous pouvez afficher le solde actuel de vos crédits de communication en c équilibrer la  >  **facturation des**  >  **crédits de communication de vos produits.**
+Dans le **centre Microsoft 365** d’administration, les modules ajout de services d’achat de facturation vous permet de sélectionner des crédits de communication pour ajouter les  >    >    >   crédits, et vous pouvez ajouter du crédit manuellement à tout moment. Vous pouvez également activer l'option **Recharge automatique**, qui permet de recharger automatiquement le compte lorsque le solde est inférieur au seuil défini. Si vous choisissez de financer le solde de vos crédits de communication par un montant une seule fois, puis que le solde est nul, les autres scénarios d’appel ci-dessus ne fonctionneront plus, y compris les numéros de téléphone gratuits. Par exemple, il est recommandé d’utiliser le paramètre de **recharge** automatique afin d’éviter toute interruption de service au cas où votre solde de crédits de communication atteint 0 (zéro). Vous pouvez afficher le solde actuel de vos crédits de communication en allant à **Facturation**  >  **Vos produits**-  >  **Crédits de communication.**
 
 > [!NOTE]
 >Vous serez envoyé à  tous les utilisateurs avec l’administrateur du service Lync, l’administrateur de la société, l’administrateur de facturation, l’administrateur de la société, Administrateur de compte d’utilisateur, administrateur du support technique, administrateur du support technique, administrateur de facturation, administrateur du service Lync, administrateur de périphériques, administrateur d’application, administrateur de licences, administrateur de périphériques cloud, administrateur d’authentification, administrateur d’authentification privileged, administrateur de communications Teams, ingénieur du support des communications Teams, spécialiste du support des communications Teams, rôles d’administrateur d’administrateur de Teams, en cas de réussite des transactions de recharge, échec des transactions de recharge (par exemple, carte de crédit expirée) et votre solde de crédits de communication atteint 0 (zéro).
   
 ## <a name="communications-credits"></a>Crédits de communication
 
-Chaque organisation utilisera le volume et les tarifs des forfaits d’appels différemment. You will need to get this type of usage data from your current service provider. Pour les organisations qui utilisent Teams comme fournisseur de services, vous pouvez obtenir des données d’utilisation en les consulter dans le Centre d’administration Microsoft Teams > **Analytics &** et en sélectionnant Utilisation  >   **PSTN.**
+Chaque organisation utilisera différemment le volume et les tarifs des forfaits d’appels. You will need to get this type of usage data from your current service provider. Pour les organisations qui utilisent Teams comme fournisseur de services, vous pouvez obtenir des données d’utilisation en les consulter dans le Centre d’administration Microsoft Teams > **Analytics &** et en sélectionnant Utilisation  >   **PSTN.**
   
-Lors de la configuration des crédits de communication, vous devrez examiner les utilisations des appels pour votre organisation afin de déterminer les montants que vous devrez fixer. Vous pouvez obtenir des informations sur l’utilisation des appels en vous reportant au rapport d’utilisation PSTN. Ce rapport vous permet d’exporter les enregistrements de données d’appel Excel créer des rapports personnalisés.
+Lors de la configuration des crédits de communication, vous devrez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants que vous devrez fixer. Vous pouvez obtenir des informations sur l’utilisation des appels en vous reportant au rapport d’utilisation PSTN. Ce rapport vous permet d’exporter les enregistrements de données d’appel Excel créer des rapports personnalisés.
 
 Les notifications importantes relatives au solde des crédits de communication de votre organisation seront envoyées aux administrateurs suivants :
 
@@ -97,7 +97,7 @@ Les notifications importantes relatives au solde des crédits de communication d
 - Administrateur des communications Teams
 - Ingénieur du support technique pour les communications Teams
 - Teams Spécialiste du support pour les communications
-- Teams Administrateur
+- Administrateur Teams
 
 > [!NOTE]
 > Les crédits de communication sont également utilisés pour les numéros à tarif sur abonnement. C’est l’appelant qui paie les frais.
@@ -122,7 +122,7 @@ Vous pouvez également consulter des informations sur les prix en vous inscrivan
   
 Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Teams Rapport d’utilisation PSTN](teams-analytics-and-reports/pstn-usage-report.md)
 

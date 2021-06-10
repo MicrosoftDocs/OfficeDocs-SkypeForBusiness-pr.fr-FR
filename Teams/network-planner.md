@@ -50,7 +50,7 @@ Pour utiliser le Planificateur réseau, vous devez être administrateur généra
 
 Pour créer un personnage personnalisé, suivez ces étapes :
 
-1. Dans le Centre d’administration, Microsoft Teams le planificateur réseau.
+1. Dans le Centre d’administration, Microsoft Teams au Planificateur réseau.
 
 2. Sous **l’onglet Personnage,** cliquez **sur + Personnage personnalisé.** 
 
@@ -64,7 +64,7 @@ Pour créer un personnage personnalisé, suivez ces étapes :
 
 Pour commencer à créer votre plan réseau, suivez les étapes suivantes :
 
-1. Dans le Centre d’administration, Microsoft Teams le planificateur réseau.
+1. Dans le Centre d’administration, Microsoft Teams au Planificateur réseau.
 
 2. Sous **l’onglet Plan réseau,** cliquez **sur Ajouter un plan réseau.**
 

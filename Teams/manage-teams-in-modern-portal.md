@@ -36,7 +36,7 @@ Cet article fournit une vue d’ensemble des outils de gestion Teams dans le Mic
 En tant qu’administrateur, vous devrez peut-être afficher ou mettre à jour les équipes que votre organisation a définies pour la collaboration, ou vous devrez peut-être effectuer des actions de correction, telles que l’attribution de propriétaires à des équipes sans propriétaire. Vous pouvez gérer les équipes utilisées dans votre organisation à la fois via le module Microsoft Teams PowerShell et le Microsoft Teams d’administration. Vous pouvez accéder au Centre d’administration à <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> l’adresse . Pour des fonctionnalités d’administration complètes utilisant ces deux jeux d’outils, vous devez vous assurer qu’un des rôles suivants vous est attribué :
 
 - Administrateur général
-- Teams Administrateur
+- Administrateur Teams
 
 Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans Utiliser les rôles d’administrateur Microsoft Teams pour gérer [des Teams,](using-admin-roles.md)et en savoir plus sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la référence de l’cmdlet [Microsoft Teams.](/powershell/teams/?view=teams-ps)
 
@@ -46,7 +46,7 @@ Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans Uti
 
 Les outils de gestion pour les équipes se **Teams** le nœud de gestion dans Microsoft Teams d’administration. (Dans le Centre d’administration, **sélectionnez Teams**  >  **Gérer les équipes**.) Chaque équipe est backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-![Capture d’écran de la Teams vue d’ensemble](media/manage-teams-in-modern-portal-grid.png)  
+![Capture d’écran de la Teams de vue d’ensemble](media/manage-teams-in-modern-portal-grid.png)  
 
 La grille affiche les propriétés suivantes :
 
@@ -126,7 +126,7 @@ Remplacez **{groupid}** dans la requête pour le GroupId réel en question, que 
 
 1. Accédez [Graph Explorer.](https://developer.microsoft.com/graph/graph-explorer)
 
-2. Connectez-vous Graph’Explorateur dans le menu de gauche.
+2. Connectez-vous Graph explorer dans le menu de gauche.
 
 3. Modifiez la ligne de requête en : PATCH > v1.0 https://graph.microsoft.com/v1.0/groups/{groupid} >.
 

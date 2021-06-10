@@ -27,7 +27,7 @@ ms.locfileid: "51119143"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
-Vous pouvez utiliser les cmdlets de Windows PowerShell suivantes pour définir et attribuer des paramètres de stratégie pour les événements en direct dans Teams : 
+Vous pouvez utiliser les cmdlets de Windows PowerShell suivantes pour définir et affecter des paramètres de stratégie pour les événements en direct dans Teams : 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,7 +37,7 @@ Vous pouvez utiliser les cmdlets de Windows PowerShell suivantes pour définir e
 Voici quelques exemples.
 
 > [!NOTE]
-> Avant d’exécuter ces cmdlets, vous devez être connecté à Skype Entreprise Online PowerShell. Pour plus d’informations, [consultez Gérer Skype Entreprise Online avec Microsoft 365 ou Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Avant d’exécuter ces cmdlets, vous devez être connecté à Skype Entreprise PowerShell en ligne. Pour plus d’informations, voir Gérer Skype Entreprise Online avec [Microsoft 365 ou Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Autoriser les utilisateurs à planifier des événements en direct 
 
@@ -56,13 +56,13 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 ### <a name="user-scenarios"></a>Scénarios utilisateur
-**Vous voulez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
+**Vous souhaitez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
 
 Si la stratégie globale est affectée aux utilisateurs, exécutez et vérifiez que *AllowBroadcastScheduling* *est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast* est définie sur *True*:
+Si des utilisateurs ont une stratégie autre que la stratégie globale, exécutez et vérifiez que la planification *-AllowBroadcast est* définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Vous souhaitez qu’un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de les planifier**
 
-Exécutez et vérifiez que *La planification AllowBroadcast* est définie sur *True*:
+Exécutez et vérifiez que *la planification AllowBroadcast* est définie sur *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -145,6 +145,6 @@ Définissez la stratégie globale pour activer les légendes et sous-titres en d
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Sujets associés
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Présentation de Teams PowerShell](../teams-powershell-overview.md)

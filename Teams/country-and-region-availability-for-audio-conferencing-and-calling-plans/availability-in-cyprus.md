@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Chypre.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la sécurité disponibles pour Chypre.
 ms.openlocfilehash: 265202a65ea91ebd9ed6c7c3373b77220237b3e8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118203"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Chypre.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la sécurité disponibles pour Chypre.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -83,7 +83,7 @@ Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

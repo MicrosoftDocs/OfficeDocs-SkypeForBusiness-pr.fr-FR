@@ -31,7 +31,7 @@ ms.locfileid: "49821274"
 
 Cet article répertorie les zones de pays et de région pour l’audioconférence.
 
-## <a name="zone-a-countries-and-regions"></a>Pays et régions de la zone A
+## <a name="zone-a-countries-and-regions"></a>Zone A pays et régions
 
 |Pays ou région    |
 |-----|
@@ -80,10 +80,10 @@ Cet article répertorie les zones de pays et de région pour l’audioconférenc
 |Royaume-Uni  <br/> |
 |États-Unis  <br/> |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Période complémentaire pour la numérotation de l'audioconférence](complimentary-dial-out-period.md)
 - [Audio conferencing subscription « Dial-Out"/"Call Me At » minutes benefit](audio-conferencing-subscription-dial-out.md)
-- [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](outbound-calling-restriction-policies.md)
+- [Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs](outbound-calling-restriction-policies.md)
 - [Qu’est-ce que les crédits de communication ?](what-are-communications-credits.md)

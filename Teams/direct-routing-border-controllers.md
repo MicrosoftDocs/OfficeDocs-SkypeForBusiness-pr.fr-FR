@@ -32,7 +32,7 @@ Microsoft établit des partenariats avec certains fournisseurs de contrôleurs S
 Microsoft collabore avec chaque fournisseur pour :
 
 - Travaillez conjointement sur les protocoles d’interconnexion SIP.
-- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les appareils qui ont réussi les tests sont certifiés.
+- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les périphériques qui ont réussi les tests sont certifiés.
 - Exécutez des tests quotidiens avec tous les périphériques certifiés dans les environnements de production et de pré-production. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés.
 - Établissez un processus de support conjointe avec les fournisseurs SBC.
 

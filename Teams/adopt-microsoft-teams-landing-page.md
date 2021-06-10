@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118483"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856383"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
 > [!NOTE]
-> Pour avoir une vue d’ensemble de la transition vers les ressources pédagogiques et distantes pour vous aider à démarrer, consultez la page d’accueil de [l’apprentissage à distance](https://www.microsoft.com/education/remote-learning).
+> Pour avoir une vue d’ensemble de la transition vers les ressources pédagogiques et distantes pour vous aider à démarrer, consultez la page d’accueil de [l’apprentissage à distance](/education/remote-learning).
 
-Si vous souhaitez déployer Teams à partir de la conversation, des équipes [](get-started-with-teams-quick-start.md)& canaux et réunions, utilisez nos préscriptifs de mise en place, qui vous aideront à être opérationnel rapidement. Si vous êtes une organisation de grande taille qui dispose d’une configuration hybride ou sur site de Skype Entreprise, ou si vous souhaitez déployer des fonctionnalités vocales (telles que des plans d’appels Microsoft 365, Office 365 ou un système téléphonique), vous pouvez commencer avec nos conseils de mise en place, mais vous aurez besoin d’instructions supplémentaires ci-dessous, sous des instructions [d’adoption](#deeper-adoption-guidance)plus approfondies.
+Si vous souhaitez déployer des Teams à partir de la conversation, des équipes [](get-started-with-teams-quick-start.md)& canaux et réunions, utilisez nos préscriptifs de mise en place, qui vous aideront à être opérationnel rapidement. Si vous êtes une organisation de grande taille qui dispose d’une configuration Skype Entreprise hybride ou sur site, ou si vous souhaitez déployer des fonctionnalités vocales (telles que des plans d’appel Microsoft 365 ou Office 365 ou un système téléphonique), vous pouvez commencer avec nos conseils de mise en place, mais vous aurez besoin des conseils supplémentaires ci-dessous, sous des instructions [d’adoption](#deeper-adoption-guidance)plus approfondies.
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

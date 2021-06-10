@@ -31,7 +31,7 @@ ms.locfileid: "52282561"
 
 ![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
 
-Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé votre mise à niveau de Skype Entreprise vers Teams.
+Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau d’Skype Entreprise vers Teams.
 
 Les technologies innovent à un rythme inédit. Rester à jour et activer un environnement d’espace de travail moderne est devenu une norme de fonctionnement des organisations. À mesure Microsoft Teams, Microsoft 365 et la vision intelligente de communication de Microsoft continuent de se développer, disposer d’un plan opérationnel permet de s’assurer que votre organisation est opérationnelle pour le succès à long terme. Un plan opérationnel optimal inclut une surveillance de votre environnement pour l’état d’santé et la qualité, une dynamique continue pour optimiser l’adoption et la planification de nouvelles fonctionnalités qui continueront d’être disponibles en ligne au fil du temps.
 

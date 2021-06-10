@@ -24,7 +24,7 @@ ms.locfileid: "51117622"
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-L’accord spécifique aux ressources dans Microsoft Teams permet aux propriétaires d’équipe d’accorder leur consentement aux applications pour accéder aux données de l’équipe. Ces accès sont, par exemple, la possibilité de lire des messages de canal, de créer et de supprimer des canaux, et de créer et supprimer des onglets de canal.
+L’accord spécifique aux ressources Microsoft Teams permet aux propriétaires d’équipe d’accorder leur consentement aux applications pour accéder aux données de l’équipe. Ces accès sont, par exemple, la possibilité de lire des messages de canal, de créer et de supprimer des canaux, et de créer et supprimer des onglets de canal.
 
 En tant qu’administrateur, vous contrôlez si les propriétaires d’équipe de votre organisation peuvent accorder leur consentement via les paramètres que vous configurez à l’aide du module PowerShell Azure Active Directory (Azure AD), du portail Azure et du Centre d’administration Microsoft Teams.  
 
@@ -43,8 +43,8 @@ Les deux paramètres suivants déterminent si les propriétaires d’équipe peu
 
 Ce paramètre contrôle si les utilisateurs de votre organisation peuvent consenter à des applications en leur nom. Pour permettre aux propriétaires d’équipe d’accorder leur consentement, ce paramètre doit être réglé sur **Oui.** Pour gérer ce paramètre, vous pouvez :
 
-1. Dans le portail Azure, allez dans Paramètres utilisateur **des applications**  >  **d’entreprise.**
-2. Dans **les applications d’entreprise,** définissez que les utilisateurs peuvent **consenter** à ce que les applications accèdent aux données de l’entreprise en leur nom sur **Non** ou **Oui.**
+1. Dans le portail Azure, allez à la Enterprise   >  **paramètres utilisateur de l’application.**
+2. Sous **Enterprise applications,** définissez que les utilisateurs peuvent **consenter** à ce que les applications accèdent aux données de l’entreprise en leur nom sur **Non** ou **Oui.**
 
 Vous pouvez également gérer ce paramètre à l’aide de PowerShell. Pour en savoir plus, voir [Configurer le contenu utilisateur sur des applications.](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)
 
@@ -52,7 +52,7 @@ Vous pouvez également gérer ce paramètre à l’aide de PowerShell. Pour en s
 
 Ce paramètre contrôle si les utilisateurs de votre organisation peuvent consenter aux applications qui accèdent aux données de l’entreprise pour les groupes dont ils sont propriétaire. Ce paramètre doit être activé pour que les propriétaires d’équipe consentent. Pour savoir comment gérer ce paramètre à l’aide de PowerShell, voir Configurer le consentement du propriétaire de groupe pour les applications qui accèdent aux [données du groupe.](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)
 
-### <a name="settings-in-the-microsoft-teams-admin-center"></a>Paramètres dans le Centre d’administration Microsoft Teams
+### <a name="settings-in-the-microsoft-teams-admin-center"></a>Paramètres dans le Centre Microsoft Teams’administration
 
 Outre les paramètres d’Azure AD, les [paramètres](manage-apps.md#manage-org-wide-app-settings) d’application à l’échelle de l’organisation sur [](teams-app-permission-policies.md) la [page](manage-apps.md) Gérer les applications, le blocage ou l’autorisation d’une application sur la [page](manage-apps.md#allow-and-block-apps) Gérer les applications, la stratégie d’autorisation d’application attribuée au propriétaire de l’équipe détermine si un propriétaire d’équipe peut donner son accord.
 
@@ -63,10 +63,10 @@ Outre les paramètres d’Azure AD, les [paramètres](manage-apps.md#manage-org-
 
 Ce paramètre d’application à l’échelle de l’organisation contrôle si les utilisateurs de votre organisation peuvent utiliser des applications tierces. Ce paramètre doit être activé pour permettre aux propriétaires d’équipe d’accorder leur accord. Pour gérer ce paramètre, vous pouvez :
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à l’application **Teams** Gérer les applications, puis cliquez sur Paramètres de l’application à  >  l’échelle **de l’organisation.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans Teams **Applications** Gérer les applications, puis cliquez sur Paramètres de l’application à  >  l’échelle **de l’organisation.**
 2. Sous **Applications tierces,** désactiver ou activer **Autoriser les applications tierces.**
 
-    ![Capture d’écran du paramètre « Autoriser les applications tierces dans Teams »](media/resource-specific-consent-org-wide-setting.png)
+    ![Capture d’écran du paramètre « Autoriser les applications tierces Teams »](media/resource-specific-consent-org-wide-setting.png)
 
 Il est possible que les modifications ne prennent effet qu'après 24 heures.
 
@@ -83,7 +83,7 @@ Lorsque vous bloquez ou autorisez une application sur la [page](manage-apps.md#a
 
 Les propriétaires d’équipe peuvent uniquement accorder leur consentement aux applications que leur stratégie d’autorisation d’application leur permet d’exécuter. Pour afficher et gérer la stratégie d’autorisation d’application affectée à un propriétaire d’équipe, vous pouvez :
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **Utilisateurs.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez à **Utilisateurs.**
 2. Double-cliquez sur le nom d’affichage du propriétaire de l’équipe, puis cliquez sur **Stratégies.**
 3. La stratégie attribuée au propriétaire de l’équipe figure sous stratégie **d’autorisation d’application.**
     - Pour affecter une autre stratégie, cliquez **sur** Modifier, puis sélectionnez la stratégie à affecter.
@@ -93,9 +93,9 @@ Les propriétaires d’équipe peuvent uniquement accorder leur consentement aux
 
 Lors du téléchargement d’une application personnalisée (également connue sous le nom de « sideloading » ) qui utilise un consentement spécifique pour une ressource, l’application doit être provenant du client sur qui elle est installée. En d’autres termes, l’inscription de l’application Azure AD doit être auprès de ce client. Les administrateurs globaux sont exemptés de cette restriction et peuvent télécharger des applications personnalisées à partir de n’importe quel client, directement dans une équipe (chargement automatique) ou dans le catalogue des applications client.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Autorisations RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Gérer vos applications dans le Centre d’administration Microsoft Teams](manage-apps.md)
+- [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
 - [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Lisez une vue d’ensemble des étapes dont vous aurez besoin pour prendre en charge l’enablement à grande échelle de Teams pour votre organisation.
+description: Consultez une vue d’ensemble des étapes nécessaires pour prendre en charge l’enablement à grande Teams pour votre organisation.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,7 +30,7 @@ ms.locfileid: "49806104"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
 
-Dans cette phase, vous allez utiliser vos apprentissages, équipe de projet talentueux et relations avec les parties prenantes, les champions et les premiers utilisateurs pour prendre en charge l’enablement à grande échelle de Teams pour votre organisation. Vous effectuerez les étapes suivantes lorsque vous vous préparerez à l’engagement continu de l’entreprise concernant l’utilisation de Microsoft Teams par vos organisations :
+Dans cette phase, vous allez utiliser vos apprentissages, équipe de projet talentueux et les relations avec les parties prenantes, les champions et les premiers utilisateurs pour prendre en charge l’enablement à grande échelle des Teams pour votre organisation. Vous effectuerez les étapes suivantes lorsque vous vous préparerez à l’engagement continu de l’entreprise en matière d’utilisation de l’Microsoft Teams par vos Microsoft Teams :
 
 1. Définissez les résultats et les mesures de réussite.
 2. Sélectionnez une stratégie de service.

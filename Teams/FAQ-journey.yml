@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1f23be9a2324bc3fe51f19440562cdcc31df8ad0
-  ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+  ms.openlocfilehash: a753374ec71014352b04721f2019f5e9a6425acd
+  ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/08/2021
-  ms.locfileid: "52282701"
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "52856273"
 title: FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 summary: ''
 sections:
@@ -35,17 +35,21 @@ sections:
   - question: Les clients doivent-ils passer de Skype Entreprise Online à Teams à une date précise ?
     answer: >
       Oui. [Skype Entreprise Online ne sera](skype-for-business-online-retirement.md) plus accessible le 31 juillet 2021. Nous encourageons les clients Skype Entreprise Online à commencer à utiliser Teams et à commencer à planifier leurs mises à niveau dès maintenant afin de pouvoir terminer la mise à niveau avant la date de retrait.
+  - question: Les clients locaux doivent-ils Skype Entreprise Server à une mise à niveau vers Microsoft Teams mise à niveau Skype Entreprise Online ?
+    answer: "Non. L’abandon d Skype Entreprise Online n’a pas d’impact sur les utilisateurs qui mentent leur domicile. Bien que nous encourageons tous les clients à tirer parti des offres de Microsoft Teams de fonctionnalités et de performances étendues, certains clients Skype Entreprise Server peuvent avoir besoin d’utiliser le produit autonome ou dans le cadre d’une configuration hybride avec Microsoft Teams. Consultez le site [Politique de support Microsoft](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) pour consulter les dates de support des versions d’Skype Entreprise Server. \n"
   - question: Est-Réunion Skype la diffusion va-t-elle être mise à l’abandon en même temps Skype Entreprise web ?
     answer: "Oui. Teams Événements en direct est la solution qui remplacera Réunion Skype Broadcast.    \n"
   - question: Combien de temps prendra la transition vers Teams de mon organisation ?
     answer: >
-      Vous pouvez définir le parcours de mise à niveau de Skype Entreprise vers Teams de votre organisation. Pour vous aider dans le cadre de la planification et de l’exécution, nous avons développé des conseils de mise à niveau complets basés sur un cadre éprouvé conçu pour vous aider à naviguer dans les éléments techniques et organisationnels de la modification. Commencez votre parcours en vous familiarisant avec notre [infrastructure de réussite de la mise à niveau](upgrade-framework.md) et des ressources associées qui constituent l’élément central de votre navigation entre Skype Entreprise et Teams.
+      Le chemin que vous suivrez va de Skype Entreprise à Teams varie en fonction des caractéristiques de votre organisation, telles que la complexité technique, l’aptitude au changement, les intégrations d’applications et de flux de travail personnalisées, etc. Pour vous aider dans le cadre de la planification et de l’exécution, nous avons développé des conseils de mise à niveau complets basés sur un cadre éprouvé conçu pour vous aider à naviguer dans les éléments techniques et organisationnels de la modification. Commencez votre parcours en vous familiarisant avec notre [infrastructure de réussite de la mise à niveau](upgrade-framework.md) et des ressources associées qui constituent l’élément central de votre navigation entre Skype Entreprise et Teams.
   - question: Existe-t-il une mise à niveau recommandée pour Skype Entreprise ?
     answer: >
       Nous vous recommandons de planifier votre migration de Skype Entreprise à Teams en tirant parti des conseils et ressources sur [aka.ms/SkypetoTeams](upgrade-start-here.md) et de participer à un [atelier gratuit sur la planification de la mise à niveau](upgrade-workshops-landing-page.yml) pour identifier et implémenter le chemin de mise à niveau le mieux adapté aux besoins de votre organisation.
   - question: Où puis-je en savoir plus sur les modes de coexistence dans le centre d’administration Microsoft Teams ?
+    answer: "Dans le centre d'administration Microsoft Teams, des modes de coexistence supplémentaires apparaîtront, afin que votre organisation puisse gérer la transition de Skype Entreprise vers Teams qui lui convient. En savoir plus [sur les modes de coexistence et de mise à niveau](teams-and-skypeforbusiness-coexistence-and-interoperability.md).\n      \n"
+  - question: Microsoft planifie-t-il des mises à niveau assistées ?
     answer: >
-      Dans le centre d'administration Microsoft Teams, des modes de coexistence supplémentaires apparaîtront, afin que votre organisation puisse gérer la transition de Skype Entreprise vers Teams qui lui convient. En savoir plus [sur les modes de coexistence et de mise à niveau](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+      Oui. Skype Entreprise Les clients en ligne peuvent être programmés pour des mises à niveau assistées vers Microsoft Teams. Ce programme a été conçu pour aider les clients avec les éléments techniques de la mise à niveau d’un client Skype Entreprise Online vers Teams uniquement. Les clients programmés pour les mises à niveau assistées recevront des notifications dans le Centre d’administration Teams et dans le Centre de messages Microsoft 365 90 jours avant la date de mise à niveau afin de laisser du temps à la préparation technique et utilisateur.  Pour plus d’informations, [voir Mises à niveau assistées de Skype Entreprise Online vers Microsoft Teams.](upgrade-assisted.md)
   - question: Que dois-je faire pour me préparer à la mise à niveau ?
     answer: >
       Une mise à niveau réussie inclut la validation de la préparation technique en plus de la préparation de l’acceptation par l’utilisateur. Même si vous estimez que votre organisation n’est pas encore prête pour la mise à niveau vers Teams, vous pouvez commencer le processus de planification dès aujourd’hui. De plus, vous pouvez commencer à évaluer la valeur de Teams en activant Teams avec Skype entreprise. Démarrez la [transition de Skype vers Teams](./upgrade-start-here.md) aujourd’hui.
@@ -79,8 +83,6 @@ sections:
   - question: Que cela signifie-t-il en termes de licence ? Comment les clients payent-ils les fonctionnalités telles que l’audioconférence et les appels Teams ?
     answer: >
       Teams est disponible dans les suites Microsoft 365 et Office 365. Les fonctionnalités qui constituent actuellement des charges de travail Premium dans Skype Entreprise Online continueront de l’être dans Teams. Les licences actuelles acquises par les clients seront toujours valables avec Teams. Par exemple, si un client a acheté une licence autonome ou E5 d’audioconférence avec Skype Entreprise, le service d’audioconférence sera activé dans Teams tel qu’il l’est aujourd’hui.
-  - question: Microsoft planifie-t-il des mises à niveau assistées ?
-    answer: "L’abandon du service Skype Entreprise Online dans l’affichage du 31 juillet 2021 a pour but d’aider les clients à effectuer une transition vers Teams en leur fournissant des conseils de mise à niveau, des ateliers en ligne, ainsi que des formations pour les utilisateurs et les administrateurs. \n\nSkype Entreprise Les clients en ligne peuvent être programmés pour des mises à niveau assistées vers Microsoft Teams. Ce programme a été conçu pour aider les clients avec les éléments techniques de la mise à niveau d’un client Skype Entreprise Online vers Teams uniquement. Les clients programmés pour les mises à niveau assistées recevront des notifications dans le Centre d’administration Teams ainsi que dans le Centre de messages Microsoft 365 90 jours avant la date de mise à niveau afin de laisser du temps à la préparation technique et utilisateur.  Pour plus d’informations, [voir Mises à niveau assistées de Skype Entreprise Online vers Microsoft Teams.](upgrade-assisted.md)\n"
   - question: Quels sont les avantages de l'infrastructure principale de Teams ?
     answer: >
       Teams a été créée pour le cloud sur une architecture de microservices très évolutive optimisée en termes de consommation de bande passante, qui fournit une télémétrie plus robuste et qui permet d’effectuer des opérations de maintenance et des mises à jour avec une perturbation minimale. En conséquence, les utilisateurs pourront rejoindre les réunions plus rapidement et bénéficieront d'une meilleure expérience de navigateur sans devoir télécharger de plug-ins. Cette infrastructure moderne permettra d’utiliser plus facilement les services cognitifs Microsoft, qui incluent des fonctionnalités de transcription, de conversion, de reconnaissance vocale et d’apprentissage machine, et qui rendent la communication et la collaboration plus simples et efficaces.
@@ -116,4 +118,4 @@ sections:
     answer: >
       [Les périphériques de salle de réunion](https://products.office.com/microsoft-teams/across-devices) sont essentiels à notre approche d'espace de travail moderne. [Des services d'interopérabilité vidéo cloud](./cloud-video-interop.md) pour prendre en charge les réunions Teams avec les systèmes VTC existants sont disponibles par l'intermédiaire de nos partenaires Pexip, Polycom et Blue Jeans.
   - question: La dernière génération des systèmes Skype Room (v2) prendra-t-elle en charge les réunions dans Teams ?
-    answer: Nous avons renommé Skype Room Systems vers Salles Microsoft Teams qui prend entièrement en charge les réunions Microsoft Teams et offre un chemin de migration simple de Skype Entreprise à Teams en activant simplement Teams sur l’appareil. Outre la possibilité pour les utilisateurs d’identifier les Salles Microsoft Teams à proximité avec la détection de proximité, les réunions Teams peuvent être jointes en un seul clic, prise en charge à double écran, Microsoft Whiteboard et nous continuons à apporter des fonctionnalités innovantes telles qu’une caméra de contenu avec capture intelligente.
+    answer: Nous avons renommé Skype Room Systems vers Salles Microsoft Teams qui prend entièrement en charge les réunions Microsoft Teams et offre un chemin de migration simple de Skype Entreprise à Teams en activant simplement Teams sur l’appareil. Outre la possibilité pour les utilisateurs d’identifier les Salles Microsoft Teams à proximité avec la détection de proximité, les réunions Teams peuvent être rejointes par un simple clic, une prise en charge à double écran, des Microsoft Whiteboard et nous continuons à apporter des fonctionnalités innovantes telles qu’une caméra de contenu avec capture intelligente.

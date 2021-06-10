@@ -14,7 +14,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations sur les utilisateurs invités dans le portail Azure Active Directory.
+description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations sur les utilisateurs invités dans le Azure Active Directory’administration.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -29,11 +29,11 @@ ms.locfileid: "49734262"
 ---
 # <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
 
-Vous pouvez modifier les informations des invités à partir du Centre d’administration Microsoft 365 ou du portail Azure Active Directory.
+Vous pouvez modifier les informations sur les invités à partir Microsoft 365 centre d’administration ou le portail Azure Active Directory’accueil.
 
-## <a name="guest-users-in-the-microsoft-365-admin"></a>Utilisateurs invités dans l’administrateur Microsoft 365
+## <a name="guest-users-in-the-microsoft-365-admin"></a>Utilisateurs invités dans le groupe Microsoft 365 administrateur
 
-1. Pour modifier les informations sur les invités dans le [Centre d’administration Microsoft 365,](https://admin.microsoft.com)sélectionnez **Utilisateurs**  >  **invités.**
+1. Pour modifier les informations d’invité dans le centre [Microsoft 365 d’administration,](https://admin.microsoft.com)sélectionnez **Utilisateurs**  >  **invités.**
 
    ![Informations sur l’utilisateur invité en cours de modification](media/access-guest-user.png)
 
@@ -47,4 +47,4 @@ Vous pouvez modifier les informations des invités à partir du Centre d’admin
 
    ![Modifier les informations de contact de l’utilisateur invité](media/manage-guest-contact.png)
 
-Vous pouvez également modifier l’utilisateur invité à partir du [portail Azure Active Directory.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)
+Vous pouvez également modifier l’utilisateur invité à partir du [Azure Active Directory’équipe.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)

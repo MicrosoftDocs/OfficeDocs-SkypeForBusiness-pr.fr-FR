@@ -1,5 +1,5 @@
 ---
-title: Langues prise en charge par la file d’attente d’appels Microsoft Teams
+title: Microsoft Teams des langues prise en charge par la file d’attente d’appels
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Langues prise en charge par la file d’attente d’appels Microsoft Teams
+description: Microsoft Teams des langues prise en charge par la file d’attente d’appels
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197060"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Langues prise en charge par la file d’attente d’appels Microsoft Teams
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams des langues prise en charge par la file d’attente d’appels
 
 La file d’attente d’appels prend en charge les langues suivantes pour la reconnaissance vocale :
 

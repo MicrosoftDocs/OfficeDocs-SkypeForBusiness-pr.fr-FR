@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Australie.
+description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour l’Australie.
 ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118423"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Australie.
+Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour l’Australie.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -78,7 +78,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 |APAC     |Bangladesh, Bhoutan, Brunei, Cambodge, Hong Kong, Indonésie, Laos, Macao, Malaisie, Maldives, Myanmar, Népal, Philippines, Singapour, Sri Lanka, Thaïlande, Myanmar-Leste, Vietnam|
 |EMEA    |Îles d’Åland, Andorre, Autriche Belgique, Île de Bouland, Bulgarie, Croatie, Chypre, République tchèque, Danemark, Estonie, Féroé (îles), Finlande, France, Allemagne, Gibraltar, Grèce, Groenland, Guernsey, Hongrie, Islande, Irlande, Île de Man, Italie, Jan Mayen, Jersey, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Monaco, Pays-Bas, Norvège, Pologne, Portugal, Roumanie, Saint-Marin, Slovaquie, Slovénie, Espagne, Svalbard, Suède, Suisse, Royaume-Uni, Royaume-Uni, Vatican  |
 
-Notez que la fonction d’appel Telstra s’affiche sous la mesure d’une module add-on uniquement pour les utilisateurs situés en Australie et dans les pays et régions répertoriés ci-dessus, une fois mis en service par Telstra. Pour les utilisateurs d’autres régions, ils continueront à joindre des plans d’appel Microsoft ou un routage direct, le cas échéant. Pour plus d’informations, [voir Telstra Calling.](https://aka.ms/TelstraVoicePlan)
+Notez que la fonction d’appel Telstra s’affiche sous la mesure d’une sous-offre uniquement pour les utilisateurs situés en Australie et dans les pays et régions répertoriés ci-dessus, une fois mis en service par Telstra. Pour les utilisateurs d’autres régions, ils continueront à joindre des plans d’appel Microsoft ou un routage direct, le cas échéant. Pour plus d’informations, [voir Telstra Calling.](https://aka.ms/TelstraVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
@@ -98,7 +98,7 @@ Si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour 
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

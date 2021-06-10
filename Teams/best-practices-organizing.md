@@ -72,4 +72,4 @@ Les propriétaires d’équipe peuvent activer la modération dans un canal afin
 ## <a name="related-topics"></a>Sujets associés
 
 - [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
-- [Limites et spécifications de Microsoft Teams](limits-specifications-teams.md)
+- [Limites et spécifications de Microsoft Teams](limits-specifications-teams.md)

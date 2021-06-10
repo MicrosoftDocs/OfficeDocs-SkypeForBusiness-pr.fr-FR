@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour Availablea.
+description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pour <0>Dessaisais.
 ms.openlocfilehash: 2eb93f5f33620d5c1102485bd447df4d044a0d90
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51118183"
 ---
-# <a name="availability-in-dominica"></a>Disponibilité dans Ile-de-France
+# <a name="availability-in-dominica"></a>Disponibilité dans Servicea
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pourThsa.
+Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams services disponibles pour <0>Dessaisais.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -84,7 +84,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

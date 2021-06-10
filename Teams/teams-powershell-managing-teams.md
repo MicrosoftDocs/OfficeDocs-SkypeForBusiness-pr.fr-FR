@@ -58,7 +58,7 @@ Une stratégie est un groupe de paramètres qui peuvent être appliqués de faç
    - Pour modifier la stratégie qui sera par défaut affectée aux utilisateurs de votre organisation pour qui une stratégie personnalisée n’est pas attribuée, ``Set-Cs<PolicyName> -Identity Global`` exécutez.
 
 - **Commandes** REMOVE (par exemple) : supprime une stratégie personnalisée créée ``Remove-CsTeamsMeetingPolicy`` dans votre client. Si vous supprimez une stratégie personnalisée affectée à au moins un utilisateur de votre organisation, cet utilisateur revenira à la stratégie globale.
-   - Vous ne pouvez pas vraiment supprimer la stratégie globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft pour la stratégie globale de votre organisation, ``Remove-Cs<PolicyName> -Identity Global`` exécutez.
+   - Vous ne pouvez pas vraiment supprimer la stratégie globale de votre organisation, mais si vous voulez rétablir les paramètres par défaut fournis par Microsoft dans votre organisation, ``Remove-Cs<PolicyName> -Identity Global`` exécutez.
 
 - **Commande GRANT** (par exemple, ``Grant-CsTeamsMeetingPolicy`` ) : affecte une stratégie à un utilisateur particulier.
    - Pour supprimer une affectation de stratégie personnalisée et faire en sorte que l’utilisateur revenir à la stratégie par défaut dans votre organisation, ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` exécutez.
@@ -83,9 +83,9 @@ Les configurations sont des compartiments de paramètres conservés dans le serv
 
 ## <a name="what-can-each-admin-role-do"></a>Que peuvent faire chaque rôle d’administrateur ?
 
-Lisez [Utiliser Microsoft Teams rôles d’administrateur](using-admin-roles.md) pour gérer Teams pour comprendre quels rôles d’administrateur peuvent exécuter chaque cmdlet PowerShell.
+Lisez [Utiliser Microsoft Teams rôles](using-admin-roles.md) d’administrateur pour gérer Teams pour comprendre quels rôles d’administrateur peuvent exécuter chaque cmdlet PowerShell.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Installation Teams PowerShell](teams-powershell-install.md)
 

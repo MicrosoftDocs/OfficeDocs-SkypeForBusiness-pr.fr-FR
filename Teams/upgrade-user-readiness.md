@@ -45,7 +45,7 @@ Un plan de préparation des utilisateurs optimal incorpore la manière dont vous
 
 | | |
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption de la nouvelle solution par les utilisateurs ?</li><li>Disposez-vous des ressources de sensibilisation, de formation et de support appropriées qui s’alignent sur la capacité de vos utilisateurs à gérer le changement et le personnage que vous avez défini ?</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption de la nouvelle solution par les utilisateurs ?</li><li>Disposez-vous des ressources de sensibilisation, de formation et de support appropriées qui s’alignent sur la capacité de vos utilisateurs à gérer les changements et le personnage que vous avez défini ?</li></ul> |
 | ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées pour votre plan de préparation. Sélectionnez les activités les plus pertinentes, ou ajoutez les vôtres, pour concevoir un plan de préparation optimisé pour votre organisation. Pensez à utiliser une combinaison de campagnes à grande portée (pour l’ensemble de votre organisation) et ciblées (pour des retards ou des personnage spécifiques) pour un résultat maximal.</li></ul>|
 
 <div class="mx-tableFixed">

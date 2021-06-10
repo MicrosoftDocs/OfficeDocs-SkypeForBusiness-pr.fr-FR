@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment améliorer la sensibilisation et mettre en œuvre un programme de formation pour l’adoption de Microsoft Teams.
+description: Découvrez comment faire connaître et implémenter un programme de formation pour Microsoft Teams’adoption.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,7 +30,7 @@ ms.locfileid: "49834154"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
-Les sensibilisations et la formation sont le segment marketing et de communication de votre stratégie d’adoption globale. Ainsi, vos employés sont conscients des nouvelles fonctionnalités de Microsoft Teams et de ses services et applications Microsoft 365 ou Office 365 sous-jacents.
+Les sensibilisations et la formation sont le segment marketing et de communication de votre stratégie d’adoption globale. Vos employés sont ainsi informés des nouvelles fonctionnalités de Microsoft Teams et de leurs applications et services Microsoft 365 ou Office 365 sous-jacents.
    
 Pour vos pilotes initiaux et votre déploiement à l’échelle de l’entreprise, vos communications internes doivent être prioritaires. Ils doivent inclure les suivants :
 
@@ -43,13 +43,13 @@ Vos phases pilotes doivent respecter des étapes minimum :
 - Mettez à disposition des documents d'auto-assistance, notamment des vidéos sur le produit.
 - Organisez une réunion de lancement avec les utilisateurs pilotes pour les motiver. L’importance de créer une communauté avec un intérêt ne peut pas être surévaluée.
 
-Une fois que vous avez travaillé au cours de la phase pilote initiale, vous pouvez développer les efforts ci-dessus pour atteindre l’ensemble de votre organisation. En fonction de votre taille, cette approche peut prendre du temps et s’aborder par région, profil utilisateur ou organisation. Pendant ce déploiement à grande échelle, encouragez la participation des communicateurs au sein de votre organisation. Nous recommandons à ces personnes d’être impliquées de façon anticipée et souvent lorsque vous utilisez les documents d’adoption disponibles ou créez vos propres documents.
+Une fois que vous avez travaillé tout au long de la phase pilote initiale, vous pouvez développer les efforts ci-dessus pour atteindre l’ensemble de votre organisation. Selon votre taille, cette approche peut prendre du temps et s’aborder par région, profil utilisateur ou organisation. Pendant ce déploiement à grande échelle, encouragez la participation des communicateurs au sein de votre organisation. Nous recommandons à ces personnes d’être impliquées de façon anticipée et souvent lorsque vous utilisez les documents d’adoption disponibles ou créez vos propres documents.
 
-Si votre entreprise dispose d’un portail intranet central pour les actualités, les informations ou le support, vous pouvez l’utiliser comme hub pour obtenir des informations sur ce déploiement. La fourniture d’informations, de formations et de conseils écrits largement disponibles permet aux utilisateurs d’être rapidement intégrés. De nombreux utilisateurs se lancerons tout simplement une fois Teams disponible et nous encourageons cela. Nous savons également que chaque individu apprend de différentes façons ; Un portail d’informations central peut prendre en charge tous les styles d’apprentissage au sein de votre organisation.
+Si votre entreprise dispose d’un portail intranet central pour les actualités, les informations ou le support, vous pouvez l’utiliser comme hub pour obtenir des informations sur ce déploiement. La fourniture d’informations, de formations et de conseils écrits à grande échelle permet aux utilisateurs d’être rapidement intégrés. De nombreux utilisateurs passeront simplement à l’Teams dès que celle-ci sera disponible et nous encourageons cela. Nous savons également que chaque individu apprend de différentes façons ; Un portail d’informations central peut prendre en charge tous les styles d’apprentissage au sein de votre organisation.
 
 ## <a name="implement-end-user-training"></a>Mettre en œuvre la formation des utilisateurs finux
 
-Utilisez nos ressources pour fournir des formations aux utilisateurs finaux au début de l’utilisation de Microsoft Teams et d’autres services Microsoft 365 ou Office 365. Visitez les pages de nos ressources pour en savoir plus :
+Utilisez nos ressources pour fournir des formations aux utilisateurs finaux lorsque les utilisateurs commencent à Microsoft Teams et d’autres services Microsoft 365 ou Office 365'utilisateur. Visitez les pages de nos ressources pour en savoir plus :
 
 - [Formation pour les utilisateurs finux dirigée par un instructeur pour Teams](instructor-led-training-teams-landing-page.yml)
 - [Formation pour les administrateurs pour Teams](itadmin-readiness.md)
@@ -67,8 +67,8 @@ Comme pour toute campagne d’adoption et de communication, vous voudrez identif
 - Vues de vos vidéos de formation
 - Assistance aux sessions de formation
 
-Partagez les idées que vous obtenez de vos canaux de commentaires avec le hashtag #TeamsStories pour faciliter l’extraction. Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement. Partagez-les également avec nous dans notre forum Adoption de la conduite sur la communauté technique Microsoft. Le partage de ces exemples réels au sein de votre propre entreprise est extrêmement précieux pour réaliser un changement durable au fil du temps avec la communauté des utilisateurs.
+Partagez les idées que vous obtenez de vos canaux de commentaires avec le hashtag #TeamsStories pour faciliter l’extraction. Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement. Partagez-les également avec nous dans notre forum Adoption de la conduite sur le site du groupe Community Microsoft. Le partage de ces exemples réels au sein de votre propre entreprise est extrêmement précieux pour réaliser un changement durable au fil du temps avec la communauté des utilisateurs.
 
-[En savoir plus sur les rapports d’utilisation de Microsoft Teams dans le Centre d’administration Microsoft 365.](teams-activity-reports.md)
+[En savoir plus sur les Microsoft Teams d’utilisation dans le Centre Microsoft 365'administration.](teams-activity-reports.md)
 
 ![Icône illustrant les étapes suivantes : ](media/teams-adoption-next-icon.png) planifier [des révisions d’état du service](teams-adoption-schedule-service-health-reviews.md)

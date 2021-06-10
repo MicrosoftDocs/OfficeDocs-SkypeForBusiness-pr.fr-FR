@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: En savoir plus sur la période d’appel sortant complémentaire pour le plan d’appel Microsoft 365 ou Office 365 et l’audioconférence Office 365 dans Microsoft Teams.
+description: Découvrez la période d’appel sortant complémentaire pour un plan d’appels Microsoft 365 ou Office 365 et la Office 365 d’audioconférence dans Microsoft Teams.
 ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
 ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ms.locfileid: "49918880"
 
 ## <a name="skype-for-business-pstn-services"></a>Services RTC Skype Entreprise
 
-Les clients peuvent utiliser Microsoft 365 ou l’offre d’appels Office 365 et l’audioconférence Office 365 selon les autorisations des conditions d’utilisation des services PSTN de Skype Entreprise Online et du contrat de licence en volume du client. Les conditions d’utilisation des services PSTN se trouvent dans les [Conditions de licence et la Documentation.](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)
+Les clients peuvent utiliser Microsoft 365 ou Office 365 Calling Plan et l’Audioconférence Office 365 selon les autorisations des conditions d’utilisation des services PSTN d’Skype Entreprise Online et du contrat de licence en volume du client. Les termes d’utilisation des services RTC peuvent être trouvés dans [Conditions de licence et documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Fin d’une période d’appel sortant complémentaire
 
@@ -42,9 +42,9 @@ La fonctionnalité complémentaire d’appel sortant a pris fin le 1er décembre
 
 Cette modification n’a pas eu lieu pour les pays où l’abonnement Audioconférence est disponible, mais nous n’avons pas activé la configuration des crédits de communication pour le moment. Ces pays spécifiques sont la Russie, la Corée du Sud et Taïwan.
 
-### <a name="complimentary-dial-out-period-details"></a>Détails complémentaires de la période d’appel sortant
+### <a name="complimentary-dial-out-period-details"></a>Détails de période d’appel sortant complémentaires
 
-Pour les clients qui adoptent notre service d’audioconférence Microsoft 365 ou Office 365, Microsoft fournit un autre avantage complémentaire lié à l’appel sortant de réunions organisées par des utilisateurs à qui une licence d’abonnement à l’audioconférence Microsoft 365 ou Office 365 est attribuée jusqu’en novembre 2019. Pendant cette période complémentaire, Microsoft autorise les organisateurs de réunion ou les participants autorisés, tels que définis dans les paramètres de stratégie de réunion, à effectuer des appels sortants depuis la réunion vers des numéros de téléphone non premium dans les pays et régions de la zone 44 [Zone A.](audio-conferencing-zones.md) Cet avantage s’applique aux licences d’abonnement mensuel à l’audioconférence et ne s’applique pas aux licences de paiement à la minute d’Audioconférence.
+Pour les clients qui adoptent notre service d’audioconférence Microsoft 365 ou Office 365, Microsoft fournit un autre avantage complémentaire lié à l’appel sortant de réunions organisées par des utilisateurs 2019 à qui une licence d’abonnement Microsoft 365 ou audioconférence Office 365 est attribuée jusqu’en novembre 2019. Pendant cette période complémentaire, Microsoft autorise les organisateurs de réunion ou les participants autorisés, tels que définis dans les paramètres de stratégie de réunion, à effectuer des appels sortants depuis la réunion vers des numéros de téléphone non premium dans les pays et régions de la zone 44 [Zone A.](audio-conferencing-zones.md) Cet avantage s’applique aux licences d’abonnement mensuel à l’audioconférence et ne s’applique pas aux licences de paiement à la minute d’Audioconférence.
 
 Il existe en outre une limite de 900 minutes pendant la période d’appel sortant complémentaire comme telles :
 
@@ -54,18 +54,18 @@ Les utilisateurs avec un emplacement d’utilisation des licences (l’emplaceme
 
 - Tous les appels supérieurs à 103 500 minutes par mois calendaire sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination. (Remarque : le client doit configurer les crédits de communication et affecter la licence Crédits de communication à l’organisateur de la réunion).
 
-- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination (à condition que le client ait installé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
+- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication à nos tarifs publiés vers cette destination (à condition que le client ait installé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
 
 > [!NOTE]
-> Vous pouvez surveiller l’utilisation du pool de minutes d’appels sortants dans le Centre d’administration Skype Entreprise. Dans le Centre d'& Skype de Microsoft Teams, allez aux pools de minutes  >    >  **PSTN** Rapports du portail hérité. Ce pool de minutes complémentaire sera étiqueté dans le rapport comme « Appels sortants vers les pays et régions de la zone A ».
+> Vous pouvez surveiller l’utilisation du pool de minutes d’appels sortants dans le Skype Entreprise d’administration. Dans le centre Microsoft Teams & Skype d’administration, allez aux pools de minutes   >    >  **PSTN** Rapports du portail hérité. Ce pool de minutes complémentaire sera étiqueté dans le rapport comme « Appels sortants vers les pays et régions de la zone A ».
 
 Les notifications par courrier électronique seront envoyées à tous les administrateurs client d’un client donné lorsque l’utilisation du pool de minutes d’appels sortants du client atteint les 80 % et 100 %.
 
-Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays ou la région de l’organisateur ou du participant à l’origine de l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé avec le même tarif si un participant à la réunion est lancé par un participant à la réunion aux États-Unis ou en France.
+Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays ou la région de l’organisateur ou du participant à l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé avec le même tarif si un participant à la réunion est lancé par un participant à la réunion aux États-Unis ou en France.
 
 Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)
      
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Zones de pays et de région pour l’audioconférence](audio-conferencing-zones.md)

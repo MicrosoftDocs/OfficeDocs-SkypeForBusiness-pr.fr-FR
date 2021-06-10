@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Les organisateurs de réunions peuvent découvrir comment appeler à l’aide de l’application Teams pour laisser d’autres personnes participer à la réunion à l’aide de leur téléphone.
+description: Les organisateurs de la réunion peuvent découvrir comment appeler à l’aide de l Teams de messagerie pour que d’autres personnes participent à la réunion à l’aide de leur téléphone.
 ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,13 +31,13 @@ ms.locfileid: "51119283"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
-En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de l’application Teams pour laisser d’autres personnes participer à la réunion à l’aide de leur téléphone.
+En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de Teams pour que d’autres personnes participent à la réunion à l’aide de leur téléphone.
 
 Lorsque vous dial out to someone, we recommend you do so using their full phone numbers (including the country/region code - E.164 format).
   
   Notez que :
 
-- Vous ne pouvez appeler un appel sortant que si vous participez à une réunion en utilisant Teams.
+- Vous ne pouvez appeler l’appel sortant que si vous participez à une réunion à l’aide Teams.
 - L’organisateur de la réunion a été activé pour l’audioconférence OU, dans le cas où aucune licence d’audioconférence n’est attribuée, est autorisé à passer des appels vers le réseau téléphonique commuté public via des plans d’appel en ligne ou un routage direct.
 - L’organisateur de la réunion se vu accorder une stratégie d’appel sortant en ligne qui autorise l’appel sortant [des conférences](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
@@ -57,7 +57,7 @@ La mise en conférence n'est disponible que vers certains pays ou certaines rég
 
 ## <a name="allow-users-to-dial-in"></a>Autoriser les utilisateurs à composer le numéro
 
-Si vous recherchez des instructions sur la manière de laisser vos utilisateurs se composer pour se rendre à une réunion Teams, veuillez consulter les numéros de téléphone pour l’audioconférence [dans Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
+Si vous recherchez des instructions sur la manière de laisser vos utilisateurs se composer pour se rendre à une réunion Teams, veuillez consulter les numéros Téléphone de l’audioconférence dans [Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur l’audioconférence ?
 

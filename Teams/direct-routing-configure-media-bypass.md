@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment configurer la dérivation média avec le routage direct du système téléphonique pour Microsoft Teams en changeant tous les utilisateurs en une fois ou en implémentant une approche progressive (recommandé).
+description: Découvrez comment configurer la dérivation média avec Système téléphonique routage direct pour Microsoft Teams en changeant tous les utilisateurs en une fois ou en implémentant une approche progressive (recommandé).
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
 ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
@@ -30,7 +30,7 @@ Avant de configurer la dérivation média avec le routage direct, veillez à lir
 
 Pour activer la dérivation média, les conditions suivantes doivent être remplies :
 
-1.    Assurez-vous que le fournisseur de votre choix de contrôleur de session en bordure (SBC) prend en charge la dérivation média et fournit des instructions sur la configuration de la dérivation sur le SBC. Reportez-vous à la page de certification pour en savoir plus sur les SBCs, lesquels supportent la dérivation média, et pour obtenir des instructions.
+1.    Assurez-vous que le fournisseur de votre choix de contrôleur de session border Controller (SBC) prend en charge la dérivation média et fournit des instructions sur la configuration de la dérivation sur le SBC. Reportez-vous à la page de certification pour en savoir plus sur les SBCs, lesquels supportent la dérivation média, et pour obtenir des instructions.
 
 2.    Vous devez activer la dérivation média sur la ligne à l’aide de la commande suivante : **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true.**
 

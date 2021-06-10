@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Dans cet article, vous allez découvrir comment effectuer la phase expérimentale de l’adoption de Microsoft Teams.
+description: Dans cet article, vous allez découvrir comment effectuer la phase expérimentale d’Microsoft Teams’adoption.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,7 +30,7 @@ ms.locfileid: "49831214"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Phase 2 de l’adoption de Microsoft Teams - Expérimenter
 
-Votre équipe de projet est à présent excellente et vous avez des informations critiques sur votre organisation, et vous êtes prêt à tester Teams. Nous vous recommandons d’expérimenter 2 à 3 projets réels au sein d’un groupe dirigé par une partie prenante avec laquelle vous avez une relation positive et dans laquelle l’organisation compte un nombre suffisant d’utilisateurs précoces pour fournir des commentaires significatifs. Que votre organisation soit grande ou petite, nous vous recommandons d’effectuer cette phase pour découvrir comment Teams peut améliorer votre collaboration, au-delà de l’utilisation de ses fonctionnalités de conversation et de stockage de fichiers.  
+Votre équipe de projet est à présent très expérimentée et vous avez des informations critiques sur votre organisation, et vous êtes prêt à tester les Teams. Nous vous recommandons d’expérimenter 2 à 3 projets réels au sein d’un groupe dirigé par une partie prenante avec laquelle vous avez une relation positive et dans laquelle l’organisation compte un nombre suffisant d’utilisateurs précoces pour fournir des commentaires significatifs. Que votre organisation soit grande ou petite, nous vous recommandons d’effectuer cette phase pour obtenir des informations sur la manière Teams améliorer votre collaboration, au-delà de l’utilisation de ses fonctionnalités de conversation et de stockage de fichiers.  
 
 Vous devez effectuer les étapes suivantes au cours de cette phase :
 

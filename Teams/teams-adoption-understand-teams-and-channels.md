@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment structurer les équipes et les canaux dans Microsoft Teams et comment utiliser Teams pour la collaboration entre les organisations.
+description: En savoir plus sur la structure des équipes et des canaux Microsoft Teams comment utiliser des Teams pour la collaboration entre les organisations.
 f1.keywords:
 - CSH
 ms.custom:
@@ -36,7 +36,7 @@ Les concepts d’équipes et de canaux sont fondamentaux pour une implémentatio
 
 - Les canaux sont les espaces de collaboration au sein desquels les tâches réelles sont effectuées. 
 
-Pour en savoir plus sur les équipes et les canaux, veuillez consulter la [vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md). Pour recevoir des instructions complètes sur l’adoption de Teams, veuillez consulter le [Guide d’adoption de Teams](https://aka.ms/teamstoolkit). Pour en savoir plus sur Teams et les groupes Microsoft 365, consultez groupes [Microsoft 365](office-365-groups.md) et Microsoft Teams et en savoir plus sur les groupes [Microsoft 365.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Pour en savoir plus sur les équipes et les canaux, veuillez consulter la [vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md). Pour recevoir des instructions complètes sur l’adoption de Teams, veuillez consulter le [Guide d’adoption de Teams](https://aka.ms/teamstoolkit). Pour en savoir plus sur les groupes Teams et Microsoft 365 groupe, voir groupes Microsoft 365 et groupes Microsoft Teams [et](office-365-groups.md) En savoir plus sur [Microsoft 365 groupes.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 |  |  |

@@ -30,13 +30,13 @@ ms.locfileid: "49802514"
 
 Vous trouverez ici des informations supplémentaires sur le portage de vos numéros de téléphone vers Microsoft Teams.
 
-Pour obtenir des instructions détaillées complètes, consultez [Transférer des numéros de téléphone dans Teams.](transfer-phone-numbers-to-teams.md)
+Pour obtenir des instructions détaillées complètes, voir Transférer des numéros [de téléphone vers Teams.](transfer-phone-numbers-to-teams.md)
 
 Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez l’aide [du service PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
 ## <a name="port-order-account-information"></a>Informations sur le compte de demande de transfert
 
-Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte de l’Assistant Demande de portage pour envoyer une demande de port, vous entrez presque toutes les informations que vous fourniriez dans le LOA, notamment :
+Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte de l’Assistant Demande de portage pour envoyer une demande de port, vous entrez presque toutes les informations que vous fourniriez dans la LOA, notamment :
   
 - Numéro de compte de l’opérateur ou du fournisseur de services
     
@@ -52,7 +52,7 @@ Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte d
 - Nom de la personne autorisée à apporter des modifications au compte
     
     > [!NOTE]
-    > Ce qui n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Ce dernier n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Adresse du service
   
@@ -67,7 +67,7 @@ Pour faciliter l’envoi de la demande de port et éviter les erreurs, veillez �
 - Assurez-vous que les informations de compte que vous indiquez correspondent exactement à celles enregistrées par votre opérateur téléphonique. La non-mise en forme des informations est la cause la plus fréquente d’erreurs et peut retarder votre commande de port.
     
 > [!CAUTION]
-> Ne déconnectez pas vos services auprès de votre opérateur ou fournisseur de services. Vous devez conserver votre service précédent actif afin de pouvoir porter vos numéros de téléphone vers Teams. Ne figez pas votre compte auprès de votre opérateur ou fournisseur de services. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. L'utilisateur autorisé doit soumettre une demande à l'opérateur téléphonique actuel pour annuler le gel. Selon l’opérateur, ce processus peut prendre de une à trois semaines.
+> Ne déconnectez pas vos services auprès de votre opérateur ou fournisseur de services. Vous devez conserver votre service précédent actif pour que vos numéros de téléphone Teams. Ne figez pas votre compte auprès de votre opérateur ou fournisseur de services. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. L'utilisateur autorisé doit soumettre une demande à l'opérateur téléphonique actuel pour annuler le gel. Selon l’opérateur, ce processus peut prendre de une à trois semaines.
 
 ## <a name="authorized-person-on-the-account"></a>Personne autorisée sur le compte
 
@@ -82,7 +82,7 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je inclure comme numéro de compte ?
 
-En règle générale, vous trouverez le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou connectez-vous au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
+En règle générale, vous pouvez trouver le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou vous pouvez vous connecter au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
   
 > [!CAUTION]
 >  Il est important de ne pas utiliser d’espaces, de tirets ou de tirets lorsque vous entrez le numéro de compte de votre opérateur ou fournisseur de services.
@@ -101,9 +101,9 @@ L’adresse du service est différente de l’adresse de facturation ou de l’a
 Lorsque vous soumettez une demande de port, vous devez utiliser un fichier CSV correctement formaté pour envoyer vos numéros de téléphone. Voici les conditions requises pour le fichier CSV :
 
  - Vous pouvez donner le nom de votre souhaitez au fichier.
- - Le fichier ne doit avoir qu’une colonne dont l’en-tête est Numéro Phone.
+ - Le fichier ne doit avoir qu’une colonne dont l’en-tête est PhoneNumber.
  - Chaque numéro de téléphone doit se trouver sur une ligne distincte.
- - Les numéros de téléphone peuvent être uniquement des chiffres ou au format E.164.
+ - Téléphone nombres peuvent être uniquement des chiffres ou au format E.164.
  - Le format de numéro de téléphone doit correspondre au pays ou à la région que vous avez sélectionné. Par exemple, si vous choisissez le Royaume-Uni dans l’Assistant De portage, utilisez 44, qui est l’code du pays, suivi du numéro de téléphone avec le nombre de chiffres correct. Par exemple, 4420812341234.
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>Comment voir le statut de ma demande de port ?

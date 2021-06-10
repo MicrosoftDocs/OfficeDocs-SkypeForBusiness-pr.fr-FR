@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Utilisez cette liste de vérification pour assurer la réussite de l’adoption de Microsoft Teams par votre organisation.
+description: Utilisez cette liste de vérification pour assurer le succès de l’adoption par votre organisation des Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -40,7 +40,7 @@ ms.locfileid: "49809314"
 
 - [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)
 - [Créer votre première équipe](teams-adoption-your-first-teams.md)
-- [Êtes-vous prêt pour Teams ?](teams-adoption-assess-readiness.md)
+- [Êtes-vous prêt à Teams ?](teams-adoption-assess-readiness.md)
 - [Rencontrer les parties prenantes](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identifier les premiers utilisateurs](teams-adoption-assess-readiness.md#identify-early-adopters)
 

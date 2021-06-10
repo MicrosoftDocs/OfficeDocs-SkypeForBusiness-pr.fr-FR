@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Prévoyez d’implémenter la connectivité hybride entre Skype Entreprise Server et Teams ou Skype Entreprise Online en configurant Skype Entreprise mode hybride.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4b38e5aa046224572da485a63bd651b705c83011
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7d886016495d194997ebf99361916c9c387e5d1f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308323"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856333"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planifier la connectivité hybride entre Skype Entreprise Server et Teams
 
@@ -54,11 +54,12 @@ Après le retrait de Skype Entreprise Online, toutefois, les organisations hybri
 - Les utilisateurs locaux (Qui peuvent utiliser Teams, mais pas en mode TeamsOnly)
 - Teams Utilisateurs uniquement. 
 
-Pour que les organisations passeront de Skype Entreprise Server ou Lync Server 2013 à Teams, elles doivent quand même configurer l’hybride à l’aide du même ensemble d’outils, exactement comme avant le retrait. Ce qui va changer, c’est que lors du déplacement d’un utilisateur de l’local vers Teams, il ne sera bientôt plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement de l’local vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Actuellement, si ce commutateur n’est pas spécifié, les utilisateurs passent de l’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode reste inchangé. Après le retrait, lors du déplacement d’un utilisateur de l’local vers le cloud avec , les utilisateurs se voit automatiquement attribuer le mode TeamsOnly et leurs réunions à partir de l’local sont automatiquement converties en réunions Teams, comme si , indépendamment du fait que le commutateur soit réellement `Move-CsUser` `-MoveToTeams switch had been specified` spécifié. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `MoveToTeams` commutateur.)  Nous prévoyons de publier cette fonctionnalité (qui ne nécessite aucune mise à jour sur site) avant le retrait réel le 31 juillet 2021.
+Pour que les organisations passeront de Skype Entreprise Server ou Lync Server 2013 à Teams, elles doivent quand même configurer l’hybride à l’aide du même ensemble d’outils, exactement comme avant le retrait. Ce qui a changé, c’est que lors du déplacement d’un utilisateur de l’local vers Teams, il n’est plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement de l’local vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient du mode d’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode était inchangé. En prévision du retrait, lors du déplacement d’un utilisateur de l’local vers le cloud avec , les utilisateurs sont désormais automatiquement affectés au mode TeamsOnly et leurs réunions à partir de l’local sont automatiquement converties en réunions Teams, comme si le commutateur avait été spécifié, que le commutateur soit réellement spécifié `Move-CsUser` `-MoveToTeams` ou non. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `MoveToTeams` commutateur.) 
 
 Les modes de coexistence continueront d’exister après le retrait de Skype Entreprise Online. Comme auparavant, les utilisateurs ayant des comptes Skype Entreprise Server sur site peuvent se voir attribuer n’importe quel mode de coexistence à l’exception de TeamsOnly. Toutefois, après la mise en retrait, les utilisateurs d’accueil en ligne peuvent uniquement être TeamsOnly (contrairement au moment où les utilisateurs Skype Entreprise Online peuvent être n’importe quel mode).  
 
-[!Important] Les organisations hybrides existantes avec des utilisateurs Skype Entreprise Online qui ne sont PAS TeamsOnly doivent se concentrer sur la mise à niveau de ces utilisateurs vers le mode Teams Uniquement dès que possible, mais au plus tard le 31 juillet 2021. Si les utilisateurs de votre organisation sont toujours Skype Entreprise Online qui ne sont pas TeamsOnly, vous pouvez être programmé pour une mise à niveau assistée par Microsoft pour la transition de ces utilisateurs vers TeamsOnly. Cela n’aura aucun impact sur les utilisateurs qui sont Skype Entreprise Server sur site. Les notifications de planification seront envoyées à l’avance aux clients hybrides dont les utilisateurs sont Skype Entreprise Online avant que ces utilisateurs en ligne ne soient mis à niveau vers Teams.
+> [!Important]
+> Les organisations hybrides existantes avec des utilisateurs Skype Entreprise Online qui ne sont PAS TeamsOnly doivent se concentrer sur la mise à niveau de ces utilisateurs vers le mode Teams Uniquement dès que possible, mais au plus tard le 31 juillet 2021. Si les utilisateurs de votre organisation sont toujours Skype Entreprise Online qui ne sont pas TeamsOnly, vous pouvez être programmé pour une mise à niveau assistée par Microsoft pour la transition de ces utilisateurs vers TeamsOnly. Cela n’aura aucun impact sur les utilisateurs qui sont Skype Entreprise Server sur site. Les notifications de planification seront envoyées à l’avance aux clients hybrides dont les utilisateurs sont Skype Entreprise Online avant que ces utilisateurs en ligne ne soient mis à niveau vers Teams.
 
 
 ## <a name="about-shared-sip-address-space-functionality"></a>À propos de la fonctionnalité d’espace d’adressas SIP partagé

@@ -1,5 +1,5 @@
 ---
-title: Coexistence avec Skype Entreprise
+title: Coexistence avec Skype Entreprise
 author: serdarsoysal
 ms.author: serdars
 manager: Serdars
@@ -25,7 +25,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/02/2021
 ms.locfileid: "52718025"
 ---
-# <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
+# <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
 La coexistence et l’interopérabilité entre les clients et utilisateurs Skype Entreprise et Teams sont définies par les modes TeamsUpgrade, décrits dans les recommandations sur la migration et [l’interopérabilité](migration-interop-guidance-for-teams-with-skype.md)pour les organisations qui utilisent Teams avec Skype Entreprise.
 

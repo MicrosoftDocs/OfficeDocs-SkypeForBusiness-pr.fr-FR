@@ -35,7 +35,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
 ## <a name="view-cross-team-analytics"></a>Afficher les analyses entre équipes
 
-1. Dans Teams, en bas de la liste des équipes, à côté de Rejoindre ou créer une **équipe,** cliquez **sur Gérer les équipes.**
+1. Dans Teams, en bas de la liste d’équipes, à côté de Rejoindre ou créer une **équipe,** cliquez **sur Gérer les équipes.**
 2. Cliquez sur **l’onglet** Analyse.
 3. Sélectionnez une plage de dates pour afficher les données d’utilisation de toutes les équipes dont vous êtes membre ou propriétaire.
 
@@ -44,8 +44,8 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
     |Option |Description  |
     |--------|-------------|
     |**Nom**   |Nom de l’équipe. |
-    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance au cours de la période spécifiée.
-    |**Personnes**   |Nombre total de membres de l’équipe pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
+    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance pendant la période spécifiée.
+    |**Personnes**   |Nombre total de membres de l’équipe au cours de la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Invités**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
     |**Billets**   |Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée. |
     |**Réponses**   |Nombre de réponses dans la conversation d’équipe pendant la période spécifiée. |
@@ -53,7 +53,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
 ## <a name="view-per-team-analytics"></a>Afficher les analyses par équipe
 
-1. Dans Teams, allez à l’équipe de votre choix, cliquez sur Autres **options (...)**, puis cliquez sur **Gérer l’équipe.**
+1. Dans Teams, cliquez sur Autres **options (...)** dans l’équipe de votre choix, puis sur **Gérer l’équipe.**
 2. Cliquez sur **l’onglet** Analyse.
 4. Sélectionnez une plage de dates pour afficher les données d’utilisation de l’équipe.  
 
@@ -61,7 +61,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
     |Option |Description  |
     |--------|-------------|
-    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
+    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** Nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
     |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs et inactifs.|
     |**Rôle**   |Nombre d’utilisateurs par rôle, y compris les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Graphique Utilisateurs actifs**  |Nombre d’activités quotidiennes actives. Pointez sur le point sur une date donnée pour voir le nombre d’utilisateurs actifs à cette date.|
@@ -72,7 +72,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
 ## <a name="view-per-channel-analytics"></a>Afficher les données d’analyse par canal
 
-1. Dans Teams, allez sur le canal de votre choix, cliquez sur Autres **options (...)**, puis cliquez sur Gérer **le canal.**
+1. Dans Teams, allez dans le canal de votre choix, cliquez sur Autres **options (...)** et cliquez sur Gérer **le canal.**
 2. Cliquez sur **l’onglet** Analyse.
 3. Sélectionnez une plage de dates pour afficher les données d’utilisation du canal.  
 

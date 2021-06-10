@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Brésil.
+description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams disponibles pour le Brésil.
 ms.openlocfilehash: 0eda45199e7f37f325c5d3958de298a75e20e411
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118313"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Brésil.
+Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams disponibles pour le Brésil.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -87,7 +87,7 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 #### <a name="other-resources"></a>Autres ressources
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

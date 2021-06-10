@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Découvrez comment ajouter et mettre à jour des étiquettes de rapports en chargeant un fichier texte qui contient la liste des emplacements physiques et des sous-réseaux associés.
+description: Découvrez comment ajouter et mettre à jour des étiquettes de rapports en chargeant un fichier texte contenant la liste des emplacements physiques et des sous-réseaux associés.
 f1.keywords:
 - CSH
 ms.custom:
@@ -35,16 +35,16 @@ ms.locfileid: "50237484"
 Les étiquettes de rapports sont utilisées dans votre organisation pour indiquer les emplacements physiques des bureaux, bâtiments ou sites organisationnels. La page Étiquettes de rapports du Centre d’administration Microsoft Teams vous permet de fournir un fichier texte (.csv ou .tsv) contenant la liste des emplacements physiques et les sous-réseaux réseau associés. Ce fichier est utilisé par Call Analytics pour générer des rapports. Lorsque vous chargez votre mappage de sous-réseau, les rapports fournis par ces services contiennent également le nom des emplacements, ce qui facilite la compréhension et l’utilisation des rapports afin de corriger les problèmes potentiels.
 
 > [!IMPORTANT]
-> Les étiquettes de rapports que vous téléchargez sont traitées comme données de *support* dans  le cadre de votre contrat pour Office 365, y compris les informations qui seraient autrement considérées comme des données client ou *des données personnelles.* N’incluez pas de données que vous ne souhaitez pas fournir à Microsoft en tant que données de *support,* car ces informations seront visibles par les ingénieurs Microsoft à des fins de support.
+> Les étiquettes de rapports que vous téléchargez sont traitées comme données de *support* dans le cadre de votre contrat concernant Office 365, y compris les informations qui seraient autrement considérées comme des données client ou *des données personnelles.*  N’incluez pas de données que vous ne souhaitez pas fournir à Microsoft en tant que données de *support,* car ces informations seront visibles par les ingénieurs Microsoft à des fins de support.
 
 Les étiquettes et les données de localisation des rapports que vous fournissez sont une structure de données unique ; il n’existe actuellement aucune interface disponible pour apporter des modifications individuelles aux données.
 
 **Pour modifier le tableau des sous-réseaux et des emplacements**
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Étiquettes**  >  **de rapports d’emplacements.**
-2. Cliquez **sur Télécharger les données.**
-3. Dans le **volet Charger des** données, cliquez sur Sélectionner un fichier, puis recherchez et chargez votre fichier .csv ou .tsv modifié. 
-4. Cliquez **sur Charger.**
+1. Dans le navigation gauche du Centre Microsoft Teams d’administration, cliquez sur **Étiquettes**  >  **de rapport d’emplacements.**
+2. Cliquez **Télécharger données.**
+3. Dans le **Télécharger données,** cliquez sur Sélectionner un **fichier,** puis recherchez et chargez votre fichier .csv ou .tsv.
+4. Cliquez **Télécharger**.
 
 Vous pouvez télécharger un exemple de modèle [ici.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
 
@@ -53,7 +53,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 > [!IMPORTANT]
 > Votre fichier de données ne doit pas contenir d’en-têtes de colonne (par exemple, Réseau, Nom du réseau, etc.). Ceux-ci sont utilisés ici uniquement à des fins d’information. <br>
 
-|Réseau|Nom du réseau|Plage réseau|Nom du bâtiment|Type de propriété|Type de bâtiment|Building Office Type|Ville|Code postal|Pays|État|Région|Inside Corp|Express Route|
+|Réseau|Nom du réseau|Plage réseau|Nom du bâtiment|Type de propriété|Type de bâtiment|Type Office création|Ville|Code postal|Pays|État|Région|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|États-Unis|CA|États-Unis|1|1|
 |10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|États-Unis|CA|États-Unis|1|1|
@@ -62,7 +62,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir Format de fichier de données client et [Structure du fichier de données du bâtiment.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 

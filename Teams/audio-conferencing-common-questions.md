@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Voici quelques-unes des principales questions que nous posent nos clients qui souhaitent utiliser l’audioconférence.
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282744"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856413"
 ---
 # <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l’audioconférence
 
@@ -73,7 +73,7 @@ Pour obtenir la liste actuelle des pays/régions, consultez les numéros Télép
 
 Si les numéros de téléphone pour l’audioconférence ne sont pas disponibles dans votre région ou ne répondent pas aux besoins de votre organisation, envoyez-nous vos commentaires sur les [forums SkypeFeedback.](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing)
   
-## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Quelle est la durée maximale des réunions audioconférences ?
+## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Quelle est la durée maximale des réunions d’audioconférence ?
 
 La durée maximale dépend des participants à la réunion et du type d'authentification utilisé pour participer à la réunion.
   
@@ -95,7 +95,7 @@ Nous avons ajouté une nouvelle fonctionnalité [](https://support.office.com/ar
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>L’audioconférence peut-elle être utilisée par les utilisateurs qui font partie d’un déploiement local d’Skype Entreprise Server ?
 
-Les [réunions vous viennent en](meetings-first.md)premier Skype Entreprise Server utilisateurs peuvent tirer parti Teams réunions et de l Teams audioconférence. 
+Les [réunions vous viennent en](meetings-first.md)premier Skype Entreprise Server utilisateurs peuvent tirer parti de Teams réunions et de Teams audioconférence. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Un utilisateur peut-il obtenir un ID de conférence personnel ?
 
@@ -129,12 +129,21 @@ Nous travaillons à une solution qui permettra à l’utilisateur d’accéder �
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Quelles sont les commandes du clavier numérique prises en charge ?
 
-- 6 (activation/désactivation du micro)
-    
-- *1 (Lit les descriptions des commandes du pavé de numérotation disponibles) 
+Pour les participants et les organisateurs de la réunion :
 
-- *2, *21, *22 (notifications d’entrée et de salle d’accueil)
-    
+| Nom de la commande | Touches de commande | Description                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| Menu de commande | \*1          | Appuyez sur 1 pour lire les descriptions des commandes du pavé \* de numérotation disponibles. |
+| Activer/désactiver le son  | \*6          | Appuyez sur 6 pour activer ou désactiver \* le son.                         |
+
+Pour les organisateurs de réunion uniquement :
+
+| Nom de la commande                   | Touches de commande | Description                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| Admettre tout                      | \*21         | Appuyez \* sur 21 pour admettre tous les participants qui patientent dans la salle d’attente.  |
+| Désactiver le son de tous                       | \*22         | Appuyez \* sur 21 pour désactiver le son de tous les participants (à l’exception de l’organisateur). |
+| Toggle Enter/Exit Announcement | \*23         | Appuyez \* sur 23 pour activer ou désactiver l’annonce d’entrée/sortie.    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Les participants peuvent-ils appeler des numéros internationaux lorsqu’ils sont en réunion Skype Entreprise ou Microsoft Teams réunion ?
 
 Oui, les participants peuvent appeler à l’international et inviter d’autres appelants à se Skype Entreprise ou Microsoft Teams réunion. Consultez [Appeler depuis](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) une réunion Microsoft Teams pour que d’autres personnes la rejoignent ou appeler à partir d’une réunion en ligne Skype Entreprise pour que d’autres personnes la [rejoignent.](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
@@ -149,8 +158,8 @@ La planification d’une réunion qui sera rejointe par tous les participants à
 
 - **Option #1**: par défaut, si l’organisateur de la réunion et tous les participants participent à une réunion à l’aide d’un téléphone, l’organisateur de la réunion doit entrer son code confidentiel pour démarrer l’audioconférence. Les appelants sont invités à s’authentifier en tant qu’organisateur d’une réunion donnée lorsqu’ils composent le numéro de téléphone d’une réunion en ligne. Tous les participants qui rejoignent la réunion par numérotation avant le début de l’organisateur sont placés dans la salle d’attente et écoutent de la musique en attente. Pour Skype Entreprise réunions, une fois que l’organisateur l’a commencée en joignant son code confidentiel pour l’audioconférence, tous les participants dans la salle d’accueil rejoignent automatiquement la réunion. Pour Microsoft Teams réunions, les participants rejoindront la réunion en fonction de la valeur du paramètre d’accès automatique à la réunion de l’organisateur.
 
-- **Option #2**: le paramètre « Autoriser les appelants non authentifiés à être les premiers utilisateurs d’une réunion » est désactivé par défaut. Si le paramètre est activé pour un organisateur donné, toutes les réunions programmées par cet organisateur peuvent commencer avant que l’organisateur n’entre le code confidentiel de l’audioconférence. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant le rejoint par un numéro de téléphone à composer et le premier participant n’est pas placé dans la salle d’salle d’salle. Pour plus d’informations, voir Gérer les [paramètres](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) d’audioconférence d’un utilisateur dans Microsoft Teams ou Gérer les paramètres d’audioconférence pour un utilisateur dans [Skype Entreprise Online.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
-   
+- **Option #2**: le paramètre « Autoriser les appelants non authentifiés à être les premiers utilisateurs d’une réunion » est désactivé par défaut. Si le paramètre est activé pour un organisateur donné, toutes les réunions programmées par l’organisateur peuvent alors commencer avant que l’organisateur n’entre le code confidentiel de l’audioconférence. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant le rejoint par un numéro de téléphone à composer et le premier participant n’est pas placé dans la salle d’salle d’salle. Pour plus d’informations, voir Gérer les [paramètres](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) d’audioconférence d’un utilisateur dans Microsoft Teams ou Gérer les paramètres d’audioconférence pour un utilisateur dans [Skype Entreprise Online.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+  
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)

@@ -16,18 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
-ms.translationtype: HT
+ms.openlocfilehash: 5f7c4e9a827aad18593ee530272bedc8595bc9db
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739282"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856083"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 
 Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, l’utilisateur qui crée une équipe se voit attribuer le statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer des capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Microsoft 365 existant, les autorisations sont héritées.
 
@@ -43,9 +39,9 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 |          **Ajouter un canal standard**          |    Oui     |    Oui<sup>2</sup>|
 | **Modifier le nom/la description d’un canal standard** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal standard**         |    Oui     |    Oui<sup>2</sup>|
-|          **_Ajouter un canal privé_*          |    Oui     |    Oui<sup>2</sup>|
-| **_Modifier le nom/la description d’un canal privé_* |    Non     |    S/O|
-|        **_Supprimer un canal privé_*         |    Oui     |    Non|
+|          ***Ajouter un canal privé**          |    Oui     |    Oui<sup>2</sup>|
+| ***Modifier le nom/la description d’un canal privé** |    Non     |    N/A|
+|        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
 |           **Ajouter des applications**            |    Oui     |    Oui<sup>2</sup>|
@@ -76,9 +72,3 @@ Pour attribuer un rôle d’utilisateur, dans Teams, sélectionnez le nom de l�
 ## <a name="permissions-to-create-teams"></a>Autorisations pour créer une équipe
 
 Par défaut, tous les utilisateurs avec une boîte aux lettres dans Exchange Online disposent des autorisations nécessaires pour créer des groupes Microsoft 365 et par conséquent une équipe dans Microsoft Teams. Vous pouvez avoir un contrôle plus étroit et limiter la création d’équipes et par conséquent la création de nouveaux groupes Microsoft 365 en déléguant la gestion des droits et la création de groupes à un ensemble d’utilisateurs. Si vous souhaitez en savoir plus, consultez l’article[Gérer qui peut créer des Groupes Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
-
-
-|Icône|Titre|Description|
-|---------|---------|---------|
-| ![Icône montrant les points de décision](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Point de décision         |Les utilisateurs Microsoft Teams pourront-ils créer des équipes (recommandé) ?         |
-| ![Icône montrant les étapes suivantes](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Étapes suivantes         |Modifiez les autorisations par défaut des utilisateurs autorisés à créer des groupes Microsoft 365 si vous devez limiter les autorisations de création d’équipes.         |

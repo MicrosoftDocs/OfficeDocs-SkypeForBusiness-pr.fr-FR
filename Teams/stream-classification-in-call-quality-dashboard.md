@@ -29,11 +29,11 @@ ms.locfileid: "49909038"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels
 
-Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide de Microsoft Teams et des services Skype Entreprise. Cette rubrique fournit des informations détaillées sur la classification de la qualité des flux multimédias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir [Configurer le tableau de bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
+Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide des services Microsoft Teams et Skype Entreprise’appels. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir Configurer le tableau de [bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 
-Les flux du même nom sont classés comme _bons,_ médiocres ou _non_ classés selon les valeurs des mesures de qualité clés disponibles. Les mesures et conditions utilisées pour classifier le flux sont présentées dans les tableaux qui suivent. Les dimensions « Poor Due To » du CQD peuvent être utilisées pour comprendre quelle mesure est responsable d’une _classification_ médiocre. Pour plus d’informations sur ces dimensions, voir Dimensions et mesures disponibles dans le [tableau de bord de qualité des appels.](dimensions-and-measures-available-in-call-quality-dashboard.md)
+Flux du même nom sont classés comme _Bons,_ Médiocres ou _Non classés_ selon les valeurs des mesures clés de qualité disponibles. Les mesures et conditions utilisées pour classifier le flux sont présentées dans les tableaux qui suivent. Les dimensions « Poor Due To » du CQD peuvent être utilisées pour comprendre quelle mesure est responsable d’une _classification_ médiocre. Pour plus d’informations sur ces dimensions, voir Dimensions et mesures disponibles dans le [tableau de bord de qualité des appels.](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 ### <a name="audio-classifier"></a>Classificateur audio
 
@@ -42,7 +42,7 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 |Mesure|Scénario|Condition|Explication|
 |:-----|:-----|:-----|:-----|
 |Audio Degradation Avg|La description de la charge utile n’est pas AUT|> 1,0|Dégradation moyenne de la note moyenne d'opinion réseau pour le flux. L’impact de la perte et de la gigue réseau sur la qualité de l’audio reçu.|
-|Round Trip|ALL|> 500|Durée moyenne de propagation sur le réseau d’aller-retour, calculée en millisecondes. Détails disponibles dans [le RFC3550.](https://tools.ietf.org/html/rfc3550)|
+|Round Trip|ALL|> 500|Durée moyenne de propagation sur le réseau de l’aller-retour, calculée en millisecondes. Détails disponibles dans [le RFC3550.](https://tools.ietf.org/html/rfc3550)|
 |Packet Loss Rate|ALL|> 0,1|Taux moyen de perte de paquets pour le flux.|
 |Jitter|ALL|> 30|Gigue moyenne pour le flux, en millisecondes.|
 |Ratio Concealed Samples Avg|La description de la charge utile n’est pas AUT|> 0,07|Rapport moyen du nombre de trames audio avec échantillons masqués générés par la perte de paquets par rapport au nombre total de trames audio.|
@@ -50,7 +50,7 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificateur vidéo dû au gel
 
-Le flux vidéo est  _marqué_ « Bon ou Médiocre » sur la base de la valeur d’un score de classificateur généré pour estimer que l’utilisateur final a été bloqué par une vidéo. Ce classificateur est disponible uniquement pour le produit Microsoft Teams.
+Le flux vidéo est  _marqué_ « Bon ou Médiocre » sur la base de la valeur d’un score de classificateur généré pour estimer que l’utilisateur final a accès à une vidéo figée. Ce classificateur n’est disponible que Microsoft Teams produit.
 
 |N° d’étape|Mesure|Scénario|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
@@ -70,7 +70,7 @@ Un flux vidéo est marqué comme _Bon_ ou _Médiocre_ en fonction de la valeur d
 
 ### <a name="vbss-classifier"></a>Classificateur VBSS
 
-Un flux VBSS  est  marqué comme bon ou médiocre selon la valeur de la première métrique disponible dans l’ordre suivant :
+Un flux VBSS  est  marqué comme Bon ou Médiocre selon la valeur de la première métrique disponible dans l’ordre suivant :
 
 |N° d’étape |Mesure |Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -98,12 +98,12 @@ Pour vérifier les échecs de la connectivité ICE, examinez les dimensions « F
 
 Si la connectivité ICE  a réussi pour un flux non classé, le flux est probablement considéré comme _non_ classé, car les métriques de flux clés n’ont pas été signalées. Il existe plusieurs raisons pour lesquelles ces métriques ne peuvent pas être rapportées :
 
-- **Aucun rapport QoE n’a** été reçu . Les mesures utilisées pour la classification sont signalées dans un rapport QoE envoyé à la fin d’un appel. Si ce rapport n’est pas produit (par exemple, parce que certains points de terminaison tiers peuvent ne pas envoyer QoE) ou ne peuvent pas être envoyés (par exemple, en raison d’une panne du réseau), le CQD ne peut pas classifier le flux.
+- **Aucun rapport QoE n’a** été reçu. Les mesures utilisées pour la classification sont signalées dans un rapport QoE envoyé à la fin d’un appel. Si ce rapport n’est pas produit (par exemple, parce que certains points de terminaison tiers peuvent ne pas envoyer QoE) ou ne peuvent pas être envoyés (par exemple, en raison d’une panne du réseau), le CQD ne peut pas classifier le flux.
 
   > [!TIP]
   > La dimension « QoE Record Available » peut être utilisée pour déterminer si un rapport QoE a été reçu pour un flux. Notez que cette dimension aura la valeur « True » si un rapport QoE a été reçu de chaque point de terminaison. Un rapport QoE des deux points de terminaison est requis pour un compte-rendu plus précis des métriques.
 
-- **Appels courts** : les appels courts risquent de ne pas avoir assez d’activité multimédia pour calculer les mesures clés de flux. Sans ces métriques, le TBQA est incapable de classifier le flux.
+- **Appels courts** : les appels courts risquent de ne pas avoir assez d’activité multimédia pour calculer les métriques de flux clés. Sans ces métriques, le TBQA est incapable de classifier le flux.
 
   > [!TIP]
   > Les dimensions « Durée (Secondes) », « Durée (Minutes) », « Durée 5 secondes ou moins » et « Durée 60 secondes ou plus » peuvent être utilisées pour déterminer la durée d'un flux. La mesure « durée moyenne d'appel » peut également être utilisée pour calculer la durée moyenne d'un ensemble de flux.
@@ -114,14 +114,14 @@ Si la connectivité ICE  a réussi pour un flux non classé, le flux est probabl
   > [!TIP]
   > La dimension « Utilisation des paquets » et la mesure « Utilisation moyenne des paquets » peuvent être utilisées pour déterminer l’activité des paquets d’un flux.
 
-## <a name="related-topics"></a>Rubriques connexes
-[Améliorer et surveiller la qualité des appels pour Teams](monitor-call-quality-qos.md)
+## <a name="related-topics"></a>Voir aussi
+[Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 
 [Qu’est-ce que le CQD ?](CQD-what-is-call-quality-dashboard.md)
 
 [Configurer le tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 
-[Charger des données client et bâtiment](CQD-upload-tenant-building-data.md)
+[Télécharger données de bâtiment et de client](CQD-upload-tenant-building-data.md)
 
 [Données et rapports du CQD](CQD-data-and-reports.md)
 

@@ -1,5 +1,5 @@
 ---
-title: E-mails et enquêtes microsoft Teams Transition | Mise à niveau de base
+title: Microsoft Teams E-mails et enquêtes de transition | Mise à niveau de base
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Exemples d’e-mails et d’enquêtes à utiliser en conjunciton avec le plan d’action en dix étapes accélérée pour la mise à niveau de Skype Entreprise vers Teams
+description: Exemples d’e-mails et d’enquêtes à utiliser en conjunciton avec le plan d’action en dix étapes accélérée pour la mise à niveau d’Skype Entreprise à Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -201,16 +201,16 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Exemples d’enquêtes
 
-Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et si une ou plusieurs activités sont à découvrir.
+Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et s’il existe une ou plusieurs activités dont vous souhaitez en savoir plus.
 
-| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | S/O | Vous ne savez pas ou ne vous connaissez pas | | | | |
+| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | N/A | Vous ne savez pas ou ne vous connaissez pas | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Utiliser Teams pour la messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
-| Utiliser Teams pour les réunions en ligne | | | | | | | | | | |
-| Utiliser Teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
+| Utiliser des Teams messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
+| Utiliser des Teams pour les réunions en ligne | | | | | | | | | | |
+| Utiliser des Teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
 | Utiliser Teams sur mon appareil mobile | | | | | | | | | | |
 
-| **Quelles sont les choses qui vous empêchent d’utiliser Microsoft Teams ?** | **Sélectionner toutes les sélections applicables** |
+| **Quelles sont les personnes qui vous empêchent d’utiliser Microsoft Teams ?** | **Sélectionner toutes les sélections applicables** |
 |---|---|
 | Je n’en ai jamais entendu parler | &#9744; |
 | Je ne l’ai pas installée sur mon ordinateur | &#9744; |
@@ -223,7 +223,7 @@ Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Te
 | Rien, je l’utilise actuellement | &#9744; |
 | Autre (veuillez spécifier) | &#9744; |
 
-**Allez-vous recommander Microsoft Teams à un ami ou un collègue ? (0=Pas du tout... 10=Très probable)**
+**Allez-vous recommander l’Microsoft Teams à un ami/un collègue ? (0=Pas du tout... 10=Très probable)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

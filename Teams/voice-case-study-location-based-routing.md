@@ -1,5 +1,5 @@
 ---
-title: Étude de cas Teams voix Contoso
+title: Teams cas Contoso voix
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Étude de cas voix Teams pour une entreprise multinationale
+description: Teams cas de voix pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
@@ -31,11 +31,11 @@ Location-Based routage des appels (LBR) est une fonctionnalité qui restreint la
 
 Contoso a deux bureaux dans un pays où il n’est pas illégal d’ignorer le fournisseur de réseau téléphonique commuté (PSTN) afin de diminuer les coûts des appels longue distance. Le bureau principal dispose d’une connexion Internet qui est utilisée par le bureau principal et par le deuxième bureau. Chaque bureau possède son propre contrôleur de session en bordure (SBC) connecté à un opérateur PSTN.  
  
-Dans ce pays, Contoso avait la cdN configurée pour leur déploiement de Skype Entreprise. Pour déterminer comment configurer la CBR pour Teams, Contoso lit le plan Location-Based routage pour le [routage direct.](location-based-routing-plan.md) Contoso a déterminé que Teams et Skype Entreprise suivent les mêmes scénarios pour le moment où un appel peut être passé, le moment où il peut être reçu, lorsqu’un appel PSTN peut être transféré à un utilisateur de Teams et lorsque vous pouvez transférer un autre utilisateur teams vers l’appel PSTN.  
+Dans ce pays, Contoso avait configuré la CBR pour leur déploiement Skype Entreprise réseau. Pour déterminer comment configurer la CBR pour les Teams, Contoso lit plan et Location-Based [routage pour le routage direct.](location-based-routing-plan.md) Contoso a déterminé que Teams et Skype Entreprise suivent les mêmes scénarios lorsque vous pouvez recevoir un appel, quand il peut être reçu, lorsqu’un appel PSTN peut être transféré à un utilisateur Teams et quand vous pouvez transférer un autre utilisateur Teams vers l’appel PSTN.  
 
-Pour Skype Entreprise, la connexion SIP du contrôleur de session (SBC) à l’opérateur PSTN a été configurée avec la ligne SIP du contrôleur de session. Pour ce SBC, Contoso a examiné la liste des [SBC](direct-routing-border-controllers.md) certifiés et déterminé que le déploiement SBC est certifié pour le routage direct, mais n’est pas certifié pour la dérivation média. Pour prendre en charge LBR, le routage direct doit être configuré vers le site SBC, il doit y avoir une sortie Internet locale et le SBC doit être configuré pour la dérivation média. Sur la base de ces informations, Contoso a décidé des choses suivantes :
+Pour Skype Entreprise, LBR a été configurée avec la ligne SIP du contrôleur de session (SBC) qui se connecte à l’opérateur PSTN. Pour ce SBC, Contoso a examiné la liste des [SBC](direct-routing-border-controllers.md) certifiés et déterminé que le déploiement SBC est certifié pour le routage direct, mais n’est pas certifié pour la dérivation média. Pour prendre en charge LBR, le routage direct doit être configuré vers le site SBC, il doit y avoir une sortie Internet locale et le SBC doit être configuré pour la dérivation média. Sur la base de ces informations, Contoso a décidé des choses suivantes :
 
-- Pour retarder l’enablement de Teams LBR jusqu’à ce que le SBC existant soit certifié pour la dérivation média.   
+- Pour retarder l’Teams LBR jusqu’à ce que le SBC existant soit certifié pour la dérivation média.   
 
 - Contoso a décidé d’utiliser le site SBC principal pour l’itinéraire direct vers Office 365.  Le SBC de site principal sera le SBC proxy pour le site distant.  
 
@@ -47,16 +47,16 @@ Les diagrammes suivants montrent les déploiements avant et après pour un pays 
 
 **Déploiement d’origine**
 
-![Diagramme montrant l’état avant](media/voice-case-study-5.png)
+![Diagramme montrant avant l’état](media/voice-case-study-5.png)
 
 **Déploiement avec routage direct**
 
-![Diagramme montrant l’état avant](media/voice-case-study-6.png)
+![Diagramme montrant avant l’état](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>Configuration : 
 
-Pour configurer les composants réseau dans Teams, Contoso a suivi les instructions de la commande Gérer votre topologie de réseau pour les fonctionnalités [vocales cloud.](manage-your-network-topology.md) Contoso a suivi les étapes ci-dessous pour configurer Location-Based routage : 
+Pour configurer les composants réseau dans Teams, Contoso a suivi les instructions dans Gérer votre topologie de réseau pour les fonctionnalités [vocales cloud.](manage-your-network-topology.md) Contoso a suivi les étapes ci-dessous pour configurer Location-Based routage : 
 
 - Définir les régions réseau : une région réseau a été définie. 
 
