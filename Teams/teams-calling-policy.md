@@ -38,7 +38,7 @@ Vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation 
 
 Pour créer une stratégie d’appel personnalisée, suivez ces étapes.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à **Stratégies**  >  **d’appel vocal.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez à **Stratégies**  >  **d’appel vocal.**
 2. Sélectionnez **Ajouter**.
 3. Activer ou désactiver les fonctionnalités que vous souhaitez utiliser dans votre stratégie d’appel.
 4. Pour contrôler si les utilisateurs peuvent router les appels entrants vers la messagerie vocale, sélectionnez **Activé** ou **Utilisateur contrôlé.** Pour empêcher le routage vers la messagerie vocale, **sélectionnez Désactivé.**
@@ -48,7 +48,7 @@ Pour créer une stratégie d’appel personnalisée, suivez ces étapes.
 
 Pour modifier une stratégie d’appel existante, suivez ces étapes.
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, sélectionnez **Stratégies**  >  **d’appel vocal.**
+1. Dans le navigation gauche du Centre d’Microsoft Teams d’administration, sélectionnez **Stratégies**  >  **d’appel vocal.**
 2. Cliquez en côté de la stratégie à modifier, puis sélectionnez **Modifier.**
 3. A apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -62,7 +62,7 @@ Voici les paramètres que vous pouvez configurer pour les stratégies d’appel.
 
 ### <a name="make-private-calls"></a>Passer des appels privés
 
-Ce paramètre contrôle toutes les fonctionnalités d’appel dans Teams. Désactiver cette fonctionnalité pour désactiver toutes les fonctionnalités d’appel dans Teams.
+Ce paramètre contrôle toutes les fonctionnalités d’appel Teams. Désactiver cette fonctionnalité pour désactiver toutes les fonctionnalités d’appel Teams.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Call forwarding and simultaneous ringing to people in your organization
 
@@ -98,13 +98,13 @@ Busy on Busy (Busy Options) is a new setting that lets you configure how incomin
 
 ### <a name="allow-web-pstn-calling"></a>Autoriser les appels PSTN Web
 
-Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide du client web Teams.
+Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide Teams client web.
 
 ### <a name="allow-music-on-hold"></a>Autoriser l’attente musicale
 
 Ce paramètre vous permet d’activer ou de désactiver l’attente musicale lorsqu’un appelant PSTN est mis en attente. Elle est désactivée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de parcage d’appel et de délégué de responsable et est actuellement disponible uniquement via PowerShell.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 

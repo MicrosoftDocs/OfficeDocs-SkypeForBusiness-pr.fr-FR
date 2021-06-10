@@ -30,13 +30,13 @@ ms.locfileid: "51122208"
 ---
 # <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
-Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé [des réunions & conférences.](deploy-meetings-microsoft-teams-landing-page.md) Vous êtes maintenant prêt à ajouter des charges de travail vocales dans le cloud, et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour la connectivité de réseau téléphonique public commuté (PSTN) à l’aide du routage direct du système téléphonique. Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
+Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé [des réunions & conférences.](deploy-meetings-microsoft-teams-landing-page.md) Vous êtes maintenant prêt à ajouter des charges de travail vocales dans le cloud, et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour la connectivité de réseau téléphonique public commuté (PSTN) à l’aide du Système téléphonique routage direct. Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
 
-Cet article décrit les principales décisions prises en matière de déploiement pour le routage direct, ainsi que des considérations supplémentaires à prendre en considération, en fonction des besoins de votre organisation. Pour plus d’informations sur les offres vocales cloud de Microsoft, vous devez également lire cloud Voice dans [Microsoft Teams.](cloud-voice-landing-page.md)
+Cet article décrit les principales décisions prises en matière de déploiement pour le routage direct, ainsi que des considérations supplémentaires à prendre en considération, en fonction des besoins de votre organisation. Pour plus d’informations sur les offres vocales cloud de [Microsoft, vous](cloud-voice-landing-page.md) devez également lire l’Microsoft Teams Cloud Voice.
 
 ## <a name="learn-more-about-direct-routing"></a>En savoir plus sur le routage direct
 
-Les articles suivants fournissent des informations supplémentaires sur la configuration et l’utilisation du routage direct du système téléphonique. La configuration du routage direct nécessite une compréhension de la conception du routage PSTN. Vous devez lire tous les articles suivants pour comprendre comment planifier et configurer le routage direct :
+Les articles suivants fournissent des informations supplémentaires sur la configuration et l’utilisation Système téléphonique routage direct. La configuration du routage direct nécessite une compréhension de la conception du routage PSTN. Vous devez lire tous les articles suivants pour comprendre comment planifier et configurer le routage direct :
 
 - [Planifier le routage direct](direct-routing-plan.md) 
 - [Configurer le routage direct](direct-routing-configure.md)
@@ -62,7 +62,7 @@ Ai-je les licences requises pour le routage direct ? | Pour plus d’information
 
 ### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de session border Controller (SBC)
 
-Avec le routage direct, vous connectez votre propre contrôleur de session Border Controller (SBC) directement au système téléphonique.  Pour obtenir la liste des SBCs [certifiés,](direct-routing-border-controllers.md)voir Contrôleurs de session en bordure pris en charge.
+Avec le routage direct, vous connectez votre propre contrôleur de session Border Controller (SBC) directement à Système téléphonique.  Pour obtenir la liste des SBCs [certifiés,](direct-routing-border-controllers.md)voir Contrôleurs de session en bordure pris en charge.
 
 |Posez-vous la question|Action |
 |:------------|:-------|
@@ -72,7 +72,7 @@ Ai-je plusieurs locataires ? | Pour plus d’informations, voir [Configurer un c
 
 ### <a name="voice-routing-considerations"></a>Considérations en cas de routage vocal
 
-Vous devrez configurer phone system pour router les appels vers les SBCs spécifiques.
+Vous devrez configurer les Système téléphonique router les appels vers des SCS spécifiques.
 
 |Posez-vous la question|Action |
 |:------------|:-------|
@@ -82,11 +82,11 @@ Vous devrez configurer phone system pour router les appels vers les SBCs spécif
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Assurez-vous que les appels entrants arrivent dans le client Teams à l’aide de TeamsUpgradePolicy
 
-Le routage direct n’est pris en charge qu’avec Microsoft Teams. Pour recevoir des appels PSTN via un routage direct, vous devez configurer TeamsUpgradePolicy pour vous assurer que les appels entrants sont reçus dans Teams. Les utilisateurs doivent être en mode Teams uniquement, ce que vous pouvez faire en leur attribuant l’instance « UpgradeToTeams » de TeamsUpgradePolicy. 
+Le routage direct n’est pris en charge qu’avec Microsoft Teams. Pour recevoir des appels PSTN via un routage direct, vous devez configurer TeamsUpgradePolicy pour vous assurer que les appels entrants soient reçus dans Teams. Les utilisateurs doivent être en mode Teams uniquement, ce que vous pouvez faire en leur attribuant l’instance « UpgradeToTeams » de TeamsUpgradePolicy. 
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Que signifie le mode Teams uniquement ? | Pour plus d’informations, consultez les conseils sur la [migration et l’interopérabilité](./migration-interop-guidance-for-teams-with-skype.md)pour les organisations qui utilisent Teams avec Skype Entreprise.|
+|Que signifie Teams mode Uniquement ? | Pour plus d’informations, consultez les conseils sur la migration et l’interopérabilité pour les organisations qui [utilisent Teams avec d Skype Entreprise.](./migration-interop-guidance-for-teams-with-skype.md)|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Considérations supplémentaires en cas de déploiement
@@ -95,6 +95,6 @@ Vous pouvez envisager les considérations suivantes en fonction des besoins et d
 
 | Posez-vous la question| Action |
 | :------------|:-------|
-| Avez-vous un déploiement Skype Entreprise Server existant avec une connectivité hybride configurée ? |  Pour mieux comprendre la manière dont les comptes d’utilisateur dans un environnement hybride sont provisionés et gérés, consultez Comptes d’utilisateurs dans un environnement hybride avec connectivité [PSTN.](direct-routing-user-accounts-in-a-hybrid-environment.md)| 
-| Migrez-vous vers un routage direct à partir d’un plan d’appels ou d’un environnement Skype Entreprise local ? | Pour plus d’informations sur la migration vers le routage direct à partir d’un environnement existant, voir Migration [vers Un routage direct.](direct-routing-migrating.md) |
+| Avez-vous déjà un déploiement Skype Entreprise Server hybride avec une connectivité hybride configurée ? |  Pour mieux comprendre la manière dont les comptes d’utilisateur dans un environnement hybride sont provisionés et gérés, consultez Comptes d’utilisateurs dans un environnement hybride avec connectivité [PSTN.](direct-routing-user-accounts-in-a-hybrid-environment.md)| 
+| Migrez-vous vers un routage direct à partir d’un plan d’appels ou d’Skype Entreprise un environnement local ? | Pour plus d’informations sur la migration vers le routage direct à partir d’un environnement existant, voir Migration [vers Un routage direct.](direct-routing-migrating.md) |
 |||

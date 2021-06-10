@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs de Teams dans votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
+description: Découvrez comment utiliser les stratégies de commentaires pour contrôler Teams utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
 ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
 ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
@@ -28,26 +28,26 @@ ms.locfileid: "51656720"
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Les utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft pour nous faire part de nos interventions, directement à partir des clients de bureau et web Teams. Nous améliorons continuellement l’expérience Teams et nous utilisons ces commentaires pour améliorer Teams.
+Les utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft pour nous faire part de nos commentaires, directement à partir des clients de bureau et web Teams. Nous améliorons continuellement l Teams expérience utilisateur et nous utilisons ces commentaires pour améliorer Teams améliorations.
 
 > [!NOTE]
-> Les stratégies de commentaires ne sont pas disponibles dans les déploiements GCC, GCC High ou DOD.
+> Les stratégies de commentaires ne sont pas disponibles Cloud de la communauté du secteur public, Cloud de la communauté du secteur public haute ou dod.
 
 **La fonctionnalité Donner des commentaires**
 
-Les utilisateurs peuvent nous envoyer des commentaires et des suggestions concernant Teams en nous aident  >  **à envoyer des commentaires** dans Teams. Les données  envoyées via l’envoi de commentaires sont considérées comme des « données de support » dans le cadre de votre contrat Microsoft 365 ou Office 365, y compris les informations qui seraient autrement considérées comme « Données client » ou « Données personnelles ».
+Les utilisateurs peuvent nous envoyer des commentaires et des suggestions Teams’aide pour envoyer des  >  **commentaires** dans Teams. Les données  envoyées via l’envoi de commentaires sont considérées comme des « données de support » dans le cadre de votre accord Microsoft 365 ou Office 365, y compris les informations qui seraient autrement considérées comme « Données client » ou « Données personnelles ».
 
 ![Capture d’écran de l’option Donner des commentaires dans Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Enquêtes**
 
-Les utilisateurs peuvent également évaluer leur expérience avec Teams et nous envoyer des détails sur l’évaluation qu’ils donnent. Cette enquête pop-up est affichée aux utilisateurs de temps à temps dans Teams. Lorsqu’un utilisateur sélectionne Fournir **des commentaires** dans la notification, l’enquête est affichée pour lui.
+Les utilisateurs peuvent également évaluer leur expérience avec Teams et nous envoyer des détails sur l’évaluation qu’ils donnent. Cette enquête pop-up est affichée aux utilisateurs de temps à autre dans Teams. Lorsqu’un utilisateur sélectionne Fournir **des commentaires** dans la notification, l’enquête est affichée pour lui.
 
-![Notification et formulaire d’enquête dans Teams](media/manage-feedback-policies-in-teams-survey.png)
+![Notification et formulaire de l’enquête dans Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Définir si les utilisateurs peuvent envoyer des commentaires sur Teams à Microsoft
 
-En tant qu’administrateur, vous pouvez contrôler si les utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft via l’envoi de commentaires et s’ils reçoivent l’enquête.  Par défaut, tous les utilisateurs de votre organisation se voit automatiquement  attribuer la stratégie globale (à l’échelle de l’organisation par défaut) et la fonctionnalité Donner des commentaires et l’enquête sont activées dans la stratégie. Teams pour l’éducation fait exception, où les fonctionnalités sont activées pour les enseignants et désactivées pour les étudiants.
+En tant qu’administrateur, vous pouvez contrôler si les utilisateurs de  votre organisation peuvent envoyer des commentaires sur Teams à Microsoft via l’envoi de commentaires et s’ils reçoivent l’enquête. Par défaut, tous les utilisateurs de votre organisation se voit automatiquement  attribuer la stratégie globale (à l’échelle de l’organisation par défaut) et la fonctionnalité Donner des commentaires et l’enquête sont activées dans la stratégie. La seule exception est Teams pour l’éducation, où les fonctionnalités sont activées pour les enseignants et désactivées pour les étudiants.
 
 Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie personnalisée. Une fois que vous avez modifié la stratégie globale ou attribué une stratégie personnalisée, l’application des modifications peut prendre quelques heures.
 
@@ -58,7 +58,7 @@ Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez 
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
  - **Donnez des** commentaires : Définissez le  **paramètre userInitiatedMode** pour permettre aux utilisateurs affectés à la stratégie de faire part de leurs commentaires. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée n’ont pas la possibilité d’apporter des commentaires.
- - **Enquêtes**: définissez le **paramètre ReceiveSurveysMode** pour permettre aux utilisateurs affectés à la stratégie de recevoir l’enquête.  Pour que les utilisateurs reçoivent l’enquête et les autorisent à se désavertr, définissez le paramètre sur **enabledUserOverride.** Dans Teams, les utilisateurs peuvent ensuite se rendre sur **Paramètres** de confidentialité et choisir  >   s’ils souhaitent participer à des enquêtes. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée ne recevront pas l’enquête.
+ - **Enquêtes**: définissez le **paramètre ReceiveSurveysMode** pour permettre aux utilisateurs affectés à la stratégie de recevoir l’enquête.  Pour que les utilisateurs reçoivent l’enquête et les autorisent à se désavertr, définissez le paramètre sur **enabledUserOverride.** Dans Teams, les utilisateurs peuvent ensuite se rendre sur Paramètres confidentialité et choisir s’ils  >   souhaitent participer à des enquêtes. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée ne recevront pas l’enquête.
  - **E-mail**: utilisez **l’indicateur AllowEmailCollection** pour ajouter un champ de courrier.
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
@@ -79,7 +79,7 @@ Dans cet exemple, nous affectons une stratégie personnalisée nommée Stratégi
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)

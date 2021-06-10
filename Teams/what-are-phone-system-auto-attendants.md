@@ -34,11 +34,11 @@ ms.locfileid: "51100960"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les attendants automatiques cloud ?
 
-Phone System fournit des serveurs automatiques, qui peuvent être utilisés pour que les appelants externes et internes se déplacent dans un système de menus pour localiser et passer ou transférer des appels à des utilisateurs ou des services de votre organisation.
+Système téléphonique fournit des attendants automatiques qui peuvent être utilisés pour que les appelants externes et internes se déplacent dans un système de menus pour localiser et passer ou transférer des appels à des utilisateurs ou des services de votre organisation.
   
 Un employé automatique est le plus souvent un nœud dans un système, et il donne à l’appelant une série d’invites vocales ou de fichiers audio qu’il entend au lieu d’un opérateur humain. Lorsque des personnes appellent un numéro associé à un employé de service automatique, leurs choix peuvent rediriger l’appel vers un utilisateur ou rechercher une personne de votre organisation, puis se connecter à cet utilisateur. Ils peuvent exprimer leurs choix et interagir avec le système de menu à l’aide d’un clavier téléphonique (DTMF) ou d’une reconnaissance vocale. Les choix qu’ils font peuvent également rediriger l’appel vers un autre agent automatique ou vers une file d’attente d’appels.
   
-Pour configurer un attendant automatique pour phone system, voir Configurer un attendant automatique [cloud.](create-a-phone-system-auto-attendant.md)
+Pour configurer un attendant automatique pour une Système téléphonique, voir [Configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
   
 Un attendant automatique cloud offre les fonctionnalités suivantes :
   
@@ -52,20 +52,20 @@ Un attendant automatique cloud offre les fonctionnalités suivantes :
 - Il prend en charge la messagerie vocale partagée pour que les appelants laissent un message pour une organisation.
 
 > [!NOTE]
-> Cet article s’applique à Microsoft Teams et à Skype Entreprise Online.
+> Cet article s’applique à Microsoft Teams et Skype Entreprise Online.
 
 ## <a name="getting-started"></a>Prise en main
 
 Avant de commencer à utiliser les standards automatiques, il est impératif de noter les points suivants :
 
-- Un attendant automatique est requis pour avoir un compte de ressource associé. Pour [plus d’informations](manage-resource-accounts.md) sur les comptes de ressources, voir Gérer les comptes de ressources dans Teams. <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
-- Lorsque vous affectez un numéro de téléphone à un employé de service automatique, vous l’affectez à proprement parler au compte de ressource associé à ce attendant automatique. Cela permet d’avoir plusieurs numéros de téléphone à accéder à un moyen automatique. Le plus souvent, un compte de ressource utilise la licence Utilisateur virtuel de Phone System sans frais. Cette licence offre des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation et vous permet de créer des numéros de service automatiques et des files d’attente d’appels.
+- Un attendant automatique est requis pour avoir un compte de ressource associé. Pour [plus d’informations](manage-resource-accounts.md) sur les comptes de ressources, voir Teams comptes de ressources. <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
+- Lorsque vous affectez un numéro de téléphone à un employé de service automatique, vous l’affectez à proprement parler au compte de ressource associé à ce attendant automatique. Cela permet d’avoir plusieurs numéros de téléphone à accéder à un moyen automatique. Le plus souvent, un compte de ressource utilise l’accès sans Système téléphonique licence utilisateur virtuel. Cette licence offre Système téléphonique fonctionnalités aux numéros de téléphone au niveau de l’organisation et vous permet de créer des files d’attente et des files d’attente automatiques.
 
 > [!NOTE]
-> Les numéros de service de routage direct pour le support automatique et les files d’attente d’appels sont pris en charge pour les utilisateurs de Microsoft Teams et les agents d’appel uniquement.
+> Les numéros de service de routage direct pour le support automatique et les files d’attente d’appels sont pris en charge Microsoft Teams et les agents d’appel uniquement.
 
    > [!TIP]
-   > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne titulaire d’une licence **Phone System,** vous devez activer son compte pour Voix Entreprise ou lui affecter des forfaits d’appels. Voir [Attribuer des licences de modules add-on Microsoft Teams.](teams-add-on-licensing/assign-teams-add-on-licenses.md) Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > Pour rediriger des appels vers un opérateur ou une option de menu qui est un utilisateur en ligne titulaire d’une licence **Système téléphonique,** vous devez activer son compte pour Voix Entreprise ou lui affecter des forfaits d’appels. Voir [Attribuer Microsoft Teams licences de modules add-on.](teams-add-on-licensing/assign-teams-add-on-licenses.md) Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Pour obtenir et utiliser des numéros de service gratuits pour vos postes de service automatiques, vous devez configurer les crédits de communication. Pour ce faire, voir Quels sont les [crédits de communication ?](what-are-communications-credits.md) et [configurer les crédits de communication pour votre organisation.](set-up-communications-credits-for-your-organization.md)
 
@@ -73,20 +73,20 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
     > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à des standards automatiques. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés.
 
 - Un système de attendant automatique complet implique généralement plusieurs attendants automatiques.
-- Il est possible d’appliquer plusieurs numéros de téléphone aux travailleurs automatiques d’entrée.
+- Il est possible d’appliquer plusieurs numéros de téléphone aux attendant automatiques d’entrée.
 - Les attendants automatiques ou files d’attente de niveau d’entrée dans le système complet n’auront besoin d’un numéro de téléphone que s’ils vont effectuer des appels RSTN sortants.
   
 ## <a name="feature-overview"></a>Vue d’ensemble de la fonctionnalité
 
 ### <a name="searching-for-users"></a>Recherche d’utilisateurs
 
-La numérotation par nom est une fonctionnalité d’un service de service automatique également appelé recherche dans l’annuaire. Elle permet aux appelants d’utiliser la reconnaissance vocale ou leur clavier téléphonique (DTMF) pour saisir un nom complet ou partiel afin de rechercher dans l’annuaire de l’entreprise, de rechercher la personne et de lui transférer l’appel. Les utilisateurs que vous souhaitez avoir localisés et atteints à **l’aide** de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence De système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams hébergés dans différents pays ou régions pour les organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
+La numérotation par nom est une fonctionnalité d’un service de service automatique également appelé recherche dans l’annuaire. Elle permet aux appelants d’utiliser la reconnaissance vocale ou leur clavier téléphonique (DTMF) pour saisir un nom complet ou partiel afin de rechercher dans l’annuaire de l’entreprise, de rechercher la personne et de lui transférer l’appel. Les utilisateurs que vous souhaitez avoir localisés et atteints à **l’aide** de la numérotation par nom ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence Système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs Skype Entreprise Server. La numérotation par nom sera même en mesure de rechercher et de transférer des appels vers Microsoft Teams utilisateurs hébergés dans différents pays ou régions pour des organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par nom dans un attendant automatique.
 
-La numérotation par extension est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à  **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence De système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs de Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers les utilisateurs de Microsoft Teams qui sont hébergés dans différents pays ou régions pour des organisations multinationales. Compte tenu des conditions préalables requises, vous devez activer explicitement la fonction Numérotation par poste dans un attendant automatique.
+La numérotation par poste est une fonctionnalité d’un service de service automatique qui fait également partie de la recherche dans l’annuaire. Elle permet aux appelants d’utiliser la voix (reconnaissance vocale) ou leur clavier téléphonique (DTMF) pour saisir l’extension de téléphone de l’utilisateur qu’ils essaient de joindre, puis de transférer l’appel vers eux. Les utilisateurs que vous souhaitez avoir situés et que vous avez atteints à **l’aide** de la numérotation par extension ne doivent pas avoir de numéro de téléphone ou de forfaits d’appels, mais ils doivent avoir une licence Système téléphonique s’ils sont des utilisateurs en ligne ou Voix Entreprise activés pour les utilisateurs Skype Entreprise Server. Vous devrez également avoir un plan de numérotation correctement configuré pour vos utilisateurs. La numérotation par extension sera même en mesure de rechercher et de transférer des appels vers Microsoft Teams utilisateurs hébergés dans différents pays ou régions pour des organisations multinationales. Compte tenu des conditions préalables requises, vous activez explicitement la fonction Numérotation par poste dans un attendant automatique.
 
 #### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille maximale d’une liste de noms prise en charge par un seul employé de la fonction de reconnaissance vocale est de 80 000 utilisateurs.
+Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
   
 |Type d'entrée|Format de recherche|Nombre maximal d'utilisateurs dans une organisation|
 |:-----|:-----|:-----|
@@ -94,7 +94,7 @@ Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les app
 |Voix (entrée vocale) |Prénom  <br/> Nom  <br/> Prénom + nom  <br/> Nom + prénom  | 80 000 utilisateurs |
 
 > [!NOTE]
-> Si vous utilisez la fonction Numérotation par nom avec la reconnaissance vocale, mais que l’Active Directory de votre organisation compte plus de 80 000 utilisateurs et que vous n’avez pas limité l’étendue de la numérotation par nom à l’aide de la fonctionnalité de portée de la numérotation, la fonction Numérotation par nom continuera de fonctionner pour les appelants qui utilisent un clavier téléphonique et les entrées vocales seront disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
+> Si vous utilisez la fonction Numérotation par nom avec la reconnaissance vocale, mais que l’Active Directory de votre organisation compte plus de 80 000 utilisateurs et que vous n’avez pas limité l’étendue de la numérotation par nom à l’aide de la fonctionnalité de portée de la numérotation, la fonction Numérotation par nom continuera de fonctionner pour vos appelants à l’aide d’un clavier téléphonique et les entrées vocales seront disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Numérotation par nom - Entrée de clavier téléphonique (DTMF)
 
@@ -124,9 +124,9 @@ Plusieurs caractères spéciaux sont utilisés pour rechercher des personnes à 
 
 #### <a name="dial-by-name---name-recognition-with-speech"></a>Numérotation par nom - Reconnaissance vocale de nom
 
-Les employés peuvent rechercher d’autres personnes dans leur organisation à l’grâce à leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en en att dire le nom de la personne qu’ils cherchent. Les entrées vocales peuvent reconnaître les noms dans différents formats, notamment Prénom, Nom, Prénom + Nom, ou Nom + Prénom.
+Les employés peuvent rechercher d’autres personnes dans leur organisation à l’grâce à leur voix (reconnaissance vocale). Ils peuvent également joindre n’importe qui dans Active Directory en en att ressant le nom de la personne qu’ils cherchent. Les entrées vocales peuvent reconnaître les noms dans différents formats, notamment Prénom, Nom, Prénom + Nom, ou Nom + Prénom.
   
-Vous pouvez activer la reconnaissance vocale pour un attendant automatique, mais l’entrée de clavier téléphonique (DTMF) n’est pas désactivée. Vous pouvez utiliser une entrée de clavier téléphonique à tout moment, même si la reconnaissance vocale est activée sur le attendant automatique.
+Vous pouvez activer la reconnaissance vocale pour un attendant automatique, mais l’entrée de clavier téléphonique (DTMF) n’est pas désactivée. Téléphone entrée de clavier automatique peut être utilisée à tout moment, même si la reconnaissance vocale est activée sur le attendant automatique.
   
 Comme pour l’entrée de clavier téléphonique, si plusieurs noms sont trouvés, l’appelant entend une liste de noms parmi qui vous sont demandés.
   
@@ -198,7 +198,7 @@ La touche 0 et la commande vocale « Opérateur » dirigent l’appel vers l’o
   
 L’opérateur peut être définie sur :
   
-- Utilisateur de Microsoft Teams ou de Skype Entreprise Server Voix Entreprise activé.
+- Un Microsoft Teams ou un Skype Entreprise Server utilisateur activé Voix Entreprise’utilisateur.
 - Un autre standard automatique configuré dans votre organisation
 - Une file d'attente existante configurée dans votre organisation. Pour en savoir plus sur les files d’attente d’appels, voir [Créer une file d’attente d’appels cloud.](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
@@ -210,41 +210,41 @@ Chaque employé automatique dispose de plusieurs options de traitement des appel
   
 - L’appel peut se déconnecter après la fin de la première salutation.
 - Vous pouvez également :
-  - Redirigez l’appel vers un utilisateur de Microsoft Teams qui dispose d’une licence **Phone System** Voix Entreprise activée ou à qui des plans d’appels ont été attribués. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
+  - Rediriger l’appel vers un Microsoft Teams utilisateur qui dispose d’une licence **Système téléphonique** activée Voix Entreprise ou à qui des plans d’appel ont été attribués. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
 
   - Rediriger l’appel vers une file d’attente d’appels. Pour en savoir plus sur les files d’attente d’appels, voir [Créer une file d’attente d’appels cloud.](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
   - Rediriger l’appel vers un autre service de service automatique.
 
-Ces options sont expressément exprimées pour l’appelant par le attendant automatique lorsqu’il lit les invites du menu. Par exemple : « Appuyez sur 1 pour le chiffre d’affaires, sur 2 pour les services. Pour parler à l’opérateur, appuyez sur 0 à tout moment. »
+Ces options sont expressément exprimées pour l’appelant par le attendant automatique lorsqu’il lit les invites du menu. Par exemple : « Appuyez sur 1 pour les ventes, sur 2 pour les services. Pour parler à l’opérateur, appuyez sur 0 à tout moment. »
 
 ### <a name="set-menu-options"></a>Définir les options du menu
 
 Les attendant automatiques cloud vous permettent de créer des invites de menu (« Appuyez sur 1 pour appuyer sur 1 pour appeler les ventes, appuyez sur 2 pour appeler les services ») et de configurer des options de menu pour router les appels en fonction des sélections d’utilisateurs. Les options de menu d’un employé de service automatique permettent à une organisation de fournir une série de choix qui guident les appelants vers leur destination plus rapidement, sans faire appel à un opérateur humain pour gérer les appels entrants. Les invites de menu peuvent être créées à l’aide de la reconnaissance vocale (invites générées par le système) ou en téléchargeant un fichier audio enregistré. La reconnaissance vocale accepte les commandes vocales pour une navigation mains libres, mais les appelants peuvent également utiliser le clavier téléphonique pour naviguer dans les menus.
   
-Les touches 0 à 9 peuvent être affectées aux touches de numérotation d’un moyen de service automatique à l’aide du Centre d’administration de Skype Entreprise. Plusieurs ensembles d'options de menu peuvent être créés pour les heures d'ouverture et de fermeture et vous pouvez activer ou désactiver la fonction Numérotation par nom dans les **Options de menus**. Les touches peuvent être mappées pour transférer les appels vers :
+Les touches 0 à 9 peuvent être affectées aux touches de numérotation d’un serveur de service à l’aide du centre Skype Entreprise’administration. Plusieurs ensembles d'options de menu peuvent être créés pour les heures d'ouverture et de fermeture et vous pouvez activer ou désactiver la fonction Numérotation par nom dans les **Options de menus**. Les touches peuvent être mappées pour transférer les appels vers :
   
 - Un opérateur, mappé vers la touche 0 par défaut. Toutefois, il peut être réasigné à une autre touche ou supprimé du menu.
 - Une file d’attente d’appels.
-- Un autre standard automatique. Vous pouvez configurer des menus à plusieurs niveaux en pointant une option de **menu** dans un employé de service automatique vers un autre attendant automatique avec son propre ensemble d’options de menu, également appelé attendant automatique imbrmbré.
-- Un utilisateur de Microsoft Teams qui dispose d’une licence **Phone System** Voix Entreprise est activée ou à qui des plans d’appel ont été attribués. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
+- Un autre standard automatique. Vous pouvez configurer des menus à plusieurs niveaux en pointant une **option** de menu dans un employé de service automatique vers un autre attendant automatique avec son propre ensemble d’options de menu, également appelé de « attendant automatique imbrmbré ».
+- Un Microsoft Teams utilisateur dispose **d’Système téléphonique** licence Voix Entreprise activée ou à qui des plans d’appel ont été attribués. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
   
 Le nom de chaque option de menu devient un mot clé de reconnaissance vocale si la reconnaissance vocale a été activée. Par exemple, les appelants peuvent dire « Un » pour sélectionner l’option de menu mappée vers la touche 1, ou dire « Ventes » pour sélectionner la même option de menu appelée « Ventes ».
   
-Pour configurer un attendant automatique et les options de menu, allez [configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
+Pour configurer un attendant automatique et les options de menu, allez [à Configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Affectation de numéros de téléphone pour un employé de service automatique
 
 Vous pouvez affecter un numéro de service Microsoft, un numéro de routage direct ou un numéro hybride au compte de ressource lié de votre employé automatique (ou à plusieurs comptes de ressources si plusieurs numéros de téléphone sont souhaités). Pour [plus d’informations, voir Routage](direct-routing-plan.md) direct du plan.
 
-Pour attribuer un numéro de service, vous devez obtenir ou porter vos numéros de service gratuits ou gratuits existants. Une fois que vous obtenez les numéros de téléphone des services gratuits ou gratuits, ils s’afficheront dans les numéros de téléphone vocux du Centre d’administration **Skype**  >    >  **Entreprise.** **Le type de** numéro est répertorié comme **Service - Gratuit.** Pour obtenir vos numéros de service, consultez Obtenir des numéros de téléphone de service pour Skype Entreprise et [Microsoft Teams](./getting-service-phone-numbers.md) ou, si vous souhaitez transférer un numéro de service existant, consultez Transférer les numéros de téléphone dans [Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Pour attribuer un numéro de service, vous devez obtenir ou porter vos numéros de service gratuits ou gratuits existants. Une fois que vous obtenez les numéros de téléphone des services gratuits ou gratuits, ils s’Skype Entreprise dans le Centre d’administration  >  **Téléphone**  >  **numéros de téléphone.** **Le type de** numéro est répertorié **comme Service - Gratuit.** Pour obtenir vos numéros de service, consultez Obtenir des numéros de téléphone de service pour Skype Entreprise et [Microsoft Teams](./getting-service-phone-numbers.md) ou, si vous souhaitez transférer un numéro de service existant, consultez Transférer des numéros de téléphone vers [Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
   
 > [!NOTE]
 > Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le Centre d’administration Microsoft Teams pour obtenir des numéros de service. Allez [à Gérer les numéros de téléphone pour votre](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) organisation à la place pour voir comment le faire.
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
+[Les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](./getting-service-phone-numbers.md)
 

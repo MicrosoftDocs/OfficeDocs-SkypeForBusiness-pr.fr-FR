@@ -29,7 +29,7 @@ ms.locfileid: "51098260"
 
 Dans certains pays et certaines régions, vous pouvez devoir envoyer manuellement une demande de service pour obtenir des numéros de téléphone, transférer des numéros de téléphone, libérer des numéros de téléphone ou modifier des adresses. Pour connaître les besoins de chaque pays et région, ou pour en savoir plus sur le portage de numéros, consultez Gérer les numéros de [téléphone pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-Utilisez les étapes de cet article pour envoyer manuellement une demande de port si votre pays ou région n’est pas répertorié dans l’Assistant De portage du Centre d’administration [Microsoft Teams.](transfer-phone-numbers-to-teams.md)
+Utilisez les étapes de cet article pour envoyer manuellement une demande de port si votre pays ou région n’est pas répertorié dans l’Assistant De portage du Microsoft Teams [d’administration.](transfer-phone-numbers-to-teams.md)
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Envoyer manuellement une nouvelle demande de demande de port
 
@@ -37,15 +37,15 @@ Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire
 
 1. Téléchargez [le LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) de votre pays ou région.
 2. Remplissez le formulaire.
-3. Envoyez-le au service [PSTN de](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) votre région.
+3. Envoyez-le au service [PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) de votre région.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Informations d’autres informations sur le portage de numéro
 
-- Pour utiliser les forfaits d’appels, vous devez acheter et attribuer des licences à vos utilisateurs. Consultez [la gestion des licences du module ajouté Teams.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- Pour utiliser les forfaits d’appels, vous devez acheter et attribuer des licences à vos utilisateurs. Consultez [Teams licences de modules ajoutés.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

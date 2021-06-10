@@ -27,17 +27,17 @@ ms.locfileid: "51120826"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’urgence d’un utilisateur
 
-Chaque numéro de téléphone actif doit avoir un emplacement d’urgence associé lorsque vous attribuez le numéro de téléphone à un utilisateur. (Vous associez l’adresse lorsque vous obtenez un numéro de téléphone dans Office 365 ou lorsque vous transférez un numéro de téléphone.) Lorsque vous associez le numéro à un emplacement d’urgence, vous pouvez également ajouter un emplacement pour fournir un emplacement plus exact dans un emplacement physique. Il peut s’agit de l’étage, de l’aile d’un bâtiment ou du numéro du bureau où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour un emplacement d’urgence donné, et vous pouvez changer d’emplacement si l’utilisateur change de bureau ou de bâtiment. Par exemple, si l’utilisateur passe du 34e au 35e étage.
+Chaque numéro de téléphone actif doit avoir un emplacement d’urgence associé lorsque vous attribuez le numéro de téléphone à un utilisateur. (Vous associez l’adresse lorsque vous obtenez un numéro de téléphone Office 365 ou lorsque vous transférez un numéro de téléphone.) Lorsque vous associez le numéro à un emplacement d’urgence, vous pouvez également ajouter un emplacement pour fournir un emplacement plus exact dans un emplacement physique. Il peut s’agit de l’étage, de l’aile d’un bâtiment ou du numéro du bureau où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour un emplacement d’urgence donné, et vous pouvez changer d’emplacement si l’utilisateur change de bureau ou de bâtiment. Par exemple, si l’utilisateur passe du 34e au 35e étage.
   
-Pour savoir comment obtenir des forfaits d’appels et leurs tarifs, consultez la gestion des [licences de module supplémentaire Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour savoir comment obtenir des forfaits d’appels et leurs tarifs, consultez Teams [licences de module supplémentaire.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Vous pouvez affecter ou modifier l’emplacement d’urgence d’un utilisateur dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
+Vous pouvez affecter ou modifier l’emplacement d’urgence d’un utilisateur dans le Microsoft Teams d’administration ou à l’aide de PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Numéros de**  >  **téléphone vocal.**
+1. Dans le navigation gauche du Centre d Microsoft Teams' administration, cliquez sur **Les** numéros Téléphone  >  **voix.**
 
-2. Dans la page **Numéros de** téléphone, cliquez sur **l’onglet** Numéros, sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur **Modifier.**
+2. Dans la page **Téléphone nombres,** cliquez sur l’onglet Nombres, sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur  **Modifier.**
 
 3. Dans le **volet Édition,** sous Emplacement **d’urgence,** faites l’une des opérations suivantes :
 
@@ -53,9 +53,9 @@ Vous pouvez affecter ou modifier l’emplacement d’urgence d’un utilisateur 
 
 Voir [Set-CsOnlineLisLocation.](/powershell/module/skype/set-csonlinelislocation)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Espagne.
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Espagne.
 ms.openlocfilehash: bdb2037e68abd64b32faf102e80586f43d8d6f2e
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51101330"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour l’Espagne.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Espagne.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -60,7 +60,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1 200 minutes d’appels nationaux - OU - 600 minutes d’appels internationaux (selon ce qui arrive en premier dans le mois calendaire)</li></li> 
+|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1 200 minutes d’appels nationaux -OU- 600 minutes d’appels internationaux (selon ce qui arrive en premier dans le mois calendaire)</li></li> 
 |Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

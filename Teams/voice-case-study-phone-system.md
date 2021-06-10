@@ -1,5 +1,5 @@
 ---
-title: Étude de cas Teams voix Contoso
+title: Teams cas Contoso voix
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Étude de cas Voix Teams pour une entreprise multinationale
+description: Teams cas de voix pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
@@ -23,34 +23,34 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101030"
 ---
-# <a name="contoso-case-study-phone-system"></a>Étude de cas Contoso : Phone System
+# <a name="contoso-case-study-phone-system"></a>Étude de cas Contoso : Système téléphonique
 
 En fonction de l’emplacement géographique et d’autres facteurs, les bureaux de Contoso ont été bureaux à l’aide des solutions téléphoniques suivantes :
 
-- Type de site A : skype entreprise Voix Entreprise
+- Type de site A : Skype Entreprise Voix Entreprise
 
 - Type de site B : systèmes de téléphonie hérités traditionnels
 
-- Type de site C : combinaison de systèmes téléphoniques Skype Voix Entreprise et des systèmes de téléphonie hérités traditionnels
+- Type de site C : combinaison de Skype Entreprise Voix Entreprise et de systèmes de téléphonie hérités traditionnels
 
 
-Pour implémenter une solution Microsoft Phone System pour l’ensemble de l’organisation, Contoso devait déterminer pour chaque type de site les options suivantes qui seraient utilisées avec le système téléphonique public commuté pour se connecter au réseau téléphonique commuté &mdash; &mdash; (PSTN) :
+Pour implémenter une solution système Téléphone Microsoft pour l’ensemble de l’organisation, Contoso devait déterminer pour chaque type de site les options suivantes qui seraient utilisées avec Système téléphonique pour se connecter au réseau téléphonique commuté &mdash; &mdash; (RSTN) :
 
-- Phone System avec forfait d’appels 
+- Système téléphonique forfait d’appels 
 
-- Système téléphonique avec son propre opérateur PSTN via le routage direct 
+- Système téléphonique votre propre opérateur PSTN via le routage direct 
 
-- Combinaison du système téléphonique avec le plan d’appels et le système téléphonique avec un opérateur PSTN qui lui est propre via un routage direct
+- Combinaison de Système téléphonique’aide d’un plan d’appels et Système téléphonique de votre opérateur PSTN via un routage direct
  
-Pour déterminer la solution appropriée pour leur organisation, Contoso a utilisé les solutions téléphoniques Microsoft et les [appels](/SkypeForBusiness/hybrid/msft-telephony-solutions) de session Ignite 2019 dans [Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
+Pour déterminer la solution appropriée pour leur organisation, Contoso a utilisé les solutions téléphoniques [Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions) et la session Ignite 2019 [Calling dans Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
 
-## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Type de site A : skype entreprise Voix Entreprise 
+## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Type de site A : Skype Entreprise Voix Entreprise 
 
-La Voix Entreprise Skype Entreprise contoso a été définie comme hub et s’est exprimé. Il y avait un emplacement central qui maincait la passerelle PSTN dans la région qui fournissait la connexion au réseau PSTN pour les utilisateurs de Skype Entreprise Voix Entreprise dans le pays. Bien souvent, ces sites satellitaires ne possèdent pas leur propre sortie Internet. Les numéros pour ces utilisateurs résident sur la ligne SIP qui se connecte à un SBC existant. 
+Les contacts Skype Entreprise Voix Entreprise Contoso ont été créés en tant que concentrateur et ont fait l’affaire. Il y avait un emplacement central qui mainvait la passerelle PSTN dans la région qui fournissait la connexion au réseau PSTN pour les utilisateurs Skype Entreprise Voix Entreprise dans le pays. Bien souvent, ces sites satellitaires ne possèdent pas leur propre sortie Internet. Les numéros pour ces utilisateurs résident sur la ligne SIP qui se connecte à un SBC existant. 
 
 Pour déterminer si le SBC déjà déployé est certifié pour le routage direct et la dérivation média, Contoso a coché la liste des contrôleurs de session certifiés pour le [routage direct.](direct-routing-border-controllers.md)  
 
-Les habitudes de numérotation de l’utilisateur étaient de composer un utilisateur sur l’ancien système téléphonique à l’aide d’une extension, même si le client Skype Entreprise est disponible pour l’audio P2T. 
+Les habitudes de numérotation de l’utilisateur étaient de composer un utilisateur sur l’ancien système téléphonique à l’aide d’une extension, même si l’utilisateur dispose d’un client Skype Entreprise disponible pour l’audio P2T. 
 
 Contoso a basé sa décision sur les questions suivantes :
 
@@ -68,13 +68,13 @@ Contoso a basé sa décision sur les questions suivantes :
 
 En se basant sur les réponses à leurs questions, Contoso a décidé de :
 
-- Déplacez les utilisateurs situés dans une région dans laquelle des plans d’appel PSTN sont disponibles vers Phone System avec des forfaits d’appels. 
+- Déplacez les utilisateurs situés dans une région dans laquelle des plans d’appel PSTN sont disponibles pour les utilisateurs Système téléphonique’offre d’appels. 
 
-- Déplacer les utilisateurs situés dans une région où des plans d’appel RTC sont disponibles, les utilisateurs situés sur un site où le retour sur investissement sur les SBCs n’ont pas encore été satisfaits et les utilisateurs résidant dans un pays qui dispose d’une réglementation téléphonique vers un système téléphonique avec un routage direct. 
+- Déplacer les utilisateurs situés dans une région où des plans d’appel RTC sont disponibles, les utilisateurs situés sur un site où le retour sur investissement sur les SBCs n’ont pas encore été satisfaits et les utilisateurs résidant dans un pays qui dispose de réglementations téléphoniques pour Système téléphonique avec un routage direct. 
 
-Le diagramme suivant illustre le déploiement initial de Skype Voix Entreprise entreprise et la façon dont ce déploiement a été migré vers les plans d’appels Microsoft et le routage direct :
+Le diagramme suivant montre le déploiement initial Skype Entreprise Voix Entreprise et la façon dont ce déploiement a été migré vers les plans d’appels Microsoft et le routage direct :
 
-![Diagramme montrant des états avant et après](media/voice-case-study-1.png)
+![Diagramme montrant les états avant et après](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Type de site B : systèmes de téléphonie hérités traditionnels
 
@@ -93,25 +93,25 @@ Contoso a basé sa décision sur les questions suivantes :
 
 En se basant sur les réponses à leurs questions, Contoso a décidé de : 
 
-- Déplacez les utilisateurs situés dans une région dans laquelle des plans d’appel PSTN sont disponibles vers Phone System avec des forfaits d’appels. 
+- Déplacez les utilisateurs situés dans une région dans laquelle des plans d’appel PSTN sont disponibles pour les utilisateurs Système téléphonique’offre d’appels. 
 
-- Déplacer les utilisateurs qui ne sont pas situés dans une région dans laquelle des plans d’appel PSTN sont disponibles vers Phone System avec un routage direct. 
+- Déplacer les utilisateurs qui ne sont pas situés dans une région dans laquelle des plans d’appel PSTN sont disponibles Système téléphonique avec un routage direct. 
 
 - Tenez à jour une connexion RSTN aux appareils analogiques critiques d’entreprise.
 
 Les diagrammes suivants montrent le déploiement d’origine du système hérité avec des sites distants et la migration vers un déploiement de routage direct avec l’optimisation des médias locaux :
 
 **Déploiement hérité d’origine**  
- ![ Diagramme montrant des états avant et après](media/voice-case-study-2.png)
+ ![ Diagramme montrant les états avant et après](media/voice-case-study-2.png)
 
 
 **Déploiement avec routage direct**
 
-![Diagramme montrant des états avant et après](media/voice-case-study-3.png)
+![Diagramme montrant les états avant et après](media/voice-case-study-3.png)
  
-## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Type de site C : combinaison de systèmes téléphoniques Skype Voix Entreprise et des systèmes de téléphonie hérités traditionnels
+## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Type de site C : combinaison de Skype Entreprise Voix Entreprise et de systèmes de téléphonie hérités traditionnels
 
-Contoso Skype Entreprise Voix Entreprise les numéros des utilisateurs résident sur la ligne SIP de la ligne SBC de l’opérateur. Les numéros des systèmes téléphoniques traditionnels résidant sur la ligne TDM de la passerelle PSTN.   
+Contoso Skype Entreprise Voix Entreprise les numéros des utilisateurs résident sur la ligne SIP du SBC de l’opérateur. Les numéros des systèmes téléphoniques traditionnels résidant sur la ligne TDM de la passerelle PSTN.   
 
 Contoso a basé sa décision sur les questions suivantes :
 
@@ -130,11 +130,11 @@ En se basant sur les réponses à leurs questions, Contoso a décidé des soluti
 
 - Pour les utilisateurs téléphoniques hérités qui seront activés pour le routage direct, Contoso a porté les numéros de la ligne TDM vers la ligne SIP pour le SBC, étant donné que le SBC est certifié pour le routage direct. 
 
-- Pour prendre en charge un sous-ensemble d’utilisateurs qui passe au système téléphonique et pour permettre un routage continu via le système hérité, le système de téléphonie hérité a été créé comme le prochain saut vers le SBC.   
+- Pour prendre en charge un sous-ensemble d’utilisateurs qui passe à Système téléphonique et pour permettre un routage continu via le système hérité, le système de téléphonie hérité a été installé comme le prochain saut vers le SBC.   
 
-- En outre, pour encourager le changement de comportement des utilisateurs et supprimer la dépendance vis-à-vis des numéros d’extension inter et intra-sites, Contoso a fourni des conseils pour utiliser Teams pour tous les appels internes.  
+- En outre, pour encourager le changement de comportement des utilisateurs et supprimer la dépendance vis-à-vis des numéros d’extension inter et intra-sites, Contoso a fourni des conseils pour l’utilisation de Teams pour tous les appels internes.  
 
-Les diagrammes suivants montrent le déploiement d’origine de la version Voix Entreprise et de l’ancien système téléphonique Skype Entreprise, et la migration vers un déploiement mixte à l’aide du routage direct :
+Les diagrammes suivants montrent le réseau d Skype Entreprise Voix Entreprise et l’ancien déploiement du système téléphonique et la migration vers un déploiement mixte à l’aide du routage direct :
 
 **Déploiement mixte d’origine** 
  ![ Diagramme montrant avant l’état](media/voice-case-study-4.png)
@@ -156,9 +156,9 @@ Pour déterminer les configurations requises pour les plans d’appels, Contoso 
 
 ## <a name="direct-routing"></a>Routage direct
 
-Contoso a participé à Ignite pour rester à jour sur les fonctionnalités d’Office 365, y compris celles disponibles avec le système téléphonique et le routage direct. Les dirigeants techniques et les architectes ont utilisé les conseils fournis lors de l’édition d’Ignite 2019 pour déterminer leur direction.  Sessions clés utilisées : 
+Contoso a participé à Ignite pour rester à jour sur les fonctionnalités Office 365 y compris celles disponibles avec un système Téléphone et un routage direct. Les dirigeants techniques et les architectes ont utilisé les conseils fournis lors de l’édition d’Ignite 2019 pour déterminer leur direction.  Sessions clés utilisées : 
 
-- [Planifier le succès avec le routage direct de Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
+- [Planifier le succès avec Microsoft Teams routage direct](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
 - [Mises à jour pour le routage direct](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
@@ -169,13 +169,13 @@ Contoso a participé à Ignite pour rester à jour sur les fonctionnalités d’
 
 Pour obtenir des licences et attribuer des numéros de téléphone aux utilisateurs, Contoso a suivi les étapes de la procédure [Configurer les forfaits d’appels.](set-up-calling-plans.md) 
 
-En raison du nombre d’utilisateurs devant se voir attribuer des numéros de téléphone, Contoso a décidé d’utiliser PowerShell pour affecter les numéros de téléphone. Pour découvrir comment attribuer des numéros à l’aide de PowerShell en plus d’autres paramètres, Contoso a utilisé la vue d’ensemble &mdash; &mdash; de Teams [PowerShell.](teams-powershell-overview.md)  
+En raison du nombre d’utilisateurs devant se voir attribuer des numéros de téléphone, Contoso a décidé d’utiliser PowerShell pour affecter les numéros de téléphone. Pour découvrir comment affecter des nombres à l’aide de PowerShell en plus d’autres paramètres, Contoso a utilisé la Teams vue d’ensemble &mdash; &mdash; de [PowerShell.](teams-powershell-overview.md)  
 
 ### <a name="direct-routing-sites"></a>Routage direct des sites
 
-Pour connecter l’infrastructure téléphonique locale de Contoso à Microsoft Teams, l’administrateur de Contoso a suivi les étapes de la procédure Configurer le [routage](direct-routing-configure.md) direct et examiné la vidéo [Routage](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) direct dans Microsoft Teams pour obtenir des instructions.  Contoso fait également référence à la documentation relative au déploiement du routage direct par le fournisseur SBC certifié. 
+Pour connecter l’infrastructure téléphonique locale de Contoso à Microsoft Teams, l’administrateur de Contoso a suivi les étapes de la procédure Configurer le routage direct et examiné la vidéo [Routage](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) direct dans Microsoft Teams pour obtenir des instructions. [](direct-routing-configure.md)  Contoso fait également référence à la documentation relative au déploiement du routage direct par le fournisseur SBC certifié. 
 
-Une fois le routage direct configuré entre le système SBC et Microsoft Phone System, Contoso doit tester la configuration. Pour ce faire, les administrateurs Contoso ont utilisé le client de test SIP évoqué lors de la session Mises à jour pour le routage direct sur [Ignite 2019.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) Le script et la documentation du client siP Tester ont été téléchargés à partir du script PowerShell pour tester les connexions du contrôleur de bordure de session de routage direct.   
+Une fois le routage direct configuré entre le SBC et le Téléphone Microsoft, Contoso devait tester la configuration. Pour ce faire, les administrateurs Contoso ont utilisé le client de test SIP évoqué lors de la session Mises à jour pour le routage direct sur [Ignite 2019.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) Le script et la documentation du client siP Tester ont été téléchargés à partir du script PowerShell pour tester les connexions du contrôleur de bordure de session de routage direct.   
 
 
 ### <a name="local-media-optimization"></a>Optimisation des médias locaux
@@ -196,7 +196,7 @@ Contoso a vu l’opportunité de tirer parti de l’optimisation des médias loc
 
 ## <a name="networking-considerations"></a>Considérations en relation avec la mise en réseau
 
-Contoso avait un nombre d’utilisateurs qui devaient travailler à distance pendant une période prolongée après avoir été activés pour Phone System. Les utilisateurs ont utilisé un réseau VPN pour accéder à certaines applications Métier. Sur un réseau VPN, les utilisateurs du système téléphonique ont connu une dégradation de la qualité des appels. 
+Contoso avait un nombre d’utilisateurs qui devaient travailler à distance pendant une période prolongée après avoir été activés pour Système téléphonique. Les utilisateurs utilisaient le vpn pour accéder à certaines applications Métier. Sur un réseau VPN, les Système téléphonique utilisateurs ont connu une dégradation de la qualité des appels. 
 
-Pour résoudre le problème de qualité, Contoso a implémenté la tunnelliser fractionnée VPN, qui permettait à son trafic Office 365 de traverser Internet alors que la connexion aux applications internes restait sur le VPN. Pour implémenter la tunnelliser fractionnement VPN, Contoso a suivi les recommandations de la tunnelliser fractionnement [VPN pour Office 365.](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
+Pour résoudre le problème de qualité, Contoso a implémenté la tunnelliser fractionnée VPN, qui permettait à leur trafic Office 365 de traverser Internet alors que la connexion aux applications internes restait sur le VPN. Pour implémenter la tunnelliser fractionnement VPN, Contoso a suivi les recommandations de la tunnelliser fractionnement [VPN pour Office 365.](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
 

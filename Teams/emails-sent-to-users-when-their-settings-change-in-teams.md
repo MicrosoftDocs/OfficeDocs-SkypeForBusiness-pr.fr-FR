@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférences téléphoniques dans Microsoft Teams. '
+description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence Microsoft Teams. '
 ms.openlocfilehash: a9ca30e7e701afca2e42eccfaef4f3d45660cd3a
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.locfileid: "51120755"
 
 Les messages électroniques seront automatiquement envoyés aux utilisateurs activés pour l’audioconférence en utilisant Microsoft comme fournisseur de services d’audioconférence. [](set-up-audio-conferencing-in-teams.md)
 
-Par défaut, quatre types de messages électroniques sont envoyés aux utilisateurs activés pour l’audioconférence. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. Dans Microsoft 365 ou Office 365, audioconférence enverra un courrier électronique à vos utilisateurs dans les cas ci-après :
+Par défaut, quatre types de messages électroniques sont envoyés aux utilisateurs activés pour l’audioconférence. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. L’audioconférence dans Microsoft 365 ou Office 365 permet d’envoyer un courrier électronique à vos utilisateurs dans les cas ci-après :
 
 - **Une licence d’audioconférence leur est affectée ou lorsque vous changez le fournisseur de services d’audioconférence en Microsoft.**
 
-     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, le code confidentiel de l’audioconférence de l’utilisateur, ainsi que les instructions et le lien d’utilisation de l’outil de mise à jour des réunions de Skype Entreprise Online pour mettre à jour les réunions existantes pour l’utilisateur. Consultez [Affecter des licences de module ou](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) Affecter Microsoft en tant que fournisseur de services [d’audioconférence.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, le code confidentiel de l’audioconférence pour l’utilisateur, ainsi que les instructions et le lien de l’outil de mise à jour des réunions en ligne Skype Entreprise pour l’utilisateur. Consultez [Affecter Microsoft Teams licences de modules add-on ou](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) Affecter Microsoft comme fournisseur de services [d’audioconférence.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
     > Si votre organisation a été activée pour les ID de conférence dynamiques, toutes les réunions d'un utilisateur planifiées auront un ID de conférence unique. Vous pouvez configurer des [ID dynamiques d’audioconférence dans votre organisation.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) 
@@ -45,7 +45,7 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
 
      ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Pour en savoir plus sur les licences, consultez [la gestion des licences de modules logiciels de la suite Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+    Pour en savoir plus sur les licences, voir [Microsoft Teams de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - **L'ID de conférence ou le numéro de téléphone par défaut d'une conférence pour un utilisateur change.**
 
@@ -67,7 +67,7 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
 
     Cela se produit lorsque la licence Audioconférence est supprimée d’un utilisateur ou lorsque vous attribuez au fournisseur de services d’audioconférence la définition **sur Aucun.** 
 
-    Voir [Attribuer ou supprimer des licences pour Microsoft 365 pour les entreprises.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+    Consultez [Attribuer ou supprimer des licences pour Microsoft 365 entreprise.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
 
     Voici un exemple de ce courrier électronique :
 
@@ -78,7 +78,7 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Modifier les courriers électroniques qui leur sont envoyés
 
-Vous pouvez apporter des modifications aux messages électroniques envoyés automatiquement aux utilisateurs. Par défaut, l’expéditeur des courriers électroniques est Microsoft 365 ou Office 365, mais vous pouvez modifier le nom d’affichage à l’aide de Windows PowerShell. Pour plus [d’informations, consultez la référence de Microsoft Teams PowerShell.](/powershell/module/teams/?view=teams-ps)
+Vous pouvez apporter des modifications aux messages électroniques envoyés automatiquement aux utilisateurs. Par défaut, l’expéditeur des courriers électroniques est de Microsoft 365 ou Office 365, mais vous pouvez modifier le nom d’affichage à l’aide de Windows PowerShell. Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Comment procéder si vous ne souhaitez pas leur envoyer de courriers électroniques ?
 
@@ -90,7 +90,7 @@ Par défaut, des courriers électroniques sont envoyés à vos utilisateurs, mai
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. En haut de la page Ponts **de** conférence, cliquez **sur Paramètres du pont.** 
+2. En haut de la page Ponts **de** conférence, cliquez sur **Paramètres du pont.** 
 
 3. Dans le **volet Paramètres du** pont, activez ou désactivez automatiquement l’envoi de courriers électroniques aux utilisateurs en cas de modification de **leurs paramètres de connexion.**
 
@@ -101,14 +101,14 @@ Par défaut, des courriers électroniques sont envoyés à vos utilisateurs, mai
 
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
-Pour plus [d’informations,](/powershell/module/teams/?view=teams-ps) consultez la référence Microsoft Teams PowerShell.
+Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)
 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Par défaut, l’expéditeur des courriers électroniques est Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell. 
+Par défaut, l’expéditeur des courriers électroniques est de Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell. 
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 à l’aide d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

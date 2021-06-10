@@ -47,7 +47,7 @@ ms.locfileid: "51098100"
 |Disponibilité de réseau mobile  <br/> | Oui. Disponible à tarif surtaxé <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |L'accès n'est pas garanti via les roamers mobiles internationaux.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

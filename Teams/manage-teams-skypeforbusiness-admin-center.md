@@ -1,5 +1,5 @@
 ---
-title: Gérer la transition de Teams vers le nouveau Centre d’administration Teams
+title: Gérer Teams transition vers le nouveau Centre Teams’administration
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Découvrez comment gérer les paramètres à l’échelle du client et de l’utilisateur pour Teams pendant la transition de Teams dans le Centre d’administration Microsoft 365 vers le nouveau Centre d’administration Teams.
+description: Découvrez comment gérer les paramètres à l’échelle du client et des utilisateurs pour Teams lors de la transition de Teams du Centre d’administration Microsoft 365 vers le nouveau Teams d’administration.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -34,29 +34,29 @@ ms.locfileid: "51100900"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Qu’est-ce que le nouveau Centre d’administration Microsoft Teams ?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Nouveautés du Centre d’Microsoft Teams’administration  
 
-La nouvelle expérience du Centre d’administration vous fournira une expérience unifiée pour gérer Teams et Skype Entreprise. Nous vous fournirons des fonctionnalités supplémentaires, des informations de bout en bout et la possibilité de gérer les paramètres Teams au niveau de l’utilisateur.
+La nouvelle expérience du Centre d’administration vous fournira une expérience unifiée pour gérer à la fois les Teams et les Skype Entreprise. Nous vous fournirons des fonctionnalités supplémentaires, des informations de bout en bout et nous avons la possibilité de gérer les paramètres Teams au niveau de l’utilisateur.
 
-![Capture d’écran du Centre d’administration Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Capture d’écran du Microsoft Teams d’administration.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migrés vers le nouveau Centre d’administration Microsoft Teams
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migré vers le nouveau Centre Microsoft Teams’administration
 
 Le tableau suivant identifie les sections de l’expérience Teams qui ont été migrées et indique la relation entre les paramètres actuels et les stratégies dans le nouveau portail d’administration.
 
-|Section de Teams dans le Centre d’administration Microsoft 365  |Nom du paramètre (niveau client)  |Politique du Centre d’administration Microsoft Teams   |Niveau : Client ou Utilisateur   |
+|Section des Teams du Centre Microsoft 365'administration  |Nom du paramètre (niveau client)  |Microsoft Teams centre d’administration   |Niveau : Client ou Utilisateur   |
 |---------|---------|---------|---------|
 |Général     |Afficher l’organigramme dans le profil personnel        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
-|Général     |Utiliser Skype Entreprise pour les destinataires qui n’ont pas Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des e-mails à des canaux         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Général     |Utilisez Skype Entreprise pour les destinataires qui ne l’ont pas Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des messages électroniques aux canaux         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Intégration de courrier électronique     |Autoriser la liste des expéditeurs         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
 |Stockage cloud personnalisé     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Stockage cloud personnalisé     |Dropbox        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Stockage cloud personnalisé     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Stockage cloud personnalisé     |Google Drive        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Stockage cloud personnalisé     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Paramètres par type d’utilisateur/licence     |Activer ou désactiver Microsoft Teams pour tous les utilisateurs          |Deprecated<sup>1</sup>        |         |
-|Équipes et canaux     |         |Redirige vers Azure Active Directory Group Management (même que l’expérience actuelle).              |Utilisateur         |
+|Paramètres par type d’utilisateur/licence     |Activer Microsoft Teams ou désactiver l’Microsoft Teams pour tous les utilisateurs          |Deprecated<sup>1</sup>        |         |
+|Équipes et canaux     |         |Redirige vers Azure Active Directory gestion des groupes (même que l’expérience actuelle).              |Utilisateur         |
 |Équipes et canaux     |         |Redirige vers la gestion de groupe AAD (identique à l’expérience actuelle).             |Utilisateur          |
 |Applications|Activer les applications externes nouvelles par défaut|Paramètres de l’application à l’échelle de l’organisation|Client|
 |Applications|Autoriser les applications externes|Paramètres de l’application à l’échelle de l’organisation|Client|
@@ -78,7 +78,7 @@ Le tableau suivant identifie les sections de l’expérience Teams qui ont été
 |Messagerie     |Autoriser les utilisateurs à supprimer leurs propres messages         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 |Messagerie     |Permet aux utilisateurs de discuter en privé         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 
-<sup>1</sup> Deprecated for Guest. L’activation ou la désactivation de l’invité peut désormais être gérée dans le Centre d’administration Microsoft Teams. L’activation ou la désactivation de Teams pour les entreprises, les étudiants pour l’éducation et les enseignants seront bientôt supprimés. Pour ce faire, vous devez affecter des licences dans le Centre d’administration Microsoft 365. Voir [Gérer l’accès des utilisateurs à Microsoft Teams.](user-access.md)
+<sup>1</sup> Deprecated for Guest. L’activation ou la désactivation de l’invité peut désormais être gérée dans le centre Microsoft Teams’administration. L’activation ou la désactivation Teams pour les Enterprise, l’éducation pour les étudiants et les enseignants de l’éducation seront bientôt désactivées. Pour ce faire, vous devez affecter des licences dans le Centre Microsoft 365'administration. Voir [Gérer l’accès des utilisateurs à Microsoft Teams.](user-access.md)
 <br><br>
 <sup>2 Le</sup> chargement débordage est fractioné comme suit :
 
@@ -88,7 +88,7 @@ Le tableau suivant identifie les sections de l’expérience Teams qui ont été
 <sup>3 Les</sup> applications et applications externes par défaut peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. En outre, les applications peuvent être bloquées au niveau du client dans les paramètres d’application à l’échelle de l’organisation qui remplacent tous les paramètres utilisateur et client.
 
 > [!NOTE]
-> Vous continuerez à utiliser le tableau de bord Groupes dans le Centre d’administration Microsoft 365 pour la configuration des équipes et des canaux. Les paramètres des applications restent dans la zone Teams du Centre d’administration Microsoft 365 et sont migrés ultérieurement.
+> Vous continuerez à utiliser le tableau de bord Groupes dans le Microsoft 365 d’administration pour la configuration liée à Teams et aux canaux. Paramètres pour applications est toujours dans la Teams du Centre Microsoft 365 d’administration et est migré plus tard.
 
 ## <a name="manage-settings-during-the-migration"></a>Gérer les paramètres pendant la migration
 
@@ -96,23 +96,23 @@ Vous pouvez continuer à modifier les paramètres dans le Centre d’administrat
 
 Le tableau suivant indique où vous pouvez gérer les fonctionnalités pendant la migration.
 
-|Fonctionnalité  |Centre d’administration Microsoft Teams                      |Centre d’administration Skype Entreprise (hérité)  |Centre d’administration Microsoft 365  |
+|Fonctionnalité  |Microsoft Teams d’administration                      |Skype Entreprise d’administration (hérité)  |Microsoft 365 d’administration  |
 |---------|:---------:|:---------:|:---------:|
-|Stratégies de messagerie, de réunions et d’événements en direct Teams     |     X    |         |         |
-|Stratégie de mise à niveau de Teams     |    X     |         |         |
+|Teams Stratégies de messagerie, de réunions et d’événements en direct     |     X    |         |         |
+|Teams Stratégie de mise à niveau     |    X     |         |         |
 |Paramètres invités pour la messagerie, les réunions et la voix     |   X      |         |         |
-|Gestion du cycle de vie Teams   |    X    |      |       |
-|Paramètres teams   |    X    |      |       |
+|Teams Gestion du cycle de vie   |    X    |      |       |
+|Teams Paramètres   |    X    |      |       |
 |Paramètres d’accès externe     |    X    |      |       |
 |Gestion des utilisateurs    |         |         |    X     |
 |Audioconférence     |    X     |    X     |         |
 |Forfaits d'appels     |    X    |    X     |         |
 |Système téléphonique    |    X    |     X    |         |
-|Gestion des numéros de téléphone     |    X    |   X      |         |
-|Licences pour les fonctionnalités vocales cloud     |         |         |    X     |
+|Téléphone gestion des nombres     |    X    |   X      |         |
+|Licences pour les fonctionnalités vocales dans le cloud     |         |         |    X     |
 |Les standards automatiques     |    X    |          |         |
 |Files d'attente des appels     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Gérer les paramètres après la migration
 
-Une fois la migration de ces paramètres terminée, nous les désactivons dans le Centre d’administration Microsoft 365 et dans le Centre d’administration Skype Entreprise. Ils peuvent ensuite être gérés dans le nouveau Centre d’administration Microsoft Teams.
+Une fois la migration de ces paramètres terminée, nous les désactivons dans le Centre d’administration Microsoft 365 et le Centre d’administration Skype Entreprise. Ils peuvent ensuite être gérés dans le nouveau Centre d’administration Microsoft Teams.

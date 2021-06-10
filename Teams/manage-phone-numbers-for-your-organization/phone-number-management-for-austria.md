@@ -1,5 +1,5 @@
 ---
-title: Gestion des numéros de téléphone en Autriche
+title: Téléphone gestion des nombres pour l’Autriche
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Autriche pour Microsoft Teams.
+description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Autriche Microsoft Teams.
 ms.openlocfilehash: b674db9df6b0c05757c912b83742717ed1456b59
 ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
@@ -26,15 +26,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/05/2021
 ms.locfileid: "50460664"
 ---
-# <a name="phone-number-management-for-austria"></a>Gestion des numéros de téléphone en Autriche
+# <a name="phone-number-management-for-austria"></a>Téléphone gestion des nombres pour l’Autriche
 
-Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Autriche pour Microsoft Teams.
+Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Autriche Microsoft Teams.
   
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur et de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour l’Autriche (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour l’Autriche (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/>  <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez obtenir de nouveaux numéros. <br/> 
+|Obtenez les nouveaux numéros de téléphone d’utilisateur et de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour l’Autriche (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour l’Autriche (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/>  <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez obtenir de nouveaux numéros. <br/> 
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Autriche (tous les nombres) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).  <br/> <br/>Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez transférer des numéros.<br/> |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

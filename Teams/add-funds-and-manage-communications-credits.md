@@ -39,17 +39,17 @@ ms.locfileid: "51121492"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
-Les crédits de communication sont un moyen pratique de payer des forfaits téléphoniques et d’appels dans Microsoft 365 ou Office 365. Les crédits de communication permettent de s’assurer que vous et vos utilisateurs ne risquez jamais d’être privés de la possibilité de :
+Les crédits de communication sont un moyen pratique de payer des forfaits Système téléphonique et des forfaits d’appels Microsoft 365 ou Office 365. Les crédits de communication permettent de s’assurer que vous et vos utilisateurs ne risquez jamais d’être privés de la possibilité de :
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
 
-- Sortant d’une réunion d’audioconférence pour ajouter une autre personne partout dans le monde.
+- Appel sortant d’une réunion d’audioconférence pour ajouter quelqu’un d’autre partout dans le monde.
 
-- Sortant d’une réunion d’audioconférence sur votre téléphone mobile avec l’application Skype Entreprise ou Microsoft Teams installée.
+- Dial out from an Audio Conferencing meeting to your mobile phone with the Skype Entreprise or Microsoft Teams app installed.
 
 - Composez n’importe quel numéro de téléphone international si vous avez un **plan d’appels nationaux.**
 
-- Appel sortant et paiement par minute une fois que vous avez épuisé votre allotment de minutes mensuelles.
+- Composez un numéro et payez par minute une fois que vous avez épuisé votre allotment de minutes mensuelles.
 
 > [!NOTE]
 > Si vous vous demandez combien cela coûte et quelles sont les tarifs, consultez le tableau des tarifs sur la page [Forfaits d’appels.](https://go.microsoft.com/fwlink/p/?LinkId=799523)
@@ -75,11 +75,11 @@ Vous pouvez consulter les plans et les tarifs en visitant l’un des liens suiva
 
 - [Plans d’audioconférence](https://go.microsoft.com/fwlink/?LinkId=799762 )
 
-- [Forfaits système téléphoniques](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Système téléphonique de projets](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Vous pouvez également consulter des informations en vous inscrivant au Centre d’administration Microsoft 365 et en vous inscrivant à l’abonnement  >  **de facturation** Ajouter des  >  **abonnements.**
+Vous pouvez également consulter des informations en vous Microsoft 365 au Centre d’administration de facturation et en vous rendez **sur**  >  **Abonnements de**  >  **facturation Ajouter des abonnements.**
   
-Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez la gestion des licences du module logiciel microsoft [Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -87,4 +87,4 @@ Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctio
 
 - [Configuration de la messagerie vocale Cloud : Aide pour l'administrateur](set-up-phone-system-voicemail.md)
 
-- [Configurer des forfaits d’appels](set-up-calling-plans.md) [et des forfaits d’appels pour Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
+- [Configurer des forfaits d’appels](set-up-calling-plans.md) [et des forfaits d’appels Microsoft 365 ou Office 365](calling-plans-for-office-365.md)

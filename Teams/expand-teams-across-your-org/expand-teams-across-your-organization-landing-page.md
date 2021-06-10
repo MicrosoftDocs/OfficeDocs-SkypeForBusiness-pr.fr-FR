@@ -1,6 +1,6 @@
 ---
 title: Développer Microsoft Teams au sein de votre organisation
-description: Découvrez les ressources disponibles pour créer le déploiement Teams standard afin de tirer le meilleur enseignement de Teams pour des types d’organisations spécifiques.
+description: Découvrez les ressources disponibles pour créer le déploiement d’Teams standard afin de tirer le meilleur Teams de types d’organisations spécifiques.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -24,7 +24,7 @@ ms.locfileid: "51121362"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Développer Microsoft Teams au sein de votre organisation
 
-Ces ressources s’appuient sur les conseils de déploiement standard de Teams et sont conçues pour vous aider à obtenir le meilleur partir de Teams pour des types d’organisations spécifiques. Si vous n’avez pas encore déployé Teams, consultez le chemin d’accès recommandé à Teams dans [Comment déployer Microsoft Teams.](../deploy-overview.md)
+Ces ressources s’appuient sur les conseils Teams déploiement standard et sont conçues pour vous aider à obtenir le meilleur Teams de types d’organisations spécifiques. Si vous n’avez pas encore Teams, consultez le chemin d’accès recommandé à Teams la manière de [déployer](../deploy-overview.md)Microsoft Teams.
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

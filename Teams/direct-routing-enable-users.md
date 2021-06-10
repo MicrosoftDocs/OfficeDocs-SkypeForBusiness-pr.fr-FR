@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment activer le routage direct de Microsoft Phone System.
+description: Découvrez comment permettre aux utilisateurs d Téléphone Microsoft routage direct du système.
 ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "51122218"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
 
-Cet article explique comment permettre aux utilisateurs d’obtenir un routage direct du système téléphonique.  Voici l’étape 2 de la procédure de configuration du routage direct :
+Cet article explique comment permettre aux utilisateurs d’obtenir Système téléphonique routage direct.  Voici l’étape 2 de la procédure de configuration du routage direct :
 
-- Étape 1. [Connecter le SBC à Microsoft Phone System et valider la connexion](direct-routing-connect-the-sbc.md) 
+- Étape 1. [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md) 
 - **Étape 2. Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale**   (cet article)
 - Étape 3. [Configurer le routage vocal](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
@@ -37,41 +37,41 @@ Pour plus d’informations sur les étapes requises pour configurer le routage d
 
 Lorsque vous êtes prêt à activer le routage direct pour les utilisateurs, suivez ces étapes : 
 
-1. Créez un utilisateur dans Microsoft 365 ou Office 365 et attribuez une licence Phone System. 
-2. Assurez-vous que l’utilisateur est bien domicile dans Skype Entreprise Online. 
+1. Créez un utilisateur dans Microsoft 365 ou Office 365 et attribuez une licence Système téléphonique utilisateur. 
+2. Assurez-vous que l’utilisateur est bien familialement Skype Entreprise Online. 
 3. Configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale. 
-4. Attribuer le mode Teams uniquement aux utilisateurs.
+4. Affectez Teams mode uniquement aux utilisateurs.
 
 ## <a name="create-a-user-and-assign-the-license"></a>Créer un utilisateur et attribuer la licence 
 
 Deux options s’offrent à vous pour créer un utilisateur dans Microsoft 365 ou Office 365. Toutefois, Microsoft recommande à votre organisation de choisir une option pour éviter les problèmes de routage : 
 
 - Créez l’utilisateur dans Active Directory local et synchronisez l’utilisateur avec le cloud. Consultez [Intégrer vos annuaires locaux à Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
-- Créez l’utilisateur directement dans le Centre d’administration Microsoft 365. Voir [Ajouter des utilisateurs individuellement ou en bloc à Microsoft 365 ou Office 365 - Aide de l’administrateur.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
+- Créez l’utilisateur directement dans le Microsoft 365 d’administration. Voir [Ajouter des utilisateurs individuellement ou en bloc Microsoft 365 ou Office 365 - Aide de l’administrateur.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Si votre déploiement Skype Entreprise Online coexiste avec Skype Entreprise 2015 ou Lync 2010 ou 2013 en local, la seule option prise en charge consiste à créer l’utilisateur dans l’Active Directory local et à le synchroniser avec le cloud (option 1). 
 
 Pour plus d’informations sur les conditions de licence, voir licences et [autres conditions requises](direct-routing-plan.md#licensing-and-other-requirements) dans [Planifier le routage direct.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Assurez-vous que l’utilisateur est domicile en ligne et que le numéro de téléphone n’est pas synchronisé à partir de l’emplacement local (applicable à Skype Entreprise Server Voix Entreprise pour les utilisateurs activés pour la migration vers le routage direct de Teams)
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Vérifier que l’utilisateur est domicile en ligne et que le numéro de téléphone n’est pas synchronisé à partir de l’ordinateur local (applicable aux utilisateurs Skype Entreprise Server Voix Entreprise en cours de migration vers Teams Routage direct)
 
-Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Le paramètre OnPremLineUriManuallySet doit également être réglé sur True. Pour ce faire, configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale à l’aide de Skype Entreprise Online PowerShell.
+Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans infra.lync.com domaine. Le paramètre OnPremLineUriManuallySet doit également être réglé sur True. Pour ce faire, configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale à l’aide de Skype Entreprise PowerShell en ligne.
 
-1. Connectez une session PowerShell Skype Entreprise Online.
+1. Connecter une session Skype Entreprise PowerShell online.
 
 2. Émettre la commande : 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Si OnPremLineUriManuallySet est configuré sur False et LineUri est rempli avec un> de numéro de téléphone <E.164, nettoyez les paramètres à l’aide de Skype Entreprise Management Shell sur site avant de configurer le numéro de téléphone à l’aide de Skype Entreprise Online PowerShell. 
+    Si OnPremLineUriManuallySet est configuré sur False et LineUri est rempli avec un> de numéro de téléphone <E.164, nettoyez les paramètres à l’aide de l’environnement de ligne Skype Entreprise Management Shell local avant de configurer le numéro de téléphone à l’aide de Skype Entreprise Online PowerShell. 
 
-1. Dans l’environnement de ligne de commande de Skype Entreprise Management Shell, vous pouvez émettre la commande : 
+1. À partir Skype Entreprise Management Shell, émettre la commande : 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
     ``` 
-   Une fois les modifications synchronisées avec Office 365, la sortie attendue `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` serait :
+   Une fois les modifications synchronisées sur Office 365 la sortie `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` attendue serait :
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -86,7 +86,7 @@ Après avoir créé l’utilisateur et attribué une licence, l’étape suivant
 
 Pour ajouter le numéro de téléphone et activer la messagerie vocale :
  
-1. Connectez une session PowerShell Skype Entreprise Online. 
+1. Connecter une session Skype Entreprise PowerShell online. 
 
 2. Émettre la commande : 
  
@@ -112,16 +112,16 @@ Pour ajouter le numéro de téléphone et activer la messagerie vocale :
     ```
     
     > [!NOTE]
-    > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’shell de gestion de Skype Entreprise local ou le Panneau de configuration pour configurer le numéro de téléphone de l’utilisateur. 
+    > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’shell de gestion Skype Entreprise local ou le Panneau de configuration pour configurer le numéro de téléphone de l’utilisateur. 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configuration de l’envoi d’appels directement sur la messagerie vocale
 
-Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à la messagerie vocale de l’utilisateur. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l’utilisateur de Teams ne recevra pas la notification d’appel, l’appel sera connecté à la messagerie vocale de l’utilisateur directement.
+Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à la messagerie vocale de l’utilisateur. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l Teams de l’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Attribuer le mode Teams uniquement aux utilisateurs pour garantir la qualité des appels dans Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Affecter Teams mode uniquement aux utilisateurs pour s’assurer que les appels sont bien Microsoft Teams
 
-Le routage direct nécessite que les utilisateurs soient en mode Teams uniquement pour s’assurer que les appels entrants arrivent dans le client Teams. Pour placer les utilisateurs en mode Teams uniquement, affectez-leur l’instance « UpgradeToTeams » de TeamsUpgradePolicy. Pour plus d’informations, voir [Stratégies de mise à niveau pour les administrateurs informatiques.](upgrade-to-teams-on-prem-implement.md) Si votre organisation utilise Skype Entreprise Server ou Skype Entreprise Online, consultez l’article suivant pour plus d’informations sur l’interopérabilité entre Skype et Teams : migration et interopérabilité avec [Skype Entreprise.](migration-interop-guidance-for-teams-with-skype.md)
+Le routage direct nécessite que les utilisateurs soient en Teams uniquement pour s’assurer que les appels entrants arrivent dans Teams client. Pour mettre les utilisateurs en Teams mode Uniquement, affectez-leur l’instance « UpgradeToTeams » de TeamsUpgradePolicy. Pour plus d’informations, voir [Stratégies de mise à niveau pour les administrateurs informatiques.](upgrade-to-teams-on-prem-implement.md) Si votre organisation utilise Skype Entreprise Server ou Skype Entreprise Online, consultez l’article suivant pour plus d’informations sur l’interopérabilité entre Skype et Teams : [migration](migration-interop-guidance-for-teams-with-skype.md)et interopérabilité avec Skype Entreprise.
 
 ## <a name="see-also"></a>Voir aussi
 

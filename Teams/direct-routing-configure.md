@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment configurer le routage direct de Microsoft Phone System pour connecter votre infrastructure téléphonique locale à Microsoft Teams.
+description: Découvrez comment configurer Téléphone Microsoft routage système direct pour connecter votre infrastructure téléphonique locale à Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -29,9 +29,9 @@ ms.locfileid: "51122238"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
-Le routage direct de Microsoft Phone System vous permet de connecter votre infrastructure téléphonique locale à Microsoft Teams. Cet article répertorie les étapes de haut niveau requises pour connecter un contrôleur de session en ligne local pris en charge au routage direct, et comment configurer les utilisateurs de Teams de façon à ce qu’ils utilisent le routage direct pour se connecter au réseau téléphonique commuté (PSTN). Cet article est associé à des articles pour plus d’informations.  
+Téléphone Microsoft Le routage direct du système vous permet de connecter votre infrastructure téléphonique locale à Microsoft Teams. Cet article répertorie les étapes de haut niveau requises pour connecter un contrôleur de session en ligne local pris en charge au routage direct, et comment configurer les utilisateurs d’Teams de façon à utiliser le routage direct pour se connecter au réseau téléphonique commuté (PSTN). Cet article intait des liens vers des articles associés pour plus d’informations.  
 
-Pour savoir si le routage direct est la solution adaptée à votre organisation, voir [Routage direct du](direct-routing-landing-page.md)système téléphonique. Pour plus d’informations sur les conditions préalables et la planification de votre déploiement, voir [Plan de routage direct.](direct-routing-plan.md)
+Pour savoir si le routage direct est la solution adaptée à votre organisation, voir [Système téléphonique routage direct.](direct-routing-landing-page.md) Pour plus d’informations sur les conditions préalables et la planification de votre déploiement, voir [Plan de routage direct.](direct-routing-plan.md)
 
 > [!Tip]
 > Vous pouvez également regarder la session suivante pour en savoir plus sur les avantages du routage direct, comment le planifier et comment le déployer : Routage direct [dans Microsoft Teams.](https://aka.ms/teams-direct-routing)
@@ -46,11 +46,11 @@ Avant d’effectuer la procédure de ces articles, Microsoft vous recommande de 
 - [Documentation sur le déploiement des systèmes TE (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Documentation sur le déploiement de metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-Pour obtenir la liste complète des SBCs pris en charge, consultez la liste des contrôleurs de session [certifiés pour le routage direct.](direct-routing-border-controllers.md)
+Pour obtenir la liste complète des SBCS pris en charge, consultez la liste des contrôleurs de session [certifiés pour le routage direct.](direct-routing-border-controllers.md)
 
-Pour configurer Microsoft Phone System et permettre aux utilisateurs d’utiliser le routage direct, suivez ces étapes : 
+Pour configurer Téléphone Microsoft routage direct et permettre aux utilisateurs d’utiliser le routage direct, suivez ces étapes : 
 
-- **Étape 1.** [Connecter le SBC à Microsoft Phone System et valider la connexion](direct-routing-connect-the-sbc.md)
+- **Étape 1.** [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md)
 - **Étape 2.** [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](direct-routing-enable-users.md)
 - **Étape 3.** [Configurer le routage vocal](direct-routing-voice-routing.md)
 - **Étape 4.** [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
@@ -58,7 +58,7 @@ Pour configurer Microsoft Phone System et permettre aux utilisateurs d’utilise
 Si vous configurez un SBC pour plusieurs locataires, vous pouvez également lire Configurer un SBC pour [plusieurs locataires.](direct-routing-sbc-multiple-tenants.md)
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 

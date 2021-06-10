@@ -1,5 +1,5 @@
 ---
-title: Gestion des numéros de téléphone pour la Suède
+title: Téléphone gestion des nombres pour la Suède
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -26,7 +26,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/05/2021
 ms.locfileid: "50460834"
 ---
-# <a name="phone-number-management-for-sweden"></a>Gestion des numéros de téléphone pour la Suède
+# <a name="phone-number-management-for-sweden"></a>Téléphone gestion des nombres pour la Suède
 
 Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Suède pour Microsoft Teams.
   
@@ -34,7 +34,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour la Suède (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour la Suède (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).|
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour la Suède (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour la Suède (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).|
 Obtenez des numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Suède (tous les nombres) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/> |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

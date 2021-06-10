@@ -1,5 +1,5 @@
 ---
-title: Gestion des numéros de téléphone pour les États-Unis
+title: Téléphone gestion des nombres pour les États-Unis
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone aux États-Unis (y compris à Porto Rico) pour Microsoft Teams.
+description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone aux États-Unis (y compris à Porto Rico) pour Microsoft Teams.
 ms.openlocfilehash: eb038804e7b5a448ac0fb7e9dd10e3d85b0f6eb0
 ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
@@ -29,18 +29,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/05/2021
 ms.locfileid: "50460844"
 ---
-# <a name="phone-number-management-for-the-united-states"></a>Gestion des numéros de téléphone pour les États-Unis
+# <a name="phone-number-management-for-the-united-states"></a>Téléphone gestion des nombres pour les États-Unis
 
-Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone aux États-Unis (y compris à Porto Rico) pour Microsoft Teams.
+Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone aux États-Unis (y compris à Porto Rico) pour Microsoft Teams.
 
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
 | Que voulez-vous faire ? | Suivez la procédure suivante et téléchargez les formulaires corrects |
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.  <br/> |Téléchargez ce formulaire.<br/>  [Nouvelle demande de numéro de téléphone pour les États-Unis (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Remplissez-le et [envoyez-le-nous](mailto:gcstnmsd@microsoft.com). |
-|Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation pour les États-Unis (numéros d’utilisateur et de service) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[Lettre d’autorisation pour les États-Unis (numéros gratuits) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**Remarque** Si vous essayez d’obtenir plus de 999 numéros de téléphone d’abonnés ou d’utilisateurs, vous devez remplir une lettre d’autorisation et nous l’envoyer. Pour plus [d’informations, voir](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) Transférer des numéros de téléphone dans Teams.          <br/>  <br/>   Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/> |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.  <br/> |Téléchargez ce formulaire.<br/>  [Nouvelle demande de numéro de téléphone pour les États-Unis (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Remplissez-le et [envoyez-le-nous](mailto:gcstnmsd@microsoft.com). |
+|Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation pour les États-Unis (numéros d’utilisateur et de service) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[Lettre d’autorisation pour les États-Unis (numéros gratuits) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**Remarque** Si vous essayez d’obtenir plus de 999 numéros de téléphone d’abonnés ou d’utilisateurs, vous devez remplir une lettre d’autorisation et nous l’envoyer. Pour plus [d’informations, voir Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) transfert de numéros de téléphone.          <br/>  <br/>   Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/> |
 |Modifier le numéro d’un utilisateur en numéro de service ou un numéro de service en numéro d’utilisateur  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) votre code confidentiel et la liste des nombres que vous souhaitez convertir. Pour configurer un code confidentiel, voir [ici.](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)  <br/> |
-|Transférer des numéros d’un Microsoft 365 ou d’Office 365 vers un autre.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, voir [ici.](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)  <br/> |
+|Transférer des numéros d’Microsoft 365 ou Office 365 vers un autre.  <br/> |[Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, voir [ici.](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)  <br/> |
 |Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes

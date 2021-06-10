@@ -27,16 +27,16 @@ ms.locfileid: "51122198"
 
 Cet article décrit les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Microsoft Teams. Cet article décrit la migration à partir des éléments suivants : 
  
-- Système téléphonique avec forfaits d’appels (pour Teams et Skype Entreprise Online) 
-- Système téléphonique avec connectivité PSTN sur site dans Skype Entreprise Server (pour Skype Entreprise Online)  
-- Système téléphonique avec connectivité PSTN en local à l’aide de la version Cloud Connector (pour Skype Entreprise Online)
+- Système téléphonique des forfaits d’appels (Teams et Skype Entreprise Online) 
+- Système téléphonique avec connectivité PSTN en local dans Skype Entreprise Server (Skype Entreprise Online)  
+- Système téléphonique la connectivité PSTN en local à l’aide de la version Cloud Connector (Skype Entreprise Online)
 
 
 En plus de ces étapes de configuration, la configuration est également requise sur le contrôleur de frontière de session (SBC) pour acheminer les appels vers le nouvel itinéraire. Cet élément n’est pas abordé dans ce document. Pour plus d'informations, consultez la documentation du fournisseur du contrôleur SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>État final de l’attribution d’utilisateurs pour différentes options de connectivité PSTN 
 
-Le tableau suivant indique l’état de fin d’un utilisateur approvisionnement pour les options de connectivité PSTN sélectionnées avec Phone System. Seuls les attributs concernant la voix sont affichés.
+Le tableau suivant indique l’état de fin d’un utilisateur approvisionnement pour les options de connectivité PSTN sélectionnées avec Système téléphonique. Seuls les attributs concernant la voix sont affichés.
 
 |Attributs d’objet utilisateur |Système téléphonique avec forfaits d’appels|Système téléphonique avec une connectivité PSTN en local via Skype Entreprise Server|Système téléphonique avec une connectivité PSTN via Cloud Connector|Système téléphonique avec une connectivité PSTN par routage direct|
 |---|---|---|---|---|
@@ -97,7 +97,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration à partir du système téléphonique Office 365 avec une connectivité PSTN en local via Cloud Connector Edition 
 
 > [!Important]
-> La version Cloud Connector prendra fin le 31 juillet 2021 en même temps que Skype Entreprise Online. Une fois que votre organisation a été mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](direct-routing-landing-page.md)
+> La version Cloud Connector prendra fin le 31 juillet 2021 en même temps que Skype Entreprise Online. Une fois que votre organisation a été Teams, découvrez comment connecter votre réseau téléphonique local à Teams’aide du [routage direct.](direct-routing-landing-page.md)
 
 Pour plus d’informations sur la migration à partir du système téléphonique avec une connectivité PSTN en local via Cloud Connector, voir :
 

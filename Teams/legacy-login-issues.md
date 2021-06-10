@@ -27,7 +27,7 @@ ms.locfileid: "51120605"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
 ==============================================================
 
-Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures de Teams ou s’ils se sont connectés avec d’autres applications.
+Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures d’Teams ou s’ils se sont connectés avec d’autres applications.
 
 ## <a name="legacy-adu-setups"></a>Configurations ADU héritées
 
@@ -40,9 +40,9 @@ Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des 
 > [!NOTE]
 > Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver.
 
-Pour plus [d’informations, voir](sign-in-teams.md) Se connectez-vous à Microsoft Teams à l’aide de l’authentification moderne.
+Pour [plus d’informations, voir Se Microsoft Teams à l’aide](sign-in-teams.md) de l’authentification moderne.
 
-## <a name="skype-token-revocation"></a>Révocation de jeton Skype
+## <a name="skype-token-revocation"></a>Skype révocation de jeton
 
 Lors de la modification ou de la réinitialisation d’un mot de passe, les clients plus anciens ne recevront pas de messages et d’appels pendant une heure. Pour résoudre ce problème, redémarrez l’application ou déplacez-vous vers des clients plus nouveaux.
 

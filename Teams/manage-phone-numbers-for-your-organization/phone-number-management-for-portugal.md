@@ -1,5 +1,5 @@
 ---
-title: Gestion des numéros de téléphone pour le Portugal
+title: Téléphone gestion des nombres pour le Portugal
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone au Portugal pour Microsoft Teams.
+description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone au Portugal Microsoft Teams.
 ms.openlocfilehash: a7df7688e4d2f7178d794158506560944923e265
 ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
@@ -26,15 +26,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/05/2021
 ms.locfileid: "50461034"
 ---
-# <a name="phone-number-management-for-portugal"></a>Gestion des numéros de téléphone pour le Portugal
+# <a name="phone-number-management-for-portugal"></a>Téléphone gestion des nombres pour le Portugal
 
-Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone au Portugal pour Microsoft Teams. 
+Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone au Portugal Microsoft Teams. 
   
 Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour le Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour le Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).<br/><br/> Vous devez également remplir un accord à trois parties, le signer et [nous l’envoyer.](mailto:ptneu@microsoft.com) Ce formulaire vous sera envoyé par notre équipe de service PSTN une fois que vous aurez passé une commande pour obtenir de nouveaux numéros de téléphone. <br/><br/>|
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.   <br/> |Téléchargez l’un de ces formulaires. <br/>  [Nouvelle demande de numéro de téléphone pour le Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour le Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com).<br/><br/> Vous devez également remplir un accord à trois parties, le signer et [nous l’envoyer.](mailto:ptneu@microsoft.com) Ce formulaire vous sera envoyé par notre équipe de service PSTN une fois que vous aurez passé une commande pour obtenir de nouveaux numéros de téléphone. <br/><br/>|
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour le Portugal (tous les nombres) (v.5.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/> Vous devez également remplir un accord à trois parties, le signer et [nous l’envoyer.](mailto:ptneu@microsoft.com) Ce formulaire vous sera envoyé par notre équipe de service PSTN une fois que vous aurez passé une commande de transfert de numéros de téléphone.<br/><br/>|
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication.      <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

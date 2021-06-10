@@ -57,7 +57,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 ## <a name="calling-plans"></a>Forfaits d’appel
 > [!IMPORTANT]
-> Uniquement disponible via SoftBank pour les locataires japonais. Pour plus d’informations, [voir SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan)
+> Uniquement disponible via SoftBank pour les locataires japonais. Pour plus d’informations, [voir SoftBank Calling for Office 365).](https://aka.ms/SoftBankVoicePlan)
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 |Est-il possible de passer des appels sortants ?  <br/> |Consultez [SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
-> Pour supprimer les numéros des utilisateurs (abonnés) au Japon (fournis par SoftBank), contactez directement SoftBank.
+> Pour supprimer les numéros des utilisateurs (abonnés) au Japon (fourni par SoftBank), contactez directement SoftBank.
 > Pour mettre à jour les informations d’adresse d’urgence des numéros des utilisateurs (abonnés) au Japon (fourni par SoftBank), contactez directement SoftBank.
 > Pour plus d’informations, [voir SoftBank Calling pour Office 365.](https://aka.ms/SoftBankVoicePlan)
 
@@ -88,7 +88,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

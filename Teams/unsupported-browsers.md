@@ -1,5 +1,5 @@
 ---
-title: Réunions Microsoft Teams sur des navigateurs non pris en compte
+title: Microsoft Teams réunions sur des navigateurs non pris en défaut
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,20 +23,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121312"
 ---
-# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Réunions Microsoft Teams sur des navigateurs non pris en compte
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams réunions sur des navigateurs non pris en défaut
 
-Certains navigateurs, tels qu’Internet Explorer 11, Safari et Firefox, ne supportent pas l’application web Microsoft Teams, mais pas certaines des fonctionnalités d’appel et de réunion de Teams. Pour contourner cette limitation, l’application web Teams permet aux utilisateurs de recevoir de l’audio via une connexion PSTN et leur permet d’afficher du contenu présenté (partage d’écran) à une vitesse d’affichage réduite.
+Certains navigateurs, tels qu’Internet Explorer 11, Safari et Firefox, peuvent utiliser l’application web Microsoft Teams, mais pas certaines des fonctionnalités d’appel et de réunion Teams’application. Pour contourner cette limitation, l’application web Teams permet aux utilisateurs de recevoir de l’audio via une connexion PSTN et leur permet d’afficher du contenu présenté (partage d’écran) à une vitesse d’affichage réduite.
 
 > [!Note]
-> Les applications et services Microsoft 365 ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à compter du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant [](/lifecycle/faq/internet-explorer-microsoft-edge) du système d’exploitation Windows et suit la politique de cycle de vie du produit sur lequel il est installé.
+> Microsoft 365 applications et services ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à partir du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du [](/lifecycle/faq/internet-explorer-microsoft-edge) Windows d’exploitation et suit la politique de cycle de vie du produit sur lequel il est installé.
 
-Lorsque Teams détecte un navigateur non pris en défaut, il affiche automatiquement un message expliquant le problème et les limites de la session. Le message fournit des instructions supplémentaires pour accéder à l’audio de la réunion, par exemple en conseillant à l’utilisateur de laisser un numéro de rappeler pour que Teams puisse appeler l’utilisateur, ou en lui demandez d’appeler le numéro de conférence inclus dans l’invitation à la réunion. Ce message encourage également l’utilisateur à télécharger et à utiliser le client de [bureau Teams](https://teams.microsoft.com/downloads) pour une expérience Teams complète.
+Lorsque Teams détecte un navigateur non pris en défaut, un message s’affiche automatiquement expliquant le problème et les limites de la session. Le message fournit des instructions supplémentaires pour accéder à l’audio de la réunion, par exemple en conseillant à l’utilisateur de laisser un numéro de rappeler afin que Teams puisse appeler l’utilisateur, ou en lui demandez d’appeler le numéro de conférence inclus dans l’invitation à la réunion. Ce message encourage également l’utilisateur à télécharger et à utiliser [Teams client](https://teams.microsoft.com/downloads) de bureau pour une expérience Teams entière.
 
 Si PSTN n’est pas disponible, l’utilisateur ne voit pas les instructions pour accéder à la réunion et ne peut pas participer à la réunion.
 
 ## <a name="browser-limitations"></a>Limites du navigateur
 
-Les personnes qui utilisent l’application web Teams sur des navigateurs non pris en défaut rencontreront les limitations suivantes :
+Les personnes qui utilisent Teams’application web sur des navigateurs non pris en Teams rencontreront les limitations suivantes :
 
 - Le son est disponible uniquement via une connexion RSTN. Les utilisateurs ne peuvent pas utiliser leur microphone.
 - Les utilisateurs ne peuvent pas partager leur caméra ni voir les vidéos des autres participants, mais peuvent afficher le contenu présenté via le partage d’écran basé sur les images.
@@ -46,8 +46,8 @@ Les personnes qui utilisent l’application web Teams sur des navigateurs non pr
 - Si l’appel est interrompu, la réunion ne se reconnecte pas automatiquement.
 - Les utilisateurs ne peuvent pas démarrer de réunions.
 
-Pour plus d’informations sur la prise en charge du navigateur dans Teams, voir [Limites et spécifications pour Teams.](./limits-specifications-teams.md#browsers)
+Pour plus d’informations sur la prise en charge du navigateur Teams, voir [Limites et spécifications pour Teams.](./limits-specifications-teams.md#browsers)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Participer à une réunion Teams sur un navigateur non pris en défaut](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [Participer à Teams réunion sur un navigateur non pris en défaut](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

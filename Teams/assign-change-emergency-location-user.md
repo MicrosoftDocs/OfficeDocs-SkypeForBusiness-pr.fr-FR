@@ -27,17 +27,17 @@ ms.locfileid: "51102980"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Affecter ou modifier un emplacement d’urgence pour un utilisateur
 
-Lorsque vous planifiez des forfaits d’appels, vous devez affecter un emplacement d’urgence à chaque numéro de téléphone ou utilisateur. En Europe, l’emplacement d’urgence est associé au numéro de téléphone lorsque vous l’obtenez à partir de Microsoft 365 ou d’Office 365, ou lorsque vous transférez un numéro de téléphone vers Microsoft 365 ou Office 365. Aux États-Unis, l’emplacement d’urgence est associé au numéro de téléphone lorsqu’il est affecté à l’utilisateur. L’adresse de secours peut être modifiée si l’utilisateur à qui elle est affectée change d’emplacement. Pour plus d’informations sur les adresses de secours et les emplacements d’urgence, voir Que sont les emplacements d’urgence, les lieux d’urgence et le [routage des appels](./what-are-emergency-locations-addresses-and-call-routing.md)?
+Lorsque vous planifiez des forfaits d’appels, vous devez affecter un emplacement d’urgence à chaque numéro de téléphone ou utilisateur. En Europe, l’emplacement d’urgence est associé au numéro de téléphone lorsque vous l’obtenez à partir d’Microsoft 365 ou d’Office 365 ou lorsque vous transférez un numéro de téléphone vers Microsoft 365 ou Office 365. Aux États-Unis, l’emplacement d’urgence est associé au numéro de téléphone lorsqu’il est affecté à l’utilisateur. L’adresse de secours peut être modifiée si l’utilisateur à qui elle est affectée change d’emplacement. Pour plus d’informations sur les adresses de secours et les emplacements d’urgence, voir Que sont les emplacements d’urgence, les lieux d’urgence et le [routage des appels](./what-are-emergency-locations-addresses-and-call-routing.md)?
   
-Pour savoir comment obtenir un plan d’appel et combien cela coûte, consultez la gestion des [licences de module supplémentaire Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour savoir comment obtenir un plan d’appels et connaître son prix, consultez Teams [licences de module supplémentaire.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
+Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur dans le centre d Microsoft Teams’administration ou à l’aide de PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur **Numéros de**  >  **téléphone vocal.**
+1. Dans le navigation gauche du Centre d Microsoft Teams' administration, cliquez sur **Les** numéros Téléphone  >  **voix.**
 
-2. Dans la page **Numéros de** téléphone, cliquez sur **l’onglet** Numéros, sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur **Modifier.**
+2. Dans la page **Téléphone nombres,** cliquez sur l’onglet Nombres, sélectionnez un numéro d’utilisateur dans la liste, puis cliquez sur  **Modifier.**
 
 3. Dans le **volet Édition,** sous Emplacement **d’urgence,** faites l’une des opérations suivantes :
 
@@ -54,9 +54,9 @@ Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur 
 Voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser) 
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Affecter ou modifier un lieu pour un emplacement d’urgence pour un utilisateur](assign-change-emergency-place-user.md)

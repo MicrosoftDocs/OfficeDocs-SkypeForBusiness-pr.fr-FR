@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de voix et d’appel dans Teams
+title: Gérer les stratégies de voix et d’appel Teams
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: En savoir plus sur les stratégies de voix et d’appel de Teams.
+description: Découvrez les stratégies Teams voix et d’appel.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -22,19 +22,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/05/2021
 ms.locfileid: "50460584"
 ---
-# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gérer les stratégies de voix et d’appel dans Microsoft Teams
+# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gérer les stratégies de voix et d’appel Microsoft Teams
 
-Les stratégies de voix et d’appel sont utilisées pour contrôler la voix et les appels dans Microsoft Teams.
+Les stratégies de voix et d’appel sont utilisées pour contrôler la voix et les appels Microsoft Teams.
 
 ## <a name="emergency-calling-policies"></a>Stratégies d’appel d’urgence
 
-Les stratégies [d’appel d’urgence](manage-emergency-calling-policies.md) vous permet de configurer ce qui se passe lorsqu’un utilisateur de votre organisation effectue un appel d’urgence. Ces stratégies sont gérées dans le Centre d’administration Teams ou à l’aide Windows PowerShell.
+Les stratégies [d’appel d’urgence](manage-emergency-calling-policies.md) vous permet de configurer ce qui se passe lorsqu’un utilisateur de votre organisation effectue un appel d’urgence. Ces stratégies sont gérées dans le Centre Teams’administration ou à l’aide Windows PowerShell.
 
 ![Capture d’écran de la stratégie d’appel d’urgence.](media/emergency-calling-policy2.png)
 
 ## <a name="emergency-call-routing-policies"></a>Stratégies de routage d’appel d’urgence
 
-Si votre organisation a déployé le routage direct du système **téléphonique,** vous pouvez utiliser des stratégies de [routage](manage-emergency-call-routing-policies.md) des appels d’urgence pour déterminer où les appels d’urgence sont acheminés, si les services d’urgence améliorés sont activés et les numéros utilisés pour les services d’urgence. Ces stratégies sont gérées à l’aide de PowerShell ou dans le Centre d’administration Microsoft Teams.
+Si votre organisation **Système téléphonique** déployé un routage direct, vous pouvez utiliser des stratégies de [routage](manage-emergency-call-routing-policies.md) des appels d’urgence pour déterminer où les appels d’urgence sont acheminés, si les services d’urgence améliorés sont activés et les numéros utilisés pour les services d’urgence. Ces stratégies sont gérées à l’aide de PowerShell ou dans le Microsoft Teams d’administration.
 
 ![Capture d’écran de la stratégie de routage des appels d’urgence.](media/emergency-call-routing-policy.png)
 
@@ -46,7 +46,7 @@ Si votre organisation a déployé le routage direct du système **téléphonique
 
 ## <a name="voice-routing-policies"></a>Stratégies de routage voix
 
-Une [stratégie de routage vocal](manage-voice-routing-policies.md) est un conteneur pour les enregistrements d’utilisation de réseau téléphonique commuté (PSTN). Vous pouvez utiliser ces stratégies si votre organisation a déployé le routage direct du système **téléphonique.** Les stratégies de routage vocal peuvent être gérées avec PowerShell ou dans le Centre d’administration Teams.
+Une [stratégie de routage vocal](manage-voice-routing-policies.md) est un conteneur pour les enregistrements d’utilisation de réseau téléphonique commuté (PSTN). Vous pouvez utiliser ces stratégies si votre organisation a déployé Système téléphonique **routage direct.** Les stratégies de routage voix peuvent être gérées avec PowerShell ou dans le Teams d’administration.
 
 ![Capture d’écran de la stratégie de routage vocal.](media/voice-routing-policy.png)
 
@@ -64,17 +64,17 @@ Une [stratégie de routage vocal](manage-voice-routing-policies.md) est un conte
 
 ## <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
-[Les plans de numérotation](create-and-manage-dial-plans.md) traduisent les numéros de téléphone à composer pour l’autorisation d’appel et le routage. Vous pouvez créer et gérer des plans de numérotation via PowerShell ou dans le Centre d’administration Microsoft Teams.
+[Les plans de numérotation](create-and-manage-dial-plans.md) traduisent les numéros de téléphone à composer pour l’autorisation d’appel et le routage. Vous pouvez créer et gérer des plans de numérotation via PowerShell ou dans le Microsoft Teams d’administration.
 
 ![Capture d’écran du plan de numérotation.](media/dial-plans.png)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
-* [Gérer les stratégies d’appel d’urgence dans Microsoft Teams](manage-emergency-calling-policies.md)
+* [Gérer les stratégies d’appels d’urgence Microsoft Teams](manage-emergency-calling-policies.md)
 * [Gérer les stratégies de routage d’appel d’urgence](manage-emergency-call-routing-policies.md)
 * [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](caller-id-policies.md)
 * [Gérer les stratégies de routage vocal](manage-voice-routing-policies.md)
 * [Stratégies de conservation dans Microsoft Teams](teams-calling-policy.md)
 * [Parcage et récupération d’appel dans Microsoft Teams](call-park-and-retrieve.md)
 * [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
-* [Gérer Teams avec des stratégies](manage-teams-with-policies.md)
+* [Gérer les Teams des stratégies](manage-teams-with-policies.md)

@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Consultez les étapes de Microsoft Teams pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
+description: 'Consultez Microsoft Teams pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
 ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51101090"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
-Il peut être plus facile de voir tous les paramètres d’audioconférence de Microsoft Teams au même endroit. 
+Il peut être plus facile de voir tous les paramètres d’audioconférence Microsoft Teams un seul endroit. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +40,20 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence de M
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences à l’aide de Teams. Vous devez utiliser le Centre d’administration Microsoft 365. Voir [Attribuer des licences de modules add-on Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> Vous ne pouvez pas attribuer de licences à l’aide Teams. Vous devez utiliser le Centre Microsoft 365'administration. Voir [Attribuer Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **Pour attribuer une licence à un utilisateur**
   
-1. Connectez-vous à Microsoft 365 à l’aide de votre compte scolaire ou scolaire.
+1. Connectez-vous Microsoft 365 votre compte scolaire ou scolaire.
     
-2. Dans le panneau de navigation gauche du Centre d’administration **Microsoft 365,** sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste des  >  utilisateurs disponibles.
+2. Dans le navigation gauche du centre **d’administration Microsoft 365,** sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste   >  des utilisateurs disponibles.
     
     > [!NOTE]
     > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**.  
   
 3. Dans le volet Action, sous **Licences de produit**, cliquez sur **Modifier**. 
     
-4. Dans la page **Licences de produits,** activer **l’audioconférence,** puis cliquer sur **Enregistrer.** Pour plus d’informations sur les licences, voir [Licences de modules logiciels de la suite Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+4. Sur la page **Licences de produits,** activer **l’audioconférence,** puis cliquer sur **Enregistrer.** Pour plus d’informations sur les [licences, Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
    > [!NOTE]
    > Une fois que vous avez attribué la licence, Microsoft peut ne pas apparaître initialement dans la liste en tant que fournisseur de services d’audioconférence. Dans ce cas, déconnectez-vous du Centre d’administration ou appuyez sur Ctrl+F5 pour actualiser la fenêtre du navigateur. 
@@ -73,17 +73,17 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence de M
     
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
-Pour plus [d’informations,](/powershell/module/teams/?view=teams-ps) consultez la référence Microsoft Teams PowerShell.
+Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)
   
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialisation de l'ID de conférence
 
-![Icône montrant le logo Teams à ](media/teams-logo-30x30.png) **l’aide du Centre d’administration Microsoft Teams**
+![Icône montrant le logo ](media/teams-logo-30x30.png) **Teams’aide du Centre Microsoft Teams’administration**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. Sous **Audioconférence,** cliquez sur **Réinitialiser l’ID de conférence.**  
 
-3. Dans la fenêtre **Réinitialiser l’ID de conférence** ? , cliquez sur **Réinitialiser.** Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
+3. Dans la fenêtre **Réinitialiser l’ID de conférence?** , cliquez sur **Réinitialiser.** Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
 
 Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -143,9 +143,9 @@ Consultez [Définir les numéros de téléphone inclus dans les invitations.](se
 
     Cette option est activée par défaut. Si vous désactivez cette option, les utilisateurs qui ont déjà rejoint la réunion par défaut ne seront pas informés de l’arrivée ou du départ d’une personne.
 
-4. Sous Type **d’annonce d’entrée/sortie,** sélectionnez **Sonnerie** **ou Noms ou des numéros de téléphone.** 
+4. Sous Type **d’annonce d’entrée/sortie,** sélectionnez **Sonnerie** **ou Noms ou numéros de téléphone.** 
 
-    Si vous choisissez Noms ou **numéros de téléphone,** vous pouvez également choisir d’activer ou de désactiver l’enregistrement du nom des appelants avant **de rejoindre la réunion.** 
+    Si vous choisissez Noms ou numéros **de téléphone,** vous pouvez également choisir d’activer ou de désactiver l’enregistrement du nom des appelants avant **de rejoindre la réunion.** 
     > [!NOTE]
     > Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants appelés. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes).
 
@@ -217,11 +217,11 @@ Consultez [la liste des numéros d’audioconférence.](see-a-list-of-audio-conf
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer Microsoft 365 ou Office 365 avec un seul point d’administration qui simplifiera votre travail si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
+Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
-  - [Pourquoi utiliser Microsoft 365 ou PowerShell Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures façons de gérer Microsoft 365 ou Office 365 avec Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
   

@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams. '
+description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le Microsoft Teams d’administration. '
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -27,27 +27,27 @@ ms.locfileid: "51121522"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Un emplacement d’urgence doit être associé à un numéro de téléphone, mais lorsque cela se produit, cette situation peut varier d’un pays ou d’une région à l’autre. Par exemple, aux États-Unis, vous devez associer un emplacement d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer un emplacement d’urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone de Microsoft 365 ou Office 365, ou transférez des numéros de téléphone à partir de votre fournisseur de services actuel.
+Un emplacement d’urgence doit être associé à un numéro de téléphone, mais lorsque cela se produit, cette situation peut varier d’un pays ou d’une région à l’autre. Par exemple, aux États-Unis, vous devez associer un emplacement d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer un emplacement d’urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d’Microsoft 365 ou Office 365 ou transférez des numéros de téléphone à partir de votre fournisseur de services actuel.
 
-Quel que soit le pays ou la région dans lesquels vous vous trouvez, vous pouvez ajouter un ou plusieurs emplacements à un emplacement d’urgence et supprimer un emplacement d’urgence. Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez créer des lieux pour des bâtiments, des étages et des bureaux. Voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
+Quel que soit le pays ou la région dans lesquels vous vous trouvez, vous pouvez ajouter un ou plusieurs emplacements à un emplacement d’urgence et supprimer un emplacement d’urgence. Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez créer des bâtiments, des étages et des bureaux. Voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Pour savoir comment obtenir un forfait d’appels et combien cela coûte, consultez la gestion des [licences de module supplémentaire Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Pour savoir comment obtenir un forfait d’appels et connaître son prix, consultez Teams [licences de module supplémentaire.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-Vous gérez les emplacements d’urgence pour votre organisation dans le Centre d’administration Microsoft Teams ou à l’aide de PowerShell.
+Vous gérez les emplacements d’urgence pour votre organisation via le Microsoft Teams d’administration de l’entreprise ou à l’aide de PowerShell.
   
 ## <a name="add-an-emergency-location"></a>Ajouter un emplacement d’urgence
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur  >  **Adresses d’urgence d’emplacements.**
+1. Dans le navigation gauche du centre d Microsoft Teams d’administration, cliquez sur   >  **Adresses d’urgence d’emplacements.**
 2. Cliquez sur **Ajouter**.
 3. Entrez un nom et une description pour l’emplacement.
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
-   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer avec succès un numéro de téléphone dans Microsoft 365 ou Office 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisé pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
+   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer correctement un numéro de téléphone à Microsoft 365 ou Office 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisé pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
 
-5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, activer la modification **manuelle de l’adresse.**
+5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, vous pouvez activer modifier l’adresse **manuellement.**
 6. Cliquez sur **Enregistrer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
@@ -58,7 +58,7 @@ Voir [New-CsOnlineLisCivicAddress.](/powershell/module/skype/new-csonlineliscivi
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur  >  **Adresses d’urgence d’emplacements.**
+1. Dans le navigation gauche du centre d Microsoft Teams d’administration, cliquez sur   >  **Adresses d’urgence d’emplacements.**
 2. Dans la liste, sélectionnez l’emplacement à modifier, puis cliquez sur **Modifier.**
 3. A apporter les modifications de votre souhaitez.
 4. Cliquez sur **Enregistrer**.
@@ -74,16 +74,16 @@ Voir [Set-CsOnlineLisCivicAddress.](/powershell/module/skype/set-csonlineliscivi
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur  >  **Adresses d’urgence d’emplacements.**
+1. Dans le navigation gauche du centre d Microsoft Teams d’administration, cliquez sur   >  **Adresses d’urgence d’emplacements.**
 2. Dans la liste, sélectionnez l’emplacement à supprimer, puis cliquez sur **Supprimer.**
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
 Voir [Remove-CsOnlineLisCivicAddress.](/powershell/module/skype/remove-csonlineliscivicaddress)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
