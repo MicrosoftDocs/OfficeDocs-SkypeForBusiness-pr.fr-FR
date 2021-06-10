@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Découvrez comment contrôler la façon dont les organisateurs peuvent utiliser des numéros gratuits pour leurs réunions de pont d’audioconférence.
+description: Découvrez comment contrôler la façon dont les organisateurs peuvent utiliser des numéros gratuits pour leurs réunions pont de conférence audio.
 ms.openlocfilehash: f9ab09396778b221ad7f5c016dbf7db76fcba030
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "51096344"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Désactiver les numéros gratuits pour des utilisateurs de Teams spécifiques
 
-Si votre organisation dispose de numéros gratuits dans son pont de conférence audio Microsoft, vous pouvez autoriser ou empêcher leur utilisation pendant les réunions d’organisateurs spécifiques.  
+Si votre organisation a des numéros gratuits dans son pont de conférence audio Microsoft, vous pouvez autoriser ou empêcher leur utilisation pendant les réunions d’organisateurs spécifiques.  
 
 Par défaut, tous les utilisateurs de votre organisation sont activés pour utiliser des numéros gratuits, ce qui signifie que ces numéros, s’ils sont disponibles, peuvent être utilisés par les participants pour rejoindre leurs réunions. Si ce n’est pas le comportement souhaité pour certains utilisateurs de votre organisation, vous pouvez restreindre l’utilisation de ces numéros par des utilisateurs spécifiques dans leurs réunions via un contrôle d' enablement de numéro gratuit. 
 
@@ -47,7 +47,7 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Désactiver les numéros gratuits pour des utilisateurs spécifiques 
 
-À partir du **Centre d’administration Microsoft Teams**:
+À partir du **Microsoft Teams d’administration :**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -63,4 +63,4 @@ Lorsque les numéros gratuits sont désactivés pour un organisateur donné :
  
 **Utiliser PowerShell**  
 
-Pour plus [d’informations,](/powershell/module/teams/?view=teams-ps) consultez la référence Microsoft Teams PowerShell.
+Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)

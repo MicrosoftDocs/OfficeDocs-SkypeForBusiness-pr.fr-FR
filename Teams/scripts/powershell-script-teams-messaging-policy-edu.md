@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour créer une stratégie de messagerie dans Teams et l’affecter aux utilisateurs de votre organisation.
+description: Utilisez ce script PowerShell pour créer une stratégie de messagerie dans Teams et l’affecter à des utilisateurs de votre organisation.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -28,16 +28,16 @@ ms.locfileid: "51117272"
 
 Utilisez ce script PowerShell pour créer une stratégie de messagerie dans Microsoft Teams et l’affecter à des utilisateurs. 
 
-Pour plus d’informations sur l’utilisation de ce script PowerShell, voir [Démarrage rapide - Teams pour l’éducation.](../teams-quick-start-edu.yml)
+Pour plus d’informations sur l’utilisation de ce script PowerShell, voir Démarrage [rapide - Teams Éducation.](../teams-quick-start-edu.yml)
 
-Ce script utilise l’cmdlet [Grant-CsTeamsMesspolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) qui se trouve dans le module PowerShell de Skype Entreprise Online. Consultez [la vue d’ensemble de Teams PowerShell](../teams-powershell-overview.md) pour en savoir plus sur la gestion des équipes à l’aide de PowerShell.
+Ce script utilise l’cmdlet [Grant-CsTeamsMesspolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) qui se trouve dans le module Skype Entreprise Online PowerShell. Consultez [Teams vue d’ensemble de PowerShell](../teams-powershell-overview.md) pour en savoir plus sur la gestion des Teams à l’aide de PowerShell.
 
 
 ## <a name="before-you-start"></a>Avant de commencer
 
-Téléchargez et installez [le module PowerShell Skype](https://www.microsoft.com/download/details.aspx?id=39366)Entreprise Online, puis redémarrez votre ordinateur si vous y êtes invité.
+Téléchargez et installez [le module Skype Entreprise PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)online, puis redémarrez votre ordinateur si vous y êtes invité.
 
-Pour en savoir plus, [consultez Gérer Skype Entreprise Online avec PowerShell Office 365.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Pour en savoir plus, [voir Gérer Skype Entreprise Online avec Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Exemple de script
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Vous pouvez également affecter une stratégie de messagerie directement aux utilisateurs à l’échelle via une affectation de stratégie de lot ou à un groupe dont les utilisateurs sont membres. Pour plus d’informations, voir Attribuer des stratégies à un grand [nombre](../batch-group-policy-assignment-edu.md) d’utilisateurs dans votre établissement scolaire et Attribuer des stratégies [à vos utilisateurs dans Teams.](../assign-policies.md)
+> Vous pouvez également affecter une stratégie de messagerie directement aux utilisateurs à l’échelle via une affectation de stratégie de lot ou à un groupe dont les utilisateurs sont membres. Pour plus d’informations, voir [Attribuer](../batch-group-policy-assignment-edu.md) des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire et Attribuer des stratégies à vos utilisateurs [dans Teams.](../assign-policies.md)

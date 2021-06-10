@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits en Espagne, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
+description: En savoir plus sur la numérotation des numéros gratuits en Espagne, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
 ms.openlocfilehash: 137c038f8369f21871d755397967b445535dd192
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -41,13 +41,13 @@ ms.locfileid: "51116612"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |900 XXX XXX  <br/> |
 |Code ISO de pays/région  <br/> |ES  <br/> |
-|Île/territoire couvert(s)  <br/> |Îles Baléares et Îles Canaries  <br/> |
+|Île/territoire couvert par  <br/> |Îles Baléares et Îles Canaries  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Identification mobile utilisant des impulsions différentes disponible.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

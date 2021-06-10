@@ -1,5 +1,5 @@
 ---
-title: Masquez les numéros de téléphone dans les réunions Microsoft Teams
+title: Masquage des numéros de téléphone Microsoft Teams réunions
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrir comment masquage des numéros de téléphone dans les réunions Microsoft Teams
+description: Découvrir comment masquer des numéros de téléphone dans Microsoft Teams réunions
 ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,17 +25,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117712"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Masquez les numéros de téléphone dans les réunions Microsoft Teams
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Masquage des numéros de téléphone Microsoft Teams réunions
 
-Pour une confidentialité supplémentaire, les numéros de téléphone des participants qui se appellent à une réunion Teams à l’aide de l’audioconférence sont entièrement affichés aux participants internes. Les numéros sont masqués des participants extérieurs à votre organisation. Ce paramètre est le paramètre par défaut pour toutes les organisations. Le nombre masqué s’affiche comme illustré dans l’image suivante :
+Pour une confidentialité supplémentaire, les numéros de téléphone des participants qui appellent une réunion Teams à l’aide de l’audioconférence sont entièrement affichés aux participants internes. Les numéros sont masqués des participants extérieurs à votre organisation. Ce paramètre est le paramètre par défaut pour toutes les organisations. Le nombre masqué s’affiche comme illustré dans l’image suivante :
 
 ![Exemple de numéro de téléphone masqué](media/hiddenPhoneNum.png)
 
 Pour des cas d’utilisation spécifiques dans le secteur, les administrateurs ont la possibilité de choisir l’organisation des numéros de téléphone des participants à l’audioconférence dans les réunions organisées dans leur client. Les administrateurs ont le choix entre trois options :
 
-- Les numéros de téléphone ne sont masqués que pour les participants externes. Les participants qui appartiennent au client de l’organisateur de la réunion voient toujours le numéro de téléphone complet.
-- Les numéros de téléphone sont masqués pour toutes les personnes de la réunion à l’exception de l’organisateur.
-- Les numéros de téléphone ne sont pas tâches, ce qui les rend visibles à tous les autres personnes de la réunion.
+- Téléphone de participants externes sont masqués uniquement. Les participants qui appartiennent au client de l’organisateur de la réunion voient toujours le numéro de téléphone complet.
+- Téléphone numéros sont masqués pour toutes les personnes de la réunion à l’exception de l’organisateur.
+- Téléphone numéros de réunion ne sont pas tâches, ce qui les rend visibles à tous les autres personnes de la réunion.
 
 Ce paramètre s’applique à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
 

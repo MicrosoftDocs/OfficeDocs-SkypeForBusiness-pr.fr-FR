@@ -29,7 +29,7 @@ Cet article décrit comment utiliser des périphériques analogiques avec un Sys
 
 Lorsqu’un utilisateur effectue un appel à partir d’un appareil analogique, le trafic de signalisation et le trafic de médias circulent entre la carte téléphonique analogique (ATA) et le SBC.  Le SBC envoie l’appel à un point de terminaison Microsoft Teams public ou au réseau téléphonique commuté (PSTN) basé sur la table de routage interne.  Quand un appareil effectue un appel, l’itinéraire qu’il prend dépend des stratégies de routage créées pour l’appareil.
 
-Dans le diagramme suivant, le routage direct est configuré de façon à ce que les appels Teams vers et à partir des numéros entre +1425 4XX XX XX et +1425 5XX XX XX doivent suivre l’itinéraire rouge (ligne en pointillés), et les appels PSTN entre +1425 4XX XX XX et tout autre nombre à l’exception de la plage de numéros +1425 5XX XX XX doivent prendre le itinéraire bleu (trait plein). 
+Dans le diagramme suivant, le routage direct est configuré de façon à ce que tout Teams appelant et provenant des numéros entre +1425 4XX XX XX et +1425 5XX XX XX doit suivre le itinéraire rouge (ligne en pointillés), et tout appel PSTN entre +1425 4XX XX XX et tout autre nombre à l’exception de la plage de numéros +1425 5XX XX XX doit prendre le itinéraire bleu (trait plein). 
 
 > [!div class="mx-imgBorder"]
 > ![Diagramme montrant la configuration du routage direct](media/direct-routing-analog-device.png)

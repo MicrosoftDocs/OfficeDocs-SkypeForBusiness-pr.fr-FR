@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Sri Lanka.
+description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour le Sri Lanka.
 ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "51096464"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Sri Lanka.
+Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour le Sri Lanka.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. Si vous souhaitez obtenir des numéros de téléphone dédiés, consultez Obtenir des numéros de[téléphone de service pour Skype Entreprise et Microsoft Teams.](../getting-service-phone-numbers.md)  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> | Les numéros de téléphone ne sont pas liés à une ville ou un emplacement spécifique. Si vous souhaitez des numéros de téléphone dédiés, consultez Obtenir des numéros de[téléphone de service pour Skype Entreprise et Microsoft Teams.](../getting-service-phone-numbers.md)  <br/> |
 |Possibilité d'appel sortant à l'aide de la fonctionnalité Appelez-moi  <br/> |Nécessite des crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

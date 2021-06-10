@@ -26,14 +26,14 @@ ms.locfileid: "51117282"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
-Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies Microsoft Teams dans votre établissement scolaire. [L’affectation de stratégie à des](../assign-policies.md#assign-a-policy-to-a-group) groupes dans Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
+Utilisez ce script PowerShell pour créer les groupes de sécurité que vous devez gérer Microsoft Teams de votre établissement scolaire. La [fonctionnalité d’affectation](../assign-policies.md#assign-a-policy-to-a-group) de stratégie à des groupes Teams vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
 Ce script PowerShell crée deux groupes de sécurité, un pour le personnel et les enseignants, et l’autre pour les étudiants de votre établissement, sur la base du type de licence. Vous pouvez ensuite affecter des stratégies aux groupes de sécurité que vous avez créés. Pour plus d’informations sur l’utilisation de ce script, voir Attribuer des stratégies à un grand nombre [d’utilisateurs de votre établissement scolaire.](../batch-group-policy-assignment-edu.md)
 
 Ce script suit :
 
 - Identifie le personnel et les enseignants affectés à une référence SKU pour les enseignants, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
-- Identifie les étudiants affectés à une référence SKU étudiant, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
+- Identifie les étudiants à qui une référence SKU est attribuée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
 - Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction de leur licence.
 
 Vous devrez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
@@ -43,9 +43,9 @@ Vous devrez exécuter ce script régulièrement pour maintenir les groupes de s�
 
 ## <a name="before-you-start"></a>Avant de commencer
 
-Téléchargez et installez [le module PowerShell Skype](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Entreprise Online, puis redémarrez votre ordinateur si vous y êtes invité.
+Téléchargez et installez [le module Skype Entreprise PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)online, puis redémarrez votre ordinateur si vous y êtes invité.
 
-Pour en savoir plus, voir [Gérer Skype Entreprise Online avec PowerShell Office 365](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et Teams [PowerShell.](../teams-powershell-overview.md)
+Pour en savoir plus, voir [Gérer Skype Entreprise Online avec Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) et Teams [PowerShell.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Exemple de script
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Attribuer des stratégies à vos utilisateurs](../assign-policies.md)

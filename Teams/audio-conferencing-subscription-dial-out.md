@@ -31,7 +31,7 @@ ms.locfileid: "51617766"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audio conferencing subscription « Dial-Out"/"Call Me At » minutes benefit
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Audioconférence PSTN Microsoft Teams et Skype Entreprise
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams et Skype Entreprise conférence PSTN
 
 Chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois qui peuvent être utilisées pour appeler des numéros non premium dans l’un des pays de la zone A, comme décrit dans le présent document. La taille de votre pool de minutes d’appels sortants client est basée sur *les licences* achetées. Cet avantage s’applique aux  licences d’abonnement mensuel à l’audioconférence et ne s’applique pas aux licences de paiement à la minute d’Audioconférence.
 
@@ -76,11 +76,11 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment surveiller l’utilisation de mes pool de minutes ?
 
-- Vous pouvez surveiller l’utilisation de votre pool de minutes d’appels sortants dans le Centre d’administration Microsoft Teams. Dans la barre de navigation de gauche, sélectionnez **Données d’analyse &** rapports d’utilisation des rapports, puis sélectionnez des groupes de minutes  >   **PSTN.** La réserve de minutes d’appels sortants de zone A est étiquetée dans le rapport comme « Appels sortants vers la zone A pays ».
+- Vous pouvez surveiller l’utilisation de votre pool de minutes d’appels sortants dans le Microsoft Teams d’administration. Dans la barre de navigation de gauche, sélectionnez **Données d’analyse &** rapports d’utilisation des rapports, puis sélectionnez des groupes de minutes  >   **PSTN.** La réserve de minutes d’appels sortants de zone A est étiquetée dans le rapport comme « Appels sortants vers la zone A pays ».
 - Les notifications par courrier électronique seront envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes d’appels sortants de votre organisation atteint les 80 % et 100 % :
 
   - Administrateur de facturation
-  - Administrateur Skype Entreprise
+  - Skype Entreprise Administrateur
   - Administrateur général 
   - Administrateur utilisateur
   - Administrateur du programme d’aide
@@ -93,7 +93,7 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
   - Administrateur Privileged Authentication
   - Administrateur des communications Teams
   - Ingénieur du support technique pour les communications Teams
-  - Spécialiste du support pour les communications Dans Teams
+  - Teams Spécialiste du support pour les communications
   - Administrateur Teams
 
 Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)

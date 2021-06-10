@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour le partage de contenu.
+description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams partage de contenu.
 ms.openlocfilehash: 7b318ad0025d6c68b041c65d8fbb78cbfbc87723
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -68,7 +68,7 @@ Si ce paramètre est activé pour l’utilisateur, l’option **Attribuer un con
 
 ![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
 
-Si le paramètre est désactivé pour  l’utilisateur, l’option Donner un contrôle n’est pas disponible.
+Si le paramètre est désactivé pour l’utilisateur, l’option **Donner le contrôle** n’est pas disponible.
 
 ![Capture d’écran montrant que l’option attribuer le contrôle n’est pas disponible](media/meeting-policies-give-control-not-available.png)
 
@@ -79,7 +79,7 @@ Examinons l’exemple suivant.
 |Daniela   | Global   | Activé       |
 |Babek    | Location1MeetingPolicy        | Désactivé   |
 
-Daniela peut donner le contrôle du Bureau ou de la fenêtre partagé aux autres participants d’une réunion organisée par Kék. Toutefois, il ne peut pas donner le contrôle aux autres participants.
+Daniela peut donner le contrôle du Bureau ou de la fenêtre partagé(e) aux autres participants d’une réunion organisée par Danielk. Toutefois, il ne peut pas donner le contrôle aux autres participants.
 
 Pour utiliser PowerShell afin de contrôler qui peut donner le contrôle ou accepter les demandes de contrôle, utilisez l’applet de commande AllowParticipantGiveRequestControl.
 

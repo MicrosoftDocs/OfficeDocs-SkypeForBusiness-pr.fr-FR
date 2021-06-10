@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour vous connecter à Skype Entreprise Online, notamment l’importation-module, l’environnement de ligne de commande simultané, l’ID Live ID et les erreurs d’autorisation.
-ms.openlocfilehash: 02952ea878424cb0b5e84337051c30660101d144
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d220fbbf9df22964833aa42bcd29c5ecaaa6eaa5
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238895"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856063"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
@@ -153,7 +153,7 @@ Pour utiliser PowerShell pour gérer Skype Entreprise Online, la propriété Ena
 
 Chaque administrateur est autorisé à avoir jusqu’à trois connexions distantes simultanées à Skype Entreprise Online. Si vous avez trois connexions PowerShell distantes en cours d’exécution, toute tentative d’établir une quatrième connexion simultanée échouera, avec le message d’erreur suivant :
 
-- **Erreur**: *New-PSSession : [admin.vdomain.com] La connexion au serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour cet utilisateur a été dépassé. Fermez les shells existants ou élèvez le quota pour cet utilisateur. Pour plus d’informations, voir [Résolution https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 des problèmes à distance] (*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] La connexion au serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour cet utilisateur a été dépassé. Fermez les shells existants ou élèvez le quota pour cet utilisateur. Pour plus d’informations, voir la [Résolution des problèmes à distance](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous en avez fini avec une session Skype Entreprise Online, nous vous recommandons d’utiliser l’cmdlet **Remove-PSSession** pour mettre fin à la session. Cela vous permettra d’éviter ce problème.
   
@@ -162,7 +162,7 @@ Chaque administrateur est autorisé à avoir jusqu’à trois connexions distant
 
 Bien que chaque administrateur soit autorisé à avoir jusqu’à trois connexions simultanées à un client Skype Entreprise Online, aucun client n’est autorisé à avoir plus de 20 connexions simultanées. Par exemple, six administrateurs peuvent avoir chacun trois sessions ouvertes. Si un quatrième administrateur tente d’établir plus de deux connexions (pour un total de 21 connexions simultanées), cette tentative échoue et le message d’erreur suivant s’agit :
   
-- **Erreur**: *New-PSSession : [admin.vdomain.com] La connexion au serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal de commandes simultanées pour ce client a été dépassé. Fermez des shells existants ou élèvez le quota pour ce client. Pour plus d’informations, voir [Résolution https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 des problèmes à distance] (*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] La connexion au serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal de commandes simultanées pour ce client a été dépassé. Fermez des shells existants ou élèvez le quota pour ce client. Pour plus d’informations, voir la [Résolution des problèmes à distance](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous en avez fini avec une session Skype Entreprise Online, nous vous recommandons d’utiliser l’cmdlet **Remove-PSSession** pour mettre fin à cette session. Cela vous permettra d’éviter ce problème.  
  

@@ -32,13 +32,13 @@ Une fois que vous avez choisi votre ou vos partenaires [Cloud Video Interop,](cl
 
 ## <a name="plan"></a>Plan
 
-Pour [plus d’informations](cloud-video-interop.md) sur l’identification d’un partenaire ou partenaire à utiliser dans votre organisation, voir Cloud Video Interop pour Microsoft Teams. 
+Pour [plus d’informations sur l’Microsoft Teams](cloud-video-interop.md) d’identification d’un partenaire ou partenaire à utiliser dans votre organisation, voir Cloud Video Interop. 
 
 Pour planifier l’enablement à l’échelle de l’utilisateur, des concurrents/des sites : 
 
 - Sélectionner un modèle de déploiement/hébergé pour votre utilisation
 - Sélectionnez le plan de licences idéal pour votre organisation. 
-- La capacité des VM est que vous hébergez votre infrastructure vidéo.
+- La capacité des VMs est que vous hébergez votre infrastructure vidéo.
 
 ## <a name="configure"></a>Configuration 
 
@@ -80,7 +80,7 @@ Vous devrez exécuter les cmdlets suivantes pour mettre en service la clé clien
 
 Vous devrez fournir l’autorisation d’autoriser les périphériques de téléconférence vidéo (VCS) à rejoindre les réunions de votre organisation via le service partenaire. Ce lien d’accord sera également fourni par votre partenaire.  
  
-Une fois ces étapes terminées, les utilisateurs qui sont activés individuellement via l’cmdlet Grant ci-dessus, ou tous les utilisateurs de l’organisation si le client est activé, ont des coordonnées VTC dans toutes les réunions Teams qu’ils ont prévues. N’importe quel VTC peut participer à ces réunions via ces coordonnées.
+Une fois ces étapes terminées, les utilisateurs activés individuellement via l’cmdlet Grant ci-dessus, ou tous les utilisateurs de l’organisation si le client est activé, auront des coordonnées VTC dans toutes les réunions Teams qu’ils ont prévues. N’importe quel VTC peut participer à ces réunions via ces coordonnées.
 
 
 |Nom|Courte description des autorisations d’application| Description|
@@ -92,21 +92,21 @@ Une fois ces étapes terminées, les utilisateurs qui sont activés individuelle
 
 ## <a name="schedule"></a>Planifier
 
-Ensuite, planifier une réunion Teams avec les coordonnées d’interop vidéo. L’utilisateur activé peut planifier des réunions d’équipe via :
-- [Teams Meeting add-in for Outlook](teams-add-in-for-outlook.md)
-- Ordinateur de bureau et mobile du client Teams
+Ensuite, planifier Teams réunion avec les coordonnées d’interopation vidéo. L’utilisateur activé peut planifier des réunions d’équipe via :
+- [Teams Le add-in de réunion pour Outlook](teams-add-in-for-outlook.md)
+- Teams bureau et mobile client
 
 
 ## <a name="join"></a>Rejoindre
 
-Vous pouvez participer à des réunions Teams avec vos appareils VTC des façons suivantes :
+Vous pouvez participer Teams réunions avec vos appareils VTC des façons suivantes :
  
 - IVR (Réponse vocale interactive)
     - Vous pouvez appeler les IVR du partenaire à l’aide de la tenantkey@domain. 
-    - Une fois que vous êtes dans l’IVR partenaire, vous êtes invité à entrer le VTC conferenceId, qui vous connecte ensuite à la réunion Teams.
+    - Une fois que vous êtes dans l’IVR partenaire, vous êtes invité à entrer le VTC conferenceId, qui vous connecte ensuite à la Teams partenaire.
 - Numérotation directe
-    - Vous pouvez vous appeler directement à la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe en utilisant la chaîne complète de touches client. VTC ConferenceId@domain.
+    - Vous pouvez appeler directement la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe utilisant la chaîne complète de clés client. VTC ConferenceId@domain.
 - Numérotation à une pression
-    - Si vous avez une salle Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation à un écran tactile offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
+    - Si vous avez une salle de numérotation Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation à une pression offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
 
-Enfin, impliquez les utilisateurs de Teams dans vos réunions en utilisant le partage audio, vidéo et de contenu.
+Enfin, engagez-vous Teams vos réunions en utilisant l’audio, la vidéo et le partage de contenu.

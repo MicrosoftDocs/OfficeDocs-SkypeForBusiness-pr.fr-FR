@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Utilisez les ressources de formation en ligne pour intégrer le personnel de support à la phase d’essai de votre adoption de Teams.
+description: Utilisez les ressources de formation en ligne pour intégrer le personnel de support à la phase d’essai de Teams adoption.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,11 +30,11 @@ ms.locfileid: "51116885"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Intégrer le support de Microsoft Teams
 
-Pour vous assurer que les premiers utilisateurs et les équipes de champions auront le support approprié quand ils commencent à utiliser Teams, rencontrez votre équipe de support et examinez les fonctionnalités de Teams. Les membres clés de l’organisation de support peuvent rejoindre votre premier programme d’adoption. Encouragez-les à utiliser Teams dans leurs propres scénarios. Traversez l’intégration de base du produit à l’aide de nos ressources de formation en ligne.  
+Pour vous assurer que les premiers adopters et champions auront le support approprié quand ils commencent à utiliser Teams, rencontrez votre équipe de support technique et examinez les fonctionnalités de Teams. Les membres clés de l’organisation de support peuvent rejoindre votre premier programme d’adoption. Encouragez-les à Teams’utilisation de l’entreprise dans leurs propres scénarios. Traversez l’intégration de base du produit à l’aide de nos ressources de formation en ligne.  
 
-- [Bases - Composants principaux de Microsoft Teams](https://youtu.be/V6B4KraD-FM)
-- [Résolution des problèmes de Teams](https://youtu.be/0KNh9KNpXcA)
+- [Bases - Composants principaux des Microsoft Teams](https://youtu.be/V6B4KraD-FM)
+- [Résolution des problèmes Teams](https://youtu.be/0KNh9KNpXcA)
 - [Problèmes connus et résolution des problèmes](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Formation Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Icône représentant l’étape suivante ](media/teams-adoption-next-icon.png) : [Phase d’adoption de Microsoft Teams 3 : Mise à l’échelle.](teams-adoption-phase3-enable.md)
+![Icône représentant l’étape suivante : Microsoft Teams ](media/teams-adoption-next-icon.png) [phase d’adoption 3 : Mise à l’échelle.](teams-adoption-phase3-enable.md)

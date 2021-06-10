@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Découvrez comment configurer le routage direct de Microsoft Phone System.
+description: Découvrez comment configurer Téléphone Microsoft routage direct du système.
 ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "51096374"
 
 Cet article explique comment traduire les numéros des appels entrants et sortants dans un autre format.  Voici l’étape 4 de la procédure de configuration du routage direct :
 
-- Étape 1. [Connecter le SBC à Microsoft Phone System et valider la connexion](direct-routing-connect-the-sbc.md) 
+- Étape 1. [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md) 
 - Étape 2. [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](direct-routing-enable-users.md)   
 - Étape 3. [Configurer le routage vocal](direct-routing-voice-routing.md)
 - **Étape 4. Traduire des nombres dans un autre format**   (cet article)
@@ -38,7 +38,7 @@ Il arrive que les administrateurs des locataires souhaitent modifier le numéro 
 
 Vous pouvez utiliser la stratégie Règles de traduction de nombres pour traduire des nombres pour les services suivants :
 
-- Appels entrants : appels d’un point de terminaison PSTN (appelant) vers un client Teams (appelé)
+- Appels entrants : appels d’un point de terminaison PSTN (appelant) à un client Teams (appelé)
 - Appels sortants : appels d’un client Teams (appelant) à un point de terminaison PSTN (appelé)
 
 La stratégie est appliquée au niveau SBC. Vous pouvez affecter plusieurs règles de traduction à un SBC, qui sont appliquées dans l’ordre dans lequel elles apparaissent lorsque vous les énumérez dans PowerShell. Vous pouvez également modifier l’ordre des règles dans la stratégie.
@@ -68,7 +68,7 @@ Les règles de traduction attribuées au SBC sont résumées dans le tableau sui
 |AddTtleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-Dans les exemples suivants, il y a deux utilisateurs,Soy et Bob. Il s’agit d’un utilisateur de Teams dont le numéro est +1 206 555 0100. Bob est un utilisateur PSTN dont le numéro est +1 425 555 0100.
+Dans les exemples suivants, il y a deux utilisateurs,Soy et Bob. Il s’agit Teams utilisateur dont le numéro est +1 206 555 0100. Bob est un utilisateur PSTN dont le numéro est +1 425 555 0100.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemple 1 : appel entrant vers un numéro à dix chiffres
 
@@ -99,7 +99,7 @@ SBC utilise 0100 dans les en-têtes RequestURI et To, et 4255550100 dans l’en-
 Contrôle appelle Bob à l’aide d’un numéro à dix chiffres. Il compose le 425 555 0100 pour joindre Bob.
 SBC est configuré pour utiliser des numéros non E.164 à dix chiffres pour les utilisateurs Teams et PSTN.
 
-Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envoyer vers l’interface de routage direct. Lorsque Voséz entre 425 555 0100 dans le client Teams, le numéro est converti en +14255550100 par le plan de numérotation du pays. Les numéros qui en résultent sont une normalisation cumulative des règles de plan de numérotation et des règles de traduction de Teams. Les règles de traduction Teams suppriment le « + 1 » ajouté par le plan de numérotation.
+Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envoyer vers l’interface de routage direct. Lorsque Vostit 425 555 0100 dans le client Teams, le numéro est converti en +14255550100 par le plan de numérotation du pays. Les numéros qui en résultent sont une normalisation cumulative des règles de plan de numérotation et Teams de traduction. Les Teams de traduction suppriment le « + 1 » ajouté par le plan de numérotation.
 
 
 |En-tête  |Langue source |En-tête traduit |Paramètre et règle appliqués  |
@@ -111,7 +111,7 @@ Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envo
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemple 4 : appel sortant avec un numéro autre qu’E.164 à quatre chiffres
 
 Contrôle appelle Bob à l’aide d’un numéro à quatre chiffres. Base utilise 0100 pour joindre Bob depuis les Appels ou à l’aide d’un contact.
-SBC est configuré pour utiliser des numéros à quatre chiffres autres que E.164 pour les utilisateurs de Teams et des numéros à dix chiffres pour les utilisateurs PSTN. Le plan de numérotation n’est pas appliqué dans ce scénario.
+SBC est configuré pour utiliser des numéros à quatre chiffres autres que E.164 pour les utilisateurs Teams et des numéros à dix chiffres pour les utilisateurs PSTN. Le plan de numérotation n’est pas appliqué dans ce scénario.
 
 
 |En-tête  |Langue source |En-tête traduit |Paramètre et règle appliqués  |

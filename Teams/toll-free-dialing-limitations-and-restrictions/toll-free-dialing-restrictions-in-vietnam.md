@@ -47,7 +47,7 @@ ms.locfileid: "51116552"
 | Disponibilité de réseau mobile  <br/>               | Partiel. Voir les commentaires.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Problèmes de commentaires, restrictions et accès  <br/> | Le format de nombre XX XXX 120 fonctionne avec les réseaux fixes et mobiles Vietnam Telecom International (VTI) et VNPT (Vietnam Post and Telecommunications). <br/> <br/> Depuis juin 2018, le format de numéro 120 XX XXX ne peut pas être appelé depuis le réseau mobile de Mobifone. <br/> <br/>**Remarque :** &amp; MobifoneNtaphone fait partie du VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Selon le Vietnam des télécommunications, la durée maximale des appels est de 2 heures. |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

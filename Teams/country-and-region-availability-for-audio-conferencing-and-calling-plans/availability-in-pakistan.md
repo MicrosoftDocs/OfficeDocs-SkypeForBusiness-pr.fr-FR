@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Pakistan.
+description: Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et Microsoft Teams disponibles pour le Pakistan.
 ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51102310"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Pakistan.
+Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et Microsoft Teams disponibles pour le Pakistan.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -73,7 +73,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
- Notez qu’au Pakistan, les numéros de service ne peuvent être utilisés que pour l’audioconférence. Par exemple, si vous souhaitez obtenir des numéros gratuits et gratuits pour l’audioconférence, consultez obtenir des numéros de téléphone de service pour Skype Entreprise [et Microsoft Teams.](../getting-service-phone-numbers.md)
+ Notez qu’au Pakistan, les numéros de service ne peuvent être utilisés que pour l’audioconférence. Par exemple, si vous souhaitez obtenir des numéros gratuits et gratuits pour l’audioconférence, consultez Obtenir des numéros de téléphone de service pour les Skype Entreprise et [Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Crédits de communication
 
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

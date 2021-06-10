@@ -41,13 +41,13 @@ ms.locfileid: "51116582"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |1 800 XXXX XXXX  <br/> |
 |Code ISO de pays/région  <br/> |PH  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> | Via PLDT uniquement. <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel mais à tarif surtaxé. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Disponible via les réseaux Sun Cellular et Smart Mobile.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -56,7 +56,7 @@ Pour en savoir plus sur ces paramètres et sur leur utilisation, consultez comme
 ## <a name="set-your-caller-id-policy-settings"></a>Définir vos paramètres de stratégie d'ID d'appelant
 
 > [!NOTE]
-> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Centre Microsoft Teams’administration.) 
+> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Microsoft Teams d’administration.) 
 
 Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes :
 

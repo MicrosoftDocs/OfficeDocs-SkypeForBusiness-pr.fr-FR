@@ -29,7 +29,7 @@ ms.locfileid: "51598463"
 
 La technologie NDI® est devenue une solution du secteur standard pour la production de contenu en direct pour les flux et a acquis une connaissance et une adoption significatives du monde de la diffusion professionnelle.
 
-Skype a ajouté précédemment NDI®-out à Skype fin 2018. Microsoft Teams utilise cette fonctionnalité pour améliorer l’expérience de réunion.
+Skype des fonctionnalités de ® NDI précédemment ajoutées à Skype fin 2018. Microsoft Teams utilise cette fonctionnalité pour améliorer l’expérience de réunion.
 
 La technologie NDI® est limitée à un réseau local et ne doit être considérée qu’comme faisant partie du flux de travail de production, et non d’une solution de diffusion.
 
@@ -37,19 +37,19 @@ La technologie NDI® est limitée à un réseau local et ne doit être considér
 
 La technologie ® NDI nécessite deux étapes pour être mise en marche pour un utilisateur.
 
-1. L’administrateur des locataires doit activer la propriété « AllowNDIStreaming » dans CsTeamsMeetingPolicy.
+1. L’administrateur client doit activer la propriété « AllowNDIStreaming » dans CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. Une fois cette modification remplie, l’utilisateur final doit activer la technologie NDI® de son client spécifique à partir des  >  **autorisations de paramètres.**
+2. Une fois cette modification remplie, l’utilisateur final doit activer la technologie NDI® de son client à partir **de Paramètres**  >  **autorisations.**
 
 Lorsqu’un utilisateur rejoint une réunion, un message l’avertit de la diffusion de la réunion. Si les utilisateurs ne souhaitent pas être inclus dans la diffusion, ils doivent abandonner la réunion.
 
-L’image suivante montre le message bannière qu’un utilisateur voit dans une réunion Teams.
+L’image suivante montre le message bannière qu’un utilisateur voit dans une Teams réunion.
 
-![Bannière technologie ® NDI qui s’affiche dans une réunion Teams.](media/NDI-disclosure.png)
+![bannière technologie ® he NDI qui s’affiche dans une Teams réunion.](media/NDI-disclosure.png)
 
 La bannière est un lien vers la politique [de confidentialité de Microsoft.](https://aka.ms/teamsprivacy)
 
@@ -58,7 +58,7 @@ La bannière est un lien vers la politique [de confidentialité de Microsoft.](h
 
 ## <a name="supported-locales-and-user-types"></a>Paramètres régionaux et types d’utilisateur pris en charge
 
-La technologie ® NDI est prise en charge dans tous les paramètres régionaux. Les utilisateurs suivants sont inclus dans un flux de technologie NDI® mais tous ne peuvent pas accéder au flux de technologie NDI® :
+La technologie ® NDI est prise en charge dans tous les paramètres régionaux. Les utilisateurs suivants sont inclus dans un flux ® NDI, mais tous ne peuvent pas accéder au flux de technologie NDI® :
 
 - Dans le client : support total, livré en fonction de l’anneau/tenantId/userId (contrôlé par la stratégie Réunions)
 - Fédérés – aucun accès aux flux (même s’ils ont NDI® sur)<sup>1</sup>

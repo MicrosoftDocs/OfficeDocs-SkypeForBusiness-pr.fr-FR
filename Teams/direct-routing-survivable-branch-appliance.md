@@ -57,11 +57,11 @@ La fonctionnalité SBA est prise en charge sur les clients Microsoft Teams suiva
 
 ## <a name="how-it-works"></a>Mode de fonctionnement
 
-En cas de panne d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de telle sorte que ces informations soient disponibles pour révision par l’administrateur client. 
+En cas de panne d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de sorte que ces informations soient disponibles pour révision par l’administrateur client. 
 
 Lorsque le Microsoft Teams client est en mode hors connexion, la fonctionnalité d’appel suivante est disponible : 
 
-- Passer des appels PSTN via SBA/SBC local avec les médias qui parsèment le SBC.
+- Passer des appels PSTN via SBA/SBC local avec les médias s’écoule dans le SBC.
 
 - Réception d’appels PSTN via SBA/SBC local, avec trafic de médias par le SBC. 
 

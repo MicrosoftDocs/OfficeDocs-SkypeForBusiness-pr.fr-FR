@@ -30,7 +30,7 @@ ms.locfileid: "51598735"
 
 <a name="bkgeneral"> </a>
 
-Cet article décrit les paramètres de stratégie générale suivants pour les réunions Teams :
+Cet article décrit les paramètres de stratégie générale suivants pour Teams réunions :
 
 - [Autoriser la conférence maintenant dans les canaux](#allow-meet-now-in-channels)
 - [Autoriser le complément Outlook](#allow-the-outlook-add-in)
@@ -43,7 +43,7 @@ Cet article décrit les paramètres de stratégie générale suivants pour les r
 
 ## <a name="allow-meet-now-in-channels"></a>Autoriser la conférence maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad hoc dans un canal Teams. Si vous l’activer, les  utilisateurs peuvent cliquer sur le bouton Réunion pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est True.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad hoc dans Teams canal. Si vous l’activer, les  utilisateurs peuvent cliquer sur le bouton Réunion pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est True.
 
 [![Capture d’écran montrant l’icône Rencontrer maintenant sous un message ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -53,7 +53,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 ![Capture d’écran montrant la possibilité de planifier une nouvelle réunion](media/meeting-policies-outlook-add-in.png)
 
-Si vous la désactiver, les utilisateurs ne peuvent pas planifier de réunions Teams lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
+Si vous la désactiver, les utilisateurs ne peuvent pas planifier Teams réunion lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
 
 ## <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions pour les canaux
 
@@ -90,7 +90,7 @@ Dans le centre d’administration :
 
 L’application Calendrier du canal s’affiche dans la section **Applications Microsoft** sur la page stratégies d’autorisation d’application.
 
-![Capture d’écran montrant la stratégie d’autorisations d’application dans le Centre d’administration Teams.](media/manage-microsoft-apps-policy.png)
+![Capture d’écran montrant la stratégie d’autorisations d’application dans Teams centre d’administration.](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>Autoriser la planification des réunions privées
 
@@ -145,9 +145,9 @@ Pour spécifier le complément de la réunion que vous voulez mettre à la dispo
 
 ## <a name="meeting-reactions"></a>Réactions aux réunions
 
-Le paramètre AllowMeetingReactions ne peut être appliqué qu’à l’aide de PowerShell. Il n’existe aucune option permettant d’option Permettant d’autoriserMeetingReactions d’être ou non disponible à partir du Centre d’administration Teams.
+Le paramètre AllowMeetingReactions ne peut être appliqué qu’avec PowerShell. Il n’y a pas d’option pour activer ou désactiver AllowMeetingReactions dans le centre d’administration Teams.
 
-Par défaut, les réactions aux réunions sont off. La non-utilisation des réactions d’un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il programme. L’organisateur de la réunion peut toujours activer les réactions à partir de la page d’option de la réunion, quel que soit le paramètre par défaut.
+Les réactions pendant les réunions sont désactivées par défaut. La désactivation des réactions pour un utilisateur ne signifie pas qu’il ne peut pas utiliser les réactions dans les réunions qu’il planifie. L’organisateur de la réunion peut toujours activer les réactions à partir de la page des options de réunion, quel que soit le paramètre par défaut.
 
 
 ## <a name="related-topics"></a>Sujets associés

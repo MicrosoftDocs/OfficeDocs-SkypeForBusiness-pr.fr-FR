@@ -29,29 +29,29 @@ ms.locfileid: "51092902"
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Pour en savoir plus sur l’attribution de stratégies dans Microsoft Teams, consultez Attribuer des stratégies [à vos utilisateurs dans Teams.](assign-policies.md)
+> Pour en savoir plus sur l’attribution de stratégies dans Microsoft Teams, voir Attribuer des stratégies à [vos utilisateurs dans Teams.](assign-policies.md)
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Avez-vous besoin d’accorder à vos étudiants et enseignants l’accès aux différentes fonctionnalités de Microsoft Teams ? Vous pouvez rapidement identifier les utilisateurs de votre organisation par type de licence, puis leur affecter la stratégie appropriée. Ce didacticiel vous montre comment affecter une stratégie de réunion à un grand nombre d’utilisateurs de votre établissement scolaire. Vous pouvez attribuer des stratégies à l’aide du Centre d’administration Microsoft Teams et de PowerShell. Nous allons vous montrer les deux façons.
+Avez-vous besoin d’accorder à vos étudiants et enseignants l’accès aux différentes fonctionnalités de Microsoft Teams ? Vous pouvez rapidement identifier les utilisateurs de votre organisation par type de licence, puis leur affecter la stratégie appropriée. Ce didacticiel vous montre comment affecter une stratégie de réunion à un grand nombre d’utilisateurs de votre établissement scolaire. Vous pouvez attribuer des stratégies à l’aide du Microsoft Teams d’administration et de PowerShell. Nous allons vous montrer les deux façons de faire.
 
 Vous pouvez affecter une stratégie de réunion à un groupe de sécurité dont les utilisateurs sont membres ou directement à l’échelle des utilisateurs via une affectation de stratégie de lot. Vous apprendrez comment :
 
 - **Utiliser [l’affectation de stratégies à](#assign-a-policy-to-a-group) des groupes pour affecter une stratégie de réunion à un groupe de sécurité (recommandé).** Cette méthode vous permet d’affecter une stratégie en fonction de l’appartenance aux groupes. Vous pouvez affecter une stratégie à un groupe de sécurité ou une liste de distribution. À mesure que les membres sont ajoutés au groupe ou supprimés, leurs affectations de stratégie héritées sont mises à jour en conséquence. Nous vous recommandons d’utiliser cette méthode, car elle réduit le temps de gestion des stratégies pour les nouveaux utilisateurs ou lorsque les rôles des utilisateurs changent. Cette méthode est plus efficace pour les groupes de 50 000 utilisateurs au plus, mais fonctionne également avec des groupes plus importants.
 
-- **Utilisez [l’affectation d’une stratégie de](assign-policies.md#assign-a-policy-to-a-batch-of-users) lot pour affecter une stratégie de réunion directement aux utilisateurs en bloc.** Vous pouvez affecter une stratégie pour jusqu’à 5 000 utilisateurs à la fois. Si vous avez plus de 5 000 utilisateurs, vous pouvez envoyer plusieurs lots. Avec cette méthode, lorsque vous avez de nouveaux utilisateurs, vous devez ré-exécuter l’affectation de lot pour affecter la stratégie à ces nouveaux utilisateurs.
+- **Utilisez [l’affectation d’une stratégie de](assign-policies.md#assign-a-policy-to-a-batch-of-users) lot pour affecter une stratégie de réunion directement aux utilisateurs en bloc.** Vous pouvez affecter une stratégie à 5 000 utilisateurs à la fois. Si vous avez plus de 5 000 utilisateurs, vous pouvez envoyer plusieurs lots. Avec cette méthode, lorsque vous avez de nouveaux utilisateurs, vous devez ré-exécuter l’affectation de lot pour affecter la stratégie à ces nouveaux utilisateurs.
 
-N’oubliez pas que dans Teams, les utilisateurs obtiennent automatiquement la stratégie globale (à l’échelle de l’organisation par défaut) pour un type de stratégie Teams, sauf si vous créez et attribuez une stratégie personnalisée. Étant donné que la population d’étudiants est souvent le plus grand groupe d’utilisateurs et reçoit souvent les paramètres les plus restrictifs, nous vous recommandons de suivre les recommandations suivantes :
+N’oubliez pas que, Teams, les utilisateurs obtiennent automatiquement la stratégie globale (à l’échelle de l’organisation par défaut) pour un type de stratégie Teams sauf si vous créez et attribuez une stratégie personnalisée. Étant donné que la population d’étudiants est souvent le plus grand groupe d’utilisateurs et reçoit souvent les paramètres les plus restrictifs, nous vous recommandons de suivre les recommandations suivantes :
 
 - Créez une stratégie personnalisée qui autorise des fonctionnalités essentielles telles que la conversation privée et la planification de réunions, et affecter la stratégie à votre personnel et aux enseignants.
 - Attribuez la stratégie personnalisée à votre personnel et aux enseignants.
-- Modifiez et appliquez la stratégie globale (à l’échelle de l’organisation par défaut) pour limiter les fonctionnalités pour les étudiants.
+- Modifiez et appliquez la stratégie globale (à l’échelle de l’organisation par défaut) pour restreindre les fonctionnalités pour les étudiants.
 
-N’oubliez pas que la stratégie globale s’appliquera à tous les utilisateurs de votre établissement scolaire jusqu’à ce que vous créez une stratégie personnalisée et l’affectiez à votre personnel et aux enseignants.
+N’oubliez pas que la stratégie globale s’appliquera à tous les utilisateurs de votre établissement scolaire jusqu’à ce que vous créez une stratégie personnalisée et l’affectiez à votre personnel et à vos enseignants.
 
 Dans ce didacticiel, les étudiants auront accès à la stratégie de réunion globale et nous attribuerons une stratégie de réunion personnalisée nommée EducatorMeetingPolicy au personnel et aux enseignants. Nous partons du principe que vous avez modifié la [](policy-packages-edu.md) stratégie globale pour personnaliser les paramètres de réunion pour les étudiants et que vous avez créé une stratégie personnalisée qui définit l’expérience de réunion pour le personnel et les enseignants.
 
-![Capture d’écran de la page Stratégies de réunion dans le Centre d’administration Teams](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Capture d’écran de la page Stratégies de réunion dans le Teams d’administration](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Affecter une stratégie à un groupe
 
@@ -74,16 +74,16 @@ Vous devez effectuer toutes ces étapes pour que votre personnel et vos enseigna
 
 Tout d’abord, créez un groupe de sécurité pour votre personnel et vos enseignants.
 
-[School Data Sync](/SchoolDataSync/) (SDS) vous permet de créer facilement des groupes de sécurité pour les enseignants et [les](/SchoolDataSync/edu-security-groups) étudiants de votre établissement scolaire. Nous vous recommandons d’utiliser SDS pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies pour votre établissement scolaire.
+Avec [Synchronisation des données scolaires](/SchoolDataSync/) (SDS), vous pouvez facilement créer des groupes de sécurité pour les enseignants et [les](/SchoolDataSync/edu-security-groups) étudiants de votre établissement scolaire. Nous vous recommandons d’utiliser SDS pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies pour votre établissement scolaire.
 
-Si vous ne pouvez pas déployer SDS au sein de votre environnement, utilisez ce [script PowerShell](scripts/powershell-script-security-groups-edu.md) pour créer deux groupes de sécurité, un pour tous les membres du personnel et les enseignants à qui une licence pour les enseignants est attribuée et l’autre pour tous les étudiants titulaires d’une licence Étudiant. Vous devrez exécuter régulièrement ce script pour maintenir les groupes à jour.
+Si vous ne parvenez pas à déployer SDS au sein de votre environnement, utilisez ce [script PowerShell](scripts/powershell-script-security-groups-edu.md) pour créer deux groupes de sécurité, un pour tous les membres du personnel et les enseignants à qui une licence pour les enseignants est attribuée et l’autre pour tous les étudiants titulaires d’une licence Étudiant. Vous devrez exécuter régulièrement ce script pour tenir les groupes à jour.
 
 ### <a name="assign-a-policy-to-a-security-group"></a>Affecter une stratégie à un groupe de sécurité
 
 #### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 > [!NOTE]
-> Pour l’instant, l’affectation de stratégies à des groupes utilisant le Centre d’administration Microsoft Teams est disponible uniquement pour la stratégie d’appel de Teams, la stratégie de parc d’appels Teams, la stratégie Teams, la stratégie d’événements en direct Teams, la stratégie de réunion Teams et la stratégie de messagerie Teams. Pour d’autres types de stratégie, utilisez PowerShell.
+> Pour l’instant, l’affectation de stratégies à des groupes à l’aide du Centre d’administration Microsoft Teams est disponible uniquement pour la stratégie d’appel Teams, la stratégie de parcage d’appel Teams, la stratégie Teams, la stratégie d’événements en direct Teams, la stratégie de réunion Teams et la stratégie de messagerie Teams. Pour d’autres types de stratégie, utilisez PowerShell.
 
 1. Dans le volet de navigation gauche du centre d’administration Microsoft Teams, accédez aux **Réunions** > **Stratégies de réunion**.
 2. Sélectionnez **l’onglet Affectation de stratégie de** groupe.
@@ -102,17 +102,17 @@ Pour modifier le classement d’une affectation de groupe, vous devez d’abord 
 #### <a name="using-powershell"></a>Utiliser PowerShell
 
 > [!NOTE]
-> Actuellement, l’affectation de stratégies à des groupes à l’aide de PowerShell n’est pas disponible pour tous les types de stratégie Teams. Pour obtenir la liste des types de stratégies pris en charge, voir [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
+> Actuellement, l’affectation de stratégies à des groupes à l’aide de PowerShell n’est pas disponible pour tous Teams types de stratégies. Pour obtenir la liste des types de stratégies pris en charge, voir [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module Microsoft Teams PowerShell
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module PowerShell Microsoft Teams’équipe
 
-Exécutez la commande suivante pour installer [le module Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (s’il n’est pas déjà installé). Veillez à installer la version 1.0.5 ou ultérieure.
+Exécutez la commande suivante [pour installer Teams module PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (s’il n’est pas déjà installé). Veillez à installer la version 1.0.5 ou ultérieure.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-Exécutez ce qui suit pour vous connecter à Teams et démarrer une session.
+Exécutez ce qui suit pour vous connecter Teams et démarrer une session.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -134,17 +134,17 @@ N’oubliez pas que si un utilisateur a été directement affecté à une strat�
 
 Pour en savoir plus, [consultez ce que vous devez savoir sur l’affectation de stratégies à des groupes.](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
-Suivez ces étapes pour supprimer la stratégie de réunion qui a été directement attribuée à votre personnel et aux enseignants.
+Pour supprimer la stratégie de réunion directement attribuée à votre personnel et aux enseignants, suivez ces étapes.
 
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module Microsoft Teams PowerShell
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module PowerShell Microsoft Teams’équipe
 
-Exécutez la commande suivante pour installer [le module Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (s’il n’est pas déjà installé). Veillez à installer la version 1.0.5 ou ultérieure.
+Exécutez la commande suivante [pour installer Teams module PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (s’il n’est pas déjà installé). Veillez à installer la version 1.0.5 ou ultérieure.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-Exécutez ce qui suit pour vous connecter à Teams et démarrer une session.
+Exécutez ce qui suit pour vous connecter Teams et démarrer une session.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -152,9 +152,9 @@ Connect-MicrosoftTeams
 
 Lorsque vous y êtes invité, connectez-vous à l’aide des mêmes informations d’identification d’administrateur que vous avez utilisées pour vous connecter à Azure AD.
 
-#### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Désaffecter une stratégie qui a été directement attribuée à des utilisateurs
+#### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Désaffecter une stratégie directement attribuée à des utilisateurs
 
-Exécutez ce qui suit pour supprimer une stratégie de réunion pour les utilisateurs qui ont directement affecté cette stratégie. Vous pouvez spécifier les utilisateurs par adresse e-mail ou ID d’objet.
+Exécutez la stratégie suivante pour supprimer une stratégie de réunion pour les utilisateurs à qui cette stratégie a été attribuée directement. Vous pouvez spécifier les utilisateurs par adresse e-mail ou ID d’objet.
 
 Dans cet exemple, la stratégie de réunion est supprimée des utilisateurs spécifiés par leur adresse e-mail.
 
@@ -193,13 +193,13 @@ Suivez ces étapes pour affecter une stratégie de réunion personnalisée nomm�
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Se connecter au module Azure AD PowerShell pour Graph et au module Teams PowerShell
+#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Connecter le module Azure AD PowerShell Graph et le module Teams PowerShell
 
-Avant d’effectuer les étapes de cet article, vous devez installer le module Azure AD PowerShell pour Graph (afin d’identifier les utilisateurs par leurs licences attribuées) et le module Microsoft Teams PowerShell (pour affecter les stratégies à ces utilisateurs).
+Avant d’effectuer les étapes de cet article, vous devez installer et vous connecter au module Azure AD PowerShell pour Graph (afin d’identifier les utilisateurs par leurs licences attribuées) et au module Microsoft Teams PowerShell (pour affecter les stratégies à ces utilisateurs).
 
-##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Installer et se connecter au module Azure AD PowerShell pour Graph
+##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Installer et se connecter au module Azure AD PowerShell Graph
 
-Ouvrez une invite de commandes avec élévation de Windows PowerShell (exécutez Windows PowerShell en tant qu’administrateur), puis exécutez l’une des commandes suivantes pour installer le module Azure Active Directory PowerShell for Graph.
+Ouvrez une invite de commandes avec élévation de Windows PowerShell (exécutez Windows PowerShell en tant qu’administrateur), puis exécutez l’une des commandes suivantes pour installer le module PowerShell Azure Active Directory Graph’équipe.
 
 ```powershell
 Install-Module -Name AzureAD
@@ -213,17 +213,17 @@ Connect-AzureAD
 
 Lorsque vous y êtes invité, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
-Pour plus d’informations, [voir Se connecter avec le module Azure Active Directory PowerShell pour Graph.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Pour plus d’informations, [voir Connecter le module PowerShell Azure Active Directory PowerShell Graph’équipe.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module Microsoft Teams PowerShell
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module PowerShell Microsoft Teams’équipe
 
-Exécutez la commande suivante pour installer [le module Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (s’il n’est pas déjà installé). Veillez à installer la version 1.0.5 ou ultérieure.
+Exécutez la commande suivante [pour installer Teams module PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (s’il n’est pas déjà installé). Veillez à installer la version 1.0.5 ou ultérieure.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-Exécutez ce qui suit pour vous connecter à Teams et démarrer une session.
+Exécutez ce qui suit pour vous connecter Teams et démarrer une session.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -251,7 +251,7 @@ M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 Dans cet exemple, la sortie indique que la licence SKUId pour les enseignants est « e97c048c-37a4-45fb-ab50-922fbf07a370 ».
 
 > [!NOTE]
-> Pour consulter la liste des références SKU pour l’éducation et références de référence SKU Pour l’éducation, consultez la [référence SKU éducation.](sku-reference-edu.md)
+> Pour consulter la liste des références SKU pour l’éducation et références de référence SKU Pour l’éducation, consultez la [référence SKU pour l’éducation.](sku-reference-edu.md)
 
 Ensuite, nous exécuterons l’article suivant pour identifier les utilisateurs qui ont cette licence et les collecter tous ensemble.
 
@@ -263,7 +263,7 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 À présent, nous affectons les stratégies appropriées aux utilisateurs en bloc. Le nombre maximal d’utilisateurs pour lesquels vous pouvez affecter ou mettre à jour des stratégies est de 5 000 utilisateurs à la fois. Par exemple, si vous avez plus de 5 000 enseignants et membres du personnel, vous devez envoyer plusieurs lots.
 
-Exécutez ce qui suit pour attribuer une stratégie de réunion personnalisée nommée EducatorMeetingPolicy à votre personnel et enseignants.
+Exécutez la commande suivante pour attribuer une stratégie de réunion personnalisée nommée EducatorMeetingPolicy à votre personnel et à vos enseignants.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
@@ -280,7 +280,7 @@ Chaque affectation en bloc renvoie un ID d’opération, que vous pouvez utilise
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-Pour afficher le statut d’affectation de chaque utilisateur dans l’opération de lot, exécutez ce qui suit. Les détails de chaque utilisateur sont dans la ```UserState``` propriété.
+Pour afficher le statut d’affectation de chaque utilisateur dans l’opération de lot, exécutez la commande suivante. Les détails de chaque utilisateur sont dans la ```UserState``` propriété.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
@@ -312,9 +312,9 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>FAQ
 
-**Je n’ai pas l’familiarisé avec PowerShell pour Teams. Où puis-je obtenir plus d’informations ?**
+**Je n’ai pas l’familiarisé avec PowerShell Teams. Où puis-je obtenir plus d’informations ?**
 
-Pour une vue d’ensemble de l’utilisation de PowerShell pour gérer Teams, consultez la vue [d’ensemble de Teams PowerShell.](teams-powershell-overview.md) Pour plus d’informations sur les cmdlets utilisées dans cet article, voir :
+Pour une vue d’ensemble de l’utilisation de PowerShell pour Teams, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md) Pour plus d’informations sur les cmdlets utilisées dans cet article, voir :
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
@@ -322,8 +322,8 @@ Pour une vue d’ensemble de l’utilisation de PowerShell pour gérer Teams, co
 - [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 - [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
-- [Stratégies et packages de stratégie Teams pour l’éducation](policy-packages-edu.md)
+- [Stratégies et packages de stratégies Teams pour l’éducation](policy-packages-edu.md)
 - [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md)

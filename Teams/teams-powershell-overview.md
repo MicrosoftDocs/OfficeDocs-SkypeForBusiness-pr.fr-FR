@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble de Microsoft Teams PowerShell
+title: Microsoft Teams Vue d’ensemble de PowerShell
 ms.reviewer: ''
 author: brandber
 ms.author: brandber
@@ -10,7 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
+description: Découvrez comment utiliser les contrôles PowerShell pour gérer les Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
@@ -20,14 +20,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/15/2021
 ms.locfileid: "51768353"
 ---
-# <a name="microsoft-teams-powershell-overview"></a>Vue d'ensemble de Microsoft Teams PowerShell
+# <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams Vue d’ensemble de PowerShell
 
-Microsoft Teams PowerShell est un ensemble d'lets de commande qui vous aide à gérer Teams directement à partir de la ligne de commande PowerShell. Écrit dans .NET Standard, Teams PowerShell fonctionne sur PowerShell 5.1 sur Windows, PowerShell 6.x et les systèmes plus élevés sur toutes les plateformes, y compris Azure Cloud Shell.
+Microsoft Teams PowerShell est un ensemble d’lets de commande qui vous Teams gérer vos commandes directement à partir de la ligne de commande PowerShell. Écrit dans .NET Standard, Teams PowerShell fonctionne sur PowerShell 5.1 sur Windows, PowerShell 6.x et les plateformes supérieures, y compris Azure Cloud Shell.
 
-Avant de commencer à utiliser PowerShell, vous devez [l'installer.](teams-powershell-install.md) 
+Avant de commencer à utiliser PowerShell, vous devez [l’installer.](teams-powershell-install.md) 
 
 > [!WARNING]
-> Il existe des problèmes connus avec PowerShell 7 et Teams PowerShell. Nous vous recommandons d'utiliser PowerShell 5.1 jusqu'à ce que les problèmes soient résolus.
+> Certains problèmes connus sur PowerShell 7 et Teams PowerShell sont connus. Nous vous recommandons d’utiliser PowerShell 5.1 jusqu’à ce que les problèmes soient résolus.
 
 ## <a name="releases"></a>Publication
 
@@ -36,35 +36,35 @@ Teams PowerShell est disponible dans la [galerie PowerShell en](https://www.powe
 
 - **Disponibilité générale (GA)**: cmdlets prêtes pour la production, mises à jour tous les mois.
 
-- **Prévisualisation** publique : Accès précoce aux fonctionnalités. Peut être mis à jour plus fréquemment que GA.
+- **Aperçu public :** Accès en avant-première aux fonctionnalités. Peut être mis à jour plus fréquemment que GA.
 
-Pour plus d'informations sur les ajouts de fonctionnalités et les améliorations apportées aux deux version, lisez les notes de [publication Teams PowerShell.](teams-powershell-release-notes.md)
+Pour plus d’informations sur les ajouts de fonctionnalités et les améliorations apportées aux deux version, lisez les Teams de [publication de PowerShell.](teams-powershell-release-notes.md)
 
 
 ## <a name="manage-teams-with-powershell"></a>Gérer Teams avec PowerShell
 
-Vous utiliserez les modules Teams PowerShell pour gérer entièrement Teams :
+Vous utiliserez les modules PowerShell Teams pour gérer entièrement les Teams :
 
-- [Module Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/): le module Teams PowerShell contient des cmdlets pour la gestion des équipes, des discussions et des canaux.
+- [Microsoft Teams module PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/): le module PowerShell Teams des cmdlets pour la gestion des équipes, des discussions et des canaux.
 
 > [!NOTE]
-> La version [publique de Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 2.0 ou version supérieure inclut toutes les cmdlets Skype Entreprise Online Connector, fournissant un seul module pour la gestion de Teams PowerShell.
+> La Teams version publique [de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 2.0 ou version supérieure inclut toutes les cmdlets Skype Entreprise Online Connector, fournissant un seul module pour la gestion Teams PowerShell.
 
-- [Connecteur PowerShell Skype Entreprise](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): Le connecteur Skype Entreprise PowerShell fait désormais partie du module Teams PowerShell.
+- [Skype Entreprise Connecteur PowerShell :](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)le connecteur PowerShell Skype Entreprise fait désormais partie d’Teams module PowerShell.
 
-Pour consulter un guide complet de la gestion de Teams à l'aide de ces modules, voir [Gérer Teams avec Teams PowerShell.](teams-powershell-managing-teams.md)
+Pour consulter un guide complet de gestion Teams l’aide de ces modules, voir Gérer les Teams [avec Teams PowerShell.](teams-powershell-managing-teams.md)
 
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Installation de Teams PowerShell](teams-powershell-install.md)
+[Installation Teams PowerShell](teams-powershell-install.md)
 
-[Gestion des équipes avec Teams PowerShell](teams-powershell-managing-teams.md)
+[Gestion des Teams à l’Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Notes de publication de Teams PowerShell](teams-powershell-release-notes.md)
+[Teams Notes de publication de PowerShell](teams-powershell-release-notes.md)
 
-[Référence de l'cmdlet Microsoft Teams](/powershell/teams/?view=teams-ps)
+[Microsoft Teams des cmdlet](/powershell/teams/?view=teams-ps)
 
-[Référence de l'cmdlet Skype Entreprise](/powershell/skype/intro?view=skype-ps)
+[Skype Entreprise des cmdlet](/powershell/skype/intro?view=skype-ps)
 
 [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md)

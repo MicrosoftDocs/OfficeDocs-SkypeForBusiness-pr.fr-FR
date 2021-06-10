@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies teams dans Microsoft Teams
+title: Gérer les stratégies d’équipes dans Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -31,17 +31,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51094204"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies teams dans Microsoft Teams
+# <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft Teams
 
 En tant qu’administrateur, vous pouvez utiliser les stratégies Teams dans Microsoft Teams pour contrôler ce que les utilisateurs de votre organisation peuvent faire dans les équipes et les canaux. Par exemple, vous pouvez définir si les utilisateurs sont autorisés à créer des canaux privés.
 
-Pour gérer les stratégies d’équipe, vous devez vous rendre **sur**  >  **Stratégies Teams** dans le Centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
+Vous gérez les stratégies Teams en Teams  >  **Teams stratégies** dans le Microsoft Teams d’administration Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
 Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie personnalisée. Une fois que vous avez modifié la stratégie globale ou attribué une stratégie, l’application des modifications peut prendre quelques heures.
 
 ## <a name="create-a-custom-teams-policy"></a>Créer une stratégie d’équipe personnalisée
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à  >  **Stratégies Teams.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, voir Teams  >  **Teams stratégies.**
 2. Cliquez sur **Ajouter**.
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 
@@ -54,7 +54,7 @@ Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie 
 
 Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez à  >  **Stratégies Teams.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, voir Teams  >  **Teams stratégies.**
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
 3. Activer ou désactiver les paramètres de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -62,7 +62,7 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Canaux privés dans Teams](private-channels.md)
 

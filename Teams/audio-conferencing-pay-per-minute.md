@@ -55,14 +55,14 @@ Alors que l’offre de licence d’audioconférence par utilisateur inclut l’u
 > Vous trouverez les tarifs d’appels d’accès et d’appels sortants associés à ces types d’appels en consultant la **section** Tarifs d’appel pour l’endroit où vous souhaitez passer des appels dans [l’audioconférence.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
   
-Le paiement à la minute nécessite la mise en place de [crédits de communication](what-are-communications-credits.md) pour votre organisation. Pour plus d’informations, consultez Configurer les [crédits](set-up-communications-credits-for-your-organization.md) de communication pour votre organisation et/ou les licences [de modules add-on de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Le paiement à la minute nécessite la mise en place de [crédits de communication](what-are-communications-credits.md) pour votre organisation. Pour plus d’informations, consultez Configurer les [crédits](set-up-communications-credits-for-your-organization.md) de communication pour votre organisation et/ou Microsoft Teams [de modules add-on.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
-Pour activer l’audioconférence payante à la minute pour les utilisateurs de votre organisation, consultez la fonction Essayer ou acheter l’audioconférence [dans Microsoft Office 365 ou Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+Pour activer l’audioconférence à la minute pour les utilisateurs de votre organisation, consultez la vidéoconférence essayer ou acheter l’audioconférence dans Microsoft Office 365 ou [Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>Pourquoi est-ce qui vous est le mieux ?
 
-- Le paiement par minute ne sera facturé que par minute pour chaque appel entrant ou sortant passé par chaque participant au cours d’une réunion programmée (les tarifs varient en fonction des appels gratuits ou payants et par destination) plutôt que d’utiliser l’application Skype Entreprise ou Teams sur un appareil mobile ou un PC.
+- Le paiement par minute ne sera facturé que par minute pour chaque appel entrant ou sortant passé par chaque participant au cours d’une réunion programmée (les tarifs varient en fonction des appels gratuits ou payants et par destination) au lieu d’utiliser une application Skype Entreprise ou Teams sur un appareil mobile ou un PC.
 
 - Fonctionnalité de gestion des coûts : les administrateurs peuvent contrôler la limitation des types d’appels sortants (internationaux et nationaux) qui peuvent être effectués à partir des réunions d’un organisateur. Voir les stratégies de restriction d’appel sortant pour les [appels d’audioconférence](./outbound-calling-restriction-policies.md) et d’utilisateur PSTN
 
@@ -84,7 +84,7 @@ Pour activer l’audioconférence payante à la minute pour les utilisateurs de 
     
 - [Tarifs de forfaits d'appels](https://www.microsoft.com/microsoft-teams/voice-calling)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
   
 [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

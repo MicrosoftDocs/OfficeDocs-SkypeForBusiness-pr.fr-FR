@@ -41,13 +41,13 @@ ms.locfileid: "51097660"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |00 801 XXX XXX  <br/> |
 |Code ISO de pays/région  <br/> |TW  <br/> |
-|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
+|Île/territoire couvert par  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> | ITFS:KG Telecom = NO <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Pas d'accès par ligne filaire via KG Telecom. Accès mobile : Aucun temps d'accès n'est facturé. Pour l'accès mobile : Accès via tous les réseaux mobiles sauf KG Telecom.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

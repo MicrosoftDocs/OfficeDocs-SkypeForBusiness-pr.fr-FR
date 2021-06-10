@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment approuver vos applications personnalisées soumises à l’aide de l’API Soumission Teams’application dans Microsoft Teams.
+description: Découvrez comment approuver vos applications personnalisées soumises à l’aide de l’API de soumission Teams’application dans Microsoft Teams.
 ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
 ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
@@ -56,15 +56,15 @@ L’API Teams App Submission, conçue sur <a href="/graph/api/teamsapp-publish?t
 
 Voici un exemple de l’étape de soumission de l’application dans Visual Studio Code :
 
-![envoi d’une application dans Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
+![soumission d’une application dans Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
-N’oubliez pas que l’application n’est pas encore publiée sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Microsoft Teams d’administration dans lequel vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
+Gardez à l’esprit que cette application ne publie pas encore l’application sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Microsoft Teams d’administration dans lequel vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
 
 Pour plus d’informations sur l’utilisation de Graph API pour envoyer des applications, voir <a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">ici.</a>
 
 ## <a name="validate"></a>Validate
 
-La <a href="/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams (dans le navigation gauche, allez dans les applications **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams pour votre  >  organisation. Le **widget Approbation en** attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
+La <a href="/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams (dans le panneau de navigation de gauche, allez dans les applications **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams de votre  >  organisation. Le **widget d’approbation** en attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
 
 Dans la table, une application nouvellement envoyée affiche automatiquement le statut Publication d’Soumis et Le **statut** **Bloqué.**   Vous pouvez trier la **colonne État de publication** dans l’ordre décroit pour trouver rapidement l’application.
 

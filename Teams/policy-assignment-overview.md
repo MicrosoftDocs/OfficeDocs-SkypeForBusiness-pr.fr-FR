@@ -25,13 +25,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51574322"
 ---
-# <a name="assign-policies-in-teams--getting-started"></a>Attribuer des stratégies dans Teams : mise en place
+# <a name="assign-policies-in-teams--getting-started"></a>Attribuer des stratégies dans Teams mise en place
 
-En tant qu’administrateur, vous utilisez des stratégies pour contrôler les fonctionnalités Teams disponibles pour les utilisateurs de votre organisation. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie, entre autres.
+En tant qu’administrateur, vous utilisez des stratégies pour contrôler Teams fonctionnalités disponibles pour les utilisateurs de votre organisation. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie, entre autres.
 
 Les organisations ont différents types d’utilisateurs ayant des besoins uniques. Les stratégies personnalisées que vous créez et attribuez vous personnalisationnt aux différents ensembles d’utilisateurs en fonction de ces besoins.
 
-Pour gérer facilement les stratégies dans votre organisation, Teams offre plusieurs façons d’affecter des stratégies aux utilisateurs. Affectez une stratégie directement aux utilisateurs, individuellement ou à l’échelle via une affectation de lot, ou à un groupe dont les utilisateurs sont membres. Vous pouvez également utiliser des packages de stratégies pour affecter une collection prédéfinfine de stratégies aux utilisateurs de votre organisation ayant des rôles similaires. L’option que vous choisissez dépend du nombre de stratégies que vous gérez et du nombre d’utilisateurs à qui vous affectez des stratégies. Les stratégies globales (à l’échelle de l’organisation par défaut) s’appliquent au plus grand nombre d’utilisateurs de votre organisation. Il vous s agit uniquement d’affecter des stratégies aux utilisateurs qui ont besoin de stratégies spécialisées.
+Pour gérer facilement les stratégies dans votre organisation, Teams plusieurs façons d’affecter des stratégies aux utilisateurs. Affectez une stratégie directement aux utilisateurs, individuellement ou à l’échelle via une affectation de lot, ou à un groupe dont les utilisateurs sont membres. Vous pouvez également utiliser des packages de stratégies pour affecter une collection prédéfinfine de stratégies aux utilisateurs de votre organisation ayant des rôles similaires. L’option que vous choisissez dépend du nombre de stratégies que vous gérez et du nombre d’utilisateurs à qui vous affectez des stratégies. Les stratégies globales (à l’échelle de l’organisation par défaut) s’appliquent au plus grand nombre d’utilisateurs de votre organisation. Il vous s agit uniquement d’affecter des stratégies aux utilisateurs qui ont besoin de stratégies spécialisées.
 
 Cet article décrit les différentes manières d’affecter des stratégies aux utilisateurs et les scénarios recommandés pour l’utilisation des stratégies.
 
@@ -65,11 +65,11 @@ Avant d’affecter des stratégies à des utilisateurs ou groupes individuels, c
 
 |Pour ce faire,  |Si...  | Utilisation...
 |---------|---------|----|
-|[Attribuer une stratégie à des utilisateurs individuels](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Vous débutez dans Teams et vous débutez, ou vous n’avez besoin d’affecter qu’une ou plusieurs stratégies à un petit nombre d’utilisateurs. |Centre d’administration Microsoft Teams ou cmdlets PowerShell dans le module Teams PowerShell
-|[Affecter une stratégie à un groupe](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Attribuer des stratégies en fonction de l’appartenance d’un utilisateur à un groupe. Par exemple, affectez une stratégie à tous les utilisateurs d’un groupe de sécurité ou d’une liste de distribution.| Centre d’administration Microsoft Teams ou cmdlets PowerShell dans le module Teams PowerShell|
-|[Affecter une stratégie à un lot d’utilisateurs](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Attribuer des stratégies à de grands ensembles d’utilisateurs. Par exemple, affectez une stratégie à des centaines ou des milliers d’utilisateurs à la fois dans votre organisation. |Centre d’administration Microsoft Teams ou cmdlets PowerShell dans le module Teams PowerShell|
-|[Attribuer un package de stratégies aux utilisateurs](assign-policy-packages.md#assign-a-policy-package-to-users)  |Attribuez plusieurs stratégies à des ensembles spécifiques d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire pour leur donner un accès total aux conversations, appels et réunions. Affectez le package de stratégie Éducation (étudiant secondaire) aux étudiants secondaires afin de limiter certaines fonctionnalités telles que les appels privés.  |Centre d’administration Microsoft Teams ou cmdlets PowerShell dans le module Teams PowerShell|
-|[Affecter un package de stratégie à un groupe](assign-policy-packages.md#assign-a-policy-package-to-a-group) (en prévisualisation privée)   |Attribuer plusieurs stratégies à un groupe d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez un package de stratégie à tous les utilisateurs d’un groupe de sécurité ou d’une liste de distribution. |Le Centre d’administration Microsoft Teams (bientôt disponible) ou les cmdlets PowerShell dans le module Teams PowerShell|
+|[Attribuer une stratégie à des utilisateurs individuels](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Vous débutez dans Teams vous débutez, ou vous n’avez besoin d’affecter qu’une ou plusieurs stratégies à un petit nombre d’utilisateurs. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module
+|[Affecter une stratégie à un groupe](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Attribuer des stratégies en fonction de l’appartenance d’un utilisateur à un groupe. Par exemple, affectez une stratégie à tous les utilisateurs d’un groupe de sécurité ou d’une liste de distribution.| The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
+|[Affecter une stratégie à un lot d’utilisateurs](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Attribuer des stratégies à de grands ensembles d’utilisateurs. Par exemple, affectez une stratégie à des centaines ou des milliers d’utilisateurs à la fois dans votre organisation. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
+|[Attribuer un package de stratégies aux utilisateurs](assign-policy-packages.md#assign-a-policy-package-to-users)  |Attribuez plusieurs stratégies à des ensembles spécifiques d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire pour leur donner un accès total aux conversations, appels et réunions. Affectez le package de stratégie Éducation (étudiant secondaire) aux étudiants secondaires afin de limiter certaines fonctionnalités telles que les appels privés.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
+|[Affecter un package de stratégie à un groupe](assign-policy-packages.md#assign-a-policy-package-to-a-group) (en prévisualisation privée)   |Attribuer plusieurs stratégies à un groupe d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez un package de stratégie à tous les utilisateurs d’un groupe de sécurité ou d’une liste de distribution. |Le Microsoft Teams d’administration powershell (bientôt disponible) ou les cmdlets PowerShell dans Teams module PowerShell|
 |[Affecter un package de stratégie à un lot d’utilisateurs](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|Affectez plusieurs stratégies à un lot d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez le package de stratégie Éducation (Enseignant) à tous les enseignants de votre établissement en utilisant un devoir de lot pour leur donner un accès total aux conversations, appels et réunions. Affectez le package de stratégie Éducation (étudiant secondaire) à un lot d’étudiants secondaires afin de limiter certaines fonctionnalités telles que les appels privés.|Cmdlets PowerShell dans le module Teams PowerShell|
 
 ## <a name="set-the-global-policies"></a>Définir les stratégies globales
@@ -78,11 +78,11 @@ Pour définir les stratégies globales (à l’échelle de l’organisation par 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez à la page stratégie pour le type de stratégie que vous voulez mettre à jour. Par exemple, les **stratégies**  >  **Teams,** **les stratégies de réunions,** les  >  **stratégies** **de** messagerie ou les stratégies   >  **d’appel vocal.**
+1. Dans le navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie pour le type de stratégie que vous voulez mettre à jour. Par exemple, vous **Teams** Teams, les stratégies réunions, les stratégies de messagerie  >  ou les   >  **stratégies**    >  **d’appel vocal.**
 2. Sélectionnez **la stratégie globale (à l’échelle de l’organisation par défaut)** pour afficher les paramètres actuels.
 3. Mettez à jour la stratégie si nécessaire, puis sélectionnez **Appliquer.**
 
-![Mettre à jour la stratégie globale dans le Centre d’administration Teams](media/assign-globalpolicy.png)
+![Mettre à jour la stratégie globale dans Teams d’administration](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -120,7 +120,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>Afficher vos affectations de stratégie dans le journal d’activité
 
-Lorsque vous attribuez des stratégies à des utilisateurs dans le Centre d’administration Microsoft Teams, vous pouvez afficher l’état de ces affectations de stratégie dans le journal d’activité. Le journal d’activité affiche les affectations de stratégie à des lots de plus de 20 utilisateurs via le Centre d’administration Microsoft Teams au cours des 30 derniers jours. Gardez à l’esprit que le journal d’activité n’affiche pas les affectations de packages de stratégie, les affectations de stratégies à des lots de moins de 20 utilisateurs via le Centre d’administration Microsoft Teams ou les affectations de stratégies via PowerShell.
+Lorsque vous attribuez des stratégies à des utilisateurs dans le Microsoft Teams d’administration, vous pouvez afficher l’état de ces affectations de stratégie dans le journal d’activité. Le journal d’activité affiche les affectations de stratégie à des lots de plus de 20 utilisateurs via le Centre Microsoft Teams d’administration à partir des 30 derniers jours. Gardez à l’esprit que le journal d’activité n’affiche pas les affectations de packages de stratégie, les affectations de stratégie à des lots de moins de 20 utilisateurs via le Centre d’administration Microsoft Teams ou les affectations de stratégies via PowerShell.
 
 ![Capture d’écran de la page du journal d’activité](media/activity-log.png)
 
@@ -128,7 +128,7 @@ Lorsque vous attribuez des stratégies à des utilisateurs dans le Centre d’ad
 
 Pour afficher vos affectations de stratégie dans le journal d’activité :
 
-1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Tableau de **bord,** puis sous Journal d’activité, sélectionnez Afficher les **détails.**
+1. Dans le navigation gauche du centre d Microsoft Teams d’administration, allez dans Tableau de **bord,** puis sous Journal d’activité, sélectionnez Afficher les **détails.**
 2. Vous pouvez afficher toutes les affectations de stratégie ou filtrer la liste par état pour afficher uniquement les affectations Non **commencées,** En **cours** ou **Terminées.** Vous verrez les informations suivantes sur chaque devoir :
     - **Nom**: nom de l’affectation de stratégie. Cliquez sur le lien pour afficher plus de détails. Cela inclut le nombre d’utilisateurs à qui la stratégie a été attribuée, ainsi que le nombre d’affectations terminées, en cours et non démarrées. Vous verrez également la liste des utilisateurs dans le lot, ainsi que l’état et le résultat pour chaque utilisateur. Voici un exemple :
 
@@ -142,9 +142,9 @@ Pour afficher vos affectations de stratégie dans le journal d’activité :
 > [!NOTE]
 > Vous pouvez également ouvrir le journal d’activité à partir de la page **Utilisateurs.** Après avoir **cliqué sur Appliquer** pour envoyer une affectation de stratégie en bloc, une bannière s’affiche en haut de la page. Cliquez sur le **lien Journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des stratégies aux utilisateurs et aux groupes](assign-policies-users-and-groups.md)
 - [Attribuer des packages de stratégies à des utilisateurs et groupes](assign-policy-packages.md)
-- [Gérer Teams avec des stratégies](manage-teams-with-policies.md)
+- [Gérer les Teams des stratégies](manage-teams-with-policies.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

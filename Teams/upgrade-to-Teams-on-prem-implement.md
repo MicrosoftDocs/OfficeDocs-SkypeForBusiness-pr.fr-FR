@@ -41,7 +41,7 @@ Avant d’implémenter votre mise à niveau, nous vous recommandons les articles
 Cette section explique comment implémenter votre mise à niveau à l’aide de l’une des options de mise à niveau suivantes :
 
 - [Mise à niveau des fonctionnalités superposées (à l’aide du mode Îles)](#overlapping-capabilities-upgrade-using-islands-mode)
-- [Mise à niveau des fonctionnalités sélectionnées pour une organisation qui n’a pas encore commencé à utiliser Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
+- [Mise à niveau des fonctionnalités de sélection pour une organisation qui n’a pas encore commencé à utiliser Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [Mise à niveau des fonctionnalités sélectionnées pour une organisation qui utilise déjà Teams en mode Îles](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
 Si vous avez besoin d’informations supplémentaires sur les options, assurez-vous que vous avez déjà lu Choisir votre chemin de mise à niveau [d’Skype Entreprise à Teams.](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
@@ -54,7 +54,7 @@ Pour l’option de mise à niveau des fonctionnalités superposées :
 
 - Cette option est le modèle pré-standard et ne nécessite aucune action de l’administrateur pour commencer à Teams à l’exception de l’attribution de la licence Microsoft 365 ou Office 365 licence. Si vos utilisateurs ont déjà Skype Entreprise Online, vous êtes peut-être déjà dans ce modèle.
 
-- Il peut être difficile de sortir du mode de fonctionnalités superposées et de passer à TeamsOnly. Étant donné que les utilisateurs mis à niveau communiquent uniquement via Teams, tous les autres utilisateurs de l’organisation qui communiquent avec cet utilisateur doivent utiliser Teams.  Si vos utilisateurs n’ont pas commencé à utiliser Teams, ils sont exposés à des messages manquants. De plus, ils ne voient pas les utilisateurs de TeamsOnly en ligne dans Skype Entreprise. Certaines organisations choisissent d’opter pour une mise à niveau à l’échelle du client à l’aide de la stratégie globale du client afin d’éviter ce problème, ce qui nécessite toutefois une planification préalable et attendre que tous les utilisateurs soient prêts à mettre à niveau.
+- Il peut être difficile de sortir du mode de fonctionnalités superposées et de passer à TeamsOnly. Étant donné que les utilisateurs mis à niveau communiquent uniquement via Teams, tous les autres utilisateurs de l’organisation qui communiquent avec cet utilisateur doivent utiliser Teams.  Si vos utilisateurs n’ont pas commencé à utiliser Teams, ils sont exposés à des messages manquants. De plus, ils ne voient pas les utilisateurs de TeamsOnly en ligne Skype Entreprise. Certaines organisations choisissent d’opter pour une mise à niveau à l’échelle du client à l’aide de la stratégie globale du client afin d’éviter ce problème, ce qui nécessite toutefois une planification préalable, ainsi que l’attente jusqu’à ce que tous les utilisateurs soient prêts à être mis à niveau.
 
 
 ## <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Mise à niveau des fonctionnalités sélectionnées pour une organisation qui n’a pas encore commencé à utiliser Teams
@@ -90,7 +90,7 @@ Remarques
 - Par défaut, Skype Entreprise réunions sont migrées vers Teams lors de la mise à niveau vers le mode TeamsOnly ou lors de l’affectation du mode SfbWithTeamsCollabAndMeetings.  
 
 > [!NOTE]
-> En préparation de la mise à l’abandon prochaine d’Skype Entreprise Online, Microsoft simplifiera la façon dont les organisations passeront à Teams à l’avenir. Lors du déplacement d’un utilisateur du site vers Teams, il n’est bientôt plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement du site vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Si ce commutateur n’est pas spécifié, les utilisateurs passeront de l’domicile à Skype Entreprise Server local vers Skype Entreprise Online et leur mode reste inchangé. Après la retraite, lors du déplacement d’un utilisateur du cloud local vers le cloud, les utilisateurs sont automatiquement affectés au mode TeamsOnly et leurs réunions à partir du site sont converties automatiquement en réunions Teams, comme si le commutateur était spécifié ou `Move-CsUser` `-MoveToTeams switch had been specified` non. Cette fonctionnalité devrait être publiée avant le retrait effectif du 31 juillet 2021.
+> En vue de la prochaine mise à l’Skype Entreprise Online, Microsoft simplifiera la façon dont les organisations passeront à Teams à l’avenir. Lors du déplacement d’un utilisateur du site vers Teams, il n’est bientôt plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement du site vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Si ce commutateur n’est pas spécifié, les utilisateurs passeront de l’domicile à Skype Entreprise Server local à Skype Entreprise Online et leur mode reste inchangé. Après la retraite, lors du déplacement d’un utilisateur du cloud local vers le cloud, les utilisateurs sont automatiquement affectés au mode TeamsOnly et leurs réunions à partir du site sont converties automatiquement en réunions Teams, comme si le commutateur était spécifié ou `Move-CsUser` `-MoveToTeams switch had been specified` non. Cette fonctionnalité devrait être publiée avant le retrait effectif du 31 juillet 2021.
 
 
 Le diagramme ci-dessous montre les phases conceptuelles de la mise à niveau des fonctionnalités de sélection pour une organisation sans utilisation préalable d’Teams. La hauteur des barres représente le nombre d’utilisateurs. Pendant toute phase de la mise à niveau, tous les utilisateurs peuvent communiquer entre eux.  Skype Entreprise communiquent avec les utilisateurs de TeamsOnly à l’aide d’Interop, et inversement. Les utilisateurs en mode Îles doivent s’assurer d’exécuter les deux clients.
@@ -149,7 +149,7 @@ Le diagramme ci-dessous montre les phases conceptuelles d’une transition de fo
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurer la connectivité hybride entre les Skype Entreprise Server et les Microsoft 365 ou Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurer la connectivité hybride entre les Skype Entreprise Server et Microsoft 365 ou Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Déplacer des utilisateurs entre l’environnement local et le cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

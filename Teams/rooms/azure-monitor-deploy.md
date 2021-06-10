@@ -1,5 +1,5 @@
 ---
-title: Déployer la gestion des salles Microsoft Teams à l’aide d’Azure Monitor
+title: Déployer la Salles Microsoft Teams gestion des ordinateurs avec Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: Cet article explique comment déployer la gestion des appareils De salle Microsoft Teams de façon intégrée et de bout en bout à l’aide d’Azure Monitor.
+description: Cet article décrit comment déployer la gestion des appareils Salles Microsoft Teams de bout en bout à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -30,7 +30,7 @@ Vous pouvez configurer l’intérieur pour fournir des alertes et des données d
 
 En suivant ce guide, vous pouvez utiliser un tableau de bord comme celui-ci pour obtenir des rapports d’état détaillés sur la disponibilité des appareils, l’état des applications et du matériel, ainsi que la distribution des versions des applications et des systèmes :::no-loc text="Microsoft Teams Rooms"::: d’exploitation.
 
-![Capture d’écran de l’exemple de vue Analyse des journaux pour les salles Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemple d’affichage Analyse des journaux pour les salles Microsoft Teams")
+![Capture d’écran de l’affichage Analyse des journaux d’Salles Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemple d’affichage Analyse des journaux pour Salles Microsoft Teams")
 
 À haut niveau, vous devez effectuer les tâches suivantes :
 
@@ -50,7 +50,7 @@ En suivant ce guide, vous pouvez utiliser un tableau de bord comme celui-ci pour
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>Valider la :::no-loc text="Log Analytics"::: configuration
 <a name="validate_LogAnalytics"> </a>
 
-Vous devez avoir un espace :::no-loc text="Log Analytics"::: de travail pour commencer à collecter les journaux à partir :::no-loc text="Microsoft Teams Rooms"::: d’appareils. Un espace de travail est un environnement unique avec son propre référentiel :::no-loc text="Log Analytics"::: de données, ses sources de données et ses solutions. Si vous avez déjà un espace de travail existant, vous pouvez l’utiliser pour surveiller votre déploiement ou créer un espace de travail dédié spécifique à vos besoins :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: de :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: surveillance.
+Vous devez avoir un espace :::no-loc text="Log Analytics"::: de travail pour commencer à collecter les journaux à partir d’appareils. :::no-loc text="Microsoft Teams Rooms"::: Un espace de travail est un environnement unique avec son propre référentiel :::no-loc text="Log Analytics"::: de données, ses sources de données et ses solutions. Si vous avez déjà un espace de travail existant, vous pouvez l’utiliser pour surveiller votre déploiement ou créer un espace de travail dédié spécifique à vos besoins :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: de :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: surveillance.
 
 Si vous avez besoin de créer un espace de travail, suivez les instructions de l’article Créer :::no-loc text="Log Analytics"::: un espace de travail dans le [ :::no-loc text="Log Analytics"::: :::no-loc text="Azure"::: portail](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -75,13 +75,13 @@ Pour configurer la :::no-loc text="Log Analytics"::: collecte des événements, 
 
 Vous devez vous préparer :::no-loc text="Log Analytics"::: à être en mesure de surveiller les :::no-loc text="Microsoft Teams Rooms"::: événements –associés. Pour commencer, vous devez déployer des agents sur un ou deux appareils à qui vous avez accès physique, et faire en sorte que ces périphériques de test génèrent des données et les envoient à l’espace :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: de :::no-loc text="Log Analytics"::: travail.
 
-### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Installer des :::no-loc text="Microsoft Monitoring"::: agents sur les appareils de test
+### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Installer des :::no-loc text="Microsoft Monitoring"::: agents pour tester les appareils
 
-Déployez l’agent sur les appareils de test en utilisant les instructions fournies dans Connecter des :::no-loc text="Microsoft Monitoring"::: ordinateurs [au service :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: dans :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows). Cet article fournit des informations détaillées sur les étapes à suivre pour le déploiement de l’Agent, des instructions pour obtenir l’ID d’espace de travail _ et la clé primaire _ pour connecter les appareils à votre déploiement, ainsi que des instructions pour vérifier la connectivité de l’agent à :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: l’instance.
+Déployez l’agent sur les périphériques de test en utilisant les instructions fournies :::no-loc text="Microsoft Monitoring"::: Connecter sur le service [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: dans :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows). Cet article fournit des informations détaillées sur les étapes à suivre pour le déploiement de l’Agent, des instructions pour obtenir l’ID d’espace de travail _ et la clé primaire _ pour connecter les appareils à votre déploiement, ainsi que des instructions pour vérifier la connectivité de l’agent à :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: l’instance.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Générer des exemples :::no-loc text="Microsoft Teams Rooms"::: d’événements
 
-Une fois l’agent déployé sur les appareils de test, vérifiez que les données requises du journal des :::no-loc text="Microsoft Monitoring"::: événements sont collectées par :::no-loc text="Azure Monitor"::: .
+Une fois l’agent déployé sur les appareils de test, vérifiez que les données requises du journal des :::no-loc text="Microsoft Monitoring"::: événements sont collectées :::no-loc text="Azure Monitor"::: par.
 
 > [!NOTE]
 > Redémarrez l’appareil après l’installation de l’agent et assurez-vous que l’application Réunion est démarrée afin qu’elle puisse générer de nouveaux événements dans le :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: journal des événements.
@@ -121,8 +121,8 @@ Pour extraire vos champs personnalisés des journaux des événements capturés,
    2.  Exemple de requête : `Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Sélectionnez l’un des enregistrements, sélectionnez le bouton à gauche et démarrez l’Assistant Extraction de champ.
-4. Mettez en surbrillation les données que vous voulez extraire de la description RenderedDescription et indiquez un titre de champ. Les noms de champs que vous devez utiliser sont indiqués dans la Table 1.
-5. Utilisez les mappages indiqués dans *le tableau 1.* :::no-loc text="Log Analytics":::automatiquement la chaîne **\_** CF lorsque vous définissez le nouveau champ.
+4. Mettez en surbrillation les données que vous voulez extraire de la description RenderedDescription et indiquez un titre de champ. Les noms des champs que vous devez utiliser sont indiqués dans la Table 1.
+5. Utilisez les mappages indiqués dans *le tableau 1.* :::no-loc text="Log Analytics":::automatiquement la chaîne **\_ CF** lorsque vous définissez le nouveau champ.
 
 > [!IMPORTANT]
 > N’oubliez pas que tous les champs et JSON :::no-loc text="Log Analytics"::: sont sensibles à la cas.
@@ -159,19 +159,19 @@ Pour extraire vos champs personnalisés des journaux des événements capturés,
 Une fois les données collectées et les champs personnalisés mappés, vous pouvez utiliser le Concepteur de vues pour développer un tableau de bord contenant différentes vignettes pour surveiller les :::no-loc text="Microsoft Teams Rooms"::: événements. Utilisez le concepteur de vues pour créer les mosaïques suivantes. Pour plus d’informations, voir [Créer :::no-loc text="Log Analytics"::: des affichages personnalisés à l’aide du Concepteur de vues dans](/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
-> Les étapes précédentes de ce guide doivent avoir été effectuées pour que les mosaïques du tableau de bord fonctionnent correctement.
+> Les étapes précédentes de ce guide doivent avoir été effectuées pour que les vignettes du tableau de bord fonctionnent correctement.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Créer un tableau de bord salles Microsoft Teams à l’aide de la méthode d’importation
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Créer un tableau Salles Microsoft Teams de bord à l’aide de la méthode d’importation
 
 Vous pouvez importer un tableau :::no-loc text="Microsoft Teams Rooms"::: de bord et commencer rapidement à surveiller vos appareils. Pour importer le tableau de bord, vous suivrez les étapes suivantes :
 
-1.  Obtenez le [SkypeRoomSystems_v2 de tableau de bord SkypeRoomSystems_v2.view.](https://go.microsoft.com/fwlink/?linkid=835675)
+1.  Obtenez le SkypeRoomSystems_v2 de tableau de bord [SkypeRoomSystems_v2.view.](https://go.microsoft.com/fwlink/?linkid=835675)
 2.  Connectez-vous au [ :::no-loc text="Microsoft Azure"::: portail,](https://portal.azure.com) puis sélectionnez :::no-loc text="Log Analytics"::: votre espace de travail.
-3.  Ouvrez **le Concepteur d’affichage.**
+3.  Ouvrir **le Concepteur d’affichage.**
 4.  Sélectionnez Importer, puis sélectionnez **le SkypeRoomSystems_v2.view.** 
 5.  Sélectionnez **Enregistrer**.
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Créer manuellement un tableau de bord salles Microsoft Teams
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Créer un tableau Salles Microsoft Teams de bord manuellement
 
 Vous pouvez également créer votre propre tableau de bord et ajouter uniquement les vignettes que vous souhaitez contrôler.
 
@@ -181,7 +181,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 2.  Sélectionnez **Vignette vue d’ensemble,** puis deux numéros **dans** la galerie.
 3.  Nommez la **:::no-loc text="Microsoft Teams Rooms":::** vignette.
 4.  Définir la **première vignette**:<br>
-    **Légende :** Appareils qui ont envoyé une pulsation au moins une fois au cours du mois dernier<br>
+    **Légende :** Appareils qui ont envoyé une pulsation au moins une fois au cours du mois précédent<br>
     **Requête :**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  Définir la **deuxième vignette**:<br>
     **Légende :** Appareils actifs qui ont envoyé une pulsation au cours de la dernière heure<br>
@@ -193,7 +193,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 1.  Sélectionnez **Afficher le tableau de** bord pour commencer à ajouter vos vignettes.
 2.  Sélectionner **l'& numéro dans** la galerie
 3.  Définir les **propriétés Général** :<br>
-    **Titre du groupe :** État heartbeat<br>
+    **Titre du groupe :** État de pulsation<br>
     **Nouveau groupe :** Sélectionné
 4.  Définissez les **propriétés du** mosaïque :<br>
     **Légende :** Appareils actifs (pulsations envoyées au cours des 20 dernières minutes)<br>
@@ -243,7 +243,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Sélectionnez **Appliquer,** puis **Fermer.**
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Créer une vignette affichant les :::no-loc text="Microsoft Teams Rooms"::: versions du système d’exploitation
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Créer une vignette qui affiche les :::no-loc text="Microsoft Teams Rooms"::: versions du système d’exploitation
 
 1.  Sélectionnez **Ajouter & liste** dans la galerie, puis ajoutez une nouvelle vignette.
 2.  Définir les **propriétés Général** :<br>
@@ -258,7 +258,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Opération :** Somme
 5.  Définissez les **propriétés de** la liste.<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **Masquer le graphique :** Sélectionné<br>
+    **Masquer les Graph :** Sélectionné<br>
     **Activer lesine sparkline :** Non sélectionné
 6.  Définir les **titres des colonnes.**<br>
     **Nom :** Nom de l’ordinateur<br>
@@ -282,7 +282,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     **Opération :** Somme
 5.  Définissez les **propriétés de** la liste.<br>
     **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **Masquer le graphique :** Sélectionné<br>
+    **Masquer les Graph :** Sélectionné<br>
     **Activer lesine sparkline :** Non sélectionné
 6.  Définir les **titres des colonnes.**<br>
     **Nom :** Nom de l’ordinateur<br>
@@ -291,10 +291,10 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  Sélectionnez **Appliquer,** puis **Fermer.**
 
-### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Créer une vignette affichant les appareils affichant une erreur d’application
+### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Créer une vignette qui affiche les appareils affichant une erreur d’application
 
 1.  Sélectionnez **Numéro & numéro dans** la galerie, puis ajoutez une nouvelle vignette.
-2.  Définissez les **propriétés** Général.<br>
+2.  Définissez **les propriétés** Général.<br>
     **Titre du groupe :** Laisser vide<br>
     **Nouveau groupe :** Non sélectionné
 3.  Définissez les **propriétés du** mosaïque.<br>
@@ -312,7 +312,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Créer une vignette qui affiche les appareils qui ont été redémarrés
 
 1.  Sélectionnez **Numéro & numéro dans** la galerie, puis ajoutez une nouvelle vignette.
-2.  Définissez les **propriétés** Général.<br>
+2.  Définissez **les propriétés** Général.<br>
     **Titre du groupe :** Laisser vide<br>
     **Nouveau groupe :** Non sélectionné
 3.  Définissez les **propriétés du** mosaïque.<br>
@@ -356,7 +356,7 @@ Configurez une règle d’alerte qui vérifie les appareils qui ont rencontré d
 
 3. Sélectionnez **Ajouter une condition,** puis **Recherche dans le journal personnalisé**
 
-4.  Entrez la requête suivante dans la zone de texte requête de recherche.<br>
+4.  Entrez la requête suivante dans la zone de texte de la requête de recherche.<br>
     ```
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
@@ -377,15 +377,15 @@ Configurez une règle d’alerte qui vérifie les appareils qui ont rencontré d
 7. Configurer des groupes d’actions :
     1.  Sélectionnez **Créer nouveau**
     2.  Fournissez des noms appropriés *pour les champs Nom du groupe d’actions* et Nom *court.*
-    3.  Spécifiez un nom *d’action unique,* **sélectionnez E-mail/SMS/Push/Voix,** puis **sélectionnez Modifier les détails.**
-    4.  Cochez **la case** par courrier électronique et fournissez l’adresse de courrier de la personne ou du groupe qui recevra les alertes.
-    5.  Vous pouvez également fournir votre numéro de téléphone pour être averti par SMS, par appel vocal ou les deux.
+    3.  Spécifiez un *nom d’action unique,* sélectionnez **E-mail/SMS/Push/Voice,** puis sélectionnez **Modifier les détails.**
+    4.  Cochez **la case** Par e-mail et fournissez l’adresse e-mail de la personne ou du groupe qui recevra les alertes.
+    5.  Vous pouvez également fournir votre numéro de téléphone pour être averti par SMS, un appel vocal ou les deux.
     6. Sélectionnez **OK.**
 
-8. **Personnalisez les Actions** si vous souhaitez remplacer la ligne d’objet des courriers électroniques d’alerte.
+8. **Personnalisez les actions** si vous souhaitez remplacer la ligne d’objet des courriers électroniques d’alerte.
 
 9. Spécifiez un nom de règle et une description.<br>
-    **Nom de la règle :** :::no-loc text="Microsoft Teams Rooms"::: Alerte de défaillance matérielle<br>
+    **Nom de la règle :** :::no-loc text="Microsoft Teams Rooms"::: Alerte d’échec matériel<br>
     **Description :** Liste des appareils qui ont rencontré un problème matériel au cours de la dernière heure<br>
 
 10. Sélectionnez la gravité prévue et assurez-vous que la règle est activée.
@@ -436,9 +436,9 @@ Si vous avez déjà déployé vos appareils avant de les implémenter, vous pouv
     2.  Activez **l’activer l’exécution de script** et définissez la stratégie **d’exécution** pour autoriser **les scripts locaux.**
 
 6.  Configurez le script de démarrage :
-    1.  Copiez le script suivant et enregistrez-le Install-MMAgent.ps1.
+    1.  Copiez le script suivant et enregistrez-le sous Install-MMAgent.ps1.
     2.  Modifiez les paramètres WorkspaceId, WorkspaceKey et SetupPath pour qu’ils correspondent à votre configuration.
-    3.  Modifier le même objet de stratégie de groupe et accéder aux scripts des paramètres des stratégies de configuration \\ \\ :::no-loc text="Windows"::: \\ ordinateur (démarrage/arrêt)
+    3.  Modifier le même objet de stratégie de groupe et accéder aux stratégies de configuration \\ \\ :::no-loc text="Windows"::: Paramètres \\ scripts (démarrage/arrêt)
     4.  Double-cliquez pour sélectionner **Démarrage,** puis **sélectionnez Scripts PowerShell.**
     5.  Sélectionnez **Afficher les** fichiers, puis copiez **leInstall-MMAgent.ps1** dans ce dossier.
     6.  Sélectionnez **Ajouter,** puis **Parcourir.**
@@ -494,7 +494,7 @@ Stop-Transcript
 ## <a name="additional-solutions"></a>Autres solutions
 <a name="Solutions"> </a>
 
-:::no-loc text="Azure Monitor"::: fournit des solutions de gestion intégrées par le biais de [sa](/azure/azure-monitor/insights/solutions) galerie de solutions pour vous aider à surveiller votre environnement. Nous vous recommandons également d’ajouter des [ :::no-loc text="Azure Log Analytics"::: solutions](/azure/azure-monitor/insights/solution-agenthealth) [de](/azure/azure-monitor/platform/alert-management-solution) gestion des alertes et d’état d’santé de l’agent à votre espace de travail.
+:::no-loc text="Azure Monitor"::: fournit des solutions de gestion intégrées via sa [galerie](/azure/azure-monitor/insights/solutions) de solutions pour vous aider à surveiller votre environnement. Nous vous recommandons également d’ajouter des solutions [de](/azure/azure-monitor/platform/alert-management-solution) gestion des alertes et de santé de [ :::no-loc text="Azure Log Analytics"::: l’agent](/azure/azure-monitor/insights/solution-agenthealth) à votre espace de travail.
 
 > [!NOTE]
 > La solution d’état de l’agent peut vous aider à identifier les agents obsolètes ou rompus au sein de votre environnement, et la solution de gestion des alertes fournit des détails sur les alertes qui ont été élevées au cours d’une :::no-loc text="Microsoft Monitoring"::: période donnée.

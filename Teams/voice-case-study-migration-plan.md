@@ -1,5 +1,5 @@
 ---
-title: Étude de cas Teams voix Contoso
+title: Teams cas Contoso voix
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Étude de cas Voix Teams pour une entreprise multinationale
+description: Teams cas de voix pour une entreprise multinationale
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
@@ -23,9 +23,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51093724"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a>Étude de cas Contoso : plan de mise à niveau de Teams
+# <a name="contoso-case-study-teams-upgrade-plan"></a>Étude de cas Contoso : plan Teams mise à niveau
 
-En souhaitant migrer Skype Entreprise vers Teams, Contoso souhaitait offrir une expérience de transition facile aux utilisateurs finaux. Au lieu de basculer tout le monde vers Teams en même temps, ils ont décidé de configurer la connectivité hybride et d’utiliser la méthode des capacités superposées pour déplacer les utilisateurs vers Teams. Cela permettait aux utilisateurs de Teams et de Skype Entreprise sur site de partager les informations de présence et de communication. Lorsque les utilisateurs ont entré le pilote du système téléphonique, ils ont été déplacés en mode Teams uniquement.
+En décision de migrer d’Skype Entreprise à Teams, Contoso souhaitait offrir une expérience de transition facile aux utilisateurs finaux. Au lieu de basculer tout le monde Teams en même temps, ils ont décidé de configurer la connectivité hybride et d’utiliser la méthode des capacités superposées pour déplacer les utilisateurs vers Teams. Cela permettait aux utilisateurs Teams et Skype Entreprise de communiquer en local et de communiquer. Lorsque les utilisateurs ont entré le pilote pour Système téléphonique, ils ont été déplacés en Teams mode Seul.
 
 Pour comprendre les concepts fondamentaux de la mise à niveau, des méthodes et des modes, Contoso lit les articles suivants :
 
@@ -33,7 +33,7 @@ Pour comprendre les concepts fondamentaux de la mise à niveau, des méthodes et
 - [Stratégies de mise à niveau pour les administrateurs informatiques](upgrade-to-teams-on-prem-implement.md) 
 - [Conseils sur la migration et l’interopérabilité](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso a également participé à la session Ignite 2019 concevant votre chemin de [Skype Entreprise à Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso a appris les sujets :
+Contoso a également participé à la session Ignite 2019 Concevant votre chemin d’accès de [Skype Entreprise à Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso a appris les sujets :
 
 - Concepts fondamentaux tels que l’interopérabilité, la fédération et le comportement de mise à niveau 
 
@@ -41,20 +41,20 @@ Contoso a également participé à la session Ignite 2019 concevant votre chemin
 
 - Expérience utilisateur final pour : 
 
-  - Conversation et appels 
+  - Conversation et appel 
 
   - Planification de réunions 
 
-  - Disponibilité de la fonctionnalité de collaboration dans les clients Teams 
+  - Disponibilité de la fonctionnalité de collaboration dans Teams clients 
 
 Pour planifier et configurer la connectivité hybride, la première étape du déplacement de leur [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) environnement local [](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) vers le cloud, Contoso lit Planifier la connectivité hybride et Configurer la connectivité hybride pour comprendre comment : 
 
-  - Configurez leur service d’environnement local de manière à ce qu’il se fédérera avec Office 365. 
+  - Configurez leur service d’environnement local de manière à ce qu’il Office 365. 
 
-  - Configurer leur environnement local pour faire confiance à Office 365 et activer l’espace d’adressare SIP partagé avec Office 365 
+  - Configurez leur environnement local pour faire confiance à des utilisateurs Office 365 et activer l’espace d’adresse SIP partagé avec Office 365 
 
-  - Activez l’espace d’adresse SIP partagé dans son client Office 365.
+  - Activez l’espace d’adresse SIP partagé dans Office 365 client.
 
   - Utilisez le mode Îles pendant le pilote technique.
 
-  - Basculez les utilisateurs en mode TeamsOnly une fois que l’utilisateur est activé pour Phone System. Le mode TeamsOnly est requis pour le plan d’appel et le routage direct.
+  - Basculez les utilisateurs en mode TeamsOnly une fois que l’utilisateur est activé pour Système téléphonique. Le mode TeamsOnly est requis pour le plan d’appel et le routage direct.

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
+description: Voici les services Microsoft 365 et Office 365 services Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
 ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
 ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "52629033"
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis. Pour [plus d’informations, consultez](../calling-plans-for-office-365.md) comment acheter une offre d’appels.
+Voici les services Microsoft 365 et Office 365 services Skype Entreprise et Microsoft Teams disponibles pour les États-Unis. Pour [plus d’informations, consultez](../calling-plans-for-office-365.md) comment acheter une offre d’appels.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 

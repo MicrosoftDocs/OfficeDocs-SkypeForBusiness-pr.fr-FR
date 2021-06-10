@@ -1,5 +1,5 @@
 ---
-title: Création de comptes de ressources Microsoft Teams pour les barres de collaboration pour Microsoft Teams à l’aide de PowerShell
+title: Création de Microsoft Teams de ressources pour les barres de collaboration pour les Microsoft Teams à l’aide de PowerShell
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -23,26 +23,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115602"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Créer un compte de ressources Microsoft 365 à l’aide de PowerShell
+# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Créer un Microsoft 365 de ressources à l’aide de PowerShell
 
-Lisez cette rubrique pour plus d’informations sur la création de comptes de ressources pour les barres de collaboration pour Microsoft Teams à l’aide de PowerShell.
+Lisez cette rubrique pour plus d’informations sur la création de comptes de ressources pour les barres de collaboration Microsoft Teams l’aide de PowerShell.
 
-Pour créer un compte de ressource, le plus simple consiste à utiliser le Centre d’administration Microsoft 365. [Consultez cet article sur la façon de faire.](resource-account-ui.md)
+La méthode la plus simple pour créer un compte de ressource consiste à utiliser le Microsoft 365 d’administration. [Consultez cet article sur la façon de faire.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>Conditions requises
 
-Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous avez la qualité requise. Pour plus d’informations, voir [Les barres de collaboration de déploiement de Microsoft Teams.](collab-bar-deploy.md)
+Avant de déployer Salles Microsoft Teams avec Office 365, assurez-vous que vous avez répondu à la exigences. Pour plus d’informations, voir [Déployer les barres de collaboration pour Microsoft Teams.](collab-bar-deploy.md)
 
-- Si vous avez besoin des fonctionnalités PSTN pour la barre de collaboration, vous aurez besoin d’une licence Phone System.
+- Si vous avez besoin des fonctionnalités PSTN pour la barre de collaboration, vous devez Système téléphonique licence.
 
-- Vos comptes de ressources doivent avoir des boîtes aux lettres Exchange. Comme il s’agit de comptes de ressources, aucune licence Exchange n’est requise. Nous vous recommandons d’utiliser la licence Salles de réunion pour les comptes de ressources.
+- Vos comptes de ressources doivent avoir Exchange boîtes aux lettres. Comme il s’agit de comptes de ressources, aucune Exchange n’est requise. Nous vous recommandons d’utiliser la licence Salles de réunion pour les comptes de ressources.
 
 
 ### <a name="add-a-resource-account"></a>Ajouter un compte de ressource
 
-1. Connectez-vous à Exchange Online PowerShell. Pour obtenir des instructions, [voir Se connecter à Exchange Online PowerShell.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. Connecter à Exchange Online PowerShell. Pour obtenir des instructions à [ce Connecter, voir Exchange Online PowerShell.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 2. Dans Exchange Online PowerShell, créez une boîte aux lettres de salle ou modifiez une boîte aux lettres de salle existante.
 
@@ -91,11 +91,11 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Cette salle possède une barre de collaboration pour Microsoft Teams ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
+   - Réponse supplémentaire : « Cette salle insère une barre de collaboration pour Microsoft Teams ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
 
    Cet exemple configure ces paramètres dans la boîte aux lettres de salle nommée Bldle-Room-01.
 
@@ -105,7 +105,7 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
 
    Pour plus d’informations sur la syntaxe et les paramètres, [voir Set-CalendarProcessing.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Connectez-vous à MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell.   Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. Connecter à MS Online PowerShell pour définir les paramètres Active Directory en exécutant `Connect-MsolService -Credential $cred` l’cmdlet PowerShell.   Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0 n’est](/powershell/azure/active-directory/overview?view=azureadps-2.0) pas pris en charge. 
@@ -116,7 +116,7 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. Le compte de ressource doit avoir une licence Office 365 valide, de préférence la référence SKU de salle de réunion. Vous devez également affecter un emplacement d’utilisation à votre compte d’appareil, ce qui détermine les S SKD de licence disponibles pour votre compte. Vous pouvez `Get-MsolAccountSku` l’utiliser pour récupérer la liste des SKT disponibles pour votre client Office 365.
+6. Le compte de ressource doit avoir une licence Office 365 valide, de préférence la Salle de réunion SKU. Vous devez également affecter un emplacement d’utilisation à votre compte d’appareil. Cela détermine les S SKD de licence disponibles pour votre compte. Vous pouvez `Get-MsolAccountSku` l’utiliser pour récupérer la liste des S SKUs disponibles pour votre Office 365 client.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,13 +128,13 @@ Avant de déployer salles Microsoft Teams avec Office 365, assurez-vous que vous
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes d’utilisateurs [avec PowerShell Office 365.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Pour obtenir des instructions détaillées, voir Attribuer des licences à des comptes [d’utilisateurs Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 
 
 
-[Configurer des comptes pour les barres de collaboration pour Microsoft Teams à l’aide de PowerShell](resource-account-ps.md)
+[Configurer des comptes pour des barres de collaboration pour des Microsoft Teams à l’aide de PowerShell](resource-account-ps.md)
 
-[Déployer des barres de collaboration pour Microsoft Teams](collab-bar-deploy.md)
+[Déployer des barres de collaboration pour des Microsoft Teams](collab-bar-deploy.md)
 
-[Barres de collaboration pour la gestion des licences Microsoft Teams](../rooms/rooms-licensing.md)
+[Barres de collaboration pour les licences Microsoft Teams collaboration](../rooms/rooms-licensing.md)
