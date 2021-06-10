@@ -1,5 +1,5 @@
 ---
-title: Mises à jour du contenu de Microsoft Teams
+title: Microsoft Teams mises à jour de contenu
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Cette rubrique est une liste de rubriques d’aide de Microsoft Teams qui ont été mises à jour récemment, y compris des liens vers les rubriques mises à jour.
+description: Cette rubrique est une liste de Microsoft Teams d’aide récemment mises à jour, y compris des liens vers les rubriques mises à jour.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583803"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="73021-103">Mises à jour du contenu de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="73021-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="5a7cf-103">Microsoft Teams mises à jour de contenu</span><span class="sxs-lookup"><span data-stu-id="5a7cf-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="73021-104">Cette rubrique répertorie les rubriques de Microsoft Teams qui ont récemment été modifiées.</span><span class="sxs-lookup"><span data-stu-id="73021-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="5a7cf-104">Cette rubrique répertorie Microsoft Teams des sujets récemment modifiés.</span><span class="sxs-lookup"><span data-stu-id="5a7cf-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

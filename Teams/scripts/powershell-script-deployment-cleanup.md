@@ -1,5 +1,5 @@
 ---
-title: Exemple de script PowerShell - Nettoyage du déploiement de Teams
+title: Exemple de script PowerShell - nettoyage Teams de déploiement
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le dossier Teams pour les utilisateurs.
+description: Utilisez ce script PowerShell pour désinstaller Teams et supprimer le Teams dossier des utilisateurs.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,12 +24,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117292"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="20648-103">Exemple de script PowerShell - Nettoyage du déploiement teams</span><span class="sxs-lookup"><span data-stu-id="20648-103">PowerShell script sample - Teams deployment clean up</span></span>
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="7335f-103">Exemple de script PowerShell - nettoyage Teams de déploiement</span><span class="sxs-lookup"><span data-stu-id="7335f-103">PowerShell script sample - Teams deployment clean up</span></span>
 
-<span data-ttu-id="20648-104">Utilisez ce script pour supprimer Teams.</span><span class="sxs-lookup"><span data-stu-id="20648-104">Use this script to remove Teams.</span></span> <span data-ttu-id="20648-105">Ce script désinstalle Teams et supprime le dossier Teams d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="20648-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="20648-106">Exécutez ce script pour chaque profil utilisateur dans lequel Teams a été installé sur un ordinateur.</span><span class="sxs-lookup"><span data-stu-id="20648-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
+<span data-ttu-id="7335f-104">Utilisez ce script pour supprimer des Teams.</span><span class="sxs-lookup"><span data-stu-id="7335f-104">Use this script to remove Teams.</span></span> <span data-ttu-id="7335f-105">Ce script désinstalle Teams et supprime le Teams d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7335f-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="7335f-106">Exécutez ce script pour chaque profil utilisateur dans lequel Teams été installé sur un ordinateur.</span><span class="sxs-lookup"><span data-stu-id="7335f-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="20648-107">Exemple de script</span><span class="sxs-lookup"><span data-stu-id="20648-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="7335f-107">Exemple de script</span><span class="sxs-lookup"><span data-stu-id="7335f-107">Sample script</span></span>
 
 ````powershell
 <#
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="20648-108">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="20648-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7335f-108">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="7335f-108">Related topics</span></span>
 
-- [<span data-ttu-id="20648-109">Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="20648-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="20648-110">Déployer Teams avec les applications Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="20648-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)
+- [<span data-ttu-id="7335f-109">Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="7335f-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="7335f-110">Déployer des Teams à l’Microsoft 365 Apps</span><span class="sxs-lookup"><span data-stu-id="7335f-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)
