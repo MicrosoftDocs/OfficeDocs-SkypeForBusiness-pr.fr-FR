@@ -1,5 +1,5 @@
 ---
-title: Données de diagnostic du client de bureau requises pour Microsoft Teams
+title: Données de diagnostic du client de bureau requises pour Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
-description: Une liste des propriétés de bureau et des événements de contrôles des stratégies pour Microsoft Teams.
+description: Une liste des propriétés de bureau et des événements de contrôles des stratégies pour Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136015"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863225"
 ---
-# <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de bureau requises pour Microsoft Teams
+# <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de bureau requises pour Microsoft Teams
 
-L’article suivant contient une liste des événements de bureau Microsoft Teams et les listes des propriétés collectées par chaque événement.
+L’article suivant contient une liste des événements de bureau Microsoft Teams et les listes des propriétés collectées par chaque événement.
+
+Pour plus d’informations sur les données de diagnostic, notamment sur la façon de contrôler les données de diagnostic envoyées à Microsoft, consultez [Données de diagnostic envoyées de l’application Teams à Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Pour afficher les données de diagnostic envoyées à Microsoft, vous pouvez utiliser la [Visionneuse de données de diagnostic](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>Événements
 
@@ -37,106 +39,106 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur les propriétés des événements de journalisation, consultez la section [Propriétés envoyées avec les événements de journalisation](#properties-sent-with-logging-events).
 
-- **adal-anonymous-mac.ts: this.logger.logError** : enregistre le fait qu’une erreur sso générique se soit produite lors de la connexion anonyme sur un appareil Mac.
-- **adalAnonymousUtil.ts:loggingService.getInstance** : enregistre une déclaration d’erreur dans la journalisation selon laquelle l’application n’a pas pu lancer l’authentification utilisateur anonyme.
-- **adal-anonymous-windows.ts:this.logger.logError** : enregistre le fait qu’une erreur sso générique se soit produite lors de la connexion anonyme sur un appareil Windows.
-- **adalBase.ts:this.loggingService.logError** : enregistre les informations nécessaires pour déterminer si le profil utilisateur est null ou vide.
-- **adal-impl-mac.ts:this.loggingService.logError** : enregistre l’occurrence d’un problème pendant l’analyse de la télémétrie, reçue lors de l’authentification ou une erreur sso générique apparue lors de la connexion sur un appareil Mac.
-- **adal-rigel-windows.ts:this.logger.logError** : une déclaration de journalisation générale indiquant qu’une erreur sso générique s’est produite lors de la connexion à notre appareil de salle de réunion.
-- **adal-sso-windows.ts:this.loggingService.logError** : enregistre une erreur sso générique apparue lors de la connexion à un appareil Windows, des erreurs lors du lancement du service de discussion ou des informations d’échec de connexion.
-- **appOnlineService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur due à des paramètres qui n’ont pas pu être analysés au démarrage ou lors du téléchargement de l’authentification pré-utilisateur ou des paramètres préautorisés.
-- **appStart.ts:loggingService.logError** : enregistre l’occurrence d’une erreur lorsque l’application n’a pas pu se lancer, une erreur d’espace disque, une erreur de certificat valide ou lorsque le certificat correct n’a pas été trouvé et que l’application redémarre.
-- **browserWindowHttp.ts:this.loggingService.logError** : enregistre des informations pour indiquer que l’application n’a pas pu être mise à jour en raison de problèmes liés au système de fichiers.
-- **contextInstallService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur dans les cas suivants :
+- **adal-anonymous-mac.ts: this.logger.logError** : enregistre le fait qu’une erreur sso générique se soit produite lors de la connexion anonyme sur un appareil Mac.
+- **adalAnonymousUtil.ts:loggingService.getInstance** : enregistre une déclaration d’erreur dans la journalisation selon laquelle l’application n’a pas pu lancer l’authentification utilisateur anonyme.
+- **adal-anonymous-windows.ts:this.logger.logError** : enregistre le fait qu’une erreur sso générique se soit produite lors de la connexion anonyme sur un appareil Windows.
+- **adalBase.ts:this.loggingService.logError** : enregistre les informations nécessaires pour déterminer si le profil utilisateur est null ou vide.
+- **adal-impl-mac.ts:this.loggingService.logError** : enregistre l’occurrence d’un problème pendant l’analyse de la télémétrie, reçue lors de l’authentification ou une erreur sso générique apparue lors de la connexion sur un appareil Mac.
+- **adal-rigel-windows.ts:this.logger.logError** : une déclaration de journalisation générale indiquant qu’une erreur sso générique s’est produite lors de la connexion à notre appareil de salle de réunion.
+- **adal-sso-windows.ts:this.loggingService.logError** : enregistre une erreur sso générique apparue lors de la connexion à un appareil Windows, des erreurs lors du lancement du service de discussion ou des informations d’échec de connexion.
+- **appOnlineService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur due à des paramètres qui n’ont pas pu être analysés au démarrage ou lors du téléchargement de l’authentification pré-utilisateur ou des paramètres préautorisés.
+- **appStart.ts:loggingService.logError** : enregistre l’occurrence d’une erreur lorsque l’application n’a pas pu se lancer, une erreur d’espace disque, une erreur de certificat valide ou lorsque le certificat correct n’a pas été trouvé et que l’application redémarre.
+- **browserWindowHttp.ts:this.loggingService.logError** : enregistre des informations pour indiquer que l’application n’a pas pu être mise à jour en raison de problèmes liés au système de fichiers.
+- **contextInstallService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur dans les cas suivants :
   - tentative d’analyse, de lecture d’un fichier ou de résolution d’une URL essentielle pour la fonctionnalité d’installation contextuelle.
   - le raccourcisseur d’URL tente d’exécuter la fonctionnalité d’installation contextuelle.
-- **crashManager.ts:loggingService.logError** : enregistre des informations pour déterminer la cause d’une erreur lorsque l’application se bloque.
-- **localStorageService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lorsque les données de démarrage essentielles ne se chargent pas correctement pour exécuter l’application.
-- **logProviders\pageDumpProvider.ts:loggingService.getInstance** : enregistre les informations concernant l’erreur lorsque l’application se bloque.
-- **multiWindowManager.ts:this.logError** : enregistre l’occurrence d’une erreur lorsque les données de démarrage essentielles ne se chargent pas correctement pour exécuter l’application.
-- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** : cet événement enregistre l’occurrence d’une erreur lors de la tentative de lancement d’une notification d’échec.
-- **OutlookMeetingAddinHelper.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lors de la tentative de connexion à une réunion à l’aide du complément de réunion Outlook.
-- **recoveryManager.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lors des annulations de mise à jour.
-- **renderer\startPage\startPage.ts:this.logger.logError** : enregistre l’occurrence d’une erreur avec la page de démarrage de l’application.
-- **settingsService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur avec les paramètres de l’application.
-- **updateInfo.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lors de la transmission des mises à jour.
-- **updatenotification.js:this._loggingService.logError** : enregistre l’occurrence des problèmes d’espace disque.
-- **utility.ts:loggingService.logError** : enregistre une erreur d’accès à un fichier local (un fichier dans l’application).
-- **utility.ts:loggingService.getInstance** : enregistre une erreur dans l’espace disque disponible, des problèmes d’affichage, des problèmes d’URL, des problèmes de cookies, des protocoles ou des problèmes de clé de registre sur la machine pour charger l’application.
-- **windowmanager.js:this._loggingService.logError** : enregistre l’occurrence des problèmes de cookies, des problèmes d’écran blanc, des problèmes de communication entre le bureau et shell, des problèmes d’URL, des erreurs de chargement des messages de page, des erreurs de rendu de processus et des problèmes de connectivité réseau.
-- **windowmanager.js:loggingService.getInstance** : enregistre des informations pour indiquer quand la fenêtre de récupération ne peut pas être affichée.
+- **crashManager.ts:loggingService.logError** : enregistre des informations pour déterminer la cause d’une erreur lorsque l’application se bloque.
+- **localStorageService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lorsque les données de démarrage essentielles ne se chargent pas correctement pour exécuter l’application.
+- **logProviders\pageDumpProvider.ts:loggingService.getInstance** : enregistre les informations concernant l’erreur lorsque l’application se bloque.
+- **multiWindowManager.ts:this.logError** : enregistre l’occurrence d’une erreur lorsque les données de démarrage essentielles ne se chargent pas correctement pour exécuter l’application.
+- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** : cet événement enregistre l’occurrence d’une erreur lors de la tentative de lancement d’une notification d’échec.
+- **OutlookMeetingAddinHelper.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lors de la tentative de connexion à une réunion à l’aide du complément de réunion Outlook.
+- **recoveryManager.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lors des annulations de mise à jour.
+- **renderer\startPage\startPage.ts:this.logger.logError** : enregistre l’occurrence d’une erreur avec la page de démarrage de l’application.
+- **settingsService.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur avec les paramètres de l’application.
+- **updateInfo.ts:loggingService.getInstance** : enregistre l’occurrence d’une erreur lors de la transmission des mises à jour.
+- **updatenotification.js:this._loggingService.logError** : enregistre l’occurrence des problèmes d’espace disque.
+- **utility.ts:loggingService.logError** : enregistre une erreur d’accès à un fichier local (un fichier dans l’application).
+- **utility.ts:loggingService.getInstance** : enregistre une erreur dans l’espace disque disponible, des problèmes d’affichage, des problèmes d’URL, des problèmes de cookies, des protocoles ou des problèmes de clé de registre sur la machine pour charger l’application.
+- **windowmanager.js:this._loggingService.logError** : enregistre l’occurrence des problèmes de cookies, des problèmes d’écran blanc, des problèmes de communication entre le bureau et shell, des problèmes d’URL, des erreurs de chargement des messages de page, des erreurs de rendu de processus et des problèmes de connectivité réseau.
+- **windowmanager.js:loggingService.getInstance** : enregistre des informations pour indiquer quand la fenêtre de récupération ne peut pas être affichée.
 
 ### <a name="outlook-addin"></a>Complément Outlook
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur les propriétés des événements de complément Outlook, consultez la section [Propriétés envoyées avec les événements de complément Outlook](#properties-sent-with-outlook-addin-events).
 
-- **joinmeetingoperation** : enregistre les informations nécessaires pour joindre un utilisateur à une réunion.
-- **meetingaddinapplifecycle** : enregistre des informations sur l’état de l’application, telles que Lancer ou Quitter.
-- **meetingaddinloadtime** : enregistre le temps nécessaire pour le chargement des informations de réunion à partir d’Outlook.
-- **openmeetingoperation** : enregistre les informations nécessaires pour ouvrir une réunion programmée.
-- **savemeetingoperation** : enregistre les informations nécessaires pour enregistrer la réunion lors de sa planification.
+- **joinmeetingoperation** : enregistre les informations nécessaires pour joindre un utilisateur à une réunion.
+- **meetingaddinapplifecycle** : enregistre des informations sur l’état de l’application, telles que Lancer ou Quitter.
+- **meetingaddinloadtime** : enregistre le temps nécessaire pour le chargement des informations de réunion à partir d’Outlook.
+- **openmeetingoperation** : enregistre les informations nécessaires pour ouvrir une réunion programmée.
+- **savemeetingoperation** : enregistre les informations nécessaires pour enregistrer la réunion lors de sa planification.
 
 ### <a name="scenario"></a>Scénario
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur les propriétés des événements de scénario, consultez la section [Propriétés envoyées avec les événements de scénario](#properties-sent-with-scenario-events).
 
-- **desktop_app_load** : enregistre les informations nécessaires pour déterminer si l’application de bureau a été lancée, si le service doit être initialisé et s’il peut être initialisé.
-- **desktop_app_not_ready** : enregistre les informations nécessaires qui permettent de déterminer que l’application de bureau n’est pas prête à fonctionner.
-- **desktop_install** : enregistre les informations nécessaires pour déterminer si l’application de bureau a correctement été installée ou si son installation a échoué.
-- **desktop_previous_lifecycle_invalid** : enregistre les informations nécessaires qui permettent de déterminer que l’application de bureau a redémarré après son exécution précédente, puis s’est bloquée.
+- **desktop_app_load** : enregistre les informations nécessaires pour déterminer si l’application de bureau a été lancée, si le service doit être initialisé et s’il peut être initialisé.
+- **desktop_app_not_ready** : enregistre les informations nécessaires qui permettent de déterminer que l’application de bureau n’est pas prête à fonctionner.
+- **desktop_install** : enregistre les informations nécessaires pour déterminer si l’application de bureau a correctement été installée ou si son installation a échoué.
+- **desktop_previous_lifecycle_invalid** : enregistre les informations nécessaires qui permettent de déterminer que l’application de bureau a redémarré après son exécution précédente, puis s’est bloquée.
 
 ### <a name="tracking"></a>Suivi
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur les propriétés des événements de suivi, consultez la section [Propriétés envoyées avec les événements de suivi](#properties-sent-with-tracking-events).
 
-- **deeplink_scenario_missing** : Teams a été lancé à partir d’un lien profond, mais la télémétrie ou le diagnostic n’est pas présent.
-- **desktop_app_initialized** : enregistre les informations nécessaires pour déterminer si l’application démarre correctement lorsque l’application de bureau est initialisée.
-- **desktop_app_quit_exception** : l’application a cessé de fonctionner lors de la tentative de fermeture.
-- **desktop_blankScreenDetected** : enregistre les informations nécessaires qui permettent de déterminer les erreurs lorsque l’application de bureau affiche un écran vide.
-- **desktop_blankScreenDetectedAfterRepaint** : détecte que la page est vide lors de la détection d’une tentative de rendu.
-- **desktop_blankScreenRecoveredAfterRepaint** : récupère un problème de rendu pour lequel l’écran n’a pas été rendu plus tôt.
-- **desktop_configuration_failed_to_save** : collecte les informations nécessaires pour déterminer les erreurs de configuration lorsque les paramètres du bureau n’ont pas pu être enregistrés.
-- **desktop_navigation_error_recovery** : collecte les informations nécessaires pour déterminer les erreurs de navigation sur le bureau lorsqu’une page ne se charge pas après cinq tentatives.
-- **desktop_previous_gpu_crashed** : enregistre les informations nécessaires pour déterminer les erreurs de l’unité de traitement graphique lorsque le bureau se bloque.
-- **desktop_previous_plugin_host_crashed** : collecte les informations nécessaires pour déterminer les problèmes de pile de supports associés aux pannes des applications de bureau.
-- **desktop_recovery_cleared_user_data** : enregistre que l’application s’est bloquée plusieurs fois et que l’application a dû vider le cache local pour effectuer une récupération.
-- **desktop_settings_blank_on_load** : erreur qui indique que les paramètres de l’application ne sont pas présents.
-- **desktop_settings_failed_to_load** : collecte les informations nécessaires pour déterminer la cause de l’échec du chargement des paramètres du bureau.
-- **desktop_silent_restart** : la mise à jour du client est effectuée et le client est mis à jour sans déranger l’utilisateur.
-- **desktop_terminated** : enregistre les informations nécessaires pour déterminer si la communication inter-processus est déconnectée lorsque l’utilisateur ferme l’application de bureau.
-- **desktop_uncaught_exception** : appel de fonction sur un objet non défini, qui entraînera un blocage ou un redémarrage de l’application.
-- **desktop_write_storage_failed** : enregistre les informations nécessaires pour déterminer les erreurs de disque lorsque l’application de bureau ne parvient pas à écrire sur le stockage.
-- **registration_failed** : enregistre les informations nécessaires pour résoudre les échecs d’inscription des compléments.
-- **registration_success** : enregistre les informations nécessaires pour déterminer si les inscriptions de compléments ont abouti.
-- **security_unsupported_ipc_channel** : le message interprocessus non autorisé était un message entrant.
-- **sfb_running_not_connected** : détecte que l’application Skype Entreprise n’est pas en cours d’exécution.
-- **sfb_not_running** : enregistre le fait que « l’attente de la réponse » de l’appel à Skype Entreprise a expiré.
-- **sfb_never_replied** : ne détecte aucune réponse d’API lors de la communication avec Skype Entreprise.
-- **server_error_hit** : détecte une erreur des canaux ipc communiquant avec Skype Entreprise.
-- **unexpected_sfb_ipc_disconnection** : enregistre les informations nécessaires pour déterminer un échec de connexion au service.
-- **unregister_failed** : enregistre les informations nécessaires pour déterminer les erreurs lors de la désinscription du complément de réunion Outlook.
+- **deeplink_scenario_missing** : Teams a été lancé à partir d’un lien profond, mais la télémétrie ou le diagnostic n’est pas présent.
+- **desktop_app_initialized** : enregistre les informations nécessaires pour déterminer si l’application démarre correctement lorsque l’application de bureau est initialisée.
+- **desktop_app_quit_exception** : l’application a cessé de fonctionner lors de la tentative de fermeture.
+- **desktop_blankScreenDetected** : enregistre les informations nécessaires qui permettent de déterminer les erreurs lorsque l’application de bureau affiche un écran vide.
+- **desktop_blankScreenDetectedAfterRepaint** : détecte que la page est vide lors de la détection d’une tentative de rendu.
+- **desktop_blankScreenRecoveredAfterRepaint** : récupère un problème de rendu pour lequel l’écran n’a pas été rendu plus tôt.
+- **desktop_configuration_failed_to_save** : collecte les informations nécessaires pour déterminer les erreurs de configuration lorsque les paramètres du bureau n’ont pas pu être enregistrés.
+- **desktop_navigation_error_recovery** : collecte les informations nécessaires pour déterminer les erreurs de navigation sur le bureau lorsqu’une page ne se charge pas après cinq tentatives.
+- **desktop_previous_gpu_crashed** : enregistre les informations nécessaires pour déterminer les erreurs de l’unité de traitement graphique lorsque le bureau se bloque.
+- **desktop_previous_plugin_host_crashed** : collecte les informations nécessaires pour déterminer les problèmes de pile de supports associés aux pannes des applications de bureau.
+- **desktop_recovery_cleared_user_data** : enregistre que l’application s’est bloquée plusieurs fois et que l’application a dû vider le cache local pour effectuer une récupération.
+- **desktop_settings_blank_on_load** : erreur qui indique que les paramètres de l’application ne sont pas présents.
+- **desktop_settings_failed_to_load** : collecte les informations nécessaires pour déterminer la cause de l’échec du chargement des paramètres du bureau.
+- **desktop_silent_restart** : la mise à jour du client est effectuée et le client est mis à jour sans déranger l’utilisateur.
+- **desktop_terminated** : enregistre les informations nécessaires pour déterminer si la communication inter-processus est déconnectée lorsque l’utilisateur ferme l’application de bureau.
+- **desktop_uncaught_exception** : appel de fonction sur un objet non défini, qui entraînera un blocage ou un redémarrage de l’application.
+- **desktop_write_storage_failed** : enregistre les informations nécessaires pour déterminer les erreurs de disque lorsque l’application de bureau ne parvient pas à écrire sur le stockage.
+- **registration_failed** : enregistre les informations nécessaires pour résoudre les échecs d’inscription des compléments.
+- **registration_success** : enregistre les informations nécessaires pour déterminer si les inscriptions de compléments ont abouti.
+- **security_unsupported_ipc_channel** : le message interprocessus non autorisé était un message entrant.
+- **sfb_running_not_connected** : détecte que l’application Skype Entreprise n’est pas en cours d’exécution.
+- **sfb_not_running** : enregistre le fait que « l’attente de la réponse » de l’appel à Skype Entreprise a expiré.
+- **sfb_never_replied** : ne détecte aucune réponse d’API lors de la communication avec Skype Entreprise.
+- **server_error_hit** : détecte une erreur des canaux ipc communiquant avec Skype Entreprise.
+- **unexpected_sfb_ipc_disconnection** : enregistre les informations nécessaires pour déterminer un échec de connexion au service.
+- **unregister_failed** : enregistre les informations nécessaires pour déterminer les erreurs lors de la désinscription du complément de réunion Outlook.
 
 ## <a name="userbi-panelaction"></a>UserBI panelaction
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur les propriétés des événements panelaction UserBI, consultez la section [Propriétés envoyées avec les événements panelaction UserBI](#properties-sent-with-userbi-panelaction-events).
 
-- **inlinereply** : enregistre des informations pour déterminer si un utilisateur a répondu à partir de la notification.
-- **toastclick** : enregistre le clic d’un utilisateur pour accéder à l’entrée de message des notifications toast pour surveiller le SLA de service et pour charger la réponse appropriée à la notification toast.
-- **toastdismiss** : enregistre les informations nécessaires pour déterminer les erreurs et les retards lorsque l’utilisateur rejette le rendu d’une notification toast.
+- **inlinereply** : enregistre des informations pour déterminer si un utilisateur a répondu à partir de la notification.
+- **toastclick** : enregistre le clic d’un utilisateur pour accéder à l’entrée de message des notifications toast pour surveiller le SLA de service et pour charger la réponse appropriée à la notification toast.
+- **toastdismiss** : enregistre les informations nécessaires pour déterminer les erreurs et les retards lorsque l’utilisateur rejette le rendu d’une notification toast.
 
-- **toast_skip** : enregistre les informations nécessaires pour éviter de transmettre une notification toast différée.
-- **toasttimeout** : enregistre les informations nécessaires pour déterminer les erreurs et les retards lorsque le rendu d’une notification toast a expiré.
+- **toast_skip** : enregistre les informations nécessaires pour éviter de transmettre une notification toast différée.
+- **toasttimeout** : enregistre les informations nécessaires pour déterminer les erreurs et les retards lorsque le rendu d’une notification toast a expiré.
 
 ### <a name="userbi-panelview"></a>UserBI panelview
 
 > [!NOTE]
 > Si vous souhaitez en savoir plus sur les propriétés des événements panelview UserBI, consultez la section [Propriétés envoyées avec les événements panelview UserBI](#properties-sent-with-userbi-panelview-events).
 
-- **toastshow** : enregistre les informations nécessaires pour déterminer si une notification toast a été rendue.
+- **toastshow** : enregistre les informations nécessaires pour déterminer si une notification toast a été rendue.
 
 ## <a name="property-lists"></a>Listes des propriétés
 
@@ -144,9 +146,9 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 
 | Nom de la propriété                              | Description                                                        |
 |--------------------------------------------|--------------------------------------------------------------------|
-| EventInfo_Time                             | Heure de création de l’événement                                              |
-| EventInfo_Name                             | Nom de l’événement : utilisé pour différencier les types d’événements             |
-| EventInfo_BaseType/name                    | Type d’événement : utilisé pour différencier les types d’événements dans un événement |
+| EventInfo_Time                             | Heure de création de l’événement                                              |
+| EventInfo_Name                             | Nom de l’événement : utilisé pour différencier les types d’événements             |
+| EventInfo_BaseType/name                    | Type d’événement : utilisé pour différencier les types d’événements dans un événement |
 | EventInfo_Sequence                         | Séquence de l’événement                                              |
 | userAgent                                  | Chaîne de l’agent navigateur                                               |
 | userpdclevel                               | Paramètre de contrôle des données de confidentialité de l’utilisateur                           |
@@ -157,7 +159,7 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 | clientVersion/appversion/AppInfo_Version/desktopBuildVersion | Version de l’application                               |
 | buildtime                                  | horodatage de la création de l’application dans les systèmes techniques            |
 | osversion/DeviceInfo_OsVersion             | Version du système d’exploitation                                                         |
-| AppInfo_ProcessArchitecture                | Architecture système (32 bits/64 bits)                                  |
+| AppInfo_ProcessArchitecture                | Architecture système (32 bits/64 bits)                                  |
 | preferredLocales                           | Paramètres régionaux préférés de l’utilisateur                                      |
 | locale/AppInfo_Locale                      | Paramètres régionaux de l’application                                                         |
 | os/DeviceInfo_OsName                       | Nom du système d’exploitation                                                            |
@@ -205,11 +207,11 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 | Session_DesktopId                 | Identifiant de session unique                                                                  |
 | machineLocked                     | Détecte si la machine était verrouillée ou non                                          |
 | windowIsVisible                   | Détecte si la fenêtre de l’application était visible pour être utilisée                                      |
-| appStates/webAppStates            | enregistre une liste des différents états d’application de l’application. Cela facilite l’enquête sur les blocages, car nous pouvons voir dans quel état se trouvait l’application |
+| appStates/webAppStates            | enregistre une liste des états d’application que l’application a rencontrés. Cela permet d’examiner les incidents, car nous pouvons voir dans quel état l’application se trouvait |
 | crashDesktopSession               | Capture l’identifiant de la session bloquée                                                 |
 | appRuntime                        | Capture le temps d’exécution de l’application                                                        |
-| diagnosticEvents                  | Les 50 derniers événements de diagnostic d’application web avant le blocage de l’application                                 |
-| activities                        | Les 50 derniers noms de scénario utilisateur qui se sont produits avant le blocage                            |
+| diagnosticEvents                  | Les 50 derniers événements de diagnostic d’application web avant le blocage de l’application                                 |
+| activities                        | Les 50 derniers noms de scénario utilisateur qui se sont produits avant le blocage                            |
 | crashSession                      | Capture l’identifiant de la session bloquée                                                 |
 | crashId                           | Capture l’identifiant de la session bloquée                                                 |
 | isPreviousLifecycleValid          | Détermine si l’application précédente a été entièrement initialisée et terminée avec succès             |
@@ -265,13 +267,13 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 | machineLocked                      | Détermine si la machine a été verrouillée ou non pendant l’événement                        |
 | data                               | Capture des données techniques pour l’enquête concernant les scénarios                               |
 | appRuntime                         | Capture le temps d’exécution de l’application                                                      |
-| activities                         | Les 50 derniers noms de scénario utilisateur qui se sont produits avant le blocage                          |
+| activities                         | Les 50 derniers noms de scénario utilisateur qui se sont produits avant le blocage                          |
 | timeSinceActivity                  | Temps écoulé depuis la dernière activité de l’utilisateur                                                    |
 | appStates                          | Enregistre une liste des différents états d’application de l’application de bureau, ce qui facilite les enquêtes sur les pannes car cela indique l’état dans lequel se trouvait l’application de bureau |
 | timeSinceAppState                  | Temps écoulé depuis le dernier changement de l’état de l’application                                                 |
 | webAppStates                       | Enregistre une liste des différents états d’application du client web, ce qui facilite les enquêtes sur les pannes car cela indique l’état dans lequel se trouvait l’application client web |
 | timeSinceWebAppState               | Temps écoulé depuis le dernier changement de l’état de l’application web                                             |
-| diagnosticEvents                   | Les 50 derniers événements de diagnostic d’application web avant le blocage de l’application                               |
+| diagnosticEvents                   | Les 50 derniers événements de diagnostic d’application web avant le blocage de l’application                               |
 | timeSinceLastDiagnosticEvent       | Temps écoulé depuis le dernier événement de diagnostic envoyé                                            |
 | timeSinceSecondLastDiagnosticEvent | Temps écoulé depuis l’envoi de l’avant-dernier événement de diagnostic                                     |
 | appInitialized                     | Détermine si l’application web a démarré                                               |
@@ -309,25 +311,25 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 
 | Propriété           | Description                                              |
 |--------------------|----------------------------------------------------------|
-| Panel_Uri          | Uri du panneau livré à l’utilisateur                   |
+| Panel_Uri          | URI du panneau livré à l’utilisateur                   |
 | Panel_Type         | Type de panneau auquel l’utilisateur accède                          |
 | Team_Id            | ID de l’équipe dans laquelle l’action a été effectuée par l’utilisateur |
 | Thread_Id          | ID du thread auquel l’utilisateur a accédé               |
 | Panel_PreviousUri  | URI du panneau précédent                                |
 | Panel_Region       | Zone dans laquelle le panneau était hébergé dans l’application             |
-| Panel_LaunchMethod | Méthode par laquelle le panneau a été lancé              |
+| Panel_LaunchMethod | méthode par laquelle le panneau été démarré              |
 | Panel_PreviousType | Type du panneau précédent                               |
-| Thread_Type        | Type de thread auquel l’utilisateur accède                          |
-| Panel_LaunchSource | Informations concernant la source du panneau qui a été lancé        |
-| Tab_Type           | Type de l’onglet auquel l’utilisateur accède                         |
+| Thread_Type        | Type de thread auquel l’utilisateur a accédé                          |
+| Panel_LaunchSource | information de source du panneau démarré        |
+| Tab_Type           | Type de l’onglet auquel l’utilisateur a accédé                         |
 | Team_Type          | Type d’équipe à laquelle l’utilisateur accède                            |
 
 ### <a name="properties-sent-with-userbi-panelaction-events"></a>Propriétés envoyées avec les événements panelaction UserBI
 
 | Nom de la propriété         | Description                                                        |
 |-----------------------|--------------------------------------------------------------------|
-| Action_DestinationUri | Uri de la ressource accessible par l’action de l’utilisateur                  |
-| Panel_Uri             | Uri du panneau livré à l’utilisateur                             |
+| Action_DestinationUri | URI de la ressource accédée par l’action de l’utilisateur                  |
+| Panel_Uri             | URI du panneau livré à l’utilisateur                             |
 | Action_Gesture        | Type de mouvement effectué par l’utilisateur sur l’application                       |
 | Action_ScenarioType   | Regroupement de fonctionnalités liées à la métrique commerciale pour la fonctionnalité       |
 | Panel_Type            | Type de panneau auquel l’utilisateur accède                                    |
@@ -339,13 +341,13 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 | Thread_Id             | ID du thread auquel l’utilisateur a accédé                         |
 | Panel_PreviousUri     | URI du panneau précédent                                          |
 | Panel_Region          | Zone dans laquelle le panneau était hébergé dans l’application                       |
-| Panel_LaunchMethod    | Méthode par laquelle le panneau a été lancé                        |
+| Panel_LaunchMethod    | méthode par laquelle le panneau été démarré                        |
 | Panel_PreviousType    | Type du panneau précédent                                         |
-| Thread_Type           | Type de thread auquel l’utilisateur accède                                    |
-| Module_State          | État du module auquel l’utilisateur accède                               |
+| Thread_Type           | Type de thread auquel l’utilisateur a accédé                                    |
+| Module_State          | État du module auquel l’utilisateur a accédé                               |
 | Action_Scenario       | Fonctionnalité dans un groupe de fonctionnalités liées à la métrique commerciale |
-| Panel_LaunchSource    | Informations concernant la source du panneau qui a été lancé                  |
-| Tab_Type              | Type de l’onglet auquel l’utilisateur accède                                   |
+| Panel_LaunchSource    | information de source du panneau démarré                  |
+| Tab_Type              | Type de l’onglet auquel l’utilisateur a accédé                                   |
 | Team_Type             | Type d’équipe à laquelle l’utilisateur accède                                      |
 
 ### <a name="properties-sent-with-outlook-addin-events"></a>Propriétés envoyées avec les événements de complément Outlook
@@ -397,6 +399,6 @@ L’article suivant contient une liste des événements de bureau Microsoft Tea
 | TeamsRing                       | Sonnerie de l’utilisateur actuel connecté au client Teams                            |
 | TeamsVersion                    | Capture la version de l’application Teams                                            |
 | TelemetrySetupCompletedTime     | Heure à laquelle la configuration de la télémétrie s’est terminée                                   |
-| UpnMismatch                     | Détermine s’il existe une inadéquation entre Outlook et Teams                  |
+| UpnMismatch                     | Indique s’il existe une incompatibilité d’upn entre Outlook et Teams                  |
 | UserDomain                      | Domaine de l’utilisateur                                                       |
 | ViewUpdatedTime                 | Heure à laquelle l’affichage a été mis à jour                                           |

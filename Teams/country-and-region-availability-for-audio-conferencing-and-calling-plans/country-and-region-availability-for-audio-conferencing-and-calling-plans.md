@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez si les services d’audioconférence, de Système téléphonique, d’appels, de crédits de communication et de numéros de téléphone gratuits et gratuits sont disponibles dans un pays ou une région.
-ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122268"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873821"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -157,7 +157,7 @@ Vous pouvez sélectionner un pays ou une région pour voir quelles fonctionnalit
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-Si vous recherchez une feuille de calcul avec tous les pays et toutes les régions, téléchargez et enregistrez la feuille de calcul de disponibilité des **[pays/régions](https://www.microsoft.com/download/details.aspx?id=102271)** de la fonctionnalité Voix Cloud.
+Si vous recherchez une feuille de calcul avec tous les pays et toutes les régions, téléchargez et enregistrez la feuille de calcul de disponibilité des **[pays/régions](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)** de la fonctionnalité Voix Cloud.
 
 ***
 
@@ -217,7 +217,7 @@ Pour plus d’informations sur les licences, vous pouvez également consulter [L
 
 Outre l’obtention de numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou gratuits pour des services tels que l’Audioconférence (pour les ponts de conférence), les files d’attente automatiques et les files d’attente d’appels. Il s’agit de numéros de service.
   
-La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous obtenez des numéros de service gratuits à partir de ces emplacements à l’aide **du Skype Entreprise d’administration.**
+La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous obtenez des numéros de service gratuits à partir de ces emplacements à l’aide **du Centre Skype Entreprise’administration.**
   
 Si vous souhaitez obtenir un numéro de service gratuit ou gratuit, vous pouvez consulter l’obtention de numéros [de téléphone de service.](../getting-service-phone-numbers.md) Si vous avez déjà un numéro de service gratuit ou gratuit que vous souhaitez transférer à partir d’un autre fournisseur, consultez Gérer les numéros de [téléphone pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

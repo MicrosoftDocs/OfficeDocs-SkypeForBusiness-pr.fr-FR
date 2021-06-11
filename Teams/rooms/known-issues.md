@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Les administrateurs peuvent en apprendre davantage sur une liste des problèmes connus pour Salles Microsoft Teams, y compris la mise à jour, l’interface utilisateur, le matériel et les limitations et les comportements attendus.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cec5cac544d3935c2c8be0f4dd9d7a57e68d35ec
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
+ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856433"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877486"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -32,7 +32,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, 
 | Titre du problème |  Comportement\/Symptôme | Solution connue | Article Ko |
 |  ---        |      ---             |   ---            | --- |
 | L’application ne se lance pas |  Après la mise à jour vers la version 4.4.41.0 de l’application, le système démarre sur un écran noir ou passe à l’écran de logo après quelques minutes. | Suivez les étapes de Salles Microsoft Teams application ne démarre pas après la mise à jour vers la [version 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) pour résoudre ce problème.  | Aucun |
-|  Le partage de contenu de réunions SfB ne s’affiche pas en plein écran         |    Dans Skype Entreprise réunions, les salles avec affichage en avant-plan à l’aide de paramètres DPI élevés peuvent rencontrer des problèmes où le contenu partagé dans une réunion n’affiche pas l’intégralité de l’écran à l’avant de l’affichage de la salle. Ce problème est dû à un problème sous-jacent dans l Windows 10 API RDP (Remote Desktop Protocol). | Pour résoudre ce problème, utilisez le paramètre XML pour désactiver `<WinRTRdpEnabled>` Windows 10 API RDP. Pour la désactiver, vous devez spécifier la valeur en tant que `false` . Pour plus d’informations, [voir Gérer les paramètres de la console avec un fichier de configuration XML.](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | Aucun |
+|  Faible volume de réunion après le partage de contenu         |   Salles Microsoft Teams les appareils sur Windows 10 20H2 baissent le volume des médias et des réunions après le partage de contenu via HDMI dans la salle. Ce problème est dû à un problème audio dans Windows 10 20H2. | Il n’existe actuellement aucune solution de contournement. Pour réduire l’impact sur le volume audio des réunions (par exemple, voix des participants), nous avons désactivé l’audio HDMI sur tous salles Teams appareils. L Windows 10 de l’équipe chargée d’étudier le problème et un avis des clients restera en vigueur jusqu’à ce qu’une résolution soit trouvée. | Aucun |
 |  Application obsolète         |    La console Microsoft Teams Rooms affiche une erreur « système config obsolète ».                |   [Utiliser l’outil de récupération de Microsoft Teams Rooms](recovery-tool.md)             |  Aucun |
 |  Appareil mis à jour vers une version d’Windows 10   |    Windows 10 appareil mis à jour de la version 1803 à la version 1809, laquelle n’est pas prise en charge. La version prise en charge est 1903. |   Cela peut se produire si le paramètre [DeferFeatureUpdatesPeriodinDays,](/windows/deployment/update/waas-configure-wufb) qui vous permet de différer les mises à jour des fonctionnalités pour un nombre de jours spécifié, est réglé sur un nombre maximal de 365 jours. <br><br> Windows 10 version 1809 n’est pas prise en charge avec Salles Microsoft Teams, tandis que la version 1903 est prise en charge. Toutefois, depuis le 27 mars 2020, la version 1809 a plus de 365 jours. Si ce paramètre n’est pas modifié, vous Windows installer la version 1809, ce qui peut entraîner des problèmes de Salles Microsoft Teams.<br><br>Pour éviter cette situation, **supprimez tout** paramètre de stratégie de groupe ou de gestion des paramètres de gestion des biens et des stratégies de groupe pour différer les mises à jour. Cela permet aux utilisateurs Windows mise à jour vers la dernière version du système d’exploitation prise en charge. <br><br>**IMPORTANT** Le paramètre de stratégie de groupe ou de gestion des jamais-êtres **doit** être supprimé (non configuré) et non définir **sur 0.** Si la stratégie est définie sur 0, Windows la dernière version disponible qui n’est peut-être pas prise en charge. |  Aucun |
 

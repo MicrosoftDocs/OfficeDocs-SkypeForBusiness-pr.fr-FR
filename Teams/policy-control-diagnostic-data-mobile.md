@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723565"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863245"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
 L’article suivant contient une liste des événements de mobiles Microsoft Teams, et pour chacun de ces événements la liste des propriétés collectées.
+
+Pour plus d’informations sur les données de diagnostic, notamment sur la façon de contrôler les données de diagnostic envoyées à Microsoft, consultez [Données de diagnostic envoyées de l’application Teams à Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). Pour afficher les données de diagnostic envoyées à Microsoft, vous pouvez utiliser la [Visionneuse de données de diagnostic](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 ## <a name="events"></a>Événements
 
@@ -37,7 +39,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 > [!NOTE]
 > Pour en savoir plus sur les propriétés des événements PanelAction, consulter la section [Propriétés envoyées avec les événements PanelAction](#properties-sent-with-panelaction-events).
 
-- **accessibilityUserConfiguration** : état d’activation d’une fonctionnalité d’accessibilité basculé.
+- **accessibilityUserConfiguration** : lorsqu’un utilisateur bascule une fonctionnalité d’accessibilité.
 - **acknowledgeSettingChange** : l’utilisateur prend connaissance d’une mise à jour dans la boîte de dialogue Nous avons mis à jour un paramètre de notification. Ceci est un indicateur de performance de fonctionnalité utilisé pour la prise de connaissance de notifications et pour déterminer la fiabilité globale des notifications.
 - **actionComposeMenu**
   - Utilisation d’extension de message de création.
@@ -109,6 +111,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
   - des numéros depuis les paramètres.
 - **blockChat** : une conversation de robot est bloquée. Ceci améliore la télémétrie existante concernant les conversations, et ne fait qu’ajouter des informations sur l’application.
 - **botClickCardAction** : utilisation de la carte de connecteur.
+- **brbFormOpened** : l’utilisateur a demandé à envoyer des commentaires.
+- **brbFormSubmit** : l’utilisateur a envoyé des commentaires.
 - **breakStartEndClicked** : appui sur **Début** ou **Fin de la pause** sur l’écran de pointage.
 - **breakStartEndTriggered** : choix de l’utilisateur de prendre ou terminer sa pause.
 - **bucketSelected** : confirmation de la sélection réussie d’un compartiment.
@@ -461,6 +465,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **dialOutDialog** - **Nouveau numéro** est sélectionné sur la feuille d’action.
 - **dialOutFailRetry** - appui sur **Réessayer** depuis une bannière d’échec.
 - **dialPad** : appui sur **Pavé numérique** depuis la liste d’appels.
+- **directShare** : a partagé un lien d’invitation vers une application native Sms/Email.
 - **disableCategory** : Désactiver un type de notification ou Désactiver les notifications d’appels entrants.
 - **disabled** - appui sur **Ignorer les notifications** dans l’expérience de première exécution (FRE). Fournit des données de performance essentielles pour les cas où l’utilisateur ignore les notifications dans le flux FRE.
 - **disableQuietDays** : Jours de déconnexion est désactivé. Données de télémétrie de performance de fonctionnalité pour les jours de déconnexion.
@@ -625,6 +630,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **Source de l’exécution, par exemple : directement, par un lien, par appShortcut** : s’exécute directement ou par un lien (enregistre la télémétrie de gestion des applications mobiles (GAM) ou de Gestion des périphériques mobiles (GPM) lors du démarrage de l’application pour collecter des données sur les utilisateurs actifs).
 - **leaveChat** : l’utilisateur quitte la conversation.
 - **legacyChatLink** : un lien vers une conversation héritée est sélectionné.
+- **link** : l’utilisateur a lancé l’échange du lien d’invitation en entrant dans l’application Teams.
 - **likeAppDismiss** : l’invite demandant à l’utilisateur s’il aime l’application ou non est masquée sans réponse donnée.
 - **likeAppNo** : l’invite demandant à l’utilisateur s’il aime l’application ou non reçoit la réponse Non.
 - **likeAppYes** : l’invite demandant à l’utilisateur s’il aime l’application ou non reçoit la réponse Oui.
@@ -650,6 +656,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **location_active_tracking** : l’appareil de l’utilisateur est basculé en mode suivi actif.
 - **locationCard** : une carte d’emplacement est sélectionnée.
 - **location_family_sync** : les membres d’un groupe familial créés dans l’application familiale MSA sont affichés. Confirme que tous les membres de la famille pouvant bénéficier d’un consentement sont affichés.
+- **location_data_use_privacy_denied** : l’utilisateur a refusé l’acceptation des conditions de confidentialité.
 - **location_group_map_sync** : l’affichage de la carte géographique est ouvert.
 - **location_map_load** : l’affichage de la carte géographique est chargée.
 - **location_map_markers_load** : l’affichage de la carte est chargée. Confirme que les marqueurs de position de tous les utilisateurs en partage actif sont correctement déployés sur l’affichage de la carte géographique.
@@ -855,6 +862,9 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **pinChannel** : Épingler un canal pour l’afficher au-dessus de la liste d’équipes et de canaux.
 - **pinSelf** : M’épingler depuis la feuille d’action.
 - **pinUser** : Épingler un utilisateur depuis la feuille d’action.
+- **place_created** : l’utilisateur a créé un emplacement partagé.
+- **place_deleted** : l’utilisateur a supprimé un emplacement partagé.
+- **place_edited** : l’utilisateur a modifié un emplacement partagé.
 - **play** : Lire l’enregistrement.
 - **playVoicemail** - appui sur **Lire** sur un élément de messagerie vocale.
 - **plusButtonClicked** : appui sur **Plus** (**+**).
@@ -918,6 +928,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **reactRemoved_HB** : l’utilisateur retire une réaction par l’expérience de la page Résumé des réactions.
 - **readReceipts** : fonctionnalité activée par l’utilisateur.
 - **redeemInvite** : acceptation d’invitation dans l’application.
+- **redeemLinkInAppStart** : l’utilisateur a initié l’échange du lien d’invitation à partir de l’application Teams.
 - **refreshCalendarList** : Faire glisser vers le bas pour actualiser l’affichage de l’agenda.
 - **refreshLinksGallery** : l’utilisateur fait glisser vers le bas pour actualiser la galerie de liens.
 - **removeAssignee** : une personne affectée est retirée de l’affichage du sélecteur d’affectations (par opposition à *assignmentRemoved* qui se déclenche lorsque l’utilisateur appuie sur **x** en dehors de l’affichage du sélecteur d’affectations).
@@ -933,7 +944,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **reorderChannelItem** : l’utilisateur réarrange l’ordre des canaux épinglés.
 - **reportAbuseConfirmation** : l’utilisateur appuie sur **Terminé** sur l’écran de confirmation.
 - **reportAbuseOpen** : nombre d’appuis sur **Signaler un problème** dans le menu contextuel.
-- **reportAbuseSend** : appui sur **Signaler** ; les données de télémétrie doivent contenir le type de signalement sélectionné.
+- **reportAbuseSend** : lorsqu’un utilisateur sélectionne le bouton **Rapport** , les données de télémétrie doivent stocker le type de rapport sélectionné.
 - **replyChain** : appui sur le bouton ou zone de texte **Nouveau message** dans la chaîne de réponses (fil de discussion).
 - **replyChannel** : appui sur **Répondre** dans un canal.
 - **replyNavigation** : un objet Répondre est sélectionné afin d’accéder à la publication référencée.
@@ -958,6 +969,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **saveEditMeeting** : appui sur **Enregistrer** sur la page de planificateur de réunion après avoir mis à jour la réunion.
 - **saveNewMeeting** : appui sur **Enregistrer** sur la page de planificateur de réunion. Utile pour journaliser les réunions correctement enregistrées et le pourcentage d’échecs de création de réunions dus à des erreurs côté client ou de service.
 - **savePlanClicked** : appui sur **Créer** dans le créateur de nouveau plan à partir de l’ouverture par défaut de l’application.
+- **dashboardNav** : l’utilisateur accède à une vignette sur le tableau de bord de la conversation.
+- **scenarioDashboardNav** : l’utilisateur accède à l’onglet tableau de bord dans une conversation (similaire à l’onglet de conversation).
 - **scheduledMeetingJoin** : appui sur **Participation à une réunion** depuis l’objet de réunion planifiée.
 - **scrollCalendarList** : défilement dans le calendrier.
 - **scrollDatePicker** : défilement dans le contrôle de sélecteur de dates du calendrier.
@@ -1013,6 +1026,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **settingsNavReadReceiptNotice** : l’utilisateur accède aux paramètres depuis l’avis de fonctionnalité.
 - **settingsOpened** : le fuseau horaire de l’appareil de l’utilisateur ne correspond pas à celui de l’équipe et l’utilisateur accède aux Paramètres.
 - **setupPinVault** : l’utilisateur enregistre un code confidentiel sécurisé pour son compte. 
+- **shareCharmCompleted** : l’utilisateur a terminé le partage d’un lien d’invitation via l’icône de partage d’application.
+- **shareCharmOpened** : l’utilisateur a lancé le partage d’un lien d’invitation via l’icône de partage d’application. 
 - **shareFile** : appui sur **Partager un fichier**. Permet également de vérifier que :
   - l’utilisateur a pu lancer l’opération de partage de fichier ;
   - l’utilisateur peut partager le fichier.
@@ -1127,6 +1142,8 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
   - la cible de transfert est définie sur une personne ;
   - la cible de transfert est définie sur un numéro de téléphone.
 - **translateFailed** : La traduction a échoué (sauf hors connexion). Indicateurs de performance de fonctionnalité pour la traduction de messages.
+- **trigger_created** : l’utilisateur a créé une limite géographique.
+- **trigger_deleted** : l’utilisateur a supprimé une limite géographique.
 - **unansweredCallForward** : une cible de transfert d’appel sans réponse est définie. Active également le transfert d’appel sans réponse (Sonnerie d’appel est activé et En cas d’absence de réponse est activé).
 - **unblockCaller** : l’utilisateur débloque :
   - un contact ou un numéro depuis la feuille d’action ;
@@ -1225,6 +1242,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **fileUploadSuccess** - Déclenché en cas de chargement d’un fichier.
 - **fileUploadLoadSummaryNotification** Déclenché lorsque le résumé de la notification de chargement change ou lorsque la notification interagit avec. Les interactions peuvent inclure des mouvements tels que le mouvement de balayage pour faire disparaître la notification ou appuyer sur la notification, etc.
 - **meetingFiles** - Déclenché lorsque l’écran des fichiers de réunion est ouvert.
+- **meetNowActionSheet** : se déclenche lorsque l’utilisateur crée une réunion Meet Now.
 - **navPersonalFiles** - Déclenché lorsque la navigation dans l’écran des fichiers est effectuée.
 
 ### <a name="scenario"></a>Scénario
@@ -1238,7 +1256,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **app_start_hot** Pour surveiller le lancement de l’application à chaud (Android uniquement).
 - **app_start_warm** Pour surveiller le lancement de l’application à chaud (Android uniquement).
 - **chat_add_giphy** - Confirme que l’action de rendu GIF Giphy a été effectuée.
-- **CortanaError** : pour surveiller les erreurs de Cortana.
+- **cortanaError** : pour surveiller les erreurs Cortana.
 - **cortanaView** : pour surveiller l’apparition de la zone de dessin Cortana.
 - **cortanaRestart** : pour surveiller le redémarrage de Cortana.
 - **cortanaSetNewConversation** : pour surveiller les nouvelles conversations de Cortana.
@@ -1287,7 +1305,7 @@ L’article suivant contient une liste des événements de mobiles Microsoft Tea
 - **smart_reply_banned** : confirme que la réponse intelligente ne peut pas être affichée pour l’utilisateur actuel.
 - **update_planner_task_and_nav_to_view** : confirme la mise à jour réussie d’un élément de tâche partagée et le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
 - **update_personalr_task_and_nav_to_view** : confirme la mise à jour d’un élément de tâche personnel et le temps pris par l’utilisateur pour accéder à l’affichage résultant après. 
-- **updatePlannerTask** - Confirme qu’un utilisateur a correctement mis à jour une tâche dans une liste de tâches partagées.
+- **updatePlannerTask** : confirme qu’un utilisateur a correctement mis à jour une tâche dans une liste de tâches partagées.
 - **upload_image** confirme que l’action de chargement de l’image a réussi ou échoué.
 - **upload_voice_messages** confirme que l’action de chargement de message vocal a réussi ou échoué.
 - **voiceMessageUpload** confirme que l’action de chargement de message vocal a réussi ou échoué.

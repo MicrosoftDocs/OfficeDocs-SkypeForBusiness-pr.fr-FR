@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Cet article décrit les expériences connectées optionnelles que vous connaîtrez dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777885"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863235"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Vue d’ensemble des expériences connectées optionnelles dans Microsoft Teams
 
@@ -28,7 +28,7 @@ Si vous avez un compte professionnel ou scolaire, l’administrateur de votre or
 Si votre administrateur vous a donné la possibilité d’utiliser des expériences connectées facultatives dans Teams, vous pouvez accéder à **Paramètres** > **Confidentialité** dans Teams et choisir d’utiliser des expériences connectées facultatives.
 
 > [!NOTE]
-> Si vous êtes administrateur, vous pouvez autoriser ou restreindre la possibilité pour vos utilisateurs d’utiliser des expériences connectées facultatives. Pour ce faire, vous pouvez utiliser le service de stratégies cloud [Office](/deployoffice/overview-office-cloud-policy-service) et configurer le *Autoriser l’utilisation d’expériences connectées facultatives supplémentaires dans le paramètre de stratégie* Office. 
+> Si vous êtes administrateur, vous pouvez autoriser ou restreindre la possibilité pour vos utilisateurs d’utiliser des expériences connectées facultatives. Pour ce faire, vous pouvez utiliser le service de stratégies cloud [Office](/deployoffice/overview-office-cloud-policy-service) et configurer le *Autoriser l’utilisation d’expériences connectées facultatives supplémentaires dans le paramètre de stratégie* Office. Il s’agit du même paramètre de stratégie qui contrôle si les expériences connectées facultatives sont disponibles pour vos utilisateurs dans les applications Office (telles que Word, Excel et PowerPoint) fournies avec Microsoft 365 Apps for Entreprise.
 
 ## <a name="giphy"></a>GIPHY
 

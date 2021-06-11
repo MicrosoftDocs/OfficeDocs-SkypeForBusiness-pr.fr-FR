@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777898"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863215"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Vue d’ensemble du contrôle de stratégie pour Microsoft Teams
 
@@ -84,7 +84,7 @@ Pour choisir le niveau de données de diagnostic qui nous est envoyé, utilisez 
 
 Vos utilisateurs ne pourront pas modifier le niveau de données de diagnostic de leurs appareils s’ils sont connectés à Teams avec leurs informations d’identification de l’organisation, parfois appelées compte professionnel ou scolaire.
 
-Ces données de diagnostic n’incluent pas les noms des utilisateurs, leur adresse e-mail ou le contenu de leur fichiers Office. Notre système crée un ID unique qui est associé aux données de diagnostic de vos utilisateurs. Lorsque nous recevons des données de diagnostic indiquant que l’application Teams a cessé de fonctionner 100 fois, cet ID unique nous permet de déterminer s’il s’agit d’un seul utilisateur qui a été bloqué 100 fois ou si ce sont 100 utilisateurs différents qui ont été bloqués chacun une fois. Nous n’utilisons pas cet ID unique pour identifier un utilisateur spécifique.
+Ces données de diagnostic n’incluent pas les noms des utilisateurs, leurs adresses e-mail ou tout autre contenu utilisateur, tel que les fichiers Office partagés dans Teams, un message de conversation envoyé dans Teams ou le texte d’un billet publié dans un canal Teams. Notre système crée un ID unique qui est associé aux données de diagnostic de vos utilisateurs. Lorsque nous recevons des données de diagnostic indiquant que l’application Teams a cessé de fonctionner 100 fois, cet ID unique nous permet de déterminer s’il s’agit d’un seul utilisateur qui a été bloqué 100 fois ou si ce sont 100 utilisateurs différents qui ont été bloqués chacun une fois. Nous n’utilisons pas cet ID unique pour identifier un utilisateur spécifique.
 
 Pour afficher les données de diagnostic qui sont envoyées à Microsoft, vous pouvez utiliser la visionneuse de données de diagnostic que vous pouvez télécharger et installer gratuitement depuis le Microsoft Store. Pour plus d’informations, consultez [Utiliser la visionneuse de diagnostic de données avec Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 

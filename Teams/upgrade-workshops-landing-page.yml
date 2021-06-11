@@ -29,11 +29,11 @@ productDirectory:
     - title: "Planifier votre mise à niveau de la version\_(commencez ici !)"
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
       summary: 'Que vous passiez la mise à niveau vers Teams avant la mise à l’abandon de Skype Entreprise Online (31 juillet 2021) ou le déplacement de scénarios de votre environnement Skype Entreprise local vers Teams, une transition réussie traite de la disponibilité des utilisateurs et techniques. Découvrez notre infrastructure éprouvée, nos meilleures pratiques et nos ressources conçues pour vous aider à faciliter une transition réussie vers Teams à partir d’Skype Entreprise Online, d’Skype Entreprise Server ou d’un environnement hybride. Public : Tous (sponsors commerciaux, administrateurs informatiques, préparation des utilisateurs/responsable du changement, responsable de projet)'
-      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: Implémenter votre mise Teams niveau
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
       summary: 'Rejoignez-nous pour identifier et préparer l’exécution de la meilleure approche technique pour déplacer toutes les charges de travail vers Teams, en fonction de vos objectifs et de votre environnement Skype Entreprise actuel. La plupart des clients ayant effectué des transitions réussies ont activé des Teams en plus de leur implémentation Skype Entreprise Online, Skype Entreprise Server hybride ou. Cette session partagera les principales considérations et les ressources précieuses pour vous aider à définir la meilleure stratégie de migration pour votre organisation. Public - Administrateurs informatiques'
-      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
