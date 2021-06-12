@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Découvrez comment configurer des emplacements d’urgence pour Microsoft 365 Business Voix.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282531"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907760"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Étape 1 : configurer un emplacement d’urgence Business Voice
 
 Un emplacement d’urgence est utilisé lorsque quelqu’un dans votre organisation appelle des services d’urgence tels qu’un pare-feu, une police ou un numéro de police. Lorsqu’une personne appelle un service d’urgence, l’adresse configurée comme adresse d’urgence de votre organisation est envoyée au service. Cette étape définit l’emplacement d’urgence principal pour votre organisation. Cet emplacement sera associé au numéro de téléphone principal de votre société dans une étape ultérieure.
 
 Si vous avez des utilisateurs situés dans plusieurs emplacements, par exemple, des bureaux à domicile ou dans d’autres villes, vous pouvez configurer des emplacements d’urgence supplémentaires. Vous pouvez même configurer des emplacements spécifiques au sein d’un emplacement. Les lieux peuvent être des bâtiments, des étages, des bureaux ou d’autres lieux où des utilisateurs peuvent se trouver dans un emplacement. D’autres emplacements et emplacements peuvent être ajoutés une fois que vous avez terminé la configuration initiale de Business Voice.
+
+La vidéo suivante vous montre comment effectuer ces étapes dans le Centre d’administration Teams’administration.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>Ajouter un emplacement d’urgence
 

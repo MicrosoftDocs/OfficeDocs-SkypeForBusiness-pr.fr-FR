@@ -17,25 +17,29 @@ search.appverid: MET150
 description: Découvrez comment configurer des numéros Microsoft 365 Business voix pour les utilisateurs et les services de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dcf582593cf09977f4992d6b78035a9726c12b8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 89cb3764e30fa0bf4fcfa9d6a18d29ca69786cef
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282541"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910036"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>Étape 2 : configurer les numéros de téléphone d’entreprise
 
 Avant de pouvoir configurer des utilisateurs ou des attendants automatiques dans votre organisation, vous devez obtenir des numéros de téléphone pour eux. Il existe plusieurs types de numéros de téléphone. Toutefois, voici les deux types de numéros que vous devez ajouter à cette étape :
 
 - **Numéros de service** Ces numéros sont utilisés pour le support automatique, l’audioconférence et les files d’attente. Ils peuvent être des numéros gratuits ou gratuits et peuvent gérer de grandes quantités d’appels en même temps. Le numéro de téléphone de votre entreprise doit être un numéro de service, car il sera affecté à un agent automatique dans une étape ultérieure.
-- **Numéros d’abonné** Ces numéros sont utilisés pour les utilisateurs réguliers, de sorte qu’ils peuvent effectuer et recevoir des appels téléphoniques.
+- **Numéros d’abonné** Ces numéros sont utilisés pour les utilisateurs réguliers afin qu’ils peuvent effectuer et recevoir des appels téléphoniques.
 
 > [!IMPORTANT]
 > Même si vous voulez utiliser vos numéros de téléphone existants, vous devez créer et attribuer des numéros de téléphone temporaires à la ligne de téléphone principale de votre entreprise et à vos utilisateurs. Vous pourrez remplacer ces numéros temporaires par vos numéros de téléphone existants dans une étape ultérieure.
 
 > [!NOTE]
 > Plusieurs heures peuvent être avant que vos nouveaux numéros de téléphone deviennent disponibles dans Teams.
+
+La vidéo suivante vous montre comment effectuer ces étapes dans le Centre d’administration Teams’administration.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
 
 ## <a name="set-up-a-service-number"></a>Configurer un numéro de service
 
@@ -62,7 +66,7 @@ Le numéro de service que vous définissez maintenant sera utilisé dans une ét
 
     6. Si vous sélectionnez **l’code de** zone, tapez l’code de la zone dans le cas d’une recherche, puis sélectionnez **Suivant** pour réserver votre numéro.
 
-5. Sélectionnez le nombre de votre choix. Vous avez 10 minutes pour sélectionner votre numéro de téléphone et y placer votre commande. Si cela prend plus de 10 minutes, le numéro de téléphone est renvoyé dans la réserve de numéros.
+5. Sélectionnez le nombre de votre choix. Vous avez 10 minutes pour sélectionner votre numéro de téléphone et y placer votre commande. Si cela prend plus de 10 minutes, le numéro de téléphone est renvoyé vers le pool de numéros.
 6. Lorsque vous êtes prêt à passer votre commande, **cliquez** sur Passer commande, puis **terminez**
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>Configurer des numéros de téléphone pour vos utilisateurs
@@ -73,7 +77,7 @@ Le numéro de service que vous définissez maintenant sera utilisé dans une ét
 4. Dans la page Emplacement et quantité, vous pouvez :
 
     1. Sous **Pays ou région,** sélectionnez un pays ou une région.
-    2. Sous **Type de nombre,** **sélectionnez Utilisateur (abonné).**
+    2. Sous **Type de numéro,** **sélectionnez Utilisateur (abonné).**
     3. Sous **Quantité,** entrez le nombre de nombres que vous souhaitez pour votre organisation.
     4. Choisissez Emplacement **ou** **Code** de la zone, selon que vous souhaitez rechercher des numéros de téléphone en utilisant la ville d’un lieu ou si vous souhaitez rechercher des numéros dans un code de zone spécifique.
     5. Si vous sélectionnez **Emplacement**:

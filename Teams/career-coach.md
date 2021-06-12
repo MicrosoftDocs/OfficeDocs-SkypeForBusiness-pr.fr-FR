@@ -16,16 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
-ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
+ms.openlocfilehash: 93223a9d8077241cf8a36c3d216fcc78b5db3dc7
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729787"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910066"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer Career Coach pour les Microsoft Teams
 
 Career Coach est une application Microsoft Teams Éducation optimisée par LinkedIn qui fournit des conseils personnalisés aux étudiants des niveaux supérieurs pour qu’ils naviguent dans leur carrière. Career Coach offre aux établissements d’enseignement une solution de carrière unifiée qui permet aux étudiants de découvrir leur carrière, de développer des compétences réelles et de développer leur réseau au même endroit.
+
+## <a name="supported-languages"></a>Langues prise en charge
+Career Coach est localisée dans les langues suivantes :
+
+  - Chinois (simplifié, Chine de mer)
+  - Chinois (traditionnel, Taïwan)
+  - Anglais (É.U.)
+  - Anglais (Royaume-Uni)
+  - Français (Canada)
+  - Français (France)
+  - Allemand (Deutschland)
+  - Japonais (Japon)
+  - Portugais (Brésil)
+  - Espagnol (Espagne)
+  - Espagnol (Mexique)
 
 En savoir plus sur [Career Coach.](https://aka.ms/career-coach)
 

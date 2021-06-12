@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856453"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910046"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -85,7 +85,11 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 - salles Teams version 4.4.25.0 ou supérieure
 
 > [!NOTE]
-> Les appels d’urgence dynamiques, y compris les notifications de service de sécurité, ne sont pas pris en charge Teams client web. Pour empêcher les utilisateurs d’utiliser le client web Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN** Web. Pour en savoir plus, [consultez les](teams-calling-policy.md) politiques d’appel dans Teams [et Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Les sous-réseaux et LES API WiFi sont pris en charge. Le commutateur/port Ethernet est pris en charge sur Windows 8.1 et ultérieures pour le moment. 
+> Les appels d’urgence dynamiques, y compris les notifications du service de sécurité, ne sont pas pris en charge Teams client web. Pour empêcher les utilisateurs d’utiliser le client web Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN** Web. Pour en savoir plus, [consultez les](teams-calling-policy.md) politiques d’appel dans Teams [et Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
+
+> [!NOTE]
+> Les emplacements de sous-réseau et Wifi sont pris en charge sur tous Teams clients. <br>
+> Ethernet/Switch (LLDP) n’est pris en charge que sur Windows et uniquement Windows versions 8.1 et ultérieures pour le moment.
 
 ## <a name="assign-emergency-addresses"></a>Affecter des adresses de secours
 
@@ -231,7 +235,7 @@ Le tableau suivant indique la prise en charge des appels d’urgence dynamiques 
 | GCCH | Disponible sur Teams bureau |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>Sujets associés
+ ## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

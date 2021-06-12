@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les Microsoft Teams fonctionnalités vocales cloud et les décisions de déploiement que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 391b8e2f30aa5e64fcb4b9e418af49341c2b9042
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689792"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901931"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution Teams voix 
 
@@ -135,7 +135,7 @@ Pour les utilisateurs en ligne uniquement, Messagerie vocale infonuagique est au
 Pour plus d’informations sur Messagerie vocale infonuagique sa configuration, voir les articles suivants :
 
 - [Configurer la Messagerie vocale cloud](set-up-phone-system-voicemail.md)
-- [Définir les stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
+- [Définir les stratégies de messagerie vocale dans votre organisation](manage-voicemail-policies.md)
 
 
 ### <a name="calling-identity"></a>Identité d’appel
