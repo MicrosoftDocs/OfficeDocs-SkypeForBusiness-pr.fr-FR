@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863245"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901941"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
@@ -979,17 +979,10 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
   - une recherche a réussi ou l’utilisateur a abandonné la recherche ;
   - une requête de recherche a réussi.
 - **searchContacts** : Rechercher depuis la liste d’appels.
-- **searchIcon** : indique :
-  - si une recherche peut être déclenchée ;
-  - la source d’un déclencheur de recherche ;
-  - si des résultats pertinents ont été trouvés.
 - **searchInitiated** : indique si une recherche peut être déclenchée ainsi que la source du déclencheur de recherche.
 - **searchMeetingParticipants** : Rechercher des participants à ajouter depuis le formulaire du planificateur. Utilisé pour faire la distinction entre le nombre de rendez-vous créés et le nombre de réunions créées.
 - **searchResultsClicked** : indique :
   - si des résultats pertinents peuvent être trouvés ;
-  - si les résultats de recherche proviennent de l’onglet Tout ou d’un domaine individuel.
-- **searchTab** : indique :
-  - les informations de domaine du résultat de recherche – pour les personnes, les conversations, les messages et les fichiers ;
   - si les résultats de recherche proviennent de l’onglet Tout ou d’un domaine individuel.
 - **searchTabClicked** : indique :
   - les informations de domaine du résultat de recherche – pour les personnes, les conversations, les messages et les fichiers ;
@@ -1303,6 +1296,8 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 - **smart_reply_enabled** : confirme que la réponse intelligente est activée pour l’utilisateur actuel.
 - **smart_reply_received** : confirme qu’une suggestion de réponse intelligente a été reçue.
 - **smart_reply_banned** : confirme que la réponse intelligente ne peut pas être affichée pour l’utilisateur actuel.
+- **park_call_for_hold_v2** : confirme que la mise en attente de l’appel a réussi ou échoué à l’aide du parc d’appels.
+- **unpark_call_for_hold_v2** : confirme que la reprise de l’appel a réussi ou échoué à l’aide de l’appel un-park. 
 - **update_planner_task_and_nav_to_view** : confirme la mise à jour réussie d’un élément de tâche partagée et le temps pris jusqu’à l’arrivée de l’utilisateur sur l’affichage résultant de son action.
 - **update_personalr_task_and_nav_to_view** : confirme la mise à jour d’un élément de tâche personnel et le temps pris par l’utilisateur pour accéder à l’affichage résultant après. 
 - **updatePlannerTask** : confirme qu’un utilisateur a correctement mis à jour une tâche dans une liste de tâches partagées.
@@ -1320,7 +1315,7 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 - **server_fetch_date_picker_view_incremental** confirme que la synchronisation incrémentielle des événements du calendrier à l'aide de l'API REST d'Outlook a réussi ou échoué.
 - **meeting_details** confirme que la synchronisation des détails de la réunion a réussi ou échoué.
 - **show_meeting_participants** confirme que l’affichage de la liste des participants à la réunion a réussi ou échoué.
-
+- **recherche** Confirme que l’ensemble de la session de recherche a réussi ou échoué.
 
 ## <a name="property-lists"></a>Listes des propriétés
 
