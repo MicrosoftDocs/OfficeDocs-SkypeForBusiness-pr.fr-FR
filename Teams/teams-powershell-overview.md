@@ -13,58 +13,44 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer les Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: e91a200ee79cb8906b6f9fce210d965ea0f42a8f
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768353"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947556"
 ---
-# <a name="microsoft-teams-powershell-overview"></a><span data-ttu-id="c18a5-103">Microsoft Teams Vue d’ensemble de PowerShell</span><span class="sxs-lookup"><span data-stu-id="c18a5-103">Microsoft Teams PowerShell Overview</span></span>
+# <a name="microsoft-teams-powershell-overview"></a><span data-ttu-id="6c577-103">Microsoft Teams Vue d’ensemble de PowerShell</span><span class="sxs-lookup"><span data-stu-id="6c577-103">Microsoft Teams PowerShell Overview</span></span>
 
-<span data-ttu-id="c18a5-104">Microsoft Teams PowerShell est un ensemble d’lets de commande qui vous Teams gérer vos commandes directement à partir de la ligne de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c18a5-104">Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line.</span></span> <span data-ttu-id="c18a5-105">Écrit dans .NET Standard, Teams PowerShell fonctionne sur PowerShell 5.1 sur Windows, PowerShell 6.x et les plateformes supérieures, y compris Azure Cloud Shell.</span><span class="sxs-lookup"><span data-stu-id="c18a5-105">Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.</span></span>
+<span data-ttu-id="6c577-104">Microsoft Teams Le module PowerShell est un ensemble d’lets de commande qui permet de Teams des données directement à partir de la ligne de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6c577-104">Microsoft Teams PowerShell module is a set of cmdlets for managing Teams directly from the PowerShell command line.</span></span> <span data-ttu-id="6c577-105">PowerShell fournit de puissantes fonctionnalités d’automatisation qui peuvent être exploitez pour gérer votre charge Teams charge de travail.</span><span class="sxs-lookup"><span data-stu-id="6c577-105">PowerShell provides powerful features for automation that can be leveraged for managing your Teams workload.</span></span>  
 
-<span data-ttu-id="c18a5-106">Avant de commencer à utiliser PowerShell, vous devez [l’installer.](teams-powershell-install.md)</span><span class="sxs-lookup"><span data-stu-id="c18a5-106">Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md).</span></span> 
+<span data-ttu-id="6c577-106">Vous pouvez utiliser le module Microsoft Teams PowerShell à l’aide de l’une des méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="6c577-106">You can use the Microsoft Teams PowerShell module using one of the following methods:</span></span> 
 
-> [!WARNING]
-> <span data-ttu-id="c18a5-107">Certains problèmes connus sur PowerShell 7 et Teams PowerShell sont connus.</span><span class="sxs-lookup"><span data-stu-id="c18a5-107">There are known issues with PowerShell 7 and Teams PowerShell.</span></span> <span data-ttu-id="c18a5-108">Nous vous recommandons d’utiliser PowerShell 5.1 jusqu’à ce que les problèmes soient résolus.</span><span class="sxs-lookup"><span data-stu-id="c18a5-108">We recommend using PowerShell 5.1 until the issues are resolved.</span></span>
-
-## <a name="releases"></a><span data-ttu-id="c18a5-109">Publication</span><span class="sxs-lookup"><span data-stu-id="c18a5-109">Releases</span></span>
+- <span data-ttu-id="6c577-107">Installez le Microsoft Teams module PowerShell via [la Galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (option recommandée).</span><span class="sxs-lookup"><span data-stu-id="6c577-107">Install the Microsoft Teams PowerShell module via [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) (recommended option).</span></span> 
+- <span data-ttu-id="6c577-108">Installez le module PowerShell Microsoft Teams via le [téléchargement manuel.](https://www.powershellgallery.com/packages/MicrosoftTeams)</span><span class="sxs-lookup"><span data-stu-id="6c577-108">Install the Microsoft Teams PowerShell module via [Manual Download](https://www.powershellgallery.com/packages/MicrosoftTeams).</span></span> 
 
 
-<span data-ttu-id="c18a5-110">Teams PowerShell est disponible dans la [galerie PowerShell en](https://www.powershellgallery.com/packages/MicrosoftTeams) deux types.</span><span class="sxs-lookup"><span data-stu-id="c18a5-110">Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.</span></span>
+## <a name="features"></a><span data-ttu-id="6c577-109">Fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="6c577-109">Features</span></span> 
 
-- <span data-ttu-id="c18a5-111">**Disponibilité générale (GA)**: cmdlets prêtes pour la production, mises à jour tous les mois.</span><span class="sxs-lookup"><span data-stu-id="c18a5-111">**General Availability (GA)**: Production-ready cmdlets, updated monthly.</span></span>
+<span data-ttu-id="6c577-110">Le Microsoft Teams module PowerShell inclut les fonctionnalités suivantes :</span><span class="sxs-lookup"><span data-stu-id="6c577-110">The Microsoft Teams PowerShell module includes the following features:</span></span> 
 
-- <span data-ttu-id="c18a5-112">**Aperçu public :** Accès en avant-première aux fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="c18a5-112">**Public Preview**: Early access to features.</span></span> <span data-ttu-id="c18a5-113">Peut être mis à jour plus fréquemment que GA.</span><span class="sxs-lookup"><span data-stu-id="c18a5-113">May be updated more frequently than GA.</span></span>
+- <span data-ttu-id="6c577-111">Un module unique permet de gérer tous les aspects de l’administration Teams, y compris les utilisateurs, les équipes, les stratégies et la configuration.</span><span class="sxs-lookup"><span data-stu-id="6c577-111">Uses a single module to manage all aspects of Teams administration, including users, teams, policies, and configuration.</span></span>  
+- <span data-ttu-id="6c577-112">Prend en charge les mécanismes d’authentification tels que les jetons d’accès et les informations d’identification.</span><span class="sxs-lookup"><span data-stu-id="6c577-112">Supports authentication mechanisms such as access tokens and credentials.</span></span> 
 
-<span data-ttu-id="c18a5-114">Pour plus d’informations sur les ajouts de fonctionnalités et les améliorations apportées aux deux version, lisez les Teams de [publication de PowerShell.](teams-powershell-release-notes.md)</span><span class="sxs-lookup"><span data-stu-id="c18a5-114">For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).</span></span>
+##  <a name="data-collection"></a><span data-ttu-id="6c577-113">Collecte de données</span><span class="sxs-lookup"><span data-stu-id="6c577-113">Data collection</span></span> 
 
+<span data-ttu-id="6c577-114">Microsoft Teams Les paramètres par défaut du module PowerShell collectent les données de télémétrie.</span><span class="sxs-lookup"><span data-stu-id="6c577-114">Microsoft Teams PowerShell module default settings collect telemetry data.</span></span> <span data-ttu-id="6c577-115">Microsoft agrège les données collectées pour identifier les modèles d’utilisation et les problèmes courants, tels que les cmdlets dont le succès est faible, afin de nous aider à hiérarchiser notre travail afin d’améliorer Teams expérience PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6c577-115">Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience.</span></span> <span data-ttu-id="6c577-116">Microsoft Teams Le module PowerShell ne collecte aucune donnée personnelle ou privée.</span><span class="sxs-lookup"><span data-stu-id="6c577-116">Microsoft Teams PowerShell module does not collect any private or personal data.</span></span>  
 
-## <a name="manage-teams-with-powershell"></a><span data-ttu-id="c18a5-115">Gérer Teams avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c18a5-115">Manage Teams with PowerShell</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6c577-117">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="6c577-117">Related topics</span></span>
 
-<span data-ttu-id="c18a5-116">Vous utiliserez les modules PowerShell Teams pour gérer entièrement les Teams :</span><span class="sxs-lookup"><span data-stu-id="c18a5-116">You'll use Teams PowerShell modules to fully manage Teams:</span></span>
+[<span data-ttu-id="6c577-118">Installation Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="6c577-118">Installing Teams PowerShell</span></span>](teams-powershell-install.md)
 
-- <span data-ttu-id="c18a5-117">[Microsoft Teams module PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/): le module PowerShell Teams des cmdlets pour la gestion des équipes, des discussions et des canaux.</span><span class="sxs-lookup"><span data-stu-id="c18a5-117">[Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/): The Teams PowerShell module contains cmdlets for managing teams, chat, and channels.</span></span>
+[<span data-ttu-id="6c577-119">Gestion des Teams à l’Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="6c577-119">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
 
-> [!NOTE]
-> <span data-ttu-id="c18a5-118">La Teams version publique [de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 2.0 ou version supérieure inclut toutes les cmdlets Skype Entreprise Online Connector, fournissant un seul module pour la gestion Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c18a5-118">The [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) version 2.0 or higher includes all  Skype for Business Online Connector cmdlets, providing a single module for Teams PowerShell management.</span></span>
+[<span data-ttu-id="6c577-120">Teams Notes de publication de PowerShell</span><span class="sxs-lookup"><span data-stu-id="6c577-120">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
 
-- <span data-ttu-id="c18a5-119">[Skype Entreprise Connecteur PowerShell :](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)le connecteur PowerShell Skype Entreprise fait désormais partie d’Teams module PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c18a5-119">[Skype for Business PowerShell Connector](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): The Skype for Business PowerShell connector is now a part of Teams PowerShell module.</span></span>
+[<span data-ttu-id="6c577-121">Microsoft Teams des cmdlet</span><span class="sxs-lookup"><span data-stu-id="6c577-121">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
 
-<span data-ttu-id="c18a5-120">Pour consulter un guide complet de gestion Teams l’aide de ces modules, voir Gérer les Teams [avec Teams PowerShell.](teams-powershell-managing-teams.md)</span><span class="sxs-lookup"><span data-stu-id="c18a5-120">For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).</span></span>
+[<span data-ttu-id="6c577-122">Skype Entreprise des cmdlet</span><span class="sxs-lookup"><span data-stu-id="6c577-122">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
 
-
-## <a name="related-topics"></a><span data-ttu-id="c18a5-121">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="c18a5-121">Related topics</span></span>
-
-[<span data-ttu-id="c18a5-122">Installation Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="c18a5-122">Installing Teams PowerShell</span></span>](teams-powershell-install.md)
-
-[<span data-ttu-id="c18a5-123">Gestion des Teams à l’Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="c18a5-123">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
-
-[<span data-ttu-id="c18a5-124">Teams Notes de publication de PowerShell</span><span class="sxs-lookup"><span data-stu-id="c18a5-124">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
-
-[<span data-ttu-id="c18a5-125">Microsoft Teams des cmdlet</span><span class="sxs-lookup"><span data-stu-id="c18a5-125">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
-
-[<span data-ttu-id="c18a5-126">Skype Entreprise des cmdlet</span><span class="sxs-lookup"><span data-stu-id="c18a5-126">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
-
-[<span data-ttu-id="c18a5-127">Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams</span><span class="sxs-lookup"><span data-stu-id="c18a5-127">Use Microsoft Teams admin roles to manage Teams</span></span>](using-admin-roles.md)
+[<span data-ttu-id="6c577-123">Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams</span><span class="sxs-lookup"><span data-stu-id="6c577-123">Use Microsoft Teams admin roles to manage Teams</span></span>](using-admin-roles.md)

@@ -13,37 +13,29 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer les Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768337"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947565"
 ---
-# <a name="install-microsoft-teams-powershell"></a><span data-ttu-id="d12f3-103">Installer Microsoft Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-103">Install Microsoft Teams PowerShell</span></span>
+# <a name="install-microsoft-teams-powershell-module"></a><span data-ttu-id="69c6f-103">Installer Microsoft Teams module PowerShell</span><span class="sxs-lookup"><span data-stu-id="69c6f-103">Install Microsoft Teams PowerShell Module</span></span>
 
-<span data-ttu-id="d12f3-104">Cet article explique comment installer le module Microsoft Teams PowerShell à l’aide [de PowerShellGet.](/powershell/scripting/gallery/installing-psget)</span><span class="sxs-lookup"><span data-stu-id="d12f3-104">This article explains how to install the Microsoft Teams PowerShell module using [PowerShellGet](/powershell/scripting/gallery/installing-psget).</span></span> <span data-ttu-id="d12f3-105">Ces instructions s’utilisent [sur Azure Cloud Shell,](/azure/cloud-shell/overview)Linux, macOS et Windows plateformes.</span><span class="sxs-lookup"><span data-stu-id="d12f3-105">These instructions work on [Azure Cloud Shell](/azure/cloud-shell/overview), Linux, macOS, and Windows platforms.</span></span>
+<span data-ttu-id="69c6f-104">Cet article explique comment installer le module PowerShell Microsoft Teams’aide de la Galerie PowerShell.</span><span class="sxs-lookup"><span data-stu-id="69c6f-104">This article explains how to install the Microsoft Teams PowerShell module using PowerShell Gallery.</span></span> <span data-ttu-id="69c6f-105">Le Microsoft Teams module PowerShell est pris en charge sur toutes Windows plateformes.</span><span class="sxs-lookup"><span data-stu-id="69c6f-105">The Microsoft Teams PowerShell module is supported on all Windows platforms.</span></span> 
 
-## <a name="requirements"></a><span data-ttu-id="d12f3-106">Conditions requises</span><span class="sxs-lookup"><span data-stu-id="d12f3-106">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="69c6f-106">Conditions requises</span><span class="sxs-lookup"><span data-stu-id="69c6f-106">Requirements</span></span>
 
-<span data-ttu-id="d12f3-107">Teams PowerShell requiert PowerShell 5.1 ou une plateforme supérieure sur toutes les plateformes.</span><span class="sxs-lookup"><span data-stu-id="d12f3-107">Teams PowerShell requires PowerShell 5.1 or higher on all platforms.</span></span> <span data-ttu-id="d12f3-108">Installez la [dernière version de PowerShell](/powershell/scripting/install/installing-powershell) disponible pour votre système d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="d12f3-108">Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system.</span></span>
+<span data-ttu-id="69c6f-107">Microsoft Teams Le module PowerShell requiert PowerShell 5.1 ou une plateforme supérieure sur toutes les plateformes.</span><span class="sxs-lookup"><span data-stu-id="69c6f-107">Microsoft Teams PowerShell module requires PowerShell 5.1 or higher on all platforms.</span></span> <span data-ttu-id="69c6f-108">Installez la [dernière version de PowerShell](/powershell/scripting/install/installing-powershell)   disponible pour votre système d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="69c6f-108">Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system.</span></span> 
 
-> [!NOTE]
-> <span data-ttu-id="d12f3-109">Pour une expérience la plus agréable possible, nous vous recommandons d’utiliser PowerShell 5.1.</span><span class="sxs-lookup"><span data-stu-id="d12f3-109">For the best experience, we recommend that you use PowerShell 5.1.</span></span>
-
-## <a name="install-the-teams-powershell-module"></a><span data-ttu-id="d12f3-110">Installer le module Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-110">Install the Teams PowerShell module</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="d12f3-111">Pour une expérience accrue, utilisez les modules Disponibilité générale (GA) ou Prévisualisation publique, et non les deux.</span><span class="sxs-lookup"><span data-stu-id="d12f3-111">For the best experience, use either General Availability (GA) or Public Preview modules - not both.</span></span> <span data-ttu-id="d12f3-112">Ils n’ont pas l’intention de collaborer.</span><span class="sxs-lookup"><span data-stu-id="d12f3-112">They're not intended to work together.</span></span>
-
-
-<span data-ttu-id="d12f3-113">Utilisez les **cmdlets PowerShellGet** pour installer le module Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d12f3-113">Use the **PowerShellGet** cmdlets to install the Teams PowerShell module.</span></span> <span data-ttu-id="d12f3-114">L’installation du module pour tous les utilisateurs sur un système nécessite des privilèges élevés.</span><span class="sxs-lookup"><span data-stu-id="d12f3-114">Installing the module for all users on a system requires elevated privileges.</span></span> <span data-ttu-id="d12f3-115">Démarrez la session PowerShell à l’aide **de** l’Windows ou utilisez la `sudo` commande sur macOS ou Linux :</span><span class="sxs-lookup"><span data-stu-id="d12f3-115">Start the PowerShell session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux:</span></span>
+<span data-ttu-id="69c6f-109">Pour vérifier votre version de PowerShell, exécutez la commande suivante à partir d’une session PowerShell :</span><span class="sxs-lookup"><span data-stu-id="69c6f-109">To check your PowerShell version, run the following command from within a PowerShell session:</span></span> 
 
 ```powershell
-Install-Module MicrosoftTeams
+$PSVersionTable.PSVersion 
 ```
-
-<span data-ttu-id="d12f3-116">Par défaut, la Galerie PowerShell (PSGallery) n’est pas configurée comme référentiel fiable **pour PowerShellGet.**</span><span class="sxs-lookup"><span data-stu-id="d12f3-116">By default, the PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**.</span></span> <span data-ttu-id="d12f3-117">La première fois que vous utilisez PSGallery, vous verrez le message suivant :</span><span class="sxs-lookup"><span data-stu-id="d12f3-117">The first time you use the PSGallery, you'll see the following message:</span></span>
+<span data-ttu-id="69c6f-110">Nous vous recommandons d’utiliser Install-Module cmdlet pour installer Microsoft Teams module PowerShell.</span><span class="sxs-lookup"><span data-stu-id="69c6f-110">We recommend that you use the  Install-Module cmdlet to install the Microsoft Teams PowerShell module.</span></span> 
+ 
+<span data-ttu-id="69c6f-111">Si la Galerie PowerShell (PSGallery) n’est pas configurée comme référentiel approuvé pour **PowerShellGet,** la première fois que vous utilisez PSGallery, vous verrez le message suivant :</span><span class="sxs-lookup"><span data-stu-id="69c6f-111">If PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**, the first time you use the PSGallery you'll see the following message:</span></span>
 
 ```console
 Untrusted repository
@@ -55,85 +47,70 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-<span data-ttu-id="d12f3-118">Répondez **Oui** **ou Oui à Tous pour** poursuivre l’installation.</span><span class="sxs-lookup"><span data-stu-id="d12f3-118">Answer **Yes** or **Yes to All** to continue with the installation.</span></span>
+<span data-ttu-id="69c6f-112">Répondez **Oui** ou **Oui à Tous pour** poursuivre l’installation.</span><span class="sxs-lookup"><span data-stu-id="69c6f-112">Answer **Yes** or **Yes to All** to continue with the installation.</span></span>
 
-## <a name="sign-in"></a><span data-ttu-id="d12f3-119">Connexion</span><span class="sxs-lookup"><span data-stu-id="d12f3-119">Sign in</span></span>
+## <a name="installing-using-the-powershellgallery"></a><span data-ttu-id="69c6f-113">Installation à l’aide de PowerShellGallery</span><span class="sxs-lookup"><span data-stu-id="69c6f-113">Installing using the PowerShellGallery</span></span>
 
-<span data-ttu-id="d12f3-120">Pour commencer à travailler avec Teams PowerShell, connectez-vous avec vos informations d’identification Azure.</span><span class="sxs-lookup"><span data-stu-id="d12f3-120">To start working with Teams PowerShell, sign in with your Azure credentials.</span></span>
+<span data-ttu-id="69c6f-114">Microsoft Teams Le module PowerShell est actuellement pris en charge pour une utilisation avec PowerShell 5.1 sur Windows.</span><span class="sxs-lookup"><span data-stu-id="69c6f-114">Microsoft Teams PowerShell module is currently supported for use with PowerShell 5.1 on Windows.</span></span> <span data-ttu-id="69c6f-115">Pour installer le module, suivez ces étapes :</span><span class="sxs-lookup"><span data-stu-id="69c6f-115">Follow these steps to install the module:</span></span> 
 
-> [!NOTE]
-> <span data-ttu-id="d12f3-121">Si vous utilisez la dernière version d’Teams public [PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.</span><span class="sxs-lookup"><span data-stu-id="d12f3-121">If you're using the latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.</span></span>
+- <span data-ttu-id="69c6f-116">Mettre à [jour Windows PowerShell 5.1.](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="69c6f-116">Update to [Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell).</span></span> <span data-ttu-id="69c6f-117">Si vous avez la Windows 10 1607 ou une version supérieure, powerShell 5.1 est déjà installé.</span><span class="sxs-lookup"><span data-stu-id="69c6f-117">If you're on Windows 10 version 1607 or higher, you already have PowerShell 5.1 installed.</span></span> 
+- <span data-ttu-id="69c6f-118">Installez [.NET Framework 4.7.2 ou une ultérieure.](/dotnet/framework/install)</span><span class="sxs-lookup"><span data-stu-id="69c6f-118">Install [.NET Framework 4.7.2](/dotnet/framework/install) or later.</span></span> 
+- <span data-ttu-id="69c6f-119">Exécutez la commande suivante pour installer la dernière version de PowerShellGet :</span><span class="sxs-lookup"><span data-stu-id="69c6f-119">Run the following command to install the latest PowerShellGet:</span></span>
+ 
+```powershell
+Install-Module -Name PowerShellGet -Force -AllowClobber
+```
+- <span data-ttu-id="69c6f-120">Installez le Teams module PowerShell.</span><span class="sxs-lookup"><span data-stu-id="69c6f-120">Install the Teams PowerShell Module.</span></span>
 
 ```powershell
-$credential = Get-Credential
-
-#Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credential $credential
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
 ```
 
-## <a name="sign-in-using-mfa-and-modern-authentication"></a><span data-ttu-id="d12f3-122">Se connectez à l’aide de l’authentification multifacteur et de l’authentification moderne</span><span class="sxs-lookup"><span data-stu-id="d12f3-122">Sign in using MFA and modern authentication</span></span>
+## <a name="offline-installation"></a><span data-ttu-id="69c6f-121">Installation hors connexion</span><span class="sxs-lookup"><span data-stu-id="69c6f-121">Offline Installation</span></span> 
 
- <span data-ttu-id="d12f3-123">Si votre compte utilise l’authentification multifacteur, utilisez les étapes de cette section.</span><span class="sxs-lookup"><span data-stu-id="d12f3-123">If your account uses multi-factor authentication, use the steps in this section.</span></span>
+<span data-ttu-id="69c6f-122">Dans certains environnements, il n’est pas possible de se connecter à la galerie PowerShell.</span><span class="sxs-lookup"><span data-stu-id="69c6f-122">In some environments, it's not possible to connect to the PowerShell Gallery.</span></span> <span data-ttu-id="69c6f-123">Dans ces situations, suivez ces étapes [d’installation manuelle.](https://aka.ms/psgallery-manualdownload)</span><span class="sxs-lookup"><span data-stu-id="69c6f-123">In those situations, please follow these [manual installation steps](https://aka.ms/psgallery-manualdownload).</span></span>  
 
-```powershell
-#Connect to Microsoft Teams
-Connect-MicrosoftTeams -AccountId <UPN>
-```
+## <a name="sign-in"></a><span data-ttu-id="69c6f-124">Connexion</span><span class="sxs-lookup"><span data-stu-id="69c6f-124">Sign in</span></span>
 
-## <a name="update-teams-powershell"></a><span data-ttu-id="d12f3-124">Mise à Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-124">Update Teams PowerShell</span></span>
+<span data-ttu-id="69c6f-125">Pour commencer à travailler avec Microsoft Teams module PowerShell, connectez-vous avec vos informations d’identification Azure.</span><span class="sxs-lookup"><span data-stu-id="69c6f-125">To start working with Microsoft Teams PowerShell module, sign in with your Azure credentials.</span></span>
 
-<span data-ttu-id="d12f3-125">Pour mettre à Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell avec élévation de élévation de niveau, puis exécutez l’une des commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="d12f3-125">To update Teams PowerShell, open a new elevated PowerShell command prompt and run the following:</span></span>
+```PowerShell
+Connect-MicrosoftTeams 
+``` 
+
+## <a name="update-teams-powershell-module"></a><span data-ttu-id="69c6f-126">Mettre à jour Teams module PowerShell</span><span class="sxs-lookup"><span data-stu-id="69c6f-126">Update Teams PowerShell Module</span></span>
+
+<span data-ttu-id="69c6f-127">Pour mettre à jour un module PowerShell, vous devez utiliser la même méthode que lors de l’installation du module.</span><span class="sxs-lookup"><span data-stu-id="69c6f-127">To update any PowerShell module, you should use the same method used to install the module.</span></span> <span data-ttu-id="69c6f-128">Par exemple, si vous utilisiez le module d’installation à l’origine, vous devez utiliser [Update-Module](/powershell/module/powershellget/update-module) pour obtenir la dernière version.</span><span class="sxs-lookup"><span data-stu-id="69c6f-128">For example, if you originally used Install-Module, then you should use [Update-Module](/powershell/module/powershellget/update-module) to get the latest version.</span></span>  
 
 ```powershell
 Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> <span data-ttu-id="d12f3-126">Si Teams PowerShell a déjà été importé dans votre session PowerShell, la mise à jour du module échoue.</span><span class="sxs-lookup"><span data-stu-id="d12f3-126">If Teams PowerShell has already been imported into your PowerShell session, updating the module will fail.</span></span> <span data-ttu-id="d12f3-127">Fermez PowerShell et rouvrez une nouvelle session PowerShell avec élévation de élévation de puissance.</span><span class="sxs-lookup"><span data-stu-id="d12f3-127">Close PowerShell and re-open a new elevated PowerShell session.</span></span>
+> <span data-ttu-id="69c6f-129">Si Teams PowerShell a déjà été importé dans votre session PowerShell, la mise à jour du module échoue.</span><span class="sxs-lookup"><span data-stu-id="69c6f-129">If Teams PowerShell has already been imported into your PowerShell session, updating the module will fail.</span></span> <span data-ttu-id="69c6f-130">Fermez PowerShell et rouvrez une nouvelle session PowerShell avec élévation de élévation de puissance.</span><span class="sxs-lookup"><span data-stu-id="69c6f-130">Close PowerShell and re-open a new elevated PowerShell session.</span></span>
 
 
-## <a name="uninstall-teams-powershell"></a><span data-ttu-id="d12f3-128">Désinstaller Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-128">Uninstall Teams PowerShell</span></span>
+## <a name="uninstall-teams-powershell"></a><span data-ttu-id="69c6f-131">Désinstaller Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="69c6f-131">Uninstall Teams PowerShell</span></span>
 
-<span data-ttu-id="d12f3-129">Pour désinstaller Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell avec élévation de élévation de niveau, puis exécutez l’une des commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="d12f3-129">To uninstall Teams PowerShell, open a new elevated PowerShell command prompt and run the following:</span></span>
+<span data-ttu-id="69c6f-132">Pour désinstaller Microsoft Teams PowerShell, ouvrez une nouvelle invite de commandes PowerShell et exécutez les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="69c6f-132">To uninstall Microsoft Teams PowerShell, open a new PowerShell command prompt and run the following:</span></span> 
 
 ```powershell
 Uninstall-Module MicrosoftTeams
-```
-> [!WARNING]
-> <span data-ttu-id="d12f3-130">Si Teams PowerShell a déjà été importé dans votre session PowerShell, la désinstallation du module échoue.</span><span class="sxs-lookup"><span data-stu-id="d12f3-130">If Teams PowerShell has already been imported into your PowerShell session, uninstalling the module will fail.</span></span> <span data-ttu-id="d12f3-131">Fermez PowerShell et rouvrez une nouvelle session PowerShell avec élévation de élévation de puissance.</span><span class="sxs-lookup"><span data-stu-id="d12f3-131">Close PowerShell and re-open a new elevated PowerShell session.</span></span>
 
-## <a name="install-teams-powershell-public-preview"></a><span data-ttu-id="d12f3-132">Installer Teams prévisualisation publique de PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-132">Install Teams PowerShell public preview</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="d12f3-133">Si vous utilisez la version d’aperçu public de Teams PowerShell, nous vous recommandons vivement de désinstaller d’abord Skype Entreprise Online Connector.</span><span class="sxs-lookup"><span data-stu-id="d12f3-133">If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.</span></span>
-
-<span data-ttu-id="d12f3-134">L’installation Teams module d’aperçu public PowerShell pour tous les utilisateurs sur un système nécessite des privilèges élevés.</span><span class="sxs-lookup"><span data-stu-id="d12f3-134">Installing the Teams PowerShell public preview module for all users on a system requires elevated privileges.</span></span> <span data-ttu-id="d12f3-135">Démarrez la session PowerShell à l’aide **de** l’outil Exécuter en Windows ou utilisez la `sudo` commande sur macOS ou Linux.</span><span class="sxs-lookup"><span data-stu-id="d12f3-135">Start the PowerShell session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux.</span></span>
-
-<span data-ttu-id="d12f3-136">Si vous utilisez PowerShell 5.1, vous devez mettre à jour le module **PowerShellGet** au préalable.</span><span class="sxs-lookup"><span data-stu-id="d12f3-136">If you're using PowerShell 5.1, you must update the **PowerShellGet** module beforehand.</span></span> <span data-ttu-id="d12f3-137">Après avoir mis **à jour PowerShellGet,** fermez et rouvrez une session PowerShell avec élévation de charge pour vous assurer que la dernière **version de PowerShellGet** est chargée.</span><span class="sxs-lookup"><span data-stu-id="d12f3-137">After you update **PowerShellGet**, close and reopen an elevated PowerShell session to ensure that the latest **PowerShellGet** is loaded.</span></span>
-
-```powershell
-Install-Module PowerShellGet -Force -AllowClobber
+# Uninstall all versions of the module
+Uninstall-Module MicrosoftTeams -Allversions 
 ```
 
-<span data-ttu-id="d12f3-138">Pour installer Teams aperçu public PowerShell, exécutez la commande PowerShell ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="d12f3-138">To install Teams PowerShell public preview, run the PowerShell command below.</span></span>
+## <a name="next-steps"></a><span data-ttu-id="69c6f-133">Étapes suivantes</span><span class="sxs-lookup"><span data-stu-id="69c6f-133">Next Steps</span></span> 
 
-> [!NOTE]
-> <span data-ttu-id="d12f3-139">Vous pouvez trouver la dernière version d’aperçu dans la [galerie PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou dans PowerShell en exécutant « Find-Module MicrosoftTeams -AllowPrerelease -AllVersions »</span><span class="sxs-lookup"><span data-stu-id="d12f3-139">You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"</span></span>
+<span data-ttu-id="69c6f-134">Vous êtes maintenant prêt à gérer votre travail Microsoft Teams’Microsoft Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="69c6f-134">Now you're ready to manage Microsoft Teams using Microsoft Teams PowerShell.</span></span> <span data-ttu-id="69c6f-135">Consultez [Gérer Teams avec Teams PowerShell](teams-powershell-managing-teams.md) pour commencer.</span><span class="sxs-lookup"><span data-stu-id="69c6f-135">See [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md) to get started.</span></span> 
 
-```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
-```
+## <a name="related-topics"></a><span data-ttu-id="69c6f-136">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="69c6f-136">Related topics</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="d12f3-140">Étapes suivantes</span><span class="sxs-lookup"><span data-stu-id="d12f3-140">Next Steps</span></span>
+[<span data-ttu-id="69c6f-137">Gestion des Teams à l’Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="69c6f-137">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
 
-<span data-ttu-id="d12f3-141">Vous êtes maintenant prêt à gérer vos Teams l’aide Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d12f3-141">Now you're ready to manage Teams using Teams PowerShell.</span></span> <span data-ttu-id="d12f3-142">Consultez [Gérer Teams avec Teams PowerShell pour](teams-powershell-managing-teams.md) commencer.</span><span class="sxs-lookup"><span data-stu-id="d12f3-142">See [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md) to get started.</span></span>
+[<span data-ttu-id="69c6f-138">Teams Notes de publication de PowerShell</span><span class="sxs-lookup"><span data-stu-id="69c6f-138">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
 
-## <a name="related-topics"></a><span data-ttu-id="d12f3-143">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="d12f3-143">Related topics</span></span>
+[<span data-ttu-id="69c6f-139">Microsoft Teams des cmdlet</span><span class="sxs-lookup"><span data-stu-id="69c6f-139">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
 
-[<span data-ttu-id="d12f3-144">Gestion des Teams à l’Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-144">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
-
-[<span data-ttu-id="d12f3-145">Teams Notes de publication de PowerShell</span><span class="sxs-lookup"><span data-stu-id="d12f3-145">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
-
-[<span data-ttu-id="d12f3-146">Microsoft Teams des cmdlet</span><span class="sxs-lookup"><span data-stu-id="d12f3-146">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
-
-[<span data-ttu-id="d12f3-147">Skype Entreprise des cmdlet</span><span class="sxs-lookup"><span data-stu-id="d12f3-147">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
+[<span data-ttu-id="69c6f-140">Skype Entreprise des cmdlet</span><span class="sxs-lookup"><span data-stu-id="69c6f-140">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
