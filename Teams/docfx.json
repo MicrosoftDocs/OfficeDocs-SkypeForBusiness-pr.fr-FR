@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -19,7 +20,14 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf",
+          "**/*.vsdx",
+          "**/*.zip",
+          "**/*.pptx",
+          "**/*.psd"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,9 +37,30 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
+    "globalMetadata": {
+      "searchScope": [
+        "Microsoft Teams"
+      ],
+      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "ms.suite": "office",
+      "titleSuffix": "Microsoft Teams",
+      "bilingual_type": "hover over",
+      "contributors_to_exclude": [
+        "daswifty",
+        "MikePlumleyMSFT"
+      ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://microsoftteams.uservoice.com"
+    },
+    "fileMetadata": {
+      "hideEdit": {
+        "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": true
+      }
+    },
     "template": [],
-    "dest": "OfficeDocs-MicrosoftTeams"
+    "dest": "OfficeDocs-MicrosoftTeams",
+    "markdownEngineName": "markdig"
   }
 }

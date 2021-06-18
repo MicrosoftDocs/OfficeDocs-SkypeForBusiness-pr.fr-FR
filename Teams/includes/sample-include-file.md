@@ -1,0 +1,1 @@
+Modèle de fichier - remplacez simplement ce texte par le vôtre.

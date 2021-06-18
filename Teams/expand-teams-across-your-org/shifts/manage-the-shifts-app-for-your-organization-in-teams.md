@@ -1,0 +1,98 @@
+---
+title: Gérer l’application Plannings pour votre organisation dans Teams
+author: cichur
+ms.author: v-cichur
+ms.reviewer: lisawu,gumariam
+manager: serdars
+ms.topic: article
+audience: admin
+ms.service: msteams
+search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+description: Découvrez comment configurer et gérer l’application Plannings dans Teams pour les employés de bureau de votre organisation.
+f1.keywords:
+- NOCSH
+localization_priority: Normal
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
+- microsoftcloud-healthcare
+appliesto:
+- Microsoft Teams
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 218b041d83cde91a23201ab864160ce3b8b7cb6e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909088"
+---
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
+
+> [!IMPORTANT]
+> Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous développons les fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, Teams inclut l’application Plannings pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées à l’avenir. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Toute personne qui essaie d’ouvrir StaffHub s’afficher un message lui permettant de télécharger Teams. Pour en savoir plus, consultez l’article [Microsoft StaffHub n’existe plus](microsoft-staffhub-to-be-retired.md).  
+
+## <a name="overview-of-shifts"></a>Vue d’ensemble de Plannings
+
+L’application Plannings de Microsoft Teams maintient la connexion et la synchronisation des employés de bureau. Il est conçu en avant-première pour la gestion du temps et la communication rapides et efficaces pour les équipes. Plannings permet aux employés de première ligne et à leurs responsables d’utiliser leurs appareils mobiles pour gérer les plannings et communiquer.  
+
+- Les responsables créent, mettent à jour et gèrent les plannings relatifs aux roulements de équipes. Ils peuvent envoyer des messages à un membre en particulier (« du liquide s’est renversé sur le sol ») ou à toute l’équipe (« le directeur régional arrive dans 20 minutes »). Ils peuvent aussi envoyer des documents stratégiques, des bulletins d’informations et des vidéos. 
+- Les employés peuvent consulter leurs horaires de travail, voir qui est prévu pour la journée, demander à échanger ou offrir une shift, et demander des congés. 
+
+Il est important de savoir que Plannings ne prend pas en charge les utilisateurs invités pour le moment. Cela signifie que les invités d’une équipe ne peuvent pas être ajoutés à des plannings de shift ou utiliser ceux-ci lorsque l’accès invité est désactivé dans Teams. 
+
+> [!Note]
+> Pour plus d’informations sur les fonctionnalités Shifts sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
+## <a name="availability-of-shifts"></a>Disponibilité de Plannings
+
+Plannings est disponible dans toutes les références Entreprise où Teams est disponible.
+
+## <a name="location-of-shifts-data"></a>Emplacement des données Plannings
+
+Les données Plannings sont actuellement stockées dans Azure dans des centres de données en Amérique du Nord, en Europe de l’ouest et en Asie-Pacifique. Pour plus d’informations sur l’emplacement de stockage des données, voir [Où se trouvent mes données](http://o365datacentermap.azurewebsites.net/) ?
+
+## <a name="set-up-shifts"></a>Configurer des Plannings
+
+### <a name="enable-or-disable-shifts-in-your-organization"></a>Activer ou désactiver Plannings dans votre organisation
+
+Plannings est activé par défaut pour tous les utilisateurs Teams de votre organisation. Vous pouvez désactiver ou activer l’application au niveau de l’organisation sur la page [Gérer les applications](../../manage-apps.md) dans le centre d’administration Microsoft Teams.
+
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
+2. Dans la liste des applications, effectuez l’une des actions suivantes :
+
+    - Pour désactiver Plannings pour votre organisation, recherchez l’application Plannings, sélectionnez-la, puis sélectionnez **Bloquer**.
+    - Pour activer Plannings pour votre organisation, recherchez l’application Plannings, sélectionnez-la, puis sélectionnez **Autoriser**.
+
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Activer ou désactiver Plannings pour des utilisateurs spécifiques de votre organisation
+
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Plannings, assurez-vous que Plannings est activé pour votre organisation sur la page [Gérer les applications](../../manage-apps.md), puis créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
+
+### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Tasks dans Teams
+
+Les stratégies de configuration des applications vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la barre d’applications&mdash;, la barre se trouvant sur le côté du client Teams pour ordinateur de bureau et en bas des clients mobiles Teams&mdash; là où les utilisateurs peuvent y accéder rapidement et facilement.
+ 
+Teams inclut une stratégie de configuration d’application FrontlineWorker intégrée que vous pouvez affecter aux employés de terrain dans votre organisation. Par défaut, la stratégie inclut les applications Activité, Plannings, Conversation et Appel. 
+
+Pour afficher la stratégie FrontlineWorker, dans le menu de navigation gauche du Centre d’administration Microsoft Teams, consultez **Application Teams** > **Stratégies configuration d’application**.
+
+![Capture d’écran de la stratégie de configuration de l’application FrontlineWorker](../../media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie de configuration de l’application FrontlineWorker dans le Centre d’administration Microsoft Teams")
+
+#### <a name="assign-the-frontlineworker-app-setup-policy-to-users"></a>Attribuer la stratégie de configuration de l’application FrontlineWorker aux utilisateurs
+
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+
+## <a name="search-the-audit-log-for-shifts-events"></a>Rechercher des événements de Plannings dans le journal d’audit 
+
+**(version d’évaluation)**
+
+Vous pouvez effectuer une recherche dans le journal d’audit pour afficher l’activité shifts au niveau de votre organisation.  Pour en savoir plus sur la façon d'effectuer une recherche dans le journal d'audit et pour consulter la liste des [Activités Plannings](../../audit-log-events.md#shifts-in-teams-activities) qui sont enregistrées dans le journal d'audit, consultez [Recherche d'événements dans le journal d'audit dans Teams](../../audit-log-events.md).
+
+Pour effectuer une recherche dans le journal d’audit, vous devez au préalable activer la fonctionnalité d’audit dans le [Centre de sécurité et de conformité](https://protection.office.com). Si vous souhaitez en savoir plus, veuillez consulter [Activer ou désactiver la recherche dans le journal d'audit](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). N’oubliez pas que les données d’audit ne sont disponibles qu’à partir du moment où vous avez activé l’audit.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+- [Aide Plannings pour les employés de bureau](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Attribuer des stratégies à vos utilisateurs](../../assign-policies.md)

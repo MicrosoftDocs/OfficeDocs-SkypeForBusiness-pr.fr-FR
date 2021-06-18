@@ -1,0 +1,1 @@
+Nous mettons fréquemment à jour le mode de gestion des fonctionnalités. Par conséquent, les étapes décrites ici peuvent être légèrement différentes de celles que vous verrez sur votre écran.

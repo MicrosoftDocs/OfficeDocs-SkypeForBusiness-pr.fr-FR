@@ -1,0 +1,37 @@
+---
+title: Schéma de base de données de qualité de l’expérience (QoE)
+ms.reviewer: ''
+ms.author: v-cichur
+author: cichur
+manager: serdars
+ms.date: 10/20/2015
+audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
+localization_priority: Normal
+ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
+description: Cette documentation documente le schéma de la base de données de qualité de l’expérience (QoE) dans Skype Entreprise Server 2015.
+ms.openlocfilehash: 5e12fc8ace32db966334a7008de67157bcb31f3a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834414"
+---
+# <a name="quality-of-experience-qoe-database-schema"></a>Schéma de base de données de qualité de l’expérience (QoE)
+ 
+Cette documentation documente le schéma de la base de données de qualité de l’expérience (QoE) dans Skype Entreprise Server 2015.
+  
+## <a name="in-this-section"></a>Dans cette section
+
+- [Liste des tables QoE](list-of-qoe-tables.md)
+    
+- [Détails des tables QoE](qoe-table-details.md)
+    
+- [Vue détaillée de la qualité de l’expérience](qoe-view-details.md)
+    
+- [Exemples de requêtes de base de données QoE](sample-qoe-database-queries.md)
+    
+

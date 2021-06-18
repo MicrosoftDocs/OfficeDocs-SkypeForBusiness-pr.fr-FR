@@ -1,0 +1,1 @@
+Nous mettons fréquemment à jour le mode de gestion des fonctionnalités de Skype Entreprise Online. Par conséquent, les étapes décrites ici peuvent être légèrement différentes.

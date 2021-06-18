@@ -1,0 +1,76 @@
+### YamlMime:Landing
+title: Documentation Skype Entreprise Server 2015
+summary: Découvrez comment implémenter Skype Entreprise Server 2015.
+metadata:
+  title: Documentation Skype Entreprise Server 2015
+  description: Découvrez comment implémenter Skype Entreprise Server 2015.
+  ms.service: skype-for-business-online
+  audience: ITPro
+  ms.topic: landing-page
+  ms.collection: collection
+  author: lanachin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118503"
+landingContent:
+- title: À propos de Skype Entreprise Server 2015
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Configuration requise pour l’environnement
+      url: ./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
+    - text: Configuration réseau requise
+      url: ./plan-your-deployment/network-requirements/network-requirements.md
+    - text: Diffusion de réunion Skype
+      url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
+    - text: Diagrammes techniques
+      url: ./technical-diagrams.md
+  - linkListType: download
+    links:
+    - text: Téléchargez-le maintenant !
+      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
+- title: Planification
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Planifier votre déploiement
+      url: ./plan-your-deployment/plan-your-deployment.md
+    - text: Planifier une connectivité hybride
+      url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
+    - text: Planifier les clients et les appareils
+      url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
+    - text: Planifier votre solution Voix Entreprise de projet
+      url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
+- title: Installer et gérer
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Déployer Skype Entreprise Server
+      url: ./deploy/deploy.md
+    - text: Installer Skype Entreprise Server
+      url: ./deploy/install/install.md
+    - text: Effectuer la mise à niveau vers Skype Entreprise Server
+      url: ./deploy/upgrade-to-skype-for-business-server.md
+    - text: Déploiement de Voix Entreprise
+      url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
+    - text: Configurer votre déploiement local pour la diffusion de réunion Skype
+      url: ./deploy/configure-skype-meeting-broadcast.md
+  - linkListType: how-to-guide
+    links:
+    - text: Gérer Skype Entreprise Server
+      url: ./manage/manage.md
+- title: Autres ressources
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Série de préparation de Skype Entreprise
+      url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
+    - text: Documentation Skype Entreprise Server 2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
+    - text: Documentation Lync Server 2013
+      url: /lyncserver/microsoft-lync-server-2013
