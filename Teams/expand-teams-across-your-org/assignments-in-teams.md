@@ -17,20 +17,20 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Découvrez comment gérer les devoirs dans le Centre Microsoft Teams’administration de Teams Éducation.
+description: Découvrez comment gérer les devoirs dans le Centre d’administration Microsoft Teams dans Teams pour l’éducation.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121372"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004146"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
-Les fonctionnalités Devoirs et Notes de Teams Éducation permettent aux enseignants d’attribuer des tâches, du travail ou des questionnaires à leurs étudiants. Les enseignants peuvent gérer la chronologie des devoirs, les instructions, ajouter des ressources à rendre, notes avec des rubriques, etc. Ils peuvent également suivre la progression de la classe et de l’étudiant individuel dans l’onglet Notes.
+Les fonctionnalités Devoirs et Notes Teams pour l’éducation aux enseignants d’attribuer des tâches, du travail ou des questionnaires à leurs étudiants. Les enseignants peuvent gérer la chronologie des devoirs, les instructions, ajouter des ressources à rendre, ajouter des notes avec des rubriques, etc. Ils peuvent également suivre la progression de la classe et de l’étudiant individuel dans l’onglet Notes.
 
 [En savoir plus sur les devoirs et les notes dans Teams pour l’éducation.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
@@ -45,16 +45,16 @@ En utilisant les paramètres d’administration du Microsoft Teams d’administr
 ### <a name="weekly-guardian-email-digest"></a>E-mail hebdomadaire des tuteurs
 
 
-Les messages tuteurs sont envoyés chaque week-end à des parents ou tuteurs légaux. Le message électronique contient des informations sur les devoirs de la semaine précédente et de la semaine à venir. La synchronisation des parents et tuteurs peut être configurée à [l’aide de Synchronisation des données scolaires.](/schooldatasync/parent-contact-sync)
+Les messages tuteurs sont envoyés chaque week-end à des parents ou tuteurs légaux. Le message électronique contient des informations sur les devoirs de la semaine précédente et de la semaine à venir. La synchronisation des parents et tuteurs peut être configurée à l’aide [School Data Sync.](/schooldatasync/parent-contact-sync)
 
-1. Importez les coordonnées des parents via la synchronisation des parents et tuteurs dans SDS. Pour obtenir des instructions sur l’activation de la synchronisation des parents et tuteurs, voir Activer la synchronisation des [parents et tuteurs.](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)
+1. Importez les coordonnées des parents via la Synchronisation parent/tuteur dans SDS. Pour obtenir des instructions sur l’activation de la synchronisation des parents et tuteurs, voir Activer la synchronisation des [parents et tuteurs.](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)
 
 2. Activer le paramètre tuteur dans le Microsoft Teams d’administration, car ce paramètre est désactivé par défaut. Cela permettra aux enseignants d’envoyer une résumé hebdomadaire.
 
    > [!NOTE]
-   > Les enseignants peuvent refuser les e-mails du parent/tuteur en désélectionner le paramètre au sein de leur équipe de classe personnelle (e-mail de Paramètres >**du parent/tuteur).**
+   > Les enseignants peuvent se désinsélectionner de la digestibilité en désélectionner le paramètre au sein de leur équipe de classe personnelle (Courriers électroniques du Paramètres >**parent/tuteur).**
 
-Pour vérifier que les parents vont recevoir le message électronique, les trois éléments suivants doivent être vérifiés :
+Pour vérifier que les parents vont recevoir l’e-mail, les trois éléments suivants doivent être vérifiés :
 
  - Adresse e-mail jointe au profil d’étudiant dans SDS et marquée en tant que _parent_ ou _tuteur._ Pour plus d’informations, voir Format de fichier de synchronisation des parents et [tuteurs.](/schooldatasync/parent-contact-sync-file-format)
 
@@ -96,7 +96,7 @@ Voici quelques instructions pour vous aider à obtenir ces informations.
 **TurnitinApiUrl** est l’adresse hôte de votre console d’administration.
 Exemple : `https://your-tenant-name.turnitin.com`
 
-La console d’administration est l’endroit où vous pouvez créer une intégration et une clé d’API associées à l’intégration.
+La console d’administration vous permet de créer une intégration et une clé d’API associées à l’intégration.
 
 Sélectionnez **Intégrations** dans le menu latéral, puis **sélectionnez Ajouter** une intégration et donnez un nom à l’intégration.
 
@@ -106,4 +106,11 @@ Une fois que vous aurez suivi les invites, la clé **TurnitinApiKey** vous sera 
 
 ![Capture d’écran montrant la copie de la clé API](./educationImages/Assignments_mopo_turnitin3.png)
 
-En cliquant sur **le bouton Enregistrer** dans le Centre d’administration pour ce paramètre, laissez quelques heures pour que ces paramètres prennent effet.
+Lorsque vous cliquez sur **le bouton Enregistrer** dans le Centre d’administration pour ce paramètre, prévoir quelques heures pour que ces paramètres prennent effet.
+
+### <a name="removing-assignments-and-grades"></a>Suppression des devoirs et des notes
+Vous pouvez utiliser des stratégies Teams pour supprimer les devoirs et les notes pour un utilisateur spécifique ou pour l’ensemble de votre client. 
+
+Pour supprimer devoirs et notes pour un utilisateur individuel, accédez au Centre d’administration **Teams,** puis accédez à Teams applications et > **d’autorisation** pour créer une définition de stratégie d’autorisation d’application.  Lorsque vous créez la définition de  stratégie, définissez la stratégie des applications **Microsoft** de façon à bloquer des applications spécifiques, à autoriser toutes les autres applications et à ajouter des affectations à la liste des applications **bloquées.** Une fois votre nouvelle définition de stratégie enregistrée, affectez-la aux utilisateurs appropriés.
+
+Pour supprimer devoirs et notes pour l’ensemble de votre client, accédez au Centre d’administration **Teams,** accédez aux applications **Teams >** Gérer les applications, et recherchez et sélectionnez **Devoirs** dans la liste des applications. Modifiez le paramètre de statut dans la page des paramètres de l’application Devoir sur _Bloqué._ 

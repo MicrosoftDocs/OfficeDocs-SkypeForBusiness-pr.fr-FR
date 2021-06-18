@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Luxembourg pour Microsoft Teams.
-ms.openlocfilehash: 0d8a6df61827320a248aa48756f67325144ebc40
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 37ae92d4e162eef5d70015230037e4b6b0e751a4
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129981"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993881"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Téléphone gestion des nombres pour le Luxembourg
 
@@ -37,7 +37,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration. |Au Luxembourg, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>[Nouvelle demande de numéro de téléphone pour le Luxembourg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines. |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration. |Au Luxembourg, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<ul><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Allemand (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour Luxembourg - Luxembourg (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Français (version 1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines. |
 |Obtenez des numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Luxembourg (tous les numéros) (v.1.0) (en-lu)](https://download.microsoft.com/download/c/b/2/cb259b46-16bc-4ce0-925d-42b1a905b851/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.0)-(en-lu).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.    |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

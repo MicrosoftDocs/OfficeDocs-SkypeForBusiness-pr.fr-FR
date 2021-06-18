@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e599948a78baa96849e9ddaedf6eb2a4a131ebf4
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598742"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004183"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -35,11 +35,12 @@ Cet article décrit les paramètres de stratégie de réunion spécifiques à l�
 
 - [Autoriser la transcription](#allow-transcription)
 - [Autoriser l’enregistrement dans le cloud](#allow-cloud-recording)
-- [Mode pour l’audio sur IP](#mode-for-ip-audio) 
-- [Mode pour la vidéo sur IP](#mode-for-ip-video) 
+- [Mode pour l’audio sur IP](#mode-for-ip-audio)
+- [Mode pour la vidéo sur IP](#mode-for-ip-video)
 - [Autoriser la vidéo sur IP](#allow-ip-video)
 - [Vitesse de transmission du média (Ko)](#media-bit-rate-kbs)
-- [Mode Clips vidéo](#video-filters-mode)
+- [Mode filtres vidéo](#video-filters-mode)
+- [Autoriser les paramètres d’arrière-plan personnalisés](#allow-custom-background-settings)
 
 ### <a name="allow-transcription"></a>Autoriser la transcription
 
@@ -95,7 +96,7 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si la v
 
 Si défini sur **désactivé** pour un utilisateur, cet utilisateur ne peut pas activer la vidéo ni afficher les vidéos partagées par les autres participants à la réunion. Les participants à la réunion qui n’ont pas de stratégie attribuée (par exemple, les participants anonymes) ont ce paramètre sur **Vidéo sortante et entrante activée** par défaut.
 
-Ce paramètre ne s’applique pas non plus aux appareils de salle de conférence tels que les appareils Surface Hub et salle Microsoft Teams. 
+Ce paramètre ne s’applique pas non plus aux appareils de salle de conférence tels que les appareils Surface Hub et salle Microsoft Teams.
 
 Ce paramètre n’est pas encore disponible pour les environnements Microsoft 365 Cloud de la communauté du secteur public(GCC), GCC High ou Department of Defense (DoD).
 
@@ -106,7 +107,7 @@ Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les particip
 
 ### <a name="allow-ip-video"></a>Autoriser la vidéo sur IP
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. La vidéo est un composant essentiel pour les réunions. Dans certaines organisations, il est possible que les administrateurs souhaitent plus de contrôle sur les réunions des utilisateurs qui ont une vidéo. Ce paramètre contrôle si la vidéo peut être activée dans les réunions organisées par un utilisateur et dans les appels en tête en tête et de groupe lancés par un utilisateur. Sur Teams clients mobiles, ce paramètre contrôle si les utilisateurs peuvent partager des photos et des vidéos dans une réunion. 
+Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. La vidéo est un composant essentiel pour les réunions. Dans certaines organisations, il est possible que les administrateurs souhaitent plus de contrôle sur les réunions des utilisateurs qui ont une vidéo. Ce paramètre contrôle si la vidéo peut être activée dans les réunions organisées par un utilisateur et dans les appels en tête en tête et de groupe lancés par un utilisateur. Sur Teams clients mobiles, ce paramètre contrôle si les utilisateurs peuvent partager des photos et des vidéos dans une réunion.
 
 Les réunions organisées par un utilisateur pour lequel ce paramètre de stratégie est activé permettent le partage de vidéos dans la réunion par les participants, si ces derniers ont également activé le paramètre de stratégie. Les participants à la réunion qui n'ont pas de stratégie attribuée (par exemple, les participants anonymes et fédérés) héritent de la stratégie de l'organisateur de la réunion.
 
@@ -150,7 +151,7 @@ Pour un utilisateur, le paramètre de stratégie le plus restrictif pour la vid�
 |---------|---------|
 |Désactiver l’audio et la vidéo pour les participants aux réunions  |Mode pour l’audio sur IP : **Désactivé**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A       |
 |Activer uniquement les éléments audio et vidéo entrants pour les participants aux réunions  |Mode pour l’audio sur IP : **Audio sortant et entrant activé**<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée**<br>Autoriser la vidéo sur IP : **Désactivé**       |
-|Désactiver la vidéo pour les participants aux réunions (les participants ont un son uniquement)|  Mode pour l’audio sur IP : **Activer l’audio sortant et entrant**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A        
+|Désactiver la vidéo pour les participants aux réunions (les participants ont un son uniquement)|  Mode pour l’audio sur IP : **Activer l’audio sortant et entrant**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A
 |Activer l’audio et la vidéo pour les participants aux réunions    |Mode pour l’audio sur IP : **Audio sortant et entrant activé** (par défaut)<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée** (par défaut)<br>Autoriser la vidéo sur IP : **Activé** (par défaut)    |
 
 La stratégie la plus restrictive entre la stratégie de l’organisateur de la réunion et la stratégie de l’utilisateur s’applique. Par exemple, si un organisateur a une stratégie qui restreint la vidéo et que la stratégie d’un utilisateur ne limite pas la vidéo, les participants à la réunion héritent de la stratégie de l’organisateur de la réunion et n’ont pas accès à la vidéo dans les réunions. Cela signifie qu’ils peuvent participer à la réunion avec le son uniquement.
@@ -160,7 +161,7 @@ La stratégie la plus restrictive entre la stratégie de l’organisateur de la 
 
 #### <a name="teams-mobile-clients"></a>Clients mobiles Teams
 
-Pour les utilisateurs sur les clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre **Autoriser la vidéo sur IP** ou **Mode vidéo sur IP**. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
+Pour les utilisateurs sur les clients mobiles Teams, la possibilité de partager des photos et des vidéos pendant une réunion est également déterminée par le paramètre **Autoriser la vidéo sur IP** ou **Mode vidéo sur IP**. Selon le paramètre de stratégie prioritaire, la possibilité de partager des vidéos et des photos ne sera pas disponible. Cela n’affecte pas le partage d’écran, que vous configurez à l’aide d’un paramètre [Mode de partage d’écran](meeting-policies-content-sharing.md#screen-sharing-mode) séparé. De plus, vous pouvez définir une [Stratégie de mobilité Teams](/powershell/module/skype/new-csteamsmobilitypolicy) pour empêcher les utilisateurs mobiles d’utiliser une vidéo sur IP via une connexion cellulaire, ce qui signifie qu’ils doivent utiliser une connexion WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Vitesse de transmission du média (Ko)
 
@@ -176,7 +177,7 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 
 Il s’agit d’un paramètre par participant. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
 
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
 
 Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de la vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** comme suit :
 
@@ -190,13 +191,41 @@ Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de l
 > [!NOTE]
 > Les images chargées par les utilisateurs ne sont pas filtrées par Teams. Lorsque vous utilisez le paramètre de **AllFilters**, vous devez disposer de stratégies d’organisation interne pour empêcher les utilisateurs de télécharger des images choquantes ou inappropriées, ou des images que votre organisation n’a pas le droit d’utiliser pour Teams.
 
+### <a name="allow-custom-background-settings"></a>Autoriser les paramètres d’arrière-plan personnalisés
 
+Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par client. Cette fonctionnalité permet aux entreprises d’appliquer une branding d’entreprise Teams réunions.
 
+1. Se connecter au Centre d’administration de Microsoft Teams.
 
+2. Sélectionnez **Stratégies de**  >  **réunion Personnaliser les images de réunion.**
 
+   ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en évidence](media/custom-background-image-button.png)
+
+3. Sélectionnez **Le dans** les **images d’arrière-plan large de l’organisation.**
+
+4. Sélectionnez **+ Ajouter des images.**
+
+5. Dans le panneau Gérer les arrière-plans, **sélectionnez Ajouter une image.**
+
+6. Assurez-vous que les images répondent aux exigences :
+  
+   - Taille minimale 360 px
+   - Taille maximale 2 048 px
+   - Type de fichier PNG, JPG ou BMP
+   - Vous pouvez charger jusqu’à 50 images
+
+7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer.**
+
+8. Examinez les images et ajoutez-en d’autres selon vos besoins.
+
+9. Sélectionnez **Enregistrer**.
+
+Les participants à la réunion voient une sélection d’images d’arrière-plan qu’ils peuvent utiliser lorsqu’ils participent à une réunion.
+
+> [!NOTE]
+> L’application des modifications peut prendre jusqu’à 24 heures.
 
 ## <a name="related-topics"></a>Sujets associés
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
-

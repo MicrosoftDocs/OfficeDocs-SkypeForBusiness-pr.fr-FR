@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070650"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997703"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guide d’administration informatique de Reflect dans Microsoft Teams
 
@@ -33,7 +33,7 @@ Cette application de contrôle utilise des emojis et une granularité émotionne
 ## <a name="privacy-and-security"></a>Confidentialité et sécurité
 Reflect suit les mêmes normes de confidentialité et de sécurité que Insights pour protéger les informations sensibles des étudiants.
 
-Les informations collectées et présentées via Reflect répondent à [plus de 90 normes réglementaires et sectorielles standards](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi de la famille[(Family Educational Rights and Privacy Act) (FERPA)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations similaires axées sur la confidentialité.
+Les informations collectées et présentées via Reflect répondent à [plus de 90 normes réglementaires et sectorielles standards](/compliance/regulatory/offering-home), y compris le [RGPD](/compliance/regulatory/gdpr) et la loi de la famille[(Family Educational Rights and Privacy Act) (FERPA)](/compliance/regulatory/offering-ferpa) pour la sécurité des élèves et des enfants, ainsi que d’autres réglementations similaires axées sur la confidentialité.
 
 Les étudiants ne voient *jamais* les noms des autres étudiants, seulement leurs réponses. Bien qu’;ils puissent voient la distribution des réponses, ils ne peuvent *pas* voir les noms associés à chaque réflexion. 
 
@@ -45,7 +45,7 @@ Les données appartiennent à l’établissement scolaire, et Microsoft se conte
 
 Les données sont stockées dans Insights. Par défaut, Insights est activé. Lorsque vous désactivez Insights, nous **supprimons toutes les données collectées** pour Reflect. Si vous réactivez Insights, nous commencerons à collecter des données à partir de l’heure de la réactivation.
 
-Dans le [Guide d’administration informatique Insights](class-insights.md), vous pouvez découvrir le fonctionnement de Insights (y compris les emplacements de stockage) et [comment désactiver ou activer Insights](class-insights.md#turn-insights-off-or-on) lorsque vous voulez supprimer les données ou activer le service.
+Dans le [Guide d’administration informatique Insights](class-insights.md), vous pouvez découvrir le fonctionnement de Insights (y compris les emplacements de stockage) et [comment désactiver ou activer Insights](class-insights.md#turn-insights-on-or-off) lorsque vous voulez supprimer les données ou activer le service.
 
 Les données des étudiants sont collectées dans Reflect, bien que les données invités ne le sont pas. **Si un étudiant est défini comme un invité, ses données ne sont pas collectées.** 
 
@@ -57,12 +57,12 @@ Pour permettre à un utilisateur d’installer et d’interagir avec une applica
 Si vous avez précédemment défini que chaque application doit être autorisée, veuillez accéder à la page Gérer des applications et « autoriser » Reflect. **Lorsque vous bloquez une application, l’application ne s’affiche pas dans Teams pour les utilisateurs de votre organisation.**
 
 > [!NOTE]
-> Pour accéder à l’application Reflect, vous devez avoir une licence A1, A3 ou A5 pour Microsoft 365.
+> Pour accéder à l’application Reflect, vous devez avoir une licence A1, A3 ou A5 pour Microsoft 365.
 
 > [!TIP]
 > Pour plus d’informations, lisez [comment autoriser une application ou l’ajouter à une équipe de classe](manage-apps.md#allow-and-block-apps).
 
-## <a name="where-do-educators-find-reflect"></a>Où les enseignants peuvent-ils trouver Reflect ?
+## <a name="where-do-educators-find-reflect"></a>Où les enseignants peuvent-ils trouver Reflect ?
 Une fois que vous avez activé Reflect, les enseignants peuvent se rendre en classe et sélectionner l’option **Nouvelle conversation**. Ils sélectionnent ensuite «**...**» pour ouvrir les extensions de messagerie et entrer **Reflect** dans la barre de recherche. La boîte de dialogue les guide dans la définition de la question et des personnes peuvent voir.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Ajouter Reflect à une équipe de classe":::
@@ -72,7 +72,7 @@ Ils peuvent cliquer avec le bouton droit sur l’icône Reflect, puis sélection
 :::image type="content" source="media/reflect-pin-app.png" alt-text="Épingler l’application Reflect":::
 
 > [!TIP]
-> Vous pouvez également localiser l’application Reflect via ce lien : [https://aka.ms/getReflect](https://aka.ms/getReflect)
+> Vous pouvez également localiser l’application Reflect via ce lien : [https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
 > Pour plus d’informations, visitez la [Page de support de Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Cette page fournit des instructions à la fois pour les enseignants et les étudiants, et les aide à créer leur premier contrôle Reflect.

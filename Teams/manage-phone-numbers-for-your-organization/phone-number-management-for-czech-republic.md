@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en République tchèque Microsoft Teams.
-ms.openlocfilehash: 0fd6a2db9b74dbc4f567c0a18d4aaaf54dc2f367
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: f0f5d3243595590571112df2b697000d871c5fd2
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130379"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993977"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Téléphone de numéro pour la République tchèque
 
@@ -37,7 +37,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration. |En République tchèque, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour [la République tchèque (v.1.0).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration. |En République tchèque, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour la République tchèque [(v.1.0) cs-CZ.](https://download.microsoft.com/download/9/0/c/90c1b1c3-048f-4ee1-b741-f93911635271/know-your-customer-for-the-czech-republic-(v1.0)-(cs-CZ).pdf) <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
 |Obtenez des numéros de téléphone qui nous sont transférés. | Téléchargez ce formulaire. <br/><br/>[Lettre d’autorisation pour la République tchèque (tous les numéros) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment. |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |

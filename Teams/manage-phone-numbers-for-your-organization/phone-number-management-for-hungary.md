@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Hongrie pour Microsoft Teams.
-ms.openlocfilehash: b052da954fe59d6c802cbe485d3c722492299a23
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 5e590a861c7a68b15dd65a3ce304373fe49525d8
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130426"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993947"
 ---
 # <a name="phone-number-management-for-hungary"></a>Téléphone gestion des nombres en Hongrie
 
@@ -37,8 +37,8 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.<br/> |En Hongrie, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour [la Hongrie (v.1.0) (hu-hu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true).<br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
-|Obtenez des numéros de téléphone qui nous sont transférés.<br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Hongrie (tous les nombres) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.   |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.<br/> |En Hongrie, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour [la Hongrie (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf).<br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
+|Obtenez les numéros de téléphone qui nous sont transférés.<br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Hongrie (tous les nombres) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/>Le transfert de numéros peut prendre deux à trois semaines pour s’effectuer sur ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.   |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
 |Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |

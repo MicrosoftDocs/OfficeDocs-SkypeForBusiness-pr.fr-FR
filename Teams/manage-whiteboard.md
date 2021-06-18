@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
+ms.openlocfilehash: 85e78480aec97ef9a498028d715fc898858d2606
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904956"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004136"
 ---
-<a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft Teams
-==========================================
+# <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft Teams
 
 Le tableau blanc collaboratif Microsoft est une surface de dessin libre numérique sur laquelle se réunissent des personnes, du contenu et des idées. L’intégration du Tableau blanc dans les réunions en ligne Microsoft Teams est optimisée par l’application web Tableau blanc, qui permet aux participants des réunions Teams de dessiner, faire des croquis et écrire ensemble dans une zone de dessin numérique partagée.
 

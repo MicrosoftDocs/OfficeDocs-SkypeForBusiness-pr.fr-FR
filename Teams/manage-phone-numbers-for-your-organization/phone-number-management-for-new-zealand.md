@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Nouvelle-Zélande Microsoft Teams.
-ms.openlocfilehash: 61e21dfba5c91105f99cacca4a51cf340a7187ec
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 930b2068071fe6a0d99019e136eb50179e60cae9
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130403"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993897"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>Téléphone de nombre pour la Nouvelle-Zélande
 
@@ -37,7 +37,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.|En Nouvelle-Zélande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour la [Nouvelle-Zélande (v.1.0) (en-nz)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.|En Nouvelle-Zélande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour la [Nouvelle-Zélande (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
 |Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Nouvelle-Zélande (tous les nombres) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br>Le transfert des numéros peut prendre de une à six semaines dans ce marché selon la complexité du port.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.  |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
