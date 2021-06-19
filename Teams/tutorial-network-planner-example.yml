@@ -2,7 +2,7 @@
 title: Utilisation du Planificateur réseau - exemple de scénario
 metadata:
   title: Utilisation du Planificateur réseau - exemple de scénario
-  description: Cet exemple de scénario vous montre comment utiliser l’outil Planificateur de réseau pour créer des sites et des personnage, et exécuter des rapports.
+  description: Cet exemple de scénario vous montre comment utiliser l’outil Planificateur réseau pour créer des sites et des personnage, et exécuter des rapports.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,72 +16,30 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 58a51e7b0bd132a1e0e65c304d0d96bdff119732
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 4b7a7628e80c01f9b173310bc88cd6a9f58a40cb
+  ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51121322"
+  ms.lasthandoff: 06/19/2021
+  ms.locfileid: "53023255"
 items:
 - durationInMinutes: 2
-  content: "L’outil Planificateur réseau est disponible dans le Centre Teams’administration. Il vous permet de déterminer la exigences réseau pour votre organisation. Cet exemple de scénario montre comment utiliser l’outil pour créer des sites, des personnage et des rapports pour une société nommée Contoso. \n\n## <a name=\"before-you-begin\"></a>Avant de commencer\n\nNous partons du principe que vous connaissez déjà le Centre d’administration Teams et que vous êtes familiarisé avec ce que vous devez faire pour préparer votre réseau pour l’Teams. S’il s’agit du premier article que vous avez vu sur Network Planner, nous vous recommandons de passer en revue les articles suivants en premier.\n\n- [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)\n- [Utiliser le Planificateur réseau pour Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Vue d’ensemble du réseau Contoso\n\nContoso possède trois emplacements :\n\n- **Siège social de Seattle :** Il s’agit de l’emplacement principal pour Contoso. Il compte 1 000 employés et 25 d’entre eux appellent uniquement. Le site est connecté à Internet et il existe une connexion téléphonique locale (PSTN). Contoso dispose d’un routage direct pour pouvoir utiliser la connexion téléphonique locale avec les Teams. \n- **Îles Office :** Ce bureau de succursale compte 400 employés et 10 n’appellent que. Le site utilise sa connexion au siège social pour le trafic Internet et téléphonique (PSTN). Ce bureau est connecté au siège social de Seattle à l’aide d’une connexion WAN.\n- **Office Colorado :** Ce bureau compte 250 employés et 50 n’appellent que. Le site possède sa propre connexion Internet locale, mais aucune connexion téléphonique directe (PSTN).\n\nCommençons !\n"
+  content: "L’outil Planificateur réseau est disponible dans le Centre d’administration Teams. Il vous permet de déterminer la exigences réseau pour votre organisation. Cet exemple de scénario montre comment utiliser l’outil pour créer des sites, des personnage et des rapports pour une société nommée Contoso. \n\n## <a name=\"before-you-begin\"></a>Avant de commencer\n\nNous partons du principe que vous connaissez déjà le Centre d’administration Teams et que vous êtes familiarisé avec ce que vous devez faire pour préparer votre réseau pour Teams. S’il s’agit du premier article que vous avez vu sur network Planner, nous vous recommandons de passer en revue les articles suivants en premier.\n\n- [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)\n- [Utiliser le Planificateur réseau pour Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Vue d’ensemble du réseau Contoso\n\nContoso possède trois emplacements :\n\n- **Siège social de Seattle :** Il s’agit de l’emplacement principal pour Contoso. Il compte 1 000 employés et 25 d’entre eux appellent uniquement. Le site est connecté à Internet et il existe une connexion téléphonique locale (PSTN). Contoso dispose d’un routage direct mis en place pour pouvoir utiliser la connexion téléphonique locale avec Teams. \n- **Bureau deLands :** Ce siège social compte 400 employés et 10 n’appellent que. Le site utilise sa connexion au siège social pour le trafic Internet et téléphonique (PSTN). Ce bureau est connecté au siège social de Seattle à l’aide d’une connexion WAN.\n- **Office de Denver :** Ce bureau compte 250 employés et 50 n’appellent que. Le site possède sa propre connexion Internet locale, mais aucune connexion téléphonique directe (PSTN).\n\nCommençons !\n"
 - title: Ajouter un plan réseau
   durationInMinutes: 2
-  content: "Dans le Teams d’administration, développez les **paramètres** à l’échelle de l’organisation, puis sélectionnez **Planificateur réseau.** La première chose à faire est de créer un plan réseau. \n\n1. Cliquez **sur Ajouter un plan réseau** \n2. Dans le **volet Nouveau plan réseau,** ajoutez un nom et une description pour votre plan réseau. Pour cet exemple, nous allons utiliser *Contoso1* comme nom de plan et plan réseau *Contoso* comme description.\n3. Cliquez sur **Enregistrer**\n\n![Ajouter un nouveau plan réseau](media/network-planner-new-network-plan.png)\n\nAprès avoir enregistrer votre plan réseau, celui-ci s’affiche dans la liste de vos plans réseau. \n\n![Liste des plans réseau](media/network-planner-network-plans.png)\n"
+  content: "Dans le Centre d’administration Teams, développez **les paramètres** à l’échelle de l’organisation, puis sélectionnez **Planificateur réseau.** La première chose à faire est de créer un plan réseau. \n\n1. Cliquez **sur Ajouter un plan réseau** \n2. Dans le **volet Nouveau plan réseau,** ajoutez un nom et une description pour votre plan réseau. Pour cet exemple, nous allons utiliser *Contoso1* comme nom de plan et plan réseau *Contoso* comme description.\n3. Cliquez sur **Enregistrer**\n\n![Ajouter un nouveau plan réseau](media/network-planner-new-network-plan.png)\n\nAprès avoir enregistrer votre plan réseau, celui-ci s’affiche dans la liste de vos plans réseau. \n\n![Liste des plans réseau](media/network-planner-network-plans.png)\n"
 - title: Créer des personnage personnalisés
   durationInMinutes: 2
-  content: "Vous devez ensuite créer les personnage nécessaires pour représenter vos utilisateurs. Chaque emplacement ayant des utilisateurs spécialisés qui ne vont effectuer que des appels téléphoniques, vous devez créer ce personnage.\n\n1. Dans la page Planificateur réseau, cliquez sur **l’onglet Personnage,** puis **sur + Personnage personnalisé.** \n2. Ajoutez un nom et une description à ce personnage. Dans cet exemple, nous l’appellerons *simplement « Calling only*».\n3. Activer **l’audio** et désactiver le reste afin que la fonction d’appel soit la seule autorisation en cours.\n4. Cliquez **sur** Enregistrer pour ajouter le personnage à la liste.\n\n![Ajout d’un personnage dans le planificateur réseau](media/network-planner-add-persona.png)\n"
+  content: "Vous devez ensuite créer les personnage nécessaires pour représenter vos utilisateurs. Chaque emplacement étant donné que chaque emplacement possède des utilisateurs spécialisés qui ne vont effectuer que des appels téléphoniques, vous devez créer ce personnage.\n\n1. Dans la page Planificateur réseau, cliquez sur **l’onglet Personnage,** puis **sur + Personnage personnalisé.** \n2. Ajoutez un nom et une description pour ce personnage. Dans cet exemple, nous l’appellerons *simplement « Appel en un seul ».*\n3. Activer **l’audio** et désactiver le reste afin que la fonction d’appel soit la seule autorisation en cours.\n4. Cliquez **sur** Enregistrer pour ajouter le personnage à la liste.\n\n![Ajout d’un personnage dans le planificateur réseau](media/network-planner-add-persona.png)\n"
 - title: Ajouter des sites à votre plan réseau
   durationInMinutes: 5
-  content: >
-    À présent, vous devez ajouter les trois sites à votre plan réseau. Le tableau ci-dessous récapitule les caractéristiques des emplacements réseau de Contoso.
-
-
-    |Lieu       |Nombre total d’employés|Appel uniquement aux employés|Connexion Internet       |Connexion PSTN                |
-
-    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
-
-    |Seattle HQ     |1000                     |25                    |Local Internet            |Réseau PSTN local à l’aide du routage direct|
-
-    |Lands Office|400                      |10                    |Connexion Internet distante via HQ|PSTN distant via HQ         |
-
-    |Colorado Office  |250                      |50                    |Local Internet            |Aucune connexion PSTN             |
-
-
-    1. Cliquez sur votre plan réseau dans le Planificateur réseau.
-
-    2. Sélectionnez **l’onglet Sites réseau,** puis **cliquez sur Ajouter un site réseau.**
-
-
-    ![Ajout d’un site réseau](media/network-planner-add-network-site.png)
-
-
-    3. À l’aide du tableau ci-dessus, remplissez les détails du site HQ de Seattle.
-
-
-    ![Détails du nouveau site](media/network-planner-add-network-site-2.png)
-
-
-    4. Étant donné que le site HQ de Seattle dispose de connexions Internet locales et PSTN locales, vous devez spécifier ces caractéristiques correctement.
-
-
-    ![Nouveaux paramètres de sortie de site](media/network-planner-add-network-site-egress.png)
-
-
-    5. Cliquez **sur Enregistrer** pour terminer l’ajout du site SEATTLE HQ.
-
-    6. Créez le site de Denver en utilisant le même processus.
-
-    7. Étant donné que le site desLands utilise la connexion à Seattle HQ pour la connectivité Internet et RSTN, il est considéré comme un site distant. Lors de la création du site deLands, vous  devez spécifier qu’il est connecté au WAN, puis sélectionner Distant pour la sortie **Internet** et la **sortie PSTN.**
-
-
-    ![Paramètres de sortie du site distant](media/network-planner-add-remote-site-egress.png)
+  content: "À présent, vous devez ajouter les trois sites à votre plan réseau. Le tableau ci-dessous récapitule les caractéristiques des emplacements réseau de Contoso.\n\n|Lieu       |Nombre total d’employés|Appel uniquement aux employés|Connexion Internet       |Connexion PSTN                |Capacité de liaison de réseau WAN   | Capacité de connexion Internet   |\n|---------------|-------------------------|----------------------|--------------------------|-------------------------------|--------------------|--------------------------|\n|Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing| 200 Mbits/s           | 500 Mbits/s                 |\n|Office DeLand|400                      |10                    |Connexion Internet distante via HQ|PSTN distant via HQ         | 200 Mbits/s           | N/A                      |\n|Denver Office  |250                      |50                    |Local Internet            |Aucune connexion PSTN             | N/A                | 150 Mbits/s                 |\n\n1. Cliquez sur votre plan réseau dans le Planificateur réseau.\n2. Sélectionnez **l’onglet Sites réseau,** puis **cliquez sur Ajouter un site réseau.**\n\n![Ajout d’un site réseau](media/network-planner-add-network-site.png)\n\n3. À l’aide du tableau ci-dessus, remplissez les détails du site HQ de Seattle. Activer à la fois **les bascules ExpressRoute** **et Connecté au WAN.** \n\n![Détails du nouveau site](media/network-planner-add-network-site-2.png)\n\n4. Étant donné que le site HQ de Seattle dispose de connexions Internet locales et PSTN locales, vous devez spécifier ces caractéristiques correctement.\n\n![Nouveaux paramètres de sortie de site](media/network-planner-add-network-site-link-capacity.png)\n\n5. Cliquez **sur Enregistrer** pour terminer l’ajout du site SEATTLE HQ.\n6. Créez le site de Denver en utilisant le même processus. Le wan ne doit pas être activé. \n7. Étant donné que le site desLands tire parti de la connexion à Seattle HQ pour la connectivité Internet et RSTN, il est considéré comme un site distant. Lors de la création du site deLands, vous  devez spécifier qu’il est connecté au WAN, puis sélectionner Distant pour la sortie **Internet** et la **sortie PSTN.**\n\n![Paramètres de sortie du site distant](media/network-planner-add-remote-site-egress-kirkland.png)\n"
 - title: Créer un état
   durationInMinutes: 3
-  content: "À présent que vos sites sont ajoutés, vous pouvez créer un rapport. Vous allez définir la distribution des utilisateurs lors de la création du rapport.\n\n1. Sélectionnez **l’onglet** Rapport, puis cliquez **sur Démarrer un rapport.** La page de distribution des utilisateurs s’ouvre. Commencez par ajouter un nom et une description pour votre état.\n\n![Création d’un rapport du planificateur réseau](media/network-planner-add-report.png)  \n\n2. Lorsque vous commencez un rapport, le nombre d’utilisateurs de chaque site est automatiquement distribué (par exemple, 80 % aux travailleurs du bureau, 20 % aux travailleurs à distance). C’est ici que vous allez ajuster le nombre d’utilisateurs de chaque personnage pour qu’il corresponde à votre population d’utilisateurs. Supposons que Contoso ait le même fractionnement de 80/20 entre les travailleurs du bureau et les travailleurs à distance pour chaque site. Assurez-vous d’appeler uniquement les personnes appelant le nombre d’utilisateurs au bureau. La distribution résultante doit ressembler à l’image ci-dessous.\n\n![Distribution des utilisateurs entre différents personnage pour chaque site](media/network-planner-persona-distribution-2.png)\n"
+  content: "À présent que vos sites sont ajoutés, vous pouvez créer un rapport. Vous allez définir la distribution des utilisateurs lors de la création du rapport.\n\n1. Sélectionnez **l’onglet** Rapport, puis cliquez **sur Démarrer un rapport.** La page de distribution des utilisateurs s’ouvre. Commencez par ajouter un nom et une description pour votre état.\n\n![Création d’un rapport du planificateur réseau](media/network-planner-add-report.png)  \n\n2. Lorsque vous commencez un rapport, le nombre d’utilisateurs de chaque site est automatiquement distribué (par exemple, 80 % aux travailleurs du bureau, 20 % aux travailleurs à distance). C’est ici que vous allez ajuster le nombre d’utilisateurs de chaque personnage pour qu’il corresponde à votre population d’utilisateurs. Supposons que Contoso ait le même fractionnement de 80/20 entre les travailleurs du bureau et les travailleurs à distance pour chaque site. Assurez-vous d’appeler uniquement les personnage du nombre d’utilisateurs au bureau. La distribution résultante doit ressembler à l’image ci-dessous.\n\n![Distribution des utilisateurs entre différents personnage pour chaque site](media/network-planner-persona-distribution-2.png)\n"
 - title: Analyser le résultat du rapport
   durationInMinutes: 5
-  content: "Une fois que vous aurez généré le rapport, un écran s’affichera et affichera vos besoins en bande passante sous forme de valeurs globales et spécifiques à la modalité. Par défaut, la bande passante autorisée est définie sur 30 %. En modifiant cette valeur et en cliquant sur **Exécuter** le rapport, vous pouvez voir l’impact différent sur la bande passante de votre réseau. Toutes les zones qui ont besoin de davantage de bande passante sont mises en surbrillant en rouge.\n\n![Analyse de rapport](media/network-planner-report-output.png)\n\nLe Planificateur réseau vous fournit également des recommandations en fonction de l’impact Teams sur votre réseau. Cliquez sur l’icône du mode d’affichage recommandé pour afficher les recommandations de chaque site, le caser. L’image ci-dessous présente un exemple de vue recommandation.\n\n![Affichage recommandation](media/network-planner-recommendation-view.png)\n\nIci, vous pouvez constater que la bande passante du site desLandes doit à l’heure actuelle être accrue pour obtenir les meilleures performances Teams. \n"
+  content: "Une fois que vous aurez généré le rapport, un écran s’affichera et affichera vos besoins en bande passante sous forme de valeurs globales et spécifiques à la modalité. Par défaut, la bande passante autorisée est définie sur 30 %. En modifiant cette valeur et en cliquant sur **Exécuter** le rapport, vous pouvez voir l’impact différent sur la bande passante de votre réseau. Toutes les zones qui ont besoin de davantage de bande passante sont mises en surbrillant en rouge.\n\n![Analyse de rapport](media/network-planner-contoso-report-output.png)\n\nLe Planificateur réseau vous fournit également des recommandations en fonction de l’impact Teams sur votre réseau. Cliquez sur l’icône du mode d’affichage recommandé pour afficher les recommandations de chaque site, le caser. L’image ci-dessous présente un exemple de vue recommandation.\n\n![Affichage recommandation](media/network-planner-recommendation-view.png)\n\nIci, vous pouvez constater que la bande passante du site desLandes doit actuellement être accrue pour obtenir des performances jamais Teams. \n"
 - title: Ressources supplémentaires
   durationInMinutes: 1
   content: >
