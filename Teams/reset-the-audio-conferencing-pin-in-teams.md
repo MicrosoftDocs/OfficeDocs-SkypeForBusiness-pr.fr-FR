@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment réinitialiser le code confidentiel d’audioconférence d’un utilisateur dans Microsoft Teams comment consulter des informations importantes sur les code confidentiels.
-ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117632"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075377"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
 Un code confidentiel est un code composé de nombres qui est créé pour Microsoft Teams utilisateur activé pour l’audioconférence. Les conférences audioconférences sont utilisées par les organisateurs de la réunion pour identifier qu’ils en sont l’organisateur et les autoriser à démarrer une réunion par téléphone. S’il utilise l Microsoft Teams de messagerie pour commencer la réunion, le code confidentiel n’est pas nécessaire. Si un utilisateur oublie son code confidentiel et qu’il ne le retrouve pas dans le courrier électronique qui lui a été envoyé pour l’audioconférence, un administrateur peut réinitialiser son code confidentiel ou réinitialiser son code confidentiel.
   
-Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rejoint la réunion à l’aide de l’application Microsoft Teams ou lorsque l’organisateur participe avec son code confidentiel sur le téléphone. Si la réunion nécessite un code confidentiel pour commencer, par défaut, tous les utilisateurs qui rejoignent la réunion par téléphone avant le début de la réunion seront mis en attente jusqu'à ce que la réunion commence. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
+Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rejoint la réunion à l’aide de l’application Microsoft Teams ou lorsque l’organisateur participe avec son code confidentiel sur le téléphone. Lorsqu’une réunion nécessite un code confidentiel pour commencer, les utilisateurs qui rejoignent la réunion par téléphone sont placés dans la salle d’attente et écoutent la musique mise en attente jusqu’à ce que l’organisateur les admette. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 

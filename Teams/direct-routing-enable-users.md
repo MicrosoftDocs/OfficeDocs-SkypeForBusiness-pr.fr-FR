@@ -16,18 +16,18 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs d Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122218"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075367"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
 
 Cet article explique comment permettre aux utilisateurs d’obtenir Système téléphonique routage direct.  Voici l’étape 2 de la procédure de configuration du routage direct :
 
-- Étape 1. [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md) 
+- Étape 1. [Connecter SBC avec votre système Téléphone Microsoft données et valider la connexion](direct-routing-connect-the-sbc.md) 
 - **Étape 2. Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale**   (cet article)
 - Étape 3. [Configurer le routage vocal](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
@@ -47,7 +47,7 @@ Lorsque vous êtes prêt à activer le routage direct pour les utilisateurs, sui
 Deux options s’offrent à vous pour créer un utilisateur dans Microsoft 365 ou Office 365. Toutefois, Microsoft recommande à votre organisation de choisir une option pour éviter les problèmes de routage : 
 
 - Créez l’utilisateur dans Active Directory local et synchronisez l’utilisateur avec le cloud. Consultez [Intégrer vos annuaires locaux à Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
-- Créez l’utilisateur directement dans le Microsoft 365 d’administration. Voir [Ajouter des utilisateurs individuellement ou en bloc Microsoft 365 ou Office 365 - Aide de l’administrateur.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
+- Créez l’utilisateur directement dans le Centre d’administration Microsoft 365. Voir [Ajouter des utilisateurs individuellement ou en bloc Microsoft 365 ou Office 365 - Aide de l’administrateur.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Si votre déploiement Skype Entreprise Online coexiste avec Skype Entreprise 2015 ou Lync 2010 ou 2013 en local, la seule option prise en charge consiste à créer l’utilisateur dans l’Active Directory local et à le synchroniser avec le cloud (option 1). 
 
@@ -55,7 +55,7 @@ Pour plus d’informations sur les conditions de licence, voir licences et [autr
 
 ## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Vérifier que l’utilisateur est domicile en ligne et que le numéro de téléphone n’est pas synchronisé à partir de l’ordinateur local (applicable aux utilisateurs Skype Entreprise Server Voix Entreprise en cours de migration vers Teams Routage direct)
 
-Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans infra.lync.com domaine. Le paramètre OnPremLineUriManuallySet doit également être réglé sur True. Pour ce faire, configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale à l’aide de Skype Entreprise PowerShell en ligne.
+Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Le paramètre OnPremLineUriManuallySet doit également être réglé sur True. Pour ce faire, configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale à l’aide de Skype Entreprise PowerShell en ligne.
 
 1. Connecter une session Skype Entreprise PowerShell online.
 
@@ -102,8 +102,8 @@ Pour ajouter le numéro de téléphone et activer la messagerie vocale :
     Si les utilisateurs « Sont petits » et « Qu’ils partagent le même numéro de base avec des extensions uniques », entrez les informations suivantes :
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     Il est recommandé, mais pas obligatoire, que le numéro de téléphone utilisé soit configuré comme numéro de téléphone E.164 complet avec l’code du pays. Il est pris en charge pour configurer des numéros de téléphone avec des extensions qui seront utilisés pour rechercher des utilisateurs lorsque la recherche par rapport au numéro de base renvoie plusieurs résultats. Cela permet aux entreprises de configurer des numéros de téléphone avec le même numéro de base et des extensions uniques. Pour que la recherche soit réussie, l’invitation doit inclure le numéro complet avec l’extension suivante :
