@@ -57,7 +57,7 @@ productDirectory:
     - title: Ateliers de planification de mise à niveau
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: "Planifiez et implémentez une mise à niveau réussie vers Teams. Public\_: professionnels de l’informatique, responsables des changements relatifs à des adoptions"
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: Cours
