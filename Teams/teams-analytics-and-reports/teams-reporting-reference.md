@@ -18,25 +18,25 @@ description: Dans cet article, vous allez découvrir les Teams disponibles dans 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 57135e50b604c8e92a7ff78963af9520ccc87b8a
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478344"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096318"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
-Une nouvelle expérience d’analyse et de rapport pour Microsoft Teams est disponible dans le Centre Microsoft Teams’administration. Vous pouvez exécuter différents rapports pour obtenir des informations sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir combien d’utilisateurs communiquent par le biais de messages de canal et de conversation, ainsi que les types d’appareils qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations des rapports pour mieux comprendre les modèles d’utilisation, aider à prendre des décisions professionnelles et informer les efforts de formation et de communication.
+Une nouvelle expérience d’analyse et de rapport pour Microsoft Teams est disponible dans le Centre Microsoft Teams’administration. Vous pouvez exécuter différents rapports pour obtenir des informations sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir le nombre d’utilisateurs qui communiquent par le biais de messages de canal et de conversation, ainsi que les types d’appareils qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations des rapports pour mieux comprendre les modèles d’utilisation, aider à prendre des décisions professionnelles et informer les efforts de formation et de communication.
 
 ## <a name="how-to-access-the-reports"></a>Comment accéder aux rapports
 
 Pour accéder aux rapports, vous devez être un administrateur global dans Microsoft 365 ou Office 365, un administrateur de Teams service ou un Skype Entreprise administrateur. Pour en savoir plus sur Teams rôles d’administrateur et les rapports auquel chaque rôle d’administrateur peut accéder, voir Utiliser Teams rôles d’administrateur pour [gérer les Teams.](../using-admin-roles.md)
 
-Dans le centre Microsoft Teams d’administration, dans le panneau de navigation gauche, sélectionnez Analyse & **rapports,** puis sous **Rapport,** sélectionnez le rapport que vous voulez exécuter.
+Dans le centre Microsoft Teams d’administration, dans le panneau de navigation gauche, sélectionnez Analyse **&** rapports, puis sous **Rapport,** sélectionnez le rapport que vous voulez exécuter.
 
 > [!NOTE]
-> Les rapports du Centre Microsoft Teams d’administration sont différents des rapports d’activité pour les Teams qui font partie des rapports Microsoft 365 dans le Microsoft 365 d’administration. Pour plus d’informations sur les rapports d’activité du Centre Microsoft 365'administration, voir Teams rapports d’activité dans le [Microsoft 365 d’administration](../teams-activity-reports.md)
+> Les rapports du Microsoft Teams d’administration sont différents des rapports d’activité Teams qui font partie des rapports Microsoft 365 dans le Centre d’administration Microsoft 365. Pour plus d’informations sur les rapports d’activité du Centre d’administration Microsoft 365, voir Teams [rapports d’activité dans le Centre d’administration Microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams référence de rapport
 
@@ -54,6 +54,8 @@ Nous améliorons continuellement l’expérience de Teams en matière de rapport
 |[Teams Rapport sur les pools de minutes PSTN](pstn-minute-pools-report.md) |  Pays ou région<br>Fonctionnalité (licence) <br>Nombre total de minutes<br>Minutes utilisées<br>Minutes disponibles|
 |[Teams Rapport d’utilisation PSTN - Forfaits d’appels](pstn-usage-report.md#calling-plans)|  Horodament<br>Nom d'utilisateur<br>Téléphone numéro<br>Type d’appel <br>Appelé à<br>Pour le pays ou la région <br>Appelé depuis <br>À partir du pays ou de la région<br>Charge<br>Devise<br>Durée<br>Nationaux/Internationaux<br>ID d’appel<br>Type de nombre<br>Pays ou région<br>ID de conférence<br>Fonctionnalité (licence)|
 |[Teams Rapport d’utilisation PSTN - Routage direct](pstn-usage-report.md#direct-routing)  |  Horodament<br>Nom d’affichage<br>Adresse SIP<br>Téléphone numéro <br>Type d’appel<br>Appelé à<br>Heure de début<br>Heure d’invitation<br>Heure d’échec<br>Heure de fin<br>Durée<br>Type de nombre<br>Contournement de média<br>SBC FQDN<br>Région Azure<br>Type d’événement<br>Code SIP final<br>Sous-code Microsoft final<br>Phrase SIP finale<br>ID de corrélation  |
+|[Teams licences de protection des informations - Routage direct](information-protection-license-report.md)  | <br>Si les utilisateurs ont des licences valides pour envoyer leurs messages via des notifications de modification</br><br>Nombre total d’événements de notification de modification triés par un utilisateur</br><br>Quelles applications écoutent les événements de notification de modification à l’échelle de l’organisation ?</br>|
+
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -61,9 +63,9 @@ Nous améliorons continuellement l’expérience de Teams en matière de rapport
 
 Pour anonymisation des données Teams’activité des utilisateurs et Teams’utilisation de l’appareil, vous devez être administrateur général. Cela a pour effet de masquer les informations identifiables telles que le nom d’affichage, le courrier électronique et l’ID AAD dans les rapports et leurs exportations.
 
-1. Dans Microsoft 365 d’administration, sélectionnez  Rapports Paramètres \> **l’Paramètres** **organisation.** 
+1. Dans Centre d’administration Microsoft 365, sélectionnez  l’Paramètres Paramètres organisation, puis sous l’onglet \>  **Services,** sélectionnez **Rapports.**
     
-2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation du Microsoft 365 d’administration, ainsi qu’Teams centre d’administration.
+2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation dans Centre d’administration Microsoft 365 ainsi qu’Teams centre d’administration.
   
 3. Sélectionnez **Enregistrer les modifications.**
 

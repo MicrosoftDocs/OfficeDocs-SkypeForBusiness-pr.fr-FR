@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834334"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096281"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams
 
@@ -61,3 +61,6 @@ Les adresses IP fiables sont les adresses IP externes Internet du réseau d’en
 Si l’adresse IP externe de l’utilisateur correspond à une adresse IP qui se trouve dans la liste d’adresses IP fiables, la fonctionnalité voix cloud vérifie pour déterminer le sous-réseau interne où se trouve le point de terminaison de l’utilisateur. Une correspondance peut être faite par rapport aux adresses IP IPv4 ou IPv6 et dépend du format du paquet IP envoyé aux paramètres réseau. (Si une adresse IP publique possède le protocole IPv4 et IPv6, vous devez ajouter les deux en tant qu’adresses IP de confiance.)
 
 Si l’adresse IP externe de l’utilisateur ne correspond pas à une adresse IP qui se trouve dans la liste d’adresses IP fiables, le point de terminaison est classé comme étant à un emplacement inconnu.
+
+> [!Important]
+> Les recherches de paramètres de configuration réseau ne sont pas pris en charge avec les déploiements de services proxy cloud qui modifient les adresses IP sources Teams clients.

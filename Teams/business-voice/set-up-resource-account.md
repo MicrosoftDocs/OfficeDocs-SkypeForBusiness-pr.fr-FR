@@ -1,5 +1,5 @@
 ---
-title: Configurer un compte Microsoft 365 Business de ressource Voix
+title: Configurer un compte de Microsoft 365 Business Voice ressources client
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,23 +14,27 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment configurer un compte de Microsoft 365 Business voix pour une utilisation avec les attendants automatiques.
+description: Découvrez comment configurer un compte de ressource Microsoft 365 Business Voice à utiliser avec les attendants automatiques.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282774"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105166"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Étape 4 : configurer un compte de ressource Voix Entreprise
 
 Les comptes de ressources ne sont affectés à aucun utilisateur spécifique. En revanche, les comptes de ressources, qui utilisent une licence d’utilisateur virtuel gratuit, sont utilisés par les appareils et services dans Microsoft 365. Dans Microsoft Teams, les comptes de ressources sont affectés à des numéros de téléphone, puis associés à des files d’attente et des files d’attente automatiques.
 
-En associant des comptes de ressources aux postes de service automatiques et aux files d’attente d’appels, vous pouvez leur ajouter un ou plusieurs numéros de téléphone gratuits ou gratuits. Par exemple, vous pouvez associer un compte de ressource à un numéro toll à un service automatique pour les appelants locaux. Pour les appels longue distance, vous pouvez associer un autre compte de ressource à un numéro gratuit au même employé de service automatique.
+En associant des comptes de ressources aux postes de service automatiques et aux files d’attente d’appels, vous pouvez leur ajouter un ou plusieurs numéros de téléphone gratuits ou gratuits. Par exemple, vous pouvez associer un compte de ressource à un numéro toll à un employé de service automatique pour les appelants locaux. Pour les appels longue distance, vous pouvez associer un autre compte de ressource à un numéro gratuit au même employé de service automatique.
 
 Les sections de cet article expliquent comment configurer un compte de ressource et lui attribuer un numéro de téléphone. Plus tard, vous associerez le compte de ressource à un employé de service automatique.
+
+La vidéo suivante vous montre comment effectuer ces étapes dans le Centre d’administration Teams’administration.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
 ## <a name="obtain-virtual-user-licenses"></a>Obtenir des licences utilisateur virtuel
 
@@ -41,7 +45,7 @@ Les comptes de ressources nécessitent une licence pour l’utilisation des file
 >
 > Pour voir si vous avez déjà des licences virtuelles, connectez-vous à Microsoft 365 à l’aide d’un compte avec des autorisations d’administrateur global. Ensuite, allez sur Facturation > [Vos produits.](https://admin.microsoft.com/Adminportal/Home#/subscriptions) Si vous avez des licences virtuelles, elles apparaîtront Microsoft 365 Système téléphonique **- Utilisateur virtuel.**
 
-1. Ouvrez le Microsoft 365 d’administration de l’utilisateur et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
+1. Ouvrez le Centre d’administration Microsoft 365 et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
 2. Dans le volet de navigation gauche, consultez les modules add-ons <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank"> **Billing**  >  **Purchase services**</a>Voir tous les produits  >    >  **d’modules add-ons.**
 3. Faites défiler jusqu’à la fin pour trouver **la Microsoft 365 Système téléphonique – Licence utilisateur** virtuel. Sélectionnez **Détails,** puis **Acheter.**
 4. Sur la page d’achat de licences, sélectionnez le nombre de licences utilisateur virtuels que vous souhaitez. Vous avez besoin d’une licence virtuelle pour chaque attendant automatique et chaque file d’attente d’appels que vous prévoyez de configurer. Nous vous recommandons de sélectionner au moins cinq licences afin de pouvoir facilement configurer des files d’attente automatiques et des files d’attente d’appels à l’avenir sans avoir à acheter d’autres licences immédiatement.
@@ -69,11 +73,11 @@ Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique d’ut
 
 ## <a name="assign-a-license"></a>Attribuer une licence
 
-Après avoir créé votre compte de ressource, vous devez affecter une *Microsoft 365 Système téléphonique utilisateur* virtuel ou *une Système téléphonique* virtuel.
+Après avoir créé votre compte de ressource, vous devez affecter une Microsoft 365 Système téléphonique *utilisateur* virtuel ou *une Système téléphonique* virtuel.
 
-![Capture d’écran de l’interface utilisateur d’attribution de licences dans Microsoft 365 centre d’administration](../media/resource-account-assign-virtual-user-license.png)
+![Capture d’écran de l’interface utilisateur attribuer des licences dans le Centre d’administration Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 
-1. Ouvrez le Microsoft 365 d’administration de l’utilisateur et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
+1. Ouvrez le Centre d’administration Microsoft 365 et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
 1. Dans le volet de navigation gauche, allez à <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Utilisateurs**  >  **actifs.**</a>
 1. Sélectionnez votre compte de ressource.
 1. Sous **l’onglet Licences et** applications, sous **Licences,** sélectionnez **Microsoft 365 Système téléphonique - Utilisateur virtuel.**

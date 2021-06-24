@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910046"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096308"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -31,7 +31,7 @@ Les appels d’urgence dynamiques pour les plans d’appel Microsoft et le routa
 
 En fonction de la topologie de réseau définie par l’administrateur client, le client Teams fournit les informations de connectivité réseau dans une demande au service d’informations d’emplacement. En cas de correspondance, le LIS renvoie un emplacement au client. Ces données d’emplacement sont transmises au client.  
 
-Le Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point d’accès à la sécurité publique approprié (PUBLIC SAFETY Answering Point) et pour router l’appel vers ce public PUBLICP, ce qui permet au régulateur du service PUBLIC PUBLIC d’obtenir l’emplacement de l’appelant.  
+Le Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point de réponse de la sécurité publique appropriée (PUBLIC Safety Answering Point) et pour router l’appel vers ce réseau PUBLIC PUBLIC, ce qui permet au régulateur DUP d’obtenir l’emplacement de l’appelant.  
 
 Pour les appels d’urgence dynamiques, les situations suivantes doivent se produire :
 
@@ -62,7 +62,7 @@ Cet article contient les sections suivantes.
 - [Activer les utilisateurs et les sites](#enable-users-and-sites)
 - [Tester les appels d’urgence](#test-emergency-calling)
 
-La possibilité d’assurer un routage automatique vers le point de réponse de sécurité publique approprié varie selon le pays d’utilisation de l Teams public.
+La possibilité d’assurer un routage automatique vers le point de réponse de sécurité publique approprié varie selon le pays d’utilisation de l Teams un utilisateur.
 
 Pour plus d’informations sur les appels d’urgence, notamment sur les adresses de secours et le routage des appels d’urgence, les informations spécifiques aux pays et les informations sur les paramètres réseau et la topologie du réseau, voir les informations suivantes :
 
@@ -70,7 +70,7 @@ Pour plus d’informations sur les appels d’urgence, notamment sur les adresse
 - [Gérer les paramètres réseau pour les fonctionnalités vocales cloud](cloud-voice-network-settings.md)
 - [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)
 
-Pour plus d’informations sur les fonctionnalités disponibles dans le cloud pour le gouvernement, voir [le support](#government-support) technique à la fin de cet article.
+Pour plus d’informations sur les fonctionnalités disponibles dans les nuages gouvernementaux, voir [le support](#government-support) technique à la fin de cet article.
 
 
 ## <a name="supported-clients"></a>Clients pris en charge
@@ -85,10 +85,10 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 - salles Teams version 4.4.25.0 ou supérieure
 
 > [!NOTE]
-> Les appels d’urgence dynamiques, y compris les notifications du service de sécurité, ne sont pas pris en charge Teams client web. Pour empêcher les utilisateurs d’utiliser le client web Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN** Web. Pour en savoir plus, [consultez les](teams-calling-policy.md) politiques d’appel dans Teams [et Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
+> Les appels d’urgence dynamiques, y compris les notifications du service de sécurité, ne sont pas pris en charge Teams client web. Pour empêcher les utilisateurs d’utiliser le client web Teams pour appeler des numéros PSTN, vous pouvez définir une stratégie d’appel Teams et désactiver le paramètre Autoriser les appels **PSTN Web.** Pour en savoir plus, [consultez les](teams-calling-policy.md) politiques d’appel dans Teams [et Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
 
 > [!NOTE]
-> Les emplacements de sous-réseau et Wifi sont pris en charge sur tous Teams clients. <br>
+> Les emplacements de sous-réseau et WiFi sont pris en charge sur tous Teams clients. <br>
 > Ethernet/Switch (LLDP) n’est pris en charge que sur Windows et uniquement Windows versions 8.1 et ultérieures pour le moment.
 
 ## <a name="assign-emergency-addresses"></a>Affecter des adresses de secours
@@ -111,10 +111,13 @@ Vous ajoutez et affectez des adresses d’urgence dans le Microsoft Teams d’ad
 
 Les paramètres réseau servent à déterminer l’emplacement d’un client Teams et à obtenir dynamiquement des stratégies d’appel d’urgence et un emplacement d’urgence. Vous pouvez configurer les paramètres réseau selon la manière dont votre organisation souhaite que les appels d’urgence fonctionnent.
 
-Les paramètres réseau incluent des sites qui comprennent une collection de sous-réseaux qui sont utilisés exclusivement pour l’affectation de stratégies dynamiques aux utilisateurs. Par exemple, une stratégie d’appel d’urgence et une stratégie de routage des appels d’urgence peuvent être affectées au « site de Redmond », de sorte que tout utilisateur qui vient de chez vous ou d’un autre emplacement Microsoft soit configuré avec les numéros d’urgence, le routage et le service de sécurité spécifiques de Redmond.  
+Les paramètres réseau incluent des sites qui comprennent une collection de sous-réseaux qui sont utilisés exclusivement pour l’affectation de stratégies dynamiques à des utilisateurs. Par exemple, une stratégie d’appel d’urgence et une stratégie de routage des appels d’urgence peuvent être affectées au « site de Redmond », de sorte que tout utilisateur qui vient de chez vous ou d’un autre emplacement Microsoft soit configuré avec les numéros d’urgence, le routage et le service de sécurité spécifiques de Redmond.  
 
->[!Note]
->Les sous-réseaux peuvent également être définis dans le lis et peuvent être associés à un emplacement d’urgence.  Les sous-réseaux LIS doivent être définis par l’ID de réseau correspondant à la plage d’adresses IP de sous-réseau affectée aux clients. Par exemple, l’ID réseau pour un masque/IP client de 10.10.10.150/25 est **10.10.10.128.** Pour plus d’informations, voir Comprendre les bases de [l’adresse TCP/IP et des sous-réseaux.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+> [!Note]
+> Les sous-réseaux peuvent également être définis dans le lis et peuvent être associés à un emplacement d’urgence.  Les sous-réseaux LIS doivent être définis par l’ID de réseau correspondant à la plage d’adresses IP de sous-réseau affectée aux clients. Par exemple, l’ID réseau pour un masque/IP client de 10.10.10.150/25 est **10.10.10.128.** Pour plus d’informations, voir Comprendre les bases de [l’adresse TCP/IP et des sous-réseaux.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+
+> [!Important]
+> Les recherches de paramètres de configuration réseau ne sont pas pris en charge avec les déploiements de services proxy cloud qui modifient les adresses IP sources Teams clients.
 
 Gardez les définitions suivantes à l’esprit. Pour plus d’informations, [voir Paramètres réseau pour les fonctionnalités vocales cloud.](cloud-voice-network-settings.md)
 
@@ -140,7 +143,7 @@ Notez que la propagation et la mise à disposition de certaines modifications ap
 
 **Pour les utilisateurs du routage direct :**
 
-- Si l’enablement dynamique des appels d’urgence ou la configuration dynamique de la notification du service de sécurité est nécessaire, vous devez configurer à la fois les adresses IP de confiance et les sites réseau.
+- Si l’enablement dynamique des appels d’urgence ou la configuration dynamique des notifications du service de sécurité est nécessaire, vous devez configurer à la fois les adresses IP de confiance et les sites réseau.
 
 - Si seuls des emplacements dynamiques sont nécessaires, vous devez configurer uniquement les adresses IP fiables.
 
@@ -181,7 +184,7 @@ Utilisez les stratégies suivantes pour configurer les appels d’urgence. Vous 
 
 ## <a name="enable-users-and-sites"></a>Activer les utilisateurs et les sites
 
-Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. N’oubliez pas que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur du plan d’appels, la stratégie n’aura aucun effet.)
+Vous pouvez affecter des stratégies de routage des appels d’urgence et des stratégies d’appel d’urgence aux utilisateurs et aux sites. N’oubliez pas que les stratégies de routage des appels d’urgence s’appliquent uniquement au routage direct. (Bien qu’il soit possible d’affecter cette stratégie à un utilisateur du plan d’appels, cette stratégie n’aura aucun effet.)
 
 Vous attribuez des stratégies dans le Microsoft Teams d’administration ou à l’aide de PowerShell. Pour en savoir plus, consultez les articles :
 
@@ -235,9 +238,9 @@ Le tableau suivant indique la prise en charge des appels d’urgence dynamiques 
 | GCCH | Disponible sur Teams bureau |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Sujets associés
 
-- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage d’appel d’urgence ](manage-emergency-call-routing-policies.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
