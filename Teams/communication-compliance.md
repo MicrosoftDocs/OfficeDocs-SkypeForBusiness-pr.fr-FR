@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: Apprenez-en davantage sur la conformité des communications, qui fait partie du jeu de solutions de risque Insider, du point de vue Microsoft Teams (cela fait partie de la fonctionnalité de conformité des communications M365).
+description: Learning la conformité des communications, qui fait partie du jeu de solutions de risque Insider, du point de vue Microsoft Teams (cela fait partie de la fonctionnalité de conformité des communications M365).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121532"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126900"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité des communications avec les Microsoft Teams
 
 La conformité des communications est une solution à risque au niveau du Microsoft 365 qui permet de minimiser les risques de communication en vous aidant à détecter, capturer et agir sur les messages inappropriés dans votre organisation.
 
-Par Microsoft Teams, la conformité des communications vous permet d’identifier les [types](/microsoft-365/compliance/communication-compliance-feature-reference) de contenus inappropriés suivants dans les canaux Teams ou dans les conversations en tête-à-tête et de groupe :
+Par Microsoft Teams, la conformité des communications permet d’identifier les [types](/microsoft-365/compliance/communication-compliance-feature-reference) de contenus inappropriés suivants dans les canaux Teams, les canaux de Teams privés ou dans les conversations en tête-à-tête et de groupe :
 
 - Langage choquant, choquant et choquant
-- Images d’adulte, racy et gory
+- Images pour adultes, racy et gory
 - Partage d’informations sensibles
 
 Pour plus d’informations sur la conformité des communications et la configuration des stratégies pour votre organisation, consultez la conformité des communications [dans Microsoft 365.](/microsoft-365/compliance/communication-compliance)
@@ -46,7 +46,7 @@ La mise en place de la conformité [](/microsoft-365/compliance/communication-co
 Teams administrateurs peuvent configurer des stratégies de conformité des communications aux niveaux suivants :
 
 - **Niveau utilisateur**: les stratégies de ce niveau s’appliquent à Teams utilisateur individuel ou peuvent être appliquées à tous Teams utilisateurs de votre organisation. Ces stratégies couvrent les messages que ces utilisateurs peuvent envoyer dans des conversations à deux ou de groupe. Les communications de conversation pour les utilisateurs sont automatiquement contrôlées dans toutes les Microsoft Teams où les utilisateurs en sont membres.
-- **Teams niveaux :** les stratégies de ce niveau s’appliquent à un canal Microsoft Team. Ces stratégies couvrent les messages envoyés dans le Teams uniquement.
+- **Teams niveaux :** les stratégies de ce niveau s’appliquent à un canal Microsoft Team, y compris à un canal privé. Ces stratégies couvrent les messages envoyés dans Teams canal uniquement.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir sur les messages inappropriés dans Microsoft Teams
 
@@ -54,7 +54,7 @@ Après avoir configuré vos stratégies et reçu des alertes de conformité aux 
 
 ![Supprimer un message dans Teams](./media/communication-compliance-remove-teams-message.png)
 
-Les messages et le contenu supprimés sont remplacés par des notifications pour les utilisateurs qui leur expliquent que le message ou le contenu ont été supprimés et quelle stratégie s’applique à la suppression. L’expéditeur du message ou du contenu supprimé est également informé de l’état de suppression et fournit le contenu du message d’origine pour le contexte relatif à sa suppression. L’expéditeur peut également afficher la condition de stratégie spécifique qui s’applique à la suppression du message.
+Les messages et le contenu supprimés sont remplacés par des notifications pour les utilisateurs qui leur expliquent que le message ou le contenu a été supprimé et quelle stratégie est applicable à la suppression. L’expéditeur du message ou du contenu supprimé est également informé de l’état de suppression et fournit le contenu du message d’origine pour le contexte relatif à sa suppression. L’expéditeur peut également afficher la condition de stratégie spécifique qui s’applique à la suppression du message.
 
 Exemple de conseil de stratégie vu par l’expéditeur :
 

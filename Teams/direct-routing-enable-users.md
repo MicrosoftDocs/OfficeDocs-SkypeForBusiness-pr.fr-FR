@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs d Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075367"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129324"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
 
@@ -42,7 +42,7 @@ Lorsque vous êtes prêt à activer le routage direct pour les utilisateurs, sui
 3. Configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale. 
 4. Affectez Teams mode uniquement aux utilisateurs.
 
-## <a name="create-a-user-and-assign-the-license"></a>Créer un utilisateur et attribuer la licence 
+## <a name="create-a-user-and-assign-the-license"></a>Créer un utilisateur et attribuer la licence
 
 Deux options s’offrent à vous pour créer un utilisateur dans Microsoft 365 ou Office 365. Toutefois, Microsoft recommande à votre organisation de choisir une option pour éviter les problèmes de routage : 
 
@@ -53,9 +53,9 @@ Si votre déploiement Skype Entreprise Online coexiste avec Skype Entreprise 201
 
 Pour plus d’informations sur les conditions de licence, voir licences et [autres conditions requises](direct-routing-plan.md#licensing-and-other-requirements) dans [Planifier le routage direct.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Vérifier que l’utilisateur est domicile en ligne et que le numéro de téléphone n’est pas synchronisé à partir de l’ordinateur local (applicable aux utilisateurs Skype Entreprise Server Voix Entreprise en cours de migration vers Teams Routage direct)
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Vérifier que l’utilisateur est homed online (applicable Skype Entreprise Server Voix Entreprise utilisateurs en cours de migration vers Teams routage direct)
 
-Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Le paramètre OnPremLineUriManuallySet doit également être réglé sur True. Pour ce faire, configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale à l’aide de Skype Entreprise PowerShell en ligne.
+Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Il est également recommandé, mais pas obligatoire, de modifier la gestion de l’uri lineURI de l’offre en local vers le web lors de la migration des utilisateurs vers Teams routage direct. 
 
 1. Connecter une session Skype Entreprise PowerShell online.
 
@@ -64,13 +64,16 @@ Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous po
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Si OnPremLineUriManuallySet est configuré sur False et LineUri est rempli avec un> de numéro de téléphone <E.164, nettoyez les paramètres à l’aide de l’environnement de ligne Skype Entreprise Management Shell local avant de configurer le numéro de téléphone à l’aide de Skype Entreprise Online PowerShell. 
+    Dans le cas où OnPremLineUriManuallySet est définie sur False et LineUri est remplie avec un> <numéro de téléphone E.164, le numéro de téléphone a été affecté sur site et synchronisé avec O365. Si vous voulez gérer le numéro de téléphone en ligne, nettoyez le paramètre à l’aide de Skype Entreprise Management Shell local et synchronisez-le avec O365, avant de configurer le numéro de téléphone à l’aide de Skype Entreprise Online PowerShell. 
 
 1. À partir Skype Entreprise Management Shell, émettre la commande : 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > Ne définissez pas EnterpriseVoiceEnabled sur False, car aucune obligation n’est requise et cela peut entraîner des problèmes de normalisation des plans de numérotation si des téléphones Skype Entreprise hérités sont utilisés et que la configuration hybride client est définie avec UseOnPremDialPlan $True. 
+    
    Une fois les modifications synchronisées sur Office 365 la sortie `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` attendue serait :
 
    ```console
@@ -79,16 +82,22 @@ Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous po
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > Tous les attributs de téléphone des utilisateurs doivent être gérés en ligne avant la mise hors service de votre environnement Skype Entreprise [local.](/skypeforbusiness/hybrid/decommission-on-prem-overview) 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configurer le numéro de téléphone et activer la messagerie vocale et la messagerie vocale d’entreprise 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurer le numéro de téléphone et activer la voix entreprise et la messagerie vocale en ligne 
 
-Après avoir créé l’utilisateur et attribué une licence, l’étape suivante consiste à configurer son numéro de téléphone et sa messagerie vocale. 
+Après avoir créé l’utilisateur et attribué une licence, l’étape suivante consiste à configurer ses paramètres de téléphone en ligne. 
 
-Pour ajouter le numéro de téléphone et activer la messagerie vocale :
  
 1. Connecter une session Skype Entreprise PowerShell online. 
 
-2. Émettre la commande : 
+2. Si vous gérez le numéro de téléphone de l’utilisateur sur site, émettre la commande : 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. Si vous gérez le numéro de téléphone de l’utilisateur en ligne, émettre la commande : 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>

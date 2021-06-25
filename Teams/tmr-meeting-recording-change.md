@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096298"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114013"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -57,7 +57,7 @@ L’utilisation de OneDrive Entreprise et SharePoint pour le stockage d’enregi
 - Prise en charge multigéographique : les enregistrements résident dans une région spécifique de cet utilisateur
 - Prise en charge de Bring Your Own Key (BYOK)
 
-Consultez la liste complète des [fonctionnalités disponibles aujourd’hui et ce à quoi vous pouvez vous attendre au fil du temps.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+Consultez la liste complète des [fonctionnalités disponibles aujourd’hui et ce à quoi vous pouvez vous attendre au fil du temps.](/stream/streamnew/features-new-version-stream) 
 
 Pour plus d’informations, regardez « Nouveautés Microsoft Teams enregistrements de réunion ».
 
@@ -142,7 +142,7 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 
 **Comment gérer les enregistrements d’anciens employés ?**
 
-Étant donné que les vidéos sont comme n’importe quel autre fichier dans OneDrive Entreprise et SharePoint, la gestion de la propriété et de la rétention après le départ d’un employé suit le [processus OneDrive Entreprise et SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process) normal.
+Étant donné que les vidéos sont comme n’importe quel autre fichier dans OneDrive Entreprise et SharePoint, la gestion de la propriété et de la rétention après le départ d’un employé suit le [processus OneDrive Entreprise et SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process) normal.
 
 **Qui est autorisé à afficher l’enregistrement de la réunion ?**
 
@@ -155,9 +155,9 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 
 **Comment gérer les légendes ?**
 
-Les sous-titres Teams enregistrements des réunions ne seront disponibles lors de la lecture que si la transcription était désactivée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
+Les sous-titres Teams enregistrements des réunions ne seront disponibles lors de la lecture que si la transcription était désactivée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
 
-Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer les sous-titres dans l’enregistrement de la réunion, bien que la transcription de la réunion reste disponible sur Teams sauf si vous l’y supprimez. 
+Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer des sous-titres dans l’enregistrement de la réunion, bien que la transcription de la réunion reste disponible sur Teams sauf si vous l’y supprimez. 
 
 Nous prenons en charge les sous-titres codés pour les enregistrements de réunion Teams pendant 60 jours à compter de la date d’enregistrement de la réunion.
 
