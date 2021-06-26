@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en République tchèque Microsoft Teams.
-ms.openlocfilehash: f0f5d3243595590571112df2b697000d871c5fd2
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: 733a58dfc50c16493289f9d6d13c401d4d0c983a
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993977"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147172"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Téléphone de numéro pour la République tchèque
 
@@ -38,7 +38,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
 |Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration. |En République tchèque, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>Nouvelle demande de numéro de téléphone pour la République tchèque [(v.1.0) cs-CZ.](https://download.microsoft.com/download/9/0/c/90c1b1c3-048f-4ee1-b741-f93911635271/know-your-customer-for-the-czech-republic-(v1.0)-(cs-CZ).pdf) <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
-|Obtenez des numéros de téléphone qui nous sont transférés. | Téléchargez ce formulaire. <br/><br/>[Lettre d’autorisation pour la République tchèque (tous les numéros) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment. |
+|Obtenez des numéros de téléphone qui nous sont transférés. | Téléchargez ce formulaire. <br/><br/>[Lettre d’autorisation pour la République tchèque (tous les numéros) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez transférer des numéros.<br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment. |
 |Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
 |Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
 |Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le parc d’appels et récupérer pour mettre un appel en attente dans Microsoft Teams.
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197579"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147182"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -46,6 +46,8 @@ Pour parer et récupérer des appels, un utilisateur doit être un Voix Entrepri
 ## <a name="configure-call-park-and-retrieve"></a>Configurer le parc d’appel et la récupération
 
 Vous devez être un administrateur Teams configuration du parc d’appels et de la récupération. Il est désactivé par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parc d’appels. Lorsque vous appliquez la même stratégie à un groupe d’utilisateurs, ceux-là peuvent se parer et récupérer des appels entre eux.
+
+La plage de numéros d’appel est prédéfinée de 10 à 99 et ne peut pas être modifiée. Le premier appel paré s’intituera sur un code de pick-up du 10, le code d’appel 11, etc. sera restituer l’appel en place. jusqu’à ce que 99 soit rendu en tant que code de pick-up. Par la suite, les codes d’pick-up restituer à partir de 10 recommencent.  S’il y a plus de 89 appels en cours parés, les codes d’pick-up restituer continueront d’être incrémentés au-delà de 99, de telle telle que le 90e appel par parcé sera rendu 100 pour un code de pick-up, le 91e appel en cours sera rendu avec le code de collecte 101.
 
 Pour activer une stratégie de parc d’appels
 

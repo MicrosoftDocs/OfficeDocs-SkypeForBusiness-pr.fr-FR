@@ -1,11 +1,11 @@
 ---
-title: Restrictions de numérotation gratuit au Mexique
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: Restrictions de numérotation gratuites au Canada
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur les numéros d’appel gratuits au Mexique, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+description: En savoir plus sur la numérotation des numéros gratuits au Canada, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
+ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
 ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142830"
+ms.locfileid: "53142910"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>Restrictions de numérotation gratuit au Mexique
+# <a name="toll-free-dialing-restrictions-in-canada"></a>Restrictions de numérotation gratuites au Canada
 
 [Trouvez un autre pays ou une autre région,](../toll-free-dialing-limitations-and-restrictions.md)ou apprenez-en davantage sur les restrictions et limitations de numérotation gratuites.
 
@@ -39,7 +39,7 @@ ms.locfileid: "53142830"
 |:-----|:-----|
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|Code ISO de pays/région  <br/> |MX  <br/> |
+|Code ISO de pays/région  <br/> |CAN  <br/> |
 |Île/territoire couvert par  <br/> |Samoa américaines, Anguilla, Antigua-et-Barbuda, Bahamas, Barbade, Bermudes, Îles Vierges britanniques, Canada, Caïmans, Îles Caïmans, République dominicaine, Landada, Guam, Jamaïque, Montserrat, Îles Mariannes du Nord, Porto Rico, Saint-Kitts-et-Nevis, #A0, Saint-Vincent-et-les-Grenadines, #A0, Trinité-et-Tobago, Îles Turques-et-Caïques, États-Unis, Îles Vierges <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
