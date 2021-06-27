@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993867"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114123"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Données de diagnostic de mobiles requises pour Microsoft Teams
 
@@ -1249,6 +1249,9 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 -- **TfLSignInSuccessful** : déclenché lorsque l’utilisateur se connecte à un compte Microsoft personnel. Cela est nécessaire pour comprendre la fiabilité de la connexion et de l’inscription, et identifier et résoudre les problèmes de manière proactive.
 -- **TfWFreemiumSignInSuccessful**: déclenché lorsque l’utilisateur se connecte avec succès à un compte freemium. Cela est nécessaire pour comprendre la fiabilité de la connexion et de l’inscription, et identifier et résoudre les problèmes de manière proactive.
 -- **TfWSignInSuccessful**: déclenché lorsque l’utilisateur se connecte correctement à un compte professionnel ou scolaire. Cela est nécessaire pour comprendre la fiabilité de la connexion et de l’inscription, et identifier et résoudre les problèmes de manière proactive.
+- **appDrawer** : déclenché lorsque le tiroir de l’application est ouvert avec succès.
+- **appPolicyChange** : déclenché lorsqu’un utilisateur réinitialise et enregistre une nouvelle commande d’onglets localement.
+- **app_stageview** : déclenché lorsqu’un affichage étendu est correctement rendu.
 
 ### <a name="scenario"></a>Scénario
 
@@ -1341,6 +1344,40 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 - **show_meeting_participants**: confirme que l’affichage de la liste des participants à la réunion a réussi ou échoué.
 - **search**: confirme que l’ensemble de la session de recherche a réussi ou échoué.
 - **time_based_retention_shared_channel** : capture les données de performances pour le nettoyage de la base de données.
+- **sync_user_entitlements_and_app_definitions** : appel de service requis pour extraire aggregatedEntitlements.
+- **bots_load_mediacards** : capture les instances lorsque les cartes de connecteur sont configurées dans la conversation et le canal.
+- **bots_load_one_card** : capture si au moins une carte est présente et chargée lors de la conversation avec un bot.
+- **load_assignments** : capture une gestion exceptionnelle du chargement de l’application d’affectation.
+- **load_channel_tab** - Capture le chargement de l’onglet de canal. (Android uniquement)
+- **load_messaging_extension_results** : capture le chargement du résultat de la recherche/requête d’extension de messagerie. (Android uniquement)
+- **load_static_tab** - Capture le chargement de l’onglet de statique. (Android uniquement)
+- **app_authenticated** : confirme que l’authentification est réussie et qu’un jeton est extrait. (Android uniquement)
+- **blocked_by_conditional_access** - Lors de la réception de l’accès conditionnel, le code d’erreur bloqué lors de l’authentification. (nous essayons de forcer l’actualisation du jeton principal dans ce cas). (Android uniquement)
+- **get_resource_token_sync** - Déclenché lorsque nous essayons d’extraire le jeton pour les ressources d’application de façon synchrone. (Android uniquement)
+- **get_resource_token_sync** - Déclenché lorsque nous essayons d’extraire un jeton pour les ressources d’application de façon asynchrone. (Android uniquement)
+
+## <a name="oneplayer-events"></a>Événements OnePlayer
+> [!NOTE]
+> Pour les événements OnePlayer, seules les propriétés répertoriées dans les [listes de propriétés pour les événements OnePlayer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) s’appliquent.
+### <a name="oneplayer-user-action-events"></a>Événements d’action utilisateur OnePlayer
+- **PlayerPlay** - Confirme si l’utilisateur appuie sur le bouton de lecture dans l’affichage OnePlayer.
+- **PlayerPause** - Confirme si l’utilisateur appuie sur le bouton suspendre dans la vue OnePlayer.
+- **PlayerSeek** - Confirme si l’utilisateur recherche la vidéo à l’aide de la barre de recherche ou des boutons avant/arrière dans la vue OnePlayer (iOS uniquement).
+- **VideoPlayerSeekForward** - Confirme si l’utilisateur recherche la vidéo à l’aide de la barre de recherche ou des boutons Avant dans la vue OnePlayer (Android uniquement).
+- **VideoPlayerSeekBackward** - Confirme si l’utilisateur recherche la vidéo à l’aide de la barre de recherche ou des boutons Arrière dans la vue OnePlayer (Android uniquement).
+- **ChangePlaybackSpeed** : confirme si l’utilisateur a sélectionné une nouvelle vitesse de lecture.
+- **changePlaybackQuality** - Confirme si l’utilisateur a sélectionné une nouvelle qualité vidéo pour la lecture.
+- **ShareVideo** - Confirme si l’utilisateur a appuyé sur l’icône de partage.
+- **PlayerClose** - Confirme si l’utilisateur a appuyé sur l’icône fermer.
+- **VideoCaptionsOn** - Confirme si l’utilisateur a basculé sur les sous-titres.
+- **VideoCaptionsOff** - Confirme si l’utilisateur a désactivé les sous-titres.
+- **ChangePlayerOrientation** : confirme si l’utilisateur a modifié l’orientation de l’appareil.
+- **OpenPlayerSettingsMenu** - Confirme si l’utilisateur a ouvert le menu paramètres.
+- **OpenPlaybackSpeedMenu** - Confirme si l’utilisateur a ouvert le menu vitesse de lecture.
+- **PlayerAction** : action personnalisée fournie par l’application hôte.
+
+### <a name="oneplayer-playback-events"></a>Événements de lecture OnePlayer
+- **PlayerHeartbeat** : il s’agit d’un événement récurrent qui envoie l’état actuel du joueur et de la lecture à un journal.
 
 ## <a name="property-lists"></a>Listes des propriétés
 
@@ -1439,3 +1476,101 @@ Pour plus d’informations sur les données de diagnostic, notamment sur la faç
 | Nom de la propriété | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | Contient la chaîne d’erreur et des détails sur les raisons pour lesquelles une défaillance s’est produite |
+
+## <a name="property-lists-for-oneplayer-events"></a>Listes de propriétés pour les événements OnePlayer
+
+### <a name="1-properties-sent-with-all-oneplayer-events"></a>1. Propriétés envoyées avec tous les événements OnePlayer
+##### <a name="11-standard-properties"></a>1.1 Propriétés standard
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | Type d’événement (AppLogic, ErrorAlert, Performance, UserAction) |
+| accountType   | Type de compte d’utilisateur (par exemple, entreprise) |
+| composant     | OnePlayer |
+| language      | Paramètres régionaux/langue de l’application |
+| platform      | Plateforme de OnePlayer (iOS/Android) |
+| tenantId      | ID du locataire|
+| version       | Version de OnePlayer utilisée |
+| aadUserId     | ID de l’utilisateur |                                
+
+##### <a name="12-player-properties"></a>1.2 Propriétés du joueur
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | Nom du lecteur sous-jacent (AVFoundation pour iOS/ExoPlayer pour Android) |
+| engineVersion | Version du système d’exploitation. |
+| loadMode      | Mode de chargement du lecteur |
+| playbackSessionId | ID de session pour la lecture |
+
+##### <a name="13-host-properties"></a>1.3 Propriétés de l’hôte 
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | Type d’intégration de l’hôte (par exemple, Package, OneUp) |
+| hostPlatform  | Plateforme pour l’application hôte |
+| hostProperties| Propriétés de l’hôte, le cas échéant (iOS uniquement) |
+| hostApp       | Nom de l’application hôte |
+| hostVersion   | Version de l’application hôte |
+
+##### <a name="14-experimentation-properties"></a>1.4 Propriétés d’expérimentation
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| ring          | Ring auxquel appartient l’utilisateur. |
+| hostSettings  | Attributs définis par l’application hôte (moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
+| flightFilters | Description |
+| flightsOverridden | Bool pour les vols remplacés ou non |
+
+##### <a name="15-service-properties"></a>1.5 Propriétés du service
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | Type de contenu servi |
+| source   | Nom d’un environnement  |
+| mediaService  | Quel service multimédia est utilisé (SPO, ODB, ODC, IC3-AMS, Inconnu) |
+| mediaType     | Type du média lu  |
+| playbackTech  | Technologie de lecture du média  |
+| correlationId | ID de corrélation pour le média, le cas échéant |
+
+### <a name="2-properties-sent-with-all-oneplayer-user-action-events"></a>2. Propriétés envoyées avec les événements d’action utilisateur OnePlayer 
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | Type d’action en cours d’exécution, comme appuyer, faire glisser et faire glisser (iOS uniquement)|
+| isIntentional | Valeur booléenne si l’action est intentionnelle ou non (iOS uniquement) |
+
+#### <a name="21-properties-sent-with-changeplaybackquality-event"></a>2.1 Propriétés envoyées avec l’événement changePlaybackQuality
+| Nom de la propriété | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | qualité de lecture actuelle |
+
+#### <a name="22-properties-sent-with-changeplaybackspeed-event"></a>2.2 Propriétés envoyées avec l’événement ChangePlaybackSpeed
+| Nom de la propriété | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | Taux de lecture précédent de la vidéo (iOS uniquement) |
+| currentPlaybackRate   | Taux de lecture actuel de la vidéo |
+
+#### <a name="23-properties-sent-with-playerseek-event-ios-only"></a>2.3 Propriétés envoyées avec l’événement PlayerSeek (iOS uniquement)
+| Nom de la propriété | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | Source de la recherche (seekbar, forwardButton, backwardButton) |
+| seekValue     | Rechercher une position |
+
+### <a name="3-properties-sent-with-oneplayer-heartbeat-event"></a>3. Propriétés envoyées avec l’événement de pulsation OnePlayer
+| Nom de la propriété | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | Heure de lecture actuelle du média (iOS uniquement)|
+| isLoaded | Est-ce que le média est chargé |
+| loadTimeMs | Temps de chargement en millisecondes |
+| numberOfStalls | Nombre de blocages pendant la lecture (iOS uniquement) |
+| bufferingCount | Nombre de blocages pendant la lecture (Android uniquement) |
+| observedBitrate | Taux de bits observé pendant la lecture (iOS uniquement) |
+| avgBitrateBitsPerSecond | Taux de bits observé pendant la lecture (Android uniquement) |
+| playedSeconds | Lecture en secondes jusqu’à l’événement |
+| rebufferingSeconds | Rebuffer des secondes pendant la lecture |
+| timeSinceSourceSetMs | Durée depuis laquelle la source a été définie (ms) |
+| triggerType | Type de déclencheur (mise en mémoire tampon, erreur, errorLog, canPlayThrough, intervalBeat, jeu de sources, déchargement) |
+| errorId | ID d’erreur de l’erreur, le cas échéant |
+| errorCorrelationId | ID de corrélation d’erreur pour l’erreur, le cas échéant |
+| errorLog | Journal des erreurs pour l’erreur, le cas échéant |
+| errorType | Type d’erreur pour l’erreur, le cas échéant |
+| errorMessage | Message d’erreur pour l’erreur, le cas échéant |
+| errorStack | Informations d’erreur étendues pour l’erreur, le cas échéant |
+| metaUrl | URL de méta pour le média |
+| odspDocId | ID de document ODSP pour le média |
+| siteId | ID de site pour le média |
+| teamsCallId | ID d’appel Teams pour le média, le cas échéant |
