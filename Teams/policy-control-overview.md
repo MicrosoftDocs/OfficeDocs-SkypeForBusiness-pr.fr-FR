@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863215"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142810"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Vue d’ensemble du contrôle de stratégie pour Microsoft Teams
 
@@ -35,7 +35,7 @@ Cet article a pour but de vous fournir des informations sur les contrôles de co
 Dans le cadre de ces modifications, vous remarquerez des nouveautés et des améliorations pour les éléments de l’interface utilisateur et les paramètres de stratégie
 
 > [!IMPORTANT]
-> Si vous souhaitez en savoir plus, consultez le contenu intitulé [Vue d’ensemble du contrôle des stratégies](/deployoffice/privacy/overview-privacy-controls) pour Microsoft 365.
+> Pour plus d’informations, consultez [Vue d’ensemble de contrôles de confidentialité pour Microsoft 365 Apps for enterprise](/deployoffice/privacy/overview-privacy-controls).
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Données de diagnostic envoyées à Microsoft par Microsoft 365 Apps for enterprise.
 
