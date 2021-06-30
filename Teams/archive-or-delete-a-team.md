@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97cce8577c2d3c23e097f5e3bf5d819d51a16b10
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 88c5bf29717efaa75f166e515006cfdb39461448
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856363"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186923"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 
@@ -113,3 +113,7 @@ Par défaut, un groupe de Microsoft 365 supprimé est conservé pendant 30 jours
     ```
 
     L’exécution du processus de restauration peut prendre jusqu’à 24 heures, après quoi l’équipe et le contenu associé à l’équipe, y compris les onglets et les canaux, s’affichent dans Teams.
+    
+## <a name="related-topics"></a>Voir aussi
+
+- [Archiver ou restaurer une équipe](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
+ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891281"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203613"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -95,12 +95,12 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 
 ### <a name="add-attribute-columns"></a>Ajouter des colonnes d’attribut
 
-Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement ceux sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut sont mutuellement exclusives.
+Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement celles sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut s’excluent mutuellement.
 
 |Méthodes d’ajout d’attributs|Description |Exemple  |
 |---|---------|---------|
 |Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
-|Si vous devez indiquer plusieurs valeurs pour un attribut et que les valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
+|Si vous devez indiquer plusieurs valeurs pour un attribut et que ces valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
 
 Lorsque vous ajoutez une colonne d’attribut, gardez les éléments suivants à l’esprit :
 
@@ -116,7 +116,7 @@ En classant les éléments de travail une fois de façon centralisée, l’équi
 
 Lorsque vous ajoutez une colonne de compartiment, notez ce qui suit :
 
-* Le nom de la colonne devient le nom du compartiment. Chaque compartiment que vous spécifiez apparaîtra dans la liste compartiments du Teams applications qui utilisent la hiérarchie.
+* Le nom de la colonne devient le nom du compartiment. Chaque compartiment que vous spécifiez apparaîtra dans la liste Compartiments du Teams applications qui utilisent la hiérarchie.
 * Nous vous recommandons de ne pas inclure d’informations sensibles dans les noms de compartiment. Pour le moment, les équipes de publication ne peuvent pas supprimer un compartiment via la publication après sa création.
 * Le nom de la colonne doit être précédé d’un hashtag (#). Il peut comporter jusqu’à 100 caractères et contenir uniquement les caractères A-Z, a-z et 0-9. Par exemple, #Operations et #Frozen Produits.
 * Une hiérarchie peut contenir jusqu’à 25 colonnes de compartiment. Nous prévoyons de travailler avec des clients afin d’augmenter cette limite pour les grandes organisations.
@@ -150,6 +150,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## <a name="apply-your-hierarchy"></a>Appliquer votre hiérarchie
 
+> [!NOTE] 
+> Pour effectuer cette étape, vous devez installer et utiliser le module Teams d’aperçu public PowerShell à partir de la galerie PowerShell. Pour savoir comment installer le module, voir Installer Teams PowerShell.
+
+> [!NOTE]
+> Cloud de la communauté du secteur public clients (Cloud de la communauté du secteur public) doivent utiliser la version d’aperçu de [l’cmdlet version 2.4.0 ou](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) ultérieure pour s’assurer que les données sont acheminées vers l’environnement Cloud de la communauté du secteur public plutôt que vers l’environnement cloud public.
+
 Après avoir défini votre hiérarchie dans le fichier de schéma CSV, vous êtes prêt à la télécharger sur Teams. Pour ce faire, exécutez la commande suivante. Vous devez être un administrateur global ou un Teams de service pour cette étape.
 
 ```powershell
@@ -181,7 +187,7 @@ FileName | Nom du fichier CSV.
 
 ## <a name="remove-your-hierarchy"></a>Supprimer votre hiérarchie
 
-Si vous souhaitez désactiver  immédiatement l’onglet Listes publiées pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs n’ont pas accès à l’onglet **Listes** publiées ou à l’une des fonctionnalités de l’onglet.  Cela inclut la possibilité de créer des listes des tâches à publier, d’accéder à des brouillons de listes, de publier, de republier et de dupliquer des listes, et d’afficher les rapports. La suppression de la hiérarchie ne supprime pas les tâches publiées précédemment. Ces tâches restent disponibles pour les équipes de destinataires.
+Si vous souhaitez désactiver  immédiatement l’onglet Listes publiées pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs n’ont pas accès à l’onglet **Listes** publiées ou à l’une des fonctionnalités de l’onglet.  Cela inclut la possibilité de créer des listes des tâches pour publier, accéder à des brouillons de listes, publier, republier et dupliquer des listes, et afficher les rapports. La suppression de la hiérarchie ne supprime pas les tâches publiées précédemment. Ces tâches restent disponibles pour les équipes de destinataires.
 
 Pour supprimer votre hiérarchie, exécutez la commande suivante. Vous devez être un administrateur pour effectuer cette étape.
 
@@ -272,7 +278,7 @@ Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichie
 
 Assurez-vous que l’TeamId de votre fichier CSV de schéma correspond à l’ID de groupe qui s’affiche dans le Microsoft Teams d’administration.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 * [Gérer l’application Tâches pour votre organisation dans Teams](manage-tasks-app.md)
 * [Présentation de Teams PowerShell](teams-powershell-overview.md)
