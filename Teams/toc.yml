@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: Configurer la hiérarchie de ciblage de votre équipe
         href: set-up-your-team-hierarchy.md
+      - name: Conversation supervisée pour les locataires non scolaires
+        href: supervised-chat-non-edu.md
   - name: 'Réunions, conférences, et événements en direct'
     items:
       - name: 'Démarrage rapide : réunions et événements en direct'
