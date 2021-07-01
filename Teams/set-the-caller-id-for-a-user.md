@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur Microsoft 365 et Office 365'ID d’appelant par défaut (le numéro de téléphone affecté d’un utilisateur), également appelé ID de ligne d’appel. Vous pouvez modifier ou bloquer l’ID d’appelant d’un utilisateur.
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308333"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230601"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
 
@@ -39,6 +39,7 @@ Par défaut, les paramètres d’ID d’appelant suivants **sont désactivés.**
     
   > [!NOTE]
   > Si vous souhaitez utiliser le paramètre *Service,* vous devez spécifier un numéro de service valide.
+  > Vous devez utiliser les cmdlets PowerShell pour le numéro de compte de la ressource si cette valeur n’est pas visible dans la ligne du bas.
   
 - **Bloquer l’ID d’appelant sortant** Vous pouvez empêcher l’ID d’appelant sortant d’être envoyé lors des appels RSTN sortants d’un utilisateur. Ce faisant, vous empêchez son numéro de téléphone d'être affiché sur le téléphone d'une personne contactée.
     
@@ -56,7 +57,7 @@ Pour en savoir plus sur ces paramètres et sur leur utilisation, consultez comme
 ## <a name="set-your-caller-id-policy-settings"></a>Définir vos paramètres de stratégie d'ID d'appelant
 
 > [!NOTE]
-> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Microsoft Teams d’administration.) 
+> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Centre Microsoft Teams’administration.) 
 
 Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes :
 
@@ -138,7 +139,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
 - [Six raisons d’utiliser des Windows PowerShell pour gérer des Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
 - [Les meilleures façons de gérer Microsoft 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

@@ -23,22 +23,26 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et une assistance au service PSTN.
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121352"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219151"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Informations de contact du service PSTN Service Desk
 
 Pour contacter l’équipe de service PSTN Service Desk, envoyez un courrier électronique à l’alias approprié répertorié dans le tableau suivant.
 
+> [!NOTE]
+> Un nouveau processus d’interaction avec le service RSTN sera disponible prochainement. À ce moment-là, le système de courrier actuel sera retiré. Le nouveau processus vous permet d’ouvrir des tickets, de suivre vos communications et de consulter vos tickets de société dans un seul endroit intégré au Centre d’administration Teams entreprise. D’autres mises à jour seront mises à jour au cours des prochaines semaines.
+<br>
+
 | **Je souhaite transférer/transférer des numéros existants**  | **Je souhaite commander de nouveaux numéros pour** |
 |:-----:|:------:|
 | [**Aux États-Unis ou au Canada,** envoyez-nous un e-mail à ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgique, France, Allemagne, Grande-Bretagne, Irlande, Pays-Bas, Espagne, Suède, Suisse,** envoyez-nous un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[**En dehors des États-Unis ou du Canada,** envoyez-nous un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Partout dans le monde,** envoyez-nous un e-mail à gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
-|En raison d’un pic important dans les demandes entrantes, l’équipe de transfert en **Amérique** du Nord est en backlog. Nous travaillons à l’effacer du backlog sur la base du fiFO (Premier servi, premier sorti) et dès lors, notre réponse aux nouvelles demandes sera **retardée.**|En raison d’un pic important dans les demandes entrantes, **l’équipe européenne de transfert** est en backlog. Nous travaillons à l’effacer du backlog sur la base du fiFO (Premier servi, premier sorti) et dès lors, notre réponse aux nouvelles demandes sera **retardée.**|
+|En raison d’un pic important dans les demandes entrantes, l’équipe de transfert en **Amérique** du Nord est en backlog. Nous travaillons à l’effacer du backlog sur la base du programme FIFO (Premier servi, premier sorti) et dès lors, notre réponse aux nouvelles demandes sera **retardée.**|En raison d’un pic important dans les demandes entrantes, **l’équipe européenne de transfert** est en backlog. Nous travaillons à l’effacer du backlog sur la base du programme FIFO (Premier servi, premier sorti) et dès lors, notre réponse aux nouvelles demandes sera **retardée.**|
 
 > [!NOTE]
 > Les réponses en Amérique du Nord peuvent être retardées en raison d’une augmentation importante des demandes entrantes. Le backlog est en cours d’effacé sur la base d’un groupe de directeurs d’entreprise (premier servi, premier sorti).
@@ -57,10 +61,10 @@ Envoyez un e-mail à l’alias de messagerie approprié dans le tableau ci-dessu
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- Pour obtenir de l’aide relative à la configuration et à la configuration des numéros, aux licences, aux frais ou à la facturation, voir Contact de support pour les produits professionnels - Aide de [l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
+- Pour obtenir de l’aide relative à la configuration/à la configuration des numéros, aux licences, aux frais ou à la facturation, voir Contact du support pour les produits professionnels - Aide de [l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 - Pour plus d’informations sur les forfaits d’appels disponibles dans votre pays ou région, consultez la disponibilité des pays et de la région pour les plans [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Pour plus d’informations sur la sélection du ou des types de numéros de téléphone appropriés pour votre organisation, consultez les différents types de numéros de téléphone utilisés pour [les plans d’appel.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- Pour plus d’informations sur la façon de configurer des numéros de téléphone pour votre organisation, voir Contact de support pour les produits [pour les entreprises - Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
+- Pour plus d’informations sur la sélection du ou des types de numéros de téléphone appropriés pour votre organisation, consultez les différents types de numéros de téléphone utilisés pour les [plans d’appel.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- Pour plus d’informations sur la façon de configurer des numéros de téléphone pour votre organisation, voir Contact du support pour les produits pour les entreprises [- Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

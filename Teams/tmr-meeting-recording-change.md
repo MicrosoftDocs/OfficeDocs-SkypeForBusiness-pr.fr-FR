@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114013"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219121"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -35,6 +35,7 @@ ms.locfileid: "53114013"
 |Déploiement à compter du 7 janvier 2021<br> *(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Tous les nouveaux enregistrements des réunions Teams s’effectueront dans OneDrive Entreprise et SharePoint, sauf si vous retardez ce changement en modifiant les stratégies de réunion Teams de votre organisation et en les définissant explicitement sur **Stream**. Il ne suffit pas de voir les comptes-rendus de stratégie sous la forme Stream. Vous devez définir explicitement la valeur de la stratégie sur **Stream**.|
 |Déploiement à compter du 11 janvier 2021<br> *(Complet)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Cloud de la communauté du secteur public uniquement**<br> Alors les clients du Cloud de la communauté du secteur public peuvent refuser cette option à compter du 5 octobre, vous n’avez pas le choix. Nous déploierons cette fonctionnalité à tous les clients du Cloud de la communauté du secteur public à compter du 11 janvier 2021, sauf si vous avez refusé.<br>  <br>À compter du 11 janvier 2021, tous les nouveaux enregistrements des réunions Teams pour les clients du Cloud de la communauté du secteur public s’effectueront dans OneDrive Entreprise et SharePoint, sauf si vous retardez ce changement en modifiant les stratégies de réunion Teams de votre organisation et en les définissant explicitement sur **Stream**. <br><br>Si vous avez refusé mais souhaitez activer cette fonctionnalité, vous pouvez le faire en choisissant de définir explicitement votre stratégie de réunion Teams sur **OneDrive Entreprise**. |
 |Déploiement à compter du 1er mars 2021 <br> *(Terminé)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High et DoD uniquement**<br> Les clients peuvent à présent activer pour la première fois les enregistrements de réunions cloud dans leurs systèmes Microsoft Teams. Le stockage et la lecture de ces enregistrements s’effectueront sur OneDrive et SharePoint par défaut. |
+|Déploiement à partir du 7 juillet 2021<br> *(Terminé)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et Cloud de la communauté du secteur public)**<br> Pour une réunion Teams enregistrée sur OneDrive et SharePoint et transcrite en direct pendant la réunion, vous pouvez à présent rechercher dans Recherche Microsoft le fichier d’enregistrement de la réunion en fonction de la transcription. |
 |Déploiement incrémentielle à partir du 16 août 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Tous les clients (Entreprise, Éducation et Cloud de la communauté du secteur public)**<br>Aucun nouvel enregistrement de réunion ne peut s’effectuer dans Microsoft Stream (Classique) ; tous les clients enregistrent automatiquement leurs réunions dans OneDrive Entreprise et SharePoint, même s’ils ont redéfini leur stratégie de réunion Teams sur Stream.<br><br> Nous recommandons aux clients, pour mieux contrôler le changement dans votre organisation, de s’y prendre à l’aise au lieu d’attendre qu’elle se produise. |
 
 Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
@@ -53,6 +54,7 @@ L’utilisation de OneDrive Entreprise et SharePoint pour le stockage d’enregi
 - Possibilité de demander des flux d’accès
 - Offre des liens partagés OneDrive Entreprise et les sites SharePoint
 - Les enregistrements de réunion sont disponibles plus rapidement
+- Transcription de base de la recherche enregistrée dans votre réunion
 - Prise en charge des clients **Go local**
 - Prise en charge multigéographique : les enregistrements résident dans une région spécifique de cet utilisateur
 - Prise en charge de Bring Your Own Key (BYOK)
@@ -155,7 +157,7 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 
 **Comment gérer les légendes ?**
 
-Les sous-titres Teams enregistrements des réunions ne seront disponibles lors de la lecture que si la transcription était désactivée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
+Les sous-titres Teams enregistrements des réunions ne seront disponibles pendant la lecture que si la transcription a été désactivée par l’utilisateur au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement via](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) une stratégie pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
 
 Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer des sous-titres dans l’enregistrement de la réunion, bien que la transcription de la réunion reste disponible sur Teams sauf si vous l’y supprimez. 
 
