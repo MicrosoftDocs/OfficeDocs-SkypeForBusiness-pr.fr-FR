@@ -18,12 +18,12 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863255"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230541"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
@@ -46,7 +46,7 @@ Nous avons activé la préversion publique par utilisateur, et une stratégie d�
 3. Sélectionnez **Ajouter**.
 4. Nommez la stratégie de mise à jour, ajoutez une description, puis activez **Afficher les fonctionnalités en préversion**.
 
-Vous pouvez également définir la stratégie à l’aide de PowerShell en utilisant le `CsTeamsUpdateManagementPolicy` cmdlet.
+Vous pouvez également définir la stratégie à l’aide de PowerShell à l’aide du `Set-CsTeamsUpdateManagementPolicy`cmdlet avec le `-AllowPreview` paramètre booléen.
 
 ## <a name="enable-public-preview"></a>Activer la préversion publique
 
